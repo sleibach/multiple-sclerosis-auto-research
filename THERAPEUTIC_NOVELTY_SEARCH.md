@@ -74,3 +74,26 @@ An important adverse mechanistic precedent is Rosiewicz et al., *Glia* 2023, DOI
 ### Novelty Question Still Open
 
 If independent cell-state validation passes, searches must determine whether any publication, preprint, trial document, or patent already proposes selecting EHP-101 recipients by `EGLN1`/PHD2-high foamy microglia, chronic-active/paramagnetic-rim lesions, or a corresponding accessible biomarker. Until that search and a usable living-patient assay succeed, this remains a registered hypothesis rather than a finding.
+
+## `ACSL1` Foamy-Microglia Target
+
+After the `EGLN1` branch failed, the restricted proteome/snRNA convergence screen nominated `ACSL1`. Searches below assess whether the target claim is already published or patented for MS.
+
+| Database | Query | Result |
+|---|---|---|
+| PubMed E-utilities | `(ACSL1 OR "acyl-CoA synthetase 1" OR "long-chain acyl-CoA synthetase 1") AND ("multiple sclerosis" OR demyelination OR EAE OR microglia)` | 11 broad hits. The returned titles were adjacent neurodegeneration/microglia papers or general demyelination reviews, not direct ACSL1-MS intervention papers. |
+| PubMed E-utilities | `ACSL1 AND "multiple sclerosis"` | 0 hits. |
+| PubMed E-utilities | `ACSL1 AND experimental autoimmune encephalomyelitis` | 0 hits. |
+| Europe PMC | `ACSL1 AND TITLE_ABS:"multiple sclerosis"` | 21 hits, mostly reviews or broad MS omics records; no direct ACSL1-MS therapeutic or foamy-lesion target claim identified in the inspected top results. |
+| bioRxiv / medRxiv web search | `site:biorxiv.org ACSL1 "multiple sclerosis"`; `site:medrxiv.org ACSL1 "multiple sclerosis"` | No direct ACSL1-MS therapeutic preprint found. |
+| ClinicalTrials.gov API v2 | `ACSL1`; `"long-chain acyl-CoA synthetase 1"`; `triacsin C` | 0 relevant trials. `"acyl-CoA synthetase 1"` produced one unrelated ACSS2 oncology record due text matching. |
+| Google Patents | `ACSL1 multiple sclerosis inhibitor`; `"ACSL1" "multiple sclerosis"`; `"acyl-CoA synthetase 1" "multiple sclerosis"`; `"ACSL1" microglia` | No direct MS ACSL1 therapeutic claim found. Closest non-MS records included ACSL1 antisense, leukemia ACSL1 use, and broad immune-disorder patents where ACSL1 appears in definitions or expression lists. |
+| Espacenet web search | `ACSL1 multiple sclerosis inhibitor`; `"acyl-CoA synthetase 1" "multiple sclerosis"` | No direct MS ACSL1 therapeutic claim surfaced through accessible web-indexed results. |
+
+Closest prior art:
+
+- Van der Vliet et al. 2026 directly establish foamy microglia in MS and nominate MAGL, not ACSL1.
+- Feng et al. 2025 directly establish MIMS/rim niches and DHCR24/sterol-efflux biology, not ACSL1 intervention.
+- Haney et al. 2024, Han et al. 2025, and Hao et al. 2026 establish ACSL1 lipid-droplet microglia in AD/PD/AUD-like contexts, not MS.
+
+Current novelty position: the ACSL1-MS claim appears novel in the searched literature and patent surface, but it is a target hypothesis without freedom-to-operate assurance.

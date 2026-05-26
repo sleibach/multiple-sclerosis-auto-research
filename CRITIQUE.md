@@ -30,3 +30,15 @@ This criticism has partially materialized: the source paper itself already shows
 **Attack:** The new candidate risks a polarity error. Foamy-lesion elevation of PHD2 protein does not mean pathological cells are harmed by PHD2 function; it may compensate for hypoxia or preserve glial integrity. Rosiewicz et al. report worsened neuroinflammation after astrocytic PHD2/3 deletion. Further, EHP-101 is a multitarget cannabinoquinone (`CB2`, `PPARgamma`, PP2A/B55alpha/HIF) rather than a selective `EGLN1` inhibitor, so an `EGLN1` biomarker may not predict response.
 
 **Response required:** A positive independent microglial state result can at most justify an enrichment biomarker hypothesis for empirical EHP-101 testing, not claim causal PHD2 inhibition. Falsification must include human iPSC-derived microglia/astrocyte co-cultures stratified by `EGLN1` state, EHP-101 response versus selective PHD2 perturbation, and an astrocyte injury stop criterion. Failure to show selective benefit in the high-state samples kills the proposition.
+
+## Critique 5: `ACSL1` Could Be Another Lipid-State Marker, Not A Target
+
+**Attack:** The ACSL1 result may simply mark foamy lipid handling rather than drive it. The strongest human result is proteomic/transcriptomic association, while the spatial MERFISH result is only directional (`p=0.0625` in the T-near contrast, `p=0.3125` in the pathological-vs-homeostatic contrast). Also, existing ACSL chemical matter is nonselective and not CNS-validated. Calling this a therapeutic target risks over-promoting a biomarker.
+
+**Response:** The final claim is constrained to a drug-discovery target hypothesis, not a clinic-ready candidate. It survives only because cross-domain microglia studies in AD, PD and AUD-like models provide causal ACSL1 perturbation evidence for lipid-droplet microglia, and because current CNS RNA-delivery/ASO technology makes a target program plausible. The finding explicitly requires human microglia/myelin-debris knockdown and rescue before any in-vivo MS claim. Failure to reduce lipid-droplet/inflammatory outputs while preserving myelin clearance rejects the target.
+
+## Critique 6: MIMS2 Reconstruction May Be Circular
+
+**Attack:** The `GSE301908` validation uses `GPNMB`/`APOE` to define MIMS2-like cells. That will inevitably enrich lipid-state genes and could favor lipid enzymes such as ACSL1. This is better than bulk scoring, but it is still a marker-defined surrogate rather than deposited subcluster labels or true spatial assignment.
+
+**Response:** The public RDS lacks the deposited `sub` labels, so the exact planned contrast was impossible. The reconstruction excludes ACSL1 and uses author-code markers; promotion additionally requires independent protein-level foamy-lesion enrichment from a separate cohort and does not rely on transcriptome-wide p-value mining alone. The limitation remains material and is stated in `FINDING.md`.

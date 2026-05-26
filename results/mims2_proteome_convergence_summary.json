@@ -1,0 +1,13 @@
+{
+  "random_seed": 20260526,
+  "micro_patient_nuclei": 19613,
+  "state_assigned_nuclei": 8187,
+  "eligible_paired_donors": 10,
+  "genes_tested": 27704,
+  "proteomic_genes_intersected": 3171,
+  "convergence_gate_passes": 11,
+  "convergence_gate_genes": "ASAH1,GPNMB,IFI30,TPP1,LAMP1,CTSD,ALDH1A1,ACSL1,NAMPT,SLC25A24,CTSL",
+  "screen_note": "Transcript state tests are restricted for promotion to independently foamy-elevated proteomic hits; transcriptome-wide BH FDR is reported but not used as a candidate-promotion threshold because n=10 paired donors gives discrete Wilcoxon p-values.",
+  "normalization_note": "Public GSE301908 object exposes normalized Seurat data only, not raw counts.",
+  "eligible_donors": "ms1,ms10,ms11,ms15,ms16,ms4,ms5,ms6,ms7,ms8"
+}

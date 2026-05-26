@@ -1,171 +1,201 @@
-# Finding: A Targeted Negative Result For The Proposed 4-1BB Bridge
+# Finding: `ACSL1` As A Foamy-Microglia Target Hypothesis For Smoldering MS Lesions
 
 **Date:** 2026-05-26  
-**Status:** Reproducible in-silico negative result with an exploratory secondary signal; not a validated mechanism and not a clinical recommendation.
+**Status:** Positive in-silico therapeutic target hypothesis. Not a validated mechanism, not a patient recommendation, and not ready for clinical dosing without a CNS-engaged ACSL1 modulator.
 
-## 1. Specific Claim
+## Therapeutic-Relevant Claim
 
-**In 99 postmortem MS white-matter specimens from 28 donors in `GSE279972`, a pre-specified two-gene 4-1BB costimulation score (`TNFRSF9` and `TNFSF9`) did not show the biologically meaningful positive association predicted with a lipid/complement microglial program (`rho=0.125`, donor-bootstrap 95% CI `-0.102` to `0.352`, donor-grouped GEE `FDR=0.266`), even though the score was higher in the subset of specimens labelled as containing foamy microglia.**
+I propose `ACSL1` inhibition or knockdown as a drug-discovery target for people with MS whose disease is driven by paramagnetic-rim/chronic-active lesions enriched for foamy `GPNMB`/`APOE`-high microglia/macrophages, especially progressive or relapse-independent progression biology. The proposed mechanism is that `ACSL1` channels long-chain fatty acids into acyl-CoA pools that sustain lipid-droplet formation and lipo-inflammatory microglial states; reducing `ACSL1` in the pathological microglial compartment should reduce foamy-lesion persistence and lesion-rim injury while preserving enough lipid processing for myelin-debris clearance. This is a target hypothesis, not a repurposing recommendation: no selective, clinically proven, brain-engaged ACSL1 inhibitor currently exists in this analysis.
 
-This is a negative result for the selected computational surrogate of prior Hypothesis 3. The predeclared meaningful association was `rho >= 0.40`; its exclusion by the upper confidence bound triggers the negative calling rule in `PLAN.md`.
+## Specific Claim
 
-## 2. In-Silico Evidence
+In public human MS lesion data, `ACSL1` is elevated in foamy active/mixed lesion proteomes and independently elevated in reconstructed MIMS2-like microglial nuclei; spatial MERFISH shows directionally higher `ACSL1` in DMWM pathological/T-near myeloid compartments but is underpowered and not statistically decisive.
 
-### Hypothesis Executed
+## Data And Code Trace
 
-The prior log proposed that EBV-conditioned adaptive immune cells might drive lesion-rim lipid-stressed/complement-rich microglia. Public human lesion data do not measure EBV state, so the executable necessary-intermediate test was:
+Primary entry point: `./run_therapeutic_analysis.sh`
 
-> Does an adaptive 4-1BB costimulation transcript signal track the lipid/complement microglial state in human MS lesion tissue?
+Key outputs:
 
-This is explicitly narrower than the original mechanism.
+| Output | Role |
+|---|---|
+| `results/foamy_screen_proteomics.tsv` | Human foamy-lesion proteomic discovery. |
+| `results/mims2_proteome_convergent_targets.tsv` | Cross-dataset proteome/snRNA convergence screen. |
+| `results/spatial_convergent_candidate_statistics.tsv` | MERFISH spatial compartment check. |
+| `results/acsl1_falsification_design.tsv` | Power calculations for falsification experiments. |
+| `data/derived/therapeutic_data_manifest.tsv` | Accessions, URLs, sizes, SHA-256 hashes. |
 
-### Real Public Data Used
+Data accessions used:
 
-| Dataset | Material and use | Samples used |
+| Accession / source | Use |
+|---|---|
+| GEO `GSE279972` + Zenodo `10.5281/zenodo.19352263` | Van der Vliet lesion multi-omics metadata and human lesion proteomics. |
+| GEO `GSE301908` | Feng et al. human snRNA-seq atlas of chronic-active MS lesions. |
+| GEO `GSE284005` | Feng et al. MERFISH spatial atlas of chronic-active MS lesions. |
+| Authors' code `HumanMS`, commit `ff8652fa4f7372999467164babd62300550af5f6` | Marker/state mapping only; not outcome data. |
+
+Environment:
+
+- Python dependencies: `requirements.txt` and `environment/python_freeze.txt`.
+- R runtime: `environment/R_session_info.txt`.
+- Random seed for all new analysis: `20260526`.
+
+## Multi-Modality Evidence
+
+### 1. Human Lesion Proteomics: Foamy-Lesion Enrichment
+
+In the Van der Vliet active/mixed-lesion proteomic screen, `ACSL1` protein is higher in foamy versus non-foamy lesions:
+
+- eligible specimens: `32`
+- donors: `20`
+- GEE coefficient for foamy morphology: `+0.3661700962` log2 LFQ
+- SE: `0.0873440670`
+- p-value: `2.7617445e-05`
+- BH FDR: `0.0008366771`
+
+Trace: `results/foamy_screen_proteomics.tsv`.
+
+Interpretation: this is human tissue protein-level evidence in the lesion phenotype most linked to progression, but it is not cell-specific by itself.
+
+### 2. Independent snRNA-Seq: MIMS2-Like Microglial State Validation
+
+The public `GSE301908_sn_all.rds` object lacks the authors' `sub` labels and contains normalized `data` only. I therefore reconstructed high-confidence MIMS2-like versus HMG-like microglial states from author-code markers, excluding `ACSL1` and all targets from state definition:
+
+- MIMS2-like definition: high `GPNMB`/`APOE`
+- HMG-like definition: high `P2RY12`/`CX3CR1`/`TMEM119`/`SALL1`
+- patient microglial nuclei: `19,613`
+- state-assigned nuclei: `8,187`
+- paired MS donors: `10`
+
+`ACSL1` transcript is higher in MIMS2-like cells:
+
+- mean MIMS2-like minus HMG-like delta: `+0.1974858736`
+- paired dz: `1.1692327259`
+- positive donors: `10/10`
+- Wilcoxon p-value: `0.0059215370`
+- transcriptome-wide BH FDR: `0.2721829749`
+
+The transcriptome-wide FDR is not significant because with 10 paired donors the Wilcoxon p-values are highly discrete; promotion was restricted to genes already positive in the independent proteomic screen.
+
+Trace: `results/mims2_proteome_convergent_targets.tsv`.
+
+### 3. Spatial MERFISH: Compartment Check, Not Decisive Validation
+
+`ACSL1` is in the `GSE284005` 500-gene MERFISH panel. Donor-level DMWM contrasts are directionally compatible but underpowered:
+
+| Spatial contrast | Donors | Mean delta log2(10k+1) | dz | Positive fraction | Wilcoxon p |
+|---|---:|---:|---:|---:|---:|
+| Pathological microglia vs homeostatic microglia | 6 | `+0.170928` | `0.590` | `4/6` | `0.3125` |
+| T-near pathological microglia vs T-far pathological microglia | 6 | `+0.328545` | `0.800` | `5/6` | `0.0625` |
+
+Trace: `results/spatial_convergent_candidate_statistics.tsv`.
+
+Interpretation: spatial data are supportive for lesion-compartment plausibility but do not meet a stand-alone spatial discovery threshold.
+
+### 4. Cross-Domain Mechanistic Transfer
+
+Adjacent neurodegeneration work makes the ACSL1 mechanism biologically plausible rather than arbitrary:
+
+- Haney et al., *Nature* 2024 report an `ACSL1`-defined lipid-droplet microglial state in APOE4/4 Alzheimer disease brain and show Aβ-induced ACSL1 expression and lipid-droplet accumulation in iPSC-derived microglia.
+- Han et al., *Journal of Neuroinflammation* 2025 report high-ACSL1 microglia in Parkinson models; ACSL1 gain/loss experiments link ACSL1 to lipid droplets, microglial activation, and neuronal injury.
+- Hao et al., *Advanced Science* 2026 report ACSL1-dependent microglial lipoimmunometabolic reprogramming in alcohol-use-disorder models and describe BBB/microglia-targeted ACSL1 siRNA nanoparticles.
+
+Interpretation: these are not MS validation, but they define a conserved microglial lipid-droplet injury program and a plausible modality class.
+
+## Cross-Dataset Validation
+
+Central observation: `ACSL1` is associated with the foamy/MIMS2 pathological microglial state.
+
+Replication:
+
+- Dataset 1, human lesion proteomics (`GSE279972`/Zenodo): `ACSL1` higher in foamy lesions, coefficient `+0.366`, FDR `0.000837`.
+- Dataset 2, independent human snRNA-seq (`GSE301908`): `ACSL1` higher in MIMS2-like microglial nuclei, mean delta `+0.197`, dz `1.169`, `10/10` donors positive, p `0.00592`.
+
+Effect-size stability: both datasets support the same direction and moderate-to-large standardized effects, but their scales are not directly comparable because one is protein LFQ and the other is normalized snRNA expression.
+
+## Mechanistic Chain
+
+| Step | Status | Evidence |
 |---|---|---|
-| `GSE279972` with author metadata from Zenodo `10.5281/zenodo.19352263` | Bulk RNA-seq of postmortem MS/control white matter; quantitative hypothesis test using GEO raw counts and author-deposited donor/morphology labels. | 109 matched bulk samples total; 99 MS specimens from 28 donors; 54 foamy/non-foamy-labelled MS specimens from 21 donors. |
-| `GSE180759` | Single-nucleus human chronic active/inactive lesion atlas; attempted cell-resolved contextual replication/localization. | 66,432 nuclei; only 5 donor-by-pathology blocks met the predeclared paired lymphocyte/immune minimum, including 3 chronic active edges. |
+| `ACSL1` activates long-chain fatty acids to acyl-CoAs used in lipid synthesis/storage and inflammatory lipid metabolism. | Established outside MS | Biochemistry and macrophage/microglia literature. |
+| Foamy/MIMS2-like MS microglia show higher `ACSL1`. | Supported by this analysis | Human lesion proteomics plus independent snRNA-seq. |
+| `ACSL1` contributes causally to lipid-droplet persistence and inflammatory injury in MS foamy microglia. | Assumed, falsifiable | Not proven in MS; adjacent AD/PD/AUD studies support plausibility. |
+| Foamy/chronic-active lesions contribute to progression. | Established/strongly supported | Van der Vliet links foamy microglia to faster progression; PRL/CAL literature links rim lesions to worse outcomes. |
+| Microglia-selective `ACSL1` lowering will reduce smoldering lesion activity without blocking myelin-debris clearance. | Speculation requiring direct test | Core falsification experiment below. |
 
-Input URLs and SHA-256 hashes are recorded in `data/derived/data_manifest.tsv`.
+## Translational Feasibility Audit
 
-### Pre-Specified Transcript Programs
+**Druggability:** `ACSL1` is an enzyme and therefore structurally druggable in principle. Current chemical matter is weak: triacsin C inhibits multiple ACSL isoforms and is not a clinical CNS drug. A real translational program would need either a selective ACSL1 inhibitor or a CNS/microglia-directed RNA modality.
 
-| Program | Genes |
-|---|---|
-| `COSTIM_41BB` focused target | `TNFRSF9`, `TNFSF9` |
-| `ADAPT_41BB` positive-control adaptive program | `TNFRSF9`, `TNFSF9`, `IFNG`, `CCL5`, `NKG7`, `GZMB` |
-| `MIMS_LIPID_COMP` proposed downstream microglial program | `GPNMB`, `APOE`, `LPL`, `TREM2`, `SPP1`, `C1QA`, `C1QB`, `C1QC`, `CD68`, `CTSB` |
-| `B_APC` composition/confounding program | `CD79A`, `MS4A1`, `CD74`, `HLA-DRA`, `HLA-DPA1`, `HLA-DPB1` |
+**CNS penetration:** no clinically validated ACSL1 inhibitor with measured CNS target engagement was identified. This blocks immediate repurposing. The nearest modality precedent is experimental BBB/microglia-targeted ACSL1 siRNA nanoparticles in an adjacent disease model, not human MS.
 
-GEO raw counts were normalized as `log2(CPM + 1)` and gene-level standardized values were averaged for module scores. Cells were not treated as biological replicates; the single-nucleus data were pseudobulked by donor, pathology label, and cell type. Bulk inference used donor-grouped GEE and donor bootstrap intervals.
+**Biomarker readout:** target engagement could be measured by CSF extracellular-vesicle `ACSL1`/`PLIN2`/`GPNMB`, CSF oxylipin/neutral-lipid panels, and MRI QSM/PRL metrics. Tissue-level proof would require postmortem or biopsy-unavailable validation; therefore ex vivo human microglia is the first gate.
 
-### Primary Result: Negative Test Of The Bridge Surrogate
+**Target population size:** PRL-positive MS is a large but not universal subgroup. A 2025 Radiology meta-analysis estimated patient-level PRL prevalence at `0.52` (95% CI `0.47-0.58`); a 2021 PLOS meta-analysis estimated patient-level chronic-active lesion prevalence at `64.8%` with substantial heterogeneity. Trial enrichment should require PRL+ imaging plus a lipid/foamy biomarker, not PRL alone.
 
-Results are generated by `scripts/analyze.py` in `results/validation_statistics.tsv`.
+**Trial design:** after a CNS-engaged ACSL1 modulator exists, run a phase 0/2 randomized proof-of-mechanism trial in PRL-positive progressive MS or relapsing MS with progression independent of relapse activity. Proposed sample size is `80` patients per arm for 80% power to detect a standardized effect `d=0.5` on 24-week change in new/enlarging PRL volume or QSM rim susceptibility, allowing attrition. Trace: `results/acsl1_falsification_design.tsv`.
 
-| Test in `GSE279972` MS specimens | Samples / donors | Effect | Donor-aware inference | Interpretation |
-|---|---:|---:|---:|---|
-| `COSTIM_41BB` vs `MIMS_LIPID_COMP` | 99 / 28 | Spearman `rho=0.125`; bootstrap 95% CI `-0.102` to `0.352` | GEE `FDR=0.266` | Does not support a meaningful 4-1BB-to-microglial transcript bridge; CI excludes predeclared `rho >= 0.40`. |
-| `TNFRSF9` alone vs `MIMS_LIPID_COMP` | 99 / 28 | `rho=0.238`; CI `0.046` to `0.416` | `FDR=0.0344` | Statistically detectable but below the meaningful effect threshold; not sufficient for the proposed bridge. |
-| `TNFSF9` alone vs `MIMS_LIPID_COMP` | 99 / 28 | `rho=-0.122`; CI `-0.400` to `0.143` | `FDR=0.654` | No positive ligand-program association. |
+**Expected effect size:** no human drug-effect estimate exists. The `d=0.5` clinical assumption is a planning threshold, not an observed treatment effect.
 
-### Positive Controls And Existing Biology
+**Known failure modes:** broad ACSL1 inhibition could disrupt normal lipid handling in liver, heart, skeletal muscle, monocytes, and reparative microglia. Blocking lipid processing may worsen myelin-debris clearance or remyelination. This failure mode is serious enough that myelin-clearance preservation is a stop criterion, not a secondary assay.
 
-The broader programs behaved as expected in the published foamy-microglia tissue resource:
+## Verified Novelty Search
 
-| Test | Effect | Donor-aware inference | Status |
-|---|---:|---:|---|
-| `ADAPT_41BB` vs `MIMS_LIPID_COMP` | `rho=0.383`; CI `0.182` to `0.583` | `FDR=4.31e-05` | Positive-control replication, not novel; includes `CCL5`, overlapping the published adaptive module. |
-| `B_APC` vs `MIMS_LIPID_COMP` | `rho=0.763`; CI `0.611` to `0.868` | `FDR=1.48e-18` | Strong composition/immune-infiltration association consistent with the source publication. |
+Searches performed on 2026-05-26:
 
-These controls make an outright failed dataset or normalization error less likely, while also showing why broad adaptive associations cannot be assigned specifically to 4-1BB.
+| Database | Query | Result |
+|---|---|---|
+| PubMed E-utilities | `(ACSL1 OR "acyl-CoA synthetase 1" OR "long-chain acyl-CoA synthetase 1") AND ("multiple sclerosis" OR demyelination OR EAE OR microglia)` | 11 broad hits, all adjacent microglia/neurodegeneration or general demyelination; none directly proposed ACSL1 for MS. |
+| PubMed E-utilities | `ACSL1 AND "multiple sclerosis"` | 0 hits. |
+| PubMed E-utilities | `ACSL1 AND experimental autoimmune encephalomyelitis` | 0 hits. |
+| Europe PMC | `ACSL1 AND TITLE_ABS:"multiple sclerosis"` | Returned indirect MS review/proteomics records; no direct ACSL1-MS target paper found. |
+| bioRxiv/medRxiv web search | `site:biorxiv.org ACSL1 "multiple sclerosis"`; `site:medrxiv.org ACSL1 "multiple sclerosis"` | No direct ACSL1-MS therapeutic or lesion-state preprint found. |
+| ClinicalTrials.gov API | `ACSL1`; `"long-chain acyl-CoA synthetase 1"`; `triacsin C` | 0 relevant trials. `"acyl-CoA synthetase 1"` returned an unrelated ACSS2 oncology trial by text matching. |
+| Google Patents | `ACSL1 multiple sclerosis inhibitor`; `"ACSL1" "multiple sclerosis"`; `"acyl-CoA synthetase 1" "multiple sclerosis"`; `"ACSL1" microglia` | No direct MS ACSL1 therapeutic claim found. Closest: JP antisense-to-ACSL1 patent without MS; CN leukemia ACSL1 use; an IRAK4 patent mentioning ACSL1 in definitions and broad disease categories. |
+| Espacenet web search | `ACSL1 multiple sclerosis inhibitor`; `"acyl-CoA synthetase 1" "multiple sclerosis"` | No direct MS ACSL1 therapeutic claim surfaced in accessible search results. |
 
-### Secondary Signal: Foamy-Morphology Enrichment
+Closest prior art and deltas:
 
-Among the 54 MS specimens with foamy/non-foamy labels, `COSTIM_41BB` was higher in foamy samples:
+- Van der Vliet et al. 2026: foamy microglia and MAGL/oxylipin biology in MS. Delta: this analysis nominates `ACSL1`, not MAGL, and cross-validates it in independent snRNA-seq.
+- Feng et al. 2025: chronic-active lesion MIMS and DHCR24/sterol-efflux intervention. Delta: this analysis uses their public atlas for independent validation; ACSL1 was not their therapeutic claim.
+- Haney et al. 2024 and Han et al. 2025: ACSL1 lipid-droplet microglia in AD/PD. Delta: those are not MS and do not identify foamy MS lesion `ACSL1`.
+- Patents found are not direct prior art for ACSL1-targeted treatment of PRL/foamy MS.
 
-| Analysis | Result |
-|---|---|
-| Donor-grouped GEE adjusted for broad lesion class | coefficient `0.581` z-score units, SE `0.199`, `p=0.00359`, focused-family `FDR=0.0216`; descriptive `d=1.117`. |
-| Added `B_APC` adjustment | coefficient `0.639`, `p=0.00129`. |
-| Added `MIMS_LIPID_COMP` adjustment | coefficient `0.632`, `p=0.00344`. |
-| Leave-one-donor-out fits | all 21 coefficients positive (`0.412` to `0.651`) and all nominal `p<0.05`. |
-| Strict paired subset | only 6 donors supplied both morphologies; median within-donor difference `0.613`, Wilcoxon `p=0.09375`. |
+Novelty assessment: the specific claim, “ACSL1 is a proteome/snRNA-convergent intervention target in foamy/MIMS2 chronic-active MS lesion microglia,” appears unpublished and unpatented in the searched sources. This is not a guarantee of freedom to operate.
 
-This is a **candidate observation**, not the main finding. It is not independently replicated, is based on a secondary analysis of a cohort whose source report already establishes foamy-lesion immune biology, and may reflect tissue composition or lesion-subtype structure.
+## Falsification Path
 
-### Cross-Validation Outcome
+### Wet-Lab Gate 1: Human Microglia/Myelin-Debris Causality
 
-`GSE180759` does not provide adequate cell-resolved replication for the focused signal under the predeclared minimum-cell rule:
+Design: paired iPSC-derived microglia from `18` donors, exposed to human myelin debris plus lesion-relevant lipid/IFN cues, stratified into high- and low-ACSL1 induced states. Perturb with ACSL1 siRNA/CRISPRi or selective inhibitor if available; include non-targeting control and ACSL1 cDNA rescue.
 
-- Only five paired lymphocyte/immune donor-pathology blocks were eligible.
-- Only three were chronic active lesion edges.
-- Lymphocyte `COSTIM_41BB` scores in those three chronic active edges were `-0.5`, `-0.5`, and `0.75`, providing no consistent descriptive direction.
+Primary expected outcome: at least `30%` reduction in lipid-droplet area and IL1B/TBXAS1/ROS inflammatory composite in high-ACSL1 cells, with rescue restoring the phenotype. Power calculation: paired `d=0.8`, 80% power, alpha `0.05`, `14.3` donors; use `18` for attrition.
 
-Therefore, the negative bulk association is technically reproducible in its source cohort, but the foamy-morphology side signal is **not independently validated**.
+Falsification rule: reject if ACSL1 lowering changes lipid-droplet/inflammatory composite by `<15%`, fails rescue, or reduces myelin uptake/lysosomal acidification by `>20%`.
 
-## 3. Interrogation Of The Result
+### Wet-Lab Gate 2: Repair Safety
 
-| Concern | Assessment |
-|---|---|
-| Tissue composition rather than signalling | Serious. Bulk tissue can link immune-cell abundance and microglial abundance without interaction. The strong `B_APC` association reinforces this concern. |
-| Result too clean / composite artefact | Investigated. The composite foamy contrast persists after `B_APC` and microglial-score adjustment and leave-one-donor-out fits, but individual-gene and paired-donor evidence is weaker. The composite remains exploratory. |
-| Pseudoreplication | Mitigated for bulk by donor-grouped GEE and donor bootstrap; unresolved completely because few donors have paired morphology states. |
-| Lesion subtype confounding | Adjusted using deposited broad lesion class; detailed lesion subclass is partly nested with the foamy label and cannot be cleanly separated in this sample set. |
-| Multiple testing | Benjamini-Hochberg correction was applied within analysis families. |
-| EBV attribution | Not possible: no EBV infection, viral transcripts, EBV-specific clonotypes, or antibody specificity were measured in these lesion datasets. |
+Design: microglia-oligodendrocyte organoid or organotypic myelinating slice co-culture, three arms: control, ACSL1 lowering, ACSL1 lowering plus rescue. Use `24` biological replicates per arm across at least six donors/lines, powered for independent `d=0.9`.
 
-## 4. Novelty Assessment
+Falsification rule: reject if ACSL1 lowering reduces OPC differentiation, myelin basic protein area, or axonal survival by `>15%` relative to control while not strongly reducing the inflammatory/lipid-droplet phenotype.
 
-Full details and search queries are in `NOVELTY_SEARCH.md`.
+### Clinical Stop-Loss Gate
 
-The important prior-art findings are:
+Only after a CNS-engaged modulator exists: PRL-positive, ACSL1-high MS trial, `80` patients per arm, 24-week target-engagement and MRI endpoint.
 
-1. Wong et al. already demonstrated CD137 (`TNFRSF9`) positive cells and CD137-positive B cells in MS brain material including chronic active lesions, with functional inflammatory consequences in vitro. [DOI](https://doi.org/10.3389/fimmu.2020.571964)
-2. Van der Vliet et al. generated the `GSE279972` cohort and already reported foamy-microglia, lipid/lysosomal, and adaptive immune/B-cell modules. [DOI](https://doi.org/10.1038/s41593-026-02302-3)
+Stop-loss: terminate if CSF EV or imaging target engagement is `<50%` of the pre-specified pharmacodynamic shift, or if the standardized effect on PRL/QSM/MTR endpoint is `<0.2` at interim with safety signals in liver, cardiac, or myelin-repair markers.
 
-Therefore, neither "4-1BB occurs in MS lesions" nor "foamy lesions contain adaptive immune signals" is new. The limited potential contribution from this execution is:
+## Honest Scope
 
-- a directly computed negative test showing that the focused `TNFRSF9`/`TNFSF9` score does **not** reach the predeclared biologically meaningful association with the lipid/complement program; and
-- an exploratory, not independently replicated, foamy-morphology enrichment of the focused score.
+This finding is:
 
-Searches of PubMed, Google Scholar, bioRxiv/preprint indexing, and available full text did not locate this specific negative association report. This is a provisional novelty assessment, not proof that no unpublished or unindexed analysis exists.
+- a target hypothesis grounded in human lesion proteomics, independent snRNA-seq, and adjacent mechanistic biology;
+- a rationale for an ACSL1-focused discovery program in foamy/PRL-positive MS biology;
+- a reproducible computational prioritization, not a wet-lab-validated mechanism.
 
-## 5. Falsification Path
+This finding is not:
 
-The computational negative result is about a bulk transcript surrogate. It would not survive if cell-resolved measurements show a substantial, functional 4-1BB circuit that bulk sampling diluted.
-
-### Independent Spatial Validation
-
-- Obtain postmortem tissue from `n=30` progressive-MS donors, each contributing matched foamy and non-foamy chronic lesion-rim regions where possible.
-- Power basis: `n=27` paired donors gives 90% power at two-sided `alpha=0.05` for standardized paired effect `d=0.65`; target `n=30` permits attrition.
-- Apply multiplex RNAscope/protein imaging for `TNFRSF9`/CD137 and `TNFSF9`/CD137L with `CD8`, `CD20`/`CD79A`, `CD68`, `GPNMB`, `C1Q`, `PLIN2` or lipid staining, and spatial proximity analysis.
-- Primary outcome: within-donor difference in density of `TNFRSF9+` lymphocytes within a predefined distance of `TNFSF9+`, lipid-laden/complement-positive microglia.
-
-### Functional Falsification
-
-- In a subset with viable rapid-autopsy tissue or lesion-relevant human tri-culture (`n=12` paired biological donors as an initial functional gate), perturb CD137/CD137L signalling with blocking reagent or genetic suppression.
-- Expected effect needed to overturn deprioritization: at least a `30%` reduction in microglial lipid/complement injury score or axonal/oligodendrocyte injury readout relative to matched control, together with spatial validation of contact enrichment.
-
-### Decision Rule
-
-- **The present negative prioritization is falsified** if the independent paired spatial cohort demonstrates `d >= 0.65` for 4-1BB contact enrichment with multiple-testing-controlled `q < 0.05`, and functional blockade reduces the lesion-like microglial injury readout by `>=30%`.
-- **Stop-loss for the 4-1BB bridge:** deprioritize this axis if, after 30 paired donors, the 95% confidence interval excludes `d >= 0.50` for spatial contact enrichment, or if functional perturbation has an upper confidence bound below a `25%` injury-score reduction.
-
-## 6. Reproducibility
-
-### Entry Point
-
-```bash
-./run_analysis.sh
-```
-
-### Fixed Environment And Seed
-
-- Python dependencies are pinned in `environment/requirements.lock.txt`.
-- Random seed: `20260526`.
-- Public-file checksums: `data/derived/data_manifest.tsv`.
-
-### Traceability Of Reported Numbers
-
-| Reported output | Source artifact |
-|---|---|
-| Association and FDR results | `results/validation_statistics.tsv` |
-| Confounder sensitivity | `results/validation_sensitivity_models.tsv` |
-| Donor influence | `results/validation_leave_one_donor_out.tsv` |
-| Within-donor limitation | `results/validation_paired_donors.tsv` |
-| Cell-resolved eligibility/downscope | `results/discovery_paired_eligible_blocks.tsv`, `results/run_summary.json` |
-| Follow-up sample-size calculation | `results/falsification_power.tsv` |
-| Sample metadata used | `data/derived/gse279972_sample_metadata.tsv` |
-
-Git checkpoints preserve the sequence:
-
-- `1865c32`: selection and pre-analysis plan.
-- `d1d967e`: locked statistical implementation before outcome inspection.
-- `e8befea`: executed results and post-result robustness diagnostics.
-
-## 7. Honest Scope
-
-**What this is:** A reproducible, targeted negative transcriptomic test in real postmortem MS tissue that lowers priority for a simple 4-1BB-to-lipid/complement bulk-expression bridge; it also nominates a limited foamy-lesion enrichment signal for independent spatial assessment.
-
-**What this is not:** It is not evidence that EBV is irrelevant to MS progression, not proof that CD137/CD137L signalling is absent from lesions, not a causal test of immune-cell/microglial contact, and not evidence for a treatment strategy. The selected public datasets do not measure EBV status, antigen specificity, spatial contacts at the required resolution, or intervention response.
+- evidence that existing ACSL inhibitors should be used in MS;
+- proof that ACSL1 causes chronic-active lesion expansion;
+- proof of CNS druggability or clinical efficacy;
+- a patient treatment recommendation.

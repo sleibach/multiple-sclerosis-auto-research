@@ -168,3 +168,33 @@ Even if the expression test passes, promotion requires verification that EHP-101
 ### Pre-Result Safety Conflict
 
 The pathway polarity is not assumed favorable. Rosiewicz et al., *Glia* 2023 (DOI `10.1002/glia.24380`), reports that astrocytic HIF prolyl-hydroxylase 2/3 deletion disrupts astrocytic integrity and exacerbates neuroinflammation. Thus an `EGLN1`-high lesion signal cannot justify broad PHD2 inhibition; the only surviving proposition would be empirical enrichment for the multitarget compound EHP-101, with astrocyte safety and mechanistic target-engagement experiments required before translation.
+
+## Pivot 4 Outcome: `EGLN1` Rejected By Independent Cell-State Direction
+
+The exact deposited-label test could not be run because the public `GSE301908_sn_all.rds` object lacks the authors' `sub` microglial subcluster field and contains only normalized expression. A reformulated high-confidence state test used author-code markers to define MIMS2-like (`GPNMB`/`APOE`) and HMG-like (`P2RY12`/`CX3CR1`/`TMEM119`/`SALL1`) cells, with `EGLN1` excluded from the state definition.
+
+The reconstructed state passed identity checks, but the target moved in the wrong direction: across 10 paired MS donors, `EGLN1` was lower in MIMS2-like cells (mean delta `-0.0507`, paired `dz=-0.568`, positive in `2/10`, Wilcoxon `p=0.126`). The `EGLN1`-high EHP-101 stratification branch is rejected.
+
+## Final Exhaustive Screen Rule Before Stopping
+
+Because individually nominated branches have repeatedly failed novelty, safety, product-link, or cross-dataset validation gates, the remaining defensible move is a narrow convergence screen rather than another hand-picked target. The screen is registered after `EGLN1` rejection and before inspecting transcriptome-wide `GSE301908` state statistics.
+
+The discovery family is restricted to proteins already elevated in foamy active/mixed lesions in the donor-aware Van der Vliet proteomic screen (`FDR < 0.05`, positive coefficient, adequate reporting coverage). For those proteins only, test whether the corresponding transcript is higher in the reconstructed `GSE301908` MIMS2-like state. A candidate can enter translational audit only if:
+
+1. foamy-lesion proteomics: `FDR < 0.01`, positive coefficient, adequate coverage;
+2. independent MIMS2-like transcript state: mean delta `>0`, positive in at least `8/10` paired donors, paired `dz >= 0.8`, and targeted Wilcoxon `p < 0.05`;
+3. existing chemical matter or modality can plausibly modulate the target in CNS tissue without obvious remyelination or lysosomal-clearance harm;
+4. prior-art search does not find direct MS intervention or biomarker-stratification claims.
+
+Failure of this restricted screen will trigger `EXHAUSTION.md` rather than a weaker narrative claim.
+
+## Candidate 5 Outcome: `ACSL1` Survives As A Constrained Target Hypothesis
+
+The restricted screen produced 11 convergent proteome/snRNA genes. Triage rejected marker-only and lysosomal-clearance genes as immediate therapeutic claims. `ACSL1` survives as the best target hypothesis:
+
+- foamy-lesion proteomics: `coef=0.3662`, `FDR=0.000837`, 32 specimens/20 donors;
+- independent MIMS2-like microglia transcript validation: mean delta `0.1975`, `dz=1.169`, positive in `10/10` donors, Wilcoxon `p=0.00592`;
+- spatial MERFISH: compatible but underpowered direction, strongest in T-near pathological microglia (`dz=0.800`, positive in `5/6`, `p=0.0625`);
+- adjacent causal support: ACSL1 perturbation in non-MS microglia models affects lipid-droplet accumulation and neuroinflammation.
+
+Promotion boundary: `ACSL1` is not a repurposing claim because no selective CNS-engaged clinical ACSL1 inhibitor was found. It is a novel drug-discovery target hypothesis requiring human microglia/myelin-debris knockdown, rescue, and repair-safety falsification before animal or clinical translation.
