@@ -24,3 +24,9 @@ This criticism has partially materialized: the source paper itself already shows
 **Attack:** Once an older MS patent directly identifies thromboxane synthase as increased in MS CNS and claims reducing increased gene products for therapy, calling the same target a "foamy/PRL-stratified" proposition risks relabelling rather than discovery. A subgroup may ultimately be useful, but this project's DoD requires verified novelty and translational convergence, not a narrower marketing frame around prior target art.
 
 **Resolution:** The `TBXAS1` branch is terminated. The strong human product-coupling result is retained as evidence supporting existing biology, not promoted. Any new branch must be registered before testing and face its own patent and direct-intervention search early, before extensive validation work.
+
+## Critique 4: `EGLN1` May Be Compensation, Not Vulnerability
+
+**Attack:** The new candidate risks a polarity error. Foamy-lesion elevation of PHD2 protein does not mean pathological cells are harmed by PHD2 function; it may compensate for hypoxia or preserve glial integrity. Rosiewicz et al. report worsened neuroinflammation after astrocytic PHD2/3 deletion. Further, EHP-101 is a multitarget cannabinoquinone (`CB2`, `PPARgamma`, PP2A/B55alpha/HIF) rather than a selective `EGLN1` inhibitor, so an `EGLN1` biomarker may not predict response.
+
+**Response required:** A positive independent microglial state result can at most justify an enrichment biomarker hypothesis for empirical EHP-101 testing, not claim causal PHD2 inhibition. Falsification must include human iPSC-derived microglia/astrocyte co-cultures stratified by `EGLN1` state, EHP-101 response versus selective PHD2 perturbation, and an astrocyte injury stop criterion. Failure to show selective benefit in the high-state samples kills the proposition.

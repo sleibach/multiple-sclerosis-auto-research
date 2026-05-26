@@ -164,3 +164,7 @@ The biomarker branch survives only if:
 ### Mandatory Later Gates
 
 Even if the expression test passes, promotion requires verification that EHP-101 exposure/target engagement is feasible in CNS tissue or CSF, a biomarker assay usable in living patients rather than post-mortem tissue alone, and a novelty search showing no published or patented `EGLN1`/foamy/PRL-based enrichment design for EHP-101. Failure of any gate rejects the branch.
+
+### Pre-Result Safety Conflict
+
+The pathway polarity is not assumed favorable. Rosiewicz et al., *Glia* 2023 (DOI `10.1002/glia.24380`), reports that astrocytic HIF prolyl-hydroxylase 2/3 deletion disrupts astrocytic integrity and exacerbates neuroinflammation. Thus an `EGLN1`-high lesion signal cannot justify broad PHD2 inhibition; the only surviving proposition would be empirical enrichment for the multitarget compound EHP-101, with astrocyte safety and mechanistic target-engagement experiments required before translation.

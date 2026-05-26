@@ -69,6 +69,8 @@ This is registered as a possible category-C output: not novelty of VCE-004.8/EHP
 | ClinicalTrials.gov API v2 | `EHP-101 OR VCE-004.8 OR VCE-0048 OR EHP101` | `NCT04909502`, phase IIa in relapsing MS, status `SUSPENDED`, with stated eligibility-protocol reassessment reason; no posted results. Original eligibility excludes PPMS and non-active SPMS. |
 | GEO panel inspection | `GSE284005` raw 500-gene MERFISH panel | `EGLN1` absent; spatial target localization cannot be supplied by this panel. |
 
+An important adverse mechanistic precedent is Rosiewicz et al., *Glia* 2023, DOI `10.1002/glia.24380`: the title-level verified finding is that HIF prolyl hydroxylase 2/3 deletion disrupts astrocytic integrity and exacerbates neuroinflammation. This precludes construing an `EGLN1` enrichment signal as direct support for selective enzyme inhibition.
+
 ### Novelty Question Still Open
 
 If independent cell-state validation passes, searches must determine whether any publication, preprint, trial document, or patent already proposes selecting EHP-101 recipients by `EGLN1`/PHD2-high foamy microglia, chronic-active/paramagnetic-rim lesions, or a corresponding accessible biomarker. Until that search and a usable living-patient assay succeed, this remains a registered hypothesis rather than a finding.
