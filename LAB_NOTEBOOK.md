@@ -22,3 +22,9 @@ All times are Europe/Berlin (`UTC+02:00`). Entries are append-only descriptions 
 
 - Attempted to commit the locked selection and plan. The sandbox permitted repository initialization but rejected creation of `.git/index.lock` (`Operation not permitted`).
 - This is an execution-environment restriction rather than an analytical failure. I will request permission for Git metadata writes so intermediate deliverables can be committed as required.
+
+## 2026-05-26T17:09:00+02:00 - Retrieval scaffolding
+
+- Git permission was granted and the locked plan was committed as `1865c32`.
+- Added a deterministic data downloader for the two predeclared GEO accessions and a structural inspection script. Raw data will be excluded from Git; calculated SHA-256 manifests will be tracked.
+- Added a pinned Python dependency list and end-to-end shell entry point. The statistical script is intentionally not yet written because deposited annotation formats must first be inspected rather than assumed.
