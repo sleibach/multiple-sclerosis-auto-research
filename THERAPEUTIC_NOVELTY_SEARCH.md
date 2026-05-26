@@ -46,3 +46,13 @@ Direct therapeutic prior work:
 ### Decision
 
 Reject `NAAA` inhibition as a novel intervention. The human-lesion protein observation may extend translational context for published EAE work, but it does not satisfy this task's novelty requirement and lacks significant PEA depletion in the analysed human lesion cohort.
+
+## `FYN` / Brain-Penetrant Src-Inhibitor Triage
+
+`FYN` protein is elevated in adequately covered foamy human lesion proteomics (`coef=0.4773`, `FDR=4.87e-06`, 32 specimens/20 donors), and saracatinib makes the kinase chemically plausible in the CNS. This branch is nevertheless stopped at safety polarity rather than treated as an opportunity.
+
+PubMed/Europe PMC queries `(FYN OR Fyn kinase OR saracatinib OR AZD0530) AND (multiple sclerosis OR experimental autoimmune encephalomyelitis OR demyelination OR remyelination)` retrieved primary work establishing that Fyn activity is part of oligodendrocyte differentiation/myelination biology. In particular, Osterhout et al., *Journal of Cell Biology* 1999, PMID `10366594`, reports that Src-family/Fyn inhibitors reduced oligodendrocyte process extension and myelin membrane formation; Perez et al., *Journal of Neuroscience Research* 2013, PMID `23797152`, reports Fyn activation during apotransferrin-promoted oligodendrocyte differentiation.
+
+### Decision
+
+Reject systemic Fyn inhibition. The foamy-lesion protein enrichment does not identify the producing cell or distinguish pathogenic microglial Fyn from repair-associated oligodendroglial Fyn. A CNS-penetrant inhibitor creates a foreseeable remyelination hazard, and no cell-selective delivery evidence exists in this project to separate those effects.

@@ -176,3 +176,9 @@ All times are Europe/Berlin (`UTC+02:00`). Entries are append-only descriptions 
 - Before registering a new therapeutic branch, inspected the existing lipidomic screen: `PEA` was directionally lower in foamy lesions but not significant after correction (`coef=-0.3033`, `p=0.1064`, `FDR=0.2792`, 29 specimens/20 donors).
 - PubMed/Europe PMC retrieval identified direct prior intervention studies: Pontis et al. 2020 (`10.1016/j.phrs.2020.105064`), Sgroi et al. 2021 (`10.1016/j.phrs.2021.105816`), and Sgroi et al. 2024 (`10.1016/j.biopha.2024.116677`). These already test NAAA inhibition for EAE/MS-model disease.
 - Decision: reject `NAAA` as a new therapeutic branch before conducting post-selection product-coupling or cell-state validation. A human translation of existing EAE work is insufficient for the requested novel contribution, particularly without significant substrate depletion in the human lesion data.
+
+## 2026-05-26T18:38:56+02:00 - `FYN` rapid nomination fails repair-safety gate
+
+- `FYN` was a chemically tractable positive proteomic hit (`coef=0.4773`, `FDR=4.87e-06`, 32 specimens/20 donors); saracatinib makes a CNS-directed Src/Fyn intervention plausible in exposure terms.
+- Conducted early polarity review rather than assuming an enriched kinase should be inhibited. Primary oligodendrocyte studies retrieved through PubMed report that Fyn activation supports differentiation and that Src-family/Fyn inhibition reduces process extension and myelin membrane formation (Osterhout et al. 1999, PMID `10366594`; Perez et al. 2013, PMID `23797152`).
+- Decision: reject systemic `FYN` inhibition before branch registration. A target elevated in heterogeneous lesion proteomics cannot justify a drug that plausibly suppresses remyelination unless pathogenic-cell-selective engagement is demonstrated; it is not demonstrated here.
