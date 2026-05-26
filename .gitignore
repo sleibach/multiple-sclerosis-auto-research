@@ -1,0 +1,12 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+
+# Downloaded source datasets: retrieve through scripts with recorded checksums.
+data/raw/*
+!data/raw/.gitkeep
+
+# Large generated matrices are reproducible and should not be committed.
+data/derived/*.csv.gz
+data/derived/*.parquet
