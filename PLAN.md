@@ -82,6 +82,16 @@ After results are produced, search PubMed, Google Scholar, bioRxiv, and full-tex
 
 If direct publication of the same tissue/program association is found, the output will be framed as replication or the claim narrowed to an unreported analysis if defensible.
 
+## Locked Novelty Addendum Before Expression Testing
+
+**Added 2026-05-26 after metadata inspection and full-text novelty screening, before any target-gene expression was queried.**
+
+Van der Vliet et al. (*Nature Neuroscience*, published 2026-05-21; DOI `10.1038/s41593-026-02302-3`) directly report adaptive immune/B-cell (`CD79A`, `CCL5`, `IGHG1`) and lipid/lysosomal microglial modules in the `GSE279972` source cohort. Therefore:
+
+- The predeclared `ADAPT_41BB` to `MIMS_LIPID_COMP` module test will still be run, but it is a reproducibility/positive-control test rather than a novel claim because `CCL5` overlaps the published adaptive module.
+- The focused, potentially unreported target analysis is `TNFRSF9` and `TNFSF9`, individually and as a two-gene `COSTIM_41BB` score, in foamy versus non-foamy lesion specimens and in relation to `MIMS_LIPID_COMP`.
+- This addendum narrows claims; it does not substitute new genes after observing expression values. `TNFRSF9` and `TNFSF9` were already specified as targeted readouts in the original locked plan.
+
 ## Reproducibility Outputs
 
 - `scripts/download_data.py`: deterministic retrieval and hashing.
