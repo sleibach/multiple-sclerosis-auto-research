@@ -89,3 +89,13 @@ All times are Europe/Berlin (`UTC+02:00`). Entries are append-only descriptions 
 - Added machine-readable output for the negative calling rule and for the planned spatial-validation sample-size calculation (`results/falsification_power.tsv`), so that numeric future-design statements in `FINDING.md` are produced by versioned code.
 - Executed the documented end-to-end entry point `./run_analysis.sh`; it completed successfully, reused/download-verified public inputs, and regenerated the same result values plus the new power artifact.
 - Automated consistency assertions confirmed that the negative-call values in `results/run_summary.json` equal the statistics table and that the `d=0.65`, 90%-power paired design rounds up to 27 donors. The proposed tissue collection target remains 30 to permit attrition.
+
+# Therapeutic Discovery Phase
+
+## 2026-05-26T17:53:00+02:00 - Reframe after reviewer correction
+
+- Re-read the design log and executed negative report. Accepted the reviewer criticism that the prior bulk-score test was not a strong operationalization of a spatially restricted immune-to-microglia lesion mechanism.
+- Discontinued 4-1BB score mining as a therapeutic discovery path. The prior negative remains valid for its narrow bulk surrogate only.
+- Identified newly relevant public human spatial data from Feng et al.: MERFISH `GSE284005` (manageable `RAW.tar`, 31.4 MB) and paired snRNA-seq `GSE301908` (large processed/raw objects), as well as experimental microglia/EAE accessions `GSE301696` and `GSE301824`.
+- Recorded critical prior-art boundaries: Feng et al. pharmacologically validate `DHCR24` inhibition (`SH42`) to stimulate sterol efflux in EAE and disclose related patent interests; Van der Vliet et al. identify `MAGL` and cite an ongoing progressive-MS trial of `RO7268489`. Neither can be relabelled as a novel therapeutic finding.
+- Wrote `REFRAME.md`, `TOOLS.md`, and `THERAPEUTIC_PLAN.md`. The new requirement is convergence of spatial human disease evidence, independent human multi-omics, and CNS-capable drug evidence before a candidate can survive.
