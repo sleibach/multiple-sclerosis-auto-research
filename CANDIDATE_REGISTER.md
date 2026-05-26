@@ -140,3 +140,27 @@ The protein-to-`thromboxane_B2` association remains a reproducible observation f
 ## Rapid Safety Triage: `FYN` Rejected Before Registration
 
 `FYN` was enriched in foamy human lesion proteomics (`coef=0.4773`, `FDR=4.87e-06`, 32 specimens/20 donors) and has CNS-relevant inhibitor chemical matter such as saracatinib. Primary myelination evidence makes the direction unacceptable without cell-selective delivery: Fyn activation is required for oligodendrocyte morphological differentiation, and Src-family/Fyn inhibitors reduce myelin membrane formation (Osterhout et al., *J Cell Biol* 1999, PMID `10366594`; Perez et al., *J Neurosci Res* 2013, PMID `23797152`). Because this dataset does not yet establish microglia-specific pathogenic Fyn or a microglia-selective inhibitor, broad inhibition risks suppressing repair and is rejected.
+
+## Candidate 4 Registered Before Cell-State Testing: `EGLN1`-High Foamy-Lesion Stratification For `EHP-101`
+
+**Candidate form:** stratification biomarker, not a novel drug or novel PHD2/HIF mechanism. `EHP-101` (`VCE-004.8`) is existing chemical matter whose MS phase IIa study `NCT04909502` is listed by ClinicalTrials.gov as `SUSPENDED` after a recruitment pause to reassess eligibility criteria. The proposed delta is that a foamy/chronic-active-lesion-enriched `EGLN1` state could identify the mechanistically aligned population that the broad relapsing-MS design did not select.
+
+### Nomination Evidence Available Before New Testing
+
+- `EGLN1`/PHD2 protein is elevated in foamy active/mixed human MS lesions in the existing donor-aware proteomic screen: adjusted coefficient `+0.3595` log2 LFQ, `p=1.43e-05`, `FDR=0.0005111`, 30 specimens from 20 donors.
+- VCE-004.8 prior work already reports modulation of the PP2A/B55alpha/PHD2/HIF pathway and notes its MS phase II programme (Navarrete et al., *Journal of Neuroinflammation* 2022, DOI `10.1186/s12974-022-02540-9`). This is mechanism prior art supporting feasibility, not novelty.
+- The deposited `GSE284005` 500-gene MERFISH panel does not measure `EGLN1`; no new spatial target localization can be claimed from that panel.
+
+### Prospective Independent Cell-State Test
+
+In independent human snRNA-seq `GSE301908`, use deposited `Micro2` (foamy/MIMS2) versus `Micro0` (homeostatic/HMG) labels. Aggregate raw counts to specimen pseudobulks and then donor-level contrasts if deposited specimen identifiers recover donors. `EGLN1` is the single candidate validation target; `GPNMB`, `APOE`, `LPL`, and `SPP1` are state-identity controls and cannot become replacement claims.
+
+The biomarker branch survives only if:
+
+1. At least eight paired donors each have at least 20 nuclei in `Micro2` and `Micro0`.
+2. `EGLN1` is higher in `Micro2` with mean paired delta `>0`, positive direction in at least two thirds of paired donors, paired `dz >= 0.5`, and two-sided paired Wilcoxon `p < 0.05`.
+3. At least three of four state controls are directionally elevated in `Micro2`.
+
+### Mandatory Later Gates
+
+Even if the expression test passes, promotion requires verification that EHP-101 exposure/target engagement is feasible in CNS tissue or CSF, a biomarker assay usable in living patients rather than post-mortem tissue alone, and a novelty search showing no published or patented `EGLN1`/foamy/PRL-based enrichment design for EHP-101. Failure of any gate rejects the branch.

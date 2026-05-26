@@ -56,3 +56,19 @@ PubMed/Europe PMC queries `(FYN OR Fyn kinase OR saracatinib OR AZD0530) AND (mu
 ### Decision
 
 Reject systemic Fyn inhibition. The foamy-lesion protein enrichment does not identify the producing cell or distinguish pathogenic microglial Fyn from repair-associated oligodendroglial Fyn. A CNS-penetrant inhibitor creates a foreseeable remyelination hazard, and no cell-selective delivery evidence exists in this project to separate those effects.
+
+## `EGLN1`-High Foamy-Lesion Stratification For `EHP-101`
+
+This is registered as a possible category-C output: not novelty of VCE-004.8/EHP-101 or PHD2/HIF modulation, but a human-lesion biomarker rationale for a suspended MS programme.
+
+### Known Prior Art Identified Before Cell-State Testing
+
+| Source | Query or identifier | Result and boundary |
+|---|---|---|
+| PubMed / official full text | `(EGLN1 OR PHD2 OR roxadustat OR FG-4592) AND (multiple sclerosis OR experimental autoimmune encephalomyelitis OR demyelination)`; DOI `10.1186/s12974-022-02540-9` | Navarrete et al. 2022 reports VCE-004.8 regulation of the PP2A/B55alpha/PHD2/HIF pathway and states that the compound was in phase II clinical trials for MS. The mechanism and drug are not new. |
+| ClinicalTrials.gov API v2 | `EHP-101 OR VCE-004.8 OR VCE-0048 OR EHP101` | `NCT04909502`, phase IIa in relapsing MS, status `SUSPENDED`, with stated eligibility-protocol reassessment reason; no posted results. Original eligibility excludes PPMS and non-active SPMS. |
+| GEO panel inspection | `GSE284005` raw 500-gene MERFISH panel | `EGLN1` absent; spatial target localization cannot be supplied by this panel. |
+
+### Novelty Question Still Open
+
+If independent cell-state validation passes, searches must determine whether any publication, preprint, trial document, or patent already proposes selecting EHP-101 recipients by `EGLN1`/PHD2-high foamy microglia, chronic-active/paramagnetic-rim lesions, or a corresponding accessible biomarker. Until that search and a usable living-patient assay succeed, this remains a registered hypothesis rather than a finding.
