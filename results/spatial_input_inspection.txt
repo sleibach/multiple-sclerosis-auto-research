@@ -1,0 +1,136 @@
+## data/raw/GSE284005_family.soft.gz
+^DATABASE = GeoMiame
+!Database_name = Gene Expression Omnibus (GEO)
+!Database_institute = NCBI NLM NIH
+!Database_web_link = http://www.ncbi.nlm.nih.gov/geo
+!Database_email = geo@ncbi.nlm.nih.gov
+^SERIES = GSE284005
+!Series_title = A single-cell resolution spatial transcriptomics atlas of human multiple sclerosis lesion (MERSCOPE)
+!Series_geo_accession = GSE284005
+!Series_status = Public on Oct 29 2025
+!Series_submission_date = Dec 11 2024
+!Series_last_update_date = Oct 30 2025
+!Series_summary = In this study, we conducted an in-depth investigation into the complex intercellular immune reactions in multiple sclerosis (MS). To accurately map the spatial transcriptomic landscape of MS, we designed a gene panel comprising 500 key genes and collected samples from the brain tissues of 14 patients with chronic active MS. Using MERFISH and 10x single-cell sequencing technologies, we successfully created detailed spatial transcriptional maps. Through comprehensive analysis of the data obtained, we identified several disease-specific glial cell subtypes associated with MS. Furthermore, we explored how these disease-related glial cells interact with peripheral immune cells, revealing their potential roles in the progression of the disease. This research not only provides new insights into the pathological mechanisms of multiple sclerosis but also offers significant scientific basis for the development of future therapeutic strategies.
+!Series_overall_design = In this study, our experimental design focused on the detailed analysis of lesion areas in the brain tissues of patients with multiple sclerosis (MS). First, we collected brain tissue samples from 14 MS patients. Using specialized staining techniques, we accurately identified the locations of MS lesions within the brain tissues. Subsequently, we used a brain puncher to extract the brain tissue regions containing lesions from each sample. These precisely cut samples were then analyzed on the MERSCOPE platform by Vizgen.
+!Series_overall_design = *rds files: slimmed Seurat object with normalized expression values, essential cell-level metadata, and the final dimensional reductions used in the associated publication.
+!Series_type = Other
+!Series_contributor = Ruoqing,,Feng
+!Series_sample_id = GSM8675811
+!Series_sample_id = GSM8675812
+!Series_sample_id = GSM8675813
+!Series_sample_id = GSM8675814
+!Series_sample_id = GSM8675815
+!Series_sample_id = GSM8675816
+!Series_sample_id = GSM8675817
+!Series_sample_id = GSM8675818
+!Series_sample_id = GSM8675819
+!Series_sample_id = GSM8675820
+!Series_sample_id = GSM8675821
+!Series_sample_id = GSM8675822
+!Series_sample_id = GSM8675823
+!Series_sample_id = GSM8675824
+!Series_sample_id = GSM8675825
+!Series_sample_id = GSM8675826
+!Series_sample_id = GSM8675827
+!Series_contact_name = Ruoqing,,Feng
+!Series_contact_email = fengruoqing123@gmail.com
+!Series_contact_laboratory = MikaLab
+!Series_contact_institute = German Center for Neurodegenerative Diseases (DZNE)
+!Series_contact_address = Feodor-Lynen-Strasse 17
+!Series_contact_city = Munich
+!Series_contact_zip/postal_code = 81377
+!Series_contact_country = Germany
+!Series_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE284nnn/GSE284005/suppl/GSE284005_RAW.tar
+!Series_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE284nnn/GSE284005/suppl/GSE284005_merfish_all.rds
+!Series_supplementary_file = ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE284nnn/GSE284005/suppl/GSE284005_merfish_neuron_clean.rds
+!Series_platform_id = GPL31217
+!Series_platform_taxid = 32630
+!Series_sample_taxid = 9606
+!Series_relation = BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1196815
+^PLATFORM = GPL31217
+!Platform_title = MERFISH
+!Platform_geo_accession = GPL31217
+!Platform_status = Public on Apr 26 2022
+!Platform_submission_date = Jan 11 2022
+!Platform_last_update_date = Sep 13 2023
+!Platform_technology = other
+!Platform_distribution = custom-commercial
+!Platform_organism = synthetic construct
+!Platform_taxid = 32630
+!Platform_manufacturer = Vizgen
+!Platform_manufacture_protocol = MERFISH probe library was constructed through Vizgen, according to their pipeline.
+
+## data/raw/GSE284005_RAW.tar
+members=51
+GSM8675811_ms1r1_celltypes.tsv.gz	107600
+GSM8675811_ms1r1_coordinates.tsv.gz	529119
+GSM8675811_ms1r1_count.tsv.gz	1739577
+GSM8675812_ms1r2_celltypes.tsv.gz	130778
+GSM8675812_ms1r2_coordinates.tsv.gz	645254
+GSM8675812_ms1r2_count.tsv.gz	1756445
+GSM8675813_ms4r1_celltypes.tsv.gz	126979
+GSM8675813_ms4r1_coordinates.tsv.gz	638540
+GSM8675813_ms4r1_count.tsv.gz	2448176
+GSM8675814_ms4r2_celltypes.tsv.gz	79782
+GSM8675814_ms4r2_coordinates.tsv.gz	404301
+GSM8675814_ms4r2_count.tsv.gz	1270727
+GSM8675815_ms5r1_celltypes.tsv.gz	104001
+GSM8675815_ms5r1_coordinates.tsv.gz	512442
+GSM8675815_ms5r1_count.tsv.gz	1278957
+GSM8675816_ms6r0_celltypes.tsv.gz	49774
+GSM8675816_ms6r0_coordinates.tsv.gz	222853
+GSM8675816_ms6r0_count.tsv.gz	828736
+GSM8675817_ms6r1_celltypes.tsv.gz	97327
+GSM8675817_ms6r1_coordinates.tsv.gz	468951
+GSM8675817_ms6r1_count.tsv.gz	1594539
+GSM8675818_ms7r1_celltypes.tsv.gz	51868
+GSM8675818_ms7r1_coordinates.tsv.gz	255640
+GSM8675818_ms7r1_count.tsv.gz	328800
+GSM8675819_ms8r0_celltypes.tsv.gz	107472
+GSM8675819_ms8r0_coordinates.tsv.gz	531765
+GSM8675819_ms8r0_count.tsv.gz	1556397
+GSM8675820_ms10r0_celltypes.tsv.gz	135562
+GSM8675820_ms10r0_coordinates.tsv.gz	726228
+GSM8675820_ms10r0_count.tsv.gz	1381785
+GSM8675821_ms11r1_celltypes.tsv.gz	160995
+GSM8675821_ms11r1_coordinates.tsv.gz	721918
+GSM8675821_ms11r1_count.tsv.gz	1587775
+GSM8675822_ms12r0_celltypes.tsv.gz	47817
+GSM8675822_ms12r0_coordinates.tsv.gz	226062
+GSM8675822_ms12r0_count.tsv.gz	341759
+GSM8675823_ms12r1_celltypes.tsv.gz	24314
+GSM8675823_ms12r1_coordinates.tsv.gz	115195
+GSM8675823_ms12r1_count.tsv.gz	381845
+GSM8675824_ms15r0_celltypes.tsv.gz	90303
+GSM8675824_ms15r0_coordinates.tsv.gz	450832
+GSM8675824_ms15r0_count.tsv.gz	780093
+GSM8675825_ms15r1_celltypes.tsv.gz	103312
+GSM8675825_ms15r1_coordinates.tsv.gz	503725
+GSM8675825_ms15r1_count.tsv.gz	966824
+GSM8675826_ms16r0_celltypes.tsv.gz	78916
+GSM8675826_ms16r0_coordinates.tsv.gz	395976
+GSM8675826_ms16r0_count.tsv.gz	1493329
+GSM8675827_ms16r1_celltypes.tsv.gz	185600
+GSM8675827_ms16r1_coordinates.tsv.gz	898719
+GSM8675827_ms16r1_count.tsv.gz	3190961
+
+### head GSM8675811_ms1r1_celltypes.tsv.gz
+cells	majorCluster_final	Region_banksy	clean_sub
+ms1r1_4318552600001100005	Neuron	GM	Neu.GLUT
+ms1r1_4318552600001100010	Neuron	GM	Neu.GLUT
+ms1r1_4318552600001100012	Neuron	GM	Neu.GLUT
+ms1r1_4318552600001100013	Neuron	GM	Neu.GLUT
+
+### head GSM8675811_ms1r1_coordinates.tsv.gz
+cells	X	Y
+ms1r1_4318552600001100005	8945.66841832161	393.386274046834
+ms1r1_4318552600001100010	8984.99167091146	437.390830839669
+ms1r1_4318552600001100012	8987.61664658124	444.966996279659
+ms1r1_4318552600001100013	8980.60032334396	450.942651780679
+
+### head GSM8675811_ms1r1_count.tsv.gz
+GENES	ms1r1_4318552600001100005	ms1r1_4318552600001100010	ms1r1_4318552600001100012	ms1r1_4318552600001100013	ms1r1_4318552600001100014	ms1r1_4318552600001200014	ms1r1_4318552600001200015	ms1r1_4318552600001200018	ms1r1_4318552600001200021	ms1r1_4318552600002100012	ms1r1_4318552600002100015	ms1r1_4318552600002100017	ms1r1_4318552600002100021	ms1r1_4318552600002100030	ms1r1_4318552600002100032	ms1r1_4318552600002100033	ms1r1_4318552600002100035	ms1r1_4318552600002100038	ms1r1_4318552600002100039	ms1r1_4318552600002100040	ms1r1_4318552600002100047	ms1r1_4318552600002100050	ms1r1_4318552600002100051	ms1r1_4318552600002100052	ms1r1_4318552600002100056	ms1r1_4318552600002100059	ms1r1_4318552600002100060	ms1r1_4318552600002100063	ms1r1_4318552600002100066	ms1r1_4318552600002100067	ms1r1_4318552600002100069	ms1r1_4318552600002100072	ms1r1_4318552600002100073	ms1r1_4318552600002100074	ms1r1_4318552600002100077	ms1r1_4318552600002100079	ms1r1_4318552600002100082	ms1r1_4318552600002100083	ms1r1_
+CD9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	
+CD4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	2	0	0	0	0	1	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	1	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	2	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	
+CLDN11	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CD22	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
