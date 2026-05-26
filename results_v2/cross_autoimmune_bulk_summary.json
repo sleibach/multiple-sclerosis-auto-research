@@ -1,0 +1,32 @@
+{
+  "random_seed": 20260526,
+  "datasets_attempted": [
+    "GSE97779",
+    "GSE13355",
+    "GSE75214",
+    "GSE32591"
+  ],
+  "metadata_shapes": {
+    "GSE97779": [
+      14,
+      30
+    ],
+    "GSE13355": [
+      180,
+      33
+    ],
+    "GSE75214": [
+      194,
+      31
+    ],
+    "GSE32591": [
+      93,
+      29
+    ]
+  },
+  "acsl1_positive_nominal_contrasts": 4,
+  "acsl1_tested_contrasts": 10,
+  "ldam_positive_nominal_contrasts": 8,
+  "ldam_tested_contrasts": 10,
+  "main_limitation": "mostly bulk public datasets; only RA dataset is macrophage-specific and it has tissue/culture confounding"
+}

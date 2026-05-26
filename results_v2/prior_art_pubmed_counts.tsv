@@ -1,0 +1,5 @@
+query_name	query	count	first_pmids
+ACSL1_MS	"(ACSL1 OR ""acyl-CoA synthetase 1"") AND (""multiple sclerosis"" OR EAE)"	0	NA
+NAMPT_MS	"(NAMPT OR visfatin OR FK866 OR APO866) AND (""multiple sclerosis"" OR EAE)"	15	41562070,40869389,38956704,36457996,35994674,35168514,32632847,32154570,27721574,27344330
+NAMPT_AUTOIMMUNE	(NAMPT OR visfatin OR FK866 OR APO866) AND (rheumatoid OR lupus OR psoriasis OR Crohn OR ulcerative OR autoimmune)	242	42094578,42086781,41613636,41487969,41475661,41439711,41302127,41167161,41081831,41021591
+FK866_EAE	FK866 experimental autoimmune encephalomyelitis	1	19936064

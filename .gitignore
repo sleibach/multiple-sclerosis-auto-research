@@ -6,6 +6,8 @@ __pycache__/
 # Downloaded source datasets: retrieve through scripts with recorded checksums.
 data/raw/*
 !data/raw/.gitkeep
+data/raw_v2/*
+!data/raw_v2/.gitkeep
 
 # Large generated matrices are reproducible and should not be committed.
 data/derived/*.csv.gz

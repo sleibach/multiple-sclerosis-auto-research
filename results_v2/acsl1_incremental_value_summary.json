@@ -1,0 +1,50 @@
+{
+  "present_module_genes": [
+    "APOE",
+    "GPNMB",
+    "SPP1",
+    "PLIN2",
+    "C1QB",
+    "C1QC",
+    "CTSB",
+    "CTSD",
+    "LAMP1",
+    "NAMPT",
+    "IFI30",
+    "ASAH1",
+    "TPP1"
+  ],
+  "interpretation": "If foamy coefficient drops after module adjustment, ACSL1 is not independent of the broader lipid/lysosomal myeloid state.",
+  "models": [
+    {
+      "formula": "ACSL1 ~ foamy + C(lesion_group)",
+      "n_samples": 32,
+      "n_donors": 20,
+      "foamy_coef": 0.366170096192296,
+      "foamy_se": 0.08734406699290008,
+      "foamy_p": 2.7617445265620832e-05,
+      "module_coef": NaN,
+      "module_p": NaN
+    },
+    {
+      "formula": "ACSL1 ~ foamy + C(lesion_group) + ldam_module",
+      "n_samples": 32,
+      "n_donors": 20,
+      "foamy_coef": 0.12372209461483226,
+      "foamy_se": 0.08290682199610898,
+      "foamy_p": 0.13561974508963423,
+      "module_coef": 0.2482068742593848,
+      "module_p": 5.887155088676769e-07
+    },
+    {
+      "formula": "ldam_module ~ foamy + C(lesion_group)",
+      "n_samples": 32,
+      "n_donors": 20,
+      "foamy_coef": 0.982568304228594,
+      "foamy_se": 0.15917476256133667,
+      "foamy_p": 6.705285426648663e-10,
+      "module_coef": NaN,
+      "module_p": NaN
+    }
+  ]
+}

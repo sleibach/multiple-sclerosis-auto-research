@@ -1,0 +1,15 @@
+{
+  "random_seed": 20260526,
+  "draws": 1000,
+  "activities_tested": [
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "therapeutic_window_rule": ">=20% injury reduction with <=20% free-lipid increase and <=20% debris-clearance capacity drop",
+  "draw_fraction_with_any_safe_therapeutic_window": 0.0,
+  "best_activity_by_median_injury_reduction": 0.2,
+  "interpretation": "If the safe-window fraction is low, ACSL1 inhibition requires careful cell-state/modality control and cannot be treated as generally safe."
+}
