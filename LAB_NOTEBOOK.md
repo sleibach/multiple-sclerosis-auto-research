@@ -56,3 +56,18 @@ All times are Europe/Berlin (`UTC+02:00`). Entries are append-only descriptions 
 - Added a locked novelty addendum to `PLAN.md`: broad adaptive/B-cell-to-foamy-microglia module analysis is now a published-result replication control; `TNFRSF9`, `TNFSF9`, and their two-gene score are the focused target readouts.
 - Implemented `scripts/analyze.py`. It reads symbol-labelled GEO counts, uses author-deposited donor/morphology metadata, computes `log2(CPM + 1)` target expression and predeclared module scores, applies donor-grouped GEE tests with Benjamini-Hochberg correction, and uses a fixed seed (`20260526`) for donor bootstrap confidence intervals and plots.
 - For `GSE180759`, the implementation streams the dense matrix without loading it wholesale, aggregates nuclei into donor-by-pathology-by-cell-type pseudobulks, applies the predeclared 20-nucleus eligibility rule, and exports localization tables without upgrading the underpowered paired comparison to an inferential claim.
+
+## 2026-05-26T17:23:00+02:00 - First locked analysis output and required suspicion check
+
+- Executed `scripts/analyze.py` with random seed `20260526`.
+- The broad module positive control reproduced the published direction in `GSE279972`: `ADAPT_41BB` versus `MIMS_LIPID_COMP` had Spearman `rho=0.383` across 99 MS samples from 28 donors; donor-grouped GEE `FDR=4.31e-05`. This is not novel because the source article already reports related adaptive and lipid/lysosomal modules.
+- The focused result was initially interesting: among 54 specimens with deposited foamy/non-foamy morphology from 21 MS donors, the two-gene `COSTIM_41BB` score was elevated in foamy specimens (`d=1.117`; GEE coefficient `0.581`, lesion-class adjusted `p=0.00359`, focused-family `FDR=0.0216`).
+- The result does **not** satisfy the originally desired bridge endpoint: `COSTIM_41BB` did not correlate with `MIMS_LIPID_COMP` across all 99 MS specimens (`rho=0.125`, 95% donor-bootstrap interval `-0.102` to `0.352`, `FDR=0.266`). `TNFRSF9` alone did associate weakly with the microglial program (`rho=0.238`, `FDR=0.0344`), below the predeclared biologically meaningful `rho >= 0.40` criterion.
+- Discovery cross-validation is unavailable at adequate power: `GSE180759` yielded only five eligible paired lymphocyte/immune pseudobulk blocks and only three chronic-active edges. In those three edges, lymphocyte `COSTIM_41BB` scores were `-0.5`, `-0.5`, and `0.75`, so no consistent descriptive support exists.
+
+## 2026-05-26T17:25:00+02:00 - Post-result sensitivity analysis rationale
+
+- Because the composite passed FDR while neither individual gene passed the same adjusted foamy/non-foamy contrast, I treated the result as potentially unstable or compositional rather than accepting it immediately.
+- Manual sensitivity checks showed the composite foamy coefficient remained positive after adding `B_APC` or `MIMS_LIPID_COMP` to the donor-grouped lesion-class-adjusted GEE model, and was positive/significant in each leave-one-donor-out fit.
+- However, only six donors contributed both foamy and non-foamy specimens; their paired composite difference had Wilcoxon `p=0.09375`. This materially limits within-person inference.
+- Added these pre-specified-confounder/post-result robustness diagnostics to `scripts/analyze.py` so that the final evidence and its weakness are reproduced by the documented entry point rather than reported from an ad hoc console calculation.

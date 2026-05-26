@@ -1,0 +1,177 @@
+{
+  "random_seed": 20260526,
+  "modules": {
+    "ADAPT_41BB": [
+      "TNFRSF9",
+      "TNFSF9",
+      "IFNG",
+      "CCL5",
+      "NKG7",
+      "GZMB"
+    ],
+    "B_APC": [
+      "CD79A",
+      "MS4A1",
+      "CD74",
+      "HLA-DRA",
+      "HLA-DPA1",
+      "HLA-DPB1"
+    ],
+    "MIMS_LIPID_COMP": [
+      "GPNMB",
+      "APOE",
+      "LPL",
+      "TREM2",
+      "SPP1",
+      "C1QA",
+      "C1QB",
+      "C1QC",
+      "CD68",
+      "CTSB"
+    ],
+    "COSTIM_41BB": [
+      "TNFRSF9",
+      "TNFSF9"
+    ]
+  },
+  "validation": {
+    "raw_count_files": 109,
+    "metadata_rows": 110,
+    "matched_metadata_rows": 109,
+    "donors_matched": 38,
+    "ms_samples": 99,
+    "morphology_samples": 54
+  },
+  "discovery": {
+    "nuclei": 66432,
+    "target_genes_found": [
+      "APOE",
+      "C1QA",
+      "C1QB",
+      "C1QC",
+      "CCL5",
+      "CD68",
+      "CD74",
+      "CD79A",
+      "CTSB",
+      "GPNMB",
+      "GZMB",
+      "HLA-DPA1",
+      "HLA-DPB1",
+      "HLA-DRA",
+      "IFNG",
+      "LPL",
+      "MS4A1",
+      "NKG7",
+      "SPP1",
+      "TNFRSF9",
+      "TNFSF9",
+      "TREM2"
+    ],
+    "target_genes_absent": [],
+    "eligible_lymphocyte_immune_blocks": 5,
+    "eligible_chronic_active_blocks": 3
+  },
+  "focused_target_foamy_contrasts": [
+    {
+      "family": "focused_target",
+      "analysis": "foamy_vs_nonfoamy_adjusted_lesion_class",
+      "outcome": "TNFRSF9",
+      "predictor": "foamy",
+      "n_samples": 54,
+      "n_donors": 21,
+      "effect": 0.403339017692482,
+      "effect_type": "cohens_d_unadjusted_descriptive",
+      "ci_low": NaN,
+      "ci_high": NaN,
+      "p_value": 0.2945624592998626,
+      "supporting_unclustered_p": NaN,
+      "gee_coefficient": 0.049319208770253226,
+      "gee_se": 0.04705289254175589,
+      "fdr": 0.35347495115983507
+    },
+    {
+      "family": "focused_target",
+      "analysis": "foamy_vs_nonfoamy_adjusted_lesion_class",
+      "outcome": "TNFSF9",
+      "predictor": "foamy",
+      "n_samples": 54,
+      "n_donors": 21,
+      "effect": 1.0725782991932664,
+      "effect_type": "cohens_d_unadjusted_descriptive",
+      "ci_low": NaN,
+      "ci_high": NaN,
+      "p_value": 0.28425525249995065,
+      "supporting_unclustered_p": NaN,
+      "gee_coefficient": 0.22171386452957192,
+      "gee_se": 0.20705264314859237,
+      "fdr": 0.35347495115983507
+    },
+    {
+      "family": "focused_target",
+      "analysis": "foamy_vs_nonfoamy_adjusted_lesion_class",
+      "outcome": "COSTIM_41BB",
+      "predictor": "foamy",
+      "n_samples": 54,
+      "n_donors": 21,
+      "effect": 1.1173247542600622,
+      "effect_type": "cohens_d_unadjusted_descriptive",
+      "ci_low": NaN,
+      "ci_high": NaN,
+      "p_value": 0.0035924793688403194,
+      "supporting_unclustered_p": NaN,
+      "gee_coefficient": 0.580881122849735,
+      "gee_se": 0.19948587241715124,
+      "fdr": 0.021554876213041918
+    }
+  ],
+  "focused_target_sensitivity_models": [
+    {
+      "model": "unadjusted",
+      "formula": "COSTIM_41BB ~ foamy",
+      "n_samples": 54,
+      "n_donors": 21,
+      "foamy_coefficient": 0.639521458897887,
+      "foamy_se": 0.18664645498584434,
+      "foamy_p_value": 0.0006116866479618322
+    },
+    {
+      "model": "broad_lesion_adjusted",
+      "formula": "COSTIM_41BB ~ foamy + C(Lesion_type_6)",
+      "n_samples": 54,
+      "n_donors": 21,
+      "foamy_coefficient": 0.580881122849735,
+      "foamy_se": 0.19948587241715124,
+      "foamy_p_value": 0.0035924793688403194
+    },
+    {
+      "model": "b_apc_adjusted",
+      "formula": "COSTIM_41BB ~ foamy + C(Lesion_type_6) + B_APC",
+      "n_samples": 54,
+      "n_donors": 21,
+      "foamy_coefficient": 0.6387047270744689,
+      "foamy_se": 0.19851809037547166,
+      "foamy_p_value": 0.0012937486965806542
+    },
+    {
+      "model": "microglia_program_adjusted",
+      "formula": "COSTIM_41BB ~ foamy + C(Lesion_type_6) + MIMS_LIPID_COMP",
+      "n_samples": 54,
+      "n_donors": 21,
+      "foamy_coefficient": 0.6322502153869675,
+      "foamy_se": 0.21609334360229493,
+      "foamy_p_value": 0.0034354970736750518
+    }
+  ],
+  "focused_target_leave_one_donor_out": {
+    "runs": 21,
+    "minimum_coefficient": 0.4124336225481393,
+    "maximum_coefficient": 0.650752516219018,
+    "runs_p_lt_0_05": 21
+  },
+  "focused_target_within_donor_pairs": {
+    "n_donors": 6,
+    "median_difference": 0.6133239768895434,
+    "wilcoxon_p_value": 0.09375
+  }
+}

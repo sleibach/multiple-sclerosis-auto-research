@@ -319,6 +319,74 @@ def validation_statistics(expr: pd.DataFrame) -> pd.DataFrame:
     return results
 
 
+def validation_sensitivity(expr: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    ms = expr[expr["is_ms"]].dropna(subset=["donor"]).copy()
+    morphology = ms[ms["morphology"].isin(["foamy", "non_foamy"])].copy()
+    morphology["foamy"] = (morphology["morphology"] == "foamy").astype(int)
+
+    formulas = [
+        ("unadjusted", "COSTIM_41BB ~ foamy"),
+        ("broad_lesion_adjusted", "COSTIM_41BB ~ foamy + C(Lesion_type_6)"),
+        ("b_apc_adjusted", "COSTIM_41BB ~ foamy + C(Lesion_type_6) + B_APC"),
+        (
+            "microglia_program_adjusted",
+            "COSTIM_41BB ~ foamy + C(Lesion_type_6) + MIMS_LIPID_COMP",
+        ),
+    ]
+    model_rows = []
+    for label, formula in formulas:
+        model = sm.GEE.from_formula(
+            formula,
+            groups="donor",
+            data=morphology,
+            family=sm.families.Gaussian(),
+            cov_struct=Exchangeable(),
+        ).fit()
+        model_rows.append(
+            {
+                "model": label,
+                "formula": formula,
+                "n_samples": int(len(morphology)),
+                "n_donors": int(morphology["donor"].nunique()),
+                "foamy_coefficient": float(model.params["foamy"]),
+                "foamy_se": float(model.bse["foamy"]),
+                "foamy_p_value": float(model.pvalues["foamy"]),
+            }
+        )
+
+    lodo_rows = []
+    for donor in sorted(morphology["donor"].unique()):
+        subset = morphology[morphology["donor"] != donor]
+        model = sm.GEE.from_formula(
+            "COSTIM_41BB ~ foamy + C(Lesion_type_6)",
+            groups="donor",
+            data=subset,
+            family=sm.families.Gaussian(),
+            cov_struct=Exchangeable(),
+        ).fit()
+        lodo_rows.append(
+            {
+                "removed_donor": donor,
+                "n_samples": int(len(subset)),
+                "n_donors": int(subset["donor"].nunique()),
+                "foamy_coefficient": float(model.params["foamy"]),
+                "foamy_p_value": float(model.pvalues["foamy"]),
+            }
+        )
+
+    paired = (
+        morphology.groupby(["donor", "morphology"], observed=True)["COSTIM_41BB"]
+        .mean()
+        .unstack()
+        .dropna(subset=["foamy", "non_foamy"])
+    )
+    paired["within_donor_difference"] = paired["foamy"] - paired["non_foamy"]
+    wilcoxon_p = float(st.wilcoxon(paired["within_donor_difference"]).pvalue)
+    paired = paired.reset_index()
+    paired["paired_wilcoxon_p_value"] = wilcoxon_p
+    return pd.DataFrame(model_rows), pd.DataFrame(lodo_rows), paired
+
+
 def plot_validation(expr: pd.DataFrame) -> None:
     ms = expr[expr["is_ms"]].dropna(subset=["donor"])
     morph = ms[ms["morphology"].isin(["foamy", "non_foamy"])]
@@ -340,7 +408,7 @@ def plot_validation(expr: pd.DataFrame) -> None:
         morph.loc[morph["morphology"] == "non_foamy", "TNFRSF9"],
         morph.loc[morph["morphology"] == "foamy", "TNFRSF9"],
     ]
-    axes[1].boxplot(plot_groups, labels=["non_foamy", "foamy"], showfliers=False)
+    axes[1].boxplot(plot_groups, tick_labels=["non_foamy", "foamy"], showfliers=False)
     axes[1].scatter(
         np.repeat(1, len(plot_groups[0])) + RNG.normal(0, 0.045, len(plot_groups[0])),
         plot_groups[0],
@@ -388,6 +456,10 @@ def main() -> int:
     ].to_csv(RESULTS / "validation_sample_scores.tsv", sep="\t", index=False)
     statistics = validation_statistics(validation)
     statistics.to_csv(RESULTS / "validation_statistics.tsv", sep="\t", index=False)
+    sensitivity_models, lodo, paired_donors = validation_sensitivity(validation)
+    sensitivity_models.to_csv(RESULTS / "validation_sensitivity_models.tsv", sep="\t", index=False)
+    lodo.to_csv(RESULTS / "validation_leave_one_donor_out.tsv", sep="\t", index=False)
+    paired_donors.to_csv(RESULTS / "validation_paired_donors.tsv", sep="\t", index=False)
     plot_validation(validation)
 
     discovery, paired, discovery_summary = read_gse180759_pseudobulk()
@@ -404,6 +476,18 @@ def main() -> int:
         "validation": validation_summary,
         "discovery": discovery_summary,
         "focused_target_foamy_contrasts": key.to_dict(orient="records"),
+        "focused_target_sensitivity_models": sensitivity_models.to_dict(orient="records"),
+        "focused_target_leave_one_donor_out": {
+            "runs": int(len(lodo)),
+            "minimum_coefficient": float(lodo["foamy_coefficient"].min()),
+            "maximum_coefficient": float(lodo["foamy_coefficient"].max()),
+            "runs_p_lt_0_05": int((lodo["foamy_p_value"] < 0.05).sum()),
+        },
+        "focused_target_within_donor_pairs": {
+            "n_donors": int(len(paired_donors)),
+            "median_difference": float(paired_donors["within_donor_difference"].median()),
+            "wilcoxon_p_value": float(paired_donors["paired_wilcoxon_p_value"].iloc[0]),
+        },
     }
     with (RESULTS / "run_summary.json").open("w") as handle:
         json.dump(run_summary, handle, indent=2)
