@@ -113,3 +113,16 @@ However, full-text review of Van der Vliet et al. (2026, DOI `10.1038/s41593-026
 In independent `GSE180759`, the available contrast is chronic-active versus chronic-inactive lesion-edge transcript abundance, not foamy versus nonfoamy state. Only three paired donors meet the minimum-cell criterion. `TBXAS1` is inconsistent in immune and vascular pseudobulks (positive in `1/3` donors in each); an oligodendrocyte observation is positive in `3/3` donors but underpowered (`p=0.25`) and mismatched to the proposed foamy-microglia mechanism. This does not validate the intervention claim.
 
 `GSE301908` is therefore the required matched-state adjudication dataset: it is an independent human snRNA-seq cohort with foamy/pathological microglial states paired to the Feng et al. spatial atlas. Candidate promotion remains blocked pending that result and a pharmacology/novelty audit.
+
+### Prospective `GSE301908` Survival Rule
+
+This rule is fixed before opening the expression object. The primary contrast is deposited `Micro2` (foamy/MIMS2) versus deposited `Micro0` (homeostatic/HMG), analysed as library-size-normalized pseudobulk expression for each specimen and then averaged within donor where donor identity can be recovered from deposited metadata. `TBXAS1` is the single targeted validation test. `GPNMB`, `APOE`, `LPL`, `SPP1`, and the published comparator `MGLL` are state-mapping checks rather than replacement discoveries.
+
+The intervention branch survives this stage only if all of the following are met:
+
+1. At least eight paired donors each contribute at least 20 nuclei to both `Micro2` and `Micro0`.
+2. `TBXAS1` is higher in `Micro2` with mean paired delta `>0`, positive direction in at least two thirds of paired donors, and paired standardized effect `dz >= 0.5`.
+3. A two-sided paired Wilcoxon test for the prospectively single target gives `p < 0.05`.
+4. At least three of the four state controls (`GPNMB`, `APOE`, `LPL`, `SPP1`) are directionally higher in `Micro2`; otherwise the deposited-label interpretation is suspect.
+
+If donor IDs cannot be recovered, coverage is below threshold, or any required target criterion fails, `GSE301908` cannot support promotion of `TBXAS1`/thromboxane-directed intervention. No alternate gene from this readout will be promoted without a new registered branch and independent evidence.
