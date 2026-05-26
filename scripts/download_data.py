@@ -8,7 +8,6 @@ import csv
 import hashlib
 import sys
 import urllib.request
-from datetime import datetime, timezone
 from pathlib import Path
 
 
@@ -47,6 +46,15 @@ FILES = [
         "url": (
             "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE279nnn/GSE279972/"
             "soft/GSE279972_family.soft.gz"
+        ),
+    },
+    {
+        "accession": "Zenodo:19352263",
+        "role": "validation_published_processed_metadata",
+        "filename": "Processed_data_all_omics.xlsx",
+        "url": (
+            "https://zenodo.org/api/records/19352263/files/"
+            "Processed%20data%20all%20omics.xlsx/content"
         ),
     },
 ]
@@ -89,7 +97,6 @@ def main() -> int:
     args.manifest.parent.mkdir(parents=True, exist_ok=True)
 
     manifest_rows = []
-    retrieved_at = datetime.now(timezone.utc).isoformat()
     for spec in FILES:
         target = args.raw_dir / spec["filename"]
         download(spec["url"], target, args.force)
@@ -98,7 +105,6 @@ def main() -> int:
                 **spec,
                 "bytes": target.stat().st_size,
                 "sha256": sha256(target),
-                "retrieved_at_utc": retrieved_at,
             }
         )
 
@@ -113,7 +119,6 @@ def main() -> int:
                 "url",
                 "bytes",
                 "sha256",
-                "retrieved_at_utc",
             ],
         )
         writer.writeheader()
