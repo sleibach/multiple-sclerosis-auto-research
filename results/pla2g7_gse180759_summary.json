@@ -1,0 +1,32 @@
+{
+  "random_seed": 20260526,
+  "dataset": "GSE180759",
+  "cell_type": "immune",
+  "normalization": "log2(CPM + 1) pseudobulk using all-gene library size",
+  "minimum_nuclei_per_block": 20,
+  "primary_contrast": "chronic_active_MS_lesion_edge minus chronic_inactive_MS_lesion_edge",
+  "found_targets": [
+    "ABHD6",
+    "APOE",
+    "C1QA",
+    "CTSD",
+    "GPNMB",
+    "LIPA",
+    "LPL",
+    "MGLL",
+    "PLA2G7",
+    "TREM2"
+  ],
+  "eligible_pseudobulks": 15,
+  "paired_donors_primary_contrast": 3,
+  "pla2g7": {
+    "gene": "PLA2G7",
+    "paired_donors": 3,
+    "mean_delta_active_minus_inactive": 0.41698771716025745,
+    "paired_dz": 0.6261675136581428,
+    "positive_fraction": 0.6666666666666666,
+    "wilcoxon_p": 0.5,
+    "inference_boundary": "descriptive targeted validation: n is too small for exclusionary inference"
+  },
+  "interpretation_boundary": "This is independent lesion-edge localization of transcript, not ABPP activity, spatial proximity, target engagement, or therapeutic efficacy."
+}

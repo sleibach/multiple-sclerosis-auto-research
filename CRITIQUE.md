@@ -11,3 +11,8 @@ This file records scheduled hostile-review checks during the therapeutic discove
 **Additional attack:** The raw deposited labels expose `DMWM`, not the authors' computed rim boundary or imputed fine-grained transcriptome. The analysis cannot truthfully call any new result "lesion-rim-specific" unless additional deposited rim metadata are retrieved. It may only call it DMWM pathological-microglia/T-neighborhood evidence.
 
 **Status:** Addressed procedurally; unresolved biologically. A positive final claim is blocked unless the harm-to-repair issue and spatial-compartment limitation are explicitly resolved or incorporated as falsification gates.
+# Critique 2: Multi-Omics Candidate Screen Risks Circularity And Non-Causal Products
+
+The `PLA2G7` nomination demonstrates the danger of selecting an enzyme and a compatible lipid because both differ between foamy and non-foamy lesions: this can reflect a shared pathological state rather than enzyme-driven lipid flux. The residual coupling test appropriately killed that interpretation. Any subsequent lipid-enzyme candidate must pass the same test, but even a pass remains same-cohort support, not independent replication.
+
+`TBXAS1` is particularly vulnerable to tissue-composition confounding: elevated enzyme protein and thromboxane may derive from recruited vascular/immune elements rather than a lesion-driving microglial state. A target cannot advance without independent cell-resolved localization and an exposure-qualified intervention. Existing thromboxane biology in neuroinflammation could also erase novelty; that review must precede a final claim.

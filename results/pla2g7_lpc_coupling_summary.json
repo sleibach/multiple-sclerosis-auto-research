@@ -1,0 +1,19 @@
+{
+  "random_seed": 20260526,
+  "data_source": "Zenodo:19352263 / Processed data all omics.xlsx",
+  "test_family": "16 LPC lipid species measured in overlapping ABPP/lipidomics samples",
+  "interpretation_boundary": "Residual same-cohort enzyme-product coupling is supportive of flux but is not independent replication or proof that PLA2G7 produced the lipid in vivo.",
+  "lpc_20_3": {
+    "feature": "LPC(20:3)",
+    "n_samples": 25,
+    "n_donors": 18,
+    "spearman_rho": 0.24923076923076923,
+    "spearman_p": 0.2295852432198183,
+    "gee_coef_pla2g7": 0.22943244328609097,
+    "gee_se": 0.24687292809398245,
+    "gee_p": 0.3527054486251664,
+    "model": "lipid_value ~ pla2g7_activity + foamy + C(lesion_group)",
+    "model_status": "ok",
+    "fdr_bh_lpc_family": 0.7054108972503328
+  }
+}

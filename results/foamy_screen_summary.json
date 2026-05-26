@@ -1,0 +1,318 @@
+{
+  "random_seed": 20260526,
+  "data_source": "Zenodo:19352263 / Processed data all omics.xlsx",
+  "model": "GEE Gaussian: value ~ foamy + C(active_vs_mixed), exchangeable donor correlation",
+  "reporting_filter": "Top-lead reporting requires >= 20 measured samples and >= 15 donors; FDR remains computed over all tested features.",
+  "metadata": {
+    "eligible_samples": 36,
+    "donors": 21,
+    "foamy_samples": 18,
+    "non_foamy_samples": 18
+  },
+  "top_by_modality": {
+    "abpp": [
+      {
+        "feature": "CPVL",
+        "n_samples": 34,
+        "n_donors": 20,
+        "gee_coef_foamy": 1.390307578301911,
+        "gee_p": 9.065402539017203e-10,
+        "fdr_bh": 8.430824361285999e-08
+      },
+      {
+        "feature": "ASAH1",
+        "n_samples": 34,
+        "n_donors": 20,
+        "gee_coef_foamy": 1.0755579242255038,
+        "gee_p": 8.935348623684145e-07,
+        "fdr_bh": 4.1549371100131274e-05
+      },
+      {
+        "feature": "PLA2G15",
+        "n_samples": 28,
+        "n_donors": 17,
+        "gee_coef_foamy": 0.45506012922232836,
+        "gee_p": 7.418624357708885e-05,
+        "fdr_bh": 0.0016065452469570204
+      },
+      {
+        "feature": "SCPEP1",
+        "n_samples": 34,
+        "n_donors": 20,
+        "gee_coef_foamy": 0.823780946908716,
+        "gee_p": 8.637340037403335e-05,
+        "fdr_bh": 0.0016065452469570204
+      },
+      {
+        "feature": "ABHD6",
+        "n_samples": 24,
+        "n_donors": 15,
+        "gee_coef_foamy": 1.6773829499266213,
+        "gee_p": 0.00012120433510663774,
+        "fdr_bh": 0.001878667194152885
+      },
+      {
+        "feature": "NT5DC1",
+        "n_samples": 29,
+        "n_donors": 19,
+        "gee_coef_foamy": -2.1816229474824818,
+        "gee_p": 0.0005069496769755366,
+        "fdr_bh": 0.006735188565532129
+      },
+      {
+        "feature": "PLA2G7",
+        "n_samples": 28,
+        "n_donors": 18,
+        "gee_coef_foamy": 1.2352673470042372,
+        "gee_p": 0.0007090423435834002,
+        "fdr_bh": 0.007741123500830287
+      },
+      {
+        "feature": "LIPA",
+        "n_samples": 31,
+        "n_donors": 19,
+        "gee_coef_foamy": 0.8185885078795615,
+        "gee_p": 0.0007491409839513181,
+        "fdr_bh": 0.007741123500830287
+      },
+      {
+        "feature": "LYPLA1",
+        "n_samples": 25,
+        "n_donors": 17,
+        "gee_coef_foamy": 1.6029711782422231,
+        "gee_p": 0.0008599401831658759,
+        "fdr_bh": 0.007997443703442646
+      },
+      {
+        "feature": "ALDH1A1",
+        "n_samples": 34,
+        "n_donors": 20,
+        "gee_coef_foamy": 0.6578196738438866,
+        "gee_p": 0.0012606814347644545,
+        "fdr_bh": 0.010658488493917661
+      }
+    ],
+    "lipidomics": [
+      {
+        "feature": "CE(22:3)",
+        "n_samples": 29,
+        "n_donors": 20,
+        "gee_coef_foamy": 6.519017716836323,
+        "gee_p": 5.217608020656358e-41,
+        "fdr_bh": 3.683631262583389e-38
+      },
+      {
+        "feature": "CE(20:1)",
+        "n_samples": 29,
+        "n_donors": 20,
+        "gee_coef_foamy": 6.445374828218684,
+        "gee_p": 2.815145926933907e-38,
+        "fdr_bh": 9.93746512207669e-36
+      },
+      {
+        "feature": "CE(20:4)",
+        "n_samples": 29,
+        "n_donors": 20,
+        "gee_coef_foamy": 4.279476449242569,
+        "gee_p": 1.0495964987912461e-32,
+        "fdr_bh": 2.470050427155399e-30
+      },
+      {
+        "feature": "CE(18:0)",
+        "n_samples": 29,
+        "n_donors": 20,
+        "gee_coef_foamy": 4.6994374485382,
+        "gee_p": 4.2305288501505766e-30,
+        "fdr_bh": 7.466883420515768e-28
+      },
+      {
+        "feature": "CE(22:6)",
+        "n_samples": 29,
+        "n_donors": 20,
+        "gee_coef_foamy": 4.9007688606585535,
+        "gee_p": 6.810609339481263e-30,
+        "fdr_bh": 9.616580387347543e-28
+      },
+      {
+        "feature": "CE(20:2)",
+        "n_samples": 29,
+        "n_donors": 20,
+        "gee_coef_foamy": 5.394942845946531,
+        "gee_p": 1.0753688617132452e-28,
+        "fdr_bh": 1.265350693949252e-26
+      },
+      {
+        "feature": "CE(20:3)",
+        "n_samples": 29,
+        "n_donors": 20,
+        "gee_coef_foamy": 4.972427121069774,
+        "gee_p": 3.569970345843839e-22,
+        "fdr_bh": 3.600570091665358e-20
+      },
+      {
+        "feature": "5_HEPE",
+        "n_samples": 27,
+        "n_donors": 19,
+        "gee_coef_foamy": 1.4265197350837653,
+        "gee_p": 1.6935237722281008e-21,
+        "fdr_bh": 1.494534728991299e-19
+      },
+      {
+        "feature": "CE(18:1)",
+        "n_samples": 29,
+        "n_donors": 20,
+        "gee_coef_foamy": 4.352458045304372,
+        "gee_p": 8.545674500831179e-19,
+        "fdr_bh": 6.703606886207569e-17
+      },
+      {
+        "feature": "CE(24:6)",
+        "n_samples": 29,
+        "n_donors": 20,
+        "gee_coef_foamy": 5.729088890161013,
+        "gee_p": 4.6891481628792457e-17,
+        "fdr_bh": 3.310538602992747e-15
+      }
+    ],
+    "proteomics": [
+      {
+        "feature": "PLP1",
+        "n_samples": 32,
+        "n_donors": 20,
+        "gee_coef_foamy": -1.0613470071951892,
+        "gee_p": 5.354861550741367e-17,
+        "fdr_bh": 3.4067629185816575e-14
+      },
+      {
+        "feature": "ARL6IP5",
+        "n_samples": 32,
+        "n_donors": 20,
+        "gee_coef_foamy": 0.32867069775853214,
+        "gee_p": 6.028607703103191e-13,
+        "fdr_bh": 3.196166850595208e-10
+      },
+      {
+        "feature": "SNX5",
+        "n_samples": 32,
+        "n_donors": 20,
+        "gee_coef_foamy": 0.2588404108017618,
+        "gee_p": 1.0547762821149988e-12,
+        "fdr_bh": 4.793204790582587e-10
+      },
+      {
+        "feature": "STX7",
+        "n_samples": 32,
+        "n_donors": 20,
+        "gee_coef_foamy": 0.37716200093941316,
+        "gee_p": 3.16299867969139e-12,
+        "fdr_bh": 1.257687350012289e-09
+      },
+      {
+        "feature": "EFHD1",
+        "n_samples": 30,
+        "n_donors": 20,
+        "gee_coef_foamy": 0.748854534039367,
+        "gee_p": 1.3609757704396773e-11,
+        "fdr_bh": 4.810293250854015e-09
+      },
+      {
+        "feature": "ITGB2",
+        "n_samples": 32,
+        "n_donors": 20,
+        "gee_coef_foamy": 0.5389538271795676,
+        "gee_p": 5.105795660313278e-11,
+        "fdr_bh": 1.6241535995456537e-08
+      },
+      {
+        "feature": "PLD2",
+        "n_samples": 32,
+        "n_donors": 20,
+        "gee_coef_foamy": -0.6477724447223788,
+        "gee_p": 6.776652904987507e-11,
+        "fdr_bh": 1.959684808251387e-08
+      },
+      {
+        "feature": "ASAH1",
+        "n_samples": 32,
+        "n_donors": 20,
+        "gee_coef_foamy": 1.1539482798038743,
+        "gee_p": 1.4321613177288706e-10,
+        "fdr_bh": 3.652512093397224e-08
+      },
+      {
+        "feature": "FERMT3",
+        "n_samples": 32,
+        "n_donors": 20,
+        "gee_coef_foamy": 0.7050568113762259,
+        "gee_p": 1.492695919967429e-10,
+        "fdr_bh": 3.652512093397224e-08
+      },
+      {
+        "feature": "HCN2",
+        "n_samples": 28,
+        "n_donors": 19,
+        "gee_coef_foamy": -0.9521862749563207,
+        "gee_p": 2.2459418027152566e-10,
+        "fdr_bh": 4.7957008295196924e-08
+      }
+    ]
+  },
+  "focused_abpp": [
+    {
+      "feature": "ABHD6",
+      "n_samples": 24,
+      "n_donors": 15,
+      "gee_coef_foamy": 1.6773829499266213,
+      "gee_p": 0.00012120433510663774,
+      "fdr_bh": 0.001878667194152885
+    },
+    {
+      "feature": "PLA2G7",
+      "n_samples": 28,
+      "n_donors": 18,
+      "gee_coef_foamy": 1.2352673470042372,
+      "gee_p": 0.0007090423435834002,
+      "fdr_bh": 0.007741123500830287
+    },
+    {
+      "feature": "LIPA",
+      "n_samples": 31,
+      "n_donors": 19,
+      "gee_coef_foamy": 0.8185885078795615,
+      "gee_p": 0.0007491409839513181,
+      "fdr_bh": 0.007741123500830287
+    },
+    {
+      "feature": "MGLL",
+      "n_samples": 34,
+      "n_donors": 20,
+      "gee_coef_foamy": 1.1786787852814475,
+      "gee_p": 0.0019121035054334096,
+      "fdr_bh": 0.012701830428950508
+    },
+    {
+      "feature": "CTSD",
+      "n_samples": 29,
+      "n_donors": 17,
+      "gee_coef_foamy": 0.19933479611858065,
+      "gee_p": 0.4211486991264717,
+      "fdr_bh": 0.6527804836460311
+    },
+    {
+      "feature": "FAAH",
+      "n_samples": 34,
+      "n_donors": 20,
+      "gee_coef_foamy": 0.17765615623004435,
+      "gee_p": 0.6596361349029809,
+      "fdr_bh": 0.852030007583017
+    },
+    {
+      "feature": "ABHD12",
+      "n_samples": 34,
+      "n_donors": 20,
+      "gee_coef_foamy": 0.0407322805376754,
+      "gee_p": 0.8034333823852281,
+      "fdr_bh": 0.8895155304979312
+    }
+  ]
+}
