@@ -101,3 +101,15 @@ The same-cohort mechanistic gate failed. Across 25 overlapping specimens from 18
 1. Test residual `TBXAS1` protein-to-`thromboxane_B2` association among overlapping lesion specimens after adjusting for foamy morphology and lesion group.
 2. Search for independent human lesion-cell transcriptional localization (`GSE180759`; spatial panel if measured) before interpreting the enzyme as a lesion-cell target.
 3. Reject if the product coupling is absent, independent localization conflicts, prior art already directly proposes CNS thromboxane synthase inhibition in progressive/PRL-positive MS, or no realistic CNS-exposed inhibitor exists.
+
+### Product-Link Result And Prior-Art Restriction
+
+`TBXAS1` passed the product-link gate in the deposited foamy-lesion cohort: across 28 overlapping specimens from 20 donors, `TBXAS1` protein and `thromboxane_B2` were strongly associated (`rho=0.7586`, `p=2.90e-06`); after foamy-morphology and lesion-group adjustment, the donor-aware coefficient was `2.5205` (`p=3.65e-09`).
+
+However, full-text review of Van der Vliet et al. (2026, DOI `10.1038/s41593-026-02302-3`) established that this is **not** a novel target localization: the paper identifies `TBXAS1` in its foamy-microglia lipid-metabolism module and shows TBXAS1 staining at rims of mixed lesions with foamy versus nonfoamy microglia. The only remaining potential novelty is repurposing a thromboxane-synthase-directed intervention for the histologically/biomarker-defined foamy progressive-MS subgroup, if independent data and exposure evidence support it.
+
+### Independent Check To Date
+
+In independent `GSE180759`, the available contrast is chronic-active versus chronic-inactive lesion-edge transcript abundance, not foamy versus nonfoamy state. Only three paired donors meet the minimum-cell criterion. `TBXAS1` is inconsistent in immune and vascular pseudobulks (positive in `1/3` donors in each); an oligodendrocyte observation is positive in `3/3` donors but underpowered (`p=0.25`) and mismatched to the proposed foamy-microglia mechanism. This does not validate the intervention claim.
+
+`GSE301908` is therefore the required matched-state adjudication dataset: it is an independent human snRNA-seq cohort with foamy/pathological microglial states paired to the Feng et al. spatial atlas. Candidate promotion remains blocked pending that result and a pharmacology/novelty audit.

@@ -1,0 +1,15 @@
+{
+  "random_seed": 20260526,
+  "data_source": "Zenodo:19352263 / Processed data all omics.xlsx",
+  "product": "thromboxane_B2",
+  "enzyme": "TBXAS1",
+  "n_samples": 28,
+  "n_donors": 20,
+  "spearman_rho": 0.7586206896551723,
+  "spearman_p": 2.89586060648877e-06,
+  "model": "thromboxane_b2 ~ tbxas1_protein + foamy + C(lesion_group)",
+  "gee_coef_tbxas1": 2.5204594164583423,
+  "gee_se": 0.4272307195094925,
+  "gee_p": 3.645438187823497e-09,
+  "interpretation_boundary": "A positive association is same-cohort mechanism support after morphology adjustment; it is not independent replication or proof of therapeutic benefit."
+}

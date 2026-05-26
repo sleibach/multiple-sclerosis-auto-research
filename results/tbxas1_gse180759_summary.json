@@ -1,0 +1,86 @@
+{
+  "random_seed": 20260526,
+  "dataset": "GSE180759",
+  "cell_type": "immune",
+  "normalization": "log2(CPM + 1) pseudobulk using all-gene library size",
+  "minimum_nuclei_per_block": 20,
+  "primary_contrast": "chronic_active_MS_lesion_edge minus chronic_inactive_MS_lesion_edge",
+  "found_targets": [
+    "ALOX5AP",
+    "APOE",
+    "C1QA",
+    "GPNMB",
+    "PTGS1",
+    "PTGS2",
+    "TBXA2R",
+    "TBXAS1",
+    "TREM2"
+  ],
+  "eligible_pseudobulks": 15,
+  "paired_donors_primary_contrast": 3,
+  "tbxas1": {
+    "gene": "TBXAS1",
+    "paired_donors": 3,
+    "mean_delta_active_minus_inactive": 0.3591310185666871,
+    "paired_dz": 0.3832868164435696,
+    "positive_fraction": 0.3333333333333333,
+    "wilcoxon_p": 1.0
+  },
+  "tbxas1_by_celltype": [
+    {
+      "cell_type": "astrocytes",
+      "gene": "TBXAS1",
+      "paired_donors": 3,
+      "mean_delta_active_minus_inactive": 0.958468905505426,
+      "paired_dz": 0.563114992605477,
+      "positive_fraction": 0.6666666666666666,
+      "wilcoxon_p": 0.5
+    },
+    {
+      "cell_type": "immune",
+      "gene": "TBXAS1",
+      "paired_donors": 3,
+      "mean_delta_active_minus_inactive": 0.3591310185666871,
+      "paired_dz": 0.3832868164435696,
+      "positive_fraction": 0.3333333333333333,
+      "wilcoxon_p": 1.0
+    },
+    {
+      "cell_type": "neurons",
+      "gene": "TBXAS1",
+      "paired_donors": 1,
+      "mean_delta_active_minus_inactive": -2.3658052063890413,
+      "paired_dz": NaN,
+      "positive_fraction": 0.0,
+      "wilcoxon_p": 1.0
+    },
+    {
+      "cell_type": "oligodendrocytes",
+      "gene": "TBXAS1",
+      "paired_donors": 3,
+      "mean_delta_active_minus_inactive": 0.6045292804162155,
+      "paired_dz": 2.1934156846409154,
+      "positive_fraction": 1.0,
+      "wilcoxon_p": 0.25
+    },
+    {
+      "cell_type": "opc",
+      "gene": "TBXAS1",
+      "paired_donors": 3,
+      "mean_delta_active_minus_inactive": -0.4039906275167761,
+      "paired_dz": -0.32975072644717845,
+      "positive_fraction": 0.3333333333333333,
+      "wilcoxon_p": 0.5
+    },
+    {
+      "cell_type": "vascular_cells",
+      "gene": "TBXAS1",
+      "paired_donors": 3,
+      "mean_delta_active_minus_inactive": 0.7406791898420785,
+      "paired_dz": 0.3584120517080357,
+      "positive_fraction": 0.3333333333333333,
+      "wilcoxon_p": 1.0
+    }
+  ],
+  "interpretation_boundary": "This independently tests immune-compartment transcript localization only; three paired donors cannot establish efficacy or rule out composition effects."
+}

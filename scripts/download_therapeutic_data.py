@@ -30,6 +30,15 @@ FILES = [
             "soft/GSE284005_family.soft.gz"
         ),
     },
+    {
+        "accession": "GSE301908",
+        "role": "independent_human_chronic_active_ms_snrnaseq_seurat_object",
+        "filename": "GSE301908_sn_all.rds",
+        "url": (
+            "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE301nnn/GSE301908/"
+            "suppl/GSE301908_sn_all.rds"
+        ),
+    },
 ]
 
 
@@ -46,12 +55,26 @@ def download(url: str, target: Path, force: bool) -> None:
         print(f"reuse {target}", file=sys.stderr)
         return
     part = target.with_suffix(target.suffix + ".part")
-    if part.exists():
+    if part.exists() and force:
         part.unlink()
-    print(f"download {url}", file=sys.stderr)
-    with urllib.request.urlopen(url) as response, part.open("wb") as output:
-        while block := response.read(1024 * 1024):
-            output.write(block)
+    offset = part.stat().st_size if part.exists() else 0
+    request = urllib.request.Request(
+        url, headers={"Range": f"bytes={offset}-"} if offset else {}
+    )
+    action = f"resume at {offset} bytes" if offset else "download"
+    print(f"{action} {url}", file=sys.stderr)
+    with urllib.request.urlopen(request, timeout=60) as response:
+        if offset and response.status != 206:
+            raise RuntimeError(
+                f"server did not honor ranged resume for {target}; remove {part} and retry"
+            )
+        mode = "ab" if offset else "wb"
+        output = part.open(mode)
+        try:
+            while block := response.read(1024 * 1024):
+                output.write(block)
+        finally:
+            output.close()
     part.replace(target)
 
 
