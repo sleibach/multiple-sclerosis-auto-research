@@ -1,0 +1,29 @@
+{
+  "random_seed": 20260526,
+  "data_accession": "GSE284005",
+  "cells_loaded": 401794,
+  "dmwm_myeloid_cells": 12848,
+  "analytical_unit": "donor-level mean of eligible specimen pseudobulk contrasts",
+  "min_cells_per_pseudobulk": 20,
+  "t_neighborhood": "union of 100 nearest non-self neighbors of author-labelled T cells",
+  "soat1": {
+    "pathological_vs_homeostatic": {
+      "informative_donors": 6,
+      "mean_delta_log10k": 0.18118704022810617,
+      "paired_dz": 0.22354226411748782,
+      "positive_direction_fraction": 0.5,
+      "wilcoxon_p": 0.6875,
+      "fdr_bh": 0.9453125,
+      "registered_gate_pass": false
+    },
+    "t_near_vs_t_far_pathological": {
+      "informative_donors": 6,
+      "mean_delta_log10k": 0.16911947938463093,
+      "paired_dz": 0.15217890044851354,
+      "positive_direction_fraction": 0.5,
+      "wilcoxon_p": 0.84375,
+      "fdr_bh": 0.84375,
+      "registered_gate_pass": false
+    }
+  }
+}
