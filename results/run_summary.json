@@ -173,5 +173,15 @@
     "n_donors": 6,
     "median_difference": 0.6133239768895434,
     "wilcoxon_p_value": 0.09375
+  },
+  "negative_bridge_call": {
+    "predictor": "COSTIM_41BB",
+    "outcome": "MIMS_LIPID_COMP",
+    "predeclared_meaningful_rho_threshold": 0.4,
+    "observed_rho": 0.12521104554673657,
+    "bootstrap_ci_low": -0.10214476244367382,
+    "bootstrap_ci_high": 0.35233954694420555,
+    "fdr": 0.26569118140939224,
+    "threshold_excluded_by_ci": true
   }
 }

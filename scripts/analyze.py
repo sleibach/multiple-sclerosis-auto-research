@@ -15,6 +15,7 @@ import scipy.stats as st
 import statsmodels.api as sm
 from statsmodels.genmod.cov_struct import Exchangeable
 from statsmodels.stats.multitest import multipletests
+from statsmodels.stats.power import TTestPower
 
 
 SEED = 20260526
@@ -466,10 +467,34 @@ def main() -> int:
     discovery.to_csv(RESULTS / "discovery_pseudobulk_scores.tsv", sep="\t", index=False)
     paired.to_csv(RESULTS / "discovery_paired_eligible_blocks.tsv", sep="\t", index=False)
 
+    power_rows = []
+    for effect_size in [0.50, 0.60, 0.65, 0.80]:
+        required = TTestPower().solve_power(
+            effect_size=effect_size,
+            power=0.90,
+            alpha=0.05,
+            alternative="two-sided",
+        )
+        power_rows.append(
+            {
+                "paired_effect_size": effect_size,
+                "power": 0.90,
+                "alpha_two_sided": 0.05,
+                "calculated_n": float(required),
+                "rounded_up_n": int(np.ceil(required)),
+            }
+        )
+    pd.DataFrame(power_rows).to_csv(RESULTS / "falsification_power.tsv", sep="\t", index=False)
+
     key = statistics[
         (statistics["family"] == "focused_target")
         & (statistics["analysis"] == "foamy_vs_nonfoamy_adjusted_lesion_class")
     ].copy()
+    focused_association = statistics[
+        (statistics["family"] == "focused_target")
+        & (statistics["analysis"] == "all_MS_association")
+        & (statistics["predictor"] == "COSTIM_41BB")
+    ].iloc[0]
     run_summary = {
         "random_seed": SEED,
         "modules": MODULES,
@@ -487,6 +512,16 @@ def main() -> int:
             "n_donors": int(len(paired_donors)),
             "median_difference": float(paired_donors["within_donor_difference"].median()),
             "wilcoxon_p_value": float(paired_donors["paired_wilcoxon_p_value"].iloc[0]),
+        },
+        "negative_bridge_call": {
+            "predictor": "COSTIM_41BB",
+            "outcome": "MIMS_LIPID_COMP",
+            "predeclared_meaningful_rho_threshold": 0.40,
+            "observed_rho": float(focused_association["effect"]),
+            "bootstrap_ci_low": float(focused_association["ci_low"]),
+            "bootstrap_ci_high": float(focused_association["ci_high"]),
+            "fdr": float(focused_association["fdr"]),
+            "threshold_excluded_by_ci": bool(focused_association["ci_high"] < 0.40),
         },
     }
     with (RESULTS / "run_summary.json").open("w") as handle:

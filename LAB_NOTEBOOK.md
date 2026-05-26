@@ -71,3 +71,21 @@ All times are Europe/Berlin (`UTC+02:00`). Entries are append-only descriptions 
 - Manual sensitivity checks showed the composite foamy coefficient remained positive after adding `B_APC` or `MIMS_LIPID_COMP` to the donor-grouped lesion-class-adjusted GEE model, and was positive/significant in each leave-one-donor-out fit.
 - However, only six donors contributed both foamy and non-foamy specimens; their paired composite difference had Wilcoxon `p=0.09375`. This materially limits within-person inference.
 - Added these pre-specified-confounder/post-result robustness diagnostics to `scripts/analyze.py` so that the final evidence and its weakness are reproduced by the documented entry point rather than reported from an ad hoc console calculation.
+
+## 2026-05-26T17:28:00+02:00 - Sensitivity rerun and intermediate results checkpoint
+
+- Re-executed `scripts/analyze.py`; it completed without analytical errors and wrote sensitivity, leave-one-donor-out, paired-donor, and run-summary artifacts.
+- Fixed one non-substantive Matplotlib deprecation warning (`labels` to `tick_labels`) while adding reproducible sensitivity output; it does not alter statistical results.
+- Committed the result artifacts and post-result diagnostic implementation as Git checkpoint `e8befea`.
+
+## 2026-05-26T17:33:00+02:00 - Novelty search outcome and final interpretation decision
+
+- Queried PubMed, Google Scholar, bioRxiv (direct attempt plus indexed/domain-search fallback), Europe PMC, and accessible full text. Queries and limitations are written in `NOVELTY_SEARCH.md`.
+- The novelty search confirms that general CD137 biology in MS lesions is existing work (Wong et al., 2020) and that adaptive/foamy-microglial module biology in `GSE279972` is published by its generators (Van der Vliet et al., 2026).
+- No direct report of the specific targeted negative `TNFRSF9`/`TNFSF9` versus lipid/complement score analysis was located. The final output therefore reports a narrow negative finding and explicitly relegates the foamy enrichment to an exploratory side observation.
+
+## 2026-05-26T17:36:00+02:00 - Traceability completion
+
+- Added machine-readable output for the negative calling rule and for the planned spatial-validation sample-size calculation (`results/falsification_power.tsv`), so that numeric future-design statements in `FINDING.md` are produced by versioned code.
+- Executed the documented end-to-end entry point `./run_analysis.sh`; it completed successfully, reused/download-verified public inputs, and regenerated the same result values plus the new power artifact.
+- Automated consistency assertions confirmed that the negative-call values in `results/run_summary.json` equal the statistics table and that the `d=0.65`, 90%-power paired design rounds up to 27 donors. The proposed tissue collection target remains 30 to permit attrition.
