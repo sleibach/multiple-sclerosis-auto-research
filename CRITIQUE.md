@@ -18,3 +18,9 @@ The `PLA2G7` nomination demonstrates the danger of selecting an enzyme and a com
 `TBXAS1` is particularly vulnerable to tissue-composition confounding: elevated enzyme protein and thromboxane may derive from recruited vascular/immune elements rather than a lesion-driving microglial state. A target cannot advance without independent cell-resolved localization and an exposure-qualified intervention. Existing thromboxane biology in neuroinflammation could also erase novelty; that review must precede a final claim.
 
 This criticism has partially materialized: the source paper itself already shows rim `TBXAS1` staining, and `GSE180759` does not coherently replicate immune or vascular transcript enrichment. A strong same-sample protein-product association is insufficient to rescue a therapy proposition. A matched foamy-state independent atlas plus verified drug exposure are non-negotiable; if either fails, this branch must be rejected rather than reframed again.
+
+## Critique 3: A Biomarker Subgroup Cannot Launder Prior Art
+
+**Attack:** Once an older MS patent directly identifies thromboxane synthase as increased in MS CNS and claims reducing increased gene products for therapy, calling the same target a "foamy/PRL-stratified" proposition risks relabelling rather than discovery. A subgroup may ultimately be useful, but this project's DoD requires verified novelty and translational convergence, not a narrower marketing frame around prior target art.
+
+**Resolution:** The `TBXAS1` branch is terminated. The strong human product-coupling result is retained as evidence supporting existing biology, not promoted. Any new branch must be registered before testing and face its own patent and direct-intervention search early, before extensive validation work.

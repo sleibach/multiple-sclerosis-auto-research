@@ -126,3 +126,9 @@ The intervention branch survives this stage only if all of the following are met
 4. At least three of the four state controls (`GPNMB`, `APOE`, `LPL`, `SPP1`) are directionally higher in `Micro2`; otherwise the deposited-label interpretation is suspect.
 
 If donor IDs cannot be recovered, coverage is below threshold, or any required target criterion fails, `GSE301908` cannot support promotion of `TBXAS1`/thromboxane-directed intervention. No alternate gene from this readout will be promoted without a new registered branch and independent evidence.
+
+## Pivot 3 Outcome: `TBXAS1` Rejected By Therapeutic Prior Art
+
+The independent cell-state readout is no longer a route to a new `TBXAS1` therapeutic claim. Google Patents retrieval of `WO2004028339A2` (publication 2004-04-08, priority 2002-09-27) showed that the patent's MS CNS expression tables list `M80647 Thromboxane synthase` as increased, while its treatment claims describe decreasing gene products increased in those tables. This is direct target-level therapeutic prior art for lowering thromboxane synthase in MS.
+
+The protein-to-`thromboxane_B2` association remains a reproducible observation from the deposited lesion multi-omics data, but it is not novel enough for the required translational finding. `GSE301908` acquisition may be reused only for a newly registered candidate or as a documented confirmation of known lesion biology; it cannot revive this branch.
