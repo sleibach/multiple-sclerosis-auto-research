@@ -1,0 +1,132 @@
+{
+  "dataset": "GSE24427",
+  "n_samples": 250,
+  "n_patients": 25,
+  "target_probe_count": 53,
+  "relapse_free_counts_baseline": {
+    "1": 16,
+    "0": 9
+  },
+  "key_contrasts": [
+    {
+      "analysis": "baseline_relapse_free_2y",
+      "timepoint": "baseline",
+      "module": "ifn_apc",
+      "n_relapse_free": 16,
+      "n_not_relapse_free": 9,
+      "delta_relapse_free_minus_not": -0.08367644077413708,
+      "hedges_g": -0.17270432460044646,
+      "welch_p": 0.6303091498847068
+    },
+    {
+      "analysis": "baseline_relapse_free_2y",
+      "timepoint": "baseline",
+      "module": "hla_ii_without_cd74",
+      "n_relapse_free": 16,
+      "n_not_relapse_free": 9,
+      "delta_relapse_free_minus_not": -0.09640626138025757,
+      "hedges_g": -0.409376558072003,
+      "welch_p": 0.3026482329504239
+    },
+    {
+      "analysis": "baseline_relapse_free_2y",
+      "timepoint": "baseline",
+      "module": "receptor_only_cd74_cd44_cxcr4",
+      "n_relapse_free": 16,
+      "n_not_relapse_free": 9,
+      "delta_relapse_free_minus_not": -0.1812560007415615,
+      "hedges_g": -0.7234423774846679,
+      "welch_p": 0.08038933917104127
+    },
+    {
+      "analysis": "delta_relapse_free_2y",
+      "timepoint": "month_1",
+      "module": "ifn_apc",
+      "n_relapse_free": 16,
+      "n_not_relapse_free": 9,
+      "delta_relapse_free_minus_not": -0.014473135021223715,
+      "hedges_g": -0.022231400438502514,
+      "welch_p": 0.950337612840161
+    },
+    {
+      "analysis": "delta_relapse_free_2y",
+      "timepoint": "month_1",
+      "module": "hla_ii_without_cd74",
+      "n_relapse_free": 16,
+      "n_not_relapse_free": 9,
+      "delta_relapse_free_minus_not": 0.22896300080351073,
+      "hedges_g": 1.0089237828082185,
+      "welch_p": 0.022387938191276928
+    },
+    {
+      "analysis": "delta_relapse_free_2y",
+      "timepoint": "month_1",
+      "module": "receptor_only_cd74_cd44_cxcr4",
+      "n_relapse_free": 16,
+      "n_not_relapse_free": 9,
+      "delta_relapse_free_minus_not": 0.07422786627694891,
+      "hedges_g": 0.3742018338345815,
+      "welch_p": 0.42568175254580887
+    },
+    {
+      "analysis": "delta_relapse_free_2y",
+      "timepoint": "month_24",
+      "module": "ifn_apc",
+      "n_relapse_free": 16,
+      "n_not_relapse_free": 9,
+      "delta_relapse_free_minus_not": -0.128584753292373,
+      "hedges_g": -0.1209130795592913,
+      "welch_p": 0.7382634882684063
+    },
+    {
+      "analysis": "delta_relapse_free_2y",
+      "timepoint": "month_24",
+      "module": "hla_ii_without_cd74",
+      "n_relapse_free": 16,
+      "n_not_relapse_free": 9,
+      "delta_relapse_free_minus_not": 0.055645854878147764,
+      "hedges_g": 0.1843254442632445,
+      "welch_p": 0.6494986606431346
+    },
+    {
+      "analysis": "delta_relapse_free_2y",
+      "timepoint": "month_24",
+      "module": "receptor_only_cd74_cd44_cxcr4",
+      "n_relapse_free": 16,
+      "n_not_relapse_free": 9,
+      "delta_relapse_free_minus_not": 0.15985466381197055,
+      "hedges_g": 0.5380970691229692,
+      "welch_p": 0.1930073209922396
+    },
+    {
+      "analysis": "delta_relapse_free_2y",
+      "timepoint": "second_injection",
+      "module": "ifn_apc",
+      "n_relapse_free": 16,
+      "n_not_relapse_free": 9,
+      "delta_relapse_free_minus_not": 0.18468072722890083,
+      "hedges_g": 0.33620000689429475,
+      "welch_p": 0.3885935303942876
+    },
+    {
+      "analysis": "delta_relapse_free_2y",
+      "timepoint": "second_injection",
+      "module": "hla_ii_without_cd74",
+      "n_relapse_free": 16,
+      "n_not_relapse_free": 9,
+      "delta_relapse_free_minus_not": 0.03369916839096665,
+      "hedges_g": 0.11398587872985166,
+      "welch_p": 0.7705661395904494
+    },
+    {
+      "analysis": "delta_relapse_free_2y",
+      "timepoint": "second_injection",
+      "module": "receptor_only_cd74_cd44_cxcr4",
+      "n_relapse_free": 16,
+      "n_not_relapse_free": 9,
+      "delta_relapse_free_minus_not": 0.04649163410646093,
+      "hedges_g": 0.1342535419848769,
+      "welch_p": 0.7426291930151716
+    }
+  ]
+}

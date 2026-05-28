@@ -1,0 +1,555 @@
+{
+  "dataset": "GSE235508",
+  "hypothesis": "HYP_V6_007",
+  "scope": "Independent whole-blood RA/SLE/healthy pregnancy timecourse; no complication stratification available like GSE108497.",
+  "verdict_by_group": [
+    {
+      "samplegroup": "HEALTHY",
+      "mean_postpartum_delta_hla_ii": 0.13906061527240574,
+      "mean_postpartum_delta_monocyte_cd64": -0.3197314246209488,
+      "mean_postpartum_delta_hla_minus_cd64": 0.4587920398933544,
+      "supports_hyp_v6_007_direction": true
+    },
+    {
+      "samplegroup": "SLE",
+      "mean_postpartum_delta_hla_ii": -0.1907070774755182,
+      "mean_postpartum_delta_monocyte_cd64": -0.5404152313458436,
+      "mean_postpartum_delta_hla_minus_cd64": 0.3497081538703251,
+      "supports_hyp_v6_007_direction": false
+    },
+    {
+      "samplegroup": "SNRA",
+      "mean_postpartum_delta_hla_ii": -0.3342650761951232,
+      "mean_postpartum_delta_monocyte_cd64": -0.6276911933807734,
+      "mean_postpartum_delta_hla_minus_cd64": 0.29342611718565015,
+      "supports_hyp_v6_007_direction": false
+    },
+    {
+      "samplegroup": "SPRA",
+      "mean_postpartum_delta_hla_ii": 0.9915403951199792,
+      "mean_postpartum_delta_monocyte_cd64": 0.09981449331985097,
+      "mean_postpartum_delta_hla_minus_cd64": 0.8917259018001283,
+      "supports_hyp_v6_007_direction": false
+    }
+  ],
+  "disease_activity_correlations": [
+    {
+      "samplegroup": "SPRA",
+      "outcome": "das28",
+      "module": "hla_ii_only",
+      "n": 90,
+      "spearman_rho": -0.035428878722402954,
+      "spearman_p": 0.7402565047880216
+    },
+    {
+      "samplegroup": "SPRA",
+      "outcome": "das28",
+      "module": "monocyte_cd64",
+      "n": 90,
+      "spearman_rho": 0.05007879481858645,
+      "spearman_p": 0.6392537485026998
+    },
+    {
+      "samplegroup": "SPRA",
+      "outcome": "das28",
+      "module": "decoupling_hla_minus_cd64",
+      "n": 90,
+      "spearman_rho": -0.08485988813537584,
+      "spearman_p": 0.42647734387093855
+    },
+    {
+      "samplegroup": "SPRA",
+      "outcome": "das28",
+      "module": "lysosomal_apc",
+      "n": 90,
+      "spearman_rho": 0.07861457242997336,
+      "spearman_p": 0.46141484614991496
+    },
+    {
+      "samplegroup": "SPRA",
+      "outcome": "das28",
+      "module": "regulatory_pregnancy",
+      "n": 90,
+      "spearman_rho": -0.06325043139939543,
+      "spearman_p": 0.5536818264410002
+    },
+    {
+      "samplegroup": "SNRA",
+      "outcome": "das28",
+      "module": "hla_ii_only",
+      "n": 48,
+      "spearman_rho": 0.13086770488857283,
+      "spearman_p": 0.3752944298964121
+    },
+    {
+      "samplegroup": "SNRA",
+      "outcome": "das28",
+      "module": "monocyte_cd64",
+      "n": 48,
+      "spearman_rho": 0.2553315948578805,
+      "spearman_p": 0.07985624356910206
+    },
+    {
+      "samplegroup": "SNRA",
+      "outcome": "das28",
+      "module": "decoupling_hla_minus_cd64",
+      "n": 48,
+      "spearman_rho": -0.10891958708835632,
+      "spearman_p": 0.4611696652104473
+    },
+    {
+      "samplegroup": "SNRA",
+      "outcome": "das28",
+      "module": "lysosomal_apc",
+      "n": 48,
+      "spearman_rho": 0.1035009744643627,
+      "spearman_p": 0.4838914087049016
+    },
+    {
+      "samplegroup": "SNRA",
+      "outcome": "das28",
+      "module": "regulatory_pregnancy",
+      "n": 48,
+      "spearman_rho": 0.3144437325741744,
+      "spearman_p": 0.02950687828379952
+    },
+    {
+      "samplegroup": "SLE",
+      "outcome": "lai_p",
+      "module": "hla_ii_only",
+      "n": 97,
+      "spearman_rho": 0.07469412612509597,
+      "spearman_p": 0.46714526122495703
+    },
+    {
+      "samplegroup": "SLE",
+      "outcome": "lai_p",
+      "module": "monocyte_cd64",
+      "n": 97,
+      "spearman_rho": 0.09718306589961466,
+      "spearman_p": 0.34364993907621155
+    },
+    {
+      "samplegroup": "SLE",
+      "outcome": "lai_p",
+      "module": "decoupling_hla_minus_cd64",
+      "n": 97,
+      "spearman_rho": 0.036154467771475025,
+      "spearman_p": 0.7251539474209717
+    },
+    {
+      "samplegroup": "SLE",
+      "outcome": "lai_p",
+      "module": "lysosomal_apc",
+      "n": 97,
+      "spearman_rho": 0.11891878759556095,
+      "spearman_p": 0.24598646394331442
+    },
+    {
+      "samplegroup": "SLE",
+      "outcome": "lai_p",
+      "module": "regulatory_pregnancy",
+      "n": 97,
+      "spearman_rho": 0.11326068512438021,
+      "spearman_p": 0.26933889639505726
+    }
+  ],
+  "supporting_rows": [
+    {
+      "samplegroup": "HEALTHY",
+      "module": "decoupling_hla_minus_cd64",
+      "contrast": "postpartum_6wk_vs_trimester_3",
+      "n_test": 18,
+      "n_reference": 19,
+      "mean_test": 0.4063460248248439,
+      "mean_reference": 0.04795461838287762,
+      "delta_test_minus_reference": 0.35839140644196626,
+      "hedges_g": 0.7751017356913336,
+      "welch_p": 0.021372113964167352
+    },
+    {
+      "samplegroup": "HEALTHY",
+      "module": "decoupling_hla_minus_cd64",
+      "contrast": "postpartum_6mo_vs_trimester_3",
+      "n_test": 18,
+      "n_reference": 19,
+      "mean_test": 0.6071472917276202,
+      "mean_reference": 0.04795461838287762,
+      "delta_test_minus_reference": 0.5591926733447425,
+      "hedges_g": 1.2859178018905486,
+      "welch_p": 0.00030447509413624656
+    },
+    {
+      "samplegroup": "HEALTHY",
+      "module": "hla_ii_only",
+      "contrast": "postpartum_6wk_vs_trimester_3",
+      "n_test": 18,
+      "n_reference": 19,
+      "mean_test": 0.25386112716548603,
+      "mean_reference": 0.20034893087323133,
+      "delta_test_minus_reference": 0.053512196292254705,
+      "hedges_g": 0.05927684634988495,
+      "welch_p": 0.8548405420239126
+    },
+    {
+      "samplegroup": "HEALTHY",
+      "module": "hla_ii_only",
+      "contrast": "postpartum_6mo_vs_trimester_3",
+      "n_test": 18,
+      "n_reference": 19,
+      "mean_test": 0.4249579651257881,
+      "mean_reference": 0.20034893087323133,
+      "delta_test_minus_reference": 0.22460903425255677,
+      "hedges_g": 0.2484460749432899,
+      "welch_p": 0.4450682591423236
+    },
+    {
+      "samplegroup": "HEALTHY",
+      "module": "monocyte_cd64",
+      "contrast": "postpartum_6wk_vs_trimester_3",
+      "n_test": 18,
+      "n_reference": 19,
+      "mean_test": -0.15248489765935794,
+      "mean_reference": 0.15239431249035373,
+      "delta_test_minus_reference": -0.30487921014971164,
+      "hedges_g": -0.4513081845251871,
+      "welch_p": 0.17171628393540672
+    },
+    {
+      "samplegroup": "HEALTHY",
+      "module": "monocyte_cd64",
+      "contrast": "postpartum_6mo_vs_trimester_3",
+      "n_test": 18,
+      "n_reference": 19,
+      "mean_test": -0.18218932660183215,
+      "mean_reference": 0.15239431249035373,
+      "delta_test_minus_reference": -0.3345836390921859,
+      "hedges_g": -0.5084881407055283,
+      "welch_p": 0.12435518779447216
+    },
+    {
+      "samplegroup": "SLE",
+      "module": "decoupling_hla_minus_cd64",
+      "contrast": "postpartum_6wk_vs_trimester_3",
+      "n_test": 17,
+      "n_reference": 16,
+      "mean_test": -0.33346766415686213,
+      "mean_reference": -0.5363152930267658,
+      "delta_test_minus_reference": 0.2028476288699037,
+      "hedges_g": 0.3201235675718002,
+      "welch_p": 0.3493017189917587
+    },
+    {
+      "samplegroup": "SLE",
+      "module": "decoupling_hla_minus_cd64",
+      "contrast": "postpartum_6mo_vs_trimester_3",
+      "n_test": 17,
+      "n_reference": 16,
+      "mean_test": -0.01494794621144013,
+      "mean_reference": -0.5363152930267658,
+      "delta_test_minus_reference": 0.5213673468153257,
+      "hedges_g": 0.8896012949476978,
+      "welch_p": 0.013139602490947512
+    },
+    {
+      "samplegroup": "SLE",
+      "module": "decoupling_hla_minus_cd64",
+      "contrast": "postpartum_12mo_vs_trimester_3",
+      "n_test": 12,
+      "n_reference": 16,
+      "mean_test": -0.21140580710101983,
+      "mean_reference": -0.5363152930267658,
+      "delta_test_minus_reference": 0.324909485925746,
+      "hedges_g": 0.4461583739403025,
+      "welch_p": 0.2817341310007723
+    },
+    {
+      "samplegroup": "SLE",
+      "module": "hla_ii_only",
+      "contrast": "postpartum_6wk_vs_trimester_3",
+      "n_test": 17,
+      "n_reference": 16,
+      "mean_test": -0.2555926058821109,
+      "mean_reference": 0.008191287478474668,
+      "delta_test_minus_reference": -0.2637838933605856,
+      "hedges_g": -0.2319463146626319,
+      "welch_p": 0.49529749461620315
+    },
+    {
+      "samplegroup": "SLE",
+      "module": "hla_ii_only",
+      "contrast": "postpartum_6mo_vs_trimester_3",
+      "n_test": 17,
+      "n_reference": 16,
+      "mean_test": -0.05726469436381521,
+      "mean_reference": 0.008191287478474668,
+      "delta_test_minus_reference": -0.06545598184228987,
+      "hedges_g": -0.06510117674204097,
+      "welch_p": 0.8483044235043684
+    },
+    {
+      "samplegroup": "SLE",
+      "module": "hla_ii_only",
+      "contrast": "postpartum_12mo_vs_trimester_3",
+      "n_test": 12,
+      "n_reference": 16,
+      "mean_test": -0.23469006974520457,
+      "mean_reference": 0.008191287478474668,
+      "delta_test_minus_reference": -0.24288135722367923,
+      "hedges_g": -0.23106305105305128,
+      "welch_p": 0.559669640648562
+    },
+    {
+      "samplegroup": "SLE",
+      "module": "monocyte_cd64",
+      "contrast": "postpartum_6wk_vs_trimester_3",
+      "n_test": 17,
+      "n_reference": 16,
+      "mean_test": 0.07787505827475126,
+      "mean_reference": 0.5445065805052406,
+      "delta_test_minus_reference": -0.4666315222304893,
+      "hedges_g": -0.5147974999397406,
+      "welch_p": 0.1400125082702391
+    },
+    {
+      "samplegroup": "SLE",
+      "module": "monocyte_cd64",
+      "contrast": "postpartum_6mo_vs_trimester_3",
+      "n_test": 17,
+      "n_reference": 16,
+      "mean_test": -0.042316748152375135,
+      "mean_reference": 0.5445065805052406,
+      "delta_test_minus_reference": -0.5868233286576158,
+      "hedges_g": -0.7010844158166072,
+      "welch_p": 0.04915190095920973
+    },
+    {
+      "samplegroup": "SLE",
+      "module": "monocyte_cd64",
+      "contrast": "postpartum_12mo_vs_trimester_3",
+      "n_test": 12,
+      "n_reference": 16,
+      "mean_test": -0.02328426264418478,
+      "mean_reference": 0.5445065805052406,
+      "delta_test_minus_reference": -0.5677908431494254,
+      "hedges_g": -0.6368200965750035,
+      "welch_p": 0.09580482367187539
+    },
+    {
+      "samplegroup": "SNRA",
+      "module": "decoupling_hla_minus_cd64",
+      "contrast": "postpartum_6wk_vs_trimester_3",
+      "n_test": 10,
+      "n_reference": 7,
+      "mean_test": 0.28328778327603416,
+      "mean_reference": -0.08400222036861528,
+      "delta_test_minus_reference": 0.3672900036446494,
+      "hedges_g": 1.083046347780842,
+      "welch_p": 0.030507638872449613
+    },
+    {
+      "samplegroup": "SNRA",
+      "module": "decoupling_hla_minus_cd64",
+      "contrast": "postpartum_6mo_vs_trimester_3",
+      "n_test": 8,
+      "n_reference": 7,
+      "mean_test": 0.26533476252611,
+      "mean_reference": -0.08400222036861528,
+      "delta_test_minus_reference": 0.34933698289472526,
+      "hedges_g": 0.8434105541783653,
+      "welch_p": 0.09945027033403521
+    },
+    {
+      "samplegroup": "SNRA",
+      "module": "decoupling_hla_minus_cd64",
+      "contrast": "postpartum_12mo_vs_trimester_3",
+      "n_test": 3,
+      "n_reference": 7,
+      "mean_test": 0.07964914464896054,
+      "mean_reference": -0.08400222036861528,
+      "delta_test_minus_reference": 0.16365136501757582,
+      "hedges_g": 0.45367127562671605,
+      "welch_p": 0.5872643891538478
+    },
+    {
+      "samplegroup": "SNRA",
+      "module": "hla_ii_only",
+      "contrast": "postpartum_6wk_vs_trimester_3",
+      "n_test": 10,
+      "n_reference": 7,
+      "mean_test": 0.023987684743540672,
+      "mean_reference": 0.04438283671241886,
+      "delta_test_minus_reference": -0.02039515196887819,
+      "hedges_g": -0.02200116547197517,
+      "welch_p": 0.9665628006009639
+    },
+    {
+      "samplegroup": "SNRA",
+      "module": "hla_ii_only",
+      "contrast": "postpartum_6mo_vs_trimester_3",
+      "n_test": 8,
+      "n_reference": 7,
+      "mean_test": -0.3531126860399126,
+      "mean_reference": 0.04438283671241886,
+      "delta_test_minus_reference": -0.39749552275233146,
+      "hedges_g": -0.41532109548544077,
+      "welch_p": 0.4303528858341401
+    },
+    {
+      "samplegroup": "SNRA",
+      "module": "hla_ii_only",
+      "contrast": "postpartum_12mo_vs_trimester_3",
+      "n_test": 3,
+      "n_reference": 7,
+      "mean_test": -0.5405217171517411,
+      "mean_reference": 0.04438283671241886,
+      "delta_test_minus_reference": -0.58490455386416,
+      "hedges_g": -0.5386754046218536,
+      "welch_p": 0.2425463887958054
+    },
+    {
+      "samplegroup": "SNRA",
+      "module": "monocyte_cd64",
+      "contrast": "postpartum_6wk_vs_trimester_3",
+      "n_test": 10,
+      "n_reference": 7,
+      "mean_test": -0.2593000985324935,
+      "mean_reference": 0.12838505708103415,
+      "delta_test_minus_reference": -0.3876851556135276,
+      "hedges_g": -0.4543177914619055,
+      "welch_p": 0.376720950310587
+    },
+    {
+      "samplegroup": "SNRA",
+      "module": "monocyte_cd64",
+      "contrast": "postpartum_6mo_vs_trimester_3",
+      "n_test": 8,
+      "n_reference": 7,
+      "mean_test": -0.6184474485660225,
+      "mean_reference": 0.12838505708103415,
+      "delta_test_minus_reference": -0.7468325056470566,
+      "hedges_g": -0.8964438173701829,
+      "welch_p": 0.10334499850379011
+    },
+    {
+      "samplegroup": "SNRA",
+      "module": "monocyte_cd64",
+      "contrast": "postpartum_12mo_vs_trimester_3",
+      "n_test": 3,
+      "n_reference": 7,
+      "mean_test": -0.6201708618007017,
+      "mean_reference": 0.12838505708103415,
+      "delta_test_minus_reference": -0.7485559188817359,
+      "hedges_g": -0.7885712679330996,
+      "welch_p": 0.1587693582134872
+    },
+    {
+      "samplegroup": "SPRA",
+      "module": "decoupling_hla_minus_cd64",
+      "contrast": "postpartum_6wk_vs_trimester_3",
+      "n_test": 17,
+      "n_reference": 14,
+      "mean_test": 0.26029910653470195,
+      "mean_reference": -0.5152655307461989,
+      "delta_test_minus_reference": 0.7755646372809009,
+      "hedges_g": 1.701433851016524,
+      "welch_p": 6.780984659326123e-05
+    },
+    {
+      "samplegroup": "SPRA",
+      "module": "decoupling_hla_minus_cd64",
+      "contrast": "postpartum_6mo_vs_trimester_3",
+      "n_test": 14,
+      "n_reference": 14,
+      "mean_test": 0.4126086113267906,
+      "mean_reference": -0.5152655307461989,
+      "delta_test_minus_reference": 0.9278741420729895,
+      "hedges_g": 2.038416292553617,
+      "welch_p": 9.080044805769212e-06
+    },
+    {
+      "samplegroup": "SPRA",
+      "module": "decoupling_hla_minus_cd64",
+      "contrast": "postpartum_12mo_vs_trimester_3",
+      "n_test": 5,
+      "n_reference": 14,
+      "mean_test": 0.4564733953002955,
+      "mean_reference": -0.5152655307461989,
+      "delta_test_minus_reference": 0.9717389260464944,
+      "hedges_g": 1.9315011997961342,
+      "welch_p": 0.004624773944950363
+    },
+    {
+      "samplegroup": "SPRA",
+      "module": "hla_ii_only",
+      "contrast": "postpartum_6wk_vs_trimester_3",
+      "n_test": 17,
+      "n_reference": 14,
+      "mean_test": 0.15939681325698482,
+      "mean_reference": -0.4412691456932157,
+      "delta_test_minus_reference": 0.6006659589502005,
+      "hedges_g": 0.627294918650233,
+      "welch_p": 0.09583930025864994
+    },
+    {
+      "samplegroup": "SPRA",
+      "module": "hla_ii_only",
+      "contrast": "postpartum_6mo_vs_trimester_3",
+      "n_test": 14,
+      "n_reference": 14,
+      "mean_test": 0.4873321542183563,
+      "mean_reference": -0.4412691456932157,
+      "delta_test_minus_reference": 0.928601299911572,
+      "hedges_g": 0.9165524574165662,
+      "welch_p": 0.019411845574385897
+    },
+    {
+      "samplegroup": "SPRA",
+      "module": "hla_ii_only",
+      "contrast": "postpartum_12mo_vs_trimester_3",
+      "n_test": 5,
+      "n_reference": 14,
+      "mean_test": 1.0040847808049496,
+      "mean_reference": -0.4412691456932157,
+      "delta_test_minus_reference": 1.4453539264981652,
+      "hedges_g": 1.320144470240996,
+      "welch_p": 0.02294165182888494
+    },
+    {
+      "samplegroup": "SPRA",
+      "module": "monocyte_cd64",
+      "contrast": "postpartum_6wk_vs_trimester_3",
+      "n_test": 17,
+      "n_reference": 14,
+      "mean_test": -0.10090229327771708,
+      "mean_reference": 0.07399638505298321,
+      "delta_test_minus_reference": -0.17489867833070027,
+      "hedges_g": -0.2441264943259472,
+      "welch_p": 0.5081795541718985
+    },
+    {
+      "samplegroup": "SPRA",
+      "module": "monocyte_cd64",
+      "contrast": "postpartum_6mo_vs_trimester_3",
+      "n_test": 14,
+      "n_reference": 14,
+      "mean_test": 0.07472354289156566,
+      "mean_reference": 0.07399638505298321,
+      "delta_test_minus_reference": 0.0007271578385824456,
+      "hedges_g": 0.0009423621301995354,
+      "welch_p": 0.997971302406119
+    },
+    {
+      "samplegroup": "SPRA",
+      "module": "monocyte_cd64",
+      "contrast": "postpartum_12mo_vs_trimester_3",
+      "n_test": 5,
+      "n_reference": 14,
+      "mean_test": 0.5476113855046539,
+      "mean_reference": 0.07399638505298321,
+      "delta_test_minus_reference": 0.4736150004516707,
+      "hedges_g": 0.5728346702222173,
+      "welch_p": 0.2453060851327419
+    }
+  ]
+}

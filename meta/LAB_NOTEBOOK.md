@@ -741,3 +741,215 @@ Promotion gate:
   `CD74`/HLA-II/`IFI30`/IFN/APC covariates plus perturbation or chemistry
   evidence for lysosomal-pH-conditional, cathepsin-family-selective target
   engagement in disease APCs.
+## 2026-05-28 20:51 CEST - V6 Start And Tier -1 Setup
+
+Decision: V6 starts from the V5 review that therapeutic-claim discipline was
+being applied too early. Added a formal `Tier -1` exploration layer to treat
+confounders, adjusted-away covariates, weak effects, and negative-result
+failure modes as hypothesis sources.
+
+Files added:
+- `meta/TIER_MINUS_1_RULEBOOK.md`
+- `meta/ROADMAP_V6.md`
+- `knowledge/hypotheses/INDEX.md`
+- `knowledge/hypotheses/HYP_V6_001_*.md` through
+  `knowledge/hypotheses/HYP_V6_012_*.md`
+
+Initial interpretation:
+- V5 MIF/CD74 demotion remains valid at Tier 1+, but opens Tier -1 hypotheses
+  about APC-state controllers and OPC lesion-stress CD74.
+- V5 pregnancy composition confounding does not close the pregnancy axis; it
+  opens hematologic, pDC-source-switch, and trafficking hypotheses.
+- V5 prior-art/demotion unanimity is treated as a source for narrower Tier -1
+  refinements, not as a reason to stop.
+
+## 2026-05-28 20:52 CEST - V6 Initial Pattern Mining
+
+Ran:
+
+`./.venv_v3_py312/bin/python scripts/mine_v6_tier_minus_1_patterns.py`
+
+Outputs:
+- `analysis/tier_minus_1_exploration/v6_initial_pattern_mining/REPORT.md`
+- `analysis/tier_minus_1_exploration/v6_initial_pattern_mining/all_patterns.tsv`
+- `analysis/tier_minus_1_exploration/v6_initial_pattern_mining/tier_minus_1_flagged_patterns.tsv`
+- `analysis/tier_minus_1_exploration/v6_initial_pattern_mining/summary.json`
+
+Result:
+- Total patterns scanned: `351`.
+- Tier -1 flagged patterns: `121`.
+- Criteria: uncorrected p `<0.10` or absolute Hedges g `>0.50`.
+
+Most important openings:
+- `GSE108497` SLE postpartum monocyte-CD64 and lysosomal-APC suppression are
+  among the strongest pregnancy-axis patterns.
+- `GSE282122` remission associates with raw IFN/APC decrease and HLA-II
+  remodeling signals that disappear after IFN/APC adjustment, making IFN/APC
+  itself the mechanistic variable to mine.
+- `GSE17410` MS pregnancy ISG signal persists after monocyte-only and
+  monocyte+pDC residualization but is absorbed by broad composition markers.
+
+Dispatched existing subagents because the thread limit prevented new spawns:
+- James: confounder mining.
+- Sartre: pregnancy generative hypotheses.
+- Nietzsche: negative-result mining.
+- Hypatia: longitudinal data scout.
+
+## 2026-05-28 20:56 CEST - V6 Tier -1 Promotion Ranking
+
+Ran:
+
+`./.venv_v3_py312/bin/python scripts/rank_v6_tier_minus_1_promotions.py`
+
+Outputs:
+- `analysis/tier_minus_1_exploration/v6_promotion_ranking/REPORT.md`
+- `analysis/tier_minus_1_exploration/v6_promotion_ranking/promotion_ranking.tsv`
+- `analysis/tier_minus_1_exploration/v6_promotion_ranking/summary.json`
+
+Top ranked Tier 0 attempts:
+1. `HYP_V6_007` SLE pregnancy HLA-II / monocyte-CD64 decoupling.
+2. `HYP_V6_006` anti-TNF IFN/APC-down and HLA-II remodeling.
+3. `HYP_V6_002` MS pregnancy pDC-depletion / ISG-source switch.
+
+Decision: start with `HYP_V6_007` because it has natural-experiment support and
+an immediate independent dataset (`GSE235508`) already local.
+
+## 2026-05-28 20:58 CEST - HYP_V6_007 GSE235508 Tier 0 Attempt
+
+Ran:
+
+`./.venv_v3_py312/bin/python scripts/test_hyp_v6_007_gse235508_decoupling.py`
+
+Outputs:
+- `analysis/tier_0_triage/hyp_v6_007_gse235508_decoupling/REPORT.md`
+- `analysis/tier_0_triage/hyp_v6_007_gse235508_decoupling/verdict_by_group.tsv`
+- `analysis/tier_0_triage/hyp_v6_007_gse235508_decoupling/key_postpartum_decoupling.tsv`
+
+Result:
+- Exact SLE pattern from `GSE108497` is not fully replicated in `GSE235508`.
+- Healthy controls show the full HLA-II-up/CD64-down direction.
+- `GSE235508` SLE shows CD64 down and positive HLA-minus-CD64 decoupling, but
+  HLA-II itself is down.
+- Seropositive RA shows strong HLA-II and decoupling rebound, but CD64 is not
+  down on average.
+
+Interpretation:
+- This is not a clean Tier 0 promotion for a SLE-specific
+  HLA-II-up/CD64-down claim.
+- It is a strong Tier -1 refinement: postpartum APC-axis decoupling appears
+  real, but the two arms split by disease context. The next hypothesis should
+  test whether HLA-II rebound and CD64 suppression are independently associated
+  with disease activity, flare risk, or treatment state.
+
+Patched the script after an initial rerun hung. Cause: nullable clinical fields
+were included in the pivot index, causing pathological expansion. Fixed by
+pivoting on stable sample identifiers and merging clinical covariates
+afterward.
+
+Disease-activity check:
+- SPRA DAS28 correlations are weak for HLA-II, CD64, and decoupling (`|rho| <=
+  0.085`, p `>0.42`).
+- SLE LAI-P correlations are weak (`|rho| <=0.119`, p `>0.24`).
+- SNRA regulatory-pregnancy has nominal DAS28 correlation (`rho
+  0.3144437325741744`, p `0.02950687828379952`), but this is not the central
+  APC split.
+
+Decision: keep `HYP_V6_013` alive at Tier -1. Do not promote as a
+disease-activity biomarker without flare-timing or treatment-state support.
+
+## 2026-05-28 21:04 CEST - HYP_V6_006 GSE282122 Tier 0 Attempt
+
+Ran:
+
+`./.venv_v3_py312/bin/python scripts/test_hyp_v6_006_gse282122_ifn_apc_predictors.py`
+
+Outputs:
+- `analysis/tier_0_triage/hyp_v6_006_gse282122_ifn_apc_predictors/REPORT.md`
+- `analysis/tier_0_triage/hyp_v6_006_gse282122_ifn_apc_predictors/univariate_predictors.tsv`
+- `analysis/tier_0_triage/hyp_v6_006_gse282122_ifn_apc_predictors/nested_model_auc.tsv`
+
+Result:
+- Major monocyte/macrophage delta IFN/APC LOOCV AUC `0.7799999999999999`,
+  delta HLA-II-only AUC `0.7555555555555555`, delta receptor-only
+  CD74/CD44/CXCR4 AUC `0.6311111111111112`.
+- Major DC delta IFN/APC AUC `0.712719298245614`, delta HLA-II-only AUC
+  `0.6864035087719298`, delta receptor-only AUC `0.4144736842105262`.
+- Baseline IFN/APC and HLA-II-only also outperform receptor-only components in
+  major monocyte/macrophage and DC states.
+
+Interpretation:
+- Promote `HYP_V6_006` from Tier -1 to Tier 0 candidate, framed as
+  IFN/APC-HLA-II treatment-response remodeling.
+- Do not treat this as a MIF/CD74 rescue. Receptor-only CD74/CD44/CXCR4 is
+  consistently weaker than IFN/APC or HLA-II components.
+- Next gate: independent treatment-response replication, likely public MS
+  IFN-beta datasets (`GSE24427`, `GSE138064`) or psoriasis `GSE228421`, before
+  any Tier 1 mechanism claim.
+
+Downloaded GEO SOFT files:
+- `data/raw/GSE24427/GSE24427_family.soft.gz`
+- `data/raw/GSE138064/GSE138064_family.soft.gz`
+
+`GSE138064` was selected first because sample titles encode responder status,
+subject, dose, and 0/4/24h IFN-beta timing cleanly. `GSE24427` has split
+Affymetrix U133 A/B chip samples and longer follow-up structure; it remains in
+queue.
+
+## 2026-05-28 21:13 CEST - HYP_V6_006 GSE138064 MS IFN-Beta Check
+
+Ran:
+
+`./.venv_v3_py312/bin/python scripts/test_hyp_v6_006_gse138064_ms_ifnb_replication.py`
+
+Outputs:
+- `analysis/tier_0_triage/hyp_v6_006_gse138064_ms_ifnb_replication/REPORT.md`
+- `analysis/tier_0_triage/hyp_v6_006_gse138064_ms_ifnb_replication/sample_metadata.tsv`
+- `analysis/tier_0_triage/hyp_v6_006_gse138064_ms_ifnb_replication/paired_module_deltas.tsv`
+- `analysis/tier_0_triage/hyp_v6_006_gse138064_ms_ifnb_replication/responder_contrasts.tsv`
+
+Result:
+- Complete responders show higher baseline HLA-II-only than partial responders
+  in pooled all-dose contrasts: delta `0.4449570323496644`, Hedges g
+  `0.7047761390526338`, p `0.005078303980688954` for the 4h-pair baseline
+  subset; delta `0.4104450356920983`, Hedges g `0.6742592815098308`, p
+  `0.008391461023739622` for the 24h-pair baseline subset.
+- IFN/APC does not show comparable responder separation in `GSE138064`.
+- Receptor-only CD74/CD44/CXCR4 is mostly not predictive, with one nominal
+  stable all-dose 4h delta contrast.
+
+Interpretation:
+- Independent MS treatment-response data support APC/HLA-II response
+  architecture but do not replicate an IFN/APC-dominant predictor.
+- Refine `HYP_V6_006`: anti-TNF and IFN-beta may probe different directions of
+  the same APC architecture. Do not promote to Tier 1 until another dataset
+  clarifies the conserved component.
+
+## 2026-05-28 21:18 CEST - HYP_V6_006 GSE24427 MS IFN-Beta Longitudinal Check
+
+Ran:
+
+`./.venv_v3_py312/bin/python scripts/test_hyp_v6_006_gse24427_ms_ifnb_longitudinal.py`
+
+Outputs:
+- `analysis/tier_0_triage/hyp_v6_006_gse24427_ms_ifnb_longitudinal/REPORT.md`
+- `analysis/tier_0_triage/hyp_v6_006_gse24427_ms_ifnb_longitudinal/sample_metadata.tsv`
+- `analysis/tier_0_triage/hyp_v6_006_gse24427_ms_ifnb_longitudinal/paired_module_deltas.tsv`
+- `analysis/tier_0_triage/hyp_v6_006_gse24427_ms_ifnb_longitudinal/relapse_free_contrasts.tsv`
+
+Result:
+- Baseline HLA-II-only does not predict two-year relapse-free status: delta
+  `-0.09640626138025757`, Hedges g `-0.409376558072003`, p
+  `0.3026482329504239`.
+- Month-1 HLA-II-only increase from baseline is larger in two-year relapse-free
+  patients: delta `0.22896300080351073`, Hedges g `1.0089237828082185`, p
+  `0.022387938191276928`.
+- IFN/APC does not separate relapse-free patients in this screen.
+
+Interpretation:
+- `GSE24427` supports a longitudinal HLA-II/APC remodeling branch, not baseline
+  HLA-II competence alone.
+- Combined `GSE138064` + `GSE24427` suggest MS IFN-beta response aligns more
+  with HLA-II/APC module competence/induction than IFN/APC dominance.
+- Combined with `GSE282122`, the general treatment-response concept survives
+  only as therapy- and tissue-specific APC response architecture. It is not yet
+  a Tier 1 mechanism.

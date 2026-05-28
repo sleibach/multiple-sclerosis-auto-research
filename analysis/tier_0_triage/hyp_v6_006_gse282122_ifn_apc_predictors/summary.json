@@ -1,0 +1,344 @@
+{
+  "dataset": "GSE282122",
+  "hypothesis": "HYP_V6_006",
+  "focus_univariate": [
+    {
+      "state_level": "major",
+      "cell_state": "DC",
+      "timing": "pre",
+      "feature": "ifn_apc",
+      "n": 43,
+      "n_remission": 19,
+      "delta_remission_minus_non": 0.4720866967711532,
+      "welch_p": 0.0006445440187792241,
+      "adjusted_logit_coef": 3.037319951259347,
+      "adjusted_logit_p": 0.012828937058736613,
+      "loocv_auc_univariate": 0.7390350877192983
+    },
+    {
+      "state_level": "major",
+      "cell_state": "DC",
+      "timing": "pre",
+      "feature": "hla_ii_without_cd74",
+      "n": 43,
+      "n_remission": 19,
+      "delta_remission_minus_non": -0.24837270331683392,
+      "welch_p": 0.003253312390829007,
+      "adjusted_logit_coef": -4.943825270748749,
+      "adjusted_logit_p": 0.011296632584457365,
+      "loocv_auc_univariate": 0.6798245614035088
+    },
+    {
+      "state_level": "major",
+      "cell_state": "DC",
+      "timing": "pre",
+      "feature": "receptor_only_cd74_cd44_cxcr4",
+      "n": 43,
+      "n_remission": 19,
+      "delta_remission_minus_non": 0.11508406819612312,
+      "welch_p": 0.30814362133910084,
+      "adjusted_logit_coef": 1.8196458848703643,
+      "adjusted_logit_p": 0.07115667497665139,
+      "loocv_auc_univariate": 0.4605263157894737
+    },
+    {
+      "state_level": "major",
+      "cell_state": "DC",
+      "timing": "delta",
+      "feature": "ifn_apc",
+      "n": 43,
+      "n_remission": 19,
+      "delta_remission_minus_non": -0.6874907904339285,
+      "welch_p": 0.0010487258532171848,
+      "adjusted_logit_coef": -1.91221826391344,
+      "adjusted_logit_p": 0.02072409764542887,
+      "loocv_auc_univariate": 0.712719298245614
+    },
+    {
+      "state_level": "major",
+      "cell_state": "DC",
+      "timing": "delta",
+      "feature": "hla_ii_without_cd74",
+      "n": 43,
+      "n_remission": 19,
+      "delta_remission_minus_non": 0.20197028282002477,
+      "welch_p": 0.007276149452464587,
+      "adjusted_logit_coef": 3.4720866342476793,
+      "adjusted_logit_p": 0.04827555914489942,
+      "loocv_auc_univariate": 0.6864035087719298
+    },
+    {
+      "state_level": "major",
+      "cell_state": "DC",
+      "timing": "delta",
+      "feature": "receptor_only_cd74_cd44_cxcr4",
+      "n": 43,
+      "n_remission": 19,
+      "delta_remission_minus_non": -0.09038746614303243,
+      "welch_p": 0.38882235088946865,
+      "adjusted_logit_coef": -0.40905273862719627,
+      "adjusted_logit_p": 0.6990813093942246,
+      "loocv_auc_univariate": 0.4144736842105262
+    },
+    {
+      "state_level": "major",
+      "cell_state": "Mono_macro",
+      "timing": "pre",
+      "feature": "ifn_apc",
+      "n": 43,
+      "n_remission": 18,
+      "delta_remission_minus_non": 0.4914960193302896,
+      "welch_p": 0.00045587945024735363,
+      "adjusted_logit_coef": 4.101486584014734,
+      "adjusted_logit_p": 0.006674463911559161,
+      "loocv_auc_univariate": 0.7488888888888888
+    },
+    {
+      "state_level": "major",
+      "cell_state": "Mono_macro",
+      "timing": "pre",
+      "feature": "hla_ii_without_cd74",
+      "n": 43,
+      "n_remission": 18,
+      "delta_remission_minus_non": -0.3950974027936657,
+      "welch_p": 0.0009965364602748824,
+      "adjusted_logit_coef": -4.960991705900602,
+      "adjusted_logit_p": 0.007594365927077014,
+      "loocv_auc_univariate": 0.7555555555555555
+    },
+    {
+      "state_level": "major",
+      "cell_state": "Mono_macro",
+      "timing": "pre",
+      "feature": "receptor_only_cd74_cd44_cxcr4",
+      "n": 43,
+      "n_remission": 18,
+      "delta_remission_minus_non": 0.22170669530833642,
+      "welch_p": 0.12103687925233463,
+      "adjusted_logit_coef": 4.175201028541232,
+      "adjusted_logit_p": 0.005115110650142233,
+      "loocv_auc_univariate": 0.5711111111111111
+    },
+    {
+      "state_level": "major",
+      "cell_state": "Mono_macro",
+      "timing": "delta",
+      "feature": "ifn_apc",
+      "n": 43,
+      "n_remission": 18,
+      "delta_remission_minus_non": -0.9260495872128134,
+      "welch_p": 0.00017881199925974756,
+      "adjusted_logit_coef": -2.4142975256053374,
+      "adjusted_logit_p": 0.005081653350704693,
+      "loocv_auc_univariate": 0.7799999999999999
+    },
+    {
+      "state_level": "major",
+      "cell_state": "Mono_macro",
+      "timing": "delta",
+      "feature": "hla_ii_without_cd74",
+      "n": 43,
+      "n_remission": 18,
+      "delta_remission_minus_non": 0.49146107002316664,
+      "welch_p": 0.0011501724707556477,
+      "adjusted_logit_coef": 3.0904385637614613,
+      "adjusted_logit_p": 0.01267333009073409,
+      "loocv_auc_univariate": 0.7555555555555555
+    },
+    {
+      "state_level": "major",
+      "cell_state": "Mono_macro",
+      "timing": "delta",
+      "feature": "receptor_only_cd74_cd44_cxcr4",
+      "n": 43,
+      "n_remission": 18,
+      "delta_remission_minus_non": -0.23482858080007848,
+      "welch_p": 0.03829519153805712,
+      "adjusted_logit_coef": -2.776050381496686,
+      "adjusted_logit_p": 0.02746135598292543,
+      "loocv_auc_univariate": 0.6311111111111112
+    }
+  ],
+  "focus_nested_auc": [
+    {
+      "state_level": "major",
+      "cell_state": "DC",
+      "timing": "pre",
+      "model": "ifn_only",
+      "n": 43,
+      "loocv_auc": 0.7390350877192983,
+      "features": "pre__ifn_apc"
+    },
+    {
+      "state_level": "major",
+      "cell_state": "DC",
+      "timing": "pre",
+      "model": "hla_only",
+      "n": 43,
+      "loocv_auc": 0.6798245614035088,
+      "features": "pre__hla_ii_without_cd74"
+    },
+    {
+      "state_level": "major",
+      "cell_state": "DC",
+      "timing": "pre",
+      "model": "receptor_only",
+      "n": 43,
+      "loocv_auc": 0.4605263157894737,
+      "features": "pre__receptor_only_cd74_cd44_cxcr4"
+    },
+    {
+      "state_level": "major",
+      "cell_state": "DC",
+      "timing": "pre",
+      "model": "ifn_plus_hla",
+      "n": 43,
+      "loocv_auc": 0.7412280701754386,
+      "features": "pre__ifn_apc;pre__hla_ii_without_cd74"
+    },
+    {
+      "state_level": "major",
+      "cell_state": "DC",
+      "timing": "pre",
+      "model": "all_components",
+      "n": 43,
+      "loocv_auc": 0.6864035087719299,
+      "features": "pre__ifn_apc;pre__hla_ii_without_cd74;pre__receptor_only_cd74_cd44_cxcr4;pre__cd74_alone;pre__full_mif_cd74_state"
+    },
+    {
+      "state_level": "major",
+      "cell_state": "DC",
+      "timing": "delta",
+      "model": "ifn_only",
+      "n": 43,
+      "loocv_auc": 0.712719298245614,
+      "features": "delta__ifn_apc"
+    },
+    {
+      "state_level": "major",
+      "cell_state": "DC",
+      "timing": "delta",
+      "model": "hla_only",
+      "n": 43,
+      "loocv_auc": 0.6864035087719298,
+      "features": "delta__hla_ii_without_cd74"
+    },
+    {
+      "state_level": "major",
+      "cell_state": "DC",
+      "timing": "delta",
+      "model": "receptor_only",
+      "n": 43,
+      "loocv_auc": 0.4144736842105262,
+      "features": "delta__receptor_only_cd74_cd44_cxcr4"
+    },
+    {
+      "state_level": "major",
+      "cell_state": "DC",
+      "timing": "delta",
+      "model": "ifn_plus_hla",
+      "n": 43,
+      "loocv_auc": 0.7214912280701755,
+      "features": "delta__ifn_apc;delta__hla_ii_without_cd74"
+    },
+    {
+      "state_level": "major",
+      "cell_state": "DC",
+      "timing": "delta",
+      "model": "all_components",
+      "n": 43,
+      "loocv_auc": 0.7280701754385965,
+      "features": "delta__ifn_apc;delta__hla_ii_without_cd74;delta__receptor_only_cd74_cd44_cxcr4;delta__cd74_alone;delta__full_mif_cd74_state"
+    },
+    {
+      "state_level": "major",
+      "cell_state": "Mono_macro",
+      "timing": "pre",
+      "model": "ifn_only",
+      "n": 43,
+      "loocv_auc": 0.7488888888888888,
+      "features": "pre__ifn_apc"
+    },
+    {
+      "state_level": "major",
+      "cell_state": "Mono_macro",
+      "timing": "pre",
+      "model": "hla_only",
+      "n": 43,
+      "loocv_auc": 0.7555555555555555,
+      "features": "pre__hla_ii_without_cd74"
+    },
+    {
+      "state_level": "major",
+      "cell_state": "Mono_macro",
+      "timing": "pre",
+      "model": "receptor_only",
+      "n": 43,
+      "loocv_auc": 0.5711111111111111,
+      "features": "pre__receptor_only_cd74_cd44_cxcr4"
+    },
+    {
+      "state_level": "major",
+      "cell_state": "Mono_macro",
+      "timing": "pre",
+      "model": "ifn_plus_hla",
+      "n": 43,
+      "loocv_auc": 0.7822222222222223,
+      "features": "pre__ifn_apc;pre__hla_ii_without_cd74"
+    },
+    {
+      "state_level": "major",
+      "cell_state": "Mono_macro",
+      "timing": "pre",
+      "model": "all_components",
+      "n": 43,
+      "loocv_auc": 0.7266666666666666,
+      "features": "pre__ifn_apc;pre__hla_ii_without_cd74;pre__receptor_only_cd74_cd44_cxcr4;pre__cd74_alone;pre__full_mif_cd74_state"
+    },
+    {
+      "state_level": "major",
+      "cell_state": "Mono_macro",
+      "timing": "delta",
+      "model": "ifn_only",
+      "n": 43,
+      "loocv_auc": 0.7799999999999999,
+      "features": "delta__ifn_apc"
+    },
+    {
+      "state_level": "major",
+      "cell_state": "Mono_macro",
+      "timing": "delta",
+      "model": "hla_only",
+      "n": 43,
+      "loocv_auc": 0.7555555555555555,
+      "features": "delta__hla_ii_without_cd74"
+    },
+    {
+      "state_level": "major",
+      "cell_state": "Mono_macro",
+      "timing": "delta",
+      "model": "receptor_only",
+      "n": 43,
+      "loocv_auc": 0.6311111111111112,
+      "features": "delta__receptor_only_cd74_cd44_cxcr4"
+    },
+    {
+      "state_level": "major",
+      "cell_state": "Mono_macro",
+      "timing": "delta",
+      "model": "ifn_plus_hla",
+      "n": 43,
+      "loocv_auc": 0.7799999999999999,
+      "features": "delta__ifn_apc;delta__hla_ii_without_cd74"
+    },
+    {
+      "state_level": "major",
+      "cell_state": "Mono_macro",
+      "timing": "delta",
+      "model": "all_components",
+      "n": 43,
+      "loocv_auc": 0.8111111111111111,
+      "features": "delta__ifn_apc;delta__hla_ii_without_cd74;delta__receptor_only_cd74_cd44_cxcr4;delta__cd74_alone;delta__full_mif_cd74_state"
+    }
+  ]
+}
