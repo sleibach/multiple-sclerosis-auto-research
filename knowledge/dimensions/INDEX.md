@@ -8,7 +8,7 @@ at least one longitudinal or natural-experiment dimension.
 | D01 | Cross-sectional single-cell/spatial atlases | MS lesions, RA synovium, IBD lamina propria, psoriasis skin, T1D islets, Sjogren gland | local derived/V3 partial | heavy | medium |
 | D02 | Genetics and target resolution | Open Targets, GWAS Catalog, FinnGen/OpenGWAS where available, coloc/eQTL/pQTL | local V3 tables plus external as needed | heavy but imperfect | high |
 | D03 | Perturbation and foundation-model prediction | CRISPR screens, Mixscape/Mixscale, L1000/CMap, Geneformer-like outputs, State/Stack alternatives | local V3 partial | medium | high |
-| D04 | Longitudinal pre-disease cohorts | DoD serum/EBV MS studies, TEDDY T1D, nested IBD/celiac cohorts | not yet locally populated | minimal | very high |
+| D04 | Longitudinal pre-disease cohorts | DoD serum/EBV MS studies, TEDDY T1D, nested IBD/celiac cohorts | V5 scoping started; see `D04_LONGITUDINAL_PRE_DISEASE.md` | minimal | very high |
 | D05 | Pregnancy and hormonal natural experiments | `GSE235508` RA/SLE/healthy longitudinal pregnancy blood; `GSE17410` MS pregnancy PBMC; `GSE17449` MS pregnancy-related superseries; `GSE153459` healthy pregnancy CD4 methylation; `GSE122894` pregnant vs non-pregnant EAE TCR-beta repertoire | locally scouted, not downloaded | absent in V3; now first V4 dimensional expansion target | very high |
 | D06 | Treatment-resistance phenotyping | progressive MS, anti-TNF-refractory IBD/RA, JAK-refractory psoriasis, remission/nonresponse cohorts | V3 partial for anti-TNF/UC | partial | high |
 | D07 | Failed-trial post-hoc evidence | failed MS/IBD/RA/SLE/psoriasis trials as perturbation experiments | not yet structured | minimal | high |

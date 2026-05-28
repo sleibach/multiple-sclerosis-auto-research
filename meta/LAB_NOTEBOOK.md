@@ -698,6 +698,25 @@ LTA4H:
   perturbation, independent non-IBD replication, or treatment-response
   predictive value beyond generic myeloid inflammation.
 
+## 2026-05-28 20:50 CEST - Longitudinal pre-disease dimension opened
+
+Action:
+- Started V5 Priority 4 scoping for D04 longitudinal/pre-disease cohorts.
+- Added `knowledge/dimensions/D04_LONGITUDINAL_PRE_DISEASE.md`.
+- Updated `knowledge/dimensions/INDEX.md`.
+
+Searches initiated:
+- `pre-diagnostic multiple sclerosis serum transcriptomics public dataset GEO PROXIMUS`
+- `preclinical multiple sclerosis serum proteomics public dataset Bjornevik EBV military serum GEO`
+- `TEDDY study public transcriptomics autoantibody seroconversion data GEO type 1 diabetes`
+
+Current interpretation:
+- Public pre-MS sample-level omics are not yet identified. Likely high-value
+  MS data are controlled-access biobank/military-serum resources or
+  publication-level summaries.
+- TEDDY/T1D appears more tractable for public longitudinal pre-autoimmune
+  module scoring and should be the next D04 target.
+
 ## 2026-05-28 20:55 CEST - CTSS V5 pH-conditional recalibration sidecar
 
 Action:
