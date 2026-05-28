@@ -3,7 +3,7 @@
 An autonomous, reproducible computational search for a novel, falsifiable
 therapeutic target in multiple sclerosis (MS) and the broader cross-autoimmune
 lipid-lysosomal inflammatory myeloid program. The project runs in successive
-phases (V1 through V5); each phase is preserved rather than overwritten so the
+phases (V1 through VN); each phase is preserved rather than overwritten so the
 full reasoning trace stays auditable.
 
 All analysis uses public human-tissue data only and random seed `20260526`
