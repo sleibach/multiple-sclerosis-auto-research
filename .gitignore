@@ -1,5 +1,6 @@
 .DS_Store
 .venv/
+.venv_v3_py312/
 __pycache__/
 *.pyc
 
@@ -8,10 +9,13 @@ data/raw/*
 !data/raw/.gitkeep
 data/raw_v2/*
 !data/raw_v2/.gitkeep
+data/raw_v3/*
+!data/raw_v3/.gitkeep
 
 # Large generated matrices are reproducible and should not be committed.
 data/derived/*.csv.gz
 data/derived/*.parquet
+tmp_v3/
 
 # Public author code may be fetched for method inspection; record its revision.
 external/

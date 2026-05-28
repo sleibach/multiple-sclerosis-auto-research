@@ -1,0 +1,1534 @@
+{
+  "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxuYfet2fEdkA",
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "meshes": [
+            {
+              "id": "D014947",
+              "term": "Wounds and Injuries"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Leukocyte-reduced whole blood, 2 hours holding-time after collection. Gravitational filtration.\n\nDevice: Terumo IMUFLEX WB(Whole blood)-SP(saving platelets) collection bag system",
+              "interventionNames": [
+                "Other: Donation of 1 whole blood unit"
+              ],
+              "label": "Filtered whole blood",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Non-leukocyte-reduced whole blood, 2 hours holding-time after collection.\n\nDevice: Terumo IMUFLEX WB-SP collection bag system",
+              "interventionNames": [
+                "Other: Donation of 1 whole blood unit"
+              ],
+              "label": "Unfiltered whole blood",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Leukocyte-reduced whole blood, no holding-time after collection. Gravitational filtration.\n\nDevice: Terumo IMUFLEX WB-SP collection bag system",
+              "interventionNames": [
+                "Other: Donation of 1 whole blood unit"
+              ],
+              "label": "Warm-filtered whole blood",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Leukocyte-reduced whole blood, no holding-time after collection. Forced filtration.\n\nDevice: Terumo IMUFLEX WB-SP collection bag system",
+              "interventionNames": [
+                "Other: Donation of 1 whole blood unit"
+              ],
+              "label": "Forced warm-filtration of whole bood",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "RCC production from 7 days old, cold-stored, leukocyte-reduced whole blood. Units stored for another 35 days. (42 days of storage in total).\n\nDevices: Terumo IMUFLEX WB-SP/WB-RP collection bag systems.",
+              "interventionNames": [
+                "Other: Donation of 1 whole blood unit"
+              ],
+              "label": "RCC produced from cold-stored whole blood",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "RCC production from 7 days old, cold-stored, non-leukocyte-reduced whole blood. Units stored for another 35 days. (42 days of storage in total).\n\nDevices: Terumo IMUFLEX WB-SP/WB-RP(removing platelets) collection bag systems.",
+              "interventionNames": [
+                "Other: Donation of 1 whole blood unit"
+              ],
+              "label": "RCC produced from cold-stored non-filtered whole blood",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Filtered whole blood",
+                "Forced warm-filtration of whole bood",
+                "RCC produced from cold-stored non-filtered whole blood",
+                "RCC produced from cold-stored whole blood",
+                "Unfiltered whole blood",
+                "Warm-filtered whole blood"
+              ],
+              "description": "Donation of 450-500 mL of whole blood according to local blood bank procedures and national guidelines.",
+              "name": "Donation of 1 whole blood unit",
+              "otherNames": [
+                "Terumo IMUFLEX WB-SP collection bag system."
+              ],
+              "type": "OTHER"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Trauma",
+            "Austere Environment",
+            "Blood Bank",
+            "Buddy Transfusion"
+          ],
+          "keywords": [
+            "Blood",
+            "Whole blood",
+            "Cold-storage",
+            "Filtration",
+            "Transfusion",
+            "Platelet-function"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Bergen",
+              "country": "Norway",
+              "facility": "Haukeland University Hospital, Dept of Immunology and Transfusion Medicine",
+              "geoPoint": {
+                "lat": 60.39299,
+                "lon": 5.32415
+              },
+              "zip": "5021"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Haukeland University Hospital and Norwegian Naval Special Operation Commando",
+              "name": "Geir Strandenes, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "In a combat situation the need for safe and high-quality blood products is increasing. WB (Whole Blood) is used in many trauma situations, but we wish to investigate whether there is an even better whole blood product.\n\nThe purpose of this study is to examine the quality of leucoreduced, cold-stored whole blood. We also wish to examine the effects of filtration of whole blood without a 1-2 hour holding-time (warm-filtration) and the effects of forced filtration. We also wish to explore the possibility of using cold-stored WB for production of RCC.\n\nAnalyses are performed with a main focus to investigate function and quality of red blood cells and platelets."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "NON_RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "SINGLE",
+              "whoMasked": [
+                "PARTICIPANT"
+              ]
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 87,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy volunteer\n* Age between 18 and 70\n* Negative pregnancy test (women in fertile age)\n* Blood pressure range: (160-100)/(100-40)\n* Pulse range: 40-100\n\nExclusion Criteria:\n\n* Usage of platelet-influencing medication\n* Mild flu or more severe illnesses\n* Open wound\n* Pregnancy or trying to get pregnant",
+          "healthyVolunteers": true,
+          "maximumAge": "70 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "acronym": "BFF",
+          "briefTitle": "Storage Temperature and Quality of Leucoreduced Whole Blood",
+          "nctId": "NCT01892670",
+          "officialTitle": "Storage Temperature and Quality of Leucoreduced Whole Blood",
+          "orgStudyIdInfo": {
+            "id": "2012/2279"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Haukeland University Hospital"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "otherOutcomes": [
+            {
+              "description": "RCC should not have a hemolysis of more than 0.8 %. We investigate this up to 42 days (35 days as RCC) (arm 5 +6)",
+              "measure": "Hemolysis",
+              "timeFrame": "After 42 days of storage"
+            }
+          ],
+          "primaryOutcomes": [
+            {
+              "description": "Platelet function is assessed by various parameters, such as thrombelastography (TEG), Multiplate and flow cytometry (Lactadherin, Calcein violet AM, ++).",
+              "measure": "Platelet function",
+              "timeFrame": "After 10 days of cold-storage"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Filtered whole blood should have a concentration less than 1\\*10\\^6 cells/L to avoid transfusion reactions.",
+              "measure": "Leukocyte count",
+              "timeFrame": "After leukocyte filtration"
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": false
+        },
+        "referencesModule": {
+          "seeAlsoLinks": [
+            {
+              "label": "THOR: Trauma Hemostasis and Oxygenation Research Network. Main objective: To reduce the risk of death from traumatic hemorrhagic shock prior to admission at a trauma center",
+              "url": "http://rdcr.org/"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "OTHER_GOV",
+              "name": "Norwegian Armed Forces Medical Service"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Haukeland University Hospital"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2016-07",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2024-03-19",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2024-03-18",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2016-07",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2013-03"
+          },
+          "statusVerifiedDate": "2017-08",
+          "studyFirstPostDateStruct": {
+            "date": "2013-07-04",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2013-07-01",
+          "studyFirstSubmitQcDate": "2013-07-01"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D008171",
+              "term": "Lung Diseases"
+            },
+            {
+              "id": "D012140",
+              "term": "Respiratory Tract Diseases"
+            },
+            {
+              "id": "D012120",
+              "term": "Respiration Disorders"
+            },
+            {
+              "id": "D007752",
+              "term": "Obstetric Labor, Premature"
+            },
+            {
+              "id": "D007744",
+              "term": "Obstetric Labor Complications"
+            },
+            {
+              "id": "D011248",
+              "term": "Pregnancy Complications"
+            },
+            {
+              "id": "D005261",
+              "term": "Female Urogenital Diseases and Pregnancy Complications"
+            },
+            {
+              "id": "D000091642",
+              "term": "Urogenital Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D012128",
+              "term": "Respiratory Distress Syndrome"
+            },
+            {
+              "id": "D047928",
+              "term": "Premature Birth"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Starting treatment mode: nHFOV with Medin-cno. Targeted oxygen saturation: 87-94%. Four 1 h study blocks, alternating from the initial mode to the alternate mode twice. All the data will be recorded at 1-min intervals. The following data will be recorded: tcPCO2, tcPO2, heart rate, respiratory rate, SaO2, Silverman score, cer-rSO2, ren-rSO2. Blood pressure will be taken 30 minutes after the beginning of each treatment block. At the beginning of the first period a BGA will be performed in order to test the reliability of the TcPCO2 data. A second capillary BGA will be performed at the end of second period.",
+              "interventionNames": [
+                "Device: Medin-cno"
+              ],
+              "label": "nHFOV",
+              "type": "ACTIVE_COMPARATOR"
+            },
+            {
+              "description": "Starting treatment mode: nCPAP with Medin-cno. Targeted oxygen saturation of 87-94%. Four 1 h study blocks, alternating from the initial mode to the alternate mode twice. All the data will be recorded at 1-min intervals. The following data will be recorded: tcPCO2, tcPO2, heart rate, respiratory rate, SaO2, Silverman score, cer-rSO2, ren-rSO2. Blood pressure will be taken 30 minutes after the beginning of each treatment block. At the be-ginning of the first period a BGA will be performed in order to test the reliability of the TcPCO2 data. A se-cond capillary BGA will be performed at the end of second period.",
+              "interventionNames": [
+                "Device: Medin-cno"
+              ],
+              "label": "nCPAP",
+              "type": "ACTIVE_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "nCPAP",
+                "nHFOV"
+              ],
+              "description": "Medin-cno is a noninvasive ventilator. With this device we can practice either nCPAP and nHFOV ventilation.",
+              "name": "Medin-cno",
+              "otherNames": [
+                "nHFOV",
+                "nCPAP"
+              ],
+              "type": "DEVICE"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Respiratory Distress Syndrome",
+            "Preterm Birth"
+          ],
+          "keywords": [
+            "nCPAP",
+            "nHFOV",
+            "Preterm",
+            "RDS",
+            "CO2 Elimination"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Brescia",
+              "country": "Italy",
+              "facility": "Fondazione Poliambulanza Istituto Ospedaliero",
+              "geoPoint": {
+                "lat": 45.53558,
+                "lon": 10.21472
+              },
+              "zip": "25124"
+            },
+            {
+              "city": "Foggia",
+              "country": "Italy",
+              "facility": "Ospedali Riuniti di Foggia",
+              "geoPoint": {
+                "lat": 41.45845,
+                "lon": 15.55188
+              }
+            },
+            {
+              "city": "Milan",
+              "country": "Italy",
+              "facility": "Fondazione IRCCS Ca' Granda, Ospedale Maggiore Policlinico",
+              "geoPoint": {
+                "lat": 42.78235,
+                "lon": 12.59836
+              }
+            },
+            {
+              "city": "Milan",
+              "country": "Italy",
+              "facility": "Vittore Buzzi Children's Hospital",
+              "geoPoint": {
+                "lat": 42.78235,
+                "lon": 12.59836
+              }
+            },
+            {
+              "city": "Roma",
+              "country": "Italy",
+              "facility": "Hospital San Pietro Fatebenefratelli",
+              "geoPoint": {
+                "lat": 44.99364,
+                "lon": 11.10642
+              }
+            },
+            {
+              "city": "Roma",
+              "country": "Italy",
+              "facility": "Policlinico Universitario Agostino Gemelli",
+              "geoPoint": {
+                "lat": 44.99364,
+                "lon": 11.10642
+              }
+            },
+            {
+              "city": "Varese",
+              "country": "Italy",
+              "facility": "Ospedale F. Del Ponte",
+              "geoPoint": {
+                "lat": 45.82058,
+                "lon": 8.82511
+              }
+            },
+            {
+              "city": "Vilnius",
+              "country": "Lithuania",
+              "facility": "Vilnius University",
+              "geoPoint": {
+                "lat": 54.68916,
+                "lon": 25.2798
+              }
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Fondazione Poliambulanza Istituto Ospedaliero",
+              "name": "Roberto Bottino, Doctor",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "affiliation": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS",
+              "name": "Giovanni Vento, Doctor",
+              "role": "STUDY_CHAIR"
+            },
+            {
+              "affiliation": "Ospedali Riuniti di Foggia",
+              "name": "Gianfranco Maffei, Doctor",
+              "role": "STUDY_CHAIR"
+            },
+            {
+              "affiliation": "Vittore Buzzi Children's Hospital",
+              "name": "Gianluca Lista, Doctor",
+              "role": "STUDY_CHAIR"
+            },
+            {
+              "affiliation": "Vilnius University",
+              "name": "Vladimiras Chijenas, Doctor",
+              "role": "STUDY_CHAIR"
+            },
+            {
+              "affiliation": "Vilnius University",
+              "name": "Arunas Liubsys, Doctor",
+              "role": "STUDY_CHAIR"
+            },
+            {
+              "affiliation": "Hospital San Pietro Fatebenefratelli",
+              "name": "Chiara Consigli, Doctor",
+              "role": "STUDY_CHAIR"
+            },
+            {
+              "affiliation": "Ospedale F. Del Ponte, Varese",
+              "name": "Massimo Agosti, Doctor",
+              "role": "STUDY_CHAIR"
+            },
+            {
+              "affiliation": "Fondazione IRCCS Ca' Granda, Ospedale Maggiore Policlinico",
+              "name": "Mariarosa Colnaghi, Doctor",
+              "role": "STUDY_CHAIR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The purpose of this study is to compare the effects of two different techniques of non-invasive ventilation (nCPAP and nHFOV) on gas exchange in preterm infants recovering from respiratory distress syndrome.",
+          "detailedDescription": "Background - Extremely low birth weight (ELBW) infants usually develop respiratory distress syndrome (RDS), due to lung immaturity, surfactant deficiency and immature respiratory control mechanisms (1). Even though mechanical ventilation is frequently lifesaving, complications are common (2). Tracheal intubation and mechanical ventilation are associated with ventilator-induced lung injury (VILI) and airway inflammation, leading to bronchopulmonary dysplasia (BPD) (3). The mechanisms of this injury involve alveolar over distension, the presence of shear forces and the release of pro-inflammatory cytokines (6), moreover prolonged duration of intubation and mechanical ventilation is associated with an increased risk of death or survival with neurologic impairment (3). In an effort to reduce VILI and so BPD in premature infants, there has been a trend toward increased use of non-invasive forms of respiratory support: nasal continuous positive airway pressure (nCPAP), nasal intermittent positive-pressure ventilation (NIPPV), high-flow nasal cannula (HFNC), nasal high-frequency oscillatory ventilation (nasal-HFOV)(2, 1, 7).\n\nNCPAP is an alternative to intubation and a meta-analysis trials of early nasal CPAP versus intubation and ventilation showed that nasal CPAP reduces the risk of BPD. Nonetheless use of NCPAP in the delivery room may fail in ELBW, with 34 to 83% of such infants requiring subsequent intubation. Furthermore, post extubation support with nCPAP in these infants is associated with a 16-40% failure rate at 1 week (3, 4, 5, 9). NCPAP stabilized the surfactant deficient alveoli and improves oxygenation, but does not necessarily improve alveolar ventilation or partial pressure of carbon dioxide (pCO2) elimination (2, 8).\n\nSome Authors reported the use of nasal high-frequency ventilation (nHFOV) in 14 very low birth weight (VLBW) infants with respiratory failure, using nasopharyngeal tube (3) and they have shown that this technique can lower pCO2 (1).\n\nOther Authors investigated the efficacy of nasal HFOV applied on a single nasopharyngeal tube in an heterogeneous group of 21 infant with moderate respiratory insufficiency and they shown that was effective in reducing pCO2 (10).\n\nNo randomized controlled trials have directly evaluated the efficacy of nasal HFOV versus nCPAP with use of nasal prongs/mask in ELBW. There is rationale and support for the idea that high-frequency oscillation using a nasal prongs may improve carbon dioxide elimination in infants and minimizing the need for intubation and mechanical ventilation. In premature infants, HFOV is believed to cause less lung injury than conventional ventilation. So the question can be whether the benefits of HFOV and non invasive (nasal) ventilation are synergistic.\n\nEnd-point - Our first end-point is that short-term application of nasal HFOV compared with nasal continuous airway pressure (nCPAP) in infants with persistent oxygen (O2) need recovering from RDS would improve CO2 removal. We also hypothesized that use of nHFOV can reduce the inspired fraction of O2 (FiO2) levels requiring to maintain normal percutaneous saturation of O2 (SpO2) levels .\n\nDesign - Multi-center non-blinded, randomized, observational four period crossover study Setting/population Level III Neonatal Intensive Care Unit (NICU): very-low birth weight infants (\\< 1500 g) and/or gestational age \\< 32 weeks requiring nCPAP and oxygen while recovering from RDS.\n\nMethods - Infants requiring nasal CPAP (4-8 cm H2O) for \\> 24 hours prior to study enrolment, and FiO2 more than 0.21, will be randomized to either nCPAP or nHFOV delivered by Medin-CNO device. A crossover design with four 1 h treatment periods will be used such that each infant will receive both treatments twice. Oxygen saturation (SaO2), transcutaneous CO2 (tcCO2) and O2 (tcO2) and vital signs will be monitored continuously. Cardio-respiratory monitor recordings will be analyzed for apnoea, bradycardia and oxygen desaturations.\n\nStudy - After written informed consent will be obtained, the patient will be placed in the supine position. A transcutaneous CO2 and O2 monitor as well as pneumocardiography sensors will be placed on the infant and monitored. The patient will be randomized by sealed envelope shuffle to a starting treatment mode of either nCPAP (4-8 cm H2O, with the same CPAP level used prior to entering into the study) or nHFOV with the following starting parameters: CPAP level: 4-8 cm H2O with the same CPAP level used prior to entering into the study; Flow: 7-10 l/min (providing the desired CPAP level); Frequency: 10 Hz, Amplitude: 10, (eventually modified to obtain tcPCO2 values in the normal range (45-65 mmHg; 5.9-8.6 kPa). Short binasal prongs of right size will be always used. Prior to entering into the study all the patients will receive caffeine.\n\nAll support will be delivered by the Medin-cno device. Research personnel will adjust the FiO2 to attain a targeted oxygen saturation of 87-94%. The patients will be maintained in the usual thermoneutral environment (incubator) throughout the study, and will receive the standard routine care by the primary care team.\n\nAt study initiation, the infant will be started on the randomized starting mode of either nCPAP or nHFOV. The study will consist of four 1 h study blocks, alternating from the initial mode to the alternate mode twice. During the study neonates will be monitored continuously with a cardio-respiratory monitor, a pulse oximeter and a transcutaneous gas monitoring. All the data will be recorded continuously at 1-min intervals directly from the monitor and/or observed directly by an experienced neonatologist and manually recorded on a respiratory sheet. During each study block, the following data will be recorded: transcutaneous partial pressure of CO2 (tcPCO2), transcutaneous partial pressure of O2 (tcPO2), heart rate, respiratory rate, SaO2, Silverman score. Apnoeic episodes will be defined as absence of thoracic impedance change for a minimum of 20 s. Bradycardic episodes will be defined as persistent heart rate \\<80 beats per minute for a minimum of 10s. Significant desaturation episodes will be defined as persistent pulse oximetry values \\<80% for a minimum of 10s. Manual blood pressure will be taken with appropriate sized neonatal blood pressure cuff 30 minutes after the beginning of each treatment block.\n\nImmediately after entering the study, at the beginning of the first study period, a transcutaneous monitoring of TcPCO2 and TcPO2 will be started and a capillary blood gas analysis (BGA) will be performed in order to test the reliability of the TcPCO2 data. A second capillary BGA will be performed at the end of second study period in both CPAP and nHFOV. Cerebral (cer-rSO2) and renal (ren-rSO2) tissue oxygenation will be measured by near-infrared spectroscopy (NIRS) as additional variable during the study period, based on the instrument's availability in each participating center.\n\nThe study will be ended when the patient will complete the 4 h study or will be terminated early if the patient will develop any signs of intolerance during the study, including an increase of \\>50% in the number of episodes of apnea or bradycardia compared with the prestudy baseline noted 1 h preceding study entry, or increased supplemental FiO2 \\> 0.3 from pre-study baseline for at least 15 min (i.e. from 0.30 to 0.60). To allow for equilibration, we will group and analyze data points from the last 20 min of each treatment block.\n\nA sample size of 30 has been calculated to detect a mean difference of 3 mmHg tcCO2 based on a two-tailed p value of 0.05, power of 0.9 and a within-patient standard deviation (SD) of 2.5 mmHg (2).\n\nDuration of study - To be defined, depending on the number of participating NICUs.\n\nCompliance to protocol - Compliance will be defined as full adherence to protocol. Compliance with the protocol will be ensured by a number of procedures as described below.\n\nSite set-up - Local principal investigators will participate to preparatory meetings in which details of study protocol, data collection and procedures will be accurately discussed. All centers will receive detailed written instruction on web based recording data, and, to solve possible difficulties, it will be possible to contact the Chief investigators. Moreover, it has been ascertained that the procedure is equally made in all participating centers.\n\nData processing and monitoring - All study data will be\n\n1. Screened for out-of-range data, with cross-checks for conflicting data within and between data collection forms by a data manager.\n2. Referred back to relevant centre for clarification in the event of missing items or uncertainty.\n\nThe Chief Investigator and trial statistician will review the results generated for logic and for patterns or problems. Outlier data will be investigated.\n\nSafety - Safety end-point measures will include incidence, severity, and causality of reported serious adverse effects (SAE), namely changes in occurrence of the expected common prematurity complications and clinical laboratory test assessments, and the development of unexpected SAEs in this high risk population. All SAEs will be followed until satisfactory resolution or until the investigator responsible for the care of the participant deems the event to be chronic or the patient to be stable. All expected and unexpected SAEs, whether or not they are attributable to the study intervention, will be reviewed by the local principal investigators to determine if there is reasonable suspected causal relationship to the intervention. If the relationship is reasonable SAEs will be reported to Chief Investigators who will report to Ethics Committee and inform all investigators to guaranty the safety of participants."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "CROSSOVER",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 30,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Birthweight \\< 1500g and/or\n* Gestational age \\< 32 weeks\n* nCPAP treatment for \\> 24 h\n* Oxygen supply to keep SaO2 87-94% for a minimum of 1 h prior to initiation of the study\n* Parents written informed consent\n\nExclusion Criteria:\n\n* Active medical treatment for patent ductus arteriosus\n* culture proven sepsis\n* Major congenital malformations\n* Genetic syndromes\n* Postoperative recovery period of \\<24 h",
+          "healthyVolunteers": false,
+          "maximumAge": "6 Months",
+          "minimumAge": "7 Days",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "nHFOV vs nCPAP: Effects on Gas Exchange for the Treatment of Neonates Recovering From RDS",
+          "nctId": "NCT02772835",
+          "officialTitle": "Nasal HFOV vs Nasal CPAP: Effects on Gas Exchange for the Treatment of Neonates Recovering From Respiratory Distress Syndrome. A Multicenter Randomized Controlled Trial",
+          "orgStudyIdInfo": {
+            "id": "NHVSNC"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Fondazione Poliambulanza Istituto Ospedaliero"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "UNDECIDED"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Infants will be started on the randomized starting mode of either nCPAP or nHFOV: four 1 h study blocks, alternating from the initial mode to the alternate mode twice. During each study block, the following data will be recorded: TcPCO2, TcPO2, heart rate, respiratory rate, SaO2, Silverman score, cer-rSO2 and ren-rSO2. Manual blood pressure will be taken 30 minutes after the beginning of each treatment block. Immediately after entering the study, at the beginning of the first study period, a transcutaneous monitoring of TcPCO2 and TcPO2 will be started and a capillary BGA will be performed in order to test the reliability of the TcPCO2 data. A second capillary BGA will be performed at the end of second study period in both CPAP and nHFOV. To allow for equilibration, we will group and analyze data points from the last 20 min of each treatment block. All the data will be recorded continuously at 1-min intervals directly from the monitor and recorded on a respiratory sheet.",
+              "measure": "Comparison between nHFOV and nCPAP on gas exchange in premature infants with persistent oxygen need recovering from RDS, particularly on CO2 removal.",
+              "timeFrame": "4 hours"
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": false
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Colaizy TT, Younis UM, Bell EF, Klein JM. Nasal high-frequency ventilation for premature infants. Acta Paediatr. 2008 Nov;97(11):1518-22. doi: 10.1111/j.1651-2227.2008.00900.x. Epub 2008 Jun 9.",
+              "pmid": "18549418",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Carlo WA. Should nasal high-frequency ventilation be used in preterm infants? Acta Paediatr. 2008 Nov;97(11):1484-5. doi: 10.1111/j.1651-2227.2008.01016.x. Epub 2008 Aug 26. No abstract available.",
+              "pmid": "18754830",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Kirpalani H, Millar D, Lemyre B, Yoder BA, Chiu A, Roberts RS; NIPPV Study Group. A trial comparing noninvasive ventilation strategies in preterm infants. N Engl J Med. 2013 Aug 15;369(7):611-20. doi: 10.1056/NEJMoa1214533.",
+              "pmid": "23944299",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Morley CJ, Davis PG, Doyle LW, Brion LP, Hascoet JM, Carlin JB; COIN Trial Investigators. Nasal CPAP or intubation at birth for very preterm infants. N Engl J Med. 2008 Feb 14;358(7):700-8. doi: 10.1056/NEJMoa072788.",
+              "pmid": "18272893",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Dunn MS, Kaempf J, de Klerk A, de Klerk R, Reilly M, Howard D, Ferrelli K, O'Conor J, Soll RF; Vermont Oxford Network DRM Study Group. Randomized trial comparing 3 approaches to the initial respiratory management of preterm neonates. Pediatrics. 2011 Nov;128(5):e1069-76. doi: 10.1542/peds.2010-3848. Epub 2011 Oct 24.",
+              "pmid": "22025591",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Habre W. Neonatal ventilation. Best Pract Res Clin Anaesthesiol. 2010 Sep;24(3):353-64. doi: 10.1016/j.bpa.2010.02.020.",
+              "pmid": "21033012",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Sivieri EM, Gerdes JS, Abbasi S. Effect of HFNC flow rate, cannula size, and nares diameter on generated airway pressures: an in vitro study. Pediatr Pulmonol. 2013 May;48(5):506-14. doi: 10.1002/ppul.22636. Epub 2012 Jul 23.",
+              "pmid": "22825878",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Sola A, Golombek SG, Montes Bueno MT, Lemus-Varela L, Zuluaga C, Dominguez F, Baquero H, Young Sarmiento AE, Natta D, Rodriguez Perez JM, Deulofeut R, Quiroga A, Flores GL, Morgues M, Perez AG, Van Overmeire B, van Bel F. Safe oxygen saturation targeting and monitoring in preterm infants: can we avoid hypoxia and hyperoxia? Acta Paediatr. 2014 Oct;103(10):1009-18. doi: 10.1111/apa.12692. Epub 2014 Jul 28.",
+              "pmid": "24838096",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Lampland AL, Plumm B, Worwa C, Meyers P, Mammel MC. Bi-level CPAP does not improve gas exchange when compared with conventional CPAP for the treatment of neonates recovering from respiratory distress syndrome. Arch Dis Child Fetal Neonatal Ed. 2015 Jan;100(1):F31-4. doi: 10.1136/fetalneonatal-2013-305665. Epub 2014 Aug 1.",
+              "pmid": "25085943",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "van der Hoeven M, Brouwer E, Blanco CE. Nasal high frequency ventilation in neonates with moderate respiratory insufficiency. Arch Dis Child Fetal Neonatal Ed. 1998 Jul;79(1):F61-3. doi: 10.1136/fn.79.1.f61.",
+              "pmid": "9797628",
+              "type": "BACKGROUND"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "OTHER",
+              "name": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS"
+            },
+            {
+              "class": "OTHER",
+              "name": "Ospedali Riuniti di Foggia"
+            },
+            {
+              "class": "OTHER",
+              "name": "Vittore Buzzi Children's Hospital"
+            },
+            {
+              "class": "OTHER",
+              "name": "Vilnius University"
+            },
+            {
+              "class": "OTHER",
+              "name": "Hospital San Pietro Fatebenefratelli"
+            },
+            {
+              "class": "UNKNOWN",
+              "name": "Ospedale F. Del Ponte, Varese"
+            },
+            {
+              "class": "OTHER",
+              "name": "Fondazione IRCCS Ca' Granda, Ospedale Maggiore Policlinico"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Fondazione Poliambulanza Istituto Ospedaliero"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2017-05",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2018-02-27",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2018-02-26",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2017-03",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2016-01"
+          },
+          "statusVerifiedDate": "2018-02",
+          "studyFirstPostDateStruct": {
+            "date": "2016-05-16",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2016-05-03",
+          "studyFirstSubmitQcDate": "2016-05-11"
+        }
+      }
+    },
+    {
+      "annotationSection": {
+        "annotationModule": {
+          "unpostedAnnotation": {
+            "unpostedEvents": [
+              {
+                "date": "2016-09-09",
+                "type": "RELEASE"
+              },
+              {
+                "date": "2016-10-28",
+                "type": "RESET"
+              }
+            ],
+            "unpostedResponsibleParty": "Mats Lekander, Professor, Karolinska Institutet"
+          }
+        }
+      },
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D001519",
+              "term": "Behavior"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D055809",
+              "term": "Illness Behavior"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D001427",
+              "term": "Bacterial Toxins"
+            },
+            {
+              "id": "D014118",
+              "term": "Toxins, Biological"
+            },
+            {
+              "id": "D001685",
+              "term": "Biological Factors"
+            },
+            {
+              "id": "D006001",
+              "term": "Glycoconjugates"
+            },
+            {
+              "id": "D002241",
+              "term": "Carbohydrates"
+            },
+            {
+              "id": "D011135",
+              "term": "Polysaccharides, Bacterial"
+            },
+            {
+              "id": "D011134",
+              "term": "Polysaccharides"
+            },
+            {
+              "id": "D008055",
+              "term": "Lipids"
+            },
+            {
+              "id": "D000942",
+              "term": "Antigens, Bacterial"
+            },
+            {
+              "id": "D000941",
+              "term": "Antigens"
+            },
+            {
+              "id": "D002712",
+              "term": "Chlorides"
+            },
+            {
+              "id": "D006851",
+              "term": "Hydrochloric Acid"
+            },
+            {
+              "id": "D017606",
+              "term": "Chlorine Compounds"
+            },
+            {
+              "id": "D007287",
+              "term": "Inorganic Chemicals"
+            },
+            {
+              "id": "D017670",
+              "term": "Sodium Compounds"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D004731",
+              "term": "Endotoxins"
+            },
+            {
+              "id": "D008070",
+              "term": "Lipopolysaccharides"
+            },
+            {
+              "id": "D012965",
+              "term": "Sodium Chloride"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "submissionTracking": {
+            "estimatedResultsFirstSubmitDate": "2016-09-09",
+            "submissionInfos": [
+              {
+                "releaseDate": "2016-09-09",
+                "resetDate": "2016-10-28"
+              }
+            ]
+          },
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Endotoxin at 2ng/kg of body weight administered intravenously",
+              "interventionNames": [
+                "Biological: Endotoxin"
+              ],
+              "label": "Endotoxin",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Placebo administered intravenously",
+              "interventionNames": [
+                "Biological: Placebo"
+              ],
+              "label": "Placebo",
+              "type": "PLACEBO_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Endotoxin"
+              ],
+              "name": "Endotoxin",
+              "otherNames": [
+                "LPS",
+                "lipopolysaccharide"
+              ],
+              "type": "BIOLOGICAL"
+            },
+            {
+              "armGroupLabels": [
+                "Placebo"
+              ],
+              "name": "Placebo",
+              "otherNames": [
+                "NaCl 0.9%",
+                "saline"
+              ],
+              "type": "BIOLOGICAL"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Sickness Behavior"
+          ],
+          "keywords": [
+            "Sickness behavior",
+            "Cytokines",
+            "Psychoneuroimmunology"
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The objective of the present study is to specifically assess the effect of lipopolysaccharide (LPS) administration on the development of behavioral symptoms and the underlying contribution of inflammatory processes. In particular, the investigators will assess the development of subjective and objective behavioral symptoms. In addition, the investigators will determine whether some psychological trait or state can predict and/or modulate the LPS-induced inflammatory and behavioral responses.\n\nTwenty-five healthy subjects will be included. A placebo-controlled, double-blinded and cross-over design will be used. Subjects will receive an intravenous injection of endotoxin at 2 nanogram/kilogram (ng/kg) of body weight and an intravenous injection of sodium chloride as placebo of endotoxin injection at two different occasions.\n\nPrior to inclusion and randomization, subjects will come at the hospital and will receive a medical examination. Psychological variables that could affect the behavioral (or immune) response to LPS will be assessed at that time, using several self-assessment questionnaires.\n\nOn the trial days, injection of endotoxin or sodium chloride will be performed and blood samples will be taken just before the endotoxin or sodium chloride injection and 1, 1.5, 2, 3, 4, 5, 6 and 7.5 hours after the injection. Blood samples will be used to measure several inflammatory and immune markers. Urine samples will be taken before the endotoxin or sodium chloride injection and as late as possible after the injection. Subjects will wear T-shirt all day. Urine and T-shirt samples will be used for behavioral assessment and analysis of body odor compound.\n\nSelf-assessment questionnaires assessing behavioral and psychological variables will be completed by participants just before the endotoxin or sodium chloride injection, three hours and 7.5 hours after the injection. A short questionnaire assessing sickness behavior (SicknessQ) will be repeatedly completed by participants from just before to 7.5 hours after the endotoxin or sodium chloride injection.\n\nSeveral behavioral tests will be used, including a motivation task, a test assessing behavioral response to negative and sickness stimuli. Analysis of gait and motion, as well as of social interactions, will be performed. Photographs will be taken for the further rating of the faces.",
+          "detailedDescription": "Study design\n\nTwenty-five subjects will be included in the present study, which will follow a prospective, placebo-controlled and cross-over design. Participants will be blinded, as well as research personnel in charge of the participants and the laboratory.\n\nSubjects will be randomly assigned in the cross-over design with two trials, with about four weeks wash-out between LPS stimulations:\n\n1. Trial 1: endotoxin. Subjects will receive an intravenous injection of endotoxin at 2 ng/kg of body weight.\n2. Trial 2: placebo. Subjects will receive an intravenous injection of sodium chloride as placebo of endotoxin injection.\n\nTen other healthy volunteers will be recruited in a pilot study prior the beginning of the main study, in order to test the behavioral tasks that will be used. These subjects will be recruited among the university staff or among university students. They will perform four specific behavioral tasks and will complete the questionnaires assessing psychological and behavioral variables in order to associate outcomes from the behavioral tasks to psychological and subjective behavioral assessments. No biological samples (blood, urine or tee-shirt samples) will be taken in subjects recruited in the pilot study.\n\nTreatment\n\nThe LPS is provided by LGC Promochem AB, Albanoliden 5, 4tr, 506 30 Bor\u00e5s, Sweden. The USP (United States Pharmacopeial Convention) Endotoxin (Cat. No. 1235503) does come as a lyophilized (freeze-dried) powder and each vial contains 10,000 USP Endotoxin Units. Each vial contains very approximately 1 microgram of Endotoxin and is mixed with 5 milliliter (mL) of sterile water.\n\nStudy procedure\n\nThe study will be conducted at Department of Clinical Sciences, Danderyd Hospital.\n\nPrior to inclusion and randomization, subjects will come at the hospital in order to be subjected to a medical examination, including an electrocardiogram and blood laboratory analyses. Socio-demographic data and medical history will be assessed at this occasion, as well as body variables (weight, height, body composition) and physical activity using the Swedish version of the IPAQ (International Physical Activity Questionnaire). History of major depression will be assessed using the Mini-International Neuropsychiatric Interview (M.I.N.I.) for major depression. Psychological variables that could affect the behavioral (or immune) response to LPS, and which are not believed to change between the screening day and the trial days, will be also assessed at that time, using several web-based self-assessment questionnaires. These measures will include the subjects' perception of the body and health risk (e.g., interoceptive awareness, perceived vulnerability to disease, health anxiety and disgust reactivity, somatosensory amplification, fear of anxiety-related sensations) and psychological well-being (e.g., perceived stress, optimism, social support, cognitive well-being). The overall time for the medical examination will be of 30-45 minutes. The time to complete questionnaires is estimated to approximately 45 minutes but can be done from home. The participants will also receive a kit with a T-shirt (with sewn-in cotton pads) and a scent-free soap. Participants will be asked to wear the T-shirt in the morning (after washing armpits) on each trial day, and take it off after their arrival. This will allow collecting pre-treatment (baseline) samples of body odor.\n\nParticipants will then be subjected to the two trials performed in a randomized order, with at least six weeks of wash-out: endotoxin versus placebo.\n\nThe participants will be asked to restrain from strenuous exercise and alcohol taking 48 hours before the trial day, to avoid strong spices 24 hours before the trial day, and to take a light breakfast the morning of the trial day. Participants will arrive on the morning (at 7.30AM). They will turn in their morning T-shirt (see above) and change to a new T-shirt (with sewn-in cotton pads in the armpit) to wear during all day. The T-shirts will be used for behavioral assessment and analysis of body odor compound. Shortly after their arrival, two intravenous catheters will be placed: one for blood sampling at one arm and one at one hand for the injection of endotoxin or sodium chloride that will be removed after the injection. An anesthetic cream will be provided to spread on their arm in order to minimize the pain of venipuncture. Subjects will then rest for at least 30 minutes.\n\nInjection of endotoxin or sodium chloride will be performed when the rest is completed (around 8.30AM). Blood samples (10 mL in EDTA (Ethylenediaminetetraacetic acid) tubes and 10 mL in sodium citrate tubes) will be taken just before the endotoxin or sodium chloride injection and 1, 1.5, 2, 3, 4, 5, 6 and 7.5 hours after the injection. In addition, 2.5 mL in PAXGene\u2122 tubes will be taken before and 2, 4 and 7.5 hours after the injection. Two additional samples in EDTA tubes (8 mL of blood) will be taken before the injection and 3 and 7.5 hours after the injection. The total quantity of blood taken will be of about 200 mL, corresponding to a third of the amount given at a blood donation. Blood samples will be used to measure concentrations of pro- and anti-inflammatory cytokines and other inflammatory markers (e.g., C-Reactive protein - CRP) using Enzyme-Linked Immunosorbent Assay (ELISA), immune cell subpopulations and concentrations of microparticles using flow cytometry, genetic markers using Cap analysis gene expression (CAGE) analyses and white blood cell count and differential.\n\nUrine samples will be taken before the endotoxin or sodium chloride injection (i.e., before the catheters are placed) and as late as possible after the injection (classically around four hours after the injection).\n\nParticipants will be monitored with continuous electrocardiogram. Oxygen saturation (SO2), blood pressure and body temperature will be monitored every 30 minutes. Nitrogen dioxide (NO2) will be monitored continuously, methemoglobin checked at the same time than each blood sample.\n\nSelf-assessment questionnaires assessing behavioral and psychological variables will be completed by participants just before the endotoxin or sodium chloride injection (during the rest period), three hours and 7.5 hours after the injection. A short questionnaire assessing sickness behavior (SicknessQ) will be repeatedly completed by participants from just before to 7.5 hours after the endotoxin or sodium chloride injection. Subjects will be filmed when in bed and will wear a sociometric badge, in order to analyze participants' behavioral response to a standardized situation of social interaction.\n\nPhotographs will be taken before (i.e., before the catheters are placed), two hours after and 7.5 hours after the injection, for the further rating of the faces (e.g., health, attractiveness, tiredness). In parallel, skin color will be measured at the same time than blood samples (except T1.5) in order to assess a potential mediating effect of faces' health ratings. Analysis of subjects' gait and motion will be performed two and half hours after the injection. Short computerized cognitive tests will be performed after these tests, just before three hours after the injection. Subjects will perform a motivation task after completing the questionnaires three hours after the injection. In addition, two tests assessing behavior in response to positive/negative and healthy/sickness stimuli (an approach-avoidance behavior test and a regulation of emotion test) will be executed three hours and half after the injection.\n\nParticipants will be allowed to take a light meal (snack and juice drink) around lunch time (12.30) and will hand in their T-shirt just before five and half hours after the injection.\n\nThe last blood samples will be taken 7.5 hours after the injection and participants will be discharged.\n\nMonitoring of the experiment will be done by a medical doctor, supervised by a specialist in anesthesia and intensive care."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "CROSSOVER",
+            "maskingInfo": {
+              "masking": "TRIPLE",
+              "whoMasked": [
+                "PARTICIPANT",
+                "INVESTIGATOR",
+                "OUTCOMES_ASSESSOR"
+              ]
+            },
+            "primaryPurpose": "BASIC_SCIENCE"
+          },
+          "enrollmentInfo": {
+            "count": 22,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy subjects\n\nExclusion Criteria:\n\n* Diagnosed physiological or psychiatric disease\n* Needle anxiety or blood phobia\n* Regular medication (excluding contraceptive pill)\n* Infection in the last two weeks\n* Pregnancy or breastfeeding\n* Smoking\n* Excessive alcohol use\n* Body mass index in the range of obesity (\\>30 kg/m2) or underweight (\\<18.5 kg/m2)\n* Invisible veins in the antecubital area of the arms",
+          "healthyVolunteers": true,
+          "maximumAge": "50 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Endotoxin-induced Inflammatory and Behavioral Responses and Predictors of Individual Differences",
+          "nctId": "NCT02529592",
+          "officialTitle": "Endotoxin-induced Inflammatory and Behavioral Responses and Predictors of Individual Differences: A Randomized, Double-blind Placebo Controlled Study on Healthy Human Volunteers",
+          "orgStudyIdInfo": {
+            "id": "LPS 2.0 - 2014/1946-31"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Karolinska Institutet"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Change in sickness behavior evaluated using the self-assessment questionnaire sicknessQ",
+              "measure": "Change from baseline in sickness behavior as measured using the sicknessQ",
+              "timeFrame": "Before the administration and 1.5, 3, 5 and 7 hours after the administration"
+            },
+            {
+              "description": "Change in symptoms of anxiety evaluated using the self-assessment questionnaire State part of the State-Trait Anxiety Inventory (STAI)",
+              "measure": "Change from baseline in anxiety state as measured using the STAI-State",
+              "timeFrame": "Before the administration and 3 and 7 hours after the administration"
+            },
+            {
+              "description": "Change in mood alterations evaluated using the self-assessment questionnaire Swedish Core Affect Scales (SCAS)",
+              "measure": "Change from baseline in psychological state as measured using the SCAS",
+              "timeFrame": "Before the administration and 3 and 7 hours after the administration"
+            },
+            {
+              "description": "Change in symptoms of pain evaluated using the self-assessment questionnaire Mc Gill questionnaire - short version",
+              "measure": "Change from baseline in pain as measured using the short McGill questionnaire",
+              "timeFrame": "Before the administration and 3 and 7 hours after the administration"
+            },
+            {
+              "description": "Change in sleepiness evaluated using the Karolinska Sleepiness Scale (KSS)",
+              "measure": "Change from baseline in sleepiness as measured using the KSS",
+              "timeFrame": "Before the administration and 3 and 7 hours after the administration"
+            },
+            {
+              "description": "Change in plasma concentration of the pro-inflammatory cytokine interleukin-6 (IL-6)",
+              "measure": "Change from baseline in systemic IL-6 concentrations",
+              "timeFrame": "Before the administration and 1, 1.5, 2, 3, 4, 5, 7 hours after the administration"
+            },
+            {
+              "description": "Change in plasma concentration of the pro-inflammatory cytokine tumor necrosis factor-alpha (TNF-a)",
+              "measure": "Change from baseline in systemic TNF-a concentrations",
+              "timeFrame": "Before the administration and 1, 1.5, 2, 3, 4, 5, 7 hours after the administration"
+            },
+            {
+              "description": "Change in plasma concentration of the pro-inflammatory cytokine interleukin-8 (IL-8)",
+              "measure": "Change from baseline in systemic IL-8 concentrations",
+              "timeFrame": "Before the administration and 1, 1.5, 2, 3, 4, 5, 7 hours after the administration"
+            },
+            {
+              "description": "Change in plasma concentration of the pro-inflammatory cytokine high-mobility group box 1 (HMGB1)",
+              "measure": "Change from baseline in systemic HMGB1 concentrations",
+              "timeFrame": "Before the administration and 1, 1.5, 2, 3, 4, 5, 7 hours after the administration"
+            },
+            {
+              "description": "Change in plasma concentration of the pro-inflammatory cytokine interleukin-1 beta (IL-1B)",
+              "measure": "Change from baseline in systemic IL-1B concentrations",
+              "timeFrame": "Before the administration and 1, 1.5, 2, 3, 4, 5, 7 hours after the administration"
+            },
+            {
+              "description": "Change in plasma concentration of the anti-inflammatory cytokine interleukin-10 (IL-10)",
+              "measure": "Change from baseline in systemic IL-10 concentrations",
+              "timeFrame": "Before the administration and 1, 1.5, 2, 3, 4, 5, 7 hours after the administration"
+            },
+            {
+              "description": "Change in plasma concentration of the anti-inflammatory cytokine interleukin-1 receptor antagonist (IL-1ra)",
+              "measure": "Change from baseline in systemic IL-1ra concentrations",
+              "timeFrame": "Before the administration and 1, 1.5, 2, 3, 4, 5, 7 hours after the administration"
+            },
+            {
+              "description": "Change in heart rate assessed using a cardiac monitoring",
+              "measure": "Change from baseline in heart rate",
+              "timeFrame": "Before the administration and every half hour up to 7.5 hours after the administration"
+            },
+            {
+              "description": "Change in systolic blood pressure assessed using a cardiac monitoring",
+              "measure": "Change from baseline in systolic blood pressure",
+              "timeFrame": "Before the administration and every half hour up to 7.5 hours after the administration"
+            },
+            {
+              "description": "Change in diastolic blood pressure assessed using a cardiac monitoring",
+              "measure": "Change from baseline in diastolic blood pressure",
+              "timeFrame": "Before the administration and every half hour up to 7.5 hours after the administration"
+            },
+            {
+              "description": "Change in body temperature measured using an ear thermometer",
+              "measure": "Change from baseline in body temperature",
+              "timeFrame": "Before the administration and every half hour up to 7.5 hours after the administration"
+            },
+            {
+              "description": "Change in headache scores measured using a numerical scale ranging from 0 (no headache) to 10 (most unbearable headache)",
+              "measure": "Change from baseline in headache scores as measured using a numerical scale",
+              "timeFrame": "Before the administration and every half hour up to 7.5 hours after the administration"
+            },
+            {
+              "description": "Change in nausea scores measured using a numerical scale ranging from 0 (no nausea) to 10 (most unbearable nausea)",
+              "measure": "Change from baseline in nausea scores as measured using a numerical scale",
+              "timeFrame": "Before the administration and every half hour up to 7.5 hours after the administration"
+            },
+            {
+              "description": "Change in back pain scores measured using a numerical scale ranging from 0 (no back pain) to 10 (most unbearable back pain)",
+              "measure": "Change from baseline in back pain scores as measured using a numerical scale",
+              "timeFrame": "Before the administration and every half hour up to 7.5 hours after the administration"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Changes in concentrations of total microparticles (defined as particles less than 1\u03bcm in size and staining for lactadherin) and platelet-, monocytes- and endothelial-derived microparticles (co-staining of lactadherin and, respectively, cluster of differentiation (CD)42A, CD14 and CD62E).",
+              "measure": "Change in cell expression of blood microparticles",
+              "timeFrame": "Before the administration and 1, 1.5, 2, 3, 4, 5, 7 hours after the administration"
+            },
+            {
+              "description": "Modification in genetic markers measured using CAGE analysis from PAXGene blood samples",
+              "measure": "Modification in genetic markers",
+              "timeFrame": "Before the administration and 1, 2, 4, 7 hours after the administration"
+            },
+            {
+              "description": "Change in expression of immune cell subpopulations markers using flow cytometry from frozen whole blood in 10% Dimethylsulfoxid (DMSO)",
+              "measure": "Change in expression of immune cell markers",
+              "timeFrame": "Before the administration and 1, 2, 3, 4, 7 hours after the administration"
+            },
+            {
+              "description": "Change in abundance of volatile odor compounds analyzed using gas chromatography mass spectrometry (GC-MS) from tee-shirt samples and urine samples",
+              "measure": "Change in odor compounds",
+              "timeFrame": "Before and after the administration"
+            },
+            {
+              "description": "Modification in social interactions using movies of the study day and sociometric badges",
+              "measure": "Changes in social interaction",
+              "timeFrame": "During all day"
+            },
+            {
+              "description": "Gait analysis using the Kinect camera",
+              "measure": "Gait",
+              "timeFrame": "2 hours after the administration"
+            },
+            {
+              "description": "Whole-body approach-avoidance behavior to positive/negative stimuli",
+              "measure": "Approach-avoidance behavior",
+              "timeFrame": "5 hours after the administration"
+            },
+            {
+              "description": "Face expression of sickness measured using photos of the subject with a neutral face expression",
+              "measure": "Face expression of sickness",
+              "timeFrame": "Before the administration and 2 and 7.5 hours after"
+            },
+            {
+              "description": "Change in skin color measurement using a spectrophotometer",
+              "measure": "Change in skin color",
+              "timeFrame": "Before the administration and 1,2,3,4,5,7 hours after"
+            },
+            {
+              "description": "Choices of hard task (vs easy task) in the EEfRT",
+              "measure": "Motivation as measured using the Effort Expenditure for Rewards Task (EEfRT)",
+              "timeFrame": "4 hours after the administration"
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": false
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Lasselin J, Petrovic P, Olsson MJ, Paues Goranson S, Lekander M, Jensen KB, Axelsson J. Sickness behavior is not all about the immune response: Possible roles of expectations and prediction errors in the worry of being sick. Brain Behav Immun. 2018 Nov;74:213-221. doi: 10.1016/j.bbi.2018.09.008. Epub 2018 Sep 11.",
+              "pmid": "30217536",
+              "type": "DERIVED"
+            },
+            {
+              "citation": "Axelsson J, Sundelin T, Olsson MJ, Sorjonen K, Axelsson C, Lasselin J, Lekander M. Identification of acutely sick people and facial cues of sickness. Proc Biol Sci. 2018 Jan 10;285(1870):20172430. doi: 10.1098/rspb.2017.2430.",
+              "pmid": "29298938",
+              "type": "DERIVED"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "OTHER",
+              "name": "Danderyd Hospital"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Karolinska Institutet"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Karolinska Institutet",
+            "investigatorFullName": "Mats Lekander",
+            "investigatorTitle": "Professor",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2015-04",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2015-08-20",
+            "type": "ESTIMATED"
+          },
+          "lastUpdateSubmitDate": "2015-08-19",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2015-04",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2015-02"
+          },
+          "statusVerifiedDate": "2015-08",
+          "studyFirstPostDateStruct": {
+            "date": "2015-08-20",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2015-04-29",
+          "studyFirstSubmitQcDate": "2015-08-19"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D002561",
+              "term": "Cerebrovascular Disorders"
+            },
+            {
+              "id": "D001927",
+              "term": "Brain Diseases"
+            },
+            {
+              "id": "D002493",
+              "term": "Central Nervous System Diseases"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D014652",
+              "term": "Vascular Diseases"
+            },
+            {
+              "id": "D002318",
+              "term": "Cardiovascular Diseases"
+            },
+            {
+              "id": "D004935",
+              "term": "Esophageal Diseases"
+            },
+            {
+              "id": "D005767",
+              "term": "Gastrointestinal Diseases"
+            },
+            {
+              "id": "D004066",
+              "term": "Digestive System Diseases"
+            },
+            {
+              "id": "D010608",
+              "term": "Pharyngeal Diseases"
+            },
+            {
+              "id": "D010038",
+              "term": "Otorhinolaryngologic Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D020521",
+              "term": "Stroke"
+            },
+            {
+              "id": "D003680",
+              "term": "Deglutition Disorders"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "3 Points and above according to the EAT-10 scale",
+              "interventionNames": [
+                "Other: ultrasonograpic evaluotion"
+              ],
+              "label": "dysphagia"
+            },
+            {
+              "description": "Under 3 points on the EAT-10 scale",
+              "interventionNames": [
+                "Other: ultrasonograpic evaluotion"
+              ],
+              "label": "non-dysphagia"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "dysphagia",
+                "non-dysphagia"
+              ],
+              "description": "The distance between the hyoid and thyroid cartilage, the volume of the geniohyoid, digastric anterior, sternohyoid and thyrohyoid muscles will be evaluated by ultrasound.",
+              "name": "ultrasonograpic evaluotion",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Stroke",
+            "Dysphagia"
+          ]
+        },
+        "contactsLocationsModule": {
+          "centralContacts": [
+            {
+              "email": "cansinmedin@hotmail.com",
+              "name": "associate proffesor",
+              "phone": "800-555-5555",
+              "role": "CONTACT"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "ultrasonographic parameters in stroke patients with dysphagia"
+        },
+        "designModule": {
+          "designInfo": {
+            "observationalModel": "CASE_CONTROL",
+            "timePerspective": "PROSPECTIVE"
+          },
+          "enrollmentInfo": {
+            "count": 102,
+            "type": "ESTIMATED"
+          },
+          "patientRegistry": true,
+          "studyType": "OBSERVATIONAL",
+          "targetDuration": "1 Day"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria: Diagnosis of stroke,\n\n* Agreeing to participate in the study,\n* Cognitive competence to understand the test instructions\n* Communication skills to respond to the test instructions.\n\nExclusion Criteria:\n\n* Presence of a neurological disease other than stroke that will cause difficulty in swallowing, -Being illiterate,\n* refusing to participate in the study,\n* jaw joint problem,\n* surgical intervention in the neck area that will affect ultrasound measurements,\n* infected open wound",
+          "healthyVolunteers": false,
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Patients who have been diagnosed with stroke at Istanbul Physical Therapy and Rehabilitation Training and Research Hospital and enrolled in a rehabilitation program will be divided into 2 groups according to the presence of dysphagia (3 points and above according to the EAT-10 scale)."
+        },
+        "identificationModule": {
+          "briefTitle": "Ultrasonographic Parameters in Stroke Patients With Dysphagia",
+          "nctId": "NCT06615310",
+          "officialTitle": "The Relationship of Ultrasonographic Parameters Used in the Evaluation of Dysphagia in Stroke Patients With Swallowing Severity",
+          "orgStudyIdInfo": {
+            "id": "2024-41"
+          },
+          "organization": {
+            "class": "OTHER_GOV",
+            "fullName": "Istanbul Physical Medicine Rehabilitation Training and Research Hospital"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "UNDECIDED"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "the thickness of the muscle will be measured by ultrasound",
+              "measure": "muscle volume of thyrohyoid",
+              "timeFrame": "baseline"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "the thickness of the muscle will be measured by ultrasound",
+              "measure": "muscle volume of sternohyoid",
+              "timeFrame": "baseline"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": false
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER_GOV",
+            "name": "Istanbul Physical Medicine Rehabilitation Training and Research Hospital"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Istanbul Physical Medicine Rehabilitation Training and Research Hospital",
+            "investigatorFullName": "Cansin Medin",
+            "investigatorTitle": "associate proffesor",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2025-04-01",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2024-09-26",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2024-09-24",
+          "overallStatus": "NOT_YET_RECRUITING",
+          "primaryCompletionDateStruct": {
+            "date": "2025-03-01",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2024-10-01",
+            "type": "ESTIMATED"
+          },
+          "statusVerifiedDate": "2024-09",
+          "studyFirstPostDateStruct": {
+            "date": "2024-09-26",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2024-09-13",
+          "studyFirstSubmitQcDate": "2024-09-24"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "preterm neonates with GA of 32 to 36 weeks ready for extubation",
+              "interventionNames": [
+                "Device: noninvasive high frequency oscillation ventilation"
+              ],
+              "label": "Noninvasive high frequency oscillation ventilation",
+              "type": "ACTIVE_COMPARATOR"
+            },
+            {
+              "description": "preterm neonates with GA of 32 to 36 weeks ready for extubation",
+              "interventionNames": [
+                "Device: noninvasive positive pressure ventilation"
+              ],
+              "label": "Noninvasive intermittent positive pressure ventilation",
+              "type": "ACTIVE_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Noninvasive high frequency oscillation ventilation"
+              ],
+              "description": "cases of group A extubated on NHFOV, and it will be provided by CNO, Medin device, Germany) via binasal prongs with the following parameters:\n\n* MAP of 6 cmH2O and will be titrated targeting a FiO2 \u2264 25-30%, maximum FiO2 will be 40% and target oxygen saturation will be 90-95%.\n* Frequency of 8 Hz and can be changed within the range of 8-12 Hz.\n* Amplitude of 7 cmH2O and can be titrated within the range of 7-10 cmH2O according to PaCO2.",
+              "name": "noninvasive high frequency oscillation ventilation",
+              "type": "DEVICE"
+            },
+            {
+              "armGroupLabels": [
+                "Noninvasive intermittent positive pressure ventilation"
+              ],
+              "description": "NIPPV will be provided by any type of neonatal ventilator available in the unit via binasal prongs starting with the following parameters:\n\n* Positive end expiratory pressure (PEEP) of 5 cmH2O and can be titrated to 8 cmH2O according to the oxygenation .\n* Peak inspiratory pressure (PIP) of 15 cmH2O and can be titrated to 25 cmH2O ,according to oxygenation , PaCO2 level and the chest expansion .\n* FiO2 \u2264 25-30% and can be increased to 40 % maximally targeting oxygen saturation of 90-95% .\n* Inspiratory time of 0.40-0.50 s .\n* Rate of 30 bpm and can be increased to maximum 50 bpm .\n* Synchronization will not be applied.",
+              "name": "noninvasive positive pressure ventilation",
+              "type": "DEVICE"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Noninvasive Ventilation"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Kafrelsheikh",
+              "country": "Egypt",
+              "facility": "Kafrelsheikh University"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Tanta University",
+              "name": "Heba SM El-Mahdy",
+              "role": "STUDY_CHAIR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "comparison between Noninvasive Intermittent Positive Pressure Ventilation (NIPPV) and Noninvasive High Frequency Oscillation Ventilation (NHFOV) post-extubation in preterm neonates as regards the efficacy and their possible complications.",
+          "detailedDescription": "The global definition of preterm infant by the World Health Organization is any infant born before 37 weeks of gestation. Annually, an estimated 15 million (11.1%) preterm infants are born worldwide. Preterm birth is further classified as extremely preterm (\\&amp;lt;28 weeks), very preterm (28 to \\&amp;lt;32 weeks), and moderate (32 to \\&amp;lt;34 weeks) to late preterm (34 to \\&amp;lt;37 weeks).\n\nPrematurity has been associated with several risk factors, such as history of previous preterm birth, pregnancy induced hypertension, premature rupture of fetal membranes, multiple pregnancy, bleeding during pregnancy, history of abortion, fetal malformation, inadequate antenatal care, polyhydramnios and previous caesarean section.\n\nPreterm neonates are at greater risk of a range of short-term and long-term morbidities. Respiratory distress syndrome (RDS) is one of the most common causes of morbidity and mortality in preterm infants. RDS is characterized by a lack of lung surfactant. Insufficient surfactant production or secretion results in higher alveolar surface tension, leading to atelectasis and impaired gas exchange. Respiratory distress typically manifests in newborns as tachypnea, intercostal retractions, nasal flaring, grunting, and cyanosis.\n\nInvasive mechanical ventilation (IMV) increases survival in preterm infants with severe RDS. However, prolonged intubation and mechanical ventilation of preterm infants increases the risk of life-threatening complications including, ventilator induced lung injury and airway inflammation leading to bronchopulmonary dysplasia, and nosocomial pneumonia, and also increases the risk of a poor neurodevelopmental outcome. Therefore, when caring for premature infants, clinicians should focus on weaning from IMV as expeditiously as possible to noninvasive respiratory support (NRS).\n\nThere are many strategies and criteria for weaning, including evaluation of ventilatory parameters, clinical/biochemical criteria, and predictive indices of extubation that can be followed by or combined with spontaneous breathing trials or gradual withdrawal from ventilatory support.\n\nNoninvasive respiratory support modalities include continuous positive airway pressure (CPAP), high flow nasal cannula (HFNC), noninvasive intermittent positive pressure ventilation (NIPPV), bilevel CPAP (BiPAP) and noninvasive high frequency oscillation ventilation (NHFOV).\n\nNIPPV is a time cycled, pressure limited mode of ventilation. Conventional ventilator is used to generate two levels of pressures, namely, Peak inspiratory pressure and positive end expiratory pressure. Additionally, a backup rate is provided typically using longer inspiratory time. The main drawback of neonatal NIPPV is the lack of synchronization, which is difficult to achieve and is often unavailable.\n\nNHFOV is the application of a bias flow generating a continuous distending positive pressure with superimposed oscillations which have a constant frequency and an active expiratory phase. NHFOV combines the advantages of NCPAP and high-frequency ventilation, making it more effective at maintaining alveolar stability, eliminating CO2, and limiting barotrauma.\n\nThe study assumed that NHFOV is more efficacious than NIPPV as regard prevention of the need for re-intubation in preterm infants with gestational age between 32 and 36 weeks and 6 days after their 1st extubation."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "QUADRUPLE",
+              "whoMasked": [
+                "PARTICIPANT",
+                "CARE_PROVIDER",
+                "INVESTIGATOR",
+                "OUTCOMES_ASSESSOR"
+              ]
+            },
+            "primaryPurpose": "OTHER"
+          },
+          "enrollmentInfo": {
+            "count": 80,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Preterm neonates with gestational age between 32 and 36 weeks and on mechanical ventilation ready to be extubated.\n\nWhen the case is ready for extubation , will receive at least one loading dose of caffeine citrate (20 mg/kg/dose) and daily maintenance dose of 5 mg/kg/dose.\n\nCriteria for extubation:\n\n* Blood gas analysis: PH \\&gt; 7.25 and PaCO2 \u2264 60 mmHg.\n* Airway pressure (Paw) of 7 to 8 cmH2O.\n* Required fraction of inspired oxygen (FiO2) \u2264 30%.\n* Sufficient spontaneous breathing by clinical evaluation.\n\nExclusion Criteria:\n\n* Full term neonates.\n* Preterm neonates who will not require intubation.\n* Preterm neonates with one of the following criteria:\n\nbirth weight \\&gt; 900 gms , major congenital anomalies, upper airway anomalies, neuromuscular diseases, surgical cases, intraventricular hemorrhage grade IV.\n\n\u2022 Cases that require reintubation after more than 72 hours of extubation.",
+          "healthyVolunteers": false,
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "NHFOV Vs NIPPV Post-extubation in Preterm Neonates",
+          "nctId": "NCT06620107",
+          "officialTitle": "Noninvasive High Frequency Oscillation Ventilation (NHFOV) in Comparison to Noninvasive Intermittent Positive Pressure Ventilation (NIPPV) As Post-extubation Support in Preterm Neonates",
+          "orgStudyIdInfo": {
+            "id": "NHFOV vs NIPPV in neonates"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Kafrelsheikh University"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "* The number of cases that required re-intubation and the time of failure of extubation in hours.\n* Duration of different types of respiratory support since birth till discharge from NICU.",
+              "measure": "reintubation and the duration of respiratory support",
+              "timeFrame": "from the date of birth till the date of discharge from NICU or death (assessed up to 3 months).."
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "* Airleak syndromes.\n* Apnea rate.\n* Nasal septal injury.\n* Bronchopulmonary dysplasia.\n* Intraventricular hemorrhage \u2265 2nd grade.\n* Hemodynamically significant PDA.\n* Retinopathy of prematurity \u2265 2nd stage.\n* Necrotizing enterocolitis \u2265 2nd stage.\n* Frequency of vomiting.\n* Feeding intolerance.\n* Weekly weight gain until NICU discharge.\n* Duration of hospitalization.\n* Mortality during stay in hospital.",
+              "measure": "complications",
+              "timeFrame": "from the date of birth till the date of discharge from NICU or death (assessed up to 3 months)."
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "isUsExport": false,
+          "oversightHasDmc": false
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Shi Y, Muniraman H, Biniwale M, Ramanathan R. A Review on Non-invasive Respiratory Support for Management of Respiratory Distress in Extremely Preterm Infants. Front Pediatr. 2020 May 28;8:270. doi: 10.3389/fped.2020.00270. eCollection 2020.",
+              "pmid": "32548084",
+              "type": "BACKGROUND"
+            }
+          ],
+          "seeAlsoLinks": [
+            {
+              "label": "Noninvasive high-frequency oscillatory ventilation versus nasal continuous positive airway pressure in preterm infants with moderate-severe respiratory distress syndrome: A preliminary report",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28672094"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Kafrelsheikh University"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Kafrelsheikh University",
+            "investigatorFullName": "Wafaa Mahmoud Hassan Abouseada",
+            "investigatorTitle": "pediatric demonstrator at faculty of medicine- kafrelsheikh university",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2024-01-20",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2024-10-24",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2024-10-23",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2024-01-20",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2023-01-20",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2024-09",
+          "studyFirstPostDateStruct": {
+            "date": "2024-10-01",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2024-09-25",
+          "studyFirstSubmitQcDate": "2024-09-26"
+        }
+      }
+    }
+  ]
+}

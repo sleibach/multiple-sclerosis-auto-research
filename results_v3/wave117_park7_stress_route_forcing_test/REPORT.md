@@ -1,0 +1,64 @@
+# Wave117 PARK7/DJ-1 Stress-Route Forcing Test
+
+## Bottom Line
+
+Branch call: `NO_REOPEN_PARK7_GENERIC_STRESS_ROUTE`.
+
+This test asks whether `PARK7` is a disease-resolved myeloid lipid-stress
+intervention route, or merely a generic oxidative/adaptive-stress marker.
+
+## Gate Summary
+
+| gate | value |
+| --- | --- |
+| MS anchor | False |
+| Broad myeloid-positive diseases | 2 |
+| Generic-covariate residual diseases | 0 |
+| Foundation strong support | False |
+| IBD response support | False |
+| Wave68 response support | False |
+| Target-resolution support | False |
+| CRISPR/efferocytosis support | False |
+| Broad genetics support | False |
+| Generic-stress-like | True |
+
+## Broad Disease Summary
+
+| disease_name | tested_contexts | positive_contexts | myeloid_positive_contexts | best_p | max_delta |
+| --- | --- | --- | --- | --- | --- |
+| Crohn disease | 3 | 0 | 0 | 0.2137 | 0.2345 |
+| Sjogren syndrome | 3 | 1 | 1 | 0.03814 | 0.335 |
+| psoriasis | 3 | 1 | 0 | 0.03554 | 0.872 |
+| type 1 diabetes mellitus | 5 | 0 | 0 | 0.2882 | 0.04236 |
+| ulcerative colitis | 3 | 3 | 1 | 0.01124 | 0.5693 |
+
+## Generic-Covariate Residual Summary
+
+_No rows._
+
+## Evidence Rows
+
+| evidence | value |
+| --- | --- |
+| wave81_rank | [{'gene': 'PARK7', 'wave81_call': 'PARK_PERTURBATION_FIRST_CANDIDATE', 'score': 8, 'direct_perturbation': 0, 'direct_table_presence': 1, 'direct_perturbation_detail': nan, 'foundation_model_support': 1, 'foundation_table_presence': 1, 'foundation_model_detail': 'wave57:support=2,strong=0,token_contexts=3', 'ms_anchor': 0, 'genetics_or_target_resolution': 1, 'broad_positive_disease_count': 2, 'broad_positive_diseases': 'psoriasis;ulcerative colitis', 'ibd_response_nominal': 1, 'ibd_response_fdr10': 0, 'modality_channel': 1, 'prior_not_blocked': 1, 'blocker': nan, 'sources': 'wave57_geneformer', 'wave62_call': 'NO_GO_WAVE62_TARGET_RESOLUTION', 'ms_delta_log2': 0.1710418567143854, 'ms_p': 0.4469378955677691, 'wave71_call': 'NO_REOPEN_INSUFFICIENT_CONVERGENCE', 'decision_reason': 'perturbation/model support exists but critical MS/genetics/modality/direction gates fail'}] |
+| ms | [{'gene': 'PARK7', 'mean_case': 10.352327421532165, 'mean_control': 10.181285564817776, 'delta_log2': 0.1710418567143854, 'hedges_g': 0.325079233974741, 'welch_t': 0.7766846462966565, 'p': 0.4469378955677691, 'fdr': 0.9220434300923256, 'gene_norm': 'PARK7'}] |
+| broad_summary | [{'gene': 'PARK7', 'positive_disease_count': 2, 'positive_diseases': 'psoriasis;ulcerative colitis', 'negative_disease_count': 0, 'negative_diseases': nan, 'best_p': 0.0112373384944221, 'max_abs_delta': 0.8720188387053938}] |
+| foundation | [{'gene': 'PARK7', 'contexts_tested': 11, 'contexts_with_token_ge_3_cells': 3, 'support_contexts': 2, 'strong_support_contexts': 0, 'best_context': 'IBD_myeloid', 'best_n_disease_cells_with_token': 3, 'best_cosine_shift_z_vs_random': 0.4312510315284708, 'best_projection_minus_random': 0.0110094174775037, 'best_mean_shift_to_control_cosine': 0.0001297394483117, 'best_random_mean_shift_to_control_cosine': -0.0002126751674546, 'supporting_contexts': 'IBD_myeloid;sjogren_APC', 'strong_supporting_contexts': nan, 'wave57_model_priority_score': 4.75, 'gene_norm': 'PARK7'}] |
+| ibd_response | [{'gene': 'PARK7', 'ibd_best_raw_p': 0.6241174547054757, 'ibd_best_raw_fdr': 1.0, 'ibd_best_paired_p': 0.007300224821745, 'ibd_best_paired_fdr': 0.6155718115592173, 'ibd_response_nominal': 1, 'ibd_response_fdr10': 0}] |
+| wave68_response | [{'cell_state': 'Mono_macro', 'gene': 'PARK7', 'n_patient_units': 29, 'n_remission': 13, 'n_non_remission': 16, 'mean_delta_remission': -0.2784113237125574, 'mean_delta_non_remission': -0.2251766801748469, 'raw_delta_remission_minus_non': -0.0532346435377104, 'raw_t': -0.2726206347225646, 'raw_p': 0.7883494794054344, 'raw_fdr': 1.0, 'mean_delta': -0.2080408064513721, 'paired_p': 0.007300224821745, 'paired_fdr': 0.6155718115592173, 'n': nan, 'remission_adjusted_delta': nan, 'remission_adjusted_p': nan, 'formula': nan, 'remission_adjusted_fdr': nan, 'approved_name': 'Parkinsonism associated deglycase', 'wave62_score': 2.591271549323195, 'wave62_call': 'NO_GO_WAVE62_TARGET_RESOLUTION', 'manual_blocker': nan, 'prior_context_blocker': nan, 'max_l2g_score': 0.12831711769104, 'best_l2g_disease': 'UC', 'strong_l2g_disease_count': 0.0, 'strong_l2g_diseases': nan, 'ms_max_l2g_score': 0.0, 'strong_qtl_coloc_disease_count': 1.0, 'strong_qtl_coloc_diseases': 'UC', 'myeloid_qtl_coloc_disease_count': 1.0, 'max_qtl_h4': 0.9629544316321548, 'ms_max_relevant_qtl_h4': 0.0, 'gwas_catalog_trait_count': 5.0, 'chembl_target_id': nan, 'druggable_activity_count': 0.0, 'wave55_score': 21.0, 'wave55_genetic_diseases_ge_0_25': 'AS;Crohn;Psoriasis;RA;UC', 'has_cross_autoimmune_genetics': False, 'has_any_druggability_flag': False, 'manual_or_prior_blocked': False, 'wave68_posthoc_blocker': nan, 'perturbation_strength': 2.2399449797335222, 'integrated_score': 3.5355807543951197, 'wave68_call': 'DESCRIPTIVE_GENE_SIGNAL', 'wave68_call_priority': 2}, {'cell_state': 'DC', 'gene': 'PARK7', 'n_patient_units': 29, 'n_remission': 13, 'n_non_remission': 16, 'mean_delta_remission': -0.0972649170230284, 'mean_delta_non_remission': -0.0165952201398051, 'raw_delta_remission_minus_non': -0.0806696968832232, 'raw_t': -0.4969434736843766, 'raw_p': 0.6241174547054757, 'raw_fdr': 1.0, 'mean_delta': -0.016896525149453, 'paired_p': 0.8054286571083575, 'paired_fdr': 1.0, 'n': nan, 'remission_adjusted_delta': nan, 'remission_adjusted_p': nan, 'formula': nan, 'remission_adjusted_fdr': nan, 'approved_name': 'Parkinsonism associated deglycase', 'wave62_score': 2.591271549323195, 'wave62_call': 'NO_GO_WAVE62_TARGET_RESOLUTION', 'manual_blocker': nan, 'prior_context_blocker': nan, 'max_l2g_score': 0.12831711769104, 'best_l2g_disease': 'UC', 'strong_l2g_disease_count': 0.0, 'strong_l2g_diseases': nan, 'ms_max_l2g_score': 0.0, 'strong_qtl_coloc_disease_count': 1.0, 'strong_qtl_coloc_diseases': 'UC', 'myeloid_qtl_coloc_disease_count': 1.0, 'max_qtl_h4': 0.9629544316321548, 'ms_max_relevant_qtl_h4': 0.0, 'gwas_catalog_trait_count': 5.0, 'chembl_target_id': nan, 'druggable_activity_count': 0.0, 'wave55_score': 21.0, 'wave55_genetic_diseases_ge_0_25': 'AS;Crohn;Psoriasis;RA;UC', 'has_cross_autoimmune_genetics': False, 'has_any_druggability_flag': False, 'manual_or_prior_blocked': False, 'wave68_posthoc_blocker': nan, 'perturbation_strength': 0.2987065936060625, 'integrated_score': 1.59434236826766, 'wave68_call': 'DESCRIPTIVE_GENE_SIGNAL', 'wave68_call_priority': 2}] |
+| target_resolution | [{'gene': 'PARK7', 'approved_name': 'Parkinsonism associated deglycase', 'wave62_score': 2.591271549323195, 'wave62_call': 'NO_GO_WAVE62_TARGET_RESOLUTION', 'manual_blocker': nan, 'prior_context_blocker': nan, 'max_l2g_score': 0.12831711769104, 'best_l2g_disease': 'UC', 'strong_l2g_disease_count': 0, 'strong_l2g_diseases': nan, 'supporting_l2g_disease_count': 0, 'supporting_l2g_diseases': nan, 'ms_max_l2g_score': 0.0, 'ms_l2g_study_loci': nan, 'strong_qtl_coloc_disease_count': 1, 'strong_qtl_coloc_diseases': 'UC', 'relevant_qtl_coloc_disease_count': 1, 'relevant_qtl_coloc_diseases': 'UC', 'myeloid_qtl_coloc_disease_count': 1, 'max_qtl_h4': 0.9629544316321548, 'ms_max_qtl_h4': 0.0, 'ms_max_relevant_qtl_h4': 0.0, 'ms_relevant_qtl_biosamples': nan, 'direction_proxy_values': 'UC:CD4-positive, alpha-beta T cell:-0.0297;UC:anterior cingulate cortex:-0.00511;UC:dorsolateral prefrontal cortex:0.00511;UC:lymphoblastoid cell line:0.00593;UC:macrophage:-0.00511', 'local_positive_disease_count': 3.0, 'local_negative_disease_count': 0.0, 'local_positive_diseases': 'Sjogren syndrome;psoriasis;ulcerative colitis', 'ms_wm_delta_log2': 0.1710418567143854, 'ms_wm_p': 0.4469378955677691, 'ms_wm_fdr': 0.9220434300923256, 'in_lipid_lysosomal_myeloid_neighborhood': False, 'residual_retained_disease_count': 0.0, 'strict_core_covariate_surviving_disease_count': 0.0, 'wave34_call': 'PARK_GENETIC_CELL_STATE_NOT_CURRENTLY_DRUGGABLE', 'gwas_catalog_trait_count': 5.0, 'chembl_target_id': nan, 'druggable_activity_count': 0.0, 'wave34a_call': nan, 'wave34a_direction': nan, 'wave34a_route_reason': nan, 'wave55_score': 21.0, 'wave55_genetic_diseases_ge_0_25': 'AS;Crohn;Psoriasis;RA;UC', 'wave61_best_call': nan, 'wave61_best_manual_blocker': nan, 'wave61_best_target_suppression': 0.0, 'wave61_best_selectivity': 0.0, 'gene_norm': 'PARK7'}] |
+| crispr | [{'gene_symbol': 'PARK7', 'n_sgrna': 4, 'median_efficient_lfc': -0.1881822087404259, 'median_noneater_lfc': 0.1681920059860495, 'median_efficient_minus_noneater_lfc': -0.4550834429309693, 's1_median_efficient_lfc': -0.1487716570740549, 's3_median_efficient_lfc': 0.1751069578981186, 's1_median_noneater_lfc': -0.0035318977186102, 's3_median_noneater_lfc': 0.3833859861146398, 'efficient_consistent_positive': False, 'noneater_consistent_positive': False, 'efficient_p_wilcoxon': 0.625, 'noneater_p_wilcoxon': 0.375, 'contrast_p_wilcoxon': 0.375, 'modules': nan, 'tracked_candidate': False, 'efficient_fdr': 0.9600924529799222, 'noneater_fdr': 0.9645063778899814, 'contrast_fdr': 0.9965506589785832, 'screen_call': 'UNRESOLVED', 'gene_norm': 'PARK7'}] |
+| broad_genetics | [] |
+
+## Decision Rule
+
+Reopen only if `PARK7` has nominal positive MS expression, at least two
+myeloid-positive diseases, at least two generic-covariate residual diseases,
+response or perturbation support, target-resolution genetics, and no generic
+stress collapse. Otherwise close as generic stress biology.
+
+## Reproducibility
+
+- Script: `scripts/v3_wave117_park7_stress_route_forcing_test.py`
+- Output: `results_v3/wave117_park7_stress_route_forcing_test/park7_gate_evidence.tsv`
+- Seed: `20260527`

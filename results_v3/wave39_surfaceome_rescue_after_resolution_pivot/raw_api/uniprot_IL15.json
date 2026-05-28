@@ -1,0 +1,181 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P48346",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "10233906",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15123770",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "23104097",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "7568001",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "8026467",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "8178155",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9326248",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Cytokine that plays a major role in the development of inflammatory and protective immune responses to microbial invaders and parasites by modulating immune cells of both the innate and adaptive immune systems (PubMed:15123770). Stimulates the proliferation of natural killer cells, T-cells and B-cells and promotes the secretion of several cytokines (PubMed:8178155, PubMed:9326248). In monocytes, induces the production of IL8 and monocyte chemotactic protein 1/CCL2, two chemokines that attract neutrophils and monocytes respectively to sites of infection (PubMed:9326248). Unlike most cytokines, which are secreted in soluble form, IL15 is expressed in association with its high affinity IL15RA on the surface of IL15-producing cells and delivers signals to target cells that express IL2RB and IL2RG receptor subunits (PubMed:10233906, PubMed:23104097, PubMed:8026467). Binding to its receptor triggers the phosphorylation of JAK1 and JAK3 and the recruitment and subsequent phosphorylation of signal transducer and activator of transcription-3/STAT3 and STAT5 (PubMed:7568001). In mast cells, induces the rapid tyrosine phosphorylation of STAT6 and thereby controls mast cell survival and release of cytokines such as IL4 (By similarity)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "molecule": "Isoform IL15-S48AA",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "molecule": "Isoform IL15-S21AA",
+          "note": {
+            "texts": [
+              {
+                "value": "IL15-S21AA is not secreted, but rather is stored intracellularly, appearing in the nucleus and cytoplasmic components"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0191",
+                "value": "Nucleus"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000031AC7"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "IL15"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0202",
+          "name": "Cytokine"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0963",
+          "name": "Cytoplasm"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-1015",
+          "name": "Disulfide bond"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0325",
+          "name": "Glycoprotein"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0539",
+          "name": "Nucleus"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0964",
+          "name": "Secreted"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0732",
+          "name": "Signal"
+        }
+      ],
+      "primaryAccession": "P40933",
+      "proteinDescription": {
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "Interleukin-15"
+          },
+          "shortNames": [
+            {
+              "value": "IL-15"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "0CE0520C1D8379E2",
+        "length": 162,
+        "md5": "B509702810A1CB3E8F4FC451CDCCAC62",
+        "molWeight": 18086,
+        "value": "MRISKPHLRSISIQCYLCLLLNSHFLTEAGIHVFILGCFSAGLPKTEANWVNVISDLKKIEDLIQSMHIDATLYTESDVHPSCKVTAMKCFLLELQVISLESGDASIHDTVENLIILANNSLSSNGNVTESGCKECEELEEKNIKEFLQSFVHIVQMFINTS"
+      },
+      "uniProtkbId": "IL15_HUMAN"
+    }
+  ]
+}

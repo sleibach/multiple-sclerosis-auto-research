@@ -1,0 +1,32 @@
+{
+  "call": "NO_GO_SP140_TARGETED_AUDIT",
+  "date": "2026-05-27",
+  "gate_pass_count": 2,
+  "gate_total": 10,
+  "inputs": [
+    "results_v3/wave55_external_genetics_druggability_sweep/external_genetics_rank.tsv",
+    "results_v3/wave55_external_genetics_druggability_sweep/external_genetics_candidate_audit.tsv",
+    "results_v3/wave55_external_genetics_druggability_sweep/opentargets_associated_targets_raw.tsv",
+    "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv",
+    "results_v3/broad_residual_gate/broad_residual_gate_summary.tsv",
+    "results_v3/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv",
+    "results_v3/wave45_regulatory_controller_audit/regulatory_controller_audit.tsv",
+    "results_v3/wave18_foundation_rescue/foundation_rescue_candidate_rank.tsv",
+    "results_v3/wave18_foundation_rescue/direct_perturbation_evidence_by_candidate.tsv",
+    "results_v3/wave15_perturbation_drug_response/candidate_level_synthesis.tsv"
+  ],
+  "interpretation": "SP140 remains a credible cross-autoimmune genetic/cell-state marker and mechanistic reopener, but not a V3 therapeutic target. The failures are target-resolved causality, strict local MS support, disease-state perturbation evidence, and a correct-direction druggable modality.",
+  "outputs": {
+    "external": "results_v3/wave56_sp140_targeted_reopener_audit/sp140_comparator_opentargets_by_disease.tsv",
+    "gates": "results_v3/wave56_sp140_targeted_reopener_audit/sp140_gate_matrix.tsv",
+    "local": "results_v3/wave56_sp140_targeted_reopener_audit/sp140_comparator_local_evidence.tsv",
+    "patents": "results_v3/wave56_sp140_targeted_reopener_audit/sp140_comparator_patent_urls.tsv",
+    "public": "results_v3/wave56_sp140_targeted_reopener_audit/sp140_comparator_public_endpoint_summary.tsv",
+    "searches": "results_v3/wave56_sp140_targeted_reopener_audit/sp140_comparator_public_search_counts.tsv"
+  },
+  "random_seed": 20260527,
+  "sp140_local_positive_disease_count": 4,
+  "sp140_ms_wm_delta_log2": -0.0867628128456026,
+  "sp140_ms_wm_fdr": 0.9677805697088556,
+  "sp140_ms_wm_p": 0.7262224269643743
+}

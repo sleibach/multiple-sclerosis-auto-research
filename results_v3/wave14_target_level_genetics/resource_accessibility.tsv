@@ -1,0 +1,10 @@
+resource	url	status	http_status	content_type	note
+local GWAS Catalog parquet	tmp_v3/gwascatalog_associations_20260317_convert.parquet	blocked		Apache Parquet	parquet file exists but no pyarrow/fastparquet/duckdb reader is installed in the active Python env
+Open Targets Platform GraphQL	https://api.platform.opentargets.org/api/v4/graphql	http_error	400	text/html; charset=UTF-8	HTTP Error 400: Bad Request
+GWAS Catalog associations API	https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mappedGene=IRF5&size=5&page=0	ok	200	application/json	
+OpenGWAS API	https://api.opengwas.io/api/gwasinfo?trait=multiple%20sclerosis	http_error	401	application/json	401 unauthorized; public API now requires authentication for this endpoint in this run
+FinnGen downloads	https://www.finngen.fi/en/access_results	ok	200	text/html; charset=UTF-8	
+GTEx Portal API	https://gtexportal.org/api/v2/	ok	200	application/json	
+eQTLGen cis-eQTL resource	https://kghub.org/kg-registry/resource/eqtlgen/eqtlgen.cis_eqtl_full.html	error			<urlopen error timed out>
+eQTL Catalogue	https://www.ebi.ac.uk/eqtl/	error			<urlopen error timed out>
+GTEx per-gene API eQTL counts	https://gtexportal.org/api/v2/association/singleTissueEqtl	queried		application/json	significant GTEx eQTL counts queried per gene/tissue; this is not enough for coloc because locus-level SNP summary statistics were not downloaded

@@ -1,0 +1,2019 @@
+{
+  "page_meta": {
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 6
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Acyl-protein thioesterase 1",
+      "score": 14.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL1681631",
+      "target_components": [
+        {
+          "accession": "O75608",
+          "component_description": "Acyl-protein thioesterase 1",
+          "component_id": 5202,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "3.1.2.-",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "3.1.2.22",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Acyl-protein thioesterase 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "APT-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "APT1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "hAPT1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LPL1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "LPL-I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LYPLA1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Lysophospholipase 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Lysophospholipase I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LysoPLA I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Palmitoyl-protein hydrolase",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "1FJ2",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6QGO",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SYM",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6QGN",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6QGQ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6QGS",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0004620",
+              "xref_name": "phospholipase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004622",
+              "xref_name": "lysophospholipase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008474",
+              "xref_name": "palmitoyl-(protein) hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016298",
+              "xref_name": "lipase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016787",
+              "xref_name": "hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0052689",
+              "xref_name": "carboxylic ester hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006631",
+              "xref_name": "fatty acid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0015908",
+              "xref_name": "fatty acid transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042997",
+              "xref_name": "negative regulation of Golgi to plasma membrane protein transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1905336",
+              "xref_name": "negative regulation of aggrephagy",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005739",
+              "xref_name": "mitochondrion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005654",
+              "xref_name": "nucleoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005783",
+              "xref_name": "endoplasmic reticulum",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031965",
+              "xref_name": "nuclear membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "PA30499",
+              "xref_name": "lysophospholipase 1",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "O43202",
+              "xref_name": "Acyl-protein thioesterase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UQF9",
+              "xref_name": "Acyl-protein thioesterase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O75608",
+              "xref_name": "Acyl-protein thioesterase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "1FJ2",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SYM",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6QGN",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6QGO",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6QGQ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6QGS",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "O75608",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "O75608",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:6737",
+              "xref_name": "LYPLA1",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-203615",
+              "xref_name": "eNOS activation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9648002",
+              "xref_name": "RAS processing",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "O75608",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "O75608",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR029058",
+              "xref_name": "AB_hydrolase_fold",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR050565",
+              "xref_name": "LYPA1-2/EST-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR003140",
+              "xref_name": "PLipase/COase/thioEstase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10655:SF22",
+              "xref_name": "ACYL-PROTEIN THIOESTERASE 1",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10655",
+              "xref_name": "LYSOPHOSPHOLIPASE-RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF02230",
+              "xref_name": "Abhydrolase_2",
+              "xref_src_db": "Pfam"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    },
+    {
+      "cross_references": [],
+      "organism": "Rattus norvegicus",
+      "pref_name": "Acyl-protein thioesterase 1",
+      "score": 13.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL2280",
+      "target_components": [
+        {
+          "accession": "P70470",
+          "component_description": "Acyl-protein thioesterase 1",
+          "component_id": 621,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "3.1.2.-",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "3.1.2.22",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Acyl-protein thioesterase 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Apt1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "APT-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LPL-I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Lypla1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Lysophospholipase 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Lysophospholipase I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LysoPLA I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Palmitoyl-protein hydrolase",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0004620",
+              "xref_name": "phospholipase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042997",
+              "xref_name": "negative regulation of Golgi to plasma membrane protein transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0004622",
+              "xref_name": "lysophospholipase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008474",
+              "xref_name": "palmitoyl-(protein) hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016298",
+              "xref_name": "lipase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016787",
+              "xref_name": "hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0052689",
+              "xref_name": "carboxylic ester hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006631",
+              "xref_name": "fatty acid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0015908",
+              "xref_name": "fatty acid transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1905336",
+              "xref_name": "negative regulation of aggrephagy",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005783",
+              "xref_name": "endoplasmic reticulum",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031965",
+              "xref_name": "nuclear membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "P70470",
+              "xref_name": "Acyl-protein thioesterase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P70470",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P70470",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "R-RNO-203615",
+              "xref_name": "eNOS activation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-RNO-9648002",
+              "xref_name": "RAS processing",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "IPR029058",
+              "xref_name": "AB_hydrolase_fold",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR050565",
+              "xref_name": "LYPA1-2/EST-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR003140",
+              "xref_name": "PLipase/COase/thioEstase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10655:SF22",
+              "xref_name": "ACYL-PROTEIN THIOESTERASE 1",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10655",
+              "xref_name": "LYSOPHOSPHOLIPASE-RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF02230",
+              "xref_name": "Abhydrolase_2",
+              "xref_src_db": "Pfam"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 10116
+    },
+    {
+      "cross_references": [],
+      "organism": "Mus musculus",
+      "pref_name": "Acyl-protein thioesterase 1",
+      "score": 13.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL3259479",
+      "target_components": [
+        {
+          "accession": "P97823",
+          "component_description": "Acyl-protein thioesterase 1",
+          "component_id": 8564,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "3.1.2.-",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "3.1.2.22",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Acyl-protein thioesterase 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Apt1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "APT-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LPL-I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Lypla1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Lysophospholipase 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Lysophospholipase I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LysoPLA I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Palmitoyl-protein hydrolase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Pla1a",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0042997",
+              "xref_name": "negative regulation of Golgi to plasma membrane protein transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0004620",
+              "xref_name": "phospholipase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004622",
+              "xref_name": "lysophospholipase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008474",
+              "xref_name": "palmitoyl-(protein) hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016298",
+              "xref_name": "lipase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016787",
+              "xref_name": "hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006631",
+              "xref_name": "fatty acid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0015908",
+              "xref_name": "fatty acid transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1905336",
+              "xref_name": "negative regulation of aggrephagy",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005654",
+              "xref_name": "nucleoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005739",
+              "xref_name": "mitochondrion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005783",
+              "xref_name": "endoplasmic reticulum",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031965",
+              "xref_name": "nuclear membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "Q3TJZ0",
+              "xref_name": "Acyl-protein thioesterase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q7TPX1",
+              "xref_name": "Acyl-protein thioesterase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8BWM6",
+              "xref_name": "Acyl-protein thioesterase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P97823",
+              "xref_name": "Acyl-protein thioesterase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P97823",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "R-MMU-203615",
+              "xref_name": "eNOS activation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-MMU-9648002",
+              "xref_name": "RAS processing",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P97823",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR029058",
+              "xref_name": "AB_hydrolase_fold",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR050565",
+              "xref_name": "LYPA1-2/EST-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR003140",
+              "xref_name": "PLipase/COase/thioEstase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10655:SF22",
+              "xref_name": "ACYL-PROTEIN THIOESTERASE 1",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10655",
+              "xref_name": "LYSOPHOSPHOLIPASE-RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF02230",
+              "xref_name": "Abhydrolase_2",
+              "xref_src_db": "Pfam"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 10090
+    },
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Acyl-protein thioesterase 1/2",
+      "score": 12.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL4680048",
+      "target_components": [
+        {
+          "accession": "O75608",
+          "component_description": "Acyl-protein thioesterase 1",
+          "component_id": 5202,
+          "component_type": "PROTEIN",
+          "relationship": "GROUP MEMBER",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "3.1.2.-",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "3.1.2.22",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Acyl-protein thioesterase 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "APT-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "APT1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "hAPT1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LPL1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "LPL-I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LYPLA1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Lysophospholipase 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Lysophospholipase I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LysoPLA I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Palmitoyl-protein hydrolase",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "1FJ2",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6QGO",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SYM",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6QGN",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6QGQ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6QGS",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0004620",
+              "xref_name": "phospholipase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004622",
+              "xref_name": "lysophospholipase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008474",
+              "xref_name": "palmitoyl-(protein) hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016298",
+              "xref_name": "lipase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016787",
+              "xref_name": "hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0052689",
+              "xref_name": "carboxylic ester hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006631",
+              "xref_name": "fatty acid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0015908",
+              "xref_name": "fatty acid transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042997",
+              "xref_name": "negative regulation of Golgi to plasma membrane protein transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1905336",
+              "xref_name": "negative regulation of aggrephagy",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005739",
+              "xref_name": "mitochondrion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005654",
+              "xref_name": "nucleoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005783",
+              "xref_name": "endoplasmic reticulum",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031965",
+              "xref_name": "nuclear membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "PA30499",
+              "xref_name": "lysophospholipase 1",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "O43202",
+              "xref_name": "Acyl-protein thioesterase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UQF9",
+              "xref_name": "Acyl-protein thioesterase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O75608",
+              "xref_name": "Acyl-protein thioesterase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "1FJ2",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SYM",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6QGN",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6QGO",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6QGQ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6QGS",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "O75608",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "O75608",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:6737",
+              "xref_name": "LYPLA1",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-203615",
+              "xref_name": "eNOS activation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9648002",
+              "xref_name": "RAS processing",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "O75608",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "O75608",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR029058",
+              "xref_name": "AB_hydrolase_fold",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR050565",
+              "xref_name": "LYPA1-2/EST-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR003140",
+              "xref_name": "PLipase/COase/thioEstase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10655:SF22",
+              "xref_name": "ACYL-PROTEIN THIOESTERASE 1",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10655",
+              "xref_name": "LYSOPHOSPHOLIPASE-RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF02230",
+              "xref_name": "Abhydrolase_2",
+              "xref_src_db": "Pfam"
+            }
+          ]
+        },
+        {
+          "accession": "O95372",
+          "component_description": "Acyl-protein thioesterase 2",
+          "component_id": 5718,
+          "component_type": "PROTEIN",
+          "relationship": "GROUP MEMBER",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "3.1.2.-",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "3.1.2.22",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Acyl-protein thioesterase 2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "APT-2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "APT2",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "LPL-II",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LYPLA2",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Lysophospholipase II",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LysoPLA II",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Palmitoyl-protein hydrolase",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "5SYN",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6BJE",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0004622",
+              "xref_name": "lysophospholipase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008474",
+              "xref_name": "palmitoyl-(protein) hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016787",
+              "xref_name": "hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0045296",
+              "xref_name": "cadherin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0052689",
+              "xref_name": "carboxylic ester hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006631",
+              "xref_name": "fatty acid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046464",
+              "xref_name": "acylglycerol catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1905344",
+              "xref_name": "prostaglandin catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005654",
+              "xref_name": "nucleoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005795",
+              "xref_name": "Golgi stack",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "PA30500",
+              "xref_name": "lysophospholipase 2",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "Q7Z4Z2",
+              "xref_name": "Acyl-protein thioesterase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O95372",
+              "xref_name": "Acyl-protein thioesterase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "5SYN",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6BJE",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "O95372",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "O95372",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:6738",
+              "xref_name": "LYPLA2",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-373760",
+              "xref_name": "L1CAM interactions",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "O95372",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "O95372",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR029058",
+              "xref_name": "AB_hydrolase_fold",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR050565",
+              "xref_name": "LYPA1-2/EST-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR003140",
+              "xref_name": "PLipase/COase/thioEstase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10655:SF13",
+              "xref_name": "ACYL-PROTEIN THIOESTERASE 2",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10655",
+              "xref_name": "LYSOPHOSPHOLIPASE-RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF02230",
+              "xref_name": "Abhydrolase_2",
+              "xref_src_db": "Pfam"
+            }
+          ]
+        }
+      ],
+      "target_type": "PROTEIN FAMILY",
+      "tax_id": 9606
+    },
+    {
+      "cross_references": [],
+      "organism": "Rattus norvegicus",
+      "pref_name": "Acyl-protein thioesterase 1/2",
+      "score": 10.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL3885510",
+      "target_components": [
+        {
+          "accession": "P70470",
+          "component_description": "Acyl-protein thioesterase 1",
+          "component_id": 621,
+          "component_type": "PROTEIN",
+          "relationship": "GROUP MEMBER",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "3.1.2.-",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "3.1.2.22",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Acyl-protein thioesterase 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Apt1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "APT-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LPL-I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Lypla1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Lysophospholipase 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Lysophospholipase I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LysoPLA I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Palmitoyl-protein hydrolase",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0004620",
+              "xref_name": "phospholipase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042997",
+              "xref_name": "negative regulation of Golgi to plasma membrane protein transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0004622",
+              "xref_name": "lysophospholipase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008474",
+              "xref_name": "palmitoyl-(protein) hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016298",
+              "xref_name": "lipase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016787",
+              "xref_name": "hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0052689",
+              "xref_name": "carboxylic ester hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006631",
+              "xref_name": "fatty acid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0015908",
+              "xref_name": "fatty acid transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1905336",
+              "xref_name": "negative regulation of aggrephagy",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005783",
+              "xref_name": "endoplasmic reticulum",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031965",
+              "xref_name": "nuclear membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "P70470",
+              "xref_name": "Acyl-protein thioesterase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P70470",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P70470",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "R-RNO-203615",
+              "xref_name": "eNOS activation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-RNO-9648002",
+              "xref_name": "RAS processing",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "IPR029058",
+              "xref_name": "AB_hydrolase_fold",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR050565",
+              "xref_name": "LYPA1-2/EST-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR003140",
+              "xref_name": "PLipase/COase/thioEstase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10655:SF22",
+              "xref_name": "ACYL-PROTEIN THIOESTERASE 1",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10655",
+              "xref_name": "LYSOPHOSPHOLIPASE-RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF02230",
+              "xref_name": "Abhydrolase_2",
+              "xref_src_db": "Pfam"
+            }
+          ]
+        },
+        {
+          "accession": "Q9QYL8",
+          "component_description": "Acyl-protein thioesterase 2",
+          "component_id": 16960,
+          "component_type": "PROTEIN",
+          "relationship": "GROUP MEMBER",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "3.1.2.-",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "3.1.2.22",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Acyl-protein thioesterase 2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "APT-2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LPL-II",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Lypla2",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Lysophospholipase 2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Lysophospholipase II",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LysoPLA II",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Palmitoyl-protein hydrolase",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0004622",
+              "xref_name": "lysophospholipase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008474",
+              "xref_name": "palmitoyl-(protein) hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016787",
+              "xref_name": "hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0052689",
+              "xref_name": "carboxylic ester hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006631",
+              "xref_name": "fatty acid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046464",
+              "xref_name": "acylglycerol catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1905344",
+              "xref_name": "prostaglandin catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005795",
+              "xref_name": "Golgi stack",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "Q9QYL8",
+              "xref_name": "Acyl-protein thioesterase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9QYL8",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "R-RNO-373760",
+              "xref_name": "L1CAM interactions",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "IPR029058",
+              "xref_name": "AB_hydrolase_fold",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR050565",
+              "xref_name": "LYPA1-2/EST-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR003140",
+              "xref_name": "PLipase/COase/thioEstase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10655:SF13",
+              "xref_name": "ACYL-PROTEIN THIOESTERASE 2",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10655",
+              "xref_name": "LYSOPHOSPHOLIPASE-RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF02230",
+              "xref_name": "Abhydrolase_2",
+              "xref_src_db": "Pfam"
+            }
+          ]
+        }
+      ],
+      "target_type": "PROTEIN FAMILY",
+      "tax_id": 10116
+    },
+    {
+      "cross_references": [],
+      "organism": "Mus musculus",
+      "pref_name": "Acyl-protein thioesterase 1/2",
+      "score": 9.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL4680057",
+      "target_components": [
+        {
+          "accession": "P97823",
+          "component_description": "Acyl-protein thioesterase 1",
+          "component_id": 8564,
+          "component_type": "PROTEIN",
+          "relationship": "GROUP MEMBER",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "3.1.2.-",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "3.1.2.22",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Acyl-protein thioesterase 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Apt1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "APT-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LPL-I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Lypla1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Lysophospholipase 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Lysophospholipase I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LysoPLA I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Palmitoyl-protein hydrolase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Pla1a",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0042997",
+              "xref_name": "negative regulation of Golgi to plasma membrane protein transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0004620",
+              "xref_name": "phospholipase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004622",
+              "xref_name": "lysophospholipase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008474",
+              "xref_name": "palmitoyl-(protein) hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016298",
+              "xref_name": "lipase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016787",
+              "xref_name": "hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006631",
+              "xref_name": "fatty acid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0015908",
+              "xref_name": "fatty acid transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1905336",
+              "xref_name": "negative regulation of aggrephagy",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005654",
+              "xref_name": "nucleoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005739",
+              "xref_name": "mitochondrion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005783",
+              "xref_name": "endoplasmic reticulum",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031965",
+              "xref_name": "nuclear membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "Q3TJZ0",
+              "xref_name": "Acyl-protein thioesterase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q7TPX1",
+              "xref_name": "Acyl-protein thioesterase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8BWM6",
+              "xref_name": "Acyl-protein thioesterase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P97823",
+              "xref_name": "Acyl-protein thioesterase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P97823",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "R-MMU-203615",
+              "xref_name": "eNOS activation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-MMU-9648002",
+              "xref_name": "RAS processing",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P97823",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR029058",
+              "xref_name": "AB_hydrolase_fold",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR050565",
+              "xref_name": "LYPA1-2/EST-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR003140",
+              "xref_name": "PLipase/COase/thioEstase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10655:SF22",
+              "xref_name": "ACYL-PROTEIN THIOESTERASE 1",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10655",
+              "xref_name": "LYSOPHOSPHOLIPASE-RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF02230",
+              "xref_name": "Abhydrolase_2",
+              "xref_src_db": "Pfam"
+            }
+          ]
+        },
+        {
+          "accession": "Q9WTL7",
+          "component_description": "Acyl-protein thioesterase 2",
+          "component_id": 8565,
+          "component_type": "PROTEIN",
+          "relationship": "GROUP MEMBER",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "3.1.2.-",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "3.1.2.22",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Acyl-protein thioesterase 2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "APT-2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LPL-II",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Lypla2",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Lysophospholipase 2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Lysophospholipase II",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LysoPLA II",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "mLyso II",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Palmitoyl-protein hydrolase",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0004622",
+              "xref_name": "lysophospholipase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008474",
+              "xref_name": "palmitoyl-(protein) hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016787",
+              "xref_name": "hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006631",
+              "xref_name": "fatty acid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046464",
+              "xref_name": "acylglycerol catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1905344",
+              "xref_name": "prostaglandin catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005654",
+              "xref_name": "nucleoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005795",
+              "xref_name": "Golgi stack",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "Q3TJD6",
+              "xref_name": "Acyl-protein thioesterase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9WTL7",
+              "xref_name": "Acyl-protein thioesterase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9WTL7",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "R-MMU-373760",
+              "xref_name": "L1CAM interactions",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "IPR029058",
+              "xref_name": "AB_hydrolase_fold",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR050565",
+              "xref_name": "LYPA1-2/EST-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR003140",
+              "xref_name": "PLipase/COase/thioEstase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10655:SF13",
+              "xref_name": "ACYL-PROTEIN THIOESTERASE 2",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10655",
+              "xref_name": "LYSOPHOSPHOLIPASE-RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF02230",
+              "xref_name": "Abhydrolase_2",
+              "xref_src_db": "Pfam"
+            }
+          ]
+        }
+      ],
+      "target_type": "PROTEIN FAMILY",
+      "tax_id": 10090
+    }
+  ]
+}

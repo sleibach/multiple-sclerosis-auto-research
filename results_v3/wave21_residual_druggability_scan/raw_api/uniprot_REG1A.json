@@ -1,0 +1,118 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3AREG1A%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "value": "Might act as an inhibitor of spontaneous calcium carbonate precipitation. May be associated with neuronal sprouting in brain, and with brain and pancreas regeneration"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000012E72D"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "REG1A"
+          },
+          "synonyms": [
+            {
+              "value": "PSPS"
+            },
+            {
+              "value": "PSPS1"
+            },
+            {
+              "value": "REG"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P05451",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Islet cells regeneration factor"
+            },
+            "shortNames": [
+              {
+                "value": "ICRF"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Islet of Langerhans regenerating protein"
+            },
+            "shortNames": [
+              {
+                "value": "REG"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Pancreatic stone protein"
+            },
+            "shortNames": [
+              {
+                "value": "PSP"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Pancreatic thread protein"
+            },
+            "shortNames": [
+              {
+                "value": "PTP"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Regenerating islet-derived protein 1-alpha"
+            },
+            "shortNames": [
+              {
+                "value": "REG-1-alpha"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Regenerating protein I alpha"
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "Lithostathine-1-alpha"
+          }
+        }
+      }
+    }
+  ]
+}

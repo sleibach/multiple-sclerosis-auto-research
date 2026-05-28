@@ -1,0 +1,377 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "Q9JLC3",
+                  "source": "UniProtKB"
+                }
+              ],
+              "value": "Methionine-sulfoxide reductase that specifically reduces methionine (R)-sulfoxide back to methionine. While in many cases, methionine oxidation is the result of random oxidation following oxidative stress, methionine oxidation is also a post-translational modification that takes place on specific residue. Acts as a regulator of actin assembly by reducing methionine (R)-sulfoxide mediated by MICALs (MICAL1, MICAL2 or MICAL3) on actin, thereby promoting filament repolymerization. Plays a role in innate immunity by reducing oxidized actin, leading to actin repolymerization in macrophages"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "Q9JLC3",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "Q9JLC3",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0191",
+                "value": "Nucleus"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "Q9JLC3",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0090",
+                "value": "Cytoplasm, cytoskeleton"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000161C13"
+      },
+      "features": [
+        {
+          "description": "Nucleophile",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU01126",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 95
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 95
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU01126",
+              "source": "PROSITE-ProRule"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "Ref.8",
+              "source": "Reference"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 23
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 23
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU01126",
+              "source": "PROSITE-ProRule"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "Ref.8",
+              "source": "Reference"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 26
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 26
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU01126",
+              "source": "PROSITE-ProRule"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "Ref.8",
+              "source": "Reference"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 71
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 71
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU01126",
+              "source": "PROSITE-ProRule"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "Ref.8",
+              "source": "Reference"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 74
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 74
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "MSRB1"
+          },
+          "orfNames": [
+            {
+              "value": "HSPC270"
+            }
+          ],
+          "synonyms": [
+            {
+              "value": "SEPX1"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0963",
+          "name": "Cytoplasm"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0206",
+          "name": "Cytoskeleton"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0391",
+          "name": "Immunity"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0399",
+          "name": "Innate immunity"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0479",
+          "name": "Metal-binding"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0539",
+          "name": "Nucleus"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0560",
+          "name": "Oxidoreductase"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0712",
+          "name": "Selenocysteine"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0832",
+          "name": "Ubl conjugation"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0862",
+          "name": "Zinc"
+        }
+      ],
+      "primaryAccession": "Q9NZV6",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Selenoprotein X"
+            },
+            "shortNames": [
+              {
+                "value": "SelX"
+              }
+            ]
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "Q9JLC3",
+                  "source": "UniProtKB"
+                }
+              ],
+              "value": "1.8.4.12"
+            },
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "Q9JLC3",
+                  "source": "UniProtKB"
+                }
+              ],
+              "value": "1.8.4.14"
+            }
+          ],
+          "fullName": {
+            "value": "Methionine-R-sulfoxide reductase B1"
+          },
+          "shortNames": [
+            {
+              "value": "MsrB1"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "812B033BE02B7C0E",
+        "length": 116,
+        "md5": "27B07CEF3EF22AA26DE91A19F919FB34",
+        "molWeight": 12760,
+        "value": "MSFCSFFGGEVFQNHFEPGVYVCAKCGYELFSSRSKYAHSSPWPAFTETIHADSVAKRPEHNRSEALKVSCGKCGNGLGHEFLNDGPKPGQSRFUIFSSSLKFVPKGKETSASQGH"
+      },
+      "uniProtkbId": "MSRB1_HUMAN"
+    }
+  ]
+}

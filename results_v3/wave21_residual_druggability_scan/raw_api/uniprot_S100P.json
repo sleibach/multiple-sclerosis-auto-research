@@ -1,0 +1,361 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3AS100P%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "14617629",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "19111582",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22399290",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "May function as calcium sensor and contribute to cellular calcium signaling. In a calcium-dependent manner, functions by interacting with other proteins, such as EZR and PPP5C, and indirectly plays a role in physiological processes like the formation of microvilli in epithelial cells. May stimulate cell proliferation in an autocrine manner via activation of the receptor for activated glycation end products (RAGE)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "value": "Colocalizes with S100PBP in the nucleus. Colocalizes with EZR in the microvilli in a calcium-dependent manner"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0191",
+                "value": "Nucleus"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0294",
+                "value": "Cell projection, microvillus membrane"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000000D7F2"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "1",
+            "name": "Ca(2+)",
+            "note": "low affinity"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 25
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 25
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "1",
+            "name": "Ca(2+)",
+            "note": "low affinity"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 27
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 27
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "1",
+            "name": "Ca(2+)",
+            "note": "low affinity"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 32
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 32
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)",
+            "note": "high affinity"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 62
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 62
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)",
+            "note": "high affinity"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 64
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 64
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)",
+            "note": "high affinity"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 66
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 66
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)",
+            "note": "high affinity"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 68
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 68
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)",
+            "note": "high affinity"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 73
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 73
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "S100P"
+          },
+          "synonyms": [
+            {
+              "value": "S100E"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P25815",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Migration-inducing gene 9 protein"
+            },
+            "shortNames": [
+              {
+                "value": "MIG9"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Protein S100-E"
+            }
+          },
+          {
+            "fullName": {
+              "value": "S100 calcium-binding protein P"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Protein S100-P"
+          }
+        }
+      }
+    }
+  ]
+}

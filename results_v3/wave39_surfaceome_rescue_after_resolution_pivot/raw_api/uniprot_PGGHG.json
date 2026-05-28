@@ -1,0 +1,205 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "26682924",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Catalyzes the hydrolysis of glucose from the disaccharide unit linked to hydroxylysine residues of collagen and collagen-like proteins"
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000EE80CE"
+      },
+      "features": [
+        {
+          "description": "Proton donor",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "26682924",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 430
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 430
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "26682924",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 301
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 300
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "D6XZ22",
+              "source": "UniProtKB"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 499
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 498
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "id": "26682924",
+                "source": "PubMed"
+              },
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:26210",
+                "source": "HGNC"
+              }
+            ],
+            "value": "PGGHG"
+          },
+          "synonyms": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000312",
+                  "id": "HGNC:26210",
+                  "source": "HGNC"
+                }
+              ],
+              "value": "ATHL1"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0326",
+          "name": "Glycosidase"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0378",
+          "name": "Hydrolase"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        }
+      ],
+      "primaryAccession": "Q32M88",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000312",
+                  "id": "HGNC:26210",
+                  "source": "HGNC"
+                }
+              ],
+              "value": "Acid trehalase-like protein 1"
+            }
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "26682924",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "3.2.1.107"
+            }
+          ],
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "id": "26682924",
+                "source": "PubMed"
+              }
+            ],
+            "value": "Protein-glucosylgalactosylhydroxylysine glucosidase"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "6EAEEE2FF90F3CD2",
+        "length": 737,
+        "md5": "C751E5209F8AF3E20AB0EA04E36004C5",
+        "molWeight": 80655,
+        "value": "MEDAGEDPTTFAAHSLPSDPRLLATVTNAYLGTRVFHDTLHVSGVYNGAGGDTHRAMLPSPLNVRLEAPAGMGEQLTETFALDTNTGSFLHTLEGPRFRASQCIYAHRTLPHVLAFRVSIARLAPGSGPITLLLRSAFSPESPDLDLHQGPDFQGARYLYGHTLTPEQPGGPQQEVHMLWTPAPPDLTLGEGEEARTWDFLTAVGGSQAEAQACLTEALQLQARGALYTAHAQAWAQLWVECGLDVVGPLQLRQALRGSLYYLLSALPQPKAPGYICHGLSPGGLSNGSREECYWGHVFWDQDLWMFPSILMFHPEAARAILEYRIRTLDGALENAQNLGYQGAKFAWESADSGLEVCPEDIYGVQEVHVNGAVVLAFELYYHTTQDLQLFREAGGWDVVRAVAEFWCSRVEWSPREEKYHLRGVMSPDEYHSGVNNSVYTNVLVQNSLRFAAALAQDLGLPIPSQWLAVADKIKVPFDVEQNFHPEFDGYEPGEVVKQADVVLLGYPVPFSLSPDVRRKNLEIYEAVTSPQGPAMTWSMFAVGWMELKDAVRARGLLDRSFANMAEPFKVWTENADGSGAVNFLTGMGGFLQAVVFGCTGFRVTRAGVTFDPVCLSGISRVSVSGIFYQGNKLNFSFSEDSVTVEVTARAGPWAPHLEAELWPSQSRLSLLPGHKVSFPRSAGRIQMSPPKLPGSSSSEFPGRTFSDVRDPLQSPLWVTLGSSSPTESLTVDPASE"
+      },
+      "uniProtkbId": "PGGHG_HUMAN"
+    }
+  ]
+}

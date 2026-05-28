@@ -1,0 +1,46 @@
+{
+  "branch_call": "NO_INTERVENTION_FIRST_SUCCESSOR_SURVIVES_ALL_GATES",
+  "call_counts": {
+    "NO_GO_EXPRESSION_OR_CLASS_ONLY": 19563,
+    "NO_GO_NO_CROSS_DISEASE_ANCHOR": 17,
+    "NO_GO_NO_DIRECTIONAL_SUPPORT": 17,
+    "NO_GO_NO_MS_ANCHOR": 380,
+    "NO_GO_PRIOR_OR_SAFETY_BLOCKED": 84,
+    "NO_GO_WRONG_DIRECTION_OR_UNDRUGGABLE": 2
+  },
+  "inputs": {
+    "wave102": "results_v3/wave102_accessible_survivor_residual_compartment_test/accessible_survivor_residual_summary.tsv",
+    "wave37": "results_v3/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv",
+    "wave57": "results_v3/wave57_intervention_first_geneformer_screen/wave57_intervention_first_candidate_calls.tsv",
+    "wave62": "results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv",
+    "wave81": "results_v3/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv",
+    "wave83": "results_v3/wave83_intervention_class_first_scan/reachable_intervention_rank.tsv",
+    "wave91": "results_v3/wave91_lipid_lysosomal_module_intervention_rank/lipid_lysosomal_intervention_rank.tsv",
+    "wave94": "results_v3/wave94_accessible_state_rerank/accessible_state_candidate_rank.tsv"
+  },
+  "n_candidates": 20063,
+  "random_seed": 20260527,
+  "reopened_candidates": [],
+  "top_parked_or_no_go": [
+    "CD9",
+    "DAB2",
+    "PARK7",
+    "BLK",
+    "LRRC61",
+    "CLEC7A",
+    "FAM49B",
+    "ITPR3",
+    "NKD1",
+    "TNFSF15",
+    "IFIH1",
+    "SMAD3",
+    "FUT2",
+    "IRF4",
+    "CARMIL1",
+    "PRDM1",
+    "ADGRL2",
+    "ANKRD30A",
+    "FLT3",
+    "JAZF1"
+  ]
+}

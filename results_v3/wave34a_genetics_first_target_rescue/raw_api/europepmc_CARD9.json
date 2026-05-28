@@ -1,0 +1,131 @@
+{
+  "error": "",
+  "payload": {
+    "hitCount": 1918,
+    "nextCursorMark": "AoIIQOrjLCg1MzU0MTQxNA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(CARD9) AND (\"autoimmune\" OR \"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR psoriasis)&cursorMark=AoIIQOrjLCg1MzU0MTQxNA==&resultType=lite&pageSize=3&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 3,
+      "queryString": "(CARD9) AND (\"autoimmune\" OR \"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR psoriasis)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Vik\u00e1r S, M\u00f3csai A.",
+          "citedByCount": 0,
+          "doi": "10.3389/fimmu.2026.1767876",
+          "firstIndexDate": "2026-03-31",
+          "firstPublicationDate": "2026-03-13",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13021830"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "N",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41909698",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalIssn": "1664-3224",
+          "journalTitle": "Front Immunol",
+          "journalVolume": "17",
+          "pageInfo": "1767876",
+          "pmcid": "PMC13021830",
+          "pmid": "41909698",
+          "pubType": "review-article; review; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Tyrosine kinase signaling pathways as therapeutic targets in autoimmune subepidermal blistering skin diseases (pemphigoid diseases)."
+        },
+        {
+          "authorString": "Nunez SG, Rabelo SP, Subotic N, Caruso JW, Knezevic NN.",
+          "citedByCount": 5,
+          "doi": "10.3390/ijms26209994",
+          "firstIndexDate": "2025-10-29",
+          "firstPublicationDate": "2025-10-14",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12563903"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41155288",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "20",
+          "journalIssn": "1422-0067",
+          "journalTitle": "Int J Mol Sci",
+          "journalVolume": "26",
+          "pageInfo": "9994",
+          "pmcid": "PMC12563903",
+          "pmid": "41155288",
+          "pubType": "review-article; review; journal article",
+          "pubYear": "2025",
+          "source": "MED",
+          "title": "Chronic Stress and Autoimmunity: The Role of HPA Axis and Cortisol Dysregulation."
+        },
+        {
+          "authorString": "Xu WD, Chen YY, Li YW, Yang J, Huang AF.",
+          "citedByCount": 3,
+          "doi": "10.3389/fimmu.2025.1615611",
+          "firstIndexDate": "2025-08-07",
+          "firstPublicationDate": "2025-07-23",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12325201"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "40771819",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalIssn": "1664-3224",
+          "journalTitle": "Front Immunol",
+          "journalVolume": "16",
+          "pageInfo": "1615611",
+          "pmcid": "PMC12325201",
+          "pmid": "40771819",
+          "pubType": "review-article; review; journal article",
+          "pubYear": "2025",
+          "source": "MED",
+          "title": "Targeting Th9 cells in autoimmune diseases: a narrative review.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "refsnp"
+            ]
+          }
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "status": "ok",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28CARD9%29+AND+%28%22autoimmune%22+OR+%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+psoriasis%29&format=json&pageSize=3&resultType=lite"
+}

@@ -1,0 +1,209 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3AIDO1%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "14502282",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17671174",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "18026683",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "23103127",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "25157255",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "25691885",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Catalyzes the first and rate limiting step of the catabolism of the essential amino acid tryptophan along the kynurenine pathway (PubMed:17671174, PubMed:18026683). Involved in the peripheral immune tolerance, contributing to maintain homeostasis by preventing autoimmunity or immunopathology that would result from uncontrolled and overreacting immune responses (PubMed:25691885). Tryptophan shortage inhibits T lymphocytes division and accumulation of tryptophan catabolites induces T-cell apoptosis and differentiation of regulatory T-cells (PubMed:25691885). Acts as a suppressor of anti-tumor immunity (PubMed:14502282, PubMed:23103127, PubMed:25157255, PubMed:25691885). Limits the growth of intracellular pathogens by depriving tryptophan (PubMed:25691885). Protects the fetus from maternal immune rejection (PubMed:25691885)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P28776",
+                    "source": "UniProtKB"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "25691885",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0091",
+                "value": "Cytoplasm, cytosol"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00000012AA"
+      },
+      "features": [
+        {
+          "description": "proximal binding residue",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "16477023",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "25313323",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "2D0T",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "2D0U",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4PK5",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4PK6",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:60344"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:18248"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:60344",
+            "name": "heme b"
+          },
+          "ligandPart": {
+            "id": "ChEBI:CHEBI:18248",
+            "name": "Fe"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 346
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 346
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:6059",
+                "source": "HGNC"
+              }
+            ],
+            "value": "IDO1"
+          },
+          "synonyms": [
+            {
+              "value": "IDO"
+            },
+            {
+              "value": "INDO"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P14902",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Indoleamine-pyrrole 2,3-dioxygenase"
+            }
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17671174",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "18026683",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "1.13.11.52"
+            }
+          ],
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "id": "2109605",
+                "source": "PubMed"
+              }
+            ],
+            "value": "Indoleamine 2,3-dioxygenase 1"
+          },
+          "shortNames": [
+            {
+              "value": "IDO-1"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

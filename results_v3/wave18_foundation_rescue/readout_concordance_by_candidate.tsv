@@ -1,0 +1,110 @@
+gene	stronger_than_ctsh_geneformer	readout_sources	readout_min_log2fc	readout_best_source	readout_best_condition	readout_negative_records	readout_total_records	real_perturbation_alignment_call
+STAT1	True	GSE162464_mouse_macrophage_RNAseq;GSE294918_human_ruxolitinib;Mixscale_GSE281048	-3.352641139926016	GSE294918_human_ruxolitinib	D4_IFNy_rux_LPS0H_vs_D4_IFNy_LPS0H	22.0	33.0	model_and_broad_ifn_jak_real_align_not_selective
+TMSB10	True							model_and_gse162463_screen_align_relative_to_ctsh
+SEC61A1	True							model_and_gse162463_screen_align_relative_to_ctsh
+CD74	True	GSE162464_mouse_macrophage_RNAseq;GSE294918_human_ruxolitinib;Mixscale_GSE281048	-2.459210478390288	GSE162464_mouse_macrophage_RNAseq	Med16_IFNg_vs_NTC_IFNg	14.0	18.0	model_and_gse162463_screen_align_relative_to_ctsh
+CD300E	True							model_and_gse162463_screen_align_relative_to_ctsh
+PTPN2	True							model_and_gse162463_screen_align_relative_to_ctsh
+LAMP3	True	Mixscale_GSE281048	-1.6461870073323888	Mixscale_GSE281048	IFNB:TYK2	5.0	7.0	model_with_readout_concordance_only
+CTSD	True	Mixscale_GSE281048	-0.0768519318142154	Mixscale_GSE281048	IFNB:IFNAR1	6.0	24.0	model_with_readout_concordance_only
+IFI30	True	GSE162464_mouse_macrophage_RNAseq;GSE294918_human_ruxolitinib;Mixscale_GSE281048	-1.34385893389944	Mixscale_GSE281048	IFNG:JAK2	14.0	18.0	model_with_readout_concordance_only
+CTSS	True	GSE162464_mouse_macrophage_RNAseq;GSE294918_human_ruxolitinib;Mixscale_GSE281048	-1.47354277692381	Mixscale_GSE281048	IFNG:IFNGR2	25.0	33.0	model_with_readout_concordance_only
+HLA-DMB	True	GSE294918_human_ruxolitinib	-1.0553853955948025	GSE294918_human_ruxolitinib	D4_IFNy_rux_LPS3H_vs_D4_IFNy_LPS3H	4.0	4.0	model_with_readout_concordance_only
+HLA-DRB1	True	GSE294918_human_ruxolitinib	-0.940740337609693	GSE294918_human_ruxolitinib	D4_IFNy_rux_LPS0H_vs_D4_IFNy_LPS0H	4.0	4.0	model_with_readout_concordance_only
+SEC61B	True							model_only_no_real_perturbation_alignment
+MTHFD2	True							model_only_no_real_perturbation_alignment
+RPL17	True							model_only_no_real_perturbation_alignment
+SNX10	True							model_only_no_real_perturbation_alignment
+ACSL3	True							model_only_no_real_perturbation_alignment
+CFB	True							model_only_no_real_perturbation_alignment
+FMNL2	True							model_only_no_real_perturbation_alignment
+BIRC3	True							model_only_no_real_perturbation_alignment
+TNFAIP3	True							model_only_no_real_perturbation_alignment
+SEL1L3	True							model_only_no_real_perturbation_alignment
+TGM2	True							model_only_no_real_perturbation_alignment
+TPM4	True							model_only_no_real_perturbation_alignment
+CD300LF	True							model_only_no_real_perturbation_alignment
+SDC4	True							model_only_no_real_perturbation_alignment
+SH2B3	True							model_only_no_real_perturbation_alignment
+MMADHC	True							model_only_no_real_perturbation_alignment
+LIMS1	True							model_only_no_real_perturbation_alignment
+CXCL8	True							model_only_no_real_perturbation_alignment
+SERPINA1	True							model_only_no_real_perturbation_alignment
+CHI3L1	True							model_only_no_real_perturbation_alignment
+TASL	True							model_only_no_real_perturbation_alignment
+PPIB	True							model_only_no_real_perturbation_alignment
+HIF1A	True							model_contradicted_by_gse162463_screen
+IFITM3	True							model_contradicted_by_gse162463_screen
+IFITM2	True							model_contradicted_by_gse162463_screen
+LIPA	True							model_contradicted_by_gse162463_screen
+CTSB	True	Mixscale_GSE281048	-0.1105634103457387	Mixscale_GSE281048	IFNG:IFNGR1	8.0	22.0	model_contradicted_by_gse162463_screen
+DAP	True							model_contradicted_by_gse162463_screen
+LGALS3	True							model_contradicted_by_gse162463_screen
+CTSL	True	Mixscale_GSE281048	-0.4626524158243787	Mixscale_GSE281048	IFNG:JAK1	14.0	24.0	model_contradicted_by_gse162463_screen
+CBX3	True							model_contradicted_by_gse162463_screen
+ATOX1	True							model_contradicted_by_gse162463_screen
+TRIQK	True							model_contradicted_by_gse162463_screen
+SQLE	True							model_contradicted_by_gse162463_screen
+GSK3B	False							real_perturbation_support_but_geneformer_not_rescued
+RFX5	False	GSE162464_mouse_macrophage_RNAseq;GSE294918_human_ruxolitinib;Mixscale_GSE281048	-1.4850165969019382	Mixscale_GSE281048	IFNG:RFX5	16.0	28.0	real_perturbation_support_but_geneformer_not_rescued
+IRF5	False							no_rescue
+RAB5A	False							no_rescue
+PSME1	False							no_rescue
+UGCG	False							no_rescue
+CNN3	False							no_rescue
+FKBP1A	False							no_rescue
+CIITA	False	GSE162464_mouse_macrophage_RNAseq;GSE294918_human_ruxolitinib;Mixscale_GSE281048	-3.3427175736895443	GSE162464_mouse_macrophage_RNAseq	Med16_IFNg_vs_NTC_IFNg	14.0	18.0	no_rescue
+DCLRE1B	False							no_rescue
+ACSL1	False							no_rescue
+CXCL9	False							no_rescue
+LTA4H	False							no_rescue
+SLC15A4	False							no_rescue
+TNFAIP8L1	False							no_rescue
+KRTCAP3	False							no_rescue
+IL2RG	False							no_rescue
+NCK1	False							no_rescue
+GPNMB	False							no_rescue
+TLR7	False							no_rescue
+IL7R	False							no_rescue
+PPP3CA	False							no_rescue
+PTPRE	False							no_rescue
+CALR	False							no_rescue
+CLEC16A	False							no_rescue
+AQR	False							no_rescue
+SCARB2	False							no_rescue
+MSR1	False							no_rescue
+LDLRAD3	False							no_rescue
+CD44	False	Mixscale_GSE281048	-0.1905863142489815	Mixscale_GSE281048	TNFA:IKBKB	6.0	23.0	no_rescue
+UNC93B1	False							no_rescue
+GPR65	False							no_rescue
+TLR8	False							no_rescue
+VPS35	False							no_rescue
+TNFAIP8	False							no_rescue
+STARD10	False							no_rescue
+PPIL3	False							no_rescue
+CTSH	False							no_rescue
+LGALS8	False							no_rescue
+PDLIM7	False							no_rescue
+COL4A1	False							no_rescue
+FABP5	False							no_rescue
+PLIN2	False							no_rescue
+MYO1E	False							no_rescue
+LGALS9	False							no_rescue
+NME1	False							no_rescue
+ABHD2	False							no_rescue
+GBA2	False							no_rescue
+MPHOSPH6	False							no_rescue
+PDPN	False							no_rescue
+APOC1	False							no_rescue
+HAPLN3	False							no_rescue
+APOE	False							no_rescue
+PLEK2	False							no_rescue
+HLA-DRA	False	GSE294918_human_ruxolitinib	-0.9149287112337384	GSE294918_human_ruxolitinib	D4_IFNy_rux_LPS3H_vs_D4_IFNy_LPS3H	4.0	4.0	no_rescue
+C1QTNF1	False							no_rescue
+HLA-DMA	False	GSE294918_human_ruxolitinib	-1.0171384191875266	GSE294918_human_ruxolitinib	D4_IFNy_rux_LPS3H_vs_D4_IFNy_LPS3H	4.0	4.0	no_rescue
+HLA-B	False							no_rescue
+TIMP1	False							no_rescue
+CASP4	False							no_rescue
+MMP7	False							no_rescue
+LAPTM5	False							no_rescue
+REG1A	False							no_rescue

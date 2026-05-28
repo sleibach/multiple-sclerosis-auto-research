@@ -1,0 +1,358 @@
+{
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D056660",
+              "term": "Hereditary Autoinflammatory Diseases"
+            },
+            {
+              "id": "D030342",
+              "term": "Genetic Diseases, Inborn"
+            },
+            {
+              "id": "D009358",
+              "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D010505",
+              "term": "Familial Mediterranean Fever"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Spanish patients diagnosed with FMF during childhood from January 2005 to December 2021.",
+              "label": "FMF Cohort"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Familial Mediterranean Fever"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "East Hanover",
+              "country": "United States",
+              "facility": "Novartis",
+              "geoPoint": {
+                "lat": 40.8201,
+                "lon": -74.36487
+              },
+              "state": "New Jersey",
+              "zip": "07936"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Novartis Pharmaceuticals",
+              "name": "Novartis Pharmaceuticals",
+              "role": "STUDY_DIRECTOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "A retrospective, non-interventional, single-center study conducted in Spain, based on the collection of data from the medical histories of patients with Familial Mediterranean fever (FMF) diagnosed during childhood from January 2005 to December 2021.\n\nData from the patients' medical records was collected retrospectively, from the time of diagnosis to the current moment of the patient's enrollment in the study. Patients had a minimum follow-up of 3 months after diagnosis."
+        },
+        "designModule": {
+          "designInfo": {
+            "observationalModel": "COHORT",
+            "timePerspective": "RETROSPECTIVE"
+          },
+          "enrollmentInfo": {
+            "count": 44,
+            "type": "ACTUAL"
+          },
+          "patientRegistry": false,
+          "studyType": "OBSERVATIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion criteria:\n\n1. Patients with FMF clinically and/or genetically diagnosed during childhood according to the site's clinical practice.\n2. Patients with at least 3 months of follow-up from the date of diagnosis, at the time of their enrollment in the study.\n\nExclusion criteria:\n\n1. Patients with autoinflammatory disease excluding FMF.\n2. Patients with recurrent fever of another etiology (infectious, tumor or other).",
+          "healthyVolunteers": false,
+          "maximumAge": "28 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT"
+          ],
+          "studyPopulation": "This was a retrospective, non-interventional cohort study."
+        },
+        "identificationModule": {
+          "briefTitle": "A Study to Describe a Group of Spanish Patients With FMF and to Identify Suboptimally Treated Patients With Minimal Disease Activity and Its Impact on Quality of Life",
+          "nctId": "NCT06923124",
+          "officialTitle": "A Retrospective, Non-interventional, Single-center Study to Describe a Spanish Cohort of Patients With FMF and to Identify Suboptimally Treated Patients With Minimal Disease Activity and Its Impact on HRQoL (Health-Related Quality of Life)",
+          "orgStudyIdInfo": {
+            "id": "CACZ885NES01R"
+          },
+          "organization": {
+            "class": "INDUSTRY",
+            "fullName": "Novartis"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Clinical characteristic categories included:\n\n* Diagnostic criteria of FMF (symptom associated with FMF, without a proven infectious cause, with a recurrent pattern and/or accompanied by a genetic test suggestive of Mediterranean FeVer gene \\[MEFV\\])\n* Family history of FMF\n* MEFV genotypes\n* Phenotypes of interleukin-1 (IL-1) mediated autoinflammatory disease\n* Diagnosis prior to FMF",
+              "measure": "Number of Patients per Clinical Characteristic Category",
+              "timeFrame": "Baseline"
+            },
+            {
+              "measure": "Clinical Characteristic: Time From FMF Diagnosis to Study Inclusion",
+              "timeFrame": "Baseline"
+            },
+            {
+              "measure": "Clinical Characteristic: Time From the Start of Symptomatology to Study Inclusion",
+              "timeFrame": "Baseline"
+            },
+            {
+              "measure": "Clinical Characteristic: Time From the Start of Symptomatology to FMF Diagnosis",
+              "timeFrame": "Baseline"
+            },
+            {
+              "measure": "Clinical Characteristic: Age at the Start of Symptomatology",
+              "timeFrame": "Baseline"
+            },
+            {
+              "description": "Symptoms included:\n\n* Abdominal pain\n* Arthralgia\n* Myalgia\n* Articulatory inflammation\n* Chest pain\n* Rash\n* Fatigue\n* Symptoms compatible with Periodic Fever, Aphthous stomatitis, Pharyngitis and Adenitis (PFAPA)\n* Other",
+              "measure": "Number of Patients by Symptomatology",
+              "timeFrame": "Baseline, Month 3, 6, 9, 12, 18, 24, 36, 48, 60, 72, 84, 96, 108, 120, and 132"
+            },
+            {
+              "description": "Relapse characteristics included:\n\n* Fever: high (\\> 38C), low (\u2264 38C), no fever\n* Relapse frequency (\\<1 or \u22651 relapse per month for 3 months)\n* Presence of triggers\n* Presence of complications\n* Flare and non-flare related inflammatory markers: C-reactive protein (CRP), serum amyloid A protein (SAA), and erythrocyte sedimentation rate (ESR)\n* Disease remission",
+              "measure": "Number of Patients by Characteristics of Relapses (Flares)",
+              "timeFrame": "Baseline, Month 3, 6, 9, 12, 18, 24, 36, 48, 60, 72, 84, 96, 108, 120, and 132"
+            },
+            {
+              "description": "Inflammatory markers included CRP and SAA.",
+              "measure": "Flare and Non-flare Related Inflammatory Marker Levels",
+              "timeFrame": "Baseline, Month 3, 6, 9, 12, 18, 24, 36, 48, 60, 72, 84, 96, 108, 120, and 132"
+            },
+            {
+              "measure": "Flare and Non-flare Related Erythrocyte Sedimentation Rate (ESR)",
+              "timeFrame": "Baseline, Month 3, 6, 9, 12, 18, 24, 36, 48, 60, 72, 84, 96, 108, 120, and 132"
+            },
+            {
+              "measure": "Number of Flares per Month Since Last Visit",
+              "timeFrame": "Baseline, Month 3, 6, 9, 12, 18, 24, 36, 48, 60, 72, 84, 96, 108, 120, and 132"
+            },
+            {
+              "measure": "Flare Duration Since Last Visit",
+              "timeFrame": "Baseline, Month 3, 6, 9, 12, 18, 24, 36, 48, 60, 72, 84, 96, 108, 120, and 132"
+            },
+            {
+              "measure": "Number of Patients With Recurrency of Flares at Diagnosis",
+              "timeFrame": "Baseline"
+            },
+            {
+              "description": "Comorbidities included vasculitis, panniculitis, inflammatory bowel disease, psoriasis, celiac disease, autoimmune disease, other inflammatory diseases, juvenile idiopathic arthritis, multiple sclerosis, attention deficit hyperactivity disorder (ADHD), and other.",
+              "measure": "Number of Patients by Comorbidity",
+              "timeFrame": "Baseline, Month 3, 6, 9, 12, 18, 24, 36, 48, 60, 72, 84, 96, 108, 120, and 132"
+            },
+            {
+              "description": "Treatments included:\n\n* Non-steroidal anti-inflammatory drugs (NSAIDs)\n* Corticoids\n* Colchicine\n* Anti-IL-1\n* Other",
+              "measure": "Number of Patients by Treatment Received Before FMF Diagnosis",
+              "timeFrame": "Baseline"
+            },
+            {
+              "description": "Treatments included:\n\n* Colchicine\n* Canakinumab\n* Anakinra\n* Corticoids\n* Methotrexate (MTX)\n* Anti-IL-6\n* Anti-tumor necrosis factor (TNF)",
+              "measure": "Number of Patients by Treatment Received At Least Once During the Study",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "description": "Treatments and treatment combinations included:\n\n* Colchicine\n* Canakinumab\n* Anakinra\n* Corticoids\n* MTX\n* Anti-IL-6\n* Anti-TNF\n* Colchicine / Canakinumab\n* Colchicine / Corticoids\n* Anakinra\n* Canakinumab\n* Colchicine / Anti-TNF\n* Colchicine / MTX / Anti-IL- 6",
+              "measure": "Number of Patients by Treatment and Treatment Combinations Used at the end of the Study",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "measure": "Number of Patients Using Colchicine With Another Treatment at the end of the Study",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "measure": "Number of Patients by First Prescribed Colchicine Dose and Age Group",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "measure": "Number of Patients by Colchicine Maximum Global Dose and Age Group",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "measure": "Number of Patients With a Change in Colchicine Dose",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "measure": "Number of Patients by Reason for Stopping Colchicine Treatment and Age Group",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "description": "Anti-IL-1 treatment included canakinumab and anakinra.",
+              "measure": "Number of Patients by Anti-IL-1 Treatment Used at the end of the Study",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "measure": "Number of Patients by Anti-IL-1 Dose at the end of the Study",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "measure": "Number of Patients With a Change in Anti-IL-1 Dose",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "description": "Changes in treatment included:\n\n* Change of treatment to a treatment of the same family (anti-IL-1)\n* Change of treatment to a treatment of another family",
+              "measure": "Number of Patients With a Change in Anti-IL-1 Treatment",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "measure": "Number of Patients by Reason for Stopping Anti-IL-1 Treatment",
+              "timeFrame": "Up to 11 years"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Responses included:\n\n* Complete response: absence of clinical manifestations and normal CRP/SAA levels.\n* Partial response: \\<1 flare/month or persistent high CRP/SAA levels with maximum tolerated dose of colchicine or partial response with unknown frequency.\n* Resistant: \u22651 flare/month or persistent high CRP/SAA levels with maximum tolerated dose of colchicine.\n* Intolerant: intolerance to treatment as reason for stopping colchicine treatment or changing to another treatment.",
+              "measure": "Number of Patients by Last Reported Response to Colchicine Treatment",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "description": "Time to achieve first complete response, complete response, and complete response maintenance were measured.",
+              "measure": "Time to Achieve Response to Colchicine Treatment",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "measure": "Number of Patients With Intolerance to Colchicine Treatment",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "description": "The AIDAI is an assessment tool used to evaluate the level of disease activity. The AIDAI for FMF includes 7 variables: fever, abdominal pain, chest pain, arthralgia or myalgia, swelling of the joints, skin rash, and pain relief taken. Disease activity scores are calculated from the daily scores collected in a patient diary completed during flares. Fever is scored as 0 (absent) or present (1), with all other clinical variables scored from 0 (absent) to 3 (severe). Pain relief taken is not included in the disease activity score calculation. A higher total score indicates a higher level of disease activity.\n\nAIDAI was used to assess the association between disease activity and colchicine resistance/intolerance, response to canakinumab treatment, pain, fatigue, and quality of life (absenteeism at school during flares, limitation of physical activity, psychological care, and overall health status).",
+              "measure": "Autoinflammatory Disease Activity Index (AIDAI) Score",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "description": "The ADDI is an assessment tool used to evaluate the level of damage caused by autoinflammatory disease. It consists of 18 damage items grouped by organ system: reproductive, renal/amyloidosis, developmental, serosal, neurological, ears, ocular and musculoskeletal damage. Each damage item is defined and assigned a score of 1, 2, or 3, with each organ system having a maximum allowed score. A higher total score indicates a higher level of damage.\n\nADDI was used to assess the association between disease damage and colchicine resistance/intolerance, response to canakinumab treatment, pain, fatigue, and quality of life (absenteeism at school during flares, limitation of physical activity, psychological care, and overall health status).",
+              "measure": "Autoinflammatory Disease Damage Index (ADDI) Score",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "description": "The FMF50 is an assessment tool used to evaluate response to treatment for FMF. It consists of 6 items:\n\n1. Percentage change in the frequency of attacks with the treatment.\n2. Percentage change in the duration of attacks with the treatment.\n3. Patients/parents' global assessment of disease severity.\n4. Physicians' global assessment of disease severity.\n5. Percentage change in arthritis attacks with the treatment.\n6. Percentage change in CRP, ESR, or SAA level with the treatment. An improvement of at least 50% in 5 of the 6 items without worsening in any one item indicates that the patient is responding to treatment.\n\nFMF50 was used to assess response to canakinumab treatment and the association between response to treatment and colchicine resistance/intolerance, pain, fatigue, and quality of life (absenteeism at school during flares, limitation of physical activity, psychological care, and overall health status).",
+              "measure": "Familial Mediterranean Fever 50 (FMF50) Score",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "description": "Responses included:\n\n* Complete response: absence of clinical manifestations and normal CRP/SAA levels.\n* Incomplete response: persistent febrile episodes or high CRP/SAA levels\n* Partial response: \\<1 flare/month or persistent high CRP/SAA levels with maximum tolerated dose of colchicine or partial response with unknown frequency.\n* Resistant: \u22651 flare/month or persistent high CRP/SAA levels with maximum tolerated dose of colchicine.\n\nAnti-IL-1 treatments included canakinumab and anakinra.",
+              "measure": "Number of Patients by Last Response Reported to Anti-IL-1 Treatment During the Study",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "description": "Time to achieve complete response and complete response maintenance were measured. Anti-IL-1 treatments included canakinumab and anakinra.",
+              "measure": "Time to Achieve Response to Anti-IL-1 Treatment",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "description": "Response categories included:\n\n* Respondent: without flares and with normal inflammatory markers in the last 3 months.\n* Non-respondent: with flare and/or elevated inflammatory markers in the last 3 months.\n* Partial respondent: did not fulfill some of the criteria for complete response.",
+              "measure": "Number of Patients With MEFV Mutation by Treatment Response",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "description": "Response categories included:\n\n* Respondent: without flares and with normal inflammatory markers in the last 3 months.\n* Non-respondent: with flare and/or elevated inflammatory markers in the last 3 months.\n* Partial respondent: did not fulfill some of the criteria for complete response.",
+              "measure": "Number of Patients Without MEFV Mutation by Treatment Response",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "description": "Response categories included:\n\n* Respondent: without flares and with normal inflammatory markers in the last 3 months.\n* Non-respondent: with flare and/or elevated inflammatory markers in the last 3 months.\n* Partial respondent: did not fulfill some of the criteria for complete response.",
+              "measure": "Number of Patients With Mutation in Other Loci by Treatment Response",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "description": "Anti-IL-1 treatments included canakinumab and anakinra. Responses were categorized as follows:\n\n* Respondent: without flares and with normal inflammatory markers in the last 3 months.\n* Non-respondent: with flare and/or elevated inflammatory markers in the last 3 months.\n* Partial respondent: did not fulfill some of the criteria for complete response.",
+              "measure": "Number of Medical Visits of Patients With Scholar Absenteeism During Flares by Response to Anti-IL-1 Treatment",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "description": "Anti-IL-1 treatments included canakinumab and anakinra. Responses were categorized as follows:\n\n* Respondent: without flares and with normal inflammatory markers in the last 3 months.\n* Non-respondent: with flare and/or elevated inflammatory markers in the last 3 months.\n* Partial respondent: did not fulfill some of the criteria for complete response.",
+              "measure": "Number of Medical Visits of Patients With Physical Activity Limitations by Response to Anti-IL-1 Treatment",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "description": "Anti-IL-1 treatments included canakinumab and anakinra. Responses were categorized as follows:\n\n* Respondent: without flares and with normal inflammatory markers in the last 3 months.\n* Non-respondent: with flare and/or elevated inflammatory markers in the last 3 months.\n* Partial respondent: did not fulfill some of the criteria for complete response.",
+              "measure": "Number of Medical Visits of Patients Requiring Psychological Care by Response to Anti-IL-1 Treatment",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "description": "Anti-IL-1 treatments included canakinumab and anakinra. Responses were categorized as follows:\n\n* Respondent: without flares and with normal inflammatory markers in the last 3 months.\n* Non-respondent: with flare and/or elevated inflammatory markers in the last 3 months.\n* Partial respondent: did not fulfill some of the criteria for complete response.",
+              "measure": "Number of Medical Visits of Patients With Presence of Pain by Response to Anti-IL-1 Treatment",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "description": "Anti-IL-1 treatments included canakinumab and anakinra. Responses were categorized as follows:\n\n* Respondent: without flares and with normal inflammatory markers in the last 3 months.\n* Non-respondent: with flare and/or elevated inflammatory markers in the last 3 months.\n* Partial respondent: did not fulfill some of the criteria for complete response.",
+              "measure": "Number of Medical Visits of Patients With Presence of Fatigue by Response to Anti-IL-1 Treatment",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "description": "Patients' overall state of health was assessed using VAS scoring. The VAS is a straight line with a scale ranging from 0 (worst health) to 10 (best health). The clinician marks a point on the line, scoring how they perceive the patient's overall state of health.\n\nVAS was used to assess the association between anti-IL-1 treatment response and overall state of health. Anti-IL-1 treatments included canakinumab and anakinra. Treatment response was categorized as follows:\n\n* Respondent: without flares and with normal inflammatory markers in the last 3 months.\n* Non-respondent: with flare and/or elevated inflammatory markers in the last 3 months.\n* Partial respondent: did not fulfill some of the criteria for complete response.",
+              "measure": "Visual Analogue Scale (VAS) Score From Clinician Point of View",
+              "timeFrame": "Up to 11 years"
+            },
+            {
+              "description": "Patients' overall state of health was assessed using VAS scoring. The VAS is a straight line with a scale ranging from 0 (worst health) to 10 (best health). Patients mark a point on the line, scoring how they perceive their overall state of health.\n\nVAS was used to assess the association between anti-IL-1 treatment response and overall state of health. Anti-IL-1 treatments included canakinumab and anakinra. Treatment response was categorized as follows:\n\n* Respondent: without flares and with normal inflammatory markers in the last 3 months.\n* Non-respondent: with flare and/or elevated inflammatory markers in the last 3 months.\n* Partial respondent: did not fulfill some of the criteria for complete response.",
+              "measure": "Visual Analogue Scale (VAS) Score From Patient Point of View",
+              "timeFrame": "Up to 11 years"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "INDUSTRY",
+            "name": "Novartis Pharmaceuticals"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2024-05-28",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2025-04-11",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2025-04-03",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2024-05-28",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2023-03-30",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2025-04",
+          "studyFirstPostDateStruct": {
+            "date": "2025-04-11",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2025-04-03",
+          "studyFirstSubmitQcDate": "2025-04-03"
+        }
+      }
+    }
+  ]
+}

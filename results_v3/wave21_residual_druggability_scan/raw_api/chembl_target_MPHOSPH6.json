@@ -1,0 +1,183 @@
+{
+  "_request_url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=MPHOSPH6&limit=10",
+  "_status_code": 200,
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "M-phase phosphoprotein 6",
+      "score": 20.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL6066427",
+      "target_components": [
+        {
+          "accession": "Q99547",
+          "component_description": "M-phase phosphoprotein 6",
+          "component_id": 23618,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "M-phase phosphoprotein 6",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "MPHOSPH6",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Synonyms=MPP6",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "Q99547",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "Q99547",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0000176",
+              "xref_name": "nuclear exosome (RNase complex)",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0000178",
+              "xref_name": "exosome (RNase complex)",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005654",
+              "xref_name": "nucleoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005730",
+              "xref_name": "nucleolus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0003723",
+              "xref_name": "RNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0000460",
+              "xref_name": "maturation of 5.8S rRNA",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006364",
+              "xref_name": "rRNA processing",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:7214",
+              "xref_name": "MPHOSPH6",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "Q99547",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR019324",
+              "xref_name": "MPP6",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR13582",
+              "xref_name": "M-PHASE PHOSPHOPROTEIN 6",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR13582:SF0",
+              "xref_name": "M-PHASE PHOSPHOPROTEIN 6",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "6D6Q",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6D6R",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6H25",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "PF10175",
+              "xref_name": "MPP6",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA30920",
+              "xref_name": "M-phase phosphoprotein 6",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "Q99547",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-6791226",
+              "xref_name": "Major pathway of rRNA processing in the nucleolus and cytosol",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "B2RAF0",
+              "xref_name": "M-phase phosphoprotein 6",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q99547",
+              "xref_name": "M-phase phosphoprotein 6",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

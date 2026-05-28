@@ -1,0 +1,32 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr11",
+        "dataSource": "HAVANA",
+        "description": "CD6 molecule [Source:HGNC Symbol;Acc:HGNC:1691]",
+        "end": 61020377,
+        "entrezGeneId": 923,
+        "gencodeId": "ENSG00000013725.14",
+        "gencodeVersion": "v26",
+        "geneStatus": "",
+        "geneSymbol": "CD6",
+        "geneSymbolUpper": "CD6",
+        "geneType": "protein coding",
+        "genomeBuild": "GRCh38/hg38",
+        "start": 60971680,
+        "strand": "+",
+        "tss": 60971680
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 3,
+      "numberOfPages": 1,
+      "page": 0,
+      "totalNumberOfItems": 1
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/reference/gene?geneId=CD6&gencodeVersion=v26&genomeBuild=GRCh38%2Fhg38&itemsPerPage=3"
+}

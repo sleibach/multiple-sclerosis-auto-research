@@ -1,0 +1,15 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ACYTOR%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [],
+  "suggestions": [
+    {
+      "hits": 1,
+      "query": "( gene_exact:cypor ) ( organism_id:9606 ) ( reviewed:true )"
+    },
+    {
+      "hits": 1,
+      "query": "( gene_exact:cytor4 ) ( organism_id:9606 ) ( reviewed:true )"
+    }
+  ]
+}

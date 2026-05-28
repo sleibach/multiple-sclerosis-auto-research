@@ -1,0 +1,69 @@
+[
+  {
+    "consensus_direction": true,
+    "consensus_inhibition": false,
+    "consensus_stimulation": true,
+    "curation_effort": 4,
+    "is_directed": true,
+    "is_inhibition": false,
+    "is_stimulation": true,
+    "references": "HPRD:12534294;KEA:12534294;ProtMapper:12534294;SIGNOR:12534294",
+    "source": "P17612",
+    "source_genesymbol": "PRKACA",
+    "sources": [
+      "HPRD",
+      "HPRD_KEA",
+      "HPRD_MIMP",
+      "KEA",
+      "MIMP",
+      "PhosphoNetworks",
+      "PhosphoPoint",
+      "PhosphoSite_KEA",
+      "PhosphoSite_MIMP",
+      "ProtMapper",
+      "SIGNOR",
+      "SIGNOR_ProtMapper",
+      "Wang",
+      "iPTMnet",
+      "phosphoELM_MIMP"
+    ],
+    "target": "O43566",
+    "target_genesymbol": "RGS14"
+  },
+  {
+    "consensus_direction": false,
+    "consensus_inhibition": false,
+    "consensus_stimulation": false,
+    "curation_effort": 1,
+    "is_directed": true,
+    "is_inhibition": false,
+    "is_stimulation": false,
+    "references": "KEA:17570479",
+    "source": "P22694",
+    "source_genesymbol": "PRKACB",
+    "sources": [
+      "KEA",
+      "NetworKIN_KEA"
+    ],
+    "target": "O43566",
+    "target_genesymbol": "RGS14"
+  },
+  {
+    "consensus_direction": false,
+    "consensus_inhibition": false,
+    "consensus_stimulation": false,
+    "curation_effort": 1,
+    "is_directed": true,
+    "is_inhibition": false,
+    "is_stimulation": false,
+    "references": "KEA:17570479",
+    "source": "P78527",
+    "source_genesymbol": "PRKDC",
+    "sources": [
+      "KEA",
+      "NetworKIN_KEA"
+    ],
+    "target": "O43566",
+    "target_genesymbol": "RGS14"
+  }
+]

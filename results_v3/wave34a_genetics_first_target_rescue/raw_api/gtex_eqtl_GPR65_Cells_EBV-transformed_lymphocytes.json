@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr14",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000140030.5",
+        "geneSymbol": "GPR65",
+        "geneSymbolUpper": "GPR65",
+        "nes": -0.424722,
+        "ontologyId": "EFO:0000572",
+        "pValue": 1.06951e-05,
+        "pos": 87988566,
+        "snpId": "rs2289511",
+        "snpIdUpper": "RS2289511",
+        "tissueSiteDetailId": "Cells_EBV-transformed_lymphocytes",
+        "variantId": "chr14_87988566_G_A_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 1,
+      "page": 0,
+      "totalNumberOfItems": 1
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000140030.5&tissueSiteDetailId=Cells_EBV-transformed_lymphocytes&datasetId=gtex_v8&itemsPerPage=1"
+}

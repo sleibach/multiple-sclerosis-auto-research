@@ -1,0 +1,1733 @@
+{
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D001168",
+              "term": "Arthritis"
+            },
+            {
+              "id": "D007592",
+              "term": "Joint Diseases"
+            },
+            {
+              "id": "D009140",
+              "term": "Musculoskeletal Diseases"
+            },
+            {
+              "id": "D012216",
+              "term": "Rheumatic Diseases"
+            },
+            {
+              "id": "D003240",
+              "term": "Connective Tissue Diseases"
+            },
+            {
+              "id": "D017437",
+              "term": "Skin and Connective Tissue Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            },
+            {
+              "id": "D007333",
+              "term": "Insulin Resistance"
+            },
+            {
+              "id": "D006946",
+              "term": "Hyperinsulinism"
+            },
+            {
+              "id": "D044882",
+              "term": "Glucose Metabolism Disorders"
+            },
+            {
+              "id": "D008659",
+              "term": "Metabolic Diseases"
+            },
+            {
+              "id": "D009750",
+              "term": "Nutritional and Metabolic Diseases"
+            },
+            {
+              "id": "D005247",
+              "term": "Feeding Behavior"
+            },
+            {
+              "id": "D001519",
+              "term": "Behavior"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D001172",
+              "term": "Arthritis, Rheumatoid"
+            },
+            {
+              "id": "D024821",
+              "term": "Metabolic Syndrome"
+            },
+            {
+              "id": "D005215",
+              "term": "Fasting"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "meshes": [
+            {
+              "id": "C407088",
+              "term": "Angptl4 protein, mouse"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Healthy participants",
+              "interventionNames": [
+                "Other: Fasting"
+              ],
+              "label": "Healthy Participants",
+              "type": "ACTIVE_COMPARATOR"
+            },
+            {
+              "description": "Participants with diagnosed metabolic syndrome",
+              "interventionNames": [
+                "Other: Fasting"
+              ],
+              "label": "Metabolic Syndrome",
+              "type": "ACTIVE_COMPARATOR"
+            },
+            {
+              "description": "Participants with diagnosed rheumatoid arthritis",
+              "interventionNames": [
+                "Other: Fasting"
+              ],
+              "label": "Rheumatoid Arthritis",
+              "type": "ACTIVE_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Healthy Participants",
+                "Metabolic Syndrome",
+                "Rheumatoid Arthritis"
+              ],
+              "description": "Patients undergo a 5-10 day fasting period with a dietary energy supply 350-400kcal per day with fruit and vegetable juices or, if not feasible, an established fasting-mimicking diet of 600-800 kcal according to Longo et al.",
+              "name": "Fasting",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Arthritis, Rheumatoid",
+            "Syndrome, Metabolic",
+            "Healthy"
+          ],
+          "keywords": [
+            "Fasting",
+            "Autophagy"
+          ]
+        },
+        "contactsLocationsModule": {
+          "centralContacts": [
+            {
+              "email": "nadine.sylvester@immanuelalbertinen.de",
+              "name": "Nadine Sylvester",
+              "phone": "+4930 80505 734",
+              "role": "CONTACT"
+            }
+          ],
+          "locations": [
+            {
+              "city": "Berlin",
+              "contacts": [
+                {
+                  "email": "miriam.roesner@immanuel.de",
+                  "name": "Miriam R\u00f6sner, Study nurse",
+                  "phone": "00493080505682",
+                  "role": "CONTACT"
+                },
+                {
+                  "name": "Andreas Michalsen, Prof. Dr.",
+                  "role": "PRINCIPAL_INVESTIGATOR"
+                }
+              ],
+              "country": "Germany",
+              "facility": "Hochschulambulanz f\u00fcr Naturheilkunde der Charit\u00e9-Universit\u00e4tsmedizin Berlin am Immanuel-Krankenhaus",
+              "geoPoint": {
+                "lat": 52.52437,
+                "lon": 13.41053
+              },
+              "status": "RECRUITING",
+              "zip": "14109"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Charite - Universit\u00e4tsmedizin Berlin",
+              "name": "Andreas Michalsen, Prof. Dr.",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "affiliation": "Department of Psychiatry and Psychotherapy University Bonn, Clinical Centre",
+              "name": "Nils Gassen, Dr.",
+              "role": "STUDY_DIRECTOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Autophagy is considered one of the key molecular mechanisms for the broad preventive and therapeutic effects of periodic fasting. While it is generally known that fasting induces autophagy, there are no human studies that focus on the size and temporal kinetics of autophagy and its association with fasting specific signaling pathways. The kinetics of autophagy in patients with chronic diseases will now be compared with the kinetics of autophagy in healthy subjects, who both fast according to the same scheme; and further changes in metabolic and inflammatory parameters will be investigated.",
+          "detailedDescription": "Therapeutic fasting has been used for many decades in naturopathy and integrative medicine clinically successfully in the treatment of chronic diseases and pain syndromes. In particular, fasting therapy is used for chronic rheumatic, inflammatory, and metabolic diseases with increasing patient demand in specialized clinical facilities (fasting clinics).\n\nWithin the various historically developed forms of fasting, the fasting program according to the Buchinger Wilhelmi method has established itself worldwide as the most frequently applied method. This involves a subtotal caloric restriction with a daily caloric intake (200-400kcal/day) in the form of liquid components over a defined period of at least 10 days, accompanied by supporting measures of a health-promoting lifestyle program with elements such as exercise therapy, manual procedures, stress reduction and hydro-balneotherapy.\n\nIn early randomized studies and a systematic review, the effectiveness of inpatient fasting therapy for patients with rheumatoid arthritis was proven with 1a evidence. For the other indications, there is mainly empirical evidence or data from observation or prospective uncontrolled studies. In recent years, extensive basic science research activity has developed in the area of caloric restriction and intermittent fasting. In this context, a large number of favorable animal experimental findings have been demonstrated by defined fasting periods, including reductions in insulin, IGF-1, increases in adiponectins, insulin sensitivity, neurotrophic factors, and, over longer observation periods, a decrease in the incidence of cardiovascular, inflammatory, and metabolic, and more recently oncological diseases in a wide variety of animal species.\n\nNumerous experimental studies have demonstrated that fasting or total or subtotal caloric restriction is a potent inducer of cellular autophagy. For autophagy, numerous beneficial effects on chronic diseases or disease defense functions have now been experimentally documented and also hypothesized for humans, including neurodegenerative and metabolic diseases, but also acute infections and inflammatory diseases. Unclear to date is the kinetics of the autophagy enhancing effect of fasting. In theoretical transfer from animal experimental data, an increase is postulated between 12 and 36h of fasting and possibly a decrease after several days.\n\nAgainst this background, autophagy will now be investigated for the first time in blood samples from fasting healthy and diseased individuals in an exploratory clinical study."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "NON_RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "interventionModelDescription": "3 groups of different inclusion criteria (healthy, metabolic syndrome or rheumatoid arthritis) undergoing the same intervention",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "BASIC_SCIENCE"
+          },
+          "enrollmentInfo": {
+            "count": 60,
+            "type": "ESTIMATED"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* One of the following diagnoses: rheumatoid arthritis, metabolic syndrome OR healthy volunteer\n* Beginning (first 24h) inpatient treatment or hospital stay at Immanuel Hospital Berlin, Department of Naturopathy OR healthy volunteer\n* Present written declaration of consent\n\nExclusion Criteria:\n\n* Insufficient linguistic communication\n* Dementia or other cognitive disorder\n* Pregnancy or lactation\n* Simultaneous participation in another clinical trial",
+          "healthyVolunteers": true,
+          "maximumAge": "85 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "An Exploratory Clinical Study on Autophagy During Fasting",
+          "nctId": "NCT04739852",
+          "officialTitle": "The Kinetics of Autophagy During Periodic Fasting in Healthy People and Patients With Rheumatoid Arthritis or Metabolic Syndrome - an Exploratory Clinical Study",
+          "orgStudyIdInfo": {
+            "id": "Autophagy Fasting"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Charite University, Berlin, Germany"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "otherOutcomes": [
+            {
+              "description": "Measurement of tolerability of fasting and nutrition as well as adverse effects via Likert Scales, range from 0 to 5 while higher values meaning a higher grade of agreement",
+              "measure": "Final questionnaire to record tolerability of fasting and nutrition, adverse effects",
+              "timeFrame": "After 6 weeks"
+            }
+          ],
+          "primaryOutcomes": [
+            {
+              "description": "\\- Change in protein levels of autophagy biomarkers (LC3II \\& p62) of isolated PBMCs (peripheral blood mononuclear cells) by Western Blotting, change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up",
+              "measure": "Exploratory Proteomics of Autophagy Processes I",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "\\- Change in protein levels and protein phosphorylation by untargeted mass spectrometry-based proteomics and phosphoproteomics of isolated PBMCs (peripheral blood mononuclear cells), change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up",
+              "measure": "Exploratory Proteomics of Autophagy Processes II",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Estimation of the body composition via bio-electrical impedance analysis (muscle mass in kg)",
+              "measure": "Muscle mass",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "Estimation of the body composition via bio-electrical impedance analysis (body fat and visceral fat in %)",
+              "measure": "Body fat",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "measure": "Resting blood pressure",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "Cutaneous carotenoid level (CCL), correlating with the overall antioxidant status, measured with a noninvasive skin carotenoid sensor (Biozoom\u00ae)",
+              "measure": "Cutaneous carotenoid level (CCL)",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "measure": "Heart rate",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "measure": "Waist to Hip Ratio",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "measure": "Body Mass Index (kg/m2)",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "Change from Baseline in the DAS-28-CRP, range from 2.0 to 10.0 while higher values meaning a higher disease activity and below of 2.6 meaning remission",
+              "measure": "Disease Activity Score 28 (DAS-28-CRP)",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "Change from Baseline in the HAQ, range from 0 to 3 while higher values meaning a higher grade of disability",
+              "measure": "Health Assessement Questionnaire (HAQ)",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "Change from Baseline in the SDAI, range from 0 to 86 with assumed range from 0.1 to 10mg/dL for CRP. Higher values mean a higher disease activity and below of 34 meaning remission.",
+              "measure": "Simplified Disease Activity Index Score (SDAI)",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "Change from Baseline in the CPSS, range from 0 to 4 in each item. Scores are obtained by reversing responses (e.g., 0 = 4, 1 = 3, 2 = 2, 3 = 1 \\& 4 = 0) to the positively stated items and then summing across all scale items, higher values meaning a higher grade of perceived stress.",
+              "measure": "Stress questionnaire (Cohen Perceived Stress Scale, CPSS)",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "Assessing full scale, range from 15 to 90, higher score values meaning a better outcome.",
+              "measure": "Mindful Attention Awareness Scale (MAAS)",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "Assessing stress, back pain, headache, shoulder/neck tension, sleep quality and duration, exhaustion, nervousness, digestive complaints, mood on 0-10 points each.",
+              "measure": "Numerical Analog Scales",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "Change from Baseline in the WHO-5, range from 0 to 100 %, higher values meaning a higher grade of well-being",
+              "measure": "Quality of Life questionnaire (WHO-5)",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "Assessing full scale, range 0-42, lower score meaning a better outcome",
+              "measure": "Hospital Anxiety and Depression Scale (HADS)",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "Assessing full scale, range 3-15, higher score meaning a better outcome",
+              "measure": "General Self-efficacy Short Scale (ASKU)",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "Change from Baseline in Emotional Distress will be measured using the German Version of the Profile of Mood States (ASTS) short version (19 items, 7-point Likert scale; 0=not at all, 6=extremely). Lower scores indicate more stable mood profiles.",
+              "measure": "Mood questionnaire (Profile of Mood States, POMS)",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "Age, gender, education level, household income, employment status, marital status, language spoken, complete family history, current and previous illness and co-morbidities, and current medications",
+              "measure": "Sociodemographic Measurements",
+              "timeFrame": "Day 1 (baseline)"
+            },
+            {
+              "description": "Physical inactivity, coffee, health promoting activities via Likert Scales, range from 0 to 5 while higher values meaning a higher grade of agreement",
+              "measure": "Behavioral Factors",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "Number of alcoholic beverages on average per week in the last month",
+              "measure": "Behavioral Factors: alcohol consumption",
+              "timeFrame": "Day 1 (baseline), after 2 and 6 weeks"
+            },
+            {
+              "description": "Number of cigarettes on average per week in the last month",
+              "measure": "Behavioral Factors: smoking",
+              "timeFrame": "Day 1 (baseline), after 2 and 6 weeks"
+            },
+            {
+              "description": "Type, definition, duration and date of previous fasting experiences",
+              "measure": "Behavioral Factors: fasting experience",
+              "timeFrame": "Day 1 (baseline)"
+            },
+            {
+              "description": "For fasting on a 5-point likert scale from 1 (nothing at all) to 5 (very strong)",
+              "measure": "Expectation questions",
+              "timeFrame": "Day 1 (baseline)"
+            },
+            {
+              "measure": "Creatinine in \u00b5mol per liter (\u00b5mol/L)",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "measure": "Estimated glomerular filtration rate (eGFR) in milliliter per minute (mL/min)",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "potassium (mmol/L) sodium (mmol/L)",
+              "measure": "Electrolytes",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "triglycerides (mmol/L) total cholesterol (mmol/L) LDL (mmol/L) HDL (mmol/L) fasting glucose (mmol/L)",
+              "measure": "Blood lipids and fasting glucose",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "measure": "Insulin (mU/L)",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "Evaluate change in ketone body production by POCT",
+              "measure": "\u00df-Hydroxybutyrate",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "Evaluate change in CrP levels in participants with RA",
+              "measure": "CrP (mg/L)",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "Evaluate change in ESR in participants with RA",
+              "measure": "Erythrocyte sedimentation rate (ESR) in millimeters per hour (mm/h)",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "Evaluate RF status in participants with RA",
+              "measure": "Rheumatoid factor (RF, IgM) (U/mL)",
+              "timeFrame": "Day 1 (baseline)"
+            },
+            {
+              "description": "Evaluate change in ACPA levels in participants with RA",
+              "measure": "Anti-cyclic citrullinated peptide (ACPA) (U/mL)",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "Targeted and quantitative analysis by mass spectrometry of change in metabolites of plasma, change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up",
+              "measure": "Metabolic processes",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "Targeted and quantitative analysis by mass spectrometry of change in plasma lipids, change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up",
+              "measure": "Lipid profiling",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "Change of the gene expression profile by RNA sequencing of isolated PBMCs (peripheral blood mononuclear cells), change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up",
+              "measure": "Transcription expression patterns",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "Evaluate proteome expression patterns through blood based proteome, phosphoproteome, and ubiquitinome analysis assessed prior to intervention (pre) vs. after 5-day fasting, day 2 of refeeding and 7 days post intervention",
+              "measure": "Proteome/phosphoproteome/ubiquitinome patterns",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "Evaluate epigentic methylation patterns through blood based epigenome analysis assessed prior to intervention (pre) vs. after 5-day fasting, day 2 of refeeding and 7 days post intervention",
+              "measure": "Epigentic patterns",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            },
+            {
+              "description": "Evaluate exosomal protein content through blood based metabolome analysis assessed prior to intervention (pre) vs. after 5-day fasting, day 2 of refeeding and 7 days post intervention",
+              "measure": "Exosomal protein patterns",
+              "timeFrame": "change from baseline over 5 fasting days, to day 3 refeeding and to 7 days follow up"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": true
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "UNKNOWN",
+              "name": "Klinik und Poliklinik f\u00fcr Psychiatrie und Psychotherapie, Universit\u00e4tsklinikum Bonn A\u00f6R"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Charite University, Berlin, Germany"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Charite University, Berlin, Germany",
+            "investigatorFullName": "Andreas Michalsen",
+            "investigatorTitle": "Prof. Dr. med.",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2025-07-01",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastKnownStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2024-01-02",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2023-12-28",
+          "overallStatus": "UNKNOWN",
+          "primaryCompletionDateStruct": {
+            "date": "2025-02-01",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2021-02-01",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2023-12",
+          "studyFirstPostDateStruct": {
+            "date": "2021-02-05",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2021-01-05",
+          "studyFirstSubmitQcDate": "2021-02-01"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D010510",
+              "term": "Periodontal Diseases"
+            },
+            {
+              "id": "D009059",
+              "term": "Mouth Diseases"
+            },
+            {
+              "id": "D009057",
+              "term": "Stomatognathic Diseases"
+            },
+            {
+              "id": "D001168",
+              "term": "Arthritis"
+            },
+            {
+              "id": "D007592",
+              "term": "Joint Diseases"
+            },
+            {
+              "id": "D009140",
+              "term": "Musculoskeletal Diseases"
+            },
+            {
+              "id": "D012216",
+              "term": "Rheumatic Diseases"
+            },
+            {
+              "id": "D003240",
+              "term": "Connective Tissue Diseases"
+            },
+            {
+              "id": "D017437",
+              "term": "Skin and Connective Tissue Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D010518",
+              "term": "Periodontitis"
+            },
+            {
+              "id": "D001172",
+              "term": "Arthritis, Rheumatoid"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D007124",
+              "term": "Immunoenzyme Techniques"
+            },
+            {
+              "id": "D007118",
+              "term": "Immunoassay"
+            },
+            {
+              "id": "D007158",
+              "term": "Immunologic Techniques"
+            },
+            {
+              "id": "D008919",
+              "term": "Investigative Techniques"
+            },
+            {
+              "id": "D007163",
+              "term": "Immunosorbent Techniques"
+            },
+            {
+              "id": "D007150",
+              "term": "Immunohistochemistry"
+            },
+            {
+              "id": "D015336",
+              "term": "Molecular Probe Techniques"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D004797",
+              "term": "Enzyme-Linked Immunosorbent Assay"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Clinical measurements (Plaque index, probing depth, gingival recession, clinical attachment level, bleeding on probing) salivary sample and serum will be taken from all individuals at the beginning of the study. ANGPTL-4 levels will be examined to evaluate before and after treatment in periodontal health and periodontitis. A pre-treatment saliva sample and serum will be collected from the clinically healthy group.",
+              "interventionNames": [
+                "Other: ELISA (Enzyme-Linked ImmunoSorbent Assay)"
+              ],
+              "label": "Clinical Healthy",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Non-surgical periodontal treatment will be applied to individuals with periodontitis, clinical measurements, saliva collection and serum will be repeated 12 weeks after the treatment. ANGPTL-4 analysis will be performed by ELISA in saliva and serum of individuals. ANGPTL-4 levels will be examined to evaluate before and after treatment in periodontal health and periodontitis. Clinical measurements (Plaque index, probing depth, gingival recession, clinical attachment level, bleeding on probing) and salivary sample will be taken from all individuals at the beginning of the study.",
+              "interventionNames": [
+                "Other: ELISA (Enzyme-Linked ImmunoSorbent Assay)"
+              ],
+              "label": "Periodontitis",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Non-surgical periodontal treatment will be applied to individuals with periodontitis, clinical measurements, saliva collection and serum will be repeated 12 weeks after the treatment. ANGPTL-4 analysis will be performed by ELISA in saliva and serum of individuals. ANGPTL-4 levels will be examined to evaluate before and after treatment in periodontitis with rheumatoid arthritis. Clinical measurements (Plaque index, probing depth, gingival recession, clinical attachment level, bleeding on probing) and salivary sample will be taken from all individuals at the beginning of the study.",
+              "interventionNames": [
+                "Other: ELISA (Enzyme-Linked ImmunoSorbent Assay)"
+              ],
+              "label": "Periodontitis with rheumatoid arthritis",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Clinical measurements (Plaque index, probing depth, gingival recession, clinical attachment level, bleeding on probing) salivary sample and serum fluid will be taken from all individuals at the beginning of the study. ANGPTL-4 levels will be examined to evaluate before and after treatment in periodontal health and periodontitis. A pre-treatment saliva sample and serum will be collected from the healthy individuals with RA group.",
+              "interventionNames": [
+                "Other: ELISA (Enzyme-Linked ImmunoSorbent Assay)"
+              ],
+              "label": "Healthy individuals with RA",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Clinical Healthy",
+                "Healthy individuals with RA",
+                "Periodontitis",
+                "Periodontitis with rheumatoid arthritis"
+              ],
+              "description": "In this study, 15 periodontitis patients with RA, 15 healthy individuals with RA, 15 systemic healthy periodontitis patients and 15 systemic periodontally healthy individuals will be included. ANGPTL-4 biomarker and other biomarkers (MMP-13, TNF-\u03b1, IL-6) that have not been previously analysed in the serum and saliva of both RA and periodontitis patients will be evaluated before and 3 months after COPT. Clinical parameters (Plaque index, probing depth, gingival recession, clinical attachment level, bleeding on probing), biochemical evaluations of serum, saliva and gingival samples will be performed and correlated with clinical parameters at baseline and 3 months after COPT in all individuals with periodontitis included in the study.",
+              "name": "ELISA (Enzyme-Linked ImmunoSorbent Assay)",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Periodontitis",
+            "Rheumatoid Arthritis"
+          ],
+          "keywords": [
+            "Periodontititis",
+            "Rheumatoid arthritis",
+            "Cytokine"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Istanbul",
+              "country": "Turkey (T\u00fcrkiye)",
+              "facility": "Biruni University",
+              "geoPoint": {
+                "lat": 41.01384,
+                "lon": 28.94966
+              },
+              "zip": "34025"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Periodontitis is a common chronic inflammatory disease characterised by the destruction of the soft and hard tissues supporting the tooth, including alveolar bone, periodontal ligament and cementum. Periodontitis has been associated with different host characteristics such as diabetes or neutrophil disorders and environmental factors such as smoking, alcohol consumption and stress. On the other hand, periodontal bacterial infection triggers a systemic immune response that is associated with an increased risk of different disorders such as bacterial pneumonia, cardiovascular disease and autoimmune diseases. Rheumatoid arthritis (RA) is a severe chronic autoimmune disease of unknown etiology, characterised by symmetrical, erosive synovitis of the joints, sometimes with multisystem organ involvement, joint destruction and excessive bone loss. Although the etiology of RA is unknown, it is thought to occur in individuals with genetic predisposition as a result of exposure to various environmental factors. RA and periodontitis are chronic destructive inflammatory diseases with common genetic and environmental risk factors, pathogenesis mechanisms and complex multifactorial pathological processes. Several studies suggest that periodontitis, a common inflammatory disease of the periodontium surrounding the teeth and triggered by bacteria in the mouth, is associated with RA and may initiate and worsen inflammation in RA. Non-surgical periodontal treatment (COPT), which is considered the gold standard in the treatment of periodontitis with hand instruments and ultrasonic instruments, has been shown to provide significant improvements in the clinical outcomes of periodontitis patients with RA. COPT is performed to stop the progression of periodontal diseases. Considering the studies supporting the bidirectional relationship between periodontitis and RA, it is thought that COPT may affect the clinical and biochemical values of RA. Based on these points, the aim of our study was to investigate the relationship between serum and salivary ANGPTL-4, MMP-13, TNF-\u03b1 and IL-6 levels and periodontal disease in individuals with RA and to evaluate the effects of COPT on RA disease severity in vivo."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "NON_RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "SINGLE",
+              "whoMasked": [
+                "OUTCOMES_ASSESSOR"
+              ]
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 60,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* To be between the ages of 18-65,\n* Having at least 8 teeth excluding wisdom teeth,\n* No periodontal treatment in the last 3 months,\n* Not having used antibiotics in the last 3 months,\n* Not being pregnant or breastfeeding,\n* The individuals to be included in the control group should not have any systemic disease that may change the periodontal status, and the individuals to be included in the experimental group should not have any systemic disease that may affect periodontal health except RA.\n\nExclusion Criteria:\n\n* Under 18 years of age and over 65 years of age,\n* Having less than 8 teeth,\n* Having undergone periodontal treatment in the last 3 months,\n* Having used antibiotics in the last 3 months,\n* Being pregnant or breastfeeding,\n* Individuals to be included in the control group should have any systemic disease that may change the periodontal status, and individuals to be included in the test group should have any systemic disease that may affect periodontal health except RA.\n* Abnormal body mass index (more than 29.9 kg/m2).",
+          "healthyVolunteers": true,
+          "maximumAge": "65 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "The Effect of Non-Surgical Periodontal Therapy on Rheumatoid Arthritis",
+          "nctId": "NCT06245265",
+          "officialTitle": "Evaluation of the Effect of Non-Surgical Periodontal Therapy on Serum and Salivary Biomarker Levels in Individuals With Rheumatoid Arthritis",
+          "orgStudyIdInfo": {
+            "id": "2015-KAEK-80-23-02"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Biruni University"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "otherOutcomes": [
+            {
+              "description": "Comparison of serum and saliva samples taken before treatment in individuals with periodontitis and periodontitis individuals with RA in terms of ANGPTL-4 levels.",
+              "measure": "Comparison biomarkers of study groups.",
+              "timeFrame": "up to 1 year"
+            }
+          ],
+          "primaryOutcomes": [
+            {
+              "description": "Examination of ANGPTL-4 levels, which are stated to be associated with periodontal disease, in serum and saliva samples obtained from individuals with periodontitis and periodontitis individuals with RA.",
+              "measure": "Examination of ANGPTL-4 levels of periodontal disease and rheumatoid arthritis",
+              "timeFrame": "up to 1 year"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Evaluation of the effect of non-surgical periodontal treatment on changes in ANGPTL-4 level.",
+              "measure": "Evaluation of the effect of non-surgical periodontal treatment on changes in ANGPTL-4 level.",
+              "timeFrame": "up to 1 year"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "isUsExport": false,
+          "oversightHasDmc": true
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Biruni University"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Biruni University",
+            "investigatorFullName": "Burcu KARADUMAN",
+            "investigatorTitle": "Professor",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2024-10-01",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2025-06-25",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2025-06-19",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2024-06-01",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2024-01-01",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2024-02",
+          "studyFirstPostDateStruct": {
+            "date": "2024-02-07",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2024-01-26",
+          "studyFirstSubmitQcDate": "2024-02-03"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D010146",
+              "term": "Pain"
+            },
+            {
+              "id": "D009461",
+              "term": "Neurologic Manifestations"
+            },
+            {
+              "id": "D012816",
+              "term": "Signs and Symptoms"
+            },
+            {
+              "id": "D013568",
+              "term": "Pathological Conditions, Signs and Symptoms"
+            },
+            {
+              "id": "D009135",
+              "term": "Muscular Diseases"
+            },
+            {
+              "id": "D009140",
+              "term": "Musculoskeletal Diseases"
+            },
+            {
+              "id": "D012216",
+              "term": "Rheumatic Diseases"
+            },
+            {
+              "id": "D009468",
+              "term": "Neuromuscular Diseases"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D007592",
+              "term": "Joint Diseases"
+            },
+            {
+              "id": "D003240",
+              "term": "Connective Tissue Diseases"
+            },
+            {
+              "id": "D017437",
+              "term": "Skin and Connective Tissue Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            },
+            {
+              "id": "D000070657",
+              "term": "Crystal Arthropathies"
+            },
+            {
+              "id": "D011686",
+              "term": "Purine-Pyrimidine Metabolism, Inborn Errors"
+            },
+            {
+              "id": "D008661",
+              "term": "Metabolism, Inborn Errors"
+            },
+            {
+              "id": "D030342",
+              "term": "Genetic Diseases, Inborn"
+            },
+            {
+              "id": "D009358",
+              "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+            },
+            {
+              "id": "D008659",
+              "term": "Metabolic Diseases"
+            },
+            {
+              "id": "D009750",
+              "term": "Nutritional and Metabolic Diseases"
+            },
+            {
+              "id": "D004066",
+              "term": "Digestive System Diseases"
+            },
+            {
+              "id": "D003109",
+              "term": "Colonic Diseases, Functional"
+            },
+            {
+              "id": "D003108",
+              "term": "Colonic Diseases"
+            },
+            {
+              "id": "D007410",
+              "term": "Intestinal Diseases"
+            },
+            {
+              "id": "D005759",
+              "term": "Gastroenteritis"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D059350",
+              "term": "Chronic Pain"
+            },
+            {
+              "id": "D005356",
+              "term": "Fibromyalgia"
+            },
+            {
+              "id": "D001172",
+              "term": "Arthritis, Rheumatoid"
+            },
+            {
+              "id": "D006073",
+              "term": "Gout"
+            },
+            {
+              "id": "D006261",
+              "term": "Headache"
+            },
+            {
+              "id": "D001168",
+              "term": "Arthritis"
+            },
+            {
+              "id": "D005767",
+              "term": "Gastrointestinal Diseases"
+            },
+            {
+              "id": "D043183",
+              "term": "Irritable Bowel Syndrome"
+            },
+            {
+              "id": "D015212",
+              "term": "Inflammatory Bowel Diseases"
+            },
+            {
+              "id": "D002318",
+              "term": "Cardiovascular Diseases"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "meshes": [
+            {
+              "id": "C407088",
+              "term": "Angptl4 protein, mouse"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Patients being admitted to an internal integrative medicine hospital and referred to therapeutic fasting therapy",
+              "interventionNames": [
+                "Behavioral: Fasting"
+              ],
+              "label": "Fasting"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Fasting"
+              ],
+              "description": "Fasting therapy was adapted from Buchinger, including a fasting period of 7 days. After 2 prefasting days with 800kcal per day from vegetables and rice/potatoes, fasting starts with the ingestion of an oral laxative. During fasting patients receive small quantities of juice and herbal teas, and a vegetable broth for lunch, altogether no more than 350kcal per day. At the end, fasting is broken by an apple or cooked potato, and for the following 3 days nutrition returns to normocaloric diet.",
+              "name": "Fasting",
+              "type": "BEHAVIORAL"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Chronic Pain",
+            "Fibromyalgia",
+            "Rheumatoid Arthritis",
+            "Gout",
+            "Headache",
+            "Arthritis",
+            "Gastrointestinal Diseases",
+            "Irritable Bowel Syndrome",
+            "Inflammatory Bowel Disease",
+            "Cardiovascular Diseases"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Essen",
+              "country": "Germany",
+              "facility": "Department of Internal and Integrative Medicine, Kliniken Essen-Mitte",
+              "geoPoint": {
+                "lat": 51.45657,
+                "lon": 7.01228
+              },
+              "zip": "45276"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Department of Internal and Integrative Medicine, Kliniken Essen-Mitte, Faculty of Medicine, University of Duisburg-Essen",
+              "name": "Gustav Dobos, Prof",
+              "role": "STUDY_DIRECTOR"
+            },
+            {
+              "affiliation": "Department of Internal and Integrative Medicine, Kliniken Essen-Mitte, Faculty of Medicine, University of Duisburg-Essen",
+              "name": "Romy Lauche, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The study aims to investigate\n\n* if a 7 day therapeutic fasting regimen will affect self-efficacy of patients with chronic diseases\n* the effects of fasting on physical and mental well-being, quality of life and body awareness/image\n* the association between patients characteristics and the perceived health benefit after fasting\n* the association between Diagnosis according to traditional Chinese medicine and physical and mental well-being during the course of fasting\n* experiences and perceptions of patients during fasting therapy",
+          "detailedDescription": "see above"
+        },
+        "designModule": {
+          "designInfo": {
+            "observationalModel": "COHORT",
+            "timePerspective": "PROSPECTIVE"
+          },
+          "enrollmentInfo": {
+            "count": 120,
+            "type": "ACTUAL"
+          },
+          "patientRegistry": false,
+          "studyType": "OBSERVATIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* 18 years or older\n* eligible for fasting, i.e. normal weight (no anorexia, no nutritional deficiency, no BMI\\<18 or \\>35, no eating disorder)\n\nExclusion Criteria:\n\n* psychiatric disorder\n* type 1 diabetes\n* hepatitis\n* severe somatic disorder (oncological disease, hepatological or nephrological)\n* pregnancy",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Patients being treated in an integrative clinic for internal medicine Patients recommended for fasting therapy during the inpatient treatment"
+        },
+        "identificationModule": {
+          "acronym": "TheraFast",
+          "briefTitle": "Effects of Fasting on Self Efficacy",
+          "nctId": "NCT02113111",
+          "officialTitle": "The Effects of Therapeutic Fasting on Self Efficacy Measures - a Prospective Observational Trial",
+          "orgStudyIdInfo": {
+            "id": "13-5522 TheraFast"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Universit\u00e4t Duisburg-Essen"
+          }
+        },
+        "outcomesModule": {
+          "otherOutcomes": [
+            {
+              "description": "Daily log, visual analogue scales (VAS) on positive or negative physical or psychological states, side effects, daily rating",
+              "measure": "Well-being",
+              "timeFrame": "2 weeks"
+            },
+            {
+              "description": "Assessment of traditional Chinese medicine type will be used for correlational analysis",
+              "measure": "Diagnosis according to traditional Chinese medicine",
+              "timeFrame": "day 1"
+            },
+            {
+              "description": "gathered by qualitative interviews",
+              "measure": "Experiences",
+              "timeFrame": "2 weeks"
+            }
+          ],
+          "primaryOutcomes": [
+            {
+              "description": "Self efficacy questionnaire (SWE) by Schwarzer and Jerusalem, 1999",
+              "measure": "Self efficacy questionnaire",
+              "timeFrame": "up to 6 months"
+            },
+            {
+              "description": "Bodily self-efficacy (Sch\u00fctzler and Witt, 2013)",
+              "measure": "Bodily self-efficacy",
+              "timeFrame": "up to 6 months"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Ability and will to change (B\u00fcssing, 2008)",
+              "measure": "Ability and will to change",
+              "timeFrame": "2 weeks, 6 months"
+            },
+            {
+              "description": "Questionnaire on emotional and physical reactions",
+              "measure": "Easiness of life",
+              "timeFrame": "2 weeks, 6 months"
+            },
+            {
+              "description": "Short Form (36) Health Survey",
+              "measure": "Health-related quality of life",
+              "timeFrame": "2 weeks, 6 months"
+            },
+            {
+              "description": "Body Responsiveness Scale (BRS)(Daubenmier 2005)",
+              "measure": "Body responsiveness",
+              "timeFrame": "2 weeks, 6 months"
+            },
+            {
+              "description": "Scale of Body Connection (SBC) (Price and Thompson 2007)",
+              "measure": "Body awareness and dissociation",
+              "timeFrame": "2 weeks, 6 months"
+            },
+            {
+              "description": "Body Awareness Questionnaire (BAQ) (Shields 1989)",
+              "measure": "Body Awareness",
+              "timeFrame": "2 weeks, 6 months"
+            },
+            {
+              "description": "MYMOP questionnaire (Paterson)",
+              "measure": "Symptoms",
+              "timeFrame": "2 weeks, 6 months"
+            },
+            {
+              "description": "Becks Depression Inventory (BDI)",
+              "measure": "Depression",
+              "timeFrame": "2 weeks, 6 months"
+            },
+            {
+              "description": "Any adverse effect during the study period",
+              "measure": "Safety",
+              "timeFrame": "2 weeks"
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": false
+        },
+        "referencesModule": {
+          "seeAlsoLinks": [
+            {
+              "label": "Related Info",
+              "url": "http://www.kliniken-essen-mitte.de/leistung/fachabteilungen/naturheilkunde-u-integrative-medizin/home.html"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Universit\u00e4t Duisburg-Essen"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Universit\u00e4t Duisburg-Essen",
+            "investigatorFullName": "Romy Lauche",
+            "investigatorTitle": "Principal Investigator",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2015-09",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2015-09-04",
+            "type": "ESTIMATED"
+          },
+          "lastUpdateSubmitDate": "2015-09-03",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2015-07",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2014-04"
+          },
+          "statusVerifiedDate": "2015-09",
+          "studyFirstPostDateStruct": {
+            "date": "2014-04-14",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2014-04-10",
+          "studyFirstSubmitQcDate": "2014-04-11"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D001168",
+              "term": "Arthritis"
+            },
+            {
+              "id": "D007592",
+              "term": "Joint Diseases"
+            },
+            {
+              "id": "D009140",
+              "term": "Musculoskeletal Diseases"
+            },
+            {
+              "id": "D012216",
+              "term": "Rheumatic Diseases"
+            },
+            {
+              "id": "D003240",
+              "term": "Connective Tissue Diseases"
+            },
+            {
+              "id": "D017437",
+              "term": "Skin and Connective Tissue Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            },
+            {
+              "id": "D020734",
+              "term": "Parkinsonian Disorders"
+            },
+            {
+              "id": "D001480",
+              "term": "Basal Ganglia Diseases"
+            },
+            {
+              "id": "D001927",
+              "term": "Brain Diseases"
+            },
+            {
+              "id": "D002493",
+              "term": "Central Nervous System Diseases"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D009069",
+              "term": "Movement Disorders"
+            },
+            {
+              "id": "D000080874",
+              "term": "Synucleinopathies"
+            },
+            {
+              "id": "D019636",
+              "term": "Neurodegenerative Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D001172",
+              "term": "Arthritis, Rheumatoid"
+            },
+            {
+              "id": "D010300",
+              "term": "Parkinson Disease"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "meshes": [
+            {
+              "id": "C407088",
+              "term": "Angptl4 protein, mouse"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "interventionNames": [
+                "Other: Fasting"
+              ],
+              "label": "RA - longitudinal arm",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "interventionNames": [
+                "Other: Fasting"
+              ],
+              "label": "PD - longitudinal arm",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "label": "RA - crosssectional arm",
+              "type": "NO_INTERVENTION"
+            },
+            {
+              "label": "PD - crossectional arm",
+              "type": "NO_INTERVENTION"
+            },
+            {
+              "label": "Healthy controls - crosssectional arm",
+              "type": "NO_INTERVENTION"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "PD - longitudinal arm",
+                "RA - longitudinal arm"
+              ],
+              "description": "Patients undergo a 5-10 day fasting period with a dietary energy supply 350-400kcal per day with fruit and vegetable juices or, if not feasible, an established fasting-mimicking diet of 600-800 kcal according to Longo et al.",
+              "name": "Fasting",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Rheumatoid Arthritis",
+            "Parkinson Disease",
+            "Healthy"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Kassel",
+              "country": "Germany",
+              "facility": "Paracelsus-Elena-Klinik Kassel",
+              "geoPoint": {
+                "lat": 51.31667,
+                "lon": 9.5
+              },
+              "state": "Hesse",
+              "zip": "34128"
+            },
+            {
+              "city": "Berlin",
+              "country": "Germany",
+              "facility": "Charit\u00e9 Hochschulambulanz f\u00fcr Naturheilkunde am Immanuel Krankenhaus",
+              "geoPoint": {
+                "lat": 52.52437,
+                "lon": 13.41053
+              },
+              "zip": "14109"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Charite - Universit\u00e4tsmedizin Berlin",
+              "name": "Andreas Michalsen, Prof. Dr. med.",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The ExpoBiome project will analyze the impact of fasting on patients with Parkinsons's Disease (PD) or rheumatoid arthritis (RA) on a clinical level as well as the effect of fasting on their immune system and gut microbiota. ExpoBiome will combine metagenomics and other \"omics\" \\[meta-transcriptomics, meta-proteomics and (meta-)metabolomics\\], bioinformatic analyses and biostatistics under a systems biology framework to gain new mechanistic insights into microbiome-immune system interactions in the context of chronic diseases with inflammatory signatures.\n\nBesides a one time crossectional study of healthy participants, patients with RA and PD a longitudinal fasting study with two arms (RA and PD) is planned.",
+          "detailedDescription": "The human gut microbiome is a complex ecosystem, which contributes essential functions to human physiology. Changes to the microbiome are associated with several chronic diseases characterised by inflammation, including neurodegenerative and autoimmune diseases. Microbiome-derived effector molecules comprising nucleic acids, (poly)peptides and metabolites are present at high levels in the gut but have so far eluded systematic study. This gap in knowledge is limiting mechanistic understanding of the microbiome's functional impact on chronic diseases such as Parkinson's Disease (PD) and rheumatoid arthritis (RA). Here, for the first time a combination of advanced high-resolution methodologies will be integrated to comprehensively identify the constituents of this molecular complex and their impact on the human immune system. First, a quantitative, integrated multi-omic analysis on microbiome samples collected from healthy individuals and patients with newly diagnosed PD or RA will be performes.\n\nUsing contextualised prior knowledge (ExpoBiome Map) and machine learning methods, we will identify microbial molecules associated with condition-specific immunophenotypes. Second, the biomarker signature during a model clinical intervention (therapeutic fasting) will be validated and tracked to predict treatment outcomes. Third, microbes and molecules will be screened in personalised HuMiX gut-on-chip models to identify novel anti-inflammatory compounds. By providing mechanistic insights into the molecular basis of human-microbiome interactions, the project will generate essential new knowledge about causal relationships between the gut microbiome and the immune system in health and disease. By facilitating the elucidation of currently unknown microbiome-derived molecules, it will identify new genes, proteins,metabolites and host pathways for the development of future diagnostic and therapeutic applications."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "NON_RANDOMIZED",
+            "interventionModel": "SINGLE_GROUP",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "HEALTH_SERVICES_RESEARCH"
+          },
+          "enrollmentInfo": {
+            "count": 183,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* One of the following diagnoses: rheumatoid arthritis (first diagnosis \\>6 weeks ago and \\<8 years), parkinson's disease OR healthy volunteer\n* Control (\"healthy\") individuals must be without any evidence of active, known or treated RA, without any evidence of active, known or treated central nervous system disease, and without a known family history of idiopathic PD\n* Arthritis in at least one joint\n* Control individuals should match the RA or PD individuals as closely as possible, especially their age, sex, and education\n* Present written declaration of consent\n* Consent to specimen collection and specimen use\n* Ability to understand the patient information and willingness to sign the consent form\n\nExclusion Criteria:\n\n* gout or proven bacterial arthritis\n* Psychiatric illness that limits understanding of the examination protocol (unable to consent)\n* BMI \\< 18.5\n* Pre-existing/current eating disorders (bulimia nervosa, anorexia nervosa) within the past 5 years.\n* Severe internal diseases (e.g. renal insufficiency with creatinine \\> 2mg/dl)\n* Participation in another study\n* Existing vegan diet or fasting within the past 6 months\n* Pregnancy or breastfeeding\n* Chronic inflammatory bowel disease\n* Use of antibiotics within the past 12 months\n* Presence of anemia",
+          "healthyVolunteers": true,
+          "maximumAge": "79 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "acronym": "ExpoBiome",
+          "briefTitle": "Deciphering the Impact of Exposures From the Gut Microbiome-derived Molecular Complex in Human Health and Disease",
+          "nctId": "NCT04847011",
+          "officialTitle": "Deciphering the Impact of Exposures From the Gut Microbiome-derived Molecular Complex in Human Health and Disease",
+          "orgStudyIdInfo": {
+            "id": "ExpoBiome"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Charite University, Berlin, Germany"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "description": "It is not yet known if there will be a plan to make IPD available.",
+          "ipdSharing": "UNDECIDED"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Molecular typing of the gut microbiota using sequencing and high-throughput analysis from stool samples (metagenomics, metatranscriptomics, metaproteomics, metabolomics)",
+              "measure": "Gut microbiota Characterization",
+              "timeFrame": "Change over baseline to 12 months"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "measure": "Resting blood pressure",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "measure": "Heart rate",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "measure": "Abdominal circumference",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "measure": "Waist to Hip Ratio",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "measure": "Body Mass Index (kg/m2)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "description": "Change from Baseline in the DAS-28-CRP, range from 2.0 to 10.0 while higher values meaning a higher disease activity and below of 2.6 meaning remission",
+              "measure": "Disease Activity Score 28 (DAS-28-CRP)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "description": "Change from Baseline in the HAQ, range from 0 to 3 while higher values meaning a higher grade of disability",
+              "measure": "Health Assessement Questionnaire (HAQ)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "description": "Change from Baseline in the SDAI, range from 0 to 86 with assumed range from 0.1 to 10mg/dL for CRP. Higher values mean a higher disease activity and below of 34 meaning remission.",
+              "measure": "Simplified Disease Activity Index Score (SDAI)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "description": "Change from Baseline in the FFbH-R, range from 0 to 100 % while higher values meaning a higher grade of functional capacity",
+              "measure": "Hannover Functional Ability Questionnaire (Funktionsfragebogen Hannover, FFbH-R)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "description": "Movement Disorders Society-sponsored revision of the Unified Parkinson's Disease Rating Scale part I, II, IV (MDS-UPDRS part I, II, IV). Total score range: 0-260 (including the MDS-UPDRS part III), including 4 subcategories. Subcategories are summed to compute the total score. A lower score means a better outcome.",
+              "measure": "MDS-UPDRS",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "description": "The Parkinson's Disease Sleep Scale 2 (PDSS-2) is designed to assess nocturnal disability in Parkinson's disease. The PDSS-2 is a 15 question analog scale that ranks answers from 0 - 4, with 4 being worse. (Question 1 is an exception, where 4 is better and 0 is worse). In addition to an overall assessment of sleep disability three aspects of sleep problems can be obtained; disturbed sleep (total of questions 1-3, 8 and 14), PD-specific nocturnal motor symptoms (total of questions 4-6, 12 and 13), and PD-specific nocturnal symptoms (Total of questions 7, 9-11 and 15).",
+              "measure": "Parkinson's Disease Sleep Scale-2 (PDSS-2)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "description": "The 39 question Parkinson's Disease Questionnaire (PDQ-39) is a patient-reported rating scale for quality of life in Parkinson's disease. Respondents affirm if they have experienced problems due to their disease using a five point scale from never (0 points) to always (4 points, or worse) in doing common activities. The PDQ-39 is comprised of 8 domains: mobility, emotion, activities of daily living, cognition, stigma, social support, communication, bodily discomfort. Total possible range of scores = 0 - 156, with higher scores representing worse severity.",
+              "measure": "Parkinson's Disease Questionnaire-39 (PDQ-39)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "description": "The non-motor symptoms (NMS) questionnaire can be given to people affected by Parkinson's in order to aid health and social care professionals to assess their non-motor symptoms.The non-motor symptoms questionnaire is a 30-point, patient-based questionnaire used to determine the non-motor symptoms experienced by the patient during the past month. The points should be totalled to give a score out of 30. A score of under 10 is mild, 10-20 moderate and over 20, severe.",
+              "measure": "Non-motor symptoms questionnaire (NMSQ)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "description": "The Non-Motor Symptoms Scale (NMSS) measures the frequency and severity of a range of non-motor symptoms in Parkinson's Disease, through 30 questions grouped into 9 domains: cardiovascular, sleep/fatigue, mood/cognition, perceptual problems/hallucinations, attention/memory, gastro-intestinal tract, urinary, sexual function, and miscellaneous (pain, taste/smell, weight change, excessive sweating). Severity is rated on a scale from 0 (none) to 3 (severe). Frequency is rated on a scale from 1 (rarely) to 4 (very frequent). Item scores are calculated as the product of severity and frequency; the total score is obtained by summing the item scores. The NMSS total score ranges from 0 to 360 with a lower score indicating fewer symptoms. A negative change from baseline indicates improvement in symptoms (reduced score).",
+              "measure": "Non Motor Symptoms Scale (NMSS)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "description": "Change from Baseline in the CPSS, range from 0 to 4 in each item. Scores are obtained by reversing responses (e.g., 0 = 4, 1 = 3, 2 = 2, 3 = 1 \\& 4 = 0) to the positively stated items and then summing across all scale items, higher values meaning a higher grade of perceived stress.",
+              "measure": "Stress questionnaire (Cohen Perceived Stress Scale, CPSS)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "description": "Change from Baseline in the WHO-5, range from 0 to 100 %, higher values meaning a higher grade of well-being",
+              "measure": "Quality of Life questionnaire (WHO-5)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "description": "Assessing full scale, range 0-42, lower score meaning a better outcome",
+              "measure": "Hospital Anxiety and Depression Scale (HADS)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "description": "Change from Baseline in Emotional Distress will be measured using the German Version of the Profile of Mood States (ASTS) short version (19 items, 7-point Likert scale; 0=not at all, 6=extremely). Lower scores indicate more stable mood profiles.",
+              "measure": "Mood questionnaire (Profile of Mood States, POMS)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "description": "Age, gender, education level, household income, employment status, marital status, language spoken, complete family history, current and previous illness and co-morbidities, and current medications",
+              "measure": "Sociodemographic Measurements",
+              "timeFrame": "Baseline"
+            },
+            {
+              "description": "Physical inactivity, coffee, health promoting activities via Likert Scales, range from 0 to 5 while higher values meaning a higher grade of agreement",
+              "measure": "Behavioral Factors",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "description": "Modified FFQ recording dietary behaviour such as mealtimes, frequency of food intake, food preferences, fasting experiences",
+              "measure": "Dietary Behaviour",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "description": "Number of alcoholic beverages on average per week in the last month",
+              "measure": "Behavioral Factors: alcohol consumption",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "description": "Smoking status in packyears",
+              "measure": "Behavioral Factors: smoking",
+              "timeFrame": "Baseline"
+            },
+            {
+              "description": "For fasting on a 5-point likert scale from 1 (nothing at all) to 5 (very strong)",
+              "measure": "Expectation questions",
+              "timeFrame": "Baseline"
+            },
+            {
+              "measure": "Differential blood count",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "description": "GPT in units per liter (U/L) GOT (U/L) y-GT (U/L)",
+              "measure": "Hepatic transaminases (GPT, GOT) and Gamma glutamyl transpeptidase (y-GT)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "measure": "Bilirubine (total, direct, indirect in mg/dL)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "measure": "Total protein in grams per liter (g/L)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "measure": "Albumine in grams per liter (g/L)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "measure": "Creatinine in \u00b5mol per liter (\u00b5mol/L)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "measure": "Estimated glomerular filtration rate (eGFR) in milliliter per minute (mL/min)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "measure": "Alcalic Phosphatase in units per liter (U/L)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "measure": "Urea in milligrams per deciliter (mg/dL)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "description": "* triglycerides (mmol/L)\n* total cholesterol (mmol/L)\n* LDL (mmol/L)\n* HDL (mmol/L)\n* fasting glucose (mmol/L)",
+              "measure": "Blood lipids and fasting glucose",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "measure": "HbA1C (mmol/mol Hb, %)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "measure": "TSH (mU/L)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "measure": "IGF-1 (ng/mL)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "measure": "Insulin (mU/L)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "description": "Evaluate change in hs-CrP levels in participants with RA",
+              "measure": "High sensitive CrP (mg/L)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "description": "Evaluate RF status in participants with RA",
+              "measure": "Rheumatoid factor (RF, IgM) (U/mL)",
+              "timeFrame": "Baseline"
+            },
+            {
+              "description": "Evaluate change in ACPA levels in participants with RA",
+              "measure": "Anti-cyclic citrullinated peptide (ACPA) (U/mL)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "measure": "Zonulin (ng/mL)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "measure": "Fatty acid binding protein 2 (FABP2) (pg/mL)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "measure": "Plasma Calprotectin (\u00b5g/g)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "measure": "Fecal Calprotectin (\u00b5g/g)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "description": "Determination of cytometric parameters that indicate changes in cell activation or quantitative changes in the absolute and/or relative size of subpopulations (e.g. classical/intermediate/non-classical monocytes, na\u00efve and memory T-cells, B-cell differentiation to plasmablasts/-cells) Gene expression analysis of immune cells with Affymetrix whole genome microarrays and RNAseq to search for transcriptional patterns and markers that help to identify relevant immune cell (sub-)populations, which are not yet included in the cytometric phenotyping screen",
+              "measure": "Phenotyping of immune cells",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "measure": "Urine metabolomics (10 ml midstream urine)",
+              "timeFrame": "Change over baseline to 12 months"
+            },
+            {
+              "measure": "Oral microbiota analysis in saliva",
+              "timeFrame": "Change over baseline to 12 months"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": false
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Hansen B, Laczny CC, Aho VTE, Frachet-Bour A, Habier J, Ostaszewski M, Michalsen A, Hanslian E, Koppold DA, Hartmann AM, Steckhan N, Mollenhauer B, Schade S, Roomp K, Schneider JG, Wilmes P. Protocol for a multicentre cross-sectional, longitudinal ambulatory clinical trial in rheumatoid arthritis and Parkinson's disease patients analysing the relation between the gut microbiome, fasting and immune status in Germany (ExpoBiome). BMJ Open. 2023 Aug 18;13(8):e071380. doi: 10.1136/bmjopen-2022-071380.",
+              "pmid": "37597865",
+              "type": "DERIVED"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "OTHER",
+              "name": "University of Luxembourg"
+            },
+            {
+              "class": "OTHER",
+              "name": "Paracelsus Elena Klinik"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Andreas Michalsen"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Charite University, Berlin, Germany",
+            "investigatorFullName": "Andreas Michalsen",
+            "investigatorTitle": "Prof. Dr. med.",
+            "type": "SPONSOR_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2023-09-26",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2024-01-29",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2024-01-26",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2023-09-26",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2021-04-21",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2024-01",
+          "studyFirstPostDateStruct": {
+            "date": "2021-04-15",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2021-04-14",
+          "studyFirstSubmitQcDate": "2021-04-14"
+        }
+      }
+    }
+  ]
+}

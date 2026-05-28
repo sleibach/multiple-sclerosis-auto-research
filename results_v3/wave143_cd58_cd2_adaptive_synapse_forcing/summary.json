@@ -1,0 +1,55 @@
+{
+  "branch_call": "NO_CD58_CD2_ADAPTIVE_SYNAPSE_PROMOTION",
+  "evidence": {
+    "alefacept_prior_art_present": true,
+    "ibd_positive_full_mixture_rows_p_lt_0_10": 0,
+    "ms_qtl_direction_proxy_values": [
+      -0.055527,
+      -0.0,
+      0.055527,
+      0.163343,
+      0.292628
+    ],
+    "ms_relevant_qtl_rows_h4_ge_0_8": 23,
+    "positive_disease_count_raw": 3.0,
+    "ra_full_mixture_baseline_coef": 0.540226391415028,
+    "ra_full_mixture_baseline_p": 0.0845935812729626,
+    "ra_tcell_adjusted_baseline_coef": 0.8700443058575238,
+    "ra_tcell_adjusted_baseline_p": 0.0087144366152823,
+    "strict_residual_surviving_disease_count": 0.0,
+    "wave141_cd58_rows": [
+      {
+        "candidate": "CD58_TARGETABILITY",
+        "failed_gates": "prior_not_blocked;safety_direction_clear;source_not_demoted",
+        "pass_count": 5
+      },
+      {
+        "candidate": "CD58_CD2_AXIS",
+        "failed_gates": "prior_not_blocked;safety_direction_clear;source_not_demoted",
+        "pass_count": 5
+      }
+    ],
+    "wave79_ibd_response_fails_specificity": true,
+    "wave79_ibd_response_p": 0.1731963216156996
+  },
+  "failed_critical_gates": [
+    "ra_signal_survives_full_mixture_adjustment",
+    "ibd_replication_after_mixture",
+    "response_specificity_ra_and_ibd",
+    "direction_resolved_restore_vs_block",
+    "non_prior_art_intervention_route"
+  ],
+  "inputs": {
+    "wave141": "results_v3/wave141_modality_first_successor_scan/modality_first_successor_rank.tsv",
+    "wave79_decision": "results_v3/wave79_targetability_shortlist_audit/targetability_integrated_decision.tsv",
+    "wave80_attenuation": "results_v3/wave80_cd58_synapse_closure/cd58_synapse_attenuation.tsv",
+    "wave80_closure_ibd": "results_v3/wave80_cd58_synapse_closure/ibd_cd58_synapse_models.tsv",
+    "wave80_closure_ra": "results_v3/wave80_cd58_synapse_closure/ra_cd58_synapse_models.tsv",
+    "wave80_decision": "results_v3/wave80_cd58_cd2_axis_deepening/cd58_cd2_axis_decision.tsv",
+    "wave80_prior": "results_v3/wave80_cd58_cd2_axis_deepening/cd58_prior_art_directionality_sources.tsv",
+    "wave80_qtl": "results_v3/wave80_cd58_cd2_axis_deepening/cd58_wave62_qtl_rows.tsv",
+    "wave80_ra_tcell": "results_v3/wave80_cd58_cd2_axis_deepening/cd58_ra_tcell_adjusted_models.tsv",
+    "wave80_response": "results_v3/wave80_cd58_cd2_axis_deepening/cd58_wave79_response_convergence_row.tsv"
+  },
+  "random_seed": 20260527
+}

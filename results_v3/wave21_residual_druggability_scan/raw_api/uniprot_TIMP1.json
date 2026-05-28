@@ -1,0 +1,217 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ATIMP1%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "1420137",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "16917503",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17050530",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "1730286",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20545310",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22427646",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "24635319",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "3839290",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "3903517",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "8541540",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "8576151",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9065415",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Metalloproteinase inhibitor that functions by forming one to one complexes with target metalloproteinases, such as collagenases, and irreversibly inactivates them by binding to their catalytic zinc cofactor. Acts on MMP1, MMP2, MMP3, MMP7, MMP8, MMP9, MMP10, MMP11, MMP12, MMP13 and MMP16. Does not act on MMP14. Also functions as a growth factor that regulates cell differentiation, migration and cell death and activates cellular signaling cascades via CD63 and ITGB1. Plays a role in integrin signaling. Mediates erythropoiesis in vitro; but, unlike IL3, it is species-specific, stimulating the growth and differentiation of only human and murine erythroid progenitors"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "1730286",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "24635319",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "3010309",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "3839290",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "3903517",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "8541540",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00001135B1"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "22427646",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)",
+            "note": "ligand shared with metalloproteinase partner"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 24
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 24
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "TIMP1"
+          },
+          "synonyms": [
+            {
+              "value": "CLGI"
+            },
+            {
+              "value": "TIMP"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P01033",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Erythroid-potentiating activity"
+            },
+            "shortNames": [
+              {
+                "value": "EPA"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Fibroblast collagenase inhibitor"
+            },
+            "shortNames": [
+              {
+                "value": "Collagenase inhibitor"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Tissue inhibitor of metalloproteinases 1"
+            },
+            "shortNames": [
+              {
+                "value": "TIMP-1"
+              }
+            ]
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "Metalloproteinase inhibitor 1"
+          }
+        }
+      }
+    }
+  ]
+}

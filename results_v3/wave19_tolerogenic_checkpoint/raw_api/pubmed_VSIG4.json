@@ -1,0 +1,27 @@
+{
+  "esearchresult": {
+    "count": "24",
+    "idlist": [
+      "42161968",
+      "41716684",
+      "41150440"
+    ],
+    "querytranslation": "(\"vsig4 protein human\"[Supplementary Concept] OR \"vsig4 protein human\"[All Fields] OR \"vsig4\"[All Fields] OR \"CRIg\"[All Fields]) AND (\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields])",
+    "retmax": "3",
+    "retstart": "0",
+    "translationset": [
+      {
+        "from": "VSIG4",
+        "to": "\"vsig4 protein, human\"[Supplementary Concept] OR \"vsig4 protein, human\"[All Fields] OR \"vsig4\"[All Fields]"
+      },
+      {
+        "from": "autoimmune",
+        "to": "\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields]"
+      }
+    ]
+  },
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  }
+}

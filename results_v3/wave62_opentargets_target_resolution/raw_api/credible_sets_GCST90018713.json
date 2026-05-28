@@ -1,0 +1,55 @@
+{
+  "data": {
+    "credibleSets": {
+      "count": 1,
+      "rows": [
+        {
+          "beta": 0.972923257475692,
+          "chromosome": "6",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.3942860960960388,
+                "target": {
+                  "approvedName": "motilin",
+                  "approvedSymbol": "MLN",
+                  "id": "ENSG00000096395"
+                }
+              },
+              {
+                "score": 0.09810229390859604,
+                "target": {
+                  "approvedName": "LEM domain nuclear envelope protein 2",
+                  "approvedSymbol": "LEMD2",
+                  "id": "ENSG00000161904"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -9,
+          "pValueMantissa": 3.0399999618530273,
+          "position": 33897698,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.164083641742592,
+          "studyId": "GCST90018713",
+          "studyLocusId": "91bb886324feebca1f6281be7eca5e75",
+          "studyType": "gwas",
+          "variant": {
+            "id": "6_33897698_C_A",
+            "rsIds": [
+              "rs75727179"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+gene	classes	local_score	orchestrator_call	broad_positive_disease_count	broad_negative_disease_count	ms_wm_delta_log2	ms_wm_p	orchestrator_expression_support_diseases	orchestrator_residual_state_support_diseases	orchestrator_priority_score	surface_delta_support_diseases	surface_residual_support_diseases	surface_confounder_dominant_diseases	surface_rank_score	geneformer_support_contexts	geneformer_strong_support_contexts	real_perturbation_alignment_call	foundation_rescue_recommendation	wave18_accessible_call	wave18_accessible_reason	opentargets_diseases_any	opentargets_diseases_score_ge_0_5	central_node_score
+CD300E	tolerogenic_checkpoint	8.75	DEMOTE_LOCAL_TRIAGE	3.0	0.0	-1.516556121882542	0.131192827685522	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	1.0	model_and_gse162463_screen_align_relative_to_ctsh	triage_only_gse162463_not_promotion_grade			0.0	0.0	0.0
+BCL6	alternate_inhibitory_or_lipid_sensor_controller	6.0	DEMOTE_LOCAL_TRIAGE	3.0	0.0	-0.3881696689106366	0.2148442198867346	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+BTLA	tolerogenic_checkpoint	6.0	DEMOTE_LOCAL_TRIAGE	3.0	0.0			0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+CD24	tolerogenic_checkpoint	6.0	DEMOTE_LOCAL_TRIAGE	4.0	0.0	-0.3131457372415891	0.79096128985077	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0			PARK	state-coupled support below threshold (0<4 disease union); prior-art saturation high (EuropePMC=5154, ClinicalTrials=1)	0.0	0.0	0.0
+CISH	alternate_inhibitory_or_lipid_sensor_controller	6.0	DEMOTE_LOCAL_TRIAGE	3.0	0.0	-1.137765720030445	0.0079122846169366	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+GALC	lysosomal_lipid_controller	6.0	DEMOTE_LOCAL_TRIAGE	3.0	0.0	0.1897668310526405	0.4547265367950667	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+CD300LF	tolerogenic_checkpoint	4.75	DEMOTE_LOCAL_TRIAGE	1.0	0.0	-0.0991212524448474	0.7089814372180329	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	1.0	model_only_no_real_perturbation_alignment	do_not_promote_from_foundation_model			0.0	0.0	0.0
+CSK	alternate_inhibitory_or_lipid_sensor_controller	4.0	DEMOTE_LOCAL_TRIAGE	2.0	0.0	-0.000363974153462	0.9987222625774989	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+LILRB3	tolerogenic_checkpoint	4.0	DEMOTE_LOCAL_TRIAGE	2.0	0.0	-0.3769548589371787	0.5039530830837081	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+LRRK2	lysosomal_lipid_controller	4.0	DEMOTE_LOCAL_TRIAGE	2.0	0.0	0.6195523948131534	0.1043486548165995	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+NFE2L2	alternate_inhibitory_or_lipid_sensor_controller	4.0	DEMOTE_LOCAL_TRIAGE	2.0	0.0	0.085481241155831	0.6808220420808544	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+PIKFYVE	lysosomal_lipid_controller	4.0	DEMOTE_LOCAL_TRIAGE	2.0	0.0	0.018184324050269	0.9141341743012624	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+SOCS1	alternate_inhibitory_or_lipid_sensor_controller	4.0	DEMOTE_LOCAL_TRIAGE	2.0	0.0	-0.2314987582193453	0.6621199257200553	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+TYK2	alternate_inhibitory_or_lipid_sensor_controller	4.0	DEMOTE_LOCAL_TRIAGE	2.0	0.0	-0.0976695299908261	0.5321339034622258	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+PTPN11	alternate_inhibitory_or_lipid_sensor_controller	3.5	DEMOTE_LOCAL_TRIAGE	3.0	1.0	0.1914483871986583	0.1882167336704368	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+SOCS3	alternate_inhibitory_or_lipid_sensor_controller	3.5	DEMOTE_LOCAL_TRIAGE	3.0	1.0	-0.2411527871432301	0.5536914966229062	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+JAK2	alternate_inhibitory_or_lipid_sensor_controller	2.0	DEMOTE_LOCAL_TRIAGE	1.0	0.0	0.1310389086976435	0.5843508835841206	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+KEAP1	alternate_inhibitory_or_lipid_sensor_controller	2.0	DEMOTE_LOCAL_TRIAGE	1.0	0.0	-0.0784005602263473	0.7929044701113638	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+LILRB2	tolerogenic_checkpoint	2.0	DEMOTE_LOCAL_TRIAGE	2.0	0.0	-0.7296611895492067	0.0077844079989185	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0			PARK	local recurrence below promotion threshold (2<4 disease union); state-coupled support below threshold (0<4 disease union)	0.0	0.0	0.0
+LILRB4	tolerogenic_checkpoint	2.0	DEMOTE_LOCAL_TRIAGE	1.0	0.0	-0.0567093265778488	0.8864378306397437	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+MTOR	lysosomal_lipid_controller	2.0	DEMOTE_LOCAL_TRIAGE	1.0	0.0	-0.209161511669091	0.3383389768553605	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+NPC2	lysosomal_lipid_controller	2.0	DEMOTE_LOCAL_TRIAGE	1.0	0.0	0.2195673330536856	0.3105004991993616	1.0	2.0	7.0	2.0	4.0	7.0	18.25	0.0	0.0					0.0	0.0	0.0
+NR1H2	lysosomal_lipid_controller	2.0	DEMOTE_LOCAL_TRIAGE	1.0	0.0	0.0646192467591699	0.8274524136837126	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+RPTOR	lysosomal_lipid_controller	2.0	DEMOTE_LOCAL_TRIAGE	1.0	0.0	-1.0147867320606796	0.2793531937860193	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+SIRPA	tolerogenic_checkpoint	2.0	DEMOTE_LOCAL_TRIAGE	2.0	0.0	0.1677681996050939	0.2355404004395136	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0			PARK	local recurrence below promotion threshold (2<4 disease union); state-coupled support below threshold (0<4 disease union)	0.0	0.0	0.0
+SMPD1	lysosomal_lipid_controller	2.0	DEMOTE_LOCAL_TRIAGE	1.0	0.0	-0.0668468634811532	0.8164640687512335	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+VSIR	tolerogenic_checkpoint	1.5	DEMOTE_LOCAL_TRIAGE	2.0	1.0			0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+PDCD1LG2	tolerogenic_checkpoint	0.75	DEMOTE_LOCAL_TRIAGE	0.0	0.0	-1.831668177750024	0.1368572957532143	1.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+PLIN2	lysosomal_lipid_controller	0.75	DEMOTE_LOCAL_TRIAGE	0.0	0.0	0.6476104028056859	0.1083756467628863	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	no_rescue	do_not_promote			0.0	0.0	0.0
+CD300A	tolerogenic_checkpoint	0.0	DEMOTE_LOCAL_TRIAGE	0.0	0.0	-0.3453443248914674	0.0766109345414007	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+CD47	tolerogenic_checkpoint	0.0	DEMOTE_LOCAL_TRIAGE	3.0	0.0	0.2176408940367711	0.2416861608396672	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0			NO_GO	local recurrence below promotion threshold (3<4 disease union); state-coupled support below threshold (0<4 disease union); prior-art saturation high (EuropePMC=5542, ClinicalTrials=0); intervention direction is repair/checkpoint-context dependent	0.0	0.0	0.0
+GBA	lysosomal_lipid_controller	0.0	DEMOTE_LOCAL_TRIAGE	0.0	0.0	-0.1001534998395801	0.6462813891007144	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+INPP5D	alternate_inhibitory_or_lipid_sensor_controller	0.0	DEMOTE_LOCAL_TRIAGE	0.0	0.0	-0.3037841690561134	0.0943958111282368	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+PPARA	alternate_inhibitory_or_lipid_sensor_controller	0.0	DEMOTE_LOCAL_TRIAGE	0.0	0.0	-0.1159367355437837	0.6938446521810258	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+PTPN6	alternate_inhibitory_or_lipid_sensor_controller	0.0	DEMOTE_LOCAL_TRIAGE	0.0	0.0	-0.323469415535639	0.263412802552573	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+RRAGA	lysosomal_lipid_controller	0.0	DEMOTE_LOCAL_TRIAGE	0.0	0.0	-0.2584758265579943	0.1857590975776682	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+SPI1	alternate_inhibitory_or_lipid_sensor_controller	0.0	DEMOTE_LOCAL_TRIAGE	0.0	0.0	0.0702833020528714	0.6738527782514925	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+TIGIT	tolerogenic_checkpoint	0.0	DEMOTE_LOCAL_TRIAGE	0.0	0.0			0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+TSC1	lysosomal_lipid_controller	0.0	DEMOTE_LOCAL_TRIAGE	0.0	0.0	0.0364246955213065	0.7995019245596273	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+SIGLEC10	tolerogenic_checkpoint	-0.25	DEMOTE_LOCAL_TRIAGE	0.0	1.0	-0.6228823890231006	0.0790960238639784	1.0	1.0	1.75	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+JAK1	alternate_inhibitory_or_lipid_sensor_controller	-1.0	DEMOTE_LOCAL_TRIAGE	2.0	2.0	0.2576120813511604	0.060997046211002	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+GBA2	lysosomal_lipid_controller	-1.75	DEMOTE_LOCAL_TRIAGE	0.0	1.0	-0.403083023644843	0.0097512555991416	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	no_rescue	do_not_promote			0.0	0.0	0.0
+LILRB1	tolerogenic_checkpoint	-2.0	DEMOTE_LOCAL_TRIAGE	2.0	0.0	-0.2480039987346405	0.3035041507515239	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0			NO_GO	local recurrence below promotion threshold (2<4 disease union); state-coupled support below threshold (0<4 disease union)	0.0	0.0	0.0
+ABCA1	lysosomal_lipid_controller	-2.5	DEMOTE_LOCAL_TRIAGE	0.0	1.0	0.6056046515502906	0.0344909063382469	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+HAVCR2	tolerogenic_checkpoint	-2.5	DEMOTE_LOCAL_TRIAGE	0.0	1.0	0.1190427137902556	0.4421644824402852	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+IRF8	alternate_inhibitory_or_lipid_sensor_controller	-2.5	DEMOTE_LOCAL_TRIAGE	0.0	1.0	0.0432331385693292	0.7718585848311508	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+LILRB5	tolerogenic_checkpoint	-2.5	DEMOTE_LOCAL_TRIAGE	0.0	1.0	-0.8824584607192891	0.51569138646586	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+MCOLN1	lysosomal_lipid_controller	-2.5	DEMOTE_LOCAL_TRIAGE	0.0	1.0	-0.1960648846678339	0.511653070663803	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+PPARD	alternate_inhibitory_or_lipid_sensor_controller	-2.5	DEMOTE_LOCAL_TRIAGE	0.0	1.0	-0.3397741564339185	0.4029211146308484	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+RXRB	alternate_inhibitory_or_lipid_sensor_controller	-2.5	DEMOTE_LOCAL_TRIAGE	0.0	1.0	-0.2056771775416539	0.3068789917420298	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+RXRG	alternate_inhibitory_or_lipid_sensor_controller	-2.5	DEMOTE_LOCAL_TRIAGE	0.0	1.0			0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+SQSTM1	lysosomal_lipid_controller	-2.5	DEMOTE_LOCAL_TRIAGE	0.0	1.0	-0.048961706297387	0.8072582830303654	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+TFE3	lysosomal_lipid_controller	-2.5	DEMOTE_LOCAL_TRIAGE	0.0	1.0	0.0200878545803053	0.9102984423769684	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+TFEB	lysosomal_lipid_controller	-2.5	DEMOTE_LOCAL_TRIAGE	0.0	1.0	0.2616412793437703	0.1677365293947767	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+TSC2	lysosomal_lipid_controller	-2.5	DEMOTE_LOCAL_TRIAGE	0.0	1.0	-0.1146375753797528	0.4105045228693362	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+LAIR1	tolerogenic_checkpoint	-3.0	DEMOTE_LOCAL_TRIAGE	1.0	2.0	-0.2811215724373159	0.1069140784882185	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+NR1H3	lysosomal_lipid_controller	-3.0	DEMOTE_LOCAL_TRIAGE	1.0	2.0	0.9212173629129756	0.2094063049703438	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+PPARG	lysosomal_lipid_controller	-3.0	DEMOTE_LOCAL_TRIAGE	1.0	2.0	1.33861418076643	0.0023372069061631	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+APOE	lysosomal_lipid_controller	-5.0	DEMOTE_LOCAL_TRIAGE	0.0	1.0	0.3729255468001433	0.120208663256457	0.0	0.0	0.0	2.0	4.0	6.0	12.875	0.0	0.0	no_rescue	do_not_promote			0.0	0.0	0.0
+ASAH1	lysosomal_lipid_controller	-5.0	DEMOTE_LOCAL_TRIAGE	0.0	2.0	0.4645985538687647	0.0266365328274421	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+MAF	alternate_inhibitory_or_lipid_sensor_controller	-5.0	DEMOTE_LOCAL_TRIAGE	0.0	2.0	-0.1853968291999237	0.2802397575923724	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+MAFB	alternate_inhibitory_or_lipid_sensor_controller	-5.0	DEMOTE_LOCAL_TRIAGE	0.0	2.0	0.6176798736915998	0.1189294357530188	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+RXRA	alternate_inhibitory_or_lipid_sensor_controller	-5.0	DEMOTE_LOCAL_TRIAGE	0.0	2.0	0.3225900728107334	0.1378550861108835	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+TREM2	lysosomal_lipid_controller	-6.0	DEMOTE_LOCAL_TRIAGE	0.0	0.0	0.1899583473475061	0.612719290366184	0.0	2.0	3.0	1.0	4.0	6.0	10.1875	0.0	0.0			NO_GO	local recurrence below promotion threshold (1<4 disease union); confounder/myeloid dominance high in surface screen (6 diseases)	0.0	0.0	0.0
+ABCG1	lysosomal_lipid_controller	-7.5	DEMOTE_LOCAL_TRIAGE	0.0	3.0	0.8150581476256988	0.014073891674355	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+CD200R1	tolerogenic_checkpoint	-7.5	DEMOTE_LOCAL_TRIAGE	0.0	3.0	0.8754679036799504	0.4636324457626696	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0					0.0	0.0	0.0
+LIPA	lysosomal_lipid_controller	15.25	PARK_FOR_WORKER_REVIEW	3.0	1.0	0.4580110941773352	0.2725305004844303	3.0	3.0	11.0	4.0	5.0	6.0	20.5	2.0	2.0	model_contradicted_by_gse162463_screen	do_not_promote			0.0	0.0	0.0
+CD274	tolerogenic_checkpoint	12.75	PARK_FOR_WORKER_REVIEW	4.0	0.0	0.3544765521359103	0.3282160655447695	3.0	3.0	8.0	0.0	0.0	0.0	0.0	0.0	0.0			PARK	state-coupled support below threshold (3<4 disease union); prior-art saturation high (EuropePMC=32490, ClinicalTrials=10)	0.0	0.0	0.0
+NPC1	lysosomal_lipid_controller	10.25	PARK_FOR_WORKER_REVIEW	2.0	0.0	-0.2072235220169123	0.2084882644038883	3.0	2.0	7.0	3.0	7.0	6.0	20.0	0.0	0.0					0.0	0.0	0.0

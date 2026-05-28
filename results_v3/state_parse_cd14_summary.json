@@ -1,0 +1,153 @@
+{
+  "model_repo": "arcinstitute/ST-HVG-Parse",
+  "model_sha": "a69af46d5b8c6f8c036c489a8f71354f321d968b",
+  "source_split": "fewshot/split_4",
+  "cell_type": "CD14_Mono",
+  "n_perturbations": 62,
+  "n_output_features": 2000,
+  "n_mapped_features": 2000,
+  "gene_mapping_status": "mapped_from_adata_real_var_names",
+  "top_real_transition_targets": [],
+  "module_scoring_status": "blocked_no_gene_symbols_for_feature_ids",
+  "feature_agnostic_per_target_validation": {
+    "median_spearman": 0.27283864343398295,
+    "median_direction_match_fraction": 0.6392177045805456,
+    "focused_perturbations": [
+      {
+        "target": "IFN-gamma",
+        "spearman_percent_change": 0.47930399664071527,
+        "pearson_percent_change": 0.12255854293001334,
+        "direction_match_fraction": 0.7086978898610397,
+        "sig_feature_recall": 0.8173553719008264,
+        "sig_feature_precision": 0.7397157816005984,
+        "mean_abs_real_percent_change": 0.7117876627432962
+      },
+      {
+        "target": "IL-1-alpha",
+        "spearman_percent_change": 0.42094673826702056,
+        "pearson_percent_change": 0.09874559053177548,
+        "direction_match_fraction": 0.7025218733916624,
+        "sig_feature_recall": 0.7368421052631579,
+        "sig_feature_precision": 0.655045871559633,
+        "mean_abs_real_percent_change": 0.3410280610791927
+      },
+      {
+        "target": "IFN-alpha1",
+        "spearman_percent_change": 0.413010187036589,
+        "pearson_percent_change": 0.09907487021321357,
+        "direction_match_fraction": 0.6839938239835306,
+        "sig_feature_recall": 0.7162022703818369,
+        "sig_feature_precision": 0.6878097125867195,
+        "mean_abs_real_percent_change": 0.3218620817850059
+      },
+      {
+        "target": "GM-CSF",
+        "spearman_percent_change": 0.38720652887836554,
+        "pearson_percent_change": 0.07534372974943788,
+        "direction_match_fraction": 0.6453937210499228,
+        "sig_feature_recall": 0.7343499197431782,
+        "sig_feature_precision": 0.7481602616516762,
+        "mean_abs_real_percent_change": 1.0051622568514555
+      },
+      {
+        "target": "IFN-lambda1",
+        "spearman_percent_change": 0.2854346211552432,
+        "pearson_percent_change": -0.023013978819524862,
+        "direction_match_fraction": 0.6273803396809058,
+        "sig_feature_recall": 0.6368038740920097,
+        "sig_feature_precision": 0.6123399301513388,
+        "mean_abs_real_percent_change": 0.2149508088864041
+      },
+      {
+        "target": "IL-17C",
+        "spearman_percent_change": 0.2748570036455561,
+        "pearson_percent_change": -0.03893827323108393,
+        "direction_match_fraction": 0.6510550694801853,
+        "sig_feature_recall": 0.6412429378531074,
+        "sig_feature_precision": 0.5611866501854141,
+        "mean_abs_real_percent_change": 0.2345323717046463
+      },
+      {
+        "target": "OSM",
+        "spearman_percent_change": 0.2617822413877663,
+        "pearson_percent_change": 0.012049530508194524,
+        "direction_match_fraction": 0.6536284096757591,
+        "sig_feature_recall": 0.6914728682170542,
+        "sig_feature_precision": 0.5588972431077694,
+        "mean_abs_real_percent_change": 0.2215909703276225
+      },
+      {
+        "target": "BAFF",
+        "spearman_percent_change": 0.18140364204173393,
+        "pearson_percent_change": 0.054048830665521255,
+        "direction_match_fraction": 0.602161605764282,
+        "sig_feature_recall": 0.603448275862069,
+        "sig_feature_precision": 0.5325034578146611,
+        "mean_abs_real_percent_change": 0.24500658538157818
+      },
+      {
+        "target": "IL-17A",
+        "spearman_percent_change": 0.15544503319725492,
+        "pearson_percent_change": 0.11711809596988229,
+        "direction_match_fraction": 0.5815748841996912,
+        "sig_feature_recall": 0.5046948356807511,
+        "sig_feature_precision": 0.587431693989071,
+        "mean_abs_real_percent_change": 0.2609474279036472
+      },
+      {
+        "target": "C5a",
+        "spearman_percent_change": 0.14822288318341148,
+        "pearson_percent_change": -0.018831880939323378,
+        "direction_match_fraction": 0.5568708183221822,
+        "sig_feature_recall": 0.5257383966244725,
+        "sig_feature_precision": 0.7407847800237812,
+        "mean_abs_real_percent_change": 0.6585462688563527
+      }
+    ]
+  },
+  "axis_validation": [
+    {
+      "axis": "complement_phagocytosis",
+      "n_targets": 0,
+      "spearman_pred_real": NaN,
+      "pearson_pred_real": NaN,
+      "direction_match_fraction": NaN
+    },
+    {
+      "axis": "inflammatory_cytokine",
+      "n_targets": 0,
+      "spearman_pred_real": NaN,
+      "pearson_pred_real": NaN,
+      "direction_match_fraction": NaN
+    },
+    {
+      "axis": "interferon_apc",
+      "n_targets": 0,
+      "spearman_pred_real": NaN,
+      "pearson_pred_real": NaN,
+      "direction_match_fraction": NaN
+    },
+    {
+      "axis": "lipid_loader",
+      "n_targets": 0,
+      "spearman_pred_real": NaN,
+      "pearson_pred_real": NaN,
+      "direction_match_fraction": NaN
+    },
+    {
+      "axis": "lysosomal_antigen_processing",
+      "n_targets": 0,
+      "spearman_pred_real": NaN,
+      "pearson_pred_real": NaN,
+      "direction_match_fraction": NaN
+    },
+    {
+      "axis": "metabolic_hif_nampt",
+      "n_targets": 0,
+      "spearman_pred_real": NaN,
+      "pearson_pred_real": NaN,
+      "direction_match_fraction": NaN
+    }
+  ],
+  "interpretation": "Released State CD14 monocyte predictions and matched real perturbation data; used to validate model-level perturbation ranking only where feature identity is not needed; gene-module scoring is blocked until HVG order is recovered."
+}

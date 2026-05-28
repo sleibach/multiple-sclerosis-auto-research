@@ -1,0 +1,25 @@
+{
+  "analysis_call": "ACCESSIBLE_STATE_RERANK_COMPLETED",
+  "call_counts": {
+    "NO_GO_ACCESSIBLE_STATE_RERANK": 26,
+    "PARK_ACCESSIBLE_MARKER_OR_WEAK_ROUTE": 13,
+    "PARK_FOR_NEXT_FORCING_TEST": 7
+  },
+  "inputs": {
+    "broad_h5ad": "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv",
+    "ms_signature": "results_v3/gse111972_full_ms_wm_signature.tsv",
+    "psoriasis_platform": "data/raw_v3/wave89_psoriasis_response/GPL10558.annot.gz",
+    "psoriasis_series": "data/raw_v3/wave89_psoriasis_response/GSE85034_series_matrix.txt.gz",
+    "ra_counts": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_counts_used.tsv",
+    "ra_meta": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_sample_metadata.tsv",
+    "wave39": "results_v3/wave39_surfaceome_rescue_after_resolution_pivot/surfaceome_rescue_rank_full.tsv",
+    "wave55": "results_v3/wave55_external_genetics_druggability_sweep/external_genetics_rank.tsv",
+    "wave62": "results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv",
+    "wave91": "results_v3/wave91_lipid_neighborhood_controller_scan/lipid_neighborhood_controller_rank.tsv"
+  },
+  "n_candidates": 46,
+  "seed": 20260527,
+  "top_candidate": "SEL1L3",
+  "top_candidate_call": "PARK_FOR_NEXT_FORCING_TEST",
+  "top_candidate_score": 12.172501683138023
+}

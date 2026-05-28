@@ -1,0 +1,120 @@
+{
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=FXYD5%5BTitle%5D+AND+%28knockdown+OR+knockout+OR+CRISPR+OR+siRNA+OR+shRNA+OR+overexpression+OR+perturbation%29&retmode=json&retmax=10",
+  "status": 200,
+  "json": {
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    },
+    "esearchresult": {
+      "count": "0",
+      "retmax": "0",
+      "retstart": "0",
+      "idlist": [],
+      "translationset": [
+        {
+          "from": "CRISPR",
+          "to": "CRISPR[All Fields]"
+        },
+        {
+          "from": "siRNA",
+          "to": "\"rna, small interfering\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR siRNA[All Fields]"
+        },
+        {
+          "from": "shRNA",
+          "to": "\"rna, small interfering\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR shRNA[All Fields]"
+        }
+      ],
+      "translationstack": [
+        {
+          "term": "FXYD5[Title]",
+          "field": "Title",
+          "count": "1",
+          "explode": "N"
+        },
+        {
+          "term": "knockdown[All Fields]",
+          "field": "All Fields",
+          "count": "84631",
+          "explode": "N"
+        },
+        {
+          "term": "knockout[All Fields]",
+          "field": "All Fields",
+          "count": "128483",
+          "explode": "N"
+        },
+        "OR",
+        {
+          "term": "CRISPR[All Fields]",
+          "field": "All Fields",
+          "count": "55911",
+          "explode": "N"
+        },
+        "OR",
+        {
+          "term": "\"rna, small interfering\"[All Fields]",
+          "field": "All Fields",
+          "count": "84043",
+          "explode": "N"
+        },
+        {
+          "term": "\"rna, small interfering\"[MeSH Terms]",
+          "field": "MeSH Terms",
+          "count": "84043",
+          "explode": "Y"
+        },
+        "OR",
+        {
+          "term": "siRNA[All Fields]",
+          "field": "All Fields",
+          "count": "83983",
+          "explode": "N"
+        },
+        "OR",
+        "GROUP",
+        "OR",
+        {
+          "term": "\"rna, small interfering\"[All Fields]",
+          "field": "All Fields",
+          "count": "84043",
+          "explode": "N"
+        },
+        {
+          "term": "\"rna, small interfering\"[MeSH Terms]",
+          "field": "MeSH Terms",
+          "count": "84043",
+          "explode": "Y"
+        },
+        "OR",
+        {
+          "term": "shRNA[All Fields]",
+          "field": "All Fields",
+          "count": "64825",
+          "explode": "N"
+        },
+        "OR",
+        "GROUP",
+        "OR",
+        {
+          "term": "overexpression[All Fields]",
+          "field": "All Fields",
+          "count": "53056",
+          "explode": "N"
+        },
+        "OR",
+        {
+          "term": "perturbation[All Fields]",
+          "field": "All Fields",
+          "count": "14889",
+          "explode": "N"
+        },
+        "OR",
+        "GROUP",
+        "AND"
+      ],
+      "querytranslation": "FXYD5[Title] AND (knockdown[All Fields] OR knockout[All Fields] OR CRISPR[All Fields] OR (\"rna, small interfering\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR siRNA[All Fields]) OR (\"rna, small interfering\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR shRNA[All Fields]) OR overexpression[All Fields] OR perturbation[All Fields])"
+    }
+  },
+  "summary_json": {}
+}

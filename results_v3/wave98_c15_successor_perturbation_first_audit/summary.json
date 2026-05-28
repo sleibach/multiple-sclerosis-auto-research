@@ -1,0 +1,28 @@
+{
+  "analysis_call": "NO_REOPEN_C15_SUCCESSOR_TARGET",
+  "call_counts": {
+    "NO_GO_C15_SUCCESSOR_PERTURBATION_FIRST": 2,
+    "NO_GO_CLOSE_PRIOR_OR_SAFETY_BLOCKED": 1,
+    "PARK_PERTURBATION_ORDERING_REQUIRED": 1
+  },
+  "candidates": [
+    "LITAF",
+    "PLEK2",
+    "CASP4",
+    "PIK3R2"
+  ],
+  "inputs": {
+    "wave18": "results_v3/wave18_foundation_rescue/foundation_rescue_candidate_rank.tsv",
+    "wave37": "results_v3/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv",
+    "wave39": "results_v3/wave39_surfaceome_rescue_after_resolution_pivot/surfaceome_rescue_rank_full.tsv",
+    "wave55": "results_v3/wave55_external_genetics_druggability_sweep/external_genetics_rank.tsv",
+    "wave62": "results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv",
+    "wave68": "results_v3/wave68_gse282122_unrestricted_gene_screen/integrated_gene_target_rank.tsv",
+    "wave81": "results_v3/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv",
+    "wave96": "results_v3/wave96_c15orf48_controller_search/c15orf48_controller_candidate_rank.tsv",
+    "wave97": "results_v3/wave97_c15_residual_costate_falsification/residual_costate_candidate_summary.tsv"
+  },
+  "seed": 20260527,
+  "top_call": "PARK_PERTURBATION_ORDERING_REQUIRED",
+  "top_gene": "LITAF"
+}

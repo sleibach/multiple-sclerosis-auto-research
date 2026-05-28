@@ -1,0 +1,57 @@
+{
+  "controller_like_contrast_count": 0,
+  "controller_like_contrasts": [],
+  "interpretation_guardrail": "Controller-like means module-direction consistency only. It is not a therapeutic claim without independent genetics, novelty, modality, delivery, and disease-relevance gates.",
+  "n_contrasts": 29,
+  "n_datasets": 10,
+  "n_module_contrast_rows": 145,
+  "resolution_without_ifn_collapse_count": 5,
+  "seed": 20260527,
+  "top_resolution_without_ifn_collapse": [
+    {
+      "contrast": "WT_CPZ_cd229pos_cd11cneg_vs_WT_Basal",
+      "dataset": "GSE302857_Trem2KO_cuprizone_microglia",
+      "generic_ifn": 1.8965707167369015,
+      "lipid_lysosomal_apc": 2.004999176770743,
+      "resolution_efferocytosis": 0.7208863024546395,
+      "statistical_status": "welch_t",
+      "stress_cytotoxicity": -1.0603425043394683
+    },
+    {
+      "contrast": "WT_CPZ_cd229pos_cd11cpos_vs_WT_Basal",
+      "dataset": "GSE302857_Trem2KO_cuprizone_microglia",
+      "generic_ifn": 2.0360505310561656,
+      "lipid_lysosomal_apc": 2.172439263181619,
+      "resolution_efferocytosis": 0.7179001187488981,
+      "statistical_status": "welch_t",
+      "stress_cytotoxicity": -1.0800720598383657
+    },
+    {
+      "contrast": "WT_CPZ_neg_neg_vs_WT_Basal",
+      "dataset": "GSE302857_Trem2KO_cuprizone_microglia",
+      "generic_ifn": 1.582609957935655,
+      "lipid_lysosomal_apc": 1.126992110050847,
+      "resolution_efferocytosis": 0.3431301468305068,
+      "statistical_status": "welch_t",
+      "stress_cytotoxicity": -0.28493734301180856
+    },
+    {
+      "contrast": "IL10_Treg_phago_vs_IL10_nonphago",
+      "dataset": "GSE325329_ifng_il10_phagocytic_macrophages",
+      "generic_ifn": 0.16873338725706333,
+      "lipid_lysosomal_apc": 0.11938834549896932,
+      "resolution_efferocytosis": 0.31424811758952836,
+      "statistical_status": "welch_t",
+      "stress_cytotoxicity": -0.24766761911006738
+    },
+    {
+      "contrast": "Aged_BEX_vs_Aged_vehicle",
+      "dataset": "GSE287142_RXR_bexarotene_CNS_myeloid",
+      "generic_ifn": -0.09390065935170161,
+      "lipid_lysosomal_apc": 0.024431353111945192,
+      "resolution_efferocytosis": 0.28613503439365795,
+      "statistical_status": "welch_t",
+      "stress_cytotoxicity": -0.341876104704202
+    }
+  ]
+}

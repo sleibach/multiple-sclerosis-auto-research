@@ -1,0 +1,303 @@
+{
+  "_request_url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=APOL1&limit=10",
+  "_status_code": 200,
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Apolipoprotein L1",
+      "score": 18.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL4680021",
+      "target_components": [
+        {
+          "accession": "O14791",
+          "component_description": "Apolipoprotein L1",
+          "component_id": 19613,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "Apo-L",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ApoL",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "APOL",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "APOL1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "ApoL-I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Apolipoprotein L",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Apolipoprotein L1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Apolipoprotein L-I",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "O14791",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "O14791",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005615",
+              "xref_name": "extracellular space",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005788",
+              "xref_name": "endoplasmic reticulum lumen",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0034361",
+              "xref_name": "very-low-density lipoprotein particle",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0034364",
+              "xref_name": "high-density lipoprotein particle",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0072562",
+              "xref_name": "blood microparticle",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005254",
+              "xref_name": "chloride channel activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008289",
+              "xref_name": "lipid binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006869",
+              "xref_name": "lipid transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008203",
+              "xref_name": "cholesterol metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045087",
+              "xref_name": "innate immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051838",
+              "xref_name": "cytolysis by host of symbiont cells",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1902476",
+              "xref_name": "chloride transmembrane transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:618",
+              "xref_name": "APOL1",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "O14791",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR008405",
+              "xref_name": "ApoL",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR14096",
+              "xref_name": "APOLIPOPROTEIN L",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR14096:SF55",
+              "xref_name": "APOLIPOPROTEIN L1",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "7L6K",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7LF7",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7LFA",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7LFB",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7LFD",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7LF7",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7LFA",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7LFB",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7LFD",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF05461",
+              "xref_name": "ApoL",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA24904",
+              "xref_name": "apolipoprotein L1",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "O14791",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-2168880",
+              "xref_name": "Scavenging of heme from plasma",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-381426",
+              "xref_name": "Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-8957275",
+              "xref_name": "Post-translational protein phosphorylation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "A5PLQ4",
+              "xref_name": "Apolipoprotein L1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "B4DU12",
+              "xref_name": "Apolipoprotein L1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "E9PF24",
+              "xref_name": "Apolipoprotein L1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O14791",
+              "xref_name": "Apolipoprotein L1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O60804",
+              "xref_name": "Apolipoprotein L1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q5R3P7",
+              "xref_name": "Apolipoprotein L1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q5R3P8",
+              "xref_name": "Apolipoprotein L1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q96AB8",
+              "xref_name": "Apolipoprotein L1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q96PM4",
+              "xref_name": "Apolipoprotein L1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9BQ03",
+              "xref_name": "Apolipoprotein L1",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

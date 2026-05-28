@@ -1,0 +1,61 @@
+{
+  "payload": {
+    "hitCount": 9,
+    "nextCursorMark": "AoIIQC5viSg1NDAxNTUwMg==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=GATD3 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQC5viSg1NDAxNTUwMg==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "GATD3 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Fu P, Wu F, Xu Q, Yang H, Lu Y, Shen G, Zhang S.",
+          "citedByCount": 0,
+          "doi": "10.1049/syb2.70042",
+          "firstIndexDate": "2025-10-12",
+          "firstPublicationDate": "2025-01-01",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12515057"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "41075287",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "1",
+          "journalIssn": "1751-8849; 1751-8857; ",
+          "journalTitle": "IET Syst Biol",
+          "journalVolume": "19",
+          "pageInfo": "e70042",
+          "pmcid": "PMC12515057",
+          "pmid": "41075287",
+          "pubType": "research-article; journal article",
+          "pubYear": "2025",
+          "source": "MED",
+          "title": "Co-Expression Transcriptomic Profiling Identifies Sex-Universal Molecular Markers of Muscle Atrophy.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "geo"
+            ]
+          }
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=GATD3+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

@@ -1,0 +1,32 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr2",
+        "dataSource": "HAVANA",
+        "description": "fibroblast activation protein alpha [Source:HGNC Symbol;Acc:HGNC:3590]",
+        "end": 162245151,
+        "entrezGeneId": 2191,
+        "gencodeId": "ENSG00000078098.13",
+        "gencodeVersion": "v26",
+        "geneStatus": "",
+        "geneSymbol": "FAP",
+        "geneSymbolUpper": "FAP",
+        "geneType": "protein coding",
+        "genomeBuild": "GRCh38/hg38",
+        "start": 162170684,
+        "strand": "-",
+        "tss": 162245151
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 3,
+      "numberOfPages": 1,
+      "page": 0,
+      "totalNumberOfItems": 1
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/reference/gene?geneId=FAP&gencodeVersion=v26&genomeBuild=GRCh38%2Fhg38&itemsPerPage=3"
+}

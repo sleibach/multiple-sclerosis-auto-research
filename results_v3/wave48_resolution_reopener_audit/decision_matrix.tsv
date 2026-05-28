@@ -1,0 +1,17 @@
+route	gate	passed	value	rationale
+FPR2_ANXA1_BIASED_RESOLUTION	specific_directionality	True	True	requires biased ligand or receptor-specific direction
+FPR2_ANXA1_BIASED_RESOLUTION	cross_autoimmune_local_signal	True	4.0	requires at least three disease/tissue signals
+FPR2_ANXA1_BIASED_RESOLUTION	strict_ms_anchor	False	False	requires positive MS expression/state or target-resolved MS genetics
+FPR2_ANXA1_BIASED_RESOLUTION	real_perturbation_anchor	False	False	requires real disease-relevant perturbation rather than expression recurrence
+FPR2_ANXA1_BIASED_RESOLUTION	foundation_model_support	False	False	requires disease-context support beyond a single token/small context
+FPR2_ANXA1_BIASED_RESOLUTION	druggability_selectivity	True	True	requires targetable chemical/biologic matter and plausible selectivity
+FPR2_ANXA1_BIASED_RESOLUTION	prior_art_not_blocking	True	NOT_BLOCKED_BUT_IMMATURE	requires no blocking patent/clinical/prior-art status in route audit
+FPR2_ANXA1_BIASED_RESOLUTION	novelty_delta_sufficient	False	1064	requires a direct delta beyond known autoimmune/efferocytosis literature
+CD300_RECEPTOR_SPECIFIC_TUNING	specific_directionality	False	False	requires biased ligand or receptor-specific direction
+CD300_RECEPTOR_SPECIFIC_TUNING	cross_autoimmune_local_signal	True	3.0	requires at least three disease/tissue signals
+CD300_RECEPTOR_SPECIFIC_TUNING	strict_ms_anchor	False	False	requires positive MS expression/state or target-resolved MS genetics
+CD300_RECEPTOR_SPECIFIC_TUNING	real_perturbation_anchor	False	False	requires real disease-relevant perturbation rather than expression recurrence
+CD300_RECEPTOR_SPECIFIC_TUNING	foundation_model_support	True	True	requires disease-context support beyond a single token/small context
+CD300_RECEPTOR_SPECIFIC_TUNING	druggability_selectivity	False	False	requires targetable chemical/biologic matter and plausible selectivity
+CD300_RECEPTOR_SPECIFIC_TUNING	prior_art_not_blocking	True	NOT_BLOCKED_BUT_DIRECTION_AMBIGUOUS	requires no blocking patent/clinical/prior-art status in route audit
+CD300_RECEPTOR_SPECIFIC_TUNING	novelty_delta_sufficient	False	145	requires a direct delta beyond known autoimmune/efferocytosis literature

@@ -1,0 +1,53 @@
+{
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22dysadherin%22+AND+%28%22Perturb-seq%22+OR+Perturbseq+OR+%22single-cell+CRISPR%22+OR+scCRISPR%29&format=json&pageSize=5&resultType=lite",
+  "status": 200,
+  "json": {
+    "version": "6.9",
+    "hitCount": 1,
+    "request": {
+      "queryString": "\"dysadherin\" AND (\"Perturb-seq\" OR Perturbseq OR \"single-cell CRISPR\" OR scCRISPR)",
+      "resultType": "lite",
+      "cursorMark": "*",
+      "pageSize": 5,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "id": "40498965",
+          "source": "MED",
+          "pmid": "40498965",
+          "pmcid": "PMC12155586",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12155586"
+            ]
+          },
+          "doi": "10.1002/1878-0261.70070",
+          "title": "EACR 2025 Congress: Innovative Cancer Science, 16-19 June 2025.",
+          "journalTitle": "Mol Oncol",
+          "journalVolume": "19 Suppl 1",
+          "pubYear": "2025",
+          "journalIssn": "1574-7891; 1878-0261; ",
+          "pageInfo": "1-895",
+          "pubType": "conference proceedings; abstract",
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "citedByCount": 0,
+          "hasReferences": "N",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasTMAccessionNumbers": "N",
+          "firstIndexDate": "2025-06-12",
+          "firstPublicationDate": "2025-06-01"
+        }
+      ]
+    }
+  }
+}

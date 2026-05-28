@@ -1,0 +1,16 @@
+route	h5ad_contexts_present	h5ad_positive_context_count	h5ad_positive_disease_count	h5ad_positive_diseases	h5ad_negative_context_count	h5ad_negative_disease_count	h5ad_negative_diseases	h5ad_best_positive_contexts	h5ad_best_negative_contexts
+FPR2_ANXA1_BIASED_RESOLUTION	17	4	3	Crohn disease;type 1 diabetes mellitus;ulcerative colitis	0	0		t1d_beta_cell:1.594,p=0.000141;ibd_uc_epithelial:3.972,p=0.000142;t1d_acinar_cell:2.841,p=0.000237	
+CD300_RECEPTOR_SPECIFIC_TUNING	16	2	2	psoriasis;ulcerative colitis	0	0		psoriasis_skin_apc:1.188,p=0.000284;ibd_uc_myeloid:1.13,p=0.0189	
+GPR65_ENDOLYSOSOMAL_PH_CAMP	15	1	1	Sjogren syndrome	2	2	type 1 diabetes mellitus;ulcerative colitis	sjogren_gland_epithelial:0.74,p=0.0212	ibd_uc_stromal:-1.845,p=0.00348;t1d_ductal_cell:-0.576,p=0.0282
+GPR183_EBI2_OXYSTEROL_NICHE	17	2	1	type 1 diabetes mellitus	1	1	ulcerative colitis	t1d_endothelial_cell:1.262,p=0.00236;t1d_ductal_cell:0.371,p=0.0278	ibd_uc_epithelial:-1.303,p=0.0458
+MERTK_AXL_TAM_GAS6_PROS1_AGONISM	17	0	0		5	3	Sjogren syndrome;psoriasis;ulcerative colitis		ibd_uc_stromal:-0.842,p=0.00335;psoriasis_keratinocyte:-0.381,p=0.00608;ibd_uc_epithelial:-0.479,p=0.0137
+LXR_ABCA1_ABCG1_EFFLUX	17	0	0		1	1	psoriasis		psoriasis_skin_apc:-0.504,p=0.0377
+PPAR_RXR_LIPID_REPAIR	17	4	1	type 1 diabetes mellitus	2	2	psoriasis;ulcerative colitis	t1d_stellate_cell:0.565,p=0.00313;t1d_beta_cell:0.56,p=0.0144;t1d_ductal_cell:0.466,p=0.0331	ibd_uc_stromal:-0.626,p=0.000546;psoriasis_skin_apc:-0.543,p=0.0264
+NPC1_NPC2_CHOLESTEROL_EGRESS	17	1	1	type 1 diabetes mellitus	0	0		t1d_acinar_cell:0.585,p=0.0108	
+LIPA_LAL_LYSOSOMAL_LIPID_CLEARANCE	17	4	3	Crohn disease;psoriasis;type 1 diabetes mellitus	1	1	ulcerative colitis	t1d_ductal_cell:0.89,p=8.74e-09;t1d_acinar_cell:0.823,p=0.0128;psoriasis_keratinocyte:1.062,p=0.0492	ibd_uc_myeloid:-1.912,p=0.0334
+FADS_DESATURATION_AXIS	17	7	4	Crohn disease;psoriasis;type 1 diabetes mellitus;ulcerative colitis	0	0		ibd_uc_stromal:1.141,p=0.000165;ibd_crohn_epithelial:1.545,p=0.00107;psoriasis_skin_stromal:0.978,p=0.0143	
+SCD_MONOUNSATURATED_LIPID_AXIS	17	5	4	Crohn disease;psoriasis;type 1 diabetes mellitus;ulcerative colitis	1	1	ulcerative colitis	psoriasis_keratinocyte:3.516,p=0.000195;ibd_uc_epithelial:2.815,p=0.000528;ibd_crohn_epithelial:2.551,p=0.00179	ibd_uc_myeloid:-2.839,p=0.016
+SQLE_STEROL_SYNTHESIS_AXIS	17	4	4	Crohn disease;psoriasis;type 1 diabetes mellitus;ulcerative colitis	0	0		ibd_uc_stromal:1.646,p=0.00033;ibd_crohn_stromal:1.714,p=0.00116;t1d_endothelial_cell:1.299,p=0.0163	
+AHR_BARRIER_IMMUNE_METABOLITE_AXIS	17	3	3	Crohn disease;psoriasis;ulcerative colitis	0	0		psoriasis_skin_stromal:1.395,p=0.0148;ibd_uc_epithelial:1.11,p=0.0149;ibd_crohn_epithelial:1.074,p=0.018	
+PTGER4_PROSTAGLANDIN_E2_AXIS	17	2	2	Crohn disease;type 1 diabetes mellitus	2	2	psoriasis;ulcerative colitis	t1d_ductal_cell:0.803,p=0.00217;ibd_crohn_myeloid:0.869,p=0.029	ibd_uc_stromal:-1.088,p=0.011;psoriasis_keratinocyte:-1.424,p=0.0205
+NAMPT_HIF_METABOLIC_STRESS	17	10	4	Crohn disease;psoriasis;type 1 diabetes mellitus;ulcerative colitis	0	0		ibd_crohn_epithelial:1.145,p=1.14e-07;ibd_uc_epithelial:1.402,p=1.31e-05;ibd_crohn_myeloid:1.455,p=0.00177	

@@ -1,0 +1,20 @@
+{
+  "random_seed": 20260528,
+  "candidate": "MIF_CD74_STRATIFICATION",
+  "tier0_question": "Can a CD74/CD44/CXCR4/HLA-II receptor-state score serve as a predictive/enrichment biomarker rather than a universal target?",
+  "criteria": {
+    "ms_residual_nominal": true,
+    "cross_disease_residual_fdr10_in_2_systems": false,
+    "component_resolved_cd74_receptor_without_hla_done": false,
+    "treatment_resistance_or_remission_interaction_available": false,
+    "prior_art_delta_is_stratification_not_target": true
+  },
+  "nominal_residual_systems": [
+    "MS",
+    "Sjogren syndrome"
+  ],
+  "fdr10_residual_systems": [],
+  "mif_cd74_in_remission_interaction_table": false,
+  "tier0_call": "PARK_TIER0_COMPONENT_AND_TREATMENT_INTERACTION_REQUIRED",
+  "interpretation": "The branch survives only as a parked stratification hypothesis. MS white-matter microglia show nominal IFN-residual support, but no MIF/CD74 residual test survives FDR<=0.10, cross-disease residual breadth is weak, component-resolved CD74-vs-HLA testing is not locally complete, and the available IBD remission interaction table does not test the MIF/CD74 module."
+}

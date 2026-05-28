@@ -1,0 +1,97 @@
+{
+  "random_seed": 20260526,
+  "n_tests": 660,
+  "n_lipa_raw_positive_nominal": 3,
+  "n_lipa_raw_negative_nominal": 2,
+  "lipa_raw_positive_analyses": [
+    {
+      "analysis": "ibd_crohn_epithelial",
+      "disease_name": "Crohn disease",
+      "compartment": "colon epithelial",
+      "raw_delta_case_minus_control": 0.10166854196387064,
+      "raw_hedges_g": 1.361692169587448,
+      "raw_p": 0.04626555657829443
+    },
+    {
+      "analysis": "psoriasis_keratinocyte",
+      "disease_name": "psoriasis",
+      "compartment": "skin keratinocyte",
+      "raw_delta_case_minus_control": 0.3039484567114809,
+      "raw_hedges_g": 3.6394969896678155,
+      "raw_p": 0.007216508595919632
+    },
+    {
+      "analysis": "t1d_ductal_cell",
+      "disease_name": "type 1 diabetes mellitus",
+      "compartment": "pancreatic ductal cell",
+      "raw_delta_case_minus_control": 0.31598508254159974,
+      "raw_hedges_g": 2.606175864744595,
+      "raw_p": 0.0015668692536479113
+    }
+  ],
+  "lipa_raw_negative_analyses": [
+    {
+      "analysis": "ibd_crohn_myeloid",
+      "disease_name": "Crohn disease",
+      "compartment": "colon myeloid",
+      "raw_delta_case_minus_control": -0.3333006375494671,
+      "raw_hedges_g": -1.3475355708659789,
+      "raw_p": 0.03828761062566489
+    },
+    {
+      "analysis": "ibd_uc_myeloid",
+      "disease_name": "ulcerative colitis",
+      "compartment": "colon myeloid",
+      "raw_delta_case_minus_control": -0.3596520870065406,
+      "raw_hedges_g": -1.5000005168636494,
+      "raw_p": 0.02775210390682472
+    }
+  ],
+  "lipa_residual_retained_nominal_tests": [
+    {
+      "analysis": "psoriasis_keratinocyte",
+      "disease_name": "psoriasis",
+      "compartment": "skin keratinocyte",
+      "covariate_module": "inflammatory_nfkb",
+      "covariate_r2": 0.11340155723905565,
+      "residual_delta_case_minus_control": 0.27110169803797,
+      "residual_hedges_g": 2.5717326889040115,
+      "residual_p": 0.022545906939055668,
+      "residual_fdr": 0.3854181346275674
+    },
+    {
+      "analysis": "t1d_ductal_cell",
+      "disease_name": "type 1 diabetes mellitus",
+      "compartment": "pancreatic ductal cell",
+      "covariate_module": "hif_nampt_metabolic",
+      "covariate_r2": 0.21997516521973484,
+      "residual_delta_case_minus_control": 0.23283784559470788,
+      "residual_hedges_g": 1.8387405465219715,
+      "residual_p": 0.0016356949043123657,
+      "residual_fdr": 0.11550510183560647
+    },
+    {
+      "analysis": "t1d_ductal_cell",
+      "disease_name": "type 1 diabetes mellitus",
+      "compartment": "pancreatic ductal cell",
+      "covariate_module": "lipid_loader_repair",
+      "covariate_r2": 0.11848201917198856,
+      "residual_delta_case_minus_control": 0.2753406387744213,
+      "residual_hedges_g": 2.224978011316177,
+      "residual_p": 0.00031370482412267103,
+      "residual_fdr": 0.08626882663373453
+    },
+    {
+      "analysis": "t1d_ductal_cell",
+      "disease_name": "type 1 diabetes mellitus",
+      "compartment": "pancreatic ductal cell",
+      "covariate_module": "lysosomal_apc",
+      "covariate_r2": 0.5546391322718014,
+      "residual_delta_case_minus_control": 0.1477221021450806,
+      "residual_hedges_g": 1.4137723589072417,
+      "residual_p": 0.007025583775368719,
+      "residual_fdr": 0.2272982986148703
+    }
+  ],
+  "guardrail": "Univariate residuals control one same-compartment module at a time. They do not prove causality or fully remove severity, tissue damage, batch, or donor composition."
+}

@@ -1,0 +1,284 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3AP4HB%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "10636893",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "12485997",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "21670307",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "32149426",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "This multifunctional protein catalyzes the formation, breakage and rearrangement of disulfide bonds. At the cell surface, seems to act as a reductase that cleaves disulfide bonds of proteins attached to the cell. May therefore cause structural modifications of exofacial proteins. Inside the cell, seems to form/rearrange disulfide bonds of nascent proteins. At high concentrations and following phosphorylation by FAM20C, functions as a chaperone that inhibits aggregation of misfolded proteins (PubMed:32149426). At low concentrations, facilitates aggregation (anti-chaperone activity). May be involved with other chaperones in the structural modification of the TG precursor in hormone biogenesis. Also acts as a structural subunit of various enzymes such as prolyl 4-hydroxylase and microsomal triacylglycerol transfer protein MTTP. Receptor for LGALS9; the interaction retains P4HB at the cell surface of Th2 T helper cells, increasing disulfide reductase activity at the plasma membrane, altering the plasma membrane redox state and enhancing cell migration (PubMed:21670307)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "10636893",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "11181151",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "23475612",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "value": "Highly abundant. In some cell types, seems to be also secreted or associated with the plasma membrane, where it undergoes constant shedding and replacement from intracellular sources (Probable). Localizes near CD4-enriched regions on lymphoid cell surfaces (PubMed:11181151). Identified by mass spectrometry in melanosome fractions from stage I to stage IV (PubMed:10636893). Colocalizes with MTTP in the endoplasmic reticulum (PubMed:23475612)"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "23475612",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "32149426",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0095",
+                "value": "Endoplasmic reticulum"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "10636893",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "23475612",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0096",
+                "value": "Endoplasmic reticulum lumen"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "12643545",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "17081065",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0161",
+                "value": "Melanosome"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "21670307",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-9903",
+                "value": "Peripheral membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000000CAA"
+      },
+      "features": [
+        {
+          "description": "Nucleophile",
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 53
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 53
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "Nucleophile",
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 56
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 56
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "Nucleophile",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 397
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 397
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "Nucleophile",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 400
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 400
+            }
+          },
+          "type": "Active site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "P4HB"
+          },
+          "synonyms": [
+            {
+              "value": "ERBA2L"
+            },
+            {
+              "value": "PDI"
+            },
+            {
+              "value": "PDIA1"
+            },
+            {
+              "value": "PO4DB"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P07237",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Cellular thyroid hormone-binding protein"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Prolyl 4-hydroxylase subunit beta"
+            }
+          },
+          {
+            "fullName": {
+              "value": "p55"
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "32149426",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "5.3.4.1"
+            }
+          ],
+          "fullName": {
+            "value": "Protein disulfide-isomerase"
+          },
+          "shortNames": [
+            {
+              "value": "PDI"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

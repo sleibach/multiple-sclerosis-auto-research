@@ -1,0 +1,393 @@
+{
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D003920",
+              "term": "Diabetes Mellitus"
+            },
+            {
+              "id": "D044882",
+              "term": "Glucose Metabolism Disorders"
+            },
+            {
+              "id": "D008659",
+              "term": "Metabolic Diseases"
+            },
+            {
+              "id": "D009750",
+              "term": "Nutritional and Metabolic Diseases"
+            },
+            {
+              "id": "D004700",
+              "term": "Endocrine System Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D003922",
+              "term": "Diabetes Mellitus, Type 1"
+            },
+            {
+              "id": "D007003",
+              "term": "Hypoglycemia"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D005768",
+              "term": "Gastrointestinal Hormones"
+            },
+            {
+              "id": "D006728",
+              "term": "Hormones"
+            },
+            {
+              "id": "D006730",
+              "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+            },
+            {
+              "id": "D036361",
+              "term": "Peptide Hormones"
+            },
+            {
+              "id": "D009479",
+              "term": "Neuropeptides"
+            },
+            {
+              "id": "D010455",
+              "term": "Peptides"
+            },
+            {
+              "id": "D000602",
+              "term": "Amino Acids, Peptides, and Proteins"
+            },
+            {
+              "id": "D009419",
+              "term": "Nerve Tissue Proteins"
+            },
+            {
+              "id": "D011506",
+              "term": "Proteins"
+            },
+            {
+              "id": "D000077324",
+              "term": "Crystalloid Solutions"
+            },
+            {
+              "id": "D007552",
+              "term": "Isotonic Solutions"
+            },
+            {
+              "id": "D012996",
+              "term": "Solutions"
+            },
+            {
+              "id": "D004364",
+              "term": "Pharmaceutical Preparations"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D005749",
+              "term": "Gastric Inhibitory Polypeptide"
+            },
+            {
+              "id": "D000077330",
+              "term": "Saline Solution"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Infusion of Glucose-dependent insulinotropic peptide",
+              "interventionNames": [
+                "Drug: glucose-dependent insulinotropic peptide"
+              ],
+              "label": "GIP",
+              "type": "ACTIVE_COMPARATOR"
+            },
+            {
+              "description": "Infusion of GIP\\[3-30\\]",
+              "interventionNames": [
+                "Drug: Glucose-Dependent Insulin-Releasing Hormone[3-30]"
+              ],
+              "label": "GIP[3-30]",
+              "type": "ACTIVE_COMPARATOR"
+            },
+            {
+              "description": "Infusion of saline",
+              "interventionNames": [
+                "Drug: Saline Solution"
+              ],
+              "label": "Saline",
+              "type": "PLACEBO_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "GIP"
+              ],
+              "description": "Infusion of GIP",
+              "name": "glucose-dependent insulinotropic peptide",
+              "type": "DRUG"
+            },
+            {
+              "armGroupLabels": [
+                "GIP[3-30]"
+              ],
+              "description": "Infusion of GIP antagonist GIP\\[3-30\\]",
+              "name": "Glucose-Dependent Insulin-Releasing Hormone[3-30]",
+              "type": "DRUG"
+            },
+            {
+              "armGroupLabels": [
+                "Saline"
+              ],
+              "description": "Infusion of Saline",
+              "name": "Saline Solution",
+              "otherNames": [
+                "Placebo"
+              ],
+              "type": "DRUG"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Diabetes Mellitus, Type 1"
+          ],
+          "keywords": [
+            "Diabetes Mellitus, Type 1",
+            "Hypoglycemia",
+            "Gastric Inhibitory Polypeptide",
+            "Glucagon",
+            "Incretin"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Hellerup",
+              "country": "Denmark",
+              "facility": "Steno Diabetes Center Copenhagen, Clinical Metabolic Physiology",
+              "geoPoint": {
+                "lat": 55.73204,
+                "lon": 12.57093
+              },
+              "zip": "2900"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Steno Diabetes Center Copenhagen, Clinical Metabolic Physiology",
+              "name": "Filip K Knop, MD, PhD",
+              "role": "STUDY_DIRECTOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "In the present project the investigators will evaluate whether glucagonotropic properties of the gut-derived incretin hormone glucose-dependent insulinotropic polypeptide (GIP) may be utilized as a safeguard against hypoglycemia in patients with T1D."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "CROSSOVER",
+            "interventionModelDescription": "Double blinded, randomized, cross-over study",
+            "maskingInfo": {
+              "masking": "DOUBLE",
+              "maskingDescription": "The peptides/placebo is prepared, in a randomized fashion, by a laboratory assistant..",
+              "whoMasked": [
+                "PARTICIPANT",
+                "INVESTIGATOR"
+              ]
+            },
+            "primaryPurpose": "BASIC_SCIENCE"
+          },
+          "enrollmentInfo": {
+            "count": 12,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Caucasian men\n* Body mass index between 20-27 kg/m\\^2\n* T1D (diagnosed according to the criteria of the World Health Organization) with HbA1c\\<69 mmol/l (\\<8,5%)\n* T1D duration between 2-20 years\n* Stimulated C-peptide \u2264 100 pmol/mL)\n* Treatment with a stable basal bolus or insulin pump regimen \u2265 3 months\n* Informed consent\n\nExclusion Criteria:\n\n* Anemia (hemoglobin below normal range)\n* Liver disease (ALAT and/or ASAT \\>2 times normal values) or history of hepatobiliary disorder\n* Nephropathy (serum creatinine above normal range and/or albuminuria)\n* Allergy or intolerance to ingredients included in the standardized meals\n* Prior myocardial infarction or other cardiac events\n* Any physical or psychological condition that the investigator fells would interfere with trial participation\n* Treatment with any glucose-lowering drugs beside insulin",
+          "healthyVolunteers": false,
+          "maximumAge": "70 Years",
+          "minimumAge": "18 Years",
+          "sex": "MALE",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Glucose-dependent Insulinotropic Polypeptide as a Safeguard Against Hypoglycemia in Patients With Type 1 Diabetes",
+          "nctId": "NCT03556098",
+          "officialTitle": "Glucose-dependent Insulinotropic Polypeptide as a Safeguard Against Hypoglycemia in Patients With Type 1 Diabetes",
+          "orgStudyIdInfo": {
+            "id": "H-18002707"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Steno Diabetes Center Copenhagen"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "UNDECIDED"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "plasma glucose excursions and plasma glucose nadir",
+              "measure": "plasma glucose concentration",
+              "timeFrame": "At times (minute): - 30, - 15, 0, 15, 30, 45, 60, 75, 90, 105, 120, 135, 150, 165, 180, 195, 210, 225, 240 on study days"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Counter regulatory hormones: glucagon, noradrenalin, cortisol, somatotropin, and insulin/c-peptide. Incremental and total area under the Concentration-Time Curve",
+              "measure": "Glucose regulatory hormones",
+              "timeFrame": "At times (minute): - 30, 0, 15, 30, 60, 90, 120, 150, 180, 210, 240 on study days"
+            },
+            {
+              "description": "Incretin hormones GLP-1 and GIP. Incremental and total area under the Concentration-Time Curve",
+              "measure": "Incretin hormones",
+              "timeFrame": "At times (minute): - 30, 0, 15, 30, 60, 90, 120, 150, 180, 210, 240 on study days"
+            },
+            {
+              "description": "GIP\\[3-30\\]. Incremental and total area under the Concentration-Time Curve",
+              "measure": "GIP[3-30]",
+              "timeFrame": "At times (minute): - 30, 0, 15, 30, 60, 90, 120, 150, 180, 210, 240 on study days"
+            },
+            {
+              "description": "Free fatty acids(FFA). Incremental and total area under the Concentration-Time Curve",
+              "measure": "Free fatty acids (FFA)",
+              "timeFrame": "At times (minute): - 30, 0, 15, 30, 60, 90, 120, 150, 180, 210, 240 on study days"
+            },
+            {
+              "description": "Assessment of gastric emptying",
+              "measure": "Blood analysis of paracetamol as an assessment of gastric emptying",
+              "timeFrame": "At times (minute): - 30, 0, 15, 30, 60, 90, 120, 150, 180, 210, 240 on study days"
+            },
+            {
+              "description": "Fat biopsy to evaluate changes in fat mRNA",
+              "measure": "Fat mRNA",
+              "timeFrame": "At time 240 minute on study days"
+            },
+            {
+              "description": "Fat biopsy to evaluate LPL changes in fat",
+              "measure": "Fat Lipoprotein lipase (LPL)",
+              "timeFrame": "At time 240 minute on study days"
+            },
+            {
+              "description": "Fat biopsy to evaluate Perilipin 4 changes in fat",
+              "measure": "Fat Perilipin 4",
+              "timeFrame": "At time 240 minute on study days"
+            },
+            {
+              "description": "Fat biopsy to evaluate Fatty acid binding protein 4 (FABP4) changes in fat",
+              "measure": "Fat Fatty acid binding protein 4 (FABP4)",
+              "timeFrame": "At time 240 minute on study days"
+            },
+            {
+              "description": "Fat biopsy to evaluate Hormonse-sensitive lipase (HSL) changes in fat",
+              "measure": "Fat Hormonse-sensitive lipase (HSL)",
+              "timeFrame": "At time 240 minute on study days"
+            },
+            {
+              "description": "Fat biopsy to evaluate Vascular endothelial growth factor 4 (VEGF-A) changes in fat",
+              "measure": "Fat Vascular endothelial growth factor 4 (VEGF-A)",
+              "timeFrame": "At time 240 minute on study days"
+            },
+            {
+              "description": "Fat biopsy to evaluate GIP receptor (GIPR) changes in fat",
+              "measure": "Fat GIP receptor (GIPR)",
+              "timeFrame": "At time 240 minute on study days"
+            },
+            {
+              "description": "Changes in blood pressure, mm Hg",
+              "measure": "Blood pressure",
+              "timeFrame": "At times (minute): - 30, 0, 15, 30, 60, 90, 120, 150, 180, 210, 240 on study days"
+            },
+            {
+              "description": "Changes in pulse, beats per minute",
+              "measure": "Pulse",
+              "timeFrame": "At times (minute): - 30, 0, 15, 30, 60, 90, 120, 150, 180, 210, 240 on study days"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": true
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Steno Diabetes Center Copenhagen"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Steno Diabetes Center Copenhagen",
+            "investigatorFullName": "Bj\u00f8rn Hoe",
+            "investigatorTitle": "Medical Doctor, PhD student, Prinicipal Investigator",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2020-02-11",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2021-05-10",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2021-05-05",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2020-02-11",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2019-02-22",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2021-05",
+          "studyFirstPostDateStruct": {
+            "date": "2018-06-14",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2018-04-16",
+          "studyFirstSubmitQcDate": "2018-06-01"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ATMSB10%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250"
+                }
+              ],
+              "value": "Plays an important role in the organization of the cytoskeleton. Binds to and sequesters actin monomers (G actin) and therefore inhibits actin polymerization (By similarity)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0090",
+                "value": "Cytoplasm, cytoskeleton"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000001110"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "TMSB10"
+          },
+          "synonyms": [
+            {
+              "value": "PTMB10"
+            },
+            {
+              "value": "THYB10"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P63313",
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "value": "Thymosin beta-10"
+          }
+        }
+      }
+    }
+  ]
+}

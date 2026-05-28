@@ -1,0 +1,316 @@
+gene	prior_source	prior_call	prior_reason
+ABCA1	wave19_lysosomal_candidates		
+ABCA1	wave19_lysosomal_routes	NO_GO	PPAR_LXR_cholesterol_efflux_activation: Local V3 signal is mixed/negative for PPARG/NR1H3/ABCG1 and promotion criteria explicitly demote saturated generic PPAR/LXR claims.
+ABCA1	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+ABCG1	wave19_lysosomal_candidates		
+ABCG1	wave19_lysosomal_routes	NO_GO	PPAR_LXR_cholesterol_efflux_activation: Local V3 signal is mixed/negative for PPARG/NR1H3/ABCG1 and promotion criteria explicitly demote saturated generic PPAR/LXR claims.
+ABCG1	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+ACSL1	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior V2/V3 lipid-metabolism route; local strict signal is IBD-stromal only and intervention direction remains unsafe
+ACSL3	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	lipid-metabolism adjacent route; no new intervention delta beyond prior lipid-handling failures
+APOC1	wave20_unrestricted	ADJACENT_DEMOTE_MODEL	manual_reason=post-triage Geneformer deletion screen showed no normalization support; wave20_rationale=Failed the previous survivor route.
+APOE	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+AQR	static_wave21_guardrail	CORE_MACHINERY	core machinery/stress/structural readout; no selective intervention delta
+AQR	wave20_orchestrator	DEMOTE_LOCAL_TRIAGE	
+AQR	wave20_unrestricted	NO_GO_CORE_SPLICEOSOME_MARKER	wave20_rationale=Expression recurrence only; core nuclear machinery is a kill under Wave19 gates.
+ASAH1	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+ATG16L1	wave20_genetic_altaxis	NO_GO	gate_failures=target-level coloc/MR signal not established; not druggable now for the required autoimmune direction; manual_blocker=Autophagy pathway modulation is indirect and broad; no selective ATG16L1 target engagement package.
+ATG5	wave19_lysosomal_candidates		
+ATG5	wave19_lysosomal_routes	NO_GO	mTOR_autophagy_modulation: Promotion criteria demote broad toxic lysosome/autophagy routes; local V3 does not rescue specificity.
+ATG7	wave19_lysosomal_candidates		
+ATG7	wave19_lysosomal_routes	NO_GO	mTOR_autophagy_modulation: Promotion criteria demote broad toxic lysosome/autophagy routes; local V3 does not rescue specificity.
+AXL	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior complement/Fc/TAM/TREM checkpoint-like route
+BCL6	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+BECN1	wave19_lysosomal_candidates		
+BECN1	wave19_lysosomal_routes	NO_GO	mTOR_autophagy_modulation: Promotion criteria demote broad toxic lysosome/autophagy routes; local V3 does not rescue specificity.
+BTLA	wave19_checkpoint	PARK	wave19_reason=state coupling below gate (0<3); checkpoint biology is not myeloid/APC-state selective; crowded prior art snapshot (EuropePMC=2105, CT.gov=2)
+BTLA	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+C15ORF48	wave20_orchestrator	PARK_FOR_WORKER_REVIEW	
+C15ORF48	wave20_unrestricted	STATE_MARKER_ONLY	manual_reason=strong expression marker but absent from Geneformer token dictionary in the current route; wave20_rationale=Strong expression marker, including myeloid IBD, but model-blocked and non-druggable.
+C1QA	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior complement route
+C1QB	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior complement route
+C1QC	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior complement route
+CARD9	wave20_genetic_altaxis	NO_GO	gate_failures=target-level coloc/MR signal not established; not druggable now for the required autoimmune direction; real perturbation or strong model support is insufficient; manual_blocker=No direct druggability now and infectious-risk direction is unfavorable.
+CBX3	static_wave21_guardrail	CORE_MACHINERY	core machinery/stress/structural readout; no selective intervention delta
+CBX3	wave20_orchestrator	PARK_FOR_WORKER_REVIEW	
+CBX3	wave20_unrestricted	ADJACENT_HOLD_GENERIC	manual_reason=chromatin/proliferation-associated; no clear lipid-lysosomal intervention point; wave20_rationale=The only strict residual positive in this set, but it is a chromatin/proliferation marker with no tractable safe direction.
+CD200	wave19_checkpoint	PARK	wave19_reason=state coupling below gate (0<3); crowded prior art snapshot (EuropePMC=2492, CT.gov=1)
+CD200R1	wave19_checkpoint	NO_GO	wave19_reason=local recurrence below gate (0<3 diseases/tissues); state coupling below gate (0<3); directional local negatives present (3 broad negative diseases); crowded prior art snapshot (EuropePMC=1250, CT.gov=0)
+CD200R1	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+CD24	wave19_checkpoint	PARK	wave19_reason=state coupling below gate (0<3); crowded prior art snapshot (EuropePMC=5154, CT.gov=1); known checkpoint/tolerance axis with non-novel autoimmune direction
+CD24	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	wave18_accessible_reason=state-coupled support below threshold (0<4 disease union); prior-art saturation high (EuropePMC=5154, ClinicalTrials=1)
+CD274	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior PD-L1 route
+CD274	wave19_checkpoint	PARK	wave19_reason=crowded prior art snapshot (EuropePMC=33145, CT.gov=5); known checkpoint/tolerance axis with non-novel autoimmune direction; tractable but saturated ChEMBL small-molecule/assay footprint (1875 nM records)
+CD274	wave19_orchestrator	PARK_FOR_WORKER_REVIEW	wave18_accessible_reason=state-coupled support below threshold (3<4 disease union); prior-art saturation high (EuropePMC=32490, ClinicalTrials=10)
+CD300A	wave19_checkpoint	NO_GO	wave19_reason=local recurrence below gate (0<3 diseases/tissues); state coupling below gate (0<3)
+CD300A	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+CD300E	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+CD300LF	wave19_checkpoint	NO_GO	wave19_reason=local recurrence below gate (1<3 diseases/tissues); state coupling below gate (0<3)
+CD300LF	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+CD44	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior CD44/SPP1 route
+CD47	wave19_checkpoint	PARK	wave19_reason=state coupling below gate (0<3); crowded prior art snapshot (EuropePMC=5095, CT.gov=0); known checkpoint/tolerance axis with non-novel autoimmune direction
+CD47	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	wave18_accessible_reason=local recurrence below promotion threshold (3<4 disease union); state-coupled support below threshold (0<4 disease union); prior-art saturation high (EuropePMC=5542, ClinicalTrials=0); intervention direction is repair/checkpoint-context dependent
+CD74	wave14_gate_matrix	HAND_CURATED	prior hand-curated gate matrix candidate=IFNG_HLAII_CD74_transition_state
+CFB	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	complement route; already excluded unless a new selective intervention delta appears
+CHI3L1	wave20_unrestricted	ADJACENT_DEMOTE_PRIOR_ART	manual_reason=crowded YKL-40 biomarker/target prior art; wave20_rationale=Accessible but crowded and marker-like.
+CIITA	wave14_gate_matrix	HAND_CURATED	prior hand-curated gate matrix candidate=CIITA_RFX5_HLAII_transcriptional_gate
+CIITA	wave14_gate_matrix	HAND_CURATED	prior hand-curated gate matrix candidate=GSK3B_CIITA_controller
+CIITA	wave14_gate_matrix	HAND_CURATED	prior hand-curated gate matrix candidate=IFNG_HLAII_CD74_transition_state
+CISH	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+CLEC12A	wave19_checkpoint	PARK_LOW	wave19_reason=local recurrence below gate (2<3 diseases/tissues); state coupling below gate (0<3); crowded prior art snapshot (EuropePMC=12023, CT.gov=0)
+CLEC16A	wave14_gate_matrix	HAND_CURATED	prior hand-curated gate matrix candidate=CLEC16A_autophagy_locus
+CLEC16A	wave20_genetic_altaxis	NO_GO	gate_failures=target-level coloc/MR signal not established; not druggable now for the required autoimmune direction; manual_blocker=No selective direct CLEC16A drug; locus ambiguity and indirect mitophagy modulators block target-level promotion.
+COL4A1	static_wave21_guardrail	CORE_MACHINERY	core machinery/stress/structural readout; no selective intervention delta
+CSK	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+CTSB	wave19_lysosomal_candidates		
+CTSD	wave19_lysosomal_candidates		
+CTSH	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior cathepsin route
+CTSH	wave19_lysosomal_candidates		
+CTSS	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior cathepsin route
+CTSS	wave14_gate_matrix	HAND_CURATED	prior hand-curated gate matrix candidate=IFNG_HLAII_CD74_transition_state
+CTSS	wave19_lysosomal_candidates		
+CXCL10	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+CXCL8	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	generic inflammatory chemokine route without a new population or delivery delta
+CXCL9	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+CXCL9	wave20_orchestrator	DEMOTE_LOCAL_TRIAGE	
+CXCL9	wave20_unrestricted	ADJACENT_HOLD_GENERIC_IFN	manual_reason=IFN/CXCR3 chemokine axis; likely broad inflammatory trafficking rather than module-specific node; wave20_rationale=Expression recurrence is IFN/APC-density confounded.
+DAP	wave20_orchestrator	PARK_FOR_WORKER_REVIEW	
+DAP	wave20_unrestricted	NO_GO_STRESS_MARKER	wave20_rationale=Model signal is not enough; biology is generic IFN/death/autophagy.
+FCGR2B	wave19_checkpoint	NO_GO	wave19_reason=local recurrence below gate (1<3 diseases/tissues); state coupling below gate (1<3); directional local negatives present (1 broad negative diseases); crowded prior art snapshot (EuropePMC=1873, CT.gov=1)
+FMNL2	wave20_orchestrator	PARK_FOR_WORKER_REVIEW	
+FMNL2	wave20_unrestricted	NO_GO_INTRACELLULAR_REMODELING_MARKER	wave20_rationale=Broad expression recurrence is offset by weak residual/model evidence and non-druggable repair biology.
+GALC	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+GBA	wave19_lysosomal_candidates		
+GBA	wave19_lysosomal_routes	NO_GO	GBA_GBA2_sphingolipid_modulation: Local V3 recurrence is absent or negative for GBA/GBA2.
+GBA	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+GBA2	wave19_lysosomal_candidates		
+GBA2	wave19_lysosomal_routes	NO_GO	GBA_GBA2_sphingolipid_modulation: Local V3 recurrence is absent or negative for GBA/GBA2.
+GBA2	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+GPR65	wave14_gate_matrix	HAND_CURATED	prior hand-curated gate matrix candidate=GPR65_pH_endolysosomal_gpcr
+GPR65	wave20_genetic_altaxis	NO_GO	gate_failures=blocking or near-blocking prior art for autoimmune use; manual_blocker=GPR65 autoimmune/IBD therapeutic use and GPR65 modulators already appear in public literature/patents; no clinical-stage autoimmune drug or biomarker-defined population delta found.
+GSK3B	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior GSK3B route
+GSK3B	wave14_gate_matrix	HAND_CURATED	prior hand-curated gate matrix candidate=GSK3B_CIITA_controller
+HAVCR2	wave19_checkpoint	NO_GO	wave19_reason=local recurrence below gate (0<3 diseases/tissues); state coupling below gate (0<3); directional local negatives present (1 broad negative diseases); crowded prior art snapshot (EuropePMC=9050, CT.gov=5); known checkpoint/tolerance axis with non-novel autoimmune direction
+HAVCR2	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+HIF1A	static_wave21_guardrail	CORE_MACHINERY	core machinery/stress/structural readout; no selective intervention delta
+HIF1A	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	generic hypoxia/stress controller route without a new targetable delta
+IFI27	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+IFI30	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+IFI30	wave19_lysosomal_candidates		
+IFI35	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+IFI44	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+IFI44L	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+IFIT1	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+IFIT2	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+IFIT3	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+IFITM1	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+IFITM2	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+IFITM3	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+IFNAR1	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+IFNAR2	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+IFNG	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+IFNGR1	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+IFNGR2	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+IL10	wave20_genetic_altaxis	NO_GO	gate_failures=target-level coloc/MR signal not established; blocking or near-blocking prior art for autoimmune use; manual_blocker=IL-10 therapy has direct autoimmune/IBD prior art; no new biomarker-defined cross-autoimmune delta found in local data.
+IL6R	wave20_genetic_altaxis	NO_GO	gate_failures=target-level coloc/MR signal not established; blocking or near-blocking prior art for autoimmune use; manual_blocker=Approved/late clinical autoimmune use of IL-6R blockade is direct blocking prior art, with disease-specific safety/direction issues.
+IL7R	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	generic cytokine-receptor autoimmune target class with direct prior art
+INPP5D	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+IRF1	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+IRF5	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+IRF5	wave14_gate_matrix	HAND_CURATED	prior hand-curated gate matrix candidate=SLC15A4_TASL_IRF5_endolysosomal_checkpoint
+IRF5	wave20_genetic_altaxis	NO_GO	gate_failures=blocking or near-blocking prior art for autoimmune use; manual_blocker=Emerging small-molecule/degrader programs and lupus preclinical prior art are already direct; route is also close to generic TLR/type-I-IFN biology.
+IRF8	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+JAK1	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+JAK1	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+JAK2	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+JAK2	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+JAK3	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+KEAP1	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+LAIR1	wave19_checkpoint	NO_GO	wave19_reason=local recurrence below gate (1<3 diseases/tissues); state coupling below gate (0<3); directional local negatives present (2 broad negative diseases)
+LAIR1	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+LAMP1	wave19_lysosomal_candidates		
+LAMP2	wave19_lysosomal_candidates		
+LGALS3	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior galectin route
+LGALS9	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior galectin route
+LILRB1	wave19_checkpoint	PARK_LOW	wave19_reason=local recurrence below gate (2<3 diseases/tissues); state coupling below gate (0<3); crowded prior art snapshot (EuropePMC=1136, CT.gov=1)
+LILRB1	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	wave18_accessible_reason=local recurrence below promotion threshold (2<4 disease union); state-coupled support below threshold (0<4 disease union)
+LILRB2	wave19_checkpoint	PARK_LOW	wave19_reason=local recurrence below gate (2<3 diseases/tissues); state coupling below gate (0<3)
+LILRB2	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	wave18_accessible_reason=local recurrence below promotion threshold (2<4 disease union); state-coupled support below threshold (0<4 disease union)
+LILRB3	wave19_checkpoint	PARK_LOW	wave19_reason=local recurrence below gate (2<3 diseases/tissues); state coupling below gate (0<3)
+LILRB3	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+LILRB4	wave19_checkpoint	NO_GO	wave19_reason=local recurrence below gate (1<3 diseases/tissues); state coupling below gate (0<3)
+LILRB4	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+LILRB5	wave19_checkpoint	NO_GO	wave19_reason=local recurrence below gate (0<3 diseases/tissues); state coupling below gate (0<3); directional local negatives present (1 broad negative diseases)
+LILRB5	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+LIPA	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior lysosomal lipid route
+LIPA	wave19_lysosomal_candidates		
+LIPA	wave19_orchestrator	PARK_FOR_WORKER_REVIEW	
+LNK	wave14_gate_matrix	HAND_CURATED	prior hand-curated gate matrix candidate=SH2B3_LNK_cytokine_negative_regulator
+LRRK2	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior disease-specific lysosomal route
+LRRK2	wave19_lysosomal_candidates		
+LRRK2	wave19_lysosomal_routes	PARK_DISEASE_SPECIFIC	LRRK2_inhibition: Local support is IBD-skewed and lacks residual HLA-II/APC state coupling in Wave15 tables.
+LRRK2	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+LTA4H	wave20_unrestricted	ADJACENT_DEMOTE_PRIOR_ART	manual_reason=direct EAE/MS and inflammatory-disease inhibitor prior art; prior Geneformer veto; wave20_rationale=Druggable but prior-arted and generic.
+MAF	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+MAFB	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+MCOLN1	wave19_lysosomal_candidates		
+MCOLN1	wave19_lysosomal_routes	NO_GO_TOOL_ONLY	MCOLN1_TRPML1_activation: Local V3 broad h5ad signal is negative/absent for MCOLN1; no cross-disease state coupling table supports it.
+MCOLN1	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+MPHOSPH6	static_wave21_guardrail	CORE_MACHINERY	core machinery/stress/structural readout; no selective intervention delta
+MTOR	wave19_lysosomal_candidates		
+MTOR	wave19_lysosomal_routes	NO_GO	mTOR_autophagy_modulation: Promotion criteria demote broad toxic lysosome/autophagy routes; local V3 does not rescue specificity.
+MTOR	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+MX1	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+NAMPT	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior NAMPT/metabolic route
+NCK1	wave20_orchestrator	DEMOTE_LOCAL_TRIAGE	
+NCK1	wave20_unrestricted	MODALITY_COMPARATOR_ONLY	wave20_rationale=Useful as a druggability comparator, not as a V3 survivor target.
+NECTIN2	wave19_checkpoint	NO_GO	wave19_reason=local recurrence below gate (2<3 diseases/tissues); state coupling below gate (0<3); directional local negatives present (1 broad negative diseases); checkpoint biology is not myeloid/APC-state selective
+NFE2L2	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+NME1	static_wave21_guardrail	CORE_MACHINERY	core machinery/stress/structural readout; no selective intervention delta
+NPC1	wave19_lysosomal_candidates		
+NPC1	wave19_lysosomal_routes	PARK_READOUT	NPC1_NPC2_cholesterol_egress: NPC1/NPC2 local state coupling is confounder-dominant and lacks a selective activation drug package.
+NPC1	wave19_orchestrator	PARK_FOR_WORKER_REVIEW	
+NPC2	wave19_lysosomal_candidates		
+NPC2	wave19_lysosomal_routes	PARK_READOUT	NPC1_NPC2_cholesterol_egress: NPC1/NPC2 local state coupling is confounder-dominant and lacks a selective activation drug package.
+NPC2	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+NR1H2	wave19_lysosomal_candidates		
+NR1H2	wave19_lysosomal_routes	NO_GO	PPAR_LXR_cholesterol_efflux_activation: Local V3 signal is mixed/negative for PPARG/NR1H3/ABCG1 and promotion criteria explicitly demote saturated generic PPAR/LXR claims.
+NR1H2	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+NR1H3	wave19_lysosomal_candidates		
+NR1H3	wave19_lysosomal_routes	NO_GO	PPAR_LXR_cholesterol_efflux_activation: Local V3 signal is mixed/negative for PPARG/NR1H3/ABCG1 and promotion criteria explicitly demote saturated generic PPAR/LXR claims.
+NR1H3	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+OAS1	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+OAS2	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+OAS3	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+OSMR	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior OSMR/tissue-remodeling route
+OSMR	wave20_genetic_altaxis	NO_GO	gate_failures=target-level coloc/MR signal not established; real perturbation or strong model support is insufficient; manual_blocker=Existing OSM/OSMR inflammatory bowel/tissue-remodeling literature and limited cross-disease local biology block promotion.
+PDCD1LG2	wave19_checkpoint	NO_GO	wave19_reason=local recurrence below gate (1<3 diseases/tissues); state coupling below gate (0<3); crowded prior art snapshot (EuropePMC=10557, CT.gov=5)
+PDCD1LG2	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+PDLIM7	static_wave21_guardrail	CORE_MACHINERY	core machinery/stress/structural readout; no selective intervention delta
+PDPN	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	stromal/repair surface marker with repair-liability prior concern; no new direction delta
+PIKFYVE	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior lysosomal/autophagy route
+PIKFYVE	wave19_lysosomal_candidates		
+PIKFYVE	wave19_lysosomal_routes	NO_GO	PIKFYVE_inhibition: Wrong direction for restoring lipid-lysosomal/APC homeostasis and too broad/toxic for chronic shared-autoimmune modulation.
+PIKFYVE	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+PILRA	wave19_checkpoint	NO_GO	wave19_reason=local recurrence below gate (2<3 diseases/tissues); state coupling below gate (0<3); directional local negatives present (1 broad negative diseases)
+PLEK2	wave20_orchestrator	DEMOTE_LOCAL_TRIAGE	
+PLEK2	wave20_unrestricted	NO_GO_CYTOSKELETAL_MARKER	wave20_rationale=Strong MS nominal expression does not overcome zero residual/model/druggability support.
+PLIN2	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+POMP	static_wave21_guardrail	GENERIC_PROTEASOME	generic proteasome/immunoproteasome/core-proteostasis route; no new intervention delta
+PPARA	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+PPARD	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+PPARG	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior PPAR/LXR route
+PPARG	wave19_lysosomal_candidates		
+PPARG	wave19_lysosomal_routes	NO_GO	PPAR_LXR_cholesterol_efflux_activation: Local V3 signal is mixed/negative for PPARG/NR1H3/ABCG1 and promotion criteria explicitly demote saturated generic PPAR/LXR claims.
+PPARG	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+PPIB	static_wave21_guardrail	CORE_MACHINERY	core machinery/stress/structural readout; no selective intervention delta
+PPIL3	wave20_orchestrator	DEMOTE_LOCAL_TRIAGE	
+PPIL3	wave20_unrestricted	NO_GO_NONDRUGGABLE_INTRACELLULAR	wave20_rationale=Expression-only survivor with no direction or tractability.
+PPP3CA	wave20_orchestrator	DEMOTE_LOCAL_TRIAGE	
+PPP3CA	wave20_unrestricted	ADJACENT_DEMOTE_PRIOR_ART	manual_reason=calcineurin is drugged by cyclosporine/tacrolimus with broad toxicity and direct transplant/autoimmunity precedent; wave20_rationale=Druggable but not a novel or selective V3 target.
+PSMA1	static_wave21_guardrail	GENERIC_PROTEASOME	generic proteasome/immunoproteasome/core-proteostasis route; no new intervention delta
+PSMA2	static_wave21_guardrail	GENERIC_PROTEASOME	generic proteasome/immunoproteasome/core-proteostasis route; no new intervention delta
+PSMA3	static_wave21_guardrail	GENERIC_PROTEASOME	generic proteasome/immunoproteasome/core-proteostasis route; no new intervention delta
+PSMA4	static_wave21_guardrail	GENERIC_PROTEASOME	generic proteasome/immunoproteasome/core-proteostasis route; no new intervention delta
+PSMA5	static_wave21_guardrail	GENERIC_PROTEASOME	generic proteasome/immunoproteasome/core-proteostasis route; no new intervention delta
+PSMA6	static_wave21_guardrail	GENERIC_PROTEASOME	generic proteasome/immunoproteasome/core-proteostasis route; no new intervention delta
+PSMA7	static_wave21_guardrail	GENERIC_PROTEASOME	generic proteasome/immunoproteasome/core-proteostasis route; no new intervention delta
+PSMB1	static_wave21_guardrail	GENERIC_PROTEASOME	generic proteasome/immunoproteasome/core-proteostasis route; no new intervention delta
+PSMB10	static_wave21_guardrail	GENERIC_PROTEASOME	generic proteasome/immunoproteasome/core-proteostasis route; no new intervention delta
+PSMB2	static_wave21_guardrail	GENERIC_PROTEASOME	generic proteasome/immunoproteasome/core-proteostasis route; no new intervention delta
+PSMB3	static_wave21_guardrail	GENERIC_PROTEASOME	generic proteasome/immunoproteasome/core-proteostasis route; no new intervention delta
+PSMB4	static_wave21_guardrail	GENERIC_PROTEASOME	generic proteasome/immunoproteasome/core-proteostasis route; no new intervention delta
+PSMB5	static_wave21_guardrail	GENERIC_PROTEASOME	generic proteasome/immunoproteasome/core-proteostasis route; no new intervention delta
+PSMB6	static_wave21_guardrail	GENERIC_PROTEASOME	generic proteasome/immunoproteasome/core-proteostasis route; no new intervention delta
+PSMB7	static_wave21_guardrail	GENERIC_PROTEASOME	generic proteasome/immunoproteasome/core-proteostasis route; no new intervention delta
+PSMB8	static_wave21_guardrail	GENERIC_PROTEASOME	generic proteasome/immunoproteasome/core-proteostasis route; no new intervention delta
+PSMB9	static_wave21_guardrail	GENERIC_PROTEASOME	generic proteasome/immunoproteasome/core-proteostasis route; no new intervention delta
+PSMD1	static_wave21_guardrail	GENERIC_PROTEASOME	generic proteasome/immunoproteasome/core-proteostasis route; no new intervention delta
+PSMD2	static_wave21_guardrail	GENERIC_PROTEASOME	generic proteasome/immunoproteasome/core-proteostasis route; no new intervention delta
+PSMD3	static_wave21_guardrail	GENERIC_PROTEASOME	generic proteasome/immunoproteasome/core-proteostasis route; no new intervention delta
+PSME1	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+PSME1	static_wave21_guardrail	GENERIC_PROTEASOME	generic proteasome/immunoproteasome/core-proteostasis route; no new intervention delta
+PSME2	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+PSME2	static_wave21_guardrail	GENERIC_PROTEASOME	generic proteasome/immunoproteasome/core-proteostasis route; no new intervention delta
+PTPN11	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+PTPN2	wave14_gate_matrix	HAND_CURATED	prior hand-curated gate matrix candidate=PTPN2_JAKSTAT_negative_regulator
+PTPN2	wave20_genetic_altaxis	NO_GO	gate_failures=not druggable now for the required autoimmune direction; blocking or near-blocking prior art for autoimmune use; manual_blocker=Autoimmune biology is loss-of-function/restoration; current drug discovery has stronger inhibitor precedent for oncology, which would be directionally unsafe for autoimmunity.
+PTPN6	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+PVR	wave19_checkpoint	PARK_LOW	wave19_reason=local recurrence below gate (2<3 diseases/tissues); state coupling below gate (0<3); checkpoint biology is not myeloid/APC-state selective; crowded prior art snapshot (EuropePMC=1030, CT.gov=0)
+RAB5A	wave19_lysosomal_candidates		
+RFX5	wave14_gate_matrix	HAND_CURATED	prior hand-curated gate matrix candidate=CIITA_RFX5_HLAII_transcriptional_gate
+RFX5	wave14_gate_matrix	HAND_CURATED	prior hand-curated gate matrix candidate=GSK3B_CIITA_controller
+RFX5	wave14_gate_matrix	HAND_CURATED	prior hand-curated gate matrix candidate=IFNG_HLAII_CD74_transition_state
+RHEB	wave19_lysosomal_candidates		
+RHEB	wave19_lysosomal_routes	NO_GO	mTOR_autophagy_modulation: Promotion criteria demote broad toxic lysosome/autophagy routes; local V3 does not rescue specificity.
+RPTOR	wave19_lysosomal_candidates		
+RPTOR	wave19_lysosomal_routes	NO_GO	mTOR_autophagy_modulation: Promotion criteria demote broad toxic lysosome/autophagy routes; local V3 does not rescue specificity.
+RPTOR	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+RRAGA	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+RXRA	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+RXRB	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+RXRG	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+SEC61A1	static_wave21_guardrail	CORE_MACHINERY	core machinery/stress/structural readout; no selective intervention delta
+SEC61B	static_wave21_guardrail	CORE_MACHINERY	core machinery/stress/structural readout; no selective intervention delta
+SEL1L3	wave20_orchestrator	DEMOTE_LOCAL_TRIAGE	
+SEL1L3	wave20_unrestricted	NO_GO_UNDERCHARACTERIZED_MARKER	wave20_rationale=Thin biology plus no residual, perturbation, direction, or modality.
+SH2B3	wave14_gate_matrix	HAND_CURATED	prior hand-curated gate matrix candidate=SH2B3_LNK_cytokine_negative_regulator
+SH2B3	wave20_genetic_altaxis	NO_GO	gate_failures=target-level coloc/MR signal not established; not druggable now for the required autoimmune direction; real perturbation or strong model support is insufficient; manual_blocker=No direct drug modality; pleiotropic hematopoietic/platelet/cardiovascular locus makes autoimmune-specific targeting unclear.
+SIGLEC10	wave19_checkpoint	NO_GO	wave19_reason=local recurrence below gate (1<3 diseases/tissues); state coupling below gate (1<3); directional local negatives present (1 broad negative diseases)
+SIGLEC10	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+SIGLEC5	wave19_checkpoint	NO_GO	wave19_reason=local recurrence below gate (0<3 diseases/tissues); state coupling below gate (0<3)
+SIGLEC7	wave19_checkpoint	NO_GO	wave19_reason=local recurrence below gate (1<3 diseases/tissues); state coupling below gate (0<3)
+SIGLEC9	wave19_checkpoint	NO_GO	wave19_reason=local recurrence below gate (0<3 diseases/tissues); state coupling below gate (0<3); tractable but saturated ChEMBL small-molecule/assay footprint (410 nM records)
+SIRPA	wave19_checkpoint	PARK_LOW	wave19_reason=local recurrence below gate (2<3 diseases/tissues); state coupling below gate (0<3); known checkpoint/tolerance axis with non-novel autoimmune direction
+SIRPA	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	wave18_accessible_reason=local recurrence below promotion threshold (2<4 disease union); state-coupled support below threshold (0<4 disease union)
+SLC15A4	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior SLC15A4/TASL route
+SLC15A4	wave14_gate_matrix	HAND_CURATED	prior hand-curated gate matrix candidate=SLC15A4_TASL_IRF5_endolysosomal_checkpoint
+SMPD1	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+SNX10	wave19_lysosomal_candidates		
+SNX10	wave20_orchestrator	PARK_FOR_WORKER_REVIEW	
+SNX10	wave20_unrestricted	LEAST_BAD_COMPARATOR_ONLY	wave20_rationale=Best comparator because it has Crohn/UC myeloid recurrence plus weak model and public macrophage perturbation, but it fails strict residual specificity, modality, safety, and novelty.
+SOCS1	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+SOCS3	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+SPI1	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+SPP1	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior CD44/SPP1 route
+SQSTM1	wave19_lysosomal_candidates		
+SQSTM1	wave19_lysosomal_routes	NO_GO	mTOR_autophagy_modulation: Promotion criteria demote broad toxic lysosome/autophagy routes; local V3 does not rescue specificity.
+SQSTM1	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+STAT1	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+STAT2	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+TASL	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior SLC15A4/TASL route
+TASL	wave14_gate_matrix	HAND_CURATED	prior hand-curated gate matrix candidate=SLC15A4_TASL_IRF5_endolysosomal_checkpoint
+TFE3	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior TFEB/TFE3 autophagy route
+TFE3	wave19_lysosomal_candidates		
+TFE3	wave19_lysosomal_routes	NO_GO	TFEB_TFE3_CLEAR_activation: Local TFEB/TFE3 expression is not recurrently positive; both have negative broad h5ad disease calls.
+TFE3	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+TFEB	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior TFEB/TFE3 autophagy route
+TFEB	wave19_lysosomal_candidates		
+TFEB	wave19_lysosomal_routes	NO_GO	TFEB_TFE3_CLEAR_activation: Local TFEB/TFE3 expression is not recurrently positive; both have negative broad h5ad disease calls.
+TFEB	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+TIGIT	wave19_checkpoint	NO_GO	wave19_reason=local recurrence below gate (0<3 diseases/tissues); state coupling below gate (0<3); checkpoint biology is not myeloid/APC-state selective; crowded prior art snapshot (EuropePMC=5332, CT.gov=5)
+TIGIT	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+TIMP1	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	matrix/remodeling and repair-liability route; no new intervention delta
+TNFAIP3	wave14_gate_matrix	HAND_CURATED	prior hand-curated gate matrix candidate=TNFAIP3_A20_negative_regulator
+TNFAIP3	wave20_genetic_altaxis	NO_GO	gate_failures=target-level coloc/MR signal not established; not druggable now for the required autoimmune direction; blocking or near-blocking prior art for autoimmune use; manual_blocker=Strong biology but direct restoration modality is not druggable now; broad NF-kappaB prior art and haploinsufficiency literature are crowded.
+TNFAIP8L1	wave20_orchestrator	DEMOTE_LOCAL_TRIAGE	
+TNFAIP8L1	wave20_unrestricted	NO_GO_THIN_INTRACELLULAR_MARKER	wave20_rationale=Four-disease expression recurrence collapses under residual/model gates.
+TPM4	static_wave21_guardrail	CORE_MACHINERY	core machinery/stress/structural readout; no selective intervention delta
+TREM1	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior complement/Fc/TAM/TREM route
+TREM2	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior complement/Fc/TAM/TREM route
+TREM2	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	wave18_accessible_reason=local recurrence below promotion threshold (1<4 disease union); confounder/myeloid dominance high in surface screen (6 diseases)
+TSC1	wave19_lysosomal_candidates		
+TSC1	wave19_lysosomal_routes	NO_GO	mTOR_autophagy_modulation: Promotion criteria demote broad toxic lysosome/autophagy routes; local V3 does not rescue specificity.
+TSC1	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+TSC2	wave19_lysosomal_candidates		
+TSC2	wave19_lysosomal_routes	NO_GO	mTOR_autophagy_modulation: Promotion criteria demote broad toxic lysosome/autophagy routes; local V3 does not rescue specificity.
+TSC2	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+TYK2	static_wave21_guardrail	GENERIC_IFN_JAK	generic IFN/JAK/type-I/type-II IFN route; no new intervention delta
+TYK2	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	
+TYK2	wave20_genetic_altaxis	NO_GO	gate_failures=explicitly excluded: generic JAK/IFN-family route; no new modality/population delta found; blocking or near-blocking prior art for autoimmune use; manual_blocker=Explicitly excluded generic JAK/IFN route without a new modality or biomarker-delta; TYK2 inhibitors already have autoimmune clinical programs.
+TYROBP	static_wave21_guardrail	EXCLUDED_OR_DEMOTED_ROUTE	prior complement/Fc/TAM/TREM route
+ULK1	wave19_lysosomal_candidates		
+ULK1	wave19_lysosomal_routes	NO_GO	mTOR_autophagy_modulation: Promotion criteria demote broad toxic lysosome/autophagy routes; local V3 does not rescue specificity.
+VPS35	wave19_lysosomal_candidates		
+VSIG4	wave19_checkpoint	NO_GO	wave19_reason=local recurrence below gate (0<3 diseases/tissues); state coupling below gate (0<3); directional local negatives present (2 broad negative diseases)
+VSIR	wave19_checkpoint	NO_GO	wave19_reason=local recurrence below gate (2<3 diseases/tissues); state coupling below gate (0<3); directional local negatives present (1 broad negative diseases); tractable but saturated ChEMBL small-molecule/assay footprint (159 nM records)
+VSIR	wave19_orchestrator	DEMOTE_LOCAL_TRIAGE	

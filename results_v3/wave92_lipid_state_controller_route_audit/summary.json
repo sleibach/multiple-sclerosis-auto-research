@@ -1,0 +1,31 @@
+{
+  "analysis_call": "NO_REOPEN_CONTROLLER_ROUTE",
+  "call_counts": {
+    "NO_GO_NO_MS_WHITE_MATTER_ROUTE_ANCHOR": 10,
+    "NO_GO_PRIOR_ART_OR_SAFETY_BLOCKED": 3,
+    "PARK_DIRECTION_ONLY_UNDERPOWERED_RESPONSE_ROUTE": 2
+  },
+  "inputs": {
+    "broad_h5ad_gene_contrasts": "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv",
+    "external_ibd_geo_series": [
+      "data/raw_v3/wave84_external_geo/GSE12251_series_matrix.txt.gz",
+      "data/raw_v3/wave84_external_geo/GSE14580_series_matrix.txt.gz",
+      "data/raw_v3/wave84_external_geo/GSE16879_series_matrix.txt.gz"
+    ],
+    "gpl10558_annotation": "data/raw_v3/wave89_psoriasis_response/GPL10558.annot.gz",
+    "gpl570_annotation": "data/raw_v3/wave84_external_geo/GPL570.annot.gz",
+    "ms_white_matter": "results_v3/gse111972_full_ms_wm_signature.tsv",
+    "psoriasis_series": "data/raw_v3/wave89_psoriasis_response/GSE85034_series_matrix.txt.gz",
+    "ra_counts": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_counts_used.tsv",
+    "ra_metadata": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_sample_metadata.tsv",
+    "wave30_niche_driver_audit": "results_v3/wave30_niche_driver_audit/niche_driver_axis_audit.tsv",
+    "wave32_route_feasibility": "results_v3/wave32c_resolution_prior_art_audit/route_feasibility_ranked.tsv",
+    "wave48_resolution_reopener": "results_v3/wave48_resolution_reopener_audit/route_reopener_audit.tsv",
+    "wave74_gpr183": "results_v3/wave74_gpr183_oxysterol_niche/integrated_decision.tsv"
+  },
+  "n_reopened": 0,
+  "n_routes": 15,
+  "seed": 20260527,
+  "top_route": "CD300_RECEPTOR_SPECIFIC_TUNING",
+  "top_route_call": "NO_GO_NO_MS_WHITE_MATTER_ROUTE_ANCHOR"
+}

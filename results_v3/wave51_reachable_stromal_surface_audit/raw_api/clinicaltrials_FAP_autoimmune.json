@@ -1,0 +1,1315 @@
+{
+  "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxsZ_Si2vQSkA",
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D001168",
+              "term": "Arthritis"
+            },
+            {
+              "id": "D007592",
+              "term": "Joint Diseases"
+            },
+            {
+              "id": "D009140",
+              "term": "Musculoskeletal Diseases"
+            },
+            {
+              "id": "D012216",
+              "term": "Rheumatic Diseases"
+            },
+            {
+              "id": "D003240",
+              "term": "Connective Tissue Diseases"
+            },
+            {
+              "id": "D017437",
+              "term": "Skin and Connective Tissue Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            },
+            {
+              "id": "D012871",
+              "term": "Skin Diseases"
+            },
+            {
+              "id": "D017563",
+              "term": "Lung Diseases, Interstitial"
+            },
+            {
+              "id": "D008171",
+              "term": "Lung Diseases"
+            },
+            {
+              "id": "D012140",
+              "term": "Respiratory Tract Diseases"
+            },
+            {
+              "id": "D005355",
+              "term": "Fibrosis"
+            },
+            {
+              "id": "D010335",
+              "term": "Pathologic Processes"
+            },
+            {
+              "id": "D013568",
+              "term": "Pathological Conditions, Signs and Symptoms"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D001172",
+              "term": "Arthritis, Rheumatoid"
+            },
+            {
+              "id": "D012595",
+              "term": "Scleroderma, Systemic"
+            },
+            {
+              "id": "D011658",
+              "term": "Pulmonary Fibrosis"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Rheumatoid arthritis patients"
+            },
+            {
+              "label": "systemic sclerosis patients"
+            },
+            {
+              "label": "control healthy group"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Rheumatoid Arthritis (RA)",
+            "Systemic Sclerosis (SSc)"
+          ],
+          "keywords": [
+            "Fibroblast Activation protein",
+            "Rheumatoid Arthritis",
+            "systemic sclerosis",
+            "lung fibrosis",
+            "skin fibrosis"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Sohag",
+              "country": "Egypt",
+              "facility": "Sohag University Hospital",
+              "geoPoint": {
+                "lat": 26.55695,
+                "lon": 31.69478
+              }
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "This study aims to measure a blood protein called fibroblast activation protein (FAP), which is linked to tissue scarring and inflammation. A small blood sample will be taken from participants (RA , SSc patients and healthy people ), and the FAP level will be measured and compared with routine clinical examinations, imaging studies, and lung function tests.\n\nThe purpose of this study is to improve understanding of disease activity and lung involvement in these conditions and to explore whether FAP could be useful as a blood marker for future patients. Participation in this study will not change the participant's usual medical care."
+        },
+        "designModule": {
+          "bioSpec": {
+            "description": "serum",
+            "retention": "SAMPLES_WITHOUT_DNA"
+          },
+          "designInfo": {
+            "observationalModel": "CASE_CONTROL",
+            "timePerspective": "CROSS_SECTIONAL"
+          },
+          "enrollmentInfo": {
+            "count": 111,
+            "type": "ESTIMATED"
+          },
+          "patientRegistry": false,
+          "studyType": "OBSERVATIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \u226518 years. Confirmed diagnosis of RA (ACR/EULAR) or SSc (ACR/EULAR).\n* Ability and willingness to provide informed consent. Cooperative patient able to answer questions.\n\nExclusion Criteria:\n\n* Patients under 18 years' old\n* Active cancer or history of cancer within 5 years.\n* Other major fibrotic systemic disease that could confound circulating FAP levels.\n* Acute infection at time of sampling.\n* Pregnancy or breastfeeding.\n* Other autoimmune diseases",
+          "healthyVolunteers": true,
+          "minimumAge": "18 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "The study population will include adult patients diagnosed with rheumatoid arthritis (RA) or systemic sclerosis (SSc). Participants will be recruited consecutively from the Rheumatology and Rehabilitation outpatient clinics and inpatient units of the study center.\n\nThe sample will consist of three parallel groups:\n\nPatients with rheumatoid arthritis diagnosed according to the 2010 ACR/EULAR classification criteria.\n\nPatients with systemic sclerosis diagnosed according to the 2013 ACR/EULAR classification criteria.\n\nHealthy population who don't have any autoimmune disease."
+        },
+        "identificationModule": {
+          "acronym": "FAP",
+          "briefTitle": "Correlation Between Circulating Fibroblast Activation Protein (FAP) and Fibrosis in Two Diseases (Rheumatoid Arthritis and Systemic Sclerosis)",
+          "nctId": "NCT07393217",
+          "officialTitle": "Circulating Fibroblast Activation Protein (FAP) As A Marker for Fibroblast-Driven Pathology in Rheumatoid Arthritis and Systemic Sclerosis : Implication for Joint, Skin and Lung Fibrosis",
+          "orgStudyIdInfo": {
+            "id": "Soh-Med--25-12-9MD"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Sohag University"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "UNDECIDED"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "measure": "Serum fibroblast activation protein (FAP) concentration measured by ELISA in patients with rheumatoid arthritis and systemic sclerosis",
+              "timeFrame": "At baseline (Day 1)"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Correlation between serum FAP concentration and disease activity score in rheumatoid arthritis and systemic sclerosis",
+              "measure": "disease activity",
+              "timeFrame": "baseline"
+            },
+            {
+              "description": "Correlation between serum FAP concentration and pulmonary involvement in patients with rheumatoid arthritis and systemic sclerosis",
+              "measure": "pulmonary involvement",
+              "timeFrame": "baseline"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": false
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Sohag University"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Sohag University",
+            "investigatorFullName": "Toqa Mahfouz Mohamed Ahmed",
+            "investigatorTitle": "assistant lecturer at Rheumatology department, Sohag University Hospital",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2027-09",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-02-06",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2026-01-31",
+          "overallStatus": "NOT_YET_RECRUITING",
+          "primaryCompletionDateStruct": {
+            "date": "2027-03-01",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2026-03-01",
+            "type": "ESTIMATED"
+          },
+          "statusVerifiedDate": "2026-01",
+          "studyFirstPostDateStruct": {
+            "date": "2026-02-06",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2026-01-18",
+          "studyFirstSubmitQcDate": "2026-01-31"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D003231",
+              "term": "Conjunctivitis"
+            },
+            {
+              "id": "D003229",
+              "term": "Conjunctival Diseases"
+            },
+            {
+              "id": "D005128",
+              "term": "Eye Diseases"
+            },
+            {
+              "id": "D006969",
+              "term": "Hypersensitivity, Immediate"
+            },
+            {
+              "id": "D006967",
+              "term": "Hypersensitivity"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            },
+            {
+              "id": "D014947",
+              "term": "Wounds and Injuries"
+            },
+            {
+              "id": "D010335",
+              "term": "Pathologic Processes"
+            },
+            {
+              "id": "D013568",
+              "term": "Pathological Conditions, Signs and Symptoms"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D003233",
+              "term": "Conjunctivitis, Allergic"
+            },
+            {
+              "id": "D022125",
+              "term": "Lacerations"
+            },
+            {
+              "id": "D007249",
+              "term": "Inflammation"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Subjects aged 5 to 30 years with a confirmed clinical diagnosis of allergic conjunctivitis (Seasonal, Perennial, or Vernal Keratoconjunctivitis). Participants must present active symptomatology and positive skin prick tests corresponding to the allergic condition.",
+              "label": "Subjects with Allergic Conjunctivitis"
+            },
+            {
+              "description": "Clinically healthy subjects aged 5 to 30 years with a normal ocular surface evaluation. Participants must have no personal history of allergic diseases (ocular or systemic), no active ocular infection, and no chronic-degenerative or autoimmune diseases.",
+              "label": "Healthy Controls"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Conjunctivitis, Allergic"
+          ],
+          "keywords": [
+            "microRNA",
+            "Tears",
+            "Serum",
+            "Ocular Surface",
+            "inflammation"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Mexico City",
+              "country": "Mexico",
+              "facility": "Instituto de Oftalmolog\u00eda FAP Conde de Valenciana, IAP Sede Centro",
+              "geoPoint": {
+                "lat": 19.42847,
+                "lon": -99.12766
+              },
+              "state": "Mexico City",
+              "zip": "06800"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Allergic conjunctivitis (AC) causes inflammation of the conjunctiva in response to environmental allergens, affecting a significant percentage of the world population and reducing quality of life. The pathophysiology is poorly understood, lacking effective treatments. MicroRNAs have potential for diagnosing and characterizing inflammatory diseases. This study aims to compare the expression profiles of inflammation-regulating microRNAs (miR-19, miR-23, miR-125b, miR-146a, and miR-155) in serum and tear samples from subjects with AC and healthy subjects to identify biomarkers and therapeutic targets.",
+          "detailedDescription": "Allergic conjunctivitis (AC) is an inflammatory disorder of the conjunctiva triggered by exposure to environmental allergens. This ocular condition affects a significant proportion of the global population, leading to a reduction in quality of life and, in some cases, visual impairment. The pathophysiology of AC remains poorly understood, and effective targeted therapies are limited. MicroRNAs have emerged as promising tools for the diagnosis and characterization of inflammatory diseases such as asthma and rhinitis; however, studies evaluating microRNA involvement in allergic conjunctivitis are scarce. Therefore, identifying microRNAs that are differentially regulated in AC is essential to better understand disease pathogenesis and to explore potential biomarkers and therapeutic targets.\n\nThis study aims to determine whether differences exist in the expression profiles of inflammation-regulatory microRNAs between subjects with allergic conjunctivitis and healthy controls. The working hypothesis is that subjects with allergic conjunctivitis exhibit differential expression of inflammation-related microRNAs compared with healthy individuals.\n\nAn observational cross-sectional study will be conducted including subjects aged 5 to 30 years with a clinical diagnosis of allergic conjunctivitis, as well as age-matched healthy controls. Tear samples and peripheral blood samples for serum isolation will be collected from all participants. Total RNA will be extracted from both sample types, and the expression of miR-19, miR-23, miR-125b, miR-146a, and miR-155 will be quantified using quantitative real-time polymerase chain reaction (qRT-PCR). Relative expression levels (fold change) will be calculated in the allergic conjunctivitis group and compared with those observed in healthy controls to identify microRNAs specifically associated with the disease. Receiver operating characteristic (ROC) curve analysis will be performed to evaluate the potential of the studied microRNAs as diagnostic biomarkers."
+        },
+        "designModule": {
+          "bioSpec": {
+            "description": "Blood: Samples are collected following the Institute's Immunology Department manual after verifying informed consent. Personnel must use hand hygiene, masks, and gloves. Venous blood is obtained by venipuncture in Vacutainer tubes with separator gel. Serum is separated by centrifugation and stored at -20\u00b0C.\n\nTears: Collected according to Santacruz et al. (2015). Personnel must use hand hygiene, gloves, and masks. 20 \u00b5L of sterile saline is instilled into each eye. Tear film is collected from the lower lateral meniscus using borosilicate capillaries. Samples are stored in microtubes at -20\u00b0C.",
+            "retention": "SAMPLES_WITH_DNA"
+          },
+          "designInfo": {
+            "observationalModel": "CASE_CONTROL",
+            "timePerspective": "CROSS_SECTIONAL"
+          },
+          "enrollmentInfo": {
+            "count": 40,
+            "type": "ESTIMATED"
+          },
+          "patientRegistry": false,
+          "studyType": "OBSERVATIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria\n\n* Subjects with Allergic Conjunctivitis:\n* Age between 5 and 30 years.\n* Clinical diagnosis of allergic conjunctivitis.\n* Presence of active ocular symptoms at the time of sample collection.\n* Positive skin prick test.\n* Written informed consent signed by the participant or parent/legal guardian, -with assent when applicable.\n\nHealthy Controls:\n\n* Age between 5 and 30 years.\n* Clinically healthy subjects with a normal ocular surface.\n* No evidence of active ocular disease.\n* Written informed consent signed by the participant or parent/legal guardian, with assent when applicable.\n\nExclusion Criteria\n\n* Subjects with Allergic Conjunctivitis:\n* History of infectious disease within 2 months prior to sample collection.\n* Presence of active systemic allergic diseases (e.g., asthma, active dermatitis).\n* Chronic degenerative or autoimmune diseases.\n* Use of topical immunosuppressive treatment within 2 months prior to sample collection.\n* Use of systemic immunosuppressive therapy.\n\nHealthy Controls:\n\n-History of infectious disease within 2 months prior to sample collection.",
+          "healthyVolunteers": true,
+          "maximumAge": "30 Years",
+          "minimumAge": "5 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT"
+          ],
+          "studyPopulation": "The study population will include subjects aged 5 to 30 years with a clinical diagnosis of allergic conjunctivitis, as well as age-matched healthy controls. Participants will be recruited from a specialized ophthalmology center. Subjects with allergic conjunctivitis must present active ocular symptoms at the time of enrollment, while healthy controls must have a clinically normal ocular surface and no history of active ocular disease. All participants or their legal guardians will provide written informed consent, with assent obtained from minors when applicable."
+        },
+        "identificationModule": {
+          "acronym": "OJO-miR",
+          "briefTitle": "OJO-miR: microRNA Expression in Allergic Conjunctivitis.",
+          "nctId": "NCT07385495",
+          "officialTitle": "Analysis of the Expression Profiles of Inflammation-regulating microRNAs in Serum and Tear Samples From Subjects With Allergic Conjunctivitis.",
+          "orgStudyIdInfo": {
+            "id": "CEI-2025/09/05"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Instituto de Oftalmolog\u00eda Fundaci\u00f3n Conde de Valenciana"
+          },
+          "secondaryIdInfos": [
+            {
+              "domain": "CI-069-2025",
+              "id": "Research Committee",
+              "type": "OTHER"
+            },
+            {
+              "domain": "CB-069-2025",
+              "id": "Biosecurity Committee",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Relative expression (fold change) of miR-19, miR-23, miR-125b, miR-146a, and miR-155 in tear samples measured by quantitative real-time polymerase chain reaction (qRT-PCR) and calculated using the 2\\^-\u0394\u0394CT method.",
+              "measure": "Expression of inflammation-regulatory microRNAs in tear samples",
+              "timeFrame": "Baseline"
+            },
+            {
+              "description": "Relative expression (fold change) of miR-19, miR-23, miR-125b, miR-146a, and miR-155 in serum samples measured by quantitative real-time polymerase chain reaction (qRT-PCR) and calculated using the 2\\^-\u0394\u0394CT method.",
+              "measure": "Expression of inflammation-regulatory microRNAs in serum samples",
+              "timeFrame": "Baseline"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Evaluation of the diagnostic potential of miR-19, miR-23, miR-125b, miR-146a, and miR-155 through receiver operating characteristic (ROC) curve analysis, including area under the curve (AUC).",
+              "measure": "Diagnostic performance of candidate microRNAs",
+              "timeFrame": "Baseline"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": true
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Instituto de Oftalmolog\u00eda Fundaci\u00f3n Conde de Valenciana"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Instituto de Oftalmolog\u00eda Fundaci\u00f3n Conde de Valenciana",
+            "investigatorFullName": "Mar\u00eda C. Jim\u00e9nez Mart\u00ednez",
+            "investigatorTitle": "Head of the Immunology Department, Research Unit",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2027-07-05",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-02-04",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2026-01-29",
+          "overallStatus": "ACTIVE_NOT_RECRUITING",
+          "primaryCompletionDateStruct": {
+            "date": "2027-01-05",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2026-01-05",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2026-01",
+          "studyFirstPostDateStruct": {
+            "date": "2026-02-04",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2026-01-22",
+          "studyFirstSubmitQcDate": "2026-01-29"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D020278",
+              "term": "Demyelinating Autoimmune Diseases, CNS"
+            },
+            {
+              "id": "D020274",
+              "term": "Autoimmune Diseases of the Nervous System"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D003711",
+              "term": "Demyelinating Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            },
+            {
+              "id": "D009461",
+              "term": "Neurologic Manifestations"
+            },
+            {
+              "id": "D012816",
+              "term": "Signs and Symptoms"
+            },
+            {
+              "id": "D013568",
+              "term": "Pathological Conditions, Signs and Symptoms"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D009103",
+              "term": "Multiple Sclerosis"
+            },
+            {
+              "id": "D020233",
+              "term": "Gait Disorders, Neurologic"
+            },
+            {
+              "id": "D005221",
+              "term": "Fatigue"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "conditionsModule": {
+          "conditions": [
+            "Multiple Sclerosis",
+            "Gait Disorders, Neurologic",
+            "Fatigue"
+          ]
+        },
+        "contactsLocationsModule": {
+          "centralContacts": [
+            {
+              "email": "michael.harris-love@va.gov",
+              "name": "Michael Harris-Love, DSc",
+              "phone": "(202) 745-8240",
+              "role": "CONTACT"
+            },
+            {
+              "email": "Kimberly.Benson2@va.gov",
+              "name": "Kimberly Benson, DPT",
+              "phone": "(202) 745-8000",
+              "phoneExt": "55852",
+              "role": "CONTACT"
+            }
+          ],
+          "locations": [
+            {
+              "city": "Washington D.C.",
+              "contacts": [
+                {
+                  "email": "Kimberly.Benson2@va.gov",
+                  "name": "Kimberly Benson, DPT",
+                  "phone": "202-745-8000",
+                  "phoneExt": "55852",
+                  "role": "CONTACT"
+                },
+                {
+                  "email": "Brian.Hoover@va.gov",
+                  "name": "Brian M Hoover, MS",
+                  "phone": "202-745-8000",
+                  "phoneExt": "55826",
+                  "role": "CONTACT"
+                },
+                {
+                  "name": "Michael Harris-Love, DSc",
+                  "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                  "name": "Marc Blackman, MD",
+                  "role": "SUB_INVESTIGATOR"
+                },
+                {
+                  "name": "Kimberly Benson, DPT",
+                  "role": "SUB_INVESTIGATOR"
+                },
+                {
+                  "name": "Mitchell Wallin, MD",
+                  "role": "SUB_INVESTIGATOR"
+                },
+                {
+                  "name": "Heidi Maloni, PhD, MSN",
+                  "role": "SUB_INVESTIGATOR"
+                }
+              ],
+              "country": "United States",
+              "facility": "Washington DC VA Medical Center",
+              "geoPoint": {
+                "lat": 38.89511,
+                "lon": -77.03637
+              },
+              "state": "District of Columbia",
+              "zip": "20422"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Washington DC VA Medical Center",
+              "name": "Michael Harris-Love, DSc",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The purpose of this study is to compare walking to leg strength and endurance in people with multiple sclerosis (PwMS). Using these findings, we hope to be better understand what causes PwMS to have problems walking.",
+          "detailedDescription": "The purposes of the research are to determine the association of gait performance with lower extremity muscle fatigability and strength measures, and create a preliminary model that can better explain the variance in gait performance based on these muscle performance values. Objective criterion-based measures of physical fatigue (i.e., fatigability) and muscle weakness have been associated with impaired task performance in people with multiple sclerosis (MS). MS-related deficits in muscle capacity result in higher fall risks and a loss of function. However, it is unclear if lower extremity fatigability tests add clinical value to objective strength testing in the rehabilitation and clinical management of MS. Better understanding how patterns of lower extremity (LE) fatigability and strength affect mobility in people with MS could improve outcome measure development and inform rehabilitation strategies."
+        },
+        "designModule": {
+          "designInfo": {
+            "observationalModel": "CASE_ONLY",
+            "timePerspective": "CROSS_SECTIONAL"
+          },
+          "enrollmentInfo": {
+            "count": 35,
+            "type": "ESTIMATED"
+          },
+          "patientRegistry": false,
+          "studyType": "OBSERVATIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18-85 years\n* History of multiple sclerosis\n* Expanded Disability Status Scale \\< 7.0\n* Receives care at the Washington DC Veteran's Affairs Medical Center Neurology Service and Multiple Sclerosis Center of Excellence - East",
+          "healthyVolunteers": false,
+          "maximumAge": "85 Years",
+          "minimumAge": "18 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Patients who receive care at the Washington DC Veteran's Affairs Medical Center Neurology Service and Multiple Sclerosis Center of Excellence - East"
+        },
+        "identificationModule": {
+          "acronym": "MS_Gait",
+          "briefTitle": "Multi-joint Muscle Fatigability and Gait Performance in People With Multiple Sclerosis",
+          "nctId": "NCT03735654",
+          "officialTitle": "Assessing the Impact of Muscle Strength and Fatigability on Gait Performance Using Single Joint and Multi-joint Assessments in People With Multiple Sclerosis",
+          "orgStudyIdInfo": {
+            "id": "01931"
+          },
+          "organization": {
+            "class": "FED",
+            "fullName": "Washington D.C. Veterans Affairs Medical Center"
+          }
+        },
+        "outcomesModule": {
+          "otherOutcomes": [
+            {
+              "description": "The MFIS is based on items derived from interviews with MS patients concerning how fatigue impacts their lives. This instrument provides an assessment of the effects of fatigue in terms of physical, cognitive, and psychosocial functioning. The MFIS consists of 21 items and is a subscale of the MS Quality of Life Inventory.",
+              "measure": "Modified Fatigue Impact Scale (MFIS)",
+              "timeFrame": "1 Day"
+            },
+            {
+              "description": "The FSS is a questionnaire that can indicate severe fatigue related to MS. Scores range from 9-63 with higher scores indicating higher levels of fatigue.",
+              "measure": "Fatigue Severity Score (FSS)",
+              "timeFrame": "1 Day"
+            },
+            {
+              "description": "The AFB measures are a collection of patient- reported questionnaires and short forms developed with the goal of assessing health-related quality of life (HRQL) across all neurological disorders.",
+              "measure": "Neurology Quality of Life Adult Fatigue Bank (AFB)",
+              "timeFrame": "1 Day"
+            },
+            {
+              "description": "The ABC Scale is a 16-item questionnaire that serves as a rating of self-perceived confidence during performance of activities of daily living. Scores range from 0-100 with higher scores indicating greater confidence.",
+              "measure": "Activity Balance Confidence Score (ABC)",
+              "timeFrame": "1 Day"
+            },
+            {
+              "description": "BalanSens is a biosensor and is based on widely-available kinematic sensors (i.e. accelerometer, gyroscope and magnetometer). The system measures ankle and hip motion in three dimensions. It allows for object measurement of balance when a patient performs Romberg, sharpened Romberg eyes open and closed and single leg stance.",
+              "measure": "BioSensic measure of Reciprocal Compensatory Index (RCI)",
+              "timeFrame": "1 Day"
+            },
+            {
+              "description": "The MSSS-88 is a subjective assessment of day-to-day spasticity symptoms and functional impact in eight clinically separate areas. Scores range from 88-352 and higher scores indicate greater spasticity.",
+              "measure": "Multiple Sclerosis Spasticity Scale (MSSS-88)",
+              "timeFrame": "1 Day"
+            },
+            {
+              "description": "This is a standardized neurological disability scale developed specifically for MS. It accounts broadly for MS symptoms, including things like mobility, mental health, and sensory disturbances. Scores range from 0-10 with higher scores indicating loss of ambulatory ability.",
+              "measure": "Kurtzke Expanded Disability Status Scale (EDSS)",
+              "timeFrame": "1 Day"
+            },
+            {
+              "description": "The BDI-II is a widely used test for measuring depression among individuals.",
+              "measure": "Beck Depression Index II (BDI-II)",
+              "timeFrame": "1 Day"
+            },
+            {
+              "description": "The ESS is a subjective questionnaire that measures sleep disturbances and excessive sleepiness. Scores range from 0-24, with higher scores indicating greater daytime sleepiness.",
+              "measure": "Epworth Sleepiness Scale (ESS)",
+              "timeFrame": "1 Day"
+            },
+            {
+              "description": "The MoCA is a subject questionnaire that can be used as a screening tool for cognitive dysfunction in people with MS.",
+              "measure": "Montreal Cognitive Assessment (MoCA)",
+              "timeFrame": "1 Day"
+            }
+          ],
+          "primaryOutcomes": [
+            {
+              "description": "The FAP is used to quantify self-selected gait.",
+              "measure": "Functional Ambulation Performance (FAP)",
+              "timeFrame": "1 Day"
+            },
+            {
+              "description": "For isometric tests, a exhaustion time will be calculated by determining the time that peak impulse declines to 50% using a method validated for individual with MS.",
+              "measure": "Hip, knee, and ankle fatigability",
+              "timeFrame": "1 Day"
+            },
+            {
+              "description": "Maximal volitional contraction will be measured by the load cell using isometric expressed as peak torque.",
+              "measure": "Hip, knee, and ankle maximal volitional contraction",
+              "timeFrame": "1 Day"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "The Adult Myopathy Assessment Tool (0-45 score) is a physical test battery used to evaluate functional performance in individuals with neuromuscular disease. The test consists of 13 measures for functional mobility, balance, strength and endurance to mimic activities of daily living.",
+              "measure": "Adult Myopathy Assessment Tool (AMAT)",
+              "timeFrame": "1 Day"
+            },
+            {
+              "description": "The 5STS reflects the amount of time required for a participant to complete 5 sit to stand maneuvers without using their hands. For this study we used the 5STS as a measure of functional capacity in people with multiple sclerosis.",
+              "measure": "5 times sit to stand test (5STS)",
+              "timeFrame": "1 Day"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": false
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "FED",
+            "name": "Washington D.C. Veterans Affairs Medical Center"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Washington D.C. Veterans Affairs Medical Center",
+            "investigatorFullName": "Michael Harris-Love",
+            "investigatorTitle": "Director, 3MAP Lab, and Assoc. Director, CRC Human Performance Research Unit",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2021-10-01",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastKnownStatus": "NOT_YET_RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2018-11-08",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2018-11-07",
+          "overallStatus": "UNKNOWN",
+          "primaryCompletionDateStruct": {
+            "date": "2020-10-01",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2018-11-15",
+            "type": "ESTIMATED"
+          },
+          "statusVerifiedDate": "2018-11",
+          "studyFirstPostDateStruct": {
+            "date": "2018-11-08",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2018-10-03",
+          "studyFirstSubmitQcDate": "2018-11-07"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D005921",
+              "term": "Glomerulonephritis"
+            },
+            {
+              "id": "D009393",
+              "term": "Nephritis"
+            },
+            {
+              "id": "D007674",
+              "term": "Kidney Diseases"
+            },
+            {
+              "id": "D014570",
+              "term": "Urologic Diseases"
+            },
+            {
+              "id": "D052776",
+              "term": "Female Urogenital Diseases"
+            },
+            {
+              "id": "D005261",
+              "term": "Female Urogenital Diseases and Pregnancy Complications"
+            },
+            {
+              "id": "D000091642",
+              "term": "Urogenital Diseases"
+            },
+            {
+              "id": "D052801",
+              "term": "Male Urogenital Diseases"
+            },
+            {
+              "id": "D008180",
+              "term": "Lupus Erythematosus, Systemic"
+            },
+            {
+              "id": "D003240",
+              "term": "Connective Tissue Diseases"
+            },
+            {
+              "id": "D017437",
+              "term": "Skin and Connective Tissue Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D008181",
+              "term": "Lupus Nephritis"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "interventionNames": [
+                "Diagnostic Test: 68Ga-FAPI-04 PET"
+              ],
+              "label": "LN Patients group",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "LN Patients group"
+              ],
+              "description": "Activation of renal fibroblast is quantified using 68Ga-FAPI-04 PET in patients with LN.",
+              "name": "68Ga-FAPI-04 PET",
+              "type": "DIAGNOSTIC_TEST"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Lupus Nephritis"
+          ]
+        },
+        "contactsLocationsModule": {
+          "centralContacts": [
+            {
+              "email": "shihui_sjtu@sina.com",
+              "name": "Hui Shi, Dr.",
+              "phone": "0086 21 64370045",
+              "role": "CONTACT"
+            }
+          ],
+          "locations": [
+            {
+              "city": "Shanghai",
+              "contacts": [
+                {
+                  "email": "zm11518@rjh.com.cn",
+                  "name": "Min Zhang, Dr.",
+                  "phone": "0086-21-64370045",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "China",
+              "facility": "Ruijin Hospital",
+              "geoPoint": {
+                "lat": 31.22222,
+                "lon": 121.45806
+              },
+              "status": "RECRUITING",
+              "zip": "200025"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Ruijin Hospital",
+              "name": "Hui Shi, Dr.",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Abnormal high expression of fibroblast activating protein (FAP) has been found in inflammatory reactions and benign fibrosis tissue. Autoimmune nephropathy such as lupus nephritis (LN) can lead to tubular atrophy and excessive deposition of extracellular matrix, which may be accompanied by abnormally increased expression of activated FAP in kidney tissue, and lead to renal fibrosis and long-term renal failure. This makes 68Ga-labeled FAP inhibitor (FAPI) positron emission tomography (PET) imaging the potential to early assess disease severity, predict disease progress and aid treatment planning in patients with LN. Compared to renal pathological puncture, 68Ga-FAPI PET is a new tool for non-invasive, repeatable assessment of renal fibrotic activation."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "NA",
+            "interventionModel": "SINGLE_GROUP",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "DIAGNOSTIC"
+          },
+          "enrollmentInfo": {
+            "count": 30,
+            "type": "ESTIMATED"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Be between 18-80 years old;\n* Confirmed SLE: meet the 2019 EULAR/ACR classification standards;\n* There are signs of renal involvement and indications for renal puncture: proteinuria\\> 0.5g/24 hours (or urine protein creatine ratio (UPCR) \\>500mg/g), unexplained decrease of glomerular filtration rate (GFR)\n\nExclusion Criteria:\n\n* The pathology of renal puncture is not consistent with lupus nephritis;\n* Previous history of other kidney diseases;\n* There are contraindications to renal puncture: (1) obvious bleeding tendency, (2) severe hypertension, (3) psychosis or non-cooperative patients, (4) isolated kidney, (5) small kidney;\n* History of malignant tumors within 5 years.",
+          "healthyVolunteers": false,
+          "maximumAge": "80 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Fibroblast Activating Protein Inhibitor PET Imaging in Lupus Nephritis",
+          "nctId": "NCT05845151",
+          "officialTitle": "Fibroblast Activating Protein Inhibitor PET Imaging for Molecular Assessment of Fibroblast Activation and Risk Evaluation in Patients With Lupus Nephritis",
+          "orgStudyIdInfo": {
+            "id": "(2021)CER(87)"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Ruijin Hospital"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Quantitative assessment of renal fibroblast activation on FAPI PET image",
+              "measure": "Renal FAP expression level",
+              "timeFrame": "Baseline"
+            },
+            {
+              "description": "Quantitative assessment of renal fibroblast activation on FAPI PET image",
+              "measure": "Renal FAP expression level",
+              "timeFrame": "6 months after baseline"
+            },
+            {
+              "description": "Quantitative assessment of renal fibroblast activation on FAPI PET image",
+              "measure": "Renal FAP expression level",
+              "timeFrame": "12 months after baseline"
+            },
+            {
+              "description": "Quantitative assessment of renal fibroblast activation on FAPI PET image",
+              "measure": "Renal FAP expression level",
+              "timeFrame": "24 months after baseline"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "It's an immunohistochemical staining-based score after renal puncture. Higher score means a worse outcome.",
+              "measure": "Renal fibrosis score",
+              "timeFrame": "Baseline"
+            },
+            {
+              "description": "It's an immunohistochemical staining-based scores after renal puncture. Higher score means a worse outcome.",
+              "measure": "Chronic activity score",
+              "timeFrame": "Baseline"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Ruijin Hospital"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2024-04-30",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastKnownStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2023-05-06",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2023-05-04",
+          "overallStatus": "UNKNOWN",
+          "primaryCompletionDateStruct": {
+            "date": "2023-12-31",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2021-05-01",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2023-04",
+          "studyFirstPostDateStruct": {
+            "date": "2023-05-06",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2023-04-24",
+          "studyFirstSubmitQcDate": "2023-05-04"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D001168",
+              "term": "Arthritis"
+            },
+            {
+              "id": "D007592",
+              "term": "Joint Diseases"
+            },
+            {
+              "id": "D009140",
+              "term": "Musculoskeletal Diseases"
+            },
+            {
+              "id": "D012216",
+              "term": "Rheumatic Diseases"
+            },
+            {
+              "id": "D003240",
+              "term": "Connective Tissue Diseases"
+            },
+            {
+              "id": "D017437",
+              "term": "Skin and Connective Tissue Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            },
+            {
+              "id": "D008171",
+              "term": "Lung Diseases"
+            },
+            {
+              "id": "D012140",
+              "term": "Respiratory Tract Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D001172",
+              "term": "Arthritis, Rheumatoid"
+            },
+            {
+              "id": "D017563",
+              "term": "Lung Diseases, Interstitial"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Patients with RA and without ILD",
+              "interventionNames": [
+                "Other: Quantitative ATX and LPA determination in plasma and sputum"
+              ],
+              "label": "Controls",
+              "type": "OTHER"
+            },
+            {
+              "description": "Patients with RA and ILD",
+              "interventionNames": [
+                "Other: Quantitative ATX and LPA determination in plasma and sputum"
+              ],
+              "label": "Cases",
+              "type": "OTHER"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Cases",
+                "Controls"
+              ],
+              "description": "Determination of ATX and LPA levels in plasma and sputum from RA-ILD patients (\"cases\") and in plasma and sputum from RA patients without ILD (\"controls\") after sputum induction using hypertonic saline inhalation",
+              "name": "Quantitative ATX and LPA determination in plasma and sputum",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Rheumatoid Arthritis"
+          ],
+          "keywords": [
+            "Rheumatoid arthritis",
+            "Interstitial lung disease",
+            "Autotaxin",
+            "Lysophosphatidic acid"
+          ]
+        },
+        "contactsLocationsModule": {
+          "centralContacts": [
+            {
+              "email": "fabienne.coury@chu-lyon.fr",
+              "name": "Fabienne COURY-LUCAS, MD",
+              "phone": "04 78 86 56 95",
+              "phoneExt": "+33",
+              "role": "CONTACT"
+            }
+          ],
+          "locations": [
+            {
+              "city": "Pierre-B\u00e9nite",
+              "contacts": [
+                {
+                  "email": "fabienne.coury@chu-lyon.fr",
+                  "name": "Fabienne COURY-LUCAS, MD",
+                  "phone": "04 78 86 56 95",
+                  "phoneExt": "+33",
+                  "role": "CONTACT"
+                },
+                {
+                  "name": "Fabienne COURY-LUCAS, MD",
+                  "role": "PRINCIPAL_INVESTIGATOR"
+                }
+              ],
+              "country": "France",
+              "facility": "H\u00f4pital Lyon Sud",
+              "geoPoint": {
+                "lat": 45.70359,
+                "lon": 4.82424
+              },
+              "status": "RECRUITING"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Hospices Civils de Lyon",
+              "name": "Fabienne COURY-LUCAS, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Rheumatoid arthritis (RA) is a common chronic systemic autoimmune relapsing disease characterized by joint inflammation. Beside arthritis leading to progressive joint damage and loss of function, RA is also associated to extraarticular inflammatory conditions such as interstitial lung disease (ILD). This one develops in 30% of all RA patients with a median survival expectancy of 3 to 10 years once symptomatic. Unfortunately, there is no medical care recommendation so far as the pathophysiology is unknown. However, ILD share many similarities with idiopathic pulmonary fibrosis (IPF).\n\nAutotaxin (ATX), due to its lysophospholipase activity, produces a bioactive lipid, lysophosphatidic acid (LPA) under inflammation. LPA has pleiotropic actions inducing cell proliferation, survival, motility and differentiation. Increased ATX and LPA levels have been detected in synovial fluid of RA patients and in IPF patients. ATX is also currently the target for a phase 3 clinical trial in IPF.\n\nGiven the previous described role of ATX/LPA axis in arthritis and inflammation-induced bone loss in RA and the similarities between RA-ILD and IPF, the investigators hypothesized that ATX/LPA axis may be also an attractive drug target for this pulmonary condition in RA and therefore that ATX and LPA may be increased in sputum from RA patients with ILD in comparison with sputum from RA patients without ILD."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "NON_RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "BASIC_SCIENCE"
+          },
+          "enrollmentInfo": {
+            "count": 40,
+            "type": "ESTIMATED"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\nGeneral inclusion criteria\n\n* Subject aged \u2265 18 and \u2264 70 years\n* Patient with RA with ACPA in the state phase, meeting ACR / EULAR 2010 criteria\n* For female subjects:\n\n  * Likely to procreate: negative pregnancy test at the inclusion visit and use of an effective method of contraception (hormonal contraceptives, intrauterine devices, vasectomized partner, abstinence) started at least 1 month before inclusion and continued during the entire study.\n  * Inability to procreate: menopause (absence of a rule for at least 1 year) or hysterectomy or bilateral oophorectomy or tubal ligation.\n* Subject having given written consent to participate in the study\n* Subject affiliated to the Social Security scheme or benefiting from an equivalent scheme\n\nAdditional inclusion criteria for cases (RA patients with PID):\n\n\\- PID is defined as damage compatible with the thoracic scanner in thin sections according to international criteria with or without associated clinical signs.\n\nAdditional inclusion criteria for control patients (RA patients without symptomatology without PID)\n\n\\- No functional lung complaints\n\nExclusion Criteria:\n\nGeneral exclusion criteria\n\n* Vulnerable patient within the meaning of current French legislation (deprived of liberty by judicial or administrative decision, under guardianship or curatorship or under the protection of justice)\n* Patient not fluent in French\n* Woman breastfeeding or planning a pregnancy for the duration of the study\n* Patient in exclusion period after participating in another clinical trial or in the process of participating in another clinical trial involving an experimental product\n* Patient with occupational exposure to particles known to be responsible for PID (silica, etc.)\n* Patient with an autoimmune disease other than RA or an auto-inflammatory disease\n\nNon-inclusion criteria for cases (RA patients with PID):\n\n\\- Patient with a history of asthma, COPD or any other pulmonary pathology or pulmonary symptom unrelated to PID\n\nNon-inclusion criteria for control patients (RA patients without PID)\n\n\\- Patient with a history of asthma, COPD, any other pulmonary pathology, any pulmonary symptom or any pulmonary CT abnormality.",
+          "healthyVolunteers": false,
+          "maximumAge": "70 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "acronym": "LYSLUNG",
+          "briefTitle": "Lysophosphatidic Acid / Autotaxin Axis in Rheumatoid Lung Disease",
+          "nctId": "NCT04284735",
+          "officialTitle": "Role of Lysophosphatidic Acid and Autotaxin in Rheumatoid Arthritis-associated Interstitial Lung Disease",
+          "orgStudyIdInfo": {
+            "id": "69HCL19_0930"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Hospices Civils de Lyon"
+          },
+          "secondaryIdInfos": [
+            {
+              "domain": "ID-RCB",
+              "id": "2019-A03087-50",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "All the samples will be frozen and ATX and LPA levels will be assessed in the plasma and sputum at the same time, at the end of the recruitment.",
+              "measure": "ATX and LPA levels in sputum from RA patients with ILD in comparison with sputum from RA patients without ILD",
+              "timeFrame": "Month 30"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Determine the correlation between ATX and LPA levels and the severity of CT scan pulmonary involvement\\*.\n\n\\*Diffuse interstitial lung disease is defined as an attack compatible with the thoracic scanner in thin sections according to international criteria with or without associated clinical signs.",
+              "measure": "Correlation between ATX and LPA levels and severity of RA-ILD estimated by tomodensitometry",
+              "timeFrame": "Month 24"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Hospices Civils de Lyon"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2023-09",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastKnownStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2021-07-27",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2021-07-26",
+          "overallStatus": "UNKNOWN",
+          "primaryCompletionDateStruct": {
+            "date": "2023-09",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2021-03-03",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2021-07",
+          "studyFirstPostDateStruct": {
+            "date": "2020-02-26",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2020-02-18",
+          "studyFirstSubmitQcDate": "2020-02-25"
+        }
+      }
+    }
+  ]
+}

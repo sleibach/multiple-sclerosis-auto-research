@@ -1,0 +1,758 @@
+{
+  "payload": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Calreticulin",
+        "score": 18.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL6066425",
+        "target_components": [
+          {
+            "accession": "P27797",
+            "component_description": "Calreticulin",
+            "component_id": 23616,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "CALR",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Calregulin",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Calreticulin",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CRP55",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "CRTC",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Endoplasmic reticulum resident protein 60",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "ERp60",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "grp60",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "HACBP",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "P27797",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P27797",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0001669",
+                "xref_name": "acrosomal vesicle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005634",
+                "xref_name": "nucleus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005635",
+                "xref_name": "nuclear envelope",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005739",
+                "xref_name": "mitochondrion",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005764",
+                "xref_name": "lysosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005783",
+                "xref_name": "endoplasmic reticulum",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005788",
+                "xref_name": "endoplasmic reticulum lumen",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005789",
+                "xref_name": "endoplasmic reticulum membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005790",
+                "xref_name": "smooth endoplasmic reticulum",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005840",
+                "xref_name": "ribosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005925",
+                "xref_name": "focal adhesion",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009897",
+                "xref_name": "external side of plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009986",
+                "xref_name": "cell surface",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0012505",
+                "xref_name": "endomembrane system",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016529",
+                "xref_name": "sarcoplasmic reticulum",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030670",
+                "xref_name": "phagocytic vesicle membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031410",
+                "xref_name": "cytoplasmic vesicle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0032991",
+                "xref_name": "protein-containing complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0033018",
+                "xref_name": "sarcoplasmic reticulum lumen",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0033116",
+                "xref_name": "endoplasmic reticulum-Golgi intermediate compartment membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0042824",
+                "xref_name": "MHC class I peptide loading complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0044194",
+                "xref_name": "cytolytic granule",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0044322",
+                "xref_name": "endoplasmic reticulum quality control compartment",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0048471",
+                "xref_name": "perinuclear region of cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0060473",
+                "xref_name": "cortical granule",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0071682",
+                "xref_name": "endocytic vesicle lumen",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0098553",
+                "xref_name": "lumenal side of endoplasmic reticulum membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0098794",
+                "xref_name": "postsynapse",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0098978",
+                "xref_name": "glutamatergic synapse",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0001849",
+                "xref_name": "complement component C1q complex binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0003677",
+                "xref_name": "DNA binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0003723",
+                "xref_name": "RNA binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0003729",
+                "xref_name": "mRNA binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005049",
+                "xref_name": "nuclear export signal receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005178",
+                "xref_name": "integrin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005506",
+                "xref_name": "iron ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005509",
+                "xref_name": "calcium ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008270",
+                "xref_name": "zinc ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0030246",
+                "xref_name": "carbohydrate binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031625",
+                "xref_name": "ubiquitin protein ligase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042277",
+                "xref_name": "peptide binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042562",
+                "xref_name": "hormone binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0044183",
+                "xref_name": "protein folding chaperone",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0050681",
+                "xref_name": "nuclear androgen receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0051082",
+                "xref_name": "unfolded protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0051087",
+                "xref_name": "protein-folding chaperone binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0140313",
+                "xref_name": "molecular sequestering activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0000122",
+                "xref_name": "negative regulation of transcription by RNA polymerase II",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002502",
+                "xref_name": "peptide antigen assembly with MHC class I protein complex",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006355",
+                "xref_name": "regulation of DNA-templated transcription",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006457",
+                "xref_name": "protein folding",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006611",
+                "xref_name": "protein export from nucleus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006874",
+                "xref_name": "intracellular calcium ion homeostasis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007283",
+                "xref_name": "spermatogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008284",
+                "xref_name": "positive regulation of cell population proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0009410",
+                "xref_name": "response to xenobiotic stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010595",
+                "xref_name": "positive regulation of endothelial cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010628",
+                "xref_name": "positive regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0017148",
+                "xref_name": "negative regulation of translation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030866",
+                "xref_name": "cortical actin cytoskeleton organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032355",
+                "xref_name": "response to estradiol",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0033144",
+                "xref_name": "negative regulation of intracellular steroid hormone receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0033574",
+                "xref_name": "response to testosterone",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034504",
+                "xref_name": "protein localization to nucleus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034975",
+                "xref_name": "protein folding in endoplasmic reticulum",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0036503",
+                "xref_name": "ERAD pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0040020",
+                "xref_name": "regulation of meiotic nuclear division",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042921",
+                "xref_name": "nuclear receptor-mediated glucocorticoid signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042981",
+                "xref_name": "regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045665",
+                "xref_name": "negative regulation of neuron differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045787",
+                "xref_name": "positive regulation of cell cycle",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045892",
+                "xref_name": "negative regulation of DNA-templated transcription",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048387",
+                "xref_name": "negative regulation of retinoic acid receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050766",
+                "xref_name": "positive regulation of phagocytosis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050821",
+                "xref_name": "protein stabilization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051208",
+                "xref_name": "sequestering of calcium ion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051604",
+                "xref_name": "protein maturation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0055007",
+                "xref_name": "cardiac muscle cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071257",
+                "xref_name": "cellular response to electrical stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071285",
+                "xref_name": "cellular response to lithium ion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0090398",
+                "xref_name": "cellular senescence",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0098586",
+                "xref_name": "cellular response to virus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1900026",
+                "xref_name": "positive regulation of substrate adhesion-dependent cell spreading",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1901164",
+                "xref_name": "negative regulation of trophoblast cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1901224",
+                "xref_name": "positive regulation of non-canonical NF-kappaB signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1901652",
+                "xref_name": "response to peptide",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1903416",
+                "xref_name": "response to glycoside",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1904614",
+                "xref_name": "response to biphenyl",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000510",
+                "xref_name": "positive regulation of dendritic cell chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:1455",
+                "xref_name": "CALR",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "P27797",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR001580",
+                "xref_name": "Calret/calnex",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR009033",
+                "xref_name": "Calreticulin/calnexin_P_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR009169",
+                "xref_name": "Calreticulin",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013320",
+                "xref_name": "ConA-like_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR018124",
+                "xref_name": "Calret/calnex_CS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR11073",
+                "xref_name": "CALRETICULIN AND CALNEXIN",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR11073:SF16",
+                "xref_name": "CALRETICULIN",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "2CLR",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3DOW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3POS",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3POW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5LK5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5V90",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6ENY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7QPD",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8TZO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8TZR",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2CLR",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3DOW",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3POS",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3POW",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5LK5",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5V90",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF00262",
+                "xref_name": "Calreticulin",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA26046",
+                "xref_name": "calreticulin",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "P27797",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-1236974",
+                "xref_name": "ER-Phagosome pathway",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-168316",
+                "xref_name": "Assembly of Viral Components at the Budding Site",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-3000480",
+                "xref_name": "Scavenging by Class A Receptors",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-3000484",
+                "xref_name": "Scavenging by Class F Receptors",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-381183",
+                "xref_name": "ATF6 (ATF6-alpha) activates chaperone genes",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-901042",
+                "xref_name": "Calnexin/calreticulin cycle",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-983170",
+                "xref_name": "Antigen Presentation: Folding, assembly and peptide loading of class I MHC",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "P27797",
+                "xref_name": "Calreticulin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6IAT4",
+                "xref_name": "Calreticulin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UDG2",
+                "xref_name": "Calreticulin",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=CALR"
+}

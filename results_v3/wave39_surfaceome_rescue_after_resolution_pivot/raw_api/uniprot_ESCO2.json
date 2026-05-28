@@ -1,0 +1,257 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15821733",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15958495",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "19907496",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "21111234",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Acetyltransferase required for the establishment of sister chromatid cohesion (PubMed:15821733, PubMed:15958495). Couples the processes of cohesion and DNA replication to ensure that only sister chromatids become paired together. In contrast to the structural cohesins, the deposition and establishment factors are required only during the S phase. Acetylates the cohesin component SMC3 (PubMed:21111234)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15958495",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Nuclear in interphase cells, excluded from chromosomes during metaphase but reassociates with chromosomes in telophase"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15958495",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "19907496",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0191",
+                "value": "Nucleus"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15958495",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "19907496",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0468",
+                "value": "Chromosome"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000160D17"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:27230",
+                "source": "HGNC"
+              }
+            ],
+            "value": "ESCO2"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Molecular function",
+          "id": "KW-0012",
+          "name": "Acyltransferase"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0131",
+          "name": "Cell cycle"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0158",
+          "name": "Chromosome"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0225",
+          "name": "Disease variant"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0242",
+          "name": "Dwarfism"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0991",
+          "name": "Intellectual disability"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0479",
+          "name": "Metal-binding"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0539",
+          "name": "Nucleus"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0808",
+          "name": "Transferase"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0862",
+          "name": "Zinc"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0863",
+          "name": "Zinc-finger"
+        }
+      ],
+      "primaryAccession": "Q56NI9",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Establishment factor-like protein 2"
+            },
+            "shortNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "15958495",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "EFO2"
+              },
+              {
+                "value": "EFO2p"
+              },
+              {
+                "value": "hEFO2"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Establishment of cohesion 1 homolog 2"
+            },
+            "shortNames": [
+              {
+                "value": "ECO1 homolog 2"
+              }
+            ]
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15958495",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "2.3.1.-"
+            }
+          ],
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "N-acetyltransferase ESCO2"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "A3D10BFD486572AE",
+        "length": 601,
+        "md5": "DC8D25A16B7F250A5219DE542EF463AF",
+        "molWeight": 68307,
+        "value": "MAALTPRKRKQDSLKCDSLLHFTENLFPSPNKKHCFYQNSDKNEENLHCSQQEHFVLSALKTTEINRLPSANQGSPFKSALSTVSFYNQNKWYLNPLERKLIKESRSTCLKTNDEDKSFPIVTEKMQGKPVCSKKNNKKPQKSLTAKYQPKYRHIKPVSRNSRNSKQNRVIYKPIVEKENNCHSAENNSNAPRVLSQKIKPQVTLQGGAAFFVRKKSSLRKSSLENEPSLGRTQKSKSEVIEDSDVETVSEKKTFATRQVPKCLVLEEKLKIGLLSASSKNKEKLIKDSSDDRVSSKEHKVDKNEAFSSEDSLGENKTISPKSTVYPIFSASSVNSKRSLGEEQFSVGSVNFMKQTNIQKNTNTRDTSKKTKDQLIIDAGQKHFGATVCKSCGMIYTASNPEDEMQHVQHHHRFLEGIKYVGWKKERVVAEFWDGKIVLVLPHDPSFAIKKVEDVQELVDNELGFQQVVPKCPNKIKTFLFISDEKRVVGCLIAEPIKQAFRVLSEPIGPESPSSTECPRAWQCSDVPEPAVCGISRIWVFRLKRRKRIARRLVDTLRNCFMFGCFLSTDEIAFSDPTPDGKLFATKYCNTPNFLVYNFNS"
+      },
+      "uniProtkbId": "ESCO2_HUMAN"
+    }
+  ]
+}

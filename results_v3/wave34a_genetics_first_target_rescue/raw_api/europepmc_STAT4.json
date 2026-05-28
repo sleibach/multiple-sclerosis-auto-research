@@ -1,0 +1,118 @@
+{
+  "error": "",
+  "payload": {
+    "hitCount": 7092,
+    "nextCursorMark": "AoIIQRMhtCg1NTQzMzAwNg==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(STAT4) AND (\"autoimmune\" OR \"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR psoriasis)&cursorMark=AoIIQRMhtCg1NTQzMzAwNg==&resultType=lite&pageSize=3&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 3,
+      "queryString": "(STAT4) AND (\"autoimmune\" OR \"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR psoriasis)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Shang C, Bai Y, Zhao Y.",
+          "citedByCount": 0,
+          "doi": "10.2174/0118715303446735260429075429",
+          "firstIndexDate": "2026-05-21",
+          "firstPublicationDate": "2026-05-17",
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "N",
+          "hasReferences": "N",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "N",
+          "id": "42163726",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "isOpenAccess": "N",
+          "journalIssn": "1871-5303; 2212-3873; ",
+          "journalTitle": "Endocr Metab Immune Disord Drug Targets",
+          "pmid": "42163726",
+          "pubType": "journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Multilevel Exploration of Shared Genetic Architecture Between Primary Biliary Cholangitis and Four Autoimmune Diseases."
+        },
+        {
+          "authorString": "Wang V, Walsh JA, Zell J, Verrilli LE, Letourneau JM, Johnstone EB, Allen-Brady K, Welt CK.",
+          "citedByCount": 8,
+          "doi": "10.1210/clinem/dgae828",
+          "firstIndexDate": "2024-11-28",
+          "firstPublicationDate": "2025-07-01",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12261096"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "N",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "39607709",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "8",
+          "journalIssn": "0021-972x; 1945-7197; ",
+          "journalTitle": "J Clin Endocrinol Metab",
+          "journalVolume": "110",
+          "pageInfo": "e2614-e2620",
+          "pmcid": "PMC12261096",
+          "pmid": "39607709",
+          "pubType": "research-article; journal article",
+          "pubYear": "2025",
+          "source": "MED",
+          "title": "Autoimmune Disease is Increased in Women With Primary Ovarian Insufficiency."
+        },
+        {
+          "authorString": "Ling X, Zhang X, Hu J, Hambly BD, Bao S.",
+          "citedByCount": 0,
+          "doi": "10.3389/fimmu.2026.1810466",
+          "firstIndexDate": "2026-04-30",
+          "firstPublicationDate": "2026-04-13",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13111116"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "N",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "42051522",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalIssn": "1664-3224",
+          "journalTitle": "Front Immunol",
+          "journalVolume": "17",
+          "pageInfo": "1810466",
+          "pmcid": "PMC13111116",
+          "pmid": "42051522",
+          "pubType": "review-article; review; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Divergent roles of IL-35 and IL-39 in rheumatoid arthritis: restoring cytokine balance within the IL-12 family."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "status": "ok",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28STAT4%29+AND+%28%22autoimmune%22+OR+%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+psoriasis%29&format=json&pageSize=3&resultType=lite"
+}

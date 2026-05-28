@@ -1,0 +1,356 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "18171027",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "19663506",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "21493890",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "37296100",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Hydrolyzes N(G),N(G)-dimethyl-L-arginine (ADMA) and N(G)-monomethyl-L-arginine (MMA) which act as inhibitors of NOS. Has therefore a role in the regulation of nitric oxide generation"
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000015C44E"
+      },
+      "features": [
+        {
+          "description": "Proton donor",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "19663506",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 173
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 173
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "Nucleophile",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "19663506",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 274
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 274
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "",
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 30
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 30
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 73
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 73
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 79
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 78
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 98
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 98
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 145
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 145
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 268
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 268
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 274
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 274
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:2715",
+                "source": "HGNC"
+              }
+            ],
+            "value": "DDAH1"
+          },
+          "synonyms": [
+            {
+              "value": "DDAH"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-0903",
+          "name": "Direct protein sequencing"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0378",
+          "name": "Hydrolase"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0479",
+          "name": "Metal-binding"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0702",
+          "name": "S-nitrosylation"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0862",
+          "name": "Zinc"
+        }
+      ],
+      "primaryAccession": "O94760",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "DDAHI"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Dimethylargininase-1"
+            }
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "18171027",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "19663506",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "21493890",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "37296100",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "3.5.3.18"
+            }
+          ],
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "N(G),N(G)-dimethylarginine dimethylaminohydrolase 1"
+          },
+          "shortNames": [
+            {
+              "value": "DDAH-1"
+            },
+            {
+              "value": "Dimethylarginine dimethylaminohydrolase 1"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "CD8875DF267EF39B",
+        "length": 285,
+        "md5": "90B730485641E1D15BFABEE84B98FB41",
+        "molWeight": 31122,
+        "value": "MAGLGHPAAFGRATHAVVRALPESLGQHALRSAKGEEVDVARAERQHQLYVGVLGSKLGLQVVELPADESLPDCVFVEDVAVVCEETALITRPGAPSRRKEVDMMKEALEKLQLNIVEMKDENATLDGGDVLFTGREFFVGLSKRTNQRGAEILADTFKDYAVSTVPVADGLHLKSFCSMAGPNLIAIGSSESAQKALKIMQQMSDHRYDKLTVPDDIAANCIYLNIPNKGHVLLHRTPEEYPESAKVYEKLKDHMLIPVSMSELEKVDGLLTCCSVLINKKVDS"
+      },
+      "uniProtkbId": "DDAH1_HUMAN"
+    }
+  ]
+}

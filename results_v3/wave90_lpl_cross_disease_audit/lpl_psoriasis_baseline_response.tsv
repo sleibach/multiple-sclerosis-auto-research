@@ -1,0 +1,4 @@
+evidence_channel	dataset	disease	tissue	treatment	gene	n_subjects	n_pasi75_responders	n_pasi75_nonresponders	effect_responder_minus_non	hedges_g_responder_minus_non	auc_high_score_nonresponse	p	fdr_within_treatment	nonresponse_high_direction	call
+psoriasis_GSE85034_baseline_response	GSE85034	psoriasis	skin_lesional_baseline	ADA	LPL	14	9	5	-0.67165690386129	-2.208896818102851	0.9555555555555556	0.0111077018243163	0.499846582094236	True	NONRESPONSE_HIGH_TREND
+psoriasis_GSE85034_baseline_response	GSE85034	psoriasis	skin_lesional_baseline	ALL	LPL	27	12	15	-0.3763100260954711	-0.9499566081922298	0.75	0.0141697691205419	0.6376396104243872	True	NONRESPONSE_HIGH_TREND
+psoriasis_GSE85034_baseline_response	GSE85034	psoriasis	skin_lesional_baseline	MTX	LPL	13	3	10	0.0478869716486083	0.1039482184720804	0.3333333333333333	0.8135297378994798	0.9596429122851674	False	NO_SUPPORT

@@ -1,0 +1,200 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P23198",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11242053",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15502821",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "16127177",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "28167679",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Component of heterochromatin, which recognizes and binds histone H3 tails methylated at 'Lys-9', leading to epigenetic repression (PubMed:11242053). Also recognizes and binds histone H1.4 methylated at 'Lys-26' (H1.4K26me) (PubMed:16127177). Excluded from chromatin when histone H1.4 is Simultaneously methylated at Lys-26 (H1.4K26me) and phosphorylated at Ser-27 (H1.4S27Ph) (PubMed:16127177). Involved in the formation of functional kinetochore through interaction with MIS12 complex proteins (PubMed:15502821). Contributes to the conversion of local chromatin to a heterochromatin-like repressive state through H3 'Lys-9' trimethylation, mediates the recruitment of the methyltransferases SUV39H1 and/or SUV39H2 by the PER complex to the E-box elements of the circadian target genes such as PER2 itself or PER1 (By similarity). Mediates the recruitment of NIPBL to sites of DNA damage at double-strand breaks (DSBs) (PubMed:28167679)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "value": "Associates with euchromatin and is largely excluded from constitutive heterochromatin. May be associated with microtubules and mitotic poles during mitosis (Potential)"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "28977666",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0191",
+                "value": "Nucleus"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000028565"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "CBX3"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0090",
+          "name": "Biological rhythms"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0156",
+          "name": "Chromatin regulator"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-0903",
+          "name": "Direct protein sequencing"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-1017",
+          "name": "Isopeptide bond"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0539",
+          "name": "Nucleus"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0677",
+          "name": "Repeat"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0678",
+          "name": "Repressor"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0804",
+          "name": "Transcription"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0805",
+          "name": "Transcription regulation"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0832",
+          "name": "Ubl conjugation"
+        }
+      ],
+      "primaryAccession": "Q13185",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "HECH"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Heterochromatin protein 1 homolog gamma"
+            },
+            "shortNames": [
+              {
+                "value": "HP1 gamma"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Modifier 2 protein"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Chromobox protein homolog 3"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "5928C63E0C93A76A",
+        "length": 183,
+        "md5": "8B87C17B8CDC3AB4C67A37F4FE4D9CA3",
+        "molWeight": 20811,
+        "value": "MASNKTTLQKMGKKQNGKSKKVEEAEPEEFVVEKVLDRRVVNGKVEYFLKWKGFTDADNTWEPEENLDCPELIEAFLNSQKAGKEKDGTKRKSLSDSESDDSKSKKKRDAADKPRGFARGLDPERIIGATDSSGELMFLMKWKDSDEADLVLAKEANMKCPQIVIAFYEERLTWHSCPEDEAQ"
+      },
+      "uniProtkbId": "CBX3_HUMAN"
+    }
+  ]
+}

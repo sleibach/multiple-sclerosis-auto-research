@@ -1,0 +1,174 @@
+{
+  "branch_call": "NO_MODALITY_FIRST_SUCCESSOR_IN_CURATED_PRIOR_INPUTS",
+  "inputs": {
+    "wave126": "results_v3/wave126_l1000_upstream_regulator_reopener/l1000_upstream_regulator_decisions.tsv",
+    "wave140": "results_v3/wave140_target_first_pivot_audit/target_first_pivot_audit.tsv",
+    "wave81": "results_v3/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv",
+    "wave83": "results_v3/wave83_intervention_class_meta_rank/intervention_class_meta_rank.tsv"
+  },
+  "n_candidates": 0,
+  "n_near_miss_pass_ge_6": 1,
+  "random_seed": 20260527,
+  "top_near_misses": [
+    {
+      "candidate": "CXCR2",
+      "compound": "",
+      "failed_gates": "ms_anchor;prior_not_blocked",
+      "gene_or_target": "CXCR2",
+      "pass_count": 6,
+      "source": "wave81_perturbation_first"
+    },
+    {
+      "candidate": "CD58_TARGETABILITY",
+      "compound": "",
+      "failed_gates": "prior_not_blocked;safety_direction_clear;source_not_demoted",
+      "gene_or_target": "CD58",
+      "pass_count": 5,
+      "source": "wave83_modality_class"
+    },
+    {
+      "candidate": "CD58_CD2_AXIS",
+      "compound": "",
+      "failed_gates": "prior_not_blocked;safety_direction_clear;source_not_demoted",
+      "gene_or_target": "CD58",
+      "pass_count": 5,
+      "source": "wave83_modality_class"
+    },
+    {
+      "candidate": "IL7R",
+      "compound": "",
+      "failed_gates": "reachable_modality;prior_not_blocked;safety_direction_clear",
+      "gene_or_target": "IL7R",
+      "pass_count": 5,
+      "source": "wave81_perturbation_first"
+    },
+    {
+      "candidate": "eicosanoid_receptors",
+      "compound": "",
+      "failed_gates": "genetic_or_target_resolution;prior_not_blocked;safety_direction_clear;source_not_demoted",
+      "gene_or_target": "EICOSANOID",
+      "pass_count": 4,
+      "source": "wave83_modality_class"
+    },
+    {
+      "candidate": "RGS14",
+      "compound": "",
+      "failed_gates": "direct_or_foundation_or_response;cross_disease_state;prior_not_blocked;source_not_demoted",
+      "gene_or_target": "RGS14",
+      "pass_count": 4,
+      "source": "wave81_perturbation_first"
+    },
+    {
+      "candidate": "SP140",
+      "compound": "",
+      "failed_gates": "direct_or_foundation_or_response;prior_not_blocked;safety_direction_clear;source_not_demoted",
+      "gene_or_target": "SP140",
+      "pass_count": 4,
+      "source": "wave81_perturbation_first"
+    },
+    {
+      "candidate": "IFI30_TARGETABILITY",
+      "compound": "",
+      "failed_gates": "reachable_modality;direct_or_foundation_or_response;prior_not_blocked;source_not_demoted",
+      "gene_or_target": "IFI30",
+      "pass_count": 4,
+      "source": "wave83_modality_class"
+    },
+    {
+      "candidate": "FPR2_ANXA1_BIASED_RESOLUTION",
+      "compound": "",
+      "failed_gates": "direct_or_foundation_or_response;ms_anchor;genetic_or_target_resolution;source_not_demoted",
+      "gene_or_target": "FPR2",
+      "pass_count": 4,
+      "source": "wave83_modality_class"
+    },
+    {
+      "candidate": "GALC",
+      "compound": "",
+      "failed_gates": "direct_or_foundation_or_response;prior_not_blocked;safety_direction_clear;source_not_demoted",
+      "gene_or_target": "GALC",
+      "pass_count": 4,
+      "source": "wave81_perturbation_first"
+    },
+    {
+      "candidate": "PSAP",
+      "compound": "",
+      "failed_gates": "reachable_modality;cross_disease_state;genetic_or_target_resolution;safety_direction_clear",
+      "gene_or_target": "PSAP",
+      "pass_count": 4,
+      "source": "wave81_perturbation_first"
+    },
+    {
+      "candidate": "STAT4",
+      "compound": "",
+      "failed_gates": "direct_or_foundation_or_response;cross_disease_state;prior_not_blocked;safety_direction_clear",
+      "gene_or_target": "STAT4",
+      "pass_count": 4,
+      "source": "wave81_perturbation_first"
+    },
+    {
+      "candidate": "P2RX7_purinergic_inflammasome",
+      "compound": "",
+      "failed_gates": "cross_disease_state;ms_anchor;genetic_or_target_resolution;source_not_demoted",
+      "gene_or_target": "P2RX7",
+      "pass_count": 4,
+      "source": "wave83_modality_class"
+    },
+    {
+      "candidate": "EPHX2_sEH_oxylipin_diol",
+      "compound": "",
+      "failed_gates": "cross_disease_state;ms_anchor;genetic_or_target_resolution;source_not_demoted",
+      "gene_or_target": "EPHX2",
+      "pass_count": 4,
+      "source": "wave83_modality_class"
+    },
+    {
+      "candidate": "BRD-A56020723",
+      "compound": "CA-074-Me",
+      "failed_gates": "genetic_or_target_resolution;prior_not_blocked;safety_direction_clear;source_not_demoted",
+      "gene_or_target": "CTSB",
+      "pass_count": 4,
+      "source": "wave126_l1000_reversal"
+    },
+    {
+      "candidate": "TNFRSF1A",
+      "compound": "",
+      "failed_gates": "direct_or_foundation_or_response;cross_disease_state;prior_not_blocked;safety_direction_clear",
+      "gene_or_target": "TNFRSF1A",
+      "pass_count": 4,
+      "source": "wave81_perturbation_first"
+    },
+    {
+      "candidate": "ASAH1",
+      "compound": "",
+      "failed_gates": "reachable_modality;cross_disease_state;genetic_or_target_resolution;prior_not_blocked",
+      "gene_or_target": "ASAH1",
+      "pass_count": 4,
+      "source": "wave81_perturbation_first"
+    },
+    {
+      "candidate": "ATF5",
+      "compound": "",
+      "failed_gates": "reachable_modality;direct_or_foundation_or_response;cross_disease_state;genetic_or_target_resolution",
+      "gene_or_target": "ATF5",
+      "pass_count": 4,
+      "source": "wave81_perturbation_first"
+    },
+    {
+      "candidate": "BRD-K30707190",
+      "compound": "PNU-74654",
+      "failed_gates": "ms_anchor;genetic_or_target_resolution;prior_not_blocked;source_not_demoted",
+      "gene_or_target": "CTNNB1",
+      "pass_count": 4,
+      "source": "wave126_l1000_reversal"
+    },
+    {
+      "candidate": "BRD-K41859756",
+      "compound": "NVP-AUY922",
+      "failed_gates": "ms_anchor;genetic_or_target_resolution;prior_not_blocked;source_not_demoted",
+      "gene_or_target": "HSP90AA1",
+      "pass_count": 4,
+      "source": "wave126_l1000_reversal"
+    }
+  ]
+}

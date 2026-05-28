@@ -1,0 +1,108 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ACCL19%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9498785",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "May play a role not only in inflammatory and immunological responses but also in normal lymphocyte recirculation and homing. May play an important role in trafficking of T-cells in thymus, and T-cell and B-cell migration to secondary lymphoid organs. Binds to chemokine receptor CCR7. Recombinant CCL19 shows potent chemotactic activity for T-cells and B-cells but not for granulocytes and monocytes. Binds to atypical chemokine receptor ACKR4 and mediates the recruitment of beta-arrestin (ARRB1/2) to ACKR4"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00001362DB"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "CCL19"
+          },
+          "synonyms": [
+            {
+              "value": "ELC"
+            },
+            {
+              "value": "MIP3B"
+            },
+            {
+              "value": "SCYA19"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "Q99731",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Beta-chemokine exodus-3"
+            }
+          },
+          {
+            "fullName": {
+              "value": "CK beta-11"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Epstein-Barr virus-induced molecule 1 ligand chemokine"
+            },
+            "shortNames": [
+              {
+                "value": "EBI1 ligand chemokine"
+              },
+              {
+                "value": "ELC"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Macrophage inflammatory protein 3 beta"
+            },
+            "shortNames": [
+              {
+                "value": "MIP-3-beta"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Small-inducible cytokine A19"
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "C-C motif chemokine 19"
+          }
+        }
+      }
+    }
+  ]
+}

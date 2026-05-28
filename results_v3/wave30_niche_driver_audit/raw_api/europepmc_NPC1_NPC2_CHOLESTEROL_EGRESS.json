@@ -1,0 +1,52 @@
+{
+  "hitCount": 1493,
+  "nextCursorMark": "AoIIQS2IOCg1NDQ5Njc0Ng==",
+  "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(NPC1 OR NPC2) AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR Sjogren OR \"type 1 diabetes\" OR celiac OR \"autoimmune thyroid\" OR autoimmune)&cursorMark=AoIIQS2IOCg1NDQ5Njc0Ng==&resultType=lite&pageSize=1&format=json",
+  "request": {
+    "cursorMark": "*",
+    "pageSize": 1,
+    "queryString": "(NPC1 OR NPC2) AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR Sjogren OR \"type 1 diabetes\" OR celiac OR \"autoimmune thyroid\" OR autoimmune)",
+    "resultType": "lite",
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "authorString": "Li P, Wang Q, Yang Y, Ding Z.",
+        "citedByCount": 0,
+        "doi": "10.3389/fimmu.2025.1689498",
+        "firstIndexDate": "2025-12-22",
+        "firstPublicationDate": "2025-12-04",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12711731"
+          ]
+        },
+        "hasBook": "N",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "Y",
+        "hasPDF": "Y",
+        "hasReferences": "Y",
+        "hasSuppl": "Y",
+        "hasTMAccessionNumbers": "N",
+        "hasTextMinedTerms": "Y",
+        "id": "41425574",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "isOpenAccess": "Y",
+        "journalIssn": "1664-3224",
+        "journalTitle": "Front Immunol",
+        "journalVolume": "16",
+        "pageInfo": "1689498",
+        "pmcid": "PMC12711731",
+        "pmid": "41425574",
+        "pubType": "meta-analysis; systematic review; systematic-review; journal article",
+        "pubYear": "2025",
+        "source": "MED",
+        "title": "Autoimmune thyroid disease and human health: a systematic review of Mendelian randomization studies."
+      }
+    ]
+  },
+  "version": "6.9"
+}

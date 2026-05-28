@@ -1,0 +1,55 @@
+{
+  "branch_call": "REOPEN_CD82_ROBUST_NICHE_SIGNAL",
+  "gene": "CD82",
+  "guardrail": "This result can only reopen CD82 as a mechanism/biomarker branch; prior-art sidecars block direct therapeutic CD82 promotion.",
+  "inputs": {
+    "wave104_pairs": "results_v3/wave104_accessible_survivor_niche_controller_test/matched_niche_pairs.tsv",
+    "wave104_tests": "results_v3/wave104_accessible_survivor_niche_controller_test/niche_controller_tests.tsv"
+  },
+  "n_model_grid_rows": 168,
+  "n_permutations": 2000,
+  "n_test_contexts": 24,
+  "random_seed": 20260527,
+  "robust_negative_disease_count": 0,
+  "robust_negative_test_count": 0,
+  "robust_positive_contexts": [
+    {
+      "disease_name": "Crohn disease",
+      "m3_p": 0.0034901387055257145,
+      "m3_perm_p": 0.001999000499750125,
+      "m3_slope": 1.2113539787791785,
+      "source_analysis": "ibd_crohn_epithelial",
+      "target_analysis": "ibd_crohn_myeloid",
+      "target_module": "lysosomal_apc"
+    },
+    {
+      "disease_name": "Crohn disease",
+      "m3_p": 0.023620813102366484,
+      "m3_perm_p": 0.015992003998001,
+      "m3_slope": 0.6412312321236047,
+      "source_analysis": "ibd_crohn_epithelial",
+      "target_analysis": "ibd_crohn_myeloid",
+      "target_module": "lipid_loader_repair"
+    },
+    {
+      "disease_name": "Sjogren syndrome",
+      "m3_p": 0.03834714215082795,
+      "m3_perm_p": 0.04547726136931534,
+      "m3_slope": 0.42594148250868635,
+      "source_analysis": "sjogren_gland_epithelial",
+      "target_analysis": "sjogren_gland_apc",
+      "target_module": "lysosomal_apc"
+    },
+    {
+      "disease_name": "Crohn disease",
+      "m3_p": 0.04267881577100093,
+      "m3_perm_p": 0.04297851074462768,
+      "m3_slope": 1.0553950751455867,
+      "source_analysis": "ibd_crohn_epithelial",
+      "target_analysis": "ibd_crohn_myeloid",
+      "target_module": "complement_phagocytosis"
+    }
+  ],
+  "robust_positive_disease_count": 2,
+  "robust_positive_test_count": 4
+}

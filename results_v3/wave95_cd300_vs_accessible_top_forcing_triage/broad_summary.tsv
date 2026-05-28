@@ -1,0 +1,14 @@
+gene	broad_tested_contexts	broad_positive_contexts	broad_negative_contexts	broad_positive_disease_count	broad_negative_disease_count	myeloid_positive_contexts	myeloid_positive_disease_count	tissue_resident_positive_contexts	positive_diseases_broad	negative_diseases_broad	best_positive_context	best_negative_context
+C15ORF48	17	7	0	4	0	3	3	4	Crohn disease;Sjogren syndrome;type 1 diabetes mellitus;ulcerative colitis		ibd_uc_myeloid|ulcerative colitis|colon myeloid|role=myeloid_apc|delta=4.45|p=2.95e-05	
+CD200	17	7	1	4	1	3	3	4	Crohn disease;psoriasis;type 1 diabetes mellitus;ulcerative colitis	Sjogren syndrome	t1d_endothelial_cell|type 1 diabetes mellitus|pancreatic endothelial cell|role=tissue_resident|delta=2.22|p=0.0191	sjogren_gland_stromal|Sjogren syndrome|salivary gland stromal/endothelial|role=tissue_resident|delta=-0.564|p=0.064
+CD300A	13	0	0	0	0	0	0	0				
+CD300C	5	1	0	1	0	1	1	0	psoriasis		psoriasis_skin_apc|psoriasis|skin APC|role=myeloid_apc|delta=0.581|p=0.0409	
+CD300E	8	3	0	3	0	3	3	0	Crohn disease;psoriasis;ulcerative colitis		ibd_uc_myeloid|ulcerative colitis|colon myeloid|role=myeloid_apc|delta=3.72|p=0.00919	
+CD300LB	6	0	0	0	0	0	0	0				
+CD300LF	8	1	0	1	0	1	1	0	psoriasis		psoriasis_skin_apc|psoriasis|skin APC|role=myeloid_apc|delta=2.25|p=0.0329	
+CD300LG	7	0	1	0	1	0	0	0		Sjogren syndrome		sjogren_gland_stromal|Sjogren syndrome|salivary gland stromal/endothelial|role=tissue_resident|delta=-0.991|p=0.067
+CHI3L1	16	8	0	4	0	0	0	8	Crohn disease;psoriasis;type 1 diabetes mellitus;ulcerative colitis		ibd_uc_stromal|ulcerative colitis|colon stromal|role=tissue_resident|delta=5.94|p=0.000562	
+NRCAM	16	3	0	3	0	0	0	3	Crohn disease;psoriasis;ulcerative colitis		ibd_crohn_stromal|Crohn disease|colon stromal|role=tissue_resident|delta=3.1|p=0.0146	
+PLEK2	17	6	0	4	0	2	2	4	Crohn disease;Sjogren syndrome;type 1 diabetes mellitus;ulcerative colitis		ibd_crohn_myeloid|Crohn disease|colon myeloid|role=myeloid_apc|delta=1.61|p=0.0186	
+ROMO1	17	5	0	3	0	1	1	4	Sjogren syndrome;psoriasis;type 1 diabetes mellitus		psoriasis_keratinocyte|psoriasis|skin keratinocyte|role=tissue_resident|delta=0.888|p=0.00819	
+SEL1L3	17	7	0	4	0	0	0	7	Crohn disease;psoriasis;type 1 diabetes mellitus;ulcerative colitis		ibd_uc_stromal|ulcerative colitis|colon stromal|role=tissue_resident|delta=2.09|p=0.00104	

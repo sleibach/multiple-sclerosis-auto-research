@@ -1,0 +1,109 @@
+{
+  "call_counts": {
+    "NO_GO_RESOLUTION_MARKER_OR_UNVALIDATED_ROUTE": 8,
+    "NO_GO_RESOLUTION_PRIOR_ART_BLOCKED": 1,
+    "NO_GO_RESOLUTION_ROUTE": 4,
+    "PARK_RESOLUTION_BIOLOGY_NO_CAUSAL_ANCHOR": 1
+  },
+  "interpretation": "Resolution/efferocytosis biology is mechanistically relevant, but no audited route combines cross-disease state recurrence, MS anchoring, target-level causal/perturbation evidence, correct-direction druggability, and non-blocking prior art.",
+  "n_routes": 14,
+  "seed": 20260527,
+  "top_routes": [
+    {
+      "direct_selective": false,
+      "genetics_disease_count": 0.0,
+      "local_breadth": 3.0,
+      "manual_blocker": "V3 found NPC1/NPC2 to be readout-like; clinical-style enhancement is not autoimmune-validated and CNS/peripheral delivery is unresolved.",
+      "manual_prior_risk": "medium",
+      "ms_anchor": false,
+      "resolution_rescue_score": 9.325,
+      "route": "NPC1_NPC2_CHOLESTEROL_EGRESS",
+      "state_coupling": 7.0,
+      "wave32_call": "NO_GO_RESOLUTION_MARKER_OR_UNVALIDATED_ROUTE"
+    },
+    {
+      "direct_selective": false,
+      "genetics_disease_count": 0.0,
+      "local_breadth": 3.0,
+      "manual_blocker": "Family-level direction is ambiguous and local V3 checkpoint analyses did not show state-coupled support.",
+      "manual_prior_risk": "medium",
+      "ms_anchor": true,
+      "resolution_rescue_score": 6.0,
+      "route": "CD300_RESOLUTION_CHECKPOINT",
+      "state_coupling": 0.0,
+      "wave32_call": "NO_GO_RESOLUTION_MARKER_OR_UNVALIDATED_ROUTE"
+    },
+    {
+      "direct_selective": false,
+      "genetics_disease_count": 0.0,
+      "local_breadth": 4.0,
+      "manual_blocker": "TREM2 agonism is crowded in neurodegeneration and local cross-autoimmune support is marker/confounder dominated rather than target-causal.",
+      "manual_prior_risk": "high",
+      "ms_anchor": true,
+      "resolution_rescue_score": 4.4625,
+      "route": "TREM2_APOE_LIPID_REPAIR",
+      "state_coupling": 5.0,
+      "wave32_call": "PARK_RESOLUTION_BIOLOGY_NO_CAUSAL_ANCHOR"
+    },
+    {
+      "direct_selective": false,
+      "genetics_disease_count": 0.0,
+      "local_breadth": 4.0,
+      "manual_blocker": "Earlier V3 work parked LIPA: support is epithelial/ductal/keratinocyte-skewed, myeloid direction is inconsistent, and CNS repair prior art crowds the MS claim.",
+      "manual_prior_risk": "high",
+      "ms_anchor": false,
+      "resolution_rescue_score": 4.2125,
+      "route": "LIPA_LAL_ENHANCEMENT",
+      "state_coupling": 5.0,
+      "wave32_call": "NO_GO_RESOLUTION_PRIOR_ART_BLOCKED"
+    },
+    {
+      "direct_selective": false,
+      "genetics_disease_count": 0.0,
+      "local_breadth": 3.0,
+      "manual_blocker": "CD47/SIRPA is druggable but systemic phagocytosis toxicity and oncology prior art make autoimmune transfer unsafe without cargo/cell specificity.",
+      "manual_prior_risk": "blocking",
+      "ms_anchor": true,
+      "resolution_rescue_score": 3.5749999999999993,
+      "route": "SIRPA_CD47_EATME_BALANCE",
+      "state_coupling": 6.0,
+      "wave32_call": "NO_GO_RESOLUTION_MARKER_OR_UNVALIDATED_ROUTE"
+    },
+    {
+      "direct_selective": false,
+      "genetics_disease_count": 0.0,
+      "local_breadth": 3.0,
+      "manual_blocker": "Strong MS foamy-state marker but local autoimmune direction is mixed and oncology-style targeting is therapeutically misaligned.",
+      "manual_prior_risk": "high",
+      "ms_anchor": true,
+      "resolution_rescue_score": 2.2750000000000004,
+      "route": "GPNMB_REPAIR_STATE_HANDLE",
+      "state_coupling": 3.0,
+      "wave32_call": "NO_GO_RESOLUTION_MARKER_OR_UNVALIDATED_ROUTE"
+    },
+    {
+      "direct_selective": false,
+      "genetics_disease_count": 0.0,
+      "local_breadth": 1.0,
+      "manual_blocker": "TAM biology is repair-relevant, but available mature chemical matter is mostly inhibitory oncology pharmacology; agonism/delivery and autoimmune direction are immature.",
+      "manual_prior_risk": "high",
+      "ms_anchor": false,
+      "resolution_rescue_score": 1.2249999999999996,
+      "route": "TAM_EFFEROCYTOSIS_AGONISM",
+      "state_coupling": 7.0,
+      "wave32_call": "NO_GO_RESOLUTION_MARKER_OR_UNVALIDATED_ROUTE"
+    },
+    {
+      "direct_selective": false,
+      "genetics_disease_count": 0.0,
+      "local_breadth": 3.0,
+      "manual_blocker": "Checkpoint biology is plausible but not lipid-resolution specific; prior Wave19 found state coupling below gate and crowded prior art.",
+      "manual_prior_risk": "high",
+      "ms_anchor": true,
+      "resolution_rescue_score": 0.9749999999999996,
+      "route": "CD200_CD200R_MYeloid_RESOLUTION",
+      "state_coupling": 0.0,
+      "wave32_call": "NO_GO_RESOLUTION_MARKER_OR_UNVALIDATED_ROUTE"
+    }
+  ]
+}

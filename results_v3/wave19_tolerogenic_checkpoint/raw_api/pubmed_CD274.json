@@ -1,0 +1,31 @@
+{
+  "esearchresult": {
+    "count": "1495",
+    "idlist": [
+      "42177071",
+      "42162235",
+      "42159071"
+    ],
+    "querytranslation": "(\"cd274 protein human\"[Supplementary Concept] OR \"cd274 protein human\"[All Fields] OR \"cd274\"[All Fields] OR \"PD-L1\"[All Fields] OR (\"cd274 protein human\"[Supplementary Concept] OR \"cd274 protein human\"[All Fields] OR \"b7 h1\"[All Fields])) AND (\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields])",
+    "retmax": "3",
+    "retstart": "0",
+    "translationset": [
+      {
+        "from": "CD274",
+        "to": "\"cd274 protein, human\"[Supplementary Concept] OR \"cd274 protein, human\"[All Fields] OR \"cd274\"[All Fields]"
+      },
+      {
+        "from": "B7-H1",
+        "to": "\"cd274 protein, human\"[Supplementary Concept] OR \"cd274 protein, human\"[All Fields] OR \"b7 h1\"[All Fields]"
+      },
+      {
+        "from": "autoimmune",
+        "to": "\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields]"
+      }
+    ]
+  },
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  }
+}

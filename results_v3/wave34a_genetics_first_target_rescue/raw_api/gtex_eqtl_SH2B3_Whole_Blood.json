@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr12",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000111252.10",
+        "geneSymbol": "SH2B3",
+        "geneSymbolUpper": "SH2B3",
+        "nes": 0.138368,
+        "ontologyId": "UBERON:0013756",
+        "pValue": 0.000381861,
+        "pos": 111052849,
+        "snpId": "rs76643428",
+        "snpIdUpper": "RS76643428",
+        "tissueSiteDetailId": "Whole_Blood",
+        "variantId": "chr12_111052849_A_G_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 10,
+      "page": 0,
+      "totalNumberOfItems": 10
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000111252.10&tissueSiteDetailId=Whole_Blood&datasetId=gtex_v8&itemsPerPage=1"
+}

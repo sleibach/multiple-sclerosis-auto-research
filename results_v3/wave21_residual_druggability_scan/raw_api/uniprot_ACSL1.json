@@ -1,0 +1,274 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3AACSL1%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P18163",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "21242590",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22633490",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "24269233",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Catalyzes the conversion of long-chain fatty acids to their active form acyl-CoAs for both synthesis of cellular lipids, and degradation via beta-oxidation (PubMed:21242590, PubMed:22633490, PubMed:24269233). Preferentially uses palmitoleate, oleate and linoleate (PubMed:24269233). Preferentially activates arachidonate than epoxyeicosatrienoic acids (EETs) or hydroxyeicosatrienoic acids (HETEs) (By similarity)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "id": "SL-0172",
+                "value": "Mitochondrion outer membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "id": "SL-9907",
+                "value": "Single-pass type III membrane protein"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "id": "SL-0203",
+                "value": "Peroxisome membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "id": "SL-9907",
+                "value": "Single-pass type III membrane protein"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "id": "SL-0165",
+                "value": "Microsome membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "id": "SL-9907",
+                "value": "Single-pass type III membrane protein"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "24269233",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0097",
+                "value": "Endoplasmic reticulum membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "id": "SL-9907",
+                "value": "Single-pass type III membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000004AC12"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:3569",
+                "source": "HGNC"
+              }
+            ],
+            "value": "ACSL1"
+          },
+          "synonyms": [
+            {
+              "value": "FACL1"
+            },
+            {
+              "value": "FACL2"
+            },
+            {
+              "value": "LACS"
+            },
+            {
+              "value": "LACS1"
+            },
+            {
+              "value": "LACS2"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P33121",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Acyl-CoA synthetase 1"
+            },
+            "shortNames": [
+              {
+                "value": "ACS1"
+              }
+            ]
+          },
+          {
+            "ecNumbers": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P18163",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "value": "6.2.1.15"
+              }
+            ],
+            "fullName": {
+              "value": "Arachidonate--CoA ligase"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Long-chain acyl-CoA synthetase 1"
+            },
+            "shortNames": [
+              {
+                "value": "LACS 1"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Long-chain acyl-CoA synthetase 2"
+            },
+            "shortNames": [
+              {
+                "value": "LACS 2"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Long-chain fatty acid-CoA ligase 2"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Palmitoyl-CoA ligase 1"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Palmitoyl-CoA ligase 2"
+            }
+          },
+          {
+            "ecNumbers": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P18163",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "value": "6.2.1.24"
+              }
+            ],
+            "fullName": {
+              "value": "Phytanate--CoA ligase"
+            }
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22633490",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "24269233",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "6.2.1.3"
+            }
+          ],
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Long-chain-fatty-acid--CoA ligase 1"
+          }
+        }
+      }
+    }
+  ]
+}

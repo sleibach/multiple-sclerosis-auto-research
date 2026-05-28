@@ -1,0 +1,530 @@
+{
+  "payload": {
+    "hitCount": 23298,
+    "nextCursorMark": "AoIIQTAooCg1NDUxMjQzMQ==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(NR1H3 OR NR1H2 OR ABCA1 OR ABCG1 OR APOE) AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR Sjogren OR \"type 1 diabetes\" OR \"primary biliary cholangitis\" OR autoimmune)&cursorMark=AoIIQTAooCg1NDUxMjQzMQ==&resultType=core&pageSize=3&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 3,
+      "queryString": "(NR1H3 OR NR1H2 OR ABCA1 OR ABCG1 OR APOE) AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR Sjogren OR \"type 1 diabetes\" OR \"primary biliary cholangitis\" OR autoimmune)",
+      "resultType": "core",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "abstractText": "<h4>Background</h4>Observational studies have suggested a potential association between autoimmune diseases and anemia, but the direction of causality remains unclear. To investigate the potential causal relationship between autoimmune diseases and anemia using Mendelian randomization (MR).<h4>Methods</h4>We conducted a bidirectional two-sample MR study using summary-level genetic data from the EBI and FinnGen databases. We examined 21 autoimmune diseases as exposures and anemia as the outcome, and vice versa. Multivariable MR, meta-analysis, and two-step mediation analysis involving 43 candidate mediators were also performed. Proteomic MR and colocalization analyses were used to validate causal relationships involving proteins. Functional annotations including KEGG pathway, GO enrichment, protein-protein interaction networks, and drug enrichment analyses were performed to identify potential therapeutic targets.<h4>Results</h4>Genetically determined type 1 diabetes mellitus (T1DM), rheumatoid arthritis (RA), and primary biliary cholangitis (PBC) were associated with an increased risk of anemia (<i>P</i>\u00a0<\u00a00.05 in meta-analysis). Reverse MR analyses suggested potential bidirectional causality between anemia and mixed connective tissue disease, hypothyroidism, and asthma. Mediation analysis indicated that hypothyroidism may contribute to anemia by elevating IgG levels. Proteomic and colocalization analyses identified several proteins associated with anemia (e.g., MCCD1, TMEM106B), T1DM (e.g., CTRB1, CTRB2, IL7RA), RA (e.g., TGFBI, IL1RN), and PBC (e.g., ALDH2, CXCL16).<h4>Conclusion</h4>This MR study supports a causal effect of certain autoimmune diseases on anemia risk and highlights potential protein targets for intervention, offering new insights for anemia prevention and treatment.",
+          "affiliation": "Department of Hematology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China.",
+          "authMan": "N",
+          "authorList": {
+            "author": [
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Hematology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China."
+                    }
+                  ]
+                },
+                "firstName": "Xin",
+                "fullName": "Zhuang X",
+                "initials": "X",
+                "lastName": "Zhuang"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Infectious Diseases, Pingyang Hospital of Traditional Chinese Medicine Zhejiang Chinese Medical University, Wenzhou, China."
+                    }
+                  ]
+                },
+                "firstName": "Tianen",
+                "fullName": "Pan T",
+                "initials": "T",
+                "lastName": "Pan"
+              }
+            ]
+          },
+          "authorString": "Zhuang X, Pan T.",
+          "citedByCount": 0,
+          "dateOfCompletion": "2025-12-01",
+          "dateOfCreation": "2025-12-01",
+          "dateOfRevision": "2025-12-03",
+          "doi": "10.1016/j.jtauto.2025.100333",
+          "electronicPublicationDate": "2025-11-12",
+          "epmcAuthMan": "N",
+          "firstIndexDate": "2025-12-01",
+          "firstPublicationDate": "2025-11-12",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12664391"
+            ]
+          },
+          "fullTextReceivedDate": "2025-12-22",
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/j.jtauto.2025.100333"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12664391"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12664391?pdf=render"
+              }
+            ]
+          },
+          "hasBook": "N",
+          "hasData": "Y",
+          "hasDbCrossReferences": "N",
+          "hasEvaluations": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41323472",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalInfo": {
+            "dateOfPublication": "2025 Dec",
+            "journal": {
+              "essn": "2589-9090",
+              "isoabbreviation": "J Transl Autoimmun",
+              "issn": "2589-9090",
+              "medlineAbbreviation": "J Transl Autoimmun",
+              "nlmid": "101759413",
+              "title": "Journal of translational autoimmunity"
+            },
+            "journalIssueId": 3962669,
+            "monthOfPublication": 12,
+            "printPublicationDate": "2025-12-01",
+            "volume": "11",
+            "yearOfPublication": 2025
+          },
+          "keywordList": {
+            "keyword": [
+              "Immunoglobulins",
+              "Anemia",
+              "Cytokines",
+              "Blood cell count",
+              "Autoimmune diseases",
+              "Mendelian Randomization",
+              "Causal Relationship"
+            ]
+          },
+          "language": "eng",
+          "license": "cc by-nc-nd",
+          "nihAuthMan": "N",
+          "pageInfo": "100333",
+          "pmcid": "PMC12664391",
+          "pmid": "41323472",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "pubYear": "2025",
+          "publicationStatus": "epublish",
+          "source": "MED",
+          "title": "Mendelian randomization study of the causal relationship between autoimmune diseases and anemia using proteomic and genetic data."
+        },
+        {
+          "abstractText": "Rheumatological systemic autoimmune diseases constitute a significant health problem globally due to their chronicity, potentially permanent incapacity and higher mortality rates. Rheumatoid arthritis and systemic lupus erythematosus are among the most common of these diseases. Although there is a substantial body of research on these autoimmune diseases, there is still a need to identify better biomarkers of disease activity and progression. In this context, gelsolin and high-density lipoproteins arise as novel biomarkers from the perspective of immunomodulation and their role in the immunopathology of autoimmune diseases. Gelsolin is an actin cytoskeleton remodeling protein involved in immune regulatory mechanisms related to inflammation. High-density lipoproteins are plasmatic cargo molecules involved in reverse lipid transport, whereas their study in autoimmunity has focused on their value as cardiovascular risk predictors. However, new functions of these proteins related to immune and inflammation regulation have also been described recently. Therefore, this review aims to provide insight into the role of these biomolecules and their implications in the immunopathology and immunomodulation of autoimmune diseases from the perspective of rheumatoid arthritis and systemic lupus erythematosus.",
+          "affiliation": "Infettare, Facultad de Medicina, Universidad Cooperativa de Colombia, Medell\u00edn, 050016, Colombia.",
+          "authMan": "N",
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-7856-424X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-9200-5698"
+              }
+            ]
+          },
+          "authorList": {
+            "author": [
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Infettare, Facultad de Medicina, Universidad Cooperativa de Colombia, Medell\u00edn, 050016, Colombia."
+                    }
+                  ]
+                },
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-7856-424X"
+                },
+                "firstName": "Juli\u00e1n",
+                "fullName": "P\u00e9rez-Ocampo J",
+                "initials": "J",
+                "lastName": "P\u00e9rez-Ocampo"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Infettare, Facultad de Medicina, Universidad Cooperativa de Colombia, Medell\u00edn, 050016, Colombia."
+                    }
+                  ]
+                },
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-9200-5698"
+                },
+                "firstName": "Juan C",
+                "fullName": "Hernandez JC",
+                "initials": "JC",
+                "lastName": "Hernandez"
+              }
+            ]
+          },
+          "authorString": "P\u00e9rez-Ocampo J, Hernandez JC.",
+          "citedByCount": 0,
+          "dateOfCompletion": "2026-02-19",
+          "dateOfCreation": "2026-02-19",
+          "dateOfRevision": "2026-02-19",
+          "doi": "10.1093/oxfimm/iqag002",
+          "electronicPublicationDate": "2026-01-25",
+          "epmcAuthMan": "N",
+          "firstIndexDate": "2026-02-20",
+          "firstPublicationDate": "2026-01-25",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12910385"
+            ]
+          },
+          "fullTextReceivedDate": "2026-02-18",
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1093/oxfimm/iqag002"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12910385"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12910385?pdf=render"
+              }
+            ]
+          },
+          "hasBook": "N",
+          "hasData": "N",
+          "hasDbCrossReferences": "N",
+          "hasEvaluations": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "N",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41710123",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalInfo": {
+            "dateOfPublication": "2026 ",
+            "issue": "1",
+            "journal": {
+              "essn": "2633-6960",
+              "isoabbreviation": "Oxf Open Immunol",
+              "issn": "2633-6960",
+              "medlineAbbreviation": "Oxf Open Immunol",
+              "nlmid": "101770669",
+              "title": "Oxford open immunology"
+            },
+            "journalIssueId": 4098449,
+            "monthOfPublication": 0,
+            "printPublicationDate": "2026-01-01",
+            "volume": "7",
+            "yearOfPublication": 2026
+          },
+          "keywordList": {
+            "keyword": [
+              "Rheumatoid arthritis",
+              "Immunomodulation",
+              "Autoimmune diseases",
+              "systemic lupus erythematosus",
+              "High-density Lipoproteins",
+              "Gelsolin"
+            ]
+          },
+          "language": "eng",
+          "license": "cc by",
+          "nihAuthMan": "N",
+          "pageInfo": "iqag002",
+          "pmcid": "PMC12910385",
+          "pmid": "41710123",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "pubYear": "2026",
+          "publicationStatus": "epublish",
+          "source": "MED",
+          "title": "Exploring the role of gelsolin and high-density lipoproteins in autoimmune diseases: spotlight on rheumatoid arthritis and systemic lupus erythematosus."
+        },
+        {
+          "abstractText": "Nuclear receptors (NRs) are ligand-dependent transcription factors that play essential roles in maintaining metabolic homeostasis and regulating disease progression through the control of metabolism, inflammation, and cellular differentiation. Due to their central position in these pathways, NRs have emerged as critical therapeutic targets in a range of metabolic and cardiovascular disorders, including diabetes, metabolic dysfunction-associated steatotic liver disease ([MASLD]; previously termed non-alcoholic fatty liver disease [NAFLD]), and atherosclerosis. This review summarizes current understanding of the molecular mechanisms by which NRs regulate metabolic function, with particular emphasis on their contributions to disease pathogenesis. We further outline recent advances from preclinical and clinical studies that explore NR-targeted therapeutic strategies. A deeper understanding of NR biology in metabolic and cardiovascular contexts holds promise for the development of more effective and selective interventions.",
+          "affiliation": "Department of Cardiovascular Medicine, Rui Jin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai 200025, P.R. China.",
+          "authMan": "N",
+          "authorList": {
+            "author": [
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Cardiovascular Medicine, Rui Jin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai 200025, P.R. China."
+                    },
+                    {
+                      "affiliation": "Institute of Cardiovascular Diseases, Shanghai Jiao Tong University School of Medicine, Shanghai 200025, P.R. China."
+                    }
+                  ]
+                },
+                "firstName": "Feifei",
+                "fullName": "Li F",
+                "initials": "F",
+                "lastName": "Li"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Cardiovascular Medicine, Rui Jin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai 200025, P.R. China."
+                    },
+                    {
+                      "affiliation": "Institute of Cardiovascular Diseases, Shanghai Jiao Tong University School of Medicine, Shanghai 200025, P.R. China."
+                    }
+                  ]
+                },
+                "firstName": "Qiujing",
+                "fullName": "Chen Q",
+                "initials": "Q",
+                "lastName": "Chen"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Cardiovascular Medicine, Rui Jin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai 200025, P.R. China."
+                    },
+                    {
+                      "affiliation": "Institute of Cardiovascular Diseases, Shanghai Jiao Tong University School of Medicine, Shanghai 200025, P.R. China."
+                    }
+                  ]
+                },
+                "firstName": "Yang",
+                "fullName": "Dai Y",
+                "initials": "Y",
+                "lastName": "Dai"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Cardiovascular Medicine, Rui Jin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai 200025, P.R. China."
+                    },
+                    {
+                      "affiliation": "Institute of Cardiovascular Diseases, Shanghai Jiao Tong University School of Medicine, Shanghai 200025, P.R. China."
+                    },
+                    {
+                      "affiliation": "National Research Center for Translational Medicine, Rui Jin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai 200025, P.R. China."
+                    }
+                  ]
+                },
+                "firstName": "Lin",
+                "fullName": "Lu L",
+                "initials": "L",
+                "lastName": "Lu"
+              }
+            ]
+          },
+          "authorString": "Li F, Chen Q, Dai Y, Lu L.",
+          "citedByCount": 0,
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "dateOfCompletion": "2025-12-24",
+          "dateOfCreation": "2025-12-24",
+          "dateOfRevision": "2025-12-26",
+          "doi": "10.1016/j.isci.2025.114042",
+          "electronicPublicationDate": "2025-11-14",
+          "epmcAuthMan": "N",
+          "firstIndexDate": "2025-12-24",
+          "firstPublicationDate": "2025-11-14",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12719103"
+            ]
+          },
+          "fullTextReceivedDate": "2025-12-24",
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/j.isci.2025.114042"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12719103"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12719103?pdf=render"
+              }
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Science and Technology Commission of Shanghai Municipality",
+                "grantId": "24ZR1446100",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Key Research and Development Program of China",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "81770430",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Key Research and Development Program of China Stem Cell and Translational Research",
+                "grantId": "2022YFA1105104",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "82470433",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "82070358",
+                "orderIn": 0
+              }
+            ]
+          },
+          "hasBook": "N",
+          "hasData": "Y",
+          "hasDbCrossReferences": "N",
+          "hasEvaluations": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "41438090",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalInfo": {
+            "dateOfPublication": "2025 Dec",
+            "issue": "12",
+            "journal": {
+              "essn": "2589-0042",
+              "isoabbreviation": "iScience",
+              "issn": "2589-0042",
+              "medlineAbbreviation": "iScience",
+              "nlmid": "101724038",
+              "title": "iScience"
+            },
+            "journalIssueId": 4059349,
+            "monthOfPublication": 12,
+            "printPublicationDate": "2025-12-01",
+            "volume": "28",
+            "yearOfPublication": 2025
+          },
+          "keywordList": {
+            "keyword": [
+              "Biochemistry",
+              "Therapeutics",
+              "Biological sciences",
+              "Health Sciences"
+            ]
+          },
+          "language": "eng",
+          "license": "cc by",
+          "nihAuthMan": "N",
+          "pageInfo": "114042",
+          "pmcid": "PMC12719103",
+          "pmid": "41438090",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "pubYear": "2025",
+          "publicationStatus": "epublish",
+          "source": "MED",
+          "title": "Nuclear receptors as therapeutic targets in metabolic and cardiovascular disorders.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "gen",
+              "refsnp",
+              "eudract",
+              "nct"
+            ]
+          }
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28NR1H3+OR+NR1H2+OR+ABCA1+OR+ABCG1+OR+APOE%29+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+Sjogren+OR+%22type+1+diabetes%22+OR+%22primary+biliary+cholangitis%22+OR+autoimmune%29&format=json&pageSize=3&resultType=core"
+}

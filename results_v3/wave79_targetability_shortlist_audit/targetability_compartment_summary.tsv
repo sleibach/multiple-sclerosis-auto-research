@@ -1,0 +1,6 @@
+gene	positive_contexts	apc_myeloid_positive_contexts	apc_myeloid_positive_disease_count	apc_myeloid_positive_diseases	non_target_positive_contexts	non_target_positive_disease_count	non_target_positive_diseases	top_positive_contexts
+SPNS1	4	2	2	Crohn disease;Sjogren syndrome	2	2	Crohn disease;psoriasis	ibd_crohn_epithelial:1.07,p=0.00255;sjogren_gland_apc:0.892,p=0.0225;ibd_crohn_myeloid:0.469,p=0.0346;psoriasis_skin_stromal:0.635,p=0.0374
+CD58	3	2	2	Crohn disease;ulcerative colitis	1	1	type 1 diabetes mellitus	ibd_uc_myeloid:0.965,p=0.00224;t1d_acinar_cell:0.77,p=0.014;ibd_crohn_myeloid:0.596,p=0.0267
+IFI30	3	2	2	psoriasis;ulcerative colitis	0	0		ibd_uc_myeloid:1.1,p=0.00999;t1d_beta_cell:0.812,p=0.0152;psoriasis_skin_apc:0.537,p=0.0489
+P4HB	4	1	1	psoriasis	3	3	Crohn disease;Sjogren syndrome;ulcerative colitis	ibd_uc_epithelial:1.11,p=0.000165;ibd_crohn_epithelial:1.01,p=0.000308;sjogren_gland_stromal:1.47,p=0.0267;psoriasis_skin_apc:0.956,p=0.0284
+SEL1L3	3	0	0		3	3	Crohn disease;type 1 diabetes mellitus;ulcerative colitis	ibd_uc_stromal:2.09,p=0.00104;ibd_crohn_stromal:1.46,p=0.00696;t1d_endothelial_cell:1.55,p=0.00757

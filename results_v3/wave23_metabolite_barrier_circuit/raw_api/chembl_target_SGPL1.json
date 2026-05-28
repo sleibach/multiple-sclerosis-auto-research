@@ -1,0 +1,868 @@
+{
+  "page_meta": {
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 3
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Rattus norvegicus",
+      "pref_name": "Sphingosine-1-phosphate lyase 1",
+      "score": 15.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL3826869",
+      "target_components": [
+        {
+          "accession": "Q8CHN6",
+          "component_description": "Sphingosine-1-phosphate lyase 1",
+          "component_id": 17023,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "4.1.2.27",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "S1PL",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Sgpl1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Sphingosine-1-phosphate aldolase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Sphingosine-1-phosphate lyase 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Spl",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "SPL",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "SPL 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "SP-lyase 1",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "Q8CHN6",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "GO:0005783",
+              "xref_name": "endoplasmic reticulum",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005789",
+              "xref_name": "endoplasmic reticulum membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0008117",
+              "xref_name": "sphinganine-1-phosphate aldolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016829",
+              "xref_name": "lyase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016830",
+              "xref_name": "carbon-carbon lyase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0030170",
+              "xref_name": "pyridoxal phosphate binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001553",
+              "xref_name": "luteinization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001570",
+              "xref_name": "vasculogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001822",
+              "xref_name": "kidney development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006631",
+              "xref_name": "fatty acid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006672",
+              "xref_name": "ceramide metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006915",
+              "xref_name": "apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007283",
+              "xref_name": "spermatogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008209",
+              "xref_name": "androgen metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008210",
+              "xref_name": "estrogen metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008585",
+              "xref_name": "female gonad development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010761",
+              "xref_name": "fibroblast migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0019752",
+              "xref_name": "carboxylic acid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030097",
+              "xref_name": "hemopoiesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030149",
+              "xref_name": "sphingolipid catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033327",
+              "xref_name": "Leydig cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0040014",
+              "xref_name": "regulation of multicellular organism growth",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048008",
+              "xref_name": "platelet-derived growth factor receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048705",
+              "xref_name": "skeletal system morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060021",
+              "xref_name": "roof of mouth development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060325",
+              "xref_name": "face morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0097190",
+              "xref_name": "apoptotic signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "Q8CHN6",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR002129",
+              "xref_name": "PyrdxlP-dep_de-COase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015421",
+              "xref_name": "PyrdxlP-dep_Trfase_major",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015422",
+              "xref_name": "PyrdxlP-dep_Trfase_small",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015424",
+              "xref_name": "PyrdxlP-dep_Trfase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR050477",
+              "xref_name": "GrpII_AminoAcid_Decarb",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR42735",
+              "xref_name": "-",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR42735:SF6",
+              "xref_name": "SPHINGOSINE-1-PHOSPHATE LYASE 1",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00282",
+              "xref_name": "Pyridoxal_deC",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "R-RNO-9845614",
+              "xref_name": "Sphingolipid catabolism",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "Q8CHN6",
+              "xref_name": "Sphingosine-1-phosphate lyase 1",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 10116
+    },
+    {
+      "cross_references": [],
+      "organism": "Mus musculus",
+      "pref_name": "Sphingosine-1-phosphate lyase 1",
+      "score": 14.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL5009",
+      "target_components": [
+        {
+          "accession": "Q8R0X7",
+          "component_description": "Sphingosine-1-phosphate lyase 1",
+          "component_id": 3321,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "4.1.2.27",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "mSPL",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "S1PL",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Sgpl1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Sphingosine-1-phosphate aldolase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Sphingosine-1-phosphate lyase 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "SPL 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "SP-lyase 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Synonyms=Spl",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "Q8R0X7",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "Q8R0X7",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005783",
+              "xref_name": "endoplasmic reticulum",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005789",
+              "xref_name": "endoplasmic reticulum membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0008117",
+              "xref_name": "sphinganine-1-phosphate aldolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016829",
+              "xref_name": "lyase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016830",
+              "xref_name": "carbon-carbon lyase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0030170",
+              "xref_name": "pyridoxal phosphate binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001553",
+              "xref_name": "luteinization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001570",
+              "xref_name": "vasculogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001822",
+              "xref_name": "kidney development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006631",
+              "xref_name": "fatty acid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006672",
+              "xref_name": "ceramide metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006915",
+              "xref_name": "apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007283",
+              "xref_name": "spermatogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008209",
+              "xref_name": "androgen metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008210",
+              "xref_name": "estrogen metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008585",
+              "xref_name": "female gonad development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010761",
+              "xref_name": "fibroblast migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0019752",
+              "xref_name": "carboxylic acid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030097",
+              "xref_name": "hemopoiesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030149",
+              "xref_name": "sphingolipid catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033327",
+              "xref_name": "Leydig cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0040014",
+              "xref_name": "regulation of multicellular organism growth",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048008",
+              "xref_name": "platelet-derived growth factor receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048705",
+              "xref_name": "skeletal system morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060021",
+              "xref_name": "roof of mouth development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060325",
+              "xref_name": "face morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0097190",
+              "xref_name": "apoptotic signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "Q8R0X7",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR002129",
+              "xref_name": "PyrdxlP-dep_de-COase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015421",
+              "xref_name": "PyrdxlP-dep_Trfase_major",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015422",
+              "xref_name": "PyrdxlP-dep_Trfase_small",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015424",
+              "xref_name": "PyrdxlP-dep_Trfase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR050477",
+              "xref_name": "GrpII_AminoAcid_Decarb",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR42735",
+              "xref_name": "-",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR42735:SF6",
+              "xref_name": "SPHINGOSINE-1-PHOSPHATE LYASE 1",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00282",
+              "xref_name": "Pyridoxal_deC",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "R-MMU-9845614",
+              "xref_name": "Sphingolipid catabolism",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "O54955",
+              "xref_name": "Sphingosine-1-phosphate lyase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8C942",
+              "xref_name": "Sphingosine-1-phosphate lyase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8R0X7",
+              "xref_name": "Sphingosine-1-phosphate lyase 1",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 10090
+    },
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Sphingosine-1-phosphate lyase 1",
+      "score": 14.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL3286061",
+      "target_components": [
+        {
+          "accession": "O95470",
+          "component_description": "Sphingosine-1-phosphate lyase 1",
+          "component_id": 8606,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "4.1.2.27",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "hSPL",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "S1PL",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "SGPL1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Sphingosine-1-phosphate aldolase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Sphingosine-1-phosphate lyase 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "SPL 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "SP-lyase 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Synonyms=KIAA1252",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "O95470",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "O95470",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005783",
+              "xref_name": "endoplasmic reticulum",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005789",
+              "xref_name": "endoplasmic reticulum membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008117",
+              "xref_name": "sphinganine-1-phosphate aldolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016829",
+              "xref_name": "lyase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016830",
+              "xref_name": "carbon-carbon lyase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0030170",
+              "xref_name": "pyridoxal phosphate binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001553",
+              "xref_name": "luteinization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001570",
+              "xref_name": "vasculogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001822",
+              "xref_name": "kidney development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006631",
+              "xref_name": "fatty acid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006672",
+              "xref_name": "ceramide metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006915",
+              "xref_name": "apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007283",
+              "xref_name": "spermatogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008209",
+              "xref_name": "androgen metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008210",
+              "xref_name": "estrogen metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008585",
+              "xref_name": "female gonad development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010761",
+              "xref_name": "fibroblast migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0019752",
+              "xref_name": "carboxylic acid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030097",
+              "xref_name": "hemopoiesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030149",
+              "xref_name": "sphingolipid catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033327",
+              "xref_name": "Leydig cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0040014",
+              "xref_name": "regulation of multicellular organism growth",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048008",
+              "xref_name": "platelet-derived growth factor receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048705",
+              "xref_name": "skeletal system morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060021",
+              "xref_name": "roof of mouth development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060325",
+              "xref_name": "face morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0097190",
+              "xref_name": "apoptotic signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:10817",
+              "xref_name": "SGPL1",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "O95470",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR002129",
+              "xref_name": "PyrdxlP-dep_de-COase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015421",
+              "xref_name": "PyrdxlP-dep_Trfase_major",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015422",
+              "xref_name": "PyrdxlP-dep_Trfase_small",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015424",
+              "xref_name": "PyrdxlP-dep_Trfase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR050477",
+              "xref_name": "GrpII_AminoAcid_Decarb",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR42735",
+              "xref_name": "-",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR42735:SF6",
+              "xref_name": "SPHINGOSINE-1-PHOSPHATE LYASE 1",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "4Q6R",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8AYF",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4Q6R",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8AYF",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF00282",
+              "xref_name": "Pyridoxal_deC",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA35725",
+              "xref_name": "sphingosine-1-phosphate lyase 1",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "O95470",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-9845614",
+              "xref_name": "Sphingolipid catabolism",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "B2RBD4",
+              "xref_name": "Sphingosine-1-phosphate lyase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O95470",
+              "xref_name": "Sphingosine-1-phosphate lyase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q7Z732",
+              "xref_name": "Sphingosine-1-phosphate lyase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9ULG8",
+              "xref_name": "Sphingosine-1-phosphate lyase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UN89",
+              "xref_name": "Sphingosine-1-phosphate lyase 1",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

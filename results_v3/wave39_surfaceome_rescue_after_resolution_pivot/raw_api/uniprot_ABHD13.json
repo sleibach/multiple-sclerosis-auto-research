@@ -1,0 +1,226 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-0162",
+                "value": "Membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-9906",
+                "value": "Single-pass type II membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00003B5D51"
+      },
+      "features": [
+        {
+          "description": "Helical; Signal-anchor for type II membrane protein",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 57
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 37
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Charge relay system",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 193
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 193
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "Charge relay system",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 268
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 268
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "Charge relay system",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 298
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 298
+            }
+          },
+          "type": "Active site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:20293",
+                "source": "HGNC"
+              }
+            ],
+            "value": "ABHD13"
+          },
+          "synonyms": [
+            {
+              "value": "C13orf6"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "PTM",
+          "id": "KW-0325",
+          "name": "Glycoprotein"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0378",
+          "name": "Hydrolase"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0735",
+          "name": "Signal-anchor"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        }
+      ],
+      "primaryAccession": "Q7L211",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000305"
+                }
+              ],
+              "value": "Alpha/beta hydrolase domain-containing protein 13"
+            },
+            "shortNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000312",
+                    "id": "HGNC:20293",
+                    "source": "HGNC"
+                  }
+                ],
+                "value": "Abhydrolase domain-containing protein 13"
+              }
+            ]
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "value": "3.-.-.-"
+            }
+          ],
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Protein ABHD13"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "D8298BF81784827F",
+        "length": 337,
+        "md5": "5C496C4D946CF28B8D63B068EEEE2CDF",
+        "molWeight": 38548,
+        "value": "MEKSWMLWNFVERWLIALASWSWALCRISLLPLIVTFHLYGGIILLLLIFISIAGILYKFQDVLLYFPEQPSSSRLYVPMPTGIPHENIFIRTKDGIRLNLILIRYTGDNSPYSPTIIYFHGNAGNIGHRLPNALLMLVNLKVNLLLVDYRGYGKSEGEASEEGLYLDSEAVLDYVMTRPDLDKTKIFLFGRSLGGAVAIHLASENSHRISAIMVENTFLSIPHMASTLFSFFPMRYLPLWCYKNKFLSYRKISQCRMPSLFISGLSDQLIPPVMMKQLYELSPSRTKRLAIFPDGTHNDTWQCQGYFTALEQFIKEVVKSHSPEEMAKTSSNVTII"
+      },
+      "uniProtkbId": "ABHDD_HUMAN"
+    }
+  ]
+}

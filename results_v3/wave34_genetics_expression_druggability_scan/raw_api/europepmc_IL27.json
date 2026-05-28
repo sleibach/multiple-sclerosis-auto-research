@@ -1,0 +1,55 @@
+{
+  "payload": {
+    "hitCount": 1179,
+    "nextCursorMark": "AoIIQRIiPyg1MzAyMzg5MQ==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=IL27 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQRIiPyg1MzAyMzg5MQ==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "IL27 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Fominykh V, Shadrin AA, Jaholkowski P, Fuhrer J, Parker N, Wistr\u00f6m ED, Frei O, Smeland OB, Sanner H, Djurovic S, Andreassen OA.",
+          "citedByCount": 3,
+          "doi": "10.3389/fimmu.2025.1543781",
+          "firstIndexDate": "2025-05-23",
+          "firstPublicationDate": "2025-05-08",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12094916"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "40406108",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalIssn": "1664-3224",
+          "journalTitle": "Front Immunol",
+          "journalVolume": "16",
+          "pageInfo": "1543781",
+          "pmcid": "PMC12094916",
+          "pmid": "40406108",
+          "pubType": "research-article; journal article",
+          "pubYear": "2025",
+          "source": "MED",
+          "title": "Mapping the genetic landscape of immune-mediated disorders: potential implications for classification and therapeutic strategies."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=IL27+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

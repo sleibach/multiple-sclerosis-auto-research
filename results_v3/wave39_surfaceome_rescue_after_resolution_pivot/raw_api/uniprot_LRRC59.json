@@ -1,0 +1,260 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22321063",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Required for nuclear import of FGF1, but not that of FGF2. Might regulate nuclear import of exogenous FGF1 by facilitating interaction with the nuclear import machinery and by transporting cytosolic FGF1 to, and possibly through, the nuclear pores"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "value": "Localization in the nuclear envelope depends upon the nuclear import machinery, including KPNB1"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "id": "SL-0165",
+                "value": "Microsome membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "id": "SL-9906",
+                "value": "Single-pass type II membrane protein"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0097",
+                "value": "Endoplasmic reticulum membrane"
+              },
+              "topology": {
+                "id": "SL-9906",
+                "value": "Single-pass type II membrane protein"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0178",
+                "value": "Nucleus envelope"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000071220"
+      },
+      "features": [
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 244
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 1
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 265
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 245
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Lumenal",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 307
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 266
+            }
+          },
+          "type": "Topological domain"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "LRRC59"
+          },
+          "orfNames": [
+            {
+              "value": "PRO1855"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0175",
+          "name": "Coiled coil"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-0903",
+          "name": "Direct protein sequencing"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0256",
+          "name": "Endoplasmic reticulum"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0433",
+          "name": "Leucine-rich repeat"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0492",
+          "name": "Microsome"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0539",
+          "name": "Nucleus"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0677",
+          "name": "Repeat"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0735",
+          "name": "Signal-anchor"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        }
+      ],
+      "primaryAccession": "Q96AG4",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Ribosome-binding protein p34"
+            },
+            "shortNames": [
+              {
+                "value": "p34"
+              }
+            ]
+          }
+        ],
+        "contains": [
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "Leucine-rich repeat-containing protein 59, N-terminally processed"
+              }
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Leucine-rich repeat-containing protein 59"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "E39C33C72C60448D",
+        "length": 307,
+        "md5": "880E890333A2DDA146A807AE591BC73C",
+        "molWeight": 34930,
+        "value": "MTKAGSKGGNLRDKLDGNELDLSLSDLNEVPVKELAALPKATILDLSCNKLTTLPSDFCGLTHLVKLDLSKNKLQQLPADFGRLVNLQHLDLLNNKLVTLPVSFAQLKNLKWLDLKDNPLDPVLAKVAGDCLDEKQCKQCANKVLQHMKAVQADQERERQRRLEVEREAEKKREAKQRAKEAQERELRKREKAEEKERRRKEYDALKAAKREQEKKPKKEANQAPKSKSGSRPRKPPPRKHTRSWAVLKLLLLLLLFGVAGGLVACRVTELQQQPLCTSVNTIYDNAVQGLRRHEILQWVLQTDSQQ"
+      },
+      "uniProtkbId": "LRC59_HUMAN"
+    }
+  ]
+}

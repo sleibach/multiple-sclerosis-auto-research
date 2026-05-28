@@ -1,0 +1,4482 @@
+{
+  "page_meta": {
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 3
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Retinal dehydrogenase 2",
+      "score": 18.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL3112384",
+      "target_components": [
+        {
+          "accession": "O94788",
+          "component_description": "Retinal dehydrogenase 2",
+          "component_id": 8318,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "1.2.1.36",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Aldehyde dehydrogenase family 1 member A2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ALDH1A2",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "ALDH1A2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "RalDH2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "RALDH 2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "RALDH2",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "RALDH(II)",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Retinaldehyde-specific dehydrogenase type 2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Retinal dehydrogenase 2",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "6ALJ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6B5H",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6B5G",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6B5I",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4X2Q",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0001758",
+              "xref_name": "retinal dehydrogenase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004028",
+              "xref_name": "3-chloroallyl aldehyde dehydrogenase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004029",
+              "xref_name": "aldehyde dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016491",
+              "xref_name": "oxidoreductase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016620",
+              "xref_name": "oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016918",
+              "xref_name": "retinal binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001568",
+              "xref_name": "blood vessel development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001822",
+              "xref_name": "kidney development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001889",
+              "xref_name": "liver development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002138",
+              "xref_name": "retinoic acid biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0003007",
+              "xref_name": "heart morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006629",
+              "xref_name": "lipid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006776",
+              "xref_name": "vitamin A metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007494",
+              "xref_name": "midgut development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008283",
+              "xref_name": "cell population proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008284",
+              "xref_name": "positive regulation of cell population proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008285",
+              "xref_name": "negative regulation of cell population proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009855",
+              "xref_name": "determination of bilateral symmetry",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009952",
+              "xref_name": "anterior/posterior pattern specification",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009954",
+              "xref_name": "proximal/distal pattern formation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010628",
+              "xref_name": "positive regulation of gene expression",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0014032",
+              "xref_name": "neural crest cell development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016331",
+              "xref_name": "morphogenesis of embryonic epithelium",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0021915",
+              "xref_name": "neural tube development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0021983",
+              "xref_name": "pituitary gland development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030182",
+              "xref_name": "neuron differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030324",
+              "xref_name": "lung development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030326",
+              "xref_name": "embryonic limb morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030900",
+              "xref_name": "forebrain development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030902",
+              "xref_name": "hindbrain development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031016",
+              "xref_name": "pancreas development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031076",
+              "xref_name": "embryonic camera-type eye development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035115",
+              "xref_name": "embryonic forelimb morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035799",
+              "xref_name": "ureter maturation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042572",
+              "xref_name": "retinol metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042573",
+              "xref_name": "retinoic acid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042574",
+              "xref_name": "retinal metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042904",
+              "xref_name": "9-cis-retinoic acid biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043010",
+              "xref_name": "camera-type eye development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043065",
+              "xref_name": "positive regulation of apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048384",
+              "xref_name": "retinoic acid receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048566",
+              "xref_name": "embryonic digestive tract development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048738",
+              "xref_name": "cardiac muscle tissue development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051289",
+              "xref_name": "protein homotetramerization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060324",
+              "xref_name": "face development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071300",
+              "xref_name": "cellular response to retinoic acid",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1905562",
+              "xref_name": "regulation of vascular endothelial cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0048471",
+              "xref_name": "perinuclear region of cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "B3KY52",
+              "xref_name": "Retinal dehydrogenase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "B4DZR2",
+              "xref_name": "Retinal dehydrogenase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "F5H2Y9",
+              "xref_name": "Retinal dehydrogenase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "H0YM00",
+              "xref_name": "Retinal dehydrogenase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q2PJS6",
+              "xref_name": "Retinal dehydrogenase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8NHQ4",
+              "xref_name": "Retinal dehydrogenase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UBR8",
+              "xref_name": "Retinal dehydrogenase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UFY0",
+              "xref_name": "Retinal dehydrogenase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O94788",
+              "xref_name": "Retinal dehydrogenase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "4X2Q",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ALJ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6B5G",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6B5H",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6B5I",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "O94788",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "O94788",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:15472",
+              "xref_name": "ALDH1A2",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-5365859",
+              "xref_name": "RA biosynthesis pathway",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "O94788",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "O94788",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR016161",
+              "xref_name": "Ald_DH/histidinol_DH",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016163",
+              "xref_name": "Ald_DH_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016160",
+              "xref_name": "Ald_DH_CS_CYS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029510",
+              "xref_name": "Ald_DH_CS_GLU",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016162",
+              "xref_name": "Ald_DH_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015590",
+              "xref_name": "Aldehyde_DH_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11699",
+              "xref_name": "ALDEHYDE DEHYDROGENASE-RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00171",
+              "xref_name": "Aldedh",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA24693",
+              "xref_name": "aldehyde dehydrogenase 1 family member A2",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    },
+    {
+      "cross_references": [],
+      "organism": "Gallus gallus",
+      "pref_name": "Retinal dehydrogenase 2",
+      "score": 18.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL4295683",
+      "target_components": [
+        {
+          "accession": "O93344",
+          "component_description": "Retinal dehydrogenase 2",
+          "component_id": 18104,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "1.2.1.36",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Aldehyde dehydrogenase family 1 member A2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ALDH1A2",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "ALDH1A2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "RalDH2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "RALDH 2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "RALDH2",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "RALDH(II)",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Retinaldehyde-specific dehydrogenase type 2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Retinal dehydrogenase 2",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0001758",
+              "xref_name": "retinal dehydrogenase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004029",
+              "xref_name": "aldehyde dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004745",
+              "xref_name": "all-trans-retinol dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016491",
+              "xref_name": "oxidoreductase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016620",
+              "xref_name": "oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001947",
+              "xref_name": "heart looping",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002138",
+              "xref_name": "retinoic acid biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0003007",
+              "xref_name": "heart morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006629",
+              "xref_name": "lipid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010628",
+              "xref_name": "positive regulation of gene expression",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0021522",
+              "xref_name": "spinal cord motor neuron differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042572",
+              "xref_name": "retinol metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042573",
+              "xref_name": "retinoic acid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051289",
+              "xref_name": "protein homotetramerization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "Q549A6",
+              "xref_name": "Retinal dehydrogenase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O93344",
+              "xref_name": "Retinal dehydrogenase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O93344",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "IPR016161",
+              "xref_name": "Ald_DH/histidinol_DH",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016163",
+              "xref_name": "Ald_DH_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016160",
+              "xref_name": "Ald_DH_CS_CYS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029510",
+              "xref_name": "Ald_DH_CS_GLU",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016162",
+              "xref_name": "Ald_DH_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015590",
+              "xref_name": "Aldehyde_DH_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11699",
+              "xref_name": "ALDEHYDE DEHYDROGENASE-RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00171",
+              "xref_name": "Aldedh",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA24693",
+              "xref_name": "aldehyde dehydrogenase 1 family member A2",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9031
+    },
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Aldehyde dehydrogenase",
+      "score": 5.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL3542434",
+      "target_components": [
+        {
+          "accession": "P51649",
+          "component_description": "Succinate-semialdehyde dehydrogenase, mitochondrial",
+          "component_id": 224,
+          "component_type": "PROTEIN",
+          "relationship": "GROUP MEMBER",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "1.2.1.24",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Aldehyde dehydrogenase family 5 member A1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ALDH5A1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "NAD(+)-dependent succinic semialdehyde dehydrogenase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "SSADH",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Succinate-semialdehyde dehydrogenase, mitochondrial",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "2W8N",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2W8O",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2W8P",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2W8Q",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2W8R",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0004777",
+              "xref_name": "succinate-semialdehyde dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0009013",
+              "xref_name": "succinate-semialdehyde dehydrogenase [NAD(P)+] activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016491",
+              "xref_name": "oxidoreductase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042802",
+              "xref_name": "identical protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006105",
+              "xref_name": "succinate metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006536",
+              "xref_name": "glutamate metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007417",
+              "xref_name": "central nervous system development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009448",
+              "xref_name": "gamma-aminobutyric acid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009450",
+              "xref_name": "gamma-aminobutyric acid catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051932",
+              "xref_name": "synaptic transmission, GABAergic",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005739",
+              "xref_name": "mitochondrion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0045202",
+              "xref_name": "synapse",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "B2RD26",
+              "xref_name": "Succinate-semialdehyde dehydrogenase, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "G5E949",
+              "xref_name": "Succinate-semialdehyde dehydrogenase, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q546H9",
+              "xref_name": "Succinate-semialdehyde dehydrogenase, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8N3W6",
+              "xref_name": "Succinate-semialdehyde dehydrogenase, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P51649",
+              "xref_name": "Succinate-semialdehyde dehydrogenase, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "2W8N",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2W8O",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2W8P",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2W8Q",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2W8R",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P51649",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P51649",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:408",
+              "xref_name": "ALDH5A1",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-916853",
+              "xref_name": "Degradation of GABA",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P51649",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P51649",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR016161",
+              "xref_name": "Ald_DH/histidinol_DH",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016163",
+              "xref_name": "Ald_DH_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016160",
+              "xref_name": "Ald_DH_CS_CYS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029510",
+              "xref_name": "Ald_DH_CS_GLU",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016162",
+              "xref_name": "Ald_DH_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015590",
+              "xref_name": "Aldehyde_DH_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR050740",
+              "xref_name": "Aldehyde_DH_Superfamily",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR010102",
+              "xref_name": "Succ_semiAld_DH",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR43353",
+              "xref_name": "SUCCINATE-SEMIALDEHYDE DEHYDROGENASE, MITOCHONDRIAL",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR43353:SF5",
+              "xref_name": "SUCCINATE-SEMIALDEHYDE DEHYDROGENASE, MITOCHONDRIAL",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00171",
+              "xref_name": "Aldedh",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA24702",
+              "xref_name": "aldehyde dehydrogenase 5 family member A1",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        },
+        {
+          "accession": "P05091",
+          "component_description": "Aldehyde dehydrogenase, mitochondrial",
+          "component_id": 254,
+          "component_type": "PROTEIN",
+          "relationship": "GROUP MEMBER",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "1.2.1.3",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Aldehyde dehydrogenase, mitochondrial",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ALDH2",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "ALDH class 2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ALDH-E2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ALDHI",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ALDM",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "5L13",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2VLE",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3SZ9",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2ONP",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2ONO",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2ONN",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2ONM",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1O05",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1O04",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1O02",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4FR8",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1O01",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1O00",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8DR9",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1NZZ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3INJ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3N80",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1NZX",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3INL",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3N81",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1NZW",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3N82",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3N83",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1ZUM",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1CW3",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4KWF",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4FQF",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4KWG",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0004029",
+              "xref_name": "aldehyde dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004030",
+              "xref_name": "aldehyde dehydrogenase [NAD(P)+] activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008957",
+              "xref_name": "phenylacetaldehyde dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0009055",
+              "xref_name": "electron transfer activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016491",
+              "xref_name": "oxidoreductase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016620",
+              "xref_name": "oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0051287",
+              "xref_name": "NAD binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0106435",
+              "xref_name": "carboxylesterase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005975",
+              "xref_name": "carbohydrate metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006066",
+              "xref_name": "alcohol metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006068",
+              "xref_name": "ethanol catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0018937",
+              "xref_name": "nitroglycerin metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046185",
+              "xref_name": "aldehyde catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005739",
+              "xref_name": "mitochondrion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "B4DW54",
+              "xref_name": "Aldehyde dehydrogenase, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "E7EUE5",
+              "xref_name": "Aldehyde dehydrogenase, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q03639",
+              "xref_name": "Aldehyde dehydrogenase, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q6IB13",
+              "xref_name": "Aldehyde dehydrogenase, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q6IV71",
+              "xref_name": "Aldehyde dehydrogenase, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P05091",
+              "xref_name": "Aldehyde dehydrogenase, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "1CW3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1NZW",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1NZX",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1NZZ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1O00",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1O01",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1O02",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1O04",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1O05",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1ZUM",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2ONM",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2ONN",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2ONO",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2ONP",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2VLE",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3INJ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3INL",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3N80",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3N81",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3N82",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3N83",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3SZ9",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4FQF",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4FR8",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4KWF",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4KWG",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5L13",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8DR9",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8SHS",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P05091",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P05091",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:404",
+              "xref_name": "ALDH2",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-380612",
+              "xref_name": "Metabolism of serotonin",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-445355",
+              "xref_name": "Smooth Muscle Contraction",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-71384",
+              "xref_name": "Ethanol oxidation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9837999",
+              "xref_name": "Mitochondrial protein degradation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P05091",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P05091",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR016161",
+              "xref_name": "Ald_DH/histidinol_DH",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016163",
+              "xref_name": "Ald_DH_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016160",
+              "xref_name": "Ald_DH_CS_CYS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029510",
+              "xref_name": "Ald_DH_CS_GLU",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016162",
+              "xref_name": "Ald_DH_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015590",
+              "xref_name": "Aldehyde_DH_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11699",
+              "xref_name": "ALDEHYDE DEHYDROGENASE-RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00171",
+              "xref_name": "Aldedh",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA24696",
+              "xref_name": "aldehyde dehydrogenase 2 family member",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        },
+        {
+          "accession": "P49189",
+          "component_description": "4-trimethylaminobutyraldehyde dehydrogenase",
+          "component_id": 881,
+          "component_type": "PROTEIN",
+          "relationship": "GROUP MEMBER",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "1.2.1.19",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "1.2.1.3",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "1.2.1.46",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "1.2.1.47",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "4-trimethylaminobutyraldehyde dehydrogenase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "4-trimethylaminobutyraldehyde dehydrogenase, N-terminally processed",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Aldehyde dehydrogenase E3 isozyme",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Aldehyde dehydrogenase family 9 member A1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ALDH4",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "ALDH7",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "ALDH9",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "ALDH9A1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Formaldehyde dehydrogenase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Gamma-aminobutyraldehyde dehydrogenase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "R-aminobutyraldehyde dehydrogenase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Synonyms=ALDH4",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "TMABA-DH",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "TMABALDH",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "6QAO",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6QAP",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6VWF",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6QAK",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6VR6",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0004029",
+              "xref_name": "aldehyde dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016491",
+              "xref_name": "oxidoreductase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016620",
+              "xref_name": "oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0018467",
+              "xref_name": "formaldehyde dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019145",
+              "xref_name": "aminobutyraldehyde dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0047105",
+              "xref_name": "4-trimethylammoniobutyraldehyde dehydrogenase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006081",
+              "xref_name": "aldehyde metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045329",
+              "xref_name": "carnitine biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051289",
+              "xref_name": "protein homotetramerization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005739",
+              "xref_name": "mitochondrion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "B2R6X1",
+              "xref_name": "4-trimethylaminobutyraldehyde dehydrogenase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "B4DXY7",
+              "xref_name": "4-trimethylaminobutyraldehyde dehydrogenase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "B9EKV4",
+              "xref_name": "4-trimethylaminobutyraldehyde dehydrogenase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q5VV90",
+              "xref_name": "4-trimethylaminobutyraldehyde dehydrogenase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q6LCL1",
+              "xref_name": "4-trimethylaminobutyraldehyde dehydrogenase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9NZT7",
+              "xref_name": "4-trimethylaminobutyraldehyde dehydrogenase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P49189",
+              "xref_name": "4-trimethylaminobutyraldehyde dehydrogenase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "6QAK",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6QAO",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6QAP",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6VR6",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6VWF",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P49189",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P49189",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:412",
+              "xref_name": "ALDH9A1",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-71262",
+              "xref_name": "Carnitine synthesis",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P49189",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "IPR016161",
+              "xref_name": "Ald_DH/histidinol_DH",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016163",
+              "xref_name": "Ald_DH_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016160",
+              "xref_name": "Ald_DH_CS_CYS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029510",
+              "xref_name": "Ald_DH_CS_GLU",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016162",
+              "xref_name": "Ald_DH_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015590",
+              "xref_name": "Aldehyde_DH_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11699",
+              "xref_name": "ALDEHYDE DEHYDROGENASE-RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00171",
+              "xref_name": "Aldedh",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA24706",
+              "xref_name": "aldehyde dehydrogenase 9 family member A1",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        },
+        {
+          "accession": "P48448",
+          "component_description": "Aldehyde dehydrogenase family 3 member B2",
+          "component_id": 1141,
+          "component_type": "PROTEIN",
+          "relationship": "GROUP MEMBER",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "1.2.1.3",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "1.2.1.48",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Aldehyde dehydrogenase 8",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Aldehyde dehydrogenase family 3 member B2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ALDH3B2",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "ALDH3B2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ALDH8",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Long-chain fatty aldehyde dehydrogenase",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0004028",
+              "xref_name": "3-chloroallyl aldehyde dehydrogenase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004029",
+              "xref_name": "aldehyde dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004030",
+              "xref_name": "aldehyde dehydrogenase [NAD(P)+] activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016491",
+              "xref_name": "oxidoreductase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016620",
+              "xref_name": "oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0050061",
+              "xref_name": "long-chain fatty aldehyde dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0052814",
+              "xref_name": "medium-chain fatty aldehyde dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006066",
+              "xref_name": "alcohol metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006068",
+              "xref_name": "ethanol catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006081",
+              "xref_name": "aldehyde metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006629",
+              "xref_name": "lipid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030149",
+              "xref_name": "sphingolipid catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005811",
+              "xref_name": "lipid droplet",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "Q53Y98",
+              "xref_name": "Aldehyde dehydrogenase family 3 member B2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8NAL5",
+              "xref_name": "Aldehyde dehydrogenase family 3 member B2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q96IB2",
+              "xref_name": "Aldehyde dehydrogenase family 3 member B2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P48448",
+              "xref_name": "Aldehyde dehydrogenase family 3 member B2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P48448",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P48448",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:411",
+              "xref_name": "ALDH3B2",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-9845614",
+              "xref_name": "Sphingolipid catabolism",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P48448",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P48448",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR016161",
+              "xref_name": "Ald_DH/histidinol_DH",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016163",
+              "xref_name": "Ald_DH_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016160",
+              "xref_name": "Ald_DH_CS_CYS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029510",
+              "xref_name": "Ald_DH_CS_GLU",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016162",
+              "xref_name": "Ald_DH_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015590",
+              "xref_name": "Aldehyde_DH_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR012394",
+              "xref_name": "Aldehyde_DH_NAD(P)",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR43570",
+              "xref_name": "ALDEHYDE DEHYDROGENASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR43570:SF6",
+              "xref_name": "ALDEHYDE DEHYDROGENASE FAMILY 3 MEMBER B2",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00171",
+              "xref_name": "Aldedh",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA24700",
+              "xref_name": "aldehyde dehydrogenase 3 family member B2",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        },
+        {
+          "accession": "P00352",
+          "component_description": "Aldehyde dehydrogenase 1A1",
+          "component_id": 1897,
+          "component_type": "PROTEIN",
+          "relationship": "GROUP MEMBER",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "1.2.1.19",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "1.2.1.28",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "1.2.1.3",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "1.2.1.36",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "3-deoxyglucosone dehydrogenase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Aldehyde dehydrogenase 1A1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Aldehyde dehydrogenase, cytosolic",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Aldehyde dehydrogenase family 1 member A1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ALDH1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "ALDH1A1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "ALDH-E1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ALHDII",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PUMB1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "PUMB1 GN  ",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "RalDH1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "RALDH 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Retinal dehydrogenase 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Synonyms=ALDC",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "8T0N",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4WB9",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5AC2",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4X4L",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7JWV",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7JWW",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4WJ9",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5L2N",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7JWT",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5L2M",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7JWU",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5L2O",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7UM9",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8WFQ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4WP7",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7JWS",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4WPN",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5TEI",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8T0T",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6DUM",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0000166",
+              "xref_name": "nucleotide binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001758",
+              "xref_name": "retinal dehydrogenase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004029",
+              "xref_name": "aldehyde dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005096",
+              "xref_name": "GTPase activator activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005497",
+              "xref_name": "androgen binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016491",
+              "xref_name": "oxidoreductase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016620",
+              "xref_name": "oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0018479",
+              "xref_name": "benzaldehyde dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019145",
+              "xref_name": "aminobutyraldehyde dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0051287",
+              "xref_name": "NAD binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0106373",
+              "xref_name": "3-deoxyglucosone dehydrogenase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001523",
+              "xref_name": "retinoid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006081",
+              "xref_name": "aldehyde metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006629",
+              "xref_name": "lipid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009449",
+              "xref_name": "gamma-aminobutyric acid biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030392",
+              "xref_name": "fructosamine catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0036438",
+              "xref_name": "maintenance of lens transparency",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042572",
+              "xref_name": "retinol metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0110095",
+              "xref_name": "cellular detoxification of aldehyde",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0120163",
+              "xref_name": "negative regulation of cold-induced thermogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0030424",
+              "xref_name": "axon",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0042995",
+              "xref_name": "cell projection",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0045202",
+              "xref_name": "synapse",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "O00768",
+              "xref_name": "Aldehyde dehydrogenase 1A1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q5SYR1",
+              "xref_name": "Aldehyde dehydrogenase 1A1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P00352",
+              "xref_name": "Aldehyde dehydrogenase 1A1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "4WB9",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4WJ9",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4WP7",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4WPN",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4X4L",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5AC2",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5L2M",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5L2N",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5L2O",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5TEI",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6DUM",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7JWS",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7JWT",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7JWU",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7JWV",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7JWW",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7UM9",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8D46",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8DNO",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8ENE",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8PVH",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8T0N",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8T0T",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8WFQ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P00352",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P00352",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:402",
+              "xref_name": "ALDH1A1",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-5365859",
+              "xref_name": "RA biosynthesis pathway",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-70350",
+              "xref_name": "Fructose catabolism",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-71384",
+              "xref_name": "Ethanol oxidation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P00352",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P00352",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR016161",
+              "xref_name": "Ald_DH/histidinol_DH",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016163",
+              "xref_name": "Ald_DH_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016160",
+              "xref_name": "Ald_DH_CS_CYS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029510",
+              "xref_name": "Ald_DH_CS_GLU",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016162",
+              "xref_name": "Ald_DH_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015590",
+              "xref_name": "Aldehyde_DH_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11699",
+              "xref_name": "ALDEHYDE DEHYDROGENASE-RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00171",
+              "xref_name": "Aldedh",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA24692",
+              "xref_name": "aldehyde dehydrogenase 1 family member A1",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        },
+        {
+          "accession": "P30838",
+          "component_description": "Aldehyde dehydrogenase, dimeric NADP-preferring",
+          "component_id": 1898,
+          "component_type": "PROTEIN",
+          "relationship": "GROUP MEMBER",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "1.2.1.5",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Aldehyde dehydrogenase 3",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Aldehyde dehydrogenase, dimeric NADP-preferring",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Aldehyde dehydrogenase family 3 member A1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ALDH3",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "ALDH3A1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "ALDHIII",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "3SZB",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4H80",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8BB8",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4L2O",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4L1O",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3SZA",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0004028",
+              "xref_name": "3-chloroallyl aldehyde dehydrogenase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004029",
+              "xref_name": "aldehyde dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004030",
+              "xref_name": "aldehyde dehydrogenase [NAD(P)+] activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008106",
+              "xref_name": "alcohol dehydrogenase (NADP+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016491",
+              "xref_name": "oxidoreductase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016620",
+              "xref_name": "oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0018479",
+              "xref_name": "benzaldehyde dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006081",
+              "xref_name": "aldehyde metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006629",
+              "xref_name": "lipid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006805",
+              "xref_name": "xenobiotic metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005615",
+              "xref_name": "extracellular space",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005783",
+              "xref_name": "endoplasmic reticulum",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "A8K828",
+              "xref_name": "Aldehyde dehydrogenase, dimeric NADP-preferring",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9BT37",
+              "xref_name": "Aldehyde dehydrogenase, dimeric NADP-preferring",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P30838",
+              "xref_name": "Aldehyde dehydrogenase, dimeric NADP-preferring",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "3SZA",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3SZB",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4H80",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4L1O",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4L2O",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8BB8",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P30838",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P30838",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:405",
+              "xref_name": "ALDH3A1",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-211945",
+              "xref_name": "Phase I - Functionalization of compounds",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P30838",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P30838",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR016161",
+              "xref_name": "Ald_DH/histidinol_DH",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016163",
+              "xref_name": "Ald_DH_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016160",
+              "xref_name": "Ald_DH_CS_CYS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029510",
+              "xref_name": "Ald_DH_CS_GLU",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016162",
+              "xref_name": "Ald_DH_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015590",
+              "xref_name": "Aldehyde_DH_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR012394",
+              "xref_name": "Aldehyde_DH_NAD(P)",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR43570",
+              "xref_name": "ALDEHYDE DEHYDROGENASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR43570:SF15",
+              "xref_name": "ALDEHYDE DEHYDROGENASE, DIMERIC NADP-PREFERRING",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00171",
+              "xref_name": "Aldedh",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA24697",
+              "xref_name": "aldehyde dehydrogenase 3 family member A1",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        },
+        {
+          "accession": "P47895",
+          "component_description": "Retinaldehyde dehydrogenase 3",
+          "component_id": 1899,
+          "component_type": "PROTEIN",
+          "relationship": "GROUP MEMBER",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "1.2.1.36",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Aldehyde dehydrogenase 6",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Aldehyde dehydrogenase family 1 member A3",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ALDH1A3",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "ALDH1A3",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ALDH6",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "RalDH3",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "RALDH-3",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Retinaldehyde dehydrogenase 3",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "7QK9",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6S6W",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6TE5",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6TGW",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5FHZ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6TRY",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7A6Q",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7QK7",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7QK8",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0001758",
+              "xref_name": "retinal dehydrogenase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004029",
+              "xref_name": "aldehyde dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004030",
+              "xref_name": "aldehyde dehydrogenase [NAD(P)+] activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016491",
+              "xref_name": "oxidoreductase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016620",
+              "xref_name": "oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042803",
+              "xref_name": "protein homodimerization activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0070324",
+              "xref_name": "thyroid hormone binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0070403",
+              "xref_name": "NAD+ binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0002072",
+              "xref_name": "optic cup morphogenesis involved in camera-type eye development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002138",
+              "xref_name": "retinoic acid biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006629",
+              "xref_name": "lipid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006915",
+              "xref_name": "apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007626",
+              "xref_name": "locomotory behavior",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0021768",
+              "xref_name": "nucleus accumbens development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031076",
+              "xref_name": "embryonic camera-type eye development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042472",
+              "xref_name": "inner ear morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042572",
+              "xref_name": "retinol metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042573",
+              "xref_name": "retinoic acid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042574",
+              "xref_name": "retinal metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043065",
+              "xref_name": "positive regulation of apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043584",
+              "xref_name": "nose development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048048",
+              "xref_name": "embryonic eye morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050885",
+              "xref_name": "neuromuscular process controlling balance",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051289",
+              "xref_name": "protein homotetramerization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060166",
+              "xref_name": "olfactory pit development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060324",
+              "xref_name": "face development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070384",
+              "xref_name": "Harderian gland development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "Q6NT64",
+              "xref_name": "Retinaldehyde dehydrogenase 3",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P47895",
+              "xref_name": "Retinaldehyde dehydrogenase 3",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "5FHZ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6S6W",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6TE5",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6TGW",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6TRY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7A6Q",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7QK7",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7QK8",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7QK9",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P47895",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P47895",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:409",
+              "xref_name": "ALDH1A3",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-5365859",
+              "xref_name": "RA biosynthesis pathway",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P47895",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P47895",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR016161",
+              "xref_name": "Ald_DH/histidinol_DH",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016163",
+              "xref_name": "Ald_DH_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016160",
+              "xref_name": "Ald_DH_CS_CYS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029510",
+              "xref_name": "Ald_DH_CS_GLU",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016162",
+              "xref_name": "Ald_DH_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015590",
+              "xref_name": "Aldehyde_DH_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11699",
+              "xref_name": "ALDEHYDE DEHYDROGENASE-RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00171",
+              "xref_name": "Aldedh",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA24694",
+              "xref_name": "aldehyde dehydrogenase 1 family member A3",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        },
+        {
+          "accession": "P43353",
+          "component_description": "Aldehyde dehydrogenase family 3 member B1",
+          "component_id": 2552,
+          "component_type": "PROTEIN",
+          "relationship": "GROUP MEMBER",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "1.2.1.28",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "1.2.1.48",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "1.2.1.5",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "1.2.1.7",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Aldehyde dehydrogenase 7",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Aldehyde dehydrogenase family 3 member B1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ALDH3B1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "ALDH7",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Long-chain fatty aldehyde dehydrogenase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Medium-chain fatty aldehyde dehydrogenase",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0006979",
+              "xref_name": "response to oxidative stress",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034599",
+              "xref_name": "cellular response to oxidative stress",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046185",
+              "xref_name": "aldehyde catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0004028",
+              "xref_name": "3-chloroallyl aldehyde dehydrogenase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004029",
+              "xref_name": "aldehyde dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004030",
+              "xref_name": "aldehyde dehydrogenase [NAD(P)+] activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016491",
+              "xref_name": "oxidoreductase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016620",
+              "xref_name": "oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0018477",
+              "xref_name": "benzaldehyde dehydrogenase (NADP+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0018479",
+              "xref_name": "benzaldehyde dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0050061",
+              "xref_name": "long-chain fatty aldehyde dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0052814",
+              "xref_name": "medium-chain fatty aldehyde dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006066",
+              "xref_name": "alcohol metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006068",
+              "xref_name": "ethanol catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006081",
+              "xref_name": "aldehyde metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006629",
+              "xref_name": "lipid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030149",
+              "xref_name": "sphingolipid catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0030667",
+              "xref_name": "secretory granule membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0035579",
+              "xref_name": "specific granule membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "A3FMP9",
+              "xref_name": "Aldehyde dehydrogenase family 3 member B1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q53XL5",
+              "xref_name": "Aldehyde dehydrogenase family 3 member B1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8N515",
+              "xref_name": "Aldehyde dehydrogenase family 3 member B1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q96CK8",
+              "xref_name": "Aldehyde dehydrogenase family 3 member B1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P43353",
+              "xref_name": "Aldehyde dehydrogenase family 3 member B1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P43353",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P43353",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:410",
+              "xref_name": "ALDH3B1",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-6798695",
+              "xref_name": "Neutrophil degranulation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9845614",
+              "xref_name": "Sphingolipid catabolism",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P43353",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P43353",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR016161",
+              "xref_name": "Ald_DH/histidinol_DH",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016163",
+              "xref_name": "Ald_DH_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016160",
+              "xref_name": "Ald_DH_CS_CYS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029510",
+              "xref_name": "Ald_DH_CS_GLU",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016162",
+              "xref_name": "Ald_DH_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015590",
+              "xref_name": "Aldehyde_DH_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR012394",
+              "xref_name": "Aldehyde_DH_NAD(P)",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR43570",
+              "xref_name": "ALDEHYDE DEHYDROGENASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR43570:SF2",
+              "xref_name": "ALDEHYDE DEHYDROGENASE FAMILY 3 MEMBER B1",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00171",
+              "xref_name": "Aldedh",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA24699",
+              "xref_name": "aldehyde dehydrogenase 3 family member B1",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        },
+        {
+          "accession": "P30837",
+          "component_description": "Aldehyde dehydrogenase X, mitochondrial",
+          "component_id": 3197,
+          "component_type": "PROTEIN",
+          "relationship": "GROUP MEMBER",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "1.2.1.3",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Aldehyde dehydrogenase 5",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Aldehyde dehydrogenase family 1 member B1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Aldehyde dehydrogenase X, mitochondrial",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ALDH1B1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "ALDH5",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "ALDHX",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "7RAD",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7MJC",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7MJD",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0004029",
+              "xref_name": "aldehyde dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016491",
+              "xref_name": "oxidoreductase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016620",
+              "xref_name": "oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0051287",
+              "xref_name": "NAD binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005975",
+              "xref_name": "carbohydrate metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006068",
+              "xref_name": "ethanol catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005654",
+              "xref_name": "nucleoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005739",
+              "xref_name": "mitochondrion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "B2R8F0",
+              "xref_name": "Aldehyde dehydrogenase X, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8WX76",
+              "xref_name": "Aldehyde dehydrogenase X, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9BV45",
+              "xref_name": "Aldehyde dehydrogenase X, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P30837",
+              "xref_name": "Aldehyde dehydrogenase X, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "7MJC",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7MJD",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7RAD",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P30837",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P30837",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:407",
+              "xref_name": "ALDH1B1",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-71384",
+              "xref_name": "Ethanol oxidation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9837999",
+              "xref_name": "Mitochondrial protein degradation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P30837",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P30837",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR016161",
+              "xref_name": "Ald_DH/histidinol_DH",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016163",
+              "xref_name": "Ald_DH_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016160",
+              "xref_name": "Ald_DH_CS_CYS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029510",
+              "xref_name": "Ald_DH_CS_GLU",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016162",
+              "xref_name": "Ald_DH_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015590",
+              "xref_name": "Aldehyde_DH_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11699",
+              "xref_name": "ALDEHYDE DEHYDROGENASE-RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00171",
+              "xref_name": "Aldedh",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA24695",
+              "xref_name": "aldehyde dehydrogenase 1 family member B1",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        },
+        {
+          "accession": "O94788",
+          "component_description": "Retinal dehydrogenase 2",
+          "component_id": 8318,
+          "component_type": "PROTEIN",
+          "relationship": "GROUP MEMBER",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "1.2.1.36",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Aldehyde dehydrogenase family 1 member A2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ALDH1A2",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "ALDH1A2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "RalDH2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "RALDH 2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "RALDH2",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "RALDH(II)",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Retinaldehyde-specific dehydrogenase type 2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Retinal dehydrogenase 2",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "6ALJ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6B5H",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6B5G",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6B5I",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4X2Q",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0001758",
+              "xref_name": "retinal dehydrogenase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004028",
+              "xref_name": "3-chloroallyl aldehyde dehydrogenase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004029",
+              "xref_name": "aldehyde dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016491",
+              "xref_name": "oxidoreductase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016620",
+              "xref_name": "oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016918",
+              "xref_name": "retinal binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001568",
+              "xref_name": "blood vessel development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001822",
+              "xref_name": "kidney development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001889",
+              "xref_name": "liver development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002138",
+              "xref_name": "retinoic acid biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0003007",
+              "xref_name": "heart morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006629",
+              "xref_name": "lipid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006776",
+              "xref_name": "vitamin A metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007494",
+              "xref_name": "midgut development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008283",
+              "xref_name": "cell population proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008284",
+              "xref_name": "positive regulation of cell population proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008285",
+              "xref_name": "negative regulation of cell population proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009855",
+              "xref_name": "determination of bilateral symmetry",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009952",
+              "xref_name": "anterior/posterior pattern specification",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009954",
+              "xref_name": "proximal/distal pattern formation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010628",
+              "xref_name": "positive regulation of gene expression",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0014032",
+              "xref_name": "neural crest cell development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016331",
+              "xref_name": "morphogenesis of embryonic epithelium",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0021915",
+              "xref_name": "neural tube development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0021983",
+              "xref_name": "pituitary gland development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030182",
+              "xref_name": "neuron differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030324",
+              "xref_name": "lung development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030326",
+              "xref_name": "embryonic limb morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030900",
+              "xref_name": "forebrain development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030902",
+              "xref_name": "hindbrain development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031016",
+              "xref_name": "pancreas development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031076",
+              "xref_name": "embryonic camera-type eye development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035115",
+              "xref_name": "embryonic forelimb morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035799",
+              "xref_name": "ureter maturation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042572",
+              "xref_name": "retinol metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042573",
+              "xref_name": "retinoic acid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042574",
+              "xref_name": "retinal metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042904",
+              "xref_name": "9-cis-retinoic acid biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043010",
+              "xref_name": "camera-type eye development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043065",
+              "xref_name": "positive regulation of apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048384",
+              "xref_name": "retinoic acid receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048566",
+              "xref_name": "embryonic digestive tract development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048738",
+              "xref_name": "cardiac muscle tissue development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051289",
+              "xref_name": "protein homotetramerization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060324",
+              "xref_name": "face development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071300",
+              "xref_name": "cellular response to retinoic acid",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1905562",
+              "xref_name": "regulation of vascular endothelial cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0048471",
+              "xref_name": "perinuclear region of cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "B3KY52",
+              "xref_name": "Retinal dehydrogenase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "B4DZR2",
+              "xref_name": "Retinal dehydrogenase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "F5H2Y9",
+              "xref_name": "Retinal dehydrogenase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "H0YM00",
+              "xref_name": "Retinal dehydrogenase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q2PJS6",
+              "xref_name": "Retinal dehydrogenase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8NHQ4",
+              "xref_name": "Retinal dehydrogenase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UBR8",
+              "xref_name": "Retinal dehydrogenase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UFY0",
+              "xref_name": "Retinal dehydrogenase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O94788",
+              "xref_name": "Retinal dehydrogenase 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "4X2Q",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ALJ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6B5G",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6B5H",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6B5I",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "O94788",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "O94788",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:15472",
+              "xref_name": "ALDH1A2",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-5365859",
+              "xref_name": "RA biosynthesis pathway",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "O94788",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "O94788",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR016161",
+              "xref_name": "Ald_DH/histidinol_DH",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016163",
+              "xref_name": "Ald_DH_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016160",
+              "xref_name": "Ald_DH_CS_CYS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029510",
+              "xref_name": "Ald_DH_CS_GLU",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016162",
+              "xref_name": "Ald_DH_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015590",
+              "xref_name": "Aldehyde_DH_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11699",
+              "xref_name": "ALDEHYDE DEHYDROGENASE-RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00171",
+              "xref_name": "Aldedh",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA24693",
+              "xref_name": "aldehyde dehydrogenase 1 family member A2",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        },
+        {
+          "accession": "P30038",
+          "component_description": "Delta-1-pyrroline-5-carboxylate dehydrogenase, mitochondrial",
+          "component_id": 9785,
+          "component_type": "PROTEIN",
+          "relationship": "GROUP MEMBER",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "1.2.1.88",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Aldehyde dehydrogenase family 4 member A1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ALDH4",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "ALDH4A1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Delta-1-pyrroline-5-carboxylate dehydrogenase, mitochondrial",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "L-glutamate gamma-semialdehyde dehydrogenase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "P5C dehydrogenase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "P5CDH",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "4OE5",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3V9G",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3V9H",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8RKQ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3V9I",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8RKR",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0003842",
+              "xref_name": "1-pyrroline-5-carboxylate dehydrogenase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004029",
+              "xref_name": "aldehyde dehydrogenase (NAD+) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0009055",
+              "xref_name": "electron transfer activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016491",
+              "xref_name": "oxidoreductase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042802",
+              "xref_name": "identical protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006560",
+              "xref_name": "proline metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006562",
+              "xref_name": "proline catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010133",
+              "xref_name": "proline catabolic process to glutamate",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0019470",
+              "xref_name": "4-hydroxyproline catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005739",
+              "xref_name": "mitochondrion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "A8K1Q7",
+              "xref_name": "Delta-1-pyrroline-5-carboxylate dehydrogenase, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "B4DGE4",
+              "xref_name": "Delta-1-pyrroline-5-carboxylate dehydrogenase, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "D2D4A3",
+              "xref_name": "Delta-1-pyrroline-5-carboxylate dehydrogenase, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q16882",
+              "xref_name": "Delta-1-pyrroline-5-carboxylate dehydrogenase, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q53HU4",
+              "xref_name": "Delta-1-pyrroline-5-carboxylate dehydrogenase, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q5JNV6",
+              "xref_name": "Delta-1-pyrroline-5-carboxylate dehydrogenase, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8IZ38",
+              "xref_name": "Delta-1-pyrroline-5-carboxylate dehydrogenase, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q96IF0",
+              "xref_name": "Delta-1-pyrroline-5-carboxylate dehydrogenase, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UDI6",
+              "xref_name": "Delta-1-pyrroline-5-carboxylate dehydrogenase, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P30038",
+              "xref_name": "Delta-1-pyrroline-5-carboxylate dehydrogenase, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "3V9G",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3V9H",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3V9I",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4OE5",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8RKQ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8RKR",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P30038",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P30038",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:406",
+              "xref_name": "ALDH4A1",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-389661",
+              "xref_name": "Glyoxylate metabolism and glycine degradation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-70688",
+              "xref_name": "Proline catabolism",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P30038",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P30038",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR016161",
+              "xref_name": "Ald_DH/histidinol_DH",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016163",
+              "xref_name": "Ald_DH_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016160",
+              "xref_name": "Ald_DH_CS_CYS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029510",
+              "xref_name": "Ald_DH_CS_GLU",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016162",
+              "xref_name": "Ald_DH_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015590",
+              "xref_name": "Aldehyde_DH_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR005931",
+              "xref_name": "P5CDH/ALDH4A1",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR14516",
+              "xref_name": "1-PYRROLINE-5-CARBOXYLATE DEHYDROGENASE FAMILY MEMBER",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR14516:SF3",
+              "xref_name": "DELTA-1-PYRROLINE-5-CARBOXYLATE DEHYDROGENASE, MITOCHONDRIAL",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00171",
+              "xref_name": "Aldedh",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA24701",
+              "xref_name": "aldehyde dehydrogenase 4 family member A1",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        }
+      ],
+      "target_type": "PROTEIN FAMILY",
+      "tax_id": 9606
+    }
+  ]
+}

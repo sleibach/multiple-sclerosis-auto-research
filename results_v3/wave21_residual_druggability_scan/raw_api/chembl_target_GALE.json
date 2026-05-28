@@ -1,0 +1,416 @@
+{
+  "_request_url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=GALE&limit=10",
+  "_status_code": 200,
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 2
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Trypanosoma brucei",
+      "pref_name": "UDP-galactose 4-epimerase",
+      "score": 20.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL1169595",
+      "target_components": [
+        {
+          "accession": "Q8T8E9",
+          "component_description": "UDP-glucose 4-epimerase",
+          "component_id": 5124,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "5.1.3.2",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "galE",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "UDP-glucose 4-epimerase",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "Q8T8E9",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "GO:0020015",
+              "xref_name": "glycosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0000166",
+              "xref_name": "nucleotide binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003978",
+              "xref_name": "UDP-glucose 4-epimerase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016853",
+              "xref_name": "isomerase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006012",
+              "xref_name": "galactose metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "IPR001509",
+              "xref_name": "Epimerase_deHydtase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR005886",
+              "xref_name": "UDP_G4E",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036291",
+              "xref_name": "NAD(P)-bd_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR43725",
+              "xref_name": "UDP-GLUCOSE 4-EPIMERASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR43725:SF53",
+              "xref_name": "UDP-ARABINOSE 4-EPIMERASE 1",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "1GY8",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2CNB",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1GY8",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2CNB",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF01370",
+              "xref_name": "Epimerase",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "Q8T8E9",
+              "xref_name": "UDP-glucose 4-epimerase",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 5691
+    },
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "UDP-glucose 4-epimerase",
+      "score": 15.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL5843",
+      "target_components": [
+        {
+          "accession": "Q14376",
+          "component_description": "UDP-glucose 4-epimerase",
+          "component_id": 4287,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "5.1.3.2",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "5.1.3.7",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Galactowaldenase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "GALE",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "UDP-galactose 4-epimerase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "UDP-GalNAc 4-epimerase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "UDP-GlcNAc 4-epimerase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "UDP-glucose 4-epimerase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "UDP-N-acetylgalactosamine 4-epimerase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "UDP-N-acetylglucosamine 4-epimerase",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "Q14376",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "Q14376",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0003974",
+              "xref_name": "UDP-N-acetylglucosamine 4-epimerase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003978",
+              "xref_name": "UDP-glucose 4-epimerase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016853",
+              "xref_name": "isomerase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042802",
+              "xref_name": "identical protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042803",
+              "xref_name": "protein homodimerization activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006012",
+              "xref_name": "galactose metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0019388",
+              "xref_name": "galactose catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033499",
+              "xref_name": "galactose catabolic process via UDP-galactose",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:4116",
+              "xref_name": "GALE",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "Q14376",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR005886",
+              "xref_name": "UDP_G4E",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016040",
+              "xref_name": "NAD(P)-bd_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036291",
+              "xref_name": "NAD(P)-bd_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR43725",
+              "xref_name": "UDP-GLUCOSE 4-EPIMERASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR43725:SF47",
+              "xref_name": "UDP-GLUCOSE 4-EPIMERASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "1EK5",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1EK6",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1HZJ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1I3K",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1I3L",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1I3M",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1I3N",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1EK5",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1EK6",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1HZJ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1I3K",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1I3L",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1I3M",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1I3N",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF16363",
+              "xref_name": "GDP_Man_Dehyd",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA28531",
+              "xref_name": "UDP-galactose-4-epimerase",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "Q14376",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-5609977",
+              "xref_name": "Defective GALE causes EDG",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-70370",
+              "xref_name": "Galactose catabolism",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "A0A024RAH5",
+              "xref_name": "UDP-glucose 4-epimerase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "B3KQ39",
+              "xref_name": "UDP-glucose 4-epimerase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q14376",
+              "xref_name": "UDP-glucose 4-epimerase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q38G75",
+              "xref_name": "UDP-glucose 4-epimerase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q86W41",
+              "xref_name": "UDP-glucose 4-epimerase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9BVE3",
+              "xref_name": "UDP-glucose 4-epimerase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UJB4",
+              "xref_name": "UDP-glucose 4-epimerase",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

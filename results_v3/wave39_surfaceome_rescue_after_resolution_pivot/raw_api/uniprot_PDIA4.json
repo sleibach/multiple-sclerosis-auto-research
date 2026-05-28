@@ -1,0 +1,195 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "17081065",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Identified by mass spectrometry in melanosome fractions from stage I to stage IV (PubMed:17081065)"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "12643545",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0096",
+                "value": "Endoplasmic reticulum lumen"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "17081065",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0161",
+                "value": "Melanosome"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000004062C"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "PDIA4"
+          },
+          "synonyms": [
+            {
+              "value": "ERP70"
+            },
+            {
+              "value": "ERP72"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-0903",
+          "name": "Direct protein sequencing"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-1015",
+          "name": "Disulfide bond"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0256",
+          "name": "Endoplasmic reticulum"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0945",
+          "name": "Host-virus interaction"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0413",
+          "name": "Isomerase"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0676",
+          "name": "Redox-active center"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0677",
+          "name": "Repeat"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0732",
+          "name": "Signal"
+        }
+      ],
+      "primaryAccession": "P13667",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Endoplasmic reticulum resident protein 70"
+            },
+            "shortNames": [
+              {
+                "value": "ER protein 70"
+              },
+              {
+                "value": "ERp70"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Endoplasmic reticulum resident protein 72"
+            },
+            "shortNames": [
+              {
+                "value": "ER protein 72"
+              },
+              {
+                "value": "ERp-72"
+              },
+              {
+                "value": "ERp72"
+              }
+            ]
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P08003",
+                  "source": "UniProtKB"
+                }
+              ],
+              "value": "5.3.4.1"
+            }
+          ],
+          "fullName": {
+            "value": "Protein disulfide-isomerase A4"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "1919C2AE12CD2684",
+        "length": 645,
+        "md5": "3C369840299294267F6C5591DD0AF146",
+        "molWeight": 72932,
+        "value": "MRPRKAFLLLLLLGLVQLLAVAGAEGPDEDSSNRENAIEDEEEEEEEDDDEEEDDLEVKEENGVLVLNDANFDNFVADKDTVLLEFYAPWCGHCKQFAPEYEKIANILKDKDPPIPVAKIDATSASVLASRFDVSGYPTIKILKKGQAVDYEGSRTQEEIVAKVREVSQPDWTPPPEVTLVLTKENFDEVVNDADIILVEFYAPWCGHCKKLAPEYEKAAKELSKRSPPIPLAKVDATAETDLAKRFDVSGYPTLKIFRKGRPYDYNGPREKYGIVDYMIEQSGPPSKEILTLKQVQEFLKDGDDVIIIGVFKGESDPAYQQYQDAANNLREDYKFHHTFSTEIAKFLKVSQGQLVVMQPEKFQSKYEPRSHMMDVQGSTQDSAIKDFVLKYALPLVGHRKVSNDAKRYTRRPLVVVYYSVDFSFDYRAATQFWRSKVLEVAKDFPEYTFAIADEEDYAGEVKDLGLSESGEDVNAAILDESGKKFAMEPEEFDSDTLREFVTAFKKGKLKPVIKSQPVPKNNKGPVKVVVGKTFDSIVMDPKKDVLIEFYAPWCGHCKQLEPVYNSLAKKYKGQKGLVIAKMDATANDVPSDRYKVEGFPTIYFAPSGDKKNPVKFEGGDRDLEHLSKFIEEHATKLSRTKEEL"
+      },
+      "uniProtkbId": "PDIA4_HUMAN"
+    }
+  ]
+}

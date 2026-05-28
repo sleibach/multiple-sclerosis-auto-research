@@ -1,0 +1,85 @@
+{
+  "_request_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL4295717&standard_units=nM&limit=1",
+  "_status_code": 200,
+  "activities": [
+    {
+      "action_type": {
+        "action_type": "INHIBITOR",
+        "description": "Negatively effects (inhibits) the normal functioning of the protein e.g., prevention of enzymatic reaction or activation of downstream pathway",
+        "parent_type": "NEGATIVE MODULATOR"
+      },
+      "activity_comment": null,
+      "activity_id": 22460111,
+      "activity_properties": [
+        {
+          "comments": null,
+          "relation": "=",
+          "result_flag": 0,
+          "standard_relation": "=",
+          "standard_text_value": null,
+          "standard_type": "TIME",
+          "standard_units": "hr",
+          "standard_value": "1.0",
+          "text_value": null,
+          "type": "Time",
+          "units": "hrs",
+          "value": "1.0"
+        }
+      ],
+      "assay_chembl_id": "CHEMBL4682779",
+      "assay_description": "Inhibition of PDIA4 (unknown origin) expressed in Escherichia coli BL21 (DE3) incubated for 1 hr and measured by insulin reduction assay",
+      "assay_type": "B",
+      "assay_variant_accession": null,
+      "assay_variant_mutation": null,
+      "bao_endpoint": "BAO_0000190",
+      "bao_format": "BAO_0000019",
+      "bao_label": "assay format",
+      "canonical_smiles": "CCCCCCCC/C=C1\\C=C(C(F)(F)F)c2cc(O)c(O)cc21",
+      "data_validity_comment": null,
+      "data_validity_description": null,
+      "document_chembl_id": "CHEMBL4680132",
+      "document_journal": "Eur J Med Chem",
+      "document_year": 2020,
+      "ligand_efficiency": {
+        "bei": "13.16",
+        "le": "0.25",
+        "lle": "-1.71",
+        "sei": "11.07"
+      },
+      "molecule_chembl_id": "CHEMBL4751979",
+      "molecule_pref_name": null,
+      "parent_molecule_chembl_id": "CHEMBL4751979",
+      "pchembl_value": "4.48",
+      "potential_duplicate": 0,
+      "qudt_units": "http://www.openphacts.org/units/Nanomolar",
+      "record_id": 3520073,
+      "relation": "=",
+      "src_id": 1,
+      "standard_flag": 1,
+      "standard_relation": "=",
+      "standard_text_value": null,
+      "standard_type": "IC50",
+      "standard_units": "nM",
+      "standard_upper_value": null,
+      "standard_value": "33100.0",
+      "target_chembl_id": "CHEMBL4295717",
+      "target_organism": "Homo sapiens",
+      "target_pref_name": "Protein disulfide-isomerase A4",
+      "target_tax_id": "9606",
+      "text_value": null,
+      "toid": null,
+      "type": "IC50",
+      "units": "uM",
+      "uo_units": "UO_0000065",
+      "upper_value": null,
+      "value": "33.1"
+    }
+  ],
+  "page_meta": {
+    "limit": 1,
+    "next": "/chembl/api/data/activity.json?limit=1&offset=1&target_chembl_id=CHEMBL4295717&standard_units=nM",
+    "offset": 0,
+    "previous": null,
+    "total_count": 8
+  }
+}

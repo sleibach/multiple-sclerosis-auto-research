@@ -1,0 +1,259 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17012226",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "21844891",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22499339",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Probable phosphoinositide-binding protein involved in protein sorting and membrane trafficking in endosomes. Plays a role in cilium biogenesis through regulation of the transport and the localization of proteins to the cilium. Required for the localization to the cilium of V-ATPase subunit ATP6V1D and ATP6V0D1, and RAB8A. Involved in osteoclast differentiation and therefore bone resorption"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "value": "May also localize to nucleus and endoplasmic reticulum"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0100",
+                "value": "Endosome membrane"
+              },
+              "orientation": {
+                "id": "SL-9910",
+                "value": "Cytoplasmic side"
+              },
+              "topology": {
+                "id": "SL-9903",
+                "value": "Peripheral membrane protein"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0048",
+                "value": "Cytoplasm, cytoskeleton, microtubule organizing center, centrosome"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000003E7DF"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58088"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58088",
+            "name": "a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol-3-phosphate)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 53
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 53
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58088"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58088",
+            "name": "a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol-3-phosphate)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 79
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 79
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58088"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58088",
+            "name": "a 1,2-diacyl-sn-glycero-3-phospho-(1D-myo-inositol-3-phosphate)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 94
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 94
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "SNX10"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0970",
+          "name": "Cilium biogenesis/degradation"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0963",
+          "name": "Cytoplasm"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0206",
+          "name": "Cytoskeleton"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0225",
+          "name": "Disease variant"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0967",
+          "name": "Endosome"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0446",
+          "name": "Lipid-binding"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0987",
+          "name": "Osteopetrosis"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0653",
+          "name": "Protein transport"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0813",
+          "name": "Transport"
+        }
+      ],
+      "primaryAccession": "Q9Y5X0",
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "value": "Sorting nexin-10"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "665B80734D5E5C72",
+        "length": 201,
+        "md5": "D3ABE857DE993ACA86CD6EF2F8EBADC3",
+        "molWeight": 23598,
+        "value": "MFPEQQKEEFVSVWVRDPRIQKEDFWHSYIDYEICIHTNSMCFTMKTSCVRRRYREFVWLRQRLQSNALLVQLPELPSKNLFFNMNNRQHVDQRRQGLEDFLRKVLQNALLLSDSSLHLFLQSHLNSEDIEACVSGQTKYSVEEAIHKFALMNRRFPEEDEEGKKENDIDYDSESSSSGLGHSSDDSSSHGCKVNTAPQES"
+      },
+      "uniProtkbId": "SNX10_HUMAN"
+    }
+  ]
+}

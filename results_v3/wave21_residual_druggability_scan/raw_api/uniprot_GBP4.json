@@ -1,0 +1,265 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3AGBP4%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "A4UUI3",
+                  "source": "UniProtKB"
+                }
+              ],
+              "value": "Interferon (IFN)-inducible GTPase that plays important roles in innate immunity against a diverse range of bacterial, viral and protozoan pathogens (By similarity). Negatively regulates the antiviral response by inhibiting activation of IRF7 transcription factor (By similarity)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "21151871",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Heterodimers with GBP1, GBP2 and GBP5 localize in the compartment of the prenylated GBPs: with GBP1 in a vesicle-like compartment, with GBP2, around the nucleus and with GBP5, at the Golgi apparatus"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "21151871",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0134",
+                "value": "Golgi apparatus membrane"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "17266443",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "17266443",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0191",
+                "value": "Nucleus"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "21151871",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0198",
+                "value": "Cytoplasm, perinuclear region"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000013E1A4"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P32455",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 67
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 60
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P32455",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 84
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 82
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P32455",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 116
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 112
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "id": "Ref.1",
+                "source": "Reference"
+              },
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:20480",
+                "source": "HGNC"
+              }
+            ],
+            "value": "GBP4"
+          }
+        }
+      ],
+      "primaryAccession": "Q96PP9",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "Ref.1",
+                  "source": "Reference"
+                }
+              ],
+              "value": "GTP-binding protein 4"
+            },
+            "shortNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "Ref.1",
+                    "source": "Reference"
+                  }
+                ],
+                "value": "GBP-4"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Guanine nucleotide-binding protein 4"
+            }
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P32455",
+                  "source": "UniProtKB"
+                }
+              ],
+              "value": "3.6.5.-"
+            }
+          ],
+          "fullName": {
+            "value": "Guanylate-binding protein 4"
+          }
+        }
+      }
+    }
+  ]
+}

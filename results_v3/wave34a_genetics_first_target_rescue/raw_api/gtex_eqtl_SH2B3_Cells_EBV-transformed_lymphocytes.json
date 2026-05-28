@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr12",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000111252.10",
+        "geneSymbol": "SH2B3",
+        "geneSymbolUpper": "SH2B3",
+        "nes": -1.27657,
+        "ontologyId": "EFO:0000572",
+        "pValue": 6.17569e-05,
+        "pos": 111168427,
+        "snpId": "rs74850446",
+        "snpIdUpper": "RS74850446",
+        "tissueSiteDetailId": "Cells_EBV-transformed_lymphocytes",
+        "variantId": "chr12_111168427_T_G_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 207,
+      "page": 0,
+      "totalNumberOfItems": 207
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000111252.10&tissueSiteDetailId=Cells_EBV-transformed_lymphocytes&datasetId=gtex_v8&itemsPerPage=1"
+}

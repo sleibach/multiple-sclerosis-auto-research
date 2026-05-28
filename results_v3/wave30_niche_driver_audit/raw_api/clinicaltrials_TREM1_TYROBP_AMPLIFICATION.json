@@ -1,0 +1,1812 @@
+{
+  "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxuYvSn2vYakA",
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D056648",
+              "term": "Anti-Neutrophil Cytoplasmic Antibody-Associated Vasculitis"
+            },
+            {
+              "id": "D056647",
+              "term": "Systemic Vasculitis"
+            },
+            {
+              "id": "D014657",
+              "term": "Vasculitis"
+            },
+            {
+              "id": "D014652",
+              "term": "Vascular Diseases"
+            },
+            {
+              "id": "D002318",
+              "term": "Cardiovascular Diseases"
+            },
+            {
+              "id": "D006099",
+              "term": "Granuloma"
+            },
+            {
+              "id": "D008232",
+              "term": "Lymphoproliferative Disorders"
+            },
+            {
+              "id": "D008206",
+              "term": "Lymphatic Diseases"
+            },
+            {
+              "id": "D006425",
+              "term": "Hemic and Lymphatic Diseases"
+            },
+            {
+              "id": "D017445",
+              "term": "Skin Diseases, Vascular"
+            },
+            {
+              "id": "D012871",
+              "term": "Skin Diseases"
+            },
+            {
+              "id": "D017437",
+              "term": "Skin and Connective Tissue Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            },
+            {
+              "id": "D008171",
+              "term": "Lung Diseases"
+            },
+            {
+              "id": "D012140",
+              "term": "Respiratory Tract Diseases"
+            },
+            {
+              "id": "D017681",
+              "term": "Hypereosinophilic Syndrome"
+            },
+            {
+              "id": "D004802",
+              "term": "Eosinophilia"
+            },
+            {
+              "id": "D007960",
+              "term": "Leukocyte Disorders"
+            },
+            {
+              "id": "D006402",
+              "term": "Hematologic Diseases"
+            },
+            {
+              "id": "D004941",
+              "term": "Esophagitis"
+            },
+            {
+              "id": "D004935",
+              "term": "Esophageal Diseases"
+            },
+            {
+              "id": "D005767",
+              "term": "Gastrointestinal Diseases"
+            },
+            {
+              "id": "D004066",
+              "term": "Digestive System Diseases"
+            },
+            {
+              "id": "D005759",
+              "term": "Gastroenteritis"
+            },
+            {
+              "id": "D006969",
+              "term": "Hypersensitivity, Immediate"
+            },
+            {
+              "id": "D006967",
+              "term": "Hypersensitivity"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D015267",
+              "term": "Churg-Strauss Syndrome"
+            },
+            {
+              "id": "D011657",
+              "term": "Pulmonary Eosinophilia"
+            },
+            {
+              "id": "D057765",
+              "term": "Eosinophilic Esophagitis"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "documentSection": {
+        "largeDocumentModule": {
+          "largeDocs": [
+            {
+              "date": "2022-06-20",
+              "filename": "Prot_SAP_000.pdf",
+              "hasIcf": false,
+              "hasProtocol": true,
+              "hasSap": true,
+              "label": "Study Protocol and Statistical Analysis Plan",
+              "size": 1021669,
+              "typeAbbrev": "Prot_SAP",
+              "uploadDate": "2022-12-13T06:56"
+            }
+          ]
+        }
+      },
+      "hasResults": true,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Patients with eosinophilic asthma meeting ERS/ATS criteria for severe asthma.",
+              "interventionNames": [
+                "Diagnostic Test: Autoantibody ELISA",
+                "Diagnostic Test: Granulocyte Immunofluorescence"
+              ],
+              "label": "Severe eosinophilic asthma"
+            },
+            {
+              "description": "Milder asthma, other vasculitides, eosinophilic COPD, and/or eosinophilic oesophagitis",
+              "interventionNames": [
+                "Diagnostic Test: Autoantibody ELISA",
+                "Diagnostic Test: Granulocyte Immunofluorescence"
+              ],
+              "label": "Other respiratory conditions"
+            },
+            {
+              "description": "Healthy patients with no chronic lung condition.",
+              "interventionNames": [
+                "Diagnostic Test: Autoantibody ELISA",
+                "Diagnostic Test: Granulocyte Immunofluorescence"
+              ],
+              "label": "Healthy controls"
+            },
+            {
+              "description": "Patients with asthma meeting criteria for a diagnosis of EGPA (eosinophilic granulomatosis with polyangiitis) as per Wechsler et al. \\[N Engl J Med. 2017 May 18;376(20):1921-1932\\]",
+              "interventionNames": [
+                "Diagnostic Test: Autoantibody ELISA",
+                "Diagnostic Test: Granulocyte Immunofluorescence"
+              ],
+              "label": "EGPA"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "EGPA",
+                "Healthy controls",
+                "Other respiratory conditions",
+                "Severe eosinophilic asthma"
+              ],
+              "description": "Serum will be tested for novel autoantibodies against candidate auto-antigens by ELISA, such as those previously identified as of importance (e.g. eosinophil peroxidase, EPX) and also novel candidate proteins specific to eosinophils as identified by FANTOM5 geneset analysis.",
+              "name": "Autoantibody ELISA",
+              "type": "DIAGNOSTIC_TEST"
+            },
+            {
+              "armGroupLabels": [
+                "EGPA",
+                "Healthy controls",
+                "Other respiratory conditions",
+                "Severe eosinophilic asthma"
+              ],
+              "description": "The presence of auto-antibodies in patient serum to inactive and activated neutrophils / eosinophils, with and without post-translational modification, will be examined by indirect immunofluorescence.",
+              "name": "Granulocyte Immunofluorescence",
+              "type": "DIAGNOSTIC_TEST"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Churg-Strauss Syndrome",
+            "Eosinophilic Asthma",
+            "Eosinophilic Esophagitis",
+            "Eosinophilic Pneumonia"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "London",
+              "country": "United Kingdom",
+              "facility": "Barts Health NHS Trust, Dept of Rheumatology, Mile End Hospital",
+              "geoPoint": {
+                "lat": 51.50853,
+                "lon": -0.12574
+              },
+              "zip": "E1 4DG"
+            },
+            {
+              "city": "London",
+              "country": "United Kingdom",
+              "facility": "Barts Health NHS Trust, Dept of Respiratory Medicine, St Bartholomew's Hospital",
+              "geoPoint": {
+                "lat": 51.50853,
+                "lon": -0.12574
+              },
+              "zip": "EC1A 7BE"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Queen Mary University of London",
+              "name": "Myles J Lewis, MD PhD FRCP",
+              "role": "STUDY_CHAIR"
+            },
+            {
+              "affiliation": "Barts & The London NHS Trust",
+              "name": "Paul Pfeffer, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "In this project the investigators will look for auto-antibodies to relevant proteins both in native form and importantly in post-translationally modified forms. Potential modified auto-antigens are eosinophil proteins (analogous to the cytoplasmic neutrophil proteins identified in vasculitides such as Granulomatosis with Polyangiitis (formerly known as Wegener's granulomatosis) and alternatively structural proteins such as collagen V. As well as advancing the understanding of asthma pathology, identifying a serum auto-antibody that could then be used as a clinical blood test, analogous to anti-cyclic citrullinated peptide (CCP) antibodies in rheumatoid arthritis, may revolutionise diagnosis of severe eosinophilic asthma and Eosinophilic Granulomatosis with Polyangiitis (EGPA). There is a considerable burden of undiagnosed severe eosinophilic asthma in part due to difficulties in definitive diagnosis and a diagnostic blood test would help diagnose these patients, allowing them to receive necessary treatment.",
+          "detailedDescription": "The investigators will approach the research question with parallel agnostic and targeted approaches.\n\nIn the agnostic approach the presence of auto-antibodies in patient serum and sputum to inactive and activated eosinophils, with and without post-translational modification, will be examined by indirect immunofluorescence.\n\nIn the targeted approach the investigators will examine by enzyme-linked immunoassay (ELISA) the presence/absence of antibodies to pre-selected candidate eosinophil and base membrane proteins both in native form and post-translationally modified. Proteins to examine will be chosen based on literature review (e.g. eosinophil peroxidase and collagen V) and eosinophil-specific proteins identified by FANTOM5 (Functional Annotation of the Mouse/Mammalian Genome) geneset analysis (FANTOM Consortium et al. 2014).\n\nBoth blood and sputum samples from highly-characterised patients with severe eosinophilic asthma and/or EGPA will be examined given the possibility of compartment-specific immune responses.\n\nOnce candidate auto-antigens have been identified in the selected group of patients with severe eosinophilic asthma and EGPA, the investigators will then examine their prevalence in serum samples from a wider selection of patients with eosinophilic airways diseases including mild-to-moderate asthma, severe eosinophilic asthma, EGPA, nasal polyposis and eosinophilic chronic obstructive pulmonary disease (COPD) as well as healthy controls. Length of disease, atopy, presence/absence nasal polyps, gender, age will be examined as co-variates. Correlations with highest blood eosinophil counts, requirement for oral corticosteroids and presence of other auto-antibodies, e.g. anti-MPO (myeloperoxidase) ANCA (anti-neutrophil cytoplasmic antibody), will be examined. In particular the investigators will look for the presence of novel autoantibodies in specific patient subsets: i) ANCA negative, ii) ANCA positive by immunofluorescence but negative for anti-MPO and anti-PR3 (proteinase-3) antibodies, iii) ANA (anti-nuclear antibody) positive but ANCA and extractable nuclear antigen (ENA) negative; since patients in all three groups may have novel, as yet undetermined autoantibodies. ROC (receiver operator characteristic curve) AUC (area under curve) analyses will be conducted to ascertain the predictive value of blood auto-antibodies for diagnosis of eosinophilic airways disease."
+        },
+        "designModule": {
+          "bioSpec": {
+            "description": "Blood samples",
+            "retention": "SAMPLES_WITHOUT_DNA"
+          },
+          "designInfo": {
+            "observationalModel": "CASE_CONTROL",
+            "timePerspective": "PROSPECTIVE"
+          },
+          "enrollmentInfo": {
+            "count": 120,
+            "type": "ACTUAL"
+          },
+          "patientRegistry": false,
+          "studyType": "OBSERVATIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Severe Eosinophilic Asthma (with multi-disciplinary diagnosis as per ERS/ATS Criteria, blood eosinophils \u2265 0.3 x109/L on inhaled corticosteroids); or\n* EGPA (as per American College of Rheumatology (ACR) Criteria); or\n* Eosinophilic COPD (post-bronchodilator FEV1/FVC \\< 70% predicted, absence of bronchodilator reversibility, \\> 20 pack year smoking history, no history of asthma, blood eosinophils \u2265 0.3 x109/L); or\n* Eosinophilic oesophagitis (with diagnostic histology); or\n* Granulomatosis with Polyangiitis (GPA, formerly called Wegener's) (as per American College of Rheumatology (ACR) Criteria)\n\nExclusion Criteria:\n\n* Known Pregnancy\n* Anaemia\n* Hepatitis B Virus, Hepatitis C Virus or HIV infection\n* Donation of more than 240mls blood in the last sixteen weeks (four months) to any other research study or as a donation to the National Blood Transfusion Service\n* Rituximab, plasmapharesis or polyclonal immunoglobulin infusion (ever)",
+          "healthyVolunteers": true,
+          "minimumAge": "18 Years",
+          "samplingMethod": "PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Patients will be recruited via Outpatient Clinics conducted at St Bartholomew's (Bart's) Hospital, The Royal London Hospital, and Mile End Hospital (all Bart's Health NHS Trust), as well as from inpatients at these hospitals under the care of the Respiratory Medicine and Rheumatology teams (including those under other services needing inpatient respiratory medicine or rheumatology review)."
+        },
+        "identificationModule": {
+          "acronym": "IDEA",
+          "briefTitle": "Identification of Autoantigens in EGPA and Severe Eosinophilic Asthma",
+          "nctId": "NCT04671446",
+          "officialTitle": "Identification of Autoantigens and Their Potential Post-translational Modification in EGPA and Severe Eosinophilic Asthma",
+          "orgStudyIdInfo": {
+            "id": "IRAS 274097"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Queen Mary University of London"
+          },
+          "secondaryIdInfos": [
+            {
+              "domain": "Health Research Authority",
+              "id": "20/PR/0004",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Serum tested for novel autoantibodies against candidate auto-antigens by ELISA. Outcome: Positive OD by ELISA (serum samples) to autoantigen panel (MPO, Collagen V, TREM1, IL1R2).",
+              "measure": "Number and Percentage of Patients With a Positive Autoantibody ELISA",
+              "timeFrame": "Baseline, at study entry"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "FITC anti-IgG immunofluorescence with slides of unstimulated/PMA-stimulated neutrophils (serum samples)",
+              "measure": "Number and Percentage of Patients With Positive Granulocyte Immunofluorescence",
+              "timeFrame": "Baseline, at study entry"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": false
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Esposito I, Kontra I, Giacomassi C, Manou-Stathopoulou S, Brown J, Stratton R, Verykokou G, Buccafusca R, Stevens M, Nissim A, Lewis MJ, Pfeffer PE. Identification of autoantigens and their potential post-translational modification in EGPA and severe eosinophilic asthma. Front Immunol. 2023 Jun 2;14:1164941. doi: 10.3389/fimmu.2023.1164941. eCollection 2023.",
+              "pmid": "37334358",
+              "type": "DERIVED"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Queen Mary University of London"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2024-05-05",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2025-01-30",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2024-12-20",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2022-10-12",
+            "type": "ACTUAL"
+          },
+          "resultsFirstPostDateStruct": {
+            "date": "2025-01-30",
+            "type": "ACTUAL"
+          },
+          "resultsFirstSubmitDate": "2023-01-16",
+          "resultsFirstSubmitQcDate": "2024-12-20",
+          "startDateStruct": {
+            "date": "2020-12-10",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2024-12",
+          "studyFirstPostDateStruct": {
+            "date": "2020-12-17",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2020-10-26",
+          "studyFirstSubmitQcDate": "2020-12-10"
+        }
+      },
+      "resultsSection": {
+        "adverseEventsModule": {
+          "description": "The only patient contact in this study was the consent process and the sample donation (venipuncture and collection of blood into sterile containers using standard phlebotomy practice at the recruiting NHS Trust, with/without collection of spontaneously produced sputum). Only events relating to this contact were to be considered for Adverse Events (AE) and Serious Adverse Events (SAE) reporting.",
+          "eventGroups": [
+            {
+              "deathsNumAffected": 0,
+              "deathsNumAtRisk": 63,
+              "description": "Patients with eosinophilic asthma meeting ERS/ATS criteria for severe asthma.",
+              "id": "EG000",
+              "otherNumAffected": 0,
+              "otherNumAtRisk": 63,
+              "seriousNumAffected": 0,
+              "seriousNumAtRisk": 63,
+              "title": "Severe Eosinophilic Asthma"
+            },
+            {
+              "deathsNumAffected": 0,
+              "deathsNumAtRisk": 30,
+              "description": "Healthy patients with no chronic lung condition.",
+              "id": "EG001",
+              "otherNumAffected": 0,
+              "otherNumAtRisk": 30,
+              "seriousNumAffected": 0,
+              "seriousNumAtRisk": 30,
+              "title": "Healthy Controls"
+            },
+            {
+              "deathsNumAffected": 0,
+              "deathsNumAtRisk": 17,
+              "description": "Patients with asthma meeting criteria for a diagnosis of EGPA (eosinophilic granulomatosis with polyangiitis)",
+              "id": "EG002",
+              "otherNumAffected": 0,
+              "otherNumAtRisk": 17,
+              "seriousNumAffected": 0,
+              "seriousNumAtRisk": 17,
+              "title": "EGPA"
+            },
+            {
+              "deathsNumAffected": 0,
+              "deathsNumAtRisk": 9,
+              "description": "Milder asthma, other vasculitides, eosinophilic COPD, and/or eosinophilic oesophagitis",
+              "id": "EG003",
+              "otherNumAffected": 0,
+              "otherNumAtRisk": 9,
+              "seriousNumAffected": 0,
+              "seriousNumAtRisk": 9,
+              "title": "Other Respiratory Conditions"
+            }
+          ],
+          "frequencyThreshold": "0",
+          "timeFrame": "Single study visit for each patient, of an average duration of 10 minutes. No follow-up."
+        },
+        "baselineCharacteristicsModule": {
+          "denoms": [
+            {
+              "counts": [
+                {
+                  "groupId": "BG000",
+                  "value": "63"
+                },
+                {
+                  "groupId": "BG001",
+                  "value": "30"
+                },
+                {
+                  "groupId": "BG002",
+                  "value": "17"
+                },
+                {
+                  "groupId": "BG003",
+                  "value": "10"
+                },
+                {
+                  "groupId": "BG004",
+                  "value": "120"
+                }
+              ],
+              "units": "Participants"
+            }
+          ],
+          "groups": [
+            {
+              "description": "Patients with eosinophilic asthma meeting ERS/ATS criteria for severe asthma.",
+              "id": "BG000",
+              "title": "Severe Eosinophilic Asthma"
+            },
+            {
+              "description": "Healthy patients with no chronic lung condition.",
+              "id": "BG001",
+              "title": "Healthy Controls"
+            },
+            {
+              "description": "Patients with asthma meeting criteria for a diagnosis of EGPA (eosinophilic granulomatosis with polyangiitis)",
+              "id": "BG002",
+              "title": "EGPA"
+            },
+            {
+              "description": "Mild-to-moderate asthma, other vasculitides, eosinophilic COPD, and/or eosinophilic oesophagitis",
+              "id": "BG003",
+              "title": "Other Respiratory Conditions"
+            },
+            {
+              "description": "Total of all reporting groups",
+              "id": "BG004",
+              "title": "Total"
+            }
+          ],
+          "measures": [
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "<=18 years"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "54"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "28"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "13"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "5"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "100"
+                        }
+                      ],
+                      "title": "Between 18 and 65 years"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "9"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "1"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "4"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "5"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "19"
+                        }
+                      ],
+                      "title": ">=65 years"
+                    }
+                  ],
+                  "denoms": [
+                    {
+                      "counts": [
+                        {
+                          "groupId": "BG000",
+                          "value": "63"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "29"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "17"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "10"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "119"
+                        }
+                      ],
+                      "units": "Participants"
+                    }
+                  ]
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "populationDescription": "Age for one healthy control not available.",
+              "title": "Age, Categorical",
+              "unitOfMeasure": "Participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "spread": "12.3",
+                          "value": "54.4"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "spread": "14.1",
+                          "value": "42.0"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "spread": "14.2",
+                          "value": "56.6"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "spread": "9.7",
+                          "value": "63.1"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "spread": "14.2",
+                          "value": "52.4"
+                        }
+                      ]
+                    }
+                  ],
+                  "denoms": [
+                    {
+                      "counts": [
+                        {
+                          "groupId": "BG000",
+                          "value": "63"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "29"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "17"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "10"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "119"
+                        }
+                      ],
+                      "units": "Participants"
+                    }
+                  ]
+                }
+              ],
+              "dispersionType": "STANDARD_DEVIATION",
+              "paramType": "MEAN",
+              "populationDescription": "Age for one Healthy control patient not available",
+              "title": "Age, Continuous",
+              "unitOfMeasure": "years"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "29"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "16"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "7"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "4"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "56"
+                        }
+                      ],
+                      "title": "Female"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "34"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "14"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "10"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "6"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "64"
+                        }
+                      ],
+                      "title": "Male"
+                    }
+                  ],
+                  "denoms": [
+                    {
+                      "counts": [
+                        {
+                          "groupId": "BG000",
+                          "value": "63"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "30"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "17"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "10"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "120"
+                        }
+                      ],
+                      "units": "Participants"
+                    }
+                  ]
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "title": "Sex: Female, Male",
+              "unitOfMeasure": "Participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "31"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "16"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "12"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "6"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "65"
+                        }
+                      ],
+                      "title": "White"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "16"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "9"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "4"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "29"
+                        }
+                      ],
+                      "title": "Asian"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "8"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "2"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "10"
+                        }
+                      ],
+                      "title": "Black"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "8"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "5"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "3"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "16"
+                        }
+                      ],
+                      "title": "Other / Declined / Not Available"
+                    }
+                  ],
+                  "denoms": [
+                    {
+                      "counts": [
+                        {
+                          "groupId": "BG000",
+                          "value": "63"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "30"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "17"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "10"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "120"
+                        }
+                      ],
+                      "units": "Participants"
+                    }
+                  ],
+                  "title": "Ethnicity"
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "title": "Race/Ethnicity, Customized",
+              "unitOfMeasure": "Participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "63"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "30"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "17"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "10"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "120"
+                        }
+                      ]
+                    }
+                  ],
+                  "denoms": [
+                    {
+                      "counts": [
+                        {
+                          "groupId": "BG000",
+                          "value": "63"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "30"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "17"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "10"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "120"
+                        }
+                      ],
+                      "units": "Participants"
+                    }
+                  ],
+                  "title": "United Kingdom"
+                }
+              ],
+              "paramType": "NUMBER",
+              "title": "Region of Enrollment",
+              "unitOfMeasure": "participants"
+            }
+          ]
+        },
+        "moreInfoModule": {
+          "certainAgreement": {
+            "piSponsorEmployee": true,
+            "restrictiveAgreement": false
+          },
+          "pointOfContact": {
+            "email": "myles.lewis@qmul.ac.uk; p.pfeffer@qmul.ac.uk",
+            "organization": "Queen Mary University of London",
+            "phone": "+4420 7882 5555",
+            "title": "Dr Myles Lewis, Dr Paul Pfeffer"
+          }
+        },
+        "outcomeMeasuresModule": {
+          "outcomeMeasures": [
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "19"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "4"
+                        },
+                        {
+                          "groupId": "OG002",
+                          "value": "3"
+                        },
+                        {
+                          "groupId": "OG003",
+                          "value": "4"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "46"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "25"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "7"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Serum tested for novel autoantibodies against candidate auto-antigens by ELISA. Outcome: Positive OD by ELISA (serum samples) to autoantigen panel (MPO, Collagen V, TREM1, IL1R2).",
+              "groups": [
+                {
+                  "description": "Patients with eosinophilic asthma meeting ERS/ATS criteria for severe asthma.",
+                  "id": "OG000",
+                  "title": "Severe Eosinophilic Asthma"
+                },
+                {
+                  "description": "Healthy patients with no chronic lung condition.",
+                  "id": "OG001",
+                  "title": "Healthy Controls"
+                },
+                {
+                  "description": "Patients with asthma meeting criteria for a diagnosis of EGPA (eosinophilic granulomatosis with polyangiitis)",
+                  "id": "OG002",
+                  "title": "EGPA"
+                },
+                {
+                  "description": "Mild-to-moderate asthma, other vasculitides, eosinophilic COPD, and/or eosinophilic oesophagitis",
+                  "id": "OG003",
+                  "title": "Other Respiratory Conditions"
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "populationDescription": "EGPA and Other respiratory conditions arms included as reference populations, with some patients purposefully recruited due to known anti-MPO status (potential selection bias). 17 Severe eosinophilic asthma patients, 5 Healthy control participants, 5 EGPA patients and 3 patients with Other Respiratory Conditions excluded from outcome due to technical errors with ELISA assays (missing data).",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Baseline, at study entry",
+              "title": "Number and Percentage of Patients With a Positive Autoantibody ELISA",
+              "type": "PRIMARY",
+              "unitOfMeasure": "Participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "9"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "1"
+                        },
+                        {
+                          "groupId": "OG002",
+                          "value": "3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "17"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "5"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "FITC anti-IgG immunofluorescence with slides of unstimulated/PMA-stimulated neutrophils (serum samples)",
+              "groups": [
+                {
+                  "description": "Patients with eosinophilic asthma meeting ERS/ATS criteria for severe asthma.",
+                  "id": "OG000",
+                  "title": "Severe Eosinophilic Asthma"
+                },
+                {
+                  "description": "Healthy patients with no chronic lung condition.",
+                  "id": "OG001",
+                  "title": "Healthy Controls"
+                },
+                {
+                  "description": "Patients with asthma meeting criteria for a diagnosis of EGPA (eosinophilic granulomatosis with polyangiitis)",
+                  "id": "OG002",
+                  "title": "EGPA"
+                },
+                {
+                  "description": "Mild-to-moderate asthma, other vasculitides, eosinophilic COPD, and/or eosinophilic oesophagitis",
+                  "id": "OG003",
+                  "title": "Other Respiratory Conditions"
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "populationDescription": "EGPA and Other respiratory conditions arms included as reference populations, with some patients purposefully recruited due to known anti-MPO status (potential selection bias). 46 Severe eosinophilic asthma patients, 23 Healthy control participants, 12 EGPA patients and 10 patients with Other Respiratory Conditions excluded from outcome due to missing data (only limited samples were tested).",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Baseline, at study entry",
+              "title": "Number and Percentage of Patients With Positive Granulocyte Immunofluorescence",
+              "type": "SECONDARY",
+              "unitOfMeasure": "Participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.58",
+                          "value": "0.89"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "spread": "0.48",
+                          "value": "0.82"
+                        },
+                        {
+                          "groupId": "OG002",
+                          "spread": "1.07",
+                          "value": "1.68"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "31"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Peripheral blood B Cell Receptor (BCR) bulkRNA repertoire sequencing",
+              "dispersionType": "Standard Deviation",
+              "groups": [
+                {
+                  "description": "Patients with eosinophilic asthma meeting ERS/ATS criteria for severe asthma.",
+                  "id": "OG000",
+                  "title": "Severe Eosinophilic Asthma"
+                },
+                {
+                  "description": "Healthy patients with no chronic lung condition.",
+                  "id": "OG001",
+                  "title": "Healthy Controls"
+                },
+                {
+                  "description": "Patients with asthma meeting criteria for a diagnosis of EGPA (eosinophilic granulomatosis with polyangiitis)",
+                  "id": "OG002",
+                  "title": "EGPA"
+                },
+                {
+                  "description": "Mild-to-moderate asthma, other vasculitides, eosinophilic COPD, and/or eosinophilic oesophagitis",
+                  "id": "OG003",
+                  "title": "Other Respiratory Conditions"
+                }
+              ],
+              "paramType": "MEAN",
+              "populationDescription": "Peripheral blood samples for sequencing were only available for a proportion of participants. 60 participants were chosen for this post-hoc analysis to represent a range of SEA/EGPA patients and healthy controls. Sequencing from 1 sample did not reach quality control criteria resulting in 59 samples reported. No participants with Other respiratory conditions were analysed for this post-hoc outcome as these were not the population of interest for this post-hoc outcome measure.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Baseline, at study entry",
+              "title": "Percentage of Total Unique BCR Sequences Being of IgA1 Subclass",
+              "type": "POST_HOC",
+              "unitOfMeasure": "Percentage of unique BCR sequences"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "1.18",
+                          "value": "1.33"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "spread": "0.48",
+                          "value": "0.85"
+                        },
+                        {
+                          "groupId": "OG002",
+                          "spread": "1.23",
+                          "value": "1.59"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "31"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Peripheral blood B Cell Receptor (BCR) bulkRNA repertoire sequencing",
+              "dispersionType": "Standard Deviation",
+              "groups": [
+                {
+                  "description": "Patients with eosinophilic asthma meeting ERS/ATS criteria for severe asthma.",
+                  "id": "OG000",
+                  "title": "Severe Eosinophilic Asthma"
+                },
+                {
+                  "description": "Healthy patients with no chronic lung condition.",
+                  "id": "OG001",
+                  "title": "Healthy Controls"
+                },
+                {
+                  "description": "Patients with asthma meeting criteria for a diagnosis of EGPA (eosinophilic granulomatosis with polyangiitis)",
+                  "id": "OG002",
+                  "title": "EGPA"
+                },
+                {
+                  "description": "Mild-to-moderate asthma, other vasculitides, eosinophilic COPD, and/or eosinophilic oesophagitis",
+                  "id": "OG003",
+                  "title": "Other Respiratory Conditions"
+                }
+              ],
+              "paramType": "MEAN",
+              "populationDescription": "Peripheral blood samples for sequencing were only available for a proportion of participants. 60 participants were chosen for this post-hoc analysis to represent a range of SEA/EGPA patients and healthy controls. Sequencing from 1 sample did not reach quality control criteria resulting in 59 samples reported. No participants with Other respiratory conditions were analysed for this post-hoc outcome as these were not the population of interest for this post-hoc outcome measure.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Baseline, at study entry",
+              "title": "Percentage of Total Unique BCR Sequences Being of IgA2 Subclass",
+              "type": "POST_HOC",
+              "unitOfMeasure": "Percentage of unique BCR sequences"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "2.18",
+                          "value": "2.52"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "spread": "1.36",
+                          "value": "2.05"
+                        },
+                        {
+                          "groupId": "OG002",
+                          "spread": "1.34",
+                          "value": "2.90"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "31"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Peripheral blood B Cell Receptor (BCR) bulkRNA repertoire sequencing",
+              "dispersionType": "Standard Deviation",
+              "groups": [
+                {
+                  "description": "Patients with eosinophilic asthma meeting ERS/ATS criteria for severe asthma.",
+                  "id": "OG000",
+                  "title": "Severe Eosinophilic Asthma"
+                },
+                {
+                  "description": "Healthy patients with no chronic lung condition.",
+                  "id": "OG001",
+                  "title": "Healthy Controls"
+                },
+                {
+                  "description": "Patients with asthma meeting criteria for a diagnosis of EGPA (eosinophilic granulomatosis with polyangiitis)",
+                  "id": "OG002",
+                  "title": "EGPA"
+                },
+                {
+                  "description": "Mild-to-moderate asthma, other vasculitides, eosinophilic COPD, and/or eosinophilic oesophagitis",
+                  "id": "OG003",
+                  "title": "Other Respiratory Conditions"
+                }
+              ],
+              "paramType": "MEAN",
+              "populationDescription": "Peripheral blood samples for sequencing were only available for a proportion of participants. 60 participants were chosen for this post-hoc analysis to represent a range of SEA/EGPA patients and healthy controls. Sequencing from 1 sample did not reach quality control criteria resulting in 59 samples reported. No participants with Other respiratory conditions were analysed for this post-hoc outcome as these were not the population of interest for this post-hoc outcome measure.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Baseline, at study entry",
+              "title": "Percentage of Total Unique BCR Sequences Being of IgG1 Subclass",
+              "type": "POST_HOC",
+              "unitOfMeasure": "Percentage of unique BCR sequences"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "9.46",
+                          "value": "7.86"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "spread": "1.50",
+                          "value": "3.15"
+                        },
+                        {
+                          "groupId": "OG002",
+                          "spread": "9.20",
+                          "value": "8.37"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "31"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Peripheral blood B Cell Receptor (BCR) bulkRNA repertoire sequencing",
+              "dispersionType": "Standard Deviation",
+              "groups": [
+                {
+                  "description": "Patients with eosinophilic asthma meeting ERS/ATS criteria for severe asthma.",
+                  "id": "OG000",
+                  "title": "Severe Eosinophilic Asthma"
+                },
+                {
+                  "description": "Healthy patients with no chronic lung condition.",
+                  "id": "OG001",
+                  "title": "Healthy Controls"
+                },
+                {
+                  "description": "Patients with asthma meeting criteria for a diagnosis of EGPA (eosinophilic granulomatosis with polyangiitis)",
+                  "id": "OG002",
+                  "title": "EGPA"
+                },
+                {
+                  "description": "Mild-to-moderate asthma, other vasculitides, eosinophilic COPD, and/or eosinophilic oesophagitis",
+                  "id": "OG003",
+                  "title": "Other Respiratory Conditions"
+                }
+              ],
+              "paramType": "MEAN",
+              "populationDescription": "Peripheral blood samples for sequencing were only available for a proportion of participants. 60 participants were chosen for this post-hoc analysis to represent a range of SEA/EGPA patients and healthy controls. Sequencing from 1 sample did not reach quality control criteria resulting in 59 samples reported. No participants with Other respiratory conditions were analysed for this post-hoc outcome as these were not the population of interest for this post-hoc outcome measure.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Baseline, at study entry",
+              "title": "Percentage of Total Unique BCR Sequences Being of IgG2 Subclass",
+              "type": "POST_HOC",
+              "unitOfMeasure": "Percentage of unique BCR sequences"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.55",
+                          "value": "0.60"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "spread": "0.79",
+                          "value": "0.69"
+                        },
+                        {
+                          "groupId": "OG002",
+                          "spread": "0.58",
+                          "value": "0.68"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "31"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Peripheral blood B Cell Receptor (BCR) bulkRNA repertoire sequencing",
+              "dispersionType": "Standard Deviation",
+              "groups": [
+                {
+                  "description": "Patients with eosinophilic asthma meeting ERS/ATS criteria for severe asthma.",
+                  "id": "OG000",
+                  "title": "Severe Eosinophilic Asthma"
+                },
+                {
+                  "description": "Healthy patients with no chronic lung condition.",
+                  "id": "OG001",
+                  "title": "Healthy Controls"
+                },
+                {
+                  "description": "Patients with asthma meeting criteria for a diagnosis of EGPA (eosinophilic granulomatosis with polyangiitis)",
+                  "id": "OG002",
+                  "title": "EGPA"
+                },
+                {
+                  "description": "Mild-to-moderate asthma, other vasculitides, eosinophilic COPD, and/or eosinophilic oesophagitis",
+                  "id": "OG003",
+                  "title": "Other Respiratory Conditions"
+                }
+              ],
+              "paramType": "MEAN",
+              "populationDescription": "Peripheral blood samples for sequencing were only available for a proportion of participants. 60 participants were chosen for this post-hoc analysis to represent a range of SEA/EGPA patients and healthy controls. Sequencing from 1 sample did not reach quality control criteria resulting in 59 samples reported. No participants with Other respiratory conditions were analysed for this post-hoc outcome as these were not the population of interest for this post-hoc outcome measure.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Baseline, at study entry",
+              "title": "Percentage of Total Unique BCR Sequences Being of IgG3 Subclass",
+              "type": "POST_HOC",
+              "unitOfMeasure": "Percentage of unique BCR sequences"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.10",
+                          "value": "0.059"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "spread": "0.0086",
+                          "value": "0.011"
+                        },
+                        {
+                          "groupId": "OG002",
+                          "spread": "0.048",
+                          "value": "0.051"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "31"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Peripheral blood B Cell Receptor (BCR) bulkRNA repertoire sequencing",
+              "dispersionType": "Standard Deviation",
+              "groups": [
+                {
+                  "description": "Patients with eosinophilic asthma meeting ERS/ATS criteria for severe asthma.",
+                  "id": "OG000",
+                  "title": "Severe Eosinophilic Asthma"
+                },
+                {
+                  "description": "Healthy patients with no chronic lung condition.",
+                  "id": "OG001",
+                  "title": "Healthy Controls"
+                },
+                {
+                  "description": "Patients with asthma meeting criteria for a diagnosis of EGPA (eosinophilic granulomatosis with polyangiitis)",
+                  "id": "OG002",
+                  "title": "EGPA"
+                },
+                {
+                  "description": "Mild-to-moderate asthma, other vasculitides, eosinophilic COPD, and/or eosinophilic oesophagitis",
+                  "id": "OG003",
+                  "title": "Other Respiratory Conditions"
+                }
+              ],
+              "paramType": "MEAN",
+              "populationDescription": "Peripheral blood samples for sequencing were only available for a proportion of participants. 60 participants were chosen for this post-hoc analysis to represent a range of SEA/EGPA patients and healthy controls. Sequencing from 1 sample did not reach quality control criteria resulting in 59 samples reported. No participants with Other respiratory conditions were analysed for this post-hoc outcome as these were not the population of interest for this post-hoc outcome measure.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Baseline, at study entry",
+              "title": "Percentage of Total Unique BCR Sequences Being of IgG4 Subclass",
+              "type": "POST_HOC",
+              "unitOfMeasure": "Percentage of unique BCR sequences"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.012",
+                          "value": "0.017"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "spread": "0.0029",
+                          "value": "0.0060"
+                        },
+                        {
+                          "groupId": "OG002",
+                          "spread": "0.040",
+                          "value": "0.039"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "31"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "16"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "12"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "0"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Peripheral blood B Cell Receptor (BCR) bulkRNA repertoire sequencing",
+              "dispersionType": "Standard Deviation",
+              "groups": [
+                {
+                  "description": "Patients with eosinophilic asthma meeting ERS/ATS criteria for severe asthma.",
+                  "id": "OG000",
+                  "title": "Severe Eosinophilic Asthma"
+                },
+                {
+                  "description": "Healthy patients with no chronic lung condition.",
+                  "id": "OG001",
+                  "title": "Healthy Controls"
+                },
+                {
+                  "description": "Patients with asthma meeting criteria for a diagnosis of EGPA (eosinophilic granulomatosis with polyangiitis)",
+                  "id": "OG002",
+                  "title": "EGPA"
+                },
+                {
+                  "description": "Mild-to-moderate asthma, other vasculitides, eosinophilic COPD, and/or eosinophilic oesophagitis",
+                  "id": "OG003",
+                  "title": "Other Respiratory Conditions"
+                }
+              ],
+              "paramType": "MEAN",
+              "populationDescription": "Peripheral blood samples for sequencing were only available for a proportion of participants. 60 participants were chosen for this post-hoc analysis to represent a range of SEA/EGPA patients and healthy controls. Sequencing from 1 sample did not reach quality control criteria resulting in 59 samples reported. No participants with Other respiratory conditions were analysed for this post-hoc outcome as these were not the population of interest for this post-hoc outcome measure.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Baseline, at study entry",
+              "title": "Percentage of Total Unique BCR Sequences Being of IgE Subclass",
+              "type": "POST_HOC",
+              "unitOfMeasure": "Percentage of unique BCR sequences"
+            }
+          ]
+        },
+        "participantFlowModule": {
+          "groups": [
+            {
+              "description": "Patients with eosinophilic asthma meeting ERS/ATS criteria for severe asthma.",
+              "id": "FG000",
+              "title": "Severe Eosinophilic Asthma"
+            },
+            {
+              "description": "Healthy patients with no chronic lung condition.",
+              "id": "FG001",
+              "title": "Healthy Controls"
+            },
+            {
+              "description": "Patients with asthma meeting criteria for a diagnosis of EGPA (eosinophilic granulomatosis with polyangiitis)",
+              "id": "FG002",
+              "title": "EGPA"
+            },
+            {
+              "description": "Mild-to-moderate asthma, other vasculitides, eosinophilic COPD, and/or eosinophilic oesophagitis",
+              "id": "FG003",
+              "title": "Other Respiratory Conditions"
+            }
+          ],
+          "periods": [
+            {
+              "milestones": [
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "63"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "30"
+                    },
+                    {
+                      "groupId": "FG002",
+                      "numSubjects": "17"
+                    },
+                    {
+                      "groupId": "FG003",
+                      "numSubjects": "10"
+                    }
+                  ],
+                  "type": "STARTED"
+                },
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "63"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "30"
+                    },
+                    {
+                      "groupId": "FG002",
+                      "numSubjects": "17"
+                    },
+                    {
+                      "groupId": "FG003",
+                      "numSubjects": "10"
+                    }
+                  ],
+                  "type": "COMPLETED"
+                },
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG002",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG003",
+                      "numSubjects": "0"
+                    }
+                  ],
+                  "type": "NOT COMPLETED"
+                }
+              ],
+              "title": "Overall Study"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "totalCount": 3
+}

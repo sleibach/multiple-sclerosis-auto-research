@@ -1,0 +1,193 @@
+{
+  "dataset": "GSE282122 local h5ad",
+  "n_paired_rows": 168,
+  "components": {
+    "cd74_alone": [
+      "CD74"
+    ],
+    "receptor_only_cd74_cd44_cxcr4": [
+      "CD74",
+      "CD44",
+      "CXCR4"
+    ],
+    "hla_ii_without_cd74": [
+      "HLA-DRA",
+      "HLA-DRB1",
+      "HLA-DPA1",
+      "HLA-DPB1",
+      "HLA-DQA1",
+      "HLA-DQB1"
+    ],
+    "full_mif_cd74_state": [
+      "MIF",
+      "CD74",
+      "CD44",
+      "CXCR4",
+      "HLA-DRA",
+      "HLA-DRB1",
+      "HLA-DPA1",
+      "HLA-DPB1"
+    ],
+    "ifn_apc": [
+      "STAT1",
+      "IRF1",
+      "CXCL10",
+      "GBP1",
+      "ISG15",
+      "CD74",
+      "HLA-DRA"
+    ]
+  },
+  "major_focus": [
+    {
+      "state_level": "major",
+      "cell_state": "DC",
+      "component": "cd74_alone",
+      "n": 43,
+      "n_remission": 19,
+      "n_non_remission": 24,
+      "raw_delta_remission_minus_non": 0.3281281002911559,
+      "raw_hedges_g": 0.5085935573666194,
+      "raw_p": 0.09437861346303796,
+      "ifn_adjusted_delta": 0.504732522747395,
+      "ifn_adjusted_p": 0.03914121939938758,
+      "raw_fdr": 0.2022398859922242,
+      "ifn_adjusted_fdr": 0.8997148480903072
+    },
+    {
+      "state_level": "major",
+      "cell_state": "DC",
+      "component": "full_mif_cd74_state",
+      "n": 43,
+      "n_remission": 19,
+      "n_non_remission": 24,
+      "raw_delta_remission_minus_non": 0.04197694182297901,
+      "raw_hedges_g": 0.2336689600123305,
+      "raw_p": 0.42317481538731233,
+      "ifn_adjusted_delta": -0.04739062051972862,
+      "ifn_adjusted_p": 0.33429103058445025,
+      "raw_fdr": 0.5289685192341403,
+      "ifn_adjusted_fdr": 0.8997148480903072
+    },
+    {
+      "state_level": "major",
+      "cell_state": "DC",
+      "component": "hla_ii_without_cd74",
+      "n": 43,
+      "n_remission": 19,
+      "n_non_remission": 24,
+      "raw_delta_remission_minus_non": 0.2019702828200248,
+      "raw_hedges_g": 0.8099248375288646,
+      "raw_p": 0.007276149452464594,
+      "ifn_adjusted_delta": -0.05268307746130234,
+      "ifn_adjusted_p": 0.4408760796062391,
+      "raw_fdr": 0.03118349765341969,
+      "ifn_adjusted_fdr": 0.8997148480903072
+    },
+    {
+      "state_level": "major",
+      "cell_state": "DC",
+      "component": "ifn_apc",
+      "n": 43,
+      "n_remission": 19,
+      "n_non_remission": 24,
+      "raw_delta_remission_minus_non": -0.6874907904339285,
+      "raw_hedges_g": -1.0560312917371324,
+      "raw_p": 0.0010487258532171848,
+      "ifn_adjusted_delta": -8.326672684688674e-17,
+      "ifn_adjusted_p": 0.9118461377032894,
+      "raw_fdr": 0.011501724707556477,
+      "ifn_adjusted_fdr": 0.9877812110660807
+    },
+    {
+      "state_level": "major",
+      "cell_state": "DC",
+      "component": "receptor_only_cd74_cd44_cxcr4",
+      "n": 43,
+      "n_remission": 19,
+      "n_non_remission": 24,
+      "raw_delta_remission_minus_non": -0.09038746614303243,
+      "raw_hedges_g": -0.2549355974112815,
+      "raw_p": 0.388822350889469,
+      "ifn_adjusted_delta": 0.02383263607072207,
+      "ifn_adjusted_p": 0.8418486335435938,
+      "raw_fdr": 0.5190067564574831,
+      "ifn_adjusted_fdr": 0.9877812110660807
+    },
+    {
+      "state_level": "major",
+      "cell_state": "Mono_macro",
+      "component": "cd74_alone",
+      "n": 43,
+      "n_remission": 18,
+      "n_non_remission": 25,
+      "raw_delta_remission_minus_non": 0.4163969562326868,
+      "raw_hedges_g": 0.5235649940725612,
+      "raw_p": 0.08244544891881161,
+      "ifn_adjusted_delta": 0.27283671042646007,
+      "ifn_adjusted_p": 0.4126910191860093,
+      "raw_fdr": 0.19025872827418064,
+      "ifn_adjusted_fdr": 0.8997148480903072
+    },
+    {
+      "state_level": "major",
+      "cell_state": "Mono_macro",
+      "component": "full_mif_cd74_state",
+      "n": 43,
+      "n_remission": 18,
+      "n_non_remission": 25,
+      "raw_delta_remission_minus_non": 0.05066619007123842,
+      "raw_hedges_g": 0.22461928375703438,
+      "raw_p": 0.44457041550166954,
+      "ifn_adjusted_delta": -0.10945607268062686,
+      "ifn_adjusted_p": 0.11040910512370553,
+      "raw_fdr": 0.5334844986020034,
+      "ifn_adjusted_fdr": 0.8997148480903072
+    },
+    {
+      "state_level": "major",
+      "cell_state": "Mono_macro",
+      "component": "hla_ii_without_cd74",
+      "n": 43,
+      "n_remission": 18,
+      "n_non_remission": 25,
+      "raw_delta_remission_minus_non": 0.49146107002316664,
+      "raw_hedges_g": 0.9957102949370042,
+      "raw_p": 0.0011501724707556477,
+      "ifn_adjusted_delta": 0.07146939402819558,
+      "ifn_adjusted_p": 0.643745816818418,
+      "raw_fdr": 0.011501724707556477,
+      "ifn_adjusted_fdr": 0.9877812110660807
+    },
+    {
+      "state_level": "major",
+      "cell_state": "Mono_macro",
+      "component": "ifn_apc",
+      "n": 43,
+      "n_remission": 18,
+      "n_non_remission": 25,
+      "raw_delta_remission_minus_non": -0.9260495872128134,
+      "raw_hedges_g": -1.2980738447902214,
+      "raw_p": 0.00017881199925974731,
+      "ifn_adjusted_delta": 4.996003610813204e-16,
+      "ifn_adjusted_p": 0.899676227869582,
+      "raw_fdr": 0.00536435997779242,
+      "ifn_adjusted_fdr": 0.9877812110660807
+    },
+    {
+      "state_level": "major",
+      "cell_state": "Mono_macro",
+      "component": "receptor_only_cd74_cd44_cxcr4",
+      "n": 43,
+      "n_remission": 18,
+      "n_non_remission": 25,
+      "raw_delta_remission_minus_non": -0.23482858080007848,
+      "raw_hedges_g": -0.6528959302199949,
+      "raw_p": 0.038295191538057154,
+      "ifn_adjusted_delta": 0.007376665518260614,
+      "ifn_adjusted_p": 0.9548551706972114,
+      "raw_fdr": 0.09573797884514287,
+      "ifn_adjusted_fdr": 0.9877812110660807
+    }
+  ]
+}

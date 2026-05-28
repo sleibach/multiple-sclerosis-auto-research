@@ -1,0 +1,9 @@
+dataset	gene	cell_state	endpoint	comparison	n	generic_response_coef	generic_response_p	model_status	formula
+GSE198520_RA_synovium_antiTNF	__GENERIC__	bulk_synovium	baseline_pre	good_vs_moderate_none	42	0.07772086018415321	0.5090457912785227	ok	y ~ good_response + C(pathotype) + C(biologic) + inflammatory_score + das28_score
+GSE198520_RA_synovium_antiTNF	__GENERIC__	bulk_synovium	delta_post_minus_pre	good_vs_moderate_none	42	-0.2765782952193097	0.035719825090885914	ok	y ~ good_response + pre_generic + C(pathotype) + C(biologic) + inflammatory_score + das28_score
+GSE198520_RA_synovium_antiTNF	__GENERIC__	bulk_synovium	baseline_pre	moderate_good_vs_none	42	0.20876608542271802	0.06816847649861915	ok	y ~ moderate_good_response + C(pathotype) + C(biologic) + inflammatory_score + das28_score
+GSE198520_RA_synovium_antiTNF	__GENERIC__	bulk_synovium	delta_post_minus_pre	moderate_good_vs_none	42	-0.07901540616057734	0.5739828065449736	ok	y ~ moderate_good_response + pre_generic + C(pathotype) + C(biologic) + inflammatory_score + das28_score
+GSE282122_IBD_myeloid_antiTNF	__GENERIC__	DC	baseline_pre	remission_vs_nonremission	29	0.15353886961371588	0.4256848924411299	ok	y ~ remission + C(Disease) + baseline_inflammation_score
+GSE282122_IBD_myeloid_antiTNF	__GENERIC__	DC	delta_post_minus_pre	remission_vs_nonremission	29	-0.019585807437629416	0.8994157271133975	ok	y ~ remission + pre_generic + C(Disease) + baseline_inflammation_score
+GSE282122_IBD_myeloid_antiTNF	__GENERIC__	Mono_macro	baseline_pre	remission_vs_nonremission	29	-0.11196754765992904	0.6641026240899975	ok	y ~ remission + C(Disease) + baseline_inflammation_score
+GSE282122_IBD_myeloid_antiTNF	__GENERIC__	Mono_macro	delta_post_minus_pre	remission_vs_nonremission	29	-0.3388644715630794	0.1668352857953042	ok	y ~ remission + pre_generic + C(Disease) + baseline_inflammation_score

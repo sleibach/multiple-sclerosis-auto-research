@@ -1,0 +1,1241 @@
+{
+  "_request_url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=NME1&limit=10",
+  "_status_code": 200,
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 2
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Nucleoside diphosphate kinase A",
+      "score": 13.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL2159",
+      "target_components": [
+        {
+          "accession": "P15531",
+          "component_description": "Nucleoside diphosphate kinase A",
+          "component_id": 501,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "2.7.4.6",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "GAAD",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Granzyme A-activated DNase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Metastasis inhibition factor nm23",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "NDK A",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "NDPKA",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "NDP kinase A",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "NM23",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "NM23-H1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "NME1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Nucleoside diphosphate kinase A",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Tumor metastatic process-associated protein",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P15531",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P15531",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005769",
+              "xref_name": "early endosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0032587",
+              "xref_name": "ruffle membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0000287",
+              "xref_name": "magnesium ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003723",
+              "xref_name": "RNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004536",
+              "xref_name": "DNA nuclease activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004550",
+              "xref_name": "nucleoside diphosphate kinase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005524",
+              "xref_name": "ATP binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005525",
+              "xref_name": "GTP binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008408",
+              "xref_name": "3'-5' exonuclease activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016301",
+              "xref_name": "kinase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042802",
+              "xref_name": "identical protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006183",
+              "xref_name": "GTP biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006228",
+              "xref_name": "UTP biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006241",
+              "xref_name": "CTP biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006259",
+              "xref_name": "DNA metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006897",
+              "xref_name": "endocytosis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007399",
+              "xref_name": "nervous system development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007595",
+              "xref_name": "lactation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008285",
+              "xref_name": "negative regulation of cell population proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009117",
+              "xref_name": "nucleotide metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030154",
+              "xref_name": "cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030879",
+              "xref_name": "mammary gland development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042981",
+              "xref_name": "regulation of apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050679",
+              "xref_name": "positive regulation of epithelial cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:7849",
+              "xref_name": "NME1",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "P15531",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR001564",
+              "xref_name": "Nucleoside_diP_kinase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR023005",
+              "xref_name": "Nucleoside_diP_kinase_AS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR034907",
+              "xref_name": "NDK-like_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036850",
+              "xref_name": "NDK-like_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11349",
+              "xref_name": "NUCLEOSIDE DIPHOSPHATE KINASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "1JXV",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1UCN",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2HVD",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2HVE",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3L7U",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4ENO",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5UI4",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8OOV",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1JXV",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1UCN",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2HVD",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2HVE",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3L7U",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4ENO",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5UI4",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8OOV",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF00334",
+              "xref_name": "NDK",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA249",
+              "xref_name": "NME/NM23 nucleoside diphosphate kinase 1",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P15531",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-499943",
+              "xref_name": "Interconversion of nucleotide di- and triphosphates",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9748787",
+              "xref_name": "Azathioprine ADME",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9755088",
+              "xref_name": "Ribavirin ADME",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P15531",
+              "xref_name": "Nucleoside diphosphate kinase A",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q6FGK3",
+              "xref_name": "Nucleoside diphosphate kinase A",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q86XQ2",
+              "xref_name": "Nucleoside diphosphate kinase A",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UDJ6",
+              "xref_name": "Nucleoside diphosphate kinase A",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    },
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Nucleoside diphosphate kinase A/B",
+      "score": 9.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL4296074",
+      "target_components": [
+        {
+          "accession": "P15531",
+          "component_description": "Nucleoside diphosphate kinase A",
+          "component_id": 501,
+          "component_type": "PROTEIN",
+          "relationship": "GROUP MEMBER",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "2.7.4.6",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "GAAD",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Granzyme A-activated DNase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Metastasis inhibition factor nm23",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "NDK A",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "NDPKA",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "NDP kinase A",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "NM23",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "NM23-H1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "NME1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Nucleoside diphosphate kinase A",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Tumor metastatic process-associated protein",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P15531",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P15531",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005769",
+              "xref_name": "early endosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0032587",
+              "xref_name": "ruffle membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0000287",
+              "xref_name": "magnesium ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003723",
+              "xref_name": "RNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004536",
+              "xref_name": "DNA nuclease activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004550",
+              "xref_name": "nucleoside diphosphate kinase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005524",
+              "xref_name": "ATP binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005525",
+              "xref_name": "GTP binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008408",
+              "xref_name": "3'-5' exonuclease activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016301",
+              "xref_name": "kinase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042802",
+              "xref_name": "identical protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006183",
+              "xref_name": "GTP biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006228",
+              "xref_name": "UTP biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006241",
+              "xref_name": "CTP biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006259",
+              "xref_name": "DNA metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006897",
+              "xref_name": "endocytosis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007399",
+              "xref_name": "nervous system development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007595",
+              "xref_name": "lactation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008285",
+              "xref_name": "negative regulation of cell population proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009117",
+              "xref_name": "nucleotide metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030154",
+              "xref_name": "cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030879",
+              "xref_name": "mammary gland development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042981",
+              "xref_name": "regulation of apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050679",
+              "xref_name": "positive regulation of epithelial cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:7849",
+              "xref_name": "NME1",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "P15531",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR001564",
+              "xref_name": "Nucleoside_diP_kinase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR023005",
+              "xref_name": "Nucleoside_diP_kinase_AS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR034907",
+              "xref_name": "NDK-like_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036850",
+              "xref_name": "NDK-like_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11349",
+              "xref_name": "NUCLEOSIDE DIPHOSPHATE KINASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "1JXV",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1UCN",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2HVD",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2HVE",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3L7U",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4ENO",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5UI4",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8OOV",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1JXV",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1UCN",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2HVD",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2HVE",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3L7U",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4ENO",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5UI4",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8OOV",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF00334",
+              "xref_name": "NDK",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA249",
+              "xref_name": "NME/NM23 nucleoside diphosphate kinase 1",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P15531",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-499943",
+              "xref_name": "Interconversion of nucleotide di- and triphosphates",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9748787",
+              "xref_name": "Azathioprine ADME",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9755088",
+              "xref_name": "Ribavirin ADME",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P15531",
+              "xref_name": "Nucleoside diphosphate kinase A",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q6FGK3",
+              "xref_name": "Nucleoside diphosphate kinase A",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q86XQ2",
+              "xref_name": "Nucleoside diphosphate kinase A",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UDJ6",
+              "xref_name": "Nucleoside diphosphate kinase A",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        },
+        {
+          "accession": "P22392",
+          "component_description": "Nucleoside diphosphate kinase B",
+          "component_id": 502,
+          "component_type": "PROTEIN",
+          "relationship": "GROUP MEMBER",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "2.7.13.3",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "2.7.4.6",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "C-myc purine-binding transcription factor PUF",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Histidine protein kinase NDKB",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "NDK B",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "NDP kinase B",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "NM23B",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "nm23-H2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "NME2",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Nucleoside diphosphate kinase B",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P22392",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P22392",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0001726",
+              "xref_name": "ruffle",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005925",
+              "xref_name": "focal adhesion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0030027",
+              "xref_name": "lamellipodium",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0034774",
+              "xref_name": "secretory granule lumen",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0042995",
+              "xref_name": "cell projection",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0048471",
+              "xref_name": "perinuclear region of cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0071944",
+              "xref_name": "cell periphery",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:1904813",
+              "xref_name": "ficolin-1-rich granule lumen",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0000155",
+              "xref_name": "phosphorelay sensor kinase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003677",
+              "xref_name": "DNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003713",
+              "xref_name": "transcription coactivator activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004550",
+              "xref_name": "nucleoside diphosphate kinase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005524",
+              "xref_name": "ATP binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016301",
+              "xref_name": "kinase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019003",
+              "xref_name": "GDP binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042802",
+              "xref_name": "identical protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0051880",
+              "xref_name": "G-quadruplex DNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0000160",
+              "xref_name": "phosphorelay signal transduction system",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006183",
+              "xref_name": "GTP biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006228",
+              "xref_name": "UTP biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006241",
+              "xref_name": "CTP biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007155",
+              "xref_name": "cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007229",
+              "xref_name": "integrin-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009117",
+              "xref_name": "nucleotide metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009142",
+              "xref_name": "nucleoside triphosphate biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042981",
+              "xref_name": "regulation of apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043066",
+              "xref_name": "negative regulation of apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045618",
+              "xref_name": "positive regulation of keratinocyte differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045682",
+              "xref_name": "regulation of epidermis development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045893",
+              "xref_name": "positive regulation of DNA-templated transcription",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045944",
+              "xref_name": "positive regulation of transcription by RNA polymerase II",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050679",
+              "xref_name": "positive regulation of epithelial cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:7850",
+              "xref_name": "NME2",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "P22392",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR001564",
+              "xref_name": "Nucleoside_diP_kinase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR023005",
+              "xref_name": "Nucleoside_diP_kinase_AS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR034907",
+              "xref_name": "NDK-like_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036850",
+              "xref_name": "NDK-like_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11349",
+              "xref_name": "NUCLEOSIDE DIPHOSPHATE KINASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "1NSK",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1NUE",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3BBB",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3BBC",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3BBF",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7KPF",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8PIE",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8PYW",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1NSK",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1NUE",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3BBB",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3BBC",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3BBF",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7KPF",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8PIE",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8PYW",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF00334",
+              "xref_name": "NDK",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA250",
+              "xref_name": "NME/NM23 nucleoside diphosphate kinase 2",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P22392",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-499943",
+              "xref_name": "Interconversion of nucleotide di- and triphosphates",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-6798695",
+              "xref_name": "Neutrophil degranulation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9748787",
+              "xref_name": "Azathioprine ADME",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9755088",
+              "xref_name": "Ribavirin ADME",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "A8MWA3",
+              "xref_name": "Nucleoside diphosphate kinase B",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P22392",
+              "xref_name": "Nucleoside diphosphate kinase B",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q1WM23",
+              "xref_name": "Nucleoside diphosphate kinase B",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q6LCT6",
+              "xref_name": "Nucleoside diphosphate kinase B",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "PROTEIN FAMILY",
+      "tax_id": 9606
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "call_counts": {
+    "CENTRAL_STATE_DRIVER_NOT_SELECTIVE_THERAPEUTIC": 4,
+    "NO_GO_NICHE_DRIVER": 14
+  },
+  "interpretation": "No axis is promoted unless all gates pass. A CENTRAL_STATE_DRIVER_NOT_SELECTIVE_THERAPEUTIC call means the axis probably explains the recurrent state but fails as a tractable, selective intervention point.",
+  "n_axes": 18,
+  "seed": 20260527,
+  "top_centrality_axes": [
+    {
+      "axis": "IFNG_IFNGR_JAK_STAT1_CIITA",
+      "centrality_score": 20.64,
+      "gate_failures": "selectivity_window_gate;prior_art_not_blocking_gate",
+      "intervention_score": -1.2000000000000002,
+      "wave30_call": "CENTRAL_STATE_DRIVER_NOT_SELECTIVE_THERAPEUTIC"
+    },
+    {
+      "axis": "MIF_CD74_CXCR4_CD44",
+      "centrality_score": 18.330000000000002,
+      "gate_failures": "selectivity_window_gate;prior_art_not_blocking_gate",
+      "intervention_score": -2.95,
+      "wave30_call": "CENTRAL_STATE_DRIVER_NOT_SELECTIVE_THERAPEUTIC"
+    },
+    {
+      "axis": "LILRB_HLA_INHIBITORY_MYLOID_CHECKPOINT",
+      "centrality_score": 18.07,
+      "gate_failures": "target_causality_gate;druggable_correct_direction_gate;selectivity_window_gate",
+      "intervention_score": 1.3499999999999996,
+      "wave30_call": "CENTRAL_STATE_DRIVER_NOT_SELECTIVE_THERAPEUTIC"
+    },
+    {
+      "axis": "PTPN2_TCPTP_RESTORATION",
+      "centrality_score": 14.64,
+      "gate_failures": "cross_disease_support_gate;residual_or_state_gate;druggable_correct_direction_gate;selectivity_window_gate;prior_art_not_blocking_gate",
+      "intervention_score": 5.1,
+      "wave30_call": "NO_GO_NICHE_DRIVER"
+    },
+    {
+      "axis": "TREM1_TYROBP_AMPLIFICATION",
+      "centrality_score": 12.62556995395143,
+      "gate_failures": "cross_disease_support_gate;target_causality_gate;perturbation_or_model_gate;selectivity_window_gate;prior_art_not_blocking_gate",
+      "intervention_score": -0.48514678946284384,
+      "wave30_call": "NO_GO_NICHE_DRIVER"
+    }
+  ],
+  "top_intervention_axes": [
+    {
+      "axis": "PTPN2_TCPTP_RESTORATION",
+      "centrality_score": 14.64,
+      "gate_failures": "cross_disease_support_gate;residual_or_state_gate;druggable_correct_direction_gate;selectivity_window_gate;prior_art_not_blocking_gate",
+      "intervention_score": 5.1,
+      "wave30_call": "NO_GO_NICHE_DRIVER"
+    },
+    {
+      "axis": "SLC15A4_TASL_IRF5_ENDOLYSOSOMAL_TLR",
+      "centrality_score": 8.3,
+      "gate_failures": "cross_disease_support_gate;residual_or_state_gate;perturbation_or_model_gate;druggable_correct_direction_gate;selectivity_window_gate;prior_art_not_blocking_gate",
+      "intervention_score": 4.85,
+      "wave30_call": "NO_GO_NICHE_DRIVER"
+    },
+    {
+      "axis": "GPR65_ENDOLYSOSOMAL_PH_CAMP",
+      "centrality_score": 6.0,
+      "gate_failures": "cross_disease_support_gate;residual_or_state_gate;perturbation_or_model_gate;prior_art_not_blocking_gate",
+      "intervention_score": 3.5,
+      "wave30_call": "NO_GO_NICHE_DRIVER"
+    },
+    {
+      "axis": "LIPA_LAL_LYSOSOMAL_LIPID_CLEARANCE",
+      "centrality_score": 10.899999999999999,
+      "gate_failures": "cross_disease_support_gate;upstream_non_marker_gate;target_causality_gate;druggable_correct_direction_gate;selectivity_window_gate;prior_art_not_blocking_gate",
+      "intervention_score": 2.95,
+      "wave30_call": "NO_GO_NICHE_DRIVER"
+    },
+    {
+      "axis": "LILRB_HLA_INHIBITORY_MYLOID_CHECKPOINT",
+      "centrality_score": 18.07,
+      "gate_failures": "target_causality_gate;druggable_correct_direction_gate;selectivity_window_gate",
+      "intervention_score": 1.3499999999999996,
+      "wave30_call": "CENTRAL_STATE_DRIVER_NOT_SELECTIVE_THERAPEUTIC"
+    }
+  ]
+}

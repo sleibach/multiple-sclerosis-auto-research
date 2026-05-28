@@ -1,0 +1,30 @@
+{
+  "branch_call": "NO_PROMOTABLE_ACCESSIBLE_SURVIVOR_YET",
+  "call_counts": {
+    "NO_GO_NO_ACTIONABLE_ACCESSIBILITY": 1,
+    "NO_GO_PRIOR_OR_CROWDED_ROUTE": 4,
+    "NO_GO_SAFETY_BLOCKED_NEURAL_ADHESION": 1,
+    "NO_GO_WEAK_MS_ANCHOR": 3,
+    "PARK_NEEDS_PERTURBATION_AND_GENETIC_ANCHOR": 3
+  },
+  "inputs": {
+    "wave18": "results_v3/wave18_foundation_rescue/foundation_rescue_candidate_rank.tsv",
+    "wave37": "results_v3/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv",
+    "wave47": "results_v3/wave47_late_stage_survivor_map/late_stage_survivor_map.tsv",
+    "wave62": "results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv",
+    "wave79": "results_v3/wave79_targetability_shortlist_audit/targetability_integrated_decision.tsv",
+    "wave81": "results_v3/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv",
+    "wave91": "results_v3/wave91_lipid_lysosomal_module_intervention_rank/lipid_lysosomal_intervention_rank.tsv",
+    "wave94": "results_v3/wave94_accessible_state_rerank/accessible_state_candidate_rank.tsv",
+    "wave95": "results_v3/wave95_mechanistic_forcing_triage/mechanistic_forcing_candidate_rank.tsv"
+  },
+  "n_candidates": 12,
+  "random_seed": 20260527,
+  "top_candidate": "SEL1L3",
+  "top_candidate_call": "PARK_NEEDS_PERTURBATION_AND_GENETIC_ANCHOR",
+  "wave102_forcing_candidates": [
+    "SEL1L3",
+    "FXYD5",
+    "APOC1"
+  ]
+}

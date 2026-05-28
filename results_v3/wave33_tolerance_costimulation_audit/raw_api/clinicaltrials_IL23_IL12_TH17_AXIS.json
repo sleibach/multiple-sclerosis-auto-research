@@ -1,0 +1,307 @@
+{
+  "payload": {
+    "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxtYvmg3fg",
+    "studies": [
+      {
+        "derivedSection": {
+          "conditionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D020278",
+                "term": "Demyelinating Autoimmune Diseases, CNS"
+              },
+              {
+                "id": "D020274",
+                "term": "Autoimmune Diseases of the Nervous System"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D003711",
+                "term": "Demyelinating Diseases"
+              },
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D009103",
+                "term": "Multiple Sclerosis"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D001781",
+                "term": "Blood Component Removal"
+              },
+              {
+                "id": "D013812",
+                "term": "Therapeutics"
+              },
+              {
+                "id": "D016060",
+                "term": "Sorption Detoxification"
+              },
+              {
+                "id": "D005112",
+                "term": "Extracorporeal Circulation"
+              },
+              {
+                "id": "D013514",
+                "term": "Surgical Procedures, Operative"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D010956",
+                "term": "Plasmapheresis"
+              }
+            ]
+          },
+          "miscInfoModule": {
+            "versionHolder": "2026-05-26"
+          }
+        },
+        "hasResults": false,
+        "protocolSection": {
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "description": "Immunoadsorption on 5 consecutive days with protein A columns and 2,5-fold patient's plasma volume",
+                "interventionNames": [
+                  "Procedure: Immunoadsorption"
+                ],
+                "label": "Immunoadsorption",
+                "type": "EXPERIMENTAL"
+              },
+              {
+                "description": "Plasmapheresis on 5 consecutive days with 2l plasma exchange",
+                "interventionNames": [
+                  "Procedure: Plasmapheresis"
+                ],
+                "label": "Plasmapheresis",
+                "type": "ACTIVE_COMPARATOR"
+              }
+            ],
+            "interventions": [
+              {
+                "armGroupLabels": [
+                  "Immunoadsorption"
+                ],
+                "name": "Immunoadsorption",
+                "type": "PROCEDURE"
+              },
+              {
+                "armGroupLabels": [
+                  "Plasmapheresis"
+                ],
+                "name": "Plasmapheresis",
+                "type": "PROCEDURE"
+              }
+            ]
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Multiple Sclerosis",
+              "Clinically Isolated Syndrome"
+            ],
+            "keywords": [
+              "Immunoadsorption",
+              "Plasmapheresis"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "city": "Ulm",
+                "country": "Germany",
+                "facility": "Department of Neurology, University of Ulm",
+                "geoPoint": {
+                  "lat": 48.39841,
+                  "lon": 9.99155
+                },
+                "state": "Baden-Wurttemberg",
+                "zip": "89081"
+              }
+            ]
+          },
+          "descriptionModule": {
+            "briefSummary": "This observational study investigates the efficacy and safety of immunoadsorption versus plasmapheresis in 60 patients with relapse in Multiple Sclerosis and Clinically isolated syndrome who do not fully recover after a high doses of intravenous corticosteroids."
+          },
+          "designModule": {
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "maskingInfo": {
+                "masking": "NONE"
+              },
+              "primaryPurpose": "TREATMENT"
+            },
+            "enrollmentInfo": {
+              "count": 61,
+              "type": "ACTUAL"
+            },
+            "phases": [
+              "NA"
+            ],
+            "studyType": "INTERVENTIONAL"
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* relapse of Multiple Sclerosis or Clinically Isolated Syndrome (without complete remission after high dose steroid therapy)\n* informed consent\n* age \u2265 12 years old\n\nExclusion Criteria:\n\n* clinical or laboratory signs of infection\n* intake of Angiotensin Converting Enzyme Inhibitor within 1 week prior to first treatment",
+            "healthyVolunteers": false,
+            "maximumAge": "80 Years",
+            "minimumAge": "12 Years",
+            "sex": "ALL",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "identificationModule": {
+            "briefTitle": "Immunoadsorption vs. Plasmapheresis in the Escalation Therapy of Relapse in Multiple Sclerosis",
+            "nctId": "NCT02671682",
+            "officialTitle": "Immunoadsorption vs. Plasmapheresis in the Escalation Therapy of Relapse in Multiple Sclerosis and Clinically Isolated Syndrome",
+            "orgStudyIdInfo": {
+              "id": "IAPEMS"
+            },
+            "organization": {
+              "class": "OTHER",
+              "fullName": "University of Ulm"
+            }
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "Multiple Sclerosis Functional Composite (MSFC)",
+                "timeFrame": "4 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Expanded Disability Status Scale (EDSS)",
+                "timeFrame": "2 and 4 weeks"
+              },
+              {
+                "measure": "EuroQol (EQ5D-5L)",
+                "timeFrame": "2 and 4 weeks"
+              },
+              {
+                "description": "defined as share of patients who show an improvement of least 10% in MSFC (see Outcome 1) compared to baseline value",
+                "measure": "Response Rate",
+                "timeFrame": "4 weeks"
+              },
+              {
+                "description": "defined as percentage of normal vision as measured by visual test according to EDSS standardized testing (see outcome 2)",
+                "measure": "Vision",
+                "timeFrame": "4 weeks"
+              },
+              {
+                "measure": "Visually Evoked Potentials (VEP; P100 latency)",
+                "timeFrame": "4 weeks"
+              },
+              {
+                "measure": "Somatosensory Evoked Potentials (SEP; Medianus and Tibialis; N20-, P40-latency)",
+                "timeFrame": "4 weeks"
+              },
+              {
+                "measure": "Thickness of Retinal Nerve Fiber Layer (RNFL) in Optical Coherence Tomography (OCT)",
+                "timeFrame": "4 weeks"
+              },
+              {
+                "measure": "Verbaler Lern- und Merkf\u00e4higkeitstest (VLMT) score",
+                "timeFrame": "4 weeks"
+              },
+              {
+                "measure": "MSFC",
+                "timeFrame": "2 weeks"
+              },
+              {
+                "measure": "Thickness of Ganglion Cell Layer (GCL) in OCT",
+                "timeFrame": "4 weeks"
+              },
+              {
+                "measure": "Symbol Digit Modalities Test (SDMT) score",
+                "timeFrame": "4 weeks"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "citation": "Vardakas I, Dorst J, Huss A, Mayer B, Fangerau T, Taranu D, Tumani H, Senel M. Serum neurofilament light chain and glial fibrillary acidic protein for predicting response to apheresis in steroid-refractory multiple sclerosis relapses. Eur J Neurol. 2024 Aug;31(8):e16323. doi: 10.1111/ene.16323. Epub 2024 May 3.",
+                "pmid": "38700322",
+                "type": "DERIVED"
+              },
+              {
+                "citation": "Dorst J, Fangerau T, Taranu D, Eichele P, Dreyhaupt J, Michels S, Schuster J, Ludolph AC, Senel M, Tumani H. Safety and efficacy of immunoadsorption versus plasma exchange in steroid-refractory relapse of multiple sclerosis and clinically isolated syndrome: A randomised, parallel-group, controlled trial. EClinicalMedicine. 2019 Nov 14;16:98-106. doi: 10.1016/j.eclinm.2019.10.017. eCollection 2019 Nov.",
+                "pmid": "31832624",
+                "type": "DERIVED"
+              }
+            ]
+          },
+          "sponsorCollaboratorsModule": {
+            "leadSponsor": {
+              "class": "OTHER",
+              "name": "Albert Christian Ludolph, Prof."
+            },
+            "responsibleParty": {
+              "investigatorAffiliation": "University of Ulm",
+              "investigatorFullName": "Albert Christian Ludolph, Prof.",
+              "investigatorTitle": "Prof. Dr.",
+              "type": "SPONSOR_INVESTIGATOR"
+            }
+          },
+          "statusModule": {
+            "completionDateStruct": {
+              "date": "2019-01-25",
+              "type": "ACTUAL"
+            },
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "lastUpdatePostDateStruct": {
+              "date": "2019-09-11",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2019-09-10",
+            "overallStatus": "COMPLETED",
+            "primaryCompletionDateStruct": {
+              "date": "2019-01-03",
+              "type": "ACTUAL"
+            },
+            "startDateStruct": {
+              "date": "2016-02-26",
+              "type": "ACTUAL"
+            },
+            "statusVerifiedDate": "2019-09",
+            "studyFirstPostDateStruct": {
+              "date": "2016-02-02",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2016-01-22",
+            "studyFirstSubmitQcDate": "2016-01-29"
+          }
+        }
+      }
+    ],
+    "totalCount": 50
+  },
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.term=IL23R+OR+IL12B+OR+IL12RB1+OR+IL12RB2&query.cond=autoimmune+OR+multiple+sclerosis+OR+rheumatoid+arthritis+OR+lupus+OR+Crohn+OR+psoriasis&format=json&pageSize=1&countTotal=true"
+}

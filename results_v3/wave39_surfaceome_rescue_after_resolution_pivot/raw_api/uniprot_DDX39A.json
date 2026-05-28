@@ -1,0 +1,287 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15047853",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17548965",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "32393512",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "33941617",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "37949067",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "38801080",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Helicase that plays an essential role in mRNA export and is involved in multiple steps in RNA metabolism including alternative splicing (PubMed:33941617, PubMed:38801080). Regulates nuclear mRNA export to the cytoplasm through association with ECD (PubMed:33941617). Also involved in spliceosomal uridine-rich small nuclear RNA (U snRNA) export by stimulating the RNA binding of adapter PHAX (PubMed:39011894). Plays a role in the negative regulation of type I IFN production by increasing the nuclear retention of antiviral transcripts and thus reducing their protein expression (PubMed:32393512). Independently of the interferon pathway, plays an antiviral role against alphaviruses by binding to a 5' conserved sequence element in the viral genomic RNA (PubMed:37949067)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "21859714",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "37949067",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Can translocate to the cytoplasm in the presence of MX1 (PubMed:21859714). Accumulates in the cytoplasm upon infection with chikungunya virus (PubMed:37949067)"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "21859714",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "32393512",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "33941617",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "38225262",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0191",
+                "value": "Nucleus"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "21859714",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "37949067",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00000713A1"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00541",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:30616"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:30616",
+            "name": "ATP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 95
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 88
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "DDX39A"
+          },
+          "synonyms": [
+            {
+              "value": "DDX39"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0067",
+          "name": "ATP-binding"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0963",
+          "name": "Cytoplasm"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0347",
+          "name": "Helicase"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0378",
+          "name": "Hydrolase"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-1017",
+          "name": "Isopeptide bond"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0507",
+          "name": "mRNA processing"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0508",
+          "name": "mRNA splicing"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0547",
+          "name": "Nucleotide-binding"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0539",
+          "name": "Nucleus"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0694",
+          "name": "RNA-binding"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0832",
+          "name": "Ubl conjugation"
+        }
+      ],
+      "primaryAccession": "O00148",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "DEAD box protein 39"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Nuclear RNA helicase URH49"
+            }
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "value": "3.6.4.13"
+            }
+          ],
+          "fullName": {
+            "value": "ATP-dependent RNA helicase DDX39A"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "38D02D4234995574",
+        "length": 427,
+        "md5": "7D53600966813338C34719145F6BD3BC",
+        "molWeight": 49130,
+        "value": "MAEQDVENDLLDYDEEEEPQAPQESTPAPPKKDIKGSYVSIHSSGFRDFLLKPELLRAIVDCGFEHPSEVQHECIPQAILGMDVLCQAKSGMGKTAVFVLATLQQIEPVNGQVTVLVMCHTRELAFQISKEYERFSKYMPSVKVSVFFGGLSIKKDEEVLKKNCPHVVVGTPGRILALVRNRSFSLKNVKHFVLDECDKMLEQLDMRRDVQEIFRLTPHEKQCMMFSATLSKDIRPVCRKFMQDPMEVFVDDETKLTLHGLQQYYVKLKDSEKNRKLFDLLDVLEFNQVIIFVKSVQRCMALAQLLVEQNFPAIAIHRGMAQEERLSRYQQFKDFQRRILVATNLFGRGMDIERVNIVFNYDMPEDSDTYLHRVARAGRFGTKGLAITFVSDENDAKILNDVQDRFEVNVAELPEEIDISTYIEQSR"
+      },
+      "uniProtkbId": "DX39A_HUMAN"
+    }
+  ]
+}

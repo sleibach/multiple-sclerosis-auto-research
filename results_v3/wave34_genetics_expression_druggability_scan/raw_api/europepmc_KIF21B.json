@@ -1,0 +1,56 @@
+{
+  "payload": {
+    "hitCount": 204,
+    "nextCursorMark": "AoIIQSj+3ig1NTQzMzcxNQ==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=KIF21B AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQSj+3ig1NTQzMzcxNQ==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "KIF21B AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Korkmaz ED, Everest E.",
+          "citedByCount": 0,
+          "doi": "10.36131/cnfioritieditore20260202",
+          "firstIndexDate": "2026-04-30",
+          "firstPublicationDate": "2026-04-01",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13116282"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "N",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "42052224",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "2",
+          "journalIssn": "1724-4935; 2385-0787; ",
+          "journalTitle": "Clin Neuropsychiatry",
+          "journalVolume": "23",
+          "pageInfo": "136-143",
+          "pmcid": "PMC13116282",
+          "pmid": "42052224",
+          "pubType": "research-article; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Investigating the Pleiotropic Role of KIF21B in Schizophrenia and Multiple Sclerosis: A Bioinformatics Analysis."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=KIF21B+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

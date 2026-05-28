@@ -1,0 +1,31 @@
+{
+  "branch_call": "NO_PROMOTABLE_SEL1L3_FXYD5_TARGET_SPECIFIC_EVIDENCE",
+  "call_counts": {
+    "COMPARATOR_ONLY": 3,
+    "NO_GO_NO_TARGET_SPECIFIC_PERTURBATION_OR_VALIDATED_MODEL": 2
+  },
+  "focal_candidates": [
+    "FXYD5",
+    "SEL1L3"
+  ],
+  "inputs": {
+    "broad_residual": "results_v3/broad_residual_gate/broad_residual_gate_summary.tsv",
+    "wave101": "results_v3/wave101_accessible_survivor_forcing_triage/accessible_survivor_forcing_rank.tsv",
+    "wave37": "results_v3/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv",
+    "wave62": "results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv",
+    "wave79": "results_v3/wave79_targetability_shortlist_audit/targetability_integrated_decision.tsv",
+    "wave79_foundation": "results_v3/wave79_targetability_shortlist_audit/targetability_foundation_rank_rows.tsv",
+    "wave81": "results_v3/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv",
+    "wave94": "results_v3/wave94_accessible_state_rerank/accessible_state_candidate_rank.tsv",
+    "wave94_context": "results_v3/wave94_accessible_state_rerank/broad_candidate_context_rows.tsv",
+    "wave94_genetics": "results_v3/wave94_accessible_state_rerank/candidate_genetics_summary.tsv",
+    "wave94_ibd_response": "results_v3/wave94_accessible_state_rerank/ibd_candidate_response_tests.tsv",
+    "wave94_ps_response": "results_v3/wave94_accessible_state_rerank/psoriasis_candidate_response_tests.tsv",
+    "wave94_ra_response": "results_v3/wave94_accessible_state_rerank/ra_candidate_response_tests.tsv"
+  },
+  "n_candidates": 5,
+  "promoted_candidates": [],
+  "random_seed": 20260527,
+  "top_focal_call": "NO_GO_NO_TARGET_SPECIFIC_PERTURBATION_OR_VALIDATED_MODEL",
+  "top_focal_candidate": "SEL1L3"
+}

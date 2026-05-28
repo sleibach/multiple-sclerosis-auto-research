@@ -1,0 +1,379 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "10783391",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11511179",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17226937",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "18028863",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "21106529",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Exhibits glutathione-dependent thiol transferase and dehydroascorbate reductase activities. Has S-(phenacyl)glutathione reductase activity. Also has glutathione S-transferase activity. Participates in the biotransformation of inorganic arsenic and reduces monomethylarsonic acid (MMA) and dimethylarsonic acid"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "11511179",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0091",
+                "value": "Cytoplasm, cytosol"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00000465CE"
+      },
+      "features": [
+        {
+          "description": "Nucleophile",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10783391",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 32
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 32
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10783391",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "21106529",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57925"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57925",
+            "name": "glutathione"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 59
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 59
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10783391",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "21106529",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57925"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57925",
+            "name": "glutathione"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 72
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 72
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10783391",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "21106529",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57925"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57925",
+            "name": "glutathione"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 86
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 85
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "GSTO1"
+          },
+          "synonyms": [
+            {
+              "value": "GSTTLP28"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0963",
+          "name": "Cytoplasm"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-0903",
+          "name": "Direct protein sequencing"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0560",
+          "name": "Oxidoreductase"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0808",
+          "name": "Transferase"
+        }
+      ],
+      "primaryAccession": "P78417",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Glutathione S-transferase omega 1-1"
+            },
+            "shortNames": [
+              {
+                "value": "GSTO 1-1"
+              }
+            ]
+          },
+          {
+            "ecNumbers": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "10783391",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "11511179",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "1.8.5.1"
+              }
+            ],
+            "fullName": {
+              "value": "Glutathione-dependent dehydroascorbate reductase"
+            }
+          },
+          {
+            "ecNumbers": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "11511179",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "1.20.4.2"
+              }
+            ],
+            "fullName": {
+              "value": "Monomethylarsonic acid reductase"
+            },
+            "shortNames": [
+              {
+                "value": "MMA(V) reductase"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "S-(Phenacyl)glutathione reductase"
+            },
+            "shortNames": [
+              {
+                "value": "SPG-R"
+              }
+            ]
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "10783391",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11511179",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17226937",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "18028863",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "21106529",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "2.5.1.18"
+            }
+          ],
+          "fullName": {
+            "value": "Glutathione S-transferase omega-1"
+          },
+          "shortNames": [
+            {
+              "value": "GSTO-1"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "9134ABA265F5C87E",
+        "length": 241,
+        "md5": "4EC1FEA5C885CDAC3EE6116294421D38",
+        "molWeight": 27566,
+        "value": "MSGESARSLGKGSAPPGPVPEGSIRIYSMRFCPFAERTRLVLKAKGIRHEVININLKNKPEWFFKKNPFGLVPVLENSQGQLIYESAITCEYLDEAYPGKKLLPDDPYEKACQKMILELFSKVPSLVGSFIRSQNKEDYAGLKEEFRKEFTKLEEVLTNKKTTFFGGNSISMIDYLIWPWFERLEAMKLNECVDHTPKLKLWMAAMKEDPTVSALLTSEKDWQGFLELYLQNSPEACDYGL"
+      },
+      "uniProtkbId": "GSTO1_HUMAN"
+    }
+  ]
+}

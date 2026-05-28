@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr2",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000138378.17",
+        "geneSymbol": "STAT4",
+        "geneSymbolUpper": "STAT4",
+        "nes": -0.419641,
+        "ontologyId": "UBERON:0001157",
+        "pValue": 8.54425e-05,
+        "pos": 190717219,
+        "snpId": "rs60582710",
+        "snpIdUpper": "RS60582710",
+        "tissueSiteDetailId": "Colon_Transverse",
+        "variantId": "chr2_190717219_G_A_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 53,
+      "page": 0,
+      "totalNumberOfItems": 53
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000138378.17&tissueSiteDetailId=Colon_Transverse&datasetId=gtex_v8&itemsPerPage=1"
+}

@@ -1,0 +1,11 @@
+{
+  "index_type": "sklearn_tfidf_sparse_fallback",
+  "document_count": 227,
+  "globs": [
+    "knowledge/**/*.md",
+    "meta/*.md",
+    "subagents/*.md",
+    "subagents_v3/*.md"
+  ],
+  "note": "Fallback index until sentence-transformer/vector-store stack is installed."
+}

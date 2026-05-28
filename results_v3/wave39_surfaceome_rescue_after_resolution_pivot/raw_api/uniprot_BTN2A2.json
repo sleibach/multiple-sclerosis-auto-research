@@ -1,0 +1,203 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250"
+                }
+              ],
+              "value": "Inhibits the proliferation of CD4 and CD8 T-cells activated by anti-CD3 antibodies, T-cell metabolism and IL2 and IFNG secretion"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-0162",
+                "value": "Membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-9905",
+                "value": "Single-pass type I membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00000480EA"
+      },
+      "features": [
+        {
+          "description": "Extracellular",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 265
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 33
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 286
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 266
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 523
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 287
+            }
+          },
+          "type": "Topological domain"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "BTN2A2"
+          },
+          "synonyms": [
+            {
+              "value": "BT2.2"
+            },
+            {
+              "value": "BTF2"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0175",
+          "name": "Coiled coil"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-1015",
+          "name": "Disulfide bond"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0325",
+          "name": "Glycoprotein"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0393",
+          "name": "Immunoglobulin domain"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0732",
+          "name": "Signal"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        }
+      ],
+      "primaryAccession": "Q8WVV5",
+      "proteinDescription": {
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "Butyrophilin subfamily 2 member A2"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "122099CE635F279D",
+        "length": 523,
+        "md5": "D6C5EC8DB34D2CDBF930B61DCAA455F2",
+        "molWeight": 59070,
+        "value": "MEPAAALHFSLPASLLLLLLLLLLSLCALVSAQFTVVGPANPILAMVGENTTLRCHLSPEKNAEDMEVRWFRSQFSPAVFVYKGGRERTEEQMEEYRGRITFVSKDINRGSVALVIHNVTAQENGIYRCYFQEGRSYDEAILRLVVAGLGSKPLIEIKAQEDGSIWLECISGGWYPEPLTVWRDPYGEVVPALKEVSIADADGLFMVTTAVIIRDKYVRNVSCSVNNTLLGQEKETVIFIPESFMPSASPWMVALAVILTASPWMVSMTVILAVFIIFMAVSICCIKKLQREKKILSGEKKVEQEEKEIAQQLQEELRWRRTFLHAADVVLDPDTAHPELFLSEDRRSVRRGPYRQRVPDNPERFDSQPCVLGWESFASGKHYWEVEVENVMVWTVGVCRHSVERKGEVLLIPQNGFWTLEMFGNQYRALSSPERILPLKESLCRVGVFLDYEAGDVSFYNMRDRSHIYTCPRSAFTVPVRPFFRLGSDDSPIFICPALTGASGVMVPEEGLKLHRVGTHQSL"
+      },
+      "uniProtkbId": "BT2A2_HUMAN"
+    }
+  ]
+}

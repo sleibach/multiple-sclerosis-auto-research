@@ -1,0 +1,27 @@
+{
+  "branch_call": "NO_REOPEN_DAP_HYGIENE_ARTIFACT",
+  "failed_critical_gates": [
+    "ms_fdr_expression",
+    "ms_genetic_anchor",
+    "target_resolved_coloc_or_l2g",
+    "direct_real_perturbation_support",
+    "foundation_model_not_contradicted",
+    "reachable_selective_modality",
+    "directionality_defined",
+    "no_strict_blocker"
+  ],
+  "inputs": {
+    "wave133_corrected_rank": "results_v3/wave133_closure_hygiene_correction/wave122_corrected_rank.tsv",
+    "wave18_foundation": "results_v3/wave18_foundation_rescue/foundation_rescue_candidate_rank.tsv",
+    "wave20_gate_matrix": "results_v3/wave20_unrestricted_survivor/wave20_gate_matrix.tsv",
+    "wave55_external_genetics": "results_v3/wave55_external_genetics_druggability_sweep/external_genetics_rank.tsv",
+    "wave62_target_resolution": "results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv",
+    "wave81_integrated": "results_v3/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv",
+    "wave82_route": "results_v3/wave82_parked_intervention_route_audit/parked_intervention_route_audit.tsv",
+    "wave83_meta": "results_v3/wave83_intervention_class_meta_rank/intervention_class_meta_rank.tsv"
+  },
+  "passed_gate_count": 4,
+  "random_seed": 20260527,
+  "strict_blocked": true,
+  "total_gate_count": 12
+}

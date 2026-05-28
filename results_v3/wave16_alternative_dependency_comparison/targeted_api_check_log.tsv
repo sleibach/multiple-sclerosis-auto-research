@@ -1,0 +1,15 @@
+resource	query_or_term	result_summary
+Europe PMC	("CTSH" OR "cathepsin H") AND autoimmune	hitCount 608; top returned records were not autoimmune-target-specific enough to use as positive CTSH prior art
+Europe PMC	"LAPTM5" AND autoimmune	hitCount 196; sparse/indirect immune literature, no mature interventional lane identified
+Europe PMC	("LGALS9" OR "galectin-9") AND autoimmune	hitCount 2649; large autoimmune literature footprint, including recent Sjogren/PBC records
+Europe PMC	("CTSS" OR "cathepsin S") AND autoimmune	hitCount 1885; large autoimmune/cathepsin-S literature footprint
+Europe PMC	("ITGAM" OR "CD11b") AND autoimmune	hitCount 28846; very broad CD11b/autoimmune literature footprint, not target-specific without manual filtering
+Europe PMC	("HLA-DM" OR "HLA-DMA" OR "HLA-DMB") AND autoimmune	hitCount 1227; HLA-DM/HLA-II biology is literature-rich and not a clean target novelty lane
+ClinicalTrials.gov	cathepsin S inhibitor autoimmune	Returned NCT00425321 RA and NCT01947738 VBY-891 healthy-volunteer safety record
+ClinicalTrials.gov	galectin-9 autoimmune	Returned observational/biomarker autoimmune studies including RA Gal-9 and SLE Gal-9 records
+ClinicalTrials.gov	CD11b autoimmune	Returned CD11b/MDSC/immune-marker studies, not a clean cross-autoimmune dependency intervention
+ClinicalTrials.gov	cathepsin H autoimmune	Returned one unrelated broad treatment/covid-like study; no direct CTSH autoimmune intervention identified
+ClinicalTrials.gov	LAPTM5 autoimmune	Returned zero studies
+ClinicalTrials.gov	HLA-DM autoimmune	Returned immune profiling / unrelated dermatomyositis-term records, not a direct HLA-DM intervention
+Open Targets GraphQL target search	CTSH; LAPTM5; LGALS9; CTSS; ITGAM; HLA-DMA; HLA-DMB	Resolved target IDs ENSG00000103811, ENSG00000162511, ENSG00000168961, ENSG00000163131, ENSG00000169896, ENSG00000204257, ENSG00000242574
+Open Targets GraphQL association query	same target IDs	Association query timed out on 2026-05-27; not used for live association scoring

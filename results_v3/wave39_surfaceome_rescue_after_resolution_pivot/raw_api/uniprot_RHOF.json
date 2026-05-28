@@ -1,0 +1,260 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "value": "Plasma membrane-associated small GTPase which cycles between an active GTP-bound and an inactive GDP-bound state. Causes the formation of thin, actin-rich surface projections called filopodia. Functions cooperatively with CDC42 and Rac to generate additional structures, increasing the diversity of actin-based morphology"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "orientation": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-9910",
+                "value": "Cytoplasmic side"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-9901",
+                "value": "Lipid-anchor"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0090",
+                "value": "Cytoplasm, cytoskeleton"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000133891"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 33
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 26
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 77
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 73
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 134
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 131
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "RHOF"
+          },
+          "synonyms": [
+            {
+              "value": "ARHF"
+            },
+            {
+              "value": "RIF"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-1003",
+          "name": "Cell membrane"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0963",
+          "name": "Cytoplasm"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0206",
+          "name": "Cytoskeleton"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0342",
+          "name": "GTP-binding"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0449",
+          "name": "Lipoprotein"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0488",
+          "name": "Methylation"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0547",
+          "name": "Nucleotide-binding"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0636",
+          "name": "Prenylation"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        }
+      ],
+      "primaryAccession": "Q9HBH0",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Rho family GTPase Rif"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Rho in filopodia"
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "Rho-related GTP-binding protein RhoF"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "AF82AE0CEDC34FAD",
+        "length": 211,
+        "md5": "D9BC999B8FB8F25DF7C945F4353EF271",
+        "molWeight": 23625,
+        "value": "MDAPGALAQTAAPGPGRKELKIVIVGDGGCGKTSLLMVYSQGSFPEHYAPSVFEKYTASVTVGSKEVTLNLYDTAGQEDYDRLRPLSYQNTHLVLICYDVMNPTSYDNVLIKWFPEVTHFCRGIPMVLIGCKTDLRKDKEQLRKLRAAQLEPITYMQGLSACEQIRAALYLECSAKFRENVEDVFREAAKVALSALKKAQRQKKRRLCLLL"
+      },
+      "uniProtkbId": "RHOF_HUMAN"
+    }
+  ]
+}

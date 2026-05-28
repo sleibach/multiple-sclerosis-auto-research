@@ -1,0 +1,32 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr1",
+        "dataSource": "HAVANA",
+        "description": "interleukin 10 [Source:HGNC Symbol;Acc:HGNC:5962]",
+        "end": 206772494,
+        "entrezGeneId": 3586,
+        "gencodeId": "ENSG00000136634.5",
+        "gencodeVersion": "v26",
+        "geneStatus": "",
+        "geneSymbol": "IL10",
+        "geneSymbolUpper": "IL10",
+        "geneType": "protein coding",
+        "genomeBuild": "GRCh38/hg38",
+        "start": 206767602,
+        "strand": "-",
+        "tss": 206772494
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 3,
+      "numberOfPages": 1,
+      "page": 0,
+      "totalNumberOfItems": 1
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/reference/gene?geneId=IL10&gencodeVersion=v26&genomeBuild=GRCh38%2Fhg38&itemsPerPage=3"
+}

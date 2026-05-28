@@ -1,0 +1,259 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3AMTHFD2%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "16100107",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Although its dehydrogenase activity is NAD-specific, it can also utilize NADP at a reduced efficiency"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0173",
+                "value": "Mitochondrion"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000208708"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27899380",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 88
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 84
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27899380",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 133
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 131
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "16100107",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27899380",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57540"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57540",
+            "name": "NAD(+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 202
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 200
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "16100107",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27899380",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57540"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57540",
+            "name": "NAD(+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 233
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 233
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27899380",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 313
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 309
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "MTHFD2"
+          },
+          "synonyms": [
+            {
+              "value": "NMDMC"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P13995",
+      "proteinDescription": {
+        "flag": "Precursor",
+        "includes": [
+          {
+            "recommendedName": {
+              "ecNumbers": [
+                {
+                  "evidences": [
+                    {
+                      "evidenceCode": "ECO:0000269",
+                      "id": "16100107",
+                      "source": "PubMed"
+                    },
+                    {
+                      "evidenceCode": "ECO:0000269",
+                      "id": "8218174",
+                      "source": "PubMed"
+                    }
+                  ],
+                  "value": "1.5.1.15"
+                }
+              ],
+              "fullName": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "16100107",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "NAD-dependent methylenetetrahydrofolate dehydrogenase"
+              }
+            }
+          },
+          {
+            "recommendedName": {
+              "ecNumbers": [
+                {
+                  "evidences": [
+                    {
+                      "evidenceCode": "ECO:0000305",
+                      "id": "16100107",
+                      "source": "PubMed"
+                    }
+                  ],
+                  "value": "3.5.4.9"
+                }
+              ],
+              "fullName": {
+                "value": "Methenyltetrahydrofolate cyclohydrolase"
+              }
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Bifunctional methylenetetrahydrofolate dehydrogenase/cyclohydrolase, mitochondrial"
+          }
+        }
+      }
+    }
+  ]
+}

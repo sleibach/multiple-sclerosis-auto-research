@@ -1,0 +1,110 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ATNFAIP8%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "10644768",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11346652",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "14724590",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Acts as a negative mediator of apoptosis and may play a role in tumor progression. Suppresses the TNF-mediated apoptosis by inhibiting caspase-8 activity but not the processing of procaspase-8, subsequently resulting in inhibition of BID cleavage and caspase-3 activation"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "14724590",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000006EB3E"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "TNFAIP8"
+          }
+        }
+      ],
+      "primaryAccession": "O95379",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Head and neck tumor and metastasis-related protein"
+            }
+          },
+          {
+            "fullName": {
+              "value": "MDC-3.13"
+            }
+          },
+          {
+            "fullName": {
+              "value": "NF-kappa-B-inducible DED-containing protein"
+            },
+            "shortNames": [
+              {
+                "value": "NDED"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "SCC-S2"
+            }
+          },
+          {
+            "fullName": {
+              "value": "TNF-induced protein GG2-1"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Tumor necrosis factor alpha-induced protein 8"
+          },
+          "shortNames": [
+            {
+              "value": "TNF alpha-induced protein 8"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

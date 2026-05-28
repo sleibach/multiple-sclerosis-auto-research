@@ -1,0 +1,361 @@
+{
+  "error": "",
+  "payload": {
+    "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxuZPGh1PATkA",
+    "studies": [
+      {
+        "derivedSection": {
+          "conditionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D005759",
+                "term": "Gastroenteritis"
+              },
+              {
+                "id": "D005767",
+                "term": "Gastrointestinal Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D007410",
+                "term": "Intestinal Diseases"
+              },
+              {
+                "id": "D003109",
+                "term": "Colonic Diseases, Functional"
+              },
+              {
+                "id": "D003108",
+                "term": "Colonic Diseases"
+              },
+              {
+                "id": "D003092",
+                "term": "Colitis"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D015212",
+                "term": "Inflammatory Bowel Diseases"
+              },
+              {
+                "id": "D043183",
+                "term": "Irritable Bowel Syndrome"
+              },
+              {
+                "id": "D003424",
+                "term": "Crohn Disease"
+              },
+              {
+                "id": "D003093",
+                "term": "Colitis, Ulcerative"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D003584",
+                "term": "Cytological Techniques"
+              },
+              {
+                "id": "D019411",
+                "term": "Clinical Laboratory Techniques"
+              },
+              {
+                "id": "D019937",
+                "term": "Diagnostic Techniques and Procedures"
+              },
+              {
+                "id": "D003933",
+                "term": "Diagnosis"
+              },
+              {
+                "id": "D008919",
+                "term": "Investigative Techniques"
+              },
+              {
+                "id": "D002468",
+                "term": "Cell Physiological Phenomena"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D002452",
+                "term": "Cell Count"
+              }
+            ]
+          },
+          "miscInfoModule": {
+            "versionHolder": "2026-05-26"
+          }
+        },
+        "hasResults": false,
+        "protocolSection": {
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "description": "The study will involve subjects with endoscopically, laboratory and clinically confirmed diagnoses of organic and functional intestinal pathology or none of the above (healthy volunteers). All diagnoses are defined in accordance with the validated criteria presented in the clinical guidelines for the diagnosis and treatment of functional bowel pathology (Irritable Bowel Syndrome), 2020, Crohn's Disease (approved by the Ministry of Health of the Russian Federation, 2020), Ulcerative Colitis (approved by the Ministry of Health of the Russian Federation, 2020), in accordance with international criteria of ECCO-ESGAR Guidelines, 2018, 2019. After the initial screening and inclusion in the study, intestinal biopsy samples are taken in accordance with the applied endoscopic examination technique during the endoscopic examination. These biopsy samples will be further used for molecular and immunological diagnostics.",
+                "interventionNames": [
+                  "Diagnostic Test: cell and molecular diagnostics in accordance with functional test results"
+                ],
+                "label": "Precision diagnostics profiling",
+                "type": "EXPERIMENTAL"
+              }
+            ],
+            "interventions": [
+              {
+                "armGroupLabels": [
+                  "Precision diagnostics profiling"
+                ],
+                "description": "Procedure: Anorectal manometry (ARM) Studies are performed in the left lateral position with the hips and knees of the subject flexed. Manometric sensor records circumferential pressure. The base of the rectal balloon attached to the ARM catheter is sited 3-5 cm above the upper border of the anal canal, to prevent the balloon impinging upon the anal canal during inflation. The most distal recording sensor is external to anal verge. If any pain or discomfort is experienced, the probe is immediately withdrawn.\n\nProcedure: Rectal sensory test (RST) The test is also performed in the left lateral position with hips and knees flexed. Studies are conducted with either an integrated balloon on the manometric probe or with a separate system. Balloon capacity is no less than 400 mls and all components are latex-free. Insufflation is always performed with air. For ramp distension, the rate should be between 1 and 5 mL/s, and for phasic distension, inflation rate should be set at 10 mL/s (C1).",
+                "name": "cell and molecular diagnostics in accordance with functional test results",
+                "type": "DIAGNOSTIC_TEST"
+              }
+            ]
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Inflammatory Bowel Diseases",
+              "Irritable Bowel Syndrome",
+              "Healthy Volunteers"
+            ],
+            "keywords": [
+              "Inflammatory Bowel Disease",
+              "Crohn's disease",
+              "Ulcerative colitis",
+              "Irritable Bowel Syndrome",
+              "Precision diagnostics",
+              "Metabolomics",
+              "Genomics",
+              "Transcriptomics",
+              "Immunology"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "email": "svlvs@mail.ru",
+                "name": "Svetlana Lyamina, Prof.",
+                "phone": "+7 915 018 5006",
+                "role": "CONTACT"
+              }
+            ],
+            "locations": [
+              {
+                "city": "Moscow",
+                "contacts": [
+                  {
+                    "email": "natazaha@gmail.com",
+                    "name": "Natalia Zakharzhevskaya, PhD",
+                    "phone": "+7 916 853 4351",
+                    "role": "CONTACT"
+                  }
+                ],
+                "country": "Russia",
+                "facility": "Federal Research and Clinical Center of Physical-Chemical Medicine of Federal Medical Biological Agency",
+                "geoPoint": {
+                  "lat": 55.75204,
+                  "lon": 37.61781
+                },
+                "status": "RECRUITING",
+                "zip": "119435"
+              },
+              {
+                "city": "Moscow",
+                "contacts": [
+                  {
+                    "email": "svlvs@mail.ru",
+                    "name": "Svetlana Lyamina, Prof",
+                    "phone": "+7 915 018 5006",
+                    "role": "CONTACT"
+                  },
+                  {
+                    "name": "Igor Maev, Acad.the RAS",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "country": "Russia",
+                "facility": "Moscow State University of Medicine and Dentistry",
+                "geoPoint": {
+                  "lat": 55.75204,
+                  "lon": 37.61781
+                },
+                "status": "RECRUITING",
+                "zip": "127473"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "affiliation": "Moscow State University of Medicine and Dentistry",
+                "name": "Igor Maev, Acad.the RAS",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ]
+          },
+          "descriptionModule": {
+            "briefSummary": "Differential diagnosis of functional and organic intestinal pathology is carried out in line with approved clinical guidelines and includes a significant list of interventions. However, considering the possibility of an \"overlap\" between functional and organic diseases, as well as the non-specificity of a number of assessment parameters, it is advisably to define new diagnostic approaches and reliable cell and molecular markers, that will update and ensure the precision diagnostics of intestinal diseases. The integrative functional, cell and molecular markers will create the basis and possibilities for the personalized selection of patient therapy.\n\nThe study is intended to develop the methods of precision diagnostics based on cellular-molecular profiling with an assessment of functional parameters of the intestine in functional and organic intestinal diseases."
+          },
+          "designModule": {
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "maskingInfo": {
+                "masking": "NONE"
+              },
+              "primaryPurpose": "BASIC_SCIENCE"
+            },
+            "enrollmentInfo": {
+              "count": 120,
+              "type": "ESTIMATED"
+            },
+            "phases": [
+              "NA"
+            ],
+            "studyType": "INTERVENTIONAL"
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Signed informed consent\n* Gender: Male or Female\n* Age: 18-70 years old\n* Clinically, laboratory and/or endoscopically confirmed diagnosis of functional (Irritable Bowel Syndrome) and organic (Crohn's Disease, Ulcerative Colitis) intestinal disease\n* Healthy volunteers\n\nExclusion Criteria:\n\n* Age under 18 or over 70;\n* Acute intestinal infections;\n* Antibiotic-associated intestinal lesions;\n* Tuberculosis of the intestine;\n* Systemic vasculitis;\n* Oncological diseases;\n* Diverticulitis;\n* Solitary rectal ulcer;\n* Ischemic colitis;\n* Syndrome of bacterial overgrowth;\n* Decompensation of chronic diseases of the cardiovascular system or acute cardiovascular diseases;\n* Acute or exacerbation of chronic respiratory diseases, respiratory failure;\n* Acute infectious diseases;\n* Diabetes mellitus;\n* Disorders of the blood coagulation system;\n* Mental disorders\n* Female patients who are pregnant, planning to become pregnant or lactating\n* Participation in a clinical trial in the past 3 months and in any other incomplete clinical trials (including follow up - the period of observation after completion of the study)\n* Any condition which, in the opinion of investigator, makes the patient unsuitable for participation in the study",
+            "healthyVolunteers": true,
+            "maximumAge": "70 Years",
+            "minimumAge": "18 Years",
+            "sex": "ALL",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "identificationModule": {
+            "briefTitle": "Precision Diagnostics of Functional and Organic Intestinal Pathology Based on Cellular and Molecular Profiling",
+            "nctId": "NCT05277662",
+            "officialTitle": "Biomedical Experimental Study for Precise Diagnostics of Functional and Organic Intestinal Pathology Based on Cellular and Molecular Profiling",
+            "orgStudyIdInfo": {
+              "id": "CSR-04/21"
+            },
+            "organization": {
+              "class": "OTHER",
+              "fullName": "Moscow State University of Medicine and Dentistry"
+            }
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "description": "Assessment of metabolome ( gas chromatographic analysis with vapor-phase extraction). Metabolic parameters (Tetradecanoic acid, Hydracinnamic acid, Hexadecanoic acid, Hexanoic acid, Indole, Pentanoic acid) will be measured in feces by gas chromatographic analysis with vapor-phase extraction method. Metabolite extraction methods are performed according to the standard metabolite isolation protocol.The above mentioned metabolites will be measured in intensity of the ion current of the analyzed metabolite, normalized to the total ion current according to the standardized methods.",
+                "measure": "Changes of metabolic profile in patients with functional and organic intestinal diseases",
+                "timeFrame": "2 years"
+              },
+              {
+                "description": "Assessment of genetic profiling (risk polymorphism assessment). Assessment of risk polymorphisms: NOD2 (rs2066844, rs2066845, rs17221417), ATG16L1 (rs2241880), IL23R (rs2201841) will be performed in leukocyte fraction of blood samples according to the standardized methods. Resulting relative risk will be assessed according to the data on relative risks for each of the above mentioned polymorphisms.",
+                "measure": "Changes in genetic profile in patients with functional and organic intestinal diseases",
+                "timeFrame": "2 years"
+              },
+              {
+                "description": "Assessment of local cytokine profile by Human Cytokine Screening panel Bio-plex Pro (27 cytokines, concentrations measured in pg/ml). Local cytokine profile will be assessed in gut biopsy lyophilisate. All cytokine concentrations will be measured in pg/ml.",
+                "measure": "Changes in immunological profile (local) in patients with functional and organic intestinal diseases",
+                "timeFrame": "2 years"
+              },
+              {
+                "description": "Assessment of systemic cytokine profile by Human Cytokine Screening panel Bio-plex Pro (27 cytokines, concentrations measured in pg/ml). Systemic cytokine profile will be assessed by serum analysis. All cytokine concentrations will be measured in pg/ml.",
+                "measure": "Changes in immunological profile (systemic) in patients with functional and organic intestinal diseases",
+                "timeFrame": "2 years"
+              },
+              {
+                "description": "Instrumental assessment of RST during functional examination. This is the procedure that assesses rectal sensitivity to distension utilizing the balloon attached to the catheter tip. The procedure is performed according to standardized IAPWG manometry protocol (2020). The measurement will be performed in mls.\n\nQuantitative measurement of balloon volume is recorded for each of the three patient-reported sensory thresholds: first constant sensation volume (FCSV), desire to defecate volume (DDV) and maximum tolerated volume (MTV).",
+                "measure": "Changes in functional parameter - RST in patients with functional and organic intestinal diseases",
+                "timeFrame": "2 years"
+              },
+              {
+                "description": "Instrumental assessment of ARM during functional examination. The procedure is performed according to standardized IAPWG manometry protocol (2020). The measurement will be performed in mmHg.",
+                "measure": "Changes in functional parameter - ARM in patients with functional and organic intestinal diseases",
+                "timeFrame": "2 years"
+              }
+            ]
+          },
+          "oversightModule": {
+            "isFdaRegulatedDevice": false,
+            "isFdaRegulatedDrug": false,
+            "oversightHasDmc": true
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "citation": "Van Malderen K, De Winter BY, De Man JG, De Schepper HU, Lamote K. Volatomics in inflammatory bowel disease and irritable bowel syndrome. EBioMedicine. 2020 Apr;54:102725. doi: 10.1016/j.ebiom.2020.102725. Epub 2020 Apr 21.",
+                "pmid": "32330874",
+                "type": "RESULT"
+              },
+              {
+                "citation": "Aziz I, Simren M. The overlap between irritable bowel syndrome and organic gastrointestinal diseases. Lancet Gastroenterol Hepatol. 2021 Feb;6(2):139-148. doi: 10.1016/S2468-1253(20)30212-0. Epub 2020 Nov 13.",
+                "pmid": "33189181",
+                "type": "RESULT"
+              },
+              {
+                "citation": "Gehart H, Clevers H. Tales from the crypt: new insights into intestinal stem cells. Nat Rev Gastroenterol Hepatol. 2019 Jan;16(1):19-34. doi: 10.1038/s41575-018-0081-y.",
+                "pmid": "30429586",
+                "type": "RESULT"
+              },
+              {
+                "citation": "Sperber AD, Bangdiwala SI, Drossman DA, Ghoshal UC, Simren M, Tack J, Whitehead WE, Dumitrascu DL, Fang X, Fukudo S, Kellow J, Okeke E, Quigley EMM, Schmulson M, Whorwell P, Archampong T, Adibi P, Andresen V, Benninga MA, Bonaz B, Bor S, Fernandez LB, Choi SC, Corazziari ES, Francisconi C, Hani A, Lazebnik L, Lee YY, Mulak A, Rahman MM, Santos J, Setshedi M, Syam AF, Vanner S, Wong RK, Lopez-Colombo A, Costa V, Dickman R, Kanazawa M, Keshteli AH, Khatun R, Maleki I, Poitras P, Pratap N, Stefanyuk O, Thomson S, Zeevenhooven J, Palsson OS. Worldwide Prevalence and Burden of Functional Gastrointestinal Disorders, Results of Rome Foundation Global Study. Gastroenterology. 2021 Jan;160(1):99-114.e3. doi: 10.1053/j.gastro.2020.04.014. Epub 2020 Apr 12.",
+                "pmid": "32294476",
+                "type": "RESULT"
+              },
+              {
+                "citation": "Wilson JC, Furlano RI, Jick SS, Meier CR. Inflammatory Bowel Disease and the Risk of Autoimmune Diseases. J Crohns Colitis. 2016 Feb;10(2):186-93. doi: 10.1093/ecco-jcc/jjv193. Epub 2015 Oct 27.",
+                "pmid": "26507860",
+                "type": "RESULT"
+              }
+            ]
+          },
+          "sponsorCollaboratorsModule": {
+            "leadSponsor": {
+              "class": "OTHER",
+              "name": "Moscow State University of Medicine and Dentistry"
+            },
+            "responsibleParty": {
+              "type": "SPONSOR"
+            }
+          },
+          "statusModule": {
+            "completionDateStruct": {
+              "date": "2023-05-15",
+              "type": "ESTIMATED"
+            },
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "lastKnownStatus": "RECRUITING",
+            "lastUpdatePostDateStruct": {
+              "date": "2022-03-14",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2022-03-11",
+            "overallStatus": "UNKNOWN",
+            "primaryCompletionDateStruct": {
+              "date": "2022-12-31",
+              "type": "ESTIMATED"
+            },
+            "startDateStruct": {
+              "date": "2021-10-01",
+              "type": "ACTUAL"
+            },
+            "statusVerifiedDate": "2022-01",
+            "studyFirstPostDateStruct": {
+              "date": "2022-03-14",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2022-01-13",
+            "studyFirstSubmitQcDate": "2022-03-11"
+          }
+        }
+      }
+    ],
+    "totalCount": 4
+  },
+  "status": "ok",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.term=ATG16L1&query.cond=autoimmune+OR+multiple+sclerosis+OR+rheumatoid+arthritis+OR+lupus+OR+Crohn+OR+psoriasis&format=json&pageSize=1&countTotal=true"
+}

@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr1",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000157873.17",
+        "geneSymbol": "TNFRSF14",
+        "geneSymbolUpper": "TNFRSF14",
+        "nes": 0.073521,
+        "ontologyId": "UBERON:0013756",
+        "pValue": 2.00823e-05,
+        "pos": 2539232,
+        "snpId": "rs112734447",
+        "snpIdUpper": "RS112734447",
+        "tissueSiteDetailId": "Whole_Blood",
+        "variantId": "chr1_2539232_G_GCC_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 146,
+      "page": 0,
+      "totalNumberOfItems": 146
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000157873.17&tissueSiteDetailId=Whole_Blood&datasetId=gtex_v8&itemsPerPage=1"
+}

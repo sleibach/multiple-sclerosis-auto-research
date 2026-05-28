@@ -1,0 +1,124 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ACXCL2%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "10725737",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Produced by activated monocytes and neutrophils and expressed at sites of inflammation. Hematoregulatory chemokine, which, in vitro, suppresses hematopoietic progenitor cell proliferation. GRO-beta(5-73) shows a highly enhanced hematopoietic activity"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000047AA8"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "CXCL2"
+          },
+          "synonyms": [
+            {
+              "value": "GRO2"
+            },
+            {
+              "value": "GROB"
+            },
+            {
+              "value": "MIP2A"
+            },
+            {
+              "value": "SCYB2"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P19875",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Growth-regulated protein beta"
+            },
+            "shortNames": [
+              {
+                "value": "Gro-beta"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Macrophage inflammatory protein 2-alpha"
+            },
+            "shortNames": [
+              {
+                "value": "MIP2-alpha"
+              }
+            ]
+          }
+        ],
+        "contains": [
+          {
+            "alternativeNames": [
+              {
+                "fullName": {
+                  "value": "GRO-beta-T"
+                }
+              },
+              {
+                "fullName": {
+                  "value": "Hematopoietic synergistic factor"
+                },
+                "shortNames": [
+                  {
+                    "value": "HSF"
+                  }
+                ]
+              },
+              {
+                "fullName": {
+                  "value": "SB-251353"
+                }
+              }
+            ],
+            "recommendedName": {
+              "fullName": {
+                "value": "GRO-beta(5-73)"
+              }
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "C-X-C motif chemokine 2"
+          }
+        }
+      }
+    }
+  ]
+}

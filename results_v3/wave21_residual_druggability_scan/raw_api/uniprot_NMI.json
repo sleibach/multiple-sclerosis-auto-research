@@ -1,0 +1,203 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ANMI%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "O35309",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "10779520",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "10950963",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "26342464",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "29038465",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "29350881",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9989503",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Acts as a signaling pathway regulator involved in innate immune system response (PubMed:26342464, PubMed:29038465, PubMed:29350881, PubMed:9989503). In response to interleukin 2/IL2 and interferon IFN-gamma/IFNG, interacts with signal transducer and activator of transcription/STAT which activate the transcription of downstream genes involved in a multitude of signals for development and homeostasis (PubMed:29377960, PubMed:9989503). Enhances the recruitment of CBP/p300 coactivators to STAT1 and STAT5, resulting in increased STAT1- and STAT5-dependent transcription (PubMed:9989503). In response to interferon IFN-alpha, associates in a complex with signaling pathway regulator IFI35 to regulate immune response; the complex formation prevents proteasome-mediated degradation of IFI35 (PubMed:10779520, PubMed:10950963). In complex with IFI35, inhibits virus-triggered type I IFN-beta production when ubiquitinated by ubiquitin-protein ligase TRIM21 (PubMed:26342464). In complex with IFI35, negatively regulates nuclear factor NF-kappa-B signaling by inhibiting the nuclear translocation, activation and transcription of NF-kappa-B subunit p65/RELA, resulting in the inhibition of endothelial cell proliferation, migration and re-endothelialization of injured arteries (PubMed:29350881). Negatively regulates virus-triggered type I interferon/IFN production by inducing proteosome-dependent degradation of IRF7, a transcriptional regulator of type I IFN, thereby interfering with cellular antiviral responses (By similarity). Beside its role as an intracellular signaling pathway regulator, also functions extracellularly as damage-associated molecular patterns (DAMPs) to promote inflammation, when actively released by macrophage to the extracellular space during cell injury or pathogen invasion (PubMed:29038465). Macrophage-secreted NMI activates NF-kappa-B signaling in adjacent macrophages through Toll-like receptor 4/TLR4 binding and activation, thereby inducing NF-kappa-B translocation from the cytoplasm into the nucleus which promotes the release of pro-inflammatory cytokines (PubMed:29038465)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "10950963",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "29038465",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "9781816",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Cytoplasmic NMI localizes in punctate granular structures (PubMed:10950963, PubMed:9781816). Nuclear localization increased following IFN-alpha treatment (PubMed:10950963, PubMed:9781816). Extracelullar following secretion by macrophage (PubMed:29038465)"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "10779520",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "10950963",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "29377960",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "9781816",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "10950963",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "9781816",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0191",
+                "value": "Nucleus"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "29038465",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000013CB35"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:7854",
+                "source": "HGNC"
+              }
+            ],
+            "value": "NMI"
+          }
+        }
+      ],
+      "primaryAccession": "Q13287",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "26342464",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "N-myc and STAT interactor"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "id": "8668343",
+                "source": "PubMed"
+              }
+            ],
+            "value": "N-myc-interactor"
+          },
+          "shortNames": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "8668343",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Nmi"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+tissue_analysis	myeloid_analysis	disease_name	tissue_compartment	gene	myeloid_module	n_paired_donors	spearman_rho_all	spearman_p_all	n_case_paired_donors	spearman_rho_case	spearman_p_case	all_link_positive_trend	case_link_positive_trend
+ibd_uc_stromal	ibd_uc_myeloid	ulcerative colitis	colon stromal	APOC1	inflammatory_nfkb	12	-0.7762237762237763	0.0029928636801859823	6	-0.8285714285714287	0.04156268221574335	False	False
+ibd_uc_stromal	ibd_uc_myeloid	ulcerative colitis	colon stromal	APOC1	lysosomal_apc	12	-0.6853146853146854	0.013905968814362754	6	-0.7714285714285715	0.07239650145772594	False	False
+ibd_uc_stromal	ibd_uc_myeloid	ulcerative colitis	colon stromal	APOC1	c15_mocci_costate	12	-0.6643356643356644	0.01845271802844544	6	-0.7142857142857143	0.11078717201166179	False	False
+ibd_crohn_stromal	ibd_crohn_myeloid	Crohn disease	colon stromal	APOC1	inflammatory_nfkb	12	-0.6083916083916086	0.035805997052029234	6	-0.08571428571428573	0.8717434402332361	False	False
+ibd_uc_epithelial	ibd_uc_myeloid	ulcerative colitis	colon epithelial	APOC1	c15_mocci_costate	12	0.5944055944055945	0.04152149441031857	6	-0.08571428571428573	0.8717434402332361	True	False
+psoriasis_skin_stromal	psoriasis_skin_apc	psoriasis	skin stromal	APOC1	lipid_loader_repair	6	0.8285714285714287	0.04156268221574335	3			True	False
+ibd_uc_epithelial	ibd_uc_myeloid	ulcerative colitis	colon epithelial	APOC1	inflammatory_nfkb	12	0.5804195804195805	0.04785597684206059	6	0.14285714285714288	0.7871720116618076	True	False
+sjogren_gland_epithelial	sjogren_gland_apc	Sjogren syndrome	salivary gland epithelial	APOC1	lipid_loader_repair	22	-0.4025974025974026	0.06322201647005025	9	0.2833333333333333	0.46003032896572005	False	False
+ibd_uc_epithelial	ibd_uc_myeloid	ulcerative colitis	colon epithelial	APOC1	lysosomal_apc	12	0.5454545454545455	0.06661188226688902	6	0.2571428571428572	0.6227871720116619	True	False
+ibd_crohn_stromal	ibd_crohn_myeloid	Crohn disease	colon stromal	APOC1	c15_mocci_costate	12	-0.5174825174825175	0.08486877113393476	6	-0.3142857142857143	0.5440932944606415	False	False
+sjogren_gland_stromal	sjogren_gland_apc	Sjogren syndrome	salivary gland stromal/endothelial	APOC1	lipid_loader_repair	22	-0.3574251835121401	0.10245166957794669	9	-0.18333333333333335	0.6368198117628943	False	False
+sjogren_gland_epithelial	sjogren_gland_apc	Sjogren syndrome	salivary gland epithelial	APOC1	lysosomal_apc	22	-0.32919254658385094	0.13465848838788197	9	0.06666666666666667	0.8646897846262036	False	False
+psoriasis_keratinocyte	psoriasis_skin_apc	psoriasis	skin keratinocyte	APOC1	inflammatory_nfkb	6	0.6	0.208	3			False	False
+ibd_uc_stromal	ibd_uc_myeloid	ulcerative colitis	colon stromal	APOC1	lipid_loader_repair	12	-0.37762237762237766	0.22620604493502647	6	-0.5428571428571429	0.26570262390670546	False	False
+sjogren_gland_stromal	sjogren_gland_apc	Sjogren syndrome	salivary gland stromal/endothelial	APOC1	lysosomal_apc	22	-0.23546019198193116	0.2914882349612472	9	0.2333333333333333	0.5456987782182728	False	False
+psoriasis_skin_stromal	psoriasis_skin_apc	psoriasis	skin stromal	APOC1	inflammatory_nfkb	6	0.48571428571428577	0.3287230320699708	3			False	False
+ibd_crohn_stromal	ibd_crohn_myeloid	Crohn disease	colon stromal	APOC1	lysosomal_apc	12	-0.2797202797202798	0.37856866966230307	6	-0.028571428571428574	0.9571545189504373	False	False
+psoriasis_skin_stromal	psoriasis_skin_apc	psoriasis	skin stromal	APOC1	lysosomal_apc	6	0.4285714285714286	0.3965014577259473	3			False	False
+sjogren_gland_epithelial	sjogren_gland_apc	Sjogren syndrome	salivary gland epithelial	APOC1	inflammatory_nfkb	22	-0.18577075098814233	0.40782832253038376	9	0.09999999999999999	0.797971695234851	False	False
+psoriasis_keratinocyte	psoriasis_skin_apc	psoriasis	skin keratinocyte	APOC1	lysosomal_apc	6	-0.3714285714285715	0.4684781341107872	3			False	False
+ibd_uc_epithelial	ibd_uc_myeloid	ulcerative colitis	colon epithelial	APOC1	lipid_loader_repair	12	0.2027972027972028	0.5273023541661079	6	-0.2	0.7040000000000001	False	False
+sjogren_gland_epithelial	sjogren_gland_apc	Sjogren syndrome	salivary gland epithelial	APOC1	c15_mocci_costate	22	-0.11123658949745907	0.622136487426624	9	-0.2333333333333333	0.5456987782182728	False	False
+ibd_crohn_stromal	ibd_crohn_myeloid	Crohn disease	colon stromal	APOC1	lipid_loader_repair	12	-0.14685314685314685	0.6487957097846665	6	0.14285714285714288	0.7871720116618076	False	False
+ibd_crohn_epithelial	ibd_crohn_myeloid	Crohn disease	colon epithelial	APOC1	c15_mocci_costate	12	0.1398601398601399	0.6646331617926677	6	0.08571428571428573	0.8717434402332361	False	False
+psoriasis_keratinocyte	psoriasis_skin_apc	psoriasis	skin keratinocyte	APOC1	c15_mocci_costate	6	-0.14285714285714288	0.7871720116618076	3			False	False
+ibd_crohn_epithelial	ibd_crohn_myeloid	Crohn disease	colon epithelial	APOC1	lysosomal_apc	12	-0.08391608391608392	0.7954145018538978	6	-0.4285714285714286	0.3965014577259473	False	False
+sjogren_gland_stromal	sjogren_gland_apc	Sjogren syndrome	salivary gland stromal/endothelial	APOC1	inflammatory_nfkb	22	-0.04347826086956522	0.8476501356797842	9	-0.35	0.35581957250178897	False	False
+psoriasis_skin_stromal	psoriasis_skin_apc	psoriasis	skin stromal	APOC1	c15_mocci_costate	6	0.08571428571428573	0.8717434402332361	3			False	False
+ibd_crohn_epithelial	ibd_crohn_myeloid	Crohn disease	colon epithelial	APOC1	inflammatory_nfkb	12	-0.04895104895104895	0.8799185788786748	6	0.14285714285714288	0.7871720116618076	False	False
+psoriasis_keratinocyte	psoriasis_skin_apc	psoriasis	skin keratinocyte	APOC1	lipid_loader_repair	6	0.028571428571428574	0.9571545189504373	3			False	False
+ibd_crohn_epithelial	ibd_crohn_myeloid	Crohn disease	colon epithelial	APOC1	lipid_loader_repair	12	0.013986013986013986	0.9655902689187796	6	0.14285714285714288	0.7871720116618076	False	False
+sjogren_gland_stromal	sjogren_gland_apc	Sjogren syndrome	salivary gland stromal/endothelial	APOC1	c15_mocci_costate	22	-0.006211180124223602	0.9781147004348607	9	-0.15	0.7000942309691418	False	False
+ibd_uc_epithelial	ibd_uc_myeloid	ulcerative colitis	colon epithelial	CD82	lipid_loader_repair	12	0.7412587412587414	0.005801150474478245	6	0.5428571428571429	0.26570262390670546	True	False
+ibd_crohn_stromal	ibd_crohn_myeloid	Crohn disease	colon stromal	CD82	inflammatory_nfkb	12	0.7272727272727274	0.00735502885780513	6	0.8285714285714287	0.04156268221574335	True	True
+ibd_uc_epithelial	ibd_uc_myeloid	ulcerative colitis	colon epithelial	CD82	c15_mocci_costate	12	0.7272727272727274	0.00735502885780513	6	0.4285714285714286	0.3965014577259473	True	False
+sjogren_gland_stromal	sjogren_gland_apc	Sjogren syndrome	salivary gland stromal/endothelial	CD82	c15_mocci_costate	22	0.5426312817617166	0.009072936084502383	9	0.38333333333333336	0.3084952723803716	True	False
+ibd_uc_epithelial	ibd_uc_myeloid	ulcerative colitis	colon epithelial	CD82	lysosomal_apc	12	0.6993006993006995	0.011374198642690932	6	0.028571428571428574	0.9571545189504373	True	False
+ibd_crohn_stromal	ibd_crohn_myeloid	Crohn disease	colon stromal	CD82	c15_mocci_costate	12	0.6713286713286714	0.016831456186893416	6	0.942857142857143	0.004804664723032055	True	True
+ibd_crohn_epithelial	ibd_crohn_myeloid	Crohn disease	colon epithelial	CD82	lipid_loader_repair	12	0.6643356643356644	0.01845271802844544	6	0.14285714285714288	0.7871720116618076	True	False
+ibd_crohn_epithelial	ibd_crohn_myeloid	Crohn disease	colon epithelial	CD82	lysosomal_apc	12	0.6643356643356644	0.01845271802844544	6	0.2571428571428572	0.6227871720116619	True	False
+psoriasis_skin_stromal	psoriasis_skin_apc	psoriasis	skin stromal	CD82	lysosomal_apc	6	-0.8857142857142858	0.01884548104956266	3			False	False
+ibd_crohn_epithelial	ibd_crohn_myeloid	Crohn disease	colon epithelial	CD82	c15_mocci_costate	12	0.6573426573426573	0.0201854985098541	6	0.2	0.7040000000000001	True	False
+ibd_uc_epithelial	ibd_uc_myeloid	ulcerative colitis	colon epithelial	CD82	inflammatory_nfkb	12	0.6223776223776225	0.03067589506164015	6	0.2571428571428572	0.6227871720116619	True	False
+ibd_crohn_epithelial	ibd_crohn_myeloid	Crohn disease	colon epithelial	CD82	inflammatory_nfkb	12	0.5944055944055945	0.04152149441031857	6	0.2571428571428572	0.6227871720116619	True	False
+sjogren_gland_stromal	sjogren_gland_apc	Sjogren syndrome	salivary gland stromal/endothelial	CD82	lysosomal_apc	22	0.4342179559570865	0.04346507477769573	9	0.25	0.5164895523012261	True	False
+psoriasis_skin_stromal	psoriasis_skin_apc	psoriasis	skin stromal	CD82	lipid_loader_repair	6	-0.7714285714285715	0.07239650145772594	3			False	False
+psoriasis_keratinocyte	psoriasis_skin_apc	psoriasis	skin keratinocyte	CD82	c15_mocci_costate	6	-0.7142857142857143	0.11078717201166179	3			False	False
+sjogren_gland_epithelial	sjogren_gland_apc	Sjogren syndrome	salivary gland epithelial	CD82	lipid_loader_repair	22	0.2749858836815359	0.21550907797170601	9	0.11666666666666665	0.765007942926146	False	False
+psoriasis_skin_stromal	psoriasis_skin_apc	psoriasis	skin stromal	CD82	inflammatory_nfkb	6	-0.5428571428571429	0.26570262390670546	3			False	False
+sjogren_gland_stromal	sjogren_gland_apc	Sjogren syndrome	salivary gland stromal/endothelial	CD82	inflammatory_nfkb	22	0.2241671372106155	0.31590856037155834	9	-0.15	0.7000942309691418	False	False
+ibd_uc_stromal	ibd_uc_myeloid	ulcerative colitis	colon stromal	CD82	inflammatory_nfkb	12	0.30069930069930073	0.34225952894002437	6	0.028571428571428574	0.9571545189504373	False	False
+ibd_uc_stromal	ibd_uc_myeloid	ulcerative colitis	colon stromal	CD82	lysosomal_apc	12	0.2797202797202798	0.37856866966230307	6	-0.08571428571428573	0.8717434402332361	False	False
+ibd_uc_stromal	ibd_uc_myeloid	ulcerative colitis	colon stromal	CD82	c15_mocci_costate	12	0.25874125874125875	0.41677476889913817	6	-0.14285714285714288	0.7871720116618076	False	False
+ibd_crohn_stromal	ibd_crohn_myeloid	Crohn disease	colon stromal	CD82	lysosomal_apc	12	0.2377622377622378	0.45680085263992326	6	-0.3714285714285715	0.4684781341107872	False	False
+ibd_crohn_stromal	ibd_crohn_myeloid	Crohn disease	colon stromal	CD82	lipid_loader_repair	12	0.2027972027972028	0.5273023541661079	6	0.3714285714285715	0.4684781341107872	False	False
+psoriasis_keratinocyte	psoriasis_skin_apc	psoriasis	skin keratinocyte	CD82	inflammatory_nfkb	6	-0.3142857142857143	0.5440932944606415	3			False	False
+psoriasis_skin_stromal	psoriasis_skin_apc	psoriasis	skin stromal	CD82	c15_mocci_costate	6	0.3142857142857143	0.5440932944606415	3			False	False
+sjogren_gland_epithelial	sjogren_gland_apc	Sjogren syndrome	salivary gland epithelial	CD82	lysosomal_apc	22	0.1326933935629588	0.5560825858858703	9	-0.049999999999999996	0.8983528043506303	False	False
+sjogren_gland_stromal	sjogren_gland_apc	Sjogren syndrome	salivary gland stromal/endothelial	CD82	lipid_loader_repair	22	0.1259175607001694	0.5765977724368204	9	0.049999999999999996	0.8983528043506303	False	False
+sjogren_gland_epithelial	sjogren_gland_apc	Sjogren syndrome	salivary gland epithelial	CD82	inflammatory_nfkb	22	0.09090909090909091	0.6874290975505297	9	0.5166666666666667	0.15439012098622507	False	False
+sjogren_gland_epithelial	sjogren_gland_apc	Sjogren syndrome	salivary gland epithelial	CD82	c15_mocci_costate	22	-0.0536420101637493	0.8125892965812408	9	0.18333333333333335	0.6368198117628943	False	False
+psoriasis_keratinocyte	psoriasis_skin_apc	psoriasis	skin keratinocyte	CD82	lipid_loader_repair	6	-0.08571428571428573	0.8717434402332361	3			False	False
+psoriasis_keratinocyte	psoriasis_skin_apc	psoriasis	skin keratinocyte	CD82	lysosomal_apc	6	0.08571428571428573	0.8717434402332361	3			False	False
+ibd_uc_stromal	ibd_uc_myeloid	ulcerative colitis	colon stromal	CD82	lipid_loader_repair	12	0.027972027972027972	0.9312343512018807	6	-0.2571428571428572	0.6227871720116619	False	False
+ibd_uc_epithelial	ibd_uc_myeloid	ulcerative colitis	colon epithelial	FXYD5	inflammatory_nfkb	12	0.6083916083916086	0.035805997052029234	6	0.028571428571428574	0.9571545189504373	True	False
+ibd_crohn_epithelial	ibd_crohn_myeloid	Crohn disease	colon epithelial	FXYD5	inflammatory_nfkb	12	0.5944055944055945	0.04152149441031857	6	0.5428571428571429	0.26570262390670546	True	False
+sjogren_gland_stromal	sjogren_gland_apc	Sjogren syndrome	salivary gland stromal/endothelial	FXYD5	lysosomal_apc	22	0.32919254658385094	0.13465848838788197	9	-0.6	0.08762282904140249	False	False
+ibd_crohn_epithelial	ibd_crohn_myeloid	Crohn disease	colon epithelial	FXYD5	c15_mocci_costate	12	0.44055944055944063	0.1517350357167303	6	0.7714285714285715	0.07239650145772594	False	True
+psoriasis_keratinocyte	psoriasis_skin_apc	psoriasis	skin keratinocyte	FXYD5	inflammatory_nfkb	6	-0.6571428571428573	0.1561749271137024	3			False	False
+ibd_uc_epithelial	ibd_uc_myeloid	ulcerative colitis	colon epithelial	FXYD5	c15_mocci_costate	12	0.41958041958041964	0.1745190081300594	6	-0.08571428571428573	0.8717434402332361	False	False
+sjogren_gland_stromal	sjogren_gland_apc	Sjogren syndrome	salivary gland stromal/endothelial	FXYD5	lipid_loader_repair	22	0.2783738001129306	0.20967898109480365	9	-0.8333333333333333	0.005265691029161747	False	False
+ibd_uc_stromal	ibd_uc_myeloid	ulcerative colitis	colon stromal	FXYD5	c15_mocci_costate	12	0.37762237762237766	0.22620604493502647	6	0.028571428571428574	0.9571545189504373	False	False
+ibd_uc_stromal	ibd_uc_myeloid	ulcerative colitis	colon stromal	FXYD5	lysosomal_apc	12	0.3636363636363637	0.24526500073077723	6	-0.028571428571428574	0.9571545189504373	False	False
+ibd_uc_stromal	ibd_uc_myeloid	ulcerative colitis	colon stromal	FXYD5	lipid_loader_repair	12	0.35664335664335667	0.2551377517589572	6	0.2	0.7040000000000001	False	False
+ibd_uc_epithelial	ibd_uc_myeloid	ulcerative colitis	colon epithelial	FXYD5	lysosomal_apc	12	0.3356643356643357	0.28612290291498743	6	0.028571428571428574	0.9571545189504373	False	False
+ibd_crohn_stromal	ibd_crohn_myeloid	Crohn disease	colon stromal	FXYD5	lysosomal_apc	12	-0.32867132867132864	0.2969041156887641	6	-0.8857142857142858	0.01884548104956266	False	False
+psoriasis_skin_stromal	psoriasis_skin_apc	psoriasis	skin stromal	FXYD5	lysosomal_apc	6	0.48571428571428577	0.3287230320699708	3			False	False
+sjogren_gland_stromal	sjogren_gland_apc	Sjogren syndrome	salivary gland stromal/endothelial	FXYD5	inflammatory_nfkb	22	0.20609824957651046	0.35747230059756063	9	0.26666666666666666	0.48792227483870076	False	False
+sjogren_gland_epithelial	sjogren_gland_apc	Sjogren syndrome	salivary gland epithelial	FXYD5	lysosomal_apc	22	-0.19480519480519481	0.38498481592368033	9	-0.15	0.7000942309691418	False	False
+ibd_crohn_stromal	ibd_crohn_myeloid	Crohn disease	colon stromal	FXYD5	lipid_loader_repair	12	0.27272727272727276	0.39109677094189615	6	0.8285714285714287	0.04156268221574335	False	True
+psoriasis_keratinocyte	psoriasis_skin_apc	psoriasis	skin keratinocyte	FXYD5	c15_mocci_costate	6	-0.4285714285714286	0.3965014577259473	3			False	False
+ibd_uc_epithelial	ibd_uc_myeloid	ulcerative colitis	colon epithelial	FXYD5	lipid_loader_repair	12	0.2027972027972028	0.5273023541661079	6	0.028571428571428574	0.9571545189504373	False	False
+ibd_uc_stromal	ibd_uc_myeloid	ulcerative colitis	colon stromal	FXYD5	inflammatory_nfkb	12	0.2027972027972028	0.5273023541661079	6	-0.08571428571428573	0.8717434402332361	False	False
+psoriasis_skin_stromal	psoriasis_skin_apc	psoriasis	skin stromal	FXYD5	lipid_loader_repair	6	0.3142857142857143	0.5440932944606415	3			False	False
+psoriasis_skin_stromal	psoriasis_skin_apc	psoriasis	skin stromal	FXYD5	inflammatory_nfkb	6	-0.3142857142857143	0.5440932944606415	3			False	False
+sjogren_gland_epithelial	sjogren_gland_apc	Sjogren syndrome	salivary gland epithelial	FXYD5	c15_mocci_costate	22	-0.1326933935629588	0.5560825858858703	9	-0.2333333333333333	0.5456987782182728	False	False
+ibd_crohn_stromal	ibd_crohn_myeloid	Crohn disease	colon stromal	FXYD5	inflammatory_nfkb	12	-0.17482517482517487	0.5868236643627043	6	0.3714285714285715	0.4684781341107872	False	False
+psoriasis_keratinocyte	psoriasis_skin_apc	psoriasis	skin keratinocyte	FXYD5	lipid_loader_repair	6	-0.2571428571428572	0.6227871720116619	3			False	False
+psoriasis_keratinocyte	psoriasis_skin_apc	psoriasis	skin keratinocyte	FXYD5	lysosomal_apc	6	0.2571428571428572	0.6227871720116619	3			False	False
+psoriasis_skin_stromal	psoriasis_skin_apc	psoriasis	skin stromal	FXYD5	c15_mocci_costate	6	-0.2571428571428572	0.6227871720116619	3			False	False
+ibd_crohn_epithelial	ibd_crohn_myeloid	Crohn disease	colon epithelial	FXYD5	lysosomal_apc	12	-0.14685314685314685	0.6487957097846665	6	-0.48571428571428577	0.3287230320699708	False	False
+sjogren_gland_stromal	sjogren_gland_apc	Sjogren syndrome	salivary gland stromal/endothelial	FXYD5	c15_mocci_costate	22	0.09542631281761718	0.6727121332011151	9	-0.16666666666666669	0.668231040071504	False	False
+ibd_crohn_epithelial	ibd_crohn_myeloid	Crohn disease	colon epithelial	FXYD5	lipid_loader_repair	12	-0.1258741258741259	0.696683109395766	6	0.14285714285714288	0.7871720116618076	False	False
+sjogren_gland_epithelial	sjogren_gland_apc	Sjogren syndrome	salivary gland epithelial	FXYD5	lipid_loader_repair	22	-0.06154714850367025	0.7855539651272332	9	0.21666666666666667	0.5755148957119259	False	False
+ibd_crohn_stromal	ibd_crohn_myeloid	Crohn disease	colon stromal	FXYD5	c15_mocci_costate	12	0.034965034965034975	0.9140933424107599	6	0.3142857142857143	0.5440932944606415	False	False
+sjogren_gland_epithelial	sjogren_gland_apc	Sjogren syndrome	salivary gland epithelial	FXYD5	inflammatory_nfkb	22	-0.02428006775832863	0.9145895800131819	9	0.18333333333333335	0.6368198117628943	False	False
+ibd_uc_stromal	ibd_uc_myeloid	ulcerative colitis	colon stromal	LAPTM5	inflammatory_nfkb	12	0.7482517482517484	0.005124081698753055	6	0.5428571428571429	0.26570262390670546	True	False
+ibd_uc_stromal	ibd_uc_myeloid	ulcerative colitis	colon stromal	LAPTM5	c15_mocci_costate	12	0.7062937062937064	0.010245193941127849	6	0.2571428571428572	0.6227871720116619	True	False
+ibd_uc_stromal	ibd_uc_myeloid	ulcerative colitis	colon stromal	LAPTM5	lysosomal_apc	12	0.6783216783216784	0.015317329053281715	6	0.8285714285714287	0.04156268221574335	True	True
+sjogren_gland_stromal	sjogren_gland_apc	Sjogren syndrome	salivary gland stromal/endothelial	LAPTM5	inflammatory_nfkb	22	0.3890457368718239	0.07352866053644128	9	0.41666666666666663	0.26458604674749636	False	False
+psoriasis_keratinocyte	psoriasis_skin_apc	psoriasis	skin keratinocyte	LAPTM5	inflammatory_nfkb	6	0.6571428571428573	0.1561749271137024	3			False	False
+ibd_crohn_stromal	ibd_crohn_myeloid	Crohn disease	colon stromal	LAPTM5	inflammatory_nfkb	12	0.4238185133446995	0.16975340732567454	6	0.48571428571428577	0.3287230320699708	False	False
+ibd_crohn_stromal	ibd_crohn_myeloid	Crohn disease	colon stromal	LAPTM5	c15_mocci_costate	12	0.4063053516362408	0.18998452241526734	6	0.3142857142857143	0.5440932944606415	False	False
+psoriasis_keratinocyte	psoriasis_skin_apc	psoriasis	skin keratinocyte	LAPTM5	lysosomal_apc	6	0.6	0.208	3			False	False
+psoriasis_skin_stromal	psoriasis_skin_apc	psoriasis	skin stromal	LAPTM5	lipid_loader_repair	6	0.6	0.208	3			False	False
+sjogren_gland_stromal	sjogren_gland_apc	Sjogren syndrome	salivary gland stromal/endothelial	LAPTM5	c15_mocci_costate	22	0.2603049124788256	0.24201079068326728	9	0.43333333333333335	0.24395243588005172	False	False
+sjogren_gland_stromal	sjogren_gland_apc	Sjogren syndrome	salivary gland stromal/endothelial	LAPTM5	lipid_loader_repair	22	-0.24110671936758896	0.2797303069403845	9	-0.6	0.08762282904140249	False	False
+psoriasis_skin_stromal	psoriasis_skin_apc	psoriasis	skin stromal	LAPTM5	lysosomal_apc	6	0.48571428571428577	0.3287230320699708	3			False	False
+psoriasis_skin_stromal	psoriasis_skin_apc	psoriasis	skin stromal	LAPTM5	c15_mocci_costate	6	0.48571428571428577	0.3287230320699708	3			False	False
+ibd_uc_stromal	ibd_uc_myeloid	ulcerative colitis	colon stromal	LAPTM5	lipid_loader_repair	12	0.2867132867132868	0.36625146058358227	6	0.028571428571428574	0.9571545189504373	False	False
+ibd_crohn_stromal	ibd_crohn_myeloid	Crohn disease	colon stromal	LAPTM5	lipid_loader_repair	12	0.2556921609434964	0.4224811423333079	6	1.0	0.0	False	True
+ibd_uc_epithelial	ibd_uc_myeloid	ulcerative colitis	colon epithelial	LAPTM5	lysosomal_apc	12	0.2517482517482518	0.4299187850328841	6	0.4285714285714286	0.3965014577259473	False	False
+ibd_uc_epithelial	ibd_uc_myeloid	ulcerative colitis	colon epithelial	LAPTM5	c15_mocci_costate	12	0.2447552447552448	0.44326193645018325	6	0.3714285714285715	0.4684781341107872	False	False
+ibd_crohn_epithelial	ibd_crohn_myeloid	Crohn disease	colon epithelial	LAPTM5	c15_mocci_costate	12	0.23076923076923078	0.470531995381542	6	0.14285714285714288	0.7871720116618076	False	False
+sjogren_gland_epithelial	sjogren_gland_apc	Sjogren syndrome	salivary gland epithelial	LAPTM5	c15_mocci_costate	22	0.16210110784783152	0.471076679608116	9	-0.31666666666666665	0.406397014486386	False	False
+ibd_uc_epithelial	ibd_uc_myeloid	ulcerative colitis	colon epithelial	LAPTM5	inflammatory_nfkb	12	0.17482517482517487	0.5868236643627043	6	0.3142857142857143	0.5440932944606415	False	False
+ibd_crohn_epithelial	ibd_crohn_myeloid	Crohn disease	colon epithelial	LAPTM5	lipid_loader_repair	12	-0.16083916083916086	0.6175234895401425	6	0.5428571428571429	0.26570262390670546	False	False
+psoriasis_keratinocyte	psoriasis_skin_apc	psoriasis	skin keratinocyte	LAPTM5	c15_mocci_costate	6	0.2571428571428572	0.6227871720116619	3			False	False
+sjogren_gland_epithelial	sjogren_gland_apc	Sjogren syndrome	salivary gland epithelial	LAPTM5	inflammatory_nfkb	22	0.09093476781707621	0.6873451273792271	9	0.25	0.5164895523012261	False	False
+ibd_crohn_epithelial	ibd_crohn_myeloid	Crohn disease	colon epithelial	LAPTM5	inflammatory_nfkb	12	0.0979020979020979	0.7621216559962992	6	0.2571428571428572	0.6227871720116619	False	False
+sjogren_gland_epithelial	sjogren_gland_apc	Sjogren syndrome	salivary gland epithelial	LAPTM5	lysosomal_apc	22	-0.06551821780609218	0.7720605318202763	9	-0.43333333333333335	0.24395243588005172	False	False
+ibd_crohn_stromal	ibd_crohn_myeloid	Crohn disease	colon stromal	LAPTM5	lysosomal_apc	12	-0.09106844088398502	0.7783460719179525	6	-0.6	0.208	False	False
+psoriasis_keratinocyte	psoriasis_skin_apc	psoriasis	skin keratinocyte	LAPTM5	lipid_loader_repair	6	0.14285714285714288	0.7871720116618076	3			False	False
+sjogren_gland_epithelial	sjogren_gland_apc	Sjogren syndrome	salivary gland epithelial	LAPTM5	lipid_loader_repair	22	-0.05535159780169855	0.8067239522361431	9	-0.5166666666666667	0.15439012098622507	False	False
+psoriasis_skin_stromal	psoriasis_skin_apc	psoriasis	skin stromal	LAPTM5	inflammatory_nfkb	6	0.08571428571428573	0.8717434402332361	3			False	False
+ibd_uc_epithelial	ibd_uc_myeloid	ulcerative colitis	colon epithelial	LAPTM5	lipid_loader_repair	12	0.02097902097902098	0.9484022252365222	6	0.2571428571428572	0.6227871720116619	False	False
+ibd_crohn_epithelial	ibd_crohn_myeloid	Crohn disease	colon epithelial	LAPTM5	lysosomal_apc	12	-0.006993006993006993	0.9827917689028476	6	-0.08571428571428573	0.8717434402332361	False	False
+sjogren_gland_stromal	sjogren_gland_apc	Sjogren syndrome	salivary gland stromal/endothelial	LAPTM5	lysosomal_apc	22	0.0028232636928289105	0.9900512231067919	9	-0.2333333333333333	0.5456987782182728	False	False
+ibd_uc_stromal	ibd_uc_myeloid	ulcerative colitis	colon stromal	SEL1L3	inflammatory_nfkb	12	0.6853146853146854	0.013905968814362754	6	0.7142857142857143	0.11078717201166179	True	False
+psoriasis_skin_stromal	psoriasis_skin_apc	psoriasis	skin stromal	SEL1L3	c15_mocci_costate	6	0.8857142857142858	0.01884548104956266	3			True	False
+ibd_uc_stromal	ibd_uc_myeloid	ulcerative colitis	colon stromal	SEL1L3	c15_mocci_costate	12	0.6363636363636365	0.026096891052703144	6	0.6	0.208	True	False
+sjogren_gland_stromal	sjogren_gland_apc	Sjogren syndrome	salivary gland stromal/endothelial	SEL1L3	c15_mocci_costate	22	0.4647092038396387	0.029329953019594103	9	0.4666666666666666	0.2053863511058121	True	False
+ibd_crohn_stromal	ibd_crohn_myeloid	Crohn disease	colon stromal	SEL1L3	c15_mocci_costate	12	0.6153846153846154	0.033169901090105904	6	0.6	0.208	True	False
+ibd_crohn_stromal	ibd_crohn_myeloid	Crohn disease	colon stromal	SEL1L3	inflammatory_nfkb	12	0.5944055944055945	0.04152149441031857	6	0.48571428571428577	0.3287230320699708	True	False
+ibd_crohn_epithelial	ibd_crohn_myeloid	Crohn disease	colon epithelial	SEL1L3	c15_mocci_costate	12	0.5594405594405596	0.05858947538856764	6	0.2571428571428572	0.6227871720116619	True	False
+sjogren_gland_stromal	sjogren_gland_apc	Sjogren syndrome	salivary gland stromal/endothelial	SEL1L3	inflammatory_nfkb	22	0.4014680971202711	0.06403627274942915	9	0.38333333333333336	0.3084952723803716	True	False
+psoriasis_keratinocyte	psoriasis_skin_apc	psoriasis	skin keratinocyte	SEL1L3	inflammatory_nfkb	6	-0.7714285714285715	0.07239650145772594	3			False	False
+ibd_uc_stromal	ibd_uc_myeloid	ulcerative colitis	colon stromal	SEL1L3	lysosomal_apc	12	0.5034965034965035	0.09515736659412467	6	0.2	0.7040000000000001	True	False
+ibd_crohn_epithelial	ibd_crohn_myeloid	Crohn disease	colon epithelial	SEL1L3	inflammatory_nfkb	12	0.4265734265734266	0.16669998762494498	6	0.14285714285714288	0.7871720116618076	False	False
+sjogren_gland_stromal	sjogren_gland_apc	Sjogren syndrome	salivary gland stromal/endothelial	SEL1L3	lysosomal_apc	22	0.29983060417843027	0.1752027779384774	9	-0.03333333333333333	0.9321567355405039	False	False
+psoriasis_keratinocyte	psoriasis_skin_apc	psoriasis	skin keratinocyte	SEL1L3	lipid_loader_repair	6	-0.6	0.208	3			False	False
+psoriasis_skin_stromal	psoriasis_skin_apc	psoriasis	skin stromal	SEL1L3	inflammatory_nfkb	6	0.6	0.208	3			False	False
+ibd_crohn_epithelial	ibd_crohn_myeloid	Crohn disease	colon epithelial	SEL1L3	lipid_loader_repair	12	0.34965034965034975	0.26523878689278996	6	0.3714285714285715	0.4684781341107872	False	False
+sjogren_gland_epithelial	sjogren_gland_apc	Sjogren syndrome	salivary gland epithelial	SEL1L3	lipid_loader_repair	22	0.2173913043478261	0.33113741948834224	9	0.06666666666666667	0.8646897846262036	False	False
+ibd_uc_stromal	ibd_uc_myeloid	ulcerative colitis	colon stromal	SEL1L3	lipid_loader_repair	12	0.2517482517482518	0.4299187850328841	6	0.5428571428571429	0.26570262390670546	False	False
+sjogren_gland_epithelial	sjogren_gland_apc	Sjogren syndrome	salivary gland epithelial	SEL1L3	inflammatory_nfkb	22	0.13833992094861663	0.5392421274426352	9	0.5	0.1704706607870538	False	False
+ibd_crohn_stromal	ibd_crohn_myeloid	Crohn disease	colon stromal	SEL1L3	lysosomal_apc	12	0.16783216783216784	0.6020994277865379	6	-0.3142857142857143	0.5440932944606415	False	False
+ibd_uc_epithelial	ibd_uc_myeloid	ulcerative colitis	colon epithelial	SEL1L3	inflammatory_nfkb	12	0.16783216783216784	0.6020994277865379	6	-0.4285714285714286	0.3965014577259473	False	False
+ibd_uc_epithelial	ibd_uc_myeloid	ulcerative colitis	colon epithelial	SEL1L3	lysosomal_apc	12	0.15384615384615385	0.6330906812462617	6	-0.14285714285714288	0.7871720116618076	False	False
+ibd_uc_epithelial	ibd_uc_myeloid	ulcerative colitis	colon epithelial	SEL1L3	c15_mocci_costate	12	0.10489510489510491	0.7456094809807079	6	-0.6571428571428573	0.1561749271137024	False	False
+psoriasis_keratinocyte	psoriasis_skin_apc	psoriasis	skin keratinocyte	SEL1L3	c15_mocci_costate	6	-0.14285714285714288	0.7871720116618076	3			False	False
+ibd_crohn_epithelial	ibd_crohn_myeloid	Crohn disease	colon epithelial	SEL1L3	lysosomal_apc	12	0.08391608391608392	0.7954145018538978	6	-0.6	0.208	False	False
+sjogren_gland_epithelial	sjogren_gland_apc	Sjogren syndrome	salivary gland epithelial	SEL1L3	lysosomal_apc	22	0.03670242800677584	0.8711837997313935	9	-0.26666666666666666	0.48792227483870076	False	False
+psoriasis_keratinocyte	psoriasis_skin_apc	psoriasis	skin keratinocyte	SEL1L3	lysosomal_apc	6	-0.08571428571428573	0.8717434402332361	3			False	False
+psoriasis_skin_stromal	psoriasis_skin_apc	psoriasis	skin stromal	SEL1L3	lipid_loader_repair	6	-0.08571428571428573	0.8717434402332361	3			False	False
+psoriasis_skin_stromal	psoriasis_skin_apc	psoriasis	skin stromal	SEL1L3	lysosomal_apc	6	-0.08571428571428573	0.8717434402332361	3			False	False
+sjogren_gland_epithelial	sjogren_gland_apc	Sjogren syndrome	salivary gland epithelial	SEL1L3	c15_mocci_costate	22	-0.028797289666854884	0.8987720143803856	9	-0.016666666666666666	0.9660548039946862	False	False
+sjogren_gland_stromal	sjogren_gland_apc	Sjogren syndrome	salivary gland stromal/endothelial	SEL1L3	lipid_loader_repair	22	-0.026538678712591763	0.9066765277008432	9	-0.3666666666666667	0.3317398014330152	False	False
+ibd_crohn_stromal	ibd_crohn_myeloid	Crohn disease	colon stromal	SEL1L3	lipid_loader_repair	12	-0.034965034965034975	0.9140933424107599	6	0.4285714285714286	0.3965014577259473	False	False
+ibd_uc_epithelial	ibd_uc_myeloid	ulcerative colitis	colon epithelial	SEL1L3	lipid_loader_repair	12	0.0	1.0	6	-0.6	0.208	False	False

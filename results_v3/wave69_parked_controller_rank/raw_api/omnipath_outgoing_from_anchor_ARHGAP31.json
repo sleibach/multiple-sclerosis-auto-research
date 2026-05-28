@@ -1,0 +1,57 @@
+[
+  {
+    "consensus_direction": true,
+    "consensus_inhibition": true,
+    "consensus_stimulation": false,
+    "curation_effort": 4,
+    "is_directed": true,
+    "is_inhibition": true,
+    "is_stimulation": false,
+    "references": "SPIKE_LC:20936779;HINT:32203420;SIGNOR:32203420;SPIKE:20936779",
+    "source": "Q2M1Z3",
+    "source_genesymbol": "ARHGAP31",
+    "sources": [
+      "HINT",
+      "SIGNOR",
+      "SPIKE",
+      "SPIKE_LC"
+    ],
+    "target": "P63000",
+    "target_genesymbol": "RAC1"
+  },
+  {
+    "consensus_direction": true,
+    "consensus_inhibition": true,
+    "consensus_stimulation": false,
+    "curation_effort": 1,
+    "is_directed": true,
+    "is_inhibition": true,
+    "is_stimulation": false,
+    "references": "SIGNOR:32203420",
+    "source": "Q2M1Z3",
+    "source_genesymbol": "ARHGAP31",
+    "sources": [
+      "SIGNOR"
+    ],
+    "target": "P61586",
+    "target_genesymbol": "RHOA"
+  },
+  {
+    "consensus_direction": true,
+    "consensus_inhibition": true,
+    "consensus_stimulation": false,
+    "curation_effort": 3,
+    "is_directed": true,
+    "is_inhibition": true,
+    "is_stimulation": false,
+    "references": "HINT:32203420;HINT:9786927;SIGNOR:32203420",
+    "source": "Q2M1Z3",
+    "source_genesymbol": "ARHGAP31",
+    "sources": [
+      "HINT",
+      "SIGNOR"
+    ],
+    "target": "P60953",
+    "target_genesymbol": "CDC42"
+  }
+]

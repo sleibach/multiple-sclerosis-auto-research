@@ -1,0 +1,38 @@
+{
+  "calls": {
+    "NO_GO": 12,
+    "PARK": 2
+  },
+  "candidate_count": 14,
+  "date": "2026-05-27",
+  "go": [],
+  "interpretation": "No candidate is promoted. GPR65 and IL10 are PARK because a current modality class can in principle increase pathway activity, but both remain blocked by prior art/local evidence gaps. All other candidates are NO_GO for restoration because the correct direction is not restoration or no current target-selective restoration modality can reach the relevant immune/tissue compartments.",
+  "local_inputs": [
+    "tmp_v3/wave13_opentargets_gwas_credible_sets.tsv",
+    "results_v3/wave20_genetic_druggable_altaxis",
+    "results_v3/wave14_target_level_genetics/target_level_genetics_truth_table.tsv",
+    "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv",
+    "results_v3/wave15_perturbation_drug_response/candidate_level_synthesis.tsv",
+    "results_v3/druggability/chembl_target_activity_summary.tsv",
+    "results_v3/druggability/uniprot_target_summary.tsv"
+  ],
+  "no_go": [
+    "PTPN2",
+    "SH2B3",
+    "CLEC16A",
+    "ATG16L1",
+    "TNFAIP3",
+    "OSMR",
+    "TASL",
+    "CARD9",
+    "SLC15A4",
+    "TYK2",
+    "IRF5",
+    "IL6R"
+  ],
+  "parked": [
+    "GPR65",
+    "IL10"
+  ],
+  "scope": "genetics-first restoration modality scout; not a final therapeutic finding"
+}

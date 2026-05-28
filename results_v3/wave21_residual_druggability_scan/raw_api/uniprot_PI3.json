@@ -1,0 +1,107 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3API3%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "29483648",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Neutrophil and pancreatic elastase-specific inhibitor of skin. It may prevent elastase-mediated tissue proteolysis. Has been shown to inhibit the alpha-4-beta-2/CHRNA2-CHRNB2 nicotinic acetylcholine receptor and to produce a weak inhibition on Kv11.1/KCNH2/ERG1 and on the transient receptor potential cation channel subfamily V member 1 (TRPV1) (PubMed:29483648)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000000CAE"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "PI3"
+          },
+          "synonyms": [
+            {
+              "value": "WAP3"
+            },
+            {
+              "value": "WFDC14"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P19957",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Elastase-specific inhibitor"
+            },
+            "shortNames": [
+              {
+                "value": "ESI"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Peptidase inhibitor 3"
+            },
+            "shortNames": [
+              {
+                "value": "PI-3"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Protease inhibitor WAP3"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Skin-derived antileukoproteinase"
+            },
+            "shortNames": [
+              {
+                "value": "SKALP"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "WAP four-disulfide core domain protein 14"
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "Elafin"
+          }
+        }
+      }
+    }
+  ]
+}

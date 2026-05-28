@@ -1,0 +1,610 @@
+{
+  "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxtYvOn3PAbkA",
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D007592",
+              "term": "Joint Diseases"
+            },
+            {
+              "id": "D009140",
+              "term": "Musculoskeletal Diseases"
+            },
+            {
+              "id": "D012216",
+              "term": "Rheumatic Diseases"
+            },
+            {
+              "id": "D003240",
+              "term": "Connective Tissue Diseases"
+            },
+            {
+              "id": "D017437",
+              "term": "Skin and Connective Tissue Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D001172",
+              "term": "Arthritis, Rheumatoid"
+            },
+            {
+              "id": "D001168",
+              "term": "Arthritis"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "interventionNames": [
+                "Drug: RWJ-445380 100 mg"
+              ],
+              "label": "RWJ-445380 100 mg",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "interventionNames": [
+                "Drug: RWJ-445380 200 mg"
+              ],
+              "label": "RWJ-445380 200 mg",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "interventionNames": [
+                "Drug: RWJ-445380 300 mg"
+              ],
+              "label": "RWJ-445380 300 mg",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "interventionNames": [
+                "Drug: Placebo"
+              ],
+              "label": "Placebo",
+              "type": "PLACEBO_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "RWJ-445380 100 mg"
+              ],
+              "description": "RWJ-445380 100 mg once daily for up to 12 weeks",
+              "name": "RWJ-445380 100 mg",
+              "type": "DRUG"
+            },
+            {
+              "armGroupLabels": [
+                "RWJ-445380 200 mg"
+              ],
+              "description": "RWJ-445380 200 mg once daily for up to 12 weeks",
+              "name": "RWJ-445380 200 mg",
+              "type": "DRUG"
+            },
+            {
+              "armGroupLabels": [
+                "RWJ-445380 300 mg"
+              ],
+              "description": "RWJ-445380 300 mg once daily for up to 12 weeks",
+              "name": "RWJ-445380 300 mg",
+              "type": "DRUG"
+            },
+            {
+              "armGroupLabels": [
+                "Placebo"
+              ],
+              "description": "Placebo once daily for up to 12 weeks",
+              "name": "Placebo",
+              "type": "DRUG"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Rheumatoid Arthritis"
+          ],
+          "keywords": [
+            "Arthritis",
+            "Joints",
+            "Auto immune"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Birmingham",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 33.52066,
+                "lon": -86.80249
+              },
+              "state": "Alabama"
+            },
+            {
+              "city": "Huntsville",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 34.7304,
+                "lon": -86.58594
+              },
+              "state": "Alabama"
+            },
+            {
+              "city": "Tucson",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 32.22174,
+                "lon": -110.92648
+              },
+              "state": "Arizona"
+            },
+            {
+              "city": "Fair Oaks",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 38.64463,
+                "lon": -121.27217
+              },
+              "state": "California"
+            },
+            {
+              "city": "Whittier",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 33.97918,
+                "lon": -118.03284
+              },
+              "state": "California"
+            },
+            {
+              "city": "Waterbury",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 41.55815,
+                "lon": -73.0515
+              },
+              "state": "Connecticut"
+            },
+            {
+              "city": "Sarasota",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 27.33643,
+                "lon": -82.53065
+              },
+              "state": "Florida"
+            },
+            {
+              "city": "Morton Grove",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 42.04059,
+                "lon": -87.78256
+              },
+              "state": "Illinois"
+            },
+            {
+              "city": "Springfield",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 39.80172,
+                "lon": -89.64371
+              },
+              "state": "Illinois"
+            },
+            {
+              "city": "Frederick",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 39.41427,
+                "lon": -77.41054
+              },
+              "state": "Maryland"
+            },
+            {
+              "city": "Duncansville",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 40.42341,
+                "lon": -78.4339
+              },
+              "state": "Pennsylvania"
+            },
+            {
+              "city": "Nashville",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 36.16589,
+                "lon": -86.78444
+              },
+              "state": "Tennessee"
+            },
+            {
+              "city": "Austin",
+              "country": "United States",
+              "geoPoint": {
+                "lat": 30.26715,
+                "lon": -97.74306
+              },
+              "state": "Texas"
+            },
+            {
+              "city": "Buenos Aires",
+              "country": "Argentina",
+              "geoPoint": {
+                "lat": -34.61315,
+                "lon": -58.37723
+              }
+            },
+            {
+              "city": "Federal",
+              "country": "Argentina",
+              "geoPoint": {
+                "lat": -30.95619,
+                "lon": -58.7797
+              }
+            },
+            {
+              "city": "Luj\u00e1n",
+              "country": "Argentina",
+              "geoPoint": {
+                "lat": -34.5664,
+                "lon": -59.11478
+              }
+            },
+            {
+              "city": "Curitiba",
+              "country": "Brazil",
+              "geoPoint": {
+                "lat": -25.42778,
+                "lon": -49.27306
+              }
+            },
+            {
+              "city": "Porto Alegre",
+              "country": "Brazil",
+              "geoPoint": {
+                "lat": -30.03283,
+                "lon": -51.23019
+              }
+            },
+            {
+              "city": "S\u00e3o Paulo",
+              "country": "Brazil",
+              "geoPoint": {
+                "lat": -23.5475,
+                "lon": -46.63611
+              }
+            },
+            {
+              "city": "Brno",
+              "country": "Czechia",
+              "geoPoint": {
+                "lat": 49.19522,
+                "lon": 16.60796
+              }
+            },
+            {
+              "city": "Plze\u00f2 1",
+              "country": "Czechia"
+            },
+            {
+              "city": "Prague",
+              "country": "Czechia",
+              "geoPoint": {
+                "lat": 50.08804,
+                "lon": 14.42076
+              }
+            },
+            {
+              "city": "Uhersk\u00e9 Hradi\u0161t\u011b",
+              "country": "Czechia",
+              "geoPoint": {
+                "lat": 49.06975,
+                "lon": 17.45969
+              }
+            },
+            {
+              "city": "Zl\u00edn",
+              "country": "Czechia",
+              "geoPoint": {
+                "lat": 49.22645,
+                "lon": 17.67065
+              }
+            },
+            {
+              "city": "Bad Abbach",
+              "country": "Germany",
+              "geoPoint": {
+                "lat": 48.93754,
+                "lon": 12.04494
+              }
+            },
+            {
+              "city": "Bad Nauheim",
+              "country": "Germany",
+              "geoPoint": {
+                "lat": 50.36463,
+                "lon": 8.73859
+              }
+            },
+            {
+              "city": "Dresden",
+              "country": "Germany",
+              "geoPoint": {
+                "lat": 51.05089,
+                "lon": 13.73832
+              }
+            },
+            {
+              "city": "Essen",
+              "country": "Germany",
+              "geoPoint": {
+                "lat": 51.45657,
+                "lon": 7.01228
+              }
+            },
+            {
+              "city": "Frankfurt",
+              "country": "Germany",
+              "geoPoint": {
+                "lat": 49.68333,
+                "lon": 10.53333
+              }
+            },
+            {
+              "city": "Herne",
+              "country": "Germany",
+              "geoPoint": {
+                "lat": 51.5388,
+                "lon": 7.22572
+              }
+            },
+            {
+              "city": "Leipzig",
+              "country": "Germany",
+              "geoPoint": {
+                "lat": 51.33962,
+                "lon": 12.37129
+              }
+            },
+            {
+              "city": "Guadalajara",
+              "country": "Mexico",
+              "geoPoint": {
+                "lat": 20.67738,
+                "lon": -103.34749
+              }
+            },
+            {
+              "city": "Mexico City",
+              "country": "Mexico",
+              "geoPoint": {
+                "lat": 19.42847,
+                "lon": -99.12766
+              }
+            },
+            {
+              "city": "M\u00e9xico",
+              "country": "Mexico",
+              "geoPoint": {
+                "lat": 22.75904,
+                "lon": -98.98718
+              }
+            },
+            {
+              "city": "San Luis Potos\u00ed City",
+              "country": "Mexico",
+              "geoPoint": {
+                "lat": 22.15234,
+                "lon": -100.97135
+              }
+            },
+            {
+              "city": "Bialystok",
+              "country": "Poland",
+              "geoPoint": {
+                "lat": 53.13333,
+                "lon": 23.16433
+              }
+            },
+            {
+              "city": "Bydgoszcz",
+              "country": "Poland",
+              "geoPoint": {
+                "lat": 53.1235,
+                "lon": 18.00762
+              }
+            },
+            {
+              "city": "Krakow",
+              "country": "Poland",
+              "geoPoint": {
+                "lat": 50.06143,
+                "lon": 19.93658
+              }
+            },
+            {
+              "city": "Lublin",
+              "country": "Poland",
+              "geoPoint": {
+                "lat": 51.25058,
+                "lon": 22.57009
+              }
+            },
+            {
+              "city": "Poznan",
+              "country": "Poland",
+              "geoPoint": {
+                "lat": 52.40692,
+                "lon": 16.92993
+              }
+            },
+            {
+              "city": "Szczecin",
+              "country": "Poland",
+              "geoPoint": {
+                "lat": 53.42894,
+                "lon": 14.55302
+              }
+            },
+            {
+              "city": "Warsaw",
+              "country": "Poland",
+              "geoPoint": {
+                "lat": 52.22977,
+                "lon": 21.01178
+              }
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Johnson & Johnson Pharmaceutical Research & Development, L.L.C.",
+              "name": "Johnson & Johnson Pharmaceutical Research & Development, L.L. C. Clinical Trial",
+              "role": "STUDY_DIRECTOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The primary objective of the study is to evaluate the safety and tolerability of 100, 200, and 300 mg/day doses of RWJ-445380 for up to 12 weeks in patients with active Rheumatoid Arthritis despite methotrexate therapy.",
+          "detailedDescription": "Trials with a new, first -in-class drug will be done to ascertain safety, tolerability, and to explore efficacy in the treatment of rheumatoid arthritis, including its effects on biomarkers. Approximately 240 adult patients with rheumatoid arthritis despite the use of methotrexate therapy will be recruited for the study. They will be randomly assigned to one of 4 treatment arms; each patient has an equal chance of receiving the placebo, or 100 mg, 200 mg, 300 mg dose of RWJ-445380. Patients will take the medication daily for up to 12 weeks. Patients will receive study medication in a blinded fashion, i.e. the patient, the doctor and the study sponsor will not know what group the patient is in until all patients complete the study. The investigator and the sponsor will monitor the study for the occurrence of possible side effects. In addition to a screening visit, patients will have visits every week for the first 2 weeks then every 2 weeks until 12 weeks of treatment. After 12 weeks, there will be a followup visit 4 weeks after the last dose of study drug is taken. Medical history, physical examination, blood pressure, heart rate, temperature, and ECGs are checked periodically. Joints will be assessed to explore whether the drug might affect tender and swollen joints. Blood samples will be taken for standard safety laboratory tests as well as special tests of the drug blood level, biomarkers to see whether the drug might be affecting the biological pathway of antigen presentation, and other markers for rheumatoid arthritis. Samples will also be taken to see whether certain types of immune cells are affected by taking the drug. Immunization with tetanus vaccine will be done to see if taking the drug might affect immune responses to this agent Patients will receive RWJ-445380, 100, 200, 300 mg, or placebo. Patients will receive oral capsules daily for up to 12 weeks."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "TRIPLE",
+              "whoMasked": [
+                "PARTICIPANT",
+                "INVESTIGATOR",
+                "OUTCOMES_ASSESSOR"
+              ]
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 259,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE2"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients diagnosed with rheumatoid arthritis for at least 6 months with at least 8 tender and 8 swollen joints\n* methotrexate treatment for 6 months\n* at least 10mg/wk and stable dose for at least 8 weeks\n* negative TB screening\n\nExclusion Criteria:\n\n* Use of other disease-modifying anti-rheumatic drugs (DMARDs) (other than Methotrexate MTX)\n* previous use of more than 1 anti-TNF (tumor necrosis factor) agent\n* previous use of cytotoxics, p38 MAPkinase inhibitor, anti-CD4 antibody\n* receipt of live vaccine within 1 month of study drug\n* serious infection in previous 2 months or history of chronic or recurrent infectious disease or history of opportunistic infection\n* other clinically significant disease of other organ system",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Safety and Effectiveness Study of RWJ-445380 Cathepsin-S Inhibitor in Patients With Active Rheumatoid Arthritis Despite Methotrexate Therapy",
+          "nctId": "NCT00425321",
+          "nctIdAliases": [
+            "NCT00766610"
+          ],
+          "officialTitle": "A Phase IIa Multicenter, Randomized, Double-Blind, Placebo -Controlled, Parallel Group Study of RWJ-445380 Cathepsin-S Inhibitor in Patients With Active Rheumatoid Arthritis Despite Methotrexate Therapy",
+          "orgStudyIdInfo": {
+            "id": "CR012511"
+          },
+          "organization": {
+            "class": "INDUSTRY",
+            "fullName": "Johnson & Johnson Pharmaceutical Research & Development, L.L.C."
+          },
+          "secondaryIdInfos": [
+            {
+              "domain": "Johnson & Johnson Pharmaceutical Research and Development, L.L.C.",
+              "id": "C-2006-009",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "measure": "Evaluate the safety of RWJ-445380 for up to 12 weeks; assessing adverse events, vital signs, laboratory and physical exam and ECGs in patients with rheumatoid arthritis",
+              "timeFrame": "up to 12 weeks"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "measure": "Explore effectiveness of drug through accepted arthritis clinical measures and biomarkers",
+              "timeFrame": "12 weeks, Explore effectiveness of drug through accepted clinical measures and biomarkers"
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": true
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "INDUSTRY",
+            "name": "Johnson & Johnson Pharmaceutical Research & Development, L.L.C."
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2008-01",
+            "type": "ACTUAL"
+          },
+          "dispFirstPostDateStruct": {
+            "date": "2011-06-03",
+            "type": "ESTIMATED"
+          },
+          "dispFirstSubmitDate": "2011-05-27",
+          "dispFirstSubmitQcDate": "2011-05-27",
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2014-05-21",
+            "type": "ESTIMATED"
+          },
+          "lastUpdateSubmitDate": "2014-05-06",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2008-01",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2006-12"
+          },
+          "statusVerifiedDate": "2014-05",
+          "studyFirstPostDateStruct": {
+            "date": "2007-01-22",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2007-01-19",
+          "studyFirstSubmitQcDate": "2007-01-19"
+        }
+      }
+    }
+  ],
+  "totalCount": 2
+}

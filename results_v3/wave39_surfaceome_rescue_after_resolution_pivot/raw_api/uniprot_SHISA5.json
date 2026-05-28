@@ -1,0 +1,226 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "12135983",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Can induce apoptosis in a caspase-dependent manner and plays a role in p53/TP53-dependent apoptosis"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "12135983",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0097",
+                "value": "Endoplasmic reticulum membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "12135983",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9905",
+                "value": "Single-pass type I membrane protein"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "12135983",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0182",
+                "value": "Nucleus membrane"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000003B0C1"
+      },
+      "features": [
+        {
+          "description": "Extracellular",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 105
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 29
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 126
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 106
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 240
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 127
+            }
+          },
+          "type": "Topological domain"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "SHISA5"
+          },
+          "orfNames": [
+            {
+              "value": "PSEC0133"
+            }
+          ],
+          "synonyms": [
+            {
+              "value": "SCOTIN"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0053",
+          "name": "Apoptosis"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0256",
+          "name": "Endoplasmic reticulum"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0539",
+          "name": "Nucleus"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0732",
+          "name": "Signal"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        }
+      ],
+      "primaryAccession": "Q8N114",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Putative NF-kappa-B-activating protein 120"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Scotin"
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "Protein shisa-5"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "7C4A8E7A2AD8E272",
+        "length": 240,
+        "md5": "2740354FC834FDE91B23EA6D5AF555AB",
+        "molWeight": 25582,
+        "value": "MTAPVPAPRILLPLLLLLLLTPPPGARGEVCMASRGLSLFPESCPDFCCGTCDDQYCCSDVLKKFVWSEERCAVPEASVPASVEPVEQLGSALRFRPGYNDPMSGFGATLAVGLTIFVLSVVTIIICFTCSCCCLYKTCRRPRPVVTTTTSTTVVHAPYPQPPSVPPSYPGPSYQGYHTMPPQPGMPAAPYPMQYPPPYPAQPMGPPAYHETLAGGAAAPYPASQPPYNPAYMDAPKAAL"
+      },
+      "uniProtkbId": "SHSA5_HUMAN"
+    }
+  ]
+}

@@ -1,0 +1,492 @@
+{
+  "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxuZPOg3fUakA",
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D001168",
+              "term": "Arthritis"
+            },
+            {
+              "id": "D007592",
+              "term": "Joint Diseases"
+            },
+            {
+              "id": "D009140",
+              "term": "Musculoskeletal Diseases"
+            },
+            {
+              "id": "D012216",
+              "term": "Rheumatic Diseases"
+            },
+            {
+              "id": "D003240",
+              "term": "Connective Tissue Diseases"
+            },
+            {
+              "id": "D017437",
+              "term": "Skin and Connective Tissue Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D001172",
+              "term": "Arthritis, Rheumatoid"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D009043",
+              "term": "Motor Activity"
+            },
+            {
+              "id": "D009068",
+              "term": "Movement"
+            },
+            {
+              "id": "D009142",
+              "term": "Musculoskeletal Physiological Phenomena"
+            },
+            {
+              "id": "D055687",
+              "term": "Musculoskeletal and Neural Physiological Phenomena"
+            },
+            {
+              "id": "D064797",
+              "term": "Physical Conditioning, Human"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D015444",
+              "term": "Exercise"
+            },
+            {
+              "id": "D000072696",
+              "term": "High-Intensity Interval Training"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "documentSection": {
+        "largeDocumentModule": {
+          "largeDocs": [
+            {
+              "date": "2023-11-03",
+              "filename": "SAP_000.pdf",
+              "hasIcf": false,
+              "hasProtocol": false,
+              "hasSap": true,
+              "label": "Statistical Analysis Plan",
+              "size": 640452,
+              "typeAbbrev": "SAP",
+              "uploadDate": "2023-11-09T15:58"
+            }
+          ]
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "The patients will be randomized to 12-week supervised exercise training intervention or no exercise training. The exercise training program includes three supervised sessions per week over a 12-week period.\n\nThe program consists of high intensity endurance training on ergometer bicycles. The intensity will progress throughout the 12 weeks of training. The training consists of 10 minutes of warm up at 40-60% maximum heart rate (HRmax), followed by 25 minutes of high intensity interval training (4 bouts of 4 min at \\>85% HRmax interspaced by 3 minutes of low intensity training at 40-60% Hrmax) and finally a 5 min cool-down of 50% Hrmax",
+              "interventionNames": [
+                "Behavioral: Exercise"
+              ],
+              "label": "RA patients TNFi Exercise",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "This group will be allocated to \"control\" and therefore no supervised exercise regimen",
+              "interventionNames": [
+                "Behavioral: No exercise"
+              ],
+              "label": "RA patients TNFi Control",
+              "type": "ACTIVE_COMPARATOR"
+            },
+            {
+              "description": "The patients will be randomized to 12-week supervised exercise training intervention or no exercise training. The exercise training program includes three supervised sessions per week over a 12-week period.\n\nThe program consists of high intensity endurance training on ergometer bicycles. The intensity will progress throughout the 12 weeks of training. The training consists of 10 minutes of warm up at 40-60% maximum heart rate (HRmax), followed by 25 minutes of high intensity interval training (4 bouts of 4 min at \\>85% HRmax interspaced by 3 minutes of low intensity training at 40-60% Hrmax) and finally a 5 min cool-down of 50% Hrmax",
+              "interventionNames": [
+                "Behavioral: Exercise"
+              ],
+              "label": "RA patients IL-6Rb Exercise",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "This group will be allocated to \"control\" and therefore no supervised exercise regimen",
+              "interventionNames": [
+                "Behavioral: No exercise"
+              ],
+              "label": "RA patients IL-6Rb Control",
+              "type": "ACTIVE_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "RA patients IL-6Rb Exercise",
+                "RA patients TNFi Exercise"
+              ],
+              "description": "Supervised high-intensity interval training for 12 weeks three times per week. The supervision may be physical or online supervision",
+              "name": "Exercise",
+              "otherNames": [
+                "High intensity interval training"
+              ],
+              "type": "BEHAVIORAL"
+            },
+            {
+              "armGroupLabels": [
+                "RA patients IL-6Rb Control",
+                "RA patients TNFi Control"
+              ],
+              "description": "Control group, therefore no supervised exercise regime",
+              "name": "No exercise",
+              "type": "BEHAVIORAL"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Rheumatoid Arthritis"
+          ],
+          "keywords": [
+            "Cardiac adaptations",
+            "Metabolic adaptations",
+            "High intensity interval training"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Copenhagen",
+              "country": "Denmark",
+              "facility": "Rigshospitalet",
+              "geoPoint": {
+                "lat": 55.67594,
+                "lon": 12.56553
+              },
+              "zip": "2100"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Center for Physical Activity Research, Rigshospitalet",
+              "name": "Regitse Christensen",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The present study will investigative the physiological effects of the cytokines interleukin-6 (IL-6) and tumor necrosis factor (TNF) on the adaptive changes to exercise in patients with rheumatoid arthritis. The investigators hypothesize that blockage of IL-6 receptors will decrease the cardiac and metabolic adaptations to exercise training compared to the inhibition of TNF. 80 patients will be included in a 12-week investigator blinded randomised exercise training intervention study.",
+          "detailedDescription": "80 patients with rheumatoid arthritis who are being treated with either interleukin-6 receptor blockers (IL-6Rb) or tumor necrosis factor inhibitors (TNFi) for a minimum of four months prior to enrollment will be recruited and undergo baseline testing, including examination, biochemistry, ECG, DXA, OGTT, pulmonary function, VO2max, echocardiography, cardiac MRI.\n\nAfter baseline testing, 40 patients in IL-6 receptor blocker treatment and 40 patients in TNF inhibitor treatment.will be randomly allocated into one group receiving standard of care (control group) or a group performing supervised high-intensity interval training three times a week over a period of 12 weeks. The randomization procedure involves a computer-generated block randomization schedule in a ratio of 1:1 stratified by sex by an independent person. Following the 12-week intervention period, all groups will complete a series of follow-up tests (as baseline testing)."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "SINGLE",
+              "whoMasked": [
+                "INVESTIGATOR"
+              ]
+            },
+            "primaryPurpose": "HEALTH_SERVICES_RESEARCH"
+          },
+          "enrollmentInfo": {
+            "count": 69,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \\>= 18 and \\<70 years\n* Informed consent\n* Diagnosed RA based on the 2010 American College of Rheumatology/ EULAR criteria. In biological treatment with either IL-6rB og TNFi over four months prior to enrollment\n* Low RA disease activity, based on the Disease Activity Score-28 ESR for Rheumatoid Arthritis (DAS28) \\<=3.2\n* An electrocardiogram without features of left ventricular hypertrophy defined by the European Society of Cardiology\n* Females of childbearing potential have to use one or more of the following highly effective methods for contraception in order to be included:\n\n  * Vasectomized partner\n  * Bilateral tubal occlusion\n  * Sexual abstinence\n  * Intrauterine device\n  * Hormonal contraception\n* Females who are considered to have no childbearing potential are\n\n  * Bilateral tubal ligation\n  * Bilateral oophorectomy\n  * Complete hysterectomy\n  * Postmenopausal defined as 12 months with no menses without an alternative medical cause\n\nExclusion Criteria:\n\n* Health conditions that prevent participating in the exercise intervention determined by the Project Coordinator\n* Subjects who cannot undergo MRI scans (metallic implants or claustrophobia)\n* Corticosteroid use per os \\> 10 mg/day within seven days of study enrollment\n* Intramuscular corticosteroid within 3 weeks of the study enrollment\n* Grade 2 hypertension (systolic BP \\> 160 mmHg and/or diastolic BP \\>100 mmHg) despite the use of antihypertensive drugs.\n* Pregnancy\n* Subjects with insulin dependent Diabetes",
+          "healthyVolunteers": true,
+          "maximumAge": "70 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "acronym": "RABEX",
+          "briefTitle": "Exercise-induced Cardiac Adaptions in Rheumatoid Arthritis Patients During IL-6 vs. TNF Antibody Therapy",
+          "nctId": "NCT05215509",
+          "officialTitle": "Exercise-induced Cardiac Adaptions in Rheumatoid Arthritis Patients During Interleukin-6 vs. Tumor Necrosis Factor Antibody Therapy: a Randomised, Controlled Study.",
+          "orgStudyIdInfo": {
+            "id": "H-21010559"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Rigshospitalet, Denmark"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "accessCriteria": "Requests to acces IPD may be provided if a satisfactory research proposal is sent to Simon J\u00f8nck (simon.joenck.04@regionh.dk) and Regitse H Christensen (regitse.hoejgaard.Christensen@regionh.dk)",
+          "description": "Anonymised IPD obtained through this study may be provided to qualified researchers upon reasonable request.",
+          "infoTypes": [
+            "SAP",
+            "ICF",
+            "CSR",
+            "ANALYTIC_CODE"
+          ],
+          "ipdSharing": "YES",
+          "timeFrame": "Requests can be submitted following the publication of the primary outcome, and IPD will be accessible upon reasonable request up to 3 years from that date."
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "measured by MRI scan",
+              "measure": "Change in left ventricular mass",
+              "timeFrame": "12 weeks"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "measured by MRI scan",
+              "measure": "Visceral adipose tissue mass",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Structural cardiac parameter: measured by MRI scan and echocardiography",
+              "measure": "Stroke volume",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Structural cardiac parameter: measured by MRI scan and echocardiography",
+              "measure": "Left ventricular and atrial end-diastolic volume",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Functional cardiac parameters: measured by MRI scan and echocardiography",
+              "measure": "LVEF",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Functional cardiac parameters: measured by MRI scan and echocardiography",
+              "measure": "Global longitudinal strain",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Functional cardiac parameters: measured by MRI scan and echocardiography",
+              "measure": "E/A ratio",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Functional cardiac parameters: measured by MRI scan and echocardiography",
+              "measure": "E/\u00e9",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Structural cardiac parameter: measured by MRI scan and echocardiography",
+              "measure": "Left ventricular and atrial end-systolic volume",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Structural cardiac parameter: measured by MRI scan and echocardiography",
+              "measure": "Left atrial volume index",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Structural cardiac parameter: measured by MRI scan and echocardiography",
+              "measure": "Interventricular septum thickness",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Structural cardiac parameter: measured by MRI scan and echocardiography",
+              "measure": "Left ventricular posterior wall thickness",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Functional vascular parameter: measured by MRI",
+              "measure": "Aortic and pulmonary distensibility and pulse wave velocity",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Measured by MRI and MR spectroscopy",
+              "measure": "Subcutaneous, visceral and epicardial adipose tissue",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Measured by MRI and MR spectroscopy",
+              "measure": "Intramyocardial triglyceride content",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Measured with an incremental VO2 protocol on exercise bike",
+              "measure": "Cardiorespiratory fitness",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Pulmonary function testing",
+              "measure": "Dynamic spirometry",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Pulmonary function testing",
+              "measure": "Whole body plethysmography",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Pulmonary function testing",
+              "measure": "Diffusion capacity",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Measured by a DXA scan",
+              "measure": "Body composition",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "75g of glucose taken while fasting",
+              "measure": "Oral glucose tolerance test",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Free-living physical activity is measured using axial accelerometer-based physical activity monitors (AX3; Axivity, Newcastle upon Tyne, UK) for a 5-day period",
+              "measure": "Axial accelerometer-based physical activity monitors",
+              "timeFrame": "5 days in week 6 of the intervention/control"
+            },
+            {
+              "description": "Self reported intake of all foods and liquids",
+              "measure": "Dietary intake",
+              "timeFrame": "3 days in the week 6 of intervention/control"
+            },
+            {
+              "description": "Change in fasting total cholesterol, low-density lipoprotein (LDL)-cholesterol and high-density lipoprotein (HDL)-cholesterol (mmol/L). Following an overnight fast (10 hours), blood samples are collected and processed by a trained laboratory technician and analysed according to standard procedures.",
+              "measure": "Blood sample",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Change in triglycerides (mmol/L). Following an overnight fast (10 hours), blood samples are collected and processed by a trained laboratory technician and analysed according to standard procedures.",
+              "measure": "Blood sample",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Change in measures of the international Core Outcome Set for rheumatoid arthritis : 66/68 tender and swollen joint count",
+              "measure": "RA disease specific outcomes 1",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Change in visual analogue scale (VAS) pain, VAS physician global assessment, VAS patient global assessment\n\nThe Visual Analogue Scale (VAS) is a self-report measure consisting simply of a 100 mm horixontal line with a statement at each end representing one extreme (0mm = nothing, 100mm = extreme)",
+              "measure": "RA disease specific outcomes 2",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Change in Health Assessment Questionnaire (HAQ-DI)\n\nTotal score is between 0-3.0. Increasing scores indicate worse functioning with 0 indicating no functional impairment and 3 indicating complete impairment.",
+              "measure": "RA disease specific outcomes 3",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Change in Short Form 36 (SF-36) Health Survey Questionnaire\n\nA 8-scale score within 8 domains.All items are scored so that a high score defines a more favorable health state.",
+              "measure": "RA disease specific outcomes 4",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Change in the composite Disease Activity Score-28 ESR for Rheumatoid Arthritis (DAS28).\n\nA DAS28 of greater than 5.1 implies active disease, less than 3.2 low disease activity, and less than 2.6 remission",
+              "measure": "RA disease specific outcomes 5",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Change in response criteria will be assessed according the clinical disease activity index (CDAI).\n\nThe CDAI composite index quantifies disease activity in RA, by utilising four clinical parameters including tender and swollen joints and global assessment from both patient and assessor on a vasual analogue scale.\n\nCDAI interpretation score CDAI \u2265 22,1: High Activity CDAI \\< 22,1 og \u226510,1: Moderate Activity CDAI \\<10,0 og \u2265 2,9: Low Activity CDAI \\<2,9: Remission",
+              "measure": "RA disease specific outcomes 6",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Change in response criteria will be assessed according the American College of Rheumatology (ACR 20/50/70) response",
+              "measure": "RA disease specific outcomes 7",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Change in response criteria will be assessed according the European League Against Rheumatism (EULAR none/good/moderate response)",
+              "measure": "RA disease specific outcomes 8",
+              "timeFrame": "12 weeks"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": true
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Jonck S, Adamsen ML, Rasmussen IE, Lytzen AA, Lok M, Vonsild Lund MA, Dreyer L, Jorgensen PG, Vejlstrup N, Kober L, Christensen R, Jacobsen S, Pedersen BK, Ellingsgaard H, Hojgaard P, Berg RMG, Christensen RH. IL-6 Inhibitors and TNF Inhibitors: Impact on Exercise-induced Cardiac Adaptations in Patients With Rheumatoid Arthritis. JACC Basic Transl Sci. 2025 May;10(5):551-563. doi: 10.1016/j.jacbts.2024.11.010. Epub 2025 Feb 5.",
+              "pmid": "40436519",
+              "type": "DERIVED"
+            },
+            {
+              "citation": "Jonck S, Adamsen ML, Hojgaard P, Rasmussen IE, Ellingsgaard H, Lund MAV, Jorgensen PG, Jacobsen S, Kober L, Vejlstrup N, Dreyer L, Pedersen BK, Berg RMG, Christensen RH. Effect of a 12-week high-intensity exercise intervention: a comparison of cardiac exercise adaptations during biological disease-modifying antirheumatic drug treatment (TNF inhibitors vs IL-6 signalling inhibitors) in patients with rheumatoid arthritis - study protocol for a randomised controlled trial. BMJ Open. 2023 May 11;13(5):e068600. doi: 10.1136/bmjopen-2022-068600.",
+              "pmid": "37169504",
+              "type": "DERIVED"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Rigshospitalet, Denmark"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Rigshospitalet, Denmark",
+            "investigatorFullName": "Regitse Christensen",
+            "investigatorTitle": "Principal investigator",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2023-12-31",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2024-02-02",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2024-02-01",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2023-08-10",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2021-01-01",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2024-02",
+          "studyFirstPostDateStruct": {
+            "date": "2022-01-31",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2021-11-16",
+          "studyFirstSubmitQcDate": "2022-01-28"
+        }
+      }
+    }
+  ],
+  "totalCount": 1
+}

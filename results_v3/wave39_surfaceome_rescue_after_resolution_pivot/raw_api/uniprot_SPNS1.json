@@ -1,0 +1,480 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "12815463",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "36161949",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "37075117",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "37075117",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Plays a critical role in the phospholipid salvage pathway from lysosomes to the cytosol (PubMed:36161949, PubMed:37075117). Mediates the rate-limiting, proton-dependent, lysosomal efflux of lysophospholipids, which can then be reacylated by acyltransferases in the endoplasmic reticulum to form phospholipids (PubMed:36161949, PubMed:37075117). Selective for zwitterionic headgroups such as lysophosphatidylcholine (LPC) and lysophosphatidylethanolamine (LPE), can also transport lysophosphatidylglycerol (LPG), but not other anionic lysophospholipids, sphingosine, nor sphingomyelin (PubMed:36161949). Transports lysophospholipids with saturated, monounsaturated, and polyunsaturated fatty acids, such as 1-hexadecanoyl-sn-glycero-3-phosphocholine, 1-(9Z-octadecenoyl)-sn-glycero-3-phosphocholine and 1-(4Z,7Z,10Z,13Z,16Z,19Z-docosahexaenoyl)-sn-glycero-3-phosphocholine, respectively (PubMed:36161949, PubMed:37075117). Can also transport lysoplasmalogen (LPC with a fatty alcohol) such as 1-(1Z-hexadecenyl)-sn-glycero-3-phosphocholine (PubMed:36161949). Lysosomal LPC could function as intracellular signaling messenger (PubMed:37075117). Essential player in lysosomal homeostasis (PubMed:36161949). Crucial for cell survival under conditions of nutrient limitation (PubMed:37075117). May be involved in necrotic or autophagic cell death (PubMed:12815463)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "12815463",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Ocassionally localizes to mitochondria"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "12408844",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0157",
+                "value": "Lysosome membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "12408844",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9909",
+                "value": "Multi-pass membrane protein"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "12815463",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0168",
+                "value": "Mitochondrion inner membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "12815463",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9909",
+                "value": "Multi-pass membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000004DB99"
+      },
+      "features": [
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 70
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 50
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 118
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 98
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 147
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 127
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 180
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 160
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 207
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 187
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 238
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 218
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 298
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 278
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 343
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 323
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 377
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 357
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 401
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 381
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 441
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 421
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 485
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 465
+            }
+          },
+          "type": "Transmembrane"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "SPNS1"
+          },
+          "orfNames": [
+            {
+              "value": "PP20300"
+            }
+          ],
+          "synonyms": [
+            {
+              "value": "SPIN1"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0445",
+          "name": "Lipid transport"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0458",
+          "name": "Lysosome"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0496",
+          "name": "Mitochondrion"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0999",
+          "name": "Mitochondrion inner membrane"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0813",
+          "name": "Transport"
+        }
+      ],
+      "primaryAccession": "Q9H2V7",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "12815463",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "HSpin1"
+            }
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "36161949",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "37075117",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "SPNS1"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Spinster-like protein 1"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Protein spinster homolog 1"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "F1B9D2EB3F9F1B48",
+        "length": 528,
+        "md5": "9EE4243341267802314C55D714202DD5",
+        "molWeight": 56630,
+        "value": "MAGSDTAPFLSQADDPDDGPVPGTPGLPGSTGNPKSEEPEVPDQEGLQRITGLSPGRSALIVAVLCYINLLNYMDRFTVAGVLPDIEQFFNIGDSSSGLIQTVFISSYMVLAPVFGYLGDRYNRKYLMCGGIAFWSLVTLGSSFIPGEHFWLLLLTRGLVGVGEASYSTIAPTLIADLFVADQRSRMLSIFYFAIPVGSGLGYIAGSKVKDMAGDWHWALRVTPGLGVVAVLLLFLVVREPPRGAVERHSDLPPLNPTSWWADLRALARNPSFVLSSLGFTAVAFVTGSLALWAPAFLLRSRVVLGETPPCLPGDSCSSSDSLIFGLITCLTGVLGVGLGVEISRRLRHSNPRADPLVCATGLLGSAPFLFLSLACARGSIVATYIFIFIGETLLSMNWAIVADILLYVVIPTRRSTAEAFQIVLSHLLGDAGSPYLIGLISDRLRRNWPPSFLSEFRALQFSLMLCAFVGALGGAAFLGTAIFIEADRRRAQLHVQGLLHEAGSTDDRIVVPQRGRSTRVPVASVLI"
+      },
+      "uniProtkbId": "SPNS1_HUMAN"
+    }
+  ]
+}

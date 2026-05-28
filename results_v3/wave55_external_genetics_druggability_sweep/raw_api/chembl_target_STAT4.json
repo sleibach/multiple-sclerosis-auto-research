@@ -1,0 +1,1262 @@
+{
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 2
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Signal transducer and activator of transcription 4",
+      "score": 19.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL4523296",
+      "target_components": [
+        {
+          "accession": "Q14765",
+          "component_description": "Signal transducer and activator of transcription 4",
+          "component_id": 18800,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "Signal transducer and activator of transcription 4",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "STAT4",
+              "syn_type": "GENE_SYMBOL"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "Q14765",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "Q14765",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0000785",
+              "xref_name": "chromatin",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005654",
+              "xref_name": "nucleoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0090575",
+              "xref_name": "RNA polymerase II transcription regulator complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0000978",
+              "xref_name": "RNA polymerase II cis-regulatory region sequence-specific DNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003677",
+              "xref_name": "DNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042802",
+              "xref_name": "identical protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0007165",
+              "xref_name": "signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007259",
+              "xref_name": "cell surface receptor signaling pathway via JAK-STAT",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0019221",
+              "xref_name": "cytokine-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035722",
+              "xref_name": "interleukin-12-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042127",
+              "xref_name": "regulation of cell population proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045063",
+              "xref_name": "T-helper 1 cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045944",
+              "xref_name": "positive regulation of transcription by RNA polymerase II",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:11365",
+              "xref_name": "STAT4",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "Q14765",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR000980",
+              "xref_name": "SH2",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001217",
+              "xref_name": "STAT",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR008967",
+              "xref_name": "p53-like_TF_DNA-bd_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR012345",
+              "xref_name": "STAT_TF_DNA-bd_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR013799",
+              "xref_name": "STAT_TF_prot_interaction",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR013800",
+              "xref_name": "STAT_TF_alpha",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR013801",
+              "xref_name": "STAT_TF_DNA-bd",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015988",
+              "xref_name": "STAT_TF_CC",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029839",
+              "xref_name": "STAT4_DBD",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR035856",
+              "xref_name": "STAT4_SH2",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036535",
+              "xref_name": "STAT_N_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036860",
+              "xref_name": "SH2_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR046991",
+              "xref_name": "STAT4_CC",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR048988",
+              "xref_name": "STAT_linker",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11801",
+              "xref_name": "SIGNAL TRANSDUCER AND ACTIVATOR OF TRANSCRIPTION",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00017",
+              "xref_name": "SH2",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF01017",
+              "xref_name": "STAT_alpha",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF02864",
+              "xref_name": "STAT_bind",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF02865",
+              "xref_name": "STAT_int",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF21354",
+              "xref_name": "STAT_linker",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA36185",
+              "xref_name": "signal transducer and activator of transcription 4",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "Q14765",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-8854691",
+              "xref_name": "Interleukin-20 family signaling",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-8950505",
+              "xref_name": "Gene and protein expression by JAK-STAT signaling after Interleukin-12 stimulation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-8984722",
+              "xref_name": "Interleukin-35 Signalling",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9020591",
+              "xref_name": "Interleukin-12 signaling",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9020933",
+              "xref_name": "Interleukin-23 signaling",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9020958",
+              "xref_name": "Interleukin-21 signaling",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "Q14765",
+              "xref_name": "Signal transducer and activator of transcription 4",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q96NZ6",
+              "xref_name": "Signal transducer and activator of transcription 4",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    },
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Protein cereblon/Signal transducer and activator of transcription 4",
+      "score": 18.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL4523706",
+      "target_components": [
+        {
+          "accession": "Q96SW2",
+          "component_description": "Protein cereblon",
+          "component_id": 16927,
+          "component_type": "PROTEIN",
+          "relationship": "INTERACTING PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "CRBN",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Protein cereblon",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "Q96SW2",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "Q96SW2",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031464",
+              "xref_name": "Cul4A-RING E3 ubiquitin ligase complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0048471",
+              "xref_name": "perinuclear region of cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0044325",
+              "xref_name": "transmembrane transporter binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0030177",
+              "xref_name": "positive regulation of Wnt signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031333",
+              "xref_name": "negative regulation of protein-containing complex assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031334",
+              "xref_name": "positive regulation of protein-containing complex assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034766",
+              "xref_name": "negative regulation of monoatomic ion transmembrane transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035641",
+              "xref_name": "locomotory exploration behavior",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043161",
+              "xref_name": "proteasome-mediated ubiquitin-dependent protein catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:30185",
+              "xref_name": "CRBN",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "Q96SW2",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR003111",
+              "xref_name": "Lon_prtase_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR004910",
+              "xref_name": "Yippee/Mis18/Cereblon",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015947",
+              "xref_name": "PUA-like_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR034750",
+              "xref_name": "CULT",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR046336",
+              "xref_name": "Lon_prtase_N_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR14255",
+              "xref_name": "CEREBLON",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR14255:SF4",
+              "xref_name": "PROTEIN CEREBLON",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "4M91",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4TZ4",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5FQD",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5HXB",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5V3O",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6BN7",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6BN8",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6BN9",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6BNB",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6BOY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6H0F",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6H0G",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6UML",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6XK9",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7BQU",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7BQV",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7LPS",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7U8F",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8CVP",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8D7U",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8D7V",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8D7W",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8D7X",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8D7Y",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8D7Z",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8D80",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8D81",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8DEY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8G66",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8OIZ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8OJH",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8RQ1",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8RQ8",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8RQ9",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8RQA",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8RQC",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8TNP",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8TNQ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8TNR",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8TZX",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8U15",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8U16",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8U17",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8UH6",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9CUO",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9D0W",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9D0X",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9DJT",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9DJX",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9DOM",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9DQD",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9FJX",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9GAO",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9ODR",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9ODS",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4M91",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4TZ4",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5FQD",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5HXB",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5V3O",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6BN7",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6BN8",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6BN9",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6BNB",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6BOY",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6H0F",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6H0G",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6UML",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6XK9",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7BQU",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7BQV",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7LPS",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7U8F",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8DEY",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8G66",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8OIZ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8OJH",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8RQ1",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8RQ8",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8RQ9",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8RQA",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8RQC",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8TZX",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8U15",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8U16",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8U17",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "9CUO",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "9DJT",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "9DJX",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "9DOM",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "9FJX",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "9GAO",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "9ODR",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "9ODS",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF02190",
+              "xref_name": "LON_substr_bdg",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF03226",
+              "xref_name": "Yippee-Mis18",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA134926851",
+              "xref_name": "cereblon",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "Q96SW2",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-9679191",
+              "xref_name": "Potential therapeutics for SARS",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "B2R6H4",
+              "xref_name": "Protein cereblon",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "C9IZA9",
+              "xref_name": "Protein cereblon",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "C9JAH6",
+              "xref_name": "Protein cereblon",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q6AI62",
+              "xref_name": "Protein cereblon",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q6NVZ0",
+              "xref_name": "Protein cereblon",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q96SW2",
+              "xref_name": "Protein cereblon",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UHW4",
+              "xref_name": "Protein cereblon",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        },
+        {
+          "accession": "Q14765",
+          "component_description": "Signal transducer and activator of transcription 4",
+          "component_id": 18800,
+          "component_type": "PROTEIN",
+          "relationship": "INTERACTING PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "Signal transducer and activator of transcription 4",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "STAT4",
+              "syn_type": "GENE_SYMBOL"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "Q14765",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "Q14765",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0000785",
+              "xref_name": "chromatin",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005654",
+              "xref_name": "nucleoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0090575",
+              "xref_name": "RNA polymerase II transcription regulator complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0000978",
+              "xref_name": "RNA polymerase II cis-regulatory region sequence-specific DNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003677",
+              "xref_name": "DNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042802",
+              "xref_name": "identical protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0007165",
+              "xref_name": "signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007259",
+              "xref_name": "cell surface receptor signaling pathway via JAK-STAT",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0019221",
+              "xref_name": "cytokine-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035722",
+              "xref_name": "interleukin-12-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042127",
+              "xref_name": "regulation of cell population proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045063",
+              "xref_name": "T-helper 1 cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045944",
+              "xref_name": "positive regulation of transcription by RNA polymerase II",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:11365",
+              "xref_name": "STAT4",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "Q14765",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR000980",
+              "xref_name": "SH2",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001217",
+              "xref_name": "STAT",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR008967",
+              "xref_name": "p53-like_TF_DNA-bd_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR012345",
+              "xref_name": "STAT_TF_DNA-bd_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR013799",
+              "xref_name": "STAT_TF_prot_interaction",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR013800",
+              "xref_name": "STAT_TF_alpha",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR013801",
+              "xref_name": "STAT_TF_DNA-bd",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015988",
+              "xref_name": "STAT_TF_CC",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029839",
+              "xref_name": "STAT4_DBD",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR035856",
+              "xref_name": "STAT4_SH2",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036535",
+              "xref_name": "STAT_N_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036860",
+              "xref_name": "SH2_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR046991",
+              "xref_name": "STAT4_CC",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR048988",
+              "xref_name": "STAT_linker",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11801",
+              "xref_name": "SIGNAL TRANSDUCER AND ACTIVATOR OF TRANSCRIPTION",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00017",
+              "xref_name": "SH2",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF01017",
+              "xref_name": "STAT_alpha",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF02864",
+              "xref_name": "STAT_bind",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF02865",
+              "xref_name": "STAT_int",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF21354",
+              "xref_name": "STAT_linker",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA36185",
+              "xref_name": "signal transducer and activator of transcription 4",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "Q14765",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-8854691",
+              "xref_name": "Interleukin-20 family signaling",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-8950505",
+              "xref_name": "Gene and protein expression by JAK-STAT signaling after Interleukin-12 stimulation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-8984722",
+              "xref_name": "Interleukin-35 Signalling",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9020591",
+              "xref_name": "Interleukin-12 signaling",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9020933",
+              "xref_name": "Interleukin-23 signaling",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9020958",
+              "xref_name": "Interleukin-21 signaling",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "Q14765",
+              "xref_name": "Signal transducer and activator of transcription 4",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q96NZ6",
+              "xref_name": "Signal transducer and activator of transcription 4",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "PROTEIN-PROTEIN INTERACTION",
+      "tax_id": 9606
+    }
+  ]
+}

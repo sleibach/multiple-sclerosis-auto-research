@@ -1,0 +1,32 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr19",
+        "dataSource": "HAVANA",
+        "description": "tyrosine kinase 2 [Source:HGNC Symbol;Acc:HGNC:12440]",
+        "end": 10380676,
+        "entrezGeneId": 7297,
+        "gencodeId": "ENSG00000105397.13",
+        "gencodeVersion": "v26",
+        "geneStatus": "",
+        "geneSymbol": "TYK2",
+        "geneSymbolUpper": "TYK2",
+        "geneType": "protein coding",
+        "genomeBuild": "GRCh38/hg38",
+        "start": 10350529,
+        "strand": "-",
+        "tss": 10380676
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 3,
+      "numberOfPages": 1,
+      "page": 0,
+      "totalNumberOfItems": 1
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/reference/gene?geneId=TYK2&gencodeVersion=v26&genomeBuild=GRCh38%2Fhg38&itemsPerPage=3"
+}

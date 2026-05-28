@@ -1,0 +1,50 @@
+{
+  "payload": {
+    "hitCount": 406,
+    "nextCursorMark": "AoIIQPsq1yg1MDU5NDYwMQ==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ARID5B AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQPsq1yg1MDU5NDYwMQ==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "ARID5B AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Su T, Gan Y, Ma S, Wu H, Lu S, Zhi M, Wang B, Lu Y, Yao J.",
+          "citedByCount": 5,
+          "doi": "10.1016/j.dsx.2024.103023",
+          "firstIndexDate": "2024-05-03",
+          "firstPublicationDate": "2024-04-30",
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "N",
+          "hasReferences": "N",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "38697002",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "isOpenAccess": "N",
+          "issue": "5",
+          "journalIssn": "1871-4021; 1878-0334; ",
+          "journalTitle": "Diabetes Metab Syndr",
+          "journalVolume": "18",
+          "pageInfo": "103023",
+          "pmid": "38697002",
+          "pubType": "journal article",
+          "pubYear": "2024",
+          "source": "MED",
+          "title": "Graves' disease and the risk of five autoimmune diseases: A Mendelian randomization and colocalization study."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ARID5B+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

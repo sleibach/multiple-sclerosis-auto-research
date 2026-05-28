@@ -1,0 +1,6 @@
+disease_name	tested_contexts	positive_contexts_p10	negative_contexts_p10	myeloid_positive_contexts_p10	best_positive	best_negative
+type 1 diabetes mellitus	5	1	0	0	{'analysis': 't1d_ductal_cell', 'delta_log2_cpm': 0.31935888809946, 'p': 0.0454033150414106}	{}
+Crohn disease	3	0	1	0	{}	{'analysis': 'ibd_crohn_myeloid', 'delta_log2_cpm': -0.8687617781922139, 'p': 0.0901345521620393}
+Sjogren syndrome	3	0	0	0	{}	{}
+psoriasis	3	0	0	0	{}	{}
+ulcerative colitis	3	0	1	0	{}	{'analysis': 'ibd_uc_stromal', 'delta_log2_cpm': -0.7173397912575386, 'p': 0.001848673240445}

@@ -1,0 +1,244 @@
+{
+  "studies": [
+    {
+      "derivedSection": {
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "males or females aged \\> 70 years without major systemic comorbidities (resting blood pressure \\<140/90 mmHg, no history diabetes mellitus according to WHO criteria).",
+              "interventionNames": [
+                "Other: no intervention"
+              ],
+              "label": "Group A"
+            },
+            {
+              "description": "males or females aged \\>70 years with hypertension, defined as a documented blood pressure of Systolic Blood Pressure (SP \\>140 mmHg or \\>90mmHg Diastolic Blood Pressure) without diabetes mellitus and HF defined as: a) relevant symptoms/signs/radiographic findings as indicated by Boston criteria b) need for diuretic therapy.",
+              "interventionNames": [
+                "Other: no intervention"
+              ],
+              "label": "Group B"
+            },
+            {
+              "description": "male or female aged \\> 70 years with diabetes mellitus (defined according to the World Health Organization (WHO)) AND hypertension, without HF defined as: a) relevant symptoms/signs/radiographic findings as indicated by Boston criteria38 b) need for diuretic therapy.",
+              "interventionNames": [
+                "Other: no intervention"
+              ],
+              "label": "Group C"
+            },
+            {
+              "description": "male or female aged \\>70 years with HFPEF, defined as signs and symptoms of HF with LVEF\\>50% and raised natriuretic peptides (BNP\\>35pg/ml or NT-proBNP\\>125pg/ml) along with one other criteria: i) structural heart disease (left atrial enlargement or left ventricular hypertrophy) on TTE, ii) evidence of LV diastolic dysfunction based on ESC Guidelines 2016, or iii) hospitalization with heart failure within 12 months prior to study entry.",
+              "interventionNames": [
+                "Other: no intervention"
+              ],
+              "label": "Group D"
+            },
+            {
+              "description": "male or female aged \\>70 years with HFREF, defined as HF with LVEF \\<40% on TTE)",
+              "interventionNames": [
+                "Other: no intervention"
+              ],
+              "label": "Group E"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Group A",
+                "Group B",
+                "Group C",
+                "Group D",
+                "Group E"
+              ],
+              "description": "no intervention",
+              "name": "no intervention",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Heart Failure With Normal Ejection Fraction"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Coventry",
+              "country": "United Kingdom",
+              "facility": "University Hospital Coventry and Warwickshire",
+              "geoPoint": {
+                "lat": 52.40656,
+                "lon": -1.51217
+              },
+              "zip": "CV2 2DX"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "University Hospital Coventry and Warwickshire, Coventry University",
+              "name": "Prithwish Banerjee, MD, FRCP",
+              "role": "STUDY_DIRECTOR"
+            },
+            {
+              "affiliation": "University of Warwick",
+              "name": "Francesco Cappuccio, MD, MSc, DSc",
+              "role": "STUDY_CHAIR"
+            },
+            {
+              "affiliation": "University Hospital Coventry and Warwickshire",
+              "name": "Martin Weickert, MD, FRCP",
+              "role": "STUDY_CHAIR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The study addresses the hypothesis that a gradual build-up in arterial resistance and microvascular endothelial dysfunction due to common comorbidities such as hypertension and diabetes mellitus, on top of age related vascular and cardiac changes (mainly fibrosis and hypertrophy), is responsible for HFpEF. The HFpEF syndrome is commonly seen in elderly subjects (often females) with hypertension and diabetes.\n\nThe investigators will investigate the vascular function, cardiovascular performance and myocardial fibrosis in different cohorts of subjects to try and prove this hypothesis. There will be 5 groups of subjects, all \u2265 70 years of age, as follows:\n\nA) Normal healthy volunteers without major comorbidities including hypertension or diabetes B) Patients with hypertension only (without diabetes mellitus) C) Patients with hypertension AND diabetes mellitus D) Patients with HFpEF. E) A parallel group of patients with Heart Failure with reduced Ejection Fraction (HFrEF) group.\n\nArterial resistance measured by pulse wave velocity will be the primary measure and will be compared between groups A to D. A separate comparison will be made between groups D and E. Other secondary measures will focus on endothelial function (Laser Doppler measurements) and other cardiovascular performance measures (peak VO2 by CPEX, 6-minute walk distance). Bloods samples will be taken for NT-proBNP, high sensitivity Troponin T, Galectin 3 and also stored for testing later for vascular biomarkers.",
+          "detailedDescription": "The study will be a pathophysiological, single-centre, observational study, in which all 4 groups, including the parallel-group will be investigated in terms of qualitative-, echocardiographic-, arterial resistance, exercise testing (CPEX and 6-MWT), endothelial dysfunction assessment by Laser Doppler and vascular biomarker measurements. We intend to investigate if there is increasing arterial resistance from group \"A\" to group \"D\" and a significant difference in arterial resistance between groups \"D\" and \"E\" by measuring the PWV.\n\nPrimary Outcome Our primary outcome will be a difference in arterial resistance between the groups and the parallel group, as measured by aortic PWV.\n\nSecondary Outcomes\n\nThe secondary outcomes are to assess and compare endothelial function and cardiovascular performance in all groups as measured by the following:\n\n* Blood tests: NTproBNP, Galectin-3\n* Urinalysis: Albumin, Creatinine and Metabolite profiles (\"metabolomics\"), related to cardiovascular risk and insulin resistance\n* Transthoracic echocardiography (TTE) indices of LV diastolic function, tissue Doppler imaging and strain rate imaging\n* Exercise tolerance: 6-minute walk test and a Cardiopulmonary Exercise Test (CPEX)\n* Microvascular function: Laser Doppler"
+        },
+        "designModule": {
+          "bioSpec": {
+            "description": "Serum analysis for galectin-3",
+            "retention": "SAMPLES_WITHOUT_DNA"
+          },
+          "designInfo": {
+            "observationalModel": "CASE_ONLY",
+            "timePerspective": "PROSPECTIVE"
+          },
+          "enrollmentInfo": {
+            "count": 85,
+            "type": "ACTUAL"
+          },
+          "patientRegistry": false,
+          "studyType": "OBSERVATIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Group A: males or females aged \\> 70 years without major systemic comorbidities (resting blood pressure \\<140/90 mmHg, no history diabetes mellitus according to WHO criteria).\n* Group B: males or females aged \\>70 years with hypertension, defined as a documented blood pressure of Systolic Blood Pressure (SP \\>140 mmHg or \\>90mmHg Diastolic Blood Pressure) without diabetes mellitus and HF defined as: a) relevant symptoms/signs/radiographic findings as indicated by Boston criteria b) need for diuretic therapy.\n* Group C: male or female aged \\> 70 years with diabetes mellitus (defined according to the World Health Organization (WHO)) AND hypertension, without HF defined as: a) relevant symptoms/signs/radiographic findings as indicated by Boston criteria38 b) need for diuretic therapy.\n* Group D: male or female aged \\>70 years with HFPEF, defined as signs and symptoms of HF with LVEF\\>50% and raised natriuretic peptides (BNP\\>35pg/ml or NT-proBNP\\>125pg/ml) along with one other criteria: i) structural heart disease (left atrial enlargement or left ventricular hypertrophy) on TTE, ii) evidence of LV diastolic dysfunction based on ESC Guidelines 2016, or iii) hospitalization with heart failure within 12 months prior to study entry.\n* Group E (parallel group): male or female aged \\>70 years with HFREF, defined as HF with LVEF \\<40% on TTE)\n\nExclusion Criteria:\n\n* Acute coronary syndrome (including MI), cardiac surgery, other major CV surgery within 3 months, or urgent percutaneous coronary intervention (PCI) within 30 days of entry.\n* Patients who have had an MI, coronary artery bypass graft (CABG) or other event within the 6 months prior to entry unless an echo measurement performed after the event confirms a LVEF \u226550%.\n* Current acute decompensated HF requiring intravenous therapy\n* Alternative reason for shortness of breath such as: significant pulmonary disease or severe COPD, haemoglobin (Hb) \\<10 g/dl, or body mass index (BMI) \\> 40 kg/m2.\n* Severe left-sided valvular heart disease\n* Hypotension (systolic BP \\<100 mm Hg).\n* Severe Liver failure\n* Primary pulmonary hypertension\n* Bedbound/immobile patients\n* Chronic renal failure with creatinine of \\>250 \u03bcmol/l\n* Significant Peripheral Vascular Disease (PVD), defined as having signs of absent peripheral pulses or reported claudication pain or documented history of PVD",
+          "healthyVolunteers": true,
+          "minimumAge": "70 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Group A: males or females aged \\> 70 years without major systemic\n\nGroup B: males or females aged \\>70 years with hypertension\n\nGroup C: male or female aged \\> 70 years with diabetes mellitus AND hypertension, without HF\n\nGroup D: male or female aged \\>70 years with HFpEF\n\nGroup E: male or female aged \\>70 years with HFREF, defined as HF with LVEF \\<40% on TTE)"
+        },
+        "identificationModule": {
+          "acronym": "IDENTIFY-HF",
+          "briefTitle": "The Heart Failure With Preserved Ejection Fraction (HFpEF) Pathophysiology Study.",
+          "nctId": "NCT03186833",
+          "officialTitle": "The Heart Failure With Preserved Ejection Fraction (HFpEF) Pathophysiology Study. Does Ageing Coupled With Vascular Effects of Comorbidities Lead to HFpEF? An In-depth Understanding From a Tertiary Centre",
+          "orgStudyIdInfo": {
+            "id": "PB186316"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "University Hospitals Coventry and Warwickshire NHS Trust"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "As measured by the Pulse Wave Velocity",
+              "measure": "Arterial stiffness",
+              "timeFrame": "30 minutes"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Laser Doppler Flowmetry",
+              "measure": "Endothelial function",
+              "timeFrame": "15 minutes"
+            },
+            {
+              "description": "NT-proBNP",
+              "measure": "Blood test",
+              "timeFrame": "5 minutes"
+            },
+            {
+              "description": "Galectin-3",
+              "measure": "Blood test, marker of fibrosis",
+              "timeFrame": "15 minutes"
+            },
+            {
+              "description": "Left ventricular systolic and diastolic function, Left atrial size, Valvular assessments, Tissue Doppler imaging, strain rate imaging",
+              "measure": "Transthoracic echocardiography",
+              "timeFrame": "45 minutes"
+            },
+            {
+              "description": "Cardio-pulmonary exercise",
+              "measure": "Exercise Tolerance",
+              "timeFrame": "30 minutes"
+            },
+            {
+              "description": "Albumin, Creatinine and Metabolite profiles (\"metabolomics\"), related to cardiovascular risk and insulin resistance",
+              "measure": "Urinalysis",
+              "timeFrame": "10 minutes"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": false
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Ali D, Callan N, Ennis S, Powell R, McGuire S, McGregor G, Weickert MO, Miller MA, Cappuccio FP, Banerjee P. Heart failure with preserved ejection fraction (HFpEF) pathophysiology study (IDENTIFY-HF): does increased arterial stiffness associate with HFpEF, in addition to ageing and vascular effects of comorbidities? Rationale and design. BMJ Open. 2019 Nov 19;9(11):e027984. doi: 10.1136/bmjopen-2018-027984.",
+              "pmid": "31748285",
+              "type": "DERIVED"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "University Hospitals Coventry and Warwickshire NHS Trust"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2018-12-31",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2019-09-27",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2019-09-26",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2018-12-31",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2017-06-06",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2019-09",
+          "studyFirstPostDateStruct": {
+            "date": "2017-06-14",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2017-06-09",
+          "studyFirstSubmitQcDate": "2017-06-13"
+        }
+      }
+    }
+  ]
+}

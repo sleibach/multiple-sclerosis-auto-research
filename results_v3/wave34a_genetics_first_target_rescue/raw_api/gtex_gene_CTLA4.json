@@ -1,0 +1,32 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr2",
+        "dataSource": "HAVANA",
+        "description": "cytotoxic T-lymphocyte associated protein 4 [Source:HGNC Symbol;Acc:HGNC:2505]",
+        "end": 203873960,
+        "entrezGeneId": 1493,
+        "gencodeId": "ENSG00000163599.14",
+        "gencodeVersion": "v26",
+        "geneStatus": "",
+        "geneSymbol": "CTLA4",
+        "geneSymbolUpper": "CTLA4",
+        "geneType": "protein coding",
+        "genomeBuild": "GRCh38/hg38",
+        "start": 203867786,
+        "strand": "+",
+        "tss": 203867786
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 3,
+      "numberOfPages": 1,
+      "page": 0,
+      "totalNumberOfItems": 1
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/reference/gene?geneId=CTLA4&gencodeVersion=v26&genomeBuild=GRCh38%2Fhg38&itemsPerPage=3"
+}

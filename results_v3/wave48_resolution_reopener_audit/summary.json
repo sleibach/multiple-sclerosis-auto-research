@@ -1,0 +1,20 @@
+{
+  "calls": {
+    "CD300_RECEPTOR_SPECIFIC_TUNING": "REOPEN_ONLY_IF_RECEPTOR_SPECIFIC_PERTURBATION_NOT_V3_PROMOTION",
+    "FPR2_ANXA1_BIASED_RESOLUTION": "REOPEN_WITH_WETLAB_TEST_ONLY_NOT_V3_PROMOTION"
+  },
+  "key_outputs": [
+    "results_v3/wave48_resolution_reopener_audit/route_reopener_audit.tsv",
+    "results_v3/wave48_resolution_reopener_audit/decision_matrix.tsv",
+    "results_v3/wave48_resolution_reopener_audit/candidate_gene_evidence.tsv",
+    "results_v3/wave48_resolution_reopener_audit/public_api_counts.tsv",
+    "results_v3/wave48_resolution_reopener_audit/REPORT.md"
+  ],
+  "output_dir": "results_v3/wave48_resolution_reopener_audit",
+  "promoted_count": 0,
+  "routes_tested": [
+    "CD300_RECEPTOR_SPECIFIC_TUNING",
+    "FPR2_ANXA1_BIASED_RESOLUTION"
+  ],
+  "seed": 20260527
+}

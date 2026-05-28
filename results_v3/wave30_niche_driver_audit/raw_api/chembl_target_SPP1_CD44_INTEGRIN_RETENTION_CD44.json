@@ -1,0 +1,2687 @@
+{
+  "page_meta": {
+    "limit": 3,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 3
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "CD44 antigen",
+      "score": 18.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL3232692",
+      "target_components": [
+        {
+          "accession": "P16070",
+          "component_description": "CD44 antigen",
+          "component_id": 8524,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "CD44",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "CD44 antigen",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CD_antigen=CD44",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CDw44",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ECMR-III",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Epican",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Extracellular matrix receptor III",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "GP90 lymphocyte homing/adhesion receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Heparan sulfate proteoglycan",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Hermes antigen",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "HUTCH-I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Hyaluronate receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LHR",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "MDU2",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "MDU3",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "MIC4",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "PGP-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PGP-I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Phagocytic glycoprotein 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Phagocytic glycoprotein I",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P16070",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P16070",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005794",
+              "xref_name": "Golgi apparatus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005902",
+              "xref_name": "microvillus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005925",
+              "xref_name": "focal adhesion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009986",
+              "xref_name": "cell surface",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016323",
+              "xref_name": "basolateral plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016324",
+              "xref_name": "apical plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0030667",
+              "xref_name": "secretory granule membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031258",
+              "xref_name": "lamellipodium membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0035692",
+              "xref_name": "macrophage migration inhibitory factor receptor complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0042995",
+              "xref_name": "cell projection",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0004888",
+              "xref_name": "transmembrane signaling receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004896",
+              "xref_name": "cytokine receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005540",
+              "xref_name": "hyaluronic acid binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0007155",
+              "xref_name": "cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007160",
+              "xref_name": "cell-matrix adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016477",
+              "xref_name": "cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0019221",
+              "xref_name": "cytokine-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030214",
+              "xref_name": "hyaluronan catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034116",
+              "xref_name": "positive regulation of heterotypic cell-cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042110",
+              "xref_name": "T cell activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043066",
+              "xref_name": "negative regulation of apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043518",
+              "xref_name": "negative regulation of DNA damage response, signal transduction by p53 class mediator",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0044319",
+              "xref_name": "wound healing, spreading of cells",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051216",
+              "xref_name": "cartilage development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070374",
+              "xref_name": "positive regulation of ERK1 and ERK2 cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070487",
+              "xref_name": "monocyte aggregation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0098609",
+              "xref_name": "cell-cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1900625",
+              "xref_name": "positive regulation of monocyte aggregation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1902166",
+              "xref_name": "negative regulation of intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000117",
+              "xref_name": "negative regulation of cysteine-type endopeptidase activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000392",
+              "xref_name": "regulation of lamellipodium morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:1681",
+              "xref_name": "CD44",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "P16070",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR000538",
+              "xref_name": "Link_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001231",
+              "xref_name": "CD44_antigen",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016186",
+              "xref_name": "C-type_lectin-like/link_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016187",
+              "xref_name": "CTDL_fold",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR043210",
+              "xref_name": "CD44_antigen-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10225",
+              "xref_name": "HYALURONAN RECEPTOR",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10225:SF6",
+              "xref_name": "CD44 ANTIGEN",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "1POZ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1UUH",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2I83",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4PZ3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4PZ4",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6TXS",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1UUH",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4PZ3",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4PZ4",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6TXS",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF00193",
+              "xref_name": "Xlink",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA26221",
+              "xref_name": "CD44 molecule (IN blood group)",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P16070",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-1474228",
+              "xref_name": "Degradation of the extracellular matrix",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-202733",
+              "xref_name": "Cell surface interactions at the vascular wall",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-216083",
+              "xref_name": "Integrin cell surface interactions",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-2160916",
+              "xref_name": "Hyaluronan uptake and degradation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-6798695",
+              "xref_name": "Neutrophil degranulation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-877300",
+              "xref_name": "Interferon gamma signaling",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "A5YRN9",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "B6EAT9",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "D3DR12",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "D3DR13",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O95370",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P16070",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P22511",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q04858",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q13419",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q13957",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q13958",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q13959",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q13960",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q13961",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q13967",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q13968",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q13980",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q15861",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q16064",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q16065",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q16066",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q16208",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q16522",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q86T72",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q86Z27",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8N694",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q92493",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q96J24",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9H5A5",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UC28",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UC29",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UC30",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UCB0",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UJ36",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    },
+    {
+      "cross_references": [],
+      "organism": "Mus musculus",
+      "pref_name": "CD44 antigen",
+      "score": 18.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL3232693",
+      "target_components": [
+        {
+          "accession": "P15379",
+          "component_description": "CD44 antigen",
+          "component_id": 8525,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "Cd44",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "CD44 antigen",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CD_antigen=CD44",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ECMR-III",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Extracellular matrix receptor III",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "GP90 lymphocyte homing/adhesion receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Hermes antigen",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "HUTCH-I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Hyaluronate receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Ly-24",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Ly-24",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Lymphocyte antigen 24",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PGP-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PGP-I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Phagocytic glycoprotein 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Phagocytic glycoprotein I",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P15379",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005902",
+              "xref_name": "microvillus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009897",
+              "xref_name": "external side of plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009986",
+              "xref_name": "cell surface",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016323",
+              "xref_name": "basolateral plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016324",
+              "xref_name": "apical plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031258",
+              "xref_name": "lamellipodium membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0035692",
+              "xref_name": "macrophage migration inhibitory factor receptor complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0042995",
+              "xref_name": "cell projection",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0045121",
+              "xref_name": "membrane raft",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0004896",
+              "xref_name": "cytokine receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005114",
+              "xref_name": "type II transforming growth factor beta receptor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005540",
+              "xref_name": "hyaluronic acid binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019955",
+              "xref_name": "cytokine binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001658",
+              "xref_name": "branching involved in ureteric bud morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002821",
+              "xref_name": "positive regulation of adaptive immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002906",
+              "xref_name": "negative regulation of mature B cell apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006898",
+              "xref_name": "receptor-mediated endocytosis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007155",
+              "xref_name": "cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010628",
+              "xref_name": "positive regulation of gene expression",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016055",
+              "xref_name": "Wnt signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0019221",
+              "xref_name": "cytokine-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030214",
+              "xref_name": "hyaluronan catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043518",
+              "xref_name": "negative regulation of DNA damage response, signal transduction by p53 class mediator",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0044319",
+              "xref_name": "wound healing, spreading of cells",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045590",
+              "xref_name": "negative regulation of regulatory T cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050728",
+              "xref_name": "negative regulation of inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060442",
+              "xref_name": "branching involved in prostate gland morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070374",
+              "xref_name": "positive regulation of ERK1 and ERK2 cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1902166",
+              "xref_name": "negative regulation of intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000392",
+              "xref_name": "regulation of lamellipodium morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000562",
+              "xref_name": "negative regulation of CD4-positive, alpha-beta T cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "P15379",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR000538",
+              "xref_name": "Link_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001231",
+              "xref_name": "CD44_antigen",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016186",
+              "xref_name": "C-type_lectin-like/link_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016187",
+              "xref_name": "CTDL_fold",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR043210",
+              "xref_name": "CD44_antigen-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10225",
+              "xref_name": "HYALURONAN RECEPTOR",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10225:SF6",
+              "xref_name": "CD44 ANTIGEN",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "2JCP",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2JCQ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2JCR",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2ZPY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4MRD",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4MRE",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4MRF",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4MRG",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4MRH",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4NP2",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4NP3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5BZC",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5BZE",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5BZF",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5BZG",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5BZH",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5BZI",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5BZJ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5BZK",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5BZL",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5BZM",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5BZN",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5BZO",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5BZP",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5BZQ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5BZR",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5BZS",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5BZT",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SBK",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SBL",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SBM",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SBN",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SBO",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SBP",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SBQ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SBR",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SBS",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SBT",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SBU",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SBV",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SBW",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SBX",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SBY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SBZ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SC0",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SC1",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SC2",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SC3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SC4",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SC5",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SC6",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SC7",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2JCP",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2JCQ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2JCR",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2ZPY",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4MRD",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4MRE",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4MRF",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4MRG",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4MRH",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4NP2",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4NP3",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5BZC",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5BZE",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5BZF",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5BZG",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5BZH",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5BZI",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5BZJ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5BZK",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5BZL",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5BZM",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5BZN",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5BZO",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5BZP",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5BZQ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5BZR",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5BZS",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5BZT",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SBK",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SBL",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SBM",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SBN",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SBO",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SBP",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SBQ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SBR",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SBS",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SBT",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SBU",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SBV",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SBW",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SBX",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SBY",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SBZ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SC0",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SC1",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SC2",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SC3",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SC4",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SC5",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SC6",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SC7",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF00193",
+              "xref_name": "Xlink",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "R-MMU-1474228",
+              "xref_name": "Degradation of the extracellular matrix",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-MMU-202733",
+              "xref_name": "Cell surface interactions at the vascular wall",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-MMU-216083",
+              "xref_name": "Integrin cell surface interactions",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-MMU-2160916",
+              "xref_name": "Hyaluronan uptake and degradation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-MMU-6798695",
+              "xref_name": "Neutrophil degranulation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P15379",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q05732",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q61395",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q62060",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q62061",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q62062",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q62063",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q62408",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q62409",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q64296",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q99J14",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9QYX8",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 10090
+    },
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "MSN-CD44",
+      "score": 17.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL5465400",
+      "target_components": [
+        {
+          "accession": "P16070",
+          "component_description": "CD44 antigen",
+          "component_id": 8524,
+          "component_type": "PROTEIN",
+          "relationship": "INTERACTING PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "CD44",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "CD44 antigen",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CD_antigen=CD44",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CDw44",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ECMR-III",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Epican",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Extracellular matrix receptor III",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "GP90 lymphocyte homing/adhesion receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Heparan sulfate proteoglycan",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Hermes antigen",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "HUTCH-I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Hyaluronate receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LHR",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "MDU2",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "MDU3",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "MIC4",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "PGP-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PGP-I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Phagocytic glycoprotein 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Phagocytic glycoprotein I",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P16070",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P16070",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005794",
+              "xref_name": "Golgi apparatus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005902",
+              "xref_name": "microvillus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005925",
+              "xref_name": "focal adhesion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009986",
+              "xref_name": "cell surface",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016323",
+              "xref_name": "basolateral plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016324",
+              "xref_name": "apical plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0030667",
+              "xref_name": "secretory granule membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031258",
+              "xref_name": "lamellipodium membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0035692",
+              "xref_name": "macrophage migration inhibitory factor receptor complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0042995",
+              "xref_name": "cell projection",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0004888",
+              "xref_name": "transmembrane signaling receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004896",
+              "xref_name": "cytokine receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005540",
+              "xref_name": "hyaluronic acid binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0007155",
+              "xref_name": "cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007160",
+              "xref_name": "cell-matrix adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016477",
+              "xref_name": "cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0019221",
+              "xref_name": "cytokine-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030214",
+              "xref_name": "hyaluronan catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034116",
+              "xref_name": "positive regulation of heterotypic cell-cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042110",
+              "xref_name": "T cell activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043066",
+              "xref_name": "negative regulation of apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043518",
+              "xref_name": "negative regulation of DNA damage response, signal transduction by p53 class mediator",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0044319",
+              "xref_name": "wound healing, spreading of cells",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051216",
+              "xref_name": "cartilage development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070374",
+              "xref_name": "positive regulation of ERK1 and ERK2 cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070487",
+              "xref_name": "monocyte aggregation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0098609",
+              "xref_name": "cell-cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1900625",
+              "xref_name": "positive regulation of monocyte aggregation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1902166",
+              "xref_name": "negative regulation of intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000117",
+              "xref_name": "negative regulation of cysteine-type endopeptidase activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000392",
+              "xref_name": "regulation of lamellipodium morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:1681",
+              "xref_name": "CD44",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "P16070",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR000538",
+              "xref_name": "Link_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001231",
+              "xref_name": "CD44_antigen",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016186",
+              "xref_name": "C-type_lectin-like/link_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016187",
+              "xref_name": "CTDL_fold",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR043210",
+              "xref_name": "CD44_antigen-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10225",
+              "xref_name": "HYALURONAN RECEPTOR",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10225:SF6",
+              "xref_name": "CD44 ANTIGEN",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "1POZ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1UUH",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2I83",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4PZ3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4PZ4",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6TXS",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1UUH",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4PZ3",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4PZ4",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6TXS",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF00193",
+              "xref_name": "Xlink",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA26221",
+              "xref_name": "CD44 molecule (IN blood group)",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P16070",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-1474228",
+              "xref_name": "Degradation of the extracellular matrix",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-202733",
+              "xref_name": "Cell surface interactions at the vascular wall",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-216083",
+              "xref_name": "Integrin cell surface interactions",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-2160916",
+              "xref_name": "Hyaluronan uptake and degradation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-6798695",
+              "xref_name": "Neutrophil degranulation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-877300",
+              "xref_name": "Interferon gamma signaling",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "A5YRN9",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "B6EAT9",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "D3DR12",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "D3DR13",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O95370",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P16070",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P22511",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q04858",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q13419",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q13957",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q13958",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q13959",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q13960",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q13961",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q13967",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q13968",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q13980",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q15861",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q16064",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q16065",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q16066",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q16208",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q16522",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q86T72",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q86Z27",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8N694",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q92493",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q96J24",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9H5A5",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UC28",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UC29",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UC30",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UCB0",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UJ36",
+              "xref_name": "CD44 antigen",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        },
+        {
+          "accession": "P26038",
+          "component_description": "Moesin",
+          "component_id": 18153,
+          "component_type": "PROTEIN",
+          "relationship": "INTERACTING PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "Membrane-organizing extension spike protein",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Moesin",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "MSN",
+              "syn_type": "GENE_SYMBOL"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P26038",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P26038",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0001931",
+              "xref_name": "uropod",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005615",
+              "xref_name": "extracellular space",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005856",
+              "xref_name": "cytoskeleton",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005902",
+              "xref_name": "microvillus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005912",
+              "xref_name": "adherens junction",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005925",
+              "xref_name": "focal adhesion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009986",
+              "xref_name": "cell surface",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016323",
+              "xref_name": "basolateral plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016324",
+              "xref_name": "apical plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0030175",
+              "xref_name": "filopodium",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031143",
+              "xref_name": "pseudopodium",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031528",
+              "xref_name": "microvillus membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0042995",
+              "xref_name": "cell projection",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0045177",
+              "xref_name": "apical part of cell",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0048471",
+              "xref_name": "perinuclear region of cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0071944",
+              "xref_name": "cell periphery",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0072562",
+              "xref_name": "blood microparticle",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0003725",
+              "xref_name": "double-stranded RNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003779",
+              "xref_name": "actin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005102",
+              "xref_name": "signaling receptor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005200",
+              "xref_name": "structural constituent of cytoskeleton",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019899",
+              "xref_name": "enzyme binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019901",
+              "xref_name": "protein kinase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0050839",
+              "xref_name": "cell adhesion molecule binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001771",
+              "xref_name": "immunological synapse formation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007010",
+              "xref_name": "cytoskeleton organization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007159",
+              "xref_name": "leukocyte cell-cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008360",
+              "xref_name": "regulation of cell shape",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008361",
+              "xref_name": "regulation of cell size",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010628",
+              "xref_name": "positive regulation of gene expression",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0022612",
+              "xref_name": "gland morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0022614",
+              "xref_name": "membrane to membrane docking",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042098",
+              "xref_name": "T cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045198",
+              "xref_name": "establishment of epithelial cell apical/basal polarity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045732",
+              "xref_name": "positive regulation of protein catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050900",
+              "xref_name": "leukocyte migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051128",
+              "xref_name": "regulation of cellular component organization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0061028",
+              "xref_name": "establishment of endothelial barrier",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070489",
+              "xref_name": "T cell aggregation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071394",
+              "xref_name": "cellular response to testosterone stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071803",
+              "xref_name": "positive regulation of podosome assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0072678",
+              "xref_name": "T cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1902115",
+              "xref_name": "regulation of organelle assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1902966",
+              "xref_name": "positive regulation of protein localization to early endosome",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000401",
+              "xref_name": "regulation of lymphocyte migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000643",
+              "xref_name": "positive regulation of early endosome to late endosome transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:7373",
+              "xref_name": "MSN",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "P26038",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR000299",
+              "xref_name": "FERM_domain",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR000798",
+              "xref_name": "Ez/rad/moesin-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR008954",
+              "xref_name": "Moesin_tail_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR011174",
+              "xref_name": "ERM",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR011259",
+              "xref_name": "ERM_C_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR011993",
+              "xref_name": "PH-like_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR014352",
+              "xref_name": "FERM/acyl-CoA-bd_prot_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR018979",
+              "xref_name": "FERM_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR018980",
+              "xref_name": "FERM_PH-like_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR019747",
+              "xref_name": "FERM_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR019748",
+              "xref_name": "FERM_central",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR019749",
+              "xref_name": "Band_41_domain",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029071",
+              "xref_name": "Ubiquitin-like_domsf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR035963",
+              "xref_name": "FERM_2",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR041789",
+              "xref_name": "ERM_FERM_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR046810",
+              "xref_name": "ERM_helical",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR23281",
+              "xref_name": "MERLIN/MOESIN/EZRIN/RADIXIN",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "1E5W",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1EF1",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1SGH",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6TXQ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6TXS",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8CIR",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8CIS",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8CIT",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8CIU",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1E5W",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1EF1",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1SGH",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6TXQ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6TXS",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8CIR",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8CIS",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8CIT",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8CIU",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF00373",
+              "xref_name": "FERM_M",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF00769",
+              "xref_name": "ERM_C",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF09379",
+              "xref_name": "FERM_N",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF09380",
+              "xref_name": "FERM_C",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF20492",
+              "xref_name": "ERM_helical",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA31178",
+              "xref_name": "moesin",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P26038",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-437239",
+              "xref_name": "Recycling pathway of L1",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-8950505",
+              "xref_name": "Gene and protein expression by JAK-STAT signaling after Interleukin-12 stimulation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9662360",
+              "xref_name": "Sensory processing of sound by inner hair cells of the cochlea",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9662361",
+              "xref_name": "Sensory processing of sound by outer hair cells of the cochlea",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9725370",
+              "xref_name": "Signaling by ALK fusions and activated point mutants",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P26038",
+              "xref_name": "Moesin",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "PROTEIN-PROTEIN INTERACTION",
+      "tax_id": 9606
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "consensus_direction": false,
+    "consensus_inhibition": false,
+    "consensus_stimulation": false,
+    "curation_effort": 6,
+    "is_directed": true,
+    "is_inhibition": false,
+    "is_stimulation": true,
+    "references": "HPRD:8647212;InnateDB:20167604;NetPath:8647212;NetPath:20974963;HPRD:15996891;SIGNOR:18445337",
+    "source": "P16871",
+    "source_genesymbol": "IL7R",
+    "sources": [
+      "HPRD",
+      "InnateDB",
+      "NetPath",
+      "SIGNOR",
+      "Wang"
+    ],
+    "target": "P23458",
+    "target_genesymbol": "JAK1"
+  },
+  {
+    "consensus_direction": false,
+    "consensus_inhibition": false,
+    "consensus_stimulation": false,
+    "curation_effort": 6,
+    "is_directed": true,
+    "is_inhibition": false,
+    "is_stimulation": true,
+    "references": "HPRD:7481769;SPIKE:7535338;InnateDB:20167604;SPIKE_LC:7535338;HPRD:15996891;NetPath:7481769",
+    "source": "P16871",
+    "source_genesymbol": "IL7R",
+    "sources": [
+      "HPRD",
+      "InnateDB",
+      "NetPath",
+      "SPIKE",
+      "SPIKE_LC",
+      "Wang"
+    ],
+    "target": "P52333",
+    "target_genesymbol": "JAK3"
+  },
+  {
+    "consensus_direction": true,
+    "consensus_inhibition": false,
+    "consensus_stimulation": true,
+    "curation_effort": 5,
+    "is_directed": true,
+    "is_inhibition": false,
+    "is_stimulation": true,
+    "references": "HPRD:11418668;SignaLink3:23331499;HINT:28368013;NetPath:10881176;SignaLink3:10974032",
+    "source": "P16871",
+    "source_genesymbol": "IL7R",
+    "sources": [
+      "HINT",
+      "HPRD",
+      "NetPath",
+      "SignaLink3",
+      "Wang"
+    ],
+    "target": "Q9HC73",
+    "target_genesymbol": "CRLF2"
+  },
+  {
+    "consensus_direction": false,
+    "consensus_inhibition": false,
+    "consensus_stimulation": false,
+    "curation_effort": 1,
+    "is_directed": true,
+    "is_inhibition": false,
+    "is_stimulation": false,
+    "references": "Cellinker:32589946",
+    "source": "P16871",
+    "source_genesymbol": "IL7R",
+    "sources": [
+      "Cellinker"
+    ],
+    "target": "O00300",
+    "target_genesymbol": "TNFRSF11B"
+  }
+]

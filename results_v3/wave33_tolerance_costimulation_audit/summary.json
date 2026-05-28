@@ -1,0 +1,100 @@
+{
+  "call_counts": {
+    "NO_GO_TOLERANCE_AXIS": 2,
+    "NO_GO_TOLERANCE_PRIOR_ART_BLOCKED": 11
+  },
+  "gwas_catalog_rows_scanned_autoimmune_subset": 15875,
+  "interpretation": "Tolerance/costimulation axes are genetically and pharmacologically rich, but they are either clinically/prior-art saturated, locally unsupported in the V3 cell-state data, directionally conflicted, or lacking target-resolved coloc/perturbation evidence.",
+  "n_axes": 13,
+  "seed": 20260527,
+  "top_axes": [
+    {
+      "axis": "BTLA_HVEM_CHECKPOINT",
+      "clinicaltrials_autoimmune_count": 1,
+      "gwas_catalog_trait_count": 11,
+      "local_breadth": 3.0,
+      "manual_blocker": "Wave19 parked BTLA: recurrence without state coupling and crowded checkpoint biology.",
+      "manual_prior_risk": "high",
+      "ms_anchor": false,
+      "tolerance_axis_score": 7.15,
+      "wave33_call": "NO_GO_TOLERANCE_PRIOR_ART_BLOCKED"
+    },
+    {
+      "axis": "CD6_ALCAM_INTERFACE",
+      "clinicaltrials_autoimmune_count": 6,
+      "gwas_catalog_trait_count": 9,
+      "local_breadth": 1.0,
+      "manual_blocker": "Potentially tractable but prior-arted; V3 local cross-disease and MS anchoring are not established.",
+      "manual_prior_risk": "high",
+      "ms_anchor": true,
+      "tolerance_axis_score": 6.050000000000001,
+      "wave33_call": "NO_GO_TOLERANCE_PRIOR_ART_BLOCKED"
+    },
+    {
+      "axis": "LAG3_MHCII_CHECKPOINT",
+      "clinicaltrials_autoimmune_count": 21,
+      "gwas_catalog_trait_count": 77,
+      "local_breadth": 4.0,
+      "manual_blocker": "LAG3 itself is locally negative; HLA-II/CD74 support would just recycle the exhausted module.",
+      "manual_prior_risk": "high",
+      "ms_anchor": true,
+      "tolerance_axis_score": 5.225,
+      "wave33_call": "NO_GO_TOLERANCE_PRIOR_ART_BLOCKED"
+    },
+    {
+      "axis": "BACH2_IKZF_TREG_PROGRAM",
+      "clinicaltrials_autoimmune_count": 68,
+      "gwas_catalog_trait_count": 43,
+      "local_breadth": 1.0,
+      "manual_blocker": "Strong conceptual genetics class, but transcription-factor restoration is not a tractable selective therapeutic package here.",
+      "manual_prior_risk": "medium",
+      "ms_anchor": false,
+      "tolerance_axis_score": 5.125,
+      "wave33_call": "NO_GO_TOLERANCE_AXIS"
+    },
+    {
+      "axis": "TNFRSF4_OX40_AXIS",
+      "clinicaltrials_autoimmune_count": 6,
+      "gwas_catalog_trait_count": 13,
+      "local_breadth": 2.0,
+      "manual_blocker": "Costimulation axis is crowded and local V3 support is narrow; intervention direction is not MS/progression-specific.",
+      "manual_prior_risk": "high",
+      "ms_anchor": false,
+      "tolerance_axis_score": 5.049999999999999,
+      "wave33_call": "NO_GO_TOLERANCE_PRIOR_ART_BLOCKED"
+    },
+    {
+      "axis": "IL7R_TCELL_SURVIVAL",
+      "clinicaltrials_autoimmune_count": 19,
+      "gwas_catalog_trait_count": 14,
+      "local_breadth": 3.0,
+      "manual_blocker": "IL7R is locally recurrent but behaves as generic immune-cell/cytokine biology; target-resolved genetics and selective benefit are absent in V3.",
+      "manual_prior_risk": "high",
+      "ms_anchor": false,
+      "tolerance_axis_score": 3.8000000000000007,
+      "wave33_call": "NO_GO_TOLERANCE_PRIOR_ART_BLOCKED"
+    },
+    {
+      "axis": "CD226_TIGIT_PVR_BALANCE",
+      "clinicaltrials_autoimmune_count": 19,
+      "gwas_catalog_trait_count": 15,
+      "local_breadth": 2.0,
+      "manual_blocker": "Genetic rationale may exist for CD226, but local V3 expression/cell-state support is weak or negative and TIGIT/PVR biology is crowded with oncology/immunotherapy direction conflicts.",
+      "manual_prior_risk": "high",
+      "ms_anchor": false,
+      "tolerance_axis_score": 3.799999999999999,
+      "wave33_call": "NO_GO_TOLERANCE_PRIOR_ART_BLOCKED"
+    },
+    {
+      "axis": "IL23_IL12_TH17_AXIS",
+      "clinicaltrials_autoimmune_count": 50,
+      "gwas_catalog_trait_count": 59,
+      "local_breadth": 2.0,
+      "manual_blocker": "Highly validated and crowded in psoriasis/IBD/autoimmunity; not novel and not MS-repair specific.",
+      "manual_prior_risk": "blocking",
+      "ms_anchor": false,
+      "tolerance_axis_score": 3.5999999999999996,
+      "wave33_call": "NO_GO_TOLERANCE_PRIOR_ART_BLOCKED"
+    }
+  ]
+}

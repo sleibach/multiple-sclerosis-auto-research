@@ -1,0 +1,79 @@
+{
+  "activities": [
+    {
+      "action_type": {
+        "action_type": "DEGRADER",
+        "description": "Binds to or antagonizes a receptor, leading to its degradation",
+        "parent_type": "NEGATIVE MODULATOR"
+      },
+      "activity_comment": null,
+      "activity_id": 25694110,
+      "activity_properties": [
+        {
+          "comments": null,
+          "relation": "=",
+          "result_flag": 0,
+          "standard_relation": "=",
+          "standard_text_value": null,
+          "standard_type": "TIME",
+          "standard_units": "hr",
+          "standard_value": "48.0",
+          "text_value": null,
+          "type": "TIME",
+          "units": "hrs",
+          "value": "48.0"
+        }
+      ],
+      "assay_chembl_id": "CHEMBL5383245",
+      "assay_description": "PROTAC activity at Cyclin C in human MDA-MB-468 cells assessed as degradation of Cyclin C incubated for 48 hrs by Western blotting analysis",
+      "assay_type": "B",
+      "assay_variant_accession": null,
+      "assay_variant_mutation": null,
+      "bao_endpoint": "BAO_0000179",
+      "bao_format": "BAO_0000219",
+      "bao_label": "cell-based format",
+      "canonical_smiles": "O=C(Cn1cc(-c2ccc(-c3cncc4ccccc34)cc2)cn1)N1CCN(CCCC23CC4CC(CC(C4)C2)C3)CC1",
+      "data_validity_comment": null,
+      "data_validity_description": null,
+      "document_chembl_id": "CHEMBL5380817",
+      "document_journal": "J Med Chem",
+      "document_year": 2023,
+      "ligand_efficiency": null,
+      "modality": "Targeted Protein Degradation",
+      "molecule_chembl_id": "CHEMBL5429896",
+      "molecule_pref_name": null,
+      "parent_molecule_chembl_id": "CHEMBL5429896",
+      "pchembl_value": null,
+      "potential_duplicate": 0,
+      "qudt_units": "http://www.openphacts.org/units/Nanomolar",
+      "record_id": 4004563,
+      "relation": "=",
+      "src_id": 1,
+      "standard_flag": 1,
+      "standard_relation": "=",
+      "standard_text_value": null,
+      "standard_type": "DC50",
+      "standard_units": "nM",
+      "standard_upper_value": null,
+      "standard_value": "2640.0",
+      "target_chembl_id": "CHEMBL2401607",
+      "target_organism": "Homo sapiens",
+      "target_pref_name": "Cyclin-C",
+      "target_tax_id": "9606",
+      "text_value": null,
+      "toid": null,
+      "type": "DC50",
+      "units": "uM",
+      "uo_units": "UO_0000065",
+      "upper_value": null,
+      "value": "2.64"
+    }
+  ],
+  "page_meta": {
+    "limit": 100,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  }
+}

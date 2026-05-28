@@ -1,0 +1,31 @@
+{
+  "analysis_call": "SIDECAR_NO_DIRECT_THERAPEUTIC_PROMOTION",
+  "artifacts": {
+    "geneformer_context_extract": "results_v3/sidecar_litaf_casp4_ordering/geneformer_context_extract.tsv",
+    "geneformer_gene_summary_extract": "results_v3/sidecar_litaf_casp4_ordering/geneformer_gene_summary_extract.tsv",
+    "human_gene_timecourse": "results_v3/sidecar_litaf_casp4_ordering/gse294918_gene_timecourse.tsv",
+    "human_module_timecourse": "results_v3/sidecar_litaf_casp4_ordering/gse294918_module_timecourse.tsv",
+    "human_ordering_summary": "results_v3/sidecar_litaf_casp4_ordering/gse294918_ordering_summary.tsv",
+    "human_rux_effects": "results_v3/sidecar_litaf_casp4_ordering/gse294918_rux_effects.tsv",
+    "l1000_extract": "results_v3/sidecar_litaf_casp4_ordering/l1000_branch_extract.tsv",
+    "mixscale_extract": "results_v3/sidecar_litaf_casp4_ordering/mixscale_axis_extract.tsv",
+    "mouse_gene_contrasts": "results_v3/sidecar_litaf_casp4_ordering/gse162464_gene_contrasts.tsv",
+    "mouse_module_contrasts": "results_v3/sidecar_litaf_casp4_ordering/gse162464_module_contrasts.tsv",
+    "report": "subagents_v3/sidecar_litaf_casp4_perturbation_modeling.md",
+    "target_directionality_summary": "results_v3/sidecar_litaf_casp4_ordering/target_directionality_summary.tsv",
+    "wave37_extract": "results_v3/sidecar_litaf_casp4_ordering/wave37_screen_extract.tsv"
+  },
+  "datasets_used": [
+    "GSE294918",
+    "GSE162464",
+    "GSE212008/Wave37",
+    "GSE281048/Mixscale local summaries",
+    "local Geneformer broad-residual deletion outputs",
+    "local L1000FWD outputs"
+  ],
+  "random_seed": 20260527,
+  "sidecar_call": {
+    "CASP4": "DEEPEN_AS_STRESS_READOUT_NOT_TARGET: human ruxolitinib suppresses CASP4 and mouse IFN induces Casp4, but direct CASP4 perturbation and selective therapeutic direction are absent/blocked.",
+    "LITAF": "PARK_AS_LATE_LPS_C15_COSTATE: LITAF tracks late LPS/C15 timing but lacks IFN/JAK dependence, direct perturbation, and selective modality."
+  }
+}

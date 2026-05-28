@@ -1,0 +1,1322 @@
+{
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=FXYD5%5BTitle%2FAbstract%5D+AND+%28knockdown%5BTitle%2FAbstract%5D+OR+knockout%5BTitle%2FAbstract%5D+OR+CRISPR%5BTitle%2FAbstract%5D+OR+siRNA%5BTitle%2FAbstract%5D+OR+shRNA%5BTitle%2FAbstract%5D+OR+overexpression%5BTitle%2FAbstract%5D+OR+perturbation%5BTitle%2FAbstract%5D%29&retmode=json&retmax=10",
+  "status": 200,
+  "json": {
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    },
+    "esearchresult": {
+      "count": "23",
+      "retmax": "10",
+      "retstart": "0",
+      "idlist": [
+        "40972883",
+        "40912610",
+        "39532790",
+        "38155284",
+        "37814066",
+        "36621663",
+        "35977595",
+        "35191523",
+        "34059618",
+        "33570156"
+      ],
+      "translationset": [],
+      "querytranslation": "\"FXYD5\"[Title/Abstract] AND (\"knockdown\"[Title/Abstract] OR \"knockout\"[Title/Abstract] OR \"CRISPR\"[Title/Abstract] OR \"siRNA\"[Title/Abstract] OR \"shRNA\"[Title/Abstract] OR \"overexpression\"[Title/Abstract] OR \"perturbation\"[Title/Abstract])"
+    }
+  },
+  "summary_json": {
+    "header": {
+      "type": "esummary",
+      "version": "0.3"
+    },
+    "result": {
+      "uids": [
+        "40972883",
+        "40912610",
+        "39532790",
+        "38155284",
+        "37814066",
+        "36621663",
+        "35977595",
+        "35191523",
+        "34059618",
+        "33570156"
+      ],
+      "40972883": {
+        "uid": "40972883",
+        "pubdate": "2025 Oct 1",
+        "epubdate": "2025 Sep 17",
+        "source": "Exp Cell Res",
+        "authors": [
+          {
+            "name": "Xie H",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Liao L",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Li J",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Cai R",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "He H",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Lu M",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Lu M",
+        "title": "USP11 stabilizes RALY to promote FXYD5-mediated aerobic glycolysis and aggravate pancreatic cancer progression.",
+        "sorttitle": "usp11 stabilizes raly to promote fxyd5 mediated aerobic glycolysis and aggravate pancreatic cancer progression",
+        "volume": "452",
+        "issue": "2",
+        "pages": "114758",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "0373226",
+        "issn": "0014-4827",
+        "essn": "1090-2422",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "pubstatus": "256",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "40972883"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1016/j.yexcr.2025.114758"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "S0014-4827(25)00358-1"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2025/08/21 00:00"
+          },
+          {
+            "pubstatus": "revised",
+            "date": "2025/09/12 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2025/09/16 00:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2025/10/11 00:31"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2025/09/20 00:31"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2025/09/19 19:23"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": "",
+        "fulljournalname": "Experimental cell research",
+        "elocationid": "doi: 10.1016/j.yexcr.2025.114758",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2025/10/01 00:00",
+        "sortfirstauthor": "Xie H",
+        "vernaculartitle": ""
+      },
+      "40912610": {
+        "uid": "40912610",
+        "pubdate": "2025 Dec",
+        "epubdate": "2025 Sep 3",
+        "source": "Transpl Immunol",
+        "authors": [
+          {
+            "name": "Zhang L",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Xu J",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Cui F",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Jin J",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Liu L",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Wang L",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Gao Y",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Gao Y",
+        "title": "Fxyd5 downregulation protects the heart from ischemia/reperfusion injury by suppressing myocardial inflammation.",
+        "sorttitle": "fxyd5 downregulation protects the heart from ischemia reperfusion injury by suppressing myocardial inflammation",
+        "volume": "93",
+        "issue": "",
+        "pages": "102282",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "9309923",
+        "issn": "0966-3274",
+        "essn": "1878-5492",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "pubstatus": "256",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "40912610"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1016/j.trim.2025.102282"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "S0966-3274(25)00110-8"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2025/03/21 00:00"
+          },
+          {
+            "pubstatus": "revised",
+            "date": "2025/08/20 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2025/09/01 00:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2025/12/09 00:31"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2025/09/06 00:34"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2025/09/05 19:18"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": "",
+        "fulljournalname": "Transplant immunology",
+        "elocationid": "doi: 10.1016/j.trim.2025.102282",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2025/12/01 00:00",
+        "sortfirstauthor": "Zhang L",
+        "vernaculartitle": ""
+      },
+      "39532790": {
+        "uid": "39532790",
+        "pubdate": "2024 Nov 12",
+        "epubdate": "2024 Nov 12",
+        "source": "Discov Oncol",
+        "authors": [
+          {
+            "name": "Mou Z",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Ge L",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Ye S",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Gong Z",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Gong Z",
+        "title": "Circ_0001068 accelerates the development of ovarian cancer by promoting FXYD5 expression through inhibiting mir-149-5p activity.",
+        "sorttitle": "circ 0001068 accelerates the development of ovarian cancer by promoting fxyd5 expression through inhibiting mir 149 5p activity",
+        "volume": "15",
+        "issue": "1",
+        "pages": "648",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "101775142",
+        "issn": "",
+        "essn": "2730-6011",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed",
+        "pubstatus": "3",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "39532790"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC11557794"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC11557794;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1007/s12672-024-01497-w"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "10.1007/s12672-024-01497-w"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2024/06/05 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2024/11/01 00:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2024/11/14 17:37"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2024/11/14 17:36"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2024/11/12 23:23"
+          },
+          {
+            "pubstatus": "pmc-release",
+            "date": "2024/11/12 00:00"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": 34,
+        "fulljournalname": "Discover oncology",
+        "elocationid": "doi: 10.1007/s12672-024-01497-w",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2024/11/12 00:00",
+        "sortfirstauthor": "Mou Z",
+        "vernaculartitle": ""
+      },
+      "38155284": {
+        "uid": "38155284",
+        "pubdate": "2024 Nov",
+        "epubdate": "2023 Dec 28",
+        "source": "Mol Biotechnol",
+        "authors": [
+          {
+            "name": "Xie H",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Li J",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Lu M",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Zhang R",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Mao H",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Mao H",
+        "title": "miR-1180 Targets FXYD5 to Regulate Pancreatic Cancer Cells Migration and Invasion.",
+        "sorttitle": "mir 1180 targets fxyd5 to regulate pancreatic cancer cells migration and invasion",
+        "volume": "66",
+        "issue": "11",
+        "pages": "3182-3194",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "9423533",
+        "issn": "1073-6085",
+        "essn": "1559-0305",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "pubstatus": "256",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "38155284"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1007/s12033-023-00923-8"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "10.1007/s12033-023-00923-8"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2023/08/27 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2023/09/22 00:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2024/11/13 13:52"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2023/12/29 00:42"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2023/12/28 23:28"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": "",
+        "fulljournalname": "Molecular biotechnology",
+        "elocationid": "doi: 10.1007/s12033-023-00923-8",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2024/11/01 00:00",
+        "sortfirstauthor": "Xie H",
+        "vernaculartitle": ""
+      },
+      "37814066": {
+        "uid": "37814066",
+        "pubdate": "2023 Dec",
+        "epubdate": "2023 Oct 9",
+        "source": "J Cancer Res Clin Oncol",
+        "authors": [
+          {
+            "name": "Zhao E",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Gao K",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Xiong J",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Liu Z",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Chen Y",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Yi L",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Yi L",
+        "title": "The roles of FXYD family members in ovarian cancer: an integrated analysis by mining TCGA and GEO databases and functional validations.",
+        "sorttitle": "roles of fxyd family members in ovarian cancer an integrated analysis by mining tcga and geo databases and functional validations",
+        "volume": "149",
+        "issue": "19",
+        "pages": "17269-17284",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "7902060",
+        "issn": "0171-5216",
+        "essn": "1432-1335",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "pubstatus": "256",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "37814066"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC11796877"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC11796877;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1007/s00432-023-05445-z"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "10.1007/s00432-023-05445-z"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2023/08/04 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2023/09/23 00:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2023/11/27 12:43"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2023/10/10 00:42"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2023/10/09 23:32"
+          },
+          {
+            "pubstatus": "pmc-release",
+            "date": "2023/10/09 00:00"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": 38,
+        "fulljournalname": "Journal of cancer research and clinical oncology",
+        "elocationid": "doi: 10.1007/s00432-023-05445-z",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2023/12/01 00:00",
+        "sortfirstauthor": "Zhao E",
+        "vernaculartitle": ""
+      },
+      "36621663": {
+        "uid": "36621663",
+        "pubdate": "2023 May",
+        "epubdate": "2023 Jan 5",
+        "source": "Biochimie",
+        "authors": [
+          {
+            "name": "Hotta T",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Nariai Y",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Kajitani N",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Kadota K",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Maruyama R",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Tajima Y",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Isobe T",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Kamino H",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Urano T",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Urano T",
+        "title": "Generation of the novel anti-FXYD5 monoclonal antibody and its application to the diagnosis of pancreatic and lung cancer.",
+        "sorttitle": "generation of the novel anti fxyd5 monoclonal antibody and its application to the diagnosis of pancreatic and lung cancer",
+        "volume": "208",
+        "issue": "",
+        "pages": "160-169",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "1264604",
+        "issn": "0300-9084",
+        "essn": "1638-6183",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "pubstatus": "256",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "36621663"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1016/j.biochi.2023.01.002"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "S0300-9084(23)00002-0"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2022/07/03 00:00"
+          },
+          {
+            "pubstatus": "revised",
+            "date": "2022/11/28 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2023/01/03 00:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2023/05/26 06:42"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2023/01/10 06:00"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2023/01/09 04:58"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": "",
+        "fulljournalname": "Biochimie",
+        "elocationid": "doi: 10.1016/j.biochi.2023.01.002",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2023/05/01 00:00",
+        "sortfirstauthor": "Hotta T",
+        "vernaculartitle": ""
+      },
+      "35977595": {
+        "uid": "35977595",
+        "pubdate": "2022 Sep 15",
+        "epubdate": "2022 Aug 14",
+        "source": "Eur J Pharmacol",
+        "authors": [
+          {
+            "name": "Tan XP",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Xiong BH",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Zhang YX",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Wang SL",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Zuo Q",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Li J",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Li J",
+        "title": "FXYD5 promotes sorafenib resistance through the Akt/mTOR signaling pathway in hepatocellular carcinoma.",
+        "sorttitle": "fxyd5 promotes sorafenib resistance through the akt mtor signaling pathway in hepatocellular carcinoma",
+        "volume": "931",
+        "issue": "",
+        "pages": "175186",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "1254354",
+        "issn": "0014-2999",
+        "essn": "1879-0712",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "pubstatus": "256",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "35977595"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1016/j.ejphar.2022.175186"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "S0014-2999(22)00447-2"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2022/05/28 00:00"
+          },
+          {
+            "pubstatus": "revised",
+            "date": "2022/08/02 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2022/08/02 00:00"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2022/08/18 06:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2022/09/08 06:00"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2022/08/17 19:23"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": "",
+        "fulljournalname": "European journal of pharmacology",
+        "elocationid": "doi: 10.1016/j.ejphar.2022.175186",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2022/09/15 00:00",
+        "sortfirstauthor": "Tan XP",
+        "vernaculartitle": ""
+      },
+      "35191523": {
+        "uid": "35191523",
+        "pubdate": "2022 Apr",
+        "epubdate": "2022 Feb 22",
+        "source": "Mol Med Rep",
+        "authors": [
+          {
+            "name": "Song L",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Li X",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Sun Q",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Zhao Y",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Zhao Y",
+        "title": "Fxyd5 activates the NF\u2011\u03baB pathway and is involved in chondrocytes inflammation and extracellular matrix degradation.",
+        "sorttitle": "fxyd5 activates the nf b pathway and is involved in chondrocytes inflammation and extracellular matrix degradation",
+        "volume": "25",
+        "issue": "4",
+        "pages": "",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "101475259",
+        "issn": "1791-2997",
+        "essn": "1791-3004",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "pubstatus": "256",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "35191523"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC8908309"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC8908309;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.3892/mmr.2022.12650"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "134"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2021/11/01 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2021/12/17 00:00"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2022/02/22 08:41"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2022/02/23 06:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2022/04/08 06:00"
+          },
+          {
+            "pubstatus": "pmc-release",
+            "date": "2022/02/18 00:00"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": 34,
+        "fulljournalname": "Molecular medicine reports",
+        "elocationid": "pii: 134. doi: 10.3892/mmr.2022.12650",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2022/04/01 00:00",
+        "sortfirstauthor": "Song L",
+        "vernaculartitle": ""
+      },
+      "34059618": {
+        "uid": "34059618",
+        "pubdate": "2021 May 31",
+        "epubdate": "2021 May 31",
+        "source": "Oncogenesis",
+        "authors": [
+          {
+            "name": "Juurikka K",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Dufour A",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Pehkonen K",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Mainoli B",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Campioni Rodrigues P",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Solis N",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Klein T",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Nyberg P",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Overall CM",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Salo T",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "\u00c5str\u00f6m P",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "\u00c5str\u00f6m P",
+        "title": "MMP8 increases tongue carcinoma cell-cell adhesion and diminishes migration via cleavage of anti-adhesive FXYD5.",
+        "sorttitle": "mmp8 increases tongue carcinoma cell cell adhesion and diminishes migration via cleavage of anti adhesive fxyd5",
+        "volume": "10",
+        "issue": "5",
+        "pages": "44",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "101580004",
+        "issn": "2157-9024",
+        "essn": "2157-9024",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed",
+        "pubstatus": "3",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "34059618"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC8167110"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC8167110;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1038/s41389-021-00334-x"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "10.1038/s41389-021-00334-x"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2021/03/17 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2021/05/14 00:00"
+          },
+          {
+            "pubstatus": "revised",
+            "date": "2021/05/03 00:00"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2021/06/01 06:00"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2021/06/02 06:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2021/06/02 06:01"
+          },
+          {
+            "pubstatus": "pmc-release",
+            "date": "2021/05/31 00:00"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": 68,
+        "fulljournalname": "Oncogenesis",
+        "elocationid": "doi: 10.1038/s41389-021-00334-x",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2021/05/31 00:00",
+        "sortfirstauthor": "Juurikka K",
+        "vernaculartitle": ""
+      },
+      "33570156": {
+        "uid": "33570156",
+        "pubdate": "2021 May",
+        "epubdate": "2021 Feb 11",
+        "source": "Histol Histopathol",
+        "authors": [
+          {
+            "name": "Liu YK",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Jia YJ",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Liu SH",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Shi HJ",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Ma J",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Ma J",
+        "title": "Low expression of FXYD5 reverses the cisplatin resistance of epithelial ovarian cancer cells.",
+        "sorttitle": "low expression of fxyd5 reverses the cisplatin resistance of epithelial ovarian cancer cells",
+        "volume": "36",
+        "issue": "5",
+        "pages": "535-545",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "8609357",
+        "issn": "0213-3911",
+        "essn": "1699-5848",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "pubstatus": "256",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "33570156"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.14670/HH-18-310"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "HH-18-310"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "pubmed",
+            "date": "2021/02/12 06:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2022/01/11 06:00"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2021/02/11 08:40"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": "",
+        "fulljournalname": "Histology and histopathology",
+        "elocationid": "doi: 10.14670/HH-18-310",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2021/05/01 00:00",
+        "sortfirstauthor": "Liu YK",
+        "vernaculartitle": ""
+      }
+    }
+  }
+}

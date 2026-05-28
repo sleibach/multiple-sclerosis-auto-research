@@ -1,0 +1,185 @@
+{
+  "data": {
+    "credibleSets": {
+      "count": 4,
+      "rows": [
+        {
+          "beta": 0.037742917108593,
+          "chromosome": "10",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "SuSiE fine-mapped credible set with in-sample LD",
+          "finemappingMethod": "SuSie",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.8057841658592224,
+                "target": {
+                  "approvedName": "interleukin 2 receptor subunit alpha",
+                  "approvedSymbol": "IL2RA",
+                  "id": "ENSG00000134460"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -8,
+          "pValueMantissa": 3.500999927520752,
+          "position": 6056986,
+          "purityMeanR2": 0.476930508536,
+          "purityMinR2": 0.177714519844,
+          "standardError": 0.0201937,
+          "studyId": "FINNGEN_R12_RHEUMA_NOS",
+          "studyLocusId": "03c2e4804418ca99e6ae66dbcec2f097",
+          "studyType": "gwas",
+          "variant": {
+            "id": "10_6056986_C_T",
+            "rsIds": [
+              "rs706778"
+            ]
+          }
+        },
+        {
+          "beta": -0.0186542417328525,
+          "chromosome": "2",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "SuSiE fine-mapped credible set with in-sample LD",
+          "finemappingMethod": "SuSie",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.7703996896743774,
+                "target": {
+                  "approvedName": "signal transducer and activator of transcription 4",
+                  "approvedSymbol": "STAT4",
+                  "id": "ENSG00000138378"
+                }
+              },
+              {
+                "score": 0.06659353524446487,
+                "target": {
+                  "approvedName": "signal transducer and activator of transcription 1",
+                  "approvedSymbol": "STAT1",
+                  "id": "ENSG00000115415"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -13,
+          "pValueMantissa": 6.260000228881836,
+          "position": 191099907,
+          "purityMeanR2": 0.993812600702,
+          "purityMinR2": 0.988737888609,
+          "standardError": 0.0231658,
+          "studyId": "FINNGEN_R12_RHEUMA_NOS",
+          "studyLocusId": "1af81a5b97fa9d3c9b464421f5d79a0d",
+          "studyType": "gwas",
+          "variant": {
+            "id": "2_191099907_T_G",
+            "rsIds": [
+              "rs7574865"
+            ]
+          }
+        },
+        {
+          "beta": -0.368285750825028,
+          "chromosome": "1",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "SuSiE fine-mapped credible set with in-sample LD",
+          "finemappingMethod": "SuSie",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.9236316084861755,
+                "target": {
+                  "approvedName": "protein tyrosine phosphatase non-receptor type 22",
+                  "approvedSymbol": "PTPN22",
+                  "id": "ENSG00000134242"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -49,
+          "pValueMantissa": 4.321000099182129,
+          "position": 113834946,
+          "purityMeanR2": 1,
+          "purityMinR2": 1,
+          "standardError": 0.0257925,
+          "studyId": "FINNGEN_R12_RHEUMA_NOS",
+          "studyLocusId": "74fd14fe279b641c6071f57bfa674de0",
+          "studyType": "gwas",
+          "variant": {
+            "id": "1_113834946_A_G",
+            "rsIds": [
+              "rs2476601"
+            ]
+          }
+        },
+        {
+          "beta": 0.0206793429253581,
+          "chromosome": "12",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "SuSiE fine-mapped credible set with in-sample LD",
+          "finemappingMethod": "SuSie",
+          "l2GPredictions": {
+            "count": 3,
+            "rows": [
+              {
+                "score": 0.4537072479724884,
+                "target": {
+                  "approvedName": "ataxin 2",
+                  "approvedSymbol": "ATXN2",
+                  "id": "ENSG00000204842"
+                }
+              },
+              {
+                "score": 0.26922163367271423,
+                "target": {
+                  "approvedName": "BRCA1 associated protein",
+                  "approvedSymbol": "BRAP",
+                  "id": "ENSG00000089234"
+                }
+              },
+              {
+                "score": 0.24909408390522003,
+                "target": {
+                  "approvedName": "aldehyde dehydrogenase 2 family member",
+                  "approvedSymbol": "ALDH2",
+                  "id": "ENSG00000111275"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -9,
+          "pValueMantissa": 1.5740000009536743,
+          "position": 111621753,
+          "purityMeanR2": 0.930918773769,
+          "purityMinR2": 0.840109730625,
+          "standardError": 0.0204928,
+          "studyId": "FINNGEN_R12_RHEUMA_NOS",
+          "studyLocusId": "7fde331a4337835fac6a74a9a8d964c1",
+          "studyType": "gwas",
+          "variant": {
+            "id": "12_111621753_C_T",
+            "rsIds": [
+              "rs11065979"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

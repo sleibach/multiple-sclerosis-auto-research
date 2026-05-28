@@ -1,0 +1,56 @@
+{
+  "payload": {
+    "hitCount": 22751,
+    "nextCursorMark": "AoIIQZTGDCg1NTA2OTI2OQ==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(IL23R OR IL12B OR IL12RB1 OR IL12RB2 OR STAT4) AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR Sjogren OR autoimmune)&cursorMark=AoIIQZTGDCg1NTA2OTI2OQ==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "(IL23R OR IL12B OR IL12RB1 OR IL12RB2 OR STAT4) AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR Sjogren OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Dang X, Wang FQ, Zhang C, Lei Y, Su H, Yang CX, Feng H, She CH, Chen X, Yang XT, Yang J, Lau YL, Wang YF, Yang W.",
+          "citedByCount": 0,
+          "doi": "10.1038/s43856-026-01487-9",
+          "firstIndexDate": "2026-03-10",
+          "firstPublicationDate": "2026-03-07",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13096160"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41794919",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "1",
+          "journalIssn": "2730-664x",
+          "journalTitle": "Commun Med (Lond)",
+          "journalVolume": "6",
+          "pageInfo": "235",
+          "pmcid": "PMC13096160",
+          "pmid": "41794919",
+          "pubType": "research-article; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Identifying genetic and cellular connections and distinctions among 15 autoimmune diseases using an in-silico approach."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28IL23R+OR+IL12B+OR+IL12RB1+OR+IL12RB2+OR+STAT4%29+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+Sjogren+OR+autoimmune%29&format=json&pageSize=1"
+}

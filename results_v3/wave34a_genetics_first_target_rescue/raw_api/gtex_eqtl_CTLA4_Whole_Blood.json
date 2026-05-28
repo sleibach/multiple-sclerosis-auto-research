@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr2",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000163599.14",
+        "geneSymbol": "CTLA4",
+        "geneSymbolUpper": "CTLA4",
+        "nes": -0.184139,
+        "ontologyId": "UBERON:0013756",
+        "pValue": 0.00015743,
+        "pos": 204494686,
+        "snpId": "rs71427753",
+        "snpIdUpper": "RS71427753",
+        "tissueSiteDetailId": "Whole_Blood",
+        "variantId": "chr2_204494686_T_G_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 9,
+      "page": 0,
+      "totalNumberOfItems": 9
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000163599.14&tissueSiteDetailId=Whole_Blood&datasetId=gtex_v8&itemsPerPage=1"
+}

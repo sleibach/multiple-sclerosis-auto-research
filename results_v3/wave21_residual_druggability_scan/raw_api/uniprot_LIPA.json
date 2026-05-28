@@ -1,0 +1,199 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ALIPA%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15269241",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "1718995",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "7204383",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "8112342",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9633819",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000305",
+                  "id": "15269241",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000305",
+                  "id": "8112342",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Catalyzes the deacylation of cholesteryl ester core lipids of endocytosed low density lipoproteins to generate free fatty acids and cholesterol (PubMed:15269241, PubMed:1718995, PubMed:7204383, PubMed:8112342, PubMed:9633819). Hydrolyzes triglycerides (1,2,3-triacylglycerol) and diglycerides (such as 1,2-diacylglycerol and 1,3-diacylglycerol) with preference for the acyl moieties at the sn-1 or sn-3 positions (PubMed:7204383, PubMed:8112342)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "Q64194",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0158",
+                "value": "Lysosome"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000013C851"
+      },
+      "features": [
+        {
+          "description": "Charge relay system",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU10037",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 174
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 174
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "Charge relay system",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU10037",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 374
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 374
+            }
+          },
+          "type": "Active site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "LIPA"
+          }
+        }
+      ],
+      "primaryAccession": "P38571",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Cholesteryl esterase"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Diacylglycerol lipase"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Lipase A"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Sterol esterase"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Triacylglycerol ester hydrolase"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Triacylglycerol lipase"
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15269241",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "7204383",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "8112342",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "3.1.1.13"
+            }
+          ],
+          "fullName": {
+            "value": "Lysosomal acid lipase/cholesteryl ester hydrolase"
+          },
+          "shortNames": [
+            {
+              "value": "Acid cholesteryl ester hydrolase"
+            },
+            {
+              "value": "LAL"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

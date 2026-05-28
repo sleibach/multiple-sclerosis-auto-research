@@ -1,0 +1,13 @@
+{
+  "route": "Mediator kinase / CDK8-CDK19-Cyclin C modulation as MED16-translational route",
+  "go_no_go": "PARK",
+  "summary": "Do not promote as a clean MED16-KO phenocopy. CDK8/19 inhibition is druggable and immunologically active, but current evidence points to broad IFN transcriptional damping plus IL-10/Treg biology rather than selective CIITA/MHC-II/CD74 suppression. Prior art is crowded for autoimmune use.",
+  "answers": {
+    "q1_mechanistic_resemblance": "Partial and directionally overlapping for IFN-gamma programs, but not MED16-like selectivity. CA/CDK8 inhibition can reduce IFN-gamma transcription, STAT1 S727, IRF1/STAT activity and downstream genes; local GSE162463 shows Cdk8/Cdk19/Ccnc loss does not reproduce strong Med16 MHC-II sorting phenotype.",
+    "q2_autoimmune_cells": "Yes for autoimmune-relevant immune cells and models: BMDC/human DC IL-10, Treg differentiation, EAE/NOD/contact hypersensitivity, IBD model, Down syndrome hyperactive IFN lymphoblastoid cells. Direct autoimmune APC CIITA/MHC-II/CD74 suppression evidence is not established.",
+    "q3_drugs": "Multiple potent probes and oncology clinical agents exist; RVU120 and BCD-115 provide human oncology precedent. No approved CDK8/19 drug and no gut/skin/CNS-targeted autoimmune delivery found.",
+    "q4_prior_art": "High. Active US11285144B2 broadly claims CDK8 inhibitors for inflammation/autoimmune disease, IL-10 and Treg mechanisms; published IL-10/Treg/IBD/EAE/IFN papers further crowd novelty.",
+    "q5_decision": "PARK unless new experiments demonstrate a low-dose/tissue-targeted CDK8/19 regimen that suppresses CIITA/MHC-II/CD74 in autoimmune APCs while sparing broad IFN antiviral genes and avoiding IL-10/Treg-only prior-art framing."
+  },
+  "critical_next_experiment": "Human monocyte-derived macrophage/DC +/- IFN-gamma dose response with cortistatin A, CCT251921, RVU120: measure CIITA, HLA-DRA/DP/DQ, CD74, HLA-DR surface protein, STAT1/IRF1/CXCL10/GBP1 antiviral panel, IL-10/Treg-skewing cytokines, viability. Need selectivity ratio vs generic IFN >= Med16-like before promotion."
+}

@@ -1,0 +1,645 @@
+{
+  "payload": {
+    "hitCount": 90437,
+    "nextCursorMark": "AoIIQYNx0yg1NDM2MDQ3MQ==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(IL10 OR IL10RA OR IL10RB) AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR Sjogren OR \"type 1 diabetes\" OR \"primary biliary cholangitis\" OR autoimmune)&cursorMark=AoIIQYNx0yg1NDM2MDQ3MQ==&resultType=core&pageSize=3&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 3,
+      "queryString": "(IL10 OR IL10RA OR IL10RB) AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR Sjogren OR \"type 1 diabetes\" OR \"primary biliary cholangitis\" OR autoimmune)",
+      "resultType": "core",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "abstractText": "The potential causal relationship between autoimmune diseases (AIDs) and breast cancer (BC) remains a topic of debate. In this study, we conducted Mendelian randomization (MR) analysis between common AIDs and BC using publicly available genome-wide association studies data from the MR Base platform. Initially, we conducted a two-sample MR analysis of 10 AIDs and BC using the inverse variance weighted method. Subsequently, a series of sensitivity analyses were performed to validate the robustness of our findings. Lastly, we utilized the reverse MR analysis to evaluate the potential for reverse causality. Among the 10 types of AID studied, 3 were found to be associated with an elevated risk of BC. These include ankylosing spondylitis (odds ratio [OR]: 1.21; 95% confidence interval [CI]: 1.04-1.41; P\u2005=\u2005.013), inflammatory bowel disease (OR: 1.05; 95% CI: 1.01-1.09; P\u2005=\u2005.012), and rheumatoid arthritis (OR: 1.04; 95% CI: 1.01-1.07; P\u2005=\u2005.023). Additionally, BC was found to be linked with a heightened risk of inflammatory bowel disease (OR: 1.112; 95% CI: 1.022-1.210; P\u2005=\u2005.014). Our study's findings support a bidirectional causal relationship between AIDs and BC, offering novel insights into the developmental mechanisms underlying the interaction between AIDs and BC.",
+          "affiliation": "Department of Oncology, Ningbo No. 2 Hospital, Ningbo, Zhejiang, PR China.",
+          "authMan": "N",
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-7087-2504"
+              }
+            ]
+          },
+          "authorList": {
+            "author": [
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Oncology, Ningbo No. 2 Hospital, Ningbo, Zhejiang, PR China."
+                    },
+                    {
+                      "affiliation": "Department of Breast Surgery, Ningbo No. 2 Hospital, Ningbo, Zhejiang, PR China."
+                    }
+                  ]
+                },
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-7087-2504"
+                },
+                "firstName": "Luyao",
+                "fullName": "Dai L",
+                "initials": "L",
+                "lastName": "Dai"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Oncology, Ningbo No. 2 Hospital, Ningbo, Zhejiang, PR China."
+                    },
+                    {
+                      "affiliation": "Department of Breast Surgery, Ningbo No. 2 Hospital, Ningbo, Zhejiang, PR China."
+                    }
+                  ]
+                },
+                "firstName": "Danxiang",
+                "fullName": "Chen D",
+                "initials": "D",
+                "lastName": "Chen"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Oncology, Ningbo No. 2 Hospital, Ningbo, Zhejiang, PR China."
+                    },
+                    {
+                      "affiliation": "Department of Breast Surgery, Ningbo No. 2 Hospital, Ningbo, Zhejiang, PR China."
+                    }
+                  ]
+                },
+                "firstName": "Xinlin",
+                "fullName": "Li X",
+                "initials": "X",
+                "lastName": "Li"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Oncology, Ningbo No. 2 Hospital, Ningbo, Zhejiang, PR China."
+                    },
+                    {
+                      "affiliation": "Department of Breast Surgery, Ningbo No. 2 Hospital, Ningbo, Zhejiang, PR China."
+                    }
+                  ]
+                },
+                "firstName": "Qikuan",
+                "fullName": "He Q",
+                "initials": "Q",
+                "lastName": "He"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Oncology, Ningbo No. 2 Hospital, Ningbo, Zhejiang, PR China."
+                    },
+                    {
+                      "affiliation": "Department of Breast Surgery, Ningbo No. 2 Hospital, Ningbo, Zhejiang, PR China."
+                    }
+                  ]
+                },
+                "firstName": "Jing",
+                "fullName": "Jiang J",
+                "initials": "J",
+                "lastName": "Jiang"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Oncology, Ningbo No. 2 Hospital, Ningbo, Zhejiang, PR China."
+                    },
+                    {
+                      "affiliation": "Department of Breast Surgery, Ningbo No. 2 Hospital, Ningbo, Zhejiang, PR China."
+                    }
+                  ]
+                },
+                "firstName": "Xujun",
+                "fullName": "Li X",
+                "initials": "X",
+                "lastName": "Li"
+              }
+            ]
+          },
+          "authorString": "Dai L, Chen D, Li X, He Q, Jiang J, Li X.",
+          "citedByCount": 0,
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics"
+            ]
+          },
+          "dateOfCompletion": "2025-11-15",
+          "dateOfCreation": "2025-11-15",
+          "dateOfRevision": "2025-11-24",
+          "doi": "10.1097/md.0000000000045283",
+          "epmcAuthMan": "N",
+          "firstIndexDate": "2025-11-15",
+          "firstPublicationDate": "2025-11-01",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12622599"
+            ]
+          },
+          "fullTextReceivedDate": "2025-11-19",
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1097/MD.0000000000045283"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12622599"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12622599?pdf=render"
+              }
+            ]
+          },
+          "hasBook": "N",
+          "hasData": "Y",
+          "hasDbCrossReferences": "N",
+          "hasEvaluations": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41239630",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalInfo": {
+            "dateOfPublication": "2025 Nov",
+            "issue": "46",
+            "journal": {
+              "essn": "1536-5964",
+              "isoabbreviation": "Medicine (Baltimore)",
+              "issn": "0304-5412",
+              "medlineAbbreviation": "Medicine (Baltimore)",
+              "nlmid": "2985248R",
+              "title": "Medicine"
+            },
+            "journalIssueId": 4049200,
+            "monthOfPublication": 11,
+            "printPublicationDate": "2025-11-01",
+            "volume": "104",
+            "yearOfPublication": 2025
+          },
+          "keywordList": {
+            "keyword": [
+              "Breast cancer",
+              "Autoimmune diseases",
+              "Gwas",
+              "Mendelian Randomization"
+            ]
+          },
+          "language": "eng",
+          "license": "cc by",
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "descriptorName": "Humans",
+                "majorTopic_YN": "N"
+              },
+              {
+                "descriptorName": "Breast Neoplasms",
+                "majorTopic_YN": "Y",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "abbreviation": "GE",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "abbreviation": "EP",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "epidemiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "descriptorName": "Arthritis, Rheumatoid",
+                "majorTopic_YN": "N",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "abbreviation": "GE",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "genetics"
+                    }
+                  ]
+                }
+              },
+              {
+                "descriptorName": "Autoimmune Diseases",
+                "majorTopic_YN": "Y",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "abbreviation": "CO",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "complications"
+                    },
+                    {
+                      "abbreviation": "GE",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "abbreviation": "EP",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "epidemiology"
+                    }
+                  ]
+                }
+              },
+              {
+                "descriptorName": "Genetic Predisposition to Disease",
+                "majorTopic_YN": "N"
+              },
+              {
+                "descriptorName": "Risk Factors",
+                "majorTopic_YN": "N"
+              },
+              {
+                "descriptorName": "Causality",
+                "majorTopic_YN": "N"
+              },
+              {
+                "descriptorName": "Female",
+                "majorTopic_YN": "N"
+              },
+              {
+                "descriptorName": "Genome-Wide Association Study",
+                "majorTopic_YN": "N"
+              },
+              {
+                "descriptorName": "Mendelian Randomization Analysis",
+                "majorTopic_YN": "N"
+              }
+            ]
+          },
+          "nihAuthMan": "N",
+          "pageInfo": "e45283",
+          "pmcid": "PMC12622599",
+          "pmid": "41239630",
+          "pubModel": "Print",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "pubYear": "2025",
+          "publicationStatus": "ppublish",
+          "source": "MED",
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "title": "Causal association between autoimmune diseases and risk of breast cancer: A bidirectional Mendelian randomization study."
+        },
+        {
+          "affiliation": "MRC Integrative Epidemiology Unit, University of Bristol, Oakfield House, Oakfield Grove, Bristol, BS8 2BN, UK. maria.sobczyk@bristol.ac.uk.",
+          "authMan": "N",
+          "authorList": {
+            "author": [
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "MRC Integrative Epidemiology Unit, University of Bristol, Oakfield House, Oakfield Grove, Bristol, BS8 2BN, UK. maria.sobczyk@bristol.ac.uk."
+                    }
+                  ]
+                },
+                "firstName": "Maria K",
+                "fullName": "Sobczyk MK",
+                "initials": "MK",
+                "lastName": "Sobczyk"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "MRC Integrative Epidemiology Unit, University of Bristol, Oakfield House, Oakfield Grove, Bristol, BS8 2BN, UK."
+                    },
+                    {
+                      "affiliation": "NIHR Biomedical Research Centre at the University Hospitals Bristol NHS Foundation Trust and the University of Bristol, Bristol, UK."
+                    }
+                  ]
+                },
+                "firstName": "Tom R",
+                "fullName": "Gaunt TR",
+                "initials": "TR",
+                "lastName": "Gaunt"
+              }
+            ]
+          },
+          "authorString": "Sobczyk MK, Gaunt TR.",
+          "citedByCount": 0,
+          "commentCorrectionList": {
+            "commentCorrection": [
+              {
+                "id": "PPR844834",
+                "note": "Link created based on a title-first author match",
+                "orderIn": 10002,
+                "source": "PPR",
+                "type": "Preprint in"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "dateOfCreation": "2026-03-03",
+          "dateOfRevision": "2026-04-12",
+          "doi": "10.1038/s41598-026-41818-3",
+          "electronicPublicationDate": "2026-03-03",
+          "epmcAuthMan": "N",
+          "firstIndexDate": "2026-03-04",
+          "firstPublicationDate": "2026-03-03",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13065838"
+            ]
+          },
+          "fullTextReceivedDate": "2026-04-11",
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1038/s41598-026-41818-3"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13065838"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13065838?pdf=render"
+              }
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Medical Research Council",
+                "grantId": "MC_UU_00032/03",
+                "orderIn": 0
+              },
+              {
+                "agency": "UK Medical Research Council (MRC)",
+                "grantId": "MC_UU_00032/03",
+                "orderIn": 0
+              }
+            ]
+          },
+          "hasBook": "N",
+          "hasData": "Y",
+          "hasDbCrossReferences": "N",
+          "hasEvaluations": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "41775781",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalInfo": {
+            "dateOfPublication": "2026 Mar",
+            "issue": "1",
+            "journal": {
+              "essn": "2045-2322",
+              "isoabbreviation": "Sci Rep",
+              "issn": "2045-2322",
+              "medlineAbbreviation": "Sci Rep",
+              "nlmid": "101563288",
+              "title": "Scientific reports"
+            },
+            "journalIssueId": 4136188,
+            "monthOfPublication": 3,
+            "printPublicationDate": "2026-03-01",
+            "volume": "16",
+            "yearOfPublication": 2026
+          },
+          "keywordList": {
+            "keyword": [
+              "Immune cells",
+              "Molecular epidemiology",
+              "Mendelian Randomization",
+              "Immune-mediated Disease",
+              "Protein Qtl",
+              "Drug Target Prioritisation"
+            ]
+          },
+          "language": "eng",
+          "license": "cc by",
+          "nihAuthMan": "N",
+          "pageInfo": "11851",
+          "pmcid": "PMC13065838",
+          "pmid": "41775781",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "pubYear": "2026",
+          "publicationStatus": "epublish",
+          "source": "MED",
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "title": "Integrative mendelian randomization approaches for therapeutic target prioritisation in immune-mediated diseases.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "hgnc"
+            ]
+          }
+        },
+        {
+          "abstractText": "<h4>Background</h4>Observational studies have suggested a potential association between autoimmune diseases and anemia, but the direction of causality remains unclear. To investigate the potential causal relationship between autoimmune diseases and anemia using Mendelian randomization (MR).<h4>Methods</h4>We conducted a bidirectional two-sample MR study using summary-level genetic data from the EBI and FinnGen databases. We examined 21 autoimmune diseases as exposures and anemia as the outcome, and vice versa. Multivariable MR, meta-analysis, and two-step mediation analysis involving 43 candidate mediators were also performed. Proteomic MR and colocalization analyses were used to validate causal relationships involving proteins. Functional annotations including KEGG pathway, GO enrichment, protein-protein interaction networks, and drug enrichment analyses were performed to identify potential therapeutic targets.<h4>Results</h4>Genetically determined type 1 diabetes mellitus (T1DM), rheumatoid arthritis (RA), and primary biliary cholangitis (PBC) were associated with an increased risk of anemia (<i>P</i>\u00a0<\u00a00.05 in meta-analysis). Reverse MR analyses suggested potential bidirectional causality between anemia and mixed connective tissue disease, hypothyroidism, and asthma. Mediation analysis indicated that hypothyroidism may contribute to anemia by elevating IgG levels. Proteomic and colocalization analyses identified several proteins associated with anemia (e.g., MCCD1, TMEM106B), T1DM (e.g., CTRB1, CTRB2, IL7RA), RA (e.g., TGFBI, IL1RN), and PBC (e.g., ALDH2, CXCL16).<h4>Conclusion</h4>This MR study supports a causal effect of certain autoimmune diseases on anemia risk and highlights potential protein targets for intervention, offering new insights for anemia prevention and treatment.",
+          "affiliation": "Department of Hematology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China.",
+          "authMan": "N",
+          "authorList": {
+            "author": [
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Hematology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China."
+                    }
+                  ]
+                },
+                "firstName": "Xin",
+                "fullName": "Zhuang X",
+                "initials": "X",
+                "lastName": "Zhuang"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Infectious Diseases, Pingyang Hospital of Traditional Chinese Medicine Zhejiang Chinese Medical University, Wenzhou, China."
+                    }
+                  ]
+                },
+                "firstName": "Tianen",
+                "fullName": "Pan T",
+                "initials": "T",
+                "lastName": "Pan"
+              }
+            ]
+          },
+          "authorString": "Zhuang X, Pan T.",
+          "citedByCount": 0,
+          "dateOfCompletion": "2025-12-01",
+          "dateOfCreation": "2025-12-01",
+          "dateOfRevision": "2025-12-03",
+          "doi": "10.1016/j.jtauto.2025.100333",
+          "electronicPublicationDate": "2025-11-12",
+          "epmcAuthMan": "N",
+          "firstIndexDate": "2025-12-01",
+          "firstPublicationDate": "2025-11-12",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12664391"
+            ]
+          },
+          "fullTextReceivedDate": "2025-12-22",
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/j.jtauto.2025.100333"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12664391"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12664391?pdf=render"
+              }
+            ]
+          },
+          "hasBook": "N",
+          "hasData": "Y",
+          "hasDbCrossReferences": "N",
+          "hasEvaluations": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41323472",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalInfo": {
+            "dateOfPublication": "2025 Dec",
+            "journal": {
+              "essn": "2589-9090",
+              "isoabbreviation": "J Transl Autoimmun",
+              "issn": "2589-9090",
+              "medlineAbbreviation": "J Transl Autoimmun",
+              "nlmid": "101759413",
+              "title": "Journal of translational autoimmunity"
+            },
+            "journalIssueId": 3962669,
+            "monthOfPublication": 12,
+            "printPublicationDate": "2025-12-01",
+            "volume": "11",
+            "yearOfPublication": 2025
+          },
+          "keywordList": {
+            "keyword": [
+              "Immunoglobulins",
+              "Anemia",
+              "Cytokines",
+              "Blood cell count",
+              "Autoimmune diseases",
+              "Mendelian Randomization",
+              "Causal Relationship"
+            ]
+          },
+          "language": "eng",
+          "license": "cc by-nc-nd",
+          "nihAuthMan": "N",
+          "pageInfo": "100333",
+          "pmcid": "PMC12664391",
+          "pmid": "41323472",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "pubYear": "2025",
+          "publicationStatus": "epublish",
+          "source": "MED",
+          "title": "Mendelian randomization study of the causal relationship between autoimmune diseases and anemia using proteomic and genetic data."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28IL10+OR+IL10RA+OR+IL10RB%29+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+Sjogren+OR+%22type+1+diabetes%22+OR+%22primary+biliary+cholangitis%22+OR+autoimmune%29&format=json&pageSize=3&resultType=core"
+}

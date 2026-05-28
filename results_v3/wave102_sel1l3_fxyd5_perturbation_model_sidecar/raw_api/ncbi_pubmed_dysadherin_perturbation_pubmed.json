@@ -1,0 +1,839 @@
+{
+  "json": {
+    "esearchresult": {
+      "count": "24",
+      "idlist": [
+        "41457101",
+        "39613801",
+        "35673579",
+        "35371992",
+        "31867269"
+      ],
+      "querytranslation": "\"dysadherin\"[All Fields] AND (\"knockdown\"[All Fields] OR \"knockdowned\"[All Fields] OR \"knockdowns\"[All Fields] OR (\"knockout\"[All Fields] OR \"knockouts\"[All Fields]) OR \"knock-out\"[All Fields] OR (\"clustered regularly interspaced short palindromic repeats\"[MeSH Terms] OR (\"clustered\"[All Fields] AND \"regularly\"[All Fields] AND \"interspaced\"[All Fields] AND \"short\"[All Fields] AND \"palindromic\"[All Fields] AND \"repeats\"[All Fields]) OR \"clustered regularly interspaced short palindromic repeats\"[All Fields] OR \"crispr\"[All Fields] OR \"crisprs\"[All Fields]) OR (\"rna small interfering\"[Supplementary Concept] OR \"rna small interfering\"[All Fields] OR \"sirna\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR (\"rna\"[All Fields] AND \"small\"[All Fields] AND \"interfering\"[All Fields]) OR \"small interfering rna\"[All Fields] OR \"sirna s\"[All Fields] OR \"sirnas\"[All Fields]) OR (\"rna small interfering\"[Supplementary Concept] OR \"rna small interfering\"[All Fields] OR \"shrna\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR (\"rna\"[All Fields] AND \"small\"[All Fields] AND \"interfering\"[All Fields]) OR \"small interfering rna\"[All Fields] OR \"shrnas\"[All Fields]) OR (\"overexpress\"[All Fields] OR \"overexpressed\"[All Fields] OR \"overexpresser\"[All Fields] OR \"overexpressers\"[All Fields] OR \"overexpresses\"[All Fields] OR \"overexpressing\"[All Fields] OR \"overexpression\"[All Fields] OR \"overexpressions\"[All Fields]) OR (\"perturb\"[All Fields] OR \"perturbance\"[All Fields] OR \"perturbances\"[All Fields] OR \"perturbant\"[All Fields] OR \"perturbants\"[All Fields] OR \"perturbated\"[All Fields] OR \"perturbation\"[All Fields] OR \"perturbational\"[All Fields] OR \"perturbations\"[All Fields] OR \"perturbative\"[All Fields] OR \"perturbatively\"[All Fields] OR \"perturbed\"[All Fields] OR \"perturbing\"[All Fields] OR \"perturbs\"[All Fields]))",
+      "retmax": "5",
+      "retstart": "0",
+      "translationset": [
+        {
+          "from": "knockdown",
+          "to": "\"knockdown\"[All Fields] OR \"knockdowned\"[All Fields] OR \"knockdowns\"[All Fields]"
+        },
+        {
+          "from": "knockout",
+          "to": "\"knockout\"[All Fields] OR \"knockouts\"[All Fields]"
+        },
+        {
+          "from": "CRISPR",
+          "to": "\"clustered regularly interspaced short palindromic repeats\"[MeSH Terms] OR (\"clustered\"[All Fields] AND \"regularly\"[All Fields] AND \"interspaced\"[All Fields] AND \"short\"[All Fields] AND \"palindromic\"[All Fields] AND \"repeats\"[All Fields]) OR \"clustered regularly interspaced short palindromic repeats\"[All Fields] OR \"crispr\"[All Fields] OR \"crisprs\"[All Fields]"
+        },
+        {
+          "from": "siRNA",
+          "to": "\"rna, small interfering\"[Supplementary Concept] OR \"rna, small interfering\"[All Fields] OR \"sirna\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR (\"rna\"[All Fields] AND \"small\"[All Fields] AND \"interfering\"[All Fields]) OR \"small interfering rna\"[All Fields] OR \"sirna's\"[All Fields] OR \"sirnas\"[All Fields]"
+        },
+        {
+          "from": "shRNA",
+          "to": "\"rna, small interfering\"[Supplementary Concept] OR \"rna, small interfering\"[All Fields] OR \"shrna\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR (\"rna\"[All Fields] AND \"small\"[All Fields] AND \"interfering\"[All Fields]) OR \"small interfering rna\"[All Fields] OR \"shrnas\"[All Fields]"
+        },
+        {
+          "from": "overexpression",
+          "to": "\"overexpress\"[All Fields] OR \"overexpressed\"[All Fields] OR \"overexpresser\"[All Fields] OR \"overexpressers\"[All Fields] OR \"overexpresses\"[All Fields] OR \"overexpressing\"[All Fields] OR \"overexpression\"[All Fields] OR \"overexpressions\"[All Fields]"
+        },
+        {
+          "from": "perturbation",
+          "to": "\"perturb\"[All Fields] OR \"perturbance\"[All Fields] OR \"perturbances\"[All Fields] OR \"perturbant\"[All Fields] OR \"perturbants\"[All Fields] OR \"perturbated\"[All Fields] OR \"perturbation\"[All Fields] OR \"perturbational\"[All Fields] OR \"perturbations\"[All Fields] OR \"perturbative\"[All Fields] OR \"perturbatively\"[All Fields] OR \"perturbed\"[All Fields] OR \"perturbing\"[All Fields] OR \"perturbs\"[All Fields]"
+        }
+      ]
+    },
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    }
+  },
+  "status": 200,
+  "summary_json": {
+    "header": {
+      "type": "esummary",
+      "version": "0.3"
+    },
+    "result": {
+      "31867269": {
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "31867269"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC6908519"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC6908519;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.3389/fonc.2019.01306"
+          }
+        ],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "authors": [
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Besso MJ"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Rosso M"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Lapyckyj L"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Moiola CP"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Matos ML"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Mercogliano MF"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Schillaci R"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Reventos J"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Colas E"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Gil-Moreno A"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Wernicke A"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Orti R"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Vazquez-Levin MH"
+          }
+        ],
+        "availablefromurl": "",
+        "bookname": "",
+        "booktitle": "",
+        "chapter": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "doctype": "citation",
+        "edition": "",
+        "elocationid": "doi: 10.3389/fonc.2019.01306",
+        "epubdate": "2019 Dec 6",
+        "essn": "2234-943X",
+        "fulljournalname": "Frontiers in oncology",
+        "history": [
+          {
+            "date": "2019/08/12 00:00",
+            "pubstatus": "received"
+          },
+          {
+            "date": "2019/11/11 00:00",
+            "pubstatus": "accepted"
+          },
+          {
+            "date": "2019/12/24 06:00",
+            "pubstatus": "entrez"
+          },
+          {
+            "date": "2019/12/24 06:00",
+            "pubstatus": "pubmed"
+          },
+          {
+            "date": "2019/12/24 06:01",
+            "pubstatus": "medline"
+          },
+          {
+            "date": "2019/01/01 00:00",
+            "pubstatus": "pmc-release"
+          }
+        ],
+        "issn": "2234-943X",
+        "issue": "",
+        "lang": [
+          "eng"
+        ],
+        "lastauthor": "Vazquez-Levin MH",
+        "locationlabel": "",
+        "medium": "",
+        "nlmuniqueid": "101568867",
+        "pages": "1306",
+        "pmcrefcount": 45,
+        "pubdate": "2019",
+        "publisherlocation": "",
+        "publishername": "",
+        "pubstatus": "258",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed",
+        "references": [
+          {
+            "note": "",
+            "pmid": 38322279,
+            "refsource": "Front Oncol. 2024 Jan 23;13:1322204. doi: 10.3389/fonc.2023.1322204.",
+            "reftype": "Erratum in"
+          }
+        ],
+        "reportnumber": "",
+        "sortfirstauthor": "Besso MJ",
+        "sortpubdate": "2019/12/06 00:00",
+        "sorttitle": "fxyd5 dysadherin a biomarker of endometrial cancer myometrial invasion and aggressiveness its relationship with tgf 1 and nf b pathways",
+        "source": "Front Oncol",
+        "srccontriblist": [],
+        "srcdate": "",
+        "title": "FXYD5/Dysadherin, a Biomarker of Endometrial Cancer Myometrial Invasion and Aggressiveness: Its Relationship With TGF-\u03b21 and NF-\u03baB Pathways.",
+        "uid": "31867269",
+        "vernaculartitle": "",
+        "volume": "9"
+      },
+      "35371992": {
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "35371992"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC8968713"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC8968713;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.3389/fonc.2022.859216"
+          }
+        ],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "authors": [
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Liu CC"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Kim YJ"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Teh R"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Garcia A"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Hamilton EJ"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Cornelius F"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Baxter RC"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Rasmussen HH"
+          }
+        ],
+        "availablefromurl": "",
+        "bookname": "",
+        "booktitle": "",
+        "chapter": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "doctype": "citation",
+        "edition": "",
+        "elocationid": "doi: 10.3389/fonc.2022.859216",
+        "epubdate": "2022 Mar 17",
+        "essn": "2234-943X",
+        "fulljournalname": "Frontiers in oncology",
+        "history": [
+          {
+            "date": "2022/01/21 00:00",
+            "pubstatus": "received"
+          },
+          {
+            "date": "2022/02/21 00:00",
+            "pubstatus": "accepted"
+          },
+          {
+            "date": "2022/04/04 05:32",
+            "pubstatus": "entrez"
+          },
+          {
+            "date": "2022/04/05 06:00",
+            "pubstatus": "pubmed"
+          },
+          {
+            "date": "2022/04/05 06:01",
+            "pubstatus": "medline"
+          },
+          {
+            "date": "2022/01/01 00:00",
+            "pubstatus": "pmc-release"
+          }
+        ],
+        "issn": "2234-943X",
+        "issue": "",
+        "lang": [
+          "eng"
+        ],
+        "lastauthor": "Rasmussen HH",
+        "locationlabel": "",
+        "medium": "",
+        "nlmuniqueid": "101568867",
+        "pages": "859216",
+        "pmcrefcount": 39,
+        "pubdate": "2022",
+        "publisherlocation": "",
+        "publishername": "",
+        "pubstatus": "258",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed",
+        "references": [],
+        "reportnumber": "",
+        "sortfirstauthor": "Liu CC",
+        "sortpubdate": "2022/03/17 00:00",
+        "sorttitle": "displacement of native fxyd protein from na k atpase with novel fxyd peptide derivatives effects on doxorubicin cytotoxicity",
+        "source": "Front Oncol",
+        "srccontriblist": [],
+        "srcdate": "",
+        "title": "Displacement of Native FXYD Protein From Na(+)/K(+)-ATPase With Novel FXYD Peptide Derivatives: Effects on Doxorubicin Cytotoxicity.",
+        "uid": "35371992",
+        "vernaculartitle": "",
+        "volume": "12"
+      },
+      "35673579": {
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "35673579"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC9169357"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC9169357;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.7150/thno.72354"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "thnov12p4399"
+          }
+        ],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "authors": [
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Park SY"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Lee CJ"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Choi JH"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Kim JH"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Lee WJ"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Jang TY"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Jeon SE"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Kim JH"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Cho SH"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Lee JS"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Nam JS"
+          }
+        ],
+        "availablefromurl": "",
+        "bookname": "",
+        "booktitle": "",
+        "chapter": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "doctype": "citation",
+        "edition": "",
+        "elocationid": "doi: 10.7150/thno.72354",
+        "epubdate": "2022 May 21",
+        "essn": "1838-7640",
+        "fulljournalname": "Theranostics",
+        "history": [
+          {
+            "date": "2022/02/24 00:00",
+            "pubstatus": "received"
+          },
+          {
+            "date": "2022/05/16 00:00",
+            "pubstatus": "accepted"
+          },
+          {
+            "date": "2022/06/08 01:59",
+            "pubstatus": "entrez"
+          },
+          {
+            "date": "2022/06/09 06:00",
+            "pubstatus": "pubmed"
+          },
+          {
+            "date": "2022/06/10 06:00",
+            "pubstatus": "medline"
+          },
+          {
+            "date": "2022/01/01 00:00",
+            "pubstatus": "pmc-release"
+          }
+        ],
+        "issn": "",
+        "issue": "9",
+        "lang": [
+          "eng"
+        ],
+        "lastauthor": "Nam JS",
+        "locationlabel": "",
+        "medium": "",
+        "nlmuniqueid": "101552395",
+        "pages": "4399-4414",
+        "pmcrefcount": 64,
+        "pubdate": "2022",
+        "publisherlocation": "",
+        "publishername": "",
+        "pubstatus": "258",
+        "pubtype": [
+          "Journal Article",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "references": [],
+        "reportnumber": "",
+        "sortfirstauthor": "Park SY",
+        "sortpubdate": "2022/05/21 00:00",
+        "sorttitle": "dysadherin awakens mechanical forces and promotes colorectal cancer progression",
+        "source": "Theranostics",
+        "srccontriblist": [],
+        "srcdate": "",
+        "title": "Dysadherin awakens mechanical forces and promotes colorectal cancer progression.",
+        "uid": "35673579",
+        "vernaculartitle": "",
+        "volume": "12"
+      },
+      "39613801": {
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "39613801"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC11607440"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC11607440;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1038/s41467-024-54920-9"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "10.1038/s41467-024-54920-9"
+          }
+        ],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "authors": [
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Lee CJ"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Jang TY"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Jeon SE"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Yun HJ"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Cho YH"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Lim DY"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Nam JS"
+          }
+        ],
+        "availablefromurl": "",
+        "bookname": "",
+        "booktitle": "",
+        "chapter": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "doctype": "citation",
+        "edition": "",
+        "elocationid": "doi: 10.1038/s41467-024-54920-9",
+        "epubdate": "2024 Nov 30",
+        "essn": "2041-1723",
+        "fulljournalname": "Nature communications",
+        "history": [
+          {
+            "date": "2024/02/12 00:00",
+            "pubstatus": "received"
+          },
+          {
+            "date": "2024/11/26 00:00",
+            "pubstatus": "accepted"
+          },
+          {
+            "date": "2024/11/30 11:17",
+            "pubstatus": "medline"
+          },
+          {
+            "date": "2024/11/30 11:16",
+            "pubstatus": "pubmed"
+          },
+          {
+            "date": "2024/11/29 23:20",
+            "pubstatus": "entrez"
+          },
+          {
+            "date": "2024/11/30 00:00",
+            "pubstatus": "pmc-release"
+          }
+        ],
+        "issn": "",
+        "issue": "1",
+        "lang": [
+          "eng"
+        ],
+        "lastauthor": "Nam JS",
+        "locationlabel": "",
+        "medium": "",
+        "nlmuniqueid": "101528555",
+        "pages": "10422",
+        "pmcrefcount": 54,
+        "pubdate": "2024 Nov 30",
+        "publisherlocation": "",
+        "publishername": "",
+        "pubstatus": "3",
+        "pubtype": [
+          "Journal Article",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "references": [],
+        "reportnumber": "",
+        "sortfirstauthor": "Lee CJ",
+        "sortpubdate": "2024/11/30 00:00",
+        "sorttitle": "dysadherin mmp9 axis modifies the extracellular matrix to accelerate colorectal cancer progression",
+        "source": "Nat Commun",
+        "srccontriblist": [],
+        "srcdate": "",
+        "title": "The dysadherin/MMP9 axis modifies the extracellular matrix to accelerate colorectal cancer progression.",
+        "uid": "39613801",
+        "vernaculartitle": "",
+        "volume": "15"
+      },
+      "41457101": {
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "41457101"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC12745361"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC12745361;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1038/s41392-025-02520-4"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "10.1038/s41392-025-02520-4"
+          }
+        ],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "authors": [
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Jang TY"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Jeon SE"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Yun HJ"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Lee CJ"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Lim DY"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Lee SH"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Lee D"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Lee S"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Choi J"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Kim HS"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Nam JS"
+          }
+        ],
+        "availablefromurl": "",
+        "bookname": "",
+        "booktitle": "",
+        "chapter": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "doctype": "citation",
+        "edition": "",
+        "elocationid": "doi: 10.1038/s41392-025-02520-4",
+        "epubdate": "2025 Dec 29",
+        "essn": "2059-3635",
+        "fulljournalname": "Signal transduction and targeted therapy",
+        "history": [
+          {
+            "date": "2025/07/09 00:00",
+            "pubstatus": "received"
+          },
+          {
+            "date": "2025/11/19 00:00",
+            "pubstatus": "accepted"
+          },
+          {
+            "date": "2025/11/11 00:00",
+            "pubstatus": "revised"
+          },
+          {
+            "date": "2025/12/29 00:25",
+            "pubstatus": "medline"
+          },
+          {
+            "date": "2025/12/29 00:24",
+            "pubstatus": "pubmed"
+          },
+          {
+            "date": "2025/12/28 23:03",
+            "pubstatus": "entrez"
+          },
+          {
+            "date": "2025/12/29 00:00",
+            "pubstatus": "pmc-release"
+          }
+        ],
+        "issn": "2095-9907",
+        "issue": "1",
+        "lang": [
+          "eng"
+        ],
+        "lastauthor": "Nam JS",
+        "locationlabel": "",
+        "medium": "",
+        "nlmuniqueid": "101676423",
+        "pages": "421",
+        "pmcrefcount": 44,
+        "pubdate": "2025 Dec 29",
+        "publisherlocation": "",
+        "publishername": "",
+        "pubstatus": "3",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "references": [],
+        "reportnumber": "",
+        "sortfirstauthor": "Jang TY",
+        "sortpubdate": "2025/12/29 00:00",
+        "sorttitle": "dysadherin yap axis fuels stem plasticity and immune escape in liver cancer",
+        "source": "Signal Transduct Target Ther",
+        "srccontriblist": [],
+        "srcdate": "",
+        "title": "Dysadherin/YAP axis fuels stem plasticity and immune escape in liver cancer.",
+        "uid": "41457101",
+        "vernaculartitle": "",
+        "volume": "10"
+      },
+      "uids": [
+        "41457101",
+        "39613801",
+        "35673579",
+        "35371992",
+        "31867269"
+      ]
+    }
+  },
+  "summary_status": 200,
+  "summary_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=41457101%2C39613801%2C35673579%2C35371992%2C31867269&retmode=json",
+  "text": null,
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=dysadherin%5BAll+Fields%5D+AND+%28knockdown+OR+knockout+OR+knock-out+OR+CRISPR+OR+siRNA+OR+shRNA+OR+overexpression+OR+perturbation%29&retmode=json&retmax=5"
+}

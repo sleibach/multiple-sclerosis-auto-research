@@ -1,0 +1,605 @@
+{
+  "page_meta": {
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Programmed cell death 6-interacting protein",
+      "score": 15.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL5725177",
+      "target_components": [
+        {
+          "accession": "Q8WUM4",
+          "component_description": "Programmed cell death 6-interacting protein",
+          "component_id": 23323,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "ALG-2-interacting protein 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ALG-2-interacting protein X",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ALIX",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Hp95",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "KIAA1375",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "PDCD6-interacting protein",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PDCD6IP",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Programmed cell death 6-interacting protein",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Synonyms=AIP1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "Q8WUM4",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "Q8WUM4",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0001772",
+              "xref_name": "immunological synapse",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005768",
+              "xref_name": "endosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005813",
+              "xref_name": "centrosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005856",
+              "xref_name": "cytoskeleton",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005923",
+              "xref_name": "bicellular tight junction",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005925",
+              "xref_name": "focal adhesion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0042470",
+              "xref_name": "melanosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0042641",
+              "xref_name": "actomyosin",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070161",
+              "xref_name": "anchoring junction",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070971",
+              "xref_name": "endoplasmic reticulum exit site",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0090543",
+              "xref_name": "Flemming body",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:1903561",
+              "xref_name": "extracellular vesicle",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0031871",
+              "xref_name": "proteinase activated receptor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042803",
+              "xref_name": "protein homodimerization activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0048306",
+              "xref_name": "calcium-dependent protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0000281",
+              "xref_name": "mitotic cytokinesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0000915",
+              "xref_name": "actomyosin contractile ring assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006915",
+              "xref_name": "apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006997",
+              "xref_name": "nucleus organization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007080",
+              "xref_name": "mitotic metaphase chromosome alignment",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010824",
+              "xref_name": "regulation of centrosome duplication",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0015031",
+              "xref_name": "protein transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016236",
+              "xref_name": "macroautophagy",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0036258",
+              "xref_name": "multivesicular body assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0039702",
+              "xref_name": "viral budding via host ESCRT complex",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045199",
+              "xref_name": "maintenance of epithelial cell apical/basal polarity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046755",
+              "xref_name": "viral budding",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051260",
+              "xref_name": "protein homooligomerization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051301",
+              "xref_name": "cell division",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0061952",
+              "xref_name": "midbody abscission",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070830",
+              "xref_name": "bicellular tight junction assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0090559",
+              "xref_name": "regulation of membrane permeability",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0090611",
+              "xref_name": "ubiquitin-independent protein catabolic process via the multivesicular body sorting pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0097734",
+              "xref_name": "extracellular exosome biogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1901673",
+              "xref_name": "regulation of mitotic spindle assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1903543",
+              "xref_name": "positive regulation of exosomal secretion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1903551",
+              "xref_name": "regulation of extracellular exosome assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1903553",
+              "xref_name": "positive regulation of extracellular exosome assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:8766",
+              "xref_name": "PDCD6IP",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "Q8WUM4",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR004328",
+              "xref_name": "BRO1_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR025304",
+              "xref_name": "ALIX_V_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR038499",
+              "xref_name": "BRO1_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR23030",
+              "xref_name": "PCD6 INTERACTING PROTEIN-RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR23030:SF39",
+              "xref_name": "PROGRAMMED CELL DEATH 6-INTERACTING PROTEIN",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "2OEV",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2OEW",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2OEX",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2OJQ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2R02",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2R03",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2R05",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2XS1",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2XS8",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2ZNE",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3C3O",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3C3Q",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3C3R",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3E1R",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3WUV",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4JJY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5V3R",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5WA1",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6KP3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2OEV",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2OEW",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2OEX",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2OJQ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2R02",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2R03",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2R05",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2XS1",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2XS8",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2ZNE",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3C3O",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3C3Q",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3C3R",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3E1R",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3WUV",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4JJY",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5V3R",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5WA1",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6KP3",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF03097",
+              "xref_name": "BRO1",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF13949",
+              "xref_name": "ALIX_LYPXL_bnd",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA33116",
+              "xref_name": "programmed cell death 6 interacting protein",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "Q8WUM4",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-162588",
+              "xref_name": "Budding and maturation of HIV virion",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5210891",
+              "xref_name": "Uptake and function of anthrax toxins",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5213460",
+              "xref_name": "RIPK1-mediated regulated necrosis",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5675482",
+              "xref_name": "Regulation of necroptotic cell death",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "C5MQH7",
+              "xref_name": "Programmed cell death 6-interacting protein",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "E9PFU1",
+              "xref_name": "Programmed cell death 6-interacting protein",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q6NUS1",
+              "xref_name": "Programmed cell death 6-interacting protein",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8WUM4",
+              "xref_name": "Programmed cell death 6-interacting protein",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9BX86",
+              "xref_name": "Programmed cell death 6-interacting protein",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9NUN0",
+              "xref_name": "Programmed cell death 6-interacting protein",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9P2H2",
+              "xref_name": "Programmed cell death 6-interacting protein",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UKL5",
+              "xref_name": "Programmed cell death 6-interacting protein",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

@@ -1,0 +1,3352 @@
+{
+  "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxtZfei2PQdkA",
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D020278",
+              "term": "Demyelinating Autoimmune Diseases, CNS"
+            },
+            {
+              "id": "D020274",
+              "term": "Autoimmune Diseases of the Nervous System"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D003711",
+              "term": "Demyelinating Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D009103",
+              "term": "Multiple Sclerosis"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Participants in this arm will eat all meals over the course of 8 hours/day. No instruction on type or amount of food will be given.",
+              "interventionNames": [
+                "Behavioral: Time Restricted Eating"
+              ],
+              "label": "Time Restricted Eating",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Participants in this arm will eat all meals over the course of 12 or more hours/day. No instruction on type or amount of food will be given.",
+              "interventionNames": [
+                "Behavioral: Unrestricted eating"
+              ],
+              "label": "Unrestricted Eating",
+              "type": "ACTIVE_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Time Restricted Eating"
+              ],
+              "description": "Participants will eat all meals within 8 hours/day and fast for the remaining 16 hours/day.",
+              "name": "Time Restricted Eating",
+              "type": "BEHAVIORAL"
+            },
+            {
+              "armGroupLabels": [
+                "Unrestricted Eating"
+              ],
+              "description": "Participants will eat all meals over 12 or more hours/day.",
+              "name": "Unrestricted eating",
+              "type": "BEHAVIORAL"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Multiple Sclerosis"
+          ],
+          "keywords": [
+            "Nutrition",
+            "Circadian",
+            "Multiple Sclerosis"
+          ]
+        },
+        "contactsLocationsModule": {
+          "centralContacts": [
+            {
+              "email": "bcwingo@uab.edu",
+              "name": "Brooks C Wingo, PhD",
+              "phone": "205-934-5982",
+              "role": "CONTACT"
+            }
+          ],
+          "locations": [
+            {
+              "city": "Birmingham",
+              "contacts": [
+                {
+                  "email": "kathryngreen@uabmc.edu",
+                  "name": "Kathryn Green",
+                  "role": "CONTACT"
+                },
+                {
+                  "name": "Brooks C Wingo",
+                  "role": "PRINCIPAL_INVESTIGATOR"
+                }
+              ],
+              "country": "United States",
+              "facility": "University of Alabama at Birmingham",
+              "geoPoint": {
+                "lat": 33.52066,
+                "lon": -86.80249
+              },
+              "state": "Alabama",
+              "zip": "35294"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The goal of this clinical trial is to learn if the time an individual eats each day impacts neurological health in people with multiple sclerosis. The main questions the investigators are asking are:\n\n1. Does meal timing affect biomarkers of neuronal health (neurofilament light chain \\[NfL\\] and BDNF) and inflammation (IL-6, IL-17, TNF-\u0251) in adults with MS.\n2. Does meal timing affect expression of circadian clock genes and genes associated with autophagy in adults with MS.\n\nParticipants will be instructed to start and stop eating at specific times each day based on their group assignment and their personal schedule. They will respond to prompts sent to them on their smartphone to record the times they start and stop eating each day.\n\nAs a secondary goal, the study will also explore the feasibility of including translocator protein (TSPO)-PET imaging of neuroinflammation in future clinical trials of TRE in people with MS. To accomplish this, imaging will be completed in a subset of 8 participants at the beginning and end of the study.",
+          "detailedDescription": "The mechanisms underlying the relationship between diet and MS are not well understood. A leading theory is that diet affects disease progression and symptoms through modulation of neuroinflammation. Previous studies in participants with other conditions suggest that time restricted eating (TRE) may reduce inflammation by improving circadian rhythms. If this holds true in people with MS, it may explain how TRE improves clinical outcomes of cognitive and physical function as seen in a previous trial. It may also explain diurnal fluctuations in pain and fatigue experienced by people within MS.\n\nAlthough a previous study measured the effect of TRE on physical and cognitive function, as well as pain and fatigue, it was a single arm study and did not measure the hypothesized mechanisms of action. Therefore, the purpose of this pilot study is to examine the effects of TRE on neurological, inflammatory, and circadian markers in adults with MS.\n\nAdults with relapsing forms of MS (relapsing remitting \\[RRMS\\] or secondary progressive \\[SPMS\\], n = 22) will be randomly assigned to either a TRE group that will eat all food within an 8-hour window each day (treatment group) or a group that will eat over 12 or more hours each day for 12 weeks.\n\nFurther, investigators will assess the feasibility of using Positron Emission Tomography (PET) imaging to measure changes in neuroinflammation with TRE. This exploratory aim will be completed in a subset of participants (n=8), and will be used to finalize imaging protocols and determine feasibility of including translocator protein (TSPO)-PET imaging of neuroinflammation in future clinical trials of TRE in people with MS."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "SINGLE",
+              "whoMasked": [
+                "OUTCOMES_ASSESSOR"
+              ]
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 22,
+            "type": "ESTIMATED"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosed with relapsing remitting or secondary progressive multiple sclerosis (RRMS or SPMS)\n* If on disease modifying therapy (DMTs), stable for 6 months\n* If not on DMTs, no DMT usage within previous 6 months\n* BMI 18.5-50 kg/m2\n* Access to a smartphone\n* Responsible for personal eating schedule or able to have input into schedule\n\nExclusion Criteria:\n\n* Relapse within previous 30 days\n* Actively engaged in a weight loss program or unwilling to follow assigned eating schedule\n* Current use of GLP-1 or use within previous 3 months\n* Regularly fasts \\> 12 hours/day\n* Employed in night shift or rotating shift work\n* Unable to walk 25 feet with or without assistive device (EDSS \\> 6.5).\n* Current use of insulin or sulfonylurea agents\n* Pregnant or breastfeeding\n* Currently enrolled in another trial that would confound results (e.g., exercise studies or other diet studies)",
+          "healthyVolunteers": false,
+          "maximumAge": "64 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT"
+          ]
+        },
+        "identificationModule": {
+          "acronym": "Meal Time MS",
+          "briefTitle": "Understanding the Impact of Meal Timing on Neurological Health in Adults With Multiple Sclerosis",
+          "nctId": "NCT07475377",
+          "officialTitle": "Understanding the Impact of Meal Timing on Neurological Health in Adults With Multiple Sclerosis",
+          "orgStudyIdInfo": {
+            "id": "IRB-300016152"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "University of Alabama at Birmingham"
+          },
+          "secondaryIdInfos": [
+            {
+              "domain": "Paralyzed Veterans of America",
+              "id": "3212",
+              "type": "OTHER_GRANT"
+            }
+          ]
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "otherOutcomes": [
+            {
+              "description": "Neuroinflammation will be measured with translocator protein (TSPO)-PET imaging",
+              "measure": "Neuroinflammation",
+              "timeFrame": "Baseline, 12 weeks"
+            }
+          ],
+          "primaryOutcomes": [
+            {
+              "measure": "Neurofilament light chain",
+              "timeFrame": "Baseline and 12 weeks"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "measure": "Brain Derived Neurotrophic Factor",
+              "timeFrame": "Baseline and 12 weeks"
+            },
+            {
+              "measure": "Interleukin-6",
+              "timeFrame": "Baseline and 12 weeks"
+            },
+            {
+              "measure": "Interleukin-17",
+              "timeFrame": "Baseline and 12 weeks"
+            },
+            {
+              "measure": "Tumor necrosis factor-alpha",
+              "timeFrame": "Baseline and 12 weeks"
+            },
+            {
+              "description": "Change in expression of the following genes: CLOCK, PER2, BMAL1, PER1, PER2, CRY1, CRY2, REV-ERBA/NR1D1",
+              "measure": "Change in circadian gene expression",
+              "timeFrame": "Baseline, 12 weeks"
+            },
+            {
+              "description": "Change in expression of the following autophagy-related genes: LC3A, ATG5, ATG7, ATG12, LAMP2",
+              "measure": "Change in expression of autophagy genes",
+              "timeFrame": "Baseline, 12 weeks"
+            },
+            {
+              "measure": "Multiple Sclerosis Functional Composite",
+              "timeFrame": "Baseline and 12 weeks"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": false
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "UNKNOWN",
+              "name": "Paralyzed Veterans of America Research Foundation"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "University of Alabama at Birmingham"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "University of Alabama at Birmingham",
+            "investigatorFullName": "Brooks C. Wingo, PhD",
+            "investigatorTitle": "Associate Professor",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2027-12-31",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-03-18",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2026-03-16",
+          "overallStatus": "NOT_YET_RECRUITING",
+          "primaryCompletionDateStruct": {
+            "date": "2027-08-01",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2026-05-01",
+            "type": "ESTIMATED"
+          },
+          "statusVerifiedDate": "2026-03",
+          "studyFirstPostDateStruct": {
+            "date": "2026-03-16",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2026-03-11",
+          "studyFirstSubmitQcDate": "2026-03-11"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D001168",
+              "term": "Arthritis"
+            },
+            {
+              "id": "D007592",
+              "term": "Joint Diseases"
+            },
+            {
+              "id": "D009140",
+              "term": "Musculoskeletal Diseases"
+            },
+            {
+              "id": "D012216",
+              "term": "Rheumatic Diseases"
+            },
+            {
+              "id": "D003240",
+              "term": "Connective Tissue Diseases"
+            },
+            {
+              "id": "D017437",
+              "term": "Skin and Connective Tissue Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            },
+            {
+              "id": "D025242",
+              "term": "Spondylarthropathies"
+            },
+            {
+              "id": "D025241",
+              "term": "Spondylarthritis"
+            },
+            {
+              "id": "D013166",
+              "term": "Spondylitis"
+            },
+            {
+              "id": "D013122",
+              "term": "Spinal Diseases"
+            },
+            {
+              "id": "D001847",
+              "term": "Bone Diseases"
+            },
+            {
+              "id": "D011565",
+              "term": "Psoriasis"
+            },
+            {
+              "id": "D017444",
+              "term": "Skin Diseases, Papulosquamous"
+            },
+            {
+              "id": "D012871",
+              "term": "Skin Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D001172",
+              "term": "Arthritis, Rheumatoid"
+            },
+            {
+              "id": "D015535",
+              "term": "Arthritis, Psoriatic"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "All patients will undergo PET-CT with PBR28, with the CT being localised to one group of joints only",
+              "interventionNames": [
+                "Other: this is not an interventional study"
+              ],
+              "label": "this is a pilot study"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "this is a pilot study"
+              ],
+              "description": "this is not an interventional study; this is a pilot feasibility study to see whether or not 11CPR28 will be taken up in joints of those known to have active arthritis clinically",
+              "name": "this is not an interventional study",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Rheumatoid Arthritis",
+            "Psoriatic Arthritis"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "London",
+              "country": "United Kingdom",
+              "facility": "Imanova Centre for Imaging Sciences",
+              "geoPoint": {
+                "lat": 51.50853,
+                "lon": -0.12574
+              },
+              "state": "Greater London",
+              "zip": "W12 0NN"
+            },
+            {
+              "city": "Oxford",
+              "country": "United Kingdom",
+              "facility": "Nuffield Orthopaedic Centre",
+              "geoPoint": {
+                "lat": 51.75222,
+                "lon": -1.25596
+              },
+              "state": "Oxfordshire",
+              "zip": "OX3 7LD"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "University of Oxford",
+              "name": "Peter Taylor, MA,BChB,FRCP",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The importance of the detection of early inflammatory arthritis is recognised as being essential to the prevention of permanent joint damage. Furthermore, drug development in inflammatory arthritis is in increasing need of imaging that is able to sensitively and accurately detect and quantify inflammation in a reproducible and objective manner. There is an increasing body of evidence to support the role of PET-CT for these indications. The PET tracer 11CPBR28 is specific to the translocator protein (TSPO) highly expressed on activated macrophages. In this proof of principle study, the investigators aim to ascertain whether or not the PET tracer 11CPBR28 is taken up in inflamed joints. The investigators also aim to explore the significance of TSPO to inflammatory arthritis, through blood and joint lining samples.",
+          "detailedDescription": "The investigators aim to recruit a minimum of 12 patients with known, active rheumatoid or psoriatic arthritis in the feet and ankles. Patients will first undergo a screening genotyping test; low affinity binders for PBR28 PET will be excluded from this pilot study. Those patients meeting inclusion criteria, will then undergo a PET-CT localised to feet and ankles that have been identified to be clinically inflamed (on examination and ultrasound at the screening visit). After PET-CT, patients will undergo synovial biopsy of one joint imaged. After 6 patients have undergone PET-CT, an interim analysis will be undertaken, to optimise PET scan duration and to alter the group of joints being imaged with CT."
+        },
+        "designModule": {
+          "bioSpec": {
+            "description": "A single blood sample will be taken for a genotyping test, to ascertain whether or not individuals are suitable to undergo PET-CT with the PBR28 PET tracer. Further, blood samples will be taken for serum and RNA, and synovial biopsy will be done.",
+            "retention": "SAMPLES_WITH_DNA"
+          },
+          "designInfo": {
+            "observationalModel": "OTHER",
+            "timePerspective": "PROSPECTIVE"
+          },
+          "enrollmentInfo": {
+            "count": 22,
+            "type": "ACTUAL"
+          },
+          "patientRegistry": false,
+          "studyType": "OBSERVATIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with known rheumatoid arthritis or psoriatic arthritis, with at least one swollen joint, with evidence of joint inflammation in the feet and/or ankles (on clinical examination and/or ultrasound)\n\nExclusion Criteria:\n\n* pregnant and breastfeeding patients those with metalwork in feet/ankles patients unable to lie on their back Patient has been identified as a low affinity \\[11C\\]PBR28 binder according to peripheral blood genotyping assay The patient has any significant co-morbidity precluding participation as judged by the study doctor",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Patients with known rheumatoid arthritis or psoriatic arthritis, with at least one swollen joint, with evidence of joint inflammation in the feet and/or ankles (on clinical examination and/or ultrasound)"
+        },
+        "identificationModule": {
+          "briefTitle": "PBR28 PET and Inflammatory Arthritis",
+          "nctId": "NCT02361385",
+          "officialTitle": "Pilot Study to Evaluate the Feasibility of [11C]PBR28 PET-CT to Image Inflammation in the Joints of Arthritis Patients",
+          "orgStudyIdInfo": {
+            "id": "11132"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "University of Oxford"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Evidence of uptake of 11CPBR28 in the inflamed feet and/or ankle joints of patients with known rheumatoid or psoriatic arthritis as exhibited by SUV (standard uptake values) on the PET-CT images.",
+              "measure": "standardised uptake values (SUV)",
+              "timeFrame": "maximum duration of scan is 90 minutes"
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": true
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "UNKNOWN",
+              "name": "Imanova Centre for Imaging Sciences"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "University of Oxford"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2017-07",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2018-10-12",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2018-10-11",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2017-07",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2015-03",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2018-05",
+          "studyFirstPostDateStruct": {
+            "date": "2015-02-11",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2015-02-06",
+          "studyFirstSubmitQcDate": "2015-02-06"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D020278",
+              "term": "Demyelinating Autoimmune Diseases, CNS"
+            },
+            {
+              "id": "D020274",
+              "term": "Autoimmune Diseases of the Nervous System"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D003711",
+              "term": "Demyelinating Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D009103",
+              "term": "Multiple Sclerosis"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "meshes": [
+            {
+              "id": "C000723102",
+              "term": "elezanumab"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "ABT-555 will be administered at Visit 4 for Part 2 only",
+              "interventionNames": [
+                "Drug: ABT-555"
+              ],
+              "label": "ABT-555",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "ABT-555"
+              ],
+              "description": "ABT-555 will be administered on Visit 4 in Part 2 only",
+              "name": "ABT-555",
+              "type": "DRUG"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Multiple Sclerosis"
+          ],
+          "keywords": [
+            "Relapsing multiple sclerosis"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "London",
+              "country": "United Kingdom",
+              "facility": "Site Reference ID/Investigator# 141463",
+              "geoPoint": {
+                "lat": 51.50853,
+                "lon": -0.12574
+              },
+              "zip": "SW17 ORE"
+            },
+            {
+              "city": "Whitechapel",
+              "country": "United Kingdom",
+              "facility": "Site Reference ID/Investigator# 141461",
+              "geoPoint": {
+                "lat": 51.51382,
+                "lon": -0.06583
+              },
+              "zip": "E1 2AT"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "AbbVie",
+              "name": "Steven Greenberg, MD",
+              "role": "STUDY_DIRECTOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "This open-label positron emission tomography (PET) study is designed to determine the effect of ABT-555 on translocator protein expression level in participants with relapsing forms of multiple sclerosis."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "NA",
+            "interventionModel": "SINGLE_GROUP",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 4,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE1"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\nDiagnosis of relapsing-remitting MS (RRMS) or relapsing secondary progressive MS (SPMS)\n\nNeurologically stable at Screening, in the investigator's judgment and not actively experiencing or recovering from a recent relapse in the 30 days preceding the Screening Visit\n\nA Kurtzke Expanded Disability Status Scale (EDSS) score of 1.0 to 6.0, inclusive at the Screening Visit\n\nHigh or mixed affinity binder of the TSPO, as determined by rs6971 polymorphism genotyping at screening\n\nExclusion Criteria:\n\nDiagnosis of primary progressive or non-relapsing secondary progressive MS\n\nSmoking more than 10 cigarettes per day or use of a nicotine patch\n\nKnown history of, or positive screening test result for hepatitis C virus or hepatitis B virus\n\nVaricella or herpes zoster virus infection or any severe viral infection within 6 weeks before Screening\n\nAny type of live virus vaccine from 4 weeks before randomization\n\nHistory of abnormal laboratory results",
+          "healthyVolunteers": false,
+          "maximumAge": "60 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "[11C]-PBR28 Positron Emission Tomography Study to Evaluate the Effect of ABT 555 in Subjects With Relapsing Forms of Multiple Sclerosis",
+          "nctId": "NCT02606630",
+          "officialTitle": "A [C-11]-PBR28 Positron Emission Tomography Study to Evaluate the Effect of ABT-555 on Central Nervous System Inflammation in Subjects With Relapsing Forms of Multiple Sclerosis",
+          "orgStudyIdInfo": {
+            "id": "M14-561"
+          },
+          "organization": {
+            "class": "INDUSTRY",
+            "fullName": "AbbVie"
+          },
+          "secondaryIdInfos": [
+            {
+              "id": "2015-001176-22",
+              "type": "EUDRACT_NUMBER"
+            }
+          ]
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Compare 2 dynamic positron emission tomography scans to examine the effect of a single administration of ABT-555 on translocator protein expression",
+              "measure": "Change in translocator protein expression",
+              "timeFrame": "Day 0 and 109 days"
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": false
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "INDUSTRY",
+            "name": "AbbVie"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2015-12",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2017-02-08",
+            "type": "ESTIMATED"
+          },
+          "lastUpdateSubmitDate": "2017-02-06",
+          "overallStatus": "TERMINATED",
+          "primaryCompletionDateStruct": {
+            "date": "2015-12",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2015-10"
+          },
+          "statusVerifiedDate": "2017-02",
+          "studyFirstPostDateStruct": {
+            "date": "2015-11-17",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2015-11-13",
+          "studyFirstSubmitQcDate": "2015-11-13",
+          "whyStopped": "Company decision"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D009135",
+              "term": "Muscular Diseases"
+            },
+            {
+              "id": "D009140",
+              "term": "Musculoskeletal Diseases"
+            },
+            {
+              "id": "D009468",
+              "term": "Neuromuscular Diseases"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D001168",
+              "term": "Arthritis"
+            },
+            {
+              "id": "D007592",
+              "term": "Joint Diseases"
+            },
+            {
+              "id": "D012216",
+              "term": "Rheumatic Diseases"
+            },
+            {
+              "id": "D003240",
+              "term": "Connective Tissue Diseases"
+            },
+            {
+              "id": "D017437",
+              "term": "Skin and Connective Tissue Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D009220",
+              "term": "Myositis"
+            },
+            {
+              "id": "D001172",
+              "term": "Arthritis, Rheumatoid"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D000096926",
+              "term": "Benzenesulfonamides"
+            },
+            {
+              "id": "D013449",
+              "term": "Sulfonamides"
+            },
+            {
+              "id": "D000577",
+              "term": "Amides"
+            },
+            {
+              "id": "D009930",
+              "term": "Organic Chemicals"
+            },
+            {
+              "id": "D001555",
+              "term": "Benzene Derivatives"
+            },
+            {
+              "id": "D006841",
+              "term": "Hydrocarbons, Aromatic"
+            },
+            {
+              "id": "D006844",
+              "term": "Hydrocarbons, Cyclic"
+            },
+            {
+              "id": "D006838",
+              "term": "Hydrocarbons"
+            },
+            {
+              "id": "D013450",
+              "term": "Sulfones"
+            },
+            {
+              "id": "D013457",
+              "term": "Sulfur Compounds"
+            },
+            {
+              "id": "D011720",
+              "term": "Pyrazoles"
+            },
+            {
+              "id": "D001393",
+              "term": "Azoles"
+            },
+            {
+              "id": "D006573",
+              "term": "Heterocyclic Compounds, 1-Ring"
+            },
+            {
+              "id": "D006571",
+              "term": "Heterocyclic Compounds"
+            },
+            {
+              "id": "D014055",
+              "term": "Tomography, Emission-Computed"
+            },
+            {
+              "id": "D007090",
+              "term": "Image Interpretation, Computer-Assisted"
+            },
+            {
+              "id": "D003952",
+              "term": "Diagnostic Imaging"
+            },
+            {
+              "id": "D019937",
+              "term": "Diagnostic Techniques and Procedures"
+            },
+            {
+              "id": "D003933",
+              "term": "Diagnosis"
+            },
+            {
+              "id": "D007089",
+              "term": "Image Enhancement"
+            },
+            {
+              "id": "D010781",
+              "term": "Photography"
+            },
+            {
+              "id": "D014054",
+              "term": "Tomography"
+            },
+            {
+              "id": "D003947",
+              "term": "Diagnostic Techniques, Radioisotope"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "C000712209",
+              "term": "(11C)-MC1"
+            },
+            {
+              "id": "D000068579",
+              "term": "Celecoxib"
+            },
+            {
+              "id": "D049268",
+              "term": "Positron-Emission Tomography"
+            },
+            {
+              "id": "D011877",
+              "term": "Radionuclide Imaging"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "documentSection": {
+        "largeDocumentModule": {
+          "largeDocs": [
+            {
+              "date": "2024-04-16",
+              "filename": "Prot_SAP_000.pdf",
+              "hasIcf": false,
+              "hasProtocol": true,
+              "hasSap": true,
+              "label": "Study Protocol and Statistical Analysis Plan",
+              "size": 1144327,
+              "typeAbbrev": "Prot_SAP",
+              "uploadDate": "2025-06-06T08:41"
+            }
+          ]
+        }
+      },
+      "hasResults": true,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Healthy participants receive about 10 mCi of \\[11C\\]MC1 intravenously followed by a whole body PET/CT scan. If radiation dose to selected body organs is within safety limit, Phase 2 of study was initiated",
+              "interventionNames": [
+                "Drug: 11C-MC1",
+                "Diagnostic Test: Positron Emission Tomography (PET)/computed tomography (CT) Scan"
+              ],
+              "label": "Phase 1: Pilot - Whole body scan in health participants",
+              "type": "OTHER"
+            },
+            {
+              "description": "Participants with rheumatoid arthritis (RA), idiopathic inflammatory myopathies (IIM), or axial spondyloarthritis (AXSPA), had a baseline whole body PET/CT scan after about 15 mCi of \\[11C\\]MC1 followed by a second whole body PET/CT scan with about 15 mCi of \\[11C\\]MC1 intravenously after blockade with single dose of celecoxib 200-400 mg orally on same day.",
+              "interventionNames": [
+                "Drug: 11C-MC1",
+                "Drug: Celecoxib",
+                "Diagnostic Test: Positron Emission Tomography (PET)/computed tomography (CT) Scan"
+              ],
+              "label": "Phase 2: Whole body PET/CT scans in patients",
+              "type": "OTHER"
+            },
+            {
+              "description": "Healthy participants had a baseline whole body PET/CT scan after receiving about 15 mCi of \\[11C\\]MC1 followed by a second whole body PET/CT scan with about 15 mCi of \\[11C\\]MC1 intravenously after blockade with single dose of celecoxib 200-400 mg orally on same day. In a second visit, participants had a baseline whole body PET/CT scan after receiving about 15 mCi of \\[11C\\]ER176 followed by a second whole body PET/CT scan with about 15 mCi of \\[11C\\]ER176 intravenously after blockade with single dose of celecoxib 200-400 mg orally on same day.",
+              "interventionNames": [
+                "Drug: 11C-MC1",
+                "Drug: Celecoxib",
+                "Drug: [11C]ER176",
+                "Diagnostic Test: Positron Emission Tomography (PET)/computed tomography (CT) Scan"
+              ],
+              "label": "Phase 2: Whole body PET/CT scans in healthy participants",
+              "type": "OTHER"
+            },
+            {
+              "description": "Healthy participants had a baseline brain PET/CT scan after receiving about 20 mCi \\[11C\\]MC1 followed by a second brain PET/CT scan with 20 mCi \\[11C\\]MC1 intravenously after blockade with single dose of celecoxib 600 mg orally on same day. Participants had arterial blood sampling with each brain scan.",
+              "interventionNames": [
+                "Drug: 11C-MC1",
+                "Drug: Celecoxib",
+                "Diagnostic Test: Positron Emission Tomography (PET)/computed tomography (CT) Scan"
+              ],
+              "label": "Phase 3: Brain PET/CT scans in healthy participants",
+              "type": "OTHER"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Phase 1: Pilot - Whole body scan in health participants",
+                "Phase 2: Whole body PET/CT scans in healthy participants",
+                "Phase 2: Whole body PET/CT scans in patients",
+                "Phase 3: Brain PET/CT scans in healthy participants"
+              ],
+              "description": "PET radioligand for Cyclooxygenase-2 (COX-2)",
+              "name": "11C-MC1",
+              "type": "DRUG"
+            },
+            {
+              "armGroupLabels": [
+                "Phase 2: Whole body PET/CT scans in healthy participants",
+                "Phase 2: Whole body PET/CT scans in patients",
+                "Phase 3: Brain PET/CT scans in healthy participants"
+              ],
+              "description": "Cyclooxygenase-2 (COX-2) inhibitor",
+              "name": "Celecoxib",
+              "otherNames": [
+                "Celebrex"
+              ],
+              "type": "DRUG"
+            },
+            {
+              "armGroupLabels": [
+                "Phase 2: Whole body PET/CT scans in healthy participants"
+              ],
+              "description": "Radioligand for 18-kDa Translocator Protein",
+              "name": "[11C]ER176",
+              "type": "DRUG"
+            },
+            {
+              "armGroupLabels": [
+                "Phase 1: Pilot - Whole body scan in health participants",
+                "Phase 2: Whole body PET/CT scans in healthy participants",
+                "Phase 2: Whole body PET/CT scans in patients",
+                "Phase 3: Brain PET/CT scans in healthy participants"
+              ],
+              "description": "Whole body or brain PET/CT scans",
+              "name": "Positron Emission Tomography (PET)/computed tomography (CT) Scan",
+              "type": "DIAGNOSTIC_TEST"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Myositis",
+            "Inflammatory",
+            "Rheumatoid Arthritis",
+            "Healthy Volunteers"
+          ],
+          "keywords": [
+            "Inflammatory",
+            "PET Imaging"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Bethesda",
+              "country": "United States",
+              "facility": "National Institutes of Health Clinical Center",
+              "geoPoint": {
+                "lat": 38.98067,
+                "lon": -77.10026
+              },
+              "state": "Maryland",
+              "zip": "20892"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "National Institute of Mental Health (NIMH)",
+              "name": "Robert B Innis, M.D.",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Background:\n\nInflammation plays a significant role in various disorders that involve neurodegeneration or autoimmune reaction as one of their mechanisms. PET scans can help detect inflammation. Two new drugs may create better PET images.\n\nObjective:\n\n\\- To see if the drug \\[11C\\]MC1 can help image inflammation.\n\nEligibility:\n\n* People age 18 and older with rheumatoid arthritis or idiopathic inflammatory myopathy (IIM).\n* Healthy volunteers enrolled in protocol 01-M-0254 or 17-M-0181 are also needed.\n\nDesign:\n\n* Healthy participants will be screened under protocol 01-M-0254 or 17-M-0181.\n* Participants with arthritis or IIM will have a screening visit. This will include:\n* Medical history\n* Physical exam\n* Blood and urine tests\n* Possible CT or X-ray: A machine will take pictures of the body.\n* Healthy participants will have 1 or 2 visits. They may have urine tests. They may take the drug celecoxib by mouth. They will have a PET scan. A small amount of one or both study drugs will be injected through a catheter: A needle will guide a thin plastic tube into an arm vein. Another catheter will draw blood. They will like on a bed that slides into a machine. Their vital signs and heart activity will be measured.\n* Participants with arthritis will have up to 2 visits after screening. They may take celecoxib and have PET scans.\n* Participants with IIM will have up to 3 visits after screening. At 1 or 2 visits, they will take celecoxib and have PET scans. They will have 1 visit where they have an MRI: They will lie on a table that slides into a machine. The machine takes pictures of the body.",
+          "detailedDescription": "I. Objective\n\n18-kDa translocator protein (TSPO) and cyclooxygenase-2 (COX-2) are both implicated in the pathophysiology of various inflammatory disorders, suggesting that both may serve as potential biomarkers of inflammation in brain as well as periphery. Our laboratory recently developed two new radioligands: \\[11C\\]ER176 to image TSPO and \\[11C\\]MC1 to image COX-2. Using wholebody imaging, this study seeks to determine whether PET imaging using these new radioligands can differentiate two inflammatory conditions-rheumatoid arthritis (RA) and idiopathic inflammatory myopathies (IIM)-from healthy conditions. To determine if \\[11C\\]MC1 uptake is specific to COX-2, we will also conduct a blocking study with a selective COX-2 inhibitor (celecoxib) in both \\[11C\\]MC1 and \\[11C\\]ER176 scans; celecoxib is expected to block uptake of \\[11C\\]MC1 but not \\[11C\\]ER176. Using brain-dedicated imaging, this seeks to determine whether RA patients and healthy volunteers have specific binding in brain - i.e., uptake that can be blocked celecoxib.\n\nII. Study population\n\nHealthy volunteers (n = 17), patients with RA (n = 15), and patients with IIM (n = 15) will undergo whole-body PET/CT scans. Patients with AxSpA (n=15) will undergo two whole-body PET/MRI scans. In addition, healthy volunteers (n = 22) and patients with RA (n = 12) will have brain-dedicated imaging using \\[11C\\]MC1 concurrent with arterial blood sampling. Finally, 15 patients with RA will be imaged during a period of moderate to severe symptoms and after clinically indicated treatment for two to four months. Thus, the entire population will be healthy volunteers (n = 39), patients with RA (n = 42), patients with AxSpA (n=15) and patients with\n\nIIM (n = 15).\n\nIII. Design\n\n1. Phase 1: We will begin by injecting up to 10 mCi of \\[11C\\]MC1 in one healthy male and one healthy female and then conducting a whole body PET scan. Uptake will be measured in the ovaries and testes, and the dose of radioactivity will be calculated. We will proceed only if the dose to these organs with the higher injected activity proposed for Phase 2 will not exceed the limits specified by the Radioactive Drug Research Committee (RDRC).\n2. Phase 2: Fifteen RA patients, 15 IIM patients, and 15 age-, sex-, and genotype-matched healthy subjects will undergo two whole-body PET/CT scans using 15 mCi of \\[11C\\]ER176 on one day and two whole-body PET/CT scans using 15 mCi of \\[11C\\]MC1 on another day. The first scan on each day will serve as the baseline scan for comparison; the second scan on each day will be a blocking study using celecoxib. The \\[11C\\]ER176 scans are not mandatory and will be requested at the discretion of the PI.\n3. Phase 3: Twelve RA patients and 22 age- and sex-matched healthy subjects will undergo two brain-dedicated PET/CT scans, each using 20 mCi \\[11C\\]MC1, and concurrent with arterial blood sampling. The first scan will be a baseline scan, and the second will be after blockade by celecoxib.\n4. Phase 4: Fifteen RA patients will be imaged twice with \\[11C\\]MC: while having moderate to severe symptoms and after clinically-indicated therapy for about two to four months. Participants will have whole-body scan after injection of 15 mCi of \\[11C\\]MC1.\n\nIV. Outcome measures\n\nFor whole body imaging, radioligand uptake in a selected region of interest will be quantified as a Standardized Uptake Value (SUV), which normalizes for injected activity and body weight. Possible differences in actual blood radioligand level will be adjusted by venous blood data obtained during the PET scan. Regional uptake after blockade with celecoxib will be expressed as a percentage of the baseline value. The baseline uptake and the percentage blockade by celecoxib of each radioligand will be compared between patients and healthy subjects as well as between inflamed and non-inflamed regions of the body in RA and IIM patients.\n\nFor brain-dedicated imaging, the density of COX-2 will be measured with pharmacokinetic modeling and expressed as distribution volume (VT)."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "NON_RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "DIAGNOSTIC"
+          },
+          "enrollmentInfo": {
+            "count": 31,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE1"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "* INCLUSION CRITERIA:\n\nHealthy subjects\n\n* Aged 18 years or older.\n* Willing and able to complete all study procedures.\n* Able to provide informed consent.\n* Healthy based on medical history, physical examination, and laboratory testing.\n* Enrolled in protocol 01-M-0254 The Evaluation of Participants with Mood and Anxiety Disorders and Healthy Volunteers or 17-M-0181 Recruitment and Characterization of Healthy Research Volunteers for National Institute of Mental Health (NIMH) Intramural Studies.\n* Be age and sex-matched with patient groups for the 15 subjects in the Phase 2.\n\nRA patients\n\n* Aged 18 years or older.\n* Willing and able to complete all study procedures.\n* Able to provide informed consent.\n* Have been given a diagnosis of RA based on the published criteria (Aletaha et al., 2010).\n* Have moderate to severe symptoms, as defined by a Disease Activity Score in 28 joints with erythrocyte sedimentation rate (DAS28-ESR) score \\>3.2, but RA patients may be in remission for the repeat scan in phase 4.\n\nIIM patients\n\n* Aged 18 years or older\n* Willing and able to complete all study procedures.\n* Able to provide informed consent.\n* Meets Bohan and Peter criteria ((Bohan and Peter, 1975a, b) for probable or definite dermatomyositis (DM) or polymyositis (PM), or\n* Meets criteria for inclusion body myositis (IBM) as defined by Lloyd et al.: 1) finger flexor or quadriceps weakness, and 2) endomysial inflammation, and 3) either invasion of non-necrotic muscle fibers or rimmed vacuoles.\n\nAxial Spondyloarthritis (AxSpA) patients\n\n* Aged 18 years or older.\n* Willing and able to complete all study procedures.\n* Able to provide informed consent.\n* Have been given a diagnosis of AxSpA based on Assessment of Spondylo-Arthritis International Society (ASAS) criteria AxSpA.\n\nEXCLUSION CRITERIA:\n\n1. Common for all participants\n\n   * Because non-steroidal anti-inflammatory drugs (NSAIDs) inhibit COX-2, subjects should not have taken NSAIDs or willow bark tea for two weeks prior to the PET scan.\n   * For Phase 2, 3 and 4 \\*contraindications to taking COX-2 inhibitors that, in the opinion of the investigators, have the potential to affect the results or the safety of the participant.\n\n   These may include:\n   * History of hypersensitivity reaction to COX inhibitors or History of aspirin- or NSAID-induced asthma\n   * History of upper or lower gastrointestinal bleeding, gastritis, peptic ulcer disease\n   * History of uncontrolled gastroesophageal reflux disease (GERD), but not medically controlled GERD\n   * Coagulation disorder\n   * Thrombocytopenia\n   * Glucose-6-phosphate dehydrogenase (G6PD) deficiency\n   * History of gout\n   * History of hepatic or renal impairment\n   * History of cardiovascular disease or presence of cardiovascular risk factors such as uncontrolled or poorly controlled hypertension\n   * Current use of probenecid\n   * Patients clinically in remission or who have low disease activity\n\n     * Positive HIV infection\n     * Any other history of severe medical illness or injury with the potential to affect study data interpretation or to be any medical contraindication to the procedures performed in the study, including active infection and untreated malignancy.\n     * Unable to travel to NIH\n     * Recent exposure to radiation related to research (e.g., PET from other research) that, when combined with this study, would be above the allowable limits.\n     * Inability to lie flat on camera bed for at least two hours, including claustrophobia and overweight greater than the maximum for the scanner (500 lb.).\n     * Pregnancy or breastfeeding.\n     * Participants must not have substance use disorder or alcohol use disorder. However, alcohol or cannabis use by themselves are not exclusion criteria, unless that use affects the function of daily life.\n     * NIMH employees or an NIH employee who is a subordinate/relative/co-worker of the investigators.\n\n       * These criteria will not be applied to the two healthy volunteers participating in the Phase 1 of this study\\*.\n2. Healthy subjects\n\n   * Clinically significant laboratory abnormalities based on tests performed under screening protocol 01-M-0254 or 17-M-0181.\n3. AxSpA and IIM patients\n\n   * Unable to have an MRI scan (e.g., pacemakers or other implanted electrical devices, brain stimulators, dental implants, aneurysm clips (metal clips on the wall of a large artery), metallic prostheses (including metal pins and rods, heart valves, and cochlear implants), permanent eyeliner, implanted delivery pumps, or shrapnel fragments, metal fragments in the eye).",
+          "healthyVolunteers": false,
+          "maximumAge": "99 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Novel PET Radioligand as an Inflammatory Biomarker in Musculoskeletal Conditions",
+          "nctId": "NCT03912428",
+          "officialTitle": "Evaluation of a Novel PET Radioligand as an Inflammatory Biomarker in Musculoskeletal Conditions",
+          "orgStudyIdInfo": {
+            "id": "190079"
+          },
+          "organization": {
+            "class": "NIH",
+            "fullName": "National Institutes of Health Clinical Center (CC)"
+          },
+          "secondaryIdInfos": [
+            {
+              "id": "19-M-0079"
+            }
+          ]
+        },
+        "ipdSharingStatementModule": {
+          "accessCriteria": "De-identified data can be accessed through NIH Biomedical Translational Research Information System (BTRIS)",
+          "description": "This study will also comply with the NIH Data Sharing Policy and Policy on the Dissemination of NIH-Funded Clinical Trial Information and the Clinical Trials Registration and Results Information Submission rule.",
+          "infoTypes": [
+            "STUDY_PROTOCOL"
+          ],
+          "ipdSharing": "YES",
+          "timeFrame": "18 months after study closure"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Participant received whole body PET/CT scan and radioligand uptake of \\[11C\\]MC1 in selected body regions of interest was quantified as a Standardized Uptake Value (SUV) using the Siemens Biograph Micro-Computed Tomography (mCT) with an injected dose of 9 mCi. Organ dosimetry was measured as dose per organ in Roentgen Equivalent Man (rem), which is absorbed dose times an organ-specific quality factor.",
+              "measure": "Uptake of [11C]MC1 by Organs",
+              "timeFrame": "Up to 120 minutes during each scan"
+            },
+            {
+              "description": "Participant received whole body PET/CT scan and radioligand uptake of \\[11C\\]MC1 in selected body regions of interest was quantified as a Standardized Uptake Value (SUV) using the Siemens Biograph Micro-Computed Tomography (mCT) with an injected dose of 9 mCi. Organ dosimetry was measured as dose per organ in Roentgen Equivalent Man (rem), which is absorbed dose times an organ-specific quality factor.",
+              "measure": "Uptake of [11C]MC1 by Organs - Gender Specific Organs",
+              "timeFrame": "Up to 120 minutes during each scan"
+            },
+            {
+              "description": "The uptake of \\[11C\\]MC1 before (baseline) and after blockade by single dose of celecoxib 400mg orally in inflamed regions of the body in patients. The radioligand uptake of \\[11C\\]MC1 during whole body PET/CT scans in selected regions of interest was quantified as a Standardized Uptake Value (SUV), which normalizes for injected activity and body weight, using Bruker's PMOD quantification software.",
+              "measure": "Phase 2: [11C]MC1 Binding in Inflamed Body Parts - HANDS",
+              "timeFrame": "Up to 120 minutes during each scan"
+            },
+            {
+              "description": "The uptake of \\[11C\\]MC1 before (baseline) and after blockade by a single dose of celecoxib 400mg orally in non-inflamed regions of the body in healthy participants. The radioligand uptake of \\[11C\\]MC1 during whole body PET/CT scans in selected regions of interest was quantified as a Standardized Uptake Value (SUV), which normalizes for injected activity and body weight, using Bruker's PMOD quantification software.",
+              "measure": "Phase 2: [11C]MC1 Binding in Non-inflamed Body Parts - HANDS",
+              "timeFrame": "Up to 120 minutes during each scan"
+            },
+            {
+              "description": "The uptake of \\[11C\\]MC1 before (baseline) and after blockade by a single dose of celecoxib 400mg orally in inflamed regions of the body in patients. The radioligand uptake of \\[11C\\]MC1 during whole body PET/CT scans in selected regions of interest was quantified as a Standardized Uptake Value (SUV), which normalizes for injected activity and body weight, using Bruker's PMOD quantification software.",
+              "measure": "Phase 2: [11C]MC1 Binding in Inflamed Body Parts - KNEES",
+              "timeFrame": "Up to 120 minutes during each scan"
+            },
+            {
+              "description": "The uptake of \\[11C\\]MC1 before (baseline) and after blockade by a single dose of celecoxib 400mg orally in non-inflamed regions of the body in healthy participants. The radioligand uptake of \\[11C\\]MC1 during whole body PET/CT scans in selected regions of interest was quantified as a Standardized Uptake Value (SUV), which normalizes for injected activity and body weight, using Bruker's PMOD quantification software.",
+              "measure": "Phase 2: [11C]MC1 Binding Between Non-inflamed Body - KNEES",
+              "timeFrame": "Up to 120 minutes during each scan"
+            },
+            {
+              "description": "The volume of distribution (VT) of \\[11C\\]MC1 measured as the brain-to-plasma ratio using the 2-tissue compartmental modeling divided by free-fraction in the plasma of parent radioligand (fP) at baseline and two hours after blockade with single dose of 600 mg celecoxib orally.",
+              "measure": "Whole Brain Volume of Distribution (VT)/ Free-fraction (fP) of [11C]MC1",
+              "timeFrame": "Up to 120 minutes during each scan"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": true
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Ikawa M, Lohith TG, Shrestha S, Telu S, Zoghbi SS, Castellano S, Taliani S, Da Settimo F, Fujita M, Pike VW, Innis RB; Biomarkers Consortium Radioligand Project Team. 11C-ER176, a Radioligand for 18-kDa Translocator Protein, Has Adequate Sensitivity to Robustly Image All Three Affinity Genotypes in Human Brain. J Nucl Med. 2017 Feb;58(2):320-325. doi: 10.2967/jnumed.116.178996. Epub 2016 Nov 17.",
+              "pmid": "27856631",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Kreisl WC, Jenko KJ, Hines CS, Lyoo CH, Corona W, Morse CL, Zoghbi SS, Hyde T, Kleinman JE, Pike VW, McMahon FJ, Innis RB; Biomarkers Consortium PET Radioligand Project Team. A genetic polymorphism for translocator protein 18 kDa affects both in vitro and in vivo radioligand binding in human brain to this putative biomarker of neuroinflammation. J Cereb Blood Flow Metab. 2013 Jan;33(1):53-8. doi: 10.1038/jcbfm.2012.131. Epub 2012 Sep 12.",
+              "pmid": "22968319",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "van der Laken CJ, Elzinga EH, Kropholler MA, Molthoff CF, van der Heijden JW, Maruyama K, Boellaard R, Dijkmans BA, Lammertsma AA, Voskuyl AE. Noninvasive imaging of macrophages in rheumatoid synovitis using 11C-(R)-PK11195 and positron emission tomography. Arthritis Rheum. 2008 Nov;58(11):3350-5. doi: 10.1002/art.23955.",
+              "pmid": "18975347",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Aletaha D, Neogi T, Silman AJ, Funovits J, Felson DT, Bingham CO 3rd, Birnbaum NS, Burmester GR, Bykerk VP, Cohen MD, Combe B, Costenbader KH, Dougados M, Emery P, Ferraccioli G, Hazes JM, Hobbs K, Huizinga TW, Kavanaugh A, Kay J, Kvien TK, Laing T, Mease P, Menard HA, Moreland LW, Naden RL, Pincus T, Smolen JS, Stanislawska-Biernat E, Symmons D, Tak PP, Upchurch KS, Vencovsky J, Wolfe F, Hawker G. 2010 Rheumatoid arthritis classification criteria: an American College of Rheumatology/European League Against Rheumatism collaborative initiative. Arthritis Rheum. 2010 Sep;62(9):2569-81. doi: 10.1002/art.27584.",
+              "pmid": "20872595",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Bohan A, Peter JB. Polymyositis and dermatomyositis (first of two parts). N Engl J Med. 1975 Feb 13;292(7):344-7. doi: 10.1056/NEJM197502132920706. No abstract available.",
+              "pmid": "1090839",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Bohan A, Peter JB. Polymyositis and dermatomyositis (second of two parts). N Engl J Med. 1975 Feb 20;292(8):403-7. doi: 10.1056/NEJM197502202920807. No abstract available.",
+              "pmid": "1089199",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Shrestha S, Kim MJ, Eldridge M, Lehmann ML, Frankland M, Liow JS, Yu ZX, Cortes-Salva M, Telu S, Henter ID, Gallagher E, Lee JH, Fredericks JM, Poffenberger C, Tye G, Ruiz-Perdomo Y, Anaya FJ, Montero Santamaria JA, Gladding RL, Zoghbi SS, Fujita M, Katz JD, Pike VW, Innis RB. PET measurement of cyclooxygenase-2 using a novel radioligand: upregulation in primate neuroinflammation and first-in-human study. J Neuroinflammation. 2020 May 2;17(1):140. doi: 10.1186/s12974-020-01804-6.",
+              "pmid": "32359360",
+              "type": "DERIVED"
+            }
+          ],
+          "seeAlsoLinks": [
+            {
+              "label": "NIH Clinical Center Detailed Web Page",
+              "url": "https://clinicalstudies.info.nih.gov/cgi/detail.cgi?B_2019-M-0079.html"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "NIH",
+            "name": "National Institute of Mental Health (NIMH)"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2024-06-14",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2025-09-16",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2025-08-28",
+          "overallStatus": "TERMINATED",
+          "primaryCompletionDateStruct": {
+            "date": "2024-06-14",
+            "type": "ACTUAL"
+          },
+          "resultsFirstPostDateStruct": {
+            "date": "2025-09-16",
+            "type": "ACTUAL"
+          },
+          "resultsFirstSubmitDate": "2025-06-09",
+          "resultsFirstSubmitQcDate": "2025-08-28",
+          "startDateStruct": {
+            "date": "2019-06-14",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2025-08",
+          "studyFirstPostDateStruct": {
+            "date": "2019-04-11",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2019-04-10",
+          "studyFirstSubmitQcDate": "2019-04-10",
+          "whyStopped": "due to difficulty with participant recruitment and data futility"
+        }
+      },
+      "resultsSection": {
+        "adverseEventsModule": {
+          "eventGroups": [
+            {
+              "deathsNumAffected": 0,
+              "deathsNumAtRisk": 2,
+              "description": "Healthy participants receive about 10 mCi of \\[11C\\]MC1 intravenously followed by a whole body PET/CT scan. If radiation dose to selected body organs is within safety limit, Phase 2 of study was initiated",
+              "id": "EG000",
+              "otherNumAffected": 0,
+              "otherNumAtRisk": 2,
+              "seriousNumAffected": 0,
+              "seriousNumAtRisk": 2,
+              "title": "Phase 1: Pilot - Whole Body PET/CT Scan in Health Participants"
+            },
+            {
+              "deathsNumAffected": 0,
+              "deathsNumAtRisk": 14,
+              "description": "Participants with rheumatoid arthritis (RA), idiopathic inflammatory myopathies (IIM), or axial spondyloarthritis (AXSPA), had a baseline whole body PET/CT scan after about 15 mCi of \\[11C\\]MC1 followed by a second whole body PET/CT scan with about 15 mCi of \\[11C\\]MC1 intravenously after blockade with single dose of celecoxib 200-400 mg orally on same day.",
+              "id": "EG001",
+              "otherNumAffected": 1,
+              "otherNumAtRisk": 14,
+              "seriousNumAffected": 0,
+              "seriousNumAtRisk": 14,
+              "title": "Phase 2: Whole Body PET/CT Scans in Patients"
+            },
+            {
+              "deathsNumAffected": 0,
+              "deathsNumAtRisk": 2,
+              "description": "Healthy participants had a baseline whole body PET/CT scan after receiving about 15 mCi of \\[11C\\]MC1 followed by a second whole body PET/CT scan with about 15 mCi of \\[11C\\]MC1 intravenously after blockade with single dose of celecoxib 200-400 mg orally on same day. In a second visit, participants had a baseline whole body PET/CT scan after receiving about 15 mCi of \\[11C\\]ER176 followed by a second whole body PET/CT scan with about 15 mCi of \\[11C\\]ER176 intravenously after blockade with single dose of celecoxib 200-400 mg orally on same day.",
+              "id": "EG002",
+              "otherNumAffected": 1,
+              "otherNumAtRisk": 2,
+              "seriousNumAffected": 0,
+              "seriousNumAtRisk": 2,
+              "title": "Phase 2: Whole Body PET/CT Scans in Healthy Participants"
+            },
+            {
+              "deathsNumAffected": 0,
+              "deathsNumAtRisk": 12,
+              "description": "Healthy participants had a baseline brain PET/CT scan after receiving about 20 mCi \\[11C\\]MC1 followed by a second brain PET/CT scan with 20 mCi \\[11C\\]MC1 intravenously after blockade with single dose of celecoxib 600 mg orally on same day. Participants had arterial blood sampling with each brain scan.",
+              "id": "EG003",
+              "otherNumAffected": 3,
+              "otherNumAtRisk": 12,
+              "seriousNumAffected": 0,
+              "seriousNumAtRisk": 12,
+              "title": "Phase 3: Brain PET/CT Scans in Healthy Participants"
+            }
+          ],
+          "frequencyThreshold": "0",
+          "otherEvents": [
+            {
+              "assessmentType": "SYSTEMATIC_ASSESSMENT",
+              "organSystem": "General disorders",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 0,
+                  "numAtRisk": 2
+                },
+                {
+                  "groupId": "EG001",
+                  "numAffected": 1,
+                  "numAtRisk": 14
+                },
+                {
+                  "groupId": "EG002",
+                  "numAffected": 0,
+                  "numAtRisk": 2
+                },
+                {
+                  "groupId": "EG003",
+                  "numAffected": 1,
+                  "numAtRisk": 12
+                }
+              ],
+              "term": "Burning sensation"
+            },
+            {
+              "assessmentType": "SYSTEMATIC_ASSESSMENT",
+              "organSystem": "General disorders",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 0,
+                  "numAtRisk": 2
+                },
+                {
+                  "groupId": "EG001",
+                  "numAffected": 0,
+                  "numAtRisk": 14
+                },
+                {
+                  "groupId": "EG002",
+                  "numAffected": 0,
+                  "numAtRisk": 2
+                },
+                {
+                  "groupId": "EG003",
+                  "numAffected": 1,
+                  "numAtRisk": 12
+                }
+              ],
+              "term": "Injection site haematoma"
+            },
+            {
+              "assessmentType": "SYSTEMATIC_ASSESSMENT",
+              "organSystem": "General disorders",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 0,
+                  "numAtRisk": 2
+                },
+                {
+                  "groupId": "EG001",
+                  "numAffected": 0,
+                  "numAtRisk": 14
+                },
+                {
+                  "groupId": "EG002",
+                  "numAffected": 0,
+                  "numAtRisk": 2
+                },
+                {
+                  "groupId": "EG003",
+                  "numAffected": 1,
+                  "numAtRisk": 12
+                }
+              ],
+              "term": "Injection site paraesthesia"
+            },
+            {
+              "assessmentType": "SYSTEMATIC_ASSESSMENT",
+              "organSystem": "General disorders",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 0,
+                  "numAtRisk": 2
+                },
+                {
+                  "groupId": "EG001",
+                  "numAffected": 0,
+                  "numAtRisk": 14
+                },
+                {
+                  "groupId": "EG002",
+                  "numAffected": 0,
+                  "numAtRisk": 2
+                },
+                {
+                  "groupId": "EG003",
+                  "numAffected": 1,
+                  "numAtRisk": 12
+                }
+              ],
+              "term": "Medical device site pain"
+            },
+            {
+              "assessmentType": "SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Nervous system disorders",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 0,
+                  "numAtRisk": 2
+                },
+                {
+                  "groupId": "EG001",
+                  "numAffected": 0,
+                  "numAtRisk": 14
+                },
+                {
+                  "groupId": "EG002",
+                  "numAffected": 0,
+                  "numAtRisk": 2
+                },
+                {
+                  "groupId": "EG003",
+                  "numAffected": 1,
+                  "numAtRisk": 12
+                }
+              ],
+              "term": "Dysgeusia"
+            },
+            {
+              "assessmentType": "SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Skin and subcutaneous tissue disorders",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 0,
+                  "numAtRisk": 2
+                },
+                {
+                  "groupId": "EG001",
+                  "numAffected": 0,
+                  "numAtRisk": 14
+                },
+                {
+                  "groupId": "EG002",
+                  "numAffected": 1,
+                  "numAtRisk": 2
+                },
+                {
+                  "groupId": "EG003",
+                  "numAffected": 0,
+                  "numAtRisk": 12
+                }
+              ],
+              "term": "Medical device site rash"
+            }
+          ],
+          "timeFrame": "Up to two days after each PET/CT scan visit"
+        },
+        "baselineCharacteristicsModule": {
+          "denoms": [
+            {
+              "counts": [
+                {
+                  "groupId": "BG000",
+                  "value": "2"
+                },
+                {
+                  "groupId": "BG001",
+                  "value": "14"
+                },
+                {
+                  "groupId": "BG002",
+                  "value": "2"
+                },
+                {
+                  "groupId": "BG003",
+                  "value": "12"
+                },
+                {
+                  "groupId": "BG004",
+                  "value": "30"
+                }
+              ],
+              "units": "Participants"
+            }
+          ],
+          "groups": [
+            {
+              "description": "Healthy participants receive about 10 mCi of \\[11C\\]MC1 intravenously followed by a whole body PET/CT scan. If radiation dose to selected body organs is within safety limit, Phase 2 of study was initiated",
+              "id": "BG000",
+              "title": "Phase 1: Pilot - Whole Body PET/CT Scan in Health Participants"
+            },
+            {
+              "description": "Participants with rheumatoid arthritis (RA), idiopathic inflammatory myopathies (IIM), or axial spondyloarthritis (AXSPA), had a baseline whole body PET/CT scan after about 15 mCi of \\[11C\\]MC1 followed by a second whole body PET/CT scan with about 15 mCi of \\[11C\\]MC1 intravenously after blockade with single dose of celecoxib 200-400 mg orally on same day.",
+              "id": "BG001",
+              "title": "Phase 2: Whole Body PET/CT Scans in Patients"
+            },
+            {
+              "description": "Healthy participants had a baseline whole body PET/CT scan after receiving about 15 mCi of \\[11C\\]MC1 followed by a second whole body PET/CT scan with about 15 mCi of \\[11C\\]MC1 intravenously after blockade with single dose of celecoxib 200-400 mg orally on same day. In a second visit, participants had a baseline whole body PET/CT scan after receiving about 15 mCi of \\[11C\\]ER176 followed by a second whole body PET/CT scan with about 15 mCi of \\[11C\\]ER176 intravenously after blockade with single dose of celecoxib 200-400 mg orally on same day.",
+              "id": "BG002",
+              "title": "Phase 2: Whole Body PET/CT Scans in Healthy Participants"
+            },
+            {
+              "description": "Healthy participants had a baseline brain PET/CT scan after receiving about 20 mCi \\[11C\\]MC1 followed by a second brain PET/CT scan with 20 mCi \\[11C\\]MC1 intravenously after blockade with single dose of celecoxib 600 mg orally on same day. Participants had arterial blood sampling with each brain scan.",
+              "id": "BG003",
+              "title": "Phase 3: Brain PET/CT Scans in Healthy Participants"
+            },
+            {
+              "description": "Total of all reporting groups",
+              "id": "BG004",
+              "title": "Total"
+            }
+          ],
+          "measures": [
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "<=18 years"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "2"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "13"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "12"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "27"
+                        }
+                      ],
+                      "title": "Between 18 and 65 years"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "1"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "2"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "3"
+                        }
+                      ],
+                      "title": ">=65 years"
+                    }
+                  ]
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "title": "Age, Categorical",
+              "unitOfMeasure": "Participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "1"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "10"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "1"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "7"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "19"
+                        }
+                      ],
+                      "title": "Female"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "1"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "4"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "1"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "5"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "11"
+                        }
+                      ],
+                      "title": "Male"
+                    }
+                  ]
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "title": "Sex: Female, Male",
+              "unitOfMeasure": "Participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "8"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "1"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "9"
+                        }
+                      ],
+                      "title": "Hispanic or Latino"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "2"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "6"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "2"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "11"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "21"
+                        }
+                      ],
+                      "title": "Not Hispanic or Latino"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "Unknown or Not Reported"
+                    }
+                  ]
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "title": "Ethnicity (NIH/OMB)",
+              "unitOfMeasure": "Participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "1"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "1"
+                        }
+                      ],
+                      "title": "American Indian or Alaska Native"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "1"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "1"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "1"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "3"
+                        }
+                      ],
+                      "title": "Asian"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "Native Hawaiian or Other Pacific Islander"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "2"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "3"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "3"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "8"
+                        }
+                      ],
+                      "title": "Black or African American"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "4"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "1"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "7"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "12"
+                        }
+                      ],
+                      "title": "White"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "More than one race"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "5"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "1"
+                        },
+                        {
+                          "groupId": "BG004",
+                          "value": "6"
+                        }
+                      ],
+                      "title": "Unknown or Not Reported"
+                    }
+                  ]
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "title": "Race (NIH/OMB)",
+              "unitOfMeasure": "Participants"
+            }
+          ]
+        },
+        "moreInfoModule": {
+          "certainAgreement": {
+            "piSponsorEmployee": true
+          },
+          "pointOfContact": {
+            "email": "robert.innis@nih.gov",
+            "organization": "National Institute of Mental Health",
+            "phone": "+1 301 594 1368",
+            "title": "Dr. Robert Innis"
+          }
+        },
+        "outcomeMeasuresModule": {
+          "outcomeMeasures": [
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.00536093",
+                          "value": "0.11057425"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Adrenals"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.00748861",
+                          "value": "0.15445975"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Brain"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.00338344",
+                          "value": "0.06978655"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Esophagus"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.00000000",
+                          "value": "0.00000000"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Extrathoracic Tissue"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.02628316",
+                          "value": "0.54211500"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Gallbladder Wall"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.00385695",
+                          "value": "0.07955323"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "GI-tract: Lower Large Intestine"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.00826042",
+                          "value": "0.17037900"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Small Intestine"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.00553407",
+                          "value": "0.11414533"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Stomach"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.00848988",
+                          "value": "0.17511175"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "GI-tract: Upper Large Intestine"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.00649772",
+                          "value": "0.13402158"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Colon"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.00688368",
+                          "value": "0.14198250"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Heart Wall"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.01045068",
+                          "value": "0.21555525"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Kidneys"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.02780591",
+                          "value": "0.57352325"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Liver"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.00554867",
+                          "value": "0.11444650"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Lungs"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.00000000",
+                          "value": "0.00000000"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Lymph Nodes"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.00329791",
+                          "value": "0.06802253"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Muscle"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.00000000",
+                          "value": "0.00000000"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Oral Mucosa"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.00523577",
+                          "value": "0.10799275"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Pancreas"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.00928254",
+                          "value": "0.19146125"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Red Marrow"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.00000000",
+                          "value": "0.00000000"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Salivary Glands"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.00815612",
+                          "value": "0.16822775"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Bone Surfaces"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.00256365",
+                          "value": "0.05287773"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Skin"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.00429709",
+                          "value": "0.08863150"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Spleen"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.00338344",
+                          "value": "0.06978655"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Thymus"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.00307680",
+                          "value": "0.06346188"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Thyroid"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.00997091",
+                          "value": "0.20565950"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Urinary Bladder Wall 3"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.00256365",
+                          "value": "0.05287773"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Lens"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.01000000",
+                          "value": "0.14000000"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Effective Dose"
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Participant received whole body PET/CT scan and radioligand uptake of \\[11C\\]MC1 in selected body regions of interest was quantified as a Standardized Uptake Value (SUV) using the Siemens Biograph Micro-Computed Tomography (mCT) with an injected dose of 9 mCi. Organ dosimetry was measured as dose per organ in Roentgen Equivalent Man (rem), which is absorbed dose times an organ-specific quality factor.",
+              "dispersionType": "Standard Deviation",
+              "groups": [
+                {
+                  "description": "Healthy participants receive about 10 mCi of \\[11C\\]MC1 intravenously followed by a whole body PET/CT scan. If radiation dose to selected body organs is within safety limit, Phase 2 of study was initiated",
+                  "id": "OG000",
+                  "title": "Phase 1: Pilot - Whole Body PET/CT Scan in Health Participants"
+                }
+              ],
+              "paramType": "MEAN",
+              "populationDescription": "Participants who completed phase 1 of the study.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Up to 120 minutes during each scan",
+              "title": "Uptake of [11C]MC1 by Organs",
+              "type": "PRIMARY",
+              "unitOfMeasure": "(Roentgen Equivalent Man (rem)"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "0.05700660"
+                        }
+                      ]
+                    }
+                  ],
+                  "denoms": [
+                    {
+                      "counts": [
+                        {
+                          "groupId": "OG000",
+                          "value": "1"
+                        }
+                      ],
+                      "units": "Participants"
+                    }
+                  ],
+                  "title": "Breasts - Female only"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "0.08372325"
+                        }
+                      ]
+                    }
+                  ],
+                  "denoms": [
+                    {
+                      "counts": [
+                        {
+                          "groupId": "OG000",
+                          "value": "1"
+                        }
+                      ],
+                      "units": "Participants"
+                    }
+                  ],
+                  "title": "Ovaries - Female only"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "0.15045450"
+                        }
+                      ]
+                    }
+                  ],
+                  "denoms": [
+                    {
+                      "counts": [
+                        {
+                          "groupId": "OG000",
+                          "value": "1"
+                        }
+                      ],
+                      "units": "Participants"
+                    }
+                  ],
+                  "title": "Testes - Male only"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "0.08310000"
+                        }
+                      ]
+                    }
+                  ],
+                  "denoms": [
+                    {
+                      "counts": [
+                        {
+                          "groupId": "OG000",
+                          "value": "1"
+                        }
+                      ],
+                      "units": "Participants"
+                    }
+                  ],
+                  "title": "Uterus - Female only"
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Participant received whole body PET/CT scan and radioligand uptake of \\[11C\\]MC1 in selected body regions of interest was quantified as a Standardized Uptake Value (SUV) using the Siemens Biograph Micro-Computed Tomography (mCT) with an injected dose of 9 mCi. Organ dosimetry was measured as dose per organ in Roentgen Equivalent Man (rem), which is absorbed dose times an organ-specific quality factor.",
+              "groups": [
+                {
+                  "description": "Healthy participants receive about 10 mCi of \\[11C\\]MC1 intravenously followed by a whole body PET/CT scan. If radiation dose to selected body organs is within safety limit, Phase 2 of study was initiated",
+                  "id": "OG000",
+                  "title": "Phase 1: Pilot - Whole Body PET/CT Scan in Health Participants"
+                }
+              ],
+              "paramType": "NUMBER",
+              "populationDescription": "Participants who completed phase 1 of the study.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Up to 120 minutes during each scan",
+              "title": "Uptake of [11C]MC1 by Organs - Gender Specific Organs",
+              "type": "PRIMARY",
+              "unitOfMeasure": "Roentgen Equivalent Man (rem)"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.29838844946",
+                          "value": "1.1920415496"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Baseline"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.027520757",
+                          "value": "1.190292618"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Blocked"
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "The uptake of \\[11C\\]MC1 before (baseline) and after blockade by single dose of celecoxib 400mg orally in inflamed regions of the body in patients. The radioligand uptake of \\[11C\\]MC1 during whole body PET/CT scans in selected regions of interest was quantified as a Standardized Uptake Value (SUV), which normalizes for injected activity and body weight, using Bruker's PMOD quantification software.",
+              "dispersionType": "Standard Deviation",
+              "groups": [
+                {
+                  "description": "Participants with rheumatoid arthritis (RA), idiopathic inflammatory myopathies (IIM), or axial spondyloarthritis (AXSPA), had a baseline whole body PET/CT scan after about 15 mCi of \\[11C\\]MC1 followed by a second whole body PET/CT scan with about 15 mCi of \\[11C\\]MC1 intravenously after blockade with single dose of celecoxib 200-400 mg orally on same day.",
+                  "id": "OG000",
+                  "title": "Phase 2: Whole Body PET/CT Scans in Patients"
+                }
+              ],
+              "paramType": "MEAN",
+              "populationDescription": "Per protocol document, analysis only applies to patients. Data analysis was done on participants who had usable data.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Up to 120 minutes during each scan",
+              "title": "Phase 2: [11C]MC1 Binding in Inflamed Body Parts - HANDS",
+              "type": "PRIMARY",
+              "unitOfMeasure": "Standard Uptake Value (SUV)"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.000509",
+                          "value": "0.07"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Baseline"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.074459",
+                          "value": "0.13"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Blocked"
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "The uptake of \\[11C\\]MC1 before (baseline) and after blockade by a single dose of celecoxib 400mg orally in non-inflamed regions of the body in healthy participants. The radioligand uptake of \\[11C\\]MC1 during whole body PET/CT scans in selected regions of interest was quantified as a Standardized Uptake Value (SUV), which normalizes for injected activity and body weight, using Bruker's PMOD quantification software.",
+              "dispersionType": "Standard Deviation",
+              "groups": [
+                {
+                  "description": "Healthy participants had a baseline whole body PET/CT scan after receiving about 15 mCi of \\[11C\\]MC1 followed by a second whole body PET/CT scan with about 15 mCi of \\[11C\\]MC1 intravenously after blockade with single dose of celecoxib 200-400 mg orally on same day. In a second visit, participants had a baseline whole body PET/CT scan after receiving about 15 mCi of \\[11C\\]ER176 followed by a second whole body PET/CT scan with about 15 mCi of \\[11C\\]ER176 intravenously after blockade with single dose of celecoxib 200-400 mg orally on same day.",
+                  "id": "OG000",
+                  "title": "Phase 2: Whole Body PET/CT Scans in Healthy Participants"
+                }
+              ],
+              "paramType": "MEAN",
+              "populationDescription": "Per protocol document, analysis only applies to healthy participants. Data analysis was done on participants who had usable data.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Up to 120 minutes during each scan",
+              "title": "Phase 2: [11C]MC1 Binding in Non-inflamed Body Parts - HANDS",
+              "type": "PRIMARY",
+              "unitOfMeasure": "Standard Uptake Value (SUV)"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.071065370092",
+                          "value": "0.51298372752"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Baseline"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "0.218519988",
+                          "value": "0.565377936"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Blocked"
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "4"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "The uptake of \\[11C\\]MC1 before (baseline) and after blockade by a single dose of celecoxib 400mg orally in inflamed regions of the body in patients. The radioligand uptake of \\[11C\\]MC1 during whole body PET/CT scans in selected regions of interest was quantified as a Standardized Uptake Value (SUV), which normalizes for injected activity and body weight, using Bruker's PMOD quantification software.",
+              "dispersionType": "Standard Deviation",
+              "groups": [
+                {
+                  "description": "Participants with rheumatoid arthritis (RA), idiopathic inflammatory myopathies (IIM), or axial spondyloarthritis (AXSPA), had a baseline whole body PET/CT scan after about 15 mCi of \\[11C\\]MC1 followed by a second whole body PET/CT scan with about 15 mCi of \\[11C\\]MC1 intravenously after blockade with single dose of celecoxib 200-400 mg orally on same day.",
+                  "id": "OG000",
+                  "title": "Phase 2: Whole Body PET/CT Scans in Patients"
+                }
+              ],
+              "paramType": "MEAN",
+              "populationDescription": "Per protocol document, analysis only applies to patients. Data analysis was done on participants who had usable data.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Up to 120 minutes during each scan",
+              "title": "Phase 2: [11C]MC1 Binding in Inflamed Body Parts - KNEES",
+              "type": "PRIMARY",
+              "unitOfMeasure": "Standard Uptake Value (SUV)"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "comment": "There was no usable data for analysis as the signal was not detected within the imaging window.",
+                          "groupId": "OG000",
+                          "spread": "NA",
+                          "value": "NA"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Baseline"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "comment": "There was no usable data for analysis as the signal was not detected within the imaging window.",
+                          "groupId": "OG000",
+                          "spread": "NA",
+                          "value": "NA"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Blocked"
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "The uptake of \\[11C\\]MC1 before (baseline) and after blockade by a single dose of celecoxib 400mg orally in non-inflamed regions of the body in healthy participants. The radioligand uptake of \\[11C\\]MC1 during whole body PET/CT scans in selected regions of interest was quantified as a Standardized Uptake Value (SUV), which normalizes for injected activity and body weight, using Bruker's PMOD quantification software.",
+              "dispersionType": "Standard Deviation",
+              "groups": [
+                {
+                  "description": "Healthy participants had a baseline whole body PET/CT scan after receiving about 15 mCi of \\[11C\\]MC1 followed by a second whole body PET/CT scan with about 15 mCi of \\[11C\\]MC1 intravenously after blockade with single dose of celecoxib 200-400 mg orally on same day. In a second visit, participants had a baseline whole body PET/CT scan after receiving about 15 mCi of \\[11C\\]ER176 followed by a second whole body PET/CT scan with about 15 mCi of \\[11C\\]ER176 intravenously after blockade with single dose of celecoxib 200-400 mg orally on same day.",
+                  "id": "OG000",
+                  "title": "Phase 2: Whole Body PET/CT Scans in Healthy Participants"
+                }
+              ],
+              "paramType": "MEAN",
+              "populationDescription": "Per protocol document, analysis only applies to healthy participants. There was no usable data for analysis as the signal was not detected within the imaging window.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Up to 120 minutes during each scan",
+              "title": "Phase 2: [11C]MC1 Binding Between Non-inflamed Body - KNEES",
+              "type": "PRIMARY",
+              "unitOfMeasure": "Standard Uptake Value (SUV)"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "16",
+                          "value": "109"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Baseline"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "12",
+                          "value": "81"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Blocked"
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "10"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "The volume of distribution (VT) of \\[11C\\]MC1 measured as the brain-to-plasma ratio using the 2-tissue compartmental modeling divided by free-fraction in the plasma of parent radioligand (fP) at baseline and two hours after blockade with single dose of 600 mg celecoxib orally.",
+              "dispersionType": "Standard Deviation",
+              "groups": [
+                {
+                  "description": "Healthy participants had a baseline brain PET/CT scan after receiving about 20 mCi \\[11C\\]MC1 followed by a second brain PET/CT scan with 20 mCi \\[11C\\]MC1 intravenously after blockade with single dose of celecoxib 600 mg orally on same day. Participants had arterial blood sampling with each brain scan.",
+                  "id": "OG000",
+                  "title": "Phase 3: Brain PET/CT Scans in Healthy Participants"
+                }
+              ],
+              "paramType": "MEAN",
+              "populationDescription": "Participants who completed the PET/CT brain scans in Phase 3 of the study",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Up to 120 minutes during each scan",
+              "title": "Whole Brain Volume of Distribution (VT)/ Free-fraction (fP) of [11C]MC1",
+              "type": "PRIMARY",
+              "unitOfMeasure": "mL/cm^3"
+            }
+          ]
+        },
+        "participantFlowModule": {
+          "groups": [
+            {
+              "description": "Healthy participants receive about 10 mCi of \\[11C\\]MC1 intravenously followed by a whole body PET/CT scan. If radiation dose to selected body organs is within safety limit, Phase 2 of study was initiated",
+              "id": "FG000",
+              "title": "Phase 1: Pilot - Whole Body PET/CT Scan in Health Participants"
+            },
+            {
+              "description": "Participants with rheumatoid arthritis (RA), idiopathic inflammatory myopathies (IIM), or axial spondyloarthritis (AXSPA), had a baseline whole body PET/CT scan after about 15 mCi of \\[11C\\]MC1 followed by a second whole body PET/CT scan with about 15 mCi of \\[11C\\]MC1 intravenously after blockade with single dose of celecoxib 200-400 mg orally on same day.",
+              "id": "FG001",
+              "title": "Phase 2: Whole Body PET/CT Scans in Patients"
+            },
+            {
+              "description": "Healthy participants had a baseline whole body PET/CT scan after receiving about 15 mCi of \\[11C\\]MC1 followed by a second whole body PET/CT scan with about 15 mCi of \\[11C\\]MC1 intravenously after blockade with single dose of celecoxib 200-400 mg orally on same day. In a second visit, participants had a baseline whole body PET/CT scan after receiving about 15 mCi of \\[11C\\]ER176 followed by a second whole body PET/CT scan with about 15 mCi of \\[11C\\]ER176 intravenously after blockade with single dose of celecoxib 200-400 mg orally on same day.",
+              "id": "FG002",
+              "title": "Phase 2: Whole Body PET/CT Scans in Healthy Participants"
+            },
+            {
+              "description": "Healthy participants had a baseline brain PET/CT scan after receiving about 20 mCi \\[11C\\]MC1 followed by a second brain PET/CT scan with 20 mCi \\[11C\\]MC1 intravenously after blockade with single dose of celecoxib 600 mg orally on same day. Participants had arterial blood sampling with each brain scan.",
+              "id": "FG003",
+              "title": "Phase 3: Brain PET/CT Scans in Healthy Participants"
+            }
+          ],
+          "periods": [
+            {
+              "milestones": [
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "2"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG002",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG003",
+                      "numSubjects": "0"
+                    }
+                  ],
+                  "type": "STARTED"
+                },
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "2"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG002",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG003",
+                      "numSubjects": "0"
+                    }
+                  ],
+                  "type": "COMPLETED"
+                },
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG002",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG003",
+                      "numSubjects": "0"
+                    }
+                  ],
+                  "type": "NOT COMPLETED"
+                }
+              ],
+              "title": "Phase 1: Pilot, Dosimetry"
+            },
+            {
+              "dropWithdraws": [
+                {
+                  "reasons": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "2"
+                    },
+                    {
+                      "groupId": "FG002",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG003",
+                      "numSubjects": "0"
+                    }
+                  ],
+                  "type": "Physician Decision"
+                },
+                {
+                  "reasons": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "3"
+                    },
+                    {
+                      "groupId": "FG002",
+                      "numSubjects": "1"
+                    },
+                    {
+                      "groupId": "FG003",
+                      "numSubjects": "0"
+                    }
+                  ],
+                  "type": "Withdrawal by Subject"
+                }
+              ],
+              "milestones": [
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "14"
+                    },
+                    {
+                      "groupId": "FG002",
+                      "numSubjects": "2"
+                    },
+                    {
+                      "groupId": "FG003",
+                      "numSubjects": "0"
+                    }
+                  ],
+                  "type": "STARTED"
+                },
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "9"
+                    },
+                    {
+                      "groupId": "FG002",
+                      "numSubjects": "1"
+                    },
+                    {
+                      "groupId": "FG003",
+                      "numSubjects": "0"
+                    }
+                  ],
+                  "type": "COMPLETED"
+                },
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "5"
+                    },
+                    {
+                      "groupId": "FG002",
+                      "numSubjects": "1"
+                    },
+                    {
+                      "groupId": "FG003",
+                      "numSubjects": "0"
+                    }
+                  ],
+                  "type": "NOT COMPLETED"
+                }
+              ],
+              "title": "Phase 2: Whole Body PET/CT Scans"
+            },
+            {
+              "dropWithdraws": [
+                {
+                  "reasons": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG002",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG003",
+                      "numSubjects": "2"
+                    }
+                  ],
+                  "type": "Withdrawal by Subject"
+                }
+              ],
+              "milestones": [
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG002",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG003",
+                      "numSubjects": "12"
+                    }
+                  ],
+                  "type": "STARTED"
+                },
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG002",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG003",
+                      "numSubjects": "10"
+                    }
+                  ],
+                  "type": "COMPLETED"
+                },
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG002",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG003",
+                      "numSubjects": "2"
+                    }
+                  ],
+                  "type": "NOT COMPLETED"
+                }
+              ],
+              "title": "Phase 3: Brain PET/CT Scans"
+            }
+          ],
+          "preAssignmentDetails": "31 participants signed consent\n\n\\- One subject withdrew after signing consent and prior to start of study interventions"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D020721",
+              "term": "Nervous System Autoimmune Disease, Experimental"
+            },
+            {
+              "id": "D020274",
+              "term": "Autoimmune Diseases of the Nervous System"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D020278",
+              "term": "Demyelinating Autoimmune Diseases, CNS"
+            },
+            {
+              "id": "D056784",
+              "term": "Leukoencephalopathies"
+            },
+            {
+              "id": "D001927",
+              "term": "Brain Diseases"
+            },
+            {
+              "id": "D002493",
+              "term": "Central Nervous System Diseases"
+            },
+            {
+              "id": "D003711",
+              "term": "Demyelinating Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D004681",
+              "term": "Encephalomyelitis, Autoimmune, Experimental"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "interventionNames": [
+                "Diagnostic Test: 18F-DPA-714 PET"
+              ],
+              "label": "Patients Group",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "interventionNames": [
+                "Diagnostic Test: 18F-DPA-714 PET"
+              ],
+              "label": "Healthy Volunteers Group",
+              "type": "SHAM_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Healthy Volunteers Group",
+                "Patients Group"
+              ],
+              "description": "TSPO expression are quantitatively analyzed in all brain regions or spinal cord using 18F-DPA-714 PET",
+              "name": "18F-DPA-714 PET",
+              "type": "DIAGNOSTIC_TEST"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Autoimmune Encephalomyelitis"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Shanghai",
+              "contacts": [
+                {
+                  "email": "zm11518@rjh.com.cn",
+                  "name": "Min Zhang, Dr.",
+                  "phone": "0086-21-64370045",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "China",
+              "facility": "Ruijin Hospital",
+              "geoPoint": {
+                "lat": 31.22222,
+                "lon": 121.45806
+              },
+              "status": "RECRUITING",
+              "zip": "200025"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Autoimmune encephalomyelitis is a heterogeneous group of central nervous system (CNS) autoimmune diseases characterized by the production of anti-neuron-associated autoantibodies which target neuronal surface proteins, synaptic receptors and intracellular antigens. MRI, as a current first-line imaging tool of CNS inflammation, is difficult to diagnose them because the majority of patients have normal MRI images, and only a few may show local signal or structural abnormalities (including inflammation, edema, or atrophy). The 18 kDa translocator protein (TSPO) expression in the CNS is upregulated in response to microglia activation. DPA-714 is high affinity for binding to TSPO, making 18F-labeled DPA-714 (18F-DPA-714) PET a very promising diagnostic imaging tool for neuroinflammation in patients with autoimmune encephalomyelitis.This study aims to explore the value of 18F-DPA-714 PET in the early diagnosis, therapeutic assessment and prognosis in patients with autoimmune encephalomyelitis."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "NON_RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "DIAGNOSTIC"
+          },
+          "enrollmentInfo": {
+            "count": 100,
+            "type": "ESTIMATED"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Experimental group:\n\nInclusion criteria:\n\n1. Patients with onset for less than 2 years\n2. Serum autoantibody positive\n3. cognitive impairment or movement disorder diagnosed by two or more certified specialists.\n\nExclusion criteria:\n\n1. Patients who do not meet the clinical\u3001laboratory and imaging criteria of immune-related cognitive and movement disorders\n2. Medical history of surgery, trauma, stroke, tumor in brain or spine cord\n3. Alcoholism or drug dependence (addiction)\n4. Patients with pregnancy\n\nHealthy Volunteers group:\n\nInclusion criteria:\n\n1. able to understand the purpose of clinical research and test plan\n2. In the brain and spine cord MR assessment, it is judged as \"normal\"\n\nExclusion criteria:\n\n1. Any major mental illness; history of schizophrenia or schizoaffective disorder\n2. Any important neurological disease, such as cerebrovascular disease, inflammation or infectious disease, demyelinating disease, neurodegenerative disease, trauma in brain or spine cord\n3. History of alcohol or drug abuse/dependence\n4. Medical history of cardiac and lung disease, tumors, blood disease, poorly controlled chronic diseases\n5. Patients with pregnancy",
+          "healthyVolunteers": true,
+          "maximumAge": "80 Years",
+          "minimumAge": "16 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Neuroinflammatory PET Imaging in Autoimmune Encephalomyelitis",
+          "nctId": "NCT05293405",
+          "officialTitle": "Neuroinflammatory Imaging Using TSPO PET Tracer in Paients With Autoimmune Encephalomyelitis",
+          "orgStudyIdInfo": {
+            "id": "(2021)CER(375)"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Ruijin Hospital"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "quantitatively assessing the level of neuroinflammation in all brain regions or spinal cord",
+              "measure": "TSPO expression level",
+              "timeFrame": "Baseline"
+            },
+            {
+              "description": "quantitatively assessing the level of neuroinflammation in all brain regions or spinal cord",
+              "measure": "TSPO expression level",
+              "timeFrame": "3 months after baseline"
+            },
+            {
+              "description": "quantitatively assessing the level of neuroinflammation in all brain regions or spinal cord",
+              "measure": "TSPO expression level",
+              "timeFrame": "12 months after baseline"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Meng H, He L, Chunyu H, Zhou Q, Wang J, Qu Q, Hai W, Zhang Y, Li B, Zhang M, Chen S. 18F-DPA714 PET/MRI as a potential imaging tool for detecting possible antibody-negative autoimmune encephalitis: a prospective study. J Neurol. 2024 Dec;271(12):7592-7604. doi: 10.1007/s00415-024-12690-w. Epub 2024 Sep 19.",
+              "pmid": "39294471",
+              "type": "DERIVED"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Ruijin Hospital"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2024-12-31",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastKnownStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2023-04-18",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2023-04-17",
+          "overallStatus": "UNKNOWN",
+          "primaryCompletionDateStruct": {
+            "date": "2023-12-13",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2021-12-14",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2023-04",
+          "studyFirstPostDateStruct": {
+            "date": "2022-03-24",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2022-03-15",
+          "studyFirstSubmitQcDate": "2022-03-15"
+        }
+      }
+    }
+  ]
+}

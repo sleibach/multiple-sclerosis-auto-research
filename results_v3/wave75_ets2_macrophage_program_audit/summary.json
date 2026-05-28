@@ -1,0 +1,35 @@
+{
+  "decision": {
+    "broad_direct_ets2_support": 1,
+    "broad_direct_positive_disease_count": 2,
+    "broad_program_positive_disease_count": 3,
+    "broad_program_support": 1,
+    "candidate": "ETS2_inflammatory_macrophage_program",
+    "decision_blockers": "ETS2-labeled program does not beat generic inflammatory/APC comparators; no MS white-matter ETS2/program support; Wave62 target-resolution remains no-go; no replicated treatment-response support; no Geneformer/foundation reopener",
+    "foundation_model_support": 0,
+    "gate_count": 2,
+    "ibd_response_support": 0,
+    "ms_support": 0,
+    "ra_response_support": 0,
+    "specificity_pass_context_count": 1,
+    "specificity_vs_generic_modules": 0,
+    "target_resolved_genetics": 0,
+    "target_support_source_count": 1,
+    "wave75_call": "PARK_IBD_MYELOID_PROGRAM_NOT_PROMOTABLE"
+  },
+  "inputs": {
+    "broad_contrasts": "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv",
+    "broad_summary": "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_summary.tsv",
+    "gse282122_integrated": "results_v3/wave68_gse282122_unrestricted_gene_screen/integrated_gene_target_rank.tsv",
+    "gse282122_paired": "results_v3/wave68_gse282122_unrestricted_gene_screen/paired_gene_delta_tests.tsv",
+    "gse282122_raw": "results_v3/wave68_gse282122_unrestricted_gene_screen/raw_remission_response_gene_tests.tsv",
+    "ms_signature": "results_v3/gse111972_full_ms_wm_signature.tsv",
+    "ra_counts": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_counts_used.tsv",
+    "ra_meta": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_sample_metadata.tsv",
+    "wave55": "results_v3/wave55_external_genetics_druggability_sweep/external_genetics_rank.tsv",
+    "wave57": "results_v3/wave57_intervention_first_geneformer_screen/wave57_geneformer_gene_summary.tsv",
+    "wave62": "results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv",
+    "wave69d": "results_v3/wave69d_gse282122_geneformer_remission_centroid/geneformer_remission_gene_summary.tsv"
+  },
+  "random_seed": 20260527
+}

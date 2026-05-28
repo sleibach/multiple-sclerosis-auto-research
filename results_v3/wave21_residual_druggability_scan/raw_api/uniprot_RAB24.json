@@ -1,0 +1,504 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ARAB24%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P35290",
+                  "source": "UniProtKB"
+                }
+              ],
+              "value": "The small GTPases Rab are key regulators of intracellular membrane trafficking, from the formation of transport vesicles to their fusion with membranes. Rabs cycle between an inactive GDP-bound form and an active GTP-bound form that is able to recruit to membranes different sets of downstream effectors directly responsible for vesicle formation, movement, tethering and fusion. RAB24 is an atypical RAB protein that presents low GTPase activity and thereby exists predominantly in the GTP-bound active state. RAB24 is required for the clearance of late autophagic vacuoles under basal conditions. It is not needed for starvation-induced autophagy. Involved in the modulation of meiotic apparatus assembly and meiotic progression during oocyte maturation, possibly through regulation of kinetochore-microtubule interaction"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P35290",
+                    "source": "UniProtKB"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "10660536",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Only about 20% is recovered in the particulate fraction (PubMed:10660536). RAB24 localizes in perinuclear region and in the limiting membranes of autophagic compartments under basal conditions. RAB24 is localized in the cytoplasm with an accumulated distribution in nuclear region at germinal vesicle (GV) stage of oocyte meiotic progression. At pre-metaphase I stage, localized in the cytoplasm with a particular concentration around chromosomes. As the oocytes enter metaphase I, located to the spindle region. Similar distribution pattern is observed in MII oocytes (By similarity)"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "10660536",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0091",
+                "value": "Cytoplasm, cytosol"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "10660536",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0162",
+                "value": "Membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-9901",
+                "value": "Lipid-anchor"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P35290",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0022",
+                "value": "Cytoplasmic vesicle, autophagosome membrane"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P35290",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0198",
+                "value": "Cytoplasm, perinuclear region"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P35290",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0251",
+                "value": "Cytoplasm, cytoskeleton, spindle"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000013315F"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P62820",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 19
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 19
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P62820",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 20
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 20
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P62820",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 21
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 21
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P62820",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:18420"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:18420",
+            "name": "Mg(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 21
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 21
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P62820",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 40
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 40
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P62820",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:18420"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:18420",
+            "name": "Mg(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 40
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 40
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P62820",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:18420"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:18420",
+            "name": "Mg(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 63
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 63
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P62820",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 66
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 66
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P62820",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 121
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 121
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P62820",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 123
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 123
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P62820",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 156
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 156
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:9765",
+                "source": "HGNC"
+              }
+            ],
+            "value": "RAB24"
+          }
+        }
+      ],
+      "primaryAccession": "Q969Q5",
+      "proteinDescription": {
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P35290",
+                  "source": "UniProtKB"
+                }
+              ],
+              "value": "3.6.5.2"
+            }
+          ],
+          "fullName": {
+            "value": "Ras-related protein Rab-24"
+          }
+        }
+      }
+    }
+  ]
+}

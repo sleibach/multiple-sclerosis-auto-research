@@ -1,0 +1,426 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11747432",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11747433",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22081021",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9045711",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Catalyzes the reversible cleavage of L-argininosuccinate to fumarate and L-arginine, an intermediate step reaction in the urea cycle mostly providing for hepatic nitrogen detoxification into excretable urea as well as de novo L-arginine synthesis in nonhepatic tissues (PubMed:11747432, PubMed:11747433, PubMed:22081021, PubMed:2263616, PubMed:9045711). Essential regulator of intracellular and extracellular L-arginine pools. As part of citrulline-nitric oxide cycle, forms tissue-specific multiprotein complexes with argininosuccinate synthase ASS1, transport protein SLC7A1 and nitric oxide synthase NOS1, NOS2 or NOS3, allowing for cell-autonomous L-arginine synthesis while channeling extracellular L-arginine to nitric oxide synthesis pathway (PubMed:22081021)"
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000001634"
+      },
+      "features": [
+        {
+          "description": "Proton acceptor",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P24058",
+              "source": "UniProtKB"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 160
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 160
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "Proton donor",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P24058",
+              "source": "UniProtKB"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 281
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 281
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "in chain A",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P24058",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57472"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57472",
+            "name": "2-(N(omega)-L-arginino)succinate",
+            "note": "ligand shared between tetrameric partners"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 27
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 27
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "in chain A",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P24058",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57472"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57472",
+            "name": "2-(N(omega)-L-arginino)succinate",
+            "note": "ligand shared between tetrameric partners"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 114
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 114
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "in chain C",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P24058",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57472"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57472",
+            "name": "2-(N(omega)-L-arginino)succinate",
+            "note": "ligand shared between tetrameric partners"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 159
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 159
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "in chain B",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P24058",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57472"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57472",
+            "name": "2-(N(omega)-L-arginino)succinate",
+            "note": "ligand shared between tetrameric partners"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 289
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 289
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "in chain A",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P24058",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57472"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57472",
+            "name": "2-(N(omega)-L-arginino)succinate",
+            "note": "ligand shared between tetrameric partners"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 321
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 321
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "in chain A",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P24058",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57472"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57472",
+            "name": "2-(N(omega)-L-arginino)succinate",
+            "note": "ligand shared between tetrameric partners"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 326
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 326
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "in chain A",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P24058",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57472"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57472",
+            "name": "2-(N(omega)-L-arginino)succinate",
+            "note": "ligand shared between tetrameric partners"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 329
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 329
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "ASL"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0028",
+          "name": "Amino-acid biosynthesis"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0055",
+          "name": "Arginine biosynthesis"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0225",
+          "name": "Disease variant"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0456",
+          "name": "Lyase"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0835",
+          "name": "Urea cycle"
+        }
+      ],
+      "primaryAccession": "P04424",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Arginosuccinase"
+            }
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11747432",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11747433",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9045711",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "4.3.2.1"
+            }
+          ],
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "id": "3391281",
+                "source": "PubMed"
+              }
+            ],
+            "value": "Argininosuccinate lyase"
+          },
+          "shortNames": [
+            {
+              "value": "ASAL"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "F751625C1A581883",
+        "length": 464,
+        "md5": "63C0AE2C5C58EFEDBDA532D4DF3D2125",
+        "molWeight": 51658,
+        "value": "MASESGKLWGGRFVGAVDPIMEKFNASIAYDRHLWEVDVQGSKAYSRGLEKAGLLTKAEMDQILHGLDKVAEEWAQGTFKLNSNDEDIHTANERRLKELIGATAGKLHTGRSRNDQVVTDLRLWMRQTCSTLSGLLWELIRTMVDRAEAERDVLFPGYTHLQRAQPIRWSHWILSHAVALTRDSERLLEVRKRINVLPLGSGAIAGNPLGVDRELLRAELNFGAITLNSMDATSERDFVAEFLFWASLCMTHLSRMAEDLILYCTKEFSFVQLSDAYSTGSSLMPQKKNPDSLELIRSKAGRVFGRCAGLLMTLKGLPSTYNKDLQEDKEAVFEVSDTMSAVLQVATGVISTLQIHQENMGQALSPDMLATDLAYYLVRKGMPFRQAHEASGKAVFMAETKGVALNQLSLQELQTISPLFSGDVICVWDYGHSVEQYGALGGTARSSVDWQIRQVRALLQAQQA"
+      },
+      "uniProtkbId": "ARLY_HUMAN"
+    }
+  ]
+}

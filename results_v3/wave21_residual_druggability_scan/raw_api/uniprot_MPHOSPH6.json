@@ -1,0 +1,98 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3AMPHOSPH6%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17412707",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "26166824",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "RNA-binding protein that associates with the RNA exosome complex. Involved in the 3'-processing of the 7S pre-RNA to the mature 5.8S rRNA and play a role in recruiting the RNA exosome complex to pre-rRNA; this function may include C1D"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "value": "Cytoplasmic in M phase"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0188",
+                "value": "Nucleus, nucleolus"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00001AE7AB"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:7214",
+                "source": "HGNC"
+              }
+            ],
+            "value": "MPHOSPH6"
+          },
+          "synonyms": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "26166824",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "MPP6"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "Q99547",
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "M-phase phosphoprotein 6"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+study_id	disease	contrast	contrast_type	feature_id	feature_label	metabolite_class	n_case	n_control	hedges_g_case_minus_control	p	fdr_within_study_contrast	excluded_loose_text_match	support_direction	supports_gpr183_oxysterol_axis
+ST000899	Crohn	Crohn_vs_control	disease_control	ME229566	Cholestenone	unclassified	20	20	-0.2848317933493645	0.3648528664648995	0.5027028201189888	False	higher_in_disease_or_worse_state	False
+ST000899	Crohn	Crohn_vs_control	disease_control	ME229758	7alpha-Hydroxy-3-oxo-4-cholestenoic acid	unclassified	20	20	0.0775196823045365	0.8045720388504658	0.9088684142570076	False	higher_in_disease_or_worse_state	False
+ST000899	UC	UC_vs_control	disease_control	ME229566	Cholestenone	unclassified	20	20	-0.8535231278910345	0.0090137896285437	0.2085604427845814	False	higher_in_disease_or_worse_state	False
+ST000899	UC	UC_vs_control	disease_control	ME229758	7alpha-Hydroxy-3-oxo-4-cholestenoic acid	unclassified	20	20	-0.4491117183576991	0.1558752795084134	0.464376795107919	False	higher_in_disease_or_worse_state	False
+ST002470	UC	UC_week0_modsev_vs_mild	severity	ME583043	Cholestenone	unclassified	24	10	-0.0683025386525253	0.845672492813144	0.9619524605749512	False	higher_in_disease_or_worse_state	False
+ST002470	UC	UC_week12_inactive_vs_week0_modsev	treatment_or_improvement_shift	ME583043	Cholestenone	unclassified	18	24	1.328365715777857	4.765087925831734e-05	0.0003790446540468	False	lower_after_treatment_or_improvement	False

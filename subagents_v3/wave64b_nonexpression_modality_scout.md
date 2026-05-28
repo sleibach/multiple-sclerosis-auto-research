@@ -1,0 +1,91 @@
+# Wave64-B Non-Expression Modality Scout
+
+Timestamp: 2026-05-27 13:02 UTC
+
+Scope: identify public non-transcriptomic datasets/resources that can test the cross-autoimmune lipid-lysosomal/APC myeloid module or candidate intervention nodes. This is a scout report only. It does not claim a finding.
+
+## Operational test to avoid transcriptomic proxy-satisficing
+
+The module should be tested orthogonally as:
+
+- Protein panel: `LIPA`, `CTSS`, `CTSB`, `CTSD`, `LAMP1`, `LAMP2`, `CD74`, `HLA-DRA`, `HLA-DRB1`, `HLA-DPA1`, `HLA-DPB1`, `APOE`, `LGALS3`, `GPNMB`, `TREM2`, `TYROBP`, `C1QA`, `C1QB`, `C1QC`, `C3`, `FCGR2A`, `FCGR3A`, `CLEC7A`, `MSR1`, `CD68`.
+- Metabolite/lipid-class panel: ceramides, glucosylceramides, sphingomyelins, lysophosphatidylcholines, phosphatidylcholines, phosphatidylethanolamines, triglycerides, cholesteryl esters, cholesterol precursors, acylcarnitines, bile acids, itaconate, purines, nicotinamide metabolites.
+- Clinical pharmacodynamic test: disease-associated lipid/protein class abnormality should move toward healthy control with effective therapy or predict response in at least one independent disease.
+- Causal caution: metabolomics/proteomics can support a module and candidate node, but will not by itself prove a myeloid cell-autonomous mechanism without cell/tissue-resolved follow-up.
+
+## Ranked recommendation
+
+1. **Primary feasible analysis: cross-disease metabolomics/lipidomics class-level meta-analysis.**
+   Use immediately accessible Metabolomics Workbench/Dryad/IBDMDB resources: RA `ST001949`, IBD `ST000899`, IBD/UC `ST002470`, SLE `ST002732`, AS `ST002949`, T1D `ST001636`/`ST001386`/`ST000422`, MS `ST003328`, psoriasis `ST000298`, and MG Dryad `10.5061/dryad.8w9ghx3rz`. Compute disease-control and treatment-response standardized effects by lipid/metabolite class after RefMet/LIPID MAPS harmonization. Promotion criterion: same class-direction in >=5 diseases and treatment normalization or response prediction in >=2 disease/drug contexts. This is the best immediate orthogonal test because it does not require raw MS reprocessing.
+2. **Secondary analysis: protein-level lysosomal/APC audit across tissue proteomics.**
+   Use MS CSF `PXD064570` plus smaller validation datasets `PXD032287`, psoriasis skin `PXD021673`, Sjogren saliva/blood `PXD055629`, celiac crypt proteomics `PXD062610`, autoimmune thyroid `PXD028448`/`PXD006871`, and MG/RA serum `PXD019633`. Promotion criterion: module proteins co-elevated in affected tissue/fluids in >=3 diseases with at least one disease-control dataset large enough for FDR-controlled testing.
+3. **Lower-priority orthogonal layers: imaging and phenomics.**
+   MS MRI lesion resources and FinnGen/UKB phenomics can test clinical correlations and comorbidity breadth, but they do not directly measure the lipid-lysosomal/APC circuit. They should be used after biochemical convergence, not as lead evidence.
+
+## Disease/resource table
+
+| Disease | Resource/accession | Modality and variables | Sample size | Level/accessibility | Expected test | Caveats |
+|---|---|---:|---:|---|---|---|
+| MS | `PXD064570` Large scale cerebrospinal fluid proteomics reveals biomarkers of Multiple Sclerosis | CSF LC-MS proteomics; ~2100 proteins/sample; MS, related inflammatory CNS conditions, neurological controls | 2600 CSF samples per repository description | Public ProteomeXchange/PRIDE partial project; raw/processed files via PRIDE FTP | Directly test CSF abundance of lysosomal/APC/complement proteins and whether they separate MS from inflammatory/non-inflammatory controls | Large download; processed matrix and clinical covariate completeness must be checked before committing compute |
+| MS | `PXD032287` | Label-free CSF and serum proteomics in RRMS vs other non-inflammatory neurological disease controls | 5 RRMS + 5 controls; paired CSF/serum | Public iProX/ProteomeXchange; article verified | Quick sanity check for CSF/serum concordance of complement/APC/lysosomal proteins | Too small for discovery; use only as direction check |
+| MS | `ST003328` | Human cellular lipidomics in patient stem-cell-derived MS model; cholesterol synthesis/neurotoxicity context | 42 samples | Public Metabolomics Workbench | Test whether cholesterol/sterol/lipid abnormality maps to neural toxicity/remyelination side rather than myeloid side | Cell-model, not immune tissue; cannot validate myeloid mechanism |
+| MS | ISBI 2015 longitudinal MS lesion challenge | MRI T1/T2/PD/FLAIR and lesion masks | 5 training subjects/21 scans; 14 test subjects in challenge literature | Public/registration-based imaging challenge | Lesion-burden/radiomic phenotype only, possible downstream phenotype for future biomarkers | No molecular readout; cannot test module directly |
+| RA | `ST001949` | Plasma metabolomics/lipidomics before and after methotrexate; DAS28 response/remission definitions in paper | 60 samples: 20 healthy controls, 20 RA baseline, 20 RA week 16 | Public Metabolomics Workbench; processed data and metadata | Strong pharmacodynamic test: does MTX normalize ceramides, PCs/PEs, TGs, fatty acids, itaconate classes aligned with module? | Small patient count; open-label MTX; glucocorticoid/NSAID background possible |
+| RA | `PXD019633` | Serum proteomics in myasthenia gravis with RA as reference autoimmune disease | Repository metadata does not state sample size; paper should be checked | Public PRIDE partial project | Use RA as cross-autoimmune serum comparator for fibrinogen/complement/APC/lysosomal proteins | Serum not synovium; RA included as comparator, not primary design |
+| Crohn/UC | IBDMDB/HMP2 `PRJNA395569`, dbGaP `phs001626.v1.p1` | Longitudinal fecal metagenomes, metatranscriptomes, metabolomes, proteomes; host genetics, biopsy transcriptomics, clinical/diet/medication metadata | 132 CD/UC/non-IBD participants; 2965 stool/biopsy/blood specimens | Public IBDMDB processed data; dbGaP controlled for some components | Best IBD test: relate stool lipid/bile acid/proteome features to disease activity and medication, then compare CD vs UC | Stool microbial metabolomics is not myeloid-cell intrinsic; harmonization with blood/tissue studies is nontrivial |
+| Crohn/UC | `ST000899` | Serum LC-MS metabolomics distinguishing Crohn, UC, controls | 60 samples | Public Metabolomics Workbench | Disease-control lipid/metabolite class effects in serum, directly comparable with RA/SLE/AS/T1D MW studies | Cross-sectional; modest n; no tissue/cell specificity |
+| UC/intestinal inflammation | `ST002470` | Human plasma LC-MS metabolomics from study linking bacterial metabolites to microbes and intestinal inflammation; longitudinal severity/treatment context in metadata/source | 89 samples | Public Metabolomics Workbench | Test plasma metabolites/lipids against UC severity/treatment and compare with IBDMDB stool results | Need inspect sample-level factors; may not cleanly separate CD vs UC in downloaded metadata |
+| Psoriasis | `PXD021673` | LC-MS/MS proteomics of lesional skin, non-lesional skin, healthy skin | 5 psoriasis patients with paired lesional/non-lesional biopsies + 5 healthy controls | Public PRIDE partial project | Direct tissue protein test for HLA/CD74/cathepsin/complement/lipid-metabolism proteins in lesional skin | Very small n; skin keratinocyte biology can dominate myeloid signal |
+| Psoriasis | `PXD037579` | Psoriasis proteomics around adalimumab/secukinumab response; DIA/PRM; repository found via ProteomeXchange search | Sample size not verified from repository metadata in this pass | ProteomeXchange/iProX-search visible; exact files need direct check | Potential pharmacodynamic/proteomic response test after IL-17/TNF blockade | Accessibility and sample metadata need verification before analysis |
+| Psoriasis | `ST000298` | Steroid metabolite LC-MS in psoriasis tissue/status | 9 samples | Public Metabolomics Workbench | Low-cost psoriasis lipid/steroid sanity check | Too narrow and tiny; not enough for module claims |
+| SLE | `ST002732` | Circulating metabolome/lipidome plus coronary artery calcium CT outcome in women with SLE | 207 samples in MW; paper/search snippets describe 211 women | Public Metabolomics Workbench; large data via FTP | High-value non-expression test: lipid classes vs vascular tissue damage phenotype; compare SLE lipid axis to RA/IBD/AS/T1D | Female SLE vascular-risk cohort, not general SLE; CAC is tissue injury, not immune activation |
+| SLE | Mendeley DOI `10.17632/8b7v9rdjwt.4` | Juvenile-onset SLE NMR metabolomics from Nightingale platform | Sample size not verified from landing page | Public Mendeley CC BY 4.0 | Independent SLE metabolite validation with standardized NMR features | Need download to verify sample metadata and disease activity variables |
+| SLE | `ST004243` | Human lupus patient LC-MS in glycolysis inhibition/Tfh context | 6 samples | Public Metabolomics Workbench | Mechanistic comparator for metabolic intervention in immune cells | Too small and Tfh-focused; not myeloid/lipid-lysosomal lead evidence |
+| SLE | `PRJEB39044` | 16S microbiome sequencing in SLE; article also reports serum/fecal metabolomics | Sequencing sample size in article; exact accession sample count not checked here | ENA 16S accessible; metabolomics appears author-available rather than repository raw | Microbiome-lipid metabolism triangulation if needed | Not prioritized because metabolomics data are not clearly deposited publicly |
+| Sjogren | `PXD055629` | Saliva/blood proteomics plus metabolic profiling in primary Sjogren disease | 19 female SjD + 20 healthy controls | Public PRIDE project metadata verified | Test salivary/blood inflammatory lipid metabolism and lysosomal/APC proteins in exocrine autoimmune tissue-fluid context | Saliva proteome has gland/barrier-specific confounding; metabolomics may not be in PRIDE files |
+| T1D | `ST001636` TEDDY Lipidomics and `ST001386` TEDDY Metabolomics | Longitudinal plasma lipidomics/metabolomics before islet autoimmunity/T1D | 11560 samples each in MW summary; article describes 1556 profiled individuals in omics subset | Public Metabolomics Workbench; richer TEDDY metadata may require NIDDK repository request | Strong breadth test: pre-autoimmune lipid classes before clinical disease; compare with RA/IBD/SLE/AS/MG lipid classes | Pediatric high-risk cohort; not myeloid tissue; phenotype metadata access may be split |
+| T1D | TEDDY targeted proteomics MassIVE/DataHub | Targeted plasma proteomics; 167 proteins; longitudinal T1D/islet autoimmunity | ~6000 to 6426 plasma analyses depending source | Public/partial public MassIVE + PNNL DataHub, CC0 according to dataset landing snippet | Proteomic validation of soluble inflammatory/complement/APC-related proteins before autoimmunity | Protein panel may not include lysosomal candidates; download/format inspection needed |
+| T1D | `ST000422` | Plasma LC-MS metabolites in T1D with good glycemic control vs controls | 180 samples | Public Metabolomics Workbench | Cross-sectional T1D lipid/metabolite class contrast for adult/controlled disease | Diabetes metabolism confounds autoimmunity; less relevant to myeloid lesion biology |
+| Celiac | `PXD062610` | Spatial tissue proteomics of laser-capture intestinal crypt compartment in active celiac vs controls | 60 FFPE duodenal biopsy blocks | Public PRIDE partial project | Strong tissue proteomics test: IFN/MHC and fatty-acid-metabolism shift in intestinal crypts; compare HLA/APC/fatty-acid direction to skin/CSF | Epithelial crypt compartment, not myeloid; active gluten-driven disease biology |
+| Celiac | `PXD069517` | Fecal metaproteome in celiac disease on gluten-free diet, with/without poly-autoimmunity | 28 celiac subjects, 14 with additional autoimmune disease + 14 without | Public ProteomeXchange/PRIDE partial project | Test whether poly-autoimmunity adds microbial/human lipid/protease/APC functional signal beyond celiac alone | Fecal metaproteomics and diet dominate; no healthy controls in design |
+| Autoimmune thyroid | `PXD028448` | Hashimoto thyroiditis tissue/organoid proteomics | Article reports normal n=3, HT n=5, papillary thyroid carcinoma n=6 in qPCR context; proteomics sample count needs file check | Public ProteomeXchange/iProX per article | Tissue/organoid check for HLA/APC/lysosomal and metabolic proteins in autoimmune target organ | Very small; thyroid cancer comparison complicates interpretation |
+| Autoimmune thyroid | `PXD006871` | Tear proteomics in thyroid-associated orbitopathy/Graves ophthalmopathy | Sample size not in PRIDE metadata shown here | Public PRIDE partial project | Exocrine/ocular autoimmune-fluid comparator for complement/APC/lipid inflammatory proteins | Tear proteome and orbitopathy not equivalent to thyroiditis; metadata must be inspected |
+| Ankylosing spondylitis | `ST002949` | Serum LC-MS metabolomics in ankylosing spondylitis | 268 samples | Public Metabolomics Workbench | Strong serum lipid/metabolite disease-control analysis; compare with RA/SLE/IBD/T1D | Need inspect factors for case/control split and treatment status; spondyloarthritis biology may skew toward IL-17/enthesis |
+| Myasthenia gravis | Dryad `10.5061/dryad.8w9ghx3rz` | Baseline serum metabolomics/lipidomics from MGTX thymectomy/prednisone trial with 6-month QMG/MG-ADL/MMS response definitions | 115 baseline serum samples profiled; 92 had 6-month clinical outcome in article | Public Dryad files; likely supplementary/statistical tables rather than full raw matrix | Best clinical-pharmacology orthogonal test: lipid/xenobiotic metabolism as predictor of corticosteroid response | Need inspect files before assuming individual-level matrix; response biology may reflect prednisone metabolism, not disease mechanism |
+| Myasthenia gravis | `PXD019633` | Serum proteomics in MG with RA reference disease | Sample size not in repository metadata pass | Public PRIDE partial project | Test humoral autoimmune serum proteins and RA comparator for complement/coagulation/APC overlap | Serum lacks tissue specificity; not lipidomics |
+| Cross-autoimmune/phenomics | FinnGen public endpoints; UK Biobank/Pan-UKBB summary resources | Disease endpoints, comorbidities, GWAS/phenome summary statistics | Hundreds of thousands in source cohorts, endpoint-specific | Public summary statistics; individual-level UKB controlled | Test whether central-node-linked phenotypes cluster across autoimmune diagnoses and lipid/metabolic comorbidities | Phenomics is not biochemical module measurement; use after biochemical candidate is selected |
+| Clinical pharmacology | ChEMBL/DrugCentral/Open Targets/Pharos/DGIdb | Target-drug bioactivity, approved drugs, mechanism, target tractability | Not applicable | Public summary/resource APIs | For any candidate intervention node from biochemical analysis: check existing chemical matter, selectivity, known indications | Not disease evidence; use only for tractability audit |
+
+## Accessibility notes
+
+- **Immediately analysis-ready or close**: Metabolomics Workbench studies (`ST001949`, `ST000899`, `ST002470`, `ST002732`, `ST002949`, `ST001636`, `ST001386`, `ST000422`, `ST003328`, `ST000298`) expose study summaries and generally expose sample metadata plus processed feature tables. They are the fastest route to a reproducible orthogonal analysis.
+- **Public but may require raw/processed file inspection**: PRIDE/ProteomeXchange projects (`PXD064570`, `PXD032287`, `PXD021673`, `PXD055629`, `PXD062610`, `PXD069517`, `PXD028448`, `PXD006871`, `PXD019633`) are real public accessions, but proteomics submissions vary in processed quantification and sample annotation quality.
+- **Controlled or partially controlled**: IBDMDB has public processed resources, but dbGaP `phs001626.v1.p1` controls some subject-level material. TEDDY public MW lipidomics/metabolomics are available, but deeper phenotype linkage may require NIDDK repository access.
+- **Literature-only/not prioritized**: several disease metabolomics papers report lipid shifts without deposited raw or reusable individual-level data. Those should not be used as primary evidence unless files are found.
+
+## Search and verification trail
+
+Representative queries/resources checked:
+
+- `public proteomics dataset multiple sclerosis PRIDE accession CSF plasma proteomics`
+- `public metabolomics lipidomics dataset multiple sclerosis accession Metabolomics Workbench`
+- `IBDMDB metabolomics proteomics Crohn ulcerative colitis public dataset`
+- `PRIDE rheumatoid arthritis synovial fluid proteomics accession public`
+- `systemic lupus erythematosus metabolomics workbench accession public dataset`
+- `psoriasis public proteomics dataset PRIDE PXD serum skin accession`
+- `public Sjogren syndrome metabolomics proteomics dataset accession PRIDE MetaboLights`
+- `type 1 diabetes public proteomics metabolomics dataset Metabolomics Workbench accession TEDDY`
+- `celiac disease public proteomics dataset PRIDE PXD biopsy serum accession`
+- `autoimmune thyroid disease proteomics public dataset PXD Hashimoto Graves`
+- `ankylosing spondylitis proteomics metabolomics dataset PRIDE Metabolomics Workbench accession`
+- `myasthenia gravis metabolomics public dataset treatment response Dryad`
+
+Verified landing pages/API sources:
+
+- Metabolomics Workbench REST summaries for `ST001949`, `ST002949`, `ST002415`, `ST001636`, `ST001386`, `ST003328`, `ST000298`, `ST000899`, `ST002732`, `ST002470`, `ST000422`, `ST004243`.
+- PRIDE API metadata for `PXD055629`, `PXD021673`, `PXD006871`, `PXD019633`, `PXD062610`, `PXD069517`, `PXD064570`.
+- PubMed/PMC and repository pages for `PXD032287`, IBDMDB `PRJNA395569`/`phs001626.v1.p1`, TEDDY, Dryad MG `10.5061/dryad.8w9ghx3rz`, and celiac `PXD062610`/`PXD069517`.
+
+## Bottom line
+
+The most defensible Wave64 follow-up is a **biochemical class-level convergence analysis**, not another gene-expression surrogate. Start with public metabolomics/lipidomics across RA, IBD, SLE, AS, T1D, MS, psoriasis, and MG; then validate the most stable lipid/metabolite classes against tissue/fluid proteomics in MS CSF, psoriasis skin, Sjogren saliva/blood, celiac crypt, thyroid, and MG/RA serum. This can support or refute the lipid-lysosomal/APC module independently of transcriptomic overlap.

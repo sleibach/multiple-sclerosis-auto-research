@@ -1,0 +1,671 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ACFB%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "3638964",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "624565",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "6554279",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "6769474",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "6919543",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9748277",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Precursor of the catalytic component of the C3 and C5 convertase complexes of the alternative pathway of the complement system, a cascade of proteins that leads to phagocytosis and breakdown of pathogens and signaling that strengthens the adaptive immune system (PubMed:3638964, PubMed:624565, PubMed:6554279, PubMed:6919543, PubMed:9748277). The alternative complement pathway acts as an amplification loop that enhances other complement pathways (classical, lectin and GZMK) by promoting formation of additional C3 and C5 convertases (PubMed:3638964, PubMed:624565, PubMed:6554279, PubMed:6919543, PubMed:9748277). CFB is cleaved and activated by CFD to generate Ba and Bb chains; Bb chain constituting the catalytic component of the C3 and C5 convertases (PubMed:6769474, PubMed:9748277)"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "molecule": "Complement factor B Bb",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "30643019",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "3638964",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "624565",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "6554279",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "6919543",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9748277",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Serine protease component of the complement C3 and C5 convertase complexes of the alternative complement pathway (PubMed:30643019, PubMed:3638964, PubMed:624565, PubMed:6554279, PubMed:6919543). Following cleavage and activation by factor D (CFD), forms the C3 convertase together with complement C3b (PubMed:3638964, PubMed:624565, PubMed:6554279, PubMed:6919543, PubMed:9748277). As part of the C3 convertase, cleaves and activates C3 into C3a anaphylatoxin and C3b opsonin, the next components of the complement pathways (PubMed:3638964, PubMed:624565, PubMed:6554279, PubMed:6919543, PubMed:9748277). When an additional complement C3b molecule binds to the C3 convertase, forms the C5 convertase, which cleaves and activates C5 into C5a anaphylatoxin and C5b component of the membrane attack complex (PubMed:30643019, PubMed:624565, PubMed:6554279)"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "molecule": "Complement factor B Ba",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "3486249",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Involved in proliferation and differentiation of preactivated B-lymphocytes, rapid spreading of peripheral blood monocytes, stimulation of lymphocyte blastogenesis and lysis of erythrocytes"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "6769474",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "molecule": "Complement factor B Bb",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "30643019",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Recruited to the surface of pathogens by complement C3b opsonin"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "30643019",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0310",
+                "value": "Cell surface"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000000D7F8"
+      },
+      "features": [
+        {
+          "description": "Charge relay system",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10637221",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 526
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 526
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "Charge relay system",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10637221",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 576
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 576
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "Charge relay system",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10637221",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 699
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 699
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15068800",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "19503103",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "19574954",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "21205667",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1RTK",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "2WIN",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "2XWB",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3HRZ",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3HS0",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:18420"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:18420",
+            "name": "Mg(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 278
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 278
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15016353",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1Q0P",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29035"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29035",
+            "name": "Mn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 278
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 278
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15068800",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "19503103",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "19574954",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "21205667",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1RTK",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "2WIN",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "2XWB",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3HRZ",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3HS0",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:18420"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:18420",
+            "name": "Mg(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 280
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 280
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15016353",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1Q0P",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29035"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29035",
+            "name": "Mn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 280
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 280
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15068800",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "19503103",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "19574954",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "21205667",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1RTK",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "2WIN",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "2XWB",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3HRZ",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3HS0",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:18420"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:18420",
+            "name": "Mg(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 353
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 353
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15016353",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1Q0P",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29035"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29035",
+            "name": "Mn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 353
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 353
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:1037",
+                "source": "HGNC"
+              }
+            ],
+            "value": "CFB"
+          },
+          "synonyms": [
+            {
+              "value": "BF"
+            },
+            {
+              "value": "BFD"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P00751",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "C3/C5 convertase"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Glycine-rich beta glycoprotein"
+            },
+            "shortNames": [
+              {
+                "value": "GBG"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "PBF2"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Properdin factor B"
+            }
+          }
+        ],
+        "contains": [
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "Complement factor B Ba"
+              },
+              "shortNames": [
+                {
+                  "value": "Ba"
+                }
+              ]
+            }
+          },
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "Complement factor B Bb"
+              },
+              "shortNames": [
+                {
+                  "value": "Bb"
+                }
+              ]
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "3638964",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "624565",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "6554279",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "6919543",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9748277",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "3.4.21.47"
+            }
+          ],
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "id": "2249879",
+                "source": "PubMed"
+              }
+            ],
+            "value": "Complement factor B"
+          }
+        }
+      }
+    }
+  ]
+}

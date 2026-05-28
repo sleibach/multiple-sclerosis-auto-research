@@ -1,0 +1,61 @@
+{
+  "payload": {
+    "hitCount": 3887,
+    "nextCursorMark": "AoIIQWuhiCg1NTE2Mjg2NA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(S1PR1 OR S1PR5 OR S1PR2) AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR Sjogren OR autoimmune)&cursorMark=AoIIQWuhiCg1NTE2Mjg2NA==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "(S1PR1 OR S1PR5 OR S1PR2) AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR Sjogren OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Qin Y, Tang C, Tan S, Liu G.",
+          "citedByCount": 0,
+          "doi": "10.3892/mmr.2026.13847",
+          "firstIndexDate": "2026-03-20",
+          "firstPublicationDate": "2026-03-20",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13034513"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "41860030",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "5",
+          "journalIssn": "1791-2997; 1791-3004; ",
+          "journalTitle": "Mol Med Rep",
+          "journalVolume": "33",
+          "pageInfo": "137",
+          "pmcid": "PMC13034513",
+          "pmid": "41860030",
+          "pubType": "review-article; review; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Mechanistic insights and therapeutic potential of sphingosine\u20111\u2011phosphate in the development of pulmonary fibrosis (Review).",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "gen"
+            ]
+          }
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28S1PR1+OR+S1PR5+OR+S1PR2%29+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+Sjogren+OR+autoimmune%29&format=json&pageSize=1"
+}

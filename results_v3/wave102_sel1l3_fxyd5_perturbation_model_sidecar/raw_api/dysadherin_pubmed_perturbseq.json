@@ -1,0 +1,26 @@
+{
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=dysadherin%5BAll+Fields%5D+AND+%28Perturb-seq%5BAll+Fields%5D+OR+Perturbseq%5BAll+Fields%5D+OR+single-cell+CRISPR%5BAll+Fields%5D+OR+scCRISPR%5BAll+Fields%5D%29&retmode=json&retmax=5",
+  "status": 200,
+  "json": {
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    },
+    "esearchresult": {
+      "count": "0",
+      "retmax": "0",
+      "retstart": "0",
+      "idlist": [],
+      "translationset": [],
+      "querytranslation": "\"dysadherin\"[All Fields] AND (\"Perturb-seq\"[All Fields] OR \"Perturbseq\"[All Fields] OR \"single cell crispr\"[All Fields] OR \"scCRISPR\"[All Fields])",
+      "warninglist": {
+        "phrasesignored": [],
+        "quotedphrasesnotfound": [],
+        "outputmessages": [
+          "No items found."
+        ]
+      }
+    }
+  },
+  "summary_json": {}
+}

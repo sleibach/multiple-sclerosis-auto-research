@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr14",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000140030.5",
+        "geneSymbol": "GPR65",
+        "geneSymbolUpper": "GPR65",
+        "nes": 0.516231,
+        "ontologyId": "UBERON:0004264",
+        "pValue": 4.59127e-05,
+        "pos": 87167535,
+        "snpId": "rs17187381",
+        "snpIdUpper": "RS17187381",
+        "tissueSiteDetailId": "Skin_Sun_Exposed_Lower_leg",
+        "variantId": "chr14_87167535_A_T_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 7,
+      "page": 0,
+      "totalNumberOfItems": 7
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000140030.5&tissueSiteDetailId=Skin_Sun_Exposed_Lower_leg&datasetId=gtex_v8&itemsPerPage=1"
+}

@@ -1,0 +1,261 @@
+{
+  "data": {
+    "credibleSets": {
+      "count": 4,
+      "rows": [
+        {
+          "beta": 0.00978036915638261,
+          "chromosome": "16",
+          "colocalisation": {
+            "count": 1,
+            "rows": [
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.08883402290521193,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9906142341303276,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000545",
+                      "biosampleName": "T-helper 1 cell"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "HEAT repeat containing 3",
+                      "approvedSymbol": "HEATR3",
+                      "id": "ENSG00000155393"
+                    },
+                    "traitFromSource": "ENSG00000155393.grp_2.contained.ENST00000688981"
+                  },
+                  "studyId": "schmiedel_2018_txrev_th1_memory_ensg00000155393_grp_2_contained_enst00000688981",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              }
+            ]
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 3,
+            "rows": [
+              {
+                "score": 0.8041545152664185,
+                "target": {
+                  "approvedName": "nucleotide binding oligomerization domain containing 2",
+                  "approvedSymbol": "NOD2",
+                  "id": "ENSG00000167207"
+                }
+              },
+              {
+                "score": 0.14962954819202423,
+                "target": {
+                  "approvedName": "CYLD lysine 63 deubiquitinase",
+                  "approvedSymbol": "CYLD",
+                  "id": "ENSG00000083799"
+                }
+              },
+              {
+                "score": 0.06567046046257019,
+                "target": {
+                  "approvedName": "sorting nexin 20",
+                  "approvedSymbol": "SNX20",
+                  "id": "ENSG00000167208"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -11,
+          "pValueMantissa": 2.2750887870788574,
+          "position": 50725820,
+          "purityMeanR2": 1,
+          "purityMinR2": 1,
+          "standardError": null,
+          "studyId": "GCST90044153",
+          "studyLocusId": "3c28c8343480a531a12dd54ee199208e",
+          "studyType": "gwas",
+          "variant": {
+            "id": "16_50725820_T_A",
+            "rsIds": [
+              "rs5743292"
+            ]
+          }
+        },
+        {
+          "beta": 0.009169545793384927,
+          "chromosome": "16",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 3,
+            "rows": [
+              {
+                "score": 0.6718980073928833,
+                "target": {
+                  "approvedName": "NKD inhibitor of Wnt signaling pathway 1",
+                  "approvedSymbol": "NKD1",
+                  "id": "ENSG00000140807"
+                }
+              },
+              {
+                "score": 0.12222307920455933,
+                "target": {
+                  "approvedName": "nucleotide binding oligomerization domain containing 2",
+                  "approvedSymbol": "NOD2",
+                  "id": "ENSG00000167207"
+                }
+              },
+              {
+                "score": 0.07660220563411713,
+                "target": {
+                  "approvedName": "sorting nexin 20",
+                  "approvedSymbol": "SNX20",
+                  "id": "ENSG00000167208"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -10,
+          "pValueMantissa": 4.518333435058594,
+          "position": 50627053,
+          "purityMeanR2": 0.8216765786329648,
+          "purityMinR2": 0.6253719579614173,
+          "standardError": null,
+          "studyId": "GCST90044153",
+          "studyLocusId": "4491ecc193994076dad9f0b6712644e7",
+          "studyType": "gwas",
+          "variant": {
+            "id": "16_50627053_G_T",
+            "rsIds": [
+              "rs146528649"
+            ]
+          }
+        },
+        {
+          "beta": 0.008474379854366904,
+          "chromosome": "1",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.40770894289016724,
+                "target": {
+                  "approvedName": "interleukin 12 receptor subunit beta 2",
+                  "approvedSymbol": "IL12RB2",
+                  "id": "ENSG00000081985"
+                }
+              },
+              {
+                "score": 0.3375859260559082,
+                "target": {
+                  "approvedName": "interleukin 23 receptor",
+                  "approvedSymbol": "IL23R",
+                  "id": "ENSG00000162594"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -12,
+          "pValueMantissa": 2.3689398765563965,
+          "position": 67284791,
+          "purityMeanR2": 0.7257619673239487,
+          "purityMinR2": 0.4715762800431924,
+          "standardError": null,
+          "studyId": "GCST90044153",
+          "studyLocusId": "918f8f8583ff397133bc1f383b0616a5",
+          "studyType": "gwas",
+          "variant": {
+            "id": "1_67284791_T_C",
+            "rsIds": [
+              "rs7546245"
+            ]
+          }
+        },
+        {
+          "beta": -0.007375571156234347,
+          "chromosome": "1",
+          "colocalisation": {
+            "count": 1,
+            "rows": [
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.055316050079433195,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9846753644277486,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "interleukin 23 receptor",
+                      "approvedSymbol": "IL23R",
+                      "id": "ENSG00000162594"
+                    },
+                    "traitFromSource": "IL23R.5088.175.3..1"
+                  },
+                  "studyId": "sun_2018_aptamer_plasma_il23r_5088_175_3_1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              }
+            ]
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.925756573677063,
+                "target": {
+                  "approvedName": "interleukin 23 receptor",
+                  "approvedSymbol": "IL23R",
+                  "id": "ENSG00000162594"
+                }
+              },
+              {
+                "score": 0.17289821803569794,
+                "target": {
+                  "approvedName": "interleukin 12 receptor subunit beta 2",
+                  "approvedSymbol": "IL12RB2",
+                  "id": "ENSG00000081985"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -10,
+          "pValueMantissa": 1.2651877403259277,
+          "position": 67240275,
+          "purityMeanR2": 0.9253614218044325,
+          "purityMinR2": 0.8435806424607607,
+          "standardError": null,
+          "studyId": "GCST90044153",
+          "studyLocusId": "9e4201643ecc6785312918906011c4ab",
+          "studyType": "gwas",
+          "variant": {
+            "id": "1_67240275_G_A",
+            "rsIds": [
+              "rs11209026"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

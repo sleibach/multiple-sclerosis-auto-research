@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr6",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000112486.15",
+        "geneSymbol": "CCR6",
+        "geneSymbolUpper": "CCR6",
+        "nes": -0.368242,
+        "ontologyId": "UBERON:0002106",
+        "pValue": 6.62922e-06,
+        "pos": 166734026,
+        "snpId": "rs79705362",
+        "snpIdUpper": "RS79705362",
+        "tissueSiteDetailId": "Spleen",
+        "variantId": "chr6_166734026_G_A_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 56,
+      "page": 0,
+      "totalNumberOfItems": 56
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000112486.15&tissueSiteDetailId=Spleen&datasetId=gtex_v8&itemsPerPage=1"
+}

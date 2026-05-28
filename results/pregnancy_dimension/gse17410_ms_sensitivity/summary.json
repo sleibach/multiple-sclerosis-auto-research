@@ -1,0 +1,125 @@
+{
+  "dataset": "GSE17410",
+  "n_samples": 17,
+  "component_contrasts": [
+    {
+      "component": "isg_only",
+      "n_pre": 8,
+      "n_month9": 9,
+      "mean_pre": 7.866308950566666,
+      "mean_month9": 8.732593821459258,
+      "delta_month9_minus_pre": 0.8662848708925912,
+      "hedges_g": 1.1650466279097202,
+      "welch_p": 0.02448853974034433,
+      "fdr": 0.07217826907245593
+    },
+    {
+      "component": "cd74_alone",
+      "n_pre": 8,
+      "n_month9": 9,
+      "mean_pre": 12.41116754375,
+      "mean_month9": 12.472027164444444,
+      "delta_month9_minus_pre": 0.06085962069444406,
+      "hedges_g": 0.1996178698547375,
+      "welch_p": 0.6696070367084628,
+      "fdr": 0.6696070367084628
+    },
+    {
+      "component": "receptor_only_cd74_cd44_cxcr4",
+      "n_pre": 8,
+      "n_month9": 9,
+      "mean_pre": 10.775366794753474,
+      "mean_month9": 10.924276856455245,
+      "delta_month9_minus_pre": 0.14891006170177157,
+      "hedges_g": 0.6085515713906783,
+      "welch_p": 0.23934430075099858,
+      "fdr": 0.3419204296442837
+    },
+    {
+      "component": "hla_ii_without_cd74",
+      "n_pre": 8,
+      "n_month9": 9,
+      "mean_pre": 11.43294109496875,
+      "mean_month9": 11.534667672694447,
+      "delta_month9_minus_pre": 0.10172657772569593,
+      "hedges_g": 0.34479641188020244,
+      "welch_p": 0.4898578270285561,
+      "fdr": 0.559951016873679
+    },
+    {
+      "component": "ifn_apc",
+      "n_pre": 8,
+      "n_month9": 9,
+      "mean_pre": 9.101746620136904,
+      "mean_month9": 9.737609626439152,
+      "delta_month9_minus_pre": 0.6358630063022481,
+      "hedges_g": 1.0723962239804705,
+      "welch_p": 0.03686721892111262,
+      "fdr": 0.07217826907245593
+    },
+    {
+      "component": "monocyte_marker",
+      "n_pre": 8,
+      "n_month9": 9,
+      "mean_pre": 10.749162389183333,
+      "mean_month9": 10.845034882207408,
+      "delta_month9_minus_pre": 0.09587249302407486,
+      "hedges_g": 0.32191278626682424,
+      "welch_p": 0.5039559151863111,
+      "fdr": 0.559951016873679
+    },
+    {
+      "component": "pdc_marker",
+      "n_pre": 8,
+      "n_month9": 9,
+      "mean_pre": 7.669287345258928,
+      "mean_month9": 7.437666231571429,
+      "delta_month9_minus_pre": -0.23162111368749905,
+      "hedges_g": -1.042671101753469,
+      "welch_p": 0.03844814819175888,
+      "fdr": 0.07217826907245593
+    },
+    {
+      "component": "neutrophil_marker",
+      "n_pre": 8,
+      "n_month9": 9,
+      "mean_pre": 8.800685126024998,
+      "mean_month9": 9.115246073833333,
+      "delta_month9_minus_pre": 0.3145609478083351,
+      "hedges_g": 1.1330365830564075,
+      "welch_p": 0.02622644650507269,
+      "fdr": 0.07217826907245593
+    },
+    {
+      "component": "platelet_marker",
+      "n_pre": 8,
+      "n_month9": 9,
+      "mean_pre": 8.972346697976564,
+      "mean_month9": 9.7930044368125,
+      "delta_month9_minus_pre": 0.8206577388359371,
+      "hedges_g": 1.031401084388657,
+      "welch_p": 0.043306961443473554,
+      "fdr": 0.07217826907245593
+    },
+    {
+      "component": "erythroid_marker",
+      "n_pre": 8,
+      "n_month9": 9,
+      "mean_pre": 8.505851408395834,
+      "mean_month9": 11.297724344320988,
+      "delta_month9_minus_pre": 2.791872935925154,
+      "hedges_g": 1.3560227945307173,
+      "welch_p": 0.009582015527605712,
+      "fdr": 0.07217826907245593
+    }
+  ],
+  "ifn_apc_leave_one_out_min_delta": 0.5244798389255969,
+  "ifn_apc_leave_one_out_max_p": 0.07691764159175278,
+  "composition_covariates_available": [
+    "monocyte_marker",
+    "pdc_marker",
+    "neutrophil_marker",
+    "platelet_marker",
+    "erythroid_marker"
+  ]
+}

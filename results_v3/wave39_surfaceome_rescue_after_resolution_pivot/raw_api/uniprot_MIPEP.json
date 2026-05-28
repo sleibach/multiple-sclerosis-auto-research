@@ -1,0 +1,276 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "value": "Cleaves proteins, imported into the mitochondrion, to their mature size"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0170",
+                "value": "Mitochondrion matrix"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000013C54A"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU10095",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 496
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 496
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU10095",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)",
+            "note": "catalytic"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 495
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 495
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU10095",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)",
+            "note": "catalytic"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 499
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 499
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU10095",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)",
+            "note": "catalytic"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 502
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 502
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "MIPEP"
+          },
+          "synonyms": [
+            {
+              "value": "MIP"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0106",
+          "name": "Calcium"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0170",
+          "name": "Cobalt"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0225",
+          "name": "Disease variant"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0378",
+          "name": "Hydrolase"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0408",
+          "name": "Iron"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0460",
+          "name": "Magnesium"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0464",
+          "name": "Manganese"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0479",
+          "name": "Metal-binding"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0482",
+          "name": "Metalloprotease"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0496",
+          "name": "Mitochondrion"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-1274",
+          "name": "Primary mitochondrial disease"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0645",
+          "name": "Protease"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0809",
+          "name": "Transit peptide"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0862",
+          "name": "Zinc"
+        }
+      ],
+      "primaryAccession": "Q99797",
+      "proteinDescription": {
+        "flag": "Precursor",
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "value": "3.4.24.59"
+            }
+          ],
+          "fullName": {
+            "value": "Mitochondrial intermediate peptidase"
+          },
+          "shortNames": [
+            {
+              "value": "MIP"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "9DBB26B74355B9C1",
+        "length": 713,
+        "md5": "6D86E9C1F8B576463494925E7BD115E9",
+        "molWeight": 80641,
+        "value": "MLCVGRLGGLGARAAALPPRRAGRGSLEAGIRARRVSTSWSPVGAAFNVKPQGSRLDLFGERRGLFGVPELSAPEGFHIAQEKALRKTELLVDRACSTPPGPQTVLIFDELSDSLCRVADLADFVKIAHPEPAFREAAEEACRSIGTMVEKLNTNVDLYQSLQKLLADKKLVDSLDPETRRVAELFMFDFEISGIHLDKEKRKRAVDLNVKILDLSSTFLMGTNFPNKIEKHLLPEHIRRNFTSAGDHIIIDGLHAESPDDLVREAAYKIFLYPNAGQLKCLEELLSSRDLLAKLVGYSTFSHRALQGTIAKNPETVMQFLEKLSDKLSERTLKDFEMIRGMKMKLNPQNSEVMPWDPPYYSGVIRAERYNIEPSLYCPFFSLGACMEGLNILLNRLLGISLYAEQPAKGEVWSEDVRKLAVVHESEGLLGYIYCDFFQRADKPHQDCHFTIRGGRLKEDGDYQLPVVVLMLNLPRSSRSSPTLLTPSMMENLFHEMGHAMHSMLGRTRYQHVTGTRCPTDFAEVPSILMEYFANDYRVVNQFARHYQTGQPLPKNMVSRLCESKKVCAAADMQLQVFYATLDQIYHGKHPLRNSTTDILKETQEKFYGLPYVPNTAWQLRFSHLVGYGARYYSYLMSRAVASMVWKECFLQDPFNRAAGERYRREMLAHGGGREPMLMVEGMLQKCPSVDDFVSALVSDLDLDFETFLMDSE"
+      },
+      "uniProtkbId": "MIPEP_HUMAN"
+    }
+  ]
+}

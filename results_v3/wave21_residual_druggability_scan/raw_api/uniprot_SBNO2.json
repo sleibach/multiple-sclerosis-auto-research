@@ -1,0 +1,55 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ASBNO2%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "Q7TNB8",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "18025162",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Acts as a transcriptional coregulator, that can have both coactivator and corepressor functions. Inhibits the DCSTAMP-repressive activity of TAL1, hence enhancing the access of the transcription factor MITF to the DC-STAMP promoter in osteoclast. Plays a role in bone homeostasis; required as a positive regulator in TNFSF11//RANKL-mediated osteoclast fusion via a DCSTAMP-dependent pathway. May also be required in the regulation of osteoblast differentiation (By similarity). Involved in the transcriptional corepression of NF-kappaB in macrophages (PubMed:18025162). Plays a role as a regulator in the pro-inflammatory cascade (PubMed:18025162)"
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000140680"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "SBNO2"
+          },
+          "synonyms": [
+            {
+              "value": "KIAA0963"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "Q9Y2G9",
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "value": "Protein strawberry notch homolog 2"
+          }
+        }
+      }
+    }
+  ]
+}

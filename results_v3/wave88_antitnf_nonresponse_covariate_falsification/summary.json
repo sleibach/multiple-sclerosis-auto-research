@@ -1,0 +1,18 @@
+{
+  "call": "FALSIFY_CIRCUIT_ADDED_VALUE",
+  "call_reason": "added AUC beyond proxy baseline is <=0.05",
+  "inputs": {
+    "gpl570_annotation": "data/raw_v3/wave84_external_geo/GPL570.annot.gz",
+    "series_files": {
+      "GSE12251": "data/raw_v3/wave84_external_geo/GSE12251_series_matrix.txt.gz",
+      "GSE14580": "data/raw_v3/wave84_external_geo/GSE14580_series_matrix.txt.gz",
+      "GSE16879": "data/raw_v3/wave84_external_geo/GSE16879_series_matrix.txt.gz"
+    }
+  },
+  "n_nonresponders": 43,
+  "n_patients": 83,
+  "n_source_groups": 4,
+  "primary_circuit_delta_auc": 0.006976744186046546,
+  "primary_circuit_permutation_p": 0.26,
+  "seed": 20260527
+}

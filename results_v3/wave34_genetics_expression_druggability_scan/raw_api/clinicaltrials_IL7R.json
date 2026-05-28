@@ -1,0 +1,241 @@
+{
+  "payload": {
+    "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxtZfmt1fUW",
+    "studies": [
+      {
+        "derivedSection": {
+          "conditionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D015212",
+                "term": "Inflammatory Bowel Diseases"
+              },
+              {
+                "id": "D005759",
+                "term": "Gastroenteritis"
+              },
+              {
+                "id": "D005767",
+                "term": "Gastrointestinal Diseases"
+              },
+              {
+                "id": "D004066",
+                "term": "Digestive System Diseases"
+              },
+              {
+                "id": "D007410",
+                "term": "Intestinal Diseases"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D003424",
+                "term": "Crohn Disease"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D000911",
+                "term": "Antibodies, Monoclonal"
+              },
+              {
+                "id": "D000906",
+                "term": "Antibodies"
+              },
+              {
+                "id": "D007136",
+                "term": "Immunoglobulins"
+              },
+              {
+                "id": "D007162",
+                "term": "Immunoproteins"
+              },
+              {
+                "id": "D001798",
+                "term": "Blood Proteins"
+              },
+              {
+                "id": "D011506",
+                "term": "Proteins"
+              },
+              {
+                "id": "D000602",
+                "term": "Amino Acids, Peptides, and Proteins"
+              },
+              {
+                "id": "D012712",
+                "term": "Serum Globulins"
+              },
+              {
+                "id": "D005916",
+                "term": "Globulins"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D000069285",
+                "term": "Infliximab"
+              }
+            ]
+          },
+          "miscInfoModule": {
+            "versionHolder": "2026-05-26"
+          }
+        },
+        "hasResults": false,
+        "protocolSection": {
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "description": "Some CD patients received intravenous injection of IFX (5mg/kg) at weeks 0, 2, and 6, followed by intravenous injection of the same dose of IFX every 8 weeks to maintain treatment.",
+                "interventionNames": [
+                  "Biological: Infliximab"
+                ],
+                "label": "CD patients"
+              },
+              {
+                "description": "no biological agents treatment",
+                "label": "normal control"
+              }
+            ],
+            "interventions": [
+              {
+                "armGroupLabels": [
+                  "CD patients"
+                ],
+                "description": "Intravenous injection of IFX (5mg/kg) at weeks 0, 2, and 6, followed by intravenous injection of the same dose of IFX every 8 weeks to maintain treatment.",
+                "name": "Infliximab",
+                "type": "BIOLOGICAL"
+              }
+            ]
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Crohn Disease (CD)"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "city": "Wenzhou",
+                "country": "China",
+                "facility": "the Second Affiliated Hospital of Wenzhou Medical University",
+                "geoPoint": {
+                  "lat": 27.99942,
+                  "lon": 120.66682
+                },
+                "state": "Zhejiang",
+                "zip": "325000"
+              }
+            ]
+          },
+          "descriptionModule": {
+            "briefSummary": "From January 2020 to May 2025, 303 CD patients and 514 normal controls were retrospectively collected from Department of Gastroenterology, the Second Affiliated Hospital of Wenzhou Medical University. Our study aimed to explore the the relationship of interleukin-7 receptor (IL-7R) gene polymorphisms with the risk of Crohn's disease (CD) onset, the clinicopathological features of CD and the efficacy of infliximab (IFX) therapy.",
+            "detailedDescription": "From January 2020 to May 2025, 303 CD patients and 514 normal controls were retrospectively collected from Department of Gastroenterology, the Second Affiliated Hospital of Wenzhou Medical University. Our study aimed to explore the the relationship of interleukin-7 receptor (IL-7R) gene polymorphisms with the risk of Crohn's disease (CD) onset, the clinicopathological features of CD and the efficacy of infliximab (IFX) therapy. Multiple polymerase chain reaction ligase detection technology was used to detect the genotype of IL-7R (rs6897932, rs1494555, rs1494558). According to the Montreal CD classification criteria, patients were divided into different subgroups. The Crohn's Disease Activity Index (CDAI) is used to evaluate clinical activity, while the Simplified Crohn's Disease Endoscopic Score (SES-CD) is used to assess endoscopic activity."
+          },
+          "designModule": {
+            "bioSpec": {
+              "description": "Extract whole genome DNA from peripheral blood",
+              "retention": "SAMPLES_WITH_DNA"
+            },
+            "designInfo": {
+              "observationalModel": "CASE_CONTROL",
+              "timePerspective": "RETROSPECTIVE"
+            },
+            "enrollmentInfo": {
+              "count": 900,
+              "type": "ACTUAL"
+            },
+            "patientRegistry": false,
+            "studyType": "OBSERVATIONAL"
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* diagnosed CD based on comprehensive clinical, colonoscopy, histopathological, laboratory, and radiographic examination results\n\nExclusion Criteria:\n\n* rheumatoid arthritis, systemic lupus erythematosus, intestinal tuberculosis, ischemic enteritis, radiation enteritis, tumors, etc.",
+            "healthyVolunteers": true,
+            "maximumAge": "70 Years",
+            "minimumAge": "18 Years",
+            "samplingMethod": "PROBABILITY_SAMPLE",
+            "sex": "ALL",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ],
+            "studyPopulation": "There was no statistically significant difference in the gender ratio, average age, and proportion of smokers between CD group and normal control group. All study subjects are from the Zhejiang Han population who are not related by blood"
+          },
+          "identificationModule": {
+            "briefTitle": "A Study on the Relationship of Interleukin-7 Receptor Gene Polymorphisms With the Risk of Crohn's Disease Onset and the Efficacy of Infliximab",
+            "nctId": "NCT07263477",
+            "officialTitle": "A Study on the Relationship of Interleukin-7 Receptor Gene Polymorphisms With the Risk of Crohn's Disease Onset and the Efficacy of Infliximab",
+            "orgStudyIdInfo": {
+              "id": "SAHoWMU-CR2025-01-228"
+            },
+            "organization": {
+              "class": "OTHER",
+              "fullName": "Second Affiliated Hospital of Wenzhou Medical University"
+            }
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "description": "multiplex polymerase chain reaction-ligase detection reaction technique",
+                "measure": "Genotypes of IL-7R",
+                "timeFrame": "Baseline"
+              }
+            ]
+          },
+          "oversightModule": {
+            "isFdaRegulatedDevice": false,
+            "isFdaRegulatedDrug": true,
+            "isUsExport": false
+          },
+          "sponsorCollaboratorsModule": {
+            "leadSponsor": {
+              "class": "OTHER",
+              "name": "Second Affiliated Hospital of Wenzhou Medical University"
+            },
+            "responsibleParty": {
+              "type": "SPONSOR"
+            }
+          },
+          "statusModule": {
+            "completionDateStruct": {
+              "date": "2025-05-01",
+              "type": "ACTUAL"
+            },
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "lastUpdatePostDateStruct": {
+              "date": "2025-12-04",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-11-24",
+            "overallStatus": "COMPLETED",
+            "primaryCompletionDateStruct": {
+              "date": "2025-05-01",
+              "type": "ACTUAL"
+            },
+            "startDateStruct": {
+              "date": "2020-01-01",
+              "type": "ACTUAL"
+            },
+            "statusVerifiedDate": "2025-11",
+            "studyFirstPostDateStruct": {
+              "date": "2025-12-04",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2025-11-24",
+            "studyFirstSubmitQcDate": "2025-11-24"
+          }
+        }
+      }
+    ],
+    "totalCount": 7
+  },
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.term=IL7R&query.cond=autoimmune+OR+multiple+sclerosis+OR+rheumatoid+arthritis+OR+lupus+OR+Crohn+OR+psoriasis&format=json&pageSize=1&countTotal=true"
+}

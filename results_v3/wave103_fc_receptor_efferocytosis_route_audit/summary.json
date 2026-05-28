@@ -1,0 +1,22 @@
+{
+  "branch_call": "NO_REOPEN_FC_EFFEROCYTOSIS_ROUTE",
+  "call_counts": {
+    "NO_GO_FC_ROUTE_PRIOR_OR_DIRECTION_BLOCKED": 12,
+    "PARK_EFFEROCYTOSIS_ROUTE_NO_MS_ANCHOR": 2,
+    "PARK_EFFEROCYTOSIS_ROUTE_WEAK_CROSS_DISEASE_ANCHOR": 1
+  },
+  "guardrail": "This audit includes manual translational blockers for Fc/FcRn/TAM biology. Manual blockers are routing labels, not literature proof; claim-grade prior art would require a separate verified search.",
+  "inputs": {
+    "broad": "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv",
+    "ms_signature": "results_v3/gse111972_full_ms_wm_signature.tsv",
+    "wave34": "results_v3/wave34_genetics_expression_druggability_scan/wave34_genetics_expression_druggability_rank.tsv",
+    "wave37": "results_v3/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv",
+    "wave55": "results_v3/wave55_external_genetics_druggability_sweep/external_genetics_rank.tsv",
+    "wave62": "results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv",
+    "wave81": "results_v3/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv"
+  },
+  "n_candidates": 15,
+  "random_seed": 20260527,
+  "top_candidate": "PDCD6IP",
+  "top_candidate_call": "PARK_EFFEROCYTOSIS_ROUTE_NO_MS_ANCHOR"
+}

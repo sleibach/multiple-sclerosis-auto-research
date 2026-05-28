@@ -1,0 +1,642 @@
+{
+  "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxsZfSm3_QSkA",
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D020278",
+              "term": "Demyelinating Autoimmune Diseases, CNS"
+            },
+            {
+              "id": "D020274",
+              "term": "Autoimmune Diseases of the Nervous System"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D003711",
+              "term": "Demyelinating Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            },
+            {
+              "id": "D002908",
+              "term": "Chronic Disease"
+            },
+            {
+              "id": "D020969",
+              "term": "Disease Attributes"
+            },
+            {
+              "id": "D010335",
+              "term": "Pathologic Processes"
+            },
+            {
+              "id": "D013568",
+              "term": "Pathological Conditions, Signs and Symptoms"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D020529",
+              "term": "Multiple Sclerosis, Relapsing-Remitting"
+            },
+            {
+              "id": "D020528",
+              "term": "Multiple Sclerosis, Chronic Progressive"
+            },
+            {
+              "id": "D009103",
+              "term": "Multiple Sclerosis"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": true,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Patients with relapsing-remitting or secondary progressive multiple sclerosis",
+              "label": "Multiple Sclerosis"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Relapsing-remitting Multiple Sclerosis",
+            "Secondary Progressive Multiple Sclerosis"
+          ],
+          "keywords": [
+            "Multiple Sclerosis"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "London",
+              "country": "United Kingdom",
+              "facility": "Imperial College NHS Trust",
+              "geoPoint": {
+                "lat": 51.50853,
+                "lon": -0.12574
+              }
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Imperial College London",
+              "name": "Paolo A Muraro, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The primary goal of the research cohort is to facilitate patient access to clinical trials testing new therapeutic interventions, or access to second- line treatments.\n\nSecondary objectives of the research cohort study are to obtain detailed clinical phenotyping and immunological analysis of blood samples, aiming to identify and validate biomarkers of disease activity and response to treatment and prognostic markers."
+        },
+        "designModule": {
+          "bioSpec": {
+            "description": "whole blood, serum, white cells",
+            "retention": "SAMPLES_WITH_DNA"
+          },
+          "designInfo": {
+            "observationalModel": "COHORT",
+            "timePerspective": "PROSPECTIVE"
+          },
+          "enrollmentInfo": {
+            "count": 200,
+            "type": "ACTUAL"
+          },
+          "studyType": "OBSERVATIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "* Male or Female, aged 18-65\n* Able to give informed consent\n* Diagnosis of MS according to to the revised McDonald's criteria (Polman et al. Ann Neurol 2005)\n* Relapsing-remitting or secondary progressive MS form\n* Disease duration \u226415 years from diagnosis\n* Expanded disability status scale (EDSS) score 2.0 to 6.0 at screening evaluation\n* Highly active and/or treatment-refractory MS activity defined as:\n\n  1. Two or more clinical exacerbations in the previous 12 months, regardless of treatment; OR:\n  2. One clinical exacerbation and sustained increase in EDSS of at least 1 point in the previous 12 months after receiving immune-modifying treatment, OR:\n  3. Evidence of gadolinium (contrast)-enhancement or increase of T2 lesion load at MRI after receiving immune-modifying treatment. OR\n  4. Not tolerating or not wishing to receive any of the available immune-modifying treatments and meeting one of the stated criteria (b or c) for MS activity in treated subjects (1 relapse and increase in EDSS of at least 1 point in the previous 12 months; or evidence of contrast-enhancement or increase of T2 lesion load at MRI).\n\nExclusion Criteria:\n\n* Contraindication to MRI including but not limited to intracranial aneurism clips (except Sugita), history of intra-orbital metal fragments that have not been removed by an MD (as confirmed by orbital X-Ray), pacemaker and non-MR compatible heart valves, inner ear implants, history of claustrophobia or subject feels unable to lie still on their back for a period of 1.5 hours in the MRI scanner.\n* If female, positive urine pregnancy test\n* History or presence of renal impairment (e.g. serum creatinine clearance less than 30ml/min)\n* Inability to give informed consent/comply with study procedures",
+          "healthyVolunteers": false,
+          "maximumAge": "65 Years",
+          "minimumAge": "18 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Eligible patients with relapsing-remitting or secondary progressive multiple sclerosis."
+        },
+        "identificationModule": {
+          "acronym": "PRC-REMS",
+          "briefTitle": "Patient Research Cohort: Rapidly Evolving Multiple Sclerosis",
+          "nctId": "NCT01044576",
+          "officialTitle": "Patient Research Cohort: Rapidly Evolving Multiple Sclerosis Opening the Window of Therapeutic Opportunity",
+          "orgStudyIdInfo": {
+            "id": "CRO1387"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Imperial College London"
+          },
+          "secondaryIdInfos": [
+            {
+              "domain": "Medical Research Council of the United Kingdom",
+              "id": "G0800679",
+              "type": "OTHER_GRANT"
+            }
+          ]
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "The primary goal of the observational research cohort is to facilitate patient access to clinical trials testing new therapeutic interventions or appropriate management for rapidly evolving multiple sclerosis (MS). This was devised as a single, combined primary outcome measure. The primary outcome is the proportion of research cohort subjects either referred into a clinical trial or offered treatment with an appropriate second-line therapy. (approved Protocol Version 4.1 - September 13th, 2011). The statistical assumption based on data from similar research cohorts stipulated that 50% of recruited patients will consent to proceed to further clinical trials or access new therapies.",
+              "measure": "Proportion of Research Cohort Subjects Referred Into a Clinical Trial or Offered Treatment With an Appropriate Second-line Therapy.",
+              "timeFrame": "Two years"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "The outcome reports the Number of participants whose data was used in any approved research. Examples of utilisation of data include imaging data analysis for MS-related research performed on the study participants' dataset and analysis of correlation of clinical phenotype with imaging data. Given the exploratory nature, no specific quantitative assumptions are made on the secondary outcome. Examples of studies utilising the anonymised cohort data: (1) Rapidly evolving multiple sclerosis: MRI findings predict clinical progression and disease phenotype (Dr Jean Lee, Dr A Waldmann, Dr R Newbould, ICL). (2) A study to characterize the novel TSPO PET radioligand \\[18F\\]PBR111 as an in vivo marker of microglial activation in Multiple Sclerosis (Dr A Colasanti, Imanova Ltd and GlaxoSmithKline). Conditions for participants to meet this outcome measure are: (A) completion of study visits (B) maintained (non-revoked) consent and (C) utilisation of the anonymised data in any further study.",
+              "measure": "Access and Utilization of Cohort Data",
+              "timeFrame": "two years"
+            },
+            {
+              "description": "The outcome consists of the Number of participants whose data was used in biomarkers development studies. Biomarkers studies include analysis of blood immunological studies performed on the study participants' dataset and analysis of correlation of clinical phenotype with immunological data, examples given below. Conditions for participants to meet this outcome measure are: (A) completion of study visits (B) maintained (non-revoked) consent and (C) utilisation of the anonymised immunological and clinical data in any biomarkers study.\n\nGiven the exploratory nature, no quantitative assumptions are made on the outcome. Examples of studies of biomarkers: 1) Functional relevance of haematopoietic stem cell mobilisation following therapeutic alpha 4-integrin blockade in multiple sclerosis (Dr MMattoscio, ICL).\n\n2)The relationship between T cell responses and disease progression in demyelinating disorders of the central nervous system (Prof D Altmann, ICL).",
+              "measure": "Development of Biomarkers",
+              "timeFrame": "two years"
+            },
+            {
+              "description": "The outcome consists of the Number of participants whose data was used in studies aimed at the development of markers of clinical prognosis. Those are studies involving statistical analysis and models that may enable prognostic predictions from clinical phenotype, imaging and immunological data in any combination, with examples indicated below. Conditions for participants to meet this outcome measure are: (A) completion of study visits (B) maintained (non-revoked) consent and (C) utilisation of the anonymised imaging immunological and clinical data in any prognostic development research.\n\nGiven their exploratory nature, no specific quantitative assumptions are made on the secondary outcome. Example of studies of prognostic markers: 1) Worse Physical Disability is associated with High Blood frequency of CD8+CD57+(ILT2+PD-1+) T-cells in MS Patients with Older Appearing Brains (Dr S Jacobs, Prof R Nicholas and Prof J Cole, Imperial College London and KCL).",
+              "measure": "Development of Clinical Prognostic Markers.",
+              "timeFrame": "two years"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": false
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "OTHER_GOV",
+              "name": "Medical Research Council"
+            },
+            {
+              "class": "OTHER",
+              "name": "Imperial College Healthcare NHS Trust"
+            },
+            {
+              "class": "OTHER",
+              "name": "University College, London"
+            },
+            {
+              "class": "OTHER",
+              "name": "Queen Mary University of London"
+            },
+            {
+              "class": "INDUSTRY",
+              "name": "GlaxoSmithKline"
+            },
+            {
+              "class": "OTHER",
+              "name": "University of Cambridge"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Imperial College London"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2012-11",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2021-03-08",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2021-02-11",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2012-11",
+            "type": "ACTUAL"
+          },
+          "resultsFirstPostDateStruct": {
+            "date": "2021-03-08",
+            "type": "ACTUAL"
+          },
+          "resultsFirstSubmitDate": "2019-08-09",
+          "resultsFirstSubmitQcDate": "2021-02-11",
+          "startDateStruct": {
+            "date": "2010-01",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2021-02",
+          "studyFirstPostDateStruct": {
+            "date": "2010-01-08",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2010-01-07",
+          "studyFirstSubmitQcDate": "2010-01-07"
+        }
+      },
+      "resultsSection": {
+        "adverseEventsModule": {
+          "eventGroups": [
+            {
+              "deathsNumAffected": 0,
+              "deathsNumAtRisk": 200,
+              "description": "Patients with relapsing-remitting or secondary progressive multiple sclerosis",
+              "id": "EG000",
+              "otherNumAffected": 0,
+              "otherNumAtRisk": 200,
+              "seriousNumAffected": 0,
+              "seriousNumAtRisk": 200,
+              "title": "Multiple Sclerosis"
+            }
+          ],
+          "frequencyThreshold": "0",
+          "timeFrame": "2 years"
+        },
+        "baselineCharacteristicsModule": {
+          "denoms": [
+            {
+              "counts": [
+                {
+                  "groupId": "BG000",
+                  "value": "200"
+                }
+              ],
+              "units": "Participants"
+            }
+          ],
+          "groups": [
+            {
+              "description": "Patients with relapsing-remitting or secondary progressive multiple sclerosis",
+              "id": "BG000",
+              "title": "Multiple Sclerosis"
+            }
+          ],
+          "measures": [
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "<=18 years"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "200"
+                        }
+                      ],
+                      "title": "Between 18 and 65 years"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        }
+                      ],
+                      "title": ">=65 years"
+                    }
+                  ]
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "title": "Age, Categorical",
+              "unitOfMeasure": "Participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "spread": "8",
+                          "value": "46"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "dispersionType": "STANDARD_DEVIATION",
+              "paramType": "MEAN",
+              "title": "Age, Continuous",
+              "unitOfMeasure": "years"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "151"
+                        }
+                      ],
+                      "title": "Female"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "49"
+                        }
+                      ],
+                      "title": "Male"
+                    }
+                  ]
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "title": "Sex: Female, Male",
+              "unitOfMeasure": "Participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "200"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "United Kingdom"
+                }
+              ],
+              "paramType": "NUMBER",
+              "title": "Region of Enrollment",
+              "unitOfMeasure": "participants"
+            }
+          ]
+        },
+        "moreInfoModule": {
+          "certainAgreement": {
+            "piSponsorEmployee": true
+          },
+          "pointOfContact": {
+            "email": "p.muraro@imperial.ac.uk",
+            "organization": "Imperial College London",
+            "phone": "02075946670",
+            "title": "Professor Paolo Muraro"
+          }
+        },
+        "outcomeMeasuresModule": {
+          "outcomeMeasures": [
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "178"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "200"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "The primary goal of the observational research cohort is to facilitate patient access to clinical trials testing new therapeutic interventions or appropriate management for rapidly evolving multiple sclerosis (MS). This was devised as a single, combined primary outcome measure. The primary outcome is the proportion of research cohort subjects either referred into a clinical trial or offered treatment with an appropriate second-line therapy. (approved Protocol Version 4.1 - September 13th, 2011). The statistical assumption based on data from similar research cohorts stipulated that 50% of recruited patients will consent to proceed to further clinical trials or access new therapies.",
+              "groups": [
+                {
+                  "description": "Patients with relapsing-remitting or secondary progressive multiple sclerosis",
+                  "id": "OG000",
+                  "title": "Multiple Sclerosis"
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "populationDescription": "Inclusion criteria were aimed to selecting a patient population who is at increased risk of continued progression and loss of function but has not accumulated irreversible neuronal injury or degeneration. All subjects who consented, met the study inclusion criteria and completed the study were included in this outcome analysis. There was no pre-planned subgroup analysis.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Two years",
+              "title": "Proportion of Research Cohort Subjects Referred Into a Clinical Trial or Offered Treatment With an Appropriate Second-line Therapy.",
+              "type": "PRIMARY",
+              "unitOfMeasure": "Participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "179"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "200"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "The outcome reports the Number of participants whose data was used in any approved research. Examples of utilisation of data include imaging data analysis for MS-related research performed on the study participants' dataset and analysis of correlation of clinical phenotype with imaging data. Given the exploratory nature, no specific quantitative assumptions are made on the secondary outcome. Examples of studies utilising the anonymised cohort data: (1) Rapidly evolving multiple sclerosis: MRI findings predict clinical progression and disease phenotype (Dr Jean Lee, Dr A Waldmann, Dr R Newbould, ICL). (2) A study to characterize the novel TSPO PET radioligand \\[18F\\]PBR111 as an in vivo marker of microglial activation in Multiple Sclerosis (Dr A Colasanti, Imanova Ltd and GlaxoSmithKline). Conditions for participants to meet this outcome measure are: (A) completion of study visits (B) maintained (non-revoked) consent and (C) utilisation of the anonymised data in any further study.",
+              "groups": [
+                {
+                  "description": "Patients with relapsing-remitting or secondary progressive multiple sclerosis",
+                  "id": "OG000",
+                  "title": "Multiple Sclerosis"
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "populationDescription": "Inclusion criteria were aimed to selecting a patient population who is at increased risk of continued progression and loss of function but has not accumulated irreversible neuronal injury or degeneration. All subjects who consented, met the study inclusion criteria and completed the study were included in this outcome analysis. There was no pre-planned subgroup analysis.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "two years",
+              "title": "Access and Utilization of Cohort Data",
+              "type": "SECONDARY",
+              "unitOfMeasure": "Participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "179"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "200"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "The outcome consists of the Number of participants whose data was used in biomarkers development studies. Biomarkers studies include analysis of blood immunological studies performed on the study participants' dataset and analysis of correlation of clinical phenotype with immunological data, examples given below. Conditions for participants to meet this outcome measure are: (A) completion of study visits (B) maintained (non-revoked) consent and (C) utilisation of the anonymised immunological and clinical data in any biomarkers study.\n\nGiven the exploratory nature, no quantitative assumptions are made on the outcome. Examples of studies of biomarkers: 1) Functional relevance of haematopoietic stem cell mobilisation following therapeutic alpha 4-integrin blockade in multiple sclerosis (Dr MMattoscio, ICL).\n\n2)The relationship between T cell responses and disease progression in demyelinating disorders of the central nervous system (Prof D Altmann, ICL).",
+              "groups": [
+                {
+                  "description": "Patients with relapsing-remitting or secondary progressive multiple sclerosis",
+                  "id": "OG000",
+                  "title": "Multiple Sclerosis"
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "populationDescription": "Inclusion criteria were aimed to selecting a patient population who is at increased risk of continued progression and loss of function but has not accumulated irreversible neuronal injury or degeneration. All subjects who consented, met the study inclusion criteria and completed the study were included in this outcome analysis. There was no pre-planned subgroup analysis.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "two years",
+              "title": "Development of Biomarkers",
+              "type": "SECONDARY",
+              "unitOfMeasure": "Participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "179"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "200"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "The outcome consists of the Number of participants whose data was used in studies aimed at the development of markers of clinical prognosis. Those are studies involving statistical analysis and models that may enable prognostic predictions from clinical phenotype, imaging and immunological data in any combination, with examples indicated below. Conditions for participants to meet this outcome measure are: (A) completion of study visits (B) maintained (non-revoked) consent and (C) utilisation of the anonymised imaging immunological and clinical data in any prognostic development research.\n\nGiven their exploratory nature, no specific quantitative assumptions are made on the secondary outcome. Example of studies of prognostic markers: 1) Worse Physical Disability is associated with High Blood frequency of CD8+CD57+(ILT2+PD-1+) T-cells in MS Patients with Older Appearing Brains (Dr S Jacobs, Prof R Nicholas and Prof J Cole, Imperial College London and KCL).",
+              "groups": [
+                {
+                  "description": "Patients with relapsing-remitting or secondary progressive multiple sclerosis",
+                  "id": "OG000",
+                  "title": "Multiple Sclerosis"
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "populationDescription": "Inclusion criteria were aimed to selecting a patient population who is at increased risk of continued progression and loss of function but has not accumulated irreversible neuronal injury or degeneration. All subjects who consented, met the study inclusion criteria and completed the study were included in this outcome analysis. There was no pre-planned subgroup analysis.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "two years",
+              "title": "Development of Clinical Prognostic Markers.",
+              "type": "SECONDARY",
+              "unitOfMeasure": "Participants"
+            }
+          ]
+        },
+        "participantFlowModule": {
+          "groups": [
+            {
+              "description": "Patients with relapsing-remitting or secondary progressive multiple sclerosis",
+              "id": "FG000",
+              "title": "Multiple Sclerosis"
+            }
+          ],
+          "periods": [
+            {
+              "milestones": [
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "200"
+                    }
+                  ],
+                  "type": "STARTED"
+                },
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "200"
+                    }
+                  ],
+                  "type": "COMPLETED"
+                },
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "0"
+                    }
+                  ],
+                  "type": "NOT COMPLETED"
+                }
+              ],
+              "title": "Overall Study"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "totalCount": 1
+}

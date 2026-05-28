@@ -1,0 +1,232 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ACSGALNACT1%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "Q8BJQ9",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11788602",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "12163485",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "12446672",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17145758",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "21160489",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "27599773",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "31705726",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Transfers 1,4-N-acetylgalactosamine (GalNAc) from UDP-GalNAc to the non-reducing end of glucuronic acid (GlcUA). Required for addition of the first GalNAc to the core tetrasaccharide linker and for elongation of chondroitin chains. Important role in chondroitin chain biosynthesis in cartilage formation and subsequent endochondral ossification (PubMed:11788602, PubMed:12163485, PubMed:12446672, PubMed:17145758, PubMed:31705726). Moreover, is involved in the metabolism of aggrecan (By similarity)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305",
+                    "id": "11788602",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0136",
+                "value": "Golgi apparatus, Golgi stack membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305",
+                    "id": "11788602",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9906",
+                "value": "Single-pass type II membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000013F19F"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:60240"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:60240",
+            "name": "a divalent metal cation"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 360
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 360
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:60240"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:60240",
+            "name": "a divalent metal cation"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 477
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 477
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:24290",
+                "source": "HGNC"
+              }
+            ],
+            "value": "CSGALNACT1"
+          },
+          "orfNames": [
+            {
+              "value": "UNQ656/PRO1287"
+            }
+          ],
+          "synonyms": [
+            {
+              "value": "CHGN"
+            },
+            {
+              "value": "GALNACT1"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "Q8TDX6",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Chondroitin beta-1,4-N-acetylgalactosaminyltransferase 1"
+            },
+            "shortNames": [
+              {
+                "value": "Beta4GalNAcT-1"
+              }
+            ]
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "21160489",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "27599773",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "2.4.1.174"
+            }
+          ],
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Chondroitin sulfate N-acetylgalactosaminyltransferase 1"
+          },
+          "shortNames": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000305"
+                }
+              ],
+              "value": "CsGalNAcT-1"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

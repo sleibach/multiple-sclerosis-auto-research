@@ -1,0 +1,377 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "12470645",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Acts as a regulator of endocytic traffic by participating in membrane delivery. Required for the abscission step in cytokinesis, possibly by acting as an 'address tag' delivering recycling endosome membranes to the cleavage furrow during late cytokinesis. In case of infection by HCMV (human cytomegalovirus), may participate in egress of the virus out of nucleus; this function is independent of ARF6"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15601896",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Recruited to the cleavage furrow and the midbody during cytokinesis"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "20682791",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0101",
+                "value": "Endosome"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "12857874",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0251",
+                "value": "Cytoplasm, cytoskeleton, spindle"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "12857874",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0048",
+                "value": "Cytoplasm, cytoskeleton, microtubule organizing center, centrosome"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15601896",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0231",
+                "value": "Recycling endosome membrane"
+              },
+              "topology": {
+                "id": "SL-9903",
+                "value": "Peripheral membrane protein"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15601896",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0467",
+                "value": "Cleavage furrow"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "12857874",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15601896",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0469",
+                "value": "Midbody"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15601896",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0088",
+                "value": "Cytoplasmic vesicle"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000000D857"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 62
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 62
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 64
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 64
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 68
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 68
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 73
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 73
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "RAB11FIP4"
+          },
+          "synonyms": [
+            {
+              "value": "ARFO2"
+            },
+            {
+              "value": "KIAA1821"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0106",
+          "name": "Calcium"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0175",
+          "name": "Coiled coil"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0963",
+          "name": "Cytoplasm"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0968",
+          "name": "Cytoplasmic vesicle"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0206",
+          "name": "Cytoskeleton"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0967",
+          "name": "Endosome"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0945",
+          "name": "Host-virus interaction"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0479",
+          "name": "Metal-binding"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0813",
+          "name": "Transport"
+        }
+      ],
+      "primaryAccession": "Q86YS3",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Arfophilin-2"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Rab11 family-interacting protein 4"
+          },
+          "shortNames": [
+            {
+              "value": "FIP4-Rab11"
+            },
+            {
+              "value": "Rab11-FIP4"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "8A5CDB9799383342",
+        "length": 637,
+        "md5": "EE3986B3EB61F9200EE24FBA22D94D2D",
+        "molWeight": 71928,
+        "value": "MAGGAGWSGAPAALLRSVRRLREVFEVCGRDPDGFLRVERVAALGLRFGQGEEVEKLVKYLDPNDLGRINFKDFCRGVFAMKGCEELLKDVLSVESAGTLPCAPEIPDCVEQGSEVTGPTFADGELIPREPGFFPEDEEEAMTLAPPEGPQELYTDSPMESTQSLEGSVGSPAEKDGGLGGLFLPEDKSLVHTPSMTTSDLSTHSTTSLISNEEQFEDYGEGDDVDCAPSSPCPDDETRTNVYSDLGSSVSSSAGQTPRKMRHVYNSELLDVYCSQCCKKINLLNDLEARLKNLKANSPNRKISSTAFGRQLMHSSNFSSSNGSTEDLFRDSIDSCDNDITEKVSFLEKKVTELENDSLTNGDLKSKLKQENTQLVHRVHELEEMVKDQETTAEQALEEEARRHREAYGKLEREKATEVELLNARVQQLEEENTELRTTVTRLKSQTEKLDEERQRMSDRLEDTSLRLKDEMDLYKRMMDKLRQNRLEFQKEREATQELIEDLRKELEHLQMYKLDCERPGRGRSASSGLGEFNARAREVELEHEVKRLKQENYKLRDQNDDLNGQILSLSLYEAKNLFAAQTKAQSLAAEIDTASRDELMEALKEQEEINFRLRQYMDKIILAILDHNPSILEIKH"
+      },
+      "uniProtkbId": "RFIP4_HUMAN"
+    }
+  ]
+}

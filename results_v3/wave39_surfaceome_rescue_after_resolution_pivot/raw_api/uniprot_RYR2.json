@@ -1,0 +1,410 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "10830164",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17984046",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20056922",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "27733687",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "33536282",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Cytosolic calcium-activated calcium channel that mediates the release of Ca(2+) from the sarcoplasmic reticulum into the cytosol and thereby plays a key role in triggering cardiac muscle contraction. Aberrant channel activation can lead to cardiac arrhythmia. In cardiac myocytes, calcium release is triggered by increased Ca(2+) cytosolic levels due to activation of the L-type calcium channel CACNA1C. The calcium channel activity is modulated by formation of heterotetramers with RYR3. Required for cellular calcium ion homeostasis. Required for embryonic heart development"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "10830164",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0241",
+                "value": "Sarcoplasmic reticulum membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "10830164",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9909",
+                "value": "Multi-pass membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000DD0308"
+      },
+      "features": [
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 4281
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 1
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 4302
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 4282
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 4524
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 4504
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 4600
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 4580
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 4750
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 4730
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 4789
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 4769
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 4870
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 4850
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 4967
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 4871
+            }
+          },
+          "type": "Topological domain"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:10484",
+                "source": "HGNC"
+              }
+            ],
+            "value": "RYR2"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0106",
+          "name": "Calcium"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0107",
+          "name": "Calcium channel"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0109",
+          "name": "Calcium transport"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0112",
+          "name": "Calmodulin-binding"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0122",
+          "name": "Cardiomyopathy"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0175",
+          "name": "Coiled coil"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0217",
+          "name": "Developmental protein"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0225",
+          "name": "Disease variant"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0407",
+          "name": "Ion channel"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0406",
+          "name": "Ion transport"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-1071",
+          "name": "Ligand-gated ion channel"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0675",
+          "name": "Receptor"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0677",
+          "name": "Repeat"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0703",
+          "name": "Sarcoplasmic reticulum"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0813",
+          "name": "Transport"
+        }
+      ],
+      "primaryAccession": "Q92736",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Cardiac muscle ryanodine receptor"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Cardiac muscle ryanodine receptor-calcium release channel"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Type 2 ryanodine receptor"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Ryanodine receptor 2"
+          },
+          "shortNames": [
+            {
+              "value": "RYR-2"
+            },
+            {
+              "value": "RyR2"
+            },
+            {
+              "value": "hRYR-2"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "44984485F8677B42",
+        "length": 4967,
+        "md5": "75C59F1567EFB4C15219909EB087987B",
+        "molWeight": 564567,
+        "value": "MADGGEGEDEIQFLRTDDEVVLQCTATIHKEQQKLCLAAEGFGNRLCFLESTSNSKNVPPDLSICTFVLEQSLSVRALQEMLANTVEKSEGQVDVEKWKFMMKTAQGGGHRTLLYGHAILLRHSYSGMYLCCLSTSRSSTDKLAFDVGLQEDTTGEACWWTIHPASKQRSEGEKVRVGDDLILVSVSSERYLHLSYGNGSLHVDAAFQQTLWSVAPISSGSEAAQGYLIGGDVLRLLHGHMDECLTVPSGEHGEEQRRTVHYEGGAVSVHARSLWRLETLRVAWSGSHIRWGQPFRLRHVTTGKYLSLMEDKNLLLMDKEKADVKSTAFTFRSSKEKLDVGVRKEVDGMGTSEIKYGDSVCYIQHVDTGLWLTYQSVDVKSVRMGSIQRKAIMHHEGHMDDGISLSRSQHEESRTARVIRSTVFLFNRFIRGLDALSKKAKASTVDLPIESVSLSLQDLIGYFHPPDEHLEHEDKQNRLRALKNRQNLFQEEGMINLVLECIDRLHVYSSAAHFADVAGREAGESWKSILNSLYELLAALIRGNRKNCAQFSGSLDWLISRLERLEASSGILEVLHCVLVESPEALNIIKEGHIKSIISLLDKHGRNHKVLDVLCSLCVCHGVAVRSNQHLICDNLLPGRDLLLQTRLVNHVSSMRPNIFLGVSEGSAQYKKWYYELMVDHTEPFVTAEATHLRVGWASTEGYSPYPGGGEEWGGNGVGDDLFSYGFDGLHLWSGCIARTVSSPNQHLLRTDDVISCCLDLSAPSISFRINGQPVQGMFENFNIDGLFFPVVSFSAGIKVRFLLGGRHGEFKFLPPPGYAPCYEAVLPKEKLKVEHSREYKQERTYTRDLLGPTVSLTQAAFTPIPVDTSQIVLPPHLERIREKLAENIHELWVMNKIELGWQYGPVRDDNKRQHPCLVEFSKLPEQERNYNLQMSLETLKTLLALGCHVGISDEHAEDKVKKMKLPKNYQLTSGYKPAPMDLSFIKLTPSQEAMVDKLAENAHNVWARDRIRQGWTYGIQQDVKNRRNPRLVPYTLLDDRTKKSNKDSLREAVRTLLGYGYNLEAPDQDHAARAEVCSGTGERFRIFRAEKTYAVKAGRWYFEFETVTAGDMRVGWSRPGCQPDQELGSDERAFAFDGFKAQRWHQGNEHYGRSWQAGDVVGCMVDMNEHTMMFTLNGEILLDDSGSELAFKDFDVGDGFIPVCSLGVAQVGRMNFGKDVSTLKYFTICGLQEGYEPFAVNTNRDITMWLSKRLPQFLQVPSNHEHIEVTRIDGTIDSSPCLKVTQKSFGSQNSNTDIMFYRLSMPIECAEVFSKTVAGGLPGAGLFGPKNDLEDYDADSDFEVLMKTAHGHLVPDRVDKDKEATKPEFNNHKDYAQEKPSRLKQRFLLRRTKPDYSTSHSARLTEDVLADDRDDYDFLMQTSTYYYSVRIFPGQEPANVWVGWITSDFHQYDTGFDLDRVRTVTVTLGDEKGKVHESIKRSNCYMVCAGESMSPGQGRNNNGLEIGCVVDAASGLLTFIANGKELSTYYQVEPSTKLFPAVFAQATSPNVFQFELGRIKNVMPLSAGLFKSEHKNPVPQCPPRLHVQFLSHVLWSRMPNQFLKVDVSRISERQGWLVQCLDPLQFMSLHIPEENRSVDILELTEQEELLKFHYHTLRLYSAVCALGNHRVAHALCSHVDEPQLLYAIENKYMPGLLRAGYYDLLIDIHLSSYATARLMMNNEYIVPMTEETKSITLFPDENKKHGLPGIGLSTSLRPRMQFSSPSFVSISNECYQYSPEFPLDILKSKTIQMLTEAVKEGSLHARDPVGGTTEFLFVPLIKLFYTLLIMGIFHNEDLKHILQLIEPSVFKEAATPEEESDTLEKELSVDDAKLQGAGEEEAKGGKRPKEGLLQMKLPEPVKLQMCLLLQYLCDCQVRHRIEAIVAFSDDFVAKLQDNQRFRYNEVMQALNMSAALTARKTKEFRSPPQEQINMLLNFKDDKSECPCPEEIRDQLLDFHEDLMTHCGIELDEDGSLDGNSDLTIRGRLLSLVEKVTYLKKKQAEKPVESDSKKSSTLQQLISETMVRWAQESVIEDPELVRAMFVLLHRQYDGIGGLVRALPKTYTINGVSVEDTINLLASLGQIRSLLSVRMGKEEEKLMIRGLGDIMNNKVFYQHPNLMRALGMHETVMEVMVNVLGGGESKEITFPKMVANCCRFLCYFCRISRQNQKAMFDHLSYLLENSSVGLASPAMRGSTPLDVAAASVMDNNELALALREPDLEKVVRYLAGCGLQSCQMLVSKGYPDIGWNPVEGERYLDFLRFAVFCNGESVEENANVVVRLLIRRPECFGPALRGEGGNGLLAAMEEAIKIAEDPSRDGPSPNSGSSKTLDTEEEEDDTIHMGNAIMTFYSALIDLLGRCAPEMHLIHAGKGEAIRIRSILRSLIPLGDLVGVISIAFQMPTIAKDGNVVEPDMSAGFCPDHKAAMVLFLDRVYGIEVQDFLLHLLEVGFLPDLRAAASLDTAALSATDMALALNRYLCTAVLPLLTRCAPLFAGTEHHASLIDSLLHTVYRLSKGCSLTKAQRDSIEVCLLSICGQLRPSMMQHLLRRLVFDVPLLNEHAKMPLKLLTNHYERCWKYYCLPGGWGNFGAASEEELHLSRKLFWGIFDALSQKKYEQELFKLALPCLSAVAGALPPDYMESNYVSMMEKQSSMDSEGNFNPQPVDTSNITIPEKLEYFINKYAEHSHDKWSMDKLANGWIYGEIYSDSSKVQPLMKPYKLLSEKEKEIYRWPIKESLKTMLAWGWRIERTREGDSMALYNRTRRISQTSQVSVDAAHGYSPRAIDMSNVTLSRDLHAMAEMMAENYHNIWAKKKKMELESKGGGNHPLLVPYDTLTAKEKAKDREKAQDILKFLQINGYAVSRGFKDLELDTPSIEKRFAYSFLQQLIRYVDEAHQYILEFDGGSRGKGEHFPYEQEIKFFAKVVLPLIDQYFKNHRLYFLSAASRPLCSGGHASNKEKEMVTSLFCKLGVLVRHRISLFGNDATSIVNCLHILGQTLDARTVMKTGLESVKSALRAFLDNAAEDLEKTMENLKQGQFTHTRNQPKGVTQIINYTTVALLPMLSSLFEHIGQHQFGEDLILEDVQVSCYRILTSLYALGTSKSIYVERQRSALGECLAAFAGAFPVAFLETHLDKHNIYSIYNTKSSRERAALSLPTNVEDVCPNIPSLEKLMEEIVELAESGIRYTQMPHVMEVILPMLCSYMSRWWEHGPENNPERAEMCCTALNSEHMNTLLGNILKIIYNNLGIDEGAWMKRLAVFSQPIINKVKPQLLKTHFLPLMEKLKKKAATVVSEEDHLKAEARGDMSEAELLILDEFTTLARDLYAFYPLLIRFVDYNRAKWLKEPNPEAEELFRMVAEVFIYWSKSHNFKREEQNFVVQNEINNMSFLITDTKSKMSKAAVSDQERKKMKRKGDRYSMQTSLIVAALKRLLPIGLNICAPGDQELIALAKNRFSLKDTEDEVRDIIRSNIHLQGKLEDPAIRWQMALYKDLPNRTDDTSDPEKTVERVLDIANVLFHLEQKSKRVGRRHYCLVEHPQRSKKAVWHKLLSKQRKRAVVACFRMAPLYNLPRHRAVNLFLQGYEKSWIETEEHYFEDKLIEDLAKPGAEPPEEDEGTKRVDPLHQLILLFSRTALTEKCKLEEDFLYMAYADIMAKSCHDEEDDDGEEEVKSFEEKEMEKQKLLYQQARLHDRGAAEMVLQTISASKGETGPMVAATLKLGIAILNGGNSTVQQKMLDYLKEKKDVGFFQSLAGLMQSCSVLDLNAFERQNKAEGLGMVTEEGSGEKVLQDDEFTCDLFRFLQLLCEGHNSDFQNYLRTQTGNNTTVNIIISTVDYLLRVQESISDFYWYYSGKDVIDEQGQRNFSKAIQVAKQVFNTLTEYIQGPCTGNQQSLAHSRLWDAVVGFLHVFAHMQMKLSQDSSQIELLKELMDLQKDMVVMLLSMLEGNVVNGTIGKQMVDMLVESSNNVEMILKFFDMFLKLKDLTSSDTFKEYDPDGKGVISKRDFHKAMESHKHYTQSETEFLLSCAETDENETLDYEEFVKRFHEPAKDIGFNVAVLLTNLSEHMPNDTRLQTFLELAESVLNYFQPFLGRIEIMGSAKRIERVYFEISESSRTQWEKPQVKESKRQFIFDVVNEGGEKEKMELFVNFCEDTIFEMQLAAQISESDLNERSANKEESEKERPEEQGPRMAFFSILTVRSALFALRYNILTLMRMLSLKSLKKQMKKVKKMTVKDMVTAFFSSYWSIFMTLLHFVASVFRGFFRIICSLLLGGSLVEGAKKIKVAELLANMPDPTQDEVRGDGEEGERKPLEAALPSEDLTDLKELTEESDLLSDIFGLDLKREGGQYKLIPHNPNAGLSDLMSNPVPMPEVQEKFQEQKAKEEEKEEKEETKSEPEKAEGEDGEKEEKAKEDKGKQKLRQLHTHRYGEPEVPESAFWKKIIAYQQKLLNYFARNFYNMRMLALFVAFAINFILLFYKVSTSSVVEGKELPTRSSSENAKVTSLDSSSHRIIAVHYVLEESSGYMEPTLRILAILHTVISFFCIIGYYCLKVPLVIFKREKEVARKLEFDGLYITEQPSEDDIKGQWDRLVINTQSFPNNYWDKFVKRKVMDKYGEFYGRDRISELLGMDKAALDFSDAREKKKPKKDSSLSAVLNSIDVKYQMWKLGVVFTDNSFLYLAWYMTMSVLGHYNNFFFAAHLLDIAMGFKTLRTILSSVTHNGKQLVLTVGLLAVVVYLYTVVAFNFFRKFYNKSEDGDTPDMKCDDMLTCYMFHMYVGVRAGGGIGDEIEDPAGDEYEIYRIIFDITFFFFVIVILLAIIQGLIIDAFGELRDQQEQVKEDMETKCFICGIGNDYFDTVPHGFETHTLQEHNLANYLFFLMYLINKDETEHTGQESYVWKMYQERCWEFFPAGDCFRKQYEDQLN"
+      },
+      "uniProtkbId": "RYR2_HUMAN"
+    }
+  ]
+}

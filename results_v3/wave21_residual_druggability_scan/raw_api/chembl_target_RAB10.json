@@ -1,0 +1,423 @@
+{
+  "_request_url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=RAB10&limit=10",
+  "_status_code": 200,
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Ras-related protein Rab-10",
+      "score": 22.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL4105971",
+      "target_components": [
+        {
+          "accession": "P61026",
+          "component_description": "Ras-related protein Rab-10",
+          "component_id": 17823,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "3.6.5.2",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "RAB10",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Ras-related protein Rab-10",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P61026",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "GO:0000139",
+              "xref_name": "Golgi membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0000145",
+              "xref_name": "exocyst",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005764",
+              "xref_name": "lysosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005768",
+              "xref_name": "endosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005783",
+              "xref_name": "endoplasmic reticulum",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005789",
+              "xref_name": "endoplasmic reticulum membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005794",
+              "xref_name": "Golgi apparatus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005802",
+              "xref_name": "trans-Golgi network",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005856",
+              "xref_name": "cytoskeleton",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005912",
+              "xref_name": "adherens junction",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005925",
+              "xref_name": "focal adhesion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005929",
+              "xref_name": "cilium",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0010008",
+              "xref_name": "endosome membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0030659",
+              "xref_name": "cytoplasmic vesicle membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0030667",
+              "xref_name": "secretory granule membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0030670",
+              "xref_name": "phagocytic vesicle membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0042995",
+              "xref_name": "cell projection",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0048471",
+              "xref_name": "perinuclear region of cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0055037",
+              "xref_name": "recycling endosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0055038",
+              "xref_name": "recycling endosome membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0071782",
+              "xref_name": "endoplasmic reticulum tubular network",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0120025",
+              "xref_name": "plasma membrane bounded cell projection",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0003924",
+              "xref_name": "GTPase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003925",
+              "xref_name": "G protein activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005525",
+              "xref_name": "GTP binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016787",
+              "xref_name": "hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019003",
+              "xref_name": "GDP binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0031489",
+              "xref_name": "myosin V binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0098641",
+              "xref_name": "cadherin binding involved in cell-cell adhesion",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:1990606",
+              "xref_name": "membrane scission GTPase motor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006887",
+              "xref_name": "exocytosis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006893",
+              "xref_name": "Golgi to plasma membrane transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007409",
+              "xref_name": "axonogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016192",
+              "xref_name": "vesicle-mediated transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016197",
+              "xref_name": "endosomal transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0019882",
+              "xref_name": "antigen processing and presentation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030859",
+              "xref_name": "polarized epithelial cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032869",
+              "xref_name": "cellular response to insulin stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043001",
+              "xref_name": "Golgi to plasma membrane protein transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045055",
+              "xref_name": "regulated exocytosis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051668",
+              "xref_name": "localization within membrane",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0097051",
+              "xref_name": "establishment of protein localization to endoplasmic reticulum membrane",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0098609",
+              "xref_name": "cell-cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1903361",
+              "xref_name": "protein localization to basolateral plasma membrane",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:9759",
+              "xref_name": "RAB10",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "P61026",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR001806",
+              "xref_name": "Small_GTPase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR005225",
+              "xref_name": "Small_GTP-bd",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR027417",
+              "xref_name": "P-loop_NTPase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR050305",
+              "xref_name": "Small_GTPase_Rab",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR47980",
+              "xref_name": "LD44762P",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "5LPN",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5SZJ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5LPN",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5SZJ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF00071",
+              "xref_name": "Ras",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA34100",
+              "xref_name": "RAB10, member RAS oncogene family",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P61026",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-1445148",
+              "xref_name": "Translocation of SLC2A4 (GLUT4) to the plasma membrane",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-6798695",
+              "xref_name": "Neutrophil degranulation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-8873719",
+              "xref_name": "RAB geranylgeranylation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-8876198",
+              "xref_name": "RAB GEFs exchange GTP for GDP on RABs",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "D6W538",
+              "xref_name": "Ras-related protein Rab-10",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O88386",
+              "xref_name": "Ras-related protein Rab-10",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P61026",
+              "xref_name": "Ras-related protein Rab-10",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q6IA52",
+              "xref_name": "Ras-related protein Rab-10",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9D7X6",
+              "xref_name": "Ras-related protein Rab-10",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9H0T3",
+              "xref_name": "Ras-related protein Rab-10",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

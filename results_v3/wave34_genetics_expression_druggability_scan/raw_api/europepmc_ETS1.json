@@ -1,0 +1,61 @@
+{
+  "payload": {
+    "hitCount": 2391,
+    "nextCursorMark": "AoIIQRT4Big1MzY3MDEzOA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ETS1 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQRT4Big1MzY3MDEzOA==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "ETS1 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Alsaedi S, Mineta K, Tamura N, Gao X, Gojobori T, Ogasawara M.",
+          "citedByCount": 0,
+          "doi": "10.1371/journal.pone.0329101",
+          "firstIndexDate": "2025-08-23",
+          "firstPublicationDate": "2025-08-21",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12370121"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "40839671",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "8",
+          "journalIssn": "1932-6203",
+          "journalTitle": "PLoS One",
+          "journalVolume": "20",
+          "pageInfo": "e0329101",
+          "pmcid": "PMC12370121",
+          "pmid": "40839671",
+          "pubType": "research-article; journal article",
+          "pubYear": "2025",
+          "source": "MED",
+          "title": "Integrative molecular network analysis of genetic risk factors to infer biomarkers and therapeutic targets for rheumatoid arthritis.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "refsnp"
+            ]
+          }
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ETS1+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

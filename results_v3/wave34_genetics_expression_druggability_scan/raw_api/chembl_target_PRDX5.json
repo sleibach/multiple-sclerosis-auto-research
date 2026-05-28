@@ -1,0 +1,447 @@
+{
+  "payload": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Peroxiredoxin-5, mitochondrial",
+        "score": 13.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL3627586",
+        "target_components": [
+          {
+            "accession": "P30044",
+            "component_description": "Peroxiredoxin-5, mitochondrial",
+            "component_id": 10077,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "1.11.1.24",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "ACR1",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Alu corepressor 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Antioxidant enzyme B166",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "AOEB166",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Liver tissue 2D-page spot 71B",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Peroxiredoxin-5, mitochondrial",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Peroxiredoxin V",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Peroxisomal antioxidant enzyme",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "PLP",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "PRDX5",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Prx-V",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Thioredoxin-dependent peroxiredoxin 5",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Thioredoxin peroxidase PMP20",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TPx type VI",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "P30044",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005634",
+                "xref_name": "nucleus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005739",
+                "xref_name": "mitochondrion",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005777",
+                "xref_name": "peroxisome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005782",
+                "xref_name": "peroxisomal matrix",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0048471",
+                "xref_name": "perinuclear region of cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0001016",
+                "xref_name": "RNA polymerase III transcription regulatory region sequence-specific DNA binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0004601",
+                "xref_name": "peroxidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008379",
+                "xref_name": "thioredoxin peroxidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0043027",
+                "xref_name": "cysteine-type endopeptidase inhibitor activity involved in apoptotic process",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0140824",
+                "xref_name": "thioredoxin-dependent peroxiredoxin activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0006979",
+                "xref_name": "response to oxidative stress",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0016480",
+                "xref_name": "negative regulation of transcription by RNA polymerase III",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034599",
+                "xref_name": "cellular response to oxidative stress",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034614",
+                "xref_name": "cellular response to reactive oxygen species",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042744",
+                "xref_name": "hydrogen peroxide catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043066",
+                "xref_name": "negative regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0098869",
+                "xref_name": "cellular oxidant detoxification",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:9355",
+                "xref_name": "PRDX5",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "P30044",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR013740",
+                "xref_name": "Redoxin",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013766",
+                "xref_name": "Thioredoxin_domain",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036249",
+                "xref_name": "Thioredoxin-like_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR037944",
+                "xref_name": "PRX5-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR10430",
+                "xref_name": "PEROXIREDOXIN",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR10430:SF16",
+                "xref_name": "PEROXIREDOXIN-5, MITOCHONDRIAL",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "1H4O",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1HD2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1OC3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1URM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2VL2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2VL3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2VL9",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3MNG",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4K7I",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4K7N",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4K7O",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4MMM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1H4O",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1HD2",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1OC3",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1URM",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2VL2",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2VL3",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2VL9",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3MNG",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4K7I",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4K7N",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4K7O",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4MMM",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF08534",
+                "xref_name": "Redoxin",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA33726",
+                "xref_name": "peroxiredoxin 5",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "P30044",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-3299685",
+                "xref_name": "Detoxification of Reactive Oxygen Species",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5628897",
+                "xref_name": "TP53 Regulates Metabolic Genes",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "A6NC19",
+                "xref_name": "Peroxiredoxin-5, mitochondrial",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "A6NG06",
+                "xref_name": "Peroxiredoxin-5, mitochondrial",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "B7ZLJ4",
+                "xref_name": "Peroxiredoxin-5, mitochondrial",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "B7ZVW3",
+                "xref_name": "Peroxiredoxin-5, mitochondrial",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P30044",
+                "xref_name": "Peroxiredoxin-5, mitochondrial",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q14CK0",
+                "xref_name": "Peroxiredoxin-5, mitochondrial",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6IAF2",
+                "xref_name": "Peroxiredoxin-5, mitochondrial",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UBU5",
+                "xref_name": "Peroxiredoxin-5, mitochondrial",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UJU4",
+                "xref_name": "Peroxiredoxin-5, mitochondrial",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UKX4",
+                "xref_name": "Peroxiredoxin-5, mitochondrial",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=PRDX5"
+}

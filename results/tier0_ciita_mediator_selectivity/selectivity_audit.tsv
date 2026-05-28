@@ -1,0 +1,5 @@
+perturbation	dataset	system	perturbation_type	target_suppression	generic_ifn_suppression	target_over_ifn_ratio	selectivity_score	stress_induction	evidence_call	tier0_selectivity_call
+Med16_KO	GSE162464	primary mouse macrophage RNA-seq, triplicates	gene_knockout	3.1395014536170534	0.797854931783739	3.9349276773888824	2.3051173986620066	0.0	selective_target_suppression	passes_selectivity_screen
+Gsk3b_KO	GSE162464	primary mouse macrophage RNA-seq, triplicates	gene_knockout	1.6223580114004137	0.7952007387801626	2.0401867506927998	0.7779563820432978	0.0	selective_target_suppression	passes_selectivity_screen
+TNFRSF1A	GSE281048_Zenodo14035992	stimulated human cancer-cell pathway Perturb-seq	CRISPRi_gene	0.9683862679530189	0.305972733625738	3.1649430211567045	0.6211601610564657	0.09167416282403355	selective_target_suppression	weak_or_partial_selectivity
+RFX5	GSE281048_Zenodo14035992	stimulated human cancer-cell pathway Perturb-seq	CRISPRi_gene	0.5517938735080701	0.0	5.5179387350807	0.5231987939104686	0.06354462132800315	weak_selective_target_suppression	weak_or_partial_selectivity

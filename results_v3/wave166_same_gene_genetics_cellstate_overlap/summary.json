@@ -1,0 +1,16 @@
+{
+  "branch_call": "NO_UNBLOCKED_SAME_GENE_GENETICS_CELLSTATE_ROUTE",
+  "genes_ranked": 25255,
+  "eligible_routes": 0,
+  "selected_gene": "SP140",
+  "selected_score": 7.5,
+  "selected_flags": {
+    "genetics_gate": true,
+    "same_gene_cellstate_gate": true,
+    "ms_expression_trend": false,
+    "perturbation_trend": true,
+    "reachable": true,
+    "hard_closed_or_prior_blocked": true
+  },
+  "interpretation": "Same-gene overlap is now the preferred search space; eligible rows, if any, should be tested next for intervention feasibility instead of using neighbor-borrowed druggability."
+}

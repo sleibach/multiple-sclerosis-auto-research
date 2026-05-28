@@ -1,0 +1,371 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "24105263",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Tethering protein that creates contact site between the endoplasmic reticulum and late endosomes: localizes to late endosome membranes and contacts the endoplasmic reticulum via interaction with VAPA and VAPB (PubMed:24105263)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "24105263",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Localizes to contact sites between the endoplasmic reticulum and late endosomes: associates with the endoplasmic reticulum membrane via interaction with VAPA, VAPB or MOSPD2"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "24105263",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "29858488",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0151",
+                "value": "Late endosome membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000255"
+                  }
+                ],
+                "id": "SL-9909",
+                "value": "Multi-pass membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000000DCAC"
+      },
+      "features": [
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "12393907",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 53
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 1
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00770",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 74
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 54
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Extracellular",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 97
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 75
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00770",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 118
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 98
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 122
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 119
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00770",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 143
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 123
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Extracellular",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 150
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 144
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00770",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 171
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 151
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "12393907",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 234
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 172
+            }
+          },
+          "type": "Topological domain"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "id": "24105263",
+                "source": "PubMed"
+              },
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:19169",
+                "source": "HGNC"
+              }
+            ],
+            "value": "STARD3NL"
+          },
+          "orfNames": [
+            {
+              "value": "UNQ855/PRO1864"
+            }
+          ],
+          "synonyms": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "12393907",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "MENTHO"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0024",
+          "name": "Alternative initiation"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0967",
+          "name": "Endosome"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        }
+      ],
+      "primaryAccession": "O95772",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "MLN64 N-terminal domain homolog"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "id": "24105263",
+                "source": "PubMed"
+              }
+            ],
+            "value": "STARD3 N-terminal-like protein"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "AFB7DAE381983FB0",
+        "length": 234,
+        "md5": "0BE1B04406ED7A2661DF36DB65EA31E1",
+        "molWeight": 26655,
+        "value": "MNHLPEDMENALTGSQSSHASLRNIHSINPTQLMARIESYEGREKKGISDVRRTFCLFVTFDLLFVTLLWIIELNVNGGIENTLEKEVMQYDYYSSYFDIFLLAVFRFKVLILAYAVCRLRHWWAIALTTAVTSAFLLAKVILSKLFSQGAFGYVLPIISFILAWIETWFLDFKVLPQEAEEENRLLIVQDASERAALIPGGLSDGQFYSPPESEAGSEEAEEKQDSEKPLLEL"
+      },
+      "uniProtkbId": "STR3N_HUMAN"
+    }
+  ]
+}

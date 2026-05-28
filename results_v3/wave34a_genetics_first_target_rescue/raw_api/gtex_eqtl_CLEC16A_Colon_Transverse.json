@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr16",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000038532.14",
+        "geneSymbol": "CLEC16A",
+        "geneSymbolUpper": "CLEC16A",
+        "nes": 0.149474,
+        "ontologyId": "UBERON:0001157",
+        "pValue": 3.33331e-05,
+        "pos": 10946540,
+        "snpId": "rs36094971",
+        "snpIdUpper": "RS36094971",
+        "tissueSiteDetailId": "Colon_Transverse",
+        "variantId": "chr16_10946540_C_T_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 16,
+      "page": 0,
+      "totalNumberOfItems": 16
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000038532.14&tissueSiteDetailId=Colon_Transverse&datasetId=gtex_v8&itemsPerPage=1"
+}

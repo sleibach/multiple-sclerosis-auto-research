@@ -1,0 +1,125 @@
+{
+  "error": "",
+  "payload": {
+    "hitCount": 432,
+    "nextCursorMark": "AoIIQOWQgig1NTE0NjEyMw==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(GPR65) AND (\"autoimmune\" OR \"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR psoriasis)&cursorMark=AoIIQOWQgig1NTE0NjEyMw==&resultType=lite&pageSize=3&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 3,
+      "queryString": "(GPR65) AND (\"autoimmune\" OR \"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR psoriasis)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Sobczyk MK, Gaunt TR.",
+          "citedByCount": 0,
+          "doi": "10.1038/s41598-026-41818-3",
+          "firstIndexDate": "2026-03-04",
+          "firstPublicationDate": "2026-03-03",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13065838"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "41775781",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "1",
+          "journalIssn": "2045-2322",
+          "journalTitle": "Sci Rep",
+          "journalVolume": "16",
+          "pageInfo": "11851",
+          "pmcid": "PMC13065838",
+          "pmid": "41775781",
+          "pubType": "research-article; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Integrative mendelian randomization approaches for therapeutic target prioritisation in immune-mediated diseases.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "hgnc"
+            ]
+          }
+        },
+        {
+          "authorString": "Cave S, Patel D, Yang Q, Liang Y, Swanson J, Versage K, Chikezie I, Hernandez JEC, Ybanez CM, Wiater E, Yang LV, Zheng Y, Hernandez JB.",
+          "bookOrReportDetails": {
+            "publisher": "bioRxiv",
+            "yearOfPublication": 2026
+          },
+          "citedByCount": 0,
+          "doi": "10.64898/2026.03.27.714848",
+          "firstIndexDate": "2026-05-19",
+          "firstPublicationDate": "2026-03-30",
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "N",
+          "hasReferences": "N",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "PPR1217343",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "isOpenAccess": "N",
+          "pubType": "preprint",
+          "pubYear": "2026",
+          "source": "PPR",
+          "title": "CREB/CRTC2-Induced GPR65 Orchestrates Th17 Metabolic Fitness and Pathogenic Effector Function"
+        },
+        {
+          "authorString": "Al-Mohannadi A, Awada Z, Lo B, Mifsud B, Deola S.",
+          "citedByCount": 0,
+          "doi": "10.1186/s12863-026-01414-w",
+          "firstIndexDate": "2026-03-20",
+          "firstPublicationDate": "2026-03-18",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13112774"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "N",
+          "id": "41851628",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "1",
+          "journalIssn": "2730-6844",
+          "journalTitle": "BMC Genom Data",
+          "journalVolume": "27",
+          "pageInfo": "31",
+          "pmcid": "PMC13112774",
+          "pmid": "41851628",
+          "pubType": "research-article; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "A curated list of immune system associated genes related to cancer."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "status": "ok",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28GPR65%29+AND+%28%22autoimmune%22+OR+%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+psoriasis%29&format=json&pageSize=3&resultType=lite"
+}

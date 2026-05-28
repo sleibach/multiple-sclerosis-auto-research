@@ -1,0 +1,405 @@
+{
+  "payload": {
+    "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxtYfam1PEW",
+    "studies": [
+      {
+        "derivedSection": {
+          "conditionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D020293",
+                "term": "Vasculitis, Central Nervous System"
+              },
+              {
+                "id": "D020274",
+                "term": "Autoimmune Diseases of the Nervous System"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D002561",
+                "term": "Cerebrovascular Disorders"
+              },
+              {
+                "id": "D001927",
+                "term": "Brain Diseases"
+              },
+              {
+                "id": "D002493",
+                "term": "Central Nervous System Diseases"
+              },
+              {
+                "id": "D014652",
+                "term": "Vascular Diseases"
+              },
+              {
+                "id": "D002318",
+                "term": "Cardiovascular Diseases"
+              },
+              {
+                "id": "D001167",
+                "term": "Arteritis"
+              },
+              {
+                "id": "D014657",
+                "term": "Vasculitis"
+              },
+              {
+                "id": "D017445",
+                "term": "Skin Diseases, Vascular"
+              },
+              {
+                "id": "D012871",
+                "term": "Skin Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              },
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D013700",
+                "term": "Giant Cell Arteritis"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D016678",
+                "term": "Genome"
+              },
+              {
+                "id": "D040342",
+                "term": "Genetic Structures"
+              },
+              {
+                "id": "D055614",
+                "term": "Genetic Phenomena"
+              },
+              {
+                "id": "D019411",
+                "term": "Clinical Laboratory Techniques"
+              },
+              {
+                "id": "D019937",
+                "term": "Diagnostic Techniques and Procedures"
+              },
+              {
+                "id": "D003933",
+                "term": "Diagnosis"
+              },
+              {
+                "id": "D008919",
+                "term": "Investigative Techniques"
+              },
+              {
+                "id": "D005821",
+                "term": "Genetic Techniques"
+              },
+              {
+                "id": "D033142",
+                "term": "Genetic Services"
+              },
+              {
+                "id": "D006296",
+                "term": "Health Services"
+              },
+              {
+                "id": "D005159",
+                "term": "Health Care Facilities Workforce and Services"
+              },
+              {
+                "id": "D003954",
+                "term": "Diagnostic Services"
+              },
+              {
+                "id": "D011314",
+                "term": "Preventive Health Services"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D059472",
+                "term": "Exome"
+              },
+              {
+                "id": "D005820",
+                "term": "Genetic Testing"
+              }
+            ]
+          },
+          "miscInfoModule": {
+            "versionHolder": "2026-05-26"
+          }
+        },
+        "hasResults": false,
+        "protocolSection": {
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "description": "Patients who are going to be diagnosed with GCA and for which a fast track is available for a rapid diagnostic work-up including pre-treatment temporal artery biopsy. The main biopsy specimen will be sent for histopathology for clinical diagnosis or final validation, while the remaining specimen (at least 5 mm in length) will be digested to use for research purposes. In the fast-track, patients should rapidly receive a multi-dimensional diagnostic assessment including ultrasonography of the temporal and axillary arteries. Screening for large vessels involvement should be performed according to the local practice by a combination of ultrasonography, Position Emission Tomography (PET) and Magnetic Resonance (MR). Ideally, this assessment should be performed within five days from clinical evaluation.",
+                "interventionNames": [
+                  "Diagnostic Test: Temporal arterial biopsy",
+                  "Diagnostic Test: Whole exome sequencing",
+                  "Diagnostic Test: Single cell transcriptomics"
+                ],
+                "label": "GCA patients"
+              },
+              {
+                "description": "Healthy controls matched with GCA patients for age, sex, smoking status, previous cardiovascular events, BMI, history of cancer and cytotoxic chemo/radiotherapy.",
+                "label": "Healthy subjects"
+              }
+            ],
+            "interventions": [
+              {
+                "armGroupLabels": [
+                  "GCA patients"
+                ],
+                "description": "Collection of 30 ml of peripheral blood in ethylenediaminetetraacetic acid (EDTA) tubes performed at baseline, 6 months, 12 months and in case of flare before month 12. In addition, the temporal artery specimen (at least 5 mm in length) exceeding that used for clinical activity (at least 10 mm in length in accordance with current clinical recommendations) will be digested to use for research purposes (about protocols for collecting, processing, storing and sending biopsy, refer to Standard Operating Procedures, SOP).",
+                "name": "Temporal arterial biopsy",
+                "type": "DIAGNOSTIC_TEST"
+              },
+              {
+                "armGroupLabels": [
+                  "GCA patients"
+                ],
+                "description": "Patients with CHIP will be identified and characterized by using whole exome sequencing from the peripheral blood samples. M-CHIP will be further characterized by:\n\ni) clone dimension as defined by Variant Allele Fraction (VAF); ii) mutations in specific genes such as DNMT3A, Tet methylcytosine dioxygenase 2 (TET2), Additional Sex combs (ASXL1), or Janus kinase 2 (JAK2); iii) multiple mutations.\n\nL-CHIP will be further characterized by:\n\ni) clone dimension as defined by the VAF; ii) mutations in specific genes such as Dual Specificity Phosphatase 22 (DUSP22), FAT atypical cadherin 1 (FAT1), (Histone-lysine N-methyltransferase 2D (KMT2D); iii) multiple mutations; iv) co-occurrence of mutations heralding M- and L-CHIP.",
+                "name": "Whole exome sequencing",
+                "otherNames": [
+                  "Genetic analysis for CHIP"
+                ],
+                "type": "DIAGNOSTIC_TEST"
+              },
+              {
+                "armGroupLabels": [
+                  "GCA patients"
+                ],
+                "description": "The investigators will identify actively inflamed arterial biopsies from three treatment-na\u00efve patients without CHIP, and three treatment-na\u00efve patients with CHIP driven by the most relevant gene mutation. Arterial wall Cluster of Differentiation (CD) 45+ leukocytes will be isolated after digestion of arterial tissue and characterized by single cell transcriptomics, with a specific focus on wall infiltrating T cells and macrophages and their subsets (eg: Vascular dendritic cells, Th1, Th2, Th17, Treg, M1- and M2-like,\u2026). Frequencies of these subsets and their genetic expression will be compared between wall-infiltrating leukocytes from GCA patients with or without CH, focusing on histological events supposed to be pathogenic in GCA, or known to be dysfunctional in CHIP.",
+                "name": "Single cell transcriptomics",
+                "type": "DIAGNOSTIC_TEST"
+              }
+            ]
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Giant Cell Arteritis",
+              "Temporal Arteritis",
+              "Clonal Hematopoiesis of Indeterminate Potential",
+              "Horton Disease",
+              "Systemic Vasculitis Primary"
+            ],
+            "keywords": [
+              "Temporal artery biopsy",
+              "Giant cell arteritis",
+              "Clonal Hematopoiesis of Indeterminate Potential",
+              "Single cell transcriptomics",
+              "Large vessels vasculitis",
+              "Horton disease",
+              "Whole Exome Sequencing"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "email": "enrico.tombetti@asst-fbf-sacco.it",
+                "name": "Enrico Tombetti, Dr.",
+                "phone": "+393289098793",
+                "role": "CONTACT"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "affiliation": "ASST Fatebenefratelli Sacco",
+                "name": "Enrico Tombetti, Dr.",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ]
+          },
+          "descriptionModule": {
+            "briefSummary": "The goal of this clinical trial is to verify whether CHIP is correlated with the clinical, instrumental, and histological characteristics of GCA, and to characterize the pathogenetic effects of clonal hemopoiesis on vasculitis. The main objective of this study is to verify if clonal hematopoiesis of indeterminate potential (CHIP) affects GCA manifestations, course/response to therapies, and pathogenesis.\n\nPatients who are going to be diagnosed with GCA and for which a fast track is available for a rapid diagnostic work-up including pre-treatment temporal artery biopsy. Patients with CHIP will be identified and characterized by using whole exome sequencing from the peripheral blood samples. The presence and characteristics of CHIP will be correlated with baseline clinical, instrumental, and histologic GCA features.",
+            "detailedDescription": "GCA is the most frequent idiopathic vasculitis in the elderly, characterized by significant morbidity, with possible formation of aneurysms and arterial dissections and with possible evolution into ischemic tissue events, such as irreversible blindness or stroke. Arterial inflammation is maintained by a leukocyte infiltrate infiltrating the vessel wall through vasa vasorum, composed primarily of macrophages (sometimes structured into granulomas with multinucleated giant cells) and Cluster of Differentiation (CD) 4+ T cells, but also from Cluster of Differentiation (CD) 8+ and dendritic cells. However, there are heterogeneous clinical pictures, in correlation to the spatial distribution of arterial lesions, to the finding of arterial ischemia, aneurysms or any relapses. Even today, there is a need to understand the pathogenetic mechanisms underlying clinical and prognostic differences in GCA and to identify patients with different clinical outcomes and response to therapies in advance.\n\nClonal hemopoiesis is instead characterized by the presence in the bloodstream of a hematopoietic clone with a selective advantage following somatic mutations, in the absence of other obvious hematological conditions: in fact, it cannot be detected by standard diagnostic tools, but requires a genetic assessment of blood mosaicism or the presence of known relevant mutations. Mutated leukocytes have a more intense inflammatory and atherogenic response with inflammatory stimuli, both infectious and non-infectious, favoring a proinflammatory microenvironment in elderly patients, underlying the concept of \"age-related inflammation\". One study identified CHIP in 33% of patients with GCA. The investigators hypothesize that specific mutations responsible for the hematopoietic clone could favor a proinflammatory dysregulation of leukocytes within vasculitic lesions, affecting the activity of arterial injury. The purpose of this study is to verify whether CHIP is correlated with the clinical, instrumental and histological characteristics of GCA, and to characterize the pathophysiologic effects of clonal hemopoiesis on vasculitis."
+          },
+          "designModule": {
+            "designInfo": {
+              "observationalModel": "COHORT",
+              "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+              "count": 326,
+              "type": "ESTIMATED"
+            },
+            "patientRegistry": false,
+            "studyType": "OBSERVATIONAL"
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with suspected active GCA entering into a fast-track work-up and healthy matched controls.\n* Capability of providing valid consent to study enrollment.\n* Possibility of performing temporal artery biopsy within three hours from enrollment.\n\nExclusion Criteria:\n\n* Active concurrent viral, fungal or bacterial infections (including active/latent tuberculosis treated for less than 4 weeks, HIV and Hepatitis B/C virus (HBV/HCV) infections.\n* Concurrent systemic inflammation not attributable to GCA (inflammatory diseases in treatment-free remission are accepted).\n* Use of other immunosuppressive agents in the last 3 months.\n* Use of systemic steroids (any dose in the last week, \\> 15 mg/die of prednisone equivalent in the last month).\n* Solid or hematologic malignancies (active or with less than 6 months free of disease or antiblastic chemotherapy (hormone therapy is allowed).\n* Previous solid or hematopoietic stem cell transplantation (corneal transplants are allowed).\n* Any systemic immunosuppressive or steroidal therapy.\n* Chronic renal failure with Glomerular Filtration Rate (GFR) \\< 45 ml/min \\*1.73 m2.\n* Moderate-severe liver failure (Child-Pugh B or C), hepatitis in stages of activity.\n* Diabetes mellitus.\n* Heart failure with New York Heart Association score (NYHA) \\>=2.\n* Severe hypoproteinemia/malnutrition.\n* Chronic respiratory failure requiring O2 therapy or ventilation therapy at home.\n* Any other condition judged by the local investigator as a contra-indication to eligibility.",
+            "healthyVolunteers": true,
+            "minimumAge": "18 Years",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE",
+            "sex": "ALL",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ],
+            "studyPopulation": "The study will rely on the patients with GCA enrolled in referral centers for vasculitis, All centers have a fast-track for suspected GCA, mainly from their Emergency Departments. This allows clinical evaluation of patients with multi-dimensional disease characterization, comprising ultrasonography of the temporal, axillary and carotid arteries, temporal artery biopsies, and screening for large vessels involvement with a combination of ultrasonography and Position Emission Tomography/Computed Tomography within five days from clinical evaluation. Temporal artery biopsy will be performed in all patients with cranial symptoms for GCA or in the case of diagnostic uncertainty."
+          },
+          "identificationModule": {
+            "acronym": "CH-GCA",
+            "briefTitle": "Clonal Hematopoiesis in Giant Cell Arteritis",
+            "nctId": "NCT06244069",
+            "officialTitle": "Clonal Hematopoiesis in Giant Cell Arteritis",
+            "orgStudyIdInfo": {
+              "id": "The CH-GCA Trial"
+            },
+            "organization": {
+              "class": "OTHER",
+              "fullName": "ASST Fatebenefratelli Sacco"
+            }
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          },
+          "outcomesModule": {
+            "otherOutcomes": [
+              {
+                "description": "Arterial wall Cluster of Differentiation (CD) 45+ leukocytes will be isolated after digestion of arterial tissue and characterized by single-cell transcriptomics, with a specific focus on wall infiltrating T cells and macrophages and their subsets (eg: Vascular dendritic cells, Th1, Th2, Th17, Treg, M1- and M2-like,\u2026). Frequencies of these subsets and their genetic expression will be compared between wall-infiltrating leukocytes from GCA patients with or without CH, focusing on events supposed to be pathogenic in GCA, or known to be dysfunctional in CHIP: cytokine production, inflammasome activation and apoptosis, lymphocyte exhaustion, neoangiogenesis, tissue remodeling (fibrosis or matrix protease production), mitochondrial function and production of reactive oxygen species (ROS), neoangiogenesis, T-Cell receptor and B-cell receptor and costimulatory pathways.",
+                "measure": "Demonstration of the impact of CHIP on single-cell transcriptomics of arterial wall-infiltrating leukocytes",
+                "timeFrame": "From 11th month of study to 18th month"
+              }
+            ],
+            "primaryOutcomes": [
+              {
+                "description": "Patients with M-CHIP will be identified by whole exome sequencing from the peripheral blood. The prevalence of DNMT3A-driven M-CHIP will be compared in the GCA patients vs matched controls by Chi-squared test or Fisher test.",
+                "measure": "Correlation of GCA with M-CHIP-driven by DNMT3A mutations",
+                "timeFrame": "From beginning of study for 11 months"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "description": "Patients with M-CHIP will be identified by whole exome sequencing from the peripheral blood. The prevalence of TET2, ASXL1 or JAK2-driven M-CHIP will be compared in the GCA patients vs matched controls by Chi-squared test or Fisher test.",
+                "measure": "Correlation of GCA with M-CHIP-driven by TET2, ASXL1 and JAK2 mutations",
+                "timeFrame": "From beginning of study for 11 months"
+              },
+              {
+                "description": "Patients with L-CHIP will be identified by whole exome sequencing from the peripheral blood. The prevalence of DUSP22, FAT1 or KMT2D-driven L-CHIP will be compared in the GCA patients vs matched controls by Chi-squared test or Fisher test.",
+                "measure": "Correlation of GCA with L-CHIP-driven by DUSP22, FAT1 and KMT2D mutations",
+                "timeFrame": "From beginning of study for 11 months"
+              },
+              {
+                "description": "Patients with M-CHIP or L-CHIP will be characterized for the dimension of the mutated clone in the peripheral blood by assessing the Variant Allele Fraction (VAF) at whole exome sequencing. The VAF will be compared between the GCA group and the matched controls by an unmatched non-parametric test (Mann-Whitney U test).",
+                "measure": "Correlation of GCA with M-CHIP and L-CHIP clone dimension",
+                "timeFrame": "From beginning of study for 11 months"
+              },
+              {
+                "description": "The prevalence of M-CHIP and L-CHIP driven by multiple mutations as assessed by whole exome sequencing will be compared between the GCA group and the matched controls by Chi-squared test or Fisher test.",
+                "measure": "Correlation of GCA with M-CHIP and L-CHIP multiple mutations",
+                "timeFrame": "From beginning of study for 11 months"
+              },
+              {
+                "description": "The prevalence of specific CHIP mutations (assessed and defined as above) will be compared between GCA patients with vs without ischemic features (claudicatio mandibularis, soft tissue necrosis, ischemic optic neuropathy) by Chi-squared test or Fisher test.",
+                "measure": "Correlation of ischemic features in GCA with specific CHIP mutations",
+                "timeFrame": "From beginning of study for 11 months"
+              },
+              {
+                "description": "The clone dimension as assessed by VAF (see above) will be compared between GCA patients with vs without ischemic features by the Mann-Whitney U test.",
+                "measure": "Correlation of ischemic features in GCA with CHIP clone dimension",
+                "timeFrame": "From beginning of study for 11 months"
+              },
+              {
+                "description": "GCA patients will be followed prospectively; the prevalence of specific CHIP mutations (assessed and defined as above) will be compared between GCA patients with vs without complications at 12 months (disease relapse, venous thromboembolism, acute coronary syndromes/strokes, infection) by Chi-squared test or Fisher test.",
+                "measure": "Correlation of rate of complications with specific CHIP mutations",
+                "timeFrame": "From patients' enrollment for 12 months"
+              },
+              {
+                "description": "GCA patients will be followed prospectively; the clone dimension as assessed by VAF (see above) will be compared between GCA patients with vs without complications at 12 months (disease relapse, venous thromboembolism, acute coronary syndromes/strokes, infection) by the Mann-Whitney U test.",
+                "measure": "Correlation of rate of complications with CHIP clone dimension",
+                "timeFrame": "From patients' enrollment for 12 months"
+              },
+              {
+                "description": "The prevalence of specific CHIP mutations (assessed and defined as above) will be compared between GCA patients with vs without incidence of large vessel involvement and burden of arterial stenosis and dilatation using quantitative activity scores such as Birmingham Vasculitis Activity Score (BVAS) and Vasculitis Damage Index (VDI), using the Mann-Whitney U test.",
+                "measure": "Correlation of vascular quantitative score in GCA with specific CHIP mutations",
+                "timeFrame": "From beginning of study for 11 months"
+              },
+              {
+                "description": "The clone dimension as assessed by VAF (see above) will be compared between GCA patients with incidence of large vessel involvement and burden of arterial stenosis and dilatation using quantitative activity scores such as Birmingham Vasculitis Activity Score (BVAS) and Vasculitis Damage Index (VDI), using Spearman's rank correlation coefficient.",
+                "measure": "Correlation of vascular quantitative score in GCA with CHIP clone dimension",
+                "timeFrame": "From beginning of study for 11 months"
+              },
+              {
+                "description": "The prevalence of specific CHIP mutations (assessed and defined as above) will be compared between GCA patients with histologic features such as intimal hyperplasia, fragmentation of internal elastic membrane, transmural inflammation, vasa-vasorum neoangiogenesis, and presence of giant cells by Chi-squared test or Fisher test.",
+                "measure": "Correlation of histologic features in GCA with specific CHIP mutations",
+                "timeFrame": "From beginning of study for 11 months"
+              },
+              {
+                "description": "The clone dimension as assessed by VAF (see above) will be compared between GCA patients with histologic features such as intimal hyperplasia, fragmentation of internal elastic membrane, transmural inflammation, vasa-vasorum neoangiogenesis, and presence of giant cells, by the Mann-Whitney U test.",
+                "measure": "Correlation of histologic features in GCA with CHIP clone dimension",
+                "timeFrame": "From beginning of study for 11 months"
+              }
+            ]
+          },
+          "oversightModule": {
+            "isFdaRegulatedDevice": false,
+            "isFdaRegulatedDrug": false,
+            "oversightHasDmc": false
+          },
+          "sponsorCollaboratorsModule": {
+            "leadSponsor": {
+              "class": "OTHER",
+              "name": "ASST Fatebenefratelli Sacco"
+            },
+            "responsibleParty": {
+              "investigatorAffiliation": "ASST Fatebenefratelli Sacco",
+              "investigatorFullName": "Enrico Tombetti",
+              "investigatorTitle": "Principal Investigator",
+              "type": "PRINCIPAL_INVESTIGATOR"
+            }
+          },
+          "statusModule": {
+            "completionDateStruct": {
+              "date": "2031-03",
+              "type": "ESTIMATED"
+            },
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "lastUpdatePostDateStruct": {
+              "date": "2024-02-06",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-02-02",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "primaryCompletionDateStruct": {
+              "date": "2028-03",
+              "type": "ESTIMATED"
+            },
+            "startDateStruct": {
+              "date": "2024-03",
+              "type": "ESTIMATED"
+            },
+            "statusVerifiedDate": "2024-02",
+            "studyFirstPostDateStruct": {
+              "date": "2024-02-06",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2024-01-23",
+            "studyFirstSubmitQcDate": "2024-02-02"
+          }
+        }
+      }
+    ],
+    "totalCount": 22
+  },
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.term=JAK2&query.cond=autoimmune+OR+multiple+sclerosis+OR+rheumatoid+arthritis+OR+lupus+OR+Crohn+OR+psoriasis&format=json&pageSize=1&countTotal=true"
+}

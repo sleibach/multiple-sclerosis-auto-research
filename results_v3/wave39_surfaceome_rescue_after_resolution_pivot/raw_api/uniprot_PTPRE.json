@@ -1,0 +1,385 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250"
+                }
+              ],
+              "value": "Isoform 1 plays a critical role in signaling transduction pathways and phosphoprotein network topology in red blood cells. May play a role in osteoclast formation and function (By similarity)"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250"
+                }
+              ],
+              "value": "Isoform 2 acts as a negative regulator of insulin receptor (IR) signaling in skeletal muscle. Regulates insulin-induced tyrosine phosphorylation of insulin receptor (IR) and insulin receptor substrate 1 (IRS-1), phosphorylation of protein kinase B and glycogen synthase kinase-3 and insulin induced stimulation of glucose uptake (By similarity)"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250"
+                }
+              ],
+              "value": "Isoform 1 and isoform 2 act as a negative regulator of FceRI-mediated signal transduction leading to cytokine production and degranulation, most likely by acting at the level of SYK to affect downstream events such as phosphorylation of SLP76 and LAT and mobilization of Ca(2+)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "molecule": "Isoform 1",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "id": "SL-9905",
+                "value": "Single-pass type I membrane protein"
+              }
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "molecule": "Isoform 2",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "value": "Predominantly cytoplasmic. A small fraction is also associated with nucleus and membrane. Insulin induces translocation to the membrane (By similarity)"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "molecule": "Isoform 3",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000132991"
+      },
+      "features": [
+        {
+          "description": "Extracellular",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 46
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 20
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 69
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 47
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 700
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 70
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Phosphocysteine intermediate",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 335
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 335
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "Phosphocysteine intermediate",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 630
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 630
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 303
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 303
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 341
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 335
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 379
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 379
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "PTPRE"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0024",
+          "name": "Alternative initiation"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0877",
+          "name": "Alternative promoter usage"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-1003",
+          "name": "Cell membrane"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0963",
+          "name": "Cytoplasm"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0325",
+          "name": "Glycoprotein"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0378",
+          "name": "Hydrolase"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0904",
+          "name": "Protein phosphatase"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0677",
+          "name": "Repeat"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0732",
+          "name": "Signal"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        }
+      ],
+      "primaryAccession": "P23469",
+      "proteinDescription": {
+        "flag": "Precursor",
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "value": "3.1.3.48"
+            }
+          ],
+          "fullName": {
+            "value": "Receptor-type tyrosine-protein phosphatase epsilon"
+          },
+          "shortNames": [
+            {
+              "value": "Protein-tyrosine phosphatase epsilon"
+            },
+            {
+              "value": "R-PTP-epsilon"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "D096BCADCEA65708",
+        "length": 700,
+        "md5": "AB2FB1FBD23BEBB493D29E3221A0751A",
+        "molWeight": 80642,
+        "value": "MEPLCPLLLVGFSLPLARALRGNETTADSNETTTTSGPPDPGASQPLLAWLLLPLLLLLLVLLLAAYFFRFRKQRKAVVSTSDKKMPNGILEEQEQQRVMLLSRSPSGPKKYFPIPVEHLEEEIRIRSADDCKQFREEFNSLPSGHIQGTFELANKEENREKNRYPNILPNDHSRVILSQLDGIPCSDYINASYIDGYKEKNKFIAAQGPKQETVNDFWRMVWEQKSATIVMLTNLKERKEEKCHQYWPDQGCWTYGNIRVCVEDCVVLVDYTIRKFCIQPQLPDGCKAPRLVSQLHFTSWPDFGVPFTPIGMLKFLKKVKTLNPVHAGPIVVHCSAGVGRTGTFIVIDAMMAMMHAEQKVDVFEFVSRIRNQRPQMVQTDMQYTFIYQALLEYYLYGDTELDVSSLEKHLQTMHGTTTHFDKIGLEEEFRKLTNVRIMKENMRTGNLPANMKKARVIQIIPYDFNRVILSMKRGQEYTDYINASFIDGYRQKDYFIATQGPLAHTVEDFWRMIWEWKSHTIVMLTEVQEREQDKCYQYWPTEGSVTHGEITIEIKNDTLSEAISIRDFLVTLNQPQARQEEQVRVVRQFHFHGWPEIGIPAEGKGMIDLIAAVQKQQQQTGNHPITVHCSAGAGRTGTFIALSNILERVKAEGLLDVFQAVKSLRLQRPHMVQTLEQYEFCYKVVQDFIDIFSDYANFK"
+      },
+      "uniProtkbId": "PTPRE_HUMAN"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+[
+  {
+    "consensus_direction": true,
+    "consensus_inhibition": false,
+    "consensus_stimulation": true,
+    "curation_effort": 2,
+    "is_directed": true,
+    "is_inhibition": false,
+    "is_stimulation": true,
+    "references": "SIGNOR:17158447;ProtMapper:17158447",
+    "source": "P49841",
+    "source_genesymbol": "GSK3B",
+    "sources": [
+      "ProtMapper",
+      "SIGNOR",
+      "SIGNOR_ProtMapper"
+    ],
+    "target": "Q2M1Z3",
+    "target_genesymbol": "ARHGAP31"
+  },
+  {
+    "consensus_direction": true,
+    "consensus_inhibition": false,
+    "consensus_stimulation": true,
+    "curation_effort": 2,
+    "is_directed": true,
+    "is_inhibition": false,
+    "is_stimulation": true,
+    "references": "SIGNOR:17158447;ProtMapper:17158447",
+    "source": "P49840",
+    "source_genesymbol": "GSK3A",
+    "sources": [
+      "ProtMapper",
+      "SIGNOR",
+      "SIGNOR_ProtMapper",
+      "iPTMnet"
+    ],
+    "target": "Q2M1Z3",
+    "target_genesymbol": "ARHGAP31"
+  },
+  {
+    "consensus_direction": false,
+    "consensus_inhibition": false,
+    "consensus_stimulation": false,
+    "curation_effort": 1,
+    "is_directed": true,
+    "is_inhibition": false,
+    "is_stimulation": false,
+    "references": "PhosphoSite:29545927",
+    "source": "Q15418",
+    "source_genesymbol": "RPS6KA1",
+    "sources": [
+      "PhosphoSite",
+      "PhosphoSite_ProtMapper",
+      "PhosphoSite_noref",
+      "ProtMapper"
+    ],
+    "target": "Q2M1Z3",
+    "target_genesymbol": "ARHGAP31"
+  }
+]

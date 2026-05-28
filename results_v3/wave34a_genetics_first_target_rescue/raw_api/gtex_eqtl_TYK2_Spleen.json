@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr19",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000105397.13",
+        "geneSymbol": "TYK2",
+        "geneSymbolUpper": "TYK2",
+        "nes": -0.163376,
+        "ontologyId": "UBERON:0002106",
+        "pValue": 1.20021e-05,
+        "pos": 10341244,
+        "snpId": "rs61451658",
+        "snpIdUpper": "RS61451658",
+        "tissueSiteDetailId": "Spleen",
+        "variantId": "chr19_10341244_C_T_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 18,
+      "page": 0,
+      "totalNumberOfItems": 18
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000105397.13&tissueSiteDetailId=Spleen&datasetId=gtex_v8&itemsPerPage=1"
+}

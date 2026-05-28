@@ -1,0 +1,344 @@
+{
+  "branch_call": "NO_ARCHITECTURE_FIRST_BARRIER_RETENTION_TARGET",
+  "n_donor_score_rows": 2968,
+  "n_passing_modules": 0,
+  "n_sender_receiver_tests": 80,
+  "n_source_tests": 35,
+  "random_seed": 20260527,
+  "run_log": [
+    {
+      "analysis": "ibd_crohn_myeloid",
+      "n_rows": 168,
+      "status": "completed"
+    },
+    {
+      "analysis": "ibd_uc_myeloid",
+      "n_rows": 168,
+      "status": "completed"
+    },
+    {
+      "analysis": "ibd_crohn_epithelial",
+      "n_rows": 168,
+      "status": "completed"
+    },
+    {
+      "analysis": "ibd_uc_epithelial",
+      "n_rows": 168,
+      "status": "completed"
+    },
+    {
+      "analysis": "psoriasis_skin_apc",
+      "n_rows": 84,
+      "status": "completed"
+    },
+    {
+      "analysis": "psoriasis_keratinocyte",
+      "n_rows": 84,
+      "status": "completed"
+    },
+    {
+      "analysis": "sjogren_gland_apc",
+      "n_rows": 308,
+      "status": "completed"
+    },
+    {
+      "analysis": "sjogren_gland_epithelial",
+      "n_rows": 350,
+      "status": "completed"
+    },
+    {
+      "analysis": "ra_blood_myeloid",
+      "n_rows": 504,
+      "status": "completed"
+    },
+    {
+      "analysis": "t1d_beta_cell",
+      "n_rows": 308,
+      "status": "completed"
+    },
+    {
+      "analysis": "t1d_ductal_cell",
+      "n_rows": 336,
+      "status": "completed"
+    },
+    {
+      "analysis": "t1d_acinar_cell",
+      "n_rows": 322,
+      "status": "completed"
+    }
+  ],
+  "top_sender_receiver_tests": [
+    {
+      "architecture_module": "tls_lymphoid_niche",
+      "covariates": "case_indicator;target_inflammatory_nfkb_target;target_hif_nampt_metabolic_target;target_hla_ii_apc_target;target_lipid_loader_repair_target;target_lysosomal_apc_target",
+      "disease_name": "Crohn disease",
+      "fdr": 0.44694069122806834,
+      "n_pairs": 12,
+      "p": 0.005586758640350855,
+      "partial_model_r2": 0.99122641888537,
+      "slope": 2.5573126197026337,
+      "source_analysis": "ibd_crohn_epithelial",
+      "source_compartment": "colon epithelial",
+      "target_analysis": "ibd_crohn_myeloid",
+      "target_compartment": "colon myeloid",
+      "target_readout": "ifn_apc"
+    },
+    {
+      "architecture_module": "epithelial_chemokine_entry",
+      "covariates": "case_indicator;target_inflammatory_nfkb_target;target_hif_nampt_metabolic_target;target_ifn_apc_target;target_hla_ii_apc_target;target_lipid_loader_repair_target",
+      "disease_name": "Sjogren syndrome",
+      "fdr": 0.8615320539568877,
+      "n_pairs": 22,
+      "p": 0.021538301348922193,
+      "partial_model_r2": 0.8840265382095213,
+      "slope": -0.3161673830548743,
+      "source_analysis": "sjogren_gland_epithelial",
+      "source_compartment": "salivary gland epithelial",
+      "target_analysis": "sjogren_gland_apc",
+      "target_compartment": "salivary gland APC",
+      "target_readout": "lysosomal_apc"
+    },
+    {
+      "architecture_module": "tls_lymphoid_niche",
+      "covariates": "case_indicator;target_hif_nampt_metabolic_target;target_ifn_apc_target;target_hla_ii_apc_target;target_lipid_loader_repair_target;target_lysosomal_apc_target",
+      "disease_name": "Crohn disease",
+      "fdr": 1.0,
+      "n_pairs": 12,
+      "p": 0.0517144472332246,
+      "partial_model_r2": 0.9751152420831127,
+      "slope": 6.168094837705136,
+      "source_analysis": "ibd_crohn_epithelial",
+      "source_compartment": "colon epithelial",
+      "target_analysis": "ibd_crohn_myeloid",
+      "target_compartment": "colon myeloid",
+      "target_readout": "inflammatory_nfkb"
+    },
+    {
+      "architecture_module": "tls_lymphoid_niche",
+      "covariates": "case_indicator;target_inflammatory_nfkb_target;target_hif_nampt_metabolic_target;target_hla_ii_apc_target;target_lipid_loader_repair_target;target_lysosomal_apc_target",
+      "disease_name": "Sjogren syndrome",
+      "fdr": 1.0,
+      "n_pairs": 22,
+      "p": 0.11982314375238554,
+      "partial_model_r2": 0.6128977395040855,
+      "slope": -0.6375074939627884,
+      "source_analysis": "sjogren_gland_epithelial",
+      "source_compartment": "salivary gland epithelial",
+      "target_analysis": "sjogren_gland_apc",
+      "target_compartment": "salivary gland APC",
+      "target_readout": "ifn_apc"
+    },
+    {
+      "architecture_module": "stromal_retention_fibrosis",
+      "covariates": "case_indicator;target_hif_nampt_metabolic_target;target_ifn_apc_target;target_hla_ii_apc_target;target_lipid_loader_repair_target;target_lysosomal_apc_target",
+      "disease_name": "Sjogren syndrome",
+      "fdr": 1.0,
+      "n_pairs": 22,
+      "p": 0.14144884616796102,
+      "partial_model_r2": 0.37181279236428677,
+      "slope": -0.4903340907134022,
+      "source_analysis": "sjogren_gland_epithelial",
+      "source_compartment": "salivary gland epithelial",
+      "target_analysis": "sjogren_gland_apc",
+      "target_compartment": "salivary gland APC",
+      "target_readout": "inflammatory_nfkb"
+    },
+    {
+      "architecture_module": "tls_lymphoid_niche",
+      "covariates": "case_indicator;target_inflammatory_nfkb_target;target_hif_nampt_metabolic_target;target_ifn_apc_target;target_lipid_loader_repair_target;target_lysosomal_apc_target",
+      "disease_name": "Crohn disease",
+      "fdr": 1.0,
+      "n_pairs": 12,
+      "p": 0.15141292906975976,
+      "partial_model_r2": 0.9759358355415534,
+      "slope": -2.031251215307388,
+      "source_analysis": "ibd_crohn_epithelial",
+      "source_compartment": "colon epithelial",
+      "target_analysis": "ibd_crohn_myeloid",
+      "target_compartment": "colon myeloid",
+      "target_readout": "hla_ii_apc"
+    },
+    {
+      "architecture_module": "tls_lymphoid_niche",
+      "covariates": "case_indicator;target_inflammatory_nfkb_target;target_hif_nampt_metabolic_target;target_ifn_apc_target;target_hla_ii_apc_target;target_lipid_loader_repair_target",
+      "disease_name": "Crohn disease",
+      "fdr": 1.0,
+      "n_pairs": 12,
+      "p": 0.15881510781455602,
+      "partial_model_r2": 0.9528757619163114,
+      "slope": -1.509922074869155,
+      "source_analysis": "ibd_crohn_epithelial",
+      "source_compartment": "colon epithelial",
+      "target_analysis": "ibd_crohn_myeloid",
+      "target_compartment": "colon myeloid",
+      "target_readout": "lysosomal_apc"
+    },
+    {
+      "architecture_module": "tl1a_comparator",
+      "covariates": "case_indicator;target_hif_nampt_metabolic_target;target_ifn_apc_target;target_hla_ii_apc_target;target_lipid_loader_repair_target;target_lysosomal_apc_target",
+      "disease_name": "Crohn disease",
+      "fdr": 1.0,
+      "n_pairs": 12,
+      "p": 0.20355061324163998,
+      "partial_model_r2": 0.9545056905439374,
+      "slope": -2.153278211095391,
+      "source_analysis": "ibd_crohn_epithelial",
+      "source_compartment": "colon epithelial",
+      "target_analysis": "ibd_crohn_myeloid",
+      "target_compartment": "colon myeloid",
+      "target_readout": "inflammatory_nfkb"
+    },
+    {
+      "architecture_module": "tl1a_comparator",
+      "covariates": "case_indicator;target_inflammatory_nfkb_target;target_hif_nampt_metabolic_target;target_ifn_apc_target;target_lipid_loader_repair_target;target_lysosomal_apc_target",
+      "disease_name": "Crohn disease",
+      "fdr": 1.0,
+      "n_pairs": 12,
+      "p": 0.20892615760408417,
+      "partial_model_r2": 0.9724847797892906,
+      "slope": 0.6773944821171624,
+      "source_analysis": "ibd_crohn_epithelial",
+      "source_compartment": "colon epithelial",
+      "target_analysis": "ibd_crohn_myeloid",
+      "target_compartment": "colon myeloid",
+      "target_readout": "hla_ii_apc"
+    },
+    {
+      "architecture_module": "stromal_retention_fibrosis",
+      "covariates": "case_indicator;target_inflammatory_nfkb_target;target_hif_nampt_metabolic_target;target_hla_ii_apc_target;target_lipid_loader_repair_target;target_lysosomal_apc_target",
+      "disease_name": "Sjogren syndrome",
+      "fdr": 1.0,
+      "n_pairs": 22,
+      "p": 0.21596664640534163,
+      "partial_model_r2": 0.5866017160340344,
+      "slope": -0.2580111643913697,
+      "source_analysis": "sjogren_gland_epithelial",
+      "source_compartment": "salivary gland epithelial",
+      "target_analysis": "sjogren_gland_apc",
+      "target_compartment": "salivary gland APC",
+      "target_readout": "ifn_apc"
+    }
+  ],
+  "top_source_tests": [
+    {
+      "analysis": "ibd_uc_epithelial",
+      "compartment": "colon epithelial",
+      "delta_case_minus_control": 0.07334841781199973,
+      "disease_name": "ulcerative colitis",
+      "fdr": 0.060182536103571875,
+      "hedges_g": 2.331870391750471,
+      "module": "stromal_retention_fibrosis",
+      "n_case_donors": 6,
+      "n_control_donors": 6,
+      "p": 0.0019590777128672622
+    },
+    {
+      "analysis": "ibd_crohn_epithelial",
+      "compartment": "colon epithelial",
+      "delta_case_minus_control": 0.0706142939441047,
+      "disease_name": "Crohn disease",
+      "fdr": 0.060182536103571875,
+      "hedges_g": 2.050052991496635,
+      "module": "stromal_retention_fibrosis",
+      "n_case_donors": 6,
+      "n_control_donors": 6,
+      "p": 0.004865597674210116
+    },
+    {
+      "analysis": "ibd_crohn_epithelial",
+      "compartment": "colon epithelial",
+      "delta_case_minus_control": 0.18956705347924482,
+      "disease_name": "Crohn disease",
+      "fdr": 0.060182536103571875,
+      "hedges_g": 2.2202927029748465,
+      "module": "tl1a_comparator",
+      "n_case_donors": 6,
+      "n_control_donors": 6,
+      "p": 0.005179723970904603
+    },
+    {
+      "analysis": "ibd_crohn_epithelial",
+      "compartment": "colon epithelial",
+      "delta_case_minus_control": 0.4654927327966168,
+      "disease_name": "Crohn disease",
+      "fdr": 0.060182536103571875,
+      "hedges_g": 2.1898000301040828,
+      "module": "epithelial_chemokine_entry",
+      "n_case_donors": 6,
+      "n_control_donors": 6,
+      "p": 0.008181261024708371
+    },
+    {
+      "analysis": "t1d_ductal_cell",
+      "compartment": "pancreatic ductal cell",
+      "delta_case_minus_control": 0.8486992721710254,
+      "disease_name": "type 1 diabetes mellitus",
+      "fdr": 0.060182536103571875,
+      "hedges_g": 3.5641923042674577,
+      "module": "epithelial_chemokine_entry",
+      "n_case_donors": 5,
+      "n_control_donors": 19,
+      "p": 0.008597505157653125
+    },
+    {
+      "analysis": "ibd_uc_epithelial",
+      "compartment": "colon epithelial",
+      "delta_case_minus_control": 0.7666172814423556,
+      "disease_name": "ulcerative colitis",
+      "fdr": 0.09031674928618298,
+      "hedges_g": 1.9063325029004823,
+      "module": "epithelial_chemokine_entry",
+      "n_case_donors": 6,
+      "n_control_donors": 6,
+      "p": 0.015482871306202798
+    },
+    {
+      "analysis": "ibd_crohn_epithelial",
+      "compartment": "colon epithelial",
+      "delta_case_minus_control": 0.06768797754736176,
+      "disease_name": "Crohn disease",
+      "fdr": 0.09932852213597738,
+      "hedges_g": 1.6442501544135302,
+      "module": "endothelial_entry",
+      "n_case_donors": 6,
+      "n_control_donors": 6,
+      "p": 0.01986570442719548
+    },
+    {
+      "analysis": "t1d_ductal_cell",
+      "compartment": "pancreatic ductal cell",
+      "delta_case_minus_control": 0.22856136543458666,
+      "disease_name": "type 1 diabetes mellitus",
+      "fdr": 0.14408097523293312,
+      "hedges_g": 2.768220010199357,
+      "module": "tls_lymphoid_niche",
+      "n_case_donors": 5,
+      "n_control_donors": 19,
+      "p": 0.03293279433895614
+    },
+    {
+      "analysis": "t1d_beta_cell",
+      "compartment": "pancreatic beta cell",
+      "delta_case_minus_control": -0.06049456605988095,
+      "disease_name": "type 1 diabetes mellitus",
+      "fdr": 0.14434673849054855,
+      "hedges_g": -0.5621232057485781,
+      "module": "tl1a_comparator",
+      "n_case_donors": 3,
+      "n_control_donors": 19,
+      "p": 0.040751838365650404
+    },
+    {
+      "analysis": "t1d_ductal_cell",
+      "compartment": "pancreatic ductal cell",
+      "delta_case_minus_control": 0.23378731704713984,
+      "disease_name": "type 1 diabetes mellitus",
+      "fdr": 0.14434673849054855,
+      "hedges_g": 1.7807667004129049,
+      "module": "endothelial_entry",
+      "n_case_donors": 5,
+      "n_control_donors": 19,
+      "p": 0.04306302969903245
+    }
+  ]
+}

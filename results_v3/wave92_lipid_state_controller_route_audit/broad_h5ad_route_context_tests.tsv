@@ -1,0 +1,253 @@
+route	analysis	disease_name	compartment	role	n_genes_present	genes_present	mean_delta_log2_cpm	combined_signed_z	combined_p	positive_nominal	negative_nominal
+FPR2_ANXA1_BIASED_RESOLUTION	ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	2	ANXA1;FPR2	1.98275847776456	1.376681707916662	0.16861067657099693	False	False
+FPR2_ANXA1_BIASED_RESOLUTION	ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	2	ANXA1;FPR2	1.7154690364707723	0.9359537234317189	0.3492970146812665	False	False
+FPR2_ANXA1_BIASED_RESOLUTION	ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	2	ANXA1;FPR2	1.1082185345346063	1.9993702230629034	0.045568311268574156	True	False
+FPR2_ANXA1_BIASED_RESOLUTION	ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	1	ANXA1	3.971647143580095	3.8046534275582626	0.00014200287215089964	True	False
+FPR2_ANXA1_BIASED_RESOLUTION	ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	2	ANXA1;FPR2	-0.10052834695918003	-0.3101375240296446	0.7564563780645563	False	False
+FPR2_ANXA1_BIASED_RESOLUTION	ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	1	ANXA1	-0.2133772425068301	-0.8070724477951452	0.41962474476879263	False	False
+FPR2_ANXA1_BIASED_RESOLUTION	psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	2	ANXA1;FPR2	0.4981042343995854	-0.016926963088998513	0.98649488241215	False	False
+FPR2_ANXA1_BIASED_RESOLUTION	psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	1	ANXA1	0.3516114401596635	0.9696955155797091	0.33219828641439686	False	False
+FPR2_ANXA1_BIASED_RESOLUTION	psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	2	ANXA1;FPR2	-0.04936814686421815	-0.25935970672621844	0.7953577156106022	False	False
+FPR2_ANXA1_BIASED_RESOLUTION	sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	2	ANXA1;FPR2	-0.19718063524122792	-0.1456395299891279	0.8842059602589496	False	False
+FPR2_ANXA1_BIASED_RESOLUTION	sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	1	ANXA1	0.1707115436002215	0.6473385252609779	0.5174128730332886	False	False
+FPR2_ANXA1_BIASED_RESOLUTION	sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	1	ANXA1	0.0944484154389577	0.7288319577261302	0.4661044603871476	False	False
+FPR2_ANXA1_BIASED_RESOLUTION	t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	1	ANXA1	1.594048279819295	3.805876142252739	0.00014130308686779953	True	False
+FPR2_ANXA1_BIASED_RESOLUTION	t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	1	ANXA1	0.354648600428515	0.6857824306759329	0.49285031705958526	False	False
+FPR2_ANXA1_BIASED_RESOLUTION	t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	1	ANXA1	2.840864805883366	3.676182768540124	0.0002367499355181996	True	False
+FPR2_ANXA1_BIASED_RESOLUTION	t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	1	ANXA1	0.1201177657538163	0.2834227941774881	0.7768527572050744	False	False
+FPR2_ANXA1_BIASED_RESOLUTION	t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	1	ANXA1	0.8004832385860903	1.2339846263914336	0.21720863296489668	False	False
+CD300_RECEPTOR_SPECIFIC_TUNING	ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	4	CD300A;CD300C;CD300E;CD300LF	0.7960623883587831	1.194031249805214	0.23246574425003919	False	False
+CD300_RECEPTOR_SPECIFIC_TUNING	ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	4	CD300A;CD300C;CD300E;CD300LF	1.1295350339911108	2.347228500910698	0.018913651636756935	True	False
+CD300_RECEPTOR_SPECIFIC_TUNING	ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	2	CD300A;CD300LF	-0.2599630797226695	-0.464360644065729	0.6423893818849584	False	False
+CD300_RECEPTOR_SPECIFIC_TUNING	ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	2	CD300A;CD300LF	-0.9003108736923384	-1.6756603642517887	0.09380473764828016	False	False
+CD300_RECEPTOR_SPECIFIC_TUNING	ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	1	CD300LG	0.0398784720830291	0.05470105757141254	0.9563766268059058	False	False
+CD300_RECEPTOR_SPECIFIC_TUNING	ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	2	CD300LG;CD300E	0.3850805797966893	1.1352098137607385	0.2562874185925751	False	False
+CD300_RECEPTOR_SPECIFIC_TUNING	psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	4	CD300A;CD300E;CD300C;CD300LF	1.188099753580751	3.6295301231359116	0.00028393759695171636	True	False
+CD300_RECEPTOR_SPECIFIC_TUNING	psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	4	CD300A;CD300LG;CD300E;CD300LF	-0.02854461145099589	0.7447242248281343	0.4564384513952573	False	False
+CD300_RECEPTOR_SPECIFIC_TUNING	psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	5	CD300A;CD300LG;CD300E;CD300C;CD300LF	0.018459545973634344	0.28510232848724476	0.7755657461789996	False	False
+CD300_RECEPTOR_SPECIFIC_TUNING	sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	4	CD300A;CD300C;CD300E;CD300LF	0.01158114076917971	0.31931178980908625	0.7494900933047883	False	False
+CD300_RECEPTOR_SPECIFIC_TUNING	sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	1	CD300A	0.2038692634931699	1.2050988423157474	0.22816514668285082	False	False
+CD300_RECEPTOR_SPECIFIC_TUNING	sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	2	CD300LG;CD300A	-0.565529032736489	-1.6694671191424941	0.09502484150626665	False	False
+CD300_RECEPTOR_SPECIFIC_TUNING	t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	1	CD300A	0.524844594878671	0.641570658010423	0.5211519895627432	False	False
+CD300_RECEPTOR_SPECIFIC_TUNING	t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	1	CD300A	0.2163067808308303	0.9789803978927916	0.32758966505390097	False	False
+CD300_RECEPTOR_SPECIFIC_TUNING	t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	1	CD300LG	0.0028718703250828	0.00663150618520093	0.9947088623812702	False	False
+CD300_RECEPTOR_SPECIFIC_TUNING	t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	3	CD300E;CD300A;CD300LG	0.9233378237615814	1.786317851505376	0.0740478081029501	False	False
+GPR65_ENDOLYSOSOMAL_PH_CAMP	ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	1	GPR65	0.0673034421488303	0.2021562349869763	0.8397945861183662	False	False
+GPR65_ENDOLYSOSOMAL_PH_CAMP	ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	1	GPR65	-0.2227084647639872	-0.6121495577208161	0.5404388116576087	False	False
+GPR65_ENDOLYSOSOMAL_PH_CAMP	ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	1	GPR65	0.3185329169214181	1.0814151616481966	0.27951248033445375	False	False
+GPR65_ENDOLYSOSOMAL_PH_CAMP	ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	1	GPR65	0.0880856628620454	0.16733317282292431	0.8671079039597954	False	False
+GPR65_ENDOLYSOSOMAL_PH_CAMP	ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	1	GPR65	-1.274275159322919	-1.7775842743948875	0.07547215843243517	False	False
+GPR65_ENDOLYSOSOMAL_PH_CAMP	ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	1	GPR65	-1.8447804497334623	-2.921667599118908	0.0034816289763306006	False	True
+GPR65_ENDOLYSOSOMAL_PH_CAMP	psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	1	GPR65	0.1440462226449766	0.5092027980056754	0.6106100820565572	False	False
+GPR65_ENDOLYSOSOMAL_PH_CAMP	psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	1	GPR65	0.0004020631894824	0.006516598589170745	0.9948005433968472	False	False
+GPR65_ENDOLYSOSOMAL_PH_CAMP	sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	1	GPR65	0.4958651927314079	1.7572527122839925	0.07887474406486673	False	False
+GPR65_ENDOLYSOSOMAL_PH_CAMP	sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	1	GPR65	0.7401550716465566	2.3052843578796423	0.021150653003647404	True	False
+GPR65_ENDOLYSOSOMAL_PH_CAMP	sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	1	GPR65	0.3765962388404436	0.7051312223253494	0.4807285779083612	False	False
+GPR65_ENDOLYSOSOMAL_PH_CAMP	t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	1	GPR65	1.2241825261753785	1.1135612169635407	0.2654674722782493	False	False
+GPR65_ENDOLYSOSOMAL_PH_CAMP	t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	1	GPR65	-0.5756918944884828	-2.194943183305141	0.02816767362977215	False	True
+GPR65_ENDOLYSOSOMAL_PH_CAMP	t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	1	GPR65	-0.0680819255211697	-0.8153195641412099	0.4148894129425763	False	False
+GPR65_ENDOLYSOSOMAL_PH_CAMP	t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	1	GPR65	0.325825903546864	0.4925856886436217	0.6223053622272819	False	False
+GPR183_EBI2_OXYSTEROL_NICHE	ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	5	CYP27A1;CYP7B1;CH25H;GPR183;HSD3B7	0.3826785141647385	1.2880665102672777	0.19772281190046137	False	False
+GPR183_EBI2_OXYSTEROL_NICHE	ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	5	CYP27A1;CYP7B1;CH25H;GPR183;HSD3B7	0.25585070942237775	0.8315179227535007	0.4056811076085346	False	False
+GPR183_EBI2_OXYSTEROL_NICHE	ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	3	CYP27A1;GPR183;HSD3B7	0.04972939101876439	1.0219228241762468	0.306817428893133	False	False
+GPR183_EBI2_OXYSTEROL_NICHE	ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	3	CYP27A1;GPR183;HSD3B7	-1.3025982351067402	-1.997636362057536	0.045756098075369324	False	True
+GPR183_EBI2_OXYSTEROL_NICHE	ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	5	CYP27A1;CYP7B1;CH25H;GPR183;HSD3B7	0.3697054989160538	0.9803162889724834	0.3269300166118402	False	False
+GPR183_EBI2_OXYSTEROL_NICHE	ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	5	CYP27A1;CYP7B1;CH25H;GPR183;HSD3B7	0.10253899157767624	0.4312285582741606	0.6663021907261832	False	False
+GPR183_EBI2_OXYSTEROL_NICHE	psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	5	HSD3B7;CYP27A1;CYP7B1;GPR183;CH25H	-0.26061358364814324	-0.4389969084890967	0.6606637764016732	False	False
+GPR183_EBI2_OXYSTEROL_NICHE	psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	5	HSD3B7;CYP27A1;CYP7B1;GPR183;CH25H	0.09956382311173109	0.7576493004646621	0.4486609579222415	False	False
+GPR183_EBI2_OXYSTEROL_NICHE	psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	5	HSD3B7;CYP27A1;CYP7B1;GPR183;CH25H	-0.08634189348202617	-1.3792997053351852	0.1678023673612088	False	False
+GPR183_EBI2_OXYSTEROL_NICHE	sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	5	CYP27A1;CYP7B1;CH25H;GPR183;HSD3B7	-0.37863642754447024	-0.6379685470041906	0.5234941548081637	False	False
+GPR183_EBI2_OXYSTEROL_NICHE	sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	5	CYP27A1;CYP7B1;CH25H;GPR183;HSD3B7	-0.048261395780048476	0.14359111689794113	0.8858233556495768	False	False
+GPR183_EBI2_OXYSTEROL_NICHE	sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	5	CYP27A1;CYP7B1;CH25H;GPR183;HSD3B7	0.37943964867100244	1.5800488448177872	0.11409568097492907	False	False
+GPR183_EBI2_OXYSTEROL_NICHE	t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	5	CH25H;GPR183;HSD3B7;CYP27A1;CYP7B1	0.17203516987108744	-0.6288539118509991	0.5294447012963805	False	False
+GPR183_EBI2_OXYSTEROL_NICHE	t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	4	GPR183;HSD3B7;CYP27A1;CYP7B1	0.3706763018914112	2.1994039950100324	0.02784920882829772	True	False
+GPR183_EBI2_OXYSTEROL_NICHE	t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	4	GPR183;HSD3B7;CYP27A1;CYP7B1	0.2927949557992204	1.703730180083926	0.08843150710783601	False	False
+GPR183_EBI2_OXYSTEROL_NICHE	t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	5	CH25H;GPR183;HSD3B7;CYP27A1;CYP7B1	0.906149580870089	1.9492549757965985	0.051264982566600226	False	False
+GPR183_EBI2_OXYSTEROL_NICHE	t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	5	CH25H;GPR183;HSD3B7;CYP27A1;CYP7B1	1.261588043183652	3.0403732873617697	0.0023628509371108283	True	False
+MERTK_AXL_TAM_GAS6_PROS1_AGONISM	ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	5	MERTK;PROS1;GAS6;TYRO3;AXL	-0.4654301258832012	-1.3754622536062715	0.16898818028448814	False	False
+MERTK_AXL_TAM_GAS6_PROS1_AGONISM	ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	5	MERTK;PROS1;GAS6;TYRO3;AXL	-0.7808308172127427	-1.9791670369921261	0.04779720285554917	False	True
+MERTK_AXL_TAM_GAS6_PROS1_AGONISM	ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	5	MERTK;PROS1;GAS6;TYRO3;AXL	0.09978294691363013	0.20312291664556067	0.8390389601920663	False	False
+MERTK_AXL_TAM_GAS6_PROS1_AGONISM	ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	5	MERTK;PROS1;GAS6;TYRO3;AXL	-0.47850439413024504	-2.4646178904432543	0.013715943458825736	False	True
+MERTK_AXL_TAM_GAS6_PROS1_AGONISM	ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	5	MERTK;PROS1;GAS6;TYRO3;AXL	-0.12785004651463888	-0.530920645097005	0.5954737707092209	False	False
+MERTK_AXL_TAM_GAS6_PROS1_AGONISM	ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	5	MERTK;PROS1;GAS6;TYRO3;AXL	-0.8423609516083763	-2.9333118588518765	0.0033536684320141755	False	True
+MERTK_AXL_TAM_GAS6_PROS1_AGONISM	psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	5	PROS1;MERTK;TYRO3;GAS6;AXL	0.07641851936160023	0.41008075816470096	0.6817467072976536	False	False
+MERTK_AXL_TAM_GAS6_PROS1_AGONISM	psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	5	PROS1;MERTK;TYRO3;GAS6;AXL	-0.3814873950273502	-2.743600825967134	0.006076938311233953	False	True
+MERTK_AXL_TAM_GAS6_PROS1_AGONISM	psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	5	PROS1;MERTK;TYRO3;GAS6;AXL	-0.3401929047571257	-1.0884951064675068	0.2763765957147407	False	False
+MERTK_AXL_TAM_GAS6_PROS1_AGONISM	sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	5	MERTK;PROS1;GAS6;TYRO3;AXL	-0.3622555114028253	-2.0192126941213577	0.043465117497191154	False	True
+MERTK_AXL_TAM_GAS6_PROS1_AGONISM	sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	5	MERTK;PROS1;GAS6;TYRO3;AXL	-0.10251479705421071	-0.5983306828905536	0.549619307373042	False	False
+MERTK_AXL_TAM_GAS6_PROS1_AGONISM	sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	5	MERTK;PROS1;GAS6;TYRO3;AXL	-0.2386484516719829	-1.827414871904269	0.06763741494958742	False	False
+MERTK_AXL_TAM_GAS6_PROS1_AGONISM	t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	5	AXL;GAS6;MERTK;TYRO3;PROS1	-0.01575309404092727	0.22065217923628302	0.8253632690839334	False	False
+MERTK_AXL_TAM_GAS6_PROS1_AGONISM	t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	5	AXL;GAS6;MERTK;TYRO3;PROS1	-0.19710168856977198	-0.8095138386790738	0.418219646040093	False	False
+MERTK_AXL_TAM_GAS6_PROS1_AGONISM	t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	5	AXL;GAS6;MERTK;TYRO3;PROS1	0.04867777903108119	0.5224547710020118	0.6013537297069051	False	False
+MERTK_AXL_TAM_GAS6_PROS1_AGONISM	t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	5	AXL;GAS6;MERTK;TYRO3;PROS1	0.048506338120220184	0.7130926087855408	0.4757884528661155	False	False
+MERTK_AXL_TAM_GAS6_PROS1_AGONISM	t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	5	AXL;GAS6;MERTK;TYRO3;PROS1	0.04446695931089577	0.4192967991073853	0.6749992355965745	False	False
+LXR_ABCA1_ABCG1_EFFLUX	ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	4	ABCA1;NR1H3;NR1H2;ABCG1	-0.24564350759751497	-1.1974648249645514	0.2311254298506108	False	False
+LXR_ABCA1_ABCG1_EFFLUX	ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	4	ABCA1;NR1H3;NR1H2;ABCG1	-0.3955914175009074	-1.5973290760916137	0.11019237278176665	False	False
+LXR_ABCA1_ABCG1_EFFLUX	ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	4	ABCA1;NR1H3;NR1H2;ABCG1	-0.18605977656689868	-0.7557602748587724	0.44979293831603706	False	False
+LXR_ABCA1_ABCG1_EFFLUX	ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	4	ABCA1;NR1H3;NR1H2;ABCG1	-0.6286668222873171	-1.2951705522500916	0.19526140092474842	False	False
+LXR_ABCA1_ABCG1_EFFLUX	ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	4	ABCA1;NR1H3;NR1H2;ABCG1	-0.5702039819172313	-1.7393354852215563	0.08197576900587124	False	False
+LXR_ABCA1_ABCG1_EFFLUX	ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	4	ABCA1;NR1H3;NR1H2;ABCG1	-0.4722362408757903	-1.8763491081274817	0.060607357886480695	False	False
+LXR_ABCA1_ABCG1_EFFLUX	psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	4	ABCG1;NR1H3;NR1H2;ABCA1	-0.5041051590938761	-2.077604461654155	0.03774580491424101	False	True
+LXR_ABCA1_ABCG1_EFFLUX	psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	4	ABCG1;NR1H3;NR1H2;ABCA1	0.009991478715229221	0.07627504368714466	0.9392002802440328	False	False
+LXR_ABCA1_ABCG1_EFFLUX	psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	4	ABCG1;NR1H3;NR1H2;ABCA1	-0.07607993571805917	-1.1755957518442812	0.2397564539391719	False	False
+LXR_ABCA1_ABCG1_EFFLUX	sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	4	ABCA1;NR1H3;NR1H2;ABCG1	0.05160621877069979	0.25811666456240245	0.7963168707893473	False	False
+LXR_ABCA1_ABCG1_EFFLUX	sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	4	ABCA1;NR1H3;NR1H2;ABCG1	0.13443544623610515	0.9695076575629112	0.3322919614267571	False	False
+LXR_ABCA1_ABCG1_EFFLUX	sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	4	ABCA1;NR1H3;NR1H2;ABCG1	-0.08754694776526595	-0.669309687049296	0.5032979486857212	False	False
+LXR_ABCA1_ABCG1_EFFLUX	t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	4	NR1H2;ABCA1;ABCG1;NR1H3	0.27426278123466724	0.7697760345430564	0.441432758100064	False	False
+LXR_ABCA1_ABCG1_EFFLUX	t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	4	NR1H2;ABCA1;ABCG1;NR1H3	-0.11332641166256874	0.7492564635288361	0.4537026429250276	False	False
+LXR_ABCA1_ABCG1_EFFLUX	t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	4	NR1H2;ABCA1;ABCG1;NR1H3	-0.7612399630680368	-1.3238878853275178	0.1855402822416946	False	False
+LXR_ABCA1_ABCG1_EFFLUX	t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	4	NR1H2;ABCA1;ABCG1;NR1H3	-0.026559586906643062	0.026284078235457142	0.9790307542523699	False	False
+LXR_ABCA1_ABCG1_EFFLUX	t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	4	NR1H2;ABCA1;ABCG1;NR1H3	-0.356390414950211	-0.7843088518061044	0.43285890672989813	False	False
+PPAR_RXR_LIPID_REPAIR	ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	7	PPARG;RXRB;PPARD;RXRA;RARG;RARA;PPARA	0.2607813336165002	0.8005926796781945	0.42336748998926854	False	False
+PPAR_RXR_LIPID_REPAIR	ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	7	PPARG;RXRB;PPARD;RXRA;RARG;RARA;PPARA	0.1516179633554516	0.8003386741492712	0.4235146016699165	False	False
+PPAR_RXR_LIPID_REPAIR	ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	7	PPARG;RXRB;PPARD;RXRA;RARG;RARA;PPARA	-0.09635379575873733	-0.7998921355362764	0.4237732947111068	False	False
+PPAR_RXR_LIPID_REPAIR	ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	7	PPARG;RXRB;PPARD;RXRA;RARG;RARA;PPARA	0.05254654651157082	0.13853236765706525	0.8898196905327108	False	False
+PPAR_RXR_LIPID_REPAIR	ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	7	PPARG;RXRB;PPARD;RXRA;RARG;RARA;PPARA	-0.35769498791448023	-1.178774935212958	0.23848780753979004	False	False
+PPAR_RXR_LIPID_REPAIR	ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	7	PPARG;RXRB;PPARD;RXRA;RARG;RARA;PPARA	-0.6260466249324832	-3.4573462596921876	0.0005455234128273665	False	True
+PPAR_RXR_LIPID_REPAIR	psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	6	RARG;RARA;PPARA;RXRA;PPARD;PPARG	-0.5431795640950713	-2.2201010771323646	0.026411907114245594	False	True
+PPAR_RXR_LIPID_REPAIR	psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	6	RARG;RARA;PPARA;RXRA;PPARD;PPARG	-0.4081628205233185	-1.9153617654955977	0.05544638364477332	False	False
+PPAR_RXR_LIPID_REPAIR	psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	6	RARG;RARA;PPARA;RXRA;PPARD;PPARG	-0.267939439773521	-1.6374203189037975	0.10154267550822252	False	False
+PPAR_RXR_LIPID_REPAIR	sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	7	PPARG;RXRB;PPARD;RXRA;RARG;RARA;PPARA	-0.5509013027861324	-1.8195219035990249	0.06883184422467802	False	False
+PPAR_RXR_LIPID_REPAIR	sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	7	PPARG;RXRB;PPARD;RXRA;RARG;RARA;PPARA	-0.1791332159100326	-0.9936773125148823	0.3203799914546622	False	False
+PPAR_RXR_LIPID_REPAIR	sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	7	PPARG;RXRB;PPARD;RXRA;RARG;RARA;PPARA	-0.10607128044580276	-1.3054264569693852	0.19174767432320017	False	False
+PPAR_RXR_LIPID_REPAIR	t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	6	RARG;RXRB;RARA;RXRA;PPARD;PPARA	0.5602886123768018	2.446269357349185	0.014434311772248489	True	False
+PPAR_RXR_LIPID_REPAIR	t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	7	RARG;RXRB;RARA;RXRA;PPARD;PPARG;PPARA	0.46643706522524225	2.1310058739002544	0.03308865827451402	True	False
+PPAR_RXR_LIPID_REPAIR	t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	7	RARG;RXRB;RARA;RXRA;PPARD;PPARG;PPARA	0.17997796561117313	1.0116036503511983	0.3117275998443737	False	False
+PPAR_RXR_LIPID_REPAIR	t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	7	RARG;RXRB;RARA;RXRA;PPARD;PPARG;PPARA	0.5654406447591472	2.9548553418023427	0.003128156869954625	True	False
+PPAR_RXR_LIPID_REPAIR	t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	7	RARG;RXRB;RARA;RXRA;PPARD;PPARG;PPARA	0.4950486968386166	2.003704313575176	0.04510174393479691	True	False
+NPC1_NPC2_CHOLESTEROL_EGRESS	ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	2	NPC2;NPC1	-0.1054778158213674	-0.45275245934970615	0.6507270000686852	False	False
+NPC1_NPC2_CHOLESTEROL_EGRESS	ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	2	NPC2;NPC1	-0.09174219248955717	-0.6187959392081321	0.5360507977087974	False	False
+NPC1_NPC2_CHOLESTEROL_EGRESS	ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	2	NPC2;NPC1	0.0473398778040335	0.15463719433935394	0.8771073458362728	False	False
+NPC1_NPC2_CHOLESTEROL_EGRESS	ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	2	NPC2;NPC1	0.14136508172359677	0.644088955104566	0.5195177520720613	False	False
+NPC1_NPC2_CHOLESTEROL_EGRESS	ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	2	NPC2;NPC1	0.24017817016884815	0.6780273787275535	0.49775433399724833	False	False
+NPC1_NPC2_CHOLESTEROL_EGRESS	ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	2	NPC2;NPC1	0.40545497905748107	1.186915197167265	0.2352610722347026	False	False
+NPC1_NPC2_CHOLESTEROL_EGRESS	psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	2	NPC2;NPC1	0.49959209098383983	1.8444853300940487	0.06511244181545998	False	False
+NPC1_NPC2_CHOLESTEROL_EGRESS	psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	2	NPC2;NPC1	0.3639190044248046	0.018754026961539563	0.9850373285353076	False	False
+NPC1_NPC2_CHOLESTEROL_EGRESS	psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	2	NPC2;NPC1	0.5192776471153682	1.3427452232960115	0.17935448576142743	False	False
+NPC1_NPC2_CHOLESTEROL_EGRESS	sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	2	NPC2;NPC1	0.3256336345902411	0.8300863213449692	0.406489980268707	False	False
+NPC1_NPC2_CHOLESTEROL_EGRESS	sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	2	NPC2;NPC1	-0.2991352724642269	-0.1313128103310397	0.8955278583609764	False	False
+NPC1_NPC2_CHOLESTEROL_EGRESS	sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	2	NPC2;NPC1	-0.0173035640791368	0.12978896433235265	0.8967333942467711	False	False
+NPC1_NPC2_CHOLESTEROL_EGRESS	t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	2	NPC1;NPC2	0.3246203731989263	1.2536816021176558	0.20995775767708835	False	False
+NPC1_NPC2_CHOLESTEROL_EGRESS	t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	2	NPC1;NPC2	0.13002280908670374	1.5901711844797497	0.1117962238680046	False	False
+NPC1_NPC2_CHOLESTEROL_EGRESS	t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	2	NPC1;NPC2	0.5849503798097455	2.548990901336082	0.010803511884361483	True	False
+NPC1_NPC2_CHOLESTEROL_EGRESS	t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	2	NPC1;NPC2	0.19910306673277484	1.1228981284839903	0.26148076246792307	False	False
+NPC1_NPC2_CHOLESTEROL_EGRESS	t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	2	NPC1;NPC2	0.14341401560707517	1.7180364588815416	0.08578996538505693	False	False
+LIPA_LAL_LYSOSOMAL_LIPID_CLEARANCE	ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	1	LIPA	-1.4666342972272002	-1.8646062145879396	0.06223662113102708	False	False
+LIPA_LAL_LYSOSOMAL_LIPID_CLEARANCE	ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	1	LIPA	-1.9121782816765611	-2.127764661819266	0.033356600672042984	False	True
+LIPA_LAL_LYSOSOMAL_LIPID_CLEARANCE	ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	1	LIPA	0.785289482262151	1.965301029167846	0.049379406553575284	True	False
+LIPA_LAL_LYSOSOMAL_LIPID_CLEARANCE	ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	1	LIPA	0.4378379644120505	0.7574009815431786	0.44880966825976387	False	False
+LIPA_LAL_LYSOSOMAL_LIPID_CLEARANCE	ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	1	LIPA	-0.3747324213896839	-0.7784263865020338	0.43631768820125183	False	False
+LIPA_LAL_LYSOSOMAL_LIPID_CLEARANCE	ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	1	LIPA	-0.137374328252906	-0.41268950202913507	0.6798341172360644	False	False
+LIPA_LAL_LYSOSOMAL_LIPID_CLEARANCE	psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	1	LIPA	-0.8471934385170128	-1.0017209766809263	0.3164783725732231	False	False
+LIPA_LAL_LYSOSOMAL_LIPID_CLEARANCE	psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	1	LIPA	1.0616337982163286	1.967114324840591	0.04917003215968927	True	False
+LIPA_LAL_LYSOSOMAL_LIPID_CLEARANCE	psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	1	LIPA	0.1960316885557596	0.776849840059847	0.437247367815889	False	False
+LIPA_LAL_LYSOSOMAL_LIPID_CLEARANCE	sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	1	LIPA	-0.293099344902429	-0.9989914192699206	0.3177988480239705	False	False
+LIPA_LAL_LYSOSOMAL_LIPID_CLEARANCE	sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	1	LIPA	-0.0915795036162361	-0.1778141491482534	0.8588689350178079	False	False
+LIPA_LAL_LYSOSOMAL_LIPID_CLEARANCE	sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	1	LIPA	-0.3201725837747844	-1.3720443366643114	0.17004963602437084	False	False
+LIPA_LAL_LYSOSOMAL_LIPID_CLEARANCE	t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	1	LIPA	0.1181065975260526	0.10784905404283032	0.9141154302878414	False	False
+LIPA_LAL_LYSOSOMAL_LIPID_CLEARANCE	t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	1	LIPA	0.8897263616758986	5.753503751267724	8.741250801864972e-09	True	False
+LIPA_LAL_LYSOSOMAL_LIPID_CLEARANCE	t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	1	LIPA	0.8233808448942268	2.4894166348613256	0.012795292229459394	True	False
+LIPA_LAL_LYSOSOMAL_LIPID_CLEARANCE	t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	1	LIPA	0.3936415216361162	1.4501031452080855	0.14702975818058076	False	False
+LIPA_LAL_LYSOSOMAL_LIPID_CLEARANCE	t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	1	LIPA	0.6988909582464391	1.6026305836327535	0.10901623739456887	False	False
+FADS_DESATURATION_AXIS	ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	2	FADS2;FADS1	-0.5646467580400854	-1.3948855671350713	0.16305035008554614	False	False
+FADS_DESATURATION_AXIS	ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	2	FADS2;FADS1	-0.49186817361238044	-1.1869503933372034	0.23524718817795476	False	False
+FADS_DESATURATION_AXIS	ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	2	FADS2;FADS1	1.5451619226675504	3.2715252923618436	0.0010696901996207172	True	False
+FADS_DESATURATION_AXIS	ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	2	FADS2;FADS1	1.4030647206737923	1.8903554582946176	0.058710436279560727	False	False
+FADS_DESATURATION_AXIS	ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	2	FADS2;FADS1	0.7643397478607663	2.111409421216742	0.03473713598639588	True	False
+FADS_DESATURATION_AXIS	ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	2	FADS2;FADS1	1.1410125256544572	3.7668491586808153	0.00016532081722622828	True	False
+FADS_DESATURATION_AXIS	psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	2	FADS1;FADS2	0.7216651123969475	2.3207040506054843	0.020302821967090715	True	False
+FADS_DESATURATION_AXIS	psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	2	FADS1;FADS2	-0.20123987488609318	-0.2732537593589979	0.7846581577766185	False	False
+FADS_DESATURATION_AXIS	psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	2	FADS1;FADS2	0.9775402610272115	2.448442469315329	0.014347534074447953	True	False
+FADS_DESATURATION_AXIS	sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	2	FADS2;FADS1	-0.2426066102735809	-0.4066790116838003	0.6842437575869768	False	False
+FADS_DESATURATION_AXIS	sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	2	FADS2;FADS1	-0.165770545304299	-0.6260099550562658	0.5313084117116176	False	False
+FADS_DESATURATION_AXIS	sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	2	FADS2;FADS1	0.41574867590001174	1.0096957722803341	0.31264106860421326	False	False
+FADS_DESATURATION_AXIS	t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	2	FADS2;FADS1	-0.07091515808138295	-0.10947730933929904	0.9128239181058267	False	False
+FADS_DESATURATION_AXIS	t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	2	FADS2;FADS1	1.2345504009043624	2.288919192430995	0.02208404791724361	True	False
+FADS_DESATURATION_AXIS	t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	2	FADS2;FADS1	1.3000881760077334	2.3278522695889934	0.019919949462099133	True	False
+FADS_DESATURATION_AXIS	t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	2	FADS2;FADS1	0.9127574872421413	1.1542071694118774	0.24841524397199755	False	False
+FADS_DESATURATION_AXIS	t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	2	FADS2;FADS1	1.195745196660885	1.7802996666202013	0.07502693166899282	False	False
+SCD_MONOUNSATURATED_LIPID_AXIS	ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	1	SCD	-1.02736887093395	-1.3309450703365195	0.18320708572273015	False	False
+SCD_MONOUNSATURATED_LIPID_AXIS	ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	1	SCD	-2.8386545581094484	-2.4080861501829767	0.016036396328329195	False	True
+SCD_MONOUNSATURATED_LIPID_AXIS	ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	1	SCD	2.5513942659164974	3.1229048741024914	0.0017907561590653983	True	False
+SCD_MONOUNSATURATED_LIPID_AXIS	ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	1	SCD	2.8150104790978463	3.466037394938946	0.0005281898111806993	True	False
+SCD_MONOUNSATURATED_LIPID_AXIS	ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	1	SCD	0.3407537824589366	0.38087374252826417	0.7032969370368487	False	False
+SCD_MONOUNSATURATED_LIPID_AXIS	ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	1	SCD	1.4596200930350718	2.0427921555103943	0.04107301743759769	True	False
+SCD_MONOUNSATURATED_LIPID_AXIS	psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	1	SCD	0.828129404774812	1.0525939383668057	0.2925271365078579	False	False
+SCD_MONOUNSATURATED_LIPID_AXIS	psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	1	SCD	3.5155494075923612	3.7252150100891654	0.00019514881509240015	True	False
+SCD_MONOUNSATURATED_LIPID_AXIS	psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	1	SCD	1.589669979573331	1.5562917100376055	0.11963874182444585	False	False
+SCD_MONOUNSATURATED_LIPID_AXIS	sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	1	SCD	-0.7392772352043262	-0.7286985034234083	0.4661861084736596	False	False
+SCD_MONOUNSATURATED_LIPID_AXIS	sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	1	SCD	-0.5250371729137182	-0.8144291964329479	0.41539911840854626	False	False
+SCD_MONOUNSATURATED_LIPID_AXIS	sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	1	SCD	-0.0318462597044431	-0.05710770246341248	0.9544594007602352	False	False
+SCD_MONOUNSATURATED_LIPID_AXIS	t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	1	SCD	-0.0096665955145178	-0.01197995267050828	0.990441609361134	False	False
+SCD_MONOUNSATURATED_LIPID_AXIS	t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	1	SCD	0.844349231912533	1.0952483856074544	0.27340783308478744	False	False
+SCD_MONOUNSATURATED_LIPID_AXIS	t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	1	SCD	1.4587233641924855	1.173605183661651	0.24055320395765334	False	False
+SCD_MONOUNSATURATED_LIPID_AXIS	t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	1	SCD	1.843045019936791	1.0259833084097496	0.30489945191081635	False	False
+SCD_MONOUNSATURATED_LIPID_AXIS	t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	1	SCD	2.708526481506719	2.03872665311725	0.041477316136285865	True	False
+SQLE_STEROL_SYNTHESIS_AXIS	ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	1	SQLE	0.5844482954295511	1.7875419027790427	0.07384994588019649	False	False
+SQLE_STEROL_SYNTHESIS_AXIS	ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	1	SQLE	-0.7780146632625491	-0.9228320736281486	0.35609472347245663	False	False
+SQLE_STEROL_SYNTHESIS_AXIS	ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	1	SQLE	0.9410929674578652	1.666254223141951	0.09566279015664046	False	False
+SQLE_STEROL_SYNTHESIS_AXIS	ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	1	SQLE	0.1757679613238645	0.31254464326469833	0.754626640611085	False	False
+SQLE_STEROL_SYNTHESIS_AXIS	ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	1	SQLE	1.7135161781450532	3.247891723689437	0.0011626350443832993	True	False
+SQLE_STEROL_SYNTHESIS_AXIS	ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	1	SQLE	1.6456007928586422	3.590501531977481	0.0003300422904371998	True	False
+SQLE_STEROL_SYNTHESIS_AXIS	psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	1	SQLE	1.0143116101277858	1.3240401799443484	0.1854897007778663	False	False
+SQLE_STEROL_SYNTHESIS_AXIS	psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	1	SQLE	1.0057885816360894	1.6809149967973889	0.09277942658265659	False	False
+SQLE_STEROL_SYNTHESIS_AXIS	psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	1	SQLE	0.9484054533532746	2.2902534674554946	0.022006627576109106	True	False
+SQLE_STEROL_SYNTHESIS_AXIS	sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	1	SQLE	1.2485893787063849	1.6608717014434236	0.09673921680631484	False	False
+SQLE_STEROL_SYNTHESIS_AXIS	sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	1	SQLE	-0.7781044933475503	-1.2095396539535268	0.2264555862152876	False	False
+SQLE_STEROL_SYNTHESIS_AXIS	sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	1	SQLE	0.5231805258450342	1.103885881031415	0.2696426442468206	False	False
+SQLE_STEROL_SYNTHESIS_AXIS	t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	1	SQLE	0.0034932733430226	0.007791250839172562	0.9937835441396764	False	False
+SQLE_STEROL_SYNTHESIS_AXIS	t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	1	SQLE	0.0997860336971658	0.36358419295633854	0.716168532268727	False	False
+SQLE_STEROL_SYNTHESIS_AXIS	t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	1	SQLE	1.006257143432571	1.3299492887162483	0.183534980188925	False	False
+SQLE_STEROL_SYNTHESIS_AXIS	t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	1	SQLE	1.028215369796114	1.655088453987021	0.09790655660542265	False	False
+SQLE_STEROL_SYNTHESIS_AXIS	t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	1	SQLE	1.299211837451872	2.4023193746895832	0.016291477923949794	True	False
+AHR_BARRIER_IMMUNE_METABOLITE_AXIS	ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	1	AHR	0.2526498729507578	0.5891324181479586	0.5557724481017101	False	False
+AHR_BARRIER_IMMUNE_METABOLITE_AXIS	ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	1	AHR	-0.2291646138700471	-0.6433895635415451	0.5199713536720924	False	False
+AHR_BARRIER_IMMUNE_METABOLITE_AXIS	ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	1	AHR	1.0736935340386355	2.365319077111083	0.018014542825354623	True	False
+AHR_BARRIER_IMMUNE_METABOLITE_AXIS	ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	1	AHR	1.1099966409419344	2.4337270257033587	0.01494426053825049	True	False
+AHR_BARRIER_IMMUNE_METABOLITE_AXIS	ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	2	AHR;CYP1A1	0.45795991809972325	0.775391942851336	0.4381080946613547	False	False
+AHR_BARRIER_IMMUNE_METABOLITE_AXIS	ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	2	AHR;CYP1A1	0.0352618381439995	0.10437787811793114	0.9168694774825054	False	False
+AHR_BARRIER_IMMUNE_METABOLITE_AXIS	psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	2	AHR;CYP1A1	0.12976779139755107	0.03116893628904746	0.9751348131223999	False	False
+AHR_BARRIER_IMMUNE_METABOLITE_AXIS	psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	2	AHR;CYP1A1	0.08378781504254684	0.5096414990383132	0.6103026447022248	False	False
+AHR_BARRIER_IMMUNE_METABOLITE_AXIS	psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	2	AHR;CYP1A1	1.3951899916852373	2.4382369510133026	0.014759096046176161	True	False
+AHR_BARRIER_IMMUNE_METABOLITE_AXIS	sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	1	AHR	0.3495380872227889	0.5282645514727897	0.59731573169425	False	False
+AHR_BARRIER_IMMUNE_METABOLITE_AXIS	sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	1	AHR	0.0075033040611991	0.01359904123345148	0.9891498693853406	False	False
+AHR_BARRIER_IMMUNE_METABOLITE_AXIS	sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	2	AHR;CYP1A1	-0.2573588010019226	-0.9708622520433285	0.3316168777615288	False	False
+AHR_BARRIER_IMMUNE_METABOLITE_AXIS	t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	2	CYP1A1;AHR	0.14102192635907046	-0.6897043193692002	0.4903801490165668	False	False
+AHR_BARRIER_IMMUNE_METABOLITE_AXIS	t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	2	CYP1A1;AHR	-0.347516515476158	0.35073923118351297	0.7257839907307883	False	False
+AHR_BARRIER_IMMUNE_METABOLITE_AXIS	t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	2	CYP1A1;AHR	-0.4591092700475389	-0.7871152794990436	0.4312143856785121	False	False
+AHR_BARRIER_IMMUNE_METABOLITE_AXIS	t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	2	CYP1A1;AHR	0.37648928019824757	0.8364600810238507	0.4028961249615165	False	False
+AHR_BARRIER_IMMUNE_METABOLITE_AXIS	t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	2	CYP1A1;AHR	0.3565397296658315	0.8971545326342737	0.3696364630600705	False	False
+PTGER4_PROSTAGLANDIN_E2_AXIS	ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	2	PTGS2;PTGER4	0.868919285119131	2.183575969773587	0.028993420938822536	True	False
+PTGER4_PROSTAGLANDIN_E2_AXIS	ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	2	PTGS2;PTGER4	0.5946945810415416	1.5016406098820998	0.13318994951910584	False	False
+PTGER4_PROSTAGLANDIN_E2_AXIS	ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	2	PTGS2;PTGER4	0.3968204100554614	1.7824418356497422	0.07467720834244251	False	False
+PTGER4_PROSTAGLANDIN_E2_AXIS	ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	2	PTGS2;PTGER4	-0.17855407026464482	-0.08259953159382656	0.9341699737378713	False	False
+PTGER4_PROSTAGLANDIN_E2_AXIS	ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	2	PTGS2;PTGER4	-1.1177979829797837	-1.2962134258478093	0.1949019653081996	False	False
+PTGER4_PROSTAGLANDIN_E2_AXIS	ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	2	PTGS2;PTGER4	-1.0882990869798148	-2.543037626251771	0.010989339455852133	False	True
+PTGER4_PROSTAGLANDIN_E2_AXIS	psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	2	PTGS2;PTGER4	0.15500954529725508	0.004222027301985464	0.9966313196085375	False	False
+PTGER4_PROSTAGLANDIN_E2_AXIS	psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	2	PTGS2;PTGER4	-1.424444055395055	-2.31694629930723	0.0205066572284152	False	True
+PTGER4_PROSTAGLANDIN_E2_AXIS	psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	2	PTGS2;PTGER4	-0.5221110763489185	-0.8892581658029177	0.3738643489979969	False	False
+PTGER4_PROSTAGLANDIN_E2_AXIS	sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	2	PTGS2;PTGER4	0.0390573895698938	0.13085358187142113	0.8958911351530049	False	False
+PTGER4_PROSTAGLANDIN_E2_AXIS	sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	2	PTGS2;PTGER4	-0.05008621589903195	-0.19224761328089118	0.847548251419848	False	False
+PTGER4_PROSTAGLANDIN_E2_AXIS	sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	2	PTGS2;PTGER4	0.4581483897883074	1.1550115616720122	0.2480856919250638	False	False
+PTGER4_PROSTAGLANDIN_E2_AXIS	t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	2	PTGER4;PTGS2	0.09148210626813086	0.4547521602664575	0.6492875508355025	False	False
+PTGER4_PROSTAGLANDIN_E2_AXIS	t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	2	PTGER4;PTGS2	0.8030610579505294	3.0658521470592537	0.002170506166840565	True	False
+PTGER4_PROSTAGLANDIN_E2_AXIS	t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	2	PTGER4;PTGS2	-0.02115431715727814	0.05352873020491504	0.9573106400643567	False	False
+PTGER4_PROSTAGLANDIN_E2_AXIS	t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	2	PTGER4;PTGS2	0.45855614343976736	0.9918331410519368	0.3212789280996202	False	False
+PTGER4_PROSTAGLANDIN_E2_AXIS	t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	2	PTGER4;PTGS2	0.7931157271300223	1.4605310263195195	0.14414418690075328	False	False
+NAMPT_HIF_METABOLIC_STRESS	ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	2	NAMPT;HIF1A	1.4548864318289154	3.1261387514021286	0.0017711796313087636	True	False
+NAMPT_HIF_METABOLIC_STRESS	ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	2	NAMPT;HIF1A	1.4520746298380716	3.0464743594495927	0.0023154222639701276	True	False
+NAMPT_HIF_METABOLIC_STRESS	ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	2	NAMPT;HIF1A	1.1449192249917561	5.303347132544767	1.1369841928684784e-07	True	False
+NAMPT_HIF_METABOLIC_STRESS	ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	2	NAMPT;HIF1A	1.4015623061614217	4.358260643026834	1.3110019743401612e-05	True	False
+NAMPT_HIF_METABOLIC_STRESS	ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	2	NAMPT;HIF1A	1.0457036966385957	2.8484392075465674	0.0043934246129884	True	False
+NAMPT_HIF_METABOLIC_STRESS	ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	2	NAMPT;HIF1A	1.024217122416838	2.8851799437588457	0.00391189996444567	True	False
+NAMPT_HIF_METABOLIC_STRESS	psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	2	NAMPT;HIF1A	0.44485358611655945	1.2347665317351895	0.21691740661048065	False	False
+NAMPT_HIF_METABOLIC_STRESS	psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	2	NAMPT;HIF1A	0.7912805976196928	2.30984681051281	0.020896636674783056	True	False
+NAMPT_HIF_METABOLIC_STRESS	psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	2	NAMPT;HIF1A	0.2700971082669139	0.394753051825732	0.6930251459977377	False	False
+NAMPT_HIF_METABOLIC_STRESS	sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	2	NAMPT;HIF1A	-0.09991727888847861	-0.2661573080380167	0.7901180606965784	False	False
+NAMPT_HIF_METABOLIC_STRESS	sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	2	NAMPT;HIF1A	-0.1370201948672576	-0.8916137982105845	0.3725999717458822	False	False
+NAMPT_HIF_METABOLIC_STRESS	sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	2	NAMPT;HIF1A	-0.07824604498752795	-0.5033807250634895	0.6146966206297003	False	False
+NAMPT_HIF_METABOLIC_STRESS	t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	2	NAMPT;HIF1A	0.1140926814512304	0.2175068610610487	0.8278133606321735	False	False
+NAMPT_HIF_METABOLIC_STRESS	t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	2	NAMPT;HIF1A	0.4418189995780759	1.7938578637837745	0.0728358583720734	False	False
+NAMPT_HIF_METABOLIC_STRESS	t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	2	NAMPT;HIF1A	0.7674184544589884	2.3305533705011827	0.019776922691705327	True	False
+NAMPT_HIF_METABOLIC_STRESS	t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	2	NAMPT;HIF1A	0.5203090974985463	2.2438914169764272	0.024839388527236602	True	False
+NAMPT_HIF_METABOLIC_STRESS	t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	2	NAMPT;HIF1A	0.2982639547772847	1.9649078970458478	0.04942489856029272	True	False

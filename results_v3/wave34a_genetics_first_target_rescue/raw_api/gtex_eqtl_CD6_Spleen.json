@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr11",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000013725.14",
+        "geneSymbol": "CD6",
+        "geneSymbolUpper": "CD6",
+        "nes": 0.303537,
+        "ontologyId": "UBERON:0002106",
+        "pValue": 4.07797e-07,
+        "pos": 60993140,
+        "snpId": "rs17824933",
+        "snpIdUpper": "RS17824933",
+        "tissueSiteDetailId": "Spleen",
+        "variantId": "chr11_60993140_C_G_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 22,
+      "page": 0,
+      "totalNumberOfItems": 22
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000013725.14&tissueSiteDetailId=Spleen&datasetId=gtex_v8&itemsPerPage=1"
+}

@@ -1,0 +1,299 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P97808",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11756660",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "18263667",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Associates with and regulates the activity of the sodium/potassium-transporting ATPase (NKA) which catalyzes the hydrolysis of ATP coupled with the exchange of Na(+) and K(+) ions across the plasma membrane (By similarity). May increase NKA activity by increasing the apparent affinity for Na(+) (PubMed:18263667). Involved in down-regulation of E-cadherin which results in reduced cell adhesion. Promotes metastasis (PubMed:11756660)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P97808",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "value": "In kidneys localizes to the basolateral membrane of the connecting tubule"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "11756660",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P97808",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-9905",
+                "value": "Single-pass type I membrane protein"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P97808",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0026",
+                "value": "Basolateral cell membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P97808",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-9905",
+                "value": "Single-pass type I membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000048F47"
+      },
+      "features": [
+        {
+          "description": "Extracellular",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 145
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 22
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 164
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 146
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 178
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 165
+            }
+          },
+          "type": "Topological domain"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "FXYD5"
+          },
+          "orfNames": [
+            {
+              "value": "HSPC113"
+            },
+            {
+              "value": "UNQ2561/PRO6241"
+            }
+          ],
+          "synonyms": [
+            {
+              "value": "DYSAD"
+            },
+            {
+              "value": "IWU1"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-1003",
+          "name": "Cell membrane"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0325",
+          "name": "Glycoprotein"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0406",
+          "name": "Ion transport"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0630",
+          "name": "Potassium"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0633",
+          "name": "Potassium transport"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0732",
+          "name": "Signal"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0915",
+          "name": "Sodium"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0739",
+          "name": "Sodium transport"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0740",
+          "name": "Sodium/potassium transport"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0813",
+          "name": "Transport"
+        }
+      ],
+      "primaryAccession": "Q96DB9",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "11756660",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Dysadherin"
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "FXYD domain-containing ion transport regulator 5"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "7429C04838B75AA1",
+        "length": 178,
+        "md5": "9B27F250A798375F8270BB3DB38E0605",
+        "molWeight": 19472,
+        "value": "MSPSGRLCLLTIVGLILPTRGQTLKDTTSSSSADSTIMDIQVPTRAPDAVYTELQPTSPTPTWPADETPQPQTQTQQLEGTDGPLVTDPETHKSTKAAHPTDDTTTLSERPSPSTDVQTDPQTLKPSGFHEDDPFFYDEHTLRKRGLLVAAVLFITGIIILTSGKCRQLSRLCRNRCR"
+      },
+      "uniProtkbId": "FXYD5_HUMAN"
+    }
+  ]
+}

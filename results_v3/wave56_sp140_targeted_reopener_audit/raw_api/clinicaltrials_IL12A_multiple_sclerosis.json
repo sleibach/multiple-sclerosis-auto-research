@@ -1,0 +1,1285 @@
+{
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D020278",
+              "term": "Demyelinating Autoimmune Diseases, CNS"
+            },
+            {
+              "id": "D020274",
+              "term": "Autoimmune Diseases of the Nervous System"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D003711",
+              "term": "Demyelinating Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D009103",
+              "term": "Multiple Sclerosis"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D001781",
+              "term": "Blood Component Removal"
+            },
+            {
+              "id": "D013812",
+              "term": "Therapeutics"
+            },
+            {
+              "id": "D016060",
+              "term": "Sorption Detoxification"
+            },
+            {
+              "id": "D005112",
+              "term": "Extracorporeal Circulation"
+            },
+            {
+              "id": "D013514",
+              "term": "Surgical Procedures, Operative"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D010956",
+              "term": "Plasmapheresis"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Immunoadsorption on 5 consecutive days with protein A columns and 2,5-fold patient's plasma volume",
+              "interventionNames": [
+                "Procedure: Immunoadsorption"
+              ],
+              "label": "Immunoadsorption",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Plasmapheresis on 5 consecutive days with 2l plasma exchange",
+              "interventionNames": [
+                "Procedure: Plasmapheresis"
+              ],
+              "label": "Plasmapheresis",
+              "type": "ACTIVE_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Immunoadsorption"
+              ],
+              "name": "Immunoadsorption",
+              "type": "PROCEDURE"
+            },
+            {
+              "armGroupLabels": [
+                "Plasmapheresis"
+              ],
+              "name": "Plasmapheresis",
+              "type": "PROCEDURE"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Multiple Sclerosis",
+            "Clinically Isolated Syndrome"
+          ],
+          "keywords": [
+            "Immunoadsorption",
+            "Plasmapheresis"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Ulm",
+              "country": "Germany",
+              "facility": "Department of Neurology, University of Ulm",
+              "geoPoint": {
+                "lat": 48.39841,
+                "lon": 9.99155
+              },
+              "state": "Baden-Wurttemberg",
+              "zip": "89081"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "This observational study investigates the efficacy and safety of immunoadsorption versus plasmapheresis in 60 patients with relapse in Multiple Sclerosis and Clinically isolated syndrome who do not fully recover after a high doses of intravenous corticosteroids."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 61,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* relapse of Multiple Sclerosis or Clinically Isolated Syndrome (without complete remission after high dose steroid therapy)\n* informed consent\n* age \u2265 12 years old\n\nExclusion Criteria:\n\n* clinical or laboratory signs of infection\n* intake of Angiotensin Converting Enzyme Inhibitor within 1 week prior to first treatment",
+          "healthyVolunteers": false,
+          "maximumAge": "80 Years",
+          "minimumAge": "12 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Immunoadsorption vs. Plasmapheresis in the Escalation Therapy of Relapse in Multiple Sclerosis",
+          "nctId": "NCT02671682",
+          "officialTitle": "Immunoadsorption vs. Plasmapheresis in the Escalation Therapy of Relapse in Multiple Sclerosis and Clinically Isolated Syndrome",
+          "orgStudyIdInfo": {
+            "id": "IAPEMS"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "University of Ulm"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "measure": "Multiple Sclerosis Functional Composite (MSFC)",
+              "timeFrame": "4 weeks"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "measure": "Expanded Disability Status Scale (EDSS)",
+              "timeFrame": "2 and 4 weeks"
+            },
+            {
+              "measure": "EuroQol (EQ5D-5L)",
+              "timeFrame": "2 and 4 weeks"
+            },
+            {
+              "description": "defined as share of patients who show an improvement of least 10% in MSFC (see Outcome 1) compared to baseline value",
+              "measure": "Response Rate",
+              "timeFrame": "4 weeks"
+            },
+            {
+              "description": "defined as percentage of normal vision as measured by visual test according to EDSS standardized testing (see outcome 2)",
+              "measure": "Vision",
+              "timeFrame": "4 weeks"
+            },
+            {
+              "measure": "Visually Evoked Potentials (VEP; P100 latency)",
+              "timeFrame": "4 weeks"
+            },
+            {
+              "measure": "Somatosensory Evoked Potentials (SEP; Medianus and Tibialis; N20-, P40-latency)",
+              "timeFrame": "4 weeks"
+            },
+            {
+              "measure": "Thickness of Retinal Nerve Fiber Layer (RNFL) in Optical Coherence Tomography (OCT)",
+              "timeFrame": "4 weeks"
+            },
+            {
+              "measure": "Verbaler Lern- und Merkf\u00e4higkeitstest (VLMT) score",
+              "timeFrame": "4 weeks"
+            },
+            {
+              "measure": "MSFC",
+              "timeFrame": "2 weeks"
+            },
+            {
+              "measure": "Thickness of Ganglion Cell Layer (GCL) in OCT",
+              "timeFrame": "4 weeks"
+            },
+            {
+              "measure": "Symbol Digit Modalities Test (SDMT) score",
+              "timeFrame": "4 weeks"
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": false
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Vardakas I, Dorst J, Huss A, Mayer B, Fangerau T, Taranu D, Tumani H, Senel M. Serum neurofilament light chain and glial fibrillary acidic protein for predicting response to apheresis in steroid-refractory multiple sclerosis relapses. Eur J Neurol. 2024 Aug;31(8):e16323. doi: 10.1111/ene.16323. Epub 2024 May 3.",
+              "pmid": "38700322",
+              "type": "DERIVED"
+            },
+            {
+              "citation": "Dorst J, Fangerau T, Taranu D, Eichele P, Dreyhaupt J, Michels S, Schuster J, Ludolph AC, Senel M, Tumani H. Safety and efficacy of immunoadsorption versus plasma exchange in steroid-refractory relapse of multiple sclerosis and clinically isolated syndrome: A randomised, parallel-group, controlled trial. EClinicalMedicine. 2019 Nov 14;16:98-106. doi: 10.1016/j.eclinm.2019.10.017. eCollection 2019 Nov.",
+              "pmid": "31832624",
+              "type": "DERIVED"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Albert Christian Ludolph, Prof."
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "University of Ulm",
+            "investigatorFullName": "Albert Christian Ludolph, Prof.",
+            "investigatorTitle": "Prof. Dr.",
+            "type": "SPONSOR_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2019-01-25",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2019-09-11",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2019-09-10",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2019-01-03",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2016-02-26",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2019-09",
+          "studyFirstPostDateStruct": {
+            "date": "2016-02-02",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2016-01-22",
+          "studyFirstSubmitQcDate": "2016-01-29"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D020278",
+              "term": "Demyelinating Autoimmune Diseases, CNS"
+            },
+            {
+              "id": "D020274",
+              "term": "Autoimmune Diseases of the Nervous System"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D003711",
+              "term": "Demyelinating Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D009103",
+              "term": "Multiple Sclerosis"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "From the MS functional outcome database, identification of a cohort of patients with RMS experiencing progression independent of relapse (PIRA)",
+              "interventionNames": [
+                "Device: Visual Evoked Potential (VEP)",
+                "Device: Somatosensory evoked potential (SSEP)",
+                "Device: Transcranial magnetic motor evoked potentials (TCmMEP)",
+                "Device: Tesla Brain MRI",
+                "Diagnostic Test: Blood test - Neurofilament light chain (NfL)",
+                "Diagnostic Test: Blood test - EBV serology"
+              ],
+              "label": "PIRA",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "From the MS functional outcome database, identification of a cohort of patients with RMS not experiencing progression independent of relapse (N-PIRA)",
+              "interventionNames": [
+                "Device: Visual Evoked Potential (VEP)",
+                "Device: Somatosensory evoked potential (SSEP)",
+                "Device: Transcranial magnetic motor evoked potentials (TCmMEP)",
+                "Device: Tesla Brain MRI",
+                "Diagnostic Test: Blood test - Neurofilament light chain (NfL)",
+                "Diagnostic Test: Blood test - EBV serology"
+              ],
+              "label": "N-PIRA",
+              "type": "ACTIVE_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "N-PIRA",
+                "PIRA"
+              ],
+              "description": "To assess the integrity of visual pathways through the optic nerves to the visual cortex, latencies and amplitudes of P100 will be measured after pattern-reversal stimuli.",
+              "name": "Visual Evoked Potential (VEP)",
+              "type": "DEVICE"
+            },
+            {
+              "armGroupLabels": [
+                "N-PIRA",
+                "PIRA"
+              ],
+              "description": "To assess the integrity of sensitive pathways through the peripheral nerves and dorsal spinal cord to the somatosensory cortex. For the upper limbs, latencies and amplitudes of N9, N13, P14, N20 and P25 will be measured after median nerve stimulation. For the lower limbs, latency and amplitude of P40 will be measured after tibial nerve stimulation.",
+              "name": "Somatosensory evoked potential (SSEP)",
+              "type": "DEVICE"
+            },
+            {
+              "armGroupLabels": [
+                "N-PIRA",
+                "PIRA"
+              ],
+              "description": "To measure the integrity of motor pathways, the central conduction times will be measured for upper and lower limbs through magnetic stimulations of the primary motor cortex and the spinal cord, at cervical and lumbar levels.",
+              "name": "Transcranial magnetic motor evoked potentials (TCmMEP)",
+              "type": "DEVICE"
+            },
+            {
+              "armGroupLabels": [
+                "N-PIRA",
+                "PIRA"
+              ],
+              "description": "All patients will undergo a single brain MRI on a 3T scanner. The acquisition protocol will include high-resolution three-dimensional (3D) T2\\*-weighted echo-planar imaging and 3D T2-FLAIR images acquired, respectively, during or after intravenous injection of a single dose (0.1mmol/kg) of gadolinium-based contrast material.",
+              "name": "Tesla Brain MRI",
+              "type": "DEVICE"
+            },
+            {
+              "armGroupLabels": [
+                "N-PIRA",
+                "PIRA"
+              ],
+              "description": "\\- Neurofilament light chain (NfL) will be tested (Quanterix's Simoa\u00ae Technology) in the serum of patients. To evaluate their variation over time, 3 time-point tests will be obtained at 6 months apart (at baseline, at 6- and 12-month follow-up).",
+              "name": "Blood test - Neurofilament light chain (NfL)",
+              "type": "DIAGNOSTIC_TEST"
+            },
+            {
+              "armGroupLabels": [
+                "N-PIRA",
+                "PIRA"
+              ],
+              "description": "EBV serology will be assessed (VCA IgG) in the serum of patients to evaluate the variation of antibody titers over time (at baseline, at 6- and 12-month follow-up), and compare to titers at the time of diagnosis (when available in their medical record).",
+              "name": "Blood test - EBV serology",
+              "type": "DIAGNOSTIC_TEST"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Multiple Sclerosis"
+          ]
+        },
+        "contactsLocationsModule": {
+          "centralContacts": [
+            {
+              "email": "Vito.TOTA@chu-brugmann.be",
+              "name": "Vito Tota",
+              "phone": "3224772446",
+              "role": "CONTACT"
+            }
+          ],
+          "locations": [
+            {
+              "city": "Brussels",
+              "contacts": [
+                {
+                  "email": "Bernard.DACHY@chu-brugmann.be",
+                  "name": "Bernard Dachy, MD",
+                  "phone": "32 2 4772446",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "Belgium",
+              "facility": "CHU Brugmann",
+              "geoPoint": {
+                "lat": 50.85045,
+                "lon": 4.34878
+              },
+              "status": "RECRUITING",
+              "zip": "1020"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Multiple sclerosis (MS) is a chronic inflammatory and degenerative disease of the central nervous system (CNS), characterized by a complex interplay of inflammatory demyelination and neuronal damage. The core MS phenotypes defined by clinical course are the relapsing and the progressive forms.Relapsing MS (RMS) is characterized by attacks - also called relapses - defined as new or increasing neurologic dysfunction, followed by periods of partial or complete recovery, without apparent progression of the disease during the periods of remission. In contrast, progressive MS (PMS) is characterized by progressive worsening of neurologic function leading to accumulation of disability over time independent of relapses. Additional descriptors (\"active/not-active\") serve to better characterize the presence of clinical and/or radiological activity both in relapsing and progressive forms.\n\nIn recent years, the concept of a silent progression, also known as smouldering MS, is making its way into the common lexicon of MS experts, challenging the current definitions of MS phenotypes. A growing body of literature suggests that the line between RMS and PMS is not as marked as men thought, and that inflammation and neurodegeneration can represent a single disease continuum coexisting early on in the disease course. Whilst it is established that relapse-associated worsening (RAW) can be accounted for by an acute inflammatory focal damage leading to axonal transection and conduction block, the physiopathology underlying the progression independent of relapse activity (PIRA) remains unclear.\n\nIt is becoming apparent that there is an increasing need for a personalized therapeutic approach by considering the individual MS phenotype of each patient, thereby enabling the choice of the molecule best suited to counteract the predominant disease pattern of that individual patient.\n\nThere is a limited number of studies combining clinical scores, neurophysiological evaluation and neuroimaging in patients with MS experiencing PIRA. Integrating a multimodal exploration of these patients might allow a step forward in the early recognition, management, and treatment of disability accumulation independent from relapses in patients with MS."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "NON_RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "DIAGNOSTIC"
+          },
+          "enrollmentInfo": {
+            "count": 60,
+            "type": "ESTIMATED"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients \u2265 18-year-old with diagnosis of RMS according to 2017 McDonald diagnostic criteria\n2. Availability in the functional outcome database of at least 3 time-point complete evaluations with a time frame from the first to the last evaluation of minimum 12 months\n3. Most recent functional outcome evaluation within 12 months of enrollment\n4. Availability of follow-up MRI data during the observational period\n\nExclusion Criteria:\n\na) Contraindication to one or more of the paraclinical tests of the prospective multimodal evaluation",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Multimodal Exploration of Patients With Multiple Sclerosis for an Early Detection of Subtle Progression",
+          "nctId": "NCT05941975",
+          "officialTitle": "Multimodal Exploration of Patients With Multiple Sclerosis for an Early Detection of Subtle Progression",
+          "orgStudyIdInfo": {
+            "id": "CHUB-PIRA"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Brugmann University Hospital"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "To assess the integrity of visual pathways through the optic nerves to the visual cortex.",
+              "measure": "Visual Evoked Potential (VEP)",
+              "timeFrame": "Change from baseline to 12 months"
+            },
+            {
+              "description": "To assess the integrity of sensitive pathways through the peripheral nerves and dorsal spinal cord to the somatosensory cortex.",
+              "measure": "Somatosensory evoked potential (SSEP)",
+              "timeFrame": "Change from baseline to 12 months"
+            },
+            {
+              "description": "To measure the integrity of motor pathways.",
+              "measure": "Transcranial magnetic motor evoked potentials (TCmMEP)",
+              "timeFrame": "Change from baseline to 12 months"
+            },
+            {
+              "description": "Tesla Brain MRI (descriptive outcome)",
+              "measure": "Tesla Brain MRI",
+              "timeFrame": "Baseline"
+            },
+            {
+              "description": "Neurofilament light chain (NfL) serum levels",
+              "measure": "Neurofilament light chain (NfL) serum levels",
+              "timeFrame": "Baseline"
+            },
+            {
+              "description": "Neurofilament light chain (NfL) serum levels",
+              "measure": "Neurofilament light chain (NfL) serum levels",
+              "timeFrame": "6 months after baseline"
+            },
+            {
+              "description": "Neurofilament light chain (NfL) serum levels",
+              "measure": "Neurofilament light chain (NfL) serum levels",
+              "timeFrame": "12 months after baseline"
+            },
+            {
+              "description": "EBV serology will be assessed (VCA IgG) in the serum of patients to evaluate the variation of antibody titers over time (at baseline, at 6- and 12-month follow-up), and compare to titers at the time of diagnosis (when available in their medical record).",
+              "measure": "Epstein-Barr virus (EBV) serology (VCA IgG)",
+              "timeFrame": "Baseline"
+            },
+            {
+              "description": "EBV serology will be assessed (VCA IgG) in the serum of patients to evaluate the variation of antibody titers over time (at baseline, at 6- and 12-month follow-up), and compare to titers at the time of diagnosis (when available in their medical record).",
+              "measure": "Epstein-Barr virus (EBV) serology (VCA IgG)",
+              "timeFrame": "6 months after baseline"
+            },
+            {
+              "description": "EBV serology will be assessed (VCA IgG) in the serum of patients to evaluate the variation of antibody titers over time (at baseline, at 6- and 12-month follow-up), and compare to titers at the time of diagnosis (when available in their medical record).",
+              "measure": "Epstein-Barr virus (EBV) serology (VCA IgG)",
+              "timeFrame": "12 months after baseline"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": false
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Brugmann University Hospital"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Brugmann University Hospital",
+            "investigatorFullName": "Bernard Dachy",
+            "investigatorTitle": "Head of neurology department",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2025-12-31",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastKnownStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2023-07-12",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2023-07-04",
+          "overallStatus": "UNKNOWN",
+          "primaryCompletionDateStruct": {
+            "date": "2025-12-31",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2023-02-14",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2023-07",
+          "studyFirstPostDateStruct": {
+            "date": "2023-07-12",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2023-05-15",
+          "studyFirstSubmitQcDate": "2023-07-04"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D009103",
+              "term": "Multiple Sclerosis"
+            },
+            {
+              "id": "D020278",
+              "term": "Demyelinating Autoimmune Diseases, CNS"
+            },
+            {
+              "id": "D020274",
+              "term": "Autoimmune Diseases of the Nervous System"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D003711",
+              "term": "Demyelinating Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D020529",
+              "term": "Multiple Sclerosis, Relapsing-Remitting"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D001781",
+              "term": "Blood Component Removal"
+            },
+            {
+              "id": "D013812",
+              "term": "Therapeutics"
+            },
+            {
+              "id": "D016060",
+              "term": "Sorption Detoxification"
+            },
+            {
+              "id": "D005112",
+              "term": "Extracorporeal Circulation"
+            },
+            {
+              "id": "D013514",
+              "term": "Surgical Procedures, Operative"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "C025429",
+              "term": "methyl prednisolonate"
+            },
+            {
+              "id": "D010956",
+              "term": "Plasmapheresis"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Patients receiving an additional course of intravenous methyl prednisolone for treatment of a steroid-refractory MS relapse",
+              "interventionNames": [
+                "Drug: Methyl Prednisolonate"
+              ],
+              "label": "Intravenous methyl prednisolone"
+            },
+            {
+              "description": "Patients receiving 6 courses of immunadsorption treatment for treatment of a steroid-refractory MS relapse",
+              "interventionNames": [
+                "Procedure: Immunoadsorption"
+              ],
+              "label": "Immunoadsorption"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Intravenous methyl prednisolone"
+              ],
+              "description": "2000mg intravenous methyl prednisolone per day for five consecutive days",
+              "name": "Methyl Prednisolonate",
+              "type": "DRUG"
+            },
+            {
+              "armGroupLabels": [
+                "Immunoadsorption"
+              ],
+              "description": "6 courses of tryptophane-based immunoadsorption within up to 12 days",
+              "name": "Immunoadsorption",
+              "type": "PROCEDURE"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Multiple Sclerosis, Relapsing-Remitting"
+          ],
+          "keywords": [
+            "immunoadsorption",
+            "intravenous methyl prednisolone"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "M\u00fcnster",
+              "country": "Germany",
+              "facility": "Department of Neurology with Institute of Translational Neurology, University Hospital Muenster",
+              "geoPoint": {
+                "lat": 51.96236,
+                "lon": 7.62571
+              },
+              "state": "North Rhine-Westphalia",
+              "zip": "48149"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "University Hospital Muenster, Department of Neurology",
+              "name": "Sven G Meuth, Prof Dr",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Treatment of acute relapsing multiple sclerosis (MS) has remained largely unaltered within past years. However, evidence defining the exact role of apheresis treatment in the therapeutic sequence is still incomplete. INCIDENT-MS evaluates the mechanism of action of immunoadsorption compared to escalated methyl prednisolone treatment in steroid-refractory MS relapses and thereby will help to identify predictive markers for optimal treatment choice and will generate further insights into the pathophysiology of MS relapses."
+        },
+        "designModule": {
+          "designInfo": {
+            "observationalModel": "COHORT",
+            "timePerspective": "PROSPECTIVE"
+          },
+          "enrollmentInfo": {
+            "count": 204,
+            "type": "ESTIMATED"
+          },
+          "patientRegistry": false,
+          "studyType": "OBSERVATIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Signed informed consent form\n* Diagnosis of relapsing-remitting multiple sclerosis according to 2017 revised McDonald-criteria\n* Incomplete remission of relapse symptoms following initiation treatment with 1000mg/d intravenous methyl prednisolone\n* Absence of fever or clinically apparent signs of infection\n\nExclusion Criteria:\n\n* Baseline EDSS score \\>6.5 points\n* Previous administration of less than 3x1000mg or more than 5x1000mg IVMPS for initiation treatment\n* Known pregnancy or rejection to perform a pregnancy test (female patients only)\n* Immunosuppressive treatment for conditions other than multiple sclerosis\n* Ongoing neoplastic disorder or past neoplastic disorder within previous five years\n* Known or newly diagnosed HIV-, HBV- or HCV-infection\n* Regular intake of ACE inhibitor drugs\n* Known bleeding disorders (including laboratory abnormalities such as: (I) platelet count\\<50.000/\u00b5L; (II) international normalized ratio\\>1.5, (III) activated prothrombin time\\>50s) or intake of oral anticoagulant drugs",
+          "healthyVolunteers": false,
+          "maximumAge": "65 Years",
+          "minimumAge": "18 Years",
+          "samplingMethod": "PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Patients with acute relapsing multiple sclerosis that were refractory to a first course of intravenous methyl prednisolone (1000mg per day for three to five consecutive days)"
+        },
+        "identificationModule": {
+          "acronym": "INCIDENT-MS",
+          "briefTitle": "Immunoadsorption Versus High-dose Intravenous Corticosteroids in Relapsing Multiple Sclerosis",
+          "nctId": "NCT04450030",
+          "officialTitle": "Immunoadsorption Versus High-dose Intravenous Corticosteroids in Relapsing Multiple Sclerosis - Assessment of Mechanism of Action",
+          "orgStudyIdInfo": {
+            "id": "INCIDENTMS2018"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "University Hospital Muenster"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Improvement of disability compared to peak relapse EDSS following escalation treatment compared to peark relapse values",
+              "measure": "Expanded disability status scale (EDSS)",
+              "timeFrame": "2 weeks"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Evolution of VEP P100-latency compared to peak relapse values",
+              "measure": "visual-evoked potentials (VEP; P100-latency)",
+              "timeFrame": "2 weeks; 6 to 8 weeks"
+            },
+            {
+              "description": "Evolution of SEP N20-/P40-latency compared to peak relapse values",
+              "measure": "somatosensory-evoked potentials (SEP; Medianus and Tibialis; N20-, P40-latency)",
+              "timeFrame": "2 weeks; 6 to 8 weeks"
+            },
+            {
+              "description": "Evolution of bcVA compared to peak relapse values",
+              "measure": "best-corrected visual acuity (bcVA)",
+              "timeFrame": "2 weeks; 6 to 8 weeks"
+            },
+            {
+              "description": "Confirmation of improvement of disability compared to primary endpoint",
+              "measure": "Expanded disability status scale (EDSS)",
+              "timeFrame": "6 to 8 weeks"
+            },
+            {
+              "description": "Development of MSFC z-score compared to peak relapse values",
+              "measure": "Multiple scleroris functional compositie (MSFC)",
+              "timeFrame": "2 weeks, 6 to 8 weeks"
+            },
+            {
+              "description": "Development of quality-of-life compared to peak relapse values",
+              "measure": "Short form-36 questionaire (SF-36)",
+              "timeFrame": "6 to 8 weeks"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": true,
+          "isUsExport": false,
+          "oversightHasDmc": false
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Pfeuffer S, Rolfes L, Wirth T, Steffen F, Pawlitzki M, Schulte-Mecklenbeck A, Gross CC, Brand M, Bittner S, Ruck T, Klotz L, Wiendl H, Meuth SG. Immunoadsorption versus double-dose methylprednisolone in refractory multiple sclerosis relapses. J Neuroinflammation. 2022 Sep 7;19(1):220. doi: 10.1186/s12974-022-02583-y.",
+              "pmid": "36071461",
+              "type": "DERIVED"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "University Hospital Muenster"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2020-12-31",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2020-11-12",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2020-11-10",
+          "overallStatus": "UNKNOWN",
+          "primaryCompletionDateStruct": {
+            "date": "2020-09-05",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2018-08-01",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2020-06",
+          "studyFirstPostDateStruct": {
+            "date": "2020-06-29",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2020-06-24",
+          "studyFirstSubmitQcDate": "2020-06-24"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D020278",
+              "term": "Demyelinating Autoimmune Diseases, CNS"
+            },
+            {
+              "id": "D020274",
+              "term": "Autoimmune Diseases of the Nervous System"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D003711",
+              "term": "Demyelinating Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            },
+            {
+              "id": "D002908",
+              "term": "Chronic Disease"
+            },
+            {
+              "id": "D020969",
+              "term": "Disease Attributes"
+            },
+            {
+              "id": "D010335",
+              "term": "Pathologic Processes"
+            },
+            {
+              "id": "D013568",
+              "term": "Pathological Conditions, Signs and Symptoms"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D020528",
+              "term": "Multiple Sclerosis, Chronic Progressive"
+            },
+            {
+              "id": "D009103",
+              "term": "Multiple Sclerosis"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D002712",
+              "term": "Chlorides"
+            },
+            {
+              "id": "D006851",
+              "term": "Hydrochloric Acid"
+            },
+            {
+              "id": "D017606",
+              "term": "Chlorine Compounds"
+            },
+            {
+              "id": "D007287",
+              "term": "Inorganic Chemicals"
+            },
+            {
+              "id": "D017670",
+              "term": "Sodium Compounds"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "C000605233",
+              "term": "MIS416 vaccine"
+            },
+            {
+              "id": "D012965",
+              "term": "Sodium Chloride"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "500 mcg MIS416 500 at 0.2 mg/mL administered i.v. once weekly for 52 weeks",
+              "interventionNames": [
+                "Biological: MIS416"
+              ],
+              "label": "Treatment",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Saline administered i.v. once weekly for 52 weeks",
+              "interventionNames": [
+                "Drug: Saline"
+              ],
+              "label": "Saline",
+              "type": "PLACEBO_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Treatment"
+              ],
+              "description": "Intravenous administration weekly for 52 weeks",
+              "name": "MIS416",
+              "type": "BIOLOGICAL"
+            },
+            {
+              "armGroupLabels": [
+                "Saline"
+              ],
+              "description": "Intravenous administration weekly for 52 weeks",
+              "name": "Saline",
+              "otherNames": [
+                "Placebo"
+              ],
+              "type": "DRUG"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Secondary Progressive Multiple Sclerosis"
+          ],
+          "keywords": [
+            "multiple sclerosis",
+            "SPMS"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Brisbane",
+              "country": "Australia",
+              "facility": "The Wesley-St. Andrew's Research Institute",
+              "geoPoint": {
+                "lat": -27.46794,
+                "lon": 153.02809
+              },
+              "state": "Queensland",
+              "zip": "4066"
+            },
+            {
+              "city": "Adelaide",
+              "country": "Australia",
+              "facility": "PARC Clinical Research",
+              "geoPoint": {
+                "lat": -34.92866,
+                "lon": 138.59863
+              },
+              "state": "South Australia",
+              "zip": "5000"
+            },
+            {
+              "city": "Melbourne",
+              "country": "Australia",
+              "facility": "Nucleus Network - Centre for Clinical Studies",
+              "geoPoint": {
+                "lat": -37.814,
+                "lon": 144.96332
+              },
+              "state": "Victoria",
+              "zip": "3004"
+            },
+            {
+              "city": "Perth",
+              "country": "Australia",
+              "facility": "Western Australian Neuroscience Research Institute",
+              "geoPoint": {
+                "lat": -31.95224,
+                "lon": 115.8614
+              },
+              "state": "Western Australia",
+              "zip": "6009"
+            },
+            {
+              "city": "West Perth",
+              "country": "Australia",
+              "facility": "Neurodegenerative Disorders Research",
+              "geoPoint": {
+                "lat": -31.94896,
+                "lon": 115.84199
+              },
+              "state": "Western Australia",
+              "zip": "6005"
+            },
+            {
+              "city": "Auckland",
+              "country": "New Zealand",
+              "facility": "Optimal Clinical Trials",
+              "geoPoint": {
+                "lat": -36.84853,
+                "lon": 174.76349
+              },
+              "zip": "1010"
+            },
+            {
+              "city": "Wellington",
+              "country": "New Zealand",
+              "facility": "P3 Research",
+              "geoPoint": {
+                "lat": -41.28664,
+                "lon": 174.77557
+              },
+              "zip": "6021"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Innate Immunotherapeutics",
+              "name": "Michael Silverman",
+              "role": "STUDY_DIRECTOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The purpose of this study is to determine whether MIS416 administered once weekly over 12 months is safe, tolerable, and improves a range of signs and symptoms associated with secondary progressive multiple sclerosis.",
+          "detailedDescription": "The primary objectives of the study are to:\n\n1. Determine the efficacy of MIS416, relative to placebo, when administered repeatedly via weekly intravenous (IV) administration to subjects with Secondary Progressive Multiple Sclerosis, as assessed by its effect on measures of neuromuscular function.\n2. Determine the safety and tolerability of a weekly regimen of MIS416.\n\nThe secondary objectives of the study are to:\n\n1. Determine the effect of MIS416 on disease activity and neurodegeneration by assessing changes in Magnetic Resonance Imaging (MRI) markers including lesions, whole brain atrophy (WBA) and Magnetization Transfer Ratio (MTR).\n2. Determine the effect of MIS416 on Patient Reported Outcomes (PRO) related to disability and health status.\n3. Assess, in a subset of subjects, the pharmacodynamic (PD) effects of MIS416, including effects on serum, Peripheral Blood Mononuclear Cell (PBMC), and Cerebral Spinal Fluid (CSF) cytokine/chemokine levels and expression patterns."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "QUADRUPLE",
+              "whoMasked": [
+                "PARTICIPANT",
+                "CARE_PROVIDER",
+                "INVESTIGATOR",
+                "OUTCOMES_ASSESSOR"
+              ]
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 93,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE2"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. A historical or current cranial MRI scan demonstrating T2-hyperintense lesions consistent with MS.\n2. Has SPMS as determined by the 2010 Update to the McDonald Criteria\n3. An Expanded Disability Status Scale (EDSS) of 3.0 to 6.5 at Screening.\n4. Has SPMS which, in the judgment of the investigator, has been clinically active and functionally progressive within the 2 years prior to Screening\n5. The absence of MS relapse for at least two years prior to Baseline.\n6. Neurologically stable for at least four weeks prior to Screening.\n7. Has the following laboratory values within three days prior to initiation of Investigational Product:\n\n   * Absolute neutrophil count (ANC) \\>= 1 x 109/L;\n   * Platelet count \\>= 100 x 109/L;\n   * Serum creatinine =\\< 1.5 mg/dL;\n   * Aspartate aminotransferase (AST) =\\<2 \u00d7 upper limit of normal;\n   * Alanine aminotransferase (ALT) =\\< 2 \u00d7 upper limit of normal.\n8. Provided written informed consent to participate.\n\nExclusion Criteria:\n\n1. Has primary Progressive MS (PPMS), Relapsing Remitting (RRMS), or progressive relapsing MS as determined by the 2010 update to the McDonald Criteria.\n2. Has not completed the discontinuation period for approved and/or investigational multiple sclerosis disease modifying therapies prior to screening.\n3. Has had any other immunomodulatory drug therapy or immunosuppressive therapy within four weeks prior to Screening, or systemic corticosteroids within the eight weeks prior to Screening.\n4. Any previous exposure to investigational MS therapeutic vaccines.\n5. Any use of cell-depleting monoclonal antibodies including, but not limited to, Rituximab, or Ocrelizumab.\n6. A diagnosis or history of collagen vascular disease (including Sj\u00f6gren's syndrome and systemic lupus erythematosus), anticardiolipin antibody syndrome, cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy, sarcoidosis, vasculitis, Behcet's syndrome and/or Lyme disease.\n7. Contraindication to MRI (e.g., pacemaker or other contraindicated implanted metal device, allergy to gadolinium, or unmanageable claustrophobia).\n8. A history of alcohol or drug abuse (including cannabinoid use) within two years prior to Screening.\n9. Has had major surgery or radiation therapy within four weeks prior to Screening.\n10. Has an active infection requiring antibiotics within two weeks prior to Screening.\n11. Has had active malignancy within two years of Screening, with the exception of basal cell carcinoma and squamous cell carcinoma of the skin.\n12. Uncontrolled congestive heart failure, myocardial infarction, cerebrovascular accident, coronary/peripheral artery bypass graft surgery, or transient ischemic attack within twelve weeks prior to Screening.\n13. Has angina, other symptomatic coronary artery disease, or known cardiomyopathy.\n14. Has symptomatic cardiac dysrhythmias requiring treatment, or persistent prolongation of the QTcF (Fredericia) interval to \\> 450 msec for males or \\> 470 msec for females.",
+          "healthyVolunteers": false,
+          "maximumAge": "70 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Safety and Efficacy Study of MIS416 to Treat Secondary Progressive Multiple Sclerosis",
+          "nctId": "NCT02228213",
+          "officialTitle": "A Phase 2B Randomised, Double-Blind, Placebo-Controlled Trial of the Efficacy and Safety of MIS416 in the Treatment of Subjects With Secondary Progressive Multiple Sclerosis",
+          "orgStudyIdInfo": {
+            "id": "MIS416-202"
+          },
+          "organization": {
+            "class": "INDUSTRY",
+            "fullName": "Innate Immunotherapeutics"
+          },
+          "secondaryIdInfos": [
+            {
+              "domain": "WHO",
+              "id": "U1111-1166-0910",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Neuromuscular function will be assessed using the following test:\n\n* MS Function Composite (MSFC), comprising the; timed 25 Foot Walk, 9 Hole Peg Test (9HPT), and Paced Auditory Serial Addition Test (PASAT);\n* Jebsen Hand Function Test (JHFT);\n* Grip, tip and key pinch strength;\n* Symbol digit modalities test (SDMT);\n* Sloan low-contrast letter visual acuity (SLCVA);\n* 6-minute walk test (6MWT);",
+              "measure": "Change from baseline of neuromuscular function at 12 months",
+              "timeFrame": "Baseline, 3, 6, 9 and 12 months"
+            },
+            {
+              "description": "Safety assessments will be conducted at each study visit and include; characterization of the type, incidence, severity, timing, seriousness, and relationship to treatment of adverse events (AEs); effects on vital signs and clinical laboratory parameters; changes on electrocardiograms (ECGs); and at 3 months and 12 months - the number of gadolinium-enhancing lesions on cranial MRI assessments.",
+              "measure": "Proportion of Participants with Serious and Non-Serious Adverse Events",
+              "timeFrame": "Up to 12 months"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Disability and health status will be assessed using the following assessments and patient reported outcomes:\n\n* Expanded Disability Status Scale (EDSS)\n* Patient Reported Outcomes (PROs) including;\n\n  * SF-36 and its components;\n  * MS Impact Scale (MSIS-29);\n  * Neurological Fatigue Index for MS (NFI-MS);\n  * Brief Pain Inventory (BPI).",
+              "measure": "Change from baseline of disability and health status at 12 months",
+              "timeFrame": "Baseline, 3, 6, 9, and 12 months"
+            },
+            {
+              "description": "Disease activity and neurodegeneration will be assessing using Magnetic Resonance Imaging (MRI) markers including lesions, whole brain atrophy (WBA) and Magnetization Transfer Ratio (MTR).",
+              "measure": "Change from baseline of neurodegeneration by assessing changes in Magnetic Resonance Imaging (MRI) markers at 12 months",
+              "timeFrame": "Baseline, 3, and 12 months"
+            },
+            {
+              "description": "The effect on immune biomarkers will include the analysis of serum for some or all of the following markers: IP-10 (CXCL10), MCP-1 (CCL2), MIG (CXCL9), IL-8 (CXCL8), IFN\u03b3, Neopterin, IL-1RA, sTNF-R, IL-12/23, p40, CD62E (E-selectin), CD54 (ICAM-1), and CD106 (VCAM-1).",
+              "measure": "Change from baseline of activity of immune biomarkers in serum",
+              "timeFrame": "Up to 1 year"
+            },
+            {
+              "description": "The effect on immune biomarkers will include the analysis of CSF for some or all of the following markers: IP-10 (CXCL10), MCP-1 (CCL2), MIG (CXCL9), IL-8 (CXCL8), IFN\u03b3, Neopterin, IL-1RA, sTNF-R, IL-12/23, p40, CD62E (E-selectin), CD54 (ICAM-1), and CD106 (VCAM-1).",
+              "measure": "Change from baseline of activity of immune biomarkers in cerebrospinal fluid (CSF)",
+              "timeFrame": "Up to 12 months"
+            },
+            {
+              "description": "Some or all of these biomarkers may be assayed ex vivo: PBMC expression of mRNA encoding proteins involved in myeloid differentiation and immune regulatory function (e.g. VEGF, Arginine, INOS, IL-10, MMP9); PBMC myeloid subset production of IL-10, TGF\u03b2, IL-6, TNF\u03b1, IL-1\u03b2, IFN\u03b3, IL-17, and GM-CSF in response to stimulation with LPS, LPS/IFN\u03b3 or MIS416 ex vivo; and PBMC subset analysis of myeloid and dendritic cell subsets for immunoregulatory cell subset markers.",
+              "measure": "Change from baseline in Peripheral Blood Mononuclear Cell (PBMC) immune biomarkers",
+              "timeFrame": "Up to 12 months"
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": true
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "OTHER",
+              "name": "Syneos Health"
+            }
+          ],
+          "leadSponsor": {
+            "class": "INDUSTRY",
+            "name": "Innate Immunotherapeutics"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2017-06",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2017-07-14",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2017-07-12",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2017-05",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2014-10"
+          },
+          "statusVerifiedDate": "2017-07",
+          "studyFirstPostDateStruct": {
+            "date": "2014-08-28",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2014-08-21",
+          "studyFirstSubmitQcDate": "2014-08-26"
+        }
+      }
+    }
+  ]
+}

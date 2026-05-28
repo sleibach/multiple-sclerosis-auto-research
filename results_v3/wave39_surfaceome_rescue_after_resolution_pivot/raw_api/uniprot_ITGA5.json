@@ -1,0 +1,1517 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "12807887",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17158881",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "18635536",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "25398877",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "29030430",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "31331973",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "33962943",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Integrin alpha-5/beta-1 (ITGA5:ITGB1) is a receptor for fibronectin and fibrinogen. It recognizes the sequence R-G-D in its ligands. ITGA5:ITGB1 binds to PLA2G2A via a site (site 2) which is distinct from the classical ligand-binding site (site 1) and this induces integrin conformational changes and enhanced ligand binding to site 1 (PubMed:18635536, PubMed:25398877). ITGA5:ITGB1 acts as a receptor for fibrillin-1 (FBN1) and mediates R-G-D-dependent cell adhesion to FBN1 (PubMed:12807887, PubMed:17158881). ITGA5:ITGB1 acts as a receptor for fibronectin (FN1) and mediates R-G-D-dependent cell adhesion to FN1 (PubMed:33962943). ITGA5:ITGB1 is a receptor for IL1B and binding is essential for IL1B signaling (PubMed:29030430). ITGA5:ITGB3 is a receptor for soluble CD40LG and is required for CD40/CD40LG signaling (PubMed:31331973)"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "12907437",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "(Microbial infection) Integrin ITGA5:ITGB1 acts as a receptor for Human metapneumovirus"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "24478423",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "(Microbial infection) Integrin ITGA2:ITGB1 acts as a receptor for Human parvovirus B19"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "10397733",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "(Microbial infection) In case of HIV-1 infection, the interaction with extracellular viral Tat protein seems to enhance angiogenesis in Kaposi's sarcoma lesions"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "17158881",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000255"
+                  }
+                ],
+                "id": "SL-9905",
+                "value": "Single-pass type I membrane protein"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "17158881",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0118",
+                "value": "Cell junction, focal adhesion"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000012D9F3"
+      },
+      "features": [
+        {
+          "description": "Extracellular",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 995
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 42
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 1021
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 996
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 1049
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 1022
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "22451694",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:16541"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29965"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:16541",
+            "name": "a protein"
+          },
+          "ligandPart": {
+            "id": "ChEBI:CHEBI:29965",
+            "name": "L-arginine residue",
+            "note": "Arg of R-G-D sequence recognized in fibronectin and fibrinogen"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 262
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 262
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "22451694",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:16541"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29965"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:16541",
+            "name": "a protein"
+          },
+          "ligandPart": {
+            "id": "ChEBI:CHEBI:29965",
+            "name": "L-arginine residue",
+            "note": "Arg of R-G-D sequence recognized in fibronectin and fibrinogen"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 269
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 269
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "33962943",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000312",
+              "id": "7NXD",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI3",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7NWL",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "1",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 280
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 280
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "33962943",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000312",
+              "id": "7NXD",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI3",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7NWL",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "1",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 282
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 282
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "33962943",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000312",
+              "id": "7NXD",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI3",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7NWL",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "1",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 284
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 284
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "33962943",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000312",
+              "id": "7NXD",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI3",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7NWL",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "1",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 286
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 286
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "33962943",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000312",
+              "id": "7NXD",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI3",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7NWL",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "1",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 288
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 288
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "33962943",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000312",
+              "id": "7NXD",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI3",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7NWL",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 334
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 334
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "33962943",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000312",
+              "id": "7NXD",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI3",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7NWL",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 336
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 336
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "33962943",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000312",
+              "id": "7NXD",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI3",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7NWL",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 338
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 338
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "33962943",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000312",
+              "id": "7NXD",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI3",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7NWL",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 340
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 340
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "33962943",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000312",
+              "id": "7NXD",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI3",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7NWL",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 342
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 342
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "33962943",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000312",
+              "id": "7NXD",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI3",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7NWL",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "3",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 401
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 401
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "33962943",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000312",
+              "id": "7NXD",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI3",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7NWL",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "3",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 403
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 403
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "33962943",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000312",
+              "id": "7NXD",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI3",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7NWL",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "3",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 405
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 405
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "33962943",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000312",
+              "id": "7NXD",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI3",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7NWL",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "3",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 407
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 407
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "33962943",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000312",
+              "id": "7NXD",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI3",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7NWL",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "3",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 409
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 409
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "33962943",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000312",
+              "id": "7NXD",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI3",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7NWL",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "4",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 465
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 465
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "33962943",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000312",
+              "id": "7NXD",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI3",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7NWL",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "4",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 467
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 467
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "33962943",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000312",
+              "id": "7NXD",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI3",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7NWL",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "4",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 469
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 469
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "33962943",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000312",
+              "id": "7NXD",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI3",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7NWL",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "4",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 471
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 471
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "33962943",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000312",
+              "id": "7NXD",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI3",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3VI4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7NWL",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "4",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 473
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 473
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:6141",
+                "source": "HGNC"
+              }
+            ],
+            "value": "ITGA5"
+          },
+          "synonyms": [
+            {
+              "value": "FNRA"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0106",
+          "name": "Calcium"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0130",
+          "name": "Cell adhesion"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0965",
+          "name": "Cell junction"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-1003",
+          "name": "Cell membrane"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0165",
+          "name": "Cleavage on pair of basic residues"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-0903",
+          "name": "Direct protein sequencing"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-1015",
+          "name": "Disulfide bond"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0325",
+          "name": "Glycoprotein"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-1183",
+          "name": "Host cell receptor for virus entry"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0945",
+          "name": "Host-virus interaction"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0401",
+          "name": "Integrin"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0479",
+          "name": "Metal-binding"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0675",
+          "name": "Receptor"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0677",
+          "name": "Repeat"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0732",
+          "name": "Signal"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        }
+      ],
+      "primaryAccession": "P08648",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "CD49 antigen-like family member E"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Fibronectin receptor subunit alpha"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Integrin alpha-F"
+            }
+          },
+          {
+            "fullName": {
+              "value": "VLA-5"
+            }
+          }
+        ],
+        "cdAntigenNames": [
+          {
+            "value": "CD49e"
+          }
+        ],
+        "contains": [
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "Integrin alpha-5 heavy chain"
+              }
+            }
+          },
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "Integrin alpha-5 light chain"
+              }
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Integrin alpha-5"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "6B4D558D4F739CBA",
+        "length": 1049,
+        "md5": "D2B077E343B87470CD4F2900DEF4217F",
+        "molWeight": 114536,
+        "value": "MGSRTPESPLHAVQLRWGPRRRPPLLPLLLLLLPPPPRVGGFNLDAEAPAVLSGPPGSFFGFSVEFYRPGTDGVSVLVGAPKANTSQPGVLQGGAVYLCPWGASPTQCTPIEFDSKGSRLLESSLSSSEGEEPVEYKSLQWFGATVRAHGSSILACAPLYSWRTEKEPLSDPVGTCYLSTDNFTRILEYAPCRSDFSWAAGQGYCQGGFSAEFTKTGRVVLGGPGSYFWQGQILSATQEQIAESYYPEYLINLVQGQLQTRQASSIYDDSYLGYSVAVGEFSGDDTEDFVAGVPKGNLTYGYVTILNGSDIRSLYNFSGEQMASYFGYAVAATDVNGDGLDDLLVGAPLLMDRTPDGRPQEVGRVYVYLQHPAGIEPTPTLTLTGHDEFGRFGSSLTPLGDLDQDGYNDVAIGAPFGGETQQGVVFVFPGGPGGLGSKPSQVLQPLWAASHTPDFFGSALRGGRDLDGNGYPDLIVGSFGVDKAVVYRGRPIVSASASLTIFPAMFNPEERSCSLEGNPVACINLSFCLNASGKHVADSIGFTVELQLDWQKQKGGVRRALFLASRQATLTQTLLIQNGAREDCREMKIYLRNESEFRDKLSPIHIALNFSLDPQAPVDSHGLRPALHYQSKSRIEDKAQILLDCGEDNICVPDLQLEVFGEQNHVYLGDKNALNLTFHAQNVGEGGAYEAELRVTAPPEAEYSGLVRHPGNFSSLSCDYFAVNQSRLLVCDLGNPMKAGASLWGGLRFTVPHLRDTKKTIQFDFQILSKNLNNSQSDVVSFRLSVEAQAQVTLNGVSKPEAVLFPVSDWHPRDQPQKEEDLGPAVHHVYELINQGPSSISQGVLELSCPQALEGQQLLYVTRVTGLNCTTNHPINPKGLELDPEGSLHHQQKREAPSRSSASSGPQILKCPEAECFRLRCELGPLHQQESQSLQLHFRVWAKTFLQREHQPFSLQCEAVYKALKMPYRILPRQLPQKERQVATAVQWTKAEGSYGVPLWIIILAILFGLLLLGLLIYILYKLGFFKRSLPYGTAMEKAQLKPPATSDA"
+      },
+      "uniProtkbId": "ITA5_HUMAN"
+    }
+  ]
+}

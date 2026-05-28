@@ -1,0 +1,71 @@
+{
+  "date": "2026-05-27",
+  "n_candidates_from_unrestricted_survivor_tsv": 16,
+  "focus_genes": [
+    "SNX10",
+    "DAP",
+    "FMNL2",
+    "TNFAIP8L1",
+    "PPIL3",
+    "NCK1",
+    "PLEK2",
+    "SEL1L3",
+    "AQR",
+    "C15ORF48"
+  ],
+  "candidate_genes": [
+    "CHI3L1",
+    "LTA4H",
+    "APOC1",
+    "CBX3",
+    "C15ORF48",
+    "CXCL9",
+    "PPP3CA",
+    "SNX10",
+    "DAP",
+    "FMNL2",
+    "TNFAIP8L1",
+    "PPIL3",
+    "NCK1",
+    "PLEK2",
+    "SEL1L3",
+    "AQR"
+  ],
+  "promoted_targets": [],
+  "least_bad_comparator": "SNX10",
+  "least_bad_reason": "Best comparator because it has Crohn/UC myeloid recurrence plus weak model and public macrophage perturbation, but it fails strict residual specificity, modality, safety, and novelty.",
+  "calls": {
+    "ADJACENT_DEMOTE_PRIOR_ART": 3,
+    "LEAST_BAD_COMPARATOR_ONLY": 1,
+    "STATE_MARKER_ONLY": 1,
+    "MODALITY_COMPARATOR_ONLY": 1,
+    "NO_GO_INTRACELLULAR_REMODELING_MARKER": 1,
+    "NO_GO_STRESS_MARKER": 1,
+    "NO_GO_NONDRUGGABLE_INTRACELLULAR": 1,
+    "NO_GO_CYTOSKELETAL_MARKER": 1,
+    "NO_GO_THIN_INTRACELLULAR_MARKER": 1,
+    "NO_GO_UNDERCHARACTERIZED_MARKER": 1,
+    "NO_GO_CORE_SPLICEOSOME_MARKER": 1,
+    "ADJACENT_HOLD_GENERIC": 1,
+    "ADJACENT_HOLD_GENERIC_IFN": 1,
+    "ADJACENT_DEMOTE_MODEL": 1
+  },
+  "strict_core_residual_survivors": [
+    {
+      "gene": "CBX3",
+      "strict_core_covariate_surviving_disease_count": 1.0,
+      "strict_core_covariate_surviving_analyses": "ibd_uc_stromal:ulcerative colitis"
+    }
+  ],
+  "no_go_or_marker_count": 14,
+  "guardrail": "No candidate is promoted. Expression recurrence is treated as observational triage only; focused candidates are intracellular markers/stress-remodeling genes or prior-arted broad immune nodes.",
+  "outputs": [
+    "wave20_local_evidence.tsv",
+    "wave20_gate_matrix.tsv",
+    "wave20_public_search_queries.tsv",
+    "wave20_source_links.tsv",
+    "wave20_uniprot_druggability.tsv",
+    "wave20_chembl_target_search.tsv",
+    "summary.json"
+  ]
+}

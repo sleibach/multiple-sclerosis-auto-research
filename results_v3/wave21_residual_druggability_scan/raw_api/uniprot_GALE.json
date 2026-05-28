@@ -1,0 +1,668 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3AGALE%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22654673",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "23732289",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Catalyzes two distinct but analogous reactions: the reversible epimerization of UDP-glucose to UDP-galactose and the reversible epimerization of UDP-N-acetylglucosamine to UDP-N-acetylgalactosamine. The reaction with UDP-Gal plays a critical role in the Leloir pathway of galactose catabolism in which galactose is converted to the glycolytic intermediate glucose 6-phosphate. It contributes to the catabolism of dietary galactose and enables the endogenous biosynthesis of both UDP-Gal and UDP-GalNAc when exogenous sources are limited. Both UDP-sugar interconversions are important in the synthesis of glycoproteins and glycolipids"
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000011133A"
+      },
+      "features": [
+        {
+          "description": "Proton acceptor",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10801319",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279032",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279193",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000303",
+              "id": "15175331",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 157
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 157
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10801319",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279032",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279193",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57540"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57540",
+            "name": "NAD(+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 14
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 12
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10801319",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279032",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279193",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57540"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57540",
+            "name": "NAD(+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 37
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 33
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10801319",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279032",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279193",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57540"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57540",
+            "name": "NAD(+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 67
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 66
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10801319",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279032",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279193",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57540"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57540",
+            "name": "NAD(+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 88
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 88
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10801319",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279032",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279193",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57540"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57540",
+            "name": "NAD(+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 92
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 92
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10801319",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279032",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279193",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000303",
+              "id": "15175331",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 134
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 132
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10801319",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279032",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279193",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57540"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57540",
+            "name": "NAD(+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 161
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 161
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279032",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279193",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 187
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 185
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10801319",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57540"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57540",
+            "name": "NAD(+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 185
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 185
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10801319",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279032",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279193",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 208
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 206
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10801319",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279032",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279193",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 226
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 224
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10801319",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279032",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279193",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 239
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 239
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279032",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11279193",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 303
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 300
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:4116",
+                "source": "HGNC"
+              }
+            ],
+            "value": "GALE"
+          }
+        }
+      ],
+      "primaryAccession": "Q14376",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Galactowaldenase"
+            }
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "22654673",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "UDP-N-acetylgalactosamine 4-epimerase"
+            },
+            "shortNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "22654673",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "UDP-GalNAc 4-epimerase"
+              }
+            ]
+          },
+          {
+            "ecNumbers": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "22654673",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "5.1.3.7"
+              }
+            ],
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "22654673",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "UDP-N-acetylglucosamine 4-epimerase"
+            },
+            "shortNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "22654673",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "UDP-GlcNAc 4-epimerase"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "22654673",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "UDP-galactose 4-epimerase"
+            }
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22654673",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "5.1.3.2"
+            }
+          ],
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "id": "22654673",
+                "source": "PubMed"
+              }
+            ],
+            "value": "UDP-glucose 4-epimerase"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,754 @@
+{
+  "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxoZfGp",
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D015212",
+              "term": "Inflammatory Bowel Diseases"
+            },
+            {
+              "id": "D005759",
+              "term": "Gastroenteritis"
+            },
+            {
+              "id": "D005767",
+              "term": "Gastrointestinal Diseases"
+            },
+            {
+              "id": "D004066",
+              "term": "Digestive System Diseases"
+            },
+            {
+              "id": "D007410",
+              "term": "Intestinal Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D003424",
+              "term": "Crohn Disease"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Once a week for 10 weeks with a circumference of 60 hours with mindfulness-based stress reduction and further process of the Mind / body medicine.",
+              "interventionNames": [
+                "Behavioral: lifestyle-modification"
+              ],
+              "label": "lifestyle-modification",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "A unique education unit within the scope of 3 hours on the influence of lifestyle factors on the disease and self-help materials for the independent training. After the follow-up measurement opportunity to participate in the program.",
+              "interventionNames": [
+                "Behavioral: waiting control group"
+              ],
+              "label": "waiting control group",
+              "type": "ACTIVE_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "lifestyle-modification"
+              ],
+              "description": "The group intervention is carried out once a week for 10 weeks for a total of 60 hours with elements of mindfulness-based stress reduction (MBSR) and further process of the mind / body medicine. In this project, this program will be adapted to the specific needs of crohn's disease patients.",
+              "name": "lifestyle-modification",
+              "type": "BEHAVIORAL"
+            },
+            {
+              "armGroupLabels": [
+                "waiting control group"
+              ],
+              "description": "Participants in this group receive a one-time education unit within the scope of 3 hours on the influence of lifestyle factors on the disease, also self-help materials for independent training offered. Following the follow-up measure also this group is given the opportunity to participate in the multimodal stress reduction- and lifestyle modification program.",
+              "name": "waiting control group",
+              "type": "BEHAVIORAL"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Crohn Disease"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Bamberg",
+              "country": "Germany",
+              "facility": "Sozialstiftung Bamberg, Klinik f\u00fcr Intergrative Medizin",
+              "geoPoint": {
+                "lat": 49.89873,
+                "lon": 10.90067
+              },
+              "state": "Bavaria",
+              "zip": "96049"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Sozialstiftung Bamberg",
+              "name": "Jost Langhorst, Prof.",
+              "role": "STUDY_DIRECTOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Patients with crohn's disease often suffer significant limitations to their quality of life, which are also conditioned by particular stress and psychosocial accompanying symptoms of the disease. A multimodal program for stress-reduction and lifestyle-modification has been shown to be effective in promoting the quality of life in patients with uncreative colitis. The study will examine the promotion of the quality of life of patients with crohn's disease and the positive Influence on stress, psychological symptoms and physiological parameters.",
+          "detailedDescription": "40 patients with ulcerative colitis will be randomized in an Intervention group and a control group for 10 weeks. The primary outcome is the feasibility of the study, the intervention and the examinations. The Secondary outcomes are disease-specific quality of life, disease-activity, stress, psychological symptoms, inflammatory parameters, disease activity parameters, bowel parameter and the microbiome. As qualitative parameters, the influence of the disease on everyday life and the experience/ impact/ implementability of the programme will be investigated. Lastly, undesirable events will be recorded."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "interventionModelDescription": "Waiting Control Group Design",
+            "maskingInfo": {
+              "masking": "SINGLE",
+              "whoMasked": [
+                "OUTCOMES_ASSESSOR"
+              ]
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 42,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* age between 18 and 75 years\n* Presence of a confirmed diagnosis of Crohn's disease\n* In remission (not longer than 12 months, or mild to moderate clinical activity (HBI \\< 16)\n* Medication that has been stable for at least 3 months, regardless of whether glucocorticoids, immunosuppressive drugs, azathioprine, or other drug treatments according to MBMCrohn - Version 1.0 from 06.12.2019 Page 7 Guideline\n* Signed declaration of consent\n\nExclusion Criteria:\n\n* infectious or refractory Crohn's disease with severe course\n* Complete colectomy\n* Severe psychological illness (e.g. depression requiring treatment, addiction, schizophrenia)\n* Severe comorbid somatic disease (e.g. diabetes mellitus, oncological disease)\n* Pregnancy\n* Participation in stress reduction programmes or clinical studies on psychological interventions",
+          "healthyVolunteers": false,
+          "maximumAge": "75 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "acronym": "MBMCrohn",
+          "briefTitle": "Effect of a Stress Reduction and Lifestyle Modification Programme on the Quality of Life of Crohn's Disease Patients",
+          "nctId": "NCT05182645",
+          "officialTitle": "MBMCrohn: Die Wirkung Eines Stressreduktion- Und Lebensstilmodifikations-programms Auf Die Lebensqualit\u00e4t Von Patienten Mit Morbus Crohn- Eine Machbarkeitsstudie",
+          "orgStudyIdInfo": {
+            "id": "19096"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Universit\u00e4t Duisburg-Essen"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Proportion of people responding to appeals for studies",
+              "measure": "Recruitment success",
+              "timeFrame": "week 48"
+            },
+            {
+              "description": "Proportion of people which actually agreed in relation to the proportion of people which responded to the appeal.",
+              "measure": "Willingness to participate",
+              "timeFrame": "week 48"
+            },
+            {
+              "description": "Proportion of people which actually attend the study",
+              "measure": "Attendance",
+              "timeFrame": "week 48"
+            },
+            {
+              "description": "Proportion of people who quit during the study",
+              "measure": "Loss of participants over the study period",
+              "timeFrame": "week 48"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Inflammatory Bowel Disease Questionnaire (IBD-Q), Recording on 7-point Likert scale, high values mean good, low values a reduced quality of life (1=worst score, 7=best score)",
+              "measure": "Disease-specific quality of life by IBD-Q",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "Inflammatory Bowel Disease Questionnaire (IBD-Q), Recording on 7-point Likert scale, high values mean good, low values a reduced quality of life (1=worst score, 7=best score)",
+              "measure": "Disease-specific quality of life by IBD-Q",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Inflammatory Bowel Disease Questionnaire (IBD-Q), Recording on 7-point Likert scale, high values mean good, low values a reduced quality of life (1=worst score, 7=best score)",
+              "measure": "Disease-specific quality of life by IBD-Q",
+              "timeFrame": "week 36"
+            },
+            {
+              "description": "Inflammatory Bowel Disease Questionnaire (IBD-Q), Recording on 7-point Likert scale, high values mean good, low values a reduced quality of life (1=worst score, 7=best score)",
+              "measure": "Disease-specific quality of life by IBD-Q",
+              "timeFrame": "week 48"
+            },
+            {
+              "description": "Short Form Health 36 (SF-36) shows health-related quality of life, 36 items in 8 categories, 25% of the items must be filled in per category for evaluation. Lower sum score correlates with lower quality of life; higher sum score correlates with better quality of life.",
+              "measure": "Generic quality of life by SF-36",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "Short Form Health 36 (SF-36) shows health-related quality of life, 36 items in 8 categories, 25% of the items must be filled in per category for evaluation. Lower sum score correlates with lower quality of life; higher sum score correlates with better quality of life.",
+              "measure": "Generic quality of life by SF 36",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Short Form Health 36 (SF-36) shows health-related quality of life, 36 items in 8 categories, 25% of the items must be filled in per category for evaluation. Lower sum score correlates with lower quality of life; higher sum score correlates with better quality of life.",
+              "measure": "Generic quality of life by SF36",
+              "timeFrame": "week 36"
+            },
+            {
+              "description": "Short Form Health 36 (SF-36) shows health-related quality of life, 36 items in 8 categories, 25% of the items must be filled in per category for evaluation. Lower sum score correlates with lower quality of life; higher sum score correlates with better quality of life.",
+              "measure": "Generic quality of life by SF36",
+              "timeFrame": "week 48"
+            },
+            {
+              "description": "Harvey-Bradshaw Index - HBI is used to assess the degree of illness in individuals with Crohn's disease. The highest possible sum is 30 points and indicates a severe course of disease. A lower sum than 5 points indicates a clinical remission.",
+              "measure": "Disease activity 2 by BHI",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "Harvey-Bradshaw Index - HBI is used to assess the degree of illness in individuals with Crohn's disease. The highest possible sum is 30 points and indicates a severe course of disease. A lower sum than 5 points indicates a clinical remission.",
+              "measure": "Disease activity by HBI",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Harvey-Bradshaw Index - HBI is used to assess the degree of illness in individuals with Crohn's disease. The highest possible sum is 30 points and indicates a severe course of disease. A lower sum than 5 points indicates a clinical remission.",
+              "measure": "Disease activity by HBI",
+              "timeFrame": "week 36"
+            },
+            {
+              "description": "Harvey-Bradshaw Index - HBI is used to assess the degree of illness in individuals with Crohn's disease. The highest possible sum is 30 points and indicates a severe course of disease. A lower sum than 5 points indicates a clinical remission.",
+              "measure": "Disease activity by HBI",
+              "timeFrame": "week 48"
+            },
+            {
+              "description": "Hospital Anxiety and Depression Scale (HADS), 14 items (7 each for depressive symptoms or symptoms of anxiety). The two summated scores of the summated scales HADS-A and HADS-D range between 0 and 21. high scores indicate depressivness and anxiety.",
+              "measure": "Anxiety and depression by HADS",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "Hospital Anxiety and Depression Scale (HADS), 14 items (7 each for depressive symptoms or symptoms of anxiety). The two summated scores of the summated scales HADS-A and HADS-D range between 0 and 21. high scores indicate depressivness and anxiety.",
+              "measure": "Anxiety and depression by HADS",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Hospital Anxiety and Depression Scale (HADS), 14 items (7 each for depressive symptoms or symptoms of anxiety). The two summated scores of the summated scales HADS-A and HADS-D range between 0 and 21. high scores indicate depressivness and anxiety.",
+              "measure": "Anxiety and depression by HADS",
+              "timeFrame": "week 36"
+            },
+            {
+              "description": "Hospital Anxiety and Depression Scale (HADS), 14 items (7 each for depressive symptoms or symptoms of anxiety). The two summated scores of the summated scales HADS-A and HADS-D range between 0 and 21. high scores indicate depressivness and anxiety.",
+              "measure": "Anxiety and depression by HADS",
+              "timeFrame": "week 48"
+            },
+            {
+              "description": "Perceived Stress Scale (PSS), Rating on a five-step scale from 1 (=never) to 5 (=very often), high stress is assumed from a total score of 20 points",
+              "measure": "Perceived stress by PSS",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "Perceived Stress Scale (PSS), Rating on a five-step scale from 1 (=never) to 5(=very often), high stress is assumed from a total score of 20 points",
+              "measure": "Perceived stress by PSS",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Perceived Stress Scale (PSS), Rating on a five-step scale from 1 (= never) to 5 (=very often), high stress is assumed from a total score of 20 points",
+              "measure": "Perceived stress by PSS",
+              "timeFrame": "week 36"
+            },
+            {
+              "description": "Perceived Stress Scale (PSS), Rating on a five-step scale from 1 (= never) to 5 (=very often), high stress is assumed from a total score of 20 points",
+              "measure": "Perceived stress by PSS",
+              "timeFrame": "week 48"
+            },
+            {
+              "description": "Coping Orientations to problems experienced Scale (COPE), total values of each scale vary between 2 (minimum) and 8 (maximum). Higher values indicate increased use of the specific coping strategy",
+              "measure": "Coping strategies by COPE",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "Coping Orientations to problems experienced Scale (COPE), total values of each scale vary between 2 (minimum) and 8 (maximum). Higher values indicate increased use of the specific coping strategy",
+              "measure": "Coping strategies by COPE",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Coping Orientations to problems experienced Scale (COPE), total values of each scale vary between 2 (minimum) and 8 (maximum). Higher values indicate increased use of the specific coping strategy",
+              "measure": "Coping strategies by COPE",
+              "timeFrame": "week 36"
+            },
+            {
+              "description": "Coping Orientations to problems experienced Scale (COPE), total values of each scale vary between 2 (minimum) and 8 (maximum). Higher values indicate increased use of the specific coping strategy",
+              "measure": "Coping strategies by COPE",
+              "timeFrame": "week 48"
+            },
+            {
+              "description": "Flourishing Scale (FS-D), total value of the scale vary between 8 (minimum) and 56 (maximum). A high value corresponds to a person with many psychological resources and strengths.",
+              "measure": "Flourishing by FS-D",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "Flourishing Scale (FS-D), total value of the scale vary between 8 (minimum) and 56 (maximum). A high value corresponds to a person with many psychological resources and strengths.",
+              "measure": "Flourishing by FS-D",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Flourishing Scale (FS-D), total value of the scale vary between 8 (minimum) and 56 (maximum). A high value corresponds to a person with many psychological resources and strengths.",
+              "measure": "Flourishing by FS-D",
+              "timeFrame": "week 36"
+            },
+            {
+              "description": "Flourishing Scale (FS-D), total value of the scale vary between 8 (minimum) and 56 (maximum). A high value corresponds to a person with many psychological resources and strengths.",
+              "measure": "Flourishing by FS-D",
+              "timeFrame": "week 48"
+            },
+            {
+              "description": "Core Self-Evaluation (CSES), 12 items on five-point Likert scale, 1 indicates disagreement and 5 indicates full agreement. High scores on the CSES represents a positive, confident, and self-efficacious person",
+              "measure": "Core Self-Evaluation by CSES",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "Core Self-Evaluation (CSES), 12 items on five-point Likert scale, 1 indicates disagreement and 5 indicates full agreement. High scores on the CSES represents a positive, confident, and self-efficacious person",
+              "measure": "Core Self-Evaluation by CSES",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Core Self-Evaluation (CSES), 12 items on five-point Likert scale, 1 indicates disagreement and 5 indicates full agreement. High scores on the CSES represents a positive, confident, and self-efficacious person",
+              "measure": "Core Self-Evaluation by CSES",
+              "timeFrame": "week 36"
+            },
+            {
+              "description": "Core Self-Evaluation (CSES), 12 items on five-point Likert scale, 1 indicates disagreement and 5 indicates full agreement. High scores on the CSES represents a positive, confident, and self-efficacious person",
+              "measure": "Core Self-Evaluation by CSES",
+              "timeFrame": "week 48"
+            },
+            {
+              "description": "Determination of CRP in the blood",
+              "measure": "CRP (C-reactive protein)",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "Determination of CRP in the blood",
+              "measure": "CRP (C-reactive protein)",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Determination of CRP in the blood",
+              "measure": "CRP (C-reactive protein)",
+              "timeFrame": "week 36"
+            },
+            {
+              "description": "Determination of CRP in the blood",
+              "measure": "CRP (C-reactive protein)",
+              "timeFrame": "week 48"
+            },
+            {
+              "description": "Determination of BSG in the blood",
+              "measure": "BSG (blood cell sedimentation rate)",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "Determination of BSG in the blood",
+              "measure": "BSG (blood cell sedimentation rate)",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Determination of BSG in the blood",
+              "measure": "BSG (blood cell sedimentation rate)",
+              "timeFrame": "week 36"
+            },
+            {
+              "description": "Determination of BSG in the blood",
+              "measure": "BSG (blood cell sedimentation rate)",
+              "timeFrame": "week 48"
+            },
+            {
+              "description": "Determination of creatin in the blood",
+              "measure": "creatinin",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "Determination of creatin in the blood",
+              "measure": "creatinin",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Determination of creatin in the blood",
+              "measure": "creatinin",
+              "timeFrame": "week 36"
+            },
+            {
+              "description": "Determination of creatin in the blood",
+              "measure": "creatinin",
+              "timeFrame": "week 48"
+            },
+            {
+              "description": "Determination of lymphocyte (T-cell) profiling in the blood",
+              "measure": "lymphocyte (T-cell) profiling",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "Determination of lymphocyte (T-cell) profiling in the blood",
+              "measure": "lymphocyte (T-cell) profiling",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Determination of lymphocyte (T-cell) profiling in the blood",
+              "measure": "lymphocyte (T-cell) profiling",
+              "timeFrame": "week 36"
+            },
+            {
+              "description": "Determination of calprotectin in the stool",
+              "measure": "calprotectin",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "Determination of calprotectin in the stool",
+              "measure": "calprotectin",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Determination of calprotectin in the stool",
+              "measure": "calprotectin",
+              "timeFrame": "week 36"
+            },
+            {
+              "description": "Determination of calprotectin in the stool",
+              "measure": "calprotectin",
+              "timeFrame": "week 48"
+            },
+            {
+              "description": "Determination of lactoferrin in the stool",
+              "measure": "lactoferrin",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "Determination of lactoferrin in the stool",
+              "measure": "lactoferrin",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Determination of lactoferrin in the stool",
+              "measure": "lactoferrin",
+              "timeFrame": "week 36"
+            },
+            {
+              "description": "Determination of lactoferrin in the stool",
+              "measure": "lactoferrin",
+              "timeFrame": "week 48"
+            },
+            {
+              "description": "Determination of (PMN)-elastase in the stool",
+              "measure": "(PMN)-elastase",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "Determination of (PMN)-elastase in the stool",
+              "measure": "(PMN)-elastase",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Determination of (PMN)-elastase in the stool",
+              "measure": "(PMN)-elastase",
+              "timeFrame": "week 36"
+            },
+            {
+              "description": "Determination of (PMN)-elastase in the stool",
+              "measure": "(PMN)-elastase",
+              "timeFrame": "week 48"
+            },
+            {
+              "description": "Determination of hBD-2 in the stool",
+              "measure": "Human beta-defensin-2 (hBD-2)",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "Determination of hBD-2 in the stool",
+              "measure": "Human beta-defensin-2 (hBD-2)",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Determination of hBD-2 in the stool",
+              "measure": "Human beta-defensin-2 (hBD-2)",
+              "timeFrame": "week 36"
+            },
+            {
+              "description": "Determination of hBD-2 in the stool",
+              "measure": "Human beta-defensin-2 (hBD-2)",
+              "timeFrame": "week 48"
+            },
+            {
+              "description": "Determination of zonulin in the stool",
+              "measure": "zonulin",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "Determination of zonulin in the stool",
+              "measure": "zonulin",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Determination of zonulin in the stool",
+              "measure": "zonulin",
+              "timeFrame": "week 36"
+            },
+            {
+              "description": "Determination of zonulin in the stool",
+              "measure": "zonulin",
+              "timeFrame": "week 48"
+            },
+            {
+              "description": "Determination of alpha-antitrypsin in the stool",
+              "measure": "alpha-1-antitrypsin",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "Determination of alpha-antitrypsin in the stool",
+              "measure": "alpha-1- antitrypsin",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Determination of alpha-antitrypsin in the stool",
+              "measure": "alpha-1-antitrypsin",
+              "timeFrame": "week 36"
+            },
+            {
+              "description": "Determination of alpha-antitrypsin in the stool",
+              "measure": "alpha-1-antitrypsin",
+              "timeFrame": "week 48"
+            },
+            {
+              "description": "Determination of intestinal microbiome",
+              "measure": "intestinal microbiome",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "Determination of intestinal microbiome",
+              "measure": "intestinal microbiome",
+              "timeFrame": "week 36"
+            },
+            {
+              "description": "confocal laser endomircoscopy",
+              "measure": "Intestinal permeability",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "Determination of cortisol during Trier Social Stress Test at 4 points in time in the afternoon (right before, right after, 10 minutes after and 60 minutes after the Trier Social Stress Test)",
+              "measure": "cortisol",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Determination of ACTH during Trier Social Stress Test at 4 points in time in the afternoon (right before, right after, 10 minutes after and 60 minutes after the Trier Social Stress Test)",
+              "measure": "ACTH",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Determination of prolactin levels during Trier Social Stress Test at 4 points in time in the afternoon (right before, right after, 10 minutes after and 60 minutes after the Trier Social Stress Test)",
+              "measure": "prolactin levels",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Determination of glucocorticoid and \u03b2-adrenergic regulation of IL-8 and IL-10 during Trier Social Stress Test at 4 points in time in the afternoon (right before, right after, 10 minutes after and 60 minutes after the Trier Social Stress Test)",
+              "measure": "glucocorticoid and \u03b2-adrenergic regulation of IL-8 and IL-10",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Determination of TNF-\u03b1 production by peripheral blood cells during Trier Social Stress Test at 4 points in time in the afternoon (right before, right after, 10 minutes after and 60 minutes after the Trier Social Stress Test)",
+              "measure": "TNF-\u03b1 production by peripheral blood cells",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Determination of heart rate during Trier Social Stress Test at 4 points in time in the afternoon (right before, right after, 10 minutes after and 60 minutes after the Trier Social Stress Test)",
+              "measure": "heart rate",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Determination of blood pressure (systolic and diastolic) during Trier Social Stress Test at 4 points in time in the afternoon (right before, right after, 10 minutes after and 60 minutes after the Trier Social Stress Test)",
+              "measure": "blood pressure systolic and diastolic",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "Determination of STAI-S during Trier Social Stress Test at 4 points in time in the afternoon (right before, right after, 10 minutes after and 60 minutes after the Trier Social Stress Test)",
+              "measure": "STAI-S",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "all adverse events",
+              "measure": "Adverse events",
+              "timeFrame": "week 12"
+            },
+            {
+              "description": "all adverse events",
+              "measure": "Adverse events",
+              "timeFrame": "week 36"
+            },
+            {
+              "description": "all adverse events",
+              "measure": "Adverse events",
+              "timeFrame": "week 48"
+            },
+            {
+              "description": "guideline oriented qualitative interview about the influence of the disease on the patients' everyday life, experience with the programme offered, effects of the intervention on the disease, implementation of the intervention in everyday life",
+              "measure": "qualitatives Interview",
+              "timeFrame": "week 36"
+            },
+            {
+              "description": "age in years",
+              "measure": "age (questionnaire)",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "identification of the gender (male/female)",
+              "measure": "sex (questionnaire)",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "weight in kilograms",
+              "measure": "weight",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "body height in meters",
+              "measure": "body height",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "identification of the school career",
+              "measure": "School career (questionnaire)",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "identification of the actual job",
+              "measure": "job (questionnaire)",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "identification of job qualifications",
+              "measure": "professional career (questionnaire)",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "identification of the marital status (married/divorced/single/widowed)",
+              "measure": "marital status (questionnaire)",
+              "timeFrame": "week 0"
+            },
+            {
+              "description": "identification of the type of occupation",
+              "measure": "occupation (questionnaire)",
+              "timeFrame": "week 0"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": true
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Tiles-Sar N, Neuser J, de Sordi D, Baltes A, Preiss JC, Moser G, Timmer A. Psychological interventions for treatment of inflammatory bowel disease. Cochrane Database Syst Rev. 2025 Apr 17;4(4):CD006913. doi: 10.1002/14651858.CD006913.pub3.",
+              "pmid": "40243391",
+              "type": "DERIVED"
+            },
+            {
+              "citation": "Schlee C, Uecker C, Oznur O, Bauer N, Langhorst J. Participants' perspectives on a multimodal stress management and comprehensive lifestyle modification program for patients with Crohn's disease-A qualitative interview study. PLoS One. 2024 Nov 13;19(11):e0313127. doi: 10.1371/journal.pone.0313127. eCollection 2024.",
+              "pmid": "39536026",
+              "type": "DERIVED"
+            },
+            {
+              "citation": "Mekes-Adamczyk A, Gausmann N, Oznur O, Pfuhlmann K, Dziobaka J, Buer J, Langhorst J, Westendorf AM. Lifestyle Intervention Modulates the CD4+ T Cell Profile in the Blood of Crohn's Disease Patients. Inflamm Bowel Dis. 2025 Jan 6;31(1):200-209. doi: 10.1093/ibd/izae154.",
+              "pmid": "39102712",
+              "type": "DERIVED"
+            },
+            {
+              "citation": "Bauer N, Loffler C, Oznur O, Uecker C, Keil T, Langhorst J. Mind-body-medicine and comprehensive lifestyle-modification in patients with Crohn's disease-Feasibility of a randomized controlled trial under pandemic circumstances. Front Integr Neurosci. 2022 Aug 23;16:960301. doi: 10.3389/fnint.2022.960301. eCollection 2022.",
+              "pmid": "36081609",
+              "type": "DERIVED"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "OTHER",
+              "name": "Sozialstiftung Bamberg"
+            },
+            {
+              "class": "OTHER",
+              "name": "University of Wuerzburg"
+            },
+            {
+              "class": "OTHER",
+              "name": "Wuerzburg University Hospital"
+            },
+            {
+              "class": "OTHER_GOV",
+              "name": "Bavarian State Ministry of Health and Care"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Jost Langhorst"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Universit\u00e4t Duisburg-Essen",
+            "investigatorFullName": "Jost Langhorst",
+            "investigatorTitle": "Clinical Professor",
+            "type": "SPONSOR_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2022-03-31",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2022-11-15",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2022-11-14",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2022-03-31",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2020-07-01",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2022-11",
+          "studyFirstPostDateStruct": {
+            "date": "2022-01-10",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2020-08-11",
+          "studyFirstSubmitQcDate": "2021-12-21"
+        }
+      }
+    }
+  ],
+  "totalCount": 730
+}

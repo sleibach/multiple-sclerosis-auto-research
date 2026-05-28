@@ -1,0 +1,1301 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3APDE4B%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "10846163",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15003452",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15260978",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Hydrolyzes the second messenger cAMP, which is a key regulator of many important physiological processes (PubMed:15260978). May be involved in mediating central nervous system effects of therapeutic agents ranging from antidepressants to antiasthmatic and anti-inflammatory agents"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "molecule": "Isoform PDE4B5",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "17519386",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "17519386",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000127BF6"
+      },
+      "features": [
+        {
+          "description": "Proton donor",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "15003452",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1ROR",
+              "source": "PDB"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 406
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 406
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "Q08499",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58165"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58165",
+            "name": "3',5'-cyclic AMP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 406
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 406
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15003452",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15260978",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1ROR",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1TB5",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:456215"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:456215",
+            "name": "AMP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 406
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 406
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15003452",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1ROR",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:456215"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:456215",
+            "name": "AMP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 410
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 410
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15003452",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15260978",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15576036",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15685167",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "17727341",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "18539455",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1RO6",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1RO9",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1ROR",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1TB5",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XLX",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XLZ",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XM4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XM6",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XMU",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XMY",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XN0",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XOS",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XOT",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1Y2H",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1Y2J",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "2QYL",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3D3P",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "label": "1",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 410
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 410
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10846163",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15003452",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15576036",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15685167",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "17727341",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "18539455",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1F0J",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1RO6",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1RO9",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1ROR",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XLX",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XLZ",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XM4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XM6",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XMU",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XMY",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XN0",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XOS",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XOT",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1Y2H",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1Y2J",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "2QYL",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3D3P",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "label": "1",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 446
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 446
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15003452",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15260978",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1ROR",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1TB5",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:456215"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:456215",
+            "name": "AMP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 447
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 447
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10846163",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15260978",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15576036",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15685167",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "18539455",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1F0J",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1TB5",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XLX",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XLZ",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XM4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XM6",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XMU",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XMY",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XN0",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XOS",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XOT",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1Y2H",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1Y2J",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3D3P",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:18420"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:18420",
+            "name": "Mg(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 447
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 447
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15003452",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1RO6",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29035"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29035",
+            "name": "Mn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 447
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 447
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10846163",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15003452",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15260978",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15576036",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15685167",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "17727341",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "18539455",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1F0J",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1RO6",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1RO9",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1ROR",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1TB5",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XLX",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XLZ",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XM4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XM6",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XMU",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XMY",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XN0",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XOS",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XOT",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1Y2H",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1Y2J",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "2QYL",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3D3P",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "label": "1",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 447
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 447
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15003452",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1ROR",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "label": "2",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 447
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 447
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15003452",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1ROR",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:456215"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:456215",
+            "name": "AMP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 564
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 564
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10846163",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15003452",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15260978",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15576036",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15685167",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "18539455",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1F0J",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1RO6",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1RO9",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1ROR",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1TB5",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XLX",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XLZ",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XM4",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XM6",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XMU",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XMY",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XN0",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XOS",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XOT",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1Y2H",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1Y2J",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3D3P",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "label": "1",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 564
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 564
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "Q08499",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58165"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58165",
+            "name": "3',5'-cyclic AMP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 615
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 615
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15003452",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15260978",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1ROR",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1TB5",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:456215"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:456215",
+            "name": "AMP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 615
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 615
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "Q08499",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58165"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58165",
+            "name": "3',5'-cyclic AMP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 618
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 618
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "15003452",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "15260978",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1ROR",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1TB5",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:456215"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:456215",
+            "name": "AMP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 618
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 618
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:8781",
+                "source": "HGNC"
+              }
+            ],
+            "value": "PDE4B"
+          },
+          "synonyms": [
+            {
+              "value": "DPDE4"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "Q07343",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "DPDE4"
+            }
+          },
+          {
+            "fullName": {
+              "value": "PDE32"
+            }
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000305"
+                }
+              ],
+              "value": "cAMP-specific phosphodiesterase 4B"
+            }
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15260978",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17519386",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "8392015",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9371714",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "3.1.4.53"
+            }
+          ],
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "3',5'-cyclic-AMP phosphodiesterase 4B"
+          }
+        }
+      }
+    }
+  ]
+}

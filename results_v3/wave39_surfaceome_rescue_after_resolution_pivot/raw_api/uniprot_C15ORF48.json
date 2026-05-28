@@ -1,0 +1,254 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "33837217",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "34878835",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "38296961",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Mitochondrial small peptide that orchestrates a two-pronged immunoregulatory mechanism in response to inflammatory stimuli. Replaces the canonical cytochrome c oxidase subunit COXFA4 in mitochondrial complex IV and targets it to degradation, attenuating mitochondrial respiration, reducing membrane potential as well as ROS generation and modulates innate immune signaling (PubMed:33837217, PubMed:34878835). Additionally, initiates stress-independent autophagy by lowering ATP levels, activating AMPK-ULK1 signaling, boosting glutathione production, and thereby mitigating oxidative stress and supporting immune tolerance (PubMed:38296961)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305",
+                    "id": "33837217",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000305",
+                    "id": "38296961",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0168",
+                "value": "Mitochondrion inner membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000255"
+                  }
+                ],
+                "id": "SL-9904",
+                "value": "Single-pass membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00000361EC"
+      },
+      "features": [
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 35
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 13
+            }
+          },
+          "type": "Transmembrane"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:29898",
+                "source": "HGNC"
+              }
+            ],
+            "value": "COXFA4L3"
+          },
+          "synonyms": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "34878835",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "38296961",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "C15orf48"
+            },
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "33837217",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "MOCCI"
+            },
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "12209954",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "NMES1"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0496",
+          "name": "Mitochondrion"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0999",
+          "name": "Mitochondrion inner membrane"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        }
+      ],
+      "primaryAccession": "Q9C002",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "33837217",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Modulator of cytochrome C oxidase during inflammation protein"
+            },
+            "shortNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "33837217",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "MOCCI"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "12209954",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Normal mucosa of esophagus-specific gene 1 protein"
+            },
+            "shortNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "12209954",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "NMES1"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Protein FOAP-11"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Cytochrome c oxidase associated subunit FA4L3"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "21884FE8A009C039",
+        "length": 83,
+        "md5": "A94010EEB6914E803F38B60BB532CFF0",
+        "molWeight": 9617,
+        "value": "MSFFQLLMKRKELIPLVVFMTVAAGGASSFAVYSLWKTDVILDRKKNPEPWETVDPTVPQKLITINQQWKPIEELQNVQRVTK"
+      },
+      "uniProtkbId": "CX4L3_HUMAN"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "esearchresult": {
+    "count": "105",
+    "idlist": [
+      "41937145",
+      "41842939",
+      "41825225"
+    ],
+    "querytranslation": "(\"cd47 protein human\"[Supplementary Concept] OR \"cd47 protein human\"[All Fields] OR \"cd47\"[All Fields] OR \"cd47 antigen\"[Supplementary Concept] OR \"cd47 antigen\"[All Fields] OR \"cd47 antigen\"[MeSH Terms] OR (\"cd47\"[All Fields] AND \"antigen\"[All Fields]) OR \"integrin associated protein\"[All Fields]) AND (\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields])",
+    "retmax": "3",
+    "retstart": "0",
+    "translationset": [
+      {
+        "from": "CD47",
+        "to": "\"cd47 protein, human\"[Supplementary Concept] OR \"cd47 protein, human\"[All Fields] OR \"cd47\"[All Fields] OR \"cd47 antigen\"[Supplementary Concept] OR \"cd47 antigen\"[All Fields] OR \"cd47 antigen\"[MeSH Terms] OR (\"cd47\"[All Fields] AND \"antigen\"[All Fields])"
+      },
+      {
+        "from": "autoimmune",
+        "to": "\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields]"
+      }
+    ]
+  },
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  }
+}

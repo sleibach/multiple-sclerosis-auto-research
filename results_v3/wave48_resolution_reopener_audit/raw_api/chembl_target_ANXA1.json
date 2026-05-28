@@ -1,0 +1,1027 @@
+{
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 2
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Bos taurus",
+      "pref_name": "Annexin A1",
+      "score": 14.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL3308971",
+      "target_components": [
+        {
+          "accession": "P46193",
+          "component_description": "Annexin A1",
+          "component_id": 8736,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "Annexin-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Annexin A1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Annexin Ac2-26",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Annexin I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ANX1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "ANXA1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Calpactin-2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Calpactin II",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Chromobindin-9",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Lipocortin I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "p35",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Phospholipase A2 inhibitory protein",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P46193",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "GO:0001891",
+              "xref_name": "phagocytic cup",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005615",
+              "xref_name": "extracellular space",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005768",
+              "xref_name": "endosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005769",
+              "xref_name": "early endosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005929",
+              "xref_name": "cilium",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0010008",
+              "xref_name": "endosome membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0012506",
+              "xref_name": "vesicle membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016323",
+              "xref_name": "basolateral plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016324",
+              "xref_name": "apical plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016328",
+              "xref_name": "lateral plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031514",
+              "xref_name": "motile cilium",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031901",
+              "xref_name": "early endosome membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0001786",
+              "xref_name": "phosphatidylserine binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004859",
+              "xref_name": "phospholipase inhibitor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005509",
+              "xref_name": "calcium ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005544",
+              "xref_name": "calcium-dependent phospholipid binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019834",
+              "xref_name": "phospholipase A2 inhibitor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0002250",
+              "xref_name": "adaptive immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002548",
+              "xref_name": "monocyte chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002685",
+              "xref_name": "regulation of leukocyte migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006909",
+              "xref_name": "phagocytosis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007165",
+              "xref_name": "signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007187",
+              "xref_name": "G protein-coupled receptor signaling pathway, coupled to cyclic nucleotide second messenger",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008360",
+              "xref_name": "regulation of cell shape",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030036",
+              "xref_name": "actin cytoskeleton organization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032652",
+              "xref_name": "regulation of interleukin-1 production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032743",
+              "xref_name": "positive regulation of interleukin-2 production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042102",
+              "xref_name": "positive regulation of T cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042119",
+              "xref_name": "neutrophil activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045087",
+              "xref_name": "innate immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045627",
+              "xref_name": "positive regulation of T-helper 1 cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045629",
+              "xref_name": "negative regulation of T-helper 2 cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045920",
+              "xref_name": "negative regulation of exocytosis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046883",
+              "xref_name": "regulation of hormone secretion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050727",
+              "xref_name": "regulation of inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070588",
+              "xref_name": "calcium ion transmembrane transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071385",
+              "xref_name": "cellular response to glucocorticoid stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071621",
+              "xref_name": "granulocyte chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0090303",
+              "xref_name": "positive regulation of wound healing",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "P46193",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR001464",
+              "xref_name": "Annexin",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR002388",
+              "xref_name": "ANX1",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR018252",
+              "xref_name": "Annexin_repeat_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR018502",
+              "xref_name": "Annexin_repeat",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR037104",
+              "xref_name": "Annexin_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10502",
+              "xref_name": "ANNEXIN",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10502:SF17",
+              "xref_name": "ANNEXIN A1",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00191",
+              "xref_name": "Annexin",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA24823",
+              "xref_name": "annexin A1",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P46193",
+              "xref_name": "Annexin A1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q3ZBF5",
+              "xref_name": "Annexin A1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q58DU6",
+              "xref_name": "Annexin A1",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9913
+    },
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Annexin A1",
+      "score": 14.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL5724756",
+      "target_components": [
+        {
+          "accession": "P04083",
+          "component_description": "Annexin A1",
+          "component_id": 23110,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "Annexin-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Annexin A1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Annexin Ac2-26",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Annexin I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ANX1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "ANXA1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Calpactin-2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Calpactin II",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Chromobindin-9",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Lipocortin I",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LPC1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "p35",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Phospholipase A2 inhibitory protein",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P04083",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P04083",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0001533",
+              "xref_name": "cornified envelope",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0001891",
+              "xref_name": "phagocytic cup",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005615",
+              "xref_name": "extracellular space",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005654",
+              "xref_name": "nucleoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005768",
+              "xref_name": "endosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005769",
+              "xref_name": "early endosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005884",
+              "xref_name": "actin filament",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005912",
+              "xref_name": "adherens junction",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005925",
+              "xref_name": "focal adhesion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005929",
+              "xref_name": "cilium",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009986",
+              "xref_name": "cell surface",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0010008",
+              "xref_name": "endosome membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0012506",
+              "xref_name": "vesicle membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016323",
+              "xref_name": "basolateral plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016324",
+              "xref_name": "apical plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016328",
+              "xref_name": "lateral plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0030659",
+              "xref_name": "cytoplasmic vesicle membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031012",
+              "xref_name": "extracellular matrix",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031410",
+              "xref_name": "cytoplasmic vesicle",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031514",
+              "xref_name": "motile cilium",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031901",
+              "xref_name": "early endosome membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031982",
+              "xref_name": "vesicle",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0042383",
+              "xref_name": "sarcolemma",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0042995",
+              "xref_name": "cell projection",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0001786",
+              "xref_name": "phosphatidylserine binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004859",
+              "xref_name": "phospholipase inhibitor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005102",
+              "xref_name": "signaling receptor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005509",
+              "xref_name": "calcium ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005543",
+              "xref_name": "phospholipid binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005544",
+              "xref_name": "calcium-dependent phospholipid binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008289",
+              "xref_name": "lipid binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019834",
+              "xref_name": "phospholipase A2 inhibitor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0048306",
+              "xref_name": "calcium-dependent protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0098641",
+              "xref_name": "cadherin binding involved in cell-cell adhesion",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001780",
+              "xref_name": "neutrophil homeostasis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002250",
+              "xref_name": "adaptive immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002376",
+              "xref_name": "immune system process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002548",
+              "xref_name": "monocyte chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002685",
+              "xref_name": "regulation of leukocyte migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006909",
+              "xref_name": "phagocytosis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006954",
+              "xref_name": "inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007165",
+              "xref_name": "signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007166",
+              "xref_name": "cell surface receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007187",
+              "xref_name": "G protein-coupled receptor signaling pathway, coupled to cyclic nucleotide second messenger",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008360",
+              "xref_name": "regulation of cell shape",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0014839",
+              "xref_name": "myoblast migration involved in skeletal muscle regeneration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0018149",
+              "xref_name": "peptide cross-linking",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030036",
+              "xref_name": "actin cytoskeleton organization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030216",
+              "xref_name": "keratinocyte differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031340",
+              "xref_name": "positive regulation of vesicle fusion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032652",
+              "xref_name": "regulation of interleukin-1 production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032717",
+              "xref_name": "negative regulation of interleukin-8 production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032743",
+              "xref_name": "positive regulation of interleukin-2 production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033031",
+              "xref_name": "positive regulation of neutrophil apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035924",
+              "xref_name": "cellular response to vascular endothelial growth factor stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042102",
+              "xref_name": "positive regulation of T cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042119",
+              "xref_name": "neutrophil activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042127",
+              "xref_name": "regulation of cell population proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043066",
+              "xref_name": "negative regulation of apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045087",
+              "xref_name": "innate immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045627",
+              "xref_name": "positive regulation of T-helper 1 cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045629",
+              "xref_name": "negative regulation of T-helper 2 cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045920",
+              "xref_name": "negative regulation of exocytosis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046632",
+              "xref_name": "alpha-beta T cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046883",
+              "xref_name": "regulation of hormone secretion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050482",
+              "xref_name": "arachidonate secretion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050727",
+              "xref_name": "regulation of inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051051",
+              "xref_name": "negative regulation of transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051240",
+              "xref_name": "positive regulation of multicellular organismal process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071385",
+              "xref_name": "cellular response to glucocorticoid stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071621",
+              "xref_name": "granulocyte chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0090050",
+              "xref_name": "positive regulation of cell migration involved in sprouting angiogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0090303",
+              "xref_name": "positive regulation of wound healing",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0097350",
+              "xref_name": "neutrophil clearance",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0098609",
+              "xref_name": "cell-cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1900087",
+              "xref_name": "positive regulation of G1/S transition of mitotic cell cycle",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:533",
+              "xref_name": "ANXA1",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "P04083",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR001464",
+              "xref_name": "Annexin",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR002388",
+              "xref_name": "ANX1",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR018252",
+              "xref_name": "Annexin_repeat_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR018502",
+              "xref_name": "Annexin_repeat",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR037104",
+              "xref_name": "Annexin_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10502",
+              "xref_name": "ANNEXIN",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10502:SF17",
+              "xref_name": "ANNEXIN A1",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "1AIN",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1BO9",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1QLS",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5VFW",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1AIN",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1QLS",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF00191",
+              "xref_name": "Annexin",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA24823",
+              "xref_name": "annexin A1",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P04083",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-416476",
+              "xref_name": "G alpha (q) signalling events",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-418594",
+              "xref_name": "G alpha (i) signalling events",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-444473",
+              "xref_name": "Formyl peptide receptors bind formyl peptides and many other ligands",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-445355",
+              "xref_name": "Smooth Muscle Contraction",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-6785807",
+              "xref_name": "Interleukin-4 and Interleukin-13 signaling",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9925563",
+              "xref_name": "Developmental Lineage of Pancreatic Ductal Cells",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "B5BU38",
+              "xref_name": "Annexin A1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P04083",
+              "xref_name": "Annexin A1",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

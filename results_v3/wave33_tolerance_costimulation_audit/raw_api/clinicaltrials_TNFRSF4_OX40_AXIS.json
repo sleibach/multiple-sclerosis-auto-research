@@ -1,0 +1,240 @@
+{
+  "payload": {
+    "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxrZvel2_g",
+    "studies": [
+      {
+        "derivedSection": {
+          "conditionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D003240",
+                "term": "Connective Tissue Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              },
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D008180",
+                "term": "Lupus Erythematosus, Systemic"
+              }
+            ]
+          },
+          "miscInfoModule": {
+            "versionHolder": "2026-05-26"
+          }
+        },
+        "hasResults": false,
+        "protocolSection": {
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "interventionNames": [
+                  "Genetic: TNFS4, NCF gene"
+                ],
+                "label": "SLE patients",
+                "type": "EXPERIMENTAL"
+              }
+            ],
+            "interventions": [
+              {
+                "armGroupLabels": [
+                  "SLE patients"
+                ],
+                "description": "study the gene polymorphisms from the blood sample of the included SLE patients",
+                "name": "TNFS4, NCF gene",
+                "type": "GENETIC"
+              }
+            ]
+          },
+          "conditionsModule": {
+            "conditions": [
+              "System; Lupus Erythematosus"
+            ],
+            "keywords": [
+              "TNFS4, NCF gene"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "email": "yasmine.saad@aun.edu.eg",
+                "name": "Yasmine Makarem, Dr",
+                "phone": "+201002929015",
+                "role": "CONTACT"
+              },
+              {
+                "email": "marwa.a.galal@aun.edu.eg",
+                "name": "Marwa Galal, Dr",
+                "phone": "+201006783422",
+                "role": "CONTACT"
+              }
+            ]
+          },
+          "descriptionModule": {
+            "briefSummary": "the investigators objective is to identify the association of SNP polymorphisms in the TNFS4, and NCF gene and SLE Egyptian patients.",
+            "detailedDescription": "Systemic lupus erythematosus (SLE) is a chronic autoimmune disease characterized by clinical heterogeneity with variable severity. Among the SLE patients, two may share the same clinical manifestations but have different phenotypes.\n\nThis is why studies are searching for the different genes that might be associated with SLE susceptibility.\n\nThe Neutrophil cytosolic factor (NCF) Gene provide the instruction for the synthesis of group of proteins that form the NADPH oxidase enzyme complex, that is critical for the induction of reactive oxygen species (ROS) which in turn is important in the regulation of immune system.\n\nWhile the Tumor necrosis factor superfamily 4 (TNFSF4) encodes the ligand for OX40 (OX40L), which delivers a strong costimulatory signal to activated effector T-cells and enhances both Th1 and Th2 responses when engaged with its receptor. Therefore, increased levels of cell surface OX40L may augment B cell differentiation and proliferation. The consequence of which is that the resulting autoantibodies and immune complexes cause disease pathology in SLE.\n\nSo, NCF and TNFSF4 gene polymorphism are supposed to be associated with SLE risk and pathophysiology."
+          },
+          "designModule": {
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "maskingInfo": {
+                "masking": "NONE"
+              },
+              "primaryPurpose": "BASIC_SCIENCE"
+            },
+            "enrollmentInfo": {
+              "count": 65,
+              "type": "ESTIMATED"
+            },
+            "phases": [
+              "NA"
+            ],
+            "studyType": "INTERVENTIONAL"
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* SLE patients\n* patients older than 18 years old\n\nExclusion Criteria:\n\n* patients with other connective tissue diseases\n* patients older than 70 years old",
+            "healthyVolunteers": false,
+            "maximumAge": "70 Years",
+            "minimumAge": "18 Years",
+            "sex": "ALL",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "identificationModule": {
+            "briefTitle": "NCF Gene & TNFSF4 in SLE Patients",
+            "nctId": "NCT05314881",
+            "officialTitle": "Polymorphisms of the Tumor Necrosis Factor Superfamily 4 and Neutrophil Cytosolic Factor Gene in SLE Egyptian Patients.",
+            "orgStudyIdInfo": {
+              "id": "gene polymorphism in SLE"
+            },
+            "organization": {
+              "class": "OTHER",
+              "fullName": "Assiut University"
+            }
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "description": "Identify the number of Participants with SNP polymorphisms in the TNFS4, and NCF gene in SLE Egyptian patients and the relation between the concentration of polymorphism and disease activity",
+                "measure": "Concentration of gene polymorphism of the TNFS4 & NCF in SLE Egyptian patients.",
+                "timeFrame": "3 months"
+              }
+            ]
+          },
+          "oversightModule": {
+            "isFdaRegulatedDevice": false,
+            "isFdaRegulatedDrug": false
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "citation": "Aziz MM, Galal MAA, Elzohri MH, El-Nouby F, Leong KP. Cross-cultural adaptation and validation of Systemic Lupus Erythematosus Quality of Life questionnaire into Arabic. Lupus. 2018 Apr;27(5):780-787. doi: 10.1177/0961203317747714. Epub 2018 Jan 7.",
+                "pmid": "29308728",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Kaiser R, Criswell LA. Genetics research in systemic lupus erythematosus for clinicians: methodology, progress, and controversies. Curr Opin Rheumatol. 2010 Mar;22(2):119-25. doi: 10.1097/BOR.0b013e3283361943.",
+                "pmid": "20035223",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Holmdahl R, Sareila O, Olsson LM, Backdahl L, Wing K. Ncf1 polymorphism reveals oxidative regulation of autoimmune chronic inflammation. Immunol Rev. 2016 Jan;269(1):228-47. doi: 10.1111/imr.12378.",
+                "pmid": "26683156",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Lu MM, Xu WD, Yang J, Ye QL, Feng CC, Li J, Pan HF, Tao JH, Wang J, Ye DQ. Association of TNFSF4 polymorphisms with systemic lupus erythematosus: a meta-analysis. Mod Rheumatol. 2013 Jul;23(4):686-93. doi: 10.1007/s10165-012-0708-8. Epub 2012 Aug 1.",
+                "pmid": "22850862",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Lane P. Role of OX40 signals in coordinating CD4 T cell selection, migration, and cytokine differentiation in T helper (Th)1 and Th2 cells. J Exp Med. 2000 Jan 17;191(2):201-6. doi: 10.1084/jem.191.2.201. No abstract available.",
+                "pmid": "10637265",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Ito T, Wang YH, Duramad O, Hanabuchi S, Perng OA, Gilliet M, Qin FX, Liu YJ. OX40 ligand shuts down IL-10-producing regulatory T cells. Proc Natl Acad Sci U S A. 2006 Aug 29;103(35):13138-43. doi: 10.1073/pnas.0603107103. Epub 2006 Aug 21.",
+                "pmid": "16924108",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Croft M. The role of TNF superfamily members in T-cell function and diseases. Nat Rev Immunol. 2009 Apr;9(4):271-85. doi: 10.1038/nri2526.",
+                "pmid": "19319144",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Stuber E, Neurath M, Calderhead D, Fell HP, Strober W. Cross-linking of OX40 ligand, a member of the TNF/NGF cytokine family, induces proliferation and differentiation in murine splenic B cells. Immunity. 1995 May;2(5):507-21. doi: 10.1016/1074-7613(95)90031-4.",
+                "pmid": "7749983",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Olsson LM, Johansson AC, Gullstrand B, Jonsen A, Saevarsdottir S, Ronnblom L, Leonard D, Wettero J, Sjowall C, Svenungsson E, Gunnarsson I, Bengtsson AA, Holmdahl R. A single nucleotide polymorphism in the NCF1 gene leading to reduced oxidative burst is associated with systemic lupus erythematosus. Ann Rheum Dis. 2017 Sep;76(9):1607-1613. doi: 10.1136/annrheumdis-2017-211287. Epub 2017 Jun 12.",
+                "pmid": "28606963",
+                "type": "BACKGROUND"
+              }
+            ]
+          },
+          "sponsorCollaboratorsModule": {
+            "leadSponsor": {
+              "class": "OTHER",
+              "name": "Assiut University"
+            },
+            "responsibleParty": {
+              "investigatorAffiliation": "Assiut University",
+              "investigatorFullName": "Yasmine Saad Makarem",
+              "investigatorTitle": "Principal Investigator",
+              "type": "PRINCIPAL_INVESTIGATOR"
+            }
+          },
+          "statusModule": {
+            "completionDateStruct": {
+              "date": "2022-07",
+              "type": "ESTIMATED"
+            },
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "lastKnownStatus": "NOT_YET_RECRUITING",
+            "lastUpdatePostDateStruct": {
+              "date": "2022-04-06",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2022-04-04",
+            "overallStatus": "UNKNOWN",
+            "primaryCompletionDateStruct": {
+              "date": "2022-06",
+              "type": "ESTIMATED"
+            },
+            "startDateStruct": {
+              "date": "2022-04-01",
+              "type": "ESTIMATED"
+            },
+            "statusVerifiedDate": "2022-04",
+            "studyFirstPostDateStruct": {
+              "date": "2022-04-06",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2022-03-26",
+            "studyFirstSubmitQcDate": "2022-04-04"
+          }
+        }
+      }
+    ],
+    "totalCount": 6
+  },
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.term=TNFRSF4+OR+TNFSF4&query.cond=autoimmune+OR+multiple+sclerosis+OR+rheumatoid+arthritis+OR+lupus+OR+Crohn+OR+psoriasis&format=json&pageSize=1&countTotal=true"
+}

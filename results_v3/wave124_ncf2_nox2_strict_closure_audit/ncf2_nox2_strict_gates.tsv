@@ -1,0 +1,12 @@
+gate	pass	observed	required
+ms_nominal_support	True	p=0.0194216439823732; delta=0.5993704440951095	positive nominal MS signal
+ms_fdr_support	False	0.8372898579012464	FDR < 0.10 in MS
+cross_disease_cell_state_support	False	2	positive in >=3 diseases
+response_fdr_support	False	0	FDR10 treatment-response support
+target_resolution_not_no_go	False	NO_GO_WAVE62_TARGET_RESOLUTION	no target-resolution no-go
+ms_target_genetics	False	ms_l2g=0.0; ms_h4=0.0	MS target-resolved genetic support
+validated_real_perturbation	False	direct=0; crispr=UNRESOLVED	direct perturbation or FDR CRISPR support
+foundation_strong_not_weak	False	wave70c:support=3,strong=0,token_contexts=5	strong model support, not weak token support
+direction_and_host_defense_safe	False	NOX2 host-defense/CGD blocker present	no CGD/host-defense direction blocker
+selectively_druggable	False	0.0	selective chemical/modality route
+not_previously_closed	False	NO_REOPEN_BLOCKED_BRANCH	not a closed branch

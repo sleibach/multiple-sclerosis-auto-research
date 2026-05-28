@@ -1,0 +1,55 @@
+{
+  "payload": {
+    "hitCount": 7591,
+    "nextCursorMark": "AoIIQR80oSg1NTEzOTAyMA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=KEAP1 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQR80oSg1NTEzOTAyMA==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "KEAP1 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Liu Q, Li Z, Li S, Li Y, Pan H, Tao Y.",
+          "citedByCount": 0,
+          "doi": "10.3389/fimmu.2026.1770141",
+          "firstIndexDate": "2026-03-18",
+          "firstPublicationDate": "2026-03-02",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12989342"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "N",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41846928",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalIssn": "1664-3224",
+          "journalTitle": "Front Immunol",
+          "journalVolume": "17",
+          "pageInfo": "1770141",
+          "pmcid": "PMC12989342",
+          "pmid": "41846928",
+          "pubType": "review-article; review; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Vitamin D&lt;sub&gt;3&lt;/sub&gt; as an immunomodulatory agent: molecular mechanisms, clinical translation, and precision therapeutic strategies."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=KEAP1+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

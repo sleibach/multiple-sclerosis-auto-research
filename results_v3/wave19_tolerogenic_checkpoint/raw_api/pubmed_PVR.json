@@ -1,0 +1,35 @@
+{
+  "esearchresult": {
+    "count": "18",
+    "idlist": [
+      "40832357",
+      "40496440",
+      "40356928"
+    ],
+    "querytranslation": "(\"papillomavirus res\"[Journal] OR \"pvr\"[All Fields] OR (\"poliovirus receptor\"[Supplementary Concept] OR \"poliovirus receptor\"[All Fields] OR \"cd155\"[All Fields])) AND ((\"tigit protein human\"[Supplementary Concept] OR \"tigit protein human\"[All Fields] OR \"tigit\"[All Fields]) AND (\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields]))",
+    "retmax": "3",
+    "retstart": "0",
+    "translationset": [
+      {
+        "from": "PVR",
+        "to": "\"Papillomavirus Res\"[Journal:__jid101662552] OR \"pvr\"[All Fields]"
+      },
+      {
+        "from": "CD155",
+        "to": "\"poliovirus receptor\"[Supplementary Concept] OR \"poliovirus receptor\"[All Fields] OR \"cd155\"[All Fields]"
+      },
+      {
+        "from": "TIGIT",
+        "to": "\"tigit protein, human\"[Supplementary Concept] OR \"tigit protein, human\"[All Fields] OR \"tigit\"[All Fields]"
+      },
+      {
+        "from": "autoimmune",
+        "to": "\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields]"
+      }
+    ]
+  },
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  }
+}

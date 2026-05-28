@@ -1,0 +1,9 @@
+module	module_class	genes	n_genes	rationale	used_for_promotion	ebi3_handling
+ligand_production_core	ligand_production	CH25H;CYP7B1;HSD3B7;CYP27A1	4	Enzymes capable of producing or processing GPR183-relevant oxysterol ligands and sterol intermediates.	True	
+gpr183_receptor_anchor	receptor_anchor	GPR183	1	Direct EBI2 receptor anchor; promotion requires this signal, not only ligand enzymes.	True	
+lymphoid_trafficking_response	receptor_response	GPR183;CCR7;CCL19;CCL21;CXCL13;CXCR5;LTA;LTB	8	Migration and ectopic-lymphoid/niche genes expected to co-occur with a GPR183 trafficking axis.	True	
+myeloid_apc_migration_response	receptor_response	GPR183;CCR7;CCL19;CD83;LAMP3;ITGAX;CCL17;CCL22	8	Myeloid/DC activation and migration state that could host a local oxysterol-guided niche.	True	
+ifn_apc_comparator	specificity_comparator	STAT1;IRF1;CXCL10;ISG15;GBP1;IFI30;HLA-DRA;CD74	8	Interferon/APC comparator; GPR183 support should not be reducible to this axis.	False	
+generic_inflammation_comparator	specificity_comparator	TNF;IL1B;IL6;CXCL8;CCL2;CCL3;CCL4;NFKBIA;TNFAIP3	9	Generic inflammatory comparator.	False	
+apc_lysosome_comparator	specificity_comparator	CD74;HLA-DRA;HLA-DRB1;HLA-DPA1;HLA-DPB1;IFI30;CTSS;LAMP1;LAMP2	9	APC/lysosome comparator.	False	
+ebi3_nomenclature_control	negative_nomenclature_control	EBI3	1	EBI3 is not EBI2/GPR183; it is tracked only to avoid alias-driven false support.	False	excluded_from_GPR183_receptor_program

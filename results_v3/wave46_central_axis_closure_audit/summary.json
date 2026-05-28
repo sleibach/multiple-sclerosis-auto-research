@@ -1,0 +1,34 @@
+{
+  "date": "2026-05-27",
+  "final_call_counts": {
+    "NO_GO_BIOMARKER_NOT_TARGET": 1,
+    "NO_GO_CTSS_PRIOR_ART_DOWNSTREAM_EFFECTOR": 1,
+    "NO_GO_GENERIC_IFN_JAK_CONTROL": 1,
+    "NO_GO_HLAII_TF_GATE_UNDRUGGABLE": 1,
+    "NO_GO_IFI30_DOWNSTREAM_AND_UNTRACTABLE": 1
+  },
+  "inputs": [
+    "results_v3/central_and_intervention_candidate_rank.tsv",
+    "results_v3/mechanistic_model/ifng_apc_feedback_intervention_effects.tsv",
+    "results_v3/mechanistic_model/ifng_apc_feedback_summary.json",
+    "results_v3/wave14_target_level_genetics/target_level_genetics_truth_table.tsv",
+    "results_v3/wave15_loader_external_gate/loader_external_gate_summary.tsv",
+    "results_v3/wave19_lysosomal_controller/candidate_local_evidence.tsv",
+    "results_v3/wave19_lysosomal_controller/route_summary.tsv",
+    "results_v3/wave31_dynamic_transition_controller_audit/dynamic_transition_controller_audit.tsv",
+    "results_v3/wave34_genetics_expression_druggability_scan/wave34_genetics_expression_druggability_rank.tsv",
+    "results_v3/wave43_genetic_druggable_failfast/genetic_druggable_failfast.tsv",
+    "results_v3/wave45_regulatory_controller_audit/regulatory_controller_audit.tsv"
+  ],
+  "interpretation": "The original central IFN/HLA-II/lysosomal antigen-processing axes remain biologically central but none is a promotable V3 therapeutic finding. Upstream IFN/JAK control is too generic/prior-arted; CD74/HLA-II is a biomarker state; CIITA/RFX5 is undruggable transcriptional machinery; IFI30 and CTSS are downstream lysosomal effectors whose modeled perturbation does not control the upstream transition, with IFI30 lacking mature chemical matter and CTSS blocked by prior art.",
+  "model_summary_interpretation": "Across the tested feedback range, IFI30 suppression mainly reduces the lysosomal GILT component and does not match the broad Mixscale IFNGR/JAK perturbation effect on the IFN/APC or HLA-II/CD74 state. An IFI30 therapeutic hypothesis therefore requires either stronger direct autoimmune perturbation evidence or a narrower antigen-processing endpoint, not a claim of broad upstream IFN-state suppression.",
+  "n_axes": 5,
+  "outputs": {
+    "audit": "results_v3/wave46_central_axis_closure_audit/central_axis_closure_audit.tsv",
+    "gate_matrix": "results_v3/wave46_central_axis_closure_audit/central_axis_dod_gate_matrix.tsv",
+    "report": "results_v3/wave46_central_axis_closure_audit/REPORT.md",
+    "route_context": "results_v3/wave46_central_axis_closure_audit/wave19_cathepsin_ifi30_route_context.tsv"
+  },
+  "promoted_count": 0,
+  "random_seed": 20260527
+}

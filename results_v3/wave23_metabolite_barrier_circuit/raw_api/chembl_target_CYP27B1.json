@@ -1,0 +1,581 @@
+{
+  "page_meta": {
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 2
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "25-hydroxyvitamin D-1 alpha hydroxylase, mitochondrial",
+      "score": 14.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL5993",
+      "target_components": [
+        {
+          "accession": "O15528",
+          "component_description": "25-hydroxyvitamin D-1 alpha hydroxylase, mitochondrial",
+          "component_id": 5037,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "1.14.15.18",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "25-hydroxyvitamin D-1 alpha hydroxylase, mitochondrial",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "25-hydroxyvitamin D(3) 1-alpha-hydroxylase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "25-OHD-1 alpha-hydroxylase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Calcidiol 1-monooxygenase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CYP1ALPHA",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "CYP27B",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "CYP27B1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Cytochrome p450 27B1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Cytochrome P450C1 alpha",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Cytochrome P450 subfamily XXVIIB polypeptide 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Cytochrome P450VD1-alpha",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "VD3 1A hydroxylase",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "O15528",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "O15528",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005739",
+              "xref_name": "mitochondrion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005741",
+              "xref_name": "mitochondrial outer membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031966",
+              "xref_name": "mitochondrial membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0004497",
+              "xref_name": "monooxygenase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005506",
+              "xref_name": "iron ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016705",
+              "xref_name": "oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0062185",
+              "xref_name": "secalciferol 1-monooxygenase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006629",
+              "xref_name": "lipid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006816",
+              "xref_name": "calcium ion transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008285",
+              "xref_name": "negative regulation of cell population proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010956",
+              "xref_name": "negative regulation of calcidiol 1-monooxygenase activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010980",
+              "xref_name": "positive regulation of vitamin D 24-hydroxylase activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030282",
+              "xref_name": "bone mineralization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030308",
+              "xref_name": "negative regulation of cell growth",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030500",
+              "xref_name": "regulation of bone mineralization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0036378",
+              "xref_name": "calcitriol biosynthetic process from calciol",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042359",
+              "xref_name": "vitamin D metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042368",
+              "xref_name": "vitamin D biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042369",
+              "xref_name": "vitamin D catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045618",
+              "xref_name": "positive regulation of keratinocyte differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046697",
+              "xref_name": "decidualization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0055074",
+              "xref_name": "calcium ion homeostasis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070314",
+              "xref_name": "G1 to G0 transition",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070564",
+              "xref_name": "positive regulation of vitamin D receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:2606",
+              "xref_name": "CYP27B1",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "O15528",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR001128",
+              "xref_name": "Cyt_P450",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR002401",
+              "xref_name": "Cyt_P450_E_grp-I",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR017972",
+              "xref_name": "Cyt_P450_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036396",
+              "xref_name": "Cyt_P450_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR050479",
+              "xref_name": "CYP11_CYP27_families",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR24279",
+              "xref_name": "CYTOCHROME P450",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR24279:SF121",
+              "xref_name": "CYTOCHROME P450 FAMILY 27 SUBFAMILY B MEMBER 1",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00067",
+              "xref_name": "p450",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA27099",
+              "xref_name": "cytochrome P450 family 27 subfamily B member 1",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "O15528",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-196791",
+              "xref_name": "Vitamin D (calciferol) metabolism",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-211916",
+              "xref_name": "Vitamins",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5579014",
+              "xref_name": "Defective CYP27B1 causes VDDR1A",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "B2RC61",
+              "xref_name": "25-hydroxyvitamin D-1 alpha hydroxylase, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O15528",
+              "xref_name": "25-hydroxyvitamin D-1 alpha hydroxylase, mitochondrial",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q548T3",
+              "xref_name": "25-hydroxyvitamin D-1 alpha hydroxylase, mitochondrial",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    },
+    {
+      "cross_references": [],
+      "organism": "Mus musculus",
+      "pref_name": "25-hydroxyvitamin D-1 alpha hydroxylase, mitochondrial",
+      "score": 11.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL3329080",
+      "target_components": [
+        {
+          "accession": "O35084",
+          "component_description": "25-hydroxyvitamin D-1 alpha hydroxylase, mitochondrial",
+          "component_id": 9659,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "1.14.15.18",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "25-hydroxyvitamin D-1 alpha hydroxylase, mitochondrial",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "25-hydroxyvitamin D(3) 1-alpha-hydroxylase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "25-OHD-1 alpha-hydroxylase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Calcidiol 1-monooxygenase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Cyp27b",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Cyp27b1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Cyp40",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Cytochrome p450 27B1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Cytochrome P450C1 alpha",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Cytochrome P450 subfamily XXVIIB polypeptide 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Cytochrome P450VD1-alpha",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "VD3 1A hydroxylase",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "O35084",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "O35084",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005739",
+              "xref_name": "mitochondrion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031966",
+              "xref_name": "mitochondrial membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0004497",
+              "xref_name": "monooxygenase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005506",
+              "xref_name": "iron ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016705",
+              "xref_name": "oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0062185",
+              "xref_name": "secalciferol 1-monooxygenase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006629",
+              "xref_name": "lipid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006816",
+              "xref_name": "calcium ion transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008285",
+              "xref_name": "negative regulation of cell population proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030282",
+              "xref_name": "bone mineralization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030308",
+              "xref_name": "negative regulation of cell growth",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030500",
+              "xref_name": "regulation of bone mineralization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0036378",
+              "xref_name": "calcitriol biosynthetic process from calciol",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042359",
+              "xref_name": "vitamin D metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042368",
+              "xref_name": "vitamin D biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042369",
+              "xref_name": "vitamin D catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045618",
+              "xref_name": "positive regulation of keratinocyte differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046697",
+              "xref_name": "decidualization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0055074",
+              "xref_name": "calcium ion homeostasis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070314",
+              "xref_name": "G1 to G0 transition",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070564",
+              "xref_name": "positive regulation of vitamin D receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "IPR001128",
+              "xref_name": "Cyt_P450",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR002401",
+              "xref_name": "Cyt_P450_E_grp-I",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR017972",
+              "xref_name": "Cyt_P450_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036396",
+              "xref_name": "Cyt_P450_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR050479",
+              "xref_name": "CYP11_CYP27_families",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR24279",
+              "xref_name": "CYTOCHROME P450",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR24279:SF121",
+              "xref_name": "CYTOCHROME P450 FAMILY 27 SUBFAMILY B MEMBER 1",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00067",
+              "xref_name": "p450",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "R-MMU-196791",
+              "xref_name": "Vitamin D (calciferol) metabolism",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-MMU-211916",
+              "xref_name": "Vitamins",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "O35084",
+              "xref_name": "25-hydroxyvitamin D-1 alpha hydroxylase, mitochondrial",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 10090
+    }
+  ]
+}

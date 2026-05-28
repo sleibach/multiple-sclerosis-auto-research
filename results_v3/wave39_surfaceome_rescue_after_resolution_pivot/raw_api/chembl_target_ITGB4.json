@@ -1,0 +1,595 @@
+{
+  "page_meta": {
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Integrin beta-4",
+      "score": 20.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL6066233",
+      "target_components": [
+        {
+          "accession": "P16144",
+          "component_description": "Integrin beta-4",
+          "component_id": 23424,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "CD_antigen=CD104",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "GP150",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Integrin beta-4",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ITGB4",
+              "syn_type": "GENE_SYMBOL"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P16144",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P16144",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005604",
+              "xref_name": "basement membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005730",
+              "xref_name": "nucleolus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005925",
+              "xref_name": "focal adhesion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0008305",
+              "xref_name": "integrin complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009925",
+              "xref_name": "basal plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009986",
+              "xref_name": "cell surface",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0030054",
+              "xref_name": "cell junction",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0030056",
+              "xref_name": "hemidesmosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031252",
+              "xref_name": "cell leading edge",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031965",
+              "xref_name": "nuclear membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0043235",
+              "xref_name": "receptor complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070161",
+              "xref_name": "anchoring junction",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0001664",
+              "xref_name": "G protein-coupled receptor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005178",
+              "xref_name": "integrin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0031994",
+              "xref_name": "insulin-like growth factor I binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0038132",
+              "xref_name": "neuregulin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006914",
+              "xref_name": "autophagy",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007154",
+              "xref_name": "cell communication",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007155",
+              "xref_name": "cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007160",
+              "xref_name": "cell-matrix adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007229",
+              "xref_name": "integrin-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009611",
+              "xref_name": "response to wounding",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016477",
+              "xref_name": "cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0022011",
+              "xref_name": "myelination in peripheral nervous system",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031581",
+              "xref_name": "hemidesmosome assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032290",
+              "xref_name": "peripheral nervous system myelin formation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033627",
+              "xref_name": "cell adhesion mediated by integrin",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035878",
+              "xref_name": "nail development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043589",
+              "xref_name": "skin morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046847",
+              "xref_name": "filopodium assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048333",
+              "xref_name": "mesodermal cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048870",
+              "xref_name": "cell motility",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0061450",
+              "xref_name": "trophoblast cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0098609",
+              "xref_name": "cell-cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:6158",
+              "xref_name": "ITGB4",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "P16144",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR000742",
+              "xref_name": "EGF",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR002369",
+              "xref_name": "Integrin_bsu_VWA",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR003644",
+              "xref_name": "Calx_beta",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR003961",
+              "xref_name": "FN3_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR012013",
+              "xref_name": "Integrin_bsu-4",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR012896",
+              "xref_name": "Integrin_bsu_tail",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR013783",
+              "xref_name": "Ig-like_fold",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015812",
+              "xref_name": "Integrin_bsu",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016201",
+              "xref_name": "PSI",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR033760",
+              "xref_name": "Integrin_beta_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036116",
+              "xref_name": "FN3_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036349",
+              "xref_name": "Integrin_bsu_tail_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036465",
+              "xref_name": "vWFA_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR038081",
+              "xref_name": "CalX-like_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR040622",
+              "xref_name": "EGF_integrin_1",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR057243",
+              "xref_name": "Integrin_I-EGF_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10082",
+              "xref_name": "INTEGRIN BETA SUBUNIT",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10082:SF42",
+              "xref_name": "INTEGRIN BETA-4",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "1QG3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2YRZ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3F7P",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3F7Q",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3F7R",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3FQ4",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3FSO",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3H6A",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4Q58",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4WTW",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4WTX",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6GVK",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6GVL",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1QG3",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3F7P",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3F7Q",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3F7R",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3FQ4",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3FSO",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3H6A",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4Q58",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4WTW",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4WTX",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6GVK",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6GVL",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF00041",
+              "xref_name": "fn3",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF00362",
+              "xref_name": "Integrin_beta",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF03160",
+              "xref_name": "Calx-beta",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF07965",
+              "xref_name": "Integrin_B_tail",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF17205",
+              "xref_name": "PSI_integrin",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF18372",
+              "xref_name": "I-EGF_1",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF23106",
+              "xref_name": "EGF_Teneurin",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA29957",
+              "xref_name": "integrin subunit beta 4",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P16144",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-2022090",
+              "xref_name": "Assembly of collagen fibrils and other multimeric structures",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-3000157",
+              "xref_name": "Laminin interactions",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-3000170",
+              "xref_name": "Syndecan interactions",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-446107",
+              "xref_name": "Type I hemidesmosome assembly",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9725554",
+              "xref_name": "Differentiation of Keratinocytes in Interfollicular Epidermis in Mammalian Skin",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "A0AVL6",
+              "xref_name": "Integrin beta-4",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O14690",
+              "xref_name": "Integrin beta-4",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O14691",
+              "xref_name": "Integrin beta-4",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O15339",
+              "xref_name": "Integrin beta-4",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O15340",
+              "xref_name": "Integrin beta-4",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O15341",
+              "xref_name": "Integrin beta-4",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P16144",
+              "xref_name": "Integrin beta-4",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q0VF97",
+              "xref_name": "Integrin beta-4",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UIQ4",
+              "xref_name": "Integrin beta-4",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

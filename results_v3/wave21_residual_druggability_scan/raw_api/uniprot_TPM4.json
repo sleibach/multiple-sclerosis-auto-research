@@ -1,0 +1,104 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ATPM4%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P09495",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "1836432",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "28134622",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "35170221",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Binds to actin filaments in muscle and non-muscle cells. Plays a central role, in association with the troponin complex, in the calcium dependent regulation of vertebrate striated muscle contraction. Smooth muscle contraction is regulated by interaction with caldesmon. In non-muscle cells is implicated in stabilizing cytoskeleton actin filaments (By similarity). Binds calcium (PubMed:1836432). Plays a role in platelet biogenesis"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P09495",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "value": "Associates with F-actin stress fibers"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P09495",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0090",
+                "value": "Cytoplasm, cytoskeleton"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000001C65"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "TPM4"
+          }
+        }
+      ],
+      "primaryAccession": "P67936",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "TM30p1"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Tropomyosin-4"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Tropomyosin alpha-4 chain"
+          }
+        }
+      }
+    }
+  ]
+}

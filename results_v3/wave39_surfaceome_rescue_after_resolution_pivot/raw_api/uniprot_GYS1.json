@@ -1,0 +1,797 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "35835870",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Glycogen synthase participates in the glycogen biosynthetic process along with glycogenin and glycogen branching enzyme. Extends the primer composed of a few glucose units formed by glycogenin by adding new glucose units to it. In this context, glycogen synthase transfers the glycosyl residue from UDP-Glc to the non-reducing end of alpha-1,4-glucan"
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000000C44"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "35835870",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7Q13",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58223"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58223",
+            "name": "UDP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 39
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 39
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "35835870",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7Q13",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58885"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58885",
+            "name": "UDP-alpha-D-glucose"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 205
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 205
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "35835870",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7Q13",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58885"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58885",
+            "name": "UDP-alpha-D-glucose"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 211
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 211
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "in other chain",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "35835870",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7Q13",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58225"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58225",
+            "name": "alpha-D-glucose 6-phosphate",
+            "note": "allosteric activator; ligand shared between two neighboring subunits"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 291
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 291
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "in other chain",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "35835870",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7Q13",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58225"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58225",
+            "name": "alpha-D-glucose 6-phosphate",
+            "note": "allosteric activator; ligand shared between two neighboring subunits"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 292
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 292
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "35835870",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7Q12",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7Q13",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58225"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58225",
+            "name": "alpha-D-glucose 6-phosphate",
+            "note": "allosteric activator; ligand shared between two neighboring subunits"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 294
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 294
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "35835870",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7Q13",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58225"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58225",
+            "name": "alpha-D-glucose 6-phosphate",
+            "note": "allosteric activator; ligand shared between two neighboring subunits"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 297
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 297
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "35835870",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7Q13",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58225"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58225",
+            "name": "alpha-D-glucose 6-phosphate",
+            "note": "allosteric activator; ligand shared between two neighboring subunits"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 301
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 301
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "35835870",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7Q13",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58223"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58223",
+            "name": "UDP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 331
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 331
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "35835870",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7Q13",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58885"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58885",
+            "name": "UDP-alpha-D-glucose"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 331
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 331
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "35835870",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7Q12",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7Q13",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58225"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58225",
+            "name": "alpha-D-glucose 6-phosphate",
+            "note": "allosteric activator; ligand shared between two neighboring subunits"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 501
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 501
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "35835870",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7Q13",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58885"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58885",
+            "name": "UDP-alpha-D-glucose"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 510
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 510
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "35835870",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7Q13",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58885"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58885",
+            "name": "UDP-alpha-D-glucose"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 512
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 512
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "35835870",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7Q13",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58885"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58885",
+            "name": "UDP-alpha-D-glucose"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 513
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 513
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "35835870",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7Q13",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58223"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58223",
+            "name": "UDP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 515
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 515
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "35835870",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7Q12",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7Q13",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58225"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58225",
+            "name": "alpha-D-glucose 6-phosphate",
+            "note": "allosteric activator; ligand shared between two neighboring subunits"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 582
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 582
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "35835870",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7Q12",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7Q13",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58225"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58225",
+            "name": "alpha-D-glucose 6-phosphate",
+            "note": "allosteric activator; ligand shared between two neighboring subunits"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 586
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 586
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:4706",
+                "source": "HGNC"
+              }
+            ],
+            "value": "GYS1"
+          },
+          "synonyms": [
+            {
+              "value": "GYS"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0021",
+          "name": "Allosteric enzyme"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0219",
+          "name": "Diabetes mellitus"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0225",
+          "name": "Disease variant"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0320",
+          "name": "Glycogen biosynthesis"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0328",
+          "name": "Glycosyltransferase"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0808",
+          "name": "Transferase"
+        }
+      ],
+      "primaryAccession": "P13807",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000312",
+                  "id": "HGNC:4706",
+                  "source": "HGNC"
+                }
+              ],
+              "value": "Glycogen synthase 1"
+            }
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P13834",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000305",
+                  "id": "35835870",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "2.4.1.11"
+            }
+          ],
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Glycogen [starch] synthase, muscle"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "0E321BBFDEB0BD7F",
+        "length": 737,
+        "md5": "546AD6FA126B9D081343B007ACE563FF",
+        "molWeight": 83786,
+        "value": "MPLNRTLSMSSLPGLEDWEDEFDLENAVLFEVAWEVANKVGGIYTVLQTKAKVTGDEWGDNYFLVGPYTEQGVRTQVELLEAPTPALKRTLDSMNSKGCKVYFGRWLIEGGPLVVLLDVGASAWALERWKGELWDTCNIGVPWYDREANDAVLFGFLTTWFLGEFLAQSEEKPHVVAHFHEWLAGVGLCLCRARRLPVATIFTTHATLLGRYLCAGAVDFYNNLENFNVDKEAGERQIYHRYCMERAAAHCAHVFTTVSQITAIEAQHLLKRKPDIVTPNGLNVKKFSAMHEFQNLHAQSKARIQEFVRGHFYGHLDFNLDKTLYFFIAGRYEFSNKGADVFLEALARLNYLLRVNGSEQTVVAFFIMPARTNNFNVETLKGQAVRKQLWDTANTVKEKFGRKLYESLLVGSLPDMNKMLDKEDFTMMKRAIFATQRQSFPPVCTHNMLDDSSDPILTTIRRIGLFNSSADRVKVIFHPEFLSSTSPLLPVDYEEFVRGCHLGVFPSYYEPWGYTPAECTVMGIPSISTNLSGFGCFMEEHIADPSAYGIYILDRRFRSLDDSCSQLTSFLYSFCQQSRRQRIIQRNRTERLSDLLDWKYLGRYYMSARHMALSKAFPEHFTYEPNEADAAQGYRYPRPASVPPSPSLSRHSSPHQSEDEEDPRNGPLEEDGERYDEDEEAAKDRRNIRAPEWPRRASCTSSTSGSKRNSVDTATSSSLSTPSEPLSPTSSLGEERN"
+      },
+      "uniProtkbId": "GYS1_HUMAN"
+    }
+  ]
+}

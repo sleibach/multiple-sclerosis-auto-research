@@ -1,0 +1,61 @@
+{
+  "payload": {
+    "hitCount": 985,
+    "nextCursorMark": "AoIIQSV4fyg1NDAyMzAzMA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TNIP1 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQSV4fyg1NDAyMzAzMA==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "TNIP1 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Terzi U, Ates I, Erden A, Suzen S, Irham LM, Yilmaz S.",
+          "citedByCount": 0,
+          "doi": "10.1515/med-2025-1294",
+          "firstIndexDate": "2025-10-13",
+          "firstPublicationDate": "2025-10-06",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12514783"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "41079230",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "1",
+          "journalIssn": "2391-5463",
+          "journalTitle": "Open Med (Wars)",
+          "journalVolume": "20",
+          "pageInfo": "20251294",
+          "pmcid": "PMC12514783",
+          "pmid": "41079230",
+          "pubType": "research-article; journal article",
+          "pubYear": "2025",
+          "source": "MED",
+          "title": "Investigation of the pathogenic variants induced Sjogren's syndrome in Turkish population.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "refsnp"
+            ]
+          }
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TNIP1+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

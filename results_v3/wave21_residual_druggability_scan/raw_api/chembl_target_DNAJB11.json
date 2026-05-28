@@ -1,0 +1,298 @@
+{
+  "_request_url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=DNAJB11&limit=10",
+  "_status_code": 200,
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "DnaJ homolog subfamily B member 11",
+      "score": 15.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL6067236",
+      "target_components": [
+        {
+          "accession": "Q9UBS4",
+          "component_description": "DnaJ homolog subfamily B member 11",
+          "component_id": 24093,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "ABBP-2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "APOBEC1-binding protein 2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "DNAJB11",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "DnaJ homolog subfamily B member 11",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "DnaJ protein homolog 9",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "EDJ",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Endoplasmic reticulum DNA J domain-containing protein 3",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ER-associated DNAJ",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ER-associated Hsp40 co-chaperone",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ERdj3",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ERJ3",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "ERj3p",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ER-resident protein ERdj3",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "hDj-9",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "HDJ9",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "HEDJ",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Human DnaJ protein 9",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PWP1-interacting protein 4",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "Q9UBS4",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "GO:0005615",
+              "xref_name": "extracellular space",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005783",
+              "xref_name": "endoplasmic reticulum",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005788",
+              "xref_name": "endoplasmic reticulum lumen",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0034663",
+              "xref_name": "endoplasmic reticulum chaperone complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0101031",
+              "xref_name": "protein folding chaperone complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005102",
+              "xref_name": "signaling receptor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0051082",
+              "xref_name": "unfolded protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0051787",
+              "xref_name": "misfolded protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006457",
+              "xref_name": "protein folding",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016556",
+              "xref_name": "mRNA modification",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032781",
+              "xref_name": "positive regulation of ATP-dependent activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050768",
+              "xref_name": "negative regulation of neurogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051604",
+              "xref_name": "protein maturation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:14889",
+              "xref_name": "DNAJB11",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "Q9UBS4",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR001623",
+              "xref_name": "DnaJ_domain",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR002939",
+              "xref_name": "DnaJ_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR008971",
+              "xref_name": "HSP40/DnaJ_pept-bd",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR018253",
+              "xref_name": "DnaJ_domain_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036869",
+              "xref_name": "J_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR051736",
+              "xref_name": "DnaJ-B11-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR44298",
+              "xref_name": "DNAJ HOMOLOG SUBFAMILY B MEMBER 11",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR44298:SF1",
+              "xref_name": "DNAJ HOMOLOG SUBFAMILY B MEMBER 11",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00226",
+              "xref_name": "DnaJ",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF01556",
+              "xref_name": "DnaJ_C",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA27413",
+              "xref_name": "DnaJ heat shock protein family (Hsp40) member B11",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "Q9UBS4",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-381038",
+              "xref_name": "XBP1(S) activates chaperone genes",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "Q542Y5",
+              "xref_name": "DnaJ homolog subfamily B member 11",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q542Y9",
+              "xref_name": "DnaJ homolog subfamily B member 11",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q6IAQ8",
+              "xref_name": "DnaJ homolog subfamily B member 11",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q96JC6",
+              "xref_name": "DnaJ homolog subfamily B member 11",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UBS4",
+              "xref_name": "DnaJ homolog subfamily B member 11",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

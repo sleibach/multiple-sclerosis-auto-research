@@ -1,0 +1,918 @@
+{
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D020274",
+              "term": "Autoimmune Diseases of the Nervous System"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D058846",
+              "term": "Antibodies, Monoclonal, Murine-Derived"
+            },
+            {
+              "id": "D000911",
+              "term": "Antibodies, Monoclonal"
+            },
+            {
+              "id": "D000906",
+              "term": "Antibodies"
+            },
+            {
+              "id": "D007136",
+              "term": "Immunoglobulins"
+            },
+            {
+              "id": "D007162",
+              "term": "Immunoproteins"
+            },
+            {
+              "id": "D001798",
+              "term": "Blood Proteins"
+            },
+            {
+              "id": "D011506",
+              "term": "Proteins"
+            },
+            {
+              "id": "D000602",
+              "term": "Amino Acids, Peptides, and Proteins"
+            },
+            {
+              "id": "D012712",
+              "term": "Serum Globulins"
+            },
+            {
+              "id": "D005916",
+              "term": "Globulins"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D000069283",
+              "term": "Rituximab"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Patients with untreated anti-NMDAR encephalitis or with a decision to treat within the previous 30 days",
+              "interventionNames": [
+                "Other: We aim to assess the clinical response to the treatment initiation protocols most commonly used in autoimmune encephalitis (first-line, first-line with rituximab, dual immunosuppression)."
+              ],
+              "label": "group 1 : Patients with NMDAR encephalitis"
+            },
+            {
+              "description": "Patients with untreated anti-GAD encephalitis or with a decision to treat within the previous 30 days",
+              "interventionNames": [
+                "Other: We aim to assess the clinical response to the treatment initiation protocols most commonly used in autoimmune encephalitis (first-line, first-line with rituximab, dual immunosuppression)."
+              ],
+              "label": "group 2 : Patients with GAD encephalitis"
+            },
+            {
+              "description": "Patients with untreated anti-LGI1 encephalitis or with a decision to treat within the previous 30 days",
+              "interventionNames": [
+                "Other: We aim to assess the clinical response to the treatment initiation protocols most commonly used in autoimmune encephalitis (first-line, first-line with rituximab, dual immunosuppression)."
+              ],
+              "label": "group 3 : Patients with LGI1 encephalitis"
+            },
+            {
+              "description": "Patients with untreated anti-IgLON5 encephalitis or with a decision to treat within the previous 30 days",
+              "interventionNames": [
+                "Other: We aim to assess the clinical response to the treatment initiation protocols most commonly used in autoimmune encephalitis (first-line, first-line with rituximab, dual immunosuppression)."
+              ],
+              "label": "group 4 : Patients with IgLON5 encephalitis"
+            },
+            {
+              "description": "Patients with untreated anti-GFAP encephalitis or with a decision to treat within the previous 30 days",
+              "interventionNames": [
+                "Other: We aim to assess the clinical response to the treatment initiation protocols most commonly used in autoimmune encephalitis (first-line, first-line with rituximab, dual immunosuppression)."
+              ],
+              "label": "group 5 : Patients with GFAP encephalitis"
+            },
+            {
+              "description": "Patients with untreated anti-CASPR2 encephalitis or with a decision to treat within the previous 30 days",
+              "interventionNames": [
+                "Other: We aim to assess the clinical response to the treatment initiation protocols most commonly used in autoimmune encephalitis (first-line, first-line with rituximab, dual immunosuppression)."
+              ],
+              "label": "group 6 : Patients with CASPR2 encephalitis"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "group 1 : Patients with NMDAR encephalitis",
+                "group 2 : Patients with GAD encephalitis",
+                "group 3 : Patients with LGI1 encephalitis",
+                "group 4 : Patients with IgLON5 encephalitis",
+                "group 5 : Patients with GFAP encephalitis",
+                "group 6 : Patients with CASPR2 encephalitis"
+              ],
+              "description": "The patients will be identified via the French Nationwide Multidisciplinary Team Meetings for Autoimmune encephalitis, which are conducted on a bi-monthly basis. All patients with newly diagnosed NMDAR, LGI1, CASPR2, IgLON5, GFAP or GAD65 encephalitis and treated for less than 8 weeks will be included. Treatment protocols at the initiation of therapy will be stratified into: 1) first-line only; 2) rituximab without cyclophosphamide; 3) rituximab combined with cyclophosphamide; 4) others.\n\nThe referral clinicians will be contacted by email and the data will be collected using standardized questionnaires, which will be sent at baseline (visit 1, V1) and 4 months after the initiation of therapy (visit 2, V2). The questionnaires will be structured into 7 sections:\n\n* 1 Demographics\n* 2 Symptoms\n* 3 Cognitive screening tests (MMSE, MoCA, and/or others)\n* 4 Level of dependence (ADL, I-ADL, mRS, CASE) and impact on social life\n* 5 Diagnostic tests (brain MRI, brain PET, CSF, and EEG findings)",
+              "name": "We aim to assess the clinical response to the treatment initiation protocols most commonly used in autoimmune encephalitis (first-line, first-line with rituximab, dual immunosuppression).",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "NMDAR Autoimmune Encephalitis",
+            "LGI1 Antibody Associated Encephalitis",
+            "CASPR2-Antibody",
+            "IgLON5",
+            "GAD65",
+            "GFAP"
+          ],
+          "keywords": [
+            "Paraneoplastic neurological disorder",
+            "autoimmune encephalitis"
+          ]
+        },
+        "contactsLocationsModule": {
+          "centralContacts": [
+            {
+              "email": "bastien.joubert@chu-lyon.fr",
+              "name": "Bastien Pr JOUBERT",
+              "phone": "04 78 86 17 89",
+              "role": "CONTACT"
+            },
+            {
+              "email": "geraldine.picard@chu-lyon.fr",
+              "name": "G\u00e9raldine PICARD",
+              "phone": "04.72.35.58.42",
+              "role": "CONTACT"
+            }
+          ],
+          "locations": [
+            {
+              "city": "Bron",
+              "contacts": [
+                {
+                  "email": "bastien.joubert@chu-lyon.fr",
+                  "name": "Bastien JOUBERT, Professor",
+                  "phone": "04 78 86 17 89",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "France",
+              "facility": "Hospices Civil de Lyon",
+              "geoPoint": {
+                "lat": 45.73865,
+                "lon": 4.91303
+              },
+              "status": "RECRUITING",
+              "zip": "69677"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Autoimmune encephalitides are severe neurological disorders requiring urgent treatment, even though there is no standard guideline by lack of empirical evidence. Commonly used treatments are divided into so-called first-line (steroids, intravenous immunoglobulins, plasma exchanges) and second-line (rituximab, cyclophosphamide, tocilizumab, others), and may be used in association or sequentially. There is no standard practice, and initial treatment protocol may consist in first-line alone, first-line with rituximab, or first-line with dual immunosuppression (rituximab and cyclophosphamide). Absence of clear response to initial treatment in the first 4 to 6 weeks may indicate undertreatment and is generally followed by treatment escalation, mostly to dual immunosuppression. However, as the frequency of non-responders to initial treatment is unknown, it is still unclear whether dual immunosuppression should be offered to all patients from inception."
+        },
+        "designModule": {
+          "bioSpec": {
+            "description": "serum, DNA, CSF, PBMC",
+            "retention": "SAMPLES_WITH_DNA"
+          },
+          "designInfo": {
+            "observationalModel": "COHORT",
+            "timePerspective": "PROSPECTIVE"
+          },
+          "enrollmentInfo": {
+            "count": 200,
+            "type": "ESTIMATED"
+          },
+          "patientRegistry": false,
+          "studyType": "OBSERVATIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult or child patient with encephalitis defined as anti-GAD, NMDAR, LGI1, CASPR2, IgLON5 or GFAP\n* Untreated or with a decision to treat within the previous 30 days.\n\nExclusion Criteria:\n\n\\- Refusal by the referring doctor to participate or refusal by the patient mentioned in the objection to the use of his/her clinical data.",
+          "healthyVolunteers": false,
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "All Patients with autoimmune encephalitis defined anti-GAD NMDAR, LGI1, CASPR2, IgLON5 or GFAP and untreated within the previous 30 days"
+        },
+        "identificationModule": {
+          "acronym": "META",
+          "briefTitle": "Medium-term Effects of Treatments in Autoimmune Encephalitis",
+          "nctId": "NCT07133113",
+          "officialTitle": "Medium-term Effects of Treatments in Autoimmune Encephalitis (META): a Real-life, Observational Prospective Study",
+          "orgStudyIdInfo": {
+            "id": "24-5346"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Hospices Civils de Lyon"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Failure of the initial treatment protocol, reflected by the decision to escalate treatment between V1 and V2. Treatment escalation is defined as the addition of one or more second-line treatments more than 30 days after the start of the initial treatment.",
+              "measure": "Failure of the initial treatment protocol",
+              "timeFrame": "At baseline and 4 months after the initiation of therapy"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "isUsExport": false,
+          "oversightHasDmc": false
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Hospices Civils de Lyon"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2027-03-01",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2025-08-20",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2025-08-13",
+          "overallStatus": "RECRUITING",
+          "primaryCompletionDateStruct": {
+            "date": "2024-09-01",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2024-09-01",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2025-03",
+          "studyFirstPostDateStruct": {
+            "date": "2025-08-20",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2025-08-13",
+          "studyFirstSubmitQcDate": "2025-08-13"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D020274",
+              "term": "Autoimmune Diseases of the Nervous System"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Patients with well-characterized antibodies against onconeural antigens, synaptic or cell-surface antigens",
+              "interventionNames": [
+                "Genetic: GWAS"
+              ],
+              "label": "Autoimmune encephalitis and paraneoplastic neurological syndromes"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Autoimmune encephalitis and paraneoplastic neurological syndromes"
+              ],
+              "description": "This is a non-interventional study involving biological samples (DNA). Samples are already stored in biobank repositories and collected as part of \"good clinical practice\" in the diagnostic process of patients with suspected autoimmune encephalitis, meaning that the standard diagnostic and therapeutic approaches will not be altered in the selected study population. Patients have already gave explicit written consent for biological specimens sampling and storage at the \"Centre de Ressources Biologiques des Hospices Civils de Lyon\" (CRB-HCL)/NeuroBioTec (including tissue, cells or biological fluids) and genetic analysis for research purposes (e.g. involving genes related to the disease for which the patient was followed). Additionally, patients will be informed about the present study.",
+              "name": "GWAS",
+              "type": "GENETIC"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Autoimmune Encephalitis"
+          ],
+          "keywords": [
+            "Autoimmune Encephalitis",
+            "paraneoplastic neurological syndromes",
+            "NMDAr"
+          ]
+        },
+        "contactsLocationsModule": {
+          "centralContacts": [
+            {
+              "email": "jerome.honnorat@chu-lyon.fr",
+              "name": "Jerome HONNORAT, MD",
+              "phone": "(33) 4 72 35 78 08",
+              "role": "CONTACT"
+            },
+            {
+              "email": "geraldine.picard@chu-lyon.fr",
+              "name": "G\u00e9raldine PICARD, CRA",
+              "phone": "33) 4 72 35 58 42",
+              "role": "CONTACT"
+            }
+          ],
+          "locations": [
+            {
+              "city": "Lyon",
+              "country": "France",
+              "facility": "Centre de r\u00e9f\u00e9rence des syndromes neurologiques paran\u00e9oplasiques et enc\u00e9phalites auto-immunes",
+              "geoPoint": {
+                "lat": 45.74906,
+                "lon": 4.84789
+              },
+              "status": "RECRUITING"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Autoimmune encephalitis are characterized by the subacute development of memory deficits, altered mental status, and psychiatric symptoms, generally in association with anti-neuronal antibodies. Two main groups of autoimmune encephalitis may be distinguished based on the location of the targeted antigen: 1) Intracellular antigens, in which the antibodies are thought not to be pathogenic, and the disorders are usually strongly associated with cancer, constituting therefore paraneoplastic neurological syndromes; 2) Synaptic proteins and surface receptors, in which the antibodies are pathogenic and the frequency of cancer is variable depending on the antibody and the demographic characteristics of the patient.\n\nEncephalitis with antibodies against N-methy-D-aspartate receptor is the most common autoimmune encephalitis, being even more frequent than infectious etiologies. It is characterized by subacute onset of memory deficits, psychiatric symptoms, speech dysfunction, seizures, movement disorders, decreased level of consciousness, dysautonomia and central hypoventilation. Nearly 50% of women with anti-NMDAR encephalitis have an ovarian teratoma, while associated tumors in elderly patients are usually carcinomas. In contrast, most cases in children and young men are non-paraneoplastic. Recently, herpes-simplex encephalitis has been described as another trigger of NMDAR encephalitis. Conversely, for the vast majority of the non-paraneoplastic autoimmune encephalitis, no acquired triggers have been described so far.\n\nIn addition to acquired susceptibility, genetic predisposition may also be important in the pathogenesis of autoimmune encephalitis. The human leukocyte antigen (HLA) is the genetic factor most frequently associated with autoimmune diseases, and it has been already linked to a few autoimmune encephalitis, such as anti-leucine rich glioma inactivated 1 (LGI1), contactin-associated protein-like 2 (CASPR2), IgLON5, and glutamic acid decarboxylase 65 (GAD65) encephalitis. However, no HLA association has been reported for NMDAR encephalitis, suggesting that in this condition, and likely in others, non-HLA loci might be involved in the pathogenesis as well.\n\nGenome-wide association studies (GWAS) are useful tools to identify variants at genomic loci that are associated with complex diseases, and in particular, to detect associations between single-nucleotide polymorphisms (SNPs) and diseases. The aim of the study is to detect genetic variants in NMDAR encephalitis and other autoimmune encephalitis."
+        },
+        "designModule": {
+          "bioSpec": {
+            "description": "blood collected at diagnosis time",
+            "retention": "SAMPLES_WITH_DNA"
+          },
+          "designInfo": {
+            "observationalModel": "CASE_CONTROL",
+            "timePerspective": "PROSPECTIVE"
+          },
+          "enrollmentInfo": {
+            "count": 2000,
+            "type": "ESTIMATED"
+          },
+          "patientRegistry": false,
+          "studyType": "OBSERVATIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Presence of well-characterized antibodies in serum or cerebrospinal fluid;\n* Clinical picture compatible with the detected antibody based on the literature\n\nExclusion Criteria:\n\n* Absence of complete clinicobiological data.\n* Alternative diagnosis",
+          "healthyVolunteers": false,
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Patients with autoimmune encephalitis or paraneoplastic neurological syndromes whose samples were sent for analysis at Centre de R\u00e9f\u00e9rence des syndromes neurologiques paran\u00e9oplasiques et enc\u00e9phalites auto-immunes, Lyon, for anti-neural antibody study and then stored at the biobank Neurobiotec."
+        },
+        "identificationModule": {
+          "briefTitle": "GWAS in NMDAR Encephalitis",
+          "nctId": "NCT05225883",
+          "officialTitle": "GEnome-wide Association Study in N-methyl-D-Aspartate Receptor and Other autoiMmune Encephalitis.",
+          "orgStudyIdInfo": {
+            "id": "243"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Hospices Civils de Lyon"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Detection of genetic variants (SNPs) in autoimmune encephalitis",
+              "measure": "GWAS in autoimmune encephalitis",
+              "timeFrame": "24 month after the beginning of study"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Hospices Civils de Lyon"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2025-12",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastKnownStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2022-02-07",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2022-02-04",
+          "overallStatus": "UNKNOWN",
+          "primaryCompletionDateStruct": {
+            "date": "2023-12",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2020-12-15",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2022-02",
+          "studyFirstPostDateStruct": {
+            "date": "2022-02-07",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2022-01-25",
+          "studyFirstSubmitQcDate": "2022-02-04"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D020274",
+              "term": "Autoimmune Diseases of the Nervous System"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Adults patients who tested positive for anti-IgLON5 antibodies in the French Reference centre of Autoimmune Encephalitis",
+              "interventionNames": [
+                "Other: Evaluation of clinical and paraclinical data."
+              ],
+              "label": "Patients with anti-IgLON5 antibodies"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Patients with anti-IgLON5 antibodies"
+              ],
+              "description": "Retrospective data collection from available medical files of patient.",
+              "name": "Evaluation of clinical and paraclinical data.",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Anti-IgLON5 Disease"
+          ],
+          "keywords": [
+            "Anti-IgLON5 disease, autoimmune encephalitis, neural antibodies"
+          ]
+        },
+        "contactsLocationsModule": {
+          "centralContacts": [
+            {
+              "email": "jerome.honnorat@chu-lyon.fr",
+              "name": "Jerome Honnorat, professor",
+              "phone": "33472357806",
+              "role": "CONTACT"
+            },
+            {
+              "email": "marine.villard@chu-lyon.fr",
+              "name": "Marine Villard",
+              "phone": "0427855460",
+              "role": "CONTACT"
+            }
+          ],
+          "locations": [
+            {
+              "city": "Bron",
+              "contacts": [
+                {
+                  "email": "jerome.honnorat@chu-lyon.fr",
+                  "name": "J\u00e9rome Honnorat, professor",
+                  "phone": "+334 72 35 78 06",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "France",
+              "facility": "Hospices Civils de Lyon",
+              "geoPoint": {
+                "lat": 45.73865,
+                "lon": 4.91303
+              },
+              "status": "RECRUITING",
+              "zip": "69677"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Anti-IgLON5 disease is a neurological disorder associated with antibodies to IgLON5, a neuronal cell adhesion protein of unknown function. Most patients develop a combination of significant sleep disturbances (non-rapid eye movement (NREM) and rapid eye movement parasomnias with obstructive sleep apnoea), bulbar dysfunction (dysarthria, dysphagia, vocal cord paralysis or episodes of respiratory failure) and gait instability. Early autopsy studies showed deposits of phosphorylated tau protein mainly in neurons of the brainstem tegmentum, suggesting a primary neurodegenerative disease. However, the results of subsequent studies have provided increasing support for an immune-mediated pathogenesis. First, there is a strong association with the human leukocyte antigen (HLA) haplotype DRB1\\*10:01-DQB1\\*05 : 01, which is present in \\~60% of patients (compared to 2% in the normal population); secondly, recent autopsy studies have shown the absence of abnormal tau deposits; and thirdly, in live neurons in culture, IgLON5 antibodies cause irreversible loss of surface IgLON5 clusters and cytoskeletal changes such as dystrophic neurites and axonal bulges. Together, these studies suggest that antibody-mediated disruption of IgLON5 function leads to neurofilament and cytoskeletal alterations that can potentially result in tau accumulation.\n\nOver the last two years, an increase in diagnoses of anti-IgLON5 disease has been observed in the French Reference centre of Autoimmune Encephalitis. This could be related to a better knowledge of the disease, or to other yet unknown factors. Clinical characterisation of these patients is essential to understand the underlying reasons for the increase in diagnoses and to improve knowledge of this disease. Furthermore, the response of these patients to immunosuppressive drugs and the long-term prognosis remain unknown."
+        },
+        "designModule": {
+          "designInfo": {
+            "observationalModel": "COHORT",
+            "timePerspective": "RETROSPECTIVE"
+          },
+          "enrollmentInfo": {
+            "count": 50,
+            "type": "ESTIMATED"
+          },
+          "patientRegistry": false,
+          "studyType": "OBSERVATIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients \\> 18 ans\n* Anti-IgLON5 antibody positivity\n\nExclusion Criteria:\n\n\\- Lack of clinical data",
+          "minimumAge": "18 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "All patients tested positive for anti-IgLON5 antibodies."
+        },
+        "identificationModule": {
+          "acronym": "ICP-IGLON5",
+          "briefTitle": "Clinical Characterization and Outcome of Anti-IgLON5 Disease",
+          "nctId": "NCT06131346",
+          "officialTitle": "Identification, Clinical Characterization, and Prognosis of Anti-IgLON5 Disease",
+          "orgStudyIdInfo": {
+            "id": "69HCL23_1173"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Hospices Civils de Lyon"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Prevalence of :\n\n* Sleeping disorders\n* Respiratory dosorders\n* Cognitive disorders\n* Abnormal movements",
+              "measure": "Prevalence of IGLON5 disorder",
+              "timeFrame": "At baseline"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": false
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Hospices Civils de Lyon"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2023-12-31",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastKnownStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2023-11-14",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2023-11-09",
+          "overallStatus": "UNKNOWN",
+          "primaryCompletionDateStruct": {
+            "date": "2023-05-31",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2023-02-23",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2023-11",
+          "studyFirstPostDateStruct": {
+            "date": "2023-11-14",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2023-11-09",
+          "studyFirstSubmitQcDate": "2023-11-09"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "conditionsModule": {
+          "conditions": [
+            "Immunotherapy",
+            "ADR"
+          ],
+          "keywords": [
+            "PD1",
+            "immunotherapy"
+          ]
+        },
+        "contactsLocationsModule": {
+          "centralContacts": [
+            {
+              "email": "hongyanli09@126.com",
+              "name": "Hongyan Li",
+              "phone": "18600346925",
+              "role": "CONTACT"
+            },
+            {
+              "email": "2906066696@qq.com",
+              "name": "yanting zhou",
+              "phone": "18055074535",
+              "role": "CONTACT"
+            }
+          ],
+          "locations": [
+            {
+              "city": "Beijing",
+              "contacts": [
+                {
+                  "email": "hongyanli09@126.com",
+                  "name": "Hongyan Li",
+                  "phone": "18600346925",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "China",
+              "facility": "Xuanwu Hospital",
+              "geoPoint": {
+                "lat": 39.9075,
+                "lon": 116.39723
+              },
+              "state": "Beijing Municipality",
+              "status": "RECRUITING",
+              "zip": "100000"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Xuanwu Hospital, Beijing",
+              "name": "Hongyan Li, MD,PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The goal of this observational study is to learn about in the development process of adverse reactions of anti-PD1 immunotherapy. The main question it aims to observe:\n\n* The autoantibody profile of patients\n* The adverse reactions of patients\n* The changes of immune cells and cytokine in patients",
+          "detailedDescription": "The goal of this observational study is to learn about the development process of adverse reactions of anti-PD1 immunotherapy. The main question it aims to observe:\n\n* The autoantibody profile of patients\n* The adverse reactions of patients\n* The changes of immune cells and cytokine in patients (e.g., T cell, B cell, IL-6, etc.)"
+        },
+        "designModule": {
+          "bioSpec": {
+            "description": "Blood sample of patients"
+          },
+          "designInfo": {
+            "observationalModel": "COHORT",
+            "timePerspective": "PROSPECTIVE"
+          },
+          "enrollmentInfo": {
+            "count": 80,
+            "type": "ESTIMATED"
+          },
+          "patientRegistry": true,
+          "studyType": "OBSERVATIONAL",
+          "targetDuration": "6 Months"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age \u2265 18 years old.\n2. Receiving anti-PD1 immunotherapy\n\nExclusion Criteria:\n\n1. Vital signs are unstable\n2. Functional impairment of immune system caused by other diseases or other reasons, such as Systemic lupus erythematosus (SLE), AIDS, etc.",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "patients receiving anti-PD1 immunotherapy"
+        },
+        "identificationModule": {
+          "briefTitle": "A Prospective Study to Observe Adverse Effects in Patients Receiving Anti-PD1 Immunotherapy",
+          "nctId": "NCT05669638",
+          "officialTitle": "A Prospective Study to Observe Adverse Effects in Patients Receiving Anti-PD1 Immunotherapy",
+          "orgStudyIdInfo": {
+            "id": "hongyanli1"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Xuanwu Hospital, Beijing"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Including autoantibodies in Autoimmune encephalitis (NMDAR, AMPA1, AMPA2, CASPR2, GABABR, DPPX, IgLON5 and LGI1), myasthenia gravis (Including AChR, MuSK, LRP4, RyR, Titin), paraneoplastic neurologic syndromes (Hu, Yo, Ri, CV2, PNMA2, Amphiphysin, Recoverin, SOX1, Titin, Zic4, GAD65, Tr) and against gangliosides (GM1, GM2, GM3, GM4, GD1a, GD1b, GD2, GD3, GT1a, GT1b, GQ1b, Sulfatides).\n\nCell transfection, ELISpot and ELISA are designed to be used.",
+              "measure": "Autoantibodies",
+              "timeFrame": "Day 1"
+            },
+            {
+              "description": "Including autoantibodies in Autoimmune encephalitis (NMDAR, AMPA1, AMPA2, CASPR2, GABABR, DPPX, IgLON5 and LGI1), myasthenia gravis (Including AChR, MuSK, LRP4, RyR, Titin), paraneoplastic neurologic syndromes (Hu, Yo, Ri, CV2, PNMA2, Amphiphysin, Recoverin, SOX1, Titin, Zic4, GAD65, Tr) and against gangliosides (GM1, GM2, GM3, GM4, GD1a, GD1b, GD2, GD3, GT1a, GT1b, GQ1b, Sulfatides).\n\nCell transfection, ELISpot and ELISA are designed to be used.",
+              "measure": "Autoantibodies",
+              "timeFrame": "Week 9"
+            },
+            {
+              "description": "Including autoantibodies in Autoimmune encephalitis (NMDAR, AMPA1, AMPA2, CASPR2, GABABR, DPPX, IgLON5 and LGI1), myasthenia gravis (Including AChR, MuSK, LRP4, RyR, Titin), paraneoplastic neurologic syndromes (Hu, Yo, Ri, CV2, PNMA2, Amphiphysin, Recoverin, SOX1, Titin, Zic4, GAD65, Tr) and against gangliosides (GM1, GM2, GM3, GM4, GD1a, GD1b, GD2, GD3, GT1a, GT1b, GQ1b, Sulfatides).\n\nCell transfection, ELISpot and ELISA are designed to be used.",
+              "measure": "Autoantibodies",
+              "timeFrame": "Week 21"
+            },
+            {
+              "description": "Including autoantibodies in Autoimmune encephalitis (NMDAR, AMPA1, AMPA2, CASPR2, GABABR, DPPX, IgLON5 and LGI1), myasthenia gravis (Including AChR, MuSK, LRP4, RyR, Titin), paraneoplastic neurologic syndromes (Hu, Yo, Ri, CV2, PNMA2, Amphiphysin, Recoverin, SOX1, Titin, Zic4, GAD65, Tr) and against gangliosides (GM1, GM2, GM3, GM4, GD1a, GD1b, GD2, GD3, GT1a, GT1b, GQ1b, Sulfatides).\n\nCell transfection, ELISpot and ELISA are designed to be used.",
+              "measure": "Autoantibodies",
+              "timeFrame": "Week 33"
+            },
+            {
+              "description": "Including autoantibodies in Autoimmune encephalitis (NMDAR, AMPA1, AMPA2, CASPR2, GABABR, DPPX, IgLON5 and LGI1), myasthenia gravis (Including AChR, MuSK, LRP4, RyR, Titin), paraneoplastic neurologic syndromes (Hu, Yo, Ri, CV2, PNMA2, Amphiphysin, Recoverin, SOX1, Titin, Zic4, GAD65, Tr) and against gangliosides (GM1, GM2, GM3, GM4, GD1a, GD1b, GD2, GD3, GT1a, GT1b, GQ1b, Sulfatides).\n\nCell transfection, ELISpot and ELISA are designed to be used.",
+              "measure": "Autoantibodies",
+              "timeFrame": "Week 45"
+            },
+            {
+              "description": "Including polyradiculopathies, neuropathies, myasthenic syndromes, myopathies, hypophysitis, aseptic meningitis, encephalitis, multiple sclerosis and other complications.",
+              "measure": "the change of immune-related adverse events",
+              "timeFrame": "baseline to Week 45"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Including T cell, B cell, etc. Using flow cytometry",
+              "measure": "the immune cell (Including T cell, B cell, etc.)",
+              "timeFrame": "Day 1"
+            },
+            {
+              "description": "Using flow cytometry",
+              "measure": "the immune cell (Including T cell, B cell, etc.)",
+              "timeFrame": "Week 9"
+            },
+            {
+              "description": "Using flow cytometry",
+              "measure": "the immune cell (Including T cell, B cell, etc.)",
+              "timeFrame": "Week 21"
+            },
+            {
+              "description": "Using flow cytometry",
+              "measure": "the immune cell (Including T cell, B cell, etc.)",
+              "timeFrame": "Week 33"
+            },
+            {
+              "description": "Using flow cytometry",
+              "measure": "the immune cell (Including T cell, B cell, etc.)",
+              "timeFrame": "Week 45"
+            },
+            {
+              "description": "Including IL-6, IL-17, etc.",
+              "measure": "the cytokine",
+              "timeFrame": "Day 1"
+            },
+            {
+              "description": "Including IL-6, IL-17, etc.",
+              "measure": "the cytokine",
+              "timeFrame": "Week 9"
+            },
+            {
+              "description": "Including IL-6, IL-17, etc.",
+              "measure": "the cytokine",
+              "timeFrame": "Week 21"
+            },
+            {
+              "description": "Including IL-6, IL-17, etc.",
+              "measure": "the cytokine",
+              "timeFrame": "Week 33"
+            },
+            {
+              "description": "Including IL-6, IL-17, etc.",
+              "measure": "the cytokine",
+              "timeFrame": "Week 45"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "isUsExport": false,
+          "oversightHasDmc": true
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Xuanwu Hospital, Beijing"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2025-05-01",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastKnownStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2024-02-09",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2024-02-07",
+          "overallStatus": "UNKNOWN",
+          "primaryCompletionDateStruct": {
+            "date": "2025-05-01",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2023-05-01",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2024-01",
+          "studyFirstPostDateStruct": {
+            "date": "2023-01-03",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2022-11-21",
+          "studyFirstSubmitQcDate": "2022-12-26"
+        }
+      }
+    }
+  ]
+}

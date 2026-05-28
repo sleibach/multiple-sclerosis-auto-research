@@ -1,0 +1,85 @@
+{
+  "candidate_promotion_call_counts": {
+    "NO_GO": 61,
+    "PARK_EXTERNAL_TARGET_LOOKUP_ONLY": 1
+  },
+  "date": "2026-05-27",
+  "deconvolution_call_counts": {
+    "NO_GO_ANTIMETABOLITE_SAFETY_PRIOR": 1,
+    "NO_GO_ANTIPARASITIC_MICROTUBULE": 1,
+    "NO_GO_GENERIC_NFKB_TOOL": 1,
+    "NO_GO_ONCOLOGY_CELL_CYCLE": 1,
+    "NO_GO_PLEIOTROPIC_NATURAL_PRODUCT": 1,
+    "NO_GO_PLEIOTROPIC_PURINE_SIGNALING": 1,
+    "NO_GO_PRIOR_GENERIC_LIPID_MEDIATOR": 2,
+    "NO_GO_STEROID_PRIOR": 3,
+    "NO_GO_UNRESOLVED": 45,
+    "NO_GO_UNRESOLVED_KINASE_TOOL": 2,
+    "NO_GO_UNRESOLVED_TOOL_COMPOUND": 3,
+    "PARK_ALIAS_NEEDS_EXTERNAL_TARGETING": 1
+  },
+  "input_paths": {
+    "lincs_compoundinfo": "data/raw_v3/lincs2020/compoundinfo_beta.txt",
+    "recurrent_wave24": "results_v3/wave24_l1000_recurrent_reversal/recurrent_l1000_compound_triage.tsv"
+  },
+  "interpretation": "Local LINCS metadata deconvolves several recurrent unknown hits into prostaglandin, purine/cAMP, Aurora kinase, and polyphenol/tool-compound biology. None supplies a selective, non-prior autoimmune intervention point. Unresolved BRDs remain no-go because target/MOA cannot be inferred from local metadata.",
+  "n_recurrent_unknown_compounds": 6,
+  "n_unknown_parked_compounds": 62,
+  "random_seed": 20260527,
+  "recurrent_unknown_examples": [
+    {
+      "compound_aliases": null,
+      "deconvolution_call": "NO_GO_UNRESOLVED",
+      "lincs_cmap_name": "BRD-K05197617",
+      "n_opposite_queries": 2,
+      "pert_id": "BRD-K05197617",
+      "reason": "no local target/MOA/alias sufficient for a therapeutic claim",
+      "resolved_mechanism": "unresolved BRD structure"
+    },
+    {
+      "compound_aliases": "2',5'-dideoxyadenosine",
+      "deconvolution_call": "NO_GO_PLEIOTROPIC_PURINE_SIGNALING",
+      "lincs_cmap_name": "BRD-A20131130",
+      "n_opposite_queries": 2,
+      "pert_id": "BRD-A20131130",
+      "reason": "broad purine/cAMP perturbation lacks selectivity, autoimmune target engagement, and CNS/tissue therapeutic rationale",
+      "resolved_mechanism": "purine nucleoside / adenylyl-cyclase P-site inhibitor class"
+    },
+    {
+      "compound_aliases": "aurora-a-inhibitor-i",
+      "deconvolution_call": "NO_GO_ONCOLOGY_CELL_CYCLE",
+      "lincs_cmap_name": "KIN-001-220",
+      "n_opposite_queries": 2,
+      "pert_id": "BRD-K53561341",
+      "reason": "cell-cycle kinase inhibition is an oncology/cytotoxic mechanism, not selective autoimmune module control",
+      "resolved_mechanism": "Aurora kinase inhibitor"
+    },
+    {
+      "compound_aliases": "16,16-dimethylprostaglandin-e2",
+      "deconvolution_call": "NO_GO_PRIOR_GENERIC_LIPID_MEDIATOR",
+      "lincs_cmap_name": "BRD-K92301463",
+      "n_opposite_queries": 2,
+      "pert_id": "BRD-K92301463",
+      "reason": "prostanoid/eicosanoid immunomodulation is generic and already rejected in Wave23-A; direction and receptor selectivity are not established by L1000 reversal",
+      "resolved_mechanism": "PGE2/prostanoid analog"
+    },
+    {
+      "compound_aliases": null,
+      "deconvolution_call": "NO_GO_UNRESOLVED",
+      "lincs_cmap_name": "BRD-K35024477",
+      "n_opposite_queries": 2,
+      "pert_id": "BRD-K35024477",
+      "reason": "no local target/MOA/alias sufficient for a therapeutic claim",
+      "resolved_mechanism": "unresolved BRD structure"
+    },
+    {
+      "compound_aliases": "isoliquiritigenin",
+      "deconvolution_call": "NO_GO_PLEIOTROPIC_NATURAL_PRODUCT",
+      "lincs_cmap_name": "BRD-K33583600",
+      "n_opposite_queries": 2,
+      "pert_id": "BRD-K33583600",
+      "reason": "pleiotropic natural-product activity cannot define a druggable target or selective intervention point",
+      "resolved_mechanism": "polyphenol/flavonoid electrophile-like pleiotropic anti-inflammatory compound"
+    }
+  ]
+}

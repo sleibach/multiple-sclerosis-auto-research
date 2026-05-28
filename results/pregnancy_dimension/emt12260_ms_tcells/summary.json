@@ -1,0 +1,194 @@
+{
+  "dataset": "E-MTAB-12260",
+  "n_samples": 198,
+  "excluded_files": [
+    {
+      "file": "Sample127.txt",
+      "reason": "not_gene_count_table"
+    },
+    {
+      "file": "Sample76.txt",
+      "reason": "not_gene_count_table"
+    },
+    {
+      "file": "Sample80.txt",
+      "reason": "not_gene_count_table"
+    },
+    {
+      "file": "Sample94.txt",
+      "reason": "not_gene_count_table"
+    }
+  ],
+  "n_genes": 13811,
+  "analysis_scope": "sorted CD4/CD8 T cells from MS and normal pregnancy; not PBMC APC",
+  "key_ms_contrasts": [
+    {
+      "disease": "multiple sclerosis",
+      "module": "hla_ii_only",
+      "contrast": "3rd trimester - before pregnancy",
+      "n_a": 28,
+      "n_b": 13,
+      "mean_a": -0.04012431798280447,
+      "mean_b": 0.19711234429332322,
+      "delta": -0.2372366622761277,
+      "hedges_g": -0.25524400329789704,
+      "welch_p": 0.4173934219547913
+    },
+    {
+      "disease": "multiple sclerosis",
+      "module": "hla_ii_only",
+      "contrast": "postpartum - 3rd trimester",
+      "n_a": 26,
+      "n_b": 28,
+      "mean_a": -0.15611853113098048,
+      "mean_b": -0.04012431798280447,
+      "delta": -0.11599421314817601,
+      "hedges_g": -0.1347808980139276,
+      "welch_p": 0.6141086883175029
+    },
+    {
+      "disease": "multiple sclerosis",
+      "module": "ifn_apc",
+      "contrast": "3rd trimester - before pregnancy",
+      "n_a": 28,
+      "n_b": 13,
+      "mean_a": 0.0516989946495484,
+      "mean_b": -0.030831308903807843,
+      "delta": 0.08253030355335625,
+      "hedges_g": 0.11054038575480594,
+      "welch_p": 0.7472263368329753
+    },
+    {
+      "disease": "multiple sclerosis",
+      "module": "ifn_apc",
+      "contrast": "postpartum - 3rd trimester",
+      "n_a": 26,
+      "n_b": 28,
+      "mean_a": -0.05144949913040256,
+      "mean_b": 0.0516989946495484,
+      "delta": -0.10314849377995096,
+      "hedges_g": -0.1276272410312533,
+      "welch_p": 0.6391311163301064
+    },
+    {
+      "disease": "multiple sclerosis",
+      "module": "lysosomal_apc",
+      "contrast": "3rd trimester - before pregnancy",
+      "n_a": 28,
+      "n_b": 13,
+      "mean_a": 0.018637561480401972,
+      "mean_b": 0.17879557965040943,
+      "delta": -0.16015801817000747,
+      "hedges_g": -0.20503538474118935,
+      "welch_p": 0.49695508400793986
+    },
+    {
+      "disease": "multiple sclerosis",
+      "module": "lysosomal_apc",
+      "contrast": "postpartum - 3rd trimester",
+      "n_a": 26,
+      "n_b": 28,
+      "mean_a": -0.14204129890193282,
+      "mean_b": 0.018637561480401972,
+      "delta": -0.16067886038233478,
+      "hedges_g": -0.209293194855586,
+      "welch_p": 0.4359436429296104
+    },
+    {
+      "disease": "multiple sclerosis",
+      "module": "mif_cd74_receptor_state",
+      "contrast": "3rd trimester - before pregnancy",
+      "n_a": 28,
+      "n_b": 13,
+      "mean_a": -0.03109040013903572,
+      "mean_b": 0.07071734404680738,
+      "delta": -0.1018077441858431,
+      "hedges_g": -0.15327801999010318,
+      "welch_p": 0.6126888910327701
+    },
+    {
+      "disease": "multiple sclerosis",
+      "module": "mif_cd74_receptor_state",
+      "contrast": "postpartum - 3rd trimester",
+      "n_a": 26,
+      "n_b": 28,
+      "mean_a": -0.11485161065405608,
+      "mean_b": -0.03109040013903572,
+      "delta": -0.08376121051502036,
+      "hedges_g": -0.13578698209258053,
+      "welch_p": 0.6108469491965408
+    },
+    {
+      "disease": "multiple sclerosis",
+      "module": "monocyte_cd64",
+      "contrast": "3rd trimester - before pregnancy",
+      "n_a": 28,
+      "n_b": 13,
+      "mean_a": 0.07546731916977246,
+      "mean_b": -0.010450018136103955,
+      "delta": 0.08591733730587642,
+      "hedges_g": 0.14711573062102914,
+      "welch_p": 0.6049018601346262
+    },
+    {
+      "disease": "multiple sclerosis",
+      "module": "monocyte_cd64",
+      "contrast": "postpartum - 3rd trimester",
+      "n_a": 26,
+      "n_b": 28,
+      "mean_a": -0.1063457312592375,
+      "mean_b": 0.07546731916977246,
+      "delta": -0.18181305042900997,
+      "hedges_g": -0.29387643719536105,
+      "welch_p": 0.27719301225642345
+    },
+    {
+      "disease": "multiple sclerosis",
+      "module": "regulatory_pregnancy",
+      "contrast": "3rd trimester - before pregnancy",
+      "n_a": 28,
+      "n_b": 13,
+      "mean_a": -0.09242026633539975,
+      "mean_b": 0.0023943446136035123,
+      "delta": -0.09481461094900326,
+      "hedges_g": -0.1987295235687202,
+      "welch_p": 0.5573204527731118
+    },
+    {
+      "disease": "multiple sclerosis",
+      "module": "regulatory_pregnancy",
+      "contrast": "postpartum - 3rd trimester",
+      "n_a": 26,
+      "n_b": 28,
+      "mean_a": 0.020150022309645466,
+      "mean_b": -0.09242026633539975,
+      "delta": 0.11257028864504522,
+      "hedges_g": 0.24120816092720027,
+      "welch_p": 0.3727768453666867
+    },
+    {
+      "disease": "multiple sclerosis",
+      "module": "trafficking_th",
+      "contrast": "3rd trimester - before pregnancy",
+      "n_a": 28,
+      "n_b": 13,
+      "mean_a": -0.09097610970219025,
+      "mean_b": 0.10220946369224909,
+      "delta": -0.19318557339443934,
+      "hedges_g": -0.3433987567286821,
+      "welch_p": 0.2993709764974957
+    },
+    {
+      "disease": "multiple sclerosis",
+      "module": "trafficking_th",
+      "contrast": "postpartum - 3rd trimester",
+      "n_a": 26,
+      "n_b": 28,
+      "mean_a": 0.21104958919761854,
+      "mean_b": -0.09097610970219025,
+      "delta": 0.3020256988998088,
+      "hedges_g": 0.5685553671142366,
+      "welch_p": 0.03795138383060487
+    }
+  ]
+}

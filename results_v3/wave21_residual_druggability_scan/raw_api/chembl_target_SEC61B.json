@@ -1,0 +1,284 @@
+{
+  "_request_url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=SEC61B&limit=10",
+  "_status_code": 200,
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Protein transport protein Sec61 subunit beta",
+      "score": 20.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL6067175",
+      "target_components": [
+        {
+          "accession": "P60468",
+          "component_description": "Protein transport protein Sec61 subunit beta",
+          "component_id": 24032,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "Protein transport protein Sec61 subunit beta",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "SEC61B",
+              "syn_type": "GENE_SYMBOL"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P60468",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P60468",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005783",
+              "xref_name": "endoplasmic reticulum",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005784",
+              "xref_name": "Sec61 translocon complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005789",
+              "xref_name": "endoplasmic reticulum membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031205",
+              "xref_name": "endoplasmic reticulum Sec complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0044322",
+              "xref_name": "endoplasmic reticulum quality control compartment",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0003723",
+              "xref_name": "RNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005085",
+              "xref_name": "guanyl-nucleotide exchange factor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0043022",
+              "xref_name": "ribosome binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0048408",
+              "xref_name": "epidermal growth factor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006616",
+              "xref_name": "SRP-dependent cotranslational protein targeting to membrane, translocation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006886",
+              "xref_name": "intracellular protein transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0015031",
+              "xref_name": "protein transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030970",
+              "xref_name": "retrograde protein transport, ER to cytosol",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031204",
+              "xref_name": "post-translational protein targeting to membrane, translocation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0036503",
+              "xref_name": "ERAD pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:16993",
+              "xref_name": "SEC61B",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "P60468",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR016482",
+              "xref_name": "SecG/Sec61-beta/Sbh",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR030671",
+              "xref_name": "Sec61-beta/Sbh",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR13509",
+              "xref_name": "SEC61 SUBUNIT BETA",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "6W6L",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8B6L",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8DNV",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8DNW",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8DNX",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8DNY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8DNZ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8DO0",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8DO1",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8DO2",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8DO3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8OJ0",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8OJ8",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "PF03911",
+              "xref_name": "Sec61_beta",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA134888963",
+              "xref_name": "SEC61 translocon subunit beta",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P60468",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-1236974",
+              "xref_name": "ER-Phagosome pathway",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-1799339",
+              "xref_name": "SRP-dependent cotranslational protein targeting to membrane",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9609523",
+              "xref_name": "Insertion of tail-anchored proteins into the endoplasmic reticulum membrane",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P38390",
+              "xref_name": "Protein transport protein Sec61 subunit beta",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P38391",
+              "xref_name": "Protein transport protein Sec61 subunit beta",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P60468",
+              "xref_name": "Protein transport protein Sec61 subunit beta",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q6IBC1",
+              "xref_name": "Protein transport protein Sec61 subunit beta",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "input": "results/discovery_pseudobulk_scores.tsv",
+  "scope": "Local pseudobulk score table; tests CD74/HLA-II components, not full MIF/CD74/CD44/CXCR4 receptor complex because MIF/CD44/CXCR4 are absent.",
+  "n_rows": 88,
+  "components": {
+    "cd74_alone": [
+      "CD74"
+    ],
+    "hla_ii_without_cd74": [
+      "HLA-DRA",
+      "HLA-DPA1",
+      "HLA-DPB1"
+    ],
+    "hla_ii_with_cd74": [
+      "CD74",
+      "HLA-DRA",
+      "HLA-DPA1",
+      "HLA-DPB1"
+    ],
+    "lysosomal_partial": [
+      "CTSB",
+      "CD68"
+    ],
+    "myeloid_lipid_partial": [
+      "APOE",
+      "C1QA",
+      "C1QB",
+      "C1QC",
+      "TREM2",
+      "LPL",
+      "GPNMB"
+    ]
+  },
+  "cd74_residual_nominal_positive_count": 2,
+  "cd74_residual_nominal_positive_rows": [
+    {
+      "cell_type": "opc",
+      "component": "cd74_alone",
+      "contrast": "inactive_edge_vs_control_wm",
+      "case_pathology": "chronic_inactive_MS_lesion_edge",
+      "control_pathology": "control_white_matter",
+      "covariate_r2": 0.3974119752087806,
+      "raw_n_case": 4,
+      "raw_n_control": 3,
+      "raw_delta": 0.9698582560266515,
+      "raw_hedges_g": 4.071467222134871,
+      "raw_p": 0.004929595337576598,
+      "residual_n_case": 4,
+      "residual_n_control": 3,
+      "residual_delta": 0.823574133560422,
+      "residual_hedges_g": 2.4026383281291372,
+      "residual_p": 0.013912513736498135,
+      "raw_fdr": 0.05176075104455428,
+      "residual_fdr": 0.5043699662983264
+    },
+    {
+      "cell_type": "opc",
+      "component": "cd74_alone",
+      "contrast": "lesion_core_vs_control_wm",
+      "case_pathology": "MS_lesion_core",
+      "control_pathology": "control_white_matter",
+      "covariate_r2": 0.3974119752087806,
+      "raw_n_case": 2,
+      "raw_n_control": 3,
+      "raw_delta": 1.3709288359327347,
+      "raw_hedges_g": 7.984214239748073,
+      "raw_p": 0.07072921000052973,
+      "residual_n_case": 2,
+      "residual_n_control": 3,
+      "residual_delta": 0.8760042865525401,
+      "residual_hedges_g": 2.615580201377954,
+      "residual_p": 0.023540505154801952,
+      "raw_fdr": 0.3228942195676357,
+      "residual_fdr": 0.5043699662983264
+    }
+  ]
+}

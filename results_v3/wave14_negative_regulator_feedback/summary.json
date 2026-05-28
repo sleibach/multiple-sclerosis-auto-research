@@ -1,0 +1,114 @@
+{
+  "genes": [
+    "PTPN2",
+    "TNFAIP3",
+    "SH2B3",
+    "CLEC16A",
+    "SLC15A4",
+    "CD74",
+    "CTSS",
+    "CIITA",
+    "RFX5"
+  ],
+  "modules": [
+    "ifn_apc",
+    "hla_ii_apc",
+    "mif_cd74_receptor_state",
+    "mixscale_validated_ifng_readout",
+    "lysosomal_apc"
+  ],
+  "n_correlations": 4320,
+  "interpretation": "Brake-like support would require repeated negative correlations with IFN/HLA/CD74 modules. Repeated positive correlations indicate feedback/state-marker behavior.",
+  "summary": [
+    {
+      "gene": "CD74",
+      "n_tests": 240,
+      "n_brake_like_negative": 2,
+      "n_feedback_like_positive": 172,
+      "n_weak_negative": 8,
+      "n_weak_positive": 33,
+      "median_spearman_r": 0.7714285714285715,
+      "informative_relationships": 215
+    },
+    {
+      "gene": "CTSS",
+      "n_tests": 240,
+      "n_brake_like_negative": 11,
+      "n_feedback_like_positive": 143,
+      "n_weak_negative": 15,
+      "n_weak_positive": 30,
+      "median_spearman_r": 0.6199659244794364,
+      "informative_relationships": 199
+    },
+    {
+      "gene": "CIITA",
+      "n_tests": 240,
+      "n_brake_like_negative": 7,
+      "n_feedback_like_positive": 132,
+      "n_weak_negative": 5,
+      "n_weak_positive": 61,
+      "median_spearman_r": 0.5608174400447267,
+      "informative_relationships": 205
+    },
+    {
+      "gene": "RFX5",
+      "n_tests": 240,
+      "n_brake_like_negative": 4,
+      "n_feedback_like_positive": 62,
+      "n_weak_negative": 17,
+      "n_weak_positive": 96,
+      "median_spearman_r": 0.3834615384615385,
+      "informative_relationships": 179
+    },
+    {
+      "gene": "PTPN2",
+      "n_tests": 240,
+      "n_brake_like_negative": 6,
+      "n_feedback_like_positive": 62,
+      "n_weak_negative": 18,
+      "n_weak_positive": 91,
+      "median_spearman_r": 0.3369456630326196,
+      "informative_relationships": 177
+    },
+    {
+      "gene": "SH2B3",
+      "n_tests": 240,
+      "n_brake_like_negative": 9,
+      "n_feedback_like_positive": 56,
+      "n_weak_negative": 8,
+      "n_weak_positive": 74,
+      "median_spearman_r": 0.2866372757677106,
+      "informative_relationships": 147
+    },
+    {
+      "gene": "CLEC16A",
+      "n_tests": 240,
+      "n_brake_like_negative": 4,
+      "n_feedback_like_positive": 49,
+      "n_weak_negative": 11,
+      "n_weak_positive": 96,
+      "median_spearman_r": 0.31468531468531474,
+      "informative_relationships": 160
+    },
+    {
+      "gene": "SLC15A4",
+      "n_tests": 240,
+      "n_brake_like_negative": 3,
+      "n_feedback_like_positive": 46,
+      "n_weak_negative": 18,
+      "n_weak_positive": 98,
+      "median_spearman_r": 0.3142857142857143,
+      "informative_relationships": 165
+    },
+    {
+      "gene": "TNFAIP3",
+      "n_tests": 240,
+      "n_brake_like_negative": 12,
+      "n_feedback_like_positive": 29,
+      "n_weak_negative": 34,
+      "n_weak_positive": 61,
+      "median_spearman_r": 0.14172783738001132,
+      "informative_relationships": 136
+    }
+  ]
+}

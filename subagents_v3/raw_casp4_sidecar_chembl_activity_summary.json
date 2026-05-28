@@ -1,0 +1,1290 @@
+{
+  "CASP4": {
+    "target": "CHEMBL2226",
+    "activity_rows": 89,
+    "potency_value_rows": 76
+  },
+  "CASP1": {
+    "target": "CHEMBL4801",
+    "activity_rows": 1000,
+    "potency_value_rows": 942
+  },
+  "CASP5": {
+    "target": "CHEMBL3131",
+    "activity_rows": 177,
+    "potency_value_rows": 128
+  },
+  "overlap_casp4_with_casp1_or_casp5": {
+    "CHEMBL293622": {
+      "CASP4": [
+        {
+          "type": "Ki",
+          "value_nM": 4000.0,
+          "units": "nM",
+          "pchembl": "5.40",
+          "assay": "CHEMBL658644"
+        }
+      ],
+      "CASP1": [
+        {
+          "type": "Ki",
+          "value_nM": 12000.0,
+          "units": "nM",
+          "pchembl": "4.92",
+          "assay": "CHEMBL659503"
+        }
+      ]
+    },
+    "CHEMBL60306": {
+      "CASP4": [
+        {
+          "type": "Ki",
+          "value_nM": 5000.0,
+          "units": "nM",
+          "pchembl": "5.30",
+          "assay": "CHEMBL658644"
+        }
+      ],
+      "CASP1": [
+        {
+          "type": "Ki",
+          "value_nM": 18000.0,
+          "units": "nM",
+          "pchembl": "4.75",
+          "assay": "CHEMBL659503"
+        }
+      ]
+    },
+    "CHEMBL62993": {
+      "CASP4": [
+        {
+          "type": "Ki",
+          "value_nM": 33000.0,
+          "units": "nM",
+          "pchembl": "4.48",
+          "assay": "CHEMBL658644"
+        }
+      ],
+      "CASP1": [
+        {
+          "type": "Ki",
+          "value_nM": 17000.0,
+          "units": "nM",
+          "pchembl": "4.77",
+          "assay": "CHEMBL659503"
+        },
+        {
+          "type": "IC50",
+          "value_nM": 10000.0,
+          "units": "nM",
+          "pchembl": null,
+          "assay": "CHEMBL864531"
+        },
+        {
+          "type": "IC50",
+          "value_nM": 10000.0,
+          "units": "nM",
+          "pchembl": null,
+          "assay": "CHEMBL909965"
+        }
+      ]
+    },
+    "CHEMBL62187": {
+      "CASP4": [
+        {
+          "type": "Ki",
+          "value_nM": 50000.0,
+          "units": "nM",
+          "pchembl": null,
+          "assay": "CHEMBL658644"
+        }
+      ],
+      "CASP1": [
+        {
+          "type": "Ki",
+          "value_nM": 50000.0,
+          "units": "nM",
+          "pchembl": null,
+          "assay": "CHEMBL659503"
+        }
+      ]
+    },
+    "CHEMBL1907830": {
+      "CASP4": [
+        {
+          "type": "Ki",
+          "value_nM": 30000.0,
+          "units": "nM",
+          "pchembl": "4.52",
+          "assay": "CHEMBL658644"
+        }
+      ],
+      "CASP1": [
+        {
+          "type": "Ki",
+          "value_nM": 21000.0,
+          "units": "nM",
+          "pchembl": "4.68",
+          "assay": "CHEMBL659503"
+        }
+      ]
+    },
+    "CHEMBL439753": {
+      "CASP4": [
+        {
+          "type": "Ki",
+          "value_nM": 5000.0,
+          "units": "nM",
+          "pchembl": null,
+          "assay": "CHEMBL658644"
+        }
+      ],
+      "CASP1": [
+        {
+          "type": "Ki",
+          "value_nM": 5000.0,
+          "units": "nM",
+          "pchembl": null,
+          "assay": "CHEMBL659503"
+        },
+        {
+          "type": "IC50",
+          "value_nM": 10000.0,
+          "units": "nM",
+          "pchembl": null,
+          "assay": "CHEMBL864531"
+        }
+      ]
+    },
+    "CHEMBL60190": {
+      "CASP4": [
+        {
+          "type": "Ki",
+          "value_nM": 25000.0,
+          "units": "nM",
+          "pchembl": null,
+          "assay": "CHEMBL658644"
+        }
+      ],
+      "CASP1": [
+        {
+          "type": "Ki",
+          "value_nM": 25000.0,
+          "units": "nM",
+          "pchembl": null,
+          "assay": "CHEMBL659503"
+        },
+        {
+          "type": "IC50",
+          "value_nM": 15000.0,
+          "units": "nM",
+          "pchembl": null,
+          "assay": "CHEMBL909965"
+        }
+      ]
+    },
+    "CHEMBL305545": {
+      "CASP4": [
+        {
+          "type": "Ki",
+          "value_nM": 50000.0,
+          "units": "nM",
+          "pchembl": null,
+          "assay": "CHEMBL658644"
+        }
+      ],
+      "CASP1": [
+        {
+          "type": "Ki",
+          "value_nM": 9000.0,
+          "units": "nM",
+          "pchembl": "5.05",
+          "assay": "CHEMBL659503"
+        }
+      ]
+    },
+    "CHEMBL147775": {
+      "CASP4": [
+        {
+          "type": "Ki",
+          "value_nM": 38000.0,
+          "units": "nM",
+          "pchembl": "4.42",
+          "assay": "CHEMBL658643"
+        }
+      ],
+      "CASP1": [
+        {
+          "type": "Ki",
+          "value_nM": 1500.0,
+          "units": "nM",
+          "pchembl": "5.82",
+          "assay": "CHEMBL659502"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "Ki",
+          "value_nM": 11000.0,
+          "units": "nM",
+          "pchembl": "4.96",
+          "assay": "CHEMBL658645"
+        }
+      ]
+    },
+    "CHEMBL435284": {
+      "CASP4": [
+        {
+          "type": "Ki",
+          "value_nM": 13000.0,
+          "units": "nM",
+          "pchembl": "4.89",
+          "assay": "CHEMBL658643"
+        }
+      ],
+      "CASP1": [
+        {
+          "type": "Ki",
+          "value_nM": 8300.0,
+          "units": "nM",
+          "pchembl": "5.08",
+          "assay": "CHEMBL659502"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "Ki",
+          "value_nM": 23000.0,
+          "units": "nM",
+          "pchembl": "4.64",
+          "assay": "CHEMBL658645"
+        }
+      ]
+    },
+    "CHEMBL146453": {
+      "CASP4": [
+        {
+          "type": "Ki",
+          "value_nM": 100000.0,
+          "units": "nM",
+          "pchembl": null,
+          "assay": "CHEMBL658643"
+        }
+      ],
+      "CASP1": [
+        {
+          "type": "Ki",
+          "value_nM": 3200.0,
+          "units": "nM",
+          "pchembl": "5.50",
+          "assay": "CHEMBL659502"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "Ki",
+          "value_nM": 63000.0,
+          "units": "nM",
+          "pchembl": "4.20",
+          "assay": "CHEMBL658645"
+        }
+      ]
+    },
+    "CHEMBL148162": {
+      "CASP4": [
+        {
+          "type": "Ki",
+          "value_nM": 27000.0,
+          "units": "nM",
+          "pchembl": "4.57",
+          "assay": "CHEMBL658643"
+        }
+      ],
+      "CASP1": [
+        {
+          "type": "Ki",
+          "value_nM": 2700.0,
+          "units": "nM",
+          "pchembl": "5.57",
+          "assay": "CHEMBL659502"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "Ki",
+          "value_nM": 36000.0,
+          "units": "nM",
+          "pchembl": "4.44",
+          "assay": "CHEMBL658645"
+        }
+      ]
+    },
+    "CHEMBL357191": {
+      "CASP4": [
+        {
+          "type": "Ki",
+          "value_nM": 96000.0,
+          "units": "nM",
+          "pchembl": "4.02",
+          "assay": "CHEMBL658643"
+        }
+      ],
+      "CASP1": [
+        {
+          "type": "Ki",
+          "value_nM": 12000.0,
+          "units": "nM",
+          "pchembl": "4.92",
+          "assay": "CHEMBL659502"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "Ki",
+          "value_nM": 98000.0,
+          "units": "nM",
+          "pchembl": "4.01",
+          "assay": "CHEMBL658645"
+        }
+      ]
+    },
+    "CHEMBL149307": {
+      "CASP4": [
+        {
+          "type": "Ki",
+          "value_nM": 22000.0,
+          "units": "nM",
+          "pchembl": "4.66",
+          "assay": "CHEMBL658643"
+        }
+      ],
+      "CASP1": [
+        {
+          "type": "Ki",
+          "value_nM": 25000.0,
+          "units": "nM",
+          "pchembl": "4.60",
+          "assay": "CHEMBL659502"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "Ki",
+          "value_nM": 32000.0,
+          "units": "nM",
+          "pchembl": "4.50",
+          "assay": "CHEMBL658645"
+        }
+      ]
+    },
+    "CHEMBL147642": {
+      "CASP4": [
+        {
+          "type": "Ki",
+          "value_nM": 38000.0,
+          "units": "nM",
+          "pchembl": "4.42",
+          "assay": "CHEMBL658643"
+        }
+      ],
+      "CASP1": [
+        {
+          "type": "Ki",
+          "value_nM": 1900.0,
+          "units": "nM",
+          "pchembl": "5.72",
+          "assay": "CHEMBL659502"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "Ki",
+          "value_nM": 24000.0,
+          "units": "nM",
+          "pchembl": "4.62",
+          "assay": "CHEMBL658645"
+        }
+      ]
+    },
+    "CHEMBL358725": {
+      "CASP4": [
+        {
+          "type": "Ki",
+          "value_nM": 92000.0,
+          "units": "nM",
+          "pchembl": "4.04",
+          "assay": "CHEMBL658643"
+        }
+      ],
+      "CASP1": [
+        {
+          "type": "Ki",
+          "value_nM": 3900.0,
+          "units": "nM",
+          "pchembl": "5.41",
+          "assay": "CHEMBL659502"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "Ki",
+          "value_nM": 22000.0,
+          "units": "nM",
+          "pchembl": "4.66",
+          "assay": "CHEMBL658645"
+        }
+      ]
+    },
+    "CHEMBL422849": {
+      "CASP4": [
+        {
+          "type": "Ki",
+          "value_nM": 21000.0,
+          "units": "nM",
+          "pchembl": "4.68",
+          "assay": "CHEMBL658643"
+        }
+      ],
+      "CASP1": [
+        {
+          "type": "Ki",
+          "value_nM": 160.0,
+          "units": "nM",
+          "pchembl": "6.80",
+          "assay": "CHEMBL659502"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "Ki",
+          "value_nM": 12000.0,
+          "units": "nM",
+          "pchembl": "4.92",
+          "assay": "CHEMBL658645"
+        }
+      ]
+    },
+    "CHEMBL366927": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 300.0,
+          "units": "nM",
+          "pchembl": "6.52",
+          "assay": "CHEMBL832836"
+        }
+      ],
+      "CASP1": [
+        {
+          "type": "IC50",
+          "value_nM": 50.0,
+          "units": "nM",
+          "pchembl": "7.30",
+          "assay": "CHEMBL829508"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 200.0,
+          "units": "nM",
+          "pchembl": "6.70",
+          "assay": "CHEMBL832837"
+        }
+      ]
+    },
+    "CHEMBL179503": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 500.0,
+          "units": "nM",
+          "pchembl": "6.30",
+          "assay": "CHEMBL832947"
+        }
+      ],
+      "CASP1": [
+        {
+          "type": "IC50",
+          "value_nM": 110.0,
+          "units": "nM",
+          "pchembl": "6.96",
+          "assay": "CHEMBL829508"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 810.0,
+          "units": "nM",
+          "pchembl": "6.09",
+          "assay": "CHEMBL832948"
+        }
+      ]
+    },
+    "CHEMBL568171": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 8128.31,
+          "units": "nM",
+          "pchembl": "5.09",
+          "assay": "CHEMBL1040856"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 13489.63,
+          "units": "nM",
+          "pchembl": "4.87",
+          "assay": "CHEMBL1040857"
+        }
+      ]
+    },
+    "CHEMBL567893": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 5000.0,
+          "units": "nM",
+          "pchembl": "5.30",
+          "assay": "CHEMBL1039233"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 5000.0,
+          "units": "nM",
+          "pchembl": "5.30",
+          "assay": "CHEMBL1039234"
+        }
+      ]
+    },
+    "CHEMBL2323967": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 5600.0,
+          "units": "nM",
+          "pchembl": "5.25",
+          "assay": "CHEMBL2327252"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 35200.0,
+          "units": "nM",
+          "pchembl": "4.45",
+          "assay": "CHEMBL2327250"
+        }
+      ]
+    },
+    "CHEMBL2324341": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 510.0,
+          "units": "nM",
+          "pchembl": "6.29",
+          "assay": "CHEMBL2327252"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 100000.0,
+          "units": "nM",
+          "pchembl": null,
+          "assay": "CHEMBL2327250"
+        }
+      ]
+    },
+    "CHEMBL2324339": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 370.0,
+          "units": "nM",
+          "pchembl": "6.43",
+          "assay": "CHEMBL2327252"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 19500.0,
+          "units": "nM",
+          "pchembl": "4.71",
+          "assay": "CHEMBL2327250"
+        }
+      ]
+    },
+    "CHEMBL2324340": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 180.0,
+          "units": "nM",
+          "pchembl": "6.75",
+          "assay": "CHEMBL2327252"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 750.0,
+          "units": "nM",
+          "pchembl": "6.12",
+          "assay": "CHEMBL2327250"
+        }
+      ]
+    },
+    "CHEMBL2323966": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 90.0,
+          "units": "nM",
+          "pchembl": "7.05",
+          "assay": "CHEMBL2327252"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 560.0,
+          "units": "nM",
+          "pchembl": "6.25",
+          "assay": "CHEMBL2327250"
+        }
+      ]
+    },
+    "CHEMBL3673262": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 2800.0,
+          "units": "nM",
+          "pchembl": "5.55",
+          "assay": "CHEMBL3707855"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 3330.0,
+          "units": "nM",
+          "pchembl": null,
+          "assay": "CHEMBL3707901"
+        },
+        {
+          "type": "IC50",
+          "value_nM": 10000.0,
+          "units": "nM",
+          "pchembl": null,
+          "assay": "CHEMBL3707828"
+        },
+        {
+          "type": "IC50",
+          "value_nM": 10000.0,
+          "units": "nM",
+          "pchembl": null,
+          "assay": "CHEMBL5731994"
+        }
+      ]
+    },
+    "CHEMBL3678074": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 3330.0,
+          "units": "nM",
+          "pchembl": null,
+          "assay": "CHEMBL3707855"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 3330.0,
+          "units": "nM",
+          "pchembl": null,
+          "assay": "CHEMBL3707901"
+        }
+      ]
+    },
+    "CHEMBL3678073": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 3330.0,
+          "units": "nM",
+          "pchembl": null,
+          "assay": "CHEMBL3707855"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 3330.0,
+          "units": "nM",
+          "pchembl": null,
+          "assay": "CHEMBL3707901"
+        }
+      ]
+    },
+    "CHEMBL3898379": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 670.0,
+          "units": "nM",
+          "pchembl": "6.17",
+          "assay": "CHEMBL3864978"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 248.0,
+          "units": "nM",
+          "pchembl": "6.61",
+          "assay": "CHEMBL3864978"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 350.0,
+          "units": "nM",
+          "pchembl": "6.46",
+          "assay": "CHEMBL3864979"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 81.0,
+          "units": "nM",
+          "pchembl": "7.09",
+          "assay": "CHEMBL3864979"
+        }
+      ]
+    },
+    "CHEMBL1412861": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 909.0,
+          "units": "nM",
+          "pchembl": "6.04",
+          "assay": "CHEMBL3864978"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 337.0,
+          "units": "nM",
+          "pchembl": "6.47",
+          "assay": "CHEMBL3864978"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 910.0,
+          "units": "nM",
+          "pchembl": "6.04",
+          "assay": "CHEMBL3864979"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 210.0,
+          "units": "nM",
+          "pchembl": "6.68",
+          "assay": "CHEMBL3864979"
+        }
+      ]
+    },
+    "CHEMBL3905486": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 560.0,
+          "units": "nM",
+          "pchembl": "6.25",
+          "assay": "CHEMBL3864978"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 207.0,
+          "units": "nM",
+          "pchembl": "6.68",
+          "assay": "CHEMBL3864978"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 205.0,
+          "units": "nM",
+          "pchembl": "6.69",
+          "assay": "CHEMBL3864979"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 47.0,
+          "units": "nM",
+          "pchembl": "7.33",
+          "assay": "CHEMBL3864979"
+        }
+      ]
+    },
+    "CHEMBL3984293": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 580.0,
+          "units": "nM",
+          "pchembl": "6.24",
+          "assay": "CHEMBL3864978"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 215.0,
+          "units": "nM",
+          "pchembl": "6.67",
+          "assay": "CHEMBL3864978"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 430.0,
+          "units": "nM",
+          "pchembl": "6.37",
+          "assay": "CHEMBL3864979"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 99.0,
+          "units": "nM",
+          "pchembl": "7.00",
+          "assay": "CHEMBL3864979"
+        }
+      ]
+    },
+    "CHEMBL3965572": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 1060.0,
+          "units": "nM",
+          "pchembl": "5.97",
+          "assay": "CHEMBL3864978"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 393.0,
+          "units": "nM",
+          "pchembl": "6.41",
+          "assay": "CHEMBL3864978"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 146.0,
+          "units": "nM",
+          "pchembl": "6.84",
+          "assay": "CHEMBL3864979"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 34.0,
+          "units": "nM",
+          "pchembl": "7.47",
+          "assay": "CHEMBL3864979"
+        }
+      ]
+    },
+    "CHEMBL3895496": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 2350.0,
+          "units": "nM",
+          "pchembl": "5.63",
+          "assay": "CHEMBL3864978"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 870.0,
+          "units": "nM",
+          "pchembl": "6.06",
+          "assay": "CHEMBL3864978"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 254.0,
+          "units": "nM",
+          "pchembl": "6.59",
+          "assay": "CHEMBL3864979"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 59.0,
+          "units": "nM",
+          "pchembl": "7.23",
+          "assay": "CHEMBL3864979"
+        },
+        {
+          "type": "IC50",
+          "value_nM": 2560.0,
+          "units": "nM",
+          "pchembl": "5.59",
+          "assay": "CHEMBL3864984"
+        },
+        {
+          "type": "IC50",
+          "value_nM": 155.0,
+          "units": "nM",
+          "pchembl": "6.81",
+          "assay": "CHEMBL3864985"
+        }
+      ]
+    },
+    "CHEMBL3898411": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 5000.0,
+          "units": "nM",
+          "pchembl": null,
+          "assay": "CHEMBL3864978"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 210.0,
+          "units": "nM",
+          "pchembl": "6.68",
+          "assay": "CHEMBL3864979"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 48.0,
+          "units": "nM",
+          "pchembl": "7.32",
+          "assay": "CHEMBL3864979"
+        }
+      ]
+    },
+    "CHEMBL3904435": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 721.0,
+          "units": "nM",
+          "pchembl": "6.14",
+          "assay": "CHEMBL3864978"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 267.0,
+          "units": "nM",
+          "pchembl": "6.57",
+          "assay": "CHEMBL3864978"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 105.0,
+          "units": "nM",
+          "pchembl": "6.98",
+          "assay": "CHEMBL3864979"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 24.0,
+          "units": "nM",
+          "pchembl": "7.62",
+          "assay": "CHEMBL3864979"
+        }
+      ]
+    },
+    "CHEMBL3932441": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 5000.0,
+          "units": "nM",
+          "pchembl": null,
+          "assay": "CHEMBL3864978"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 178.0,
+          "units": "nM",
+          "pchembl": "6.75",
+          "assay": "CHEMBL3864979"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 41.0,
+          "units": "nM",
+          "pchembl": "7.39",
+          "assay": "CHEMBL3864979"
+        }
+      ]
+    },
+    "CHEMBL3939229": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 746.0,
+          "units": "nM",
+          "pchembl": "6.13",
+          "assay": "CHEMBL3864978"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 276.0,
+          "units": "nM",
+          "pchembl": "6.56",
+          "assay": "CHEMBL3864978"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 482.0,
+          "units": "nM",
+          "pchembl": "6.32",
+          "assay": "CHEMBL3864979"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 111.0,
+          "units": "nM",
+          "pchembl": "6.96",
+          "assay": "CHEMBL3864979"
+        }
+      ]
+    },
+    "CHEMBL3968765": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 1520.0,
+          "units": "nM",
+          "pchembl": "5.82",
+          "assay": "CHEMBL3864978"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 563.0,
+          "units": "nM",
+          "pchembl": "6.25",
+          "assay": "CHEMBL3864978"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 586.0,
+          "units": "nM",
+          "pchembl": "6.23",
+          "assay": "CHEMBL3864979"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 135.0,
+          "units": "nM",
+          "pchembl": "6.87",
+          "assay": "CHEMBL3864979"
+        }
+      ]
+    },
+    "CHEMBL3978901": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 826.0,
+          "units": "nM",
+          "pchembl": "6.08",
+          "assay": "CHEMBL3864978"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 306.0,
+          "units": "nM",
+          "pchembl": "6.51",
+          "assay": "CHEMBL3864978"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 254.0,
+          "units": "nM",
+          "pchembl": "6.59",
+          "assay": "CHEMBL3864979"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 59.0,
+          "units": "nM",
+          "pchembl": "7.23",
+          "assay": "CHEMBL3864979"
+        }
+      ]
+    },
+    "CHEMBL3949842": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 21.0,
+          "units": "nM",
+          "pchembl": "7.68",
+          "assay": "CHEMBL3864978"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 8.0,
+          "units": "nM",
+          "pchembl": "8.10",
+          "assay": "CHEMBL3864978"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 71.0,
+          "units": "nM",
+          "pchembl": "7.15",
+          "assay": "CHEMBL3864979"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 16.0,
+          "units": "nM",
+          "pchembl": "7.80",
+          "assay": "CHEMBL3864979"
+        }
+      ]
+    },
+    "CHEMBL3970645": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 320.0,
+          "units": "nM",
+          "pchembl": "6.50",
+          "assay": "CHEMBL3864978"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 119.0,
+          "units": "nM",
+          "pchembl": "6.92",
+          "assay": "CHEMBL3864978"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 123.0,
+          "units": "nM",
+          "pchembl": "6.91",
+          "assay": "CHEMBL3864979"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 28.0,
+          "units": "nM",
+          "pchembl": "7.55",
+          "assay": "CHEMBL3864979"
+        }
+      ]
+    },
+    "CHEMBL3941088": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 400.0,
+          "units": "nM",
+          "pchembl": "6.40",
+          "assay": "CHEMBL3864978"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 148.0,
+          "units": "nM",
+          "pchembl": "6.83",
+          "assay": "CHEMBL3864978"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 149.0,
+          "units": "nM",
+          "pchembl": "6.83",
+          "assay": "CHEMBL3864979"
+        },
+        {
+          "type": "Ki",
+          "value_nM": 34.0,
+          "units": "nM",
+          "pchembl": "7.47",
+          "assay": "CHEMBL3864979"
+        }
+      ]
+    },
+    "CHEMBL5715921": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 81.7,
+          "units": "nM",
+          "pchembl": "7.09",
+          "assay": "CHEMBL5715794"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 21.3,
+          "units": "nM",
+          "pchembl": "7.67",
+          "assay": "CHEMBL5715795"
+        }
+      ]
+    },
+    "CHEMBL5715925": {
+      "CASP4": [
+        {
+          "type": "IC50",
+          "value_nM": 84.0,
+          "units": "nM",
+          "pchembl": "7.08",
+          "assay": "CHEMBL5723118"
+        }
+      ],
+      "CASP5": [
+        {
+          "type": "IC50",
+          "value_nM": 140.0,
+          "units": "nM",
+          "pchembl": "6.85",
+          "assay": "CHEMBL5715801"
+        }
+      ]
+    }
+  }
+}

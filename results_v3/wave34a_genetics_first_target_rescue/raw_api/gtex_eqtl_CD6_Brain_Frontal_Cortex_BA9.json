@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr11",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000013725.14",
+        "geneSymbol": "CD6",
+        "geneSymbolUpper": "CD6",
+        "nes": -0.614696,
+        "ontologyId": "UBERON:0009834",
+        "pValue": 3.74761e-05,
+        "pos": 60961616,
+        "snpId": "rs17751553",
+        "snpIdUpper": "RS17751553",
+        "tissueSiteDetailId": "Brain_Frontal_Cortex_BA9",
+        "variantId": "chr11_60961616_C_T_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 96,
+      "page": 0,
+      "totalNumberOfItems": 96
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000013725.14&tissueSiteDetailId=Brain_Frontal_Cortex_BA9&datasetId=gtex_v8&itemsPerPage=1"
+}

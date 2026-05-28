@@ -1,0 +1,881 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P20336",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P35276",
+                  "source": "UniProtKB"
+                }
+              ],
+              "value": "The small GTPases Rab are key regulators of intracellular membrane trafficking, from the formation of transport vesicles to their fusion with membranes. Rabs cycle between an inactive GDP-bound form and an active GTP-bound form that is able to recruit to membranes different sets of downstream effectors directly responsible for vesicle formation, movement, tethering and fusion (By similarity). RAB3D may be involved in the insulin-induced exocytosis of GLUT4-containing vesicles in adipocytes (By similarity)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "orientation": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-9910",
+                "value": "Cytoplasmic side"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-9901",
+                "value": "Lipid-anchor"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000000125B"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "Ref.8",
+              "source": "Reference"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "2GF9",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58189"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58189",
+            "name": "GDP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 37
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 29
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P20337",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 31
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 31
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P20337",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 32
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 32
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P20337",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 33
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 33
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P20337",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 34
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 34
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P20337",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 35
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 35
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P20337",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 36
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 36
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "Ref.8",
+              "source": "Reference"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "2GF9",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:18420"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:18420",
+            "name": "Mg(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 36
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 36
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P20337",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 37
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 37
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P20337",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 49
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 49
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P20337",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 53
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 53
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P20337",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:18420"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:18420",
+            "name": "Mg(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 54
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 54
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P20337",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:18420"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:18420",
+            "name": "Mg(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 77
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 77
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P20337",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 80
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 80
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "Ref.8",
+              "source": "Reference"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "2GF9",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58189"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58189",
+            "name": "GDP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 138
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 135
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P20337",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 135
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 135
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P20337",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 136
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 136
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P20337",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 138
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 138
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "Ref.8",
+              "source": "Reference"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "2GF9",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58189"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58189",
+            "name": "GDP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 167
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 165
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P20337",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 166
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 166
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P20337",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 167
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 167
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:9779",
+                "source": "HGNC"
+              }
+            ],
+            "value": "RAB3D"
+          },
+          "synonyms": [
+            {
+              "value": "GOV"
+            },
+            {
+              "value": "RAB16"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-1003",
+          "name": "Cell membrane"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0268",
+          "name": "Exocytosis"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0342",
+          "name": "GTP-binding"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0378",
+          "name": "Hydrolase"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0449",
+          "name": "Lipoprotein"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0460",
+          "name": "Magnesium"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0479",
+          "name": "Metal-binding"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0488",
+          "name": "Methylation"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0547",
+          "name": "Nucleotide-binding"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0636",
+          "name": "Prenylation"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0653",
+          "name": "Protein transport"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0813",
+          "name": "Transport"
+        }
+      ],
+      "primaryAccession": "O95716",
+      "proteinDescription": {
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P20336",
+                  "source": "UniProtKB"
+                }
+              ],
+              "value": "3.6.5.2"
+            }
+          ],
+          "fullName": {
+            "value": "Ras-related protein Rab-3D"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "714754826C405EA7",
+        "length": 219,
+        "md5": "74C1CD3186594E95F337D6B6834ACC87",
+        "molWeight": 24267,
+        "value": "MASAGDTQAGPRDAADQNFDYMFKLLLIGNSSVGKTSFLFRYADDSFTPAFVSTVGIDFKVKTVYRHDKRIKLQIWDTAGQERYRTITTAYYRGAMGFLLMYDIANQESFAAVQDWATQIKTYSWDNAQVILVGNKCDLEDERVVPAEDGRRLADDLGFEFFEASAKENINVKQVFERLVDVICEKMNESLEPSSSSGSNGKGPAVGDAPAPQPSSCSC"
+      },
+      "uniProtkbId": "RAB3D_HUMAN"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "10827079",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15525676",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "29706351",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "As a co-chaperone for HSPA5 it is required for proper folding, trafficking or degradation of proteins (PubMed:10827079, PubMed:15525676, PubMed:29706351). Binds directly to both unfolded proteins that are substrates for ERAD and nascent unfolded peptide chains, but dissociates from the HSPA5-unfolded protein complex before folding is completed (PubMed:15525676). May help recruiting HSPA5 and other chaperones to the substrate. Stimulates HSPA5 ATPase activity (PubMed:10827079). It is necessary for maturation and correct trafficking of PKD1 (PubMed:29706351)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "value": "Associated with the ER membrane in a C-terminally epitope-tagged construct"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "10827079",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15195998",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15525676",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15544163",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0096",
+                "value": "Endoplasmic reticulum lumen"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000001BF7"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "DNAJB11"
+          },
+          "orfNames": [
+            {
+              "value": "PSEC0121"
+            },
+            {
+              "value": "UNQ537/PRO1080"
+            }
+          ],
+          "synonyms": [
+            {
+              "value": "EDJ"
+            },
+            {
+              "value": "ERJ3"
+            },
+            {
+              "value": "HDJ9"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Molecular function",
+          "id": "KW-0143",
+          "name": "Chaperone"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0225",
+          "name": "Disease variant"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-1015",
+          "name": "Disulfide bond"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0256",
+          "name": "Endoplasmic reticulum"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0325",
+          "name": "Glycoprotein"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0732",
+          "name": "Signal"
+        }
+      ],
+      "primaryAccession": "Q9UBS4",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "APOBEC1-binding protein 2"
+            },
+            "shortNames": [
+              {
+                "value": "ABBP-2"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "DnaJ protein homolog 9"
+            }
+          },
+          {
+            "fullName": {
+              "value": "ER-associated DNAJ"
+            }
+          },
+          {
+            "fullName": {
+              "value": "ER-associated Hsp40 co-chaperone"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Endoplasmic reticulum DNA J domain-containing protein 3"
+            },
+            "shortNames": [
+              {
+                "value": "ER-resident protein ERdj3"
+              },
+              {
+                "value": "ERdj3"
+              },
+              {
+                "value": "ERj3p"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "HEDJ"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Human DnaJ protein 9"
+            },
+            "shortNames": [
+              {
+                "value": "hDj-9"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "PWP1-interacting protein 4"
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "DnaJ homolog subfamily B member 11"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "580CC4D66A06B734",
+        "length": 358,
+        "md5": "51B0EB75CD8E0C33F35122E8F4D27258",
+        "molWeight": 40514,
+        "value": "MAPQNLSTFCLLLLYLIGAVIAGRDFYKILGVPRSASIKDIKKAYRKLALQLHPDRNPDDPQAQEKFQDLGAAYEVLSDSEKRKQYDTYGEEGLKDGHQSSHGDIFSHFFGDFGFMFGGTPRQQDRNIPRGSDIIVDLEVTLEEVYAGNFVEVVRNKPVARQAPGKRKCNCRQEMRTTQLGPGRFQMTQEVVCDECPNVKLVNEERTLEVEIEPGVRDGMEYPFIGEGEPHVDGEPGDLRFRIKVVKHPIFERRGDDLYTNVTISLVESLVGFEMDITHLDGHKVHISRDKITRPGAKLWKKGEGLPNFDNNNIKGSLIITFDVDFPKEQLTEEAREGIKQLLKQGSVQKVYNGLQGY"
+      },
+      "uniProtkbId": "DJB11_HUMAN"
+    }
+  ]
+}

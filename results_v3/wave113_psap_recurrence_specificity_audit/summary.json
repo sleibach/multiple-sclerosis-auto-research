@@ -1,0 +1,17 @@
+{
+  "branch_call": "NO_REOPEN_PSAP_WEAK_SINGLE_CONTEXT_MARKER",
+  "crispr_support": false,
+  "geneformer_strong_support": false,
+  "inputs": {
+    "broad": "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv",
+    "ms": "results_v3/wave81_perturbation_first_rescue/perturbation_first_ms_rows.tsv",
+    "wave37": "results_v3/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv",
+    "wave57": "results_v3/wave57_intervention_first_geneformer_screen/wave57_geneformer_gene_summary.tsv",
+    "wave81": "results_v3/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv"
+  },
+  "ms_nominal_positive": true,
+  "myeloid_positive_disease_count_p10": 0,
+  "negative_disease_count_p10": 2,
+  "positive_disease_count_p10": 1,
+  "random_seed": 20260527
+}

@@ -1,0 +1,551 @@
+{
+  "payload": {
+    "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxoZfGl3fg",
+    "studies": [
+      {
+        "derivedSection": {
+          "conditionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D009103",
+                "term": "Multiple Sclerosis"
+              },
+              {
+                "id": "D020278",
+                "term": "Demyelinating Autoimmune Diseases, CNS"
+              },
+              {
+                "id": "D020274",
+                "term": "Autoimmune Diseases of the Nervous System"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D003711",
+                "term": "Demyelinating Diseases"
+              },
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              },
+              {
+                "id": "D009188",
+                "term": "Myelitis, Transverse"
+              },
+              {
+                "id": "D009902",
+                "term": "Optic Neuritis"
+              },
+              {
+                "id": "D009901",
+                "term": "Optic Nerve Diseases"
+              },
+              {
+                "id": "D003389",
+                "term": "Cranial Nerve Diseases"
+              },
+              {
+                "id": "D005128",
+                "term": "Eye Diseases"
+              },
+              {
+                "id": "D006566",
+                "term": "Herpesviridae Infections"
+              },
+              {
+                "id": "D004266",
+                "term": "DNA Virus Infections"
+              },
+              {
+                "id": "D014777",
+                "term": "Virus Diseases"
+              },
+              {
+                "id": "D007239",
+                "term": "Infections"
+              },
+              {
+                "id": "D014412",
+                "term": "Tumor Virus Infections"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D020529",
+                "term": "Multiple Sclerosis, Relapsing-Remitting"
+              },
+              {
+                "id": "D009471",
+                "term": "Neuromyelitis Optica"
+              },
+              {
+                "id": "D020031",
+                "term": "Epstein-Barr Virus Infections"
+              }
+            ]
+          },
+          "miscInfoModule": {
+            "versionHolder": "2026-05-26"
+          }
+        },
+        "hasResults": false,
+        "protocolSection": {
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "description": "* Relapsing-remitting MS, as diagnosed by the revised 2010 McDonald Criteria;\n* EDSS score \u2264 5.5;\n* Age between 18 and 55 years (exclusive);\n* no disease modifying therapies for at least 3 months or treatment na\u00efve;\n* no corticosteroid administration in the previous month;\n* disease duration \\<10 years;\n* Ability to provide written informed consent.",
+                "interventionNames": [
+                  "Procedure: Peripheral blood withdrawal"
+                ],
+                "label": "Patients with RRMS (untreated)"
+              },
+              {
+                "description": "Main inclusion criteria of NMOSD patients (Wingerchuk et al., 2015):\n\n* Positive test for Aquaporin 4 IgG;\n* Age between 18 and 55 years (exclusive);\n* no immunosuppressive therapies for at least 3 months or treatment na\u00efve.\n* no corticosteroid administration in the previous month\n* disease duration \\<10 years\n* Ability to provide written informed consent",
+                "interventionNames": [
+                  "Procedure: Peripheral blood withdrawal"
+                ],
+                "label": "Patients with Neuromyelitis Optica Spectrum Disorders (NMOSD)"
+              },
+              {
+                "description": "* Age between 18 and 55 years (exclusive), matched by gender, age and ethnicity towards the MS groups.\n* Ability to provide written informed consent.",
+                "interventionNames": [
+                  "Procedure: Peripheral blood withdrawal"
+                ],
+                "label": "Healthy subjects (HD)"
+              }
+            ],
+            "interventions": [
+              {
+                "armGroupLabels": [
+                  "Healthy subjects (HD)",
+                  "Patients with Neuromyelitis Optica Spectrum Disorders (NMOSD)",
+                  "Patients with RRMS (untreated)"
+                ],
+                "description": "25 ml of blood for T cell isolation or 40 ml of blood for B cell isolation will be obtained following informed consent as approved by the ethical committees of the MS centers.",
+                "name": "Peripheral blood withdrawal",
+                "type": "PROCEDURE"
+              }
+            ]
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Relapsing-Remitting Multiple Sclerosis (RRMS)",
+              "Neuromyelitis Optica",
+              "Healthy"
+            ],
+            "keywords": [
+              "in vitro ozanimod treatment",
+              "T cells",
+              "Treg cells",
+              "NK cells",
+              "B cells",
+              "T-cell-mediated synaptotoxicy",
+              "cytokine-mediated breakdown of the Blood Brain Barrier",
+              "Epstein-Barr virus (EBV) infected B cells"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "email": "fabio.buttari@gmail.com",
+                "name": "Fabio Buttari, PhD",
+                "phone": "+393384999878",
+                "role": "CONTACT"
+              },
+              {
+                "email": "mario_sb@hotmail.it",
+                "name": "Mario Stampanoni Bassi, PhD",
+                "phone": "+39 2460181370",
+                "role": "CONTACT"
+              }
+            ],
+            "locations": [
+              {
+                "city": "Pozzilli",
+                "contacts": [
+                  {
+                    "email": "direzionescientifica@neuromed.it",
+                    "name": "Stefania Passarelli",
+                    "phone": "+39 0865915217",
+                    "role": "CONTACT"
+                  }
+                ],
+                "country": "Italy",
+                "facility": "IRCCS INM-Neuromed",
+                "geoPoint": {
+                  "lat": 41.51142,
+                  "lon": 14.06252
+                },
+                "state": "Isernia",
+                "zip": "86077"
+              },
+              {
+                "city": "Genova",
+                "contacts": [
+                  {
+                    "email": "direzione.scientifica@hsanmartino.it",
+                    "name": "Antonio Uccelli, PhD",
+                    "role": "CONTACT"
+                  },
+                  {
+                    "email": "tiziana.vigo@hsanmartino.it",
+                    "name": "Tiziana Vigo, PhD",
+                    "role": "CONTACT"
+                  }
+                ],
+                "country": "Italy",
+                "facility": "IRCCS Ospedale Policlinico San Martino",
+                "geoPoint": {
+                  "lat": 45.21604,
+                  "lon": 11.87211
+                }
+              },
+              {
+                "city": "Roma",
+                "contacts": [
+                  {
+                    "email": "marco.salvetti@uniroma1.it",
+                    "name": "Marco Salvetti, PhD",
+                    "phone": "0039-0633775829",
+                    "role": "CONTACT"
+                  }
+                ],
+                "country": "Italy",
+                "facility": "Centre for Experimental Neurological Therapies (CENTERS), Department of Neurosciences, Mental Health and Sensory Organs, Sapienza University of Rome",
+                "geoPoint": {
+                  "lat": 44.99364,
+                  "lon": 11.10642
+                }
+              }
+            ],
+            "overallOfficials": [
+              {
+                "affiliation": "IRCCS Neuromed, Pozzilli, Isernia Italy",
+                "name": "Fabio Buttari, PhD",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ]
+          },
+          "descriptionModule": {
+            "briefSummary": "This is a prospective non interventional study including patients with Relapsing-Remitting Multiple Sclerosis (RRMS) or with Neuromyelitis Optica Spectrum Disorders (NMOSD) and healthy subjects, who are enrolled within the routinely programmed clinical examinations at the IRCCS Neuromed (Pozzilli, Italy), IRCCS Polyclinic Hospital San Martino (Genoa, Italy) and Sant'Andrea Hospital - University of Rome La Sapienza (Rome, Italy).\n\nSpecifically, the study investigates how ozanimod may contrast neurodegenerative mechanisms triggered by both arms of the adaptive immune response (T and B cells) and by their suboptimal regulation in MS. Overall, the project aims at assessing by in vitro experiments (there will be no patients on treatment with ozanimod and the drug will be only used in vitro):\n\nAIM1: ozanimod ability to modulate the synaptotoxic effect of T-cells derived from patients with MS relapse in a MS-chimeric ex-vivo model and to identify possible mediators (IRCCS Neuromed-Pozzilli, in collaboration with Synaptic Immunopathology Laboratory Dep. Systems Medicine, Tor Vergata University of Rome); AIM2: ozanimod ability to reduce the cytokine-mediated breakdown of the BBB and the migration of the here studied immune cells through ex vivo models of BBB (IRCCS Polyclinic Hospital San Martino); AIM3: ozanimod ability to affect the migration properties of Epstein Barr virus (EBV) infected B cells in MS (Sant'Andrea Hospital); AIM4: ozanimod ability to modulate the number and/or function of regulatory T cells (Treg), a lymphocyte population playing a key role in the control of pathogenic adaptive immune responses (Treg Cell Laboratory, Universit\u00e0 degli Studi di Napoli \"Federico II\", Naples, Italy, receiving blood samples from Neuromed Hospital and Sant'Andrea Hospital; not recruiting unit).\n\nThe work of the four labs is conceptually and operationally integrated: the labs at IRCCS Neuromed-Pozzilli/Tor Vergata University (Aim1) and at Polyclinic Hospital San Martino (Aim2) will investigate the effects of ozanimod on well-known mechanisms of damage in MS, inflammatory synaptopathy and BBB damage and immune cell migration. The lab at Sant'Andrea Hospital (Aim3), will verify whether B cells infected by different EBV genotypes are involved in BBB migration, and how ozanimod may interfere with this mechanism. The Treg Cell Laboratory (Aim4) will investigate whether ozanimod can also act \"upstream\" of these mechanisms by regulating the adaptive immune response.",
+            "detailedDescription": "Multiple sclerosis (MS) is a multifactorial and complex disease with several and tangled pathophysiological mechanisms, responsible for the inflammatory and neurodegenerative damage. Therapies targeting inflammatory pathways have brought substantial progress in the treatment of relapsing-remitting MS. Disappointingly, the impact of these treatments on neurodegeneration is limited. To tackle the complexity of the problem, combination therapies may be necessary. However, safety, tolerability and cost issues have so far limited this option. Single therapies that target at once inflammation and neurodegeneration are an appealing alternative. However, a comprehensive understanding of their effects is essential to maximize their impact.\n\nOzanimod is a molecule that targets simultaneously inflammation and neurodegeneration. Its impact on the latter is less well understood. The drug produces its effects by acting on two (S1P1 and S1P5) of the five sphingosine-1-phosphate G protein-coupled receptor subtypes. While the molecular targets of the drug are precisely defined, much remains to be learned about the many biological effects that may follow receptors' modulation.\n\nA collaborative and integrated approach is proposed to deepen our understanding of ozanimod's effects on the complex pathophysiology of MS.\n\nThe research will focus on crucial aspects for MS biology. Specifically, it will be investigated how ozanimod may contrast neurodegenerative mechanisms triggered by both arms of the adaptive immune response (T and B cells) and by their suboptimal regulation in MS. Overall, the project aims at investigating:\n\nAIM1: ozanimod ability to modulate the synaptotoxic effect of T-cells derived from active MS patients in a MS-chimeric ex-vivo model and to identify possible mediators (IRCCS Neuromed-Pozzilli, in collaboration with Synaptic Immunopathology Laboratory Dep. Systems Medicine, Tor Vergata University of Rome). Inflammatory synaptopathy, namely synapse loss and synaptic dysfunction, is emerging as an important hallmark of grey matter pathology in MS and its mouse model experimental autoimmune encephalomyelitis (EAE). In the past years, evidence has been provided of a direct role of T cell, derived from MS patients or EAE mice, in inducing glutamate-mediated excitotoxicity, a prominent form of synaptopathy detected in the MS/EAE brain. Notably, several lines of evidence indicate that limiting glutamate-excitotoxicity is an attractive therapeutic strategy to treat MS.\n\nRecently, the modulatory effects of ozanimod on inflammatory glutamate-mediated excitotoxicity was investigated and the different involvement of sphingosine receptor subtypes (S1P1 and S1P5) were evaluated in the EAE model. Two main results emerged: first, the S1P1/S1P5 modulator ozanimod has central neuroprotective effects likely mediated by an action on microglia cells and infiltrating lymphocytes, resulting in a reduced release of proinflammatory cytokines, the main players of inflammatory synaptopathy. Second, the central delivery of a selective S1P1 modulator showed neuroprotective effects, in terms of both EAE clinical score and inflammatory synaptopathy, suggesting a primary involvement of this receptor subtype in ozanimod- induced neuroprotection also in MS.\n\nIn the present project, the MS chimeric ex-vivo model recently developed in Tor Vergata University' lab, will be used. T cells isolated from active relapsing remitting MS patients but not from non-active (naMS) and healthy subject (HS), induced an increase of the spontaneous glutamatergic currents, reminiscent of the alterations induced by EAE T cells.\n\nIn this specific aim of the project, the following aspect will be assessed: i) to investigate if ozanimod is able to modulate the synaptotoxic effect of T dell derived from active MS patients in the MS-chimeric ex-vivo model and ii) to identify sphingosine receptor subtypes and iii) soluble molecules potentially involved.\n\nA role for ozanimod in dampening excitotoxic damage caused by synaptotoxic T-cell circulating in the MS brain, independently of a prevention of T cell trafficking, is expected to be revealed.\n\nAIM2: ozanimod ability to reduce the cytokine-mediated breakdown of the BBB and the migration of the here studied immune cells through ex vivo models of BBB (IRCCS Polyclinic Hospital San Martino). B and T lymphocytes, and NK cells are involved in MS pathogenesis (Lassmann, 2019). They differentially use S1P1 and S1P5 receptors to regulate their traffic across secondary lymphoid tissues, and to enter the CNS through the BBB (Sallusto et al., 2012). In turn, these receptors are important in maintaining the integrity and in restoring the function of BBB (Chun 2021).\n\nModulators of S1P1 and S1P5 receptors are widely used to treat MS, but their mode of action is only partially known due to the complex downstream effects of the combined interactions among receptors localized at the membrane surfaces of immune cells and at the endothelial cells and podocytes of the BBB. These modulating features have been mainly studied for fingolimod, the first drug of this class used in MS, whereas ozanimod's mechanisms of action need in-depth investigations. Indeed, this drug has chemical structure different from that of fingolimod, a binding restricted to S1P1 and S1P5 receptors vs S1P1, S1P3, S1P4 and S1P5 of fingolimod, different pharmacokinetics, and shorter time of elimination half-life (Chun et al., 2021).\n\nThe purpose of this specific aim is to evaluate, in ex vivo models of the human BBB exploited through transwell-based systems and organoids, the effects of ozanimod on: i) maintaining of BBB integrity in a context of cytokine-mediated barrier breakdown; ii) impairing the migration of T cells and NK cells across BBB.\n\nThe ex-vivo exposure of peripheral blood mononuclear cells (PBMCs) from MS patients to ozanimod is expected to reduce the damage of the BBB mediated by pro-inflammatory cytokines, as well as to mitigate ability of these immune cells across the BBB. PBMCs of patients with NMOSDs will be also used as inflammatory controls, since in these disorders Th17 cells have a major pathogenetic role, together with the BBB-targeting AQP-4 antibodies.\n\nAIM3: ozanimod ability to affect the migration properties of Epstein-Barr virus (EBV) infected B cells in MS (Sant'Andrea Hospital).\n\nIn the general population, the memory subset of B lymphocytes, proved to be decreased during therapy with S1P receptors modulators, is the one that selectively harbors EBV as a latently infecting agent. Several studies on EBV genotypes demonstrated an association of specific Epstein- Barr nuclear antigen 2 (EBNA2) gene variants with MS. EBNA2 acts as a transactivator on both viral and cellular gene promoters/enhancers by obligatory interactions with host cell transcription factors. Taking into consideration the complex interplay between EBNA2 and cellular components, it is likely that EBNA2 variants may affect the processes of early infection and participate in the dysregulated virus-host interactions in MS. Also, MS-associated EBNA2 variants seem to interfere with B cell migration and maturation within germinal centers. Despite the presence of EBV infection in the MS brain is controversial, some observations support evidence of an intrathecal reactivation and virus-driven immunopathogenic response in MS. The hypothesis of this specific aim is that ozanimod can have immunomodulatory effects on B cells and EBV infected cells in a MS context. As already mentioned, ozanimod is a potent S1P1R modulator, that inhibits the egress of lymphocytes from lymphoid tissues. B cells and lymphoblastoid cell lines \\[spontaneously outgrowing (spLCLs) or in vitro infected with the EBV laboratory strain B95.8 (95.8LCLs)\\], will be used to study how EBV infection affects migration capacity and how this capacity is affected by ozanimod.\n\nSpecifically, the following aspect will be investigated: i) the migration properties of B cells, spLCLs and B95.8LCLs from MS patients and age- and sex-matched healthy donors (HD); ii) if ozanimod is able to modulate the migration properties of the above cells from patients and HD.\n\nThe knowledge of ozanimod influence on B cells and EBV-infected B cells migration through lymphoid organs and even in the brain, will be importantly improved by this research.\n\nAIM4: ozanimod ability to modulate the number and/or function of regulatory T cells (Treg), a lymphocyte population playing a key role in the control of autoimmune responses (Treg Cell Laboratory, Universit\u00e0 degli Studi di Napoli \"Federico II\", Naples, Italy, receiving blood samples from Neuromed Hospital and Sant'Andrea Hospital; not recruiting unit). Intracellular metabolic pathways are able to control the induction and function of different immune cellular subsets, indeed glycolysis is indispensable for the generation of human iTreg cells from Tconv cells. In addition, a glycolytic defect during the activation of Tconv cells in MS and T1D subjects, was associated with a reduced induction and suppressive function of iTreg cells in these patients suggesting a defective function of iTreg cells during autoimmunity. The effect of ozanimod on the cellular metabolic profile of T lymphocytes and of iTreg cells will be investigated. In particular, this specific aim will evaluate i) the capacity of ozanimod to affect T cell and iTreg cell function/activity (activation, proliferation, suppression, Foxp3 induction) and ii) the metabolic asset of circulating T cell populations (ie. measurement of glycolysis and oxidative phosphorylation) purified from healthy subjects and MS patients.\n\nOzanimod is expected to be able to control immunometabolism of Tconv and iTreg cells in RRMS patients. This aim will also assess whether ozanimod is able to modify the induction of iTreg cells in healthy controls and RRMS patients."
+          },
+          "designModule": {
+            "designInfo": {
+              "observationalModel": "CASE_CONTROL",
+              "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+              "count": 154,
+              "type": "ESTIMATED"
+            },
+            "patientRegistry": false,
+            "studyType": "OBSERVATIONAL"
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nMain inclusion criteria of patients with RRMS:\n\n* Relapsing-remitting MS, as diagnosed by the revised 2010 McDonald Criteria\n* EDSS score \u2264 5.5;\n* Age between 18 and 55 years (exclusive);\n* No disease modifying therapies for at least 3 months or treatment na\u00efve;\n* No corticosteroid administration in the previous month;\n* Disease duration \\<10 years;\n* Ability to provide written informed consent.\n\nFor the estimation of radiological variables, brain and spinal cord MRI will be performed according to clinical practice and lesions will be classified as symptomatic or asymptomatic if they were associated with clinical relapse or not.\n\nPatient groups will be matched by gender, age, ethnicity and MS duration.\n\nMain inclusion criteria of patients with NMOSD (Wingerchuk et al., 2015):\n\n* Positive test for Aquaporin 4 IgG;\n* Age between 18 and 55 years (exclusive);\n* no immunosuppressive therapies for at least 3 months or treatment na\u00efve\n* no corticosteroid administration in the previous month\n* disease duration \\<10 years\n* Ability to provide written informed consent\n\nHealthy subjects\n\n* Age between 18 and 55 years (exclusive), matched by gender, age and ethnicity towards the MS groups.\n* Ability to provide written informed consent\n\nExclusion Criteria:\n\nExclusion criteria patients with RRMS:\n\n* Adverse effects to MRI imaging with i.v. gadolinium;\n* Blood count basal alteration;\n* Clinically significant medical condition other than MS, including latent infections (e.g. tuberculosis, viral hepatitis, HIV/AIDS) that might confound the results of the study.",
+            "healthyVolunteers": true,
+            "maximumAge": "55 Years",
+            "minimumAge": "18 Years",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE",
+            "sex": "ALL",
+            "stdAges": [
+              "ADULT"
+            ],
+            "studyPopulation": "This is a prospective non interventional study with MS patients enrolled within the routinely programmed clinical examinations at the IRCCS NeuromedPozzilli, IRCCS polyclinic hospital San Martino (Genoa, Italy), Sant'Andrea\n\nHospital - University of Rome La Sapienza (Rome, Italy). Study population:\n\nApproximately 72 Relapsing-Remitting Multiple Sclerosis (RRMS - na\u00efve or after 3 months wash out from DMT patients; 10 Neuromyelitis Optica Spectrum Disorders patients (NMOSD); 72 healthy subjects (HD) will be recruited from the hospitals involved in the study."
+          },
+          "identificationModule": {
+            "briefTitle": "Effects of Ozanimod on Immune-mediated Mechanisms of Neurodegeneration in Multiple Sclerosis - a Preclinical Study",
+            "nctId": "NCT05245344",
+            "officialTitle": "Effects of Ozanimod on Immune-mediated Mechanisms of Neurodegeneration in Multiple Sclerosis - a Preclinical Study",
+            "orgStudyIdInfo": {
+              "id": "MulticOZ-MS"
+            },
+            "organization": {
+              "class": "OTHER",
+              "fullName": "Neuromed IRCCS"
+            }
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "description": "1.1.1. T cells will be isolated from the peripheral blood of na\u00efve active RRMS patients and will be reated in culture with ozanimod (1000 nM) or vehicle for 24 h. After treatment, T cells will be incubated on corticostriatal slices derived from healthy mice and electrophysiological recording will be performed to measure:\n\n\u2022 kinetics of the spontaneous synaptic transmission (half width, decay time and rise time, in ms);\n\nThe same experiments will be performed by using cell treated with S1P1 and S1P5 selective agonists.\n\nThe primary endpoint will be the comparison of electrophysiological parameters between ozanimod and vehicle conditions, to evaluate a potential beneficial effect of ozanimod on the synaptic alterations induced by MS lymphocytes.",
+                "measure": "To evaluate the potential anti-synaptotoxic effect of ozanimod on electrophysiological kinetics in the MS chimeric model",
+                "timeFrame": "18 months"
+              },
+              {
+                "description": "1.1.2. T cells will be isolated from the peripheral blood of na\u00efve active RRMS patients and will be reated in culture with ozanimod (1000 nM) or vehicle for 24 h. After treatment, T cells will be incubated on corticostriatal slices derived from healthy mice and electrophysiological recording will be performed to measure:\n\n\u2022 frequency of the spontaneous synaptic transmission (in Hz);\n\nThe same experiments will be performed by using cell treated with S1P1 and S1P5 selective agonists.\n\nThe primary endpoint will be the comparison of electrophysiological parameters between ozanimod and vehicle conditions, to evaluate a potential beneficial effect of ozanimod on the synaptic alterations induced by MS lymphocytes.",
+                "measure": "To evaluate the potential anti-synaptotoxic effect of ozanimod on electrophysiological frequency in the MS chimeric model",
+                "timeFrame": "18 months"
+              },
+              {
+                "description": "1.1.3. T cells will be isolated from the peripheral blood of na\u00efve active RRMS patients and will be reated in culture with ozanimod (1000 nM) or vehicle for 24 h. After treatment, T cells will be incubated on corticostriatal slices derived from healthy mice and electrophysiological recording will be performed to measure:\n\n\u2022 amplitude of the spontaneous synaptic transmission (in pA).\n\nThe same experiments will be performed by using cell treated with S1P1 and S1P5 selective agonists.\n\nThe primary endpoint will be the comparison of electrophysiological parameters between ozanimod and vehicle conditions, to evaluate a potential beneficial effect of ozanimod on the synaptic alterations induced by MS lymphocytes.",
+                "measure": "To evaluate the potential anti-synaptotoxic effect of ozanimod on electrophysiological amplitude in the MS chimeric model",
+                "timeFrame": "18 months"
+              },
+              {
+                "description": "2.1. The impact on the integrity of BBB will be assessed for T and NK cells isolated from naive MS patients, and exposed or not ex-vivo to ozanimod.\n\nDifferences in the expression of the tight junction proteins as Claudin-5, Occludin, Zonula Occludens-1 (fold change) upon exposure of BBB models to immune cells from MS patients, treated or not ex vivo with ozanimod, will be evaluated.\n\nThe primary endpoint will be the comparison of BBB integrity, matching the results from ozanimod stimulated vs ozanimod unstimulated cells taken from each patient.",
+                "measure": "To asses the ability of ozanimod to reduce the breakdown of the ex vivo model of BBB (BBB integrity).",
+                "timeFrame": "18 months"
+              },
+              {
+                "description": "2.2. The impact on the migration ability across the BBB will be assessed for T and NK cells isolated from naive MS patients, and exposed or not ex-vivo to ozanimod.\n\nDifferences in the migration across ex vivo models of BBB of immune cells isolated from MS patients after incubation with ozanimod, will be evaluated (dye fluorescencent signal).\n\nThe primary endpoint will be the comparison of BBB permeability to T and NK cells, matching the results from ozanimod stimulated vs ozanimod unstimulated cells taken from each patient.",
+                "measure": "To asses the ability of ozanimod to reduce the cytokine-mediated permeability of the ex vivo model of BBB.",
+                "timeFrame": "18 months"
+              },
+              {
+                "description": "3\\. B cells and LCLs will be cultured in the presence of different drug concentrations and transwell migration assays will be performed to evaluate their ability to migrate through a membrane. At least 5 LCLs and related B cells will be tested for each EBNA2 alleles.\n\nSpecifically, this aim will investigate: The migration properties of B cells, spLCLs and B95.8LCLs from MS patients and age- and sex-matched HD, and if ozanimod is able to modulate the migration properties of the above cells from patients and HD.\n\nThe primary endpoint will be the comparison of the migratory capacity (sphingosine- and chemokine-driven) of EBV-infected B cells compared to non-infected cells; whether different viral genotypes modify this capacity; whether and how the above properties differ between patients and controls; whether and how ozanimod affects the above properties.",
+                "measure": "To evaluate the migration properties of B cells, spLCLs (with 1.2 and with 1.3 viral alleles) and B95.8LCLs isolated from peripheral blood of (untreated) RRMS and HD.",
+                "timeFrame": "18 months"
+              },
+              {
+                "description": "4.1. It has been demonstrated that human CD4+CD25- Tconv cells isolated from PBMC of human subjects and activated in vitro in the presence of low-TCR engagement, acquire a suppressive phenotype and generate highly suppressive human iTreg cells.\n\nTherefore, in order to evaluate the effect of ozanimod on the induction of iTreg, Tconv cells will be isolated from healthy subjects and RRMS patients and after 36 h culture in the presence of ozanimod or vehicle, activated CD4+CD25- T cells will be FACS-sorted and will be analyzed for their proliferative potential (Ki67 fluorescence).\n\nThe primary endpoint will be the comparison of iTreg cell proliferation between Tconv cell stimulated in the presence or not of ozanimod.",
+                "measure": "To evaluate the effect of ozanimod on the proliferation of Treg cells",
+                "timeFrame": "18 months"
+              },
+              {
+                "description": "4.2. After Tconv cells isolation from healthy subjects and RRMS patients and 36 h culture in the presence of ozanimod or vehicle, activated CD4+CD25- T cells will be FACS-sorted and will be analyzed for metabolic asset.\n\nThe effect of ozanimod on the metabolic asset of iTreg will be evaluated by assessing p-S6 fluorescence.\n\nThe primary endpoint will be the comparison of iTreg cell metabolic asset between Tconv cell stimulated in the presence or not of ozanimod.",
+                "measure": "To evaluate the effect of ozanimod on metabolic asset of Treg cells.",
+                "timeFrame": "18 months"
+              },
+              {
+                "description": "4.3. After Tconv cells isolation from healthy subjects and RRMS patients and 36 h culture in the presence of ozanimod or vehicle, activated CD4+CD25- T cells will be FACS-sorted and will be analyzed for their function.\n\nThe effect of ozanimod on the induction of iTreg will be evaluated by assessing the expression levels of the two major FoxP3 splicing forms, one containing (FoxP3E2) and the other lacking (FoxP3\u22062) the exon 2.\n\nThe primary endpoint will be the comparison of iTreg cell function between Tconv cell stimulated in the presence or not of ozanimod.",
+                "measure": "To evaluate the effect of ozanimod on the function of Treg cells.",
+                "timeFrame": "18 months"
+              }
+            ]
+          },
+          "oversightModule": {
+            "isFdaRegulatedDevice": false,
+            "isFdaRegulatedDrug": false,
+            "oversightHasDmc": false
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "citation": "Musella A, Gentile A, Guadalupi L, Rizzo FR, De Vito F, Fresegna D, Bruno A, Dolcetti E, Vanni V, Vitiello L, Bullitta S, Sanna K, Caioli S, Balletta S, Nencini M, Buttari F, Stampanoni Bassi M, Centonze D, Mandolesi G. Central Modulation of Selective Sphingosine-1-Phosphate Receptor 1 Ameliorates Experimental Multiple Sclerosis. Cells. 2020 May 22;9(5):1290. doi: 10.3390/cells9051290.",
+                "pmid": "32455907",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "De Rosa V, Galgani M, Porcellini A, Colamatteo A, Santopaolo M, Zuchegna C, Romano A, De Simone S, Procaccini C, La Rocca C, Carrieri PB, Maniscalco GT, Salvetti M, Buscarinu MC, Franzese A, Mozzillo E, La Cava A, Matarese G. Glycolysis controls the induction of human regulatory T cells by modulating the expression of FOXP3 exon 2 splicing variants. Nat Immunol. 2015 Nov;16(11):1174-84. doi: 10.1038/ni.3269. Epub 2015 Sep 28.",
+                "pmid": "26414764",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Mechelli R, Manzari C, Policano C, Annese A, Picardi E, Umeton R, Fornasiero A, D'Erchia AM, Buscarinu MC, Agliardi C, Annibali V, Serafini B, Rosicarelli B, Romano S, Angelini DF, Ricigliano VA, Buttari F, Battistini L, Centonze D, Guerini FR, D'Alfonso S, Pesole G, Salvetti M, Ristori G. Epstein-Barr virus genetic variants are associated with multiple sclerosis. Neurology. 2015 Mar 31;84(13):1362-8. doi: 10.1212/WNL.0000000000001420. Epub 2015 Mar 4.",
+                "pmid": "25740864",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Agasing AM, Wu Q, Khatri B, Borisow N, Ruprecht K, Brandt AU, Gawde S, Kumar G, Quinn JL, Ko RM, Mao-Draayer Y, Lessard CJ, Paul F, Axtell RC. Transcriptomics and proteomics reveal a cooperation between interferon and T-helper 17 cells in neuromyelitis optica. Nat Commun. 2020 Jun 5;11(1):2856. doi: 10.1038/s41467-020-16625-7.",
+                "pmid": "32503977",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Angelini DF, Serafini B, Piras E, Severa M, Coccia EM, Rosicarelli B, Ruggieri S, Gasperini C, Buttari F, Centonze D, Mechelli R, Salvetti M, Borsellino G, Aloisi F, Battistini L. Increased CD8+ T cell response to Epstein-Barr virus lytic antigens in the active phase of multiple sclerosis. PLoS Pathog. 2013;9(4):e1003220. doi: 10.1371/journal.ppat.1003220. Epub 2013 Apr 11.",
+                "pmid": "23592979",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Baecher-Allan C, Kaskow BJ, Weiner HL. Multiple Sclerosis: Mechanisms and Immunotherapy. Neuron. 2018 Feb 21;97(4):742-768. doi: 10.1016/j.neuron.2018.01.021.",
+                "pmid": "29470968",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Bergmann S, Lawler SE, Qu Y, Fadzen CM, Wolfe JM, Regan MS, Pentelute BL, Agar NYR, Cho CF. Blood-brain-barrier organoids for investigating the permeability of CNS therapeutics. Nat Protoc. 2018 Dec;13(12):2827-2843. doi: 10.1038/s41596-018-0066-x.",
+                "pmid": "30382243",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Centonze D, Muzio L, Rossi S, Cavasinni F, De Chiara V, Bergami A, Musella A, D'Amelio M, Cavallucci V, Martorana A, Bergamaschi A, Cencioni MT, Diamantini A, Butti E, Comi G, Bernardi G, Cecconi F, Battistini L, Furlan R, Martino G. Inflammation triggers synaptic alteration and degeneration in experimental autoimmune encephalomyelitis. J Neurosci. 2009 Mar 18;29(11):3442-52. doi: 10.1523/JNEUROSCI.5804-08.2009.",
+                "pmid": "19295150",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Chiara M, Manzari C, Lionetti C, Mechelli R, Anastasiadou E, Chiara Buscarinu M, Ristori G, Salvetti M, Picardi E, D'Erchia AM, Pesole G, Horner DS. Geographic Population Structure in Epstein-Barr Virus Revealed by Comparative Genomics. Genome Biol Evol. 2016 Dec 14;8(11):3284-3291. doi: 10.1093/gbe/evw226.",
+                "pmid": "27635051",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Chun J, Giovannoni G, Hunter SF. Sphingosine 1-phosphate Receptor Modulator Therapy for Multiple Sclerosis: Differential Downstream Receptor Signalling and Clinical Profile Effects. Drugs. 2021 Feb;81(2):207-231. doi: 10.1007/s40265-020-01431-8.",
+                "pmid": "33289881",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Compston A, Coles A. Multiple sclerosis. Lancet. 2008 Oct 25;372(9648):1502-17. doi: 10.1016/S0140-6736(08)61620-7.",
+                "pmid": "18970977",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Dendrou CA, Fugger L, Friese MA. Immunopathology of multiple sclerosis. Nat Rev Immunol. 2015 Sep 15;15(9):545-58. doi: 10.1038/nri3871. Epub 2015 Aug 7.",
+                "pmid": "26250739",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Gentile A, De Vito F, Fresegna D, Rizzo FR, Bullitta S, Guadalupi L, Vanni V, Buttari F, Stampanoni Bassi M, Leuti A, Chiurchiu V, Marfia GA, Mandolesi G, Centonze D, Musella A. Peripheral T cells from multiple sclerosis patients trigger synaptotoxic alterations in central neurons. Neuropathol Appl Neurobiol. 2020 Feb;46(2):160-170. doi: 10.1111/nan.12569. Epub 2019 Jun 17.",
+                "pmid": "31125471",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Harris S, Tran JQ, Southworth H, Spencer CM, Cree BAC, Zamvil SS. Effect of the sphingosine-1-phosphate receptor modulator ozanimod on leukocyte subtypes in relapsing MS. Neurol Neuroimmunol Neuroinflamm. 2020 Jul 31;7(5):e839. doi: 10.1212/NXI.0000000000000839. Print 2020 Sep.",
+                "pmid": "32737072",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Hwang IY, Park C, Harrison K, Kehrl JH. Biased S1PR1 Signaling in B Cells Subverts Responses to Homeostatic Chemokines, Severely Disorganizing Lymphoid Organ Architecture. J Immunol. 2019 Nov 1;203(9):2401-2414. doi: 10.4049/jimmunol.1900678. Epub 2019 Sep 23.",
+                "pmid": "31548329",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Jiang S, Zhou H, Liang J, Gerdt C, Wang C, Ke L, Schmidt SCS, Narita Y, Ma Y, Wang S, Colson T, Gewurz B, Li G, Kieff E, Zhao B. The Epstein-Barr Virus Regulome in Lymphoblastoid Cells. Cell Host Microbe. 2017 Oct 11;22(4):561-573.e4. doi: 10.1016/j.chom.2017.09.001.",
+                "pmid": "29024646",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Lassmann H. Pathogenic Mechanisms Associated With Different Clinical Courses of Multiple Sclerosis. Front Immunol. 2019 Jan 10;9:3116. doi: 10.3389/fimmu.2018.03116. eCollection 2018.",
+                "pmid": "30687321",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Lu F, Chen HS, Kossenkov AV, DeWispeleare K, Won KJ, Lieberman PM. EBNA2 Drives Formation of New Chromosome Binding Sites and Target Genes for B-Cell Master Regulatory Transcription Factors RBP-jkappa and EBF1. PLoS Pathog. 2016 Jan 11;12(1):e1005339. doi: 10.1371/journal.ppat.1005339. eCollection 2016 Jan.",
+                "pmid": "26752713",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Mandolesi G, Gentile A, Musella A, Fresegna D, De Vito F, Bullitta S, Sepman H, Marfia GA, Centonze D. Synaptopathy connects inflammation and neurodegeneration in multiple sclerosis. Nat Rev Neurol. 2015 Dec;11(12):711-24. doi: 10.1038/nrneurol.2015.222. Epub 2015 Nov 20.",
+                "pmid": "26585978",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "McGinley MP, Cohen JA. Sphingosine 1-phosphate receptor modulators in multiple sclerosis and other conditions. Lancet. 2021 Sep 25;398(10306):1184-1194. doi: 10.1016/S0140-6736(21)00244-0. Epub 2021 Jun 24.",
+                "pmid": "34175020",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Mechelli R, Anderson J, Vittori D, Coarelli G, Annibali V, Cannoni S, Aloisi F, Salvetti M, James JA, Ristori G. Epstein-Barr virus nuclear antigen-1 B-cell epitopes in multiple sclerosis twins. Mult Scler. 2011 Nov;17(11):1290-4. doi: 10.1177/1352458511410515. Epub 2011 Jul 14.",
+                "pmid": "21757535",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Reich DS, Lucchinetti CF, Calabresi PA. Multiple Sclerosis. N Engl J Med. 2018 Jan 11;378(2):169-180. doi: 10.1056/NEJMra1401483. No abstract available.",
+                "pmid": "29320652",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Josefowicz SZ, Lu LF, Rudensky AY. Regulatory T cells: mechanisms of differentiation and function. Annu Rev Immunol. 2012;30:531-64. doi: 10.1146/annurev.immunol.25.022106.141623. Epub 2012 Jan 6.",
+                "pmid": "22224781",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Sakaguchi S. Naturally arising CD4+ regulatory t cells for immunologic self-tolerance and negative control of immune responses. Annu Rev Immunol. 2004;22:531-62. doi: 10.1146/annurev.immunol.21.120601.141122.",
+                "pmid": "15032588",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Sallusto F, Impellizzieri D, Basso C, Laroni A, Uccelli A, Lanzavecchia A, Engelhardt B. T-cell trafficking in the central nervous system. Immunol Rev. 2012 Jul;248(1):216-27. doi: 10.1111/j.1600-065X.2012.01140.x.",
+                "pmid": "22725964",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Serafini B, Rosicarelli B, Franciotta D, Magliozzi R, Reynolds R, Cinque P, Andreoni L, Trivedi P, Salvetti M, Faggioni A, Aloisi F. Dysregulated Epstein-Barr virus infection in the multiple sclerosis brain. J Exp Med. 2007 Nov 26;204(12):2899-912. doi: 10.1084/jem.20071030. Epub 2007 Nov 5.",
+                "pmid": "17984305",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Swallow E, Patterson-Lomba O, Yin L, Mehta R, Pelletier C, Kao D, Sheffield JK, Stonehouse T, Signorovitch J. Comparative safety and efficacy of ozanimod versus fingolimod for relapsing multiple sclerosis. J Comp Eff Res. 2020 Mar;9(4):275-285. doi: 10.2217/cer-2019-0169. Epub 2020 Jan 17.",
+                "pmid": "31948278",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Thompson AJ, Baranzini SE, Geurts J, Hemmer B, Ciccarelli O. Multiple sclerosis. Lancet. 2018 Apr 21;391(10130):1622-1636. doi: 10.1016/S0140-6736(18)30481-1. Epub 2018 Mar 23.",
+                "pmid": "29576504",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Villoslada P, Steinman L. New targets and therapeutics for neuroprotection, remyelination and repair in multiple sclerosis. Expert Opin Investig Drugs. 2020 May;29(5):443-459. doi: 10.1080/13543784.2020.1757647. Epub 2020 Apr 29.",
+                "pmid": "32299268",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Werner P, Pitt D, Raine CS. Multiple sclerosis: altered glutamate homeostasis in lesions correlates with oligodendrocyte and axonal damage. Ann Neurol. 2001 Aug;50(2):169-80. doi: 10.1002/ana.1077.",
+                "pmid": "11506399",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Wingerchuk DM, Banwell B, Bennett JL, Cabre P, Carroll W, Chitnis T, de Seze J, Fujihara K, Greenberg B, Jacob A, Jarius S, Lana-Peixoto M, Levy M, Simon JH, Tenembaum S, Traboulsee AL, Waters P, Wellik KE, Weinshenker BG; International Panel for NMO Diagnosis. International consensus diagnostic criteria for neuromyelitis optica spectrum disorders. Neurology. 2015 Jul 14;85(2):177-89. doi: 10.1212/WNL.0000000000001729. Epub 2015 Jun 19.",
+                "pmid": "26092914",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Zhou H, Schmidt SC, Jiang S, Willox B, Bernhardt K, Liang J, Johannsen EC, Kharchenko P, Gewurz BE, Kieff E, Zhao B. Epstein-Barr virus oncoprotein super-enhancers control B cell growth. Cell Host Microbe. 2015 Feb 11;17(2):205-16. doi: 10.1016/j.chom.2014.12.013. Epub 2015 Jan 29.",
+                "pmid": "25639793",
+                "type": "BACKGROUND"
+              }
+            ]
+          },
+          "sponsorCollaboratorsModule": {
+            "collaborators": [
+              {
+                "class": "OTHER",
+                "name": "University of Rome Tor Vergata"
+              }
+            ],
+            "leadSponsor": {
+              "class": "OTHER",
+              "name": "Neuromed IRCCS"
+            },
+            "responsibleParty": {
+              "investigatorAffiliation": "Neuromed IRCCS",
+              "investigatorFullName": "Fabio Buttari",
+              "investigatorTitle": "Principal Investigator",
+              "type": "PRINCIPAL_INVESTIGATOR"
+            }
+          },
+          "statusModule": {
+            "completionDateStruct": {
+              "date": "2023-10-31",
+              "type": "ESTIMATED"
+            },
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "lastKnownStatus": "NOT_YET_RECRUITING",
+            "lastUpdatePostDateStruct": {
+              "date": "2022-02-17",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2022-02-15",
+            "overallStatus": "UNKNOWN",
+            "primaryCompletionDateStruct": {
+              "date": "2023-06-30",
+              "type": "ESTIMATED"
+            },
+            "startDateStruct": {
+              "date": "2022-04-01",
+              "type": "ESTIMATED"
+            },
+            "statusVerifiedDate": "2022-02",
+            "studyFirstPostDateStruct": {
+              "date": "2022-02-17",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2021-12-30",
+            "studyFirstSubmitQcDate": "2022-02-15"
+          }
+        }
+      }
+    ],
+    "totalCount": 10
+  },
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.term=S1PR1+OR+S1PR5+OR+S1PR2&query.cond=autoimmune+OR+multiple+sclerosis+OR+rheumatoid+arthritis+OR+lupus+OR+Crohn+OR+psoriasis&format=json&pageSize=1&countTotal=true"
+}

@@ -1,0 +1,126 @@
+{
+  "error": "",
+  "payload": {
+    "hitCount": 81967,
+    "nextCursorMark": "AoIIQTNR+ig1NTA0Mzc1Nw==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(IL10) AND (\"autoimmune\" OR \"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR psoriasis)&cursorMark=AoIIQTNR+ig1NTA0Mzc1Nw==&resultType=lite&pageSize=3&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 3,
+      "queryString": "(IL10) AND (\"autoimmune\" OR \"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR psoriasis)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Yu Z, Tang X, Shi Y, Gong Y.",
+          "citedByCount": 0,
+          "doi": "10.1016/j.lfs.2026.124359",
+          "firstIndexDate": "2026-03-30",
+          "firstPublicationDate": "2026-03-27",
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "N",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41905457",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "isOpenAccess": "N",
+          "journalIssn": "0024-3205; 1879-0631; ",
+          "journalTitle": "Life Sci",
+          "journalVolume": "394",
+          "pageInfo": "124359",
+          "pmid": "41905457",
+          "pubType": "review; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "LAG-3 at the crossroads: A context-dependent regulator of Tregs and autoimmunity inflammatory disorders."
+        },
+        {
+          "authorString": "Chiou YY, Chiu TY, Chen MJ.",
+          "citedByCount": 0,
+          "doi": "10.3390/nu18071107",
+          "firstIndexDate": "2026-04-14",
+          "firstPublicationDate": "2026-03-30",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13074674"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "N",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41978157",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "7",
+          "journalIssn": "2072-6643",
+          "journalTitle": "Nutrients",
+          "journalVolume": "18",
+          "pageInfo": "1107",
+          "pmcid": "PMC13074674",
+          "pmid": "41978157",
+          "pubType": "meta-analysis; systematic review; review-article; review; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Effect of Probiotic and Synbiotic Oral Supplementation in Autoimmune Diseases: An Updated Systematic Review and Meta-Analysis of Randomized Controlled Trials."
+        },
+        {
+          "authorString": "Sobczyk MK, Gaunt TR.",
+          "citedByCount": 0,
+          "doi": "10.1038/s41598-026-41818-3",
+          "firstIndexDate": "2026-03-04",
+          "firstPublicationDate": "2026-03-03",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13065838"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "41775781",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "1",
+          "journalIssn": "2045-2322",
+          "journalTitle": "Sci Rep",
+          "journalVolume": "16",
+          "pageInfo": "11851",
+          "pmcid": "PMC13065838",
+          "pmid": "41775781",
+          "pubType": "research-article; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Integrative mendelian randomization approaches for therapeutic target prioritisation in immune-mediated diseases.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "hgnc"
+            ]
+          }
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "status": "ok",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28IL10%29+AND+%28%22autoimmune%22+OR+%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+psoriasis%29&format=json&pageSize=3&resultType=lite"
+}

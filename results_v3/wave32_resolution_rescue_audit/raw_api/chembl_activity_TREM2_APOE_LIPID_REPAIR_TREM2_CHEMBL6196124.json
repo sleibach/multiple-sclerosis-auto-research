@@ -1,0 +1,86 @@
+{
+  "payload": {
+    "activities": [
+      {
+        "action_type": {
+          "action_type": "AGONIST",
+          "description": "Binds to and activates a receptor, often mimicking the effect of the endogenous ligand",
+          "parent_type": "POSITIVE MODULATOR"
+        },
+        "activity_comment": null,
+        "activity_id": 29268711,
+        "activity_properties": [
+          {
+            "comments": null,
+            "relation": "=",
+            "result_flag": 0,
+            "standard_relation": "=",
+            "standard_text_value": null,
+            "standard_type": "TIME",
+            "standard_units": "hr",
+            "standard_value": "0.5",
+            "text_value": null,
+            "type": "TIME",
+            "units": "min",
+            "value": "30.0"
+          }
+        ],
+        "assay_chembl_id": "CHEMBL6141350",
+        "assay_description": "Agonist activity at human TREM2 expressed in HEK cells co-expressing human DAP12 assessed as increase in Syk phosphorylation incubated for 30 mins by AlphaLISA assay",
+        "assay_type": "B",
+        "assay_variant_accession": null,
+        "assay_variant_mutation": null,
+        "bao_endpoint": "BAO_0000188",
+        "bao_format": "BAO_0000219",
+        "bao_label": "cell-based format",
+        "canonical_smiles": "Cc1cc([C@@H]2CN(c3cc4c(=O)n(C)c(C(F)F)nc4c(-c4ccc(Cl)cc4F)n3)CCO2)ccn1",
+        "data_validity_comment": null,
+        "data_validity_description": null,
+        "document_chembl_id": "CHEMBL6134927",
+        "document_journal": "ACS Med Chem Lett",
+        "document_year": 2025,
+        "ligand_efficiency": {
+          "bei": "16.52",
+          "le": "0.32",
+          "lle": "3.51",
+          "sei": "11.65"
+        },
+        "molecule_chembl_id": "CHEMBL6174051",
+        "molecule_pref_name": null,
+        "parent_molecule_chembl_id": "CHEMBL6174051",
+        "pchembl_value": "8.52",
+        "potential_duplicate": 0,
+        "qudt_units": "http://www.openphacts.org/units/Nanomolar",
+        "record_id": 4700276,
+        "relation": "=",
+        "src_id": 1,
+        "standard_flag": 1,
+        "standard_relation": "=",
+        "standard_text_value": null,
+        "standard_type": "EC50",
+        "standard_units": "nM",
+        "standard_upper_value": null,
+        "standard_value": "3.0",
+        "target_chembl_id": "CHEMBL6196124",
+        "target_organism": "Homo sapiens",
+        "target_pref_name": "Triggering receptor expressed on myeloid cells 2",
+        "target_tax_id": "9606",
+        "text_value": null,
+        "toid": null,
+        "type": "EC50",
+        "units": "uM",
+        "uo_units": "UO_0000065",
+        "upper_value": null,
+        "value": "0.003"
+      }
+    ],
+    "page_meta": {
+      "limit": 1,
+      "next": "/chembl/api/data/activity.json?limit=1&offset=1&target_chembl_id=CHEMBL6196124&standard_units=nM",
+      "offset": 0,
+      "previous": null,
+      "total_count": 6
+    }
+  },
+  "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?limit=1&target_chembl_id=CHEMBL6196124&standard_units=nM"
+}

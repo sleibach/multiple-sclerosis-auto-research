@@ -1,0 +1,9 @@
+disease_name	source_analysis	target_analysis	n_module_contexts	n_m3_perm_positive	n_m3_perm_q_positive	n_strict_context_pass	n_provisional_context_pass	n_generic_context	best_m3_p	best_m3_perm_p	best_m3_perm_q	fisher_m3_perm_p	stouffer_signed_m3_perm_p	module_signs	specificity_calls	fisher_q	stouffer_q	strict_disease_pass	provisional_disease_pass
+Sjogren syndrome	sjogren_gland_epithelial	sjogren_gland_apc	3	1	0	0	1	0	0.0383471421508279	0.0454772613693153	0.10164917541229379	0.03414668503171974	0.0033349716722546534	lysosomal_apc:+;complement_phagocytosis:+;lipid_loader_repair:+	SPECIFIC_PRIMARY_OVER_CONTROLS_M3	0.05122002754757961	0.00500245750838198	False	True
+Crohn disease	ibd_crohn_epithelial	ibd_crohn_myeloid	3	3	1	0	0	3	0.0034901387055257	0.0019990004997501	0.0179910044977509	0.00014507896901876303	7.007196068051869e-06	lysosomal_apc:+;lipid_loader_repair:+;complement_phagocytosis:+	GENERIC_TARGET_ACTIVATION_COUPLING	0.0004352369070562891	2.1021588204155607e-05	False	False
+ulcerative colitis	ibd_uc_epithelial	ibd_uc_myeloid	3	0	0	0	0	0	0.255396744494	0.272863568215892	0.40929535232383807	0.7063730420571259	0.36775837834341807	lipid_loader_repair:+;complement_phagocytosis:-;lysosomal_apc:+	NO_PRIMARY_SIGNAL	0.7063730420571259	0.367758378343418	False	False
+Crohn disease	ibd_crohn_stromal	ibd_crohn_myeloid	3	0	0	0	0	0							NO_PRIMARY_SIGNAL			False	False
+Sjogren syndrome	sjogren_gland_stromal	sjogren_gland_apc	3	0	0	0	0	3							GENERIC_TARGET_ACTIVATION_COUPLING_M7			False	False
+psoriasis	psoriasis_keratinocyte	psoriasis_skin_apc	3	0	0	0	0	0							NO_PRIMARY_SIGNAL			False	False
+psoriasis	psoriasis_skin_stromal	psoriasis_skin_apc	3	0	0	0	0	0							NO_PRIMARY_SIGNAL			False	False
+ulcerative colitis	ibd_uc_stromal	ibd_uc_myeloid	3	0	0	0	0	0							NO_PRIMARY_SIGNAL			False	False

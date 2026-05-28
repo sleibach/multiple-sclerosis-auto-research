@@ -1,0 +1,60 @@
+{
+  "payload": {
+    "hitCount": 714,
+    "nextCursorMark": "AoIIQQvcyCg1MTg0NDEzNA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ATXN2 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQQvcyCg1MTg0NDEzNA==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "ATXN2 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Hu Y, Wang SB, Wang K, He MJ.",
+          "citedByCount": 1,
+          "doi": "10.2147/ccid.s488746",
+          "firstIndexDate": "2024-11-16",
+          "firstPublicationDate": "2024-11-04",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11546147"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "39524107",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalIssn": "1178-7015",
+          "journalTitle": "Clin Cosmet Investig Dermatol",
+          "journalVolume": "17",
+          "pageInfo": "2475-2486",
+          "pmcid": "PMC11546147",
+          "pmid": "39524107",
+          "pubType": "research-article; journal article",
+          "pubYear": "2024",
+          "source": "MED",
+          "title": "From Phenotype to Molecules: Unveiling the Genetic and Immunological Bridges Between Autoimmune Diseases and Vitiligo.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "refsnp"
+            ]
+          }
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ATXN2+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

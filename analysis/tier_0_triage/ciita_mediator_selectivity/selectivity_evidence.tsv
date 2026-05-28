@@ -1,0 +1,11 @@
+source	perturbation	perturbation_type	system	target_suppression	generic_ifn_suppression	target_over_ifn_ratio	selectivity_score	stress_induction	evidence_call	druggable	tier0_interpretation
+wave15_ranked_direct	Med16_KO	gene_knockout	primary mouse macrophage RNA-seq, triplicates	3.139501	0.797855	3.934928	2.305117	0.0	selective_target_suppression	no	benchmark_pass_non_druggable
+wave15_ranked_direct	Gsk3b_KO	gene_knockout	primary mouse macrophage RNA-seq, triplicates	1.622358	0.795201	2.040187	0.777956	0.0	selective_target_suppression	indirect_or_pleiotropic	partial_selective_signal
+wave15_ranked_direct	RFX5	CRISPRi_gene	stimulated human cancer-cell pathway Perturb-seq	0.551794	0.0	5.517939	0.523199	0.06354462132800315	weak_selective_target_suppression	no	partial_selective_signal
+wave17_local_perturbation_evidence	Med16_KO	local_mouse_screen_or_rnaseq	murine macrophages +/- IFN-gamma						Strong selective suppression of IFN-gamma-induced CIITA/MHC-II/CD74 while generic IFN core is only modestly reduced (-0.46).	no	
+wave17_local_perturbation_evidence	Med16_KO	local_mouse_screen_or_rnaseq	murine macrophages +/- IFN-gamma						Large antigen-presentation block; much stronger than Gsk3b KO in same dataset.	no	
+wave17_local_perturbation_evidence	Med16_KO	local_mouse_screen_or_rnaseq	murine macrophages +/- IFN-gamma						Not a complete IFN/JAK shutdown.	no	
+wave17_local_perturbation_evidence	Med16_sgRNAs	local_mouse_screen_or_rnaseq	murine macrophage IFN-gamma MHC-II/CD40/PD-L1 screen						Med16 loss scores as an MHC-II suppressor in pooled screen.	no	
+wave17_local_perturbation_evidence	Cdk19_sgRNAs	local_mouse_screen_or_rnaseq	same						Weak signal, not comparable to Med16.	candidate_kinase_module	
+wave17_local_perturbation_evidence	Cdk8_sgRNAs	local_mouse_screen_or_rnaseq	same						No genetic resemblance to Med16 KO for surface MHC-II.	candidate_kinase_module	
+wave17_local_perturbation_evidence	Ccnc_sgRNAs	local_mouse_screen_or_rnaseq	same						Cyclin C loss does not phenocopy Med16 in this local screen.	candidate_kinase_module	

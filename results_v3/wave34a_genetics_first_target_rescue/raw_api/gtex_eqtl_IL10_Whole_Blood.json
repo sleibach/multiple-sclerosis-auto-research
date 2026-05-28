@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr1",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000136634.5",
+        "geneSymbol": "IL10",
+        "geneSymbolUpper": "IL10",
+        "nes": 0.173628,
+        "ontologyId": "UBERON:0013756",
+        "pValue": 0.000133042,
+        "pos": 206742464,
+        "snpId": "rs10494878",
+        "snpIdUpper": "RS10494878",
+        "tissueSiteDetailId": "Whole_Blood",
+        "variantId": "chr1_206742464_A_G_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 18,
+      "page": 0,
+      "totalNumberOfItems": 18
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000136634.5&tissueSiteDetailId=Whole_Blood&datasetId=gtex_v8&itemsPerPage=1"
+}

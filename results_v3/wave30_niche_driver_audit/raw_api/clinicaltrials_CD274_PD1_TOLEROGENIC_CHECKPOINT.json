@@ -1,0 +1,302 @@
+{
+  "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxqZvKm2vg",
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "meshes": [
+            {
+              "id": "C565324",
+              "term": "Parkinson Disease 4, Autosomal Dominant Lewy Body"
+            },
+            {
+              "id": "C563326",
+              "term": "Diabetes Mellitus, Insulin-Dependent, 12"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D011878",
+              "term": "Radiotherapy"
+            },
+            {
+              "id": "D013812",
+              "term": "Therapeutics"
+            },
+            {
+              "id": "D013238",
+              "term": "Stereotaxic Techniques"
+            },
+            {
+              "id": "D019635",
+              "term": "Neurosurgical Procedures"
+            },
+            {
+              "id": "D013514",
+              "term": "Surgical Procedures, Operative"
+            },
+            {
+              "id": "D008919",
+              "term": "Investigative Techniques"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D016634",
+              "term": "Radiosurgery"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Participants will receive SBRT combined with Cadonilimab. Cadonilimab will be administered, 6mg/kg, twice a week, intravenous until disease progression or intolerable toxicities or death. The first cycle of Cadonilimab was started within 3 days before and after the first fraction of SBRT treatment.",
+              "interventionNames": [
+                "Drug: Cadonilimab",
+                "Radiation: Stereotactic body radiotherapy"
+              ],
+              "label": "SBRT plus Cadonilimab",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "SBRT plus Cadonilimab"
+              ],
+              "description": "Participants will receive SBRT combined with Cadonilimab. Cadonilimab will be administered, 6mg/kg, twice a week, intravenous until disease progression or intolerable toxicities or death. The first cycle of Cadonilimab was started within 3 days before and after the first fraction of SBRT treatment.",
+              "name": "Cadonilimab",
+              "otherNames": [
+                "Immune check point inhibitors"
+              ],
+              "type": "DRUG"
+            },
+            {
+              "armGroupLabels": [
+                "SBRT plus Cadonilimab"
+              ],
+              "description": "Participants will receive SBRT to one lesion or more lesions.",
+              "name": "Stereotactic body radiotherapy",
+              "otherNames": [
+                "SBRT"
+              ],
+              "type": "RADIATION"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Advanced Solid Tumor",
+            "Stereotactic Body Radiotherapy",
+            "Immune Checkpoint Inhibitor",
+            "Safety",
+            "Efficacy"
+          ],
+          "keywords": [
+            "Advanced Solid Tumor",
+            "Stereotactic body radiotherapy (SBRT)",
+            "Immune Checkpoint Inhibitor (ICI)",
+            "programmed cell death protein 1 (PD-1)",
+            "Cytotoxic T lymphocyte associate protein-4 (CTLA-4)"
+          ]
+        },
+        "contactsLocationsModule": {
+          "centralContacts": [
+            {
+              "email": "hongqingzhuang@163.com",
+              "name": "Hongqing Zhuang, M.D.",
+              "phone": "8601082264910",
+              "role": "CONTACT"
+            },
+            {
+              "email": "bruce_tsinghua@163.com",
+              "name": "Yi Chen, M.D.",
+              "phone": "+8613240774157",
+              "role": "CONTACT"
+            }
+          ],
+          "locations": [
+            {
+              "city": "Beijing",
+              "contacts": [
+                {
+                  "email": "hongqingzhuang@163.com",
+                  "name": "Hongqing Zhuang, M.D.",
+                  "phone": "8601082264910",
+                  "role": "CONTACT"
+                },
+                {
+                  "email": "bruce_tsinghua@163.com",
+                  "name": "Yi Chen, M.D.",
+                  "phone": "8601082264910",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "China",
+              "facility": "Department of radiation oncology, Peking University Third Hospital",
+              "geoPoint": {
+                "lat": 39.9075,
+                "lon": 116.39723
+              },
+              "state": "Beijing Municipality",
+              "zip": "100191"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Department of Peking University Third Hospital",
+              "name": "Hongqing Zhuang, M.D.",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The goal of this multicenter prospective single-arm phase I/II study is to study the safety and efficacy stereotactic body radiotherapy (SBRT) combined with Cadonilimab for advanced refractory malignant solid tumors. The main questions it aims to answer are:\n\n* How safe is this regimen of SBRT combined with Cadonilimab for advanced refractory malignant solid tumors?\n* How effective is this regimen of SBRT combined with Cadonilimab for advanced refractory malignant solid tumors? Participants will receive SBRT combined with Cadonilimab until disease progression or intolerable toxicities or death.",
+          "detailedDescription": "The goal of this single center prospective single-arm phase I/II study is to study the safety and efficacy stereotactic body radiotherapy (SBRT) combined with Cadonilimab for advanced refractory malignant solid tumors. The primary endpoint is adverse event (AE) and the secondary endpoints are progression free survival, overall survival, overall response rate, and disease control rate.\n\nParticipants will receive SBRT combined with Cadonilimab. Cadonilimab will be administered, 6mg/kg, twice a week, intravenous until disease progression or intolerable toxicities or death. The first cycle of Cadonilimab was started within 3 days before and after the first fraction of SBRT treatment."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "NA",
+            "interventionModel": "SINGLE_GROUP",
+            "maskingInfo": {
+              "masking": "NONE",
+              "maskingDescription": "Participants will receive SBRT combined with Cadonilimab until disease progression or intolerable toxicities or death."
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 60,
+            "type": "ESTIMATED"
+          },
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Signed written informed consent;\n2. Male or female aged \u2265 18 years and \u2264 75 years;\n3. Patients with advanced refractory solid tumors who had previously received standard treatment;\n4. At least one measurable lesion must be used as a target lesion (according to RECIST V1.1). Measurable lesions located in the radiation field of previous radiotherapy or after local treatment can also be selected as a target lesion if progression is confirmed;\n5. The physical state score (ECOG PS) of the eastern tumor cooperative group was 0 \\~ 1;\n6. Expected survival time \u22653 months;\n7. Laboratory results during screening must meet the following requirements:\n\n   1. Blood routine: neutrophil absolute count (ANC) \u2265 1.5 \u00d7 109/L, platelet count (PLT) \u2265 100 \u00d7 109/L, hemoglobin (HGB) \u2265 90 g/L (no blood transfusion or erythropoietin dependence within 7 days);\n   2. Liver function: total bilirubin (TBIL) \u2264 1.5 times the upper limit of normal value (ULN); Alanine aminotransferase (ALT) and aspartate aminotransferase (AST) were less than 2.5 times ULN in subjects without liver metastasis, and ALT and AST were less than 5 times ULN in subjects with liver metastasis.\n   3. Renal function: serum creatinine (Cr) \u22641.5 times ULN or Cr clearance \u226560 mL/min (Cockcroft-Gault formula), and urine protein (UPRO) \\&lt on routine urine test; 2+ or 24 h urinary protein quantification \\&lt; 1g;\n   4. International standardized ratio (INR) \u22641.5 times ULN and partial prothrombin time (PTT) or activated partial thrombin time (APTT) \u22641.5 times ULN during the 7 days prior to treatment;\n8. For female subjects of reproductive age, urine or serum pregnancy tests should be negative within 3 days prior to receiving the first study drug administration (Cycle 1, day 1). If the urine pregnancy test results cannot be confirmed negative, a blood pregnancy test is requested;\n9. Compliance with the research protocol is expected to be good.\n\nExclusion Criteria:\n\n1. Patients are currently participating in an interventional clinical study, or has received other investigational drugs or been treated with investigational instruments within 4 weeks prior to initial dosing;\n2. Systemic treatment with Chinese herbal medicine or immunomodulatory drugs (including thymosin, interferon and interleukin, except for local use to control pleural efflux) with anti-tumor indications within 2 weeks prior to initial administration;\n3. Received palliative radiotherapy within 7 days prior to initial administration. Patients who had received palliative radiotherapy before 7 days prior to initial administration had to meet all of the following criteria to be enrolled: there was no current toxicity associated with radiotherapy and no need for glucocorticoids;\n4. Received live attenuated vaccine within 4 weeks prior to initial administration (or planned to receive live vaccine during the study period); Note: Inactivated virus vaccines for injectable seasonal influenza are permitted for up to 4 weeks prior to initial administration; But live attenuated influenza vaccines are not allowed;\n5. Had a large or medium surgery within 4 weeks prior to initial administration, or had a current unhealed surgical incision, ulcer, or fracture;\n6. Had minor surgery (e.g., outpatient/inpatient surgery with local anesthesia) within 48 hours prior to first receiving the study drug;\n7. Receiving any other form of immunosuppressive therapy within 7 days prior to initial administration of the study, excluding nasal spray, inhalation or other routes of topical corticosteroids or physiological doses of systemic corticosteroids (\u226410 mg/ day of prednisone or equal doses of drugs);\n8. There is a history of non-infectious pneumonia requiring glucocorticoid therapy or a current interstitial lung disease within 1 year prior to initial administration;\n9. An active autoimmune immune disease requiring systemic therapy (e.g., disease-modifying drugs, corticosteroids, or immunosuppressants) has occurred within 2 years prior to initial administration. Alternative therapies (such as thyroxine, insulin, or physiological corticosteroids for adrenal or pituitary insufficiency) are not considered systemic therapy;\n10. symptomatic central nervous system metastasis; Patients with asymptomatic brain metastases or stable symptoms for \u22652 weeks after treatment were eligible to participate in this study if they met all of the following criteria: measurable lesions outside the central nervous system; No meningeal, midbrain, pons, cerebellum, bulbar, or spinal cord metastasis; No history of intracranial hemorrhage; Stop hormone therapy 14 days before the first dose of the study drug;\n11. has not fully recovered from toxicity and/or complications caused by any intervention before starting treatment (i.e., \u2264 grade 1 or at baseline level, excluding weakness or hair loss);\n12. Treated uncontrolled hypertension (systolic blood pressure greater than 140 mmHg and/or diastolic blood pressure greater than 90 mmHg), a history of hypertensive crisis or hypertensive encephalopathy; Uncontrolled hyperglycemia after treatment ;\n13. Patients with clinically uncontrollable third space effusion (such as pleural effusion/pericardial effusion, who do not need drainage effusion or have no significant increase of effusion after 3 days of stopping drainage can be included in the group);\n14. Any unstable systemic disease, including but not limited to active infections, congestive heart failure \\[New York Heart disease Association(NYHA) classification \u2265 II\\], severe arrhythmias requiring medication, liver, kidney, or metabolic disease; Type I and type II respiratory failure; The tumor compresses important organs (such as esophagus), compresses superior vena cava or invades mediastinal great vessels, heart, etc. A previous history of gastrointestinal perforation and/or fistula, intestinal obstruction, extensive enterectomy, Crohn's disease, ulcerative colitis, or long-term chronic diarrhea within 6 months;\n15. Have received solid organ or blood system transplantation, except corneal transplantation;\n16. Known history of human immunodeficiency virus (HIV) infection (i.e. HIV 1/2 antibody positive), known active syphilis;\n17. Tuberculosis that is active or currently requiring medical intervention, including but not limited to tuberculosis;\n18. Untreated active hepatitis B;\n19. Subjects with active hepatitis C virus (HCV) infection (HCV antibody positive and HCV-RNA level above the lower limit of detection);\n20. had other malignancies within 5 years of randomization except for adequately treated cervical carcinoma in situ, basal cell or squamous cell skin cancer, local prostate cancer after radical surgery, ductal carcinoma in situ after radical surgery, or papillary thyroid cancer;\n21. Known severe allergic reactions (\u2265 grade 3) to the active ingredient and/or any excipients of Cadonilimab;\n22. Women who are pregnant or lactating or who plan to become pregnant or lactating during the study period;\n23. For men or women at risk of conception, use of highly effective birth control during the study period of drug use and within 90 days after the last dose is not intended.\n24. A history of alcohol or drug abuse;\n25. Conditions deemed unsuitable for inclusion by other researchers.",
+          "healthyVolunteers": false,
+          "maximumAge": "75 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "acronym": "SCARCE",
+          "briefTitle": "Stereotactic Body Radiotherapy Combined With Cadonilimab for Advanced Refractory Malignant Solid Tumors",
+          "nctId": "NCT05915481",
+          "officialTitle": "Clinical Study of Stereotactic Body Radiotherapy Combined With Cadonilimab for the Treatment of Advanced Refractory Malignant Solid Tumors",
+          "orgStudyIdInfo": {
+            "id": "SCARCE-1"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Peking University Third Hospital"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "The incidence of All adverse event (AE), treatment emergent AE (TEAE), treatment-related AE (TRAE), immune-related AE (irAE), serious AE (SAE) and radiation-related AE(rAE), the relevance and severity related with the study protocol.",
+              "measure": "Adverse event(AE)",
+              "timeFrame": "12 weeks"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "The time from the date of treatment to the date of disease progression or death or last follow-up.",
+              "measure": "Progression-free survival(PFS)",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "The time from the date of treatment to the date of death or last follow-up.",
+              "measure": "Overall survival(OS)",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "The rate of patients obtain complete response and partial response.",
+              "measure": "Overall response rate(ORR)",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "The rate of patients obtain complete response, partial response and stable disease.",
+              "measure": "Disease control rate(DCR)",
+              "timeFrame": "12 weeks"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "isUsExport": false,
+          "oversightHasDmc": true
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Xiao Y, Wang Y, Li J, Cheng C, Song C, Wang X, Tao L, Zhuang H. Stereotactic body radiotherapy plus cadonilimab (PD-1/CTLA-4 bispecific antibody) as third-line or beyond therapy for refractory solid tumors: A phase 1b study. Cancer Commun (Lond). 2025 Oct;45(10):1235-1246. doi: 10.1002/cac2.70051. Epub 2025 Jul 22.",
+              "pmid": "40693391",
+              "type": "DERIVED"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Peking University Third Hospital"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2025-06-21",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastKnownStatus": "NOT_YET_RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2023-06-23",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2023-06-20",
+          "overallStatus": "UNKNOWN",
+          "primaryCompletionDateStruct": {
+            "date": "2024-06-21",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2023-06-21",
+            "type": "ESTIMATED"
+          },
+          "statusVerifiedDate": "2023-06",
+          "studyFirstPostDateStruct": {
+            "date": "2023-06-23",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2023-03-14",
+          "studyFirstSubmitQcDate": "2023-06-20"
+        }
+      }
+    }
+  ],
+  "totalCount": 42
+}

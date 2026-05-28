@@ -1,0 +1,38 @@
+{
+  "inputs": {
+    "broad": "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv",
+    "residual": "results_v3/broad_residual_gate/broad_residual_gate_summary.tsv",
+    "wave31": "results_v3/wave31_dynamic_transition_controller_audit/dynamic_transition_controller_audit.tsv",
+    "wave34": "results_v3/wave34_genetics_expression_druggability_scan/wave34_genetics_expression_druggability_rank.tsv",
+    "wave34a": "results_v3/wave34a_genetics_first_target_rescue/genetics_first_candidate_rank.tsv",
+    "wave45": "results_v3/wave45_regulatory_controller_audit/regulatory_controller_audit.tsv",
+    "wave55": "results_v3/wave55_external_genetics_druggability_sweep/external_genetics_rank.tsv",
+    "wave57": "results_v3/wave57_intervention_first_geneformer_screen/wave57_intervention_first_candidate_calls.tsv",
+    "wave59": "results_v3/wave59_lysosomal_sphingolipid_model_reopener_audit/lysosomal_sphingolipid_evidence.tsv",
+    "wave59_decision": "results_v3/wave59_lysosomal_sphingolipid_model_reopener_audit/lysosomal_sphingolipid_decision.tsv",
+    "wave61": "results_v3/wave61_perturbation_first_guardrail/intervention_evidence_tiers.tsv",
+    "wave62": "results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv"
+  },
+  "interpretation": "No transition-controller is promoted unless target resolution, state/module evidence, perturbation/foundation support, modality, and blocker gates agree.",
+  "n_candidates": 55,
+  "park_count": 2,
+  "promotion_count": 0,
+  "seed": 20260527,
+  "top_candidates": [
+    "IL7R",
+    "GALC",
+    "INAVA",
+    "ANKRD55",
+    "CD58",
+    "PTGER4",
+    "TNFRSF1A",
+    "RGS1",
+    "SP140",
+    "STAT4",
+    "CXCR2",
+    "MMEL1",
+    "RGS14",
+    "RMI2",
+    "ZC2HC1A"
+  ]
+}

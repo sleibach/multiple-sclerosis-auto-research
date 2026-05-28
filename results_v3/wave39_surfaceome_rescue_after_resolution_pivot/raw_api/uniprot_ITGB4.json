@@ -1,0 +1,700 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "12482924",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "19403692",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20682778",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22351760",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "28873464",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Integrin alpha-6/beta-4 is a receptor for laminin. Plays a critical structural role in the hemidesmosome of epithelial cells. Is required for the regulation of keratinocyte polarity and motility. ITGA6:ITGB4 binds to NRG1 (via EGF domain) and this binding is essential for NRG1-ERBB signaling (PubMed:20682778). ITGA6:ITGB4 binds to IGF1 and this binding is essential for IGF1 signaling (PubMed:22351760). ITGA6:ITGB4 binds to IGF2 and this binding is essential for IGF2 signaling (PubMed:28873464)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "value": "Colocalizes with DST at the leading edge of migrating keratinocytes"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "id": "SL-9905",
+                "value": "Single-pass type I membrane protein"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "id": "SL-9901",
+                "value": "Lipid-anchor"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "29672603",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0137",
+                "value": "Cell junction, hemidesmosome"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00001AE5C0"
+      },
+      "features": [
+        {
+          "description": "Extracellular",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 710
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 28
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 733
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 711
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 1822
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 734
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "in MIDAS binding site",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P05106",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:18420"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:18420",
+            "name": "Mg(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 139
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 139
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "in ADMIDAS binding site",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P05106",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "1",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 141
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 141
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "in MIDAS binding site",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P05106",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:18420"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:18420",
+            "name": "Mg(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 141
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 141
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "in ADMIDAS binding site",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P05106",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "1",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 144
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 144
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "in ADMIDAS binding site",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P05106",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "1",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 145
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 145
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "in LIMBS binding site",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P05106",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 176
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 176
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "in LIMBS binding site",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P05106",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 228
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 228
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "in LIMBS binding site",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P05106",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 230
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 230
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "in LIMBS binding site",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P05106",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 232
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 232
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "in LIMBS binding site",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P05106",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 233
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 233
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "in MIDAS binding site",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P05106",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:18420"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:18420",
+            "name": "Mg(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 233
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 233
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "in ADMIDAS binding site",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P05106",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "1",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 350
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 350
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "ITGB4"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0106",
+          "name": "Calcium"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0130",
+          "name": "Cell adhesion"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0965",
+          "name": "Cell junction"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-1003",
+          "name": "Cell membrane"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-0903",
+          "name": "Direct protein sequencing"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0225",
+          "name": "Disease variant"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-1015",
+          "name": "Disulfide bond"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0245",
+          "name": "EGF-like domain"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0263",
+          "name": "Epidermolysis bullosa"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0325",
+          "name": "Glycoprotein"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0401",
+          "name": "Integrin"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0449",
+          "name": "Lipoprotein"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0460",
+          "name": "Magnesium"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0479",
+          "name": "Metal-binding"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0564",
+          "name": "Palmitate"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0675",
+          "name": "Receptor"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0677",
+          "name": "Repeat"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0732",
+          "name": "Signal"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        }
+      ],
+      "primaryAccession": "P16144",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "GP150"
+            }
+          }
+        ],
+        "cdAntigenNames": [
+          {
+            "value": "CD104"
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "Integrin beta-4"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "09710FFBBD719469",
+        "length": 1822,
+        "md5": "95DF8F169BA434C5B8918F8A84644AA0",
+        "molWeight": 202167,
+        "value": "MAGPRPSPWARLLLAALISVSLSGTLANRCKKAPVKSCTECVRVDKDCAYCTDEMFRDRRCNTQAELLAAGCQRESIVVMESSFQITEETQIDTTLRRSQMSPQGLRVRLRPGEERHFELEVFEPLESPVDLYILMDFSNSMSDDLDNLKKMGQNLARVLSQLTSDYTIGFGKFVDKVSVPQTDMRPEKLKEPWPNSDPPFSFKNVISLTEDVDEFRNKLQGERISGNLDAPEGGFDAILQTAVCTRDIGWRPDSTHLLVFSTESAFHYEADGANVLAGIMSRNDERCHLDTTGTYTQYRTQDYPSVPTLVRLLAKHNIIPIFAVTNYSYSYYEKLHTYFPVSSLGVLQEDSSNIVELLEEAFNRIRSNLDIRALDSPRGLRTEVTSKMFQKTRTGSFHIRRGEVGIYQVQLRALEHVDGTHVCQLPEDQKGNIHLKPSFSDGLKMDAGIICDVCTCELQKEVRSARCSFNGDFVCGQCVCSEGWSGQTCNCSTGSLSDIQPCLREGEDKPCSGRGECQCGHCVCYGEGRYEGQFCEYDNFQCPRTSGFLCNDRGRCSMGQCVCEPGWTGPSCDCPLSNATCIDSNGGICNGRGHCECGRCHCHQQSLYTDTICEINYSAIHPGLCEDLRSCVQCQAWGTGEKKGRTCEECNFKVKMVDELKRAEEVVVRCSFRDEDDDCTYSYTMEGDGAPGPNSTVLVHKKKDCPPGSFWWLIPLLLLLLPLLALLLLLCWKYCACCKACLALLPCCNRGHMVGFKEDHYMLRENLMASDHLDTPMLRSGNLKGRDVVRWKVTNNMQRPGFATHAASINPTELVPYGLSLRLARLCTENLLKPDTRECAQLRQEVEENLNEVYRQISGVHKLQQTKFRQQPNAGKKQDHTIVDTVLMAPRSAKPALLKLTEKQVEQRAFHDLKVAPGYYTLTADQDARGMVEFQEGVELVDVRVPLFIRPEDDDEKQLLVEAIDVPAGTATLGRRLVNITIIKEQARDVVSFEQPEFSVSRGDQVARIPVIRRVLDGGKSQVSYRTQDGTAQGNRDYIPVEGELLFQPGEAWKELQVKLLELQEVDSLLRGRQVRRFHVQLSNPKFGAHLGQPHSTTIIIRDPDELDRSFTSQMLSSQPPPHGDLGAPQNPNAKAAGSRKIHFNWLPPSGKPMGYRVKYWIQGDSESEAHLLDSKVPSVELTNLYPYCDYEMKVCAYGAQGEGPYSSLVSCRTHQEVPSEPGRLAFNVVSSTVTQLSWAEPAETNGEITAYEVCYGLVNDDNRPIGPMKKVLVDNPKNRMLLIENLRESQPYRYTVKARNGAGWGPEREAIINLATQPKRPMSIPIIPDIPIVDAQSGEDYDSFLMYSDDVLRSPSGSQRPSVSDDTGCGWKFEPLLGEELDLRRVTWRLPPELIPRLSASSGRSSDAEAPHGPPDDGGAGGKGGSLPRSATPGPPGEHLVNGRMDFAFPGSTNSLHRMTTTSAAAYGTHLSPHVPHRVLSTSSTLTRDYNSLTRSEHSHSTTLPRDYSTLTSVSSHDSRLTAGVPDTPTRLVFSALGPTSLRVSWQEPRCERPLQGYSVEYQLLNGGELHRLNIPNPAQTSVVVEDLLPNHSYVFRVRAQSQEGWGREREGVITIESQVHPQSPLCPLPGSAFTLSTPSAPGPLVFTALSPDSLQLSWERPRRPNGDIVGYLVTCEMAQGGGPATAFRVDGDSPESRLTVPGLSENVPYKFKVQARTTEGFGPEREGIITIESQDGGPFPQLGSRAGLFQHPLQSEYSSITTTHTSATEPFLVDGLTLGAQHLEAGGSLTRHVTQEFVSRTLTTSGTLSTHMDQQFFQT"
+      },
+      "uniProtkbId": "ITB4_HUMAN"
+    }
+  ]
+}

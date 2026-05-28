@@ -1,0 +1,193 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20061403",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20434986",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Probable regulator of the NF-kappa-B and type I interferon signaling pathways. May also regulate the type II interferon signaling pathway. Plays a role in homeostatic control of innate immunity and in antiviral defense mechanisms"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "20061403",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "20434986",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00001AEE94"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00136",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:30616"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:30616",
+            "name": "ATP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 235
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 228
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "NLRC5"
+          },
+          "synonyms": [
+            {
+              "value": "NOD27"
+            },
+            {
+              "value": "NOD4"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0067",
+          "name": "ATP-binding"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0963",
+          "name": "Cytoplasm"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0391",
+          "name": "Immunity"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0399",
+          "name": "Innate immunity"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0433",
+          "name": "Leucine-rich repeat"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0547",
+          "name": "Nucleotide-binding"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0677",
+          "name": "Repeat"
+        }
+      ],
+      "primaryAccession": "Q86WI3",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Caterpiller protein 16.1"
+            },
+            "shortNames": [
+              {
+                "value": "CLR16.1"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Nucleotide-binding oligomerization domain protein 27"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Nucleotide-binding oligomerization domain protein 4"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Protein NLRC5"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "4E3BDED8E1624967",
+        "length": 1866,
+        "md5": "C9091E00601814C0F9375B1C640C5B77",
+        "molWeight": 204595,
+        "value": "MDPVGLQLGNKNLWSCLVRLLTKDPEWLNAKMKFFLPNTDLDSRNETLDPEQRVILQLNKLHVQGSDTWQSFIHCVCMQLEVPLDLEVLLLSTFGYDDGFTSQLGAEGKSQPESQLHHGLKRPHQSCGSSPRRKQCKKQQLELAKKYLQLLRTSAQQRYRSQIPGSGQPHAFHQVYVPPILRRATASLDTPEGAIMGDVKVEDGADVSISDLFNTRVNKGPRVTVLLGKAGMGKTTLAHRLCQKWAEGHLNCFQALFLFEFRQLNLITRFLTPSELLFDLYLSPESDHDTVFQYLEKNADQVLLIFDGLDEALQPMGPDGPGPVLTLFSHLCNGTLLPGCRVMATSRPGKLPACLPAEAAMVHMLGFDGPRVEEYVNHFFSAQPSREGALVELQTNGRLRSLCAVPALCQVACLCLHHLLPDHAPGQSVALLPNMTQLYMQMVLALSPPGHLPTSSLLDLGEVALRGLETGKVIFYAKDIAPPLIAFGATHSLLTSFCVCTGPGHQQTGYAFTHLSLQEFLAALHLMASPKVNKDTLTQYVTLHSRWVQRTKARLGLSDHLPTFLAGLASCTCRPFLSHLAQGNEDCVGAKQAAVVQVLKKLATRKLTGPKVVELCHCVDETQEPELASLTAQSLPYQLPFHNFPLTCTDLATLTNILEHREAPIHLDFDGCPLEPHCPEALVGCGQIENLSFKSRKCGDAFAEALSRSLPTMGRLQMLGLAGSKITARGISHLVKALPLCPQLKEVSFRDNQLSDQVVLNIVEVLPHLPRLRKLDLSSNSICVSTLLCLARVAVTCPTVRMLQAREADLIFLLSPPTETTAELQRAPDLQESDGQRKGAQSRSLTLRLQKCQLQVHDAEALIALLQEGPHLEEVDLSGNQLEDEGCRLMAEAASQLHIARKLDLSNNGLSVAGVHCVLRAVSACWTLAELHISLQHKTVIFMFAQEPEEQKGPQERAAFLDSLMLQMPSELPLSSRRMRLTHCGLQEKHLEQLCKALGGSCHLGHLHLDFSGNALGDEGAARLAQLLPGLGALQSLNLSENGLSLDAVLGLVRCFSTLQWLFRLDISFESQHILLRGDKTSRDMWATGSLPDFPAAAKFLGFRQRCIPRSLCLSECPLEPPSLTRLCATLKDCPGPLELQLSCEFLSDQSLETLLDCLPQLPQLSLLQLSQTGLSPKSPFLLANTLSLCPRVKKVDLRSLHHATLHFRSNEEEEGVCCGRFTGCSLSQEHVESLCWLLSKCKDLSQVDLSANLLGDSGLRCLLECLPQVPISGLLDLSHNSISQESALYLLETLPSCPRVREASVNLGSEQSFRIHFSREDQAGKTLRLSECSFRPEHVSRLATGLSKSLQLTELTLTQCCLGQKQLAILLSLVGRPAGLFSLRVQEPWADRARVLSLLEVCAQASGSVTEISISETQQQLCVQLEFPRQEENPEAVALRLAHCDLGAHHSLLVGQLMETCARLQQLSLSQVNLCEDDDASSLLLQSLLLSLSELKTFRLTSSCVSTEGLAHLASGLGHCHHLEELDLSNNQFDEEGTKALMRALEGKWMLKRLDLSHLLLNSSTLALLTHRLSQMTCLQSLRLNRNSIGDVGCCHLSEALRAATSLEELDLSHNQIGDAGVQHLATILPGLPELRKIDLSGNSISSAGGVQLAESLVLCRRLEELMLGCNALGDPTALGLAQELPQHLRVLHLPFSHLGPGGALSLAQALDGSPHLEEISLAENNLAGGVLRFCMELPLLRQIDLVSCKIDNQTAKLLTSSFTSCPALEVILLSWNLLGDEAAAELAQVLPQMGRLKRVDLEKNQITALGAWLLAEGLAQGSSIQVIRLWNNPIPCDMAQHLKSQEPRLDFAFFDNQPQAPWGT"
+      },
+      "uniProtkbId": "NLRC5_HUMAN"
+    }
+  ]
+}

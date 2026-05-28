@@ -1,0 +1,73 @@
+{
+  "branch_call": "NO_PROMOTABLE_ROUTE_AFTER_STRICT_INVENTORY",
+  "inputs": {
+    "post_closure_veto_count": 17,
+    "wave116": "results_v3/wave116_closure_aware_route_rerank/closure_aware_route_universe.tsv",
+    "wave83": "results_v3/wave83_intervention_class_meta_rank/intervention_class_meta_rank.tsv"
+  },
+  "n_promotable": 0,
+  "n_routes": 59,
+  "random_seed": 20260527,
+  "top_strict_candidates": [
+    {
+      "candidate": "CD58_TARGETABILITY",
+      "missing_gates": "source_audit_not_promotional;fewer_than_two_support_channels",
+      "post_closure_veto": "Wave143 closes CD58/CD2: full-mixture adjustment, IBD replication, direction, and alefacept prior art block promotion.",
+      "score": -6.3
+    },
+    {
+      "candidate": "MED16_MEDIATOR_MODULE",
+      "missing_gates": "cross_disease_cellstate;ms_anchor;genetic_or_target_resolution;safety_direction_clear;fewer_than_two_support_channels",
+      "post_closure_veto": "",
+      "score": -8.4
+    },
+    {
+      "candidate": "LRRC61_RESIDUAL_ROUTE",
+      "missing_gates": "reachable_modality;ms_anchor;genetic_or_target_resolution;prior_not_blocked;safety_direction_clear;source_audit_not_promotional;fewer_than_two_support_channels",
+      "post_closure_veto": "",
+      "score": -8.4
+    },
+    {
+      "candidate": "RFX5_MHCII_PARTIAL_SUPPRESSION",
+      "missing_gates": "reachable_modality;cross_disease_cellstate;ms_anchor;genetic_or_target_resolution;prior_not_blocked;safety_direction_clear;source_audit_not_promotional",
+      "post_closure_veto": "",
+      "score": -8.6
+    },
+    {
+      "candidate": "IFI30_TARGETABILITY",
+      "missing_gates": "reachable_modality;prior_not_blocked;source_audit_not_promotional;no_perturbation_model_response_or_biochemistry;fewer_than_two_support_channels",
+      "post_closure_veto": "",
+      "score": -8.8
+    },
+    {
+      "candidate": "ppar_lxr_lipid_nuclear",
+      "missing_gates": "cross_disease_cellstate;genetic_or_target_resolution;prior_not_blocked;safety_direction_clear;source_audit_not_promotional;fewer_than_two_support_channels",
+      "post_closure_veto": "",
+      "score": -9.2
+    },
+    {
+      "candidate": "TNFRSF1A_DAMPING",
+      "missing_gates": "cross_disease_cellstate;ms_anchor;prior_not_blocked;safety_direction_clear;source_audit_not_promotional;fewer_than_two_support_channels",
+      "post_closure_veto": "",
+      "score": -9.5
+    },
+    {
+      "candidate": "IL7R_TARGETED_ROUTE",
+      "missing_gates": "ms_anchor;prior_not_blocked;safety_direction_clear;source_audit_not_promotional;fewer_than_two_support_channels",
+      "post_closure_veto": "",
+      "score": -10.0
+    },
+    {
+      "candidate": "DAB2_RESIDUAL_ROUTE",
+      "missing_gates": "reachable_modality;cross_disease_cellstate;genetic_or_target_resolution;prior_not_blocked;safety_direction_clear;source_audit_not_promotional;fewer_than_two_support_channels",
+      "post_closure_veto": "",
+      "score": -10.0
+    },
+    {
+      "candidate": "CD9_RESIDUAL_ROUTE",
+      "missing_gates": "reachable_modality;cross_disease_cellstate;genetic_or_target_resolution;prior_not_blocked;safety_direction_clear;source_audit_not_promotional;fewer_than_two_support_channels",
+      "post_closure_veto": "",
+      "score": -10.0
+    }
+  ]
+}

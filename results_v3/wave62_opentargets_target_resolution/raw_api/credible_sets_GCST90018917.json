@@ -1,0 +1,55 @@
+{
+  "data": {
+    "credibleSets": {
+      "count": 1,
+      "rows": [
+        {
+          "beta": -0.3774,
+          "chromosome": "2",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.7703996896743774,
+                "target": {
+                  "approvedName": "signal transducer and activator of transcription 4",
+                  "approvedSymbol": "STAT4",
+                  "id": "ENSG00000138378"
+                }
+              },
+              {
+                "score": 0.06352496892213821,
+                "target": {
+                  "approvedName": "signal transducer and activator of transcription 1",
+                  "approvedSymbol": "STAT1",
+                  "id": "ENSG00000115415"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -13,
+          "pValueMantissa": 7.098999977111816,
+          "position": 191095383,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0526,
+          "studyId": "GCST90018917",
+          "studyLocusId": "e9251672076c8e27c4d5158948e77f6c",
+          "studyType": "gwas",
+          "variant": {
+            "id": "2_191095383_T_A",
+            "rsIds": [
+              "rs10178640"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

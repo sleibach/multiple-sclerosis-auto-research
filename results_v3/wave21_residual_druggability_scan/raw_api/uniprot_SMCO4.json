@@ -1,0 +1,70 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ASMCO4%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-0162",
+                "value": "Membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-9904",
+                "value": "Single-pass membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000071208"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "SMCO4"
+          },
+          "synonyms": [
+            {
+              "value": "C11orf75"
+            },
+            {
+              "value": "FN5"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "Q9NRQ5",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Protein FN5"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Single-pass membrane and coiled-coil domain-containing protein 4"
+          }
+        }
+      }
+    }
+  ]
+}

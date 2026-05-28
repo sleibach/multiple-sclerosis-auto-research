@@ -1,0 +1,3097 @@
+{
+  "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxmZPig1fIW",
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D010510",
+              "term": "Periodontal Diseases"
+            },
+            {
+              "id": "D009059",
+              "term": "Mouth Diseases"
+            },
+            {
+              "id": "D009057",
+              "term": "Stomatognathic Diseases"
+            },
+            {
+              "id": "D010009",
+              "term": "Osteochondrodysplasias"
+            },
+            {
+              "id": "D001848",
+              "term": "Bone Diseases, Developmental"
+            },
+            {
+              "id": "D001847",
+              "term": "Bone Diseases"
+            },
+            {
+              "id": "D009140",
+              "term": "Musculoskeletal Diseases"
+            },
+            {
+              "id": "D030342",
+              "term": "Genetic Diseases, Inborn"
+            },
+            {
+              "id": "D009358",
+              "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D010518",
+              "term": "Periodontitis"
+            },
+            {
+              "id": "D003966",
+              "term": "Camurati-Engelmann Syndrome"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D009063",
+              "term": "Dental Physiological Phenomena"
+            },
+            {
+              "id": "D055688",
+              "term": "Digestive System and Oral Physiological Phenomena"
+            },
+            {
+              "id": "D012534",
+              "term": "Dental Scaling"
+            },
+            {
+              "id": "D003777",
+              "term": "Dental Prophylaxis"
+            },
+            {
+              "id": "D010517",
+              "term": "Periodontics"
+            },
+            {
+              "id": "D003813",
+              "term": "Dentistry"
+            },
+            {
+              "id": "D013357",
+              "term": "Subgingival Curettage"
+            },
+            {
+              "id": "D011313",
+              "term": "Preventive Dentistry"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D014080",
+              "term": "Tooth Exfoliation"
+            },
+            {
+              "id": "D016745",
+              "term": "Root Planing"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Participants with Stage III Grade B/C periodontitis. At baseline, clinical periodontal measurements are recorded, and serum and gingival crevicular fluid samples are collected. All participants receive non-surgical periodontal therapy consisting of Scaling and Root Planing (SRP). Follow-up visits are conducted at 6 weeks and 3 months post-treatment for repeated clinical assessments and sample collection to evaluate changes in biochemical markers (GPNMB, TGF-\u03b21, RANKL, and OPG).",
+              "interventionNames": [
+                "Procedure: Scaling and Root Planing (SRP)"
+              ],
+              "label": "Periodontitis Group",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Periodontally healthy individuals. Participants undergo a single clinical periodontal examination and provide serum and gingival crevicular fluid samples at the baseline visit. This group serves as a reference for baseline biochemical marker levels. No therapeutic intervention is performed.",
+              "label": "Healthy Control Group",
+              "type": "NO_INTERVENTION"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Periodontitis Group"
+              ],
+              "description": "A standard non-surgical mechanical treatment that involves the removal of plaque and calculus from the teeth and root surfaces using ultrasonic devices and hand instruments.",
+              "name": "Scaling and Root Planing (SRP)",
+              "type": "PROCEDURE"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Periodontitis (Stage 3)"
+          ],
+          "keywords": [
+            "TGF-beta1",
+            "GPNMB",
+            "RANKL",
+            "OPG",
+            "Periodontitis",
+            "non-surgical periodontal treatment"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Ankara",
+              "country": "Turkey (T\u00fcrkiye)",
+              "facility": "Sa\u011fl\u0131k Bilimleri \u00dcniversitesi G\u00fclhane Di\u015f Hekimli\u011fi Fak\u00fcltesi",
+              "geoPoint": {
+                "lat": 39.91987,
+                "lon": 32.85427
+              },
+              "zip": "06010"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The goal of this study is to learn how a standard treatment called Scaling and Root Planing (SRP) affects specific biochemical markers in people with advanced gum disease (periodontitis). Periodontitis is a chronic condition that can lead to tooth loss.\n\nThe main focus is to investigate a marker called Glycoprotein Non-Metastatic B (GPNMB). This is the first study to examine GPNMB levels in both the serum and the gingival crevicular fluid of people with this condition. The study aims to answer these main questions:\n\nHow do GPNMB levels change after the Scaling and Root Planing treatment?\n\nHow does GPNMB relate to other markers that control bone health and healing, such as TGF-\u03b21, RANKL, and Osteoprotegerin?\n\nResearchers will compare 28 participants with advanced gum disease (Stage III Grade B/C) to 28 participants with healthy gums to see how these markers differ.\n\nParticipants in the gum disease group will:\n\nProvide samples for laboratory analysis at the start of the study.\n\nReceive the standard mechanical treatment of their teeth and roots (Scaling and Root Planing).\n\nReturn for follow-up visits 6 weeks and 3 months after treatment to provide new samples and have their gum health checked."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "NON_RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 56,
+            "type": "ESTIMATED"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Systemically healthy individuals\n* Individuals diagnosed with Stage III Grade B or Grade C periodontitis (for the periodontitis group)\n* Periodontally healthy individuals (for the healthy control group)\n* Participants aged 18 years and older\n\nExclusion Criteria:\n\n* Individuals who have received periodontal treatment within the last 6 months\n* Individuals who have used antibacterial drugs within the last 6 months\n* Individuals with any systemic disease\n* Individuals who use medications on a regular basis\n* Current smokers\n* Pregnant individuals\n* Participants under the age of 18 years",
+          "healthyVolunteers": true,
+          "maximumAge": "65 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "acronym": "GPNMB-PERIO St",
+          "briefTitle": "Effects of Non-Surgical Periodontal Treatment on Inflammatory and Bone Markers in Periodontitis Patients",
+          "nctId": "NCT07475013",
+          "officialTitle": "Evaluation of the Effects of Non-Surgical Periodontal Therapy on Serum and Gingival Crevicular Fluid Levels of Glycoprotein Non-Metastatic B (GPNMB), TGF-\u03b21, RANKL, and Osteoprotegerin in Patients With Periodontitis",
+          "orgStudyIdInfo": {
+            "id": "OSATAGUN5"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Saglik Bilimleri Universitesi"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Concentration of GPNMB in gingival crevicular fluid samples measured by Enzyme-Linked Immunosorbent Assay (ELISA). Results will be expressed in picograms per microliter (pg/\u00b5L) to evaluate the local biochemical response following scaling and root planing (SRP).",
+              "measure": "Change in Gingival Crevicular Fluid (GCF) Glycoprotein Non-Metastatic B (GPNMB) Concentration",
+              "timeFrame": "Baseline, 6 weeks, and 3 months post-treatment."
+            },
+            {
+              "description": "Concentration of GPNMB in serum samples measured by Enzyme-Linked Immunosorbent Assay (ELISA) to evaluate the systemic biochemical response. The results will be quantified and reported in picograms per milliliter (pg/mL) to evaluate the change in mean concentration values across the specified measurement intervals.",
+              "measure": "Change in Serum Glycoprotein Non-Metastatic B (GPNMB) Concentration",
+              "timeFrame": "Baseline, 6 weeks post-treatment, and 3 months post-treatment."
+            },
+            {
+              "description": "Concentration of RANKL in gingival crevicular fluid samples measured via ELISA to assess local bone resorption activity. The data will be quantified in picograms per microliter (pg/\u00b5L) at baseline and post-treatment intervals.",
+              "measure": "Change in Gingival Crevicular Fluid (GCF) Receptor Activator of Nuclear Factor Kappa-B Ligand (RANKL) Concentration",
+              "timeFrame": "Baseline (before treatment), 6 weeks post-treatment, and 3 months post-treatment."
+            },
+            {
+              "description": "Concentration of RANKL in serum samples measured by ELISA to evaluate the systemic bone resorption activity. The results will be quantified and reported in picograms per milliliter (pg/mL) to evaluate the change in mean concentration values across the specified measurement intervals following periodontal therapy.",
+              "measure": "Change in Serum Receptor Activator of Nuclear Factor Kappa-B Ligand (RANKL) Concentration",
+              "timeFrame": "Baseline (before treatment), 6 weeks post-treatment, and 3 months post-treatment."
+            },
+            {
+              "description": "Concentration of OPG in gingival crevicular fluid samples measured by ELISA to assess the local bone-protective response. The results will be quantified and reported in picograms per microliter (pg/\u00b5L) to evaluate the change in mean concentration values across the specified measurement intervals following scaling and root planing (SRP).",
+              "measure": "Change in Gingival Crevicular Fluid (GCF) Osteoprotegerin (OPG) Concentration",
+              "timeFrame": "Baseline (before treatment), 6 weeks post-treatment, and 3 months post-treatment."
+            },
+            {
+              "description": "Concentration of OPG in serum samples measured by ELISA to evaluate the systemic bone-protective response. Measurement values will be reported in picograms per milliliter (pg/mL) to compare the changes in mean concentration values across the specified measurement intervals following periodontal therapy.",
+              "measure": "Change in Serum Osteoprotegerin (OPG) Concentration",
+              "timeFrame": "Baseline (before treatment), 6 weeks post-treatment, and 3 months post-treatment."
+            },
+            {
+              "description": "Concentration of TGF-\u03b21 in gingival crevicular fluid samples measured by Enzyme-Linked Immunosorbent Assay (ELISA). This analysis evaluates the local anti-inflammatory response and tissue healing following scaling and root planing (SRP). The results will be quantified and reported in picograms per microliter (pg/\u00b5L) to evaluate the change in mean concentration values across the specified measurement intervals.",
+              "measure": "Change in Gingival Crevicular Fluid (GCF) Transforming Growth Factor beta 1 (TGF-\u03b21) Concentration",
+              "timeFrame": "Baseline (before treatment), 6 weeks post-treatment, and 3 months post-treatment."
+            },
+            {
+              "description": "Concentration of TGF-\u03b21 in serum samples measured by ELISA to evaluate the systemic anti-inflammatory response. Measurement values will be reported in picograms per milliliter (pg/mL) to compare the changes before and after scaling and root planing (SRP).",
+              "measure": "Change in Serum Transforming Growth Factor beta 1 (TGF-\u03b21) Concentration",
+              "timeFrame": "Baseline (before treatment), 6 weeks post-treatment, and 3 months post-treatment."
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Probing Pocket Depth (PPD) will be measured at six sites per tooth using a Williams periodontal probe to evaluate the depth of the periodontal pockets.",
+              "measure": "Change in Probing Pocket Depth (PPD)",
+              "timeFrame": "Baseline (before treatment), 6 weeks post-treatment, and 3 months post-treatment."
+            },
+            {
+              "description": "Clinical Attachment Loss (CAL) will be measured at six sites per tooth using a Williams periodontal probe to assess the level of periodontal tissue attachment.",
+              "measure": "Change in Clinical Attachment Loss (CAL)",
+              "timeFrame": "Baseline (before treatment), 6 weeks post-treatment, and 3 months post-treatment."
+            },
+            {
+              "description": "Plaque Index (PI) will be used to assess the amount of plaque on the tooth surfaces to evaluate oral hygiene status.",
+              "measure": "Change in Plaque Index (PI)",
+              "timeFrame": "Baseline (before treatment), 6 weeks post-treatment, and 3 months post-treatment."
+            },
+            {
+              "description": "Gingival Index (GI) will be used to assess the severity of gingival inflammation based on color, consistency, and bleeding tendency.",
+              "measure": "Change in Gingival Index (GI)",
+              "timeFrame": "Baseline (before treatment), 6 weeks post-treatment, and 3 months post-treatment."
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": false
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Saglik Bilimleri Universitesi"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Saglik Bilimleri Universitesi",
+            "investigatorFullName": "\u00d6zlem SARA\u00c7 ATAG\u00dcN",
+            "investigatorTitle": "Associate Professor",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2026-12-01",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-04-27",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2026-04-22",
+          "overallStatus": "ACTIVE_NOT_RECRUITING",
+          "primaryCompletionDateStruct": {
+            "date": "2026-09-01",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2026-03-15",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2026-04",
+          "studyFirstPostDateStruct": {
+            "date": "2026-03-16",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2026-02-27",
+          "studyFirstSubmitQcDate": "2026-03-11"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D011024",
+              "term": "Pneumonia, Viral"
+            },
+            {
+              "id": "D011014",
+              "term": "Pneumonia"
+            },
+            {
+              "id": "D012141",
+              "term": "Respiratory Tract Infections"
+            },
+            {
+              "id": "D007239",
+              "term": "Infections"
+            },
+            {
+              "id": "D014777",
+              "term": "Virus Diseases"
+            },
+            {
+              "id": "D003333",
+              "term": "Coronaviridae Infections"
+            },
+            {
+              "id": "D030341",
+              "term": "Nidovirales Infections"
+            },
+            {
+              "id": "D012327",
+              "term": "RNA Virus Infections"
+            },
+            {
+              "id": "D008171",
+              "term": "Lung Diseases"
+            },
+            {
+              "id": "D009750",
+              "term": "Nutritional and Metabolic Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D000086382",
+              "term": "COVID-19"
+            },
+            {
+              "id": "D018352",
+              "term": "Coronavirus Infections"
+            },
+            {
+              "id": "D003924",
+              "term": "Diabetes Mellitus, Type 2"
+            },
+            {
+              "id": "D003920",
+              "term": "Diabetes Mellitus"
+            },
+            {
+              "id": "D044882",
+              "term": "Glucose Metabolism Disorders"
+            },
+            {
+              "id": "D008659",
+              "term": "Metabolic Diseases"
+            },
+            {
+              "id": "D004700",
+              "term": "Endocrine System Diseases"
+            },
+            {
+              "id": "D012140",
+              "term": "Respiratory Tract Diseases"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D011687",
+              "term": "Purines"
+            },
+            {
+              "id": "D006574",
+              "term": "Heterocyclic Compounds, 2-Ring"
+            },
+            {
+              "id": "D000072471",
+              "term": "Heterocyclic Compounds, Fused-Ring"
+            },
+            {
+              "id": "D006571",
+              "term": "Heterocyclic Compounds"
+            },
+            {
+              "id": "D011799",
+              "term": "Quinazolines"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D000069476",
+              "term": "Linagliptin"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Participants in the Dipeptidyl Peptidase-4 (DPP-4) inhibition group will receive linagliptin in addition to standard of care insulin regimen as per hospital protocol during their entire hospitalization.",
+              "interventionNames": [
+                "Drug: Linagliptin 5 MG"
+              ],
+              "label": "DPP-4 inhibition",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Participants in the control group will receive only the standard of care insulin regimen as per hospital protocol during their entire hospitalization.",
+              "label": "Control",
+              "type": "NO_INTERVENTION"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "DPP-4 inhibition"
+              ],
+              "description": "Linagliptin 5 mg PO once daily",
+              "name": "Linagliptin 5 MG",
+              "otherNames": [
+                "Trajenta"
+              ],
+              "type": "DRUG"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "COVID 19",
+            "Coronavirus",
+            "Diabetes Mellitus, Type 2",
+            "Diabetes Mellitus",
+            "Glucose Metabolism Disorders",
+            "Metabolic Disease",
+            "Endocrine System Diseases",
+            "Dipeptidyl-Peptidase IV Inhibitors",
+            "Linagliptin",
+            "Severe Acute Respiratory Syndrome Coronavirus 2",
+            "Sars-CoV2",
+            "Hypoglycemic Agents",
+            "Respiratory Tract Diseases",
+            "Incretins",
+            "Hormones"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Be\u2019er Ya\u2018aqov",
+              "country": "Israel",
+              "facility": "Shamir Medical Center",
+              "geoPoint": {
+                "lat": 31.93864,
+                "lon": 34.83749
+              }
+            },
+            {
+              "city": "Petah Tikva",
+              "country": "Israel",
+              "facility": "Rabin Medical Center, Beilinson Campus",
+              "geoPoint": {
+                "lat": 32.08707,
+                "lon": 34.88747
+              }
+            },
+            {
+              "city": "Petah Tikva",
+              "country": "Israel",
+              "facility": "Rabin Medical Center, Hasharon Campus",
+              "geoPoint": {
+                "lat": 32.08707,
+                "lon": 34.88747
+              }
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The coronavirus disease 2019 (COVID-19) is an emerging pandemic in 2020 caused by a novel coronavirus named SARS-CoV2. Diabetes confers a significant additional risk for COVID-19 patients. Dipeptidyl peptidase 4 (DPP-4) is a transmembrane glycoprotein expressed ubiquitously in many tissues. In addition to its effect on glucose levels, DPP-4 has various effects on the immune system and several diseases, including lung diseases. This trial aims to assess the safety and efficacy of linagliptin, a DPP-4 inhibitor, in the treatment of COVID-19. The trial will be randomized without blinding, with one are treated by insulin only for glucose balance and the other by insulin and linagliptin. The trial will assess the effects of linagliptin on different measures of COVID-19 recovery."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 64,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age \u2265 18 years.\n2. History of or type 2 diabetes mellitus or a diagnosis of type 2 diabetes during hospitalization.\n3. Confirmation of infection with SARS-CoV-2 by PCR testing.\n4. Patients within 10 days from symptom onset or patients within 48 hours after laboratory diagnosis (SARS-CoV-2 PCR).\n\nExclusion Criteria:\n\n1. WHO COVID-19 Ordinal Scale for Clinical Improvement \u2265 6.\n2. Respiratory failure requiring mechanical ventilation prior to randomization.\n3. Use of vasopressor or inotropic medications prior to randomization.\n4. Intolerance/hypersensitivity to dipeptidyl peptidase-4 inhibitors.\n5. Patients expected to require intensive care unit admission or immediate surgical intervention.\n6. Participation in another trial assessing any treatment for COVID-19.\n7. Current treatment with a DPP-4 inhibitor.\n8. Pregnancy.",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Efficacy and Safety of Dipeptidyl Peptidase-4 Inhibitors in Diabetic Patients With Established COVID-19",
+          "nctId": "NCT04371978",
+          "officialTitle": "Efficacy and Safety of Dipeptidyl Peptidase-4 Inhibitors in Diabetic Patients With Established COVID-19",
+          "orgStudyIdInfo": {
+            "id": "0303-20-RMC"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Rabin Medical Center"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Clinical change is defined as 2 points reduction in the World Health Organization (WHO) Ordinal Scale for Clinical Improvement of COVID-19: 0 - No clinical or virological evidence of infection; 1 - No limitation of activities; 2 - Limitation of activities; 3 - Hospitalized, no oxygen therapy; 4 - Oxygen by mask or nasal prongs; 5 - Non-invasive ventilation or high-flow oxygen; 6 - Intubation and mechanical ventilation; 7 - Ventilation + additional organ support - pressors, renal replacement therapy, extracorporeal membrane oxygenation; 8 - Death.",
+              "measure": "Time to clinical change",
+              "timeFrame": "28 days"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "measure": "Percent of serious adverse events and premature discontinuation of treatment.",
+              "timeFrame": "28 days"
+            },
+            {
+              "description": "Percent of patients with a 2 points reduction in the World Health Organization (WHO) Ordinal Scale for Clinical Improvement of COVID-19.",
+              "measure": "Percent of patients with clinical improvement.",
+              "timeFrame": "28 days"
+            },
+            {
+              "measure": "Length of hospitalization.",
+              "timeFrame": "28 days"
+            },
+            {
+              "measure": "All-cause mortality.",
+              "timeFrame": "28 days"
+            },
+            {
+              "measure": "Percent of supplemental oxygen use.",
+              "timeFrame": "28 days"
+            },
+            {
+              "measure": "Supplemental oxygen-free days.",
+              "timeFrame": "28 days"
+            },
+            {
+              "measure": "Percent of mechanical ventilation use.",
+              "timeFrame": "28 days"
+            },
+            {
+              "measure": "Ventilator-free days.",
+              "timeFrame": "28 days"
+            },
+            {
+              "measure": "Percent of ICU admissions.",
+              "timeFrame": "28 days"
+            },
+            {
+              "measure": "ICU-free days.",
+              "timeFrame": "28 days"
+            },
+            {
+              "measure": "Percent of 50% decrease in C-reactive protein (CRP) levels",
+              "timeFrame": "Up to 28 days"
+            },
+            {
+              "measure": "Time to virologic response, defined as no detection of SARS-CoV-2 in a PCR test.",
+              "timeFrame": "28 days"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": false
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Abuhasira R, Ayalon-Dangur I, Zaslavsky N, Koren R, Keller M, Dicker D, Grossman A. A Randomized Clinical Trial of Linagliptin vs. Standard of Care in Patients Hospitalized With Diabetes and COVID-19. Front Endocrinol (Lausanne). 2021 Dec 22;12:794382. doi: 10.3389/fendo.2021.794382. eCollection 2021.",
+              "pmid": "35002970",
+              "type": "DERIVED"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Rabin Medical Center"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Rabin Medical Center",
+            "investigatorFullName": "Ran Abuhasira",
+            "investigatorTitle": "Dr. Ran Abuhasira, Internal Medicine B",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2021-05-04",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2021-06-02",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2021-05-28",
+          "overallStatus": "TERMINATED",
+          "primaryCompletionDateStruct": {
+            "date": "2021-04-04",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2020-10-01",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2021-05",
+          "studyFirstPostDateStruct": {
+            "date": "2020-05-01",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2020-04-30",
+          "studyFirstSubmitQcDate": "2020-04-30",
+          "whyStopped": "End of COVID-19 outbreak in Israel"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "\\[68Ga\\]DOTA-IR-780-C-4 is administered through a superficial vein on the back of the hand. A PET/CT scan was performed approximately 1 h, 2 h and 3 h after injection",
+              "interventionNames": [
+                "Drug: Radioactive drugs are administered through intravenous injection."
+              ],
+              "label": "PET imaging of primary and metastatic lesions in prostate cancer patients",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "PET imaging of primary and metastatic lesions in prostate cancer patients"
+              ],
+              "description": "\\[68Ga\\]DOTA-IR-780-C-4 is administered through a superficial vein on the back of the hand. A PET/CT scan was performed approximately 1 h,2 h and 3 h after injection",
+              "name": "Radioactive drugs are administered through intravenous injection.",
+              "type": "DRUG"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "PET CT"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Wuxi",
+              "country": "China",
+              "facility": "Jiangnan University Affiliated Hospital",
+              "geoPoint": {
+                "lat": 31.56887,
+                "lon": 120.28857
+              },
+              "state": "Jiangsu",
+              "zip": "214026"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Prostate cancer is one of the most common malignant tumors in the urinary and male reproductive systems. According to the 2020 edition of the Global Cancer Statistics Report published by the WHO International Agency for Research on Cancer in February 2021, newly diagnosed prostate cancer cases worldwide accounted for 7.3% of all malignant tumors in 2020, with an incidence rate ranking third after breast cancer and lung cancer. Deaths from prostate cancer accounted for 3.8% of all malignant tumor deaths, ranking eighth. In January 2019, the National Cancer Center released the latest incidence and mortality data of malignant tumors in China in 2015. Among them, there were 72,000 new prostate cancer cases, with an incidence rate of 10.23 per 100,000, ranking sixth among male malignant tumors; 31,000 deaths, with a mortality rate of 4.36 per 100,000, ranking tenth among male malignant tumors. Compared with European and American countries, prostate cancer in China has a relatively high mortality rate, mainly because most patients are diagnosed at an advanced stage. \"Early diagnosis and early treatment\" are important means to prolong the survival period and reduce the mortality rate of prostate cancer patients. Currently, the diagnostic methods for prostate cancer mainly include digital rectal examination, tumor markers, imaging examinations, and prostate biopsy.\n\nProstate-specific membrane antigen (PSMA) is a type II transmembrane glycoprotein secreted by prostate epithelial cells, which is highly expressed in the cell membrane of prostate cancer cells and their metastases. PSMA is also weakly expressed in normal tissues such as the small intestine, brain, kidneys (proximal convoluted tubules), duodenal mucosa, parotid gland, and submandibular gland, but only at 1/1000 to 1/100 of the level in prostate cancer. Bostwick et al. used the PSMA-targeting antibody 7E11-C5 to detect tissues from 184 patients with prostate cancer lesions and found that the staining intensity was higher in prostate cancer tissues with higher Gleason scores. Subsequent studies by Silver et al. also found that the expression level of PSMA in prostate cancer tissues is much higher than that in normal prostate tissues, and its expression level is significantly correlated with the pathological stage of prostate cancer, with an expression rate of up to 96%-98% in lymph node metastases. The specific high expression of PSMA in cancer tissues makes it an important target for the diagnosis and treatment of prostate cancer, and a large number of radioactive molecular probes have been developed targeting this target for the diagnosis of prostate cancer, showing good target affinity.\n\nThe properties of different PSMA radiotracers vary slightly. Inhibitors of PSMA are mainly divided into three categories: phosphorous-based, thiol-based, and urea-based. Among them, the most widely used PSMA PET imaging agents are urea-based small molecules, such as 68Ga-PSMA-11, 68Ga-PSMA-617, 68Ga-PSMA-I\\&T, 18F-DCFBC, 18F-DCFPyL, and 18F-PSMA-1007. Multiple studies have shown that compared with other PET imaging modalities or traditional imaging, PSMA PET imaging has significant advantages, including higher specificity, sensitivity, and positive predictive value.\n\n68Ga-labeled PSMA ligands, as the first PSMA PET imaging agents applied to prostate cancer, have shown promising prospects in tumor localization, local staging, detection of biochemical recurrence (BCR), metastasis detection, and guiding treatment. Among these ligands, PSMA-11 is the most clinically used. 68Ga-PSMA-11 was approved by the FDA in December 2020. It is very helpful for prostate cancer patients with suspected metastasis or recurrence. For suspected metastases and recurrence, it can specifically bind to PSMA, clearly visualize lesions in PET imaging, accurately detect potential foci, provide important diagnostic basis for clinical practice, and assist doctors in judging disease progression and formulating effective treatment plans.\n\nAnother similar product, Pluvicto, was approved by the FDA in March 2022. It is used for patients with suspected metastatic prostate cancer scheduled for initial radical treatment, patients with suspected recurrent prostate cancer with elevated PSA levels, and screening metastatic prostate cancer patients eligible for 177Lu-PSMA-617 targeted therapy.\n\nIn summary, this product shares the same target and nuclide (68Ga) as Pluvicto, and is expected to have obvious diagnostic performance in PSMA-positive prostate cancer. The experimental results of Pluvicto have demonstrated acceptable safety and good effectiveness of the drug, thus ensuring the safety and effectiveness of this probe."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "NA",
+            "interventionModel": "SINGLE_GROUP",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "DIAGNOSTIC"
+          },
+          "enrollmentInfo": {
+            "count": 5,
+            "type": "ESTIMATED"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Able to understand and voluntarily sign the written Informed Consent Form (ICF); Willing and able to participate in procedures required by the trial, including examinations and follow-ups; Male, aged \u2265 18 years;\n\nHistologically or cytologically confirmed prostate cancer, with failure of standard treatment, refusal of standard treatment, no available standard treatment, or disease progression after refractory previous treatments, or no available treatment options according to current guidelines:\n\nPatients who have not received, refused to receive, or progressed after receiving at least 1 but no more than 2 taxane-based treatments. The taxane treatment regimen must include exposure to taxanes for at least 2 cycles. If the subject has only received one type of taxane and the doctor deems that he is not suitable for a second taxane treatment regimen (e.g., due to assessment of old age or health status indicating non-frailty or intolerance, etc.), he may also be included; Patients who have progressed after receiving at least one novel androgen-targeted drug (such as abiraterone, enzalutamide);\n\nMeet the Prostate Cancer Working Group 3 (PCWG3) criteria for diagnosis of metastatic castration-resistant prostate cancer (mCRPC), including:\n\n1. Serum testosterone reaches castration level (serum testosterone \\< 50 ng/dL or 1.7 nmol/L);\n2. And at least one of the following:\n\nSerum PSA progression: PSA \\> 1 ng/mL, and PSA increases consecutively twice at 1-week intervals, with both values exceeding 50% of the lowest value; or bone scan indicates \u2265 2 new bone lesions; or CT or MRI indicates progression of soft tissue lesions (RECIST 1.1) Confirmed as PSMA-positive by 68Ga-PSMA PET/CT scan; At least one measurable lesion (RECIST 1.1); Eastern Cooperative Oncology Group (ECOG) performance status score \u2264 2; Expected survival \\> 6 months;\n\nSufficient organ function:\n\n1. Bone marrow function: neutrophil count \u2265 1.5 \u00d7 109/L; white blood cell count \u2265 2.5 \u00d7 109/L; platelet count \u2265 100 \u00d7 109/L; hemoglobin \u2265 90 g/L;\n2. Liver function: total bilirubin \u2264 1.5 \u00d7 ULN; albumin \u2265 30 g/L; ALT and AST \\< 3 \u00d7 ULN in subjects without liver metastasis; \\< 5 \u00d7 ULN in those with liver metastasis;\n3. Renal function: creatinine clearance \u2265 60 mL/min calculated by the Cockcroft-Gault formula;\n4. Coagulation function: INR \u2264 1.5; activated partial thromboplastin time (APTT) \u2264 2 \u00d7 ULN (for patients not receiving anticoagulant therapy or receiving stable-dose anticoagulants); All clinically significant toxic reactions related to previous anti-tumor treatments (such as chemotherapy, radiotherapy, etc.) have recovered to \u2264 Grade 1 (CTCAE V5.0) (except alopecia).\n\nAgree to take radiation protection measures as directed by the doctor during the trial.\n\nExclusion Criteria:\n\nUnable to tolerate imaging procedures; Having received other investigational drugs or devices within 4 weeks prior to screening; Having received any of the following treatments within 6 months prior to administration: radium-223, strontium-89, samarium-153, rhenium-188, or hemibody radiotherapy; Having previously received PSMA-targeted radioligand therapy; or having received systemic anticancer therapy such as radiotherapy, chemotherapy, immunotherapy, or biotherapy within 4 weeks prior to the first administration; Having experienced grade 4 myelosuppression after previous anticancer treatment, or grade 3 myelosuppression that required more than 6 weeks to recover; Planning to use cytotoxic chemotherapeutic drugs, antitumor immunotherapy, radioligand therapy, or other similar antitumor drugs during the trial; Having used blood products, albumin, etc. within half a month prior to administration to make the subject meet the inclusion criteria;\n\nHaving brain metastases, meningiomas, or other central nervous system metastases at screening, except for the following cases:\n\nFor asymptomatic brain metastases, where the metastatic lesions are limited to the supratentorial and/or cerebellum (i.e., no metastases in the midbrain, pons, medulla oblongata, or spinal cord), no corticosteroid treatment is needed, and there are no brain metastases with a long diameter \\> 1.5 cm, the subject can participate in the study; For symptomatic brain metastases, those who have received treatment and whose lesions are confirmed to be stable for more than 4 weeks by imaging can participate in the study; Having other malignant tumors within 5 years (except for locally treated malignant tumors in situ, such as basal cell or squamous cell skin cancer); Having superscan; Having symptomatic spinal cord compression or expected to develop spinal cord compression; Having previously received external beam radiation therapy (EBRT) targeting extensive bone marrow (\\>25%); Having undergone allogeneic organ transplantation and requiring immunosuppressive therapy;\n\nHaving severe heart disease at screening, including but not limited to the following:\n\nQTcF \\> 470 ms or a history of long QTc; Having myocardial infarction, angina pectoris, coronary artery bypass grafting, etc. within 6 months prior to screening, which the investigator deems unsuitable for inclusion; Having any other diseases, metabolic abnormalities, physical examination abnormalities, or laboratory test abnormalities at screening, which, in the investigator's judgment, reasonably suggest a disease or state unsuitable for the use of the study drug, may affect the interpretation of study results, or put the subject at high risk; Having poorly controlled bladder outlet obstruction or urinary incontinence at screening; Having positive hepatitis C virus antigen (HCVAg) or human immunodeficiency virus antibody (HIV) at screening; For those with positive hepatitis B surface antigen (HBsAg) at screening, hepatitis B virus deoxyribonucleic acid (HBV-DNA) testing is required; if the investigator determines that the patient is in the active viral replication stage, they cannot be included; Having active infection prior to administration; Having poor venous conditions at screening and unable to tolerate blood sample collection; Having known allergies to protein and/or polypeptide drugs, or to structural analogs of this product or other excipients; Having a history of drug or alcohol abuse within one year prior to screening, or a long-term history of drug addiction; Failing to take effective contraceptive measures during sexual activity during the trial and within 6 months after the last administration.",
+          "healthyVolunteers": false,
+          "maximumAge": "80 Years",
+          "minimumAge": "18 Years",
+          "sex": "MALE",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "acronym": "PSMA",
+          "briefTitle": "Evaluation of [68Ga]DOTA-IR-780-C-4 in PET Imaging Studies for PSMA-Positive Prostate Cancer Patients",
+          "nctId": "NCT07162779",
+          "officialTitle": "Evaluation of [68Ga]DOTA-IR-780-C-4 in PET Imaging Studies for PSMA-Positive Prostate Cancer Patients",
+          "orgStudyIdInfo": {
+            "id": "LS2025002"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Affiliated Hospital of Jiangnan University"
+          },
+          "secondaryIdInfos": [
+            {
+              "domain": "National Natural Science Foundation of China",
+              "id": "22274074",
+              "type": "OTHER_GRANT"
+            }
+          ]
+        },
+        "ipdSharingStatementModule": {
+          "description": "Protecting patient privacy",
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "precise PET imaging and diagnosis of primary and metastatic lesions in prostate cancer patients",
+              "measure": "The dection performance of radiotracer [68Ga]DOTA-IR-780-C-4",
+              "timeFrame": "1-2 hours"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "isUsExport": false,
+          "oversightHasDmc": true
+        },
+        "referencesModule": {
+          "seeAlsoLinks": [
+            {
+              "label": "Related Info",
+              "url": "https://www.medicalresearch.org.cn/login"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Affiliated Hospital of Jiangnan University"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Affiliated Hospital of Jiangnan University",
+            "investigatorFullName": "Chunjing Yu",
+            "investigatorTitle": "Director",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2026-12-16",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2025-09-09",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2025-09-08",
+          "overallStatus": "ENROLLING_BY_INVITATION",
+          "primaryCompletionDateStruct": {
+            "date": "2026-12-16",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2024-10-29",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2025-07",
+          "studyFirstPostDateStruct": {
+            "date": "2025-09-09",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2025-07-28",
+          "studyFirstSubmitQcDate": "2025-09-08"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D054198",
+              "term": "Precursor Cell Lymphoblastic Leukemia-Lymphoma"
+            },
+            {
+              "id": "D007945",
+              "term": "Leukemia, Lymphoid"
+            },
+            {
+              "id": "D007938",
+              "term": "Leukemia"
+            },
+            {
+              "id": "D009370",
+              "term": "Neoplasms by Histologic Type"
+            },
+            {
+              "id": "D009369",
+              "term": "Neoplasms"
+            },
+            {
+              "id": "D006402",
+              "term": "Hematologic Diseases"
+            },
+            {
+              "id": "D006425",
+              "term": "Hemic and Lymphatic Diseases"
+            },
+            {
+              "id": "D008232",
+              "term": "Lymphoproliferative Disorders"
+            },
+            {
+              "id": "D008206",
+              "term": "Lymphatic Diseases"
+            },
+            {
+              "id": "D007160",
+              "term": "Immunoproliferative Disorders"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D054218",
+              "term": "Precursor T-Cell Lymphoblastic Leukemia-Lymphoma"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "meshes": [
+            {
+              "id": "C556306",
+              "term": "daratumumab"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "After a steroid/cyclophosphamide pre-treatment phase, patients will be treated according to the national treatmetn program - as per the previous GIMEMA LAL1913 - plus daratumumab as follows:\n\n* In the first cycle, C1, daratumumab (subcutaneous) 1800 mg will be administered on days 1, 8, 15 and 22\n* In the second cycle, C2, daratumumab 1800 mg will be administered on days 1, 8, 15\n* In the subsequent cycles C3-C8 daratumumab 1800 mg will be administered on day 1\n\nin addition to chemotherapy according to the national treatment program\n\nInduction/consolidation cycles are administered at 28 (C1-2) and 21(C2-8) day intervals. Dose reductions are required in patients \\> 55y\n\nAll patients are eligible for allo-SCT after C3. All patients unable to undergo an allo-SCT are eligible for an auto-SCT after C8, If unable to undergo an auto-SCT, these patients are eligible to maintenance at the end of the consolidation program.",
+              "interventionNames": [
+                "Drug: Daratumumab plus chemotherapy according to the national treatment program"
+              ],
+              "label": "Very high risk T-ALL patients treated with daratumumab and the national treatment program",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Very high risk T-ALL patients treated with daratumumab and the national treatment program"
+              ],
+              "description": "Daratumumab is a human IgG1\u049b monoclonal antibody that binds with high affinity to a unique epitope on CD38, a transmembrane glycoprotein which is expressed in several hematological malignancies including multiple myeloma (MM) and ALL. Daratumumab induces lysis of CD38-expressing tumor cells by several mechanisms. Intravenous daratumumab has been approved first as a single agent and then in combinations in the MM setting and in AL amyloidosis.\n\nThe activity of daratumumab in ALL is being explored in the DELPHINUS trial, in which the drug was combined with chemotherapy in pediatric and young adult patients with relapsed/refractory T-cell ALL or lymphoblastic lymphoma (LL).\n\nIn the present trial, daratumumab will be administered to adult Very high risk T-lineage ALL weekly in induction and early consolidation (C1-C2), and the first day of each of the following intensive cycles up to C8.",
+              "name": "Daratumumab plus chemotherapy according to the national treatment program",
+              "type": "DRUG"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "T-Lymphocytic Leukemia, Acute"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Florence",
+              "country": "Italy",
+              "facility": "Ematologia AOU Careggi",
+              "geoPoint": {
+                "lat": 43.77925,
+                "lon": 11.24626
+              }
+            },
+            {
+              "city": "Lecce",
+              "country": "Italy",
+              "facility": "Ematologia P.O. Vito Fazzi - Lecce",
+              "geoPoint": {
+                "lat": 40.35481,
+                "lon": 18.17244
+              }
+            },
+            {
+              "city": "Roma",
+              "country": "Italy",
+              "facility": "Ematologia AOU Policlinico Umberto I",
+              "geoPoint": {
+                "lat": 44.99364,
+                "lon": 11.10642
+              }
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "University of Roma La Sapienza",
+              "name": "Sabina Chiaretti",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The goal of this clinical trial is to test daratumumab in adult very high risk T-lineage lymphoblastic leukemia.\n\nThe main question it aims to answer is wether the addition of daratumumab daratumumab to the national standard of care is able to increase the rate of MRD-negative patients after induction therapy.\n\nParticipants will be treated with:\n\n\u2022 daratumumab in combination with a pediatric-inspired treatment scheme - as in the previous GIMEMA LAL1913 protocol.",
+          "detailedDescription": "This study is a multicenter phase II trial based on the addition of daratumumab to chemotherapy in the front-line treatment of very high-risk T-ALL.\n\nT-ALL patients are eligible at diagnosis in case of ETP or near ETP immunophenotype. Due to their biological and clinical similarities, T-Myeloid MPAL can also be included. Other VHR T-ALL patients (i.e. those with WBC count \\>100 x109/L, with complex karyotype with \u22655 unrelated anomalies or with a CD1a-negative immunophenotype) will also be eligible.\n\nA safety run-in is foreseen for 5 patients: if grade \\>3 infusion-related reactions or extra hematologic adverse events of grade \\>3 that, for investigator's clinical judgement cannot be due to chemotherapy alone, are not observed in more than 2 patients during the first cycle of daratumumab, the study will continue with the core phase.\n\nAfter a steroid/cyclophosphamide pre-treatment phase, that can occur before enrollment during the screening period, patients who meet the eligibility criteria will be treated with daratumumab in combination with a pediatric-inspired treatment scheme - as in the previous GIMEMA LAL1913 protocol."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "NA",
+            "interventionModel": "SINGLE_GROUP",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 31,
+            "type": "ESTIMATED"
+          },
+          "phases": [
+            "PHASE2"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age 18-65 years.\n2. A diagnosis of T-ALL according to the 2022 International Consensus Classification (ICC) is required, either de novo or secondary to chemo-radiotherapy for another cancer. Pre-treatment with low-dose corticosteroids +/- cyclophosphamide in patients presenting with hyperleukocytosis is allowed.\n3. Availability of fresh bone marrow (BM) (or peripheral blood (PB) in patients with hyperleukocytosis) samples to perform diagnostic procedures. ).\n4. Bone marrow blast percentage at diagnosis \u226520%.\n5. CD38 positivity on ALL blasts (any level of positivity).\n6. ETP and near ETP at diagnosis according to internationally accepted criteria (appendix G) at diagnosis or other VHR T-ALL subtypes (WBC count \\>100 x109/L; complex karyotype with \u22655 unrelated anomalies; other CD1a-negative immunophenotypes). T-Myeloid MPAL according to the 2022 ICC of Acute Leukemias of Ambiguous Lineage (appendix H) can also be eligible and considered as VHR.\n7. Availability of full cytological, cytochemical, immunophenotypic, cytogenetic and molecular disease characterization according to the EGIL and WHO classifications.\n8. An ECOG performance status 0-2, unless a performance of 3 is unequivocally caused by the disease itself, (and not by pre-existing comorbidities,) and is considered and/or documented to be reversible following the application of anti-leukemic therapy and appropriate supportive measures.\n9. For females of childbearing potential, a negative pregnancy test must be documented. Female and male patients who are fertile must agree to use an effective form of contraception with their sexual partners from enrollment through 12 months after the end of treatment.\n10. Signed written informed consent according to ICH/E U/GCP and national local laws.\n\nExclusion Criteria:\n\n1. Diagnosis of B-lineage ALL, and Ph+ ALL.\n2. Down's syndrome.\n3. Prior systemic chemotherapy for ALL (excluding cyclophosphamide during pre-phase).\n4. Pre-existing, uncontrolled pathology such as heart failure (congestive/ischemic, acute myocardial infarction within the past 3 months, untreatable arrhythmias, NYHA classes III and IV), severe liver disease with serum direct bilirubin \\>3 mg/dL (unless attributable to Gilbert' syndrome or ALL) and/or ALT \\>5x upper normal limit (unless attributable to ALL), kidney function impairment with serum creatinine \\>2 mg/dL (unless attributable to ALL), and severe neuropsychiatric disorder that impairs the patient's ability to understand and sign the informed consent, or to cope with the intended treatment plan. N.B. For altered liver and kidney function tests, eligibility criteria can be reassessed at 24-96 hours, following the institution of adequate supportive measures.\n5. Presence of serious, active, uncontrolled infections.\n6. A history of cancer that is not in a remission phase following surgery and/or radiotherapy and/or chemotherapy, with a life expectancy \\<2 years.\n7. Patients who have undergone major surgery \u2264 2 weeks prior to starting study drug or who have not recovered from side effects of such therapy.",
+          "healthyVolunteers": false,
+          "maximumAge": "65 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "acronym": "DARATALL-VHR",
+          "briefTitle": "Daratumumab in VHR T-ALL Treated According to the ALL National Treatment Program",
+          "nctId": "NCT06253637",
+          "officialTitle": "Daratumumab in Very High-Risk T-Lineage Acute Lymphoblastic Leukemia (ALL) Treated According to the ALL National Treatment Program (DARATALL-VHR)",
+          "orgStudyIdInfo": {
+            "id": "ALL3024"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Gruppo Italiano Malattie EMatologiche dell'Adulto"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Number of patients on the total of evaluable patients without residual disease after the first induction cycle with chemotherapy plus daratumumab",
+              "measure": "MRD-negativity rate after cycle 1",
+              "timeFrame": "1 month"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": false
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Gruppo Italiano Malattie EMatologiche dell'Adulto"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2029-10",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-03-05",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2026-03-04",
+          "overallStatus": "ACTIVE_NOT_RECRUITING",
+          "primaryCompletionDateStruct": {
+            "date": "2029-10",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2024-10-17",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2026-03",
+          "studyFirstPostDateStruct": {
+            "date": "2024-02-12",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2024-02-02",
+          "studyFirstSubmitQcDate": "2024-02-02"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D051437",
+              "term": "Renal Insufficiency"
+            },
+            {
+              "id": "D007674",
+              "term": "Kidney Diseases"
+            },
+            {
+              "id": "D014570",
+              "term": "Urologic Diseases"
+            },
+            {
+              "id": "D052776",
+              "term": "Female Urogenital Diseases"
+            },
+            {
+              "id": "D005261",
+              "term": "Female Urogenital Diseases and Pregnancy Complications"
+            },
+            {
+              "id": "D000091642",
+              "term": "Urogenital Diseases"
+            },
+            {
+              "id": "D052801",
+              "term": "Male Urogenital Diseases"
+            },
+            {
+              "id": "D010532",
+              "term": "Peritoneal Diseases"
+            },
+            {
+              "id": "D004066",
+              "term": "Digestive System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D058186",
+              "term": "Acute Kidney Injury"
+            },
+            {
+              "id": "D011027",
+              "term": "Pneumoperitoneum"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Intra-abdominal pressure will be set at 7 mm Hg during the procedure.",
+              "interventionNames": [
+                "Procedure: Low intra-abdominal pressure"
+              ],
+              "label": "Low Intra-abdominal pressure",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Intra-abdominal pressure will be set at 12 mm Hg during the procedure.",
+              "interventionNames": [
+                "Procedure: High (standard) intra-abdominal pressure"
+              ],
+              "label": "High (standard) intra-abdominal pressure",
+              "type": "ACTIVE_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Low Intra-abdominal pressure"
+              ],
+              "description": "7 mm Hg pneumoperitoneum during robot-assisted laparoscopic surgery",
+              "name": "Low intra-abdominal pressure",
+              "type": "PROCEDURE"
+            },
+            {
+              "armGroupLabels": [
+                "High (standard) intra-abdominal pressure"
+              ],
+              "description": "12 mm Hg pneumoperitoneum during robot-assisted laparoscopic surgery",
+              "name": "High (standard) intra-abdominal pressure",
+              "type": "PROCEDURE"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Acute Kidney Injury",
+            "Pneumoperitoneum",
+            "Kidney"
+          ],
+          "keywords": [
+            "Quality of recovery",
+            "Surgical rating scale",
+            "intra-abdominal pressure",
+            "kidney injury biomarkers"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Aalborg",
+              "country": "Denmark",
+              "facility": "Aalborg university hospital",
+              "geoPoint": {
+                "lat": 57.048,
+                "lon": 9.9187
+              },
+              "state": "North Jutland",
+              "zip": "9000"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Aalborg University Hospital",
+              "name": "Hayder Al-husseinawi, M.D.",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Within all the surgical specialties, major surgeries are performed whenever possible, as minimally invasive procedures to reduce blood loss, reduce pain and discomfort after surgery, avoid major scars, provide a faster recovery and thus shorter hospital stay. Such minimally invasive procedures in urinary tract surgeries are often performed as laparoscopic or robotic surgeries where CO2 (carbon dioxide) is insufflated into the abdominal cavity to create a working space for the surgeon's instruments. That high pressure created in the abdominal cavity (pneumoperitoneum) to create a workspace for the surgeon start a series of physiological changes in the heart, lung and kidney.\n\nToday, most laparoscopic, and robotic operations are performed with pneumoperitoneum of approximately 12-15 mm Hg, despite the fact that international guidelines recommend the use of the lowest intra-abdominal pressure (IAP) possible allowing adequate exposure of the operative field rather than using a routine pressure level.\n\nInvestigator will conduct a randomized double-blind study involving 120 patients (2 groups of 60). The first group will be operated with standard pressure in the abdominal cavity 12-15 mm Hg (high IAP), patients in the second group will be operated on with a reduced pressure of \u2248 7 mmHg (low IAP).\n\nInvestigator would like to assess the practical feasibility of operating under low IAP. Quality of recovery of patients in relation to both physical and mental status, and post-operative use of pain killer will be also investigated using a validated questionnaire . Finally, Invistigator will examine the impact of IAP on post-operative renal function, and risk of kidney injury.\n\nHypothesis is carrying out laparoscopic/robotic surgeries under low IAP can optimize the post-operative quality of recovery, decrease pain and use of pain killer, improve post-operative renal function, and decrease risk for kidney injury. On the other hand low IAP can risk overview for surgeon, make workspace smaller and raise risk of bleeding.",
+          "detailedDescription": "A total of 120 patients between the ages of 18 and 80 years who were scheduled for elective robotic radical nephrectomy/ prostatectomy will included in the study. This is randomized controlled double-blind clinical trial.\n\nA standard anesthesia protocol will be used in both groups. Bladder catheter inserted by the OP-nurse. After ports installment under IAP of 7 mm Hg, the surgeon leaves the operation field and sits at a surgical console. The ground nurse opens the sealed letter which indicated the pressure for operation (electronic randomization was previously performed by investigator using https://www.graphpad.com/quickcalcs/index.cfm) The required IAP sets by the ground nurse before the surgery started. Assistants are not blinded in the study, but the surgeon is. Intra-abdominal pressure will be maintained at 7 mmHg in Group Low IAP and at 12 mmHg in Group High IAP throughout the surgery. If under operation the surgeon required to raise the IAP because of bad views, or bleeding, he/she can always ask the ground nurse to raise the pressure by 2- or 3-mm Hg at a time until surgeon obtain the preferred view. This involved both groups. Patient will not be excluded from study if pressure increased, but the duration of raised IAP will be registered.\n\nDuring the operation, the surgical working space will be evaluated by surgeon using an adopted version of SRS (Surgical rating scale). 1st time during mobilization of bowel, 2nd time during renal vascular dissection, and last time when surgeon remove the kidney and set it in the Endobag.\n\nAll patients asked to register their 24-hour urine production before the operation day. Intra-operative urine output will be also registered. 10 ml urine will be collected 3 times in order to investigate the risk of Acute Kidney Injury (AKI) by kidney injury biomarker (u-NGAL, og KIM-1). Pre-operatively during urinary catheter placement, 2-hour post-operatively, and 24 hours after operation. Urine samples collected and stored in -80 C for later analyses.\n\nInvestigator will test the quality of recovery using a validated Quality of recovery-15 (QoR-15) questionnaire before the surgery and at day 1,3,14,30 post-op."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "DOUBLE",
+              "whoMasked": [
+                "PARTICIPANT",
+                "CARE_PROVIDER"
+              ]
+            },
+            "primaryPurpose": "PREVENTION"
+          },
+          "enrollmentInfo": {
+            "count": 100,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients diagnosed with kidney/prostate cancer at the department of Urology, Aalborg University Hospital, who are offered radical nephrectomy/prostatectomy.\n* Speaks and understands Danish\n\nExclusion Criteria:\n\n* Patient diagnosed with kidney cancer but can be treated with partial nephrectomy.\n* Patients with severe to end stage chronic kidney disease (CKD stage 4-5)\n* Inability to understand or comply with instructions.\n\nWithdrawal Criteria:\n\n* Inability to complete the surgery without raising the pneumoperitoneum for low pneumoperitoneum arm.\n* Complications that require re-operation which can change the quality of recovery of primary operation.",
+          "healthyVolunteers": false,
+          "maximumAge": "85 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "The Effect of Pneumoperitoneum (Raised Pressure in the Peritoneal Cavity) During Robotic Kidney/Prostate Cancer Surgery.",
+          "nctId": "NCT04755452",
+          "officialTitle": "The Effect of Pneumoperitoneum During Robot Assisted Laparoscopic Renal/ Prostatic Cancer Surgery - a Randomized Clinical Study Investigating Patient and Surgeon Outcome.",
+          "orgStudyIdInfo": {
+            "id": "N-2020 00 78"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Aalborg University Hospital"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Changes in Quality of recovery assessed by QoR-15 Questionaire from pre-operative to day 30 post-operative level. Participiants fill in quistionaire pre-operatively, day 1,3,14,30",
+              "measure": "Quality of recovery",
+              "timeFrame": "fulled by the patient pre-operatively and then on post-operative day 1,3,14 and 30"
+            },
+            {
+              "description": "post-operative renal function and risk for AKI evaluated by u-NGAL",
+              "measure": "Risk Of Acute kidney injury (AKI)",
+              "timeFrame": "24 hours after surgery"
+            },
+            {
+              "description": "assessed 3 times during surgery. 1st during mobilization of bowel, then during renal vessels dissection, and last time during removing and insertion of kidney in the endobag.",
+              "measure": "Surgical rating scale",
+              "timeFrame": "intra-operative"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "All post-operative painkiller registered and converted to morphine using Morphine Milligram Equivalent (MME)",
+              "measure": "post-operative use of painkillers",
+              "timeFrame": "24 hours after surgery"
+            },
+            {
+              "measure": "Intra-operative urine output",
+              "timeFrame": "intra-operative"
+            },
+            {
+              "measure": "Duration of operation in minutes",
+              "timeFrame": "intra-operative"
+            },
+            {
+              "measure": "Intra-operative bleeding in ml",
+              "timeFrame": "intra-operative"
+            },
+            {
+              "description": "Kidney injury molecule in urine",
+              "measure": "u- KIM-1 level",
+              "timeFrame": "Before surgery"
+            },
+            {
+              "description": "Neutrophil gelatinase-associated lipocalin in urine",
+              "measure": "u-NGAL",
+              "timeFrame": "24 hours after surgery"
+            },
+            {
+              "description": "Kidney injury molecule in urine",
+              "measure": "u- KIM-1 level",
+              "timeFrame": "24 hours after surgery"
+            },
+            {
+              "description": "Kidney injury marker",
+              "measure": "S.creatinine, and eGFR",
+              "timeFrame": "24 hours after surgery"
+            },
+            {
+              "description": "Kidney injury marker",
+              "measure": "S.creatinine and eGFR",
+              "timeFrame": "10 days after surgery"
+            },
+            {
+              "description": "Kidney injury marker",
+              "measure": "S.creatinine and eGFR",
+              "timeFrame": "21 days after surgery"
+            },
+            {
+              "description": "Kindey injury markers",
+              "measure": "Other Kidney injury markers, include; TFF,VEGF, Osteoactivin, Clusterin, and Calbindin",
+              "timeFrame": "Before surgery"
+            },
+            {
+              "description": "Kidney injury markers",
+              "measure": "Other Kidney injury markers, include; TFF,VEGF, Osteoactivin, Clusterin, and Calbindin",
+              "timeFrame": "24 hours after surgery"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": true
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Alhusseinawi H, Sander L, Handberg A, Rasmussen RW, Kingo PS, Jensen JB, Rasmussen S. Impact of low pneumoperitoneum on renal function and acute kidney injury biomarkers during robot-assisted radical prostatectomy (RARP): a randomised clinical trial. J Robot Surg. 2024 Jan 17;18(1):31. doi: 10.1007/s11701-023-01744-2.",
+              "pmid": "38231282",
+              "type": "DERIVED"
+            },
+            {
+              "citation": "Alhusseinawi H, Sander L, Rosenvinge PM, Jensen SL, Bruun NH, Kingo PS, Jensen JB, Rasmussen S. Low- versus standard- pneumoperitoneum in patients undergoing robot-assisted radical prostatectomy: a randomised, triple-blinded study. BJU Int. 2023 Nov;132(5):560-567. doi: 10.1111/bju.16099. Epub 2023 Jun 26.",
+              "pmid": "37358048",
+              "type": "DERIVED"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Aalborg University Hospital"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Aalborg University Hospital",
+            "investigatorFullName": "Hayder Alhusseinawi",
+            "investigatorTitle": "Principal investigator, Medical Doctor, PhD student",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2022-02-28",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2023-06-22",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2023-06-18",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2022-02-28",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2020-12-23",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2023-06",
+          "studyFirstPostDateStruct": {
+            "date": "2021-02-16",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2021-02-06",
+          "studyFirstSubmitQcDate": "2021-02-15"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D011024",
+              "term": "Pneumonia, Viral"
+            },
+            {
+              "id": "D011014",
+              "term": "Pneumonia"
+            },
+            {
+              "id": "D012141",
+              "term": "Respiratory Tract Infections"
+            },
+            {
+              "id": "D007239",
+              "term": "Infections"
+            },
+            {
+              "id": "D014777",
+              "term": "Virus Diseases"
+            },
+            {
+              "id": "D018352",
+              "term": "Coronavirus Infections"
+            },
+            {
+              "id": "D003333",
+              "term": "Coronaviridae Infections"
+            },
+            {
+              "id": "D030341",
+              "term": "Nidovirales Infections"
+            },
+            {
+              "id": "D012327",
+              "term": "RNA Virus Infections"
+            },
+            {
+              "id": "D008171",
+              "term": "Lung Diseases"
+            },
+            {
+              "id": "D012140",
+              "term": "Respiratory Tract Diseases"
+            },
+            {
+              "id": "D003920",
+              "term": "Diabetes Mellitus"
+            },
+            {
+              "id": "D044882",
+              "term": "Glucose Metabolism Disorders"
+            },
+            {
+              "id": "D008659",
+              "term": "Metabolic Diseases"
+            },
+            {
+              "id": "D009750",
+              "term": "Nutritional and Metabolic Diseases"
+            },
+            {
+              "id": "D004700",
+              "term": "Endocrine System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D000086382",
+              "term": "COVID-19"
+            },
+            {
+              "id": "D003924",
+              "term": "Diabetes Mellitus, Type 2"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D014230",
+              "term": "Triazoles"
+            },
+            {
+              "id": "D001393",
+              "term": "Azoles"
+            },
+            {
+              "id": "D006573",
+              "term": "Heterocyclic Compounds, 1-Ring"
+            },
+            {
+              "id": "D006571",
+              "term": "Heterocyclic Compounds"
+            },
+            {
+              "id": "D011719",
+              "term": "Pyrazines"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D000068900",
+              "term": "Sitagliptin Phosphate"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "patients will be treated with sitagliptin add on to nutritional therapy with o without insulin treatment. The dose of sitagliptin will be established on the basis of the estimated glomerular filtrate: 100 mg in single daily administration (estimated glomerular filtration rate less than or equal to 45 mL / min / 1.73 m2) or 50 mg (estimated glomerular filtration rate 30-45 mL / min / 1.73 m2) in combination or not with insulin. Patients with stage IV and V renal failure (estimated glomerular filtration rate less than or equal to 30 mL / min / 1.73 m2) will be excluded",
+              "interventionNames": [
+                "Drug: Sitagliptin"
+              ],
+              "label": "Treatment group",
+              "type": "ACTIVE_COMPARATOR"
+            },
+            {
+              "description": "Patients who will be prescribed nutritional therapy with or without insulin treatment",
+              "label": "Control group",
+              "type": "NO_INTERVENTION"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Treatment group"
+              ],
+              "description": "We propose a randomized controlled open label intervention study. Patients with type 2 diabetes admitted to COVID-19 and randomized to the study group will be treated with sitagliptin at an adjusted dosage for estimated glomerular filtrate: 100 mg once daily (estimated glomerular filtration rate less than or equal to 45 mL / min / 1.73 m2 ) or 50 mg (estimated glomerular filtration rate 30-45 mL / min / 1.73 m2) in combination or not with insulin. Patients with stage IV and V renal failure (estimated glomerular filtration rate less than or equal to 30 mL / min / 1.73 m2) will be excluded",
+              "name": "Sitagliptin",
+              "type": "DRUG"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Covid19",
+            "Diabetes Mellitus, Type 2",
+            "CKD"
+          ]
+        },
+        "contactsLocationsModule": {
+          "centralContacts": [
+            {
+              "email": "letizia.teresa@asst-fbf-sacco.it",
+              "name": "Teresa Letizia, Dr.",
+              "phone": "02 39042648",
+              "role": "CONTACT"
+            }
+          ],
+          "locations": [
+            {
+              "city": "Milan",
+              "contacts": [
+                {
+                  "email": "letizia.teresa@asst-fbf-sacco.it",
+                  "name": "Teresa Letizia, Dr.",
+                  "phone": "02 39042648",
+                  "role": "CONTACT"
+                },
+                {
+                  "name": "Paolo Fiorina, MD, PhD",
+                  "role": "PRINCIPAL_INVESTIGATOR"
+                }
+              ],
+              "country": "Italy",
+              "facility": "ASST FBF Sacco",
+              "geoPoint": {
+                "lat": 45.46427,
+                "lon": 9.18951
+              },
+              "zip": "20157"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "University of Milan",
+              "name": "Paolo Fiorina, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The COVID-19 pathology is frequently associated with diabetes mellitus and metabolic syndrome. In the epidemic outbreak that exploded at the beginning of 2020 in the Lombardy Region, about two thirds of the patients who died from COVID-19 were affected by diabetes mellitus. COVID-19 occurs in 70% of cases with an inflammatory pathology of the airways that can be fed by a cytokine storm and result in severe respiratory failure (10% cases) and death (5%). The pathophysiological molecular mechanisms are currently not clearly defined. It is hypothesized that the transmembrane glycoprotein type II CD26, known for the enzyme activity Dipeptilpeptidase 4 of the extracellular domain, may play a main role in this condition. It is in fact considerably expressed at the level of parenchyma and pulmonary interstitium and carries out both systemic and paracrine enzymatic activity, modulating the function of various proinflammatory cytokines, growth factors and vasoactive peptides in the deep respiratory tract. Of particular interest is the fact that Dipeptilpeptidase 4 has been identified as a cellular receptor for S glycoprotein of MERS-COV. In the case of the SARS-COV 2 virus, the main receptor is the Angiotensin-Converting Enzyme 2 protein, but a possible interaction with Dipeptilpeptidase 4 also cannot be excluded. The selective blockade of Dipeptilpeptidase 4 could therefore favorably modulate the pulmonary inflammatory response in the subject affected by COVID-19. This protein is also known for the enzymatic degradation function of the native glucagon-like peptide 1, one of the main regulators of insulin secretion. This is why it is a molecular target in the treatment of diabetes (drugs that selectively inhibit Dipeptilpeptidase 4 are marketed with an indication for the treatment of type 2 diabetes). It is believed that the use of a Dipeptilpeptidase 4 inhibitor in people with diabetes and hospitalized for Covid-19 may be safe and of particular interest for an evaluation of the effects on laboratory and instrumental indicators of inflammatory lung disease. Among the drugs that selectively block Dipeptilpeptidase 4, the one with the greatest affinity is Sitagliptin.",
+          "detailedDescription": "The investigators propose a randomized controlled open label intervention study. Patients hospitalized for COVID-19 and affected by type 2 diabetes mellitus will be included in the study and divided into two groups by randomization: sitagliptin add-on standard of care therapy with nutritional therapy with or without insulin treatment (study group) vs nutritional therapy with or without insulin treatment (group of control, standard therapy). The design of the study provides an open randomization to allow its feasibility in times compatible with the achievement of adequate cases during the epidemic. The presence of placebo and a double-blind study, would lead to longer planning and enrollment times.\n\nPatients with type 2 diabetes mellitus hospitalized for COVID-19 and randomized to the study group will be treated with sitagliptin at an adjusted dosage for estimated glomerular filtrate: 100 mg once daily (estimated glomerular filtration rate less than or equal to 45 mL / min / 1.73 m2) or 50 mg (estimated glomerular filtration rate 30-45 mL / min / 1.73 m2) in combination or not with insulin treatment. Patients with stage IV and V renal impairment (estimated glomerular filtration rate less than or equal to 30 mL / min / 1.73 m2) will be excluded. Enrolled patients will be followed according to the following scheme:\n\nTime points:\n\n* T0: The doctor explains the protocol to the patient and he gives to him the informed consent and the letter to the general practitioner.\n* T1: The patient gives the signed and dated consent and officially enters the study. Basic assessments will be made. At the baseline, the clinical response, the main laboratory and instrumental tests will be taken into consideration. Biological samples will be taken for immunological study. Diabetic patients will begin treatment with Sitagliptin 100 or 50 mg add-on to nutritional therapy and, eventually, insulin treatment. Any other hypoglycemic agents taken before admission will be suspended.\n* T2: 7 days after T1, for both groups of patients, evaluation of the clinical response, of the average daily blood glucose levels, of the main laboratory and instrumental tests.\n* T3: 10 days after T2, for both groups of patients, evaluation of clinical response, average daily blood glucose levels, of the main laboratory and instrumental tests. Collection of biological samples for immunological study. End of the study."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "interventionModelDescription": "A randomized controlled open label intervention study is proposed. Patients hospitalized for COVID-19 and suffering from type 2 diabetes will be included in the study and divided into two groups by randomization: sitagliptin add-on therapy with nutritional therapy with or without insulin (study group) vs nutritional therapy with or without insulin (group of control, standard therapy)",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 170,
+            "type": "ESTIMATED"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of type 2 diabetes, according to ADA 2020 criteria\n* HbA1c levels at the entrance or in the two previous months \\<9%\n* Diagnosis of Covid-19 (swab for positive SARS-COV2 RNA) with pneumonia, with or without increase in inflammation indexes, with or without respiratory failure\n* No indication for tocilizumab therapy (BCRSS, Brescia Covid Respiratory Severity Scale, \\<3).\n* Written and dated informed consent from the patient or his legally valid representative\n\nExclusion Criteria:\n\n* Pregnancy\n* Type 1 diabetes\n* Stage IV and V renal failure (stimated glomerular filtration rate \\<30 ml / min)\n* Treatment with Dipeptidyl peptidase-4 inhibitors or GLP-1 Receptor Agonists in the month prior to hospitalization\n* Pioglitazone treatment in the month prior to hospitalization\n* Treatment in the month preceding or in the course of hospitalization with \"biological\" drugs for immuno-rheumatological diseases (in particular tocilizumab)\n* Presence of other acute or chronic ongoing infections\n* Neurological or psychiatric diseases, diagnosis of hemoglobinopathy, diagnosis of liver disease, cancer, cystic fibrosis or malabsorption syndrome\n* Dysphagia with need for artificial nutrition\n* Positive history of acute and chronic pancreatitis\n* Unstable cardiovascular disease or known atherosclerotic disease\n* A history of alcohol or drug abuse\n* Known human immunodeficiency virus (HIV) or hepatitis\n* Presence of serious diseases or conditions that make the patient unsuitable for the study\n* Surgery in the previous two weeks",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "acronym": "SIDIACO",
+          "briefTitle": "The Effect of Sitagliptin Treatment in COVID-19 Positive Diabetic Patients",
+          "nctId": "NCT04365517",
+          "officialTitle": "The Effect of Sitagliptin Treatment in COVID-19 Positive Diabetic Patients",
+          "orgStudyIdInfo": {
+            "id": "Sacco FBF"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "University of Milan"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Evaluation of the time between randomization and two-point improvement on a seven-category scale (1, not hospitalized, return to normal activities; 2, not hospitalized, but unable to return to normal activities; 3, hospitalized without the need for oxygen therapy; 4, hospitalized, need for oxygen therapy; 5, hospitalized, need for non-invasive ventilatory support; 6, hospitalized, need for invasive mechanical ventilation or Extra Corporeal Membrane Oxygenation; 7, death)",
+              "measure": "Time for clinical improvement",
+              "timeFrame": "1 month"
+            },
+            {
+              "description": "Clinical evaluation of the physiological parameter \"cough\" associated with acute lung disease from the start of the study to the end of the study.",
+              "measure": "Clinical parameter of acute lung disease",
+              "timeFrame": "1 month"
+            },
+            {
+              "description": "Variation of biochemical parameter \"glycemia\" of acute lung disease from the beginning of the study to the end of study.",
+              "measure": "Biochemical parameter of acute lung disease",
+              "timeFrame": "1 month"
+            },
+            {
+              "description": "Variation of the clinical parameter \"oxygen saturation by the use of a pulse oximeter\" of acute lung disease from the beginning of the study to the end of the study.",
+              "measure": "Clinical parameter of acute lung disease",
+              "timeFrame": "1 month"
+            },
+            {
+              "description": "Variation of the clinical parameter \"body temperature\" of acute lung disease from the beginning of the study to the end of the study.",
+              "measure": "Clinical parameter of acute lung disease",
+              "timeFrame": "1 month"
+            },
+            {
+              "description": "Variation of the clinical parameter \"respiratory rate\" of acute lung disease from the beginning of the study to the end of the study.",
+              "measure": "Clinical parameter of acute lung disease",
+              "timeFrame": "1 month"
+            },
+            {
+              "description": "Variation of the clinical parameter \"need for ventilatory support\" of acute lung disease from the beginning of the study to the end of the study.",
+              "measure": "Clinical parameter of acute lung disease",
+              "timeFrame": "1 month"
+            },
+            {
+              "description": "Variation of the clinical parameters \"duration in days of ventilatory support, duration in days of oxygen therapy, duration in days of hospitalization, duration in days in the Intensive Care Unit, total length of stay in hospital\" of acute lung disease from the beginning of the study to the end of the study.",
+              "measure": "Clinical parameters of acute lung disease",
+              "timeFrame": "1 month"
+            },
+            {
+              "description": "Variation of the clinical parameter \"blood gas analysis\" of acute lung disease from the beginning of the study to the end of the study.",
+              "measure": "Clinical parameter of acute lung disease",
+              "timeFrame": "1 month"
+            },
+            {
+              "description": "Variation of the clinical parameter \"chest X ray\" of acute lung disease from the beginning of the study to the end of the study.",
+              "measure": "Clinical parameter of acute lung disease",
+              "timeFrame": "1 month"
+            },
+            {
+              "description": "Variation of the clinical parameter \"PaO2/FiO2 ratio\" of acute lung disease from the beginning of the study to the end of the study.",
+              "measure": "Clinical parameter of acute lung disease",
+              "timeFrame": "1 month"
+            },
+            {
+              "description": "Variation of biochemical parameter \"reactive C protein\" of acute lung disease from the beginning of the study to the end of study.",
+              "measure": "Biochemical parameter of acute lung disease",
+              "timeFrame": "1 month"
+            },
+            {
+              "description": "Variation of biochemical parameter \"blood count with formula\" of acute lung disease from the beginning of the study to the end of study.",
+              "measure": "Biochemical parameter of acute lung disease",
+              "timeFrame": "1 month"
+            },
+            {
+              "description": "Variation of biochemical parameter \"erythrocyte sedimentation rate\" of acute lung disease from the beginning of the study to the end of study.",
+              "measure": "Biochemical parameter of acute lung disease",
+              "timeFrame": "1 month"
+            },
+            {
+              "description": "Variation of biochemical parameter \"blood gas analysis\" of acute lung disease from the beginning of the study to the end of study.",
+              "measure": "Biochemical parameter of acute lung disease",
+              "timeFrame": "1 month"
+            },
+            {
+              "description": "Variation of biochemical parameter \"LDH\" of acute lung disease from the beginning of the study to the end of study.",
+              "measure": "Biochemical parameter of acute lung disease",
+              "timeFrame": "1 month"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "The alteration of Dipeptilpeptidase 4 expression will be evaluated in the collected biological samples",
+              "measure": "Dipeptilpeptidase 4 expression in biological samples",
+              "timeFrame": "6 months"
+            },
+            {
+              "description": "Evaluation of inflammatory cytokines IL-2 and IL-7 in biological samples of treated patients and control group patients during infection.",
+              "measure": "Cytokine-inflammatory profile",
+              "timeFrame": "6 months"
+            },
+            {
+              "description": "Effect on glycemic variability by evaluating HbA1c levels.",
+              "measure": "Glycemic variability",
+              "timeFrame": "1 month"
+            },
+            {
+              "description": "Effect on glycemic variability by evaluating the average daily blood glucose levels.",
+              "measure": "Glycemic variability",
+              "timeFrame": "1 month"
+            },
+            {
+              "description": "Evaluation of the inflammatory cytokine granulocyte-colony stimulating factor in biological samples of treated patients and control group patients during infection.",
+              "measure": "Cytokine-inflammatory profile",
+              "timeFrame": "6 months"
+            },
+            {
+              "description": "Evaluation of the inflammatory cytokine interferon-\u03b3 inducible protein 10 in biological samples of treated patients and control group patients during infection.",
+              "measure": "Cytokine-inflammatory profile",
+              "timeFrame": "6 months"
+            },
+            {
+              "description": "Evaluation of the inflammatory cytokine monocyte chemoattractant protein 1 in biological samples of treated patients and control group patients during infection.",
+              "measure": "Cytokine-inflammatory profile",
+              "timeFrame": "6 months"
+            },
+            {
+              "description": "Evaluation of the inflammatory cytokine macrophage inflammatory protein 1-\u03b1 in biological samples of treated patients and control group patients during infection.",
+              "measure": "Cytokine-inflammatory profile",
+              "timeFrame": "6 months"
+            },
+            {
+              "description": "Evaluation of the inflammatory cytokine tumour necrosis factor-\u03b1 in biological samples of treated patients and control group patients during infection.",
+              "measure": "Cytokine-inflammatory profile",
+              "timeFrame": "6 months"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": true,
+          "isUsExport": true,
+          "oversightHasDmc": false
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Yang JK, Feng Y, Yuan MY, Yuan SY, Fu HJ, Wu BY, Sun GZ, Yang GR, Zhang XL, Wang L, Xu X, Xu XP, Chan JC. Plasma glucose levels and diabetes are independent predictors for mortality and morbidity in patients with SARS. Diabet Med. 2006 Jun;23(6):623-8. doi: 10.1111/j.1464-5491.2006.01861.x.",
+              "pmid": "16759303",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Perlman S, Azhar EI, Memish ZA, Hui DS, Zumla A. Confronting the persisting threat of the Middle East respiratory syndrome to global health security. Lancet Infect Dis. 2020 Feb;20(2):158-160. doi: 10.1016/S1473-3099(19)30347-0. Epub 2019 Jul 3. No abstract available.",
+              "pmid": "31279728",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Remuzzi A, Remuzzi G. COVID-19 and Italy: what next? Lancet. 2020 Apr 11;395(10231):1225-1228. doi: 10.1016/S0140-6736(20)30627-9. Epub 2020 Mar 13.",
+              "pmid": "32178769",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Yang X, Yu Y, Xu J, Shu H, Xia J, Liu H, Wu Y, Zhang L, Yu Z, Fang M, Yu T, Wang Y, Pan S, Zou X, Yuan S, Shang Y. Clinical course and outcomes of critically ill patients with SARS-CoV-2 pneumonia in Wuhan, China: a single-centered, retrospective, observational study. Lancet Respir Med. 2020 May;8(5):475-481. doi: 10.1016/S2213-2600(20)30079-5. Epub 2020 Feb 24.",
+              "pmid": "32105632",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Zou H, Zhu N, Li S. The emerging role of dipeptidyl-peptidase-4 as a therapeutic target in lung disease. Expert Opin Ther Targets. 2020 Feb;24(2):147-153. doi: 10.1080/14728222.2020.1721468. Epub 2020 Jan 31.",
+              "pmid": "31971463",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Meyerholz DK, Lambertz AM, McCray PB Jr. Dipeptidyl Peptidase 4 Distribution in the Human Respiratory Tract: Implications for the Middle East Respiratory Syndrome. Am J Pathol. 2016 Jan;186(1):78-86. doi: 10.1016/j.ajpath.2015.09.014. Epub 2015 Nov 18.",
+              "pmid": "26597880",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Ikeda T, Kumagai E, Iwata S, Yamakawa A. Soluble CD26/Dipeptidyl Peptidase IV Enhances the Transcription of IL-6 and TNF-alpha in THP-1 Cells and Monocytes. PLoS One. 2013 Jun 21;8(6):e66520. doi: 10.1371/journal.pone.0066520. Print 2013.",
+              "pmid": "23805228",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Raj VS, Mou H, Smits SL, Dekkers DH, Muller MA, Dijkman R, Muth D, Demmers JA, Zaki A, Fouchier RA, Thiel V, Drosten C, Rottier PJ, Osterhaus AD, Bosch BJ, Haagmans BL. Dipeptidyl peptidase 4 is a functional receptor for the emerging human coronavirus-EMC. Nature. 2013 Mar 14;495(7440):251-4. doi: 10.1038/nature12005.",
+              "pmid": "23486063",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Zhang H, Penninger JM, Li Y, Zhong N, Slutsky AS. Angiotensin-converting enzyme 2 (ACE2) as a SARS-CoV-2 receptor: molecular mechanisms and potential therapeutic target. Intensive Care Med. 2020 Apr;46(4):586-590. doi: 10.1007/s00134-020-05985-9. Epub 2020 Mar 3. No abstract available.",
+              "pmid": "32125455",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Vankadari N, Wilce JA. Emerging WuHan (COVID-19) coronavirus: glycan shield and structure prediction of spike glycoprotein and its interaction with human CD26. Emerg Microbes Infect. 2020 Mar 17;9(1):601-604. doi: 10.1080/22221751.2020.1739565. eCollection 2020.",
+              "pmid": "32178593",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Kulcsar KA, Coleman CM, Beck SE, Frieman MB. Comorbid diabetes results in immune dysregulation and enhanced disease severity following MERS-CoV infection. JCI Insight. 2019 Oct 17;4(20):e131774. doi: 10.1172/jci.insight.131774.",
+              "pmid": "31550243",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Li K, Wohlford-Lenane CL, Channappanavar R, Park JE, Earnest JT, Bair TB, Bates AM, Brogden KA, Flaherty HA, Gallagher T, Meyerholz DK, Perlman S, McCray PB Jr. Mouse-adapted MERS coronavirus causes lethal lung disease in human DPP4 knockin mice. Proc Natl Acad Sci U S A. 2017 Apr 11;114(15):E3119-E3128. doi: 10.1073/pnas.1619109114. Epub 2017 Mar 27.",
+              "pmid": "28348219",
+              "type": "BACKGROUND"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "University of Milan"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "University of Milan",
+            "investigatorFullName": "Paolo Fiorina, MD",
+            "investigatorTitle": "Director of Endocrinology and Diabetology ASST FBF Sacco",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2022-12-30",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastKnownStatus": "NOT_YET_RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2021-09-28",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2021-09-27",
+          "overallStatus": "UNKNOWN",
+          "primaryCompletionDateStruct": {
+            "date": "2022-03-30",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2021-12-29",
+            "type": "ESTIMATED"
+          },
+          "statusVerifiedDate": "2021-09",
+          "studyFirstPostDateStruct": {
+            "date": "2020-04-28",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2020-04-14",
+          "studyFirstSubmitQcDate": "2020-04-27"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D008223",
+              "term": "Lymphoma"
+            },
+            {
+              "id": "D009370",
+              "term": "Neoplasms by Histologic Type"
+            },
+            {
+              "id": "D009369",
+              "term": "Neoplasms"
+            },
+            {
+              "id": "D008232",
+              "term": "Lymphoproliferative Disorders"
+            },
+            {
+              "id": "D008206",
+              "term": "Lymphatic Diseases"
+            },
+            {
+              "id": "D006425",
+              "term": "Hemic and Lymphatic Diseases"
+            },
+            {
+              "id": "D007160",
+              "term": "Immunoproliferative Disorders"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D008228",
+              "term": "Lymphoma, Non-Hodgkin"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D009842",
+              "term": "Oligopeptides"
+            },
+            {
+              "id": "D010455",
+              "term": "Peptides"
+            },
+            {
+              "id": "D000602",
+              "term": "Amino Acids, Peptides, and Proteins"
+            },
+            {
+              "id": "D061067",
+              "term": "Antibodies, Monoclonal, Humanized"
+            },
+            {
+              "id": "D000911",
+              "term": "Antibodies, Monoclonal"
+            },
+            {
+              "id": "D000906",
+              "term": "Antibodies"
+            },
+            {
+              "id": "D007136",
+              "term": "Immunoglobulins"
+            },
+            {
+              "id": "D007162",
+              "term": "Immunoproteins"
+            },
+            {
+              "id": "D001798",
+              "term": "Blood Proteins"
+            },
+            {
+              "id": "D011506",
+              "term": "Proteins"
+            },
+            {
+              "id": "D012712",
+              "term": "Serum Globulins"
+            },
+            {
+              "id": "D005916",
+              "term": "Globulins"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D000079963",
+              "term": "Brentuximab Vedotin"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Brentuximab vedotin administered in 250ml of 0.9% saline by intravenous infusion over 30 minutes once every 3 weeks.\n\nIn the absence of infusion toxicities, the infusion rate for all patients must be calculated in order to achieve a 30-minute (approximate) infusion period.\n\nBrentuximab Vedotin is dosed at 1.8mg/kg (capped at 100kg of body weight). Dosing is based on patients' weight according to the institutional standard; however, doses will be adjusted for patients who experience a \u2265 10% change in weight from baseline. Actual weight will be used except for patients weighing greater than 100 kg; dose will be calculated based on 100 kg for these individuals. The dose will be rounded to the nearest whole number of milligrams.",
+              "interventionNames": [
+                "Drug: Brentuximab vedotin"
+              ],
+              "label": "Brentuximab vedotin",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Brentuximab vedotin"
+              ],
+              "description": "Brentuximab vedotin must not be administered as an IV push or bolus. It must be administered in 100ml-250ml of 0.9% saline by intravenous infusion over 30 minutes once every 3 weeks.",
+              "name": "Brentuximab vedotin",
+              "otherNames": [
+                "Adcetris"
+              ],
+              "type": "DRUG"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Non-Hodgkin Lymphoma"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Goyang-si",
+              "country": "South Korea",
+              "facility": "National Cancer Center",
+              "geoPoint": {
+                "lat": 37.65639,
+                "lon": 126.835
+              },
+              "state": "Gyeonggi-do",
+              "zip": "410-769"
+            },
+            {
+              "city": "Seoul",
+              "country": "South Korea",
+              "facility": "Yonsei Severance Hospital",
+              "geoPoint": {
+                "lat": 37.566,
+                "lon": 126.9784
+              },
+              "zip": "120-752"
+            },
+            {
+              "city": "Seoul",
+              "country": "South Korea",
+              "facility": "Asan Medical Center",
+              "geoPoint": {
+                "lat": 37.566,
+                "lon": 126.9784
+              },
+              "zip": "138-736"
+            },
+            {
+              "city": "Seoul",
+              "country": "South Korea",
+              "facility": "Korean Cancer Center Hospital",
+              "geoPoint": {
+                "lat": 37.566,
+                "lon": 126.9784
+              },
+              "zip": "139-706"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Asan Medical Center",
+              "name": "Cheolwon Suh, M.D.",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "affiliation": "Severance Hospital",
+              "name": "JinSeok Kim, M.D.",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "affiliation": "National Cancer Center of Korea",
+              "name": "HyeonSeok Eom, M.D.",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "affiliation": "Korea Cancer Center Hospital",
+              "name": "HyeJin Kang, M.D.",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Brentuximab vedotin is an antibody-drug conjugate targeting CD30, one of surface antigens expressed in lymphoma cells. Fanale MA, et al. reported the results of a phase I study with weekly dosing of brentuximab vedotin in patients with relapsed/refractory CD30-positive hematologic malignancies (Clin Cancer Res. 2012) showed tumor regression in 85% of patients. Thus, the overall objective response rate was 59% (24/44) including 34% (n = 14) of complete remissions. This study mainly included Hodgkin lymphoma (n = 38) and anaplastic large cell lymphoma (n = 5). However, its efficacy in other types of NHL has never been reported although this study enrolled one patient with peripheral T-cell lymphoma not otherwise specified (PTCL-NOS).\n\nCD30 (TNFRSF8) is a transmembrane glycoprotein of the tumor necrosis factor receptor (TNFR) superfamily, and it is involved in signal transduction via the activation of the NF-\u03baB pathway and the mitogen-activated protein kinases (MAPKs), ultimately modulating cell growth, proliferation and apoptosis. CD30 is a non-lineage-specific activation marker expressed by scattered B and T immunoblasts. In addition, a subset of cases in virtually all T-cell lymphoma entities may also express CD30 but at variable and generally lower levels. In fact, a recent study in 22 patients with extranodal NK/T-cell lymphoma showed 75% of positive rate of CD30 expression (75%). Moreover, CD30 expression was also documented in the tumor sample of EB virus positive diffuse large B-cell lymphomas (EBV + DLBCL) of the elderly (28.9%, 11/38). Therefore, Brentuximab vedotin may have potential benefits for patients with CD30-positive NHL other than anaplastic large cell lymphoma such as CD30-positive PTCLs, NOS. Considering the role of CD30 in signal transduction pathway associated with tumor growth and proliferation, its expression may be associated with tumor aggressiveness. In accordance with this, it is more likely that relapse or refractory NHLs may have CD30 expression, and the potential benefits of this promising agent as a salvage therapy deserve to be further investigated in these patients who have high risk of treatment failure. Thus, we designed a phase II study for relapsed or refractory NHL patients. This study is to explore the safety and activity of dosing once every 3 weeks of Brentuximab vedotin in patients with relapsed or refractory CD30-positive NHL other than anaplastic large cell lymphoma.",
+          "detailedDescription": "The principal investigator use a Simon two-stage minimax design based on overall response rates. Overall disease control rates will be calculated as the percent of patients that have confirmed complete response (CR) or partial response (PR) or stable disease (SD) by radiographic response including CT and/or PET scans. We assume a P0 as 20%, and designate a target rate (P1) as 40%. Under the error probabilities (\u03b1=0.05, \u03b2=0.20), eighteen patients will be enrolled in the first stage. If overall disease control rate is \u2264 4/18 in the first stage, this study will be stopped. If not, this study will recruit patients up to 33 considering 20% of drop out rate.\n\nIntent-to-treat analysis will be applied to all primary and secondary efficacy endpoints. Response rate will be analyzed based on the response criteria according to Cheson 2007 (Cheson BD, et al. J Clin Oncol 2007; 25 (5):579-586), and data related to overall response rate will be analyzed by statistical analysis including Chi test to evaluate predictive factors for response to study drug.\n\nOverall rate of disease control : CR, PR and SD Progression-free survival : Time between the date of treatment start and the date of death due to any cause or date of disease progression (Up to 36months) Data related to survival rate for all patients will be analyzed based on log-rank test by the Kaplan-Meier method."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "NA",
+            "interventionModel": "SINGLE_GROUP",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 33,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE2"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients must have histologically confirmed non-Hodgkin lymphomas with CD 30 expression. Criteria of positive CD30 expression are defined as in cases with membranous CD30 expression from more than 50% of neoplastic cells.\n2. Relapsed or progressed disease after two or more than two salvage chemotherapy\n3. Patients must have fully recovered from the acute toxic effects of all prior chemotherapy, immunotherapy, or radiotherapy prior to entering this study.\n4. Measurable disease \\> 1.5 cm evidenced by computed tomography (CT) scan of the neck/chest/abdomen/pelvis or CT/positron emission tomography (PET) scans\n5. Life expectancy of greater than 3 months\n6. ECOG performance status \u2264 2\n7. Male or female patients 18 - 75 years\n8. Female patient is either post-menopausal for at least 1 year before the screening visit or surgically sterile or if of childbearing potential, agree to practice 2 effective methods of contraception, at the same time, from the time of signing the informed consent through 6 months after the last dose of study drug, or agrees to completely abstain from heterosexual intercourse.\n9. Male patients, even if surgically sterilized, (i.e., status post vasectomy) agree to practice effective barrier contraception during the entire study period and through 6 months after the last dose of study drug, or agrees to completely abstain from heterosexual intercourse.\n10. Voluntary written informed consent must be given before performance of any study-related procedure not part of standard medical care, with the understanding that consent may be withdrawn by the patient at any time without prejudice to future medical care.\n11. Clinical laboratory values as specified below within 7 days before the first dose of study drug:\n12. Serum creatinine must be \\< 2.0 mg/dL and/or creatinine clearance or calculated creatinine clearance \\> 40 mL/minute.\n13. Hemoglobin must be \u2265 8g/dL.\n14. Absolute neutrophil count (ANC) \u2265 1500/uL\n15. Platelets (Plts) \u2265 75,000/; G-CSF can be given prior to start of brentuximab vedotin and during brentuximab vedotin treatment to achieve target ANC; platelet transfusion can also be given prior to the start of brentuximab vedotin and during brentuximab vedotin treatment to achieve a target platelet \u2265 75,000/uL\n16. Total bilirubin within 1.5 x of the upper limit of normal (ULN) institutional limits, patients with elevation of unconjugated bilirubin alone, as in Gilbert's disease, are eligible\n17. Aspartate aminotransferase (AST)/alanine aminotransferase (ALT) \\< 2.5 X institutional ULN. AST and ALT may be elevated up to 5 times the ULN if their elevation can be reasonably ascribed to the presence of hematologic/solid tumor in liver\n\nExclusion Criteria:\n\n1. Hodgkin lymphoma\n2. Anaplastic large cell lymphoma\n3. Female patient who are both lactating and breast-feeding or have a positive serum pregnancy test during the screening period or a positive pregnancy test on Day 1 before first dose of study drug\n4. Any serious medical or psychiatric illness that could, in the investigator's opinion, potentially interfere with the completion of treatment according to the protocol.\n5. Known cerebral or meningeal disease (HL or any other etiology), including signs or symptoms of PML\n6. Symptomatic neurologic disease compromising normal activities of daily living or requiring medications\n7. Any sensory or motor peripheral neuropathy greater than or equal to Grade 2\n8. Any active systemic viral, bacterial, or fungal infection requiring systemic antibiotics within 2 weeks prior to first study drug dose\n9. Any prior treatment with chemotherapy and/or investigational agents completed less than 5 half-lives\n10. Known hypersensitivity to recombinant proteins, murine proteins, or to any excipient contained in the drug formulation of brentuximab vedotin.\n11. Known HIV antibody-positive\n12. Known hepatitis B surface antigen-positive, or known or suspected active hepatitis C infection\n13. Diagnosed or treated for another malignancy within 3 years before the first dose or previously diagnosed with another malignancy and have evidence of residual disease. Patients with nonmelanoma skin cancer or carcinoma in situ of any type are not excluded if they have undergone complete resection.\n14. Known history of any of the following cardiovascular conditions:\n\n    * Myocardial infarction within 2 years of first dose of study drug\n    * New York Heart Association (NYHA) Class III or IV heart failure (see Appendix 3)\n    * Evidence of current uncontrolled cardiovascular conditions, including cardiac arrhythmias, congestive heart failure (CHF), angina, or electrocardiographic evidence of acute ischemia or active conduction system abnormalities\n    * A left-ventricular ejection fraction \\<50% documented within 6 months before first dose of study drug",
+          "healthyVolunteers": false,
+          "maximumAge": "75 Years",
+          "minimumAge": "19 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "acronym": "BRAN",
+          "briefTitle": "Brentuximab Vedotin for Relapsed/Refractory CD30-positive Non-Hodgkin Lymphomas",
+          "nctId": "NCT02280785",
+          "officialTitle": "A Phase II Study of Brentuximab Vedotin for Relapsed/Refractory CD30-positive Non-Hodgkin Lymphomas Other Than Anaplastic Large Cell Lymphoma",
+          "orgStudyIdInfo": {
+            "id": "SMC 2014-04-059"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Samsung Medical Center"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "YES"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "The percentage of subjects with complete response (CR) or partial response (PR) or stable disease (SD)",
+              "measure": "Overall disease control rate",
+              "timeFrame": "Until the disease progression (maximum 2 years after completion of treatment, assessed up to 36 months)"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "measure": "Progression-free survival (PFS)",
+              "timeFrame": "Time between the date of treatment start and the date of death due to any cause or date of disease progression, whichever came first, assessed up to 36months"
+            },
+            {
+              "description": "Toxicity will be assessed by analyzing adverse events and the standard clinical laboratory and hematologic findings.",
+              "measure": "Toxicity (assessed by analyzing adverse events and the standard clinical laboratory and hematologic findings.)",
+              "timeFrame": "From the date of first drug administration until the date of the 30th days, assessed up to 13 months"
+            },
+            {
+              "measure": "Overall survival (OS)",
+              "timeFrame": "Time between the date of treatment start and the date of death due to any cause,assessed up to 36 months"
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": true
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Kim SJ, Yoon DH, Kim JS, Kang HJ, Lee HW, Eom HS, Hong JY, Cho J, Ko YH, Huh J, Yang WI, Park WS, Lee SS, Suh C, Kim WS. Efficacy of Brentuximab Vedotin in Relapsed or Refractory High-CD30-Expressing Non-Hodgkin Lymphomas: Results of a Multicenter, Open-Labeled Phase II Trial. Cancer Res Treat. 2020 Apr;52(2):374-387. doi: 10.4143/crt.2019.198. Epub 2019 Aug 13.",
+              "pmid": "31476851",
+              "type": "DERIVED"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "INDUSTRY",
+              "name": "Millennium Pharmaceuticals, Inc."
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Samsung Medical Center"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Samsung Medical Center",
+            "investigatorFullName": "Won Seog Kim",
+            "investigatorTitle": "A phase II study of Brentuximab Vedotin for relapsed/refractory CD30-positive non-Hodgkin lymphomas other than anaplastic large cell lymphoma",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2018-09",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2018-09-06",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2018-09-04",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2017-12",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2014-11",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2018-09",
+          "studyFirstPostDateStruct": {
+            "date": "2014-11-03",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2014-10-05",
+          "studyFirstSubmitQcDate": "2014-10-31"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D010003",
+              "term": "Osteoarthritis"
+            },
+            {
+              "id": "D001168",
+              "term": "Arthritis"
+            },
+            {
+              "id": "D007592",
+              "term": "Joint Diseases"
+            },
+            {
+              "id": "D009140",
+              "term": "Musculoskeletal Diseases"
+            },
+            {
+              "id": "D012216",
+              "term": "Rheumatic Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D020370",
+              "term": "Osteoarthritis, Knee"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": true,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "interventionNames": [
+                "Device: Provant Therapy System"
+              ],
+              "label": "Active Treatment",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Active Treatment"
+              ],
+              "name": "Provant Therapy System",
+              "type": "DEVICE"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Osteoarthritis, Knee"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Lone Tree",
+              "country": "United States",
+              "facility": "Colorado Orthopaedics",
+              "geoPoint": {
+                "lat": 39.55171,
+                "lon": -104.8863
+              },
+              "state": "Colorado",
+              "zip": "80124"
+            },
+            {
+              "city": "Spokane",
+              "country": "United States",
+              "facility": "Spokane Joint Replacement",
+              "geoPoint": {
+                "lat": 47.65966,
+                "lon": -117.42908
+              },
+              "state": "Washington",
+              "zip": "99218"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "To investigate the effect of PEMF treatment when administered twice daily over a 90-day period by looking at synovial fluid in subjects with osteoarthritis of the knee."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "NA",
+            "interventionModel": "SINGLE_GROUP",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 19,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Subject age is greater than or equal to 45 years and less than 80 years of age.\n2. Subject has documented Kellgren-Lawrence radiograph score of 2, 3, or 4. Attempts will be made to include at least 3 subjects in each category.\n3. Subject is on a stable analgesic regimen for at least two weeks prior to the Screening Visit and anticipates being able to remain on that regimen throughout the study.\n4. Subject is willing and able to give written informed consent and to comply with all parts of the study protocol.\n5. Female subjects must be post-menopausal, surgically sterile, abstinent, or practicing (or agree to practice) an effective method of birth control if they are sexually active for the duration of the study. (Effective methods of birth control include prescription hormonal contraceptives, intrauterine devices, double-barrier methods, and/or male partner sterilization).\n\nExclusion Criteria:\n\n1. Subject has documented Kellgren-Lawrence radiograph score of 1.\n2. Subject has undergone viscosupplementation treatment for the knee within 2 months of the Screening Visit.\n3. Subject has had a total or partial knee replacement.\n4. Subject has used topical or oral steroids within 2 months of the Screening Visit.\n5. Subject has undergone any anesthetic injection into the knee within 30 days prior to the Screening Visit or within 6 weeks prior to the Screening Visit for long acting lidocaine injection products.\n6. Subject has other diseases of the knee joint including inflammatory arthritis (i.e., rheumatoid arthritis, spondyloarthritis, gout and pseudogout), autoimmune disease (i.e., connective tissue disorders), septic arthritis, previous knee injury or intra-articular fracture.\n7. Subject will be unable to treat daily over the course of the 90 day treatment period (e.g., travelling without the ability to take Provant).\n8. Subject has received any investigational drug or device within 30 days or 5 half-lives of the drug, whichever is longer, prior to the Screening Visit or is enrolled in another clinical trial.\n9. Subject has a history of a solid tumor that is not in complete remission for greater than 2 years other than successfully treated non-metastatic basal cell or squamous cell carcinomas of the skin in the treatment area.\n10. Subject has a history of blood cancer (e.g., leukemia, lymphoma, multiple myeloma).\n11. Subject has an ongoing painful condition, other than osteoarthritis, that in the opinion of the investigator might have a confounding influence on the safety or effectiveness analyses for this study.\n12. Subject has a Body Mass Index (BMI) \\> 38 kg/m2.\n13. Subject has a serious psychosocial co-morbidity.\n14. Subject has a history of drug or alcohol abuse within one year prior to screening.\n15. Subject has an implanted pacemaker, defibrillator, neurostimulator, spinal cord stimulator, bone stimulator, cochlear implant, or other implanted device with an implanted metal lead(s).\n16. Subject is currently pregnant or planning on becoming pregnant prior to Day 90.\n17. Subject is unwilling or unable to follow study instructions, or comply with the treatment regimen, study visits, and diary entries.\n18. Subject is in current litigation regarding knee pain or is receiving Worker's Compensation.",
+          "healthyVolunteers": true,
+          "maximumAge": "80 Years",
+          "minimumAge": "45 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Proof of Concept Study of PEMF (Pulsed Electromagnetic Field) Therapy in Subjects With Osteoarthritis of the Knee",
+          "nctId": "NCT02696083",
+          "officialTitle": "A Multicenter, Open-Label, Single-Arm, Proof of Concept Study of Pulsed Electromagnetic Field (PEMF) Therapy to Evaluate Synovial Fluid Markers in Subjects With Osteoarthritis of the Knee",
+          "orgStudyIdInfo": {
+            "id": "RBI.2015.004"
+          },
+          "organization": {
+            "class": "INDUSTRY",
+            "fullName": "Regenesis Biomedical, Inc."
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Synovial markers measured included bone morphologic proteins, related proteins Activin A, Osteoactivin, sonic hedgehog, Dickkopf, interleukin cytokines and tumor necrosis factor alpha, Growth Factors and Related Proteins fibroblast growth factors 1,2, androgen receptor, platelet derived growth factor BB, tumor growth factor beta, osteprogenerin, osteopontin, and Insulin like growth factor-1. Inflammation related proteins assayed were monocyte chemoattractant protein-1, macrophage colony-stimulating factor, macrophage inflammatory protein, receptor activator of Nuclear factor \u03ba, and TNF related activation induced cytokine. Adhesion and matrix metalloproteinase proteins levels were also determined. The mean protein concentration was calculated for these markers at Baseline (n=19), Day 45 (n=7) and Day 90 (n=6).",
+              "measure": "Number of Synovial Markers Showing a Reduction From Baseline Following Treatment at Days 45 and 90",
+              "timeFrame": "Baseline, Days 45 and 90"
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": false
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "INDUSTRY",
+            "name": "Regenesis Biomedical, Inc."
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2016-09-23",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2018-01-12",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2017-12-13",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2016-09-23",
+            "type": "ACTUAL"
+          },
+          "resultsFirstPostDateStruct": {
+            "date": "2018-01-12",
+            "type": "ACTUAL"
+          },
+          "resultsFirstSubmitDate": "2017-09-27",
+          "resultsFirstSubmitQcDate": "2017-12-13",
+          "startDateStruct": {
+            "date": "2016-02-02",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2017-12",
+          "studyFirstPostDateStruct": {
+            "date": "2016-03-02",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2016-02-17",
+          "studyFirstSubmitQcDate": "2016-02-25"
+        }
+      },
+      "resultsSection": {
+        "adverseEventsModule": {
+          "eventGroups": [
+            {
+              "deathsNumAffected": 0,
+              "deathsNumAtRisk": 19,
+              "description": "Provant Therapy System",
+              "id": "EG000",
+              "otherNumAffected": 10,
+              "otherNumAtRisk": 19,
+              "seriousNumAffected": 0,
+              "seriousNumAtRisk": 19,
+              "title": "Active Treatment"
+            }
+          ],
+          "frequencyThreshold": "0",
+          "otherEvents": [
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Musculoskeletal and connective tissue disorders",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 9,
+                  "numAtRisk": 19,
+                  "numEvents": 10
+                }
+              ],
+              "term": "Increased knee pain"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Musculoskeletal and connective tissue disorders",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 19,
+                  "numEvents": 1
+                }
+              ],
+              "term": "Increase knee swelling"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Renal and urinary disorders",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 19,
+                  "numEvents": 1
+                }
+              ],
+              "term": "Exacerbation of patients end stage renal failure"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Musculoskeletal and connective tissue disorders",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 19,
+                  "numEvents": 1
+                }
+              ],
+              "term": "Anterior C6-C7 Cervical Diskectomy and Fusion with Partial Laminectomy, Medial facetectomy and foram"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Musculoskeletal and connective tissue disorders",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 19,
+                  "numEvents": 1
+                }
+              ],
+              "term": "Left knee buckled"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Ear and labyrinth disorders",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 19,
+                  "numEvents": 1
+                }
+              ],
+              "term": "Prominent Menieres Episode"
+            }
+          ]
+        },
+        "baselineCharacteristicsModule": {
+          "denoms": [
+            {
+              "counts": [
+                {
+                  "groupId": "BG000",
+                  "value": "19"
+                }
+              ],
+              "units": "Participants"
+            }
+          ],
+          "groups": [
+            {
+              "description": "Provant Therapy System",
+              "id": "BG000",
+              "title": "Active Treatment"
+            }
+          ],
+          "measures": [
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "lowerLimit": "46",
+                          "upperLimit": "79",
+                          "value": "63.68"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "dispersionType": "FULL_RANGE",
+              "paramType": "MEAN",
+              "title": "Age, Continuous",
+              "unitOfMeasure": "years"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "10"
+                        }
+                      ],
+                      "title": "Female"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "9"
+                        }
+                      ],
+                      "title": "Male"
+                    }
+                  ]
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "title": "Sex: Female, Male",
+              "unitOfMeasure": "Participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "Hispanic or Latino"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "19"
+                        }
+                      ],
+                      "title": "Not Hispanic or Latino"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "Unknown or Not Reported"
+                    }
+                  ]
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "title": "Ethnicity (NIH/OMB)",
+              "unitOfMeasure": "Participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "American Indian or Alaska Native"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "Asian"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "Native Hawaiian or Other Pacific Islander"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "Black or African American"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "19"
+                        }
+                      ],
+                      "title": "White"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "More than one race"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "Unknown or Not Reported"
+                    }
+                  ]
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "title": "Race (NIH/OMB)",
+              "unitOfMeasure": "Participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "19"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "United States"
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "title": "Region of Enrollment",
+              "unitOfMeasure": "Participants"
+            }
+          ]
+        },
+        "moreInfoModule": {
+          "certainAgreement": {
+            "otherDetails": "Publication Rights. Independent analysis and/or publication of data generated or arising from the performance of this Agreement is not permitted without the prior written consent of Regenesis. Such consent may be contingent on Regenesis' review and approval of any proposed analysis and manuscript. Institution will retain the right to review and analyze the database created from this study for its own scientific purposes so long as such scientific purposes are non-commercial in nature.",
+            "piSponsorEmployee": false,
+            "restrictionType": "OTHER",
+            "restrictiveAgreement": true
+          },
+          "pointOfContact": {
+            "email": "heather.vanderploeg@regenesisbio.com",
+            "organization": "Regenesis Biomedical",
+            "phone": "602-428-7041",
+            "title": "Clinical Operations Manager"
+          }
+        },
+        "outcomeMeasuresModule": {
+          "outcomeMeasures": [
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "6"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "6"
+                        },
+                        {
+                          "groupId": "OG002",
+                          "value": "8"
+                        },
+                        {
+                          "groupId": "OG003",
+                          "value": "5"
+                        },
+                        {
+                          "groupId": "OG004",
+                          "value": "3"
+                        },
+                        {
+                          "groupId": "OG005",
+                          "value": "2"
+                        }
+                      ]
+                    }
+                  ],
+                  "denoms": [
+                    {
+                      "counts": [
+                        {
+                          "groupId": "OG000",
+                          "value": "7"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "7"
+                        },
+                        {
+                          "groupId": "OG002",
+                          "value": "7"
+                        },
+                        {
+                          "groupId": "OG003",
+                          "value": "7"
+                        },
+                        {
+                          "groupId": "OG004",
+                          "value": "7"
+                        },
+                        {
+                          "groupId": "OG005",
+                          "value": "19"
+                        }
+                      ],
+                      "units": "Participants"
+                    },
+                    {
+                      "counts": [
+                        {
+                          "groupId": "OG000",
+                          "value": "9"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "7"
+                        },
+                        {
+                          "groupId": "OG002",
+                          "value": "10"
+                        },
+                        {
+                          "groupId": "OG003",
+                          "value": "6"
+                        },
+                        {
+                          "groupId": "OG004",
+                          "value": "4"
+                        },
+                        {
+                          "groupId": "OG005",
+                          "value": "4"
+                        }
+                      ],
+                      "units": "protein markers"
+                    }
+                  ],
+                  "title": "Day 45 -# of markers that decreased from Baseline"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "8"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "7"
+                        },
+                        {
+                          "groupId": "OG002",
+                          "value": "10"
+                        },
+                        {
+                          "groupId": "OG003",
+                          "value": "4"
+                        },
+                        {
+                          "groupId": "OG004",
+                          "value": "4"
+                        },
+                        {
+                          "groupId": "OG005",
+                          "value": "4"
+                        }
+                      ]
+                    }
+                  ],
+                  "denoms": [
+                    {
+                      "counts": [
+                        {
+                          "groupId": "OG000",
+                          "value": "6"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "6"
+                        },
+                        {
+                          "groupId": "OG002",
+                          "value": "6"
+                        },
+                        {
+                          "groupId": "OG003",
+                          "value": "6"
+                        },
+                        {
+                          "groupId": "OG004",
+                          "value": "6"
+                        },
+                        {
+                          "groupId": "OG005",
+                          "value": "6"
+                        }
+                      ],
+                      "units": "Participants"
+                    },
+                    {
+                      "counts": [
+                        {
+                          "groupId": "OG000",
+                          "value": "9"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "7"
+                        },
+                        {
+                          "groupId": "OG002",
+                          "value": "10"
+                        },
+                        {
+                          "groupId": "OG003",
+                          "value": "6"
+                        },
+                        {
+                          "groupId": "OG004",
+                          "value": "4"
+                        },
+                        {
+                          "groupId": "OG005",
+                          "value": "4"
+                        }
+                      ],
+                      "units": "protein markers"
+                    }
+                  ],
+                  "title": "Day 90 - # of markers that decreased from Baseline"
+                }
+              ],
+              "denomUnitsSelected": "protein markers",
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "19"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "19"
+                    }
+                  ],
+                  "units": "Participants"
+                },
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "7"
+                    },
+                    {
+                      "groupId": "OG002",
+                      "value": "10"
+                    },
+                    {
+                      "groupId": "OG003",
+                      "value": "6"
+                    },
+                    {
+                      "groupId": "OG004",
+                      "value": "4"
+                    },
+                    {
+                      "groupId": "OG005",
+                      "value": "4"
+                    }
+                  ],
+                  "units": "protein markers"
+                }
+              ],
+              "description": "Synovial markers measured included bone morphologic proteins, related proteins Activin A, Osteoactivin, sonic hedgehog, Dickkopf, interleukin cytokines and tumor necrosis factor alpha, Growth Factors and Related Proteins fibroblast growth factors 1,2, androgen receptor, platelet derived growth factor BB, tumor growth factor beta, osteprogenerin, osteopontin, and Insulin like growth factor-1. Inflammation related proteins assayed were monocyte chemoattractant protein-1, macrophage colony-stimulating factor, macrophage inflammatory protein, receptor activator of Nuclear factor \u03ba, and TNF related activation induced cytokine. Adhesion and matrix metalloproteinase proteins levels were also determined. The mean protein concentration was calculated for these markers at Baseline (n=19), Day 45 (n=7) and Day 90 (n=6).",
+              "groups": [
+                {
+                  "description": "BMP and related protein synovial markers measured included 9 markers: bone morphologic proteins (BMP-2, BMP-4, BMP-6, BMP-7, BMP-9) and related proteins Activin A, Osteoactivin (Ostact), sonic hedgehog (Shh N) and Dickkopf (DKK-1).",
+                  "id": "OG000",
+                  "title": "BMP and Related Proteins"
+                },
+                {
+                  "description": "The 7 synovial markers measured included the levels of interleukin cytokines and tumor necrosis factor alpha (Il-1\u03b1, IL-1\u03b2, IL-6, IL-8, IL-11, IL-17 and TNF\u03b1),",
+                  "id": "OG001",
+                  "title": "Cytokines"
+                },
+                {
+                  "description": "The 10 synovial markers included in this group include Growth Factors and Related Proteins fibroblast growth factors 1,2, androgen receptor, platelet derived growth factor BB, tumor growth factor beta, osteprogenerin, osteopontin, and Insulin like growth factor-1 (FGF-1, FGF-2, AR, PDGF BB, TGF b1, TGF b2, TGF b3, OPG, OPN and IGF-1",
+                  "id": "OG002",
+                  "title": "Growth Factors and Related Proteins"
+                },
+                {
+                  "description": "The 6 synovial fluid markers in this group included monocyte chemoattractant protein-1, macrophage colony-stimulating factor, macrophage inflammatory protein, receptor activator of Nuclear factor \u03ba, and TNF related activation induced cytokine (MCP-1, M-CSF, MIP-1a, RANK, TRANCE).",
+                  "id": "OG003",
+                  "title": "Bone Remodeling Related Proteins"
+                },
+                {
+                  "description": "This group includes 4 adhesion and matrix metalloproteinase proteins: ICAM-1, P-CadH, VCAM-1, and VE-CadH.",
+                  "id": "OG004",
+                  "title": "Adhesion and Matrix Proteins"
+                },
+                {
+                  "description": "The 4 matrix metalloproteinase proteins analyzed in this group include the following: MMP-2, MMP-3, MMP-9, and MMP-13.",
+                  "id": "OG005",
+                  "title": "MPP Proteins"
+                }
+              ],
+              "paramType": "COUNT_OF_UNITS",
+              "populationDescription": "The mean protein concentration was calculated for these markers at Baseline (n=19), Day 45 (n=7) and Day 90 (n=6).",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Baseline, Days 45 and 90",
+              "title": "Number of Synovial Markers Showing a Reduction From Baseline Following Treatment at Days 45 and 90",
+              "type": "PRIMARY",
+              "typeUnitsAnalyzed": "protein markers",
+              "unitOfMeasure": "protein markers"
+            }
+          ]
+        },
+        "participantFlowModule": {
+          "groups": [
+            {
+              "description": "Provant Therapy System",
+              "id": "FG000",
+              "title": "Active Treatment (Provant Therapy System)"
+            }
+          ],
+          "periods": [
+            {
+              "milestones": [
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "19"
+                    }
+                  ],
+                  "type": "STARTED"
+                },
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "13"
+                    }
+                  ],
+                  "type": "COMPLETED"
+                },
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "6"
+                    }
+                  ],
+                  "type": "NOT COMPLETED"
+                }
+              ],
+              "title": "Overall Study"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3AARPC5%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "29925947",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9230079",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Component of the Arp2/3 complex, a multiprotein complex that mediates actin polymerization upon stimulation by nucleation-promoting factor (NPF) (PubMed:9230079). The Arp2/3 complex mediates the formation of branched actin networks in the cytoplasm, providing the force for cell motility (PubMed:9230079). In addition to its role in the cytoplasmic cytoskeleton, the Arp2/3 complex also promotes actin polymerization in the nucleus, thereby regulating gene transcription and repair of damaged DNA (PubMed:29925947). The Arp2/3 complex promotes homologous recombination (HR) repair in response to DNA damage by promoting nuclear actin polymerization, leading to drive motility of double-strand breaks (DSBs) (PubMed:29925947)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "9230079",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0090",
+                "value": "Cytoplasm, cytoskeleton"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "9230079",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0280",
+                "value": "Cell projection"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "29925947",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "37349293",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0191",
+                "value": "Nucleus"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000004180C"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "ARPC5"
+          },
+          "synonyms": [
+            {
+              "value": "ARC16"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "O15511",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Arp2/3 complex 16 kDa subunit"
+            },
+            "shortNames": [
+              {
+                "value": "p16-ARC"
+              }
+            ]
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Actin-related protein 2/3 complex subunit 5"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "page_meta": {
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "5' exonuclease Apollo",
+      "score": 21.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL4105944",
+      "target_components": [
+        {
+          "accession": "Q9H816",
+          "component_description": "5' exonuclease Apollo",
+          "component_id": 17796,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "3.1.-.-",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "3.5.2.6",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "5' exonuclease Apollo",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Beta-lactamase DCLRE1B",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "DCLRE1B",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "DNA cross-link repair 1B protein",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "hSNM1B",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "SNM1B",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "SNM1 homolog B",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "SNMIB",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "Q9H816",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "Q9H816",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0000781",
+              "xref_name": "chromosome, telomeric region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005654",
+              "xref_name": "nucleoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005694",
+              "xref_name": "chromosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005813",
+              "xref_name": "centrosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005856",
+              "xref_name": "cytoskeleton",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016604",
+              "xref_name": "nuclear body",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0003684",
+              "xref_name": "damaged DNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004527",
+              "xref_name": "exonuclease activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008409",
+              "xref_name": "5'-3' exonuclease activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008800",
+              "xref_name": "beta-lactamase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0035312",
+              "xref_name": "5'-3' DNA exonuclease activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042803",
+              "xref_name": "protein homodimerization activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0000723",
+              "xref_name": "telomere maintenance",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006281",
+              "xref_name": "DNA repair",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006303",
+              "xref_name": "double-strand break repair via nonhomologous end joining",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010833",
+              "xref_name": "telomere maintenance via telomere lengthening",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016233",
+              "xref_name": "telomere capping",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031627",
+              "xref_name": "telomeric loop formation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031848",
+              "xref_name": "protection from non-homologous end joining at telomere",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031860",
+              "xref_name": "telomeric 3' overhang formation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0036297",
+              "xref_name": "interstrand cross-link repair",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:17641",
+              "xref_name": "DCLRE1B",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "Q9H816",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR011084",
+              "xref_name": "DRMBL",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036866",
+              "xref_name": "RibonucZ/Hydroxyglut_hydro",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR23240",
+              "xref_name": "DNA CROSS-LINK REPAIR PROTEIN PSO2/SNM1-RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR23240:SF26",
+              "xref_name": "5' EXONUCLEASE APOLLO",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "3BUA",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5AHO",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7A1F",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7B2X",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7B9B",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3BUA",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5AHO",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7A1F",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7B2X",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7B9B",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF07522",
+              "xref_name": "DRMBL",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA27175",
+              "xref_name": "DNA cross-link repair 1B",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "Q9H816",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-6783310",
+              "xref_name": "Fanconi Anemia Pathway",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "Q9H816",
+              "xref_name": "5' exonuclease Apollo",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9H9E5",
+              "xref_name": "5' exonuclease Apollo",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "random_seed": 20260528,
+  "inputs": [
+    "results_v3/wave15_perturbation_drug_response/ranked_direct_perturbations.tsv",
+    "results_v3/wave15_perturbation_drug_response/gse162464_mouse_rna_selectivity.tsv",
+    "results_v3/wave17_mediator_kinase_route/compound_landscape.tsv",
+    "results_v3/wave17_mediator_kinase_route/route_verdict.json",
+    "results_v3/wave53_perturbation_first_pivot/perturbation_first_audit.tsv"
+  ],
+  "med16_selectivity_score": 2.3051173986620066,
+  "gsk3b_selectivity_score": 0.7779563820432978,
+  "n_selective_genetic_perturbations": 2,
+  "n_local_pharmacologic_cdk8_19_phenocopies": 0,
+  "tier0_call": "alive_but_parked_pending_pharmacologic_phenocopy",
+  "reason": "MED16 and GSK3B support selective CIITA/MHC-II/CD74 suppression, but no local CDK8/CDK19 inhibitor expression dataset demonstrates a comparable human APC pharmacologic phenocopy."
+}

@@ -1,0 +1,609 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15793005",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "23166352",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "15776429",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000305",
+                  "id": "10200294",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Plays a role in endosomal protein trafficking and in targeting proteins for lysosomal degradation (PubMed:23166352). Plays a role in targeting endocytosed EGFR and ERGG3 for lysosomal degradation, and thereby helps down-regulate downstream signaling cascades (PubMed:23166352). Helps recruit the ESCRT complex components TSG101, HGS and STAM to cytoplasmic membranes (PubMed:23166352). Probably plays a role in regulating protein degradation via its interaction with NEDD4 (PubMed:15776429). May also contribute to the regulation of gene expression in the nucleus (PubMed:10200294, PubMed:15793005). Binds DNA (in vitro) and may play a synergistic role with STAT6 in the nucleus in regulating the expression of various cytokines (PubMed:15793005). May regulate the expression of numerous cytokines, such as TNF, CCL2, CCL5, CXCL1, IL1A and IL10 (PubMed:10200294, PubMed:15793005)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "Q9JLJ0",
+                    "source": "UniProtKB"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "11274176",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15793005",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "27582497",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "27927196",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Associated with membranes of lysosomes, early and late endosomes (PubMed:11274176, PubMed:27582497, PubMed:27927196). Can translocate from the cytoplasm into the nucleus (PubMed:15793005). Detected at Schmidt-Lanterman incisures and in nodal regions of myelinating Schwann cells (By similarity)"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15793005",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15793005",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "16954198",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0191",
+                "value": "Nucleus"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "11274176",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "27582497",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0157",
+                "value": "Lysosome membrane"
+              },
+              "orientation": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "11274176",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9910",
+                "value": "Cytoplasmic side"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "11274176",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9903",
+                "value": "Peripheral membrane protein"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "21896645",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "23166352",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "27582497",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0093",
+                "value": "Early endosome membrane"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "27582497",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0151",
+                "value": "Late endosome membrane"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "27927196",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0100",
+                "value": "Endosome membrane"
+              },
+              "orientation": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "27927196",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9910",
+                "value": "Cytoplasmic side"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "27927196",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9903",
+                "value": "Peripheral membrane protein"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "16118794",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "27582497",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "orientation": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "27582497",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9910",
+                "value": "Cytoplasmic side"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "27582497",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9903",
+                "value": "Peripheral membrane protein"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "16118794",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0134",
+                "value": "Golgi apparatus membrane"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000007094D"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "27582497",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "27927196",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 96
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 96
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "27927196",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 99
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 99
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "27582497",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "27927196",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 148
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 148
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "27927196",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 151
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 151
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "LITAF"
+          },
+          "synonyms": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "11274176",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "15197774",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "PIG7"
+            },
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "11274176",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "SIMPLE"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-1003",
+          "name": "Cell membrane"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0144",
+          "name": "Charcot-Marie-Tooth disease"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0963",
+          "name": "Cytoplasm"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0225",
+          "name": "Disease variant"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0238",
+          "name": "DNA-binding"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0967",
+          "name": "Endosome"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0333",
+          "name": "Golgi apparatus"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0458",
+          "name": "Lysosome"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0479",
+          "name": "Metal-binding"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0523",
+          "name": "Neurodegeneration"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0622",
+          "name": "Neuropathy"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0539",
+          "name": "Nucleus"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0804",
+          "name": "Transcription"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0805",
+          "name": "Transcription regulation"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0862",
+          "name": "Zinc"
+        }
+      ],
+      "primaryAccession": "Q99732",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "11274176",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Small integral membrane protein of lysosome/late endosome"
+            }
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "11274176",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "p53-induced gene 7 protein"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "id": "10200294",
+                "source": "PubMed"
+              }
+            ],
+            "value": "Lipopolysaccharide-induced tumor necrosis factor-alpha factor"
+          },
+          "shortNames": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "10200294",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "LPS-induced TNF-alpha factor"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "08D15BF1FDCA16F0",
+        "length": 161,
+        "md5": "81A1AF29718BF54DE61FDEE58F22DA5F",
+        "molWeight": 17107,
+        "value": "MSVPGPYQAATGPSSAPSAPPSYEETVAVNSYYPTPPAPMPGPTTGLVTGPDGKGMNPPSYYTQPAPIPNNNPITVQTVYVQHPITFLDRPIQMCCPSCNKMIVSQLSYNAGALTWLSCGSLCLLGCIAGCCFIPFCVDALQDVDHYCPNCRALLGTYKRL"
+      },
+      "uniProtkbId": "LITAF_HUMAN"
+    }
+  ]
+}

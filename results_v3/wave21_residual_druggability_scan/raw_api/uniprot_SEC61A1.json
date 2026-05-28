@@ -1,0 +1,161 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ASEC61A1%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P61620",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "12475939",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22375059",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "28782633",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "29719251",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "32814900",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "32820719",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "36261522",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "8616892",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Component of SEC61 channel-forming translocon complex that mediates transport of signal peptide-containing precursor polypeptides across the endoplasmic reticulum (ER) (PubMed:12475939, PubMed:22375059, PubMed:28782633, PubMed:29719251, PubMed:32814900). Forms a ribosome receptor and a gated pore in the ER membrane, both functions required for cotranslational translocation of nascent polypeptides (PubMed:22375059, PubMed:28782633, PubMed:29719251). May cooperate with auxiliary protein SEC62, SEC63 and HSPA5/BiP to enable post-translational transport of small presecretory proteins (PubMed:22375059, PubMed:29719251). The SEC61 channel is also involved in ER membrane insertion of transmembrane proteins: it mediates membrane insertion of the first few transmembrane segments of proteins, while insertion of subsequent transmembrane regions of multi-pass membrane proteins is mediated by the multi-pass translocon (MPT) complex (PubMed:32820719, PubMed:36261522). The SEC61 channel cooperates with the translocating protein TRAM1 to import nascent proteins into the ER (PubMed:8616892). Controls the passive efflux of calcium ions from the ER lumen to the cytosol through SEC61 channel, contributing to the maintenance of cellular calcium homeostasis (PubMed:28782633). Plays a critical role in nephrogenesis, specifically at pronephros stage (By similarity)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "27392076",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Localizes exclusively in granular structures in the endoplasmic reticulum (ER)"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "12475939",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "27392076",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "32325141",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "32814900",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "36261522",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "8616892",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0097",
+                "value": "Endoplasmic reticulum membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-9909",
+                "value": "Multi-pass membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00000041A9"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "SEC61A1"
+          },
+          "synonyms": [
+            {
+              "value": "SEC61A"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P61619",
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "value": "Protein transport protein Sec61 subunit alpha isoform 1"
+          },
+          "shortNames": [
+            {
+              "value": "Sec61 alpha-1"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

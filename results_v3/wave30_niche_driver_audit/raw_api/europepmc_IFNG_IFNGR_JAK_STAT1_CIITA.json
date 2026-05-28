@@ -1,0 +1,59 @@
+{
+  "hitCount": 28324,
+  "nextCursorMark": "AoIIQYICFCg1NDQ4OTQwOA==",
+  "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(IFNGR1 OR IFNGR2 OR JAK1 OR JAK2) AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR Sjogren OR \"type 1 diabetes\" OR celiac OR \"autoimmune thyroid\" OR autoimmune)&cursorMark=AoIIQYICFCg1NDQ4OTQwOA==&resultType=lite&pageSize=1&format=json",
+  "request": {
+    "cursorMark": "*",
+    "pageSize": 1,
+    "queryString": "(IFNGR1 OR IFNGR2 OR JAK1 OR JAK2) AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR Sjogren OR \"type 1 diabetes\" OR celiac OR \"autoimmune thyroid\" OR autoimmune)",
+    "resultType": "lite",
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "authorString": "Jiang X, Li S, Zhang S, Li J, Liu D, Zhao H.",
+        "citedByCount": 0,
+        "doi": "10.1186/s12967-025-07422-1",
+        "firstIndexDate": "2025-12-21",
+        "firstPublicationDate": "2025-12-19",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12777313"
+          ]
+        },
+        "hasBook": "N",
+        "hasDbCrossReferences": "N",
+        "hasLabsLinks": "N",
+        "hasPDF": "Y",
+        "hasReferences": "Y",
+        "hasSuppl": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "hasTextMinedTerms": "Y",
+        "id": "41419940",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "isOpenAccess": "Y",
+        "issue": "1",
+        "journalIssn": "1479-5876",
+        "journalTitle": "J Transl Med",
+        "journalVolume": "24",
+        "pageInfo": "28",
+        "pmcid": "PMC12777313",
+        "pmid": "41419940",
+        "pubType": "research-article; journal article",
+        "pubYear": "2025",
+        "source": "MED",
+        "title": "Genetic pleiotropy underlying obesity and autoimmune disorders: a large-scale cross-trait gwas analysis in European ancestry populations.",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gwas",
+            "refsnp"
+          ]
+        }
+      }
+    ]
+  },
+  "version": "6.9"
+}

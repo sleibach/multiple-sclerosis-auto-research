@@ -1,0 +1,1817 @@
+{
+  "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxtZPSl3fUTkA",
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D020278",
+              "term": "Demyelinating Autoimmune Diseases, CNS"
+            },
+            {
+              "id": "D020274",
+              "term": "Autoimmune Diseases of the Nervous System"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D003711",
+              "term": "Demyelinating Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D009103",
+              "term": "Multiple Sclerosis"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D019411",
+              "term": "Clinical Laboratory Techniques"
+            },
+            {
+              "id": "D019937",
+              "term": "Diagnostic Techniques and Procedures"
+            },
+            {
+              "id": "D003933",
+              "term": "Diagnosis"
+            },
+            {
+              "id": "D008919",
+              "term": "Investigative Techniques"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D006403",
+              "term": "Hematologic Tests"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "documentSection": {
+        "largeDocumentModule": {
+          "largeDocs": [
+            {
+              "date": "2021-04-21",
+              "filename": "Prot_SAP_001.pdf",
+              "hasIcf": false,
+              "hasProtocol": true,
+              "hasSap": true,
+              "label": "Study Protocol and Statistical Analysis Plan",
+              "size": 327600,
+              "typeAbbrev": "Prot_SAP",
+              "uploadDate": "2021-08-03T12:24"
+            }
+          ]
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "First degree relatives fulfilling lesions disseminated in space on MRI",
+              "interventionNames": [
+                "Diagnostic Test: Brain MRI"
+              ],
+              "label": "FDR with abnormal brain MRI"
+            },
+            {
+              "description": "First degree relatives not fulfilling lesions disseminated in space on MRI",
+              "interventionNames": [
+                "Diagnostic Test: Brain MRI"
+              ],
+              "label": "FDR with normal brain MRI"
+            },
+            {
+              "description": "Age and sex-matched controls to FDRs noted above",
+              "label": "Non-FDR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "FDR with abnormal brain MRI",
+                "FDR with normal brain MRI"
+              ],
+              "description": "Perform brain MRI; draw blood; fill out bioscreen questionnaire; perform SDMT",
+              "name": "Brain MRI",
+              "otherNames": [
+                "Blood analysis",
+                "Bioscreen",
+                "Symbol Digit Modality Test (SDMT)"
+              ],
+              "type": "DIAGNOSTIC_TEST"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Multiple Sclerosis",
+            "Magnetic Resonance Imaging",
+            "Biomarkers",
+            "Clinically Isolated Syndrome",
+            "Radiologically Isolated Syndrome"
+          ],
+          "keywords": [
+            "First degree relative"
+          ]
+        },
+        "contactsLocationsModule": {
+          "centralContacts": [
+            {
+              "email": "john.corboy@ucdenver.edu",
+              "name": "John R Corboy, MD",
+              "phone": "303-724-2187",
+              "phoneExt": "42196",
+              "role": "CONTACT"
+            },
+            {
+              "email": "sydney.lipton@cuanschutz.edu",
+              "name": "Sydney Lipton, BA",
+              "role": "CONTACT"
+            }
+          ],
+          "locations": [
+            {
+              "city": "Aurora",
+              "contacts": [
+                {
+                  "email": "john.corboy@ucdenver.edu",
+                  "name": "John Corboy, MD",
+                  "phone": "303-724-2187",
+                  "role": "CONTACT"
+                },
+                {
+                  "name": "John Corboy, MD",
+                  "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                  "name": "Jill Norris, PhD",
+                  "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                  "name": "Enrique Alvarez, MD, PhD",
+                  "role": "PRINCIPAL_INVESTIGATOR"
+                }
+              ],
+              "country": "United States",
+              "facility": "University of Colorado Anschutz Medical Campus",
+              "geoPoint": {
+                "lat": 39.72943,
+                "lon": -104.83192
+              },
+              "state": "Colorado",
+              "status": "RECRUITING",
+              "zip": "80045"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "University of Colorado, Denver",
+              "name": "John R Corboy, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The central hypothesis of this protocol is that it is possible, using First Degree Relatives (FDRs) of patients with Multiple Sclerosis (MS) and assessing a variety of both known and unknown risk factors for MS, to define a risk algorithm for earliest signs of development of MS. The plan will be to do an abbreviated brain Magnetic Resonance Imaging (MRI) scan in asymptomatic, young FDRs, analyze blood for a variety of immunological, genetic, neuroaxonal damage, metabolic, viral serology and other markers, and have FDRs fill out a detailed bioscreen questionnaire about lifestyle factors and perform a cognitive screening test. The investigators will then compare the results of the various blood/other studies in FDRs with and without an MRI showing signs signs concerning for MS, as well as age-and sex-matched NON-FDRs who will have blood drawn and fill out the questionnaire. With this preliminary cross-sectional study, the investigators hope to begin to identify a risk stratification model for those at highest risk of developing MS, ie FDRs, with a long-term goal of developing a longitudinal study to increase sensitivity and specificity of the risk model.",
+          "detailedDescription": "Specific Aims, among asymptomatic first degree relatives (FDRs), aged 18-30, of multiple sclerosis (MS) patients:\n\n1. Determine the prevalence of brain MRI lesions disseminated in space (DIS), consistent with MS\n2. Gather data on potential risk factors or early signs related to MS development, including markers for: genes, immunological function, environmental factors, neuroaxonal damage, Vitamin D levels, lipid metabolism, activity levels, mood abnormalities, and cognitive function. From this, develop a risk factor score, incorporating all relevant potential markers of increased risk of DIS.\n3. To use this pilot, cross-sectional study as a base for development of a long-term, longitudinal, multi-center study to determine genetic and environmental risks for pre-symptomatic MS\n4. To create and maintain a biobank of specimens for future analysis as other potential biomarkers become available.\n5. Evaluate for potential dissemination in time (DIT) and dissemination in space (DIS) in asymptomatic FDRs through longitudinal assessment.\n\nSequences to include\n\n1. Whole brain T1-weighted images acquired using 3-Dimensional fast spoiled-gradient recalled acquisitions (T1-3D-FSPGR) with 1 mm slice thickness and isotropic voxel dimensions.\n2. Whole brain 3-Dimensional Double Inversion Recovery (DIR) acquisition with 1.5 mm slice thickness.\n3. Whole brain T2-weighted Fluid Attenuated Inversion Recovery (FLAIR ) images with 1 mm slice thickness and isotropic voxel dimensions will be combined with\n4. Whole brain T2\\*-weighted segmented echo-planar imaging (segEPI) images with \\<=1 mm slice thickness and isotropic voxel dimensions to obtain FLAIR\\* images.\n\nBlood analysis for:\n\n1. Single Nucleotide Polymorphism analysis of greater than 200 known mutations associated with risk of MS, and do an human leukocyte antigen (HLA) analysis\n2. CD20 on CD4+ cell analysis\n3. B Cell Anergy analysis Lipid levels\n4. Viral serologies (HSV, EBV, CMV, VZV)\n5. Neurofilament Light\n6. Vitamin D levels\n\nBioscreen analysis based on that from the Diabetes Autoimmunity Study in the Young (DAISY); and to include the Godin Leisure-Time Exercise Questionnaire (GLTEQ), which has been validated in both adults and children and a validated dietary/food frequency questionnaire. In addition perform a cognitive screen with a Symbol Digit Modality test.\n\nBlood will also be stored for future potential analysis, including peripheral blood mononuclear cells, serum, and Ribonucleic acid (RNA)."
+        },
+        "designModule": {
+          "bioSpec": {
+            "description": "Blood drawn for SNP, HLA typing, and possible RNA analysis",
+            "retention": "SAMPLES_WITH_DNA"
+          },
+          "designInfo": {
+            "observationalModel": "CASE_CONTROL",
+            "timePerspective": "PROSPECTIVE"
+          },
+          "enrollmentInfo": {
+            "count": 300,
+            "type": "ESTIMATED"
+          },
+          "patientRegistry": false,
+          "studyType": "OBSERVATIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* FDR Inclusion Criteria\n\n  1. Male and female\n  2. All races and ethnicities\n  3. Ages 18-30\n  4. Must have a parent, sibling or child with MS fulfilling McDonald 2017 criteria\n  5. No symptoms suggestive of MS on formal screen\n  6. Ability to undergo a non-contrast MRI and venipuncture, and perform an environmental screen, mood screen and cognitive test\n* Non-FDR Inclusion Criteria\n\n  1. Male and female\n  2. All races and ethnicities\n  3. Ages 18-30\n  4. Must NOT have a FDR (parent, sibling, child) or second degree relative (grandparent, aunt or uncle) with MS fulfilling McDonald 2017 criteria\n  5. No symptoms suggestive of MS on formal screen\n  6. Ability to undergo venipuncture and perform an environmental screen.\n\nExclusion Criteria:\n\n* FDR Exclusion Criteria\n\n  1. Symptoms suggestive of MS on formal screen\n  2. Prior diagnosis of autoimmune disease that may be associated with CNS dysfunction and MRI lesions, e.g. Sjogren's\n* Non-FDR Exclusion Criteria\n\n  1. Symptoms suggestive of MS on formal screen\n  2. Prior diagnosis of autoimmune disease that may be associated with CNS dysfunction and MRI lesions, e.g. Sjogren's",
+          "maximumAge": "30 Years",
+          "minimumAge": "18 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT"
+          ],
+          "studyPopulation": "The population will be a total of 300 women and men, of all races and ethnicities, between the ages of 18-30, inclusive, who have no symptoms of MS, but have at least one FDR with documented MS fulfilling McDonald 2017 criteria. FDRs with one or more siblings/parents with MS will be included, and more than one FDR of a proband MS patient will be allowed. A control group of age- and sex-matched controls who have no known family members with MS (out to first cousins and grandparents) will have blood drawn and fill out the environmental questionnaire, but will not undergo a brain/spine MRI. The controls will be matched 1:1:1 for those FDRs with positive MRI scans suggesting pre-symptomatic MS and those age-and sex-matched FDRs who do NOT have positive MRI scans suggesting pre-symptomatic MS."
+        },
+        "identificationModule": {
+          "acronym": "RISEMS",
+          "briefTitle": "Risk Factors in Early Multiple Sclerosis",
+          "nctId": "NCT03586986",
+          "officialTitle": "Risk Factors in Early Multiple Sclerosis",
+          "orgStudyIdInfo": {
+            "id": "17-1884"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "University of Colorado, Denver"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Lesions disseminated in space on brain MRI. The presence or absence of these lesions will only be measured once at the initial visit.",
+              "measure": "Discovery of Lesions disseminated in space on brain MRI",
+              "timeFrame": "At the subject's Initial Visit"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "The investigators will measure the prevalence of specific genetic markers including, single nucleotide polymorphism analysis of more than 200 known mutations and analysis of HLA-DRB1 variants, with the goal of defining an expanded risk stratification scheme.",
+              "measure": "Define risk stratification algorithm for prediction of MS",
+              "timeFrame": "Within 4 months of the Initial Visit"
+            },
+            {
+              "description": "The investigators will measure the prevalence of immunological markers including, CD4, CD8, CD40, CD19 and CD20 with the goal of defining an expanded risk stratification scheme.",
+              "measure": "Define risk stratification algorithm for prediction of MS",
+              "timeFrame": "Within 4 months of the Initial Visit"
+            },
+            {
+              "description": "The investigators will measure the prevalence of vitamin D deficiencies, with the goal of defining an expanded risk stratification scheme.",
+              "measure": "Define risk stratification algorithm for prediction of MS",
+              "timeFrame": "Within 4 months of the Initial Visit"
+            },
+            {
+              "description": "The investigators will measure the prevalence of lipid markers including, total cholesterol, high and low density lipoproteins, and triglycerides, with the goal of defining an expanded risk stratification scheme.",
+              "measure": "Define risk stratification algorithm for prediction of MS",
+              "timeFrame": "Within 4 months of the Initial Visit"
+            },
+            {
+              "description": "The investigators will measure the presence of the viral infection Epstein-Barr virus, with the goal of defining an expanded risk stratification scheme.",
+              "measure": "Define risk stratification algorithm for prediction of MS",
+              "timeFrame": "Within 4 months of the Initial Visit"
+            },
+            {
+              "description": "The investigators will measure the presence of the viral infection Cytomegalovirus, with the goal of defining an expanded risk stratification scheme.",
+              "measure": "Define risk stratification algorithm for prediction of MS",
+              "timeFrame": "Within 4 months of the Initial Visit"
+            },
+            {
+              "description": "The investigators will measure the presence of the viral infection Herpes Simplex I, with the goal of defining an expanded risk stratification scheme.",
+              "measure": "Define risk stratification algorithm for prediction of MS",
+              "timeFrame": "Within 4 months of the Initial Visit"
+            },
+            {
+              "description": "The investigators will measure the presence of the viral infection Herpes Simplex II, with the goal of defining an expanded risk stratification scheme.",
+              "measure": "Define risk stratification algorithm for prediction of MS",
+              "timeFrame": "Within 4 months of the Initial Visit"
+            },
+            {
+              "description": "The investigators will measure the presence of the viral infection Varicella zoster virus, with the goal of defining an expanded risk stratification scheme.",
+              "measure": "Define risk stratification algorithm for prediction of MS",
+              "timeFrame": "Within 4 months of the Initial Visit"
+            },
+            {
+              "description": "The investigators will measure the prevalence of CNS damage marker Neurofillament light, with the goal of defining an expanded risk stratification scheme.",
+              "measure": "Define risk stratification algorithm for prediction of MS",
+              "timeFrame": "Within 4 months of the Initial Visit"
+            },
+            {
+              "description": "The investigators will measure activity level, using the Godin Leisure-time Exercise questionnaire, with the goal of defining an expanded risk stratification scheme. Weekly frequencies of strenuous, moderate, and light activities (i.e. number of times per week an individual performs these activities) are multiplied by nine, five, and three, respectively. Total weekly leisure activity is calculated in arbitrary units by summing the products of the separate components, as shown in the following formula: Weekly leisure activity score = (9 \u00d7 Strenuous) + (5 \u00d7 Moderate) + (3 \u00d7 Light). As there is no limit for the number of times a participant can perform an exercise per week, the maximum score is boundless. While, a sedentary individual may exhibit the minimum score of 0.",
+              "measure": "Define risk stratification algorithm for prediction of MS",
+              "timeFrame": "Within 4 months of the Initial Visit"
+            },
+            {
+              "description": "The investigators will evaluate cognitive functions using the Perceived Stress Scale, with the goal of defining an expanded risk stratification scheme. This will be used to evaluate stress domains. Individual scores on the Perceived Stress Scale can range from 0 to 40 with higher scores indicating higher perceived stress. Scores ranging from 0-13 would be considered low stress. Scores ranging from 14-26 would be considered moderate stress. Scores ranging from 27-40 would be considered high perceived stress.",
+              "measure": "Define risk stratification algorithm for prediction of MS",
+              "timeFrame": "Within 4 months of the Initial Visit"
+            },
+            {
+              "description": "The investigators will evaluate cognitive functions using University of Colorado's NeuroQol Depression Scale, with the goal of defining an expanded risk stratification scheme. This assessment will be used to evaluate depression domains. The minimum raw score is 8, which represents better (desirable) self-reported health, and the maximum score is 40, which represents worse (undesirable) self-reported health. These raw scores will be converted to T-scores, with 36.9 being the minimum and 75.0 being the maximum T-score.",
+              "measure": "Define risk stratification algorithm for prediction of MS",
+              "timeFrame": "Within 4 months of the Initial Visit"
+            },
+            {
+              "description": "The investigators will evaluate cognitive functions using University of Colorado's NeuroQol Anxiety Scale, with the goal of defining an expanded risk stratification scheme. This assessment will be used to measure anxiety domains, with the highest raw score of 40 representing worse (undesirable) self-reported anxiety, and a raw score of 8 representing better (desirable) self-reported anxiety. These raw scores will be converted to T-scores, with 36.4 being the minimum and 76.8 being the maximum T-score.",
+              "measure": "Define risk stratification algorithm for prediction of MS",
+              "timeFrame": "Within 4 months of the Initial Visit"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": false
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Bar-Or A. Multiple sclerosis and related disorders: evolving pathophysiologic insights. Lancet Neurol. 2016 Jan;15(1):9-11. doi: 10.1016/S1474-4422(15)00342-7. Epub 2015 Dec 8. No abstract available.",
+              "pmid": "26700897",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Solomon AJ, Corboy JR. The tension between early diagnosis and misdiagnosis of multiple sclerosis. Nat Rev Neurol. 2017 Sep;13(9):567-572. doi: 10.1038/nrneurol.2017.106. Epub 2017 Aug 11. No abstract available.",
+              "pmid": "28799551",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Signori A, Schiavetti I, Gallo F, Sormani MP. Subgroups of multiple sclerosis patients with larger treatment benefits: a meta-analysis of randomized trials. Eur J Neurol. 2015 Jun;22(6):960-6. doi: 10.1111/ene.12690. Epub 2015 Mar 19.",
+              "pmid": "25786797",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Kappos L, Freedman MS, Polman CH, Edan G, Hartung HP, Miller DH, Montalban X, Barkhof F, Radu EW, Metzig C, Bauer L, Lanius V, Sandbrink R, Pohl C; BENEFIT Study Group. Long-term effect of early treatment with interferon beta-1b after a first clinical event suggestive of multiple sclerosis: 5-year active treatment extension of the phase 3 BENEFIT trial. Lancet Neurol. 2009 Nov;8(11):987-97. doi: 10.1016/S1474-4422(09)70237-6. Epub 2009 Sep 10.",
+              "pmid": "19748319",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Kavaliunas A, Manouchehrinia A, Stawiarz L, Ramanujam R, Agholme J, Hedstrom AK, Beiki O, Glaser A, Hillert J. Importance of early treatment initiation in the clinical course of multiple sclerosis. Mult Scler. 2017 Aug;23(9):1233-1240. doi: 10.1177/1352458516675039. Epub 2016 Oct 17.",
+              "pmid": "27754943",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Giovannoni G. The neurodegenerative prodrome in multiple sclerosis. Lancet Neurol. 2017 Jun;16(6):413-414. doi: 10.1016/S1474-4422(17)30127-8. No abstract available.",
+              "pmid": "28504102",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Okuda DT, Mowry EM, Beheshtian A, Waubant E, Baranzini SE, Goodin DS, Hauser SL, Pelletier D. Incidental MRI anomalies suggestive of multiple sclerosis: the radiologically isolated syndrome. Neurology. 2009 Mar 3;72(9):800-5. doi: 10.1212/01.wnl.0000335764.14513.1a. Epub 2008 Dec 10.",
+              "pmid": "19073949",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Okuda DT, Siva A, Kantarci O, Inglese M, Katz I, Tutuncu M, Keegan BM, Donlon S, Hua le H, Vidal-Jordana A, Montalban X, Rovira A, Tintore M, Amato MP, Brochet B, de Seze J, Brassat D, Vermersch P, De Stefano N, Sormani MP, Pelletier D, Lebrun C; Radiologically Isolated Syndrome Consortium (RISC); Club Francophone de la Sclerose en Plaques (CFSEP). Radiologically isolated syndrome: 5-year risk for an initial clinical event. PLoS One. 2014 Mar 5;9(3):e90509. doi: 10.1371/journal.pone.0090509. eCollection 2014.",
+              "pmid": "24598783",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Rojas JI, Patrucco L, Miguez J, Besada C, Cristiano E. Brain atrophy in radiologically isolated syndromes. J Neuroimaging. 2015 Jan-Feb;25(1):68-71. doi: 10.1111/jon.12182. Epub 2014 Oct 13.",
+              "pmid": "25307993",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Disanto G, Barro C, Benkert P, Naegelin Y, Schadelin S, Giardiello A, Zecca C, Blennow K, Zetterberg H, Leppert D, Kappos L, Gobbi C, Kuhle J; Swiss Multiple Sclerosis Cohort Study Group. Serum Neurofilament light: A biomarker of neuronal damage in multiple sclerosis. Ann Neurol. 2017 Jun;81(6):857-870. doi: 10.1002/ana.24954.",
+              "pmid": "28512753",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Weinstock-Guttman B, Zivadinov R, Mahfooz N, Carl E, Drake A, Schneider J, Teter B, Hussein S, Mehta B, Weiskopf M, Durfee J, Bergsland N, Ramanathan M. Serum lipid profiles are associated with disability and MRI outcomes in multiple sclerosis. J Neuroinflammation. 2011 Oct 4;8:127. doi: 10.1186/1742-2094-8-127.",
+              "pmid": "21970791",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Munger KL, Levin LI, Hollis BW, Howard NS, Ascherio A. Serum 25-hydroxyvitamin D levels and risk of multiple sclerosis. JAMA. 2006 Dec 20;296(23):2832-8. doi: 10.1001/jama.296.23.2832.",
+              "pmid": "17179460",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Salzer J, Hallmans G, Nystrom M, Stenlund H, Wadell G, Sundstrom P. Smoking as a risk factor for multiple sclerosis. Mult Scler. 2013 Jul;19(8):1022-7. doi: 10.1177/1352458512470862. Epub 2012 Dec 20.",
+              "pmid": "23257617",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "De Stefano N, Cocco E, Lai M, Battaglini M, Spissu A, Marchi P, Floris G, Mortilla M, Stromillo ML, Paolillo A, Federico A, Marrosu MG. Imaging brain damage in first-degree relatives of sporadic and familial multiple sclerosis. Ann Neurol. 2006 Apr;59(4):634-9. doi: 10.1002/ana.20767.",
+              "pmid": "16498621",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Gabelic T, Ramasamy DP, Weinstock-Guttman B, Hagemeier J, Kennedy C, Melia R, Hojnacki D, Ramanathan M, Zivadinov R. Prevalence of radiologically isolated syndrome and white matter signal abnormalities in healthy relatives of patients with multiple sclerosis. AJNR Am J Neuroradiol. 2014 Jan;35(1):106-12. doi: 10.3174/ajnr.A3653. Epub 2013 Jul 25.",
+              "pmid": "23886745",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Swanton JK, Fernando K, Dalton CM, Miszkiel KA, Thompson AJ, Plant GT, Miller DH. Modification of MRI criteria for multiple sclerosis in patients with clinically isolated syndromes. J Neurol Neurosurg Psychiatry. 2006 Jul;77(7):830-3. doi: 10.1136/jnnp.2005.073247. Epub 2005 Jul 25.",
+              "pmid": "16043456",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Sati P, Oh J, Constable RT, Evangelou N, Guttmann CR, Henry RG, Klawiter EC, Mainero C, Massacesi L, McFarland H, Nelson F, Ontaneda D, Rauscher A, Rooney WD, Samaraweera AP, Shinohara RT, Sobel RA, Solomon AJ, Treaba CA, Wuerfel J, Zivadinov R, Sicotte NL, Pelletier D, Reich DS; NAIMS Cooperative. The central vein sign and its clinical evaluation for the diagnosis of multiple sclerosis: a consensus statement from the North American Imaging in Multiple Sclerosis Cooperative. Nat Rev Neurol. 2016 Dec;12(12):714-722. doi: 10.1038/nrneurol.2016.166. Epub 2016 Nov 11.",
+              "pmid": "27834394",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Solomon AJ, Schindler MK, Howard DB, Watts R, Sati P, Nickerson JP, Reich DS. \"Central vessel sign\" on 3T FLAIR* MRI for the differentiation of multiple sclerosis from migraine. Ann Clin Transl Neurol. 2015 Dec 16;3(2):82-7. doi: 10.1002/acn3.273. eCollection 2016 Feb.",
+              "pmid": "26900578",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "International Multiple Sclerosis Genetics Consortium (IMSGC); Beecham AH, Patsopoulos NA, Xifara DK, Davis MF, Kemppinen A, Cotsapas C, Shah TS, Spencer C, Booth D, Goris A, Oturai A, Saarela J, Fontaine B, Hemmer B, Martin C, Zipp F, D'Alfonso S, Martinelli-Boneschi F, Taylor B, Harbo HF, Kockum I, Hillert J, Olsson T, Ban M, Oksenberg JR, Hintzen R, Barcellos LF; Wellcome Trust Case Control Consortium 2 (WTCCC2); International IBD Genetics Consortium (IIBDGC); Agliardi C, Alfredsson L, Alizadeh M, Anderson C, Andrews R, Sondergaard HB, Baker A, Band G, Baranzini SE, Barizzone N, Barrett J, Bellenguez C, Bergamaschi L, Bernardinelli L, Berthele A, Biberacher V, Binder TM, Blackburn H, Bomfim IL, Brambilla P, Broadley S, Brochet B, Brundin L, Buck D, Butzkueven H, Caillier SJ, Camu W, Carpentier W, Cavalla P, Celius EG, Coman I, Comi G, Corrado L, Cosemans L, Cournu-Rebeix I, Cree BA, Cusi D, Damotte V, Defer G, Delgado SR, Deloukas P, di Sapio A, Dilthey AT, Donnelly P, Dubois B, Duddy M, Edkins S, Elovaara I, Esposito F, Evangelou N, Fiddes B, Field J, Franke A, Freeman C, Frohlich IY, Galimberti D, Gieger C, Gourraud PA, Graetz C, Graham A, Grummel V, Guaschino C, Hadjixenofontos A, Hakonarson H, Halfpenny C, Hall G, Hall P, Hamsten A, Harley J, Harrower T, Hawkins C, Hellenthal G, Hillier C, Hobart J, Hoshi M, Hunt SE, Jagodic M, Jelcic I, Jochim A, Kendall B, Kermode A, Kilpatrick T, Koivisto K, Konidari I, Korn T, Kronsbein H, Langford C, Larsson M, Lathrop M, Lebrun-Frenay C, Lechner-Scott J, Lee MH, Leone MA, Leppa V, Liberatore G, Lie BA, Lill CM, Linden M, Link J, Luessi F, Lycke J, Macciardi F, Mannisto S, Manrique CP, Martin R, Martinelli V, Mason D, Mazibrada G, McCabe C, Mero IL, Mescheriakova J, Moutsianas L, Myhr KM, Nagels G, Nicholas R, Nilsson P, Piehl F, Pirinen M, Price SE, Quach H, Reunanen M, Robberecht W, Robertson NP, Rodegher M, Rog D, Salvetti M, Schnetz-Boutaud NC, Sellebjerg F, Selter RC, Schaefer C, Shaunak S, Shen L, Shields S, Siffrin V, Slee M, Sorensen PS, Sorosina M, Sospedra M, Spurkland A, Strange A, Sundqvist E, Thijs V, Thorpe J, Ticca A, Tienari P, van Duijn C, Visser EM, Vucic S, Westerlind H, Wiley JS, Wilkins A, Wilson JF, Winkelmann J, Zajicek J, Zindler E, Haines JL, Pericak-Vance MA, Ivinson AJ, Stewart G, Hafler D, Hauser SL, Compston A, McVean G, De Jager P, Sawcer SJ, McCauley JL. Analysis of immune-related loci identifies 48 new susceptibility variants for multiple sclerosis. Nat Genet. 2013 Nov;45(11):1353-60. doi: 10.1038/ng.2770. Epub 2013 Sep 29.",
+              "pmid": "24076602",
+              "type": "BACKGROUND"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "OTHER",
+              "name": "Colorado School of Public Health"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "University of Colorado, Denver"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2024-05",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastKnownStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2023-02-06",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2023-02-02",
+          "overallStatus": "UNKNOWN",
+          "primaryCompletionDateStruct": {
+            "date": "2024-05",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2018-07-26",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2023-02",
+          "studyFirstPostDateStruct": {
+            "date": "2018-07-16",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2018-05-15",
+          "studyFirstSubmitQcDate": "2018-07-12"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D012872",
+              "term": "Skin Diseases, Vesiculobullous"
+            },
+            {
+              "id": "D012871",
+              "term": "Skin Diseases"
+            },
+            {
+              "id": "D017437",
+              "term": "Skin and Connective Tissue Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            },
+            {
+              "id": "D013280",
+              "term": "Stomatitis"
+            },
+            {
+              "id": "D009059",
+              "term": "Mouth Diseases"
+            },
+            {
+              "id": "D009057",
+              "term": "Stomatognathic Diseases"
+            },
+            {
+              "id": "D003875",
+              "term": "Drug Eruptions"
+            },
+            {
+              "id": "D003872",
+              "term": "Dermatitis"
+            },
+            {
+              "id": "D004892",
+              "term": "Erythema Multiforme"
+            },
+            {
+              "id": "D004890",
+              "term": "Erythema"
+            },
+            {
+              "id": "D006968",
+              "term": "Hypersensitivity, Delayed"
+            },
+            {
+              "id": "D006967",
+              "term": "Hypersensitivity"
+            },
+            {
+              "id": "D004342",
+              "term": "Drug Hypersensitivity"
+            },
+            {
+              "id": "D064420",
+              "term": "Drug-Related Side Effects and Adverse Reactions"
+            },
+            {
+              "id": "D064419",
+              "term": "Chemically-Induced Disorders"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D010392",
+              "term": "Pemphigus"
+            },
+            {
+              "id": "D010391",
+              "term": "Pemphigoid, Bullous"
+            },
+            {
+              "id": "D013262",
+              "term": "Stevens-Johnson Syndrome"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D007159",
+              "term": "Immunologic Tests"
+            },
+            {
+              "id": "D019411",
+              "term": "Clinical Laboratory Techniques"
+            },
+            {
+              "id": "D019937",
+              "term": "Diagnostic Techniques and Procedures"
+            },
+            {
+              "id": "D003933",
+              "term": "Diagnosis"
+            },
+            {
+              "id": "D008919",
+              "term": "Investigative Techniques"
+            },
+            {
+              "id": "D007158",
+              "term": "Immunologic Techniques"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D006650",
+              "term": "Histocompatibility Testing"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "interventionNames": [
+                "Genetic: A single blood sample for HLA typing"
+              ],
+              "label": "Patients with pemphigus"
+            },
+            {
+              "interventionNames": [
+                "Genetic: A single blood sample for HLA typing"
+              ],
+              "label": "Healthy controls"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Healthy controls",
+                "Patients with pemphigus"
+              ],
+              "description": "Extracting of DNA from the blood sample using PCR-reaction",
+              "name": "A single blood sample for HLA typing",
+              "type": "GENETIC"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Pemphigus",
+            "Bullous Pemphigoid",
+            "Stevens-Johnson Syndrome",
+            "Toxic Epidermal Necrolyses"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Moscow",
+              "contacts": [
+                {
+                  "email": "anfisa.lepehova@yandex.ru",
+                  "name": "Anfisa Lepekhova, PhD",
+                  "phone": "+79035433074",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "Russia",
+              "facility": "Sechenov University",
+              "geoPoint": {
+                "lat": 55.75204,
+                "lon": 37.61781
+              },
+              "status": "RECRUITING",
+              "zip": "119991"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Pemphigus is a rare autoimmune life-threatening blistering condition affecting skin and mucous membranes. Pemphigus belongs to a family of polygenic disorders. Several different genes encoding molecules regulate pemphigus autoimmunity. Many trials focused on HLA investigation. Increased levels of certain HLA class II alleles frequencies in pemphigus have been reported in various populations. However, they were not investigated in the Russian population.\n\nThe aim of our study is to investigate HLA class II alleles and haplotypes in Russian patients with pemphigus.\n\nMethods\n\nPatients and controls\n\nWe are recruiting 120 patients with pemphigus. The diagnosis was based on clinical and histopathological findings and confirmed by immunofluorescent techniques (direct and indirect immunofluorescent tests). Before sampling, written consent was obtained from each subject. A single blood sample for HLA typing was obtained from all subjects. This study has been approved by the Ethics Committee of Sechenov University, Russia. Phenotypic and allelic frequencies were compared with healthy blood donors (n=100) registered in Sechenov University blood center."
+        },
+        "designModule": {
+          "designInfo": {
+            "observationalModel": "CASE_CONTROL",
+            "timePerspective": "RETROSPECTIVE"
+          },
+          "enrollmentInfo": {
+            "count": 120,
+            "type": "ESTIMATED"
+          },
+          "patientRegistry": false,
+          "studyType": "OBSERVATIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Signed informed consent\n* Age of patients \\>18 years\n* Confirmed diagnosis\n\nExclusion Criteria:\n\n* No as pemphigus is a life-threatening condition",
+          "healthyVolunteers": true,
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "120 patients with confirmed diagnosis of pemphigus will be enrolled in the study Age \\>18 years Sex: both females and males\n\n100 healthy controls"
+        },
+        "identificationModule": {
+          "briefTitle": "Human Leukocyte Antigen Class II (DRB1 and DQB1) Alleles and Haplotypes Frequencies in Patients With Pemphigus Vulgaris Among the Russian Population",
+          "nctId": "NCT05284929",
+          "officialTitle": "Increased Frequencies of Certain HLA Class II Alleles DRB1 and DQB1 in PV Patients Compared to Those in Healthy Donors Have Been Reported in Various Populations and Repeatedly Confirmed. Among the Russian Population, no Studies About the Association of PV and HLA Class II Genes Have Been Conducted. Thus, the Purpose of This Study Was to Investigate HLA Class II Alleles and Haplotypes in Russian Patients With Pemphigus Vulgaris.",
+          "orgStudyIdInfo": {
+            "id": "#03-22"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Sechenov University"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "The frequencies of HLA alleles will be counted directly from genotyping data, while the frequencies of haplotypes will be estimated with an expectation-maximization algorithm using the ARLEQUIN software package (version 3.11), leading to maximum-likelihood estimates of gene frequencies. To compare the differences between frequencies in the donor and patient groups the Fisher exact test will be performed.",
+              "measure": "Estimation of HLA-DRB1 and HLA-DQB1 alleles frequencies in PV patients and controls",
+              "timeFrame": "May 2017 - 2023"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": true
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "OTHER",
+              "name": "Pirogov Russian National Research Medical University"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Sechenov University"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2023-03-17",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastKnownStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2022-03-17",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2022-03-10",
+          "overallStatus": "UNKNOWN",
+          "primaryCompletionDateStruct": {
+            "date": "2022-11-17",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2017-05-17",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2022-03",
+          "studyFirstPostDateStruct": {
+            "date": "2022-03-17",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2022-03-10",
+          "studyFirstSubmitQcDate": "2022-03-10"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D003920",
+              "term": "Diabetes Mellitus"
+            },
+            {
+              "id": "D044882",
+              "term": "Glucose Metabolism Disorders"
+            },
+            {
+              "id": "D008659",
+              "term": "Metabolic Diseases"
+            },
+            {
+              "id": "D009750",
+              "term": "Nutritional and Metabolic Diseases"
+            },
+            {
+              "id": "D004700",
+              "term": "Endocrine System Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D003922",
+              "term": "Diabetes Mellitus, Type 1"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D013048",
+              "term": "Specimen Handling"
+            },
+            {
+              "id": "D019411",
+              "term": "Clinical Laboratory Techniques"
+            },
+            {
+              "id": "D019937",
+              "term": "Diagnostic Techniques and Procedures"
+            },
+            {
+              "id": "D003933",
+              "term": "Diagnosis"
+            },
+            {
+              "id": "D011677",
+              "term": "Punctures"
+            },
+            {
+              "id": "D013514",
+              "term": "Surgical Procedures, Operative"
+            },
+            {
+              "id": "D008919",
+              "term": "Investigative Techniques"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D001800",
+              "term": "Blood Specimen Collection"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "aged \u2265 18 to \u2264 55 years recently (within 6 months of the study visit) diagnosed with T1D",
+              "interventionNames": [
+                "Other: blood draw or cheek swab"
+              ],
+              "label": "all participants"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "all participants"
+              ],
+              "description": "a blood draw or cheek swab for testing of HLA-DRB1\\*04:01",
+              "name": "blood draw or cheek swab",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Diabetes Mellitus, Type I"
+          ]
+        },
+        "contactsLocationsModule": {
+          "centralContacts": [
+            {
+              "email": "kristin.neff@gentibio.com",
+              "name": "Kristin M Neff, MS",
+              "phone": "85-732-75483",
+              "role": "CONTACT"
+            },
+            {
+              "email": "mark.bach@gentibio.com",
+              "name": "Mark Bach, MD",
+              "phone": "908-578-3634",
+              "role": "CONTACT"
+            }
+          ],
+          "locations": [
+            {
+              "city": "San Francisco",
+              "contacts": [
+                {
+                  "email": "clinicalresearch@diabetes.ucsf.edu",
+                  "name": "Rebecca Wesch, Recruitment Coordinator",
+                  "phone": "844-813-8273",
+                  "role": "CONTACT"
+                },
+                {
+                  "name": "Stephen Gitelman, MD",
+                  "role": "PRINCIPAL_INVESTIGATOR"
+                }
+              ],
+              "country": "United States",
+              "facility": "University of California, San Francisco",
+              "geoPoint": {
+                "lat": 37.77493,
+                "lon": -122.41942
+              },
+              "state": "California",
+              "status": "RECRUITING",
+              "zip": "94158"
+            },
+            {
+              "city": "Gainesville",
+              "contacts": [
+                {
+                  "email": "jennifer.hosford@peds.ufl.edu",
+                  "name": "Jennifer Hosford",
+                  "phone": "352-294-5759",
+                  "role": "CONTACT"
+                },
+                {
+                  "name": "Michael Haller, MD",
+                  "role": "PRINCIPAL_INVESTIGATOR"
+                }
+              ],
+              "country": "United States",
+              "facility": "University of Florida- Gainesville",
+              "geoPoint": {
+                "lat": 29.65163,
+                "lon": -82.32483
+              },
+              "state": "Florida",
+              "status": "RECRUITING",
+              "zip": "32610"
+            },
+            {
+              "city": "Boston",
+              "contacts": [
+                {
+                  "email": "T1DTrials@joslin.harvard.edu",
+                  "name": "Michelle Zhang",
+                  "phone": "888-813-8669",
+                  "role": "CONTACT"
+                },
+                {
+                  "name": "Jason Gaglia, MD",
+                  "role": "PRINCIPAL_INVESTIGATOR"
+                }
+              ],
+              "country": "United States",
+              "facility": "Joslin Diabetes Center",
+              "geoPoint": {
+                "lat": 42.35843,
+                "lon": -71.05977
+              },
+              "state": "Massachusetts",
+              "status": "RECRUITING",
+              "zip": "02215"
+            },
+            {
+              "city": "New York",
+              "contacts": [
+                {
+                  "email": "carol.levy@mssm.edu",
+                  "name": "Carol Levy, MD",
+                  "phone": "212-241-0068",
+                  "role": "CONTACT"
+                },
+                {
+                  "name": "Carol Levy, MD",
+                  "role": "PRINCIPAL_INVESTIGATOR"
+                }
+              ],
+              "country": "United States",
+              "facility": "Icahn School of Medicine at Mount Sinai",
+              "geoPoint": {
+                "lat": 40.71427,
+                "lon": -74.00597
+              },
+              "state": "New York",
+              "status": "RECRUITING",
+              "zip": "10029"
+            },
+            {
+              "city": "Chapel Hill",
+              "contacts": [
+                {
+                  "email": "uncdiabetes@med.unc.edu",
+                  "name": "Alex Kass",
+                  "phone": "984-974-3004",
+                  "role": "CONTACT"
+                },
+                {
+                  "name": "Klara Klein, MD",
+                  "role": "PRINCIPAL_INVESTIGATOR"
+                }
+              ],
+              "country": "United States",
+              "facility": "University of North Carolina at Chapel Hill",
+              "geoPoint": {
+                "lat": 35.9132,
+                "lon": -79.05584
+              },
+              "state": "North Carolina",
+              "status": "RECRUITING",
+              "zip": "27514"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "GentiBio, Inc",
+              "name": "Mark Bach, MD",
+              "role": "STUDY_DIRECTOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "This is a study to evaluate the HLA-DRB1\\*04:01 genotype in adults that have been diagnosed with type 1 diabetes",
+          "detailedDescription": "This is a non-interventional study to evaluate the distribution of human leukocyte antigen (HLA)-DRB1\\*04:01 genotype in participants that are recently (within 6 months of the study visit) diagnosed with T1D, with a single blood draw for the analysis of HLA genotype within the study participants. Some participants may elect to collect buccal cells via cheek swabs for genotype analysis. The study duration will be approximately 24 hours and will include a single study visit for the collection of demographic data and a single blood draw or cheek swab, and a follow-up telephone call approximately 24 hours after the study visit."
+        },
+        "designModule": {
+          "bioSpec": {
+            "description": "a single blood draw or cheek swab for the analysis of HLA genotype of the study participants",
+            "retention": "SAMPLES_WITH_DNA"
+          },
+          "designInfo": {
+            "observationalModel": "COHORT",
+            "timePerspective": "PROSPECTIVE"
+          },
+          "enrollmentInfo": {
+            "count": 200,
+            "type": "ESTIMATED"
+          },
+          "patientRegistry": false,
+          "studyType": "OBSERVATIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male and female participants aged \u2265 18 to \u2264 55 years, with type 1 DM meeting American Diabetes Association criteria at diagnosis:\n\n   1. Fasting glucose \u2265 126 mg/dL (7.0 mmol/L), or\n   2. 2-hour oral glucose tolerance test plasma glucose \u2265 200 mg/dL (11.0 mmol/L), or\n   3. Hemoglobin A1c \u2265 6.5%, or\n   4. Random plasma glucose \u2265 200 mg/dL (11.1 mmol/L) (with documented classic hyperglycemia symptoms or hyperglycemic crisis).\n2. Date of T1D diagnosis within 6 months of the study visit.\n3. Able and willing to provide written, informed consent as approved by the institutional review board (IRB). Participants must be able to consent directly; no other person or guardian may consent for them in this study.\n\nExclusion Criteria:\n\n1. Participant is an employee of, or an immediate family member of an employee, of the Sponsor, study site, or of a contractor/vendor who is involved in direct study conduct for this protocol.\n2. Participant is unwilling or unable to comply with the study visit assessments.",
+          "healthyVolunteers": false,
+          "maximumAge": "55 Years",
+          "minimumAge": "18 Years",
+          "samplingMethod": "PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT"
+          ],
+          "studyPopulation": "This study will enroll up to approximately 200 adults aged \u2265 18 to \u2264 55 years with recently (within 6 months of the study visit) diagnosed T1D who have met the American Diabetes Association T1D diagnosis criteria."
+        },
+        "identificationModule": {
+          "briefTitle": "HLA Demographics Study in Adults With Type 1 Diabetes",
+          "nctId": "NCT06860516",
+          "officialTitle": "A Non-interventional Study of HLA-DRB1*04:01 Distribution in Adults With Recently Diagnosed Type 1 Diabetes (T1D)",
+          "orgStudyIdInfo": {
+            "id": "GNTI-T1D-HLA-1002"
+          },
+          "organization": {
+            "class": "INDUSTRY",
+            "fullName": "GentiBio, Inc"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "description": "will share study results through a publication or conference presentation",
+          "infoTypes": [
+            "CSR"
+          ],
+          "ipdSharing": "YES",
+          "timeFrame": "within 6 months from study completion"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "to evaluate the frequency of adults with recently diagnosed type 1 diabetes that are HLA DRB1\\*04:01 positive at time of enrollment",
+              "measure": "HLA DRB1*04:01 positive",
+              "timeFrame": "Day 1"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "to determine the distribution of HLA-DRB1\\*04:01 genotype in adults recently diagnosed with type 1 diabetes at the time of enrollment by ethnic and racial subgroups",
+              "measure": "HLA-DRB1*04:01 genotype by ethnic and racial subgroups",
+              "timeFrame": "Day 1"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": false
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "INDUSTRY",
+            "name": "GentiBio, Inc"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2027-03",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-05-06",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2026-04-30",
+          "overallStatus": "RECRUITING",
+          "primaryCompletionDateStruct": {
+            "date": "2027-01-30",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2025-06-06",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2026-04",
+          "studyFirstPostDateStruct": {
+            "date": "2025-03-06",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2025-02-25",
+          "studyFirstSubmitQcDate": "2025-03-02"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D009103",
+              "term": "Multiple Sclerosis"
+            },
+            {
+              "id": "D020278",
+              "term": "Demyelinating Autoimmune Diseases, CNS"
+            },
+            {
+              "id": "D020274",
+              "term": "Autoimmune Diseases of the Nervous System"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D020529",
+              "term": "Multiple Sclerosis, Relapsing-Remitting"
+            },
+            {
+              "id": "D003711",
+              "term": "Demyelinating Diseases"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Demographic and Medical History Questionnaire, Environmental Exposure Questionnaire, Food Frequency Questionnaire, Blood Sample Collection",
+              "label": "Pediatric MS Case"
+            },
+            {
+              "description": "Demographic and Medical History Questionnaire, Environmental Exposure Questionnaire, Food Frequency Questionnaire, Blood Sample Collection",
+              "label": "Pediatric Control"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Pediatric Multiple Sclerosis"
+          ],
+          "keywords": [
+            "Pediatric Multiple Sclerosis",
+            "Relapsing Remitting Multiple Sclerosis",
+            "Clinically Isolated Syndrome",
+            "Demyelinating Disease"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Birmingham",
+              "country": "United States",
+              "facility": "Center for pediatric-onset demyelinating diseases at the Children's Hospital of Alabama, Birmingham",
+              "geoPoint": {
+                "lat": 33.52066,
+                "lon": -86.80249
+              },
+              "state": "Alabama",
+              "zip": "35294"
+            },
+            {
+              "city": "San Bernardino",
+              "country": "United States",
+              "facility": "Pediatric MS Clinic, Children's Hospital, Loma Linda University",
+              "geoPoint": {
+                "lat": 34.10834,
+                "lon": -117.28977
+              },
+              "state": "California",
+              "zip": "92408"
+            },
+            {
+              "city": "San Francisco",
+              "country": "United States",
+              "facility": "UCSF Pediatric MS Center",
+              "geoPoint": {
+                "lat": 37.77493,
+                "lon": -122.41942
+              },
+              "state": "California",
+              "zip": "94143"
+            },
+            {
+              "city": "Aurora",
+              "country": "United States",
+              "facility": "Children's Hospital Colorado, University of Colorado School of Medicine",
+              "geoPoint": {
+                "lat": 39.72943,
+                "lon": -104.83192
+              },
+              "state": "Colorado",
+              "zip": "80045"
+            },
+            {
+              "city": "Washington D.C.",
+              "country": "United States",
+              "facility": "Pediatric MS Clinic, Children's National Medical Center",
+              "geoPoint": {
+                "lat": 38.89511,
+                "lon": -77.03637
+              },
+              "state": "District of Columbia",
+              "zip": "20010"
+            },
+            {
+              "city": "Chicago",
+              "country": "United States",
+              "facility": "Pediatric MS Clinic, Ann & Robert H. Lurie Children's Hospital of Chicago",
+              "geoPoint": {
+                "lat": 41.85003,
+                "lon": -87.65005
+              },
+              "state": "Illinois",
+              "zip": "60611"
+            },
+            {
+              "city": "Boston",
+              "country": "United States",
+              "facility": "Partners Pediatric MS Center at the Massachusetts General Hospital for Children",
+              "geoPoint": {
+                "lat": 42.35843,
+                "lon": -71.05977
+              },
+              "state": "Massachusetts",
+              "zip": "02114"
+            },
+            {
+              "city": "Boston",
+              "country": "United States",
+              "facility": "Pediatric MS Clinic, Children's Hospital Boston",
+              "geoPoint": {
+                "lat": 42.35843,
+                "lon": -71.05977
+              },
+              "state": "Massachusetts",
+              "zip": "02115"
+            },
+            {
+              "city": "Rochester",
+              "country": "United States",
+              "facility": "Regional Pediatric MS Center at Mayo Clinic",
+              "geoPoint": {
+                "lat": 44.02163,
+                "lon": -92.4699
+              },
+              "state": "Minnesota",
+              "zip": "55905"
+            },
+            {
+              "city": "St Louis",
+              "country": "United States",
+              "facility": "Pediatric MS Clinic, Washington University School of Medicine",
+              "geoPoint": {
+                "lat": 38.62727,
+                "lon": -90.19789
+              },
+              "state": "Missouri",
+              "zip": "63110"
+            },
+            {
+              "city": "Buffalo",
+              "country": "United States",
+              "facility": "Pediatric MS Center of the Jacobs Neurological Institute, University of Buffalo",
+              "geoPoint": {
+                "lat": 42.88645,
+                "lon": -78.87837
+              },
+              "state": "New York",
+              "zip": "14203"
+            },
+            {
+              "city": "New York",
+              "country": "United States",
+              "facility": "New York University Langone Medical Center",
+              "geoPoint": {
+                "lat": 40.71427,
+                "lon": -74.00597
+              },
+              "state": "New York",
+              "zip": "10016"
+            },
+            {
+              "city": "Cleveland",
+              "country": "United States",
+              "facility": "The Cleveland Clinic",
+              "geoPoint": {
+                "lat": 41.4995,
+                "lon": -81.69541
+              },
+              "state": "Ohio",
+              "zip": "44195"
+            },
+            {
+              "city": "Philadelphia",
+              "country": "United States",
+              "facility": "Pediatric MS Clinic, Children's Hospital of Philadelphia",
+              "geoPoint": {
+                "lat": 39.95238,
+                "lon": -75.16362
+              },
+              "state": "Pennsylvania",
+              "zip": "19104"
+            },
+            {
+              "city": "Dallas",
+              "country": "United States",
+              "facility": "Pediatric MS Center, University of Texas, Southwestern Medical Center",
+              "geoPoint": {
+                "lat": 32.78306,
+                "lon": -96.80667
+              },
+              "state": "Texas",
+              "zip": "75390"
+            },
+            {
+              "city": "Houston",
+              "country": "United States",
+              "facility": "The Blue Bird Circle Clinic for MS at Texas Children's Hospital",
+              "geoPoint": {
+                "lat": 29.76328,
+                "lon": -95.36327
+              },
+              "state": "Texas",
+              "zip": "77030"
+            },
+            {
+              "city": "Salt Lake City",
+              "country": "United States",
+              "facility": "Pediatric Neurology Clinic, Primary Children's Hospital",
+              "geoPoint": {
+                "lat": 40.76078,
+                "lon": -111.89105
+              },
+              "state": "Utah",
+              "zip": "84113"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "University of California, San Francisco",
+              "name": "Emmanuelle L Waubant, MD, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The purpose of this study is to better understand multiple sclerosis (MS) in children and adolescents, to learn if it differs from adult MS and to investigate if genes or environmental exposures or a combination of both put children and adolescents at risk for getting MS.",
+          "detailedDescription": "The overall goal of this project is to determine whether well-established environmental and genetic risk factors for adult onset MS play an important role in susceptibility to pediatric-onset MS. Our study design is based on the hypothesis that genetic influences, specifically variation at HLA-DRB1 and other confirmed non-MHC MS loci, as well as environmental exposures including EBV infection and tobacco smoke, contribute to disease risk. In addition, we will also examine the relationship between serum levels of 25(OH) vitamin D3 and prior vitamin D status, and risk for pediatric onset MS. Finally, we will investigate whether specific G x E, and other multivariable relationships influencing risk exist for pediatric-onset MS. There are 16 collaborating sites other than UCSF that will enroll cases and controls for this study."
+        },
+        "designModule": {
+          "bioSpec": {
+            "description": "Total 41ml sample: 17ml plasma/DNA, 10ml serum, 9ml lymphocytes and 5ml RNA frozen.",
+            "retention": "SAMPLES_WITH_DNA"
+          },
+          "designInfo": {
+            "observationalModel": "CASE_CONTROL",
+            "timePerspective": "CROSS_SECTIONAL"
+          },
+          "enrollmentInfo": {
+            "count": 1276,
+            "type": "ACTUAL"
+          },
+          "studyType": "OBSERVATIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Children are eligible for this study as cases if:\n\n* They have MS or clinically isolated syndrome (CIS):\n\n  * MS: As defined by the 2010 McDonald criteria for diagnosis of MS (Polman 2010),\n  * CIS: A first demyelinating event indicating high risk for MS (i.e., one clinical event involving the spinal cord, the optic nerve, the brainstem or cerebellum, or occasionally the hemispheres) and at least 2 silent T2 bright areas on a brain or spinal cord MRI (at least one must be in the brain); AND\n* They are three years of age or older; AND\n* Disease onset occurred before 18 years of age.\n\nPatients are not eligible for study participation if:\n\n* Disease onset occurred more than 4 years prior to the opportunity to enroll; OR\n* They have had an organ transplant; OR\n* They are known to have neuromyelitis optica (NMO).\n\nChildren are not eligible to participate as pediatric controls if:\n\n* They are two years of age or younger; OR\n* They are 22 years of age or older; OR\n* They are known to have MS or another demyelinating disease (for example, neuromyelitis optica or acute disseminated encephalomyelitis); OR\n* They have a biological family member who has been enrolled as a control; OR\n* They have an immediate, biological family member (parent/sibling) who has been diagnosed with MS; OR\n* They have an autoimmune disorder (except asthma or eczema); OR\n* They have had an organ transplant; OR\n* They have a chronic neurological condition with major disability (this does not include, for example, migraine, controlled seizures, and mild learning disabilities such as ADD or ADHD).",
+          "healthyVolunteers": true,
+          "maximumAge": "21 Years",
+          "minimumAge": "3 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT"
+          ],
+          "studyPopulation": "Case patients seen at the 16 participating Pediatric MS Center Clinics. Control patients seen at the Pediatric Clinics of the same institution as MS cases."
+        },
+        "identificationModule": {
+          "briefTitle": "Environmental and Genetic Risk Factors for Pediatric Multiple Sclerosis",
+          "nctId": "NCT01396343",
+          "officialTitle": "Environmental and Genetic Risk Factors for Pediatric Multiple Sclerosis",
+          "orgStudyIdInfo": {
+            "id": "5R01NS071463",
+            "link": "https://reporter.nih.gov/quickSearch/5R01NS071463",
+            "type": "NIH"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "University of California, San Francisco"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "The primary objective of this study is to determine if risk factors identified for adult MS such as HLA-DRB1\\*1501/1503, EBV, 25(OH) vitamin D3 insufficiency, and exposure to cigarette smoking are also risk factors for pediatric MS, and if there are interactions between them analyzing data collected from questionnaires for environmental exposure, demographic and food frequency as well as sample blood specimens.",
+              "measure": "Identify risk factors and their respective contribution to developing pediatric multiple sclerosis",
+              "timeFrame": "4 year data collection, 1 year analysis"
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": true
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "OTHER",
+              "name": "New York University"
+            },
+            {
+              "class": "OTHER",
+              "name": "Massachusetts General Hospital"
+            },
+            {
+              "class": "OTHER",
+              "name": "State University of New York at Buffalo"
+            },
+            {
+              "class": "OTHER",
+              "name": "University of Alabama at Birmingham"
+            },
+            {
+              "class": "OTHER",
+              "name": "Mayo Clinic"
+            },
+            {
+              "class": "OTHER",
+              "name": "Children's Hospital of Philadelphia"
+            },
+            {
+              "class": "OTHER",
+              "name": "Boston Children's Hospital"
+            },
+            {
+              "class": "OTHER",
+              "name": "Baylor College of Medicine"
+            },
+            {
+              "class": "OTHER",
+              "name": "Loma Linda University"
+            },
+            {
+              "class": "OTHER",
+              "name": "Children's Hospital Colorado"
+            },
+            {
+              "class": "OTHER",
+              "name": "University of Texas"
+            },
+            {
+              "class": "OTHER",
+              "name": "Ann & Robert H Lurie Children's Hospital of Chicago"
+            },
+            {
+              "class": "OTHER",
+              "name": "Washington University School of Medicine"
+            },
+            {
+              "class": "OTHER",
+              "name": "Children's National Research Institute"
+            },
+            {
+              "class": "OTHER",
+              "name": "Primary Children's Hospital"
+            },
+            {
+              "class": "OTHER",
+              "name": "The Cleveland Clinic"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "University of California, San Francisco"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2018-04",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2018-10-18",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2018-10-16",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2018-04",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2011-10"
+          },
+          "statusVerifiedDate": "2018-10",
+          "studyFirstPostDateStruct": {
+            "date": "2011-07-18",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2011-07-14",
+          "studyFirstSubmitQcDate": "2011-07-14"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D012872",
+              "term": "Skin Diseases, Vesiculobullous"
+            },
+            {
+              "id": "D012871",
+              "term": "Skin Diseases"
+            },
+            {
+              "id": "D017437",
+              "term": "Skin and Connective Tissue Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D010391",
+              "term": "Pemphigoid, Bullous"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D013048",
+              "term": "Specimen Handling"
+            },
+            {
+              "id": "D019411",
+              "term": "Clinical Laboratory Techniques"
+            },
+            {
+              "id": "D019937",
+              "term": "Diagnostic Techniques and Procedures"
+            },
+            {
+              "id": "D003933",
+              "term": "Diagnosis"
+            },
+            {
+              "id": "D011677",
+              "term": "Punctures"
+            },
+            {
+              "id": "D013514",
+              "term": "Surgical Procedures, Operative"
+            },
+            {
+              "id": "D008919",
+              "term": "Investigative Techniques"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D001800",
+              "term": "Blood Specimen Collection"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "patients with bullous pemphigoid",
+              "interventionNames": [
+                "Other: Blood sample and cotton skin swabs"
+              ],
+              "label": "bullous pemphigoid",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "patients with basal cell carcinoma or squamous cell carcinoma and without inflammatory skin disease",
+              "interventionNames": [
+                "Other: Blood sample and cotton skin swabs"
+              ],
+              "label": "no bullous pemphigoid",
+              "type": "ACTIVE_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "bullous pemphigoid",
+                "no bullous pemphigoid"
+              ],
+              "name": "Blood sample and cotton skin swabs",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Bullous Pemphigoid"
+          ]
+        },
+        "contactsLocationsModule": {
+          "centralContacts": [
+            {
+              "email": "pbernard@chu-reims.fr",
+              "name": "Philippe BERNARD",
+              "role": "CONTACT"
+            }
+          ],
+          "locations": [
+            {
+              "city": "Reims",
+              "contacts": [
+                {
+                  "email": "pbernard@chu-reims.fr",
+                  "name": "Philippe BERNARD",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "France",
+              "facility": "Chu de Reims",
+              "geoPoint": {
+                "lat": 49.26526,
+                "lon": 4.02853
+              },
+              "state": "France",
+              "status": "RECRUITING",
+              "zip": "51092"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Autoimmune bullous dermatoses include pemphigus, bullous pemphigoid, pemphigoid gestationis, linear IgA dermatosis, mucous membrane pemphigoid, lichen planus pemphigoid, anti-p200 pemphigoid, epidermolysis bullosa acquisita and dermatitis herpetiformis. Autoimmune bullous dermatoses are rare and have an incidence of 20-60 new cases per 1 million person- year in Europe. The incidence of the individual entities is slight significantly different within Europe, but strongly also in comparison to other countries such as Kuwait, Singapore, USA and South America. The most common of these disorders is the bullous pemphigoid.\n\nA considerable progress has been made in the last years to elucidate the pathogenic role of autoantibodies in these diseases. To this end, various in vitro and animal experiments have been used to understand some basic pathophysiological mechanisms in these diseases. Further studies are currently being carried out to explain a precise elucidation of the disease process and to be able to treat the patients targeted later.\n\nAt present, however, no data are available to explain why certain individuals develop the autoimmune disease and others do not. Epidemiological studies showed some triggers to the development of autoimmune dysregulation, e.g. drugs.\n\nFurthermore, it has been shown that genetic factors play a role in the pathogenesis of the disease. A clear association with certain HLA regions have been shown in patients with pemphigus, e.g. about 95% of pemphigus patients from the group of Ashkenazi Jews have the HLA-DRB1\\*0402 haplotype. Recently, the first non-HLA gene associated with pemphigus was described. For other conditions such as bullous pemphigoid, pemphigoid gestationis or linear IgA dermatosis the association with HLA antigens is less pronounced. Another indication of the importance of the genetic background in these diseases can be elucidated from the observation of autoantibodies at a low concentration in healthy relatives of pemphigus patients.",
+          "detailedDescription": "Study genetic and microbiologic predisposition of patients developing a bullous pemphigoid from peripheral blood and skin flora."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "NON_RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "BASIC_SCIENCE"
+          },
+          "enrollmentInfo": {
+            "count": 100,
+            "type": "ESTIMATED"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* patients with bullous pemphigoid in active phase\n* patients with basal cell carcinoma or squamous cell carcinoma and without inflammatory skin disease\n* patient consenting to participate to the study\n* patient enrolled in the national healthcare insurance program\n* patient older than 18 years\n\nExclusion Criteria:\n\n\\- patients with pemphigoid gestationis",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "acronym": "MICROPB",
+          "briefTitle": "Genetic Susceptibility and Influence of the Microbiomae in Bullous Pemphigoid",
+          "nctId": "NCT02874079",
+          "officialTitle": "Genetic Susceptibility and Influence of the Microbiomae in Bullous Pemphigoid",
+          "orgStudyIdInfo": {
+            "id": "PO15125"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "CHU de Reims"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "the genetic susceptibility in patients bullous pemphigoid were studied by the search of an association between bullous pemphigoid and a particular HLA haplotype",
+              "measure": "HLA haplotype",
+              "timeFrame": "Day 1"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "the genetic susceptibility in patients bullous pemphigoid were studied by the search of an association between bullous pemphigoid and micro satellite markers, or SNPs (single nucleotide polymorphisms)",
+              "measure": "micro satellite markers",
+              "timeFrame": "Day 1"
+            },
+            {
+              "description": "the genetic susceptibility in patients bullous pemphigoid were studied by the search of an association between bullous pemphigoid and SNPs (single nucleotide polymorphisms)",
+              "measure": "SNPs (single nucleotide polymorphisms)",
+              "timeFrame": "Day 1"
+            },
+            {
+              "description": "Analysis of skin microbiome (type and number of bacteria) of patients with bullous pemphigoid, compared with patients without bullous pemphigoid",
+              "measure": "Skin's Bacteria",
+              "timeFrame": "Day 1"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "CHU de Reims"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2018-03",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastKnownStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2016-10-05",
+            "type": "ESTIMATED"
+          },
+          "lastUpdateSubmitDate": "2016-10-04",
+          "overallStatus": "UNKNOWN",
+          "primaryCompletionDateStruct": {
+            "date": "2017-10",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2015-12"
+          },
+          "statusVerifiedDate": "2016-10",
+          "studyFirstPostDateStruct": {
+            "date": "2016-08-22",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2016-08-11",
+          "studyFirstSubmitQcDate": "2016-08-16"
+        }
+      }
+    }
+  ]
+}

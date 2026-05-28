@@ -1,0 +1,488 @@
+{
+  "page_meta": {
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Low affinity immunoglobulin gamma Fc region receptor II-b",
+      "score": 14.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL4662940",
+      "target_components": [
+        {
+          "accession": "P31994",
+          "component_description": "Low affinity immunoglobulin gamma Fc region receptor II-b",
+          "component_id": 19593,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "CD32",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "CD_antigen=CD32",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CDw32",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "FCG2",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Fc-gamma RII-b",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Fc-gamma-RIIb",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "FCGR2B",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "FcRII-b",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "IGFR2",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "IgG Fc receptor II-b",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Low affinity immunoglobulin gamma Fc region receptor II-b",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P31994",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009897",
+              "xref_name": "external side of plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0043197",
+              "xref_name": "dendritic spine",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0044297",
+              "xref_name": "cell body",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0001540",
+              "xref_name": "amyloid-beta binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019770",
+              "xref_name": "IgG receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019772",
+              "xref_name": "low-affinity IgG receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019864",
+              "xref_name": "IgG binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001788",
+              "xref_name": "antibody-dependent cellular cytotoxicity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001811",
+              "xref_name": "negative regulation of type I hypersensitivity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001814",
+              "xref_name": "negative regulation of antibody-dependent cellular cytotoxicity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001818",
+              "xref_name": "negative regulation of cytokine production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002252",
+              "xref_name": "immune effector process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002266",
+              "xref_name": "follicular dendritic cell activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002313",
+              "xref_name": "mature B cell differentiation involved in immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002316",
+              "xref_name": "follicular B cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002436",
+              "xref_name": "immune complex clearance by monocytes and macrophages",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002605",
+              "xref_name": "negative regulation of dendritic cell antigen processing and presentation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002622",
+              "xref_name": "regulation of B cell antigen processing and presentation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002638",
+              "xref_name": "negative regulation of immunoglobulin production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002819",
+              "xref_name": "regulation of adaptive immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002865",
+              "xref_name": "negative regulation of acute inflammatory response to antigenic stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002922",
+              "xref_name": "positive regulation of humoral immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002924",
+              "xref_name": "negative regulation of humoral immune response mediated by circulating immunoglobulin",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006898",
+              "xref_name": "receptor-mediated endocytosis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006909",
+              "xref_name": "phagocytosis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006911",
+              "xref_name": "phagocytosis, engulfment",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007166",
+              "xref_name": "cell surface receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010469",
+              "xref_name": "regulation of signaling receptor activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016064",
+              "xref_name": "immunoglobulin mediated immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0019886",
+              "xref_name": "antigen processing and presentation of exogenous peptide antigen via MHC class II",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0021549",
+              "xref_name": "cerebellum development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030889",
+              "xref_name": "negative regulation of B cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032693",
+              "xref_name": "negative regulation of interleukin-10 production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032760",
+              "xref_name": "positive regulation of tumor necrosis factor production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0038094",
+              "xref_name": "Fc-gamma receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043031",
+              "xref_name": "negative regulation of macrophage activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043318",
+              "xref_name": "negative regulation of cytotoxic T cell degranulation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045088",
+              "xref_name": "regulation of innate immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045576",
+              "xref_name": "mast cell activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046330",
+              "xref_name": "positive regulation of JNK cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050765",
+              "xref_name": "negative regulation of phagocytosis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050766",
+              "xref_name": "positive regulation of phagocytosis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050777",
+              "xref_name": "negative regulation of immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050859",
+              "xref_name": "negative regulation of B cell receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050869",
+              "xref_name": "negative regulation of B cell activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071219",
+              "xref_name": "cellular response to molecule of bacterial origin",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0090264",
+              "xref_name": "regulation of immune complex clearance by monocytes and macrophages",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1902564",
+              "xref_name": "negative regulation of neutrophil activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1902950",
+              "xref_name": "regulation of dendritic spine maintenance",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1903381",
+              "xref_name": "regulation of endoplasmic reticulum stress-induced neuron intrinsic apoptotic signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1904646",
+              "xref_name": "cellular response to amyloid-beta",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1905898",
+              "xref_name": "positive regulation of response to endoplasmic reticulum stress",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2001199",
+              "xref_name": "negative regulation of dendritic cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:3618",
+              "xref_name": "FCGR2B",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "P31994",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR003598",
+              "xref_name": "Ig_sub2",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR003599",
+              "xref_name": "Ig_sub",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR007110",
+              "xref_name": "Ig-like_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR013783",
+              "xref_name": "Ig-like_fold",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036179",
+              "xref_name": "Ig-like_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR050488",
+              "xref_name": "Ig_Fc_receptor",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11481",
+              "xref_name": "IMMUNOGLOBULIN FC RECEPTOR",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR11481:SF97",
+              "xref_name": "LOW AFFINITY IMMUNOGLOBULIN GAMMA FC REGION RECEPTOR II-B-RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "2FCB",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3WJJ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5OCC",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2FCB",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3WJJ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5OCC",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF13895",
+              "xref_name": "Ig_2",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA28064",
+              "xref_name": "Fc gamma receptor IIb",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P31994",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-198933",
+              "xref_name": "Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "A6H8N3",
+              "xref_name": "Low affinity immunoglobulin gamma Fc region receptor II-b",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O95649",
+              "xref_name": "Low affinity immunoglobulin gamma Fc region receptor II-b",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P31994",
+              "xref_name": "Low affinity immunoglobulin gamma Fc region receptor II-b",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q53X85",
+              "xref_name": "Low affinity immunoglobulin gamma Fc region receptor II-b",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q5VXA9",
+              "xref_name": "Low affinity immunoglobulin gamma Fc region receptor II-b",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8NIA1",
+              "xref_name": "Low affinity immunoglobulin gamma Fc region receptor II-b",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

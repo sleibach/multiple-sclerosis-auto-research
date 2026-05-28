@@ -1,0 +1,450 @@
+{
+  "_request_url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=ARPC5&limit=10",
+  "_status_code": 200,
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 2
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Actin-related protein 2/3 complex subunit 5",
+      "score": 17.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL4295658",
+      "target_components": [
+        {
+          "accession": "O15511",
+          "component_description": "Actin-related protein 2/3 complex subunit 5",
+          "component_id": 18079,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "Actin-related protein 2/3 complex subunit 5",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ARC16",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Arp2/3 complex 16 kDa subunit",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ARPC5",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "p16-ARC",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "O15511",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "O15511",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005856",
+              "xref_name": "cytoskeleton",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005885",
+              "xref_name": "Arp2/3 protein complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005925",
+              "xref_name": "focal adhesion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0015629",
+              "xref_name": "actin cytoskeleton",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0030027",
+              "xref_name": "lamellipodium",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0034774",
+              "xref_name": "secretory granule lumen",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0035861",
+              "xref_name": "site of double-strand break",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0042995",
+              "xref_name": "cell projection",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:1904813",
+              "xref_name": "ficolin-1-rich granule lumen",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0003779",
+              "xref_name": "actin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005200",
+              "xref_name": "structural constituent of cytoskeleton",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0051015",
+              "xref_name": "actin filament binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016477",
+              "xref_name": "cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030036",
+              "xref_name": "actin cytoskeleton organization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030833",
+              "xref_name": "regulation of actin filament polymerization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:708",
+              "xref_name": "ARPC5",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "O15511",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR006789",
+              "xref_name": "ARPC5",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036743",
+              "xref_name": "ARPC5_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR12644",
+              "xref_name": "ARP2/3 COMPLEX 16 KD SUBUNIT P16-ARC",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "6UHC",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6YW7",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "PF04699",
+              "xref_name": "P16-Arc",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA25003",
+              "xref_name": "actin related protein 2/3 complex subunit 5",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "O15511",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-2029482",
+              "xref_name": "Regulation of actin dynamics for phagocytic cup formation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-3928662",
+              "xref_name": "EPHB-mediated forward signaling",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5663213",
+              "xref_name": "RHO GTPases Activate WASPs and WAVEs",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-6798695",
+              "xref_name": "Neutrophil degranulation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-8856828",
+              "xref_name": "Clathrin-mediated endocytosis",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9664422",
+              "xref_name": "FCGR3A-mediated phagocytosis",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "A6NEC4",
+              "xref_name": "Actin-related protein 2/3 complex subunit 5",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O15511",
+              "xref_name": "Actin-related protein 2/3 complex subunit 5",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q6PG42",
+              "xref_name": "Actin-related protein 2/3 complex subunit 5",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    },
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Actin-related protein 2/3 complex subunit 5-like protein",
+      "score": 15.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL6066486",
+      "target_components": [
+        {
+          "accession": "Q9BPX5",
+          "component_description": "Actin-related protein 2/3 complex subunit 5-like protein",
+          "component_id": 23677,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "Actin-related protein 2/3 complex subunit 5-like protein",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ARC16-2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Arp2/3 complex 16 kDa subunit 2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ARPC5L",
+              "syn_type": "GENE_SYMBOL"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "Q9BPX5",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "Q9BPX5",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005856",
+              "xref_name": "cytoskeleton",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005885",
+              "xref_name": "Arp2/3 protein complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005925",
+              "xref_name": "focal adhesion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0015629",
+              "xref_name": "actin cytoskeleton",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0030863",
+              "xref_name": "cortical cytoskeleton",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0045202",
+              "xref_name": "synapse",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0098978",
+              "xref_name": "glutamatergic synapse",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0003779",
+              "xref_name": "actin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0030674",
+              "xref_name": "protein-macromolecule adaptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016477",
+              "xref_name": "cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030833",
+              "xref_name": "regulation of actin filament polymerization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034314",
+              "xref_name": "Arp2/3 complex-mediated actin nucleation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:23366",
+              "xref_name": "ARPC5L",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "Q9BPX5",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR006789",
+              "xref_name": "ARPC5",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036743",
+              "xref_name": "ARPC5_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR12644",
+              "xref_name": "ARP2/3 COMPLEX 16 KD SUBUNIT P16-ARC",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "6YW6",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8P94",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "PF04699",
+              "xref_name": "P16-Arc",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA134991012",
+              "xref_name": "actin related protein 2/3 complex subunit 5 like",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "Q9BPX5",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "Q7Z523",
+              "xref_name": "Actin-related protein 2/3 complex subunit 5-like protein",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9BPX5",
+              "xref_name": "Actin-related protein 2/3 complex subunit 5-like protein",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

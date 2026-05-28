@@ -1,0 +1,1202 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ARAB10%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P24409",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P61027",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "16641372",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "21248164",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "23263280",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "30209220",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "30398148",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "32344433",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "The small GTPases Rab are key regulators of intracellular membrane trafficking, from the formation of transport vesicles to their fusion with membranes (PubMed:21248164). Rabs cycle between an inactive GDP-bound form and an active GTP-bound form that is able to recruit to membranes different set of downstream effectors directly responsible for vesicle formation, movement, tethering and fusion (PubMed:21248164). RAB10 is mainly involved in the biosynthetic transport of proteins from the Golgi to the plasma membrane (PubMed:21248164). Regulates, for instance, SLC2A4/GLUT4 glucose transporter-enriched vesicles delivery to the plasma membrane (By similarity). In parallel, RAB10 regulates the transport of TLR4, a toll-like receptor to the plasma membrane and therefore may be important for innate immune response (By similarity). Also plays a specific role in asymmetric protein transport to the plasma membrane (PubMed:16641372). In neurons, involved in axonogenesis through regulation of vesicular membrane trafficking toward the axonal plasma membrane (By similarity). In epithelial cells, regulates transport from the Golgi to the basolateral membrane (PubMed:16641372). May play a role in the basolateral recycling pathway and in phagosome maturation (By similarity). May play a role in endoplasmic reticulum dynamics and morphology controlling tubulation along microtubules and tubules fusion (PubMed:23263280). Together with LRRK2, RAB8A, and RILPL1, regulates ciliogenesis (PubMed:30398148). When phosphorylated by LRRK2 on Thr-73, binds RILPL1 and inhibits ciliogenesis (PubMed:30398148). Participates in the export of a subset of neosynthesized proteins through a Rab8-Rab10-Rab11-dependent endososomal export route (PubMed:32344433). Targeted to and stabilized on stressed lysosomes through LRRK2 phosphorylation where it promotes the extracellular release of lysosomal content through EHBP1 and EHNP1L1 effector proteins (PubMed:30209220)"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "31540829",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "(Microbial infection) Upon Legionella pneumophila infection promotes endoplasmic reticulum recruitment and bacterial replication. Plays a role in remodeling the Legionella-containing vacuole (LCV) into an endoplasmic reticulum-like vacuole"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P24409",
+                    "source": "UniProtKB"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "20576682",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "22908308",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "23263280",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "30209220",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "30398148",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "32344433",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Associates with SLC2A4/GLUT4 storage vesicles (PubMed:22908308). Localizes to the base of the cilium when phosphorylated by LRRK2 on Thr-73 (PubMed:20576682, PubMed:30398148). Transiently associates with phagosomes (By similarity). Localizes to the endoplasmic reticulum at domains of new tubule growth (PubMed:23263280). Colocalizes with MICAL1, GRAF1/ARHGAP26 and GRAF2/ARHGAP10 on endosomal tubules (PubMed:32344433). Localizes to enlarged lysosomes through LRRK2 phosphorylation (PubMed:30209220)"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-0089",
+                "value": "Cytoplasmic vesicle membrane"
+              },
+              "orientation": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-9910",
+                "value": "Cytoplasmic side"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-9901",
+                "value": "Lipid-anchor"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "23263280",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0134",
+                "value": "Golgi apparatus membrane"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P24409",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0267",
+                "value": "Golgi apparatus, trans-Golgi network membrane"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "16641372",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "32344433",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0100",
+                "value": "Endosome membrane"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P24409",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0231",
+                "value": "Recycling endosome membrane"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P24409",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0205",
+                "value": "Cytoplasmic vesicle, phagosome membrane"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "20576682",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "30398148",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0087",
+                "value": "Cytoplasm, cytoskeleton, cilium basal body"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "23263280",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "24891604",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0097",
+                "value": "Endoplasmic reticulum membrane"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "29212815",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0198",
+                "value": "Cytoplasm, perinuclear region"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "30209220",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0158",
+                "value": "Lysosome"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000001263"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27552051",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LPN",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5SZJ",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 18
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 18
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27552051",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LPN",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 19
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 19
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27552051",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LPN",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 20
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 20
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27552051",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LPN",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5SZJ",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 21
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 21
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27552051",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LPN",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5SZJ",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 22
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 22
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27552051",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LPN",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5SZJ",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 23
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 23
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27552051",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LPN",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5SZJ",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:18420"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:18420",
+            "name": "Mg(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 23
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 23
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27552051",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LPN",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5SZJ",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 24
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 24
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27552051",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LPN",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 35
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 35
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27552051",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LPN",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5SZJ",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 36
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 36
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27552051",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LPN",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5SZJ",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 40
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 40
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27552051",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LPN",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5SZJ",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 41
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 41
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27552051",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LPN",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5SZJ",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:18420"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:18420",
+            "name": "Mg(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 41
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 41
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27552051",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LPN",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5SZJ",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:18420"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:18420",
+            "name": "Mg(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 64
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 64
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27552051",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LPN",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5SZJ",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 67
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 67
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27552051",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LPN",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5SZJ",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 122
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 122
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27552051",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LPN",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5SZJ",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 123
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 123
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27552051",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LPN",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5SZJ",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 125
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 125
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27552051",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LPN",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 126
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 126
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27552051",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LPN",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 152
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 152
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27552051",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LPN",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5SZJ",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 153
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 153
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27552051",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LPN",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5SZJ",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 154
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 154
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:9759",
+                "source": "HGNC"
+              }
+            ],
+            "value": "RAB10"
+          }
+        }
+      ],
+      "primaryAccession": "P61026",
+      "proteinDescription": {
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20937701",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "3.6.5.2"
+            }
+          ],
+          "fullName": {
+            "value": "Ras-related protein Rab-10"
+          }
+        }
+      }
+    }
+  ]
+}

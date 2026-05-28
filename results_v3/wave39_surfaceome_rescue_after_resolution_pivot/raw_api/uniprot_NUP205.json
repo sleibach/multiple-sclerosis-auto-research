@@ -1,0 +1,229 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15229283",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22719065",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9348540",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Plays a role in the nuclear pore complex (NPC) assembly and/or maintenance (PubMed:9348540). May anchor NUP62 and other nucleoporins, but not NUP153 and TPR, to the NPC (PubMed:15229283). In association with TMEM209, may be involved in nuclear transport of various nuclear proteins in addition to MYC (PubMed:22719065)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15229283",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Localized near the center, on both the cytoplasmic and nuclear side, of the NPC core structure"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "12802065",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15229283",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0182",
+                "value": "Nucleus membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "12802065",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15229283",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9903",
+                "value": "Peripheral membrane protein"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "12802065",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15229283",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "9348540",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0185",
+                "value": "Nucleus, nuclear pore complex"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00001D74D8"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "NUP205"
+          },
+          "synonyms": [
+            {
+              "value": "C7orf14"
+            },
+            {
+              "value": "KIAA0225"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-0903",
+          "name": "Direct protein sequencing"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0225",
+          "name": "Disease variant"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0509",
+          "name": "mRNA transport"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0906",
+          "name": "Nuclear pore complex"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0539",
+          "name": "Nucleus"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0653",
+          "name": "Protein transport"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0811",
+          "name": "Translocation"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0813",
+          "name": "Transport"
+        }
+      ],
+      "primaryAccession": "Q92621",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "205 kDa nucleoporin"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Nucleoporin Nup205"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Nuclear pore complex protein Nup205"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "F3B268881000FBAA",
+        "length": 2012,
+        "md5": "163C1019696740DDDE6484310088BA42",
+        "molWeight": 227922,
+        "value": "MATPLAVNSAASLWGPYKDIWHKVGNALWRRQPEAVHLLDKILKKHKPDFISLFKNPPKNVQQHEKVQKASTEGVAIQGQQGTRLLPEQLIKEAFILSDLFDIGELAAVELLLAGEHQQPHFPGLTRGLVAVLLYWDGKRCIANSLKALIQSRRGKTWTLELSPELASMTTRFTDELMEQGLTYKVLTLVSQIDVNNEFEKLQRERGLGSEKHRKEVSDLIKECRQSLAESLFAWACQSPLGKEDTLLLIGHLERVTVEANGSLDAVNLALLMALLYCFDISFIEQSTEERDDMIHQLPLLTEKQYIATIHSRLQDSQLWKLPGLQATVRLAWALALRGISQLPDVTALAEFTEADEAMAELAIADNVFLFLMESVVVSEYFYQEEFYIRRVHNLITDFLALMPMKVKQLRNRADEDARMIHMSMQMGNEPPISLRRDLEHLMLLIGELYKKNPFHLELALEYWCPTEPLQTPTIMGSYLGVAHQRPPQRQVVLSKFVRQMGDLLPPTIYIPYLKMLQGLANGPQCAHYCFSLLKVNGSSHVENIQGAGGSPVSWEHFFHSLMLYHEHLRKDLPSADSVQYRHLPSRGITQKEQDGLIAFLQLTSTIITWSENARLALCEHPQWTPVVVILGLLQCSIPPVLKAELLKTLAAFGKSPEIAASLWQSLEYTQILQTVRIPSQRQAIGIEVELNEIESRCEEYPLTRAFCQLISTLVESSFPSNLGAGLRPPGFDPYLQFLRDSVFLRFRTRAYRRAAEKWEVAEVVLEVFYKLLRDYEPQLEDFVDQFVELQGEEIIAYKPPGFSLMYHLLNESPMLELALSLLEEGVKQLDTYAPFPGKKHLEKAVQHCLALLNLTLQKENLFMDLLRESQLALIVCPLEQLLQGINPRTKKADNVVNIARYLYHGNTNPELAFESAKILCCISCNSNIQIKLVGDFTHDQSISQKLMAGFVECLDCEDAEEFVRLEEGSELEKKLVAIRHETRIHILNLLITSLECNPPNLALYLLGFELKKPVSTTNLQDPGVLGCPRTCLHAILNILEKGTEGRTGPVAVRESPQLAELCYQVIYQLCACSDTSGPTMRYLRTSQDFLFSQLQYLPFSNKEYEISMLNQMSWLMKTASIELRVTSLNRQRSHTQRLLHLLLDDMPVKPYSDGEGGIEDENRSVSGFLHFDTATKVRRKILNILDSIDFSQEIPEPLQLDFFDRAQIEQVIANCEHKNLRGQTVCNVKLLHRVLVAEVNALQGMAAIGQRPLLMEEISTVLQYVVGRNKLLQCLHAKRHALESWRQLVEIILTACPQDLIQAEDRQLIIRDILQDVHDKILDDEAAQELMPVVAGAVFTLTAHLSQAVLTEQKETSVLGPAEAHYAFMLDSCFTSPPPEENPLVGFASIGDSSLYIILKKLLDFILKTGGGFQRVRTHLYGSLLYYLQIAQRPDEPDTLEAAKKTMWERLTAPEDVFSKLQRENIAIIESYGAALMEVVCRDACDGHEIGRMLALALLDRIVSVDKQQQWLLYLSNSGYLKVLVDSLVEDDRTLQSLLTPQPPLLKALYTYESKMAFLTRVAKIQQGALELLRSGVIVRLAQCQVYDMRPETDPQSMFGMRDPPMFIPTPVDRYRQILLPALQLCQVILTSSMAQHLQAAGQVLQFLISHSDTIQAILRCQDVSAGSLQELALLTGIISKAALPGILSELDVDVNEGSLMELQGHIGRFQRQCLGLLSRFGGSDRLRQFKFQDDNVEGDKVSKKDEIELAMQQICANVMEYCQSLMLQSSPTFQHAVCLFTPSLSETVNRDGPRQDTQAPVVPYWRLPGLGIIIYLLKQSANDFFSYYDSHRQSVSKLQNVEQLPPDEIKELCQSVMPAGVDKISTAQKYVLARRRLVKVINNRAKLLSLCSFIIETCLFILWRHLEYYLLHCMPTDSQDSLFASRTLFKSRRLQDSFASETNLDFRSGLAIVSQHDLDQLQADAINAFGESLQKKLLDIEGLYSKVRSRYSFIQALVRRIRGLLRISRN"
+      },
+      "uniProtkbId": "NU205_HUMAN"
+    }
+  ]
+}

@@ -1,0 +1,928 @@
+{
+  "data": {
+    "credibleSets": {
+      "count": 2,
+      "rows": [
+        {
+          "beta": 0.0113937002302732,
+          "chromosome": "7",
+          "colocalisation": {
+            "count": 23,
+            "rows": [
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.003919094914227597,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.8132456733341942,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "EFO_0005292",
+                      "biosampleName": "lymphoblastoid cell line"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "interferon regulatory factor 5",
+                      "approvedSymbol": "IRF5",
+                      "id": "ENSG00000128604"
+                    },
+                    "traitFromSource": "ENST00000465603"
+                  },
+                  "studyId": "cap_tx_lcl_naive_enst00000465603",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.0035888001763769977,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7994450484478013,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001013",
+                      "biosampleName": "adipose tissue"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "interferon regulatory factor 5",
+                      "approvedSymbol": "IRF5",
+                      "id": "ENSG00000128604"
+                    },
+                    "traitFromSource": "ENSG00000128604.20_7_128947307_128947336"
+                  },
+                  "studyId": "twinsuk_exon_fat_ensg00000128604_20_7_128947307_128947336",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.003587465905766493,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7993851833978786,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "EFO_0005292",
+                      "biosampleName": "lymphoblastoid cell line"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "interferon regulatory factor 5",
+                      "approvedSymbol": "IRF5",
+                      "id": "ENSG00000128604"
+                    },
+                    "traitFromSource": "ENST00000461416"
+                  },
+                  "studyId": "gtex_tx_lcl_enst00000461416",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.0034914666349051106,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7949825983916327,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "EFO_0004905",
+                      "biosampleName": "induced pluripotent stem cell"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "interferon regulatory factor 5",
+                      "approvedSymbol": "IRF5",
+                      "id": "ENSG00000128604"
+                    },
+                    "traitFromSource": "ENSG00000128604.20_7_128947296_128947306"
+                  },
+                  "studyId": "hipsci_exon_ipsc_ensg00000128604_20_7_128947296_128947306",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.0013351546477836905,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.59665785827672,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000473",
+                      "biosampleName": "testis"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "novel transcript",
+                      "approvedSymbol": "ENSG00000230626",
+                      "id": "ENSG00000230626"
+                    },
+                    "traitFromSource": "ENSG00000230626"
+                  },
+                  "studyId": "gtex_ge_testis_ensg00000230626",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.0029140626175064724,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7638331108896451,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001496",
+                      "biosampleName": "ascending aorta"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "interferon regulatory factor 5",
+                      "approvedSymbol": "IRF5",
+                      "id": "ENSG00000128604"
+                    },
+                    "traitFromSource": "ENSG00000128604.20_7_128947296_128947306"
+                  },
+                  "studyId": "gtex_exon_artery_aorta_ensg00000128604_20_7_128947296_128947306",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.019353977354306023,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9562938078505532,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0004550",
+                      "biosampleName": "gastroesophageal sphincter"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "interferon regulatory factor 5",
+                      "approvedSymbol": "IRF5",
+                      "id": "ENSG00000128604"
+                    },
+                    "traitFromSource": "ENSG00000128604.20_7_128947307_128947336"
+                  },
+                  "studyId": "gtex_exon_esophagus_gej_ensg00000128604_20_7_128947307_128947336",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.0049371179032317875,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.8459642070423852,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0006920",
+                      "biosampleName": "esophagus squamous epithelium"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "interferon regulatory factor 5",
+                      "approvedSymbol": "IRF5",
+                      "id": "ENSG00000128604"
+                    },
+                    "traitFromSource": "ENSG00000128604.20_7_128947296_128947306"
+                  },
+                  "studyId": "gtex_exon_esophagus_mucosa_ensg00000128604_20_7_128947296_128947306",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.00025897603895696093,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.22275210148941454,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000178",
+                      "biosampleName": "blood"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "transportin 3",
+                      "approvedSymbol": "TNPO3",
+                      "id": "ENSG00000064419"
+                    },
+                    "traitFromSource": "ENSG00000064419.14_7_128970148_128970315"
+                  },
+                  "studyId": "lepik_2017_exon_blood_ensg00000064419_14_7_128970148_128970315",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.005553602315115578,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.8607631693990258,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000235",
+                      "biosampleName": "macrophage"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "interferon regulatory factor 5",
+                      "approvedSymbol": "IRF5",
+                      "id": "ENSG00000128604"
+                    },
+                    "traitFromSource": "ENST00000465603"
+                  },
+                  "studyId": "alasoo_2018_tx_macrophage_naive_enst00000465603",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.009262195839487218,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9119173872539174,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "EFO_0005292",
+                      "biosampleName": "lymphoblastoid cell line"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "interferon regulatory factor 5",
+                      "approvedSymbol": "IRF5",
+                      "id": "ENSG00000128604"
+                    },
+                    "traitFromSource": "ENST00000465603"
+                  },
+                  "studyId": "cap_tx_lcl_statin_enst00000465603",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.0012478834576614862,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.5802655824473548,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000178",
+                      "biosampleName": "blood"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "transportin 3",
+                      "approvedSymbol": "TNPO3",
+                      "id": "ENSG00000064419"
+                    },
+                    "traitFromSource": "ENSG00000064419"
+                  },
+                  "studyId": "twinsuk_ge_blood_ensg00000064419",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.0046520010778506,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.8380093537708506,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0008367",
+                      "biosampleName": "breast epithelium"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "interferon regulatory factor 5",
+                      "approvedSymbol": "IRF5",
+                      "id": "ENSG00000128604"
+                    },
+                    "traitFromSource": "ENSG00000128604.20_7_128947296_128947306"
+                  },
+                  "studyId": "gtex_exon_breast_ensg00000128604_20_7_128947296_128947306",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.004528059339383775,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.8342909730420104,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0010414",
+                      "biosampleName": "omental fat pad"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "interferon regulatory factor 5",
+                      "approvedSymbol": "IRF5",
+                      "id": "ENSG00000128604"
+                    },
+                    "traitFromSource": "ENSG00000128604.20_7_128947296_128947306"
+                  },
+                  "studyId": "gtex_exon_adipose_visceral_ensg00000128604_20_7_128947296_128947306",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.0038300137795647163,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.8097132365382887,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000235",
+                      "biosampleName": "macrophage"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "interferon regulatory factor 5",
+                      "approvedSymbol": "IRF5",
+                      "id": "ENSG00000128604"
+                    },
+                    "traitFromSource": "ENSG00000128604.20_7_128947278_128947295"
+                  },
+                  "studyId": "alasoo_2018_exon_macrophage_salmonella_ensg00000128604_20_7_128947278_128947295",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.0014920417441213322,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.6231243606507112,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000473",
+                      "biosampleName": "testis"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "novel transcript",
+                      "approvedSymbol": "ENSG00000230626",
+                      "id": "ENSG00000230626"
+                    },
+                    "traitFromSource": "ENSG00000230626.4_7_129126518_129127633"
+                  },
+                  "studyId": "gtex_exon_testis_ensg00000230626_4_7_129126518_129127633",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.0017717282991424272,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.6626108520232848,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0002046",
+                      "biosampleName": "thyroid gland"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "interferon regulatory factor 5",
+                      "approvedSymbol": "IRF5",
+                      "id": "ENSG00000128604"
+                    },
+                    "traitFromSource": "ENSG00000128604.20_7_128947307_128947336"
+                  },
+                  "studyId": "gtex_exon_thyroid_ensg00000128604_20_7_128947307_128947336",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.0019096980740591944,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.6791990619558158,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001013",
+                      "biosampleName": "adipose tissue"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "interferon regulatory factor 5",
+                      "approvedSymbol": "IRF5",
+                      "id": "ENSG00000128604"
+                    },
+                    "traitFromSource": "ENST00000461416"
+                  },
+                  "studyId": "fusion_tx_adipose_naive_enst00000461416",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.0037397741762792186,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.8059967056585171,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001157",
+                      "biosampleName": "transverse colon"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "interferon regulatory factor 5",
+                      "approvedSymbol": "IRF5",
+                      "id": "ENSG00000128604"
+                    },
+                    "traitFromSource": "ENSG00000128604.20_7_128947307_128947336"
+                  },
+                  "studyId": "gtex_exon_colon_transverse_ensg00000128604_20_7_128947307_128947336",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.019857632689702833,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.957378315063327,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000545",
+                      "biosampleName": "T-helper 1 cell"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "interferon regulatory factor 5",
+                      "approvedSymbol": "IRF5",
+                      "id": "ENSG00000128604"
+                    },
+                    "traitFromSource": "ENST00000473745"
+                  },
+                  "studyId": "schmiedel_2018_tx_th1_memory_enst00000473745",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.004956308751253975,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.8464718385787751,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000178",
+                      "biosampleName": "blood"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "interferon regulatory factor 5",
+                      "approvedSymbol": "IRF5",
+                      "id": "ENSG00000128604"
+                    },
+                    "traitFromSource": "ENSG00000128604.grp_2.contained.ENST00000652525"
+                  },
+                  "studyId": "gtex_txrev_blood_ensg00000128604_grp_2_contained_enst00000652525",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.0034333678561036182,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7922235082075731,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000235",
+                      "biosampleName": "macrophage"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "interferon regulatory factor 5",
+                      "approvedSymbol": "IRF5",
+                      "id": "ENSG00000128604"
+                    },
+                    "traitFromSource": "ENSG00000128604.grp_2.contained.ENST00000650798"
+                  },
+                  "studyId": "alasoo_2018_txrev_macrophage_naive_ensg00000128604_grp_2_contained_enst00000650798",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.0027843267857335123,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7554926251778243,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001013",
+                      "biosampleName": "adipose tissue"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "interferon regulatory factor 5",
+                      "approvedSymbol": "IRF5",
+                      "id": "ENSG00000128604"
+                    },
+                    "traitFromSource": "ENST00000461416"
+                  },
+                  "studyId": "gtex_tx_adipose_subcutaneous_enst00000461416",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              }
+            ]
+          },
+          "confidence": "SuSiE fine-mapped credible set with in-sample LD",
+          "finemappingMethod": "SuSie",
+          "l2GPredictions": {
+            "count": 3,
+            "rows": [
+              {
+                "score": 0.10785400122404099,
+                "target": {
+                  "approvedName": "interferon regulatory factor 5",
+                  "approvedSymbol": "IRF5",
+                  "id": "ENSG00000128604"
+                }
+              },
+              {
+                "score": 0.08214461803436279,
+                "target": {
+                  "approvedName": "tetraspanin 33",
+                  "approvedSymbol": "TSPAN33",
+                  "id": "ENSG00000158457"
+                }
+              },
+              {
+                "score": 0.08173460513353348,
+                "target": {
+                  "approvedName": "transportin 3",
+                  "approvedSymbol": "TNPO3",
+                  "id": "ENSG00000064419"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -8,
+          "pValueMantissa": 2.8269999027252197,
+          "position": 129087740,
+          "purityMeanR2": 0.815138503986,
+          "purityMinR2": 0.350118357264,
+          "standardError": 0.0629756,
+          "studyId": "FINNGEN_R12_CHIRBIL_PRIM",
+          "studyLocusId": "158e85723499dcbffad3f3daa097473c",
+          "studyType": "gwas",
+          "variant": {
+            "id": "7_129087740_G_A",
+            "rsIds": [
+              "rs35354193"
+            ]
+          }
+        },
+        {
+          "beta": -0.0677146389392909,
+          "chromosome": "1",
+          "colocalisation": {
+            "count": 10,
+            "rows": [
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.035021429942847807,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9758117715341666,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000178",
+                      "biosampleName": "blood"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "interleukin 12 receptor subunit beta 2",
+                      "approvedSymbol": "IL12RB2",
+                      "id": "ENSG00000081985"
+                    },
+                    "traitFromSource": "ENSG00000081985.13_1_67395547_67395763"
+                  },
+                  "studyId": "lepik_2017_exon_blood_ensg00000081985_13_1_67395547_67395763",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.04252890377476916,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9801657827852087,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000178",
+                      "biosampleName": "blood"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "interleukin 12 receptor subunit beta 2",
+                      "approvedSymbol": "IL12RB2",
+                      "id": "ENSG00000081985"
+                    },
+                    "traitFromSource": "ENSG00000081985"
+                  },
+                  "studyId": "gtex_ge_blood_ensg00000081985",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.03613767410350049,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9765708438069617,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000623",
+                      "biosampleName": "natural killer cell"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "interleukin 12 receptor subunit beta 2",
+                      "approvedSymbol": "IL12RB2",
+                      "id": "ENSG00000081985"
+                    },
+                    "traitFromSource": "ENSG00000081985"
+                  },
+                  "studyId": "schmiedel_2018_ge_nk-cell_naive_ensg00000081985",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.05013933101056921,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9832722575534784,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000178",
+                      "biosampleName": "blood"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "interleukin 12 receptor subunit beta 2",
+                      "approvedSymbol": "IL12RB2",
+                      "id": "ENSG00000081985"
+                    },
+                    "traitFromSource": "ENSG00000081985"
+                  },
+                  "studyId": "lepik_2017_ge_blood_ensg00000081985",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.04348809159618685,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9806159727509075,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000178",
+                      "biosampleName": "blood"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "interleukin 12 receptor subunit beta 2",
+                      "approvedSymbol": "IL12RB2",
+                      "id": "ENSG00000081985"
+                    },
+                    "traitFromSource": "ENSG00000081985"
+                  },
+                  "studyId": "twinsuk_ge_blood_ensg00000081985",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.05942248750373073,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9860003895167584,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000623",
+                      "biosampleName": "natural killer cell"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "interleukin 12 receptor subunit beta 2",
+                      "approvedSymbol": "IL12RB2",
+                      "id": "ENSG00000081985"
+                    },
+                    "traitFromSource": "ILMN_1761921"
+                  },
+                  "studyId": "gilchrist_2021_microarray_nk-cell_naive_ilmn_1761921",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.03608991277364375,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9765393030541315,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000178",
+                      "biosampleName": "blood"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "interleukin 12 receptor subunit beta 2",
+                      "approvedSymbol": "IL12RB2",
+                      "id": "ENSG00000081985"
+                    },
+                    "traitFromSource": "ENSG00000081985.13_1_67395836_67396900"
+                  },
+                  "studyId": "gtex_exon_blood_ensg00000081985_13_1_67395836_67396900",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.0034148230926914075,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7914697463336455,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000624",
+                      "biosampleName": "CD4-positive, alpha-beta T cell"
+                    },
+                    "studyType": "sceqtl",
+                    "target": {
+                      "approvedName": "interleukin 12 receptor subunit beta 2",
+                      "approvedSymbol": "IL12RB2",
+                      "id": "ENSG00000081985"
+                    },
+                    "traitFromSource": "ENSG00000081985"
+                  },
+                  "studyId": "nathan_2022_ge_cd4__th17-1_ensg00000081985",
+                  "studyType": "sceqtl"
+                },
+                "rightStudyType": "sceqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.0015284859843339453,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.6289850472275708,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000624",
+                      "biosampleName": "CD4-positive, alpha-beta T cell"
+                    },
+                    "studyType": "sceqtl",
+                    "target": {
+                      "approvedName": "interleukin 12 receptor subunit beta 2",
+                      "approvedSymbol": "IL12RB2",
+                      "id": "ENSG00000081985"
+                    },
+                    "traitFromSource": "ENSG00000081985"
+                  },
+                  "studyId": "nathan_2022_ge_cd4__cd27__ensg00000081985",
+                  "studyType": "sceqtl"
+                },
+                "rightStudyType": "sceqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.03879362935715603,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9782053332420595,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000623",
+                      "biosampleName": "natural killer cell"
+                    },
+                    "studyType": "sceqtl",
+                    "target": {
+                      "approvedName": "interleukin 12 receptor subunit beta 2",
+                      "approvedSymbol": "IL12RB2",
+                      "id": "ENSG00000081985"
+                    },
+                    "traitFromSource": "ENSG00000081985"
+                  },
+                  "studyId": "onek1k_ge_nk_ensg00000081985",
+                  "studyType": "sceqtl"
+                },
+                "rightStudyType": "sceqtl"
+              }
+            ]
+          },
+          "confidence": "SuSiE fine-mapped credible set with in-sample LD",
+          "finemappingMethod": "SuSie",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.8427566289901733,
+                "target": {
+                  "approvedName": "interleukin 12 receptor subunit beta 2",
+                  "approvedSymbol": "IL12RB2",
+                  "id": "ENSG00000081985"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -9,
+          "pValueMantissa": 2.7839999198913574,
+          "position": 67336688,
+          "purityMeanR2": 0.823386943615,
+          "purityMinR2": 0.4983230464,
+          "standardError": 0.0791297,
+          "studyId": "FINNGEN_R12_CHIRBIL_PRIM",
+          "studyLocusId": "d5e296acb08a8e85a6504e3e7dd621a9",
+          "studyType": "gwas",
+          "variant": {
+            "id": "1_67336688_A_C",
+            "rsIds": [
+              "rs6659932"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

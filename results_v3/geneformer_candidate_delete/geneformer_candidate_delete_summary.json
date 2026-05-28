@@ -1,0 +1,250 @@
+{
+  "model": "Geneformer V2-104M",
+  "model_repo": "ctheodoris/Geneformer",
+  "revision": "04c2b2e84da7c0f385c3f9ad8f3ec24bab6650e5",
+  "checkpoint": "/Users/soeren.leibach/Projects/ms-auto-research/tmp_v3/foundation_wave6/geneformer_assets/Geneformer-V2-104M",
+  "parameters_loaded_encoder": 104365056,
+  "seed": 20260526,
+  "max_len": 512,
+  "max_disease_cells_per_context": 24,
+  "max_control_cells_per_context": 24,
+  "random_deletion_reps": 3,
+  "batch_size": 12,
+  "contexts": [
+    {
+      "context": "IBD_myeloid",
+      "h5ad": "data/raw_v3/cell_state/ibd_human_10x.h5ad",
+      "compartment": "myeloid cell",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 462.375
+    },
+    {
+      "context": "IBD_stromal",
+      "h5ad": "data/raw_v3/cell_state/ibd_human_10x.h5ad",
+      "compartment": "stromal cell of lamina propria of colon",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 512.0
+    },
+    {
+      "context": "IBD_epithelial",
+      "h5ad": "data/raw_v3/cell_state/ibd_human_10x.h5ad",
+      "compartment": "colon epithelial cell",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 474.375
+    },
+    {
+      "context": "psoriasis_keratinocyte",
+      "h5ad": "data/raw_v3/cell_state/psoriasis_skin.h5ad",
+      "compartment": "keratinocyte_family",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 512.0
+    },
+    {
+      "context": "t1d_acinar",
+      "h5ad": "data/raw_v3/cell_state/t1d_hpap_islet.h5ad",
+      "compartment": "pancreatic acinar cell",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 509.3333333333333
+    },
+    {
+      "context": "t1d_stellate",
+      "h5ad": "data/raw_v3/cell_state/t1d_hpap_islet.h5ad",
+      "compartment": "pancreatic stellate cell",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 507.2291666666667
+    },
+    {
+      "context": "t1d_endothelial",
+      "h5ad": "data/raw_v3/cell_state/t1d_hpap_islet.h5ad",
+      "compartment": "endothelial cell",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 491.8125
+    },
+    {
+      "context": "sjogren_APC",
+      "h5ad": "data/raw_v3/cell_state/sjogren_salivary.h5ad",
+      "compartment": "salivary_APC",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 456.625
+    }
+  ],
+  "candidate_genes": [
+    "LTA4H",
+    "CHI3L1",
+    "C15ORF48",
+    "SNX10",
+    "CBX3",
+    "FMNL2",
+    "TNFAIP8L1",
+    "HIF1A",
+    "TGM2",
+    "STAT1",
+    "IFITM2",
+    "IFITM3",
+    "CFB",
+    "MMP7",
+    "SERPINA1",
+    "LIPA"
+  ],
+  "metric": "delete candidate token; positive cosine/projection shift means disease-cell embedding moved toward matched control centroid",
+  "limitations": [
+    "custom lightweight Geneformer embedding-deletion screen, not the official InSilicoPerturberStats workflow",
+    "input h5ads are assumed count-like; no independent raw-layer verification was performed",
+    "candidate-expressing disease cells were enriched to test candidate axes, so effect sizes are not population estimates",
+    "embedding shifts are model hypotheses and not expression log2FC or causal perturbation evidence"
+  ],
+  "posthoc_gene_summary": [
+    {
+      "gene": "IFITM3",
+      "contexts_with_token": 8,
+      "disease_cells_with_token": 45,
+      "mean_cosine_shift": 0.00018867070230044455,
+      "mean_projection_shift": 0.023929569637402864,
+      "mean_cosine_z_vs_random": 0.43396031683925373,
+      "support_contexts": 3
+    },
+    {
+      "gene": "CBX3",
+      "contexts_with_token": 8,
+      "disease_cells_with_token": 34,
+      "mean_cosine_shift": -0.0001073785697371841,
+      "mean_projection_shift": 0.010737664822954688,
+      "mean_cosine_z_vs_random": 0.10882467268737125,
+      "support_contexts": 3
+    },
+    {
+      "gene": "LIPA",
+      "contexts_with_token": 2,
+      "disease_cells_with_token": 6,
+      "mean_cosine_shift": 0.00076300901127975,
+      "mean_projection_shift": -0.0045194975100458,
+      "mean_cosine_z_vs_random": 1.2860612190027743,
+      "support_contexts": 2
+    },
+    {
+      "gene": "HIF1A",
+      "contexts_with_token": 7,
+      "disease_cells_with_token": 35,
+      "mean_cosine_shift": 0.0002165655283273955,
+      "mean_projection_shift": 0.012123540908630373,
+      "mean_cosine_z_vs_random": 0.44803584794293144,
+      "support_contexts": 2
+    },
+    {
+      "gene": "SNX10",
+      "contexts_with_token": 3,
+      "disease_cells_with_token": 10,
+      "mean_cosine_shift": -0.00031224886576333336,
+      "mean_projection_shift": -0.05018217240770656,
+      "mean_cosine_z_vs_random": -0.04878839506809818,
+      "support_contexts": 2
+    },
+    {
+      "gene": "STAT1",
+      "contexts_with_token": 4,
+      "disease_cells_with_token": 19,
+      "mean_cosine_shift": -0.0002001350221689796,
+      "mean_projection_shift": -0.0067717855563387275,
+      "mean_cosine_z_vs_random": -0.16488669814147958,
+      "support_contexts": 2
+    },
+    {
+      "gene": "MMP7",
+      "contexts_with_token": 2,
+      "disease_cells_with_token": 5,
+      "mean_cosine_shift": 0.0027970969676970945,
+      "mean_projection_shift": 0.1135060116648674,
+      "mean_cosine_z_vs_random": 1.992538219045452,
+      "support_contexts": 1
+    },
+    {
+      "gene": "CFB",
+      "contexts_with_token": 2,
+      "disease_cells_with_token": 5,
+      "mean_cosine_shift": 0.0003207325935363,
+      "mean_projection_shift": 0.022645343095064146,
+      "mean_cosine_z_vs_random": 1.1214706127878213,
+      "support_contexts": 1
+    },
+    {
+      "gene": "TGM2",
+      "contexts_with_token": 5,
+      "disease_cells_with_token": 8,
+      "mean_cosine_shift": 0.0004715859889983601,
+      "mean_projection_shift": 0.04559056796133512,
+      "mean_cosine_z_vs_random": 1.0417667842724971,
+      "support_contexts": 1
+    },
+    {
+      "gene": "IFITM2",
+      "contexts_with_token": 4,
+      "disease_cells_with_token": 17,
+      "mean_cosine_shift": 0.0003741532564163,
+      "mean_projection_shift": 0.030565524473786326,
+      "mean_cosine_z_vs_random": 0.6992429291872189,
+      "support_contexts": 1
+    },
+    {
+      "gene": "FMNL2",
+      "contexts_with_token": 3,
+      "disease_cells_with_token": 6,
+      "mean_cosine_shift": 8.19166501363013e-05,
+      "mean_projection_shift": 0.025706159571806567,
+      "mean_cosine_z_vs_random": 0.2032369402400059,
+      "support_contexts": 1
+    },
+    {
+      "gene": "CHI3L1",
+      "contexts_with_token": 4,
+      "disease_cells_with_token": 18,
+      "mean_cosine_shift": -0.000145683065056775,
+      "mean_projection_shift": 0.044097425416111946,
+      "mean_cosine_z_vs_random": 0.17063192468689004,
+      "support_contexts": 1
+    },
+    {
+      "gene": "SERPINA1",
+      "contexts_with_token": 5,
+      "disease_cells_with_token": 11,
+      "mean_cosine_shift": -4.471857682802694e-05,
+      "mean_projection_shift": -0.0027166779153048994,
+      "mean_cosine_z_vs_random": 0.08792901280630513,
+      "support_contexts": 1
+    },
+    {
+      "gene": "TNFAIP8L1",
+      "contexts_with_token": 2,
+      "disease_cells_with_token": 7,
+      "mean_cosine_shift": -0.00040482481563229995,
+      "mean_projection_shift": -0.0013163089752197508,
+      "mean_cosine_z_vs_random": -1.1933510249122752,
+      "support_contexts": 1
+    },
+    {
+      "gene": "LTA4H",
+      "contexts_with_token": 4,
+      "disease_cells_with_token": 6,
+      "mean_cosine_shift": -0.0002886404690798,
+      "mean_projection_shift": -0.00278497114777565,
+      "mean_cosine_z_vs_random": -0.1980664279672803,
+      "support_contexts": 0
+    }
+  ],
+  "posthoc_support_rule": "candidate_support_flag requires >=3 disease cells with token and both cosine and projection shift exceeding context random deletion means."
+}

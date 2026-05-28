@@ -1,0 +1,4 @@
+blocker	severity	affected_claim	details
+proper_target_resolved_coloc_or_mr_not_available_locally	claim_blocking	cross-disease genetic anchoring of central node	Wave14 truth table marks every active candidate as no for proper_coloc_or_mr_feasible_this_run. Available GWAS Catalog and Open Targets rows are locus or mapped-gene evidence, not paired SNP-level disease GWAS and molecular QTL summary statistics.
+open_gwas_auth_barrier_recorded_in_prior_wave	claim_blocking	MR/coloc using OpenGWAS disease summary statistics	Wave14 recorded OpenGWAS auth barrier. This script does not silently replace MR with mapped-gene counts.
+foundation_model_proxy_not_causal	promotion_blocking	node perturbation causes disease module reversal	Geneformer deletion/context shifts are retained only as weak perturbation context and are overridden by real perturbation contradiction or do-not-promote calls.

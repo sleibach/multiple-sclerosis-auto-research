@@ -1,0 +1,62 @@
+{
+  "payload": {
+    "hitCount": 252,
+    "nextCursorMark": "AoIIQOJTVCg1NDUxNTM1OA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PSMA6 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQOJTVCg1NDUxNTM1OA==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "PSMA6 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Nasre-Nasser RG, Meireles Vieira AC, Pellenz FM, Moretto L, Girardi E, Assmann TS, Lu CH, Canani LH, Dieter C, Crispim D.",
+          "citedByCount": 0,
+          "doi": "10.3390/metabo15120772",
+          "firstIndexDate": "2025-12-24",
+          "firstPublicationDate": "2025-11-28",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12734831"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "41441015",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "12",
+          "journalIssn": "2218-1989",
+          "journalTitle": "Metabolites",
+          "journalVolume": "15",
+          "pageInfo": "772",
+          "pmcid": "PMC12734831",
+          "pmid": "41441015",
+          "pubType": "research-article; journal article",
+          "pubYear": "2025",
+          "source": "MED",
+          "title": "Zinc-Related Proteasome Variants in Type 1 Diabetes: An in Silico-Guided Case-Control Study.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "refsnp",
+              "pdb"
+            ]
+          }
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PSMA6+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

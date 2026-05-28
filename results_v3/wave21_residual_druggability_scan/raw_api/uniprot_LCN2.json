@@ -1,0 +1,444 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ALCN2%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P11672",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "12453413",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15642259",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20581821",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "21978368",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "27780864",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Iron-trafficking protein involved in multiple processes such as apoptosis, innate immunity and renal development (PubMed:12453413, PubMed:20581821, PubMed:27780864). Binds iron through association with 2,3-dihydroxybenzoic acid (2,3-DHBA), a siderophore that shares structural similarities with bacterial enterobactin, and delivers or removes iron from the cell, depending on the context. Iron-bound form (holo-24p3) is internalized following binding to the SLC22A17 (24p3R) receptor, leading to release of iron and subsequent increase of intracellular iron concentration. In contrast, association of the iron-free form (apo-24p3) with the SLC22A17 (24p3R) receptor is followed by association with an intracellular siderophore, iron chelation and iron transfer to the extracellular medium, thereby reducing intracellular iron concentration. Involved in apoptosis due to interleukin-3 (IL3) deprivation: iron-loaded form increases intracellular iron concentration without promoting apoptosis, while iron-free form decreases intracellular iron levels, inducing expression of the proapoptotic protein BCL2L11/BIM, resulting in apoptosis (By similarity). Involved in innate immunity; limits bacterial proliferation by sequestering iron bound to microbial siderophores, such as enterobactin (PubMed:27780864). Can also bind siderophores from M.tuberculosis (PubMed:15642259, PubMed:21978368)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P11672",
+                    "source": "UniProtKB"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "12453413",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "20581821",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Upon binding to the SLC22A17 (24p3R) receptor, it is internalized (By similarity). Releases the bound iron in the acidic lumen of cytoplasmic vesicles (PubMed:12453413, PubMed:20581821)"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "12453413",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "27780864",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "7683678",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "8298140",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0324",
+                "value": "Cytoplasmic granule lumen"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "12453413",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0325",
+                "value": "Cytoplasmic vesicle lumen"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000012FFEF"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1X89",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1X8U",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:178051"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:178051",
+            "name": "a carboxymycobactin"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 74
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 72
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3CMP",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:77805"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:77805",
+            "name": "enterobactin"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 126
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 126
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15642259",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1X89",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1X8U",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:178051"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:178051",
+            "name": "a carboxymycobactin"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 145
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 145
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15642259",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1X89",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1X8U",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:178051"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:178051",
+            "name": "a carboxymycobactin"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 154
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 154
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3CMP",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:77805"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:77805",
+            "name": "enterobactin"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 154
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 154
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15642259",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1X89",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1X8U",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:178051"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:178051",
+            "name": "a carboxymycobactin"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 158
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 158
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "LCN2"
+          },
+          "synonyms": [
+            {
+              "value": "HNL"
+            },
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "8060329",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "NGAL"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P80188",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "1281792",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "25 kDa alpha-2-microglobulin-related subunit of MMP-9"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Lipocalin-2"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Oncogene 24p3"
+            }
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "15642259",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "20581821",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Siderocalin"
+            }
+          },
+          {
+            "fullName": {
+              "value": "p25"
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "id": "9339356",
+                "source": "PubMed"
+              }
+            ],
+            "value": "Neutrophil gelatinase-associated lipocalin"
+          },
+          "shortNames": [
+            {
+              "value": "NGAL"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

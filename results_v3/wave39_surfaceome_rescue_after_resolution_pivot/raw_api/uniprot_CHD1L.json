@@ -1,0 +1,335 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "19661379",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "29220652",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "29220653",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "33275888",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "33357431",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "34210977",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "34486521",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "34874266",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "ATP-dependent chromatin remodeler that mediates chromatin-remodeling following DNA damage (PubMed:19661379, PubMed:29220652, PubMed:29220653, PubMed:33357431, PubMed:34210977, PubMed:34486521, PubMed:34874266). Recruited to DNA damage sites through interaction with poly-ADP-ribose: specifically recognizes and binds histones that are poly-ADP-ribosylated on serine residues in response to DNA damage (PubMed:19661379, PubMed:29220652, PubMed:29220653, PubMed:34486521, PubMed:34874266). Poly-ADP-ribose-binding activates the ATP-dependent chromatin remodeler activity, thereby regulating chromatin during DNA repair (PubMed:19661379, PubMed:29220652, PubMed:29220653, PubMed:34486521, PubMed:34874266). Catalyzes nucleosome sliding away from DNA breaks in an ATP-dependent manner (PubMed:19661379, PubMed:29220652, PubMed:29220653). Chromatin remodeling activity promotes PARP2 removal from chromatin (PubMed:33275888)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "34486521",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "34874266",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Localizes at sites of DNA damage; recruited by histones H2B and H3 poly-ADP-ribosylated on 'Ser-6' and 'Ser-10', respectively (H2BS6ADPr and H3S10ADPr) by PARP1 or PARP2"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "19661379",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0191",
+                "value": "Nucleus"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "19661379",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "29220652",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "34486521",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "34874266",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0468",
+                "value": "Chromosome"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000000D7F1"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00541",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:30616"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:30616",
+            "name": "ATP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 78
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 71
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "id": "34210977",
+                "source": "PubMed"
+              },
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:1916",
+                "source": "HGNC"
+              }
+            ],
+            "value": "CHD1L"
+          },
+          "synonyms": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "18023026",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "ALC1"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0067",
+          "name": "ATP-binding"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0156",
+          "name": "Chromatin regulator"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0158",
+          "name": "Chromosome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0175",
+          "name": "Coiled coil"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0227",
+          "name": "DNA damage"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0234",
+          "name": "DNA repair"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0378",
+          "name": "Hydrolase"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0488",
+          "name": "Methylation"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0547",
+          "name": "Nucleotide-binding"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0539",
+          "name": "Nucleus"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        }
+      ],
+      "primaryAccession": "Q86WJ1",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "18023026",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Amplified in liver cancer protein 1"
+            }
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000305"
+                }
+              ],
+              "value": "Chromo domain-containing protein 1-like"
+            }
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "29220652",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "29220653",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "34486521",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "3.6.4.-"
+            }
+          ],
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "ATP-dependent chromatin remodeler CHD1L"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "226A1F8A44A8F9FE",
+        "length": 897,
+        "md5": "E9FDBEED0F51D38C0FFD8F3E0E388420",
+        "molWeight": 101000,
+        "value": "MERAGATSRGGQAPGFLLRLHTEGRAEAARVQEQDLRQWGLTGIHLRSYQLEGVNWLAQRFHCQNGCILGDEMGLGKTCQTIALFIYLAGRLNDEGPFLILCPLSVLSNWKEEMQRFAPGLSCVTYAGDKEERACLQQDLKQESRFHVLLTTYEICLKDASFLKSFPWSVLVVDEAHRLKNQSSLLHKTLSEFSVVFSLLLTGTPIQNSLQELYSLLSFVEPDLFSKEEVGDFIQRYQDIEKESESASELHKLLQPFLLRRVKAEVATELPKKTEVVIYHGMSALQKKYYKAILMKDLDAFENETAKKVKLQNILSQLRKCVDHPYLFDGVEPEPFEVGDHLTEASGKLHLLDKLLAFLYSGGHRVLLFSQMTQMLDILQDYMDYRGYSYERVDGSVRGEERHLAIKNFGQQPIFVFLLSTRAGGVGMNLTAADTVIFVDSDFNPQNDLQAAARAHRIGQNKSVKVIRLIGRDTVEEIVYRKAASKLQLTNMIIEGGHFTLGAQKPAADADLQLSEILKFGLDKLLASEGSTMDEIDLESILGETKDGQWVSDALPAAEGGSRDQEEGKNHMYLFEGKDYSKEPSKEDRKSFEQLVNLQKTLLEKASQEGRSLRNKGSVLIPGLVEGSTKRKRVLSPEELEDRQKKRQEAAAKRRRLIEEKKRQKEEAEHKKKMAWWESNNYQSFCLPSEESEPEDLENGEESSAELDYQDPDATSLKYVSGDVTHPQAGAEDALIVHCVDDSGHWGRGGLFTALEKRSAEPRKIYELAGKMKDLSLGGVLLFPVDDKESRNKGQDLLALIVAQHRDRSNVLSGIKMAALEEGLKKIFLAAKKKKASVHLPRIGHATKGFNWYGTERLIRKHLAARGIPTYIYYFPRSKSAVLHSQSSSSSSRQLVP"
+      },
+      "uniProtkbId": "CHD1L_HUMAN"
+    }
+  ]
+}

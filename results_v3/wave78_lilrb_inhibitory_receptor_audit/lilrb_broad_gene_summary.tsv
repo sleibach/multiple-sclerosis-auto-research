@@ -1,0 +1,11 @@
+gene	contexts_tested	positive_contexts	negative_contexts	positive_disease_count	positive_diseases	negative_disease_count	negative_diseases	best_context	best_disease	best_delta_log2_cpm	best_p	best_fdr
+LILRB2	4	2	0	2	Crohn disease;ulcerative colitis	0		ibd_crohn_myeloid	Crohn disease	1.382927902896547	0.0003013440684522	0.0707039508712539
+LILRB1	11	2	0	2	Crohn disease;ulcerative colitis	0		ibd_crohn_myeloid	Crohn disease	1.2685207059737822	0.0067444519845198	0.2022841929409326
+LILRB3	14	2	0	2	Crohn disease;ulcerative colitis	0		ibd_uc_myeloid	ulcerative colitis	1.687098638235085	0.0067757516671768	0.2006216494656879
+LAIR1	14	2	2	1	type 1 diabetes mellitus	2	Crohn disease;ulcerative colitis	ibd_crohn_myeloid	Crohn disease	-0.8834440086786666	0.0046514946993377	0.173821630796644
+CD300LF	8	1	0	1	psoriasis	0		psoriasis_skin_apc	psoriasis	2.2457988966876004	0.0329241262330017	0.7297013371935511
+FCGR2B	12	0	1	0		1	ulcerative colitis	ibd_uc_stromal	ulcerative colitis	-1.9336392204694344	0.0088692330685497	0.2054788347710989
+LILRB5	6	0	1	0		1	ulcerative colitis	ibd_uc_myeloid	ulcerative colitis	-3.2371692085789165	0.0169885057443839	0.2764327537810835
+LILRB4	10	0	0	0		0		t1d_ductal_cell	type 1 diabetes mellitus	0.3284962767241583	0.0459972007873847	0.4707506789833656
+INPP5D	16	0	0	0		0		psoriasis_skin_stromal	psoriasis	0.7026181370813367	0.0752318138372423	0.5993454891676563
+CD300A	13	0	0	0		0		psoriasis_keratinocyte	psoriasis	-0.279963990845793	0.0803941779377561	0.4327782574887212

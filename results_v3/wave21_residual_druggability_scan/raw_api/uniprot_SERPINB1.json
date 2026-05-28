@@ -1,0 +1,163 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ASERPINB1%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11747453",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "23269243",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "26701651",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "30692621",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Neutrophil serine protease inhibitor that plays an essential role in the regulation of the innate immune response, inflammation and cellular homeostasis (PubMed:30692621). Acts primarily to protect the cell from proteases released in the cytoplasm during stress or infection. These proteases are important in killing microbes but when released from granules, these potent enzymes also destroy host proteins and contribute to mortality. Regulates the activity of the neutrophil proteases elastase, cathepsin G, proteinase-3, chymase, chymotrypsin, and kallikrein-3 (PubMed:11747453, PubMed:30692621). Also acts as a potent intracellular inhibitor of GZMH by directly blocking its proteolytic activity (PubMed:23269243). During inflammation, limits the activity of inflammatory caspases CASP1, CASP4 and CASP5 by suppressing their caspase-recruitment domain (CARD) oligomerization and enzymatic activation (PubMed:30692621). When secreted, promotes the proliferation of beta-cells via its protease inhibitory function (PubMed:26701651)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "26701651",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "23269243",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "23269243",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0543",
+                "value": "Cytolytic granule"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "23269243",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0094",
+                "value": "Early endosome"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000012D514"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "SERPINB1"
+          },
+          "synonyms": [
+            {
+              "value": "ELANH2"
+            },
+            {
+              "value": "MNEI"
+            },
+            {
+              "value": "PI2"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P30740",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Monocyte/neutrophil elastase inhibitor"
+            },
+            "shortNames": [
+              {
+                "value": "EI"
+              },
+              {
+                "value": "M/NEI"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Peptidase inhibitor 2"
+            },
+            "shortNames": [
+              {
+                "value": "PI-2"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Serpin B1"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Leukocyte elastase inhibitor"
+          },
+          "shortNames": [
+            {
+              "value": "LEI"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

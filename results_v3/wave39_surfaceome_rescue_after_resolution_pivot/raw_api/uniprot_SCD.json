@@ -1,0 +1,921 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P13516",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15610069",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15907797",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "18765284",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Stearoyl-CoA desaturase that utilizes O(2) and electrons from reduced cytochrome b5 to introduce the first double bond into saturated fatty acyl-CoA substrates (PubMed:15907797, PubMed:18765284). Catalyzes the insertion of a cis double bond at the delta-9 position into fatty acyl-CoA substrates including palmitoyl-CoA and stearoyl-CoA (PubMed:15907797, PubMed:18765284). Gives rise to a mixture of 16:1 and 18:1 unsaturated fatty acids (PubMed:15610069). Plays an important role in lipid biosynthesis. Plays an important role in regulating the expression of genes that are involved in lipogenesis and in regulating mitochondrial fatty acid oxidation (By similarity). Plays an important role in body energy homeostasis (By similarity). Contributes to the biosynthesis of membrane phospholipids, cholesterol esters and triglycerides (By similarity)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15907797",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0097",
+                "value": "Endoplasmic reticulum membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "18765284",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-9909",
+                "value": "Multi-pass membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00001252D2"
+      },
+      "features": [
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 72
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 1
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 93
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 73
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Lumenal",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 97
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 94
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 118
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 98
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 217
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 119
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 237
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 218
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Lumenal",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 241
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 238
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 263
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 242
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 359
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 264
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 75
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 75
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:24875"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:24875",
+            "label": "1",
+            "name": "Fe cation"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 120
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 120
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:24875"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:24875",
+            "label": "1",
+            "name": "Fe cation"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 125
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 125
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 148
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 148
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 155
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 155
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 156
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 156
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:24875"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:24875",
+            "label": "1",
+            "name": "Fe cation"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 157
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 157
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:24875"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:24875",
+            "label": "2",
+            "name": "Fe cation"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 160
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 160
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:24875"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:24875",
+            "label": "1",
+            "name": "Fe cation"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 161
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 161
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 188
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 188
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 189
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 189
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 262
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 262
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:24875"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:24875",
+            "label": "2",
+            "name": "Fe cation"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 269
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 269
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:24875"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:24875",
+            "label": "2",
+            "name": "Fe cation"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 298
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 298
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:24875"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:24875",
+            "label": "1",
+            "name": "Fe cation"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 301
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 301
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "26098317",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:24875"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:24875",
+            "label": "2",
+            "name": "Fe cation"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 302
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 302
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "SCD"
+          },
+          "synonyms": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000312",
+                  "id": "HGNC:10571",
+                  "source": "HGNC"
+                }
+              ],
+              "value": "FADS5"
+            },
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "15610069",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "SCD1"
+            },
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000312",
+                  "id": "HGNC:10571",
+                  "source": "HGNC"
+                }
+              ],
+              "value": "SCDOS"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-0903",
+          "name": "Direct protein sequencing"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0256",
+          "name": "Endoplasmic reticulum"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0275",
+          "name": "Fatty acid biosynthesis"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0276",
+          "name": "Fatty acid metabolism"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0408",
+          "name": "Iron"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0444",
+          "name": "Lipid biosynthesis"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0443",
+          "name": "Lipid metabolism"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0479",
+          "name": "Metal-binding"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0560",
+          "name": "Oxidoreductase"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        }
+      ],
+      "primaryAccession": "O00767",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Acyl-CoA desaturase"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Delta(9)-desaturase"
+            },
+            "shortNames": [
+              {
+                "value": "Delta-9 desaturase"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Fatty acid desaturase"
+            }
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15610069",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15907797",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "18765284",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "1.14.19.1"
+            }
+          ],
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "id": "18765284",
+                "source": "PubMed"
+              }
+            ],
+            "value": "Stearoyl-CoA desaturase"
+          },
+          "shortNames": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "15907797",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "hSCD1"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "ED56A63DBD850F05",
+        "length": 359,
+        "md5": "D03CE57FBF3FA859D5514631C5FEF9B8",
+        "molWeight": 41523,
+        "value": "MPAHLLQDDISSSYTTTTTITAPPSRVLQNGGDKLETMPLYLEDDIRPDIKDDIYDPTYKDKEGPSPKVEYVWRNIILMSLLHLGALYGITLIPTCKFYTWLWGVFYYFVSALGITAGAHRLWSHRSYKARLPLRLFLIIANTMAFQNDVYEWARDHRAHHKFSETHADPHNSRRGFFFSHVGWLLVRKHPAVKEKGSTLDLSDLEAEKLVMFQRRYYKPGLLMMCFILPTLVPWYFWGETFQNSVFVATFLRYAVVLNATWLVNSAAHLFGYRPYDKNISPRENILVSLGAVGEGFHNYHHSFPYDYSASEYRWHINFTTFFIDCMAALGLAYDRKKVSKAAILARIKRTGDGNYKSG"
+      },
+      "uniProtkbId": "SCD_HUMAN"
+    }
+  ]
+}

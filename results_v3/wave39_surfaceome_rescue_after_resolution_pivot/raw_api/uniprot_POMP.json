@@ -1,0 +1,230 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15944226",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "16251969",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17948026",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Molecular chaperone essential for the assembly of standard proteasomes and immunoproteasomes. Degraded after completion of proteasome maturation. Mediates the association of 20S preproteasome with the endoplasmic reticulum"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0091",
+                "value": "Cytoplasm, cytosol"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0191",
+                "value": "Nucleus"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0165",
+                "value": "Microsome membrane"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000006E3C4"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:20330",
+                "source": "HGNC"
+              }
+            ],
+            "value": "POMP"
+          },
+          "orfNames": [
+            {
+              "value": "HSPC014"
+            },
+            {
+              "value": "HSPC036"
+            },
+            {
+              "value": "PNAS-110"
+            }
+          ],
+          "synonyms": [
+            {
+              "value": "C13orf12"
+            },
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "23495936",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "UMP1"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0143",
+          "name": "Chaperone"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0963",
+          "name": "Cytoplasm"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-0903",
+          "name": "Direct protein sequencing"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0256",
+          "name": "Endoplasmic reticulum"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0977",
+          "name": "Ichthyosis"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-1017",
+          "name": "Isopeptide bond"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0492",
+          "name": "Microsome"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0539",
+          "name": "Nucleus"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-1007",
+          "name": "Palmoplantar keratoderma"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0832",
+          "name": "Ubl conjugation"
+        }
+      ],
+      "primaryAccession": "Q9Y244",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Proteassemblin"
+            }
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "23495936",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Protein UMP1 homolog"
+            },
+            "shortNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "23495936",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "hUMP1"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Voltage-gated K channel beta subunit 4.1"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Proteasome maturation protein"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "2136624D232EF1C7",
+        "length": 141,
+        "md5": "5E6FEDFD0C8A0C56744A26412ECD5C70",
+        "molWeight": 15789,
+        "value": "MNARGLGSELKDSIPVTELSASGPFESHDLLRKGFSCVKNELLPSHPLELSEKNFQLNQDKMNFSTLRNIQGLFAPLKLQMEFKAVQQVQRLPFLSSSNLSLDVLRGNDETIGFEDILNDPSQSEVMGEPHLMVEYKLGLL"
+      },
+      "uniProtkbId": "POMP_HUMAN"
+    }
+  ]
+}

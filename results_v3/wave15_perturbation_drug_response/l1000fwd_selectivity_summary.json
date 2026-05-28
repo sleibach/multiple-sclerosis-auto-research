@@ -1,0 +1,36 @@
+{
+  "api": "https://maayanlab.cloud/L1000FWD",
+  "errors": {},
+  "interpretation_guardrail": "L1000FWD results are cell-line signature similarities. They nominate compounds whose LINCS signatures oppose the input module; they do not provide direct antigen-presentation or viability assays.",
+  "queries": {
+    "generic_ifn_jak": {
+      "down": [],
+      "up": [
+        "STAT1",
+        "IRF1",
+        "CXCL10",
+        "GBP1",
+        "ISG15",
+        "IFIT1"
+      ]
+    },
+    "target_antigen_presentation": {
+      "down": [],
+      "up": [
+        "CD74",
+        "CIITA",
+        "RFX5",
+        "IFI30",
+        "CTSS",
+        "HLA-DRA",
+        "HLA-DRB1",
+        "HLA-DPA1",
+        "HLA-DPB1",
+        "HLA-DQA1",
+        "HLA-DQB1",
+        "HLA-DMA",
+        "HLA-DMB"
+      ]
+    }
+  }
+}

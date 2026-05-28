@@ -1,0 +1,321 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3AGSTO1%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "10783391",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11511179",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17226937",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "18028863",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "21106529",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Exhibits glutathione-dependent thiol transferase and dehydroascorbate reductase activities. Has S-(phenacyl)glutathione reductase activity. Also has glutathione S-transferase activity. Participates in the biotransformation of inorganic arsenic and reduces monomethylarsonic acid (MMA) and dimethylarsonic acid"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "11511179",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0091",
+                "value": "Cytoplasm, cytosol"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00000465CE"
+      },
+      "features": [
+        {
+          "description": "Nucleophile",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10783391",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 32
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 32
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10783391",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "21106529",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57925"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57925",
+            "name": "glutathione"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 59
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 59
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10783391",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "21106529",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57925"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57925",
+            "name": "glutathione"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 72
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 72
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10783391",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "21106529",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57925"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57925",
+            "name": "glutathione"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 86
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 85
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "GSTO1"
+          },
+          "synonyms": [
+            {
+              "value": "GSTTLP28"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P78417",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Glutathione S-transferase omega 1-1"
+            },
+            "shortNames": [
+              {
+                "value": "GSTO 1-1"
+              }
+            ]
+          },
+          {
+            "ecNumbers": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "10783391",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "11511179",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "1.8.5.1"
+              }
+            ],
+            "fullName": {
+              "value": "Glutathione-dependent dehydroascorbate reductase"
+            }
+          },
+          {
+            "ecNumbers": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "11511179",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "1.20.4.2"
+              }
+            ],
+            "fullName": {
+              "value": "Monomethylarsonic acid reductase"
+            },
+            "shortNames": [
+              {
+                "value": "MMA(V) reductase"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "S-(Phenacyl)glutathione reductase"
+            },
+            "shortNames": [
+              {
+                "value": "SPG-R"
+              }
+            ]
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "10783391",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11511179",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17226937",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "18028863",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "21106529",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "2.5.1.18"
+            }
+          ],
+          "fullName": {
+            "value": "Glutathione S-transferase omega-1"
+          },
+          "shortNames": [
+            {
+              "value": "GSTO-1"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "_request_url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=MMP15&limit=10",
+  "_status_code": 200,
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Matrix metalloproteinase-15",
+      "score": 18.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL2963",
+      "target_components": [
+        {
+          "accession": "P51511",
+          "component_description": "Matrix metalloproteinase-15",
+          "component_id": 1294,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "3.4.24.-",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Matrix metalloproteinase-15",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Membrane-type-2 matrix metalloproteinase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Membrane-type matrix metalloproteinase 2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "MMP-15",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "MMP15",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "MT2-MMP",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "MT2MMP",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "MT-MMP 2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "MTMMP2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "SMCP-2",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P51511",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P51511",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005615",
+              "xref_name": "extracellular space",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0004222",
+              "xref_name": "metalloendopeptidase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008047",
+              "xref_name": "enzyme activator activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008237",
+              "xref_name": "metallopeptidase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008270",
+              "xref_name": "zinc ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0070006",
+              "xref_name": "metalloaminopeptidase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006508",
+              "xref_name": "proteolysis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0022617",
+              "xref_name": "extracellular matrix disassembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030198",
+              "xref_name": "extracellular matrix organization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030574",
+              "xref_name": "collagen catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035987",
+              "xref_name": "endodermal cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:7161",
+              "xref_name": "MMP15",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "P51511",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR000585",
+              "xref_name": "Hemopexin-like_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001818",
+              "xref_name": "Pept_M10_metallopeptidase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR002477",
+              "xref_name": "Peptidoglycan-bd-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR006026",
+              "xref_name": "Peptidase_Metallo",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR018486",
+              "xref_name": "Hemopexin_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR018487",
+              "xref_name": "Hemopexin-like_repeat",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR021158",
+              "xref_name": "Pept_M10A_Zn_BS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR021190",
+              "xref_name": "Pept_M10A",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR021805",
+              "xref_name": "Pept_M10A_metallopeptidase_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR024079",
+              "xref_name": "MetalloPept_cat_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR033739",
+              "xref_name": "M10A_MMP",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036365",
+              "xref_name": "PGBD-like_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036375",
+              "xref_name": "Hemopexin-like_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10201",
+              "xref_name": "MATRIX METALLOPROTEINASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10201:SF25",
+              "xref_name": "MATRIX METALLOPROTEINASE-15",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00045",
+              "xref_name": "Hemopexin",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF00413",
+              "xref_name": "Peptidase_M10",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF01471",
+              "xref_name": "PG_binding_1",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF11857",
+              "xref_name": "DUF3377",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA30873",
+              "xref_name": "matrix metallopeptidase 15",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P51511",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-1442490",
+              "xref_name": "Collagen degradation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-1474228",
+              "xref_name": "Degradation of the extracellular matrix",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-1592389",
+              "xref_name": "Activation of Matrix Metalloproteinases",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "A0A2U6",
+              "xref_name": "Matrix metalloproteinase-15",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P51511",
+              "xref_name": "Matrix metalloproteinase-15",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q14111",
+              "xref_name": "Matrix metalloproteinase-15",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

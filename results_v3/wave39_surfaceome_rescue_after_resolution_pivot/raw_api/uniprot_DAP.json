@@ -1,0 +1,746 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "Q9I9N1",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20537536",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "7828849",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Ribosome-binding protein involved in ribosome hibernation, a process during which ribosomes are stabilized in an inactive state and preserved from proteasomal degradation (By similarity). Acts via its association with eiF5a (EIF5A and EIF5A2) at the polypeptide exit tunnel of the ribosome, preventing mRNA translation (By similarity). Involved in ribosome hibernation in the mature oocyte by preventing mRNA translation, leading to ribosome inactivation (By similarity). Ribosomes, which are produced in large quantities during oogenesis, are stored and translationally repressed in the oocyte and early embryo (By similarity). Also acts as a negative regulator of autophagy (PubMed:20537536). Involved in mediating interferon-gamma-induced cell death (PubMed:7828849)"
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000128E2E"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:2672",
+                "source": "HGNC"
+              }
+            ],
+            "value": "DAP"
+          },
+          "synonyms": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "7828849",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "DAP1"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0053",
+          "name": "Apoptosis"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0072",
+          "name": "Autophagy"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-0903",
+          "name": "Direct protein sequencing"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0810",
+          "name": "Translation regulation"
+        }
+      ],
+      "primaryAccession": "P51397",
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "id": "7828849",
+                "source": "PubMed"
+              }
+            ],
+            "value": "Death-associated protein 1"
+          },
+          "shortNames": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "7828849",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "DAP-1"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "52FBEFD23ABD182F",
+        "length": 102,
+        "md5": "EC82C6670255183BBC822A9A08CF63CD",
+        "molWeight": 11165,
+        "value": "MSSPPEGKLETKAGHPPAVKAGGMRIVQKHPHTGDTKEEKDKDDQEWESPSPPKPTVFISGVIARGDKDFPPAAAQVAHQKPHASMDKHPSPRTQHIQQPRK"
+      },
+      "uniProtkbId": "DAP1_HUMAN"
+    },
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9632644",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Aminopeptidase with specificity towards an acidic amino acid at the N-terminus. Likely to play an important role in intracellular protein and peptide metabolism"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "9632644",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000169DCA"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "22720794",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4DYO",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "label": "1",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 104
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 104
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "22720794",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 180
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 180
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "22720794",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4DYO",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "label": "1",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 274
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 274
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "22720794",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4DYO",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "label": "2",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 274
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 274
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "22720794",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 311
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 311
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "22720794",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4DYO",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "label": "1",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 311
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 311
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "22720794",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4DYO",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "label": "1",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 312
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 312
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "22720794",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4DYO",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "label": "2",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 312
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 312
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "22720794",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 356
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 356
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "22720794",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4DYO",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "label": "1",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 356
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 356
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "22720794",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 359
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 359
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "22720794",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 384
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 384
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "22720794",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 391
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 391
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "22720794",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4DYO",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "label": "2",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 450
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 450
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:2981",
+                "source": "HGNC"
+              }
+            ],
+            "value": "DNPEP"
+          },
+          "synonyms": [
+            {
+              "value": "ASPEP"
+            },
+            {
+              "value": "DAP"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0024",
+          "name": "Alternative initiation"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0031",
+          "name": "Aminopeptidase"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0963",
+          "name": "Cytoplasm"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0378",
+          "name": "Hydrolase"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0479",
+          "name": "Metal-binding"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0482",
+          "name": "Metalloprotease"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0645",
+          "name": "Protease"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0862",
+          "name": "Zinc"
+        }
+      ],
+      "primaryAccession": "Q9ULA0",
+      "proteinDescription": {
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9632644",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "3.4.11.21"
+            }
+          ],
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Aspartyl aminopeptidase"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "522180921D0FBFA9",
+        "length": 485,
+        "md5": "1B22DE9980D7A94E1E3811DE33C5D59E",
+        "molWeight": 53410,
+        "value": "MSGHSPTRGAMQVAMNGKARKEAVQTAAKELLKFVNRSPSPFHAVAECRNRLLQAGFSELKETEKWNIKPESKYFMTRNSSTIIAFAVGGQYVPGNGFSLIGAHTDSPCLRVKRRSRRSQVGFQQVGVETYGGGIWSTWFDRDLTLAGRVIVKCPTSGRLEQQLVHVERPILRIPHLAIHLQRNINENFGPNTEMHLVPILATAIQEELEKGTPEPGPLNAVDERHHSVLMSLLCAHLGLSPKDIVEMELCLADTQPAVLGGAYDEFIFAPRLDNLHSCFCALQALIDSCAGPGSLATEPHVRMVTLYDNEEVGSESAQGAQSLLTELVLRRISASCQHPTAFEEAIPKSFMISADMAHAVHPNYLDKHEENHRPLFHKGPVIKVNSKQRYASNAVSEALIREVANKVKVPLQDLMVRNDTPCGTTIGPILASRLGLRVLDLGSPQLAMHSIREMACTTGVLQTLTLFKGFFELFPSLSHNLLVD"
+      },
+      "uniProtkbId": "DNPEP_HUMAN"
+    }
+  ]
+}

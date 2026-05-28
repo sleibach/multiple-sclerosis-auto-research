@@ -1,0 +1,11 @@
+{
+  "random_seed": 20260528,
+  "dataset": "GSE235508",
+  "inputs": "results/pregnancy_dimension/gse235508_modules/sample_module_scores.tsv",
+  "outputs": [
+    "module_timepoint_means.tsv",
+    "timepoint_contrasts.tsv",
+    "timepoint_ols_terms.tsv"
+  ],
+  "caution": "Timepoint labels inferred from GEO numeric coding; source-paper confirmation still required."
+}

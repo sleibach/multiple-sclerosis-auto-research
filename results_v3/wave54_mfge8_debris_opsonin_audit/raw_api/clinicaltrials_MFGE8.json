@@ -1,0 +1,1804 @@
+{
+  "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxuYfem3f0dkA",
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "meshes": [
+            {
+              "id": "D014947",
+              "term": "Wounds and Injuries"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Leukocyte-reduced whole blood, 2 hours holding-time after collection. Gravitational filtration.\n\nDevice: Terumo IMUFLEX WB(Whole blood)-SP(saving platelets) collection bag system",
+              "interventionNames": [
+                "Other: Donation of 1 whole blood unit"
+              ],
+              "label": "Filtered whole blood",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Non-leukocyte-reduced whole blood, 2 hours holding-time after collection.\n\nDevice: Terumo IMUFLEX WB-SP collection bag system",
+              "interventionNames": [
+                "Other: Donation of 1 whole blood unit"
+              ],
+              "label": "Unfiltered whole blood",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Leukocyte-reduced whole blood, no holding-time after collection. Gravitational filtration.\n\nDevice: Terumo IMUFLEX WB-SP collection bag system",
+              "interventionNames": [
+                "Other: Donation of 1 whole blood unit"
+              ],
+              "label": "Warm-filtered whole blood",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Leukocyte-reduced whole blood, no holding-time after collection. Forced filtration.\n\nDevice: Terumo IMUFLEX WB-SP collection bag system",
+              "interventionNames": [
+                "Other: Donation of 1 whole blood unit"
+              ],
+              "label": "Forced warm-filtration of whole bood",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "RCC production from 7 days old, cold-stored, leukocyte-reduced whole blood. Units stored for another 35 days. (42 days of storage in total).\n\nDevices: Terumo IMUFLEX WB-SP/WB-RP collection bag systems.",
+              "interventionNames": [
+                "Other: Donation of 1 whole blood unit"
+              ],
+              "label": "RCC produced from cold-stored whole blood",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "RCC production from 7 days old, cold-stored, non-leukocyte-reduced whole blood. Units stored for another 35 days. (42 days of storage in total).\n\nDevices: Terumo IMUFLEX WB-SP/WB-RP(removing platelets) collection bag systems.",
+              "interventionNames": [
+                "Other: Donation of 1 whole blood unit"
+              ],
+              "label": "RCC produced from cold-stored non-filtered whole blood",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Filtered whole blood",
+                "Forced warm-filtration of whole bood",
+                "RCC produced from cold-stored non-filtered whole blood",
+                "RCC produced from cold-stored whole blood",
+                "Unfiltered whole blood",
+                "Warm-filtered whole blood"
+              ],
+              "description": "Donation of 450-500 mL of whole blood according to local blood bank procedures and national guidelines.",
+              "name": "Donation of 1 whole blood unit",
+              "otherNames": [
+                "Terumo IMUFLEX WB-SP collection bag system."
+              ],
+              "type": "OTHER"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Trauma",
+            "Austere Environment",
+            "Blood Bank",
+            "Buddy Transfusion"
+          ],
+          "keywords": [
+            "Blood",
+            "Whole blood",
+            "Cold-storage",
+            "Filtration",
+            "Transfusion",
+            "Platelet-function"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Bergen",
+              "country": "Norway",
+              "facility": "Haukeland University Hospital, Dept of Immunology and Transfusion Medicine",
+              "geoPoint": {
+                "lat": 60.39299,
+                "lon": 5.32415
+              },
+              "zip": "5021"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Haukeland University Hospital and Norwegian Naval Special Operation Commando",
+              "name": "Geir Strandenes, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "In a combat situation the need for safe and high-quality blood products is increasing. WB (Whole Blood) is used in many trauma situations, but we wish to investigate whether there is an even better whole blood product.\n\nThe purpose of this study is to examine the quality of leucoreduced, cold-stored whole blood. We also wish to examine the effects of filtration of whole blood without a 1-2 hour holding-time (warm-filtration) and the effects of forced filtration. We also wish to explore the possibility of using cold-stored WB for production of RCC.\n\nAnalyses are performed with a main focus to investigate function and quality of red blood cells and platelets."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "NON_RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "SINGLE",
+              "whoMasked": [
+                "PARTICIPANT"
+              ]
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 87,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy volunteer\n* Age between 18 and 70\n* Negative pregnancy test (women in fertile age)\n* Blood pressure range: (160-100)/(100-40)\n* Pulse range: 40-100\n\nExclusion Criteria:\n\n* Usage of platelet-influencing medication\n* Mild flu or more severe illnesses\n* Open wound\n* Pregnancy or trying to get pregnant",
+          "healthyVolunteers": true,
+          "maximumAge": "70 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "acronym": "BFF",
+          "briefTitle": "Storage Temperature and Quality of Leucoreduced Whole Blood",
+          "nctId": "NCT01892670",
+          "officialTitle": "Storage Temperature and Quality of Leucoreduced Whole Blood",
+          "orgStudyIdInfo": {
+            "id": "2012/2279"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Haukeland University Hospital"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "otherOutcomes": [
+            {
+              "description": "RCC should not have a hemolysis of more than 0.8 %. We investigate this up to 42 days (35 days as RCC) (arm 5 +6)",
+              "measure": "Hemolysis",
+              "timeFrame": "After 42 days of storage"
+            }
+          ],
+          "primaryOutcomes": [
+            {
+              "description": "Platelet function is assessed by various parameters, such as thrombelastography (TEG), Multiplate and flow cytometry (Lactadherin, Calcein violet AM, ++).",
+              "measure": "Platelet function",
+              "timeFrame": "After 10 days of cold-storage"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Filtered whole blood should have a concentration less than 1\\*10\\^6 cells/L to avoid transfusion reactions.",
+              "measure": "Leukocyte count",
+              "timeFrame": "After leukocyte filtration"
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": false
+        },
+        "referencesModule": {
+          "seeAlsoLinks": [
+            {
+              "label": "THOR: Trauma Hemostasis and Oxygenation Research Network. Main objective: To reduce the risk of death from traumatic hemorrhagic shock prior to admission at a trauma center",
+              "url": "http://rdcr.org/"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "OTHER_GOV",
+              "name": "Norwegian Armed Forces Medical Service"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Haukeland University Hospital"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2016-07",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2024-03-19",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2024-03-18",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2016-07",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2013-03"
+          },
+          "statusVerifiedDate": "2017-08",
+          "studyFirstPostDateStruct": {
+            "date": "2013-07-04",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2013-07-01",
+          "studyFirstSubmitQcDate": "2013-07-01"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D008171",
+              "term": "Lung Diseases"
+            },
+            {
+              "id": "D012140",
+              "term": "Respiratory Tract Diseases"
+            },
+            {
+              "id": "D012120",
+              "term": "Respiration Disorders"
+            },
+            {
+              "id": "D007752",
+              "term": "Obstetric Labor, Premature"
+            },
+            {
+              "id": "D007744",
+              "term": "Obstetric Labor Complications"
+            },
+            {
+              "id": "D011248",
+              "term": "Pregnancy Complications"
+            },
+            {
+              "id": "D005261",
+              "term": "Female Urogenital Diseases and Pregnancy Complications"
+            },
+            {
+              "id": "D000091642",
+              "term": "Urogenital Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D012128",
+              "term": "Respiratory Distress Syndrome"
+            },
+            {
+              "id": "D047928",
+              "term": "Premature Birth"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Starting treatment mode: nHFOV with Medin-cno. Targeted oxygen saturation: 87-94%. Four 1 h study blocks, alternating from the initial mode to the alternate mode twice. All the data will be recorded at 1-min intervals. The following data will be recorded: tcPCO2, tcPO2, heart rate, respiratory rate, SaO2, Silverman score, cer-rSO2, ren-rSO2. Blood pressure will be taken 30 minutes after the beginning of each treatment block. At the beginning of the first period a BGA will be performed in order to test the reliability of the TcPCO2 data. A second capillary BGA will be performed at the end of second period.",
+              "interventionNames": [
+                "Device: Medin-cno"
+              ],
+              "label": "nHFOV",
+              "type": "ACTIVE_COMPARATOR"
+            },
+            {
+              "description": "Starting treatment mode: nCPAP with Medin-cno. Targeted oxygen saturation of 87-94%. Four 1 h study blocks, alternating from the initial mode to the alternate mode twice. All the data will be recorded at 1-min intervals. The following data will be recorded: tcPCO2, tcPO2, heart rate, respiratory rate, SaO2, Silverman score, cer-rSO2, ren-rSO2. Blood pressure will be taken 30 minutes after the beginning of each treatment block. At the be-ginning of the first period a BGA will be performed in order to test the reliability of the TcPCO2 data. A se-cond capillary BGA will be performed at the end of second period.",
+              "interventionNames": [
+                "Device: Medin-cno"
+              ],
+              "label": "nCPAP",
+              "type": "ACTIVE_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "nCPAP",
+                "nHFOV"
+              ],
+              "description": "Medin-cno is a noninvasive ventilator. With this device we can practice either nCPAP and nHFOV ventilation.",
+              "name": "Medin-cno",
+              "otherNames": [
+                "nHFOV",
+                "nCPAP"
+              ],
+              "type": "DEVICE"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Respiratory Distress Syndrome",
+            "Preterm Birth"
+          ],
+          "keywords": [
+            "nCPAP",
+            "nHFOV",
+            "Preterm",
+            "RDS",
+            "CO2 Elimination"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Brescia",
+              "country": "Italy",
+              "facility": "Fondazione Poliambulanza Istituto Ospedaliero",
+              "geoPoint": {
+                "lat": 45.53558,
+                "lon": 10.21472
+              },
+              "zip": "25124"
+            },
+            {
+              "city": "Foggia",
+              "country": "Italy",
+              "facility": "Ospedali Riuniti di Foggia",
+              "geoPoint": {
+                "lat": 41.45845,
+                "lon": 15.55188
+              }
+            },
+            {
+              "city": "Milan",
+              "country": "Italy",
+              "facility": "Fondazione IRCCS Ca' Granda, Ospedale Maggiore Policlinico",
+              "geoPoint": {
+                "lat": 42.78235,
+                "lon": 12.59836
+              }
+            },
+            {
+              "city": "Milan",
+              "country": "Italy",
+              "facility": "Vittore Buzzi Children's Hospital",
+              "geoPoint": {
+                "lat": 42.78235,
+                "lon": 12.59836
+              }
+            },
+            {
+              "city": "Roma",
+              "country": "Italy",
+              "facility": "Hospital San Pietro Fatebenefratelli",
+              "geoPoint": {
+                "lat": 44.99364,
+                "lon": 11.10642
+              }
+            },
+            {
+              "city": "Roma",
+              "country": "Italy",
+              "facility": "Policlinico Universitario Agostino Gemelli",
+              "geoPoint": {
+                "lat": 44.99364,
+                "lon": 11.10642
+              }
+            },
+            {
+              "city": "Varese",
+              "country": "Italy",
+              "facility": "Ospedale F. Del Ponte",
+              "geoPoint": {
+                "lat": 45.82058,
+                "lon": 8.82511
+              }
+            },
+            {
+              "city": "Vilnius",
+              "country": "Lithuania",
+              "facility": "Vilnius University",
+              "geoPoint": {
+                "lat": 54.68916,
+                "lon": 25.2798
+              }
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Fondazione Poliambulanza Istituto Ospedaliero",
+              "name": "Roberto Bottino, Doctor",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "affiliation": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS",
+              "name": "Giovanni Vento, Doctor",
+              "role": "STUDY_CHAIR"
+            },
+            {
+              "affiliation": "Ospedali Riuniti di Foggia",
+              "name": "Gianfranco Maffei, Doctor",
+              "role": "STUDY_CHAIR"
+            },
+            {
+              "affiliation": "Vittore Buzzi Children's Hospital",
+              "name": "Gianluca Lista, Doctor",
+              "role": "STUDY_CHAIR"
+            },
+            {
+              "affiliation": "Vilnius University",
+              "name": "Vladimiras Chijenas, Doctor",
+              "role": "STUDY_CHAIR"
+            },
+            {
+              "affiliation": "Vilnius University",
+              "name": "Arunas Liubsys, Doctor",
+              "role": "STUDY_CHAIR"
+            },
+            {
+              "affiliation": "Hospital San Pietro Fatebenefratelli",
+              "name": "Chiara Consigli, Doctor",
+              "role": "STUDY_CHAIR"
+            },
+            {
+              "affiliation": "Ospedale F. Del Ponte, Varese",
+              "name": "Massimo Agosti, Doctor",
+              "role": "STUDY_CHAIR"
+            },
+            {
+              "affiliation": "Fondazione IRCCS Ca' Granda, Ospedale Maggiore Policlinico",
+              "name": "Mariarosa Colnaghi, Doctor",
+              "role": "STUDY_CHAIR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The purpose of this study is to compare the effects of two different techniques of non-invasive ventilation (nCPAP and nHFOV) on gas exchange in preterm infants recovering from respiratory distress syndrome.",
+          "detailedDescription": "Background - Extremely low birth weight (ELBW) infants usually develop respiratory distress syndrome (RDS), due to lung immaturity, surfactant deficiency and immature respiratory control mechanisms (1). Even though mechanical ventilation is frequently lifesaving, complications are common (2). Tracheal intubation and mechanical ventilation are associated with ventilator-induced lung injury (VILI) and airway inflammation, leading to bronchopulmonary dysplasia (BPD) (3). The mechanisms of this injury involve alveolar over distension, the presence of shear forces and the release of pro-inflammatory cytokines (6), moreover prolonged duration of intubation and mechanical ventilation is associated with an increased risk of death or survival with neurologic impairment (3). In an effort to reduce VILI and so BPD in premature infants, there has been a trend toward increased use of non-invasive forms of respiratory support: nasal continuous positive airway pressure (nCPAP), nasal intermittent positive-pressure ventilation (NIPPV), high-flow nasal cannula (HFNC), nasal high-frequency oscillatory ventilation (nasal-HFOV)(2, 1, 7).\n\nNCPAP is an alternative to intubation and a meta-analysis trials of early nasal CPAP versus intubation and ventilation showed that nasal CPAP reduces the risk of BPD. Nonetheless use of NCPAP in the delivery room may fail in ELBW, with 34 to 83% of such infants requiring subsequent intubation. Furthermore, post extubation support with nCPAP in these infants is associated with a 16-40% failure rate at 1 week (3, 4, 5, 9). NCPAP stabilized the surfactant deficient alveoli and improves oxygenation, but does not necessarily improve alveolar ventilation or partial pressure of carbon dioxide (pCO2) elimination (2, 8).\n\nSome Authors reported the use of nasal high-frequency ventilation (nHFOV) in 14 very low birth weight (VLBW) infants with respiratory failure, using nasopharyngeal tube (3) and they have shown that this technique can lower pCO2 (1).\n\nOther Authors investigated the efficacy of nasal HFOV applied on a single nasopharyngeal tube in an heterogeneous group of 21 infant with moderate respiratory insufficiency and they shown that was effective in reducing pCO2 (10).\n\nNo randomized controlled trials have directly evaluated the efficacy of nasal HFOV versus nCPAP with use of nasal prongs/mask in ELBW. There is rationale and support for the idea that high-frequency oscillation using a nasal prongs may improve carbon dioxide elimination in infants and minimizing the need for intubation and mechanical ventilation. In premature infants, HFOV is believed to cause less lung injury than conventional ventilation. So the question can be whether the benefits of HFOV and non invasive (nasal) ventilation are synergistic.\n\nEnd-point - Our first end-point is that short-term application of nasal HFOV compared with nasal continuous airway pressure (nCPAP) in infants with persistent oxygen (O2) need recovering from RDS would improve CO2 removal. We also hypothesized that use of nHFOV can reduce the inspired fraction of O2 (FiO2) levels requiring to maintain normal percutaneous saturation of O2 (SpO2) levels .\n\nDesign - Multi-center non-blinded, randomized, observational four period crossover study Setting/population Level III Neonatal Intensive Care Unit (NICU): very-low birth weight infants (\\< 1500 g) and/or gestational age \\< 32 weeks requiring nCPAP and oxygen while recovering from RDS.\n\nMethods - Infants requiring nasal CPAP (4-8 cm H2O) for \\> 24 hours prior to study enrolment, and FiO2 more than 0.21, will be randomized to either nCPAP or nHFOV delivered by Medin-CNO device. A crossover design with four 1 h treatment periods will be used such that each infant will receive both treatments twice. Oxygen saturation (SaO2), transcutaneous CO2 (tcCO2) and O2 (tcO2) and vital signs will be monitored continuously. Cardio-respiratory monitor recordings will be analyzed for apnoea, bradycardia and oxygen desaturations.\n\nStudy - After written informed consent will be obtained, the patient will be placed in the supine position. A transcutaneous CO2 and O2 monitor as well as pneumocardiography sensors will be placed on the infant and monitored. The patient will be randomized by sealed envelope shuffle to a starting treatment mode of either nCPAP (4-8 cm H2O, with the same CPAP level used prior to entering into the study) or nHFOV with the following starting parameters: CPAP level: 4-8 cm H2O with the same CPAP level used prior to entering into the study; Flow: 7-10 l/min (providing the desired CPAP level); Frequency: 10 Hz, Amplitude: 10, (eventually modified to obtain tcPCO2 values in the normal range (45-65 mmHg; 5.9-8.6 kPa). Short binasal prongs of right size will be always used. Prior to entering into the study all the patients will receive caffeine.\n\nAll support will be delivered by the Medin-cno device. Research personnel will adjust the FiO2 to attain a targeted oxygen saturation of 87-94%. The patients will be maintained in the usual thermoneutral environment (incubator) throughout the study, and will receive the standard routine care by the primary care team.\n\nAt study initiation, the infant will be started on the randomized starting mode of either nCPAP or nHFOV. The study will consist of four 1 h study blocks, alternating from the initial mode to the alternate mode twice. During the study neonates will be monitored continuously with a cardio-respiratory monitor, a pulse oximeter and a transcutaneous gas monitoring. All the data will be recorded continuously at 1-min intervals directly from the monitor and/or observed directly by an experienced neonatologist and manually recorded on a respiratory sheet. During each study block, the following data will be recorded: transcutaneous partial pressure of CO2 (tcPCO2), transcutaneous partial pressure of O2 (tcPO2), heart rate, respiratory rate, SaO2, Silverman score. Apnoeic episodes will be defined as absence of thoracic impedance change for a minimum of 20 s. Bradycardic episodes will be defined as persistent heart rate \\<80 beats per minute for a minimum of 10s. Significant desaturation episodes will be defined as persistent pulse oximetry values \\<80% for a minimum of 10s. Manual blood pressure will be taken with appropriate sized neonatal blood pressure cuff 30 minutes after the beginning of each treatment block.\n\nImmediately after entering the study, at the beginning of the first study period, a transcutaneous monitoring of TcPCO2 and TcPO2 will be started and a capillary blood gas analysis (BGA) will be performed in order to test the reliability of the TcPCO2 data. A second capillary BGA will be performed at the end of second study period in both CPAP and nHFOV. Cerebral (cer-rSO2) and renal (ren-rSO2) tissue oxygenation will be measured by near-infrared spectroscopy (NIRS) as additional variable during the study period, based on the instrument's availability in each participating center.\n\nThe study will be ended when the patient will complete the 4 h study or will be terminated early if the patient will develop any signs of intolerance during the study, including an increase of \\>50% in the number of episodes of apnea or bradycardia compared with the prestudy baseline noted 1 h preceding study entry, or increased supplemental FiO2 \\> 0.3 from pre-study baseline for at least 15 min (i.e. from 0.30 to 0.60). To allow for equilibration, we will group and analyze data points from the last 20 min of each treatment block.\n\nA sample size of 30 has been calculated to detect a mean difference of 3 mmHg tcCO2 based on a two-tailed p value of 0.05, power of 0.9 and a within-patient standard deviation (SD) of 2.5 mmHg (2).\n\nDuration of study - To be defined, depending on the number of participating NICUs.\n\nCompliance to protocol - Compliance will be defined as full adherence to protocol. Compliance with the protocol will be ensured by a number of procedures as described below.\n\nSite set-up - Local principal investigators will participate to preparatory meetings in which details of study protocol, data collection and procedures will be accurately discussed. All centers will receive detailed written instruction on web based recording data, and, to solve possible difficulties, it will be possible to contact the Chief investigators. Moreover, it has been ascertained that the procedure is equally made in all participating centers.\n\nData processing and monitoring - All study data will be\n\n1. Screened for out-of-range data, with cross-checks for conflicting data within and between data collection forms by a data manager.\n2. Referred back to relevant centre for clarification in the event of missing items or uncertainty.\n\nThe Chief Investigator and trial statistician will review the results generated for logic and for patterns or problems. Outlier data will be investigated.\n\nSafety - Safety end-point measures will include incidence, severity, and causality of reported serious adverse effects (SAE), namely changes in occurrence of the expected common prematurity complications and clinical laboratory test assessments, and the development of unexpected SAEs in this high risk population. All SAEs will be followed until satisfactory resolution or until the investigator responsible for the care of the participant deems the event to be chronic or the patient to be stable. All expected and unexpected SAEs, whether or not they are attributable to the study intervention, will be reviewed by the local principal investigators to determine if there is reasonable suspected causal relationship to the intervention. If the relationship is reasonable SAEs will be reported to Chief Investigators who will report to Ethics Committee and inform all investigators to guaranty the safety of participants."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "CROSSOVER",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 30,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Birthweight \\< 1500g and/or\n* Gestational age \\< 32 weeks\n* nCPAP treatment for \\> 24 h\n* Oxygen supply to keep SaO2 87-94% for a minimum of 1 h prior to initiation of the study\n* Parents written informed consent\n\nExclusion Criteria:\n\n* Active medical treatment for patent ductus arteriosus\n* culture proven sepsis\n* Major congenital malformations\n* Genetic syndromes\n* Postoperative recovery period of \\<24 h",
+          "healthyVolunteers": false,
+          "maximumAge": "6 Months",
+          "minimumAge": "7 Days",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "nHFOV vs nCPAP: Effects on Gas Exchange for the Treatment of Neonates Recovering From RDS",
+          "nctId": "NCT02772835",
+          "officialTitle": "Nasal HFOV vs Nasal CPAP: Effects on Gas Exchange for the Treatment of Neonates Recovering From Respiratory Distress Syndrome. A Multicenter Randomized Controlled Trial",
+          "orgStudyIdInfo": {
+            "id": "NHVSNC"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Fondazione Poliambulanza Istituto Ospedaliero"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "UNDECIDED"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Infants will be started on the randomized starting mode of either nCPAP or nHFOV: four 1 h study blocks, alternating from the initial mode to the alternate mode twice. During each study block, the following data will be recorded: TcPCO2, TcPO2, heart rate, respiratory rate, SaO2, Silverman score, cer-rSO2 and ren-rSO2. Manual blood pressure will be taken 30 minutes after the beginning of each treatment block. Immediately after entering the study, at the beginning of the first study period, a transcutaneous monitoring of TcPCO2 and TcPO2 will be started and a capillary BGA will be performed in order to test the reliability of the TcPCO2 data. A second capillary BGA will be performed at the end of second study period in both CPAP and nHFOV. To allow for equilibration, we will group and analyze data points from the last 20 min of each treatment block. All the data will be recorded continuously at 1-min intervals directly from the monitor and recorded on a respiratory sheet.",
+              "measure": "Comparison between nHFOV and nCPAP on gas exchange in premature infants with persistent oxygen need recovering from RDS, particularly on CO2 removal.",
+              "timeFrame": "4 hours"
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": false
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Colaizy TT, Younis UM, Bell EF, Klein JM. Nasal high-frequency ventilation for premature infants. Acta Paediatr. 2008 Nov;97(11):1518-22. doi: 10.1111/j.1651-2227.2008.00900.x. Epub 2008 Jun 9.",
+              "pmid": "18549418",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Carlo WA. Should nasal high-frequency ventilation be used in preterm infants? Acta Paediatr. 2008 Nov;97(11):1484-5. doi: 10.1111/j.1651-2227.2008.01016.x. Epub 2008 Aug 26. No abstract available.",
+              "pmid": "18754830",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Kirpalani H, Millar D, Lemyre B, Yoder BA, Chiu A, Roberts RS; NIPPV Study Group. A trial comparing noninvasive ventilation strategies in preterm infants. N Engl J Med. 2013 Aug 15;369(7):611-20. doi: 10.1056/NEJMoa1214533.",
+              "pmid": "23944299",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Morley CJ, Davis PG, Doyle LW, Brion LP, Hascoet JM, Carlin JB; COIN Trial Investigators. Nasal CPAP or intubation at birth for very preterm infants. N Engl J Med. 2008 Feb 14;358(7):700-8. doi: 10.1056/NEJMoa072788.",
+              "pmid": "18272893",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Dunn MS, Kaempf J, de Klerk A, de Klerk R, Reilly M, Howard D, Ferrelli K, O'Conor J, Soll RF; Vermont Oxford Network DRM Study Group. Randomized trial comparing 3 approaches to the initial respiratory management of preterm neonates. Pediatrics. 2011 Nov;128(5):e1069-76. doi: 10.1542/peds.2010-3848. Epub 2011 Oct 24.",
+              "pmid": "22025591",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Habre W. Neonatal ventilation. Best Pract Res Clin Anaesthesiol. 2010 Sep;24(3):353-64. doi: 10.1016/j.bpa.2010.02.020.",
+              "pmid": "21033012",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Sivieri EM, Gerdes JS, Abbasi S. Effect of HFNC flow rate, cannula size, and nares diameter on generated airway pressures: an in vitro study. Pediatr Pulmonol. 2013 May;48(5):506-14. doi: 10.1002/ppul.22636. Epub 2012 Jul 23.",
+              "pmid": "22825878",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Sola A, Golombek SG, Montes Bueno MT, Lemus-Varela L, Zuluaga C, Dominguez F, Baquero H, Young Sarmiento AE, Natta D, Rodriguez Perez JM, Deulofeut R, Quiroga A, Flores GL, Morgues M, Perez AG, Van Overmeire B, van Bel F. Safe oxygen saturation targeting and monitoring in preterm infants: can we avoid hypoxia and hyperoxia? Acta Paediatr. 2014 Oct;103(10):1009-18. doi: 10.1111/apa.12692. Epub 2014 Jul 28.",
+              "pmid": "24838096",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Lampland AL, Plumm B, Worwa C, Meyers P, Mammel MC. Bi-level CPAP does not improve gas exchange when compared with conventional CPAP for the treatment of neonates recovering from respiratory distress syndrome. Arch Dis Child Fetal Neonatal Ed. 2015 Jan;100(1):F31-4. doi: 10.1136/fetalneonatal-2013-305665. Epub 2014 Aug 1.",
+              "pmid": "25085943",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "van der Hoeven M, Brouwer E, Blanco CE. Nasal high frequency ventilation in neonates with moderate respiratory insufficiency. Arch Dis Child Fetal Neonatal Ed. 1998 Jul;79(1):F61-3. doi: 10.1136/fn.79.1.f61.",
+              "pmid": "9797628",
+              "type": "BACKGROUND"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "OTHER",
+              "name": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS"
+            },
+            {
+              "class": "OTHER",
+              "name": "Ospedali Riuniti di Foggia"
+            },
+            {
+              "class": "OTHER",
+              "name": "Vittore Buzzi Children's Hospital"
+            },
+            {
+              "class": "OTHER",
+              "name": "Vilnius University"
+            },
+            {
+              "class": "OTHER",
+              "name": "Hospital San Pietro Fatebenefratelli"
+            },
+            {
+              "class": "UNKNOWN",
+              "name": "Ospedale F. Del Ponte, Varese"
+            },
+            {
+              "class": "OTHER",
+              "name": "Fondazione IRCCS Ca' Granda, Ospedale Maggiore Policlinico"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Fondazione Poliambulanza Istituto Ospedaliero"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2017-05",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2018-02-27",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2018-02-26",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2017-03",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2016-01"
+          },
+          "statusVerifiedDate": "2018-02",
+          "studyFirstPostDateStruct": {
+            "date": "2016-05-16",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2016-05-03",
+          "studyFirstSubmitQcDate": "2016-05-11"
+        }
+      }
+    },
+    {
+      "annotationSection": {
+        "annotationModule": {
+          "unpostedAnnotation": {
+            "unpostedEvents": [
+              {
+                "date": "2016-09-09",
+                "type": "RELEASE"
+              },
+              {
+                "date": "2016-10-28",
+                "type": "RESET"
+              }
+            ],
+            "unpostedResponsibleParty": "Mats Lekander, Professor, Karolinska Institutet"
+          }
+        }
+      },
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D001519",
+              "term": "Behavior"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D055809",
+              "term": "Illness Behavior"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D001427",
+              "term": "Bacterial Toxins"
+            },
+            {
+              "id": "D014118",
+              "term": "Toxins, Biological"
+            },
+            {
+              "id": "D001685",
+              "term": "Biological Factors"
+            },
+            {
+              "id": "D006001",
+              "term": "Glycoconjugates"
+            },
+            {
+              "id": "D002241",
+              "term": "Carbohydrates"
+            },
+            {
+              "id": "D011135",
+              "term": "Polysaccharides, Bacterial"
+            },
+            {
+              "id": "D011134",
+              "term": "Polysaccharides"
+            },
+            {
+              "id": "D008055",
+              "term": "Lipids"
+            },
+            {
+              "id": "D000942",
+              "term": "Antigens, Bacterial"
+            },
+            {
+              "id": "D000941",
+              "term": "Antigens"
+            },
+            {
+              "id": "D002712",
+              "term": "Chlorides"
+            },
+            {
+              "id": "D006851",
+              "term": "Hydrochloric Acid"
+            },
+            {
+              "id": "D017606",
+              "term": "Chlorine Compounds"
+            },
+            {
+              "id": "D007287",
+              "term": "Inorganic Chemicals"
+            },
+            {
+              "id": "D017670",
+              "term": "Sodium Compounds"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D004731",
+              "term": "Endotoxins"
+            },
+            {
+              "id": "D008070",
+              "term": "Lipopolysaccharides"
+            },
+            {
+              "id": "D012965",
+              "term": "Sodium Chloride"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "submissionTracking": {
+            "estimatedResultsFirstSubmitDate": "2016-09-09",
+            "submissionInfos": [
+              {
+                "releaseDate": "2016-09-09",
+                "resetDate": "2016-10-28"
+              }
+            ]
+          },
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Endotoxin at 2ng/kg of body weight administered intravenously",
+              "interventionNames": [
+                "Biological: Endotoxin"
+              ],
+              "label": "Endotoxin",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Placebo administered intravenously",
+              "interventionNames": [
+                "Biological: Placebo"
+              ],
+              "label": "Placebo",
+              "type": "PLACEBO_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Endotoxin"
+              ],
+              "name": "Endotoxin",
+              "otherNames": [
+                "LPS",
+                "lipopolysaccharide"
+              ],
+              "type": "BIOLOGICAL"
+            },
+            {
+              "armGroupLabels": [
+                "Placebo"
+              ],
+              "name": "Placebo",
+              "otherNames": [
+                "NaCl 0.9%",
+                "saline"
+              ],
+              "type": "BIOLOGICAL"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Sickness Behavior"
+          ],
+          "keywords": [
+            "Sickness behavior",
+            "Cytokines",
+            "Psychoneuroimmunology"
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The objective of the present study is to specifically assess the effect of lipopolysaccharide (LPS) administration on the development of behavioral symptoms and the underlying contribution of inflammatory processes. In particular, the investigators will assess the development of subjective and objective behavioral symptoms. In addition, the investigators will determine whether some psychological trait or state can predict and/or modulate the LPS-induced inflammatory and behavioral responses.\n\nTwenty-five healthy subjects will be included. A placebo-controlled, double-blinded and cross-over design will be used. Subjects will receive an intravenous injection of endotoxin at 2 nanogram/kilogram (ng/kg) of body weight and an intravenous injection of sodium chloride as placebo of endotoxin injection at two different occasions.\n\nPrior to inclusion and randomization, subjects will come at the hospital and will receive a medical examination. Psychological variables that could affect the behavioral (or immune) response to LPS will be assessed at that time, using several self-assessment questionnaires.\n\nOn the trial days, injection of endotoxin or sodium chloride will be performed and blood samples will be taken just before the endotoxin or sodium chloride injection and 1, 1.5, 2, 3, 4, 5, 6 and 7.5 hours after the injection. Blood samples will be used to measure several inflammatory and immune markers. Urine samples will be taken before the endotoxin or sodium chloride injection and as late as possible after the injection. Subjects will wear T-shirt all day. Urine and T-shirt samples will be used for behavioral assessment and analysis of body odor compound.\n\nSelf-assessment questionnaires assessing behavioral and psychological variables will be completed by participants just before the endotoxin or sodium chloride injection, three hours and 7.5 hours after the injection. A short questionnaire assessing sickness behavior (SicknessQ) will be repeatedly completed by participants from just before to 7.5 hours after the endotoxin or sodium chloride injection.\n\nSeveral behavioral tests will be used, including a motivation task, a test assessing behavioral response to negative and sickness stimuli. Analysis of gait and motion, as well as of social interactions, will be performed. Photographs will be taken for the further rating of the faces.",
+          "detailedDescription": "Study design\n\nTwenty-five subjects will be included in the present study, which will follow a prospective, placebo-controlled and cross-over design. Participants will be blinded, as well as research personnel in charge of the participants and the laboratory.\n\nSubjects will be randomly assigned in the cross-over design with two trials, with about four weeks wash-out between LPS stimulations:\n\n1. Trial 1: endotoxin. Subjects will receive an intravenous injection of endotoxin at 2 ng/kg of body weight.\n2. Trial 2: placebo. Subjects will receive an intravenous injection of sodium chloride as placebo of endotoxin injection.\n\nTen other healthy volunteers will be recruited in a pilot study prior the beginning of the main study, in order to test the behavioral tasks that will be used. These subjects will be recruited among the university staff or among university students. They will perform four specific behavioral tasks and will complete the questionnaires assessing psychological and behavioral variables in order to associate outcomes from the behavioral tasks to psychological and subjective behavioral assessments. No biological samples (blood, urine or tee-shirt samples) will be taken in subjects recruited in the pilot study.\n\nTreatment\n\nThe LPS is provided by LGC Promochem AB, Albanoliden 5, 4tr, 506 30 Bor\u00e5s, Sweden. The USP (United States Pharmacopeial Convention) Endotoxin (Cat. No. 1235503) does come as a lyophilized (freeze-dried) powder and each vial contains 10,000 USP Endotoxin Units. Each vial contains very approximately 1 microgram of Endotoxin and is mixed with 5 milliliter (mL) of sterile water.\n\nStudy procedure\n\nThe study will be conducted at Department of Clinical Sciences, Danderyd Hospital.\n\nPrior to inclusion and randomization, subjects will come at the hospital in order to be subjected to a medical examination, including an electrocardiogram and blood laboratory analyses. Socio-demographic data and medical history will be assessed at this occasion, as well as body variables (weight, height, body composition) and physical activity using the Swedish version of the IPAQ (International Physical Activity Questionnaire). History of major depression will be assessed using the Mini-International Neuropsychiatric Interview (M.I.N.I.) for major depression. Psychological variables that could affect the behavioral (or immune) response to LPS, and which are not believed to change between the screening day and the trial days, will be also assessed at that time, using several web-based self-assessment questionnaires. These measures will include the subjects' perception of the body and health risk (e.g., interoceptive awareness, perceived vulnerability to disease, health anxiety and disgust reactivity, somatosensory amplification, fear of anxiety-related sensations) and psychological well-being (e.g., perceived stress, optimism, social support, cognitive well-being). The overall time for the medical examination will be of 30-45 minutes. The time to complete questionnaires is estimated to approximately 45 minutes but can be done from home. The participants will also receive a kit with a T-shirt (with sewn-in cotton pads) and a scent-free soap. Participants will be asked to wear the T-shirt in the morning (after washing armpits) on each trial day, and take it off after their arrival. This will allow collecting pre-treatment (baseline) samples of body odor.\n\nParticipants will then be subjected to the two trials performed in a randomized order, with at least six weeks of wash-out: endotoxin versus placebo.\n\nThe participants will be asked to restrain from strenuous exercise and alcohol taking 48 hours before the trial day, to avoid strong spices 24 hours before the trial day, and to take a light breakfast the morning of the trial day. Participants will arrive on the morning (at 7.30AM). They will turn in their morning T-shirt (see above) and change to a new T-shirt (with sewn-in cotton pads in the armpit) to wear during all day. The T-shirts will be used for behavioral assessment and analysis of body odor compound. Shortly after their arrival, two intravenous catheters will be placed: one for blood sampling at one arm and one at one hand for the injection of endotoxin or sodium chloride that will be removed after the injection. An anesthetic cream will be provided to spread on their arm in order to minimize the pain of venipuncture. Subjects will then rest for at least 30 minutes.\n\nInjection of endotoxin or sodium chloride will be performed when the rest is completed (around 8.30AM). Blood samples (10 mL in EDTA (Ethylenediaminetetraacetic acid) tubes and 10 mL in sodium citrate tubes) will be taken just before the endotoxin or sodium chloride injection and 1, 1.5, 2, 3, 4, 5, 6 and 7.5 hours after the injection. In addition, 2.5 mL in PAXGene\u2122 tubes will be taken before and 2, 4 and 7.5 hours after the injection. Two additional samples in EDTA tubes (8 mL of blood) will be taken before the injection and 3 and 7.5 hours after the injection. The total quantity of blood taken will be of about 200 mL, corresponding to a third of the amount given at a blood donation. Blood samples will be used to measure concentrations of pro- and anti-inflammatory cytokines and other inflammatory markers (e.g., C-Reactive protein - CRP) using Enzyme-Linked Immunosorbent Assay (ELISA), immune cell subpopulations and concentrations of microparticles using flow cytometry, genetic markers using Cap analysis gene expression (CAGE) analyses and white blood cell count and differential.\n\nUrine samples will be taken before the endotoxin or sodium chloride injection (i.e., before the catheters are placed) and as late as possible after the injection (classically around four hours after the injection).\n\nParticipants will be monitored with continuous electrocardiogram. Oxygen saturation (SO2), blood pressure and body temperature will be monitored every 30 minutes. Nitrogen dioxide (NO2) will be monitored continuously, methemoglobin checked at the same time than each blood sample.\n\nSelf-assessment questionnaires assessing behavioral and psychological variables will be completed by participants just before the endotoxin or sodium chloride injection (during the rest period), three hours and 7.5 hours after the injection. A short questionnaire assessing sickness behavior (SicknessQ) will be repeatedly completed by participants from just before to 7.5 hours after the endotoxin or sodium chloride injection. Subjects will be filmed when in bed and will wear a sociometric badge, in order to analyze participants' behavioral response to a standardized situation of social interaction.\n\nPhotographs will be taken before (i.e., before the catheters are placed), two hours after and 7.5 hours after the injection, for the further rating of the faces (e.g., health, attractiveness, tiredness). In parallel, skin color will be measured at the same time than blood samples (except T1.5) in order to assess a potential mediating effect of faces' health ratings. Analysis of subjects' gait and motion will be performed two and half hours after the injection. Short computerized cognitive tests will be performed after these tests, just before three hours after the injection. Subjects will perform a motivation task after completing the questionnaires three hours after the injection. In addition, two tests assessing behavior in response to positive/negative and healthy/sickness stimuli (an approach-avoidance behavior test and a regulation of emotion test) will be executed three hours and half after the injection.\n\nParticipants will be allowed to take a light meal (snack and juice drink) around lunch time (12.30) and will hand in their T-shirt just before five and half hours after the injection.\n\nThe last blood samples will be taken 7.5 hours after the injection and participants will be discharged.\n\nMonitoring of the experiment will be done by a medical doctor, supervised by a specialist in anesthesia and intensive care."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "CROSSOVER",
+            "maskingInfo": {
+              "masking": "TRIPLE",
+              "whoMasked": [
+                "PARTICIPANT",
+                "INVESTIGATOR",
+                "OUTCOMES_ASSESSOR"
+              ]
+            },
+            "primaryPurpose": "BASIC_SCIENCE"
+          },
+          "enrollmentInfo": {
+            "count": 22,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy subjects\n\nExclusion Criteria:\n\n* Diagnosed physiological or psychiatric disease\n* Needle anxiety or blood phobia\n* Regular medication (excluding contraceptive pill)\n* Infection in the last two weeks\n* Pregnancy or breastfeeding\n* Smoking\n* Excessive alcohol use\n* Body mass index in the range of obesity (\\>30 kg/m2) or underweight (\\<18.5 kg/m2)\n* Invisible veins in the antecubital area of the arms",
+          "healthyVolunteers": true,
+          "maximumAge": "50 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Endotoxin-induced Inflammatory and Behavioral Responses and Predictors of Individual Differences",
+          "nctId": "NCT02529592",
+          "officialTitle": "Endotoxin-induced Inflammatory and Behavioral Responses and Predictors of Individual Differences: A Randomized, Double-blind Placebo Controlled Study on Healthy Human Volunteers",
+          "orgStudyIdInfo": {
+            "id": "LPS 2.0 - 2014/1946-31"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Karolinska Institutet"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Change in sickness behavior evaluated using the self-assessment questionnaire sicknessQ",
+              "measure": "Change from baseline in sickness behavior as measured using the sicknessQ",
+              "timeFrame": "Before the administration and 1.5, 3, 5 and 7 hours after the administration"
+            },
+            {
+              "description": "Change in symptoms of anxiety evaluated using the self-assessment questionnaire State part of the State-Trait Anxiety Inventory (STAI)",
+              "measure": "Change from baseline in anxiety state as measured using the STAI-State",
+              "timeFrame": "Before the administration and 3 and 7 hours after the administration"
+            },
+            {
+              "description": "Change in mood alterations evaluated using the self-assessment questionnaire Swedish Core Affect Scales (SCAS)",
+              "measure": "Change from baseline in psychological state as measured using the SCAS",
+              "timeFrame": "Before the administration and 3 and 7 hours after the administration"
+            },
+            {
+              "description": "Change in symptoms of pain evaluated using the self-assessment questionnaire Mc Gill questionnaire - short version",
+              "measure": "Change from baseline in pain as measured using the short McGill questionnaire",
+              "timeFrame": "Before the administration and 3 and 7 hours after the administration"
+            },
+            {
+              "description": "Change in sleepiness evaluated using the Karolinska Sleepiness Scale (KSS)",
+              "measure": "Change from baseline in sleepiness as measured using the KSS",
+              "timeFrame": "Before the administration and 3 and 7 hours after the administration"
+            },
+            {
+              "description": "Change in plasma concentration of the pro-inflammatory cytokine interleukin-6 (IL-6)",
+              "measure": "Change from baseline in systemic IL-6 concentrations",
+              "timeFrame": "Before the administration and 1, 1.5, 2, 3, 4, 5, 7 hours after the administration"
+            },
+            {
+              "description": "Change in plasma concentration of the pro-inflammatory cytokine tumor necrosis factor-alpha (TNF-a)",
+              "measure": "Change from baseline in systemic TNF-a concentrations",
+              "timeFrame": "Before the administration and 1, 1.5, 2, 3, 4, 5, 7 hours after the administration"
+            },
+            {
+              "description": "Change in plasma concentration of the pro-inflammatory cytokine interleukin-8 (IL-8)",
+              "measure": "Change from baseline in systemic IL-8 concentrations",
+              "timeFrame": "Before the administration and 1, 1.5, 2, 3, 4, 5, 7 hours after the administration"
+            },
+            {
+              "description": "Change in plasma concentration of the pro-inflammatory cytokine high-mobility group box 1 (HMGB1)",
+              "measure": "Change from baseline in systemic HMGB1 concentrations",
+              "timeFrame": "Before the administration and 1, 1.5, 2, 3, 4, 5, 7 hours after the administration"
+            },
+            {
+              "description": "Change in plasma concentration of the pro-inflammatory cytokine interleukin-1 beta (IL-1B)",
+              "measure": "Change from baseline in systemic IL-1B concentrations",
+              "timeFrame": "Before the administration and 1, 1.5, 2, 3, 4, 5, 7 hours after the administration"
+            },
+            {
+              "description": "Change in plasma concentration of the anti-inflammatory cytokine interleukin-10 (IL-10)",
+              "measure": "Change from baseline in systemic IL-10 concentrations",
+              "timeFrame": "Before the administration and 1, 1.5, 2, 3, 4, 5, 7 hours after the administration"
+            },
+            {
+              "description": "Change in plasma concentration of the anti-inflammatory cytokine interleukin-1 receptor antagonist (IL-1ra)",
+              "measure": "Change from baseline in systemic IL-1ra concentrations",
+              "timeFrame": "Before the administration and 1, 1.5, 2, 3, 4, 5, 7 hours after the administration"
+            },
+            {
+              "description": "Change in heart rate assessed using a cardiac monitoring",
+              "measure": "Change from baseline in heart rate",
+              "timeFrame": "Before the administration and every half hour up to 7.5 hours after the administration"
+            },
+            {
+              "description": "Change in systolic blood pressure assessed using a cardiac monitoring",
+              "measure": "Change from baseline in systolic blood pressure",
+              "timeFrame": "Before the administration and every half hour up to 7.5 hours after the administration"
+            },
+            {
+              "description": "Change in diastolic blood pressure assessed using a cardiac monitoring",
+              "measure": "Change from baseline in diastolic blood pressure",
+              "timeFrame": "Before the administration and every half hour up to 7.5 hours after the administration"
+            },
+            {
+              "description": "Change in body temperature measured using an ear thermometer",
+              "measure": "Change from baseline in body temperature",
+              "timeFrame": "Before the administration and every half hour up to 7.5 hours after the administration"
+            },
+            {
+              "description": "Change in headache scores measured using a numerical scale ranging from 0 (no headache) to 10 (most unbearable headache)",
+              "measure": "Change from baseline in headache scores as measured using a numerical scale",
+              "timeFrame": "Before the administration and every half hour up to 7.5 hours after the administration"
+            },
+            {
+              "description": "Change in nausea scores measured using a numerical scale ranging from 0 (no nausea) to 10 (most unbearable nausea)",
+              "measure": "Change from baseline in nausea scores as measured using a numerical scale",
+              "timeFrame": "Before the administration and every half hour up to 7.5 hours after the administration"
+            },
+            {
+              "description": "Change in back pain scores measured using a numerical scale ranging from 0 (no back pain) to 10 (most unbearable back pain)",
+              "measure": "Change from baseline in back pain scores as measured using a numerical scale",
+              "timeFrame": "Before the administration and every half hour up to 7.5 hours after the administration"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Changes in concentrations of total microparticles (defined as particles less than 1\u03bcm in size and staining for lactadherin) and platelet-, monocytes- and endothelial-derived microparticles (co-staining of lactadherin and, respectively, cluster of differentiation (CD)42A, CD14 and CD62E).",
+              "measure": "Change in cell expression of blood microparticles",
+              "timeFrame": "Before the administration and 1, 1.5, 2, 3, 4, 5, 7 hours after the administration"
+            },
+            {
+              "description": "Modification in genetic markers measured using CAGE analysis from PAXGene blood samples",
+              "measure": "Modification in genetic markers",
+              "timeFrame": "Before the administration and 1, 2, 4, 7 hours after the administration"
+            },
+            {
+              "description": "Change in expression of immune cell subpopulations markers using flow cytometry from frozen whole blood in 10% Dimethylsulfoxid (DMSO)",
+              "measure": "Change in expression of immune cell markers",
+              "timeFrame": "Before the administration and 1, 2, 3, 4, 7 hours after the administration"
+            },
+            {
+              "description": "Change in abundance of volatile odor compounds analyzed using gas chromatography mass spectrometry (GC-MS) from tee-shirt samples and urine samples",
+              "measure": "Change in odor compounds",
+              "timeFrame": "Before and after the administration"
+            },
+            {
+              "description": "Modification in social interactions using movies of the study day and sociometric badges",
+              "measure": "Changes in social interaction",
+              "timeFrame": "During all day"
+            },
+            {
+              "description": "Gait analysis using the Kinect camera",
+              "measure": "Gait",
+              "timeFrame": "2 hours after the administration"
+            },
+            {
+              "description": "Whole-body approach-avoidance behavior to positive/negative stimuli",
+              "measure": "Approach-avoidance behavior",
+              "timeFrame": "5 hours after the administration"
+            },
+            {
+              "description": "Face expression of sickness measured using photos of the subject with a neutral face expression",
+              "measure": "Face expression of sickness",
+              "timeFrame": "Before the administration and 2 and 7.5 hours after"
+            },
+            {
+              "description": "Change in skin color measurement using a spectrophotometer",
+              "measure": "Change in skin color",
+              "timeFrame": "Before the administration and 1,2,3,4,5,7 hours after"
+            },
+            {
+              "description": "Choices of hard task (vs easy task) in the EEfRT",
+              "measure": "Motivation as measured using the Effort Expenditure for Rewards Task (EEfRT)",
+              "timeFrame": "4 hours after the administration"
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": false
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Lasselin J, Petrovic P, Olsson MJ, Paues Goranson S, Lekander M, Jensen KB, Axelsson J. Sickness behavior is not all about the immune response: Possible roles of expectations and prediction errors in the worry of being sick. Brain Behav Immun. 2018 Nov;74:213-221. doi: 10.1016/j.bbi.2018.09.008. Epub 2018 Sep 11.",
+              "pmid": "30217536",
+              "type": "DERIVED"
+            },
+            {
+              "citation": "Axelsson J, Sundelin T, Olsson MJ, Sorjonen K, Axelsson C, Lasselin J, Lekander M. Identification of acutely sick people and facial cues of sickness. Proc Biol Sci. 2018 Jan 10;285(1870):20172430. doi: 10.1098/rspb.2017.2430.",
+              "pmid": "29298938",
+              "type": "DERIVED"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "OTHER",
+              "name": "Danderyd Hospital"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Karolinska Institutet"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Karolinska Institutet",
+            "investigatorFullName": "Mats Lekander",
+            "investigatorTitle": "Professor",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2015-04",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2015-08-20",
+            "type": "ESTIMATED"
+          },
+          "lastUpdateSubmitDate": "2015-08-19",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2015-04",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2015-02"
+          },
+          "statusVerifiedDate": "2015-08",
+          "studyFirstPostDateStruct": {
+            "date": "2015-08-20",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2015-04-29",
+          "studyFirstSubmitQcDate": "2015-08-19"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D002561",
+              "term": "Cerebrovascular Disorders"
+            },
+            {
+              "id": "D001927",
+              "term": "Brain Diseases"
+            },
+            {
+              "id": "D002493",
+              "term": "Central Nervous System Diseases"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D014652",
+              "term": "Vascular Diseases"
+            },
+            {
+              "id": "D002318",
+              "term": "Cardiovascular Diseases"
+            },
+            {
+              "id": "D004935",
+              "term": "Esophageal Diseases"
+            },
+            {
+              "id": "D005767",
+              "term": "Gastrointestinal Diseases"
+            },
+            {
+              "id": "D004066",
+              "term": "Digestive System Diseases"
+            },
+            {
+              "id": "D010608",
+              "term": "Pharyngeal Diseases"
+            },
+            {
+              "id": "D010038",
+              "term": "Otorhinolaryngologic Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D020521",
+              "term": "Stroke"
+            },
+            {
+              "id": "D003680",
+              "term": "Deglutition Disorders"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "3 Points and above according to the EAT-10 scale",
+              "interventionNames": [
+                "Other: ultrasonograpic evaluotion"
+              ],
+              "label": "dysphagia"
+            },
+            {
+              "description": "Under 3 points on the EAT-10 scale",
+              "interventionNames": [
+                "Other: ultrasonograpic evaluotion"
+              ],
+              "label": "non-dysphagia"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "dysphagia",
+                "non-dysphagia"
+              ],
+              "description": "The distance between the hyoid and thyroid cartilage, the volume of the geniohyoid, digastric anterior, sternohyoid and thyrohyoid muscles will be evaluated by ultrasound.",
+              "name": "ultrasonograpic evaluotion",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Stroke",
+            "Dysphagia"
+          ]
+        },
+        "contactsLocationsModule": {
+          "centralContacts": [
+            {
+              "email": "cansinmedin@hotmail.com",
+              "name": "associate proffesor",
+              "phone": "800-555-5555",
+              "role": "CONTACT"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "ultrasonographic parameters in stroke patients with dysphagia"
+        },
+        "designModule": {
+          "designInfo": {
+            "observationalModel": "CASE_CONTROL",
+            "timePerspective": "PROSPECTIVE"
+          },
+          "enrollmentInfo": {
+            "count": 102,
+            "type": "ESTIMATED"
+          },
+          "patientRegistry": true,
+          "studyType": "OBSERVATIONAL",
+          "targetDuration": "1 Day"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria: Diagnosis of stroke,\n\n* Agreeing to participate in the study,\n* Cognitive competence to understand the test instructions\n* Communication skills to respond to the test instructions.\n\nExclusion Criteria:\n\n* Presence of a neurological disease other than stroke that will cause difficulty in swallowing, -Being illiterate,\n* refusing to participate in the study,\n* jaw joint problem,\n* surgical intervention in the neck area that will affect ultrasound measurements,\n* infected open wound",
+          "healthyVolunteers": false,
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Patients who have been diagnosed with stroke at Istanbul Physical Therapy and Rehabilitation Training and Research Hospital and enrolled in a rehabilitation program will be divided into 2 groups according to the presence of dysphagia (3 points and above according to the EAT-10 scale)."
+        },
+        "identificationModule": {
+          "briefTitle": "Ultrasonographic Parameters in Stroke Patients With Dysphagia",
+          "nctId": "NCT06615310",
+          "officialTitle": "The Relationship of Ultrasonographic Parameters Used in the Evaluation of Dysphagia in Stroke Patients With Swallowing Severity",
+          "orgStudyIdInfo": {
+            "id": "2024-41"
+          },
+          "organization": {
+            "class": "OTHER_GOV",
+            "fullName": "Istanbul Physical Medicine Rehabilitation Training and Research Hospital"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "UNDECIDED"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "the thickness of the muscle will be measured by ultrasound",
+              "measure": "muscle volume of thyrohyoid",
+              "timeFrame": "baseline"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "the thickness of the muscle will be measured by ultrasound",
+              "measure": "muscle volume of sternohyoid",
+              "timeFrame": "baseline"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": false
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER_GOV",
+            "name": "Istanbul Physical Medicine Rehabilitation Training and Research Hospital"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Istanbul Physical Medicine Rehabilitation Training and Research Hospital",
+            "investigatorFullName": "Cansin Medin",
+            "investigatorTitle": "associate proffesor",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2025-04-01",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2024-09-26",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2024-09-24",
+          "overallStatus": "NOT_YET_RECRUITING",
+          "primaryCompletionDateStruct": {
+            "date": "2025-03-01",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2024-10-01",
+            "type": "ESTIMATED"
+          },
+          "statusVerifiedDate": "2024-09",
+          "studyFirstPostDateStruct": {
+            "date": "2024-09-26",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2024-09-13",
+          "studyFirstSubmitQcDate": "2024-09-24"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D002908",
+              "term": "Chronic Disease"
+            },
+            {
+              "id": "D020969",
+              "term": "Disease Attributes"
+            },
+            {
+              "id": "D010335",
+              "term": "Pathologic Processes"
+            },
+            {
+              "id": "D013568",
+              "term": "Pathological Conditions, Signs and Symptoms"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D018923",
+              "term": "Persian Gulf Syndrome"
+            },
+            {
+              "id": "D000071069",
+              "term": "Multiple Chronic Conditions"
+            },
+            {
+              "id": "D009784",
+              "term": "Occupational Diseases"
+            },
+            {
+              "id": "D000067398",
+              "term": "War-Related Injuries"
+            },
+            {
+              "id": "D014947",
+              "term": "Wounds and Injuries"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D000529",
+              "term": "Complementary Therapies"
+            },
+            {
+              "id": "D013812",
+              "term": "Therapeutics"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D015670",
+              "term": "Acupuncture Therapy"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Bi-weekly acupuncture treatment",
+              "interventionNames": [
+                "Device: Acupuncture"
+              ],
+              "label": "Bi-weekly acupuncture treatment",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Wait list for 2 months followed by weekly acupuncture for 4 months",
+              "interventionNames": [
+                "Device: Acupuncture"
+              ],
+              "label": "Wait list",
+              "type": "ACTIVE_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Bi-weekly acupuncture treatment",
+                "Wait list"
+              ],
+              "description": "Sterile insertive needles are applied by licensed, experienced practitioners.",
+              "name": "Acupuncture",
+              "type": "DEVICE"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Persian Gulf Syndrome",
+            "Gulf War Syndrome",
+            "Multiple Chronic Illnesses",
+            "Occupational Diseases",
+            "War-Related Injuries",
+            "Wounds and Injuries"
+          ],
+          "keywords": [
+            "Acupuncture",
+            "Gulf War Illness",
+            "Complex Medical Illness",
+            "Chronic Multisymptom Illness",
+            "Veteran"
+          ]
+        },
+        "contactsLocationsModule": {
+          "centralContacts": [
+            {
+              "email": "lisa_conboy@hms.harvard.edu",
+              "name": "Lisa Conboy",
+              "phone": "617-718-1917",
+              "role": "CONTACT"
+            }
+          ],
+          "locations": [
+            {
+              "city": "Berkeley",
+              "contacts": [
+                {
+                  "name": "Irina Conboy, PhD",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "United States",
+              "facility": "University of California, Berkeley",
+              "geoPoint": {
+                "lat": 37.87159,
+                "lon": -122.27275
+              },
+              "state": "California",
+              "status": "NOT_YET_RECRUITING",
+              "zip": "94720"
+            },
+            {
+              "city": "Los Angeles",
+              "contacts": [
+                {
+                  "email": "gwi@utah.edu",
+                  "name": "CARE Study Research Team",
+                  "phone": "801-646-8308",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "United States",
+              "facility": "Various",
+              "geoPoint": {
+                "lat": 34.05223,
+                "lon": -118.24368
+              },
+              "state": "California",
+              "status": "RECRUITING",
+              "zip": "90015"
+            },
+            {
+              "city": "Colorado Springs",
+              "contacts": [
+                {
+                  "email": "gwi@utah.edu",
+                  "name": "CARE Study Research Team",
+                  "phone": "801-646-8308",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "United States",
+              "facility": "Various",
+              "geoPoint": {
+                "lat": 38.83388,
+                "lon": -104.82136
+              },
+              "state": "Colorado",
+              "status": "NOT_YET_RECRUITING",
+              "zip": "80911"
+            },
+            {
+              "city": "Denver",
+              "contacts": [
+                {
+                  "email": "GWI@utah.edu",
+                  "name": "CARE Study Research Team",
+                  "phone": "801-646-8308",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "United States",
+              "facility": "Various",
+              "geoPoint": {
+                "lat": 39.73915,
+                "lon": -104.9847
+              },
+              "state": "Colorado",
+              "status": "NOT_YET_RECRUITING",
+              "zip": "80203"
+            },
+            {
+              "city": "Tampa",
+              "contacts": [
+                {
+                  "email": "GWI@utah.edu",
+                  "name": "CARE Study Research Team",
+                  "phone": "801-646-8308",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "United States",
+              "facility": "Various",
+              "geoPoint": {
+                "lat": 27.94752,
+                "lon": -82.45843
+              },
+              "state": "Florida",
+              "status": "RECRUITING",
+              "zip": "33762"
+            },
+            {
+              "city": "Boston",
+              "contacts": [
+                {
+                  "email": "lisa_conboy@hms.harvard.edu",
+                  "name": "Lisa A Conboy, MA MS ScD",
+                  "phone": "617-718-1917",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "United States",
+              "facility": "Beth Israel Deaconess Medical Center",
+              "geoPoint": {
+                "lat": 42.35843,
+                "lon": -71.05977
+              },
+              "state": "Massachusetts",
+              "status": "NOT_YET_RECRUITING",
+              "zip": "02215"
+            },
+            {
+              "city": "Dallas",
+              "contacts": [
+                {
+                  "email": "GWI@utah.edu",
+                  "name": "CARE Study Research Team",
+                  "phone": "801-646-8308",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "United States",
+              "facility": "Various",
+              "geoPoint": {
+                "lat": 32.78306,
+                "lon": -96.80667
+              },
+              "state": "Texas",
+              "status": "RECRUITING",
+              "zip": "75231"
+            },
+            {
+              "city": "Salt Lake City",
+              "contacts": [
+                {
+                  "email": "lisa.taylor-swanson@nurs.utah.edu",
+                  "name": "Lisa Taylor-Swanson",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "United States",
+              "facility": "University of Utah",
+              "geoPoint": {
+                "lat": 40.76078,
+                "lon": -111.89105
+              },
+              "state": "Utah",
+              "status": "NOT_YET_RECRUITING",
+              "zip": "84111"
+            },
+            {
+              "city": "Fairfax",
+              "contacts": [
+                {
+                  "email": "gwi@utah.edu",
+                  "name": "CARE Study Research Team",
+                  "phone": "801-646-8308",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "United States",
+              "facility": "Various",
+              "geoPoint": {
+                "lat": 38.84622,
+                "lon": -77.30637
+              },
+              "state": "Virginia",
+              "status": "NOT_YET_RECRUITING",
+              "zip": "23235"
+            },
+            {
+              "city": "Seattle",
+              "contacts": [
+                {
+                  "email": "gwi@utah.edu",
+                  "name": "CARE Study Research Team",
+                  "phone": "801-646-8308",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "United States",
+              "facility": "Various",
+              "geoPoint": {
+                "lat": 47.60621,
+                "lon": -122.33207
+              },
+              "state": "Washington",
+              "status": "NOT_YET_RECRUITING",
+              "zip": "98116"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "This unblinded Phase II clinical trial will test the effects of individualized acupuncture treatments offered in extant acupuncture practices in the community; practitioners will have had at least 5 years of experience plus additional training provided by the study. Veterans with diagnosed symptoms of Gulf War Illness will be randomized to either six months of biweekly acupuncture treatments (group 1, n=100) or 2 months of waitlist followed by weekly acupuncture treatments (group 2, n=100). Measurements were taken at baseline, 2, 4 and 6 months. The primary outcome is the SF-36 physical component scale score (SF-36P).",
+          "detailedDescription": "Gulf War Illness (GWI), or chronic multisymptom illness (CMI), is a complex illness characterized by multiple symptoms, including fatigue, sleep and mood disturbances, cognitive dysfunction, and musculoskeletal pain, which are unexplained by physical and laboratory examinations. There is no standard of care treatment for this syndrome at this time. First defined by the Centers for Disease Control and Prevention (CDC) after the first Gulf War, it is commonly seen with a highly individualistic presentation, associated with clusters of symptoms and co-morbid medical diagnoses, including chronic fatigue syndrome, fibromyalgia, irritable bowel syndrome, arthralgia, digestive complaints, and mood-related psychiatric disorders, including depression, posttraumatic stress disorder (PTSD), and other anxiety disorders. It has been shown to be remarkably stable at 5- and 10- year follow-ups. Of the 700,000 service personnel deployed to the Persian Gulf, 100,000 veterans of the first Gulf War (Operation Desert Shield/Storm, years 1990-1991) have presented with medical complaints through clinical and registry programs. GWI is twice as prevalent in deployed veterans, and seen in 15% of non-deployed veterans.\n\nCMI symptoms have been studied in cohorts of veterans in the United Kingdom, Canada, and Australia. The etiology of CMI is still unknown, and hypotheses involving exposures to vaccines, medications, pesticides, chemical munitions, and inhalation of depleted uranium dust and smoke from burning oil fields, have all been investigated inconclusively. Stress plays a likely role in the etiology of other multisymptom illnesses, such as irritable bowel syndrome (IBS), multiple chemical sensitivity and chronic headache. It is likely that veterans of the current war in Iraq and Afghanistan are exposed to similar deployment stressors and will benefit from an investigation of CMI and its treatment.\n\nAcupuncture is an evidence-based, nonpharmacologic treatment commonly used for many symptoms affecting veterans and active military personnel, including pain. Acupuncture has shown efficacy for a variety of painful musculoskeletal disorders, as a treatment for both acute and chronic pain after amputation in military contexts, and in the treatment of related comorbidities such as fatigue, state, trait and situational anxiety, and depression. Acupuncture has shown effectiveness and is used in the Veterans Health Administration (VHA) and covered by Medicare for some conditions.\n\nThe L Conboy lab has completed multiple successful acupuncture trials in areas such as Irritable Bowel Syndrome, Carpel Tunnel Syndrome, and pelvic pain. Most recently the study team successfully completed a 3.5-year Congressionally Directed Medical Research Program (CDMRP) randomized controlled trial (RCT) \"The Effectiveness of Acupuncture in the Treatment of Gulf War Illness\". In that study, veterans chose a trained study acupuncturist in a location convenient to them. These community-based acupuncturists provided personalized acupuncture in a therapeutically informed dose. In the robust sample (n=104), investigators found a clinically and statistically significant improvement in pain after 2 months of treatment. After 6 months of treatment McGill Pain Scale values showed a 6-point improvement (p\\<=0.001), and the physical component of the SF-36 (SF-36P) showed a 9-point improvement (p\\<=0.003). Investigators also found statistically and clinically improvements in: the severity of veterans' self-reported main (p\\<0.01) and secondary (p\\<0.009) complaints as measured by the patient-centered Measure Your Medical Outcomes Profile (MYMOP) outcome measure, self-reported overall health from the SF-36P (p\\<0.007), and fatigue (p\\<0.05) based on the Multidimensional Assessment of Fatigue. Patient satisfaction with care and confidence in treatment was also very high (95% rated satisfied and confident). In addition, investigators found that the theoretically informed dose (2 sessions per week for 6 months) provided more relief for pain and poor function than did the comparison dose of one session per week, and that over 95% of symptom improvement for pain was maintained at 5-year follow up. Acupuncture at a sufficient dose is one of the only treatments found to be effective in improving pain and function in this hard-to-treat population while also addressing other symptoms in the patient's biopsychosocial presentation. Other high-quality science has shown that dosage is important for acupuncture treatment, and that treatment effects can persist long after acupuncture treatment has ended.\n\nWhile this clinical data is very promising, equally important is furthering the understanding of the mechanisms of Gulf War Illness and successful treatments. Investigators conducted blood biomarker analyses using the collected blood samples from the parent trial, including collaborations with the Boston Biorepository, Recruitment and Integrative Network (BBRAIN) consortium at Boston University. Investigators found a number of interesting contrasts including significantly altered ether lipid metabolism in GWI, and that acyl-carnitine molecules are decreased in GWI, in agreement with previous reports. More recently, in collaboration with anti-aging researchers at Berkeley, investigators have found that acupuncture at the proper dose shifts the protein signature of GWI veteran to resemble a younger state (see below). In order to further elucidate the mechanisms underlying both GWI and successful treatments, the collection of blood biomarkers will be augmented by collection of physiological biomarkers potentially implicated in GWI symptoms.\n\nAutonomic dysregulation has been demonstrated to be common among Veterans with GWI, according to both self-report and objective measures. The 31-item Composite Autonomic Symptom Score (COMPASS-31) scale assesses autonomic dysregulation. COMPASS-31 scores were positively associated with physical function in a GWI population, with gastrointestinal (GI) symptoms as the autonomic subscale most strongly correlated. A pilot study using heart rate variability (HRV) measurement reported parasympathetic activity (PNS) negatively associated with GWI symptoms, while sympathetic nervous system activity (SNS) was positively associated with symptoms. Further, some data suggest that treatment improvements in those with GWI are associated with improvements in autonomic regulation. For example, yoga and breathing techniques have demonstrated in multiple studies in veterans and non-veterans improvements in symptoms associated with GWI, including autonomic symptoms, chronic pain, and irritable bowel syndrome. Exploration of autonomic dysregulation in this study of acupuncture for GWI is thus proposed because acupuncture is associated with decreased autonomic symptoms. A recent meta-analysis concluded that real acupuncture has a superior effect over placebo acupuncture in increasing parasympathetic tone, though this has yet to be studied in GWI.\n\nGastrointestinal problems and fatigue are also highly prevalent among veterans with GWI. Autonomic dysregulation among veterans with GWI has been studied with respect to gastroparesis as demonstrated by a composite autonomic score of 3.7 in veterans with GI symptoms (vs 1.3 in controls) (p\\<0.01). Previous work on GWI and HRV on the outcome of fatigue found a significant negative relationship between root mean square of successive differences of beat-to-beat intervals (RMSSD), a measure of PNS activity, and fatigue \\[r = -.0574\\]. This is consistent with literature indicating decreased parasympathetic activity to be a characteristic feature of both acute and daily levels of fatigue. Other work on acupuncture and HRV on the outcome of fatigue supports the investigation that acupuncture treatment is associated with decreased autonomic symptoms. Further a recent meta-analysis concluded that real acupuncture has a superior effect over placebo acupuncture in increasing parasympathetic tone, though this has yet to be studied in GWI. One study of acupuncture demonstrated decreased fatigue among patients with Chronic Fatigue Syndrome, and also reported instantaneous changes of HR after acupuncture therapy was administered.\n\nIf investigators confirm the previous clinical results, this data set will provide valuable documentation of the clinical, biological, and physiological changes that occur as veterans with GWI move to a healthier state. This will greatly improve current understanding of the Whole Health of GWI veterans, with applications to other clinical modalities and illnesses.\n\nSubjects will be recruited via local advertisements and direct mailing to veterans on the Gulf War Registry, who live in one of the 6 areas identified by the team to have greater density of veterans diagnosed with Gulf War Illness. Through questionnaires, physician assessment, and medical histories, the investigators measured the severity of symptoms before beginning treatment, and after 2, 4 and 6 months of treatment. One group of patients received acupuncture evaluation and treatment twice per week for 6 months. A second group, for comparison purposes, will be monitored on a wait list for 2 months, and will then be offered weekly acupuncture for 4 months. The primary comparison is the difference at 6 months. Based on previous acupuncture research on fatigue, stress, and pain, including the parent study, the investigators expect this length of treatment will be enough for patients to receive significant benefit. The investigators also planed to collect samples of blood from the volunteers that will help identify possible disease mechanisms for the illness and track the effects of treatment."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "DOUBLE",
+              "whoMasked": [
+                "INVESTIGATOR",
+                "OUTCOMES_ASSESSOR"
+              ]
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 200,
+            "type": "ESTIMATED"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Deployed to the Gulf Theater of operations (as defined by 38 CFR 3.317, includes Iraq, Kuwait, Saudi Arabia, Bahrain, Qatar, the United Arab Emirates, Oman, the Gulf of Aden, the Gulf of Oman, the Persian Gulf, the Arabian Sea, the Red Sea, and the airspace above all of these locations) between August 1990 and the present date\n* Have at least 2 of the following symptoms from the 3 CDC clusters of symptom that have lasted for more than 6 months. Each symptom cluster must be characterized as mild-moderate or severe, with at least one symptom in each cluster required to be severe. The clusters are:\n\nA. Fatigability: fatigue 24 hours or more after exertion B. Mood and Cognition: feeling depressed; feeling irritable; difficulty thinking or concentrating; feeling worried, tense, anxious; problems finding words; or problems getting to sleep C. Musculoskeletal: joint pain or muscle pain\n\nExclusion Criteria:\n\n* Currently enrolled in another clinical trial\n* Have another disease that likely could account for the symptoms, as determined by our Medical Monitor\n* Severe psychiatric illness (in the last 2 years psychiatric hospitalization, suicidal attempt, alcohol or substance abuse, use of antipsychotic medication) as measured by the Primary Care Evaluation of Mental Disorder (Prime MD).\n* Unable to complete the protocol on based on the evaluation of the Medical Monitor.",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "acronym": "CARE",
+          "briefTitle": "Confirming the Effects of Acupuncture Treatments to Relieve Symptoms of Gulf War Illness",
+          "nctId": "NCT06716411",
+          "officialTitle": "Confirming the Effects of Acupuncture Treatments to Relieve Symptoms of Gulf War Illness",
+          "orgStudyIdInfo": {
+            "id": "TX230133"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "University of Utah"
+          },
+          "secondaryIdInfos": [
+            {
+              "domain": "Department of the Army",
+              "id": "CDMRP-TX230133P2",
+              "type": "OTHER_GRANT"
+            }
+          ]
+        },
+        "outcomesModule": {
+          "otherOutcomes": [
+            {
+              "description": "Blood draws will be used to examine levels of selected markers of inflammation, stress, and immune function. The units of measure would be relative to control, baseline or untreated. The following proteins will be evaluated:\n\nTRAIL-R1 (Tumor necrosis factor-Related Apoptosis-Inducing Ligand Recombinant protein 1); IL-16 (Interleukin 16) TIMP-1 (Tissue Inhibitor of MetalloProteinases-1); IL-15Ra (Interleukin 15 R alpha); CD27 (also known as Tumor necrosis factor receptor superfamily member 7 (TNFRSF7)); APJ (apelin receptor); SMAD5 (mothers against decapentaplegic homolog 5); uPAR (urokinase plasminogen activator surface receptor); FADD (Fas-associated death domain); MFGE8 (Milk fat globule epidermal growth factor 8); ICAM-1 (Intercellular adhesion molecule 1); TNFRSF27 (tumor necrosis factor receptor superfamily member 27); CCL25 (Chemokine ligand 25); TGFbR2 (transforming growth factor beta receptor 2); TLR4 (tool-like receptor 4)",
+              "measure": "Blood Draw",
+              "timeFrame": "6 months"
+            },
+            {
+              "description": "The McGill Pain scale is perhaps the most recognized and utilized pain measurement device across a range of ailments. This 15-item measure asks participants to describe the quality of their pain using various different descriptors (73). The McGill pain scale is 0-60 range, where the worse the pain the higher the number.",
+              "measure": "McGill Pain Scale",
+              "timeFrame": "6 months"
+            },
+            {
+              "description": "Signs and symptoms of autonomic dysfunction, including changes in heart rate variability (HRV), have been demonstrated among veterans diagnosed with GWI. Acupuncture has also demonstrated an impact the autonomic nervous system by effecting a shift away from sympathetic dominance and toward parasympathetic dominance. So, we propose to measure HRV parameters as a physiological biomarker of treatment effect. Specifically, the team will gather the following HRV data: heart rate (HR); respiratory rate (RR); standard deviation of normal-to-normal intervals (SDNN); root mean square of successive differences (RMSSD); pNN50 (percentage of consecutive normal sinus intervals that differ by more than 50 milliseconds); VLF (band of rhythms with periods between 25 and 300 s); LF (band of rhythms with periods between 7 and 25 s); any heart failure (HF); LF/HF (ration of low frequency to high frequency); and total power. HRV data will be extracted continuously from Fitbits worn by participants.",
+              "measure": "Heart rate variability (HRV)",
+              "timeFrame": "6 months (starting two weeks before treatment starts until the end of treatment)"
+            }
+          ],
+          "primaryOutcomes": [
+            {
+              "description": "Ten items addressing physical functioning which are part of a short-form health survey with 36 questions. Scores range between 0 and 100 with higher scores indicating better function.",
+              "measure": "SF-36P",
+              "timeFrame": "6 months"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": true,
+          "isFdaRegulatedDrug": false,
+          "isUsExport": true,
+          "oversightHasDmc": true
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "FED",
+              "name": "United States Department of Defense"
+            },
+            {
+              "class": "OTHER",
+              "name": "University of California, Berkeley"
+            },
+            {
+              "class": "OTHER",
+              "name": "Beth Israel Deaconess Medical Center"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "University of Utah"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "University of Utah",
+            "investigatorFullName": "Lisa J Taylor-Swanson",
+            "investigatorTitle": "Principal Investigator, PhD",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2028-09-30",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-04-03",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2026-04-02",
+          "overallStatus": "RECRUITING",
+          "primaryCompletionDateStruct": {
+            "date": "2027-09-30",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2026-02-03",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2026-04",
+          "studyFirstPostDateStruct": {
+            "date": "2024-12-04",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2024-08-16",
+          "studyFirstSubmitQcDate": "2024-12-03"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "seed": 20260526,
+  "n_evidence_rows": 6687,
+  "n_genes": 3184,
+  "top_genes": [
+    "NAMPT",
+    "IFI30",
+    "CXCL10",
+    "C1QB",
+    "CTSB",
+    "SPP1",
+    "IL1B",
+    "C1QA",
+    "TNF",
+    "MSR1"
+  ],
+  "top_axes": [
+    "interferon_chemokine",
+    "lysosome_antigen_processing",
+    "complement_phagocytosis",
+    "metabolic_licensing",
+    "lipid_droplet_efflux",
+    "tissue_remodeling"
+  ],
+  "interpretation": "Heuristic breadth ranking for triage. Promotion requires cell-state, genetics, foundation-model/perturbation, druggability, and prior-art validation."
+}

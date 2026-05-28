@@ -1,0 +1,430 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11371347",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15761194",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15922306",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "16571646",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17324964",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "36149965",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "7590287",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "7696590",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "7840300",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "8821791",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9490857",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9533862",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Inward rectifier potassium channels are characterized by a greater tendency to allow potassium to flow into the cell rather than out of it (PubMed:36149965, PubMed:7590287, PubMed:9490857). Their voltage dependence is regulated by the concentration of extracellular potassium; as external potassium is raised, the voltage range of the channel opening shifts to more positive voltages (PubMed:7590287, PubMed:7696590). The inward rectification is mainly due to the blockage of outward current by internal magnesium (PubMed:9490857). Can be blocked by extracellular barium or cesium (PubMed:7590287, PubMed:7696590). Probably participates in establishing action potential waveform and excitability of neuronal and muscle tissues (PubMed:7590287, PubMed:7696590, PubMed:7840300)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "16571646",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "9533862",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000255"
+                  }
+                ],
+                "id": "SL-9909",
+                "value": "Multi-pass membrane protein"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "Q64273",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0505",
+                "value": "Cell membrane, sarcolemma, T-tubule"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000004F21A"
+      },
+      "features": [
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 81
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 1
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical; Name=M1",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 106
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 82
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Extracellular",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 128
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 107
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Extracellular",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 156
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 148
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical; Name=M2",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 178
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 157
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 427
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 179
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "36149965",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7ZDZ",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29103"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29103",
+            "name": "K(+)",
+            "note": "ligand shared between two neighboring subunits"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 255
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 255
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "KCNJ2"
+          },
+          "synonyms": [
+            {
+              "value": "IRK1"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-1020",
+          "name": "Atrial fibrillation"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-1003",
+          "name": "Cell membrane"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0225",
+          "name": "Disease variant"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-1015",
+          "name": "Disulfide bond"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0407",
+          "name": "Ion channel"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0406",
+          "name": "Ion transport"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0454",
+          "name": "Long QT syndrome"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0630",
+          "name": "Potassium"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0633",
+          "name": "Potassium transport"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0702",
+          "name": "S-nitrosylation"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0940",
+          "name": "Short QT syndrome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0813",
+          "name": "Transport"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0851",
+          "name": "Voltage-gated channel"
+        }
+      ],
+      "primaryAccession": "P63252",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Cardiac inward rectifier potassium channel"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Inward rectifier K(+) channel Kir2.1"
+            },
+            "shortNames": [
+              {
+                "value": "IRK-1"
+              },
+              {
+                "value": "hIRK1"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Potassium channel, inwardly rectifying subfamily J member 2"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Inward rectifier potassium channel 2"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "AB37CAD4B99B4050",
+        "length": 427,
+        "md5": "1EBE90BE96D37A7F8AEC0CC5F0307A10",
+        "molWeight": 48288,
+        "value": "MGSVRTNRYSIVSSEEDGMKLATMAVANGFGNGKSKVHTRQQCRSRFVKKDGHCNVQFINVGEKGQRYLADIFTTCVDIRWRWMLVIFCLAFVLSWLFFGCVFWLIALLHGDLDASKEGKACVSEVNSFTAAFLFSIETQTTIGYGFRCVTDECPIAVFMVVFQSIVGCIIDAFIIGAVMAKMAKPKKRNETLVFSHNAVIAMRDGKLCLMWRVGNLRKSHLVEAHVRAQLLKSRITSEGEYIPLDQIDINVGFDSGIDRIFLVSPITIVHEIDEDSPLYDLSKQDIDNADFEIVVILEGMVEATAMTTQCRSSYLANEILWGHRYEPVLFEEKHYYKVDYSRFHKTYEVPNTPLCSARDLAEKKYILSNANSFCYENEVALTSKEEDDSENGVPESTSTDTPPDIDLHNQASVPLEPRPLRRESEI"
+      },
+      "uniProtkbId": "KCNJ2_HUMAN"
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "A0A0G2K5L2",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11897791",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Mitochondrial glutamate/H(+) symporter. Responsible for the transport of glutamate from the cytosol into the mitochondrial matrix with the concomitant import of a proton (PubMed:11897791). Plays a role in the control of glucose-stimulated insulin secretion (By similarity)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "A0A0G2K5L2",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0168",
+                "value": "Mitochondrion inner membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000255"
+                  }
+                ],
+                "id": "SL-9909",
+                "value": "Multi-pass membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000073CD3"
+      },
+      "features": [
+        {
+          "description": "Helical; Name=1",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 32
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 12
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Helical; Name=2",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 82
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 62
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Helical; Name=3",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 127
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 107
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Helical; Name=4",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 209
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 189
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Helical; Name=5",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 243
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 223
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Helical; Name=6",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 312
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 292
+            }
+          },
+          "type": "Transmembrane"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:19954",
+                "source": "HGNC"
+              }
+            ],
+            "value": "SLC25A22"
+          },
+          "synonyms": [
+            {
+              "value": "GC1"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Disease",
+          "id": "KW-0225",
+          "name": "Disease variant"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0887",
+          "name": "Epilepsy"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0496",
+          "name": "Mitochondrion"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0999",
+          "name": "Mitochondrion inner membrane"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0677",
+          "name": "Repeat"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0769",
+          "name": "Symport"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0813",
+          "name": "Transport"
+        }
+      ],
+      "primaryAccession": "Q9H936",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Glutamate/H(+) symporter 1"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Solute carrier family 25 member 22"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Mitochondrial glutamate carrier 1"
+          },
+          "shortNames": [
+            {
+              "value": "GC-1"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "D0E06FD88E5A3198",
+        "length": 323,
+        "md5": "7F7377F21875C2B23D4642E86558329F",
+        "molWeight": 34470,
+        "value": "MADKQISLPAKLINGGIAGLIGVTCVFPIDLAKTRLQNQQNGQRVYTSMSDCLIKTVRSEGYFGMYRGAAVNLTLVTPEKAIKLAANDFFRHQLSKDGQKLTLLKEMLAGCGAGTCQVIVTTPMEMLKIQLQDAGRIAAQRKILAAQGQLSAQGGAQPSVEAPAAPRPTATQLTRDLLRSRGIAGLYKGLGATLLRDVPFSVVYFPLFANLNQLGRPASEEKSPFYVSFLAGCVAGSAAAVAVNPCDVVKTRLQSLQRGVNEDTYSGILDCARKILRHEGPSAFLKGAYCRALVIAPLFGIAQVVYFLGIAESLLGLLQDPQA"
+      },
+      "uniProtkbId": "GHC1_HUMAN"
+    }
+  ]
+}

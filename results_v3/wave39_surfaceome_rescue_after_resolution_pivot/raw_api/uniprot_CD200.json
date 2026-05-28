@@ -1,0 +1,193 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "value": "Costimulates T-cell proliferation. May regulate myeloid cell activity in a variety of tissues"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "id": "SL-9905",
+                "value": "Single-pass type I membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000130F53"
+      },
+      "features": [
+        {
+          "description": "Extracellular",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 232
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 31
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 259
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 233
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 278
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 260
+            }
+          },
+          "type": "Topological domain"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "CD200"
+          },
+          "orfNames": [
+            {
+              "value": "My033"
+            }
+          ],
+          "synonyms": [
+            {
+              "value": "MOX1"
+            },
+            {
+              "value": "MOX2"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-1003",
+          "name": "Cell membrane"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-1015",
+          "name": "Disulfide bond"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0325",
+          "name": "Glycoprotein"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0393",
+          "name": "Immunoglobulin domain"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0732",
+          "name": "Signal"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        }
+      ],
+      "primaryAccession": "P41217",
+      "proteinDescription": {
+        "cdAntigenNames": [
+          {
+            "value": "CD200"
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "OX-2 membrane glycoprotein"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "38DF327B382CC970",
+        "length": 278,
+        "md5": "CE4D90663DCC5441AD2762730EF685B8",
+        "molWeight": 31264,
+        "value": "MERLVIRMPFSHLSTYSLVWVMAAVVLCTAQVQVVTQDEREQLYTPASLKCSLQNAQEALIVTWQKKKAVSPENMVTFSENHGVVIQPAYKDKINITQLGLQNSTITFWNITLEDEGCYMCLFNTFGFGKISGTACLTVYVQPIVSLHYKFSEDHLNITCSATARPAPMVFWKVPRSGIENSTVTLSHPNGTTSVTSILHIKDPKNQVGKEVICQVLHLGTVTDFKQTVNKGYWFSVPLLLSIVSLVILLVLISILLYWKRHRNQDRGELSQGVQKMT"
+      },
+      "uniProtkbId": "OX2G_HUMAN"
+    }
+  ]
+}

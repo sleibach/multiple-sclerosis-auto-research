@@ -1,0 +1,698 @@
+{
+  "json": {
+    "esearchresult": {
+      "count": "40",
+      "idlist": [
+        "40972883",
+        "40912610",
+        "39613801",
+        "39532790",
+        "38155284"
+      ],
+      "querytranslation": "\"FXYD5\"[All Fields] AND (\"knockdown\"[All Fields] OR \"knockdowned\"[All Fields] OR \"knockdowns\"[All Fields] OR (\"knockout\"[All Fields] OR \"knockouts\"[All Fields]) OR \"knock-out\"[All Fields] OR (\"clustered regularly interspaced short palindromic repeats\"[MeSH Terms] OR (\"clustered\"[All Fields] AND \"regularly\"[All Fields] AND \"interspaced\"[All Fields] AND \"short\"[All Fields] AND \"palindromic\"[All Fields] AND \"repeats\"[All Fields]) OR \"clustered regularly interspaced short palindromic repeats\"[All Fields] OR \"crispr\"[All Fields] OR \"crisprs\"[All Fields]) OR (\"rna small interfering\"[Supplementary Concept] OR \"rna small interfering\"[All Fields] OR \"sirna\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR (\"rna\"[All Fields] AND \"small\"[All Fields] AND \"interfering\"[All Fields]) OR \"small interfering rna\"[All Fields] OR \"sirna s\"[All Fields] OR \"sirnas\"[All Fields]) OR (\"rna small interfering\"[Supplementary Concept] OR \"rna small interfering\"[All Fields] OR \"shrna\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR (\"rna\"[All Fields] AND \"small\"[All Fields] AND \"interfering\"[All Fields]) OR \"small interfering rna\"[All Fields] OR \"shrnas\"[All Fields]) OR (\"overexpress\"[All Fields] OR \"overexpressed\"[All Fields] OR \"overexpresser\"[All Fields] OR \"overexpressers\"[All Fields] OR \"overexpresses\"[All Fields] OR \"overexpressing\"[All Fields] OR \"overexpression\"[All Fields] OR \"overexpressions\"[All Fields]) OR (\"perturb\"[All Fields] OR \"perturbance\"[All Fields] OR \"perturbances\"[All Fields] OR \"perturbant\"[All Fields] OR \"perturbants\"[All Fields] OR \"perturbated\"[All Fields] OR \"perturbation\"[All Fields] OR \"perturbational\"[All Fields] OR \"perturbations\"[All Fields] OR \"perturbative\"[All Fields] OR \"perturbatively\"[All Fields] OR \"perturbed\"[All Fields] OR \"perturbing\"[All Fields] OR \"perturbs\"[All Fields]))",
+      "retmax": "5",
+      "retstart": "0",
+      "translationset": [
+        {
+          "from": "knockdown",
+          "to": "\"knockdown\"[All Fields] OR \"knockdowned\"[All Fields] OR \"knockdowns\"[All Fields]"
+        },
+        {
+          "from": "knockout",
+          "to": "\"knockout\"[All Fields] OR \"knockouts\"[All Fields]"
+        },
+        {
+          "from": "CRISPR",
+          "to": "\"clustered regularly interspaced short palindromic repeats\"[MeSH Terms] OR (\"clustered\"[All Fields] AND \"regularly\"[All Fields] AND \"interspaced\"[All Fields] AND \"short\"[All Fields] AND \"palindromic\"[All Fields] AND \"repeats\"[All Fields]) OR \"clustered regularly interspaced short palindromic repeats\"[All Fields] OR \"crispr\"[All Fields] OR \"crisprs\"[All Fields]"
+        },
+        {
+          "from": "siRNA",
+          "to": "\"rna, small interfering\"[Supplementary Concept] OR \"rna, small interfering\"[All Fields] OR \"sirna\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR (\"rna\"[All Fields] AND \"small\"[All Fields] AND \"interfering\"[All Fields]) OR \"small interfering rna\"[All Fields] OR \"sirna's\"[All Fields] OR \"sirnas\"[All Fields]"
+        },
+        {
+          "from": "shRNA",
+          "to": "\"rna, small interfering\"[Supplementary Concept] OR \"rna, small interfering\"[All Fields] OR \"shrna\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR (\"rna\"[All Fields] AND \"small\"[All Fields] AND \"interfering\"[All Fields]) OR \"small interfering rna\"[All Fields] OR \"shrnas\"[All Fields]"
+        },
+        {
+          "from": "overexpression",
+          "to": "\"overexpress\"[All Fields] OR \"overexpressed\"[All Fields] OR \"overexpresser\"[All Fields] OR \"overexpressers\"[All Fields] OR \"overexpresses\"[All Fields] OR \"overexpressing\"[All Fields] OR \"overexpression\"[All Fields] OR \"overexpressions\"[All Fields]"
+        },
+        {
+          "from": "perturbation",
+          "to": "\"perturb\"[All Fields] OR \"perturbance\"[All Fields] OR \"perturbances\"[All Fields] OR \"perturbant\"[All Fields] OR \"perturbants\"[All Fields] OR \"perturbated\"[All Fields] OR \"perturbation\"[All Fields] OR \"perturbational\"[All Fields] OR \"perturbations\"[All Fields] OR \"perturbative\"[All Fields] OR \"perturbatively\"[All Fields] OR \"perturbed\"[All Fields] OR \"perturbing\"[All Fields] OR \"perturbs\"[All Fields]"
+        }
+      ]
+    },
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    }
+  },
+  "status": 200,
+  "summary_json": {
+    "header": {
+      "type": "esummary",
+      "version": "0.3"
+    },
+    "result": {
+      "38155284": {
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "38155284"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1007/s12033-023-00923-8"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "10.1007/s12033-023-00923-8"
+          }
+        ],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "authors": [
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Xie H"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Li J"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Lu M"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Zhang R"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Mao H"
+          }
+        ],
+        "availablefromurl": "",
+        "bookname": "",
+        "booktitle": "",
+        "chapter": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "doctype": "citation",
+        "edition": "",
+        "elocationid": "doi: 10.1007/s12033-023-00923-8",
+        "epubdate": "2023 Dec 28",
+        "essn": "1559-0305",
+        "fulljournalname": "Molecular biotechnology",
+        "history": [
+          {
+            "date": "2023/08/27 00:00",
+            "pubstatus": "received"
+          },
+          {
+            "date": "2023/09/22 00:00",
+            "pubstatus": "accepted"
+          },
+          {
+            "date": "2024/11/13 13:52",
+            "pubstatus": "medline"
+          },
+          {
+            "date": "2023/12/29 00:42",
+            "pubstatus": "pubmed"
+          },
+          {
+            "date": "2023/12/28 23:28",
+            "pubstatus": "entrez"
+          }
+        ],
+        "issn": "1073-6085",
+        "issue": "11",
+        "lang": [
+          "eng"
+        ],
+        "lastauthor": "Mao H",
+        "locationlabel": "",
+        "medium": "",
+        "nlmuniqueid": "9423533",
+        "pages": "3182-3194",
+        "pmcrefcount": "",
+        "pubdate": "2024 Nov",
+        "publisherlocation": "",
+        "publishername": "",
+        "pubstatus": "256",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "references": [],
+        "reportnumber": "",
+        "sortfirstauthor": "Xie H",
+        "sortpubdate": "2024/11/01 00:00",
+        "sorttitle": "mir 1180 targets fxyd5 to regulate pancreatic cancer cells migration and invasion",
+        "source": "Mol Biotechnol",
+        "srccontriblist": [],
+        "srcdate": "",
+        "title": "miR-1180 Targets FXYD5 to Regulate Pancreatic Cancer Cells Migration and Invasion.",
+        "uid": "38155284",
+        "vernaculartitle": "",
+        "volume": "66"
+      },
+      "39532790": {
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "39532790"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC11557794"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC11557794;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1007/s12672-024-01497-w"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "10.1007/s12672-024-01497-w"
+          }
+        ],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "authors": [
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Mou Z"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Ge L"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Ye S"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Gong Z"
+          }
+        ],
+        "availablefromurl": "",
+        "bookname": "",
+        "booktitle": "",
+        "chapter": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "doctype": "citation",
+        "edition": "",
+        "elocationid": "doi: 10.1007/s12672-024-01497-w",
+        "epubdate": "2024 Nov 12",
+        "essn": "2730-6011",
+        "fulljournalname": "Discover oncology",
+        "history": [
+          {
+            "date": "2024/06/05 00:00",
+            "pubstatus": "received"
+          },
+          {
+            "date": "2024/11/01 00:00",
+            "pubstatus": "accepted"
+          },
+          {
+            "date": "2024/11/14 17:37",
+            "pubstatus": "medline"
+          },
+          {
+            "date": "2024/11/14 17:36",
+            "pubstatus": "pubmed"
+          },
+          {
+            "date": "2024/11/12 23:23",
+            "pubstatus": "entrez"
+          },
+          {
+            "date": "2024/11/12 00:00",
+            "pubstatus": "pmc-release"
+          }
+        ],
+        "issn": "",
+        "issue": "1",
+        "lang": [
+          "eng"
+        ],
+        "lastauthor": "Gong Z",
+        "locationlabel": "",
+        "medium": "",
+        "nlmuniqueid": "101775142",
+        "pages": "648",
+        "pmcrefcount": 34,
+        "pubdate": "2024 Nov 12",
+        "publisherlocation": "",
+        "publishername": "",
+        "pubstatus": "3",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed",
+        "references": [],
+        "reportnumber": "",
+        "sortfirstauthor": "Mou Z",
+        "sortpubdate": "2024/11/12 00:00",
+        "sorttitle": "circ 0001068 accelerates the development of ovarian cancer by promoting fxyd5 expression through inhibiting mir 149 5p activity",
+        "source": "Discov Oncol",
+        "srccontriblist": [],
+        "srcdate": "",
+        "title": "Circ_0001068 accelerates the development of ovarian cancer by promoting FXYD5 expression through inhibiting mir-149-5p activity.",
+        "uid": "39532790",
+        "vernaculartitle": "",
+        "volume": "15"
+      },
+      "39613801": {
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "39613801"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC11607440"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC11607440;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1038/s41467-024-54920-9"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "10.1038/s41467-024-54920-9"
+          }
+        ],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "authors": [
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Lee CJ"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Jang TY"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Jeon SE"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Yun HJ"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Cho YH"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Lim DY"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Nam JS"
+          }
+        ],
+        "availablefromurl": "",
+        "bookname": "",
+        "booktitle": "",
+        "chapter": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "doctype": "citation",
+        "edition": "",
+        "elocationid": "doi: 10.1038/s41467-024-54920-9",
+        "epubdate": "2024 Nov 30",
+        "essn": "2041-1723",
+        "fulljournalname": "Nature communications",
+        "history": [
+          {
+            "date": "2024/02/12 00:00",
+            "pubstatus": "received"
+          },
+          {
+            "date": "2024/11/26 00:00",
+            "pubstatus": "accepted"
+          },
+          {
+            "date": "2024/11/30 11:17",
+            "pubstatus": "medline"
+          },
+          {
+            "date": "2024/11/30 11:16",
+            "pubstatus": "pubmed"
+          },
+          {
+            "date": "2024/11/29 23:20",
+            "pubstatus": "entrez"
+          },
+          {
+            "date": "2024/11/30 00:00",
+            "pubstatus": "pmc-release"
+          }
+        ],
+        "issn": "",
+        "issue": "1",
+        "lang": [
+          "eng"
+        ],
+        "lastauthor": "Nam JS",
+        "locationlabel": "",
+        "medium": "",
+        "nlmuniqueid": "101528555",
+        "pages": "10422",
+        "pmcrefcount": 54,
+        "pubdate": "2024 Nov 30",
+        "publisherlocation": "",
+        "publishername": "",
+        "pubstatus": "3",
+        "pubtype": [
+          "Journal Article",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "references": [],
+        "reportnumber": "",
+        "sortfirstauthor": "Lee CJ",
+        "sortpubdate": "2024/11/30 00:00",
+        "sorttitle": "dysadherin mmp9 axis modifies the extracellular matrix to accelerate colorectal cancer progression",
+        "source": "Nat Commun",
+        "srccontriblist": [],
+        "srcdate": "",
+        "title": "The dysadherin/MMP9 axis modifies the extracellular matrix to accelerate colorectal cancer progression.",
+        "uid": "39613801",
+        "vernaculartitle": "",
+        "volume": "15"
+      },
+      "40912610": {
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "40912610"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1016/j.trim.2025.102282"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "S0966-3274(25)00110-8"
+          }
+        ],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "authors": [
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Zhang L"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Xu J"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Cui F"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Jin J"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Liu L"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Wang L"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Gao Y"
+          }
+        ],
+        "availablefromurl": "",
+        "bookname": "",
+        "booktitle": "",
+        "chapter": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "doctype": "citation",
+        "edition": "",
+        "elocationid": "doi: 10.1016/j.trim.2025.102282",
+        "epubdate": "2025 Sep 3",
+        "essn": "1878-5492",
+        "fulljournalname": "Transplant immunology",
+        "history": [
+          {
+            "date": "2025/03/21 00:00",
+            "pubstatus": "received"
+          },
+          {
+            "date": "2025/08/20 00:00",
+            "pubstatus": "revised"
+          },
+          {
+            "date": "2025/09/01 00:00",
+            "pubstatus": "accepted"
+          },
+          {
+            "date": "2025/12/09 00:31",
+            "pubstatus": "medline"
+          },
+          {
+            "date": "2025/09/06 00:34",
+            "pubstatus": "pubmed"
+          },
+          {
+            "date": "2025/09/05 19:18",
+            "pubstatus": "entrez"
+          }
+        ],
+        "issn": "0966-3274",
+        "issue": "",
+        "lang": [
+          "eng"
+        ],
+        "lastauthor": "Gao Y",
+        "locationlabel": "",
+        "medium": "",
+        "nlmuniqueid": "9309923",
+        "pages": "102282",
+        "pmcrefcount": "",
+        "pubdate": "2025 Dec",
+        "publisherlocation": "",
+        "publishername": "",
+        "pubstatus": "256",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "references": [],
+        "reportnumber": "",
+        "sortfirstauthor": "Zhang L",
+        "sortpubdate": "2025/12/01 00:00",
+        "sorttitle": "fxyd5 downregulation protects the heart from ischemia reperfusion injury by suppressing myocardial inflammation",
+        "source": "Transpl Immunol",
+        "srccontriblist": [],
+        "srcdate": "",
+        "title": "Fxyd5 downregulation protects the heart from ischemia/reperfusion injury by suppressing myocardial inflammation.",
+        "uid": "40912610",
+        "vernaculartitle": "",
+        "volume": "93"
+      },
+      "40972883": {
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "40972883"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1016/j.yexcr.2025.114758"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "S0014-4827(25)00358-1"
+          }
+        ],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "authors": [
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Xie H"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Liao L"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Li J"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Cai R"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "He H"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Lu M"
+          }
+        ],
+        "availablefromurl": "",
+        "bookname": "",
+        "booktitle": "",
+        "chapter": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "doctype": "citation",
+        "edition": "",
+        "elocationid": "doi: 10.1016/j.yexcr.2025.114758",
+        "epubdate": "2025 Sep 17",
+        "essn": "1090-2422",
+        "fulljournalname": "Experimental cell research",
+        "history": [
+          {
+            "date": "2025/08/21 00:00",
+            "pubstatus": "received"
+          },
+          {
+            "date": "2025/09/12 00:00",
+            "pubstatus": "revised"
+          },
+          {
+            "date": "2025/09/16 00:00",
+            "pubstatus": "accepted"
+          },
+          {
+            "date": "2025/10/11 00:31",
+            "pubstatus": "medline"
+          },
+          {
+            "date": "2025/09/20 00:31",
+            "pubstatus": "pubmed"
+          },
+          {
+            "date": "2025/09/19 19:23",
+            "pubstatus": "entrez"
+          }
+        ],
+        "issn": "0014-4827",
+        "issue": "2",
+        "lang": [
+          "eng"
+        ],
+        "lastauthor": "Lu M",
+        "locationlabel": "",
+        "medium": "",
+        "nlmuniqueid": "0373226",
+        "pages": "114758",
+        "pmcrefcount": "",
+        "pubdate": "2025 Oct 1",
+        "publisherlocation": "",
+        "publishername": "",
+        "pubstatus": "256",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "references": [],
+        "reportnumber": "",
+        "sortfirstauthor": "Xie H",
+        "sortpubdate": "2025/10/01 00:00",
+        "sorttitle": "usp11 stabilizes raly to promote fxyd5 mediated aerobic glycolysis and aggravate pancreatic cancer progression",
+        "source": "Exp Cell Res",
+        "srccontriblist": [],
+        "srcdate": "",
+        "title": "USP11 stabilizes RALY to promote FXYD5-mediated aerobic glycolysis and aggravate pancreatic cancer progression.",
+        "uid": "40972883",
+        "vernaculartitle": "",
+        "volume": "452"
+      },
+      "uids": [
+        "40972883",
+        "40912610",
+        "39613801",
+        "39532790",
+        "38155284"
+      ]
+    }
+  },
+  "summary_status": 200,
+  "summary_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=40972883%2C40912610%2C39613801%2C39532790%2C38155284&retmode=json",
+  "text": null,
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=FXYD5%5BAll+Fields%5D+AND+%28knockdown+OR+knockout+OR+knock-out+OR+CRISPR+OR+siRNA+OR+shRNA+OR+overexpression+OR+perturbation%29&retmode=json&retmax=5"
+}

@@ -1,0 +1,332 @@
+{
+  "module_rows": 170,
+  "gene_rows": 732,
+  "top_modules": [
+    {
+      "module": "mif_cd74_receptor_state",
+      "n_diseases_tested": 10,
+      "n_strong_diseases": 2,
+      "n_supportive_or_strong_diseases": 6,
+      "n_trend_or_better_diseases": 7,
+      "n_negative_trend_diseases": 0,
+      "mean_positive_delta": 0.596352609980423,
+      "median_positive_hedges_g": 1.5885489189538626,
+      "supporting_diseases": "Crohn disease;Hashimoto thyroiditis;MS;Sjogren syndrome;celiac disease;type 1 diabetes mellitus;ulcerative colitis"
+    },
+    {
+      "module": "ifn_apc",
+      "n_diseases_tested": 10,
+      "n_strong_diseases": 1,
+      "n_supportive_or_strong_diseases": 4,
+      "n_trend_or_better_diseases": 7,
+      "n_negative_trend_diseases": 0,
+      "mean_positive_delta": 0.43312558460796907,
+      "median_positive_hedges_g": 1.553769953622447,
+      "supporting_diseases": "Crohn disease;Hashimoto thyroiditis;Sjogren syndrome;celiac disease;psoriasis;type 1 diabetes mellitus;ulcerative colitis"
+    },
+    {
+      "module": "hla_ii_apc",
+      "n_diseases_tested": 9,
+      "n_strong_diseases": 1,
+      "n_supportive_or_strong_diseases": 4,
+      "n_trend_or_better_diseases": 6,
+      "n_negative_trend_diseases": 0,
+      "mean_positive_delta": 0.5795175954269817,
+      "median_positive_hedges_g": 1.4746524775781351,
+      "supporting_diseases": "Crohn disease;Hashimoto thyroiditis;Sjogren syndrome;celiac disease;type 1 diabetes mellitus;ulcerative colitis"
+    },
+    {
+      "module": "mixscale_validated_ifng_readout",
+      "n_diseases_tested": 9,
+      "n_strong_diseases": 2,
+      "n_supportive_or_strong_diseases": 4,
+      "n_trend_or_better_diseases": 6,
+      "n_negative_trend_diseases": 0,
+      "mean_positive_delta": 0.3826852621334323,
+      "median_positive_hedges_g": 2.1679548340474177,
+      "supporting_diseases": "Crohn disease;Hashimoto thyroiditis;Sjogren syndrome;psoriasis;type 1 diabetes mellitus;ulcerative colitis"
+    },
+    {
+      "module": "lysosomal_apc",
+      "n_diseases_tested": 10,
+      "n_strong_diseases": 0,
+      "n_supportive_or_strong_diseases": 3,
+      "n_trend_or_better_diseases": 5,
+      "n_negative_trend_diseases": 0,
+      "mean_positive_delta": 0.3332843163642599,
+      "median_positive_hedges_g": 1.660122892299652,
+      "supporting_diseases": "Hashimoto thyroiditis;MS;psoriasis;type 1 diabetes mellitus;ulcerative colitis"
+    },
+    {
+      "module": "lipid_loader_repair",
+      "n_diseases_tested": 8,
+      "n_strong_diseases": 1,
+      "n_supportive_or_strong_diseases": 2,
+      "n_trend_or_better_diseases": 4,
+      "n_negative_trend_diseases": 0,
+      "mean_positive_delta": 0.2212643281590369,
+      "median_positive_hedges_g": 1.4503807051083615,
+      "supporting_diseases": "Crohn disease;MS;celiac disease;type 1 diabetes mellitus"
+    },
+    {
+      "module": "hif_nampt_metabolic",
+      "n_diseases_tested": 8,
+      "n_strong_diseases": 0,
+      "n_supportive_or_strong_diseases": 2,
+      "n_trend_or_better_diseases": 3,
+      "n_negative_trend_diseases": 0,
+      "mean_positive_delta": 0.31027135030570224,
+      "median_positive_hedges_g": 2.2042513819690743,
+      "supporting_diseases": "Crohn disease;type 1 diabetes mellitus;ulcerative colitis"
+    },
+    {
+      "module": "inflammatory_nfkb",
+      "n_diseases_tested": 7,
+      "n_strong_diseases": 1,
+      "n_supportive_or_strong_diseases": 2,
+      "n_trend_or_better_diseases": 3,
+      "n_negative_trend_diseases": 0,
+      "mean_positive_delta": 0.4715152928016529,
+      "median_positive_hedges_g": 3.3298491315490826,
+      "supporting_diseases": "Crohn disease;type 1 diabetes mellitus;ulcerative colitis"
+    },
+    {
+      "module": "complement_phagocytosis",
+      "n_diseases_tested": 8,
+      "n_strong_diseases": 0,
+      "n_supportive_or_strong_diseases": 0,
+      "n_trend_or_better_diseases": 0,
+      "n_negative_trend_diseases": 0,
+      "mean_positive_delta": NaN,
+      "median_positive_hedges_g": NaN,
+      "supporting_diseases": ""
+    },
+    {
+      "module": "mif_ligand_axis",
+      "n_diseases_tested": 1,
+      "n_strong_diseases": 0,
+      "n_supportive_or_strong_diseases": 0,
+      "n_trend_or_better_diseases": 0,
+      "n_negative_trend_diseases": 0,
+      "mean_positive_delta": NaN,
+      "median_positive_hedges_g": NaN,
+      "supporting_diseases": ""
+    }
+  ],
+  "transition_summary": [
+    {
+      "transition": "IFNG_HLAII_CD74_GILT_TAP_transition",
+      "modules_considered": "ifn_apc,hla_ii_apc,mif_cd74_receptor_state,mixscale_validated_ifng_readout,lysosomal_apc",
+      "n_diseases_tested": 10,
+      "n_strong_diseases": 3,
+      "n_supportive_or_strong_diseases": 7,
+      "n_trend_or_better_diseases": 8,
+      "n_negative_trend_diseases": 0,
+      "supporting_diseases": "Crohn disease;Hashimoto thyroiditis;MS;Sjogren syndrome;celiac disease;psoriasis;type 1 diabetes mellitus;ulcerative colitis",
+      "top_per_disease": "[{\"disease\": \"Crohn disease\", \"dataset\": \"ibd_crohn_myeloid\", \"compartment\": \"colon myeloid\", \"module\": \"mixscale_validated_ifng_readout\", \"delta\": 0.4119680116952662, \"hedges_g\": 2.1148029044171825, \"p\": 0.0038917843107536, \"fdr\": 0.0525390881951736, \"support_level\": \"supportive\"}, {\"disease\": \"Graves disease\", \"dataset\": \"GSE248205\", \"compartment\": \"thyroid tissue spots\", \"module\": \"mixscale_validated_ifng_readout\", \"delta\": 0.3895059136455612, \"hedges_g\": 0.855496514585781, \"p\": 0.2374303713124796, \"fdr\": 0.2815372107282357, \"support_level\": \"positive_null\"}, {\"disease\": \"Hashimoto thyroiditis\", \"dataset\": \"GSE248205\", \"compartment\": \"thyroid tissue spots\", \"module\": \"mif_cd74_receptor_state\", \"delta\": 1.7902925785741668, \"hedges_g\": 19.59045900928689, \"p\": 0.0003272728230005, \"fdr\": 0.0027116891048613, \"support_level\": \"strong\"}, {\"disease\": \"MS\", \"dataset\": \"GSE111972\", \"compartment\": \"white matter microglia\", \"module\": \"mif_cd74_receptor_state\", \"delta\": 0.6141257454613055, \"hedges_g\": 1.3413367086123047, \"p\": 0.005473419155014, \"fdr\": 0.0191569670425492, \"support_level\": \"strong\"}, {\"disease\": \"Sjogren syndrome\", \"dataset\": \"sjogren_gland_epithelial\", \"compartment\": \"salivary gland epithelial\", \"module\": \"mif_cd74_receptor_state\", \"delta\": 0.2069560003041781, \"hedges_g\": 1.0745844475632715, \"p\": 0.0206931093773066, \"fdr\": 0.0913585065286465, \"support_level\": \"supportive\"}, {\"disease\": \"celiac disease\", \"dataset\": \"GSE315138\", \"compartment\": \"epithelial_like marker-classified duodenum\", \"module\": \"ifn_apc\", \"delta\": 0.3883416309082801, \"hedges_g\": 1.2038093105831928, \"p\": 0.0956087964959915, \"fdr\": 0.7809329152755746, \"support_level\": \"trend\"}, {\"disease\": \"psoriasis\", \"dataset\": \"psoriasis_skin_apc\", \"compartment\": \"skin APC\", \"module\": \"ifn_apc\", \"delta\": 0.4486075746271026, \"hedges_g\": 2.8166329722314063, \"p\": 0.0197458450007825, \"fdr\": 0.0913585065286465, \"support_level\": \"supportive\"}, {\"disease\": \"rheumatoid arthritis\", \"dataset\": \"ra_blood_myeloid\", \"compartment\": \"blood myeloid/APC\", \"module\": \"mixscale_validated_ifng_readout\", \"delta\": -0.0178272683572939, \"hedges_g\": -0.1822923804739017, \"p\": 0.5796287459185954, \"fdr\": 0.6860166584424952, \"support_level\": \"null_or_negative\"}, {\"disease\": \"type 1 diabetes mellitus\", \"dataset\": \"t1d_ductal_cell\", \"compartment\": \"pancreatic ductal cell\", \"module\": \"hla_ii_apc\", \"delta\": 0.2235528871445532, \"hedges_g\": 1.3773049946875355, \"p\": 0.0167662445535936, \"fdr\": 0.0896623752203365, \"support_level\": \"supportive\"}, {\"disease\": \"ulcerative colitis\", \"dataset\": \"ibd_uc_myeloid\", \"compartment\": \"colon myeloid\", \"module\": \"mixscale_validated_ifng_readout\", \"delta\": 0.4432732317739749, \"hedges_g\": 3.2710794754908497, \"p\": 0.0001159594193558, \"fdr\": 0.0250472345808662, \"support_level\": \"strong\"}]"
+    }
+  ],
+  "top_genes": [
+    {
+      "gene": "NLRC5",
+      "n_diseases_tested": 8,
+      "n_strong_diseases": 0,
+      "n_supportive_or_strong_diseases": 1,
+      "n_trend_or_better_diseases": 5,
+      "n_negative_trend_diseases": 0,
+      "median_positive_hedges_g": 1.9982204325627864,
+      "supporting_diseases": "Crohn disease;Hashimoto thyroiditis;Sjogren syndrome;psoriasis;ulcerative colitis"
+    },
+    {
+      "gene": "B2M",
+      "n_diseases_tested": 7,
+      "n_strong_diseases": 1,
+      "n_supportive_or_strong_diseases": 1,
+      "n_trend_or_better_diseases": 5,
+      "n_negative_trend_diseases": 0,
+      "median_positive_hedges_g": 1.3747350078373106,
+      "supporting_diseases": "Crohn disease;Hashimoto thyroiditis;Sjogren syndrome;type 1 diabetes mellitus;ulcerative colitis"
+    },
+    {
+      "gene": "HLA-DRB1",
+      "n_diseases_tested": 8,
+      "n_strong_diseases": 1,
+      "n_supportive_or_strong_diseases": 1,
+      "n_trend_or_better_diseases": 5,
+      "n_negative_trend_diseases": 0,
+      "median_positive_hedges_g": 1.3613227801432393,
+      "supporting_diseases": "Crohn disease;Hashimoto thyroiditis;MS;Sjogren syndrome;ulcerative colitis"
+    },
+    {
+      "gene": "HLA-DRA",
+      "n_diseases_tested": 8,
+      "n_strong_diseases": 1,
+      "n_supportive_or_strong_diseases": 1,
+      "n_trend_or_better_diseases": 5,
+      "n_negative_trend_diseases": 0,
+      "median_positive_hedges_g": 1.333009983233245,
+      "supporting_diseases": "Crohn disease;Hashimoto thyroiditis;MS;Sjogren syndrome;ulcerative colitis"
+    },
+    {
+      "gene": "STAT1",
+      "n_diseases_tested": 9,
+      "n_strong_diseases": 1,
+      "n_supportive_or_strong_diseases": 1,
+      "n_trend_or_better_diseases": 4,
+      "n_negative_trend_diseases": 0,
+      "median_positive_hedges_g": 1.986112882909066,
+      "supporting_diseases": "Crohn disease;Hashimoto thyroiditis;psoriasis;ulcerative colitis"
+    },
+    {
+      "gene": "CTSS",
+      "n_diseases_tested": 9,
+      "n_strong_diseases": 1,
+      "n_supportive_or_strong_diseases": 1,
+      "n_trend_or_better_diseases": 4,
+      "n_negative_trend_diseases": 0,
+      "median_positive_hedges_g": 1.9135788462282446,
+      "supporting_diseases": "Crohn disease;Hashimoto thyroiditis;type 1 diabetes mellitus;ulcerative colitis"
+    },
+    {
+      "gene": "HLA-DPB1",
+      "n_diseases_tested": 8,
+      "n_strong_diseases": 1,
+      "n_supportive_or_strong_diseases": 1,
+      "n_trend_or_better_diseases": 4,
+      "n_negative_trend_diseases": 0,
+      "median_positive_hedges_g": 1.3736454063316723,
+      "supporting_diseases": "Hashimoto thyroiditis;MS;Sjogren syndrome;ulcerative colitis"
+    },
+    {
+      "gene": "HLA-DPA1",
+      "n_diseases_tested": 8,
+      "n_strong_diseases": 1,
+      "n_supportive_or_strong_diseases": 1,
+      "n_trend_or_better_diseases": 4,
+      "n_negative_trend_diseases": 1,
+      "median_positive_hedges_g": 1.1413419965049703,
+      "supporting_diseases": "Hashimoto thyroiditis;MS;Sjogren syndrome;ulcerative colitis"
+    },
+    {
+      "gene": "TAP2",
+      "n_diseases_tested": 7,
+      "n_strong_diseases": 1,
+      "n_supportive_or_strong_diseases": 1,
+      "n_trend_or_better_diseases": 3,
+      "n_negative_trend_diseases": 0,
+      "median_positive_hedges_g": 2.092399437161714,
+      "supporting_diseases": "Crohn disease;Hashimoto thyroiditis;ulcerative colitis"
+    },
+    {
+      "gene": "IRF1",
+      "n_diseases_tested": 9,
+      "n_strong_diseases": 1,
+      "n_supportive_or_strong_diseases": 1,
+      "n_trend_or_better_diseases": 3,
+      "n_negative_trend_diseases": 0,
+      "median_positive_hedges_g": 1.7947135036986277,
+      "supporting_diseases": "Crohn disease;Hashimoto thyroiditis;ulcerative colitis"
+    },
+    {
+      "gene": "TAP1",
+      "n_diseases_tested": 7,
+      "n_strong_diseases": 1,
+      "n_supportive_or_strong_diseases": 1,
+      "n_trend_or_better_diseases": 3,
+      "n_negative_trend_diseases": 0,
+      "median_positive_hedges_g": 1.6599429376394772,
+      "supporting_diseases": "Crohn disease;Hashimoto thyroiditis;ulcerative colitis"
+    },
+    {
+      "gene": "IFI30",
+      "n_diseases_tested": 9,
+      "n_strong_diseases": 1,
+      "n_supportive_or_strong_diseases": 1,
+      "n_trend_or_better_diseases": 2,
+      "n_negative_trend_diseases": 0,
+      "median_positive_hedges_g": 6.166164086202431,
+      "supporting_diseases": "Hashimoto thyroiditis;ulcerative colitis"
+    },
+    {
+      "gene": "CTSD",
+      "n_diseases_tested": 9,
+      "n_strong_diseases": 1,
+      "n_supportive_or_strong_diseases": 1,
+      "n_trend_or_better_diseases": 2,
+      "n_negative_trend_diseases": 0,
+      "median_positive_hedges_g": 2.0904298609358944,
+      "supporting_diseases": "Hashimoto thyroiditis;MS"
+    },
+    {
+      "gene": "CXCR4",
+      "n_diseases_tested": 9,
+      "n_strong_diseases": 0,
+      "n_supportive_or_strong_diseases": 0,
+      "n_trend_or_better_diseases": 6,
+      "n_negative_trend_diseases": 0,
+      "median_positive_hedges_g": 1.6912728906865189,
+      "supporting_diseases": "Crohn disease;Graves disease;Hashimoto thyroiditis;Sjogren syndrome;type 1 diabetes mellitus;ulcerative colitis"
+    },
+    {
+      "gene": "CD74",
+      "n_diseases_tested": 9,
+      "n_strong_diseases": 0,
+      "n_supportive_or_strong_diseases": 0,
+      "n_trend_or_better_diseases": 5,
+      "n_negative_trend_diseases": 0,
+      "median_positive_hedges_g": 1.5186346777365478,
+      "supporting_diseases": "Crohn disease;Hashimoto thyroiditis;Sjogren syndrome;type 1 diabetes mellitus;ulcerative colitis"
+    },
+    {
+      "gene": "CIITA",
+      "n_diseases_tested": 8,
+      "n_strong_diseases": 0,
+      "n_supportive_or_strong_diseases": 0,
+      "n_trend_or_better_diseases": 4,
+      "n_negative_trend_diseases": 0,
+      "median_positive_hedges_g": 1.9159208528337928,
+      "supporting_diseases": "Crohn disease;Hashimoto thyroiditis;psoriasis;type 1 diabetes mellitus"
+    },
+    {
+      "gene": "CD44",
+      "n_diseases_tested": 9,
+      "n_strong_diseases": 0,
+      "n_supportive_or_strong_diseases": 0,
+      "n_trend_or_better_diseases": 4,
+      "n_negative_trend_diseases": 0,
+      "median_positive_hedges_g": 1.5110592752545666,
+      "supporting_diseases": "Crohn disease;Hashimoto thyroiditis;MS;ulcerative colitis"
+    },
+    {
+      "gene": "GBP1",
+      "n_diseases_tested": 9,
+      "n_strong_diseases": 0,
+      "n_supportive_or_strong_diseases": 0,
+      "n_trend_or_better_diseases": 4,
+      "n_negative_trend_diseases": 0,
+      "median_positive_hedges_g": 1.2681868625933594,
+      "supporting_diseases": "Crohn disease;MS;psoriasis;ulcerative colitis"
+    },
+    {
+      "gene": "CXCL10",
+      "n_diseases_tested": 9,
+      "n_strong_diseases": 0,
+      "n_supportive_or_strong_diseases": 0,
+      "n_trend_or_better_diseases": 4,
+      "n_negative_trend_diseases": 0,
+      "median_positive_hedges_g": 1.1479355244085074,
+      "supporting_diseases": "Crohn disease;Hashimoto thyroiditis;MS;ulcerative colitis"
+    },
+    {
+      "gene": "HK2",
+      "n_diseases_tested": 7,
+      "n_strong_diseases": 0,
+      "n_supportive_or_strong_diseases": 0,
+      "n_trend_or_better_diseases": 3,
+      "n_negative_trend_diseases": 0,
+      "median_positive_hedges_g": 2.579230093052839,
+      "supporting_diseases": "Crohn disease;psoriasis;ulcerative colitis"
+    }
+  ],
+  "support_level_rule": "strong: delta>0, FDR<=0.05, Hedges g>=1; supportive: delta>0 and FDR<=0.10; trend: delta>0 and p<=0.10; negative_trend: delta<0 and p<=0.10."
+}

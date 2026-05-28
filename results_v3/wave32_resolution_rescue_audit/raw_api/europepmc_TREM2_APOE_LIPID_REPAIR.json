@@ -1,0 +1,699 @@
+{
+  "payload": {
+    "hitCount": 29123,
+    "nextCursorMark": "AoIIQUlYRyg1NTQ5NTU0Nw==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(TREM2 OR APOE OR TYROBP OR LPL) AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR Sjogren OR \"type 1 diabetes\" OR \"primary biliary cholangitis\" OR autoimmune)&cursorMark=AoIIQUlYRyg1NTQ5NTU0Nw==&resultType=core&pageSize=3&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 3,
+      "queryString": "(TREM2 OR APOE OR TYROBP OR LPL) AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR Sjogren OR \"type 1 diabetes\" OR \"primary biliary cholangitis\" OR autoimmune)",
+      "resultType": "core",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "abstractText": "<h4>Background</h4>Observational studies have suggested a potential association between autoimmune diseases and anemia, but the direction of causality remains unclear. To investigate the potential causal relationship between autoimmune diseases and anemia using Mendelian randomization (MR).<h4>Methods</h4>We conducted a bidirectional two-sample MR study using summary-level genetic data from the EBI and FinnGen databases. We examined 21 autoimmune diseases as exposures and anemia as the outcome, and vice versa. Multivariable MR, meta-analysis, and two-step mediation analysis involving 43 candidate mediators were also performed. Proteomic MR and colocalization analyses were used to validate causal relationships involving proteins. Functional annotations including KEGG pathway, GO enrichment, protein-protein interaction networks, and drug enrichment analyses were performed to identify potential therapeutic targets.<h4>Results</h4>Genetically determined type 1 diabetes mellitus (T1DM), rheumatoid arthritis (RA), and primary biliary cholangitis (PBC) were associated with an increased risk of anemia (<i>P</i>\u00a0<\u00a00.05 in meta-analysis). Reverse MR analyses suggested potential bidirectional causality between anemia and mixed connective tissue disease, hypothyroidism, and asthma. Mediation analysis indicated that hypothyroidism may contribute to anemia by elevating IgG levels. Proteomic and colocalization analyses identified several proteins associated with anemia (e.g., MCCD1, TMEM106B), T1DM (e.g., CTRB1, CTRB2, IL7RA), RA (e.g., TGFBI, IL1RN), and PBC (e.g., ALDH2, CXCL16).<h4>Conclusion</h4>This MR study supports a causal effect of certain autoimmune diseases on anemia risk and highlights potential protein targets for intervention, offering new insights for anemia prevention and treatment.",
+          "affiliation": "Department of Hematology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China.",
+          "authMan": "N",
+          "authorList": {
+            "author": [
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Hematology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China."
+                    }
+                  ]
+                },
+                "firstName": "Xin",
+                "fullName": "Zhuang X",
+                "initials": "X",
+                "lastName": "Zhuang"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Infectious Diseases, Pingyang Hospital of Traditional Chinese Medicine Zhejiang Chinese Medical University, Wenzhou, China."
+                    }
+                  ]
+                },
+                "firstName": "Tianen",
+                "fullName": "Pan T",
+                "initials": "T",
+                "lastName": "Pan"
+              }
+            ]
+          },
+          "authorString": "Zhuang X, Pan T.",
+          "citedByCount": 0,
+          "dateOfCompletion": "2025-12-01",
+          "dateOfCreation": "2025-12-01",
+          "dateOfRevision": "2025-12-03",
+          "doi": "10.1016/j.jtauto.2025.100333",
+          "electronicPublicationDate": "2025-11-12",
+          "epmcAuthMan": "N",
+          "firstIndexDate": "2025-12-01",
+          "firstPublicationDate": "2025-11-12",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12664391"
+            ]
+          },
+          "fullTextReceivedDate": "2025-12-22",
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/j.jtauto.2025.100333"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12664391"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12664391?pdf=render"
+              }
+            ]
+          },
+          "hasBook": "N",
+          "hasData": "Y",
+          "hasDbCrossReferences": "N",
+          "hasEvaluations": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41323472",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalInfo": {
+            "dateOfPublication": "2025 Dec",
+            "journal": {
+              "essn": "2589-9090",
+              "isoabbreviation": "J Transl Autoimmun",
+              "issn": "2589-9090",
+              "medlineAbbreviation": "J Transl Autoimmun",
+              "nlmid": "101759413",
+              "title": "Journal of translational autoimmunity"
+            },
+            "journalIssueId": 3962669,
+            "monthOfPublication": 12,
+            "printPublicationDate": "2025-12-01",
+            "volume": "11",
+            "yearOfPublication": 2025
+          },
+          "keywordList": {
+            "keyword": [
+              "Immunoglobulins",
+              "Anemia",
+              "Cytokines",
+              "Blood cell count",
+              "Autoimmune diseases",
+              "Mendelian Randomization",
+              "Causal Relationship"
+            ]
+          },
+          "language": "eng",
+          "license": "cc by-nc-nd",
+          "nihAuthMan": "N",
+          "pageInfo": "100333",
+          "pmcid": "PMC12664391",
+          "pmid": "41323472",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "pubYear": "2025",
+          "publicationStatus": "epublish",
+          "source": "MED",
+          "title": "Mendelian randomization study of the causal relationship between autoimmune diseases and anemia using proteomic and genetic data."
+        },
+        {
+          "abstractText": "Efferocytosis, the specialized phagocytic clearance of apoptotic cells, is a fundamental mechanism for maintaining tissue homeostasis and immune tolerance. Among professional phagocytes, macrophages play a central role due to their high plasticity and tissue-resident properties. By recognizing and engulfing apoptotic cells through a repertoire of receptors and bridging molecules, macrophages prevent secondary necrosis and inflammation and actively shape the local immune microenvironment via metabolic and epigenetic reprogramming. Defective efferocytosis has been increasingly implicated in the pathogenesis of immune-mediated inflammatory diseases (IMIDs), including systemic lupus erythematosus, rheumatoid arthritis, Sj\u00f6gren's syndrome, inflammatory bowel disease, psoriasis, atopic dermatitis, and autoimmune liver diseases. Impairments in efferocytosis trigger persistent inflammation, autoantigen exposure, and tissue damage, thereby fueling chronic disease progression. Recent mechanistic studies highlight the dysregulation of TAM receptors, bridging molecules, and intracellular signaling pathways as critical determinants of efferocytosis dysfunction in IMIDs. In this review, we propose defective macrophage efferocytosis as a shared pathogenic mechanism across diverse IMIDs and integrate emerging evidence linking efferocytosis to immunometabolic and epigenetic rewiring in chronic inflammation. We further discuss therapeutic strategies targeting efferocytosis pathways and highlight key translational challenges and opportunities. By positioning efferocytosis as a central pathogenic node and a readily targetable mechanism across the spectrum of IMIDs, this review offers a conceptual framework that links fundamental mechanistic insights with clinical translation, thereby laying the groundwork for precision immunomodulatory strategies that aim to restore immune homeostasis rather than merely suppress inflammation.",
+          "affiliation": "Department of Rheumatology and Immunology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, 510280, People's Republic of China.",
+          "authMan": "N",
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-5017-6272"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-4392-0849"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0000-1258-4937"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0006-2888-5156"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0009-4379-5986"
+              }
+            ]
+          },
+          "authorList": {
+            "author": [
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Rheumatology and Immunology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, 510280, People's Republic of China."
+                    }
+                  ]
+                },
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0000-1258-4937"
+                },
+                "firstName": "Zelin",
+                "fullName": "He Z",
+                "initials": "Z",
+                "lastName": "He"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Rheumatology and Immunology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, 510280, People's Republic of China."
+                    }
+                  ]
+                },
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0009-4379-5986"
+                },
+                "firstName": "Nuoshi",
+                "fullName": "Chen N",
+                "initials": "N",
+                "lastName": "Chen"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Rheumatology and Immunology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, 510280, People's Republic of China."
+                    }
+                  ]
+                },
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0006-2888-5156"
+                },
+                "firstName": "Yan",
+                "fullName": "Zhang Y",
+                "initials": "Y",
+                "lastName": "Zhang"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Rheumatology and Immunology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, 510280, People's Republic of China."
+                    },
+                    {
+                      "affiliation": "School of Laboratory Medicine and Biotechnology, Southern Medical University, Guangzhou, Guangdong, 510515, People's Republic of China."
+                    },
+                    {
+                      "affiliation": "Guangdong Province Key Laboratory of Immune Regulation and Immunotherapy, School of Laboratory Medicine and Biotechnology, Southern Medical University, Guangzhou, Guangdong, 510515, People's Republic of China."
+                    }
+                  ]
+                },
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-4392-0849"
+                },
+                "firstName": "Hongyan",
+                "fullName": "Du H",
+                "initials": "H",
+                "lastName": "Du"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Rheumatology and Immunology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, 510280, People's Republic of China."
+                    }
+                  ]
+                },
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-5017-6272"
+                },
+                "firstName": "Ligang",
+                "fullName": "Jie L",
+                "initials": "L",
+                "lastName": "Jie"
+              }
+            ]
+          },
+          "authorString": "He Z, Chen N, Zhang Y, Du H, Jie L.",
+          "citedByCount": 0,
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "dateOfCompletion": "2026-04-14",
+          "dateOfCreation": "2026-04-14",
+          "dateOfRevision": "2026-04-14",
+          "doi": "10.2147/jir.s582297",
+          "electronicPublicationDate": "2026-04-08",
+          "epmcAuthMan": "N",
+          "firstIndexDate": "2026-04-14",
+          "firstPublicationDate": "2026-04-08",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13070338"
+            ]
+          },
+          "fullTextReceivedDate": "2026-04-20",
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.2147/JIR.S582297"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13070338"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13070338?pdf=render"
+              }
+            ]
+          },
+          "hasBook": "N",
+          "hasData": "Y",
+          "hasDbCrossReferences": "N",
+          "hasEvaluations": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "N",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "41978837",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalInfo": {
+            "dateOfPublication": "2026 ",
+            "journal": {
+              "essn": "1178-7031",
+              "isoabbreviation": "J Inflamm Res",
+              "issn": "1178-7031",
+              "medlineAbbreviation": "J Inflamm Res",
+              "nlmid": "101512684",
+              "title": "Journal of inflammation research"
+            },
+            "journalIssueId": 4091428,
+            "monthOfPublication": 0,
+            "printPublicationDate": "2026-01-01",
+            "volume": "19",
+            "yearOfPublication": 2026
+          },
+          "keywordList": {
+            "keyword": [
+              "Immune-mediated Inflammatory Diseases",
+              "Inflammation Resolution",
+              "Tam Receptors",
+              "Apoptotic Cell Clearance",
+              "Macrophage Efferocytosis"
+            ]
+          },
+          "language": "eng",
+          "license": "cc by-nc",
+          "nihAuthMan": "N",
+          "pageInfo": "582297",
+          "pmcid": "PMC13070338",
+          "pmid": "41978837",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "pubYear": "2026",
+          "publicationStatus": "epublish",
+          "source": "MED",
+          "title": "Impaired Macrophage Efferocytosis: Shared Mechanisms and Therapeutic Implications in Immune-Mediated Inflammatory Diseases.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "nct"
+            ]
+          }
+        },
+        {
+          "abstractText": "DNAX-activated protein 12 (DAP12) is a key transmembrane adaptor protein containing an immunoreceptor tyrosine-based activation motif. DAP12 associates with a broad spectrum of cell surface receptors, including triggering receptors expressed on myeloid cells (TREM1 and TREM2), myeloid DAP12-associating lectin-1 (MDL-1), sialic acid-binding immunoglobulin-like lectin 15 (Siglec15), killer cell immunoglobulin-like receptor (KIR), NKG2C/CD94, and NKp44. They form a sophisticated signaling network that precisely regulates cellular activation, differentiation, and the balance between pro-inflammatory and anti-inflammatory responses. DAP12 is predominantly expressed in innate immune cells, including monocytes/macrophages, microglia, osteoclasts, and natural killer (NK) cells, where it governs key processes like cytokine production, cytoskeletal remodeling, and cytotoxic activity. Dysregulation of DAP12 signaling has been implicated in the pathogenesis of multiple immune-related inflammatory diseases, such as multiple sclerosis, Alzheimer's disease, rheumatoid arthritis, inflammatory bowel disease, and systemic lupus erythematosus. In these conditions, DAP12 contributes to either protective or pathological outcomes depending on the receptor complex and microenvironment. This review provides a comprehensive overview of the structural characteristics of DAP12, its interaction with relevant receptors, and its specific functions in various cell types and immune-mediated inflammation.",
+          "affiliation": "Clinical Medicine College (Affiliated Hospital), Jining Medical University, Jining, 272000, China.",
+          "authMan": "N",
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0009-0002-7077-4581"
+              }
+            ]
+          },
+          "authorList": {
+            "author": [
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Clinical Medicine College (Affiliated Hospital), Jining Medical University, Jining, 272000, China."
+                    }
+                  ]
+                },
+                "firstName": "Jiaqi",
+                "fullName": "Lu J",
+                "initials": "J",
+                "lastName": "Lu"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Cheeloo College of Medicine, Shandong University, Jinan, 250012, China."
+                    }
+                  ]
+                },
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0002-7077-4581"
+                },
+                "firstName": "Lihao",
+                "fullName": "Shi L",
+                "initials": "L",
+                "lastName": "Shi"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Medical Research Center, Affiliated Hospital of Jining Medical University, Jining, 272029, China."
+                    }
+                  ]
+                },
+                "firstName": "Guiyuan",
+                "fullName": "Jin G",
+                "initials": "G",
+                "lastName": "Jin"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Medical Research Center, Affiliated Hospital of Jining Medical University, Jining, 272029, China."
+                    }
+                  ]
+                },
+                "firstName": "Yonghong",
+                "fullName": "Yang Y",
+                "initials": "Y",
+                "lastName": "Yang"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Gastroenterology, Affiliated Hospital of Jining Medical University, Jining, 272029, China."
+                    }
+                  ]
+                },
+                "firstName": "Fengqin",
+                "fullName": "Zhu F",
+                "initials": "F",
+                "lastName": "Zhu"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Gastroenterology, Affiliated Hospital of Jining Medical University, Jining, 272029, China. zgx_viola@126.com."
+                    }
+                  ]
+                },
+                "firstName": "Guangxi",
+                "fullName": "Zhou G",
+                "initials": "G",
+                "lastName": "Zhou"
+              }
+            ]
+          },
+          "authorString": "Lu J, Shi L, Jin G, Yang Y, Zhu F, Zhou G.",
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "TYROBP protein, human",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Membrane Proteins",
+                "registryNumber": "0"
+              },
+              {
+                "name": "Adaptor Proteins, Signal Transducing",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "citedByCount": 0,
+          "dateOfCompletion": "2026-05-06",
+          "dateOfCreation": "2026-05-06",
+          "dateOfRevision": "2026-05-06",
+          "doi": "10.1007/s00011-026-02256-z",
+          "electronicPublicationDate": "2026-05-06",
+          "epmcAuthMan": "N",
+          "firstIndexDate": "2026-05-13",
+          "firstPublicationDate": "2026-05-06",
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1007/s00011-026-02256-z"
+              }
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "82270562",
+                "orderIn": 0
+              },
+              {
+                "agency": "TCM science and technology development plan of Shandong Province",
+                "grantId": "M20254301",
+                "orderIn": 0
+              },
+              {
+                "agency": "Development plan of Medicine and Health Science and Technology in Shandong Province",
+                "grantId": "202503030856",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of China",
+                "grantId": "82200591",
+                "orderIn": 0
+              },
+              {
+                "agency": "National Natural Science Foundation of Shandong Province",
+                "grantId": "ZR2025MS1260",
+                "orderIn": 0
+              }
+            ]
+          },
+          "hasBook": "N",
+          "hasData": "N",
+          "hasDbCrossReferences": "N",
+          "hasEvaluations": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "N",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "42089995",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "isOpenAccess": "N",
+          "journalInfo": {
+            "dateOfPublication": "2026 May",
+            "issue": "1",
+            "journal": {
+              "essn": "1420-908X",
+              "isoabbreviation": "Inflamm Res",
+              "issn": "1023-3830",
+              "medlineAbbreviation": "Inflamm Res",
+              "nlmid": "9508160",
+              "title": "Inflammation research : official journal of the European Histamine Research Society ... [et al.]"
+            },
+            "journalIssueId": 4189947,
+            "monthOfPublication": 5,
+            "printPublicationDate": "2026-05-01",
+            "volume": "75",
+            "yearOfPublication": 2026
+          },
+          "keywordList": {
+            "keyword": [
+              "Inflammation",
+              "Immunity",
+              "Itam",
+              "Dap12",
+              "Immune-related Inflammatory Diseases"
+            ]
+          },
+          "language": "eng",
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "descriptorName": "Animals",
+                "majorTopic_YN": "N"
+              },
+              {
+                "descriptorName": "Humans",
+                "majorTopic_YN": "N"
+              },
+              {
+                "descriptorName": "Immune System Diseases",
+                "majorTopic_YN": "Y",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "abbreviation": "IM",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "abbreviation": "ME",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "descriptorName": "Inflammation",
+                "majorTopic_YN": "Y",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "abbreviation": "IM",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "abbreviation": "ME",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "descriptorName": "Adaptor Proteins, Signal Transducing",
+                "majorTopic_YN": "Y",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "abbreviation": "IM",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "abbreviation": "ME",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "descriptorName": "Membrane Proteins",
+                "majorTopic_YN": "Y",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "abbreviation": "IM",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "abbreviation": "ME",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "nihAuthMan": "N",
+          "pageInfo": "110",
+          "pmid": "42089995",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "pubYear": "2026",
+          "publicationStatus": "epublish",
+          "source": "MED",
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "title": "The role of DAP12 in immune-related inflammatory diseases."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TREM2+OR+APOE+OR+TYROBP+OR+LPL%29+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+Sjogren+OR+%22type+1+diabetes%22+OR+%22primary+biliary+cholangitis%22+OR+autoimmune%29&format=json&pageSize=3&resultType=core"
+}

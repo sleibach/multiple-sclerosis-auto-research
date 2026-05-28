@@ -1,0 +1,333 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "value": "May be involved in fusion of ER-derived transport vesicles with the Golgi complex"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "10406798",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0134",
+                "value": "Golgi apparatus membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "10406798",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9909",
+                "value": "Multi-pass membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000048ED8"
+      },
+      "features": [
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 9
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 1
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical; Name=1",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 30
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 10
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Lumenal",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 32
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 31
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical; Name=2",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 53
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 33
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 68
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 54
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical; Name=3",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 89
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 69
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Lumenal",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 90
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 90
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical; Name=4",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 109
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 91
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 138
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 110
+            }
+          },
+          "type": "Topological domain"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "GOLT1B"
+          },
+          "orfNames": [
+            {
+              "value": "CGI-141"
+            },
+            {
+              "value": "HDCMA39P"
+            },
+            {
+              "value": "UNQ432/PRO793"
+            }
+          ],
+          "synonyms": [
+            {
+              "value": "GCT2"
+            },
+            {
+              "value": "GOT1A"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0333",
+          "name": "Golgi apparatus"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0653",
+          "name": "Protein transport"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0813",
+          "name": "Transport"
+        }
+      ],
+      "primaryAccession": "Q9Y3E0",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Germ cell tumor 2"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Golgi transport 1 homolog B"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Putative NF-kappa-B-activating protein 470"
+            }
+          },
+          {
+            "fullName": {
+              "value": "hGOT1a"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Vesicle transport protein GOT1B"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "2EB85823C34EFAFA",
+        "length": 138,
+        "md5": "469878EEFFDE75F791C32929073163D8",
+        "molWeight": 15426,
+        "value": "MISLTDTQKIGMGLTGFGVFFLFFGMILFFDKALLAIGNVLFVAGLAFVIGLERTFRFFFQKHKMKATGFFLGGVFVVLIGWPLIGMIFEIYGFFLLFRGFFPVVVGFIRRVPVLGSLLNLPGIRSFVDKVGESNNMV"
+      },
+      "uniProtkbId": "GOT1B_HUMAN"
+    }
+  ]
+}

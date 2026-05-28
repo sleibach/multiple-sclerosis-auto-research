@@ -1,0 +1,12 @@
+{
+  "random_seed": 20260526,
+  "selection_rule": "MS positive nominal; >=3 positive diseases; <=1 negative disease in broad h5ad gene discovery",
+  "n_candidates": 16,
+  "routing_counts": {
+    "test_or_scout": 9,
+    "hold": 4,
+    "demote": 3
+  },
+  "next_geneformer_genes": [],
+  "guardrail": "This is still donor-level observational expression plus existing screens. Generic inflammatory and prior-arted nodes are held or demoted even when statistically strong."
+}

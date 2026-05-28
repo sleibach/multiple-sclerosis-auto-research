@@ -1,0 +1,395 @@
+{
+  "data": {
+    "credibleSets": {
+      "count": 2,
+      "rows": [
+        {
+          "beta": 0.00870463864302619,
+          "chromosome": "11",
+          "colocalisation": {
+            "count": 5,
+            "rows": [
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.3085043410520234,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9980101638790512,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000006",
+                      "biosampleName": "islet of Langerhans"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "insulin",
+                      "approvedSymbol": "INS",
+                      "id": "ENSG00000254647"
+                    },
+                    "traitFromSource": "ENSG00000254647.grp_1.upstream.ENST00000421783"
+                  },
+                  "studyId": "pisa_txrev_pancreatic_islet_ensg00000254647_grp_1_upstream_enst00000421783",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.028879419374885966,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9699496977720587,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000006",
+                      "biosampleName": "islet of Langerhans"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "insulin",
+                      "approvedSymbol": "INS",
+                      "id": "ENSG00000254647"
+                    },
+                    "traitFromSource": "ENSG00000254647.grp_1.downstream.ENST00000397262"
+                  },
+                  "studyId": "van_de_bunt_2015_txrev_pancreatic_islet_ensg00000254647_grp_1_downstream_enst00000397262",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.0266810214652855,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9674768933306517,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001150",
+                      "biosampleName": "body of pancreas"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "insulin",
+                      "approvedSymbol": "INS",
+                      "id": "ENSG00000254647"
+                    },
+                    "traitFromSource": "ENSG00000254647.grp_1.downstream.ENST00000512523"
+                  },
+                  "studyId": "gtex_txrev_pancreas_ensg00000254647_grp_1_downstream_enst00000512523",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.31121254969681156,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9980361134107867,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001150",
+                      "biosampleName": "body of pancreas"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "insulin",
+                      "approvedSymbol": "INS",
+                      "id": "ENSG00000254647"
+                    },
+                    "traitFromSource": "ENSG00000254647.grp_2.upstream.ENST00000381330"
+                  },
+                  "studyId": "gtex_txrev_pancreas_ensg00000254647_grp_2_upstream_enst00000381330",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.2710047585204522,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9975977215643667,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001150",
+                      "biosampleName": "body of pancreas"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "insulin",
+                      "approvedSymbol": "INS",
+                      "id": "ENSG00000254647"
+                    },
+                    "traitFromSource": "ENST00000381330"
+                  },
+                  "studyId": "gtex_tx_pancreas_enst00000381330",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              }
+            ]
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.8726086020469666,
+                "target": {
+                  "approvedName": "insulin",
+                  "approvedSymbol": "INS",
+                  "id": "ENSG00000254647"
+                }
+              },
+              {
+                "score": 0.0522388219833374,
+                "target": {
+                  "approvedName": "tyrosine hydroxylase",
+                  "approvedSymbol": "TH",
+                  "id": "ENSG00000180176"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -10,
+          "pValueMantissa": 2.069383382797241,
+          "position": 2160994,
+          "purityMeanR2": 0.8551749291346507,
+          "purityMinR2": 0.6394394391874386,
+          "standardError": null,
+          "studyId": "GCST90013941",
+          "studyLocusId": "1285e3939534c579f57d80ce7c2b0d2e",
+          "studyType": "gwas",
+          "variant": {
+            "id": "11_2160994_A_T",
+            "rsIds": [
+              "rs689"
+            ]
+          }
+        },
+        {
+          "beta": -0.008363499003966861,
+          "chromosome": "1",
+          "colocalisation": {
+            "count": 7,
+            "rows": [
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.48588488918207307,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9990274814327621,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "programmed cell death 1",
+                      "approvedSymbol": "PDCD1",
+                      "id": "ENSG00000188389"
+                    },
+                    "traitFromSource": "PDCD1:Q15116:OID21396:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_PDCD1_Q15116_OID21396_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.4915587125451676,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9990334981497108,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "CD5 molecule like",
+                      "approvedSymbol": "CD5L",
+                      "id": "ENSG00000073754"
+                    },
+                    "traitFromSource": "CD5L:O43866:OID30775:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_CD5L_O43866_OID30775_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.529910747963731,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9991755629345912,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "chondroadherin",
+                      "approvedSymbol": "CHAD",
+                      "id": "ENSG00000136457"
+                    },
+                    "traitFromSource": "CHAD:O15335:OID30660:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_CHAD_O15335_OID30660_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.5191475627611097,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.999137727183697,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "C-C motif chemokine ligand 19",
+                      "approvedSymbol": "CCL19",
+                      "id": "ENSG00000172724"
+                    },
+                    "traitFromSource": "CCL19:Q99731:OID21030:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_CCL19_Q99731_OID21030_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.505076830374064,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9990883273213581,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "interleukin 10",
+                      "approvedSymbol": "IL10",
+                      "id": "ENSG00000136634"
+                    },
+                    "traitFromSource": "IL10:P22301:OID20431:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_IL10_P22301_OID20431_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.5361264233555887,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9991966341572595,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "C-X-C motif chemokine ligand 9",
+                      "approvedSymbol": "CXCL9",
+                      "id": "ENSG00000138755"
+                    },
+                    "traitFromSource": "CXCL9:Q07325:OID20675:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_CXCL9_Q07325_OID20675_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.03456324757526529,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.975054424241652,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0002037",
+                      "biosampleName": "cerebellum"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "ENST00000650450"
+                  },
+                  "studyId": "gtex_tx_brain_cerebellum_enst00000650450",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              }
+            ]
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.8860893845558167,
+                "target": {
+                  "approvedName": "protein tyrosine phosphatase non-receptor type 22",
+                  "approvedSymbol": "PTPN22",
+                  "id": "ENSG00000134242"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -9,
+          "pValueMantissa": 6.638470649719238,
+          "position": 113834946,
+          "purityMeanR2": 0.9957334114578602,
+          "purityMinR2": 0.9914668229157203,
+          "standardError": null,
+          "studyId": "GCST90013941",
+          "studyLocusId": "797184727a0025267dfe49a70d212088",
+          "studyType": "gwas",
+          "variant": {
+            "id": "1_113834946_A_G",
+            "rsIds": [
+              "rs2476601"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

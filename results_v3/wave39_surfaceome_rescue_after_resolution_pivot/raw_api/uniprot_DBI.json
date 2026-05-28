@@ -1,0 +1,338 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "value": "Binds medium- and long-chain acyl-CoA esters with very high affinity and may function as an intracellular carrier of acyl-CoA esters. It is also able to displace diazepam from the benzodiazepine (BZD) recognition site located on the GABA type A receptor. It is therefore possible that this protein also acts as a neuropeptide to modulate the action of the GABA receptor"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "17953517",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Golgi localization is dependent on ligand binding (PubMed:17953517)"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "17953517",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "21698759",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0095",
+                "value": "Endoplasmic reticulum"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "17953517",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "21698759",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0132",
+                "value": "Golgi apparatus"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000039B56"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "17044054",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "2CB8",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58342"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58342",
+            "name": "an acyl-CoA"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 14
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 14
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "17044054",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "2CB8",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58342"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58342",
+            "name": "an acyl-CoA"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 33
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 29
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "17044054",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "2CB8",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58342"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58342",
+            "name": "an acyl-CoA"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 55
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 55
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "17044054",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "2CB8",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58342"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:58342",
+            "name": "an acyl-CoA"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 74
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 74
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "DBI"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0877",
+          "name": "Alternative promoter usage"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-0903",
+          "name": "Direct protein sequencing"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0256",
+          "name": "Endoplasmic reticulum"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0333",
+          "name": "Golgi apparatus"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0379",
+          "name": "Hydroxylation"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0446",
+          "name": "Lipid-binding"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0813",
+          "name": "Transport"
+        }
+      ],
+      "primaryAccession": "P07108",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Diazepam-binding inhibitor"
+            },
+            "shortNames": [
+              {
+                "value": "DBI"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Endozepine"
+            },
+            "shortNames": [
+              {
+                "value": "EP"
+              }
+            ]
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Acyl-CoA-binding protein"
+          },
+          "shortNames": [
+            {
+              "value": "ACBP"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "B343A309F1B1AE28",
+        "length": 87,
+        "md5": "C4EC9E416B0E1B050FF8C9A82998F67F",
+        "molWeight": 10044,
+        "value": "MSQAEFEKAAEEVRHLKTKPSDEEMLFIYGHYKQATVGDINTERPGMLDFTGKAKWDAWNELKGTSKEDAMKAYINKVEELKKKYGI"
+      },
+      "uniProtkbId": "ACBP_HUMAN"
+    }
+  ]
+}

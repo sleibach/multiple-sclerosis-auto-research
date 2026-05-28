@@ -1,0 +1,364 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "31209342",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "32128853",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "7991565",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Catalyzes the transfer of a geranylgeranyl moiety from geranylgeranyl diphosphate to both cysteines of Rab proteins with the C-terminal sequence -XXCC, -XCXC and -CCXX, such as RAB1A, RAB3A, RAB5A and RAB7A (PubMed:7991565). Catalytic subunit of the geranylgeranyl transferase type 3 (GGTase-3) complex (PubMed:31209342, PubMed:32128853). The GGTase-3 complex geranylgeranylates and targets FBXL2 to the cellular membranes, where FBXL2 forms part of the E3 ubiquitin-protein ligase complex SCF(FBXL2) that mediates the degradation of membrane-anchored proteins (PubMed:31209342, PubMed:32128853). The GGTase-3 complex geranylgeranylates Golgi v-SNARE protein YKT6 at 'Cys-194' and this prenylation is required for Golgi SNARE complex assembly (PubMed:32128853)"
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000131891"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "Q08603",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57533"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57533",
+            "name": "geranylgeranyl diphosphate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 192
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 190
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "31209342",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "32128853",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "6J74",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "6O60",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)",
+            "note": "catalytic"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 238
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 238
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "31209342",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "32128853",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "6O60",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)",
+            "note": "catalytic"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 240
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 240
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "Q08603",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57533"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57533",
+            "name": "geranylgeranyl diphosphate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 244
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 241
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "31209342",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "32128853",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "6J74",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "6O60",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)",
+            "note": "catalytic"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 290
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 290
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "RABGGTB"
+          },
+          "synonyms": [
+            {
+              "value": "GGTB"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0479",
+          "name": "Metal-binding"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0637",
+          "name": "Prenyltransferase"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0677",
+          "name": "Repeat"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0808",
+          "name": "Transferase"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0862",
+          "name": "Zinc"
+        }
+      ],
+      "primaryAccession": "P53611",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Geranylgeranyl transferase type II subunit beta"
+            },
+            "shortNames": [
+              {
+                "value": "GGTase-II-beta"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Rab geranyl-geranyltransferase subunit beta"
+            },
+            "shortNames": [
+              {
+                "value": "Rab GG transferase beta"
+              },
+              {
+                "value": "Rab GGTase beta"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Rab geranylgeranyltransferase subunit beta"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Type II protein geranyl-geranyltransferase subunit beta"
+            }
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "7991565",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "2.5.1.60"
+            }
+          ],
+          "fullName": {
+            "value": "Geranylgeranyl transferase type-2 subunit beta"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "37A8A6329146C49B",
+        "length": 331,
+        "md5": "A2B9FF09766B683227C33151A2220480",
+        "molWeight": 36924,
+        "value": "MGTPQKDVIIKSDAPDTLLLEKHADYIASYGSKKDDYEYCMSEYLRMSGIYWGLTVMDLMGQLHRMNREEILAFIKSCQHECGGISASIGHDPHLLYTLSAVQILTLYDSINVIDVNKVVEYVKGLQKEDGSFAGDIWGEIDTRFSFCAVATLALLGKLDAINVEKAIEFVLSCMNFDGGFGCRPGSESHAGQIYCCTGFLAITSQLHQVNSDLLGWWLCERQLPSGGLNGRPEKLPDVCYSWWVLASLKIIGRLHWIDREKLRNFILACQDEETGGFADRPGDMVDPFHTLFGIAGLSLLGEEQIKPVNPVFCMPEEVLQRVNVQPELVS"
+      },
+      "uniProtkbId": "PGTB2_HUMAN"
+    }
+  ]
+}

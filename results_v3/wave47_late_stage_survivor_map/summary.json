@@ -1,0 +1,104 @@
+{
+  "date": "2026-05-27",
+  "inputs": [
+    "results_v3/wave23_genetics_restoration_modality/ranked_go_park_no_go.tsv",
+    "results_v3/wave23_treatment_response_stratification/ranked_go_park_no_go.tsv",
+    "results_v3/wave28_target_first_rescue/target_first_gate_summary.tsv",
+    "results_v3/wave32_resolution_rescue_audit/resolution_rescue_route_audit.tsv",
+    "results_v3/wave33_tolerance_costimulation_audit/tolerance_costimulation_axis_audit.tsv",
+    "results_v3/wave34a_genetics_first_target_rescue/genetics_first_candidate_rank.tsv",
+    "results_v3/wave38_crispr_state_druggability_rescue/crispr_state_druggability_rescue_rank.tsv",
+    "results_v3/wave39_surfaceome_rescue_after_resolution_pivot/surfaceome_rescue_rank.tsv",
+    "results_v3/wave40_parked_surface_failfast/parked_surface_failfast.tsv",
+    "results_v3/wave46_central_axis_closure_audit/central_axis_closure_audit.tsv"
+  ],
+  "interpretation": "No late-stage survivor is promotable now. The remaining useful routes are reopen-only experimental programs, especially resolution/lipid repair or genetics-first immune-regulatory mechanisms that would require target-resolved colocalization/MR plus disease-relevant perturbation or a correct-direction modality before any V3 therapeutic claim.",
+  "meta_status_counts": {
+    "CLOSED_NO_GO_OR_DEMOTED": 43,
+    "CLOSED_PRIOR_WAVE_EXCLUDED_AXIS": 2,
+    "PARK_BUT_LIKELY_BLOCKED": 15,
+    "REOPEN_WITH_NEW_TEST_ONLY": 15
+  },
+  "n_routes_scanned": 75,
+  "outputs": {
+    "closed_core_axis_reference": "results_v3/wave47_late_stage_survivor_map/closed_core_axis_reference.tsv",
+    "reopen_requirements": "results_v3/wave47_late_stage_survivor_map/reopen_only_requirements.tsv",
+    "report": "results_v3/wave47_late_stage_survivor_map/REPORT.md",
+    "survivor_map": "results_v3/wave47_late_stage_survivor_map/late_stage_survivor_map.tsv"
+  },
+  "promotable_now_count": 0,
+  "random_seed": 20260527,
+  "reopen_only_count": 15,
+  "top_reopen_only": [
+    {
+      "label": "PTPN22",
+      "missing_tests": "correct_direction_modality;direction_resolution;target_resolved_coloc_or_mr",
+      "source": "wave34a_genetics_first_target_rescue",
+      "source_call": "PARK_DIRECTION_OR_MODALITY_UNRESOLVED",
+      "source_score": 10.925
+    },
+    {
+      "label": "FXYD5",
+      "missing_tests": "correct_direction_modality;direction_resolution",
+      "source": "wave39_surfaceome_rescue",
+      "source_call": "PARK_ONLY_IF_NEW_PERTURBATION",
+      "source_score": 10.5
+    },
+    {
+      "label": "FAP",
+      "missing_tests": "correct_direction_modality;direction_resolution;disease_relevant_perturbation;target_resolved_coloc_or_mr",
+      "source": "wave34a_genetics_first_target_rescue",
+      "source_call": "PARK_DIRECTION_OR_MODALITY_UNRESOLVED",
+      "source_score": 10.2125
+    },
+    {
+      "label": "GPR65",
+      "missing_tests": "prior_art_or_trial_delta;target_resolved_coloc_or_mr",
+      "source": "wave34a_genetics_first_target_rescue",
+      "source_call": "PARK_GENETIC_SIGNAL_LOCAL_CELLSTATE_MISMATCH",
+      "source_score": 9.525
+    },
+    {
+      "label": "CCR6",
+      "missing_tests": "prior_art_or_trial_delta;target_resolved_coloc_or_mr",
+      "source": "wave34a_genetics_first_target_rescue",
+      "source_call": "PARK_MAPPED_GENE_NEEDS_COLOC",
+      "source_score": 8.45
+    },
+    {
+      "label": "TREM2_APOE_LIPID_REPAIR",
+      "missing_tests": "disease_relevant_perturbation;prior_art_or_trial_delta;target_resolved_coloc_or_mr",
+      "source": "wave32_resolution_rescue",
+      "source_call": "PARK_RESOLUTION_BIOLOGY_NO_CAUSAL_ANCHOR",
+      "source_score": 4.4625
+    },
+    {
+      "label": "SQLE",
+      "missing_tests": "unspecified_validation",
+      "source": "wave28_target_first_rescue",
+      "source_call": "PARK_REQUIRES_TARGET_CAUSALITY_OR_PERTURBATION",
+      "source_score": 4.25
+    },
+    {
+      "label": "GPR65",
+      "missing_tests": "unspecified_validation",
+      "source": "wave23_genetics_restoration_modality",
+      "source_call": "PARK",
+      "source_score": 3.517
+    },
+    {
+      "label": "IL10",
+      "missing_tests": "unspecified_validation",
+      "source": "wave23_genetics_restoration_modality",
+      "source_call": "PARK",
+      "source_score": 2.833
+    },
+    {
+      "label": "GSE138746:anti-TNF:ifn_apc",
+      "missing_tests": "unspecified_validation",
+      "source": "wave23_treatment_response_stratification",
+      "source_call": "PARK",
+      "source_score": 0.9132196701158988
+    }
+  ]
+}

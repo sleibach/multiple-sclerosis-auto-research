@@ -1,0 +1,192 @@
+{
+  "error": "",
+  "payload": {
+    "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxtZPem3PISkA",
+    "studies": [
+      {
+        "derivedSection": {
+          "conditionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D003240",
+                "term": "Connective Tissue Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              },
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D008180",
+                "term": "Lupus Erythematosus, Systemic"
+              }
+            ]
+          },
+          "miscInfoModule": {
+            "versionHolder": "2026-05-26"
+          }
+        },
+        "hasResults": false,
+        "protocolSection": {
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "description": "Overall in good health Provide informed consent Male and females, age 18 years and older Nonsmokers",
+                "label": "Healthy Subjects"
+              },
+              {
+                "description": "Enrolled by Hospital for Special Surgery Diagnosed with Systemic Lupus Erythematosus",
+                "label": "SLE Subjects"
+              }
+            ]
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Systemic Lupus Erythematosus"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "city": "New York",
+                "country": "United States",
+                "facility": "Weill Medical College of Cornell University",
+                "geoPoint": {
+                  "lat": 40.71427,
+                  "lon": -74.00597
+                },
+                "state": "New York",
+                "zip": "10021"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "affiliation": "Department of Genetic Medicine",
+                "name": "Ronald G Crystal, MD",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ]
+          },
+          "descriptionModule": {
+            "briefSummary": "It is well known that the deregulation of immune responses plays a major role in many autoimmune diseases, such as Systemic Lupus Erythematosus (SLE). The main objective of this protocol is to determine whether the expression and/or function of specific molecules are deregulated in the immune cells of patients with SLE. By examining IRF4, IRF5, IBP/Def6, SWAP-70, Rock1, Rock2, and specific signaling molecules involved in the responsiveness to sex hormones, the investigators hypothesize that the deregulation in the expression and function of these molecules will result in abnormalities in the functioning of the immune cells, which is a key factor in autoimmunity.\n\nPeripheral blood lymphocytes from healthy controls and patients with SLE will be collected and compared in order to determine if specific immune cells (IL-17 and IL-21) are deregulated in patients with SLE and if this deregulation affects their functioning. Specifically, immune cells will be isolated from the blood and then subject to scientific testing (QPCR, Western blotting, immunofluorescence assays, ELISA and FACS analysis) to see if the expression and function of these cells is related to the mechanism behind SLE. This will be a case control study, where cases of SLE will be compared to controls of healthy volunteers to assess risk factors. As these healthy volunteers are providing samples solely for research purposes, there is no standard of care for these volunteers, with the exception of a positive HIV result during screening. The Department of Genetic Medicine will enroll healthy controls and the Hospital for Special Surgery will enroll subjects with Systemic Lupus Erythematosus (SLE) for a comparative analysis of the two cohorts. Laboratory testing on all blood samples will be done at the Hospital for Special Surgery.",
+            "detailedDescription": "This will be a case control study, where cases of SLE will be compared to controls of healthy volunteers to assess risk factors. As these healthy volunteers are providing samples solely for research purposes, there is no standard of care for these volunteers, with the exception of a positive HIV result during screening. The Department of Genetic Medicine will enroll healthy controls and the Hospital for Special Surgery will enroll subjects with Systemic Lupus Erythematosus (SLE) for a comparative analysis of the two cohorts (Table I). Laboratory testing on all blood samples will be done at the Hospital for Special Surgery.\n\nTable I. Site Recruitment1\n\nWCMC Healthy Subjects 20 HSS Subjects with SLE 20 Total 40"
+          },
+          "designModule": {
+            "bioSpec": {
+              "description": "Blood",
+              "retention": "SAMPLES_WITH_DNA"
+            },
+            "designInfo": {
+              "observationalModel": "COHORT",
+              "timePerspective": "RETROSPECTIVE"
+            },
+            "enrollmentInfo": {
+              "count": 0,
+              "type": "ACTUAL"
+            },
+            "patientRegistry": false,
+            "studyType": "OBSERVATIONAL"
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Must provide informed consent\n* Males and females, age 18 years and older\n* Healthy Nonsmokers\n\nExclusion Criteria:\n\nIf the subject has\n\n* Rheumatic disease\n* Diabetes\n* SLE or lupus\n* Autoimmune disease\n* Active infection or pregnancy\n* HIV infection",
+            "healthyVolunteers": true,
+            "maximumAge": "65 Years",
+            "minimumAge": "18 Years",
+            "samplingMethod": "PROBABILITY_SAMPLE",
+            "sex": "ALL",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ],
+            "studyPopulation": "Healthy Subjects"
+          },
+          "identificationModule": {
+            "acronym": "SLE",
+            "briefTitle": "Molecular Mechanisms Characteristics in Systemic Lupus Erythematous Autoimmune Disease",
+            "nctId": "NCT02270710",
+            "officialTitle": "Immune Deregulation in Patients With SLE",
+            "orgStudyIdInfo": {
+              "id": "1311014560"
+            },
+            "organization": {
+              "class": "OTHER",
+              "fullName": "Weill Medical College of Cornell University"
+            }
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "description": "Immune cells isolated from blood samples of healthy and SLE subjects IRF4, IRF5, IBP/Def6, SWAP-70, Rock1, Rock2 molecules expression examined through scientific testing (QPCR, Western blotting, immunofluorescence assays, ELISA and FACS analysis)",
+                "measure": "Determine the molecules that play a role in onset of SLE and autoimmune disease",
+                "timeFrame": "1 year"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "sponsorCollaboratorsModule": {
+            "collaborators": [
+              {
+                "class": "OTHER",
+                "name": "Hospital for Special Surgery, New York"
+              }
+            ],
+            "leadSponsor": {
+              "class": "OTHER",
+              "name": "Weill Medical College of Cornell University"
+            },
+            "responsibleParty": {
+              "type": "SPONSOR"
+            }
+          },
+          "statusModule": {
+            "completionDateStruct": {
+              "date": "2016-10",
+              "type": "ACTUAL"
+            },
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "lastUpdatePostDateStruct": {
+              "date": "2017-05-24",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2017-05-23",
+            "overallStatus": "WITHDRAWN",
+            "primaryCompletionDateStruct": {
+              "date": "2016-10",
+              "type": "ACTUAL"
+            },
+            "startDateStruct": {
+              "date": "2013-04"
+            },
+            "statusVerifiedDate": "2017-05",
+            "studyFirstPostDateStruct": {
+              "date": "2014-10-21",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2014-10-16",
+            "studyFirstSubmitQcDate": "2014-10-20",
+            "whyStopped": "Research direction changed"
+          }
+        }
+      }
+    ],
+    "totalCount": 1
+  },
+  "status": "ok",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.term=IRF5&query.cond=autoimmune+OR+multiple+sclerosis+OR+rheumatoid+arthritis+OR+lupus+OR+Crohn+OR+psoriasis&format=json&pageSize=1&countTotal=true"
+}

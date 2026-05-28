@@ -1,0 +1,55 @@
+{
+  "payload": {
+    "hitCount": 104,
+    "nextCursorMark": "AoIIQOLxiyg1NTU5NjE0Ng==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=HCG27 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQOLxiyg1NTU5NjE0Ng==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "HCG27 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Enduru N, Iwaya C, Suzuki A, Zhao Z, Iwata J.",
+          "citedByCount": 0,
+          "doi": "10.3389/fimmu.2026.1766685",
+          "firstIndexDate": "2026-05-21",
+          "firstPublicationDate": "2026-05-04",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13180836"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "N",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "N",
+          "id": "42158869",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalIssn": "1664-3224",
+          "journalTitle": "Front Immunol",
+          "journalVolume": "17",
+          "pageInfo": "1766685",
+          "pmcid": "PMC13180836",
+          "pmid": "42158869",
+          "pubType": "research-article; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Genetic variants associated with Sj\u00f6gren's disease subtypes stratified by clinical feature."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=HCG27+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

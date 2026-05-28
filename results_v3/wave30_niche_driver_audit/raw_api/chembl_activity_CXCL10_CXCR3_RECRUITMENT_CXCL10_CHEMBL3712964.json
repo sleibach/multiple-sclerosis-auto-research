@@ -1,0 +1,83 @@
+{
+  "activities": [
+    {
+      "action_type": {
+        "action_type": "INHIBITOR",
+        "description": "Negatively effects (inhibits) the normal functioning of the protein e.g., prevention of enzymatic reaction or activation of downstream pathway",
+        "parent_type": "NEGATIVE MODULATOR"
+      },
+      "activity_comment": null,
+      "activity_id": 24411161,
+      "activity_properties": [
+        {
+          "comments": null,
+          "relation": "=",
+          "result_flag": 0,
+          "standard_relation": "=",
+          "standard_text_value": null,
+          "standard_type": "TIME",
+          "standard_units": "hr",
+          "standard_value": "0.05",
+          "text_value": null,
+          "type": "Time",
+          "units": "min",
+          "value": "3.0"
+        }
+      ],
+      "assay_chembl_id": "CHEMBL5046345",
+      "assay_description": "Binding affinity to human CXCL10 assessed as dissociation constant incubated for 3 mins by surface plasmon resonance analysis",
+      "assay_type": "B",
+      "assay_variant_accession": null,
+      "assay_variant_mutation": null,
+      "bao_endpoint": "BAO_0000034",
+      "bao_format": "BAO_0000357",
+      "bao_label": "single protein format",
+      "canonical_smiles": "NCCOCCO[C@@H]1O[C@@H](C(=O)O)[C@@H](O[C@@H]2O[C@@H](C(=O)O)[C@@H](O[C@@H]3O[C@@H](C(=O)O)[C@@H](O[C@@H]4O[C@@H](C(=O)O)[C@@H](OS(=O)(=O)O)[C@H](O)[C@H]4OS(=O)(=O)O)[C@H](O)[C@H]3OS(=O)(=O)O)[C@H](O)[C@H]2OS(=O)(=O)O)[C@H](O)[C@H]1OS(=O)(=O)O",
+      "data_validity_comment": null,
+      "data_validity_description": null,
+      "document_chembl_id": "CHEMBL5046215",
+      "document_journal": "J Med Chem",
+      "document_year": 2021,
+      "ligand_efficiency": {
+        "bei": "3.89",
+        "le": null,
+        "lle": null,
+        "sei": null
+      },
+      "molecule_chembl_id": "CHEMBL5081237",
+      "molecule_pref_name": null,
+      "parent_molecule_chembl_id": "CHEMBL5081237",
+      "pchembl_value": "4.71",
+      "potential_duplicate": 0,
+      "qudt_units": "http://www.openphacts.org/units/Nanomolar",
+      "record_id": 3782830,
+      "relation": "=",
+      "src_id": 1,
+      "standard_flag": 1,
+      "standard_relation": "=",
+      "standard_text_value": null,
+      "standard_type": "Kd",
+      "standard_units": "nM",
+      "standard_upper_value": null,
+      "standard_value": "19540.0",
+      "target_chembl_id": "CHEMBL3712964",
+      "target_organism": "Homo sapiens",
+      "target_pref_name": "C-X-C motif chemokine 10",
+      "target_tax_id": "9606",
+      "text_value": null,
+      "toid": null,
+      "type": "Kd",
+      "units": "uM",
+      "uo_units": "UO_0000065",
+      "upper_value": null,
+      "value": "19.54"
+    }
+  ],
+  "page_meta": {
+    "limit": 1,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr6",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000112486.15",
+        "geneSymbol": "CCR6",
+        "geneSymbolUpper": "CCR6",
+        "nes": -0.505852,
+        "ontologyId": "UBERON:0004264",
+        "pValue": 6.16847e-05,
+        "pos": 167155187,
+        "snpId": "rs74559447",
+        "snpIdUpper": "RS74559447",
+        "tissueSiteDetailId": "Skin_Sun_Exposed_Lower_leg",
+        "variantId": "chr6_167155187_A_G_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 11,
+      "page": 0,
+      "totalNumberOfItems": 11
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000112486.15&tissueSiteDetailId=Skin_Sun_Exposed_Lower_leg&datasetId=gtex_v8&itemsPerPage=1"
+}

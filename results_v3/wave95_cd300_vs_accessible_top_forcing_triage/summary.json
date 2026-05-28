@@ -1,0 +1,25 @@
+{
+  "analysis_call": "NO_PROMOTABLE_ROUTE_AFTER_CD300_VS_ACCESSIBLE_TOP_FORCING_TRIAGE",
+  "call_counts": {
+    "NO_GO_WAVE95_FORCING_TRIAGE": 5,
+    "PARK_AS_STATE_CONTROLLER_OR_BIOMARKER": 2,
+    "PARK_FOR_NON_MS_LEAD_INDICATION_ONLY": 1
+  },
+  "entities_tested": 8,
+  "inputs": {
+    "wave39_surfaceome_rank": "results_v3/wave39_surfaceome_rescue_after_resolution_pivot/surfaceome_rescue_rank_full.tsv",
+    "wave92_route_rank": "results_v3/wave92_lipid_state_controller_route_audit/controller_route_rank.tsv",
+    "wave94_accessible_rank": "results_v3/wave94_accessible_state_rerank/accessible_state_candidate_rank.tsv"
+  },
+  "non_ms_lead_only_entities": [
+    "CD300_RECEPTOR_SPECIFIC_TUNING"
+  ],
+  "seed": 20260527,
+  "state_controller_or_biomarker_entities": [
+    "C15ORF48",
+    "PLEK2"
+  ],
+  "top_entity": "C15ORF48",
+  "top_entity_call": "PARK_AS_STATE_CONTROLLER_OR_BIOMARKER",
+  "top_entity_score": 11.0
+}

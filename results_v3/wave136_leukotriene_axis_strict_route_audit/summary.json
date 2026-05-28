@@ -1,0 +1,22 @@
+{
+  "branch_call": "NO_REOPEN_LEUKOTRIENE_AXIS_SMALL_N_ONLY",
+  "failed_critical_gates": [
+    "fdr_grade_ms_response",
+    "target_resolved_genetics",
+    "class_route_previously_reopened",
+    "direction_and_safety_clear",
+    "prior_art_not_blocking",
+    "single_selective_intervention_node_defined"
+  ],
+  "inputs": {
+    "wave131_class": "results_v3/wave131_class_route_forcing_audit/class_route_forcing_decisions.tsv",
+    "wave135_stability": "results_v3/wave135_lipid_flux_ms_response_sensitivity/lipid_flux_ms_response_stability.tsv",
+    "wave135_tests": "results_v3/wave135_lipid_flux_ms_response_sensitivity/lipid_flux_ms_response_feature_tests.tsv",
+    "wave25_proxy": "results_v3/wave25_causal_genetics_module_proxy/causal_proxy_candidate_matrix.tsv",
+    "wave32_routes": "results_v3/wave32_resolution_rescue_audit/resolution_rescue_route_audit.tsv",
+    "wave71_meta": "results_v3/wave71_global_survivor_meta_rank/global_survivor_meta_rank.tsv",
+    "wave83_meta": "results_v3/wave83_intervention_class_meta_rank/intervention_class_meta_rank.tsv"
+  },
+  "random_seed": 20260527,
+  "stable_wave135_features": []
+}

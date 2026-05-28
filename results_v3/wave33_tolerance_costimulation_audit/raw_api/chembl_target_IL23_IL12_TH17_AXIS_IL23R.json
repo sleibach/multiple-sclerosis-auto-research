@@ -1,0 +1,542 @@
+{
+  "payload": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 2
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Interleukin-23 receptor",
+        "score": 20.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL4296013",
+        "target_components": [
+          {
+            "accession": "Q5VWK5",
+            "component_description": "Interleukin-23 receptor",
+            "component_id": 18432,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "IL-23R",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "IL23R",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "IL-23 receptor",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Interleukin-23 receptor",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "Q5VWK5",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "Q5VWK5",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009897",
+                "xref_name": "external side of plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009986",
+                "xref_name": "cell surface",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043235",
+                "xref_name": "receptor complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0072536",
+                "xref_name": "interleukin-23 receptor complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0004896",
+                "xref_name": "cytokine receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005143",
+                "xref_name": "interleukin-12 receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019955",
+                "xref_name": "cytokine binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042019",
+                "xref_name": "interleukin-23 binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042020",
+                "xref_name": "interleukin-23 receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001916",
+                "xref_name": "positive regulation of T cell mediated cytotoxicity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002230",
+                "xref_name": "positive regulation of defense response to virus by host",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002827",
+                "xref_name": "positive regulation of T-helper 1 type immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007259",
+                "xref_name": "cell surface receptor signaling pathway via JAK-STAT",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008284",
+                "xref_name": "positive regulation of cell population proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0019221",
+                "xref_name": "cytokine-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032693",
+                "xref_name": "negative regulation of interleukin-10 production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032725",
+                "xref_name": "positive regulation of granulocyte macrophage colony-stimulating factor production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032729",
+                "xref_name": "positive regulation of type II interferon production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032735",
+                "xref_name": "positive regulation of interleukin-12 production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032819",
+                "xref_name": "positive regulation of natural killer cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0038155",
+                "xref_name": "interleukin-23-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042102",
+                "xref_name": "positive regulation of T cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042104",
+                "xref_name": "positive regulation of activated T cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043382",
+                "xref_name": "positive regulation of memory T cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045087",
+                "xref_name": "innate immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045672",
+                "xref_name": "positive regulation of osteoclast differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051135",
+                "xref_name": "positive regulation of NK T cell activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097696",
+                "xref_name": "cell surface receptor signaling pathway via STAT",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000318",
+                "xref_name": "positive regulation of T-helper 17 type immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000330",
+                "xref_name": "positive regulation of T-helper 17 cell lineage commitment",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:19100",
+                "xref_name": "IL23R",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "Q5VWK5",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR003961",
+                "xref_name": "FN3_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013783",
+                "xref_name": "Ig-like_fold",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036116",
+                "xref_name": "FN3_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR052672",
+                "xref_name": "Type1_Cytokine_Rcpt_Type2",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR48423",
+                "xref_name": "INTERLEUKIN-27 RECEPTOR SUBUNIT ALPHA",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR48423:SF2",
+                "xref_name": "INTERLEUKIN-12 RECEPTOR SUBUNIT BETA-2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "5MZV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6WDQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8OE4",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5MZV",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6WDQ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PA134935109",
+                "xref_name": "interleukin 23 receptor",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "Q5VWK5",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-6785807",
+                "xref_name": "Interleukin-4 and Interleukin-13 signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9020933",
+                "xref_name": "Interleukin-23 signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "C9JGX4",
+                "xref_name": "Interleukin-23 receptor",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q4VGP1",
+                "xref_name": "Interleukin-23 receptor",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q4VGP2",
+                "xref_name": "Interleukin-23 receptor",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q4VGP3",
+                "xref_name": "Interleukin-23 receptor",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q4VGP4",
+                "xref_name": "Interleukin-23 receptor",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q4VGP5",
+                "xref_name": "Interleukin-23 receptor",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q4VGP6",
+                "xref_name": "Interleukin-23 receptor",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q5VWK5",
+                "xref_name": "Interleukin-23 receptor",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q5VWK7",
+                "xref_name": "Interleukin-23 receptor",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q8IW84",
+                "xref_name": "Interleukin-23 receptor",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q8NFQ9",
+                "xref_name": "Interleukin-23 receptor",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q96AS1",
+                "xref_name": "Interleukin-23 receptor",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Mus musculus",
+        "pref_name": "Interleukin-23 receptor",
+        "score": 20.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL4523394",
+        "target_components": [
+          {
+            "accession": "Q8K4B4",
+            "component_description": "Interleukin-23 receptor",
+            "component_id": 18898,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "Il23r",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "IL-23R",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "IL-23 receptor",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Interleukin-23 receptor",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "Q8K4B4",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009986",
+                "xref_name": "cell surface",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043235",
+                "xref_name": "receptor complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0072536",
+                "xref_name": "interleukin-23 receptor complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0004896",
+                "xref_name": "cytokine receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005143",
+                "xref_name": "interleukin-12 receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042019",
+                "xref_name": "interleukin-23 binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042020",
+                "xref_name": "interleukin-23 receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0002230",
+                "xref_name": "positive regulation of defense response to virus by host",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002443",
+                "xref_name": "leukocyte mediated immunity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002827",
+                "xref_name": "positive regulation of T-helper 1 type immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007259",
+                "xref_name": "cell surface receptor signaling pathway via JAK-STAT",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0019221",
+                "xref_name": "cytokine-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032693",
+                "xref_name": "negative regulation of interleukin-10 production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032729",
+                "xref_name": "positive regulation of type II interferon production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032735",
+                "xref_name": "positive regulation of interleukin-12 production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0038155",
+                "xref_name": "interleukin-23-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045087",
+                "xref_name": "innate immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "IPR003961",
+                "xref_name": "FN3_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013783",
+                "xref_name": "Ig-like_fold",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036116",
+                "xref_name": "FN3_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR052672",
+                "xref_name": "Type1_Cytokine_Rcpt_Type2",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR48423",
+                "xref_name": "INTERLEUKIN-27 RECEPTOR SUBUNIT ALPHA",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR48423:SF2",
+                "xref_name": "INTERLEUKIN-12 RECEPTOR SUBUNIT BETA-2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "R-MMU-9020933",
+                "xref_name": "Interleukin-23 signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "Q8K4B4",
+                "xref_name": "Interleukin-23 receptor",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 10090
+      }
+    ]
+  },
+  "url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=IL23R"
+}

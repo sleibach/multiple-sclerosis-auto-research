@@ -1,0 +1,1348 @@
+{
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=FXYD5%5BTitle%2FAbstract%5D+AND+%28immune%5BTitle%2FAbstract%5D+OR+macrophage%5BTitle%2FAbstract%5D+OR+monocyte%5BTitle%2FAbstract%5D+OR+stromal%5BTitle%2FAbstract%5D+OR+epithelial%5BTitle%2FAbstract%5D+OR+autoimmune%5BTitle%2FAbstract%5D+OR+inflammation%5BTitle%2FAbstract%5D+OR+inflammatory%5BTitle%2FAbstract%5D%29+AND+%28knockdown%5BTitle%2FAbstract%5D+OR+knockout%5BTitle%2FAbstract%5D+OR+CRISPR%5BTitle%2FAbstract%5D+OR+siRNA%5BTitle%2FAbstract%5D+OR+shRNA%5BTitle%2FAbstract%5D+OR+overexpression%5BTitle%2FAbstract%5D+OR+perturbation%5BTitle%2FAbstract%5D%29&retmode=json&retmax=10",
+  "status": 200,
+  "json": {
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    },
+    "esearchresult": {
+      "count": "10",
+      "retmax": "10",
+      "retstart": "0",
+      "idlist": [
+        "40912610",
+        "35191523",
+        "33570156",
+        "28620381",
+        "27006401",
+        "26410457",
+        "22526258",
+        "22085977",
+        "19128250",
+        "18783612"
+      ],
+      "translationset": [],
+      "querytranslation": "\"FXYD5\"[Title/Abstract] AND (\"immune\"[Title/Abstract] OR \"macrophage\"[Title/Abstract] OR \"monocyte\"[Title/Abstract] OR \"stromal\"[Title/Abstract] OR \"epithelial\"[Title/Abstract] OR \"autoimmune\"[Title/Abstract] OR \"inflammation\"[Title/Abstract] OR \"inflammatory\"[Title/Abstract]) AND (\"knockdown\"[Title/Abstract] OR \"knockout\"[Title/Abstract] OR \"CRISPR\"[Title/Abstract] OR \"siRNA\"[Title/Abstract] OR \"shRNA\"[Title/Abstract] OR \"overexpression\"[Title/Abstract] OR \"perturbation\"[Title/Abstract])"
+    }
+  },
+  "summary_json": {
+    "header": {
+      "type": "esummary",
+      "version": "0.3"
+    },
+    "result": {
+      "uids": [
+        "40912610",
+        "35191523",
+        "33570156",
+        "28620381",
+        "27006401",
+        "26410457",
+        "22526258",
+        "22085977",
+        "19128250",
+        "18783612"
+      ],
+      "40912610": {
+        "uid": "40912610",
+        "pubdate": "2025 Dec",
+        "epubdate": "2025 Sep 3",
+        "source": "Transpl Immunol",
+        "authors": [
+          {
+            "name": "Zhang L",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Xu J",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Cui F",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Jin J",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Liu L",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Wang L",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Gao Y",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Gao Y",
+        "title": "Fxyd5 downregulation protects the heart from ischemia/reperfusion injury by suppressing myocardial inflammation.",
+        "sorttitle": "fxyd5 downregulation protects the heart from ischemia reperfusion injury by suppressing myocardial inflammation",
+        "volume": "93",
+        "issue": "",
+        "pages": "102282",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "9309923",
+        "issn": "0966-3274",
+        "essn": "1878-5492",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "pubstatus": "256",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "40912610"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1016/j.trim.2025.102282"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "S0966-3274(25)00110-8"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2025/03/21 00:00"
+          },
+          {
+            "pubstatus": "revised",
+            "date": "2025/08/20 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2025/09/01 00:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2025/12/09 00:31"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2025/09/06 00:34"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2025/09/05 19:18"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": "",
+        "fulljournalname": "Transplant immunology",
+        "elocationid": "doi: 10.1016/j.trim.2025.102282",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2025/12/01 00:00",
+        "sortfirstauthor": "Zhang L",
+        "vernaculartitle": ""
+      },
+      "35191523": {
+        "uid": "35191523",
+        "pubdate": "2022 Apr",
+        "epubdate": "2022 Feb 22",
+        "source": "Mol Med Rep",
+        "authors": [
+          {
+            "name": "Song L",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Li X",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Sun Q",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Zhao Y",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Zhao Y",
+        "title": "Fxyd5 activates the NF\u2011\u03baB pathway and is involved in chondrocytes inflammation and extracellular matrix degradation.",
+        "sorttitle": "fxyd5 activates the nf b pathway and is involved in chondrocytes inflammation and extracellular matrix degradation",
+        "volume": "25",
+        "issue": "4",
+        "pages": "",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "101475259",
+        "issn": "1791-2997",
+        "essn": "1791-3004",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "pubstatus": "256",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "35191523"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC8908309"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC8908309;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.3892/mmr.2022.12650"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "134"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2021/11/01 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2021/12/17 00:00"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2022/02/22 08:41"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2022/02/23 06:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2022/04/08 06:00"
+          },
+          {
+            "pubstatus": "pmc-release",
+            "date": "2022/02/18 00:00"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": 34,
+        "fulljournalname": "Molecular medicine reports",
+        "elocationid": "pii: 134. doi: 10.3892/mmr.2022.12650",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2022/04/01 00:00",
+        "sortfirstauthor": "Song L",
+        "vernaculartitle": ""
+      },
+      "33570156": {
+        "uid": "33570156",
+        "pubdate": "2021 May",
+        "epubdate": "2021 Feb 11",
+        "source": "Histol Histopathol",
+        "authors": [
+          {
+            "name": "Liu YK",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Jia YJ",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Liu SH",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Shi HJ",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Ma J",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Ma J",
+        "title": "Low expression of FXYD5 reverses the cisplatin resistance of epithelial ovarian cancer cells.",
+        "sorttitle": "low expression of fxyd5 reverses the cisplatin resistance of epithelial ovarian cancer cells",
+        "volume": "36",
+        "issue": "5",
+        "pages": "535-545",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "8609357",
+        "issn": "0213-3911",
+        "essn": "1699-5848",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "pubstatus": "256",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "33570156"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.14670/HH-18-310"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "HH-18-310"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "pubmed",
+            "date": "2021/02/12 06:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2022/01/11 06:00"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2021/02/11 08:40"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": "",
+        "fulljournalname": "Histology and histopathology",
+        "elocationid": "doi: 10.14670/HH-18-310",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2021/05/01 00:00",
+        "sortfirstauthor": "Liu YK",
+        "vernaculartitle": ""
+      },
+      "28620381": {
+        "uid": "28620381",
+        "pubdate": "2017",
+        "epubdate": "2017 Jun 1",
+        "source": "Front Immunol",
+        "authors": [
+          {
+            "name": "Brazee PL",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Soni PN",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Tokhtaeva E",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Magnani N",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Yemelyanov A",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Perlman HR",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Ridge KM",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Sznajder JI",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Vagin O",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Dada LA",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Dada LA",
+        "title": "FXYD5 Is an Essential Mediator of the Inflammatory Response during Lung Injury.",
+        "sorttitle": "fxyd5 is an essential mediator of the inflammatory response during lung injury",
+        "volume": "8",
+        "issue": "",
+        "pages": "623",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "101560960",
+        "issn": "1664-3224",
+        "essn": "1664-3224",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed",
+        "pubstatus": "258",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "28620381"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC5451504"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC5451504;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.3389/fimmu.2017.00623"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2017/02/04 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2017/05/10 00:00"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2017/06/17 06:00"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2017/06/18 06:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2017/06/18 06:01"
+          },
+          {
+            "pubstatus": "pmc-release",
+            "date": "2017/01/01 00:00"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": 85,
+        "fulljournalname": "Frontiers in immunology",
+        "elocationid": "doi: 10.3389/fimmu.2017.00623",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2017/06/01 00:00",
+        "sortfirstauthor": "Brazee PL",
+        "vernaculartitle": ""
+      },
+      "27006401": {
+        "uid": "27006401",
+        "pubdate": "2016 May 20",
+        "epubdate": "2016 Mar 22",
+        "source": "J Biol Chem",
+        "authors": [
+          {
+            "name": "Lubarski-Gotliv I",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Asher C",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Dada LA",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Garty H",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Garty H",
+        "title": "FXYD5 Protein Has a Pro-inflammatory Role in Epithelial Cells.",
+        "sorttitle": "fxyd5 protein has a pro inflammatory role in epithelial cells",
+        "volume": "291",
+        "issue": "21",
+        "pages": "11072-82",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "2985121R",
+        "issn": "0021-9258",
+        "essn": "1083-351X",
+        "pubtype": [
+          "Journal Article",
+          "Research Support, N.I.H., Extramural",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "pubstatus": "256",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "27006401"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC4900257"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC4900257;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1074/jbc.M115.699041"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "S0021-9258(20)40851-8"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2015/10/16 00:00"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2016/03/24 06:00"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2016/03/24 06:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2016/12/15 06:00"
+          },
+          {
+            "pubstatus": "pmc-release",
+            "date": "2017/05/20 00:00"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": 41,
+        "fulljournalname": "The Journal of biological chemistry",
+        "elocationid": "doi: 10.1074/jbc.M115.699041",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2016/05/20 00:00",
+        "sortfirstauthor": "Lubarski-Gotliv I",
+        "vernaculartitle": ""
+      },
+      "26410457": {
+        "uid": "26410457",
+        "pubdate": "2016 Jan",
+        "epubdate": "2015 Sep 26",
+        "source": "Respir Physiol Neurobiol",
+        "authors": [
+          {
+            "name": "Wujak \u0141A",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Blume A",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Balo\u011flu E",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Wygrecka M",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Wygowski J",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Herold S",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Mayer K",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Vad\u00e1sz I",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Besuch P",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Mairb\u00e4url H",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Seeger W",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Morty RE",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Morty RE",
+        "title": "FXYD1 negatively regulates Na(+)/K(+)-ATPase activity in lung alveolar epithelial cells.",
+        "sorttitle": "fxyd1 negatively regulates na k atpase activity in lung alveolar epithelial cells",
+        "volume": "220",
+        "issue": "",
+        "pages": "54-61",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "101140022",
+        "issn": "1569-9048",
+        "essn": "1878-1519",
+        "pubtype": [
+          "Journal Article",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "pubstatus": "256",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "26410457"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1016/j.resp.2015.09.008"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "S1569-9048(15)30045-8"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2015/05/08 00:00"
+          },
+          {
+            "pubstatus": "revised",
+            "date": "2015/09/17 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2015/09/20 00:00"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2015/09/28 06:00"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2015/09/28 06:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2016/09/23 06:00"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": "",
+        "fulljournalname": "Respiratory physiology & neurobiology",
+        "elocationid": "doi: 10.1016/j.resp.2015.09.008",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2016/01/01 00:00",
+        "sortfirstauthor": "Wujak \u0141A",
+        "vernaculartitle": ""
+      },
+      "22526258": {
+        "uid": "22526258",
+        "pubdate": "2012 Jun",
+        "epubdate": "2012 Apr 23",
+        "source": "Hypertension",
+        "authors": [
+          {
+            "name": "Stow LR",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Richards J",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Cheng KY",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Lynch IJ",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Jeffers LA",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Greenlee MM",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Cain BD",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Wingo CS",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Gumz ML",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Gumz ML",
+        "title": "The circadian protein period 1 contributes to blood pressure control and coordinately regulates renal sodium transport genes.",
+        "sorttitle": "circadian protein period 1 contributes to blood pressure control and coordinately regulates renal sodium transport genes",
+        "volume": "59",
+        "issue": "6",
+        "pages": "1151-6",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "7906255",
+        "issn": "0194-911X",
+        "essn": "1524-4563",
+        "pubtype": [
+          "Journal Article",
+          "Research Support, N.I.H., Extramural",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "pubstatus": "256",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "22526258"
+          },
+          {
+            "idtype": "mid",
+            "idtypen": 8,
+            "value": "NIHMS374698"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC3366275"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC3366275;manuscript-id: NIHMS374698;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1161/HYPERTENSIONAHA.112.190892"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "HYPERTENSIONAHA.112.190892"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "entrez",
+            "date": "2012/04/25 06:00"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2012/04/25 06:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2012/07/26 06:00"
+          },
+          {
+            "pubstatus": "pmc-release",
+            "date": "2013/06/01 00:00"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": 37,
+        "fulljournalname": "Hypertension (Dallas, Tex. : 1979)",
+        "elocationid": "doi: 10.1161/HYPERTENSIONAHA.112.190892",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2012/06/01 00:00",
+        "sortfirstauthor": "Stow LR",
+        "vernaculartitle": ""
+      },
+      "22085977": {
+        "uid": "22085977",
+        "pubdate": "2012 Feb",
+        "epubdate": "2011 Nov 11",
+        "source": "Int J Mol Med",
+        "authors": [
+          {
+            "name": "Huang X",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Wang B",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Yang D",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Shi X",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Hong J",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Wang S",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Dai X",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Zhou X",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Geng YJ",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Geng YJ",
+        "title": "Reduced expression of FXYD domain containing ion transport regulator 5 in association with hypertension.",
+        "sorttitle": "reduced expression of fxyd domain containing ion transport regulator 5 in association with hypertension",
+        "volume": "29",
+        "issue": "2",
+        "pages": "231-8",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "9810955",
+        "issn": "1107-3756",
+        "essn": "1791-244X",
+        "pubtype": [
+          "Journal Article",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "pubstatus": "256",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "22085977"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.3892/ijmm.2011.837"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2011/09/02 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2011/10/14 00:00"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2011/11/17 06:00"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2011/11/17 06:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2012/04/14 06:00"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": "",
+        "fulljournalname": "International journal of molecular medicine",
+        "elocationid": "doi: 10.3892/ijmm.2011.837",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2012/02/01 00:00",
+        "sortfirstauthor": "Huang X",
+        "vernaculartitle": ""
+      },
+      "19128250": {
+        "uid": "19128250",
+        "pubdate": "2008 Nov-Dec",
+        "epubdate": "",
+        "source": "Wound Repair Regen",
+        "authors": [
+          {
+            "name": "Miller TJ",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Davis PB",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Davis PB",
+        "title": "S163 is critical for FXYD5 modulation of wound healing in airway epithelial cells.",
+        "sorttitle": "s163 is critical for fxyd5 modulation of wound healing in airway epithelial cells",
+        "volume": "16",
+        "issue": "6",
+        "pages": "791-9",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "9310939",
+        "issn": "1067-1927",
+        "essn": "1524-475X",
+        "pubtype": [
+          "Journal Article",
+          "Research Support, N.I.H., Extramural",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "pubstatus": "4",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "19128250"
+          },
+          {
+            "idtype": "mid",
+            "idtypen": 8,
+            "value": "NIHMS264633"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC3042856"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC3042856;manuscript-id: NIHMS264633;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1111/j.1524-475X.2008.00432.x"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "WRR432"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "entrez",
+            "date": "2009/01/09 09:00"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2009/01/09 09:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2009/05/06 09:00"
+          },
+          {
+            "pubstatus": "pmc-release",
+            "date": "2011/02/22 00:00"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": 39,
+        "fulljournalname": "Wound repair and regeneration : official publication of the Wound Healing Society [and] the European Tissue Repair Society",
+        "elocationid": "doi: 10.1111/j.1524-475X.2008.00432.x",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2008/11/01 00:00",
+        "sortfirstauthor": "Miller TJ",
+        "vernaculartitle": ""
+      },
+      "18783612": {
+        "uid": "18783612",
+        "pubdate": "2008 Sep 10",
+        "epubdate": "2008 Sep 10",
+        "source": "Reprod Biol Endocrinol",
+        "authors": [
+          {
+            "name": "Simmen FA",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Su Y",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Xiao R",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Zeng Z",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Simmen RC",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Simmen RC",
+        "title": "The Kr\u00fcppel-like factor 9 (KLF9) network in HEC-1-A endometrial carcinoma cells suggests the carcinogenic potential of dys-regulated KLF9 expression.",
+        "sorttitle": "kr ppel like factor 9 klf9 network in hec 1 a endometrial carcinoma cells suggests the carcinogenic potential of dys regulated klf9 expression",
+        "volume": "6",
+        "issue": "",
+        "pages": "41",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "101153627",
+        "issn": "",
+        "essn": "1477-7827",
+        "pubtype": [
+          "Journal Article",
+          "Research Support, N.I.H., Extramural",
+          "Research Support, Non-U.S. Gov't"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "pubstatus": "3",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "18783612"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC2542371"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC2542371;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1186/1477-7827-6-41"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "1477-7827-6-41"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "received",
+            "date": "2008/06/23 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2008/09/10 00:00"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2008/09/12 09:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2008/10/11 09:00"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2008/09/12 09:00"
+          },
+          {
+            "pubstatus": "pmc-release",
+            "date": "2008/09/10 00:00"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": 62,
+        "fulljournalname": "Reproductive biology and endocrinology : RB&E",
+        "elocationid": "doi: 10.1186/1477-7827-6-41",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2008/09/10 00:00",
+        "sortfirstauthor": "Simmen FA",
+        "vernaculartitle": ""
+      }
+    }
+  }
+}

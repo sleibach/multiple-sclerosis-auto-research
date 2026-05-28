@@ -1,0 +1,356 @@
+{
+  "_request_url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=PPIB&limit=10",
+  "_status_code": 200,
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Peptidyl-prolyl cis-trans isomerase B",
+      "score": 16.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL2075",
+      "target_components": [
+        {
+          "accession": "P23284",
+          "component_description": "Peptidyl-prolyl cis-trans isomerase B",
+          "component_id": 435,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "5.2.1.8",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Cyclophilin B",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CYPB",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "CYP-S1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Peptidyl-prolyl cis-trans isomerase B",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PPIase B",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PPIB",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Rotamase B",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "S-cyclophilin",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "SCYLP",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P23284",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005654",
+              "xref_name": "nucleoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005783",
+              "xref_name": "endoplasmic reticulum",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005788",
+              "xref_name": "endoplasmic reticulum lumen",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005790",
+              "xref_name": "smooth endoplasmic reticulum",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005925",
+              "xref_name": "focal adhesion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0032991",
+              "xref_name": "protein-containing complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0034663",
+              "xref_name": "endoplasmic reticulum chaperone complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0048471",
+              "xref_name": "perinuclear region of cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0003723",
+              "xref_name": "RNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003755",
+              "xref_name": "peptidyl-prolyl cis-trans isomerase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0051082",
+              "xref_name": "unfolded protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0070063",
+              "xref_name": "RNA polymerase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0140839",
+              "xref_name": "RNA polymerase II CTD heptapeptide repeat P3 isomerase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0140840",
+              "xref_name": "RNA polymerase II CTD heptapeptide repeat P6 isomerase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006457",
+              "xref_name": "protein folding",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030593",
+              "xref_name": "neutrophil chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0040018",
+              "xref_name": "positive regulation of multicellular organism growth",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0044794",
+              "xref_name": "positive regulation by host of viral process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0044829",
+              "xref_name": "positive regulation by host of viral genome replication",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050821",
+              "xref_name": "protein stabilization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060348",
+              "xref_name": "bone development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0061077",
+              "xref_name": "chaperone-mediated protein folding",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:9255",
+              "xref_name": "PPIB",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "P23284",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR002130",
+              "xref_name": "Cyclophilin-type_PPIase_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR020892",
+              "xref_name": "Cyclophilin-type_PPIase_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029000",
+              "xref_name": "Cyclophilin-like_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11071",
+              "xref_name": "PEPTIDYL-PROLYL CIS-TRANS ISOMERASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR11071:SF477",
+              "xref_name": "PEPTIDYL-PROLYL CIS-TRANS ISOMERASE B",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "1CYN",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3ICH",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3ICI",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8K0F",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8K0I",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8K0M",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8K17",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8KC9",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1CYN",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3ICH",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3ICI",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF00160",
+              "xref_name": "Pro_isomerase",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA33580",
+              "xref_name": "peptidylprolyl isomerase B",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P23284",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-1650814",
+              "xref_name": "Collagen biosynthesis and modifying enzymes",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9692916",
+              "xref_name": "SARS-CoV-1 activates/modulates innate immune responses",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "A8K534",
+              "xref_name": "Peptidyl-prolyl cis-trans isomerase B",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P23284",
+              "xref_name": "Peptidyl-prolyl cis-trans isomerase B",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q6IBH5",
+              "xref_name": "Peptidyl-prolyl cis-trans isomerase B",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9BVK5",
+              "xref_name": "Peptidyl-prolyl cis-trans isomerase B",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

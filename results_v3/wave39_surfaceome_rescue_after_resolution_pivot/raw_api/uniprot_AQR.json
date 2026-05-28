@@ -1,0 +1,357 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11991638",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "16949364",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "25599396",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "28076346",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "28502770",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Involved in pre-mRNA splicing as component of the spliceosome (PubMed:11991638, PubMed:25599396, PubMed:28076346, PubMed:28502770). Intron-binding spliceosomal protein required to link pre-mRNA splicing and snoRNP (small nucleolar ribonucleoprotein) biogenesis (PubMed:16949364). Plays a key role in position-dependent assembly of intron-encoded box C/D small snoRNP, splicing being required for snoRNP assembly (PubMed:16949364). May act by helping the folding of the snoRNA sequence. Binds to intron of pre-mRNAs in a sequence-independent manner, contacting the region between snoRNA and the branchpoint of introns (40 nucleotides upstream of the branchpoint) during the late stages of splicing (PubMed:16949364). Has ATP-dependent RNA helicase activity and can unwind double-stranded RNA molecules with a 3' overhang (in vitro) (PubMed:25599396)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "16949364",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Localizes to speckle-like regions of the nucleoplasm"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "11991638",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "25599396",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "28076346",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "28502770",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0191",
+                "value": "Nucleus"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "16949364",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0190",
+                "value": "Nucleus, nucleoplasm"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00001C1F85"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "25599396",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4PJ3",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:30616"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:30616",
+            "name": "ATP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 801
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 801
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "25599396",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4PJ3",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:30616"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:30616",
+            "name": "ATP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 806
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 806
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "25599396",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4PJ3",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:30616"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:30616",
+            "name": "ATP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 831
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 826
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "AQR"
+          },
+          "synonyms": [
+            {
+              "value": "KIAA0560"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0067",
+          "name": "ATP-binding"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0347",
+          "name": "Helicase"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0378",
+          "name": "Hydrolase"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0507",
+          "name": "mRNA processing"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0508",
+          "name": "mRNA splicing"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0547",
+          "name": "Nucleotide-binding"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0539",
+          "name": "Nucleus"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0694",
+          "name": "RNA-binding"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0747",
+          "name": "Spliceosome"
+        }
+      ],
+      "primaryAccession": "O60306",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "16949364",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Intron-binding protein of 160 kDa"
+            },
+            "shortNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "16949364",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "IBP160"
+              }
+            ]
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "25599396",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "3.6.4.13"
+            }
+          ],
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "id": "25599396",
+                "source": "PubMed"
+              }
+            ],
+            "value": "RNA helicase aquarius"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "D0ADDA621A9418FD",
+        "length": 1485,
+        "md5": "9B4ED38D36EC4A568649FACAEE0F48A9",
+        "molWeight": 171295,
+        "value": "MAAPAQPKKIVAPTVSQINAEFVTQLACKYWAPHIKKKSPFDIKVIEDIYEKEIVKSRFAIRKIMLLEFSQYLENYLWMNYSPEVSSKAYLMSICCMVNEKFRENVPAWEIFKKKPDHFPFFFKHILKAALAETDGEFSLHEQTVLLLFLDHCFNSLEVDLIRSQVQQLISLPMWMGLQLARLELELKKTPKLRKFWNLIKKNDEKMDPEAREQAYQERRFLSQLIQKFISVLKSVPLSEPVTMDKVHYCERFIELMIDLEALLPTRRWFNTILDDSHLLVHCYLSNLVRREEDGHLFSQLLDMLKFYTGFEINDQTGNALTENEMTTIHYDRITSLQRAAFAHFPELYDFALSNVAEVDTRESLVKFFGPLSSNTLHQVASYLCLLPTLPKNEDTTFDKEFLLELLVSRHERRISQIQQLNQMPLYPTEKIIWDENIVPTEYYSGEGCLALPKLNLQFLTLHDYLLRNFNLFRLESTYEIRQDIEDSVSRMKPWQSEYGGVVFGGWARMAQPIVAFTVVEVAKPNIGENWPTRVRADVTINLNVRDHIKDEWEGLRKHDVCFLITVRPTKPYGTKFDRRRPFIEQVGLVYVRGCEIQGMLDDKGRVIEDGPEPRPNLRGESRTFRVFLDPNQYQQDMTNTIQNGAEDVYETFNIIMRRKPKENNFKAVLETIRNLMNTDCVVPDWLHDIILGYGDPSSAHYSKMPNQIATLDFNDTFLSIEHLKASFPGHNVKVTVEDPALQIPPFRITFPVRSGKGKKRKDADVEDEDTEEAKTLIVEPHVIPNRGPYPYNQPKRNTIQFTHTQIEAIRAGMQPGLTMVVGPPGTGKTDVAVQIISNIYHNFPEQRTLIVTHSNQALNQLFEKIMALDIDERHLLRLGHGEEELETEKDFSRYGRVNYVLARRIELLEEVKRLQKSLGVPGDASYTCETAGYFFLYQVMSRWEEYISKVKNKGSTLPDVTEVSTFFPFHEYFANAPQPIFKGRSYEEDMEIAEGCFRHIKKIFTQLEEFRASELLRSGLDRSKYLLVKEAKIIAMTCTHAALKRHDLVKLGFKYDNILMEEAAQILEIETFIPLLLQNPQDGFSRLKRWIMIGDHHQLPPVIKNMAFQKYSNMEQSLFTRFVRVGVPTVDLDAQGRARASLCNLYNWRYKNLGNLPHVQLLPEFSTANAGLLYDFQLINVEDFQGVGESEPNPYFYQNLGEAEYVVALFMYMCLLGYPADKISILTTYNGQKHLIRDIINRRCGNNPLIGRPNKVTTVDRFQGQQNDYILLSLVRTRAVGHLRDVRRLVVAMSRARLGLYIFARVSLFQNCFELTPAFSQLTARPLHLHIIPTEPFPTTRKNGERPSHEVQIIKNMPQMANFVYNMYMHLIQTTHHYHQTLLQLPPAMVEEGEEVQNQETELETEEEAMTVQADIIPSPTDTSCRQETPAFQTDTTPSETGATSTPEAIPALSETTPTVVGAVSAPAEANTPQDATSAPEETK"
+      },
+      "uniProtkbId": "AQR_HUMAN"
+    }
+  ]
+}

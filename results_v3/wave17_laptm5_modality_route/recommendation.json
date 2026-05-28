@@ -1,0 +1,27 @@
+{
+  "gene": "LAPTM5",
+  "wave": "Wave17-B",
+  "route": "LAPTM5 modality/dependency",
+  "recommendation": "PARK",
+  "intervention_call": "Not credible as a near-term direct intervention point for chronic autoimmune disease; keep only as backup biology until causal and modality evidence improves.",
+  "readout_call": "PROMOTE as a lysosomal immune-state and pharmacodynamic readout for CD74/HLA-II/APC-state assays.",
+  "main_reasons": [
+    "Local Wave15 evidence supports LAPTM5 as a recurrent state-coupled lysosomal/immune marker, not a validated dependency.",
+    "Immune biology is real but direction is cell-context dependent: suppresses T/B receptor abundance and B-cell tolerance axes, yet supports macrophage NF-kB/MAPK cytokine signaling and STING inflammation.",
+    "Open Targets selected autoimmune gwas_credible_sets evidence returned no LAPTM5 rows; the SLE candidate paper reports expression reduction but no SNP association.",
+    "Direct druggability is weak for a 262-aa lysosomal multi-pass membrane protein with no catalytic pocket, no mature clinical agents, and no ClinicalTrials.gov LAPTM5 studies.",
+    "Novelty is relatively clean versus CTSS/LGALS9, but clean prior art is not enough without a feasible modality and clear directionality."
+  ],
+  "modality_rank": [
+    {"modality": "direct small molecule", "call": "poor", "reason": "no catalytic activity, no Open Targets small-molecule tractability flags, no ChEMBL/local druggability row"},
+    {"modality": "ASO/siRNA", "call": "possible tool, weak therapy", "reason": "knockdown is mechanistically plausible but immune-cell or CNS/myeloid delivery is not solved for chronic systemic autoimmune use"},
+    {"modality": "antibody", "call": "poor", "reason": "target is predominantly lysosomal membrane; surface-accessible epitope and disease-selective engagement are unlikely"},
+    {"modality": "PROTAC/molecular glue", "call": "poor", "reason": "no known binder and lysosomal multi-pass topology is a bad fit for conventional intracellular degradation modalities"},
+    {"modality": "cell-type targeted oligo/nanoparticle", "call": "research-only", "reason": "could test macrophage/STING or APC-state dependency but would need strong cell-type restriction and safety rescue"}
+  ],
+  "next_use": [
+    "Include LAPTM5 in PD panels with CD74, HLA-DRA/DPA1, HLA-DMA/B, IFI30, CTSS/CTSH, LAMP3, TYROBP and macrophage abundance controls.",
+    "Use LAPTM5 perturbation only as an ex vivo causal test in defined APC/myeloid contexts before any therapeutic claim.",
+    "Do not promote LAPTM5 over CTSH/CTSS as a direct target without selective perturbation data showing antigen-presentation reduction separated from lysosomal toxicity and generic myeloid depletion."
+  ]
+}

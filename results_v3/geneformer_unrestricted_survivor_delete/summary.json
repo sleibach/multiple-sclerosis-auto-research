@@ -1,0 +1,163 @@
+{
+  "model": "Geneformer V2-104M",
+  "model_repo": "ctheodoris/Geneformer",
+  "revision": "04c2b2e84da7c0f385c3f9ad8f3ec24bab6650e5",
+  "checkpoint": "/Users/soeren.leibach/Projects/ms-auto-research/tmp_v3/foundation_wave6/geneformer_assets/Geneformer-V2-104M",
+  "parameters_loaded_encoder": 104365056,
+  "seed": 20260526,
+  "max_len": 512,
+  "max_disease_cells_per_context": 30,
+  "max_control_cells_per_context": 30,
+  "random_deletion_reps": 4,
+  "batch_size": 12,
+  "contexts": [
+    {
+      "context": "IBD_epithelial",
+      "h5ad": "data/raw_v3/cell_state/ibd_human_10x.h5ad",
+      "compartment": "colon epithelial cell",
+      "selected_n": 60,
+      "disease_n": 30,
+      "control_n": 30,
+      "mean_sequence_length": 476.8
+    },
+    {
+      "context": "IBD_stromal",
+      "h5ad": "data/raw_v3/cell_state/ibd_human_10x.h5ad",
+      "compartment": "stromal cell of lamina propria of colon",
+      "selected_n": 60,
+      "disease_n": 30,
+      "control_n": 30,
+      "mean_sequence_length": 506.5
+    },
+    {
+      "context": "IBD_myeloid",
+      "h5ad": "data/raw_v3/cell_state/ibd_human_10x.h5ad",
+      "compartment": "myeloid cell",
+      "selected_n": 60,
+      "disease_n": 30,
+      "control_n": 30,
+      "mean_sequence_length": 467.4166666666667
+    },
+    {
+      "context": "psoriasis_keratinocyte",
+      "h5ad": "data/raw_v3/cell_state/psoriasis_skin.h5ad",
+      "compartment": "keratinocyte_family",
+      "selected_n": 60,
+      "disease_n": 30,
+      "control_n": 30,
+      "mean_sequence_length": 511.26666666666665
+    },
+    {
+      "context": "psoriasis_macrophage",
+      "h5ad": "data/raw_v3/cell_state/psoriasis_skin.h5ad",
+      "compartment": "macrophage",
+      "selected_n": 60,
+      "disease_n": 30,
+      "control_n": 30,
+      "mean_sequence_length": 512.0
+    },
+    {
+      "context": "psoriasis_dendritic",
+      "h5ad": "data/raw_v3/cell_state/psoriasis_skin.h5ad",
+      "compartment": "dendritic cell, human",
+      "selected_n": 60,
+      "disease_n": 30,
+      "control_n": 30,
+      "mean_sequence_length": 511.1333333333333
+    },
+    {
+      "context": "sjogren_acinar",
+      "h5ad": "data/raw_v3/cell_state/sjogren_salivary.h5ad",
+      "compartment": "acinar cell of salivary gland",
+      "selected_n": 60,
+      "disease_n": 30,
+      "control_n": 30,
+      "mean_sequence_length": 383.95
+    },
+    {
+      "context": "sjogren_duct",
+      "h5ad": "data/raw_v3/cell_state/sjogren_salivary.h5ad",
+      "compartment": "duct epithelial cell",
+      "selected_n": 60,
+      "disease_n": 30,
+      "control_n": 30,
+      "mean_sequence_length": 486.3333333333333
+    },
+    {
+      "context": "sjogren_APC",
+      "h5ad": "data/raw_v3/cell_state/sjogren_salivary.h5ad",
+      "compartment": "salivary_APC",
+      "selected_n": 60,
+      "disease_n": 30,
+      "control_n": 30,
+      "mean_sequence_length": 400.8333333333333
+    },
+    {
+      "context": "t1d_acinar",
+      "h5ad": "data/raw_v3/cell_state/t1d_hpap_islet.h5ad",
+      "compartment": "pancreatic acinar cell",
+      "selected_n": 60,
+      "disease_n": 30,
+      "control_n": 30,
+      "mean_sequence_length": 507.68333333333334
+    },
+    {
+      "context": "t1d_ductal",
+      "h5ad": "data/raw_v3/cell_state/t1d_hpap_islet.h5ad",
+      "compartment": "pancreatic ductal cell",
+      "selected_n": 60,
+      "disease_n": 30,
+      "control_n": 30,
+      "mean_sequence_length": 509.35
+    },
+    {
+      "context": "t1d_stellate",
+      "h5ad": "data/raw_v3/cell_state/t1d_hpap_islet.h5ad",
+      "compartment": "pancreatic stellate cell",
+      "selected_n": 60,
+      "disease_n": 30,
+      "control_n": 30,
+      "mean_sequence_length": 507.2
+    },
+    {
+      "context": "t1d_endothelial",
+      "h5ad": "data/raw_v3/cell_state/t1d_hpap_islet.h5ad",
+      "compartment": "endothelial cell",
+      "selected_n": 60,
+      "disease_n": 30,
+      "control_n": 30,
+      "mean_sequence_length": 502.2
+    }
+  ],
+  "candidate_genes": [
+    "FMNL2",
+    "TNFAIP8L1",
+    "C15ORF48",
+    "NCK1",
+    "SNX10",
+    "PPIL3",
+    "SEL1L3",
+    "PLEK2",
+    "DAP",
+    "AQR",
+    "LIMS1",
+    "ABHD2",
+    "SDC4",
+    "BIRC3",
+    "STARD10",
+    "MMADHC",
+    "TRIQK",
+    "DCLRE1B",
+    "MYO1E",
+    "IL2RG",
+    "PPP3CA",
+    "CXCL9"
+  ],
+  "metric": "delete candidate token; positive cosine/projection shift means disease-cell embedding moved toward matched control centroid",
+  "limitations": [
+    "custom lightweight Geneformer embedding-deletion screen, not the official InSilicoPerturberStats workflow",
+    "input h5ads are assumed count-like; no independent raw-layer verification was performed",
+    "candidate-expressing disease cells were enriched to test candidate axes, so effect sizes are not population estimates",
+    "embedding shifts are model hypotheses and not expression log2FC or causal perturbation evidence"
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "_request_url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=TMSB10&limit=10",
+  "_status_code": 200,
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Thymosin beta-10",
+      "score": 21.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL6067186",
+      "target_components": [
+        {
+          "accession": "P63313",
+          "component_description": "Thymosin beta-10",
+          "component_id": 24043,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "PTMB10",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "THYB10",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Thymosin beta-10",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "TMSB10",
+              "syn_type": "GENE_SYMBOL"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P63313",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005856",
+              "xref_name": "cytoskeleton",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0003779",
+              "xref_name": "actin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003785",
+              "xref_name": "actin monomer binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0140311",
+              "xref_name": "protein sequestering activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0007015",
+              "xref_name": "actin filament organization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030334",
+              "xref_name": "regulation of cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:11879",
+              "xref_name": "TMSB10",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "P63313",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR001152",
+              "xref_name": "Beta-thymosin",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR038386",
+              "xref_name": "Beta-thymosin_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR12021",
+              "xref_name": "THYMOSIN BETA",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR12021:SF10",
+              "xref_name": "THYMOSIN BETA-10",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF01290",
+              "xref_name": "Thymosin",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA36580",
+              "xref_name": "thymosin beta 10",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P63313",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P13472",
+              "xref_name": "Thymosin beta-10",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P63313",
+              "xref_name": "Thymosin beta-10",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q596K9",
+              "xref_name": "Thymosin beta-10",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

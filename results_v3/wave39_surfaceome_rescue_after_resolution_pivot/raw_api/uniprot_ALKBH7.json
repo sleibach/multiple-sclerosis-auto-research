@@ -1,0 +1,529 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "Q9D6Z0",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "23666923",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "34253897",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "RNA demethylase that demethylates N(2)-dimethylguanosine and N(1)-methyladenosine within mitochondrial pre-tRNA regions. This demethylation activity plays a crucial role in regulating the processing of nascent polycistronic mitochondrial RNA, thereby influencing mitochondrial gene expression and overall mitochondrial activity (PubMed:34253897). In response to extensive DNA damage is required for programmed necrosis induced by alkylation and oxidation. Acts by triggering the collapse of mitochondrial membrane potential and loss of mitochondrial function that leads to energy depletion and cell death (PubMed:23666923). Involved in fatty acid metabolism (By similarity)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "23666923",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0170",
+                "value": "Mitochondrion matrix"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000039ED9"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4QKB",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4QKD",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29035"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29035",
+            "name": "Mn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 62
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 62
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4QKB",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4QKD",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29035"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29035",
+            "name": "Mn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 75
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 75
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "25122757",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:24875"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:24875",
+            "name": "Fe cation",
+            "note": "catalytic"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 121
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 121
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "25122757",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:24875"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:24875",
+            "name": "Fe cation",
+            "note": "catalytic"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 123
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 123
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "25122757",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4QKB",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4QKD",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:16810"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:16810",
+            "name": "2-oxoglutarate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 165
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 165
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "25122757",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:24875"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:24875",
+            "name": "Fe cation",
+            "note": "catalytic"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 177
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 177
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "25122757",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4QKB",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4QKD",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:16810"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:16810",
+            "name": "2-oxoglutarate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 197
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 197
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4QKB",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4QKD",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:16810"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:16810",
+            "name": "2-oxoglutarate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 199
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 199
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "25122757",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4QKB",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4QKD",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:16810"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:16810",
+            "name": "2-oxoglutarate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 203
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 203
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:21306",
+                "source": "HGNC"
+              }
+            ],
+            "value": "ALKBH7"
+          },
+          "orfNames": [
+            {
+              "value": "UNQ6002/PRO34564"
+            }
+          ],
+          "synonyms": [
+            {
+              "value": "ABH7"
+            },
+            {
+              "value": "SPATA11"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0223",
+          "name": "Dioxygenase"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0408",
+          "name": "Iron"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0479",
+          "name": "Metal-binding"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0496",
+          "name": "Mitochondrion"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-1210",
+          "name": "Necrosis"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0560",
+          "name": "Oxidoreductase"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0808",
+          "name": "Transferase"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0809",
+          "name": "Transit peptide"
+        }
+      ],
+      "primaryAccession": "Q9BT30",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Alkylated DNA repair protein alkB homolog 7"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Alpha-ketoglutarate-dependent dioxygenase alkB homolog 7, mitochondrial"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Spermatogenesis cell proliferation-related protein"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Spermatogenesis-associated protein 11"
+            }
+          },
+          {
+            "fullName": {
+              "value": "pre-tRNA N1-methyl adenine demethylase ALKBH7"
+            }
+          },
+          {
+            "fullName": {
+              "value": "pre-tRNA N2-dimethyl guanosine demethylase ALKBH7"
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "34253897",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "1.14.11.-"
+            }
+          ],
+          "fullName": {
+            "value": "RNA demethylase ALKBH7, mitochondrial"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "3BB7DF2242A49949",
+        "length": 221,
+        "md5": "FF25F362F7F292E4A694A354A0E9F781",
+        "molWeight": 24516,
+        "value": "MAGTGLLALRTLPGPSWVRGSGPSVLSRLQDAAVVRPGFLSTAEEETLSRELEPELRRRRYEYDHWDAAIHGFRETEKSRWSEASRAILQRVQAAAFGPGQTLLSSVHVLDLEARGYIKPHVDSIKFCGATIAGLSLLSPSVMRLVHTQEPGEWLELLLEPGSLYILRGSARYDFSHEILRDEESFFGERRIPRGRRISVICRSLPEGMGPGESGQPPPAC"
+      },
+      "uniProtkbId": "ALKB7_HUMAN"
+    }
+  ]
+}

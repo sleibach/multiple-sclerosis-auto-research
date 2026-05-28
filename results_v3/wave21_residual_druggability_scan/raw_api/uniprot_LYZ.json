@@ -1,0 +1,96 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ALYZ%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "value": "Lysozymes have primarily a bacteriolytic function; those in tissues and body fluids are associated with the monocyte-macrophage system and enhance the activity of immunoagents"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000012EA62"
+      },
+      "features": [
+        {
+          "description": "",
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 53
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 53
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "",
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 71
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 71
+            }
+          },
+          "type": "Active site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "LYZ"
+          },
+          "synonyms": [
+            {
+              "value": "LZM"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P61626",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "1,4-beta-N-acetylmuramidase C"
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "value": "3.2.1.17"
+            }
+          ],
+          "fullName": {
+            "value": "Lysozyme C"
+          }
+        }
+      }
+    }
+  ]
+}

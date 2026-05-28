@@ -1,0 +1,387 @@
+{
+  "error": "",
+  "payload": {
+    "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxtZ_Wk2vESkA",
+    "studies": [
+      {
+        "annotationSection": {
+          "annotationModule": {
+            "unpostedAnnotation": {
+              "unpostedEvents": [
+                {
+                  "date": "2026-03-03",
+                  "type": "RELEASE"
+                },
+                {
+                  "date": "2026-03-24",
+                  "type": "RESET"
+                }
+              ],
+              "unpostedResponsibleParty": "Bedor Elsayed Hussien, Assistant lecturer of clinical and chemical pathology, Sohag University"
+            }
+          }
+        },
+        "derivedSection": {
+          "conditionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D011696",
+                "term": "Purpura, Thrombocytopenic"
+              },
+              {
+                "id": "D011693",
+                "term": "Purpura"
+              },
+              {
+                "id": "D001778",
+                "term": "Blood Coagulation Disorders"
+              },
+              {
+                "id": "D006402",
+                "term": "Hematologic Diseases"
+              },
+              {
+                "id": "D006425",
+                "term": "Hemic and Lymphatic Diseases"
+              },
+              {
+                "id": "D057049",
+                "term": "Thrombotic Microangiopathies"
+              },
+              {
+                "id": "D013921",
+                "term": "Thrombocytopenia"
+              },
+              {
+                "id": "D001791",
+                "term": "Blood Platelet Disorders"
+              },
+              {
+                "id": "D000095542",
+                "term": "Cytopenia"
+              },
+              {
+                "id": "D006474",
+                "term": "Hemorrhagic Disorders"
+              },
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              },
+              {
+                "id": "D006470",
+                "term": "Hemorrhage"
+              },
+              {
+                "id": "D010335",
+                "term": "Pathologic Processes"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              },
+              {
+                "id": "D012877",
+                "term": "Skin Manifestations"
+              },
+              {
+                "id": "D012816",
+                "term": "Signs and Symptoms"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D016553",
+                "term": "Purpura, Thrombocytopenic, Idiopathic"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D007159",
+                "term": "Immunologic Tests"
+              },
+              {
+                "id": "D019411",
+                "term": "Clinical Laboratory Techniques"
+              },
+              {
+                "id": "D019937",
+                "term": "Diagnostic Techniques and Procedures"
+              },
+              {
+                "id": "D003933",
+                "term": "Diagnosis"
+              },
+              {
+                "id": "D008919",
+                "term": "Investigative Techniques"
+              },
+              {
+                "id": "D007158",
+                "term": "Immunologic Techniques"
+              },
+              {
+                "id": "D000945",
+                "term": "Antigens, Differentiation, T-Lymphocyte"
+              },
+              {
+                "id": "D000943",
+                "term": "Antigens, Differentiation"
+              },
+              {
+                "id": "D000954",
+                "term": "Antigens, Surface"
+              },
+              {
+                "id": "D000941",
+                "term": "Antigens"
+              },
+              {
+                "id": "D001685",
+                "term": "Biological Factors"
+              },
+              {
+                "id": "D015415",
+                "term": "Biomarkers"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D016130",
+                "term": "Immunophenotyping"
+              },
+              {
+                "id": "D017252",
+                "term": "CD3 Complex"
+              }
+            ]
+          },
+          "miscInfoModule": {
+            "submissionTracking": {
+              "estimatedResultsFirstSubmitDate": "2026-03-03",
+              "submissionInfos": [
+                {
+                  "releaseDate": "2026-03-03",
+                  "resetDate": "2026-03-24"
+                }
+              ]
+            },
+            "versionHolder": "2026-05-26"
+          }
+        },
+        "hasResults": false,
+        "protocolSection": {
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "description": "Group (I): represents the healthy control individuals (30 person) (recruited from the blood donors at the blood bank)",
+                "interventionNames": [
+                  "Genetic: Genotyping of rs1980422-related single-nucleotide polymorphisms by real time PCR"
+                ],
+                "label": "group (I)",
+                "type": "ACTIVE_COMPARATOR"
+              },
+              {
+                "description": "Group (II): represents the cases of immune thrombocytopenia (70 cases).",
+                "interventionNames": [
+                  "Genetic: Genotyping of rs1980422-related single-nucleotide polymorphisms by real time PCR"
+                ],
+                "label": "Group (II)",
+                "type": "ACTIVE_COMPARATOR"
+              }
+            ],
+            "interventions": [
+              {
+                "armGroupLabels": [
+                  "Group (II)",
+                  "group (I)"
+                ],
+                "description": "detection of rs1980422-related single-nucleotide polymorphisms and percentage of (CD3,CD4,CD28) by immunophenotyping",
+                "name": "Genotyping of rs1980422-related single-nucleotide polymorphisms by real time PCR",
+                "otherNames": [
+                  "Immunophenotyping (CD3, CD4, CD28) by flow cytometry"
+                ],
+                "type": "GENETIC"
+              }
+            ]
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Immune Thrombocytopenia"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "email": "bodor.badr@med.sohag.edu.eg",
+                "name": "Bedor E Hussien, assistant lecture",
+                "phone": "01066072377",
+                "role": "CONTACT"
+              },
+              {
+                "name": "Ahmed A Allam, assistant professor",
+                "role": "CONTACT"
+              }
+            ],
+            "locations": [
+              {
+                "city": "Sohag",
+                "contacts": [
+                  {
+                    "email": "portal@med.sohag.edu.eg",
+                    "name": "Osama R ELsheref, professor",
+                    "role": "CONTACT"
+                  }
+                ],
+                "country": "Egypt",
+                "facility": "Sohag University Hospital",
+                "geoPoint": {
+                  "lat": 26.55695,
+                  "lon": 31.69478
+                }
+              }
+            ]
+          },
+          "descriptionModule": {
+            "briefSummary": "Primary immune thrombocytopenia (ITP), one of the most common bleeding disorders, is characterized by reduced platelet count and an increased risk of bleeding ITP is an acquired autoimmune disease, in which platelets are opsonized by auto-antibodies and destroyed by phagocytic cells ITP pathogenesis involves a hyper-activated T cell response, which is important for cell-mediated cytotoxicity and IgG production Therefore, investigating T cell abnormalities in ITP patients may reveal the mechanism of pathogenesis and development of ITP.\n\nThe costimulatory molecules of T cells consist of CD28, inducible costimulatory (ICOS), TNF superfamily member 4 (TNFSF4), and DNAM1 (CD226), and the co-inhibitory molecules contain TIM3, cytotoxic T-lymphocyte associated protein 4 (CTLA4), programmed death-1 (PD1), and lymphocyte activating 3 (LAG3) Among these, CD28 and CTLA4 represent the best-studied costimulatory pathways. CD28 and CTLA4 interact with two ligands (CD80 and CD86) on the surface of antigen-presenting cells (APCs), introducing a positive stimulatory and a negative inhibitory signal into T cells, respectively"
+          },
+          "designModule": {
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "maskingInfo": {
+                "masking": "NONE"
+              },
+              "primaryPurpose": "DIAGNOSTIC"
+            },
+            "enrollmentInfo": {
+              "count": 100,
+              "type": "ESTIMATED"
+            },
+            "phases": [
+              "NA"
+            ],
+            "studyType": "INTERVENTIONAL"
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* approval to sign an informed written consent\n* patient with newly diagnosed ITP\n* platelet count of peripheral blood \\< 100\u00d7109/ L on at least two consecutive routine blood tests, normal or increased megakaryocyte count in bone marrow (as previously diagnosed)\n* no other disease or condition related to thrombocytopenia\n* patient age \\> 1 year and \\< 65 years\n\nExclusion Criteria:\n\n* Refusal to sign an informed written consent\n* Patients with other autoimmune or hemorrhagic diseases (e.g., SLE, severe anemia), or thrombocytopenia due to pregnancy, viruses (e.g., hepatitis C virus, human immunodeficiency virus)\n* active infections\n* vaccinations, or drugs (e.g., heparin) .",
+            "healthyVolunteers": false,
+            "maximumAge": "65 Years",
+            "minimumAge": "1 Year",
+            "sex": "ALL",
+            "stdAges": [
+              "CHILD",
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "identificationModule": {
+            "briefTitle": "The Expression of Immune Checkpoint CD28 rs1980422-related Single-nucleotide Polymorphisms in the Primary Immune Thrombocytopenia",
+            "nctId": "NCT05468866",
+            "officialTitle": "The Expression of Immune Checkpoint CD28 rs1980422-related Single-nucleotide Polymorphisms in the Primary Immune Thrombocytopenia",
+            "orgStudyIdInfo": {
+              "id": "Soh-Med-22-07-21"
+            },
+            "organization": {
+              "class": "OTHER",
+              "fullName": "Sohag University"
+            }
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES"
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "description": "Genotyping of rs1980422-related single-nucleotide polymorphisms by real time PCR.",
+                "measure": "rs1980422-related single-nucleotide polymorphisms",
+                "timeFrame": "6 months"
+              }
+            ]
+          },
+          "oversightModule": {
+            "isFdaRegulatedDevice": false,
+            "isFdaRegulatedDrug": false,
+            "oversightHasDmc": false
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "citation": "Badami E, Cexus ONF, Quaratino S. Activation-induced cell death of self-reactive regulatory T cells drives autoimmunity. Proc Natl Acad Sci U S A. 2019 Dec 26;116(52):26788-26797. doi: 10.1073/pnas.1910281116. Epub 2019 Dec 9.",
+                "pmid": "31818938",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Curdy N, Lanvin O, Laurent C, Fournie JJ, Franchini DM. Regulatory Mechanisms of Inhibitory Immune Checkpoint Receptors Expression. Trends Cell Biol. 2019 Oct;29(10):777-790. doi: 10.1016/j.tcb.2019.07.002. Epub 2019 Aug 1.",
+                "pmid": "31378317",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Ferreira RC, Castro Dopico X, Oliveira JJ, Rainbow DB, Yang JH, Trzupek D, Todd SA, McNeill M, Steri M, Orru V, Fiorillo E, Crouch DJM, Pekalski ML, Cucca F, Tree TI, Vyse TJ, Wicker LS, Todd JA. Chronic Immune Activation in Systemic Lupus Erythematosus and the Autoimmune PTPN22 Trp620 Risk Allele Drive the Expansion of FOXP3+ Regulatory T Cells and PD-1 Expression. Front Immunol. 2019 Nov 8;10:2606. doi: 10.3389/fimmu.2019.02606. eCollection 2019.",
+                "pmid": "31781109",
+                "type": "BACKGROUND"
+              },
+              {
+                "citation": "Huang C, Zhu HX, Yao Y, Bian ZH, Zheng YJ, Li L, Moutsopoulos HM, Gershwin ME, Lian ZX. Immune checkpoint molecules. Possible future therapeutic implications in autoimmune diseases. J Autoimmun. 2019 Nov;104:102333. doi: 10.1016/j.jaut.2019.102333. Epub 2019 Sep 26.",
+                "pmid": "31564474",
+                "type": "BACKGROUND"
+              }
+            ]
+          },
+          "sponsorCollaboratorsModule": {
+            "leadSponsor": {
+              "class": "OTHER",
+              "name": "Sohag University"
+            },
+            "responsibleParty": {
+              "investigatorAffiliation": "Sohag University",
+              "investigatorFullName": "Bedor Elsayed Hussien",
+              "investigatorTitle": "Assistant lecturer of clinical and chemical pathology",
+              "type": "PRINCIPAL_INVESTIGATOR"
+            }
+          },
+          "statusModule": {
+            "completionDateStruct": {
+              "date": "2023-03-01",
+              "type": "ESTIMATED"
+            },
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "lastKnownStatus": "NOT_YET_RECRUITING",
+            "lastUpdatePostDateStruct": {
+              "date": "2022-07-21",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2022-07-19",
+            "overallStatus": "UNKNOWN",
+            "primaryCompletionDateStruct": {
+              "date": "2023-03-01",
+              "type": "ESTIMATED"
+            },
+            "startDateStruct": {
+              "date": "2022-09-01",
+              "type": "ESTIMATED"
+            },
+            "statusVerifiedDate": "2022-07",
+            "studyFirstPostDateStruct": {
+              "date": "2022-07-21",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2022-07-19",
+            "studyFirstSubmitQcDate": "2022-07-19"
+          }
+        }
+      }
+    ],
+    "totalCount": 2
+  },
+  "status": "ok",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.term=CD226&query.cond=autoimmune+OR+multiple+sclerosis+OR+rheumatoid+arthritis+OR+lupus+OR+Crohn+OR+psoriasis&format=json&pageSize=1&countTotal=true"
+}

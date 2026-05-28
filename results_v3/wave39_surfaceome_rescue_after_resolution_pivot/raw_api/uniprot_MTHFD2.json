@@ -1,0 +1,347 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "16100107",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Although its dehydrogenase activity is NAD-specific, it can also utilize NADP at a reduced efficiency"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0173",
+                "value": "Mitochondrion"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000208708"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27899380",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 88
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 84
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27899380",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 133
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 131
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "16100107",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27899380",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57540"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57540",
+            "name": "NAD(+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 202
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 200
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "16100107",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27899380",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57540"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57540",
+            "name": "NAD(+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 233
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 233
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27899380",
+              "source": "PubMed"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 313
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 309
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "MTHFD2"
+          },
+          "synonyms": [
+            {
+              "value": "NMDMC"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0378",
+          "name": "Hydrolase"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-1017",
+          "name": "Isopeptide bond"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0460",
+          "name": "Magnesium"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0496",
+          "name": "Mitochondrion"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0511",
+          "name": "Multifunctional enzyme"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0520",
+          "name": "NAD"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0521",
+          "name": "NADP"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0554",
+          "name": "One-carbon metabolism"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0560",
+          "name": "Oxidoreductase"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0809",
+          "name": "Transit peptide"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0832",
+          "name": "Ubl conjugation"
+        }
+      ],
+      "primaryAccession": "P13995",
+      "proteinDescription": {
+        "flag": "Precursor",
+        "includes": [
+          {
+            "recommendedName": {
+              "ecNumbers": [
+                {
+                  "evidences": [
+                    {
+                      "evidenceCode": "ECO:0000269",
+                      "id": "16100107",
+                      "source": "PubMed"
+                    },
+                    {
+                      "evidenceCode": "ECO:0000269",
+                      "id": "8218174",
+                      "source": "PubMed"
+                    }
+                  ],
+                  "value": "1.5.1.15"
+                }
+              ],
+              "fullName": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "16100107",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "NAD-dependent methylenetetrahydrofolate dehydrogenase"
+              }
+            }
+          },
+          {
+            "recommendedName": {
+              "ecNumbers": [
+                {
+                  "evidences": [
+                    {
+                      "evidenceCode": "ECO:0000305",
+                      "id": "16100107",
+                      "source": "PubMed"
+                    }
+                  ],
+                  "value": "3.5.4.9"
+                }
+              ],
+              "fullName": {
+                "value": "Methenyltetrahydrofolate cyclohydrolase"
+              }
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Bifunctional methylenetetrahydrofolate dehydrogenase/cyclohydrolase, mitochondrial"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "4DBD263CF7BE28F4",
+        "length": 350,
+        "md5": "490498EBB9D7C69B1EB28001025ED6CD",
+        "molWeight": 37895,
+        "value": "MAATSLMSALAARLLQPAHSCSLRLRPFHLAAVRNEAVVISGRKLAQQIKQEVRQEVEEWVASGNKRPHLSVILVGENPASHSYVLNKTRAAAVVGINSETIMKPASISEEELLNLINKLNNDDNVDGLLVQLPLPEHIDERRICNAVSPDKDVDGFHVINVGRMCLDQYSMLPATPWGVWEIIKRTGIPTLGKNVVVAGRSKNVGMPIAMLLHTDGAHERPGGDATVTISHRYTPKEQLKKHTILADIVISAAGIPNLITADMIKEGAAVIDVGINRVHDPVTAKPKLVGDVDFEGVRQKAGYITPVPGGVGPMTVAMLMKNTIIAAKKVLRLEEREVLKSKELGVATN"
+      },
+      "uniProtkbId": "MTDC_HUMAN"
+    }
+  ]
+}

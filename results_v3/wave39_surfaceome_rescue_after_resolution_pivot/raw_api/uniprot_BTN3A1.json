@@ -1,0 +1,261 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "21113407",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "21918970",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22767497",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22846996",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Plays a role in T-cell activation and in the adaptive immune response. Regulates the proliferation of activated T-cells. Regulates the release of cytokines and IFNG by activated T-cells. Mediates the response of T-cells toward infected and transformed cells that are characterized by high levels of phosphorylated metabolites, such as isopentenyl pyrophosphate"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "21113407",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "21918970",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "22767497",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "21113407",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "21918970",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "22767497",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9905",
+                "value": "Single-pass type I membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000013C904"
+      },
+      "features": [
+        {
+          "description": "Extracellular",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 254
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 30
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 271
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 255
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 513
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 272
+            }
+          },
+          "type": "Topological domain"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "BTN3A1"
+          },
+          "synonyms": [
+            {
+              "value": "BTF5"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-1064",
+          "name": "Adaptive immunity"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-1003",
+          "name": "Cell membrane"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-1015",
+          "name": "Disulfide bond"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0325",
+          "name": "Glycoprotein"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0391",
+          "name": "Immunity"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0393",
+          "name": "Immunoglobulin domain"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0677",
+          "name": "Repeat"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0732",
+          "name": "Signal"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        }
+      ],
+      "primaryAccession": "O00481",
+      "proteinDescription": {
+        "cdAntigenNames": [
+          {
+            "value": "CD277"
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "Butyrophilin subfamily 3 member A1"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "8D834D70526D1F6F",
+        "length": 513,
+        "md5": "9BCBFC9E0BE4274E8873BE1EDE30581C",
+        "molWeight": 57677,
+        "value": "MKMASFLAFLLLNFRVCLLLLQLLMPHSAQFSVLGPSGPILAMVGEDADLPCHLFPTMSAETMELKWVSSSLRQVVNVYADGKEVEDRQSAPYRGRTSILRDGITAGKAALRIHNVTASDSGKYLCYFQDGDFYEKALVELKVAALGSDLHVDVKGYKDGGIHLECRSTGWYPQPQIQWSNNKGENIPTVEAPVVADGVGLYAVAASVIMRGSSGEGVSCTIRSSLLGLEKTASISIADPFFRSAQRWIAALAGTLPVLLLLLGGAGYFLWQQQEEKKTQFRKKKREQELREMAWSTMKQEQSTRVKLLEELRWRSIQYASRGERHSAYNEWKKALFKPADVILDPKTANPILLVSEDQRSVQRAKEPQDLPDNPERFNWHYCVLGCESFISGRHYWEVEVGDRKEWHIGVCSKNVQRKGWVKMTPENGFWTMGLTDGNKYRTLTEPRTNLKLPKPPKKVGVFLDYETGDISFYNAVDGSHIHTFLDVSFSEALYPVFRILTLEPTALTICPA"
+      },
+      "uniProtkbId": "BT3A1_HUMAN"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "chembl_id": "CHEMBL1472126",
+  "chembl_mechanisms": {
+    "mechanisms": [],
+    "page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 0
+    }
+  },
+  "chembl_molecule": {
+    "atc_classifications": [],
+    "availability_type": -1,
+    "biotherapeutic": null,
+    "black_box_warning": 0,
+    "chemical_probe": 0,
+    "chirality": -1,
+    "cross_references": [],
+    "dosed_ingredient": false,
+    "first_approval": null,
+    "first_in_class": -1,
+    "helm_notation": null,
+    "inorganic_flag": -1,
+    "max_phase": null,
+    "molecule_chembl_id": "CHEMBL1472126",
+    "molecule_hierarchy": {
+      "active_chembl_id": "CHEMBL1472126",
+      "molecule_chembl_id": "CHEMBL1472126",
+      "parent_chembl_id": "CHEMBL1472126"
+    },
+    "molecule_properties": {
+      "alogp": "4.43",
+      "aromatic_rings": 3,
+      "full_molformula": "C23H23ClN2O3S",
+      "full_mwt": "442.97",
+      "hba": 4,
+      "hbd": 1,
+      "heavy_atoms": 30,
+      "mw_freebase": "442.97",
+      "np_likeness_score": "-1.47",
+      "num_ro5_violations": 0,
+      "psa": "58.64",
+      "qed_weighted": "0.50",
+      "ro3_pass": "N",
+      "rtb": 9
+    },
+    "molecule_structures": {
+      "canonical_smiles": "COc1ccc(N(C(=O)CCl)C(C(=O)NCCc2ccccc2)c2cccs2)cc1",
+      "molfile": "\n     RDKit          2D\n\n 30 32  0  0  0  0  0  0  0  0999 V2000\n   -0.9776    2.3717    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   -3.4481   -0.5724    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.2151    1.6572    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.1526    0.9428    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    0.2599   -2.6296    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.3901    0.2283    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.4526    0.9428    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.2151    0.2283    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.9776   -0.4862    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.6276   -0.4862    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.6276    0.9428    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.9776    0.9428    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.1526   -0.4862    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.3901   -1.2006    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.2920   -1.2398    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.1526   -1.9151    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.2599   -1.2006    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.9776   -1.9151    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.3901    1.6572    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.6196   -1.3794    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.9051   -1.7919    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.8651    1.6572    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.6901    1.6572    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.1026    2.3717    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.1526   -3.3440    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.9276    2.3717    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.6901    3.0862    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.3401    3.0862    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.1026    3.8007    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.9276    3.8007    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1 19  1  0\n  2 10  1  0\n  2 20  1  0\n  3 11  2  0\n  4 12  2  0\n  5 16  1  0\n  5 25  1  0\n  6  8  1  0\n  6  9  1  0\n  6 12  1  0\n  7 11  1  0\n  7 22  1  0\n  8 10  1  0\n  8 11  1  0\n  9 13  2  0\n  9 14  1  0\n 10 15  2  0\n 12 19  1  0\n 13 17  1  0\n 14 18  2  0\n 15 21  1  0\n 16 17  2  0\n 16 18  1  0\n 20 21  2  0\n 22 23  1  0\n 23 24  1  0\n 24 26  2  0\n 24 27  1  0\n 26 28  1  0\n 27 29  2  0\n 28 30  2  0\n 29 30  1  0\nM  END\n> <chembl_id>\nCHEMBL1472126\n\n> <chembl_pref_name>\nNone",
+      "standard_inchi": "InChI=1S/C23H23ClN2O3S/c1-29-19-11-9-18(10-12-19)26(21(27)16-24)22(20-8-5-15-30-20)23(28)25-14-13-17-6-3-2-4-7-17/h2-12,15,22H,13-14,16H2,1H3,(H,25,28)",
+      "standard_inchi_key": "STXBWZSVEOQYLQ-UHFFFAOYSA-N"
+    },
+    "molecule_synonyms": [],
+    "molecule_type": "Small molecule",
+    "natural_product": 0,
+    "oral": false,
+    "orphan": -1,
+    "parenteral": false,
+    "polymer_flag": 0,
+    "pref_name": null,
+    "prodrug": -1,
+    "structure_type": "MOL",
+    "therapeutic_flag": false,
+    "topical": false,
+    "usan_stem": null,
+    "usan_stem_definition": null,
+    "usan_substem": null,
+    "usan_year": null,
+    "veterinary": -1,
+    "withdrawn_flag": false
+  },
+  "clinicaltrials_counts": {
+    "CHEMBL1472126": null,
+    "GPX4 inhibitor autoimmune": null,
+    "K-784-3188": null,
+    "ML162 autoimmune": null
+  },
+  "dmoa": {
+    "html_length": 4765256,
+    "known_moa_text": "Unknown",
+    "known_targets_text": "Unknown",
+    "predicted_moas_top5": [
+      {
+        "moa": "adrenergic receptor antagonist",
+        "probability": "0.1833"
+      },
+      {
+        "moa": "calcium channel blocker",
+        "probability": "0.1577"
+      },
+      {
+        "moa": "dopamine receptor antagonist",
+        "probability": "0.0880"
+      },
+      {
+        "moa": "histamine receptor antagonist",
+        "probability": "0.0860"
+      },
+      {
+        "moa": "cyclooxygenase inhibitor",
+        "probability": "0.0719"
+      }
+    ]
+  },
+  "europepmc_counts": {
+    "\"BRD-A72180425\" OR \"K-784-3188\" OR \"STXBWZSVEOQYLQ-UHFFFAOYSA-N\"": 0,
+    "\"CHEMBL1472126\"": 0,
+    "\"GPX4 inhibitor\" AND (\"autoimmune\" OR \"multiple sclerosis\" OR \"rheumatoid arthritis\" OR \"lupus\" OR \"IBD\" OR \"psoriasis\")": 236,
+    "\"ML162\" AND (\"autoimmune\" OR \"multiple sclerosis\" OR \"rheumatoid arthritis\" OR \"lupus\" OR \"IBD\" OR \"psoriasis\")": 154
+  },
+  "ncbi_ml162_table": {
+    "contains_brd_a72180425": true,
+    "local_excerpt": "275421 S Cl OMe 2 0.025 \u00b1 0.001 2 0.578 \u00b1 0.412 23 Solubility (PBS): <0.5 \u03bcM; PPB(h): 98.9%, (m): 99.1%; PS(h): 48.2%, (m) 9.4%; Purity: 95% 2 3689416 99495784 BRD-A72180425 S H OMe 1 0.220 1 1.7 7.8 Solubility (PBS): ND; PPB(h): ND, (m): ND; PS(h): ND, (m) ND; Purity: 100% 3 3689415 99495783 BRD-A39093044 S OMe H 1 0.170 1 2.4 14 Solubility (PBS): ND; PPB(h): ND, (m): ND; PS(h): ND, (m) ND; Purity: 100% 4 3689414 10",
+    "source_title": "Table 2, Summary of SAR on the Aniline Aromatic Ring",
+    "url": "https://www.ncbi.nlm.nih.gov/books/NBK55069/table/ml162.t2/"
+  },
+  "pubchem_cids": [
+    3689416
+  ],
+  "pubchem_properties": {
+    "CID": 3689416,
+    "ConnectivitySMILES": "COC1=CC=C(C=C1)N(C(C2=CC=CS2)C(=O)NCCC3=CC=CC=C3)C(=O)CCl",
+    "IUPACName": "2-(N-(2-chloroacetyl)-4-methoxyanilino)-N-(2-phenylethyl)-2-thiophen-2-ylacetamide",
+    "InChIKey": "STXBWZSVEOQYLQ-UHFFFAOYSA-N",
+    "MolecularFormula": "C23H23ClN2O3S",
+    "MolecularWeight": "443.0",
+    "TPSA": 86.9,
+    "XLogP": 4.6
+  },
+  "pubchem_synonyms": [
+    "MLS000583957",
+    "SMR000206943",
+    "2-(N-(2-chloro-1-oxoethyl)-4-methoxyanilino)-N-(2-phenylethyl)-2-thiophen-2-ylacetamide",
+    "2-[(chloroacetyl)(4-methoxyphenyl)amino]-N-(2-phenylethyl)-2-thien-2-ylacetamide",
+    "MLS002588781",
+    "MLS002703082",
+    "CHEMBL1472126",
+    "SCHEMBL15428376",
+    "BDBM70765",
+    "CHEBI:91844",
+    "cid_3689416",
+    "HMS2512I04",
+    "AKOS024440077",
+    "SR-01000703981",
+    "SR-01000703981-2",
+    "BRD-A72180425-001-05-6",
+    "BRD-A72180425-001-06-4",
+    "Q27163639",
+    "2-(N-(2-chloroacetyl)-4-methoxy-anilino)-N-phenethyl-2-(2-thienyl)acetamide",
+    "2-(N-(2-chloroacetyl)-4-methoxyanilino)-N-(2-phenylethyl)-2-thiophen-2-ylacetamide",
+    "2-[2-chloranylethanoyl-(4-methoxyphenyl)amino]-N-(2-phenylethyl)-2-thiophen-2-yl-ethanamide",
+    "2-[2-CHLORO-N-(4-METHOXYPHENYL)ACETAMIDO]-N-(2-PHENYLETHYL)-2-(THIOPHEN-2-YL)ACETAMIDE"
+  ]
+}

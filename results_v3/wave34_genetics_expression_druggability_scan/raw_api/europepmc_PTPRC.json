@@ -1,0 +1,55 @@
+{
+  "payload": {
+    "hitCount": 4095,
+    "nextCursorMark": "AoIIQSX7cCg1NDg3MjQ4MA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PTPRC AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQSX7cCg1NDg3MjQ4MA==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "PTPRC AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Lakshmi K, Vino S.",
+          "citedByCount": 0,
+          "doi": "10.3389/fbinf.2025.1744094",
+          "firstIndexDate": "2026-02-10",
+          "firstPublicationDate": "2026-01-21",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12868135"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41648862",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalIssn": "2673-7647",
+          "journalTitle": "Front Bioinform",
+          "journalVolume": "5",
+          "pageInfo": "1744094",
+          "pmcid": "PMC12868135",
+          "pmid": "41648862",
+          "pubType": "research-article; journal article",
+          "pubYear": "2025",
+          "source": "MED",
+          "title": "Cross-disease transcriptomic meta-analysis and network pharmacology reveal key therapeutic targets in rheumatoid arthritis, systemic lupus erythematosus and multiple sclerosis."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PTPRC+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

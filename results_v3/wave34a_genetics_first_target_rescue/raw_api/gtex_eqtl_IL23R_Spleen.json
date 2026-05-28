@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr1",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000162594.15",
+        "geneSymbol": "IL23R",
+        "geneSymbolUpper": "IL23R",
+        "nes": 0.823722,
+        "ontologyId": "UBERON:0002106",
+        "pValue": 2.43634e-05,
+        "pos": 67075250,
+        "snpId": "rs115344869",
+        "snpIdUpper": "RS115344869",
+        "tissueSiteDetailId": "Spleen",
+        "variantId": "chr1_67075250_C_G_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 8,
+      "page": 0,
+      "totalNumberOfItems": 8
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000162594.15&tissueSiteDetailId=Spleen&datasetId=gtex_v8&itemsPerPage=1"
+}

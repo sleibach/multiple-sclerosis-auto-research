@@ -1,0 +1,119 @@
+{
+  "error": "",
+  "payload": {
+    "hitCount": 8220,
+    "nextCursorMark": "AoIIQQhtkSg1NDI4NDYxNA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(CXCR5) AND (\"autoimmune\" OR \"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR psoriasis)&cursorMark=AoIIQQhtkSg1NDI4NDYxNA==&resultType=lite&pageSize=3&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 3,
+      "queryString": "(CXCR5) AND (\"autoimmune\" OR \"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR psoriasis)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Zeng L, Fang Y, Horie S, Liu J.",
+          "citedByCount": 0,
+          "doi": "10.3389/fimmu.2026.1778299",
+          "firstIndexDate": "2026-02-06",
+          "firstPublicationDate": "2026-01-13",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12835208"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "N",
+          "id": "41607529",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalIssn": "1664-3224",
+          "journalTitle": "Front Immunol",
+          "journalVolume": "17",
+          "pageInfo": "1778299",
+          "pmcid": "PMC12835208",
+          "pmid": "41607529",
+          "pubType": "editorial",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Editorial: Hunting for inflammation mediators: identifying novel biomarkers for autoimmune and autoinflammatory diseases."
+        },
+        {
+          "authorString": "Lamprinou M, Sachinidis A, Dimitroulas T.",
+          "citedByCount": 0,
+          "doi": "10.3389/fragi.2026.1752452",
+          "firstIndexDate": "2026-02-10",
+          "firstPublicationDate": "2026-01-21",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12868258"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41646546",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalIssn": "2673-6217",
+          "journalTitle": "Front Aging",
+          "journalVolume": "7",
+          "pageInfo": "1752452",
+          "pmcid": "PMC12868258",
+          "pmid": "41646546",
+          "pubType": "discussion; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Age-associated B cells and double-negative B cells: two sides of the same coin? The answer depends on the context."
+        },
+        {
+          "authorString": "Yao SY, Peng Y, Zhang X, Yang H, Kazuo S, Liu J, Du MQ, Lin LX, Chen Q, Jin H.",
+          "citedByCount": 0,
+          "doi": "10.1016/j.biopha.2025.118784",
+          "firstIndexDate": "2025-11-23",
+          "firstPublicationDate": "2025-11-20",
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "N",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41270472",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "isOpenAccess": "N",
+          "journalIssn": "0753-3322; 1950-6007; ",
+          "journalTitle": "Biomed Pharmacother",
+          "journalVolume": "193",
+          "pageInfo": "118784",
+          "pmid": "41270472",
+          "pubType": "review; journal article",
+          "pubYear": "2025",
+          "source": "MED",
+          "title": "The CXCL13-CXCR5 axis and follicular cytotoxic T cells: Linking T-B crosstalk in autoimmune diseases."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "status": "ok",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28CXCR5%29+AND+%28%22autoimmune%22+OR+%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+psoriasis%29&format=json&pageSize=3&resultType=lite"
+}

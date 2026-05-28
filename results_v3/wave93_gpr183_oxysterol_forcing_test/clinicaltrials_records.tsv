@@ -1,0 +1,5 @@
+query	url	n_records_returned	error
+GPR183	https://clinicaltrials.gov/api/v2/studies?query.term=GPR183&pageSize=10&format=json	0	URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+EBI2 receptor	https://clinicaltrials.gov/api/v2/studies?query.term=EBI2+receptor&pageSize=10&format=json	0	URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+GPR183 antagonist autoimmune	https://clinicaltrials.gov/api/v2/studies?query.term=GPR183+antagonist+autoimmune&pageSize=10&format=json	0	URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+oxysterol receptor autoimmune	https://clinicaltrials.gov/api/v2/studies?query.term=oxysterol+receptor+autoimmune&pageSize=10&format=json	0	URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>

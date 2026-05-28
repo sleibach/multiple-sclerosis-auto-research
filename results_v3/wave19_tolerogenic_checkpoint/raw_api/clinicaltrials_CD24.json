@@ -1,0 +1,1561 @@
+{
+  "studies": [
+    {
+      "derivedSection": {
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "documentSection": {
+        "largeDocumentModule": {
+          "largeDocs": [
+            {
+              "date": "2020-10-20",
+              "filename": "Prot_SAP_000.pdf",
+              "hasIcf": false,
+              "hasProtocol": true,
+              "hasSap": true,
+              "label": "Study Protocol and Statistical Analysis Plan",
+              "size": 1306760,
+              "typeAbbrev": "Prot_SAP",
+              "uploadDate": "2022-02-04T17:52"
+            }
+          ]
+        }
+      },
+      "hasResults": true,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Patients receive CD24Fc IV over 60 minutes on days 1, 14, and 28 with standard of care (i.e., steroids per treating physician and best supportive care) in the absence of disease progression or unacceptable toxicity.",
+              "interventionNames": [
+                "Biological: CD24 Extracellular Domain-IgG1 Fc Domain Recombinant Fusion Protein CD24Fc"
+              ],
+              "label": "Phase I (CD24Fc)",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Patients receive CD24Fc IV over 60 minutes on days 1, 14, and 28 in addition to standard of care treatment for irAE in the absence of disease progression or unacceptable toxicity.",
+              "interventionNames": [
+                "Biological: CD24 Extracellular Domain-IgG1 Fc Domain Recombinant Fusion Protein CD24Fc"
+              ],
+              "label": "Phase II, Arm I (CD24Fc)",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Patients receive placebo IV over 60 minutes on days 1, 14, and 28 in addition to standard of care treatment for irAE in the absence of disease progression or unacceptable toxicity.",
+              "interventionNames": [
+                "Drug: Placebo Administration"
+              ],
+              "label": "Phase II, Arm II (placebo)",
+              "type": "PLACEBO_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Phase I (CD24Fc)",
+                "Phase II, Arm I (CD24Fc)"
+              ],
+              "description": "Given IV",
+              "name": "CD24 Extracellular Domain-IgG1 Fc Domain Recombinant Fusion Protein CD24Fc",
+              "otherNames": [
+                "CD24Fc",
+                "CD24Fc CD24IgG"
+              ],
+              "type": "BIOLOGICAL"
+            },
+            {
+              "armGroupLabels": [
+                "Phase II, Arm II (placebo)"
+              ],
+              "description": "Given IV",
+              "name": "Placebo Administration",
+              "type": "DRUG"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Advanced Malignant Solid Neoplasm"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Sacramento",
+              "country": "United States",
+              "facility": "University of California Davis Comprehensive Cancer Center",
+              "geoPoint": {
+                "lat": 38.58157,
+                "lon": -121.4944
+              },
+              "state": "California",
+              "zip": "95817"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "University of California, Davis",
+              "name": "Tianhong Li",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "This phase I/II trial investigates the side effects and how well CD24Fc works in treating immune related adverse events in patients with solid tumors that have spread to other places in the body (advanced). CD24Fc may prevent autoimmune reactions due to the tissue damage induced by cancer treatment. CD24Fc binds to injured cell components and prevents inflammatory responses. CD24Fc also acts to turn off the immune system after it has been activated (\"immune checkpoint\"). Adding CD24Fc to standard treatment may shorten the recovery time and reduce the severity of side effects from immunotherapy.",
+          "detailedDescription": "PRIMARY OBJECTIVES:\n\nI. To determine the safety and tolerability of CD24 extracellular domain-IgG1 Fc domain recombinant fusion protein CD24Fc (CD24Fc) in patients with advanced solid tumors who developed debilitating immune-related adverse events (irAEs) from immune check point inhibitors (ICIs). (Phase I) II. To determine if CD24Fc shortens the recovery time of irAE and increases the recovery rate of irAE in cancer patients with grade (G)2 or 3 irAEs. (Randomized phase II)\n\nSECONDARY OBJECTIVES:\n\nI. Time to irAE reduction by at least 1 grade. (Phase I) II. Time to all irAEs reduced to grade =\\< 1. (Phase I) III. Time to resume ICI treatment. (Phase I) IV. Recovery rate (as defined by reduction of irAE by one grade) at day (D)42. (Phase I) V. To estimate the time to all irAEs reduced to =\\< 1. (Randomized phase II) VI. To record the use of steroids (drug, dose, duration) and other treatment for irAE. (Randomized phase II) VII. To record the time to resume ICI treatment. (Randomized phase II) VIII. To estimate the preliminary overall response rate (ORR), progression free survival (PFS), and 1-year overall survival (OS) after treatment with or without CD24Fc. (Randomized phase II) IX. To determine if CD24Fc treatment changes the levels of inflammatory markers in the plasma. (Randomized phase II)\n\nOUTLINE:\n\nPHASE I: Patients receive CD24Fc intravenously (IV) over 60 minutes on days 1, 14, and 28 with standard of care (i.e., steroids per treating physician and best supportive care) in the absence of disease progression or unacceptable toxicity.\n\nPHASE II: Patients are randomized to 1 of 2 arms.\n\nARM I: Patients receive CD24Fc IV over 60 minutes on days 1, 14, and 28 in addition to standard of care treatment for irAE in the absence of disease progression or unacceptable toxicity.\n\nARM II: Patients receive placebo IV over 60 minutes on days 1, 14, and 28 in addition to standard of care treatment for irAE in the absence of disease progression or unacceptable toxicity.\n\nAfter completion of study treatment, patients are followed up at days 42 and 60 and then every 3 months for up to 1 year."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "DOUBLE",
+              "whoMasked": [
+                "PARTICIPANT",
+                "INVESTIGATOR"
+              ]
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 3,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Ability to understand and willingness to sign an informed consent form\n* At least 18 years of age\n* Histologically confirmed advanced solid tumors\n* Patients must have grade 2 or 3 irAEs from at least one ICI-containing regimen. Both newly emerging and persistent irAEs are allowed. Systemic steroid therapy or any other form of immunosuppressive therapy for irAEs is allowed. The specific irAEs are\n\n  * Grade 2-3 diarrhea/colitis: Patients with \\>= 4 stools per day or moderate-severe increase in ostomy output compared to baseline but not life-threatening diarrhea\n  * Grade 2-3 pneumonitis: Mild to moderate (grade 2) or severe (grade 3) symptoms (including hypoxia, shortness of breath, requiring oxygen) but not life-threatening respiratory compromise requiring urgent intervention (e.g., tracheostomy or intubation)\n  * Grade 2-3 renal irAE: Creatine increased between 1.6-6.0 x upper limit of normal (ULN) or =\\< 3.0 x baseline if baseline was abnormal, estimated glomerular filtration rate (eGFR) or creatinine clearance \\>= 15 ml/min/1.73m\\^2 but not life-threatening consequences or requiring dialysis\n  * Grade 2-3 Hepatic irAE: AST/ALT/ALP levels 3-20 x ULN, and T bilirubin increased \\<5 x ULN\n  * Grade 2-3 skin rash: moderate (10-30% body surface area, BSA) to severe (\\> 30% BSA) but not life-threatening skin lesions or Stevens-Johnson syndrome\n* Eastern Cooperative Oncology Group (ECOG) performance status \\< 2\n* Life expectancy of \\>= 3 months at the time of enrollment\n* Pretreatment absolute neutrophil count (ANC) \\>= 1,000/uL obtained within 14 days prior to 1st dose of treatment\n* Pretreatment hemoglobin \\>= 8 gm/dL obtained within 14 days prior to 1st dose of treatment\n* Pretreatment platelet count of \\>= 75,000/uL obtained within 14 days prior to 1st dose of treatment\n* Female subjects who are of non-reproductive potential (i.e., post-menopausal by history - no menses for \\>= 1 year; OR history of hysterectomy; OR history of bilateral tubal ligation; OR history of bilateral oophorectomy). Or, female subjects of childbearing potential must have a negative serum or urine pregnancy test within 72 hours prior to the first study drug administration\n* Male and female subjects who agree to use highly effective method of birth control (e.g., implants, injectables, birth control pills with two hormones, intrauterine devices \\[IUDs\\], complete abstinence or sterilized partner, and female sterilization) and a barrier method (e.g., condoms, vaginal ring, sponge, etc.) during the period of therapy and for 90 days after the last dose of study drug\n\nExclusion Criteria:\n\n* Prior CD24Fc therapy\n* Any known active hepatitis B (HBV), hepatitis C (HCV), or human immunodeficiency virus (HIV) or acquired immunodeficiency syndrome (AIDS)-related illness, including patients who have an active infection requiring systemic therapy. History of COVID-19 or known asymptomatic carrier of SARS-CoV-2 virus is allowed\n* Pregnant or lactating women\n* Any medical condition including additional laboratory abnormalities, or psychiatric illness that would, in the opinion of the investigator, prevent the subject from participating and adhering to study related procedures\n* Any known severe bacterial, fungal, or viral infection that in the opinion of the investigator would interfere with patient safety or compliance on trial within 2 weeks prior to enrollment\n* Patients with concomitant proarrhythmic medications\n* Patients with heart failure in New York (NY) Heart Association stage IV\n* Any grade 4 irAE symptoms and Common Terminology Criteria for Adverse Events (CTCAE) version (v)5.0 grade 4 toxicity\n* AST, ALT, gamma glutamyl transpeptidase (GGT), or ALP \\> 20.0 x ULN regardless of baseline\n* Blood bilirubin \\>5.0 x ULN regardless of baseline\n* Creatinine \\> 6.0 x ULN or creatinine clearance \\<15 ml/min/1.73m2\n* Urine: Anuria \\< 140 ml in 24 hours\n* Electrolytes hyponatremia, sodium \\< 120 mmol/L\n* Hypokalemia, potassium \\< 2.5 mmol/L\n* Creatine kinase (CPK) \\> 10.0 ULN\n* Electrocardiogram (ECG): Prolonged QT interval \\>= 480 mS, corrected by Fridericia's formula. Torsade de pointes; polymorphic ventricular tachycardia; signs/symptoms of serious arrythmia",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "CD24Fc for the Treatment of Immune Related Adverse Events in Patients With Advanced Solid Tumors, TIRAEC Study",
+          "nctId": "NCT04552704",
+          "officialTitle": "Treatment of Immune Related Adverse Events With CD24Fc (TIRAEC)",
+          "orgStudyIdInfo": {
+            "id": "1626396"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "University of California, Davis"
+          },
+          "secondaryIdInfos": [
+            {
+              "domain": "CTRP (Clinical Trial Reporting Program)",
+              "id": "NCI-2020-05955",
+              "type": "REGISTRY"
+            },
+            {
+              "domain": "University of California Davis Comprehensive Cancer Center",
+              "id": "UCDCC#292",
+              "type": "OTHER"
+            },
+            {
+              "id": "P30CA093373",
+              "link": "https://reporter.nih.gov/quickSearch/P30CA093373",
+              "type": "NIH"
+            },
+            {
+              "domain": "OncoImmune, Inc.",
+              "id": "CD24Fc-006",
+              "type": "OTHER_GRANT"
+            }
+          ]
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Number of Participants with New Adverse Event (AE) of Grade \\>= 3 (Phase I)",
+              "measure": "Number of Participants With New Adverse Event (AE) of Grade >= 3 (Phase I)",
+              "timeFrame": "At day 60"
+            },
+            {
+              "description": "Defined by reduction of irAE by one grade. Kaplan-Meier plots and confidence intervals will be used to summarize outcomes. Medians and associated 95% confidence intervals will be calculated, and comparisons between groups will be performed by log-rank tests. Cox proportional hazard models will be used to explore association between covariates and outcomes.",
+              "measure": "Recovery Rate (Phase II)",
+              "timeFrame": "At day 42"
+            },
+            {
+              "description": "Will assess time to recovery from grade 2 or 3 irAE (as defined by reduction of at least 1 grade in irAE severity) from the initiation of CD24Fc treatment. Patients who have not been documented to have event (reduction of at least 1 grade) will be censored at the date of the latest clinical assessment that documented as being free of event.",
+              "measure": "Time to Recovery From Grade 2 or 3 irAE (Phase II)",
+              "timeFrame": "Up to 1 year"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Time to irAE reduction by at least 1 grade from the initiation of CD24Fc treatment.",
+              "measure": "Time to irAE Reduction by at Least 1 Grade From the Initiation of CD24Fc Treatment (Phase I)",
+              "timeFrame": "Up to 1 year"
+            },
+            {
+              "description": "Time to all irAEs reduced to =\\< 1 from the initiation of CD24Fc treatment (Phase I)",
+              "measure": "Time to All irAEs Reduced to =< 1 From the Initiation of CD24Fc Treatment (Phase I)",
+              "timeFrame": "Up to 2 weeks"
+            },
+            {
+              "description": "Time to resume immune check point inhibitor (ICI) treatment from the initiation of CD24Fc treatment (Phase I)",
+              "measure": "Time to Resume Immune Check Point Inhibitor (ICI) Treatment From the Initiation of CD24Fc Treatment (Phase I)",
+              "timeFrame": "Up to about 3.5 months"
+            },
+            {
+              "description": "The fraction of patients who experience a partial response (PR) or complete response (CR) will be determined by dividing the number of responders by the total evaluable patients.",
+              "measure": "Recovery Rate (Reduction of irAE by One Grade) (Phase I)",
+              "timeFrame": "At day 42"
+            },
+            {
+              "description": "Time to all irAEs reduced to =\\< 1 from the initiation of CD24Fc treatment (Phase II)",
+              "measure": "Time to All irAEs Reduced to =< 1 From the Initiation of CD24Fc Treatment (Phase II)",
+              "timeFrame": "Up to 1 year"
+            },
+            {
+              "description": "Summary of use of steroids and other treatment for irAE.",
+              "measure": "Use of Steroids and Other Drugs (Phase II)",
+              "timeFrame": "Up to 1 year"
+            },
+            {
+              "description": "The fraction of patients who experience a PR or CR will be determined by dividing the number of responders by the total evaluable patients.",
+              "measure": "Overall Response Rate After Retreatment With ICI With or Without CD24Fc After Resolution of irAE (Phase II)",
+              "timeFrame": "Up to 1 year"
+            },
+            {
+              "description": "Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions.",
+              "measure": "Progression Free Survival (PFS) (Phase II)",
+              "timeFrame": "From initiation of ICI to first documented evidence of disease progression or death, whichever comes first, assessed up to 1 year"
+            },
+            {
+              "description": "Count of participants known to be alive up to 1 year from the time from start of treatment.",
+              "measure": "Overall Survival (OS) (Phase II)",
+              "timeFrame": "From start of treatment to death, assessed up to 1 year"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": true,
+          "isUsExport": false,
+          "oversightHasDmc": true
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "NIH",
+              "name": "National Cancer Institute (NCI)"
+            },
+            {
+              "class": "INDUSTRY",
+              "name": "Oncoimmune, Inc., a subsidiary of Merck & Co., Inc. (Rahway, New Jersey USA)"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Tianhong Li"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "University of California, Davis",
+            "investigatorFullName": "Tianhong Li",
+            "investigatorTitle": "Principal Investigator",
+            "type": "SPONSOR_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2022-01-26",
+            "type": "ACTUAL"
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2023-08-02",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2023-08-01",
+          "overallStatus": "TERMINATED",
+          "primaryCompletionDateStruct": {
+            "date": "2021-02-03",
+            "type": "ACTUAL"
+          },
+          "resultsFirstPostDateStruct": {
+            "date": "2022-04-04",
+            "type": "ACTUAL"
+          },
+          "resultsFirstSubmitDate": "2022-03-08",
+          "resultsFirstSubmitQcDate": "2022-03-08",
+          "startDateStruct": {
+            "date": "2020-10-30",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2023-08",
+          "studyFirstPostDateStruct": {
+            "date": "2020-09-17",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2020-09-10",
+          "studyFirstSubmitQcDate": "2020-09-10",
+          "whyStopped": "Terminated early by the Sponsor due to business reason."
+        }
+      },
+      "resultsSection": {
+        "adverseEventsModule": {
+          "description": "All Serious Adverse Events listed were unlikely related to study treatment. All adverse events listed were unrelated or unlikely related to study treatment, with the exception of alanine aminotransferase increased, aspartate aminotransferase increased, palor, diarrhea, nausea, vomiting, blood bicarbonate decreased, weight gain, anorexia, and hyponatremia, which were possibly or probably related to study treatment.",
+          "eventGroups": [
+            {
+              "deathsNumAffected": 1,
+              "deathsNumAtRisk": 3,
+              "description": "Patients receive CD24Fc IV over 60 minutes on days 1, 14, and 28 with standard of care.",
+              "id": "EG000",
+              "otherNumAffected": 3,
+              "otherNumAtRisk": 3,
+              "seriousNumAffected": 1,
+              "seriousNumAtRisk": 3,
+              "title": "Phase I"
+            }
+          ],
+          "frequencyThreshold": "0",
+          "otherEvents": [
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Blood and lymphatic system disorders",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Anemia"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Investigations",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 3,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Blood bicarbonate decreased"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Investigations",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Blood bilirubin increased"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "General disorders",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Fatigue"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Infections and infestations",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Hepatic infection"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Metabolism and nutrition disorders",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 2,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Hyperglycemia"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Metabolism and nutrition disorders",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Hypocalcemia"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Metabolism and nutrition disorders",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Hypokalemia"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Metabolism and nutrition disorders",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 2,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Hyponatremia"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Respiratory, thoracic and mediastinal disorders",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 2,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Hypoxia"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Infections and infestations",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Infections and infestations - ascending thoracic aneurysm"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Infections and infestations",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Infections and infestations - BUN decreased"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Infections and infestations",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Infections and infestations - tachypnea"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Investigations",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Lymphocyte count decreased"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Investigations",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Platelet count decreased"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Respiratory, thoracic and mediastinal disorders",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Pneumonitis"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Investigations",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "White blood cell decreased"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Investigations",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 2,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Alanine aminotransferase increased"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Investigations",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 2,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Aspartate aminotransferase increased"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Blood and lymphatic system disorders",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Palor"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Gastrointestinal disorders",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Diarrhea"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Gastrointestinal disorders",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Heart burn"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Gastrointestinal disorders",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Nausea"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Gastrointestinal disorders",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Vomiting"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Investigations",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Alkaline phosphatase increased"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Investigations",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Elevated neutrophil"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Investigations",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "GGT elevated"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Investigations",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "WBC elevated"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Metabolism and nutrition disorders",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Anorexia"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "New lingular plueral-based opacity with increased FDG"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Neoplasms benign, malignant and unspecified (incl cysts and polyps)",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Possible new segment 2 metastatic lesion"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Respiratory, thoracic and mediastinal disorders",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Cough"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Respiratory, thoracic and mediastinal disorders",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Productive cough"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Respiratory, thoracic and mediastinal disorders",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Left vocal chord paralysis"
+            }
+          ],
+          "seriousEvents": [
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Respiratory, thoracic and mediastinal disorders",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Dyspnea"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Gastrointestinal disorders",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Dysphagia"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Gastrointestinal disorders",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Odynophagia"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "General disorders",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Fever"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Respiratory, thoracic and mediastinal disorders",
+              "sourceVocabulary": "CTCAE (5.0)",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Pneumonia"
+            }
+          ],
+          "timeFrame": "Up to 60 days"
+        },
+        "baselineCharacteristicsModule": {
+          "denoms": [
+            {
+              "counts": [
+                {
+                  "groupId": "BG000",
+                  "value": "3"
+                },
+                {
+                  "groupId": "BG001",
+                  "value": "0"
+                },
+                {
+                  "groupId": "BG002",
+                  "value": "0"
+                },
+                {
+                  "groupId": "BG003",
+                  "value": "3"
+                }
+              ],
+              "units": "Participants"
+            }
+          ],
+          "groups": [
+            {
+              "description": "Patients receive CD24Fc IV over 60 minutes on days 1, 14, and 28 with standard of care (i.e., steroids per treating physician and best supportive care) in the absence of disease progression or unacceptable toxicity.\n\nCD24 Extracellular Domain-IgG1 Fc Domain Recombinant Fusion Protein CD24Fc: Given IV",
+              "id": "BG000",
+              "title": "Phase I (CD24Fc)"
+            },
+            {
+              "description": "Patients receive CD24Fc IV over 60 minutes on days 1, 14, and 28 in addition to standard of care treatment for irAE in the absence of disease progression or unacceptable toxicity.\n\nCD24 Extracellular Domain-IgG1 Fc Domain Recombinant Fusion Protein CD24Fc: Given IV",
+              "id": "BG001",
+              "title": "Phase II, Arm I (CD24Fc)"
+            },
+            {
+              "description": "Patients receive placebo IV over 60 minutes on days 1, 14, and 28 in addition to standard of care treatment for irAE in the absence of disease progression or unacceptable toxicity.\n\nPlacebo Administration: Given IV",
+              "id": "BG002",
+              "title": "Phase II, Arm II (Placebo)"
+            },
+            {
+              "description": "Total of all reporting groups",
+              "id": "BG003",
+              "title": "Total"
+            }
+          ],
+          "measures": [
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "<=18 years"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "Between 18 and 65 years"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "3"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "3"
+                        }
+                      ],
+                      "title": ">=65 years"
+                    }
+                  ]
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "title": "Age, Categorical",
+              "unitOfMeasure": "Participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "1"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "1"
+                        }
+                      ],
+                      "title": "Female"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "2"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "2"
+                        }
+                      ],
+                      "title": "Male"
+                    }
+                  ]
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "title": "Sex: Female, Male",
+              "unitOfMeasure": "Participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "American Indian or Alaska Native"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "Asian"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "Native Hawaiian or Other Pacific Islander"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "Black or African American"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "3"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "3"
+                        }
+                      ],
+                      "title": "White"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "More than one race"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "Unknown or Not Reported"
+                    }
+                  ]
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "title": "Race (NIH/OMB)",
+              "unitOfMeasure": "Participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "3"
+                        },
+                        {
+                          "groupId": "BG003",
+                          "value": "3"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "United States"
+                }
+              ],
+              "paramType": "NUMBER",
+              "title": "Region of Enrollment",
+              "unitOfMeasure": "participants"
+            }
+          ],
+          "populationDescription": "The study was terminated by the sponsor after 3 out of 6 patients enrolled in phase I study."
+        },
+        "moreInfoModule": {
+          "certainAgreement": {
+            "piSponsorEmployee": false,
+            "restrictiveAgreement": true
+          },
+          "limitationsAndCaveats": {
+            "description": "The study was terminated by the sponsor after 3 out of 6 patients enrolled in phase I study."
+          },
+          "pointOfContact": {
+            "email": "nlogihara@ucdavis.edu",
+            "organization": "University of California, Davis",
+            "phone": "916-734-8053",
+            "title": "Analyst"
+          }
+        },
+        "outcomeMeasuresModule": {
+          "outcomeMeasures": [
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "1"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Number of Participants with New Adverse Event (AE) of Grade \\>= 3 (Phase I)",
+              "groups": [
+                {
+                  "description": "Patients receive CD24Fc IV over 60 minutes on days 1, 14, and 28 with standard of care.",
+                  "id": "OG000",
+                  "title": "Phase I"
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "reportingStatus": "POSTED",
+              "timeFrame": "At day 60",
+              "title": "Number of Participants With New Adverse Event (AE) of Grade >= 3 (Phase I)",
+              "type": "PRIMARY",
+              "unitOfMeasure": "Participants"
+            },
+            {
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Defined by reduction of irAE by one grade. Kaplan-Meier plots and confidence intervals will be used to summarize outcomes. Medians and associated 95% confidence intervals will be calculated, and comparisons between groups will be performed by log-rank tests. Cox proportional hazard models will be used to explore association between covariates and outcomes.",
+              "groups": [
+                {
+                  "description": "Patients receive CD24Fc IV over 60 minutes on days 1, 14, and 28 in addition to standard of care treatment for irAE in the absence of disease progression or unacceptable toxicity.\n\nCD24 Extracellular Domain-IgG1 Fc Domain Recombinant Fusion Protein CD24Fc: Given IV",
+                  "id": "OG000",
+                  "title": "Phase II"
+                }
+              ],
+              "populationDescription": "Study was terminated during Phase 1 portion of study.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "At day 42",
+              "title": "Recovery Rate (Phase II)",
+              "type": "PRIMARY"
+            },
+            {
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Will assess time to recovery from grade 2 or 3 irAE (as defined by reduction of at least 1 grade in irAE severity) from the initiation of CD24Fc treatment. Patients who have not been documented to have event (reduction of at least 1 grade) will be censored at the date of the latest clinical assessment that documented as being free of event.",
+              "groups": [
+                {
+                  "description": "Patients receive CD24Fc IV over 60 minutes on days 1, 14, and 28 in addition to standard of care treatment for irAE in the absence of disease progression or unacceptable toxicity.\n\nCD24 Extracellular Domain-IgG1 Fc Domain Recombinant Fusion Protein CD24Fc: Given IV",
+                  "id": "OG000",
+                  "title": "Phase II"
+                }
+              ],
+              "populationDescription": "Study was terminated during Phase 1 portion of study.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Up to 1 year",
+              "title": "Time to Recovery From Grade 2 or 3 irAE (Phase II)",
+              "type": "PRIMARY"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "lowerLimit": "14",
+                          "upperLimit": "14",
+                          "value": "14"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Time to irAE reduction by at least 1 grade from the initiation of CD24Fc treatment.",
+              "dispersionType": "Full Range",
+              "groups": [
+                {
+                  "description": "Patients receive CD24Fc IV over 60 minutes on days 1, 14, and 28 with standard of care.",
+                  "id": "OG000",
+                  "title": "Phase I"
+                }
+              ],
+              "paramType": "MEAN",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Up to 1 year",
+              "title": "Time to irAE Reduction by at Least 1 Grade From the Initiation of CD24Fc Treatment (Phase I)",
+              "type": "SECONDARY",
+              "unitOfMeasure": "days"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "lowerLimit": "14",
+                          "upperLimit": "14",
+                          "value": "14"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Time to all irAEs reduced to =\\< 1 from the initiation of CD24Fc treatment (Phase I)",
+              "dispersionType": "Full Range",
+              "groups": [
+                {
+                  "description": "Patients receive CD24Fc IV over 60 minutes on days 1, 14, and 28 with standard of care.",
+                  "id": "OG000",
+                  "title": "Phase I"
+                }
+              ],
+              "paramType": "MEAN",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Up to 2 weeks",
+              "title": "Time to All irAEs Reduced to =< 1 From the Initiation of CD24Fc Treatment (Phase I)",
+              "type": "SECONDARY",
+              "unitOfMeasure": "days"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "lowerLimit": "61",
+                          "upperLimit": "108",
+                          "value": "84.5"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "2"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Time to resume immune check point inhibitor (ICI) treatment from the initiation of CD24Fc treatment (Phase I)",
+              "dispersionType": "Full Range",
+              "groups": [
+                {
+                  "description": "Patients receive CD24Fc IV over 60 minutes on days 1, 14, and 28 with standard of care.",
+                  "id": "OG000",
+                  "title": "Phase I"
+                }
+              ],
+              "paramType": "MEAN",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Up to about 3.5 months",
+              "title": "Time to Resume Immune Check Point Inhibitor (ICI) Treatment From the Initiation of CD24Fc Treatment (Phase I)",
+              "type": "SECONDARY",
+              "unitOfMeasure": "days"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "100"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "The fraction of patients who experience a partial response (PR) or complete response (CR) will be determined by dividing the number of responders by the total evaluable patients.",
+              "groups": [
+                {
+                  "description": "Patients receive CD24Fc IV over 60 minutes on days 1, 14, and 28 with standard of care.",
+                  "id": "OG000",
+                  "title": "Phase I"
+                }
+              ],
+              "paramType": "NUMBER",
+              "reportingStatus": "POSTED",
+              "timeFrame": "At day 42",
+              "title": "Recovery Rate (Reduction of irAE by One Grade) (Phase I)",
+              "type": "SECONDARY",
+              "unitOfMeasure": "percentage of participants"
+            },
+            {
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Time to all irAEs reduced to =\\< 1 from the initiation of CD24Fc treatment (Phase II)",
+              "groups": [
+                {
+                  "description": "Patients receive CD24Fc IV over 60 minutes on days 1, 14, and 28 vs placebo in addition to standard of care.",
+                  "id": "OG000",
+                  "title": "Phase II"
+                }
+              ],
+              "populationDescription": "Study was terminated during Phase 1 portion of study. No data collected for Phase 2.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Up to 1 year",
+              "title": "Time to All irAEs Reduced to =< 1 From the Initiation of CD24Fc Treatment (Phase II)",
+              "type": "SECONDARY"
+            },
+            {
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Summary of use of steroids and other treatment for irAE.",
+              "groups": [
+                {
+                  "description": "Patients receive CD24Fc IV over 60 minutes on days 1, 14, and 28 in addition to standard of care treatment for irAE in the absence of disease progression or unacceptable toxicity.\n\nCD24 Extracellular Domain-IgG1 Fc Domain Recombinant Fusion Protein CD24Fc: Given IV",
+                  "id": "OG000",
+                  "title": "Phase II"
+                }
+              ],
+              "populationDescription": "Study was terminated during Phase 1 portion of study. No data collected for Phase 2.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Up to 1 year",
+              "title": "Use of Steroids and Other Drugs (Phase II)",
+              "type": "SECONDARY"
+            },
+            {
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "The fraction of patients who experience a PR or CR will be determined by dividing the number of responders by the total evaluable patients.",
+              "groups": [
+                {
+                  "description": "Patients receive CD24Fc IV over 60 minutes on days 1, 14, and 28 in addition to standard of care treatment for irAE in the absence of disease progression or unacceptable toxicity.\n\nCD24 Extracellular Domain-IgG1 Fc Domain Recombinant Fusion Protein CD24Fc: Given IV",
+                  "id": "OG000",
+                  "title": "Phase II"
+                }
+              ],
+              "populationDescription": "Study was terminated during Phase 1 portion of study. No data collected for Phase 2.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Up to 1 year",
+              "title": "Overall Response Rate After Retreatment With ICI With or Without CD24Fc After Resolution of irAE (Phase II)",
+              "type": "SECONDARY"
+            },
+            {
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions.",
+              "groups": [
+                {
+                  "description": "Patients receive CD24Fc IV over 60 minutes on days 1, 14, and 28 in addition to standard of care treatment for irAE in the absence of disease progression or unacceptable toxicity.\n\nCD24 Extracellular Domain-IgG1 Fc Domain Recombinant Fusion Protein CD24Fc: Given IV",
+                  "id": "OG000",
+                  "title": "Phase II"
+                }
+              ],
+              "populationDescription": "Study was terminated during Phase 1 portion of study. No data collected for Phase 2.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "From initiation of ICI to first documented evidence of disease progression or death, whichever comes first, assessed up to 1 year",
+              "title": "Progression Free Survival (PFS) (Phase II)",
+              "type": "SECONDARY"
+            },
+            {
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Count of participants known to be alive up to 1 year from the time from start of treatment.",
+              "groups": [
+                {
+                  "description": "Patients receive CD24Fc IV over 60 minutes on days 1, 14, and 28 in addition to standard of care treatment for irAE in the absence of disease progression or unacceptable toxicity.\n\nCD24 Extracellular Domain-IgG1 Fc Domain Recombinant Fusion Protein CD24Fc: Given IV",
+                  "id": "OG000",
+                  "title": "Phase II"
+                }
+              ],
+              "populationDescription": "Study was terminated during Phase 1 portion of study. No data collected for Phase 2.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "From start of treatment to death, assessed up to 1 year",
+              "title": "Overall Survival (OS) (Phase II)",
+              "type": "SECONDARY"
+            }
+          ]
+        },
+        "participantFlowModule": {
+          "groups": [
+            {
+              "description": "Patients receive CD24Fc IV over 60 minutes on days 1, 14, and 28 with standard of care.",
+              "id": "FG000",
+              "title": "Phase I"
+            }
+          ],
+          "periods": [
+            {
+              "milestones": [
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "3"
+                    }
+                  ],
+                  "type": "STARTED"
+                },
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "3"
+                    }
+                  ],
+                  "type": "COMPLETED"
+                },
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "0"
+                    }
+                  ],
+                  "type": "NOT COMPLETED"
+                }
+              ],
+              "title": "Overall Study"
+            }
+          ],
+          "recruitmentDetails": "The study was terminated by the sponsor after 3 out of 6 patients enrolled in phase I study."
+        }
+      }
+    }
+  ]
+}

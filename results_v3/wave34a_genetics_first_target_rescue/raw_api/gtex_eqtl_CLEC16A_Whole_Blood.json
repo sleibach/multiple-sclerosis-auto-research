@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr16",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000038532.14",
+        "geneSymbol": "CLEC16A",
+        "geneSymbolUpper": "CLEC16A",
+        "nes": 0.137403,
+        "ontologyId": "UBERON:0013756",
+        "pValue": 4.02925e-05,
+        "pos": 11005395,
+        "snpId": "rs7192695",
+        "snpIdUpper": "RS7192695",
+        "tissueSiteDetailId": "Whole_Blood",
+        "variantId": "chr16_11005395_C_T_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 7,
+      "page": 0,
+      "totalNumberOfItems": 7
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000038532.14&tissueSiteDetailId=Whole_Blood&datasetId=gtex_v8&itemsPerPage=1"
+}

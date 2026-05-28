@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr7",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000128604.19",
+        "geneSymbol": "IRF5",
+        "geneSymbolUpper": "IRF5",
+        "nes": 0.180873,
+        "ontologyId": "UBERON:0001157",
+        "pValue": 1.80934e-08,
+        "pos": 128922524,
+        "snpId": "rs4731530",
+        "snpIdUpper": "RS4731530",
+        "tissueSiteDetailId": "Colon_Transverse",
+        "variantId": "chr7_128922524_T_C_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 174,
+      "page": 0,
+      "totalNumberOfItems": 174
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000128604.19&tissueSiteDetailId=Colon_Transverse&datasetId=gtex_v8&itemsPerPage=1"
+}

@@ -1,0 +1,214 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "12355089",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15972725",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "28436967",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Involved in mitotic spindle regulation and coordination of mitotic processes. The function in regulating microtubule dynamics at spindle poles including spindle orientation, astral microtubule density and poleward microtubule flux seems to depend on the association with the katanin complex formed by KATNA1 and KATNB1. Enhances the microtubule lattice severing activity of KATNA1 by recruiting the katanin complex to microtubules. Can block microtubule minus-end growth and reversely this function can be enhanced by the katanin complex (PubMed:28436967). May have a preferential role in regulating neurogenesis"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "Q8CJ27",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "value": "The nuclear-cytoplasmic distribution could be regulated by the availability of calmodulin (By similarity). Localizes to spindle poles during mitosis (PubMed:19690332). Associates with microtubule minus ends (By similarity)"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15972725",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0251",
+                "value": "Cytoplasm, cytoskeleton, spindle"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "id": "SL-0191",
+                "value": "Nucleus"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000458904"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "ASPM"
+          },
+          "synonyms": [
+            {
+              "value": "MCPH5"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0112",
+          "name": "Calmodulin-binding"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0131",
+          "name": "Cell cycle"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0132",
+          "name": "Cell division"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0175",
+          "name": "Coiled coil"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0963",
+          "name": "Cytoplasm"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0206",
+          "name": "Cytoskeleton"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0225",
+          "name": "Disease variant"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0991",
+          "name": "Intellectual disability"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0498",
+          "name": "Mitosis"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0539",
+          "name": "Nucleus"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0905",
+          "name": "Primary microcephaly"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0677",
+          "name": "Repeat"
+        }
+      ],
+      "primaryAccession": "Q8IZT6",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Abnormal spindle protein homolog"
+            },
+            "shortNames": [
+              {
+                "value": "Asp homolog"
+              }
+            ]
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Abnormal spindle-like microcephaly-associated protein"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "EB6EDAD3FF186108",
+        "length": 3477,
+        "md5": "575802A19ADE13D53E0E0A3D8D3B8F3C",
+        "molWeight": 409800,
+        "value": "MANRRVGRGCWEVSPTERRPPAGLRGPAAEEEASSPPVLSLSHFCRSPFLCFGDVLLGASRTLSLALDNPNEEVAEVKISHFPAADLGFSVSQRCFVLQPKEKIVISVNWTPLKEGRVREIMTFLVNDVLKHQAILLGNAEEQKKKKRSLWDTIKKKKISASTSHNRRVSNIQNVNKTFSVSQKVDRVRSPLQACENLAMNEGGPPTENNSLILEENKIPISPISPAFNECHGATCLPLSVRRSTTYSSLHASENRELLNVHSANVSKVSFNEKAVTETSFNSVNVNGQRGENSKLSLTPNCSSTLNITQSQIHFLSPDSFVNNSHGANNELELVTCLSSDMFMKDNSQPVHLESTIAHEIYQKILSPDSFIKDNYGLNQDLESESVNPILSPNQFLKDNMAYMCTSQQTCKVPLSNENSQVPQSPEDWRKSEVSPRIPECQGSKSPKAIFEELVEMKSNYYSFIKQNNPKFSAVQDISSHSHNKQPKRRPILSATVTKRKATCTRENQTEINKPKAKRCLNSAVGEHEKVINNQKEKEDFHSYLPIIDPILSKSKSYKNEVTPSSTTASVARKRKSDGSMEDANVRVAITEHTEVREIKRIHFSPSEPKTSAVKKTKNVTTPISKRISNREKLNLKKKTDLSIFRTPISKTNKRTKPIIAVAQSSLTFIKPLKTDIPRHPMPFAAKNMFYDERWKEKQEQGFTWWLNFILTPDDFTVKTNISEVNAATLLLGIENQHKISVPRAPTKEEMSLRAYTARCRLNRLRRAACRLFTSEKMVKAIKKLEIEIEARRLIVRKDRHLWKDVGERQKVLNWLLSYNPLWLRIGLETTYGELISLEDNSDVTGLAMFILNRLLWNPDIAAEYRHPTVPHLYRDGHEEALSKFTLKKLLLLVCFLDYAKISRLIDHDPCLFCKDAEFKASKEILLAFSRDFLSGEGDLSRHLGLLGLPVNHVQTPFDEFDFAVTNLAVDLQCGVRLVRTMELLTQNWDLSKKLRIPAISRLQKMHNVDIVLQVLKSRGIELSDEHGNTILSKDIVDRHREKTLRLLWKIAFAFQVDISLNLDQLKEEIAFLKHTKSIKKTISLLSCHSDDLINKKKGKRDSGSFEQYSENIKLLMDWVNAVCAFYNKKVENFTVSFSDGRVLCYLIHHYHPCYVPFDAICQRTTQTVECTQTGSVVLNSSSESDDSSLDMSLKAFDHENTSELYKELLENEKKNFHLVRSAVRDLGGIPAMINHSDMSNTIPDEKVVITYLSFLCARLLDLRKEIRAARLIQTTWRKYKLKTDLKRHQEREKAARIIQLAVINFLAKQRLRKRVNAALVIQKYWRRVLAQRKLLMLKKEKLEKVQNKAASLIQGYWRRYSTRQRFLKLKYYSIILQSRIRMIIAVTSYKRYLWATVTIQRHWRAYLRRKQDQQRYEMLKSSTLIIQSMFRKWKQRKMQSQVKATVILQRAFREWHLRKQAKEENSAIIIQSWYRMHKELRKYIYIRSCVVIIQKRFRCFQAQKLYKRRKESILTIQKYYKAYLKGKIERTNYLQKRAAAIQLQAAFRRLKAHNLCRQIRAACVIQSYWRMRQDRVRFLNLKKTIIKFQAHVRKHQQRQKYKKMKKAAVIIQTHFRAYIFAMKVLASYQKTRSAVIVLQSAYRGMQARKMYIHILTSVIKIQSYYRAYVSKKEFLSLKNATIKLQSTVKMKQTRKQYLHLRAAALFIQQCYRSKKIAAQKREEYMQMRESCIKLQAFVRGYLVRKQMRLQRKAVISLQSYFRMRKARQYYLKMYKAIIVIQNYYHAYKAQVNQRKNFLQVKKAATCLQAAYRGYKVRQLIKQQSIAALKIQSAFRGYNKRVKYQSVLQSIIKIQRWYRAYKTLHDTRTHFLKTKAAVISLQSAYRGWKVRKQIRREHQAALKIQSAFRMAKAQKQFRLFKTAALVIQQNFRAWTAGRKQCMEYIELRHAVLVLQSMWKGKTLRRQLQRQHKCAIIIQSYYRMHVQQKKWKIMKKAALLIQKYYRAYSIGREQNHLYLKTKAAVVTLQSAYRGMKVRKRIKDCNKAAVTIQSKYRAYKTKKKYATYRASAIIIQRWYRGIKITNHQHKEYLNLKKTAIKIQSVYRGIRVRRHIQHMHRAATFIKAMFKMHQSRISYHTMRKAAIVIQVRCRAYYQGKMQREKYLTILKAVKVLQASFRGVRVRRTLRKMQTAATLIQSNYRRYRQQTYFNKLKKITKTVQQRYWAMKERNIQFQRYNKLRHSVIYIQAIFRGKKARRHLKMMHIAATLIQRRFRTLMMRRRFLSLKKTAILIQRKYRAHLCTKHHLQFLQVQNAVIKIQSSYRRWMIRKRMREMHRAATFIQSTFRMHRLHMRYQALKQASVVIQQQYQANRAAKLQRQHYLRQRHSAVILQAAFRGMKTRRHLKSMHSSATLIQSRFRSLLVRRRFISLKKATIFVQRKYRATICAKHKLYQFLHLRKAAITIQSSYRRLMVKKKLQEMQRAAVLIQATFRMYRTYITFQTWKHASILIQQHYRTYRAAKLQRENYIRQWHSAVVIQAAYKGMKARQLLREKHKASIVIQSTYRMYRQYCFYQKLQWATKIIQEKYRANKKKQKVFQHNELKKETCVQAGFQDMNIKKQIQEQHQAAIIIQKHCKAFKIRKHYLHLRATVVSIQRRYRKLTAVRTQAVICIQSYYRGFKVRKDIQNMHRAATLIQSFYRMHRAKVDYETKKTAIVVIQNYYRLYVRVKTERKNFLAVQKSVRTIQAAFRGMKVRQKLKNVSEEKMAAIVNQSALCCYRSKTQYEAVQSEGVMIQEWYKASGLACSQEAEYHSQSRAAVTIQKAFCRMVTRKLETQKCAALRIQFFLQMAVYRRRFVQQKRAAITLQHYFRTWQTRKQFLLYRKAAVVLQNHYRAFLSAKHQRQVYLQIRSSVIIIQARSKGFIQKRKFQEIKNSTIKIQAMWRRYRAKKYLCKVKAACKIQAWYRCWRAHKEYLAILKAVKIIQGCFYTKLERTRFLNVRASAIIIQRKWRAILPAKIAHEHFLMIKRHRAACLIQAHYRGYKGRQVFLRQKSAALIIQKYIRAREAGKHERIKYIEFKKSTVILQALVRGWLVRKRFLEQRAKIRLLHFTAAAYYHLNAVRIQRAYKLYLAVKNANKQVNSVICIQRWFRARLQEKRFIQKYHSIKKIEHEGQECLSQRNRAASVIQKAVRHFLLRKKQEKFTSGIIKIQALWRGYSWRKKNDCTKIKAIRLSLQVVNREIREENKLYKRTALALHYLLTYKHLSAILEALKHLEVVTRLSPLCCENMAQSGAISKIFVLIRSCNRSIPCMEVIRYAVQVLLNVSKYEKTTSAVYDVENCIDILLELLQIYREKPGNKVADKGGSIFTKTCCLLAILLKTTNRASDVRSRSKVVDRIYSLYKLTAHKHKMNTERILYKQKKNSSISIPFIPETPVRTRIVSRLKPDWVLRRDNMEEITNPLQAIQMVMDTLGIPY"
+      },
+      "uniProtkbId": "ASPM_HUMAN"
+    }
+  ]
+}

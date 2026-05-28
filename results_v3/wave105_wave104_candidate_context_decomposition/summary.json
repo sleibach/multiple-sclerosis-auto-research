@@ -1,0 +1,23 @@
+{
+  "call_counts": {
+    "CONTROL_PRIOR_ART_OR_KNOWN_IMMUNE_AXIS": 2,
+    "PARK_RAW_RECURRENCE_RESIDUAL_WEAK": 1,
+    "PARK_STATE_SUPPORTED_BUT_ROUTE_BLOCKED": 2
+  },
+  "inputs": {
+    "broad_contrasts": "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv",
+    "residual_raw": "results_v3/broad_residual_gate/broad_residual_raw_tests.tsv",
+    "residual_tests": "results_v3/broad_residual_gate/broad_residual_residual_tests.tsv",
+    "wave104_rank": "results_v3/wave104_genetics_first_lipid_state_convergence_audit/genetics_first_lipid_state_rank.tsv",
+    "wave91_matrix": "results_v3/wave91_lipid_lysosomal_module_intervention_rank/module_wide_evidence_matrix.tsv",
+    "wave94_context": "results_v3/wave94_accessible_state_rerank/broad_candidate_context_rows.tsv"
+  },
+  "seed": 20260527,
+  "targets": [
+    "IFI30",
+    "IL7R",
+    "SP140",
+    "GALC",
+    "CD58"
+  ]
+}

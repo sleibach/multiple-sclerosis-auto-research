@@ -1,0 +1,28 @@
+{
+  "call_counts": {
+    "NO_GO_PLEIOTROPIC_PARTIAL_CONTROLLER": 1,
+    "NO_GO_PRIOR_ART_RESTORATION": 1,
+    "NO_GO_RESTORATION_NO_MODALITY": 1,
+    "NO_GO_STRONG_PERTURBATION_NO_HANDLE": 1,
+    "NO_GO_SURROGATE_TRANSLATION_BLOCKED": 1,
+    "NO_GO_UNDRUGGABLE_CHROMATIN_CONTROLLER": 1,
+    "NO_GO_UNDRUGGABLE_STATE_CONTROLLER": 1,
+    "NO_GO_WEAK_LOCAL_AND_PRIOR_ART": 1
+  },
+  "date": "2026-05-27",
+  "inputs": [
+    "results_v3/wave34_genetics_expression_druggability_scan/wave34_genetics_expression_druggability_rank.tsv",
+    "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv",
+    "results_v3/broad_residual_gate/broad_residual_gate_summary.tsv",
+    "results_v3/wave23_genetics_restoration_modality/ranked_go_park_no_go.tsv",
+    "results_v3/wave31_dynamic_transition_controller_audit/dynamic_transition_controller_audit.tsv",
+    "results_v3/wave25_causal_genetics_module_proxy/causal_proxy_candidate_matrix.tsv"
+  ],
+  "interpretation": "Regulatory/restoration routes do not yield a V3 finding. TNFAIP3, SBNO2, and SP140 are plausible biology but lack a current correct-direction modality; MED16 remains the best perturbation comparator but has no druggable handle; CDK8/CDK19 and GSK3B are only weak or unsafe surrogates; GPR65/IL10 are blocked by weak local evidence and prior art.",
+  "n_candidates": 8,
+  "output_paths": {
+    "audit": "results_v3/wave45_regulatory_controller_audit/regulatory_controller_audit.tsv"
+  },
+  "promoted_count": 0,
+  "random_seed": 20260527
+}

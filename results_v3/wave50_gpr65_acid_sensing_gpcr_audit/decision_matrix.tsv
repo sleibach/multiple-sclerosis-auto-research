@@ -1,0 +1,9 @@
+gate	passed	value	rationale
+cross_disease_genetic_breadth	True	OT_diseases=5; GWAS_traits=5; min_p=4e-18	requires broad disease genetics
+target_resolved_coloc_or_mr	False	not_run/no_target_resolved_coloc	requires fine-mapped direction rather than mapped-gene support
+strict_ms_anchor	False	delta=0.09040507812532; p=0.6241465917972195; fdr=0.9490245393797272	requires MS state signal beyond nominal/noise
+local_cell_state_alignment	False	positive=1.0; negative=2.0	requires local support not contradicted by negative disease signals
+real_perturbation_anchor	False	absent	requires GPR65 agonist/PAM rescue in disease-relevant cells
+selective_modality_exists	True	activity_rows=99; best_nM=364.84	requires tractable GPCR chemical matter
+clinical_whitespace	True	ClinicalTrials_max=0	requires no active direct clinical program
+novelty_prior_art_not_blocking	False	patent_block=True; EuropePMC_max=76	requires no direct autoimmune/IBD patent-literature blockage

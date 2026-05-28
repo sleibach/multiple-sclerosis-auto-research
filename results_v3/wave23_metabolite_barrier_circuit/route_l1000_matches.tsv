@@ -1,0 +1,17 @@
+route	route_label	source_table	query_name	mode	pert_id	cmap_name	target	moa	best_rank	min_qval	max_abs_combined_score	target_antigen_presentation_best_rank	target_antigen_presentation_min_qval	l1000_selectivity_call
+ppar_lxr_lipid_nuclear	PPAR/LXR/RXR lipid nuclear receptors	l1000_compounds	ifn_lysosomal_apc_state	opposite	BRD-A72596465	GW-6471	PPARA	PPAR receptor antagonist	26.0	6.03624873173514e-05	10.26853333425466			
+ppar_lxr_lipid_nuclear	PPAR/LXR/RXR lipid nuclear receptors	l1000_compounds	mif_cd74_receptor_state	opposite	BRD-A72596465	GW-6471	PPARA	PPAR receptor antagonist	37.0	8.83733908701768e-06	11.843640608571592			
+ppar_lxr_lipid_nuclear	PPAR/LXR/RXR lipid nuclear receptors	wave15_l1000_selectivity			BRD-K13927029	retinol	RXRA	Retinoid receptor ligand						generic_ifn_reversal_at_least_as_strong
+retinoid_vdr_rxr	Retinoid/RAR/RXR/VDR differentiation-barrier axis	l1000_compounds	gse111972_ms_wm_full_top150	similar	BRD-K06854232	AM-580	RARA	Retinoid receptor agonist	4.0	0.574328877611345	7.206198588638027			
+retinoid_vdr_rxr	Retinoid/RAR/RXR/VDR differentiation-barrier axis	l1000_compounds	gse111972_ms_wm_full_top150	similar	BRD-K71879491	tretinoin	RARA	Retinoid receptor ligand	16.0	0.805603902146875	5.518274520741118			
+retinoid_vdr_rxr	Retinoid/RAR/RXR/VDR differentiation-barrier axis	l1000_compounds	mif_cd74_receptor_state	similar	BRD-K71879491	tretinoin	RARA	Retinoid receptor ligand	26.0	8.83733908701768e-06	12.301803408310173			
+retinoid_vdr_rxr	Retinoid/RAR/RXR/VDR differentiation-barrier axis	wave15_l1000_selectivity			BRD-K25737009	CD-1530	RARG	Retinoid receptor agonist				46.0	0.0001329933844554	target_opposite_hit_absent_from_generic_top50
+retinoid_vdr_rxr	Retinoid/RAR/RXR/VDR differentiation-barrier axis	wave15_l1000_selectivity			BRD-K13927029	retinol	RXRA	Retinoid receptor ligand						generic_ifn_reversal_at_least_as_strong
+retinoid_vdr_rxr	Retinoid/RAR/RXR/VDR differentiation-barrier axis	wave15_l1000_selectivity			BRD-K51290057	SA-792709	RARA	Retinoid receptor agonist						generic_ifn_reversal_at_least_as_strong
+retinoid_vdr_rxr	Retinoid/RAR/RXR/VDR differentiation-barrier axis	wave15_l1000_selectivity			BRD-K28168037	fenretinide	RARA	Apoptosis stimulant						generic_ifn_reversal_at_least_as_strong
+s1p_receptors	S1P receptor trafficking / barrier axis	l1000_compounds	ifn_lysosomal_apc_state	similar	BRD-K14236372	BRD-K14236372	S1PR3	Lysophospholipid receptor agonist	45.0	5.87567820342275e-05	11.233984026550711			
+eicosanoid_receptors	Eicosanoid / leukotriene / prostaglandin sensors	l1000_compounds	gse111972_ms_wm_full_top150	opposite	BRD-A56359832	zileuton	ALOX5	Leukotriene inhibitor	32.0	1.0	3.905339840221639			
+eicosanoid_receptors	Eicosanoid / leukotriene / prostaglandin sensors	l1000_compounds	ifn_lysosomal_apc_state	opposite	BRD-K84895041	BMY-45778	PTGIR	IP receptor activator	20.0	6.03624873173514e-05	11.465620672655405			
+eicosanoid_receptors	Eicosanoid / leukotriene / prostaglandin sensors	l1000_compounds	ifn_lysosomal_apc_state	similar	BRD-K74148702	curcumin	PTGS1	Lipoxygenase inhibitor	29.0	5.87567820342275e-05	10.792895059213985			
+eicosanoid_receptors	Eicosanoid / leukotriene / prostaglandin sensors	l1000_compounds	mif_cd74_receptor_state	opposite	BRD-K20168484	BRD-K20168484	ALOX5AP	Lipoxygenase inhibitor	9.0	8.83733908701768e-06	13.094051648830566			
+eicosanoid_receptors	Eicosanoid / leukotriene / prostaglandin sensors	wave15_l1000_selectivity			BRD-K41410256	balsalazide	PTGS1	Cyclooxygenase inhibitor						generic_ifn_reversal_at_least_as_strong

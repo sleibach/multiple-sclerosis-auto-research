@@ -1,0 +1,787 @@
+{
+  "payload": {
+    "hitCount": 7017,
+    "nextCursorMark": "AoIIQUOieCg1MzczMTk5MQ==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(PPARG OR PPARA OR PPARD OR RXRA OR RXRB OR RXRG) AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR Sjogren OR \"type 1 diabetes\" OR \"primary biliary cholangitis\" OR autoimmune)&cursorMark=AoIIQUOieCg1MzczMTk5MQ==&resultType=core&pageSize=3&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 3,
+      "queryString": "(PPARG OR PPARA OR PPARD OR RXRA OR RXRB OR RXRG) AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR Sjogren OR \"type 1 diabetes\" OR \"primary biliary cholangitis\" OR autoimmune)",
+      "resultType": "core",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "affiliation": "MRC Integrative Epidemiology Unit, University of Bristol, Oakfield House, Oakfield Grove, Bristol, BS8 2BN, UK. maria.sobczyk@bristol.ac.uk.",
+          "authMan": "N",
+          "authorList": {
+            "author": [
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "MRC Integrative Epidemiology Unit, University of Bristol, Oakfield House, Oakfield Grove, Bristol, BS8 2BN, UK. maria.sobczyk@bristol.ac.uk."
+                    }
+                  ]
+                },
+                "firstName": "Maria K",
+                "fullName": "Sobczyk MK",
+                "initials": "MK",
+                "lastName": "Sobczyk"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "MRC Integrative Epidemiology Unit, University of Bristol, Oakfield House, Oakfield Grove, Bristol, BS8 2BN, UK."
+                    },
+                    {
+                      "affiliation": "NIHR Biomedical Research Centre at the University Hospitals Bristol NHS Foundation Trust and the University of Bristol, Bristol, UK."
+                    }
+                  ]
+                },
+                "firstName": "Tom R",
+                "fullName": "Gaunt TR",
+                "initials": "TR",
+                "lastName": "Gaunt"
+              }
+            ]
+          },
+          "authorString": "Sobczyk MK, Gaunt TR.",
+          "citedByCount": 0,
+          "commentCorrectionList": {
+            "commentCorrection": [
+              {
+                "id": "PPR844834",
+                "note": "Link created based on a title-first author match",
+                "orderIn": 10002,
+                "source": "PPR",
+                "type": "Preprint in"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "supporting_data"
+            ]
+          },
+          "dateOfCreation": "2026-03-03",
+          "dateOfRevision": "2026-04-12",
+          "doi": "10.1038/s41598-026-41818-3",
+          "electronicPublicationDate": "2026-03-03",
+          "epmcAuthMan": "N",
+          "firstIndexDate": "2026-03-04",
+          "firstPublicationDate": "2026-03-03",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13065838"
+            ]
+          },
+          "fullTextReceivedDate": "2026-04-11",
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1038/s41598-026-41818-3"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13065838"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC13065838?pdf=render"
+              }
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Medical Research Council",
+                "grantId": "MC_UU_00032/03",
+                "orderIn": 0
+              },
+              {
+                "agency": "UK Medical Research Council (MRC)",
+                "grantId": "MC_UU_00032/03",
+                "orderIn": 0
+              }
+            ]
+          },
+          "hasBook": "N",
+          "hasData": "Y",
+          "hasDbCrossReferences": "N",
+          "hasEvaluations": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "41775781",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalInfo": {
+            "dateOfPublication": "2026 Mar",
+            "issue": "1",
+            "journal": {
+              "essn": "2045-2322",
+              "isoabbreviation": "Sci Rep",
+              "issn": "2045-2322",
+              "medlineAbbreviation": "Sci Rep",
+              "nlmid": "101563288",
+              "title": "Scientific reports"
+            },
+            "journalIssueId": 4136188,
+            "monthOfPublication": 3,
+            "printPublicationDate": "2026-03-01",
+            "volume": "16",
+            "yearOfPublication": 2026
+          },
+          "keywordList": {
+            "keyword": [
+              "Immune cells",
+              "Molecular epidemiology",
+              "Mendelian Randomization",
+              "Immune-mediated Disease",
+              "Protein Qtl",
+              "Drug Target Prioritisation"
+            ]
+          },
+          "language": "eng",
+          "license": "cc by",
+          "nihAuthMan": "N",
+          "pageInfo": "11851",
+          "pmcid": "PMC13065838",
+          "pmid": "41775781",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "pubYear": "2026",
+          "publicationStatus": "epublish",
+          "source": "MED",
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "title": "Integrative mendelian randomization approaches for therapeutic target prioritisation in immune-mediated diseases.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "hgnc"
+            ]
+          }
+        },
+        {
+          "abstractText": "<i>Flaveria trinervia</i> (Spreng) C. Mohr is a plant traditionally used in Mexican medicine. In this study, gas chromatography-mass spectrometry (GC-MS) combined with network pharmacology was employed to characterize volatile and semi-volatile metabolites from <i>F. trinervia</i> leaves and to explore their potential system-level mechanisms of action in inflammatory and tumor-related disorders. A dual extraction strategy (hexane/dichloromethane and acetone/chloroform) was applied, followed by GC-MS-based compound identification. Putative molecular targets were predicted using established pharmacological databases, and protein-protein interaction networks were constructed to identify topological features and enriched biological pathways. A total of 11 bioactive compounds were tentatively identified with an identity level of \u226580%, with seven shared between both extracts, including phytol, germacrene D, caryophyllene oxide, pinene isomers, squalene, and 2,2':5',2\u2033-terthiophene, metabolites previously reported to exhibit antioxidant, anti-inflammatory, and cytotoxic activities. Network topology analysis identified ESR1, RXRA/B/G, NCOA2, and CYP19A1 as central nodes, reflecting convergence on signaling axes involved in apoptosis, cell proliferation, immune modulation, and transcriptional regulation pathways. Functional enrichment analysis revealed significant associations with KEGG pathways related to immune modulation, neuroendocrine regulation, and cancer-associated pathways. Collectively, these findings suggest a multitarget biological and multipathway pharmacological profile for <i>F. trinervia</i>, consistent with previously reported biological activities. The concordance between in silico predictions and existing experimental evidence strengthens the pharmacological relevance of the identified metabolites and supports their prioritization for further experimental validation, including mechanistic and pharmacokinetic studies, in metabolic, immune, neurological, and cancer-related contexts.",
+          "affiliation": "Centro de Investigaci\u00f3n Facultad de Medicina UNAM-UABJO, Facultad de Medicina y Cirug\u00eda, Universidad Aut\u00f3noma \"Benito Ju\u00e1rez\" de Oaxaca, Oaxaca 68020, Mexico.",
+          "authMan": "N",
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0001-6720-7952"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0379-4630"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-1710-0679"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0002-8502-7098"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-2182-2540"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-2737-7644"
+              },
+              {
+                "type": "ORCID",
+                "value": "0000-0003-4140-4661"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0003-0772-5944"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0009-9830-0506"
+              }
+            ]
+          },
+          "authorList": {
+            "author": [
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Centro de Investigaci\u00f3n Facultad de Medicina UNAM-UABJO, Facultad de Medicina y Cirug\u00eda, Universidad Aut\u00f3noma \"Benito Ju\u00e1rez\" de Oaxaca, Oaxaca 68020, Mexico."
+                    }
+                  ]
+                },
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0009-9830-0506"
+                },
+                "firstName": "Christopher",
+                "fullName": "Torres Flores C",
+                "initials": "C",
+                "lastName": "Torres Flores"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Divisi\u00f3n de Estudios de Posgrado e Investigaci\u00f3n, Tecnol\u00f3gico Nacional de M\u00e9xico/Instituto Tecnol\u00f3gico de Oaxaca, Oaxaca 68030, Mexico."
+                    }
+                  ]
+                },
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0001-6720-7952"
+                },
+                "firstName": "Eduardo",
+                "fullName": "P\u00e9rez-Campos E",
+                "initials": "E",
+                "lastName": "P\u00e9rez-Campos"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Centro de Investigaci\u00f3n Facultad de Medicina UNAM-UABJO, Facultad de Medicina y Cirug\u00eda, Universidad Aut\u00f3noma \"Benito Ju\u00e1rez\" de Oaxaca, Oaxaca 68020, Mexico."
+                    }
+                  ]
+                },
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-4140-4661"
+                },
+                "firstName": "Laura",
+                "fullName": "P\u00e9rez-Campos Mayoral L",
+                "initials": "L",
+                "lastName": "P\u00e9rez-Campos Mayoral"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Centro de Investigaci\u00f3n Facultad de Medicina UNAM-UABJO, Facultad de Medicina y Cirug\u00eda, Universidad Aut\u00f3noma \"Benito Ju\u00e1rez\" de Oaxaca, Oaxaca 68020, Mexico."
+                    }
+                  ]
+                },
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-1710-0679"
+                },
+                "firstName": "Luis \u00c1ngel",
+                "fullName": "Laguna-Barrios L\u00c1",
+                "initials": "L\u00c1",
+                "lastName": "Laguna-Barrios"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Coordinaci\u00f3n de Innovaci\u00f3n y Aplicaci\u00f3n de la Ciencia y la Tecnolog\u00eda, Universidad Aut\u00f3noma de San Luis Potos\u00ed, San Luis Potos\u00ed 78210, Mexico."
+                    }
+                  ]
+                },
+                "firstName": "Karen Beatriz",
+                "fullName": "M\u00e9ndez-Rodr\u00edguez KB",
+                "initials": "KB",
+                "lastName": "M\u00e9ndez-Rodr\u00edguez"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Coordinaci\u00f3n de Innovaci\u00f3n y Aplicaci\u00f3n de la Ciencia y la Tecnolog\u00eda, Universidad Aut\u00f3noma de San Luis Potos\u00ed, San Luis Potos\u00ed 78210, Mexico."
+                    }
+                  ]
+                },
+                "firstName": "Francisco Javier",
+                "fullName": "P\u00e9rez-V\u00e1zquez FJ",
+                "initials": "FJ",
+                "lastName": "P\u00e9rez-V\u00e1zquez"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Centro de Investigaci\u00f3n Facultad de Medicina UNAM-UABJO, Facultad de Medicina y Cirug\u00eda, Universidad Aut\u00f3noma \"Benito Ju\u00e1rez\" de Oaxaca, Oaxaca 68020, Mexico."
+                    }
+                  ]
+                },
+                "firstName": "Eduardo",
+                "fullName": "P\u00e9rez Campos-Mayoral E",
+                "initials": "E",
+                "lastName": "P\u00e9rez Campos-Mayoral"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Divisi\u00f3n de Estudios de Posgrado e Investigaci\u00f3n, Tecnol\u00f3gico Nacional de M\u00e9xico/Instituto Tecnol\u00f3gico de Oaxaca, Oaxaca 68030, Mexico."
+                    }
+                  ]
+                },
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-2737-7644"
+                },
+                "firstName": "Carlos Mauricio",
+                "fullName": "Lastre-Dom\u00ednguez CM",
+                "initials": "CM",
+                "lastName": "Lastre-Dom\u00ednguez"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Direcci\u00f3n General de los Servicios de Salud de Oaxaca, Secretaria de Salud, Servicios de Salud de Oaxaca, Oaxaca 68000, Mexico."
+                    }
+                  ]
+                },
+                "firstName": "Efr\u00e9n Emmanuel",
+                "fullName": "Jarqu\u00edn Gonz\u00e1lez EE",
+                "initials": "EE",
+                "lastName": "Jarqu\u00edn Gonz\u00e1lez"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Divisi\u00f3n de Estudios de Posgrado e Investigaci\u00f3n, Tecnol\u00f3gico Nacional de M\u00e9xico/Instituto Tecnol\u00f3gico de Oaxaca, Oaxaca 68030, Mexico."
+                    }
+                  ]
+                },
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0379-4630"
+                },
+                "firstName": "Margarito",
+                "fullName": "Mart\u00ednez Cruz M",
+                "initials": "M",
+                "lastName": "Mart\u00ednez Cruz"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Centro de Investigaci\u00f3n Facultad de Medicina UNAM-UABJO, Facultad de Medicina y Cirug\u00eda, Universidad Aut\u00f3noma \"Benito Ju\u00e1rez\" de Oaxaca, Oaxaca 68020, Mexico."
+                    }
+                  ]
+                },
+                "firstName": "Mar\u00eda Del Socorro",
+                "fullName": "Pina Canseco MDS",
+                "initials": "MDS",
+                "lastName": "Pina Canseco"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Centro de Investigaci\u00f3n Facultad de Medicina UNAM-UABJO, Facultad de Medicina y Cirug\u00eda, Universidad Aut\u00f3noma \"Benito Ju\u00e1rez\" de Oaxaca, Oaxaca 68020, Mexico."
+                    }
+                  ]
+                },
+                "firstName": "Zoila",
+                "fullName": "Mora Guzm\u00e1n Z",
+                "initials": "Z",
+                "lastName": "Mora Guzm\u00e1n"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Direcci\u00f3n de la Divisi\u00f3n de Investigaci\u00f3n y Desarrollo Cient\u00edfico, Benem\u00e9rita Universidad de Oaxaca, Oaxaca 68000, Mexico."
+                    }
+                  ]
+                },
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0003-0772-5944"
+                },
+                "firstName": "Karol Celeste",
+                "fullName": "L\u00f3pez Montesinos KC",
+                "initials": "KC",
+                "lastName": "L\u00f3pez Montesinos"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Centro de Investigaci\u00f3n Facultad de Medicina UNAM-UABJO, Facultad de Medicina y Cirug\u00eda, Universidad Aut\u00f3noma \"Benito Ju\u00e1rez\" de Oaxaca, Oaxaca 68020, Mexico."
+                    },
+                    {
+                      "affiliation": "Direcci\u00f3n de la Divisi\u00f3n de Investigaci\u00f3n y Desarrollo Cient\u00edfico, Benem\u00e9rita Universidad de Oaxaca, Oaxaca 68000, Mexico."
+                    },
+                    {
+                      "affiliation": "R&D Group, Vice Presidency Scientific Research & Innovation, Imam Abdulrahman bin Faisal University (IAU), Dammam 31451, Saudi Arabia."
+                    },
+                    {
+                      "affiliation": "Divisi\u00f3n de Estudios de Posgrado e Investigaci\u00f3n, Tecnol\u00f3gico Nacional de M\u00e9xico/Instituto Tecnol\u00f3gico de Tijuana, Tijuana 22414, Mexico."
+                    }
+                  ]
+                },
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-8502-7098"
+                },
+                "firstName": "Hector A",
+                "fullName": "Cabrera-Fuentes HA",
+                "initials": "HA",
+                "lastName": "Cabrera-Fuentes"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Secretar\u00eda de Ciencia, Humanidades, Tecnolog\u00eda e Innovaci\u00f3n (SECIHTI), Facultad de Medicina y Cirug\u00eda, Universidad Aut\u00f3noma \"Benito Ju\u00e1rez\" de Oaxaca, Oaxaca 68020, Mexico."
+                    }
+                  ]
+                },
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0003-2182-2540"
+                },
+                "firstName": "Mar\u00eda Teresa",
+                "fullName": "Hern\u00e1ndez-Huerta MT",
+                "initials": "MT",
+                "lastName": "Hern\u00e1ndez-Huerta"
+              }
+            ]
+          },
+          "authorString": "Torres Flores C, P\u00e9rez-Campos E, P\u00e9rez-Campos Mayoral L, Laguna-Barrios L\u00c1, M\u00e9ndez-Rodr\u00edguez KB, P\u00e9rez-V\u00e1zquez FJ, P\u00e9rez Campos-Mayoral E, Lastre-Dom\u00ednguez CM, Jarqu\u00edn Gonz\u00e1lez EE, Mart\u00ednez Cruz M, Pina Canseco MDS, Mora Guzm\u00e1n Z, L\u00f3pez Montesinos KC, Cabrera-Fuentes HA, Hern\u00e1ndez-Huerta MT.",
+          "citedByCount": 0,
+          "dateOfCompletion": "2026-02-27",
+          "dateOfCreation": "2026-02-27",
+          "dateOfRevision": "2026-02-28",
+          "doi": "10.3390/cimb48020160",
+          "electronicPublicationDate": "2026-02-01",
+          "epmcAuthMan": "N",
+          "firstIndexDate": "2026-02-27",
+          "firstPublicationDate": "2026-02-01",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12939618"
+            ]
+          },
+          "fullTextReceivedDate": "2026-02-27",
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/cimb48020160"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12939618"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12939618?pdf=render"
+              }
+            ]
+          },
+          "hasBook": "N",
+          "hasData": "Y",
+          "hasDbCrossReferences": "N",
+          "hasEvaluations": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "N",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "N",
+          "id": "41751423",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalInfo": {
+            "dateOfPublication": "2026 Feb",
+            "issue": "2",
+            "journal": {
+              "essn": "1467-3045",
+              "isoabbreviation": "Curr Issues Mol Biol",
+              "issn": "1467-3037",
+              "medlineAbbreviation": "Curr Issues Mol Biol",
+              "nlmid": "100931761",
+              "title": "Current issues in molecular biology"
+            },
+            "journalIssueId": 4132783,
+            "monthOfPublication": 2,
+            "printPublicationDate": "2026-02-01",
+            "volume": "48",
+            "yearOfPublication": 2026
+          },
+          "keywordList": {
+            "keyword": [
+              "Plant extracts",
+              "Tumor",
+              "Bioactive metabolites",
+              "Gas Chromatography\u2013mass Spectrometry",
+              "Immune Disorders",
+              "Network Pharmacology",
+              "Pharmaceutical Research",
+              "Flaveria Trinervia"
+            ]
+          },
+          "language": "eng",
+          "license": "cc by",
+          "nihAuthMan": "N",
+          "pageInfo": "160",
+          "pmcid": "PMC12939618",
+          "pmid": "41751423",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "pubYear": "2026",
+          "publicationStatus": "epublish",
+          "source": "MED",
+          "title": "From Gas Chromatography-Mass Spectrometry (GC-MS) to Network Pharmacology: System-Level Insights into the Multi-Target Biological Potential of &lt;i&gt;Flaveria trinervia&lt;/i&gt; (Spreng.) C. Mohr."
+        },
+        {
+          "abstractText": "Epimedium brevicornu (Yin Yang Huo), a widely used traditional Chinese medicinal ingredient, has garnered significant attention for its role in treating orthopedic diseases such as osteoporosis. Our work through network pharmacology and bioinformatics analysis, we identified that out of 27 major active components in Epimedium brevicornu, 8 key components have therapeutic effects on 11 types of diseases related to orthopedic conditions. The disease-target association analysis indicated that Osteoarthritis, Osteoporosis, Muscle Spasm and Myopathy have relatively clear targets for disease treatment. The KEGG enrichment analysis results indicate that the signaling pathway of Epimedium treatment in Osteoarthritis may be closely related to the Lipid and atherosclerosis pathway, PPAR signaling pathway and Arachidonic acid metabolism. Epimedium may treat osteoporosis with Nitrogen metabolism, GABAergic synapse, and Pathways in cancer. Epimedium may affect muscle spasticity through Neuroactive ligand-receptor interaction, Serotonergic synapse and Cholinergic synapse closely related to nervous system function; Additionally, our analysis suggests that Epimedium may treat myopathy through Nitrogen metabolism and GABAergic synapse pathways. These studies have not only provided a molecular mechanism-based explanation for the pharmacological effects of Epimedium, but also laid a theoretical foundation for the development of Epimedium-based precision therapeutic regimens.",
+          "affiliation": "Department of Clinical Laboratory, Affiliated Hospital of Shaoxing University, Shaoxing, China.",
+          "authMan": "N",
+          "authorList": {
+            "author": [
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Clinical Laboratory, Affiliated Hospital of Shaoxing University, Shaoxing, China."
+                    }
+                  ]
+                },
+                "firstName": "Dan",
+                "fullName": "Tong D",
+                "initials": "D",
+                "lastName": "Tong"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Clinical Laboratory, Affiliated Hospital of Shaoxing University, Shaoxing, China."
+                    }
+                  ]
+                },
+                "firstName": "Long",
+                "fullName": "Chen L",
+                "initials": "L",
+                "lastName": "Chen"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Medical Technology and Information Engineering, Zhejiang Chinese Medical University, Hangzhou, China."
+                    }
+                  ]
+                },
+                "firstName": "Zeyi",
+                "fullName": "Jiang Z",
+                "initials": "Z",
+                "lastName": "Jiang"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Medical Technology and Information Engineering, Zhejiang Chinese Medical University, Hangzhou, China."
+                    }
+                  ]
+                },
+                "firstName": "Xuxia",
+                "fullName": "Ye X",
+                "initials": "X",
+                "lastName": "Ye"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Medical Technology and Information Engineering, Zhejiang Chinese Medical University, Hangzhou, China."
+                    }
+                  ]
+                },
+                "firstName": "Mengjie",
+                "fullName": "Ma M",
+                "initials": "M",
+                "lastName": "Ma"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Clinical Laboratory, Traditional Chinese Medical Hospital of Zhuji, Zhuji, Zhejiang, China."
+                    }
+                  ]
+                },
+                "firstName": "Angzhi",
+                "fullName": "Ye A",
+                "initials": "A",
+                "lastName": "Ye"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Medical Technology and Information Engineering, Zhejiang Chinese Medical University, Hangzhou, China."
+                    }
+                  ]
+                },
+                "firstName": "Jian",
+                "fullName": "Xu J",
+                "initials": "J",
+                "lastName": "Xu"
+              }
+            ]
+          },
+          "authorString": "Tong D, Chen L, Jiang Z, Ye X, Ma M, Ye A, Xu J.",
+          "citedByCount": 2,
+          "dateOfCompletion": "2025-09-15",
+          "dateOfCreation": "2025-08-28",
+          "dateOfRevision": "2025-09-15",
+          "doi": "10.3389/fphar.2025.1628602",
+          "electronicPublicationDate": "2025-08-12",
+          "epmcAuthMan": "N",
+          "firstIndexDate": "2025-09-04",
+          "firstPublicationDate": "2025-08-12",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12378337"
+            ]
+          },
+          "fullTextReceivedDate": "2025-08-28",
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3389/fphar.2025.1628602"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12378337"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12378337?pdf=render"
+              }
+            ]
+          },
+          "hasBook": "N",
+          "hasData": "N",
+          "hasDbCrossReferences": "N",
+          "hasEvaluations": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "40873547",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalInfo": {
+            "dateOfPublication": "2025 ",
+            "journal": {
+              "essn": "1663-9812",
+              "isoabbreviation": "Front Pharmacol",
+              "issn": "1663-9812",
+              "medlineAbbreviation": "Front Pharmacol",
+              "nlmid": "101548923",
+              "title": "Frontiers in pharmacology"
+            },
+            "journalIssueId": 3893159,
+            "monthOfPublication": 0,
+            "printPublicationDate": "2025-01-01",
+            "volume": "16",
+            "yearOfPublication": 2025
+          },
+          "keywordList": {
+            "keyword": [
+              "Epimedium",
+              "Target",
+              "pathway",
+              "Enrichment Analysis",
+              "Orthopedic Diseases"
+            ]
+          },
+          "language": "eng",
+          "license": "cc by",
+          "nihAuthMan": "N",
+          "pageInfo": "1628602",
+          "pmcid": "PMC12378337",
+          "pmid": "40873547",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "pubYear": "2025",
+          "publicationStatus": "epublish",
+          "source": "MED",
+          "title": "Progress in the application of epimedium and its major bioactive components in the treatment of orthopedic diseases."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28PPARG+OR+PPARA+OR+PPARD+OR+RXRA+OR+RXRB+OR+RXRG%29+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+Sjogren+OR+%22type+1+diabetes%22+OR+%22primary+biliary+cholangitis%22+OR+autoimmune%29&format=json&pageSize=3&resultType=core"
+}

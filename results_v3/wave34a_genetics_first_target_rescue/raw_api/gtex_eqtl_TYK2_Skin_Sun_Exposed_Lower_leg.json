@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr19",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000105397.13",
+        "geneSymbol": "TYK2",
+        "geneSymbolUpper": "TYK2",
+        "nes": 0.147843,
+        "ontologyId": "UBERON:0004264",
+        "pValue": 1.6941e-05,
+        "pos": 10271861,
+        "snpId": "rs5030390",
+        "snpIdUpper": "RS5030390",
+        "tissueSiteDetailId": "Skin_Sun_Exposed_Lower_leg",
+        "variantId": "chr19_10271861_G_A_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 99,
+      "page": 0,
+      "totalNumberOfItems": 99
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000105397.13&tissueSiteDetailId=Skin_Sun_Exposed_Lower_leg&datasetId=gtex_v8&itemsPerPage=1"
+}

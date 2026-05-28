@@ -1,0 +1,861 @@
+{
+  "data": {
+    "credibleSets": {
+      "count": 2,
+      "rows": [
+        {
+          "beta": 0.008139897427174329,
+          "chromosome": "1",
+          "colocalisation": {
+            "count": 76,
+            "rows": [
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.0025226883767933495,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7369961069920816,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "EFO_0005292",
+                      "biosampleName": "lymphoblastoid cell line"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "1:113905775:113908009:clu_32214_+"
+                  },
+                  "studyId": "geuvadis_leafcutter_lcl_1_113905775_113908009_clu_32214__",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.0020004801884170673,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.6895242282694976,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "EFO_0004905",
+                      "biosampleName": "induced pluripotent stem cell"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "1:113905775:113908009:clu_9724_-"
+                  },
+                  "studyId": "hipsci_leafcutter_ipsc_1_113905775_113908009_clu_9724_-",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.0017953694432573954,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.6658538787149232,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001950",
+                      "biosampleName": "neocortex"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "1:113905775:113908009:clu_5412_-"
+                  },
+                  "studyId": "walker_2019_leafcutter_neocortex_1_113905775_113908009_clu_5412_-",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.0022939872593299407,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7181140978393874,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001013",
+                      "biosampleName": "adipose tissue"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "1:113905775:113908009:clu_11610_-"
+                  },
+                  "studyId": "fusion_leafcutter_adipose_naive_1_113905775_113908009_clu_11610_-",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.002554303522399612,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7394098185120326,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "EFO_0005292",
+                      "biosampleName": "lymphoblastoid cell line"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "1:113905775:113908009:clu_9153_-"
+                  },
+                  "studyId": "cap_leafcutter_lcl_naive_1_113905775_113908009_clu_9153_-",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.0024308138420948426,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7297220220082187,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0002037",
+                      "biosampleName": "cerebellum"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "putative homeodomain transcription factor 1",
+                      "approvedSymbol": "PHTF1",
+                      "id": "ENSG00000116793"
+                    },
+                    "traitFromSource": "1:113700949:113704081:clu_9771_-"
+                  },
+                  "studyId": "gtex_leafcutter_brain_cerebellum_1_113700949_113704081_clu_9771_-",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.002027449294414749,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.6923901119553785,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000235",
+                      "biosampleName": "macrophage"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "1:113905775:113908009:clu_6779_-"
+                  },
+                  "studyId": "alasoo_2018_leafcutter_macrophage_ifng_1_113905775_113908009_clu_6779_-",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.002801292428827431,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7568486191138979,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0007610",
+                      "biosampleName": "tibial artery"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "1:113905775:113908009:clu_46531_+"
+                  },
+                  "studyId": "gtex_leafcutter_artery_tibial_1_113905775_113908009_clu_46531__",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.0030381129453568192,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7715171784839523,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0006920",
+                      "biosampleName": "esophagus squamous epithelium"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "1:113905775:113908009:clu_50311_+"
+                  },
+                  "studyId": "gtex_leafcutter_esophagus_mucosa_1_113905775_113908009_clu_50311__",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.002433909362686689,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7299736263296008,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000057",
+                      "biosampleName": "fibroblast"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "1:113905775:113906996:clu_48503_+"
+                  },
+                  "studyId": "gtex_leafcutter_fibroblast_1_113905775_113906996_clu_48503__",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.0025092594506403963,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7359573216490048,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0036149",
+                      "biosampleName": "suprapubic skin"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "1:113905775:113908009:clu_50249_+"
+                  },
+                  "studyId": "gtex_leafcutter_skin_not_sun_exposed_1_113905775_113908009_clu_50249__",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.002174868358550481,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7071682654146361,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001013",
+                      "biosampleName": "adipose tissue"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "1:113905775:113908009:clu_49364_+"
+                  },
+                  "studyId": "gtex_leafcutter_adipose_subcutaneous_1_113905775_113908009_clu_49364__",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.0021676744778042333,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7064800336248767,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0002097",
+                      "biosampleName": "skin of body"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "1:113905775:113908009:clu_50249_+"
+                  },
+                  "studyId": "gtex_leafcutter_skin_sun_exposed_1_113905775_113908009_clu_50249__",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.0026297584839612372,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7449959925646693,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0009834",
+                      "biosampleName": "dorsolateral prefrontal cortex"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "1:113905775:113908009:clu_50582_+"
+                  },
+                  "studyId": "brainseq_leafcutter_brain_1_113905775_113908009_clu_50582__",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.0010422124523658705,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.5361347088654735,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0010414",
+                      "biosampleName": "omental fat pad"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "ENSG00000118655.grp_2.contained.ENST00000648795"
+                  },
+                  "studyId": "gtex_txrev_adipose_visceral_ensg00000118655_grp_2_contained_enst00000648795",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.002179291072280367,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7075897879648024,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "EFO_0004905",
+                      "biosampleName": "induced pluripotent stem cell"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "ENSG00000118655.grp_1.contained.ENST00000650450"
+                  },
+                  "studyId": "ipscore_txrev_ipsc_ensg00000118655_grp_1_contained_enst00000650450",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.003021273416086435,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7705326041702477,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0009834",
+                      "biosampleName": "dorsolateral prefrontal cortex"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "ENSG00000118655.grp_1.contained.ENST00000650450"
+                  },
+                  "studyId": "brainseq_txrev_brain_ensg00000118655_grp_1_contained_enst00000650450",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.002335230783802466,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7217163227160059,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "EFO_0005292",
+                      "biosampleName": "lymphoblastoid cell line"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "ENSG00000118655.grp_2.contained.ENST00000650450"
+                  },
+                  "studyId": "cap_txrev_lcl_naive_ensg00000118655_grp_2_contained_enst00000650450",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.0024889658595489508,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7343719212288025,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0002057",
+                      "biosampleName": "CD14-positive, CD16-negative classical monocyte"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "ENSG00000118655.grp_2.contained.ENST00000650450"
+                  },
+                  "studyId": "blueprint_txrev_monocyte_ensg00000118655_grp_2_contained_enst00000650450",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.0028054771307627303,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.75712407452397,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000235",
+                      "biosampleName": "macrophage"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "ENSG00000118655.grp_1.contained.ENST00000648795"
+                  },
+                  "studyId": "alasoo_2018_txrev_macrophage_salmonella_ensg00000118655_grp_1_contained_enst00000648795",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.0011831672871617268,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.5675339547454716,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0009834",
+                      "biosampleName": "dorsolateral prefrontal cortex"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "putative homeodomain transcription factor 1",
+                      "approvedSymbol": "PHTF1",
+                      "id": "ENSG00000116793"
+                    },
+                    "traitFromSource": "ENSG00000116793.grp_1.downstream.ENST00000357783"
+                  },
+                  "studyId": "brainseq_txrev_brain_ensg00000116793_grp_1_downstream_enst00000357783",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.003509863352049787,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7960460652412794,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0008952",
+                      "biosampleName": "upper lobe of left lung"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "ENSG00000118655.grp_2.contained.ENST00000648795"
+                  },
+                  "studyId": "gtex_txrev_lung_ensg00000118655_grp_2_contained_enst00000648795",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.002945868661741675,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7660181910314027,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0002037",
+                      "biosampleName": "cerebellum"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "ENSG00000118655.grp_1.contained.ENST00000650450"
+                  },
+                  "studyId": "gtex_txrev_brain_cerebellar_hemisphere_ensg00000118655_grp_1_contained_enst00000650450",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.0025672947033634243,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.7403889057717883,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0007610",
+                      "biosampleName": "tibial artery"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "ENSG00000118655.grp_2.contained.ENST00000650450"
+                  },
+                  "studyId": "gtex_txrev_artery_tibial_ensg00000118655_grp_2_contained_enst00000650450",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.0017278988379176327,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.6572610691707174,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001013",
+                      "biosampleName": "adipose tissue"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "ENSG00000118655.grp_2.contained.ENST00000648795"
+                  },
+                  "studyId": "fusion_txrev_adipose_naive_ensg00000118655_grp_2_contained_enst00000648795",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              }
+            ]
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 4,
+            "rows": [
+              {
+                "score": 0.6449418663978577,
+                "target": {
+                  "approvedName": "protein tyrosine phosphatase non-receptor type 22",
+                  "approvedSymbol": "PTPN22",
+                  "id": "ENSG00000134242"
+                }
+              },
+              {
+                "score": 0.24146930873394012,
+                "target": {
+                  "approvedName": "putative homeodomain transcription factor 1",
+                  "approvedSymbol": "PHTF1",
+                  "id": "ENSG00000116793"
+                }
+              },
+              {
+                "score": 0.10696252435445786,
+                "target": {
+                  "approvedName": "DNA cross-link repair 1B",
+                  "approvedSymbol": "DCLRE1B",
+                  "id": "ENSG00000118655"
+                }
+              },
+              {
+                "score": 0.05130782723426819,
+                "target": {
+                  "approvedName": "BCL2 like 15",
+                  "approvedSymbol": "BCL2L15",
+                  "id": "ENSG00000188761"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -10,
+          "pValueMantissa": 2.9646542072296143,
+          "position": 113761186,
+          "purityMeanR2": 0.7172654929022269,
+          "purityMinR2": 0.3511873290289677,
+          "standardError": null,
+          "studyId": "GCST90043633",
+          "studyLocusId": "72b292c0a682df9a8c9e79a8d60eb487",
+          "studyType": "gwas",
+          "variant": {
+            "id": "1_113761186_C_A",
+            "rsIds": [
+              "rs6679677"
+            ]
+          }
+        },
+        {
+          "beta": 0.008987853752156263,
+          "chromosome": "11",
+          "colocalisation": {
+            "count": 5,
+            "rows": [
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.28900943343474056,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9977936218859372,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001150",
+                      "biosampleName": "body of pancreas"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "insulin",
+                      "approvedSymbol": "INS",
+                      "id": "ENSG00000254647"
+                    },
+                    "traitFromSource": "ENST00000381330"
+                  },
+                  "studyId": "gtex_tx_pancreas_enst00000381330",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.33872253038187805,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9982630699193703,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001150",
+                      "biosampleName": "body of pancreas"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "insulin",
+                      "approvedSymbol": "INS",
+                      "id": "ENSG00000254647"
+                    },
+                    "traitFromSource": "ENSG00000254647.grp_2.upstream.ENST00000381330"
+                  },
+                  "studyId": "gtex_txrev_pancreas_ensg00000254647_grp_2_upstream_enst00000381330",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.0293334135087022,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9702717225933486,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000006",
+                      "biosampleName": "islet of Langerhans"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "insulin",
+                      "approvedSymbol": "INS",
+                      "id": "ENSG00000254647"
+                    },
+                    "traitFromSource": "ENSG00000254647.grp_1.downstream.ENST00000397262"
+                  },
+                  "studyId": "van_de_bunt_2015_txrev_pancreatic_islet_ensg00000254647_grp_1_downstream_enst00000397262",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.3356201556796775,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9982378311461827,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000006",
+                      "biosampleName": "islet of Langerhans"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "insulin",
+                      "approvedSymbol": "INS",
+                      "id": "ENSG00000254647"
+                    },
+                    "traitFromSource": "ENSG00000254647.grp_1.upstream.ENST00000421783"
+                  },
+                  "studyId": "pisa_txrev_pancreatic_islet_ensg00000254647_grp_1_upstream_enst00000421783",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.03302085969369732,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9736093657968019,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001150",
+                      "biosampleName": "body of pancreas"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "insulin",
+                      "approvedSymbol": "INS",
+                      "id": "ENSG00000254647"
+                    },
+                    "traitFromSource": "ENSG00000254647.grp_1.downstream.ENST00000512523"
+                  },
+                  "studyId": "gtex_txrev_pancreas_ensg00000254647_grp_1_downstream_enst00000512523",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              }
+            ]
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.8736320734024048,
+                "target": {
+                  "approvedName": "insulin",
+                  "approvedSymbol": "INS",
+                  "id": "ENSG00000254647"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -11,
+          "pValueMantissa": 8.507572174072266,
+          "position": 2160994,
+          "purityMeanR2": 0.8526541859654354,
+          "purityMinR2": 0.6394394391874386,
+          "standardError": null,
+          "studyId": "GCST90043633",
+          "studyLocusId": "899f7d41b1a5b07d91dfcea00f3d7798",
+          "studyType": "gwas",
+          "variant": {
+            "id": "11_2160994_A_T",
+            "rsIds": [
+              "rs689"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

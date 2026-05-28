@@ -1,0 +1,11 @@
+gate	passed	value	rationale
+cross_disease_external_genetic_breadth	True	n=6; diseases=AS;Crohn;MS;Psoriasis;RA;UC	requires broad Open Targets autoimmune genetics as a screening signal
+target_resolved_coloc_or_mr	False	not available in this run; Open Targets associated-target scores are not coloc/MR	hard V3 causality gate
+local_cross_disease_cell_state_replication	True	positive=4; negative=0; diseases=Crohn disease;Sjogren syndrome;psoriasis;ulcerative colitis	requires replicated disease-tissue expression/cell-state signal
+module_specific_residual_signal	False	strict_core=; top_retained=ibd_crohn_myeloid|hla_ii_apc:0.255,p=0.015;ibd_crohn_myeloid|c1q_phagocytic_myeloid:0.284,p=0.016;ibd_crohn_myeloid|complement_phagocytosis:0.262,p=0.025;ibd_crohn_myeloid|complement_effector:0.24,p=0.026;ibd_crohn_myeloid|lipid_loader_repair:0.246,p=0.029;ibd_crohn_myeloid|mif_cd74_receptor_state:0.209,p=0.046	requires module-specific signal in strict core covariate-surviving analyses, not only retained nominal tests
+strict_ms_white_matter_anchor	False	delta=-0.0867628128456026; p=0.7262224269643743; fdr=0.9677805697088556	requires MS local replication after multiple testing
+real_perturbation_support	False	efferocytosis_screen=UNRESOLVED; contrast_lfc=1.0553304433165922; contrast_fdr=0.920009505703422; direct=None	available screen is unresolved and not a disease-state rescue perturbation
+foundation_model_support	False	foundation=None	requires SP140-specific foundation-model rescue evidence
+direct_druggable_handle	False	ChEMBL activity_rows=0.0; best_nM=nan; type=SINGLE PROTEIN; domains=HSR; SAND; Bromo; PHD-type; Disordered; Disordered; Disordered; Basic and acidic residues; Acidic residues; Acidic residues; Low complexity; Basic residues; Basic residues	requires direct selective chemical matter or equivalent modality
+clinical_or_patent_crowding_not_blocking	False	autoimmune_target_hits=130; inhibitor_hits=388; degrader_hits=8	early screen only; patent URLs are recorded separately
+correct_direction_intervention	False	risk/mechanism appears more compatible with restoring myeloid nuclear regulator function than inhibiting it; no restoration modality identified	therapeutic direction must match disease biology and be feasible

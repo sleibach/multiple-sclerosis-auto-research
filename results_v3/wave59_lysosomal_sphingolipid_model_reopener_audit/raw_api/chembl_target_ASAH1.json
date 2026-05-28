@@ -1,0 +1,560 @@
+{
+  "page_meta": {
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 2
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Rattus norvegicus",
+      "pref_name": "Acid ceramidase",
+      "score": 19.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL2331070",
+      "target_components": [
+        {
+          "accession": "Q6P7S1",
+          "component_description": "Acid ceramidase",
+          "component_id": 7302,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "3.5.1.-",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "3.5.1.23",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "ACDase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Acid CDase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Acid ceramidase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Acid ceramidase subunit alpha",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Acid ceramidase subunit beta",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Acylsphingosine deacylase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Asah1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "N-acylethanolamine hydrolase ASAH1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "N-acylsphingosine amidohydrolase",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "Q6P7S1",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "Q6P7S1",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005615",
+              "xref_name": "extracellular space",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005764",
+              "xref_name": "lysosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005769",
+              "xref_name": "early endosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005783",
+              "xref_name": "endoplasmic reticulum",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016787",
+              "xref_name": "hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016811",
+              "xref_name": "hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0017040",
+              "xref_name": "N-acylsphingosine amidohydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0017064",
+              "xref_name": "fatty acid amide hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006631",
+              "xref_name": "fatty acid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030216",
+              "xref_name": "keratinocyte differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030324",
+              "xref_name": "lung development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046512",
+              "xref_name": "sphingosine biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046513",
+              "xref_name": "ceramide biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046514",
+              "xref_name": "ceramide catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0062098",
+              "xref_name": "regulation of programmed necrotic cell death",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "Q6P7S1",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR016699",
+              "xref_name": "Acid_ceramidase-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029130",
+              "xref_name": "Acid_ceramidase_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029132",
+              "xref_name": "CBAH/NAAA_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR28583",
+              "xref_name": "ACID AMIDASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR28583:SF1",
+              "xref_name": "ACID CERAMIDASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF02275",
+              "xref_name": "CBAH",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF15508",
+              "xref_name": "NAAA-beta",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "R-RNO-6798695",
+              "xref_name": "Neutrophil degranulation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-RNO-9840310",
+              "xref_name": "Glycosphingolipid catabolism",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "Q6P7S1",
+              "xref_name": "Acid ceramidase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9EQJ6",
+              "xref_name": "Acid ceramidase",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 10116
+    },
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Acid ceramidase",
+      "score": 17.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL5463",
+      "target_components": [
+        {
+          "accession": "Q13510",
+          "component_description": "Acid ceramidase",
+          "component_id": 3755,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "3.5.1.-",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "3.5.1.109",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "3.5.1.23",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "ACDase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Acid CDase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Acid ceramidase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Acid ceramidase subunit alpha",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Acid ceramidase subunit beta",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Acylsphingosine deacylase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ASAH",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "ASAH1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Glycosylceramide deacylase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "N-acylethanolamine hydrolase ASAH1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "N-acylsphingosine amidohydrolase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PHP32",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Putative 32 kDa heart protein",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "Q13510",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "Q13510",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005615",
+              "xref_name": "extracellular space",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005764",
+              "xref_name": "lysosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005769",
+              "xref_name": "early endosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005783",
+              "xref_name": "endoplasmic reticulum",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0043202",
+              "xref_name": "lysosomal lumen",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:1904724",
+              "xref_name": "tertiary granule lumen",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:1904813",
+              "xref_name": "ficolin-1-rich granule lumen",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016787",
+              "xref_name": "hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016811",
+              "xref_name": "hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0017040",
+              "xref_name": "N-acylsphingosine amidohydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0017064",
+              "xref_name": "fatty acid amide hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006631",
+              "xref_name": "fatty acid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030216",
+              "xref_name": "keratinocyte differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046512",
+              "xref_name": "sphingosine biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046513",
+              "xref_name": "ceramide biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046514",
+              "xref_name": "ceramide catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0062098",
+              "xref_name": "regulation of programmed necrotic cell death",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:735",
+              "xref_name": "ASAH1",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "Q13510",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR016699",
+              "xref_name": "Acid_ceramidase-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029130",
+              "xref_name": "Acid_ceramidase_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029132",
+              "xref_name": "CBAH/NAAA_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR28583",
+              "xref_name": "ACID AMIDASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR28583:SF1",
+              "xref_name": "ACID CERAMIDASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "5U7Z",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6MHM",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5U7Z",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6MHM",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF02275",
+              "xref_name": "CBAH",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF15508",
+              "xref_name": "NAAA-beta",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA35025",
+              "xref_name": "N-acylsphingosine amidohydrolase 1",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "Q13510",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-6798695",
+              "xref_name": "Neutrophil degranulation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9840310",
+              "xref_name": "Glycosphingolipid catabolism",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9857377",
+              "xref_name": "Regulation of MITF-M-dependent genes involved in lysosome biogenesis and autophagy",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "E9PDS0",
+              "xref_name": "Acid ceramidase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q13510",
+              "xref_name": "Acid ceramidase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q6W898",
+              "xref_name": "Acid ceramidase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q96AS2",
+              "xref_name": "Acid ceramidase",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

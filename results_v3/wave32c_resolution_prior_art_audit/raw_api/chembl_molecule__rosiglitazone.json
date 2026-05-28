@@ -1,0 +1,398 @@
+{
+  "molecules": [
+    {
+      "atc_classifications": [
+        "A10BG02"
+      ],
+      "availability_type": -2,
+      "biotherapeutic": null,
+      "black_box_warning": 1,
+      "chemical_probe": 0,
+      "chirality": 0,
+      "cross_references": [
+        {
+          "xref_id": "human/EPAR/nyracta",
+          "xref_name": "nyracta",
+          "xref_src": "EMA"
+        },
+        {
+          "xref_id": "human/EPAR/venvia",
+          "xref_name": "venvia",
+          "xref_src": "EMA"
+        }
+      ],
+      "dosed_ingredient": true,
+      "first_approval": 1999,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL121",
+      "molecule_hierarchy": {
+        "active_chembl_id": null,
+        "molecule_chembl_id": "CHEMBL121",
+        "parent_chembl_id": "CHEMBL121"
+      },
+      "molecule_properties": {
+        "alogp": "2.49",
+        "aromatic_rings": 2,
+        "full_molformula": "C18H19N3O3S",
+        "full_mwt": "357.44",
+        "hba": 6,
+        "hbd": 1,
+        "heavy_atoms": 25,
+        "mw_freebase": "357.44",
+        "np_likeness_score": "-0.93",
+        "num_ro5_violations": 0,
+        "psa": "71.53",
+        "qed_weighted": "0.82",
+        "ro3_pass": "N",
+        "rtb": 7
+      },
+      "molecule_structures": {
+        "canonical_smiles": "CN(CCOc1ccc(CC2SC(=O)NC2=O)cc1)c1ccccn1",
+        "molfile": "\n     RDKit          2D\n\n 25 27  0  0  0  0  0  0  0  0999 V2000\n    5.5667   -3.7917    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8042   -3.1417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.8875   -3.7917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.2500   -2.7167    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n    4.6542   -3.1250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.9083   -4.1417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.5500   -3.7792    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    6.4750   -2.9542    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.2750   -3.7917    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    4.4917   -4.3792    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0625   -2.7542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4417   -3.0917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2250   -3.7917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8167   -2.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4417   -3.7917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8167   -4.1667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2250   -3.0917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.6042   -4.1417    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    0.9792   -3.7917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.3417   -4.1417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.9083   -4.8667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.1625   -4.1417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.2750   -3.0792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.5500   -5.2417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.1625   -4.8667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0\n  3  1  1  0\n  4  2  1  0\n  5  3  1  0\n  6  9  1  0\n  7  6  1  0\n  8  2  2  0\n  9 20  1  0\n 10  3  2  0\n 11  5  1  0\n 12 11  1  0\n 13 16  2  0\n 14 12  1  0\n 15 12  2  0\n 16 15  1  0\n 17 14  2  0\n 18 13  1  0\n 19 18  1  0\n 20 19  1  0\n 21  6  2  0\n 22  7  2  0\n 23  9  1  0\n 24 21  1  0\n 25 22  1  0\n  4  5  1  0\n 13 17  1  0\n 24 25  2  0\nM  END\n> <chembl_id>\nCHEMBL121\n\n> <chembl_pref_name>\nROSIGLITAZONE",
+        "standard_inchi": "InChI=1S/C18H19N3O3S/c1-21(16-4-2-3-9-19-16)10-11-24-14-7-5-13(6-8-14)12-15-17(22)20-18(23)25-15/h2-9,15H,10-12H2,1H3,(H,20,22,23)",
+        "standard_inchi_key": "YASAKCUCGLMORW-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "Avandamet",
+          "syn_type": "OTHER",
+          "synonyms": "Avandamet"
+        },
+        {
+          "molecule_synonym": "Avandaryl",
+          "syn_type": "OTHER",
+          "synonyms": "Avandaryl"
+        },
+        {
+          "molecule_synonym": "Avandia",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "AVANDIA"
+        },
+        {
+          "molecule_synonym": "BRL-49653",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "BRL-49653"
+        },
+        {
+          "molecule_synonym": "Gaudil",
+          "syn_type": "OTHER",
+          "synonyms": "GAUDIL"
+        },
+        {
+          "molecule_synonym": "NSC-758698",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-758698"
+        },
+        {
+          "molecule_synonym": "Nyracta",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "NYRACTA"
+        },
+        {
+          "molecule_synonym": "Rezult",
+          "syn_type": "OTHER",
+          "synonyms": "REZULT"
+        },
+        {
+          "molecule_synonym": "Rosiglitazona",
+          "syn_type": "INN_SPANISH",
+          "synonyms": "ROSIGLITAZONA"
+        },
+        {
+          "molecule_synonym": "Rosiglitazone",
+          "syn_type": "ATC",
+          "synonyms": "ROSIGLITAZONE"
+        },
+        {
+          "molecule_synonym": "Rosiglitazone",
+          "syn_type": "BAN",
+          "synonyms": "ROSIGLITAZONE"
+        },
+        {
+          "molecule_synonym": "Rosiglitazone",
+          "syn_type": "BNF",
+          "synonyms": "ROSIGLITAZONE"
+        },
+        {
+          "molecule_synonym": "Rosiglitazone",
+          "syn_type": "EMA",
+          "synonyms": "ROSIGLITAZONE"
+        },
+        {
+          "molecule_synonym": "Rosiglitazone",
+          "syn_type": "INN",
+          "synonyms": "ROSIGLITAZONE"
+        },
+        {
+          "molecule_synonym": "Rosiglitazone",
+          "syn_type": "MERCK_INDEX",
+          "synonyms": "ROSIGLITAZONE"
+        },
+        {
+          "molecule_synonym": "Rosiglitazone",
+          "syn_type": "OTHER",
+          "synonyms": "ROSIGLITAZONE"
+        },
+        {
+          "molecule_synonym": "Rosiglizole",
+          "syn_type": "OTHER",
+          "synonyms": "ROSIGLIZOLE"
+        },
+        {
+          "molecule_synonym": "Rosvel",
+          "syn_type": "OTHER",
+          "synonyms": "ROSVEL"
+        },
+        {
+          "molecule_synonym": "TDZ-01",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "TDZ-01"
+        },
+        {
+          "molecule_synonym": "Venvia",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "VENVIA"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 1,
+      "oral": true,
+      "orphan": 0,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "ROSIGLITAZONE",
+      "prodrug": 0,
+      "score": 36.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": true,
+      "topical": false,
+      "usan_stem": "-glitazone",
+      "usan_stem_definition": "peroxisome proliferator activiating receptor (PPAR) agonists (thiazolidene derivatives)",
+      "usan_substem": "-glitazone",
+      "usan_year": 1997,
+      "veterinary": 0,
+      "withdrawn_flag": true
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": -2,
+      "biotherapeutic": null,
+      "black_box_warning": 1,
+      "chemical_probe": 0,
+      "chirality": 0,
+      "cross_references": [
+        {
+          "xref_id": "human/EPAR/avandia",
+          "xref_name": "avandia",
+          "xref_src": "EMA"
+        },
+        {
+          "xref_id": "rosiglitazone%20maleate",
+          "xref_name": "rosiglitazone maleate",
+          "xref_src": "DailyMed"
+        }
+      ],
+      "dosed_ingredient": true,
+      "first_approval": 1999,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL843",
+      "molecule_hierarchy": {
+        "active_chembl_id": null,
+        "molecule_chembl_id": "CHEMBL843",
+        "parent_chembl_id": "CHEMBL121"
+      },
+      "molecule_properties": {
+        "alogp": "2.49",
+        "aromatic_rings": 2,
+        "full_molformula": "C22H23N3O7S",
+        "full_mwt": "473.51",
+        "hba": 6,
+        "hbd": 1,
+        "heavy_atoms": 25,
+        "mw_freebase": "357.44",
+        "np_likeness_score": "-0.93",
+        "num_ro5_violations": 0,
+        "psa": "71.53",
+        "qed_weighted": "0.82",
+        "ro3_pass": "N",
+        "rtb": 7
+      },
+      "molecule_structures": {
+        "canonical_smiles": "CN(CCOc1ccc(CC2SC(=O)NC2=O)cc1)c1ccccn1.O=C(O)/C=C\\C(=O)O",
+        "molfile": "\n     RDKit          2D\n\n 33 34  0  0  0  0  0  0  0  0999 V2000\n    7.4125   -3.3000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.4042   -4.7167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.8000   -3.6542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.7917   -4.3625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.4167   -2.5917    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    7.4000   -5.4250    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    8.0250   -3.6542    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    8.0167   -4.3667    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    5.5667   -3.7917    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8042   -3.1417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.8875   -3.7917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.2500   -2.7167    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n    4.6542   -3.1250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.9083   -4.1417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.5500   -3.7792    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    6.4750   -2.9542    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.2750   -3.7917    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    4.4917   -4.3792    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0625   -2.7542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4417   -3.0917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2250   -3.7917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8167   -2.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4417   -3.7917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8167   -4.1667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.2250   -3.0917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.6042   -4.1417    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    0.9792   -3.7917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.3417   -4.1417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.9083   -4.8667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.1625   -4.1417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.2750   -3.0792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.5500   -5.2417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.1625   -4.8667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  4  1  0\n  3  1  1  0\n  4  3  2  0\n  5  1  2  0\n  6  2  2  0\n  7  1  1  0\n  8  2  1  0\n 10  9  1  0\n 11  9  1  0\n 12 10  1  0\n 13 11  1  0\n 14 17  1  0\n 15 14  1  0\n 16 10  2  0\n 17 28  1  0\n 18 11  2  0\n 19 13  1  0\n 20 19  1  0\n 21 24  2  0\n 22 20  1  0\n 23 20  2  0\n 24 23  1  0\n 25 22  2  0\n 26 21  1  0\n 27 26  1  0\n 28 27  1  0\n 29 14  2  0\n 30 15  2  0\n 31 17  1  0\n 32 29  1  0\n 33 30  1  0\n 12 13  1  0\n 21 25  1  0\n 32 33  2  0\nM  END\n> <chembl_id>\nCHEMBL843\n\n> <chembl_pref_name>\nROSIGLITAZONE MALEATE",
+        "standard_inchi": "InChI=1S/C18H19N3O3S.C4H4O4/c1-21(16-4-2-3-9-19-16)10-11-24-14-7-5-13(6-8-14)12-15-17(22)20-18(23)25-15;5-3(6)1-2-4(7)8/h2-9,15H,10-12H2,1H3,(H,20,22,23);1-2H,(H,5,6)(H,7,8)/b;2-1-",
+        "standard_inchi_key": "SUFUKZSWUHZXAV-BTJKTKAUSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "Avandia",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "AVANDIA"
+        },
+        {
+          "molecule_synonym": "BRL-49653-C",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "BRL-49653-C"
+        },
+        {
+          "molecule_synonym": "BRL-49653C",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "BRL-49653C"
+        },
+        {
+          "molecule_synonym": "NSC-717764",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "NSC-717764"
+        },
+        {
+          "molecule_synonym": "Rosiglitazone maleate",
+          "syn_type": "EMA",
+          "synonyms": "ROSIGLITAZONE MALEATE"
+        },
+        {
+          "molecule_synonym": "Rosiglitazone maleate",
+          "syn_type": "FDA",
+          "synonyms": "ROSIGLITAZONE MALEATE"
+        },
+        {
+          "molecule_synonym": "Rosiglitazone maleate",
+          "syn_type": "JAN",
+          "synonyms": "ROSIGLITAZONE MALEATE"
+        },
+        {
+          "molecule_synonym": "Rosiglitazone maleate",
+          "syn_type": "MERCK_INDEX",
+          "synonyms": "ROSIGLITAZONE MALEATE"
+        },
+        {
+          "molecule_synonym": "Rosiglitazone maleate",
+          "syn_type": "OTHER",
+          "synonyms": "ROSIGLITAZONE MALEATE"
+        },
+        {
+          "molecule_synonym": "Rosiglitazone maleate",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ROSIGLITAZONE MALEATE"
+        },
+        {
+          "molecule_synonym": "Rosiglitazone maleate",
+          "syn_type": "USAN",
+          "synonyms": "ROSIGLITAZONE MALEATE"
+        },
+        {
+          "molecule_synonym": "Rosiglitazone maleate",
+          "syn_type": "USP",
+          "synonyms": "ROSIGLITAZONE MALEATE"
+        },
+        {
+          "molecule_synonym": "Rosiglitazone maleate component of avandamet",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ROSIGLITAZONE MALEATE COMPONENT OF AVANDAMET"
+        },
+        {
+          "molecule_synonym": "Rosiglitazone maleate component of avandaryl",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "ROSIGLITAZONE MALEATE COMPONENT OF AVANDARYL"
+        },
+        {
+          "molecule_synonym": "Rosiglitzazone maleate",
+          "syn_type": "OTHER",
+          "synonyms": "ROSIGLITZAZONE MALEATE"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": true,
+      "orphan": 0,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "ROSIGLITAZONE MALEATE",
+      "prodrug": 0,
+      "score": 30.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": true,
+      "topical": false,
+      "usan_stem": "-glitazone",
+      "usan_stem_definition": "peroxisome proliferator activiating receptor (PPAR) agonists (thiazolidene derivatives)",
+      "usan_substem": "-glitazone",
+      "usan_year": 1997,
+      "veterinary": 0,
+      "withdrawn_flag": true
+    },
+    {
+      "atc_classifications": [],
+      "availability_type": -1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": -1,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": -1,
+      "helm_notation": null,
+      "inorganic_flag": -1,
+      "max_phase": null,
+      "molecule_chembl_id": "CHEMBL1704605",
+      "molecule_hierarchy": {
+        "active_chembl_id": null,
+        "molecule_chembl_id": "CHEMBL1704605",
+        "parent_chembl_id": "CHEMBL121"
+      },
+      "molecule_properties": {
+        "alogp": "2.49",
+        "aromatic_rings": 2,
+        "full_molformula": "C18H20ClN3O3S",
+        "full_mwt": "393.90",
+        "hba": 6,
+        "hbd": 1,
+        "heavy_atoms": 25,
+        "mw_freebase": "357.44",
+        "np_likeness_score": "-0.93",
+        "num_ro5_violations": 0,
+        "psa": "71.53",
+        "qed_weighted": "0.82",
+        "ro3_pass": "N",
+        "rtb": 7
+      },
+      "molecule_structures": {
+        "canonical_smiles": "CN(CCOc1ccc(CC2SC(=O)NC2=O)cc1)c1ccccn1.Cl",
+        "molfile": "\n     RDKit          2D\n\n 26 27  0  0  0  0  0  0  0  0999 V2000\n    2.2336   -1.7924    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3531   -1.5374    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.0036   -3.2444    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    5.7589    1.1675    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3135   -2.5770    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    7.9023    0.7550    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    9.3312    0.7550    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9010   -1.3075    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.5684   -1.7924    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4885   -2.5770    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.9010   -0.4825    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6155   -0.0700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.0444    0.7550    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.6155    0.7550    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3299   -0.4825    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3299    1.1675    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.0444   -0.0700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.6168    1.1675    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.1878    1.1675    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.4733    0.7550    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.6168    1.9925    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.0457    1.1675    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    9.3312    2.4050    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   10.0457    1.9925    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.9023   -0.0700    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n  1  8  1  0\n  1 10  1  0\n  2  9  2  0\n  3 10  2  0\n  4 13  1  0\n  4 20  1  0\n  5  9  1  0\n  5 10  1  0\n  6 18  1  0\n  6 19  1  0\n  6 25  1  0\n  7 18  1  0\n  7 22  2  0\n  8  9  1  0\n  8 11  1  0\n 11 12  1  0\n 12 14  2  0\n 12 15  1  0\n 13 16  2  0\n 13 17  1  0\n 14 16  1  0\n 15 17  2  0\n 18 21  2  0\n 19 20  1  0\n 21 23  1  0\n 22 24  1  0\n 23 24  2  0\nM  END\n> <chembl_id>\nCHEMBL1704605\n\n> <chembl_pref_name>\nNone",
+        "standard_inchi": "InChI=1S/C18H19N3O3S.ClH/c1-21(16-4-2-3-9-19-16)10-11-24-14-7-5-13(6-8-14)12-15-17(22)20-18(23)25-15;/h2-9,15H,10-12H2,1H3,(H,20,22,23);1H",
+        "standard_inchi_key": "XRSCTTPDKURIIJ-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": false,
+      "orphan": -1,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": null,
+      "prodrug": -1,
+      "score": 30.0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": null,
+      "usan_stem_definition": null,
+      "usan_substem": null,
+      "usan_year": null,
+      "veterinary": -1,
+      "withdrawn_flag": false
+    }
+  ],
+  "page_meta": {
+    "limit": 8,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 3
+  }
+}

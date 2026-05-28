@@ -1,0 +1,55 @@
+{
+  "payload": {
+    "hitCount": 1570,
+    "nextCursorMark": "AoIIQR7yMCg1MTcwMDUzOA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PTPN2 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQR7yMCg1MTcwMDUzOA==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "PTPN2 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Saadat I, Saadat M.",
+          "citedByCount": 1,
+          "doi": "10.17179/excli2024-7684",
+          "firstIndexDate": "2024-10-19",
+          "firstPublicationDate": "2024-08-27",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11483264"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "39421031",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalIssn": "1611-2156",
+          "journalTitle": "EXCLI J",
+          "journalVolume": "23",
+          "pageInfo": "1027-1029",
+          "pmcid": "PMC11483264",
+          "pmid": "39421031",
+          "pubType": "letter; journal article",
+          "pubYear": "2024",
+          "source": "MED",
+          "title": "Autoimmune diseases share a common genetic architecture involving the JAK-STAT pathway."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PTPN2+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

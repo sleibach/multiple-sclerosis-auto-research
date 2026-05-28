@@ -1,0 +1,173 @@
+{
+  "best_ptpn2_restoration_windows": [
+    {
+      "disease_ptpn2_activity": 0.3,
+      "intervention": "ptpn2_restore_to_125pct",
+      "median_barrier_injury_drop": 1.0,
+      "median_host_defense_drop": 0.4693618270088087,
+      "median_module_drop": 0.1716703704857272,
+      "selective_window_fraction": 0.0,
+      "target_restored_activity": 1.25
+    },
+    {
+      "disease_ptpn2_activity": 0.3,
+      "intervention": "ptpn2_restore_to_100pct",
+      "median_barrier_injury_drop": 0.8930302763472693,
+      "median_host_defense_drop": 0.3993420736125909,
+      "median_module_drop": 0.13612494821262722,
+      "selective_window_fraction": 0.0,
+      "target_restored_activity": 1.0
+    },
+    {
+      "disease_ptpn2_activity": 0.5,
+      "intervention": "ptpn2_restore_to_125pct",
+      "median_barrier_injury_drop": 1.0,
+      "median_host_defense_drop": 0.36527610056881665,
+      "median_module_drop": 0.13215226947992909,
+      "selective_window_fraction": 0.0,
+      "target_restored_activity": 1.25
+    },
+    {
+      "disease_ptpn2_activity": 0.3,
+      "intervention": "ptpn2_restore_to_75pct",
+      "median_barrier_injury_drop": 0.6264323627155733,
+      "median_host_defense_drop": 0.3040917444273106,
+      "median_module_drop": 0.09475360512636355,
+      "selective_window_fraction": 0.0,
+      "target_restored_activity": 0.75
+    },
+    {
+      "disease_ptpn2_activity": 0.5,
+      "intervention": "ptpn2_restore_to_100pct",
+      "median_barrier_injury_drop": 0.8544627320137064,
+      "median_host_defense_drop": 0.28073740776305445,
+      "median_module_drop": 0.09438112452649361,
+      "selective_window_fraction": 0.0,
+      "target_restored_activity": 1.0
+    }
+  ],
+  "date": "2026-05-27",
+  "disease_ptpn2_activity_levels": [
+    0.3,
+    0.5,
+    0.7
+  ],
+  "hard_blockers_remaining": [
+    "no target-resolved SNP-level coloc/MR in this run",
+    "no validated correct-direction TCPTP activator/restorer modality",
+    "no real PTPN2 restoration perturbation dataset in autoimmune lesion/tissue cells"
+  ],
+  "inflammatory_inputs": [
+    [
+      0.75,
+      0.75
+    ],
+    [
+      1.0,
+      1.0
+    ],
+    [
+      1.5,
+      1.5
+    ],
+    [
+      1.5,
+      0.75
+    ],
+    [
+      0.75,
+      1.5
+    ]
+  ],
+  "interpretation": "Under the current model assumptions, PTPN2 restoration does not reach the predefined selective therapeutic window. Even supranormal restoration produces median APC/lipid-module suppression below 20% while often reducing the generic IFN/TNF host-defense proxy by more than 30%. This demotes PTPN2 restoration from target nomination to a future genetics/mechanism benchmark unless real perturbation data show a stronger or more compartment-selective effect.",
+  "intervention_summary": [
+    {
+      "generic_immunosuppression_like_fraction": 0.0,
+      "insufficient_module_effect_fraction": 0.7498666666666667,
+      "intervention": "jak_plus_tnf_50pct_inhibition",
+      "median_barrier_injury_drop": 0.6260993597833591,
+      "median_host_defense_drop": 0.4466430551870971,
+      "median_module_drop": 0.17108780271636037,
+      "n": 1875,
+      "p10_module_drop": 0.12959169337629434,
+      "p90_module_drop": 0.22199716445078732,
+      "selective_window_fraction": 0.0
+    },
+    {
+      "generic_immunosuppression_like_fraction": 0.0,
+      "insufficient_module_effect_fraction": 0.8117333333333333,
+      "intervention": "jak_70pct_inhibition",
+      "median_barrier_injury_drop": 0.4339420581133624,
+      "median_host_defense_drop": 0.3623871920878011,
+      "median_module_drop": 0.16120890809622446,
+      "n": 1875,
+      "p10_module_drop": 0.11149394254340417,
+      "p90_module_drop": 0.21521361308178544,
+      "selective_window_fraction": 0.0
+    },
+    {
+      "generic_immunosuppression_like_fraction": 0.0,
+      "insufficient_module_effect_fraction": 0.9525333333333333,
+      "intervention": "ptpn2_restore_to_125pct",
+      "median_barrier_injury_drop": 1.0,
+      "median_host_defense_drop": 0.36527610056881665,
+      "median_module_drop": 0.13037586200987683,
+      "n": 1875,
+      "p10_module_drop": 0.08741974879412975,
+      "p90_module_drop": 0.18532669357595025,
+      "selective_window_fraction": 0.0
+    },
+    {
+      "generic_immunosuppression_like_fraction": 0.0,
+      "insufficient_module_effect_fraction": 0.9941333333333333,
+      "intervention": "tnf_70pct_inhibition",
+      "median_barrier_injury_drop": 0.46910758788452867,
+      "median_host_defense_drop": 0.28061235005110163,
+      "median_module_drop": 0.10476880918599629,
+      "n": 1875,
+      "p10_module_drop": 0.05226701217394995,
+      "p90_module_drop": 0.16015520389020918,
+      "selective_window_fraction": 0.0
+    },
+    {
+      "generic_immunosuppression_like_fraction": 0.0,
+      "insufficient_module_effect_fraction": 0.9989333333333333,
+      "intervention": "jak_50pct_inhibition",
+      "median_barrier_injury_drop": 0.3082998277026472,
+      "median_host_defense_drop": 0.2516422744704907,
+      "median_module_drop": 0.09577225658164501,
+      "n": 1875,
+      "p10_module_drop": 0.05082065415870918,
+      "p90_module_drop": 0.1479660815203441,
+      "selective_window_fraction": 0.0
+    },
+    {
+      "generic_immunosuppression_like_fraction": 0.0,
+      "insufficient_module_effect_fraction": 0.9994666666666666,
+      "intervention": "ptpn2_restore_to_100pct",
+      "median_barrier_injury_drop": 0.847537945046073,
+      "median_host_defense_drop": 0.28073740776305445,
+      "median_module_drop": 0.0939154337110768,
+      "n": 1875,
+      "p10_module_drop": 0.05103505409344093,
+      "p90_module_drop": 0.1470457797099713,
+      "selective_window_fraction": 0.0
+    },
+    {
+      "generic_immunosuppression_like_fraction": 0.0,
+      "insufficient_module_effect_fraction": 1.0,
+      "intervention": "ptpn2_restore_to_75pct",
+      "median_barrier_injury_drop": 0.4595215247671426,
+      "median_host_defense_drop": 0.16627251729628534,
+      "median_module_drop": 0.05117918041860703,
+      "n": 1875,
+      "p10_module_drop": 0.009147100932782593,
+      "p90_module_drop": 0.10292413617651495,
+      "selective_window_fraction": 0.0
+    }
+  ],
+  "model_status": "assumption-explicit ODE sensitivity model; not fitted to kinetic or patient data",
+  "n_parameter_samples_per_condition": 125,
+  "promotion_status": "NO_THERAPEUTIC_CLAIM",
+  "random_seed": 20260527
+}

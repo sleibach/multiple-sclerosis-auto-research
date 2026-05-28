@@ -1,0 +1,384 @@
+{
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D011024",
+              "term": "Pneumonia, Viral"
+            },
+            {
+              "id": "D011014",
+              "term": "Pneumonia"
+            },
+            {
+              "id": "D012141",
+              "term": "Respiratory Tract Infections"
+            },
+            {
+              "id": "D007239",
+              "term": "Infections"
+            },
+            {
+              "id": "D014777",
+              "term": "Virus Diseases"
+            },
+            {
+              "id": "D018352",
+              "term": "Coronavirus Infections"
+            },
+            {
+              "id": "D003333",
+              "term": "Coronaviridae Infections"
+            },
+            {
+              "id": "D030341",
+              "term": "Nidovirales Infections"
+            },
+            {
+              "id": "D012327",
+              "term": "RNA Virus Infections"
+            },
+            {
+              "id": "D008171",
+              "term": "Lung Diseases"
+            },
+            {
+              "id": "D012140",
+              "term": "Respiratory Tract Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D000086382",
+              "term": "COVID-19"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D013812",
+              "term": "Therapeutics"
+            },
+            {
+              "id": "D019984",
+              "term": "Quality Indicators, Health Care"
+            },
+            {
+              "id": "D011787",
+              "term": "Quality of Health Care"
+            },
+            {
+              "id": "D006298",
+              "term": "Health Services Administration"
+            },
+            {
+              "id": "D017530",
+              "term": "Health Care Quality, Access, and Evaluation"
+            },
+            {
+              "id": "D004358",
+              "term": "Drug Therapy"
+            },
+            {
+              "id": "D010789",
+              "term": "Phototherapy"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D003131",
+              "term": "Combined Modality Therapy"
+            },
+            {
+              "id": "D059039",
+              "term": "Standard of Care"
+            },
+            {
+              "id": "D010778",
+              "term": "Photochemotherapy"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Methylene Blue 1 mg/kg water solution. Participants will orally receive Methylene Blue solution of 1 mg/kg concentration one time if any. After 3 hours of Methylene Blue administration irradiation of chest using 650 nm laser source with 18 J/cm\\^2 energy dose will be performed.\n\nPatients will be administered study medication (Inhaled 100-150 mg phenformin per day; or, if broken into 3 doses/day, 30-50 mg/dose. this dose well be once daily for 5 days, for a maximum of 7 days for those who remain hospitalized.\n\nPatients will receive an Enriched Grape Juice containing 234.5 mmol microcrystalline KCl (a total of 6000 mg of K in 2 EGJ, but split into 2 intakes daily)\n\nPatients received will receive Zinc gluconate capsule 15 mg x 2 per day during 14 days",
+              "interventionNames": [
+                "Combination Product: Combination therapy plus Standard therapy",
+                "Radiation: Photodynamic therapy"
+              ],
+              "label": "Combination Therapy plus Standard therapy",
+              "type": "ACTIVE_COMPARATOR"
+            },
+            {
+              "description": "Infected patients will receive the standard therapy for COVID-19 for 14 days",
+              "interventionNames": [
+                "Drug: Standard therapy"
+              ],
+              "label": "Standard Therapy",
+              "type": "SHAM_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Combination Therapy plus Standard therapy"
+              ],
+              "description": "Methylene Blue 1 mg/kg water solution. Participants will orally receive Methylene Blue solution of 1 mg/kg concentration one time if any. After 3 hours of Methylene Blue administration irradiation of chest using 650 nm laser source with 18 J/cm\\^2 energy dose will be performed.\n\nPatients will be administered study medication (Inhaled 100-150 mg phenformin per day; or, if broken into 3 doses/day, 30-50 mg/dose. this dose well be once daily for 5 days, for a maximum of 7 days for those who remain hospitalized.\n\nPatients will receive an Enriched Grape Juice containing 234.5 mmol microcrystalline KCl (a total of 6000 mg of K in 2 EGJ, but split into 2 intakes daily)\n\nPatients received will receive Zinc gluconate capsule 15 mg x 2 per day during 14 days",
+              "name": "Combination therapy plus Standard therapy",
+              "type": "COMBINATION_PRODUCT"
+            },
+            {
+              "armGroupLabels": [
+                "Combination Therapy plus Standard therapy"
+              ],
+              "description": "After 3 hours of Methylene Blue administration irradiation of chest using 650 nm laser source with 18 J/cm\\^2 energy dose will be performed.",
+              "name": "Photodynamic therapy",
+              "type": "RADIATION"
+            },
+            {
+              "armGroupLabels": [
+                "Standard Therapy"
+              ],
+              "description": "Infected patients will receive the standard therapy for COVID-19 for 14 days",
+              "name": "Standard therapy",
+              "type": "DRUG"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "COVID-19"
+          ]
+        },
+        "contactsLocationsModule": {
+          "centralContacts": [
+            {
+              "email": "drmedahmed@gmail.com",
+              "name": "Amr Ahmed",
+              "phone": "00966597310032",
+              "role": "CONTACT"
+            },
+            {
+              "email": "mahmoudramadan2051@yahoo.com",
+              "name": "Mahmoud Elkazzaz,",
+              "phone": "00201090302015",
+              "role": "CONTACT"
+            }
+          ],
+          "locations": [
+            {
+              "city": "Riyadh",
+              "country": "Saudi Arabia",
+              "facility": "Ministry of health.First health cluster ,Riaydh",
+              "geoPoint": {
+                "lat": 24.68773,
+                "lon": 46.72185
+              }
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Ministry of Health",
+              "name": "Amr Ahmed",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "affiliation": "New Damietta University Hospital",
+              "name": "Mahmoud Elkazzaz",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Utilizing the crosstalk among aerosolized phenformin, methylene blue, photodynamic therapy , zinc and potassium for treating severe COVID-19 infection and its inflammatory complication\n\nAmr Ahmed(1), Mahmoud Elkazzaz(2), Tamer Haydara(3), and Abdullah Alkattan(4)\n\n1. Director of tuberculosis program Ghubera, public health department ,First health cluster ,Ministry of health ,Saudia Arabia.\n2. Department of chemistry and biochemistry, Faculty of Science, Damietta University, Egypt.\n3. Department of Internal Medicine, Faculty of Medicine, Kafrelsheikh University, Egypt.\n4. Ministry of Health, Riyadh, Saudi Arabia.\n\nSARS-CoV-2 represents the largest current health challenge for the society. Moreover, numerous variants of the virus that causes COVID-19 are being tracked in the United States and globally during this pandemic. Here, we will use combination therapy which involve agents with significant activity and different mechanisms of action against covid-19 and its inflammatory complication. Excessive activities of cysteinyl cathepsins (CysCts) contribute to the progress of many diseases. however, therapeutic inhibition has been problematic. Cathepsin L are crucial in terms of the endocytosis by cleaving the spike protein, which permits viral membrane fusion with endosomal membrane, and succeeded by the releasing of viral genome to the host cell. Thereby, inhibition of cathepsin L may be advantageous in terms of decreasing infection caused by SARS-CoV-2. It is well known that zinc (Zn) possesses a variety of direct and indirect antiviral properties, which are realized through different mechanisms. Administration of Zn supplement has a potential to enhance antiviral immunity and to restore depleted immune cell function, in particular in immunocompromised patients. It has been found that Zn 2+ deficiency leads to an exaggerated activity of Cysteine cathepsin increasing the autoimmune/inflammatory response. . Zn2+ is a natural inhibitor of proteases with CysHis dyads or CysHis(Xaa) triads. cysteine protease Cathepsin L (CatL) involvement with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and COVID-19 from different points of view. At this purpose Zn 2+ metal can be safely combined with phenformin a drug that increases the anti-proteolytic effect of endogenous Zn 2+ lowering the excessive activity of some CysCts.; A study found that phenformin-Zn2+ complex is identified as a modifiable pharmacophore for synthesis of therapeutic CysCt inhibitors with a wide range of potencies and specificities. Phenformin stabilizes a \"Zn2+ sandwich\" between the drug and protease active site. Additionally, phenformin was found to be potent inhibitor of IL-6 R, with phenformin (100 \u00b5M) treatment for 48 h, decreased IL-6R expression in ANBL6, RPMI, U266, MM1S, and JJN3 was 5.51 (p = 0.0025), 3.03 (p = 0.0005), 1.55 (p \\< 0.05), 2.09 (p = 0.0082) and 1.19-fold, respectively. Furthermore, phenformin was discovered to potentially and strongly bind to ACE2 receptors, according to a docking research being conducted by the principle investigators of this clinical study therefore, Phenformin is expected to potentially attach to ACE2 receptors and lead to its downregulation, an inhibitory mechanism which may combat and block COVID-19 infection in lung epithelial cells. Phenformin may induce lactic acidosis therefore according to the principal investigator The phenformin will be utilized as aerosolized by inhalation for COVID-19 treatment and this may be an effective novel treatment strategy that would limit the risk of systemic side-effects associated with biguanides due to the low inhaled dose. In addition, we will use aerosolized phenformin in combination with methylene blue. A study found that a very marked improvement in lactate and pyruvate concentrations occurred within six hours of the beginning of m\u00e9thyl\u00e8ne blue administration in human . It has been known for some time that m\u00e9thyl\u00e8ne blue is a moderately efficient hydrogen acceptor in several enzyme sys\u00ac tems and significantly reduce oxidative stress by scavenging ROS. Moreover, Methylene Blue has antiviral activity and was found to Inhibit the Spike-ACE2 Protein-Protein Interaction-a Mechanism that can contribute to its Antiviral Activity Against COVID-19 For many reasons, methylene blue is a promising drug for an active treatment against SARS-CoV-2 . Since methylene blue can work as a photosensitizer, photodynamic therapy as an antiviral treatment has great potential in the treatment of COVID-19.. This clinical study will investigate the effectiveness of SARS-CoV-2 infected people treatment using methylene blue and the following photodynamic therapy after that our clinically approved patients will receive phenformin and zinc . But methylene blue may lead to lowering in potassium concentration.Therefore, we will add potassium supplement to this combination.",
+          "detailedDescription": "The study is a randomized interventional comparative Phase I/II trial. 360 adult male and female patients with positive COVID-19 diagnosis and fulfilling the below outlined inclusion criteria will be enrolled into the study.\n\n--Promising features of our clinical trial\n\n-Il-6 inhibition strategy\n\n1. Phenformin was found to be potent inhibitor of IL-6 R, with phenformin (100 \u00b5M) treatment for 48 h, decreased IL-6R expression in ANBL6, RPMI, U266, MM1S, and JJN3 was 5.51 (p = 0.0025), 3.03 (p = 0.0005), 1.55 (p \\< 0.05), 2.09 (p = 0.0082) and 1.19-fold, respectively.\n2. Methylene blue inhibited IL-6 levels and attenuated Lung Injury Induced by Hindlimb Ischemia Reperfusion in Rats.\n3. For many reasons, methylene blue is a promising drug for an active treatment against SARS-CoV-2 infected patients. Since methylene blue can work as a photosensitizer, photodynamic therapy as an antiviral treatment has great potential in the treatment of COVID-19. This clinical study investigated the effectiveness of SARS-CoV-2 infected people treatment using methylene blue and the following photodynamic therapy"
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 2,
+            "type": "ESTIMATED"
+          },
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\nAdult SARI patients with 2019-ncov infection confirmed by PCR; Absolute value of lymphocytes \\< 0. 6x 109/L; Severe respiratory failure within 48 hours and requires admission to ICU. (severe respiratory failure was defined as PaO2/FiO2 \\< 200 mmHg and was supported by positive pressure mechanical ventilation (including non-invasive and invasive mechanical ventilation, PEEP\\>=5cmH2O))\n\nExclusion Criteria:\n\n* Age \\< 18\n* A history of renal failure (unless recovered for at least 6 months), lactic acidosis, recurrent or severe hypoglycemia.\n* A history of known glucose-6-phosphate dehydrogenase (G6PD) deficiency.\n* Other uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements\n* Allergic to experimental drugs and patients have the following conditions:\n* Medical records of cirrhosis\n* Myocardial infarction, developed after the patient was included in the study, but before the intervention\n* bleeding, developed after the patient was included in the study, but before the intervention\n* connection to artificial lung ventilation developed after the patient was included in the study, but before the intervention\n* Active infection, or chronic or persistent infection that might worsen with immunosuppressive treatment (e.g., HIV, hepatitis B virus, hepatitis C virus, tuberculosis \\[TB\\])\n* Liver disease\n* Renal disease\n* Pregnancy\n* Lactation\n* Depressive disorder\n* Body mass index less than 18 points or higher than 25 points\n* Contraindications for hormonal contraception or intrauterine device.\n* Autoimmune diseases\n* A history of organ, bone marrow or hematopoietic stem cell transplantation\n* Patients receiving anti-hcv treatment\n* The competent physician considered it inappropriate to participate in the study",
+          "healthyVolunteers": false,
+          "maximumAge": "70 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Utilizing the Crosstalk Among Aerosolized Phenformin , Methylene Blue, Photodynamic Therapy , Zinc and Potassium for Treating Severe COVID-19 Infection and Its Inflammatory Complication",
+          "nctId": "NCT05003492",
+          "officialTitle": "Utilizing the Crosstalk Among Aerosolized Phenformin, Methylene Blue, Photodynamic Therapy , Zinc and Potassium for Treating Severe COVID-19 Infection and Its Inflammatory Complication",
+          "orgStudyIdInfo": {
+            "id": "Novel treatment of COVID-19"
+          },
+          "organization": {
+            "class": "OTHER_GOV",
+            "fullName": "Ministry of Health, Saudi Arabia"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Proportion of lung injury score decreased or increased after treatment",
+              "measure": "lung injury score",
+              "timeFrame": "at 7and 14 days ]"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "measure": "Serum levels of IL-6,TNF,TLR3,CRP, ESR and Type I interferon",
+              "timeFrame": "at day 7 and 14"
+            },
+            {
+              "measure": "Serum level of COVID19 RNA",
+              "timeFrame": "at day 7 and 14"
+            },
+            {
+              "measure": "All cause mortality rate",
+              "timeFrame": ": at day 7 and 14"
+            },
+            {
+              "measure": "Ventilation free days",
+              "timeFrame": "at 14 days"
+            },
+            {
+              "measure": "ICU free days",
+              "timeFrame": ":at 14 days"
+            },
+            {
+              "measure": "D-dimers less than 250 ng/mL, or less than 0.4 mcg/mL of blood sample",
+              "timeFrame": ":at 3-5days"
+            },
+            {
+              "measure": "Time to first negative SARS-CoV-2 PCR in NP swap",
+              "timeFrame": "within 14 days"
+            },
+            {
+              "measure": "Angiotensin 1-7 (Ang 1-7) changes over time",
+              "timeFrame": ":at day 7 and 14"
+            },
+            {
+              "measure": "Angiotensin 1-5 (Ang 1-5) changes over time",
+              "timeFrame": "at day 7 and 14"
+            },
+            {
+              "measure": "Renin changes over time",
+              "timeFrame": "at day 7 and 14"
+            },
+            {
+              "measure": "Aldosterone changes over time",
+              "timeFrame": "at day 7 and 14"
+            },
+            {
+              "measure": "Angiotensin-converting enzyme II (ACE2) changes over time",
+              "timeFrame": "at day 7 and 14"
+            },
+            {
+              "measure": "Frequency of adverse events and severe adverse events",
+              "timeFrame": "14 days"
+            },
+            {
+              "measure": "Angiotensin II (Ang II) changes over time",
+              "timeFrame": "at day 7 and 14"
+            },
+            {
+              "measure": "Sequential organ failure assessment score(SOFA score) over time and 14 ]",
+              "timeFrame": "at day 7"
+            },
+            {
+              "measure": "Thrombin time (TT)",
+              "timeFrame": "at day 7 and 14"
+            },
+            {
+              "measure": "Comparison of oxygen saturation dynamics measured by pulse oximeter before and after treatment",
+              "timeFrame": "12 and 24 hours after photodynamic therapy"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": true
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "OTHER",
+              "name": "Kafrelsheikh University"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER_GOV",
+            "name": "Amr kamel khalil Ahmed"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Ministry of Health, Saudi Arabia",
+            "investigatorFullName": "Amr kamel khalil Ahmed",
+            "investigatorTitle": "Clinical Researcher",
+            "type": "SPONSOR_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2021-11",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastKnownStatus": "NOT_YET_RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2021-09-24",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2021-09-18",
+          "overallStatus": "UNKNOWN",
+          "primaryCompletionDateStruct": {
+            "date": "2021-10",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2021-09",
+            "type": "ESTIMATED"
+          },
+          "statusVerifiedDate": "2021-09",
+          "studyFirstPostDateStruct": {
+            "date": "2021-08-12",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2021-08-10",
+          "studyFirstSubmitQcDate": "2021-08-10"
+        }
+      }
+    }
+  ]
+}

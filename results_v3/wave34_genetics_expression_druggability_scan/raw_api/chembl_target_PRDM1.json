@@ -1,0 +1,417 @@
+{
+  "payload": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "PR domain zinc finger protein 1",
+        "score": 17.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL5214860",
+        "target_components": [
+          {
+            "accession": "O75626",
+            "component_description": "PR domain zinc finger protein 1",
+            "component_id": 20300,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "2.1.1.-",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "Beta-interferon gene positive regulatory domain I-binding factor",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "BLIMP-1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "BLIMP1",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Positive regulatory domain I-binding factor 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "PRDI-BF1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "PRDI-binding factor 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "PRDM1",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "PR domain-containing protein 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "PR domain zinc finger protein 1",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "O75626",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "O75626",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0005634",
+                "xref_name": "nucleus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005654",
+                "xref_name": "nucleoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005730",
+                "xref_name": "nucleolus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0000976",
+                "xref_name": "transcription cis-regulatory region binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0000978",
+                "xref_name": "RNA polymerase II cis-regulatory region sequence-specific DNA binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0003677",
+                "xref_name": "DNA binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008168",
+                "xref_name": "methyltransferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:1990226",
+                "xref_name": "histone methyltransferase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:1990837",
+                "xref_name": "sequence-specific double-stranded DNA binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:1990841",
+                "xref_name": "promoter-specific chromatin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0000122",
+                "xref_name": "negative regulation of transcription by RNA polymerase II",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001701",
+                "xref_name": "in utero embryonic development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001763",
+                "xref_name": "morphogenesis of a branching structure",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001822",
+                "xref_name": "kidney development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001892",
+                "xref_name": "embryonic placenta development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001893",
+                "xref_name": "maternal placenta development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002250",
+                "xref_name": "adaptive immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003170",
+                "xref_name": "heart valve development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003279",
+                "xref_name": "cardiac septum development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003281",
+                "xref_name": "ventricular septum development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007281",
+                "xref_name": "germ cell development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010628",
+                "xref_name": "positive regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010629",
+                "xref_name": "negative regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032259",
+                "xref_name": "methylation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032823",
+                "xref_name": "regulation of natural killer cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0033082",
+                "xref_name": "regulation of extrathymic T cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035904",
+                "xref_name": "aorta development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042127",
+                "xref_name": "regulation of cell population proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042462",
+                "xref_name": "eye photoreceptor cell development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045087",
+                "xref_name": "innate immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045165",
+                "xref_name": "cell fate commitment",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048844",
+                "xref_name": "artery morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048869",
+                "xref_name": "cellular developmental process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051136",
+                "xref_name": "regulation of NK T cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060040",
+                "xref_name": "retinal bipolar neuron differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060576",
+                "xref_name": "intestinal epithelial cell development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060707",
+                "xref_name": "trophoblast giant cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060976",
+                "xref_name": "coronary vasculature development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1990654",
+                "xref_name": "sebum secreting cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:9346",
+                "xref_name": "PRDM1",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "O75626",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR001214",
+                "xref_name": "SET_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013087",
+                "xref_name": "Znf_C2H2_type",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR016608",
+                "xref_name": "PRDM1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036236",
+                "xref_name": "Znf_C2H2_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR044413",
+                "xref_name": "PRDM1_PR-SET",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR046341",
+                "xref_name": "SET_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050331",
+                "xref_name": "Zinc_finger",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR16515",
+                "xref_name": "PR DOMAIN ZINC FINGER PROTEIN",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR16515:SF63",
+                "xref_name": "PR DOMAIN ZINC FINGER PROTEIN 1",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "3DAL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3DAL",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF00096",
+                "xref_name": "zf-C2H2",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF21549",
+                "xref_name": "PRDM2_PR",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA33707",
+                "xref_name": "PR/SET domain 1",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "O75626",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-6804754",
+                "xref_name": "Regulation of TP53 Expression",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9701898",
+                "xref_name": "STAT3 nuclear events downstream of ALK signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9827857",
+                "xref_name": "Specification of primordial germ cells",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "B2REA6",
+                "xref_name": "PR domain zinc finger protein 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "E1P5E0",
+                "xref_name": "PR domain zinc finger protein 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "O75626",
+                "xref_name": "PR domain zinc finger protein 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q86WM7",
+                "xref_name": "PR domain zinc finger protein 1",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=PRDM1"
+}

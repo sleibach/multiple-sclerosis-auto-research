@@ -1,0 +1,80 @@
+{
+  "_request_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL4680021&standard_units=nM&limit=1",
+  "_status_code": 200,
+  "activities": [
+    {
+      "action_type": {
+        "action_type": "INHIBITOR",
+        "description": "Negatively effects (inhibits) the normal functioning of the protein e.g., prevention of enzymatic reaction or activation of downstream pathway",
+        "parent_type": "NEGATIVE MODULATOR"
+      },
+      "activity_comment": null,
+      "activity_id": 22419125,
+      "activity_properties": [
+        {
+          "comments": null,
+          "relation": "=",
+          "result_flag": 0,
+          "standard_relation": "=",
+          "standard_text_value": null,
+          "standard_type": "TIME",
+          "standard_units": "hr",
+          "standard_value": "0.5",
+          "text_value": null,
+          "type": "Time",
+          "units": "min",
+          "value": "30.0"
+        }
+      ],
+      "assay_chembl_id": "CHEMBL4672961",
+      "assay_description": "Inhibition of APOL1 (unknown origin) in HEK293 cells assessed as thallium influx incubated for 30 mins by FLIPR based thallium influx assay",
+      "assay_type": "B",
+      "assay_variant_accession": null,
+      "assay_variant_mutation": null,
+      "bao_endpoint": "BAO_0000190",
+      "bao_format": "BAO_0000219",
+      "bao_label": "cell-based format",
+      "canonical_smiles": "O=C(CCc1c(-c2ccc(F)cc2)[nH]c2c(F)cc(F)cc12)N[C@@H]1C(=O)NC[C@@H]1O",
+      "data_validity_comment": null,
+      "data_validity_description": null,
+      "document_chembl_id": "CHEMBL4665904",
+      "document_journal": "ACS Med Chem Lett",
+      "document_year": 2020,
+      "ligand_efficiency": null,
+      "molecule_chembl_id": "CHEMBL4754532",
+      "molecule_pref_name": null,
+      "parent_molecule_chembl_id": "CHEMBL4754532",
+      "pchembl_value": null,
+      "potential_duplicate": 0,
+      "qudt_units": "http://www.openphacts.org/units/Nanomolar",
+      "record_id": 3512900,
+      "relation": "<",
+      "src_id": 1,
+      "standard_flag": 1,
+      "standard_relation": "<",
+      "standard_text_value": null,
+      "standard_type": "IC50",
+      "standard_units": "nM",
+      "standard_upper_value": null,
+      "standard_value": "250.0",
+      "target_chembl_id": "CHEMBL4680021",
+      "target_organism": "Homo sapiens",
+      "target_pref_name": "Apolipoprotein L1",
+      "target_tax_id": "9606",
+      "text_value": null,
+      "toid": null,
+      "type": "IC50",
+      "units": "uM",
+      "uo_units": "UO_0000065",
+      "upper_value": null,
+      "value": "0.25"
+    }
+  ],
+  "page_meta": {
+    "limit": 1,
+    "next": "/chembl/api/data/activity.json?limit=1&offset=1&target_chembl_id=CHEMBL4680021&standard_units=nM",
+    "offset": 0,
+    "previous": null,
+    "total_count": 593
+  }
+}

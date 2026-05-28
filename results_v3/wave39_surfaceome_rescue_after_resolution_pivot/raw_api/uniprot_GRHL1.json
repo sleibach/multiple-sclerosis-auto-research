@@ -1,0 +1,242 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "Q921D9",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "12175488",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "18288204",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "29309642",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "35013237",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Transcription factor involved in epithelial development. Binds directly to the consensus DNA sequence 5'-AACCGGTT-3' (PubMed:12175488, PubMed:18288204, PubMed:29309642). Important regulator of DSG1 in the context of hair anchorage and epidermal differentiation, participates in the maintenance of the skin barrier. There is no genetic interaction with GRHL3, nor functional cooperativity due to diverse target gene selectivity during epithelia development (By similarity). May play a role in regulating glucose homeostasis and insulin signaling"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "molecule": "Isoform 1",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "12175488",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "29309642",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Functions as a transcription activator"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "molecule": "Isoform 2",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "12175488",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "May function as a repressor in tissues where both isoform 1 and isoform 2 are expressed"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "18288204",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "35013237",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0191",
+                "value": "Nucleus"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00001E0586"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:17923",
+                "source": "HGNC"
+              }
+            ],
+            "value": "GRHL1"
+          },
+          "synonyms": [
+            {
+              "value": "LBP32"
+            },
+            {
+              "value": "MGR"
+            },
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000312",
+                  "id": "HGNC:17923",
+                  "source": "HGNC"
+                }
+              ],
+              "value": "TFCP2L2"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0010",
+          "name": "Activator"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0217",
+          "name": "Developmental protein"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0238",
+          "name": "DNA-binding"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0539",
+          "name": "Nucleus"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0804",
+          "name": "Transcription"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0805",
+          "name": "Transcription regulation"
+        }
+      ],
+      "primaryAccession": "Q9NZI5",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Mammalian grainyhead"
+            }
+          },
+          {
+            "fullName": {
+              "value": "NH32"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Transcription factor CP2-like 2"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Transcription factor LBP-32"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:17923",
+                "source": "HGNC"
+              }
+            ],
+            "value": "Grainyhead-like protein 1 homolog"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "449587B17F4A8A44",
+        "length": 618,
+        "md5": "6AF6C47708BAC42B67D578AA5B9D3F2C",
+        "molWeight": 70113,
+        "value": "MTQEYDNKRPVLVLQNEALYPQRRSYTSEDEAWKSFLENPLTAATKAMMSINGDEDSAAALGLLYDYYKVPRERRSSTAKPEVEHPEPDHSKRNSIPIVTEQPLISAGENRVQVLKNVPFNIVLPHGNQLGIDKRGHLTAPDTTVTVSIATMPTHSIKTETQPHGFAVGIPPAVYHPEPTERVVVFDRNLNTDQFSSGAQAPNAQRRTPDSTFSETFKEGVQEVFFPSDLSLRMPGMNSEDYVFDSVSGNNFEYTLEASKSLRQKPGDSTMTYLNKGQFYPITLKEVSSSEGIHHPISKVRSVIMVVFAEDKSREDQLRHWKYWHSRQHTAKQRCIDIADYKESFNTISNIEEIAYNAISFTWDINDEAKVFISVNCLSTDFSSQKGVKGLPLNIQVDTYSYNNRSNKPVHRAYCQIKVFCDKGAERKIRDEERKQSKRKVSDVKVPLLPSHKRMDITVFKPFIDLDTQPVLFIPDVHFANLQRGTHVLPIASEELEGEGSVLKRGPYGTEDDFAVPPSTKLARIEEPKRVLLYVRKESEEVFDALMLKTPSLKGLMEAISDKYDVPHDKIGKIFKKCKKGILVNMDDNIVKHYSNEDTFQLQIEEAGGSYKLTLTEI"
+      },
+      "uniProtkbId": "GRHL1_HUMAN"
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%22dysadherin%22+AND+%28knockdown+OR+knockout+OR+CRISPR+OR+siRNA+OR+shRNA+OR+overexpression+OR+perturbation%29&format=json&pageSize=10&resultType=lite",
+  "status": 200,
+  "json": {
+    "version": "6.9",
+    "hitCount": 34,
+    "nextCursorMark": "AoIIP8z0PSg0MTAyNjk0OA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS:\"dysadherin\" AND (knockdown OR knockout OR CRISPR OR siRNA OR shRNA OR overexpression OR perturbation)&cursorMark=AoIIP8z0PSg0MTAyNjk0OA==&resultType=lite&pageSize=10&format=json",
+    "request": {
+      "queryString": "TITLE_ABS:\"dysadherin\" AND (knockdown OR knockout OR CRISPR OR siRNA OR shRNA OR overexpression OR perturbation)",
+      "resultType": "lite",
+      "cursorMark": "*",
+      "pageSize": 10,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "id": "41457101",
+          "source": "MED",
+          "pmid": "41457101",
+          "pmcid": "PMC12745361",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12745361"
+            ]
+          },
+          "doi": "10.1038/s41392-025-02520-4",
+          "title": "Dysadherin/YAP axis fuels stem plasticity and immune escape in liver cancer.",
+          "authorString": "Jang TY, Jeon SE, Yun HJ, Lee CJ, Lim DY, Lee SH, Lee D, Lee S, Choi J, Kim HS, Nam JS.",
+          "journalTitle": "Signal Transduct Target Ther",
+          "issue": "1",
+          "journalVolume": "10",
+          "pubYear": "2025",
+          "journalIssn": "2095-9907; 2059-3635; ",
+          "pageInfo": "421",
+          "pubType": "research-article; journal article",
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasTMAccessionNumbers": "N",
+          "firstIndexDate": "2026-01-02",
+          "firstPublicationDate": "2025-12-29"
+        },
+        {
+          "id": "41535258",
+          "source": "MED",
+          "pmid": "41535258",
+          "pmcid": "PMC12804794",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12804794"
+            ]
+          },
+          "doi": "10.1038/s41392-025-02543-x",
+          "title": "The dysadherin/carbonic anhydrase 9 axis shapes an acidic tumor microenvironment to promote colorectal cancer progression.",
+          "authorString": "Lee CJ, Yun HJ, Jang TY, Jeon SE, Cho YH, Lim DY, Han EJ, Kong SY, Nam JS.",
+          "journalTitle": "Signal Transduct Target Ther",
+          "issue": "1",
+          "journalVolume": "11",
+          "pubYear": "2026",
+          "journalIssn": "2095-9907; 2059-3635; ",
+          "pageInfo": "19",
+          "pubType": "research-article; journal article",
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "geo",
+              "cellosaurus"
+            ]
+          },
+          "firstIndexDate": "2026-01-15",
+          "firstPublicationDate": "2026-01-15"
+        },
+        {
+          "id": "39613801",
+          "source": "MED",
+          "pmid": "39613801",
+          "pmcid": "PMC11607440",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11607440"
+            ]
+          },
+          "doi": "10.1038/s41467-024-54920-9",
+          "title": "The dysadherin/MMP9 axis modifies the extracellular matrix to accelerate colorectal cancer progression.",
+          "authorString": "Lee CJ, Jang TY, Jeon SE, Yun HJ, Cho YH, Lim DY, Nam JS.",
+          "journalTitle": "Nat Commun",
+          "issue": "1",
+          "journalVolume": "15",
+          "pubYear": "2024",
+          "journalIssn": "2041-1723",
+          "pageInfo": "10422",
+          "pubType": "research support, non-u.s. gov't; research-article; journal article",
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "citedByCount": 36,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "geo",
+              "cellosaurus"
+            ]
+          },
+          "firstIndexDate": "2024-12-01",
+          "firstPublicationDate": "2024-11-30"
+        },
+        {
+          "id": "38725858",
+          "source": "MED",
+          "pmid": "38725858",
+          "pmcid": "PMC11077383",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11077383"
+            ]
+          },
+          "doi": "10.7150/ijbs.86699",
+          "title": "The dysadherin/FAK axis promotes individual cell migration in colon cancer.",
+          "authorString": "Lee CJ, Jang TY, Kim JH, Lim S, Lee S, Nam JS.",
+          "journalTitle": "Int J Biol Sci",
+          "issue": "7",
+          "journalVolume": "20",
+          "pubYear": "2024",
+          "journalIssn": "1449-2288",
+          "pageInfo": "2356-2369",
+          "pubType": "research support, non-u.s. gov't; research-article; journal article",
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "citedByCount": 2,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasTMAccessionNumbers": "N",
+          "firstIndexDate": "2024-05-10",
+          "firstPublicationDate": "2024-04-08"
+        },
+        {
+          "id": "40292544",
+          "source": "MED",
+          "pmid": "40292544",
+          "pmcid": "PMC12039401",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12039401"
+            ]
+          },
+          "doi": "10.1080/20565623.2025.2494972",
+          "title": "Dysadherin expression in prostatic adenocarcinoma and its relationship with E-cadherin and \u03b2-catenin.",
+          "authorString": "Limani R, Kondirolli L, Blakaj Gashi B, Ulamec M, Kru\u0161lin B.",
+          "journalTitle": "Future Sci OA",
+          "issue": "1",
+          "journalVolume": "11",
+          "pubYear": "2025",
+          "journalIssn": "2056-5623",
+          "pageInfo": "2494972",
+          "pubType": "research-article; journal article",
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasTMAccessionNumbers": "N",
+          "firstIndexDate": "2025-04-29",
+          "firstPublicationDate": "2025-04-28"
+        },
+        {
+          "id": "35673579",
+          "source": "MED",
+          "pmid": "35673579",
+          "pmcid": "PMC9169357",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC9169357"
+            ]
+          },
+          "doi": "10.7150/thno.72354",
+          "title": "Dysadherin awakens mechanical forces and promotes colorectal cancer progression.",
+          "authorString": "Park SY, Lee CJ, Choi JH, Kim JH, Lee WJ, Jang TY, Jeon SE, Kim JH, Cho SH, Lee JS, Nam JS.",
+          "journalTitle": "Theranostics",
+          "issue": "9",
+          "journalVolume": "12",
+          "pubYear": "2022",
+          "journalIssn": "1838-7640",
+          "pageInfo": "4399-4414",
+          "pubType": "research support, non-u.s. gov't; research-article; journal article",
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "citedByCount": 9,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasTMAccessionNumbers": "N",
+          "firstIndexDate": "2022-06-08",
+          "firstPublicationDate": "2022-05-21"
+        },
+        {
+          "id": "36119538",
+          "source": "MED",
+          "pmid": "36119538",
+          "pmcid": "PMC9479204",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC9479204"
+            ]
+          },
+          "doi": "10.3389/fonc.2022.945992",
+          "title": "Prognostic value of dysadherin in cancer: A systematic review and meta-analysis.",
+          "authorString": "Niinivirta A, Salo T, \u00c5str\u00f6m P, Juurikka K, Risteli M.",
+          "journalTitle": "Front Oncol",
+          "journalVolume": "12",
+          "pubYear": "2022",
+          "journalIssn": "2234-943x",
+          "pageInfo": "945992",
+          "pubType": "systematic review; systematic-review; journal article",
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "citedByCount": 1,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasTMAccessionNumbers": "N",
+          "firstIndexDate": "2022-09-20",
+          "firstPublicationDate": "2022-09-02"
+        },
+        {
+          "id": "31867269",
+          "source": "MED",
+          "pmid": "31867269",
+          "pmcid": "PMC6908519",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC6908519"
+            ]
+          },
+          "doi": "10.3389/fonc.2019.01306",
+          "title": "FXYD5/Dysadherin, a Biomarker of Endometrial Cancer Myometrial Invasion and Aggressiveness: Its Relationship With TGF-\u03b21 and NF-\u03baB Pathways.",
+          "authorString": "Besso MJ, Rosso M, Lapyckyj L, Moiola CP, Matos ML, Mercogliano MF, Schillaci R, Reventos J, Colas E, Gil-Moreno A, Wernicke A, Orti R, Vazquez-Levin MH.",
+          "journalTitle": "Front Oncol",
+          "journalVolume": "9",
+          "pubYear": "2019",
+          "journalIssn": "2234-943x",
+          "pageInfo": "1306",
+          "pubType": "research-article; journal article",
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "citedByCount": 21,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasTMAccessionNumbers": "N",
+          "firstIndexDate": "2019-12-30",
+          "firstPublicationDate": "2019-12-06"
+        },
+        {
+          "id": "26458963",
+          "source": "MED",
+          "pmid": "26458963",
+          "pmcid": "PMC4626168",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC4626168"
+            ]
+          },
+          "doi": "10.3892/mmr.2015.4363",
+          "title": "Aberrantly regulated dysadherin and B-cell lymphoma 2/B-cell lymphoma 2-associated X enhances tumorigenesis and DNA targeting drug resistance of liver cancer stem cells.",
+          "authorString": "Jiang N, Chen W, Zhang JW, Li Y, Zeng XC, Zhang T, Fu BS, Yi HM, Zhang Q.",
+          "journalTitle": "Mol Med Rep",
+          "issue": "5",
+          "journalVolume": "12",
+          "pubYear": "2015",
+          "journalIssn": "1791-2997; 1791-3004; ",
+          "pageInfo": "7239-7246",
+          "pubType": "research support, non-u.s. gov't; research-article; journal article",
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "citedByCount": 10,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "gen"
+            ]
+          },
+          "firstIndexDate": "2015-10-14",
+          "firstPublicationDate": "2015-09-25"
+        },
+        {
+          "id": "32021438",
+          "source": "MED",
+          "pmid": "32021438",
+          "pmcid": "PMC6959498",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC6959498"
+            ]
+          },
+          "doi": "10.2147/cmar.s232278",
+          "title": "Prognostic and Clinicopathological Significance of EphB3 and Dysadherin Expression in Extrahepatic Cholangiocarcinoma.",
+          "authorString": "Wu Z, Liu R, Xiong L, Miao X, Li D, Zou Q, Yuan Y, Yang Z.",
+          "journalTitle": "Cancer Manag Res",
+          "journalVolume": "12",
+          "pubYear": "2020",
+          "journalIssn": "1179-1322",
+          "pageInfo": "221-232",
+          "pubType": "research-article; journal article",
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "citedByCount": 6,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasTMAccessionNumbers": "N",
+          "firstIndexDate": "2020-02-07",
+          "firstPublicationDate": "2020-01-10"
+        }
+      ]
+    }
+  }
+}

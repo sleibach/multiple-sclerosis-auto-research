@@ -1,0 +1,1817 @@
+{
+  "page_meta": {
+    "limit": 3,
+    "next": "/chembl/api/data/target/search.json?limit=3&offset=3&q=CD40",
+    "offset": 0,
+    "previous": null,
+    "total_count": 5
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Tumor necrosis factor receptor superfamily member 5",
+      "score": 21.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL1250358",
+      "target_components": [
+        {
+          "accession": "P25942",
+          "component_description": "Tumor necrosis factor receptor superfamily member 5",
+          "component_id": 5181,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "B-cell surface antigen CD40",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Bp50",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CD40",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "CD40L receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CD_antigen=CD40",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CDw40",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "TNFRSF5",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Tumor necrosis factor receptor superfamily member 5",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "8YX1",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5IHL",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1FLL",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1D00",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1CZZ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3QD6",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5DMI",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6PE8",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5DMJ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7P3I",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6PE9",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1LB6",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8YX9",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6FAX",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0003823",
+              "xref_name": "antigen binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019899",
+              "xref_name": "enzyme binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019904",
+              "xref_name": "protein domain specific binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0031625",
+              "xref_name": "ubiquitin protein ligase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0038023",
+              "xref_name": "signaling receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0002376",
+              "xref_name": "immune system process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002637",
+              "xref_name": "regulation of immunoglobulin production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002768",
+              "xref_name": "immune response-regulating cell surface receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006874",
+              "xref_name": "intracellular calcium ion homeostasis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007259",
+              "xref_name": "cell surface receptor signaling pathway via JAK-STAT",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0019724",
+              "xref_name": "B cell mediated immunity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0023035",
+              "xref_name": "CD40 signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030168",
+              "xref_name": "platelet activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030890",
+              "xref_name": "positive regulation of B cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032735",
+              "xref_name": "positive regulation of interleukin-12 production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042100",
+              "xref_name": "B cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042113",
+              "xref_name": "B cell activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043123",
+              "xref_name": "positive regulation of canonical NF-kappaB signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043410",
+              "xref_name": "positive regulation of MAPK cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043491",
+              "xref_name": "phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043536",
+              "xref_name": "positive regulation of blood vessel endothelial cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045766",
+              "xref_name": "positive regulation of angiogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045944",
+              "xref_name": "positive regulation of transcription by RNA polymerase II",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048304",
+              "xref_name": "positive regulation of isotype switching to IgG isotypes",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050776",
+              "xref_name": "regulation of immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0065003",
+              "xref_name": "protein-containing complex assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071222",
+              "xref_name": "cellular response to lipopolysaccharide",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071260",
+              "xref_name": "cellular response to mechanical stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0090037",
+              "xref_name": "positive regulation of protein kinase C signaling",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1902216",
+              "xref_name": "positive regulation of interleukin-4-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000353",
+              "xref_name": "positive regulation of endothelial cell apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009897",
+              "xref_name": "external side of plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005615",
+              "xref_name": "extracellular space",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009986",
+              "xref_name": "cell surface",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0043025",
+              "xref_name": "neuronal cell body",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0043196",
+              "xref_name": "varicosity",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0035631",
+              "xref_name": "CD40 receptor complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "E1P5S9",
+              "xref_name": "Tumor necrosis factor receptor superfamily member 5",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q53GN5",
+              "xref_name": "Tumor necrosis factor receptor superfamily member 5",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q5JY15",
+              "xref_name": "Tumor necrosis factor receptor superfamily member 5",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q5U007",
+              "xref_name": "Tumor necrosis factor receptor superfamily member 5",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q7M4Q8",
+              "xref_name": "Tumor necrosis factor receptor superfamily member 5",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q86YK5",
+              "xref_name": "Tumor necrosis factor receptor superfamily member 5",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9BYU0",
+              "xref_name": "Tumor necrosis factor receptor superfamily member 5",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P25942",
+              "xref_name": "Tumor necrosis factor receptor superfamily member 5",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "1CZZ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1D00",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1FLL",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1LB6",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3QD6",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5DMI",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5DMJ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5IHL",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6FAX",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6PE8",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6PE9",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7P3I",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8YX1",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8YX9",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P25942",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P25942",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:11919",
+              "xref_name": "CD40",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-198933",
+              "xref_name": "Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5668541",
+              "xref_name": "TNFR2 non-canonical NF-kB pathway",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5676594",
+              "xref_name": "TNF receptor superfamily (TNFSF) members mediating non-canonical NF-kB pathway",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P25942",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P25942",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR001368",
+              "xref_name": "TNFR/NGFR_Cys_rich_reg",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR020435",
+              "xref_name": "TNFR_5",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR052135",
+              "xref_name": "TNFRSF5",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR034021",
+              "xref_name": "TNFRSF5_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR46875",
+              "xref_name": "TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 5",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR46875:SF1",
+              "xref_name": "TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 5",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00020",
+              "xref_name": "TNFR_c6",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA36612",
+              "xref_name": "CD40 molecule",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    },
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "CD40-CD40L",
+      "score": 21.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL4106122",
+      "target_components": [
+        {
+          "accession": "P25942",
+          "component_description": "Tumor necrosis factor receptor superfamily member 5",
+          "component_id": 5181,
+          "component_type": "PROTEIN",
+          "relationship": "INTERACTING PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "B-cell surface antigen CD40",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Bp50",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CD40",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "CD40L receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CD_antigen=CD40",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CDw40",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "TNFRSF5",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Tumor necrosis factor receptor superfamily member 5",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "8YX1",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5IHL",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1FLL",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1D00",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1CZZ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3QD6",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5DMI",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6PE8",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5DMJ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7P3I",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6PE9",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1LB6",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8YX9",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6FAX",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0003823",
+              "xref_name": "antigen binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019899",
+              "xref_name": "enzyme binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019904",
+              "xref_name": "protein domain specific binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0031625",
+              "xref_name": "ubiquitin protein ligase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0038023",
+              "xref_name": "signaling receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0002376",
+              "xref_name": "immune system process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002637",
+              "xref_name": "regulation of immunoglobulin production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002768",
+              "xref_name": "immune response-regulating cell surface receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006874",
+              "xref_name": "intracellular calcium ion homeostasis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007259",
+              "xref_name": "cell surface receptor signaling pathway via JAK-STAT",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0019724",
+              "xref_name": "B cell mediated immunity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0023035",
+              "xref_name": "CD40 signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030168",
+              "xref_name": "platelet activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030890",
+              "xref_name": "positive regulation of B cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032735",
+              "xref_name": "positive regulation of interleukin-12 production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042100",
+              "xref_name": "B cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042113",
+              "xref_name": "B cell activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043123",
+              "xref_name": "positive regulation of canonical NF-kappaB signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043410",
+              "xref_name": "positive regulation of MAPK cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043491",
+              "xref_name": "phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043536",
+              "xref_name": "positive regulation of blood vessel endothelial cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045766",
+              "xref_name": "positive regulation of angiogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045944",
+              "xref_name": "positive regulation of transcription by RNA polymerase II",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048304",
+              "xref_name": "positive regulation of isotype switching to IgG isotypes",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050776",
+              "xref_name": "regulation of immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0065003",
+              "xref_name": "protein-containing complex assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071222",
+              "xref_name": "cellular response to lipopolysaccharide",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071260",
+              "xref_name": "cellular response to mechanical stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0090037",
+              "xref_name": "positive regulation of protein kinase C signaling",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1902216",
+              "xref_name": "positive regulation of interleukin-4-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000353",
+              "xref_name": "positive regulation of endothelial cell apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009897",
+              "xref_name": "external side of plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005615",
+              "xref_name": "extracellular space",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009986",
+              "xref_name": "cell surface",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0043025",
+              "xref_name": "neuronal cell body",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0043196",
+              "xref_name": "varicosity",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0035631",
+              "xref_name": "CD40 receptor complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "E1P5S9",
+              "xref_name": "Tumor necrosis factor receptor superfamily member 5",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q53GN5",
+              "xref_name": "Tumor necrosis factor receptor superfamily member 5",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q5JY15",
+              "xref_name": "Tumor necrosis factor receptor superfamily member 5",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q5U007",
+              "xref_name": "Tumor necrosis factor receptor superfamily member 5",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q7M4Q8",
+              "xref_name": "Tumor necrosis factor receptor superfamily member 5",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q86YK5",
+              "xref_name": "Tumor necrosis factor receptor superfamily member 5",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9BYU0",
+              "xref_name": "Tumor necrosis factor receptor superfamily member 5",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P25942",
+              "xref_name": "Tumor necrosis factor receptor superfamily member 5",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "1CZZ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1D00",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1FLL",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1LB6",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3QD6",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5DMI",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5DMJ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5IHL",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6FAX",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6PE8",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6PE9",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7P3I",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8YX1",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8YX9",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P25942",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P25942",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:11919",
+              "xref_name": "CD40",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-198933",
+              "xref_name": "Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5668541",
+              "xref_name": "TNFR2 non-canonical NF-kB pathway",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5676594",
+              "xref_name": "TNF receptor superfamily (TNFSF) members mediating non-canonical NF-kB pathway",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P25942",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P25942",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR001368",
+              "xref_name": "TNFR/NGFR_Cys_rich_reg",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR020435",
+              "xref_name": "TNFR_5",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR052135",
+              "xref_name": "TNFRSF5",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR034021",
+              "xref_name": "TNFRSF5_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR46875",
+              "xref_name": "TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 5",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR46875:SF1",
+              "xref_name": "TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 5",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00020",
+              "xref_name": "TNFR_c6",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA36612",
+              "xref_name": "CD40 molecule",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        },
+        {
+          "accession": "P29965",
+          "component_description": "CD40 ligand",
+          "component_id": 9962,
+          "component_type": "PROTEIN",
+          "relationship": "INTERACTING PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "CD40-L",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CD40L",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "CD40LG",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "CD40 ligand",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CD40 ligand, membrane form",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CD40 ligand, soluble form",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CD_antigen=CD154",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "sCD40L",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "T-cell antigen Gp39",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "TNF-related activation protein",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "TNFSF5",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "TRAP",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "TRAP",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Tumor necrosis factor ligand superfamily member 5",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "3LKJ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6BRB",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1I9R",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6W9G",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3QD6",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7SGM",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1ALY",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0005102",
+              "xref_name": "signaling receptor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005125",
+              "xref_name": "cytokine activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005164",
+              "xref_name": "tumor necrosis factor receptor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005174",
+              "xref_name": "CD40 receptor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005178",
+              "xref_name": "integrin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0002637",
+              "xref_name": "regulation of immunoglobulin production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006955",
+              "xref_name": "immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007159",
+              "xref_name": "leukocyte cell-cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007166",
+              "xref_name": "cell surface receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007229",
+              "xref_name": "integrin-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0023035",
+              "xref_name": "CD40 signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030168",
+              "xref_name": "platelet activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030183",
+              "xref_name": "B cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031295",
+              "xref_name": "T cell costimulation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032733",
+              "xref_name": "positive regulation of interleukin-10 production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032735",
+              "xref_name": "positive regulation of interleukin-12 production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032753",
+              "xref_name": "positive regulation of interleukin-4 production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042100",
+              "xref_name": "B cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042102",
+              "xref_name": "positive regulation of T cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043066",
+              "xref_name": "negative regulation of apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043123",
+              "xref_name": "positive regulation of canonical NF-kappaB signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045190",
+              "xref_name": "isotype switching",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000353",
+              "xref_name": "positive regulation of endothelial cell apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2001238",
+              "xref_name": "positive regulation of extrinsic apoptotic signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005615",
+              "xref_name": "extracellular space",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005794",
+              "xref_name": "Golgi apparatus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009897",
+              "xref_name": "external side of plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009986",
+              "xref_name": "cell surface",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "P29965",
+              "xref_name": "CD40 ligand",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "1ALY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1I9R",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3LKJ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3QD6",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6BRB",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6W9G",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7SGM",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P29965",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "HGNC:11935",
+              "xref_name": "CD40LG",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-198933",
+              "xref_name": "Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5668541",
+              "xref_name": "TNFR2 non-canonical NF-kB pathway",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5676594",
+              "xref_name": "TNF receptor superfamily (TNFSF) members mediating non-canonical NF-kB pathway",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P29965",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P29965",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR003263",
+              "xref_name": "CD40L",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR021184",
+              "xref_name": "TNF_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR006052",
+              "xref_name": "TNF_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR008983",
+              "xref_name": "Tumour_necrosis_fac-like_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11471:SF5",
+              "xref_name": "CD40 LIGAND",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR11471",
+              "xref_name": "TUMOR NECROSIS FACTOR FAMILY MEMBER",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00229",
+              "xref_name": "TNF",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA36626",
+              "xref_name": "CD40 ligand",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        }
+      ],
+      "target_type": "PROTEIN-PROTEIN INTERACTION",
+      "tax_id": 9606
+    },
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "CD40 ligand",
+      "score": 20.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL3580491",
+      "target_components": [
+        {
+          "accession": "P29965",
+          "component_description": "CD40 ligand",
+          "component_id": 9962,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "CD40-L",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CD40L",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "CD40LG",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "CD40 ligand",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CD40 ligand, membrane form",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CD40 ligand, soluble form",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CD_antigen=CD154",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "sCD40L",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "T-cell antigen Gp39",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "TNF-related activation protein",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "TNFSF5",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "TRAP",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "TRAP",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Tumor necrosis factor ligand superfamily member 5",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "3LKJ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6BRB",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1I9R",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6W9G",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3QD6",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7SGM",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1ALY",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0005102",
+              "xref_name": "signaling receptor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005125",
+              "xref_name": "cytokine activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005164",
+              "xref_name": "tumor necrosis factor receptor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005174",
+              "xref_name": "CD40 receptor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005178",
+              "xref_name": "integrin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0002637",
+              "xref_name": "regulation of immunoglobulin production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006955",
+              "xref_name": "immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007159",
+              "xref_name": "leukocyte cell-cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007166",
+              "xref_name": "cell surface receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007229",
+              "xref_name": "integrin-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0023035",
+              "xref_name": "CD40 signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030168",
+              "xref_name": "platelet activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030183",
+              "xref_name": "B cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031295",
+              "xref_name": "T cell costimulation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032733",
+              "xref_name": "positive regulation of interleukin-10 production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032735",
+              "xref_name": "positive regulation of interleukin-12 production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032753",
+              "xref_name": "positive regulation of interleukin-4 production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042100",
+              "xref_name": "B cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042102",
+              "xref_name": "positive regulation of T cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043066",
+              "xref_name": "negative regulation of apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043123",
+              "xref_name": "positive regulation of canonical NF-kappaB signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045190",
+              "xref_name": "isotype switching",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000353",
+              "xref_name": "positive regulation of endothelial cell apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2001238",
+              "xref_name": "positive regulation of extrinsic apoptotic signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005615",
+              "xref_name": "extracellular space",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005794",
+              "xref_name": "Golgi apparatus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009897",
+              "xref_name": "external side of plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009986",
+              "xref_name": "cell surface",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "P29965",
+              "xref_name": "CD40 ligand",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "1ALY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1I9R",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3LKJ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3QD6",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6BRB",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6W9G",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7SGM",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P29965",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "HGNC:11935",
+              "xref_name": "CD40LG",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-198933",
+              "xref_name": "Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5668541",
+              "xref_name": "TNFR2 non-canonical NF-kB pathway",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5676594",
+              "xref_name": "TNF receptor superfamily (TNFSF) members mediating non-canonical NF-kB pathway",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P29965",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P29965",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR003263",
+              "xref_name": "CD40L",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR021184",
+              "xref_name": "TNF_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR006052",
+              "xref_name": "TNF_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR008983",
+              "xref_name": "Tumour_necrosis_fac-like_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11471:SF5",
+              "xref_name": "CD40 LIGAND",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR11471",
+              "xref_name": "TUMOR NECROSIS FACTOR FAMILY MEMBER",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00229",
+              "xref_name": "TNF",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA36626",
+              "xref_name": "CD40 ligand",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

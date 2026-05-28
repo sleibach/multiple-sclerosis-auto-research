@@ -1,0 +1,143 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ASERPINA1%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "value": "Inhibitor of serine proteases. Its primary target is elastase, but it also has a moderate affinity for plasmin and thrombin. Irreversibly inhibits trypsin, chymotrypsin and plasminogen activator. The aberrant form inhibits insulin-induced NO synthesis in platelets, decreases coagulation time and has proteolytic activity against insulin and plasmin"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "molecule": "Short peptide from AAT",
+          "texts": [
+            {
+              "value": "Reversible chymotrypsin inhibitor. It also inhibits elastase, but not trypsin. Its major physiological function is the protection of the lower respiratory tract against proteolytic destruction by human leukocyte elastase (HLE)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "value": "The S and Z allele are not secreted effectively and accumulate intracellularly in the endoplasmic reticulum"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0095",
+                "value": "Endoplasmic reticulum"
+              }
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "molecule": "Short peptide from AAT",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0111",
+                "value": "Secreted, extracellular space, extracellular matrix"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000000CBEC"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:8941",
+                "source": "HGNC"
+              }
+            ],
+            "value": "SERPINA1"
+          },
+          "orfNames": [
+            {
+              "value": "PRO0684"
+            },
+            {
+              "value": "PRO2209"
+            }
+          ],
+          "synonyms": [
+            {
+              "value": "AAT"
+            },
+            {
+              "value": "PI"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P01009",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Alpha-1 protease inhibitor"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Alpha-1-antiproteinase"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Serpin A1"
+            }
+          }
+        ],
+        "contains": [
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "Short peptide from AAT"
+              },
+              "shortNames": [
+                {
+                  "value": "SPAAT"
+                }
+              ]
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Alpha-1-antitrypsin"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=SEL1L3%5BTitle%2FAbstract%5D+AND+%28immune%5BTitle%2FAbstract%5D+OR+macrophage%5BTitle%2FAbstract%5D+OR+monocyte%5BTitle%2FAbstract%5D+OR+stromal%5BTitle%2FAbstract%5D+OR+epithelial%5BTitle%2FAbstract%5D+OR+autoimmune%5BTitle%2FAbstract%5D+OR+inflammation%5BTitle%2FAbstract%5D+OR+inflammatory%5BTitle%2FAbstract%5D%29+AND+%28knockdown%5BTitle%2FAbstract%5D+OR+knockout%5BTitle%2FAbstract%5D+OR+CRISPR%5BTitle%2FAbstract%5D+OR+siRNA%5BTitle%2FAbstract%5D+OR+shRNA%5BTitle%2FAbstract%5D+OR+overexpression%5BTitle%2FAbstract%5D+OR+perturbation%5BTitle%2FAbstract%5D%29&retmode=json&retmax=10",
+  "status": 200,
+  "json": {
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    },
+    "esearchresult": {
+      "count": "1",
+      "retmax": "1",
+      "retstart": "0",
+      "idlist": [
+        "34993975"
+      ],
+      "translationset": [],
+      "querytranslation": "\"SEL1L3\"[Title/Abstract] AND (\"immune\"[Title/Abstract] OR \"macrophage\"[Title/Abstract] OR \"monocyte\"[Title/Abstract] OR \"stromal\"[Title/Abstract] OR \"epithelial\"[Title/Abstract] OR \"autoimmune\"[Title/Abstract] OR \"inflammation\"[Title/Abstract] OR \"inflammatory\"[Title/Abstract]) AND (\"knockdown\"[Title/Abstract] OR \"knockout\"[Title/Abstract] OR \"CRISPR\"[Title/Abstract] OR \"siRNA\"[Title/Abstract] OR \"shRNA\"[Title/Abstract] OR \"overexpression\"[Title/Abstract] OR \"perturbation\"[Title/Abstract])"
+    }
+  },
+  "summary_json": {
+    "header": {
+      "type": "esummary",
+      "version": "0.3"
+    },
+    "result": {
+      "uids": [
+        "34993975"
+      ],
+      "34993975": {
+        "uid": "34993975",
+        "pubdate": "2022 Apr",
+        "epubdate": "2022 Jan 6",
+        "source": "J Periodontal Res",
+        "authors": [
+          {
+            "name": "Gao X",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Jiang C",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Yao S",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Ma L",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Wang X",
+            "authtype": "Author",
+            "clusterid": ""
+          },
+          {
+            "name": "Cao Z",
+            "authtype": "Author",
+            "clusterid": ""
+          }
+        ],
+        "lastauthor": "Cao Z",
+        "title": "Identification of hub genes related to immune cell infiltration in periodontitis using integrated bioinformatic analysis.",
+        "sorttitle": "identification of hub genes related to immune cell infiltration in periodontitis using integrated bioinformatic analysis",
+        "volume": "57",
+        "issue": "2",
+        "pages": "392-401",
+        "lang": [
+          "eng"
+        ],
+        "nlmuniqueid": "0055107",
+        "issn": "0022-3484",
+        "essn": "1600-0765",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "pubstatus": "256",
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "34993975"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1111/jre.12970"
+          }
+        ],
+        "history": [
+          {
+            "pubstatus": "revised",
+            "date": "2021/12/18 00:00"
+          },
+          {
+            "pubstatus": "received",
+            "date": "2021/09/06 00:00"
+          },
+          {
+            "pubstatus": "accepted",
+            "date": "2021/12/24 00:00"
+          },
+          {
+            "pubstatus": "pubmed",
+            "date": "2022/01/08 06:00"
+          },
+          {
+            "pubstatus": "medline",
+            "date": "2022/03/12 06:00"
+          },
+          {
+            "pubstatus": "entrez",
+            "date": "2022/01/07 06:48"
+          }
+        ],
+        "references": [],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "pmcrefcount": "",
+        "fulljournalname": "Journal of periodontal research",
+        "elocationid": "doi: 10.1111/jre.12970",
+        "doctype": "citation",
+        "srccontriblist": [],
+        "booktitle": "",
+        "medium": "",
+        "edition": "",
+        "publisherlocation": "",
+        "publishername": "",
+        "srcdate": "",
+        "reportnumber": "",
+        "availablefromurl": "",
+        "locationlabel": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "bookname": "",
+        "chapter": "",
+        "sortpubdate": "2022/04/01 00:00",
+        "sortfirstauthor": "Gao X",
+        "vernaculartitle": ""
+      }
+    }
+  }
+}

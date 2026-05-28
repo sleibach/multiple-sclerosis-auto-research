@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr2",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000138378.17",
+        "geneSymbol": "STAT4",
+        "geneSymbolUpper": "STAT4",
+        "nes": -0.510302,
+        "ontologyId": "EFO:0000572",
+        "pValue": 2.00362e-07,
+        "pos": 191144729,
+        "snpId": "rs11685878",
+        "snpIdUpper": "RS11685878",
+        "tissueSiteDetailId": "Cells_EBV-transformed_lymphocytes",
+        "variantId": "chr2_191144729_T_C_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 30,
+      "page": 0,
+      "totalNumberOfItems": 30
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000138378.17&tissueSiteDetailId=Cells_EBV-transformed_lymphocytes&datasetId=gtex_v8&itemsPerPage=1"
+}

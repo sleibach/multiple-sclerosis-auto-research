@@ -1,0 +1,199 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "Q9DBB1",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "29043977",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "8670865",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Dual specificity protein phosphatase, which mediates dephosphorylation and inactivation of MAP kinases (PubMed:8670865). Has a specificity for the ERK family (PubMed:8670865). Plays an important role in alleviating chronic postoperative pain (By similarity). Necessary for the normal dephosphorylation of the long-lasting phosphorylated forms of spinal MAPK1/3 and MAP kinase p38 induced by peripheral surgery, which drives the resolution of acute postoperative allodynia (By similarity). Also important for dephosphorylation of MAPK1/3 in local wound tissue, which further contributes to resolution of acute pain (By similarity). Promotes cell differentiation by regulating MAPK1/MAPK3 activity and regulating the expression of AP1 transcription factors (PubMed:29043977)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "8670865",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000013ED2F"
+      },
+      "features": [
+        {
+          "description": "Phosphocysteine intermediate",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00160",
+              "source": "PROSITE-ProRule"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "10048930",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 293
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 293
+            }
+          },
+          "type": "Active site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "DUSP6"
+          },
+          "synonyms": [
+            {
+              "value": "MKP3"
+            },
+            {
+              "value": "PYST1"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0963",
+          "name": "Cytoplasm"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0225",
+          "name": "Disease variant"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0378",
+          "name": "Hydrolase"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-1016",
+          "name": "Hypogonadotropic hypogonadism"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0956",
+          "name": "Kallmann syndrome"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0904",
+          "name": "Protein phosphatase"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0832",
+          "name": "Ubl conjugation"
+        }
+      ],
+      "primaryAccession": "Q16828",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Dual specificity protein phosphatase PYST1"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Mitogen-activated protein kinase phosphatase 3"
+            },
+            "shortNames": [
+              {
+                "value": "MAP kinase phosphatase 3"
+              },
+              {
+                "value": "MKP-3"
+              }
+            ]
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "value": "3.1.3.16"
+            },
+            {
+              "value": "3.1.3.48"
+            }
+          ],
+          "fullName": {
+            "value": "Dual specificity protein phosphatase 6"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "386612227F5D3B2A",
+        "length": 381,
+        "md5": "EB7333EA7C9E44C38A9768051B6B43D0",
+        "molWeight": 42320,
+        "value": "MIDTLRPVPFASEMAISKTVAWLNEQLELGNERLLLMDCRPQELYESSHIESAINVAIPGIMLRRLQKGNLPVRALFTRGEDRDRFTRRCGTDTVVLYDESSSDWNENTGGESVLGLLLKKLKDEGCRAFYLEGGFSKFQAEFSLHCETNLDGSCSSSSPPLPVLGLGGLRISSDSSSDIESDLDRDPNSATDSDGSPLSNSQPSFPVEILPFLYLGCAKDSTNLDVLEEFGIKYILNVTPNLPNLFENAGEFKYKQIPISDHWSQNLSQFFPEAISFIDEARGKNCGVLVHCLAGISRSVTVTVAYLMQKLNLSMNDAYDIVKMKKSNISPNFNFMGQLLDFERTLGLSSPCDNRVPAQQLYFTTPSNQNVYQVDSLQST"
+      },
+      "uniProtkbId": "DUS6_HUMAN"
+    }
+  ]
+}

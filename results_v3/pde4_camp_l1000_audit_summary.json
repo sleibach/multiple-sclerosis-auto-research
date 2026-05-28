@@ -1,0 +1,46 @@
+{
+  "random_seed": 20260526,
+  "compoundinfo_path": "data/raw_v3/lincs2020/compoundinfo_beta.txt",
+  "l1000_hits_path": "results_v3/l1000fwd_reversal_hits.tsv",
+  "terms": [
+    "pde4",
+    "apremilast",
+    "roflumilast",
+    "rolipram",
+    "cilomilast",
+    "ibudilast",
+    "piclamilast",
+    "ro-20-1724",
+    "forskolin",
+    "bucladesine",
+    "dibutyryl",
+    "camp stimulant",
+    "adenylyl cyclase"
+  ],
+  "core_compounds": [
+    "apremilast",
+    "roflumilast",
+    "rolipram",
+    "cilomilast",
+    "ibudilast",
+    "piclamilast",
+    "forskolin",
+    "bucladesine"
+  ],
+  "n_lincs_metadata_rows_matching_terms": 85,
+  "n_lincs_unique_pert_ids_matching_terms": 34,
+  "n_l1000_top_hit_rows_matching_terms": 2,
+  "n_l1000_top_hit_rows_matching_core_compounds": 0,
+  "core_compounds_present_in_lincs_metadata": [
+    "apremilast",
+    "bucladesine",
+    "cilomilast",
+    "forskolin",
+    "ibudilast",
+    "piclamilast",
+    "roflumilast",
+    "rolipram"
+  ],
+  "core_compounds_present_in_l1000_top_hits": [],
+  "interpretation": "PDE4/cAMP perturbagens are represented in LINCS metadata, but their absence from the retrieved top L1000FWD opposite hits means current V3 L1000FWD data do not independently support PDE4/cAMP as a strong reversal candidate. This is a negative/weak in-silico intervention signal, not proof of no effect."
+}

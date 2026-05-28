@@ -1,0 +1,496 @@
+{
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D002283",
+              "term": "Carcinoma, Bronchogenic"
+            },
+            {
+              "id": "D001984",
+              "term": "Bronchial Neoplasms"
+            },
+            {
+              "id": "D008175",
+              "term": "Lung Neoplasms"
+            },
+            {
+              "id": "D012142",
+              "term": "Respiratory Tract Neoplasms"
+            },
+            {
+              "id": "D013899",
+              "term": "Thoracic Neoplasms"
+            },
+            {
+              "id": "D009371",
+              "term": "Neoplasms by Site"
+            },
+            {
+              "id": "D009369",
+              "term": "Neoplasms"
+            },
+            {
+              "id": "D008171",
+              "term": "Lung Diseases"
+            },
+            {
+              "id": "D012140",
+              "term": "Respiratory Tract Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D002289",
+              "term": "Carcinoma, Non-Small-Cell Lung"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "The oral probiotic (Lactobacillus Bifidobacterium V9,one times a day during the whole treatment) was isolated from healthy women's breast milk samples in 2017 and was identified as Lactobacillus rhamnosus by physiological and biochemical and 16S rRNA. It is listed as the \"List of Probiotics for Health Food\" in my country's \"List of Bacteria Available for Food\", which can be directly applied to food production.",
+              "interventionNames": [
+                "Other: V9"
+              ],
+              "label": "probiotics group",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Immunotherapy with placebo alone",
+              "interventionNames": [
+                "Other: placebo"
+              ],
+              "label": "placebo group",
+              "type": "PLACEBO_COMPARATOR"
+            },
+            {
+              "description": "healthy control group",
+              "label": "healthy control group",
+              "type": "NO_INTERVENTION"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "probiotics group"
+              ],
+              "description": "one times a day during the whole treatment",
+              "name": "V9",
+              "type": "OTHER"
+            },
+            {
+              "armGroupLabels": [
+                "placebo group"
+              ],
+              "description": "placebo",
+              "name": "placebo",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Non-small Cell Lung Cancer"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Nanchang",
+              "contacts": [
+                {
+                  "email": "jclil2002@163.com",
+                  "name": "Chunling Jiang, doctor",
+                  "phone": "13979109200",
+                  "phoneExt": "+086",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "China",
+              "facility": "Chunling Jiang",
+              "geoPoint": {
+                "lat": 28.68396,
+                "lon": 115.85306
+              },
+              "state": "Jiangxi",
+              "status": "RECRUITING"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Human microbes have been called \"the second genome of humanity\".On May 13,2016,the White House launched the National Microbiome Initiative (NMI), with an estimated investment of us $521 million, to elevate microbiome research to a national strategic status. The gut is the largest microecological environment in the human body. The research in the field of intestinal microbiome has become one of the most advanced and hot research directions in the scientific field of the world today. At present, more than 50 diseases have been found to be related to intestinal microbiome disorders. Pd-1 (programmed death receptor 1) is an important immunosuppressive molecule.It regulates the immune system and promotes tolerance by down-regulating the immune system's response to human cells and by suppressing T cell inflammatory activity. In the past, the research team and colleagues in related fields have found a strong correlation between Gut Microbiome and the efficacy of anti-PD-1 immunotherapy in cancer patients.This protects against autoimmune diseases, but it also prevents the immune system from killing cancer cells. As more and more scientific evidence shows that intervention of human intestinal flora may improve the efficacy of anti-PD-1 immunotherapy in tumor patients, intestinal flora, as the most effective way to intervene human intestinal flora, has been mentioned by many research institutions and international drug manufacturers in combination with anti-PD-1.Our previous study showed that the abundance of beneficial bacteria such as lactic acid bacteria, bifidobacteria and Akkermansia Muciniphila was significantly correlated with pD-1 inhibitor response, and regulating the intestinal flora content could improve the effect of PD-1 inhibitor on mouse tumors, indicating that microbial flora was involved in regulating cancer immunotherapy."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "QUADRUPLE",
+              "maskingDescription": "The random assignment of patients was performed by Nanchang Medical University with a computer-generated random number code. Patients were randomly distributed in a 1:1 ratio to receive probiotics or a placebo (the block size was known only to the statistician). The drug was distributed and packaged in accordance with random numbers, and the documents stating the parameters, such as the blinding codes for the seeds of the random numbers, the block length, and the random numbers, were sealed in envelopes",
+              "whoMasked": [
+                "PARTICIPANT",
+                "CARE_PROVIDER",
+                "INVESTIGATOR",
+                "OUTCOMES_ASSESSOR"
+              ]
+            },
+            "primaryPurpose": "PREVENTION"
+          },
+          "enrollmentInfo": {
+            "count": 46,
+            "type": "ESTIMATED"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Karnofsky score \u226590 in patients receiving immunotherapy for non-small cell lung cancer at our cancer center\n\nExclusion Criteria:\n\n* any immune system disease under high risk to antimicrobial agents such as Diabetes,infection disease or drug allergy to V9",
+          "healthyVolunteers": false,
+          "maximumAge": "70 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Lactobacillus Bifidobacterium V9(Kex02)Improving the Efficacy of Carilizumab Combined With Platinum in Non-small Cell Lung Cancer Patients",
+          "nctId": "NCT05094167",
+          "officialTitle": "The Mechanism of Probiotic Lactobacillus Bifidobacterium V9(Kex02)Improving the Efficacy of Carilizumab Combined With Platinum in Non-small Cell Lung Cancer Patients",
+          "orgStudyIdInfo": {
+            "id": "JCL2021-10"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Jiangxi Provincial Cancer Hospital"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Proportion of patients whose tumor volume shrinks to a predetermined value and maintains the minimum time limit",
+              "measure": "(objective remission rate)ORR",
+              "timeFrame": "6 months"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Time from randomness to the first occurrence of disease progression or death from Time from randomness to the first occurrence of disease progression or death from any cause",
+              "measure": "PFS",
+              "timeFrame": "6 months"
+            },
+            {
+              "description": "The time between random onset and the patient's death from any cause",
+              "measure": "OS",
+              "timeFrame": "6 months"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": false
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "OTHER",
+              "name": "Inner Mongolia University of Science and Technology"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Jiangxi Provincial Cancer Hospital"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Jiangxi Provincial Cancer Hospital",
+            "investigatorFullName": "Qiang Xu",
+            "investigatorTitle": "Chief Physician",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2023-12-30",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastKnownStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2021-10-26",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2021-10-17",
+          "overallStatus": "UNKNOWN",
+          "primaryCompletionDateStruct": {
+            "date": "2022-12-27",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2021-10-19",
+            "type": "ESTIMATED"
+          },
+          "statusVerifiedDate": "2021-10",
+          "studyFirstPostDateStruct": {
+            "date": "2021-10-26",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2021-10-17",
+          "studyFirstSubmitQcDate": "2021-10-17"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D004067",
+              "term": "Digestive System Neoplasms"
+            },
+            {
+              "id": "D009371",
+              "term": "Neoplasms by Site"
+            },
+            {
+              "id": "D009369",
+              "term": "Neoplasms"
+            },
+            {
+              "id": "D004066",
+              "term": "Digestive System Diseases"
+            },
+            {
+              "id": "D008107",
+              "term": "Liver Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D008113",
+              "term": "Liver Neoplasms"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "The oral probiotic (Lactobacillus rhamnosus Probio-M9,one times a day during the whole treatment) was isolated from healthy women's breast milk samples in 2017 and was identified as Lactobacillus rhamnosus by physiological and biochemical and 16S rRNA. It is listed as the \"List of Probiotics for Health Food\" in my country's \"List of Bacteria Available for Food\", which can be directly applied to food production.",
+              "interventionNames": [
+                "Other: M9"
+              ],
+              "label": "probiotics group",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Immunotherapy with placebo alone",
+              "interventionNames": [
+                "Other: placebo"
+              ],
+              "label": "placebo group",
+              "type": "PLACEBO_COMPARATOR"
+            },
+            {
+              "description": "healthy control group",
+              "label": "healthy control group",
+              "type": "NO_INTERVENTION"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "probiotics group"
+              ],
+              "description": "one times a day during the whole treatment",
+              "name": "M9",
+              "type": "OTHER"
+            },
+            {
+              "armGroupLabels": [
+                "placebo group"
+              ],
+              "description": "placebo",
+              "name": "placebo",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Liver Cancer"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Nanchang",
+              "contacts": [
+                {
+                  "email": "jclil2002@163.com",
+                  "name": "Chunling Jiang, doctor",
+                  "phone": "13979109200",
+                  "phoneExt": "+086",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "China",
+              "facility": "Chunling Jiang",
+              "geoPoint": {
+                "lat": 28.68396,
+                "lon": 115.85306
+              },
+              "state": "Jiangxi",
+              "status": "RECRUITING"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Human microbes have been called \"the second genome of humanity\".On May 13,2016,the White House launched the National Microbiome Initiative (NMI), with an estimated investment of us $521 million, to elevate microbiome research to a national strategic status. The gut is the largest microecological environment in the human body. The research in the field of intestinal microbiome has become one of the most advanced and hot research directions in the scientific field of the world today. At present, more than 50 diseases have been found to be related to intestinal microbiome disorders. Pd-1 (programmed death receptor 1) is an important immunosuppressive molecule.It regulates the immune system and promotes tolerance by down-regulating the immune system's response to human cells and by suppressing T cell inflammatory activity. In the past, the research team and colleagues in related fields have found a strong correlation between Gut Microbiome and the efficacy of anti-PD-1 immunotherapy in cancer patients.This protects against autoimmune diseases, but it also prevents the immune system from killing cancer cells. As more and more scientific evidence shows that intervention of human intestinal flora may improve the efficacy of anti-PD-1 immunotherapy in tumor patients, intestinal flora, as the most effective way to intervene human intestinal flora, has been mentioned by many research institutions and international drug manufacturers in combination with anti-PD-1.Our previous study showed that the abundance of beneficial bacteria such as lactic acid bacteria, bifidobacteria and Akkermansia Muciniphila was significantly correlated with pD-1 inhibitor response, and regulating the intestinal flora content could improve the effect of PD-1 inhibitor on mouse tumors, indicating that microbial flora was involved in regulating cancer immunotherapy."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "QUADRUPLE",
+              "maskingDescription": "The random assignment of patients was performed by Nanchang Medical University with a computer-generated random number code. Patients were randomly distributed in a 1:1 ratio to receive probiotics or a placebo (the block size was known only to the statistician). The drug was distributed and packaged in accordance with random numbers, and the documents stating the parameters, such as the blinding codes for the seeds of the random numbers, the block length, and the random numbers, were sealed in envelopes",
+              "whoMasked": [
+                "PARTICIPANT",
+                "CARE_PROVIDER",
+                "INVESTIGATOR",
+                "OUTCOMES_ASSESSOR"
+              ]
+            },
+            "primaryPurpose": "PREVENTION"
+          },
+          "enrollmentInfo": {
+            "count": 46,
+            "type": "ESTIMATED"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Karnofsky score \u226590 in patients receiving immunotherapy for liver cancer at our cancer center\n\nExclusion Criteria:\n\n* any immune system disease under high risk to antimicrobial agents such as Diabetes,infection disease or drug allergy to V9",
+          "healthyVolunteers": false,
+          "maximumAge": "70 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Probiotics Enhance the Treatment of PD-1 Inhibitors in Patients With Liver Cancer",
+          "nctId": "NCT05032014",
+          "officialTitle": "Probiotics Enhance the Treatment of PD-1 Inhibitors in Patients With Liver Cancer",
+          "orgStudyIdInfo": {
+            "id": "2020ky029"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Jiangxi Provincial Cancer Hospital"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Proportion of patients whose tumor volume shrinks to a predetermined value and maintains the minimum time limit",
+              "measure": "(objective remission rate)ORR",
+              "timeFrame": "6 months"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Time from randomness to the first occurrence of disease progression or death from any cause",
+              "measure": "PFS",
+              "timeFrame": "6 months"
+            },
+            {
+              "description": "The time between random onset and the patient's death from any cause",
+              "measure": "OS",
+              "timeFrame": "6 months"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": false
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "OTHER",
+              "name": "Inner Mongolia University of Science and Technology"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Jiangxi Provincial Cancer Hospital"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Jiangxi Provincial Cancer Hospital",
+            "investigatorFullName": "Qiang Xu",
+            "investigatorTitle": "Chief Physician",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2023-12-30",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastKnownStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2021-10-25",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2021-10-17",
+          "overallStatus": "UNKNOWN",
+          "primaryCompletionDateStruct": {
+            "date": "2022-12-27",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2021-11-19",
+            "type": "ESTIMATED"
+          },
+          "statusVerifiedDate": "2021-10",
+          "studyFirstPostDateStruct": {
+            "date": "2021-09-02",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2021-06-23",
+          "studyFirstSubmitQcDate": "2021-09-01"
+        }
+      }
+    }
+  ]
+}

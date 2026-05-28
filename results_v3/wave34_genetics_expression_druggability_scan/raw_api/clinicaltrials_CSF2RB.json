@@ -1,0 +1,225 @@
+{
+  "payload": {
+    "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxtYfSn3PwTkA",
+    "studies": [
+      {
+        "derivedSection": {
+          "conditionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D017444",
+                "term": "Skin Diseases, Papulosquamous"
+              },
+              {
+                "id": "D012871",
+                "term": "Skin Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D011565",
+                "term": "Psoriasis"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D004599",
+                "term": "Electric Stimulation Therapy"
+              },
+              {
+                "id": "D013812",
+                "term": "Therapeutics"
+              },
+              {
+                "id": "D026741",
+                "term": "Physical Therapy Modalities"
+              },
+              {
+                "id": "D012046",
+                "term": "Rehabilitation"
+              },
+              {
+                "id": "D000698",
+                "term": "Analgesia"
+              },
+              {
+                "id": "D000760",
+                "term": "Anesthesia and Analgesia"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D004561",
+                "term": "Transcutaneous Electric Nerve Stimulation"
+              }
+            ]
+          },
+          "miscInfoModule": {
+            "versionHolder": "2026-05-26"
+          }
+        },
+        "hasResults": false,
+        "protocolSection": {
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "description": "the first step would be to administer the biologic medication in one thigh without the use of TENS therapy. Biologic medications are administered in two doses, with one in each thigh. Administering the first biologic medication injection is done to establish a control, or baseline, for how painful the injection experience is. The second step would be a study team member applying two to four TENS unit pads (made of adhesive gel) to the skin of subject's other thigh approximately two centimeters from the site where injection of the biological medication takes place. There will be no extra injection of biologic medication during this procedure. The prescribed dose will be used one time, split into two legs (which is the standard protocol for administration). The device will be turned on during the injection of the medication. Immediately after both steps, the subject will be given a brief survey to determine your pain level. The subject's involvement would last roughly 10-15 minutes.",
+                "interventionNames": [
+                  "Device: transcutaneous electrical nerve stimulation (TENS) unit"
+                ],
+                "label": "TENS therapy",
+                "type": "EXPERIMENTAL"
+              }
+            ],
+            "interventions": [
+              {
+                "armGroupLabels": [
+                  "TENS therapy"
+                ],
+                "description": "The transcutaneous electrical nerve stimulation (TENS) unit is a noninvasive, inexpensive, battery-operated device that was originally designed to provide modulation of the afferent nervous system to relieve pain. By providing alternating current through cutaneous electrodes, TENS activates large-diameter afferent fibers of the nervous system (A-delta, A-beta, C fibers), whose ascending signals are subsequently relayed to the central nervous system.",
+                "name": "transcutaneous electrical nerve stimulation (TENS) unit",
+                "type": "DEVICE"
+              }
+            ]
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Psoriasis"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "city": "Winston-Salem",
+                "country": "United States",
+                "facility": "Wake Forest University Health Sciences",
+                "geoPoint": {
+                  "lat": 36.09986,
+                  "lon": -80.24422
+                },
+                "state": "North Carolina",
+                "zip": "27157"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "affiliation": "Wake Forest University Health Sciences",
+                "name": "Steven R Feldman, M.D., Ph.D",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ]
+          },
+          "descriptionModule": {
+            "briefSummary": "The purpose of this research study is to determine the efficacy of TENS therapy in reducing the pain experienced by patients during and after the injection of biological medications. The study team is interested in recording the level of pain reduction from TENS therapy to determine if this intervention is effective at reducing discomfort associated with medication administration so that it may possibly be applied to other patients in an effort to reduce treatment-related discomfort, anxiety, and possibly increase adherence.\n\nA total of 10-20 subjects at one research site will be recruited to participate, specifically, individuals who receive the injection of medication in two separate sites. The inclusion criteria will be an age of \\> 18 years old, a diagnosis of psoriasis, and currently receiving biologic medication injection in two sites during their dermatology clinic visit.\n\nThe first step is to administer the biologic medication in one thigh without the use of TENS therapy. This is done to establish a control, or baseline, for how painful the injection experience is. The second step involves a study team member applying two to four TENS unit pads (made of adhesive gel) to the skin of your thigh approximately two centimeters from the site where injection of the biological medication takes place. The device will be turned on during the injection of the medication. Medication injection will take place by either the patient or nursing staff as it would normally take place without involvement in this study. Immediately after both steps, subjects will be given a brief survey to determine their pain level.",
+            "detailedDescription": "A total of 10-20 subjects at one research site will be recruited to participate, specifically, individuals who receive the injection of medication in two separate sites. The inclusion criteria will be an age of \\> 18 years old, a diagnosis of psoriasis, and currently receiving biologic medication injection in two sites during their dermatology clinic visit.\n\nThe first step is to administer the biologic medication in one thigh without the use of TENS therapy. This is done to establish a control, or baseline, for how painful the injection experience is. The second step involves a study team member applying two to four TENS unit pads (made of adhesive gel) to the skin of your thigh approximately two centimeters from the site where injection of the biological medication takes place. The device will be turned on during the injection of the medication. Medication injection will take place by either the patient or nursing staff as it would normally take place without involvement in this study. Immediately after both steps, subjects will be given a brief survey to determine their pain level.\n\nThe study will be conducted at Department of Dermatology at Wake Forest School of Medicine. Data will also be analyzed at Department of Dermatology at Wake Forest School of Medicine."
+          },
+          "designModule": {
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "maskingInfo": {
+                "masking": "NONE"
+              },
+              "primaryPurpose": "OTHER"
+            },
+            "enrollmentInfo": {
+              "count": 20,
+              "type": "ESTIMATED"
+            },
+            "phases": [
+              "NA"
+            ],
+            "studyType": "INTERVENTIONAL"
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Subject has a diagnosis of psoriasis and receiving biologic medication injection in two sites during their clinic visit as part of their management.\n* Subject is 18 years of age or older.\n* Subject has a working knowledge of English.\n\nExclusion Criteria:\n\n* Subject not receiving biologic medication injection.\n* Subject under 18 years of age.\n* Subject does not have a working knowledge of English.",
+            "healthyVolunteers": false,
+            "maximumAge": "64 Years",
+            "minimumAge": "18 Years",
+            "sex": "ALL",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "identificationModule": {
+            "briefTitle": "Use of Transcutaneous Electrical Nerve Stimulation for Reducing Biologic Injection Site Pain(TENS Study)",
+            "nctId": "NCT04058652",
+            "officialTitle": "Use of Transcutaneous Electrical Nerve Stimulation for Reducing Biologic Injection Site Pain",
+            "orgStudyIdInfo": {
+              "id": "IRB00059331"
+            },
+            "organization": {
+              "class": "OTHER",
+              "fullName": "Wake Forest University Health Sciences"
+            }
+          },
+          "ipdSharingStatementModule": {
+            "description": "the study team does not plan to share individual data, only collective outcomes.",
+            "ipdSharing": "NO"
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "description": "Determining the change in discomfort associated with medication before and after the administration of the TENS therapy. The Visual Analogue Scale consists of a straight line with the endpoints defining extreme limits such as \"0\" 'no pain at all' and \"8\" 'pain as bad as it could be'. The patient is asked to mark his pain level on the line between the two endpoints \"0\" - \"8\". The distance between \"0\" 'no pain at all' and the mark then defines the subject's pain.",
+                "measure": "Self Report on Visual Analog Scale for Pain (VAS Pain)",
+                "timeFrame": "completion of study, one day"
+              }
+            ]
+          },
+          "oversightModule": {
+            "isFdaRegulatedDevice": true,
+            "isFdaRegulatedDrug": false,
+            "oversightHasDmc": false
+          },
+          "sponsorCollaboratorsModule": {
+            "leadSponsor": {
+              "class": "OTHER",
+              "name": "Wake Forest University Health Sciences"
+            },
+            "responsibleParty": {
+              "type": "SPONSOR"
+            }
+          },
+          "statusModule": {
+            "completionDateStruct": {
+              "date": "2026-12",
+              "type": "ESTIMATED"
+            },
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "lastUpdatePostDateStruct": {
+              "date": "2025-12-17",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-12-15",
+            "overallStatus": "ACTIVE_NOT_RECRUITING",
+            "primaryCompletionDateStruct": {
+              "date": "2026-07",
+              "type": "ESTIMATED"
+            },
+            "startDateStruct": {
+              "date": "2019-08-07",
+              "type": "ACTUAL"
+            },
+            "statusVerifiedDate": "2025-12",
+            "studyFirstPostDateStruct": {
+              "date": "2019-08-15",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2019-08-08",
+            "studyFirstSubmitQcDate": "2019-08-13"
+          }
+        }
+      }
+    ],
+    "totalCount": 1
+  },
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.term=CSF2RB&query.cond=autoimmune+OR+multiple+sclerosis+OR+rheumatoid+arthritis+OR+lupus+OR+Crohn+OR+psoriasis&format=json&pageSize=1&countTotal=true"
+}

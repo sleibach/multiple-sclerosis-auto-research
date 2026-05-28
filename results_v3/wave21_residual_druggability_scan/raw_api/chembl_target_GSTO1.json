@@ -1,0 +1,739 @@
+{
+  "_request_url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=GSTO1&limit=10",
+  "_status_code": 200,
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 2
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Glutathione S-transferase omega-1",
+      "score": 15.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL3174",
+      "target_components": [
+        {
+          "accession": "P78417",
+          "component_description": "Glutathione S-transferase omega-1",
+          "component_id": 5020,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "1.20.4.2",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "1.8.5.1",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "2.5.1.18",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Glutathione-dependent dehydroascorbate reductase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Glutathione S-transferase omega-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Glutathione S-transferase omega 1-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "GSTO-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "GSTO1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "GSTO 1-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "GSTTLP28",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "MMA(V) reductase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Monomethylarsonic acid reductase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "SPG-R",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "S-(Phenacyl)glutathione reductase",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P78417",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P78417",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0004364",
+              "xref_name": "glutathione transferase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016491",
+              "xref_name": "oxidoreductase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016740",
+              "xref_name": "transferase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0045174",
+              "xref_name": "glutathione dehydrogenase (ascorbate) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0050610",
+              "xref_name": "methylarsonate reductase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006749",
+              "xref_name": "glutathione metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010880",
+              "xref_name": "regulation of release of sequestered calcium ion into cytosol by sarcoplasmic reticulum",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010881",
+              "xref_name": "regulation of cardiac muscle contraction by regulation of the release of sequestered calcium ion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0014810",
+              "xref_name": "positive regulation of skeletal muscle contraction by regulation of release of sequestered calcium ion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0019852",
+              "xref_name": "L-ascorbic acid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042178",
+              "xref_name": "xenobiotic catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060315",
+              "xref_name": "negative regulation of ryanodine-sensitive calcium-release channel activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060316",
+              "xref_name": "positive regulation of ryanodine-sensitive calcium-release channel activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071243",
+              "xref_name": "cellular response to arsenic-containing substance",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0098869",
+              "xref_name": "cellular oxidant detoxification",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:13312",
+              "xref_name": "GSTO1",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "P78417",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR004045",
+              "xref_name": "Glutathione_S-Trfase_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR004046",
+              "xref_name": "GST_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR005442",
+              "xref_name": "GST_omega",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR010987",
+              "xref_name": "Glutathione-S-Trfase_C-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036249",
+              "xref_name": "Thioredoxin-like_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036282",
+              "xref_name": "Glutathione-S-Trfase_C_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR045073",
+              "xref_name": "Omega/Tau-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR050983",
+              "xref_name": "GST_Omega/HSP26",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR43968",
+              "xref_name": "-",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR43968:SF5",
+              "xref_name": "GLUTATHIONE S-TRANSFERASE OMEGA-1",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "1EEM",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3LFL",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3VLN",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4IS0",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4YQM",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4YQU",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4YQV",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5UEH",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5V3Q",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5YVN",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5YVO",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6MHB",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6MHC",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6MHD",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6PNM",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6PNN",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6PNO",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1EEM",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3LFL",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3VLN",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4IS0",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4YQM",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4YQU",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4YQV",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5UEH",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5V3Q",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5YVN",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5YVO",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6MHB",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6MHC",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6MHD",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6PNM",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6PNN",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6PNO",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF13409",
+              "xref_name": "GST_N_2",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF14497",
+              "xref_name": "GST_C_3",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA133787054",
+              "xref_name": "glutathione S-transferase omega 1",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P78417",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-156581",
+              "xref_name": "Methylation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-156590",
+              "xref_name": "Glutathione conjugation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-196836",
+              "xref_name": "Vitamin C (ascorbate) metabolism",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-8950505",
+              "xref_name": "Gene and protein expression by JAK-STAT signaling after Interleukin-12 stimulation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "D3DRA3",
+              "xref_name": "Glutathione S-transferase omega-1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "F5H7H0",
+              "xref_name": "Glutathione S-transferase omega-1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P78417",
+              "xref_name": "Glutathione S-transferase omega-1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q5TA03",
+              "xref_name": "Glutathione S-transferase omega-1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q7Z3T2",
+              "xref_name": "Glutathione S-transferase omega-1",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    },
+    {
+      "cross_references": [],
+      "organism": "Mus musculus",
+      "pref_name": "Glutathione S-transferase omega-1",
+      "score": 15.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL4523122",
+      "target_components": [
+        {
+          "accession": "O09131",
+          "component_description": "Glutathione S-transferase omega-1",
+          "component_id": 18620,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "1.20.4.2",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "1.8.5.1",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "2.5.1.18",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Glutathione-dependent dehydroascorbate reductase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Glutathione S-transferase omega-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Glutathione S-transferase omega 1-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Gsto1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "GSTO-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "GSTO 1-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Gstx",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Gtsttl",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "MMA(V) reductase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Monomethylarsonic acid reductase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "p28",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "SPG-R",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "S-(Phenacyl)glutathione reductase",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "O09131",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "O09131",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0004364",
+              "xref_name": "glutathione transferase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016491",
+              "xref_name": "oxidoreductase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016740",
+              "xref_name": "transferase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0045174",
+              "xref_name": "glutathione dehydrogenase (ascorbate) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0050610",
+              "xref_name": "methylarsonate reductase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0010880",
+              "xref_name": "regulation of release of sequestered calcium ion into cytosol by sarcoplasmic reticulum",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0019852",
+              "xref_name": "L-ascorbic acid metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042178",
+              "xref_name": "xenobiotic catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071243",
+              "xref_name": "cellular response to arsenic-containing substance",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0098869",
+              "xref_name": "cellular oxidant detoxification",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "O09131",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR004045",
+              "xref_name": "Glutathione_S-Trfase_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR004046",
+              "xref_name": "GST_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR005442",
+              "xref_name": "GST_omega",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR010987",
+              "xref_name": "Glutathione-S-Trfase_C-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036249",
+              "xref_name": "Thioredoxin-like_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036282",
+              "xref_name": "Glutathione-S-Trfase_C_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR040079",
+              "xref_name": "Glutathione_S-Trfase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR050983",
+              "xref_name": "GST_Omega/HSP26",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR43968",
+              "xref_name": "-",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR43968:SF5",
+              "xref_name": "GLUTATHIONE S-TRANSFERASE OMEGA-1",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00043",
+              "xref_name": "GST_C",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF13409",
+              "xref_name": "GST_N_2",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "R-MMU-156581",
+              "xref_name": "Methylation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-MMU-156590",
+              "xref_name": "Glutathione conjugation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-MMU-196836",
+              "xref_name": "Vitamin C (ascorbate) metabolism",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "O09131",
+              "xref_name": "Glutathione S-transferase omega-1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q3TH87",
+              "xref_name": "Glutathione S-transferase omega-1",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 10090
+    }
+  ]
+}

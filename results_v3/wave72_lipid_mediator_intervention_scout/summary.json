@@ -1,0 +1,65 @@
+{
+  "branch_calls": {
+    "NO_GO_WAVE72": 2,
+    "PARK_ORTHOGONAL_BIOCHEMICAL_SCOUT": 2
+  },
+  "feature_match_count": 207,
+  "inputs": {
+    "broad_h5ad": "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_summary.tsv",
+    "class_effects": "results_v3/wave66_metabolomics_class_convergence/class_contrast_effects.tsv",
+    "feature_effects": "results_v3/wave66_metabolomics_class_convergence/feature_contrast_effects.tsv",
+    "foamy_proteome": "results/mims2_proteome_convergent_targets.tsv",
+    "wave57": "results_v3/wave57_intervention_first_geneformer_screen/wave57_intervention_first_candidate_calls.tsv",
+    "wave62": "results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv",
+    "wave68": "results_v3/wave68_gse282122_unrestricted_gene_screen/integrated_gene_target_rank.tsv"
+  },
+  "purine_class_summary": {
+    "purine_best_rows": [
+      {
+        "contrast": "AS_vs_control",
+        "disease": "AS",
+        "fdr_within_study_contrast": 1.233745055517054e-06,
+        "hedges_g_case_minus_control": 0.6745869171914296,
+        "p": 4.6265439581889524e-07,
+        "study_id": "ST002949"
+      },
+      {
+        "contrast": "Crohn_vs_control",
+        "disease": "Crohn",
+        "fdr_within_study_contrast": 0.0768666627738789,
+        "hedges_g_case_minus_control": -0.6278026303099806,
+        "p": 0.0499633308030213,
+        "study_id": "ST000899"
+      },
+      {
+        "contrast": "UC_vs_control",
+        "disease": "UC",
+        "fdr_within_study_contrast": 0.5693528515674731,
+        "hedges_g_case_minus_control": -0.2420640357399322,
+        "p": 0.4396948269903085,
+        "study_id": "ST000899"
+      },
+      {
+        "contrast": "T1D_vs_control",
+        "disease": "T1D",
+        "fdr_within_study_contrast": 0.7059855255965622,
+        "hedges_g_case_minus_control": 0.0825454481276034,
+        "p": 0.580044328074991,
+        "study_id": "ST000422"
+      },
+      {
+        "contrast": "UC_week0_modsev_vs_mild",
+        "disease": "UC",
+        "fdr_within_study_contrast": 0.8854433823141206,
+        "hedges_g_case_minus_control": -0.0494829631181484,
+        "p": 0.8854433823141206,
+        "study_id": "ST002470"
+      }
+    ],
+    "purine_class_rows": 8,
+    "purine_normalizing_treatment_rows": 0,
+    "purine_supportive_disease_count": 1,
+    "purine_supportive_diseases": "AS"
+  },
+  "random_seed": 20260527
+}

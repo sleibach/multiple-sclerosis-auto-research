@@ -1,0 +1,26 @@
+{
+  "call_counts": {
+    "NO_GO": 18,
+    "PARK": 5,
+    "PARK_LOW": 6,
+    "PROMOTE": 0
+  },
+  "candidate_count": 29,
+  "outputs": [
+    "results_v3/wave19_tolerogenic_checkpoint/local_checkpoint_evidence.tsv",
+    "results_v3/wave19_tolerogenic_checkpoint/local_checkpoint_evidence_detail.tsv",
+    "results_v3/wave19_tolerogenic_checkpoint/perturbation_foundation_checkpoint_evidence.tsv",
+    "results_v3/wave19_tolerogenic_checkpoint/external_prior_art_query_log.tsv",
+    "results_v3/wave19_tolerogenic_checkpoint/chembl_checkpoint_target_snapshot.tsv",
+    "results_v3/wave19_tolerogenic_checkpoint/checkpoint_candidate_synthesis.tsv"
+  ],
+  "parked": [
+    "CD274",
+    "CD24",
+    "BTLA",
+    "CD200",
+    "CD47"
+  ],
+  "promoted": [],
+  "script": "scripts/v3_wave19_tolerogenic_checkpoint.py"
+}

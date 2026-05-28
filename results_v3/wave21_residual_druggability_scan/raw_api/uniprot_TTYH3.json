@@ -1,0 +1,169 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ATTYH3%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "Q6P5F7",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15010458",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Calcium-independent, swelling-dependent volume-regulated anion channel (VRAC-swell) which plays a pivotal role in the process of regulatory volume decrease (RVD) in the brain through the efflux of anions like chloride and organic osmolytes like glutamate (By similarity). Probable large-conductance Ca(2+)-activated chloride channel (PubMed:15010458)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15010458",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "34385445",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000255"
+                  }
+                ],
+                "id": "SL-9909",
+                "value": "Multi-pass membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000020E9F9"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "Q6P5F7",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 110
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 110
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "Q6P5F7",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 113
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 113
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "TTYH3"
+          },
+          "synonyms": [
+            {
+              "value": "KIAA1691"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "Q9C0H2",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "Q6P5F7",
+                  "source": "UniProtKB"
+                }
+              ],
+              "value": "Volume-regulated anion channel subunit TTYH3"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Protein tweety homolog 3"
+          },
+          "shortNames": [
+            {
+              "value": "hTTY3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

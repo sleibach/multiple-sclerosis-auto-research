@@ -1,0 +1,10 @@
+gate	passed	value	rationale
+cross_autoimmune_genetic_breadth	True	28; min_p=4.999999999999999e-174	requires many autoimmune GWAS traits
+target_resolved_direction	False	not_run/no_coloc_or_MR	requires target-resolved coloc/MR and allele-to-function direction
+strict_ms_anchor	False	ms_gwas=False; delta=0.81950776939291; p=0.0313351961928456; fdr=0.8506970233122761	requires MS genetics or FDR-supported MS state evidence
+cross_disease_cell_state_support	False	local_positive=1.0; residual_positive=0.0	requires expression/state support beyond genetics
+disease_relevant_perturbation_anchor	False	absent	requires PTPN22 perturbation in relevant disease cells with rescue readout
+chemical_matter_exists	True	activity_rows=100; best_nM=270.0	requires tractable chemistry
+phosphatase_selectivity_established	False	min_offtarget_over_ptpn22_ratio=0.4173076923076923	requires evidence top molecules are selective over close phosphatases
+disease_safe_modulation_direction	False	conflicted_inhibition_vs_restoration	requires a safe direction for R620W-like risk biology
+novelty_prior_art_not_blocking	False	EuropePMC_max=658; ClinicalTrials_max=5	requires not being a crowded autoimmune target/modality route

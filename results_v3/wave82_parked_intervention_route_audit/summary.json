@@ -1,0 +1,42 @@
+{
+  "call_counts": {
+    "NO_GO_FALSE_POSITIVE_CONTROL": 3,
+    "NO_GO_NO_CREDIBLE_INTERVENTION_ROUTE": 10,
+    "PARK_ROUTE_POSSIBLE_BUT_EVIDENCE_INCOMPLETE": 1
+  },
+  "inputs": {
+    "wave21": "results_v3/wave21_residual_druggability_scan/wave21_residual_druggability_ranked_full.tsv",
+    "wave34": "results_v3/wave34_genetics_expression_druggability_scan/wave34_genetics_expression_druggability_rank.tsv",
+    "wave39": "results_v3/wave39_surfaceome_rescue_after_resolution_pivot/surfaceome_rescue_rank_full.tsv",
+    "wave55": "results_v3/wave55_external_genetics_druggability_sweep/external_genetics_rank.tsv",
+    "wave62": "results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv",
+    "wave81": "results_v3/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv"
+  },
+  "random_seed": 20260527,
+  "top_call": {
+    "accessible_surface_secreted": 0,
+    "analysis_role": "residual_candidate",
+    "broad_positive_disease_count": 2.0,
+    "chembl_activity_count": 0.0,
+    "decision_reason": "some route exists locally, but critical disease anchoring or direction gates fail",
+    "desired_direction": "unresolved; oxidative-stress/neurodegeneration biology could imply restoration, while inflammatory-state expression does not",
+    "direct_perturbation": 0,
+    "foundation_model_support": 1,
+    "gene": "PARK7",
+    "genetics_or_target_resolution": 1,
+    "hard_failures": "no_ms_anchor;insufficient_cross_disease_breadth;no_fdr_response_support",
+    "ibd_response_fdr10": 0,
+    "modality_channel": 1,
+    "ms_anchor": 0,
+    "plausible_modality": "small-molecule DJ-1/PARK7 modulators exist as a broad stress-biology concept, but no local autoimmune/MS route is resolved",
+    "route_blocker": "no local MS anchor, generic stress biology, and target-resolution artifacts do not support a disease-specific intervention",
+    "route_score": 4,
+    "target_resolved_local": 0,
+    "wave34_call": "PARK_GENETIC_CELL_STATE_NOT_CURRENTLY_DRUGGABLE",
+    "wave39_call": "",
+    "wave55_l2g_diseases": "",
+    "wave62_call": "NO_GO_WAVE62_TARGET_RESOLUTION",
+    "wave81_score": 8,
+    "wave82_call": "PARK_ROUTE_POSSIBLE_BUT_EVIDENCE_INCOMPLETE"
+  }
+}

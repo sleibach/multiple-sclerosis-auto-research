@@ -1,0 +1,3968 @@
+{
+  "page_meta": {
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 3
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Mus musculus",
+      "pref_name": "DNA-dependent protein kinase catalytic subunit",
+      "score": 15.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL2176779",
+      "target_components": [
+        {
+          "accession": "P97313",
+          "component_description": "DNA-dependent protein kinase catalytic subunit",
+          "component_id": 6993,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "2.7.11.1",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "DNA-dependent protein kinase catalytic subunit",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "DNA-PK catalytic subunit",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "DNA-PKcs",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "p460",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Prkdc",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Xrcc7",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0000723",
+              "xref_name": "telomere maintenance",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001756",
+              "xref_name": "somitogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002326",
+              "xref_name": "B cell lineage commitment",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002327",
+              "xref_name": "immature B cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002328",
+              "xref_name": "pro-B cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002360",
+              "xref_name": "T cell lineage commitment",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006302",
+              "xref_name": "double-strand break repair",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006303",
+              "xref_name": "double-strand break repair via nonhomologous end joining",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007420",
+              "xref_name": "brain development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007507",
+              "xref_name": "heart development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008630",
+              "xref_name": "intrinsic apoptotic signaling pathway in response to DNA damage",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030098",
+              "xref_name": "lymphocyte differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031648",
+              "xref_name": "protein destabilization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033077",
+              "xref_name": "T cell differentiation in thymus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033151",
+              "xref_name": "V(D)J recombination",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033152",
+              "xref_name": "immunoglobulin V(D)J recombination",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033153",
+              "xref_name": "T cell receptor V(D)J recombination",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035234",
+              "xref_name": "ectopic germ cell programmed cell death",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043065",
+              "xref_name": "positive regulation of apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0003690",
+              "xref_name": "double-stranded DNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005524",
+              "xref_name": "ATP binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019899",
+              "xref_name": "enzyme binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019904",
+              "xref_name": "protein domain specific binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0034511",
+              "xref_name": "U3 snoRNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0061629",
+              "xref_name": "RNA polymerase II-specific DNA-binding transcription factor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0000460",
+              "xref_name": "maturation of 5.8S rRNA",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001933",
+              "xref_name": "negative regulation of protein phosphorylation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002218",
+              "xref_name": "activation of innate immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002638",
+              "xref_name": "negative regulation of immunoglobulin production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002684",
+              "xref_name": "positive regulation of immune system process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006281",
+              "xref_name": "DNA repair",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006974",
+              "xref_name": "DNA damage response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010604",
+              "xref_name": "positive regulation of macromolecule metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016233",
+              "xref_name": "telomere capping",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0018105",
+              "xref_name": "peptidyl-serine phosphorylation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0018107",
+              "xref_name": "peptidyl-threonine phosphorylation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031571",
+              "xref_name": "mitotic G1 DNA damage checkpoint signaling",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032869",
+              "xref_name": "cellular response to insulin stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034462",
+              "xref_name": "small-subunit processome assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042254",
+              "xref_name": "ribosome biogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042752",
+              "xref_name": "regulation of circadian rhythm",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043066",
+              "xref_name": "negative regulation of apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045087",
+              "xref_name": "innate immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045621",
+              "xref_name": "positive regulation of lymphocyte differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045648",
+              "xref_name": "positive regulation of erythrocyte differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045727",
+              "xref_name": "positive regulation of translation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045944",
+              "xref_name": "positive regulation of transcription by RNA polymerase II",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048146",
+              "xref_name": "positive regulation of fibroblast proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048511",
+              "xref_name": "rhythmic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048536",
+              "xref_name": "spleen development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048538",
+              "xref_name": "thymus development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048639",
+              "xref_name": "positive regulation of developmental growth",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048660",
+              "xref_name": "regulation of smooth muscle cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050678",
+              "xref_name": "regulation of epithelial cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0160049",
+              "xref_name": "negative regulation of cGAS/STING signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1902036",
+              "xref_name": "regulation of hematopoietic stem cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1905221",
+              "xref_name": "positive regulation of platelet formation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000773",
+              "xref_name": "negative regulation of cellular senescence",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2001034",
+              "xref_name": "positive regulation of double-strand break repair via nonhomologous end joining",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2001229",
+              "xref_name": "negative regulation of response to gamma radiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0000785",
+              "xref_name": "chromatin",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005654",
+              "xref_name": "nucleoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005730",
+              "xref_name": "nucleolus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005667",
+              "xref_name": "transcription regulator complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005958",
+              "xref_name": "DNA-dependent protein kinase-DNA ligase 4 complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0032040",
+              "xref_name": "small-subunit processome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0032991",
+              "xref_name": "protein-containing complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0032993",
+              "xref_name": "protein-DNA complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070418",
+              "xref_name": "DNA-dependent protein kinase complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070419",
+              "xref_name": "nonhomologous end joining complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "E9QN15",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O88187",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P97928",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q307W9",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q3V2W8",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8C2A7",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9Z341",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P97313",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P97313",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "R-MMU-5693571",
+              "xref_name": "Nonhomologous End-Joining (NHEJ)",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-MMU-8866654",
+              "xref_name": "E3 ubiquitin ligases ubiquitinate target proteins",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "IPR016024",
+              "xref_name": "ARM-type_fold",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR050517",
+              "xref_name": "DDR_Repair_Kinase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR037706",
+              "xref_name": "DNA-PK_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR046804",
+              "xref_name": "DNA-PKcs_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR046803",
+              "xref_name": "DNAPKcs_CC1-2",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR012582",
+              "xref_name": "DNAPKcs_CC3",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR045581",
+              "xref_name": "DNAPKcs_CC5",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR003152",
+              "xref_name": "FATC_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR011009",
+              "xref_name": "Kinase-like_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR000403",
+              "xref_name": "PI3/4_kinase_cat_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036940",
+              "xref_name": "PI3/4_kinase_cat_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR018936",
+              "xref_name": "PI3/4_kinase_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR003151",
+              "xref_name": "PIK-rel_kinase_FAT",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR014009",
+              "xref_name": "PIK_FAT",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11139",
+              "xref_name": "ATAXIA TELANGIECTASIA MUTATED ATM -RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR11139:SF68",
+              "xref_name": "DNA-DEPENDENT PROTEIN KINASE CATALYTIC SUBUNIT",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF20500",
+              "xref_name": "DNA-PKcs_N",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF20502",
+              "xref_name": "DNAPKcs_CC1-2",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF08163",
+              "xref_name": "DNAPKcs_CC3",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF19704",
+              "xref_name": "DNAPKcs_CC5",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF02259",
+              "xref_name": "FAT",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF02260",
+              "xref_name": "FATC",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF00454",
+              "xref_name": "PI3_PI4_kinase",
+              "xref_src_db": "Pfam"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 10090
+    },
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "DNA-dependent protein kinase catalytic subunit",
+      "score": 14.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL3142",
+      "target_components": [
+        {
+          "accession": "P78527",
+          "component_description": "DNA-dependent protein kinase catalytic subunit",
+          "component_id": 1467,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "2.7.11.1",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "DNA-dependent protein kinase catalytic subunit",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "DNA-PK catalytic subunit",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "DNA-PKcs",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "DNPK1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "HYRC",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "HYRC1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "p460",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PRKDC",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "S473K",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Ser-473 kinase",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "5LUQ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0018105",
+              "xref_name": "peptidyl-serine phosphorylation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0003677",
+              "xref_name": "DNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003690",
+              "xref_name": "double-stranded DNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003723",
+              "xref_name": "RNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005524",
+              "xref_name": "ATP binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019899",
+              "xref_name": "enzyme binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019904",
+              "xref_name": "protein domain specific binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0034511",
+              "xref_name": "U3 snoRNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0061629",
+              "xref_name": "RNA polymerase II-specific DNA-binding transcription factor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0000460",
+              "xref_name": "maturation of 5.8S rRNA",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0000723",
+              "xref_name": "telomere maintenance",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001756",
+              "xref_name": "somitogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001933",
+              "xref_name": "negative regulation of protein phosphorylation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002218",
+              "xref_name": "activation of innate immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002326",
+              "xref_name": "B cell lineage commitment",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002327",
+              "xref_name": "immature B cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002328",
+              "xref_name": "pro-B cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002360",
+              "xref_name": "T cell lineage commitment",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006281",
+              "xref_name": "DNA repair",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006302",
+              "xref_name": "double-strand break repair",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006303",
+              "xref_name": "double-strand break repair via nonhomologous end joining",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006310",
+              "xref_name": "DNA recombination",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006468",
+              "xref_name": "protein phosphorylation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006974",
+              "xref_name": "DNA damage response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007420",
+              "xref_name": "brain development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007507",
+              "xref_name": "heart development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008630",
+              "xref_name": "intrinsic apoptotic signaling pathway in response to DNA damage",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016233",
+              "xref_name": "telomere capping",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0018107",
+              "xref_name": "peptidyl-threonine phosphorylation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030098",
+              "xref_name": "lymphocyte differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031571",
+              "xref_name": "mitotic G1 DNA damage checkpoint signaling",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031648",
+              "xref_name": "protein destabilization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032869",
+              "xref_name": "cellular response to insulin stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033077",
+              "xref_name": "T cell differentiation in thymus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033151",
+              "xref_name": "V(D)J recombination",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033152",
+              "xref_name": "immunoglobulin V(D)J recombination",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033153",
+              "xref_name": "T cell receptor V(D)J recombination",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034462",
+              "xref_name": "small-subunit processome assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035234",
+              "xref_name": "ectopic germ cell programmed cell death",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042254",
+              "xref_name": "ribosome biogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042752",
+              "xref_name": "regulation of circadian rhythm",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043065",
+              "xref_name": "positive regulation of apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043066",
+              "xref_name": "negative regulation of apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045087",
+              "xref_name": "innate immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045621",
+              "xref_name": "positive regulation of lymphocyte differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045648",
+              "xref_name": "positive regulation of erythrocyte differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045727",
+              "xref_name": "positive regulation of translation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045944",
+              "xref_name": "positive regulation of transcription by RNA polymerase II",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048511",
+              "xref_name": "rhythmic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048660",
+              "xref_name": "regulation of smooth muscle cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050678",
+              "xref_name": "regulation of epithelial cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0080135",
+              "xref_name": "regulation of cellular response to stress",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0097681",
+              "xref_name": "double-strand break repair via alternative nonhomologous end joining",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0160049",
+              "xref_name": "negative regulation of cGAS/STING signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1902036",
+              "xref_name": "regulation of hematopoietic stem cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1905221",
+              "xref_name": "positive regulation of platelet formation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2001034",
+              "xref_name": "positive regulation of double-strand break repair via nonhomologous end joining",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0000785",
+              "xref_name": "chromatin",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0000781",
+              "xref_name": "chromosome, telomeric region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005654",
+              "xref_name": "nucleoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005730",
+              "xref_name": "nucleolus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005667",
+              "xref_name": "transcription regulator complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005958",
+              "xref_name": "DNA-dependent protein kinase-DNA ligase 4 complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0032040",
+              "xref_name": "small-subunit processome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0032991",
+              "xref_name": "protein-containing complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0032993",
+              "xref_name": "protein-DNA complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070418",
+              "xref_name": "DNA-dependent protein kinase complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070419",
+              "xref_name": "nonhomologous end joining complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "PA33776",
+              "xref_name": "protein kinase, DNA-activated, catalytic subunit",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "6ZHE",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K0Y",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K10",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P78528",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q13327",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q13337",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q14175",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q59H99",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q7Z611",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q96SE6",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UME3",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P78527",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "5LUQ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5W1R",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5Y3R",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ZFP",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ZH2",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ZH4",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ZH6",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ZH8",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ZHA",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K11",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K19",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K1B",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K1J",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K1K",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K1N",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7LT3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7NFC",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7NFE",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7OTM",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7OTP",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7OTV",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7OTW",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7OTY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7SGL",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7SU3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7SUD",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7TYR",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7Z87",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7Z88",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8BH3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8BHV",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8BHY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8BOT",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8EZ9",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8EZA",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8EZB",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8RD4",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9G9L",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9GD7",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P78527",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:9413",
+              "xref_name": "PRKDC",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-1834949",
+              "xref_name": "Cytosolic sensors of pathogen-associated DNA",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-3270619",
+              "xref_name": "IRF3-mediated induction of type I IFN",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5693571",
+              "xref_name": "Nonhomologous End-Joining (NHEJ)",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-8866654",
+              "xref_name": "E3 ubiquitin ligases ubiquitinate target proteins",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P78527",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P78527",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR011989",
+              "xref_name": "ARM-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016024",
+              "xref_name": "ARM-type_fold",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR050517",
+              "xref_name": "DDR_Repair_Kinase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR037706",
+              "xref_name": "DNA-PK_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR046804",
+              "xref_name": "DNA-PKcs_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR046803",
+              "xref_name": "DNAPKcs_CC1-2",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR012582",
+              "xref_name": "DNAPKcs_CC3",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR045581",
+              "xref_name": "DNAPKcs_CC5",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR003152",
+              "xref_name": "FATC_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR011009",
+              "xref_name": "Kinase-like_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR000403",
+              "xref_name": "PI3/4_kinase_cat_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036940",
+              "xref_name": "PI3/4_kinase_cat_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR018936",
+              "xref_name": "PI3/4_kinase_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR003151",
+              "xref_name": "PIK-rel_kinase_FAT",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR014009",
+              "xref_name": "PIK_FAT",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11139",
+              "xref_name": "ATAXIA TELANGIECTASIA MUTATED ATM -RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR11139:SF68",
+              "xref_name": "DNA-DEPENDENT PROTEIN KINASE CATALYTIC SUBUNIT",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF20500",
+              "xref_name": "DNA-PKcs_N",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF20502",
+              "xref_name": "DNAPKcs_CC1-2",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF08163",
+              "xref_name": "DNAPKcs_CC3",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF19704",
+              "xref_name": "DNAPKcs_CC5",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF02259",
+              "xref_name": "FAT",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF02260",
+              "xref_name": "FATC",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF00454",
+              "xref_name": "PI3_PI4_kinase",
+              "xref_src_db": "Pfam"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    },
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "DNA-PK/Ku70/Ku85",
+      "score": 5.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL4106136",
+      "target_components": [
+        {
+          "accession": "P78527",
+          "component_description": "DNA-dependent protein kinase catalytic subunit",
+          "component_id": 1467,
+          "component_type": "PROTEIN",
+          "relationship": "PROTEIN SUBUNIT",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "2.7.11.1",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "DNA-dependent protein kinase catalytic subunit",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "DNA-PK catalytic subunit",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "DNA-PKcs",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "DNPK1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "HYRC",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "HYRC1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "p460",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PRKDC",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "S473K",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Ser-473 kinase",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "5LUQ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0018105",
+              "xref_name": "peptidyl-serine phosphorylation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0003677",
+              "xref_name": "DNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003690",
+              "xref_name": "double-stranded DNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003723",
+              "xref_name": "RNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005524",
+              "xref_name": "ATP binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019899",
+              "xref_name": "enzyme binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019904",
+              "xref_name": "protein domain specific binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0034511",
+              "xref_name": "U3 snoRNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0061629",
+              "xref_name": "RNA polymerase II-specific DNA-binding transcription factor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0000460",
+              "xref_name": "maturation of 5.8S rRNA",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0000723",
+              "xref_name": "telomere maintenance",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001756",
+              "xref_name": "somitogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001933",
+              "xref_name": "negative regulation of protein phosphorylation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002218",
+              "xref_name": "activation of innate immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002326",
+              "xref_name": "B cell lineage commitment",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002327",
+              "xref_name": "immature B cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002328",
+              "xref_name": "pro-B cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002360",
+              "xref_name": "T cell lineage commitment",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006281",
+              "xref_name": "DNA repair",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006302",
+              "xref_name": "double-strand break repair",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006303",
+              "xref_name": "double-strand break repair via nonhomologous end joining",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006310",
+              "xref_name": "DNA recombination",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006468",
+              "xref_name": "protein phosphorylation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006974",
+              "xref_name": "DNA damage response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007420",
+              "xref_name": "brain development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007507",
+              "xref_name": "heart development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008630",
+              "xref_name": "intrinsic apoptotic signaling pathway in response to DNA damage",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016233",
+              "xref_name": "telomere capping",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0018107",
+              "xref_name": "peptidyl-threonine phosphorylation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030098",
+              "xref_name": "lymphocyte differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031571",
+              "xref_name": "mitotic G1 DNA damage checkpoint signaling",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031648",
+              "xref_name": "protein destabilization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032869",
+              "xref_name": "cellular response to insulin stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033077",
+              "xref_name": "T cell differentiation in thymus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033151",
+              "xref_name": "V(D)J recombination",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033152",
+              "xref_name": "immunoglobulin V(D)J recombination",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033153",
+              "xref_name": "T cell receptor V(D)J recombination",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034462",
+              "xref_name": "small-subunit processome assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035234",
+              "xref_name": "ectopic germ cell programmed cell death",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042254",
+              "xref_name": "ribosome biogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042752",
+              "xref_name": "regulation of circadian rhythm",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043065",
+              "xref_name": "positive regulation of apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043066",
+              "xref_name": "negative regulation of apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045087",
+              "xref_name": "innate immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045621",
+              "xref_name": "positive regulation of lymphocyte differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045648",
+              "xref_name": "positive regulation of erythrocyte differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045727",
+              "xref_name": "positive regulation of translation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045944",
+              "xref_name": "positive regulation of transcription by RNA polymerase II",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048511",
+              "xref_name": "rhythmic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048660",
+              "xref_name": "regulation of smooth muscle cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050678",
+              "xref_name": "regulation of epithelial cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0080135",
+              "xref_name": "regulation of cellular response to stress",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0097681",
+              "xref_name": "double-strand break repair via alternative nonhomologous end joining",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0160049",
+              "xref_name": "negative regulation of cGAS/STING signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1902036",
+              "xref_name": "regulation of hematopoietic stem cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1905221",
+              "xref_name": "positive regulation of platelet formation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2001034",
+              "xref_name": "positive regulation of double-strand break repair via nonhomologous end joining",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0000785",
+              "xref_name": "chromatin",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0000781",
+              "xref_name": "chromosome, telomeric region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005654",
+              "xref_name": "nucleoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005730",
+              "xref_name": "nucleolus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005667",
+              "xref_name": "transcription regulator complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005958",
+              "xref_name": "DNA-dependent protein kinase-DNA ligase 4 complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0032040",
+              "xref_name": "small-subunit processome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0032991",
+              "xref_name": "protein-containing complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0032993",
+              "xref_name": "protein-DNA complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070418",
+              "xref_name": "DNA-dependent protein kinase complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070419",
+              "xref_name": "nonhomologous end joining complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "PA33776",
+              "xref_name": "protein kinase, DNA-activated, catalytic subunit",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "6ZHE",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K0Y",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K10",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P78528",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q13327",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q13337",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q14175",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q59H99",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q7Z611",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q96SE6",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UME3",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P78527",
+              "xref_name": "DNA-dependent protein kinase catalytic subunit",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "5LUQ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5W1R",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5Y3R",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ZFP",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ZH2",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ZH4",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ZH6",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ZH8",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ZHA",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K11",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K19",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K1B",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K1J",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K1K",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K1N",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7LT3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7NFC",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7NFE",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7OTM",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7OTP",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7OTV",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7OTW",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7OTY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7SGL",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7SU3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7SUD",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7TYR",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7Z87",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7Z88",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8BH3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8BHV",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8BHY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8BOT",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8EZ9",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8EZA",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8EZB",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8RD4",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9G9L",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9GD7",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P78527",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:9413",
+              "xref_name": "PRKDC",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-1834949",
+              "xref_name": "Cytosolic sensors of pathogen-associated DNA",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-3270619",
+              "xref_name": "IRF3-mediated induction of type I IFN",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5693571",
+              "xref_name": "Nonhomologous End-Joining (NHEJ)",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-8866654",
+              "xref_name": "E3 ubiquitin ligases ubiquitinate target proteins",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P78527",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P78527",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR011989",
+              "xref_name": "ARM-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016024",
+              "xref_name": "ARM-type_fold",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR050517",
+              "xref_name": "DDR_Repair_Kinase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR037706",
+              "xref_name": "DNA-PK_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR046804",
+              "xref_name": "DNA-PKcs_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR046803",
+              "xref_name": "DNAPKcs_CC1-2",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR012582",
+              "xref_name": "DNAPKcs_CC3",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR045581",
+              "xref_name": "DNAPKcs_CC5",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR003152",
+              "xref_name": "FATC_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR011009",
+              "xref_name": "Kinase-like_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR000403",
+              "xref_name": "PI3/4_kinase_cat_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036940",
+              "xref_name": "PI3/4_kinase_cat_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR018936",
+              "xref_name": "PI3/4_kinase_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR003151",
+              "xref_name": "PIK-rel_kinase_FAT",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR014009",
+              "xref_name": "PIK_FAT",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11139",
+              "xref_name": "ATAXIA TELANGIECTASIA MUTATED ATM -RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR11139:SF68",
+              "xref_name": "DNA-DEPENDENT PROTEIN KINASE CATALYTIC SUBUNIT",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF20500",
+              "xref_name": "DNA-PKcs_N",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF20502",
+              "xref_name": "DNAPKcs_CC1-2",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF08163",
+              "xref_name": "DNAPKcs_CC3",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF19704",
+              "xref_name": "DNAPKcs_CC5",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF02259",
+              "xref_name": "FAT",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF02260",
+              "xref_name": "FATC",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF00454",
+              "xref_name": "PI3_PI4_kinase",
+              "xref_src_db": "Pfam"
+            }
+          ]
+        },
+        {
+          "accession": "P12956",
+          "component_description": "DNA repair protein Ku70",
+          "component_id": 17930,
+          "component_type": "PROTEIN",
+          "relationship": "PROTEIN SUBUNIT",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "4.2.99.18",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "5.6.2.4",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "5'-deoxyribose-5-phosphate lyase Ku70",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "5'-dRP lyase Ku70",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "70 kDa subunit of Ku antigen",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ATP-dependent DNA helicase 2 subunit 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ATP-dependent DNA helicase II 70 kDa subunit",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CTC75",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CTCBF",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CTC box-binding factor 75 kDa subunit",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "DNA repair protein Ku70",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "DNA repair protein XRCC6",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "G22P1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Ku70",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Lupus Ku autoantigen protein p70",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Thyroid-lupus autoantigen",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "TLAA",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "X-ray repair complementing defective repair in Chinese hamster cells 6",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "X-ray repair cross-complementing protein 6",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "XRCC6",
+              "syn_type": "GENE_SYMBOL"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "1JEQ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8ASC",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3RZX",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7Z6O",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1JEY",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6ERF",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6ERH",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6ERG",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0003690",
+              "xref_name": "double-stranded DNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003691",
+              "xref_name": "double-stranded telomeric DNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0045027",
+              "xref_name": "DNA end binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0000976",
+              "xref_name": "transcription cis-regulatory region binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003677",
+              "xref_name": "DNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003678",
+              "xref_name": "DNA helicase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003684",
+              "xref_name": "damaged DNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003723",
+              "xref_name": "RNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004386",
+              "xref_name": "helicase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005524",
+              "xref_name": "ATP binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016787",
+              "xref_name": "hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016829",
+              "xref_name": "lyase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016887",
+              "xref_name": "ATP hydrolysis activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0030332",
+              "xref_name": "cyclin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042162",
+              "xref_name": "telomeric DNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0051575",
+              "xref_name": "5'-deoxyribose-5-phosphate lyase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0097110",
+              "xref_name": "scaffold protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0000723",
+              "xref_name": "telomere maintenance",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0000725",
+              "xref_name": "recombinational repair",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002218",
+              "xref_name": "activation of innate immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006266",
+              "xref_name": "DNA ligation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006281",
+              "xref_name": "DNA repair",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006303",
+              "xref_name": "double-strand break repair via nonhomologous end joining",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006310",
+              "xref_name": "DNA recombination",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010558",
+              "xref_name": "negative regulation of macromolecule biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032508",
+              "xref_name": "DNA duplex unwinding",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045087",
+              "xref_name": "innate immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045621",
+              "xref_name": "positive regulation of lymphocyte differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045860",
+              "xref_name": "positive regulation of protein kinase activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045892",
+              "xref_name": "negative regulation of DNA-templated transcription",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045893",
+              "xref_name": "positive regulation of DNA-templated transcription",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045944",
+              "xref_name": "positive regulation of transcription by RNA polymerase II",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048660",
+              "xref_name": "regulation of smooth muscle cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071475",
+              "xref_name": "cellular hyperosmotic salinity response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071480",
+              "xref_name": "cellular response to gamma radiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071481",
+              "xref_name": "cellular response to X-ray",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0097680",
+              "xref_name": "double-strand break repair via classical nonhomologous end joining",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0000781",
+              "xref_name": "chromosome, telomeric region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005654",
+              "xref_name": "nucleoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005694",
+              "xref_name": "chromosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005730",
+              "xref_name": "nucleolus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0034774",
+              "xref_name": "secretory granule lumen",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:1904813",
+              "xref_name": "ficolin-1-rich granule lumen",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0000783",
+              "xref_name": "nuclear telomere cap complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005667",
+              "xref_name": "transcription regulator complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005958",
+              "xref_name": "DNA-dependent protein kinase-DNA ligase 4 complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0032991",
+              "xref_name": "protein-containing complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0032993",
+              "xref_name": "protein-DNA complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0043564",
+              "xref_name": "Ku70:Ku80 complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070418",
+              "xref_name": "DNA-dependent protein kinase complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070419",
+              "xref_name": "nonhomologous end joining complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "PA28467",
+              "xref_name": "X-ray repair cross complementing 6",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "B1AHC8",
+              "xref_name": "DNA repair protein Ku70",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q6FG89",
+              "xref_name": "DNA repair protein Ku70",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UCQ2",
+              "xref_name": "DNA repair protein Ku70",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UCQ3",
+              "xref_name": "DNA repair protein Ku70",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P12956",
+              "xref_name": "DNA repair protein Ku70",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "1JEQ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1JEY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1JJR",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3RZX",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5Y3R",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ERF",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ERG",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ERH",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ZHA",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ZHE",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7AXZ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K0Y",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K1J",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K1K",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K1N",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7LSY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7LT3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7NFC",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7NFE",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7SGL",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7SU3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7Z6O",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7Z87",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7Z88",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7ZT6",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7ZVT",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7ZWA",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7ZYG",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8AG4",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8AG5",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8ASC",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8BH3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8BHV",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8BHY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8BOT",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8EZA",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8EZB",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8RD4",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9CQ3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9CQ6",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9CQC",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9N81",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9N82",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9N83",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P12956",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P12956",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:4055",
+              "xref_name": "XRCC6",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-164843",
+              "xref_name": "2-LTR circle formation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-1834949",
+              "xref_name": "Cytosolic sensors of pathogen-associated DNA",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-3270619",
+              "xref_name": "IRF3-mediated induction of type I IFN",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5693571",
+              "xref_name": "Nonhomologous End-Joining (NHEJ)",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-6798695",
+              "xref_name": "Neutrophil degranulation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P12956",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P12956",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR006164",
+              "xref_name": "DNA_bd_Ku70/Ku80",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR006165",
+              "xref_name": "Ku70",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR027388",
+              "xref_name": "Ku70_bridge/pillars_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR047087",
+              "xref_name": "KU70_core_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR005160",
+              "xref_name": "Ku_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR005161",
+              "xref_name": "Ku_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR003034",
+              "xref_name": "SAP_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036361",
+              "xref_name": "SAP_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016194",
+              "xref_name": "SPOC-like_C_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036465",
+              "xref_name": "vWFA_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR12604",
+              "xref_name": "KU AUTOANTIGEN DNA HELICASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR12604:SF5",
+              "xref_name": "X-RAY REPAIR CROSS-COMPLEMENTING PROTEIN 6",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF02735",
+              "xref_name": "Ku",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF03730",
+              "xref_name": "Ku_C",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF03731",
+              "xref_name": "Ku_N",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF02037",
+              "xref_name": "SAP",
+              "xref_src_db": "Pfam"
+            }
+          ]
+        },
+        {
+          "accession": "P13010",
+          "component_description": "DNA repair protein Ku80",
+          "component_id": 17931,
+          "component_type": "PROTEIN",
+          "relationship": "PROTEIN SUBUNIT",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "4.2.99.18",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "5.6.2.4",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "86 kDa subunit of Ku antigen",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ATP-dependent DNA helicase 2 subunit 2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ATP-dependent DNA helicase II 80 kDa subunit",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CTC85",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CTCBF",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CTC box-binding factor 85 kDa subunit",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "DNA repair protein Ku80",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "DNA repair protein XRCC5",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "G22P2",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Ku80",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Ku86",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Lupus Ku autoantigen protein p86",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Nuclear factor IV",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Thyroid-lupus autoantigen",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "TLAA",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "X-ray repair complementing defective repair in Chinese hamster cells 5 (double-strand-break rejoining)",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "X-ray repair cross-complementing protein 5",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "XRCC5",
+              "syn_type": "GENE_SYMBOL"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "7K17",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1JEQ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8ASC",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3RZ9",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7Z6O",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1JEY",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6ERF",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6ERH",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6ERG",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0003690",
+              "xref_name": "double-stranded DNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003691",
+              "xref_name": "double-stranded telomeric DNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0045027",
+              "xref_name": "DNA end binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0051575",
+              "xref_name": "5'-deoxyribose-5-phosphate lyase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0000976",
+              "xref_name": "transcription cis-regulatory region binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003677",
+              "xref_name": "DNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003678",
+              "xref_name": "DNA helicase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003684",
+              "xref_name": "damaged DNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003723",
+              "xref_name": "RNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004386",
+              "xref_name": "helicase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005524",
+              "xref_name": "ATP binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008047",
+              "xref_name": "enzyme activator activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016787",
+              "xref_name": "hydrolase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016887",
+              "xref_name": "ATP hydrolysis activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0031625",
+              "xref_name": "ubiquitin protein ligase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0034511",
+              "xref_name": "U3 snoRNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042162",
+              "xref_name": "telomeric DNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0000723",
+              "xref_name": "telomere maintenance",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0000725",
+              "xref_name": "recombinational repair",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002218",
+              "xref_name": "activation of innate immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006281",
+              "xref_name": "DNA repair",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006302",
+              "xref_name": "double-strand break repair",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006303",
+              "xref_name": "double-strand break repair via nonhomologous end joining",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006310",
+              "xref_name": "DNA recombination",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006974",
+              "xref_name": "DNA damage response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007004",
+              "xref_name": "telomere maintenance via telomerase",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010558",
+              "xref_name": "negative regulation of macromolecule biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0022008",
+              "xref_name": "neurogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032204",
+              "xref_name": "regulation of telomere maintenance",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032508",
+              "xref_name": "DNA duplex unwinding",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034462",
+              "xref_name": "small-subunit processome assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042254",
+              "xref_name": "ribosome biogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045087",
+              "xref_name": "innate immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045860",
+              "xref_name": "positive regulation of protein kinase activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045892",
+              "xref_name": "negative regulation of DNA-templated transcription",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048660",
+              "xref_name": "regulation of smooth muscle cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050769",
+              "xref_name": "positive regulation of neurogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060218",
+              "xref_name": "hematopoietic stem cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070198",
+              "xref_name": "protein localization to chromosome, telomeric region",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071398",
+              "xref_name": "cellular response to fatty acid",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071425",
+              "xref_name": "hematopoietic stem cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071475",
+              "xref_name": "cellular hyperosmotic salinity response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071480",
+              "xref_name": "cellular response to gamma radiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071481",
+              "xref_name": "cellular response to X-ray",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1904430",
+              "xref_name": "negative regulation of t-circle formation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0000781",
+              "xref_name": "chromosome, telomeric region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005654",
+              "xref_name": "nucleoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005694",
+              "xref_name": "chromosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005730",
+              "xref_name": "nucleolus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0034774",
+              "xref_name": "secretory granule lumen",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0090734",
+              "xref_name": "site of DNA damage",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0000783",
+              "xref_name": "nuclear telomere cap complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005958",
+              "xref_name": "DNA-dependent protein kinase-DNA ligase 4 complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0032040",
+              "xref_name": "small-subunit processome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0032991",
+              "xref_name": "protein-containing complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0032993",
+              "xref_name": "protein-DNA complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0043564",
+              "xref_name": "Ku70:Ku80 complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070418",
+              "xref_name": "DNA-dependent protein kinase complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070419",
+              "xref_name": "nonhomologous end joining complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:1990904",
+              "xref_name": "ribonucleoprotein complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "PA37425",
+              "xref_name": "X-ray repair cross complementing 5",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "A8K3X5",
+              "xref_name": "DNA repair protein Ku80",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q0Z7V0",
+              "xref_name": "DNA repair protein Ku80",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q4VBQ5",
+              "xref_name": "DNA repair protein Ku80",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q53HH7",
+              "xref_name": "DNA repair protein Ku80",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q7M4N0",
+              "xref_name": "DNA repair protein Ku80",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UCQ0",
+              "xref_name": "DNA repair protein Ku80",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UCQ1",
+              "xref_name": "DNA repair protein Ku80",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P13010",
+              "xref_name": "DNA repair protein Ku80",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "1JEQ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1JEY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1Q2Z",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1RW2",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3RZ9",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5Y3R",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ERF",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ERG",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ERH",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ZH6",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ZHA",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6ZHE",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7AXZ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K0Y",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K17",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K1J",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K1K",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7K1N",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7LSY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7LT3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7NFC",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7NFE",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7SGL",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7SU3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7SUD",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7Z6O",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7Z87",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7Z88",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7ZT6",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7ZVT",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7ZWA",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7ZYG",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8AG4",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8AG5",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8ASC",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8BH3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8BHV",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8BHY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8BOT",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8EZA",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8EZB",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8RD4",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9CQ3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9CQ6",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9CQC",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9N81",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9N82",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "9N83",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P13010",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P13010",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:12833",
+              "xref_name": "XRCC5",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-164843",
+              "xref_name": "2-LTR circle formation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-1834949",
+              "xref_name": "Cytosolic sensors of pathogen-associated DNA",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-3270619",
+              "xref_name": "IRF3-mediated induction of type I IFN",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5693571",
+              "xref_name": "Nonhomologous End-Joining (NHEJ)",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-6798695",
+              "xref_name": "Neutrophil degranulation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P13010",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P13010",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR006164",
+              "xref_name": "DNA_bd_Ku70/Ku80",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR024193",
+              "xref_name": "Ku80",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR005160",
+              "xref_name": "Ku_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036494",
+              "xref_name": "Ku_C_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR005161",
+              "xref_name": "Ku_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR014893",
+              "xref_name": "Ku_PK_bind",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016194",
+              "xref_name": "SPOC-like_C_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR002035",
+              "xref_name": "VWF_A",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036465",
+              "xref_name": "vWFA_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR12604",
+              "xref_name": "KU AUTOANTIGEN DNA HELICASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR12604:SF4",
+              "xref_name": "X-RAY REPAIR CROSS-COMPLEMENTING PROTEIN 5",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF02735",
+              "xref_name": "Ku",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF03730",
+              "xref_name": "Ku_C",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF03731",
+              "xref_name": "Ku_N",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF08785",
+              "xref_name": "Ku_PK_bind",
+              "xref_src_db": "Pfam"
+            }
+          ]
+        }
+      ],
+      "target_type": "PROTEIN COMPLEX",
+      "tax_id": 9606
+    }
+  ]
+}

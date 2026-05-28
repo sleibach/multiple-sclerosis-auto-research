@@ -1,0 +1,68 @@
+{
+  "payload": {
+    "hitCount": 161,
+    "nextCursorMark": "AoIIQOOx/yg1MDE3NjUzNA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=NAB1 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQOOx/yg1MDE3NjUzNA==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "NAB1 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Fu Y, Kelly JA, Gopalakrishnan J, Pelikan RC, Tessneer KL, Pasula S, Grundahl K, Murphy DA, Gaffney PM.",
+          "citedByCount": 6,
+          "dbCrossReferenceList": {
+            "dbName": [
+              "EMBL"
+            ]
+          },
+          "doi": "10.1016/j.xhgg.2024.100279",
+          "firstIndexDate": "2024-02-24",
+          "firstPublicationDate": "2024-02-23",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC10943488"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "Y",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "38389303",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "2",
+          "journalIssn": "2666-2477",
+          "journalTitle": "HGG Adv",
+          "journalVolume": "5",
+          "pageInfo": "100279",
+          "pmcid": "PMC10943488",
+          "pmid": "38389303",
+          "pubType": "research-article; journal article",
+          "pubYear": "2024",
+          "source": "MED",
+          "title": "Massively parallel reporter assay confirms regulatory potential of hQTLs and reveals important variants in lupus and other autoimmune diseases.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "geo",
+              "refsnp",
+              "omim"
+            ]
+          }
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=NAB1+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

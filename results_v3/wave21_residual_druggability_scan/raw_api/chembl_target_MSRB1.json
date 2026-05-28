@@ -1,0 +1,168 @@
+{
+  "_request_url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=MSRB1&limit=10",
+  "_status_code": 200,
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Rattus norvegicus",
+      "pref_name": "Methionine-R-sulfoxide reductase B1",
+      "score": 23.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL3509600",
+      "target_components": [
+        {
+          "accession": "Q52KJ8",
+          "component_description": "Methionine-R-sulfoxide reductase B1",
+          "component_id": 9835,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "1.8.4.12",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "1.8.4.14",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Methionine-R-sulfoxide reductase B1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Msrb1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "MsrB1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Selenoprotein X",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "SelX",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Sepx1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005856",
+              "xref_name": "cytoskeleton",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0015629",
+              "xref_name": "actin cytoskeleton",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0003779",
+              "xref_name": "actin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008270",
+              "xref_name": "zinc ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016491",
+              "xref_name": "oxidoreductase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0033743",
+              "xref_name": "peptide-methionine (R)-S-oxide reductase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0033745",
+              "xref_name": "L-methionine-(R)-S-oxide reductase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0030041",
+              "xref_name": "actin filament polymerization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045087",
+              "xref_name": "innate immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "IPR002579",
+              "xref_name": "Met_Sox_Rdtase_MsrB_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR011057",
+              "xref_name": "Mss4-like_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR052150",
+              "xref_name": "MsrB_Met_sulfoxide_reductase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR46755",
+              "xref_name": "METHIONINE-R-SULFOXIDE REDUCTASE B1",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR46755:SF5",
+              "xref_name": "METHIONINE-R-SULFOXIDE REDUCTASE B1",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF01641",
+              "xref_name": "SelR",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "R-RNO-5676934",
+              "xref_name": "Protein repair",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "Q52KJ8",
+              "xref_name": "Methionine-R-sulfoxide reductase B1",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 10116
+    }
+  ]
+}

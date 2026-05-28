@@ -1,0 +1,993 @@
+{
+  "data": {
+    "credibleSets": {
+      "count": 5,
+      "rows": [
+        {
+          "beta": 0.736,
+          "chromosome": "6",
+          "colocalisation": {
+            "count": 1,
+            "rows": [
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.041205078445583326,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9784205332191613,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0009834",
+                      "biosampleName": "dorsolateral prefrontal cortex"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "novel transcript, antisense to MLN",
+                      "approvedSymbol": "ENSG00000287089",
+                      "id": "ENSG00000287089"
+                    },
+                    "traitFromSource": "ENSG00000287089.1_6_33800142_33801907"
+                  },
+                  "studyId": "brainseq_exon_brain_ensg00000287089_1_6_33800142_33801907",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              }
+            ]
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.19880521297454834,
+                "target": {
+                  "approvedName": "inositol hexakisphosphate kinase 3",
+                  "approvedSymbol": "IP6K3",
+                  "id": "ENSG00000161896"
+                }
+              },
+              {
+                "score": 0.16496334969997406,
+                "target": {
+                  "approvedName": "LEM domain nuclear envelope protein 2",
+                  "approvedSymbol": "LEMD2",
+                  "id": "ENSG00000161904"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -9,
+          "pValueMantissa": 1.75,
+          "position": 33766464,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.122,
+          "studyId": "GCST90436606",
+          "studyLocusId": "252efa0c56a2235b205ea9db5554fe99",
+          "studyType": "gwas",
+          "variant": {
+            "id": "6_33766464_G_C",
+            "rsIds": [
+              "rs145044106"
+            ]
+          }
+        },
+        {
+          "beta": 0.008922994383966591,
+          "chromosome": "6",
+          "colocalisation": {
+            "count": 162,
+            "rows": [
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.021135738678900323,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9581847259380184,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000007",
+                      "biosampleName": "pituitary gland"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "TRAF3 interacting protein 2",
+                      "approvedSymbol": "TRAF3IP2",
+                      "id": "ENSG00000056972"
+                    },
+                    "traitFromSource": "ENSG00000056972.grp_1.upstream.ENST00000392556"
+                  },
+                  "studyId": "gtex_txrev_pituitary_ensg00000056972_grp_1_upstream_enst00000392556",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.2996650859752732,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9978560865698848,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001323",
+                      "biosampleName": "tibial nerve"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "TRAF3 interacting protein 2",
+                      "approvedSymbol": "TRAF3IP2",
+                      "id": "ENSG00000056972"
+                    },
+                    "traitFromSource": "ENSG00000056972.grp_1.upstream.ENST00000392556"
+                  },
+                  "studyId": "gtex_txrev_nerve_tibial_ensg00000056972_grp_1_upstream_enst00000392556",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.07737306912855568,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9889297388458309,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0002038",
+                      "biosampleName": "substantia nigra"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "chromosome 6 open reading frame 3",
+                      "approvedSymbol": "ENSG00000255389",
+                      "id": "ENSG00000255389"
+                    },
+                    "traitFromSource": "ENSG00000255389.1_6_111599875_111602295"
+                  },
+                  "studyId": "gtex_exon_brain_substantia_nigra_ensg00000255389_1_6_111599875_111602295",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.027223986084279336,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9674389178661651,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0009834",
+                      "biosampleName": "dorsolateral prefrontal cortex"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "TRAF3IP2 antisense RNA 1",
+                      "approvedSymbol": "TRAF3IP2-AS1",
+                      "id": "ENSG00000231889"
+                    },
+                    "traitFromSource": "ENSG00000231889"
+                  },
+                  "studyId": "rosmap_ge_brain_naive_ensg00000231889",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.2996650859752732,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9978560865698848,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000178",
+                      "biosampleName": "blood"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "chromosome 6 open reading frame 3",
+                      "approvedSymbol": "ENSG00000255389",
+                      "id": "ENSG00000255389"
+                    },
+                    "traitFromSource": "ENSG00000255389.1_6_111599875_111602295"
+                  },
+                  "studyId": "lepik_2017_exon_blood_ensg00000255389_1_6_111599875_111602295",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.2996650859752732,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9978560865698848,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0007610",
+                      "biosampleName": "tibial artery"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "chromosome 6 open reading frame 3",
+                      "approvedSymbol": "ENSG00000255389",
+                      "id": "ENSG00000255389"
+                    },
+                    "traitFromSource": "ENSG00000255389.1_6_111599875_111602295"
+                  },
+                  "studyId": "gtex_exon_artery_tibial_ensg00000255389_1_6_111599875_111602295",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.29966508597527314,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9978560865698848,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0006330",
+                      "biosampleName": "anterior lingual gland"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "chromosome 6 open reading frame 3",
+                      "approvedSymbol": "ENSG00000255389",
+                      "id": "ENSG00000255389"
+                    },
+                    "traitFromSource": "ENSG00000255389.1_6_111599875_111602295"
+                  },
+                  "studyId": "gtex_exon_minor_salivary_gland_ensg00000255389_1_6_111599875_111602295",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.2996650859752732,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9978560865698848,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0002677",
+                      "biosampleName": "naive regulatory T cell"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "chromosome 6 open reading frame 3",
+                      "approvedSymbol": "ENSG00000255389",
+                      "id": "ENSG00000255389"
+                    },
+                    "traitFromSource": "ENSG00000255389.1_6_111599875_111602295"
+                  },
+                  "studyId": "schmiedel_2018_exon_treg_naive_ensg00000255389_1_6_111599875_111602295",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.2996650859752732,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9978560865698848,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001134",
+                      "biosampleName": "skeletal muscle tissue"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "chromosome 6 open reading frame 3",
+                      "approvedSymbol": "ENSG00000255389",
+                      "id": "ENSG00000255389"
+                    },
+                    "traitFromSource": "ENSG00000255389"
+                  },
+                  "studyId": "gtex_ge_muscle_ensg00000255389",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.2996650859752732,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9978560865698848,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0002097",
+                      "biosampleName": "skin of body"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "chromosome 6 open reading frame 3",
+                      "approvedSymbol": "ENSG00000255389",
+                      "id": "ENSG00000255389"
+                    },
+                    "traitFromSource": "ENSG00000255389.1_6_111599875_111602295"
+                  },
+                  "studyId": "gtex_exon_skin_sun_exposed_ensg00000255389_1_6_111599875_111602295",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.02515553980136552,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9647790939490811,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0002038",
+                      "biosampleName": "substantia nigra"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "chromosome 6 open reading frame 3",
+                      "approvedSymbol": "ENSG00000255389",
+                      "id": "ENSG00000255389"
+                    },
+                    "traitFromSource": "ENSG00000255389"
+                  },
+                  "studyId": "gtex_ge_brain_substantia_nigra_ensg00000255389",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.2996650859752732,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9978560865698848,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000473",
+                      "biosampleName": "testis"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "TRAF3 interacting protein 2",
+                      "approvedSymbol": "TRAF3IP2",
+                      "id": "ENSG00000056972"
+                    },
+                    "traitFromSource": "ENSG00000056972.20_6_111601215_111601306"
+                  },
+                  "studyId": "gtex_exon_testis_ensg00000056972_20_6_111601215_111601306",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.6158278512846838,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9994681966594595,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0010414",
+                      "biosampleName": "omental fat pad"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "chromosome 6 open reading frame 3",
+                      "approvedSymbol": "ENSG00000255389",
+                      "id": "ENSG00000255389"
+                    },
+                    "traitFromSource": "ENSG00000255389.1_6_111599875_111602295"
+                  },
+                  "studyId": "gtex_exon_adipose_visceral_ensg00000255389_1_6_111599875_111602295",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.2996650859752732,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9978560865698848,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000624",
+                      "biosampleName": "CD4-positive, alpha-beta T cell"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "chromosome 6 open reading frame 3",
+                      "approvedSymbol": "ENSG00000255389",
+                      "id": "ENSG00000255389"
+                    },
+                    "traitFromSource": "ENSG00000255389"
+                  },
+                  "studyId": "schmiedel_2018_ge_cd4_t-cell_naive_ensg00000255389",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.2996650859752732,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9978560865698848,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000545",
+                      "biosampleName": "T-helper 1 cell"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "chromosome 6 open reading frame 3",
+                      "approvedSymbol": "ENSG00000255389",
+                      "id": "ENSG00000255389"
+                    },
+                    "traitFromSource": "ENSG00000255389.1_6_111599875_111602295"
+                  },
+                  "studyId": "schmiedel_2018_exon_th1_memory_ensg00000255389_1_6_111599875_111602295",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.2326123359571405,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9969532005156486,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0002097",
+                      "biosampleName": "skin of body"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "TRAF3 interacting protein 2",
+                      "approvedSymbol": "TRAF3IP2",
+                      "id": "ENSG00000056972"
+                    },
+                    "traitFromSource": "ENSG00000056972.20_6_111601307_111601318"
+                  },
+                  "studyId": "gtex_exon_skin_sun_exposed_ensg00000056972_20_6_111601307_111601318",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.29966508597527314,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9978560865698848,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001870",
+                      "biosampleName": "frontal cortex"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "chromosome 6 open reading frame 3",
+                      "approvedSymbol": "ENSG00000255389",
+                      "id": "ENSG00000255389"
+                    },
+                    "traitFromSource": "ENSG00000255389"
+                  },
+                  "studyId": "gtex_ge_brain_cortex_ensg00000255389",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.0037883252070147594,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.8012467258175299,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0002046",
+                      "biosampleName": "thyroid gland"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "TRAF3IP2 antisense RNA 1",
+                      "approvedSymbol": "TRAF3IP2-AS1",
+                      "id": "ENSG00000231889"
+                    },
+                    "traitFromSource": "ENSG00000231889.8_6_111484744_111484861"
+                  },
+                  "studyId": "gtex_exon_thyroid_ensg00000231889_8_6_111484744_111484861",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.2996650859752732,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9978560865698848,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000625",
+                      "biosampleName": "CD8-positive, alpha-beta T cell"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "chromosome 6 open reading frame 3",
+                      "approvedSymbol": "ENSG00000255389",
+                      "id": "ENSG00000255389"
+                    },
+                    "traitFromSource": "ENSG00000255389"
+                  },
+                  "studyId": "schmiedel_2018_ge_cd8_t-cell_naive_ensg00000255389",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.2912063891166956,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9977650312839372,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000992",
+                      "biosampleName": "ovary"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "chromosome 6 open reading frame 3",
+                      "approvedSymbol": "ENSG00000255389",
+                      "id": "ENSG00000255389"
+                    },
+                    "traitFromSource": "ENSG00000255389.1_6_111599875_111602295"
+                  },
+                  "studyId": "gtex_exon_ovary_ensg00000255389_1_6_111599875_111602295",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.29966508597527314,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9978560865698848,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0008952",
+                      "biosampleName": "upper lobe of left lung"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "chromosome 6 open reading frame 3",
+                      "approvedSymbol": "ENSG00000255389",
+                      "id": "ENSG00000255389"
+                    },
+                    "traitFromSource": "ENSG00000255389.1_6_111599875_111602295"
+                  },
+                  "studyId": "gtex_exon_lung_ensg00000255389_1_6_111599875_111602295",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.2996650859752732,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9978560865698848,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0036149",
+                      "biosampleName": "suprapubic skin"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "chromosome 6 open reading frame 3",
+                      "approvedSymbol": "ENSG00000255389",
+                      "id": "ENSG00000255389"
+                    },
+                    "traitFromSource": "ENSG00000255389"
+                  },
+                  "studyId": "gtex_ge_skin_not_sun_exposed_ensg00000255389",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.2996650859752732,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9978560865698848,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001882",
+                      "biosampleName": "nucleus accumbens"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "chromosome 6 open reading frame 3",
+                      "approvedSymbol": "ENSG00000255389",
+                      "id": "ENSG00000255389"
+                    },
+                    "traitFromSource": "ENSG00000255389.1_6_111599875_111602295"
+                  },
+                  "studyId": "gtex_exon_brain_nucleus_accumbens_ensg00000255389_1_6_111599875_111602295",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.2996650859752732,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9978560865698848,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0002106",
+                      "biosampleName": "spleen"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "chromosome 6 open reading frame 3",
+                      "approvedSymbol": "ENSG00000255389",
+                      "id": "ENSG00000255389"
+                    },
+                    "traitFromSource": "ENSG00000255389.1_6_111599875_111602295"
+                  },
+                  "studyId": "gtex_exon_spleen_ensg00000255389_1_6_111599875_111602295",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.2996650859752732,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9978560865698848,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0002097",
+                      "biosampleName": "skin of body"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "chromosome 6 open reading frame 3",
+                      "approvedSymbol": "ENSG00000255389",
+                      "id": "ENSG00000255389"
+                    },
+                    "traitFromSource": "ENSG00000255389.1_6_111599875_111602295"
+                  },
+                  "studyId": "twinsuk_exon_skin_ensg00000255389_1_6_111599875_111602295",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              }
+            ]
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.9619705080986023,
+                "target": {
+                  "approvedName": "TRAF3 interacting protein 2",
+                  "approvedSymbol": "TRAF3IP2",
+                  "id": "ENSG00000056972"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -9,
+          "pValueMantissa": 3.129488706588745,
+          "position": 111592059,
+          "purityMeanR2": 0.8682527621696055,
+          "purityMinR2": 0.736505524339211,
+          "standardError": null,
+          "studyId": "GCST90436606",
+          "studyLocusId": "3f66b3221623e886a2f405a1ab5686ba",
+          "studyType": "gwas",
+          "variant": {
+            "id": "6_111592059_C_T",
+            "rsIds": [
+              "rs33980500"
+            ]
+          }
+        },
+        {
+          "beta": -0.012756626776434613,
+          "chromosome": "5",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.6006530523300171,
+                "target": {
+                  "approvedName": "interleukin 12B",
+                  "approvedSymbol": "IL12B",
+                  "id": "ENSG00000113302"
+                }
+              },
+              {
+                "score": 0.05066106468439102,
+                "target": {
+                  "approvedName": "ubiquitin like domain containing CTD phosphatase 1",
+                  "approvedSymbol": "UBLCP1",
+                  "id": "ENSG00000164332"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -21,
+          "pValueMantissa": 4.585263729095459,
+          "position": 159402281,
+          "purityMeanR2": 0.9356509026695422,
+          "purityMinR2": 0.8594973420042197,
+          "standardError": null,
+          "studyId": "GCST90436606",
+          "studyLocusId": "61af9d8223693a06d0443e88dfbf6b60",
+          "studyType": "gwas",
+          "variant": {
+            "id": "5_159402281_A_G",
+            "rsIds": [
+              "rs733589"
+            ]
+          }
+        },
+        {
+          "beta": -0.00939361269339453,
+          "chromosome": "6",
+          "colocalisation": {
+            "count": 1,
+            "rows": [
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.17949457345248238,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9959779970669093,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001873",
+                      "biosampleName": "caudate nucleus"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "novel transcript",
+                      "approvedSymbol": "ENSG00000224478",
+                      "id": "ENSG00000224478"
+                    },
+                    "traitFromSource": "ENSG00000224478"
+                  },
+                  "studyId": "gtex_ge_brain_caudate_ensg00000224478",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              }
+            ]
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 3,
+            "rows": [
+              {
+                "score": 0.8421570062637329,
+                "target": {
+                  "approvedName": "T cell activation RhoGTPase activating protein",
+                  "approvedSymbol": "TAGAP",
+                  "id": "ENSG00000164691"
+                }
+              },
+              {
+                "score": 0.07685892283916473,
+                "target": {
+                  "approvedName": "fibronectin type III domain containing 1",
+                  "approvedSymbol": "FNDC1",
+                  "id": "ENSG00000164694"
+                }
+              },
+              {
+                "score": 0.07119318842887878,
+                "target": {
+                  "approvedName": "radial spoke head 3",
+                  "approvedSymbol": "RSPH3",
+                  "id": "ENSG00000130363"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -9,
+          "pValueMantissa": 1.3402180671691895,
+          "position": 159094277,
+          "purityMeanR2": 0.8965742412380229,
+          "purityMinR2": 0.7246679787037494,
+          "standardError": null,
+          "studyId": "GCST90436606",
+          "studyLocusId": "7cc6a54a7354c12671ddf25d066f438c",
+          "studyType": "gwas",
+          "variant": {
+            "id": "6_159094277_T_G",
+            "rsIds": [
+              "rs2249937"
+            ]
+          }
+        },
+        {
+          "beta": -0.00925325276710634,
+          "chromosome": "5",
+          "colocalisation": {
+            "count": 3,
+            "rows": [
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.022688440071644125,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9611217711274956,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "interleukin 12B",
+                      "approvedSymbol": "IL12B",
+                      "id": "ENSG00000113302"
+                    },
+                    "traitFromSource": "IL12A_IL12B:P29459_P29460:OID21327:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_IL12B_P29460_OID21327_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.022097024428827154,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.960483831911914,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "interleukin 12B",
+                      "approvedSymbol": "IL12B",
+                      "id": "ENSG00000113302"
+                    },
+                    "traitFromSource": "IL12B:P29460:OID20666:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_IL12B_P29460_OID20666_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.022688440071644122,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9611217711274956,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "interleukin 12A",
+                      "approvedSymbol": "IL12A",
+                      "id": "ENSG00000168811"
+                    },
+                    "traitFromSource": "IL12A_IL12B:P29459_P29460:OID21327:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_IL12A_P29459_OID21327_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              }
+            ]
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.8278109431266785,
+                "target": {
+                  "approvedName": "interleukin 12B",
+                  "approvedSymbol": "IL12B",
+                  "id": "ENSG00000113302"
+                }
+              },
+              {
+                "score": 0.052533552050590515,
+                "target": {
+                  "approvedName": "ubiquitin like domain containing CTD phosphatase 1",
+                  "approvedSymbol": "UBLCP1",
+                  "id": "ENSG00000164332"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -14,
+          "pValueMantissa": 2.768758773803711,
+          "position": 159391232,
+          "purityMeanR2": 0.9549417418368771,
+          "purityMinR2": 0.7883259166789182,
+          "standardError": null,
+          "studyId": "GCST90436606",
+          "studyLocusId": "80c705d2caa493c7ad48622c91c22bde",
+          "studyType": "gwas",
+          "variant": {
+            "id": "5_159391232_C_T",
+            "rsIds": [
+              "rs12522665"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

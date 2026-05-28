@@ -1,0 +1,1370 @@
+{
+  "search": {
+    "esearchresult": {
+      "count": "30",
+      "idlist": [
+        "38145349",
+        "41167189",
+        "32097464",
+        "40260538",
+        "40323219",
+        "41197983",
+        "40883260",
+        "37669365"
+      ],
+      "querytranslation": "(\"abca1 protein human\"[Supplementary Concept] OR \"abca1 protein human\"[All Fields] OR \"abca1\"[All Fields] OR (\"abcg1 protein human\"[Supplementary Concept] OR \"abcg1 protein human\"[All Fields] OR \"abcg1\"[All Fields])) AND (\"microglia\"[MeSH Terms] OR \"microglia\"[All Fields] OR \"microglias\"[All Fields] OR \"microglia s\"[All Fields] OR (\"macrophagal\"[All Fields] OR \"macrophage s\"[All Fields] OR \"macrophageal\"[All Fields] OR \"macrophages\"[MeSH Terms] OR \"macrophages\"[All Fields] OR \"macrophage\"[All Fields] OR \"macrophagic\"[All Fields])) AND (\"multiple sclerosis\"[All Fields] OR \"EAE\"[All Fields] OR (\"remyelinate\"[All Fields] OR \"remyelinated\"[All Fields] OR \"remyelinating\"[All Fields] OR \"remyelination\"[MeSH Terms] OR \"remyelination\"[All Fields] OR \"remyelinations\"[All Fields] OR \"remyelinization\"[All Fields]) OR (\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields]))",
+      "retmax": "8",
+      "retstart": "0",
+      "translationset": [
+        {
+          "from": "ABCA1",
+          "to": "\"abca1 protein, human\"[Supplementary Concept] OR \"abca1 protein, human\"[All Fields] OR \"abca1\"[All Fields]"
+        },
+        {
+          "from": "ABCG1",
+          "to": "\"abcg1 protein, human\"[Supplementary Concept] OR \"abcg1 protein, human\"[All Fields] OR \"abcg1\"[All Fields]"
+        },
+        {
+          "from": "microglia",
+          "to": "\"microglia\"[MeSH Terms] OR \"microglia\"[All Fields] OR \"microglias\"[All Fields] OR \"microglia's\"[All Fields]"
+        },
+        {
+          "from": "macrophage",
+          "to": "\"macrophagal\"[All Fields] OR \"macrophage's\"[All Fields] OR \"macrophageal\"[All Fields] OR \"macrophages\"[MeSH Terms] OR \"macrophages\"[All Fields] OR \"macrophage\"[All Fields] OR \"macrophagic\"[All Fields]"
+        },
+        {
+          "from": "remyelination",
+          "to": "\"remyelinate\"[All Fields] OR \"remyelinated\"[All Fields] OR \"remyelinating\"[All Fields] OR \"remyelination\"[MeSH Terms] OR \"remyelination\"[All Fields] OR \"remyelinations\"[All Fields] OR \"remyelinization\"[All Fields]"
+        },
+        {
+          "from": "autoimmune",
+          "to": "\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields]"
+        }
+      ]
+    },
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    }
+  },
+  "summaries": {
+    "data": {
+      "header": {
+        "type": "esummary",
+        "version": "0.3"
+      },
+      "result": {
+        "32097464": {
+          "articleids": [
+            {
+              "idtype": "pubmed",
+              "idtypen": 1,
+              "value": "32097464"
+            },
+            {
+              "idtype": "pmc",
+              "idtypen": 8,
+              "value": "PMC7201924"
+            },
+            {
+              "idtype": "pmcid",
+              "idtypen": 5,
+              "value": "pmc-id: PMC7201924;"
+            },
+            {
+              "idtype": "doi",
+              "idtypen": 3,
+              "value": "10.1084/jem.20191660"
+            },
+            {
+              "idtype": "pii",
+              "idtypen": 4,
+              "value": "133840"
+            }
+          ],
+          "attributes": [
+            "Has Abstract"
+          ],
+          "authors": [
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Bogie JFJ"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Grajchen E"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Wouters E"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Corrales AG"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Dierckx T"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Vanherle S"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Mailleux J"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Gervois P"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Wolfs E"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Dehairs J"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Van Broeckhoven J"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Bowman AP"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Lambrichts I"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Gustafsson J\u00c5"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Remaley AT"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Mulder M"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Swinnen JV"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Haidar M"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Ellis SR"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Ntambi JM"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Zelcer N"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Hendriks JJA"
+            }
+          ],
+          "availablefromurl": "",
+          "bookname": "",
+          "booktitle": "",
+          "chapter": "",
+          "doccontriblist": [],
+          "docdate": "",
+          "doctype": "citation",
+          "edition": "",
+          "elocationid": "doi: 10.1084/jem.20191660",
+          "epubdate": "",
+          "essn": "1540-9538",
+          "fulljournalname": "The Journal of experimental medicine",
+          "history": [
+            {
+              "date": "2019/09/05 00:00",
+              "pubstatus": "received"
+            },
+            {
+              "date": "2019/12/12 00:00",
+              "pubstatus": "revised"
+            },
+            {
+              "date": "2020/01/24 00:00",
+              "pubstatus": "accepted"
+            },
+            {
+              "date": "2020/02/26 06:00",
+              "pubstatus": "entrez"
+            },
+            {
+              "date": "2020/02/26 06:00",
+              "pubstatus": "pubmed"
+            },
+            {
+              "date": "2020/12/29 06:00",
+              "pubstatus": "medline"
+            },
+            {
+              "date": "2020/11/04 00:00",
+              "pubstatus": "pmc-release"
+            }
+          ],
+          "issn": "0022-1007",
+          "issue": "5",
+          "lang": [
+            "eng"
+          ],
+          "lastauthor": "Hendriks JJA",
+          "locationlabel": "",
+          "medium": "",
+          "nlmuniqueid": "2985109R",
+          "pages": "",
+          "pmcrefcount": 85,
+          "pubdate": "2020 May 4",
+          "publisherlocation": "",
+          "publishername": "",
+          "pubstatus": "4",
+          "pubtype": [
+            "Journal Article",
+            "Research Support, N.I.H., Extramural",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "recordstatus": "PubMed - indexed for MEDLINE",
+          "references": [],
+          "reportnumber": "",
+          "sortfirstauthor": "Bogie JFJ",
+          "sortpubdate": "2020/05/04 00:00",
+          "sorttitle": "stearoyl coa desaturase 1 impairs the reparative properties of macrophages and microglia in the brain",
+          "source": "J Exp Med",
+          "srccontriblist": [],
+          "srcdate": "",
+          "title": "Stearoyl-CoA desaturase-1 impairs the reparative properties of macrophages and microglia in the brain.",
+          "uid": "32097464",
+          "vernaculartitle": "",
+          "volume": "217"
+        },
+        "37669365": {
+          "articleids": [
+            {
+              "idtype": "pubmed",
+              "idtypen": 1,
+              "value": "37669365"
+            },
+            {
+              "idtype": "pmc",
+              "idtypen": 8,
+              "value": "PMC10500284"
+            },
+            {
+              "idtype": "pmcid",
+              "idtypen": 5,
+              "value": "pmc-id: PMC10500284;"
+            },
+            {
+              "idtype": "doi",
+              "idtypen": 3,
+              "value": "10.1073/pnas.2301030120"
+            }
+          ],
+          "attributes": [
+            "Has Abstract"
+          ],
+          "authors": [
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Garcia Corrales AV"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Verberk SGS"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Haidar M"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Grajchen E"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Dehairs J"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Vanherle S"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Loix M"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Weytjens T"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Gervois P"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Matsuzaka T"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Lambrichts I"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Swinnen JV"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Bogie JFJ"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Hendriks JJA"
+            }
+          ],
+          "availablefromurl": "",
+          "bookname": "",
+          "booktitle": "",
+          "chapter": "",
+          "doccontriblist": [],
+          "docdate": "",
+          "doctype": "citation",
+          "edition": "",
+          "elocationid": "doi: 10.1073/pnas.2301030120",
+          "epubdate": "2023 Sep 5",
+          "essn": "1091-6490",
+          "fulljournalname": "Proceedings of the National Academy of Sciences of the United States of America",
+          "history": [
+            {
+              "date": "2023/09/07 06:42",
+              "pubstatus": "medline"
+            },
+            {
+              "date": "2023/09/05 18:41",
+              "pubstatus": "pubmed"
+            },
+            {
+              "date": "2023/09/05 14:03",
+              "pubstatus": "entrez"
+            },
+            {
+              "date": "2024/03/05 00:00",
+              "pubstatus": "pmc-release"
+            }
+          ],
+          "issn": "0027-8424",
+          "issue": "37",
+          "lang": [
+            "eng"
+          ],
+          "lastauthor": "Hendriks JJA",
+          "locationlabel": "",
+          "medium": "",
+          "nlmuniqueid": "7505876",
+          "pages": "e2301030120",
+          "pmcrefcount": 55,
+          "pubdate": "2023 Sep 12",
+          "publisherlocation": "",
+          "publishername": "",
+          "pubstatus": "256",
+          "pubtype": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "recordstatus": "PubMed - indexed for MEDLINE",
+          "references": [],
+          "reportnumber": "",
+          "sortfirstauthor": "Garcia Corrales AV",
+          "sortpubdate": "2023/09/12 00:00",
+          "sorttitle": "fatty acid elongation by elovl6 hampers remyelination by promoting inflammatory foam cell formation during demyelination",
+          "source": "Proc Natl Acad Sci U S A",
+          "srccontriblist": [],
+          "srcdate": "",
+          "title": "Fatty acid elongation by ELOVL6 hampers remyelination by promoting inflammatory foam cell formation during demyelination.",
+          "uid": "37669365",
+          "vernaculartitle": "",
+          "volume": "120"
+        },
+        "38145349": {
+          "articleids": [
+            {
+              "idtype": "pubmed",
+              "idtypen": 1,
+              "value": "38145349"
+            },
+            {
+              "idtype": "pmc",
+              "idtypen": 8,
+              "value": "PMC10933683"
+            },
+            {
+              "idtype": "pmcid",
+              "idtypen": 5,
+              "value": "pmc-id: PMC10933683;"
+            },
+            {
+              "idtype": "doi",
+              "idtypen": 3,
+              "value": "10.1002/advs.202305989"
+            }
+          ],
+          "attributes": [
+            "Has Abstract"
+          ],
+          "authors": [
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Li W"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Meng X"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Peng K"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Han Y"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Liu H"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Zhao W"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Wang G"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Deng L"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Liu H"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Li Z"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Ji F"
+            }
+          ],
+          "availablefromurl": "",
+          "bookname": "",
+          "booktitle": "",
+          "chapter": "",
+          "doccontriblist": [],
+          "docdate": "",
+          "doctype": "citation",
+          "edition": "",
+          "elocationid": "doi: 10.1002/advs.202305989",
+          "epubdate": "2023 Dec 25",
+          "essn": "2198-3844",
+          "fulljournalname": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+          "history": [
+            {
+              "date": "2023/12/06 00:00",
+              "pubstatus": "revised"
+            },
+            {
+              "date": "2023/08/23 00:00",
+              "pubstatus": "received"
+            },
+            {
+              "date": "2024/03/14 06:47",
+              "pubstatus": "medline"
+            },
+            {
+              "date": "2023/12/25 12:43",
+              "pubstatus": "pubmed"
+            },
+            {
+              "date": "2023/12/25 07:42",
+              "pubstatus": "entrez"
+            },
+            {
+              "date": "2023/12/25 00:00",
+              "pubstatus": "pmc-release"
+            }
+          ],
+          "issn": "",
+          "issue": "10",
+          "lang": [
+            "eng"
+          ],
+          "lastauthor": "Ji F",
+          "locationlabel": "",
+          "medium": "",
+          "nlmuniqueid": "101664569",
+          "pages": "e2305989",
+          "pmcrefcount": 48,
+          "pubdate": "2024 Mar",
+          "publisherlocation": "",
+          "publishername": "",
+          "pubstatus": "256",
+          "pubtype": [
+            "Journal Article",
+            "Research Support, Non-U.S. Gov't"
+          ],
+          "recordstatus": "PubMed - indexed for MEDLINE",
+          "references": [],
+          "reportnumber": "",
+          "sortfirstauthor": "Li W",
+          "sortpubdate": "2024/03/01 00:00",
+          "sorttitle": "boosting microglial lipid metabolism via trem2 signaling by biomimetic nanoparticles to attenuate the sevoflurane induced developmental neurotoxicity",
+          "source": "Adv Sci (Weinh)",
+          "srccontriblist": [],
+          "srcdate": "",
+          "title": "Boosting Microglial Lipid Metabolism via TREM2 Signaling by Biomimetic Nanoparticles to Attenuate the Sevoflurane-Induced Developmental Neurotoxicity.",
+          "uid": "38145349",
+          "vernaculartitle": "",
+          "volume": "11"
+        },
+        "40260538": {
+          "articleids": [
+            {
+              "idtype": "pubmed",
+              "idtypen": 1,
+              "value": "40260538"
+            },
+            {
+              "idtype": "doi",
+              "idtypen": 3,
+              "value": "10.1161/STROKEAHA.124.049745"
+            }
+          ],
+          "attributes": [
+            "Has Abstract"
+          ],
+          "authors": [
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Yu JB"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Hong C"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Ren XW"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Guo W"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Chen YF"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Ji J"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Zhang XY"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Sun XL"
+            }
+          ],
+          "availablefromurl": "",
+          "bookname": "",
+          "booktitle": "",
+          "chapter": "",
+          "doccontriblist": [],
+          "docdate": "",
+          "doctype": "citation",
+          "edition": "",
+          "elocationid": "doi: 10.1161/STROKEAHA.124.049745",
+          "epubdate": "2025 Apr 22",
+          "essn": "1524-4628",
+          "fulljournalname": "Stroke",
+          "history": [
+            {
+              "date": "2025/06/24 11:10",
+              "pubstatus": "medline"
+            },
+            {
+              "date": "2025/04/22 06:26",
+              "pubstatus": "pubmed"
+            },
+            {
+              "date": "2025/04/22 05:02",
+              "pubstatus": "entrez"
+            }
+          ],
+          "issn": "0039-2499",
+          "issue": "7",
+          "lang": [
+            "eng"
+          ],
+          "lastauthor": "Sun XL",
+          "locationlabel": "",
+          "medium": "",
+          "nlmuniqueid": "0235266",
+          "pages": "1897-1908",
+          "pmcrefcount": "",
+          "pubdate": "2025 Jul",
+          "publisherlocation": "",
+          "publishername": "",
+          "pubstatus": "256",
+          "pubtype": [
+            "Journal Article"
+          ],
+          "recordstatus": "PubMed - indexed for MEDLINE",
+          "references": [],
+          "reportnumber": "",
+          "sortfirstauthor": "Yu JB",
+          "sortpubdate": "2025/07/01 00:00",
+          "sorttitle": "fty720 modulating microglia mediated cholesterol recycling via trem2 promotes remyelination following ischemic damage",
+          "source": "Stroke",
+          "srccontriblist": [],
+          "srcdate": "",
+          "title": "FTY720 Modulating Microglia-Mediated Cholesterol Recycling via TREM2 Promotes Remyelination Following Ischemic Damage.",
+          "uid": "40260538",
+          "vernaculartitle": "",
+          "volume": "56"
+        },
+        "40323219": {
+          "articleids": [
+            {
+              "idtype": "pubmed",
+              "idtypen": 1,
+              "value": "40323219"
+            },
+            {
+              "idtype": "doi",
+              "idtypen": 3,
+              "value": "10.1080/15376516.2025.2500546"
+            }
+          ],
+          "attributes": [
+            "Has Abstract"
+          ],
+          "authors": [
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Ahmadi P"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Doyle D"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Mojarad N"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Taherkhani S"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Janzadeh A"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Honardoost M"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Gholami M"
+            }
+          ],
+          "availablefromurl": "",
+          "bookname": "",
+          "booktitle": "",
+          "chapter": "",
+          "doccontriblist": [],
+          "docdate": "",
+          "doctype": "citation",
+          "edition": "",
+          "elocationid": "doi: 10.1080/15376516.2025.2500546",
+          "epubdate": "2025 May 20",
+          "essn": "1537-6524",
+          "fulljournalname": "Toxicology mechanisms and methods",
+          "history": [
+            {
+              "date": "2025/09/25 12:42",
+              "pubstatus": "medline"
+            },
+            {
+              "date": "2025/05/05 12:41",
+              "pubstatus": "pubmed"
+            },
+            {
+              "date": "2025/05/05 10:13",
+              "pubstatus": "entrez"
+            }
+          ],
+          "issn": "1537-6516",
+          "issue": "8",
+          "lang": [
+            "eng"
+          ],
+          "lastauthor": "Gholami M",
+          "locationlabel": "",
+          "medium": "",
+          "nlmuniqueid": "101134521",
+          "pages": "823-846",
+          "pmcrefcount": "",
+          "pubdate": "2025 Oct",
+          "publisherlocation": "",
+          "publishername": "",
+          "pubstatus": "256",
+          "pubtype": [
+            "Journal Article",
+            "Review"
+          ],
+          "recordstatus": "PubMed - indexed for MEDLINE",
+          "references": [],
+          "reportnumber": "",
+          "sortfirstauthor": "Ahmadi P",
+          "sortpubdate": "2025/10/01 00:00",
+          "sorttitle": "effects of micro and nanoplastic exposure on macrophages a review of molecular and cellular mechanisms",
+          "source": "Toxicol Mech Methods",
+          "srccontriblist": [],
+          "srcdate": "",
+          "title": "Effects of micro- and nanoplastic exposure on macrophages: a review of molecular and cellular mechanisms.",
+          "uid": "40323219",
+          "vernaculartitle": "",
+          "volume": "35"
+        },
+        "40883260": {
+          "articleids": [
+            {
+              "idtype": "pubmed",
+              "idtypen": 1,
+              "value": "40883260"
+            },
+            {
+              "idtype": "pmc",
+              "idtypen": 8,
+              "value": "PMC12397220"
+            },
+            {
+              "idtype": "pmcid",
+              "idtypen": 5,
+              "value": "pmc-id: PMC12397220;"
+            },
+            {
+              "idtype": "doi",
+              "idtypen": 3,
+              "value": "10.1038/s41467-025-62053-w"
+            },
+            {
+              "idtype": "pii",
+              "idtypen": 4,
+              "value": "10.1038/s41467-025-62053-w"
+            }
+          ],
+          "attributes": [
+            "Has Abstract"
+          ],
+          "authors": [
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Loix M"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Vanherle S"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Bolkaerts L"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Verberk SGS"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Punt M"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Wouters F"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Moonen B"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Verhagen R"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Van Wouw SAE"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Jongejan A"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Distel B"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Elgersma Y"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Haidar M"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Zelcer N"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Hendriks JJA"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Bogie JFJ"
+            }
+          ],
+          "availablefromurl": "",
+          "bookname": "",
+          "booktitle": "",
+          "chapter": "",
+          "doccontriblist": [],
+          "docdate": "",
+          "doctype": "citation",
+          "edition": "",
+          "elocationid": "doi: 10.1038/s41467-025-62053-w",
+          "epubdate": "2025 Aug 29",
+          "essn": "2041-1723",
+          "fulljournalname": "Nature communications",
+          "history": [
+            {
+              "date": "2023/09/15 00:00",
+              "pubstatus": "received"
+            },
+            {
+              "date": "2025/07/07 00:00",
+              "pubstatus": "accepted"
+            },
+            {
+              "date": "2025/08/31 04:45",
+              "pubstatus": "medline"
+            },
+            {
+              "date": "2025/08/31 04:44",
+              "pubstatus": "pubmed"
+            },
+            {
+              "date": "2025/08/29 23:12",
+              "pubstatus": "entrez"
+            },
+            {
+              "date": "2025/08/29 00:00",
+              "pubstatus": "pmc-release"
+            }
+          ],
+          "issn": "",
+          "issue": "1",
+          "lang": [
+            "eng"
+          ],
+          "lastauthor": "Bogie JFJ",
+          "locationlabel": "",
+          "medium": "",
+          "nlmuniqueid": "101528555",
+          "pages": "8077",
+          "pmcrefcount": 66,
+          "pubdate": "2025 Aug 29",
+          "publisherlocation": "",
+          "publishername": "",
+          "pubstatus": "3",
+          "pubtype": [
+            "Journal Article"
+          ],
+          "recordstatus": "PubMed - indexed for MEDLINE",
+          "references": [],
+          "reportnumber": "",
+          "sortfirstauthor": "Loix M",
+          "sortpubdate": "2025/08/29 00:00",
+          "sorttitle": "ube3a promotes foam cell formation and counters remyelination by targeting abca1 for proteasomal degradation",
+          "source": "Nat Commun",
+          "srccontriblist": [],
+          "srcdate": "",
+          "title": "UBE3A promotes foam cell formation and counters remyelination by targeting ABCA1 for proteasomal degradation.",
+          "uid": "40883260",
+          "vernaculartitle": "",
+          "volume": "16"
+        },
+        "41167189": {
+          "articleids": [
+            {
+              "idtype": "pubmed",
+              "idtypen": 1,
+              "value": "41167189"
+            },
+            {
+              "idtype": "doi",
+              "idtypen": 3,
+              "value": "10.1016/j.immuni.2025.10.003"
+            },
+            {
+              "idtype": "pii",
+              "idtypen": 4,
+              "value": "S1074-7613(25)00433-9"
+            }
+          ],
+          "attributes": [
+            "Has Abstract"
+          ],
+          "authors": [
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Feng R"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Spieth L"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Liu L"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Berghoff S"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Franz J"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Liu Q"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Wang Z"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Tiwari V"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Vitale S"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Frerich S"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Florensa S"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Junker N"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Huber L"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Keller M"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "M\u00fcller C"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Bracher F"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Ge X"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Rensen PCN"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Kooij G"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Hosang L"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Chornyi S"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Dichgans M"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Gokce O"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Saher G"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Stadelmann C"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Giera M"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Groh J"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Simons M"
+            }
+          ],
+          "availablefromurl": "",
+          "bookname": "",
+          "booktitle": "",
+          "chapter": "",
+          "doccontriblist": [],
+          "docdate": "",
+          "doctype": "citation",
+          "edition": "",
+          "elocationid": "doi: 10.1016/j.immuni.2025.10.003",
+          "epubdate": "2025 Oct 29",
+          "essn": "1097-4180",
+          "fulljournalname": "Immunity",
+          "history": [
+            {
+              "date": "2025/04/16 00:00",
+              "pubstatus": "received"
+            },
+            {
+              "date": "2025/07/18 00:00",
+              "pubstatus": "revised"
+            },
+            {
+              "date": "2025/10/06 00:00",
+              "pubstatus": "accepted"
+            },
+            {
+              "date": "2025/12/11 01:22",
+              "pubstatus": "medline"
+            },
+            {
+              "date": "2025/10/31 00:29",
+              "pubstatus": "pubmed"
+            },
+            {
+              "date": "2025/10/30 19:41",
+              "pubstatus": "entrez"
+            }
+          ],
+          "issn": "1074-7613",
+          "issue": "12",
+          "lang": [
+            "eng"
+          ],
+          "lastauthor": "Simons M",
+          "locationlabel": "",
+          "medium": "",
+          "nlmuniqueid": "9432918",
+          "pages": "2989-3005.e10",
+          "pmcrefcount": "",
+          "pubdate": "2025 Dec 9",
+          "publisherlocation": "",
+          "publishername": "",
+          "pubstatus": "256",
+          "pubtype": [
+            "Journal Article"
+          ],
+          "recordstatus": "PubMed - indexed for MEDLINE",
+          "references": [],
+          "reportnumber": "",
+          "sortfirstauthor": "Feng R",
+          "sortpubdate": "2025/12/09 00:00",
+          "sorttitle": "single cell spatial transcriptomic profiling defines a pathogenic inflammatory niche in chronic active multiple sclerosis lesions",
+          "source": "Immunity",
+          "srccontriblist": [],
+          "srcdate": "",
+          "title": "Single-cell spatial transcriptomic profiling defines a pathogenic inflammatory niche in chronic active multiple sclerosis lesions.",
+          "uid": "41167189",
+          "vernaculartitle": "",
+          "volume": "58"
+        },
+        "41197983": {
+          "articleids": [
+            {
+              "idtype": "pubmed",
+              "idtypen": 1,
+              "value": "41197983"
+            },
+            {
+              "idtype": "doi",
+              "idtypen": 3,
+              "value": "10.1055/a-2737-7719"
+            }
+          ],
+          "attributes": [
+            "Has Abstract"
+          ],
+          "authors": [
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Papiris SA"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Kallieri M"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Zompatori M"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Forde SH"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Prountzos S"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Kolilekas L"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Papaioannou AI"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Griese M"
+            },
+            {
+              "authtype": "Author",
+              "clusterid": "",
+              "name": "Manali ED"
+            }
+          ],
+          "availablefromurl": "",
+          "bookname": "",
+          "booktitle": "",
+          "chapter": "",
+          "doccontriblist": [],
+          "docdate": "",
+          "doctype": "citation",
+          "edition": "",
+          "elocationid": "doi: 10.1055/a-2737-7719",
+          "epubdate": "2025 Nov 25",
+          "essn": "1098-9048",
+          "fulljournalname": "Seminars in respiratory and critical care medicine",
+          "history": [
+            {
+              "date": "2025/11/07 00:27",
+              "pubstatus": "pubmed"
+            },
+            {
+              "date": "2025/11/07 00:27",
+              "pubstatus": "medline"
+            },
+            {
+              "date": "2025/11/06 19:14",
+              "pubstatus": "entrez"
+            }
+          ],
+          "issn": "1069-3424",
+          "issue": "",
+          "lang": [
+            "eng"
+          ],
+          "lastauthor": "Manali ED",
+          "locationlabel": "",
+          "medium": "",
+          "nlmuniqueid": "9431858",
+          "pages": "",
+          "pmcrefcount": "",
+          "pubdate": "2025 Nov 25",
+          "publisherlocation": "",
+          "publishername": "",
+          "pubstatus": "10",
+          "pubtype": [
+            "Journal Article"
+          ],
+          "recordstatus": "PubMed - as supplied by publisher",
+          "references": [],
+          "reportnumber": "",
+          "sortfirstauthor": "Papiris SA",
+          "sortpubdate": "2025/11/25 00:00",
+          "sorttitle": "autoimmune pulmonary alveolar proteinosis",
+          "source": "Semin Respir Crit Care Med",
+          "srccontriblist": [],
+          "srcdate": "",
+          "title": "Autoimmune Pulmonary Alveolar Proteinosis.",
+          "uid": "41197983",
+          "vernaculartitle": "",
+          "volume": ""
+        },
+        "uids": [
+          "38145349",
+          "41167189",
+          "32097464",
+          "40260538",
+          "40323219",
+          "41197983",
+          "40883260",
+          "37669365"
+        ]
+      }
+    },
+    "status": 200
+  }
+}

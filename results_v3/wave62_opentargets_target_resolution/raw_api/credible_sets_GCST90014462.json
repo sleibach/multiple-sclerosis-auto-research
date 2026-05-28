@@ -1,0 +1,1829 @@
+{
+  "data": {
+    "credibleSets": {
+      "count": 40,
+      "rows": [
+        {
+          "beta": 0.01061,
+          "chromosome": "16",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.42188140749931335,
+                "target": {
+                  "approvedName": "RNA binding fox-1 homolog 1",
+                  "approvedSymbol": "RBFOX1",
+                  "id": "ENSG00000078328"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -9,
+          "pValueMantissa": 1.6990000009536743,
+          "position": 7999171,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0017612,
+          "studyId": "GCST90014462",
+          "studyLocusId": "0689fd5d1616bd6f93c5669c1051ae52",
+          "studyType": "gwas",
+          "variant": {
+            "id": "16_7999171_C_T",
+            "rsIds": [
+              "rs185279333"
+            ]
+          }
+        },
+        {
+          "beta": 0.010814,
+          "chromosome": "1",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.2780011296272278,
+                "target": {
+                  "approvedName": "olfactory receptor family 2 subfamily M member 2",
+                  "approvedSymbol": "OR2M2",
+                  "id": "ENSG00000198601"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -10,
+          "pValueMantissa": 2.0299999713897705,
+          "position": 248179387,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0017006,
+          "studyId": "GCST90014462",
+          "studyLocusId": "06ea684fc1652611b5a19b066925f4aa",
+          "studyType": "gwas",
+          "variant": {
+            "id": "1_248179387_G_T",
+            "rsIds": [
+              "rs11204596"
+            ]
+          }
+        },
+        {
+          "beta": 0.01109,
+          "chromosome": "12",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 3,
+            "rows": [
+              {
+                "score": 0.3298748731613159,
+                "target": {
+                  "approvedName": "nuclear receptor corepressor 2",
+                  "approvedSymbol": "NCOR2",
+                  "id": "ENSG00000196498"
+                }
+              },
+              {
+                "score": 0.08094431459903717,
+                "target": {
+                  "approvedName": "scavenger receptor class B member 1",
+                  "approvedSymbol": "SCARB1",
+                  "id": "ENSG00000073060"
+                }
+              },
+              {
+                "score": 0.05723245069384575,
+                "target": {
+                  "approvedName": "acetoacetyl-CoA synthetase",
+                  "approvedSymbol": "AACS",
+                  "id": "ENSG00000081760"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -9,
+          "pValueMantissa": 2.447000026702881,
+          "position": 124671953,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0018592,
+          "studyId": "GCST90014462",
+          "studyLocusId": "0e7a0a9217e42b489992edb85d3e5cb6",
+          "studyType": "gwas",
+          "variant": {
+            "id": "12_124671953_G_A",
+            "rsIds": [
+              "rs200293440"
+            ]
+          }
+        },
+        {
+          "beta": 0.010986323812558388,
+          "chromosome": "16",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.7746005654335022,
+                "target": {
+                  "approvedName": "RNA binding fox-1 homolog 1",
+                  "approvedSymbol": "RBFOX1",
+                  "id": "ENSG00000078328"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -10,
+          "pValueMantissa": 1.268690586090088,
+          "position": 7052610,
+          "purityMeanR2": 1,
+          "purityMinR2": 1,
+          "standardError": null,
+          "studyId": "GCST90014462",
+          "studyLocusId": "10b2474cff11a3d3548a76d60df88d07",
+          "studyType": "gwas",
+          "variant": {
+            "id": "16_7052610_C_G",
+            "rsIds": [
+              "rs77120272"
+            ]
+          }
+        },
+        {
+          "beta": 0.011082352373331057,
+          "chromosome": "17",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.8178996443748474,
+                "target": {
+                  "approvedName": "nuclear speckle splicing regulatory protein 1",
+                  "approvedSymbol": "NSRP1",
+                  "id": "ENSG00000126653"
+                }
+              },
+              {
+                "score": 0.052566833794116974,
+                "target": {
+                  "approvedName": "solute carrier family 6 member 4",
+                  "approvedSymbol": "SLC6A4",
+                  "id": "ENSG00000108576"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -11,
+          "pValueMantissa": 8.315099716186523,
+          "position": 30185387,
+          "purityMeanR2": 1,
+          "purityMinR2": 1,
+          "standardError": null,
+          "studyId": "GCST90014462",
+          "studyLocusId": "10b4d55863068bac572cf5ec1d16246d",
+          "studyType": "gwas",
+          "variant": {
+            "id": "17_30185387_G_C",
+            "rsIds": [
+              "rs117582579"
+            ]
+          }
+        },
+        {
+          "beta": 0.01149827634343298,
+          "chromosome": "7",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.7734584808349609,
+                "target": {
+                  "approvedName": "nucleoporin 205",
+                  "approvedSymbol": "NUP205",
+                  "id": "ENSG00000155561"
+                }
+              },
+              {
+                "score": 0.06305160373449326,
+                "target": {
+                  "approvedName": "CCR4-NOT transcription complex subunit 4",
+                  "approvedSymbol": "CNOT4",
+                  "id": "ENSG00000080802"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -11,
+          "pValueMantissa": 2.2871196269989014,
+          "position": 135575115,
+          "purityMeanR2": 1,
+          "purityMinR2": 1,
+          "standardError": null,
+          "studyId": "GCST90014462",
+          "studyLocusId": "15a69018880f70174cc58174eeec917e",
+          "studyType": "gwas",
+          "variant": {
+            "id": "7_135575115_C_T",
+            "rsIds": [
+              "rs79833388"
+            ]
+          }
+        },
+        {
+          "beta": 0.033584,
+          "chromosome": "17",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 7,
+            "rows": [
+              {
+                "score": 0.30087271332740784,
+                "target": {
+                  "approvedName": "chaperonin containing TCP1 subunit 6B",
+                  "approvedSymbol": "CCT6B",
+                  "id": "ENSG00000132141"
+                }
+              },
+              {
+                "score": 0.28759244084358215,
+                "target": {
+                  "approvedName": "transmembrane protein 132E",
+                  "approvedSymbol": "TMEM132E",
+                  "id": "ENSG00000181291"
+                }
+              },
+              {
+                "score": 0.2852209508419037,
+                "target": {
+                  "approvedName": "zinc finger protein 830",
+                  "approvedSymbol": "ZNF830",
+                  "id": "ENSG00000198783"
+                }
+              },
+              {
+                "score": 0.10647618770599365,
+                "target": {
+                  "approvedName": "DNA ligase 3",
+                  "approvedSymbol": "LIG3",
+                  "id": "ENSG00000005156"
+                }
+              },
+              {
+                "score": 0.05056978389620781,
+                "target": {
+                  "approvedName": "notchless homolog 1",
+                  "approvedSymbol": "NLE1",
+                  "id": "ENSG00000073536"
+                }
+              },
+              {
+                "score": 0.050088681280612946,
+                "target": {
+                  "approvedName": "solute carrier family 35 member G3",
+                  "approvedSymbol": "SLC35G3",
+                  "id": "ENSG00000164729"
+                }
+              },
+              {
+                "score": 0.050088681280612946,
+                "target": {
+                  "approvedName": "C-C motif chemokine ligand 8",
+                  "approvedSymbol": "CCL8",
+                  "id": "ENSG00000108700"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -9,
+          "pValueMantissa": 7.59499979019165,
+          "position": 34755458,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.005813,
+          "studyId": "GCST90014462",
+          "studyLocusId": "18006f8502db428ddb7474e1d86abce1",
+          "studyType": "gwas",
+          "variant": {
+            "id": "17_34755458_T_G",
+            "rsIds": [
+              "rs12451007"
+            ]
+          }
+        },
+        {
+          "beta": 0.011908,
+          "chromosome": "2",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.5246137976646423,
+                "target": {
+                  "approvedName": "tribbles pseudokinase 2",
+                  "approvedSymbol": "TRIB2",
+                  "id": "ENSG00000071575"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -12,
+          "pValueMantissa": 1.5850000381469727,
+          "position": 13179758,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.001685,
+          "studyId": "GCST90014462",
+          "studyLocusId": "2e3898aa93e599b39e8e2bc187a798a3",
+          "studyType": "gwas",
+          "variant": {
+            "id": "2_13179758_G_T",
+            "rsIds": [
+              "rs28660211"
+            ]
+          }
+        },
+        {
+          "beta": 0.012029,
+          "chromosome": "15",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 3,
+            "rows": [
+              {
+                "score": 0.2817196249961853,
+                "target": {
+                  "approvedName": "vacuolar protein sorting 13 homolog C",
+                  "approvedSymbol": "VPS13C",
+                  "id": "ENSG00000129003"
+                }
+              },
+              {
+                "score": 0.24266879260540009,
+                "target": {
+                  "approvedName": "C2 calcium dependent domain containing 4A",
+                  "approvedSymbol": "C2CD4A",
+                  "id": "ENSG00000198535"
+                }
+              },
+              {
+                "score": 0.08768071979284286,
+                "target": {
+                  "approvedName": "RAR related orphan receptor A",
+                  "approvedSymbol": "RORA",
+                  "id": "ENSG00000069667"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -12,
+          "pValueMantissa": 5.702000141143799,
+          "position": 61665968,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0017466,
+          "studyId": "GCST90014462",
+          "studyLocusId": "300e6d1ea85facdb54e32668be54d97d",
+          "studyType": "gwas",
+          "variant": {
+            "id": "15_61665968_T_A",
+            "rsIds": [
+              "rs10519127"
+            ]
+          }
+        },
+        {
+          "beta": 0.011286,
+          "chromosome": "6",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 3,
+            "rows": [
+              {
+                "score": 0.2827121317386627,
+                "target": {
+                  "approvedName": "fibronectin type III domain containing 1",
+                  "approvedSymbol": "FNDC1",
+                  "id": "ENSG00000164694"
+                }
+              },
+              {
+                "score": 0.053649600595235825,
+                "target": {
+                  "approvedName": "superoxide dismutase 2",
+                  "approvedSymbol": "SOD2",
+                  "id": "ENSG00000291237"
+                }
+              },
+              {
+                "score": 0.05088936537504196,
+                "target": {
+                  "approvedName": "WT1 associated protein",
+                  "approvedSymbol": "WTAP",
+                  "id": "ENSG00000146457"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -10,
+          "pValueMantissa": 4.270999908447266,
+          "position": 159402491,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0018075,
+          "studyId": "GCST90014462",
+          "studyLocusId": "306980240f355412b5b345d1fe2807a2",
+          "studyType": "gwas",
+          "variant": {
+            "id": "6_159402491_C_T",
+            "rsIds": [
+              "rs73800029"
+            ]
+          }
+        },
+        {
+          "beta": 0.016384,
+          "chromosome": "17",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.7461326718330383,
+                "target": {
+                  "approvedName": "mediator complex subunit 13",
+                  "approvedSymbol": "MED13",
+                  "id": "ENSG00000108510"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -14,
+          "pValueMantissa": 9.704999923706055,
+          "position": 62087942,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0022006,
+          "studyId": "GCST90014462",
+          "studyLocusId": "36d190f628e76f41a2b8c2ec5933fbee",
+          "studyType": "gwas",
+          "variant": {
+            "id": "17_62087942_T_A",
+            "rsIds": [
+              "rs66685667"
+            ]
+          }
+        },
+        {
+          "beta": 0.013913,
+          "chromosome": "10",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.4533745050430298,
+                "target": {
+                  "approvedName": "decaprenyl diphosphate synthase subunit 1",
+                  "approvedSymbol": "PDSS1",
+                  "id": "ENSG00000148459"
+                }
+              },
+              {
+                "score": 0.13090413808822632,
+                "target": {
+                  "approvedName": "amyloid beta precursor protein binding family B member 1 interacting protein",
+                  "approvedSymbol": "APBB1IP",
+                  "id": "ENSG00000077420"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -16,
+          "pValueMantissa": 1.7300000190734863,
+          "position": 26585529,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0016885,
+          "studyId": "GCST90014462",
+          "studyLocusId": "3bd6923cc869b986ec80b6407ebded09",
+          "studyType": "gwas",
+          "variant": {
+            "id": "10_26585529_G_C",
+            "rsIds": [
+              "rs7897115"
+            ]
+          }
+        },
+        {
+          "beta": 0.010297167850216078,
+          "chromosome": "2",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.5673639178276062,
+                "target": {
+                  "approvedName": "alpha-1,6-mannosylglycoprotein 6-beta-N-acetylglucosaminyltransferase",
+                  "approvedSymbol": "MGAT5",
+                  "id": "ENSG00000152127"
+                }
+              },
+              {
+                "score": 0.06620580703020096,
+                "target": {
+                  "approvedName": "transmembrane protein 163",
+                  "approvedSymbol": "TMEM163",
+                  "id": "ENSG00000152128"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -9,
+          "pValueMantissa": 1.6512813568115234,
+          "position": 134065933,
+          "purityMeanR2": 1,
+          "purityMinR2": 1,
+          "standardError": null,
+          "studyId": "GCST90014462",
+          "studyLocusId": "4820e34aeef5eada54d1b6c03521ad8c",
+          "studyType": "gwas",
+          "variant": {
+            "id": "2_134065933_G_C",
+            "rsIds": [
+              "rs113646574"
+            ]
+          }
+        },
+        {
+          "beta": 0.017454,
+          "chromosome": "12",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 3,
+            "rows": [
+              {
+                "score": 0.7171593308448792,
+                "target": {
+                  "approvedName": "neural EGFL like 2",
+                  "approvedSymbol": "NELL2",
+                  "id": "ENSG00000184613"
+                }
+              },
+              {
+                "score": 0.0754791721701622,
+                "target": {
+                  "approvedName": "transmembrane protein 117",
+                  "approvedSymbol": "TMEM117",
+                  "id": "ENSG00000139173"
+                }
+              },
+              {
+                "score": 0.056121572852134705,
+                "target": {
+                  "approvedName": "developing brain homeobox 2",
+                  "approvedSymbol": "DBX2",
+                  "id": "ENSG00000185610"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -19,
+          "pValueMantissa": 1.1039999723434448,
+          "position": 44668667,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0019225,
+          "studyId": "GCST90014462",
+          "studyLocusId": "4deab21bf04622bdb075026520265c8c",
+          "studyType": "gwas",
+          "variant": {
+            "id": "12_44668667_C_G",
+            "rsIds": [
+              "rs74507328"
+            ]
+          }
+        },
+        {
+          "beta": 0.012009,
+          "chromosome": "13",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 4,
+            "rows": [
+              {
+                "score": 0.27219873666763306,
+                "target": {
+                  "approvedName": "TBC1 domain family member 4",
+                  "approvedSymbol": "TBC1D4",
+                  "id": "ENSG00000136111"
+                }
+              },
+              {
+                "score": 0.11029300838708878,
+                "target": {
+                  "approvedName": "COMM domain containing 6",
+                  "approvedSymbol": "COMMD6",
+                  "id": "ENSG00000188243"
+                }
+              },
+              {
+                "score": 0.07611595839262009,
+                "target": {
+                  "approvedName": "ubiquitin C-terminal hydrolase L3",
+                  "approvedSymbol": "UCHL3",
+                  "id": "ENSG00000118939"
+                }
+              },
+              {
+                "score": 0.052316490560770035,
+                "target": {
+                  "approvedName": "LIM domain 7",
+                  "approvedSymbol": "LMO7",
+                  "id": "ENSG00000136153"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -12,
+          "pValueMantissa": 4.2170000076293945,
+          "position": 75147279,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.001733,
+          "studyId": "GCST90014462",
+          "studyLocusId": "5852f66c0e15870f20c7b54d982f9e97",
+          "studyType": "gwas",
+          "variant": {
+            "id": "13_75147279_T_A",
+            "rsIds": [
+              "rs144369757"
+            ]
+          }
+        },
+        {
+          "beta": 0.011292,
+          "chromosome": "22",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.7334561347961426,
+                "target": {
+                  "approvedName": "shisa like 1",
+                  "approvedSymbol": "SHISAL1",
+                  "id": "ENSG00000138944"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -9,
+          "pValueMantissa": 2.2179999351501465,
+          "position": 44245172,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0018879,
+          "studyId": "GCST90014462",
+          "studyLocusId": "62706e7d3614402b4d3d0a3e8c7363ff",
+          "studyType": "gwas",
+          "variant": {
+            "id": "22_44245172_G_C",
+            "rsIds": [
+              "rs3810624"
+            ]
+          }
+        },
+        {
+          "beta": 0.15724,
+          "chromosome": "18",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 4,
+            "rows": [
+              {
+                "score": 0.39151111245155334,
+                "target": {
+                  "approvedName": "APC down-regulated 1",
+                  "approvedSymbol": "APCDD1",
+                  "id": "ENSG00000154856"
+                }
+              },
+              {
+                "score": 0.18868893384933472,
+                "target": {
+                  "approvedName": "VAMP associated protein A",
+                  "approvedSymbol": "VAPA",
+                  "id": "ENSG00000101558"
+                }
+              },
+              {
+                "score": 0.09969611465930939,
+                "target": {
+                  "approvedName": "thioredoxin domain containing 2",
+                  "approvedSymbol": "TXNDC2",
+                  "id": "ENSG00000168454"
+                }
+              },
+              {
+                "score": 0.05194665864109993,
+                "target": {
+                  "approvedName": "NSF attachment protein gamma",
+                  "approvedSymbol": "NAPG",
+                  "id": "ENSG00000134265"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -26,
+          "pValueMantissa": 1.9630000591278076,
+          "position": 10181148,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.014779,
+          "studyId": "GCST90014462",
+          "studyLocusId": "6aa35b2bfbd4915e158ee783ddd20061",
+          "studyType": "gwas",
+          "variant": {
+            "id": "18_10181148_T_G",
+            "rsIds": [
+              "rs114781893"
+            ]
+          }
+        },
+        {
+          "beta": 0.034813,
+          "chromosome": "16",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.6953765749931335,
+                "target": {
+                  "approvedName": "sorting nexin 29",
+                  "approvedSymbol": "SNX29",
+                  "id": "ENSG00000048471"
+                }
+              },
+              {
+                "score": 0.21124689280986786,
+                "target": {
+                  "approvedName": "calcineurin like phosphoesterase domain containing 1",
+                  "approvedSymbol": "CPPED1",
+                  "id": "ENSG00000103381"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -11,
+          "pValueMantissa": 8.090999603271484,
+          "position": 12538054,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0053564,
+          "studyId": "GCST90014462",
+          "studyLocusId": "6aabf2f31b2738e8adeb1843e32ebe43",
+          "studyType": "gwas",
+          "variant": {
+            "id": "16_12538054_G_A",
+            "rsIds": [
+              "rs17240457"
+            ]
+          }
+        },
+        {
+          "beta": 0.01032,
+          "chromosome": "9",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.6684995889663696,
+                "target": {
+                  "approvedName": "guanine deaminase",
+                  "approvedSymbol": "GDA",
+                  "id": "ENSG00000119125"
+                }
+              },
+              {
+                "score": 0.08942176401615143,
+                "target": {
+                  "approvedName": "zinc finger AN1-type containing 5",
+                  "approvedSymbol": "ZFAND5",
+                  "id": "ENSG00000107372"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -9,
+          "pValueMantissa": 5.23199987411499,
+          "position": 72238962,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0017673,
+          "studyId": "GCST90014462",
+          "studyLocusId": "6ab486ad98cac3676b8caee1e4aa98cf",
+          "studyType": "gwas",
+          "variant": {
+            "id": "9_72238962_G_C",
+            "rsIds": [
+              "rs11143192"
+            ]
+          }
+        },
+        {
+          "beta": 0.009870375980821081,
+          "chromosome": "9",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 3,
+            "rows": [
+              {
+                "score": 0.30137670040130615,
+                "target": {
+                  "approvedName": "ribosomal protein S6",
+                  "approvedSymbol": "RPS6",
+                  "id": "ENSG00000137154"
+                }
+              },
+              {
+                "score": 0.2972170114517212,
+                "target": {
+                  "approvedName": "alkaline ceramidase 2",
+                  "approvedSymbol": "ACER2",
+                  "id": "ENSG00000177076"
+                }
+              },
+              {
+                "score": 0.06362956762313843,
+                "target": {
+                  "approvedName": "solute carrier family 24 member 2",
+                  "approvedSymbol": "SLC24A2",
+                  "id": "ENSG00000155886"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -9,
+          "pValueMantissa": 7.4925856590271,
+          "position": 19495729,
+          "purityMeanR2": 1,
+          "purityMinR2": 1,
+          "standardError": null,
+          "studyId": "GCST90014462",
+          "studyLocusId": "742546ea90ccc85ef2923006d47d8463",
+          "studyType": "gwas",
+          "variant": {
+            "id": "9_19495729_C_A",
+            "rsIds": [
+              "rs73424010"
+            ]
+          }
+        },
+        {
+          "beta": -0.020897500156354144,
+          "chromosome": "14",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 0,
+            "rows": []
+          },
+          "pValueExponent": -33,
+          "pValueMantissa": 4.0748610496521,
+          "position": 97969359,
+          "purityMeanR2": 1,
+          "purityMinR2": 1,
+          "standardError": null,
+          "studyId": "GCST90014462",
+          "studyLocusId": "75e49764c5ed2b497e5978d590ae14a5",
+          "studyType": "gwas",
+          "variant": {
+            "id": "14_97969359_T_C",
+            "rsIds": [
+              "rs2124843"
+            ]
+          }
+        },
+        {
+          "beta": 0.01107323613544391,
+          "chromosome": "10",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 0,
+            "rows": []
+          },
+          "pValueExponent": -11,
+          "pValueMantissa": 8.853142738342285,
+          "position": 57412247,
+          "purityMeanR2": 1,
+          "purityMinR2": 1,
+          "standardError": null,
+          "studyId": "GCST90014462",
+          "studyLocusId": "79314eb5d6eedae7e3d8e8460c4963f7",
+          "studyType": "gwas",
+          "variant": {
+            "id": "10_57412247_A_G",
+            "rsIds": [
+              "rs7076034"
+            ]
+          }
+        },
+        {
+          "beta": 0.13932,
+          "chromosome": "5",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.817940354347229,
+                "target": {
+                  "approvedName": "hyaluronan and proteoglycan link protein 1",
+                  "approvedSymbol": "HAPLN1",
+                  "id": "ENSG00000145681"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -19,
+          "pValueMantissa": 5.96999979019165,
+          "position": 83734366,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.015666,
+          "studyId": "GCST90014462",
+          "studyLocusId": "82a915966c80e3d500a894e52abb4905",
+          "studyType": "gwas",
+          "variant": {
+            "id": "5_83734366_G_T",
+            "rsIds": [
+              "rs7721253"
+            ]
+          }
+        },
+        {
+          "beta": -0.021979,
+          "chromosome": "13",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 0,
+            "rows": []
+          },
+          "pValueExponent": -9,
+          "pValueMantissa": 9.553999900817871,
+          "position": 70655075,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0038301,
+          "studyId": "GCST90014462",
+          "studyLocusId": "841d52f911af5e25ce2e84b9fdad3f89",
+          "studyType": "gwas",
+          "variant": {
+            "id": "13_70655075_T_C",
+            "rsIds": [
+              "rs662255"
+            ]
+          }
+        },
+        {
+          "beta": 0.015061,
+          "chromosome": "16",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.06294315308332443,
+                "target": {
+                  "approvedName": "protein disulfide isomerase family A member 2",
+                  "approvedSymbol": "PDIA2",
+                  "id": "ENSG00000185615"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -18,
+          "pValueMantissa": 7.379000186920166,
+          "position": 293151,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0017494,
+          "studyId": "GCST90014462",
+          "studyLocusId": "913079bf00f5eae30176a063cf88c1a3",
+          "studyType": "gwas",
+          "variant": {
+            "id": "16_293151_C_G",
+            "rsIds": [
+              "rs3830090"
+            ]
+          }
+        },
+        {
+          "beta": 0.010097083097667573,
+          "chromosome": "11",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.3081543445587158,
+                "target": {
+                  "approvedName": "olfactory receptor family 9 subfamily G member 1",
+                  "approvedSymbol": "OR9G1",
+                  "id": "ENSG00000174914"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -9,
+          "pValueMantissa": 3.0668203830718994,
+          "position": 56701622,
+          "purityMeanR2": 1,
+          "purityMinR2": 1,
+          "standardError": null,
+          "studyId": "GCST90014462",
+          "studyLocusId": "92097fd5d526636fa8b37b356ec10f8d",
+          "studyType": "gwas",
+          "variant": {
+            "id": "11_56701622_G_T",
+            "rsIds": [
+              "rs7102082"
+            ]
+          }
+        },
+        {
+          "beta": 0.034404,
+          "chromosome": "7",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 3,
+            "rows": [
+              {
+                "score": 0.3774773180484772,
+                "target": {
+                  "approvedName": "endosome-lysosome associated apoptosis and autophagy regulator family member 2",
+                  "approvedSymbol": "ELAPOR2",
+                  "id": "ENSG00000164659"
+                }
+              },
+              {
+                "score": 0.08663951605558395,
+                "target": {
+                  "approvedName": "glutamate metabotropic receptor 3",
+                  "approvedSymbol": "GRM3",
+                  "id": "ENSG00000198822"
+                }
+              },
+              {
+                "score": 0.07433803379535675,
+                "target": {
+                  "approvedName": "cyclin D binding myb like transcription factor 1",
+                  "approvedSymbol": "DMTF1",
+                  "id": "ENSG00000135164"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -30,
+          "pValueMantissa": 5.754000186920166,
+          "position": 86875018,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.003025,
+          "studyId": "GCST90014462",
+          "studyLocusId": "95dad21383bae010ad538409e1bc4960",
+          "studyType": "gwas",
+          "variant": {
+            "id": "7_86875018_GCACACACACA_G",
+            "rsIds": [
+              "rs140204608"
+            ]
+          }
+        },
+        {
+          "beta": 0.012304048411431328,
+          "chromosome": "12",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.36989209055900574,
+                "target": {
+                  "approvedName": "transmembrane protein 132B",
+                  "approvedSymbol": "TMEM132B",
+                  "id": "ENSG00000139364"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -13,
+          "pValueMantissa": 8.359374046325684,
+          "position": 125796871,
+          "purityMeanR2": 1,
+          "purityMinR2": 1,
+          "standardError": null,
+          "studyId": "GCST90014462",
+          "studyLocusId": "961df6e02c2ad5759254f97a0842c4f1",
+          "studyType": "gwas",
+          "variant": {
+            "id": "12_125796871_G_A",
+            "rsIds": [
+              "rs61941082"
+            ]
+          }
+        },
+        {
+          "beta": 0.012542,
+          "chromosome": "9",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 0,
+            "rows": []
+          },
+          "pValueExponent": -14,
+          "pValueMantissa": 1.840999960899353,
+          "position": 29894722,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.001637,
+          "studyId": "GCST90014462",
+          "studyLocusId": "9808aee344e4b63ec5a470ccfe816829",
+          "studyType": "gwas",
+          "variant": {
+            "id": "9_29894722_A_T",
+            "rsIds": [
+              "rs7856197"
+            ]
+          }
+        },
+        {
+          "beta": 0.0098682,
+          "chromosome": "5",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.7967883944511414,
+                "target": {
+                  "approvedName": "semaphorin 6A",
+                  "approvedSymbol": "SEMA6A",
+                  "id": "ENSG00000092421"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -10,
+          "pValueMantissa": 3.061000108718872,
+          "position": 116513651,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0015674,
+          "studyId": "GCST90014462",
+          "studyLocusId": "9b269d809eb3eab29532481d2f4dfbfa",
+          "studyType": "gwas",
+          "variant": {
+            "id": "5_116513651_T_A",
+            "rsIds": [
+              "rs76414586"
+            ]
+          }
+        },
+        {
+          "beta": 0.071624,
+          "chromosome": "17",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.6269494295120239,
+                "target": {
+                  "approvedName": "solute carrier family 39 member 11",
+                  "approvedSymbol": "SLC39A11",
+                  "id": "ENSG00000133195"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -10,
+          "pValueMantissa": 1.371999979019165,
+          "position": 72662925,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.011158,
+          "studyId": "GCST90014462",
+          "studyLocusId": "a3e33921bf67d6ccacab8a8f47a0cf6a",
+          "studyType": "gwas",
+          "variant": {
+            "id": "17_72662925_C_T",
+            "rsIds": [
+              "rs73343592"
+            ]
+          }
+        },
+        {
+          "beta": 0.020298,
+          "chromosome": "20",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 4,
+            "rows": [
+              {
+                "score": 0.27647867798805237,
+                "target": {
+                  "approvedName": "cadherin 26",
+                  "approvedSymbol": "CDH26",
+                  "id": "ENSG00000124215"
+                }
+              },
+              {
+                "score": 0.09696619212627411,
+                "target": {
+                  "approvedName": "family with sequence similarity 217 member B",
+                  "approvedSymbol": "FAM217B",
+                  "id": "ENSG00000196227"
+                }
+              },
+              {
+                "score": 0.09604974836111069,
+                "target": {
+                  "approvedName": "protein phosphatase 1 regulatory subunit 3D",
+                  "approvedSymbol": "PPP1R3D",
+                  "id": "ENSG00000132825"
+                }
+              },
+              {
+                "score": 0.09281336516141891,
+                "target": {
+                  "approvedName": "synaptonemal complex protein 2",
+                  "approvedSymbol": "SYCP2",
+                  "id": "ENSG00000196074"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -11,
+          "pValueMantissa": 1.6139999628067017,
+          "position": 60323896,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0030128,
+          "studyId": "GCST90014462",
+          "studyLocusId": "a767be767d17bd460b9743f14e8e11cf",
+          "studyType": "gwas",
+          "variant": {
+            "id": "20_60323896_C_G",
+            "rsIds": [
+              "rs117405345"
+            ]
+          }
+        },
+        {
+          "beta": 0.0098078,
+          "chromosome": "14",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 5,
+            "rows": [
+              {
+                "score": 0.6810834407806396,
+                "target": {
+                  "approvedName": "solute carrier family 35 member F4",
+                  "approvedSymbol": "SLC35F4",
+                  "id": "ENSG00000151812"
+                }
+              },
+              {
+                "score": 0.4280782639980316,
+                "target": {
+                  "approvedName": "coiled-coil domain containing 198",
+                  "approvedSymbol": "CCDC198",
+                  "id": "ENSG00000100557"
+                }
+              },
+              {
+                "score": 0.0699382871389389,
+                "target": {
+                  "approvedName": "armadillo like helical domain containing 4",
+                  "approvedSymbol": "ARMH4",
+                  "id": "ENSG00000139971"
+                }
+              },
+              {
+                "score": 0.0643320307135582,
+                "target": {
+                  "approvedName": "adaptor related protein complex 5 subunit mu 1",
+                  "approvedSymbol": "AP5M1",
+                  "id": "ENSG00000053770"
+                }
+              },
+              {
+                "score": 0.06422325223684311,
+                "target": {
+                  "approvedName": "exocyst complex component 5",
+                  "approvedSymbol": "EXOC5",
+                  "id": "ENSG00000070367"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -9,
+          "pValueMantissa": 1.3960000276565552,
+          "position": 57675265,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0016195,
+          "studyId": "GCST90014462",
+          "studyLocusId": "aea40cf172268b2a898b1d5e6b6d672a",
+          "studyType": "gwas",
+          "variant": {
+            "id": "14_57675265_A_G",
+            "rsIds": [
+              "rs11622846"
+            ]
+          }
+        },
+        {
+          "beta": -0.011194,
+          "chromosome": "11",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 3,
+            "rows": [
+              {
+                "score": 0.5012446641921997,
+                "target": {
+                  "approvedName": "olfactory receptor family 4 subfamily A member 5",
+                  "approvedSymbol": "OR4A5",
+                  "id": "ENSG00000221840"
+                }
+              },
+              {
+                "score": 0.10300207138061523,
+                "target": {
+                  "approvedName": "olfactory receptor family 4 subfamily A member 8 (gene/pseudogene)",
+                  "approvedSymbol": "OR4A8",
+                  "id": "ENSG00000225997"
+                }
+              },
+              {
+                "score": 0.0604572594165802,
+                "target": {
+                  "approvedName": "olfactory receptor family 4 subfamily C member 46",
+                  "approvedSymbol": "OR4C46",
+                  "id": "ENSG00000185926"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -11,
+          "pValueMantissa": 8.649999618530273,
+          "position": 54740695,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.001725,
+          "studyId": "GCST90014462",
+          "studyLocusId": "b8c96ffdad233772941bcddf3f7b215a",
+          "studyType": "gwas",
+          "variant": {
+            "id": "11_54740695_A_T",
+            "rsIds": [
+              "rs61891831"
+            ]
+          }
+        },
+        {
+          "beta": 0.035245,
+          "chromosome": "11",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.7178793549537659,
+                "target": {
+                  "approvedName": "integrator complex subunit 4",
+                  "approvedSymbol": "INTS4",
+                  "id": "ENSG00000149262"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -49,
+          "pValueMantissa": 1.8240000009536743,
+          "position": 77995914,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0023834,
+          "studyId": "GCST90014462",
+          "studyLocusId": "bb8825c24b5333a228cfb9cd658dda55",
+          "studyType": "gwas",
+          "variant": {
+            "id": "11_77995914_C_A",
+            "rsIds": [
+              "rs7107061"
+            ]
+          }
+        },
+        {
+          "beta": 0.032608,
+          "chromosome": "17",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.6806563138961792,
+                "target": {
+                  "approvedName": "ABR activator of RhoGEF and GTPase",
+                  "approvedSymbol": "ABR",
+                  "id": "ENSG00000159842"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -13,
+          "pValueMantissa": 4.197999954223633,
+          "position": 1130609,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0044979,
+          "studyId": "GCST90014462",
+          "studyLocusId": "ea08049afebe1960640eacce9111575c",
+          "studyType": "gwas",
+          "variant": {
+            "id": "17_1130609_C_T",
+            "rsIds": [
+              "rs12951410"
+            ]
+          }
+        },
+        {
+          "beta": 0.01108,
+          "chromosome": "6",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 3,
+            "rows": [
+              {
+                "score": 0.649168074131012,
+                "target": {
+                  "approvedName": "thrombospondin 2",
+                  "approvedSymbol": "THBS2",
+                  "id": "ENSG00000186340"
+                }
+              },
+              {
+                "score": 0.07546393573284149,
+                "target": {
+                  "approvedName": "WD repeat domain 27",
+                  "approvedSymbol": "WDR27",
+                  "id": "ENSG00000184465"
+                }
+              },
+              {
+                "score": 0.0523197278380394,
+                "target": {
+                  "approvedName": "chromosome 6 open reading frame 120",
+                  "approvedSymbol": "C6orf120",
+                  "id": "ENSG00000185127"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -10,
+          "pValueMantissa": 1.1920000314712524,
+          "position": 169419852,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0017204,
+          "studyId": "GCST90014462",
+          "studyLocusId": "efd98d022367473f24c60fed91922246",
+          "studyType": "gwas",
+          "variant": {
+            "id": "6_169419852_G_C",
+            "rsIds": [
+              "rs140397030"
+            ]
+          }
+        },
+        {
+          "beta": 0.011353734147307601,
+          "chromosome": "2",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.8490195870399475,
+                "target": {
+                  "approvedName": "glycerol-3-phosphate dehydrogenase 2",
+                  "approvedSymbol": "GPD2",
+                  "id": "ENSG00000115159"
+                }
+              },
+              {
+                "score": 0.08004491776227951,
+                "target": {
+                  "approvedName": "nuclear receptor subfamily 4 group A member 2",
+                  "approvedSymbol": "NR4A2",
+                  "id": "ENSG00000153234"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -11,
+          "pValueMantissa": 3.7290313243865967,
+          "position": 156463692,
+          "purityMeanR2": 1,
+          "purityMinR2": 1,
+          "standardError": null,
+          "studyId": "GCST90014462",
+          "studyLocusId": "f08bf43ab243ad0a060d8d8ee3f639ee",
+          "studyType": "gwas",
+          "variant": {
+            "id": "2_156463692_C_G",
+            "rsIds": [
+              "rs11899734"
+            ]
+          }
+        },
+        {
+          "beta": 0.012910239550641555,
+          "chromosome": "7",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.5664442181587219,
+                "target": {
+                  "approvedName": "cell division cycle 14C",
+                  "approvedSymbol": "CDC14C",
+                  "id": "ENSG00000218305"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -14,
+          "pValueMantissa": 7.172964572906494,
+          "position": 49030398,
+          "purityMeanR2": 1,
+          "purityMinR2": 1,
+          "standardError": null,
+          "studyId": "GCST90014462",
+          "studyLocusId": "f202180de788ae4b7e20130c0bffe9d4",
+          "studyType": "gwas",
+          "variant": {
+            "id": "7_49030398_G_A",
+            "rsIds": [
+              "rs7781172"
+            ]
+          }
+        },
+        {
+          "beta": 0.010398034105520012,
+          "chromosome": "6",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.39340242743492126,
+                "target": {
+                  "approvedName": "retinoic acid early transcript 1L",
+                  "approvedSymbol": "RAET1L",
+                  "id": "ENSG00000155918"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -9,
+          "pValueMantissa": 2.8468639850616455,
+          "position": 150035721,
+          "purityMeanR2": 1,
+          "purityMinR2": 1,
+          "standardError": null,
+          "studyId": "GCST90014462",
+          "studyLocusId": "f9c791d10f27eb64296060fb75e26806",
+          "studyType": "gwas",
+          "variant": {
+            "id": "6_150035721_C_T",
+            "rsIds": [
+              "rs112503752"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

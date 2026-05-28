@@ -1,0 +1,333 @@
+{
+  "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxubfml1PYZkA",
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D001168",
+              "term": "Arthritis"
+            },
+            {
+              "id": "D007592",
+              "term": "Joint Diseases"
+            },
+            {
+              "id": "D009140",
+              "term": "Musculoskeletal Diseases"
+            },
+            {
+              "id": "D012216",
+              "term": "Rheumatic Diseases"
+            },
+            {
+              "id": "D003240",
+              "term": "Connective Tissue Diseases"
+            },
+            {
+              "id": "D017437",
+              "term": "Skin and Connective Tissue Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D001172",
+              "term": "Arthritis, Rheumatoid"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D000630",
+              "term": "Aminopterin"
+            },
+            {
+              "id": "D011622",
+              "term": "Pterins"
+            },
+            {
+              "id": "D011621",
+              "term": "Pteridines"
+            },
+            {
+              "id": "D006574",
+              "term": "Heterocyclic Compounds, 2-Ring"
+            },
+            {
+              "id": "D000072471",
+              "term": "Heterocyclic Compounds, Fused-Ring"
+            },
+            {
+              "id": "D006571",
+              "term": "Heterocyclic Compounds"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D008727",
+              "term": "Methotrexate"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "CR6086 30 mg bid for 12 weeks as add-on to methotrexate (MTX) once weekly. MTX uptitrated to stable dosing as per standard guidelines",
+              "interventionNames": [
+                "Drug: CR6086",
+                "Drug: Methotrexate"
+              ],
+              "label": "CR6086 30 mg",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "CR6086 90 mg bid for 12 weeks as add-on to MTX once weekly. MTX uptitrated to stable dosing as per standard guidelines",
+              "interventionNames": [
+                "Drug: CR6086",
+                "Drug: Methotrexate"
+              ],
+              "label": "CR6086 90 mg",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "CR6086 180 mg bid for 12 weeks as add-on to MTX once weekly. MTX uptitrated to stable dosing as per standard guidelines",
+              "interventionNames": [
+                "Drug: CR6086",
+                "Drug: Methotrexate"
+              ],
+              "label": "CR6086 180 mg",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "CR6086 matching placebo bid for 12 weeks as add-on to MTX once weekly. MTX uptitrated to stable dosing as per standard guidelines",
+              "interventionNames": [
+                "Drug: Methotrexate",
+                "Drug: Placebo"
+              ],
+              "label": "Placebo",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "CR6086 180 mg",
+                "CR6086 30 mg",
+                "CR6086 90 mg"
+              ],
+              "description": "oral CR6086 capsules",
+              "name": "CR6086",
+              "type": "DRUG"
+            },
+            {
+              "armGroupLabels": [
+                "CR6086 180 mg",
+                "CR6086 30 mg",
+                "CR6086 90 mg",
+                "Placebo"
+              ],
+              "description": "oral Methotrexate tablets",
+              "name": "Methotrexate",
+              "type": "DRUG"
+            },
+            {
+              "armGroupLabels": [
+                "Placebo"
+              ],
+              "description": "oral CR6086 Placebo capsules",
+              "name": "Placebo",
+              "type": "DRUG"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Rheumatoid Arthritis, DMARD-naive and Early Disease Patients"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Prague",
+              "country": "Czechia",
+              "facility": "Institute of Rheumatology",
+              "geoPoint": {
+                "lat": 50.08804,
+                "lon": 14.42076
+              }
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "CR6086 is a new, potent and selective, orally available, small molecule prostaglandin EP4 receptor antagonist, endowed with immunomodulatory properties. The pharmacological properties of CR6086, along with its oral bioavailability, predictable pharmacokinetics and good safety, make it the ideal candidate to be tested alone or in combination with methotrexate (MTX) in patients with early Rheumatoid Arthritis who are na\u00efve to Disease-Modifying Antirheumatic Drugs (DMARDs). The compound has indeed the potential to provide a safer and more effective treatment than MTX (or other conventional synthetic DMARDs - csDMARDs), and could significantly improve the proportion of responder patients and avoid/delay the recourse to biological DMARDs (bDMARDs) or targeted synthetic DMARDs (tsDMARDs).",
+          "detailedDescription": "There is growing evidence that EP4 receptors play an important role in the altered immune response observed in autoimmune diseases. These findings point to the EP4 receptor as a rational target for the development of novel Disease-Modifying Antirheumatic Drugs (DMARDs)/immunomodulators which, in addition, have direct anti-inflammatory properties. The potential for CR6086 to act as a DMARD was extensively demonstrated in a series of widely accepted models of arthritis in rodents, where oral CR6086 was effective in all the parameters examined, including oedema, clinical arthritis score, and histology. CR6086 performed much better than nonsteroidal anti-inflammatory drugs (NSAIDs, that lack the immunomodulatory properties of an EP4 receptor antagonist and are scarcely effective), better than first-line csDMARDs such as MTX, and similarly to immunosuppressive bDMARDs such as TNF-blockers, or tsDMARDs such as JAK inhibitors.\n\nIn the present study, CR6086 (or placebo) will be administered in a dose-response fashion for 12 weeks to DMARD-na\u00efve patients with early Rheumatoid Arthritis, in combination with oral MTX. The treatment duration and study design will allow to test the effects of the new treatment on clinical outcomes of disease activity, laboratory biomarkers and imaging parameters."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "QUADRUPLE",
+              "whoMasked": [
+                "PARTICIPANT",
+                "CARE_PROVIDER",
+                "INVESTIGATOR",
+                "OUTCOMES_ASSESSOR"
+              ]
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 248,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE2"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male or female aged \u226518 years.\n2. Patients with diagnosis of definite Rheumatoid Arthritis (RA) according to the 2010 American College of Rheumatology (ACR)/European League Against Rheumatism (EULAR) classification criteria.\n3. Disease duration no longer than 1 year (early RA).\n4. Patients must be na\u00efve to any DMARDs (csDMARDs, or bDMARDs, or tsDMARDs) other than hydroxychloroquine.\n5. Patients with \"moderate\" disease activity as documented by a Disease Activity Score 28 (DAS28) (C-Reactive Protein - CRP) index score \\> 3.2.\n6. Patients with serum C-Reactive Protein (hsCRP) higher than the upper limit of normal.\n7. Patients positive for serum rheumatoid factor (RF) or anti-cyclic citrullinated peptide antibodies (ACPA).\n\nExclusion Criteria:\n\n1. Rheumatic autoimmune disease other than RA, or current inflammatory joint disease other than RA, or non-inflammatory type of musculoskeletal condition (e.g., osteoarthritis or fibromyalgia) that in the Investigator's opinion is symptomatic and/or severe enough to interfere with the study procedures.\n2. History of gastric/duodenal ulcers and gastrointestinal bleeding, or gastrointestinal diseases known to interfere with the absorption or excretion of medications.\n3. Severe, progressive, or uncontrolled renal, hepatic, hematologic, gastrointestinal, metabolic, endocrine, pulmonary, cardiac or neurologic disease.\n4. Malignancy (with the exception of adequately treated or excised non-metastatic basal cell or squamous cell cancer of the skin or cervical carcinoma in situ) active during the 12 months preceding the Screening Visit.\n5. Acute hepatitis (during the 3 months preceding the Screening Visit), chronic hepatitis, or HIV infection.\n6. History of alcohol or drug abuse, or\n7. allergy/sensitivity to lactose.\n8. Vaccination with live vaccines during the 6 weeks preceding the Screening Visit.\n9. Clinically significant abnormalities in haematology, serum alkaline-phosphatase, gamma-glutamyl-transferase, alanine aminotransferase, aspartate aminotransferase, total bilirubin, creatinine clearance, 12-lead ECG.\n10. Use of hydroxychloroquine during the 4 weeks preceding the Screening Visit.\n11. Treatment with oral corticosteroids, unless maintained at doses equivalent to \u226410 mg/day prednisone \u22657 days before the Screening Visit.\n12. Use of nonsteroidal anti-inflammatory drugs (NSAIDs).\n13. Use of other investigational drugs/treatments, or enrolment in a clinical trial during the 6 months preceding the Screening Visit.\n14. For women of childbearing potential:\n\n    1. Pregnancy (i.e. positive pregnancy test at Screening) or breastfeeding\n    2. Failure to agree to practice a highly effective method of contraception.\n15. For sexually active men with a female partner of childbearing potential: failure to agree to use contraception.",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "A Study of the EP4 Antagonist CR6086 in Combination With Methotrexate, in DMARD-na\u00efve Patients With Early Rheumatoid Arthritis",
+          "nctId": "NCT03163966",
+          "officialTitle": "A Randomized, Double Blind, Placebo-controlled, Dose Response, Phase II, Multicentre Trial to Evaluate the Efficacy, Safety and Pharmacokinetics of Oral CR6086 Administered at the Doses of 30, 90 or 180 mg Bid for 12 Weeks in Combination With Methotrexate, in DMARD-na\u00efve Patients With Early Rheumatoid Arthritis",
+          "orgStudyIdInfo": {
+            "id": "CR6086-2-02"
+          },
+          "organization": {
+            "class": "INDUSTRY",
+            "fullName": "Rottapharm Biotech"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "measure": "American College of Rheumatology 20% improvement (ACR20) responder rate",
+              "timeFrame": "12 weeks"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "measure": "ACR50 responder rate",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "measure": "ACR70 responder rate",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "measure": "Disease Activity Score on 28-joint count (DAS28)",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "measure": "Clinical Disease Activity Index (CDAI)",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "measure": "Simplified Disease Activity Index (SDAI)",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "measure": "ACR/EULAR remission criteria",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "number of patients with Adverse Events",
+              "measure": "Adverse Events",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "measure": "Routine Laboratory determinations",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Main PK endpoint: AUCinf (ng.h/mL). Area under the plasma concentration vs time curve extrapolated to infinity",
+              "measure": "Pharmacokinetics (PK) of Methotrexate and CR6086 in combination",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Serum biomarkers of disease activity",
+              "measure": "Biochemical markers",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "description": "Dynamic Contrast-Enhanced MRI (DCE-MRI)",
+              "measure": "Imaging biomarkers",
+              "timeFrame": "12 weeks"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": true
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "INDUSTRY",
+            "name": "Rottapharm Biotech"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2019-01-08",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2021-10-05",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2021-10-04",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2019-01-08",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2017-10-05",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2017-12",
+          "studyFirstPostDateStruct": {
+            "date": "2017-05-23",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2017-05-08",
+          "studyFirstSubmitQcDate": "2017-05-19"
+        }
+      }
+    }
+  ],
+  "totalCount": 1
+}

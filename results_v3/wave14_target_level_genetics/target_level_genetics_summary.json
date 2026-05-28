@@ -1,0 +1,42 @@
+{
+  "candidates": [
+    "SLC15A4",
+    "TASL",
+    "IRF5",
+    "PTPN2",
+    "TNFAIP3",
+    "CLEC16A",
+    "SH2B3",
+    "GPR65",
+    "CIITA",
+    "RFX5",
+    "GSK3B",
+    "CD74"
+  ],
+  "date": "2026-05-27",
+  "global_call": "no_go_for_V3_target_level_genetics",
+  "global_reason": "No candidate has disease GWAS plus cis-eQTL/pQTL instrument plus proper multi-signal coloc/MR evidence across four autoimmune diseases in accessible local/public resources. Open Targets credible-set rows remain locus-level triage.",
+  "inputs": {
+    "expression_summary": "results_v3/wave13_candidate_gene_local_validation/wave13_candidate_gene_summary.tsv",
+    "local_gwas_catalog_parquet": "tmp_v3/gwascatalog_associations_20260317_convert.parquet",
+    "open_targets_credible_sets": "tmp_v3/wave13_opentargets_gwas_credible_sets.tsv"
+  },
+  "outputs": {
+    "gtex_eqtl_availability": "results_v3/wave14_target_level_genetics/gtex_eqtl_availability.tsv",
+    "gtex_gene_lookup": "results_v3/wave14_target_level_genetics/gtex_gene_lookup.tsv",
+    "gwas_catalog_access": "results_v3/wave14_target_level_genetics/gwas_catalog_access.tsv",
+    "gwas_catalog_mapped_gene_autoimmune_top_associations": "results_v3/wave14_target_level_genetics/gwas_catalog_mapped_gene_autoimmune_top_associations.tsv",
+    "opentargets_locus_summary": "results_v3/wave14_target_level_genetics/opentargets_locus_summary.tsv",
+    "resource_accessibility": "results_v3/wave14_target_level_genetics/resource_accessibility.tsv",
+    "target_level_genetics_truth_table": "results_v3/wave14_target_level_genetics/target_level_genetics_truth_table.tsv"
+  },
+  "resource_urls": {
+    "FinnGen downloads": "https://www.finngen.fi/en/access_results",
+    "GTEx Portal API": "https://gtexportal.org/api/v2/",
+    "GWAS Catalog associations API": "https://www.ebi.ac.uk/gwas/rest/api/v2/associations?mappedGene=IRF5&size=5&page=0",
+    "Open Targets Platform GraphQL": "https://api.platform.opentargets.org/api/v4/graphql",
+    "OpenGWAS API": "https://api.opengwas.io/api/gwasinfo?trait=multiple%20sclerosis",
+    "eQTL Catalogue": "https://www.ebi.ac.uk/eqtl/",
+    "eQTLGen cis-eQTL resource": "https://kghub.org/kg-registry/resource/eqtlgen/eqtlgen.cis_eqtl_full.html"
+  }
+}

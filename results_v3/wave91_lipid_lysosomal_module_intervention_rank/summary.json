@@ -1,0 +1,28 @@
+{
+  "analysis_call": "NO_REOPEN_MODULE_WIDE_LIPID_LYSOSOMAL_INTERVENTION_NODE",
+  "call_counts": {
+    "NO_GO_DIRECT_ATLAS_CONTRADICTION": 1,
+    "NO_GO_NO_MS_WHITE_MATTER_SINGLE_GENE_ANCHOR": 20,
+    "NO_GO_RESPONSE_SIGNAL_NOT_SHARED_ACROSS_DISEASES": 13,
+    "NO_GO_ROUTE_BLOCKED": 1,
+    "PARK_RESPONSE_DIRECTIONS_WEAK_OR_UNDERPOWERED": 10
+  },
+  "inputs": {
+    "direct_h5ad_donor_comparisons": "results_v3/direct_h5ad_gene_replication/direct_h5ad_gene_donor_comparisons.tsv",
+    "ibd_external_antitnf_meta": "results_v3/wave86_external_geo_antitnf_gene_driver/external_geo_gene_meta_rank.tsv",
+    "ms_white_matter_signature": "results_v3/gse111972_full_ms_wm_signature.tsv",
+    "psoriasis_candidate_sources": "results_v3/wave89_psoriasis_gse85034_response/candidate_gene_sources.tsv",
+    "psoriasis_response": "results_v3/wave89_psoriasis_gse85034_response/psoriasis_baseline_gene_response_tests.tsv",
+    "ra_counts": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_counts_used.tsv",
+    "ra_metadata": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_sample_metadata.tsv",
+    "wave55_external_genetics": "results_v3/wave55_external_genetics_druggability_sweep/external_genetics_rank.tsv",
+    "wave62_target_resolution": "results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv",
+    "wave81_perturbation_first_rescue": "results_v3/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv"
+  },
+  "n_candidate_genes": 45,
+  "n_parked": 10,
+  "n_reopened": 0,
+  "seed": 20260527,
+  "top_scored_call": "NO_GO_ROUTE_BLOCKED",
+  "top_scored_gene": "CD44"
+}

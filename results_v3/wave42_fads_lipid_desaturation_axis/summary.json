@@ -1,0 +1,143 @@
+{
+  "branch": "FADS1/FADS2 genetics-first lipid-desaturation axis",
+  "chembl_summary": [
+    {
+      "activity_total_count": 145,
+      "activity_values_nM_count": 61,
+      "assay_type_counts": "{\"B\": 145}",
+      "best_assay_description": "Inhibition of D5D in human HepG2 cells assessed as [14C]AA formation from [14C]DGLA preincubated for 30 mins followed by [14C]eicosatrienoic acid addition measured after 3 hrs by TLC analysis",
+      "best_molecule_chembl_id": "CHEMBL4084502",
+      "best_molecule_pref_name": null,
+      "best_standard_nM": 0.52,
+      "gene": "FADS1",
+      "median_standard_nM": 60.0,
+      "organism": "Homo sapiens",
+      "returned_activity_rows": 145,
+      "target_chembl_id": "CHEMBL5840",
+      "target_pref_name": "Acyl-CoA (8-3)-desaturase",
+      "target_type": "SINGLE PROTEIN",
+      "unique_molecules_returned": 137
+    },
+    {
+      "activity_total_count": 104,
+      "activity_values_nM_count": 11,
+      "assay_type_counts": "{\"B\": 104}",
+      "best_assay_description": "Binding affinity to human FADS2 incubated for 45 mins by Kinobead based pull down assay",
+      "best_molecule_chembl_id": "CHEMBL5653589",
+      "best_molecule_pref_name": null,
+      "best_standard_nM": 407.65,
+      "gene": "FADS2",
+      "median_standard_nM": 80000.0,
+      "organism": "Homo sapiens",
+      "returned_activity_rows": 104,
+      "target_chembl_id": "CHEMBL6097",
+      "target_pref_name": "Acyl-CoA 6-desaturase",
+      "target_type": "SINGLE PROTEIN",
+      "unique_molecules_returned": 101
+    }
+  ],
+  "date": "2026-05-27",
+  "failed_gates": [
+    "target_level_colocalization_or_mr_direction_absent",
+    "GWAS_Catalog_signal_is_11q12_locus_level_with_TMEM258_MYRF_FEN1_ambiguity",
+    "local_cell_state_support_weak_and_not_lipid_lysosomal_myeloid_specific",
+    "no_LINCS_FADS1_or_FADS2_perturbagen_present_for_signature_validation",
+    "intervention_direction_unresolved_from_risk_alleles"
+  ],
+  "gwas_catalog_autoimmune_locus_rows": 39,
+  "gwas_catalog_autoimmune_trait_count": 18,
+  "gwas_catalog_rows_with_fads_gene_name": 27,
+  "gwas_catalog_rows_with_non_fads_locus_gene": 15,
+  "interpretation": "FADS1/FADS2 remains mechanistically interesting as a lipid-genetic hypothesis, but Wave42 does not promote it. The autoimmune evidence is locus-level rather than target-level, risk-allele direction is not resolved, local cell-state evidence is weak and non-MS, and no LINCS FADS perturbagen is available to validate module reversal. FADS1 chemistry exists, so the route is parked only for future coloc/MR and perturbation work.",
+  "lincs_fads_perturbagen_rows": 0,
+  "local_cell_state_summary": {
+    "FADS1_ms_delta": -0.5582998002248747,
+    "FADS1_ms_p": 0.0302817182679143,
+    "FADS1_positive_disease_count": 2,
+    "FADS1_positive_diseases": "psoriasis;ulcerative colitis",
+    "FADS2_ms_delta": -1.511731792716413,
+    "FADS2_ms_p": 0.1303764679615833,
+    "FADS2_positive_disease_count": 2,
+    "FADS2_positive_diseases": "Crohn disease;ulcerative colitis",
+    "residual_summary_rows": 0
+  },
+  "mapped_gene_top_counts": [
+    {
+      "MAPPED_GENE": "FADS2, FADS1",
+      "min_p": 8e-16,
+      "n_rows": 11,
+      "n_traits": 9
+    },
+    {
+      "MAPPED_GENE": "FADS1, FADS2",
+      "min_p": 3e-13,
+      "n_rows": 7,
+      "n_traits": 2
+    },
+    {
+      "MAPPED_GENE": "TMEM258, MYRF",
+      "min_p": 2e-12,
+      "n_rows": 7,
+      "n_traits": 5
+    },
+    {
+      "MAPPED_GENE": "FADS2",
+      "min_p": 2e-16,
+      "n_rows": 5,
+      "n_traits": 4
+    },
+    {
+      "MAPPED_GENE": "FEN1, FADS2",
+      "min_p": 2e-15,
+      "n_rows": 2,
+      "n_traits": 2
+    },
+    {
+      "MAPPED_GENE": "MYRF, TMEM258",
+      "min_p": 4e-08,
+      "n_rows": 2,
+      "n_traits": 2
+    },
+    {
+      "MAPPED_GENE": "POU2AF3 - MIR4491",
+      "min_p": 2e-11,
+      "n_rows": 1,
+      "n_traits": 1
+    },
+    {
+      "MAPPED_GENE": "TMEM258",
+      "min_p": 2e-11,
+      "n_rows": 1,
+      "n_traits": 1
+    },
+    {
+      "MAPPED_GENE": "FADS1, FADS2, MIR1908",
+      "min_p": 3e-09,
+      "n_rows": 1,
+      "n_traits": 1
+    },
+    {
+      "MAPPED_GENE": "MYRF",
+      "min_p": 2e-08,
+      "n_rows": 1,
+      "n_traits": 1
+    }
+  ],
+  "output_paths": {
+    "api_call_log": "results_v3/wave42_fads_lipid_desaturation_axis/api_call_log.tsv",
+    "chembl_summary": "results_v3/wave42_fads_lipid_desaturation_axis/chembl_fads_activity_summary.tsv",
+    "clinicaltrials_counts": "results_v3/wave42_fads_lipid_desaturation_axis/fads_clinicaltrials_query_counts.tsv",
+    "gwascatalog_mapped_gene_summary": "results_v3/wave42_fads_lipid_desaturation_axis/gwascatalog_fads_locus_mapped_gene_summary.tsv",
+    "gwascatalog_rows": "results_v3/wave42_fads_lipid_desaturation_axis/gwascatalog_fads_locus_autoimmune_rows.tsv",
+    "gwascatalog_trait_summary": "results_v3/wave42_fads_lipid_desaturation_axis/gwascatalog_fads_locus_trait_summary.tsv",
+    "lincs_presence": "results_v3/wave42_fads_lipid_desaturation_axis/lincs_fads_perturbagen_presence.tsv",
+    "literature_counts": "results_v3/wave42_fads_lipid_desaturation_axis/fads_literature_query_counts.tsv",
+    "local_cellstate_fads_rows": "results_v3/wave42_fads_lipid_desaturation_axis/local_cellstate_fads_rows.tsv",
+    "model": "results_v3/wave42_fads_lipid_desaturation_axis/fads_lipid_flux_sensitivity_model.tsv",
+    "patent_urls": "results_v3/wave42_fads_lipid_desaturation_axis/fads_patent_search_urls.tsv",
+    "wave34_fads_rows": "results_v3/wave42_fads_lipid_desaturation_axis/wave34_fads_rows.tsv"
+  },
+  "promotion_status": "NO_THERAPEUTIC_CLAIM",
+  "random_seed": 20260527,
+  "wave42_call": "PARK_ONLY_IF_COLOC_DIRECTION_AND_PERTURBATION_APPEAR"
+}

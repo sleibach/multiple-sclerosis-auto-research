@@ -1,0 +1,657 @@
+{
+  "payload": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Growth arrest-specific protein 6",
+        "score": 20.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL4804247",
+        "target_components": [
+          {
+            "accession": "Q14393",
+            "component_description": "Growth arrest-specific protein 6",
+            "component_id": 19800,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "AXLLG",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "AXL receptor tyrosine kinase ligand",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "GAS-6",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "GAS6",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Growth arrest-specific protein 6",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "Q14393",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005783",
+                "xref_name": "endoplasmic reticulum",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005788",
+                "xref_name": "endoplasmic reticulum lumen",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005796",
+                "xref_name": "Golgi lumen",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031093",
+                "xref_name": "platelet alpha granule lumen",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0001786",
+                "xref_name": "phosphatidylserine binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005102",
+                "xref_name": "signaling receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005509",
+                "xref_name": "calcium ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0030674",
+                "xref_name": "protein-macromolecule adaptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0030971",
+                "xref_name": "receptor tyrosine kinase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0043027",
+                "xref_name": "cysteine-type endopeptidase inhibitor activity involved in apoptotic process",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0048018",
+                "xref_name": "receptor ligand activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001764",
+                "xref_name": "neuron migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001934",
+                "xref_name": "positive regulation of protein phosphorylation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001961",
+                "xref_name": "positive regulation of cytokine-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0003104",
+                "xref_name": "positive regulation of glomerular filtration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006468",
+                "xref_name": "protein phosphorylation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006909",
+                "xref_name": "phagocytosis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006915",
+                "xref_name": "apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007165",
+                "xref_name": "signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007166",
+                "xref_name": "cell surface receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007167",
+                "xref_name": "enzyme-linked receptor protein signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007596",
+                "xref_name": "blood coagulation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0009267",
+                "xref_name": "cellular response to starvation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010628",
+                "xref_name": "positive regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010804",
+                "xref_name": "negative regulation of tumor necrosis factor-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0019064",
+                "xref_name": "fusion of virus membrane with host plasma membrane",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0019079",
+                "xref_name": "viral genome replication",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031100",
+                "xref_name": "animal organ regeneration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031589",
+                "xref_name": "cell-substrate adhesion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032008",
+                "xref_name": "positive regulation of TOR signaling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032148",
+                "xref_name": "activation of protein kinase B activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032689",
+                "xref_name": "negative regulation of type II interferon production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032692",
+                "xref_name": "negative regulation of interleukin-1 production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032715",
+                "xref_name": "negative regulation of interleukin-6 production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032720",
+                "xref_name": "negative regulation of tumor necrosis factor production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032825",
+                "xref_name": "positive regulation of natural killer cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0033028",
+                "xref_name": "myeloid cell apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0033033",
+                "xref_name": "negative regulation of myeloid cell apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035754",
+                "xref_name": "B cell chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043066",
+                "xref_name": "negative regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043277",
+                "xref_name": "apoptotic cell clearance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0044346",
+                "xref_name": "fibroblast apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045860",
+                "xref_name": "positive regulation of protein kinase activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045892",
+                "xref_name": "negative regulation of DNA-templated transcription",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046718",
+                "xref_name": "symbiont entry into host cell",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046813",
+                "xref_name": "receptor-mediated virion attachment to host cell",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046827",
+                "xref_name": "positive regulation of protein export from nucleus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048146",
+                "xref_name": "positive regulation of fibroblast proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050766",
+                "xref_name": "positive regulation of phagocytosis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051897",
+                "xref_name": "positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070168",
+                "xref_name": "negative regulation of biomineral tissue development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070374",
+                "xref_name": "positive regulation of ERK1 and ERK2 cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070588",
+                "xref_name": "calcium ion transmembrane transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071307",
+                "xref_name": "cellular response to vitamin K",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071333",
+                "xref_name": "cellular response to glucose stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071466",
+                "xref_name": "cellular response to xenobiotic stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0085029",
+                "xref_name": "extracellular matrix assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097028",
+                "xref_name": "dendritic cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097241",
+                "xref_name": "hematopoietic stem cell migration to bone marrow",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1900142",
+                "xref_name": "negative regulation of oligodendrocyte apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000117",
+                "xref_name": "negative regulation of cysteine-type endopeptidase activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000270",
+                "xref_name": "negative regulation of fibroblast apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000352",
+                "xref_name": "negative regulation of endothelial cell apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000510",
+                "xref_name": "positive regulation of dendritic cell chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000533",
+                "xref_name": "negative regulation of renal albumin absorption",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000669",
+                "xref_name": "negative regulation of dendritic cell apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:4168",
+                "xref_name": "GAS6",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "Q14393",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR000152",
+                "xref_name": "EGF-type_Asp/Asn_hydroxyl_site",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000294",
+                "xref_name": "GLA_domain",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000742",
+                "xref_name": "EGF-like_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001791",
+                "xref_name": "Laminin_G",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001881",
+                "xref_name": "EGF-like_Ca-bd_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR009030",
+                "xref_name": "Growth_fac_rcpt_cys_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013032",
+                "xref_name": "EGF-like_CS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013320",
+                "xref_name": "ConA-like_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR017857",
+                "xref_name": "Coagulation_fac-like_Gla_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR018097",
+                "xref_name": "EGF_Ca-bd_CS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR026823",
+                "xref_name": "cEGF",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR035972",
+                "xref_name": "GLA-like_dom_SF",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR049883",
+                "xref_name": "NOTCH1_EGF-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR051145",
+                "xref_name": "GAS-SHBG-PROS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR24040",
+                "xref_name": "LAMININ G-LIKE DOMAIN-CONTAINING PROTEIN",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR24040:SF14",
+                "xref_name": "GROWTH ARREST-SPECIFIC PROTEIN 6",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "1H30",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2C5D",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4RA0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5VXZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1H30",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "2C5D",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4RA0",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5VXZ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF00054",
+                "xref_name": "Laminin_G_1",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00594",
+                "xref_name": "Gla",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF02210",
+                "xref_name": "Laminin_G_2",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF07645",
+                "xref_name": "EGF_CA",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF12661",
+                "xref_name": "hEGF",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF12662",
+                "xref_name": "cEGF",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA28582",
+                "xref_name": "growth arrest specific 6",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "Q14393",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-114608",
+                "xref_name": "Platelet degranulation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-159740",
+                "xref_name": "Gamma-carboxylation of protein precursors",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-159763",
+                "xref_name": "Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-159782",
+                "xref_name": "Removal of aminoterminal propeptides from gamma-carboxylated proteins",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-202733",
+                "xref_name": "Cell surface interactions at the vascular wall",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-381426",
+                "xref_name": "Regulation of Insulin-like Growth Factor (IGF) transport and uptake by Insulin-like Growth Factor Binding Proteins (IGFBPs)",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8957275",
+                "xref_name": "Post-translational protein phosphorylation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "B3KRQ7",
+                "xref_name": "Growth arrest-specific protein 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "B3KVL4",
+                "xref_name": "Growth arrest-specific protein 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "E9PBL7",
+                "xref_name": "Growth arrest-specific protein 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q14393",
+                "xref_name": "Growth arrest-specific protein 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6IMN1",
+                "xref_name": "Growth arrest-specific protein 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q7Z7N3",
+                "xref_name": "Growth arrest-specific protein 6",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=GAS6"
+}

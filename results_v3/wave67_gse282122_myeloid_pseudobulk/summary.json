@@ -1,0 +1,123 @@
+{
+  "adata_shape": [
+    30858,
+    33075
+  ],
+  "gate_calls": {
+    "NO_GO_GSE282122_MYELOID": 3,
+    "PARK_CELL_RESOLVED_PD_SIGNAL_ONLY": 3
+  },
+  "input_accessions": [
+    "GSE282122",
+    "Zenodo 14007626"
+  ],
+  "input_files": {
+    "myeloid_h5ad": "data/raw_v3/wave67_gse282122_myeloid/myeloid_final.h5ad",
+    "paired_manifest": "data/raw_v3/wave67_gse282122_myeloid/paired_sample_list.csv"
+  },
+  "interpretation": "Wave67 is a cell-resolved paired pseudobulk perturbation audit. It can reopen a direction only if target modules move beyond generic anti-TNF inflammatory contraction.",
+  "myeloid_md5": "bdfe50345a11abdb1a72b2439bf9950e",
+  "n_cells_stratified": 34703,
+  "n_delta_rows": 4059,
+  "n_pseudobulk_strata": 754,
+  "paired_manifest_md5": "3300a53889bb4b70c48ec66dbb66beea",
+  "seed": 20260527,
+  "top_gates": [
+    {
+      "all_pair_fdr": 0.9398859343986393,
+      "all_pair_mean_delta": 0.0815013987788271,
+      "cd_mean_delta": -0.04934740358191407,
+      "cell_state": "Mono_macro",
+      "failed_gates": "no_all_pair_fdr10_pharmacodynamic_delta;target_to_generic_delta_ratio_lt_2;no_remission_interaction_after_generic_adjustment;cd_uc_effect_direction_not_stable",
+      "generic_adjusted_remission_response_fdr": 1.0,
+      "max_generic_all_pair_delta_abs": 0.18151966162005592,
+      "module": "complement_phagocytosis",
+      "n_pairs": 43,
+      "n_patients": 29,
+      "raw_remission_response_fdr": 0.9552362999865466,
+      "target_to_generic_delta_ratio": 0.44899488050732517,
+      "uc_mean_delta": 0.19528296604903686,
+      "wave67_call": "NO_GO_GSE282122_MYELOID"
+    },
+    {
+      "all_pair_fdr": 1.0,
+      "all_pair_mean_delta": 0.008595823281367659,
+      "cd_mean_delta": -0.057672983484225476,
+      "cell_state": "DC",
+      "failed_gates": "no_all_pair_fdr10_pharmacodynamic_delta;target_to_generic_delta_ratio_lt_2;no_remission_interaction_after_generic_adjustment;cd_uc_effect_direction_not_stable",
+      "generic_adjusted_remission_response_fdr": 0.976089872331677,
+      "max_generic_all_pair_delta_abs": 0.08542877461929271,
+      "module": "lipid_loader_repair",
+      "n_pairs": 43,
+      "n_patients": 29,
+      "raw_remission_response_fdr": 0.9552362999865466,
+      "target_to_generic_delta_ratio": 0.10061976564306742,
+      "uc_mean_delta": 0.07802028751198906,
+      "wave67_call": "NO_GO_GSE282122_MYELOID"
+    },
+    {
+      "all_pair_fdr": 1.0,
+      "all_pair_mean_delta": -0.0074658437338653814,
+      "cd_mean_delta": -0.10685655321413554,
+      "cell_state": "Mono_macro",
+      "failed_gates": "no_all_pair_fdr10_pharmacodynamic_delta;target_to_generic_delta_ratio_lt_2;no_remission_interaction_after_generic_adjustment;cd_uc_effect_direction_not_stable",
+      "generic_adjusted_remission_response_fdr": 1.0,
+      "max_generic_all_pair_delta_abs": 0.18151966162005592,
+      "module": "lipid_loader_repair",
+      "n_pairs": 43,
+      "n_patients": 29,
+      "raw_remission_response_fdr": 1.0,
+      "target_to_generic_delta_ratio": 0.041129669740638655,
+      "uc_mean_delta": 0.07896086016202174,
+      "wave67_call": "NO_GO_GSE282122_MYELOID"
+    },
+    {
+      "all_pair_fdr": 0.7083943510839881,
+      "all_pair_mean_delta": 0.14403387181905425,
+      "cd_mean_delta": 0.13883046547281486,
+      "cell_state": "DC",
+      "failed_gates": "no_all_pair_fdr10_pharmacodynamic_delta;target_to_generic_delta_ratio_lt_2;no_remission_interaction_after_generic_adjustment",
+      "generic_adjusted_remission_response_fdr": 1.0,
+      "max_generic_all_pair_delta_abs": 0.08542877461929271,
+      "module": "lysosomal_apc",
+      "n_pairs": 43,
+      "n_patients": 29,
+      "raw_remission_response_fdr": 0.9997956156267656,
+      "target_to_generic_delta_ratio": 1.6860112118069235,
+      "uc_mean_delta": 0.1494850594198765,
+      "wave67_call": "PARK_CELL_RESOLVED_PD_SIGNAL_ONLY"
+    },
+    {
+      "all_pair_fdr": 0.8356507450300495,
+      "all_pair_mean_delta": 0.12231403825554425,
+      "cd_mean_delta": 0.056294971792499725,
+      "cell_state": "Mono_macro",
+      "failed_gates": "no_all_pair_fdr10_pharmacodynamic_delta;target_to_generic_delta_ratio_lt_2;no_remission_interaction_after_generic_adjustment",
+      "generic_adjusted_remission_response_fdr": 1.0,
+      "max_generic_all_pair_delta_abs": 0.18151966162005592,
+      "module": "lysosomal_apc",
+      "n_pairs": 43,
+      "n_patients": 29,
+      "raw_remission_response_fdr": 0.9552362999865466,
+      "target_to_generic_delta_ratio": 0.6738335514946217,
+      "uc_mean_delta": 0.1797219221364525,
+      "wave67_call": "PARK_CELL_RESOLVED_PD_SIGNAL_ONLY"
+    },
+    {
+      "all_pair_fdr": 1.0,
+      "all_pair_mean_delta": 0.058687372974382715,
+      "cd_mean_delta": 0.03514307245588121,
+      "cell_state": "DC",
+      "failed_gates": "no_all_pair_fdr10_pharmacodynamic_delta;target_to_generic_delta_ratio_lt_2;no_remission_interaction_after_generic_adjustment",
+      "generic_adjusted_remission_response_fdr": 1.0,
+      "max_generic_all_pair_delta_abs": 0.08542877461929271,
+      "module": "complement_phagocytosis",
+      "n_pairs": 43,
+      "n_patients": 29,
+      "raw_remission_response_fdr": 1.0,
+      "target_to_generic_delta_ratio": 0.6869743038679746,
+      "uc_mean_delta": 0.08335283066043188,
+      "wave67_call": "PARK_CELL_RESOLVED_PD_SIGNAL_ONLY"
+    }
+  ]
+}

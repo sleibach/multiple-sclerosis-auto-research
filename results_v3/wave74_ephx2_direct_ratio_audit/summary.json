@@ -1,0 +1,21 @@
+{
+  "decision": {
+    "candidate": "EPHX2_soluble_epoxide_hydrolase",
+    "decision_reason": "raw studies contain EPHX2-relevant epoxide or diol features, but no same-study same-site epoxide/diol pair for direct sEH activity ratio",
+    "direct_epoxide_diol_pairs": 0,
+    "direct_ratio_supportive_tests": 0,
+    "direct_ratio_tests": 0,
+    "ephx2_relevant_features": 37,
+    "proxy_diol_supportive_disease_count": 2,
+    "proxy_diol_supportive_diseases": "T1D;UC",
+    "wave74_call": "NO_GO_EPHX2_DIRECT_RATIO_UNAVAILABLE"
+  },
+  "direct_epoxide_diol_pairs": 0,
+  "direct_ratio_tests": 0,
+  "ephx2_relevant_features": 37,
+  "inputs": {
+    "wave66_feature_contrasts": "results_v3/wave66_metabolomics_class_convergence/feature_contrast_effects.tsv",
+    "wave66_raw": "data/raw_v3/wave66_metabolomics_workbench"
+  },
+  "random_seed": 20260527
+}

@@ -1,0 +1,19 @@
+{
+  "seed": 20260526,
+  "verdict": "PARK_AS_PERTURBATION_DERIVED_INTERVENTION_HYPOTHESIS",
+  "med16_target_module_effect": -3.139501453617054,
+  "med16_generic_ifn_effect": -0.797854931783739,
+  "med16_selectivity_score": 2.3051173986620066,
+  "max_cdk8_or_cdk19_positive_disease_count": 1,
+  "n_clinicaltrials_returned_across_terms": 2,
+  "go_reasons": [
+    "Med16_KO has a strong selective antigen-presentation suppression profile in GSE162464.",
+    "Public CDK8/CDK19/Mediator-kinase chemical matter exists in ChEMBL."
+  ],
+  "no_go_reasons": [
+    "CDK8/CDK19 local expression recurrence is weak and does not define the cross-disease state.",
+    "No direct local CDK8/CDK19 inhibitor perturbation dataset was found that proves Med16_KO phenocopy in autoimmune APCs.",
+    "Mediator kinase inhibition is expected to affect broad transcriptional/inflammatory programs; selectivity over generic IFN remains unproven."
+  ],
+  "interpretation": "Mediator kinase is more plausible than CTSH as a perturbation-derived controller, but current data support a parked hypothesis, not V3 promotion."
+}

@@ -1,0 +1,128 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-0162",
+                "value": "Membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-9904",
+                "value": "Single-pass membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000071208"
+      },
+      "features": [
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 52
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 32
+            }
+          },
+          "type": "Transmembrane"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "SMCO4"
+          },
+          "synonyms": [
+            {
+              "value": "C11orf75"
+            },
+            {
+              "value": "FN5"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Domain",
+          "id": "KW-0175",
+          "name": "Coiled coil"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        }
+      ],
+      "primaryAccession": "Q9NRQ5",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Protein FN5"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Single-pass membrane and coiled-coil domain-containing protein 4"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "00D250C357495E73",
+        "length": 59,
+        "md5": "A06EEE09FCEB1721D4EF991DC3DC4FC6",
+        "molWeight": 6738,
+        "value": "MRQLKGKPKKETSKDKKERKQAMQEARQQITTVVLPTLAVVVLLIVVFVYVATRPTITE"
+      },
+      "uniProtkbId": "SMCO4_HUMAN"
+    }
+  ]
+}

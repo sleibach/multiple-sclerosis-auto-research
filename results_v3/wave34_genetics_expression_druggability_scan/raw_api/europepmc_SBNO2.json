@@ -1,0 +1,62 @@
+{
+  "payload": {
+    "hitCount": 200,
+    "nextCursorMark": "AoIIQKTLdyg1NDc1NDI0NQ==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=SBNO2 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQKTLdyg1NDc1NDI0NQ==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "SBNO2 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Zhang T, Lin Q, Xu WY, He Q, Gong C, Wang L, Wang Z, Zhong J.",
+          "citedByCount": 0,
+          "doi": "10.1038/s41598-025-29123-x",
+          "firstIndexDate": "2026-01-23",
+          "firstPublicationDate": "2026-01-22",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12827257"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "41571701",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "1",
+          "journalIssn": "2045-2322",
+          "journalTitle": "Sci Rep",
+          "journalVolume": "16",
+          "pageInfo": "2848",
+          "pmcid": "PMC12827257",
+          "pmid": "41571701",
+          "pubType": "research-article; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Mucosal DNA methylation reveals immune-related methylation profile and correlates with crohn's disease status.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "omim",
+              "go"
+            ]
+          }
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=SBNO2+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

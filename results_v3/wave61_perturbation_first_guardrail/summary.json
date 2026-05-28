@@ -1,0 +1,49 @@
+{
+  "inputs": {
+    "broad_h5ad": "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv",
+    "broad_residual": "results_v3/broad_residual_gate/broad_residual_gate_summary.tsv",
+    "wave15_direct": "results_v3/wave15_perturbation_drug_response/ranked_direct_perturbations.tsv",
+    "wave15_synthesis": "results_v3/wave15_perturbation_drug_response/candidate_level_synthesis.tsv",
+    "wave24_l1000": "results_v3/wave24_l1000_recurrent_reversal/recurrent_l1000_compound_triage.tsv",
+    "wave24_mechanisms": "results_v3/wave24_l1000_recurrent_reversal/recurrent_l1000_mechanism_summary.tsv",
+    "wave27_unknown": "results_v3/wave27_l1000_unknown_deconvolution/unknown_l1000_deconvolution.tsv",
+    "wave34": "results_v3/wave34_genetics_expression_druggability_scan/wave34_genetics_expression_druggability_rank.tsv",
+    "wave35_contrasts": "results_v3/wave35_resolution_perturbation/contrast_level_calls.tsv",
+    "wave37_efferocytosis": "results_v3/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv",
+    "wave53_decision": "results_v3/wave53_perturbation_first_pivot/decision_matrix.tsv",
+    "wave55": "results_v3/wave55_external_genetics_druggability_sweep/external_genetics_rank.tsv",
+    "wave57_calls": "results_v3/wave57_intervention_first_geneformer_screen/wave57_intervention_first_candidate_calls.tsv"
+  },
+  "interpretation": "Intervention-level triage only. No candidate is promoted without real perturbation, guardrails, translational feasibility, and prior-art clearance.",
+  "n_direct_perturbation_rows": 186,
+  "n_evidence_rows": 395,
+  "n_l1000_rows": 180,
+  "n_resolution_rows": 29,
+  "promotion_candidates": [],
+  "reopened_candidates": [],
+  "seed": 20260527,
+  "top_direct_candidates": [
+    "Med16_KO",
+    "Gsk3b_KO",
+    "TNFRSF1A",
+    "RFX5",
+    "ruxolitinib",
+    "ruxolitinib",
+    "ruxolitinib",
+    "ruxolitinib",
+    "STAT2",
+    "IFNAR2"
+  ],
+  "top_efferocytosis_reopeners": [
+    "FAM49B",
+    "EFR3A",
+    "DAB2",
+    "NFKBIZ",
+    "EVI5",
+    "BLK",
+    "MYNN",
+    "TSC1",
+    "CLEC7A",
+    "NDUFV3"
+  ]
+}

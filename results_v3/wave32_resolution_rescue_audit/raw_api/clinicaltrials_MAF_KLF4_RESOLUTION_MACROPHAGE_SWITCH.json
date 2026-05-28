@@ -1,0 +1,1359 @@
+{
+  "payload": {
+    "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxrYPWj1Pg",
+    "studies": [
+      {
+        "derivedSection": {
+          "conditionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D044882",
+                "term": "Glucose Metabolism Disorders"
+              },
+              {
+                "id": "D008659",
+                "term": "Metabolic Diseases"
+              },
+              {
+                "id": "D009750",
+                "term": "Nutritional and Metabolic Diseases"
+              },
+              {
+                "id": "D004700",
+                "term": "Endocrine System Diseases"
+              },
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D003920",
+                "term": "Diabetes Mellitus"
+              },
+              {
+                "id": "D003922",
+                "term": "Diabetes Mellitus, Type 1"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D049528",
+                "term": "Insulin, Long-Acting"
+              },
+              {
+                "id": "D061385",
+                "term": "Insulins"
+              },
+              {
+                "id": "D010187",
+                "term": "Pancreatic Hormones"
+              },
+              {
+                "id": "D036361",
+                "term": "Peptide Hormones"
+              },
+              {
+                "id": "D006728",
+                "term": "Hormones"
+              },
+              {
+                "id": "D006730",
+                "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+              },
+              {
+                "id": "D010455",
+                "term": "Peptides"
+              },
+              {
+                "id": "D000602",
+                "term": "Amino Acids, Peptides, and Proteins"
+              },
+              {
+                "id": "D061266",
+                "term": "Insulin, Short-Acting"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D000069057",
+                "term": "Insulin Detemir"
+              },
+              {
+                "id": "D061267",
+                "term": "Insulin Aspart"
+              }
+            ]
+          },
+          "miscInfoModule": {
+            "versionHolder": "2026-05-26"
+          }
+        },
+        "hasResults": false,
+        "protocolSection": {
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "interventionNames": [
+                  "Drug: inhaled human insulin",
+                  "Drug: insulin detemir"
+                ],
+                "label": "A",
+                "type": "EXPERIMENTAL"
+              },
+              {
+                "interventionNames": [
+                  "Drug: insulin detemir",
+                  "Drug: insulin aspart"
+                ],
+                "label": "B",
+                "type": "ACTIVE_COMPARATOR"
+              }
+            ],
+            "interventions": [
+              {
+                "armGroupLabels": [
+                  "A"
+                ],
+                "description": "Treat-to-target dose titration scheme, inhalation.",
+                "name": "inhaled human insulin",
+                "type": "DRUG"
+              },
+              {
+                "armGroupLabels": [
+                  "A",
+                  "B"
+                ],
+                "description": "Injection s.c., 50% of daily dose",
+                "name": "insulin detemir",
+                "otherNames": [
+                  "Levemir, NN304"
+                ],
+                "type": "DRUG"
+              },
+              {
+                "armGroupLabels": [
+                  "B"
+                ],
+                "description": "Treat-to-target dose titration scheme, injection s.c.",
+                "name": "insulin aspart",
+                "type": "DRUG"
+              }
+            ]
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Diabetes",
+              "Diabetes Mellitus, Type 1"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "city": "Birmingham",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 33.52066,
+                  "lon": -86.80249
+                },
+                "state": "Alabama",
+                "zip": "35294"
+              },
+              {
+                "city": "Tuscaloosa",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 33.20984,
+                  "lon": -87.56917
+                },
+                "state": "Alabama",
+                "zip": "35406"
+              },
+              {
+                "city": "Concord",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 37.97798,
+                  "lon": -122.03107
+                },
+                "state": "California",
+                "zip": "94520"
+              },
+              {
+                "city": "Encino",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 34.15917,
+                  "lon": -118.50119
+                },
+                "state": "California",
+                "zip": "91436"
+              },
+              {
+                "city": "Escondido",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 33.11921,
+                  "lon": -117.08642
+                },
+                "state": "California",
+                "zip": "92025"
+              },
+              {
+                "city": "Fresno",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 36.74773,
+                  "lon": -119.77237
+                },
+                "state": "California",
+                "zip": "93720"
+              },
+              {
+                "city": "Inglewood",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 33.96168,
+                  "lon": -118.35313
+                },
+                "state": "California",
+                "zip": "90301"
+              },
+              {
+                "city": "La Jolla",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 32.84727,
+                  "lon": -117.2742
+                },
+                "state": "California",
+                "zip": "92037"
+              },
+              {
+                "city": "Mission Viejo",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 33.60002,
+                  "lon": -117.672
+                },
+                "state": "California",
+                "zip": "92691"
+              },
+              {
+                "city": "Poway",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 32.96282,
+                  "lon": -117.03586
+                },
+                "state": "California",
+                "zip": "92064"
+              },
+              {
+                "city": "San Mateo",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 37.56299,
+                  "lon": -122.32553
+                },
+                "state": "California",
+                "zip": "94401"
+              },
+              {
+                "city": "Santa Barbara",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 34.42083,
+                  "lon": -119.69819
+                },
+                "state": "California",
+                "zip": "93105"
+              },
+              {
+                "city": "Tustin",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 33.74585,
+                  "lon": -117.82617
+                },
+                "state": "California",
+                "zip": "92780"
+              },
+              {
+                "city": "Vista",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 33.20004,
+                  "lon": -117.24254
+                },
+                "state": "California",
+                "zip": "92084"
+              },
+              {
+                "city": "Walnut Creek",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 37.90631,
+                  "lon": -122.06496
+                },
+                "state": "California",
+                "zip": "94598"
+              },
+              {
+                "city": "Aurora",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 39.72943,
+                  "lon": -104.83192
+                },
+                "state": "Colorado",
+                "zip": "80045"
+              },
+              {
+                "city": "Colorado Springs",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 38.83388,
+                  "lon": -104.82136
+                },
+                "state": "Colorado",
+                "zip": "80909"
+              },
+              {
+                "city": "New Britain",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 41.66121,
+                  "lon": -72.77954
+                },
+                "state": "Connecticut",
+                "zip": "06050"
+              },
+              {
+                "city": "Norwalk",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 41.1176,
+                  "lon": -73.4079
+                },
+                "state": "Connecticut",
+                "zip": "06851"
+              },
+              {
+                "city": "Waterbury",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 41.55815,
+                  "lon": -73.0515
+                },
+                "state": "Connecticut",
+                "zip": "06708"
+              },
+              {
+                "city": "Boca Raton",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 26.35869,
+                  "lon": -80.0831
+                },
+                "state": "Florida",
+                "zip": "33433"
+              },
+              {
+                "city": "Hollywood",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 26.0112,
+                  "lon": -80.14949
+                },
+                "state": "Florida",
+                "zip": "33021"
+              },
+              {
+                "city": "Lake Mary",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 28.75888,
+                  "lon": -81.31784
+                },
+                "state": "Florida",
+                "zip": "32746"
+              },
+              {
+                "city": "Melbourne",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 28.08363,
+                  "lon": -80.60811
+                },
+                "state": "Florida",
+                "zip": "32901"
+              },
+              {
+                "city": "Merritt Island",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 28.359,
+                  "lon": -80.69
+                },
+                "state": "Florida",
+                "zip": "32953"
+              },
+              {
+                "city": "Miami",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 25.77427,
+                  "lon": -80.19366
+                },
+                "state": "Florida",
+                "zip": "33136"
+              },
+              {
+                "city": "West Palm Beach",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 26.71534,
+                  "lon": -80.05337
+                },
+                "state": "Florida",
+                "zip": "33401"
+              },
+              {
+                "city": "Athens",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 33.96095,
+                  "lon": -83.37794
+                },
+                "state": "Georgia",
+                "zip": "30606"
+              },
+              {
+                "city": "Atlanta",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 33.749,
+                  "lon": -84.38798
+                },
+                "state": "Georgia",
+                "zip": "30318"
+              },
+              {
+                "city": "Savannah",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 32.08354,
+                  "lon": -81.09983
+                },
+                "state": "Georgia",
+                "zip": "31406"
+              },
+              {
+                "city": "Honolulu",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 21.30694,
+                  "lon": -157.85833
+                },
+                "state": "Hawaii",
+                "zip": "96813"
+              },
+              {
+                "city": "Honolulu",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 21.30694,
+                  "lon": -157.85833
+                },
+                "state": "Hawaii",
+                "zip": "96814"
+              },
+              {
+                "city": "Idaho Falls",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 43.46658,
+                  "lon": -112.03414
+                },
+                "state": "Idaho",
+                "zip": "83404-7596"
+              },
+              {
+                "city": "Chicago",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 41.85003,
+                  "lon": -87.65005
+                },
+                "state": "Illinois",
+                "zip": "60607"
+              },
+              {
+                "city": "Peoria",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 40.69365,
+                  "lon": -89.58899
+                },
+                "state": "Illinois",
+                "zip": "61615"
+              },
+              {
+                "city": "Springfield",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 39.80172,
+                  "lon": -89.64371
+                },
+                "state": "Illinois",
+                "zip": "62711"
+              },
+              {
+                "city": "Lafayette",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 40.4167,
+                  "lon": -86.87529
+                },
+                "state": "Indiana",
+                "zip": "47904"
+              },
+              {
+                "city": "New Albany",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 38.28562,
+                  "lon": -85.82413
+                },
+                "state": "Indiana",
+                "zip": "47150"
+              },
+              {
+                "city": "Des Moines",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 41.60054,
+                  "lon": -93.60911
+                },
+                "state": "Iowa",
+                "zip": "50314"
+              },
+              {
+                "city": "Shawnee Mission",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 39.02,
+                  "lon": -94.66583
+                },
+                "state": "Kansas",
+                "zip": "66204"
+              },
+              {
+                "city": "Topeka",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 39.04833,
+                  "lon": -95.67804
+                },
+                "state": "Kansas",
+                "zip": "66606"
+              },
+              {
+                "city": "Lexington",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 37.98869,
+                  "lon": -84.47772
+                },
+                "state": "Kentucky",
+                "zip": "40503"
+              },
+              {
+                "city": "Baton Rouge",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 30.44332,
+                  "lon": -91.18747
+                },
+                "state": "Louisiana",
+                "zip": "70808"
+              },
+              {
+                "city": "Scarborough",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 43.57814,
+                  "lon": -70.32172
+                },
+                "state": "Maine",
+                "zip": "04074"
+              },
+              {
+                "city": "Hyattsville",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 38.95594,
+                  "lon": -76.94553
+                },
+                "state": "Maryland",
+                "zip": "20782"
+              },
+              {
+                "city": "Springfield",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 42.10148,
+                  "lon": -72.58981
+                },
+                "state": "Massachusetts",
+                "zip": "01199"
+              },
+              {
+                "city": "Waltham",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 42.37649,
+                  "lon": -71.23561
+                },
+                "state": "Massachusetts",
+                "zip": "02453"
+              },
+              {
+                "city": "Bloomington",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 44.8408,
+                  "lon": -93.29828
+                },
+                "state": "Minnesota",
+                "zip": "55420"
+              },
+              {
+                "city": "Duluth",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 46.78327,
+                  "lon": -92.10658
+                },
+                "state": "Minnesota",
+                "zip": "55805"
+              },
+              {
+                "city": "Minneapolis",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 44.97997,
+                  "lon": -93.26384
+                },
+                "state": "Minnesota",
+                "zip": "55416-2699"
+              },
+              {
+                "city": "Tupelo",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 34.25807,
+                  "lon": -88.70464
+                },
+                "state": "Mississippi",
+                "zip": "38801"
+              },
+              {
+                "city": "Jefferson City",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 38.5767,
+                  "lon": -92.17352
+                },
+                "state": "Missouri",
+                "zip": "65109"
+              },
+              {
+                "city": "Kansas City",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 39.09973,
+                  "lon": -94.57857
+                },
+                "state": "Missouri",
+                "zip": "64114"
+              },
+              {
+                "city": "St Louis",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 38.62727,
+                  "lon": -90.19789
+                },
+                "state": "Missouri",
+                "zip": "63141"
+              },
+              {
+                "city": "Butte",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 46.00382,
+                  "lon": -112.53474
+                },
+                "state": "Montana",
+                "zip": "59701"
+              },
+              {
+                "city": "Omaha",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 41.25626,
+                  "lon": -95.94043
+                },
+                "state": "Nebraska",
+                "zip": "68114"
+              },
+              {
+                "city": "Dover",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 43.19786,
+                  "lon": -70.87367
+                },
+                "state": "New Hampshire",
+                "zip": "03820"
+              },
+              {
+                "city": "Hampton",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 42.93759,
+                  "lon": -70.83894
+                },
+                "state": "New Hampshire",
+                "zip": "03842"
+              },
+              {
+                "city": "Lawrenceville",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 40.29733,
+                  "lon": -74.7296
+                },
+                "state": "New Jersey",
+                "zip": "08648"
+              },
+              {
+                "city": "Albany",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 42.65258,
+                  "lon": -73.75623
+                },
+                "state": "New York",
+                "zip": "12206"
+              },
+              {
+                "city": "New Hyde Park",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 40.7351,
+                  "lon": -73.68791
+                },
+                "state": "New York",
+                "zip": "11042"
+              },
+              {
+                "city": "Rochester",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 43.15478,
+                  "lon": -77.61556
+                },
+                "state": "New York",
+                "zip": "14642"
+              },
+              {
+                "city": "Asheville",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 35.60095,
+                  "lon": -82.55402
+                },
+                "state": "North Carolina",
+                "zip": "28803"
+              },
+              {
+                "city": "Greenville",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 35.61266,
+                  "lon": -77.36635
+                },
+                "state": "North Carolina",
+                "zip": "27834"
+              },
+              {
+                "city": "Cincinnati",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 39.12711,
+                  "lon": -84.51439
+                },
+                "state": "Ohio",
+                "zip": "45267"
+              },
+              {
+                "city": "Cleveland",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 41.4995,
+                  "lon": -81.69541
+                },
+                "state": "Ohio",
+                "zip": "44122"
+              },
+              {
+                "city": "Dayton",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 39.75895,
+                  "lon": -84.19161
+                },
+                "state": "Ohio",
+                "zip": "45406"
+              },
+              {
+                "city": "Kettering",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 39.6895,
+                  "lon": -84.16883
+                },
+                "state": "Ohio",
+                "zip": "45429"
+              },
+              {
+                "city": "Mentor",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 41.66616,
+                  "lon": -81.33955
+                },
+                "state": "Ohio",
+                "zip": "44060"
+              },
+              {
+                "city": "Medford",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 42.32652,
+                  "lon": -122.87559
+                },
+                "state": "Oregon",
+                "zip": "97504"
+              },
+              {
+                "city": "Hershey",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 40.28592,
+                  "lon": -76.65025
+                },
+                "state": "Pennsylvania",
+                "zip": "17033"
+              },
+              {
+                "city": "Norristown",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 40.1215,
+                  "lon": -75.3399
+                },
+                "state": "Pennsylvania",
+                "zip": "19401"
+              },
+              {
+                "city": "Philadelphia",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 39.95238,
+                  "lon": -75.16362
+                },
+                "state": "Pennsylvania",
+                "zip": "19107"
+              },
+              {
+                "city": "Chattanooga",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 35.04563,
+                  "lon": -85.30968
+                },
+                "state": "Tennessee",
+                "zip": "37404"
+              },
+              {
+                "city": "Chattanooga",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 35.04563,
+                  "lon": -85.30968
+                },
+                "state": "Tennessee",
+                "zip": "37411"
+              },
+              {
+                "city": "Dallas",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 32.78306,
+                  "lon": -96.80667
+                },
+                "state": "Texas",
+                "zip": "75230"
+              },
+              {
+                "city": "Dallas",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 32.78306,
+                  "lon": -96.80667
+                },
+                "state": "Texas",
+                "zip": "75231"
+              },
+              {
+                "city": "Dallas",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 32.78306,
+                  "lon": -96.80667
+                },
+                "state": "Texas",
+                "zip": "75246"
+              },
+              {
+                "city": "Dallas",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 32.78306,
+                  "lon": -96.80667
+                },
+                "state": "Texas",
+                "zip": "75390-8858"
+              },
+              {
+                "city": "Midland",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 31.99735,
+                  "lon": -102.07791
+                },
+                "state": "Texas",
+                "zip": "79707"
+              },
+              {
+                "city": "San Antonio",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 29.42412,
+                  "lon": -98.49363
+                },
+                "state": "Texas",
+                "zip": "78229"
+              },
+              {
+                "city": "Ogden",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 41.223,
+                  "lon": -111.97383
+                },
+                "state": "Utah",
+                "zip": "84403"
+              },
+              {
+                "city": "Olympia",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 47.04491,
+                  "lon": -122.90169
+                },
+                "state": "Washington",
+                "zip": "98502"
+              },
+              {
+                "city": "Renton",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 47.48288,
+                  "lon": -122.21707
+                },
+                "state": "Washington",
+                "zip": "98057"
+              },
+              {
+                "city": "Spokane",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 47.65966,
+                  "lon": -117.42908
+                },
+                "state": "Washington",
+                "zip": "99208"
+              },
+              {
+                "city": "Milwaukee",
+                "country": "United States",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 43.0389,
+                  "lon": -87.90647
+                },
+                "state": "Wisconsin",
+                "zip": "53209"
+              },
+              {
+                "city": "Victoria",
+                "country": "Canada",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 48.4359,
+                  "lon": -123.35155
+                },
+                "state": "British Columbia",
+                "zip": "V8R 1J8"
+              },
+              {
+                "city": "Winnipeg",
+                "country": "Canada",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 49.8844,
+                  "lon": -97.14704
+                },
+                "state": "Manitoba",
+                "zip": "R3E 3P4"
+              },
+              {
+                "city": "Laval",
+                "country": "Canada",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 45.56995,
+                  "lon": -73.692
+                },
+                "state": "Quebec",
+                "zip": "H7T 2P5"
+              },
+              {
+                "city": "Montreal",
+                "country": "Canada",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 45.50884,
+                  "lon": -73.58781
+                },
+                "state": "Quebec",
+                "zip": "H2W 1T8"
+              },
+              {
+                "city": "Gatineau",
+                "country": "Canada",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 45.47723,
+                  "lon": -75.70164
+                },
+                "zip": "J8T 8M1"
+              },
+              {
+                "city": "Mississauga",
+                "country": "Canada",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 43.5789,
+                  "lon": -79.6583
+                },
+                "zip": "L5M 2V8"
+              },
+              {
+                "city": "Penticton",
+                "country": "Canada",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 49.48062,
+                  "lon": -119.58584
+                },
+                "zip": "V2A 5C8"
+              },
+              {
+                "city": "Red Deer",
+                "country": "Canada",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 52.26682,
+                  "lon": -113.802
+                },
+                "zip": "T4N 6V7"
+              },
+              {
+                "city": "St. John's",
+                "country": "Canada",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 47.56494,
+                  "lon": -52.70931
+                },
+                "zip": "A1B 3V6"
+              },
+              {
+                "city": "Vancouver",
+                "country": "Canada",
+                "facility": "Novo Nordisk Investigational Site",
+                "geoPoint": {
+                  "lat": 49.24966,
+                  "lon": -123.11934
+                },
+                "zip": "V5Z 1C6"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "affiliation": "Novo Nordisk A/S",
+                "name": "Global Clinical Registry (GCR, 1452)",
+                "role": "STUDY_DIRECTOR"
+              }
+            ]
+          },
+          "descriptionModule": {
+            "briefSummary": "This trial is conducted in the United States of America (USA) and Canada. The aim of this research is to compare the efficacy (reduction in HbA1c and blood glucose) and pulmonary safety (pulmonary function, chest x-rays) of mealtime inhaled insulin with subcutaneous insulin aspart both in combination with insulin determir in Type 1 Diabetes.",
+            "detailedDescription": "The decision to discontinue the development of AERx\u00ae is not due to any safety concerns. An analysis concluded that fast-acting inhaled insulin in the form it is known today, is unlikely to offer significant clinical or convenience benefits over injections of modern insulin with pen devices."
+          },
+          "designModule": {
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "maskingInfo": {
+                "masking": "NONE"
+              },
+              "primaryPurpose": "TREATMENT"
+            },
+            "enrollmentInfo": {
+              "count": 596,
+              "type": "ACTUAL"
+            },
+            "phases": [
+              "PHASE3"
+            ],
+            "studyType": "INTERVENTIONAL"
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Type 1 diabetes\n* HbA1c less than or equal to 11%\n* Body mass index (BMI) less than or equal to 40.0 kg/m2\n\nExclusion Criteria:\n\n* Total daily insulin dosage more than 100 IU or U/day.\n* Current smoking or smoking within the last 6 months\n* Impaired hepatic or renal function\n* Cardiac problems\n* Uncontrolled hypertension\n* Current proliferative retinopathy or maculopathy requiring acute treatment",
+            "healthyVolunteers": false,
+            "minimumAge": "18 Years",
+            "sex": "ALL",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "identificationModule": {
+            "briefTitle": "Safety and Efficacy of Inhaled Insulin in Type 1 Diabetes",
+            "nctId": "NCT00322257",
+            "officialTitle": "Inhaled Mealtime Insulin With the AERx\u00ae iDMS Versus Subcutaneous Injected Insulin Aspart Both in Combination With Insulin Detemir in Type 1 Diabetes: A 104 Week, Open-Label, Multicenter, Randomised, Parallel Trial (Followed by a Twelve-Week Re-Randomised Extension) To Investigate Safety and Efficacy",
+            "orgStudyIdInfo": {
+              "id": "NN1998-2076"
+            },
+            "organization": {
+              "class": "INDUSTRY",
+              "fullName": "Novo Nordisk A/S"
+            }
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "measure": "HbA1c",
+                "timeFrame": "After 52 weeks"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "measure": "Body weight",
+                "timeFrame": "after 52 weeks"
+              },
+              {
+                "measure": "Antibodies",
+                "timeFrame": "after 52 weeks"
+              },
+              {
+                "measure": "Hypoglycemia",
+                "timeFrame": "For the duration of the trial"
+              },
+              {
+                "measure": "Insulin doses",
+                "timeFrame": "For the duration of the trial"
+              },
+              {
+                "measure": "Pulmonary Function",
+                "timeFrame": "For the duration of the trial"
+              },
+              {
+                "measure": "Fasting plasma glucose",
+                "timeFrame": "after 52 weeks"
+              }
+            ]
+          },
+          "oversightModule": {
+            "oversightHasDmc": false
+          },
+          "referencesModule": {
+            "seeAlsoLinks": [
+              {
+                "label": "Clinical Trials at Novo Nordisk",
+                "url": "http://novonordisk-trials.com"
+              }
+            ]
+          },
+          "sponsorCollaboratorsModule": {
+            "leadSponsor": {
+              "class": "INDUSTRY",
+              "name": "Novo Nordisk A/S"
+            },
+            "responsibleParty": {
+              "type": "SPONSOR"
+            }
+          },
+          "statusModule": {
+            "completionDateStruct": {
+              "date": "2008-04-02",
+              "type": "ACTUAL"
+            },
+            "dispFirstPostDateStruct": {
+              "date": "2018-09-05",
+              "type": "ACTUAL"
+            },
+            "dispFirstSubmitDate": "2018-09-03",
+            "dispFirstSubmitQcDate": "2018-09-03",
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "lastUpdatePostDateStruct": {
+              "date": "2018-09-05",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2018-09-03",
+            "overallStatus": "TERMINATED",
+            "primaryCompletionDateStruct": {
+              "date": "2008-04-02",
+              "type": "ACTUAL"
+            },
+            "startDateStruct": {
+              "date": "2006-05-01",
+              "type": "ACTUAL"
+            },
+            "statusVerifiedDate": "2018-09",
+            "studyFirstPostDateStruct": {
+              "date": "2006-05-05",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2006-05-03",
+            "studyFirstSubmitQcDate": "2006-05-04",
+            "whyStopped": "See termination reason in detailed description"
+          }
+        }
+      }
+    ],
+    "totalCount": 10
+  },
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.term=MAF+OR+MAFB+OR+KLF4&query.cond=autoimmune+OR+multiple+sclerosis+OR+rheumatoid+arthritis+OR+lupus+OR+Crohn+OR+psoriasis&format=json&pageSize=1&countTotal=true"
+}

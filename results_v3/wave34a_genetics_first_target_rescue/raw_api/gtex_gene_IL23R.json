@@ -1,0 +1,32 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr1",
+        "dataSource": "HAVANA",
+        "description": "interleukin 23 receptor [Source:HGNC Symbol;Acc:HGNC:19100]",
+        "end": 67259979,
+        "entrezGeneId": 149233,
+        "gencodeId": "ENSG00000162594.15",
+        "gencodeVersion": "v26",
+        "geneStatus": "",
+        "geneSymbol": "IL23R",
+        "geneSymbolUpper": "IL23R",
+        "geneType": "protein coding",
+        "genomeBuild": "GRCh38/hg38",
+        "start": 67138907,
+        "strand": "+",
+        "tss": 67138907
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 3,
+      "numberOfPages": 1,
+      "page": 0,
+      "totalNumberOfItems": 1
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/reference/gene?geneId=IL23R&gencodeVersion=v26&genomeBuild=GRCh38%2Fhg38&itemsPerPage=3"
+}

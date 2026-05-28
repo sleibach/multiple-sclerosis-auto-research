@@ -1,0 +1,142 @@
+{
+  "model": "Geneformer V2-104M",
+  "model_repo": "ctheodoris/Geneformer",
+  "revision": "04c2b2e84da7c0f385c3f9ad8f3ec24bab6650e5",
+  "checkpoint": "/Users/soeren.leibach/Projects/ms-auto-research/tmp_v3/foundation_wave6/geneformer_assets/Geneformer-V2-104M",
+  "parameters_loaded_encoder": 104365056,
+  "seed": 20260526,
+  "max_len": 512,
+  "max_disease_cells_per_context": 24,
+  "max_control_cells_per_context": 24,
+  "random_deletion_reps": 3,
+  "batch_size": 12,
+  "contexts": [
+    {
+      "context": "IBD_myeloid",
+      "h5ad": "data/raw_v3/cell_state/ibd_human_10x.h5ad",
+      "compartment": "myeloid cell",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 453.7916666666667
+    },
+    {
+      "context": "IBD_epithelial",
+      "h5ad": "data/raw_v3/cell_state/ibd_human_10x.h5ad",
+      "compartment": "colon epithelial cell",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 459.375
+    },
+    {
+      "context": "psoriasis_macrophage",
+      "h5ad": "data/raw_v3/cell_state/psoriasis_skin.h5ad",
+      "compartment": "macrophage",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 512.0
+    },
+    {
+      "context": "psoriasis_dendritic",
+      "h5ad": "data/raw_v3/cell_state/psoriasis_skin.h5ad",
+      "compartment": "dendritic cell, human",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 507.8333333333333
+    },
+    {
+      "context": "psoriasis_keratinocyte",
+      "h5ad": "data/raw_v3/cell_state/psoriasis_skin.h5ad",
+      "compartment": "keratinocyte_family",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 511.8958333333333
+    },
+    {
+      "context": "sjogren_APC",
+      "h5ad": "data/raw_v3/cell_state/sjogren_salivary.h5ad",
+      "compartment": "salivary_APC",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 445.1875
+    },
+    {
+      "context": "t1d_ductal",
+      "h5ad": "data/raw_v3/cell_state/t1d_hpap_islet.h5ad",
+      "compartment": "pancreatic ductal cell",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 503.2291666666667
+    },
+    {
+      "context": "t1d_acinar",
+      "h5ad": "data/raw_v3/cell_state/t1d_hpap_islet.h5ad",
+      "compartment": "pancreatic acinar cell",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 509.5833333333333
+    },
+    {
+      "context": "ra_classical_monocyte",
+      "h5ad": "data/raw_v3/cell_state/ra_binvignat_blood.h5ad",
+      "compartment": "classical monocyte",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 306.6875
+    },
+    {
+      "context": "ra_nonclassical_monocyte",
+      "h5ad": "data/raw_v3/cell_state/ra_binvignat_blood.h5ad",
+      "compartment": "non-classical monocyte",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 339.2291666666667
+    },
+    {
+      "context": "ra_myeloid_dendritic",
+      "h5ad": "data/raw_v3/cell_state/ra_binvignat_blood.h5ad",
+      "compartment": "myeloid dendritic cell",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 228.16666666666666
+    }
+  ],
+  "candidate_genes": [
+    "CTSH",
+    "CTSS",
+    "CTSB",
+    "CTSL",
+    "CTSD",
+    "IFI30",
+    "HLA-DMA",
+    "HLA-DMB",
+    "LIPA",
+    "LAPTM5",
+    "LAMP3",
+    "LGALS3",
+    "LGALS9",
+    "CD44",
+    "SNX10",
+    "RAB5A",
+    "VPS35",
+    "CD74",
+    "HLA-DRA"
+  ],
+  "metric": "delete candidate token; positive cosine/projection shift means disease-cell embedding moved toward matched control centroid",
+  "limitations": [
+    "custom lightweight Geneformer embedding-deletion screen, not the official InSilicoPerturberStats workflow",
+    "input h5ads are assumed count-like; no independent raw-layer verification was performed",
+    "candidate-expressing disease cells were enriched to test candidate axes, so effect sizes are not population estimates",
+    "embedding shifts are model hypotheses and not expression log2FC or causal perturbation evidence"
+  ]
+}

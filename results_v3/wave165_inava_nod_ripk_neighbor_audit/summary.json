@@ -1,0 +1,17 @@
+{
+  "branch_call": "NO_INAVA_NOD_RIPK_NEIGHBOR_PROMOTION",
+  "genes_tested": [
+    "INAVA",
+    "RIPK2",
+    "NOD2",
+    "NOD1",
+    "ATG16L1",
+    "IRGM",
+    "CARD9"
+  ],
+  "best_gene": "INAVA",
+  "best_neighbor_score": 0.0,
+  "best_gene_blockers": "insufficient_cross_disease_cell_state_recurrence;no_positive_nominal_ms_white_matter_expression_anchor;no_fdr_supported_perturbation_direction;no_direct_reachable_modality;prior_or_local_no_go_blocker",
+  "promoted_candidates": [],
+  "interpretation": "INAVA remains a credible genetic mechanism anchor, but druggable NOD/RIPK/autophagy neighbors do not preserve the required MS/cross-autoimmune genetic, cell-state, perturbation, and unblocked-modality gates."
+}

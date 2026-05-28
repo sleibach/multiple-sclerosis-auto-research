@@ -1,0 +1,133 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ALDLRAD3%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "26854353",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "May influence APP processing, resulting in a decrease in sAPP-alpha production and increased amyloidogenic P3 peptide production. May regulate ITCH and NEDD4 E3 ligase activity and degradation (PubMed:26854353)"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "33208938",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "34646020",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "34646021",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "(Microbial infection) Acts as a receptor for Venezuelan equine encephalitis virus"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "33208938",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "34646020",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "34646021",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "id": "SL-9905",
+                "value": "Single-pass type I membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000003B0FB"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:27046",
+                "source": "HGNC"
+              }
+            ],
+            "value": "LDLRAD3"
+          },
+          "synonyms": [
+            {
+              "value": "LRAD3"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "Q86YD5",
+      "proteinDescription": {
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Low-density lipoprotein receptor class A domain-containing protein 3"
+          },
+          "shortNames": [
+            {
+              "value": "LDLR class A domain-containing protein 3"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

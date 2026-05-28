@@ -1,0 +1,553 @@
+{
+  "page_meta": {
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Frizzled-4",
+      "score": 20.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL4523491",
+      "target_components": [
+        {
+          "accession": "Q9ULV1",
+          "component_description": "Frizzled-4",
+          "component_id": 18995,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "CD_antigen=CD344",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Frizzled-4",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Fz-4",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "FZD4",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "FzE4",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "hFz4",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "Q9ULV1",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005911",
+              "xref_name": "cell-cell junction",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009986",
+              "xref_name": "cell surface",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0030425",
+              "xref_name": "dendrite",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0030669",
+              "xref_name": "clathrin-coated endocytic vesicle membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0045202",
+              "xref_name": "synapse",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0098978",
+              "xref_name": "glutamatergic synapse",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0001540",
+              "xref_name": "amyloid-beta binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004896",
+              "xref_name": "cytokine receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004930",
+              "xref_name": "G protein-coupled receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0017147",
+              "xref_name": "Wnt-protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019955",
+              "xref_name": "cytokine binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0030165",
+              "xref_name": "PDZ domain binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0031625",
+              "xref_name": "ubiquitin protein ligase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0038023",
+              "xref_name": "signaling receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042803",
+              "xref_name": "protein homodimerization activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042813",
+              "xref_name": "Wnt receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046982",
+              "xref_name": "protein heterodimerization activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001525",
+              "xref_name": "angiogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001553",
+              "xref_name": "luteinization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001568",
+              "xref_name": "blood vessel development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001570",
+              "xref_name": "vasculogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001666",
+              "xref_name": "response to hypoxia",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007186",
+              "xref_name": "G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007223",
+              "xref_name": "Wnt signaling pathway, calcium modulating pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007605",
+              "xref_name": "sensory perception of sound",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008283",
+              "xref_name": "cell population proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010812",
+              "xref_name": "negative regulation of cell-substrate adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016055",
+              "xref_name": "Wnt signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0019221",
+              "xref_name": "cytokine-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030182",
+              "xref_name": "neuron differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030335",
+              "xref_name": "positive regulation of cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030947",
+              "xref_name": "regulation of vascular endothelial growth factor receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031987",
+              "xref_name": "locomotion involved in locomotory behavior",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034446",
+              "xref_name": "substrate adhesion-dependent cell spreading",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035567",
+              "xref_name": "non-canonical Wnt signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042701",
+              "xref_name": "progesterone secretion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045446",
+              "xref_name": "endothelial cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045893",
+              "xref_name": "positive regulation of DNA-templated transcription",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050775",
+              "xref_name": "positive regulation of dendrite morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060070",
+              "xref_name": "canonical Wnt signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060856",
+              "xref_name": "establishment of blood-brain barrier",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0061298",
+              "xref_name": "retina vasculature development in camera-type eye",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0061299",
+              "xref_name": "retina vasculature morphogenesis in camera-type eye",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0061301",
+              "xref_name": "cerebellum vasculature morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0061304",
+              "xref_name": "retinal blood vessel morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071300",
+              "xref_name": "cellular response to retinoic acid",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0110135",
+              "xref_name": "Norrin signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0150012",
+              "xref_name": "positive regulation of neuron projection arborization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:4042",
+              "xref_name": "FZD4",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "Q9ULV1",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR000539",
+              "xref_name": "Frizzled/Smoothened_7TM",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015526",
+              "xref_name": "Frizzled/SFRP",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR017981",
+              "xref_name": "GPCR_2-like_7TM",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR020067",
+              "xref_name": "Frizzled_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR026551",
+              "xref_name": "FZD4_7TM",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036790",
+              "xref_name": "Frizzled_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR041765",
+              "xref_name": "FZ4_CRD",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11309",
+              "xref_name": "FRIZZLED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR11309:SF23",
+              "xref_name": "FRIZZLED-4",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "5BPB",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5BPQ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5BQC",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5BQE",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5CL1",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5CM4",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5UWG",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6BD4",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6NE1",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8WM9",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8WMA",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5BPB",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5BPQ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5BQC",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5BQE",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5CL1",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5CM4",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5UWG",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6BD4",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6NE1",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF01392",
+              "xref_name": "Fz",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF01534",
+              "xref_name": "Frizzled",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA28459",
+              "xref_name": "frizzled class receptor 4",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "Q9ULV1",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-373080",
+              "xref_name": "Class B/2 (Secretin family receptors)",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-4086398",
+              "xref_name": "Ca2+ pathway",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-4608870",
+              "xref_name": "Asymmetric localization of PCP proteins",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-4641263",
+              "xref_name": "Regulation of FZD by ubiquitination",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5099900",
+              "xref_name": "WNT5A-dependent internalization of FZD4",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5340588",
+              "xref_name": "Signaling by RNF43 mutants",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-8856825",
+              "xref_name": "Cargo recognition for clathrin-mediated endocytosis",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-8856828",
+              "xref_name": "Clathrin-mediated endocytosis",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "A8K9Q3",
+              "xref_name": "Frizzled-4",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q14C97",
+              "xref_name": "Frizzled-4",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q6S9E4",
+              "xref_name": "Frizzled-4",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9ULV1",
+              "xref_name": "Frizzled-4",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

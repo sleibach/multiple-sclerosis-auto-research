@@ -1,0 +1,199 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11114383",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "12023369",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "16424222",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17676044",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "29287995",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "32474165",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "33606986",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Associates with IL12B to form the pro-inflammatory cytokine IL-23 that plays different roles in innate and adaptive immunity (PubMed:11114383). Released by antigen-presenting cells such as dendritic cells or macrophages, binds to a heterodimeric receptor complex composed of IL12RB1 and IL23R to activate JAK2 and TYK2 which then phosphorylate the receptor to form a docking site leading to the phosphorylation of STAT3 and STAT4 (PubMed:29287995, PubMed:32474165, PubMed:33606986). This process leads to activation of several pathways including p38 MAPK or NF-kappa-B and promotes the production of pro-inflammatory cytokines such as interleukin-17A/IL17A (PubMed:12023369). In turn, participates in the early and effective intracellular bacterial clearance (PubMed:32474165). Promotes the expansion and survival of T-helper 17 cells, a CD4-positive helper T-cell subset that produces IL-17, as well as other IL-17-producing cells (PubMed:17676044)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "value": "Secreted upon association with IL12B"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "11114383",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000034E42"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "IL23A"
+          },
+          "orfNames": [
+            {
+              "value": "UNQ2498/PRO5798"
+            }
+          ],
+          "synonyms": [
+            {
+              "value": "SGRF"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0051",
+          "name": "Antiviral defense"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0202",
+          "name": "Cytokine"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-1015",
+          "name": "Disulfide bond"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0391",
+          "name": "Immunity"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0395",
+          "name": "Inflammatory response"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0399",
+          "name": "Innate immunity"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0964",
+          "name": "Secreted"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0732",
+          "name": "Signal"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0797",
+          "name": "Tissue remodeling"
+        }
+      ],
+      "primaryAccession": "Q9NPF7",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Interleukin-23 subunit p19"
+            },
+            "shortNames": [
+              {
+                "value": "IL-23p19"
+              }
+            ]
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "Interleukin-23 subunit alpha"
+          },
+          "shortNames": [
+            {
+              "value": "IL-23 subunit alpha"
+            },
+            {
+              "value": "IL-23-A"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "51B5C0F188EC1B9F",
+        "length": 189,
+        "md5": "1BB2574987987CDF5B818F8BC99CA293",
+        "molWeight": 20730,
+        "value": "MLGSRAVMLLLLLPWTAQGRAVPGGSSPAWTQCQQLSQKLCTLAWSAHPLVGHMDLREEGDEETTNDVPHIQCGDGCDPQGLRDNSQFCLQRIHQGLIFYEKLLGSDIFTGEPSLLPDSPVGQLHASLLGLSQLLQPEGHHWETQQIPSLSPSQPWQRLLLRFKILRSLQAFVAVAARVFAHGAATLSP"
+      },
+      "uniProtkbId": "IL23A_HUMAN"
+    }
+  ]
+}

@@ -1,0 +1,455 @@
+{
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            },
+            {
+              "id": "D056784",
+              "term": "Leukoencephalopathies"
+            },
+            {
+              "id": "D001927",
+              "term": "Brain Diseases"
+            },
+            {
+              "id": "D002493",
+              "term": "Central Nervous System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D009103",
+              "term": "Multiple Sclerosis"
+            },
+            {
+              "id": "D020529",
+              "term": "Multiple Sclerosis, Relapsing-Remitting"
+            },
+            {
+              "id": "D020278",
+              "term": "Demyelinating Autoimmune Diseases, CNS"
+            },
+            {
+              "id": "D020274",
+              "term": "Autoimmune Diseases of the Nervous System"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D003711",
+              "term": "Demyelinating Diseases"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D058846",
+              "term": "Antibodies, Monoclonal, Murine-Derived"
+            },
+            {
+              "id": "D000911",
+              "term": "Antibodies, Monoclonal"
+            },
+            {
+              "id": "D000906",
+              "term": "Antibodies"
+            },
+            {
+              "id": "D007136",
+              "term": "Immunoglobulins"
+            },
+            {
+              "id": "D007162",
+              "term": "Immunoproteins"
+            },
+            {
+              "id": "D001798",
+              "term": "Blood Proteins"
+            },
+            {
+              "id": "D011506",
+              "term": "Proteins"
+            },
+            {
+              "id": "D000602",
+              "term": "Amino Acids, Peptides, and Proteins"
+            },
+            {
+              "id": "D012712",
+              "term": "Serum Globulins"
+            },
+            {
+              "id": "D005916",
+              "term": "Globulins"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D000069283",
+              "term": "Rituximab"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "The standard group will receive ocrelizumab (600 mg, the first dosage given in two infusion of 300 mg with a two week interval) following the current treatment protocol",
+              "label": "Ocrelizumab",
+              "type": "NO_INTERVENTION"
+            },
+            {
+              "description": "The experimental group will receive rituximab (1000 mg). Rituximab will be given intravenously. To ensure blinding of treatment allocation two dosages of 500 mg with a two week interval will be given instead of one initial dosage of 1000 mg of rituximab to mimic the ocrelizumab protocol",
+              "interventionNames": [
+                "Drug: Rituximab"
+              ],
+              "label": "Rituximab",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Rituximab"
+              ],
+              "description": "Treatment with rituximab",
+              "name": "Rituximab",
+              "otherNames": [
+                "MabThera",
+                "Truxima",
+                "Ruxience",
+                "Rixathon"
+              ],
+              "type": "DRUG"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Multiple Sclerosis",
+            "Multiple Sclerosis, Relapsing-Remitting",
+            "Demyelinating Autoimmune Diseases, CNS",
+            "Autoimmune Diseases of the Nervous System",
+            "Nervous System Diseases",
+            "Demyelinating Diseases"
+          ],
+          "keywords": [
+            "ocrelizumab",
+            "rituximab",
+            "non-inferiority"
+          ]
+        },
+        "contactsLocationsModule": {
+          "centralContacts": [
+            {
+              "email": "l.g.schoof@amsterdamumc.nl",
+              "name": "Lisa Schoof, Msc",
+              "phone": "650087853",
+              "phoneExt": "+31",
+              "role": "CONTACT"
+            },
+            {
+              "email": "e.strijbis@amsterdamumc.nl",
+              "name": "Eva Strijbis, Dr.",
+              "phone": "204442182",
+              "phoneExt": "+31",
+              "role": "CONTACT"
+            }
+          ],
+          "locations": [
+            {
+              "city": "Amsterdam",
+              "contacts": [
+                {
+                  "name": "B. van Oosten, Dr.",
+                  "role": "CONTACT"
+                },
+                {
+                  "name": "E. Strijbis, Dr.",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "Netherlands",
+              "facility": "Amsterdam UMC, location VUmc",
+              "geoPoint": {
+                "lat": 52.37403,
+                "lon": 4.88969
+              },
+              "status": "RECRUITING",
+              "zip": "1081 HV"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Amsterdam UMC, location VUmc",
+              "name": "Bob van Oosten, Dr",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Rationale: Ocrelizumab is widely and effectively used to treat relapsing multiple sclerosis (RMS). Phase II studies and data from large patient cohorts indicate that rituximab, another anti-CD20 monoclonal antibody, is probably equally effective and safe as ocrelizumab in the treatment of RMS. An advantage of rituximab is a considerably lower price. Therefore we will start a study aimed at demonstrating non-inferiority of rituximab compared to ocrelizumab in RMS. If non-inferiority of rituximab can be shown, important reductions in the cost of treatment of RMS will be possible, without loss of efficacy.\n\nObjective: Evaluating the efficacy and safety of ritixumab compared to ocrelizumab in the treatmens of RMS.\n\nStudy design: Randomized double blind multi-centre non-inferiority study of rituximab compared to ocrelizumab in 200 patients with RMS. The trial duration will be 30 months\n\nStudy population: The study population consists of 200 adult RMS patiens with an indication to start anti-CD20 monoclonal antibody treatment.\n\nIntervention: Patients will be randomized 1:1 into the standard group (ocrelizumab treatment) or the experimental group (rituximab treatment).\n\nMain study parameters: To conclude non-inferiority of rituximab there will be one primary endpoint: the proportion of patients free of inflammatory disease activity (defined as: new or enlarged T2 lesions) between week 24 (M6) and week 96 (M24) of treatment in each arm. Secondary trial endpoints are presence and number of clinical relapses,T2 and contrast enhancing lesion volumes, brain volume and brain volume changes, disease progression (defined as clinically relevant change on any of the measures: EDSS, T25FW, 9HPT, SDMT), biochemical parameters such as lipidomics and neurofilament light (NfL), immunological parameters, safety as measured by the number of (serious) adverse events ((S)AE), quality of life (EQ-5D-L) and treatment satisfaction (TSQM) and patient reported measures of MS impact (MSIS-29) and well-being (questionnaire on physical complaints)\n\nNature and extent of the burden and risk: Patients included in this study will be treated and monitored by MRI, clinical tests and laboratory tests according to existing protocols and will not be exposed to extra or unknown risks. They will have extra annual questionnaires and larger blood samples at some time points. There is extensive experience with both rituximab and ocrelizumab as efficacious and safe treatments of RMS."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "interventionModelDescription": "Multicenter randomized controlled double-blind non-inferiority trial in The Netherlands",
+            "maskingInfo": {
+              "masking": "QUADRUPLE",
+              "maskingDescription": "The patient, site personnel administrating infusions, and the treating and evaluating neurologist and study nurse will all be blinded",
+              "whoMasked": [
+                "PARTICIPANT",
+                "CARE_PROVIDER",
+                "INVESTIGATOR",
+                "OUTCOMES_ASSESSOR"
+              ]
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 200,
+            "type": "ESTIMATED"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Men and women aged 18 years and older\n2. A diagnosis of relapsing MS according to the 2017 revised diagnostic criteria\n3. Indication to start treatment with anti-CD20 therapy according to the treating neurologist and the relevant label in the Netherlands for treatment of relapsing MS\n4. Able to understand written and spoken Dutch or English\n5. Capable of giving signed informed consent including compliance with the requirements and restrictions listed in the informed consent form (ICF) and in this protocol.\n6. Screening EDSS score \u2264 6.5 .\n\nExclusion Criteria:\n\nMedical Conditions\n\n1. A known allergy or other intolerability to RTX, OCR, gadolinium-based MRI contrast agents, or corticosteroids.\n2. A diagnosis of primary progressive MS according to the diagnostic criteria.\n3. A diagnosis of not-active secondary progressive MS.\n4. Chronic infectious diseases such as tuberculosis, VZV, hepatitis virus or HIV, as well as hepatitis B surface antigen positivity and/or hepatitis C PCR positivity verified at screening visit.\n5. A history of proven inflammatory bowel disease such as M. Crohn or ulcerative colitis\n6. Prior or current psychiatric illness, mental deficiency or cognitive dysfunction influencing the patient ability to make an informed consent or comply with the treatment and follow-up phases of this protocol.\n7. Cardiac disease that makes treatment with OCR or RTX contra-indicated as stated by the most recent SmPC\n8. Active malignancy or prior history of malignancy that makes treatment with OCR or RTX contra-indicated as stated by the most recent SmPC.\n9. WBC \\< 1.5 x 109/L if not caused by a reversible effect of documented ongoing medication. If caused by a reversible effect of documented ongoing medication the WBC count must be \\> 1,5 x 109/L before start of study treatment.\n10. Platelet (thrombocyte) count \\< 100 x 109/L\n11. ALAT and/or ASAT more than 2 times the upper normal reference limit (ULN)\n12. Serum creatinine \\> 200 \u03bcmol/L\n13. Serum bilirubin \\> ULN\n14. Serum IgG \\< LLN\n15. Pregnant or breast-feeding women\n16. Women of childbearing potential (WOCBP) not able or willing to use highly effective methods of birth control per ICH M3 (R2) that result in failure rate of \u2264 1% per year when used consistently and correctly for the duration of the study OR until 3 months after last dose administered.\n17. History of serious or life-threatening infusion reaction to OCR or RTX\n18. Treatment with glucocorticoids or ACTH within one month prior to start of study treatment\n\n    Prior/Concomitant Therapy\n19. Previous use of second line MS-therapies cladribine, RTX, alemtuzumab, OCR, ofatumumab, hematopoietic stem cell therapy (HSCT) or other immunosuppression therapies with long lasting effects. Mitoxantrone is allowed if used \\> 1 year before enrolment. If any of these medications have been used for indications other than MS, patients can be included if the medications have not been used the year before enrolment. Previous treatment with natalizumab is allowed if the reason to switch was disease activity (so not allowed in for example cases that switch from natalizumab to anti-CD20 therapy because of JCV positivity).\n20. Concomitant use of systemic immunosuppressive medication (except corticosteroids for symptomatic treatment of relapses).\n\n    Prior/Concurrent Clinical Study Experience\n21. Currently enrolled in another investigational device or drug study, or less than 30 days since ending of another investigational device or drug study (s), or receiving other investigational treatment(s). Patients participating in a purely observational studies will be allowed to participate.\n\n    Lifestyle\n22. Current alcohol or drug dependencies.\n\n    Diagnostic assessments\n23. Presence of metallic objects implanted in the body, that would preclude the ability of the patient to safely have MRI exams.\n24. Not willing to undergo MRI scans with i.v. gadolinium injections",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "acronym": "Noisy Rebels",
+          "briefTitle": "Non-inferiority Study of Rituximab Compared to Ocrelizumab in Relapsing MS",
+          "nctId": "NCT05834855",
+          "officialTitle": "Non-inferiority Study of Rituximab Compared to Ocrelizumab in Relapsing Multiple Sclerosis",
+          "orgStudyIdInfo": {
+            "id": "Anti-CD20 in RMS"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Amsterdam UMC, location VUmc"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "infoTypes": [
+            "STUDY_PROTOCOL",
+            "SAP",
+            "ICF",
+            "CSR",
+            "ANALYTIC_CODE"
+          ],
+          "ipdSharing": "YES",
+          "timeFrame": "After medical ethical commitee approved the study protocol"
+        },
+        "outcomesModule": {
+          "otherOutcomes": [
+            {
+              "description": "Proportion of patients with anti-drug-antibodies during 30 months of treatment",
+              "measure": "Anti-drug antibodies",
+              "timeFrame": "30 months"
+            },
+            {
+              "description": "Proportion of patients with immediate and delayed infusion reactions during 30 months of treatment",
+              "measure": "Infusion reactions",
+              "timeFrame": "30 months"
+            },
+            {
+              "description": "Proportion of patients with infections during 30 months of treatment",
+              "measure": "Infections",
+              "timeFrame": "30 months"
+            },
+            {
+              "description": "Proportion of patients with malignancies during 30 months of treatment",
+              "measure": "Malignancies",
+              "timeFrame": "30 months"
+            },
+            {
+              "description": "Proportion of patients with any SAE/SAR and AESI during 30 months of treatment",
+              "measure": "Adverse events",
+              "timeFrame": "30 months"
+            },
+            {
+              "description": "Burden of physical sensations prior to, after, and between infusions as measured with wearing-off questionnaire and question 5 of the RAPID3-HAQ2 questionnaire",
+              "measure": "Burden of physical senstations during treatment",
+              "timeFrame": "Baseline, month 6, month 12, month 18, month 24, month 30"
+            },
+            {
+              "description": "Quality of life as measured by multiple sclerosis impact scale-29 (MSIS-29)",
+              "measure": "Quality of life questionnaires",
+              "timeFrame": "Baseline, month 6, month 12, month 18, month 24, month 30"
+            },
+            {
+              "description": "Quality of life as measured by EuroQol-5 Dimension (EQ-5D)",
+              "measure": "Quality of life questionnaires",
+              "timeFrame": "Baseline, month 6, month 12, month 18, month 24, month 30"
+            },
+            {
+              "description": "Treatment satisfaction as measured with the Treatment Satisfaction Questionnaire Measurement (TSQM)",
+              "measure": "Treatment satisfaction",
+              "timeFrame": "Baseline, month 6, month 12, month 18, month 24, month 30"
+            },
+            {
+              "description": "Absolute numbers of different lymphocyte subsets prior to infusion during 30 months of treatment",
+              "measure": "Lymphocytes",
+              "timeFrame": "30 months"
+            },
+            {
+              "description": "Serum levels of neurofilament during 30 months of treatment",
+              "measure": "Neurofilament",
+              "timeFrame": "30 months"
+            },
+            {
+              "description": "B-cell count (thousand/ml) (normal range: 100-300 thousand/ml)",
+              "measure": "Dynamics of B-cell depletion",
+              "timeFrame": "Baseline, week 2, month 6, month 12, month 18, month 24, month 30"
+            },
+            {
+              "description": "B-cell count (thousand/ml) (normal range: 100-300 thousand/ml)",
+              "measure": "Dynamics of B-cell repopulation",
+              "timeFrame": "Baseline, week 2, month 6, month 12, month 18, month 24, month 30"
+            },
+            {
+              "description": "Dynamics of ocrelizumab drug concentrations (microgram/mL)",
+              "measure": "Dynamics of ocrelizumab drug concentrations",
+              "timeFrame": "Baseline, week 2, month 6, month 12, month 18, month 24, month 30"
+            },
+            {
+              "description": "Serum levels of immunoglobulins",
+              "measure": "Immunoglobulins",
+              "timeFrame": "Baseline, week 2, month 6, month 12, month 18, month 24, month 30"
+            },
+            {
+              "description": "Serum levels of chemokines and cytokines, protectins, resolvins, maresins, and lipoxins during 30 months of treatment",
+              "measure": "Serum levels",
+              "timeFrame": "30 months"
+            }
+          ],
+          "primaryOutcomes": [
+            {
+              "description": "Proportion of patients with no new or enlarged T2 lesions on brain MRI between month 6 and month 24",
+              "measure": "Proportion of patients free of inflammatory disease activity",
+              "timeFrame": "between month 6 and month 24"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Clinical relapses during treatment",
+              "measure": "Presence and number of clinical relapses",
+              "timeFrame": "Baseline, month 6, month 24"
+            },
+            {
+              "description": "Proportion of patients with no contrast enhancing lesions on brain MRI",
+              "measure": "Contrast enhancing lesions",
+              "timeFrame": "Baseline, month 6, month 24"
+            },
+            {
+              "description": "The average number of new/enlarged T2 lesions between baseline, month 6 and month 24 on brain MRI",
+              "measure": "Average number of T2 lesions on brain MRI",
+              "timeFrame": "Baseline, month 6, month 24"
+            },
+            {
+              "description": "Disability progression measured on the Expanded Disability Status Scale (EDSS)",
+              "measure": "Disability progression during follow-up",
+              "timeFrame": "Baseline, month 6, month 24"
+            },
+            {
+              "description": "Disability progression measured on the timed 25 foot walk test (T25FW)",
+              "measure": "Disability progression during follow-up",
+              "timeFrame": "Baseline, month 6, month 24"
+            },
+            {
+              "description": "Disability progression measured on the Nine Hole Peg Test (9HPT)",
+              "measure": "Disability progression during follow-up",
+              "timeFrame": "Baseline, month 6, month 24"
+            },
+            {
+              "description": "Disability progression measured on the Symbol Digit Modalities Test(SDMT)",
+              "measure": "Disability progression during follow-up",
+              "timeFrame": "Baseline, month 6, month 24"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "isUsExport": false,
+          "oversightHasDmc": true
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "OTHER",
+              "name": "Stichting Treatmeds"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Amsterdam UMC, location VUmc"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Amsterdam UMC, location VUmc",
+            "investigatorFullName": "Eva M.M. Strijbis",
+            "investigatorTitle": "Principal Investigator",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2027-05",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2023-04-28",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2023-04-17",
+          "overallStatus": "RECRUITING",
+          "primaryCompletionDateStruct": {
+            "date": "2027-05",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2023-04",
+            "type": "ESTIMATED"
+          },
+          "statusVerifiedDate": "2023-04",
+          "studyFirstPostDateStruct": {
+            "date": "2023-04-28",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2023-04-03",
+          "studyFirstSubmitQcDate": "2023-04-17"
+        }
+      }
+    }
+  ]
+}

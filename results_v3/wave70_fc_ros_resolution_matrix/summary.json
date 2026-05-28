@@ -1,0 +1,165 @@
+{
+  "call_counts": {
+    "NO_GO_BLOCKED_OR_BROAD_CLASS": 14,
+    "NO_GO_INSUFFICIENT_CONVERGENCE": 15
+  },
+  "candidate_count": 29,
+  "date": "2026-05-27",
+  "inputs": {
+    "broad": "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv",
+    "ms": "results_v3/gse111972_full_ms_wm_signature.tsv",
+    "ra_counts": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_counts_used.tsv",
+    "ra_meta": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_sample_metadata.tsv",
+    "residual": "results_v3/broad_residual_gate/broad_residual_gate_summary.tsv",
+    "wave37": "results_v3/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv",
+    "wave57": "results_v3/wave57_intervention_first_geneformer_screen/wave57_intervention_first_candidate_calls.tsv",
+    "wave61": "results_v3/wave61_perturbation_first_guardrail/intervention_evidence_tiers.tsv",
+    "wave62": "results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv",
+    "wave68": "results_v3/wave68_gse282122_unrestricted_gene_screen/integrated_gene_target_rank.tsv",
+    "wave69d": "results_v3/wave69d_gse282122_geneformer_remission_centroid/geneformer_remission_candidate_calls.tsv"
+  },
+  "interpretation": "Wave70 matrix is a triage gate for Fc/ROS-resolution routes; PARK rows require hostile prior-art and direct perturbation follow-up.",
+  "random_seed": 20260527,
+  "top_rows": [
+    {
+      "evidence_count": 4,
+      "gene": "FCGR2A",
+      "manual_blocker": "Fc_receptor_directionality_and_safety",
+      "wave70_call": "NO_GO_BLOCKED_OR_BROAD_CLASS",
+      "wave70_score": 3.6028233089082287
+    },
+    {
+      "evidence_count": 4,
+      "gene": "NCF1",
+      "manual_blocker": "NADPH_oxidase_host_defense_CGD_directionality_risk",
+      "wave70_call": "NO_GO_BLOCKED_OR_BROAD_CLASS",
+      "wave70_score": 3.4853377261873275
+    },
+    {
+      "evidence_count": 3,
+      "gene": "NCF2",
+      "manual_blocker": "NADPH_oxidase_host_defense_CGD_directionality_risk",
+      "wave70_call": "NO_GO_BLOCKED_OR_BROAD_CLASS",
+      "wave70_score": 2.104203946873728
+    },
+    {
+      "evidence_count": 3,
+      "gene": "LYN",
+      "manual_blocker": "SRC_family_broad_selectivity_safety",
+      "wave70_call": "NO_GO_BLOCKED_OR_BROAD_CLASS",
+      "wave70_score": 2.0
+    },
+    {
+      "evidence_count": 2,
+      "gene": "SYK",
+      "manual_blocker": "SYK_prior_art_broad_immunosuppression",
+      "wave70_call": "NO_GO_BLOCKED_OR_BROAD_CLASS",
+      "wave70_score": 0.6384710222482681
+    },
+    {
+      "evidence_count": 1,
+      "gene": "BLK",
+      "manual_blocker": "myeloid_expression_missing_in_Wave69D",
+      "wave70_call": "NO_GO_BLOCKED_OR_BROAD_CLASS",
+      "wave70_score": 0.5929222192918857
+    },
+    {
+      "evidence_count": 3,
+      "gene": "CYBB",
+      "manual_blocker": "NADPH_oxidase_host_defense_CGD_directionality_risk",
+      "wave70_call": "NO_GO_BLOCKED_OR_BROAD_CLASS",
+      "wave70_score": 0.5
+    },
+    {
+      "evidence_count": 1,
+      "gene": "PTPN11",
+      "manual_blocker": "SHP2_oncology_development_and_broad_signaling",
+      "wave70_call": "NO_GO_BLOCKED_OR_BROAD_CLASS",
+      "wave70_score": 0.0
+    },
+    {
+      "evidence_count": 2,
+      "gene": "FCGR2B",
+      "manual_blocker": "Fc_receptor_directionality_and_safety",
+      "wave70_call": "NO_GO_BLOCKED_OR_BROAD_CLASS",
+      "wave70_score": -0.04108285973143122
+    },
+    {
+      "evidence_count": 1,
+      "gene": "CYBA",
+      "manual_blocker": "NADPH_oxidase_host_defense_CGD_directionality_risk",
+      "wave70_call": "NO_GO_BLOCKED_OR_BROAD_CLASS",
+      "wave70_score": -0.5
+    },
+    {
+      "evidence_count": 1,
+      "gene": "AXL",
+      "manual_blocker": "TAM_oncology_fibrosis_thrombosis_context_risk",
+      "wave70_call": "NO_GO_BLOCKED_OR_BROAD_CLASS",
+      "wave70_score": -1.5
+    },
+    {
+      "evidence_count": 1,
+      "gene": "BTK",
+      "manual_blocker": "BTK_MS_and_autoimmune_prior_art_clinical_saturation",
+      "wave70_call": "NO_GO_BLOCKED_OR_BROAD_CLASS",
+      "wave70_score": -1.5
+    },
+    {
+      "evidence_count": 1,
+      "gene": "PIK3CD",
+      "manual_blocker": "PI3Kdelta_immunodeficiency_infection_oncology_safety",
+      "wave70_call": "NO_GO_BLOCKED_OR_BROAD_CLASS",
+      "wave70_score": -1.5
+    },
+    {
+      "evidence_count": 0,
+      "gene": "PIK3CG",
+      "manual_blocker": "PI3Kgamma_broad_myeloid_host_defense_prior_art",
+      "wave70_call": "NO_GO_BLOCKED_OR_BROAD_CLASS",
+      "wave70_score": -2.0
+    },
+    {
+      "evidence_count": 2,
+      "gene": "LILRB2",
+      "manual_blocker": "",
+      "wave70_call": "NO_GO_INSUFFICIENT_CONVERGENCE",
+      "wave70_score": 3.0
+    },
+    {
+      "evidence_count": 1,
+      "gene": "LILRB1",
+      "manual_blocker": "",
+      "wave70_call": "NO_GO_INSUFFICIENT_CONVERGENCE",
+      "wave70_score": 2.0
+    },
+    {
+      "evidence_count": 1,
+      "gene": "LILRB3",
+      "manual_blocker": "",
+      "wave70_call": "NO_GO_INSUFFICIENT_CONVERGENCE",
+      "wave70_score": 2.0
+    },
+    {
+      "evidence_count": 1,
+      "gene": "LAIR1",
+      "manual_blocker": "",
+      "wave70_call": "NO_GO_INSUFFICIENT_CONVERGENCE",
+      "wave70_score": 1.5
+    },
+    {
+      "evidence_count": 1,
+      "gene": "LILRB4",
+      "manual_blocker": "",
+      "wave70_call": "NO_GO_INSUFFICIENT_CONVERGENCE",
+      "wave70_score": 1.5
+    },
+    {
+      "evidence_count": 1,
+      "gene": "INPP5D",
+      "manual_blocker": "",
+      "wave70_call": "NO_GO_INSUFFICIENT_CONVERGENCE",
+      "wave70_score": 1.2826796621084213
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D005921",
+              "term": "Glomerulonephritis"
+            },
+            {
+              "id": "D009393",
+              "term": "Nephritis"
+            },
+            {
+              "id": "D007674",
+              "term": "Kidney Diseases"
+            },
+            {
+              "id": "D014570",
+              "term": "Urologic Diseases"
+            },
+            {
+              "id": "D052776",
+              "term": "Female Urogenital Diseases"
+            },
+            {
+              "id": "D005261",
+              "term": "Female Urogenital Diseases and Pregnancy Complications"
+            },
+            {
+              "id": "D000091642",
+              "term": "Urogenital Diseases"
+            },
+            {
+              "id": "D052801",
+              "term": "Male Urogenital Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D005922",
+              "term": "Glomerulonephritis, IGA"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Human soluble recombinant Fc\u03b3 Receptor IIB",
+              "interventionNames": [
+                "Biological: SM101"
+              ],
+              "label": "SM101 12 mg/kg",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Human soluble recombinant Fc\u03b3 Receptor IIB",
+              "interventionNames": [
+                "Biological: SM101"
+              ],
+              "label": "SM101 24 mg/kg",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "L-histidine-buffered saline with mannitol, sucrose, and polysorbate 2",
+              "interventionNames": [
+                "Other: Placebo"
+              ],
+              "label": "Placebo",
+              "type": "PLACEBO_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "SM101 12 mg/kg",
+                "SM101 24 mg/kg"
+              ],
+              "description": "Human soluble recombinant Fc\u03b3 Receptor IIB",
+              "name": "SM101",
+              "otherNames": [
+                "BAX1810",
+                "BAX 1810"
+              ],
+              "type": "BIOLOGICAL"
+            },
+            {
+              "armGroupLabels": [
+                "Placebo"
+              ],
+              "description": "L-histidine-buffered saline with mannitol, sucrose, and polysorbate 20",
+              "name": "Placebo",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Immunoglobulin A Nephropathy"
+          ],
+          "keywords": [
+            "IgAN"
+          ]
+        },
+        "contactsLocationsModule": {
+          "overallOfficials": [
+            {
+              "affiliation": "Takeda",
+              "name": "Study Director",
+              "role": "STUDY_DIRECTOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The purpose of this study is to assess the efficacy and safety of SM101 in the treatment of Immunoglobulin A nephropathy (IgAN)"
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "DOUBLE",
+              "whoMasked": [
+                "PARTICIPANT",
+                "INVESTIGATOR"
+              ]
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 0,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE2"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. 18 years of age or older at the time of screening\n2. Participant may be of any race or ethnicity\n3. Participant must have a biopsy-proven diagnosis of IgAN.\n4. Participant's blood pressure is \u2264130/80 mmHg at Screening\n5. Participant is on maximally tolerated dose of an angiotensin-converting enzyme (ACE) inhibitor and/or angiotensin receptor blocker (ARB) for at least 3 months prior to the baseline visit.\n6. Participant must present at screening with current proteinuria levels between 1 g/24 h and 3.5 g/24 h, based on spot urine protein-to-creatinine ratio (UPCR)\n7. Participant must present at screening with an estimated glomerular filtration rate (eGFR) \\>40mL/min/1.73m\\^2\n8. If a female of childbearing potential, participant must have a negative pregnancy test at screening, is not currently breastfeeding, and agrees to employ adequate birth control measures for the duration of the study. Male participants with female partners of childbearing potential must agree to use adequate birth control measures for the duration of the study\n9. Participant is willing and able to comply with the requirements of this protocol and agrees to sign an informed consent form prior to any study-related activities\n\nExclusion Criteria:\n\n1. Participant has a history or current evidence of renal disease other than IgAN\n2. Participants with evidence of rapidly progressive disease\n3. Participant has IgAN with histologic evidence of advanced tubular atrophy and interstitial\n4. History or current evidence of other autoimmune disease\n5. History or current evidence of any chronic or uncontrolled medical condition which could, in the opinion of the Investigator, affect the participant's safety and ability to adhere to this protocol\n6. History or current evidence of a severe acute or chronic infection\n7. Use of systemic corticosteroids within 3 months prior to baseline, or anticipated use during the treatment period (Week 1 through Week 4). Note: Corticosteroids administered by inhalation or intranasally, or limited topical use of low-potency topical corticosteroids are allowed throughout the study.\n8. Known hypersensitivity or allergic reaction to any E. coli-derived recombinant product, yeast extract, or to the IP or any of its excipients\n9. Treatment with any immunomodulatory/immunosuppressive compound or monoclonal antibody for any indication within 6 months (unless otherwise stated) prior to screening (eg, B cell-depleting agents \\[eg, rituximab, epratuzumab\\] for \u226548 weeks; B-cell modifying agents \\[eg, belimumab, atacicept\\] for \u226524 weeks; IV immunoglobulins for \u226512 weeks and all other immunosuppressive treatments \\[eg, methotrexate, cyclophosphamide, cyclosporine, tacrolimus, mycophenolate mofetil, azathioprine\\] for \u226512 weeks)\n10. Clinically significant laboratory abnormalities prior to baseline\n11. History of any malignancy within past 5 years prior to screening (except for basal and squamous cell carcinomas of the skin, in situ cervical cancer, and stable prostate cancer that does not require treatment)\n12. History of tonsillectomy within 2 months prior to screening\n13. Participation in another clinical study involving an IP or investigational device within 30 days prior to screening or is scheduled to participate in another clinical study involving an IP or investigational device during the course of this study\n14. Participant is a family member or employee of the Investigator\n15. A female participant who is pregnant or nursing at the time of screening",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Efficacy and Safety of SM101 in the Treatment of IgA Nephropathy",
+          "nctId": "NCT02605525",
+          "officialTitle": "A Phase 2 Study to Assess the Efficacy and Safety of Intravenous Infusion With Human Soluble Recombinant Fc-gamma Receptor IIB (SM101/BAX 1810) in Subjects With Immunoglobulin A Nephropathy (IgAN)",
+          "orgStudyIdInfo": {
+            "id": "181501"
+          },
+          "organization": {
+            "class": "INDUSTRY",
+            "fullName": "Takeda"
+          },
+          "secondaryIdInfos": [
+            {
+              "id": "2015-002345-64",
+              "type": "EUDRACT_NUMBER"
+            }
+          ]
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "measure": "Percent change in proteinuria from Baseline to Week 24",
+              "timeFrame": "Baseline and Week 24"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "measure": "Number of participants who demonstrate a \u226530% reduction from Baseline in proteinuria",
+              "timeFrame": "Baseline, Week 8, Week 12, Week 18, and Week 24"
+            },
+            {
+              "measure": "Number of participants who reach and maintain proteinuria levels below 1.0 g/24 h",
+              "timeFrame": "Week 8, Week 12, Week 18, and Week 24"
+            },
+            {
+              "measure": "Mean change from Baseline in Estimated glomerular filtration rate (eGFR)",
+              "timeFrame": "Baseline, Week 8, Week 12, Week 18, and Week 24"
+            },
+            {
+              "measure": "Number of participants who experience any treatment-related serious adverse event (SAE) or severe adverse events (AE) during the course of the treatment period or subsequent follow-up period",
+              "timeFrame": "Throughout the study period of approximately 19 months"
+            },
+            {
+              "measure": "Number of participants who experience serious adverse events (SAEs) or adverse events (AEs)",
+              "timeFrame": "Throughout the study period of approximately 19 months"
+            },
+            {
+              "description": "Temporally-related AEs - defined as AEs occurring during investigational product (IP) administration or within 72 hours of IP administration, regardless of causality",
+              "measure": "Number of participants who experience temporally-related adverse events (AEs)",
+              "timeFrame": "Baseline through 72 hours of IP administration"
+            },
+            {
+              "measure": "Number of participants with any clinically significant change in vital signs during investigational product (IP) administration or within 30 minutes following administration",
+              "timeFrame": "Baseline through 30 minutes following IP administration"
+            },
+            {
+              "measure": "Number of infusions associated with adverse events (AEs) or serious adverse events (SAEs) , regardless of causality",
+              "timeFrame": "Throughout the study period of approximately 19 months"
+            },
+            {
+              "measure": "Number of infusions that had to be slowed, interrupted, or terminated due to adverse events (AEs) or serious adverse events (SAEs)",
+              "timeFrame": "Throughout the study period of approximately 19 months"
+            },
+            {
+              "measure": "Number of participants with detectable levels of antidrug antibodies (ADAs)",
+              "timeFrame": "Baseline, Week 3, Week 4, Week 12, Week 24, or early termination from the study"
+            },
+            {
+              "measure": "Clinically significant abnormal laboratory assessments",
+              "timeFrame": "Throughout the study period of approximately 19 months"
+            },
+            {
+              "measure": "Pharmacokinetics: maximum observed concentration (Cmax)",
+              "timeFrame": "Week 1 within 30 minutes pre-infusion, and post-infusion 0.5, 1, 2, 4, 8 or 12, 24, 48 or 72, and 168 hours. Week 4 within 30 minutes pre-infusion, and post-infusion 0.5, 1, 2, 4, 24, and 168 hours."
+            },
+            {
+              "measure": "Pharmacokinetics: time of maximum observed concentration (Cmax)",
+              "timeFrame": "Week 1 within 30 minutes pre-infusion, and post-infusion 0.5, 1, 2, 4, 8 or 12, 24, 48 or 72, and 168 hours. Week 4 within 30 minutes pre-infusion, and post-infusion 0.5, 1, 2, 4, 24, and 168 hours."
+            },
+            {
+              "measure": "Pharmacokinetics: area under the concentration-time curve during a dosing interval (AUC(0-tau))",
+              "timeFrame": "Week 1 within 30 minutes pre-infusion, and post-infusion 0.5, 1, 2, 4, 8 or 12, 24, 48 or 72, and 168 hours. Week 4 within 30 minutes pre-infusion, and post-infusion 0.5, 1, 2, 4, 24, and 168 hours."
+            },
+            {
+              "measure": "Pharmacokinetics: terminal half-life (t1/2)",
+              "timeFrame": "Week 1 within 30 minutes pre-infusion, and post-infusion 0.5, 1, 2, 4, 8 or 12, 24, 48 or 72, and 168 hours. Week 4 within 30 minutes pre-infusion, and post-infusion 0.5, 1, 2, 4, 24, and 168 hours."
+            },
+            {
+              "measure": "Pharmacokinetics: systemic clearance (CL)",
+              "timeFrame": "Week 1 within 30 minutes pre-infusion, and post-infusion 0.5, 1, 2, 4, 8 or 12, 24, 48 or 72, and 168 hours. Week 4 within 30 minutes pre-infusion, and post-infusion 0.5, 1, 2, 4, 24, and 168 hours."
+            },
+            {
+              "measure": "Pharmacokinetics: volume of distribution at the terminal phase (Vz)",
+              "timeFrame": "Week 1 within 30 minutes pre-infusion, and post-infusion 0.5, 1, 2, 4, 8 or 12, 24, 48 or 72, and 168 hours. Week 4 within 30 minutes pre-infusion, and post-infusion 0.5, 1, 2, 4, 24, and 168 hours."
+            },
+            {
+              "measure": "Pharmacokinetics: volume of distribution at steady state (Vss)",
+              "timeFrame": "Week 1 within 30 minutes pre-infusion, and post-infusion 0.5, 1, 2, 4, 8 or 12, 24, 48 or 72, and 168 hours. Week 4 within 30 minutes pre-infusion, and post-infusion 0.5, 1, 2, 4, 24, and 168 hours."
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": true
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "INDUSTRY",
+            "name": "Baxalta now part of Shire"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2016-11-30",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2022-02-07",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2022-02-03",
+          "overallStatus": "WITHDRAWN",
+          "primaryCompletionDateStruct": {
+            "date": "2016-11-30",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2015-12-31",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2021-04",
+          "studyFirstPostDateStruct": {
+            "date": "2015-11-16",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2015-11-12",
+          "studyFirstSubmitQcDate": "2015-11-12"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,544 @@
+{
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D007674",
+              "term": "Kidney Diseases"
+            },
+            {
+              "id": "D014570",
+              "term": "Urologic Diseases"
+            },
+            {
+              "id": "D052776",
+              "term": "Female Urogenital Diseases"
+            },
+            {
+              "id": "D005261",
+              "term": "Female Urogenital Diseases and Pregnancy Complications"
+            },
+            {
+              "id": "D000091642",
+              "term": "Urogenital Diseases"
+            },
+            {
+              "id": "D052801",
+              "term": "Male Urogenital Diseases"
+            },
+            {
+              "id": "D048909",
+              "term": "Diabetes Complications"
+            },
+            {
+              "id": "D003920",
+              "term": "Diabetes Mellitus"
+            },
+            {
+              "id": "D004700",
+              "term": "Endocrine System Diseases"
+            },
+            {
+              "id": "D044882",
+              "term": "Glucose Metabolism Disorders"
+            },
+            {
+              "id": "D008659",
+              "term": "Metabolic Diseases"
+            },
+            {
+              "id": "D009750",
+              "term": "Nutritional and Metabolic Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D003928",
+              "term": "Diabetic Nephropathies"
+            },
+            {
+              "id": "D003922",
+              "term": "Diabetes Mellitus, Type 1"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D058607",
+              "term": "Fibric Acids"
+            },
+            {
+              "id": "D058610",
+              "term": "Isobutyrates"
+            },
+            {
+              "id": "D002087",
+              "term": "Butyrates"
+            },
+            {
+              "id": "D000144",
+              "term": "Acids, Acyclic"
+            },
+            {
+              "id": "D002264",
+              "term": "Carboxylic Acids"
+            },
+            {
+              "id": "D009930",
+              "term": "Organic Chemicals"
+            },
+            {
+              "id": "D010647",
+              "term": "Phenyl Ethers"
+            },
+            {
+              "id": "D004987",
+              "term": "Ethers"
+            },
+            {
+              "id": "D001577",
+              "term": "Benzophenones"
+            },
+            {
+              "id": "D001555",
+              "term": "Benzene Derivatives"
+            },
+            {
+              "id": "D006841",
+              "term": "Hydrocarbons, Aromatic"
+            },
+            {
+              "id": "D006844",
+              "term": "Hydrocarbons, Cyclic"
+            },
+            {
+              "id": "D006838",
+              "term": "Hydrocarbons"
+            },
+            {
+              "id": "D010636",
+              "term": "Phenols"
+            },
+            {
+              "id": "D007659",
+              "term": "Ketones"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D011345",
+              "term": "Fenofibrate"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "145 mg oral fenofibrate daily for 76 weeks. Dosage is decreased to 48 mg daily if iGFR is or is estimated to be below 30 ml/min/1.73 m2.",
+              "interventionNames": [
+                "Drug: Fenofibrate"
+              ],
+              "label": "Fenofibrate",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Inactive tablets identical to fenofibrate",
+              "interventionNames": [
+                "Other: Placebo"
+              ],
+              "label": "Placebo",
+              "type": "PLACEBO_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Fenofibrate"
+              ],
+              "description": "145 mg oral fenofibrate daily for 76 weeks. Dosage is decreased to 48 mg daily if iGFR is or is estimated to be below 30 ml/min/1.73 m2.",
+              "name": "Fenofibrate",
+              "type": "DRUG"
+            },
+            {
+              "armGroupLabels": [
+                "Placebo"
+              ],
+              "description": "Inactive tablets identical to fenofibrate",
+              "name": "Placebo",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Diabetic Nephropathies"
+          ],
+          "keywords": [
+            "type 1 diabetes",
+            "diabetic kidney disease",
+            "fibrates"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Boston",
+              "country": "United States",
+              "facility": "Joslin Diabetes Center",
+              "geoPoint": {
+                "lat": 42.35843,
+                "lon": -71.05977
+              },
+              "state": "Massachusetts",
+              "zip": "02215"
+            },
+            {
+              "city": "Burlington",
+              "country": "United States",
+              "facility": "Lahey Hospital and Medical center",
+              "geoPoint": {
+                "lat": 42.50482,
+                "lon": -71.19561
+              },
+              "state": "Massachusetts",
+              "zip": "01805"
+            },
+            {
+              "city": "Ann Arbor",
+              "country": "United States",
+              "facility": "Brehm Center for Diabetes Research / University of Michigan",
+              "geoPoint": {
+                "lat": 42.27756,
+                "lon": -83.74088
+              },
+              "state": "Michigan",
+              "zip": "48105"
+            },
+            {
+              "city": "Syracuse",
+              "country": "United States",
+              "facility": "SUNY Upstate Medical University",
+              "geoPoint": {
+                "lat": 43.04812,
+                "lon": -76.14742
+              },
+              "state": "New York",
+              "zip": "13210"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Joslin Diabetes Center",
+              "name": "Alessandro Doria, MD PhD MPH",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "affiliation": "University of Minnesota",
+              "name": "Michael Mauer, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Diabetic kidney disease remains the leading cause of end-stage kidney disease (ESKD), rising in frequency in parallel with the epidemic of diabetes worldwide. The estimated lifetime risk of kidney disease in persons with type 1 diabetes (T1D) has been reported to be as high as 50-70%, although risk may be lower in excellent care environments. Two previous studies have suggested that a generic drug used to lower fats in blood (fenofibrate) may protect the kidney from damage due to diabetes. These data, however, were obtained among people with type 2 diabetes with clinical characteristics optimized for cardiovascular studies. Thus, a clinical trial specifically designed to evaluate the effects on the kidney is required to firmly show that this drug can prevent kidney damage in T1D. The goals of the present pilot study are to demonstrate the feasibility of such trial, gather essential information for designing and planning this study, and generate preliminary data. To this end, 40 participants with T1D and early-to-moderate diabetic kidney disease (DKD), at high risk of ESKD, will be enrolled at two clinical sites and assigned in a 1:1 ratio to treatment with fenofibrate or placebo for 18 months. Kidney function will be measured at the beginning and at the end of the study to evaluate the effect of fenofibrate.",
+          "detailedDescription": "Despite improvements in the past 20 years in glycemic and blood pressure control, and the introduction of \"reno-protective\" drugs such as renin-angiotensin system blockers (RASB), the overall incidence of end-stage kidney disease (ESKD) in type 1 diabetes (T1D) remains high. To seek new treatments to prevent diabetic kidney disease (DKD) and/or slow its progression to ESKD in T1D, the investigators have established a unique consortium of high-quality academic centers, which has been named PERL (Preventing Early Renal Function Loss in Diabetes) to emphasize the focus on intervening relatively early in the course of DKD in T1D, when renal damage can more likely be slowed or stopped. Findings from the FIELD and ACCORD trials suggest a reno-protective effect of the PPAR-alpha agonist fenofibrate, raising the exciting possibility of using this inexpensive generic drug to prevent GFR decline in persons with T1D. These data, however, were obtained through post-hoc analyses of type 2 diabetes (T2D) populations with clinical characteristics optimized for CVD studies. Thus, a clinical trial specifically designed to evaluate effects on GFR decline is required to firmly establish a DKD indication for fenofibrate in T1D. As a first step, the investigators are conducting a pilot study including 40 participants with T1D and early-to-moderate DKD, at high risk of ESKD, who will be enrolled at two of the PERL sites and randomized in a 1:1 ratio to treatment with fenofibrate or placebo for 18 months, followed by a two-month washout. The goal of this pilot study are to:\n\n1. Define the nature of the acute effect of fenofibrate on kidney function. It remains unclear whether the eGFR reduction observed at the beginning of fenofibrate treatment is an artifact of fenofibrate-induced changes in creatinine production and/or renal tubular handling, or corresponds to an actual reduction in GFR. This controversy, which has crucial implications for the pivotal trial design, will be resolved by directly measuring GFR by plasma iohexol disappearance - a methodology in which PERL sites are experienced.\n2. Generate further data on the long-term effects of fenofibrate on GFR decline in persons with T1D and DKD who are at high risk of rapid GFR decline and ESKD. The positive effects of fenofibrate in FIELD and ACCORD were observed in individuals who were not selected for having DKD and who, if untreated, had a mean GFR decline barely above the physiological decline due to aging. To make a compelling case for a pivotal trial for kidney outcomes, it is crucial to generate preliminary data on the effectiveness and safety of this drug in persons selected for having DKD and being rapidly progressing towards ESKD.\n3. Determine the effects of fenofibrate on biomarkers of increased risk of fast GFR decline. A salutary effect of fenofibrate on one or more of these biomarkers will corroborate any trend of a fenofibrate benefit identified in Aim 2.\n\nThe results of this pilot will allow the investigators to seek support for a pivotal trial to establish a kidney indication for fenofibrate in T1D."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "QUADRUPLE",
+              "whoMasked": [
+                "PARTICIPANT",
+                "CARE_PROVIDER",
+                "INVESTIGATOR",
+                "OUTCOMES_ASSESSOR"
+              ]
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 40,
+            "type": "ESTIMATED"
+          },
+          "phases": [
+            "PHASE2"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* 18 and 70 years of age, inclusive.\n* Type 1 diabetes (T1D) continuously treated with insulin within one year from diagnosis. If the onset was after age 35, the presence of one or more of the following will also be required: a. documentation of the presence of circulating T1D-associated autoantibodies at diagnosis or at any other time; b. history of hospitalization for DKA; c. plasma C-peptide below the limit of detection with standard assay (with concurrent blood glucose \\>100 mg/dl)\n* Duration of T1D \u2265 8 years.\n* Diabetic kidney disease at high risk of progression to ESKD, defined as follows: PERL allopurinol study participants: iGFR decline \u22653 ml/min/1.73 m2/year during the trial and micro- or macro-albuminuria (urinary albumin excretion rate \\[AER\\]=30-5000 mg/24 hr or albumin creatinine ratio \\[ACR\\]=30-5000 mg/g if not on renin-angiotensin system blocker (RASB) agents, or AER=18-5000 mg/24 hr or ACR 18-5000 mg/g range, if on RASB agents) on at least two occasions during the PERL allopurinol trial. All others participants: macroalbuminuria (AER=100-5000 mg/24 hrs or ACR=100-5000 mg/g) on two occasions during the three years before screening and/or at screening;\n* Estimated GFR (eGFR) based on serum creatinine between 40 and 99.9 ml/min/1.73 m2 at screening. The upper and the lower limits should be decreased by 1 ml/min/1.73 m2 for each year over age 60 (with a lower limit of 35 ml/min/1.73m2) and by 10 ml/min/1.73 m2 for strict vegans.\n* Valid baseline (Visit 2) iGFR measurement.\n* Current treatment with RASB, unless contraindicated;\n* Willing and able to comply with schedule of events and protocol requirements, including written informed consent.\n\nExclusion Criteria:\n\n* Renal transplant or dialysis;\n* Non-diabetic kidney disease;\n* Allergy to fibrates or iodine containing substances;\n* Current therapy with fibrates or other PPAR-\u03b1 agonists;\n* Specific contraindications or indications for fibrates;\n* History of photosensitive skin rash or myositis;\n* Persistent elevated unexplained blood creatinine phosphokinase level \\>3 times the upper limit of normal;\n* History of pancreatitis, deep vein thrombosis (DVT) or pulmonary embolism;\n* History of cholelithiasis unless gallbladder has been removed;\n* Cancer treatment (excluding non-melanoma skin cancer treated by excision) within two years of screening;\n* Current or past history of decompensated cirrhosis (defined as variceal bleeding, ascites, or hepatic encephalopathy and/or diagnosis of cirrhosis based on liver biopsy, imaging, or elastography and/or aspartate or alanine aminotransferase (AST or ALT) \\>2 times the upper limit of normal at screening and/or total bilirubin \\>1.3 times the upper limit of normal at screening (in the case of Gilbert syndrome, direct bilirubin \\>1.5 times the upper limit of normal at screening);\n* History of acquired immune deficiency syndrome or human immunodeficiency virus (HIV) infection;\n* Hemoglobin concentration \\<11 g/dL (males), \\<10 g/dL (females) or platelet count \\<100,000/mm3 at screening;\n* Alcohol or drug abuse in the past 6 months;\n* Blood donation within 3 months of screening;\n* Breastfeeding, pregnancy, or unwillingness to be on contraception during the trial;\n* Poor mental function or any reasons to expect difficulty in complying with study requirements;\n* Serious medical problems other than diabetes, e.g. congestive heart failure, pulmonary insufficiency;\n* Participation in another interventional study.\n* Being incarcerated.",
+          "healthyVolunteers": false,
+          "maximumAge": "70 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "acronym": "PERL-FENO",
+          "briefTitle": "A Pilot Study of Fenofibrate to Prevent Kidney Function Loss in Type 1 Diabetes",
+          "nctId": "NCT04929379",
+          "officialTitle": "A Pilot Study of Fenofibrate to Prevent Kidney Function Loss in Type 1 Diabetes",
+          "orgStudyIdInfo": {
+            "id": "STUDY00000156"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Joslin Diabetes Center"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "accessCriteria": "Access will be governed by the NIDDK repository.",
+          "description": "Final research data will be formatted as a computerized dataset at the Joslin Diabetes Center. The final dataset will include both raw data and derived variables, which will be described in documents associated with the dataset. We will maintain the primary dataset for a minimum of 3 years following closeout of the grant as stipulated under the NIH Grants Policy Statement.\n\nIn agreement with NIH's policy on the sharing of data from large, NIH-sponsored studies, the data collected in the course of the study will be archived in de-identified form in an NIH Central Repository for future distribution to the scientific community.",
+          "infoTypes": [
+            "STUDY_PROTOCOL",
+            "SAP",
+            "ICF",
+            "CSR",
+            "ANALYTIC_CODE"
+          ],
+          "ipdSharing": "YES",
+          "timeFrame": "Data will be made available two years after completion of the study"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "GFR measured by iohexol plasma disappearance (ml/min/1.73 m2), adjusted by its baseline value",
+              "measure": "Baseline-adjusted iGFR at 8 weeks after randomization",
+              "timeFrame": "8 weeks after randomization"
+            },
+            {
+              "description": "GFR measured by iohexol plasma disappearance (ml/min/1.73 m2), adjusted by its baseline value",
+              "measure": "Baseline-adjusted iGFR at the end of the drug wash-out period",
+              "timeFrame": "84 weeks after randomization"
+            },
+            {
+              "description": "Levels of the following 21 serum biomarkers, adjusted by their baseline values: CD160, CD27, DLL1, EDA2R, EFNA4, EPHA2, GFRA1, IL1RT1, KIM1, LAYN, LTBR, PI3, PVRL4, RELT, SYND1, TNFR1, TNFR2, TNFRSF10A, TNFRSF4, TNFRSF6B, WFDC2",
+              "measure": "Baseline-adjusted levels of serum biomarkers of increased ESKD risk at the end of the drug wash-out period",
+              "timeFrame": "84 weeks after randomization"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "GFR measured by iohexol plasma disappearance (ml/min/1.73 m2), adjusted by its baseline value",
+              "measure": "Baseline-adjusted iGFR at the end of treatment",
+              "timeFrame": "76 weeks after randomization"
+            },
+            {
+              "description": "GFR measured by iohexol plasma disappearance (ml/min/1.73 m2), adjusted by its value at week 8",
+              "measure": "iGFR at the end of treatment",
+              "timeFrame": "76 weeks after randomization"
+            },
+            {
+              "description": "GFR estimated from serum creatinine (ml/min/1.73 m2) using the CKD-EPI equation, adjusted by its baseline value",
+              "measure": "Baseline-adjusted eGFR-SCr at 8 weeks after randomization",
+              "timeFrame": "8 weeks after randomization"
+            },
+            {
+              "description": "GFR estimated from serum creatinine (ml/min/1.73 m2) using the CKD-EPI equation, adjusted by its baseline value",
+              "measure": "Baseline-adjusted eGFR-SCr at the end of treatment",
+              "timeFrame": "76 weeks after randomization"
+            },
+            {
+              "description": "GFR estimated from serum creatinine (ml/min/1.73 m2) using the CKD-EPI equation, adjusted by its value at week 8",
+              "measure": "eGFR-SCr at the end of treatment",
+              "timeFrame": "76 weeks after randomization"
+            },
+            {
+              "description": "GFR estimated from serum creatinine (ml/min/1.73 m2) using the CKD-EPI equation, adjusted by its baseline value",
+              "measure": "Baseline-adjusted eGFR-SCr at the end of the wash-out period",
+              "timeFrame": "84 weeks after randomization"
+            },
+            {
+              "description": "GFR estimated from serum cystatin C (ml/min/1.73 m2) using the CKD-EPI equation, adjusted by its baseline value",
+              "measure": "Baseline-adjusted eGFR-CysC at 8 weeks after randomization",
+              "timeFrame": "8 weeks after randomization"
+            },
+            {
+              "description": "GFR estimated from serum cystatin C (ml/min/1.73 m2) using the CKD-EPI equation, adjusted by its baseline value",
+              "measure": "Baseline-adjusted eGFR-CysC at the end of treatment",
+              "timeFrame": "76 weeks after randomization"
+            },
+            {
+              "description": "GFR estimated from serum cystatin C (ml/min/1.73 m2) using the CKD-EPI equation, adjusted by its value at week 8",
+              "measure": "eGFR-CysC at the end of treatment",
+              "timeFrame": "76 weeks after randomization"
+            },
+            {
+              "description": "GFR estimated from serum cystatin C (ml/min/1.73 m2) using the CKD-EPI equation, adjusted by its baseline value",
+              "measure": "Baseline-adjusted eGFR-CysC at the end of the wash-out period",
+              "timeFrame": "84 weeks after randomization"
+            },
+            {
+              "description": "Urinary Albumin excretion rate (uAER, mg/24/hr) based on overnight urine collection, adjusted by its baseline value",
+              "measure": "Baseline-adjusted uAER at 8 weeks after randomization",
+              "timeFrame": "8 weeks after randomization"
+            },
+            {
+              "description": "Urinary albumin excretion rate (uAER, mg/24 hr) based on overnight urine collection, adjusted by its baseline value",
+              "measure": "Baseline-adjusted uAER at the end of treatment",
+              "timeFrame": "76 weeks after randomization"
+            },
+            {
+              "description": "Urinary Albumin excretion rate (uAER, mg/24 hr) based on overnight urine collection, adjusted by its value at week 8",
+              "measure": "uAER at the end of treatment",
+              "timeFrame": "76 weeks after randomization"
+            },
+            {
+              "description": "Urinary albumin excretion rate (uAER, mg/24 hr) based on overnight urine collection, adjusted by its baseline value",
+              "measure": "Baseline-adjusted uAER at the end of the wash-out period",
+              "timeFrame": "84 weeks after randomization"
+            },
+            {
+              "description": "Creatinine clearance (ml/min) based on overnight urine collection, adjusted by its baseline value",
+              "measure": "Baseline-adjusted creatinine clearance at 8 weeks after randomization",
+              "timeFrame": "8 weeks after randomization"
+            },
+            {
+              "description": "Effective renal plasma flow (ml/min) measured by means of para-aminohippurate infusion, adjusted by its baseline value",
+              "measure": "Baseline-adjusted ERPF at 8 weeks after randomization",
+              "timeFrame": "8 weeks after randomization"
+            },
+            {
+              "description": "Afferent renal arteriolar resistance (dyne/s/cm5) measured by means of para-aminohippurate infusion, adjusted by its baseline value",
+              "measure": "Baseline-adjusted afferent renal arteriolar resistance at 8 weeks after randomization",
+              "timeFrame": "8 weeks after randomization"
+            },
+            {
+              "description": "Efferent renal arteriolar resistance (dyne/s/cm5) measured by means of para-aminohippurate infusion, adjusted by its baseline value",
+              "measure": "Baseline-adjusted efferent renal arteriolar resistance at 8 weeks after randomization",
+              "timeFrame": "8 weeks after randomization"
+            },
+            {
+              "description": "Glomerular hydrostatic pressure (mmHg) measured by means of para-aminohippurate infusion, adjusted by its baseline value",
+              "measure": "Baseline-adjusted glomerular hydrostatic pressure at 8 weeks after randomization",
+              "timeFrame": "8 weeks after randomization"
+            },
+            {
+              "description": "Glomerular filtration pressure (mmHg) measured by means of para-aminohippurate infusion, adjusted by its baseline value",
+              "measure": "Baseline-adjusted glomerular filtration pressure at 8 weeks after randomization",
+              "timeFrame": "8 weeks after randomization"
+            },
+            {
+              "description": "Glomerular oncotic pressure (mmHg) measured by means of para-aminohippurate infusion, adjusted by its baseline value",
+              "measure": "Baseline-adjusted glomerular oncotic pressure at 8 weeks after randomization",
+              "timeFrame": "8 weeks after randomization"
+            },
+            {
+              "description": "Trajectory of GFR estimated from serum creatinine (ml/min/year/1.73 m2) using the CKD-EPI equation",
+              "measure": "eGFR-SCr trajectory",
+              "timeFrame": "8 to 76 weeks from randomization"
+            },
+            {
+              "description": "Trajectory of GFR estimated from serum cystatin C (ml/min/year/1.73 m2) using the CKD-EPI equation",
+              "measure": "eGFR-SCys trajectory",
+              "timeFrame": "8 to 76 weeks from randomization"
+            },
+            {
+              "description": "Levels of the following 21 serum biomarkers, adjusted by their baseline values: CD160, CD27, DLL1, EDA2R, EFNA4, EPHA2, GFRA1, IL1RT1, KIM1, LAYN, LTBR, PI3, PVRL4, RELT, SYND1, TNFR1, TNFR2, TNFRSF10A, TNFRSF4, TNFRSF6B, WFDC2",
+              "measure": "Baseline-adjusted levels of serum biomarkers of increased ESKD risk at the end of treatment",
+              "timeFrame": "76 weeks after randomization"
+            },
+            {
+              "description": "Levels of the following 21 serum biomarkers, adjusted by their values at week 8: CD160, CD27, DLL1, EDA2R, EFNA4, EPHA2, GFRA1, IL1RT1, KIM1, LAYN, LTBR, PI3, PVRL4, RELT, SYND1, TNFR1, TNFR2, TNFRSF10A, TNFRSF4, TNFRSF6B, WFDC2",
+              "measure": "Levels of serum biomarkers of increased ESKD risk at the end of treatment",
+              "timeFrame": "76 weeks after randomization"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": true,
+          "oversightHasDmc": true
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Davis TM, Ting R, Best JD, Donoghoe MW, Drury PL, Sullivan DR, Jenkins AJ, O'Connell RL, Whiting MJ, Glasziou PP, Simes RJ, Kesaniemi YA, Gebski VJ, Scott RS, Keech AC; Fenofibrate Intervention and Event Lowering in Diabetes Study investigators. Effects of fenofibrate on renal function in patients with type 2 diabetes mellitus: the Fenofibrate Intervention and Event Lowering in Diabetes (FIELD) Study. Diabetologia. 2011 Feb;54(2):280-90. doi: 10.1007/s00125-010-1951-1. Epub 2010 Nov 4.",
+              "pmid": "21052978",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Frazier R, Mehta R, Cai X, Lee J, Napoli S, Craven T, Tuazon J, Safdi A, Scialla J, Susztak K, Isakova T. Associations of Fenofibrate Therapy With Incidence and Progression of CKD in Patients With Type 2 Diabetes. Kidney Int Rep. 2018 Sep 18;4(1):94-102. doi: 10.1016/j.ekir.2018.09.006. eCollection 2019 Jan.",
+              "pmid": "30596172",
+              "type": "BACKGROUND"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "OTHER",
+              "name": "University of Michigan"
+            },
+            {
+              "class": "OTHER",
+              "name": "University of Minnesota"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Alessandro Doria"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Joslin Diabetes Center",
+            "investigatorFullName": "Alessandro Doria",
+            "investigatorTitle": "Senior Investigator and Professor of Medicine",
+            "type": "SPONSOR_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2026-10-31",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-02-06",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2026-02-04",
+          "overallStatus": "ACTIVE_NOT_RECRUITING",
+          "primaryCompletionDateStruct": {
+            "date": "2025-05-01",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2022-01-04",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2026-02",
+          "studyFirstPostDateStruct": {
+            "date": "2021-06-18",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2021-06-03",
+          "studyFirstSubmitQcDate": "2021-06-14"
+        }
+      }
+    }
+  ]
+}

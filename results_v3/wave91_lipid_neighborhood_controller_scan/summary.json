@@ -1,0 +1,21 @@
+{
+  "call_counts": {
+    "NO_GO_LIPID_NEIGHBORHOOD_NODE": 13,
+    "PARK_CONTROLLER_FOR_DEEP_VALIDATION": 1,
+    "PARK_MARKER_OR_WEAK_CONTROLLER": 3
+  },
+  "inputs": {
+    "direct_h5ad": "results_v3/direct_h5ad_gene_replication/direct_h5ad_gene_donor_comparisons.tsv",
+    "genetics": "results_v3/wave55_external_genetics_druggability_sweep/external_genetics_rank.tsv",
+    "ms_wm_signature": "results_v3/gse111972_full_ms_wm_signature.tsv",
+    "psoriasis_tests": "results_v3/wave89_psoriasis_gse85034_response/psoriasis_baseline_gene_response_tests.tsv",
+    "ra_counts": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_counts_used.tsv",
+    "ra_metadata": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_sample_metadata.tsv",
+    "wave86_meta": "results_v3/wave86_external_geo_antitnf_gene_driver/external_geo_gene_meta_rank.tsv"
+  },
+  "n_candidates": 17,
+  "seed": 20260527,
+  "top_call": "PARK_CONTROLLER_FOR_DEEP_VALIDATION",
+  "top_gene": "FABP5",
+  "top_score": 7.050000000000001
+}

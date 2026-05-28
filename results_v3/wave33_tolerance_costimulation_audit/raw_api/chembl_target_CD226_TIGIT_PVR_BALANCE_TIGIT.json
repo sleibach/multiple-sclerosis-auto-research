@@ -1,0 +1,311 @@
+{
+  "payload": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "T-cell immunoreceptor with Ig and ITIM domains",
+        "score": 19.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL4630878",
+        "target_components": [
+          {
+            "accession": "Q495A1",
+            "component_description": "T-cell immunoreceptor with Ig and ITIM domains",
+            "component_id": 19492,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "T-cell immunoreceptor with Ig and ITIM domains",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TIGIT",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "V-set and immunoglobulin domain-containing protein 9",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "V-set and transmembrane domain-containing protein 3",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "VSIG9",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "VSTM3",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "Q495A1",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "Q495A1",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009986",
+                "xref_name": "cell surface",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005102",
+                "xref_name": "signaling receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0038023",
+                "xref_name": "signaling receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042802",
+                "xref_name": "identical protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0032695",
+                "xref_name": "negative regulation of interleukin-12 production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032733",
+                "xref_name": "positive regulation of interleukin-10 production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045953",
+                "xref_name": "negative regulation of natural killer cell mediated cytotoxicity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050868",
+                "xref_name": "negative regulation of T cell activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:26838",
+                "xref_name": "TIGIT",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "Q495A1",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR003599",
+                "xref_name": "Ig_sub",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR007110",
+                "xref_name": "Ig-like_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013106",
+                "xref_name": "Ig_V-set",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013783",
+                "xref_name": "Ig-like_fold",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036179",
+                "xref_name": "Ig-like_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR042948",
+                "xref_name": "TIGIT",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR47734",
+                "xref_name": "T-CELL IMMUNORECEPTOR WITH IG AND ITIM DOMAINS PROTEIN, TIGIT",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR47734:SF1",
+                "xref_name": "T-CELL IMMUNORECEPTOR WITH IG AND ITIM DOMAINS",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "3Q0H",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3RQ3",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3UCR",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3UDW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5V52",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7VYT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8JEL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8JEN",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8JEO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8SZY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3Q0H",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3RQ3",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3UCR",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3UDW",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5V52",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7VYT",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8JEL",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8JEN",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8JEO",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8SZY",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF07686",
+                "xref_name": "V-set",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA164726482",
+                "xref_name": "T cell immunoreceptor with Ig and ITIM domains",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "Q495A1",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "Q495A1",
+                "xref_name": "T-cell immunoreceptor with Ig and ITIM domains",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q495A3",
+                "xref_name": "T-cell immunoreceptor with Ig and ITIM domains",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q5JPD8",
+                "xref_name": "T-cell immunoreceptor with Ig and ITIM domains",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6MZS2",
+                "xref_name": "T-cell immunoreceptor with Ig and ITIM domains",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q8N877",
+                "xref_name": "T-cell immunoreceptor with Ig and ITIM domains",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=TIGIT"
+}

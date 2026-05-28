@@ -1,0 +1,73 @@
+{
+  "c15_casp4": {
+    "query": "(\"CASP4\"[All Fields] OR \"caspase-4\"[All Fields]) AND (\"C15ORF48\"[All Fields] OR \"MOCCI\"[All Fields])",
+    "count": 0,
+    "ids": []
+  },
+  "casp4_ms": {
+    "query": "(\"CASP4\"[All Fields] OR \"caspase-4\"[All Fields] OR \"caspase 4\"[All Fields]) AND (\"multiple sclerosis\"[All Fields] OR \"experimental autoimmune encephalomyelitis\"[All Fields] OR EAE[All Fields])",
+    "count": 8,
+    "ids": [
+      "41326786",
+      "41288075",
+      "37727371",
+      "35066762",
+      "34044393",
+      "25880134",
+      "19531658",
+      "11136825"
+    ]
+  },
+  "casp4_autoimmune": {
+    "query": "(\"CASP4\"[All Fields] OR \"caspase-4\"[All Fields]) AND autoimmune[All Fields]",
+    "count": 31,
+    "ids": [
+      "41959334",
+      "41488670",
+      "39351983",
+      "39207099",
+      "38881675",
+      "37727371",
+      "37349620",
+      "35693810",
+      "35320939",
+      "35239186",
+      "34867993",
+      "34589396",
+      "34189822",
+      "34116285",
+      "34084175",
+      "34044393",
+      "33412278",
+      "33205073",
+      "33055424",
+      "32830085"
+    ]
+  },
+  "casp4_ibd": {
+    "query": "(\"CASP4\"[All Fields] OR \"caspase-4\"[All Fields]) AND (\"inflammatory bowel disease\"[All Fields] OR Crohn[All Fields] OR colitis[All Fields])",
+    "count": 37,
+    "ids": [
+      "42020739",
+      "41422315",
+      "41368500",
+      "41358180",
+      "40896541",
+      "40367931",
+      "39992609",
+      "39866724",
+      "38484431",
+      "37591921",
+      "36399877",
+      "35724605",
+      "35712726",
+      "35693810",
+      "35366642",
+      "35338432",
+      "35253171",
+      "34911863",
+      "34589396",
+      "34189822"
+    ]
+  }
+}

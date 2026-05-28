@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr2",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000085978.21",
+        "geneSymbol": "ATG16L1",
+        "geneSymbolUpper": "ATG16L1",
+        "nes": 0.0887848,
+        "ontologyId": "UBERON:0013756",
+        "pValue": 9.59579e-06,
+        "pos": 233234402,
+        "snpId": "rs34701569",
+        "snpIdUpper": "RS34701569",
+        "tissueSiteDetailId": "Whole_Blood",
+        "variantId": "chr2_233234402_C_G_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 79,
+      "page": 0,
+      "totalNumberOfItems": 79
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000085978.21&tissueSiteDetailId=Whole_Blood&datasetId=gtex_v8&itemsPerPage=1"
+}

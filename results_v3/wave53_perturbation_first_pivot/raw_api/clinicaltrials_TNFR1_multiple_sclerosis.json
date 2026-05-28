@@ -1,0 +1,891 @@
+{
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D020278",
+              "term": "Demyelinating Autoimmune Diseases, CNS"
+            },
+            {
+              "id": "D020274",
+              "term": "Autoimmune Diseases of the Nervous System"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D003711",
+              "term": "Demyelinating Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            },
+            {
+              "id": "D014947",
+              "term": "Wounds and Injuries"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D009103",
+              "term": "Multiple Sclerosis"
+            },
+            {
+              "id": "D013180",
+              "term": "Sprains and Strains"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D000631",
+              "term": "Aminopyridines"
+            },
+            {
+              "id": "D000588",
+              "term": "Amines"
+            },
+            {
+              "id": "D009930",
+              "term": "Organic Chemicals"
+            },
+            {
+              "id": "D011725",
+              "term": "Pyridines"
+            },
+            {
+              "id": "D006573",
+              "term": "Heterocyclic Compounds, 1-Ring"
+            },
+            {
+              "id": "D006571",
+              "term": "Heterocyclic Compounds"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D015761",
+              "term": "4-Aminopyridine"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "documentSection": {
+        "largeDocumentModule": {
+          "largeDocs": [
+            {
+              "date": "2022-03-14",
+              "filename": "SAP_000.pdf",
+              "hasIcf": false,
+              "hasProtocol": false,
+              "hasSap": true,
+              "label": "Statistical Analysis Plan",
+              "size": 759834,
+              "typeAbbrev": "SAP",
+              "uploadDate": "2022-03-31T03:06"
+            },
+            {
+              "date": "2018-01-25",
+              "filename": "ICF_001.pdf",
+              "hasIcf": true,
+              "hasProtocol": false,
+              "hasSap": false,
+              "label": "Informed Consent Form",
+              "size": 865579,
+              "typeAbbrev": "ICF",
+              "uploadDate": "2022-03-31T03:13"
+            }
+          ]
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "The participants receive Fampridine treatment (10 mg x 2 daily) for 14 days. They are testet prior to treatment and following the 14 days of treatment.",
+              "interventionNames": [
+                "Drug: Fampridine"
+              ],
+              "label": "Intervention",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Intervention"
+              ],
+              "description": "sustained-release tablet 10 mg morning and evening.",
+              "name": "Fampridine",
+              "type": "DRUG"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Multiple Sclerosis"
+          ],
+          "keywords": [
+            "Speckle tracking ultrasonography",
+            "Muscle strain",
+            "Fampridine",
+            "Multiple Sclerosis",
+            "Neurological diseases",
+            "Biomarkers",
+            "muscle contractility"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Odense C",
+              "country": "Denmark",
+              "facility": "University of Southern Denmark - Odense Univarsity Hospital",
+              "geoPoint": {
+                "lat": 55.40841,
+                "lon": 10.39538
+              },
+              "zip": "5000"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Department of Neurology, Odense University Hospital, Odense, Denmark",
+              "name": "Helle H. Nielsen, MD, PhD",
+              "role": "STUDY_DIRECTOR"
+            },
+            {
+              "affiliation": "Department of Neurology, Odense University Hospital, Odense, Denmark",
+              "name": "Maria Thorning, MSc",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The primary study, as outlined in the original trial registration, aiming to use ultrasound speckle tracking (STU) to monitor muscle contractility in multiple sclerosis (MS) patients receiving vs. not receiving fampridine, as well as to relate these results to performance-based measures and biomarkers to explore disease progression and muscle activity, has been cancelled. Instead four exploratory studies that originate from the initial trial registration but with revised aims, outcome measures and time points, have been prepared - see the DEVIATIONS TO TRIAL PROTOCOL included in the Statistical Analysis Plan filed under \"Document section\".\n\nSummary of original trial registration:\n\nDespite effective treatments, the majority of patients with multiple sclerosis experience walking impairments to a degree where walking aids or a wheelchair is required. Since 2009, medical treatment of walking impairments has been possible with fampridine, which has proven effective in approximately 40% of the patients. At present, the treatment is offered on the basis of a measurable improved walking function evaluated by simple performance-based walking tests. The treatment is offered on the basis of a measurable improved walking distance.\n\nThis is shown today using simple performance-based walking tests that are difficult to complete for those MS patients who are without gait function but could still benefit from fampridine treatment.\n\nUltrasound speckle tracking is a non-invasive ultrasound technique, with the potential to measure muscle function, including muscle contractility (through strain). Ultrasound speckle tracking is designed for dynamic cardiac muscular examination, but can in a modified version be used for assessment of the skeletal muscles.\n\nThe purpose of this project is to use ultrasound speckle tracking to monitor muscle contractility in MS patients receiving vs. not receiving fampridine treatment. Furthermore, to relate these results to biomarkers in blood and urine to examine disease progression and muscle activity.",
+          "detailedDescription": "The primary study, as outlined in the original trial registration, aiming to use ultrasound speckle tracking (STU) to monitor muscle contractility in multiple sclerosis (MS) patients receiving vs. not receiving fampridine, as well as to relate these results to performance-based measures and biomarkers to explore disease progression and muscle activity, has been cancelled. Instead four exploratory studies that originate from the initial trial registration but with revised aims, outcome measures and time points, have been prepared - see the DEVIATIONS TO TRIAL PROTOCOL included in the Statistical Analysis Plan filed under \"Document section\"\n\nThe detailed description that was included in the original trial registration:\n\nDespite effective treatments, the majority of multiple sclerosis (MS) patients experience difficulty in walking and the need of a walker or wheelchair. Since 2009, medical treatment of walking impairments has been possible with fampridine, which has proven effective at approximately 40% of patients.\n\nAt present, the treatment is offered on the basis of a measurable improved walking function evaluated by simple performance-based walking tests. Multiple sclerosis patients, who do not have the sufficient gait function to complete these tests, may still benefit from fampridine treatment in other activities of daily life. However, these patients are currently not eligible for fampridine treatment due to current requirements of a measurable improved effect.\n\nUltrasound speckle tracking (UST) is a non-invasive ultrasound technique, with the potential to directly analyze the muscle strain in the muscles. UST is designed for dynamic cardiac muscular examination, but can be used in a modified version for skeletal muscle examination. The technique has already been tested in a minor pilot study with MS patients.\n\nThe objective of the present study is to use UST to monitor muscle strain in the weight-bearing and transfer-related muscles in MS patients who receive fampridine vs. patients who do not receive this treatment. Strain is evaluated over time during different isometric contractions. Furthermore, the relation between these results and the performance based measures of clinical function and biomarkers in blood and urine will be examined to explore disease progression and muscle activity.\n\nMS patients will be recruited from sclerosis clinics at Odense University Hospital (OUH), Esbjerg, Kolding and S\u00f8nderborg. All participants will undergo the existing standard practice for patients receiving fampridine treatment, including functional and neurological examination. In addition to the regular practice, participants will be offered UST, answer relevant questionnaires as well as the collection of blood- and urine samples (8 ml of blood and 10 ml of urine will be centrifuged and kept in 0.5 ml aliquots and stored in the already established biobank at the Department of Neurology, OUH.\n\nParticipants will be tested at baseline (just before start of fampridine treatment), after 14 days of treatment and again one year after baseline. All three test sessions will include the above mentioned testing protocol. The primary end-point will be at one-year follow-up.\n\nA sub-group of 30 randomly selected participants will supplementary perform a 3-dimensional gait analysis in the motion laboratory. A list generated from 30 randomly found numbers from 1 to 60 will be used. In the motion laboratory, the outcomes: Kinematics, kinetics, gait summary measures and temporo spatial outcome measures will be generated.\n\nParticipants, who respond to the fampridine after 14 days of treatment, will continue in the project as cases, whereas non-responders persist in the trial as an untreated control group.\n\nThe study is approved by the Regional Committees on Health Research Ethics for Southern Denmark, project Identification: S-20170203. Sample size is based on previously published studies regarding effect of fampridine treatment as well as already detected differences in pilot data obtained from 2 MS patients and 4 healthy controls on m supraspinatus at 40% of maximal load. With an alpha value of p\\<0.05 and a power of 0.80, sample size is 60.\n\nThe study will be conducted in accordance to the Good Clinical Practice and the Declaration of Helsinki and has been approved by the National Committee on Health Research Ethics and the Danish Data Protection Agency.\n\nTo our knowledge, this is the first study to evaluate muscle function in MS patients through muscle strain measured using UST as well as examine its correlation to biomarkers for disease progression and muscle activity. Consequently, the result of the present study could expand clinical guidelines for fampridine treatment in MS patients. Furthermore, UST could be implemented for clinical use in assessing muscle strength and treatment response and can ultimately be used to monitor disease progression in MS patients independent of fampridine treatment. The included analysis of blood and urine opens new opportunities for diagnostic and prognostic biomarkers. In addition to provide new knowledge of disease mechanisms, it may also serve as potential new targets for future treatments."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "NA",
+            "interventionModel": "SINGLE_GROUP",
+            "interventionModelDescription": "Prospective cohort Study",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 48,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Fills the criteria for fampridine treatment\n* Fills the diagnostic McDonald criteria for MS\n* Age between 18 and 100 years\n* EDSS between 4 and 7\n\nExclusion Criteria:\n\n* Diagnosed epilepsy\n* MS attack or an acute decrease of functional capacity within the last 60 days\n* Change in immunomodulatory treatment within the last 60 days\n* Cancer within the last 5 years\n* Clinically significant systemic disease\n* Concurrent treatment with cimetidine, carvediol, propanolol and metformine",
+          "healthyVolunteers": false,
+          "maximumAge": "100 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "acronym": "MUST",
+          "briefTitle": "Muscle Strain in Multiple Sclerosis Patients Measured by Ultrasound Speckle Tracking Technique",
+          "nctId": "NCT03847545",
+          "officialTitle": "Muscle Strain in Multiple Sclerosis Patients Measured by Ultrasound Speckle Tracking",
+          "orgStudyIdInfo": {
+            "id": "mariathorning"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "University of Southern Denmark"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "accessCriteria": "All data are hosted at OPEN (Odense Patient Explorative Network), which allows data sharing upon request.",
+          "description": "Yes: There is a plan to make IPD and related data dictionaries available.",
+          "infoTypes": [
+            "STUDY_PROTOCOL",
+            "SAP",
+            "ICF",
+            "CSR"
+          ],
+          "ipdSharing": "YES",
+          "timeFrame": "Data will become availerble six months after submission. Time period of five years.",
+          "url": "https://www.sdu.dk/en/om_sdu/institutter_centre/klinisk_institut/forskning/forskningsenheder/open.aspx"
+        },
+        "outcomesModule": {
+          "otherOutcomes": [
+            {
+              "description": "Change in EDSS. The scale ranges from 0 to 10, where 0 indicates that the patient is unaffected by the disease, while 10 indicates death by MS.",
+              "measure": "Neurological examination - Expanded Disability Status Scale (EDSS)",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in MSIS. Normal examination corresponds to the value 0 and the theoretical maximum score is 204.",
+              "measure": "Neurological examination - Multiple Sclerosis Impairment Scale (MSIS)",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in time it takes the participant to collect 9 sticks individually by hand and put them in 9 holes and then to remove them again. The test is performed with each hand.",
+              "measure": "Functional test - Nine Hole Peg Test (9HPT)",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in peak range of motion (degrees) for ankle, knee and hip in sagittal, frontal and transverse plane. Measures are captured during a 3D Vicon gait analysis.",
+              "measure": "Peak range of motion (kinematic) - (subgroup of 30 allocated to 3D gait analysis)",
+              "timeFrame": "Baseline, 14 days (follow-up from baseline), 52 weeks (follow-up from \"baseline\" and \"14 days\")"
+            },
+            {
+              "description": "Change in peak and mean joint moments (Nm \u00b7 BW-1) for ankle, knee and hip in sagittal, frontal and transverse plane. Measures are captured during a 3D Vicon gait analysis. relevant kinetic measures using a 3D Vicon motion capture analysis.",
+              "measure": "Peak and mean joint moments (kinetic) - (subgroup of 30 allocated to 3D gait analysis)",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in single support (percentage of stride)",
+              "measure": "Single support - (subgroup of 30 allocated to 3D gait analysis)",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change Limp Index (left vs. right in %)",
+              "measure": "Single Limp Index - (subgroup of 30 allocated to 3D gait analysis)",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in OSS. Symptoms are rated between 1 (minimal symptoms) and 5 (severe symptoms). The total score of the 12 questions combined is minimum 12 and maximum 60.",
+              "measure": "Questionnaire - Oxford Shoulder Score (OSS), Danish version",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in the University of California Los Angeles activity-level rating (UCLA activity scale), Danish version. On a 10-point scale, the option is marked that matches the level of intensity and frequency of physical activity best, where 1 =\"Wholly inactive: depend on others, cannot leave residence, and 10 =\" Regularly participates in impact sports\".",
+              "measure": "Questionnaire - UCLA Activity Scale, Danish version",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in neurofilament light- biomarker for neurodegeneration. Simoa ELISA in serum/plasma pg/ml",
+              "measure": "Neurofilament light",
+              "timeFrame": "Baseline, 14 days (follow-up from baseline), 52 weeks (follow-up from \"baseline\" and \"14 days\")"
+            },
+            {
+              "description": "Change in TNF - biomarker for inflammation, ELISA in plasma/serum pg/ml",
+              "measure": "TNF",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in TNFR1 - biomarker for inflammation, ELISA in plasma/serum pg/ml",
+              "measure": "TNFR1",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in TNFR2 - biomarker for inflammation, ELISA in plasma/serum pg/ml",
+              "measure": "TNFR2",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in IL-1alpha, biomarker for inflammation, ELISA in plasma/serum pg/ml",
+              "measure": "IL-1alpha",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in IL-1beta - biomarker for inflammation, ELISA in plasma/serum pg/ml",
+              "measure": "IL-1beta",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in IL-1Ra - biomarker for inflammation, ELISA in plasma/serum pg/ml",
+              "measure": "IL-1Ra",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in Creatinin phosphokinase - biomarker for muscle function, Enzymassay in plasma/serum micromol/L",
+              "measure": "Creatinin phosphokinase",
+              "timeFrame": "Baseline, 14 days (follow-up from baseline), 52 weeks (follow-up from \"baseline\" and \"14 days\")"
+            },
+            {
+              "description": "Change in Lactate dehydrogenase - biomarker for muscle function, Enzymassay Plasma U/liter",
+              "measure": "Lactate dehydrogenase",
+              "timeFrame": "Baseline, 14 days (follow-up from baseline), 52 weeks (follow-up from \"baseline\" and \"14 days\")"
+            },
+            {
+              "description": "Change in myoglobin - biomarker for muscle function, ELISA in urine and plasma microg/L",
+              "measure": "Myoglobin",
+              "timeFrame": "Baseline, 14 days (follow-up from baseline), 52 weeks (follow-up from \"baseline\" and \"14 days\")"
+            },
+            {
+              "description": "Change in Skeletal troponin - biomarker for muscle function, ELISA in serum/plasma microg/L",
+              "measure": "Skeletal troponin",
+              "timeFrame": "Baseline, 14 days (follow-up from baseline), 52 weeks (follow-up from \"baseline\" and \"14 days\")"
+            },
+            {
+              "description": "Change in eGFR - biomarker for kidney function, serum/plasma ml/min.",
+              "measure": "eGFR",
+              "timeFrame": "Baseline, 14 days (follow-up from baseline), 52 weeks (follow-up from \"baseline\" and \"14 days\")"
+            },
+            {
+              "description": "Testing for UTI - marker for infection, using strips",
+              "measure": "Test for urinary tract infection (UTI)",
+              "timeFrame": "Baseline, 14 days follow-up, 52 weeks follow-up"
+            },
+            {
+              "description": "Change in muscle strain (percentage of deformation during a contractile cycle of the muscle) before and during fampridine treatment. The muscle strain will be measured during submaximal isometric contractions of 40%, 60% and 80%.",
+              "measure": "Muscle strain of the supraspinatus muscle",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in muscle strain (percentage of deformation during a contractile cycle of the muscle) before and during fampridine treatment. The muscle strain will be measured during submaximal isometric contractions of 20% 40% and 60%.",
+              "measure": "Muscle strain of the biceps brachii muscle",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in muscle strain (percentage of deformation during a contractile cycle of the muscle) before and during fampridine treatment. The muscle strain will be measured during submaximal isometric contractions of 20% 40% and 60%.",
+              "measure": "Muscle strain of the soleus muscle",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in IL-2 - biomarker for inflammation, ELISA in plasma/serum pg/ml",
+              "measure": "IL-2",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in IL-4 - biomarker for inflammation, ELISA in plasma/serum pg/ml",
+              "measure": "IL-4",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in IL-8 - biomarker for inflammation, ELISA in plasma/serum pg/ml",
+              "measure": "IL-8",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in IL-17 - biomarker for inflammation, ELISA in plasma/serum pg/ml",
+              "measure": "IL-17",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in INF-gamma - ELISA in plasma/serum pg/ml",
+              "measure": "INF-gamma",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in Glial fibrillary acidic protein - biomarker for neurodegeneration. Simoa ELISA in serum/plasma pg/ml",
+              "measure": "Glial fibrillary acidic protein (GFAP)",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            }
+          ],
+          "primaryOutcomes": [
+            {
+              "description": "Change in GPS. GPS is a summary measure of kinematic data. The GPS evaluates the overall quality of gait by comparing nine kinematic variables, described as Gait Variable Scores (GVS), relative to normative data.\n\nGPS is the root mean square (RMS) difference between the data of relevant kinematic variables of an individual patient and the averaged data from a reference group comprised of people without gait impairments.\n\nOriginally we had registred that we would use the Gait Deviation Index (GDI). GDI is a unitless value from 0 to 100. It is based upon kinematic data and is an overall quantitative index that summarises the overall gait pathology into a single score for each patient by comparison with non-pathological gait.\n\nThe GDI and GPS is highly correlated. We chose to use the GPS due to the inclusion of the GVS.",
+              "measure": "Gait Profile Score (GPS) - (subgroup of 30 allocated to 3D gait analysis)",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Change in GVS. GVS refers to the Root Mean Square difference between the data of the following kinematic variables of an individual patient and the averaged data from a reference group comprised of people without gait impairments:\n\nPelvic tilt, obliquity and rotation; hip flexion-extension, adduction-abduction, and rotation; knee flexion-extension; ankle dorsiflexion; and foot progression.",
+              "measure": "Gait Variable Scores (GVS) - (subgroup of 30 allocated to 3D gait analysis)",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in time it takes the participant to walk through a rectangular area of 1x 5 meters while 5 cylinder blocks must be kicked out of 5 circles marked on the floor.",
+              "measure": "Functional test - 6 Spot Step Test (SSST)",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in time it takes the participant to walk as safe and as quickly as possible through a straight clearly marked lane of 7.62 meters (25 feet).",
+              "measure": "Functional test - Timed 25 Footwalk (T25-FW)",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in distance that the participant is able to walk in 2 minutes.",
+              "measure": "Functional test - 2-minute Walk Test (2MWT)",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in walking speed (m/s)",
+              "measure": "Walking speed - (subgroup of 30 allocated to 3D gait analysis)",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in step length (m)",
+              "measure": "Step length - (subgroup of 30 allocated to 3D gait analysis)",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in step width (m)",
+              "measure": "Step width - (subgroup of 30 allocated to 3D gait analysis)",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in stride length (m)",
+              "measure": "Stride length - (subgroup of 30 allocated to 3D gait analysis)",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in cadence (steps/min.)",
+              "measure": "Cadence - (subgroup of 30 allocated to 3D gait analysis)",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            },
+            {
+              "description": "Change in MSWS-12. Data is converted to a scale from 0 to 100, where 0 represents the best and 100 the worst. A change score of at least -4 represents a clinically meaningful improvement in the gait function.",
+              "measure": "Questionnaire - 12-Item Multiple Sclerosis Walking Scale (MSWS-12), Danish version",
+              "timeFrame": "Baseline, 14 days (Change from baseline to 14 days follow-up)"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": true
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Gottberg K, Einarsson U, Ytterberg C, de Pedro Cuesta J, Fredrikson S, von Koch L, Widen Holmqvist L. Health-related quality of life in a population-based sample of people with multiple sclerosis in Stockholm County. Mult Scler. 2006 Oct;12(5):605-12. doi: 10.1177/1352458505070660.",
+              "pmid": "17086907",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Goodman AD, Brown TR, Edwards KR, Krupp LB, Schapiro RT, Cohen R, Marinucci LN, Blight AR; MSF204 Investigators. A phase 3 trial of extended release oral dalfampridine in multiple sclerosis. Ann Neurol. 2010 Oct;68(4):494-502. doi: 10.1002/ana.22240.",
+              "pmid": "20976768",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Goodman AD, Brown TR, Krupp LB, Schapiro RT, Schwid SR, Cohen R, Marinucci LN, Blight AR; Fampridine MS-F203 Investigators. Sustained-release oral fampridine in multiple sclerosis: a randomised, double-blind, controlled trial. Lancet. 2009 Feb 28;373(9665):732-8. doi: 10.1016/S0140-6736(09)60442-6.",
+              "pmid": "19249634",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Solari A, Uitdehaag B, Giuliani G, Pucci E, Taus C. Aminopyridines for symptomatic treatment in multiple sclerosis. Cochrane Database Syst Rev. 2001;2002(4):CD001330. doi: 10.1002/14651858.CD001330.",
+              "pmid": "11687106",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Jensen H, Ravnborg M, Mamoei S, Dalgas U, Stenager E. Changes in cognition, arm function and lower body function after slow-release Fampridine treatment. Mult Scler. 2014 Dec;20(14):1872-80. doi: 10.1177/1352458514533844. Epub 2014 May 22.",
+              "pmid": "24852920",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Jensen HB, Mamoei S, Ravnborg M, Dalgas U, Stenager E. Distribution-based estimates of minimum clinically important difference in cognition, arm function and lower body function after slow release-fampridine treatment of patients with multiple sclerosis. Mult Scler Relat Disord. 2016 May;7:58-60. doi: 10.1016/j.msard.2016.03.007. Epub 2016 Mar 18.",
+              "pmid": "27237758",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Jensen HB, Ravnborg M, Dalgas U, Stenager E. 4-Aminopyridine for symptomatic treatment of multiple sclerosis: a systematic review. Ther Adv Neurol Disord. 2014 Mar;7(2):97-113. doi: 10.1177/1756285613512712.",
+              "pmid": "24587826",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Mondillo S, Galderisi M, Mele D, Cameli M, Lomoriello VS, Zaca V, Ballo P, D'Andrea A, Muraru D, Losi M, Agricola E, D'Errico A, Buralli S, Sciomer S, Nistri S, Badano L; Echocardiography Study Group Of The Italian Society Of Cardiology (Rome, Italy). Speckle-tracking echocardiography: a new technique for assessing myocardial function. J Ultrasound Med. 2011 Jan;30(1):71-83. doi: 10.7863/jum.2011.30.1.71.",
+              "pmid": "21193707",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Frich, L.H., et al., Direct isometric muscle strain analyses using speckle tracking technology. A validation study, in European Muscle Conference 2017. 2017, Journal of Muscle Research and Cell Motility: Potsdam",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Thorning M, Nielsen HH, Frich LH, Jensen HB, Lambertsen KL, Holsgaard-Larsen A. Gait quality and function after fampridine treatment in patients with multiple sclerosis - A prospective cohort study. Clin Biomech (Bristol). 2022 Dec;100:105826. doi: 10.1016/j.clinbiomech.2022.105826. Epub 2022 Nov 17.",
+              "pmid": "36436320",
+              "type": "DERIVED"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "OTHER",
+              "name": "Odense University Hospital"
+            },
+            {
+              "class": "OTHER",
+              "name": "Sygehus Lillebaelt"
+            },
+            {
+              "class": "OTHER",
+              "name": "Region of Southern Denmark"
+            },
+            {
+              "class": "OTHER",
+              "name": "The Augustinus Foundation, Denmark."
+            },
+            {
+              "class": "UNKNOWN",
+              "name": "Lounk\u00e6r Fonden"
+            },
+            {
+              "class": "UNKNOWN",
+              "name": "Fonden for scleroseramte p\u00e5 Fyn"
+            },
+            {
+              "class": "UNKNOWN",
+              "name": "The Danish Multiple Sclerosis Society"
+            },
+            {
+              "class": "UNKNOWN",
+              "name": "TH MAIGAARDS EFTF. FRU LILY BENTHINE LUNDS FOND AF 1. JUNI 1978"
+            },
+            {
+              "class": "OTHER",
+              "name": "Fonden til L\u00e6gevidenskabens Fremme"
+            },
+            {
+              "class": "UNKNOWN",
+              "name": "Overl\u00e6ger\u00e5ds forskningsfond"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "University of Southern Denmark"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2021-10-15",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2022-04-05",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2022-03-31",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2021-10-15",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2018-12-12",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2022-03",
+          "studyFirstPostDateStruct": {
+            "date": "2019-02-20",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2018-12-19",
+          "studyFirstSubmitQcDate": "2019-02-18"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D003240",
+              "term": "Connective Tissue Diseases"
+            },
+            {
+              "id": "D017437",
+              "term": "Skin and Connective Tissue Diseases"
+            },
+            {
+              "id": "D012871",
+              "term": "Skin Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D012595",
+              "term": "Scleroderma, Systemic"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "meshes": [
+            {
+              "id": "C046429",
+              "term": "macrophage-derived immunosuppressor factor"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Receive the best basic treatment",
+              "interventionNames": [
+                "Drug: Basic treatment"
+              ],
+              "label": "Phase II-Placebo group",
+              "type": "PLACEBO_COMPARATOR"
+            },
+            {
+              "description": "Receive the best basic treatment and a million cells per kilogram of body weight",
+              "interventionNames": [
+                "Drug: RY_SW01 cell injection",
+                "Drug: Basic treatment"
+              ],
+              "label": "Phase II-low-does group",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Receive the best basic treatment and two million cells per kilogram of body weight",
+              "interventionNames": [
+                "Drug: RY_SW01 cell injection",
+                "Drug: Basic treatment"
+              ],
+              "label": "Phase II-high does group",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Phase II-high does group",
+                "Phase II-low-does group"
+              ],
+              "description": "Administer basic treatment with an injection of RY\\_SW01 cell solution",
+              "name": "RY_SW01 cell injection",
+              "otherNames": [
+                "UC-MSC treatment"
+              ],
+              "type": "DRUG"
+            },
+            {
+              "armGroupLabels": [
+                "Phase II-Placebo group",
+                "Phase II-high does group",
+                "Phase II-low-does group"
+              ],
+              "description": "Basic treatment for SSc",
+              "name": "Basic treatment",
+              "otherNames": [
+                "immunosuppressor"
+              ],
+              "type": "DRUG"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Systemic Sclerosis"
+          ],
+          "keywords": [
+            "RY_SW01 cell injection"
+          ]
+        },
+        "contactsLocationsModule": {
+          "centralContacts": [
+            {
+              "email": "weining@rybiotech.cn",
+              "name": "Ning Wei",
+              "phone": "15852926678",
+              "role": "CONTACT"
+            },
+            {
+              "email": "wangjing@rybiotech.cn",
+              "name": "Jing Wang",
+              "phone": "025-86162919",
+              "role": "CONTACT"
+            }
+          ],
+          "locations": [
+            {
+              "city": "Nanjing",
+              "contacts": [
+                {
+                  "name": "Sun Lingyun, MD",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "China",
+              "facility": "Department of Rheumatology and Immunology, Nanjing Drum Tower Hospital, the Affiliated Drum Tower Hospital of Nanjing University Medical School",
+              "geoPoint": {
+                "lat": 32.06167,
+                "lon": 118.77778
+              },
+              "state": "Jiangsu",
+              "status": "RECRUITING",
+              "zip": "210008"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Jiangsu Renocell Biotech Company",
+              "name": "Jing Wang",
+              "role": "STUDY_DIRECTOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Systemic sclerosis (SSc) tends to progress to involve multiple vital organs within 5 years of diagnosis, significantly impacting patient prognosis and survival. Clinical indications suggest that early intervention is more favorable for long-term outcomes in patients. Although guidelines recommend various drugs for symptomatic treatment, there is currently no standard therapy or effective medication to slow the progression of the disease. Therefore, for patients with diffuse SSc, as defined by a skin score of 10\u2264mRSS\u226430 points, who have been treated with at least two therapies, including steroids, immunosuppressive agents, biologics, etc., within 5 years of diagnosis, the applicant intends to develop a drug that can both modulate the immune system and counteract fibrosis. The goal is to provide long-term benefits to patients through early intervention.",
+          "detailedDescription": "This clinical trial is a multicenter Phase I/II clinical trial, which includes two stages: Phase I dose-escalation and Phase II dose-expansion. The Phase I dose-escalation stage adopts a single-arm trial design, aiming to explore the safety, tolerability, and preliminary efficacy of RY\\_SW01 cell injection in treating patients with systemic sclerosis. The Phase II dose-expansion stage adopts a randomized, double-blind controlled trial design, intending to explore the safety, efficacy, and changes in disease-related biomarkers of RY\\_SW01 cell injection in treating systemic sclerosis patients.\n\nBased on the characteristics of this product and pre-clinical study data, as well as integrating the safety and efficacy data of similar types of drugs and clinical trials for the same or similar indications published domestically and internationally, the researchers and sponsors jointly selected the trial exploration doses as low dose 1.0\u00d710\\^6 cells/kg and high dose 2.0\u00d710\\^6 cells/kg.\n\nThe trial will enroll systemic sclerosis patients aged \u226518 and \u226465 years, who must meet all inclusion criteria and none of the exclusion criteria. Approximately 81-87 subjects are planned to be enrolled to undergo dose-escalation and dose-expansion trials with RY\\_SW01 cell injection. The dose-escalation stage plans to enroll 6-12 evaluable subjects, and the dose-expansion stage plans to enroll 75 subjects."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "QUADRUPLE",
+              "whoMasked": [
+                "PARTICIPANT",
+                "CARE_PROVIDER",
+                "INVESTIGATOR",
+                "OUTCOMES_ASSESSOR"
+              ]
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 81,
+            "type": "ESTIMATED"
+          },
+          "phases": [
+            "PHASE1",
+            "PHASE2"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Voluntarily sign the informed consent form.\n2. Aged between 18 and 65 years (inclusive), regardless of gender.\n3. Diagnosed with systemic sclerosis (SSc) based on the 2013 American College of Rheumatology (ACR)/European League Against Rheumatism (EULAR) criteria for SSc.\n4. Screened as diffuse cutaneous SSc patients with a disease duration of \u22645 years (disease onset defined as the time of the initial diagnosis of SSc).\n5. Previously treated with at least two of the following therapies: corticosteroids, immunosuppressants, biologic agents, and others, and have a skin score of 10\u2264mRSS\u226430 points.\n\nExclusion Criteria:\n\n1. At screening, subjects with a forced vital capacity (FVC) predicted percentage \\<50%.\n2. Previously diagnosed with pulmonary arterial hypertension or, at rest, had a mean pulmonary arterial pressure \\>25mmHg measured by right heart catheterization or had a systolic pulmonary artery pressure \\>45mmHg measured by echocardiography at screening.\n3. Presence of clinical symptoms requiring hospitalization for one of the following conditions at screening, whether newly occurring or worsening of pre-existing symptoms within 6 months: myocardial infarction, stroke, renal crisis, severe uncontrolled hypertension (\u2265160/100mmHg); or within 3 months: unstable ischemic heart disease, uncontrolled arrhythmia, heart failure (New York Heart Association III/IV stage), left ventricular ejection fraction \\<50% as indicated by echocardiography, renal insufficiency, or hypertensive crisis as judged by the investigator.\n4. Concurrent autoimmune connective tissue diseases other than systemic sclerosis, with the exception of patients with secondary Sj\u00f6gren's syndrome.\n5. Presence of any of the following laboratory abnormalities at screening:\n\n   1. Hematology abnormalities: Hemoglobin \\<100g/L; White blood cell count \\<3.0\u00d7109/L; Neutrophil absolute count \\<1.5\u00d7109/L; Platelet count \\<100\u00d7109/L.\n   2. Hepatic function abnormalities: ALT or AST \\>3 times the upper limit of normal (ULN); Total bilirubin \\>3 times ULN.\n   3. Renal function abnormalities: Estimated glomerular filtration rate (eGFR) \\<60mL/min/1.73m2 or any clinically significant laboratory abnormalities that may affect the interpretation of study data or the subject's participation in the study as determined by the investigator.\n6. Positive testing for human immunodeficiency virus (HIV) antibody, active syphilis, active hepatitis C (positive HCV antibodies and positive HCV-RNA), HBsAg positive and HBV-DNA positive at screening; history of severe active bacterial, viral, fungal, parasitic, or other infections during the screening period.\n7. Receipt of live vaccines/attenuated vaccines within 2 months prior to enrollment.\n8. Occurrence of any of the following within 3 months prior to enrollment: a. Major trauma or major surgery (including joint surgery) or anticipated major surgery during the study, which the investigator believes would pose an unacceptable risk to the subject. b. Plasma exchange or extracorporeal photopheresis treatment. c. Participation in any other clinical trials.\n9. Prior treatment with stem cell-related drugs.\n10. History of any malignancy within the past 5 years prior to enrollment, except for adequately treated or excised basal cell carcinoma, squamous cell carcinoma of the skin, or in situ cervical carcinoma.\n11. Intolerance or contraindication to the study treatment, including any of the following: a. Allergy to albumin contained in the investigational product excipient. b. Lack of suitable peripheral venous access.\n12. History of smoking, alcohol abuse, or drug abuse within the past 12 months or during the screening period:\n\n    1. Smoking defined as an average daily consumption of \u22655 cigarettes within the 3 months prior to screening.\n    2. Alcohol abuse defined as consuming more than 14 units of alcohol per week (1 unit of alcohol = 350ml of beer, or 45ml of spirits, or 150ml of wine) within the 3 months prior to screening.\n    3. Drug abuse defined as having a history of drug abuse.\n13. Plans for conception during the trial period until at least 1 year after cell infusion, unwillingness to use effective contraceptive measures with their partners, or plans for sperm or egg donation.\n14. Deemed unsuitable for participation in the study by the investigator.",
+          "healthyVolunteers": false,
+          "maximumAge": "65 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "RY_SW01 Cell Injection Therapy in Systemic Sclerosis",
+          "nctId": "NCT06058091",
+          "officialTitle": "A Multicenter Phase I/II Clinical Trial to Evaluate the Safety, Tolerability, and Efficacy of RY_SW01 Cell Injection Therapy in Systemic Sclerosis",
+          "orgStudyIdInfo": {
+            "id": "RYSW202301"
+          },
+          "organization": {
+            "class": "INDUSTRY",
+            "fullName": "Jiangsu Renocell Biotech Company"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "measure": "Frequency of Adverse Events",
+              "timeFrame": "24 weeks"
+            },
+            {
+              "measure": "Change of mRSS",
+              "timeFrame": "24 weeks"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "measure": "Change in mRSS from baseline",
+              "timeFrame": "12 weeks"
+            },
+            {
+              "measure": "Change in lung function (FVC predicted percentage) from baselineRY_SW01 cell injection.",
+              "timeFrame": "24 weeks"
+            },
+            {
+              "measure": "Proportion of subjects with treatment failure.",
+              "timeFrame": "24 weeks"
+            },
+            {
+              "measure": "Proportion of subjects showing improvement in mRSScell injection (Improvement defined as a decrease in mRSS from baseline by \u226525%).",
+              "timeFrame": "24 weeks"
+            },
+            {
+              "measure": "Change in Health Assessment Questionnaire-Disability Index (HAQ-DI) from baseline to 24 weeks after RY_SW01 cell injection.",
+              "timeFrame": "24 weeks"
+            },
+            {
+              "description": "TNFR1, anti-Scl-70 antibodies, IL-6, TGF-\u03b2\uff0cTNF-a,Th17",
+              "measure": "Biological markerTGF-\u03b2, VEGF, TNF-a, and Th17 cell subset proportions from baseline to 12 and 24 weeks after RY_SW01 cell injection.",
+              "timeFrame": "12weeks 24weeks"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "OTHER",
+              "name": "The Affiliated Nanjing Drum Tower Hospital of Nanjing University Medical School"
+            }
+          ],
+          "leadSponsor": {
+            "class": "INDUSTRY",
+            "name": "Jiangsu Renocell Biotech Company"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "The Affiliated Nanjing Drum Tower Hospital of Nanjing University Medical School",
+            "investigatorFullName": "Sun Lingyun, MD",
+            "investigatorTitle": "The Affiliated Nanjing Drum Tower Hospital of Nanjing University Medical School",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2035-12-31",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2024-01-18",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2024-01-15",
+          "overallStatus": "RECRUITING",
+          "primaryCompletionDateStruct": {
+            "date": "2025-12-31",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2023-09-22",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2024-01",
+          "studyFirstPostDateStruct": {
+            "date": "2023-09-28",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2023-09-21",
+          "studyFirstSubmitQcDate": "2023-09-21"
+        }
+      }
+    }
+  ]
+}

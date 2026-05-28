@@ -1,0 +1,93 @@
+{
+  "call_counts": {
+    "NO_GO_DYNAMIC_CONTROLLER": 5,
+    "NO_GO_L1000_ONLY_CONTROLLER": 9,
+    "PARK_SELECTIVE_PERTURBATION_BUT_TRANSLATION_BLOCKED": 2,
+    "PARK_STRONG_PERTURBATION_NO_DRUGGABLE_HANDLE": 1
+  },
+  "interpretation": "MED16 remains the cleanest selective perturbation comparator, but it has no direct druggable handle. L1000-only reversals and broad kinase/cytotoxic signatures are insufficient for a therapeutic claim.",
+  "n_candidates": 17,
+  "seed": 20260527,
+  "top_dynamic_scores": [
+    {
+      "candidate": "MED16",
+      "direct_generic_ifn_suppression": 0.797854931783739,
+      "direct_selectivity_score": 2.3051173986620066,
+      "direct_target_suppression": 3.139501453617054,
+      "dynamic_controller_score": 7.360234797324013,
+      "l1000_minus_generic_strength": NaN,
+      "manual_blocker": "Strong primary macrophage perturbation clue, but MED16 itself is not a drug target and CDK8/CDK19 loss does not phenocopy it in the local MHC-II CRISPR screen.",
+      "wave31_call": "PARK_STRONG_PERTURBATION_NO_DRUGGABLE_HANDLE"
+    },
+    {
+      "candidate": "CDK8_CDK19_MEDIATOR_KINASE",
+      "direct_generic_ifn_suppression": 0.797854931783739,
+      "direct_selectivity_score": 2.3051173986620066,
+      "direct_target_suppression": 3.139501453617054,
+      "dynamic_controller_score": 7.110234797324013,
+      "l1000_minus_generic_strength": NaN,
+      "manual_blocker": "Chemical matter exists, but Wave17 found broad IFN/IL-10/Treg prior art and no direct autoimmune APC inhibitor phenocopy.",
+      "wave31_call": "PARK_SELECTIVE_PERTURBATION_BUT_TRANSLATION_BLOCKED"
+    },
+    {
+      "candidate": "LRRK2",
+      "direct_generic_ifn_suppression": NaN,
+      "direct_selectivity_score": NaN,
+      "direct_target_suppression": NaN,
+      "dynamic_controller_score": 3.5670091121494467,
+      "l1000_minus_generic_strength": 20.268036448597787,
+      "manual_blocker": "L1000 antigen-presentation reversal exists for XMD-1150, but prior V3 gates found no shared cross-autoimmune module support beyond IBD-skewed biology.",
+      "wave31_call": "NO_GO_L1000_ONLY_CONTROLLER"
+    },
+    {
+      "candidate": "CTSB",
+      "direct_generic_ifn_suppression": NaN,
+      "direct_selectivity_score": NaN,
+      "direct_target_suppression": NaN,
+      "dynamic_controller_score": 2.123407531565819,
+      "l1000_minus_generic_strength": 16.993630126263277,
+      "manual_blocker": "L1000 CA-074-Me reversal does not overcome prior cathepsin selectivity and lysosomal repair-direction blockers.",
+      "wave31_call": "NO_GO_L1000_ONLY_CONTROLLER"
+    },
+    {
+      "candidate": "GSK3B",
+      "direct_generic_ifn_suppression": 0.7952007387801626,
+      "direct_selectivity_score": 0.7779563820432978,
+      "direct_target_suppression": 1.6223580114004137,
+      "dynamic_controller_score": 1.9282707754870092,
+      "l1000_minus_generic_strength": NaN,
+      "manual_blocker": "Primary macrophage perturbation is partially selective, but target genetics/local breadth are weak and chronic GSK3B modulation is pleiotropic.",
+      "wave31_call": "PARK_SELECTIVE_PERTURBATION_BUT_TRANSLATION_BLOCKED"
+    },
+    {
+      "candidate": "RFX5",
+      "direct_generic_ifn_suppression": 0.0,
+      "direct_selectivity_score": 0.5231987939104686,
+      "direct_target_suppression": 0.5517938735080701,
+      "dynamic_controller_score": 1.8481914613290074,
+      "l1000_minus_generic_strength": NaN,
+      "manual_blocker": "Mechanistically selective HLA-II gate but not a tractable drug target.",
+      "wave31_call": "NO_GO_DYNAMIC_CONTROLLER"
+    },
+    {
+      "candidate": "FAAH",
+      "direct_generic_ifn_suppression": NaN,
+      "direct_selectivity_score": NaN,
+      "direct_target_suppression": NaN,
+      "dynamic_controller_score": 1.8461147242234084,
+      "l1000_minus_generic_strength": 16.384458896893634,
+      "manual_blocker": "L1000 signal is not supported by V3 module genetics or immune-cell perturbation and overlaps prior inflammatory/pain biology.",
+      "wave31_call": "NO_GO_L1000_ONLY_CONTROLLER"
+    },
+    {
+      "candidate": "CTNNB1",
+      "direct_generic_ifn_suppression": NaN,
+      "direct_selectivity_score": NaN,
+      "direct_target_suppression": NaN,
+      "dynamic_controller_score": 1.8306575337178925,
+      "l1000_minus_generic_strength": 19.32263013487157,
+      "manual_blocker": "L1000 signal is cell-line only and Wnt/beta-catenin intervention is broad, tissue-context dependent, and not linked to the V3 module.",
+      "wave31_call": "NO_GO_L1000_ONLY_CONTROLLER"
+    }
+  ]
+}

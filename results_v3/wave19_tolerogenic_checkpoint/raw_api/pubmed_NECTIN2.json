@@ -1,0 +1,39 @@
+{
+  "esearchresult": {
+    "count": "9",
+    "idlist": [
+      "39088121",
+      "34694361",
+      "33413573"
+    ],
+    "querytranslation": "(\"nectin2 protein human\"[Supplementary Concept] OR \"nectin2 protein human\"[All Fields] OR \"nectin2\"[All Fields] OR (\"nectin2 protein human\"[Supplementary Concept] OR \"nectin2 protein human\"[All Fields] OR \"cd112\"[All Fields]) OR (\"nectin2 protein human\"[Supplementary Concept] OR \"nectin2 protein human\"[All Fields] OR \"pvrl2\"[All Fields])) AND ((\"tigit protein human\"[Supplementary Concept] OR \"tigit protein human\"[All Fields] OR \"tigit\"[All Fields]) AND (\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields]))",
+    "retmax": "3",
+    "retstart": "0",
+    "translationset": [
+      {
+        "from": "NECTIN2",
+        "to": "\"nectin2 protein, human\"[Supplementary Concept] OR \"nectin2 protein, human\"[All Fields] OR \"nectin2\"[All Fields]"
+      },
+      {
+        "from": "CD112",
+        "to": "\"nectin2 protein, human\"[Supplementary Concept] OR \"nectin2 protein, human\"[All Fields] OR \"cd112\"[All Fields]"
+      },
+      {
+        "from": "PVRL2",
+        "to": "\"nectin2 protein, human\"[Supplementary Concept] OR \"nectin2 protein, human\"[All Fields] OR \"pvrl2\"[All Fields]"
+      },
+      {
+        "from": "TIGIT",
+        "to": "\"tigit protein, human\"[Supplementary Concept] OR \"tigit protein, human\"[All Fields] OR \"tigit\"[All Fields]"
+      },
+      {
+        "from": "autoimmune",
+        "to": "\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields]"
+      }
+    ]
+  },
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  }
+}

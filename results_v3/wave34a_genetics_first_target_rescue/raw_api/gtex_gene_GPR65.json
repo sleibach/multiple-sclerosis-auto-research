@@ -1,0 +1,32 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr14",
+        "dataSource": "HAVANA",
+        "description": "G protein-coupled receptor 65 [Source:HGNC Symbol;Acc:HGNC:4517]",
+        "end": 88014811,
+        "entrezGeneId": 8477,
+        "gencodeId": "ENSG00000140030.5",
+        "gencodeVersion": "v26",
+        "geneStatus": "",
+        "geneSymbol": "GPR65",
+        "geneSymbolUpper": "GPR65",
+        "geneType": "protein coding",
+        "genomeBuild": "GRCh38/hg38",
+        "start": 88005124,
+        "strand": "+",
+        "tss": 88005124
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 3,
+      "numberOfPages": 1,
+      "page": 0,
+      "totalNumberOfItems": 1
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/reference/gene?geneId=GPR65&gencodeVersion=v26&genomeBuild=GRCh38%2Fhg38&itemsPerPage=3"
+}

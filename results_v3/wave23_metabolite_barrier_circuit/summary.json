@@ -1,0 +1,78 @@
+{
+  "candidate_gene_count": 67,
+  "gate_call_counts": {
+    "NO_GO": 7
+  },
+  "go_routes": [],
+  "inputs": {
+    "broad_h5ad": "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv",
+    "broad_residual_summary": "results_v3/broad_residual_gate/broad_residual_gate_summary.tsv",
+    "broad_residual_tests": "results_v3/broad_residual_gate/broad_residual_residual_tests.tsv",
+    "l1000_compounds": "results_v3/l1000fwd_compound_summary.tsv",
+    "l1000_hits": "results_v3/l1000fwd_reversal_hits.tsv",
+    "lincs_compoundinfo": "data/raw_v3/lincs2020/compoundinfo_beta.txt",
+    "ot_credible": "tmp_v3/wave13_opentargets_gwas_credible_sets.tsv",
+    "ot_reopen": "tmp_v3/wave13_opentargets_reopen_scores.tsv",
+    "wave15_l1000_selectivity": "results_v3/wave15_perturbation_drug_response/l1000fwd_selectivity_compound_rank.tsv",
+    "wave19_controller": "results_v3/wave19_orchestrator_controller_triage/wave19_controller_triage.tsv",
+    "wave19_lysosomal_local": "results_v3/wave19_lysosomal_controller/candidate_local_evidence.tsv",
+    "wave19_lysosomal_routes": "results_v3/wave19_lysosomal_controller/route_summary.tsv"
+  },
+  "no_go_routes": [
+    "eicosanoid_receptors",
+    "ahr_tryptophan",
+    "ppar_lxr_lipid_nuclear",
+    "scfa_ffar_hcar",
+    "bile_acid_fxr_tgr5",
+    "retinoid_vdr_rxr",
+    "s1p_receptors"
+  ],
+  "output_dir": "results_v3/wave23_metabolite_barrier_circuit",
+  "park_routes": [],
+  "route_count": 7,
+  "seed": 20260527,
+  "top_routes": [
+    {
+      "gate_call": "NO_GO",
+      "gate_rationale": "no local multi-disease genetics; crowded or blocking prior art",
+      "rank_score": 9.5,
+      "route": "eicosanoid_receptors"
+    },
+    {
+      "gate_call": "NO_GO",
+      "gate_rationale": "no local multi-disease genetics; no disease-signature L1000 support; crowded or blocking prior art",
+      "rank_score": 2.5,
+      "route": "ahr_tryptophan"
+    },
+    {
+      "gate_call": "NO_GO",
+      "gate_rationale": "no strict/residual route support; no local multi-disease genetics; crowded or blocking prior art",
+      "rank_score": 2.0,
+      "route": "ppar_lxr_lipid_nuclear"
+    },
+    {
+      "gate_call": "NO_GO",
+      "gate_rationale": "no strict/residual route support; no local multi-disease genetics; no disease-signature L1000 support; crowded or blocking prior art; expression-only route under V3 gates",
+      "rank_score": 1.0,
+      "route": "scfa_ffar_hcar"
+    },
+    {
+      "gate_call": "NO_GO",
+      "gate_rationale": "no strict/residual route support; no local multi-disease genetics; no disease-signature L1000 support; crowded or blocking prior art; expression-only route under V3 gates",
+      "rank_score": -0.5,
+      "route": "bile_acid_fxr_tgr5"
+    },
+    {
+      "gate_call": "NO_GO",
+      "gate_rationale": "no strict/residual route support; no local multi-disease genetics; crowded or blocking prior art",
+      "rank_score": -1.0,
+      "route": "retinoid_vdr_rxr"
+    },
+    {
+      "gate_call": "NO_GO",
+      "gate_rationale": "no strict/residual route support; no local multi-disease genetics; no disease-signature L1000 support; crowded or blocking prior art; expression-only route under V3 gates",
+      "rank_score": -3.0,
+      "route": "s1p_receptors"
+    }
+  ]
+}

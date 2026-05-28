@@ -1,0 +1,210 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "10026169",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "16835242",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17803907",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "18835251",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "23358419",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9430661",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Adapter protein which associates with tyrosine-phosphorylated growth factor receptors, such as KDR and PDGFRB, or their cellular substrates. Maintains low levels of EIF2S1 phosphorylation by promoting its dephosphorylation by PP1. Plays a role in the DNA damage response, not in the detection of the damage by ATM/ATR, but for efficient activation of downstream effectors, such as that of CHEK2. Plays a role in ELK1-dependent transcriptional activation in response to activated Ras signaling. Modulates the activation of EIF2AK2/PKR by dsRNA. May play a role in cell adhesion and migration through interaction with ephrin receptors"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "value": "Mostly cytoplasmic, but shuttles between the cytoplasm and the nucleus. Import into the nucleus requires the interaction with SOCS7. Predominantly nuclear following genotoxic stresses, such as UV irradiation, hydroxyurea or mitomycin C treatments"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0095",
+                "value": "Endoplasmic reticulum"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0191",
+                "value": "Nucleus"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000012FE3E"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "NCK1"
+          },
+          "synonyms": [
+            {
+              "value": "NCK"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0963",
+          "name": "Cytoplasm"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-0903",
+          "name": "Direct protein sequencing"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0256",
+          "name": "Endoplasmic reticulum"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0539",
+          "name": "Nucleus"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0677",
+          "name": "Repeat"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0727",
+          "name": "SH2 domain"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0728",
+          "name": "SH3 domain"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0810",
+          "name": "Translation regulation"
+        }
+      ],
+      "primaryAccession": "P16333",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Cytoplasmic protein NCK1"
+            }
+          },
+          {
+            "fullName": {
+              "value": "NCK adapter protein 1"
+            },
+            "shortNames": [
+              {
+                "value": "Nck-1"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "SH2/SH3 adapter protein NCK-alpha"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "SH2/SH3 adapter protein NCK1"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "554E9B1A936AEF30",
+        "length": 377,
+        "md5": "E8C571A646FA824507B79BB581464CBF",
+        "molWeight": 42864,
+        "value": "MAEEVVVVAKFDYVAQQEQELDIKKNERLWLLDDSKSWWRVRNSMNKTGFVPSNYVERKNSARKASIVKNLKDTLGIGKVKRKPSVPDSASPADDSFVDPGERLYDLNMPAYVKFNYMAEREDELSLIKGTKVIVMEKCSDGWWRGSYNGQVGWFPSNYVTEEGDSPLGDHVGSLSEKLAAVVNNLNTGQVLHVVQALYPFSSSNDEELNFEKGDVMDVIEKPENDPEWWKCRKINGMVGLVPKNYVTVMQNNPLTSGLEPSPPQCDYIRPSLTGKFAGNPWYYGKVTRHQAEMALNERGHEGDFLIRDSESSPNDFSVSLKAQGKNKHFKVQLKETVYCIGQRKFSTMEELVEHYKKAPIFTSEQGEKLYLVKHLS"
+      },
+      "uniProtkbId": "NCK1_HUMAN"
+    }
+  ]
+}

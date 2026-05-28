@@ -1,0 +1,18 @@
+{
+  "branch_call": "REOPEN_ACCESSIBLE_SURVIVOR_NICHE_CONTROLLER",
+  "call_counts": {
+    "NO_GO_DIRECTION_CONFLICTED_NICHE_SIGNAL": 4,
+    "REOPEN_NICHE_CONTROLLER_FOR_TARGET_SPECIFIC_FORCING": 1
+  },
+  "guardrail": "Matched-donor niche correlation is not causal and can still reflect shared tissue severity, medication, cell composition, or batch. It is used only as a forcing test for target-specific follow-up.",
+  "inputs": {
+    "donor_scores": "results_v3/wave102_accessible_survivor_residual_compartment_test/accessible_survivor_donor_scores.tsv",
+    "module_scores": "results_v3/direct_h5ad_cell_state/direct_h5ad_donor_module_scores.tsv",
+    "wave102": "results_v3/wave102_accessible_survivor_residual_compartment_test/accessible_survivor_residual_summary.tsv"
+  },
+  "n_pairs": 520,
+  "n_tests": 120,
+  "random_seed": 20260527,
+  "top_candidate": "CD82",
+  "top_candidate_call": "REOPEN_NICHE_CONTROLLER_FOR_TARGET_SPECIFIC_FORCING"
+}

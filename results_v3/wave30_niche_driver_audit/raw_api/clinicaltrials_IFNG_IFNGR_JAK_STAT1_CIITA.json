@@ -1,0 +1,185 @@
+{
+  "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxqZ_Sn3Pg",
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D017496",
+              "term": "Hypopigmentation"
+            },
+            {
+              "id": "D010859",
+              "term": "Pigmentation Disorders"
+            },
+            {
+              "id": "D012871",
+              "term": "Skin Diseases"
+            },
+            {
+              "id": "D017437",
+              "term": "Skin and Connective Tissue Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D014820",
+              "term": "Vitiligo"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "assess the level of JAK1 in vitiligo patients before and after treatment with NB-UVB",
+              "interventionNames": [
+                "Other: skin biopsy"
+              ],
+              "label": "vitiligo",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "assess the level of JAK1 in psoriasis patients before and after treatment with NB-UVB",
+              "interventionNames": [
+                "Other: skin biopsy"
+              ],
+              "label": "psoriasis",
+              "type": "ACTIVE_COMPARATOR"
+            },
+            {
+              "description": "assess the level of JAK1 in controls",
+              "interventionNames": [
+                "Other: skin biopsy"
+              ],
+              "label": "controls",
+              "type": "OTHER"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "controls",
+                "psoriasis",
+                "vitiligo"
+              ],
+              "description": "Two (4 mm) punch skin biopsies were taken from the 20 patients; one prior to the initiation of phototherapy and the other after the last session (from the same site). One skin biopsy was taken from the skin of each of the 10 control healthy participants. Skin biopsy specimens were preserved in Radio-Immunoprecipitation Assay (RIBA) buffer.",
+              "name": "skin biopsy",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Vitiligo"
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Assessment of the level of JAK1 in both vitiligo and psoriasis patients before and after treatment with NB-UVB which is considered a gold standard therapy for both diseases."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "NON_RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "OTHER"
+          },
+          "enrollmentInfo": {
+            "count": 30,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* age above 12 years of age.\n* psoriasis vulgaris or non-segmental vitiligo\n* patients who received no systemic or topical treatment at least 6 weeks prior to enrollment into the study.\n\nExclusion Criteria:\n\n* psoriasis patients with erythrodermic psoriasis, pustular psoriasis or associated psoriatic arthritis\n* vitiligo patients with segmental or universal vitiligo were excluded from the study.\n* any patient with a photosensitive disorder or any contraindication to phototherapy exposure, e.g., history or presence of malignant or premalignant skin lesions.",
+          "healthyVolunteers": true,
+          "minimumAge": "12 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Janus Kinase 1 in Vitiligo & Psoriasis",
+          "nctId": "NCT03762551",
+          "officialTitle": "Expression of Janus Kinase 1 in Vitiligo and Psoriasis Before and After Narrow Band UVB: a Case-Control Study",
+          "orgStudyIdInfo": {
+            "id": "Dermatology 11"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Cairo University"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "measure": "Measurement of the tissue level of JAK1 in both vitiligo and psoriasis patients before and after treatment with NB-UVB",
+              "timeFrame": "1 year"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Cairo University"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Cairo University",
+            "investigatorFullName": "Maha Fathy Elmasry",
+            "investigatorTitle": "principal investigator",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2016-11",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2018-12-03",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2018-11-30",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2016-11",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2015-12",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2015-11",
+          "studyFirstPostDateStruct": {
+            "date": "2018-12-03",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2018-11-30",
+          "studyFirstSubmitQcDate": "2018-11-30"
+        }
+      }
+    }
+  ],
+  "totalCount": 49
+}

@@ -1,0 +1,7 @@
+gene	target_chembl_id	total_count_reported	records_retained	cap	errors	n_activity_rows	unique_molecules	median_nM	min_nM	n_sub_100nM	n_sub_1000nM
+CTSH	CHEMBL2225	124.0	122	1500	[]	122.0	102.0	10000.0	0.46	6.0	24.0
+CTSS	CHEMBL2954	3171.0	1500	1500	[]	1500.0	1333.0	206.0	0.1	594.0	1106.0
+CTSB	CHEMBL4072	2568.0	1500	1500	[]	1500.0	1385.0	5249.5	0.03	182.0	430.0
+CTSL	CHEMBL3837	3176.0	997	1500	"[""HTTPSConnectionPool(host='www.ebi.ac.uk', port=443): Max retries exceeded with url: /chembl/api/data/activity.json?limit=1000&offset=1000&target_chembl_id=CHEMBL3837&standard_type__in=IC50%2CKi%2CEC50%2CPotency&standard_units=nM (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ebi.ac.uk', port=443) at 0x10dcd48c0>, 'Connection to www.ebi.ac.uk timed out. (connect timeout=30)'))""]"	997.0	931.0	1000.0	0.025	256.0	510.0
+CTSK	CHEMBL268		0	1500	"['HTTPSConnectionPool(host=\'www.ebi.ac.uk\', port=443): Max retries exceeded with url: /chembl/api/data/activity.json?target_chembl_id=CHEMBL268&limit=1000&standard_type__in=IC50%2CKi%2CEC50%2CPotency&standard_units=nM (Caused by NameResolutionError(""HTTPSConnection(host=\'www.ebi.ac.uk\', port=443): Failed to resolve \'www.ebi.ac.uk\' ([Errno 8] nodename nor servname provided, or not known)""))']"						
+CTSZ	CHEMBL4160	21.0	21	1500	[]	21.0	18.0	10000.0	10.0	1.0	3.0

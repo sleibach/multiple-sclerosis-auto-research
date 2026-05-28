@@ -1,0 +1,326 @@
+{
+  "json": {
+    "esearchresult": {
+      "count": "2",
+      "idlist": [
+        "36930113",
+        "34993975"
+      ],
+      "querytranslation": "\"SEL1L3\"[All Fields] AND (\"knockdown\"[All Fields] OR \"knockdowned\"[All Fields] OR \"knockdowns\"[All Fields] OR (\"knockout\"[All Fields] OR \"knockouts\"[All Fields]) OR \"knock-out\"[All Fields] OR (\"clustered regularly interspaced short palindromic repeats\"[MeSH Terms] OR (\"clustered\"[All Fields] AND \"regularly\"[All Fields] AND \"interspaced\"[All Fields] AND \"short\"[All Fields] AND \"palindromic\"[All Fields] AND \"repeats\"[All Fields]) OR \"clustered regularly interspaced short palindromic repeats\"[All Fields] OR \"crispr\"[All Fields] OR \"crisprs\"[All Fields]) OR (\"rna small interfering\"[Supplementary Concept] OR \"rna small interfering\"[All Fields] OR \"sirna\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR (\"rna\"[All Fields] AND \"small\"[All Fields] AND \"interfering\"[All Fields]) OR \"small interfering rna\"[All Fields] OR \"sirna s\"[All Fields] OR \"sirnas\"[All Fields]) OR (\"rna small interfering\"[Supplementary Concept] OR \"rna small interfering\"[All Fields] OR \"shrna\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR (\"rna\"[All Fields] AND \"small\"[All Fields] AND \"interfering\"[All Fields]) OR \"small interfering rna\"[All Fields] OR \"shrnas\"[All Fields]) OR (\"overexpress\"[All Fields] OR \"overexpressed\"[All Fields] OR \"overexpresser\"[All Fields] OR \"overexpressers\"[All Fields] OR \"overexpresses\"[All Fields] OR \"overexpressing\"[All Fields] OR \"overexpression\"[All Fields] OR \"overexpressions\"[All Fields]) OR (\"perturb\"[All Fields] OR \"perturbance\"[All Fields] OR \"perturbances\"[All Fields] OR \"perturbant\"[All Fields] OR \"perturbants\"[All Fields] OR \"perturbated\"[All Fields] OR \"perturbation\"[All Fields] OR \"perturbational\"[All Fields] OR \"perturbations\"[All Fields] OR \"perturbative\"[All Fields] OR \"perturbatively\"[All Fields] OR \"perturbed\"[All Fields] OR \"perturbing\"[All Fields] OR \"perturbs\"[All Fields])) AND (\"immune\"[All Fields] OR \"immuned\"[All Fields] OR \"immunes\"[All Fields] OR \"immunisation\"[All Fields] OR \"vaccination\"[MeSH Terms] OR \"vaccination\"[All Fields] OR \"immunization\"[All Fields] OR \"immunization\"[MeSH Terms] OR \"immunisations\"[All Fields] OR \"immunizations\"[All Fields] OR \"immunise\"[All Fields] OR \"immunised\"[All Fields] OR \"immuniser\"[All Fields] OR \"immunisers\"[All Fields] OR \"immunising\"[All Fields] OR \"immunities\"[All Fields] OR \"immunity\"[MeSH Terms] OR \"immunity\"[All Fields] OR \"immunization s\"[All Fields] OR \"immunize\"[All Fields] OR \"immunized\"[All Fields] OR \"immunizer\"[All Fields] OR \"immunizers\"[All Fields] OR \"immunizes\"[All Fields] OR \"immunizing\"[All Fields] OR (\"macrophagal\"[All Fields] OR \"macrophage s\"[All Fields] OR \"macrophageal\"[All Fields] OR \"macrophages\"[MeSH Terms] OR \"macrophages\"[All Fields] OR \"macrophage\"[All Fields] OR \"macrophagic\"[All Fields]) OR (\"monocyte s\"[All Fields] OR \"monocytes\"[MeSH Terms] OR \"monocytes\"[All Fields] OR \"monocyte\"[All Fields] OR \"monocytic\"[All Fields]) OR \"stromal\"[All Fields] OR (\"epithelial\"[All Fields] OR \"epithelially\"[All Fields] OR \"epithelials\"[All Fields]) OR (\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields]) OR (\"inflammation\"[MeSH Terms] OR \"inflammation\"[All Fields] OR \"inflammations\"[All Fields] OR \"inflammation s\"[All Fields]) OR (\"inflammatories\"[All Fields] OR \"inflammatory\"[All Fields]))",
+      "retmax": "2",
+      "retstart": "0",
+      "translationset": [
+        {
+          "from": "knockdown",
+          "to": "\"knockdown\"[All Fields] OR \"knockdowned\"[All Fields] OR \"knockdowns\"[All Fields]"
+        },
+        {
+          "from": "knockout",
+          "to": "\"knockout\"[All Fields] OR \"knockouts\"[All Fields]"
+        },
+        {
+          "from": "CRISPR",
+          "to": "\"clustered regularly interspaced short palindromic repeats\"[MeSH Terms] OR (\"clustered\"[All Fields] AND \"regularly\"[All Fields] AND \"interspaced\"[All Fields] AND \"short\"[All Fields] AND \"palindromic\"[All Fields] AND \"repeats\"[All Fields]) OR \"clustered regularly interspaced short palindromic repeats\"[All Fields] OR \"crispr\"[All Fields] OR \"crisprs\"[All Fields]"
+        },
+        {
+          "from": "siRNA",
+          "to": "\"rna, small interfering\"[Supplementary Concept] OR \"rna, small interfering\"[All Fields] OR \"sirna\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR (\"rna\"[All Fields] AND \"small\"[All Fields] AND \"interfering\"[All Fields]) OR \"small interfering rna\"[All Fields] OR \"sirna's\"[All Fields] OR \"sirnas\"[All Fields]"
+        },
+        {
+          "from": "shRNA",
+          "to": "\"rna, small interfering\"[Supplementary Concept] OR \"rna, small interfering\"[All Fields] OR \"shrna\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR (\"rna\"[All Fields] AND \"small\"[All Fields] AND \"interfering\"[All Fields]) OR \"small interfering rna\"[All Fields] OR \"shrnas\"[All Fields]"
+        },
+        {
+          "from": "overexpression",
+          "to": "\"overexpress\"[All Fields] OR \"overexpressed\"[All Fields] OR \"overexpresser\"[All Fields] OR \"overexpressers\"[All Fields] OR \"overexpresses\"[All Fields] OR \"overexpressing\"[All Fields] OR \"overexpression\"[All Fields] OR \"overexpressions\"[All Fields]"
+        },
+        {
+          "from": "perturbation",
+          "to": "\"perturb\"[All Fields] OR \"perturbance\"[All Fields] OR \"perturbances\"[All Fields] OR \"perturbant\"[All Fields] OR \"perturbants\"[All Fields] OR \"perturbated\"[All Fields] OR \"perturbation\"[All Fields] OR \"perturbational\"[All Fields] OR \"perturbations\"[All Fields] OR \"perturbative\"[All Fields] OR \"perturbatively\"[All Fields] OR \"perturbed\"[All Fields] OR \"perturbing\"[All Fields] OR \"perturbs\"[All Fields]"
+        },
+        {
+          "from": "immune",
+          "to": "\"immune\"[All Fields] OR \"immuned\"[All Fields] OR \"immunes\"[All Fields] OR \"immunisation\"[All Fields] OR \"vaccination\"[MeSH Terms] OR \"vaccination\"[All Fields] OR \"immunization\"[All Fields] OR \"immunization\"[MeSH Terms] OR \"immunisations\"[All Fields] OR \"immunizations\"[All Fields] OR \"immunise\"[All Fields] OR \"immunised\"[All Fields] OR \"immuniser\"[All Fields] OR \"immunisers\"[All Fields] OR \"immunising\"[All Fields] OR \"immunities\"[All Fields] OR \"immunity\"[MeSH Terms] OR \"immunity\"[All Fields] OR \"immunization's\"[All Fields] OR \"immunize\"[All Fields] OR \"immunized\"[All Fields] OR \"immunizer\"[All Fields] OR \"immunizers\"[All Fields] OR \"immunizes\"[All Fields] OR \"immunizing\"[All Fields]"
+        },
+        {
+          "from": "macrophage",
+          "to": "\"macrophagal\"[All Fields] OR \"macrophage's\"[All Fields] OR \"macrophageal\"[All Fields] OR \"macrophages\"[MeSH Terms] OR \"macrophages\"[All Fields] OR \"macrophage\"[All Fields] OR \"macrophagic\"[All Fields]"
+        },
+        {
+          "from": "monocyte",
+          "to": "\"monocyte's\"[All Fields] OR \"monocytes\"[MeSH Terms] OR \"monocytes\"[All Fields] OR \"monocyte\"[All Fields] OR \"monocytic\"[All Fields]"
+        },
+        {
+          "from": "epithelial",
+          "to": "\"epithelial\"[All Fields] OR \"epithelially\"[All Fields] OR \"epithelials\"[All Fields]"
+        },
+        {
+          "from": "autoimmune",
+          "to": "\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields]"
+        },
+        {
+          "from": "inflammation",
+          "to": "\"inflammation\"[MeSH Terms] OR \"inflammation\"[All Fields] OR \"inflammations\"[All Fields] OR \"inflammation's\"[All Fields]"
+        },
+        {
+          "from": "inflammatory",
+          "to": "\"inflammatories\"[All Fields] OR \"inflammatory\"[All Fields]"
+        }
+      ]
+    },
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    }
+  },
+  "status": 200,
+  "summary_json": {
+    "header": {
+      "type": "esummary",
+      "version": "0.3"
+    },
+    "result": {
+      "34993975": {
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "34993975"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1111/jre.12970"
+          }
+        ],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "authors": [
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Gao X"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Jiang C"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Yao S"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Ma L"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Wang X"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Cao Z"
+          }
+        ],
+        "availablefromurl": "",
+        "bookname": "",
+        "booktitle": "",
+        "chapter": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "doctype": "citation",
+        "edition": "",
+        "elocationid": "doi: 10.1111/jre.12970",
+        "epubdate": "2022 Jan 6",
+        "essn": "1600-0765",
+        "fulljournalname": "Journal of periodontal research",
+        "history": [
+          {
+            "date": "2021/12/18 00:00",
+            "pubstatus": "revised"
+          },
+          {
+            "date": "2021/09/06 00:00",
+            "pubstatus": "received"
+          },
+          {
+            "date": "2021/12/24 00:00",
+            "pubstatus": "accepted"
+          },
+          {
+            "date": "2022/01/08 06:00",
+            "pubstatus": "pubmed"
+          },
+          {
+            "date": "2022/03/12 06:00",
+            "pubstatus": "medline"
+          },
+          {
+            "date": "2022/01/07 06:48",
+            "pubstatus": "entrez"
+          }
+        ],
+        "issn": "0022-3484",
+        "issue": "2",
+        "lang": [
+          "eng"
+        ],
+        "lastauthor": "Cao Z",
+        "locationlabel": "",
+        "medium": "",
+        "nlmuniqueid": "0055107",
+        "pages": "392-401",
+        "pmcrefcount": "",
+        "pubdate": "2022 Apr",
+        "publisherlocation": "",
+        "publishername": "",
+        "pubstatus": "256",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "references": [],
+        "reportnumber": "",
+        "sortfirstauthor": "Gao X",
+        "sortpubdate": "2022/04/01 00:00",
+        "sorttitle": "identification of hub genes related to immune cell infiltration in periodontitis using integrated bioinformatic analysis",
+        "source": "J Periodontal Res",
+        "srccontriblist": [],
+        "srcdate": "",
+        "title": "Identification of hub genes related to immune cell infiltration in periodontitis using integrated bioinformatic analysis.",
+        "uid": "34993975",
+        "vernaculartitle": "",
+        "volume": "57"
+      },
+      "36930113": {
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "36930113"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC10019206"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC10019206;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1097/MD.0000000000033290"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "00005792-202303170-00050"
+          }
+        ],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "authors": [
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Hou C"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Wu M"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Zhang H"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Yang Z"
+          }
+        ],
+        "availablefromurl": "",
+        "bookname": "",
+        "booktitle": "",
+        "chapter": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "doctype": "citation",
+        "edition": "",
+        "elocationid": "doi: 10.1097/MD.0000000000033290",
+        "epubdate": "",
+        "essn": "1536-5964",
+        "fulljournalname": "Medicine",
+        "history": [
+          {
+            "date": "2023/03/17 11:23",
+            "pubstatus": "entrez"
+          },
+          {
+            "date": "2023/03/18 06:00",
+            "pubstatus": "pubmed"
+          },
+          {
+            "date": "2023/03/22 06:00",
+            "pubstatus": "medline"
+          },
+          {
+            "date": "2023/03/17 00:00",
+            "pubstatus": "pmc-release"
+          }
+        ],
+        "issn": "0025-7974",
+        "issue": "11",
+        "lang": [
+          "eng"
+        ],
+        "lastauthor": "Yang Z",
+        "locationlabel": "",
+        "medium": "",
+        "nlmuniqueid": "2985248R",
+        "pages": "e33290",
+        "pmcrefcount": 42,
+        "pubdate": "2023 Mar 17",
+        "publisherlocation": "",
+        "publishername": "",
+        "pubstatus": "4",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "references": [],
+        "reportnumber": "",
+        "sortfirstauthor": "Hou C",
+        "sortpubdate": "2023/03/17 00:00",
+        "sorttitle": "specific phagocytosis regulators could predict recurrence and therapeutic effect in thyroid cancer a study based on bioinformatics analysis",
+        "source": "Medicine (Baltimore)",
+        "srccontriblist": [],
+        "srcdate": "",
+        "title": "The specific phagocytosis regulators could predict recurrence and therapeutic effect in thyroid cancer: A study based on bioinformatics analysis.",
+        "uid": "36930113",
+        "vernaculartitle": "",
+        "volume": "102"
+      },
+      "uids": [
+        "36930113",
+        "34993975"
+      ]
+    }
+  },
+  "summary_status": 200,
+  "summary_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=36930113%2C34993975&retmode=json",
+  "text": null,
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=SEL1L3%5BAll+Fields%5D+AND+%28knockdown+OR+knockout+OR+knock-out+OR+CRISPR+OR+siRNA+OR+shRNA+OR+overexpression+OR+perturbation%29+AND+%28immune+OR+macrophage+OR+monocyte+OR+stromal+OR+epithelial+OR+autoimmune+OR+inflammation+OR+inflammatory%29&retmode=json&retmax=5"
+}

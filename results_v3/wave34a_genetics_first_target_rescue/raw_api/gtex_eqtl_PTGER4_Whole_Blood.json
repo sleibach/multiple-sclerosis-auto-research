@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr5",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000171522.5",
+        "geneSymbol": "PTGER4",
+        "geneSymbolUpper": "PTGER4",
+        "nes": 0.117454,
+        "ontologyId": "UBERON:0013756",
+        "pValue": 7.62169e-10,
+        "pos": 39680930,
+        "snpId": "rs72743787",
+        "snpIdUpper": "RS72743787",
+        "tissueSiteDetailId": "Whole_Blood",
+        "variantId": "chr5_39680930_A_G_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 401,
+      "page": 0,
+      "totalNumberOfItems": 401
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000171522.5&tissueSiteDetailId=Whole_Blood&datasetId=gtex_v8&itemsPerPage=1"
+}

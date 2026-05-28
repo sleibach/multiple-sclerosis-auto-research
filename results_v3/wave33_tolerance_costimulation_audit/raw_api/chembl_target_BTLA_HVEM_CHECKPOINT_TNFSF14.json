@@ -1,0 +1,382 @@
+{
+  "payload": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Tumor necrosis factor ligand superfamily member 14",
+        "score": 13.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL3712914",
+        "target_components": [
+          {
+            "accession": "O43557",
+            "component_description": "Tumor necrosis factor ligand superfamily member 14",
+            "component_id": 15068,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "CD_antigen=CD258",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Herpes virus entry mediator ligand",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Herpesvirus entry mediator ligand",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "HVEM-L",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "HVEML",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "LIGHT ",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "TNFSF14",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Tumor necrosis factor ligand superfamily member 14",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Tumor necrosis factor ligand superfamily member 14, membrane form",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Tumor necrosis factor ligand superfamily member 14, soluble form",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "O43557",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005102",
+                "xref_name": "signaling receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005125",
+                "xref_name": "cytokine activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005164",
+                "xref_name": "tumor necrosis factor receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0043027",
+                "xref_name": "cysteine-type endopeptidase inhibitor activity involved in apoptotic process",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0006915",
+                "xref_name": "apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006955",
+                "xref_name": "immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007165",
+                "xref_name": "signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007166",
+                "xref_name": "cell surface receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010818",
+                "xref_name": "T cell chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010820",
+                "xref_name": "positive regulation of T cell chemotaxis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031295",
+                "xref_name": "T cell costimulation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042098",
+                "xref_name": "T cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042110",
+                "xref_name": "T cell activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043029",
+                "xref_name": "T cell homeostasis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043123",
+                "xref_name": "positive regulation of canonical NF-kappaB signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045663",
+                "xref_name": "positive regulation of myoblast differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071260",
+                "xref_name": "cellular response to mechanical stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1901224",
+                "xref_name": "positive regulation of non-canonical NF-kappaB signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1901741",
+                "xref_name": "positive regulation of myoblast fusion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2001238",
+                "xref_name": "positive regulation of extrinsic apoptotic signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:11930",
+                "xref_name": "TNFSF14",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "O43557",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR006052",
+                "xref_name": "TNF_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR006053",
+                "xref_name": "TNF",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008983",
+                "xref_name": "Tumour_necrosis_fac-like_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR11471",
+                "xref_name": "TUMOR NECROSIS FACTOR FAMILY MEMBER",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR11471:SF34",
+                "xref_name": "TUMOR NECROSIS FACTOR LIGAND SUPERFAMILY MEMBER 14",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "4EN0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4J6G",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4KG8",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4KGG",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4KGQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4RSU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7MSG",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4EN0",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4J6G",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4KG8",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4KGG",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4KGQ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4RSU",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7MSG",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF00229",
+                "xref_name": "TNF",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA36622",
+                "xref_name": "TNF superfamily member 14",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "O43557",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-5668541",
+                "xref_name": "TNFR2 non-canonical NF-kB pathway",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5669034",
+                "xref_name": "TNFs bind their physiological receptors",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5676594",
+                "xref_name": "TNF receptor superfamily (TNFSF) members mediating non-canonical NF-kB pathway",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "A8K7M2",
+                "xref_name": "Tumor necrosis factor ligand superfamily member 14",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "C9J5H4",
+                "xref_name": "Tumor necrosis factor ligand superfamily member 14",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "O43557",
+                "xref_name": "Tumor necrosis factor ligand superfamily member 14",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "O75476",
+                "xref_name": "Tumor necrosis factor ligand superfamily member 14",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q6FHA1",
+                "xref_name": "Tumor necrosis factor ligand superfamily member 14",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q8WVF8",
+                "xref_name": "Tumor necrosis factor ligand superfamily member 14",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q96LD2",
+                "xref_name": "Tumor necrosis factor ligand superfamily member 14",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=TNFSF14"
+}

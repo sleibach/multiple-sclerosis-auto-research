@@ -1,0 +1,31 @@
+{
+  "esearchresult": {
+    "count": "315",
+    "idlist": [
+      "42173562",
+      "42129303",
+      "42117429"
+    ],
+    "querytranslation": "(\"havcr2 protein human\"[Supplementary Concept] OR \"havcr2 protein human\"[All Fields] OR \"havcr2\"[All Fields] OR \"TIM-3\"[All Fields] OR (\"havcr2 protein human\"[Supplementary Concept] OR \"havcr2 protein human\"[All Fields] OR \"tim3\"[All Fields])) AND (\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields])",
+    "retmax": "3",
+    "retstart": "0",
+    "translationset": [
+      {
+        "from": "HAVCR2",
+        "to": "\"havcr2 protein, human\"[Supplementary Concept] OR \"havcr2 protein, human\"[All Fields] OR \"havcr2\"[All Fields]"
+      },
+      {
+        "from": "TIM3",
+        "to": "\"havcr2 protein, human\"[Supplementary Concept] OR \"havcr2 protein, human\"[All Fields] OR \"tim3\"[All Fields]"
+      },
+      {
+        "from": "autoimmune",
+        "to": "\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields]"
+      }
+    ]
+  },
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  }
+}

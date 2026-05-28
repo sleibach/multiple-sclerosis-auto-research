@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr1",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000160712.12",
+        "geneSymbol": "IL6R",
+        "geneSymbolUpper": "IL6R",
+        "nes": 1.04482,
+        "ontologyId": "EFO:0000572",
+        "pValue": 1.524e-05,
+        "pos": 154358039,
+        "snpId": "rs139384492",
+        "snpIdUpper": "RS139384492",
+        "tissueSiteDetailId": "Cells_EBV-transformed_lymphocytes",
+        "variantId": "chr1_154358039_CTT_C_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 23,
+      "page": 0,
+      "totalNumberOfItems": 23
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000160712.12&tissueSiteDetailId=Cells_EBV-transformed_lymphocytes&datasetId=gtex_v8&itemsPerPage=1"
+}

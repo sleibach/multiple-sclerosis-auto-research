@@ -1,0 +1,57 @@
+{
+  "caps": {
+    "coloc_page_size": 25,
+    "l2g_page_size": 10,
+    "max_credible_sets_per_study": 250,
+    "max_studies_per_disease": 60
+  },
+  "diseases": {
+    "AITD": "EFO_0006812",
+    "AS": "EFO_0003898",
+    "Celiac": "EFO_0001060",
+    "Crohn": "EFO_0000384",
+    "MS": "MONDO_0005301",
+    "PBC": "EFO_1001486",
+    "Psoriasis": "EFO_0000676",
+    "RA": "EFO_0000685",
+    "SLE": "MONDO_0007915",
+    "Sjogren": "EFO_0000699",
+    "T1D": "MONDO_0005147",
+    "UC": "EFO_0000729"
+  },
+  "inputs": {
+    "broad_h5ad": "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv",
+    "broad_residual": "results_v3/broad_residual_gate/broad_residual_gate_summary.tsv",
+    "wave34": "results_v3/wave34_genetics_expression_druggability_scan/wave34_genetics_expression_druggability_rank.tsv",
+    "wave34a": "results_v3/wave34a_genetics_first_target_rescue/genetics_first_candidate_rank.tsv",
+    "wave55": "results_v3/wave55_external_genetics_druggability_sweep/external_genetics_rank.tsv",
+    "wave61": "results_v3/wave61_perturbation_first_guardrail/intervention_evidence_tiers.tsv"
+  },
+  "interpretation": "Target-resolution triage only. L2G/QTL colocalisation is not therapeutic causality.",
+  "n_credible_sets": 2506,
+  "n_eligible_gwas_studies": 95,
+  "n_l2g_rows": 4821,
+  "n_qtl_coloc_rows": 16823,
+  "n_study_rows": 539,
+  "n_targets": 2028,
+  "park_count": 32,
+  "reopen_count": 0,
+  "seed": 20260527,
+  "top_targets": [
+    "RGS1",
+    "INAVA",
+    "ANKRD55",
+    "IL7R",
+    "SP140",
+    "GALC",
+    "IL2RA",
+    "STAT4",
+    "PTGER4",
+    "MMEL1",
+    "RGS14",
+    "RMI2",
+    "ZC2HC1A",
+    "GPR65",
+    "TNFRSF1A"
+  ]
+}

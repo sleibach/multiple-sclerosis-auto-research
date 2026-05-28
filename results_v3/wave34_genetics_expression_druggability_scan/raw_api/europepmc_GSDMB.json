@@ -1,0 +1,61 @@
+{
+  "payload": {
+    "hitCount": 898,
+    "nextCursorMark": "AoIIQW4gAyg1NDUxNjUyMQ==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=GSDMB AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQW4gAyg1NDUxNjUyMQ==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "GSDMB AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Gao X, Guo X, Yin K, Jin X.",
+          "citedByCount": 1,
+          "doi": "10.1096/fj.202503059rr",
+          "firstIndexDate": "2025-12-24",
+          "firstPublicationDate": "2026-01-01",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12733618"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "41442179",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "1",
+          "journalIssn": "0892-6638; 1530-6860; ",
+          "journalTitle": "FASEB J",
+          "journalVolume": "40",
+          "pageInfo": "e71328",
+          "pmcid": "PMC12733618",
+          "pmid": "41442179",
+          "pubType": "research-article; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Single-Cell Genetic Mapping of Gasdermin Expression Across Immune-Mediated Inflammatory Diseases.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "geo"
+            ]
+          }
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=GSDMB+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

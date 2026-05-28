@@ -1,0 +1,137 @@
+{
+  "calls": {
+    "NO_GO_GSE198520_BULK_TISSUE": 9
+  },
+  "input_accessions": [
+    "GSE198520"
+  ],
+  "input_files": {
+    "counts": "data/raw_v3/wave65_gse198520_ra_synovium/GSE198520_Raw_gene_count_matrix.txt.gz",
+    "series_matrix": "data/raw_v3/wave65_gse198520_ra_synovium/GSE198520_series_matrix.txt.gz"
+  },
+  "interpretation": "GSE198520 is a paired tissue pharmacodynamic audit. It cannot promote a V3 cell-intrinsic myeloid intervention without cell-resolved replication and functional guardrails.",
+  "n_genes": 19187,
+  "n_patients": 46,
+  "n_samples": 92,
+  "pathotype_counts": {
+    "Fibroid": 8,
+    "Lymphoid": 17,
+    "Myeloid": 21
+  },
+  "response_counts": {
+    "good": 19,
+    "moderate": 13,
+    "none": 14
+  },
+  "seed": 20260527,
+  "top_gates": [
+    {
+      "all_patients_paired_effect": -0.3463501660623492,
+      "all_patients_paired_fdr": 0.009266207741586745,
+      "failed_gates": "target_to_generic_ratio_lt_2;no_response_specific_effect_after_generic_pathotype_adjustment;bulk_synovium_cell_composition_unresolved;no_functional_repair_or_host_defense_guardrail",
+      "good_responders_paired_effect": -0.5405267722838643,
+      "good_vs_other_generic_pathotype_adjusted_fdr": 0.9722582846936589,
+      "good_vs_other_raw_response_fdr": 0.20065427379342327,
+      "max_generic_all_patient_effect_abs": 0.35159305569815974,
+      "module": "mif_cd74_receptor_state",
+      "target_to_generic_effect_ratio": 0.9850881877476229,
+      "wave65_call": "NO_GO_GSE198520_BULK_TISSUE"
+    },
+    {
+      "all_patients_paired_effect": -0.40370761476877765,
+      "all_patients_paired_fdr": 0.009266207741586745,
+      "failed_gates": "target_to_generic_ratio_lt_2;no_response_specific_effect_after_generic_pathotype_adjustment;bulk_synovium_cell_composition_unresolved;no_functional_repair_or_host_defense_guardrail",
+      "good_responders_paired_effect": -0.6146954666536018,
+      "good_vs_other_generic_pathotype_adjusted_fdr": 0.9722582846936589,
+      "good_vs_other_raw_response_fdr": 0.20065427379342327,
+      "max_generic_all_patient_effect_abs": 0.35159305569815974,
+      "module": "mixscale_validated_ifng_readout",
+      "target_to_generic_effect_ratio": 1.1482240852770367,
+      "wave65_call": "NO_GO_GSE198520_BULK_TISSUE"
+    },
+    {
+      "all_patients_paired_effect": -0.27765021600760414,
+      "all_patients_paired_fdr": 0.009266207741586745,
+      "failed_gates": "target_to_generic_ratio_lt_2;no_response_specific_effect_after_generic_pathotype_adjustment;bulk_synovium_cell_composition_unresolved;no_functional_repair_or_host_defense_guardrail",
+      "good_responders_paired_effect": -0.39065018534295,
+      "good_vs_other_generic_pathotype_adjusted_fdr": 0.9722582846936589,
+      "good_vs_other_raw_response_fdr": 0.29607028994691575,
+      "max_generic_all_patient_effect_abs": 0.35159305569815974,
+      "module": "hif_nampt_metabolic",
+      "target_to_generic_effect_ratio": 0.7896919791441074,
+      "wave65_call": "NO_GO_GSE198520_BULK_TISSUE"
+    },
+    {
+      "all_patients_paired_effect": -0.35159305569815974,
+      "all_patients_paired_fdr": 0.024119538539464414,
+      "failed_gates": "generic_module_positive_control;target_to_generic_ratio_lt_2;no_response_specific_effect_after_generic_pathotype_adjustment;bulk_synovium_cell_composition_unresolved;no_functional_repair_or_host_defense_guardrail",
+      "good_responders_paired_effect": -0.6377263602288029,
+      "good_vs_other_generic_pathotype_adjusted_fdr": 0.9722582846936589,
+      "good_vs_other_raw_response_fdr": 0.17558908841533663,
+      "max_generic_all_patient_effect_abs": 0.35159305569815974,
+      "module": "ifn_apc",
+      "target_to_generic_effect_ratio": 1.0,
+      "wave65_call": "NO_GO_GSE198520_BULK_TISSUE"
+    },
+    {
+      "all_patients_paired_effect": -0.28240148811699395,
+      "all_patients_paired_fdr": 0.024119538539464414,
+      "failed_gates": "target_to_generic_ratio_lt_2;no_response_specific_effect_after_generic_pathotype_adjustment;bulk_synovium_cell_composition_unresolved;no_functional_repair_or_host_defense_guardrail",
+      "good_responders_paired_effect": -0.36993572101572686,
+      "good_vs_other_generic_pathotype_adjusted_fdr": 0.9722582846936589,
+      "good_vs_other_raw_response_fdr": 0.5211366373308716,
+      "max_generic_all_patient_effect_abs": 0.35159305569815974,
+      "module": "hla_ii_apc",
+      "target_to_generic_effect_ratio": 0.8032055341827733,
+      "wave65_call": "NO_GO_GSE198520_BULK_TISSUE"
+    },
+    {
+      "all_patients_paired_effect": -0.2907039412504012,
+      "all_patients_paired_fdr": 0.034044199448144304,
+      "failed_gates": "target_to_generic_ratio_lt_2;no_response_specific_effect_after_generic_pathotype_adjustment;bulk_synovium_cell_composition_unresolved;no_functional_repair_or_host_defense_guardrail",
+      "good_responders_paired_effect": -0.5058586036847013,
+      "good_vs_other_generic_pathotype_adjusted_fdr": 0.9722582846936589,
+      "good_vs_other_raw_response_fdr": 0.20065427379342327,
+      "max_generic_all_patient_effect_abs": 0.35159305569815974,
+      "module": "lysosomal_apc",
+      "target_to_generic_effect_ratio": 0.8268193485026296,
+      "wave65_call": "NO_GO_GSE198520_BULK_TISSUE"
+    },
+    {
+      "all_patients_paired_effect": -0.2915427625761934,
+      "all_patients_paired_fdr": 0.04515774937489871,
+      "failed_gates": "target_to_generic_ratio_lt_2;no_response_specific_effect_after_generic_pathotype_adjustment;bulk_synovium_cell_composition_unresolved;no_functional_repair_or_host_defense_guardrail",
+      "good_responders_paired_effect": -0.5343531501816241,
+      "good_vs_other_generic_pathotype_adjusted_fdr": 0.9990962132404522,
+      "good_vs_other_raw_response_fdr": 0.20065427379342327,
+      "max_generic_all_patient_effect_abs": 0.35159305569815974,
+      "module": "complement_phagocytosis",
+      "target_to_generic_effect_ratio": 0.8292051218055936,
+      "wave65_call": "NO_GO_GSE198520_BULK_TISSUE"
+    },
+    {
+      "all_patients_paired_effect": -0.14105913393364214,
+      "all_patients_paired_fdr": 0.10472196574615687,
+      "failed_gates": "generic_module_positive_control;no_fdr10_paired_pharmacodynamic_effect;target_to_generic_ratio_lt_2;no_response_specific_effect_after_generic_pathotype_adjustment;bulk_synovium_cell_composition_unresolved;no_functional_repair_or_host_defense_guardrail",
+      "good_responders_paired_effect": -0.38490865038974836,
+      "good_vs_other_generic_pathotype_adjusted_fdr": 0.6547973714487907,
+      "good_vs_other_raw_response_fdr": 0.10632546033069286,
+      "max_generic_all_patient_effect_abs": 0.35159305569815974,
+      "module": "inflammatory_nfkb",
+      "target_to_generic_effect_ratio": 0.40119999996456257,
+      "wave65_call": "NO_GO_GSE198520_BULK_TISSUE"
+    },
+    {
+      "all_patients_paired_effect": -0.09673986540719767,
+      "all_patients_paired_fdr": 0.23784493032711282,
+      "failed_gates": "no_fdr10_paired_pharmacodynamic_effect;target_to_generic_ratio_lt_2;no_response_specific_effect_after_generic_pathotype_adjustment;bulk_synovium_cell_composition_unresolved;no_functional_repair_or_host_defense_guardrail",
+      "good_responders_paired_effect": -0.09839658932971064,
+      "good_vs_other_generic_pathotype_adjusted_fdr": 0.9201607189756293,
+      "good_vs_other_raw_response_fdr": 0.9856912489617005,
+      "max_generic_all_patient_effect_abs": 0.35159305569815974,
+      "module": "lipid_loader_repair",
+      "target_to_generic_effect_ratio": 0.27514725856886146,
+      "wave65_call": "NO_GO_GSE198520_BULK_TISSUE"
+    }
+  ]
+}

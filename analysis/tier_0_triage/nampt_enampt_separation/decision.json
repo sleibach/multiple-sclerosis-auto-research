@@ -1,0 +1,15 @@
+{
+  "random_seed": 20260528,
+  "candidate": "NAMPT constrained eNAMPT / biomarker-defined transient branch",
+  "tier0_question": "Does local evidence separate eNAMPT/inflammatory-state biology from generic intracellular NAMPT/NAD stress metabolism?",
+  "criteria": {
+    "ms_or_csf_ev_enrichment": false,
+    "non_ibd_replication": false,
+    "strict_core_covariate_survival": false,
+    "genetics_anchor": false,
+    "non_nad_depleting_modality": false
+  },
+  "pass_count": 0,
+  "tier0_call": "DEMOTE_TO_PARKED_MARKER_BRANCH",
+  "interpretation": "NAMPT does not pass V4 Tier 0 as an active therapeutic branch. The surviving signal is IBD/T1D metabolic-state or inflammatory-marker biology, with negative/non-significant MS white-matter signal, no non-IBD retained residual, no local genetics anchor, and no demonstrated non-NAD-depleting eNAMPT modality. Retain only as a marker/readout for HIF/NAD/eNAMPT biology."
+}

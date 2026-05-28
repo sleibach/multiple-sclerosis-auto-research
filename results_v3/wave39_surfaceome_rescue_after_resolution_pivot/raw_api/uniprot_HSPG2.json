@@ -1,0 +1,346 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "Q05793",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "12435733",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15591058",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "19789387",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Integral component of basement membranes. Component of the glomerular basement membrane (GBM), responsible for the fixed negative electrostatic membrane charge, and which provides a barrier which is both size- and charge-selective. It serves as an attachment substrate for cells. Plays essential roles in vascularization. Critical for normal heart development and for regulating the vascular response to injury. Also required for avascular cartilage development (PubMed:12435733, PubMed:15591058, PubMed:19789387). In muscle, it is essential for localizing acetylcholinesterase (AChE) at the neuromuscular junctions (NMJ), most probably acting as an adapter that links the acetylcholinesterase collagenic tail peptide (COLQ) to alpha-dystroglycan, and is therefore involved in the down-regulation of colinergic synaptic transmission (By similarity)"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "molecule": "Endorepellin",
+          "texts": [
+            {
+              "value": "Anti-angiogenic and anti-tumor peptide that inhibits endothelial cell migration, collagen-induced endothelial tube morphogenesis and blood vessel growth in the chorioallantoic membrane. Blocks endothelial cell adhesion to fibronectin and type I collagen. Anti-tumor agent in neovascularization. Interaction with its ligand, integrin alpha2/beta1, is required for the anti-angiogenic properties. Evokes a reduction in phosphorylation of receptor tyrosine kinases via alpha2/beta1 integrin-mediated activation of the tyrosine phosphatase, PTPN6"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "molecule": "LG3 peptide",
+          "texts": [
+            {
+              "value": "Has anti-angiogenic properties that require binding of calcium ions for full activity"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0025",
+                "value": "Secreted, extracellular space, extracellular matrix, basement membrane"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "25326458",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "36213313",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000212778"
+      },
+      "features": [
+        {
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 4258
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 4258
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 4275
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 4275
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 4325
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 4325
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 4327
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 4327
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "HSPG2"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0037",
+          "name": "Angiogenesis"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0084",
+          "name": "Basement membrane"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0106",
+          "name": "Calcium"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-0903",
+          "name": "Direct protein sequencing"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0225",
+          "name": "Disease variant"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-1015",
+          "name": "Disulfide bond"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0245",
+          "name": "EGF-like domain"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0272",
+          "name": "Extracellular matrix"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0325",
+          "name": "Glycoprotein"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0357",
+          "name": "Heparan sulfate"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0393",
+          "name": "Immunoglobulin domain"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0424",
+          "name": "Laminin EGF-like domain"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0479",
+          "name": "Metal-binding"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0654",
+          "name": "Proteoglycan"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0677",
+          "name": "Repeat"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0964",
+          "name": "Secreted"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0732",
+          "name": "Signal"
+        }
+      ],
+      "primaryAccession": "P98160",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Perlecan"
+            },
+            "shortNames": [
+              {
+                "value": "PLC"
+              }
+            ]
+          }
+        ],
+        "contains": [
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "Endorepellin"
+              }
+            }
+          },
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "LG3 peptide"
+              }
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "Basement membrane-specific heparan sulfate proteoglycan core protein"
+          },
+          "shortNames": [
+            {
+              "value": "HSPG"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "C587660E24C83324",
+        "length": 4391,
+        "md5": "78D6483EFB8A62EB929DBB8E63607A99",
+        "molWeight": 468830,
+        "value": "MGWRAAGALLLALLLHGRLLAVTHGLRAYDGLSLPEDIETVTASQMRWTHSYLSDDEDMLADSISGDDLGSGDLGSGDFQMVYFRALVNFTRSIEYSPQLEDAGSREFREVSEAVVDTLESEYLKIPGDQVVSVVFIKELDGWVFVELDVGSEGNADGAQIQEMLLRVISSGSVASYVTSPQGFQFRRLGTVPQFPRACTEAEFACHSYNECVALEYRCDRRPDCRDMSDELNCEEPVLGISPTFSLLVETTSLPPRPETTIMRQPPVTHAPQPLLPGSVRPLPCGPQEAACRNGHCIPRDYLCDGQEDCEDGSDELDCGPPPPCEPNEFPCGNGHCALKLWRCDGDFDCEDRTDEANCPTKRPEEVCGPTQFRCVSTNMCIPASFHCDEESDCPDRSDEFGCMPPQVVTPPRESIQASRGQTVTFTCVAIGVPTPIINWRLNWGHIPSHPRVTVTSEGGRGTLIIRDVKESDQGAYTCEAMNARGMVFGIPDGVLELVPQRGPCPDGHFYLEHSAACLPCFCFGITSVCQSTRRFRDQIRLRFDQPDDFKGVNVTMPAQPGTPPLSSTQLQIDPSLHEFQLVDLSRRFLVHDSFWALPEQFLGNKVDSYGGSLRYNVRYELARGMLEPVQRPDVVLMGAGYRLLSRGHTPTQPGALNQRQVQFSEEHWVHESGRPVQRAELLQVLQSLEAVLIQTVYNTKMASVGLSDIAMDTTVTHATSHGRAHSVEECRCPIGYSGLSCESCDAHFTRVPGGPYLGTCSGCNCNGHASSCDPVYGHCLNCQHNTEGPQCNKCKAGFFGDAMKATATSCRPCPCPYIDASRRFSDTCFLDTDGQATCDACAPGYTGRRCESCAPGYEGNPIQPGGKCRPVNQEIVRCDERGSMGTSGEACRCKNNVVGRLCNECADGSFHLSTRNPDGCLKCFCMGVSRHCTSSSWSRAQLHGASEEPGHFSLTNAASTHTTNEGIFSPTPGELGFSSFHRLLSGPYFWSLPSRFLGDKVTSYGGELRFTVTQRSQPGSTPLHGQPLVVLQGNNIILEHHVAQEPSPGQPSTFIVPFREQAWQRPDGQPATREHLLMALAGIDTLLIRASYAQQPAESRVSGISMDVAVPEETGQDPALEVEQCSCPPGYRGPSCQDCDTGYTRTPSGLYLGTCERCSCHGHSEACEPETGACQGCQHHTEGPRCEQCQPGYYGDAQRGTPQDCQLCPCYGDPAAGQAAHTCFLDTDGHPTCDACSPGHSGRHCERCAPGYYGNPSQGQPCQRDSQVPGPIGCNCDPQGSVSSQCDAAGQCQCKAQVEGLTCSHCRPHHFHLSASNPDGCLPCFCMGITQQCASSAYTRHLISTHFAPGDFQGFALVNPQRNSRLTGEFTVEPVPEGAQLSFGNFAQLGHESFYWQLPETYQGDKVAAYGGKLRYTLSYTAGPQGSPLSDPDVQITGNNIMLVASQPALQGPERRSYEIMFREEFWRRPDGQPATREHLLMALADLDELLIRATFSSVPLAASISAVSLEVAQPGPSNRPRALEVEECRCPPGYIGLSCQDCAPGYTRTGSGLYLGHCELCECNGHSDLCHPETGACSQCQHNAAGEFCELCAPGYYGDATAGTPEDCQPCACPLTNPENMFSRTCESLGAGGYRCTACEPGYTGQYCEQCGPGYVGNPSVQGGQCLPETNQAPLVVEVHPARSIVPQGGSHSLRCQVSGSPPHYFYWSREDGRPVPSGTQQRHQGSELHFPSVQPSDAGVYICTCRNLHQSNTSRAELLVTEAPSKPITVTVEEQRSQSVRPGADVTFICTAKSKSPAYTLVWTRLHNGKLPTRAMDFNGILTIRNVQLSDAGTYVCTGSNMFAMDQGTATLHVQASGTLSAPVVSIHPPQLTVQPGQLAEFRCSATGSPTPTLEWTGGPGGQLPAKAQIHGGILRLPAVEPTDQAQYLCRAHSSAGQQVARAVLHVHGGGGPRVQVSPERTQVHAGRTVRLYCRAAGVPSATITWRKEGGSLPPQARSERTDIATLLIPAITTADAGFYLCVATSPAGTAQARIQVVVLSASDASPPPVKIESSSPSVTEGQTLDLNCVVAGSAHAQVTWYRRGGSLPPHTQVHGSRLRLPQVSPADSGEYVCRVENGSGPKEASITVSVLHGTHSGPSYTPVPGSTRPIRIEPSSSHVAEGQTLDLNCVVPGQAHAQVTWHKRGGSLPARHQTHGSLLRLHQVTPADSGEYVCHVVGTSGPLEASVLVTIEASVIPGPIPPVRIESSSSTVAEGQTLDLSCVVAGQAHAQVTWYKRGGSLPARHQVRGSRLYIFQASPADAGQYVCRASNGMEASITVTVTGTQGANLAYPAGSTQPIRIEPSSSQVAEGQTLDLNCVVPGQSHAQVTWHKRGGSLPVRHQTHGSLLRLYQASPADSGEYVCRVLGSSVPLEASVLVTIEPAGSVPALGVTPTVRIESSSSQVAEGQTLDLNCLVAGQAHAQVTWHKRGGSLPARHQVHGSRLRLLQVTPADSGEYVCRVVGSSGTQEASVLVTIQQRLSGSHSQGVAYPVRIESSSASLANGHTLDLNCLVASQAPHTITWYKRGGSLPSRHQIVGSRLRIPQVTPADSGEYVCHVSNGAGSRETSLIVTIQGSGSSHVPSVSPPIRIESSSPTVVEGQTLDLNCVVARQPQAIITWYKRGGSLPSRHQTHGSHLRLHQMSVADSGEYVCRANNNIDALEASIVISVSPSAGSPSAPGSSMPIRIESSSSHVAEGETLDLNCVVPGQAHAQVTWHKRGGSLPSHHQTRGSRLRLHHVSPADSGEYVCRVMGSSGPLEASVLVTIEASGSSAVHVPAPGGAPPIRIEPSSSRVAEGQTLDLKCVVPGQAHAQVTWHKRGGNLPARHQVHGPLLRLNQVSPADSGEYSCQVTGSSGTLEASVLVTIEPSSPGPIPAPGLAQPIYIEASSSHVTEGQTLDLNCVVPGQAHAQVTWYKRGGSLPARHQTHGSQLRLHLVSPADSGEYVCRAASGPGPEQEASFTVTVPPSEGSSYRLRSPVISIDPPSSTVQQGQDASFKCLIHDGAAPISLEWKTRNQELEDNVHISPNGSIITIVGTRPSNHGTYRCVASNAYGVAQSVVNLSVHGPPTVSVLPEGPVWVKVGKAVTLECVSAGEPRSSARWTRISSTPAKLEQRTYGLMDSHAVLQISSAKPSDAGTYVCLAQNALGTAQKQVEVIVDTGAMAPGAPQVQAEEAELTVEAGHTATLRCSATGSPAPTIHWSKLRSPLPWQHRLEGDTLIIPRVAQQDSGQYICNATSPAGHAEATIILHVESPPYATTVPEHASVQAGETVQLQCLAHGTPPLTFQWSRVGSSLPGRATARNELLHFERAAPEDSGRYRCRVTNKVGSAEAFAQLLVQGPPGSLPATSIPAGSTPTVQVTPQLETKSIGASVEFHCAVPSDRGTQLRWFKEGGQLPPGHSVQDGVLRIQNLDQSCQGTYICQAHGPWGKAQASAQLVIQALPSVLINIRTSVQTVVVGHAVEFECLALGDPKPQVTWSKVGGHLRPGIVQSGGVVRIAHVELADAGQYRCTATNAAGTTQSHVLLLVQALPQISMPQEVRVPAGSAAVFPCIASGYPTPDISWSKLDGSLPPDSRLENNMLMLPSVRPQDAGTYVCTATNRQGKVKAFAHLQVPERVVPYFTQTPYSFLPLPTIKDAYRKFEIKITFRPDSADGMLLYNGQKRVPGSPTNLANRQPDFISFGLVGGRPEFRFDAGSGMATIRHPTPLALGHFHTVTLLRSLTQGSLIVGDLAPVNGTSQGKFQGLDLNEELYLGGYPDYGAIPKAGLSSGFIGCVRELRIQGEEIVFHDLNLTAHGISHCPTCRDRPCQNGGQCHDSESSSYVCVCPAGFTGSRCEHSQALHCHPEACGPDATCVNRPDGRGYTCRCHLGRSGLRCEEGVTVTTPSLSGAGSYLALPALTNTHHELRLDVEFKPLAPDGVLLFSGGKSGPVEDFVSLAMVGGHLEFRYELGSGLAVLRSAEPLALGRWHRVSAERLNKDGSLRVNGGRPVLRSSPGKSQGLNLHTLLYLGGVEPSVPLSPATNMSAHFRGCVGEVSVNGKRLDLTYSFLGSQGIGQCYDSSPCERQPCQHGATCMPAGEYEFQCLCRDGFKGDLCEHEENPCQLREPCLHGGTCQGTRCLCLPGFSGPRCQQGSGHGIAESDWHLEGSGGNDAPGQYGAYFHDDGFLAFPGHVFSRSLPEVPETIELEVRTSTASGLLLWQGVEVGEAGQGKDFISLGLQDGHLVFRYQLGSGEARLVSEDPINDGEWHRVTALREGRRGSIQVDGEELVSGRSPGPNVAVNAKGSVYIGGAPDVATLTGGRFSSGITGCVKNLVLHSARPGAPPPQPLDLQHRAQAGANTRPCPS"
+      },
+      "uniProtkbId": "PGBM_HUMAN"
+    }
+  ]
+}

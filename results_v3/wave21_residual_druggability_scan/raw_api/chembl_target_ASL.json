@@ -1,0 +1,313 @@
+{
+  "_request_url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=ASL&limit=10",
+  "_status_code": 200,
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Adenylosuccinate lyase",
+      "score": 19.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL6066328",
+      "target_components": [
+        {
+          "accession": "P30566",
+          "component_description": "Adenylosuccinate lyase",
+          "component_id": 23519,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "4.3.2.2",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Adenylosuccinase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Adenylosuccinate lyase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ADSL",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "ADSL",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "AMPS",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "ASase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ASL",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P30566",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P30566",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0032991",
+              "xref_name": "protein-containing complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0003824",
+              "xref_name": "catalytic activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004018",
+              "xref_name": "N6-(1,2-dicarboxyethyl)AMP AMP-lyase (fumarate-forming) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016829",
+              "xref_name": "lyase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042802",
+              "xref_name": "identical protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0070626",
+              "xref_name": "(S)-2-(5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamido) succinate lyase (fumarate-forming) activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001666",
+              "xref_name": "response to hypoxia",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006164",
+              "xref_name": "purine nucleotide biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006167",
+              "xref_name": "AMP biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006177",
+              "xref_name": "GMP biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006189",
+              "xref_name": "'de novo' IMP biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007584",
+              "xref_name": "response to nutrient",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009060",
+              "xref_name": "aerobic respiration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009152",
+              "xref_name": "purine ribonucleotide biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0014850",
+              "xref_name": "response to muscle activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042594",
+              "xref_name": "response to starvation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0044208",
+              "xref_name": "'de novo' AMP biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0044209",
+              "xref_name": "AMP salvage",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0097294",
+              "xref_name": "'de novo' XMP biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:291",
+              "xref_name": "ADSL",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "P30566",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR000362",
+              "xref_name": "Fumarate_lyase_fam",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR004769",
+              "xref_name": "Pur_lyase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR008948",
+              "xref_name": "L-Aspartase-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR019468",
+              "xref_name": "AdenyloSucc_lyase_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR020557",
+              "xref_name": "Fumarate_lyase_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR022761",
+              "xref_name": "Fumarate_lyase_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR43172",
+              "xref_name": "ADENYLOSUCCINATE LYASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR43172:SF1",
+              "xref_name": "ADENYLOSUCCINATE LYASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "2J91",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2VD6",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4FFX",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4FLC",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2J91",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2VD6",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4FFX",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4FLC",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF00206",
+              "xref_name": "Lyase_1",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF10397",
+              "xref_name": "ADSL_C",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA24600",
+              "xref_name": "adenylosuccinate lyase",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P30566",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-73817",
+              "xref_name": "Purine ribonucleoside monophosphate biosynthesis",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "B0QY76",
+              "xref_name": "Adenylosuccinate lyase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O75495",
+              "xref_name": "Adenylosuccinate lyase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P30566",
+              "xref_name": "Adenylosuccinate lyase",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q5TI34",
+              "xref_name": "Adenylosuccinate lyase",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

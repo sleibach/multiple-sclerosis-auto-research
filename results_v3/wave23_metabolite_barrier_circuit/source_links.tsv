@@ -1,0 +1,86 @@
+scope	source	query	url	used_for
+ahr_tryptophan	EuropePMC API	"(""aryl hydrocarbon receptor"" OR AHR OR IDO1 OR kynurenine) autoimmune"	https://europepmc.org/search?query=%28%22aryl+hydrocarbon+receptor%22+OR+AHR+OR+IDO1+OR+kynurenine%29+autoimmune	prior-art/crowding snapshot
+ahr_tryptophan	ClinicalTrials.gov API v2	AHR IDO autoimmune	https://clinicaltrials.gov/search?term=AHR+IDO+autoimmune	clinical prior-art snapshot
+ahr_tryptophan	Google Patents search URL	AHR IDO autoimmune drug	https://patents.google.com/?q=AHR+IDO+autoimmune+drug	patent-search pointer; not counted as fetched evidence
+bile_acid_fxr_tgr5	EuropePMC API	"(""FXR agonist"" OR NR1H4 OR GPBAR1 OR TGR5 OR ""bile acid receptor"") autoimmune OR ""inflammatory bowel disease"""	https://europepmc.org/search?query=%28%22FXR+agonist%22+OR+NR1H4+OR+GPBAR1+OR+TGR5+OR+%22bile+acid+receptor%22%29+autoimmune+OR+%22inflammatory+bowel+disease%22	prior-art/crowding snapshot
+bile_acid_fxr_tgr5	ClinicalTrials.gov API v2	FXR agonist autoimmune inflammatory bowel disease	https://clinicaltrials.gov/search?term=FXR+agonist+autoimmune+inflammatory+bowel+disease	clinical prior-art snapshot
+bile_acid_fxr_tgr5	Google Patents search URL	FXR TGR5 autoimmune inflammatory bowel disease	https://patents.google.com/?q=FXR+TGR5+autoimmune+inflammatory+bowel+disease	patent-search pointer; not counted as fetched evidence
+ppar_lxr_lipid_nuclear	EuropePMC API	"(""PPAR gamma"" OR PPARG OR ""LXR agonist"" OR NR1H3 OR NR1H2 OR RXR) autoimmune"	https://europepmc.org/search?query=%28%22PPAR+gamma%22+OR+PPARG+OR+%22LXR+agonist%22+OR+NR1H3+OR+NR1H2+OR+RXR%29+autoimmune	prior-art/crowding snapshot
+ppar_lxr_lipid_nuclear	ClinicalTrials.gov API v2	PPAR gamma LXR autoimmune	https://clinicaltrials.gov/search?term=PPAR+gamma+LXR+autoimmune	clinical prior-art snapshot
+ppar_lxr_lipid_nuclear	Google Patents search URL	PPAR LXR autoimmune agonist	https://patents.google.com/?q=PPAR+LXR+autoimmune+agonist	patent-search pointer; not counted as fetched evidence
+scfa_ffar_hcar	EuropePMC API	"(""short chain fatty acid receptor"" OR FFAR2 OR FFAR3 OR HCAR2 OR GPR109A OR butyrate) autoimmune"	https://europepmc.org/search?query=%28%22short+chain+fatty+acid+receptor%22+OR+FFAR2+OR+FFAR3+OR+HCAR2+OR+GPR109A+OR+butyrate%29+autoimmune	prior-art/crowding snapshot
+scfa_ffar_hcar	ClinicalTrials.gov API v2	butyrate niacin autoimmune inflammatory bowel disease	https://clinicaltrials.gov/search?term=butyrate+niacin+autoimmune+inflammatory+bowel+disease	clinical prior-art snapshot
+scfa_ffar_hcar	Google Patents search URL	FFAR2 HCAR2 autoimmune agonist	https://patents.google.com/?q=FFAR2+HCAR2+autoimmune+agonist	patent-search pointer; not counted as fetched evidence
+retinoid_vdr_rxr	EuropePMC API	"(""retinoic acid"" OR RARA OR RARG OR RXR OR VDR OR ""vitamin D receptor"") autoimmune"	https://europepmc.org/search?query=%28%22retinoic+acid%22+OR+RARA+OR+RARG+OR+RXR+OR+VDR+OR+%22vitamin+D+receptor%22%29+autoimmune	prior-art/crowding snapshot
+retinoid_vdr_rxr	ClinicalTrials.gov API v2	retinoic acid vitamin D receptor autoimmune	https://clinicaltrials.gov/search?term=retinoic+acid+vitamin+D+receptor+autoimmune	clinical prior-art snapshot
+retinoid_vdr_rxr	Google Patents search URL	retinoid VDR autoimmune	https://patents.google.com/?q=retinoid+VDR+autoimmune	patent-search pointer; not counted as fetched evidence
+s1p_receptors	EuropePMC API	"(""S1P receptor modulator"" OR S1PR1 OR fingolimod OR ozanimod OR etrasimod) autoimmune"	https://europepmc.org/search?query=%28%22S1P+receptor+modulator%22+OR+S1PR1+OR+fingolimod+OR+ozanimod+OR+etrasimod%29+autoimmune	prior-art/crowding snapshot
+s1p_receptors	ClinicalTrials.gov API v2	S1P receptor modulator autoimmune	https://clinicaltrials.gov/search?term=S1P+receptor+modulator+autoimmune	clinical prior-art snapshot
+s1p_receptors	Google Patents search URL	S1P receptor autoimmune modulator	https://patents.google.com/?q=S1P+receptor+autoimmune+modulator	patent-search pointer; not counted as fetched evidence
+eicosanoid_receptors	EuropePMC API	"(""leukotriene receptor"" OR ""prostaglandin receptor"" OR PTGER4 OR LTA4H OR CYSLTR1) autoimmune"	https://europepmc.org/search?query=%28%22leukotriene+receptor%22+OR+%22prostaglandin+receptor%22+OR+PTGER4+OR+LTA4H+OR+CYSLTR1%29+autoimmune	prior-art/crowding snapshot
+eicosanoid_receptors	ClinicalTrials.gov API v2	leukotriene prostaglandin receptor autoimmune	https://clinicaltrials.gov/search?term=leukotriene+prostaglandin+receptor+autoimmune	clinical prior-art snapshot
+eicosanoid_receptors	Google Patents search URL	leukotriene prostaglandin receptor autoimmune	https://patents.google.com/?q=leukotriene+prostaglandin+receptor+autoimmune	patent-search pointer; not counted as fetched evidence
+ALDH1A1	ChEMBL API	ALDH1A1	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL3577	target/druggability snapshot
+VDR	ChEMBL API	VDR	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL1977	target/druggability snapshot
+PPARG	ChEMBL API	PPARG	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL235	target/druggability snapshot
+PTGS2	ChEMBL API	PTGS2	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL230	target/druggability snapshot
+IDO1	ChEMBL API	IDO1	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL4685	target/druggability snapshot
+NR1H4	ChEMBL API	NR1H4	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL2047	target/druggability snapshot
+PPARA	ChEMBL API	PPARA	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL239	target/druggability snapshot
+S1PR1	ChEMBL API	S1PR1	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL4333	target/druggability snapshot
+PTGS1	ChEMBL API	PTGS1	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL221	target/druggability snapshot
+PTGDR2	ChEMBL API	PTGDR2	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL5071	target/druggability snapshot
+TBXA2R	ChEMBL API	TBXA2R	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL2069	target/druggability snapshot
+ALOX5AP	ChEMBL API	ALOX5AP	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL4550	target/druggability snapshot
+ALOX5	ChEMBL API	ALOX5	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL215	target/druggability snapshot
+PPARD	ChEMBL API	PPARD	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL3979	target/druggability snapshot
+S1PR3	ChEMBL API	S1PR3	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL3892	target/druggability snapshot
+FPR2	ChEMBL API	FPR2	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL4227	target/druggability snapshot
+NR1H2	ChEMBL API	NR1H2	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL4093	target/druggability snapshot
+RXRA	ChEMBL API	RXRA	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL2061	target/druggability snapshot
+NR1H3	ChEMBL API	NR1H3	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL2808	target/druggability snapshot
+PTGER4	ChEMBL API	PTGER4	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL1836	target/druggability snapshot
+FFAR2	ChEMBL API	FFAR2	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL5493	target/druggability snapshot
+S1PR2	ChEMBL API	S1PR2	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL2955	target/druggability snapshot
+LTA4H	ChEMBL API	LTA4H	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL4618	target/druggability snapshot
+TDO2	ChEMBL API	TDO2	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL2140	target/druggability snapshot
+GPBAR1	ChEMBL API	GPBAR1	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL5409	target/druggability snapshot
+PTGER2	ChEMBL API	PTGER2	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL1881	target/druggability snapshot
+PTGER3	ChEMBL API	PTGER3	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL3710	target/druggability snapshot
+PTGER1	ChEMBL API	PTGER1	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL1811	target/druggability snapshot
+HCAR2	ChEMBL API	HCAR2	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL3785	target/druggability snapshot
+S1PR4	ChEMBL API	S1PR4	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL3230	target/druggability snapshot
+PTGDR	ChEMBL API	PTGDR	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL4427	target/druggability snapshot
+CYP1B1	ChEMBL API	CYP1B1	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL4878	target/druggability snapshot
+RARA	ChEMBL API	RARA	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL2055	target/druggability snapshot
+RARG	ChEMBL API	RARG	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL2003	target/druggability snapshot
+AHR	ChEMBL API	AHR	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL3201	target/druggability snapshot
+S1PR5	ChEMBL API	S1PR5	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL2274	target/druggability snapshot
+RARB	ChEMBL API	RARB	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL2008	target/druggability snapshot
+PTGIR	ChEMBL API	PTGIR	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL1995	target/druggability snapshot
+CYP1A1	ChEMBL API	CYP1A1	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL2231	target/druggability snapshot
+SGPL1	ChEMBL API	SGPL1	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL3286061	target/druggability snapshot
+PTGFR	ChEMBL API	PTGFR	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL1987	target/druggability snapshot
+SPHK1	ChEMBL API	SPHK1	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL4394	target/druggability snapshot
+LTB4R	ChEMBL API	LTB4R	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL3911	target/druggability snapshot
+SPHK2	ChEMBL API	SPHK2	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL3023	target/druggability snapshot
+RXRB	ChEMBL API	RXRB	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL1870	target/druggability snapshot
+RXRG	ChEMBL API	RXRG	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL2004	target/druggability snapshot
+GPR183	ChEMBL API	GPR183	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL3259470	target/druggability snapshot
+KMO	ChEMBL API	KMO	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL2145	target/druggability snapshot
+CYSLTR1	ChEMBL API	CYSLTR1	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL1798	target/druggability snapshot
+LTB4R2	ChEMBL API	LTB4R2	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL3191	target/druggability snapshot
+HCAR3	ChEMBL API	HCAR3	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL4421	target/druggability snapshot
+IDO2	ChEMBL API	IDO2	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL3627587	target/druggability snapshot
+ALDH1A3	ChEMBL API	ALDH1A3	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL3579	target/druggability snapshot
+CYP24A1	ChEMBL API	CYP24A1	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL4521	target/druggability snapshot
+FFAR3	ChEMBL API	FFAR3	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL5201	target/druggability snapshot
+CYSLTR2	ChEMBL API	CYSLTR2	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL4330	target/druggability snapshot
+OXER1	ChEMBL API	OXER1	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL1628461	target/druggability snapshot
+ALDH1A2	ChEMBL API	ALDH1A2	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL3112384	target/druggability snapshot
+KYNU	ChEMBL API	KYNU	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL5100	target/druggability snapshot
+CYP27B1	ChEMBL API	CYP27B1	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL5993	target/druggability snapshot
+NR0B2	ChEMBL API	NR0B2	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL5603	target/druggability snapshot
+ABCA1	ChEMBL API	ABCA1	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL2362986	target/druggability snapshot
+HAAO	ChEMBL API	HAAO	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL3108657	target/druggability snapshot
+ARNT	ChEMBL API	ARNT	https://www.ebi.ac.uk/chembl/g/#browse/activities/filter/target_chembl_id%3ACHEMBL5618	target/druggability snapshot

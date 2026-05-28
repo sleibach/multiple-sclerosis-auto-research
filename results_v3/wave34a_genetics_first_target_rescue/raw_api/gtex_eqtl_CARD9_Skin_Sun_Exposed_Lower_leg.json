@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr9",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000187796.13",
+        "geneSymbol": "CARD9",
+        "geneSymbolUpper": "CARD9",
+        "nes": -0.438652,
+        "ontologyId": "UBERON:0004264",
+        "pValue": 5.06983e-06,
+        "pos": 136358297,
+        "snpId": "rs116055529",
+        "snpIdUpper": "RS116055529",
+        "tissueSiteDetailId": "Skin_Sun_Exposed_Lower_leg",
+        "variantId": "chr9_136358297_G_C_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 90,
+      "page": 0,
+      "totalNumberOfItems": 90
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000187796.13&tissueSiteDetailId=Skin_Sun_Exposed_Lower_leg&datasetId=gtex_v8&itemsPerPage=1"
+}

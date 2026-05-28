@@ -1,0 +1,43 @@
+{
+  "random_seed": 20260527,
+  "n_inventory_rows": 14,
+  "n_baseline_rows": 252,
+  "n_pharmacodynamic_rows": 216,
+  "n_ranked_calls": 15,
+  "n_go_calls": 0,
+  "n_park_calls": 6,
+  "n_no_go_calls": 9,
+  "run_log": [
+    {
+      "analyzer": "analyze_gse73661_uc",
+      "status": "completed",
+      "baseline_rows": 0,
+      "pd_rows": 0
+    },
+    {
+      "analyzer": "analyze_gse106992_psoriasis",
+      "status": "completed",
+      "baseline_rows": 18,
+      "pd_rows": 36
+    },
+    {
+      "analyzer": "analyze_gse24742_rituximab",
+      "status": "completed",
+      "baseline_rows": 9,
+      "pd_rows": 27
+    },
+    {
+      "analyzer": "analyze_gse250453_fingolimod",
+      "status": "completed",
+      "baseline_rows": 9,
+      "pd_rows": 18
+    },
+    {
+      "analyzer": "analyze_gse235357_dmf",
+      "status": "completed",
+      "baseline_rows": 9,
+      "pd_rows": 18
+    }
+  ],
+  "guardrail": "No final finding is claimed. Baseline associations must survive multiplicity, minimum group size, and generic-inflammation residual checks before any GO call."
+}

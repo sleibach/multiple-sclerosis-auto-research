@@ -1,0 +1,326 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15037617",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15067004",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Involved in the regulation of structural processes in differentiating and mature neuronal cells"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "value": "Associated with the actin cytoskeleton. Co-localizes with STK24/MST3 in the membrane"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0090",
+                "value": "Cytoplasm, cytoskeleton"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0162",
+                "value": "Membrane"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000035B4A"
+      },
+      "features": [
+        {
+          "description": "Proton acceptor",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00159",
+              "source": "PROSITE-ProRule"
+            },
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU10027",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 213
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 213
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "O95835",
+              "source": "UniProtKB"
+            },
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00159",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:30616"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:30616",
+            "name": "ATP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 104
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 96
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00159",
+              "source": "PROSITE-ProRule"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15037617",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:30616"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:30616",
+            "name": "ATP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 119
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 119
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "AAH28603.1",
+                "source": "EMBL"
+              }
+            ],
+            "value": "STK38L"
+          },
+          "synonyms": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000312",
+                  "id": "BAA76809.2",
+                  "source": "EMBL"
+                }
+              ],
+              "value": "KIAA0965"
+            },
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "15037617",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "NDR2"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0009",
+          "name": "Actin-binding"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0067",
+          "name": "ATP-binding"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0963",
+          "name": "Cytoplasm"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0206",
+          "name": "Cytoskeleton"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-0903",
+          "name": "Direct protein sequencing"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0418",
+          "name": "Kinase"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0460",
+          "name": "Magnesium"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0479",
+          "name": "Metal-binding"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0547",
+          "name": "Nucleotide-binding"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0723",
+          "name": "Serine/threonine-protein kinase"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0808",
+          "name": "Transferase"
+        }
+      ],
+      "primaryAccession": "Q9Y2H1",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "NDR2 protein kinase"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Nuclear Dbf2-related kinase 2"
+            }
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "value": "2.7.11.1"
+            }
+          ],
+          "fullName": {
+            "value": "Serine/threonine-protein kinase 38-like"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "71347E80BC3ADCB3",
+        "length": 464,
+        "md5": "B9B059E043F10B1262626BDE494B2620",
+        "molWeight": 54003,
+        "value": "MAMTAGTTTTFPMSNHTRERVTVAKLTLENFYSNLILQHEERETRQKKLEVAMEEEGLADEEKKLRRSQHARKETEFLRLKRTRLGLDDFESLKVIGRGAFGEVRLVQKKDTGHIYAMKILRKSDMLEKEQVAHIRAERDILVEADGAWVVKMFYSFQDKRNLYLIMEFLPGGDMMTLLMKKDTLTEEETQFYISETVLAIDAIHQLGFIHRDIKPDNLLLDAKGHVKLSDFGLCTGLKKAHRTEFYRNLTHNPPSDFSFQNMNSKRKAETWKKNRRQLAYSTVGTPDYIAPEVFMQTGYNKLCDWWSLGVIMYEMLIGYPPFCSETPQETYRKVMNWKETLVFPPEVPISEKAKDLILRFCIDSENRIGNSGVEEIKGHPFFEGVDWEHIRERPAAIPIEIKSIDDTSNFDDFPESDILQPVPNTTEPDYKSKDWVFLNYTYKRFEGLTQRGSIPTYMKAGKL"
+      },
+      "uniProtkbId": "ST38L_HUMAN"
+    }
+  ]
+}

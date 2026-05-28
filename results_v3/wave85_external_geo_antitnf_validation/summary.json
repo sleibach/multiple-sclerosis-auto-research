@@ -1,0 +1,42 @@
+{
+  "call": "WEAK_EXTERNAL_DIRECTIONAL_SUPPORT_NOT_STRATIFICATION_GRADE",
+  "expected_direction": "higher baseline residual lysosomal/APC score in responders",
+  "inputs": {
+    "gpl570_annotation": "data/raw_v3/wave84_external_geo/GPL570.annot.gz",
+    "series": {
+      "GSE12251": "data/raw_v3/wave84_external_geo/GSE12251_series_matrix.txt.gz",
+      "GSE14580": "data/raw_v3/wave84_external_geo/GSE14580_series_matrix.txt.gz",
+      "GSE16879": "data/raw_v3/wave84_external_geo/GSE16879_series_matrix.txt.gz"
+    }
+  },
+  "n_independent_primary_positive_direction": 2,
+  "n_independent_primary_supportive_nominal": 0,
+  "n_primary_cohorts": 7,
+  "n_primary_overlap_groups": 6,
+  "n_response_tests": 70,
+  "primary_module": "lysosomal_apc__resid_inflammatory_nfkb",
+  "seed": 20260527,
+  "series_summaries": [
+    {
+      "matrix": "data/raw_v3/wave84_external_geo/GSE12251_series_matrix.txt.gz",
+      "n_module_genes_present": 45,
+      "n_probes": 54675,
+      "n_samples": 23,
+      "series": "GSE12251"
+    },
+    {
+      "matrix": "data/raw_v3/wave84_external_geo/GSE14580_series_matrix.txt.gz",
+      "n_module_genes_present": 45,
+      "n_probes": 54675,
+      "n_samples": 30,
+      "series": "GSE14580"
+    },
+    {
+      "matrix": "data/raw_v3/wave84_external_geo/GSE16879_series_matrix.txt.gz",
+      "n_module_genes_present": 45,
+      "n_probes": 54675,
+      "n_samples": 133,
+      "series": "GSE16879"
+    }
+  ]
+}

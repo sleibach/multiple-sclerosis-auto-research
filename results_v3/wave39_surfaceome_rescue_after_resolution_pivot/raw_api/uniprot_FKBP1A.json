@@ -1,0 +1,241 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "16720724",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "1696686",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "1701173",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9233797",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Keeps in an inactive conformation TGFBR1, the TGF-beta type I serine/threonine kinase receptor, preventing TGF-beta receptor activation in absence of ligand. Recruits SMAD7 to ACVR1B which prevents the association of SMAD2 and SMAD3 with the activin receptor complex, thereby blocking the activin signal. May modulate the RYR1 calcium channel activity. PPIases accelerate the folding of proteins. It catalyzes the cis-trans isomerization of proline imidic peptide bonds in oligopeptides"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "1701173",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0091",
+                "value": "Cytoplasm, cytosol"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P62943",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0241",
+                "value": "Sarcoplasmic reticulum membrane"
+              },
+              "orientation": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P62943",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-9910",
+                "value": "Cytoplasmic side"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P62943",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-9903",
+                "value": "Peripheral membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00001437D3"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "FKBP1A"
+          },
+          "synonyms": [
+            {
+              "value": "FKBP1"
+            },
+            {
+              "value": "FKBP12"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0963",
+          "name": "Cytoplasm"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-0903",
+          "name": "Direct protein sequencing"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0413",
+          "name": "Isomerase"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0697",
+          "name": "Rotamase"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0703",
+          "name": "Sarcoplasmic reticulum"
+        }
+      ],
+      "primaryAccession": "P62942",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "12 kDa FK506-binding protein"
+            },
+            "shortNames": [
+              {
+                "value": "12 kDa FKBP"
+              },
+              {
+                "value": "FKBP-12"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Calstabin-1"
+            }
+          },
+          {
+            "fullName": {
+              "value": "FK506-binding protein 1A"
+            },
+            "shortNames": [
+              {
+                "value": "FKBP-1A"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Immunophilin FKBP12"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Rotamase"
+            }
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "1696686",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "1701173",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "5.2.1.8"
+            }
+          ],
+          "fullName": {
+            "value": "Peptidyl-prolyl cis-trans isomerase FKBP1A"
+          },
+          "shortNames": [
+            {
+              "value": "PPIase FKBP1A"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "9CC8493C802540B4",
+        "length": 108,
+        "md5": "8AF88F20EE761602589EEA279A1C1FE8",
+        "molWeight": 11951,
+        "value": "MGVQVETISPGDGRTFPKRGQTCVVHYTGMLEDGKKFDSSRDRNKPFKFMLGKQEVIRGWEEGVAQMSVGQRAKLTISPDYAYGATGHPGIIPPHATLVFDVELLKLE"
+      },
+      "uniProtkbId": "FKB1A_HUMAN"
+    }
+  ]
+}

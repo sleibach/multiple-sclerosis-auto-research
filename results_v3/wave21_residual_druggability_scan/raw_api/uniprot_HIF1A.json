@@ -1,0 +1,301 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3AHIF1A%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "Q61221",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "10202154",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "10594042",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11292861",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11566883",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15465032",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "16543236",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "16973622",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17610843",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "18658046",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "19528298",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20624928",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22009797",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "30125331",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9887100",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Functions as a master transcriptional regulator of the adaptive response to hypoxia (PubMed:11292861, PubMed:11566883, PubMed:15465032, PubMed:16973622, PubMed:17610843, PubMed:18658046, PubMed:20624928, PubMed:22009797, PubMed:30125331, PubMed:9887100). Under hypoxic conditions, activates the transcription of over 40 genes, including erythropoietin, glucose transporters, glycolytic enzymes, vascular endothelial growth factor, HILPDA, and other genes whose protein products increase oxygen delivery or facilitate metabolic adaptation to hypoxia (PubMed:11292861, PubMed:11566883, PubMed:15465032, PubMed:16973622, PubMed:17610843, PubMed:20624928, PubMed:22009797, PubMed:30125331, PubMed:9887100). Plays an essential role in embryonic vascularization, tumor angiogenesis and pathophysiology of ischemic disease (PubMed:22009797). Heterodimerizes with ARNT; heterodimer binds to core DNA sequence 5'-TACGTG-3' within the hypoxia response element (HRE) of target gene promoters (By similarity). Activation requires recruitment of transcriptional coactivators such as CREBBP and EP300 (PubMed:16543236, PubMed:9887100). Activity is enhanced by interaction with NCOA1 and/or NCOA2 (PubMed:10594042). Interaction with redox regulatory protein APEX1 seems to activate CTAD and potentiates activation by NCOA1 and CREBBP (PubMed:10202154, PubMed:10594042). Involved in the axonal distribution and transport of mitochondria in neurons during hypoxia (PubMed:19528298)"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "32697943",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "(Microbial infection) Upon infection by human coronavirus SARS-CoV-2, is required for induction of glycolysis in monocytes and the consequent pro-inflammatory state (PubMed:32697943). In monocytes, induces expression of ACE2 and cytokines such as IL1B, TNF, IL6, and interferons (PubMed:32697943). Promotes human coronavirus SARS-CoV-2 replication and monocyte inflammatory response (PubMed:32697943)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "Q61221",
+                    "source": "UniProtKB"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "9822602",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Colocalizes with HIF3A in the nucleus and speckles (By similarity). Cytoplasmic in normoxia, nuclear translocation in response to hypoxia (PubMed:9822602)"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "9822602",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "22009797",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "9822602",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0191",
+                "value": "Nucleus"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "Q61221",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0186",
+                "value": "Nucleus speckle"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000000A06"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "id": "7539918",
+                "source": "PubMed"
+              },
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:4910",
+                "source": "HGNC"
+              }
+            ],
+            "value": "HIF1A"
+          },
+          "synonyms": [
+            {
+              "value": "BHLHE78"
+            },
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "9079689",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "MOP1"
+            },
+            {
+              "value": "PASD8"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "Q16665",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "ARNT-interacting protein"
+            }
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "9079689",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Basic-helix-loop-helix-PAS protein MOP1"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Class E basic helix-loop-helix protein 78"
+            },
+            "shortNames": [
+              {
+                "value": "bHLHe78"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "9079689",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Member of PAS protein 1"
+            }
+          },
+          {
+            "fullName": {
+              "value": "PAS domain-containing protein 8"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Hypoxia-inducible factor 1-alpha"
+          },
+          "shortNames": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "7539918",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "HIF-1-alpha"
+            },
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "7539918",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "HIF1-alpha"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

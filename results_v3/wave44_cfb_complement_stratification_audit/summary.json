@@ -1,0 +1,82 @@
+{
+  "date": "2026-05-27",
+  "failed_gates": [
+    "no_MS_anchor_or_positive_MS_lesion_direction",
+    "no_target_resolved_coloc_or_mr",
+    "foundation_or_model_support_marked_do_not_promote",
+    "strict_core_residual_survival_only_Crohn_stromal",
+    "factor_B_inhibition_prior_art_and_trial_crowding",
+    "systemic_complement_host_defense_safety"
+  ],
+  "interpretation": "CFB is a strong comparator route, not a V3 finding. It has broad local tissue recurrence, CFB druggability, and residual signal in Crohn/stromal contexts, but no MS anchor, no target-resolved causal genetic package, no favorable perturbation/model support, and heavy factor-B inhibitor prior art/trial crowding. A biomarker-selected CFB-high autoimmune subgroup remains plausible only as a clinical-repurposing hypothesis outside this V3 claim.",
+  "local_evidence": {
+    "broad_top_positive_compartments": "t1d_stellate_cell:3.63,p=1.5e-08;ibd_crohn_epithelial:2.3,p=0.00029;psoriasis_keratinocyte:2.4,p=0.004;t1d_ductal_cell:2.28,p=0.011;ibd_crohn_stromal:1.93,p=0.016;psoriasis_skin_stromal:0.917,p=0.026;ibd_uc_epithelial:2.62,p=0.026;t1d_acinar_cell:3.54,p=0.027",
+    "chembl_best_nM": 1.0,
+    "chembl_target_id": "CHEMBL5731",
+    "clinicaltrials_autoimmune_count_wave34": 32.0,
+    "gwas_catalog_trait_count": 10,
+    "local_positive_disease_count": 4.0,
+    "ms_anchor": false,
+    "ms_wm_delta_log2": -0.9822682065524936,
+    "ms_wm_p": 0.2868607768107353,
+    "residual_retained_disease_count": 4.0,
+    "strict_core_covariate_surviving_analyses": "ibd_crohn_stromal:Crohn disease",
+    "wave21_prior_blockers": "Direct prior art: iptacopan/LNP023 in IgA nephropathy and complement diseases; Google Patents factor B inhibitor method claims.",
+    "wave21_recommendation": "Use as druggability/prior-art comparator only.",
+    "wave25_decision_reason": "Cell-state/module evidence is stronger than genetics; cannot anchor target causality. Perturbation/foundation evidence is contradicted or marked do-not-promote.",
+    "wave25_proxy_call": "NO_GO_CAUSAL_PROXY",
+    "wave34_call": "NO_GO_GENETIC_DRUGGABLE_PRIOR_ART_BLOCKED"
+  },
+  "output_paths": {
+    "api_call_log": "results_v3/wave44_cfb_complement_stratification_audit/api_call_log.tsv",
+    "clinicaltrials_counts": "results_v3/wave44_cfb_complement_stratification_audit/cfb_clinicaltrials_query_counts.tsv",
+    "literature_counts": "results_v3/wave44_cfb_complement_stratification_audit/cfb_literature_query_counts.tsv",
+    "patent_urls": "results_v3/wave44_cfb_complement_stratification_audit/cfb_patent_search_urls.tsv"
+  },
+  "promotion_allowed": false,
+  "query_counts": {
+    "clinicaltrials": [
+      {
+        "clinicaltrials_count": 1,
+        "query": "complement factor B autoimmune"
+      },
+      {
+        "clinicaltrials_count": 1,
+        "query": "factor B inhibitor autoimmune"
+      },
+      {
+        "clinicaltrials_count": 1,
+        "query": "iptacopan autoimmune"
+      },
+      {
+        "clinicaltrials_count": 0,
+        "query": "iptacopan multiple sclerosis"
+      },
+      {
+        "clinicaltrials_count": 1,
+        "query": "CFB multiple sclerosis"
+      }
+    ],
+    "literature": [
+      {
+        "europepmc_hit_count": 1148,
+        "query": "\"complement factor B\" AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR \"lupus\" OR \"inflammatory bowel\" OR psoriasis)"
+      },
+      {
+        "europepmc_hit_count": 190,
+        "query": "\"factor B inhibitor\" AND (autoimmune OR \"multiple sclerosis\" OR lupus OR \"inflammatory bowel\")"
+      },
+      {
+        "europepmc_hit_count": 300,
+        "query": "iptacopan AND (autoimmune OR \"multiple sclerosis\" OR lupus OR \"inflammatory bowel\" OR psoriasis)"
+      },
+      {
+        "europepmc_hit_count": 662,
+        "query": "\"CFB\" AND (\"biomarker\" OR \"stratification\") AND autoimmune"
+      }
+    ]
+  },
+  "random_seed": 20260527,
+  "target": "CFB / complement factor B / alternative complement amplification",
+  "wave44_call": "NO_GO_COMPLEMENT_STRATIFICATION_PRIOR_ART_BLOCKED"
+}

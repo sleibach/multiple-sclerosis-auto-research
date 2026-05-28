@@ -1,0 +1,60 @@
+{
+  "payload": {
+    "hitCount": 128,
+    "nextCursorMark": "AoIIQTj16yg1MzQ3ODk3OA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=CCDC88B AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQTj16yg1MzQ3ODk3OA==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "CCDC88B AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Shi S, Liu M, Gao H, Liu F, Song Y.",
+          "citedByCount": 0,
+          "doi": "10.1155/cjgh/1716853",
+          "firstIndexDate": "2025-07-30",
+          "firstPublicationDate": "2025-07-20",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12301091"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "40727246",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalIssn": "2291-2789; 2291-2797; ",
+          "journalTitle": "Can J Gastroenterol Hepatol",
+          "journalVolume": "2025",
+          "pageInfo": "1716853",
+          "pmcid": "PMC12301091",
+          "pmid": "40727246",
+          "pubType": "research support, non-u.s. gov't; research-article; journal article",
+          "pubYear": "2025",
+          "source": "MED",
+          "title": "A Phenome-Wide Mendelian Randomization and Colocalization Study Reveals Genetic Association Between PBC and Other Autoimmune Disorders.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "refsnp"
+            ]
+          }
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=CCDC88B+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

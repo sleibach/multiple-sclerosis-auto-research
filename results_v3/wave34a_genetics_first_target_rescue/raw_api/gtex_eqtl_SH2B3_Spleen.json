@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr12",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000111252.10",
+        "geneSymbol": "SH2B3",
+        "geneSymbolUpper": "SH2B3",
+        "nes": 0.311761,
+        "ontologyId": "UBERON:0002106",
+        "pValue": 2.8483e-05,
+        "pos": 111856938,
+        "snpId": "rs4767078",
+        "snpIdUpper": "RS4767078",
+        "tissueSiteDetailId": "Spleen",
+        "variantId": "chr12_111856938_A_T_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 4,
+      "page": 0,
+      "totalNumberOfItems": 4
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000111252.10&tissueSiteDetailId=Spleen&datasetId=gtex_v8&itemsPerPage=1"
+}

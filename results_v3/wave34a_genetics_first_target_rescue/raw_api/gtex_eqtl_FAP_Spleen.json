@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr2",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000078098.13",
+        "geneSymbol": "FAP",
+        "geneSymbolUpper": "FAP",
+        "nes": -1.58483,
+        "ontologyId": "UBERON:0002106",
+        "pValue": 5.25935e-06,
+        "pos": 162766782,
+        "snpId": "rs10497227",
+        "snpIdUpper": "RS10497227",
+        "tissueSiteDetailId": "Spleen",
+        "variantId": "chr2_162766782_C_T_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 1,
+      "page": 0,
+      "totalNumberOfItems": 1
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000078098.13&tissueSiteDetailId=Spleen&datasetId=gtex_v8&itemsPerPage=1"
+}

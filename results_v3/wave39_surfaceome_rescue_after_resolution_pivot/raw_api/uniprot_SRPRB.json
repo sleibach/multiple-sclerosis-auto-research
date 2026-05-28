@@ -1,0 +1,288 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P47758",
+                  "source": "UniProtKB"
+                }
+              ],
+              "value": "Component of the signal recognition particle (SRP) complex receptor (SR) (By similarity). Ensures, in conjunction with the SRP complex, the correct targeting of the nascent secretory proteins to the endoplasmic reticulum membrane system (By similarity). May mediate the membrane association of SR (By similarity)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "O13950",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0097",
+                "value": "Endoplasmic reticulum membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000255"
+                  }
+                ],
+                "id": "SL-9904",
+                "value": "Single-pass membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000001BC0"
+      },
+      "features": [
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 57
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 37
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 79
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 71
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 95
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 92
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 120
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 120
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 248
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 248
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "SRPRB"
+          },
+          "orfNames": [
+            {
+              "value": "PSEC0230"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0256",
+          "name": "Endoplasmic reticulum"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0342",
+          "name": "GTP-binding"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0547",
+          "name": "Nucleotide-binding"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0675",
+          "name": "Receptor"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        }
+      ],
+      "primaryAccession": "Q9Y5M8",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Protein APMCF1"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Signal recognition particle receptor subunit beta"
+          },
+          "shortNames": [
+            {
+              "value": "SR-beta"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "EC8DBCE9EE01B2B6",
+        "length": 271,
+        "md5": "2A72502623B4D3FAC2E74C58743872EE",
+        "molWeight": 29702,
+        "value": "MASADSRRVADGGGAGGTFQPYLDTLRQELQQTDPTLLSVVVAVLAVLLTLVFWKLIRSRRSSQRAVLLVGLCDSGKTLLFVRLLTGLYRDTQTSITDSCAVYRVNNNRGNSLTLIDLPGHESLRLQFLERFKSSARAIVFVVDSAAFQREVKDVAEFLYQVLIDSMGLKNTPSFLIACNKQDIAMAKSAKLIQQQLEKELNTLRVTRSAAPSTLDSSSTAPAQLGKKGKEFEFSQLPLKVEFLECSAKGGRGDVGSADIQDLEKWLAKIA"
+      },
+      "uniProtkbId": "SRPRB_HUMAN"
+    }
+  ]
+}

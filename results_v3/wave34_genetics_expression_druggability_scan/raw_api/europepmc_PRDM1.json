@@ -1,0 +1,55 @@
+{
+  "payload": {
+    "hitCount": 2781,
+    "nextCursorMark": "AoIIQT0nsCg1NTA3Mzk1MQ==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PRDM1 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQT0nsCg1NTA3Mzk1MQ==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "PRDM1 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Wu Y, Li X, Jin Y, Mao F, Zhang L.",
+          "citedByCount": 0,
+          "doi": "10.3389/fimmu.2026.1753611",
+          "firstIndexDate": "2026-03-10",
+          "firstPublicationDate": "2026-02-19",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12960517"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "N",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41798919",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalIssn": "1664-3224",
+          "journalTitle": "Front Immunol",
+          "journalVolume": "17",
+          "pageInfo": "1753611",
+          "pmcid": "PMC12960517",
+          "pmid": "41798919",
+          "pubType": "review-article; review; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Exosomal non-coding RNAs in autoimmune diseases: molecular mechanisms and potential applications."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PRDM1+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

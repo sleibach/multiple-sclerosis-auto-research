@@ -1,0 +1,56 @@
+{
+  "payload": {
+    "hitCount": 338,
+    "nextCursorMark": "AoIIQNSudig1Mzg3MTkyMg==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=SP140 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQNSudig1Mzg3MTkyMg==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "SP140 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Wielockx B, Rodriguez D, Mirtschink P.",
+          "citedByCount": 1,
+          "doi": "10.1038/s41392-025-02393-7",
+          "firstIndexDate": "2025-09-20",
+          "firstPublicationDate": "2025-09-19",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12446470"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "40968173",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "1",
+          "journalIssn": "2095-9907; 2059-3635; ",
+          "journalTitle": "Signal Transduct Target Ther",
+          "journalVolume": "10",
+          "pageInfo": "297",
+          "pmcid": "PMC12446470",
+          "pmid": "40968173",
+          "pubType": "brief-report; journal article",
+          "pubYear": "2025",
+          "source": "MED",
+          "title": "Rewiring interferon fate: a bidirectional strategy for immune homeostasis."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=SP140+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

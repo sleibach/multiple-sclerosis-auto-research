@@ -1,0 +1,42 @@
+{
+  "decision": {
+    "candidate": "EPHX2_sEH_epoxy_fatty_acid_diol_mechanism",
+    "cross_disease_specific_biochemistry": 0,
+    "decision_reason": "available data do not resolve an EPHX2-specific mechanism over generic lipid/inflammatory disturbance",
+    "ephx2_module_support_context_count": 3,
+    "ephx2_response_module_support_count": 0,
+    "independent_response_replication": 0,
+    "paired_diol_epfa_ratio_proxy": 0,
+    "ratio_proxy_support_count": 0,
+    "specific_normalizing_treatment_hit_count": 1,
+    "specific_supportive_disease_count": 1,
+    "specificity_pass_context_count": 0,
+    "specificity_vs_generic_modules": 0,
+    "target_level_ephx2_support": 0,
+    "target_support_source_count": 0,
+    "wave74_call": "NO_GO"
+  },
+  "ephx2_specific_feature_match_count": 19,
+  "feature_match_count": 354,
+  "inputs": {
+    "broad_contrasts": "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv",
+    "broad_rank": "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv",
+    "broad_summary": "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_summary.tsv",
+    "class_effects": "results_v3/wave66_metabolomics_class_convergence/class_contrast_effects.tsv",
+    "class_rank": "results_v3/wave66_metabolomics_class_convergence/class_convergence_rank.tsv",
+    "feature_effects": "results_v3/wave66_metabolomics_class_convergence/feature_contrast_effects.tsv",
+    "gse282122_integrated": "results_v3/wave68_gse282122_unrestricted_gene_screen/integrated_gene_target_rank.tsv",
+    "gse282122_paired": "results_v3/wave68_gse282122_unrestricted_gene_screen/paired_gene_delta_tests.tsv",
+    "gse282122_raw": "results_v3/wave68_gse282122_unrestricted_gene_screen/raw_remission_response_gene_tests.tsv",
+    "inventory": "results_v3/wave66_metabolomics_class_convergence/metabolite_class_inventory.tsv",
+    "ms_white_matter": "results_v3/gse111972_full_ms_wm_signature.tsv",
+    "ra_counts": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_counts_used.tsv",
+    "ra_meta": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_sample_metadata.tsv",
+    "ra_module_paired_existing": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/paired_pharmacodynamic_tests.tsv",
+    "ra_module_response_existing": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/response_delta_tests.tsv",
+    "wave57": "results_v3/wave57_intervention_first_geneformer_screen/wave57_geneformer_gene_summary.tsv",
+    "wave62": "results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv",
+    "wave69d": "results_v3/wave69d_gse282122_geneformer_remission_centroid/geneformer_remission_gene_summary.tsv"
+  },
+  "random_seed": 20260527
+}

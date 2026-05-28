@@ -1,0 +1,259 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "A4VEB3",
+                  "source": "UniProtKB"
+                }
+              ],
+              "value": "Component of dynein, a family of motor proteins essential for movement along microtubules (By similarity). Required for structural and functional integrity of cilia (By similarity). Acts as one of several non-catalytic accessory components of the cytoplasmic dynein 1 complex that are thought to be involved in linking dynein to cargos and to adapter proteins that regulate dynein function. Cytoplasmic dynein 1 acts as a motor for the intracellular retrograde motility of vesicles and organelles along microtubules. Binds to transport cargos and is involved in apical cargo transport such as rhodopsin-bearing vesicles in polarized epithelia"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "27502274",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Plays a role in neuronal morphogenesis; the function is independent of cytoplasmic dynein and seems to be coupled to regulation of the actin cytoskeleton by enhancing Rac1 activity. The function in neurogenesis may be regulated by association with a G-protein beta-gamma dimer. May function as a receptor-independent activator of heterotrimeric G-protein signaling; the activation appears to be independent of a nucleotide exchange. Plays a role in regulating neurogenesis; inhibits the genesis of neurons from precursor cells during cortical development presumably by antagonizing ARHGEF2. Involved in the regulation of mitotic spindle orientation (By similarity). Unrelated to the role in retrograde microtubule-associated movement may play a role in the dimerization of cytoplasmic proteins/domains such as for ACVR2B. Binds to the cytoplasmic domain of ACVR2B and, in vitro, inhibits ACVR2B signaling (PubMed:27502274)"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "18647839",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "(Microbial infection) Is involved in intracellular targeting of D-type retrovirus gag polyproteins to the cytoplasmic assembly site"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "value": "Localizes to mitotic spindles"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "id": "SL-0132",
+                "value": "Golgi apparatus"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "id": "SL-0251",
+                "value": "Cytoplasm, cytoskeleton, spindle"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00000012DB"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "DYNLT1"
+          },
+          "synonyms": [
+            {
+              "value": "TCTEL1"
+            },
+            {
+              "value": "TCTEX-1"
+            },
+            {
+              "value": "TCTEX1"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0131",
+          "name": "Cell cycle"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0132",
+          "name": "Cell division"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0963",
+          "name": "Cytoplasm"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-1176",
+          "name": "Cytoplasmic inwards viral transport"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0206",
+          "name": "Cytoskeleton"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0243",
+          "name": "Dynein"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0333",
+          "name": "Golgi apparatus"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0945",
+          "name": "Host-virus interaction"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-1177",
+          "name": "Microtubular inwards viral transport"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0493",
+          "name": "Microtubule"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0498",
+          "name": "Mitosis"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0505",
+          "name": "Motor protein"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0524",
+          "name": "Neurogenesis"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0813",
+          "name": "Transport"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-1160",
+          "name": "Virus entry into host cell"
+        }
+      ],
+      "primaryAccession": "P63172",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Protein CW-1"
+            }
+          },
+          {
+            "fullName": {
+              "value": "T-complex testis-specific protein 1 homolog"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Dynein light chain Tctex-type 1"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "A6BAD1D0744D1AA6",
+        "length": 113,
+        "md5": "D52F69AD33275F314EE817412F92431F",
+        "molWeight": 12452,
+        "value": "MEDYQAAEETAFVVDEVSNIVKEAIESAIGGNAYQHSKVNQWTTNVVEQTLSQLTKLGKPFKYIVTCVIMQKNGAGLHTASSCFWDSSTDGSCTVRWENKTMYCIVSAFGLSI"
+      },
+      "uniProtkbId": "DYLT1_HUMAN"
+    }
+  ]
+}

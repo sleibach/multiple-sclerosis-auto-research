@@ -1,0 +1,7 @@
+module	tested_context_count	positive_context_count	negative_context_count	positive_fdr10_context_count	positive_disease_count	negative_disease_count	positive_diseases	negative_diseases	specificity_pass_context_count	best_positive_context
+p2rx7_inflammasome	17	5	0	5	3	0	Crohn disease;type 1 diabetes mellitus;ulcerative colitis		0	ibd_crohn_myeloid|Crohn disease|colon myeloid|effect=1.42|p=4.42e-06|fdr=6.44e-05
+inflammasome_no_p2rx7	17	6	0	6	3	0	Crohn disease;type 1 diabetes mellitus;ulcerative colitis		0	ibd_crohn_myeloid|Crohn disease|colon myeloid|effect=1.39|p=1.6e-05|fdr=0.000169
+purinergic_adenosine	17	6	0	6	4	0	Crohn disease;psoriasis;type 1 diabetes mellitus;ulcerative colitis		0	ibd_uc_stromal|ulcerative colitis|colon stromal|effect=0.824|p=0.00916|fdr=0.0267
+generic_nfkb_tnf	17	10	2	10	3	1	Crohn disease;type 1 diabetes mellitus;ulcerative colitis	psoriasis	0	t1d_acinar_cell|type 1 diabetes mellitus|pancreatic acinar cell|effect=1.53|p=1.61e-07|fdr=7.7e-06
+interferon_apc	17	15	0	15	5	0	Crohn disease;Sjogren syndrome;psoriasis;type 1 diabetes mellitus;ulcerative colitis		0	t1d_beta_cell|type 1 diabetes mellitus|pancreatic beta cell|effect=1.82|p=0.00013|fdr=0.000736
+lysosome_apc	17	6	0	6	2	0	psoriasis;type 1 diabetes mellitus		0	t1d_beta_cell|type 1 diabetes mellitus|pancreatic beta cell|effect=1.1|p=0.00237|fdr=0.00806

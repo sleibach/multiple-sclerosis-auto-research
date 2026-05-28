@@ -1,0 +1,9 @@
+gene	source_analysis	target_analysis	disease_name	wave105_robust_context	primary_positive_m3_count	control_positive_m3_count	primary_positive_m7_count	control_positive_m7_count	best_primary_m3_p	best_control_m3_p	best_primary_m7_p	best_control_m7_p	specificity_call	best_primary_modules_m3	best_control_modules_m3	best_primary_modules_m7	best_control_modules_m7
+CD82	ibd_crohn_epithelial	ibd_crohn_myeloid	Crohn disease	True	3	2	0	0	0.0034901387055257145	0.00031088955831197956			GENERIC_TARGET_ACTIVATION_COUPLING	lysosomal_apc;lipid_loader_repair;complement_phagocytosis	ifn_apc;hla_ii_apc		
+CD82	sjogren_gland_epithelial	sjogren_gland_apc	Sjogren syndrome	True	1	0	0	1	0.03834714215082795	0.1145552634722693	0.3741847520524172	0.004328635635369484	SPECIFIC_PRIMARY_OVER_CONTROLS_M3	lysosomal_apc			ifn_apc
+CD82	sjogren_gland_stromal	sjogren_gland_apc	Sjogren syndrome	False	0	1	1	1	0.16144441817440375	0.005528992313989821	0.01212937015193735	0.03781142695587891	GENERIC_TARGET_ACTIVATION_COUPLING_M7		hif_nampt_metabolic	lysosomal_apc	hif_nampt_metabolic
+CD82	ibd_crohn_stromal	ibd_crohn_myeloid	Crohn disease	False	0	1	0	2	0.17229562612113028	0.02639415844747695	0.13187837221380114	0.0016098735857546591	NO_PRIMARY_SIGNAL		inflammatory_nfkb		ifn_apc;inflammatory_nfkb
+CD82	ibd_uc_epithelial	ibd_uc_myeloid	ulcerative colitis	False	0	0	0	0	0.25539674449400007	0.26826713468736063			NO_PRIMARY_SIGNAL				
+CD82	ibd_uc_stromal	ibd_uc_myeloid	ulcerative colitis	False	0	0	0	0	0.40118741107058475	0.04109545205955656	0.11550751395092779	0.3033806448679512	NO_PRIMARY_SIGNAL				
+CD82	psoriasis_keratinocyte	psoriasis_skin_apc	psoriasis	False	0	0	0	0					NO_PRIMARY_SIGNAL				
+CD82	psoriasis_skin_stromal	psoriasis_skin_apc	psoriasis	False	0	0	0	0					NO_PRIMARY_SIGNAL				

@@ -1,0 +1,7 @@
+study_id	disease	contrast	contrast_type	is_treatment_or_improvement	mean_diol_effect	n_diol_features	mean_epfa_effect	n_epfa_features	diol_minus_epfa_effect_proxy	ratio_proxy_supports_ephx2
+ST000422	T1D	T1D_vs_control	disease_control	False	0.1258998556345902	4	0.19776215321574075	4	-0.07186229758115056	False
+ST000899	Crohn	Crohn_vs_control	disease_control	False	-0.13462298868863715	2		0		False
+ST000899	UC	UC_vs_control	disease_control	False	0.6445404900116971	2		0		False
+ST002470	UC	UC_week0_modsev_vs_mild	severity	False	-0.21983968982619545	2	-0.4434136668195522	1	0.22357397699335674	False
+ST002470	UC	UC_week12_inactive_vs_week0_modsev	treatment_or_improvement_shift	True	-0.4452049573303598	2	-0.1049338713090867	1	-0.3402710860212731	False
+ST002949	AS	AS_vs_control	disease_control	False	0.1950005055186936	1		0		False

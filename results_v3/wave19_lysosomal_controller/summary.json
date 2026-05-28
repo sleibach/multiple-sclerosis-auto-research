@@ -1,0 +1,43 @@
+{
+  "n_candidates": 35,
+  "n_routes": 12,
+  "route_call_counts": {
+    "NO_GO": 5,
+    "COMPARATOR_ONLY": 3,
+    "PARK": 1,
+    "PARK_DISEASE_SPECIFIC": 1,
+    "NO_GO_TOOL_ONLY": 1,
+    "PARK_READOUT": 1
+  },
+  "promoted_go_routes": [],
+  "parked_routes": [
+    "LIPA_LAL_enhancement",
+    "LRRK2_inhibition",
+    "NPC1_NPC2_cholesterol_egress"
+  ],
+  "no_go_routes": [
+    "GBA_GBA2_sphingolipid_modulation",
+    "MCOLN1_TRPML1_activation",
+    "PIKFYVE_inhibition",
+    "PPAR_LXR_cholesterol_efflux_activation",
+    "TFEB_TFE3_CLEAR_activation",
+    "mTOR_autophagy_modulation"
+  ],
+  "inputs": [
+    "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv",
+    "results_v3/cross_disease_gene_summary.tsv",
+    "results_v3/wave15_surface_trafficking_dependency/candidate_ranked.tsv",
+    "results_v3/wave15_orchestrator_dependency_scan/candidate_dependency_priority_summary.tsv",
+    "results_v3/geneformer_*/*gene_summary.tsv",
+    "results_v3/wave14_geneformer_narrowed_candidate_delete/*gene_summary.tsv",
+    "results_v3/wave15_geneformer_loader_dependency_delete/*gene_summary.tsv"
+  ],
+  "outputs": [
+    "candidate_local_evidence.tsv",
+    "external_evidence_matrix.tsv",
+    "source_log.tsv",
+    "decision_matrix.tsv",
+    "route_summary.tsv",
+    "summary.json"
+  ]
+}

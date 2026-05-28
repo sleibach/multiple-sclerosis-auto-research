@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr1",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000134242.15",
+        "geneSymbol": "PTPN22",
+        "geneSymbolUpper": "PTPN22",
+        "nes": 0.130814,
+        "ontologyId": "UBERON:0001157",
+        "pValue": 0.000105808,
+        "pos": 113322252,
+        "snpId": "rs1418609",
+        "snpIdUpper": "RS1418609",
+        "tissueSiteDetailId": "Colon_Transverse",
+        "variantId": "chr1_113322252_C_T_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 282,
+      "page": 0,
+      "totalNumberOfItems": 282
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000134242.15&tissueSiteDetailId=Colon_Transverse&datasetId=gtex_v8&itemsPerPage=1"
+}

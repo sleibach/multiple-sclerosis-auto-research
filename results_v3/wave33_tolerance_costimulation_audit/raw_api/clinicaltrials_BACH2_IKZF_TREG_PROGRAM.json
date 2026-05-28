@@ -1,0 +1,482 @@
+{
+  "payload": {
+    "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxuYPKl2vg",
+    "studies": [
+      {
+        "derivedSection": {
+          "conditionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D005921",
+                "term": "Glomerulonephritis"
+              },
+              {
+                "id": "D009393",
+                "term": "Nephritis"
+              },
+              {
+                "id": "D007674",
+                "term": "Kidney Diseases"
+              },
+              {
+                "id": "D014570",
+                "term": "Urologic Diseases"
+              },
+              {
+                "id": "D052776",
+                "term": "Female Urogenital Diseases"
+              },
+              {
+                "id": "D005261",
+                "term": "Female Urogenital Diseases and Pregnancy Complications"
+              },
+              {
+                "id": "D000091642",
+                "term": "Urogenital Diseases"
+              },
+              {
+                "id": "D052801",
+                "term": "Male Urogenital Diseases"
+              },
+              {
+                "id": "D008180",
+                "term": "Lupus Erythematosus, Systemic"
+              },
+              {
+                "id": "D003240",
+                "term": "Connective Tissue Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              },
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              },
+              {
+                "id": "D051437",
+                "term": "Renal Insufficiency"
+              },
+              {
+                "id": "D002908",
+                "term": "Chronic Disease"
+              },
+              {
+                "id": "D020969",
+                "term": "Disease Attributes"
+              },
+              {
+                "id": "D010335",
+                "term": "Pathologic Processes"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D008181",
+                "term": "Lupus Nephritis"
+              },
+              {
+                "id": "D051436",
+                "term": "Renal Insufficiency, Chronic"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D002208",
+                "term": "Caproates"
+              },
+              {
+                "id": "D000144",
+                "term": "Acids, Acyclic"
+              },
+              {
+                "id": "D002264",
+                "term": "Carboxylic Acids"
+              },
+              {
+                "id": "D009930",
+                "term": "Organic Chemicals"
+              },
+              {
+                "id": "D005227",
+                "term": "Fatty Acids"
+              },
+              {
+                "id": "D008055",
+                "term": "Lipids"
+              },
+              {
+                "id": "D013872",
+                "term": "Thionucleosides"
+              },
+              {
+                "id": "D013457",
+                "term": "Sulfur Compounds"
+              },
+              {
+                "id": "D015122",
+                "term": "Mercaptopurine"
+              },
+              {
+                "id": "D011687",
+                "term": "Purines"
+              },
+              {
+                "id": "D006574",
+                "term": "Heterocyclic Compounds, 2-Ring"
+              },
+              {
+                "id": "D000072471",
+                "term": "Heterocyclic Compounds, Fused-Ring"
+              },
+              {
+                "id": "D006571",
+                "term": "Heterocyclic Compounds"
+              },
+              {
+                "id": "D009705",
+                "term": "Nucleosides"
+              },
+              {
+                "id": "D009706",
+                "term": "Nucleic Acids, Nucleotides, and Nucleosides"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "C529054",
+                "term": "dapagliflozin"
+              },
+              {
+                "id": "D009173",
+                "term": "Mycophenolic Acid"
+              },
+              {
+                "id": "D001379",
+                "term": "Azathioprine"
+              }
+            ]
+          },
+          "miscInfoModule": {
+            "versionHolder": "2026-05-26"
+          }
+        },
+        "hasResults": false,
+        "protocolSection": {
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "description": "standard maintenance therapy plus dapagliflozin 10 mg daily",
+                "interventionNames": [
+                  "Drug: Dapagliflozin 10mg Tab",
+                  "Drug: Standard maintenance therapy"
+                ],
+                "label": "Treatment group",
+                "type": "EXPERIMENTAL"
+              },
+              {
+                "description": "standard maintenance therapy only",
+                "interventionNames": [
+                  "Drug: Standard maintenance therapy"
+                ],
+                "label": "Control group",
+                "type": "OTHER"
+              }
+            ],
+            "interventions": [
+              {
+                "armGroupLabels": [
+                  "Treatment group"
+                ],
+                "description": "Dapagliflozin 10mg daily",
+                "name": "Dapagliflozin 10mg Tab",
+                "otherNames": [
+                  "Farxiga",
+                  "Forxiga"
+                ],
+                "type": "DRUG"
+              },
+              {
+                "armGroupLabels": [
+                  "Control group",
+                  "Treatment group"
+                ],
+                "description": "Prednisolone 5-7.5 mg daily alone or in combination with Mycophenolate mofetil (\\<=1.5 g/D) or Azathioprine (\\<=150 mg/D)",
+                "name": "Standard maintenance therapy",
+                "otherNames": [
+                  "Cellcept",
+                  "Imuran"
+                ],
+                "type": "DRUG"
+              }
+            ]
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Lupus Nephritis",
+              "Chronic Kidney Diseases"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "email": "desmondy@hku.hk",
+                "name": "Desmond Yap, MD (HK)",
+                "phone": "85222554385",
+                "role": "CONTACT"
+              }
+            ],
+            "locations": [
+              {
+                "city": "Hong Kong",
+                "contacts": [
+                  {
+                    "email": "desmondy@hku.hk",
+                    "name": "Desmond Yap, MD (HK)",
+                    "phone": "85222554385",
+                    "role": "CONTACT"
+                  }
+                ],
+                "country": "Hong Kong",
+                "facility": "Queen Mary Hospital",
+                "geoPoint": {
+                  "lat": 22.27832,
+                  "lon": 114.17469
+                },
+                "status": "RECRUITING"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "affiliation": "The University of Hong Kong",
+                "name": "Desmond Yap, MD (HK)",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ]
+          },
+          "descriptionModule": {
+            "briefSummary": "Lupus nephritis (LN) is a common manifestation in patients with systemic lupus erythematosus (SLE), and is an important cause of acute kidney injury and chronic kidney disease (CKD). Although the standard-of-care treatments for active severe LN are effective, a substantial proportion of LN patients still develop CKD and eventually end-stage kidney disease (ESKD).\n\nCardiovascular complications are common and is a leading cause of death in SLE and LN patients. It is well recognized that LN patients had multiple risk factors for cardiovascular complications such as diabetes mellitus (DM), dyslipidaemia and vascular inflammation. Sodium-glucose co-transporter 2 (SGLT2) inhibitor are initially developed as an oral anti-diabetic agent and has shown to be effective in glycaemic control, has benefits in lipid metabolism, cardiovascular and renal outcomes, and also well tolerated by patients. Various trials have also demonstrated the benefits of SGLT2 inhibitor in the reduction of CKD, ESKD, and renal or cardiovascular death. However, the effect of SGLT2 inhibitor in LN remains unclear.\n\nThe purpose of this study is to investigate the effect of SGLT2 on renal outcomes in LN patients with CKD, as well as the side effects, metabolic profiles, immunological functions and disease stability.",
+            "detailedDescription": "Lupus nephritis (LN) is a common manifestation in patients with systemic lupus erythematosus (SLE), and is an important cause of acute kidney injury and chronic kidney disease (CKD). The standard-of-care treatments for active severe LN are high-dose corticosteroids in combination with mycophenolate mofetil (MMF) or cyclophosphamide (CYC), followed by low-dose corticosteroids with either MMF or azathioprine (AZA) as maintenance therapy. While these immunosuppressive treatments are effective in mitigating active nephritis and preventing relapses in most patients, a substantial proportion of LN patients still develop CKD and eventually end-stage kidney disease (ESKD). CKD and ESKD are often a result of cumulative kidney damage due to a severe episode of LN or repeated renal flares. Indeed, preserving renal function in LN is important because renal failure confer a 26-fold risk of mortality compared to age- and sex-matched general population. The current mainstay of treatment for stable LN with CKD is renin-angiotensin system (RAS) blockade, and yet a considerable number of patients still show progressive CKD and eventually ESKD despite these reno-protective measures. Therefore, novel therapeutic approaches are needed to optimize the renal outcomes of LN patients with CKD.\n\nSodium-glucose co-transporter 2 (SGLT2) inhibitor are initially developed as an oral anti-diabetic agent and has rapidly gained popularity in diabetes mellitus (DM) management due to its efficacy in glycaemic control, benefits in cardiovascular and renal outcomes and also generally favourable tolerability. In Type 2 DM patients, the EMPA-REG OUTCOME, CANVAS and CREDENCE trials have all demonstrated the benefits of SGLT2 inhibitor in various renal and cardiovascular endpoints including the reduction of incident nephropathy, development of CKD and ESKD, and renal or cardiovascular death. These landmark trials have established SGLT2 inhibitor a first-line treatment for diabetic kidney disease. Importantly, the DAPA-CKD study further showed that dapagliflozin treatment in CKD patients was associated with lower risk of sustained decline in eGFR of at least 50%, ESKD, or death from renal or cardiovascular causes, irrespectively of the presence of absence of DM. The benefits of SGLT2 inhibitor have also been shown in some glomerular diseases such as IgA nephropathy and focal segmental glomerulosclerosis. The use of SGLT2 inhibitors was associated with reduction in proteinuria, which is a robust predictor for renal progression in various glomerular pathologies. The effect of SGLT2 inhibitor in LN, however, remains elusive because all previous RCTs have excluded patients with SLE or LN.\n\nCardiovascular complications common and a leading cause of death in SLE and LN patients. It is well recognized that LN patients had multiple risk factors for cardiovascular complications such as DM, dyslipidaemia and vascular inflammation. Indeed, SLE and LN patients showed increased propensity for DM because of the prevalent use of corticosteroids and increased insulin resistance related to chronic inflammation. Previous studies suggested that SGLT2 inhibition can effectively improve glycaemic profiles in type 2 DM patients, and also prevent the development of new onset DM in CKD patients. Other studies have also indicated the beneficial effects of SGLT2 inhibitors on lipid metabolism via reduction in visceral fat accumulation, regulation of serum lipoprotein levels, decrease in lipid oxidation and shifting of substrate utilization. The investigators postulate that SGLT2 inhibitors in LN patients with CKD can attenuate the glycaemic and lipid profiles, and hence reduce long-term cardiovascular complications and hence long-term clinical outcomes.\n\nLong-term clinical outcomes of LN patients are also heavily affected by renal relapse, as this will cause attribution of nephron mass and hence progressive renal failure. Recurrent renal flares will also require repeated administration of intensive immunosuppression, leading to increased cumulative treatment toxicities. Therefore, therapies other than maintenance immunosuppression that can enhance disease stability would be clinically useful. Disease stability in LN is related to immunological abnormality, efficacy of maintenance therapy and also drug compliance. In this context, the B cell repertoire plays pivotal roles in the pathogenesis of SLE and LN including the production of pathogenic autoantibodies, presentation of autoantigens and secretion of pro-inflammatory cytokines. Previous studies have reported increased circulating memory B cells and reduced na\u00efve B cells in SLE patients. The expansion of memory B cells increases the propensity for disease relapse because these B cell subtypes are less vulnerable to conventional cell cycle-dependent immunosuppressive drugs and can be easily reactivated upon stimulation. Investigators' previous studies also demonstrated that LN patients with multiple relapses showed significantly higher memory-to-na\u00efve B cell ratio compared to those without relapse. Furthermore, dysregulation of B cell signatures (miR-148a, BACH1, BACH2) in memory B cell is related to disease relapse in LN patients. miRNA-148a plays a significant role in B cell development, and its upregulation has been observed in B cells, T cells and tissue lesions in patients and mice with SLE. Other researchers have reported that increased miRNA-148a expression can inhibit Gadd45a, Bim and PTEN and prevent apoptosis of immature B lymphocytes, resulting in enhanced B cell auto-reactivity. BACH1 and BACH2 are important transcription factors in B cells that are regulated by miRNA-148a, and they exert inhibitory effects on B cell differentiation and homeostasis. Other investigators have reported decreased BACH2 expression in B cells isolated from SLE patients, and transfection of BACH2 into B lymphocytes from lupus patients suppressed their proliferation and promoted apoptosis. A recent GWAS analysis also identified BACH2 as a novel susceptibility locus in Chinese SLE patients. The effect of SGLT2 inhibitor on immune system and disease activity in SLE and LN patients, however, remains unknown. The investigators' bioinformatic analyses using public domain data showed that there was significant correlation between circulating memory B cells and SGLT2 expression LN patients. Based on these observations and the investigators' pilot bioinformatics data, the investigators hypothesize that SGLT2 inhibition may also modulate disease stability in LN patients via its effect on memory B cells and related cellular signatures.\n\nGiven these backgrounds, the investigators propose an open-label RCT to investigate the effect of SGLT2 on renal outcomes, metabolic profiles and immunological parameters in LN patients with CKD."
+          },
+          "designModule": {
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              },
+              "primaryPurpose": "TREATMENT"
+            },
+            "enrollmentInfo": {
+              "count": 150,
+              "type": "ESTIMATED"
+            },
+            "phases": [
+              "PHASE2"
+            ],
+            "studyType": "INTERVENTIONAL"
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients with biopsy-proven Class III or IV or V LN according to the ISN/RPS 2003 classification\n2. Patients with CKD (eGFR 15-60mL/min)\n3. Patients in quiescent disease (defined as SLEDAI score \\<4 with no points in the renal domain)\n4. Patients on a stable dose of prednisolone (PRED 5-7.5 mg/D) alone or in combination with MMF (\\<=1.5 g/D) or AZA (\\<=150 mg/D) in the past 3 months\n\nExclusion Criteria:\n\n1. Patients with biopsy-proven glomerulonephritis other than LN or hereditary kidney diseases\n2. Patients with type 1 diabetes mellitus (DM)\n3. Patients with stage 5 CKD or ESKD on renal replacement therapy\n4. Patients with frequent urinary tract infections\n5. Patients with history of ketoacidosis",
+            "healthyVolunteers": false,
+            "minimumAge": "18 Years",
+            "sex": "ALL",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "identificationModule": {
+            "briefTitle": "SGLT2 Inhibitor in Lupus Nephritis Patients With Chronic Kidney Disease",
+            "nctId": "NCT06155604",
+            "officialTitle": "A Randomized Controlled Trial on SGLT2 Inhibitor in Lupus Nephritis Patients With Chronic Kidney Disease",
+            "orgStudyIdInfo": {
+              "id": "LN-SGLT2i"
+            },
+            "organization": {
+              "class": "OTHER",
+              "fullName": "The University of Hong Kong"
+            }
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "description": "Incidence of eGFR reduction by 30% or more at 24 months",
+                "measure": "eGFR reduction",
+                "timeFrame": "24 months"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "description": "Changes in eGFR over time",
+                "measure": "eGFR",
+                "timeFrame": "24 months"
+              },
+              {
+                "description": "Changes in urine protein-to-creatinine (UPC) ratio over time",
+                "measure": "Urine protein-to-creatinine (UPC) ratio",
+                "timeFrame": "24 months"
+              },
+              {
+                "description": "Incidence rates of end-stage kidney disease (ESKD)",
+                "measure": "End-stage kidney disease (ESKD)",
+                "timeFrame": "24 months"
+              },
+              {
+                "description": "Changes in fasting glucose over time",
+                "measure": "Fasting glucose",
+                "timeFrame": "24 months"
+              },
+              {
+                "description": "Changes in Hba1c over time",
+                "measure": "Hba1c",
+                "timeFrame": "24 months"
+              },
+              {
+                "description": "Changes in lipids over time",
+                "measure": "Lipids",
+                "timeFrame": "24 months"
+              },
+              {
+                "description": "Changes in anti-dsDNA over time (measured by ELIZA)",
+                "measure": "Anti-dsDNA",
+                "timeFrame": "24 months"
+              },
+              {
+                "description": "Changes in C3 over time (measured by nephelometry)",
+                "measure": "C3",
+                "timeFrame": "24 months"
+              },
+              {
+                "description": "Changes in memory B cells over time (measured by flow cytometry)",
+                "measure": "Memory B cells",
+                "timeFrame": "24 months"
+              },
+              {
+                "description": "Changes in miR-148a over time (measured by qPCR using blood samples)",
+                "measure": "miR-148a",
+                "timeFrame": "24 months"
+              },
+              {
+                "description": "Changes in BACH1 over time (measured by qPCR using blood samples)",
+                "measure": "BACH1",
+                "timeFrame": "24 months"
+              },
+              {
+                "description": "Changes in BACH2 over time (measured by qPCR using blood samples)",
+                "measure": "BACH2",
+                "timeFrame": "24 months"
+              },
+              {
+                "description": "Changes in PAX5 over time (measured by qPCR using blood samples)",
+                "measure": "PAX5",
+                "timeFrame": "24 months"
+              },
+              {
+                "description": "Occurrence of clinical relapses (renal and extra-renal relapses)",
+                "measure": "Clinical relapses",
+                "timeFrame": "24 months"
+              },
+              {
+                "description": "Incidence rates of urinary tract infection",
+                "measure": "Urinary tract infection",
+                "timeFrame": "24 months"
+              },
+              {
+                "description": "Incidence rates of ketoacidosis",
+                "measure": "Ketoacidosis",
+                "timeFrame": "24 months"
+              },
+              {
+                "description": "Incidence rates of genital infection",
+                "measure": "genital infection",
+                "timeFrame": "24 months"
+              },
+              {
+                "description": "Incidence rates of acute kidney injury",
+                "measure": "Acute kidney injury",
+                "timeFrame": "24 months"
+              }
+            ]
+          },
+          "oversightModule": {
+            "isFdaRegulatedDevice": false,
+            "isFdaRegulatedDrug": true,
+            "oversightHasDmc": false
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "citation": "Desai SB, Ahdoot R, Malik F, Obert M, Hanna R. New guidelines and therapeutic updates for the management of lupus nephritis. Curr Opin Nephrol Hypertens. 2024 May 1;33(3):344-353. doi: 10.1097/MNH.0000000000000969. Epub 2024 Feb 9.",
+                "pmid": "38334499",
+                "type": "DERIVED"
+              }
+            ]
+          },
+          "sponsorCollaboratorsModule": {
+            "leadSponsor": {
+              "class": "OTHER",
+              "name": "The University of Hong Kong"
+            },
+            "responsibleParty": {
+              "investigatorAffiliation": "The University of Hong Kong",
+              "investigatorFullName": "Dr. Desmond Yat-Hin Yap",
+              "investigatorTitle": "Clinical Associate Professor",
+              "type": "PRINCIPAL_INVESTIGATOR"
+            }
+          },
+          "statusModule": {
+            "completionDateStruct": {
+              "date": "2026-12-31",
+              "type": "ESTIMATED"
+            },
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "lastUpdatePostDateStruct": {
+              "date": "2024-12-16",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-12-10",
+            "overallStatus": "RECRUITING",
+            "primaryCompletionDateStruct": {
+              "date": "2026-12-31",
+              "type": "ESTIMATED"
+            },
+            "startDateStruct": {
+              "date": "2023-01-04",
+              "type": "ACTUAL"
+            },
+            "statusVerifiedDate": "2024-12",
+            "studyFirstPostDateStruct": {
+              "date": "2023-12-04",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2022-11-04",
+            "studyFirstSubmitQcDate": "2023-11-24"
+          }
+        }
+      }
+    ],
+    "totalCount": 68
+  },
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.term=BACH2+OR+IKZF1+OR+IKZF3+OR+FOXP3&query.cond=autoimmune+OR+multiple+sclerosis+OR+rheumatoid+arthritis+OR+lupus+OR+Crohn+OR+psoriasis&format=json&pageSize=1&countTotal=true"
+}

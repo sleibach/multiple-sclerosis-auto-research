@@ -1,0 +1,991 @@
+{
+  "page_meta": {
+    "limit": 3,
+    "next": "/chembl/api/data/target/search.json?limit=3&offset=3&q=TNF",
+    "offset": 0,
+    "previous": null,
+    "total_count": 58
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Rattus norvegicus",
+      "pref_name": "Disintegrin and metalloproteinase domain-containing protein 17",
+      "score": 14.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL2523",
+      "target_components": [
+        {
+          "accession": "Q9Z1K9",
+          "component_description": "Disintegrin and metalloproteinase domain-containing protein 17",
+          "component_id": 862,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "Tace",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Adam17",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Disintegrin and metalloproteinase domain-containing protein 17",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "TNF-alpha convertase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "TNF-alpha-converting enzyme",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CD_antigen=CD156b",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ADAM 17",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "3.4.24.86",
+              "syn_type": "EC_NUMBER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0045742",
+              "xref_name": "positive regulation of epidermal growth factor receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006509",
+              "xref_name": "membrane protein ectodomain proteolysis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010977",
+              "xref_name": "negative regulation of neuron projection development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048679",
+              "xref_name": "regulation of axon regeneration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2001222",
+              "xref_name": "regulation of neuron migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0004175",
+              "xref_name": "endopeptidase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004222",
+              "xref_name": "metalloendopeptidase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005112",
+              "xref_name": "Notch binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005138",
+              "xref_name": "interleukin-6 receptor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005178",
+              "xref_name": "integrin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008237",
+              "xref_name": "metallopeptidase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0017124",
+              "xref_name": "SH3 domain binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019955",
+              "xref_name": "cytokine binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0030165",
+              "xref_name": "PDZ domain binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0043120",
+              "xref_name": "tumor necrosis factor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0070573",
+              "xref_name": "metallodipeptidase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:1902945",
+              "xref_name": "metalloendopeptidase activity involved in amyloid precursor protein catabolic process",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001666",
+              "xref_name": "response to hypoxia",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002467",
+              "xref_name": "germinal center formation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002532",
+              "xref_name": "production of molecular mediator involved in inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006508",
+              "xref_name": "proteolysis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007155",
+              "xref_name": "cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007219",
+              "xref_name": "Notch signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007283",
+              "xref_name": "spermatogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008284",
+              "xref_name": "positive regulation of cell population proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010820",
+              "xref_name": "positive regulation of T cell chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010976",
+              "xref_name": "positive regulation of neuron projection development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016485",
+              "xref_name": "protein processing",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0023061",
+              "xref_name": "signal release",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030183",
+              "xref_name": "B cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030307",
+              "xref_name": "positive regulation of cell growth",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030335",
+              "xref_name": "positive regulation of cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030512",
+              "xref_name": "negative regulation of transforming growth factor beta receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032722",
+              "xref_name": "positive regulation of chemokine production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032760",
+              "xref_name": "positive regulation of tumor necrosis factor production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033025",
+              "xref_name": "regulation of mast cell apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033077",
+              "xref_name": "T cell differentiation in thymus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033627",
+              "xref_name": "cell adhesion mediated by integrin",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035313",
+              "xref_name": "wound healing, spreading of epidermal cells",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043065",
+              "xref_name": "positive regulation of apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043066",
+              "xref_name": "negative regulation of apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043536",
+              "xref_name": "positive regulation of blood vessel endothelial cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048536",
+              "xref_name": "spleen development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048870",
+              "xref_name": "cell motility",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051128",
+              "xref_name": "regulation of cellular component organization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070374",
+              "xref_name": "positive regulation of ERK1 and ERK2 cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071260",
+              "xref_name": "cellular response to mechanical stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071403",
+              "xref_name": "cellular response to high density lipoprotein particle stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0120163",
+              "xref_name": "negative regulation of cold-induced thermogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0140448",
+              "xref_name": "signaling receptor ligand precursor processing",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1900087",
+              "xref_name": "positive regulation of G1/S transition of mitotic cell cycle",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1903265",
+              "xref_name": "positive regulation of tumor necrosis factor-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1905564",
+              "xref_name": "positive regulation of vascular endothelial cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1990910",
+              "xref_name": "response to hypobaric hypoxia",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005911",
+              "xref_name": "cell-cell junction",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005925",
+              "xref_name": "focal adhesion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009986",
+              "xref_name": "cell surface",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0015629",
+              "xref_name": "actin cytoskeleton",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016324",
+              "xref_name": "apical plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0032587",
+              "xref_name": "ruffle membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0045121",
+              "xref_name": "membrane raft",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0045177",
+              "xref_name": "apical part of cell",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "Q9Z1K9",
+              "xref_name": "Disintegrin and metalloproteinase domain-containing protein 17",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9Z1K9",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "Q9Z1K9",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "R-RNO-193692",
+              "xref_name": "Regulated proteolysis of p75NTR",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-RNO-75893",
+              "xref_name": "TNF signaling",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "IPR034025",
+              "xref_name": "ADAM10_ADAM17",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR032029",
+              "xref_name": "ADAM17_MPD",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR051489",
+              "xref_name": "ADAM_Metalloproteinase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001762",
+              "xref_name": "Disintegrin_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036436",
+              "xref_name": "Disintegrin_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR024079",
+              "xref_name": "MetalloPept_cat_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001590",
+              "xref_name": "Peptidase_M12B",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR45702",
+              "xref_name": "ADAM10/ADAM17 METALLOPEPTIDASE FAMILY MEMBER",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR45702:SF6",
+              "xref_name": "DISINTEGRIN AND METALLOPROTEINASE DOMAIN-CONTAINING PROTEIN 17",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF16698",
+              "xref_name": "ADAM17_MPD",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF00200",
+              "xref_name": "Disintegrin",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF13688",
+              "xref_name": "Reprolysin_5",
+              "xref_src_db": "Pfam"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 10116
+    },
+    {
+      "cross_references": [],
+      "organism": "Sus scrofa",
+      "pref_name": "Disintegrin and metalloproteinase domain-containing protein 17",
+      "score": 14.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL3332",
+      "target_components": [
+        {
+          "accession": "O77636",
+          "component_description": "Disintegrin and metalloproteinase domain-containing protein 17",
+          "component_id": 1652,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "TACE",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "ADAM17",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Disintegrin and metalloproteinase domain-containing protein 17",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "TNF-alpha convertase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "TNF-alpha-converting enzyme",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CD_antigen=CD156b",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ADAM 17",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "3.4.24.86",
+              "syn_type": "EC_NUMBER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0004175",
+              "xref_name": "endopeptidase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004222",
+              "xref_name": "metalloendopeptidase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005112",
+              "xref_name": "Notch binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008237",
+              "xref_name": "metallopeptidase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006508",
+              "xref_name": "proteolysis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006509",
+              "xref_name": "membrane protein ectodomain proteolysis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007219",
+              "xref_name": "Notch signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033209",
+              "xref_name": "tumor necrosis factor-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070374",
+              "xref_name": "positive regulation of ERK1 and ERK2 cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "A5A749",
+              "xref_name": "Disintegrin and metalloproteinase domain-containing protein 17",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O77636",
+              "xref_name": "Disintegrin and metalloproteinase domain-containing protein 17",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O77636",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "IPR034025",
+              "xref_name": "ADAM10_ADAM17",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR032029",
+              "xref_name": "ADAM17_MPD",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR051489",
+              "xref_name": "ADAM_Metalloproteinase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001762",
+              "xref_name": "Disintegrin_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036436",
+              "xref_name": "Disintegrin_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR024079",
+              "xref_name": "MetalloPept_cat_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001590",
+              "xref_name": "Peptidase_M12B",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR45702",
+              "xref_name": "ADAM10/ADAM17 METALLOPEPTIDASE FAMILY MEMBER",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR45702:SF6",
+              "xref_name": "DISINTEGRIN AND METALLOPROTEINASE DOMAIN-CONTAINING PROTEIN 17",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF16698",
+              "xref_name": "ADAM17_MPD",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF00200",
+              "xref_name": "Disintegrin",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF13688",
+              "xref_name": "Reprolysin_5",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA24512",
+              "xref_name": "ADAM metallopeptidase domain 17",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9823
+    },
+    {
+      "cross_references": [],
+      "organism": "Mus musculus",
+      "pref_name": "Disintegrin and metalloproteinase domain-containing protein 17",
+      "score": 14.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL4379",
+      "target_components": [
+        {
+          "accession": "Q9Z0F8",
+          "component_description": "Disintegrin and metalloproteinase domain-containing protein 17",
+          "component_id": 2695,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "Tace",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Adam17",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Disintegrin and metalloproteinase domain-containing protein 17",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "TNF-alpha convertase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "TNF-alpha-converting enzyme",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CD_antigen=CD156b",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ADAM 17",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "3.4.24.86",
+              "syn_type": "EC_NUMBER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0045742",
+              "xref_name": "positive regulation of epidermal growth factor receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006509",
+              "xref_name": "membrane protein ectodomain proteolysis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010977",
+              "xref_name": "negative regulation of neuron projection development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048679",
+              "xref_name": "regulation of axon regeneration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2001222",
+              "xref_name": "regulation of neuron migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0004175",
+              "xref_name": "endopeptidase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004222",
+              "xref_name": "metalloendopeptidase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004252",
+              "xref_name": "serine-type endopeptidase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005112",
+              "xref_name": "Notch binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008237",
+              "xref_name": "metallopeptidase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0017124",
+              "xref_name": "SH3 domain binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0070573",
+              "xref_name": "metallodipeptidase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0002467",
+              "xref_name": "germinal center formation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002532",
+              "xref_name": "production of molecular mediator involved in inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006508",
+              "xref_name": "proteolysis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007219",
+              "xref_name": "Notch signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030183",
+              "xref_name": "B cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033025",
+              "xref_name": "regulation of mast cell apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033077",
+              "xref_name": "T cell differentiation in thymus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048536",
+              "xref_name": "spleen development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048870",
+              "xref_name": "cell motility",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051128",
+              "xref_name": "regulation of cellular component organization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0120163",
+              "xref_name": "negative regulation of cold-induced thermogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0140448",
+              "xref_name": "signaling receptor ligand precursor processing",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "O88726",
+              "xref_name": "Disintegrin and metalloproteinase domain-containing protein 17",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q505A7",
+              "xref_name": "Disintegrin and metalloproteinase domain-containing protein 17",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9R1U4",
+              "xref_name": "Disintegrin and metalloproteinase domain-containing protein 17",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9Z0K3",
+              "xref_name": "Disintegrin and metalloproteinase domain-containing protein 17",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9Z0F8",
+              "xref_name": "Disintegrin and metalloproteinase domain-containing protein 17",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9Z0F8",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "Q9Z0F8",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "R-MMU-193692",
+              "xref_name": "Regulated proteolysis of p75NTR",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-MMU-75893",
+              "xref_name": "TNF signaling",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "Q9Z0F8",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR034025",
+              "xref_name": "ADAM10_ADAM17",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR032029",
+              "xref_name": "ADAM17_MPD",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR051489",
+              "xref_name": "ADAM_Metalloproteinase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001762",
+              "xref_name": "Disintegrin_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036436",
+              "xref_name": "Disintegrin_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR024079",
+              "xref_name": "MetalloPept_cat_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001590",
+              "xref_name": "Peptidase_M12B",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR45702",
+              "xref_name": "ADAM10/ADAM17 METALLOPEPTIDASE FAMILY MEMBER",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR45702:SF6",
+              "xref_name": "DISINTEGRIN AND METALLOPROTEINASE DOMAIN-CONTAINING PROTEIN 17",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF16698",
+              "xref_name": "ADAM17_MPD",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF00200",
+              "xref_name": "Disintegrin",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF13688",
+              "xref_name": "Reprolysin_5",
+              "xref_src_db": "Pfam"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 10090
+    }
+  ]
+}

@@ -1,0 +1,934 @@
+{
+  "payload": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 2
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Tyrosyl-DNA phosphodiesterase 2",
+        "score": 16.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL2169736",
+        "target_components": [
+          {
+            "accession": "O95551",
+            "component_description": "Tyrosyl-DNA phosphodiesterase 2",
+            "component_id": 6886,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "3.1.4.-",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "5'-Tyr-DNA phosphodiesterase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "5'-tyrosyl-DNA phosphodiesterase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "EAP2",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "EAPII",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "ETS1-associated protein 2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "ETS1-associated protein II",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "hTDP2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Synonyms=EAP2",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "TDP2",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "TRAF and TNF receptor-associated protein",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TTRAP",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "TTRAP GN  ",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Tyr-DNA phosphodiesterase 2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Tyrosyl-DNA phosphodiesterase 2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Tyrosyl-RNA phosphodiesterase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "VPg unlinkase",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "O95551",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "O95551",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0005634",
+                "xref_name": "nucleus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005654",
+                "xref_name": "nucleoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005730",
+                "xref_name": "nucleolus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016235",
+                "xref_name": "aggresome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016604",
+                "xref_name": "nuclear body",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016605",
+                "xref_name": "PML body",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0000287",
+                "xref_name": "magnesium ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0003697",
+                "xref_name": "single-stranded DNA binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0003714",
+                "xref_name": "transcription corepressor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0003824",
+                "xref_name": "catalytic activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0004518",
+                "xref_name": "nuclease activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0030145",
+                "xref_name": "manganese ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0036317",
+                "xref_name": "tyrosyl-RNA phosphodiesterase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0070260",
+                "xref_name": "5'-tyrosyl-DNA phosphodiesterase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0006281",
+                "xref_name": "DNA repair",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006302",
+                "xref_name": "double-strand break repair",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007166",
+                "xref_name": "cell surface receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045892",
+                "xref_name": "negative regulation of DNA-templated transcription",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048666",
+                "xref_name": "neuron development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:17768",
+                "xref_name": "TDP2",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "O95551",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR005135",
+                "xref_name": "Endo/exonuclease/phosphatase",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR009060",
+                "xref_name": "UBA-like_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036691",
+                "xref_name": "Endo/exonu/phosph_ase_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR051547",
+                "xref_name": "TDP2-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR15822",
+                "xref_name": "TRAF AND TNF RECEPTOR-ASSOCIATED PROTEIN",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR15822:SF4",
+                "xref_name": "TYROSYL-DNA PHOSPHODIESTERASE 2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "5INO",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5J3P",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5J3S",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6Q00",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6Q01",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5INO",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5J3P",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5J3S",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6Q00",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6Q01",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF03372",
+                "xref_name": "Exo_endo_phos",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF14555",
+                "xref_name": "UBA_4",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA165618310",
+                "xref_name": "tyrosyl-DNA phosphodiesterase 2",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "O95551",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-5693571",
+                "xref_name": "Nonhomologous End-Joining (NHEJ)",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "B4DKL8",
+                "xref_name": "Tyrosyl-DNA phosphodiesterase 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "B4DQ95",
+                "xref_name": "Tyrosyl-DNA phosphodiesterase 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "O95551",
+                "xref_name": "Tyrosyl-DNA phosphodiesterase 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q2TBE2",
+                "xref_name": "Tyrosyl-DNA phosphodiesterase 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q5JYM0",
+                "xref_name": "Tyrosyl-DNA phosphodiesterase 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q7Z6U5",
+                "xref_name": "Tyrosyl-DNA phosphodiesterase 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9NUK5",
+                "xref_name": "Tyrosyl-DNA phosphodiesterase 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9NYY9",
+                "xref_name": "Tyrosyl-DNA phosphodiesterase 2",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Death domain-associated protein 6",
+        "score": 15.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL5724773",
+        "target_components": [
+          {
+            "accession": "Q9UER7",
+            "component_description": "Death domain-associated protein 6",
+            "component_id": 23127,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "BING2",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "DAP6",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Daxx",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "DAXX",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Death domain-associated protein 6",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "EAP1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "ETS1-associated protein 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Fas death domain-associated protein",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "hDaxx",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "Q9UER7",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "Q9UER7",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0000775",
+                "xref_name": "chromosome, centromeric region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005634",
+                "xref_name": "nucleus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005654",
+                "xref_name": "nucleoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005694",
+                "xref_name": "chromosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005730",
+                "xref_name": "nucleolus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016604",
+                "xref_name": "nuclear body",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016605",
+                "xref_name": "PML body",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0002039",
+                "xref_name": "p53 binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0003713",
+                "xref_name": "transcription coactivator activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0003714",
+                "xref_name": "transcription corepressor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019899",
+                "xref_name": "enzyme binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019901",
+                "xref_name": "protein kinase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0030295",
+                "xref_name": "protein kinase activator activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031072",
+                "xref_name": "heat shock protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031625",
+                "xref_name": "ubiquitin protein ligase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042393",
+                "xref_name": "histone binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0050681",
+                "xref_name": "nuclear androgen receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0061629",
+                "xref_name": "RNA polymerase II-specific DNA-binding transcription factor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0140416",
+                "xref_name": "transcription regulator inhibitor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0140693",
+                "xref_name": "molecular condensate scaffold activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0006325",
+                "xref_name": "chromatin organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006334",
+                "xref_name": "nucleosome assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006338",
+                "xref_name": "chromatin remodeling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006355",
+                "xref_name": "regulation of DNA-templated transcription",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006915",
+                "xref_name": "apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007254",
+                "xref_name": "JNK cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008625",
+                "xref_name": "extrinsic apoptotic signaling pathway via death domain receptors",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010468",
+                "xref_name": "regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010629",
+                "xref_name": "negative regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030521",
+                "xref_name": "androgen receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031396",
+                "xref_name": "regulation of protein ubiquitination",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034605",
+                "xref_name": "cellular response to heat",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034620",
+                "xref_name": "cellular response to unfolded protein",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0036480",
+                "xref_name": "neuron intrinsic apoptotic signaling pathway in response to oxidative stress",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042981",
+                "xref_name": "regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045892",
+                "xref_name": "negative regulation of DNA-templated transcription",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045893",
+                "xref_name": "positive regulation of DNA-templated transcription",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071276",
+                "xref_name": "cellular response to cadmium ion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071280",
+                "xref_name": "cellular response to copper ion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0072738",
+                "xref_name": "cellular response to diamide",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1903936",
+                "xref_name": "cellular response to sodium arsenite",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:2681",
+                "xref_name": "DAXX",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "Q9UER7",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR031333",
+                "xref_name": "Daxx_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR038298",
+                "xref_name": "Daxx_N_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR046378",
+                "xref_name": "DAXX_histone-bd",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR046426",
+                "xref_name": "DAXX_histone-bd_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR12766",
+                "xref_name": "DEATH DOMAIN-ASSOCIATED PROTEIN 6 DAXX",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR12766:SF7",
+                "xref_name": "DEATH DOMAIN-ASSOCIATED PROTEIN 6",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "2KQS",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2KZS",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2KZU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4H9N",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4H9O",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4H9P",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4H9Q",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4H9R",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4H9S",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4HGA",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5GRQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5KDM",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5Y18",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5Y6O",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4H9N",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4H9O",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4H9P",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4H9Q",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4H9R",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4H9S",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4HGA",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5GRQ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5KDM",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5Y18",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5Y6O",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF03344",
+                "xref_name": "Daxx",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF20920",
+                "xref_name": "DAXX_hist_bd",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA27148",
+                "xref_name": "death domain associated protein",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "Q9UER7",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-3899300",
+                "xref_name": "SUMOylation of transcription cofactors",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-6804757",
+                "xref_name": "Regulation of TP53 Degradation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9609690",
+                "xref_name": "HCMV Early Events",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9670095",
+                "xref_name": "Inhibition of DNA recombination at telomere",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9670613",
+                "xref_name": "Defective Inhibition of DNA Recombination at Telomere Due to DAXX Mutations",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9670615",
+                "xref_name": "Defective Inhibition of DNA Recombination at Telomere Due to ATRX Mutations",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "B4E1I3",
+                "xref_name": "Death domain-associated protein 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "F5ANJ6",
+                "xref_name": "Death domain-associated protein 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "F5ANJ7",
+                "xref_name": "Death domain-associated protein 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "F5H082",
+                "xref_name": "Death domain-associated protein 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "O14747",
+                "xref_name": "Death domain-associated protein 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "O15141",
+                "xref_name": "Death domain-associated protein 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "O15208",
+                "xref_name": "Death domain-associated protein 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q5STK9",
+                "xref_name": "Death domain-associated protein 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9BWI3",
+                "xref_name": "Death domain-associated protein 6",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UER7",
+                "xref_name": "Death domain-associated protein 6",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=ETS1"
+}

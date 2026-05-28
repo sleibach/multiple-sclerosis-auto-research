@@ -1,0 +1,18 @@
+{
+  "analysis_call": "WEAK_DIRECTIONAL_THIRD_DISEASE_SUPPORT_ONLY",
+  "dataset": "GSE85034",
+  "inputs": {
+    "platform_annotation": "data/raw_v3/wave89_psoriasis_response/GPL10558.annot.gz",
+    "series_matrix": "data/raw_v3/wave89_psoriasis_response/GSE85034_series_matrix.txt.gz",
+    "wave86_meta": "results_v3/wave86_external_geo_antitnf_gene_driver/external_geo_gene_meta_rank.tsv",
+    "wave87_integration": "results_v3/wave87_cross_system_antitnf_resistance_gene_check/cross_system_antitnf_gene_integration.tsv"
+  },
+  "n_candidate_genes": 45,
+  "n_candidate_genes_covered": 45,
+  "n_gene_tests": 135,
+  "n_module_tests": 21,
+  "n_samples": 179,
+  "n_subjects": 30,
+  "platform": "GPL10558",
+  "seed": 20260527
+}

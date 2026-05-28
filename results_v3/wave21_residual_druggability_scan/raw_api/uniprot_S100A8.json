@@ -1,0 +1,513 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3AS100A8%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "12626582",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15331440",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15598812",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15642721",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "16258195",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "19087201",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "19122197",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "19935772",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "21487906",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22363402",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22808130",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "25417112",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "26296369",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "S100A8 is a calcium- and zinc-binding protein which plays a prominent role in the regulation of inflammatory processes and immune response. It can induce neutrophil chemotaxis and adhesion. Predominantly found as calprotectin (S100A8/A9) which has a wide plethora of intra- and extracellular functions. The intracellular functions include: facilitating leukocyte arachidonic acid trafficking and metabolism, modulation of the tubulin-dependent cytoskeleton during migration of phagocytes and activation of the neutrophilic NADPH-oxidase. Also participates in regulatory T-cell differentiation together with CD69 (PubMed:26296369). Activates NADPH-oxidase by facilitating the enzyme complex assembly at the cell membrane, transferring arachidonic acid, an essential cofactor, to the enzyme complex and S100A8 contributes to the enzyme assembly by directly binding to NCF2/P67PHOX. The extracellular functions involve pro-inflammatory, antimicrobial, oxidant-scavenging and apoptosis-inducing activities. Its pro-inflammatory activity includes recruitment of leukocytes, promotion of cytokine and chemokine production, and regulation of leukocyte adhesion and migration. Acts as an alarmin or a danger associated molecular pattern (DAMP) molecule and stimulates innate immune cells via binding to pattern recognition receptors such as Toll-like receptor 4 (TLR4) and receptor for advanced glycation endproducts (AGER). Binding to TLR4 and AGER activates the MAP-kinase and NF-kappa-B signaling pathways resulting in the amplification of the pro-inflammatory cascade. Has antimicrobial activity towards bacteria and fungi and exerts its antimicrobial activity probably via chelation of Zn(2+) which is essential for microbial growth. Can induce cell death via autophagy and apoptosis and this occurs through the cross-talk of mitochondria and lysosomes via reactive oxygen species (ROS) and the process involves BNIP3. Can regulate neutrophil number and apoptosis by an anti-apoptotic effect; regulates cell survival via ITGAM/ITGB and TLR4 and a signaling mechanism involving MEK-ERK. Its role as an oxidant scavenger has a protective role in preventing exaggerated tissue damage by scavenging oxidants. Can act as a potent amplifier of inflammation in autoimmunity as well as in cancer development and tumor spread. The iNOS-S100A8/A9 transnitrosylase complex directs selective inflammatory stimulus-dependent S-nitrosylation of GAPDH and probably multiple targets such as ANXA5, EZR, MSN and VIM by recognizing a [IL]-x-C-x-x-[DE] motif; S100A8 seems to contribute to S-nitrosylation site selectivity"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000305",
+                  "id": "33388094",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "(Microbial infection) Upon infection by human coronavirus SARS-CoV-2, may induce expansion of aberrant immature neutrophils in a TLR4-dependent manner"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "value": "Predominantly localized in the cytoplasm. Upon elevation of the intracellular calcium level, translocated from the cytoplasm to the cytoskeleton and the cell membrane. Upon neutrophil activation or endothelial adhesion of monocytes, is secreted via a microtubule-mediated, alternative pathway"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0090",
+                "value": "Cytoplasm, cytoskeleton"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "id": "SL-9903",
+                "value": "Peripheral membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000002C6C3"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 17
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 17
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 27
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 27
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "1",
+            "name": "Ca(2+)",
+            "note": "low affinity"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 33
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 33
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00448",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)",
+            "note": "high affinity"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 59
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 59
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00448",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)",
+            "note": "high affinity"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 61
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 61
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00448",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)",
+            "note": "high affinity"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 63
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 63
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00448",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)",
+            "note": "high affinity"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 70
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 70
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 83
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 83
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 87
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 87
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:10498",
+                "source": "HGNC"
+              }
+            ],
+            "value": "S100A8"
+          },
+          "synonyms": [
+            {
+              "value": "CAGA"
+            },
+            {
+              "value": "CFAG"
+            },
+            {
+              "value": "MRP8"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P05109",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Calgranulin-A"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Calprotectin L1L subunit"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Cystic fibrosis antigen"
+            },
+            "shortNames": [
+              {
+                "value": "CFAG"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Leukocyte L1 complex light chain"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Migration inhibitory factor-related protein 8"
+            },
+            "shortNames": [
+              {
+                "value": "MRP-8"
+              },
+              {
+                "value": "p8"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "S100 calcium-binding protein A8"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Urinary stone protein band A"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Protein S100-A8"
+          }
+        }
+      }
+    }
+  ]
+}

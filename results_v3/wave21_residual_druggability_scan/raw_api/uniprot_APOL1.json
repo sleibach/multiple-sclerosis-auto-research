@@ -1,0 +1,162 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3AAPOL1%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "12621437",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "16020735",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "19997494",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "26645690",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "7723792",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "May play a role in lipid exchange and transport throughout the body. May participate in reverse cholesterol transport from peripheral cells to the liver. A component of trypanosome lytic factor of human serum; plays a crucial role in killing Trypanosoma brucei by forming pores in parasite lysosomal membranes and sensitizing T.brucei to oxidation-stimulated osmotic lysis (PubMed:12621437, PubMed:16020735, PubMed:19997494, PubMed:26645690, PubMed:7723792)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "12621437",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "16020735",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Internalized through the endocytic pathway into the lysosomes of Trypanosoma brucei"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000013DFEA"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "id": "19997494",
+                "source": "PubMed"
+              }
+            ],
+            "value": "APOL1"
+          },
+          "synonyms": [
+            {
+              "value": "APOL"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "O14791",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Apolipoprotein L"
+            },
+            "shortNames": [
+              {
+                "value": "Apo-L"
+              },
+              {
+                "value": "ApoL"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "12621437",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "16020735",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "19997494",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Apolipoprotein L-I"
+            },
+            "shortNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "12621437",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "16020735",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "ApoL-I"
+              }
+            ]
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "Apolipoprotein L1"
+          }
+        }
+      }
+    }
+  ]
+}

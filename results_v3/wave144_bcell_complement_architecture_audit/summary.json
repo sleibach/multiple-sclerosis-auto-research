@@ -1,0 +1,23 @@
+{
+  "branch_call": "NO_BCELL_COMPLEMENT_SHARED_THERAPEUTIC_TARGET",
+  "cfb_wave44_failed_gates": [
+    "no_MS_anchor_or_positive_MS_lesion_direction",
+    "no_target_resolved_coloc_or_mr",
+    "factor_B_inhibition_prior_art_and_trial_crowding",
+    "systemic_complement_host_defense_safety"
+  ],
+  "inputs": {
+    "autoimmune_thyroid": "subagents_v3/autoimmune_thyroid_dirac_report.md",
+    "celiac": "subagents_v3/celiac_plato_report.md",
+    "celiac_modules": "results_v3/gse315138_celiac_marker/gse315138_donor_module_comparisons.tsv",
+    "cfb_report": "results_v3/wave44_cfb_complement_stratification_audit/REPORT.md",
+    "cfb_wave44": "results_v3/wave44_cfb_complement_stratification_audit/summary.json",
+    "mg_module": "results_v3/wave14_gse227835_myasthenia/gse227835_module_support_summary.tsv",
+    "myasthenia_gravis": "subagents_v3/myasthenia_gravis_dalton_report.md",
+    "pbc": "subagents_v3/pbc_goodall_report.md",
+    "thyroid_modules": "results_v3/gse248205_thyroid_spatial/gse248205_module_gene_contrasts.tsv"
+  },
+  "n_architecture_only_axes": 3,
+  "n_shared_target_candidates": 0,
+  "random_seed": 20260527
+}

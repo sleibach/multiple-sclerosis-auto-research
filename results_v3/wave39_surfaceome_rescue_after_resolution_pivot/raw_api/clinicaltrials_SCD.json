@@ -1,0 +1,2898 @@
+{
+  "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxrYPij3vQW",
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D007592",
+              "term": "Joint Diseases"
+            },
+            {
+              "id": "D009140",
+              "term": "Musculoskeletal Diseases"
+            },
+            {
+              "id": "D012216",
+              "term": "Rheumatic Diseases"
+            },
+            {
+              "id": "D003240",
+              "term": "Connective Tissue Diseases"
+            },
+            {
+              "id": "D017437",
+              "term": "Skin and Connective Tissue Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            },
+            {
+              "id": "D000089183",
+              "term": "Axial Spondyloarthritis"
+            },
+            {
+              "id": "D025242",
+              "term": "Spondylarthropathies"
+            },
+            {
+              "id": "D025241",
+              "term": "Spondylarthritis"
+            },
+            {
+              "id": "D013166",
+              "term": "Spondylitis"
+            },
+            {
+              "id": "D013122",
+              "term": "Spinal Diseases"
+            },
+            {
+              "id": "D001847",
+              "term": "Bone Diseases"
+            },
+            {
+              "id": "D000844",
+              "term": "Ankylosis"
+            },
+            {
+              "id": "D011565",
+              "term": "Psoriasis"
+            },
+            {
+              "id": "D017444",
+              "term": "Skin Diseases, Papulosquamous"
+            },
+            {
+              "id": "D012871",
+              "term": "Skin Diseases"
+            },
+            {
+              "id": "D014987",
+              "term": "Xerostomia"
+            },
+            {
+              "id": "D012466",
+              "term": "Salivary Gland Diseases"
+            },
+            {
+              "id": "D009059",
+              "term": "Mouth Diseases"
+            },
+            {
+              "id": "D009057",
+              "term": "Stomatognathic Diseases"
+            },
+            {
+              "id": "D015352",
+              "term": "Dry Eye Syndromes"
+            },
+            {
+              "id": "D007766",
+              "term": "Lacrimal Apparatus Diseases"
+            },
+            {
+              "id": "D005128",
+              "term": "Eye Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D001172",
+              "term": "Arthritis, Rheumatoid"
+            },
+            {
+              "id": "D001171",
+              "term": "Arthritis, Juvenile"
+            },
+            {
+              "id": "D013167",
+              "term": "Spondylitis, Ankylosing"
+            },
+            {
+              "id": "D058566",
+              "term": "Sacroiliitis"
+            },
+            {
+              "id": "D015535",
+              "term": "Arthritis, Psoriatic"
+            },
+            {
+              "id": "D008947",
+              "term": "Mixed Connective Tissue Disease"
+            },
+            {
+              "id": "D012595",
+              "term": "Scleroderma, Systemic"
+            },
+            {
+              "id": "D012859",
+              "term": "Sjogren's Syndrome"
+            },
+            {
+              "id": "D001168",
+              "term": "Arthritis"
+            },
+            {
+              "id": "D000074079",
+              "term": "Undifferentiated Connective Tissue Diseases"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Arm 1 is the control arm which will receive the standard of care resource sheets.",
+              "interventionNames": [
+                "Other: Resource sheets"
+              ],
+              "label": "Arm 1",
+              "type": "OTHER"
+            },
+            {
+              "description": "Arm 2 will receive the assistance of a community resource specialist (CRS)- an individual without formal medical training with community-based expertise.",
+              "interventionNames": [
+                "Other: Community Resource Specialist"
+              ],
+              "label": "Arm 2",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Arm 3 will receive the assistance of a bilingual (English and Spanish) nurse patient navigator with nursing training and additional rheumatology-specific training.",
+              "interventionNames": [
+                "Other: Nurse Navigator"
+              ],
+              "label": "Arm 3",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Arm 1"
+              ],
+              "description": "Arm 1 is the control arm which will receive the standard of care resource sheets. Patients in this arm will receive cultivated resource sheets for any SDoH-related needs that they screen positive for or request additional information on.",
+              "name": "Resource sheets",
+              "type": "OTHER"
+            },
+            {
+              "armGroupLabels": [
+                "Arm 2"
+              ],
+              "description": "The CRS will help guide patients to the necessary community-based resources to help address their specific SDoH needs that impact their health and their ability to access sustained, high quality medical care. This may include forms to arrange for subsidized transportation to and from medical appointments or applications for Section 8 housing. The community resource specialist will reach out to patients in Arm 2 a minimum of 2 times per month, with more interactions guided by patients needs. All outreach attempts and contacts will be documented in EPIC and in REDCap. Actions taken by the CRS will be shared with members of the patient's healthcare team as appropriate (with EPIC notes routed to the rheumatologist and primary care provider, and if indicated and relevant, a social worker, nutritionist, prior CRS, nurse or mental health provider if previously involved in the patient's care).",
+              "name": "Community Resource Specialist",
+              "type": "OTHER"
+            },
+            {
+              "armGroupLabels": [
+                "Arm 3"
+              ],
+              "description": "The nurse navigator will both work with the CRS to connect the patient with community-based resources, independently connect the patient with relevant resources, and also help coordinate the patient's medical care and mental health needs. The nurse patient navigator will conduct her own needs assessment (the nurse navigator high risk assessment questionnaire at the time of the first conversation with the patient, originally developed as part of the MGB integrated care management program) and her actions will be guided by their responses. She will reach out to patients a minimum of 2 times per month with an increase in communication around patient appointments as reminders, and more frequent communication on a case-by-case basis depending on active illnesses, frequency of outpatient appointments, and needs of the patient. All outreach attempts and contact will be documented in EPIC and in REDCap and similar to the CRS, be shared via EPIC with the care team as indicated.",
+              "name": "Nurse Navigator",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Rheumatoid Arthritis",
+            "Palindromic Arthritis",
+            "Juvenile Rheumatoid Arthritis",
+            "Ankylosing Spondylitis",
+            "Sacroiliitis",
+            "Psoriatic Arthritis",
+            "Mixed Connective Tissue Disease",
+            "Lupus",
+            "Enteropathic Arthropathies",
+            "Systemic Sclerosis",
+            "Sjogren's Syndrome",
+            "Sicca Syndrome",
+            "Inflammatory Arthritis",
+            "Undifferentiated Connective Tissue Diseases"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Boston",
+              "country": "United States",
+              "facility": "Brigham & Women's Hospital",
+              "geoPoint": {
+                "lat": 42.35843,
+                "lon": -71.05977
+              },
+              "state": "Massachusetts",
+              "zip": "02115"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Brigham and Women's Hospital",
+              "name": "Candace H Feldman, MD, MPH, ScD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Social determinants of health (SDoH), defined by the World Health Organization as \"the conditions in which people are born, grow, work, live and age and the wider set of forces and systems shaping the conditions of daily life\" are estimated to be responsible for nearly 90 percent of a person's health outcomes. SDoH are key contributors to racial, ethnic and socioeconomic disparities in care healthcare access and health outcomes. The goal of this clinical trial is to identify patients with inflammatory arthritis or with a systemic rheumatic condition with arthritis who may respond to the simplest and least expensive intervention to address their SDoH-related needs- a tailored list of resources, those who benefit from a community-based resource specialist to help address specific needs, and those who require a nurse-trained navigator to help both coordinate the services provided by the community-based specialist, and their medical and mental health care and needs. The main questions the clinical trial aims to answer are:\n\n1. To test the efficacy of a rheumatology clinic-based nurse navigator and community resource specialist to reduce appointment no-shows and same-day cancellations in patients with systemic rheumatic conditions with arthritis.\n2. To examine the cost-effectiveness of each of the different study interventions for individuals with systemic rheumatic conditions with arthritis with SDoH-related needs using questionnaires and cost-related care metrics.\n\nParticipants will be randomly assigned to 1 of 3 arms. In Arm 1, patients will receive a cultivated list of resources related to the needs that patients indicate on the social determinants of health questionnaire. Arm 1 is the control arm which receives the current standard of care. In Arm 2, patients will receive the assistance of a community resource specialist (CRS) - an individual without formal medical training with community-based expertise. In Arm 3, patients will receive the assistance of a nurse patient navigator with additional systemic rheumatic condition-specific training who will work with the CRS.\n\nAfter 6 months, patients who do not respond to Arm 1 will move to Arm 2. Patients who do not respond to Arm 2, will move to Arm 3. Patients who do not respond to Arm 3 will remain in Arm 3. Patients who respond to any arm will graduate the program at 6 months. The patients who do not respond be in their new arm for 6 months. At 12 months, all patients remaining in the study will graduate.",
+          "detailedDescription": "Social determinants of health (SDoH), defined by the World Health Organization as \"the conditions in which people are born, grow, work, live and age and the wider set of forces and systems shaping the conditions of daily life\" are estimated to be responsible for nearly 90 percent of a person's health outcomes. SDoH are key contributors to racial, ethnic and socioeconomic disparities in care healthcare access and health outcomes. Among patients with chronic rheumatic conditions, SDoH including poverty, insurance status, and inadequate access to care have been shown to contribute to delayed diagnoses, frequent emergency department visits, medication nonadherence, worse quality of life, increased disease-related damage and poorer outcomes. Individuals with inflammatory arthritis often require complex, costly medication regimens and suffer from a high burden of comorbid conditions and physical disabilities. They face unique healthcare challenges including a high risk of care fragmentation from multiple subspecialty providers and medications that are both expensive and challenging to adhere to as prescribed. The role of SDoH on the care and outcomes of patients with inflammatory arthritis is understudied but living conditions, socioeconomic status and neighborhood income have been shown to contribute to treatments received and the likelihood of remission at 12 months. Disparities in inflammatory arthritis care and outcomes are likely multifactorial and involve both delayed access to subspecialty care as well as ongoing barriers to sustained, high quality care once referred. Separate comprehensive interventions are required to address the challenges at every stage of care.\n\nOur ongoing quality improvement initiative aims to collect and document social determinants of health data for people with inflammatory arthritis across this multi-hospital system. In this initiative the investigators developed a standard of care where patients have their needs assessed and if they indicate that they would like information to help address these needs, they are sent resource lists. A community resource specialist is also available when indicated to help address needs. In this study, the investigators aim to test different interventions to address the needs that the investigators uncover using the SDoH screening protocol. Using an adaptive strategy, patients with SDoH-related needs and appointment no shows in the past, will be randomized to one of three arms, with the ability to change arms if they do not improve in their assigned arm. Cost-effectiveness analyses will also be conducted.\n\nUsing an adaptive intervention, this trial will help identify patients who may respond to the simplest and least expensive intervention - a tailored list of resources, those who benefit from a community-based resource specialist to help address specific SDoH-related needs, and those who require a nurse-trained navigator to help both coordinate the services provided by the community-based specialist, and their medical and mental health care and needs. A cost effectiveness analysis of the interventions will be conducted. The knowledge gained by this trial will help guide care and advocacy for vulnerable populations both in resource poor settings and at major medical centers that have not previously allocated the services needed to care for the highest risk populations. The overall goal of this study is to provide these essential data to advocate for a scalable, sustainable program to meet the needs of the most vulnerable patients with chronic rheumatic conditions with arthritis that can be scaled to other chronic systemic rheumatic diseases and other complex, subspecialty-managed conditions.\n\nSpecific Aims:\n\n1. To conduct a randomized controlled trial with an adaptive intervention to test the efficacy of a rheumatology clinic-based nurse patient navigator and community resource specialist intervention to reduce appointment no shows. This intervention will allow for an understanding of these needs and test three strategies to begin to address them. The investigators anticipate that all of the interventions will benefit to some degree through connection to resources. The investigators currently have no data as to whether one type of intervention is better than another for patients with systemic rheumatic conditions with arthritis and therefore, the investigators are testing two types of navigator interventions with the ultimate goal of determining the most beneficial and cost-effective intervention for high-risk patients based on their specific needs. The adaptive nature of the intervention will allow the study team to study this further and will allow for as many individuals as possible to derive potential benefit from this study.\n2. To examine the cost-effectiveness of each of the different study arms for individuals with systemic rheumatic conditions with arthritis with SDoH-related needs using the ED-5D questionnaire and cost-related care metrics.\n\nSubjects will be identified using the EHR (EPIC review, EDW, RPDR), and through BRASS. Rheumatologists will also be asked to refer patients who they feel may be appropriate. Patients will be recruited via patient gateway, by mail or by rheumatologist referral. Rheumatologists and the clinic nursing team will also be given fact sheets and recruitment letters that they can give to patients they feel might be interested in participating. If a letter is sent to a patient via gateway, via mail, or introduced by the rheumatologist, if the patient does not opt out, at least one week later, a member of the study team will call the patient to follow up. If they cannot be reached by phone but have a rheumatology clinic visit \\>=1 week after the letter is sent, a member of the research team may approach them in clinic to see if they might be interested in learning more about the study. The research assistants will be responsible for identifying and recruiting individuals beginning at the date of IRB approval. Communication for recruitment will occur in-person, through secure messaging in the EHR, through secure email (unless the patient opts out of secure email) and via the telephone. The patients enrolled in this study may have frequent appointment no shows and some may more frequently come to the Emergency Department or be admitted (either at BWH or at Faulkner). Therefore, the research team may approach patients for consent while they are in the ED or on an inpatient floor if unable to reach them by phone or in clinic. Similarly, the community resource specialist or nurse navigator may interact with the patients when they are in the ED or admitted due to the nature of their role (especially for those patients with frequent acute care use, who may also be those with the greatest SDoH-related needs).\n\nPrior studies have demonstrated that individuals who experience poverty and increased SDoH-related needs have an increased burden of rheumatic conditions, more severe outcomes, and increased care fragmentation. As such, the investigators aim to enroll individuals in this intervention who are at highest risk for adverse outcomes and high acute care use to address SDoH-related needs and improve receipt of outpatient care. The study team aims to include a racially and ethnically diverse patient population in this study. The investigators expect that more females than males will be enrolled because rheumatic conditions are more prevalent among females. The investigators expect that the majority of patients enrolled will be English-speaking given the ethnicity distribution of patients served in the rheumatology clinics at BWH (\\<10% identify as Latinx). To allow for the inclusion of Spanish-speaking patients, however, the study team has included translated materials.\n\nThe investigators anticipate recruiting 258 patients with systemic rheumatic conditions with arthritis across Mass General, Brigham and Faulkner hospitals and satellite rheumatology clinics to participate in the intervention components of this trial (N=86 per arm). Patients will be associated with the study in Epic so the study staff is notified if patients go to the ED or are hospitalized. The primary analysis will be intention-to-treat, and since the primary outcome metric can be obtained from the EHR, even if patients are lost to follow-up, the study team will still be able to collect these data. However, given the vulnerability of the patient population and potential loss to follow-up, the investigators will have statistical power to detect a clinically meaningful difference in medication and appointment adherence between the two intervention arms with 156 total patients (N=52 per arm) using a per protocol design, and examining secondary outcomes that require survey completion.\n\nStudy Team Interactions with Subjects Patients who agree to participate will be randomized to one of three arms. Arm 1 is the control arm which will receive the standard of care resource sheets. Patients in this arm will receive cultivated resource sheets for any SDoH-related needs that they screen positive for or request additional information on. Arm 2 will receive the assistance of a community resource specialist (CRS)- an individual without formal medical training with community-based expertise, who will help guide patients to the necessary community-based resources to help address their specific SDoH needs that impact their health and their ability to access sustained, high quality medical care. This may include forms to arrange for subsidized transportation to and from medical appointments or applications for Section 8 housing. The community resource specialist will reach out to patients in Arm 2 a minimum of 2 times per month, with more interactions guided by patients' needs. All outreach attempts and contacts will be documented in EPIC and in REDCap. Arm 3 will receive the assistance of a bilingual (English and Spanish) nurse patient navigator with nursing training and additional rheumatology-specific training who will both work with the CRS to connect the patient with community-based resources, independently connect the patient with relevant resources, and also help coordinate the patient's medical care and mental health needs. The nurse patient navigator will conduct her own needs assessment (the nurse navigator high risk assessment questionnaire at the time of the first conversation with the patient, originally developed as part of the MGB integrated care management program) and her actions will be guided by their responses. She will reach out to patients a minimum of 2 times per month with an increase in communication around patient appointments as reminders, and more frequent communication on a case-by-case basis depending on active illnesses, frequency of outpatient appointments, and needs of the patient. All outreach attempts and contact will be documented in Epic and REDCap and shared via EPIC with the care team as indicated.\n\nReassignments after 6 months After six months, individuals who do not respond to Arm 1 will be reassigned to the Arm 2 intervention (CRS). Response will be determined by \\>=1 appointment no shows or same day cancellations during the 6-month period and/or persistence of \\>=1 SDoH-related need that has not been addressed. Individuals without any no shows who had their needs addressed will graduate and will receive follow-up surveys at 12 months. Patients in Arm 2 or Arm 3 with no appointment now shows and who have had their SDoH-related needs addressed will graduate and complete follow-up surveys at 12 months. If individuals in Arm 2 had \\>=1 no show and/or persistent SDoH-related needs, they will be reassigned to Arm 3 (nurse navigator). If individuals in Arm 3 had \\>=1 no show and/or persistent SDoH-related needs, they will remain in Arm 3 for another 6 months. All individuals will complete 12-month surveys."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "interventionModelDescription": "This will be an adaptive intervention. After six months, Individuals who do not respond to Arm 1, as measured by no improvement in SDoH-related needs and/or an outpatient no show or same day cancellation, will increase to the Arm 2 intervention for the next 6 months (see Schema). Patients in Arm 1 who do respond will graduate and then complete a follow-up set of questionnaires at 12 months. Patients in Arm 2 or Arm 3 who adequately respond and have had their SDoH-related needs addressed will graduate and receive a follow-up set of questionnaires at 12 months. Individuals in Arm 2 who continue to have one or more no show and/or continue to have SDoH-related needs will be ramped up to Arm 3. Individuals in Arm 3 with the same scenario will remain in Arm 3 for another 6 months. Data will be collected for 12 months (at baseline, 6 and 12 months) for participants in all arms including those who graduate at 6 months, to determine if the response was sustained.",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "OTHER"
+          },
+          "enrollmentInfo": {
+            "count": 101,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* English or Spanish-speaking\n* 18+ years of age\n* diagnosis of a systemic rheumatic condition with arthritis\n* 1+ prior no-show(s) or same day cancellation(s) to an ambulatory care provider in the past year\n* 1+ social determinants of health needs on Mass General Brigham questionnaire (excluding unemployment and education)\n* Receiving rheumatology care at a Mass General Hospital, Brigham and Women's Hospital or Faulkner Hospital affiliated clinic\n\nExclusion Criteria:\n\n* Incarcerated individuals\n* Indicated through our EHR that they do not want to be contacted for research\n* Patients already actively enrolled in an integrated care management program through their primary care provider\n* Medical complexity that requires urgent nursing involvement and thus not medically appropriate for randomization",
+          "healthyVolunteers": false,
+          "maximumAge": "100 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "acronym": "RAISE",
+          "briefTitle": "Rheumatology-based Adaptive Intervention for Social Determinants and Health Equity",
+          "nctId": "NCT05715463",
+          "officialTitle": "Achieving Equity in Inflammatory Arthritis Care: An Adaptive Trial To Understand and Address Social Determinants of Health",
+          "orgStudyIdInfo": {
+            "id": "2022P003268"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Brigham and Women's Hospital"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Patient no-shows will be measured through EPIC data from EDW, manual chart review and RPDR. The outcome will measure number of times that a patient has been designated 'no show' to an appointment with an ambulatory care provider.",
+              "measure": "Patient no-shows",
+              "timeFrame": "-12 months through +12 months"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Patient social determinants of health-related needs will be measured through the institution-created social determinants of health questionnaire. The social determinants of health questionnaire has 11 questions for patient to indicate if they do or do not have certain needs. The patient can respond yes or no to having a lack of transportation to and from appointments. The patient is given a scale of never true, sometimes true and often true for 2 questions regarding food insecurity, The patient can indicate that they do or do not have housing today (or choose not to answer), and they can indicate how many times they moved in the last year as 0, 1, or 2+. For the remaining questions regarding housing, paying for utilities, paying for medications, unemployment, education and child or family care, the patient can respond yes, no or choose not to answer. Responses of yes indicate the patient has a need, and no indicates that they do not have a need.",
+              "measure": "Reduction of Social Determinants of Health-related needs in institution-created questionnaire",
+              "timeFrame": "-12 months through +12 months"
+            },
+            {
+              "description": "Patient social determinants of health-related needs will be measured through patient EHR data.",
+              "measure": "Reduction of Social Determinants of Health-related needs in EHR data",
+              "timeFrame": "-12 months through +12 months"
+            },
+            {
+              "description": "Patient medication adherence will be measured through the patient self-completed questionnaire. The patient indicates how many days they missed a dose of their medication between 1 and 30. The following question asks how often patients took their medications as they were supposed to and can indicate between never and always. The final questions asks how well the patient took their medications as they were supposed and they can respond between very poor to excellent.",
+              "measure": "Medication adherence through patient questionnaire",
+              "timeFrame": "0 through +12 months"
+            },
+            {
+              "description": "Patient medication adherence will be measured through patient refill data from Epic.",
+              "measure": "Medication adherence through medication refill data",
+              "timeFrame": "0 through +12 months"
+            },
+            {
+              "description": "Patient acute care use for overall will be measured through EHR data for emergency department visits and hospitalizations.",
+              "measure": "Acute care use overall",
+              "timeFrame": "0 through +12 months"
+            },
+            {
+              "description": "Patient acute care use for overall will be measured through EHR data for emergency department visits and hospitalizations.",
+              "measure": "Acute care use for avoidable conditions",
+              "timeFrame": "0 through +12 months"
+            },
+            {
+              "description": "Patient treat-to-target measures will be measured through patient-reported disease activity metrics, specifically the Routine Assessment of Patient Index Data 3 (RAPID3) which includes pain, global assessment of health and physical function. The scores range from 0 to 10.0 with 0 -1.0 defined as near remission, 1.3 - 2.0 as low severity, 2.3 - 4.0 as moderate severity and 4.3 - 10.0 as high severity.",
+              "measure": "Treat-to-target metrics",
+              "timeFrame": "0 through +12 months"
+            },
+            {
+              "description": "Patient trust will be measured through patient trust questionnaire. The scale is scored 5 - 1 with strongly agree, agree, neutral, disagree and strongly disagree. The higher the patient score, the higher the trust in the provider.",
+              "measure": "Patient trust in providers",
+              "timeFrame": "0 through + 12 months"
+            },
+            {
+              "description": "Patient self efficacy will be measured through a self efficacy questionnaire. For 6 questions the patient can respond between 0 and 10 with 0 indicating not confident at all and 10 being totally confident. The final score is the mean of the items on the survey. Higher numbers indicate higher self efficacy and lower numbers indicate lower self efficacy.",
+              "measure": "Self efficacy",
+              "timeFrame": "0 through +12 months"
+            },
+            {
+              "description": "Patient anxiety and depression will be measured through the Patient Health Questionnaire 4 (PHQ4). Items 1 and 2 address patient anxiety and items 3 and 4 address patient depression. Both anxiety and depression score on a scale of 1 - 6, with a scale of 3 or more on either scale being a positive screen.",
+              "measure": "Patient anxiety & depression",
+              "timeFrame": "0 through +12 months"
+            },
+            {
+              "description": "Patient stress will be measured through the perceived stress scale 4 (PSS-4). The individual questions are measure 0 - 4, with the lowest score being 0 and the highest score being 16. Higher scores are correlated with higher stress.",
+              "measure": "Patient stress",
+              "timeFrame": "0 through +12 months"
+            },
+            {
+              "description": "Patient disability and health will be measured through EuroQol 5D (EQ5D) questionnaire. The first 5 questions are measured 1 to 5 with the higher number corresponding to a higher level of disability. The final question is on a scale of 0 to 100 with lower scores corresponding to worse health.",
+              "measure": "Disability metric",
+              "timeFrame": "0 through +12 months"
+            },
+            {
+              "description": "Patient discrimination will be measured through Everyday Discrimination questionnaire. The patient will indicate which areas of discrimination they have experienced. The more items that are checked, the greater discrimination they have experienced.",
+              "measure": "Patient discrimination",
+              "timeFrame": "0 through +12 months"
+            },
+            {
+              "description": "Patient satisfaction will be measured through Patient Satisfaction questionnaire 18 (PSQ 18). Each question is measured on a scale of 1 to 5, with 1 being strongly agree and 5 being strongly disagree. After question-specific scoring, the higher the overall score should reflect higher patient satisfaction.",
+              "measure": "Patient satisfaction",
+              "timeFrame": "0 through +12 months"
+            },
+            {
+              "description": "Patient preventative measures will be tracked through the inflammatory arthritis checklist.",
+              "measure": "Inflammatory Arthritis Checklist",
+              "timeFrame": "0 through +12 months"
+            },
+            {
+              "description": "Patient preventative measures will be tracked through the inflammatory arthritis checklist.",
+              "measure": "Lupus Checklist",
+              "timeFrame": "0 through +12 months"
+            },
+            {
+              "description": "Patient literacy will be assessed by asking how comfortable patients feel in completing medical forms by themselves.",
+              "measure": "Literacy",
+              "timeFrame": "12 months"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": false
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "INDUSTRY",
+              "name": "Bristol-Myers Squibb"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Brigham and Women's Hospital"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Brigham and Women's Hospital",
+            "investigatorFullName": "Candace Hillary Feldman, MD",
+            "investigatorTitle": "Assistant Professor",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2026-12-01",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2025-10-15",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2025-10-14",
+          "overallStatus": "ACTIVE_NOT_RECRUITING",
+          "primaryCompletionDateStruct": {
+            "date": "2025-10-14",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2023-03-01",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2025-10",
+          "studyFirstPostDateStruct": {
+            "date": "2023-02-08",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2023-01-19",
+          "studyFirstSubmitQcDate": "2023-01-27"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D013789",
+              "term": "Thalassemia"
+            },
+            {
+              "id": "D000745",
+              "term": "Anemia, Hemolytic, Congenital"
+            },
+            {
+              "id": "D000743",
+              "term": "Anemia, Hemolytic"
+            },
+            {
+              "id": "D000740",
+              "term": "Anemia"
+            },
+            {
+              "id": "D006402",
+              "term": "Hematologic Diseases"
+            },
+            {
+              "id": "D006425",
+              "term": "Hemic and Lymphatic Diseases"
+            },
+            {
+              "id": "D006453",
+              "term": "Hemoglobinopathies"
+            },
+            {
+              "id": "D030342",
+              "term": "Genetic Diseases, Inborn"
+            },
+            {
+              "id": "D009358",
+              "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+            },
+            {
+              "id": "D057165",
+              "term": "Proteostasis Deficiencies"
+            },
+            {
+              "id": "D008659",
+              "term": "Metabolic Diseases"
+            },
+            {
+              "id": "D009750",
+              "term": "Nutritional and Metabolic Diseases"
+            },
+            {
+              "id": "D013118",
+              "term": "Spinal Cord Diseases"
+            },
+            {
+              "id": "D002493",
+              "term": "Central Nervous System Diseases"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D016472",
+              "term": "Motor Neuron Disease"
+            },
+            {
+              "id": "D019636",
+              "term": "Neurodegenerative Diseases"
+            },
+            {
+              "id": "D057177",
+              "term": "TDP-43 Proteinopathies"
+            },
+            {
+              "id": "D009468",
+              "term": "Neuromuscular Diseases"
+            },
+            {
+              "id": "D017096",
+              "term": "Prion Diseases"
+            },
+            {
+              "id": "D002494",
+              "term": "Central Nervous System Infections"
+            },
+            {
+              "id": "D007239",
+              "term": "Infections"
+            },
+            {
+              "id": "D007319",
+              "term": "Sleep Initiation and Maintenance Disorders"
+            },
+            {
+              "id": "D020919",
+              "term": "Sleep Disorders, Intrinsic"
+            },
+            {
+              "id": "D020920",
+              "term": "Dyssomnias"
+            },
+            {
+              "id": "D012893",
+              "term": "Sleep Wake Disorders"
+            },
+            {
+              "id": "D010182",
+              "term": "Pancreatic Diseases"
+            },
+            {
+              "id": "D004066",
+              "term": "Digestive System Diseases"
+            },
+            {
+              "id": "D008171",
+              "term": "Lung Diseases"
+            },
+            {
+              "id": "D012140",
+              "term": "Respiratory Tract Diseases"
+            },
+            {
+              "id": "D007232",
+              "term": "Infant, Newborn, Diseases"
+            },
+            {
+              "id": "D009136",
+              "term": "Muscular Dystrophies"
+            },
+            {
+              "id": "D020966",
+              "term": "Muscular Disorders, Atrophic"
+            },
+            {
+              "id": "D009135",
+              "term": "Muscular Diseases"
+            },
+            {
+              "id": "D009140",
+              "term": "Musculoskeletal Diseases"
+            },
+            {
+              "id": "D040181",
+              "term": "Genetic Diseases, X-Linked"
+            },
+            {
+              "id": "D003704",
+              "term": "Dementia"
+            },
+            {
+              "id": "D001927",
+              "term": "Brain Diseases"
+            },
+            {
+              "id": "D024801",
+              "term": "Tauopathies"
+            },
+            {
+              "id": "D019965",
+              "term": "Neurocognitive Disorders"
+            },
+            {
+              "id": "D001523",
+              "term": "Mental Disorders"
+            },
+            {
+              "id": "D020141",
+              "term": "Hemostatic Disorders"
+            },
+            {
+              "id": "D014652",
+              "term": "Vascular Diseases"
+            },
+            {
+              "id": "D002318",
+              "term": "Cardiovascular Diseases"
+            },
+            {
+              "id": "D006474",
+              "term": "Hemorrhagic Disorders"
+            },
+            {
+              "id": "D012868",
+              "term": "Skin Abnormalities"
+            },
+            {
+              "id": "D000013",
+              "term": "Congenital Abnormalities"
+            },
+            {
+              "id": "D012873",
+              "term": "Skin Diseases, Genetic"
+            },
+            {
+              "id": "D003095",
+              "term": "Collagen Diseases"
+            },
+            {
+              "id": "D003240",
+              "term": "Connective Tissue Diseases"
+            },
+            {
+              "id": "D017437",
+              "term": "Skin and Connective Tissue Diseases"
+            },
+            {
+              "id": "D012871",
+              "term": "Skin Diseases"
+            },
+            {
+              "id": "D001480",
+              "term": "Basal Ganglia Diseases"
+            },
+            {
+              "id": "D002819",
+              "term": "Chorea"
+            },
+            {
+              "id": "D020820",
+              "term": "Dyskinesias"
+            },
+            {
+              "id": "D009069",
+              "term": "Movement Disorders"
+            },
+            {
+              "id": "D020271",
+              "term": "Heredodegenerative Disorders, Nervous System"
+            },
+            {
+              "id": "D003072",
+              "term": "Cognition Disorders"
+            },
+            {
+              "id": "D013106",
+              "term": "Sphingolipidoses"
+            },
+            {
+              "id": "D020140",
+              "term": "Lysosomal Storage Diseases, Nervous System"
+            },
+            {
+              "id": "D020739",
+              "term": "Brain Diseases, Metabolic, Inborn"
+            },
+            {
+              "id": "D001928",
+              "term": "Brain Diseases, Metabolic"
+            },
+            {
+              "id": "D008661",
+              "term": "Metabolism, Inborn Errors"
+            },
+            {
+              "id": "D008064",
+              "term": "Lipidoses"
+            },
+            {
+              "id": "D008052",
+              "term": "Lipid Metabolism, Inborn Errors"
+            },
+            {
+              "id": "D016464",
+              "term": "Lysosomal Storage Diseases"
+            },
+            {
+              "id": "D052439",
+              "term": "Lipid Metabolism Disorders"
+            },
+            {
+              "id": "D005733",
+              "term": "Gangliosidoses"
+            },
+            {
+              "id": "D020361",
+              "term": "Paraneoplastic Syndromes, Nervous System"
+            },
+            {
+              "id": "D009423",
+              "term": "Nervous System Neoplasms"
+            },
+            {
+              "id": "D009371",
+              "term": "Neoplasms by Site"
+            },
+            {
+              "id": "D009369",
+              "term": "Neoplasms"
+            },
+            {
+              "id": "D010257",
+              "term": "Paraneoplastic Syndromes"
+            },
+            {
+              "id": "D020274",
+              "term": "Autoimmune Diseases of the Nervous System"
+            },
+            {
+              "id": "D020511",
+              "term": "Neuromuscular Junction Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            },
+            {
+              "id": "D006008",
+              "term": "Glycogen Storage Disease"
+            },
+            {
+              "id": "D002239",
+              "term": "Carbohydrate Metabolism, Inborn Errors"
+            },
+            {
+              "id": "D020969",
+              "term": "Disease Attributes"
+            },
+            {
+              "id": "D010335",
+              "term": "Pathologic Processes"
+            },
+            {
+              "id": "D013568",
+              "term": "Pathological Conditions, Signs and Symptoms"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D017085",
+              "term": "alpha-Thalassemia"
+            },
+            {
+              "id": "D017086",
+              "term": "beta-Thalassemia"
+            },
+            {
+              "id": "D000686",
+              "term": "Amyloidosis"
+            },
+            {
+              "id": "D000690",
+              "term": "Amyotrophic Lateral Sclerosis"
+            },
+            {
+              "id": "D034062",
+              "term": "Insomnia, Fatal Familial"
+            },
+            {
+              "id": "D003550",
+              "term": "Cystic Fibrosis"
+            },
+            {
+              "id": "D020388",
+              "term": "Muscular Dystrophy, Duchenne"
+            },
+            {
+              "id": "D000544",
+              "term": "Alzheimer Disease"
+            },
+            {
+              "id": "D004535",
+              "term": "Ehlers-Danlos Syndrome"
+            },
+            {
+              "id": "D006816",
+              "term": "Huntington Disease"
+            },
+            {
+              "id": "D005776",
+              "term": "Gaucher Disease"
+            },
+            {
+              "id": "D016537",
+              "term": "Gangliosidosis, GM1"
+            },
+            {
+              "id": "D009157",
+              "term": "Myasthenia Gravis"
+            },
+            {
+              "id": "D006009",
+              "term": "Glycogen Storage Disease Type II"
+            },
+            {
+              "id": "D000755",
+              "term": "Anemia, Sickle Cell"
+            },
+            {
+              "id": "D035583",
+              "term": "Rare Diseases"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "conditionsModule": {
+          "conditions": [
+            "Alpha-Thalassemia",
+            "Beta-Thalassemia",
+            "Amyloidosis",
+            "Amyotrophic Lateral Sclerosis",
+            "Creutzfeld-Jakob Disease",
+            "Cystic Fibrosis",
+            "Duchenne Muscular Dystrophy",
+            "Early-Onset Alzheimer Disease",
+            "Ehlers-Danlos Syndrome",
+            "Huntington Disease",
+            "Gaucher Disease",
+            "GM1 Gangliosidosis",
+            "Myasthenia Gravis",
+            "Pompe Disease",
+            "Sickle Cell Disease",
+            "Transthyretin Amyloid Cardiomyopathy",
+            "Rare Diseases"
+          ],
+          "keywords": [
+            "rare diseases"
+          ]
+        },
+        "contactsLocationsModule": {
+          "centralContacts": [
+            {
+              "email": "expandedaccess@xcures.com",
+              "name": "Mark Shapiro, MS",
+              "phone": "707-641-4475",
+              "role": "CONTACT"
+            }
+          ],
+          "locations": [
+            {
+              "city": "Los Altos",
+              "contacts": [
+                {
+                  "email": "expandedaccess@xcures.com",
+                  "name": "Mark Shapiro",
+                  "phone": "707-641-4475",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "United States",
+              "facility": "xCures",
+              "geoPoint": {
+                "lat": 37.38522,
+                "lon": -122.11413
+              },
+              "state": "California",
+              "status": "RECRUITING",
+              "zip": "94022"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "FLOWER is a completely virtual, nationwide, real-world observational study to collect, annotate, standardize, and report clinical data for rare diseases. Patients participate in the study by electronic consent (eConsent) and sign a medical records release to permit data collection. Medical records are accessed from institutions directly via eFax or paper fax, online from patient electronic medical record (EMR) portals, direct from DNA/RNA sequencing and molecular profiling vendors, and via electronic health information exchanges. Patients and their treating physicians may also optionally provide medical records. Medical records are received in or converted to electronic/digitized formats (CCDA, FHIR, PDF), sorted by medical record type (clinic visit, in-patient hospital, out-patient clinic, infusion and out-patient pharmacies, etc.) and made machine-readable to support data annotation, full text searches, and natural language processing (NLP) algorithms to further facilitate feature identification.",
+          "detailedDescription": "This study does not require data entry by treating site staff or physicians. Centralized data structuring is completed by xCures study staff. Data elements are aggregated, normalized, and coded to OMOP-based ontologies (SNOMED, LOINC, ICD-10, CTCAE, RxNorm, and MedDRA) in one process, permitting standardization of verbatim terms from medical records. The data collection platform supports 21 CFR Part 11-compliant data annotation with formal QC/QA process, medical review, and source data verification.\n\nBeyond EMR data, raw DICOM images (MRI, CT files) can be collected from all sites of care and anonymized for integration with the clinical data. Molecular profiling and somatic or germline genomics results, and biochemical lab data, when available, are collected from commercial and academic sources and centralized. Additionally, patient- and caregiver-reported outcome surveys (PROs) can be collected to supplement information not found in clinical records.\n\nTogether, these clinical, imaging, biomarker, and assessment data will provide a comprehensive and longitudinal documentation of rare diseases in near real-time in a single observational basket study.\n\nTraditional rare disease research registries rely on patients reporting many aspects of their condition via surveys or rely on key opinion leaders at specific institutions managing a team to enroll patients and annotate necessary data. These put unnecessary burdens on patients and strain limited research resources at medical centers. Gathering the necessary data and in sufficient quantities is often a limitation to successfully defining the natural history of a rare disease."
+        },
+        "designModule": {
+          "designInfo": {
+            "observationalModel": "COHORT",
+            "timePerspective": "CROSS_SECTIONAL"
+          },
+          "enrollmentInfo": {
+            "count": 1000,
+            "type": "ESTIMATED"
+          },
+          "patientRegistry": false,
+          "studyType": "OBSERVATIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Any person with a known or suspected rare disease, defined by their prevalence of fewer than 200,000 individuals nationwide. Diseases include but are not limited to:\n\nAlpha- or Beta- Thalassemia Amyloidosis Amyotrophic Lateral Sclerosis (ALS) Creutzfeldt-Jakob disease (CJD) Cystic Fibrosis (CF) Duchenne Muscular Dystrophy (DMD) Early-onset Alzheimer's Disease Ehlers-Danlos Syndrome (EDS) Huntington's Disease (HD) Gaucher Disease GM1 Gangliosidosis Myasthenia Gravis Pompe Disease Sickle Cell Disease Transthyretin Amyloid Cardiomyopathy (ATTR-CM) Transthyretin Amyloid Polyneuropathy (ATTR-PN)\n\n\\- Patients or their legally-authorized representative must be willing and able to provide informed consent (and assent, if applicable). Deceased persons may participate via consent of their legally-authorized representative in accordance with applicable Federal and state laws\n\nExclusion Criteria:\n\n* Patient or LAR is unable to provide informed consent.\n* Patient resides in a country other than the United States and is unable to provide access to medical records.",
+          "healthyVolunteers": false,
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "This study will include adult and pediatric patients with known or suspected rare disease."
+        },
+        "identificationModule": {
+          "briefTitle": "FLOWER: Following Longitudinal Outcomes With Epidemiology for Rare Diseases",
+          "nctId": "NCT06539169",
+          "officialTitle": "FLOWER: Following Longitudinal Outcomes With Epidemiology for Rare Diseases",
+          "orgStudyIdInfo": {
+            "id": "XC-FLW-2024"
+          },
+          "organization": {
+            "class": "INDUSTRY",
+            "fullName": "xCures"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "measure": "Overall Survival (OS)",
+              "timeFrame": "5 Years"
+            },
+            {
+              "measure": "Safety/tolerability of medications",
+              "timeFrame": "5 years"
+            },
+            {
+              "measure": "Changes in normal development milestones",
+              "timeFrame": "5 years"
+            },
+            {
+              "measure": "Changes in functional status",
+              "timeFrame": "5 years"
+            },
+            {
+              "measure": "Changes in motor function",
+              "timeFrame": "5 years"
+            },
+            {
+              "measure": "Changes in symptoms or clinical status",
+              "timeFrame": "5 years"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "INDUSTRY",
+            "name": "xCures"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2026-06-10",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2024-11-14",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2024-11-12",
+          "overallStatus": "RECRUITING",
+          "primaryCompletionDateStruct": {
+            "date": "2026-06-10",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2024-06-10",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2024-08",
+          "studyFirstPostDateStruct": {
+            "date": "2024-08-06",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2024-08-01",
+          "studyFirstSubmitQcDate": "2024-08-01"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D003920",
+              "term": "Diabetes Mellitus"
+            },
+            {
+              "id": "D044882",
+              "term": "Glucose Metabolism Disorders"
+            },
+            {
+              "id": "D008659",
+              "term": "Metabolic Diseases"
+            },
+            {
+              "id": "D009750",
+              "term": "Nutritional and Metabolic Diseases"
+            },
+            {
+              "id": "D004700",
+              "term": "Endocrine System Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D003922",
+              "term": "Diabetes Mellitus, Type 1"
+            },
+            {
+              "id": "D007003",
+              "term": "Hypoglycemia"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D050337",
+              "term": "Trimethyl Ammonium Compounds"
+            },
+            {
+              "id": "D000644",
+              "term": "Quaternary Ammonium Compounds"
+            },
+            {
+              "id": "D000588",
+              "term": "Amines"
+            },
+            {
+              "id": "D009930",
+              "term": "Organic Chemicals"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D002331",
+              "term": "Carnitine"
+            },
+            {
+              "id": "D004364",
+              "term": "Pharmaceutical Preparations"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "interventions": [
+            {
+              "description": "Oral L-carnitine will be obtained from Sigma Tau Pharmaceuticals. Supplementation will be initiated at 50mg/kg body weight and increased to 100mg/kg body weight after one week.",
+              "name": "Carnitine (drug)",
+              "type": "DRUG"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Diabetes Mellitus, Type I",
+            "Hypoglycemia"
+          ],
+          "keywords": [
+            "Diabetes Mellitus Type I,",
+            "Hypoglycemia,",
+            "Carnitine"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Kansas City",
+              "country": "United States",
+              "facility": "The Children's Mercy Hospital",
+              "geoPoint": {
+                "lat": 39.09973,
+                "lon": -94.57857
+              },
+              "state": "Missouri",
+              "zip": "64108"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Children's Mercy Hospital Kansas City",
+              "name": "Larry K Midyett, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The purpose of this study is to determine whether type I diabetics with carnitine deficiency exhibit increased numbers of hypoglycemic (low blood sugars) events and if unrecognized hypoglycemia occurs during continuous 72-hour glucose monitoring. If they are determined to have unrecognized hypoglycemia, then oral carnitine supplementation will be given to those subjects and they will be reassessed for the number of hypoglycemic events in a 72-hour glucose monitoring.",
+          "detailedDescription": "Hypoglycemia is a clinical marker of carnitine deficiency. Thus carnitine may compound the risk of hypoglycemia for children on insulin therapy. Currently, one of the limitations in the management of diabetes is hypoglycemia. The problem of hypoglycemia is of even greater significance in the pediatric population because children have smaller glycogen stores.\n\nIn this study, we will determine if there is a group of children with increased frequency of hypoglycemia and carnitine deficiency. If there is a correlation from the initial 200 children, we will compare two groups of type I diabetic children between the ages of 7 to 21 years. We will take 20 children with the highest carnitine levels (found in a previous study) and 20 children with the lowest carnitine levels and perform continuous glucose monitoring for a 72-hour period. Those who have at least one episode of hypoglycemia will be asked to undergo repeat testing, after a 2-week period of oral carnitine supplementation. Supplementation will start at 50 mg/kg body weight for the first week and then increase to 100 mg/kg body weight the second week. Laboratory studies obtained at baseline include Hemoglobin A1c, carnitine panel, and lipid panel. These will be repeated prior to the second continuous glucose monitoring. Insulin doses will not be changed between glucose monitoring sessions. A comparison will be made between individuals with hypoglycemia, to see if the number of hypoglycemic events has decreased."
+        },
+        "designModule": {
+          "designInfo": {
+            "observationalModel": "COHORT",
+            "timePerspective": "RETROSPECTIVE"
+          },
+          "enrollmentInfo": {
+            "count": 200,
+            "type": "ACTUAL"
+          },
+          "studyType": "OBSERVATIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Diabetes Mellitus, Type I for greater than 2 years between the ages of 7 and 21\n* currently on insulin replacement therapy\n\nExclusion Criteria:\n\n* Patients with newly diagnosed Type I diabetes\n* Patients already taking L-carnitine\n* Patients who come to clinic without glucose monitors\n* Patients with known seizure disorders not including hypoglycemic seizures\n* Patients on metformin\n* Patients with compromised renal function.",
+          "healthyVolunteers": false,
+          "maximumAge": "21 Years",
+          "minimumAge": "7 Years",
+          "samplingMethod": "PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT"
+          ],
+          "studyPopulation": "1. Children (male or female), between the ages of 7 and 21,\n2. who have had a diagnosis of Type 1 diabetes mellitus for at least two years and\n3. are currently on insulin replacement therapy."
+        },
+        "identificationModule": {
+          "briefTitle": "Carnitine Levels and Carnitine Supplementation in Type I Diabetes",
+          "nctId": "NCT00351234",
+          "officialTitle": "Correlation Between Carnitine Deficiency and Hypoglycemic Events in Type I Diabetes; Effects of Carnitine Supplementation on Hypoglycemic Events in Type I Diabetes",
+          "orgStudyIdInfo": {
+            "id": "000003020"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Children's Mercy Hospital Kansas City"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "measure": "To see if there is a correlation between carnitine levels and number of hypoglycemic events.",
+              "timeFrame": "one year"
+            },
+            {
+              "measure": "To see if carnitine values in a control population are significantly different than our study group.",
+              "timeFrame": "one year"
+            },
+            {
+              "measure": "To see if the number of hypoglycemic events decreases with treatment of carnitine on type I diabetic patients. The measurements will be taken after the second 72-hour continuous glucose monitoring.",
+              "timeFrame": "one year"
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": false
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Rebouche CJ, Paulson DJ. Carnitine metabolism and function in humans. Annu Rev Nutr. 1986;6:41-66. doi: 10.1146/annurev.nu.06.070186.000353.",
+              "pmid": "3524622",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Frohlich J, Seccombe DW, Hahn P, Dodek P, Hynie I. Effect of fasting on free and esterified carnitine levels in human serum and urine: correlation with serum levels of free fatty acids and beta-hydroxybutyrate. Metabolism. 1978 May;27(5):555-61. doi: 10.1016/0026-0495(78)90022-7.",
+              "pmid": "642827",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Hoppel CL, Genuth SM. Urinary excretion of acetylcarnitine during human diabetic and fasting ketosis. Am J Physiol. 1982 Aug;243(2):E168-72. doi: 10.1152/ajpendo.1982.243.2.E168.",
+              "pmid": "6810706",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Bohles H, Evangeliou A, Bervoets K, Eckert I, Sewell A. Carnitine esters in metabolic disease. Eur J Pediatr. 1994;153(7 Suppl 1):S57-61. doi: 10.1007/BF02138779. No abstract available.",
+              "pmid": "7957388",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Soltesz G, Melegh B, Sandor A. The relationship between carnitine and ketone body levels in diabetic children. Acta Paediatr Scand. 1983 Jul;72(4):511-5. doi: 10.1111/j.1651-2227.1983.tb09762.x.",
+              "pmid": "6353846",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Winter SC, Simon M, Zorn EM, Szabo-Aczel S, Vance WH, O'Hara T, Higashi L. Relative carnitine insufficiency in children with type I diabetes mellitus. Am J Dis Child. 1989 Nov;143(11):1337-9. doi: 10.1001/archpedi.1989.02150230095030.",
+              "pmid": "2816861",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Pons R, De Vivo DC. Primary and secondary carnitine deficiency syndromes. J Child Neurol. 1995 Nov;10 Suppl 2:S8-24.",
+              "pmid": "8576570",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Stanley CA. New genetic defects in mitochondrial fatty acid oxidation and carnitine deficiency. Adv Pediatr. 1987;34:59-88.",
+              "pmid": "3318304",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "O'Donnell J, Finer NN, Rich W, Barshop BA, Barrington KJ. Role of L-carnitine in apnea of prematurity: a randomized, controlled trial. Pediatrics. 2002 Apr;109(4):622-6. doi: 10.1542/peds.109.4.622.",
+              "pmid": "11927706",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Maebashi M, Kawamura N, Sato M, Imamura A, Yoshinaga K. Lipid-lowering effect of carnitine in patients with type-IV hyperlipoproteinaemia. Lancet. 1978 Oct 14;2(8094):805-7. doi: 10.1016/s0140-6736(78)92587-4.",
+              "pmid": "81361",
+              "type": "BACKGROUND"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "INDUSTRY",
+              "name": "Leadiant Biosciences, Inc."
+            },
+            {
+              "class": "INDUSTRY",
+              "name": "Minimed Pharmaceuticals"
+            },
+            {
+              "class": "UNKNOWN",
+              "name": "Pharmacia/Upjohn Career Development Award"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Children's Mercy Hospital Kansas City"
+          },
+          "responsibleParty": {
+            "oldNameTitle": "L. Kurt Midyett, MD, Assistant Professor",
+            "oldOrganization": "Children's Mercy Hospital"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2007-04",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2012-02-28",
+            "type": "ESTIMATED"
+          },
+          "lastUpdateSubmitDate": "2012-02-24",
+          "overallStatus": "COMPLETED",
+          "startDateStruct": {
+            "date": "2004-10"
+          },
+          "statusVerifiedDate": "2012-02",
+          "studyFirstPostDateStruct": {
+            "date": "2006-07-12",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2006-07-11",
+          "studyFirstSubmitQcDate": "2006-07-11"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D000505",
+              "term": "Alopecia"
+            },
+            {
+              "id": "D007039",
+              "term": "Hypotrichosis"
+            },
+            {
+              "id": "D006201",
+              "term": "Hair Diseases"
+            },
+            {
+              "id": "D012871",
+              "term": "Skin Diseases"
+            },
+            {
+              "id": "D017437",
+              "term": "Skin and Connective Tissue Diseases"
+            },
+            {
+              "id": "D000089183",
+              "term": "Axial Spondyloarthritis"
+            },
+            {
+              "id": "D025242",
+              "term": "Spondylarthropathies"
+            },
+            {
+              "id": "D025241",
+              "term": "Spondylarthritis"
+            },
+            {
+              "id": "D013166",
+              "term": "Spondylitis"
+            },
+            {
+              "id": "D013122",
+              "term": "Spinal Diseases"
+            },
+            {
+              "id": "D001847",
+              "term": "Bone Diseases"
+            },
+            {
+              "id": "D009140",
+              "term": "Musculoskeletal Diseases"
+            },
+            {
+              "id": "D000844",
+              "term": "Ankylosis"
+            },
+            {
+              "id": "D007592",
+              "term": "Joint Diseases"
+            },
+            {
+              "id": "D001168",
+              "term": "Arthritis"
+            },
+            {
+              "id": "D001982",
+              "term": "Bronchial Diseases"
+            },
+            {
+              "id": "D012140",
+              "term": "Respiratory Tract Diseases"
+            },
+            {
+              "id": "D008173",
+              "term": "Lung Diseases, Obstructive"
+            },
+            {
+              "id": "D008171",
+              "term": "Lung Diseases"
+            },
+            {
+              "id": "D012130",
+              "term": "Respiratory Hypersensitivity"
+            },
+            {
+              "id": "D006969",
+              "term": "Hypersensitivity, Immediate"
+            },
+            {
+              "id": "D006967",
+              "term": "Hypersensitivity"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            },
+            {
+              "id": "D013789",
+              "term": "Thalassemia"
+            },
+            {
+              "id": "D000745",
+              "term": "Anemia, Hemolytic, Congenital"
+            },
+            {
+              "id": "D000743",
+              "term": "Anemia, Hemolytic"
+            },
+            {
+              "id": "D000740",
+              "term": "Anemia"
+            },
+            {
+              "id": "D006402",
+              "term": "Hematologic Diseases"
+            },
+            {
+              "id": "D006425",
+              "term": "Hemic and Lymphatic Diseases"
+            },
+            {
+              "id": "D006453",
+              "term": "Hemoglobinopathies"
+            },
+            {
+              "id": "D030342",
+              "term": "Genetic Diseases, Inborn"
+            },
+            {
+              "id": "D009358",
+              "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+            },
+            {
+              "id": "D000068105",
+              "term": "Bipolar and Related Disorders"
+            },
+            {
+              "id": "D019964",
+              "term": "Mood Disorders"
+            },
+            {
+              "id": "D001523",
+              "term": "Mental Disorders"
+            },
+            {
+              "id": "D009371",
+              "term": "Neoplasms by Site"
+            },
+            {
+              "id": "D009369",
+              "term": "Neoplasms"
+            },
+            {
+              "id": "D001941",
+              "term": "Breast Diseases"
+            },
+            {
+              "id": "D008286",
+              "term": "Malabsorption Syndromes"
+            },
+            {
+              "id": "D007410",
+              "term": "Intestinal Diseases"
+            },
+            {
+              "id": "D005767",
+              "term": "Gastrointestinal Diseases"
+            },
+            {
+              "id": "D004066",
+              "term": "Digestive System Diseases"
+            },
+            {
+              "id": "D008659",
+              "term": "Metabolic Diseases"
+            },
+            {
+              "id": "D009750",
+              "term": "Nutritional and Metabolic Diseases"
+            },
+            {
+              "id": "D014594",
+              "term": "Uterine Neoplasms"
+            },
+            {
+              "id": "D005833",
+              "term": "Genital Neoplasms, Female"
+            },
+            {
+              "id": "D014565",
+              "term": "Urogenital Neoplasms"
+            },
+            {
+              "id": "D002577",
+              "term": "Uterine Cervical Diseases"
+            },
+            {
+              "id": "D014591",
+              "term": "Uterine Diseases"
+            },
+            {
+              "id": "D005831",
+              "term": "Genital Diseases, Female"
+            },
+            {
+              "id": "D052776",
+              "term": "Female Urogenital Diseases"
+            },
+            {
+              "id": "D005261",
+              "term": "Female Urogenital Diseases and Pregnancy Complications"
+            },
+            {
+              "id": "D000091642",
+              "term": "Urogenital Diseases"
+            },
+            {
+              "id": "D000091662",
+              "term": "Genital Diseases"
+            },
+            {
+              "id": "D011129",
+              "term": "Polyradiculoneuropathy"
+            },
+            {
+              "id": "D020274",
+              "term": "Autoimmune Diseases of the Nervous System"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D003711",
+              "term": "Demyelinating Diseases"
+            },
+            {
+              "id": "D011115",
+              "term": "Polyneuropathies"
+            },
+            {
+              "id": "D010523",
+              "term": "Peripheral Nervous System Diseases"
+            },
+            {
+              "id": "D009468",
+              "term": "Neuromuscular Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D002908",
+              "term": "Chronic Disease"
+            },
+            {
+              "id": "D020969",
+              "term": "Disease Attributes"
+            },
+            {
+              "id": "D010335",
+              "term": "Pathologic Processes"
+            },
+            {
+              "id": "D013568",
+              "term": "Pathological Conditions, Signs and Symptoms"
+            },
+            {
+              "id": "D051437",
+              "term": "Renal Insufficiency"
+            },
+            {
+              "id": "D007674",
+              "term": "Kidney Diseases"
+            },
+            {
+              "id": "D014570",
+              "term": "Urologic Diseases"
+            },
+            {
+              "id": "D052801",
+              "term": "Male Urogenital Diseases"
+            },
+            {
+              "id": "D007414",
+              "term": "Intestinal Neoplasms"
+            },
+            {
+              "id": "D005770",
+              "term": "Gastrointestinal Neoplasms"
+            },
+            {
+              "id": "D004067",
+              "term": "Digestive System Neoplasms"
+            },
+            {
+              "id": "D003108",
+              "term": "Colonic Diseases"
+            },
+            {
+              "id": "D012002",
+              "term": "Rectal Diseases"
+            },
+            {
+              "id": "D015212",
+              "term": "Inflammatory Bowel Diseases"
+            },
+            {
+              "id": "D005759",
+              "term": "Gastroenteritis"
+            },
+            {
+              "id": "D010182",
+              "term": "Pancreatic Diseases"
+            },
+            {
+              "id": "D007232",
+              "term": "Infant, Newborn, Diseases"
+            },
+            {
+              "id": "D001526",
+              "term": "Behavioral Symptoms"
+            },
+            {
+              "id": "D001519",
+              "term": "Behavior"
+            },
+            {
+              "id": "D044882",
+              "term": "Glucose Metabolism Disorders"
+            },
+            {
+              "id": "D004700",
+              "term": "Endocrine System Diseases"
+            },
+            {
+              "id": "D009136",
+              "term": "Muscular Dystrophies"
+            },
+            {
+              "id": "D020966",
+              "term": "Muscular Disorders, Atrophic"
+            },
+            {
+              "id": "D009135",
+              "term": "Muscular Diseases"
+            },
+            {
+              "id": "D040181",
+              "term": "Genetic Diseases, X-Linked"
+            },
+            {
+              "id": "D001927",
+              "term": "Brain Diseases"
+            },
+            {
+              "id": "D002493",
+              "term": "Central Nervous System Diseases"
+            },
+            {
+              "id": "D002239",
+              "term": "Carbohydrate Metabolism, Inborn Errors"
+            },
+            {
+              "id": "D008661",
+              "term": "Metabolism, Inborn Errors"
+            },
+            {
+              "id": "D001008",
+              "term": "Anxiety Disorders"
+            },
+            {
+              "id": "D000086982",
+              "term": "Blood-Borne Infections"
+            },
+            {
+              "id": "D003141",
+              "term": "Communicable Diseases"
+            },
+            {
+              "id": "D007239",
+              "term": "Infections"
+            },
+            {
+              "id": "D018347",
+              "term": "Hepadnaviridae Infections"
+            },
+            {
+              "id": "D004266",
+              "term": "DNA Virus Infections"
+            },
+            {
+              "id": "D014777",
+              "term": "Virus Diseases"
+            },
+            {
+              "id": "D006525",
+              "term": "Hepatitis, Viral, Human"
+            },
+            {
+              "id": "D006505",
+              "term": "Hepatitis"
+            },
+            {
+              "id": "D008107",
+              "term": "Liver Diseases"
+            },
+            {
+              "id": "D020141",
+              "term": "Hemostatic Disorders"
+            },
+            {
+              "id": "D014652",
+              "term": "Vascular Diseases"
+            },
+            {
+              "id": "D002318",
+              "term": "Cardiovascular Diseases"
+            },
+            {
+              "id": "D013684",
+              "term": "Telangiectasis"
+            },
+            {
+              "id": "D006474",
+              "term": "Hemorrhagic Disorders"
+            },
+            {
+              "id": "D054079",
+              "term": "Vascular Malformations"
+            },
+            {
+              "id": "D018376",
+              "term": "Cardiovascular Abnormalities"
+            },
+            {
+              "id": "D000013",
+              "term": "Congenital Abnormalities"
+            },
+            {
+              "id": "D015658",
+              "term": "HIV Infections"
+            },
+            {
+              "id": "D015229",
+              "term": "Sexually Transmitted Diseases, Viral"
+            },
+            {
+              "id": "D012749",
+              "term": "Sexually Transmitted Diseases"
+            },
+            {
+              "id": "D016180",
+              "term": "Lentivirus Infections"
+            },
+            {
+              "id": "D012192",
+              "term": "Retroviridae Infections"
+            },
+            {
+              "id": "D012327",
+              "term": "RNA Virus Infections"
+            },
+            {
+              "id": "D012897",
+              "term": "Slow Virus Diseases"
+            },
+            {
+              "id": "D007153",
+              "term": "Immunologic Deficiency Syndromes"
+            },
+            {
+              "id": "D001480",
+              "term": "Basal Ganglia Diseases"
+            },
+            {
+              "id": "D003704",
+              "term": "Dementia"
+            },
+            {
+              "id": "D002819",
+              "term": "Chorea"
+            },
+            {
+              "id": "D020820",
+              "term": "Dyskinesias"
+            },
+            {
+              "id": "D009069",
+              "term": "Movement Disorders"
+            },
+            {
+              "id": "D020271",
+              "term": "Heredodegenerative Disorders, Nervous System"
+            },
+            {
+              "id": "D019636",
+              "term": "Neurodegenerative Diseases"
+            },
+            {
+              "id": "D003072",
+              "term": "Cognition Disorders"
+            },
+            {
+              "id": "D019965",
+              "term": "Neurocognitive Disorders"
+            },
+            {
+              "id": "D011696",
+              "term": "Purpura, Thrombocytopenic"
+            },
+            {
+              "id": "D011693",
+              "term": "Purpura"
+            },
+            {
+              "id": "D001778",
+              "term": "Blood Coagulation Disorders"
+            },
+            {
+              "id": "D057049",
+              "term": "Thrombotic Microangiopathies"
+            },
+            {
+              "id": "D013921",
+              "term": "Thrombocytopenia"
+            },
+            {
+              "id": "D001791",
+              "term": "Blood Platelet Disorders"
+            },
+            {
+              "id": "D000095542",
+              "term": "Cytopenia"
+            },
+            {
+              "id": "D006470",
+              "term": "Hemorrhage"
+            },
+            {
+              "id": "D012877",
+              "term": "Skin Manifestations"
+            },
+            {
+              "id": "D012816",
+              "term": "Signs and Symptoms"
+            },
+            {
+              "id": "D020919",
+              "term": "Sleep Disorders, Intrinsic"
+            },
+            {
+              "id": "D020920",
+              "term": "Dyssomnias"
+            },
+            {
+              "id": "D012893",
+              "term": "Sleep Wake Disorders"
+            },
+            {
+              "id": "D014571",
+              "term": "Urologic Neoplasms"
+            },
+            {
+              "id": "D009370",
+              "term": "Neoplasms by Histologic Type"
+            },
+            {
+              "id": "D012142",
+              "term": "Respiratory Tract Neoplasms"
+            },
+            {
+              "id": "D013899",
+              "term": "Thoracic Neoplasms"
+            },
+            {
+              "id": "D005921",
+              "term": "Glomerulonephritis"
+            },
+            {
+              "id": "D009393",
+              "term": "Nephritis"
+            },
+            {
+              "id": "D003240",
+              "term": "Connective Tissue Diseases"
+            },
+            {
+              "id": "D008232",
+              "term": "Lymphoproliferative Disorders"
+            },
+            {
+              "id": "D008206",
+              "term": "Lymphatic Diseases"
+            },
+            {
+              "id": "D007160",
+              "term": "Immunoproliferative Disorders"
+            },
+            {
+              "id": "D018358",
+              "term": "Neuroendocrine Tumors"
+            },
+            {
+              "id": "D017599",
+              "term": "Neuroectodermal Tumors"
+            },
+            {
+              "id": "D009373",
+              "term": "Neoplasms, Germ Cell and Embryonal"
+            },
+            {
+              "id": "D009380",
+              "term": "Neoplasms, Nerve Tissue"
+            },
+            {
+              "id": "D018326",
+              "term": "Nevi and Melanomas"
+            },
+            {
+              "id": "D054219",
+              "term": "Neoplasms, Plasma Cell"
+            },
+            {
+              "id": "D010265",
+              "term": "Paraproteinemias"
+            },
+            {
+              "id": "D001796",
+              "term": "Blood Protein Disorders"
+            },
+            {
+              "id": "D020278",
+              "term": "Demyelinating Autoimmune Diseases, CNS"
+            },
+            {
+              "id": "D020967",
+              "term": "Myotonic Disorders"
+            },
+            {
+              "id": "D004701",
+              "term": "Endocrine Gland Neoplasms"
+            },
+            {
+              "id": "D010049",
+              "term": "Ovarian Diseases"
+            },
+            {
+              "id": "D000291",
+              "term": "Adnexal Diseases"
+            },
+            {
+              "id": "D006058",
+              "term": "Gonadal Disorders"
+            },
+            {
+              "id": "D020734",
+              "term": "Parkinsonian Disorders"
+            },
+            {
+              "id": "D000080874",
+              "term": "Synucleinopathies"
+            },
+            {
+              "id": "D052177",
+              "term": "Kidney Diseases, Cystic"
+            },
+            {
+              "id": "D000015",
+              "term": "Abnormalities, Multiple"
+            },
+            {
+              "id": "D000072661",
+              "term": "Ciliopathies"
+            },
+            {
+              "id": "D005834",
+              "term": "Genital Neoplasms, Male"
+            },
+            {
+              "id": "D005832",
+              "term": "Genital Diseases, Male"
+            },
+            {
+              "id": "D011469",
+              "term": "Prostatic Diseases"
+            },
+            {
+              "id": "D017444",
+              "term": "Skin Diseases, Papulosquamous"
+            },
+            {
+              "id": "D012595",
+              "term": "Scleroderma, Systemic"
+            },
+            {
+              "id": "D001172",
+              "term": "Arthritis, Rheumatoid"
+            },
+            {
+              "id": "D012216",
+              "term": "Rheumatic Diseases"
+            },
+            {
+              "id": "D014987",
+              "term": "Xerostomia"
+            },
+            {
+              "id": "D012466",
+              "term": "Salivary Gland Diseases"
+            },
+            {
+              "id": "D009059",
+              "term": "Mouth Diseases"
+            },
+            {
+              "id": "D009057",
+              "term": "Stomatognathic Diseases"
+            },
+            {
+              "id": "D015352",
+              "term": "Dry Eye Syndromes"
+            },
+            {
+              "id": "D007766",
+              "term": "Lacrimal Apparatus Diseases"
+            },
+            {
+              "id": "D005128",
+              "term": "Eye Diseases"
+            },
+            {
+              "id": "D013118",
+              "term": "Spinal Cord Diseases"
+            },
+            {
+              "id": "D016472",
+              "term": "Motor Neuron Disease"
+            },
+            {
+              "id": "D019851",
+              "term": "Thrombophilia"
+            },
+            {
+              "id": "D008607",
+              "term": "Intellectual Disability"
+            },
+            {
+              "id": "D019954",
+              "term": "Neurobehavioral Manifestations"
+            },
+            {
+              "id": "D009461",
+              "term": "Neurologic Manifestations"
+            },
+            {
+              "id": "D025063",
+              "term": "Chromosome Disorders"
+            },
+            {
+              "id": "D003092",
+              "term": "Colitis"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D000506",
+              "term": "Alopecia Areata"
+            },
+            {
+              "id": "D013167",
+              "term": "Spondylitis, Ankylosing"
+            },
+            {
+              "id": "D001249",
+              "term": "Asthma"
+            },
+            {
+              "id": "D017086",
+              "term": "beta-Thalassemia"
+            },
+            {
+              "id": "D001714",
+              "term": "Bipolar Disorder"
+            },
+            {
+              "id": "D001943",
+              "term": "Breast Neoplasms"
+            },
+            {
+              "id": "D002446",
+              "term": "Celiac Disease"
+            },
+            {
+              "id": "D002583",
+              "term": "Uterine Cervical Neoplasms"
+            },
+            {
+              "id": "D020277",
+              "term": "Polyradiculoneuropathy, Chronic Inflammatory Demyelinating"
+            },
+            {
+              "id": "D051436",
+              "term": "Renal Insufficiency, Chronic"
+            },
+            {
+              "id": "D029424",
+              "term": "Pulmonary Disease, Chronic Obstructive"
+            },
+            {
+              "id": "D003110",
+              "term": "Colonic Neoplasms"
+            },
+            {
+              "id": "D015179",
+              "term": "Colorectal Neoplasms"
+            },
+            {
+              "id": "D003424",
+              "term": "Crohn Disease"
+            },
+            {
+              "id": "D003550",
+              "term": "Cystic Fibrosis"
+            },
+            {
+              "id": "D003863",
+              "term": "Depression"
+            },
+            {
+              "id": "D003920",
+              "term": "Diabetes Mellitus"
+            },
+            {
+              "id": "D020388",
+              "term": "Muscular Dystrophy, Duchenne"
+            },
+            {
+              "id": "D004715",
+              "term": "Endometriosis"
+            },
+            {
+              "id": "D004827",
+              "term": "Epilepsy"
+            },
+            {
+              "id": "D020391",
+              "term": "Muscular Dystrophy, Facioscapulohumeral"
+            },
+            {
+              "id": "D005955",
+              "term": "Glucosephosphate Dehydrogenase Deficiency"
+            },
+            {
+              "id": "D000098647",
+              "term": "Generalized Anxiety Disorder"
+            },
+            {
+              "id": "D006509",
+              "term": "Hepatitis B"
+            },
+            {
+              "id": "D013683",
+              "term": "Telangiectasia, Hereditary Hemorrhagic"
+            },
+            {
+              "id": "D000163",
+              "term": "Acquired Immunodeficiency Syndrome"
+            },
+            {
+              "id": "D006816",
+              "term": "Huntington Disease"
+            },
+            {
+              "id": "D016553",
+              "term": "Purpura, Thrombocytopenic, Idiopathic"
+            },
+            {
+              "id": "D007319",
+              "term": "Sleep Initiation and Maintenance Disorders"
+            },
+            {
+              "id": "D007680",
+              "term": "Kidney Neoplasms"
+            },
+            {
+              "id": "D007938",
+              "term": "Leukemia"
+            },
+            {
+              "id": "D008175",
+              "term": "Lung Neoplasms"
+            },
+            {
+              "id": "D008181",
+              "term": "Lupus Nephritis"
+            },
+            {
+              "id": "D008223",
+              "term": "Lymphoma"
+            },
+            {
+              "id": "D008545",
+              "term": "Melanoma"
+            },
+            {
+              "id": "D009101",
+              "term": "Multiple Myeloma"
+            },
+            {
+              "id": "D009103",
+              "term": "Multiple Sclerosis"
+            },
+            {
+              "id": "D009220",
+              "term": "Myositis"
+            },
+            {
+              "id": "D009223",
+              "term": "Myotonic Dystrophy"
+            },
+            {
+              "id": "D010051",
+              "term": "Ovarian Neoplasms"
+            },
+            {
+              "id": "D010190",
+              "term": "Pancreatic Neoplasms"
+            },
+            {
+              "id": "D010300",
+              "term": "Parkinson Disease"
+            },
+            {
+              "id": "D007690",
+              "term": "Polycystic Kidney Diseases"
+            },
+            {
+              "id": "D011471",
+              "term": "Prostatic Neoplasms"
+            },
+            {
+              "id": "D011565",
+              "term": "Psoriasis"
+            },
+            {
+              "id": "D015535",
+              "term": "Arthritis, Psoriatic"
+            },
+            {
+              "id": "D012393",
+              "term": "Rosacea"
+            },
+            {
+              "id": "D045743",
+              "term": "Scleroderma, Diffuse"
+            },
+            {
+              "id": "D000755",
+              "term": "Anemia, Sickle Cell"
+            },
+            {
+              "id": "D012805",
+              "term": "Sickle Cell Trait"
+            },
+            {
+              "id": "D012859",
+              "term": "Sjogren's Syndrome"
+            },
+            {
+              "id": "D012878",
+              "term": "Skin Neoplasms"
+            },
+            {
+              "id": "D009134",
+              "term": "Muscular Atrophy, Spinal"
+            },
+            {
+              "id": "D008180",
+              "term": "Lupus Erythematosus, Systemic"
+            },
+            {
+              "id": "D011697",
+              "term": "Purpura, Thrombotic Thrombocytopenic"
+            },
+            {
+              "id": "D004314",
+              "term": "Down Syndrome"
+            },
+            {
+              "id": "D003093",
+              "term": "Colitis, Ulcerative"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Collect blood and other optional biospecimens from participants with a diagnosed health condition",
+              "label": "Health Condition"
+            },
+            {
+              "description": "Collect blood and other optional biospecimens from participants that have not been diagnosed with a health condition",
+              "label": "Healthy Control"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "All Diagnosed Health Conditions",
+            "ADD/ADHD",
+            "Alopecia Areata",
+            "Ankylosing Spondylitis",
+            "Asthma",
+            "Atopic Dermatitis Eczema",
+            "Beta Thalassemia",
+            "Bipolar Disorder",
+            "Breast Cancer",
+            "Celiac Disease",
+            "Cervical Cancer",
+            "Chronic Inflammatory Demyelinating Polyneuropathy",
+            "Chronic Kidney Diseases",
+            "Chronic Obstructive Pulmonary Disease",
+            "Colon Cancer",
+            "Colorectal Cancer",
+            "Crohn's Disease",
+            "Cystic Fibrosis",
+            "Depression",
+            "Diabetes Mellitus",
+            "Duchenne Muscular Dystrophy",
+            "Endometriosis",
+            "Epilepsy",
+            "Facioscapulohumeral Muscular Dystrophy",
+            "G6PD Deficiency",
+            "General Anxiety Disorder",
+            "Hepatitis B",
+            "Hereditary Hemorrhagic Telangiectasia",
+            "HIV/AIDS",
+            "Human Papilloma Virus",
+            "Huntington's Disease",
+            "Idiopathic Thrombocytopenic Purpura",
+            "Insomnia",
+            "Kidney Cancer",
+            "Leukemia",
+            "Lung Cancer",
+            "Lupus Nephritis",
+            "Lymphoma",
+            "Melanoma",
+            "Multiple Myeloma",
+            "Multiple Sclerosis",
+            "Myositis",
+            "Myotonic Dystrophy",
+            "Ovarian Cancer",
+            "Pancreatic Cancer",
+            "Parkinson's Disease",
+            "Polycystic Kidney Diseases",
+            "Prostate Cancer",
+            "Psoriasis",
+            "Psoriatic Arthritis",
+            "Rosacea",
+            "Scleroderma",
+            "Sickle Cell Anemia",
+            "Sickle Cell Trait",
+            "Sjogren's Syndrome",
+            "Skin Cancer",
+            "Spinal Muscular Atrophy",
+            "Systemic Lupus Erythematosus",
+            "Thrombotic Thrombocytopenic Purpura",
+            "Trisomy 21",
+            "Ulcerative Colitis"
+          ],
+          "keywords": [
+            "ADD/ADHD",
+            "Alopecia Areata",
+            "Ankylosing Spondylitis",
+            "Asthma",
+            "Atopic Dermatitis Eczema",
+            "Beta Thalassemia",
+            "Bipolar Disorder",
+            "Breast Cancer",
+            "Celiac Disease",
+            "Cervical Cancer",
+            "Chronic Inflammatory Demyelinating Polyneuropathy",
+            "Chronic Kidney Diseases",
+            "Chronic Obstructive Pulmonary Disease",
+            "Colon Cancer",
+            "Colorectal Cancer",
+            "Crohn's Disease",
+            "Cystic Fibrosis",
+            "Depression",
+            "Diabete Mellitus",
+            "Duchenne Muscular Dystrophy",
+            "Endometriosis",
+            "Epilepsy",
+            "Facioscapulohumeral Muscular Dystrophy",
+            "G6PD Deficiency",
+            "General Anxiety Disorder",
+            "Hepatitis B",
+            "Hereditary Hemorrhagic Telangiectasia",
+            "HIV/AIDS",
+            "Human Papilloma Virus",
+            "Huntington's Disease",
+            "Idiopathic Thrombocytopenic Purpura",
+            "Insomnia",
+            "Kidney Cancer",
+            "Leukemia",
+            "Lung Cancer",
+            "Lupus Nephritis",
+            "Lymphoma",
+            "Melanoma",
+            "Multiple Myeloma",
+            "Multiple Sclerosis",
+            "Myositis",
+            "Myotonic Dystrophy",
+            "Ovarian Cancer",
+            "Pancreatic Cancer",
+            "Parkinson's Disease",
+            "Polycystic Kidney Diseases",
+            "Prostate Cancer",
+            "Psoriasis",
+            "Psoriatic Arthritis",
+            "Rosacea",
+            "Scleroderma",
+            "Sickle Cell Anemia",
+            "Sickle Cell Disease",
+            "Sickle Cell Trait",
+            "Sjogren's Syndrome",
+            "Skin Cancer",
+            "Spinal Muscular Atrophy",
+            "Systemic Lupus Erythematosus",
+            "Thrombotic Thrombocytopenic Purpura",
+            "Trisomy 21",
+            "Ulcerative Colitis"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Los Angeles",
+              "country": "United States",
+              "facility": "Sanguine Biosciences",
+              "geoPoint": {
+                "lat": 34.05223,
+                "lon": -118.24368
+              },
+              "state": "California",
+              "zip": "91403"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Sanguine Biosciences",
+              "name": "Houman Hemmati, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "We are the missing link in clinical trials, connecting patients and researchers seamlessly and conveniently using a mobile health platform to advance medical research. We make it easy for patients to contribute to research for medical conditions that matter most to them, regardless of their location or ability to travel.",
+          "detailedDescription": "This study will collect blood and other optionally donated tissue samples from people with all different types of health conditions, as well as healthy control samples, in order to provide biomedical researchers with quality biospecimens that are necessary in translating basic science research into clinically relevant information and technology."
+        },
+        "designModule": {
+          "bioSpec": {
+            "description": "Whole blood, serum, plasma, PBMC, RNA, DNA, saliva, stool, hair, skin, CSF, synovial fuid, tumor tissue, urine",
+            "retention": "SAMPLES_WITH_DNA"
+          },
+          "designInfo": {
+            "observationalModel": "COHORT",
+            "timePerspective": "CROSS_SECTIONAL"
+          },
+          "enrollmentInfo": {
+            "count": 17667,
+            "type": "ACTUAL"
+          },
+          "patientRegistry": false,
+          "studyType": "OBSERVATIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* All adults 18-100 years old\n* Able to provide proof of diagnosis\n* Live in USA\n\nExclusion Criteria:\n\n* Younger than 18 years old\n* Receipt of blood products within 30 days of study blood collection\n* Receipt of investigational drug within 30 days of study blood collection",
+          "healthyVolunteers": true,
+          "maximumAge": "100 Years",
+          "minimumAge": "18 Years",
+          "samplingMethod": "PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Diagnosed with a health condition"
+        },
+        "identificationModule": {
+          "briefTitle": "At-Home Research Study for Patients With Autoimmune, Inflammatory, Genetic, Hematological, Infectious, Neurological, CNS, Oncological, Respiratory, Metabolic Conditions",
+          "nctId": "NCT01931644",
+          "officialTitle": "A Multi-Site Tissue Repository Providing Annotated Biospecimens for Approved Investigator-Directed Biomedical Research Initiatives",
+          "orgStudyIdInfo": {
+            "id": "SAN-BB-01"
+          },
+          "organization": {
+            "class": "INDUSTRY",
+            "fullName": "Sanguine Biosciences"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "To collect enough biospecimens and associated clinical data to allow researchers to come to statistically relevant scientific results",
+              "measure": "Biospecimen & Clinical Data Collection",
+              "timeFrame": "10 years"
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": false
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "INDUSTRY",
+            "name": "Sanguine Biosciences"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2024-04",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2024-04-18",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2024-04-16",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2024-04",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2013-07"
+          },
+          "statusVerifiedDate": "2024-04",
+          "studyFirstPostDateStruct": {
+            "date": "2013-08-29",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2013-08-23",
+          "studyFirstSubmitQcDate": "2013-08-26"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D009202",
+              "term": "Cardiomyopathies"
+            },
+            {
+              "id": "D006331",
+              "term": "Heart Diseases"
+            },
+            {
+              "id": "D002318",
+              "term": "Cardiovascular Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D009205",
+              "term": "Myocarditis"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Patients undergoing Cardiac Magnetic Resonance at baseline, 2 month, 1 year.",
+              "interventionNames": [
+                "Diagnostic Test: Cardiac Magnetic Resonance"
+              ],
+              "label": "Patients with Acute Myocarditis",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Patients with Acute Myocarditis"
+              ],
+              "description": "Additional CMR study 2 month after the initial diagnosis of acute myocarditis to assess myocardial inflammation persistence (2-month-CMR).",
+              "name": "Cardiac Magnetic Resonance",
+              "type": "DIAGNOSTIC_TEST"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Myocarditis Acute",
+            "Myocardial Inflammation"
+          ],
+          "keywords": [
+            "Cardiac Magnetic Resonance",
+            "Acute Myocarditis",
+            "Myocardial Inflammation"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Milan",
+              "country": "Italy",
+              "facility": "IRCCS San Raffaele",
+              "geoPoint": {
+                "lat": 42.78235,
+                "lon": 12.59836
+              },
+              "zip": "20132"
+            },
+            {
+              "city": "Roma",
+              "country": "Italy",
+              "facility": "Policlinico Umberto I",
+              "geoPoint": {
+                "lat": 44.99364,
+                "lon": 11.10642
+              }
+            },
+            {
+              "city": "Torino",
+              "country": "Italy",
+              "facility": "AOU Citt\u00e0 della Salute e della Scienza",
+              "geoPoint": {
+                "lat": 44.88856,
+                "lon": 11.99138
+              }
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "IRCCS San Raffaele",
+              "name": "Antonio Esposito",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Patients with acute myocarditis (AM) usually experience spontaneous healing, but a considerable percentage of them evolve towards chronic long-term cardiac impairment. The evolution towards dilated cardiomyopathy (DCM) occurs in a subtle manner, frequently after an initial recover that mimics complete healing. Differences in the course of the disease may reflect the course of underlying myocardial inflammation related to viral clearance or persistence and to the following autoimmune response.\n\nCardiac magnetic resonance (CMR) mapping parameters have been developed for the quantification of edema and necrosis, showing high diagnostic accuracy. No mapping parameter has been developed for the assessment of the third Lake Louise criteria, namely the hyperemia, and, furthermore, their prognostic role is not completely understood.\n\nThe study hypothesis is that the early-enhanced T1 mapping parameter may have great diagnostic accuracy for myocarditis, and that a short-term monitoring with a complete CMR protocol at 2 month after symptoms onset may identify the subgroup of patients at high risk of progression towards DCM.\n\nThe results of this study will help to significantly improve diagnostic performances of CMR and may help to manage patients with AM.",
+          "detailedDescription": "Background and Significance:\n\nIn patients with acute myocarditis (AM), spontaneous improvement can be observed in the majority of cases, but progression towards dilated cardiomyopathy (DCM) is a not rare outcome (around 20% of patients) (Feldmann N Engl J Med 2000;343:1388-98). Differences in the course of the disease may reflect the course of the underlying viral infection. In a large series of patients with AM submitted to two endo-myocardial biopsies (EMBs) in few months, Kuhl demonstrated that viral clearance was associated with spontaneous ejection fraction (EF) improvement, while EF did not improve or even deteriorated in patients with viral and myocardial inflammation persistence (K\u00fchl Circulation 2005;111:887-93. K\u00fchl Circulation 2005;112:1965-70). However, repeated EMBs cannot be proposed in the clinical routine and, hence, non-invasive detection of the subgroup of patients with inflammation persistence should have important implications. Today, cardiac magnetic resonance (CMR) is recognized as an accurate non-invasive imaging tool to diagnose acute myocarditis, because of its ability to detect myocardial inflammation and necrosis (Friedrich J Am Coll Cardiol 2009;53:1475-87).\n\nThe introduction of mapping techniques has significantly improved CMR sensitivity, allowing to detect both focal and diffuse involvement, with a substantial benefit in the convalescent phase where conventional Lake Louise criteria often fail.\n\nHowever, no technical development has been performed for the evaluation of Early Gadolinium Enhancement (EGE), which continues to be assessed on T1-w images, being the less robust Lake Louise criteria and eliminated from the updated Lake Louise criteria \\[Ferreira J Am Coll Cardiol 2018;72(24):3158-76.\\].\n\nTherefore, there are two major clinical needs: (a) the first being the improvement in diagnosis fulfilling the lack in technical advancement in the setting of EGE evaluation, (b) the second being risk-stratification and prediction of prognosis. The study hypothesis is that the development of a quantitative method based on T1 mapping for the assessment of EGE may be highly sensitive and specific for the diagnosis of myocarditis. Then, the assessment of early changes in CMR parameters at a short-term CMR study (2 months after symptoms onset) may have great value in outcome prediction.\n\nPreliminary data: A previous study performed on patients with chronic inflammatory cardiomyopathy demonstrated that the positivity of CMR parameters of necrosis (LGE) and inflammation (oedema) is significantly higher in patients with an active inflammation at EMB, compared to patients with borderline histological criteria (De Cobelli 2006 JACC;47:1649-54). These data suggest the possibility to detect with CMR the persistence of subtle myocardial inflammation after the acute phase in patients with myocarditis.\n\nMoreover, Wagner and Colleagues demonstrated, in a small group of patients, a correlation between CMR evidence of myocardial hyperaemia persistence 4 weeks after the onset of acute myocarditis and negative left ventricular (LV) remodelling 30 months later (Wagner A 2003 MAGMA;16:17-20).\n\nMaterials and Methods:\n\nThis is a prospective multicentre cohort study. 80 patients with diagnosis of acute myocarditis (AM) will be enrolled.\n\nAll patients admitted to Hospital with suspect of AM will be submitted to:\n\ncollection of detailed anamnesis and physical examination, 12-lead ECG, laboratory exams, transthoracic echocardiography, coronary catheterization or coronary computed tomography (CT) angiography when an ischemic cause of symptoms need to be excluded and CMR imaging within 3-5 days.\n\nCMR protocol will include Lake-Louise criteria, parametric mappings (native T1, T2 mapping and ECV), with an additional early-enhanced T1 mapping acquired 2 minutes after gadolinium injection.\n\nAll patients with clinically or EMB confirmed diagnosis of AM will be enrolled and will undergo a second CMR study 2 month later.\n\nAll patients will undergo a clinical/instrumental follow-up including: CMR assessment of LV ejection fraction and end-diastolic volume after at least 1 year from diagnosis; registration of all-cause mortality, cardiac death and aborted cardiac sudden death in patients with implantable cardioverter-defibrillator (ICD).\n\nImpact and Translational Implications:\n\nMyocarditis is characterized by significant heterogeneity of long-term evolution. CMR could play a key role in the non-invasive and early identification of patients with persistent myocardial inflammation, at high risk to evolve towards an irreversible post-myocarditis heart failure. Thus, CMR may help to design tailored management of patients. In this perspective, invasive characterization of damage mechanism and aetiology might be reserved to patients with CMR evidence of inflammation persistence."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "NA",
+            "interventionModel": "SINGLE_GROUP",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "DIAGNOSTIC"
+          },
+          "enrollmentInfo": {
+            "count": 80,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Presence of at least 1 of the subsequent clinical features \\[12\\]:\n\n  * Acute chest pain (pericarditic, or pseudo-ischaemic)\n  * New-onset dyspnoea at rest or during exercise\n  * Fatigue with or without left/right heart failure signs\n  * Palpitation or unexplained arrhythmia symptoms or syncope or aborted sudden cardiac death\n  * Unexplained cardiogenic shock\n* Associated with at least 1 of the subsequent diagnostic criteria \\[12\\]:\n\n  * Newly abnormal 12 lead ECG and/or Holter and/or stress testing, any of the following: I to III degree atrioventricular block, or bundle branch block, ST/T wave change, sinus arrest, ventricular tachycardia or fibrillation and asystole, atrial fibrillation, reduced R wave height, intraventricular conduction delay, abnormal Q waves, low voltage, frequent premature beats, supraventricular tachycardia\n  * Myocardial injury markers (elevated troponin T/Troponin I)\n  * New, otherwise unexplained left ventricular (LV) and/or right ventricular (RV) functional and/or structural abnormalities on cardiac imaging (echo/angio/CMR) compatible with acute myocarditis and excluding other diseases\n* Signed informed consent\n\nExclusion Criteria:\n\n* History of cardiomyopathies\n* Coronary artery disease (coronary catheterization or CT angiography will be performed when coronary artery disease need to be excluded in consideration of signs and symptoms)\n* ICD or pacemaker\n* Inability to hold breath or to lay down for 45 min\n* Claustrophobia\n* Recent history of alimentary/alcoholic/respiratory intoxication\n* CMR diagnostic criteria suggestive of other cardiac disease explaining signs and symptoms (e.g. myocardial infarction with patent coronary arteries, tako-tsubo syndrome)\n* Risk for nephrogenic systemic fibrosis (estimated glomerular filtration rate \\< 30 mL/min/1.73 m2)\n* History of allergic reaction to MR contrast media\n* Pregnancy or breast-feeding",
+          "healthyVolunteers": false,
+          "maximumAge": "80 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "acronym": "MIAMI",
+          "briefTitle": "CMR Evaluation of Myocardial Inflammation Persistence After Acute Myocarditis: Prognostic Relevance",
+          "nctId": "NCT03525639",
+          "officialTitle": "Cardiac Magnetic Resonance Evaluation of Myocardial Inflammation Persistence After Acute Myocarditis: Prognostic Relevance",
+          "orgStudyIdInfo": {
+            "id": "MIAMI GR-2013-02356832"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "IRCCS San Raffaele"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "T2 ratio; LGE (Late Gadolinium Enhancement); native T1 relaxation time; T2 relaxation time; extracellular volume fraction (ECV); early enhanced T1 relaxation time; baseline; 2 month; delta (2 month - baseline).",
+              "measure": "Improvement in CMR diagnosis with early enhanced T1 mapping and early changes in CMR parameters reflecting inflammation activity",
+              "timeFrame": "Baseline; 2 month"
+            },
+            {
+              "description": "Major adverse cardiac events (MACE): cardiac death; aborted sudden cardiac death; all-cause mortality.\n\nLeft ventricular end-diastolic volume (LV EDV); left ventricular ejection fraction (LVEF).",
+              "measure": "MACE and left ventricular remodelling",
+              "timeFrame": "Inclusion; 2 month"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": false
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Youn JC, Shim HS, Lee JS, Ji AY, Oh J, Hong N, Lee HS, Park S, Lee SH, Choi D, Chung N, Kang SM. Detailed pathologic evaluation on endomyocardial biopsy provides long-term prognostic information in patients with acute myocarditis. Cardiovasc Pathol. 2014 May-Jun;23(3):139-44. doi: 10.1016/j.carpath.2014.01.004. Epub 2014 Jan 17.",
+              "pmid": "24529879",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Anzini M, Merlo M, Sabbadini G, Barbati G, Finocchiaro G, Pinamonti B, Salvi A, Perkan A, Di Lenarda A, Bussani R, Bartunek J, Sinagra G. Long-term evolution and prognostic stratification of biopsy-proven active myocarditis. Circulation. 2013 Nov 26;128(22):2384-94. doi: 10.1161/CIRCULATIONAHA.113.003092. Epub 2013 Oct 1.",
+              "pmid": "24084750",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Sagar S, Liu PP, Cooper LT Jr. Myocarditis. Lancet. 2012 Feb 25;379(9817):738-47. doi: 10.1016/S0140-6736(11)60648-X. Epub 2011 Dec 18.",
+              "pmid": "22185868",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Kuhl U, Pauschinger M, Noutsias M, Seeberg B, Bock T, Lassner D, Poller W, Kandolf R, Schultheiss HP. High prevalence of viral genomes and multiple viral infections in the myocardium of adults with \"idiopathic\" left ventricular dysfunction. Circulation. 2005 Feb 22;111(7):887-93. doi: 10.1161/01.CIR.0000155616.07901.35. Epub 2005 Feb 7.",
+              "pmid": "15699250",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Kuhl U, Pauschinger M, Seeberg B, Lassner D, Noutsias M, Poller W, Schultheiss HP. Viral persistence in the myocardium is associated with progressive cardiac dysfunction. Circulation. 2005 Sep 27;112(13):1965-70. doi: 10.1161/CIRCULATIONAHA.105.548156. Epub 2005 Sep 19.",
+              "pmid": "16172268",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Friedrich MG, Sechtem U, Schulz-Menger J, Holmvang G, Alakija P, Cooper LT, White JA, Abdel-Aty H, Gutberlet M, Prasad S, Aletras A, Laissy JP, Paterson I, Filipchuk NG, Kumar A, Pauschinger M, Liu P; International Consensus Group on Cardiovascular Magnetic Resonance in Myocarditis. Cardiovascular magnetic resonance in myocarditis: A JACC White Paper. J Am Coll Cardiol. 2009 Apr 28;53(17):1475-87. doi: 10.1016/j.jacc.2009.02.007.",
+              "pmid": "19389557",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Mahrholdt H, Wagner A, Deluigi CC, Kispert E, Hager S, Meinhardt G, Vogelsberg H, Fritz P, Dippon J, Bock CT, Klingel K, Kandolf R, Sechtem U. Presentation, patterns of myocardial damage, and clinical course of viral myocarditis. Circulation. 2006 Oct 10;114(15):1581-90. doi: 10.1161/CIRCULATIONAHA.105.606509. Epub 2006 Oct 2.",
+              "pmid": "17015795",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Natale L, De Vita A, Baldari C, Meduri A, Pieroni M, Lombardo A, Crea F, Bonomo L. Correlation between clinical presentation and delayed-enhancement MRI pattern in myocarditis. Radiol Med. 2012 Dec;117(8):1309-19. doi: 10.1007/s11547-012-0790-x. Epub 2012 Feb 10. English, Italian.",
+              "pmid": "22327917",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Grun S, Schumm J, Greulich S, Wagner A, Schneider S, Bruder O, Kispert EM, Hill S, Ong P, Klingel K, Kandolf R, Sechtem U, Mahrholdt H. Long-term follow-up of biopsy-proven viral myocarditis: predictors of mortality and incomplete recovery. J Am Coll Cardiol. 2012 May 1;59(18):1604-15. doi: 10.1016/j.jacc.2012.01.007. Epub 2012 Feb 22.",
+              "pmid": "22365425",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Caforio AL, Pankuweit S, Arbustini E, Basso C, Gimeno-Blanes J, Felix SB, Fu M, Helio T, Heymans S, Jahns R, Klingel K, Linhart A, Maisch B, McKenna W, Mogensen J, Pinto YM, Ristic A, Schultheiss HP, Seggewiss H, Tavazzi L, Thiene G, Yilmaz A, Charron P, Elliott PM; European Society of Cardiology Working Group on Myocardial and Pericardial Diseases. Current state of knowledge on aetiology, diagnosis, management, and therapy of myocarditis: a position statement of the European Society of Cardiology Working Group on Myocardial and Pericardial Diseases. Eur Heart J. 2013 Sep;34(33):2636-48, 2648a-2648d. doi: 10.1093/eurheartj/eht210. Epub 2013 Jul 3.",
+              "pmid": "23824828",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "De Cobelli F, Pieroni M, Esposito A, Chimenti C, Belloni E, Mellone R, Canu T, Perseghin G, Gaudio C, Maseri A, Frustaci A, Del Maschio A. Delayed gadolinium-enhanced cardiac magnetic resonance in patients with chronic myocarditis presenting with heart failure or recurrent arrhythmias. J Am Coll Cardiol. 2006 Apr 18;47(8):1649-54. doi: 10.1016/j.jacc.2005.11.067. Epub 2006 Mar 29.",
+              "pmid": "16631005",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Wagner A, Schulz-Menger J, Dietz R, Friedrich MG. Long-term follow-up of patients paragraph sign with acute myocarditis by magnetic paragraph sign resonance imaging. MAGMA. 2003 Feb;16(1):17-20. doi: 10.1007/s10334-003-0007-7.",
+              "pmid": "12695882",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Francone M, Chimenti C, Galea N, Scopelliti F, Verardo R, Galea R, Carbone I, Catalano C, Fedele F, Frustaci A. CMR sensitivity varies with clinical presentation and extent of cell necrosis in biopsy-proven acute myocarditis. JACC Cardiovasc Imaging. 2014 Mar;7(3):254-63. doi: 10.1016/j.jcmg.2013.10.011. Epub 2014 Feb 19.",
+              "pmid": "24560214",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Frustaci A, Russo MA, Chimenti C. Randomized study on the efficacy of immunosuppressive therapy in patients with virus-negative inflammatory cardiomyopathy: the TIMIC study. Eur Heart J. 2009 Aug;30(16):1995-2002. doi: 10.1093/eurheartj/ehp249. Epub 2009 Jun 25.",
+              "pmid": "19556262",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Chimenti C, Kajstura J, Torella D, Urbanek K, Heleniak H, Colussi C, Di Meglio F, Nadal-Ginard B, Frustaci A, Leri A, Maseri A, Anversa P. Senescence and death of primitive cells and myocytes lead to premature cardiac aging and heart failure. Circ Res. 2003 Oct 3;93(7):604-13. doi: 10.1161/01.RES.0000093985.76901.AF. Epub 2003 Sep 4.",
+              "pmid": "12958145",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Yeon SB, Salton CJ, Gona P, Chuang ML, Blease SJ, Han Y, Tsao CW, Danias PG, Levy D, O'Donnell CJ, Manning WJ. Impact of age, sex, and indexation method on MR left ventricular reference values in the Framingham Heart Study offspring cohort. J Magn Reson Imaging. 2015 Apr;41(4):1038-45. doi: 10.1002/jmri.24649. Epub 2014 May 12.",
+              "pmid": "24817313",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Luetkens JA, Doerner J, Thomas DK, Dabir D, Gieseke J, Sprinkart AM, Fimmers R, Stehning C, Homsi R, Schwab JO, Schild H, Naehle CP. Acute myocarditis: multiparametric cardiac MR imaging. Radiology. 2014 Nov;273(2):383-92. doi: 10.1148/radiol.14132540. Epub 2014 Jun 6.",
+              "pmid": "24910904",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Mason JW. Myocarditis and dilated cardiomyopathy: an inflammatory link. Cardiovasc Res. 2003 Oct 15;60(1):5-10. doi: 10.1016/s0008-6363(03)00437-1.",
+              "pmid": "14522402",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Kuhl U, Pauschinger M, Schwimmbeck PL, Seeberg B, Lober C, Noutsias M, Poller W, Schultheiss HP. Interferon-beta treatment eliminates cardiotropic viruses and improves left ventricular function in patients with myocardial persistence of viral genomes and left ventricular dysfunction. Circulation. 2003 Jun 10;107(22):2793-8. doi: 10.1161/01.CIR.0000072766.67150.51. Epub 2003 May 27.",
+              "pmid": "12771005",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Frustaci A, Chimenti C, Calabrese F, Pieroni M, Thiene G, Maseri A. Immunosuppressive therapy for active lymphocytic myocarditis: virological and immunologic profile of responders versus nonresponders. Circulation. 2003 Feb 18;107(6):857-63. doi: 10.1161/01.cir.0000048147.15962.31.",
+              "pmid": "12591756",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Ferreira VM, Schulz-Menger J, Holmvang G, Kramer CM, Carbone I, Sechtem U, Kindermann I, Gutberlet M, Cooper LT, Liu P, Friedrich MG. Cardiovascular Magnetic Resonance in Nonischemic Myocardial Inflammation: Expert Recommendations. J Am Coll Cardiol. 2018 Dec 18;72(24):3158-3176. doi: 10.1016/j.jacc.2018.09.072.",
+              "pmid": "30545455",
+              "type": "BACKGROUND"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "OTHER_GOV",
+              "name": "Ministry of Health, Italy"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Antonio Esposito"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "IRCCS San Raffaele",
+            "investigatorFullName": "Antonio Esposito",
+            "investigatorTitle": "Professor",
+            "type": "SPONSOR_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2021-02-20",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2025-05-01",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2025-04-29",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2020-12-31",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2016-12-06",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2021-04",
+          "studyFirstPostDateStruct": {
+            "date": "2018-05-15",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2018-05-03",
+          "studyFirstSubmitQcDate": "2018-05-03"
+        }
+      }
+    }
+  ]
+}

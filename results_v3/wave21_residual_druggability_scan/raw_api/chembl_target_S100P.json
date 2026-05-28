@@ -1,0 +1,274 @@
+{
+  "_request_url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=S100P&limit=10",
+  "_status_code": 200,
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Protein S100-P",
+      "score": 19.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL6066932",
+      "target_components": [
+        {
+          "accession": "P25815",
+          "component_description": "Protein S100-P",
+          "component_id": 23811,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "MIG9",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Migration-inducing gene 9 protein",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Protein S100-E",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Protein S100-P",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "S100 calcium-binding protein P",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "S100E",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "S100P",
+              "syn_type": "GENE_SYMBOL"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P25815",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005654",
+              "xref_name": "nucleoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031528",
+              "xref_name": "microvillus membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0034774",
+              "xref_name": "secretory granule lumen",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0042995",
+              "xref_name": "cell projection",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0000287",
+              "xref_name": "magnesium ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005509",
+              "xref_name": "calcium ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042802",
+              "xref_name": "identical protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042803",
+              "xref_name": "protein homodimerization activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0045296",
+              "xref_name": "cadherin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046914",
+              "xref_name": "transition metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0048306",
+              "xref_name": "calcium-dependent protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0043542",
+              "xref_name": "endothelial cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:10504",
+              "xref_name": "S100P",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "P25815",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR001751",
+              "xref_name": "S100/CaBP7/8-like_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR002048",
+              "xref_name": "EF_hand_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR011992",
+              "xref_name": "EF-hand-dom_pair",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR013787",
+              "xref_name": "S100_Ca-bd_sub",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR034325",
+              "xref_name": "S-100_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11639",
+              "xref_name": "S100 CALCIUM-BINDING PROTEIN",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR11639:SF139",
+              "xref_name": "PROTEIN S100-P",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "1J55",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1OZO",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2MJW",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7NMI",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1J55",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7NMI",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF01023",
+              "xref_name": "S_100",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA34913",
+              "xref_name": "S100 calcium binding protein P",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P25815",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-6798695",
+              "xref_name": "Neutrophil degranulation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P25815",
+              "xref_name": "Protein S100-P",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q5J7W2",
+              "xref_name": "Protein S100-P",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

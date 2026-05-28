@@ -1,0 +1,39 @@
+{
+  "inputs": {
+    "ibd_wide": "results_v3/wave76_adjusted_response_specificity/ibd_wide_patient_cellstate_table.tsv",
+    "pso_prepost": "results_v3/wave18_treatment_response/wave18_gse183047_psoriasis_prepost_tests.tsv",
+    "ra_blood": "results_v3/wave18_treatment_response/wave18_gse138746_ra_sample_module_scores.tsv",
+    "ra_wide": "results_v3/wave76_adjusted_response_specificity/ra_wide_patient_table.tsv",
+    "uc_tofa": "results_v3/wave18_treatment_response/wave18_existing_gse253006_uc_summary.tsv",
+    "wave75_cross": "results_v3/wave75_response_state_stratification/cross_dataset_response_convergence.tsv",
+    "wave76_cross": "results_v3/wave76_adjusted_response_specificity/adjusted_cross_dataset_convergence.tsv"
+  },
+  "interpretation": "Parks are biomarker hypotheses only; no therapeutic target is nominated.",
+  "module_call_counts": {
+    "NO_GO_STRATIFICATION_NOT_REPLICATED": 7,
+    "NO_GO_TISSUE_SIGNAL_BLOOD_CONTRADICTION": 3,
+    "PARK_TISSUE_STRATIFICATION_SIGNAL": 2
+  },
+  "n_context_tests": 54,
+  "random_seed": 20260527,
+  "top_module": {
+    "best_blood_adjusted_effect": NaN,
+    "best_blood_adjusted_p": NaN,
+    "best_blood_oriented_auc": NaN,
+    "best_blood_system": "",
+    "best_tissue_adjusted_effect": 0.2707064440560306,
+    "best_tissue_adjusted_p": 0.03441316781972741,
+    "best_tissue_oriented_auc": 0.6861598440545809,
+    "best_tissue_system": "RA_synovium_antiTNF",
+    "blood_nominal_directions": "",
+    "blood_tissue_direction_contradiction": false,
+    "module": "lysosomal_apc__resid_inflammatory_nfkb",
+    "n_blood_nominal_auc60": 0,
+    "n_contexts": 3,
+    "n_tissue_nominal_auc60": 2,
+    "n_tissue_support_datasets": 2,
+    "tissue_direction_conflict": false,
+    "tissue_nominal_directions": "higher_in_responders",
+    "wave84_call": "PARK_TISSUE_STRATIFICATION_SIGNAL"
+  }
+}

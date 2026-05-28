@@ -1,0 +1,56 @@
+{
+  "payload": {
+    "hitCount": 10144,
+    "nextCursorMark": "AoIIQXBJRyg1NTIxNTQ5MA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=NOD2 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQXBJRyg1NTIxNTQ5MA==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "NOD2 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Chorbajian A, Glassman I, Swarna A, Mareboina M, Chen PE, Abu-Khazneh J, Tan J, Dayal S, Yazdan K, Urness B, Venketaraman V.",
+          "citedByCount": 0,
+          "doi": "10.3390/diseases14030099",
+          "firstIndexDate": "2026-03-28",
+          "firstPublicationDate": "2026-03-07",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13025366"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "N",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41892000",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "3",
+          "journalIssn": "2079-9721",
+          "journalTitle": "Diseases",
+          "journalVolume": "14",
+          "pageInfo": "99",
+          "pmcid": "PMC13025366",
+          "pmid": "41892000",
+          "pubType": "review-article; review; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Autoimmune Diseases and Mycobacterial Infection."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=NOD2+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

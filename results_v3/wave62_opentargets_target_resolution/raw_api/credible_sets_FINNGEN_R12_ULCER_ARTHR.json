@@ -1,0 +1,81 @@
+{
+  "data": {
+    "credibleSets": {
+      "count": 1,
+      "rows": [
+        {
+          "beta": 0.64781636177455,
+          "chromosome": "7",
+          "colocalisation": {
+            "count": 1,
+            "rows": [
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.004572058104521466,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.8354486326062399,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000178",
+                      "biosampleName": "blood"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "trinucleotide repeat containing 18",
+                      "approvedSymbol": "TNRC18",
+                      "id": "ENSG00000182095"
+                    },
+                    "traitFromSource": "ENSG00000182095"
+                  },
+                  "studyId": "lepik_2017_ge_blood_ensg00000182095",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              }
+            ]
+          },
+          "confidence": "SuSiE fine-mapped credible set with in-sample LD",
+          "finemappingMethod": "SuSie",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.3552490770816803,
+                "target": {
+                  "approvedName": "trinucleotide repeat containing 18",
+                  "approvedSymbol": "TNRC18",
+                  "id": "ENSG00000182095"
+                }
+              },
+              {
+                "score": 0.1361382007598877,
+                "target": {
+                  "approvedName": "solute carrier family 29 member 4",
+                  "approvedSymbol": "SLC29A4",
+                  "id": "ENSG00000164638"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -10,
+          "pValueMantissa": 3.747999906539917,
+          "position": 5397122,
+          "purityMeanR2": 0.634630306989,
+          "purityMinR2": 0.350398883025,
+          "standardError": 0.135422,
+          "studyId": "FINNGEN_R12_ULCER_ARTHR",
+          "studyLocusId": "c67e2dc8f56bd579870f1beeadf893c8",
+          "studyType": "gwas",
+          "variant": {
+            "id": "7_5397122_C_T",
+            "rsIds": [
+              "rs748670681"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

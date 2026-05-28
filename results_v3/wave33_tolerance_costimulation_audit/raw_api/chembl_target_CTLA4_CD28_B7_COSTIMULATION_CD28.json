@@ -1,0 +1,498 @@
+{
+  "payload": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "T-cell-specific surface glycoprotein CD28",
+        "score": 26.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL5191",
+        "target_components": [
+          {
+            "accession": "P10747",
+            "component_description": "T-cell-specific surface glycoprotein CD28",
+            "component_id": 3493,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "CD28",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "CD_antigen=CD28",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "T-cell-specific surface glycoprotein CD28",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TP44",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "P10747",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "GO:0001772",
+                "xref_name": "immunological synapse",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009897",
+                "xref_name": "external side of plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009986",
+                "xref_name": "cell surface",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0098636",
+                "xref_name": "protein complex involved in cell adhesion",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0015026",
+                "xref_name": "coreceptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019901",
+                "xref_name": "protein kinase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042802",
+                "xref_name": "identical protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001819",
+                "xref_name": "positive regulation of cytokine production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002863",
+                "xref_name": "positive regulation of inflammatory response to antigenic stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006955",
+                "xref_name": "immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006959",
+                "xref_name": "humoral immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007166",
+                "xref_name": "cell surface receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010628",
+                "xref_name": "positive regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010629",
+                "xref_name": "negative regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031295",
+                "xref_name": "T cell costimulation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032733",
+                "xref_name": "positive regulation of interleukin-10 production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032743",
+                "xref_name": "positive regulation of interleukin-2 production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032753",
+                "xref_name": "positive regulation of interleukin-4 production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035739",
+                "xref_name": "CD4-positive, alpha-beta T cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042098",
+                "xref_name": "T cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042102",
+                "xref_name": "positive regulation of T cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042110",
+                "xref_name": "T cell activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042129",
+                "xref_name": "regulation of T cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043066",
+                "xref_name": "negative regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043491",
+                "xref_name": "phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045060",
+                "xref_name": "negative thymic T cell selection",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045066",
+                "xref_name": "regulatory T cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045070",
+                "xref_name": "positive regulation of viral genome replication",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045589",
+                "xref_name": "regulation of regulatory T cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045727",
+                "xref_name": "positive regulation of translation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045840",
+                "xref_name": "positive regulation of mitotic nuclear division",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045944",
+                "xref_name": "positive regulation of transcription by RNA polymerase II",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048304",
+                "xref_name": "positive regulation of isotype switching to IgG isotypes",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0050852",
+                "xref_name": "T cell receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051897",
+                "xref_name": "positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097190",
+                "xref_name": "apoptotic signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000563",
+                "xref_name": "positive regulation of CD4-positive, alpha-beta T cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:1653",
+                "xref_name": "CD28",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "P10747",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR008093",
+                "xref_name": "CD28",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013106",
+                "xref_name": "Ig_V-set",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013783",
+                "xref_name": "Ig-like_fold",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036179",
+                "xref_name": "Ig-like_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR040216",
+                "xref_name": "CTLA4/CD28",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR11494",
+                "xref_name": "CYTOTOXIC T-LYMPHOCYTE PROTEIN",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR11494:SF7",
+                "xref_name": "T-CELL-SPECIFIC SURFACE GLYCOPROTEIN CD28",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "1YJD",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3WA4",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5AUL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5GJH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5GJI",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6O8D",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7PPN",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7VU5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8S6Z",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8W2V",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1YJD",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3WA4",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5AUL",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5GJH",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5GJI",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6O8D",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7PPN",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8S6Z",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF15910",
+                "xref_name": "V-set_2",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA26207",
+                "xref_name": "CD28 molecule",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "P10747",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-1257604",
+                "xref_name": "PIP3 activates AKT signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-164939",
+                "xref_name": "Nef mediated downregulation of CD28 cell surface expression",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-2219530",
+                "xref_name": "Constitutive Signaling by Aberrant PI3K in Cancer",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-389356",
+                "xref_name": "Co-stimulation by CD28",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-389357",
+                "xref_name": "CD28 dependent PI3K/Akt signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-389359",
+                "xref_name": "CD28 dependent Vav1 pathway",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-6811558",
+                "xref_name": "PI5P, PP2A and IER3 Regulate PI3K/AKT Signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "A8KAC1",
+                "xref_name": "T-cell-specific surface glycoprotein CD28",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P10747",
+                "xref_name": "T-cell-specific surface glycoprotein CD28",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q13964",
+                "xref_name": "T-cell-specific surface glycoprotein CD28",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q52M23",
+                "xref_name": "T-cell-specific surface glycoprotein CD28",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q70WG0",
+                "xref_name": "T-cell-specific surface glycoprotein CD28",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q8NI54",
+                "xref_name": "T-cell-specific surface glycoprotein CD28",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q8NI55",
+                "xref_name": "T-cell-specific surface glycoprotein CD28",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q8NI56",
+                "xref_name": "T-cell-specific surface glycoprotein CD28",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q8WXJ2",
+                "xref_name": "T-cell-specific surface glycoprotein CD28",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9BYV0",
+                "xref_name": "T-cell-specific surface glycoprotein CD28",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=CD28"
+}

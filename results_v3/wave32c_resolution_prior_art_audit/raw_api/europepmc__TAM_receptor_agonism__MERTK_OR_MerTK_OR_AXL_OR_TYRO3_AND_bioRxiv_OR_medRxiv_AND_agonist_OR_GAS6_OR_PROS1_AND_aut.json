@@ -1,0 +1,3006 @@
+{
+  "hitCount": 48,
+  "nextCursorMark": "AoIIQDOy8Sg0MDcyNzA1Ng==",
+  "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(MERTK OR MerTK OR AXL OR TYRO3) AND (bioRxiv OR medRxiv) AND (agonist OR GAS6 OR PROS1) AND autoimmune&cursorMark=AoIIQDOy8Sg0MDcyNzA1Ng==&resultType=core&pageSize=8&format=json",
+  "request": {
+    "cursorMark": "*",
+    "pageSize": 8,
+    "queryString": "(MERTK OR MerTK OR AXL OR TYRO3) AND (bioRxiv OR medRxiv) AND (agonist OR GAS6 OR PROS1) AND autoimmune",
+    "resultType": "core",
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "abstractText": "<h4>Background</h4> Infectious diseases are a major cause of mortality in spite of existing public health, anti-microbial and vaccine interventions. We aimed to define plasma proteomic associates of infection mortality and then apply Mendelian randomisation (MR) to yield biomarkers that may be causally associated. <h4>Methods</h4> We used UK Biobank plasma proteomic data to associate 2,923 plasma proteins with infection mortality before 31 st December 2019 (240 events in 52,520 participants). Since many plasma proteins also predict non-infection mortality, we focussed on those associated with >1.5-fold risk of infection mortality in an analysis excluding survivors. Protein quantitative trait scores (pQTS) were then used to identify whether genetically predicted protein levels also associated with infection mortality. To conduct Two Sample MR, we performed a genome-wide association study (GWAS) of infection mortality using UK Biobank participants without plasma proteomic data (n=363,953 including 984 infection deaths). <h4>Findings</h4> After adjusting for clinical risk factors, 1,142 plasma proteins were associated with risk of infection mortality (false discovery rate <0.05). 259 proteins were associated with >1.5-fold increased risk of infection versus non-infection mortality. Of these, we identified genetically predicted increasing MERTK concentration was associated with increased risk of infection mortality. GWAS for infection mortality revealed no SNPs achieving genome-wide statistical significance (p<5\u00d710 -8 ). However, MR supported a causal association between increasing plasma MERTK protein and infection mortality (odds ratio 1.46 per unit; 95% CI 1.15-1.85; p=0.002). <h4>Interpretation</h4> Plasma proteomics demonstrates many proteins are associated with infection mortality. MERTK warrants exploration as a potential therapeutic target.",
+        "authMan": "N",
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7844-3600"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7910-0554"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3870-8747"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4811-4774"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9376-8814"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9760-4059"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0255-4624"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1109-624X"
+            }
+          ]
+        },
+        "authorList": {
+          "author": [
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Leeds Institute of Cardiovascular and Metabolic Medicine, School of Medicine, University of Leeds, Leeds, UK"
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0255-4624"
+              },
+              "firstName": "Michael",
+              "fullName": "Drozd M",
+              "initials": "M",
+              "lastName": "Drozd"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "MRC Integrative Epidemiology Unit, University of Bristol, Bristol, UK"
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9760-4059"
+              },
+              "firstName": "Fergus",
+              "fullName": "Hamilton F",
+              "initials": "F",
+              "lastName": "Hamilton"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Leeds Institute of Cardiovascular and Metabolic Medicine, School of Medicine, University of Leeds, Leeds, UK"
+                  }
+                ]
+              },
+              "firstName": "Chew",
+              "fullName": "Cheng CW",
+              "initials": "CW",
+              "lastName": "Cheng"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Infection, Castle Hill Hospital, Hull University Hospitals NHS Trust, Kingston Upon Hull, UK"
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4811-4774"
+              },
+              "firstName": "Patrick",
+              "fullName": "Lillie PJ",
+              "initials": "PJ",
+              "lastName": "Lillie"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Leeds Institute of Cardiovascular and Metabolic Medicine, School of Medicine, University of Leeds, Leeds, UK"
+                  }
+                ]
+              },
+              "firstName": "Oliver",
+              "fullName": "Brown OI",
+              "initials": "OI",
+              "lastName": "Brown"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Leeds Institute of Cardiovascular and Metabolic Medicine, School of Medicine, University of Leeds, Leeds, UK"
+                  }
+                ]
+              },
+              "firstName": "Natalie",
+              "fullName": "Chaddock N",
+              "initials": "N",
+              "lastName": "Chaddock"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Leeds Institute of Rheumatic and Musculoskeletal Medicine, School of Medicine, University of Leeds, Leeds, UK"
+                  },
+                  {
+                    "affiliation": "NIHR Leeds Biomedical Research Centre, Leeds Teaching Hospitals NHS Trust, Chapel Allerton Hospital, Leeds, UK"
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7910-0554"
+              },
+              "firstName": "Sinisa",
+              "fullName": "Savic S",
+              "initials": "S",
+              "lastName": "Savic"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Leeds Institute of Cardiovascular and Metabolic Medicine, School of Medicine, University of Leeds, Leeds, UK"
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3870-8747"
+              },
+              "firstName": "Khalid",
+              "fullName": "Naseem K",
+              "initials": "K",
+              "lastName": "Naseem"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "NIHR Leeds Biomedical Research Centre, Leeds Teaching Hospitals NHS Trust, Chapel Allerton Hospital, Leeds, UK"
+                  },
+                  {
+                    "affiliation": "Leeds Institute of Medical Research, University of Leeds, Leeds, UK"
+                  }
+                ]
+              },
+              "firstName": "Mark",
+              "fullName": "Iles MM",
+              "initials": "MM",
+              "lastName": "Iles"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Leeds Institute of Cardiovascular and Metabolic Medicine, School of Medicine, University of Leeds, Leeds, UK"
+                  },
+                  {
+                    "affiliation": "NIHR Leeds Biomedical Research Centre, Leeds Teaching Hospitals NHS Trust, Chapel Allerton Hospital, Leeds, UK"
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1109-624X"
+              },
+              "firstName": "Ann",
+              "fullName": "Morgan AW",
+              "initials": "AW",
+              "lastName": "Morgan"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Leeds Institute of Cardiovascular and Metabolic Medicine, School of Medicine, University of Leeds, Leeds, UK"
+                  },
+                  {
+                    "affiliation": "NIHR Leeds Biomedical Research Centre, Leeds Teaching Hospitals NHS Trust, Chapel Allerton Hospital, Leeds, UK"
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9376-8814"
+              },
+              "firstName": "Mark",
+              "fullName": "Kearney MT",
+              "initials": "MT",
+              "lastName": "Kearney"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Leeds Institute of Cardiovascular and Metabolic Medicine, School of Medicine, University of Leeds, Leeds, UK"
+                  },
+                  {
+                    "affiliation": "NIHR Leeds Biomedical Research Centre, Leeds Teaching Hospitals NHS Trust, Chapel Allerton Hospital, Leeds, UK"
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7844-3600"
+              },
+              "firstName": "Richard",
+              "fullName": "Cubbon RM",
+              "initials": "RM",
+              "lastName": "Cubbon"
+            }
+          ]
+        },
+        "authorString": "Drozd M, Hamilton F, Cheng CW, Lillie PJ, Brown OI, Chaddock N, Savic S, Naseem K, Iles MM, Morgan AW, Kearney MT, Cubbon RM.",
+        "bookOrReportDetails": {
+          "publisher": "medRxiv",
+          "yearOfPublication": 2024
+        },
+        "citedByCount": 0,
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "dateOfCreation": "2024-01-23",
+        "doi": "10.1101/2024.01.21.24301569",
+        "epmcAuthMan": "Y",
+        "firstIndexDate": "2024-01-23",
+        "firstPublicationDate": "2024-01-22",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PPR790434"
+          ]
+        },
+        "fullTextReceivedDate": "2024-02-05",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.medrxiv.org/content/medrxiv/early/2024/01/22/2024.01.21.24301569.full.pdf"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1101/2024.01.21.24301569"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/article/PPR/PPR790434"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR790434&type=FILE&fileName=EMS193580-pdf.pdf&mimeType=application/pdf"
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "Y",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "N",
+        "hasLabsLinks": "Y",
+        "hasPDF": "Y",
+        "hasReferences": "Y",
+        "hasSuppl": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "hasTextMinedTerms": "Y",
+        "id": "PPR790434",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "isOpenAccess": "Y",
+        "license": "cc by",
+        "manuscriptId": "EMS193580",
+        "nihAuthMan": "N",
+        "pubTypeList": {
+          "pubType": [
+            "Preprint"
+          ]
+        },
+        "pubYear": "2024",
+        "source": "PPR",
+        "title": "Plasma proteomic associates of infection mortality in UK Biobank",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "refsnp",
+            "go"
+          ]
+        }
+      },
+      {
+        "abstractText": "Oligodendrocyte death is common in aging and neurodegenerative disease. In these conditions, dying oligodendrocytes must be efficiently removed to allow remyelination and to prevent a feedforward degenerative cascade. Removal of this cellular debris is thought to primarily be carried out by resident microglia. To investigate the cellular dynamics underlying how microglia do this, we use a single-cell cortical demyelination model combined with longitudinal intravital imaging of dual-labeled transgenic mice. Following phagocytosis, single microglia clear the targeted oligodendrocyte and its myelin sheaths in one day via a precise, rapid, and stereotyped sequence. Deletion of the fractalkine receptor, CX3CR1, delays the microglial phagocytosis of the cell soma but has no effect on clearance of myelin sheaths. Unexpectedly, deletion of the phosphatidylserine receptor, MERTK, has no effect on oligodendrocyte or myelin sheath clearance. Thus, separate molecular signals are used to detect, engage, and clear distinct sub-compartments of dying oligodendrocytes to maintain tissue homeostasis.",
+        "affiliation": "Department of Biological Sciences, Dartmouth College, Hanover, NH 03755, USA.",
+        "authMan": "Y",
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6080-8712"
+            }
+          ]
+        },
+        "authorList": {
+          "author": [
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biological Sciences, Dartmouth College, Hanover, NH 03755, USA."
+                  }
+                ]
+              },
+              "firstName": "Genaro E",
+              "fullName": "Olveda GE",
+              "initials": "GE",
+              "lastName": "Olveda"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biological Sciences, Dartmouth College, Hanover, NH 03755, USA."
+                  }
+                ]
+              },
+              "firstName": "Maryanne N",
+              "fullName": "Barasa MN",
+              "initials": "MN",
+              "lastName": "Barasa"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biological Sciences, Dartmouth College, Hanover, NH 03755, USA. Electronic address: robert.hill@dartmouth.edu."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6080-8712"
+              },
+              "firstName": "Robert A",
+              "fullName": "Hill RA",
+              "initials": "RA",
+              "lastName": "Hill"
+            }
+          ]
+        },
+        "authorString": "Olveda GE, Barasa MN, Hill RA.",
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "CX3CR1 protein, mouse",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Mertk protein, mouse",
+              "registryNumber": "EC 2.7.10.1"
+            },
+            {
+              "name": "CX3C Chemokine Receptor 1",
+              "registryNumber": "0"
+            },
+            {
+              "name": "c-Mer Tyrosine Kinase",
+              "registryNumber": "EC 2.7.10.1"
+            }
+          ]
+        },
+        "citedByCount": 15,
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "id": "38168326",
+              "orderIn": 1,
+              "reference": "bioRxiv. 2023 Dec 12:2023.12.11.570620. doi: 10.1101/2023.12.11.570620",
+              "source": "MED",
+              "type": "Update of"
+            },
+            {
+              "id": "PPR772413",
+              "note": "CrossRef Pre-print loader",
+              "orderIn": 10002,
+              "source": "PPR",
+              "type": "Preprint in"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data",
+            "related_data"
+          ]
+        },
+        "dateOfCompletion": "2024-07-29",
+        "dateOfCreation": "2024-06-27",
+        "dateOfRevision": "2025-01-17",
+        "doi": "10.1016/j.celrep.2024.114385",
+        "electronicPublicationDate": "2024-06-26",
+        "epmcAuthMan": "N",
+        "firstIndexDate": "2024-06-28",
+        "firstPublicationDate": "2024-06-26",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11304498"
+          ]
+        },
+        "fullTextReceivedDate": "2025-02-04",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.celrep.2024.114385"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11304498"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11304498?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.celrep.2024.114385"
+            }
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "acronym": "NS",
+              "agency": "NINDS NIH HHS",
+              "grantId": "R00 NS099469",
+              "orderIn": 0
+            },
+            {
+              "agency": "US Department of Education",
+              "grantId": "P200A210064",
+              "orderIn": 0
+            },
+            {
+              "agency": "NINDS",
+              "grantId": "R01NS122800",
+              "orderIn": 0
+            },
+            {
+              "agency": "Esther A &amp;amp; Joseph Klingenstein Fund",
+              "orderIn": 0
+            },
+            {
+              "agency": "NINDS",
+              "grantId": "F31NS130910",
+              "orderIn": 0
+            },
+            {
+              "acronym": "NS",
+              "agency": "NINDS NIH HHS",
+              "grantId": "R01 NS122800",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institutes of Health",
+              "orderIn": 0
+            },
+            {
+              "agency": "Brain Research Foundation",
+              "grantId": "BRFSG-2019-01",
+              "orderIn": 0
+            },
+            {
+              "acronym": "NS",
+              "agency": "NINDS NIH HHS",
+              "grantId": "F31 NS130910",
+              "orderIn": 0
+            },
+            {
+              "agency": "Simons Foundation",
+              "orderIn": 0
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "Y",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "N",
+        "hasLabsLinks": "Y",
+        "hasPDF": "Y",
+        "hasReferences": "Y",
+        "hasSuppl": "Y",
+        "hasTMAccessionNumbers": "N",
+        "hasTextMinedTerms": "Y",
+        "id": "38935500",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "isOpenAccess": "N",
+        "journalInfo": {
+          "dateOfPublication": "2024 Jul",
+          "issue": "7",
+          "journal": {
+            "essn": "2211-1247",
+            "isoabbreviation": "Cell Rep",
+            "issn": "2211-1247",
+            "medlineAbbreviation": "Cell Rep",
+            "nlmid": "101573691",
+            "title": "Cell reports"
+          },
+          "journalIssueId": 3793826,
+          "monthOfPublication": 7,
+          "printPublicationDate": "2024-07-01",
+          "volume": "43",
+          "yearOfPublication": 2024
+        },
+        "keywordList": {
+          "keyword": [
+            "Phagocytosis",
+            "demyelination",
+            "Microglia",
+            "Oligodendrocytes",
+            "Myelin",
+            "Cx3cr1",
+            "Mertk",
+            "Cp: Neuroscience"
+          ]
+        },
+        "language": "eng",
+        "license": "cc by-nc",
+        "manuscriptId": "NIHMS2007737",
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "descriptorName": "Microglia",
+              "majorTopic_YN": "Y",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "ME",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Oligodendroglia",
+              "majorTopic_YN": "Y",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "ME",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Myelin Sheath",
+              "majorTopic_YN": "N",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "ME",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Animals",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Mice, Inbred C57BL",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Mice, Transgenic",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Mice",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Cell Death",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Phagocytosis",
+              "majorTopic_YN": "Y"
+            },
+            {
+              "descriptorName": "CX3C Chemokine Receptor 1",
+              "majorTopic_YN": "Y",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "GE",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "abbreviation": "ME",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "c-Mer Tyrosine Kinase",
+              "majorTopic_YN": "Y",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "GE",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "abbreviation": "ME",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "nihAuthMan": "Y",
+        "pageInfo": "114385",
+        "pmcid": "PMC11304498",
+        "pmid": "38935500",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "pubYear": "2024",
+        "publicationStatus": "ppublish",
+        "source": "MED",
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "title": "Microglial phagocytosis of single dying oligodendrocytes is mediated by CX3CR1 but not MERTK."
+      },
+      {
+        "abstractText": "Rheumatoid arthritis (RA) is a chronic inflammatory autoimmune disease affecting peripheral joints and for which approximately 40% of the patients respond insufficiently to the available synthetic or biologic disease modifying anti-rheumatic drugs (DMARDs). The infiltration of the synovial membrane by lymphocytes and monocytes profoundly alters its homeostatic functions, leading to chronic joint inflammation and bone destruction. A better understanding of how DMARDs impact the complex synovial cell social network in relationship to response/ non-response remains an unmet need to design more targeted and active therapeutic strategies. Here, we used imaging mass cytometry (IMC) to comparatively profile more than 115,000 cells in the synovial tissue of healthy, low inflammatory osteoarthritis and matched active early treatment-na\u00efve RA patients at baseline and at 6 months after starting DMARDs treatment. We notably highlighted that tissue resident macrophages (LYVE1  + CD206  + ) in perivascular synovial niches encompassing specific subsets of vascular cells, fibroblasts and immune cells vanished in active RA but were recovered in response to DMARDs treatment. Combined ligand-receptor analysis of single-cell RNA sequencing datasets identified that IL10, C-type lectin or TAM (TYRO3, AXL and MERTK) receptors were particularly involved in the restoration of these spatial cell interactions in the context of clinical remission. In addition to providing an unprecedented synovial spatial mapping, our work uncovered novel potential cellular and molecular targets for the development of therapies for RA.  <h4>One Sentence Summary</h4>  Single-cell spatial profiling of rheumatoid arthritis synovium identifies specific cell states linked to treatment response",
+        "authMan": "N",
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0191-9479"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1519-6902"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3669-8215"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4513-6054"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4811-2365"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5072-7078"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6165-1929"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1055-2573"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3757-3999"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4064-4014"
+            }
+          ]
+        },
+        "authorList": {
+          "author": [
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Nantes Universit\u00e9, ONIRIS, CHU Nantes, INSERM, Regenerative Medicine and Skeleton, RMeS, UMR 1229, Nantes, France"
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0191-9479"
+              },
+              "firstName": "Julien",
+              "fullName": "De Lima J",
+              "initials": "J",
+              "lastName": "De Lima"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Nantes Universit\u00e9, ONIRIS, CHU Nantes, INSERM, Regenerative Medicine and Skeleton, RMeS, UMR 1229, Nantes, France"
+                  },
+                  {
+                    "affiliation": "Centre for Experimental Medicine and Rheumatology, William Harvey Research Institute, Barts and The London School of Medicine and Dentistry, Queen Mary University of London, London, United Kingdom"
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1519-6902"
+              },
+              "firstName": "Marie-Astrid",
+              "fullName": "Boutet M",
+              "initials": "M",
+              "lastName": "Boutet"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Regenerative Medicine and Biotherapy, INSERM, U1183, University of Montpellier, Montpellier, France"
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3669-8215"
+              },
+              "firstName": "Olivier",
+              "fullName": "Bortolotti O",
+              "initials": "O",
+              "lastName": "Bortolotti"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Plateforme de Cytom\u00e9trie et d\u2019Imagerie de Masse de Montpellier, Institut de Recherche en Canc\u00e9rologie de Montpellier, INSERM, University of Montpellier, Institut r\u00e9gional du Cancer de Montpellier, Montpellier, France"
+                  }
+                ]
+              },
+              "firstName": "Laure-Agn\u00e8s",
+              "fullName": "Ch\u00e9peaux L",
+              "initials": "L",
+              "lastName": "Ch\u00e9peaux"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Plateforme de Cytom\u00e9trie et d\u2019Imagerie de Masse de Montpellier, Institut de Recherche en Canc\u00e9rologie de Montpellier, INSERM, University of Montpellier, Institut r\u00e9gional du Cancer de Montpellier, Montpellier, France"
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5072-7078"
+              },
+              "firstName": "Ya\u00ebl",
+              "fullName": "Glasson Y",
+              "initials": "Y",
+              "lastName": "Glasson"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Plateforme de Cytom\u00e9trie et d\u2019Imagerie de Masse de Montpellier, Institut de Recherche en Canc\u00e9rologie de Montpellier, INSERM, University of Montpellier, Institut r\u00e9gional du Cancer de Montpellier, Montpellier, France"
+                  }
+                ]
+              },
+              "firstName": "Anne-Sophie",
+              "fullName": "Dum\u00e9 A",
+              "initials": "A",
+              "lastName": "Dum\u00e9"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Nantes Universit\u00e9, ONIRIS, CHU Nantes, INSERM, Regenerative Medicine and Skeleton, RMeS, UMR 1229, Nantes, France"
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4513-6054"
+              },
+              "firstName": "Adrien",
+              "fullName": "Le Pluart A",
+              "initials": "A",
+              "lastName": "Le Pluart"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Centre for Experimental Medicine and Rheumatology, William Harvey Research Institute, Barts and The London School of Medicine and Dentistry, Queen Mary University of London, London, United Kingdom"
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4064-4014"
+              },
+              "firstName": "Alessandra",
+              "fullName": "Nerviani A",
+              "initials": "A",
+              "lastName": "Nerviani"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Centre for Experimental Medicine and Rheumatology, William Harvey Research Institute, Barts and The London School of Medicine and Dentistry, Queen Mary University of London, London, United Kingdom"
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3757-3999"
+              },
+              "firstName": "Liliane",
+              "fullName": "Fossati-Jimack L",
+              "initials": "L",
+              "lastName": "Fossati-Jimack"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Plateforme de Cytom\u00e9trie et d\u2019Imagerie de Masse de Montpellier, Institut de Recherche en Canc\u00e9rologie de Montpellier, INSERM, University of Montpellier, Institut r\u00e9gional du Cancer de Montpellier, Montpellier, France"
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6165-1929"
+              },
+              "firstName": "Henri-Alexandre",
+              "fullName": "Michaud H",
+              "initials": "H",
+              "lastName": "Michaud"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Nantes Universit\u00e9, ONIRIS, CHU Nantes, INSERM, Regenerative Medicine and Skeleton, RMeS, UMR 1229, Nantes, France"
+                  }
+                ]
+              },
+              "firstName": "J\u00e9r\u00f4me",
+              "fullName": "Guicheux J",
+              "initials": "J",
+              "lastName": "Guicheux"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Nantes Universit\u00e9, ONIRIS, CHU Nantes, INSERM, Regenerative Medicine and Skeleton, RMeS, UMR 1229, Nantes, France"
+                  }
+                ]
+              },
+              "firstName": "Benoit Le",
+              "fullName": "Goff BL",
+              "initials": "BL",
+              "lastName": "Goff"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Centre for Experimental Medicine and Rheumatology, William Harvey Research Institute, Barts and The London School of Medicine and Dentistry, Queen Mary University of London, London, United Kingdom"
+                  },
+                  {
+                    "affiliation": "IRCCS Humanitas Research Hospital, Milan, Italy and Department of Biomedical Sciences, Humanitas University, Milan, Italy"
+                  }
+                ]
+              },
+              "firstName": "Costantino",
+              "fullName": "Pitzalis C",
+              "initials": "C",
+              "lastName": "Pitzalis"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Regenerative Medicine and Biotherapy, INSERM, U1183, University of Montpellier, Montpellier, France"
+                  }
+                ]
+              },
+              "firstName": "Gabriel",
+              "fullName": "Courties G",
+              "initials": "G",
+              "lastName": "Courties"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Regenerative Medicine and Biotherapy, INSERM, U1183, University of Montpellier, Montpellier, France"
+                  },
+                  {
+                    "affiliation": "Clinical Department for osteoarticular diseases, University hospital Lapeyronie, Montpellier, France"
+                  }
+                ]
+              },
+              "firstName": "Florence",
+              "fullName": "Apparailly F",
+              "initials": "F",
+              "lastName": "Apparailly"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Nantes Universit\u00e9, ONIRIS, CHU Nantes, INSERM, Regenerative Medicine and Skeleton, RMeS, UMR 1229, Nantes, France"
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1055-2573"
+              },
+              "firstName": "Frederic",
+              "fullName": "Blanchard F",
+              "initials": "F",
+              "lastName": "Blanchard"
+            }
+          ]
+        },
+        "authorString": "De Lima J, Boutet M, Bortolotti O, Ch\u00e9peaux L, Glasson Y, Dum\u00e9 A, Le Pluart A, Nerviani A, Fossati-Jimack L, Michaud H, Guicheux J, Goff BL, Pitzalis C, Courties G, Apparailly F, Blanchard F.",
+        "bookOrReportDetails": {
+          "publisher": "bioRxiv",
+          "yearOfPublication": 2023
+        },
+        "citedByCount": 1,
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "dateOfCreation": "2023-10-24",
+        "doi": "10.1101/2023.10.20.563040",
+        "epmcAuthMan": "Y",
+        "firstIndexDate": "2023-10-24",
+        "firstPublicationDate": "2023-10-22",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PPR745988"
+          ]
+        },
+        "fullTextReceivedDate": "2024-01-09",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.biorxiv.org/content/biorxiv/early/2023/10/22/2023.10.20.563040.full.pdf"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1101/2023.10.20.563040"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/article/PPR/PPR745988"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR745988&type=FILE&fileName=EMS190005-pdf.pdf&mimeType=application/pdf"
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "Y",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "N",
+        "hasLabsLinks": "Y",
+        "hasPDF": "Y",
+        "hasReferences": "Y",
+        "hasSuppl": "Y",
+        "hasTMAccessionNumbers": "N",
+        "hasTextMinedTerms": "Y",
+        "id": "PPR745988",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "isOpenAccess": "Y",
+        "license": "cc by-nc-nd",
+        "manuscriptId": "EMS190005",
+        "nihAuthMan": "N",
+        "pubTypeList": {
+          "pubType": [
+            "Preprint"
+          ]
+        },
+        "pubYear": "2023",
+        "source": "PPR",
+        "title": "Spatial mapping of rheumatoid arthritis synovial niches reveals specific macrophage networks associated with response to therapy"
+      },
+      {
+        "abstractText": "Identifying the origins and contributions of peripheral-derived immune cell populations following brain injury is crucial for understanding their roles in neuroinflammation and tissue repair. This study investigated the infiltration and phenotypic characteristics of skull bone marrow-derived immune cells in the murine brain after traumatic brain injury (TBI). We performed calvarium transplantation from GFP donor mice and subjected the recipients to controlled cortical impact (CCI) injury 14\u00a0days post-transplant. Confocal imaging at 3\u00a0days post-CCI revealed GFP+ calvarium-derived cells were present in the ipsilateral injured cortex, expressing CD45 and CD11b immune markers. These cells included Ly6G-positive neutrophil or Ccr2-positive monocyte identities. Calvarium-derived GFP+/Iba1+ monocyte/macrophages expressed the efferocytosis receptor MERTK and displayed engulfment of NeuN+ and cleaved caspase 3+\u00a0apoptotic cells. Phenotypic analysis showed that greater calvarium-derived monocytes/macrophages disproportionately express the anti-inflammatory arginase-1 marker than pro-inflammatory CD86. To differentiate the responses of blood- and calvarium-derived macrophages, we transplanted GFP calvarium skull bone into tdTomato bone marrow chimeric mice, then performed CCI injury 14\u00a0days post-transplant. Calvarium-derived GFP+cells predominantly infiltrated the lesion boundary, while blood-derived tdTomato+\u00a0cells dispersed throughout the lesion and peri-lesion. Compared to calvarium-derived cells, more blood-derived cells expressed pro-inflammatory CD86 and displayed altered 3D morphologic traits. These findings uniquely demonstrate that skull bone marrow-derived immune cells infiltrate the brain after injury and contribute to the neuroinflammatory milieu, representing a novel immune cell source that may be further investigated for their causal role in functional outcomes.",
+        "affiliation": "Department of Biomedical Sciences and Pathobiology, Virginia Tech, Blacksburg, VA 24061, USA; School of Neuroscience, Virginia Tech, Blacksburg, VA 24061, USA. Electronic address: solimane@vt.edu.",
+        "authMan": "Y",
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1901-6980"
+            }
+          ]
+        },
+        "authorList": {
+          "author": [
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biomedical Sciences and Pathobiology, Virginia Tech, Blacksburg, VA 24061, USA; School of Neuroscience, Virginia Tech, Blacksburg, VA 24061, USA. Electronic address: solimane@vt.edu."
+                  }
+                ]
+              },
+              "firstName": "Eman",
+              "fullName": "Soliman E",
+              "initials": "E",
+              "lastName": "Soliman"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Physiology and Aging, COM, University of Florida, Gainesville, FL 32610, USA."
+                  }
+                ]
+              },
+              "firstName": "Erwin Kristobal",
+              "fullName": "Gudenschwager Basso EK",
+              "initials": "EK",
+              "lastName": "Gudenschwager Basso"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biomedical Sciences and Pathobiology, Virginia Tech, Blacksburg, VA 24061, USA."
+                  }
+                ]
+              },
+              "firstName": "Jing",
+              "fullName": "Ju J",
+              "initials": "J",
+              "lastName": "Ju"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Translational Biology Medicine and Health Graduate Program, Virginia Tech, Blacksburg, VA 24061, USA."
+                  }
+                ]
+              },
+              "firstName": "Andrew",
+              "fullName": "Willison A",
+              "initials": "A",
+              "lastName": "Willison"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biomedical Sciences and Pathobiology, Virginia Tech, Blacksburg, VA 24061, USA; Center for Engineered Health, Virginia Tech, Blacksburg, VA 24061, USA. Electronic address: mtheus@vt.edu."
+                  }
+                ]
+              },
+              "firstName": "Michelle H",
+              "fullName": "Theus MH",
+              "initials": "MH",
+              "lastName": "Theus"
+            }
+          ]
+        },
+        "authorString": "Soliman E, Gudenschwager Basso EK, Ju J, Willison A, Theus MH.",
+        "citedByCount": 13,
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "id": "38948756",
+              "orderIn": 1,
+              "reference": "bioRxiv. 2024 Jun 22:2024.06.21.597827. doi: 10.1101/2024.06.21.597827.",
+              "source": "MED",
+              "type": "Update of"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "dateOfCompletion": "2024-12-06",
+        "dateOfCreation": "2024-09-18",
+        "dateOfRevision": "2026-01-02",
+        "doi": "10.1016/j.bbi.2024.09.023",
+        "electronicPublicationDate": "2024-09-16",
+        "embargoDate": "2026-01-01",
+        "epmcAuthMan": "N",
+        "firstIndexDate": "2024-09-19",
+        "firstPublicationDate": "2024-09-16",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11624077"
+          ]
+        },
+        "fullTextReceivedDate": "2026-01-01",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.bbi.2024.09.023"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11624077"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11624077?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.bbi.2024.09.023"
+            }
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "acronym": "NS",
+              "agency": "NINDS NIH HHS",
+              "grantId": "R01 NS119540",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIH",
+              "grantId": "R01NS121103",
+              "orderIn": 0
+            },
+            {
+              "acronym": "NS",
+              "agency": "NINDS NIH HHS",
+              "grantId": "R01 NS121103",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute of Neurological Disorders and Stroke",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIH",
+              "grantId": "R01NS119540",
+              "orderIn": 0
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "Y",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "N",
+        "hasLabsLinks": "Y",
+        "hasPDF": "Y",
+        "hasReferences": "Y",
+        "hasSuppl": "Y",
+        "hasTMAccessionNumbers": "N",
+        "hasTextMinedTerms": "Y",
+        "id": "39293691",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "isOpenAccess": "N",
+        "journalInfo": {
+          "dateOfPublication": "2025 Jan",
+          "journal": {
+            "essn": "1090-2139",
+            "isoabbreviation": "Brain Behav Immun",
+            "issn": "0889-1591",
+            "medlineAbbreviation": "Brain Behav Immun",
+            "nlmid": "8800478",
+            "title": "Brain, behavior, and immunity"
+          },
+          "journalIssueId": 3866344,
+          "monthOfPublication": 1,
+          "printPublicationDate": "2025-01-01",
+          "volume": "123",
+          "yearOfPublication": 2025
+        },
+        "keywordList": {
+          "keyword": [
+            "neuroinflammation",
+            "innate immune response",
+            "Controlled Cortical Impact",
+            "Blood-derived Monocytes",
+            "Calvarium Bone",
+            "Skull-derived Monocytes"
+          ]
+        },
+        "language": "eng",
+        "manuscriptId": "NIHMS2025454",
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "descriptorName": "Skull",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Cerebral Cortex",
+              "majorTopic_YN": "Y",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "IM",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "abbreviation": "ME",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "abbreviation": "PA",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Monocytes",
+              "majorTopic_YN": "N",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "IM",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "abbreviation": "ME",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Bone Marrow Cells",
+              "majorTopic_YN": "N",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "ME",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Macrophages",
+              "majorTopic_YN": "Y",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "IM",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "abbreviation": "ME",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Animals",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Mice, Inbred C57BL",
+              "majorTopic_YN": "Y"
+            },
+            {
+              "descriptorName": "Mice",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Inflammation",
+              "majorTopic_YN": "N",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "IM",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "abbreviation": "ME",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Bone Marrow Transplantation",
+              "majorTopic_YN": "N",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "MT",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Male",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Brain Injuries, Traumatic",
+              "majorTopic_YN": "Y",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "IM",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "abbreviation": "ME",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "abbreviation": "PA",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Neuroinflammatory Diseases",
+              "majorTopic_YN": "N",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "IM",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "abbreviation": "ME",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "nihAuthMan": "Y",
+        "pageInfo": "244-253",
+        "pmcid": "PMC11624077",
+        "pmid": "39293691",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "pubYear": "2025",
+        "publicationStatus": "ppublish",
+        "source": "MED",
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "title": "Skull bone marrow-derived immune cells infiltrate the injured cerebral cortex and exhibit anti-inflammatory properties."
+      },
+      {
+        "abstractText": "Systemic lupus erythematosus (SLE) is an autoimmune disease, the pathophysiology and genetic basis of which are incompletely understood. Using a forward genetic screen in multiplex families with SLE, we identified an association between SLE and compound heterozygous deleterious variants in the non-receptor tyrosine kinases (NRTKs) <i>ACK1</i> and <i>BRK</i>. Experimental blockade of ACK1 or BRK increased circulating autoantibodies in vivo in mice and exacerbated glomerular IgG deposits in an SLE mouse model. Mechanistically, NRTKs regulate activation, migration, and proliferation of immune cells. We found that the patients' <i>ACK1</i> and <i>BRK</i> variants impair efferocytosis, the MERTK-mediated anti-inflammatory response to apoptotic cells, in human induced pluripotent stem cell (hiPSC)-derived macrophages, which may contribute to SLE pathogenesis. Overall, our data suggest that ACK1 and BRK deficiencies are associated with human SLE and impair efferocytosis in macrophages.",
+        "affiliation": "Immunology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, United States.",
+        "authMan": "N",
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5029-2468"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8909-6800"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9758-8426"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6312-0080"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7782-4169"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9038-6765"
+            }
+          ]
+        },
+        "authorList": {
+          "author": [
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Immunology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, United States."
+                  },
+                  {
+                    "affiliation": "Ecole doctorale Bio Sorbonne Paris Cit\u00e9, Universit\u00e9 Paris Descartes-Sorbonne Paris Cit\u00e9, Paris, France."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9038-6765"
+              },
+              "firstName": "Stephanie",
+              "fullName": "Guillet S",
+              "initials": "S",
+              "lastName": "Guillet"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Immunology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, United States."
+                  },
+                  {
+                    "affiliation": "Immunology and Microbial Pathogenesis Program, Weill Cornell Graduate School of Medical Sciences, New York, United States."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6312-0080"
+              },
+              "firstName": "Tomi",
+              "fullName": "Lazarov T",
+              "initials": "T",
+              "lastName": "Lazarov"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Centre for Molecular and Cellular Biology of Inflammation (CMCBI), King's College London and Louise Coote Lupus Unit, Guy's and Thomas' Hospitals, London, United Kingdom."
+                  }
+                ]
+              },
+              "firstName": "Natasha",
+              "fullName": "Jordan N",
+              "initials": "N",
+              "lastName": "Jordan"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "St. Giles Laboratory of Human Genetics of Infectious Diseases, Rockefeller Branch, The Rockefeller University, New York, United States."
+                  },
+                  {
+                    "affiliation": "University of Paris Cit\u00e9, Imagine Institute, Paris, France."
+                  }
+                ]
+              },
+              "firstName": "Bertrand",
+              "fullName": "Boisson B",
+              "initials": "B",
+              "lastName": "Boisson"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Immunology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, United States."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8909-6800"
+              },
+              "firstName": "Maria",
+              "fullName": "Tello M",
+              "initials": "M",
+              "lastName": "Tello"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "SKI Stem Cell Research Core, Memorial Sloan Kettering Cancer Center, New York, United States."
+                  }
+                ]
+              },
+              "firstName": "Barbara",
+              "fullName": "Craddock B",
+              "initials": "B",
+              "lastName": "Craddock"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "SKI Stem Cell Research Core, Memorial Sloan Kettering Cancer Center, New York, United States."
+                  }
+                ]
+              },
+              "firstName": "Ting",
+              "fullName": "Zhou T",
+              "initials": "T",
+              "lastName": "Zhou"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Biochemistry & Immunology, World Premier International Immunology Frontier Research Center, Osaka University, Osaka, Japan."
+                  }
+                ]
+              },
+              "firstName": "Chihiro",
+              "fullName": "Nishi C",
+              "initials": "C",
+              "lastName": "Nishi"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cary and Israel Englander Institute for Precision Medicine, Institute for Computational Biomedicine, Meyer Cancer Center Weill Cornell Medical College, New York, United States."
+                  }
+                ]
+              },
+              "firstName": "Rohan",
+              "fullName": "Bareja R",
+              "initials": "R",
+              "lastName": "Bareja"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Immunology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, United States."
+                  }
+                ]
+              },
+              "firstName": "Hairu",
+              "fullName": "Yang H",
+              "initials": "H",
+              "lastName": "Yang"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "University of Paris Cit\u00e9, Imagine Institute, Paris, France."
+                  }
+                ]
+              },
+              "firstName": "Frederic",
+              "fullName": "Rieux-Laucat F",
+              "initials": "F",
+              "lastName": "Rieux-Laucat"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "University of La Laguna, San Crist\u00f3bal de La Laguna, Spain."
+                  }
+                ]
+              },
+              "firstName": "Rosa Irene",
+              "fullName": "Fregel Lorenzo RI",
+              "initials": "RI",
+              "lastName": "Fregel Lorenzo"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biosciences and Ocean Studies, Faculty of Science, University of Mauritius, Reduit, Mauritius."
+                  }
+                ]
+              },
+              "firstName": "Sabrina D",
+              "fullName": "Dyall SD",
+              "initials": "SD",
+              "lastName": "Dyall"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bioinformatics Core, Memorial Sloan Kettering Cancer Center, New York, United States."
+                  }
+                ]
+              },
+              "firstName": "David",
+              "fullName": "Isenberg D",
+              "initials": "D",
+              "lastName": "Isenberg"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Centre for Molecular and Cellular Biology of Inflammation (CMCBI), King's College London and Louise Coote Lupus Unit, Guy's and Thomas' Hospitals, London, United Kingdom."
+                  }
+                ]
+              },
+              "firstName": "David",
+              "fullName": "D'Cruz D",
+              "initials": "D",
+              "lastName": "D'Cruz"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Centre for Rheumatology, Division of Medicine, University College London, The Rayne Building, London, United Kingdom."
+                  }
+                ]
+              },
+              "firstName": "Nico",
+              "fullName": "Lachmann N",
+              "initials": "N",
+              "lastName": "Lachmann"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cary and Israel Englander Institute for Precision Medicine, Institute for Computational Biomedicine, Meyer Cancer Center Weill Cornell Medical College, New York, United States."
+                  }
+                ]
+              },
+              "firstName": "Olivier",
+              "fullName": "Elemento O",
+              "initials": "O",
+              "lastName": "Elemento"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Experimental Hematology, REBIRTH Cluster of Excellence, Hannover Medical School, Hannover, Germany."
+                  }
+                ]
+              },
+              "firstName": "Agnes",
+              "fullName": "Viale A",
+              "initials": "A",
+              "lastName": "Viale"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institute of Experimental Hematology, REBIRTH Cluster of Excellence, Hannover Medical School, Hannover, Germany."
+                  },
+                  {
+                    "affiliation": "Marie-Jos\u00e9e & Henry R. Kravis Center for Molecular Oncology, Memorial Sloan Kettering Cancer Center, New York, United States."
+                  }
+                ]
+              },
+              "firstName": "Nicholas D",
+              "fullName": "Socci ND",
+              "initials": "ND",
+              "lastName": "Socci"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "St. Giles Laboratory of Human Genetics of Infectious Diseases, Rockefeller Branch, The Rockefeller University, New York, United States."
+                  },
+                  {
+                    "affiliation": "University of Paris Cit\u00e9, Imagine Institute, Paris, France."
+                  }
+                ]
+              },
+              "firstName": "Laurent",
+              "fullName": "Abel L",
+              "initials": "L",
+              "lastName": "Abel"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Laboratory of Biochemistry & Immunology, World Premier International Immunology Frontier Research Center, Osaka University, Osaka, Japan."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9758-8426"
+              },
+              "firstName": "Shigekazu",
+              "fullName": "Nagata S",
+              "initials": "S",
+              "lastName": "Nagata"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Immunology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, United States."
+                  }
+                ]
+              },
+              "firstName": "Morgan",
+              "fullName": "Huse M",
+              "initials": "M",
+              "lastName": "Huse"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Marie-Jos\u00e9e & Henry R. Kravis Center for Molecular Oncology, Memorial Sloan Kettering Cancer Center, New York, United States."
+                  },
+                  {
+                    "affiliation": "Department of Physiology and Biophysics, Stony Brook University School of Medicine, Stony Brook, United States."
+                  }
+                ]
+              },
+              "firstName": "W Todd",
+              "fullName": "Miller WT",
+              "initials": "WT",
+              "lastName": "Miller"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "St. Giles Laboratory of Human Genetics of Infectious Diseases, Rockefeller Branch, The Rockefeller University, New York, United States."
+                  },
+                  {
+                    "affiliation": "University of Paris Cit\u00e9, Imagine Institute, Paris, France."
+                  },
+                  {
+                    "affiliation": "Howard Hughes Medical Institute, New York, United States."
+                  },
+                  {
+                    "affiliation": "Lab of Human Genetics of Infectious Diseases, INSERM, Necker Hospital for Sick Children, Paris, France."
+                  },
+                  {
+                    "affiliation": "Department of Pediatrics, Necker Hospital for Sick Children, Paris, France."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7782-4169"
+              },
+              "firstName": "Jean-Laurent",
+              "fullName": "Casanova JL",
+              "initials": "JL",
+              "lastName": "Casanova"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Immunology Program, Sloan Kettering Institute, Memorial Sloan Kettering Cancer Center, New York, United States."
+                  },
+                  {
+                    "affiliation": "Immunology and Microbial Pathogenesis Program, Weill Cornell Graduate School of Medical Sciences, New York, United States."
+                  },
+                  {
+                    "affiliation": "Centre for Molecular and Cellular Biology of Inflammation (CMCBI), King's College London and Louise Coote Lupus Unit, Guy's and Thomas' Hospitals, London, United Kingdom."
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5029-2468"
+              },
+              "firstName": "Fr\u00e9d\u00e9ric",
+              "fullName": "Geissmann F",
+              "initials": "F",
+              "lastName": "Geissmann"
+            }
+          ]
+        },
+        "authorString": "Guillet S, Lazarov T, Jordan N, Boisson B, Tello M, Craddock B, Zhou T, Nishi C, Bareja R, Yang H, Rieux-Laucat F, Fregel Lorenzo RI, Dyall SD, Isenberg D, D'Cruz D, Lachmann N, Elemento O, Viale A, Socci ND, Abel L, Nagata S, Huse M, Miller WT, Casanova JL, Geissmann F.",
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Autoantibodies",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Protein-Tyrosine Kinases",
+              "registryNumber": "EC 2.7.10.1"
+            },
+            {
+              "name": "c-Mer Tyrosine Kinase",
+              "registryNumber": "EC 2.7.10.1"
+            }
+          ]
+        },
+        "citedByCount": 6,
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "id": "38883731",
+              "orderIn": 1,
+              "reference": "medRxiv. 2024 Jun 05:2024.02.15.24302255. doi: 10.1101/2024.02.15.24302255",
+              "source": "MED",
+              "type": "Update of"
+            },
+            {
+              "id": "PPR807676",
+              "note": "CrossRef Pre-print loader",
+              "orderIn": 10002,
+              "source": "PPR",
+              "type": "Preprint in"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "dateOfCompletion": "2024-11-21",
+        "dateOfCreation": "2024-11-21",
+        "dateOfRevision": "2025-01-04",
+        "doi": "10.7554/elife.96085",
+        "electronicPublicationDate": "2024-11-21",
+        "epmcAuthMan": "N",
+        "firstIndexDate": "2024-11-21",
+        "firstPublicationDate": "2024-11-21",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11581429"
+          ]
+        },
+        "fullTextReceivedDate": "2025-02-05",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.7554/elife.96085"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.7554/eLife.96085"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11581429"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11581429?pdf=render"
+            }
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Institute of Allergy and Infectious Diseases",
+              "grantId": "5R01AI124349-03",
+              "orderIn": 0
+            },
+            {
+              "agency": "Fondation pour la Recherche M\u00e9dicale",
+              "grantId": "DEA20140630127",
+              "orderIn": 0
+            },
+            {
+              "agency": "Core Research for Evolutional Science and Technology",
+              "grantId": "JPMJCR14M4",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Cancer Institute",
+              "grantId": "P30CA008748",
+              "orderIn": 0
+            },
+            {
+              "agency": "Grants-in-Aid for Scientific Research",
+              "grantId": "No. 15H05785",
+              "orderIn": 0
+            },
+            {
+              "agency": "Assistance Publique - H\u00f4pitaux de Paris",
+              "grantId": "Annee Recherche",
+              "orderIn": 0
+            },
+            {
+              "acronym": "CA",
+              "agency": "NCI NIH HHS",
+              "grantId": "CA58530",
+              "orderIn": 0
+            },
+            {
+              "acronym": "CA",
+              "agency": "NCI NIH HHS",
+              "grantId": "P30 CA008748",
+              "orderIn": 0
+            },
+            {
+              "acronym": "CA",
+              "agency": "NCI NIH HHS",
+              "grantId": "P30CA008748",
+              "orderIn": 0
+            },
+            {
+              "acronym": "AI",
+              "agency": "NIAID NIH HHS",
+              "grantId": "R01 AI087644",
+              "orderIn": 0
+            },
+            {
+              "acronym": "AI",
+              "agency": "NIAID NIH HHS",
+              "grantId": "R01 AI164424",
+              "orderIn": 0
+            },
+            {
+              "acronym": "CA",
+              "agency": "NCI NIH HHS",
+              "grantId": "R01 CA058530",
+              "orderIn": 0
+            },
+            {
+              "acronym": "AI",
+              "agency": "NIAID NIH HHS",
+              "grantId": "R01 AI124349",
+              "orderIn": 0
+            },
+            {
+              "acronym": "AI",
+              "agency": "NIAID NIH HHS",
+              "grantId": "R01 AI130345",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute of Allergy and Infectious Diseases",
+              "grantId": "R01-AI087644",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Cancer Institute",
+              "grantId": "CA58530",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute of Allergy and Infectious Diseases",
+              "grantId": "1R01AI130345-01",
+              "orderIn": 0
+            },
+            {
+              "acronym": "ARC_",
+              "agency": "Versus Arthritis",
+              "grantId": "Fellowship",
+              "orderIn": 0
+            },
+            {
+              "agency": "European Federation of Internal Medicine",
+              "orderIn": 0
+            },
+            {
+              "agency": "Graham Hughes Clinical Research Fellowship",
+              "orderIn": 0
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "Y",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "N",
+        "hasLabsLinks": "Y",
+        "hasPDF": "Y",
+        "hasReferences": "Y",
+        "hasSuppl": "Y",
+        "hasTMAccessionNumbers": "Y",
+        "hasTextMinedTerms": "Y",
+        "id": "39570652",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "isOpenAccess": "Y",
+        "journalInfo": {
+          "dateOfPublication": "2024 Nov",
+          "journal": {
+            "essn": "2050-084X",
+            "isoabbreviation": "Elife",
+            "issn": "2050-084X",
+            "medlineAbbreviation": "Elife",
+            "nlmid": "101579614",
+            "title": "eLife"
+          },
+          "journalIssueId": 3844946,
+          "monthOfPublication": 11,
+          "printPublicationDate": "2024-11-01",
+          "volume": "13",
+          "yearOfPublication": 2024
+        },
+        "keywordList": {
+          "keyword": [
+            "Human",
+            "Genetics",
+            "Mouse",
+            "Systemic lupus",
+            "Inflammation",
+            "Genomics",
+            "Genetic diseases",
+            "immunology",
+            "Brk",
+            "Ack1"
+          ]
+        },
+        "language": "eng",
+        "license": "cc by",
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "descriptorName": "Macrophages",
+              "majorTopic_YN": "Y",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "ME",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Animals",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Humans",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Mice",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Lupus Erythematosus, Systemic",
+              "majorTopic_YN": "Y",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "GE",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Disease Models, Animal",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Autoantibodies",
+              "majorTopic_YN": "N",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "IM",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "immunology"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Phagocytosis",
+              "majorTopic_YN": "Y"
+            },
+            {
+              "descriptorName": "Adult",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Female",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Male",
+              "majorTopic_YN": "N"
+            },
+            {
+              "descriptorName": "Protein-Tyrosine Kinases",
+              "majorTopic_YN": "N",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "GE",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "abbreviation": "ME",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "c-Mer Tyrosine Kinase",
+              "majorTopic_YN": "N",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "abbreviation": "GE",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "abbreviation": "ME",
+                    "majorTopic_YN": "N",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "descriptorName": "Efferocytosis",
+              "majorTopic_YN": "N"
+            }
+          ]
+        },
+        "nihAuthMan": "N",
+        "pageInfo": "RP96085",
+        "pmcid": "PMC11581429",
+        "pmid": "39570652",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "pubYear": "2024",
+        "publicationStatus": "epublish",
+        "source": "MED",
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "title": "ACK1 and BRK non-receptor tyrosine kinase deficiencies are associated with familial systemic lupus and involved in efferocytosis.",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "geo",
+            "gen",
+            "ensembl",
+            "uniprot",
+            "pdb"
+          ]
+        }
+      },
+      {
+        "abstractText": "Heparan sulfate (HS) proteoglycans are important regulators of cellular responses to soluble mediators such as chemokines, cytokines and growth factors. We profiled changes in expression of genes encoding HS core proteins, biosynthesis enzymes and modifiers during macrophage polarisation, and found that the most highly regulated gene was  Sulf2 , an extracellular HS 6-O-sulfatase that was markedly downregulated in response to pro-inflammatory stimuli. We then generated  Sulf2 +/- bone marrow chimeric mice and examined inflammatory responses in antigen-induced arthritis, as a model of rheumatoid arthritis. Resolution of inflammation was impaired in myeloid  Sulf2 +/- chimeras, with elevated joint swelling and increased abundance of pro-arthritic Th17 cells in synovial tissue. Transcriptomic and  in vitro analyses indicated that  Sulf2 deficiency increased type I interferon signaling in bone marrow-derived macrophages, leading to elevated expression of the Th17-inducing cytokine IL-6. This establishes that dynamic remodeling of HS by  Sulf2 limits type I interferon signaling in macrophages, and so protects against Th17-driven pathology.",
+        "authMan": "N",
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3620-4983"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0939-4651"
+            }
+          ]
+        },
+        "authorList": {
+          "author": [
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Kennedy Institute of Rheumatology, Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences, University of Oxford, Roosevelt Drive, Headington, Oxford, OX3 7FY, UK"
+                  }
+                ]
+              },
+              "firstName": "Maarten",
+              "fullName": "Swart M",
+              "initials": "M",
+              "lastName": "Swart"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Physiology, Anatomy & Genetics, University of Oxford, Sherrington Building, Oxford, OX1 3PT, UK"
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3620-4983"
+              },
+              "firstName": "Andia",
+              "fullName": "Redpath A",
+              "initials": "A",
+              "lastName": "Redpath"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Kennedy Institute of Rheumatology, Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences, University of Oxford, Roosevelt Drive, Headington, Oxford, OX3 7FY, UK"
+                  }
+                ]
+              },
+              "firstName": "Joy",
+              "fullName": "Ogbechi J",
+              "initials": "J",
+              "lastName": "Ogbechi"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Norwich Medical School, University of East Anglia, Bob Champion Research and Education Building, Rosalind Franklin Road, Norwich, NR4 7UQ, UK"
+                  }
+                ]
+              },
+              "firstName": "Ryan",
+              "fullName": "Cardenas R",
+              "initials": "R",
+              "lastName": "Cardenas"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Kennedy Institute of Rheumatology, Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences, University of Oxford, Roosevelt Drive, Headington, Oxford, OX3 7FY, UK"
+                  }
+                ]
+              },
+              "firstName": "Louise",
+              "fullName": "Topping L",
+              "initials": "L",
+              "lastName": "Topping"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Kennedy Institute of Rheumatology, Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences, University of Oxford, Roosevelt Drive, Headington, Oxford, OX3 7FY, UK"
+                  }
+                ]
+              },
+              "firstName": "Ewoud",
+              "fullName": "Compeer EB",
+              "initials": "EB",
+              "lastName": "Compeer"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Kennedy Institute of Rheumatology, Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences, University of Oxford, Roosevelt Drive, Headington, Oxford, OX3 7FY, UK"
+                  }
+                ]
+              },
+              "firstName": "Michael",
+              "fullName": "Goddard M",
+              "initials": "M",
+              "lastName": "Goddard"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Kennedy Institute of Rheumatology, Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences, University of Oxford, Roosevelt Drive, Headington, Oxford, OX3 7FY, UK"
+                  }
+                ]
+              },
+              "firstName": "Anastasios",
+              "fullName": "Chanalaris A",
+              "initials": "A",
+              "lastName": "Chanalaris"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Kennedy Institute of Rheumatology, Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences, University of Oxford, Roosevelt Drive, Headington, Oxford, OX3 7FY, UK"
+                  }
+                ]
+              },
+              "firstName": "Richard",
+              "fullName": "Williams R",
+              "initials": "R",
+              "lastName": "Williams"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Norwich Medical School, University of East Anglia, Bob Champion Research and Education Building, Rosalind Franklin Road, Norwich, NR4 7UQ, UK"
+                  }
+                ]
+              },
+              "firstName": "Daniel",
+              "fullName": "Brewer DS",
+              "initials": "DS",
+              "lastName": "Brewer"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Physiology, Anatomy & Genetics, University of Oxford, Sherrington Building, Oxford, OX1 3PT, UK"
+                  }
+                ]
+              },
+              "firstName": "Nicola",
+              "fullName": "Smart N",
+              "initials": "N",
+              "lastName": "Smart"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Kennedy Institute of Rheumatology, Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences, University of Oxford, Roosevelt Drive, Headington, Oxford, OX3 7FY, UK"
+                  }
+                ]
+              },
+              "firstName": "Claudia",
+              "fullName": "Monaco C",
+              "initials": "C",
+              "lastName": "Monaco"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Kennedy Institute of Rheumatology, Nuffield Department of Orthopaedics, Rheumatology and Musculoskeletal Sciences, University of Oxford, Roosevelt Drive, Headington, Oxford, OX3 7FY, UK"
+                  },
+                  {
+                    "affiliation": "Norwich Medical School, University of East Anglia, Bob Champion Research and Education Building, Rosalind Franklin Road, Norwich, NR4 7UQ, UK"
+                  }
+                ]
+              },
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0939-4651"
+              },
+              "firstName": "Linda",
+              "fullName": "Troeberg L",
+              "initials": "L",
+              "lastName": "Troeberg"
+            }
+          ]
+        },
+        "authorString": "Swart M, Redpath A, Ogbechi J, Cardenas R, Topping L, Compeer EB, Goddard M, Chanalaris A, Williams R, Brewer DS, Smart N, Monaco C, Troeberg L.",
+        "bookOrReportDetails": {
+          "publisher": "bioRxiv",
+          "yearOfPublication": 2024
+        },
+        "citedByCount": 0,
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "id": "39141086",
+              "note": "CrossRef Pre-print loader",
+              "orderIn": 10001,
+              "reference": "Cellular and molecular life sciences : CMLS. 2024 Aug;81(1):350",
+              "source": "MED",
+              "type": "Preprint of"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "dateOfCreation": "2024-03-19",
+        "doi": "10.1101/2024.03.13.584823",
+        "epmcAuthMan": "Y",
+        "firstIndexDate": "2024-03-19",
+        "firstPublicationDate": "2024-03-14",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PPR823048"
+          ]
+        },
+        "fullTextReceivedDate": "2024-04-01",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.biorxiv.org/content/biorxiv/early/2024/03/14/2024.03.13.584823.full.pdf"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1101/2024.03.13.584823"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/article/PPR/PPR823048"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR823048&type=FILE&fileName=EMS194823-pdf.pdf&mimeType=application/pdf"
+            }
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Versus Arthritis",
+              "grantId": "21245",
+              "orderIn": 0
+            },
+            {
+              "agency": "European Research Council",
+              "grantId": "670930",
+              "orderIn": 0
+            },
+            {
+              "agency": "Versus Arthritis",
+              "grantId": "20887",
+              "orderIn": 0
+            },
+            {
+              "agency": "British Heart Foundation",
+              "grantId": "PG/16/27/32114",
+              "orderIn": 0
+            },
+            {
+              "agency": "British Heart Foundation",
+              "grantId": "RM/13/3/30159",
+              "orderIn": 0
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "Y",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "N",
+        "hasLabsLinks": "Y",
+        "hasPDF": "Y",
+        "hasReferences": "N",
+        "hasSuppl": "Y",
+        "hasTMAccessionNumbers": "N",
+        "hasTextMinedTerms": "Y",
+        "id": "PPR823048",
+        "inEPMC": "Y",
+        "inPMC": "N",
+        "isOpenAccess": "Y",
+        "license": "cc by-nc-nd",
+        "manuscriptId": "EMS194823",
+        "nihAuthMan": "N",
+        "pubTypeList": {
+          "pubType": [
+            "Preprint"
+          ]
+        },
+        "pubYear": "2024",
+        "source": "PPR",
+        "title": "The extracellular heparan sulfatase SULF2 limits myeloid IFN\u03b2 signaling and Th17 responses in inflammatory arthritis"
+      },
+      {
+        "abstractText": "Targeted therapeutics for the treatment of coronavirus disease 2019 (COVID-19), especially severe cases, are currently lacking. As macrophages have unique effector functions as a first-line defense against invading pathogens, we genetically armed human macrophages with chimeric antigen receptors (CARs) to reprogram their phagocytic activity against SARS-CoV-2. After investigation of CAR constructs with different intracellular receptor domains, we found that although cytosolic domains from MERTK (CAR  MERTK ) did not trigger antigen-specific cellular phagocytosis or killing effects, unlike those from MEGF10, FcR\u03b3 and CD3\u03b6 did, these CARs all mediated similar SARS-CoV-2 clearance in vitro. Notably, we showed that CAR  MERTK macrophages reduced the virion load without upregulation of proinflammatory cytokine expression. These results suggest that CAR  MERTK drives an \u2018immunologically silent\u2019 scavenger effect in macrophages and pave the way for further investigation of CARs for the treatment of individuals with COVID-19, particularly those with severe cases at a high risk of hyperinflammation.",
+        "authMan": "N",
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7905-4284"
+            }
+          ]
+        },
+        "authorList": {
+          "author": [
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biophysics, College of Basic Medical Sciences, Second Military Medical University, Shanghai 200433, China"
+                  },
+                  {
+                    "affiliation": "Team SMMU-China of the International Genetically Engineered Machine (iGEM) competition, Department of Biophysics, Second Military Medical University, Shanghai 200433, China"
+                  },
+                  {
+                    "affiliation": "Department of Assisted Reproduction, Shanghai Ninth People\u2019s Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai 200011, China"
+                  }
+                ]
+              },
+              "firstName": "Wenyan",
+              "fullName": "Fu W",
+              "initials": "W",
+              "lastName": "Fu"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biophysics, College of Basic Medical Sciences, Second Military Medical University, Shanghai 200433, China"
+                  },
+                  {
+                    "affiliation": "Team SMMU-China of the International Genetically Engineered Machine (iGEM) competition, Department of Biophysics, Second Military Medical University, Shanghai 200433, China"
+                  }
+                ]
+              },
+              "firstName": "Changhai",
+              "fullName": "Lei C",
+              "initials": "C",
+              "lastName": "Lei"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biophysics, College of Basic Medical Sciences, Second Military Medical University, Shanghai 200433, China"
+                  },
+                  {
+                    "affiliation": "Team SMMU-China of the International Genetically Engineered Machine (iGEM) competition, Department of Biophysics, Second Military Medical University, Shanghai 200433, China"
+                  }
+                ]
+              },
+              "firstName": "Kewen",
+              "fullName": "Qian K",
+              "initials": "K",
+              "lastName": "Qian"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biophysics, College of Basic Medical Sciences, Second Military Medical University, Shanghai 200433, China"
+                  }
+                ]
+              },
+              "firstName": "Zetong",
+              "fullName": "Ma Z",
+              "initials": "Z",
+              "lastName": "Ma"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biophysics, College of Basic Medical Sciences, Second Military Medical University, Shanghai 200433, China"
+                  },
+                  {
+                    "affiliation": "Team SMMU-China of the International Genetically Engineered Machine (iGEM) competition, Department of Biophysics, Second Military Medical University, Shanghai 200433, China"
+                  }
+                ]
+              },
+              "firstName": "Tian",
+              "fullName": "Li T",
+              "initials": "T",
+              "lastName": "Li"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biophysics, College of Basic Medical Sciences, Second Military Medical University, Shanghai 200433, China"
+                  }
+                ]
+              },
+              "firstName": "Fangxin",
+              "fullName": "Lin F",
+              "initials": "F",
+              "lastName": "Lin"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "KOCHKOR Biotech, Inc., Shanghai 202152, China"
+                  }
+                ]
+              },
+              "firstName": "Wei",
+              "fullName": "Zhang W",
+              "initials": "W",
+              "lastName": "Zhang"
+            },
+            {
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biophysics, College of Basic Medical Sciences, Second Military Medical University, Shanghai 200433, China"
+                  },
+                  {
+                    "affiliation": "Team SMMU-China of the International Genetically Engineered Machine (iGEM) competition, Department of Biophysics, Second Military Medical University, Shanghai 200433, China"
+                  }
+                ]
+              },
+              "firstName": "Jian",
+              "fullName": "Zhao J",
+              "initials": "J",
+              "lastName": "Zhao"
+            },
+            {
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7905-4284"
+              },
+              "firstName": "Shi",
+              "fullName": "Hu S",
+              "initials": "S",
+              "lastName": "Hu"
+            }
+          ]
+        },
+        "authorString": "Fu W, Lei C, Qian K, Ma Z, Li T, Lin F, Zhang W, Zhao J, Hu S.",
+        "bookOrReportDetails": {
+          "publisher": "bioRxiv",
+          "yearOfPublication": 2020
+        },
+        "citedByCount": 0,
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "id": "34367135",
+              "note": "CrossRef Pre-print loader",
+              "orderIn": 10001,
+              "reference": "Frontiers in immunology. 2021;12:669103",
+              "source": "MED",
+              "type": "Preprint of"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "recommended_reviews",
+            "supporting_data"
+          ]
+        },
+        "dateOfCreation": "2020-07-29",
+        "doi": "10.1101/2020.07.26.222208",
+        "epmcAuthMan": "Y",
+        "firstIndexDate": "2020-07-29",
+        "firstPublicationDate": "2020-07-27",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PPR193012"
+          ]
+        },
+        "fullTextReceivedDate": "2020-09-08",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.3389/fimmu.2021.669103"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.biorxiv.org/content/biorxiv/early/2020/08/21/2020.07.26.222208.full.pdf"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "doi",
+              "site": "Unpaywall",
+              "url": "https://doi.org/10.3389/fimmu.2021.669103"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1101/2020.07.26.222208"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/article/PPR/PPR193012"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1101/2020.07.26.222208"
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "Y",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "N",
+        "hasLabsLinks": "Y",
+        "hasPDF": "N",
+        "hasReferences": "N",
+        "hasSuppl": "N",
+        "hasTMAccessionNumbers": "Y",
+        "hasTextMinedTerms": "Y",
+        "id": "PPR193012",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "isOpenAccess": "N",
+        "manuscriptId": "EMS92759",
+        "nihAuthMan": "N",
+        "pubTypeList": {
+          "pubType": [
+            "Preprint"
+          ]
+        },
+        "pubYear": "2020",
+        "source": "PPR",
+        "title": "CAR Macrophages for SARS-CoV-2 Immunotherapy",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen"
+          ]
+        }
+      },
+      {
+        "abstractText": "<h4>Summary</h4>  Latent factor modelling applied to single-cell RNA-sequencing (scRNA-seq) data is a useful approach to discover gene signatures associated with cell states. However, it is often unclear what method is best suited for specific tasks and how latent factors should be interpreted from a biological perspective. Here, we compare four state-of-the-art methods and explore their stability, predictive power and coverage of known biology. We then propose an approach that leverages the derived latent factors to directly assign pathway activities to specific cell subsets. By applying this framework to scRNA-seq datasets from biopsies of rheumatoid arthritis and systemic lupus erythematosus patients, we discover both known and novel disease-relevant gene signatures in specific cellular subsets in a fully unsupervised way. Focusing on rheumatoid arthritis, we identify an inflammatory Oncostatin M receptor signalling signature active in a subset of synovial fibroblasts and dysregulation of the GAS6 - MERTK axis in a subset of synovial monocytes with efferocytic function. Overall, we provide insights into strengths and weaknesses of latent factors models for the analysis of scRNA-seq data, we develop a framework to identify cell subtypes in a function- or phenotype-driven way and use it to identify novel pathways dysregulated in rheumatoid arthritis.",
+        "authMan": "N",
+        "authorList": {
+          "author": [
+            {
+              "firstName": "Giovanni",
+              "fullName": "Palla G",
+              "initials": "G",
+              "lastName": "Palla"
+            },
+            {
+              "firstName": "Enrico",
+              "fullName": "Ferrero E",
+              "initials": "E",
+              "lastName": "Ferrero"
+            }
+          ]
+        },
+        "authorString": "Palla G, Ferrero E.",
+        "bookOrReportDetails": {
+          "publisher": "bioRxiv",
+          "yearOfPublication": 2019
+        },
+        "citedByCount": 0,
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "id": "32853994",
+              "note": "CrossRef Pre-print loader",
+              "orderIn": 10001,
+              "reference": "iScience. 2020 Sep;23(9):101451",
+              "source": "MED",
+              "type": "Preprint of"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "dateOfCreation": "2019-11-27",
+        "doi": "10.1101/853903",
+        "epmcAuthMan": "N",
+        "firstIndexDate": "2019-11-27",
+        "firstPublicationDate": "2019-11-25",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.biorxiv.org/content/biorxiv/early/2019/11/25/853903.full.pdf"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1101/853903"
+            }
+          ]
+        },
+        "hasBook": "N",
+        "hasData": "N",
+        "hasDbCrossReferences": "N",
+        "hasEvaluations": "N",
+        "hasLabsLinks": "Y",
+        "hasPDF": "N",
+        "hasReferences": "N",
+        "hasSuppl": "N",
+        "hasTMAccessionNumbers": "N",
+        "hasTextMinedTerms": "Y",
+        "id": "PPR103432",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "isOpenAccess": "N",
+        "nihAuthMan": "N",
+        "pubTypeList": {
+          "pubType": [
+            "Preprint"
+          ]
+        },
+        "pubYear": "2019",
+        "source": "PPR",
+        "title": "Latent factor modelling of scRNA-seq data uncovers novel pathways dysregulated in cell subsets of autoimmune disease patients"
+      }
+    ]
+  },
+  "version": "6.9"
+}

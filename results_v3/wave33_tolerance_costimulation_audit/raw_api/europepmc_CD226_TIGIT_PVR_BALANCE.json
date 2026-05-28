@@ -1,0 +1,60 @@
+{
+  "payload": {
+    "hitCount": 10594,
+    "nextCursorMark": "AoIIQYjjcig1Mzk2NjcwNA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(CD226 OR TIGIT OR PVR OR NECTIN2) AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR Sjogren OR autoimmune)&cursorMark=AoIIQYjjcig1Mzk2NjcwNA==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "(CD226 OR TIGIT OR PVR OR NECTIN2) AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR Sjogren OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Alsayb MA.",
+          "citedByCount": 2,
+          "doi": "10.3389/fimmu.2025.1647066",
+          "firstIndexDate": "2025-10-03",
+          "firstPublicationDate": "2025-09-17",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12485509"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "41041324",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalIssn": "1664-3224",
+          "journalTitle": "Front Immunol",
+          "journalVolume": "16",
+          "pageInfo": "1647066",
+          "pmcid": "PMC12485509",
+          "pmid": "41041324",
+          "pubType": "review-article; review; journal article",
+          "pubYear": "2025",
+          "source": "MED",
+          "title": "Innovations in immunotherapy for autoimmune diseases: recent breakthroughs and future directions.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "nct"
+            ]
+          }
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28CD226+OR+TIGIT+OR+PVR+OR+NECTIN2%29+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+Sjogren+OR+autoimmune%29&format=json&pageSize=1"
+}

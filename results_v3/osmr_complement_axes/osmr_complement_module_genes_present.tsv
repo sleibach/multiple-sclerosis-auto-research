@@ -1,0 +1,199 @@
+analysis	disease_name	compartment	role	module	module_class	n_genes_present	genes_present
+ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	osm_ligand_inflammatory_myeloid	target	9	OSM,IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,TREM1,NFKBIA
+ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	osmr_receptor_core	target	4	OSMR,IL6ST,LIFR,IL31RA
+ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	osmr_signal_response	target	15	OSMR,IL6ST,STAT3,SOCS3,JUNB,FOS,CEBPB,CXCL1,CXCL2,CXCL8,CCL2,C3,SERPINE1,SAA1,SAA2
+ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	c1q_phagocytic_myeloid	target	12	C1QA,C1QB,C1QC,TYROBP,TREM2,APOE,GPNMB,LPL,CD68,MERTK,MSR1,LRP1
+ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	complement_effector	target	12	C1R,C1S,C2,C3,CFB,CFD,SERPING1,C3AR1,C5AR1,CD93,CALR,LRP1
+ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	ifn_apc	covariate	8	STAT1,IRF1,CXCL10,GBP1,CD74,IFI30,HLA-DRA,HLA-DRB1
+ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	hla_ii_apc	covariate	7	CD74,HLA-DRA,HLA-DRB1,HLA-DPA1,HLA-DPB1,CIITA,RFX5
+ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	lysosomal_apc	covariate	7	IFI30,CTSS,CTSB,CTSD,LAMP1,LAMP2,LAMP3
+ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	lipid_loader_repair	covariate	12	ACSL1,APOE,GPNMB,LPL,PLIN2,CD36,LIPA,FABP5,TREM2,MSR1,MERTK,SPP1
+ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	hif_nampt_metabolic	covariate	8	HIF1A,NAMPT,LDHA,SLC2A1,NFKBIA,IL1B,HK2,PFKFB3
+ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	inflammatory_nfkb	covariate	9	IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,NFKBIA,TREM1,OSM
+ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	osm_ligand_inflammatory_myeloid	target	9	OSM,IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,TREM1,NFKBIA
+ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	osmr_receptor_core	target	4	OSMR,IL6ST,LIFR,IL31RA
+ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	osmr_signal_response	target	15	OSMR,IL6ST,STAT3,SOCS3,JUNB,FOS,CEBPB,CXCL1,CXCL2,CXCL8,CCL2,C3,SERPINE1,SAA1,SAA2
+ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	c1q_phagocytic_myeloid	target	12	C1QA,C1QB,C1QC,TYROBP,TREM2,APOE,GPNMB,LPL,CD68,MERTK,MSR1,LRP1
+ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	complement_effector	target	12	C1R,C1S,C2,C3,CFB,CFD,SERPING1,C3AR1,C5AR1,CD93,CALR,LRP1
+ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	ifn_apc	covariate	8	STAT1,IRF1,CXCL10,GBP1,CD74,IFI30,HLA-DRA,HLA-DRB1
+ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	hla_ii_apc	covariate	7	CD74,HLA-DRA,HLA-DRB1,HLA-DPA1,HLA-DPB1,CIITA,RFX5
+ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	lysosomal_apc	covariate	7	IFI30,CTSS,CTSB,CTSD,LAMP1,LAMP2,LAMP3
+ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	lipid_loader_repair	covariate	12	ACSL1,APOE,GPNMB,LPL,PLIN2,CD36,LIPA,FABP5,TREM2,MSR1,MERTK,SPP1
+ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	hif_nampt_metabolic	covariate	8	HIF1A,NAMPT,LDHA,SLC2A1,NFKBIA,IL1B,HK2,PFKFB3
+ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	inflammatory_nfkb	covariate	9	IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,NFKBIA,TREM1,OSM
+ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	osm_ligand_inflammatory_myeloid	target	9	OSM,IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,TREM1,NFKBIA
+ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	osmr_receptor_core	target	4	OSMR,IL6ST,LIFR,IL31RA
+ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	osmr_signal_response	target	15	OSMR,IL6ST,STAT3,SOCS3,JUNB,FOS,CEBPB,CXCL1,CXCL2,CXCL8,CCL2,C3,SERPINE1,SAA1,SAA2
+ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	c1q_phagocytic_myeloid	target	12	C1QA,C1QB,C1QC,TYROBP,TREM2,APOE,GPNMB,LPL,CD68,MERTK,MSR1,LRP1
+ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	complement_effector	target	12	C1R,C1S,C2,C3,CFB,CFD,SERPING1,C3AR1,C5AR1,CD93,CALR,LRP1
+ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	ifn_apc	covariate	8	STAT1,IRF1,CXCL10,GBP1,CD74,IFI30,HLA-DRA,HLA-DRB1
+ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	hla_ii_apc	covariate	7	CD74,HLA-DRA,HLA-DRB1,HLA-DPA1,HLA-DPB1,CIITA,RFX5
+ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	lysosomal_apc	covariate	7	IFI30,CTSS,CTSB,CTSD,LAMP1,LAMP2,LAMP3
+ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	lipid_loader_repair	covariate	12	ACSL1,APOE,GPNMB,LPL,PLIN2,CD36,LIPA,FABP5,TREM2,MSR1,MERTK,SPP1
+ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	hif_nampt_metabolic	covariate	8	HIF1A,NAMPT,LDHA,SLC2A1,NFKBIA,IL1B,HK2,PFKFB3
+ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	inflammatory_nfkb	covariate	9	IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,NFKBIA,TREM1,OSM
+ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	osm_ligand_inflammatory_myeloid	target	9	OSM,IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,TREM1,NFKBIA
+ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	osmr_receptor_core	target	4	OSMR,IL6ST,LIFR,IL31RA
+ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	osmr_signal_response	target	15	OSMR,IL6ST,STAT3,SOCS3,JUNB,FOS,CEBPB,CXCL1,CXCL2,CXCL8,CCL2,C3,SERPINE1,SAA1,SAA2
+ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	c1q_phagocytic_myeloid	target	12	C1QA,C1QB,C1QC,TYROBP,TREM2,APOE,GPNMB,LPL,CD68,MERTK,MSR1,LRP1
+ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	complement_effector	target	12	C1R,C1S,C2,C3,CFB,CFD,SERPING1,C3AR1,C5AR1,CD93,CALR,LRP1
+ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	ifn_apc	covariate	8	STAT1,IRF1,CXCL10,GBP1,CD74,IFI30,HLA-DRA,HLA-DRB1
+ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	hla_ii_apc	covariate	7	CD74,HLA-DRA,HLA-DRB1,HLA-DPA1,HLA-DPB1,CIITA,RFX5
+ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	lysosomal_apc	covariate	7	IFI30,CTSS,CTSB,CTSD,LAMP1,LAMP2,LAMP3
+ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	lipid_loader_repair	covariate	12	ACSL1,APOE,GPNMB,LPL,PLIN2,CD36,LIPA,FABP5,TREM2,MSR1,MERTK,SPP1
+ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	hif_nampt_metabolic	covariate	8	HIF1A,NAMPT,LDHA,SLC2A1,NFKBIA,IL1B,HK2,PFKFB3
+ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	inflammatory_nfkb	covariate	9	IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,NFKBIA,TREM1,OSM
+ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	osm_ligand_inflammatory_myeloid	target	9	OSM,IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,TREM1,NFKBIA
+ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	osmr_receptor_core	target	4	OSMR,IL6ST,LIFR,IL31RA
+ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	osmr_signal_response	target	15	OSMR,IL6ST,STAT3,SOCS3,JUNB,FOS,CEBPB,CXCL1,CXCL2,CXCL8,CCL2,C3,SERPINE1,SAA1,SAA2
+ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	c1q_phagocytic_myeloid	target	12	C1QA,C1QB,C1QC,TYROBP,TREM2,APOE,GPNMB,LPL,CD68,MERTK,MSR1,LRP1
+ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	complement_effector	target	12	C1R,C1S,C2,C3,CFB,CFD,SERPING1,C3AR1,C5AR1,CD93,CALR,LRP1
+ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	ifn_apc	covariate	8	STAT1,IRF1,CXCL10,GBP1,CD74,IFI30,HLA-DRA,HLA-DRB1
+ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	hla_ii_apc	covariate	7	CD74,HLA-DRA,HLA-DRB1,HLA-DPA1,HLA-DPB1,CIITA,RFX5
+ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	lysosomal_apc	covariate	7	IFI30,CTSS,CTSB,CTSD,LAMP1,LAMP2,LAMP3
+ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	lipid_loader_repair	covariate	12	ACSL1,APOE,GPNMB,LPL,PLIN2,CD36,LIPA,FABP5,TREM2,MSR1,MERTK,SPP1
+ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	hif_nampt_metabolic	covariate	8	HIF1A,NAMPT,LDHA,SLC2A1,NFKBIA,IL1B,HK2,PFKFB3
+ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	inflammatory_nfkb	covariate	9	IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,NFKBIA,TREM1,OSM
+ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	osm_ligand_inflammatory_myeloid	target	9	OSM,IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,TREM1,NFKBIA
+ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	osmr_receptor_core	target	4	OSMR,IL6ST,LIFR,IL31RA
+ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	osmr_signal_response	target	15	OSMR,IL6ST,STAT3,SOCS3,JUNB,FOS,CEBPB,CXCL1,CXCL2,CXCL8,CCL2,C3,SERPINE1,SAA1,SAA2
+ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	c1q_phagocytic_myeloid	target	12	C1QA,C1QB,C1QC,TYROBP,TREM2,APOE,GPNMB,LPL,CD68,MERTK,MSR1,LRP1
+ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	complement_effector	target	12	C1R,C1S,C2,C3,CFB,CFD,SERPING1,C3AR1,C5AR1,CD93,CALR,LRP1
+ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	ifn_apc	covariate	8	STAT1,IRF1,CXCL10,GBP1,CD74,IFI30,HLA-DRA,HLA-DRB1
+ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	hla_ii_apc	covariate	7	CD74,HLA-DRA,HLA-DRB1,HLA-DPA1,HLA-DPB1,CIITA,RFX5
+ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	lysosomal_apc	covariate	7	IFI30,CTSS,CTSB,CTSD,LAMP1,LAMP2,LAMP3
+ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	lipid_loader_repair	covariate	12	ACSL1,APOE,GPNMB,LPL,PLIN2,CD36,LIPA,FABP5,TREM2,MSR1,MERTK,SPP1
+ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	hif_nampt_metabolic	covariate	8	HIF1A,NAMPT,LDHA,SLC2A1,NFKBIA,IL1B,HK2,PFKFB3
+ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	inflammatory_nfkb	covariate	9	IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,NFKBIA,TREM1,OSM
+psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	osm_ligand_inflammatory_myeloid	target	6	OSM,IL1B,CXCL8,CCL2,TREM1,NFKBIA
+psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	osmr_receptor_core	target	4	OSMR,IL6ST,LIFR,IL31RA
+psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	osmr_signal_response	target	15	OSMR,IL6ST,STAT3,SOCS3,JUNB,FOS,CEBPB,CXCL1,CXCL2,CXCL8,CCL2,C3,SERPINE1,SAA1,SAA2
+psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	c1q_phagocytic_myeloid	target	12	C1QA,C1QB,C1QC,TYROBP,TREM2,APOE,GPNMB,LPL,CD68,MERTK,MSR1,LRP1
+psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	complement_effector	target	11	C1R,C1S,C2,C3,CFB,SERPING1,C3AR1,C5AR1,CD93,CALR,LRP1
+psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	ifn_apc	covariate	6	STAT1,IRF1,CXCL10,GBP1,CD74,IFI30
+psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	hla_ii_apc	covariate	3	CD74,CIITA,RFX5
+psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	lysosomal_apc	covariate	7	IFI30,CTSS,CTSB,CTSD,LAMP1,LAMP2,LAMP3
+psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	lipid_loader_repair	covariate	12	ACSL1,APOE,GPNMB,LPL,PLIN2,CD36,LIPA,FABP5,TREM2,MSR1,MERTK,SPP1
+psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	hif_nampt_metabolic	covariate	8	HIF1A,NAMPT,LDHA,SLC2A1,NFKBIA,IL1B,HK2,PFKFB3
+psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	inflammatory_nfkb	covariate	6	IL1B,CXCL8,CCL2,NFKBIA,TREM1,OSM
+psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	osm_ligand_inflammatory_myeloid	target	6	OSM,IL1B,CXCL8,CCL2,TREM1,NFKBIA
+psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	osmr_receptor_core	target	4	OSMR,IL6ST,LIFR,IL31RA
+psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	osmr_signal_response	target	15	OSMR,IL6ST,STAT3,SOCS3,JUNB,FOS,CEBPB,CXCL1,CXCL2,CXCL8,CCL2,C3,SERPINE1,SAA1,SAA2
+psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	c1q_phagocytic_myeloid	target	12	C1QA,C1QB,C1QC,TYROBP,TREM2,APOE,GPNMB,LPL,CD68,MERTK,MSR1,LRP1
+psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	complement_effector	target	11	C1R,C1S,C2,C3,CFB,SERPING1,C3AR1,C5AR1,CD93,CALR,LRP1
+psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	ifn_apc	covariate	6	STAT1,IRF1,CXCL10,GBP1,CD74,IFI30
+psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	hla_ii_apc	covariate	3	CD74,CIITA,RFX5
+psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	lysosomal_apc	covariate	7	IFI30,CTSS,CTSB,CTSD,LAMP1,LAMP2,LAMP3
+psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	lipid_loader_repair	covariate	12	ACSL1,APOE,GPNMB,LPL,PLIN2,CD36,LIPA,FABP5,TREM2,MSR1,MERTK,SPP1
+psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	hif_nampt_metabolic	covariate	8	HIF1A,NAMPT,LDHA,SLC2A1,NFKBIA,IL1B,HK2,PFKFB3
+psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	inflammatory_nfkb	covariate	6	IL1B,CXCL8,CCL2,NFKBIA,TREM1,OSM
+psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	osm_ligand_inflammatory_myeloid	target	6	OSM,IL1B,CXCL8,CCL2,TREM1,NFKBIA
+psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	osmr_receptor_core	target	4	OSMR,IL6ST,LIFR,IL31RA
+psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	osmr_signal_response	target	15	OSMR,IL6ST,STAT3,SOCS3,JUNB,FOS,CEBPB,CXCL1,CXCL2,CXCL8,CCL2,C3,SERPINE1,SAA1,SAA2
+psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	c1q_phagocytic_myeloid	target	12	C1QA,C1QB,C1QC,TYROBP,TREM2,APOE,GPNMB,LPL,CD68,MERTK,MSR1,LRP1
+psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	complement_effector	target	11	C1R,C1S,C2,C3,CFB,SERPING1,C3AR1,C5AR1,CD93,CALR,LRP1
+psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	ifn_apc	covariate	6	STAT1,IRF1,CXCL10,GBP1,CD74,IFI30
+psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	hla_ii_apc	covariate	3	CD74,CIITA,RFX5
+psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	lysosomal_apc	covariate	7	IFI30,CTSS,CTSB,CTSD,LAMP1,LAMP2,LAMP3
+psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	lipid_loader_repair	covariate	12	ACSL1,APOE,GPNMB,LPL,PLIN2,CD36,LIPA,FABP5,TREM2,MSR1,MERTK,SPP1
+psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	hif_nampt_metabolic	covariate	8	HIF1A,NAMPT,LDHA,SLC2A1,NFKBIA,IL1B,HK2,PFKFB3
+psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	inflammatory_nfkb	covariate	6	IL1B,CXCL8,CCL2,NFKBIA,TREM1,OSM
+sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	osm_ligand_inflammatory_myeloid	target	9	OSM,IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,TREM1,NFKBIA
+sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	osmr_receptor_core	target	4	OSMR,IL6ST,LIFR,IL31RA
+sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	osmr_signal_response	target	15	OSMR,IL6ST,STAT3,SOCS3,JUNB,FOS,CEBPB,CXCL1,CXCL2,CXCL8,CCL2,C3,SERPINE1,SAA1,SAA2
+sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	c1q_phagocytic_myeloid	target	12	C1QA,C1QB,C1QC,TYROBP,TREM2,APOE,GPNMB,LPL,CD68,MERTK,MSR1,LRP1
+sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	complement_effector	target	12	C1R,C1S,C2,C3,CFB,CFD,SERPING1,C3AR1,C5AR1,CD93,CALR,LRP1
+sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	ifn_apc	covariate	8	STAT1,IRF1,CXCL10,GBP1,CD74,IFI30,HLA-DRA,HLA-DRB1
+sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	hla_ii_apc	covariate	7	CD74,HLA-DRA,HLA-DRB1,HLA-DPA1,HLA-DPB1,CIITA,RFX5
+sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	lysosomal_apc	covariate	7	IFI30,CTSS,CTSB,CTSD,LAMP1,LAMP2,LAMP3
+sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	lipid_loader_repair	covariate	12	ACSL1,APOE,GPNMB,LPL,PLIN2,CD36,LIPA,FABP5,TREM2,MSR1,MERTK,SPP1
+sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	hif_nampt_metabolic	covariate	8	HIF1A,NAMPT,LDHA,SLC2A1,NFKBIA,IL1B,HK2,PFKFB3
+sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	inflammatory_nfkb	covariate	9	IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,NFKBIA,TREM1,OSM
+sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	osm_ligand_inflammatory_myeloid	target	9	OSM,IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,TREM1,NFKBIA
+sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	osmr_receptor_core	target	4	OSMR,IL6ST,LIFR,IL31RA
+sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	osmr_signal_response	target	15	OSMR,IL6ST,STAT3,SOCS3,JUNB,FOS,CEBPB,CXCL1,CXCL2,CXCL8,CCL2,C3,SERPINE1,SAA1,SAA2
+sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	c1q_phagocytic_myeloid	target	12	C1QA,C1QB,C1QC,TYROBP,TREM2,APOE,GPNMB,LPL,CD68,MERTK,MSR1,LRP1
+sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	complement_effector	target	12	C1R,C1S,C2,C3,CFB,CFD,SERPING1,C3AR1,C5AR1,CD93,CALR,LRP1
+sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	ifn_apc	covariate	8	STAT1,IRF1,CXCL10,GBP1,CD74,IFI30,HLA-DRA,HLA-DRB1
+sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	hla_ii_apc	covariate	7	CD74,HLA-DRA,HLA-DRB1,HLA-DPA1,HLA-DPB1,CIITA,RFX5
+sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	lysosomal_apc	covariate	7	IFI30,CTSS,CTSB,CTSD,LAMP1,LAMP2,LAMP3
+sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	lipid_loader_repair	covariate	12	ACSL1,APOE,GPNMB,LPL,PLIN2,CD36,LIPA,FABP5,TREM2,MSR1,MERTK,SPP1
+sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	hif_nampt_metabolic	covariate	8	HIF1A,NAMPT,LDHA,SLC2A1,NFKBIA,IL1B,HK2,PFKFB3
+sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	inflammatory_nfkb	covariate	9	IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,NFKBIA,TREM1,OSM
+sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	osm_ligand_inflammatory_myeloid	target	9	OSM,IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,TREM1,NFKBIA
+sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	osmr_receptor_core	target	4	OSMR,IL6ST,LIFR,IL31RA
+sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	osmr_signal_response	target	15	OSMR,IL6ST,STAT3,SOCS3,JUNB,FOS,CEBPB,CXCL1,CXCL2,CXCL8,CCL2,C3,SERPINE1,SAA1,SAA2
+sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	c1q_phagocytic_myeloid	target	12	C1QA,C1QB,C1QC,TYROBP,TREM2,APOE,GPNMB,LPL,CD68,MERTK,MSR1,LRP1
+sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	complement_effector	target	12	C1R,C1S,C2,C3,CFB,CFD,SERPING1,C3AR1,C5AR1,CD93,CALR,LRP1
+sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	ifn_apc	covariate	8	STAT1,IRF1,CXCL10,GBP1,CD74,IFI30,HLA-DRA,HLA-DRB1
+sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	hla_ii_apc	covariate	7	CD74,HLA-DRA,HLA-DRB1,HLA-DPA1,HLA-DPB1,CIITA,RFX5
+sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	lysosomal_apc	covariate	7	IFI30,CTSS,CTSB,CTSD,LAMP1,LAMP2,LAMP3
+sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	lipid_loader_repair	covariate	12	ACSL1,APOE,GPNMB,LPL,PLIN2,CD36,LIPA,FABP5,TREM2,MSR1,MERTK,SPP1
+sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	hif_nampt_metabolic	covariate	8	HIF1A,NAMPT,LDHA,SLC2A1,NFKBIA,IL1B,HK2,PFKFB3
+sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	inflammatory_nfkb	covariate	9	IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,NFKBIA,TREM1,OSM
+ra_blood_myeloid	rheumatoid arthritis	blood myeloid/APC	myeloid_apc	osm_ligand_inflammatory_myeloid	target	9	OSM,IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,TREM1,NFKBIA
+ra_blood_myeloid	rheumatoid arthritis	blood myeloid/APC	myeloid_apc	osmr_receptor_core	target	3	OSMR,IL6ST,IL31RA
+ra_blood_myeloid	rheumatoid arthritis	blood myeloid/APC	myeloid_apc	osmr_signal_response	target	15	OSMR,IL6ST,STAT3,SOCS3,JUNB,FOS,CEBPB,CXCL1,CXCL2,CXCL8,CCL2,C3,SERPINE1,SAA1,SAA2
+ra_blood_myeloid	rheumatoid arthritis	blood myeloid/APC	myeloid_apc	c1q_phagocytic_myeloid	target	12	C1QA,C1QB,C1QC,TYROBP,TREM2,APOE,GPNMB,LPL,CD68,MERTK,MSR1,LRP1
+ra_blood_myeloid	rheumatoid arthritis	blood myeloid/APC	myeloid_apc	complement_effector	target	12	C1R,C1S,C2,C3,CFB,CFD,SERPING1,C3AR1,C5AR1,CD93,CALR,LRP1
+ra_blood_myeloid	rheumatoid arthritis	blood myeloid/APC	myeloid_apc	ifn_apc	covariate	8	STAT1,IRF1,CXCL10,GBP1,CD74,IFI30,HLA-DRA,HLA-DRB1
+ra_blood_myeloid	rheumatoid arthritis	blood myeloid/APC	myeloid_apc	hla_ii_apc	covariate	7	CD74,HLA-DRA,HLA-DRB1,HLA-DPA1,HLA-DPB1,CIITA,RFX5
+ra_blood_myeloid	rheumatoid arthritis	blood myeloid/APC	myeloid_apc	lysosomal_apc	covariate	7	IFI30,CTSS,CTSB,CTSD,LAMP1,LAMP2,LAMP3
+ra_blood_myeloid	rheumatoid arthritis	blood myeloid/APC	myeloid_apc	lipid_loader_repair	covariate	12	ACSL1,APOE,GPNMB,LPL,PLIN2,CD36,LIPA,FABP5,TREM2,MSR1,MERTK,SPP1
+ra_blood_myeloid	rheumatoid arthritis	blood myeloid/APC	myeloid_apc	hif_nampt_metabolic	covariate	8	HIF1A,NAMPT,LDHA,SLC2A1,NFKBIA,IL1B,HK2,PFKFB3
+ra_blood_myeloid	rheumatoid arthritis	blood myeloid/APC	myeloid_apc	inflammatory_nfkb	covariate	9	IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,NFKBIA,TREM1,OSM
+t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	osm_ligand_inflammatory_myeloid	target	9	OSM,IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,TREM1,NFKBIA
+t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	osmr_receptor_core	target	4	OSMR,IL6ST,LIFR,IL31RA
+t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	osmr_signal_response	target	15	OSMR,IL6ST,STAT3,SOCS3,JUNB,FOS,CEBPB,CXCL1,CXCL2,CXCL8,CCL2,C3,SERPINE1,SAA1,SAA2
+t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	c1q_phagocytic_myeloid	target	12	C1QA,C1QB,C1QC,TYROBP,TREM2,APOE,GPNMB,LPL,CD68,MERTK,MSR1,LRP1
+t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	complement_effector	target	12	C1R,C1S,C2,C3,CFB,CFD,SERPING1,C3AR1,C5AR1,CD93,CALR,LRP1
+t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	ifn_apc	covariate	8	STAT1,IRF1,CXCL10,GBP1,CD74,IFI30,HLA-DRA,HLA-DRB1
+t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	hla_ii_apc	covariate	7	CD74,HLA-DRA,HLA-DRB1,HLA-DPA1,HLA-DPB1,CIITA,RFX5
+t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	lysosomal_apc	covariate	7	IFI30,CTSS,CTSB,CTSD,LAMP1,LAMP2,LAMP3
+t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	lipid_loader_repair	covariate	12	ACSL1,APOE,GPNMB,LPL,PLIN2,CD36,LIPA,FABP5,TREM2,MSR1,MERTK,SPP1
+t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	hif_nampt_metabolic	covariate	8	HIF1A,NAMPT,LDHA,SLC2A1,NFKBIA,IL1B,HK2,PFKFB3
+t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	inflammatory_nfkb	covariate	9	IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,NFKBIA,TREM1,OSM
+t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	osm_ligand_inflammatory_myeloid	target	9	OSM,IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,TREM1,NFKBIA
+t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	osmr_receptor_core	target	4	OSMR,IL6ST,LIFR,IL31RA
+t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	osmr_signal_response	target	15	OSMR,IL6ST,STAT3,SOCS3,JUNB,FOS,CEBPB,CXCL1,CXCL2,CXCL8,CCL2,C3,SERPINE1,SAA1,SAA2
+t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	c1q_phagocytic_myeloid	target	12	C1QA,C1QB,C1QC,TYROBP,TREM2,APOE,GPNMB,LPL,CD68,MERTK,MSR1,LRP1
+t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	complement_effector	target	12	C1R,C1S,C2,C3,CFB,CFD,SERPING1,C3AR1,C5AR1,CD93,CALR,LRP1
+t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	ifn_apc	covariate	8	STAT1,IRF1,CXCL10,GBP1,CD74,IFI30,HLA-DRA,HLA-DRB1
+t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	hla_ii_apc	covariate	7	CD74,HLA-DRA,HLA-DRB1,HLA-DPA1,HLA-DPB1,CIITA,RFX5
+t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	lysosomal_apc	covariate	7	IFI30,CTSS,CTSB,CTSD,LAMP1,LAMP2,LAMP3
+t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	lipid_loader_repair	covariate	12	ACSL1,APOE,GPNMB,LPL,PLIN2,CD36,LIPA,FABP5,TREM2,MSR1,MERTK,SPP1
+t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	hif_nampt_metabolic	covariate	8	HIF1A,NAMPT,LDHA,SLC2A1,NFKBIA,IL1B,HK2,PFKFB3
+t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	inflammatory_nfkb	covariate	9	IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,NFKBIA,TREM1,OSM
+t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	osm_ligand_inflammatory_myeloid	target	9	OSM,IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,TREM1,NFKBIA
+t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	osmr_receptor_core	target	4	OSMR,IL6ST,LIFR,IL31RA
+t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	osmr_signal_response	target	15	OSMR,IL6ST,STAT3,SOCS3,JUNB,FOS,CEBPB,CXCL1,CXCL2,CXCL8,CCL2,C3,SERPINE1,SAA1,SAA2
+t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	c1q_phagocytic_myeloid	target	12	C1QA,C1QB,C1QC,TYROBP,TREM2,APOE,GPNMB,LPL,CD68,MERTK,MSR1,LRP1
+t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	complement_effector	target	12	C1R,C1S,C2,C3,CFB,CFD,SERPING1,C3AR1,C5AR1,CD93,CALR,LRP1
+t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	ifn_apc	covariate	8	STAT1,IRF1,CXCL10,GBP1,CD74,IFI30,HLA-DRA,HLA-DRB1
+t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	hla_ii_apc	covariate	7	CD74,HLA-DRA,HLA-DRB1,HLA-DPA1,HLA-DPB1,CIITA,RFX5
+t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	lysosomal_apc	covariate	7	IFI30,CTSS,CTSB,CTSD,LAMP1,LAMP2,LAMP3
+t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	lipid_loader_repair	covariate	12	ACSL1,APOE,GPNMB,LPL,PLIN2,CD36,LIPA,FABP5,TREM2,MSR1,MERTK,SPP1
+t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	hif_nampt_metabolic	covariate	8	HIF1A,NAMPT,LDHA,SLC2A1,NFKBIA,IL1B,HK2,PFKFB3
+t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	inflammatory_nfkb	covariate	9	IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,NFKBIA,TREM1,OSM
+t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	osm_ligand_inflammatory_myeloid	target	9	OSM,IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,TREM1,NFKBIA
+t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	osmr_receptor_core	target	4	OSMR,IL6ST,LIFR,IL31RA
+t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	osmr_signal_response	target	15	OSMR,IL6ST,STAT3,SOCS3,JUNB,FOS,CEBPB,CXCL1,CXCL2,CXCL8,CCL2,C3,SERPINE1,SAA1,SAA2
+t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	c1q_phagocytic_myeloid	target	12	C1QA,C1QB,C1QC,TYROBP,TREM2,APOE,GPNMB,LPL,CD68,MERTK,MSR1,LRP1
+t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	complement_effector	target	12	C1R,C1S,C2,C3,CFB,CFD,SERPING1,C3AR1,C5AR1,CD93,CALR,LRP1
+t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	ifn_apc	covariate	8	STAT1,IRF1,CXCL10,GBP1,CD74,IFI30,HLA-DRA,HLA-DRB1
+t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	hla_ii_apc	covariate	7	CD74,HLA-DRA,HLA-DRB1,HLA-DPA1,HLA-DPB1,CIITA,RFX5
+t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	lysosomal_apc	covariate	7	IFI30,CTSS,CTSB,CTSD,LAMP1,LAMP2,LAMP3
+t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	lipid_loader_repair	covariate	12	ACSL1,APOE,GPNMB,LPL,PLIN2,CD36,LIPA,FABP5,TREM2,MSR1,MERTK,SPP1
+t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	hif_nampt_metabolic	covariate	8	HIF1A,NAMPT,LDHA,SLC2A1,NFKBIA,IL1B,HK2,PFKFB3
+t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	inflammatory_nfkb	covariate	9	IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,NFKBIA,TREM1,OSM
+t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	osm_ligand_inflammatory_myeloid	target	9	OSM,IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,TREM1,NFKBIA
+t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	osmr_receptor_core	target	4	OSMR,IL6ST,LIFR,IL31RA
+t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	osmr_signal_response	target	15	OSMR,IL6ST,STAT3,SOCS3,JUNB,FOS,CEBPB,CXCL1,CXCL2,CXCL8,CCL2,C3,SERPINE1,SAA1,SAA2
+t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	c1q_phagocytic_myeloid	target	12	C1QA,C1QB,C1QC,TYROBP,TREM2,APOE,GPNMB,LPL,CD68,MERTK,MSR1,LRP1
+t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	complement_effector	target	12	C1R,C1S,C2,C3,CFB,CFD,SERPING1,C3AR1,C5AR1,CD93,CALR,LRP1
+t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	ifn_apc	covariate	8	STAT1,IRF1,CXCL10,GBP1,CD74,IFI30,HLA-DRA,HLA-DRB1
+t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	hla_ii_apc	covariate	7	CD74,HLA-DRA,HLA-DRB1,HLA-DPA1,HLA-DPB1,CIITA,RFX5
+t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	lysosomal_apc	covariate	7	IFI30,CTSS,CTSB,CTSD,LAMP1,LAMP2,LAMP3
+t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	lipid_loader_repair	covariate	12	ACSL1,APOE,GPNMB,LPL,PLIN2,CD36,LIPA,FABP5,TREM2,MSR1,MERTK,SPP1
+t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	hif_nampt_metabolic	covariate	8	HIF1A,NAMPT,LDHA,SLC2A1,NFKBIA,IL1B,HK2,PFKFB3
+t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	inflammatory_nfkb	covariate	9	IL1B,TNF,CXCL8,CCL2,CCL3,CCL4,NFKBIA,TREM1,OSM

@@ -1,0 +1,35 @@
+{
+  "esearchresult": {
+    "count": "14",
+    "idlist": [
+      "40336986",
+      "39794898",
+      "34638548"
+    ],
+    "querytranslation": "(\"clec12a protein human\"[Supplementary Concept] OR \"clec12a protein human\"[All Fields] OR \"clec12a\"[All Fields] OR (\"clec12a protein human\"[Supplementary Concept] OR \"clec12a protein human\"[All Fields] OR \"micl\"[All Fields]) OR (\"clec12a protein human\"[Supplementary Concept] OR \"clec12a protein human\"[All Fields] OR \"cll 1\"[All Fields])) AND (\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields])",
+    "retmax": "3",
+    "retstart": "0",
+    "translationset": [
+      {
+        "from": "CLEC12A",
+        "to": "\"clec12a protein, human\"[Supplementary Concept] OR \"clec12a protein, human\"[All Fields] OR \"clec12a\"[All Fields]"
+      },
+      {
+        "from": "MICL",
+        "to": "\"clec12a protein, human\"[Supplementary Concept] OR \"clec12a protein, human\"[All Fields] OR \"micl\"[All Fields]"
+      },
+      {
+        "from": "CLL-1",
+        "to": "\"clec12a protein, human\"[Supplementary Concept] OR \"clec12a protein, human\"[All Fields] OR \"cll 1\"[All Fields]"
+      },
+      {
+        "from": "autoimmune",
+        "to": "\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields]"
+      }
+    ]
+  },
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  }
+}

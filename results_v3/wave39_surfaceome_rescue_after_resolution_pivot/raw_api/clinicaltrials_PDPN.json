@@ -1,0 +1,368 @@
+{
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D044882",
+              "term": "Glucose Metabolism Disorders"
+            },
+            {
+              "id": "D008659",
+              "term": "Metabolic Diseases"
+            },
+            {
+              "id": "D009750",
+              "term": "Nutritional and Metabolic Diseases"
+            },
+            {
+              "id": "D004700",
+              "term": "Endocrine System Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            },
+            {
+              "id": "D009461",
+              "term": "Neurologic Manifestations"
+            },
+            {
+              "id": "D012816",
+              "term": "Signs and Symptoms"
+            },
+            {
+              "id": "D013568",
+              "term": "Pathological Conditions, Signs and Symptoms"
+            },
+            {
+              "id": "D009468",
+              "term": "Neuromuscular Diseases"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D003920",
+              "term": "Diabetes Mellitus"
+            },
+            {
+              "id": "D003922",
+              "term": "Diabetes Mellitus, Type 1"
+            },
+            {
+              "id": "D003924",
+              "term": "Diabetes Mellitus, Type 2"
+            },
+            {
+              "id": "D010146",
+              "term": "Pain"
+            },
+            {
+              "id": "D010523",
+              "term": "Peripheral Nervous System Diseases"
+            },
+            {
+              "id": "D009443",
+              "term": "Neuritis"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D013876",
+              "term": "Thiophenes"
+            },
+            {
+              "id": "D013457",
+              "term": "Sulfur Compounds"
+            },
+            {
+              "id": "D009930",
+              "term": "Organic Chemicals"
+            },
+            {
+              "id": "D006573",
+              "term": "Heterocyclic Compounds, 1-Ring"
+            },
+            {
+              "id": "D006571",
+              "term": "Heterocyclic Compounds"
+            },
+            {
+              "id": "D005680",
+              "term": "gamma-Aminobutyric Acid"
+            },
+            {
+              "id": "D000613",
+              "term": "Aminobutyrates"
+            },
+            {
+              "id": "D002087",
+              "term": "Butyrates"
+            },
+            {
+              "id": "D000144",
+              "term": "Acids, Acyclic"
+            },
+            {
+              "id": "D002264",
+              "term": "Carboxylic Acids"
+            },
+            {
+              "id": "D000596",
+              "term": "Amino Acids"
+            },
+            {
+              "id": "D000602",
+              "term": "Amino Acids, Peptides, and Proteins"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D000068736",
+              "term": "Duloxetine Hydrochloride"
+            },
+            {
+              "id": "D000069583",
+              "term": "Pregabalin"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "* Phase 1 of the Dosage Titration: 3 capsules/day\n* Phase 2 of the Dosage Titration: 5 capsules/day\n* Treatment: 4 capsules/day\n* Withdrawal: 4 capsules/day",
+              "interventionNames": [
+                "Drug: N0750"
+              ],
+              "label": "N0750",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "* Phase 1 of the Dosage Titration: 3 capsules/day\n* Phase 2 of the Dosage Titration: 5 capsules/day\n* Treatment: 4 capsules/day\n* Withdrawal: 4 capsules/day",
+              "interventionNames": [
+                "Drug: Cymbalta\u00ae"
+              ],
+              "label": "Cymbalta\u00ae",
+              "type": "ACTIVE_COMPARATOR"
+            },
+            {
+              "description": "* Phase 1 of the Dosage Titration: 3 capsules/day\n* Phase 2 of the Dosage Titration: 5 capsules/day\n* Treatment: 4 capsules/day\n* Withdrawal: 4 capsules/day",
+              "interventionNames": [
+                "Drug: Lyrica\u00ae"
+              ],
+              "label": "Lyrica\u00ae",
+              "type": "ACTIVE_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "N0750"
+              ],
+              "description": "N0750 caps + Cymbalta placebo caps + Lyrica placebo caps",
+              "name": "N0750",
+              "type": "DRUG"
+            },
+            {
+              "armGroupLabels": [
+                "Cymbalta\u00ae"
+              ],
+              "description": "Cymbalta\u00ae caps + N0750 placebo caps + Lyrica placebo caps",
+              "name": "Cymbalta\u00ae",
+              "type": "DRUG"
+            },
+            {
+              "armGroupLabels": [
+                "Lyrica\u00ae"
+              ],
+              "description": "Lyrica\u00ae caps + N0750 placebo caps + Cymbalta placebo caps",
+              "name": "Lyrica\u00ae",
+              "type": "DRUG"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Painful Diabetic Peripheral Neuropathy (PDPN)"
+          ],
+          "keywords": [
+            "Diabetes Mellitus",
+            "Diabetes Mellitus, Type 1",
+            "Diabetes Mellitus, Type 2",
+            "Diabetes",
+            "Diabetes, Type 1",
+            "Diabetes, Type 2",
+            "Pain",
+            "diabetics",
+            "peripheral diabetic neuropathy",
+            "diabetic neuropathy peripheral",
+            "diabetic peripheral neuropathy",
+            "peripheral neuropathy",
+            "Peripheral Nervous System Diseases",
+            "peripheral",
+            "peripheral neuropathies",
+            "Peripheral nerve damage",
+            "neuropathies",
+            "neuropathy",
+            "PDPN"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Itapevi",
+              "country": "Brazil",
+              "facility": "Eurofarma Laborat\u00f3rios S.A",
+              "geoPoint": {
+                "lat": -23.54889,
+                "lon": -46.93417
+              },
+              "state": "S\u00e3o Paulo",
+              "zip": "06696-000"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "A phase 3, prospective, adaptive, randomized, multicenter, double-blind, triple-masked, parallel clinical trial to evaluate the efficacy and safety of N0750 in relieving pain associated with painful diabetic peripheral neuropathy (PDPN).",
+          "detailedDescription": "The objective of this clinical trial is to demonstrate the superiority of treatment with N0750 compared to monotherapy with Cymbalta\u00ae (duloxetine hydrochloride 60 mg, delayed-release capsule) and Lyrica\u00ae (pregabalin 150 mg, hard capsule, given twice daily for a total daily dose of 300 mg).\n\nThe clinical trial population will consist of patients of both sexes, diagnosed with PDPN for at least 3 months, confirmed by the presence of signs and symptoms in the Neuropathic Impairment Score (NIS) and Neuropathic Symptom Score (NSS), respectively, and with pain \u2265 6 points on the Numerical Scale (11 points \\[0-10\\]).\n\nThe primary objective of this clinical trial is to evaluate the reduction in pain intensity associated with Diabetic Peripheral Neuropathy (DPN). The primary endpoint of the trial is the change from baseline (Randomisation Visit \\[RV\\]) at the end of 12 weeks of treatment (Visit 4) in the weekly mean pain intensity in the last 24 hours, as assessed by the Numerical Rating Scale (11 points \\[0-10\\])."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "QUADRUPLE",
+              "whoMasked": [
+                "PARTICIPANT",
+                "CARE_PROVIDER",
+                "INVESTIGATOR",
+                "OUTCOMES_ASSESSOR"
+              ]
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 0,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Ability to confirm voluntary participation and agree to all purposes of the trial, by signing and dating the Informed Consent Form (ICF) in two copies.\n2. Subjects of both sexes, aged between 18 and 80 years.\n3. Previous diagnosis of type 1 diabetes mellitus or type 2 diabetes mellitus.\n4. Subjects diagnosed with PDPN for at least 3 months, confirmed by NSS \u2265 5 points and NIS \u2265 3 points.\n5. Subjects who agree to discontinue current PDPN treatment during the washout period.\n6. Subjects willing and able to comply with all study requirements, including completion of study diary and questionnaires.\n\nExclusion Criteria:\n\n1. Painful peripheral neuropathy due to other causes, e.g. B12 and/or folate deficiency and hypothyroidism.\n2. Previous diagnosis of other types of pain not related to PDPN, which at the Investigator's discretion, may confound the assessment of clinical trial endpoints, such as, but not limited to: peripheral vascular disease (ischemic pain); neurological disorders unrelated to diabetic neuropathy (phantom pain due to limb amputation); other painful conditions (e.g., arthritis).\n3. Skin changes in the PDPN area that may cause changes in sensitivity or preclude physical assessment, e.g.: plantar ulcer.\n4. Subjects with any other clinically significant clinical or laboratory change that, at the opinion Investigator's opinion make the subject unsuitable for trial participation.\n5. Subjects with depression undergoing drug treatment or subjects with severe depression.\n6. Subjects with a history of angioedema.\n7. Subjects with a previous diagnosis of class III or IV heart failure according to the New York Heart Association criteria.\n8. History of seizures.\n9. Recent (\\<6 months) myocardial infarction.\n10. Patients with increased intraocular pressure or who are at risk of closed-angle glaucoma.\n11. Subjects at risk of suicide at the Investigator's discretion.\n12. Prior treatment with chemotherapeutic agents that cause neuropathy, such as, but not limited to: platinum compounds (oxaliplatin, cisplatin and carboplatin) and taxanes (docetaxel and paclitaxel).\n13. History of current alcohol or drug abuse or dependence.\n14. Lack of response to prior treatment with pregabalin at doses \u2265 300 mg and/or duloxetine 60 mg.\n15. Use of prohibited medications within 7 days prior to the Screening Visit or change in concomitant drugs within 30 days prior to the Screening Visit.\n16. Use of prohibited concomitant medications that cannot be discontinued during participation in the clinical trial.\n17. Subjects with any clinically significant condition, including serious psychiatric disorders, which at the Investigator's discretion make the subject unsuitable for trial participation.\n18. History of any malignancy within the past 5 years, except successfully treated non-metastatic basal cell or squamous cell carcinoma of the skin.\n19. Subjects who have participated in other clinical trials in the last 12 months, unless the investigator believes there may be a direct benefit to them.\n20. Pregnant or breastfeeding female subjects or women of childbearing potential who do not agree to use contraception during the clinical trial.\n21. Glycated hemoglobin \u2265 10.5%.\n22. Subjects with severe renal impairment (estimated glomerular filtration rate based on creatinine by the CKD-EPI equation \\< 30 mL/min) and/or with severe liver disease (Aspartate Aminotransferase and Alanine Aminotransferase twice the reference value).\n23. Clinically significant cardiac arrhythmias, second- or third-degree heart block, or left bundle branch block on 12-lead electrocardiogram (ECG).",
+          "healthyVolunteers": false,
+          "maximumAge": "80 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "acronym": "ENFORCE",
+          "briefTitle": "Efficacy and Safety of the N0750 Compared to Monotherapies in the Treatment of Painful Diabetic Peripheral Neuropathy",
+          "nctId": "NCT06715462",
+          "officialTitle": "A Phase 3, Prospective, Adaptive, Randomized, Double-blind, Triple-masked, Parallel, Multicenter Clinical Trial to Evaluate the Efficacy and Safety of the N0750 Compared to Monotherapies in the Treatment of Painful Diabetic Peripheral Neuropathy",
+          "orgStudyIdInfo": {
+            "id": "EF188"
+          },
+          "organization": {
+            "class": "INDUSTRY",
+            "fullName": "Eurofarma Laboratorios S.A."
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Change from baseline at the end of 12 weeks of treatment in the weekly average pain intensity in the last 24 hours using Numerical Rating Scale (11 points \\[0-10\\]), where higher scores mean a worse outcome.",
+              "measure": "Evaluation of the efficacy of N0750 compared to Cymbalta\u00ae and Lyrica\u00ae in reducing pain intensity in patients with painful diabetic peripheral neuropathy",
+              "timeFrame": "84 days"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Change from baseline (VR) at each week of treatment (week 1 to week 12) in the weekly average pain intensity in the last 24 hours by the Numerical Rating Scale (11 points \\[0-10\\]).\n\nProportion of subjects showing pain reduction \u2265 30% at the end of 12 weeks of treatment (V4) compared to baseline (VR).\n\nProportion of subjects showing pain reduction \u2265 50% at the end of 12 weeks of treatment (V4) compared to baseline (VR).",
+              "measure": "Evaluation of the efficacy of N0750 compared to Cymbalta\u00ae and Lyrica\u00ae in reducing pain in patients with painful diabetic peripheral neuropathy",
+              "timeFrame": "84 days"
+            },
+            {
+              "description": "Change from baseline at the end of 12 weeks of treatment on the Patient Global Impression of Change questionnaire - PGIC-C (8 points \\[0-7\\]), where higher scores mean a better outcome.",
+              "measure": "Evaluation of the efficacy of N0750 compared to Cymbalta\u00ae and Lyrica\u00ae on subject perception of overall change in painful diabetic peripheral neuropathy",
+              "timeFrame": "84 days"
+            },
+            {
+              "description": "Frequency and intensity of AEs (Adverse Event), TEAEs (Treatment Emergent Adverse Event), SAEs (Serious adverse event). All safety analyses will be based on all subjects who received at least one dose of the trial treatments.",
+              "measure": "Evaluate the safety profile of N0750 compared to Cymbalta\u00ae and Lyrica\u00ae",
+              "timeFrame": "84 days"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": true
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "INDUSTRY",
+            "name": "Eurofarma Laboratorios S.A."
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2028-03",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2025-12-18",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2025-12-11",
+          "overallStatus": "WITHDRAWN",
+          "primaryCompletionDateStruct": {
+            "date": "2028-03",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2026-04",
+            "type": "ESTIMATED"
+          },
+          "statusVerifiedDate": "2025-02",
+          "studyFirstPostDateStruct": {
+            "date": "2024-12-04",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2024-11-26",
+          "studyFirstSubmitQcDate": "2024-11-28",
+          "whyStopped": "Strategic change in development priorities"
+        }
+      }
+    }
+  ]
+}

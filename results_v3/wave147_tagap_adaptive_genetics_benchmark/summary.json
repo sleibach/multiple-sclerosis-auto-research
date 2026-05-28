@@ -1,0 +1,44 @@
+{
+  "branch_call": "NO_TAGAP_ADAPTIVE_GENETICS_PROMOTION",
+  "gates": {
+    "cross_autoimmune_genetics_ms_plus_two": true,
+    "direct_perturbation_support": false,
+    "direction_proxy_resolved": false,
+    "local_tagap_tcell_state_two_diseases": false,
+    "local_tcr_rhogtpase_module_two_diseases": false,
+    "ms_white_matter_expression_anchor": false,
+    "reachable_non_broad_suppression_modality": false,
+    "target_resolved_qtl_or_l2g_ms": true
+  },
+  "local_module_positive_diseases_p_lt_0_05": [],
+  "local_tagap_positive_diseases_p_lt_0_05": [],
+  "n_tcell_tests": 10,
+  "random_seed": 20260527,
+  "run_log": [
+    {
+      "analysis": "ibd_crohn_tcell",
+      "n_score_rows": 24,
+      "status": "completed"
+    },
+    {
+      "analysis": "ibd_uc_tcell",
+      "n_score_rows": 24,
+      "status": "completed"
+    },
+    {
+      "analysis": "psoriasis_skin_tcell",
+      "n_score_rows": 12,
+      "status": "completed"
+    },
+    {
+      "analysis": "sjogren_gland_tcell",
+      "n_score_rows": 48,
+      "status": "completed"
+    },
+    {
+      "analysis": "ra_blood_tcell",
+      "n_score_rows": 72,
+      "status": "completed"
+    }
+  ]
+}

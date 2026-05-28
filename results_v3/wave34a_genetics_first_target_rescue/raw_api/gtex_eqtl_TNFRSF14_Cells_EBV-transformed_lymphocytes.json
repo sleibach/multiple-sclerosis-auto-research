@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr1",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000157873.17",
+        "geneSymbol": "TNFRSF14",
+        "geneSymbolUpper": "TNFRSF14",
+        "nes": 0.224095,
+        "ontologyId": "EFO:0000572",
+        "pValue": 7.84711e-09,
+        "pos": 2539232,
+        "snpId": "rs112734447",
+        "snpIdUpper": "RS112734447",
+        "tissueSiteDetailId": "Cells_EBV-transformed_lymphocytes",
+        "variantId": "chr1_2539232_G_GCC_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 58,
+      "page": 0,
+      "totalNumberOfItems": 58
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000157873.17&tissueSiteDetailId=Cells_EBV-transformed_lymphocytes&datasetId=gtex_v8&itemsPerPage=1"
+}

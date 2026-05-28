@@ -1,0 +1,21 @@
+{
+  "call_counts": {
+    "NO_GO_PRIOR_ROUTE_OR_DRUGGABILITY_BLOCKED": 14,
+    "PARK_ANTI_TNF_ANCHOR_BUT_NOT_BROAD_CROSS_DISEASE": 1
+  },
+  "decision": "NO_REOPEN_INFLAMMATORY_ANTITNF_NONRESPONSE_CIRCUIT_AS_V3_TARGET",
+  "inputs": {
+    "direct_h5ad": "results_v3/direct_h5ad_gene_replication/direct_h5ad_gene_donor_comparisons.tsv",
+    "geneformer_context": "results_v3/geneformer_broad_residual_delete/geneformer_broad_residual_context_metrics_ranked.tsv",
+    "geneformer_gene": "results_v3/geneformer_broad_residual_delete/geneformer_broad_residual_gene_summary.tsv",
+    "ms_modules": "results_v3/gse111972_module_contrasts.tsv",
+    "ms_wm": "results_v3/gse111972_full_ms_wm_signature.tsv",
+    "wave55": "results_v3/wave55_external_genetics_druggability_sweep/external_genetics_rank.tsv",
+    "wave62": "results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv",
+    "wave86": "results_v3/wave86_external_geo_antitnf_gene_driver/external_geo_gene_meta_rank.tsv"
+  },
+  "n_candidates": 15,
+  "reopened_count": 0,
+  "seed": 20260527,
+  "top_scored_gene": "TREM1"
+}

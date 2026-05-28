@@ -1,0 +1,187 @@
+{
+  "payload": {
+    "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxubfam2_cbkA",
+    "studies": [
+      {
+        "derivedSection": {
+          "conditionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D017444",
+                "term": "Skin Diseases, Papulosquamous"
+              },
+              {
+                "id": "D012871",
+                "term": "Skin Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D011565",
+                "term": "Psoriasis"
+              }
+            ]
+          },
+          "miscInfoModule": {
+            "versionHolder": "2026-05-26"
+          }
+        },
+        "hasResults": false,
+        "protocolSection": {
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "description": "group of 25 cases of psoriasis subjected to skin biopsy for detection of lesional and non lesional expression of ERAP1 by RT-PCR",
+                "interventionNames": [
+                  "Diagnostic Test: RT-PCR for ERAP1 detection"
+                ],
+                "label": "cases of psoriasis",
+                "type": "EXPERIMENTAL"
+              },
+              {
+                "description": "group of 30 age and sex matched healthy controls o subjected to skin biopsy from normal skin for detection of expression of ERAP1 by RT-PCR",
+                "interventionNames": [
+                  "Diagnostic Test: RT-PCR for ERAP1 detection"
+                ],
+                "label": "normal controls",
+                "type": "EXPERIMENTAL"
+              }
+            ],
+            "interventions": [
+              {
+                "armGroupLabels": [
+                  "cases of psoriasis",
+                  "normal controls"
+                ],
+                "description": "Reverse transcriptase -Polymerase Chain Reaction for ERAP1 detection",
+                "name": "RT-PCR for ERAP1 detection",
+                "type": "DIAGNOSTIC_TEST"
+              }
+            ]
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Psoriasis"
+            ]
+          },
+          "descriptionModule": {
+            "briefSummary": "A 4mm Punch biopsy is obtained from lesional and non lesional skin of 25 psoraitic patients as well as of 30 controls.\n\nSkin biopsy from patients (psoriasis lesional and non lesional) \\& control will be kept in lysis solution (which contains RNAase inhibitor) for the stability of the parameter to be assessed. ERAP-1 gene expression will Research Template 5 Final Version: 8/3/2 016 be detected by quantitative real time -PCR, which include RNA extraction, cDNA synthesis \\& PCR."
+          },
+          "designModule": {
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "SINGLE_GROUP",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              },
+              "primaryPurpose": "DIAGNOSTIC"
+            },
+            "enrollmentInfo": {
+              "count": 55,
+              "type": "ACTUAL"
+            },
+            "phases": [
+              "NA"
+            ],
+            "studyType": "INTERVENTIONAL"
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* patients with psoriasis vulgaris\n* patients over 18 years of age\n* both sexes\n\nExclusion Criteria:\n\n* patients on treatment for psoriasis within the last two months\n* assoiciated autoimmune diseases eg SLE\n* pregnancy",
+            "healthyVolunteers": true,
+            "maximumAge": "75 Years",
+            "minimumAge": "18 Years",
+            "sex": "ALL",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "identificationModule": {
+            "briefTitle": "Estimation of Level of ERAP1 Expression in Lesional and Non Lesional Skin of Psoraitic Patients and Healthy Controls.",
+            "nctId": "NCT03767114",
+            "officialTitle": "Estimation of Level of ERAP1 Expression in Lesional and Non Lesional Skin of Psoraitic Patients and Healthy Controls.",
+            "orgStudyIdInfo": {
+              "id": "EgyERAP"
+            },
+            "organization": {
+              "class": "OTHER",
+              "fullName": "Kasr El Aini Hospital"
+            }
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "description": "DPCRetection of level of expression of ERAP 1 in lesional skin of psoriasis patients by RT-",
+                "measure": "Estimation of lesional ERAP1 in psoriatic skin",
+                "timeFrame": "Maximum 2 years"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "description": "Detection of level of expression of ERAP 1 in non lesional skin of psoriasis patients by RT-PCR.",
+                "measure": "Estimation of non lesional ERAP1 in psoriatic skin",
+                "timeFrame": "Maximum 2 years"
+              }
+            ]
+          },
+          "oversightModule": {
+            "isFdaRegulatedDevice": false,
+            "isFdaRegulatedDrug": false
+          },
+          "sponsorCollaboratorsModule": {
+            "leadSponsor": {
+              "class": "OTHER",
+              "name": "Kasr El Aini Hospital"
+            },
+            "responsibleParty": {
+              "investigatorAffiliation": "Kasr El Aini Hospital",
+              "investigatorFullName": "Rana F Hilal, MD",
+              "investigatorTitle": "Lecturer of dermatology",
+              "type": "PRINCIPAL_INVESTIGATOR"
+            }
+          },
+          "statusModule": {
+            "completionDateStruct": {
+              "date": "2018-12",
+              "type": "ACTUAL"
+            },
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "lastUpdatePostDateStruct": {
+              "date": "2018-12-06",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2018-12-05",
+            "overallStatus": "COMPLETED",
+            "primaryCompletionDateStruct": {
+              "date": "2017-06",
+              "type": "ACTUAL"
+            },
+            "startDateStruct": {
+              "date": "2017-01",
+              "type": "ACTUAL"
+            },
+            "statusVerifiedDate": "2018-12",
+            "studyFirstPostDateStruct": {
+              "date": "2018-12-06",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2018-12-05",
+            "studyFirstSubmitQcDate": "2018-12-05"
+          }
+        }
+      }
+    ],
+    "totalCount": 1
+  },
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.term=ERAP1&query.cond=autoimmune+OR+multiple+sclerosis+OR+rheumatoid+arthritis+OR+lupus+OR+Crohn+OR+psoriasis&format=json&pageSize=1&countTotal=true"
+}

@@ -1,0 +1,68 @@
+{
+  "activities": [
+    {
+      "action_type": {
+        "action_type": "INHIBITOR",
+        "description": "Negatively effects (inhibits) the normal functioning of the protein e.g., prevention of enzymatic reaction or activation of downstream pathway",
+        "parent_type": "NEGATIVE MODULATOR"
+      },
+      "activity_comment": null,
+      "activity_id": 23314797,
+      "activity_properties": [],
+      "assay_chembl_id": "CHEMBL4845000",
+      "assay_description": "Binding affinity to human TIM-3 IgV domain (residues 22 to 130) expressed in Escherichia coli BL21 (DE3) by 1H-15N SOFAST-HMQC spectroscopic analysis",
+      "assay_type": "B",
+      "assay_variant_accession": null,
+      "assay_variant_mutation": null,
+      "bao_endpoint": "BAO_0000034",
+      "bao_format": "BAO_0000019",
+      "bao_label": "assay format",
+      "canonical_smiles": "Cc1nc2c3ccccc3nc(O)n2n1",
+      "data_validity_comment": null,
+      "data_validity_description": null,
+      "document_chembl_id": "CHEMBL4842382",
+      "document_journal": "J Med Chem",
+      "document_year": 2021,
+      "ligand_efficiency": {
+        "bei": "15.44",
+        "le": "0.28",
+        "lle": "1.80",
+        "sei": "4.88"
+      },
+      "molecule_chembl_id": "CHEMBL1569082",
+      "molecule_pref_name": null,
+      "parent_molecule_chembl_id": "CHEMBL1569082",
+      "pchembl_value": "3.09",
+      "potential_duplicate": 0,
+      "qudt_units": "http://www.openphacts.org/units/Nanomolar",
+      "record_id": 3628746,
+      "relation": "=",
+      "src_id": 1,
+      "standard_flag": 1,
+      "standard_relation": "=",
+      "standard_text_value": null,
+      "standard_type": "Kd",
+      "standard_units": "nM",
+      "standard_upper_value": null,
+      "standard_value": "810000.0",
+      "target_chembl_id": "CHEMBL4630879",
+      "target_organism": "Homo sapiens",
+      "target_pref_name": "Hepatitis A virus cellular receptor 2",
+      "target_tax_id": "9606",
+      "text_value": null,
+      "toid": null,
+      "type": "Kd",
+      "units": "uM",
+      "uo_units": "UO_0000065",
+      "upper_value": null,
+      "value": "810.0"
+    }
+  ],
+  "page_meta": {
+    "limit": 1,
+    "next": "/chembl/api/data/activity.json?limit=1&offset=1&target_chembl_id=CHEMBL4630879&standard_units=nM",
+    "offset": 0,
+    "previous": null,
+    "total_count": 81
+  }
+}

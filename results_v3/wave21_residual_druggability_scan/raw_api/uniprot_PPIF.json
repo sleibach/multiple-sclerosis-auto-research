@@ -1,0 +1,141 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3APPIF%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "Q99KR7",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "19228691",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20676357",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22726440",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "26387735",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "PPIase that catalyzes the cis-trans isomerization of proline imidic peptide bonds in oligopeptides and may therefore assist protein folding (PubMed:20676357). Involved in regulation of the mitochondrial permeability transition pore (mPTP) (PubMed:26387735). It is proposed that its association with the mPTP is masking a binding site for inhibiting inorganic phosphate (Pi) and promotes the open probability of the mPTP leading to apoptosis or necrosis; the requirement of the PPIase activity for this function is debated (PubMed:26387735). In cooperation with mitochondrial p53/TP53 is involved in activating oxidative stress-induced necrosis (PubMed:22726440). Involved in modulation of mitochondrial membrane F(1)F(0) ATP synthase activity and regulation of mitochondrial matrix adenine nucleotide levels (By similarity). Has anti-apoptotic activity independently of mPTP and in cooperation with BCL2 inhibits cytochrome c-dependent apoptosis (PubMed:19228691)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "10406942",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0170",
+                "value": "Mitochondrion matrix"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000003AF84"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "PPIF"
+          },
+          "synonyms": [
+            {
+              "value": "CYP3"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P30405",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Cyclophilin D"
+            },
+            "shortNames": [
+              {
+                "value": "CyP-D"
+              },
+              {
+                "value": "CypD"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Cyclophilin F"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Mitochondrial cyclophilin"
+            },
+            "shortNames": [
+              {
+                "value": "CyP-M"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Rotamase F"
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20676357",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "5.2.1.8"
+            }
+          ],
+          "fullName": {
+            "value": "Peptidyl-prolyl cis-trans isomerase F, mitochondrial"
+          },
+          "shortNames": [
+            {
+              "value": "PPIase F"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

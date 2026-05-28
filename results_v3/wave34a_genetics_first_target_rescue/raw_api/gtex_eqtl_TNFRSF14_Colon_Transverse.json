@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr1",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000157873.17",
+        "geneSymbol": "TNFRSF14",
+        "geneSymbolUpper": "TNFRSF14",
+        "nes": -0.313925,
+        "ontologyId": "UBERON:0001157",
+        "pValue": 8.70345e-06,
+        "pos": 1950630,
+        "snpId": "rs72894732",
+        "snpIdUpper": "RS72894732",
+        "tissueSiteDetailId": "Colon_Transverse",
+        "variantId": "chr1_1950630_G_A_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 4,
+      "page": 0,
+      "totalNumberOfItems": 4
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000157873.17&tissueSiteDetailId=Colon_Transverse&datasetId=gtex_v8&itemsPerPage=1"
+}

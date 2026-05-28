@@ -1,0 +1,140 @@
+{
+  "random_seed": 20260526,
+  "assumptions": {
+    "residual_signaling_under_70pct_suppression": 0.3,
+    "feedback_strength_values": [
+      0.0,
+      0.25,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      5.0,
+      10.0
+    ],
+    "model_status": "assumption-explicit ODE sensitivity model, not fit to kinetic data"
+  },
+  "key_effects": [
+    {
+      "feedback_strength": 0.0,
+      "intervention": "ifngr_jak_70pct_suppression",
+      "ifn_apc_readout_ratio_vs_control": 0.46425167611900375,
+      "ifn_apc_readout_log2fc_vs_control": -1.1070209760584713,
+      "hla_ii_cd74_readout_ratio_vs_control": 0.6427417584194023,
+      "hla_ii_cd74_readout_log2fc_vs_control": -0.6376888887217607,
+      "gilt_lysosomal_readout_ratio_vs_control": 0.6439395740907294,
+      "gilt_lysosomal_readout_log2fc_vs_control": -0.6350027796060569
+    },
+    {
+      "feedback_strength": 0.0,
+      "intervention": "ifi30_70pct_suppression",
+      "ifn_apc_readout_ratio_vs_control": 0.9999999996230089,
+      "ifn_apc_readout_log2fc_vs_control": -5.438831977452728e-10,
+      "hla_ii_cd74_readout_ratio_vs_control": 0.9999999991713185,
+      "hla_ii_cd74_readout_log2fc_vs_control": -1.19553462868028e-09,
+      "gilt_lysosomal_readout_ratio_vs_control": 0.7850200288059564,
+      "gilt_lysosomal_readout_log2fc_vs_control": -0.349198631850729
+    },
+    {
+      "feedback_strength": 0.0,
+      "intervention": "ifi30_95pct_suppression",
+      "ifn_apc_readout_ratio_vs_control": 0.9999999995465906,
+      "ifn_apc_readout_log2fc_vs_control": -6.541315234897161e-10,
+      "hla_ii_cd74_readout_ratio_vs_control": 0.9999999990046956,
+      "hla_ii_cd74_readout_log2fc_vs_control": -1.435920714773733e-09,
+      "gilt_lysosomal_readout_ratio_vs_control": 0.7082414678428609,
+      "gilt_lysosomal_readout_log2fc_vs_control": -0.4976867782697805
+    },
+    {
+      "feedback_strength": 0.0,
+      "intervention": "ctss_70pct_suppression",
+      "ifn_apc_readout_ratio_vs_control": 1.0000000000299705,
+      "ifn_apc_readout_log2fc_vs_control": 4.3238249234593916e-11,
+      "hla_ii_cd74_readout_ratio_vs_control": 1.0000000000634917,
+      "hla_ii_cd74_readout_log2fc_vs_control": 9.159909778982625e-11,
+      "gilt_lysosomal_readout_ratio_vs_control": 0.8086468402944222,
+      "gilt_lysosomal_readout_log2fc_vs_control": -0.3064183217708471
+    },
+    {
+      "feedback_strength": 1.0,
+      "intervention": "ifngr_jak_70pct_suppression",
+      "ifn_apc_readout_ratio_vs_control": 0.4592838494194708,
+      "ifn_apc_readout_log2fc_vs_control": -1.1225420423803392,
+      "hla_ii_cd74_readout_ratio_vs_control": 0.6650429372164147,
+      "hla_ii_cd74_readout_log2fc_vs_control": -0.5884806064397633,
+      "gilt_lysosomal_readout_ratio_vs_control": 0.66611968216908,
+      "gilt_lysosomal_readout_log2fc_vs_control": -0.5861466843183339
+    },
+    {
+      "feedback_strength": 1.0,
+      "intervention": "ifi30_70pct_suppression",
+      "ifn_apc_readout_ratio_vs_control": 0.9596476456647719,
+      "ifn_apc_readout_log2fc_vs_control": -0.05942330693310612,
+      "hla_ii_cd74_readout_ratio_vs_control": 0.9859116515601533,
+      "hla_ii_cd74_readout_log2fc_vs_control": -0.020469723706856457,
+      "gilt_lysosomal_readout_ratio_vs_control": 0.7739067066704814,
+      "gilt_lysosomal_readout_log2fc_vs_control": -0.3697684328278363
+    },
+    {
+      "feedback_strength": 1.0,
+      "intervention": "ifi30_95pct_suppression",
+      "ifn_apc_readout_ratio_vs_control": 0.9089284818189526,
+      "ifn_apc_readout_log2fc_vs_control": -0.13776131310196485,
+      "hla_ii_cd74_readout_ratio_vs_control": 0.9664830058453017,
+      "hla_ii_cd74_readout_log2fc_vs_control": -0.04918372985722153,
+      "gilt_lysosomal_readout_ratio_vs_control": 0.6845448228880245,
+      "gilt_lysosomal_readout_log2fc_vs_control": -0.54678308497304
+    },
+    {
+      "feedback_strength": 1.0,
+      "intervention": "ctss_70pct_suppression",
+      "ifn_apc_readout_ratio_vs_control": 1.0000000000235756,
+      "ifn_apc_readout_log2fc_vs_control": 3.401238090385396e-11,
+      "hla_ii_cd74_readout_ratio_vs_control": 1.0000000005512908,
+      "hla_ii_cd74_readout_log2fc_vs_control": 7.953444897493821e-10,
+      "gilt_lysosomal_readout_ratio_vs_control": 0.8088229093733236,
+      "gilt_lysosomal_readout_log2fc_vs_control": -0.3061042336859969
+    },
+    {
+      "feedback_strength": 2.0,
+      "intervention": "ifngr_jak_70pct_suppression",
+      "ifn_apc_readout_ratio_vs_control": 0.4595361364400974,
+      "ifn_apc_readout_log2fc_vs_control": -1.1217497800258258,
+      "hla_ii_cd74_readout_ratio_vs_control": 0.6760829737293094,
+      "hla_ii_cd74_readout_log2fc_vs_control": -0.5647277796788321,
+      "gilt_lysosomal_readout_ratio_vs_control": 0.6771095734061161,
+      "gilt_lysosomal_readout_log2fc_vs_control": -0.5625387777515218
+    },
+    {
+      "feedback_strength": 2.0,
+      "intervention": "ifi30_70pct_suppression",
+      "ifn_apc_readout_ratio_vs_control": 0.957575104732041,
+      "ifn_apc_readout_log2fc_vs_control": -0.06254244965116679,
+      "hla_ii_cd74_readout_ratio_vs_control": 0.9859875376970895,
+      "hla_ii_cd74_readout_log2fc_vs_control": -0.020358682986234857,
+      "gilt_lysosomal_readout_ratio_vs_control": 0.7739210408545768,
+      "gilt_lysosomal_readout_log2fc_vs_control": -0.3697417116938558
+    },
+    {
+      "feedback_strength": 2.0,
+      "intervention": "ifi30_95pct_suppression",
+      "ifn_apc_readout_ratio_vs_control": 0.885990204514361,
+      "ifn_apc_readout_log2fc_vs_control": -0.17463734641934325,
+      "hla_ii_cd74_readout_ratio_vs_control": 0.959332537661991,
+      "hla_ii_cd74_readout_log2fc_vs_control": -0.05989710521512302,
+      "gilt_lysosomal_readout_ratio_vs_control": 0.6794671794031195,
+      "gilt_lysosomal_readout_log2fc_vs_control": -0.5575242293338812
+    },
+    {
+      "feedback_strength": 2.0,
+      "intervention": "ctss_70pct_suppression",
+      "ifn_apc_readout_ratio_vs_control": 0.9999999987662296,
+      "ifn_apc_readout_log2fc_vs_control": -1.7799544664189516e-09,
+      "hla_ii_cd74_readout_ratio_vs_control": 1.0000000062035261,
+      "hla_ii_cd74_readout_log2fc_vs_control": 8.949796366442745e-09,
+      "gilt_lysosomal_readout_ratio_vs_control": 0.8088805483455855,
+      "gilt_lysosomal_readout_log2fc_vs_control": -0.30600142688406706
+    }
+  ],
+  "interpretation": "Across the tested feedback range, IFI30 suppression mainly reduces the lysosomal GILT component and does not match the broad Mixscale IFNGR/JAK perturbation effect on the IFN/APC or HLA-II/CD74 state. An IFI30 therapeutic hypothesis therefore requires either stronger direct autoimmune perturbation evidence or a narrower antigen-processing endpoint, not a claim of broad upstream IFN-state suppression."
+}

@@ -1,0 +1,2570 @@
+{
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D020278",
+              "term": "Demyelinating Autoimmune Diseases, CNS"
+            },
+            {
+              "id": "D020274",
+              "term": "Autoimmune Diseases of the Nervous System"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D003711",
+              "term": "Demyelinating Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D020529",
+              "term": "Multiple Sclerosis, Relapsing-Remitting"
+            },
+            {
+              "id": "D009103",
+              "term": "Multiple Sclerosis"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "meshes": [
+            {
+              "id": "C000705473",
+              "term": "GSK2618960"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Subjects will receive ascending single dose in 3:1 ratio of active:placebo respectively in each dosing session.",
+              "interventionNames": [
+                "Drug: Part A: 100 mg/mL GSK2618960"
+              ],
+              "label": "Part A: GSK2618960",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Subjects will receive ascending single dose in 3:1 ratio of active:placebo respectively in each dosing session",
+              "interventionNames": [
+                "Drug: Part A: matching placebo"
+              ],
+              "label": "Part A: Placebo",
+              "type": "PLACEBO_COMPARATOR"
+            },
+            {
+              "description": "Subjects will receive ascending repeat dose (dose decided from Part A) in 3:1 ratio of active:placebo respectively in each cohort.",
+              "interventionNames": [
+                "Drug: Part B: Dose of GSK2618960 decided from Part A"
+              ],
+              "label": "Part B: GSK2618960",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Subjects will receive ascending repeat dose (dose decided from Part A) in 3:1 ratio of active:placebo respectively in each cohort.",
+              "interventionNames": [
+                "Drug: Part B: matching placebo"
+              ],
+              "label": "Part B: Placebo",
+              "type": "PLACEBO_COMPARATOR"
+            },
+            {
+              "description": "Subjects will receive active treatments for 2 to 4 repeated doses (dose decided from Part A\\& B)",
+              "interventionNames": [
+                "Drug: Part C: Dose of GSK2618960 decided from Part A and B"
+              ],
+              "label": "Part C: GSK2618960",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Part A: GSK2618960"
+              ],
+              "description": "100 mg/mL GSK2618960 solution for IV Infusion up to 1 hr except for the 1st dose (IV bolus) and 2nd dose (IV infusion over 5 min) of Part A",
+              "name": "Part A: 100 mg/mL GSK2618960",
+              "type": "DRUG"
+            },
+            {
+              "armGroupLabels": [
+                "Part A: Placebo"
+              ],
+              "description": "Matching placebo",
+              "name": "Part A: matching placebo",
+              "type": "DRUG"
+            },
+            {
+              "armGroupLabels": [
+                "Part B: GSK2618960"
+              ],
+              "description": "100 mg/mL GSK2618960 solution for IV Infusion in repeat dose decided from Part A",
+              "name": "Part B: Dose of GSK2618960 decided from Part A",
+              "type": "DRUG"
+            },
+            {
+              "armGroupLabels": [
+                "Part B: Placebo"
+              ],
+              "description": "Matching placebo",
+              "name": "Part B: matching placebo",
+              "type": "DRUG"
+            },
+            {
+              "armGroupLabels": [
+                "Part C: GSK2618960"
+              ],
+              "description": "100 mg/mL GSK2618960 solution for IV Infusion in repeat dose decided from Part A and B",
+              "name": "Part C: Dose of GSK2618960 decided from Part A and B",
+              "type": "DRUG"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Multiple Sclerosis, Relapsing-Remitting"
+          ],
+          "keywords": [
+            "monoclonal antibody",
+            "Multiple Sclerosis",
+            "Interleukin-7 Receptor"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Cambridge",
+              "country": "United Kingdom",
+              "facility": "GSK Investigational Site",
+              "geoPoint": {
+                "lat": 52.2,
+                "lon": 0.11667
+              },
+              "zip": "CB2 2GG"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "GlaxoSmithKline",
+              "name": "GSK Clinical Trials",
+              "role": "STUDY_DIRECTOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "This is a 3-part study where Parts A, B (single-blind - investigator and subject blind) will enrol healthy volunteers and Part C (open-label) will enrol RRMS patients. Parts A (single ascending dose) and B (repeat ascending dose) will assess safety, tolerability, PK and PD of GSK2618960. Part C (repeat doses) will assess safety, tolerability, PK, PD, immunogenicity, paraclinical (magnetic resonance imaging \\[MRI\\] lesion counts) disease activity and markers of Th1 and Th17 mechanisms.\n\nPart A: Each of the 24 healthy volunteers (divided in 5 groups), will take part in only 2 of the planned 8 dosing sessions (A-active, P-placebo). Subjects in each group of Part A will be randomized in a 2:1:1 ratio to one of the following sequences: AA, AP or PA such that in each dosing session they will receive study treatment in a 3:1 ratio of active: placebo respectively.\n\nPart B: Dosing levels and regimen are dependent upon safety tolerability and PK/receptor occupancy (RO) data from Part A. In Cohort 1, 12 subjects will be randomized in a 3:1 ratio to A or P. Each subject will receive the same study treatment for repeated doses. If the duration of full RO from highest dose in Part A is less than 4 weeks, a second cohort of 12 subjects in Part B may be recruited, based on Dose Escalation Committee (DEC) decision Part C: The 20 RRMS patients will be assigned to active treatments for 2 to 4 repeated doses.\n\nSafety/tolerability and PK data monitoring and the decision to proceed to the next dose level of GSK2618960, and the decisions to proceed to Part B and Part C of the study will be made by a dose escalation committee."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "SINGLE",
+              "whoMasked": [
+                "PARTICIPANT"
+              ]
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 16,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE1"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\nHealthy volunteers\n\n* Healthy as determined by a responsible and experienced physician\n* Male between 18 and 55 years of age inclusive, at the time of signing the informed consent.\n* Alanine aminotransferase (ALT), alkaline phosphatase (AP) and bilirubin \\<=1.5xupper limit of normal (ULN) (isolated bilirubin \\>1.5xULN is acceptable if bilirubin is fractionated and direct bilirubin \\<35%).\n* Corrected QT interval using Fridericia's (QTcF) \\< 450 milliseconds (msec).\n* Body weight \\>=50 kilogram (kg), \\<=100 kg and body mass index (BMI) within the range 19.0 - 29.9 kg/meter squared (m\\^2) (inclusive).\n* Subjects with history of current vaccination status for tetanus, diphtheria, pertussis, measles, mumps and rubella (or consent to vaccination at screening). Subjects with history of current vaccination status for influenza or who consent to receive influenza vaccine at screening if study dosing is predicted to result in \\>75% RO during Flu season (October - April).\n* Male subjects with female partners of child-bearing potential must agree to use one of the contraception methods. This criterion must be followed from the time of the first dose of study.\n\nMS Patients\n\n* Suitable as determined by the Principal Investigator, based on his/her overall evaluation.\n* Must have a confirmed diagnosis of RRMS according to 2010 revisions to McDonald Criteria..\n* Must have a history of at least two clinical episodes of demyelination.\n* Have demonstrated clinical or paraclinical activity in 12 months prior to screening (which may have occurred whilst on a disease-modifying therapy) by either: One or more documented relapses,OR one or more documented Gd enhancing lesions in the brain or spinal cord,\n* Expanded Disability Status Scale (EDSS) score \\<=0 at the screening.\n* Male or female between 18 and 55 years of age inclusive, at the time of signing the informed consent.\n* A female subject is eligible to participate as follows: Non-childbearing potential, females on hormone replacement therapy (HRT) and whose menopausal status is in doubt will be required to use one of the contraception methods and women of childbearing potential should have used one of the contraception methods.\n* Male subjects must agree to use one of the contraception methods.\n* Subjects with history of current vaccination status for tetanus, diphtheria, pertussis, measles, mumps and rubella (or who consent to vaccination at screening). Subjects with expected study participation during Flu season (October - April) only, with history of current vaccination status for influenza or consent to receive influenza vaccine at screening.\n* Body weight \\>=50 kg.\n* On ECG, QTcF interval \\<450 msec; or QTcF \\<480 msec in subjects with bundle branch block.\n* Capable of giving written informed consent, which includes compliance with the requirements and restrictions listed in the consent form, and authorisation of the release and use of protected health information (PHI).\n\nExclusion Criteria:\n\nHealthy Volunteers\n\n* A positive pre-study Hepatitis B surface antigen or positive Hepatitis C antibody result within 3 months of screening.\n* A positive test for HIV antibody.\n* Current or chronic history of liver disease, or known hepatic or biliary abnormalities (with the exception of Gilbert's syndrome or asymptomatic gallstones).\n* A positive pre-study drug/alcohol screen.\n* History of smoking within 6 months of screening.\n* History of regular alcohol consumption within 6 months of the study defined as: An average weekly intake of \\>21 units for males. One unit is equivalent to 8 g of alcohol: a half-pint (\\~240 milliliter \\[mL\\]) of beer, 1 glass (125 mL) of wine or 1 (25 mL) measure of spirits.\n* The subject has participated in a clinical trial and has received an investigational product within the following time period prior to the first dosing day in the current study: 30 days, 5 half-lives or twice the duration of the biological effect of the investigational product (whichever is longer).\n* Exposure to more than four new chemical entities within 12 months prior to the first dosing day.\n* Unable to refrain from the use of prescription or non-prescription drugs, including vitamins, herbal and dietary supplements (including St John's Wort) within 7 days (or 14 days if the drug is a potential enzyme inducer) or 5 half-lives (whichever is longer) prior to the first dose of study medication, unless in the opinion of the Investigator and GSK Medical Monitor the medication will not interfere with the study procedures or compromise subject safety.\n* History of sensitivity to any of the study medications, or components thereof or a history of drug or other significant allergy that, in the opinion of the investigator or GSK Medical Monitor, contraindicates their participation.\n* Where participation in the study would result in donation of blood or blood products in excess of 500 mL within a 56 day period.\n* Subjects, who in the investigator's judgement, pose a significant suicide risk. Evidence of serious suicide risk may include any history of suicidal behaviour in the last 6 months and/or any suicidal ideation of type 4 or 5 on the C-SSRS in the last 2 months.\n* Previous history of anaphylaxis and severe allergic reaction.\n* Receipt of live vaccination within 1 month of screening (excluding flu vaccination) or plan to receive live vaccination during the study.\n\nMS Patients\n\n* Intolerant, or unwilling, to undergo MRI scanning.\n* Contraindications for administration of Gd-contrast agents i.e. history of allergy to gadolinium.\n* Subjects, who in the investigator's judgement, pose a significant suicide risk. Evidence of serious suicide risk may include any history of suicidal behaviour in the last 6 months and/or any suicidal ideation of type 4 or 5 on the C-SSRS in the last 2 months.\n* History of, or laboratory findings indicative of any clinically significant (as determined by the Investigator) cardiac, endocrinologic, hematologic, hepatic, immunologic, metabolic, urologic, pulmonary, neurologic (other than MS), dermatologic, psychiatric, renal, and/or other major disease or of known drug sensitivity that would preclude the administration of a recombinant humanized antibody or the use of systemic steroids during the course of the study.\n* Abnormal baseline blood tests exceeding any of the limits defined below: ALT or aspartate transaminase (AST) \\>1.5 x the ULN, AP and bilirubin \\>1.5X ULN (isolated bilirubin \\>1.5x ULN is acceptable if bilirubin is fractionated and direct bilirubin \\<35%), total white blood cell count \\<2,500/millimetre cube (mm\\^3), if lymphocyte count is less than the Lower Limit of Normal (LLN), maybe included only if PI and GSK Medical Monitor agree that doesn't introduce additional risk, platelet count \\< 95,000/mm3, creatinine \\>2 x ULN, calculated creatinine clearance \\<60 ml/min (per Cockcroft \\& Gault) at Screening, International Normalised Ratio (INR) larger than upper limit of the normal reference range (0.9 - 1.3).\n\nA subject with a clinical abnormality or laboratory parameters significantly outside the above reference range for the population being studied may be included only if the Investigator and the GlaxoSmithKline Medical Monitor agree that the finding is unlikely to introduce additional risk factors and will not interfere with the study procedures.\n\n* Treatment with methylprednisolone or any other systemic steroid, for a relapse or otherwise, within 30 days of dosing.\n* Treatment with first line disease modifying therapies for RRMS, such as glatiramer acetate or beta-interferons within 6 weeks prior to screening.\n* Treatment within the past 12 months or currently with any of the following agents: cyclosporine, cladribine, natalizumab (Tysabri) or other monoclonal antibodies, murine protein, T-cell vaccination, plasmapheresis, intravenous (IV) Immunoglobulin G (IgG), stem cell transplantation.\n* Treatment in the past 6 months with any of the following agents: Fingolimod (Gilenya), methotrexate, mitoxantrone, azathioprine, or other small molecule immunosuppressants.\n* History of intolerance to paracetamol, ibuprofen, naproxen or other non-steroidal anti-inflammatory agents which would preclude use of at least one of these during the study.\n* Previous history of anaphylaxis, severe allergic reaction, generation of neutralizing antibodies, or hypersensitivity to albumin or a protein-based therapeutic, including natalizumab (Tysabri) or any other monoclonal antibody.\n* A positive pre-study hepatitis B surface antigen or positive hepatitis C antibody result.\n* Known diagnosis or history consistent with human immunodeficiency virus (HIV) positivity\n* Subjects with evidence of dementia or psychiatric illness which, in the Investigator's opinion, is likely to prevent them from a full understanding of and/or compliance with the study requirements and procedures. .\n* Blood donation (1 unit or more) within 3 months prior to investigational drug administration.\n* History of regular alcohol consumption within 6 months of the study defined as:\n\nAverage weekly intake of \\>21 units for males or \\>14 units for females. One unit is equivalent to 8 gram (g) of alcohol: a half-pint (\\~240 mL) of beer, 1 glass (125 mL) of wine or 1 (25 mL) measure of spirits.\n\n* Subjects who have received live vaccinations 1 month prior to screening (excluding flu vaccination) or plan to receive live vaccination during the study.\n* Smokers unable to abstain from smoking while on the clinical unit.",
+          "healthyVolunteers": true,
+          "maximumAge": "55 Years",
+          "minimumAge": "18 Years",
+          "sex": "MALE",
+          "stdAges": [
+            "ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "A First Time in Human Study Exploring Safety, Tolerability, Pharmacokinetics (PK) and Pharmacodynamics (PD) of GSK2618960 in Healthy Volunteers and Patients With Relapsing Remitting Multiple Sclerosis (RRMS)",
+          "nctId": "NCT01808482",
+          "officialTitle": "A First Time in Human Study Exploring Preliminary Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of GSK2618960 in Healthy Volunteers and Patients With Relapsing Remitting Multiple Sclerosis",
+          "orgStudyIdInfo": {
+            "id": "116702"
+          },
+          "organization": {
+            "class": "INDUSTRY",
+            "fullName": "GlaxoSmithKline"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "description": "Patient-level data for this study will be made available through www.clinicalstudydatarequest.com following the timelines and process described on this site.",
+          "ipdSharing": "YES"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Safety and tolerability parameters will include recording of vital signs, electrocardiogram (ECG)s, safety labs, and adverse event (AE)s, in Part A/B/C of the study in healthy volunteers and Multiple Sclerosis (MS) patients.",
+              "measure": "Safety and tolerability of GSK2618960 as assessed by changes in: vital signs, ECG monitoring, haematology, clinical chemistry, urinalysis, and monitoring of AEs in healthy volunteers and MS patients",
+              "timeFrame": "Upto Week 12 pending emerging data and DEC decisions."
+            },
+            {
+              "description": "Safety and tolerability parameters will include recording of the number/duration/severity of MS relapses in Part C of the study in MS patients",
+              "measure": "Safety and tolerability of GSK2618960 as assessed by changes in MS relapses: Number, duration, severity in MS patients",
+              "timeFrame": "Upto Week 12 pending emerging data and DEC decisions"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "The following pharmacokinetic (PK) data will be calculated: maximum concentration (Cmax), area under the concentration-time curve from time zero (pre-dose) to last time of quantifiable concentration \\[AUC(0-tau)\\] and AUC from zero to infinity \\[AUC(0-inf)\\], percentage of AUC(0-inf) obtained by extrapolation (%AUC(ex)), clearance (CL), volume of distribution (Vss), time from administration to Cmax (tmax) and elimination half life (t\u00bd) of GSK2618960.",
+              "measure": "Composite of PK parameters of GSK2618960",
+              "timeFrame": "Day 1 predose 1,2,4, 8, 24 hour (hr)s post dose (Day 2), 36 hrs (Day 2), Day 3, Day 4, Day 8, Day 15, and post Day 15 every 2 weeks and dependent upon predictions."
+            },
+            {
+              "description": "The total receptor levels will be measured by counting the binding of fluorophore-conjugated competing antibody (PE-GSK2618960) to unoccupied GSK2618960 binding sites, normalized by baseline and maximum blocking controls, in addition to non-competing antibody binding.",
+              "measure": "Receptor occupancy by GSK2618960 - Blinding of fluorophore-conjugated competing and non-competing antibody of GSK2618960 following the single and repeat IV doses",
+              "timeFrame": "Day 1 predose 1, 4, 8 hrs dose, Day 2, Day 3, Day 4, Day 8, Day 15, and Day 29 onwards visits through final follow up, and dependent upon predictions."
+            },
+            {
+              "description": "The PK/RO relationship of GSK2618960 following single and repeat IV doses in Part A and B of the study.",
+              "measure": "Relationship between dose and duration of >95% RO of GSK2618960 following single and repeat IV doses in healthy volunteers",
+              "timeFrame": "Day 1 predose 1,2,4, 8, 24 hour (hr)s post dose (Day 2), 36 hrs (Day 2), Day 3, Day 4, Day 8, Day 15, and post Day 15 every 2 weeks and dependent upon predictions."
+            },
+            {
+              "description": "Blood from 7 distinct healthy donors was incubated ex vivo with 0.003 to 100 microgram/mL GSK2618960 and then stimulated with 5ng/mL human IL-7 STAT5 phosphorylation as well as unbound GSK2618960 and total IL-7R levels were assayed by flow cytometry.",
+              "measure": "To characterize the effect of GSK2618960 on IL-7 downstream signalling - Phosphorylation level of stat5 protein upon ex vivo stimulation of IL-7 cytokine, normalized by baseline, maximum receptor blocking controls and unstimulated controls",
+              "timeFrame": "Day -1, Day 8, Day 15 and Day 29 onwards through final follow up, dependent upon predictions."
+            },
+            {
+              "description": "Presence of antibodies to GSK2618960 will be assessed in serum samples using validated ECL assays.",
+              "measure": "Presence of antibodies to GSK2618960",
+              "timeFrame": "Immunogenicity sampling will be performed at Day1 pre-dose, Day 15 and approximately 2 months after dosing for dosing sessions 1- 5, and performed every 3 months after final dosing for dosing sessions 6-8 and parts B & C."
+            },
+            {
+              "description": "Lymphocyte subsets will include B cells, CD3+ T cells, NK cells, regulatory T cells, and recent thymic emigrants, and may include, CD4+T cell, CD8+ T cells, na\u00efve CD4+ T cells, effect memory CD4+ T cells, and central memory CD4+ T cell, etc. For Part A, blood sampling for lymphocyte subset is not required for dosing sessions 1-3. For part A, after day 29, a maximum of 3 blood samples will be drawn, each separated by 2 weeks, at time points spanning the predicted end of full RO. For parts B and C, blood sampling is limited to Day -1, and 3 blood samples separated by 2 weeks.",
+              "measure": "Changes in numbers and relevant ratios of lymphocyte subsets",
+              "timeFrame": "Day -1, Day 8, Day 15 and Day 29 onwards through final follow up, will be dependent upon predictions."
+            },
+            {
+              "description": "Serum inflammatory mediators, including some or all, but not limited to: IL-1\u03b2, IL-6, IL-8, MCP-1, TNF-\u03b1 and IFN-\u03b3 blood sampling for serum inflammatory mediators will be performed for dose sessions 1, 2, 3, 6; optional for other dose sessions in part A, Part B and Part C pending emerging data",
+              "measure": "Markers of serum inflammatory mediators in blood.",
+              "timeFrame": "Day 1 predose and 1 h and 4 h post dose, Day 2 and Day 3"
+            },
+            {
+              "description": "Cumulative number of new brain lesions will be assessed in Part C of the study using magnetic resonance imaging (MRI). New lesion is defined as enhancing in the presence of Gadolinium contrast agent.",
+              "measure": "Cumulative number of new brain lesions",
+              "timeFrame": "1st MRI baseline at -8weeks, 2nd MRI baseline at -4 weeks, 3rd MRI baseline on Day -1, and at Week 6, Week 10, Week 14 and Week 18 after first dose"
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": true
+        },
+        "referencesModule": {
+          "availIpds": [
+            {
+              "comment": "For additional information about this study please refer to the GSK Clinical Study Register",
+              "id": "116702",
+              "type": "Statistical Analysis Plan",
+              "url": "https://www.clinicalstudydatarequest.com"
+            },
+            {
+              "comment": "For additional information about this study please refer to the GSK Clinical Study Register",
+              "id": "116702",
+              "type": "Study Protocol",
+              "url": "https://www.clinicalstudydatarequest.com"
+            },
+            {
+              "comment": "For additional information about this study please refer to the GSK Clinical Study Register",
+              "id": "116702",
+              "type": "Annotated Case Report Form",
+              "url": "https://www.clinicalstudydatarequest.com"
+            },
+            {
+              "comment": "For additional information about this study please refer to the GSK Clinical Study Register",
+              "id": "116702",
+              "type": "Dataset Specification",
+              "url": "https://www.clinicalstudydatarequest.com"
+            },
+            {
+              "comment": "For additional information about this study please refer to the GSK Clinical Study Register",
+              "id": "116702",
+              "type": "Informed Consent Form",
+              "url": "https://www.clinicalstudydatarequest.com"
+            },
+            {
+              "comment": "For additional information about this study please refer to the GSK Clinical Study Register",
+              "id": "116702",
+              "type": "Individual Participant Data Set",
+              "url": "https://www.clinicalstudydatarequest.com"
+            },
+            {
+              "comment": "For additional information about this study please refer to the GSK Clinical Study Register",
+              "id": "116702",
+              "type": "Clinical Study Report",
+              "url": "https://www.clinicalstudydatarequest.com"
+            }
+          ],
+          "seeAlsoLinks": [
+            {
+              "label": "Results for study 116702 can be found on the GSK Clinical Study Register.",
+              "url": "https://gsk-clinicalstudyregister.com/study/116702?search=study&study_ids=116702#rs"
+            },
+            {
+              "label": "Researchers can use this site to request access to anonymised patient level data and/or supporting documents from clinical studies to conduct further research.",
+              "url": "https://www.clinicalstudydatarequest.com"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "INDUSTRY",
+            "name": "GlaxoSmithKline"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2013-08-06",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2017-06-07",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2017-06-06",
+          "overallStatus": "TERMINATED",
+          "primaryCompletionDateStruct": {
+            "date": "2013-08-06",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2013-03-13",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2017-06",
+          "studyFirstPostDateStruct": {
+            "date": "2013-03-11",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2013-03-07",
+          "studyFirstSubmitQcDate": "2013-03-07",
+          "whyStopped": "GSK confirmed misrepresentation of preclinical data that supported the rationale for GSK2618960 in MS. This decreased benefit assessment for MS"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D020278",
+              "term": "Demyelinating Autoimmune Diseases, CNS"
+            },
+            {
+              "id": "D020274",
+              "term": "Autoimmune Diseases of the Nervous System"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D003711",
+              "term": "Demyelinating Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            },
+            {
+              "id": "D001519",
+              "term": "Behavior"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D009103",
+              "term": "Multiple Sclerosis"
+            },
+            {
+              "id": "D009043",
+              "term": "Motor Activity"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D005081",
+              "term": "Exercise Therapy"
+            },
+            {
+              "id": "D012046",
+              "term": "Rehabilitation"
+            },
+            {
+              "id": "D000359",
+              "term": "Aftercare"
+            },
+            {
+              "id": "D003266",
+              "term": "Continuity of Patient Care"
+            },
+            {
+              "id": "D005791",
+              "term": "Patient Care"
+            },
+            {
+              "id": "D013812",
+              "term": "Therapeutics"
+            },
+            {
+              "id": "D026741",
+              "term": "Physical Therapy Modalities"
+            },
+            {
+              "id": "D064797",
+              "term": "Physical Conditioning, Human"
+            },
+            {
+              "id": "D015444",
+              "term": "Exercise"
+            },
+            {
+              "id": "D009043",
+              "term": "Motor Activity"
+            },
+            {
+              "id": "D009068",
+              "term": "Movement"
+            },
+            {
+              "id": "D009142",
+              "term": "Musculoskeletal Physiological Phenomena"
+            },
+            {
+              "id": "D055687",
+              "term": "Musculoskeletal and Neural Physiological Phenomena"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D055070",
+              "term": "Resistance Training"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "People with MS, 60 or older",
+              "interventionNames": [
+                "Other: Exercise trial consisting of both cardiovascular and strength training"
+              ],
+              "label": "People with MS",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "People with MS"
+              ],
+              "description": "All participants will receive 12 weeks of combined ET and RT. All exercise is supervised with a certified trainer. All study staff are CPR trained. Progression of volume and intensity will occur during the ramp-up week and into the first week of training. The ramp-up period increases the number of sets, repetitions, and intensity to limit excessive muscle damage, soreness, and fatigue. Full volume training will be achieved by the end of week one and progression thereafter will be based on intensity. Participants will complete 3x/wk ET and 3x/week RT. Both ET and RT will be progressed on an individual level via monitoring of each session with pragmatic increases in cycling wattage, treadmill speed/grade, and weight lifted as needed. At the completion of training there will be a testing week that repeats the battery of testing completed during the wash-in period to determine responder status by the a priori designated MCIDs for CRF and fMQ.",
+              "name": "Exercise trial consisting of both cardiovascular and strength training",
+              "otherNames": [
+                "endurance",
+                "strength"
+              ],
+              "type": "OTHER"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Multiple Sclerosis",
+            "Aging"
+          ],
+          "keywords": [
+            "exercise",
+            "skeletal muscle",
+            "metabolism",
+            "muscle",
+            "resistance training",
+            "training",
+            "cardiovascular training"
+          ]
+        },
+        "contactsLocationsModule": {
+          "centralContacts": [
+            {
+              "email": "lena-fuentes@omrf.org",
+              "name": "Lena Fuentes",
+              "phone": "4052717745",
+              "role": "CONTACT"
+            },
+            {
+              "email": "bobbette-miller@ou.edu",
+              "name": "Bobbette Miller",
+              "phone": "4052714214",
+              "role": "CONTACT"
+            }
+          ],
+          "locations": [
+            {
+              "city": "Oklahoma City",
+              "contacts": [
+                {
+                  "email": "lena-fuentes@omrf.org",
+                  "name": "Lena Fuentes",
+                  "phone": "4052717745",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "United States",
+              "facility": "Oklahoma Medical Research Foundation",
+              "geoPoint": {
+                "lat": 35.46756,
+                "lon": -97.51643
+              },
+              "state": "Oklahoma",
+              "status": "RECRUITING",
+              "zip": "73104"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Oklahoma Medical Research Foundation",
+              "name": "Benjamin F Miller, Ph.D.",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            },
+            {
+              "affiliation": "Oklahoma Medical Research Foundation",
+              "name": "Gabriel Pardo",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The purposes of this study are to: 1) compare baseline muscle and cardiovascular health in older individuals (\\>60 years old) diagnosed with MS to age-matched people without MS, 2) determine muscle and whole body changes to an exercise training program, 3) determine if the muscle in a more affected leg in individuals diagnosed with MS is different from the muscle of a less affected leg, and 4) if or how individuals diagnosed with MS adapt differently than age-matched people without MS to exercise training. Participation in this study will average 1.5 hours per visit, 3 visits per week, for approximately 4 months.",
+          "detailedDescription": "Disease-modifying therapies (DMT) are effective in reducing the risk of developing additional debilitating symptoms of multiple sclerosis (MS) and slowing disease progression, leading to better functional mobility outcomes and quality of life. As a result, people with MS (PwMS) are now more likely to maintain independence into their later years. Since older PwMS maintaining independence is a relatively recent phenomenon, there is virtually nothing known about how MS exacerbates the age-related loss of muscle mass and function (i.e., sarcopenia) or how PwMS adapt to interventions, such as exercise, that slow age-related declines. In addition, PwMS are known to be highly heterogeneous in functional ability, fatigue, and other physical factors. The investigators do not yet understand the aging trajectory in PwMS and if current treatment guidelines for aged individuals for overall health, including maintaining muscle mass and function, are effective in aged PwMS.\n\nAging-related functional declines are thought to be caused by hallmark biological processes that ultimately manifest in physical, mental, and metabolic impairments, which compromise healthspan and quality of life. Exercise is a multipotent treatment with promise to mitigate most aging hallmarks. However, there is substantial variability in how individuals respond to exercise training, which is termed inter-individual response heterogeneity (IRH). Low cardiorespiratory fitness (CRF, VO2max) and low functional muscle quality (fMQ; strength/muscle mass) are multi-system manifestations of the deterioration of the cellular hallmarks of aging, but both CRF and fMQ are modifiable with endurance exercise training (ET) and resistance exercise training (RT). It is yet to be determined how the hallmarks of aging influence IRH. For example, poor responder status could be caused by hallmark deterioration of mitochondrial function, ability to maintain proteostasis, or systemic inflammation.\n\nThe investigators are conducting an NIH funded clinical trial that hypothesizes that factors central to aging itself, such as proteostasis, mitochondrial energetics, and inflammation, are contributors to the multidimensional circuitry that determines whether an individual achieves the minimum clinically important difference (MCID) in CRF and/or fMQ with exercise training. The goal of the funded trial is to disentangle the complicated relationships between endogenous and exogenous factors that drive response variation to exercise. To accomplish this goal, investigators will use tissue (muscle and blood) sampling, multi-omics, extensive phenotyping, and multidimensional modeling. For the PHF proposal, investigators will leverage this ongoing clinical trial and enroll aged PwMS into the study. The overall goal of the current proposal is to establish baseline muscle and overall health characteristics, responsiveness to exercise training, and factors that give rise to heterogeneity of symptomology in aged PwMS."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "NA",
+            "interventionModel": "SINGLE_GROUP",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "OTHER"
+          },
+          "enrollmentInfo": {
+            "count": 10,
+            "type": "ESTIMATED"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* 1\\. Male or female aged 60 or above 2. Free of unmanaged chronic diseases other than multiple sclerosis 3. No structured exercise program (2 or more bouts/wk) within previous 6 months 4. Cognitively capable of providing informed consent 5. Must meet EDSS score between 2 to 5.5 during screening\n\nExclusion Criteria:\n\n* 1\\. Neuromuscular or musculoskeletal disorder, other than multiple sclerosis, that would limit the ability to perform the exercise and/or testing bouts.\n\n  2\\. Cardiopulmonary disorders or reduced breathing capacity\n\n  3\\. Metabolic diseases including markers of liver disease (ALT \\> 52 U/dl) and type 2 diabetes (HbA1C \u2265 6.5, fasting blood glucose \u2265 126 mg/dl)\n\n  4\\. Taking any dose of metformin\n\n  5\\. Any other disease or disorder that would influence exercise response (e.g., chronic kidney disease, Alzheimer's, current cancer diagnosis or within 2 yr remission, cerebrovascular)\n\n  6\\. History of Chemotherapy within 5 years\n\n  7\\. Unchangeable anticoagulant (Coumadin, Pradaxa, etc.) use. To be determined by clinical staff.\n\n  8\\. Insulin sensitizing/blood glucose lowering (e.g., metformin) or metabolic (GLP1 agonists) drugs.\n\n  9\\. High dose statin (40 mg and above)\n\n  10\\. Have a non-correctable visual impairment\n\n  11\\. Score less than 29 on the Symbol Digit Test\n\n  12\\. Received Botox for spasticity within the prior 3 months of study participation.\n\n  13\\. Cannot have any adjustments to Baclofen during study participation.\n\n  13\\. Unable to commit to \\~4 months required to complete the study.\n\n  14\\. Lidocaine allergy\n\n  15\\. Tobacco use\n\n  16\\. Excessive alcohol consumption (3 drinks/d or 7 drinks/wk for females; 4 drinks/day or drinks/wk for males)\n\n  17\\. BMI greater than 35.0 kg/m2",
+          "healthyVolunteers": false,
+          "minimumAge": "60 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "acronym": "MS-M3AX",
+          "briefTitle": "Skeletal Muscle Aging and Responsiveness in Aged People With MS",
+          "nctId": "NCT07500727",
+          "officialTitle": "Skeletal Muscle Aging and Responsiveness in Aged People With MS",
+          "orgStudyIdInfo": {
+            "id": "25-23-OMRF"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Oklahoma Medical Research Foundation"
+          },
+          "secondaryIdInfos": [
+            {
+              "domain": "Presbyterian Health Foundation",
+              "id": "25-23",
+              "type": "OTHER_GRANT"
+            }
+          ]
+        },
+        "ipdSharingStatementModule": {
+          "description": "The data will be partially de-identified. IHMC will only have access to the participant's Subject ID, year of birth (and therefore age), and height/weight, which is necessary for normalization of outcomes such as cardiorespiratory fitness (VO2max testing).",
+          "ipdSharing": "UNDECIDED"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Investigators will determine fMQ from bilateral one-repetition maximum (1RM) knee extension strength / bilateral thigh lean mass via dual-energy x-ray absorptiometry (DXA). Strength testing will be performed with a study trainer and DXA scanning will occur at Oklahoma Children's Hospital OU Health.",
+              "measure": "fMQ",
+              "timeFrame": "Week -3 and Week -2"
+            },
+            {
+              "description": "Investigators will test CRF on a cycle ergometer using a continuous ramp protocol and ECG monitoring. The study clinician will monitor the ECG during testing while 1-2 other study personnel are administering the test. The ideal ramp for the individual is based on sex, body size, and initial assessments during familiarization",
+              "measure": "CRF",
+              "timeFrame": "Enrollment to end of study at 18 weeks"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Additional clinical phenotyping includes total and regional body composition scans using a GE Lunar iDXA and insulin resistance by HOMA-IR from fasting blood draws obtained from a study phlebotomist. An Octave biomarker panel will also be evaluated from blood draws.",
+              "measure": "Total and Regional Body Composition",
+              "timeFrame": "Week -3 and Week -2"
+            },
+            {
+              "description": "Investigators will use established methods to assess hallmarks of aging. Investigators will assess proteostasis in skeletal muscle using the final muscle biopsy sample from each leg with tracer-based proteomics. Investigators will use high-resolution respirometry on skeletal muscle mitochondria (Oroboros O2K respirometers) to determine both mitochondrial respiratory function and reactive oxygen species generation.",
+              "measure": "Muscle Biopsy",
+              "timeFrame": "Week 1 and Week 12 Muscle Biopsy"
+            },
+            {
+              "description": "For additional skeletal muscle phenotyping, investigators will perform histological analyses of skeletal muscle with immunohistochemical approaches using the well-established methods for cellular morphology, myofiber type distribution and size heterogeneity, fibrosis, vascularization (capillary supply), senescence/DNA damage, the presence of resident stem cells, and inflammatory cells including M1 macrophages10-12. Image analysis will be performed using the automated workflow in MyoVision.",
+              "measure": "Skeletal Muscle Phenotyping",
+              "timeFrame": "Week 0, 6, and 12"
+            },
+            {
+              "description": "Systemic inflammation will be assessed in serum samples using the MSD 10-plex cytokine panel. The cytokines tested, GM-CSF, IL-1alpha, IL-5, IL-7, IL-12, IL-15, IL-16, IL-17A, TNF-beta, and VEGF-A each have dynamic detection ranges respectively, 0.16-750 pg/mL, 0.09-278 pg/mL, 0.14-562 pg/mL, 0.12-563 pg/mL, 0.33-2,250 pg/mL, 0.15-525 pg/mL, 2.83-1,870 pg/mL, 0.31-3,650 pg/mL, 0.08-458 pg/mL, and1.12-562 pg/mL. Increased cytokines (high pg/mL) indicates a more active, heightened immune response with low cytokines (low pg/mL) indicating a normal resting immune system state.",
+              "measure": "Systemic Inflammation",
+              "timeFrame": "Week 1 and Week 12"
+            },
+            {
+              "description": "Investigators will also assess muscle inflammation in a targeted manner based on the fold change in expression of 3 receptors (TNF\u03b1, Fn14, IL-6) and associated intracellular signaling (p-STAT3, NFKB p-p65).",
+              "measure": "Muscle Inflammation",
+              "timeFrame": "Week 1 and Week 12"
+            },
+            {
+              "description": "Investigators also evaluate biomarkers in the blood using the Octave biomarker panel, a panel that measures 18 biomarkers to assess disease level in PwMS. Each biomarker generates an overall activity (DA) score from 1.0 to 10.0. Low DA score indicates more controlled, lower inflammation. A high DA score indicates high inflammation.",
+              "measure": "Blood Biomarkers",
+              "timeFrame": "Week 1 and Week 12"
+            },
+            {
+              "description": "Mobility and balance testing will be accomplished via the well-established short physical performance battery (SPPB). The scale is a minimum score of 0 and maximum score of 12 with higher scores indicating better lower extremity function.",
+              "measure": "Mobility and Balance",
+              "timeFrame": "Week -3 and Week -2"
+            },
+            {
+              "description": "Investigators will assess basic cognitive function (reaction time, impulse control, visual processing speed) and balance with the Sway platform (Sway Medical). A score of 100 indicates perfect stability and lower scores indicate instability with the lowest score being 0.",
+              "measure": "Basic Cognitive Function and Balance",
+              "timeFrame": "Week -3 and Week -2"
+            },
+            {
+              "description": "Investigators will use the validated Patient-Reported Outcomes Measurement Information System (PROMIS) mental health battery to evaluate participant's perspective on physical, mental, and social health. This test uses a T-score metric (typical range of 20-80) with a mean of 50, and a standard deviation of 10, higher scores indicating higher levels of metric measured with a maximum of \\>70 indicating severe for negative domains like pain, and scores minimum of \\<55 being within normal limits/absent of negative domain.",
+              "measure": "Participant's Self Evaluation of Physical, Mental, and Social Health",
+              "timeFrame": "Week -3 and Week -2"
+            },
+            {
+              "description": "Beck Depression Inventory II will be used to assess the presence and severity of depression symptoms within the past 2 weeks. Minimum score is 0 which indicates no presence of depression, and 63 being the highest score indicating the presence of severe depression.",
+              "measure": "Depression",
+              "timeFrame": "Week -3 and Week -2"
+            },
+            {
+              "description": "Circadian rhythm will be assessed using the Morningness-Eveningness Questionnaire. Minimum score of 16 indicates evening preference and highest score of 86 indicates morning preference.",
+              "measure": "Circadian Rhythm",
+              "timeFrame": "Week -3 and Week -2"
+            },
+            {
+              "description": "Pittsburgh Sleep Quality Index is a self-reported questionnaire that will be used to evaluate participant's sleep quality. 0 being the lowest score and 21 being the highest, with higher scores indicating poorer sleep quality.",
+              "measure": "Sleep Quality",
+              "timeFrame": "Week -3 and Week -2"
+            },
+            {
+              "description": "Fatigue will be evaluated using the Modified Fatigue Impact Scale (MFIS) questionnaire to rate fatigue in three categories: physical, cognitive, and psychosocial. A total score ranging from 0 to 84, where higher scores indicate greater fatigue impacting daily life.",
+              "measure": "Fatigue",
+              "timeFrame": "Week -3 and Week -2"
+            },
+            {
+              "description": "A 10 Metre Walk Test will be administered to evaluate participant's gait speed and functional mobility. The total time taken to walk 10 meters is recorded, with slower speed indicating fall risks and higher speeds indicating better mobility.",
+              "measure": "Gait Speed",
+              "timeFrame": "Week -3 and Week -2"
+            },
+            {
+              "description": "The 6 Minute Walk Test will be used to evaluate functional capacity, and measures the distance a participant can walk in 6 minutes. Longer distance covered indicates stronger gross functional capacity.",
+              "measure": "Functional Capacity",
+              "timeFrame": "Week -3 and Week -2"
+            },
+            {
+              "description": "To strengthen the phenotyping to support the multidimensional Interindividual Response Heterogeneity circuitry, investigators will use the Oura ring to monitor activity, sleep, mobility, temperature trends, and additional vital signs.",
+              "measure": "Phenotyping Support with Multidimensional Interindividual Response Heterogeneity",
+              "timeFrame": "Week 1 through Week 13"
+            },
+            {
+              "description": "To strengthen the phenotyping to support the multidimensional Interindividual Response Heterogeneity circuitry, subjects will wear a continuous glucose monitor (CGM) for \\~7 d durations using the Dexcom G8 at the beginning and end of exercise training.",
+              "measure": "Glucose Monitoring",
+              "timeFrame": "Week 1 and Week 12"
+            },
+            {
+              "description": "Automated Self-Administered 24-Hour (ASA24) Dietary Assessment Tool will be used to evaluate participant's dietary intake.",
+              "measure": "Dietary Intake",
+              "timeFrame": "Week -3 to -2, Week 0, Week 6, and Week 12"
+            },
+            {
+              "description": "Investigators also evaluate biomarkers in the blood using the Octave biomarker panel, a panel that measures 18 biomarkers to assess disease level in PwMS. To assess inter-tissue communication, investigators will perform plasma EV long and small RNA-Seq, and whole muscle RNA-Seq and ATAC-Seq. All samples will be processed, sequenced, and analyzed.",
+              "measure": "Blood Biomarkers",
+              "timeFrame": "Week 1 and Week 12"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": false
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Long DE, Peck BD, Lavin KM, Dungan CM, Kosmac K, Tuggle SC, Bamman MM, Kern PA, Peterson CA. Skeletal muscle properties show collagen organization and immune cell content are associated with resistance exercise response heterogeneity in older persons. J Appl Physiol (1985). 2022 Jun 1;132(6):1432-1447. doi: 10.1152/japplphysiol.00025.2022. Epub 2022 Apr 28.",
+              "pmid": "35482328",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Abbott CB, Lawrence MM, Kobak KA, Lopes EBP, Peelor FF 3rd, Donald EJ, Van Remmen H, Griffin TM, Miller BF. A Novel Stable Isotope Approach Demonstrates Surprising Degree of Age-Related Decline in Skeletal Muscle Collagen Proteostasis. Function (Oxf). 2021 May 10;2(4):zqab028. doi: 10.1093/function/zqab028. eCollection 2021.",
+              "pmid": "34124684",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Fuqua JD, Lawrence MM, Hettinger ZR, Borowik AK, Brecheen PL, Szczygiel MM, Abbott CB, Peelor FF 3rd, Confides AL, Kinter M, Bodine SC, Dupont-Versteegden EE, Miller BF. Impaired proteostatic mechanisms other than decreased protein synthesis limit old skeletal muscle recovery after disuse atrophy. J Cachexia Sarcopenia Muscle. 2023 Oct;14(5):2076-2089. doi: 10.1002/jcsm.13285. Epub 2023 Jul 14.",
+              "pmid": "37448295",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Miller B, Hamilton K, Boushel R, Williamson K, Laner V, Gnaiger E, Davis M. Mitochondrial respiration in highly aerobic canines in the non-raced state and after a 1600-km sled dog race. PLoS One. 2017 Apr 26;12(4):e0174874. doi: 10.1371/journal.pone.0174874. eCollection 2017.",
+              "pmid": "28445477",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Bubak MP, Davidyan A, O'Reilly CL, Mondal SA, Keast J, Doidge SM, Borowik AK, Taylor ME, Voloviceva E, Kinter MT, Britton SL, Koch LG, Stout MB, Lewis TL Jr, Miller BF. Metformin treatment results in distinctive skeletal muscle mitochondrial remodeling in rats with different intrinsic aerobic capacities. Aging Cell. 2024 Sep;23(9):e14235. doi: 10.1111/acel.14235. Epub 2024 Jun 24.",
+              "pmid": "38923664",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Graham ZA, Bubak MP, Raymond-Pope CJ, Cutter GR, McAdam JS, Tuggle SC, Siedlik JA, de Sousa LGO, Chappe EJ, Meece K, Kaur A, Ruiz BS, Bamman SC, Vanselow KM, Perry TW, Acosta-Arreguin JS, Bohmke NJ, Addison GJ, Bowers JM, Wright RL, Fuentes LD, Smith JE, Esser KA, Miller BF, Bodine SC, Bamman MM. Multidimensional Modeling to Maximize Adaptations to eXercise: the M3AX trial rationale and study design. J Appl Physiol (1985). 2025 Nov 1;139(5):1345-1356. doi: 10.1152/japplphysiol.00486.2025. Epub 2025 Sep 27.",
+              "pmid": "41015496",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Roberts BM, Lavin KM, Many GM, Thalacker-Mercer A, Merritt EK, Bickel CS, Mayhew DL, Tuggle SC, Cross JM, Kosek DJ, Petrella JK, Brown CJ, Hunter GR, Windham ST, Allman RM, Bamman MM. Human neuromuscular aging: Sex differences revealed at the myocellular level. Exp Gerontol. 2018 Jun;106:116-124. doi: 10.1016/j.exger.2018.02.023. Epub 2018 Feb 24.",
+              "pmid": "29481967",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Lee J, Song RJ, Musa Yola I, Shrout TA, Mitchell GF, Vasan RS, Xanthakis V. Association of Estimated Cardiorespiratory Fitness in Midlife With Cardiometabolic Outcomes and Mortality. JAMA Netw Open. 2021 Oct 1;4(10):e2131284. doi: 10.1001/jamanetworkopen.2021.31284.",
+              "pmid": "34714339",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Gaemelke T, Pedersen IS, Dalgas U, Hvid LG. Sarcopenia in older people with multiple sclerosis: A cross-sectional study. Mult Scler Relat Disord. 2025 Jan;93:106190. doi: 10.1016/j.msard.2024.106190. Epub 2024 Nov 25.",
+              "pmid": "39631136",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Powers SK, Lynch GS, Murphy KT, Reid MB, Zijdewind I. Disease-Induced Skeletal Muscle Atrophy and Fatigue. Med Sci Sports Exerc. 2016 Nov;48(11):2307-2319. doi: 10.1249/MSS.0000000000000975.",
+              "pmid": "27128663",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Naseri A, Nasiri E, Sahraian MA, Daneshvar S, Talebi M. Clinical Features of Late-Onset Multiple Sclerosis: a Systematic Review and Meta-analysis. Mult Scler Relat Disord. 2021 May;50:102816. doi: 10.1016/j.msard.2021.102816. Epub 2021 Feb 4.",
+              "pmid": "33571792",
+              "type": "BACKGROUND"
+            },
+            {
+              "citation": "Klistorner S, Barnett M, Parratt JDE, Yiannikas C, Wang C, Wang D, Shieh A, Klistorner A. Evolution of Chronic Lesion Tissue in Relapsing-Remitting Patients With Multiple Sclerosis: An Association With Disease Progression. Neurol Neuroimmunol Neuroinflamm. 2025 May;12(3):e200377. doi: 10.1212/NXI.0000000000200377. Epub 2025 Feb 28.",
+              "pmid": "40020214",
+              "type": "BACKGROUND"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Oklahoma Medical Research Foundation"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2026-12-31",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-03-30",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2026-03-25",
+          "overallStatus": "RECRUITING",
+          "primaryCompletionDateStruct": {
+            "date": "2026-12-31",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2026-03-06",
+            "type": "ESTIMATED"
+          },
+          "statusVerifiedDate": "2026-03",
+          "studyFirstPostDateStruct": {
+            "date": "2026-03-30",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2026-03-10",
+          "studyFirstSubmitQcDate": "2026-03-25"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D020278",
+              "term": "Demyelinating Autoimmune Diseases, CNS"
+            },
+            {
+              "id": "D020274",
+              "term": "Autoimmune Diseases of the Nervous System"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D003711",
+              "term": "Demyelinating Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D009103",
+              "term": "Multiple Sclerosis"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "meshes": [
+            {
+              "id": "C000710975",
+              "term": "monoclonal antibody RN168"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": true,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "interventionNames": [
+                "Biological: PF-06342674 0.25 mg/kg",
+                "Biological: Placebo"
+              ],
+              "label": "Cohort 1",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "interventionNames": [
+                "Biological: Placebo",
+                "Biological: PF-06342674 1.5 mg/kg"
+              ],
+              "label": "PF-06342674 1.5 mg/kg",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "interventionNames": [
+                "Biological: Placebo",
+                "Biological: PF-06342674 6.0 mg/kg"
+              ],
+              "label": "PF-06342674 6.0 mg/kg (q2 Weeks)",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "interventionNames": [
+                "Biological: Placebo",
+                "Biological: PF-06342674 6.0 mg/kg"
+              ],
+              "label": "PF-06342674 6.0 mg/kg (q1 Week)",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Cohort 1"
+              ],
+              "description": "Bi-Weekly Subcutaneous Injections X 6",
+              "name": "PF-06342674 0.25 mg/kg",
+              "type": "BIOLOGICAL"
+            },
+            {
+              "armGroupLabels": [
+                "Cohort 1",
+                "PF-06342674 1.5 mg/kg",
+                "PF-06342674 6.0 mg/kg (q1 Week)",
+                "PF-06342674 6.0 mg/kg (q2 Weeks)"
+              ],
+              "description": "Bi-Weekly Subcutaneous Injections X 6",
+              "name": "Placebo",
+              "type": "BIOLOGICAL"
+            },
+            {
+              "armGroupLabels": [
+                "PF-06342674 1.5 mg/kg"
+              ],
+              "description": "Bi-Weekly Subcutaneous Injections X 6",
+              "name": "PF-06342674 1.5 mg/kg",
+              "type": "BIOLOGICAL"
+            },
+            {
+              "armGroupLabels": [
+                "PF-06342674 6.0 mg/kg (q1 Week)",
+                "PF-06342674 6.0 mg/kg (q2 Weeks)"
+              ],
+              "description": "Bi-Weekly Subcutaneous Injections X 6",
+              "name": "PF-06342674 6.0 mg/kg",
+              "type": "BIOLOGICAL"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Multiple Sclerosis"
+          ],
+          "keywords": [
+            "Multiple Sclerosis",
+            "MRI"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Albany",
+              "country": "United States",
+              "facility": "Albany Advanced Imaging",
+              "geoPoint": {
+                "lat": 42.65258,
+                "lon": -73.75623
+              },
+              "state": "New York",
+              "zip": "12205"
+            },
+            {
+              "city": "Latham",
+              "country": "United States",
+              "facility": "Fallon Wellness Pharmacy",
+              "geoPoint": {
+                "lat": 42.74702,
+                "lon": -73.75901
+              },
+              "state": "New York",
+              "zip": "12110"
+            },
+            {
+              "city": "Latham",
+              "country": "United States",
+              "facility": "Northeast Eye Center",
+              "geoPoint": {
+                "lat": 42.74702,
+                "lon": -73.75901
+              },
+              "state": "New York",
+              "zip": "12110"
+            },
+            {
+              "city": "Latham",
+              "country": "United States",
+              "facility": "The MS Center of Northeastern New York",
+              "geoPoint": {
+                "lat": 42.74702,
+                "lon": -73.75901
+              },
+              "state": "New York",
+              "zip": "12110"
+            },
+            {
+              "city": "Cleveland",
+              "country": "United States",
+              "facility": "Cleveland Clinic",
+              "geoPoint": {
+                "lat": 41.4995,
+                "lon": -81.69541
+              },
+              "state": "Ohio",
+              "zip": "44195"
+            },
+            {
+              "city": "Edmond",
+              "country": "United States",
+              "facility": "Retina Vitreous Center",
+              "geoPoint": {
+                "lat": 35.65283,
+                "lon": -97.4781
+              },
+              "state": "Oklahoma",
+              "zip": "73013"
+            },
+            {
+              "city": "Oklahoma City",
+              "country": "United States",
+              "facility": "Lynn Health Science Institute",
+              "geoPoint": {
+                "lat": 35.46756,
+                "lon": -97.51643
+              },
+              "state": "Oklahoma",
+              "zip": "73112"
+            },
+            {
+              "city": "Oklahoma City",
+              "country": "United States",
+              "facility": "Radiology Associates (X-ray facility only)",
+              "geoPoint": {
+                "lat": 35.46756,
+                "lon": -97.51643
+              },
+              "state": "Oklahoma",
+              "zip": "73112"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Pfizer",
+              "name": "Pfizer CT.gov Call Center",
+              "role": "STUDY_DIRECTOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "PF-06342674 (RN168), being developed for the treatment of multiple sclerosis (MS), is an antibody that binds to and inhibits the human interleukin-7 receptor, a component potentially involved in MS. PF-06342674 (RN168) is expected to play a role in slowing down the progression of the disease."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "SINGLE_GROUP",
+            "maskingInfo": {
+              "masking": "DOUBLE",
+              "whoMasked": [
+                "PARTICIPANT",
+                "INVESTIGATOR"
+              ]
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 4,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE1"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Women and men aged 18-55 yrs.\n* Confirmed diagnosis of Multiple Sclerosis (MS) according to the 2010 revision of the McDonald Criteria.\n* Expanded Disability Status Scale (EDSS) between 0-5, inclusive.\n\nExclusion Criteria:\n\n* Relapse episode of MS within 2 weeks of enrollment.\n* Primary progressive MS without a relapsing component.\n* Intolerant or unwilling to undergo MRI scanning. Treatment with disease modifying agents up to 6 weeks prior to enrollment.",
+          "healthyVolunteers": false,
+          "maximumAge": "55 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "A Study To Evaluate The Safety And Tolerability Of PF-06342674 (RN168) In Subjects With Multiple Sclerosis (MS)",
+          "nctId": "NCT02045732",
+          "officialTitle": "A Phase 1b, Double-blinded, Placebo-controlled, Randomized Study To Evaluate The Safety, Tolerability, Pharmacokinetics And Pharmacodynamics Of Multiple Ascending Doses Of Pf-06342674 (rn168) In Subjects With Multiple Sclerosis (ms)",
+          "orgStudyIdInfo": {
+            "id": "B4351002"
+          },
+          "organization": {
+            "class": "INDUSTRY",
+            "fullName": "Pfizer"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "An AE was any untoward medical occurrence in a participant who received study drug. An SAE was an AE resulting in any of the following outcomes or deemed significant for any other reason: death; initial or prolonged inpatient hospitalization; life-threatening experience (immediate risk of dying); persistent or significant disability/incapacity; congenital anomaly. Treatment-emergent AEs are events between first dose of study drug and up to Day 127/Early Termination that were absent before treatment or that worsened relative to pretreatment state. AEs included both SAEs and non-SAEs.",
+              "measure": "Number of Participants With Treatment-Emergent Adverse Events (AEs), Serious Adverse Events (SAEs), and Withdrawals Due to AEs",
+              "timeFrame": "Baseline through Day 127/Early Termination"
+            },
+            {
+              "description": "AE severity was graded as mild, moderate, or severe. Mild AEs do not interfere with the participant's usual function. Moderate AEs interfere to some extent with the participant's usual function. Severe AEs interfere significantly with the participant's usual function.",
+              "measure": "Number of Treatment-Emergent AEs and SAEs by Severity",
+              "timeFrame": "Baseline through Day 127/Early Termination"
+            },
+            {
+              "description": "Number of participants with laboratory test abnormalities without regard to baseline abnormality. Laboratory test parameters included hematology, liver function, renal function, electrolytes, hormones, clinical chemistry, and urinalysis (dipstick and microscopy). Abnormal laboratory findings included: lymphocytes (absolute) less than (\\<)0.8 x lower limit of normal (LLN); urine blood/hemoglobin (qualitative) more than or equal to (\\>=)1; urine nitrite \\>=1; urine leukocyte esterase \\>=1; urine red blood cell (RBC) \\>=20/high-power field (HPF).",
+              "measure": "Number of Participants With Clinical Laboratory Abnormalities",
+              "timeFrame": "Baseline through Day 127/Early Termination"
+            },
+            {
+              "description": "Categorical summarization criteria in vital signs included: supine systolic blood pressure (SBP) of \\<90 millimeters of mercury (mm Hg) or change in supine SBP of \\>=30 mm Hg\u037e supine diastolic blood pressure (DBP) of \\<50 mm Hg or change in supine DBP of \\>=20 mm Hg\u037e supine pulse rate of \\<40 or more than (\\>)120 beats per minute (bpm).",
+              "measure": "Number of Participants With Clinically Significant Changes in Vital Signs",
+              "timeFrame": "Baseline through Day 127/Early Termination"
+            },
+            {
+              "description": "Criteria for potential clinical concern in ECG parameters: The maximum of the beginning of the Q wave to the end of the T wave corresponding to electrical systole (QT) interval corrected using the Fridericia formula (QTcF) \\>=450 milliseconds (msec), maximum QTcF interval change from baseline in range of 30 to \\<60 msec and \\>=60 msec.",
+              "measure": "Number of Participants With Abnormal Electrocardiogram (ECG)",
+              "timeFrame": "Baseline through Day 127/Early Termination"
+            },
+            {
+              "description": "Assays for the determination of a positive immune response was performed. An antibody immune response was defined as a confirmed post-treatment positive enzyme-linked immunosorbent assay (ELISA) result in combination with a negative baseline sample ELISA result. ADA positive was defined as ADA titer (ie, the reciprocal of the highest dilution that gives a value equivalent to the cut point of the assay) \\>=4.32.",
+              "measure": "Number of Participants With Confirmed Positive Anti-Drug Antibodies (ADAs)",
+              "timeFrame": "Baseline, and Days 15, 29, 57, 85 and Day 127/Early Termination"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "measure": "Concentration of PF-06342674",
+              "timeFrame": "Baseline through Day 127/Early Termination"
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": false
+        },
+        "referencesModule": {
+          "seeAlsoLinks": [
+            {
+              "label": "To obtain contact information for a study center near you, click here.",
+              "url": "https://trialinfoemail.pfizer.com/pages/landing.aspx?StudyID=B4351002&StudyName=A%20Study%20To%20Evaluate%20The%20Safety%20And%20Tolerability%20Of%20PF-06342674%20%28RN168%29%20In%20Subjects%20with%20Multiple%20Sclerosis%20%28MS%29"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "INDUSTRY",
+            "name": "Pfizer"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2015-10",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2017-01-16",
+            "type": "ESTIMATED"
+          },
+          "lastUpdateSubmitDate": "2016-11-18",
+          "overallStatus": "TERMINATED",
+          "primaryCompletionDateStruct": {
+            "date": "2015-10",
+            "type": "ACTUAL"
+          },
+          "resultsFirstPostDateStruct": {
+            "date": "2017-01-16",
+            "type": "ESTIMATED"
+          },
+          "resultsFirstSubmitDate": "2016-11-18",
+          "resultsFirstSubmitQcDate": "2016-11-18",
+          "startDateStruct": {
+            "date": "2014-09"
+          },
+          "statusVerifiedDate": "2016-11",
+          "studyFirstPostDateStruct": {
+            "date": "2014-01-27",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2014-01-22",
+          "studyFirstSubmitQcDate": "2014-01-22",
+          "whyStopped": "This study terminated on April 8, 2015 due to a corporate decision and not related to the safety or efficacy of the protocol."
+        }
+      },
+      "resultsSection": {
+        "adverseEventsModule": {
+          "eventGroups": [
+            {
+              "description": "Participants received placebo SC every other week during an 85-day treatment period.",
+              "id": "EG000",
+              "otherNumAffected": 0,
+              "otherNumAtRisk": 1,
+              "seriousNumAffected": 0,
+              "seriousNumAtRisk": 1,
+              "title": "Placebo"
+            },
+            {
+              "description": "Participants received PF-06342674 0.25 mg/kg SC every other week during an 85-day treatment period.",
+              "id": "EG001",
+              "otherNumAffected": 3,
+              "otherNumAtRisk": 3,
+              "seriousNumAffected": 0,
+              "seriousNumAtRisk": 3,
+              "title": "PF-06342674"
+            }
+          ],
+          "frequencyThreshold": "5",
+          "otherEvents": [
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Gastrointestinal disorders",
+              "sourceVocabulary": "MedDRA 18.1",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 0,
+                  "numAtRisk": 1
+                },
+                {
+                  "groupId": "EG001",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Diarrhoea"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Gastrointestinal disorders",
+              "sourceVocabulary": "MedDRA 18.1",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 0,
+                  "numAtRisk": 1
+                },
+                {
+                  "groupId": "EG001",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Nausea"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "General disorders",
+              "sourceVocabulary": "MedDRA 18.1",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 0,
+                  "numAtRisk": 1
+                },
+                {
+                  "groupId": "EG001",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Fatigue"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Infections and infestations",
+              "sourceVocabulary": "MedDRA 18.1",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 0,
+                  "numAtRisk": 1
+                },
+                {
+                  "groupId": "EG001",
+                  "numAffected": 2,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Upper respiratory tract infection"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Musculoskeletal and connective tissue disorders",
+              "sourceVocabulary": "MedDRA 18.1",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 0,
+                  "numAtRisk": 1
+                },
+                {
+                  "groupId": "EG001",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Myalgia"
+            },
+            {
+              "assessmentType": "NON_SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Nervous system disorders",
+              "sourceVocabulary": "MedDRA 18.1",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 0,
+                  "numAtRisk": 1
+                },
+                {
+                  "groupId": "EG001",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Headache"
+            }
+          ],
+          "timeFrame": "Baseline through Day 127/Early Termination."
+        },
+        "baselineCharacteristicsModule": {
+          "denoms": [
+            {
+              "counts": [
+                {
+                  "groupId": "BG000",
+                  "value": "1"
+                },
+                {
+                  "groupId": "BG001",
+                  "value": "3"
+                },
+                {
+                  "groupId": "BG002",
+                  "value": "4"
+                }
+              ],
+              "units": "Participants"
+            }
+          ],
+          "groups": [
+            {
+              "description": "Participants received placebo SC every other week during an 85-day treatment period.",
+              "id": "BG000",
+              "title": "Placebo"
+            },
+            {
+              "description": "Participants received PF-06342674 0.25 mg/kg SC every other week during an 85-day treatment period.",
+              "id": "BG001",
+              "title": "PF-06342674 0.25 mg/kg"
+            },
+            {
+              "description": "Total of all reporting groups",
+              "id": "BG002",
+              "title": "Total"
+            }
+          ],
+          "measures": [
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "spread": "0",
+                          "value": "33"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "spread": "14.2",
+                          "value": "45.3"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "spread": "13.1",
+                          "value": "42.3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "dispersionType": "STANDARD_DEVIATION",
+              "paramType": "MEAN",
+              "title": "Age, Continuous",
+              "unitOfMeasure": "years"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "1"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "3"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "4"
+                        }
+                      ],
+                      "title": "Female"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG001",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "BG002",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "Male"
+                    }
+                  ]
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "title": "Gender",
+              "unitOfMeasure": "Participants"
+            }
+          ]
+        },
+        "moreInfoModule": {
+          "certainAgreement": {
+            "otherDetails": "Pfizer has the right to review disclosures, requesting a delay of less than 60 days.\n\nInvestigator will postpone single center publications until after disclosure of pooled data (all sites), less than 12 months from study completion/termination at all participating sites. Investigator may not disclose previously undisclosed confidential information other than study results.",
+            "piSponsorEmployee": false,
+            "restrictionType": "OTHER",
+            "restrictiveAgreement": true
+          },
+          "limitationsAndCaveats": {
+            "description": "Due to the early termination of the study, the small enrollment number and minimal data, no statistical analyses were performed."
+          },
+          "pointOfContact": {
+            "email": "ClinicalTrials.gov_Inquiries@pfizer.com",
+            "organization": "Pfizer, Inc.",
+            "phone": "1-800-718-1021",
+            "title": "Pfizer ClinicalTrials.gov Call Center"
+          }
+        },
+        "outcomeMeasuresModule": {
+          "outcomeMeasures": [
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "3"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "AEs"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "0"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "SAEs"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "0"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Withdrawals Due to AEs"
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "An AE was any untoward medical occurrence in a participant who received study drug. An SAE was an AE resulting in any of the following outcomes or deemed significant for any other reason: death; initial or prolonged inpatient hospitalization; life-threatening experience (immediate risk of dying); persistent or significant disability/incapacity; congenital anomaly. Treatment-emergent AEs are events between first dose of study drug and up to Day 127/Early Termination that were absent before treatment or that worsened relative to pretreatment state. AEs included both SAEs and non-SAEs.",
+              "groups": [
+                {
+                  "description": "Participants received placebo SC every other week during an 85-day treatment period.",
+                  "id": "OG000",
+                  "title": "Placebo"
+                },
+                {
+                  "description": "Participants received PF-06342674 0.25 mg/kg SC every other week during an 85-day treatment period.",
+                  "id": "OG001",
+                  "title": "PF-06342674 0.25 mg/kg"
+                }
+              ],
+              "paramType": "NUMBER",
+              "populationDescription": "The safety analysis population consists of all participants who received at least 1 dose of study drug.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Baseline through Day 127/Early Termination",
+              "title": "Number of Participants With Treatment-Emergent Adverse Events (AEs), Serious Adverse Events (SAEs), and Withdrawals Due to AEs",
+              "type": "PRIMARY",
+              "unitOfMeasure": "participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "7"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Mild"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "0"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Moderate"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "0"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Severe"
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "AE severity was graded as mild, moderate, or severe. Mild AEs do not interfere with the participant's usual function. Moderate AEs interfere to some extent with the participant's usual function. Severe AEs interfere significantly with the participant's usual function.",
+              "groups": [
+                {
+                  "description": "Participants received placebo SC every other week during an 85-day treatment period.",
+                  "id": "OG000",
+                  "title": "Placebo"
+                },
+                {
+                  "description": "Participants received PF-06342674 0.25 mg/kg SC every other week during an 85-day treatment period.",
+                  "id": "OG001",
+                  "title": "PF-06342674 0.25 mg/kg"
+                }
+              ],
+              "paramType": "NUMBER",
+              "populationDescription": "The safety analysis population consists of all participants who received at least 1 dose of study drug.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Baseline through Day 127/Early Termination",
+              "title": "Number of Treatment-Emergent AEs and SAEs by Severity",
+              "type": "PRIMARY",
+              "unitOfMeasure": "adverse events"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Number of participants with laboratory test abnormalities without regard to baseline abnormality. Laboratory test parameters included hematology, liver function, renal function, electrolytes, hormones, clinical chemistry, and urinalysis (dipstick and microscopy). Abnormal laboratory findings included: lymphocytes (absolute) less than (\\<)0.8 x lower limit of normal (LLN); urine blood/hemoglobin (qualitative) more than or equal to (\\>=)1; urine nitrite \\>=1; urine leukocyte esterase \\>=1; urine red blood cell (RBC) \\>=20/high-power field (HPF).",
+              "groups": [
+                {
+                  "description": "Participants received placebo SC every other week during an 85-day treatment period.",
+                  "id": "OG000",
+                  "title": "Placebo"
+                },
+                {
+                  "description": "Participants received PF-06342674 0.25 mg/kg SC every other week during an 85-day treatment period.",
+                  "id": "OG001",
+                  "title": "PF-06342674 0.25 mg/kg"
+                }
+              ],
+              "paramType": "NUMBER",
+              "populationDescription": "The safety analysis population consists of all participants who received at least 1 dose of study drug.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Baseline through Day 127/Early Termination",
+              "title": "Number of Participants With Clinical Laboratory Abnormalities",
+              "type": "PRIMARY",
+              "unitOfMeasure": "participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "0"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Supine SBP <90 mm Hg"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "0"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Supine DBP <50 mm Hg"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "0"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Increase in supine SBP >=30 mm Hg"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "0"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Decrease in supine SBP >=30 mm Hg"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "0"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Increase in supine DBP >=20 mm Hg"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "0"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Decrease in supine DBP >=20 mm Hg"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "0"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Supine pulse rate <40 bpm"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "0"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "Supine pulse rate >120 bpm"
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Categorical summarization criteria in vital signs included: supine systolic blood pressure (SBP) of \\<90 millimeters of mercury (mm Hg) or change in supine SBP of \\>=30 mm Hg\u037e supine diastolic blood pressure (DBP) of \\<50 mm Hg or change in supine DBP of \\>=20 mm Hg\u037e supine pulse rate of \\<40 or more than (\\>)120 beats per minute (bpm).",
+              "groups": [
+                {
+                  "description": "Participants received placebo SC every other week during an 85-day treatment period.",
+                  "id": "OG000",
+                  "title": "Placebo"
+                },
+                {
+                  "description": "Participants received PF-06342674 0.25 mg/kg SC every other week during an 85-day treatment period.",
+                  "id": "OG001",
+                  "title": "PF-06342674 0.25 mg/kg"
+                }
+              ],
+              "paramType": "NUMBER",
+              "populationDescription": "The safety analysis population consists of all participants who received at least 1 dose of study drug.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Baseline through Day 127/Early Termination",
+              "title": "Number of Participants With Clinically Significant Changes in Vital Signs",
+              "type": "PRIMARY",
+              "unitOfMeasure": "participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "1"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "0"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "QTcF Interval 450-<480 msec"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "0"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "QTcF Interval >=480 msec"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "0"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "QTcF Interval 30-<60 msec Increase From Baseline"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "0"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "QTcF Interval >=60 msec Increase From Baseline"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "1"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "0"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "QTcF Interval 30-<60 msec Decrease From Baseline"
+                },
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "0"
+                        }
+                      ]
+                    }
+                  ],
+                  "title": "QTcF Interval >=60 msec Decrease From Baseline"
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Criteria for potential clinical concern in ECG parameters: The maximum of the beginning of the Q wave to the end of the T wave corresponding to electrical systole (QT) interval corrected using the Fridericia formula (QTcF) \\>=450 milliseconds (msec), maximum QTcF interval change from baseline in range of 30 to \\<60 msec and \\>=60 msec.",
+              "groups": [
+                {
+                  "description": "Participants received placebo SC every other week during an 85-day treatment period.",
+                  "id": "OG000",
+                  "title": "Placebo"
+                },
+                {
+                  "description": "Participants received PF-06342674 0.25 mg/kg SC every other week during an 85-day treatment period.",
+                  "id": "OG001",
+                  "title": "PF-06342674 0.25 mg/kg"
+                }
+              ],
+              "paramType": "NUMBER",
+              "populationDescription": "The safety analysis population consists of all participants who received at least 1 dose of study drug. The QTcF interval of the participant in the placebo arm was in this range of 450 to \\<480 msec at Baseline. This participant experienced a decrease in QTcF of 30 to \\<60 msec on Day 30, which then returned to baseline levels on Day 57.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Baseline through Day 127/Early Termination",
+              "title": "Number of Participants With Abnormal Electrocardiogram (ECG)",
+              "type": "PRIMARY",
+              "unitOfMeasure": "participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "0"
+                        },
+                        {
+                          "groupId": "OG001",
+                          "value": "3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "1"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Assays for the determination of a positive immune response was performed. An antibody immune response was defined as a confirmed post-treatment positive enzyme-linked immunosorbent assay (ELISA) result in combination with a negative baseline sample ELISA result. ADA positive was defined as ADA titer (ie, the reciprocal of the highest dilution that gives a value equivalent to the cut point of the assay) \\>=4.32.",
+              "groups": [
+                {
+                  "description": "Participants received placebo SC every other week during an 85-day treatment period.",
+                  "id": "OG000",
+                  "title": "Placebo"
+                },
+                {
+                  "description": "Participants received PF-06342674 0.25 mg/kg SC every other week during an 85-day treatment period.",
+                  "id": "OG001",
+                  "title": "PF-06342674 0.25 mg/kg"
+                }
+              ],
+              "paramType": "NUMBER",
+              "populationDescription": "The safety analysis population consists of all participants who received at least 1 dose of study drug.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Baseline, and Days 15, 29, 57, 85 and Day 127/Early Termination",
+              "title": "Number of Participants With Confirmed Positive Anti-Drug Antibodies (ADAs)",
+              "type": "PRIMARY",
+              "unitOfMeasure": "participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "comment": "Due to the early termination of the study, the small enrollment number and minimal data, concentration data were not summarized.",
+                          "groupId": "OG001",
+                          "spread": "NA",
+                          "value": "NA"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "0"
+                    },
+                    {
+                      "groupId": "OG001",
+                      "value": "3"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "dispersionType": "Geometric Coefficient of Variation",
+              "groups": [
+                {
+                  "description": "Participants received placebo SC every other week during an 85-day treatment period.",
+                  "id": "OG000",
+                  "title": "Placebo"
+                },
+                {
+                  "description": "Participants received PF-06342674 0.25 mg/kg SC every other week during an 85-day treatment period.",
+                  "id": "OG001",
+                  "title": "PF-06342674 0.25 mg/kg"
+                }
+              ],
+              "paramType": "GEOMETRIC_MEAN",
+              "populationDescription": "Participants in the placebo arm did not receive PF-06342674. Due to the early termination of the study, the small enrollment number and minimal data, concentration data were listed but not summarized, and pharmacokinetic (PK) parameters were not calculated for the PF-06342674 0.25 mg/kg arm.",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Baseline through Day 127/Early Termination",
+              "title": "Concentration of PF-06342674",
+              "type": "SECONDARY",
+              "unitOfMeasure": "nanogram/milliliter (ng/ml)"
+            }
+          ]
+        },
+        "participantFlowModule": {
+          "groups": [
+            {
+              "description": "Participants received placebo subcutaneously (SC) every other week during an 85-day treatment period.",
+              "id": "FG000",
+              "title": "Placebo"
+            },
+            {
+              "description": "Participants received PF-06342674 0.25 milligram (mg)/kilogram (kg) SC every other week during an 85-day treatment period.",
+              "id": "FG001",
+              "title": "PF-06342674 0.25 mg/kg"
+            }
+          ],
+          "periods": [
+            {
+              "dropWithdraws": [
+                {
+                  "reasons": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "1"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "1"
+                    }
+                  ],
+                  "type": "At the discretion of the investigator"
+                }
+              ],
+              "milestones": [
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "1"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "3"
+                    }
+                  ],
+                  "type": "STARTED"
+                },
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "0"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "2"
+                    }
+                  ],
+                  "type": "COMPLETED"
+                },
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "1"
+                    },
+                    {
+                      "groupId": "FG001",
+                      "numSubjects": "1"
+                    }
+                  ],
+                  "type": "NOT COMPLETED"
+                }
+              ],
+              "title": "Overall Study"
+            }
+          ],
+          "preAssignmentDetails": "Participants were screened within 45 days prior to the first administration of the study drug to confirm that they met the participant inclusion criteria for the study.",
+          "recruitmentDetails": "This study was a Phase 1b, randomized, multi-center, double-blind, sponsor-open, placebo controlled study to evaluate multiple ascending doses of PF-06342674 in participants with Multiple Sclerosis (MS). Up to 60 participants were planned to be enrolled. However, only 4 participants were randomized due to the early termination of the study."
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D009103",
+              "term": "Multiple Sclerosis"
+            },
+            {
+              "id": "D020278",
+              "term": "Demyelinating Autoimmune Diseases, CNS"
+            },
+            {
+              "id": "D020274",
+              "term": "Autoimmune Diseases of the Nervous System"
+            },
+            {
+              "id": "D009422",
+              "term": "Nervous System Diseases"
+            },
+            {
+              "id": "D003711",
+              "term": "Demyelinating Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D020529",
+              "term": "Multiple Sclerosis, Relapsing-Remitting"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D058851",
+              "term": "GPI-Linked Proteins"
+            },
+            {
+              "id": "D008562",
+              "term": "Membrane Glycoproteins"
+            },
+            {
+              "id": "D006023",
+              "term": "Glycoproteins"
+            },
+            {
+              "id": "D006001",
+              "term": "Glycoconjugates"
+            },
+            {
+              "id": "D002241",
+              "term": "Carbohydrates"
+            },
+            {
+              "id": "D019812",
+              "term": "Heparan Sulfate Proteoglycans"
+            },
+            {
+              "id": "D011509",
+              "term": "Proteoglycans"
+            },
+            {
+              "id": "D011506",
+              "term": "Proteins"
+            },
+            {
+              "id": "D000602",
+              "term": "Amino Acids, Peptides, and Proteins"
+            },
+            {
+              "id": "D058635",
+              "term": "Lipid-Linked Proteins"
+            },
+            {
+              "id": "D008565",
+              "term": "Membrane Proteins"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D053673",
+              "term": "Glypicans"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Subjects with Relapsing-Remitting Multiple Sclerosis. Polymorphisms frequencies of Interleukins, Glypican, and Human Leukocyte Antigen Genes are determined.",
+              "interventionNames": [
+                "Genetic: Polymorphism of Interleukins, Glypican, and Human Leukocyte Antigen Genes."
+              ],
+              "label": "Cases"
+            },
+            {
+              "description": "Healthy subjects. Polymorphisms frequencies of Interleukins, Glypican, and Human Leukocyte Antigen Genes are determined.",
+              "interventionNames": [
+                "Genetic: Polymorphism of Interleukins, Glypican, and Human Leukocyte Antigen Genes."
+              ],
+              "label": "Controls"
+            },
+            {
+              "description": "Subjects with MS treated for at least two years that have less than one relapse per year or who had an increase of \\<1.5 points on the Expanded Disability Status Scale (EDSS) (if baseline EDSS was 0) or no increase in EDSS (baseline EDSS \u22651). Polymorphisms frequencies of Interleukins, Glypican, and Human Leukocyte Antigen Genes are determined.",
+              "interventionNames": [
+                "Genetic: Polymorphism of Interleukins, Glypican, and Human Leukocyte Antigen Genes."
+              ],
+              "label": "Responders"
+            },
+            {
+              "description": "Subjects with MS that have more than one relapse per year treated for at least two years, and who had \u22651 relapse(s) or an increase of 1.5 points on the EDSS (if baseline EDSS was 0) or an increase of \u22650.5 points (baseline EDSS \u22651). Polymorphisms frequencies of Interleukins, Glypican, and Human Leukocyte Antigen Genes are determined.",
+              "interventionNames": [
+                "Genetic: Polymorphism of Interleukins, Glypican, and Human Leukocyte Antigen Genes."
+              ],
+              "label": "No responders"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Cases",
+                "Controls",
+                "No responders",
+                "Responders"
+              ],
+              "description": "The frequencies of the polymorphic variants in subjects with MS and healthy subjects were evaluated. Also in subjects with MS, the response to treatment with the number of relapses and EDSS was assessed; to compare the allele frequencies of SNPs of Interleukins, Glypican, and Human Leukocyte Antigen Genes, between responders and no responders MS patients.",
+              "name": "Polymorphism of Interleukins, Glypican, and Human Leukocyte Antigen Genes.",
+              "type": "GENETIC"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Multiple Sclerosis, Relapsing-Remitting"
+          ]
+        },
+        "contactsLocationsModule": {
+          "centralContacts": [
+            {
+              "email": "josealfonsocr@gmail.com",
+              "name": "JOSE A. CRUZ RAMOS, PhD",
+              "phone": "0152 3314886313",
+              "role": "CONTACT"
+            },
+            {
+              "email": "moraej@hotmail.com",
+              "name": "EMMANUEL DE LA MORA JIMENEZ, PhD",
+              "phone": "0152 36580556",
+              "role": "CONTACT"
+            }
+          ],
+          "locations": [
+            {
+              "city": "Guadalajara",
+              "contacts": [
+                {
+                  "email": "josealfonsocr@gmail.com",
+                  "name": "JOSE A. CRUZ RAMOS, PhD",
+                  "phone": "0152 3314886313",
+                  "role": "CONTACT"
+                }
+              ],
+              "country": "Mexico",
+              "facility": "Instituto Jalisciense de Cancerolog\u00eda",
+              "geoPoint": {
+                "lat": 20.67738,
+                "lon": -103.34749
+              },
+              "state": "Jalisco",
+              "status": "RECRUITING",
+              "zip": "44280"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Instituto Jalisciense de Cancerolog\u00eda",
+              "name": "JOSE A. CRUZ RAMOS, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "HLA-DRB1 \\* Gene and some genes involved in inflammation and immunity (IL-7R, GPC5, CTSS) have been linked to risk of MS and the response to treatment with immunomodulators. This research aims to estimate the risk that confers some variations in the sequence of these genes.",
+          "detailedDescription": "Genes HLA-DRB1 \\* and some genes involved in inflammation and immunity have been linked to risk of MS and the response to treatment with immunomodulators.\n\nThe HLA-DRB1 \\* genes have been associated with risk and response to treatment in MS in multiple studies; however, other genes have been controversial. This research aims to estimate the risk for MS that confers some variations in the sequence of IL-7R, GPC5, CTSS, HLA-DRB1 genes. Furthermore, it seeks to determine whether these gene variants (polymorphisms) are associated with treatment response to immunomodulators.\n\nSubjects with MS and healthy subjects will be taken to assess the risk for MS. Besides the investigators obtain the medical history of relapse to assess response to treatment in accordance with Expanded Disability Status Scale (EDSS) and relapses."
+        },
+        "designModule": {
+          "bioSpec": {
+            "description": "Total blood for posterior extraction of DNA.",
+            "retention": "SAMPLES_WITH_DNA"
+          },
+          "designInfo": {
+            "observationalModel": "COHORT",
+            "timePerspective": "RETROSPECTIVE"
+          },
+          "enrollmentInfo": {
+            "count": 500,
+            "type": "ESTIMATED"
+          },
+          "patientRegistry": false,
+          "studyType": "OBSERVATIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria for Cases:\n\n* Subjects with multiple sclerosis\n* 18 and over\n* EDSS less than 5\n* Signed informed consent\n\nInclusion Criteria for Controls:\n\n* Healthy subjects\n* 18 and over\n* Signed informed consent\n\nExclusion Criteria for Cases:\n\n* Mental retardation\n* Withdrawal of consent\n* No immunomodulatory treatment\n\nExclusion Criteria for Controls:\n\n* Mental retardation\n* Withdrawal of consent",
+          "healthyVolunteers": true,
+          "maximumAge": "65 Years",
+          "minimumAge": "18 Years",
+          "samplingMethod": "PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Subjects with multiple sclerosis and healthy subjects were studied. In subjects with multiple sclerosis, the number of relapses and EDSS was evaluated for two years."
+        },
+        "identificationModule": {
+          "acronym": "WESTEMDRB1",
+          "briefTitle": "Polymorphisms of Interleukins, Glypican, and Human Leukocyte Antigen Genes and Treatment Response in Multiple Sclerosis.",
+          "nctId": "NCT02769767",
+          "officialTitle": "Association of Polymorphisms of the Interleukin-7 Receptor-\u03b1 (IL-7R), Glypican 5 (GPC5), Interleukin-2 Receptor-\u03b1 (IL2-RA) , Human Leukocyte Antigen Class II Beta Chain (HLA-DRB1) Genes and Treatment Response in Multiple Sclerosis (MS).",
+          "orgStudyIdInfo": {
+            "id": "EM-1"
+          },
+          "organization": {
+            "class": "OTHER_GOV",
+            "fullName": "Instituto Jalisciense de Cancerologia"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "UNDECIDED"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Treatment response evaluated by relapses per year during two years after recruitment. The relapses are defined by any neurological sign or symptom that happens at least 30 days after any previous neurological deterioration episode began.",
+              "measure": "Treatment response evaluated by relapses per year, evaluated during two years after recruitment.",
+              "timeFrame": "Two Years"
+            },
+            {
+              "description": "Treatment response evaluated by Expanded Disability Status Scale (EDSS) during two years after recruitment.\n\nThe EDSS scale ranges from 0 to 10; the increments are in 0.5. Scoring is based on an examination by a neurologist about the level of disability.",
+              "measure": "Treatment response evaluated by Expanded Disability Status Scale (EDSS) during two years after recruitment.",
+              "timeFrame": "Two Years"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "The risk conferred by SNPs of Interleukins, Glypican, and Human Leukocyte Antigen Genes: calculated by odds ratio when the allele frequencies of SNPs cases are compared with the allele frequencies of SNPs in healthy subjects.",
+              "measure": "Multiple Sclerosis Risk Conferred by Single Nucleotide Polymorphisms (SNPs) of Interleukins, Glypican, and Human Leukocyte Antigen Genes.",
+              "timeFrame": "One Year"
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": false
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "OTHER_GOV",
+              "name": "Instituto Mexicano del Seguro Social"
+            },
+            {
+              "class": "OTHER",
+              "name": "University of Guadalajara"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER_GOV",
+            "name": "Instituto Jalisciense de Cancerologia"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Instituto Jalisciense de Cancerologia",
+            "investigatorFullName": "Jose Alfonso Cruz-Ramos",
+            "investigatorTitle": "Research Coordinator",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2016-12",
+            "type": "ESTIMATED"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastKnownStatus": "RECRUITING",
+          "lastUpdatePostDateStruct": {
+            "date": "2016-05-12",
+            "type": "ESTIMATED"
+          },
+          "lastUpdateSubmitDate": "2016-05-10",
+          "overallStatus": "UNKNOWN",
+          "primaryCompletionDateStruct": {
+            "date": "2016-12",
+            "type": "ESTIMATED"
+          },
+          "startDateStruct": {
+            "date": "2012-08"
+          },
+          "statusVerifiedDate": "2016-05",
+          "studyFirstPostDateStruct": {
+            "date": "2016-05-12",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2016-04-25",
+          "studyFirstSubmitQcDate": "2016-05-10"
+        }
+      }
+    }
+  ]
+}

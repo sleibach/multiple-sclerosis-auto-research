@@ -1,0 +1,116 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3AIL7R%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "value": "Receptor for interleukin-7. Also acts as a receptor for thymic stromal lymphopoietin (TSLP)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "molecule": "Isoform 1",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "31748347",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9905",
+                "value": "Single-pass type I membrane protein"
+              }
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "molecule": "Isoform 3",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "id": "SL-9905",
+                "value": "Single-pass type I membrane protein"
+              }
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "molecule": "Isoform 4",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000013E861"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "IL7R"
+          }
+        }
+      ],
+      "primaryAccession": "P16871",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "CDw127"
+            }
+          }
+        ],
+        "cdAntigenNames": [
+          {
+            "value": "CD127"
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "Interleukin-7 receptor subunit alpha"
+          },
+          "shortNames": [
+            {
+              "value": "IL-7 receptor subunit alpha"
+            },
+            {
+              "value": "IL-7R subunit alpha"
+            },
+            {
+              "value": "IL-7R-alpha"
+            },
+            {
+              "value": "IL-7RA"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

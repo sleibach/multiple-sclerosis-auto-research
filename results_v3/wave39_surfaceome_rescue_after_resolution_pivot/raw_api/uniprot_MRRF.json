@@ -1,0 +1,141 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "19716793",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "33878294",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Responsible for the disassembly of ribosomes from messenger RNA at the termination of mitochondrial protein biosynthesis (PubMed:19716793, PubMed:33878294). Acts in collaboration with GFM2 (PubMed:33878294). Promotes mitochondrial ribosome recycling by dissolution of intersubunit contacts (PubMed:33878294)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "18782833",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0173",
+                "value": "Mitochondrion"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000007291D"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:7234",
+                "source": "HGNC"
+              }
+            ],
+            "value": "MRRF"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0496",
+          "name": "Mitochondrion"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0648",
+          "name": "Protein biosynthesis"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0809",
+          "name": "Transit peptide"
+        }
+      ],
+      "primaryAccession": "Q96E11",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Ribosome-releasing factor, mitochondrial"
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "Ribosome-recycling factor, mitochondrial"
+          },
+          "shortNames": [
+            {
+              "value": "RRF"
+            },
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "18782833",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "mtRRF"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "A4343465B5C9F5DE",
+        "length": 262,
+        "md5": "37DA225B5ABCFE67A88DD71C33943C5A",
+        "molWeight": 29277,
+        "value": "MALGLKCFRMVHPTFRNYLAASIRPVSEVTLKTVHERQHGHRQYMAYSAVPVRHFATKKAKAKGKGQSQTRVNINAALVEDIINLEEVNEEMKSVIEALKDNFNKTLNIRTSPGSLDKIAVVTADGKLALNQISQISMKSPQLILVNMASFPECTAAAIKAIRESGMNLNPEVEGTLIRVPIPQVTREHREMLVKLAKQNTNKAKDSLRKVRTNSMNKLKKSKDTVSEDTIRLIEKQISQMADDTVAELDRHLAVKTKELLG"
+      },
+      "uniProtkbId": "RRFM_HUMAN"
+    }
+  ]
+}

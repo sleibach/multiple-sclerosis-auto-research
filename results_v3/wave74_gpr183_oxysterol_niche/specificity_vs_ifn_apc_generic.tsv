@@ -1,0 +1,52 @@
+analysis	disease_name	compartment	role	target_module	target_effect	max_specificity_comparator_effect	specificity_margin	specificity_pass
+ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	gpr183_receptor_anchor	1.1297090802321064	1.6789178900524637	-0.5492088098203574	False
+ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	lymphoid_trafficking_response	0.4353942628017466	1.6789178900524637	-1.243523627250717	False
+ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	myeloid_apc_migration_response	0.5304906355401753	1.6789178900524637	-1.1484272545122884	False
+ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	gpr183_receptor_anchor	0.975302839797214	1.630948999020061	-0.655646159222847	False
+ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	lymphoid_trafficking_response	2.8046547137624556	1.630948999020061	1.1737057147423946	True
+ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	myeloid_apc_migration_response	2.5166383272467368	1.630948999020061	0.8856893282266758	True
+ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	gpr183_receptor_anchor	0.6731743726654338	1.2042345466763171	-0.5310601740108833	False
+ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	lymphoid_trafficking_response	0.8614916703072111	1.2042345466763171	-0.34274287636910605	False
+ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	myeloid_apc_migration_response	0.017731347614062212	1.2042345466763171	-1.186503199062255	False
+ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	gpr183_receptor_anchor	0.3791479341962611	1.8868401567597404	-1.5076922225634792	False
+ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	lymphoid_trafficking_response	0.4780902242404443	1.8868401567597404	-1.408749932519296	False
+ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	myeloid_apc_migration_response	-0.3730296461349243	1.8868401567597404	-2.2598698028946647	False
+ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	gpr183_receptor_anchor	1.0385480940916807	1.6406067611682977	-0.602058667076617	False
+ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	lymphoid_trafficking_response	2.3213772661445233	1.6406067611682977	0.6807705049762256	True
+ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	myeloid_apc_migration_response	2.466632101351478	1.6406067611682977	0.8260253401831803	True
+ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	gpr183_receptor_anchor	0.4366689388990394	0.8598656130854461	-0.42319667418640666	False
+ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	lymphoid_trafficking_response	0.9797626305949819	0.8598656130854461	0.11989701750953585	False
+ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	myeloid_apc_migration_response	0.5130185044965384	0.8598656130854461	-0.34684710858890766	False
+psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	gpr183_receptor_anchor	-0.6470595637869949	1.346213068573638	-1.993272632360633	False
+psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	lymphoid_trafficking_response	0.00246680875362702	1.346213068573638	-1.343746259820011	False
+psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	myeloid_apc_migration_response	0.17530876637701656	1.346213068573638	-1.1709043021966214	False
+psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	gpr183_receptor_anchor	-1.2498901037911736	1.3331344813298849	-2.5830245851210583	False
+psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	lymphoid_trafficking_response	-0.27439277131225565	1.3331344813298849	-1.6075272526421405	False
+psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	myeloid_apc_migration_response	0.030975258602004146	1.3331344813298849	-1.3021592227278806	False
+psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	gpr183_receptor_anchor	-0.0164242098812343	0.7587120411563969	-0.7751362510376312	False
+psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	lymphoid_trafficking_response	0.39061706129643875	0.7587120411563969	-0.36809497985995815	False
+psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	myeloid_apc_migration_response	0.3642325934719183	0.7587120411563969	-0.3944794476844786	False
+sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	gpr183_receptor_anchor	0.2633994006448397	0.5642974540017329	-0.30089805335689324	False
+sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	lymphoid_trafficking_response	0.7796797951445484	0.5642974540017329	0.21538234114281551	True
+sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	myeloid_apc_migration_response	0.6634828174374192	0.5642974540017329	0.09918536343568629	False
+sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	gpr183_receptor_anchor	0.5942491932699276	0.733144775835781	-0.13889558256585333	False
+sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	lymphoid_trafficking_response	0.549897549796837	0.733144775835781	-0.18324722603894394	False
+sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	myeloid_apc_migration_response	0.24571213676642156	0.733144775835781	-0.4874326390693594	False
+sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	gpr183_receptor_anchor	0.4374128207154784	0.26256496672442436	0.17484785399105401	False
+sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	lymphoid_trafficking_response	0.5297871981456873	0.26256496672442436	0.26722223142126295	True
+sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	myeloid_apc_migration_response	0.2679876616242349	0.26256496672442436	0.0054226948998105096	False
+t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	gpr183_receptor_anchor	-0.1082652916562196	1.4521602059074015	-1.5604254975636211	False
+t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	lymphoid_trafficking_response	0.37628515328786416	1.4521602059074015	-1.0758750526195373	False
+t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	myeloid_apc_migration_response	-0.14099671225290059	1.4521602059074015	-1.593156918160302	False
+t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	gpr183_receptor_anchor	0.7168551823734177	1.7999128952124595	-1.0830577128390417	False
+t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	lymphoid_trafficking_response	1.2113059650733597	1.7999128952124595	-0.5886069301390997	False
+t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	myeloid_apc_migration_response	0.590984888312716	1.7999128952124595	-1.2089280068997434	False
+t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	gpr183_receptor_anchor	0.174490272584245	1.350941963184538	-1.176451690600293	False
+t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	lymphoid_trafficking_response	0.5281550697259652	1.350941963184538	-0.8227868934585729	False
+t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	myeloid_apc_migration_response	0.20483483644838377	1.350941963184538	-1.1461071267361542	False
+t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	gpr183_receptor_anchor	0.6952280183326858	1.5141346071056394	-0.8189065887729536	False
+t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	lymphoid_trafficking_response	0.47134163268480284	1.5141346071056394	-1.0427929744208366	False
+t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	myeloid_apc_migration_response	0.996654254620986	1.5141346071056394	-0.5174803524846534	False
+t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	gpr183_receptor_anchor	1.0447685424676991	1.4706295036643893	-0.42586096119669015	False
+t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	lymphoid_trafficking_response	1.666758428928695	1.4706295036643893	0.1961289252643057	False
+t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	myeloid_apc_migration_response	1.5212865357101109	1.4706295036643893	0.050657032045721584	False

@@ -1,0 +1,2320 @@
+{
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 6
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Canis lupus familiaris",
+      "pref_name": "Prostaglandin E receptor 4",
+      "score": 16.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL4105910",
+      "target_components": [
+        {
+          "accession": "Q9TU16",
+          "component_description": "Prostaglandin E2 receptor EP4 subtype",
+          "component_id": 17762,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "Prostaglandin E2 receptor EP4 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Prostanoid EP4 receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PTGER4",
+              "syn_type": "GENE_SYMBOL"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0004930",
+              "xref_name": "G protein-coupled receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004957",
+              "xref_name": "prostaglandin E receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001818",
+              "xref_name": "negative regulation of cytokine production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001819",
+              "xref_name": "positive regulation of cytokine production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006955",
+              "xref_name": "immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007186",
+              "xref_name": "G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007188",
+              "xref_name": "adenylate cyclase-modulating G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007189",
+              "xref_name": "adenylate cyclase-activating G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007193",
+              "xref_name": "adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030278",
+              "xref_name": "regulation of ossification",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033624",
+              "xref_name": "negative regulation of integrin activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042093",
+              "xref_name": "T-helper cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050728",
+              "xref_name": "negative regulation of inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050729",
+              "xref_name": "positive regulation of inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051492",
+              "xref_name": "regulation of stress fiber assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071260",
+              "xref_name": "cellular response to mechanical stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000420",
+              "xref_name": "negative regulation of eosinophil extravasation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "Q9TU16",
+              "xref_name": "Prostaglandin E2 receptor EP4 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "R-CFA-391908",
+              "xref_name": "Prostanoid ligand receptors",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "IPR000276",
+              "xref_name": "GPCR_Rhodpsn",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR017452",
+              "xref_name": "GPCR_Rhodpsn_7TM",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001758",
+              "xref_name": "Prost_EP4_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR008365",
+              "xref_name": "Prostanoid_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001244",
+              "xref_name": "Prostglndn_DP_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11866",
+              "xref_name": "G-PROTEIN COUPLED RECEPTOR FAMILY 1 MEMBER",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR11866:SF6",
+              "xref_name": "PROSTAGLANDIN E2 RECEPTOR EP4 SUBTYPE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00001",
+              "xref_name": "7tm_1",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA289",
+              "xref_name": "prostaglandin E receptor 4",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9615
+    },
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Prostaglandin E2 receptor EP4 subtype",
+      "score": 14.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL1836",
+      "target_components": [
+        {
+          "accession": "P35408",
+          "component_description": "Prostaglandin E2 receptor EP4 subtype",
+          "component_id": 136,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "PGE2 receptor EP4 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PGE receptor EP4 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Prostaglandin E2 receptor EP4 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Prostanoid EP4 receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PTGER2",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "PTGER4",
+              "syn_type": "GENE_SYMBOL"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "5YHL",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5YWY",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0004930",
+              "xref_name": "G protein-coupled receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004957",
+              "xref_name": "prostaglandin E receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001818",
+              "xref_name": "negative regulation of cytokine production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001819",
+              "xref_name": "positive regulation of cytokine production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006955",
+              "xref_name": "immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007186",
+              "xref_name": "G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007188",
+              "xref_name": "adenylate cyclase-modulating G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007189",
+              "xref_name": "adenylate cyclase-activating G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007193",
+              "xref_name": "adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007204",
+              "xref_name": "positive regulation of cytosolic calcium ion concentration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007254",
+              "xref_name": "JNK cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030278",
+              "xref_name": "regulation of ossification",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033624",
+              "xref_name": "negative regulation of integrin activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042093",
+              "xref_name": "T-helper cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050728",
+              "xref_name": "negative regulation of inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050729",
+              "xref_name": "positive regulation of inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051492",
+              "xref_name": "regulation of stress fiber assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060348",
+              "xref_name": "bone development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070371",
+              "xref_name": "ERK1 and ERK2 cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071260",
+              "xref_name": "cellular response to mechanical stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071380",
+              "xref_name": "cellular response to prostaglandin E stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000420",
+              "xref_name": "negative regulation of eosinophil extravasation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "Q3MJ87",
+              "xref_name": "Prostaglandin E2 receptor EP4 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P35408",
+              "xref_name": "Prostaglandin E2 receptor EP4 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "5YHL",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5YWY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7D7M",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8GCM",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8GCP",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8GD9",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8GDA",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8GDB",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P35408",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P35408",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:9596",
+              "xref_name": "PTGER4",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-391908",
+              "xref_name": "Prostanoid ligand receptors",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-418555",
+              "xref_name": "G alpha (s) signalling events",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P35408",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "IPR000276",
+              "xref_name": "GPCR_Rhodpsn",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR017452",
+              "xref_name": "GPCR_Rhodpsn_7TM",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001758",
+              "xref_name": "Prost_EP4_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR008365",
+              "xref_name": "Prostanoid_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001244",
+              "xref_name": "Prostglndn_DP_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11866",
+              "xref_name": "G-PROTEIN COUPLED RECEPTOR FAMILY 1 MEMBER",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR11866:SF6",
+              "xref_name": "PROSTAGLANDIN E2 RECEPTOR EP4 SUBTYPE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00001",
+              "xref_name": "7tm_1",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA289",
+              "xref_name": "prostaglandin E receptor 4",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    },
+    {
+      "cross_references": [],
+      "organism": "Mus musculus",
+      "pref_name": "Prostaglandin E2 receptor EP4 subtype",
+      "score": 14.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL2489",
+      "target_components": [
+        {
+          "accession": "P32240",
+          "component_description": "Prostaglandin E2 receptor EP4 subtype",
+          "component_id": 830,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "PGE2 receptor EP4 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PGE receptor EP4 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Prostaglandin E2 receptor EP4 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Prostanoid EP4 receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Ptger4",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Ptgerep4",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0007189",
+              "xref_name": "adenylate cyclase-activating G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030278",
+              "xref_name": "regulation of ossification",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050728",
+              "xref_name": "negative regulation of inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0004930",
+              "xref_name": "G protein-coupled receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004957",
+              "xref_name": "prostaglandin E receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001818",
+              "xref_name": "negative regulation of cytokine production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001819",
+              "xref_name": "positive regulation of cytokine production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006955",
+              "xref_name": "immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007186",
+              "xref_name": "G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007188",
+              "xref_name": "adenylate cyclase-modulating G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007193",
+              "xref_name": "adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007254",
+              "xref_name": "JNK cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033624",
+              "xref_name": "negative regulation of integrin activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042093",
+              "xref_name": "T-helper cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050729",
+              "xref_name": "positive regulation of inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051492",
+              "xref_name": "regulation of stress fiber assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060348",
+              "xref_name": "bone development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070371",
+              "xref_name": "ERK1 and ERK2 cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071260",
+              "xref_name": "cellular response to mechanical stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000420",
+              "xref_name": "negative regulation of eosinophil extravasation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "P32240",
+              "xref_name": "Prostaglandin E2 receptor EP4 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P32240",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "R-MMU-391908",
+              "xref_name": "Prostanoid ligand receptors",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-MMU-418555",
+              "xref_name": "G alpha (s) signalling events",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P32240",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR000276",
+              "xref_name": "GPCR_Rhodpsn",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR017452",
+              "xref_name": "GPCR_Rhodpsn_7TM",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001758",
+              "xref_name": "Prost_EP4_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR008365",
+              "xref_name": "Prostanoid_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001244",
+              "xref_name": "Prostglndn_DP_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11866",
+              "xref_name": "G-PROTEIN COUPLED RECEPTOR FAMILY 1 MEMBER",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR11866:SF6",
+              "xref_name": "PROSTAGLANDIN E2 RECEPTOR EP4 SUBTYPE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00001",
+              "xref_name": "7tm_1",
+              "xref_src_db": "Pfam"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 10090
+    },
+    {
+      "cross_references": [],
+      "organism": "Rattus norvegicus",
+      "pref_name": "Prostaglandin E2 receptor EP4 subtype",
+      "score": 14.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL4086",
+      "target_components": [
+        {
+          "accession": "P43114",
+          "component_description": "Prostaglandin E2 receptor EP4 subtype",
+          "component_id": 2405,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "PGE2 receptor EP4 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PGE receptor EP4 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Prostaglandin E2 receptor EP4 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Prostanoid EP4 receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Ptger4",
+              "syn_type": "GENE_SYMBOL"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0030278",
+              "xref_name": "regulation of ossification",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050728",
+              "xref_name": "negative regulation of inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0004930",
+              "xref_name": "G protein-coupled receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004954",
+              "xref_name": "prostanoid receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004957",
+              "xref_name": "prostaglandin E receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001818",
+              "xref_name": "negative regulation of cytokine production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001819",
+              "xref_name": "positive regulation of cytokine production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002792",
+              "xref_name": "negative regulation of peptide secretion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006171",
+              "xref_name": "cAMP biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006955",
+              "xref_name": "immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007186",
+              "xref_name": "G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007188",
+              "xref_name": "adenylate cyclase-modulating G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007189",
+              "xref_name": "adenylate cyclase-activating G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007193",
+              "xref_name": "adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007204",
+              "xref_name": "positive regulation of cytosolic calcium ion concentration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007254",
+              "xref_name": "JNK cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007565",
+              "xref_name": "female pregnancy",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008284",
+              "xref_name": "positive regulation of cell population proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010628",
+              "xref_name": "positive regulation of gene expression",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010727",
+              "xref_name": "negative regulation of hydrogen peroxide metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010840",
+              "xref_name": "regulation of circadian sleep/wake cycle, wakefulness",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0014911",
+              "xref_name": "positive regulation of smooth muscle cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031401",
+              "xref_name": "positive regulation of protein modification process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032690",
+              "xref_name": "negative regulation of interleukin-1 alpha production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032720",
+              "xref_name": "negative regulation of tumor necrosis factor production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032733",
+              "xref_name": "positive regulation of interleukin-10 production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032757",
+              "xref_name": "positive regulation of interleukin-8 production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033624",
+              "xref_name": "negative regulation of integrin activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035810",
+              "xref_name": "positive regulation of urine volume",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042093",
+              "xref_name": "T-helper cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045669",
+              "xref_name": "positive regulation of osteoblast differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045778",
+              "xref_name": "positive regulation of ossification",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045780",
+              "xref_name": "positive regulation of bone resorption",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045785",
+              "xref_name": "positive regulation of cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046010",
+              "xref_name": "positive regulation of circadian sleep/wake cycle, non-REM sleep",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050714",
+              "xref_name": "positive regulation of protein secretion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050729",
+              "xref_name": "positive regulation of inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051492",
+              "xref_name": "regulation of stress fiber assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060137",
+              "xref_name": "maternal process involved in parturition",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060348",
+              "xref_name": "bone development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070257",
+              "xref_name": "positive regulation of mucus secretion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070371",
+              "xref_name": "ERK1 and ERK2 cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071260",
+              "xref_name": "cellular response to mechanical stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071333",
+              "xref_name": "cellular response to glucose stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071380",
+              "xref_name": "cellular response to prostaglandin E stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0090303",
+              "xref_name": "positive regulation of wound healing",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0097070",
+              "xref_name": "ductus arteriosus closure",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0141156",
+              "xref_name": "cAMP/PKA signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1900127",
+              "xref_name": "positive regulation of hyaluronan biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1904336",
+              "xref_name": "negative regulation of ductus arteriosus closure",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1904348",
+              "xref_name": "negative regulation of small intestine smooth muscle contraction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1904364",
+              "xref_name": "positive regulation of calcitonin secretion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1904367",
+              "xref_name": "positive regulation of chemokinesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1904460",
+              "xref_name": "positive regulation of substance P secretion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1904466",
+              "xref_name": "positive regulation of matrix metallopeptidase secretion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1904471",
+              "xref_name": "negative regulation of endothelin production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1904496",
+              "xref_name": "positive regulation of substance P secretion, neurotransmission",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1990785",
+              "xref_name": "response to water-immersion restraint stress",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000386",
+              "xref_name": "positive regulation of ovarian follicle development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000388",
+              "xref_name": "positive regulation of antral ovarian follicle growth",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000391",
+              "xref_name": "positive regulation of neutrophil extravasation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000420",
+              "xref_name": "negative regulation of eosinophil extravasation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031965",
+              "xref_name": "nuclear membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0043025",
+              "xref_name": "neuronal cell body",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0044306",
+              "xref_name": "neuron projection terminus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "O08728",
+              "xref_name": "Prostaglandin E2 receptor EP4 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P43114",
+              "xref_name": "Prostaglandin E2 receptor EP4 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P43114",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "R-RNO-391908",
+              "xref_name": "Prostanoid ligand receptors",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "IPR000276",
+              "xref_name": "GPCR_Rhodpsn",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR017452",
+              "xref_name": "GPCR_Rhodpsn_7TM",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001758",
+              "xref_name": "Prost_EP4_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR008365",
+              "xref_name": "Prostanoid_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001244",
+              "xref_name": "Prostglndn_DP_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11866",
+              "xref_name": "G-PROTEIN COUPLED RECEPTOR FAMILY 1 MEMBER",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR11866:SF6",
+              "xref_name": "PROSTAGLANDIN E2 RECEPTOR EP4 SUBTYPE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00001",
+              "xref_name": "7tm_1",
+              "xref_src_db": "Pfam"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 10116
+    },
+    {
+      "cross_references": [],
+      "organism": "Oryctolagus cuniculus",
+      "pref_name": "Prostaglandin E2 receptor EP4 subtype",
+      "score": 14.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL1926498",
+      "target_components": [
+        {
+          "accession": "Q28691",
+          "component_description": "Prostaglandin E2 receptor EP4 subtype",
+          "component_id": 5716,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "PGE2 receptor EP4 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PGE receptor EP4 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Prostaglandin E2 receptor EP4 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Prostanoid EP4 receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PTGER4",
+              "syn_type": "GENE_SYMBOL"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0004930",
+              "xref_name": "G protein-coupled receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004957",
+              "xref_name": "prostaglandin E receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001818",
+              "xref_name": "negative regulation of cytokine production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001819",
+              "xref_name": "positive regulation of cytokine production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006955",
+              "xref_name": "immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007186",
+              "xref_name": "G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007188",
+              "xref_name": "adenylate cyclase-modulating G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007189",
+              "xref_name": "adenylate cyclase-activating G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007193",
+              "xref_name": "adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007204",
+              "xref_name": "positive regulation of cytosolic calcium ion concentration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030278",
+              "xref_name": "regulation of ossification",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033624",
+              "xref_name": "negative regulation of integrin activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042093",
+              "xref_name": "T-helper cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050728",
+              "xref_name": "negative regulation of inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050729",
+              "xref_name": "positive regulation of inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051492",
+              "xref_name": "regulation of stress fiber assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071260",
+              "xref_name": "cellular response to mechanical stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071380",
+              "xref_name": "cellular response to prostaglandin E stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000420",
+              "xref_name": "negative regulation of eosinophil extravasation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "Q28691",
+              "xref_name": "Prostaglandin E2 receptor EP4 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q28691",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "Q28691",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR000276",
+              "xref_name": "GPCR_Rhodpsn",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR017452",
+              "xref_name": "GPCR_Rhodpsn_7TM",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001758",
+              "xref_name": "Prost_EP4_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR008365",
+              "xref_name": "Prostanoid_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001244",
+              "xref_name": "Prostglndn_DP_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11866",
+              "xref_name": "G-PROTEIN COUPLED RECEPTOR FAMILY 1 MEMBER",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR11866:SF6",
+              "xref_name": "PROSTAGLANDIN E2 RECEPTOR EP4 SUBTYPE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00001",
+              "xref_name": "7tm_1",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA289",
+              "xref_name": "prostaglandin E receptor 4",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9986
+    },
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Prostaglandin E2 receptor",
+      "score": 8.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL2363068",
+      "target_components": [
+        {
+          "accession": "P34995",
+          "component_description": "Prostaglandin E2 receptor EP1 subtype",
+          "component_id": 106,
+          "component_type": "PROTEIN",
+          "relationship": "GROUP MEMBER",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "PGE2 receptor EP1 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PGE receptor EP1 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Prostaglandin E2 receptor EP1 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Prostanoid EP1 receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PTGER1",
+              "syn_type": "GENE_SYMBOL"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0004930",
+              "xref_name": "G protein-coupled receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004957",
+              "xref_name": "prostaglandin E receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0031748",
+              "xref_name": "D1 dopamine receptor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0007186",
+              "xref_name": "G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007189",
+              "xref_name": "adenylate cyclase-activating G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007191",
+              "xref_name": "adenylate cyclase-activating dopamine receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007200",
+              "xref_name": "phospholipase C-activating G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007204",
+              "xref_name": "positive regulation of cytosolic calcium ion concentration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "Q5U5U4",
+              "xref_name": "Prostaglandin E2 receptor EP1 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q86UH3",
+              "xref_name": "Prostaglandin E2 receptor EP1 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q86VB5",
+              "xref_name": "Prostaglandin E2 receptor EP1 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8NHB2",
+              "xref_name": "Prostaglandin E2 receptor EP1 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P34995",
+              "xref_name": "Prostaglandin E2 receptor EP1 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P34995",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "HGNC:9593",
+              "xref_name": "PTGER1",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-391908",
+              "xref_name": "Prostanoid ligand receptors",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-416476",
+              "xref_name": "G alpha (q) signalling events",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P34995",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "IPR000276",
+              "xref_name": "GPCR_Rhodpsn",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR017452",
+              "xref_name": "GPCR_Rhodpsn_7TM",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR008365",
+              "xref_name": "Prostanoid_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001244",
+              "xref_name": "Prostglndn_DP_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR000708",
+              "xref_name": "Prostglndn_EP1_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11866",
+              "xref_name": "G-PROTEIN COUPLED RECEPTOR FAMILY 1 MEMBER",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR11866:SF3",
+              "xref_name": "PROSTAGLANDIN E2 RECEPTOR EP1 SUBTYPE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00001",
+              "xref_name": "7tm_1",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA286",
+              "xref_name": "prostaglandin E receptor 1",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        },
+        {
+          "accession": "P35408",
+          "component_description": "Prostaglandin E2 receptor EP4 subtype",
+          "component_id": 136,
+          "component_type": "PROTEIN",
+          "relationship": "GROUP MEMBER",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "PGE2 receptor EP4 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PGE receptor EP4 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Prostaglandin E2 receptor EP4 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Prostanoid EP4 receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PTGER2",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "PTGER4",
+              "syn_type": "GENE_SYMBOL"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "5YHL",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5YWY",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0004930",
+              "xref_name": "G protein-coupled receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004957",
+              "xref_name": "prostaglandin E receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001818",
+              "xref_name": "negative regulation of cytokine production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001819",
+              "xref_name": "positive regulation of cytokine production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006955",
+              "xref_name": "immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007186",
+              "xref_name": "G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007188",
+              "xref_name": "adenylate cyclase-modulating G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007189",
+              "xref_name": "adenylate cyclase-activating G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007193",
+              "xref_name": "adenylate cyclase-inhibiting G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007204",
+              "xref_name": "positive regulation of cytosolic calcium ion concentration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007254",
+              "xref_name": "JNK cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030278",
+              "xref_name": "regulation of ossification",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033624",
+              "xref_name": "negative regulation of integrin activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042093",
+              "xref_name": "T-helper cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050728",
+              "xref_name": "negative regulation of inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050729",
+              "xref_name": "positive regulation of inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051492",
+              "xref_name": "regulation of stress fiber assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060348",
+              "xref_name": "bone development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070371",
+              "xref_name": "ERK1 and ERK2 cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071260",
+              "xref_name": "cellular response to mechanical stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071380",
+              "xref_name": "cellular response to prostaglandin E stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000420",
+              "xref_name": "negative regulation of eosinophil extravasation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "Q3MJ87",
+              "xref_name": "Prostaglandin E2 receptor EP4 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P35408",
+              "xref_name": "Prostaglandin E2 receptor EP4 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "5YHL",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5YWY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7D7M",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8GCM",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8GCP",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8GD9",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8GDA",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8GDB",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P35408",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P35408",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:9596",
+              "xref_name": "PTGER4",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-391908",
+              "xref_name": "Prostanoid ligand receptors",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-418555",
+              "xref_name": "G alpha (s) signalling events",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P35408",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "IPR000276",
+              "xref_name": "GPCR_Rhodpsn",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR017452",
+              "xref_name": "GPCR_Rhodpsn_7TM",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001758",
+              "xref_name": "Prost_EP4_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR008365",
+              "xref_name": "Prostanoid_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001244",
+              "xref_name": "Prostglndn_DP_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11866",
+              "xref_name": "G-PROTEIN COUPLED RECEPTOR FAMILY 1 MEMBER",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR11866:SF6",
+              "xref_name": "PROSTAGLANDIN E2 RECEPTOR EP4 SUBTYPE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00001",
+              "xref_name": "7tm_1",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA289",
+              "xref_name": "prostaglandin E receptor 4",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        },
+        {
+          "accession": "P43116",
+          "component_description": "Prostaglandin E2 receptor EP2 subtype",
+          "component_id": 197,
+          "component_type": "PROTEIN",
+          "relationship": "GROUP MEMBER",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "PGE2 receptor EP2 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PGE receptor EP2 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Prostaglandin E2 receptor EP2 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Prostanoid EP2 receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PTGER2",
+              "syn_type": "GENE_SYMBOL"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0004930",
+              "xref_name": "G protein-coupled receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004957",
+              "xref_name": "prostaglandin E receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0007186",
+              "xref_name": "G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007189",
+              "xref_name": "adenylate cyclase-activating G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007204",
+              "xref_name": "positive regulation of cytosolic calcium ion concentration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042127",
+              "xref_name": "regulation of cell population proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071380",
+              "xref_name": "cellular response to prostaglandin E stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "D3DSC0",
+              "xref_name": "Prostaglandin E2 receptor EP2 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q52LG8",
+              "xref_name": "Prostaglandin E2 receptor EP2 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P43116",
+              "xref_name": "Prostaglandin E2 receptor EP2 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "7CX2",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7CX3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7CX4",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P43116",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P43116",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:9594",
+              "xref_name": "PTGER2",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-391908",
+              "xref_name": "Prostanoid ligand receptors",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-418555",
+              "xref_name": "G alpha (s) signalling events",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P43116",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P43116",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR000276",
+              "xref_name": "GPCR_Rhodpsn",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR017452",
+              "xref_name": "GPCR_Rhodpsn_7TM",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR008365",
+              "xref_name": "Prostanoid_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001923",
+              "xref_name": "Prostglndn_EP2_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11866",
+              "xref_name": "G-PROTEIN COUPLED RECEPTOR FAMILY 1 MEMBER",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR11866:SF8",
+              "xref_name": "PROSTAGLANDIN E2 RECEPTOR EP2 SUBTYPE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00001",
+              "xref_name": "7tm_1",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA287",
+              "xref_name": "prostaglandin E receptor 2",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        },
+        {
+          "accession": "P43115",
+          "component_description": "Prostaglandin E2 receptor EP3 subtype",
+          "component_id": 2026,
+          "component_type": "PROTEIN",
+          "relationship": "GROUP MEMBER",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "PGE2-R",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PGE2 receptor EP3 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PGE receptor EP3 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Prostaglandin E2 receptor EP3 subtype",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Prostanoid EP3 receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PTGER3",
+              "syn_type": "GENE_SYMBOL"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "6AK3",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6M9T",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0004930",
+              "xref_name": "G protein-coupled receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004957",
+              "xref_name": "prostaglandin E receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0007186",
+              "xref_name": "G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007189",
+              "xref_name": "adenylate cyclase-activating G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007200",
+              "xref_name": "phospholipase C-activating G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007204",
+              "xref_name": "positive regulation of cytosolic calcium ion concentration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008219",
+              "xref_name": "cell death",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031622",
+              "xref_name": "positive regulation of fever generation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060455",
+              "xref_name": "negative regulation of gastric acid secretion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005635",
+              "xref_name": "nuclear envelope",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "B0AZN4",
+              "xref_name": "Prostaglandin E2 receptor EP3 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "B1AK19",
+              "xref_name": "Prostaglandin E2 receptor EP3 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "B5BUP5",
+              "xref_name": "Prostaglandin E2 receptor EP3 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O00326",
+              "xref_name": "Prostaglandin E2 receptor EP3 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q12943",
+              "xref_name": "Prostaglandin E2 receptor EP3 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q12944",
+              "xref_name": "Prostaglandin E2 receptor EP3 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q12945",
+              "xref_name": "Prostaglandin E2 receptor EP3 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q147X8",
+              "xref_name": "Prostaglandin E2 receptor EP3 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q16546",
+              "xref_name": "Prostaglandin E2 receptor EP3 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q5CZ59",
+              "xref_name": "Prostaglandin E2 receptor EP3 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q5CZ61",
+              "xref_name": "Prostaglandin E2 receptor EP3 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q5CZ62",
+              "xref_name": "Prostaglandin E2 receptor EP3 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q5CZ63",
+              "xref_name": "Prostaglandin E2 receptor EP3 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q5CZ64",
+              "xref_name": "Prostaglandin E2 receptor EP3 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P43115",
+              "xref_name": "Prostaglandin E2 receptor EP3 subtype",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "6AK3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6M9T",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7WU9",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8GDC",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P43115",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P43115",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:9595",
+              "xref_name": "PTGER3",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-391908",
+              "xref_name": "Prostanoid ligand receptors",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-418594",
+              "xref_name": "G alpha (i) signalling events",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P43115",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P43115",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR001481",
+              "xref_name": "EP3_rcpt_2",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR000276",
+              "xref_name": "GPCR_Rhodpsn",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR017452",
+              "xref_name": "GPCR_Rhodpsn_7TM",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR008365",
+              "xref_name": "Prostanoid_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001244",
+              "xref_name": "Prostglndn_DP_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR000265",
+              "xref_name": "Prostglndn_EP3_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11866",
+              "xref_name": "G-PROTEIN COUPLED RECEPTOR FAMILY 1 MEMBER",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR11866:SF10",
+              "xref_name": "PROSTAGLANDIN E2 RECEPTOR EP3 SUBTYPE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00001",
+              "xref_name": "7tm_1",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA288",
+              "xref_name": "prostaglandin E receptor 3",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        }
+      ],
+      "target_type": "PROTEIN FAMILY",
+      "tax_id": 9606
+    }
+  ]
+}

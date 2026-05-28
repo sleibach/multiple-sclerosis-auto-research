@@ -1,0 +1,168 @@
+{
+  "data": {
+    "credibleSets": {
+      "count": 2,
+      "rows": [
+        {
+          "beta": 3.35892,
+          "chromosome": "6",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.7240825295448303,
+                "target": {
+                  "approvedName": "ankyrin repeat and sterile alpha motif domain containing 1A",
+                  "approvedSymbol": "ANKS1A",
+                  "id": "ENSG00000064999"
+                }
+              },
+              {
+                "score": 0.25568512082099915,
+                "target": {
+                  "approvedName": "TATA-box binding protein associated factor 11",
+                  "approvedSymbol": "TAF11",
+                  "id": "ENSG00000064995"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -10,
+          "pValueMantissa": 3.0190000534057617,
+          "position": 34895308,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.53335,
+          "studyId": "GCST90044158",
+          "studyLocusId": "382291f2d28e4722c4b7668d5db6381f",
+          "studyType": "gwas",
+          "variant": {
+            "id": "6_34895308_T_C",
+            "rsIds": [
+              "rs531208390"
+            ]
+          }
+        },
+        {
+          "beta": -0.007972675853744957,
+          "chromosome": "4",
+          "colocalisation": {
+            "count": 2,
+            "rows": [
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.03560159777813136,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.976074237290365,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000775",
+                      "biosampleName": "neutrophil"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "bridge-like lipid transfer protein family member 1",
+                      "approvedSymbol": "BLTP1",
+                      "id": "ENSG00000138688"
+                    },
+                    "traitFromSource": "ENSG00000138688.17_4_122362753_122364167"
+                  },
+                  "studyId": "blueprint_exon_neutrophil_ensg00000138688_17_4_122362753_122364167",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.03688008544564983,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9769175602530844,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000775",
+                      "biosampleName": "neutrophil"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "bridge-like lipid transfer protein family member 1",
+                      "approvedSymbol": "BLTP1",
+                      "id": "ENSG00000138688"
+                    },
+                    "traitFromSource": "ENST00000693357"
+                  },
+                  "studyId": "blueprint_tx_neutrophil_enst00000693357",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              }
+            ]
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 4,
+            "rows": [
+              {
+                "score": 0.5559611320495605,
+                "target": {
+                  "approvedName": "interleukin 21",
+                  "approvedSymbol": "IL21",
+                  "id": "ENSG00000138684"
+                }
+              },
+              {
+                "score": 0.269431471824646,
+                "target": {
+                  "approvedName": "interleukin 2",
+                  "approvedSymbol": "IL2",
+                  "id": "ENSG00000109471"
+                }
+              },
+              {
+                "score": 0.15801836550235748,
+                "target": {
+                  "approvedName": "adenosine deaminase domain containing 1",
+                  "approvedSymbol": "ADAD1",
+                  "id": "ENSG00000164113"
+                }
+              },
+              {
+                "score": 0.07151100784540176,
+                "target": {
+                  "approvedName": "bridge-like lipid transfer protein family member 1",
+                  "approvedSymbol": "BLTP1",
+                  "id": "ENSG00000138688"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -9,
+          "pValueMantissa": 8.741311073303223,
+          "position": 122578590,
+          "purityMeanR2": 0.9553307970925959,
+          "purityMinR2": 0.7254026494411564,
+          "standardError": null,
+          "studyId": "GCST90044158",
+          "studyLocusId": "9a8b3645105efa22686de12f625ee1ad",
+          "studyType": "gwas",
+          "variant": {
+            "id": "4_122578590_G_T",
+            "rsIds": [
+              "rs13140464"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

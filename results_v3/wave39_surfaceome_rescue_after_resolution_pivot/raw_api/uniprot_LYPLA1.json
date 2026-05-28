@@ -1,0 +1,356 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P70470",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "19439193",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20418879",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "21393252",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22399288",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "27481942",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "37802024",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Acts as an acyl-protein thioesterase (PubMed:19439193, PubMed:20418879). Hydrolyzes fatty acids from S-acylated cysteine residues in proteins such as trimeric G alpha proteins or HRAS (PubMed:20418879). Acts as a palmitoyl thioesterase that catalyzes depalmitoylation of proteins, such as ADRB2, KCNMA1 and SQSTM1 (PubMed:22399288, PubMed:27481942, PubMed:37802024). Acts as a negative regulator of autophagy by mediating palmitoylation of SQSTM1, decreasing affinity between SQSTM1 and ATG8 proteins and recruitment of ubiquitinated cargo proteins to autophagosomes (PubMed:37802024). Acts as a lysophospholipase and hydrolyzes lysophosphatidylcholine (lyso-PC) (PubMed:19439193). Also hydrolyzes lysophosphatidylethanolamine (lyso-PE), lysophosphatidylinositol (lyso-PI) and lysophosphatidylserine (lyso-PS) (By similarity). Has much higher thioesterase activity than lysophospholipase activity (PubMed:19439193). Contributes to the production of lysophosphatidic acid (LPA) during blood coagulation by recognizing and cleaving plasma phospholipids to generate lysophospholipids which in turn act as substrates for ENPP2 to produce LPA (PubMed:21393252)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "19439193",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Shows predominantly a cytoplasmic localization with a weak expression in the cell membrane, nuclear membrane and endoplasmic reticulum"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "19439193",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "19439193",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "19439193",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0182",
+                "value": "Nucleus membrane"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "19439193",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0095",
+                "value": "Endoplasmic reticulum"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000072858"
+      },
+      "features": [
+        {
+          "description": "Charge relay system",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "19439193",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "37802024",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 119
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 119
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "Charge relay system",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "11080636",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 174
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 174
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "Charge relay system",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "11080636",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 208
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 208
+            }
+          },
+          "type": "Active site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "LYPLA1"
+          },
+          "synonyms": [
+            {
+              "value": "APT1"
+            },
+            {
+              "value": "LPL1"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-1003",
+          "name": "Cell membrane"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0963",
+          "name": "Cytoplasm"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0256",
+          "name": "Endoplasmic reticulum"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0276",
+          "name": "Fatty acid metabolism"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0378",
+          "name": "Hydrolase"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0443",
+          "name": "Lipid metabolism"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0539",
+          "name": "Nucleus"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        }
+      ],
+      "primaryAccession": "O75608",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Lysophospholipase 1"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Lysophospholipase I"
+            },
+            "shortNames": [
+              {
+                "value": "LPL-I"
+              },
+              {
+                "value": "LysoPLA I"
+              }
+            ]
+          },
+          {
+            "ecNumbers": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "22399288",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "37802024",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "3.1.2.22"
+              }
+            ],
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000305"
+                }
+              ],
+              "value": "Palmitoyl-protein hydrolase"
+            }
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "value": "3.1.2.-"
+            }
+          ],
+          "fullName": {
+            "value": "Acyl-protein thioesterase 1"
+          },
+          "shortNames": [
+            {
+              "value": "APT-1"
+            },
+            {
+              "value": "hAPT1"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "90C0522F765F1AC6",
+        "length": 230,
+        "md5": "2D5141E32D03DF1CA42F5EED2A39D89A",
+        "molWeight": 24670,
+        "value": "MCGNNMSTPLPAIVPAARKATAAVIFLHGLGDTGHGWAEAFAGIRSSHIKYICPHAPVRPVTLNMNVAMPSWFDIIGLSPDSQEDESGIKQAAENIKALIDQEVKNGIPSNRIILGGFSQGGALSLYTALTTQQKLAGVTALSCWLPLRASFPQGPIGGANRDISILQCHGDCDPLVPLMFGSLTVEKLKTLVNPANVTFKTYEGMMHSSCQQEMMDVKQFIDKLLPPID"
+      },
+      "uniProtkbId": "LYPA1_HUMAN"
+    }
+  ]
+}

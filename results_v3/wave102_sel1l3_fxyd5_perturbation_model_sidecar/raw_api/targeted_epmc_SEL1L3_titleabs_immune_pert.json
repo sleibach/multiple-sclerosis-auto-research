@@ -1,0 +1,305 @@
+{
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%22SEL1L3%22+AND+%28immune+OR+macrophage+OR+monocyte+OR+stromal+OR+epithelial+OR+autoimmune+OR+inflammation+OR+inflammatory%29+AND+%28knockdown+OR+knockout+OR+CRISPR+OR+siRNA+OR+shRNA+OR+overexpression+OR+perturbation%29&format=json&pageSize=10&resultType=lite",
+  "status": 200,
+  "json": {
+    "version": "6.9",
+    "hitCount": 8,
+    "request": {
+      "queryString": "TITLE_ABS:\"SEL1L3\" AND (immune OR macrophage OR monocyte OR stromal OR epithelial OR autoimmune OR inflammation OR inflammatory) AND (knockdown OR knockout OR CRISPR OR siRNA OR shRNA OR overexpression OR perturbation)",
+      "resultType": "lite",
+      "cursorMark": "*",
+      "pageSize": 10,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "id": "40612944",
+          "source": "MED",
+          "pmid": "40612944",
+          "pmcid": "PMC12221901",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12221901"
+            ]
+          },
+          "doi": "10.3389/fimmu.2025.1557266",
+          "title": "Bridging aging, immunity, and atherosclerosis: novel insights into senescence-related genes.",
+          "authorString": "Lu Y, Yuan R, Xin Q, Chen K, Cong W.",
+          "journalTitle": "Front Immunol",
+          "journalVolume": "16",
+          "pubYear": "2025",
+          "journalIssn": "1664-3224",
+          "pageInfo": "1557266",
+          "pubType": "research-article; journal article",
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasTMAccessionNumbers": "N",
+          "firstIndexDate": "2025-07-09",
+          "firstPublicationDate": "2025-06-19"
+        },
+        {
+          "id": "37993256",
+          "source": "MED",
+          "pmid": "37993256",
+          "pmcid": "PMC10713414",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC10713414"
+            ]
+          },
+          "doi": "10.18632/aging.205227",
+          "title": "SEL1L3 as a link molecular between renal cell carcinoma and atherosclerosis based on bioinformatics analysis and experimental verification.",
+          "authorString": "Wang H, Ma X, Li S, Ni X.",
+          "journalTitle": "Aging (Albany NY)",
+          "issue": "22",
+          "journalVolume": "15",
+          "pubYear": "2023",
+          "journalIssn": "1945-4589",
+          "pageInfo": "13150-13162",
+          "pubType": "research support, non-u.s. gov't; research-article; journal article",
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "citedByCount": 5,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "geo"
+            ]
+          },
+          "firstIndexDate": "2023-11-23",
+          "firstPublicationDate": "2023-11-21"
+        },
+        {
+          "id": "39877037",
+          "source": "MED",
+          "pmid": "39877037",
+          "pmcid": "PMC11773089",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11773089"
+            ]
+          },
+          "doi": "10.1016/j.bbrep.2024.101911",
+          "title": "Screening of biomarkers for diagnosing chronic kidney disease and heart failure with preserved ejection fraction through bioinformatics analysis.",
+          "authorString": "Hou C, Xu J, Zhou M, Huo J, Wang X, Jiang W, Su T, Wang H, Jia F.",
+          "journalTitle": "Biochem Biophys Rep",
+          "journalVolume": "41",
+          "pubYear": "2025",
+          "journalIssn": "2405-5808",
+          "pageInfo": "101911",
+          "pubType": "research-article; journal article",
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "citedByCount": 2,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasTMAccessionNumbers": "N",
+          "firstIndexDate": "2025-01-29",
+          "firstPublicationDate": "2025-01-11"
+        },
+        {
+          "id": "36930113",
+          "source": "MED",
+          "pmid": "36930113",
+          "pmcid": "PMC10019206",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC10019206"
+            ]
+          },
+          "doi": "10.1097/md.0000000000033290",
+          "title": "The specific phagocytosis regulators could predict recurrence and therapeutic effect in thyroid cancer: A study based on bioinformatics analysis.",
+          "authorString": "Hou C, Wu M, Zhang H, Yang Z.",
+          "journalTitle": "Medicine (Baltimore)",
+          "issue": "11",
+          "journalVolume": "102",
+          "pubYear": "2023",
+          "journalIssn": "0304-5412; 1536-5964; 0025-7974; ",
+          "pageInfo": "e33290",
+          "pubType": "research-article; journal article",
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "citedByCount": 5,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasTMAccessionNumbers": "N",
+          "firstIndexDate": "2023-03-18",
+          "firstPublicationDate": "2023-03-01"
+        },
+        {
+          "id": "40051609",
+          "source": "MED",
+          "pmid": "40051609",
+          "pmcid": "PMC11884337",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11884337"
+            ]
+          },
+          "doi": "10.15586/jkc.v12i1.366",
+          "title": "Identification of BCL11A, NTN5, and OGN as Diagnosis Biomarker of Papillary Renal Cell Carcinomas by Bioinformatic Analysis.",
+          "authorString": "Haghshenas Z, Fathi S, Ahmadzadeh A, Nazari E.",
+          "journalTitle": "J Kidney Cancer VHL",
+          "issue": "1",
+          "journalVolume": "12",
+          "pubYear": "2025",
+          "journalIssn": "2203-5826",
+          "pageInfo": "12-22",
+          "pubType": "research-article; journal article",
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "citedByCount": 1,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "geo"
+            ]
+          },
+          "firstIndexDate": "2025-03-07",
+          "firstPublicationDate": "2025-02-28"
+        },
+        {
+          "id": "38111587",
+          "source": "MED",
+          "pmid": "38111587",
+          "pmcid": "PMC10725955",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC10725955"
+            ]
+          },
+          "doi": "10.3389/fimmu.2023.1245514",
+          "title": "Single-cell and bulk RNA sequencing analysis of B cell marker genes in TNBC TME landscape and immunotherapy.",
+          "authorString": "Zhao F, Zhao C, Xu T, Lan Y, Lin H, Wu X, Li X.",
+          "journalTitle": "Front Immunol",
+          "journalVolume": "14",
+          "pubYear": "2023",
+          "journalIssn": "1664-3224",
+          "pageInfo": "1245514",
+          "pubType": "research support, non-u.s. gov't; research-article; journal article",
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "citedByCount": 7,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasTMAccessionNumbers": "N",
+          "firstIndexDate": "2023-12-22",
+          "firstPublicationDate": "2023-12-04"
+        },
+        {
+          "id": "34993975",
+          "source": "MED",
+          "pmid": "34993975",
+          "doi": "10.1111/jre.12970",
+          "title": "Identification of hub genes related to immune cell infiltration in periodontitis using integrated bioinformatic analysis.",
+          "authorString": "Gao X, Jiang C, Yao S, Ma L, Wang X, Cao Z.",
+          "journalTitle": "J Periodontal Res",
+          "issue": "2",
+          "journalVolume": "57",
+          "pubYear": "2022",
+          "journalIssn": "0022-3484; 1600-0765; ",
+          "pageInfo": "392-401",
+          "pubType": "journal article",
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "citedByCount": 17,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasTMAccessionNumbers": "N",
+          "firstIndexDate": "2022-01-08",
+          "firstPublicationDate": "2022-01-06"
+        },
+        {
+          "id": "31019967",
+          "source": "MED",
+          "pmid": "31019967",
+          "pmcid": "PMC6451803",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC6451803"
+            ]
+          },
+          "doi": "10.1155/2019/3526407",
+          "title": "A Simple Competing Endogenous RNA Network Identifies Novel mRNA, miRNA, and lncRNA Markers in Human Cholangiocarcinoma.",
+          "authorString": "Zhang C, Ge C.",
+          "journalTitle": "Biomed Res Int",
+          "journalVolume": "2019",
+          "pubYear": "2019",
+          "journalIssn": "2314-6133; 2314-6141; ",
+          "pageInfo": "3526407",
+          "pubType": "research-article; journal article",
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "citedByCount": 11,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "go"
+            ]
+          },
+          "firstIndexDate": "2019-04-26",
+          "firstPublicationDate": "2019-03-24"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,110 @@
+gene	stronger_than_ctsh_geneformer	best_direct_source	best_direct_dataset	best_direct_perturbation	best_direct_rank	best_direct_selectivity_score	best_direct_evidence_call	mixscale_transition_rank	transition_suppression_score	gse162463_screen_stronger_than_ctsh	MHCII_rank_required_low_vs_high	MHCII_median_low_vs_high_log2	MHCII_positive_sgrna_fraction	gse162463_mhcii_direction_call	real_perturbation_alignment_call
+STAT1	True	Mixscale_CRISPRi	GSE281048_Zenodo14035992	STAT1	176.0	-0.4012258865119662	broad_ifn_jak_like_collapse	4.0	1.8999421413281312	True	44.0	3.3365236819178272	1.0	mhcii_low_enrichment_supportive	model_and_broad_ifn_jak_real_align_not_selective
+TMSB10	True									True	1166.0	1.2339876863124286	1.0	mhcii_low_enrichment_supportive	model_and_gse162463_screen_align_relative_to_ctsh
+SEC61A1	True									True	80.0	2.9584577923183843	0.75	mhcii_low_enrichment_supportive	model_and_gse162463_screen_align_relative_to_ctsh
+CD74	True									True	651.0	1.563545242623822	1.0	mhcii_low_enrichment_supportive	model_and_gse162463_screen_align_relative_to_ctsh
+CD300E	True									True	1262.0	1.1880102856768335	0.75	mhcii_low_enrichment_supportive	model_and_gse162463_screen_align_relative_to_ctsh
+PTPN2	True									True	803.0	1.445053942051179	0.75	mhcii_low_enrichment_supportive	model_and_gse162463_screen_align_relative_to_ctsh
+LAMP3	True														model_with_readout_concordance_only
+CTSD	True									False	4138.0	0.4133560444808046	1.0	mhcii_low_enrichment_supportive	model_with_readout_concordance_only
+IFI30	True									False	3889.0	0.4599160523462348	0.75	mhcii_low_enrichment_supportive	model_with_readout_concordance_only
+CTSS	True									False	1803.0	0.9772742396217962	1.0	mhcii_low_enrichment_supportive	model_with_readout_concordance_only
+HLA-DMB	True														model_with_readout_concordance_only
+HLA-DRB1	True														model_with_readout_concordance_only
+SEC61B	True									False	4646.0	0.3170554617960796	0.5	mixed_or_weak	model_only_no_real_perturbation_alignment
+MTHFD2	True									False	5793.0	0.1280119010306453	0.5	mixed_or_weak	model_only_no_real_perturbation_alignment
+RPL17	True									False	6553.0	0.0	0.0	mixed_or_weak	model_only_no_real_perturbation_alignment
+SNX10	True									False	5782.0	0.1293034331005373	0.5	mixed_or_weak	model_only_no_real_perturbation_alignment
+ACSL3	True									False	3415.0	0.5614611623580376	0.75	mhcii_low_enrichment_supportive	model_only_no_real_perturbation_alignment
+CFB	True														model_only_no_real_perturbation_alignment
+FMNL2	True	Mixscale_CRISPRi	GSE281048_Zenodo14035992	FMNL2	42.0	-0.0034002539524828	null_or_wrong_direction								model_only_no_real_perturbation_alignment
+BIRC3	True	Mixscale_CRISPRi	GSE281048_Zenodo14035992	BIRC3	164.0	-0.1039163547543835	null_or_wrong_direction			False	4419.0	0.3587350298732164	0.75	mhcii_low_enrichment_supportive	model_only_no_real_perturbation_alignment
+TNFAIP3	True									False	1897.0	0.9455706096394072	0.5	mixed_or_weak	model_only_no_real_perturbation_alignment
+SEL1L3	True									False	3371.0	0.5710540713369701	0.75	mhcii_low_enrichment_supportive	model_only_no_real_perturbation_alignment
+TGM2	True									False	3340.0	0.575961723406788	0.75	mhcii_low_enrichment_supportive	model_only_no_real_perturbation_alignment
+TPM4	True									False	3803.0	0.4822264072268533	0.5	mixed_or_weak	model_only_no_real_perturbation_alignment
+CD300LF	True									False	3122.0	0.6306443856723214	0.75	mhcii_low_enrichment_supportive	model_only_no_real_perturbation_alignment
+SDC4	True									False	5533.0	0.1714360071316198	0.5	mixed_or_weak	model_only_no_real_perturbation_alignment
+SH2B3	True									False	3974.0	0.4458331313876129	0.75	mhcii_low_enrichment_supportive	model_only_no_real_perturbation_alignment
+MMADHC	True									False	3518.0	0.5429033030421979	0.5	mixed_or_weak	model_only_no_real_perturbation_alignment
+LIMS1	True									False	1427.0	1.121276343341553	0.75	mhcii_low_enrichment_supportive	model_only_no_real_perturbation_alignment
+CXCL8	True														model_only_no_real_perturbation_alignment
+SERPINA1	True														model_only_no_real_perturbation_alignment
+CHI3L1	True														model_only_no_real_perturbation_alignment
+TASL	True														model_only_no_real_perturbation_alignment
+PPIB	True									False	2983.0	0.6597958020319548	1.0	mhcii_low_enrichment_supportive	model_only_no_real_perturbation_alignment
+HIF1A	True									False	8435.0	-0.3457569937768427	0.25	mhcii_low_enrichment_contradictory	model_contradicted_by_gse162463_screen
+IFITM3	True									False	7606.0	-0.1741280715277282	0.5	mhcii_low_enrichment_contradictory	model_contradicted_by_gse162463_screen
+IFITM2	True									False	6929.0	-0.0561113524704501	0.5	mhcii_low_enrichment_contradictory	model_contradicted_by_gse162463_screen
+LIPA	True									False	9288.0	-0.5351023017733222	0.25	mhcii_low_enrichment_contradictory	model_contradicted_by_gse162463_screen
+CTSB	True									False	7028.0	-0.0717302386759098	0.5	mhcii_low_enrichment_contradictory	model_contradicted_by_gse162463_screen
+DAP	True									False	7152.0	-0.0942880861204922	0.5	mhcii_low_enrichment_contradictory	model_contradicted_by_gse162463_screen
+LGALS3	True									False	10774.0	-1.0647764189724531	0.0	mhcii_low_enrichment_contradictory	model_contradicted_by_gse162463_screen
+CTSL	True									False	7848.0	-0.2242634724501657	0.25	mhcii_low_enrichment_contradictory	model_contradicted_by_gse162463_screen
+CBX3	True									False	11385.0	-1.621553550486855	0.5	mhcii_low_enrichment_contradictory	model_contradicted_by_gse162463_screen
+ATOX1	True									False	8267.0	-0.3105815083085354	0.25	mhcii_low_enrichment_contradictory	model_contradicted_by_gse162463_screen
+TRIQK	True									False	9502.0	-0.5849997668489079	0.25	mhcii_low_enrichment_contradictory	model_contradicted_by_gse162463_screen
+SQLE	True									False	7636.0	-0.1807779419095411	0.5	mhcii_low_enrichment_contradictory	model_contradicted_by_gse162463_screen
+GSK3B	False	mouse_macrophage_RNAseq	GSE162464	Gsk3b_KO	2.0	0.7779563820432978	selective_target_suppression			True	39.0	3.3858043855877193	0.75	mhcii_low_enrichment_supportive	real_perturbation_support_but_geneformer_not_rescued
+RFX5	False	Mixscale_CRISPRi	GSE281048_Zenodo14035992	RFX5	4.0	0.5231987939104686	weak_selective_target_suppression	9.0	0.5010993757509019	True	153.0	2.543181911929091	1.0	mhcii_low_enrichment_supportive	real_perturbation_support_but_geneformer_not_rescued
+IRF5	False	Mixscale_CRISPRi	GSE281048_Zenodo14035992	IRF5	44.0	-0.0036262518537249	null_or_wrong_direction			False	8923.0	-0.4478331730780858	0.25	mhcii_low_enrichment_contradictory	no_rescue
+RAB5A	False									True	1267.0	1.185379266489231	1.0	mhcii_low_enrichment_supportive	no_rescue
+PSME1	False									True	726.0	1.5075544516343704	1.0	mhcii_low_enrichment_supportive	no_rescue
+UGCG	False									True	111.0	2.7438983989885988	0.75	mhcii_low_enrichment_supportive	no_rescue
+CNN3	False									True	258.0	2.134350470452517	0.75	mhcii_low_enrichment_supportive	no_rescue
+FKBP1A	False									True	865.0	1.4063861015167105	0.75	mhcii_low_enrichment_supportive	no_rescue
+CIITA	False									True	53.0	3.220407024440332	0.75	mhcii_low_enrichment_supportive	no_rescue
+DCLRE1B	False									False	7137.0	-0.0919936901026326	0.5	mhcii_low_enrichment_contradictory	no_rescue
+ACSL1	False									False	10959.0	-1.1742563559579366	0.25	mhcii_low_enrichment_contradictory	no_rescue
+CXCL9	False									False	3313.0	0.5814975896204873	0.75	mhcii_low_enrichment_supportive	no_rescue
+LTA4H	False									False	3203.0	0.6148905903004009	0.75	mhcii_low_enrichment_supportive	no_rescue
+SLC15A4	False									False	5105.0	0.2363838108278662	0.5	mixed_or_weak	no_rescue
+TNFAIP8L1	False									False	3171.0	0.620215572110178	0.5	mixed_or_weak	no_rescue
+KRTCAP3	False									False	5527.0	0.1722800084397275	0.5	mixed_or_weak	no_rescue
+IL2RG	False									False	4666.0	0.3143785521950017	0.5	mixed_or_weak	no_rescue
+NCK1	False									False	2408.0	0.8015995134474547	0.75	mhcii_low_enrichment_supportive	no_rescue
+GPNMB	False									False	4386.0	0.3638218919809666	0.5	mixed_or_weak	no_rescue
+TLR7	False									False	3693.0	0.5078739787156292	0.75	mhcii_low_enrichment_supportive	no_rescue
+IL7R	False									False	4929.0	0.2674951942394635	0.5	mixed_or_weak	no_rescue
+PPP3CA	False									False	11465.0	-1.8257125434949943	0.0	mhcii_low_enrichment_contradictory	no_rescue
+PTPRE	False									False	9089.0	-0.4868071711028341	0.25	mhcii_low_enrichment_contradictory	no_rescue
+CALR	False									False	4490.0	0.3444188711533333	0.75	mhcii_low_enrichment_supportive	no_rescue
+CLEC16A	False									False	9489.0	-0.5812403485384001	0.0	mhcii_low_enrichment_contradictory	no_rescue
+AQR	False									False	10013.0	-0.7387324147628216	0.25	mhcii_low_enrichment_contradictory	no_rescue
+SCARB2	False									False	3214.0	0.6107195346804808	1.0	mhcii_low_enrichment_supportive	no_rescue
+MSR1	False									False	6034.0	0.0882312466842487	0.75	mhcii_low_enrichment_supportive	no_rescue
+LDLRAD3	False									False	8540.0	-0.366564946764507	0.25	mhcii_low_enrichment_contradictory	no_rescue
+CD44	False									False	9853.0	-0.6873804459950468	0.5	mhcii_low_enrichment_contradictory	no_rescue
+UNC93B1	False									False	6434.0	0.0178939922886293	0.5	mixed_or_weak	no_rescue
+GPR65	False									False	5454.0	0.1820293117302078	0.5	mixed_or_weak	no_rescue
+TLR8	False									False	4066.0	0.427545242226965	0.5	mixed_or_weak	no_rescue
+VPS35	False									False	11655.0	-2.779236867413882	0.25	mhcii_low_enrichment_contradictory	no_rescue
+TNFAIP8	False									False	9786.0	-0.6665897266925883	0.25	mhcii_low_enrichment_contradictory	no_rescue
+STARD10	False									False	8684.0	-0.3981471919445712	0.25	mhcii_low_enrichment_contradictory	no_rescue
+PPIL3	False									False	2756.0	0.7119530010256122	0.75	mhcii_low_enrichment_supportive	no_rescue
+CTSH	False									False	1383.0	1.139098841088071	0.75	mhcii_low_enrichment_supportive	no_rescue
+LGALS8	False									False	8025.0	-0.2634573575952494	0.25	mhcii_low_enrichment_contradictory	no_rescue
+PDLIM7	False									False	4369.0	0.3664282594091818	0.75	mhcii_low_enrichment_supportive	no_rescue
+COL4A1	False									False	11145.0	-1.3116641036954275	0.25	mhcii_low_enrichment_contradictory	no_rescue
+FABP5	False									False	6787.0	-0.0287587240283779	0.5	mhcii_low_enrichment_contradictory	no_rescue
+PLIN2	False									False	3841.0	0.4744002393454247	0.5	mixed_or_weak	no_rescue
+MYO1E	False									False	9679.0	-0.6298425533085054	0.25	mhcii_low_enrichment_contradictory	no_rescue
+LGALS9	False									False	8064.0	-0.2696462617586651	0.5	mhcii_low_enrichment_contradictory	no_rescue
+NME1	False									False	3959.0	0.4498747182442193	0.75	mhcii_low_enrichment_supportive	no_rescue
+ABHD2	False									False	8948.0	-0.453105143489465	0.5	mhcii_low_enrichment_contradictory	no_rescue
+GBA2	False									False	8592.0	-0.375045825489898	0.25	mhcii_low_enrichment_contradictory	no_rescue
+MPHOSPH6	False									False	2249.0	0.8446883514041215	0.75	mhcii_low_enrichment_supportive	no_rescue
+PDPN	False									False	3540.0	0.539680415270595	1.0	mhcii_low_enrichment_supportive	no_rescue
+APOC1	False									False	6055.0	0.0846261042371092	0.5	mixed_or_weak	no_rescue
+HAPLN3	False														no_rescue
+APOE	False														no_rescue
+PLEK2	False														no_rescue
+HLA-DRA	False														no_rescue
+C1QTNF1	False														no_rescue
+HLA-DMA	False														no_rescue
+HLA-B	False														no_rescue
+TIMP1	False														no_rescue
+CASP4	False														no_rescue
+MMP7	False														no_rescue
+LAPTM5	False														no_rescue
+REG1A	False														no_rescue

@@ -1,0 +1,100 @@
+{
+  "candidate_gene_count": 26,
+  "contexts": [
+    "IBD_myeloid",
+    "IBD_epithelial",
+    "psoriasis_macrophage",
+    "psoriasis_dendritic",
+    "psoriasis_keratinocyte",
+    "sjogren_APC",
+    "t1d_ductal",
+    "t1d_acinar",
+    "ra_classical_monocyte",
+    "ra_nonclassical_monocyte",
+    "ra_myeloid_dendritic"
+  ],
+  "date": "2026-05-27",
+  "interpretation": "Wave57 is a foundation-model triage screen. Promotion requires downstream full audit; model support alone is not treated as therapeutic evidence.",
+  "outputs": {
+    "candidate_calls": "results_v3/wave57_intervention_first_geneformer_screen/wave57_intervention_first_candidate_calls.tsv",
+    "gene_summary": "results_v3/wave57_intervention_first_geneformer_screen/wave57_geneformer_gene_summary.tsv",
+    "metrics": "results_v3/wave57_intervention_first_geneformer_screen/wave57_geneformer_metrics.tsv"
+  },
+  "promote_count": 0,
+  "random_seed": 20260527,
+  "reopen_count": 2,
+  "top_calls": [
+    {
+      "critical_gate_pass_count": 3,
+      "gene": "CXCR2",
+      "wave57_call": "REOPEN_MODEL_SUPPORTED_INTERVENTION_FIRST",
+      "wave57_model_priority_score": 7.25
+    },
+    {
+      "critical_gate_pass_count": 3,
+      "gene": "IL7R",
+      "wave57_call": "REOPEN_MODEL_SUPPORTED_INTERVENTION_FIRST",
+      "wave57_model_priority_score": 7.25
+    },
+    {
+      "critical_gate_pass_count": 2,
+      "gene": "PARK7",
+      "wave57_call": "NO_GO_MODEL_SCREEN",
+      "wave57_model_priority_score": 4.75
+    },
+    {
+      "critical_gate_pass_count": 2,
+      "gene": "PTPN2",
+      "wave57_call": "NO_GO_MODEL_SCREEN",
+      "wave57_model_priority_score": 0.75
+    },
+    {
+      "critical_gate_pass_count": 2,
+      "gene": "DAP",
+      "wave57_call": "NO_GO_MODEL_SCREEN",
+      "wave57_model_priority_score": 0.75
+    },
+    {
+      "critical_gate_pass_count": 2,
+      "gene": "GALC",
+      "wave57_call": "NO_GO_MODEL_SCREEN",
+      "wave57_model_priority_score": 0.25
+    },
+    {
+      "critical_gate_pass_count": 2,
+      "gene": "CCDC88B",
+      "wave57_call": "NO_GO_MODEL_SCREEN",
+      "wave57_model_priority_score": 0.0
+    },
+    {
+      "critical_gate_pass_count": 2,
+      "gene": "CCL20",
+      "wave57_call": "NO_GO_MODEL_SCREEN",
+      "wave57_model_priority_score": 0.0
+    },
+    {
+      "critical_gate_pass_count": 2,
+      "gene": "TRIB2",
+      "wave57_call": "NO_GO_MODEL_SCREEN",
+      "wave57_model_priority_score": 0.0
+    },
+    {
+      "critical_gate_pass_count": 2,
+      "gene": "CARMIL1",
+      "wave57_call": "NO_GO_MODEL_SCREEN",
+      "wave57_model_priority_score": 0.0
+    },
+    {
+      "critical_gate_pass_count": 2,
+      "gene": "SP140",
+      "wave57_call": "NO_GO_MODEL_SCREEN",
+      "wave57_model_priority_score": 0.0
+    },
+    {
+      "critical_gate_pass_count": 1,
+      "gene": "CTSB",
+      "wave57_call": "NO_GO_MODEL_SCREEN",
+      "wave57_model_priority_score": 17.75
+    }
+  ]
+}

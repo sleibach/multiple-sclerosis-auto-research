@@ -1,0 +1,659 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "2550050",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Degrades casein, gelatins of types I, III, IV, and V, and fibronectin. Activates procollagenase"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-0111",
+                "value": "Secreted, extracellular space, extracellular matrix"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00000422BD"
+      },
+      "features": [
+        {
+          "description": "",
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 215
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 215
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "in inhibited form",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "label": "2",
+            "name": "Zn(2+)",
+            "note": "catalytic"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 87
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 87
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "1",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 153
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 153
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "label": "1",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 163
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 163
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "label": "1",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 165
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 165
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 170
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 170
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 171
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 171
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 173
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 173
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 175
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 175
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "label": "1",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 178
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 178
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "1",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 185
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 185
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "1",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 187
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 187
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "1",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 189
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 189
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "label": "1",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 191
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 191
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 193
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 193
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 196
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 196
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "label": "2",
+            "name": "Zn(2+)",
+            "note": "catalytic"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 214
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 214
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "label": "2",
+            "name": "Zn(2+)",
+            "note": "catalytic"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 218
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 218
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "label": "2",
+            "name": "Zn(2+)",
+            "note": "catalytic"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 224
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 224
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "MMP7"
+          },
+          "synonyms": [
+            {
+              "value": "MPSL1"
+            },
+            {
+              "value": "PUMP1"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0106",
+          "name": "Calcium"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0177",
+          "name": "Collagen degradation"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-0903",
+          "name": "Direct protein sequencing"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0272",
+          "name": "Extracellular matrix"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0378",
+          "name": "Hydrolase"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0479",
+          "name": "Metal-binding"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0482",
+          "name": "Metalloprotease"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0645",
+          "name": "Protease"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0964",
+          "name": "Secreted"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0732",
+          "name": "Signal"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0862",
+          "name": "Zinc"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0865",
+          "name": "Zymogen"
+        }
+      ],
+      "primaryAccession": "P09237",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Matrin"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Matrix metalloproteinase-7"
+            },
+            "shortNames": [
+              {
+                "value": "MMP-7"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Pump-1 protease"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Uterine metalloproteinase"
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "value": "3.4.24.23"
+            }
+          ],
+          "fullName": {
+            "value": "Matrilysin"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "F6BD1FC0ADA23603",
+        "length": 267,
+        "md5": "94BC4ADEF58A1FD2EDF329315DB6B81B",
+        "molWeight": 29677,
+        "value": "MRLTVLCAVCLLPGSLALPLPQEAGGMSELQWEQAQDYLKRFYLYDSETKNANSLEAKLKEMQKFFGLPITGMLNSRVIEIMQKPRCGVPDVAEYSLFPNSPKWTSKVVTYRIVSYTRDLPHITVDRLVSKALNMWGKEIPLHFRKVVWGTADIMIGFARGAHGDSYPFDGPGNTLAHAFAPGTGLGGDAHFDEDERWTDGSSLGINFLYAATHELGHSLGMGHSSDPNAVMYPTYGNGDPQNFKLSQDDIKGIQKLYGKRSNSRKK"
+      },
+      "uniProtkbId": "MMP7_HUMAN"
+    }
+  ]
+}

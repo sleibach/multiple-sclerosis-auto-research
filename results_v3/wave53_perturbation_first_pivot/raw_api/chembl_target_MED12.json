@@ -1,0 +1,413 @@
+{
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Mediator of RNA polymerase II transcription subunit 12",
+      "score": 17.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL5724623",
+      "target_components": [
+        {
+          "accession": "Q93074",
+          "component_description": "Mediator of RNA polymerase II transcription subunit 12",
+          "component_id": 23014,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "Activator-recruited cofactor 240 kDa component",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ARC240",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "ARC240",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CAGH45",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "CAG repeat protein 45",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "HOPA",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "KIAA0192",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "MED12",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Mediator complex subunit 12",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Mediator of RNA polymerase II transcription subunit 12",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "OPA-containing protein",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Thyroid hormone receptor-associated protein complex 230 kDa component",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "TNRC11",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Trap230",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "TRAP230",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Trinucleotide repeat-containing gene 11 protein",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "Q93074",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "Q93074",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0000151",
+              "xref_name": "ubiquitin ligase complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005654",
+              "xref_name": "nucleoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016592",
+              "xref_name": "mediator complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:1990508",
+              "xref_name": "CKM complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0000978",
+              "xref_name": "RNA polymerase II cis-regulatory region sequence-specific DNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003682",
+              "xref_name": "chromatin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003712",
+              "xref_name": "transcription coregulator activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003713",
+              "xref_name": "transcription coactivator activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008013",
+              "xref_name": "beta-catenin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042809",
+              "xref_name": "nuclear vitamin D receptor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046966",
+              "xref_name": "nuclear thyroid hormone receptor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0061630",
+              "xref_name": "ubiquitin protein ligase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001756",
+              "xref_name": "somitogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001843",
+              "xref_name": "neural tube closure",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006357",
+              "xref_name": "regulation of transcription by RNA polymerase II",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007492",
+              "xref_name": "endoderm development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007507",
+              "xref_name": "heart development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0014003",
+              "xref_name": "oligodendrocyte development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0014044",
+              "xref_name": "Schwann cell development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016567",
+              "xref_name": "protein ubiquitination",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0021510",
+              "xref_name": "spinal cord development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0021915",
+              "xref_name": "neural tube development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035019",
+              "xref_name": "somatic stem cell population maintenance",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0036342",
+              "xref_name": "post-anal tail morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045893",
+              "xref_name": "positive regulation of DNA-templated transcription",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045944",
+              "xref_name": "positive regulation of transcription by RNA polymerase II",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048568",
+              "xref_name": "embryonic organ development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048702",
+              "xref_name": "embryonic neurocranium morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060071",
+              "xref_name": "Wnt signaling pathway, planar cell polarity pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060261",
+              "xref_name": "positive regulation of transcription initiation by RNA polymerase II",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0090245",
+              "xref_name": "axis elongation involved in somitogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1990403",
+              "xref_name": "embryonic brain development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:11957",
+              "xref_name": "MED12",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "Q93074",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR019035",
+              "xref_name": "Mediator_Med12",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR021989",
+              "xref_name": "Mediator_Med12_catenin-bd",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR021990",
+              "xref_name": "Mediator_Med12_LCEWAV",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR051647",
+              "xref_name": "Mediator_comp_sub12",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR46007",
+              "xref_name": "MEDIATOR OF RNA POLYMERASE II TRANSCRIPTION SUBUNIT 12",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR46007:SF2",
+              "xref_name": "MEDIATOR OF RNA POLYMERASE II TRANSCRIPTION SUBUNIT 12",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "8TQ2",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8TQC",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8TQW",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "PF09497",
+              "xref_name": "Med12",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF12144",
+              "xref_name": "Med12-PQL",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF12145",
+              "xref_name": "Med12-LCEWAV",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA36645",
+              "xref_name": "mediator complex subunit 12",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "Q93074",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-1989781",
+              "xref_name": "PPARA activates gene expression",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-212436",
+              "xref_name": "Generic Transcription Pathway",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-381340",
+              "xref_name": "Transcriptional regulation of white adipocyte differentiation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9833110",
+              "xref_name": "RSV-host interactions",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9841922",
+              "xref_name": "MLL4 and MLL3 complexes regulate expression of PPARG target genes in adipogenesis and hepatic steatosis",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "O15410",
+              "xref_name": "Mediator of RNA polymerase II transcription subunit 12",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O75557",
+              "xref_name": "Mediator of RNA polymerase II transcription subunit 12",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q93074",
+              "xref_name": "Mediator of RNA polymerase II transcription subunit 12",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UHV6",
+              "xref_name": "Mediator of RNA polymerase II transcription subunit 12",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UND7",
+              "xref_name": "Mediator of RNA polymerase II transcription subunit 12",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

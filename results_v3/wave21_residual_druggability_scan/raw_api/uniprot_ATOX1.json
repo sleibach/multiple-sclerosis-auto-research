@@ -1,0 +1,145 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3AATOX1%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "value": "Binds and deliver cytosolic copper to the copper ATPase proteins. May be important in cellular antioxidant defense"
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000000D843"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00280",
+              "source": "PROSITE-ProRule"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "31283225",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5T7L",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:23378"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:23378",
+            "name": "Cu cation"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 12
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 12
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00280",
+              "source": "PROSITE-ProRule"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "31283225",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5T7L",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:23378"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:23378",
+            "name": "Cu cation"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 15
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 15
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:798",
+                "source": "HGNC"
+              }
+            ],
+            "value": "ATOX1"
+          },
+          "synonyms": [
+            {
+              "value": "HAH1"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "O00244",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Metal transport protein ATX1"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Copper transport protein ATOX1"
+          }
+        }
+      }
+    }
+  ]
+}

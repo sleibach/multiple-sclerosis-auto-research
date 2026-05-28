@@ -1,0 +1,27 @@
+{
+  "calls": {
+    "CXCR2": "NO_GO_WAVE58_TARGETED_AUDIT",
+    "IL7R": "NO_GO_WAVE58_TARGETED_AUDIT"
+  },
+  "date": "2026-05-27",
+  "inputs": [
+    "results_v3/wave57_intervention_first_geneformer_screen/wave57_intervention_first_candidate_calls.tsv",
+    "results_v3/wave57_intervention_first_geneformer_screen/wave57_geneformer_metrics.tsv",
+    "results_v3/wave55_external_genetics_druggability_sweep/external_genetics_rank.tsv",
+    "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv",
+    "results_v3/broad_residual_gate/broad_residual_gate_summary.tsv",
+    "results_v3/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv"
+  ],
+  "interpretation": "CXCR2 and IL7R remain Wave57 model reopeners but fail Wave58 promotion. CXCR2 is intervention-tractable but MS-weak and generic-neutrophil-risk; IL7R is MS-genetic but lymphocyte-axis/prior-art-risk and not module-specific.",
+  "outputs": {
+    "decision": "results_v3/wave58_cxcr2_il7r_targeted_audit/cxcr2_il7r_decision.tsv",
+    "gates": "results_v3/wave58_cxcr2_il7r_targeted_audit/cxcr2_il7r_gate_matrix.tsv",
+    "local": "results_v3/wave58_cxcr2_il7r_targeted_audit/cxcr2_il7r_local_evidence.tsv",
+    "patents": "results_v3/wave58_cxcr2_il7r_targeted_audit/cxcr2_il7r_patent_urls.tsv",
+    "public": "results_v3/wave58_cxcr2_il7r_targeted_audit/cxcr2_il7r_public_endpoint_summary.tsv",
+    "searches": "results_v3/wave58_cxcr2_il7r_targeted_audit/cxcr2_il7r_public_search_counts.tsv"
+  },
+  "promoted_count": 0,
+  "random_seed": 20260527,
+  "reopen_count": 0
+}

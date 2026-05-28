@@ -1,0 +1,17 @@
+{
+  "random_seed": 20260526,
+  "axis_support_counts_after_basic_residual_controls": {
+    "C1Q_COMPLEMENT": 0,
+    "OSM_OSMR": 3
+  },
+  "go_axes": [
+    "OSM_OSMR"
+  ],
+  "go_no_go": "GO",
+  "pivot_recommendation": "At least one axis reaches three diseases with compartment-plausible raw positive signal and direction-stable residual support.",
+  "decision_rule": "A disease supports an axis if one compartment-plausible module has raw positive p<=0.10, all available residual deltas remain positive across at least four covariates, at least one covariate residual remains nominal positive p<=0.10, and median residual Hedges g>=0.5.",
+  "module_gene_presence_file": "results_v3/wave5_local_quant/wave5_module_gene_presence.tsv",
+  "n_raw_contrasts": 125,
+  "n_residual_tests": 350,
+  "n_module_gene_rows": 120
+}

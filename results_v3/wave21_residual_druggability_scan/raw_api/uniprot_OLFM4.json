@@ -1,0 +1,134 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3AOLFM4%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "16566923",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17270022",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20724538",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "May promote proliferation of pancreatic cancer cells by favoring the transition from the S to G2/M phase. In myeloid leukemic cell lines, inhibits cell growth and induces cell differentiation and apoptosis. May play a role in the inhibition of EIF4EBP1 phosphorylation/deactivation. Facilitates cell adhesion, most probably through interaction with cell surface lectins and cadherin"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15059901",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "16566923",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "20724538",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Subcellular location is not clearly defined: has been shown to be secreted (PubMed:16566923), but also in the mitochondrion (PubMed:15059901, PubMed:20724538), cytoplasm and plasma membrane (PubMed:20724538) and in the nucleus (PubMed:15059901)"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0112",
+                "value": "Secreted, extracellular space"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0173",
+                "value": "Mitochondrion"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00000359F0"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "OLFM4"
+          },
+          "orfNames": [
+            {
+              "value": "UNQ362/PRO698"
+            }
+          ],
+          "synonyms": [
+            {
+              "value": "GW112"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "Q6UX06",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Antiapoptotic protein GW112"
+            }
+          },
+          {
+            "fullName": {
+              "value": "G-CSF-stimulated clone 1 protein"
+            },
+            "shortNames": [
+              {
+                "value": "hGC-1"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "hOLfD"
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "Olfactomedin-4"
+          },
+          "shortNames": [
+            {
+              "value": "OLM4"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

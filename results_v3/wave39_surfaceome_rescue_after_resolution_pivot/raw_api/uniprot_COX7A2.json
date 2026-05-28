@@ -1,0 +1,227 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P10174",
+                  "source": "UniProtKB"
+                }
+              ],
+              "value": "Component of the cytochrome c oxidase, the last enzyme in the mitochondrial electron transport chain which drives oxidative phosphorylation. The respiratory chain contains 3 multisubunit complexes succinate dehydrogenase (complex II, CII), ubiquinol-cytochrome c oxidoreductase (cytochrome b-c1 complex, complex III, CIII) and cytochrome c oxidase (complex IV, CIV), that cooperate to transfer electrons derived from NADH and succinate to molecular oxygen, creating an electrochemical gradient over the inner membrane that drives transmembrane transport and the ATP synthase. Cytochrome c oxidase is the component of the respiratory chain that catalyzes the reduction of oxygen to water. Electrons originating from reduced cytochrome c in the intermembrane space (IMS) are transferred via the dinuclear copper A center (CU(A)) of subunit 2 and heme A of subunit 1 to the active site in subunit 1, a binuclear center (BNC) formed by heme A3 and copper B (CU(B)). The BNC reduces molecular oxygen to 2 water molecules using 4 electrons from cytochrome c in the IMS and 4 protons from the mitochondrial matrix"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "30030519",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0168",
+                "value": "Mitochondrion inner membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "30030519",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9904",
+                "value": "Single-pass membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000128157"
+      },
+      "features": [
+        {
+          "description": "Mitochondrial matrix",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "30030519",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 48
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 24
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P07470",
+              "source": "UniProtKB"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 77
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 49
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Mitochondrial intermembrane",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "30030519",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 83
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 78
+            }
+          },
+          "type": "Topological domain"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "COX7A2"
+          },
+          "synonyms": [
+            {
+              "value": "COX7AL"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-0903",
+          "name": "Direct protein sequencing"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0496",
+          "name": "Mitochondrion"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0999",
+          "name": "Mitochondrion inner membrane"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0560",
+          "name": "Oxidoreductase"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0809",
+          "name": "Transit peptide"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        }
+      ],
+      "primaryAccession": "P14406",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Cytochrome c oxidase subunit VIIa-liver/heart"
+            },
+            "shortNames": [
+              {
+                "value": "Cytochrome c oxidase subunit VIIa-L"
+              },
+              {
+                "value": "Cytochrome c oxidase subunit VIIaL"
+              }
+            ]
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "Cytochrome c oxidase subunit 7A2, mitochondrial"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "490F45059CAF971F",
+        "length": 83,
+        "md5": "9E0D0C0DF05B7BB8DEA0AB6334BA920A",
+        "molWeight": 9396,
+        "value": "MLRNLLALRQIGQRTISTASRRHFKNKVPEKQKLFQEDDEIPLYLKGGVADALLYRATMILTVGGTAYAIYELAVASFPKKQE"
+      },
+      "uniProtkbId": "CX7A2_HUMAN"
+    }
+  ]
+}

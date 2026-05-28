@@ -1,0 +1,114 @@
+{
+  "error": "",
+  "payload": {
+    "hitCount": 32746,
+    "nextCursorMark": "AoIIQRdGVig1NDg0NDQ1OQ==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(CTLA4) AND (\"autoimmune\" OR \"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR psoriasis)&cursorMark=AoIIQRdGVig1NDg0NDQ1OQ==&resultType=lite&pageSize=3&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 3,
+      "queryString": "(CTLA4) AND (\"autoimmune\" OR \"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR psoriasis)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Shah N.",
+          "bookOrReportDetails": {
+            "publisher": "Research Square",
+            "yearOfPublication": 2026
+          },
+          "citedByCount": 0,
+          "doi": "10.21203/rs.3.rs-9368949/v1",
+          "firstIndexDate": "2026-04-11",
+          "firstPublicationDate": "2026-04-10",
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "N",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "PPR1176377",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "isOpenAccess": "N",
+          "pubType": "preprint",
+          "pubYear": "2026",
+          "source": "PPR",
+          "title": "InsulatorLeak, a mechanism-first pipeline for variant prioritization by predicted CTCF insulator disruption across seven autoimmune diseases",
+          "versionNumber": 1
+        },
+        {
+          "authorString": "Kahaly GJ, Forst T, Kellerer M, Lanzinger S, R\u00f6tzer RD, Schott M, Schumm-Draeger PM.",
+          "citedByCount": 0,
+          "doi": "10.1002/edm2.70119",
+          "firstIndexDate": "2025-11-30",
+          "firstPublicationDate": "2026-01-01",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12664531"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41317333",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "1",
+          "journalIssn": "2398-9238",
+          "journalTitle": "Endocrinol Diabetes Metab",
+          "journalVolume": "9",
+          "pageInfo": "e70119",
+          "pmcid": "PMC12664531",
+          "pmid": "41317333",
+          "pubType": "review-article; review; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Type 1 Diabetes and Other Autoimmune Diseases-Epidemiology, Pathophysiology and Screening."
+        },
+        {
+          "authorString": "Amor-Dorado JC, Gonz\u00e1lez-Gay M\u00c1.",
+          "bookOrReportDetails": {
+            "publisher": "Preprints.org",
+            "yearOfPublication": 2026
+          },
+          "citedByCount": 0,
+          "doi": "10.20944/preprints202602.0239.v1",
+          "firstIndexDate": "2026-02-07",
+          "firstPublicationDate": "2026-02-04",
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "N",
+          "hasReferences": "N",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "PPR1150985",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "isOpenAccess": "N",
+          "pubType": "preprint",
+          "pubYear": "2026",
+          "source": "PPR",
+          "title": "Vestibular Involvement in Systemic Autoimmune and Rheumatologic Diseases: A Systematic Review and GRADE-Based Assessment",
+          "versionNumber": 1
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "status": "ok",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28CTLA4%29+AND+%28%22autoimmune%22+OR+%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+psoriasis%29&format=json&pageSize=3&resultType=lite"
+}

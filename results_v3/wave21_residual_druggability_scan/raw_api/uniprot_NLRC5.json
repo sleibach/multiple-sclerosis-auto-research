@@ -1,0 +1,135 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ANLRC5%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20061403",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20434986",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Probable regulator of the NF-kappa-B and type I interferon signaling pathways. May also regulate the type II interferon signaling pathway. Plays a role in homeostatic control of innate immunity and in antiviral defense mechanisms"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "20061403",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "20434986",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00001AEE94"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00136",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:30616"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:30616",
+            "name": "ATP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 235
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 228
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "NLRC5"
+          },
+          "synonyms": [
+            {
+              "value": "NOD27"
+            },
+            {
+              "value": "NOD4"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "Q86WI3",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Caterpiller protein 16.1"
+            },
+            "shortNames": [
+              {
+                "value": "CLR16.1"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Nucleotide-binding oligomerization domain protein 27"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Nucleotide-binding oligomerization domain protein 4"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Protein NLRC5"
+          }
+        }
+      }
+    }
+  ]
+}

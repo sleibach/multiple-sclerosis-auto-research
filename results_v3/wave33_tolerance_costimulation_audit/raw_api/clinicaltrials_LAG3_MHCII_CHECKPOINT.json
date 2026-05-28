@@ -1,0 +1,256 @@
+{
+  "payload": {
+    "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxmbPCi2vYW",
+    "studies": [
+      {
+        "derivedSection": {
+          "conditionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D017444",
+                "term": "Skin Diseases, Papulosquamous"
+              },
+              {
+                "id": "D012871",
+                "term": "Skin Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              },
+              {
+                "id": "D012873",
+                "term": "Skin Diseases, Genetic"
+              },
+              {
+                "id": "D030342",
+                "term": "Genetic Diseases, Inborn"
+              },
+              {
+                "id": "D009358",
+                "term": "Congenital, Hereditary, and Neonatal Diseases and Abnormalities"
+              },
+              {
+                "id": "D003872",
+                "term": "Dermatitis"
+              },
+              {
+                "id": "D017443",
+                "term": "Skin Diseases, Eczematous"
+              },
+              {
+                "id": "D006969",
+                "term": "Hypersensitivity, Immediate"
+              },
+              {
+                "id": "D006967",
+                "term": "Hypersensitivity"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D011565",
+                "term": "Psoriasis"
+              },
+              {
+                "id": "D003876",
+                "term": "Dermatitis, Atopic"
+              }
+            ]
+          },
+          "miscInfoModule": {
+            "versionHolder": "2026-05-26"
+          }
+        },
+        "hasResults": false,
+        "protocolSection": {
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "description": "UVB treatment 3 times per week for 10 weeks\n\nBefore treatment starts, researchers will collect 20 ml of blood from participants. After 10-week treatment, researchers will collect 20 ml of blood from participants again.",
+                "interventionNames": [
+                  "Radiation: UVB treatment"
+                ],
+                "label": "UVB treatment",
+                "type": "EXPERIMENTAL"
+              }
+            ],
+            "interventions": [
+              {
+                "armGroupLabels": [
+                  "UVB treatment"
+                ],
+                "description": "UVB treatment 3 times per week for 10 weeks",
+                "name": "UVB treatment",
+                "type": "RADIATION"
+              }
+            ]
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Psoriasis",
+              "Atopic Dermatitis"
+            ],
+            "keywords": [
+              "UVB treatment",
+              "antigen specificity",
+              "regulatory T cell",
+              "mass cytometry"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "email": "tftsai@yahoo.com",
+                "name": "Tsen-Fang Tsai, MD",
+                "phone": "+886-23123456",
+                "phoneExt": "65734",
+                "role": "CONTACT"
+              }
+            ],
+            "locations": [
+              {
+                "city": "Taipei",
+                "contacts": [
+                  {
+                    "email": "tftsai@yahoo.com",
+                    "name": "Tsen-Fang Tsai, MD",
+                    "phone": "+886-23123456",
+                    "phoneExt": "65734",
+                    "role": "CONTACT"
+                  },
+                  {
+                    "name": "Yungling Lee, Proseffor",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "country": "Taiwan",
+                "facility": "National Taiwan University Hospital",
+                "geoPoint": {
+                  "lat": 25.05306,
+                  "lon": 121.52639
+                },
+                "status": "RECRUITING",
+                "zip": "100"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "affiliation": "Academia Sinica, Taiwan",
+                "name": "Yungling Lee, Dr",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ]
+          },
+          "descriptionModule": {
+            "briefSummary": "The goal of this clinical trial is to compare the immune cell population in blood of the participants with psoriasis/atopic dermatitis before and after UVB treatment. The main questions it aims to answer are:\n\n1. how immune cells in the PBMCs from blood of participants are affected by UVB treatment\n2. will UVB treatment expand the antigen-specific Treg cell population\n3. will UVB treatment enhance the suppressive function of Treg cells\n\nParticipants giving written informed consent will donate their blood (20 ml) before UVB treatment begins. After 8 to 10-week treatment course, the participants will donate their blood (20 ml) again.\n\nResearchers will compare immune cell population changes in the PBMCs of participants before and after UVB treatment. In addition, researchers will purify Treg cells from participant blood before and after UVB treatment to test their suppressive activity by ex vivo suppression assay.",
+            "detailedDescription": "UVB irradiation suppresses immune responses partly via the induction of Treg cells. However, it is still not clear whether the therapeutic effect of UVB to treat skin inflammatory diseases (such as psoriasis and atopic dermatitis) results from the increase of Treg cell population. In addition, how UVB induces antigen-specific Treg cells needs to be elucidated.\n\nIn this study, researchers will examine the Treg cell population in the blood of participants with psoriasis or atopic dermatitis under UVB treatment. We will analyse changes of immune cell populations in the blood of participants using mess cytometry. We will also investigate the suppressive function of Treg cells sorted from peripheral blood mononuclear cells (PBMCs) to see whether UVB treatment will affect the function of Treg cells.\n\nEnrolled participants will donate 20 ml of blood before UVB treatment begins. They will receive UVB irradiation 2 to 3 times per week, and the treatment course will last 8 to 10 weeks, which is defined as a complete treatment. After a complete treatment, the participants will donate 20 ml of blood again, and the trial ends."
+          },
+          "designModule": {
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SINGLE_GROUP",
+              "maskingInfo": {
+                "masking": "NONE"
+              },
+              "primaryPurpose": "BASIC_SCIENCE"
+            },
+            "enrollmentInfo": {
+              "count": 20,
+              "type": "ESTIMATED"
+            },
+            "phases": [
+              "NA"
+            ],
+            "studyType": "INTERVENTIONAL"
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. At least 20 years of age\n2. Able and willing to provide written informed consent\n\nExclusion Criteria:\n\n1. UV exposure in the last 8 weeks before study entry\n2. Patients with contraindications for UV-treatment\n3. History of cancer and primary immunodeficiency\n4. pregnant or nursing mother\n5. participating in another clinical trial",
+            "healthyVolunteers": false,
+            "minimumAge": "20 Years",
+            "sex": "ALL",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "identificationModule": {
+            "briefTitle": "UVB-induced Treg Cells Exert Antigen-specific Suppression Through LAG-3",
+            "nctId": "NCT05636839",
+            "officialTitle": "UVB-induced Treg Cells Exert Antigen-specific Suppression Through LAG-3",
+            "orgStudyIdInfo": {
+              "id": "202112019RINA"
+            },
+            "organization": {
+              "class": "OTHER",
+              "fullName": "National Taiwan University Hospital"
+            }
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "description": "Change from baseline in Treg cell percentage in the peripheral blood of psoriasis patients treated with UVB",
+                "measure": "Change in the percentage of Treg cells",
+                "timeFrame": "10 weeks"
+              }
+            ]
+          },
+          "oversightModule": {
+            "isFdaRegulatedDevice": false,
+            "isFdaRegulatedDrug": false,
+            "oversightHasDmc": false
+          },
+          "sponsorCollaboratorsModule": {
+            "leadSponsor": {
+              "class": "OTHER",
+              "name": "National Taiwan University Hospital"
+            },
+            "responsibleParty": {
+              "type": "SPONSOR"
+            }
+          },
+          "statusModule": {
+            "completionDateStruct": {
+              "date": "2025-12",
+              "type": "ESTIMATED"
+            },
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "lastKnownStatus": "RECRUITING",
+            "lastUpdatePostDateStruct": {
+              "date": "2022-12-05",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2022-11-24",
+            "overallStatus": "UNKNOWN",
+            "primaryCompletionDateStruct": {
+              "date": "2025-12",
+              "type": "ESTIMATED"
+            },
+            "startDateStruct": {
+              "date": "2022-01-25",
+              "type": "ACTUAL"
+            },
+            "statusVerifiedDate": "2021-12",
+            "studyFirstPostDateStruct": {
+              "date": "2022-12-05",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2022-11-24",
+            "studyFirstSubmitQcDate": "2022-11-24"
+          }
+        }
+      }
+    ],
+    "totalCount": 21
+  },
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.term=LAG3+OR+HLA-DRA+OR+HLA-DRB1+OR+CD74&query.cond=autoimmune+OR+multiple+sclerosis+OR+rheumatoid+arthritis+OR+lupus+OR+Crohn+OR+psoriasis&format=json&pageSize=1&countTotal=true"
+}

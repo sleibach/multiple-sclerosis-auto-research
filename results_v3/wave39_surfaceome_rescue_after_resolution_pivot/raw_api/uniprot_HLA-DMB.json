@@ -1,0 +1,282 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "16547258",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "23260142",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "8849454",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9768757",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Plays a critical role in catalyzing the release of class II-associated invariant chain peptide (CLIP) from newly synthesized MHC class II molecules and freeing the peptide binding site for acquisition of antigenic peptides. In B-cells, the interaction between HLA-DM and MHC class II molecules is regulated by HLA-DO"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "value": "Localizes to late endocytic compartment. Associates with lysosome membranes"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "8757605",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0151",
+                "value": "Late endosome membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "8757605",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9905",
+                "value": "Single-pass type I membrane protein"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "8757605",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0157",
+                "value": "Lysosome membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "8757605",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9905",
+                "value": "Single-pass type I membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000140DCC"
+      },
+      "features": [
+        {
+          "description": "Lumenal",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 218
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 19
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 239
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 219
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 263
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 240
+            }
+          },
+          "type": "Topological domain"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "HLA-DMB"
+          },
+          "synonyms": [
+            {
+              "value": "DMB"
+            },
+            {
+              "value": "RING7"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-1064",
+          "name": "Adaptive immunity"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-1015",
+          "name": "Disulfide bond"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0967",
+          "name": "Endosome"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0325",
+          "name": "Glycoprotein"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0391",
+          "name": "Immunity"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0393",
+          "name": "Immunoglobulin domain"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0458",
+          "name": "Lysosome"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0491",
+          "name": "MHC II"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0732",
+          "name": "Signal"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        }
+      ],
+      "primaryAccession": "P28068",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "MHC class II antigen DMB"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Really interesting new gene 7 protein"
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "HLA class II histocompatibility antigen, DM beta chain"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "9B50E72DD2A2454A",
+        "length": 263,
+        "md5": "45BCB4989ABB472480ACCA961C5D5B84",
+        "molWeight": 28931,
+        "value": "MITFLPLLLGLSLGCTGAGGFVAHVESTCLLDDAGTPKDFTYCISFNKDLLTCWDPEENKMAPCEFGVLNSLANVLSQHLNQKDTLMQRLRNGLQNCATHTQPFWGSLTNRTRPPSVQVAKTTPFNTREPVMLACYVWGFYPAEVTITWRKNGKLVMPHSSAHKTAQPNGDWTYQTLSHLALTPSYGDTYTCVVEHTGAPEPILRDWTPGLSPMQTLKVSVSAVTLGLGLIIFSLGVISWRRAGHSSYTPLPGSNYSEGWHIS"
+      },
+      "uniProtkbId": "DMB_HUMAN"
+    }
+  ]
+}

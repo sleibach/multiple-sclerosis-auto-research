@@ -1,0 +1,31 @@
+{
+  "esearchresult": {
+    "count": "43",
+    "idlist": [
+      "40791842",
+      "39842553",
+      "39444949"
+    ],
+    "querytranslation": "(\"lilrb4 protein human\"[Supplementary Concept] OR \"lilrb4 protein human\"[All Fields] OR \"lilrb4\"[All Fields] OR \"ILT3\"[All Fields] OR (\"lilrb4 protein human\"[Supplementary Concept] OR \"lilrb4 protein human\"[All Fields] OR \"cd85k\"[All Fields])) AND (\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields])",
+    "retmax": "3",
+    "retstart": "0",
+    "translationset": [
+      {
+        "from": "LILRB4",
+        "to": "\"lilrb4 protein, human\"[Supplementary Concept] OR \"lilrb4 protein, human\"[All Fields] OR \"lilrb4\"[All Fields]"
+      },
+      {
+        "from": "CD85K",
+        "to": "\"lilrb4 protein, human\"[Supplementary Concept] OR \"lilrb4 protein, human\"[All Fields] OR \"cd85k\"[All Fields]"
+      },
+      {
+        "from": "autoimmune",
+        "to": "\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields]"
+      }
+    ]
+  },
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  }
+}

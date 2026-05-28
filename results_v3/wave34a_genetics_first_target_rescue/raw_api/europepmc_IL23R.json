@@ -1,0 +1,133 @@
+{
+  "error": "",
+  "payload": {
+    "hitCount": 10506,
+    "nextCursorMark": "AoIIQRaKsig0MDc1ODgyOA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(IL23R) AND (\"autoimmune\" OR \"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR psoriasis)&cursorMark=AoIIQRaKsig0MDc1ODgyOA==&resultType=lite&pageSize=3&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 3,
+      "queryString": "(IL23R) AND (\"autoimmune\" OR \"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR psoriasis)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Sobczyk MK, Gaunt TR.",
+          "citedByCount": 0,
+          "doi": "10.1038/s41598-026-41818-3",
+          "firstIndexDate": "2026-03-04",
+          "firstPublicationDate": "2026-03-03",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13065838"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "41775781",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "1",
+          "journalIssn": "2045-2322",
+          "journalTitle": "Sci Rep",
+          "journalVolume": "16",
+          "pageInfo": "11851",
+          "pmcid": "PMC13065838",
+          "pmid": "41775781",
+          "pubType": "research-article; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Integrative mendelian randomization approaches for therapeutic target prioritisation in immune-mediated diseases.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "hgnc"
+            ]
+          }
+        },
+        {
+          "authorString": "Jiang X, Li S, Zhang S, Li J, Liu D, Zhao H.",
+          "citedByCount": 0,
+          "doi": "10.1186/s12967-025-07422-1",
+          "firstIndexDate": "2025-12-21",
+          "firstPublicationDate": "2025-12-19",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12777313"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "41419940",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "1",
+          "journalIssn": "1479-5876",
+          "journalTitle": "J Transl Med",
+          "journalVolume": "24",
+          "pageInfo": "28",
+          "pmcid": "PMC12777313",
+          "pmid": "41419940",
+          "pubType": "research-article; journal article",
+          "pubYear": "2025",
+          "source": "MED",
+          "title": "Genetic pleiotropy underlying obesity and autoimmune disorders: a large-scale cross-trait gwas analysis in European ancestry populations.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "gwas",
+              "refsnp"
+            ]
+          }
+        },
+        {
+          "authorString": "Hoofnagle JH.",
+          "bookOrReportDetails": {
+            "comprisingTitle": "LiverTox\u00ae: Clinical and Research Information on Drug-Induced Liver Injury",
+            "publisher": "National Institute of Diabetes and Digestive and Kidney Diseases, Bethesda (MD)",
+            "yearOfPublication": 2012
+          },
+          "bookid": "NBK548852",
+          "citedByCount": 0,
+          "firstIndexDate": "2019-12-03",
+          "firstPublicationDate": "2026-02-21",
+          "hasBook": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "N",
+          "hasReferences": "N",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "31644159",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "pmid": "31644159",
+          "pubType": "review",
+          "pubYear": "2012",
+          "source": "MED",
+          "title": "Tumor Necrosis Factor Antagonists"
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "status": "ok",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28IL23R%29+AND+%28%22autoimmune%22+OR+%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+psoriasis%29&format=json&pageSize=3&resultType=lite"
+}

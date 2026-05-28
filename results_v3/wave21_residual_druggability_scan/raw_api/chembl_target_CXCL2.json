@@ -1,0 +1,286 @@
+{
+  "_request_url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=CXCL2&limit=10",
+  "_status_code": 200,
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "C-X-C motif chemokine 2",
+      "score": 15.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL3286076",
+      "target_components": [
+        {
+          "accession": "P19875",
+          "component_description": "C-X-C motif chemokine 2",
+          "component_id": 8621,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "CXCL2",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "C-X-C motif chemokine 2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "GRO2",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "GROB",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Gro-beta",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "GRO-beta(5-73)",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "GRO-beta-T",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Growth-regulated protein beta",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Hematopoietic synergistic factor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "HSF",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Macrophage inflammatory protein 2-alpha",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "MIP2A",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "MIP2-alpha",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "SB-251353",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "SCYB2",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P19875",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P19875",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005615",
+              "xref_name": "extracellular space",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005125",
+              "xref_name": "cytokine activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008009",
+              "xref_name": "chemokine activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0045236",
+              "xref_name": "CXCR chemokine receptor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006935",
+              "xref_name": "chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006955",
+              "xref_name": "immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030593",
+              "xref_name": "neutrophil chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0061844",
+              "xref_name": "antimicrobial humoral immune response mediated by antimicrobial peptide",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070098",
+              "xref_name": "chemokine-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071222",
+              "xref_name": "cellular response to lipopolysaccharide",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:4603",
+              "xref_name": "CXCL2",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "P19875",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR001089",
+              "xref_name": "Chemokine_CXC",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001811",
+              "xref_name": "Chemokine_IL8-like_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR018048",
+              "xref_name": "Chemokine_CXC_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR033899",
+              "xref_name": "CXC_Chemokine_domain",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036048",
+              "xref_name": "Interleukin_8-like_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR039809",
+              "xref_name": "Chemokine_b/g/d",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR12015",
+              "xref_name": "SMALL INDUCIBLE CYTOKINE A",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR12015:SF206",
+              "xref_name": "C-X-C MOTIF CHEMOKINE 2",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "1QNK",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5OB5",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8XVU",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8XXH",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5OB5",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF00048",
+              "xref_name": "IL8",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA35051",
+              "xref_name": "C-X-C motif chemokine ligand 2",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P19875",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-380108",
+              "xref_name": "Chemokine receptors bind chemokines",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-418594",
+              "xref_name": "G alpha (i) signalling events",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-6783783",
+              "xref_name": "Interleukin-10 signaling",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P19875",
+              "xref_name": "C-X-C motif chemokine 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q6FGD6",
+              "xref_name": "C-X-C motif chemokine 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UPB8",
+              "xref_name": "C-X-C motif chemokine 2",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

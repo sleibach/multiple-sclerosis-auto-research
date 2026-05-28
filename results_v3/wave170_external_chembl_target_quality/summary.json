@@ -1,0 +1,19 @@
+{
+  "branch_call": "PROMOTE_AFTER_EXTERNAL_TARGET_QUALITY",
+  "genes_audited": [
+    "LRRK2",
+    "PIK3CG",
+    "PTGIR",
+    "SLC1A2"
+  ],
+  "quality_supported_genes": [
+    "LRRK2",
+    "PTGIR"
+  ],
+  "corrected_promoted_candidates": [
+    "XMD-1150/LRRK2"
+  ],
+  "top_candidate_after_quality": "XMD-1150/LRRK2",
+  "top_candidate_external_quality_call": "CHEMBL_TARGET_QUALITY_SUPPORTED",
+  "interpretation": "External ChEMBL rescues target-quality for some top L1000 targets, but does not by itself satisfy the full V3 convergence gate."
+}

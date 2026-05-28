@@ -1,0 +1,31 @@
+{
+  "esearchresult": {
+    "count": "64",
+    "idlist": [
+      "42159071",
+      "41840630",
+      "41584046"
+    ],
+    "querytranslation": "(\"cd200r1 protein human\"[Supplementary Concept] OR \"cd200r1 protein human\"[All Fields] OR \"cd200r1\"[All Fields] OR (\"cd200r\"[All Fields] OR \"cd200rs\"[All Fields]) OR \"CD200 receptor\"[All Fields]) AND (\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields])",
+    "retmax": "3",
+    "retstart": "0",
+    "translationset": [
+      {
+        "from": "CD200R1",
+        "to": "\"cd200r1 protein, human\"[Supplementary Concept] OR \"cd200r1 protein, human\"[All Fields] OR \"cd200r1\"[All Fields]"
+      },
+      {
+        "from": "CD200R",
+        "to": "\"cd200r\"[All Fields] OR \"cd200rs\"[All Fields]"
+      },
+      {
+        "from": "autoimmune",
+        "to": "\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields]"
+      }
+    ]
+  },
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  }
+}

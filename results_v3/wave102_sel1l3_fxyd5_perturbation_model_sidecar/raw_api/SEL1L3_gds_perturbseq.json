@@ -1,0 +1,56 @@
+{
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=SEL1L3%5BAll+Fields%5D+AND+%28Perturb-seq%5BAll+Fields%5D+OR+Perturbseq%5BAll+Fields%5D+OR+single-cell+CRISPR%5BAll+Fields%5D+OR+scCRISPR%5BAll+Fields%5D%29&retmode=json&retmax=5",
+  "status": 200,
+  "json": {
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    },
+    "esearchresult": {
+      "count": "0",
+      "retmax": "0",
+      "retstart": "0",
+      "idlist": [],
+      "translationset": [],
+      "translationstack": [
+        {
+          "term": "SEL1L3[All Fields]",
+          "field": "All Fields",
+          "count": "3290",
+          "explode": "N"
+        },
+        {
+          "term": "Perturb-seq[All Fields]",
+          "field": "All Fields",
+          "count": "2479",
+          "explode": "N"
+        },
+        {
+          "term": "Perturbseq[All Fields]",
+          "field": "All Fields",
+          "count": "29",
+          "explode": "N"
+        },
+        "OR",
+        {
+          "term": "single-cell CRISPR[All Fields]",
+          "field": "All Fields",
+          "count": "79",
+          "explode": "N"
+        },
+        "OR",
+        {
+          "term": "scCRISPR[All Fields]",
+          "field": "All Fields",
+          "count": "21",
+          "explode": "N"
+        },
+        "OR",
+        "GROUP",
+        "AND"
+      ],
+      "querytranslation": "SEL1L3[All Fields] AND (Perturb-seq[All Fields] OR Perturbseq[All Fields] OR single-cell CRISPR[All Fields] OR scCRISPR[All Fields])"
+    }
+  },
+  "summary_json": {}
+}

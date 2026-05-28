@@ -1,0 +1,653 @@
+{
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Tumor necrosis factor alpha-induced protein 3",
+      "score": 13.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL4523200",
+      "target_components": [
+        {
+          "accession": "P21580",
+          "component_description": "Tumor necrosis factor alpha-induced protein 3",
+          "component_id": 18699,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "2.3.2.-",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "3.4.19.12",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "A20p37",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "A20p50",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "OTUD7C",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "OTU domain-containing protein 7C",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Putative DNA-binding protein A20",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "TNFAIP3",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "TNF alpha-induced protein 3",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Tumor necrosis factor alpha-induced protein 3",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Zinc finger protein A20",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P21580",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P21580",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005764",
+              "xref_name": "lysosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0002020",
+              "xref_name": "protease binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0003677",
+              "xref_name": "DNA binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004842",
+              "xref_name": "ubiquitin-protein transferase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004843",
+              "xref_name": "cysteine-type deubiquitinase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008234",
+              "xref_name": "cysteine-type peptidase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008270",
+              "xref_name": "zinc ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016740",
+              "xref_name": "transferase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019900",
+              "xref_name": "kinase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042802",
+              "xref_name": "identical protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0043130",
+              "xref_name": "ubiquitin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0061578",
+              "xref_name": "K63-linked deubiquitinase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0070530",
+              "xref_name": "K63-linked polyubiquitin modification-dependent protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001922",
+              "xref_name": "B-1 B cell homeostasis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002634",
+              "xref_name": "regulation of germinal center formation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002677",
+              "xref_name": "negative regulation of chronic inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006508",
+              "xref_name": "proteolysis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006915",
+              "xref_name": "apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007010",
+              "xref_name": "cytoskeleton organization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010803",
+              "xref_name": "regulation of tumor necrosis factor-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016477",
+              "xref_name": "cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030177",
+              "xref_name": "positive regulation of Wnt signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031397",
+              "xref_name": "negative regulation of protein ubiquitination",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032691",
+              "xref_name": "negative regulation of interleukin-1 beta production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032703",
+              "xref_name": "negative regulation of interleukin-2 production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032715",
+              "xref_name": "negative regulation of interleukin-6 production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032720",
+              "xref_name": "negative regulation of tumor necrosis factor production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034136",
+              "xref_name": "negative regulation of toll-like receptor 2 signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034140",
+              "xref_name": "negative regulation of toll-like receptor 3 signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034144",
+              "xref_name": "negative regulation of toll-like receptor 4 signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034148",
+              "xref_name": "negative regulation of toll-like receptor 5 signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035872",
+              "xref_name": "nucleotide-binding domain, leucine rich repeat containing receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043124",
+              "xref_name": "negative regulation of canonical NF-kappaB signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045732",
+              "xref_name": "positive regulation of protein catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045779",
+              "xref_name": "negative regulation of bone resorption",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045824",
+              "xref_name": "negative regulation of innate immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048662",
+              "xref_name": "negative regulation of smooth muscle cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050691",
+              "xref_name": "regulation of defense response to virus by host",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050728",
+              "xref_name": "negative regulation of inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050869",
+              "xref_name": "negative regulation of B cell activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0061043",
+              "xref_name": "regulation of vascular wound healing",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070301",
+              "xref_name": "cellular response to hydrogen peroxide",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070429",
+              "xref_name": "negative regulation of nucleotide-binding oligomerization domain containing 1 signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070433",
+              "xref_name": "negative regulation of nucleotide-binding oligomerization domain containing 2 signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071222",
+              "xref_name": "cellular response to lipopolysaccharide",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0072573",
+              "xref_name": "tolerance induction to lipopolysaccharide",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0072666",
+              "xref_name": "establishment of protein localization to vacuole",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0090291",
+              "xref_name": "negative regulation of osteoclast proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1902042",
+              "xref_name": "negative regulation of extrinsic apoptotic signaling pathway via death domain receptors",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000347",
+              "xref_name": "positive regulation of hepatocyte proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000349",
+              "xref_name": "negative regulation of CD40 signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000352",
+              "xref_name": "negative regulation of endothelial cell apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2001237",
+              "xref_name": "negative regulation of extrinsic apoptotic signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:11896",
+              "xref_name": "TNFAIP3",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "P21580",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR002653",
+              "xref_name": "Znf_A20",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR003323",
+              "xref_name": "OTU_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR051346",
+              "xref_name": "OTU_Deubiquitinase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR13367",
+              "xref_name": "UBIQUITIN THIOESTERASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR13367:SF3",
+              "xref_name": "TUMOR NECROSIS FACTOR ALPHA-INDUCED PROTEIN 3",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "2EQE",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2EQF",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2EQG",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2VFJ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3DKB",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3OJ3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3OJ4",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3VUW",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3VUX",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3VUY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3ZJD",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3ZJE",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3ZJF",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3ZJG",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5LRX",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5V3B",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5V3P",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2VFJ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3DKB",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3OJ3",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3OJ4",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3VUW",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3VUX",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3VUY",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3ZJD",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3ZJE",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3ZJF",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3ZJG",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5LRX",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5V3B",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5V3P",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF01754",
+              "xref_name": "zf-A20",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF02338",
+              "xref_name": "OTU",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA36593",
+              "xref_name": "TNF alpha induced protein 3",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P21580",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-168638",
+              "xref_name": "NOD1/2 Signaling Pathway",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5357786",
+              "xref_name": "TNFR1-induced proapoptotic signaling",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5357905",
+              "xref_name": "Regulation of TNFR1 signaling",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5357956",
+              "xref_name": "TNFR1-induced NF-kappa-B signaling pathway",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5689896",
+              "xref_name": "Ovarian tumor domain proteases",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-936440",
+              "xref_name": "Negative regulators of DDX58/IFIH1 signaling",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "B2R767",
+              "xref_name": "Tumor necrosis factor alpha-induced protein 3",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "E1P588",
+              "xref_name": "Tumor necrosis factor alpha-induced protein 3",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P21580",
+              "xref_name": "Tumor necrosis factor alpha-induced protein 3",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q2HIX9",
+              "xref_name": "Tumor necrosis factor alpha-induced protein 3",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q5VXQ7",
+              "xref_name": "Tumor necrosis factor alpha-induced protein 3",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9NSR6",
+              "xref_name": "Tumor necrosis factor alpha-induced protein 3",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

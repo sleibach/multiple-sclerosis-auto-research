@@ -1,0 +1,778 @@
+{
+  "payload": {
+    "hitCount": 802,
+    "nextCursorMark": "AoIIQPH9Dyg1MzE2NTMzMg==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(CD300A OR CD300C OR CD300E OR CD300LF) AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR Sjogren OR \"type 1 diabetes\" OR \"primary biliary cholangitis\" OR autoimmune)&cursorMark=AoIIQPH9Dyg1MzE2NTMzMg==&resultType=core&pageSize=3&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 3,
+      "queryString": "(CD300A OR CD300C OR CD300E OR CD300LF) AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR Sjogren OR \"type 1 diabetes\" OR \"primary biliary cholangitis\" OR autoimmune)",
+      "resultType": "core",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "abstractText": "<h4>Purpose</h4>Rheumatoid arthritis (RA) is a common autoimmune disease causing significant bone lesions. This study aims to explore RA through efferocytosis, identify hub genes, and construct a risk prediction model for clinical management and targeted therapy.<h4>Method</h4>RA data was obtained from the GEO database. Differential gene expression analysis was performed using R packages. Hub genes were identified via LASSO regression and validated with ROC curves. Functional analysis included constructing PPI, mRNA-miRNA, and transcription factor (TF) networks. Gene modules were analyzed by WGCNA, and immune cell infiltration was assessed using CIBERSORT. CD300A expression was knocked down in macrophages and assessed by immunofluorescence and flow cytometry. In vivo, CD300A was silenced in a CIA mouse model using AAV lentivirus, followed by joint pathology and TUNEL staining.<h4>Result</h4>Six hub genes were identified: IL1R1, WASL, AIM2, NLRP3, CD24, and CD300A, with coefficients of -1.968, -0.445, 1.367, 0.077, 0.248, and 0.523, respectively. B cells, macrophages, and T cells were significantly correlated with the risk score. Additionally, 30 TFs and 56 candidate miRNAs were identified. Knockdown of CD300A in macrophages enhanced efferocytosis in vitro, while silencing CD300A in vivo reduced joint scores, improved joint pathology, and decreased apoptosis in CIA mice.<h4>Conclusion</h4>Efferocytosis plays a key role in RA pathogenesis. IL1R1, WASL, AIM2, NLRP3, CD24, and CD300A are significant hub genes for RA prediction, with CD300A being a promising therapeutic target.",
+          "affiliation": "Department of Orthopaedic Surgery, Nantong First People's Hospital, Affiliated Hospital 2 of Nantong University, Nantong, Jiangsu 226000, China; Department of Orthopaedic Surgery, Nantong Hospital of Renji Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Nantong, Jiangsu 226000, China.",
+          "authMan": "N",
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-6323-6622"
+              }
+            ]
+          },
+          "authorList": {
+            "author": [
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Orthopaedic Surgery, Nantong First People's Hospital, Affiliated Hospital 2 of Nantong University, Nantong, Jiangsu 226000, China; Department of Orthopaedic Surgery, Nantong Hospital of Renji Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Nantong, Jiangsu 226000, China."
+                    }
+                  ]
+                },
+                "firstName": "Hao",
+                "fullName": "Fei H",
+                "initials": "H",
+                "lastName": "Fei"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Orthopaedic Surgery, Nantong First People's Hospital, Affiliated Hospital 2 of Nantong University, Nantong, Jiangsu 226000, China; Department of Orthopaedic Surgery, Nantong Hospital of Renji Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Nantong, Jiangsu 226000, China; Department of Orthopedics, The First People's Hospital of Lianyungang, Lianyungang, Jiangsu 222000, China."
+                    }
+                  ]
+                },
+                "firstName": "Youhan",
+                "fullName": "Mei Y",
+                "initials": "Y",
+                "lastName": "Mei"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Orthopaedic Surgery, Nantong First People's Hospital, Affiliated Hospital 2 of Nantong University, Nantong, Jiangsu 226000, China; Department of Orthopaedic Surgery, Nantong Hospital of Renji Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Nantong, Jiangsu 226000, China."
+                    }
+                  ]
+                },
+                "firstName": "Jiafeng",
+                "fullName": "He J",
+                "initials": "J",
+                "lastName": "He"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Orthopaedic Surgery, Nantong First People's Hospital, Affiliated Hospital 2 of Nantong University, Nantong, Jiangsu 226000, China; Department of Orthopaedic Surgery, Nantong Hospital of Renji Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Nantong, Jiangsu 226000, China."
+                    }
+                  ]
+                },
+                "firstName": "Yixuan",
+                "fullName": "Li Y",
+                "initials": "Y",
+                "lastName": "Li"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Orthopaedic Surgery, Nantong First People's Hospital, Affiliated Hospital 2 of Nantong University, Nantong, Jiangsu 226000, China; Department of Orthopaedic Surgery, Nantong Hospital of Renji Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Nantong, Jiangsu 226000, China; Department of Orthopaedic Surgery, Xuyi People's Hospital, Huai'an, Jiangsu 211700, China."
+                    }
+                  ]
+                },
+                "firstName": "Rui",
+                "fullName": "Xu R",
+                "initials": "R",
+                "lastName": "Xu"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Orthopaedic Surgery, Nantong First People's Hospital, Affiliated Hospital 2 of Nantong University, Nantong, Jiangsu 226000, China; Department of Orthopaedic Surgery, Nantong Hospital of Renji Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Nantong, Jiangsu 226000, China. Electronic address: liuweidr@yeah.net."
+                    }
+                  ]
+                },
+                "firstName": "Wei",
+                "fullName": "Liu W",
+                "initials": "W",
+                "lastName": "Liu"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Orthopaedic Surgery, Nantong First People's Hospital, Affiliated Hospital 2 of Nantong University, Nantong, Jiangsu 226000, China; Department of Orthopaedic Surgery, Nantong Hospital of Renji Hospital Affiliated to Shanghai Jiao Tong University School of Medicine, Nantong, Jiangsu 226000, China. Electronic address: yuziliang163@163.com."
+                    }
+                  ]
+                },
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-6323-6622"
+                },
+                "firstName": "Ziliang",
+                "fullName": "Yu Z",
+                "initials": "Z",
+                "lastName": "Yu"
+              }
+            ]
+          },
+          "authorString": "Fei H, Mei Y, He J, Li Y, Xu R, Liu W, Yu Z.",
+          "chemicalList": {
+            "chemical": [
+              {
+                "name": "Receptors, Immunologic",
+                "registryNumber": "0"
+              },
+              {
+                "name": "MicroRNAs",
+                "registryNumber": "0"
+              }
+            ]
+          },
+          "citedByCount": 0,
+          "dateOfCompletion": "2026-03-11",
+          "dateOfCreation": "2026-02-01",
+          "dateOfRevision": "2026-03-11",
+          "doi": "10.1016/j.imlet.2026.107146",
+          "electronicPublicationDate": "2026-01-30",
+          "epmcAuthMan": "N",
+          "firstIndexDate": "2026-02-06",
+          "firstPublicationDate": "2026-01-30",
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/j.imlet.2026.107146"
+              }
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Nantong University",
+                "grantId": "2024JY003",
+                "orderIn": 0
+              }
+            ]
+          },
+          "hasBook": "N",
+          "hasData": "N",
+          "hasDbCrossReferences": "N",
+          "hasEvaluations": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "N",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41621689",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "isOpenAccess": "N",
+          "journalInfo": {
+            "dateOfPublication": "2026 Jun",
+            "journal": {
+              "essn": "1879-0542",
+              "isoabbreviation": "Immunol Lett",
+              "issn": "0165-2478",
+              "medlineAbbreviation": "Immunol Lett",
+              "nlmid": "7910006",
+              "title": "Immunology letters"
+            },
+            "journalIssueId": 4147861,
+            "monthOfPublication": 6,
+            "printPublicationDate": "2026-06-01",
+            "volume": "279",
+            "yearOfPublication": 2026
+          },
+          "keywordList": {
+            "keyword": [
+              "Rheumatoid arthritis",
+              "CIA",
+              "Efferocytosis",
+              "Risk Prediction Model",
+              "Cd300a"
+            ]
+          },
+          "language": "eng",
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "descriptorName": "Macrophages",
+                "majorTopic_YN": "N",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "abbreviation": "IM",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "abbreviation": "ME",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "descriptorName": "Animals",
+                "majorTopic_YN": "N"
+              },
+              {
+                "descriptorName": "Humans",
+                "majorTopic_YN": "N"
+              },
+              {
+                "descriptorName": "Mice",
+                "majorTopic_YN": "N"
+              },
+              {
+                "descriptorName": "Arthritis, Experimental",
+                "majorTopic_YN": "N",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "abbreviation": "GE",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "genetics"
+                    }
+                  ]
+                }
+              },
+              {
+                "descriptorName": "Arthritis, Rheumatoid",
+                "majorTopic_YN": "Y",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "abbreviation": "DI",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "diagnosis"
+                    },
+                    {
+                      "abbreviation": "ET",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "etiology"
+                    },
+                    {
+                      "abbreviation": "GE",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "abbreviation": "IM",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "immunology"
+                    },
+                    {
+                      "abbreviation": "ME",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "descriptorName": "Disease Models, Animal",
+                "majorTopic_YN": "N"
+              },
+              {
+                "descriptorName": "Receptors, Immunologic",
+                "majorTopic_YN": "Y",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "abbreviation": "GE",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "abbreviation": "ME",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "metabolism"
+                    }
+                  ]
+                }
+              },
+              {
+                "descriptorName": "MicroRNAs",
+                "majorTopic_YN": "N",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "abbreviation": "GE",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "genetics"
+                    }
+                  ]
+                }
+              },
+              {
+                "descriptorName": "Gene Expression Profiling",
+                "majorTopic_YN": "N"
+              },
+              {
+                "descriptorName": "Phagocytosis",
+                "majorTopic_YN": "Y",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "abbreviation": "GE",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "genetics"
+                    }
+                  ]
+                }
+              },
+              {
+                "descriptorName": "Gene Regulatory Networks",
+                "majorTopic_YN": "N"
+              },
+              {
+                "descriptorName": "Transcriptome",
+                "majorTopic_YN": "N"
+              },
+              {
+                "descriptorName": "Efferocytosis",
+                "majorTopic_YN": "N"
+              }
+            ]
+          },
+          "nihAuthMan": "N",
+          "pageInfo": "107146",
+          "pmid": "41621689",
+          "pubModel": "Print-Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "Journal Article"
+            ]
+          },
+          "pubYear": "2026",
+          "publicationStatus": "ppublish",
+          "source": "MED",
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "title": "Efferocytosis-linked genetic signature predicts rheumatoid arthritis risk and highlights CD300A as a novel target."
+        },
+        {
+          "abstractText": "In the field of treatment and prevention of immune-related bone diseases, significant challenges persist, necessitating the urgent exploration of new and effective treatment methods. However, most existing Mendelian randomization (MR) studies are confined to a single analytical approach, which limits the comprehensive understanding of the pathogenesis and potential therapeutic targets of these diseases. In light of this, we propose the hypothesis that genetic variations in specific plasma proteins have a causal relationship with immune-related bone diseases through the MR mechanism, and that key therapeutic targets can be accurately identified using an integrated multi-omic analysis approach. This study comprehensively applied a variety of analytical methods. Firstly, the protein quantitative trait locus (pQTLs) data from two large plasma protein databases and the Genome-Wide Association Study (GWAS) data of nine immune-related bone diseases were used for Mendelian randomization (MR) analysis. At the same time, we employed the Summary-based Mendelian Randomization (SMR) method, combined with the Bayesian colocalization analysis method of coding genes, as well as the Linkage Disequilibrium Score Regression (LDSC) analysis method based on genetic correlation analysis, as methods to verify the genetic association between genes and complex diseases, thus comprehensively obtaining positive results. In addition, a Phenome-wide Association Study (PheWAS) was conducted on significantly positive genes, and their expression patterns in different tissues were also explored. Subsequently, we integrated Protein-Protein Interaction (PPI) network analysis, Gene Ontology (GO) analysis. Finally, based on the above analytical methods, drug prediction and molecular docking studies were carried out with the aim of accurately identifying key therapeutic targets. Through a comprehensive analysis using four methods, namely the Mendelian randomization (MR) analysis study, Summary-based Mendelian Randomization (SMR) analysis study, Bayesian colocalization analysis study, and Linkage Disequilibrium Score Regression (LDSC) analysis study. We found that through MR, SMR, and combined with Bayesian colocalization analysis, an association was found between rheumatoid arthritis (RA) and HDGF. Using the combination of MR and Bayesian colocalization analysis, as well as LDSC analysis, it was concluded that RA was related to CCL19 and TNFRSF14. Based on the methods of MR and Bayesian colocalization, an association was found between GPT and Crohn's disease-related arthritis, and associations were found between BTN1A1, EVI5, OGA, TNFRSF14 and multiple sclerosis (MS), and associations were found between ICAM5, CCDC50, IL17RD, UBLCP1 and psoriatic arthritis (PsA). Specifically, in the MR analysis of RA, HDGF (P_ivw\u2009=\u20090.0338, OR\u2009=\u20091.0373, 95%CI\u2009=\u20091.0028-1.0730), CCL19 (P_ivw\u2009=\u20090.0004, OR\u2009=\u20090.3885, 95%CI\u2009=\u20090.2299-0.6566), TNFRSF14 (P_ivw\u2009=\u20090.0007, OR\u2009=\u20090.6947, 95%CI\u2009=\u20090.5634-0.8566); in the MR analysis of MS, BTN1A1 (P_ivw\u2009=\u20090.0000, OR\u2009=\u20090.6101, 95%CI\u2009=\u20090.4813-0.7733), EVI5 (P_ivw\u2009=\u20090.0000, OR\u2009=\u20090.3032, 95%CI\u2009=\u20090.1981-0.4642), OGA (P_ivw\u2009=\u20090.0005, OR\u2009=\u20090.4599, 95%CI\u2009=\u20090.2966-0.7131), TNFRSF14 (P_ivw\u2009=\u20090.0002, OR\u2009=\u20090.4026, 95%CI\u2009=\u20090.2505-0.6471); in the MR analysis of PsA, ICAM5 (P_ivw\u2009=\u20090.0281, OR\u2009=\u20091.1742, 95%CI\u2009=\u20091.0174-1.3552), CCDC50 (P_ivw\u2009=\u20090.0092, OR\u2009=\u20090.7359, 95%CI\u2009=\u20090.5843-0.9269), IL17RD (P_ivw\u2009=\u20090.0006, OR\u2009=\u20090.7887, 95%CI\u2009=\u20090.6886-0.9034), UBLCP1 (P_ivw\u2009=\u20090.0021, OR\u2009=\u20090.6901, 95%CI\u2009=\u20090.5448-0.8741); in the MR analysis of Crohn's disease-related arthritis, GPT (P_ivw\u2009=\u20090.0006, OR\u2009=\u20090.0057, 95%CI\u2009=\u20090.0003-0.1111). In the Bayesian colocalization analysis of RA, HDGF (H4\u2009=\u20090.8426), CCL19 (H4\u2009=\u20090.9762), TNFRSF14 (H4\u2009=\u20090.8016); in the Bayesian colocalization analysis of MS, BTN1A1 (H4\u2009=\u20090.7660), EVI5 (H4\u2009=\u20090.9800), OGA (H4\u2009=\u20090.8569), TNFRSF14 (H4\u2009=\u20090.8904); in the Bayesian colocalization analysis of PsA, ICAM5 (H4\u2009=\u20090.9476), CCDC50 (H4\u2009=\u20090.9091), IL17RD (H4\u2009=\u20090.9301), UBLCP1 (H4\u2009=\u20090.8862); in the Bayesian colocalization analysis of Crohn's disease-related arthritis, GPT (H4\u2009=\u20090.8126). In the SMR analysis of RA, HDGF (p_SMR\u2009=\u20090.0338, p_HEIDI\u2009=\u20090.0628). In the LDSC analysis of RA, CCL19 (P\u2009=\u20090.0000), TNFRSF14 (P\u2009=\u20090.0258). By comprehensively analyzing plasma proteomic and transcriptomic data, we successfully identified key therapeutic targets for various clinical subtypes of immune-associated bone diseases. Our findings indicate that the significant positive genes associated with RA include HDGF, CCL19, and TNFRSF14; the positive gene linked to Crohn-related arthropathy is GPT; for MS, the positive genes are BTN1A1, EVI5, OGA, and TNFRSF14; and for PsA, the positive genes are ICAM5, CCDC50, IL17RD, and UBLCP1. Through this comprehensive analytical approach, we have screened potential therapeutic targets for different clinical subtypes of immune-related bone diseases. This research not only enhances our understanding of the pathogenesis of these conditions but also provides a solid theoretical foundation for subsequent drug development and clinical treatment, with the potential to yield significant advancements in the management of patients with immune-related bone diseases.",
+          "affiliation": "School of Traditional Chinese Medicine, Changchun University of Chinese Medicine, Changchun, 130117, Jilin, China.",
+          "authMan": "N",
+          "authorList": {
+            "author": [
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Traditional Chinese Medicine, Changchun University of Chinese Medicine, Changchun, 130117, Jilin, China."
+                    }
+                  ]
+                },
+                "firstName": "Wei",
+                "fullName": "Yang W",
+                "initials": "W",
+                "lastName": "Yang"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Traditional Chinese Medicine, Changchun University of Chinese Medicine, Changchun, 130117, Jilin, China."
+                    }
+                  ]
+                },
+                "firstName": "Chenglin",
+                "fullName": "Liu C",
+                "initials": "C",
+                "lastName": "Liu"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Affiliated Hospital of Changchun University of Chinese Medicine, 1035 Boshuo Road, Changchun, 130117, Jilin, China. 19390078790@163.com."
+                    }
+                  ]
+                },
+                "firstName": "Zhenhua",
+                "fullName": "Li Z",
+                "initials": "Z",
+                "lastName": "Li"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Capital Medical University, No.10, Xitoutiao, You'anmenwai, Beijing, 100069, Fengtai District, China. cuimiao22@outlook.com."
+                    }
+                  ]
+                },
+                "firstName": "Miao",
+                "fullName": "Cui M",
+                "initials": "M",
+                "lastName": "Cui"
+              }
+            ]
+          },
+          "authorString": "Yang W, Liu C, Li Z, Cui M.",
+          "citedByCount": 1,
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics"
+            ]
+          },
+          "dateOfCompletion": "2025-05-15",
+          "dateOfCreation": "2025-03-28",
+          "dateOfRevision": "2025-05-15",
+          "doi": "10.1038/s41598-025-94053-7",
+          "electronicPublicationDate": "2025-03-27",
+          "epmcAuthMan": "N",
+          "firstIndexDate": "2025-04-01",
+          "firstPublicationDate": "2025-03-27",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11950375"
+            ]
+          },
+          "fullTextReceivedDate": "2025-04-01",
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1038/s41598-025-94053-7"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11950375"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC11950375?pdf=render"
+              }
+            ]
+          },
+          "hasBook": "N",
+          "hasData": "Y",
+          "hasDbCrossReferences": "N",
+          "hasEvaluations": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "40148470",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalInfo": {
+            "dateOfPublication": "2025 Mar",
+            "issue": "1",
+            "journal": {
+              "essn": "2045-2322",
+              "isoabbreviation": "Sci Rep",
+              "issn": "2045-2322",
+              "medlineAbbreviation": "Sci Rep",
+              "nlmid": "101563288",
+              "title": "Scientific reports"
+            },
+            "journalIssueId": 3906907,
+            "monthOfPublication": 3,
+            "printPublicationDate": "2025-03-01",
+            "volume": "15",
+            "yearOfPublication": 2025
+          },
+          "keywordList": {
+            "keyword": [
+              "Genetic correlation",
+              "Mendelian Randomization",
+              "Plasma Proteins",
+              "Druggable Target Genes",
+              "Immune-related Bone Diseases"
+            ]
+          },
+          "language": "eng",
+          "license": "cc by-nc-nd",
+          "meshHeadingList": {
+            "meshHeading": [
+              {
+                "descriptorName": "Humans",
+                "majorTopic_YN": "N"
+              },
+              {
+                "descriptorName": "Bone Diseases",
+                "majorTopic_YN": "Y",
+                "meshQualifierList": {
+                  "meshQualifier": [
+                    {
+                      "abbreviation": "DT",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "drug therapy"
+                    },
+                    {
+                      "abbreviation": "GE",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "genetics"
+                    },
+                    {
+                      "abbreviation": "IM",
+                      "majorTopic_YN": "N",
+                      "qualifierName": "immunology"
+                    }
+                  ]
+                }
+              },
+              {
+                "descriptorName": "Genetic Predisposition to Disease",
+                "majorTopic_YN": "N"
+              },
+              {
+                "descriptorName": "Bayes Theorem",
+                "majorTopic_YN": "N"
+              },
+              {
+                "descriptorName": "Linkage Disequilibrium",
+                "majorTopic_YN": "N"
+              },
+              {
+                "descriptorName": "Polymorphism, Single Nucleotide",
+                "majorTopic_YN": "N"
+              },
+              {
+                "descriptorName": "Quantitative Trait Loci",
+                "majorTopic_YN": "N"
+              },
+              {
+                "descriptorName": "Genome-Wide Association Study",
+                "majorTopic_YN": "N"
+              },
+              {
+                "descriptorName": "Mendelian Randomization Analysis",
+                "majorTopic_YN": "N"
+              },
+              {
+                "descriptorName": "Multiomics",
+                "majorTopic_YN": "N"
+              }
+            ]
+          },
+          "nihAuthMan": "N",
+          "pageInfo": "10618",
+          "pmcid": "PMC11950375",
+          "pmid": "40148470",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "pubYear": "2025",
+          "publicationStatus": "epublish",
+          "source": "MED",
+          "subsetList": {
+            "subset": [
+              {
+                "code": "IM",
+                "name": "Index Medicus"
+              }
+            ]
+          },
+          "title": "Exploring new drug treatment targets for immune related bone diseases using a multi omics joint analysis strategy."
+        },
+        {
+          "abstractText": "CD300 family members are immunoglobulin superfamily receptors that regulate immune cell function through either activating or inhibitory signals. Among them, CD300a is a prototypical inhibitory receptor, highly expressed in both myeloid and lymphoid lineages, and plays a pivotal role in the pathogenesis of inflammation and tumor immunity. CD300a transduces inhibitory signals in several immune cells-including mast cells, eosinophils, monocytes, dendritic cells (DCs), neutrophils, and natural killer (NK) cells-by recruiting SHP-1 phosphatase to immunoreceptor tyrosine-based inhibitory motifs (ITIMs) and suppressing activation pathways such as Toll-like receptor (TLR)-MyD88 and Fc\u03b5RI signaling. Recent studies suggest that tumor cells may hijack CD300a-associated pathways to establish an immunosuppressive microenvironment that facilitates immune evasion, tumor survival, and potentially metastatic spread. Proposed mechanisms include reduced DC-mediated type I interferon (IFN) production, diminished NK cell cytotoxicity, and negative regulation of mast cell- and eosinophil-dependent anti-tumor responses. Although some of these findings are derived from in vivo models, the cumulative evidence positions CD300a as a critical immune checkpoint in tumor-associated immune regulation. In addition to its established roles in hematologic malignancies-including chronic lymphocytic leukemia, acute lymphoblastic leukemia, and acute myeloid leukemia-CD300a has also been implicated in modulating tumor-associated immune responses in other pathological contexts. While most studies emphasize its immune cell-mediated effects, emerging evidence suggests that CD300a may directly influence tumor progression by regulating immune homeostasis, intracellular signaling, and tumor microenvironment interactions. Collectively, these findings establish CD300a as a pleiotropic immunoregulatory molecule in both hematologic and non-hematologic malignancies, underscoring the need to further explore its broader relevance and therapeutic potential in cancer immunology.",
+          "affiliation": "Institute for Translational Research in Biomedicine, Kaohsiung Chang Gung Memorial Hospital, Kaohsiung 83301, Taiwan.",
+          "authMan": "N",
+          "authorList": {
+            "author": [
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Institute for Translational Research in Biomedicine, Kaohsiung Chang Gung Memorial Hospital, Kaohsiung 83301, Taiwan."
+                    }
+                  ]
+                },
+                "firstName": "Jei-Ming",
+                "fullName": "Peng JM",
+                "initials": "JM",
+                "lastName": "Peng"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Urology, Kaohsiung Chang Gung Memorial Hospital, Graduate Institute of Clinical Medical Sciences, College of Medicine, Chang Gung University, Kaohsiung 83301, Taiwan."
+                    }
+                  ]
+                },
+                "firstName": "Hui-Ying",
+                "fullName": "Liu HY",
+                "initials": "HY",
+                "lastName": "Liu"
+              }
+            ]
+          },
+          "authorString": "Peng JM, Liu HY.",
+          "citedByCount": 3,
+          "commentCorrectionList": {
+            "commentCorrection": [
+              {
+                "id": "41375090",
+                "orderIn": 1,
+                "reference": "Cancers (Basel). 2025 Nov 27;17(23):3793. doi: 10.3390/cancers17233793.",
+                "source": "MED",
+                "type": "Erratum in"
+              }
+            ]
+          },
+          "dataLinksTagsList": {
+            "dataLinkstag": [
+              "altmetrics"
+            ]
+          },
+          "dateOfCreation": "2025-06-13",
+          "dateOfRevision": "2026-01-28",
+          "doi": "10.3390/cancers17111786",
+          "electronicPublicationDate": "2025-05-27",
+          "epmcAuthMan": "N",
+          "firstIndexDate": "2025-06-13",
+          "firstPublicationDate": "2025-05-27",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12153786"
+            ]
+          },
+          "fullTextReceivedDate": "2025-11-29",
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.3390/cancers17111786"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12153786"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12153786?pdf=render"
+              }
+            ]
+          },
+          "grantsList": {
+            "grant": [
+              {
+                "agency": "Chang Gung Medical Foundation, Taiwan",
+                "grantId": "CMRPG8P0191, CMRPG8N0681",
+                "orderIn": 0
+              },
+              {
+                "agency": "Ministry of Science and Technology, Taiwan",
+                "grantId": "NSTC 112-2314-B-182A-058-MY3",
+                "orderIn": 0
+              }
+            ]
+          },
+          "hasBook": "N",
+          "hasData": "N",
+          "hasDbCrossReferences": "N",
+          "hasEvaluations": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "40507267",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalInfo": {
+            "dateOfPublication": "2025 May",
+            "issue": "11",
+            "journal": {
+              "essn": "2072-6694",
+              "isoabbreviation": "Cancers (Basel)",
+              "issn": "2072-6694",
+              "medlineAbbreviation": "Cancers (Basel)",
+              "nlmid": "101526829",
+              "title": "Cancers"
+            },
+            "journalIssueId": 3949303,
+            "monthOfPublication": 5,
+            "printPublicationDate": "2025-05-01",
+            "volume": "17",
+            "yearOfPublication": 2025
+          },
+          "keywordList": {
+            "keyword": [
+              "immune suppression",
+              "Cancer Immunotherapy",
+              "Myeloid Cells",
+              "Tumor Immune Evasion",
+              "Cd300a"
+            ]
+          },
+          "language": "eng",
+          "license": "cc by",
+          "nihAuthMan": "N",
+          "pageInfo": "1786",
+          "pmcid": "PMC12153786",
+          "pmid": "40507267",
+          "pubModel": "Electronic",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "pubYear": "2025",
+          "publicationStatus": "epublish",
+          "source": "MED",
+          "title": "CD300a: An Innate Immune Checkpoint Shaping Tumor Immunity and Therapeutic Opportunity."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28CD300A+OR+CD300C+OR+CD300E+OR+CD300LF%29+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+Sjogren+OR+%22type+1+diabetes%22+OR+%22primary+biliary+cholangitis%22+OR+autoimmune%29&format=json&pageSize=3&resultType=core"
+}

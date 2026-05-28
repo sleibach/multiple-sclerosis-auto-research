@@ -1,0 +1,232 @@
+{
+  "anchor_genes": [
+    "ARHGAP31",
+    "CD274",
+    "CD80",
+    "DCLRE1B",
+    "FCGR2A",
+    "FCGR2B",
+    "IL7R",
+    "LPP",
+    "NCF1",
+    "RGS14",
+    "STAT4",
+    "TNFRSF9",
+    "TNFSF15"
+  ],
+  "call_counts": {
+    "DESCRIPTIVE_SINGLE_ANCHOR_NEIGHBOR": 93,
+    "NO_GO_BLOCKED_PRIOR_OR_BROAD_BIOLOGY": 35,
+    "PARK_DRUGGABLE_CONTROLLER_SCOUT_NEEDS_DIRECT_VALIDATION": 2
+  },
+  "date": "2026-05-27",
+  "interpretation": "Wave69 is a controller-ranking gate. PARK rows are not therapeutic claims; they require direct perturbation validation and novelty/patent clearance.",
+  "n_anchor_genes": 13,
+  "n_chembl_checked_nodes": 28,
+  "n_controller_nodes": 130,
+  "n_omnipath_or_manual_interactions": 156,
+  "n_public_crowding_checked_nodes": 28,
+  "random_seed": 20260527,
+  "top_calls": [
+    {
+      "candidate_node": "PRKDC",
+      "chembl_activity_rows": 3093.0,
+      "chembl_mechanism_rows": 1.0,
+      "connected_anchor_count": 2,
+      "connected_anchors": "NCF1;RGS14",
+      "controller_score": 18.028834961021648,
+      "manual_blocker": "",
+      "wave69_call": "PARK_DRUGGABLE_CONTROLLER_SCOUT_NEEDS_DIRECT_VALIDATION"
+    },
+    {
+      "candidate_node": "BLK",
+      "chembl_activity_rows": 1174.0,
+      "chembl_mechanism_rows": 0.0,
+      "connected_anchor_count": 2,
+      "connected_anchors": "FCGR2A;FCGR2B",
+      "controller_score": 16.118130157563485,
+      "manual_blocker": "",
+      "wave69_call": "PARK_DRUGGABLE_CONTROLLER_SCOUT_NEEDS_DIRECT_VALIDATION"
+    },
+    {
+      "candidate_node": "JAK1",
+      "chembl_activity_rows": 19812.0,
+      "chembl_mechanism_rows": 17.0,
+      "connected_anchor_count": 2,
+      "connected_anchors": "CD274;IL7R",
+      "controller_score": 27.13404466328152,
+      "manual_blocker": "generic_JAK_STAT_axis_prior_art_host_defense",
+      "wave69_call": "NO_GO_BLOCKED_PRIOR_OR_BROAD_BIOLOGY"
+    },
+    {
+      "candidate_node": "JAK2",
+      "chembl_activity_rows": 24544.0,
+      "chembl_mechanism_rows": 25.0,
+      "connected_anchor_count": 2,
+      "connected_anchors": "CD274;STAT4",
+      "controller_score": 25.049012441163672,
+      "manual_blocker": "generic_JAK_STAT_axis_prior_art_host_defense",
+      "wave69_call": "NO_GO_BLOCKED_PRIOR_OR_BROAD_BIOLOGY"
+    },
+    {
+      "candidate_node": "JAK3",
+      "chembl_activity_rows": 0.0,
+      "chembl_mechanism_rows": 0.0,
+      "connected_anchor_count": 1,
+      "connected_anchors": "IL7R",
+      "controller_score": 20.409336886049257,
+      "manual_blocker": "generic_JAK_STAT_axis_prior_art_host_defense",
+      "wave69_call": "NO_GO_BLOCKED_PRIOR_OR_BROAD_BIOLOGY"
+    },
+    {
+      "candidate_node": "FYN",
+      "chembl_activity_rows": 3572.0,
+      "chembl_mechanism_rows": 1.0,
+      "connected_anchor_count": 3,
+      "connected_anchors": "FCGR2A;FCGR2B;LPP",
+      "controller_score": 20.316121524177152,
+      "manual_blocker": "broad_SRC_family_kinase_prior_art_selectivity_safety",
+      "wave69_call": "NO_GO_BLOCKED_PRIOR_OR_BROAD_BIOLOGY"
+    },
+    {
+      "candidate_node": "SRC",
+      "chembl_activity_rows": 8363.0,
+      "chembl_mechanism_rows": 8.0,
+      "connected_anchor_count": 3,
+      "connected_anchors": "FCGR2A;FCGR2B;LPP",
+      "controller_score": 20.12016656589379,
+      "manual_blocker": "broad_SRC_family_kinase_prior_art_selectivity_safety",
+      "wave69_call": "NO_GO_BLOCKED_PRIOR_OR_BROAD_BIOLOGY"
+    },
+    {
+      "candidate_node": "PDCD1",
+      "chembl_activity_rows": 9.0,
+      "chembl_mechanism_rows": 26.0,
+      "connected_anchor_count": 2,
+      "connected_anchors": "CD274;FCGR2A",
+      "controller_score": 17.54641562711233,
+      "manual_blocker": "PD_1_checkpoint_prior_art_and_autoimmune_safety_direction_risk",
+      "wave69_call": "NO_GO_BLOCKED_PRIOR_OR_BROAD_BIOLOGY"
+    },
+    {
+      "candidate_node": "GSK3B",
+      "chembl_activity_rows": 4.0,
+      "chembl_mechanism_rows": 0.0,
+      "connected_anchor_count": 3,
+      "connected_anchors": "ARHGAP31;CD274;NCF1",
+      "controller_score": 17.333432874747828,
+      "manual_blocker": "GSK3_family_pleiotropic_neuroimmune_metabolic",
+      "wave69_call": "NO_GO_BLOCKED_PRIOR_OR_BROAD_BIOLOGY"
+    },
+    {
+      "candidate_node": "SYK",
+      "chembl_activity_rows": 8906.0,
+      "chembl_mechanism_rows": 14.0,
+      "connected_anchor_count": 2,
+      "connected_anchors": "FCGR2A;FCGR2B",
+      "controller_score": 17.149645761932643,
+      "manual_blocker": "SYK_prior_art_broad_immunosuppression",
+      "wave69_call": "NO_GO_BLOCKED_PRIOR_OR_BROAD_BIOLOGY"
+    },
+    {
+      "candidate_node": "CD274",
+      "chembl_activity_rows": 1882.0,
+      "chembl_mechanism_rows": 13.0,
+      "connected_anchor_count": 2,
+      "connected_anchors": "CD274;CD80",
+      "controller_score": 17.040789927374952,
+      "manual_blocker": "PD_L1_checkpoint_prior_art_and_autoimmune_safety_direction_risk",
+      "wave69_call": "NO_GO_BLOCKED_PRIOR_OR_BROAD_BIOLOGY"
+    },
+    {
+      "candidate_node": "CD80",
+      "chembl_activity_rows": 0.0,
+      "chembl_mechanism_rows": 3.0,
+      "connected_anchor_count": 2,
+      "connected_anchors": "CD274;CD80",
+      "controller_score": 16.470383103720312,
+      "manual_blocker": "costimulation_axis_prior_art_and_broad_T_cell_APC_biology",
+      "wave69_call": "NO_GO_BLOCKED_PRIOR_OR_BROAD_BIOLOGY"
+    },
+    {
+      "candidate_node": "MAPK14",
+      "chembl_activity_rows": 8611.0,
+      "chembl_mechanism_rows": 35.0,
+      "connected_anchor_count": 2,
+      "connected_anchors": "NCF1;STAT4",
+      "controller_score": 15.99104551690587,
+      "manual_blocker": "p38_MAPK_autoimmune_prior_art_and_broad_stress_axis",
+      "wave69_call": "NO_GO_BLOCKED_PRIOR_OR_BROAD_BIOLOGY"
+    },
+    {
+      "candidate_node": "TYK2",
+      "chembl_activity_rows": 0.0,
+      "chembl_mechanism_rows": 0.0,
+      "connected_anchor_count": 1,
+      "connected_anchors": "STAT4",
+      "controller_score": 15.43998087842106,
+      "manual_blocker": "generic_JAK_STAT_axis_prior_art_host_defense",
+      "wave69_call": "NO_GO_BLOCKED_PRIOR_OR_BROAD_BIOLOGY"
+    },
+    {
+      "candidate_node": "RELA",
+      "chembl_activity_rows": 175.0,
+      "chembl_mechanism_rows": 0.0,
+      "connected_anchor_count": 3,
+      "connected_anchors": "CD274;TNFRSF9;TNFSF15",
+      "controller_score": 15.241221460428006,
+      "manual_blocker": "generic_NFKB_host_defense",
+      "wave69_call": "NO_GO_BLOCKED_PRIOR_OR_BROAD_BIOLOGY"
+    },
+    {
+      "candidate_node": "GSK3A",
+      "chembl_activity_rows": 3464.0,
+      "chembl_mechanism_rows": 1.0,
+      "connected_anchor_count": 2,
+      "connected_anchors": "ARHGAP31;CD274",
+      "controller_score": 14.098284166902161,
+      "manual_blocker": "GSK3_family_pleiotropic_neuroimmune_metabolic",
+      "wave69_call": "NO_GO_BLOCKED_PRIOR_OR_BROAD_BIOLOGY"
+    },
+    {
+      "candidate_node": "INSR",
+      "chembl_activity_rows": 3018.0,
+      "chembl_mechanism_rows": 30.0,
+      "connected_anchor_count": 2,
+      "connected_anchors": "FCGR2A;LPP",
+      "controller_score": 13.221910450056532,
+      "manual_blocker": "systemic_insulin_receptor_metabolic_safety",
+      "wave69_call": "NO_GO_BLOCKED_PRIOR_OR_BROAD_BIOLOGY"
+    },
+    {
+      "candidate_node": "LYN",
+      "chembl_activity_rows": 2166.0,
+      "chembl_mechanism_rows": 4.0,
+      "connected_anchor_count": 2,
+      "connected_anchors": "FCGR2A;FCGR2B",
+      "controller_score": 12.618130157563485,
+      "manual_blocker": "broad_SRC_family_kinase_prior_art_selectivity_safety",
+      "wave69_call": "NO_GO_BLOCKED_PRIOR_OR_BROAD_BIOLOGY"
+    },
+    {
+      "candidate_node": "PRKACA",
+      "chembl_activity_rows": 0.0,
+      "chembl_mechanism_rows": 0.0,
+      "connected_anchor_count": 1,
+      "connected_anchors": "RGS14",
+      "controller_score": 12.4760760863746,
+      "manual_blocker": "broad_PKA_pleiotropy_no_myeloid_selectivity",
+      "wave69_call": "NO_GO_BLOCKED_PRIOR_OR_BROAD_BIOLOGY"
+    },
+    {
+      "candidate_node": "CD28",
+      "chembl_activity_rows": 0.0,
+      "chembl_mechanism_rows": 0.0,
+      "connected_anchor_count": 1,
+      "connected_anchors": "CD80",
+      "controller_score": 11.730432008040129,
+      "manual_blocker": "costimulation_axis_approved_prior_art_systemic_T_cell_activation_risk",
+      "wave69_call": "NO_GO_BLOCKED_PRIOR_OR_BROAD_BIOLOGY"
+    }
+  ]
+}

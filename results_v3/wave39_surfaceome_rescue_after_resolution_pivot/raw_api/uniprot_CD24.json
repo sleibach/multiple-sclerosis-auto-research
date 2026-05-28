@@ -1,0 +1,136 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P24807",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11313396",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "May have a pivotal role in cell differentiation of different cell types. Signaling could be triggered by the binding of a lectin-like ligand to the CD24 carbohydrates, and transduced by the release of second messengers derived from the GPI-anchor. Modulates B-cell activation responses. Promotes AG-dependent proliferation of B-cells, and prevents their terminal differentiation into antibody-forming cells (PubMed:11313396). In association with SIGLEC10 may be involved in the selective suppression of the immune response to danger-associated molecular patterns (DAMPs) such as HMGB1, HSP70 and HSP90. Plays a role in the control of autoimmunity (By similarity)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "id": "SL-9902",
+                "value": "Lipid-anchor, GPI-anchor"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000000C87"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "CD24"
+          },
+          "synonyms": [
+            {
+              "value": "CD24A"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-1003",
+          "name": "Cell membrane"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0325",
+          "name": "Glycoprotein"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0336",
+          "name": "GPI-anchor"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0449",
+          "name": "Lipoprotein"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0732",
+          "name": "Signal"
+        }
+      ],
+      "primaryAccession": "P25063",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Small cell lung carcinoma cluster 4 antigen"
+            }
+          }
+        ],
+        "cdAntigenNames": [
+          {
+            "value": "CD24"
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "Signal transducer CD24"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "DB1988B6808F833F",
+        "length": 80,
+        "md5": "0F02E633B705770EDA044AD330FD6242",
+        "molWeight": 8083,
+        "value": "MGRAMVARLGLGLLLLALLLPTQIYSSETTTGTSSNSSQSTSNSGLAPNPTNATTKAAGGALQSTASLFVVSLSLLHLYS"
+      },
+      "uniProtkbId": "CD24_HUMAN"
+    }
+  ]
+}

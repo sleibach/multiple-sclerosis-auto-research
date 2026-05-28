@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr6",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000112486.15",
+        "geneSymbol": "CCR6",
+        "geneSymbolUpper": "CCR6",
+        "nes": -1.20652,
+        "ontologyId": "UBERON:0009834",
+        "pValue": 1.94095e-07,
+        "pos": 166953134,
+        "snpId": "rs73041494",
+        "snpIdUpper": "RS73041494",
+        "tissueSiteDetailId": "Brain_Frontal_Cortex_BA9",
+        "variantId": "chr6_166953134_G_A_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 196,
+      "page": 0,
+      "totalNumberOfItems": 196
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000112486.15&tissueSiteDetailId=Brain_Frontal_Cortex_BA9&datasetId=gtex_v8&itemsPerPage=1"
+}

@@ -1,0 +1,24 @@
+{
+  "analysis_call": "NO_MECHANISTIC_THERAPEUTIC_PROMOTION",
+  "call_counts": {
+    "NO_GO_MARKER_WITHOUT_RESIDUAL_OR_PERTURBATION_SUPPORT": 8,
+    "NO_GO_PRIOR_ART_OR_SAFETY_BLOCKED": 3,
+    "PARK_WETLAB_KILL_TEST_ONLY": 4
+  },
+  "inputs": {
+    "broad_residual": "results_v3/broad_residual_gate/broad_residual_gate_summary.tsv",
+    "gse111972_ms": "results_v3/gse111972_full_ms_wm_signature.tsv",
+    "wave18_foundation": "results_v3/wave18_foundation_rescue/foundation_rescue_candidate_rank.tsv",
+    "wave37_efferocytosis": "results_v3/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv",
+    "wave55_genetics": "results_v3/wave55_external_genetics_druggability_sweep/external_genetics_rank.tsv",
+    "wave62_target_resolution": "results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv",
+    "wave68_gse282122": "results_v3/wave68_gse282122_unrestricted_gene_screen/integrated_gene_target_rank.tsv",
+    "wave92_route": "results_v3/wave92_lipid_state_controller_route_audit/controller_route_rank.tsv",
+    "wave94": "results_v3/wave94_accessible_state_rerank/accessible_state_candidate_rank.tsv"
+  },
+  "n_candidates": 15,
+  "n_promoted": 0,
+  "seed": 20260527,
+  "top_candidate": "SEL1L3",
+  "top_candidate_call": "NO_GO_MARKER_WITHOUT_RESIDUAL_OR_PERTURBATION_SUPPORT"
+}

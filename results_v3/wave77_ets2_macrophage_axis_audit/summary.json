@@ -1,0 +1,29 @@
+{
+  "decision": {
+    "broad_positive_diseases": "Crohn disease;ulcerative colitis",
+    "candidate": "ETS2_macrophage_gene_desert_axis",
+    "decision_reason": "ETS2 has known AS/UC/Crohn macrophage/genetic signal but fails MS anchor, treatment-response, perturbation, and druggable-route gates in local V3 data",
+    "gate_count": 1,
+    "gate_cross_disease_local_breadth": 0,
+    "gate_direct_perturbation_support": 0,
+    "gate_druggable_route_not_blocked": 0,
+    "gate_foundation_model_support": 0,
+    "gate_ms_white_matter_anchor": 0,
+    "gate_target_resolution_not_no_go": 0,
+    "gate_treatment_response_support": 1,
+    "wave62_call": "NO_GO_WAVE62_TARGET_RESOLUTION",
+    "wave77_call": "NO_GO_ETS2_LOCAL_AUDIT"
+  },
+  "inputs": {
+    "broad": "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv",
+    "ms_signature": "results_v3/gse111972_full_ms_wm_signature.tsv",
+    "ra_counts": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_counts_used.tsv",
+    "ra_meta": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_sample_metadata.tsv",
+    "wave15": "results_v3/wave15_perturbation_drug_response/candidate_level_synthesis.tsv",
+    "wave37": "results_v3/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv",
+    "wave62": "results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv",
+    "wave68_paired": "results_v3/wave68_gse282122_unrestricted_gene_screen/paired_gene_delta_tests.tsv",
+    "wave68_raw": "results_v3/wave68_gse282122_unrestricted_gene_screen/raw_remission_response_gene_tests.tsv"
+  },
+  "random_seed": 20260527
+}

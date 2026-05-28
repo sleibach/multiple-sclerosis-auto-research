@@ -1,0 +1,61 @@
+{
+  "payload": {
+    "hitCount": 365,
+    "nextCursorMark": "AoIIQWLd+Sg1NDYyNTc1MQ==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ZMIZ1 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQWLd+Sg1NDYyNTc1MQ==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "ZMIZ1 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Shchekina VS, Batashkov NA, Maznina AA, Krupinova JA, Bogdanov VP, Korobeinikova AV, Tychinin DI, Glushkova OV, Petriaikina ES, Svetlichnyy DV, Woroncow M, Yudin VS, Keskinov AA, Yudin SM, Skvortsova VI, Tabakov DV, Deviatkin AA, Volchkov PY.",
+          "citedByCount": 0,
+          "doi": "10.3390/ijms27010543",
+          "firstIndexDate": "2026-01-10",
+          "firstPublicationDate": "2026-01-05",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12786532"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "41516417",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "1",
+          "journalIssn": "1422-0067",
+          "journalTitle": "Int J Mol Sci",
+          "journalVolume": "27",
+          "pageInfo": "543",
+          "pmcid": "PMC12786532",
+          "pmid": "41516417",
+          "pubType": "research-article; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Identifying a Common Autoimmune Gene Core as a Tool for Verifying Biological Significance and Applicability of Polygenic Risk Scores.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "refsnp"
+            ]
+          }
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=ZMIZ1+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

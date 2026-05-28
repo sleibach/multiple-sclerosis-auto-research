@@ -1,0 +1,26 @@
+{
+  "seed": 20260526,
+  "targets": {
+    "CTSH": "CHEMBL2225",
+    "CTSS": "CHEMBL2954",
+    "CTSB": "CHEMBL4072",
+    "CTSL": "CHEMBL3837",
+    "CTSK": "CHEMBL268",
+    "CTSZ": "CHEMBL4160"
+  },
+  "activity_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json",
+  "max_records_per_target": 1500,
+  "interpretation": "CTSH remains druggable-in-principle but not feasibility-positive for V3 without selective cellular target-engagement data.",
+  "no_go_reasons": [
+    "CTSH has far fewer public ChEMBL molecules than CTSS/CTSB/CTSL comparator targets.",
+    "Median retained CTSH potency is micromolar-to-weak, not a strong selective-tool landscape.",
+    "A substantial fraction of CTSH molecules also have records against other cysteine cathepsins.",
+    "Only 3 pulled molecules meet an observed >=10x CTSH selectivity heuristic; absence of comparator data is not proof of selectivity."
+  ],
+  "outputs": [
+    "results_v3/wave16_ctsh_chembl_feasibility/cathepsin_activity_records.tsv",
+    "results_v3/wave16_ctsh_chembl_feasibility/cathepsin_activity_summary.tsv",
+    "results_v3/wave16_ctsh_chembl_feasibility/ctsh_cross_cathepsin_molecule_overlap.tsv",
+    "results_v3/wave16_ctsh_chembl_feasibility/ctsh_observed_selectivity_probe.tsv"
+  ]
+}

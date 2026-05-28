@@ -1,0 +1,268 @@
+{
+  "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxuYPek1Pg",
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D013966",
+              "term": "Thyroiditis"
+            },
+            {
+              "id": "D013959",
+              "term": "Thyroid Diseases"
+            },
+            {
+              "id": "D004700",
+              "term": "Endocrine System Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D013967",
+              "term": "Thyroiditis, Autoimmune"
+            },
+            {
+              "id": "D050031",
+              "term": "Hashimoto Disease"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "meshes": [
+            {
+              "id": "D013812",
+              "term": "Therapeutics"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "35 participants will be randomly allocated to the IOPT group. They will attend 10 groups of IOPT every two weeks and they will work 10 Intentions. The groups will be conducted by clinicians or psychotherapists specialized in IOPT. IOPT represents a group treatment developed by Franz Ruppert 20 years ago. It is an effective therapeutic intervention, offering access to less conscious aspects of our psyche, with the help of other persons, named 'representatives.' The method is based on the theory of multigenerational psychotraumatology developed by Ruppert. Although it is very often and widely used all over the world, it has not previously been the subject of randomized controlled trials (RCT), and therefore, its potential efficacy is unknown. In the current study, we want to test this new intervention model on autoimmune thyroiditis.",
+              "interventionNames": [
+                "Behavioral: Identity Oriented Psychotrauma Therapy"
+              ],
+              "label": "Identity Oriented Psychotrauma Therapy (IOPT)",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "35 participants will be randomized to this group. They will continue only the medical treatment for Hashimoto their doctor prescribed to them.",
+              "interventionNames": [
+                "Drug: Treatment as Usual"
+              ],
+              "label": "Treatment as Usual",
+              "type": "ACTIVE_COMPARATOR"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Identity Oriented Psychotrauma Therapy (IOPT)"
+              ],
+              "description": "The method will be presented to the group at the beginning of the first group session. Then every person from the experimental group will set an Intention connected to the emotional or physical difficulties they experience in their lives. Then the person will choose for every word in their Intention, a representative from the support group who will resonate with that word. The focus of every Intention should be the current illness and the traumatic or stressful events which happened before the disease onset.",
+              "name": "Identity Oriented Psychotrauma Therapy",
+              "otherNames": [
+                "Intention Method"
+              ],
+              "type": "BEHAVIORAL"
+            },
+            {
+              "armGroupLabels": [
+                "Treatment as Usual"
+              ],
+              "description": "The participants randomised in this group will continue taking the classical treatment prescribed for Hashimoto (Levothyroxine)",
+              "name": "Treatment as Usual",
+              "type": "DRUG"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Autoimmune Thyroiditis"
+          ],
+          "keywords": [
+            "Hashimoto",
+            "Autoimmune thyroiditis",
+            "Identity Oriented Psychotrauma Therapy",
+            "Intention Method"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Bucharest",
+              "country": "Romania",
+              "facility": "University of Bucharest",
+              "geoPoint": {
+                "lat": 44.43225,
+                "lon": 26.10626
+              }
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The purpose of this study is to evaluate whether Identity Oriented Psychotrauma Therapy (IOPT) is effective in decreasing the level of autoantibodies of patients with Hashimoto thyroiditis. The investigators hypothesize that working Constellations of Intention will have a positive impact on the biological level, by decreasing the level of autoantibodies, antithyroglobulin antibody (anti-Tg) and anti-thyroid peroxidase antibody (anti-TPO), which are the main antibodies detected in chronic autoimmune thyroiditis. Secondly, it will have an impact on the psyche by decreasing the level of dissociation, alexithymia, anger, and by increasing the quality of life and than those in the control group.",
+          "detailedDescription": "Hashimoto thyroiditis is an autoimmune disease that leads to chronic inflammation of the thyroid gland. This is considered the most common autoimmune disorder, and the most common endocrine disorder. Psychological trauma has been suggested as a possible factor in the pathogenesis and development of autoimmune diseases. Although a diversity of psychotherapeutic interventions have been studied in adults with autoimmune diseases, there is a lack of psychological research and randomized controlled trials in the field of the Hashimoto disease. This study is designed to be a clinical trial with two arms: one experimental and one control group. The experimental group receives IOPT and the control group is a waiting list. 70 out-patients with Hashimoto disease will be randomly assigned to the two groups. The investigators hypothesize that the therapeutic gains will be more significant in the experimental condition than in the control groups at the completion of the therapy and that this will be maintained at the 3-month follow-up.The IOPT group undergoes 10 group modules of IOPT once at two weeks.The sessions will be conducted by clinicians or psychotherapists specialized in IOPT. If therapy is efficient on the autoimmune disorder, participants in the control group will be reallocated to IOPT after the experimental treatment will come to an end."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "SINGLE",
+              "maskingDescription": "During the study an endocrinologist who will be blinded to randomization groups will evaluate the biological markers of the participants at baseline, posttreatment and follow-up.",
+              "whoMasked": [
+                "OUTCOMES_ASSESSOR"
+              ]
+            },
+            "primaryPurpose": "SUPPORTIVE_CARE"
+          },
+          "enrollmentInfo": {
+            "count": 70,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* aged 18-60 years;\n* confirmed autoimmune thyroiditis diagnosis\n* at least one biological marker Anti-thyroid peroxidase (anti-TPO) antibodies or thyroglobulin antibodies (TgAb) exceeds the reference range\n\nExclusion Criteria:\n\n* the presence of psychotic symptoms\n* currently receiving another form of psychological treatment;\n* under psychotropic medication;\n* neurodevelopmental disorders (intellectual disability, communication disorders, autism spectrum disorders, ADHD);\n* neurocognitive disorders;\n* substance abuse;\n* serious legal or health issues that would prevent from regularly attending\n* patients with autoimmune thyroiditis with biological markers within the reference range",
+          "healthyVolunteers": false,
+          "maximumAge": "60 Years",
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Identity Oriented Psychotrauma Therapy on Hashimoto in Adults",
+          "nctId": "NCT04600349",
+          "officialTitle": "The Influence of Identity Oriented Psychotrauma Therapy on Hashimoto Disease Activity: a Randomized Controlled Trial",
+          "orgStudyIdInfo": {
+            "id": "39b/27.02.2019"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "University of Bucharest"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Measurement of anti-thyroid peroxidase in adults with Hashimoto at baseline, post-treatment and follow-up",
+              "measure": "Anti-thyroid peroxidase levels (anti-TPO)",
+              "timeFrame": "baseline to 8 months"
+            },
+            {
+              "description": "Measurement of thyroglobulin antibodies levels in adults with Hashimoto at baseline, post-treatment and follow-up",
+              "measure": "Thyroglobulin levels (TgAb)",
+              "timeFrame": "baseline to 8 months"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Perceptions about the levels of dissociation will be measured at baseline, post-treatment and follow-up. The instrument is a self-assessment questionnaire used to screen for dissociative symptoms. It consists of 28 items that assess the frequency and severity of a wide range of dissociative experiences using an eleven-point visual analog scale (0%-100%).",
+              "measure": "Dissociative Experiences Scale",
+              "timeFrame": "baseline to 8 months"
+            },
+            {
+              "description": "Perceptions about alexithymia will be measured at baseline, post-treatment and follow-up.Toronto Alexithymia Scale is a 20 item self-report instrument, with each item rated on a 5-point Likert scale ranging from 1 (Strongly Disagree) to 5 (Strongly Agree).",
+              "measure": "Toronto Alexithymia Scale",
+              "timeFrame": "baseline to 8 months"
+            },
+            {
+              "description": "Perceptions about anger expression in adults with Hashimoto will be measured at baseline, post-treatment and followup. The inventory assesses a various area of anger and the traits of experiencing anger. Participants are asked to respond to 44 items using a 4-point scale (\"Not at all\" to \"Almost always\").",
+              "measure": "State-Trait Anger Expression Inventory",
+              "timeFrame": "baseline to 8 months"
+            },
+            {
+              "description": "Perceptions about depression, anxiety and stress levels will be measured at baseline, post-treatment and follow-up.The instrument is a set of three self-report scales designed to measure the emotional states of depression, anxiety, and stress. Each of the three scales contains seven items, ranging from 0 to 21 points, with high scores meaning a worse outcome.",
+              "measure": "The Depression Anxiety Stress Scales",
+              "timeFrame": "baseline to 8 months"
+            },
+            {
+              "description": "Perceptions about the quality of life will be measured at baseline, post-treatment and follow-up.The instrument is a 26-item self-report tapping into the following broad domains: physical health, psychological health, social relationships, and environment. There are two items that are examined separately: question 1 asks about an individual's overall perception of quality of life and question 2 asks about an individual's overall perception of their health. Domain scores are scaled in a positive direction (i.e. higher scores denote higher quality of life). The mean score of items within each domain is used to calculate the domain score.",
+              "measure": "The World Health Organization Quality of Life",
+              "timeFrame": "baseline to 8 months"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false,
+          "oversightHasDmc": true
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Macarenco MM, Opariuc-Dan C, Georgescu T. The influence of identity-oriented psychotrauma therapy on Hashimoto disease activity: a randomised controlled trial. Eur J Psychotraumatol. 2025 Dec;16(1):2520636. doi: 10.1080/20008066.2025.2520636. Epub 2025 Jun 26.",
+              "pmid": "40568843",
+              "type": "DERIVED"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "University of Bucharest"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "University of Bucharest",
+            "investigatorFullName": "Maria Magdalena Macarenco",
+            "investigatorTitle": "BA",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2021-03-01",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2021-04-23",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2021-04-22",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2020-12-30",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2020-02-01",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2021-04",
+          "studyFirstPostDateStruct": {
+            "date": "2020-10-23",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2020-10-19",
+          "studyFirstSubmitQcDate": "2020-10-19"
+        }
+      }
+    }
+  ],
+  "totalCount": 393
+}

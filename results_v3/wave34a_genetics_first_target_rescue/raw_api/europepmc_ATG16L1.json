@@ -1,0 +1,127 @@
+{
+  "error": "",
+  "payload": {
+    "hitCount": 2959,
+    "nextCursorMark": "AoIIQPbgzSg1NDEyNTY4NA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(ATG16L1) AND (\"autoimmune\" OR \"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR psoriasis)&cursorMark=AoIIQPbgzSg1NDEyNTY4NA==&resultType=lite&pageSize=3&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 3,
+      "queryString": "(ATG16L1) AND (\"autoimmune\" OR \"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR psoriasis)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Sipos F, M\u0171zes G.",
+          "citedByCount": 0,
+          "doi": "10.3390/medsci13040310",
+          "firstIndexDate": "2025-12-24",
+          "firstPublicationDate": "2025-12-08",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12734653"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41440542",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "4",
+          "journalIssn": "2076-3271",
+          "journalTitle": "Med Sci (Basel)",
+          "journalVolume": "13",
+          "pageInfo": "310",
+          "pmcid": "PMC12734653",
+          "pmid": "41440542",
+          "pubType": "review-article; review; journal article",
+          "pubYear": "2025",
+          "source": "MED",
+          "title": "Emerging Insights into the Interplay Between PANoptosis and Autophagy in Immune Regulation and Immune-Mediated Inflammatory Diseases."
+        },
+        {
+          "authorString": "Wu Y, Li X, Jin Y, Mao F, Zhang L.",
+          "citedByCount": 0,
+          "doi": "10.3389/fimmu.2026.1753611",
+          "firstIndexDate": "2026-03-10",
+          "firstPublicationDate": "2026-02-19",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12960517"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "N",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41798919",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalIssn": "1664-3224",
+          "journalTitle": "Front Immunol",
+          "journalVolume": "17",
+          "pageInfo": "1753611",
+          "pmcid": "PMC12960517",
+          "pmid": "41798919",
+          "pubType": "review-article; review; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Exosomal non-coding RNAs in autoimmune diseases: molecular mechanisms and potential applications."
+        },
+        {
+          "authorString": "Nunez SG, Rabelo SP, Subotic N, Caruso JW, Knezevic NN.",
+          "citedByCount": 5,
+          "doi": "10.3390/ijms26209994",
+          "firstIndexDate": "2025-10-29",
+          "firstPublicationDate": "2025-10-14",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12563903"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41155288",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "20",
+          "journalIssn": "1422-0067",
+          "journalTitle": "Int J Mol Sci",
+          "journalVolume": "26",
+          "pageInfo": "9994",
+          "pmcid": "PMC12563903",
+          "pmid": "41155288",
+          "pubType": "review-article; review; journal article",
+          "pubYear": "2025",
+          "source": "MED",
+          "title": "Chronic Stress and Autoimmunity: The Role of HPA Axis and Cortisol Dysregulation."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "status": "ok",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28ATG16L1%29+AND+%28%22autoimmune%22+OR+%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+psoriasis%29&format=json&pageSize=3&resultType=lite"
+}

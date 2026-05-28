@@ -1,0 +1,208 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "value": "Binds and deliver cytosolic copper to the copper ATPase proteins. May be important in cellular antioxidant defense"
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000000D843"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00280",
+              "source": "PROSITE-ProRule"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "31283225",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5T7L",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:23378"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:23378",
+            "name": "Cu cation"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 12
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 12
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00280",
+              "source": "PROSITE-ProRule"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "31283225",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5T7L",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:23378"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:23378",
+            "name": "Cu cation"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 15
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 15
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:798",
+                "source": "HGNC"
+              }
+            ],
+            "value": "ATOX1"
+          },
+          "synonyms": [
+            {
+              "value": "HAH1"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0143",
+          "name": "Chaperone"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0186",
+          "name": "Copper"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0187",
+          "name": "Copper transport"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0406",
+          "name": "Ion transport"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0479",
+          "name": "Metal-binding"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0813",
+          "name": "Transport"
+        }
+      ],
+      "primaryAccession": "O00244",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Metal transport protein ATX1"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Copper transport protein ATOX1"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "0B364B1BD1279314",
+        "length": 68,
+        "md5": "34F221F64BE3395AA958786B84DFC0DA",
+        "molWeight": 7402,
+        "value": "MPKHEFSVDMTCGGCAEAVSRVLNKLGGVKYDIDLPNKKVCIESEHSMDTLLATLKKTGKTVSYLGLE"
+      },
+      "uniProtkbId": "ATOX1_HUMAN"
+    }
+  ]
+}

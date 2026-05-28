@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr1",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000160712.12",
+        "geneSymbol": "IL6R",
+        "geneSymbolUpper": "IL6R",
+        "nes": -0.123849,
+        "ontologyId": "UBERON:0004264",
+        "pValue": 5.28629e-05,
+        "pos": 154310773,
+        "snpId": "rs7521543",
+        "snpIdUpper": "RS7521543",
+        "tissueSiteDetailId": "Skin_Sun_Exposed_Lower_leg",
+        "variantId": "chr1_154310773_A_T_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 16,
+      "page": 0,
+      "totalNumberOfItems": 16
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000160712.12&tissueSiteDetailId=Skin_Sun_Exposed_Lower_leg&datasetId=gtex_v8&itemsPerPage=1"
+}

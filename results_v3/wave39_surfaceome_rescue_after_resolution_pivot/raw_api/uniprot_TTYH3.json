@@ -1,0 +1,493 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "Q6P5F7",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15010458",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Calcium-independent, swelling-dependent volume-regulated anion channel (VRAC-swell) which plays a pivotal role in the process of regulatory volume decrease (RVD) in the brain through the efflux of anions like chloride and organic osmolytes like glutamate (By similarity). Probable large-conductance Ca(2+)-activated chloride channel (PubMed:15010458)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15010458",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "34385445",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000255"
+                  }
+                ],
+                "id": "SL-9909",
+                "value": "Multi-pass membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000020E9F9"
+      },
+      "features": [
+        {
+          "description": "Extracellular",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "18260827",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 42
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 1
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical; Name=1",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 63
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 43
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "18260827",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 86
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 64
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical; Name=2",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 107
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 87
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Extracellular",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "18260827",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 211
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 108
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical; Name=3",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 232
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 212
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "18260827",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 236
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 233
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical; Name=4",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 257
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 237
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Extracellular",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "18260827",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 386
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 258
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical; Name=5",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 407
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 387
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "18260827",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 523
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 408
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "Q6P5F7",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 110
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 110
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "Q6P5F7",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 113
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 113
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "TTYH3"
+          },
+          "synonyms": [
+            {
+              "value": "KIAA1691"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0106",
+          "name": "Calcium"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-1003",
+          "name": "Cell membrane"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0868",
+          "name": "Chloride"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0869",
+          "name": "Chloride channel"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-1015",
+          "name": "Disulfide bond"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0325",
+          "name": "Glycoprotein"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0407",
+          "name": "Ion channel"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0406",
+          "name": "Ion transport"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0479",
+          "name": "Metal-binding"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0813",
+          "name": "Transport"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0832",
+          "name": "Ubl conjugation"
+        }
+      ],
+      "primaryAccession": "Q9C0H2",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "Q6P5F7",
+                  "source": "UniProtKB"
+                }
+              ],
+              "value": "Volume-regulated anion channel subunit TTYH3"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Protein tweety homolog 3"
+          },
+          "shortNames": [
+            {
+              "value": "hTTY3"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "B398391787BA0301",
+        "length": 523,
+        "md5": "0C60BC4745FC788755DDAD1900522E53",
+        "molWeight": 57545,
+        "value": "MAGVSYAAPWWVSLLHRLPHFDLSWEATSSQFRPEDTDYQQALLLLGAAALACLALDLLFLLFYSFWLCCRRRKSEEHLDADCCCTAWCVIIATLVCSAGIAVGFYGNGETSDGIHRATYSLRHANRTVAGVQDRVWDTAVGLNHTAEPSLQTLERQLAGRPEPLRAVQRLQGLLETLLGYTAAIPFWRNTAVSLEVLAEQVDLYDWYRWLGYLGLLLLDVIICLLVLVGLIRSSKGILVGVCLLGVLALVISWGALGLELAVSVGSSDFCVDPDAYVTKMVEEYSVLSGDILQYYLACSPRAANPFQQKLSGSHKALVEMQDVVAELLRTVPWEQPATKDPLLRVQEVLNGTEVNLQHLTALVDCRSLHLDYVQALTGFCYDGVEGLIYLALFSFVTALMFSSIVCSVPHTWQQKRGPDEDGEEEAAPGPRQAHDSLYRVHMPSLYSCGSSYGSETSIPAAAHTVSNAPVTEYMSQNANFQNPRCENTPLIGRESPPPSYTSSMRAKYLATSQPRPDSSGSH"
+      },
+      "uniProtkbId": "TTYH3_HUMAN"
+    }
+  ]
+}

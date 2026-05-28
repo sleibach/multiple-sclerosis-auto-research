@@ -1,0 +1,1346 @@
+{
+  "results": [
+    {
+      "annotationScore": 3.0,
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "id": "RU363133",
+                  "source": "RuleBase"
+                }
+              ],
+              "value": "Heterodimerizes with IL12B to form the IL-12 cytokine or with EBI3/IL27B to form the IL-35 cytokine. IL-12 is primarily produced by professional antigen-presenting cells (APCs) such as B-cells and dendritic cells (DCs) as well as macrophages and granulocytes and regulates T-cell and natural killer-cell responses, induces the production of interferon-gamma (IFN-gamma), favors the differentiation of T-helper 1 (Th1) cells and is an important link between innate resistance and adaptive immunity. Mechanistically, exerts its biological effects through a receptor composed of IL12R1 and IL12R2 subunits. Binding to the receptor results in the rapid tyrosine phosphorylation of a number of cellular substrates including the JAK family kinases TYK2 and JAK2. In turn, recruited STAT4 gets phosphorylated and translocates to the nucleus where it regulates cytokine/growth factor responsive genes. As part of IL-35, plays essential roles in maintaining the immune homeostasis of the liver microenvironment and functions also as an immune-suppressive cytokine. Mediates biological events through unconventional receptors composed of IL12RB2 and gp130/IL6ST heterodimers or homodimers. Signaling requires the transcription factors STAT1 and STAT4, which form a unique heterodimer that binds to distinct DNA sites"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBUNIT",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "id": "RU363133",
+                  "source": "RuleBase"
+                }
+              ],
+              "value": "Heterodimer with IL12B; disulfide-linked. The heterodimer is known as interleukin IL-12"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBUNIT",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "id": "ARBA00047077",
+                  "source": "ARBA"
+                }
+              ],
+              "value": "Heterodimer with IL12B; disulfide-linked. This heterodimer is known as interleukin IL-12. Heterodimer with EBI3/IL27B; not disulfide-linked. This heterodimer is known as interleukin IL-35. Interacts with NBR1; this interaction promotes IL-12 secretion"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000256",
+                    "id": "ARBA00004613",
+                    "source": "ARBA"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000256",
+                    "id": "RU363133",
+                    "source": "RuleBase"
+                  }
+                ],
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            }
+          ]
+        },
+        {
+          "commentType": "SIMILARITY",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "id": "ARBA00007432",
+                  "source": "ARBA"
+                },
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "id": "RU363133",
+                  "source": "RuleBase"
+                }
+              ],
+              "value": "Belongs to the IL-6 superfamily"
+            }
+          ]
+        }
+      ],
+      "entryAudit": {
+        "entryVersion": 81,
+        "firstPublicDate": "2011-04-05",
+        "lastAnnotationUpdateDate": "2026-01-28",
+        "lastSequenceUpdateDate": "2022-12-14",
+        "sequenceVersion": 2
+      },
+      "entryType": "UniProtKB unreviewed (TrEMBL)",
+      "extraAttributes": {
+        "countByCommentType": {
+          "FUNCTION": 1,
+          "SIMILARITY": 1,
+          "SUBCELLULAR LOCATION": 1,
+          "SUBUNIT": 2
+        },
+        "countByFeatureType": {
+          "Chain": 1,
+          "Signal": 1
+        },
+        "uniParcId": "UPI0002262145"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "RU363133",
+              "source": "RuleBase"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 22
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 1
+            }
+          },
+          "type": "Signal"
+        },
+        {
+          "description": "Interleukin-12 subunit alpha",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "RU363133",
+              "source": "RuleBase"
+            }
+          ],
+          "featureId": "PRO_5036516238",
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 205
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 23
+            }
+          },
+          "type": "Chain"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000256",
+                "id": "RU363133",
+                "source": "RuleBase"
+              },
+              {
+                "evidenceCode": "ECO:0000313",
+                "id": "ENSP00000419046.2",
+                "source": "Ensembl"
+              }
+            ],
+            "value": "IL12A"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Molecular function",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00022514",
+              "source": "ARBA"
+            },
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "RU363133",
+              "source": "RuleBase"
+            }
+          ],
+          "id": "KW-0202",
+          "name": "Cytokine"
+        },
+        {
+          "category": "PTM",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00023157",
+              "source": "ARBA"
+            },
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "RU363133",
+              "source": "RuleBase"
+            }
+          ],
+          "id": "KW-1015",
+          "name": "Disulfide bond"
+        },
+        {
+          "category": "PTM",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00023180",
+              "source": "ARBA"
+            }
+          ],
+          "id": "KW-0325",
+          "name": "Glycoprotein"
+        },
+        {
+          "category": "Molecular function",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00023030",
+              "source": "ARBA"
+            },
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "RU363133",
+              "source": "RuleBase"
+            }
+          ],
+          "id": "KW-0339",
+          "name": "Growth factor"
+        },
+        {
+          "category": "Technical term",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0007829",
+              "id": "E9PGR3",
+              "source": "PeptideAtlas"
+            }
+          ],
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "UP000005640",
+              "source": "Proteomes"
+            }
+          ],
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Cellular component",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00022525",
+              "source": "ARBA"
+            },
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "RU363133",
+              "source": "RuleBase"
+            }
+          ],
+          "id": "KW-0964",
+          "name": "Secreted"
+        },
+        {
+          "category": "Domain",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00022729",
+              "source": "ARBA"
+            },
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "RU363133",
+              "source": "RuleBase"
+            }
+          ],
+          "id": "KW-0732",
+          "name": "Signal"
+        }
+      ],
+      "organism": {
+        "commonName": "Human",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000313",
+            "id": "ENSP00000419046.2",
+            "source": "Ensembl"
+          },
+          {
+            "evidenceCode": "ECO:0000313",
+            "id": "UP000005640",
+            "source": "Proteomes"
+          }
+        ],
+        "lineage": [
+          "Eukaryota",
+          "Metazoa",
+          "Chordata",
+          "Craniata",
+          "Vertebrata",
+          "Euteleostomi",
+          "Mammalia",
+          "Eutheria",
+          "Euarchontoglires",
+          "Primates",
+          "Haplorrhini",
+          "Catarrhini",
+          "Hominidae",
+          "Homo"
+        ],
+        "scientificName": "Homo sapiens",
+        "taxonId": 9606
+      },
+      "primaryAccession": "E9PGR3",
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000256",
+                "id": "ARBA00014463",
+                "source": "ARBA"
+              },
+              {
+                "evidenceCode": "ECO:0000256",
+                "id": "RU363133",
+                "source": "RuleBase"
+              }
+            ],
+            "value": "Interleukin-12 subunit alpha"
+          },
+          "shortNames": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "id": "RU363133",
+                  "source": "RuleBase"
+                }
+              ],
+              "value": "IL-12A"
+            }
+          ]
+        }
+      },
+      "proteinExistence": "1: Evidence at protein level",
+      "references": [
+        {
+          "citation": {
+            "authoringGroup": [
+              "International Human Genome Sequencing Consortium"
+            ],
+            "authors": [
+              "Lander E.S.",
+              "Linton L.M.",
+              "Birren B.",
+              "Nusbaum C.",
+              "Zody M.C.",
+              "Baldwin J.",
+              "Devon K.",
+              "Dewar K.",
+              "Doyle M.",
+              "FitzHugh W.",
+              "Funke R.",
+              "Gage D.",
+              "Harris K.",
+              "Heaford A.",
+              "Howland J.",
+              "Kann L.",
+              "Lehoczky J.",
+              "LeVine R.",
+              "McEwan P.",
+              "McKernan K.",
+              "Meldrim J.",
+              "Mesirov J.P.",
+              "Miranda C.",
+              "Morris W.",
+              "Naylor J.",
+              "Raymond C.",
+              "Rosetti M.",
+              "Santos R.",
+              "Sheridan A.",
+              "Sougnez C.",
+              "Stange-Thomann N.",
+              "Stojanovic N.",
+              "Subramanian A.",
+              "Wyman D.",
+              "Rogers J.",
+              "Sulston J.",
+              "Ainscough R.",
+              "Beck S.",
+              "Bentley D.",
+              "Burton J.",
+              "Clee C.",
+              "Carter N.",
+              "Coulson A.",
+              "Deadman R.",
+              "Deloukas P.",
+              "Dunham A.",
+              "Dunham I.",
+              "Durbin R.",
+              "French L.",
+              "Grafham D.",
+              "Gregory S.",
+              "Hubbard T.",
+              "Humphray S.",
+              "Hunt A.",
+              "Jones M.",
+              "Lloyd C.",
+              "McMurray A.",
+              "Matthews L.",
+              "Mercer S.",
+              "Milne S.",
+              "Mullikin J.C.",
+              "Mungall A.",
+              "Plumb R.",
+              "Ross M.",
+              "Shownkeen R.",
+              "Sims S.",
+              "Waterston R.H.",
+              "Wilson R.K.",
+              "Hillier L.W.",
+              "McPherson J.D.",
+              "Marra M.A.",
+              "Mardis E.R.",
+              "Fulton L.A.",
+              "Chinwalla A.T.",
+              "Pepin K.H.",
+              "Gish W.R.",
+              "Chissoe S.L.",
+              "Wendl M.C.",
+              "Delehaunty K.D.",
+              "Miner T.L.",
+              "Delehaunty A.",
+              "Kramer J.B.",
+              "Cook L.L.",
+              "Fulton R.S.",
+              "Johnson D.L.",
+              "Minx P.J.",
+              "Clifton S.W.",
+              "Hawkins T.",
+              "Branscomb E.",
+              "Predki P.",
+              "Richardson P.",
+              "Wenning S.",
+              "Slezak T.",
+              "Doggett N.",
+              "Cheng J.F.",
+              "Olsen A.",
+              "Lucas S.",
+              "Elkin C.",
+              "Uberbacher E.",
+              "Frazier M.",
+              "Gibbs R.A.",
+              "Muzny D.M.",
+              "Scherer S.E.",
+              "Bouck J.B.",
+              "Sodergren E.J.",
+              "Worley K.C.",
+              "Rives C.M.",
+              "Gorrell J.H.",
+              "Metzker M.L.",
+              "Naylor S.L.",
+              "Kucherlapati R.S.",
+              "Nelson D.L.",
+              "Weinstock G.M.",
+              "Sakaki Y.",
+              "Fujiyama A.",
+              "Hattori M.",
+              "Yada T.",
+              "Toyoda A.",
+              "Itoh T.",
+              "Kawagoe C.",
+              "Watanabe H.",
+              "Totoki Y.",
+              "Taylor T.",
+              "Weissenbach J.",
+              "Heilig R.",
+              "Saurin W.",
+              "Artiguenave F.",
+              "Brottier P.",
+              "Bruls T.",
+              "Pelletier E.",
+              "Robert C.",
+              "Wincker P.",
+              "Smith D.R.",
+              "Doucette-Stamm L.",
+              "Rubenfield M.",
+              "Weinstock K.",
+              "Lee H.M.",
+              "Dubois J.",
+              "Rosenthal A.",
+              "Platzer M.",
+              "Nyakatura G.",
+              "Taudien S.",
+              "Rump A.",
+              "Yang H.",
+              "Yu J.",
+              "Wang J.",
+              "Huang G.",
+              "Gu J.",
+              "Hood L.",
+              "Rowen L.",
+              "Madan A.",
+              "Qin S.",
+              "Davis R.W.",
+              "Federspiel N.A.",
+              "Abola A.P.",
+              "Proctor M.J.",
+              "Myers R.M.",
+              "Schmutz J.",
+              "Dickson M.",
+              "Grimwood J.",
+              "Cox D.R.",
+              "Olson M.V.",
+              "Kaul R.",
+              "Raymond C.",
+              "Shimizu N.",
+              "Kawasaki K.",
+              "Minoshima S.",
+              "Evans G.A.",
+              "Athanasiou M.",
+              "Schultz R.",
+              "Roe B.A.",
+              "Chen F.",
+              "Pan H.",
+              "Ramser J.",
+              "Lehrach H.",
+              "Reinhardt R.",
+              "McCombie W.R.",
+              "de la Bastide M.",
+              "Dedhia N.",
+              "Blocker H.",
+              "Hornischer K.",
+              "Nordsiek G.",
+              "Agarwala R.",
+              "Aravind L.",
+              "Bailey J.A.",
+              "Bateman A.",
+              "Batzoglou S.",
+              "Birney E.",
+              "Bork P.",
+              "Brown D.G.",
+              "Burge C.B.",
+              "Cerutti L.",
+              "Chen H.C.",
+              "Church D.",
+              "Clamp M.",
+              "Copley R.R.",
+              "Doerks T.",
+              "Eddy S.R.",
+              "Eichler E.E.",
+              "Furey T.S.",
+              "Galagan J.",
+              "Gilbert J.G.",
+              "Harmon C.",
+              "Hayashizaki Y.",
+              "Haussler D.",
+              "Hermjakob H.",
+              "Hokamp K.",
+              "Jang W.",
+              "Johnson L.S.",
+              "Jones T.A.",
+              "Kasif S.",
+              "Kaspryzk A.",
+              "Kennedy S.",
+              "Kent W.J.",
+              "Kitts P.",
+              "Koonin E.V.",
+              "Korf I.",
+              "Kulp D.",
+              "Lancet D.",
+              "Lowe T.M.",
+              "McLysaght A.",
+              "Mikkelsen T.",
+              "Moran J.V.",
+              "Mulder N.",
+              "Pollara V.J.",
+              "Ponting C.P.",
+              "Schuler G.",
+              "Schultz J.",
+              "Slater G.",
+              "Smit A.F.",
+              "Stupka E.",
+              "Szustakowski J.",
+              "Thierry-Mieg D.",
+              "Thierry-Mieg J.",
+              "Wagner L.",
+              "Wallis J.",
+              "Wheeler R.",
+              "Williams A.",
+              "Wolf Y.I.",
+              "Wolfe K.H.",
+              "Yang S.P.",
+              "Yeh R.F.",
+              "Collins F.",
+              "Guyer M.S.",
+              "Peterson J.",
+              "Felsenfeld A.",
+              "Wetterstrand K.A.",
+              "Patrinos A.",
+              "Morgan M.J.",
+              "de Jong P.",
+              "Catanese J.J.",
+              "Osoegawa K.",
+              "Shizuya H.",
+              "Choi S.",
+              "Chen Y.J."
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "11237011"
+              },
+              {
+                "database": "DOI",
+                "id": "10.1038/35057062"
+              }
+            ],
+            "citationType": "journal article",
+            "firstPage": "860",
+            "id": "11237011",
+            "journal": "Nature",
+            "lastPage": "921",
+            "publicationDate": "2001",
+            "title": "Initial sequencing and analysis of the human genome.",
+            "volume": "409"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ENSP00000419046.2",
+              "source": "Ensembl"
+            },
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "UP000005640",
+              "source": "Proteomes"
+            }
+          ],
+          "referenceNumber": 1,
+          "referencePositions": [
+            "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+          ]
+        },
+        {
+          "citation": {
+            "authoringGroup": [
+              "International Human Genome Sequencing Consortium"
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "15496913"
+              },
+              {
+                "database": "DOI",
+                "id": "10.1038/nature03001"
+              }
+            ],
+            "citationType": "journal article",
+            "firstPage": "931",
+            "id": "15496913",
+            "journal": "Nature",
+            "lastPage": "945",
+            "publicationDate": "2004",
+            "title": "Finishing the euchromatic sequence of the human genome.",
+            "volume": "431"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ENSP00000419046.2",
+              "source": "Ensembl"
+            },
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "UP000005640",
+              "source": "Proteomes"
+            }
+          ],
+          "referenceNumber": 2,
+          "referencePositions": [
+            "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+          ]
+        },
+        {
+          "citation": {
+            "authors": [
+              "Muzny D.M.",
+              "Scherer S.E.",
+              "Kaul R.",
+              "Wang J.",
+              "Yu J.",
+              "Sudbrak R.",
+              "Buhay C.J.",
+              "Chen R.",
+              "Cree A.",
+              "Ding Y.",
+              "Dugan-Rocha S.",
+              "Gill R.",
+              "Gunaratne P.",
+              "Harris R.A.",
+              "Hawes A.C.",
+              "Hernandez J.",
+              "Hodgson A.V.",
+              "Hume J.",
+              "Jackson A.",
+              "Khan Z.M.",
+              "Kovar-Smith C.",
+              "Lewis L.R.",
+              "Lozado R.J.",
+              "Metzker M.L.",
+              "Milosavljevic A.",
+              "Miner G.R.",
+              "Morgan M.B.",
+              "Nazareth L.V.",
+              "Scott G.",
+              "Sodergren E.",
+              "Song X.Z.",
+              "Steffen D.",
+              "Wei S.",
+              "Wheeler D.A.",
+              "Wright M.W.",
+              "Worley K.C.",
+              "Yuan Y.",
+              "Zhang Z.",
+              "Adams C.Q.",
+              "Ansari-Lari M.A.",
+              "Ayele M.",
+              "Brown M.J.",
+              "Chen G.",
+              "Chen Z.",
+              "Clendenning J.",
+              "Clerc-Blankenburg K.P.",
+              "Chen R.",
+              "Chen Z.",
+              "Davis C.",
+              "Delgado O.",
+              "Dinh H.H.",
+              "Dong W.",
+              "Draper H.",
+              "Ernst S.",
+              "Fu G.",
+              "Gonzalez-Garay M.L.",
+              "Garcia D.K.",
+              "Gillett W.",
+              "Gu J.",
+              "Hao B.",
+              "Haugen E.",
+              "Havlak P.",
+              "He X.",
+              "Hennig S.",
+              "Hu S.",
+              "Huang W.",
+              "Jackson L.R.",
+              "Jacob L.S.",
+              "Kelly S.H.",
+              "Kube M.",
+              "Levy R.",
+              "Li Z.",
+              "Liu B.",
+              "Liu J.",
+              "Liu W.",
+              "Lu J.",
+              "Maheshwari M.",
+              "Nguyen B.V.",
+              "Okwuonu G.O.",
+              "Palmeiri A.",
+              "Pasternak S.",
+              "Perez L.M.",
+              "Phelps K.A.",
+              "Plopper F.J.",
+              "Qiang B.",
+              "Raymond C.",
+              "Rodriguez R.",
+              "Saenphimmachak C.",
+              "Santibanez J.",
+              "Shen H.",
+              "Shen Y.",
+              "Subramanian S.",
+              "Tabor P.E.",
+              "Verduzco D.",
+              "Waldron L.",
+              "Wang J.",
+              "Wang J.",
+              "Wang Q.",
+              "Williams G.A.",
+              "Wong G.K.",
+              "Yao Z.",
+              "Zhang J.",
+              "Zhang X.",
+              "Zhao G.",
+              "Zhou J.",
+              "Zhou Y.",
+              "Nelson D.",
+              "Lehrach H.",
+              "Reinhardt R.",
+              "Naylor S.L.",
+              "Yang H.",
+              "Olson M.",
+              "Weinstock G.",
+              "Gibbs R.A."
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "16641997"
+              },
+              {
+                "database": "DOI",
+                "id": "10.1038/nature04728"
+              }
+            ],
+            "citationType": "journal article",
+            "firstPage": "1194",
+            "id": "16641997",
+            "journal": "Nature",
+            "lastPage": "1198",
+            "publicationDate": "2006",
+            "title": "The DNA sequence, annotation and analysis of human chromosome 3.",
+            "volume": "440"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ENSP00000419046.2",
+              "source": "Ensembl"
+            },
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "UP000005640",
+              "source": "Proteomes"
+            }
+          ],
+          "referenceNumber": 3,
+          "referencePositions": [
+            "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+          ]
+        },
+        {
+          "citation": {
+            "authoringGroup": [
+              "Ensembl"
+            ],
+            "citationType": "submission",
+            "id": "CI-20IMDPQG5KTS4",
+            "publicationDate": "AUG-2025",
+            "submissionDatabase": "UniProtKB"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ENSP00000419046.2",
+              "source": "Ensembl"
+            }
+          ],
+          "referenceNumber": 4,
+          "referencePositions": [
+            "IDENTIFICATION"
+          ]
+        },
+        {
+          "citation": {
+            "authoringGroup": [
+              "Ensembl"
+            ],
+            "citationType": "submission",
+            "id": "CI-20IMJ6JJ0DQF4",
+            "publicationDate": "SEP-2025",
+            "submissionDatabase": "UniProtKB"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ENSP00000419046.2",
+              "source": "Ensembl"
+            }
+          ],
+          "referenceNumber": 5,
+          "referencePositions": [
+            "IDENTIFICATION"
+          ]
+        }
+      ],
+      "sequence": {
+        "crc64": "DE8D520E5FAFD210",
+        "length": 205,
+        "md5": "70202A1E68BD63E888BD0DFC3217735D",
+        "molWeight": 23291,
+        "value": "MCPARSLLLVATLVLLDHLSLARNLPVATPDPGMFPCLHHSQNLLRAVSNMLQKARQTLEFYPCTSEEIDHEDITKDKTSTVEACLPLELTKNGSCLASRKTSFMMALCLSSIYEDLKMYQVEFKTMNAKLLMDPKRQIFLDQNMLAVIDELMQALNFNSETVPQKSSLEEPDFYKTKIKLCILLHAFRIRAVTIDRVMSYLNAS"
+      },
+      "uniProtKBCrossReferences": [
+        {
+          "database": "EMBL",
+          "id": "AC010370",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "-"
+            },
+            {
+              "key": "Status",
+              "value": "NOT_ANNOTATED_CDS"
+            },
+            {
+              "key": "MoleculeType",
+              "value": "Genomic_DNA"
+            }
+          ]
+        },
+        {
+          "database": "AlphaFoldDB",
+          "id": "E9PGR3",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "SMR",
+          "id": "E9PGR3",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "MassIVE",
+          "id": "E9PGR3",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "Antibodypedia",
+          "id": "853",
+          "properties": [
+            {
+              "key": "antibodies",
+              "value": "1011 antibodies from 44 providers"
+            }
+          ]
+        },
+        {
+          "database": "Ensembl",
+          "id": "ENST00000466512.1",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "ENSP00000419046.2"
+            },
+            {
+              "key": "GeneId",
+              "value": "ENSG00000168811.8"
+            }
+          ]
+        },
+        {
+          "database": "UCSC",
+          "id": "uc062pmv.1",
+          "properties": [
+            {
+              "key": "OrganismName",
+              "value": "human"
+            }
+          ]
+        },
+        {
+          "database": "HGNC",
+          "id": "HGNC:5969",
+          "properties": [
+            {
+              "key": "GeneName",
+              "value": "IL12A"
+            }
+          ]
+        },
+        {
+          "database": "OpenTargets",
+          "id": "ENSG00000168811",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "VEuPathDB",
+          "id": "HostDB:ENSG00000168811",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "GeneTree",
+          "id": "ENSGT00390000016906",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "HOGENOM",
+          "id": "CLU_108538_0_0_1",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "OrthoDB",
+          "id": "9893660at2759",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "Proteomes",
+          "id": "UP000005640",
+          "properties": [
+            {
+              "key": "Component",
+              "value": "Chromosome 3"
+            }
+          ]
+        },
+        {
+          "database": "Bgee",
+          "id": "ENSG00000168811",
+          "properties": [
+            {
+              "key": "ExpressionPatterns",
+              "value": "Expressed in primordial germ cell in gonad and 98 other cell types or tissues"
+            }
+          ]
+        },
+        {
+          "database": "ExpressionAtlas",
+          "id": "E9PGR3",
+          "properties": [
+            {
+              "key": "ExpressionPatterns",
+              "value": "baseline and differential"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000314",
+              "id": "11023671",
+              "source": "PubMed"
+            }
+          ],
+          "id": "GO:0043514",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "C:interleukin-12 complex"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:AgBase"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0005125",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "F:cytokine activity"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IEA:UniProtKB-KW"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0008083",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "F:growth factor activity"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IEA:UniProtKB-KW"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000353",
+              "id": "11023671",
+              "source": "PubMed"
+            }
+          ],
+          "id": "GO:0042163",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "F:interleukin-12 beta subunit binding"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IPI:AgBase"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0005143",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "F:interleukin-12 receptor binding"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IEA:InterPro"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000353",
+              "id": "11023671",
+              "source": "PubMed"
+            }
+          ],
+          "id": "GO:0046982",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "F:protein heterodimerization activity"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IPI:AgBase"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0006955",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:immune response"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IEA:InterPro"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000315",
+              "id": "11023671",
+              "source": "PubMed"
+            }
+          ],
+          "id": "GO:0032946",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:positive regulation of mononuclear cell proliferation"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IMP:AgBase"
+            }
+          ]
+        },
+        {
+          "database": "FunFam",
+          "id": "1.20.1250.10:FF:000020",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "Interleukin-12 subunit alpha"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "Gene3D",
+          "id": "1.20.1250.10",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "-"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "InterPro",
+          "id": "IPR009079",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "4_helix_cytokine-like_core"
+            }
+          ]
+        },
+        {
+          "database": "InterPro",
+          "id": "IPR050676",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "IL-12"
+            }
+          ]
+        },
+        {
+          "database": "InterPro",
+          "id": "IPR004281",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "IL-12_alpha"
+            }
+          ]
+        },
+        {
+          "database": "PANTHER",
+          "id": "PTHR48485:SF1",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "INTERLEUKIN-12 SUBUNIT ALPHA"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "PANTHER",
+          "id": "PTHR48485",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "INTERLEUKIN-12 SUBUNIT BETA-RELATED"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "Pfam",
+          "id": "PF03039",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "IL12"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "SUPFAM",
+          "id": "SSF47266",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "4-helical cytokines"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        }
+      ],
+      "uniProtkbId": "E9PGR3_HUMAN"
+    }
+  ]
+}

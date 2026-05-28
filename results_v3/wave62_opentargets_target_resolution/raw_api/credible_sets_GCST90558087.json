@@ -1,0 +1,47 @@
+{
+  "data": {
+    "credibleSets": {
+      "count": 1,
+      "rows": [
+        {
+          "beta": 0.831265,
+          "chromosome": "12",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.6284986138343811,
+                "target": {
+                  "approvedName": "beta-1,4-N-acetyl-galactosaminyltransferase 3",
+                  "approvedSymbol": "B4GALNT3",
+                  "id": "ENSG00000139044"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -9,
+          "pValueMantissa": 3.5999999046325684,
+          "position": 516855,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.140864,
+          "studyId": "GCST90558087",
+          "studyLocusId": "fbb84c54161b78705b09179348e4d5fb",
+          "studyType": "gwas",
+          "variant": {
+            "id": "12_516855_G_A",
+            "rsIds": [
+              "rs1376101172"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

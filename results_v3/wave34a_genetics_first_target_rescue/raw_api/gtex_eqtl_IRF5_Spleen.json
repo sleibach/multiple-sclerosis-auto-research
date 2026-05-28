@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr7",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000128604.19",
+        "geneSymbol": "IRF5",
+        "geneSymbolUpper": "IRF5",
+        "nes": 0.206025,
+        "ontologyId": "UBERON:0002106",
+        "pValue": 2.91563e-05,
+        "pos": 128922524,
+        "snpId": "rs4731530",
+        "snpIdUpper": "RS4731530",
+        "tissueSiteDetailId": "Spleen",
+        "variantId": "chr7_128922524_T_C_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 136,
+      "page": 0,
+      "totalNumberOfItems": 136
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000128604.19&tissueSiteDetailId=Spleen&datasetId=gtex_v8&itemsPerPage=1"
+}

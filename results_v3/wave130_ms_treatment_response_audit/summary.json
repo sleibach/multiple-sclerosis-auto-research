@@ -1,0 +1,32 @@
+{
+  "branch_call": "NO_MS_TREATMENT_RESPONSE_REPLICATION",
+  "datasets": [
+    {
+      "accession": "GSE235357",
+      "n_ms_samples": 20,
+      "n_nonresponders": 5,
+      "n_responders": 5,
+      "n_samples": 30,
+      "therapy": "dimethyl_fumarate"
+    },
+    {
+      "accession": "GSE250453",
+      "n_ms_samples": 20,
+      "n_nonresponders": 5,
+      "n_responders": 5,
+      "n_samples": 20,
+      "therapy": "fingolimod"
+    }
+  ],
+  "inputs": {
+    "gse235_expression": "data/raw_v3/wave96_ms_treatment/GSE235357_normalized_annotated.csv.gz",
+    "gse235_series_matrix": "data/raw_v3/wave96_ms_treatment/GSE235357_series_matrix.txt.gz",
+    "gse250_expression": "data/raw_v3/wave96_ms_treatment/GSE250453_fingo_RNAseq_all.tsv.gz",
+    "gse250_series_matrix": "data/raw_v3/wave96_ms_treatment/GSE250453_series_matrix.txt.gz",
+    "wave129": "results_v3/wave129_response_stratification_salvage/response_stratification_salvage_decisions.tsv"
+  },
+  "n_feature_tests": 12,
+  "n_module_features_cross_ms_reproduced": 0,
+  "n_primary_features_cross_ms_reproduced": 0,
+  "random_seed": 20260527
+}

@@ -1,0 +1,931 @@
+{
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D011711",
+              "term": "Pyoderma"
+            },
+            {
+              "id": "D012871",
+              "term": "Skin Diseases"
+            },
+            {
+              "id": "D017437",
+              "term": "Skin and Connective Tissue Diseases"
+            },
+            {
+              "id": "D017445",
+              "term": "Skin Diseases, Vascular"
+            },
+            {
+              "id": "D012883",
+              "term": "Skin Ulcer"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D017511",
+              "term": "Pyoderma Gangrenosum"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "meshes": [
+            {
+              "id": "C000712973",
+              "term": "spesolimab"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "submissionTracking": {
+            "firstMcpInfo": {
+              "postDateStruct": {
+                "date": "2026-02-13",
+                "type": "ACTUAL"
+              }
+            }
+          },
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "documentSection": {
+        "largeDocumentModule": {
+          "largeDocs": [
+            {
+              "date": "2024-02-27",
+              "filename": "Prot_SAP_001.pdf",
+              "hasIcf": false,
+              "hasProtocol": true,
+              "hasSap": true,
+              "label": "Study Protocol and Statistical Analysis Plan",
+              "size": 5199034,
+              "typeAbbrev": "Prot_SAP",
+              "uploadDate": "2026-01-14T14:07"
+            },
+            {
+              "date": "2024-08-06",
+              "filename": "ICF_000.pdf",
+              "hasIcf": true,
+              "hasProtocol": false,
+              "hasSap": false,
+              "label": "Informed Consent Form",
+              "size": 385910,
+              "typeAbbrev": "ICF",
+              "uploadDate": "2025-09-05T11:49"
+            }
+          ]
+        }
+      },
+      "hasResults": true,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "900 mg of spesolimab intravenously (IV)",
+              "interventionNames": [
+                "Drug: Spesolimab"
+              ],
+              "label": "Spesolimab",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Spesolimab"
+              ],
+              "description": "900 mg of spesolimab intravenously (IV) administered every 4 weeks at Visits 2, 3, 4, 5, 6, 7, 8, 9.\n\nIf at visit 4 dosing schedule changes to every 3 weeks, Spesolimab will be administered at Visits 2, 3, 4, 5, 6, 8, 9, 10 and 11.",
+              "name": "Spesolimab",
+              "type": "DRUG"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Pyoderma Gangrenosum"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "New York",
+              "country": "United States",
+              "facility": "Icahn School of Medicine at Mount Sinai",
+              "geoPoint": {
+                "lat": 40.71427,
+                "lon": -74.00597
+              },
+              "state": "New York",
+              "zip": "10029"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Icahn School of Medicine at Mount Sinai",
+              "name": "Saakshi Khattri, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The purpose of this research study is to assess the feasibility of using spesolimab in participants with moderate to severe pyoderma gangrenosum. Pyoderma gangrenosum is a rare, inflammatory, autoimmune condition which results in ulceration of skin. The study will also investigate the body's immune response to the spesolimab (when the body detects and defends itself against substances that appear unknown and harmful).",
+          "detailedDescription": "To date, there is no gold standard for treatment of PG. Patients with pyoderma gangrenosum suffer from severe pain and poor quality of life due to frequent dressing changes and disfiguring lesions. More importantly, rapidly progressing ulcers present an important risk for infection, morbidity, and mortality for patients. Spesolimab is humanized antagonistic monoclonal IgG1 antibody that blocks human IL36R signalling and subsequent downstream pro-inflammatory pathways. The IL-36 receptor blocker was recently approved for generalized pustular psoriasis (GPP). The research team hypothesize that targeting IL-36 in refractory, ulcerative postoperative PG may result in regression and resolution of a patient's lesions.\n\nThere are, at minimum, a total of 14 or 15 visits which will include physical exams, blood testing and infectious disease testing, completing questionnaires, and photographs and assessment of skin affected by PG. Spesolimab will be administered via a 90-minute infusion every 3 or 4 weeks (depending on response at Visit 4) at 8 or 9 Visits during the study."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "NA",
+            "interventionModel": "SINGLE_GROUP",
+            "interventionModelDescription": "Open-label study",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 5,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE2"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female subjects \u2265 18 years of age at the time of signing the informed consent document\n* Subject is able to understand and voluntarily sign an informed consent document prior to participation in any study assessments or procedures\n* Subject is able to adhere to the study visit schedule and other protocol requirements.\n* Subject has clinically diagnosed ulcerative PG with PARACELSUS score greater than or equal to 10\n* Subject has at least one clinically measurable ulcerative PG lesion on body that has failed to respond to at least one prior therapy such as (but not limited to) topical corticosteroids, intralesional triamcinolone, prednisone, cyclosporine, IL-23 inhibitor, IL-17 inhibitors, IL-1 inhibitors, or TNF-\u03b1- blocker therapy\n* Subject has moderate to severe PG as determined by a GPG severity score of \u22653\n* Subject is judged to be in otherwise good overall health as judged by the investigator, based on medical history, limited physical examination, and laboratory testing. (NOTE: The definition of good health means a subject does not have uncontrolled significant co-morbid conditions).\n* Females of childbearing potential (FCBP) must have a negative pregnancy test at Screening and Baseline. While on investigational product and for at least 28 days after taking the last dose of investigational product, FCBP who engage in activity in which conception is possible must use one of the approved contraceptive options described below:\n\n  * Option 1: Any one of the following highly effective contraceptive methods: hormonal contraception (oral, injection, implant, transdermal patch, vaginal ring); intrauterine device (IUD); tubal ligation; or partner's vasectomy.\n  * Or option 2: Male or female condom (latex condom or nonlatex condom NOT made out of natural \\[animal\\] membrane \\[for example, polyurethane\\]). PLUS one additional barrier method:\n\n    * (a) diaphragm with spermicide\n    * (b) cervical cap with spermicide;\n    * or (c) contraceptive sponge with spermicide.\n\nThe female subject's chosen form of contraception must be effective by the time the female subject presents for her Baseline visit (for example, hormonal contraception should be initiated at least 28 days before first spesolimab infusion at Baseline).\n\nExclusion Criteria:\n\n* Subject has a persistent or recurring bacterial infection requiring systemic antibiotics, or clinically significant viral or fungal or helminth parasitic infections, within 2 weeks of the Screening Visit. Any treatment of such infections must have been completed at least 2 weeks prior to the Screening Visit and no new/recurrent infections should have occurred prior to the Baseline Visit.\n* Subject with current or history of positive human immunodeficiency virus (HIV), or congenital or acquired immunodeficiency (i.e. Common Variable Immunodeficiency \\[CVID\\]), hepatitis B or C, or active or untreated latent tuberculosis.\n* Subject has clinically significant (as determined by the investigator) renal, hepatic, hematologic, intestinal, endocrine, pulmonary, cardiovascular, neurological, psychiatric, immunologic, or other major uncontrolled diseases that will affect the health of the subject during the study, or interfere with the interpretation of study results. Uncontrolled disease defined as hospitalization within 1 month of screening visit or determined by specialist (rheumatologist, gastroenterologist) consulted prior to study start.\n* Subject has presence of acute demyelinating neuropathy\n* Major surgery (according to the investigator's assessment) performed within 12 weeks prior to receiving first dose of spesolimab or planned during trial such as hip replacement, aneurysm removal, stomach ligation, or otherwise determined by investigator\n* Subject has a suspected or active lymphoproliferative disorder or malignancy\n* Subject was treated previously with spesolimab or another IL-36R inhibitor biologic\n* Any documented active or suspected malignancy or history of malignancy within 5 years prior to screening, except appropriately treatment basal or squamous cell carcinoma of the skin or in situ carcinoma of uterine cervix.\n* Subject has received a live attenuated vaccine \u2264 30 days prior to study initiation.\n* History of adverse systemic or allergic reactions to any component of the study drug.\n* Female subject who is pregnant or breast feeding",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Spesolimab in Pyoderma Gangrenosum",
+          "nctId": "NCT06092216",
+          "officialTitle": "Characterizing Pyoderma Gangrenosum Lesion Regression and Remission by IL-36 Receptor Targeting With Spesolimab",
+          "orgStudyIdInfo": {
+            "id": "STUDY-23-00611"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Icahn School of Medicine at Mount Sinai"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "description": "Data will be analyzed as aggregated data.",
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Change in GPG severity score at week 16 from baseline in target lesion\n\n0\\. Completely clear; evidence of cribriform scarring, re-epithelization and possible residual hyperpigmentation. 0% ulceration apparent, lesion is dry.\n\n1. Almost clear; \\<25% of active ulceration present; \\> 90% granulation tissue present with mild pink, slightly elevated borders. Some evidence of re-epithelization. Minimal to no purulent drainage at presentation;\n2. Mild; \\<50% of active ulceration with perceptible border elevation with mild red border. Evidence of granulation tissue without any re-epithelization of skin. Few drops purulence appreciated upon examination.\n3. Moderate; \\<75% active ulceration with marked red, rolled borders and significant purulence. Some evidence of granulation tissue with multiple purulent drops and significant purulence on ulcer bed at presentation\n4. Severe; 100% active ulcer with violaceous, raised rolled borders. Necrotic tissue may be present.",
+              "measure": "Change in Global Pyoderma Gangrenosum (GPG) Severity Score",
+              "timeFrame": "Baseline and Week 16"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "description": "Number of lesions with Complete re-epithelization of PG lesions = GPG Score 0\n\nGPG Score 0 - Completely clear; evidence of cribriform scarring, re-epithelization and possible residual hyperpigmentation. 0% ulceration apparent and lesion is dry",
+              "measure": "Number of Lesions With Complete Re-epithelization of PG Lesions",
+              "timeFrame": "Up to Week 28"
+            },
+            {
+              "description": "Absolute change at Week 28 from baseline in patient-reported pain severity (Pain-VAS).\n\nPatient Pain Visual Analogue Scale (VAS):\n\nPatients will be asked to report pain scores at each visit. Patients will report scores on a scale of 0 to 10.\n\n0 signifies no pain and 10 signifies the worst pain imaginable. Higher scores indicate increased levels of pain.",
+              "measure": "Absolute Change in Patient-reported Pain Severity (Pain-VAS) Score",
+              "timeFrame": "Baseline and at Week 28"
+            },
+            {
+              "description": "Absolute Change at week 28 from baseline in DLQI.\n\nThe DLQI is a validated questionnaire consisting of 10 questions that has been used in many randomized controlled trials in dermatology.\n\nScoring of each question is as follows:\n\nVery much - 3 A lot - 2 A little - 1 Not at all - 0 Not relevant - 0 Question unanswered - 0\n\nThe DLQI is calculated by summing the score of each question with total scale from 0-30. Higher score represents a quality of life that is more impaired.\n\nDefinition of DLQI Scores 0-1 = no effect at all on patient's life 2-5 = small effect on patient's life 6-10 = moderate effect on patient's life 11-20 = very large effect on patient's life 21-30 = extremely large effect on patient's life\n\nA change in DLQI score of at least 4 points is considered clinically important. Such change suggests that there has actually been a meaningful change in that patient's quality of life since the previous measurement of his/her/their DLQI scores.",
+              "measure": "Absolute Change in Dermatology Life Quality Index (DLQI)",
+              "timeFrame": "Baseline and at Week 28"
+            },
+            {
+              "description": "GPG Severity Score Scale:\n\n0\\. Completely clear; evidence of cribriform scarring, re-epithelization and possible residual hyperpigmentation. 0% ulceration apparent, lesion is dry\n\n1. Almost clear; \\<25% of active ulceration present; \\> 90% granulation tissue present with mild pink, slightly elevated borders. Some evidence of re-epithelization. Minimal to no purulent drainage at presentation\n2. Mild; \\<50% of active ulceration with perceptible border elevation with mild red border. Evidence of granulation tissue without any re-epithelization of skin. Few drops purulence appreciated upon exam.\n3. Moderate; \\<75% active ulceration with marked red, rolled borders and significant purulence. Some evidence of granulation tissue with multiple purulent drops and significant purulence on ulcer bed at presentation\n4. Severe; 100% active ulcer with violaceous, raised rolled borders. Necrotic tissue may be present. No evidence of granulation tissue. Extensive purulent drops on ulcer bed",
+              "measure": "Number of Recurrence of PG Lesions (GPG >0) After Achieving Complete Re-epithelialization (GPG Score 0) and Spesolimab Cessation",
+              "timeFrame": "Last dose (Week 26 or 28) up to 16 week post-spesolimab last dose"
+            },
+            {
+              "description": "Lesions with GPG score of 1\n\nScale:\n\n0\\. Completely clear; evidence of cribriform scarring, re-epithelization and possible residual hyperpigmentation. 0% ulceration apparent and lesion is dry\n\n1. Almost clear; \\<25% of active ulceration present; more than 90% granulation tissue present with mild pink, slightly elevated borders. Some evidence of re-epithelization. Minimal to no purulent drainage at presentation\n2. Mild; \\<50% of active ulceration with perceptible border elevation with mild red border. Evidence of granulation tissue without any re-epithelization of skin. Few drops purulence appreciated upon examination.\n3. Moderate; \\<75% active ulceration with marked red, rolled borders and significant purulence. Some evidence of granulation tissue with multiple purulent drops and significant purulence on ulcer bed at presentation\n4. Severe; 100% active ulcer with violaceous, raised rolled borders. Necrotic tissue may be present. No evidence of granulation tissue",
+              "measure": "Number of Lesions With Global Pyoderma Gangrenosum (GPG) Severity Score of 1",
+              "timeFrame": "Last dose (Week 26 or 28) up to 16 week post-spesolimab last dose"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": true,
+          "isUsExport": false,
+          "oversightHasDmc": false
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "INDUSTRY",
+              "name": "Boehringer Ingelheim"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Icahn School of Medicine at Mount Sinai"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Icahn School of Medicine at Mount Sinai",
+            "investigatorFullName": "Saakshi Khattri",
+            "investigatorTitle": "Associate Professor",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2025-01-14",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2026-03-31",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2026-03-14",
+          "overallStatus": "TERMINATED",
+          "primaryCompletionDateStruct": {
+            "date": "2025-01-14",
+            "type": "ACTUAL"
+          },
+          "resultsFirstPostDateStruct": {
+            "date": "2026-03-31",
+            "type": "ACTUAL"
+          },
+          "resultsFirstSubmitDate": "2026-01-27",
+          "resultsFirstSubmitQcDate": "2026-03-14",
+          "startDateStruct": {
+            "date": "2023-09-23",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2026-03",
+          "studyFirstPostDateStruct": {
+            "date": "2023-10-23",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2023-10-16",
+          "studyFirstSubmitQcDate": "2023-10-16",
+          "whyStopped": "The funding sponsor terminated our study and will conduct a multicenter national study in its place."
+        }
+      },
+      "resultsSection": {
+        "adverseEventsModule": {
+          "description": "Includes all participants who did not withdraw",
+          "eventGroups": [
+            {
+              "deathsNumAffected": 0,
+              "deathsNumAtRisk": 3,
+              "description": "900 mg of spesolimab intravenously (IV)\n\nSpesolimab: 900 mg of spesolimab intravenously (IV) administered every 4 weeks at Visits 2, 3, 4, 5, 6, 7, 8, 9.\n\nIf at visit 4 dosing schedule changes to every 3 weeks, Spesolimab will be administered at Visits 2, 3, 4, 5, 6, 8, 9, 10 and 11.",
+              "id": "EG000",
+              "otherNumAffected": 2,
+              "otherNumAtRisk": 3,
+              "seriousNumAffected": 0,
+              "seriousNumAtRisk": 3,
+              "title": "Spesolimab"
+            }
+          ],
+          "frequencyThreshold": "0",
+          "otherEvents": [
+            {
+              "assessmentType": "SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Blood and lymphatic system disorders",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Deep Vein Thrombosis (DVT)"
+            },
+            {
+              "assessmentType": "SYSTEMATIC_ASSESSMENT",
+              "organSystem": "General disorders",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Hyperlipidemia"
+            },
+            {
+              "assessmentType": "SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Skin and subcutaneous tissue disorders",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 2,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Worsening Pyoderma Gangrosum (PG)"
+            },
+            {
+              "assessmentType": "SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Eye disorders",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Corneal Abrasion"
+            },
+            {
+              "assessmentType": "SYSTEMATIC_ASSESSMENT",
+              "organSystem": "General disorders",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Hypertension"
+            },
+            {
+              "assessmentType": "SYSTEMATIC_ASSESSMENT",
+              "organSystem": "Blood and lymphatic system disorders",
+              "stats": [
+                {
+                  "groupId": "EG000",
+                  "numAffected": 1,
+                  "numAtRisk": 3
+                }
+              ],
+              "term": "Intermittent Leg Swelling"
+            }
+          ],
+          "timeFrame": "Last dose (Week 26 or 28), up to 1 weeks post-spesolimab last dose"
+        },
+        "baselineCharacteristicsModule": {
+          "denoms": [
+            {
+              "counts": [
+                {
+                  "groupId": "BG000",
+                  "value": "5"
+                }
+              ],
+              "units": "Participants"
+            }
+          ],
+          "groups": [
+            {
+              "description": "900 mg of spesolimab intravenously (IV)\n\nSpesolimab: 900 mg of spesolimab intravenously (IV) administered every 4 weeks at Visits 2, 3, 4, 5, 6, 7, 8, 9.\n\nIf at visit 4 dosing schedule changes to every 3 weeks, Spesolimab will be administered at Visits 2, 3, 4, 5, 6, 8, 9, 10 and 11.",
+              "id": "BG000",
+              "title": "Spesolimab"
+            }
+          ],
+          "measures": [
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "spread": "12",
+                          "value": "54"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "dispersionType": "STANDARD_DEVIATION",
+              "paramType": "MEAN",
+              "title": "Age, Continuous",
+              "unitOfMeasure": "years"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "4"
+                        }
+                      ],
+                      "title": "Female"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "1"
+                        }
+                      ],
+                      "title": "Male"
+                    }
+                  ]
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "title": "Sex: Female, Male",
+              "unitOfMeasure": "Participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "2"
+                        }
+                      ],
+                      "title": "Hispanic or Latino"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "3"
+                        }
+                      ],
+                      "title": "Not Hispanic or Latino"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "Unknown or Not Reported"
+                    }
+                  ]
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "title": "Ethnicity (NIH/OMB)",
+              "unitOfMeasure": "Participants"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "American Indian or Alaska Native"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "Asian"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "Native Hawaiian or Other Pacific Islander"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "1"
+                        }
+                      ],
+                      "title": "Black or African American"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "4"
+                        }
+                      ],
+                      "title": "White"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "More than one race"
+                    },
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "BG000",
+                          "value": "0"
+                        }
+                      ],
+                      "title": "Unknown or Not Reported"
+                    }
+                  ]
+                }
+              ],
+              "paramType": "COUNT_OF_PARTICIPANTS",
+              "title": "Race (NIH/OMB)",
+              "unitOfMeasure": "Participants"
+            }
+          ]
+        },
+        "moreInfoModule": {
+          "certainAgreement": {
+            "piSponsorEmployee": false,
+            "restrictiveAgreement": false
+          },
+          "pointOfContact": {
+            "email": "giselle.singer@mssm.edu",
+            "organization": "Icahn School of Medicine at Mount Sinai",
+            "phone": "212-241-3288",
+            "title": "Giselle Singer"
+          }
+        },
+        "outcomeMeasuresModule": {
+          "outcomeMeasures": [
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "2",
+                          "value": "-3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Change in GPG severity score at week 16 from baseline in target lesion\n\n0\\. Completely clear; evidence of cribriform scarring, re-epithelization and possible residual hyperpigmentation. 0% ulceration apparent, lesion is dry.\n\n1. Almost clear; \\<25% of active ulceration present; \\> 90% granulation tissue present with mild pink, slightly elevated borders. Some evidence of re-epithelization. Minimal to no purulent drainage at presentation;\n2. Mild; \\<50% of active ulceration with perceptible border elevation with mild red border. Evidence of granulation tissue without any re-epithelization of skin. Few drops purulence appreciated upon examination.\n3. Moderate; \\<75% active ulceration with marked red, rolled borders and significant purulence. Some evidence of granulation tissue with multiple purulent drops and significant purulence on ulcer bed at presentation\n4. Severe; 100% active ulcer with violaceous, raised rolled borders. Necrotic tissue may be present.",
+              "dispersionType": "Standard Deviation",
+              "groups": [
+                {
+                  "description": "900 mg of spesolimab intravenously (IV)\n\nSpesolimab: 900 mg of spesolimab intravenously (IV) administered every 4 weeks at Visits 2, 3, 4, 5, 6, 7, 8, 9.\n\nIf at visit 4 dosing schedule changes to every 3 weeks, Spesolimab will be administered at Visits 2, 3, 4, 5, 6, 8, 9, 10 and 11.",
+                  "id": "OG000",
+                  "title": "Spesolimab"
+                }
+              ],
+              "paramType": "MEAN",
+              "populationDescription": "Includes all participants who did not withdraw",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Baseline and Week 16",
+              "title": "Change in Global Pyoderma Gangrenosum (GPG) Severity Score",
+              "type": "PRIMARY",
+              "unitOfMeasure": "score on a scale"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "3"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denomUnitsSelected": "lesions",
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ],
+                  "units": "Participants"
+                },
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9"
+                    }
+                  ],
+                  "units": "lesions"
+                }
+              ],
+              "description": "Number of lesions with Complete re-epithelization of PG lesions = GPG Score 0\n\nGPG Score 0 - Completely clear; evidence of cribriform scarring, re-epithelization and possible residual hyperpigmentation. 0% ulceration apparent and lesion is dry",
+              "groups": [
+                {
+                  "description": "900 mg of spesolimab intravenously (IV)\n\nSpesolimab: 900 mg of spesolimab intravenously (IV) administered every 4 weeks at Visits 2, 3, 4, 5, 6, 7, 8, 9.\n\nIf at visit 4 dosing schedule changes to every 3 weeks, Spesolimab will be administered at Visits 2, 3, 4, 5, 6, 8, 9, 10 and 11.",
+                  "id": "OG000",
+                  "title": "Spesolimab"
+                }
+              ],
+              "paramType": "NUMBER",
+              "populationDescription": "Includes all participants who did not withdraw",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Up to Week 28",
+              "title": "Number of Lesions With Complete Re-epithelization of PG Lesions",
+              "type": "SECONDARY",
+              "typeUnitsAnalyzed": "lesions",
+              "unitOfMeasure": "lesions"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "4.62",
+                          "value": "-5.33"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Absolute change at Week 28 from baseline in patient-reported pain severity (Pain-VAS).\n\nPatient Pain Visual Analogue Scale (VAS):\n\nPatients will be asked to report pain scores at each visit. Patients will report scores on a scale of 0 to 10.\n\n0 signifies no pain and 10 signifies the worst pain imaginable. Higher scores indicate increased levels of pain.",
+              "dispersionType": "Standard Deviation",
+              "groups": [
+                {
+                  "description": "900 mg of spesolimab intravenously (IV)\n\nSpesolimab: 900 mg of spesolimab intravenously (IV) administered every 4 weeks at Visits 2, 3, 4, 5, 6, 7, 8, 9.\n\nIf at visit 4 dosing schedule changes to every 3 weeks, Spesolimab will be administered at Visits 2, 3, 4, 5, 6, 8, 9, 10 and 11.",
+                  "id": "OG000",
+                  "title": "Spesolimab"
+                }
+              ],
+              "paramType": "MEAN",
+              "populationDescription": "Includes all participants who did not withdraw",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Baseline and at Week 28",
+              "title": "Absolute Change in Patient-reported Pain Severity (Pain-VAS) Score",
+              "type": "SECONDARY",
+              "unitOfMeasure": "absolute change of score on a scale"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "spread": "4.62",
+                          "value": "-7"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ],
+                  "units": "Participants"
+                }
+              ],
+              "description": "Absolute Change at week 28 from baseline in DLQI.\n\nThe DLQI is a validated questionnaire consisting of 10 questions that has been used in many randomized controlled trials in dermatology.\n\nScoring of each question is as follows:\n\nVery much - 3 A lot - 2 A little - 1 Not at all - 0 Not relevant - 0 Question unanswered - 0\n\nThe DLQI is calculated by summing the score of each question with total scale from 0-30. Higher score represents a quality of life that is more impaired.\n\nDefinition of DLQI Scores 0-1 = no effect at all on patient's life 2-5 = small effect on patient's life 6-10 = moderate effect on patient's life 11-20 = very large effect on patient's life 21-30 = extremely large effect on patient's life\n\nA change in DLQI score of at least 4 points is considered clinically important. Such change suggests that there has actually been a meaningful change in that patient's quality of life since the previous measurement of his/her/their DLQI scores.",
+              "dispersionType": "Standard Deviation",
+              "groups": [
+                {
+                  "description": "900 mg of spesolimab intravenously (IV)\n\nSpesolimab: 900 mg of spesolimab intravenously (IV) administered every 4 weeks at Visits 2, 3, 4, 5, 6, 7, 8, 9.\n\nIf at visit 4 dosing schedule changes to every 3 weeks, Spesolimab will be administered at Visits 2, 3, 4, 5, 6, 8, 9, 10 and 11.",
+                  "id": "OG000",
+                  "title": "Spesolimab"
+                }
+              ],
+              "paramType": "MEAN",
+              "populationDescription": "Includes all participants who did not withdraw",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Baseline and at Week 28",
+              "title": "Absolute Change in Dermatology Life Quality Index (DLQI)",
+              "type": "SECONDARY",
+              "unitOfMeasure": "absolute change in score on a scale"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "2"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denomUnitsSelected": "lesions",
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ],
+                  "units": "Participants"
+                },
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9"
+                    }
+                  ],
+                  "units": "lesions"
+                }
+              ],
+              "description": "GPG Severity Score Scale:\n\n0\\. Completely clear; evidence of cribriform scarring, re-epithelization and possible residual hyperpigmentation. 0% ulceration apparent, lesion is dry\n\n1. Almost clear; \\<25% of active ulceration present; \\> 90% granulation tissue present with mild pink, slightly elevated borders. Some evidence of re-epithelization. Minimal to no purulent drainage at presentation\n2. Mild; \\<50% of active ulceration with perceptible border elevation with mild red border. Evidence of granulation tissue without any re-epithelization of skin. Few drops purulence appreciated upon exam.\n3. Moderate; \\<75% active ulceration with marked red, rolled borders and significant purulence. Some evidence of granulation tissue with multiple purulent drops and significant purulence on ulcer bed at presentation\n4. Severe; 100% active ulcer with violaceous, raised rolled borders. Necrotic tissue may be present. No evidence of granulation tissue. Extensive purulent drops on ulcer bed",
+              "groups": [
+                {
+                  "description": "900 mg of spesolimab intravenously (IV)\n\nSpesolimab: 900 mg of spesolimab intravenously (IV) administered every 4 weeks at Visits 2, 3, 4, 5, 6, 7, 8, 9.\n\nIf at visit 4 dosing schedule changes to every 3 weeks, Spesolimab will be administered at Visits 2, 3, 4, 5, 6, 8, 9, 10 and 11.",
+                  "id": "OG000",
+                  "title": "Spesolimab"
+                }
+              ],
+              "paramType": "NUMBER",
+              "populationDescription": "Includes all participants who did not withdraw",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Last dose (Week 26 or 28) up to 16 week post-spesolimab last dose",
+              "title": "Number of Recurrence of PG Lesions (GPG >0) After Achieving Complete Re-epithelialization (GPG Score 0) and Spesolimab Cessation",
+              "type": "SECONDARY",
+              "typeUnitsAnalyzed": "lesions",
+              "unitOfMeasure": "lesions"
+            },
+            {
+              "classes": [
+                {
+                  "categories": [
+                    {
+                      "measurements": [
+                        {
+                          "groupId": "OG000",
+                          "value": "2"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "denomUnitsSelected": "lesions",
+              "denoms": [
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "3"
+                    }
+                  ],
+                  "units": "Participants"
+                },
+                {
+                  "counts": [
+                    {
+                      "groupId": "OG000",
+                      "value": "9"
+                    }
+                  ],
+                  "units": "lesions"
+                }
+              ],
+              "description": "Lesions with GPG score of 1\n\nScale:\n\n0\\. Completely clear; evidence of cribriform scarring, re-epithelization and possible residual hyperpigmentation. 0% ulceration apparent and lesion is dry\n\n1. Almost clear; \\<25% of active ulceration present; more than 90% granulation tissue present with mild pink, slightly elevated borders. Some evidence of re-epithelization. Minimal to no purulent drainage at presentation\n2. Mild; \\<50% of active ulceration with perceptible border elevation with mild red border. Evidence of granulation tissue without any re-epithelization of skin. Few drops purulence appreciated upon examination.\n3. Moderate; \\<75% active ulceration with marked red, rolled borders and significant purulence. Some evidence of granulation tissue with multiple purulent drops and significant purulence on ulcer bed at presentation\n4. Severe; 100% active ulcer with violaceous, raised rolled borders. Necrotic tissue may be present. No evidence of granulation tissue",
+              "groups": [
+                {
+                  "description": "900 mg of spesolimab intravenously (IV)\n\nSpesolimab: 900 mg of spesolimab intravenously (IV) administered every 4 weeks at Visits 2, 3, 4, 5, 6, 7, 8, 9.\n\nIf at visit 4 dosing schedule changes to every 3 weeks, Spesolimab will be administered at Visits 2, 3, 4, 5, 6, 8, 9, 10 and 11.",
+                  "id": "OG000",
+                  "title": "Spesolimab"
+                }
+              ],
+              "paramType": "NUMBER",
+              "populationDescription": "Includes all participants who did not withdraw",
+              "reportingStatus": "POSTED",
+              "timeFrame": "Last dose (Week 26 or 28) up to 16 week post-spesolimab last dose",
+              "title": "Number of Lesions With Global Pyoderma Gangrenosum (GPG) Severity Score of 1",
+              "type": "SECONDARY",
+              "typeUnitsAnalyzed": "lesions",
+              "unitOfMeasure": "lesions"
+            }
+          ]
+        },
+        "participantFlowModule": {
+          "groups": [
+            {
+              "description": "900 mg of spesolimab intravenously (IV)\n\nSpesolimab: 900 mg of spesolimab intravenously (IV) administered every 4 weeks at Visits 2, 3, 4, 5, 6, 7, 8, 9.\n\nIf at visit 4 dosing schedule changes to every 3 weeks, Spesolimab will be administered at Visits 2, 3, 4, 5, 6, 8, 9, 10 and 11.",
+              "id": "FG000",
+              "title": "Spesolimab"
+            }
+          ],
+          "periods": [
+            {
+              "dropWithdraws": [
+                {
+                  "reasons": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "2"
+                    }
+                  ],
+                  "type": "Lack of Efficacy"
+                },
+                {
+                  "reasons": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "2"
+                    }
+                  ],
+                  "type": "Withdrawal by Subject"
+                }
+              ],
+              "milestones": [
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "5"
+                    }
+                  ],
+                  "type": "STARTED"
+                },
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "1"
+                    }
+                  ],
+                  "type": "COMPLETED"
+                },
+                {
+                  "achievements": [
+                    {
+                      "groupId": "FG000",
+                      "numSubjects": "4"
+                    }
+                  ],
+                  "type": "NOT COMPLETED"
+                }
+              ],
+              "title": "Overall Study"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

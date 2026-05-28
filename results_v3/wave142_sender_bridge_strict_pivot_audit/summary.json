@@ -1,0 +1,99 @@
+{
+  "branch_call": "NO_ORTHOGONAL_BRIDGE_PIVOT_AVAILABLE",
+  "inputs": {
+    "bridge_links": "results_v3/wave103_sender_to_myeloid_bridge_scan/sender_to_myeloid_bridge_links.tsv",
+    "bridge_summary": "results_v3/wave103_sender_to_myeloid_bridge_scan/sender_bridge_gene_summary.tsv",
+    "intervention_first": "results_v3/wave103_intervention_first_successor_triage/intervention_first_successor_rank.tsv",
+    "wave140": "results_v3/wave140_target_first_pivot_audit/target_first_pivot_audit.tsv",
+    "wave83": "results_v3/wave83_intervention_class_meta_rank/intervention_class_meta_rank.tsv"
+  },
+  "n_bridge_biology_only": 3,
+  "n_pivot_candidates": 0,
+  "random_seed": 20260527,
+  "top_bridge_biology": [
+    {
+      "call": "BRIDGE_BIOLOGY_ONLY",
+      "failed_gates": "ms_anchor;genetic_or_target_resolution;direct_perturbation_or_model;reachable_modality;not_prior_or_safety_blocked",
+      "gene": "HIF1A",
+      "manual_blocker": "broad hypoxia/metabolic transcription factor; systemic inhibition/activation is not selective and NAMPT/HIF branch previously prior-art blocked",
+      "pass_count": 4
+    },
+    {
+      "call": "BRIDGE_BIOLOGY_ONLY",
+      "failed_gates": "ms_anchor;genetic_or_target_resolution;direct_perturbation_or_model;reachable_modality;not_prior_or_safety_blocked",
+      "gene": "CALR",
+      "manual_blocker": "ER chaperone/DAMP biology is broad; no selective extracellular autoimmune modality and risk of immunogenic stress confounding",
+      "pass_count": 4
+    },
+    {
+      "call": "BRIDGE_BIOLOGY_ONLY",
+      "failed_gates": "case_link_support;ms_anchor;genetic_or_target_resolution;direct_perturbation_or_model;reachable_modality;not_prior_or_safety_blocked",
+      "gene": "ITGAV",
+      "manual_blocker": "integrin/adhesion and TGF-beta activation biology is prior-art crowded with fibrosis/wound-healing safety risk",
+      "pass_count": 3
+    },
+    {
+      "call": "NO_BRIDGE_PIVOT",
+      "failed_gates": "multi_tissue_sender;case_link_support;direct_perturbation_or_model;reachable_modality;not_prior_or_safety_blocked",
+      "gene": "STAT3",
+      "manual_blocker": "broad cytokine transcription node; JAK/STAT prior art and cell-wide pleiotropy block novelty/selectivity",
+      "pass_count": 4
+    },
+    {
+      "call": "NO_BRIDGE_PIVOT",
+      "failed_gates": "cross_disease_up_bridge;multi_tissue_sender;ms_anchor;genetic_or_target_resolution;direct_perturbation_or_model;not_prior_or_safety_blocked",
+      "gene": "CXCL1",
+      "manual_blocker": "neutrophil chemokine redundancy and safety/prior-art block",
+      "pass_count": 3
+    },
+    {
+      "call": "NO_BRIDGE_PIVOT",
+      "failed_gates": "cross_disease_up_bridge;case_link_support;ms_anchor;genetic_or_target_resolution;direct_perturbation_or_model;not_prior_or_safety_blocked",
+      "gene": "CFB",
+      "manual_blocker": "alternative complement factor B route already audited as prior-art/safety blocked",
+      "pass_count": 3
+    },
+    {
+      "call": "NO_BRIDGE_PIVOT",
+      "failed_gates": "cross_disease_up_bridge;case_link_support;ms_anchor;genetic_or_target_resolution;direct_perturbation_or_model;not_prior_or_safety_blocked",
+      "gene": "TIMP1",
+      "manual_blocker": "matrix remodeling inhibitor is context-dependent, not selectively druggable for autoimmune tissue bridges",
+      "pass_count": 3
+    },
+    {
+      "call": "NO_BRIDGE_PIVOT",
+      "failed_gates": "cross_disease_up_bridge;multi_tissue_sender;case_link_support;genetic_or_target_resolution;direct_perturbation_or_model;not_prior_or_safety_blocked",
+      "gene": "CCL20",
+      "manual_blocker": "CCR6/CCL20 chemokine route prior-art and redundancy blocked",
+      "pass_count": 3
+    },
+    {
+      "call": "NO_BRIDGE_PIVOT",
+      "failed_gates": "cross_disease_up_bridge;case_link_support;ms_anchor;genetic_or_target_resolution;direct_perturbation_or_model;reachable_modality",
+      "gene": "CXCL2",
+      "manual_blocker": "",
+      "pass_count": 3
+    },
+    {
+      "call": "NO_BRIDGE_PIVOT",
+      "failed_gates": "multi_tissue_sender;case_link_support;ms_anchor;genetic_or_target_resolution;direct_perturbation_or_model;reachable_modality;not_prior_or_safety_blocked",
+      "gene": "IL1B",
+      "manual_blocker": "existing IL-1 blockade and generic inflammasome/inflammatory prior art block target novelty",
+      "pass_count": 2
+    },
+    {
+      "call": "NO_BRIDGE_PIVOT",
+      "failed_gates": "cross_disease_up_bridge;multi_tissue_sender;case_link_support;ms_anchor;genetic_or_target_resolution;direct_perturbation_or_model;not_prior_or_safety_blocked",
+      "gene": "CD74",
+      "manual_blocker": "MHC-II/MIF antigen-presentation axis prior blocked",
+      "pass_count": 2
+    },
+    {
+      "call": "NO_BRIDGE_PIVOT",
+      "failed_gates": "cross_disease_up_bridge;multi_tissue_sender;ms_anchor;genetic_or_target_resolution;direct_perturbation_or_model;reachable_modality;not_prior_or_safety_blocked",
+      "gene": "C2",
+      "manual_blocker": "classical/lectin complement component; complement host-defense and upstream blockade risk; no target-specific MS genetics",
+      "pass_count": 2
+    }
+  ]
+}

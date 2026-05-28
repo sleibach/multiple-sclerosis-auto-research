@@ -1,0 +1,611 @@
+{
+  "payload": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Prolow-density lipoprotein receptor-related protein 1",
+        "score": 14.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL4630884",
+        "target_components": [
+          {
+            "accession": "Q07954",
+            "component_description": "Prolow-density lipoprotein receptor-related protein 1",
+            "component_id": 19498,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "A2MR",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "A2MR",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Alpha-2-macroglobulin receptor",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "APOER",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Apolipoprotein E receptor",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "APR",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "CD_antigen=CD91",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Low-density lipoprotein receptor-related protein 1 515 kDa subunit",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Low-density lipoprotein receptor-related protein 1 85 kDa subunit",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Low-density lipoprotein receptor-related protein 1 intracellular domain",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "LRP-1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "LRP1",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "LRP-515",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "LRP-85",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "LRPICD",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Prolow-density lipoprotein receptor-related protein 1",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "Q07954",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0005634",
+                "xref_name": "nucleus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005765",
+                "xref_name": "lysosomal membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005769",
+                "xref_name": "early endosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005794",
+                "xref_name": "Golgi apparatus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005815",
+                "xref_name": "microtubule organizing center",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005856",
+                "xref_name": "cytoskeleton",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005905",
+                "xref_name": "clathrin-coated pit",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005925",
+                "xref_name": "focal adhesion",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016323",
+                "xref_name": "basolateral plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030666",
+                "xref_name": "endocytic vesicle membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043235",
+                "xref_name": "receptor complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0098797",
+                "xref_name": "plasma membrane protein complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0001540",
+                "xref_name": "amyloid-beta binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0003723",
+                "xref_name": "RNA binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005044",
+                "xref_name": "scavenger receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005509",
+                "xref_name": "calcium ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0032050",
+                "xref_name": "clathrin heavy chain binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0034185",
+                "xref_name": "apolipoprotein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0038023",
+                "xref_name": "signaling receptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0043395",
+                "xref_name": "heparan sulfate proteoglycan binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0070325",
+                "xref_name": "lipoprotein particle receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001523",
+                "xref_name": "retinoid metabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002265",
+                "xref_name": "astrocyte activation involved in immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006629",
+                "xref_name": "lipid metabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006897",
+                "xref_name": "endocytosis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006898",
+                "xref_name": "receptor-mediated endocytosis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006909",
+                "xref_name": "phagocytosis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007041",
+                "xref_name": "lysosomal transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007167",
+                "xref_name": "enzyme-linked receptor protein signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010629",
+                "xref_name": "negative regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010715",
+                "xref_name": "regulation of extracellular matrix disassembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010875",
+                "xref_name": "positive regulation of cholesterol efflux",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0014912",
+                "xref_name": "negative regulation of smooth muscle cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030178",
+                "xref_name": "negative regulation of Wnt signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031623",
+                "xref_name": "receptor internalization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032370",
+                "xref_name": "positive regulation of lipid transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032374",
+                "xref_name": "regulation of cholesterol transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032429",
+                "xref_name": "regulation of phospholipase A2 activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032956",
+                "xref_name": "regulation of actin cytoskeleton organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035909",
+                "xref_name": "aorta morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042953",
+                "xref_name": "lipoprotein transport",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043277",
+                "xref_name": "apoptotic cell clearance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045056",
+                "xref_name": "transcytosis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045807",
+                "xref_name": "positive regulation of endocytosis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060392",
+                "xref_name": "negative regulation of SMAD protein signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097242",
+                "xref_name": "amyloid-beta clearance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0150093",
+                "xref_name": "amyloid-beta clearance by transcytosis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0150094",
+                "xref_name": "amyloid-beta clearance by cellular catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0150104",
+                "xref_name": "transport across blood-brain barrier",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1900223",
+                "xref_name": "positive regulation of amyloid-beta clearance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1903078",
+                "xref_name": "positive regulation of protein localization to plasma membrane",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1904300",
+                "xref_name": "positive regulation of transcytosis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1904646",
+                "xref_name": "cellular response to amyloid-beta",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905049",
+                "xref_name": "negative regulation of metallopeptidase activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905167",
+                "xref_name": "positive regulation of lysosomal protein catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000587",
+                "xref_name": "negative regulation of platelet-derived growth factor receptor-beta signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:6692",
+                "xref_name": "LRP1",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "Q07954",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR000033",
+                "xref_name": "LDLR_classB_rpt",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000152",
+                "xref_name": "EGF-type_Asp/Asn_hydroxyl_site",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000742",
+                "xref_name": "EGF-like_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001881",
+                "xref_name": "EGF-like_Ca-bd_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002172",
+                "xref_name": "LDrepeatLR_classA_rpt",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR009030",
+                "xref_name": "Growth_fac_rcpt_cys_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR011042",
+                "xref_name": "6-blade_b-propeller_TolB-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR018097",
+                "xref_name": "EGF_Ca-bd_CS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR023415",
+                "xref_name": "LDLR_class-A_CS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR026823",
+                "xref_name": "cEGF",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR032485",
+                "xref_name": "LRP1-like_beta_prop",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036055",
+                "xref_name": "LDL_receptor-like_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR049883",
+                "xref_name": "NOTCH1_EGF-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR051221",
+                "xref_name": "LDLR-related",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR22722",
+                "xref_name": "LOW-DENSITY LIPOPROTEIN RECEPTOR-RELATED PROTEIN 2-RELATED",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR22722:SF15",
+                "xref_name": "LOW-DENSITY LIPOPROTEIN RECEPTOR-RELATED",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "1CR8",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1D2L",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1J8E",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2FYJ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2FYL",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2KNX",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2KNY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1J8E",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF00057",
+                "xref_name": "Ldl_recept_a",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00058",
+                "xref_name": "Ldl_recept_b",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF07645",
+                "xref_name": "EGF_CA",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF12662",
+                "xref_name": "cEGF",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF14670",
+                "xref_name": "FXa_inhibition",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF16472",
+                "xref_name": "DUF5050",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA233",
+                "xref_name": "LDL receptor related protein 1",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "Q07954",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-2168880",
+                "xref_name": "Scavenging of heme from plasma",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-975634",
+                "xref_name": "Retinoid metabolism and transport",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "Q07954",
+                "xref_name": "Prolow-density lipoprotein receptor-related protein 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q2PP12",
+                "xref_name": "Prolow-density lipoprotein receptor-related protein 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q86SW0",
+                "xref_name": "Prolow-density lipoprotein receptor-related protein 1",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q8IVG8",
+                "xref_name": "Prolow-density lipoprotein receptor-related protein 1",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=LRP1"
+}

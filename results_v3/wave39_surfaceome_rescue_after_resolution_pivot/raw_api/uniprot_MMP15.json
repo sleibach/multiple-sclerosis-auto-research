@@ -1,0 +1,426 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9461298",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Endopeptidase that degrades various components of the extracellular matrix. May activate progelatinase A"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-0162",
+                "value": "Membrane"
+              },
+              "orientation": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-9911",
+                "value": "Extracellular side"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-9905",
+                "value": "Single-pass type I membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000003DC75"
+      },
+      "features": [
+        {
+          "description": "Extracellular",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 625
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 132
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 646
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 626
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 669
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 647
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU10095",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 260
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 260
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "in inhibited form",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)",
+            "note": "catalytic"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 111
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 111
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU10095",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)",
+            "note": "catalytic"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 259
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 259
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU10095",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)",
+            "note": "catalytic"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 263
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 263
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU10095",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)",
+            "note": "catalytic"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 269
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 269
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "MMP15"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Ligand",
+          "id": "KW-0106",
+          "name": "Calcium"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0165",
+          "name": "Cleavage on pair of basic residues"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-1015",
+          "name": "Disulfide bond"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0325",
+          "name": "Glycoprotein"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0378",
+          "name": "Hydrolase"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0479",
+          "name": "Metal-binding"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0482",
+          "name": "Metalloprotease"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0645",
+          "name": "Protease"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0677",
+          "name": "Repeat"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0732",
+          "name": "Signal"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0862",
+          "name": "Zinc"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0865",
+          "name": "Zymogen"
+        }
+      ],
+      "primaryAccession": "P51511",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Membrane-type matrix metalloproteinase 2"
+            },
+            "shortNames": [
+              {
+                "value": "MT-MMP 2"
+              },
+              {
+                "value": "MTMMP2"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Membrane-type-2 matrix metalloproteinase"
+            },
+            "shortNames": [
+              {
+                "value": "MT2-MMP"
+              },
+              {
+                "value": "MT2MMP"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "SMCP-2"
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "value": "3.4.24.-"
+            }
+          ],
+          "fullName": {
+            "value": "Matrix metalloproteinase-15"
+          },
+          "shortNames": [
+            {
+              "value": "MMP-15"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "FE875EC0674B297F",
+        "length": 669,
+        "md5": "CF29F7F73A45DC3ED1933DBF51E5C884",
+        "molWeight": 75807,
+        "value": "MGSDPSAPGRPGWTGSLLGDREEAARPRLLPLLLVLLGCLGLGVAAEDAEVHAENWLRLYGYLPQPSRHMSTMRSAQILASALAEMQRFYGIPVTGVLDEETKEWMKRPRCGVPDQFGVRVKANLRRRRKRYALTGRKWNNHHLTFSIQNYTEKLGWYHSMEAVRRAFRVWEQATPLVFQEVPYEDIRLRRQKEADIMVLFASGFHGDSSPFDGTGGFLAHAYFPGPGLGGDTHFDADEPWTFSSTDLHGNNLFLVAVHELGHALGLEHSSNPNAIMAPFYQWKDVDNFKLPEDDLRGIQQLYGTPDGQPQPTQPLPTVTPRRPGRPDHRPPRPPQPPPPGGKPERPPKPGPPVQPRATERPDQYGPNICDGDFDTVAMLRGEMFVFKGRWFWRVRHNRVLDNYPMPIGHFWRGLPGDISAAYERQDGRFVFFKGDRYWLFREANLEPGYPQPLTSYGLGIPYDRIDTAIWWEPTGHTFFFQEDRYWRFNEETQRGDPGYPKPISVWQGIPASPKGAFLSNDAAYTYFYKGTKYWKFDNERLRMEPGYPKSILRDFMGCQEHVEPGPRWPDVARPPFNPHGGAEPGADSAEGDVGDGDGDFGAGVNKDGGSRVVVQMEEVARTVNVVMVLVPLLLLLCVLGLTYALVQMQRKGAPRVLLYCKRSLQEWV"
+      },
+      "uniProtkbId": "MMP15_HUMAN"
+    }
+  ]
+}

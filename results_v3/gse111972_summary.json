@@ -1,0 +1,224 @@
+{
+  "dataset": "GSE111972",
+  "pubmed_id": "30867424",
+  "input": "data/raw_v3/gse111972/GSE111972_norm_data.txt.gz",
+  "random_seed": 20260526,
+  "n_samples": 31,
+  "sample_counts": [
+    {
+      "disease": "MS",
+      "region": "grey_matter",
+      "n": 5
+    },
+    {
+      "disease": "MS",
+      "region": "white_matter",
+      "n": 10
+    },
+    {
+      "disease": "control",
+      "region": "grey_matter",
+      "n": 5
+    },
+    {
+      "disease": "control",
+      "region": "white_matter",
+      "n": 11
+    }
+  ],
+  "n_target_genes_tested": 44,
+  "n_modules_tested": 7,
+  "primary_contrast": "MS_WM_vs_CON_WM",
+  "focus_gene_primary_results": [
+    {
+      "feature": "GPNMB",
+      "delta_log2": 1.4339584334150555,
+      "hedges_g": 1.3559119980959509,
+      "p": 0.00490974255015048,
+      "fdr": 0.19734050413406645,
+      "ols_beta_disease_ms": 1.74392937874374,
+      "ols_p_disease_ms": 0.0005916771537326594
+    },
+    {
+      "feature": "CD44",
+      "delta_log2": 1.3446537852001974,
+      "hedges_g": 0.9541987285932503,
+      "p": 0.03316698314451043,
+      "fdr": 0.20847817976549413,
+      "ols_beta_disease_ms": 1.4375730391223258,
+      "ols_p_disease_ms": 0.02003528874946113
+    },
+    {
+      "feature": "CTSD",
+      "delta_log2": 0.4931363740249406,
+      "hedges_g": 0.9402214690667554,
+      "p": 0.04832001763881175,
+      "fdr": 0.2362311973453019,
+      "ols_beta_disease_ms": 0.3176077987952846,
+      "ols_p_disease_ms": 0.17500702572506066
+    },
+    {
+      "feature": "DDT",
+      "delta_log2": 0.35039286464432706,
+      "hedges_g": 0.7429394313280557,
+      "p": 0.0920548867284566,
+      "fdr": 0.3041381514381535,
+      "ols_beta_disease_ms": 0.60522467088295,
+      "ols_p_disease_ms": 0.13193036836559963
+    },
+    {
+      "feature": "CXCL10",
+      "delta_log2": 1.0833175761966238,
+      "hedges_g": 0.7361200117292042,
+      "p": 0.09617284993826129,
+      "fdr": 0.3041381514381535,
+      "ols_beta_disease_ms": 0.5981807429310829,
+      "ols_p_disease_ms": 0.3131279518563127
+    },
+    {
+      "feature": "STAT1",
+      "delta_log2": 0.5378996098681981,
+      "hedges_g": 0.6835132062150272,
+      "p": 0.1363451431707629,
+      "fdr": 0.325868427526688,
+      "ols_beta_disease_ms": 0.36559100257967514,
+      "ols_p_disease_ms": 0.2571928193649411
+    },
+    {
+      "feature": "CD74",
+      "delta_log2": 0.2553907019006836,
+      "hedges_g": 0.5415320486815584,
+      "p": 0.2187160729350419,
+      "fdr": 0.4374321458700838,
+      "ols_beta_disease_ms": 0.17723691796878221,
+      "ols_p_disease_ms": 0.4155103391539091
+    },
+    {
+      "feature": "CXCR4",
+      "delta_log2": 0.31208684565658373,
+      "hedges_g": 0.4215814445672457,
+      "p": 0.3176858396110893,
+      "fdr": 0.49922060510314037,
+      "ols_beta_disease_ms": 0.9729067248667964,
+      "ols_p_disease_ms": 0.04471452220120355
+    },
+    {
+      "feature": "IFI30",
+      "delta_log2": 0.21016237009791006,
+      "hedges_g": 0.37297383905006115,
+      "p": 0.37994695495218206,
+      "fdr": 0.557255533929867,
+      "ols_beta_disease_ms": 0.2280738350360041,
+      "ols_p_disease_ms": 0.44025102457379717
+    },
+    {
+      "feature": "NAMPT",
+      "delta_log2": -0.21436889489900146,
+      "hedges_g": -0.2689486342108687,
+      "p": 0.5434156214094958,
+      "fdr": 0.7245541618793278,
+      "ols_beta_disease_ms": 0.09190394942414892,
+      "ols_p_disease_ms": 0.8217014762647445
+    },
+    {
+      "feature": "MIF",
+      "delta_log2": 0.16236220666272771,
+      "hedges_g": 0.17477686619279778,
+      "p": 0.6848691966813713,
+      "fdr": 0.8609784186851525,
+      "ols_beta_disease_ms": 0.37575337868789555,
+      "ols_p_disease_ms": 0.3489233313200467
+    },
+    {
+      "feature": "IRF1",
+      "delta_log2": -0.030398173966856845,
+      "hedges_g": -0.041879168293785296,
+      "p": 0.9222930745319915,
+      "fdr": 0.9897779336440885,
+      "ols_beta_disease_ms": 0.10218247138732617,
+      "ols_p_disease_ms": 0.7556017443510519
+    },
+    {
+      "feature": "SPP1",
+      "delta_log2": 0.0019111874426158693,
+      "hedges_g": 0.002743707930290071,
+      "p": 0.994792495277153,
+      "fdr": 0.9989163197567034,
+      "ols_beta_disease_ms": 0.1178591520111053,
+      "ols_p_disease_ms": 0.7829567934927926
+    }
+  ],
+  "module_primary_results": [
+    {
+      "feature": "lipid_loader_repair",
+      "n_genes_present": 11,
+      "delta_log2": 0.47840562585079505,
+      "hedges_g": 1.3791020820262916,
+      "p": 0.005281813183452242,
+      "fdr": 0.01915696704254921,
+      "ols_beta_disease_ms": 0.5241373828511021,
+      "ols_p_disease_ms": 0.00116987498703405
+    },
+    {
+      "feature": "mif_cd74_receptor_state",
+      "n_genes_present": 7,
+      "delta_log2": 0.6141257454613055,
+      "hedges_g": 1.3413367086123047,
+      "p": 0.00547341915501406,
+      "fdr": 0.01915696704254921,
+      "ols_beta_disease_ms": 0.6516854422084536,
+      "ols_p_disease_ms": 0.008718526402669412
+    },
+    {
+      "feature": "lysosome_antigen_processing",
+      "n_genes_present": 13,
+      "delta_log2": 0.5130963627199836,
+      "hedges_g": 0.9469772236498317,
+      "p": 0.041336474342060954,
+      "fdr": 0.0964517734648089,
+      "ols_beta_disease_ms": 0.43779347275300373,
+      "ols_p_disease_ms": 0.10980972693101725
+    },
+    {
+      "feature": "interferon_apc",
+      "n_genes_present": 11,
+      "delta_log2": 0.218950561138294,
+      "hedges_g": 0.4583133288952779,
+      "p": 0.28606706922086467,
+      "fdr": 0.46798811107260957,
+      "ols_beta_disease_ms": 0.23157052155545393,
+      "ols_p_disease_ms": 0.3000150142349508
+    },
+    {
+      "feature": "mif_ligand_axis",
+      "n_genes_present": 2,
+      "delta_log2": 0.2855714681357631,
+      "hedges_g": 0.4203858526587714,
+      "p": 0.33684906520131225,
+      "fdr": 0.46798811107260957,
+      "ols_beta_disease_ms": 0.5461426237911927,
+      "ols_p_disease_ms": 0.11631150108956867
+    },
+    {
+      "feature": "hif_nampt_metabolic",
+      "n_genes_present": 8,
+      "delta_log2": -0.2048376541808966,
+      "hedges_g": -0.3654967365055319,
+      "p": 0.4011326666336653,
+      "fdr": 0.46798811107260957,
+      "ols_beta_disease_ms": -0.0003218324835211478,
+      "ols_p_disease_ms": 0.9988931662554624
+    },
+    {
+      "feature": "complement_phagocytosis",
+      "n_genes_present": 7,
+      "delta_log2": -0.09718781378351088,
+      "hedges_g": -0.1426692407166519,
+      "p": 0.7463893671943636,
+      "fdr": 0.7463893671943636,
+      "ols_beta_disease_ms": -0.1931045343083295,
+      "ols_p_disease_ms": 0.6057843383838348
+    }
+  ],
+  "interpretation_guardrail": "GSE111972 is sorted microglia from normal-appearing WM/GM, not lesion-rim spatial data; use as independent MS microglia support/contradiction only."
+}

@@ -1,0 +1,61 @@
+{
+  "payload": {
+    "hitCount": 147,
+    "nextCursorMark": "AoIIQLZb0Cg1MjM0Mzc2Nw==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PLCL2 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQLZb0Cg1MjM0Mzc2Nw==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "PLCL2 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Zhang M, Su W, Deng J, Zhai B, Zhu G, Gao R, Zeng Q, Qiu J, Bian Z, Xiao H, Luan G, Wang R.",
+          "citedByCount": 8,
+          "doi": "10.1186/s12967-024-06015-8",
+          "firstIndexDate": "2025-01-31",
+          "firstPublicationDate": "2025-01-30",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11783861"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "39885523",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "1",
+          "journalIssn": "1479-5876",
+          "journalTitle": "J Transl Med",
+          "journalVolume": "23",
+          "pageInfo": "133",
+          "pmcid": "PMC11783861",
+          "pmid": "39885523",
+          "pubType": "meta-analysis; research-article; journal article",
+          "pubYear": "2025",
+          "source": "MED",
+          "title": "Multi-ancestry genome-wide meta-analysis with 472,819 individuals identifies 32 novel risk loci for psoriasis.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "refsnp"
+            ]
+          }
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PLCL2+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

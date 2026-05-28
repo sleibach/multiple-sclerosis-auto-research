@@ -1,0 +1,28 @@
+{
+  "calls": {
+    "ASAH1": "NO_GO_LYSOSOMAL_MODEL_REOPENER",
+    "CTSB": "NO_GO_LYSOSOMAL_MODEL_REOPENER",
+    "CTSD": "NO_GO_LYSOSOMAL_MODEL_REOPENER",
+    "CTSS": "NO_GO_LYSOSOMAL_MODEL_REOPENER",
+    "GALC": "NO_GO_LYSOSOMAL_MODEL_REOPENER",
+    "GBA1": "NO_GO_LYSOSOMAL_MODEL_REOPENER",
+    "HEXA": "NO_GO_LYSOSOMAL_MODEL_REOPENER",
+    "HEXB": "NO_GO_LYSOSOMAL_MODEL_REOPENER",
+    "LIPA": "NO_GO_LYSOSOMAL_MODEL_REOPENER",
+    "PSAP": "NO_GO_LYSOSOMAL_MODEL_REOPENER",
+    "SMPD1": "NO_GO_LYSOSOMAL_MODEL_REOPENER"
+  },
+  "candidate_count": 11,
+  "date": "2026-05-27",
+  "interpretation": "Strong Geneformer lysosomal-enzyme signals do not identify a V3 therapeutic target. Most fail genetics/MS/local/perturbation gates, and the directionality gate fails because simple enzyme inhibition or enhancement is not selective enough for autoimmune module control.",
+  "outputs": {
+    "chembl": "results_v3/wave59_lysosomal_sphingolipid_model_reopener_audit/lysosomal_sphingolipid_chembl.tsv",
+    "decision": "results_v3/wave59_lysosomal_sphingolipid_model_reopener_audit/lysosomal_sphingolipid_decision.tsv",
+    "evidence": "results_v3/wave59_lysosomal_sphingolipid_model_reopener_audit/lysosomal_sphingolipid_evidence.tsv",
+    "gates": "results_v3/wave59_lysosomal_sphingolipid_model_reopener_audit/lysosomal_sphingolipid_gate_matrix.tsv",
+    "searches": "results_v3/wave59_lysosomal_sphingolipid_model_reopener_audit/lysosomal_sphingolipid_public_searches.tsv"
+  },
+  "parked_count": 0,
+  "promoted_count": 0,
+  "random_seed": 20260527
+}

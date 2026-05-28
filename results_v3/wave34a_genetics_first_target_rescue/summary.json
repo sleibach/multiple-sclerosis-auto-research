@@ -1,0 +1,107 @@
+{
+  "call_counts": {
+    "DEMOTE_NOT_DRUGGABLE_IN_CORRECT_DIRECTION": 7,
+    "DEMOTE_NO_TARGET_LEVEL_GENETIC_PACKAGE": 3,
+    "DEMOTE_PRIOR_ART_BLOCKED": 6,
+    "PARK_DIRECTION_OR_MODALITY_UNRESOLVED": 3,
+    "PARK_GENETIC_SIGNAL_LOCAL_CELLSTATE_MISMATCH": 1,
+    "PARK_MAPPED_GENE_NEEDS_COLOC": 1,
+    "PARK_PRIOR_ART_OR_CROWDING": 2
+  },
+  "candidate_count": 23,
+  "gwas_catalog_autoimmune_rows_scanned": 15875,
+  "promoted": [],
+  "seed": 20260527,
+  "top10": [
+    {
+      "gene": "SH2B3",
+      "genetics_first_score": 22.087500000000002,
+      "gtex_eqtl_tissue_count": 3,
+      "gwas_catalog_trait_count": 22,
+      "ot_n_diseases_score_ge_0_5": 10,
+      "prior_risk": "medium",
+      "wave34a_call": "DEMOTE_NOT_DRUGGABLE_IN_CORRECT_DIRECTION"
+    },
+    {
+      "gene": "IRF5",
+      "genetics_first_score": 21.9,
+      "gtex_eqtl_tissue_count": 4,
+      "gwas_catalog_trait_count": 21,
+      "ot_n_diseases_score_ge_0_5": 9,
+      "prior_risk": "high",
+      "wave34a_call": "PARK_PRIOR_ART_OR_CROWDING"
+    },
+    {
+      "gene": "PTPN2",
+      "genetics_first_score": 20.5625,
+      "gtex_eqtl_tissue_count": 1,
+      "gwas_catalog_trait_count": 27,
+      "ot_n_diseases_score_ge_0_5": 8,
+      "prior_risk": "high",
+      "wave34a_call": "DEMOTE_NOT_DRUGGABLE_IN_CORRECT_DIRECTION"
+    },
+    {
+      "gene": "TYK2",
+      "genetics_first_score": 19.649999999999995,
+      "gtex_eqtl_tissue_count": 3,
+      "gwas_catalog_trait_count": 36,
+      "ot_n_diseases_score_ge_0_5": 7,
+      "prior_risk": "blocking",
+      "wave34a_call": "DEMOTE_PRIOR_ART_BLOCKED"
+    },
+    {
+      "gene": "CLEC16A",
+      "genetics_first_score": 19.2625,
+      "gtex_eqtl_tissue_count": 3,
+      "gwas_catalog_trait_count": 16,
+      "ot_n_diseases_score_ge_0_5": 7,
+      "prior_risk": "medium",
+      "wave34a_call": "DEMOTE_NOT_DRUGGABLE_IN_CORRECT_DIRECTION"
+    },
+    {
+      "gene": "TNFAIP3",
+      "genetics_first_score": 16.924999999999997,
+      "gtex_eqtl_tissue_count": 0,
+      "gwas_catalog_trait_count": 26,
+      "ot_n_diseases_score_ge_0_5": 7,
+      "prior_risk": "high",
+      "wave34a_call": "DEMOTE_NOT_DRUGGABLE_IN_CORRECT_DIRECTION"
+    },
+    {
+      "gene": "ATG16L1",
+      "genetics_first_score": 15.825000000000001,
+      "gtex_eqtl_tissue_count": 4,
+      "gwas_catalog_trait_count": 7,
+      "ot_n_diseases_score_ge_0_5": 8,
+      "prior_risk": "medium_high",
+      "wave34a_call": "DEMOTE_NOT_DRUGGABLE_IN_CORRECT_DIRECTION"
+    },
+    {
+      "gene": "IL10",
+      "genetics_first_score": 15.774999999999999,
+      "gtex_eqtl_tissue_count": 1,
+      "gwas_catalog_trait_count": 14,
+      "ot_n_diseases_score_ge_0_5": 7,
+      "prior_risk": "high",
+      "wave34a_call": "PARK_PRIOR_ART_OR_CROWDING"
+    },
+    {
+      "gene": "CARD9",
+      "genetics_first_score": 12.0375,
+      "gtex_eqtl_tissue_count": 3,
+      "gwas_catalog_trait_count": 9,
+      "ot_n_diseases_score_ge_0_5": 4,
+      "prior_risk": "medium",
+      "wave34a_call": "DEMOTE_NOT_DRUGGABLE_IN_CORRECT_DIRECTION"
+    },
+    {
+      "gene": "IL6R",
+      "genetics_first_score": 11.0,
+      "gtex_eqtl_tissue_count": 5,
+      "gwas_catalog_trait_count": 9,
+      "ot_n_diseases_score_ge_0_5": 5,
+      "prior_risk": "blocking",
+      "wave34a_call": "DEMOTE_PRIOR_ART_BLOCKED"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr1",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000160712.12",
+        "geneSymbol": "IL6R",
+        "geneSymbolUpper": "IL6R",
+        "nes": -0.83506,
+        "ontologyId": "UBERON:0009834",
+        "pValue": 1.1398e-05,
+        "pos": 154403762,
+        "snpId": "rs1552482",
+        "snpIdUpper": "RS1552482",
+        "tissueSiteDetailId": "Brain_Frontal_Cortex_BA9",
+        "variantId": "chr1_154403762_C_T_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 3,
+      "page": 0,
+      "totalNumberOfItems": 3
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000160712.12&tissueSiteDetailId=Brain_Frontal_Cortex_BA9&datasetId=gtex_v8&itemsPerPage=1"
+}

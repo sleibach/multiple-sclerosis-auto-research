@@ -1,0 +1,131 @@
+{
+  "model": "Geneformer V2-104M",
+  "model_repo": "ctheodoris/Geneformer",
+  "revision": "04c2b2e84da7c0f385c3f9ad8f3ec24bab6650e5",
+  "checkpoint": "/Users/soeren.leibach/Projects/ms-auto-research/tmp_v3/foundation_wave6/geneformer_assets/Geneformer-V2-104M",
+  "parameters_loaded_encoder": 104365056,
+  "seed": 20260526,
+  "max_len": 512,
+  "max_disease_cells_per_context": 24,
+  "max_control_cells_per_context": 24,
+  "random_deletion_reps": 3,
+  "batch_size": 12,
+  "contexts": [
+    {
+      "context": "IBD_myeloid",
+      "h5ad": "data/raw_v3/cell_state/ibd_human_10x.h5ad",
+      "compartment": "myeloid cell",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 463.4583333333333
+    },
+    {
+      "context": "IBD_epithelial",
+      "h5ad": "data/raw_v3/cell_state/ibd_human_10x.h5ad",
+      "compartment": "colon epithelial cell",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 468.7083333333333
+    },
+    {
+      "context": "psoriasis_macrophage",
+      "h5ad": "data/raw_v3/cell_state/psoriasis_skin.h5ad",
+      "compartment": "macrophage",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 512.0
+    },
+    {
+      "context": "psoriasis_dendritic",
+      "h5ad": "data/raw_v3/cell_state/psoriasis_skin.h5ad",
+      "compartment": "dendritic cell, human",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 508.1875
+    },
+    {
+      "context": "sjogren_APC",
+      "h5ad": "data/raw_v3/cell_state/sjogren_salivary.h5ad",
+      "compartment": "salivary_APC",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 448.1875
+    },
+    {
+      "context": "t1d_ductal",
+      "h5ad": "data/raw_v3/cell_state/t1d_hpap_islet.h5ad",
+      "compartment": "pancreatic ductal cell",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 511.0
+    },
+    {
+      "context": "t1d_acinar",
+      "h5ad": "data/raw_v3/cell_state/t1d_hpap_islet.h5ad",
+      "compartment": "pancreatic acinar cell",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 509.5833333333333
+    },
+    {
+      "context": "ra_classical_monocyte",
+      "h5ad": "data/raw_v3/cell_state/ra_binvignat_blood.h5ad",
+      "compartment": "classical monocyte",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 308.7916666666667
+    },
+    {
+      "context": "ra_nonclassical_monocyte",
+      "h5ad": "data/raw_v3/cell_state/ra_binvignat_blood.h5ad",
+      "compartment": "non-classical monocyte",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 332.0625
+    },
+    {
+      "context": "ra_myeloid_dendritic",
+      "h5ad": "data/raw_v3/cell_state/ra_binvignat_blood.h5ad",
+      "compartment": "myeloid dendritic cell",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 239.9375
+    }
+  ],
+  "candidate_genes": [
+    "SLC15A4",
+    "TASL",
+    "IRF5",
+    "TLR7",
+    "TLR8",
+    "TLR9",
+    "UNC93B1",
+    "PTPN2",
+    "TNFAIP3",
+    "CLEC16A",
+    "SH2B3",
+    "GPR65",
+    "GSK3B",
+    "CIITA",
+    "RFX5",
+    "CD74",
+    "CTSS"
+  ],
+  "metric": "delete candidate token; positive cosine/projection shift means disease-cell embedding moved toward matched control centroid",
+  "limitations": [
+    "custom lightweight Geneformer embedding-deletion screen, not the official InSilicoPerturberStats workflow",
+    "input h5ads are assumed count-like; no independent raw-layer verification was performed",
+    "candidate-expressing disease cells were enriched to test candidate axes, so effect sizes are not population estimates",
+    "embedding shifts are model hypotheses and not expression log2FC or causal perturbation evidence"
+  ]
+}

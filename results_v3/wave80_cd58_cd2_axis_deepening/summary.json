@@ -1,0 +1,112 @@
+{
+  "decision": {
+    "candidate": "CD58_CD2_axis",
+    "decision_reason": "MS genetics and RA CD58 signal survive T-cell adjustment, but IBD replication, direction, or prior art block promotion",
+    "direction_conflict": 1,
+    "generic_autoimmune_prior_art": 1,
+    "ms_anchor": 1,
+    "ra_full_tcell_adjusted_coef": 0.8700443058575238,
+    "ra_full_tcell_adjusted_p": 0.008714436615282347,
+    "wave79_ibd_response_p": 0.1731963216156996,
+    "wave79_ibd_target_generic_abs_ratio": 1.6234893993922108,
+    "wave79_ra_response_p": 0.002977517998379,
+    "wave79_ra_target_generic_abs_ratio": 11.71373975684199,
+    "wave80_call": "PARK_CD58_CD2_AXIS_PRIOR_ART_OR_IBD_LIMITED"
+  },
+  "inputs": {
+    "prior_art_sources": "embedded verified source table written to cd58_prior_art_directionality_sources.tsv",
+    "ra_counts": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_counts_used.tsv",
+    "ra_meta": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_sample_metadata.tsv",
+    "wave62_qtl": "results_v3/wave62_opentargets_target_resolution/opentargets_qtl_coloc_rows.tsv",
+    "wave62_summary": "results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv",
+    "wave79_convergence": "results_v3/wave79_targetability_shortlist_audit/targetability_adjusted_response_convergence.tsv",
+    "wave79_decision": "results_v3/wave79_targetability_shortlist_audit/targetability_integrated_decision.tsv"
+  },
+  "random_seed": 20260527,
+  "top_ra_models": [
+    {
+      "effmem_t_coef": null,
+      "effmem_t_p": null,
+      "endpoint": "baseline_pre",
+      "formula": "y ~ good_response + pre_generic + C(pathotype) + C(biologic) + inflammatory_score + das28_score",
+      "model_name": "generic_only",
+      "model_status": "ok",
+      "n": 42,
+      "response_coef": 0.9104019298750732,
+      "response_fdr": 0.017428873230564693,
+      "response_p": 0.002977517998379077,
+      "t_cell_coef": null,
+      "t_cell_p": null
+    },
+    {
+      "effmem_t_coef": null,
+      "effmem_t_p": null,
+      "endpoint": "baseline_pre",
+      "formula": "y ~ good_response + pre_generic + pre_t_cell + C(pathotype) + C(biologic) + inflammatory_score + das28_score",
+      "model_name": "generic_plus_t_cell",
+      "model_status": "ok",
+      "n": 42,
+      "response_coef": 0.8858735001553786,
+      "response_fdr": 0.017428873230564693,
+      "response_p": 0.006974923608935067,
+      "t_cell_coef": -0.06419405850481585,
+      "t_cell_p": 0.8203750690997287
+    },
+    {
+      "effmem_t_coef": 0.30353393530773476,
+      "effmem_t_p": 0.5087591661139522,
+      "endpoint": "baseline_pre",
+      "formula": "y ~ good_response + pre_generic + pre_t_cell + pre_effmem_t + C(pathotype) + C(biologic) + inflammatory_score + das28_score",
+      "model_name": "generic_plus_t_cell_plus_effmem",
+      "model_status": "ok",
+      "n": 42,
+      "response_coef": 0.8700443058575238,
+      "response_fdr": 0.017428873230564693,
+      "response_p": 0.008714436615282347,
+      "t_cell_coef": -0.24187774964401001,
+      "t_cell_p": 0.5376560699066074
+    },
+    {
+      "effmem_t_coef": null,
+      "effmem_t_p": null,
+      "endpoint": "delta_post_minus_pre",
+      "formula": "y ~ good_response + pre_cd58 + pre_generic + delta_generic + C(pathotype) + C(biologic) + inflammatory_score + das28_score",
+      "model_name": "generic_only",
+      "model_status": "ok",
+      "n": 42,
+      "response_coef": 0.7432666905832801,
+      "response_fdr": 0.12009338143220069,
+      "response_p": 0.0800622542881338,
+      "t_cell_coef": null,
+      "t_cell_p": null
+    },
+    {
+      "effmem_t_coef": null,
+      "effmem_t_p": null,
+      "endpoint": "delta_post_minus_pre",
+      "formula": "y ~ good_response + pre_cd58 + pre_generic + delta_generic + pre_t_cell + delta_t_cell + C(pathotype) + C(biologic) + inflammatory_score + das28_score",
+      "model_name": "generic_plus_t_cell",
+      "model_status": "ok",
+      "n": 42,
+      "response_coef": 0.5808547241888241,
+      "response_fdr": 0.20742200746716813,
+      "response_p": 0.17285167288930678,
+      "t_cell_coef": -0.7576508074798418,
+      "t_cell_p": 0.0886826610166821
+    },
+    {
+      "effmem_t_coef": -0.60487754710182,
+      "effmem_t_p": 0.4379997475371176,
+      "endpoint": "delta_post_minus_pre",
+      "formula": "y ~ good_response + pre_cd58 + pre_generic + delta_generic + pre_t_cell + delta_t_cell + pre_effmem_t + delta_effmem_t + C(pathotype) + C(biologic) + inflammatory_score + das28_score",
+      "model_name": "generic_plus_t_cell_plus_effmem",
+      "model_status": "ok",
+      "n": 42,
+      "response_coef": 0.51503401728207,
+      "response_fdr": 0.2615696124529064,
+      "response_p": 0.2615696124529064,
+      "t_cell_coef": -0.3872660126531796,
+      "t_cell_p": 0.5626091569509055
+    }
+  ]
+}

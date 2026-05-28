@@ -1,0 +1,220 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "27626371",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Accessory subunit of the mitochondrial membrane respiratory chain NADH dehydrogenase (Complex I), that is believed not to be involved in catalysis. Complex I functions in the transfer of electrons from NADH to the respiratory chain. The immediate electron acceptor for the enzyme is believed to be ubiquinone"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305",
+                    "id": "12611891",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0168",
+                "value": "Mitochondrion inner membrane"
+              },
+              "orientation": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-9913",
+                "value": "Matrix side"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000255"
+                  }
+                ],
+                "id": "SL-9909",
+                "value": "Multi-pass membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000000DCCD"
+      },
+      "features": [
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 43
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 21
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 80
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 58
+            }
+          },
+          "type": "Transmembrane"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "NDUFA11"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-0903",
+          "name": "Direct protein sequencing"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0249",
+          "name": "Electron transport"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0496",
+          "name": "Mitochondrion"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0999",
+          "name": "Mitochondrion inner membrane"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-1274",
+          "name": "Primary mitochondrial disease"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0679",
+          "name": "Respiratory chain"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0813",
+          "name": "Transport"
+        }
+      ],
+      "primaryAccession": "Q86Y39",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Complex I-B14.7"
+            },
+            "shortNames": [
+              {
+                "value": "CI-B14.7"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "NADH-ubiquinone oxidoreductase subunit B14.7"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 11"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "379D58482D7E8BDB",
+        "length": 141,
+        "md5": "27902371F897EA4572E3E5631CEF308C",
+        "molWeight": 14852,
+        "value": "MAPKVFRQYWDIPDGTDCHRKAYSTTSIASVAGLTAAAYRVTLNPPGTFLEGVAKVGQYTFTAAAVGAVFGLTTCISAHVREKPDDPLNYFLGGCAGGLTLGARTHNYGIGAAACVYFGIAASLVKMGRLEGWEVFAKPKV"
+      },
+      "uniProtkbId": "NDUAB_HUMAN"
+    }
+  ]
+}

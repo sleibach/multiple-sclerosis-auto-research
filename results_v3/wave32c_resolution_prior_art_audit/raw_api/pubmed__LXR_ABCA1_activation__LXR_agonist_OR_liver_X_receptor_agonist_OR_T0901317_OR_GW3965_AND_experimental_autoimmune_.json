@@ -1,0 +1,44 @@
+{
+  "search": {
+    "esearchresult": {
+      "count": "24",
+      "idlist": [
+        "16955483",
+        "25889344",
+        "30611901",
+        "23625315",
+        "19406833",
+        "24699378",
+        "17175031",
+        "23762937"
+      ],
+      "querytranslation": "(\"LXR agonist\"[All Fields] OR \"liver X receptor agonist\"[All Fields] OR (\"t0901317\"[Supplementary Concept] OR \"t0901317\"[All Fields]) OR (\"gw 3965\"[Supplementary Concept] OR \"gw 3965\"[All Fields] OR \"gw3965\"[All Fields])) AND (\"experimental autoimmune encephalomyelitis\"[All Fields] OR \"multiple sclerosis\"[All Fields] OR (\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields]))",
+      "retmax": "8",
+      "retstart": "0",
+      "translationset": [
+        {
+          "from": "T0901317",
+          "to": "\"t0901317\"[Supplementary Concept] OR \"t0901317\"[All Fields]"
+        },
+        {
+          "from": "GW3965",
+          "to": "\"gw 3965\"[Supplementary Concept] OR \"gw 3965\"[All Fields] OR \"gw3965\"[All Fields]"
+        },
+        {
+          "from": "autoimmune",
+          "to": "\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields]"
+        }
+      ]
+    },
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    }
+  },
+  "summaries": {
+    "data": {
+      "error": "{\"error\":\"API rate limit exceeded\",\"api-key\":\"77.0.170.234\",\"count\":\"4\",\"limit\":\"3\"}\n"
+    },
+    "status": 429
+  }
+}

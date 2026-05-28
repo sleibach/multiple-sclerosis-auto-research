@@ -1,0 +1,478 @@
+{
+  "error": "",
+  "payload": {
+    "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxrYPKh3vg",
+    "studies": [
+      {
+        "derivedSection": {
+          "conditionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D003240",
+                "term": "Connective Tissue Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D012816",
+                "term": "Signs and Symptoms"
+              },
+              {
+                "id": "D013568",
+                "term": "Pathological Conditions, Signs and Symptoms"
+              },
+              {
+                "id": "D009461",
+                "term": "Neurologic Manifestations"
+              },
+              {
+                "id": "D010335",
+                "term": "Pathologic Processes"
+              },
+              {
+                "id": "D014570",
+                "term": "Urologic Diseases"
+              },
+              {
+                "id": "D052776",
+                "term": "Female Urogenital Diseases"
+              },
+              {
+                "id": "D005261",
+                "term": "Female Urogenital Diseases and Pregnancy Complications"
+              },
+              {
+                "id": "D000091642",
+                "term": "Urogenital Diseases"
+              },
+              {
+                "id": "D052801",
+                "term": "Male Urogenital Diseases"
+              },
+              {
+                "id": "D002318",
+                "term": "Cardiovascular Diseases"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D008180",
+                "term": "Lupus Erythematosus, Systemic"
+              },
+              {
+                "id": "D054969",
+                "term": "Primary Dysautonomias"
+              },
+              {
+                "id": "D005221",
+                "term": "Fatigue"
+              },
+              {
+                "id": "D010146",
+                "term": "Pain"
+              },
+              {
+                "id": "D001342",
+                "term": "Autonomic Nervous System Diseases"
+              },
+              {
+                "id": "D007249",
+                "term": "Inflammation"
+              },
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007674",
+                "term": "Kidney Diseases"
+              },
+              {
+                "id": "D014652",
+                "term": "Vascular Diseases"
+              },
+              {
+                "id": "D006331",
+                "term": "Heart Diseases"
+              }
+            ]
+          },
+          "miscInfoModule": {
+            "versionHolder": "2026-05-26"
+          }
+        },
+        "hasResults": false,
+        "protocolSection": {
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "description": "Non-invasive transcutaneous vagus nerve stimulation applied by the gammaCore device (electroCore)",
+                "interventionNames": [
+                  "Device: Non-invasive transcutaneous vagus nerve stimulation (tVNS)"
+                ],
+                "label": "Active treatment",
+                "type": "ACTIVE_COMPARATOR"
+              },
+              {
+                "description": "Inactive sham vagus nerve stimulation applied by the gammaCore sham device (electroCore)",
+                "interventionNames": [
+                  "Device: Sham vagus nerve stimulation"
+                ],
+                "label": "Sham treatment",
+                "type": "SHAM_COMPARATOR"
+              }
+            ],
+            "interventions": [
+              {
+                "armGroupLabels": [
+                  "Active treatment"
+                ],
+                "description": "tVNS delivers an electrical current to the cervical branch of the vagus nerve. Four minutes of bilateral stimulation 4 times per day for 7 days (period 1) and 2 times per day for 8 weeks (period 2) are performed. The two periods are separated by a 2 weeks wash-out period.",
+                "name": "Non-invasive transcutaneous vagus nerve stimulation (tVNS)",
+                "otherNames": [
+                  "GammaCore Sapphire device"
+                ],
+                "type": "DEVICE"
+              },
+              {
+                "armGroupLabels": [
+                  "Sham treatment"
+                ],
+                "description": "The sham device produces a slight vibrating sound, but does not produce an electical current and hence, does not activate the vagus nerve.\n\nFour minutes of bilateral stimulation 4 times per day for 7 days (period 1) and 2 times per day for 8 weeks (period 2). The two periods are separated by a 2 weeks wash-out period.",
+                "name": "Sham vagus nerve stimulation",
+                "otherNames": [
+                  "GammaCore Sapphire sham device"
+                ],
+                "type": "DEVICE"
+              }
+            ]
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Systemic Lupus Erythematosus",
+              "Autonomic Dysfunction",
+              "Autonomic Neuropathy",
+              "Fatigue"
+            ],
+            "keywords": [
+              "Vagus Nerve Stimulation",
+              "Fatigue",
+              "Pain",
+              "Health-Related Quality Of Life",
+              "Autonomic Nervous System Disorders",
+              "Inflammation",
+              "Autoimmunity",
+              "Kidney Diseases",
+              "Vascular Diseases",
+              "Heart Diseases"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "city": "Copenhagen",
+                "country": "Denmark",
+                "facility": "Rigshospitalet",
+                "geoPoint": {
+                  "lat": 55.67594,
+                  "lon": 12.56553
+                },
+                "zip": "2100"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "affiliation": "Center for Rheumatology and Spine Diseases, Copenhagen University Hospital, Rigshospitalet",
+                "name": "S\u00f8ren H Jacobsen, DMSc",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ]
+          },
+          "descriptionModule": {
+            "briefSummary": "This trial uses a double blinded, randomized 1:1 (active:sham) placebo controlled, parallel group design, investigating the effects of transcutaneous vagus nerve stimulation (tVNS) in patients with systemic lupus erythematosus (SLE).\n\nThe main objective is to evaluate whether adjuvant treatment with tVNS in SLE patients with signs of autonomic dysfunction and fatigue improves patient perceived levels of fatigue. Secondary outcomes include tVNS induced changes to: patient reported outcomes, autonomic nervous system function, SLE disease activity, immunologic profile, tolerability of pain and organ (cardiac, vascular and kidney) functions.\n\nParticipants are randomized to received either active non-invasive transcutaneous vagus nerve stimulation (tVNS) or inactive sham stimulation. The study period is divided in two periods. The first period investigates the effects of short-term, high-intensity tVNS treatment. The second phase investigates the effects of long-term, middle-intensity tVNS treatment."
+          },
+          "designModule": {
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "maskingInfo": {
+                "masking": "QUADRUPLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "CARE_PROVIDER",
+                  "INVESTIGATOR",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              },
+              "primaryPurpose": "TREATMENT"
+            },
+            "enrollmentInfo": {
+              "count": 75,
+              "type": "ACTUAL"
+            },
+            "phases": [
+              "NA"
+            ],
+            "studyType": "INTERVENTIONAL"
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion criteria\n\n* Reading and understanding Danish.\n* SLE diagnosis based on SLE disease classification criteria for at least 1 year.\n* Stable disease and medication the past 28 days as defined by:\n\n  * No change in disease modifying antirheumatic drugs or biological therapy,\n  * Receiving maximally 10 mg prednisone daily.\n* Having signs of fatigue, as assessed by scoring \u2264 40 in the FACIT-Fatigue questionnaire.\n* Having signs of autonomic dysfunction, as assessed by scoring one or more of:\n\n  1. VAGUS score \u22651\n  2. SUDOSCAN score \\< 50\u00b5S for hands or \\< 70\u00b5S for feet\n  3. COMPASS-31 score \\> 12\n* Patients willing and able to comply with the scheduled visits, treatment plan, laboratory tests and other trial procedures.\n* Sign the dated informed consent documents\n\nExclusion criteria\n\n* Significant cardiovascular disease, including congenital cardiac disease, congestive heart failure, known severe coronary artery disease, or recent myocardial infarction (within 5 years), as assessed by a physician at the screening.\n* Blood pressure \\< 100/60 or \\> 160/105\n* Clinically significant bradycardia or tachycardia\n* History of abnormal baseline ECG, prolonged QT interval or arrhythmia\n* Previous surgery on the vagus nerve or abnormal cervical anatomy\n* Implanted or portable electro-mechanical medical devices, e.g. pacemaker, defibrillator, cochlear implant and infusion pump\n* Metallic device such as a stent, bone plate or bone screw implanted at or near the neck\n* Receiving active laser treatment for proliferative retinopathy\n* Active cancer or cancer in remission\n* History of brain tumor, aneurysm, bleed, head trauma, clinically significant syncope or seizures\n* Any clinical abnormalities that, in the opinion of the investigator, may increase the risk associated with trial participation or may interfere with the interpretation of the trial results.\n* Participation in other clinical trials less than three months prior to inclusion, unless such a participation is judged to have no influence on the recordings\n* Female pregnancy (positive urine-HCG), ongoing lactation or intended pregnancy during the study period.\n\n  * A pregnancy test is conducted at first and last visit to ensure that fertile female patients are not pregnant during the study period.\n  * Further, the investigator ensures that fertile female patients use a safe contraception method during the study and for at least 15 hours after termination of the study period. Safe contraception: The combined oral contraceptive pill; intra uterine device; gestagen injection; subdermal implantation; hormone vaginal ring; and transdermal plaster.\n* Male patients who intend to father a child during the course of the study",
+            "healthyVolunteers": false,
+            "minimumAge": "18 Years",
+            "sex": "ALL",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "identificationModule": {
+            "acronym": "SLE-VNS",
+            "briefTitle": "Vagus Nerve Stimulation for Systemic Lupus Erythematous",
+            "nctId": "NCT05315739",
+            "officialTitle": "Vagus Nerve Stimulation as a Novel Treatment for Systemic Lupus Erythematous: A Double Blinded Randomized Controlled Trail",
+            "orgStudyIdInfo": {
+              "id": "SLE-VNS-1.0"
+            },
+            "organization": {
+              "class": "OTHER",
+              "fullName": "Rigshospitalet, Denmark"
+            }
+          },
+          "ipdSharingStatementModule": {
+            "accessCriteria": "Researchers who provide a methodological sound proposal",
+            "description": "Data can be provided upon request.",
+            "ipdSharing": "YES",
+            "timeFrame": "From study end."
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "description": "The FACIT-Fatigue Scale is a short, 13-item, tool that measures an individual's level of fatigue during their usual daily activities over the past week. The level of fatigue is measured on a four-point scale for each item. The theoretical maximum value is 52 (maximal fatigue) and minimum 0 (no fatigue).",
+                "measure": "Fatigue (changes during period 1 and 2)",
+                "timeFrame": "During period 1: At baseline, daily (day 2-6) until- and at follow-up (day 7). During period 2: At baseline, at day 7-visit, weekly (week 3-7) until- and at follow-up (week 8)."
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "description": "The COMPASS-31 is a validated questionnaire of 31 questions providing a quantitative measure of autonomic nervous system dysfunction symptoms. The score ranges from 0 (no symptoms) to 100 (most severe autonomic symptoms).",
+                "measure": "Questionnaire on autonomic symptoms: Composite Autonomic Symptoms Score 31 (COMPASS-31)",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit and at follow-up (week 8)."
+              },
+              {
+                "description": "The participants rate their subjectively perceived disease activity on a scale from 0 to 10, in which 0 = no disease activity and 10 = worst imaginable disease activity.",
+                "measure": "Questionnaire on SLE disease activity: Patient Global Assessment (PtGA)",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit, weekly (week 3-7) until- and at follow-up (week 8)."
+              },
+              {
+                "description": "In the SLAQ the participants rate their perceived disease activity by rating the severity of 24 disease activity related symptoms by either \"no problem\", \"mild\", \"moderate\" or \"severe\" In the SLAQ the participants rate their perceived disease activity by rating the severity of 24 disease activity related symptoms by either \"no problem\", \"mild\", \"moderate\" or \"severe\" and a Patient Global Disease Activity measure as mentioned in (3).",
+                "measure": "Questionnaire on SLE disease activity: Systemic Lupus Activity Questionnaire (SLAQ)",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit, and at follow-up (week 8)."
+              },
+              {
+                "description": "From the validated 12-item SF-12 a physical and mental component score of patient-reported health related quality of life is calculated. Component scores range from 0-100 (lowest to highest level of self-reported health) and are calculated by giving specific weights to each of the 12 individual items/questions, calculating a weighted sum, and finally adding the sum to a component specific constant.",
+                "measure": "Questionnaire on quality of life: Short form-12 (SF-12)",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit, and at follow-up (week 8)."
+              },
+              {
+                "description": "Participants will assess the level of musculoskeletal pain within the previous 7 days by scoring the level on the VAS (0 to 10, where 0 = no pain and 10 = worst imaginable pain).",
+                "measure": "Questionnaire on pain: Visual analog rating scale (VAS)",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit, weekly (week 3-7) until- and at follow-up (week 8)."
+              },
+              {
+                "description": "The validated SLEDAI-2K entails 24 weighted descriptors of disease activity across 9 organ systems. The SLEDAI-2K-score ranges from 0 (no activity) to a theoretical maximum score of 105 and reports on manifestations occurring up to 10 days before the examination.",
+                "measure": "SLE disease activity: SLE Disease Activity Index 2000 (SLEDAI-2K)",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit and at follow-up (week 8)."
+              },
+              {
+                "description": "The SRI-50 is a validated derivation of SLEDAI-2K that considers clinically significant improvements (\u2265 50%) between visits.",
+                "measure": "SLE disease activity: SLEDAI Responder Index 50% (SRI-50)",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit and at follow-up (week 8)."
+              },
+              {
+                "description": "The SLE-DAS is a validated index containing 17 clinical and laboratory descriptors and is a global measure of SLE disease activity suggested to have improved sensitivity to change and specificity as compared with the SLEDAI-2K.",
+                "measure": "SLE disease activity: SLE Disease Activity Score (SLE-DAS)",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit and at follow-up (week 8)."
+              },
+              {
+                "description": "The PGA measures disease activity in SLE is determined by the physician's judgement of overall disease activity. It is scored by answering \"How do you rate your patient's current disease activity?\" with 1=mild, 2=moderate or 3=most active disease imaginable.",
+                "measure": "SLE disease activity: Physician Global Assessment (PGA)",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit and at follow-up (week 8)."
+              },
+              {
+                "description": "The number of painful and swollen joints are assessed according to the Disease Activity Score-28 (Swollen joints: 0 = no, and 28 = 28 swollen. Painful joints: 0 = n, and 28 = 28 painful joints).",
+                "measure": "SLE disease activity: Painful and swollen joints",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit and at follow-up (week 8)."
+              },
+              {
+                "description": "With the VagusTM device, 5 minutes of resting HRV is measured. Classical time (SDNN, RMSSD) and frequency (LF, HF, total and LF/HF) domain heart rate variability parameters will be assessed.",
+                "measure": "Autonomic function: Resting heart rate variability (HRV)",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit and at follow-up (week 8)."
+              },
+              {
+                "description": "Cardiac vagal tone reflecting parasympathetic activity is measured through three chest electrocardiography electrodes. A cardiac monitor, the eMotion Faros device is attached to the electrodes and the electrocardiogram is sampled at 8 kHz for 5 minutes, from which the cardiac vagal tone is derived.",
+                "measure": "Autonomic function: Resting Cardiac Vagal Tone (CVT)",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit and at follow-up (week 8)."
+              },
+              {
+                "description": "The heart rate response to three cardiovascular autonomic reflex tests are assessed with the VagusTM-device for estimation of the degree of autonomic dysfunction: The ratio of the maximum and minimum heart rate in relation to a) standing, b) deep breathing and, c) a Valsalva maneuver. By comparing results of the cardiovascular reflex tests with age-dependent cut-off levels, the degree of autonomic dysfunction is divided into categories: no, early (one) and manifest (two or three abnormal tests).",
+                "measure": "Autonomic function: Cardiovascular autonomic reflex tests - heart rate response",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit and at follow-up (week 8)."
+              },
+              {
+                "description": "The blood pressure response to one cardiovascular autonomic reflex test is assessed. After a supine 5-min rest, the orthostatic blood pressure is measured. The participant stands for 5 minutes while the blood pressure is measured each minute. Blood pressure drops (systolic 20 mmHg or diastolic 10 mmHg) indicate impaired, especially, sympathetic function.",
+                "measure": "Autonomic function: Cardiovascular autonomic reflex tests - blood pressure response",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit and at follow-up (week 8)."
+              },
+              {
+                "description": "A small patch sensor (ePatch) will be used to monitor the heart rate variability during a period of 7 days. Classical time (RR-interval, SDNN, SDNNi, SDANN, RMSSD) and frequency (VLF, LF, HF and LF/HF) domain heart rate variability parameters will be assessed.",
+                "measure": "Autonomic function: Continuous heart rate and HRV monitoring",
+                "timeFrame": "During period 1: From baseline to follow-up (day 7). During period 2: From baseline to day 7-visit."
+              },
+              {
+                "description": "The Sudoscan\u00ae provides a quick, non-invasive and reproducible assessment of sympathetically controlled sudomotor function, and is based on a reaction between electrodes and chloride ions after a low-voltage sweat gland stimulation as the patient is situated with their hands and feet on two different measure pads for 3 minutes.",
+                "measure": "Autonomic function: Sweat secretion",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit and at follow-up (week 8)."
+              },
+              {
+                "description": "The left hand is immersed in circulated ice-chilled water (2.0\u00b0C). The subject will be instructed to tolerate to hold the hand in the water for up to 120 seconds or when intolerable pain is reached. At different timepoints throughout the stimulation, the participants are asked to rate the sensation on a numerical rating scale from 0 to 10, where 0 = no pain and 10 = worst pain.",
+                "measure": "Pain tolerability: Cold pressor test",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit and at follow-up (week 8)."
+              },
+              {
+                "description": "The CPM-capacity response can be quantified by applying a \"test-pain\" (muscle pressure on right quadriceps) before and after the conditioning stimulus. The difference in pressure stimulus intensity before, during, and after induction of cold pressor pain provides a quantitative index of CPM capacity in the individual participant. The techniques used for pressure stimulation and cold pressor test described above will be combined to measure CPM.",
+                "measure": "Pain tolerability: Conditioned pain modulation (CMP)",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit and at follow-up (week 8)."
+              },
+              {
+                "description": "Cardiac function is assessed with echocardiography, which is a non-invasive ultrasound examination elapsing from 15 -30 minutes, performed with the patient in supine position. A transducer is run across the thorax for visualization of cardiac diastolic and systolic function, anatomical structures, arterial stiffness as well as muscle and chamber sizes to describe systolic and diastolic cardiac function.",
+                "measure": "Cardiac function",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit and at follow-up (week 8)."
+              },
+              {
+                "description": "Nailfold video capillaroscopy is a non-invasive diagnostic technique that evaluates the morphology of the capillaries in the nailfold through direct visualization. It can reveal both the architecture of capillary rows and fine details of each vessel.",
+                "measure": "Vascular function: Microvascular function",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit and at follow-up (week 8)."
+              },
+              {
+                "description": "SLE clinical status is assessed by performing routine blood-based analyses of hematological, serological and urinary markers for different organ-specific and SLE-specific characteristics.",
+                "measure": "SLE routine status",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit and at follow-up (week 8)."
+              },
+              {
+                "description": "SLE inflammatory status is assessed by analyzing the blood plasma for especially activation markers: TNF, IL-1b, sIL-2Ra, IL-6, IL-8, IL-17, IFN-g, IFN-alfa and Inhibition markers: sTNFr, IL-1RA, IL-10, TGF-b.",
+                "measure": "SLE inflammatory status - Multiplex plasma cytokine analysis",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit and at follow-up (week 8)."
+              },
+              {
+                "description": "SLE inflammatory status is assessed by analyzing interferon-regulated gene expression in whole blood (nCounter platform, NanoString Technologies, Seattle, WA).",
+                "measure": "SLE inflammatory status - Interferon-regulated gene expression",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit and at follow-up (week 8)."
+              },
+              {
+                "description": "SLE inflammatory status is assessed by analyzing the immune cell population distribution in whole blood (fluorescence-activated cell sorting).",
+                "measure": "SLE inflammatory status - Immune cell population distribution in whole blood",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit and at follow-up (week 8)."
+              },
+              {
+                "description": "SLE inflammatory status is assessed by analyzing immune cell stimulation in whole blood (TruCulture).",
+                "measure": "SLE inflammatory status - Functional immune cell stimulation",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit and at follow-up (week 8)."
+              },
+              {
+                "description": "Kidney function is assessed by analyzing urine (3\\*24 hours) for kidney specific markers such as urine albumin- and protein/creatinine-ratio.",
+                "measure": "Kidney function",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit and at follow-up (week 8)."
+              },
+              {
+                "description": "Metabolic control is assessed at the hospital by analyzing blood plasma for lipid and glucose profiles",
+                "measure": "Metabolic control",
+                "timeFrame": "During period 1: At baseline and follow-up (day 7). During period 2: At baseline, at day 7-visit and at follow-up (week 8)."
+              },
+              {
+                "description": "Changes in medication status within the time frame of the study and 3 months after study completion is recorded by accessing the participants medication file.",
+                "measure": "Medication usage",
+                "timeFrame": "Medication status is reported at all visits (period 1: baseline and follow-up (day 7); period 2: baseline, day 7 and follow-up (week 8)) and three months after completing the study"
+              }
+            ]
+          },
+          "oversightModule": {
+            "isFdaRegulatedDevice": true,
+            "isFdaRegulatedDrug": false,
+            "isUsExport": true,
+            "oversightHasDmc": false
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "citation": "Zinglersen AH, Drange IL, Myhr KA, Fuchs A, Pfeiffer-Jensen M, Brock C, Jacobsen S. Vagus nerve stimulation as a novel treatment for systemic lupus erythematous: study protocol for a randomised, parallel-group, sham-controlled investigator-initiated clinical trial, the SLE-VNS study. BMJ Open. 2022 Sep 20;12(9):e064552. doi: 10.1136/bmjopen-2022-064552.",
+                "pmid": "36127117",
+                "type": "DERIVED"
+              }
+            ]
+          },
+          "sponsorCollaboratorsModule": {
+            "collaborators": [
+              {
+                "class": "OTHER",
+                "name": "Aalborg University Hospital"
+              }
+            ],
+            "leadSponsor": {
+              "class": "OTHER",
+              "name": "Rigshospitalet, Denmark"
+            },
+            "responsibleParty": {
+              "investigatorAffiliation": "Rigshospitalet, Denmark",
+              "investigatorFullName": "S\u00f8ren Jacobsen",
+              "investigatorTitle": "Professor, MD, DMSc",
+              "type": "PRINCIPAL_INVESTIGATOR"
+            }
+          },
+          "statusModule": {
+            "completionDateStruct": {
+              "date": "2023-08-23",
+              "type": "ACTUAL"
+            },
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "lastUpdatePostDateStruct": {
+              "date": "2025-09-26",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-09-24",
+            "overallStatus": "COMPLETED",
+            "primaryCompletionDateStruct": {
+              "date": "2023-08-23",
+              "type": "ACTUAL"
+            },
+            "startDateStruct": {
+              "date": "2022-08-24",
+              "type": "ACTUAL"
+            },
+            "statusVerifiedDate": "2025-09",
+            "studyFirstPostDateStruct": {
+              "date": "2022-04-07",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2022-02-25",
+            "studyFirstSubmitQcDate": "2022-04-06"
+          }
+        }
+      }
+    ],
+    "totalCount": 65
+  },
+  "status": "ok",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.term=IL6R&query.cond=autoimmune+OR+multiple+sclerosis+OR+rheumatoid+arthritis+OR+lupus+OR+Crohn+OR+psoriasis&format=json&pageSize=1&countTotal=true"
+}

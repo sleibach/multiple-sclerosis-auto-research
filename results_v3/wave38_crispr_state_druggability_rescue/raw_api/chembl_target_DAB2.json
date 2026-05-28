@@ -1,0 +1,688 @@
+{
+  "page_meta": {
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Disabled homolog 2-interacting protein",
+      "score": 19.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL4523330",
+      "target_components": [
+        {
+          "accession": "Q5VWQ8",
+          "component_description": "Disabled homolog 2-interacting protein",
+          "component_id": 18834,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "AF9Q34",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "AIP-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "AIP1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "ASK-interacting protein 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "DAB2-interacting protein",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "DAB2 interaction protein",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "DAB2IP",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Disabled homolog 2-interacting protein",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "DOC-2/DAB-2 interactive protein",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "KIAA1743",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Synonyms=AF9Q34",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "Q5VWQ8",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "Q5VWQ8",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0030424",
+              "xref_name": "axon",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0030425",
+              "xref_name": "dendrite",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0032809",
+              "xref_name": "neuronal cell body membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0042995",
+              "xref_name": "cell projection",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0043025",
+              "xref_name": "neuronal cell body",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0044300",
+              "xref_name": "cerebellar mossy fiber",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0044301",
+              "xref_name": "climbing fiber",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:1990032",
+              "xref_name": "parallel fiber",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:1990597",
+              "xref_name": "AIP1-IRE1 complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005096",
+              "xref_name": "GTPase activator activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005123",
+              "xref_name": "death receptor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0017124",
+              "xref_name": "SH3 domain binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019900",
+              "xref_name": "kinase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019901",
+              "xref_name": "protein kinase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0031434",
+              "xref_name": "mitogen-activated protein kinase kinase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0031435",
+              "xref_name": "mitogen-activated protein kinase kinase kinase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0032266",
+              "xref_name": "phosphatidylinositol-3-phosphate binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0035591",
+              "xref_name": "signaling adaptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0035662",
+              "xref_name": "Toll-like receptor 4 binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0036312",
+              "xref_name": "phosphatidylinositol 3-kinase regulatory subunit binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042802",
+              "xref_name": "identical protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042803",
+              "xref_name": "protein homodimerization activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0043184",
+              "xref_name": "vascular endothelial growth factor receptor 2 binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0043548",
+              "xref_name": "phosphatidylinositol 3-kinase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0045296",
+              "xref_name": "cadherin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0051721",
+              "xref_name": "protein phosphatase 2A binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0070273",
+              "xref_name": "phosphatidylinositol-4-phosphate binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0071889",
+              "xref_name": "14-3-3 protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0000122",
+              "xref_name": "negative regulation of transcription by RNA polymerase II",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001525",
+              "xref_name": "angiogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006915",
+              "xref_name": "apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006986",
+              "xref_name": "response to unfolded protein",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008285",
+              "xref_name": "negative regulation of cell population proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008625",
+              "xref_name": "extrinsic apoptotic signaling pathway via death domain receptors",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010596",
+              "xref_name": "negative regulation of endothelial cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010633",
+              "xref_name": "negative regulation of epithelial cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010719",
+              "xref_name": "negative regulation of epithelial to mesenchymal transition",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010976",
+              "xref_name": "positive regulation of neuron projection development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016525",
+              "xref_name": "negative regulation of angiogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0021814",
+              "xref_name": "cell motility involved in cerebral cortex radial glia guided migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0021819",
+              "xref_name": "layer formation in cerebral cortex",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030948",
+              "xref_name": "negative regulation of vascular endothelial growth factor receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031334",
+              "xref_name": "positive regulation of protein-containing complex assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034144",
+              "xref_name": "negative regulation of toll-like receptor 4 signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034260",
+              "xref_name": "negative regulation of GTPase activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034620",
+              "xref_name": "cellular response to unfolded protein",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035148",
+              "xref_name": "tube formation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035556",
+              "xref_name": "intracellular signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0036324",
+              "xref_name": "vascular endothelial growth factor receptor-2 signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042059",
+              "xref_name": "negative regulation of epidermal growth factor receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042177",
+              "xref_name": "negative regulation of protein catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043065",
+              "xref_name": "positive regulation of apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043087",
+              "xref_name": "regulation of GTPase activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043122",
+              "xref_name": "regulation of canonical NF-kappaB signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043123",
+              "xref_name": "positive regulation of canonical NF-kappaB signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043124",
+              "xref_name": "negative regulation of canonical NF-kappaB signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043254",
+              "xref_name": "regulation of protein-containing complex assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043407",
+              "xref_name": "negative regulation of MAP kinase activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043410",
+              "xref_name": "positive regulation of MAPK cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043507",
+              "xref_name": "positive regulation of JUN kinase activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045087",
+              "xref_name": "innate immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045732",
+              "xref_name": "positive regulation of protein catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045892",
+              "xref_name": "negative regulation of DNA-templated transcription",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045944",
+              "xref_name": "positive regulation of transcription by RNA polymerase II",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046330",
+              "xref_name": "positive regulation of JNK cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046580",
+              "xref_name": "negative regulation of Ras protein signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048147",
+              "xref_name": "negative regulation of fibroblast proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048812",
+              "xref_name": "neuron projection morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050680",
+              "xref_name": "negative regulation of epithelial cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051726",
+              "xref_name": "regulation of cell cycle",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051898",
+              "xref_name": "negative regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070059",
+              "xref_name": "intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070317",
+              "xref_name": "negative regulation of G0 to G1 transition",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070373",
+              "xref_name": "negative regulation of ERK1 and ERK2 cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071222",
+              "xref_name": "cellular response to lipopolysaccharide",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071901",
+              "xref_name": "negative regulation of protein serine/threonine kinase activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071902",
+              "xref_name": "positive regulation of protein serine/threonine kinase activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0072577",
+              "xref_name": "endothelial cell apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0090090",
+              "xref_name": "negative regulation of canonical Wnt signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0090129",
+              "xref_name": "positive regulation of synapse maturation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1900006",
+              "xref_name": "positive regulation of dendrite development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1900744",
+              "xref_name": "regulation of p38MAPK cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1900747",
+              "xref_name": "negative regulation of vascular endothelial growth factor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1901800",
+              "xref_name": "positive regulation of proteasomal protein catabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1903896",
+              "xref_name": "positive regulation of IRE1-mediated unfolded protein response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2001224",
+              "xref_name": "positive regulation of neuron migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2001235",
+              "xref_name": "positive regulation of apoptotic signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:17294",
+              "xref_name": "DAB2IP",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "Q5VWQ8",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR000008",
+              "xref_name": "C2_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001849",
+              "xref_name": "PH_domain",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001936",
+              "xref_name": "RasGAP_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR008936",
+              "xref_name": "Rho_GTPase_activation_prot",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR011993",
+              "xref_name": "PH-like_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR021887",
+              "xref_name": "DAB2P_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR023152",
+              "xref_name": "RasGAP_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR035892",
+              "xref_name": "C2_domain_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR039360",
+              "xref_name": "Ras_GTPase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR057606",
+              "xref_name": "SynGAP1-like_PH",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10194",
+              "xref_name": "RAS GTPASE-ACTIVATING PROTEINS",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10194:SF26",
+              "xref_name": "DISABLED HOMOLOG 2-INTERACTING PROTEIN",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00168",
+              "xref_name": "C2",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF00616",
+              "xref_name": "RasGAP",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF12004",
+              "xref_name": "DAB2P_C",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF25321",
+              "xref_name": "PH_RASGAP",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA27133",
+              "xref_name": "DAB2 interacting protein",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "Q5VWQ8",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-5658442",
+              "xref_name": "Regulation of RAS by GAPs",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "A6H8V2",
+              "xref_name": "Disabled homolog 2-interacting protein",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "A6NHI9",
+              "xref_name": "Disabled homolog 2-interacting protein",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "B0QZB1",
+              "xref_name": "Disabled homolog 2-interacting protein",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "G3XA90",
+              "xref_name": "Disabled homolog 2-interacting protein",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q5VWQ8",
+              "xref_name": "Disabled homolog 2-interacting protein",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8TDL2",
+              "xref_name": "Disabled homolog 2-interacting protein",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q96SE1",
+              "xref_name": "Disabled homolog 2-interacting protein",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9C0C0",
+              "xref_name": "Disabled homolog 2-interacting protein",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

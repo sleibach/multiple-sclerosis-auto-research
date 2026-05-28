@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr2",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000085978.21",
+        "geneSymbol": "ATG16L1",
+        "geneSymbolUpper": "ATG16L1",
+        "nes": 0.156879,
+        "ontologyId": "UBERON:0001157",
+        "pValue": 2.05009e-05,
+        "pos": 233234402,
+        "snpId": "rs34701569",
+        "snpIdUpper": "RS34701569",
+        "tissueSiteDetailId": "Colon_Transverse",
+        "variantId": "chr2_233234402_C_G_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 75,
+      "page": 0,
+      "totalNumberOfItems": 75
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000085978.21&tissueSiteDetailId=Colon_Transverse&datasetId=gtex_v8&itemsPerPage=1"
+}

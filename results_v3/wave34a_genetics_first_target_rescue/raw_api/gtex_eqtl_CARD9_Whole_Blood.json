@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr9",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000187796.13",
+        "geneSymbol": "CARD9",
+        "geneSymbolUpper": "CARD9",
+        "nes": -0.271012,
+        "ontologyId": "UBERON:0013756",
+        "pValue": 5.73702e-05,
+        "pos": 136318558,
+        "snpId": "rs1014152426",
+        "snpIdUpper": "RS1014152426",
+        "tissueSiteDetailId": "Whole_Blood",
+        "variantId": "chr9_136318558_G_T_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 299,
+      "page": 0,
+      "totalNumberOfItems": 299
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000187796.13&tissueSiteDetailId=Whole_Blood&datasetId=gtex_v8&itemsPerPage=1"
+}

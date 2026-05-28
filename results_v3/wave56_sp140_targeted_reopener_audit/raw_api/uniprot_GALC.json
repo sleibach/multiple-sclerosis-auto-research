@@ -1,0 +1,1472 @@
+{
+  "results": [
+    {
+      "annotationScore": 2.0,
+      "comments": [
+        {
+          "commentType": "CATALYTIC ACTIVITY",
+          "physiologicalReactions": [
+            {
+              "directionType": "left-to-right",
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "id": "ARBA00023982",
+                  "source": "ARBA"
+                }
+              ],
+              "reactionCrossReference": {
+                "database": "Rhea",
+                "id": "RHEA:43413"
+              }
+            }
+          ],
+          "reaction": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000256",
+                "id": "ARBA00023982",
+                "source": "ARBA"
+              }
+            ],
+            "name": "a D-galactosylceramide + H2O = an N-acyl-sphingoid base + D-galactose",
+            "reactionCrossReferences": [
+              {
+                "database": "Rhea",
+                "id": "RHEA:43412"
+              },
+              {
+                "database": "ChEBI",
+                "id": "CHEBI:4139"
+              },
+              {
+                "database": "ChEBI",
+                "id": "CHEBI:15377"
+              },
+              {
+                "database": "ChEBI",
+                "id": "CHEBI:36498"
+              },
+              {
+                "database": "ChEBI",
+                "id": "CHEBI:83273"
+              }
+            ]
+          }
+        },
+        {
+          "commentType": "CATALYTIC ACTIVITY",
+          "physiologicalReactions": [
+            {
+              "directionType": "left-to-right",
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "id": "ARBA00048813",
+                  "source": "ARBA"
+                }
+              ],
+              "reactionCrossReference": {
+                "database": "Rhea",
+                "id": "RHEA:43909"
+              }
+            }
+          ],
+          "reaction": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000256",
+                "id": "ARBA00048813",
+                "source": "ARBA"
+              }
+            ],
+            "name": "beta-D-galactosyl-(1<->1)-sphing-4-enine + H2O = sphing-4-enine + D-galactose",
+            "reactionCrossReferences": [
+              {
+                "database": "Rhea",
+                "id": "RHEA:43908"
+              },
+              {
+                "database": "ChEBI",
+                "id": "CHEBI:4139"
+              },
+              {
+                "database": "ChEBI",
+                "id": "CHEBI:15377"
+              },
+              {
+                "database": "ChEBI",
+                "id": "CHEBI:57756"
+              },
+              {
+                "database": "ChEBI",
+                "id": "CHEBI:57934"
+              }
+            ]
+          }
+        },
+        {
+          "commentType": "SIMILARITY",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "id": "ARBA00005637",
+                  "source": "ARBA"
+                }
+              ],
+              "value": "Belongs to the glycosyl hydrolase 59 family"
+            }
+          ]
+        }
+      ],
+      "entryAudit": {
+        "entryVersion": 56,
+        "firstPublicDate": "2014-10-29",
+        "lastAnnotationUpdateDate": "2026-01-28",
+        "lastSequenceUpdateDate": "2014-10-29",
+        "sequenceVersion": 1
+      },
+      "entryType": "UniProtKB unreviewed (TrEMBL)",
+      "extraAttributes": {
+        "countByCommentType": {
+          "CATALYTIC ACTIVITY": 2,
+          "SIMILARITY": 1
+        },
+        "countByFeatureType": {
+          "Active site": 2,
+          "Chain": 1,
+          "Domain": 2,
+          "Non-terminal residue": 1,
+          "Signal": 1
+        },
+        "uniParcId": "UPI0004620CE7"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "SignalP",
+              "source": "SAM"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 39
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 1
+            }
+          },
+          "type": "Signal"
+        },
+        {
+          "description": "Galactocerebrosidase",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "SignalP",
+              "source": "SAM"
+            }
+          ],
+          "featureId": "PRO_5001832016",
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 404
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 40
+            }
+          },
+          "type": "Chain"
+        },
+        {
+          "description": "Glycosyl hydrolase family 59 catalytic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000259",
+              "id": "PF02057",
+              "source": "Pfam"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 346
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 52
+            }
+          },
+          "type": "Domain"
+        },
+        {
+          "description": "Glycosyl hydrolase family 59 central",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000259",
+              "id": "PF17387",
+              "source": "Pfam"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 385
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 354
+            }
+          },
+          "type": "Domain"
+        },
+        {
+          "description": "Proton donor/acceptor",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "PIRSR601286-50",
+              "source": "PIRSR"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 195
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 195
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "Nucleophile",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "PIRSR601286-50",
+              "source": "PIRSR"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 271
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 271
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ENSP00000480649.1",
+              "source": "Ensembl"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 1
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 1
+            }
+          },
+          "type": "Non-terminal residue"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "id": "ENSP00000480649.1",
+                "source": "Ensembl"
+              }
+            ],
+            "value": "GALC"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "category": "PTM",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00023157",
+              "source": "ARBA"
+            }
+          ],
+          "id": "KW-1015",
+          "name": "Disulfide bond"
+        },
+        {
+          "category": "PTM",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00023180",
+              "source": "ARBA"
+            }
+          ],
+          "id": "KW-0325",
+          "name": "Glycoprotein"
+        },
+        {
+          "category": "Molecular function",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00023295",
+              "source": "ARBA"
+            }
+          ],
+          "id": "KW-0326",
+          "name": "Glycosidase"
+        },
+        {
+          "category": "Molecular function",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00022801",
+              "source": "ARBA"
+            }
+          ],
+          "id": "KW-0378",
+          "name": "Hydrolase"
+        },
+        {
+          "category": "Biological process",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00022963",
+              "source": "ARBA"
+            }
+          ],
+          "id": "KW-0442",
+          "name": "Lipid degradation"
+        },
+        {
+          "category": "Biological process",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00023098",
+              "source": "ARBA"
+            }
+          ],
+          "id": "KW-0443",
+          "name": "Lipid metabolism"
+        },
+        {
+          "category": "Technical term",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0007829",
+              "id": "A0A087WX10",
+              "source": "PeptideAtlas"
+            },
+            {
+              "evidenceCode": "ECO:0007829",
+              "id": "A0A087WX10",
+              "source": "ProteomicsDB"
+            }
+          ],
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "UP000005640",
+              "source": "Proteomes"
+            }
+          ],
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00022729",
+              "source": "ARBA"
+            },
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "SignalP",
+              "source": "SAM"
+            }
+          ],
+          "id": "KW-0732",
+          "name": "Signal"
+        },
+        {
+          "category": "Biological process",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00022919",
+              "source": "ARBA"
+            }
+          ],
+          "id": "KW-0746",
+          "name": "Sphingolipid metabolism"
+        }
+      ],
+      "organism": {
+        "commonName": "Human",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000313",
+            "id": "ENSP00000480649.1",
+            "source": "Ensembl"
+          },
+          {
+            "evidenceCode": "ECO:0000313",
+            "id": "UP000005640",
+            "source": "Proteomes"
+          }
+        ],
+        "lineage": [
+          "Eukaryota",
+          "Metazoa",
+          "Chordata",
+          "Craniata",
+          "Vertebrata",
+          "Euteleostomi",
+          "Mammalia",
+          "Eutheria",
+          "Euarchontoglires",
+          "Primates",
+          "Haplorrhini",
+          "Catarrhini",
+          "Hominidae",
+          "Homo"
+        ],
+        "scientificName": "Homo sapiens",
+        "taxonId": 9606
+      },
+      "primaryAccession": "A0A087WX10",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "id": "ARBA00033098",
+                  "source": "ARBA"
+                }
+              ],
+              "value": "Galactosylceramidase"
+            }
+          }
+        ],
+        "flag": "Fragment",
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "id": "ARBA00012657",
+                  "source": "ARBA"
+                }
+              ],
+              "value": "3.2.1.46"
+            }
+          ],
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000256",
+                "id": "ARBA00019657",
+                "source": "ARBA"
+              }
+            ],
+            "value": "Galactocerebrosidase"
+          }
+        }
+      },
+      "proteinExistence": "1: Evidence at protein level",
+      "references": [
+        {
+          "citation": {
+            "authoringGroup": [
+              "International Human Genome Sequencing Consortium"
+            ],
+            "authors": [
+              "Lander E.S.",
+              "Linton L.M.",
+              "Birren B.",
+              "Nusbaum C.",
+              "Zody M.C.",
+              "Baldwin J.",
+              "Devon K.",
+              "Dewar K.",
+              "Doyle M.",
+              "FitzHugh W.",
+              "Funke R.",
+              "Gage D.",
+              "Harris K.",
+              "Heaford A.",
+              "Howland J.",
+              "Kann L.",
+              "Lehoczky J.",
+              "LeVine R.",
+              "McEwan P.",
+              "McKernan K.",
+              "Meldrim J.",
+              "Mesirov J.P.",
+              "Miranda C.",
+              "Morris W.",
+              "Naylor J.",
+              "Raymond C.",
+              "Rosetti M.",
+              "Santos R.",
+              "Sheridan A.",
+              "Sougnez C.",
+              "Stange-Thomann N.",
+              "Stojanovic N.",
+              "Subramanian A.",
+              "Wyman D.",
+              "Rogers J.",
+              "Sulston J.",
+              "Ainscough R.",
+              "Beck S.",
+              "Bentley D.",
+              "Burton J.",
+              "Clee C.",
+              "Carter N.",
+              "Coulson A.",
+              "Deadman R.",
+              "Deloukas P.",
+              "Dunham A.",
+              "Dunham I.",
+              "Durbin R.",
+              "French L.",
+              "Grafham D.",
+              "Gregory S.",
+              "Hubbard T.",
+              "Humphray S.",
+              "Hunt A.",
+              "Jones M.",
+              "Lloyd C.",
+              "McMurray A.",
+              "Matthews L.",
+              "Mercer S.",
+              "Milne S.",
+              "Mullikin J.C.",
+              "Mungall A.",
+              "Plumb R.",
+              "Ross M.",
+              "Shownkeen R.",
+              "Sims S.",
+              "Waterston R.H.",
+              "Wilson R.K.",
+              "Hillier L.W.",
+              "McPherson J.D.",
+              "Marra M.A.",
+              "Mardis E.R.",
+              "Fulton L.A.",
+              "Chinwalla A.T.",
+              "Pepin K.H.",
+              "Gish W.R.",
+              "Chissoe S.L.",
+              "Wendl M.C.",
+              "Delehaunty K.D.",
+              "Miner T.L.",
+              "Delehaunty A.",
+              "Kramer J.B.",
+              "Cook L.L.",
+              "Fulton R.S.",
+              "Johnson D.L.",
+              "Minx P.J.",
+              "Clifton S.W.",
+              "Hawkins T.",
+              "Branscomb E.",
+              "Predki P.",
+              "Richardson P.",
+              "Wenning S.",
+              "Slezak T.",
+              "Doggett N.",
+              "Cheng J.F.",
+              "Olsen A.",
+              "Lucas S.",
+              "Elkin C.",
+              "Uberbacher E.",
+              "Frazier M.",
+              "Gibbs R.A.",
+              "Muzny D.M.",
+              "Scherer S.E.",
+              "Bouck J.B.",
+              "Sodergren E.J.",
+              "Worley K.C.",
+              "Rives C.M.",
+              "Gorrell J.H.",
+              "Metzker M.L.",
+              "Naylor S.L.",
+              "Kucherlapati R.S.",
+              "Nelson D.L.",
+              "Weinstock G.M.",
+              "Sakaki Y.",
+              "Fujiyama A.",
+              "Hattori M.",
+              "Yada T.",
+              "Toyoda A.",
+              "Itoh T.",
+              "Kawagoe C.",
+              "Watanabe H.",
+              "Totoki Y.",
+              "Taylor T.",
+              "Weissenbach J.",
+              "Heilig R.",
+              "Saurin W.",
+              "Artiguenave F.",
+              "Brottier P.",
+              "Bruls T.",
+              "Pelletier E.",
+              "Robert C.",
+              "Wincker P.",
+              "Smith D.R.",
+              "Doucette-Stamm L.",
+              "Rubenfield M.",
+              "Weinstock K.",
+              "Lee H.M.",
+              "Dubois J.",
+              "Rosenthal A.",
+              "Platzer M.",
+              "Nyakatura G.",
+              "Taudien S.",
+              "Rump A.",
+              "Yang H.",
+              "Yu J.",
+              "Wang J.",
+              "Huang G.",
+              "Gu J.",
+              "Hood L.",
+              "Rowen L.",
+              "Madan A.",
+              "Qin S.",
+              "Davis R.W.",
+              "Federspiel N.A.",
+              "Abola A.P.",
+              "Proctor M.J.",
+              "Myers R.M.",
+              "Schmutz J.",
+              "Dickson M.",
+              "Grimwood J.",
+              "Cox D.R.",
+              "Olson M.V.",
+              "Kaul R.",
+              "Raymond C.",
+              "Shimizu N.",
+              "Kawasaki K.",
+              "Minoshima S.",
+              "Evans G.A.",
+              "Athanasiou M.",
+              "Schultz R.",
+              "Roe B.A.",
+              "Chen F.",
+              "Pan H.",
+              "Ramser J.",
+              "Lehrach H.",
+              "Reinhardt R.",
+              "McCombie W.R.",
+              "de la Bastide M.",
+              "Dedhia N.",
+              "Blocker H.",
+              "Hornischer K.",
+              "Nordsiek G.",
+              "Agarwala R.",
+              "Aravind L.",
+              "Bailey J.A.",
+              "Bateman A.",
+              "Batzoglou S.",
+              "Birney E.",
+              "Bork P.",
+              "Brown D.G.",
+              "Burge C.B.",
+              "Cerutti L.",
+              "Chen H.C.",
+              "Church D.",
+              "Clamp M.",
+              "Copley R.R.",
+              "Doerks T.",
+              "Eddy S.R.",
+              "Eichler E.E.",
+              "Furey T.S.",
+              "Galagan J.",
+              "Gilbert J.G.",
+              "Harmon C.",
+              "Hayashizaki Y.",
+              "Haussler D.",
+              "Hermjakob H.",
+              "Hokamp K.",
+              "Jang W.",
+              "Johnson L.S.",
+              "Jones T.A.",
+              "Kasif S.",
+              "Kaspryzk A.",
+              "Kennedy S.",
+              "Kent W.J.",
+              "Kitts P.",
+              "Koonin E.V.",
+              "Korf I.",
+              "Kulp D.",
+              "Lancet D.",
+              "Lowe T.M.",
+              "McLysaght A.",
+              "Mikkelsen T.",
+              "Moran J.V.",
+              "Mulder N.",
+              "Pollara V.J.",
+              "Ponting C.P.",
+              "Schuler G.",
+              "Schultz J.",
+              "Slater G.",
+              "Smit A.F.",
+              "Stupka E.",
+              "Szustakowski J.",
+              "Thierry-Mieg D.",
+              "Thierry-Mieg J.",
+              "Wagner L.",
+              "Wallis J.",
+              "Wheeler R.",
+              "Williams A.",
+              "Wolf Y.I.",
+              "Wolfe K.H.",
+              "Yang S.P.",
+              "Yeh R.F.",
+              "Collins F.",
+              "Guyer M.S.",
+              "Peterson J.",
+              "Felsenfeld A.",
+              "Wetterstrand K.A.",
+              "Patrinos A.",
+              "Morgan M.J.",
+              "de Jong P.",
+              "Catanese J.J.",
+              "Osoegawa K.",
+              "Shizuya H.",
+              "Choi S.",
+              "Chen Y.J."
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "11237011"
+              },
+              {
+                "database": "DOI",
+                "id": "10.1038/35057062"
+              }
+            ],
+            "citationType": "journal article",
+            "firstPage": "860",
+            "id": "11237011",
+            "journal": "Nature",
+            "lastPage": "921",
+            "publicationDate": "2001",
+            "title": "Initial sequencing and analysis of the human genome.",
+            "volume": "409"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ENSP00000480649.1",
+              "source": "Ensembl"
+            },
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "UP000005640",
+              "source": "Proteomes"
+            }
+          ],
+          "referenceNumber": 1,
+          "referencePositions": [
+            "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+          ]
+        },
+        {
+          "citation": {
+            "authors": [
+              "Heilig R.",
+              "Eckenberg R.",
+              "Petit J.L.",
+              "Fonknechten N.",
+              "Da Silva C.",
+              "Cattolico L.",
+              "Levy M.",
+              "Barbe V.",
+              "de Berardinis V.",
+              "Ureta-Vidal A.",
+              "Pelletier E.",
+              "Vico V.",
+              "Anthouard V.",
+              "Rowen L.",
+              "Madan A.",
+              "Qin S.",
+              "Sun H.",
+              "Du H.",
+              "Pepin K.",
+              "Artiguenave F.",
+              "Robert C.",
+              "Cruaud C.",
+              "Bruls T.",
+              "Jaillon O.",
+              "Friedlander L.",
+              "Samson G.",
+              "Brottier P.",
+              "Cure S.",
+              "Segurens B.",
+              "Aniere F.",
+              "Samain S.",
+              "Crespeau H.",
+              "Abbasi N.",
+              "Aiach N.",
+              "Boscus D.",
+              "Dickhoff R.",
+              "Dors M.",
+              "Dubois I.",
+              "Friedman C.",
+              "Gouyvenoux M.",
+              "James R.",
+              "Madan A.",
+              "Mairey-Estrada B.",
+              "Mangenot S.",
+              "Martins N.",
+              "Menard M.",
+              "Oztas S.",
+              "Ratcliffe A.",
+              "Shaffer T.",
+              "Trask B.",
+              "Vacherie B.",
+              "Bellemere C.",
+              "Belser C.",
+              "Besnard-Gonnet M.",
+              "Bartol-Mavel D.",
+              "Boutard M.",
+              "Briez-Silla S.",
+              "Combette S.",
+              "Dufosse-Laurent V.",
+              "Ferron C.",
+              "Lechaplais C.",
+              "Louesse C.",
+              "Muselet D.",
+              "Magdelenat G.",
+              "Pateau E.",
+              "Petit E.",
+              "Sirvain-Trukniewicz P.",
+              "Trybou A.",
+              "Vega-Czarny N.",
+              "Bataille E.",
+              "Bluet E.",
+              "Bordelais I.",
+              "Dubois M.",
+              "Dumont C.",
+              "Guerin T.",
+              "Haffray S.",
+              "Hammadi R.",
+              "Muanga J.",
+              "Pellouin V.",
+              "Robert D.",
+              "Wunderle E.",
+              "Gauguet G.",
+              "Roy A.",
+              "Sainte-Marthe L.",
+              "Verdier J.",
+              "Verdier-Discala C.",
+              "Hillier L.",
+              "Fulton L.",
+              "McPherson J.",
+              "Matsuda F.",
+              "Wilson R.",
+              "Scarpelli C.",
+              "Gyapay G.",
+              "Wincker P.",
+              "Saurin W.",
+              "Quetier F.",
+              "Waterston R.",
+              "Hood L.",
+              "Weissenbach J."
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "12508121"
+              },
+              {
+                "database": "DOI",
+                "id": "10.1038/nature01348"
+              }
+            ],
+            "citationType": "journal article",
+            "firstPage": "601",
+            "id": "12508121",
+            "journal": "Nature",
+            "lastPage": "607",
+            "publicationDate": "2003",
+            "title": "The DNA sequence and analysis of human chromosome 14.",
+            "volume": "421"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ENSP00000480649.1",
+              "source": "Ensembl"
+            },
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "UP000005640",
+              "source": "Proteomes"
+            }
+          ],
+          "referenceNumber": 2,
+          "referencePositions": [
+            "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+          ]
+        },
+        {
+          "citation": {
+            "authoringGroup": [
+              "International Human Genome Sequencing Consortium"
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "15496913"
+              },
+              {
+                "database": "DOI",
+                "id": "10.1038/nature03001"
+              }
+            ],
+            "citationType": "journal article",
+            "firstPage": "931",
+            "id": "15496913",
+            "journal": "Nature",
+            "lastPage": "945",
+            "publicationDate": "2004",
+            "title": "Finishing the euchromatic sequence of the human genome.",
+            "volume": "431"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ENSP00000480649.1",
+              "source": "Ensembl"
+            },
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "UP000005640",
+              "source": "Proteomes"
+            }
+          ],
+          "referenceNumber": 3,
+          "referencePositions": [
+            "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+          ]
+        },
+        {
+          "citation": {
+            "authoringGroup": [
+              "Ensembl"
+            ],
+            "citationType": "submission",
+            "id": "CI-20IMDPQG5KTS4",
+            "publicationDate": "AUG-2025",
+            "submissionDatabase": "UniProtKB"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ENSP00000480649.1",
+              "source": "Ensembl"
+            }
+          ],
+          "referenceNumber": 4,
+          "referencePositions": [
+            "IDENTIFICATION"
+          ]
+        },
+        {
+          "citation": {
+            "authoringGroup": [
+              "Ensembl"
+            ],
+            "citationType": "submission",
+            "id": "CI-20IMJ6JJ0DQF4",
+            "publicationDate": "SEP-2025",
+            "submissionDatabase": "UniProtKB"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ENSP00000480649.1",
+              "source": "Ensembl"
+            }
+          ],
+          "referenceNumber": 5,
+          "referencePositions": [
+            "IDENTIFICATION"
+          ]
+        }
+      ],
+      "sequence": {
+        "crc64": "AF684E3798ECB210",
+        "length": 404,
+        "md5": "A529CFCA4091AA32D7BB75316B4C8CA8",
+        "molWeight": 45328,
+        "value": "XLLSASWQRRAKAMTAAAGSAGRAAVPLLLCALLAPGGAYVLDDSDGLGREFDGIGAVSGGGATSRLLVNYPEPYRSQILDYLFKPNFGASLHILKVEIGGDGQTTDGTEPSHMHYALDENYFRGYEWWLMKEAKKRNPNITLIGLPWSFPGWLGKGFDWPYVNLQLTAYYVVTWIVGAKRYHDLDIDYIGIWNERSYNANYIKILRKMLNYQGLQRVKIIASDNLWESISASMLLDAELFKVVDVIGAHYPGTHSAKDAKLTGKKLWSSEDFSTLNSDMGAGCWGRILNQNYINGYMTSTIAWNLVASYYEQLPYGRCGLMTAQEPWSGHYVVESPVWVSAHTTQFTQPGWYYLKTVGHLEKGGSYVALTDGLGNLTIIIETMVNFCCCYWINSLLYYWKNKI"
+      },
+      "uniProtKBCrossReferences": [
+        {
+          "database": "EMBL",
+          "id": "AL136501",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "-"
+            },
+            {
+              "key": "Status",
+              "value": "NOT_ANNOTATED_CDS"
+            },
+            {
+              "key": "MoleculeType",
+              "value": "Genomic_DNA"
+            }
+          ]
+        },
+        {
+          "database": "EMBL",
+          "id": "AL157955",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "-"
+            },
+            {
+              "key": "Status",
+              "value": "NOT_ANNOTATED_CDS"
+            },
+            {
+              "key": "MoleculeType",
+              "value": "Genomic_DNA"
+            }
+          ]
+        },
+        {
+          "database": "MassIVE",
+          "id": "A0A087WX10",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "Antibodypedia",
+          "id": "26266",
+          "properties": [
+            {
+              "key": "antibodies",
+              "value": "225 antibodies from 28 providers"
+            }
+          ]
+        },
+        {
+          "database": "Ensembl",
+          "id": "ENST00000622264.4",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "ENSP00000480649.1"
+            },
+            {
+              "key": "GeneId",
+              "value": "ENSG00000054983.17"
+            }
+          ]
+        },
+        {
+          "database": "Ensembl",
+          "id": "ENST00000622264.4",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "ENSP00000480649.1"
+            },
+            {
+              "key": "GeneId",
+              "value": "ENSG00000054983.18"
+            }
+          ]
+        },
+        {
+          "database": "UCSC",
+          "id": "uc059eal.1",
+          "properties": [
+            {
+              "key": "OrganismName",
+              "value": "human"
+            }
+          ]
+        },
+        {
+          "database": "HGNC",
+          "id": "HGNC:4115",
+          "properties": [
+            {
+              "key": "GeneName",
+              "value": "GALC"
+            }
+          ]
+        },
+        {
+          "database": "OpenTargets",
+          "id": "ENSG00000054983",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "VEuPathDB",
+          "id": "HostDB:ENSG00000054983",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "GeneTree",
+          "id": "ENSGT00390000003303",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "HOGENOM",
+          "id": "CLU_827881_0_0_1",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "OrthoDB",
+          "id": "440760at2759",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "ChiTaRS",
+          "id": "GALC",
+          "properties": [
+            {
+              "key": "OrganismName",
+              "value": "human"
+            }
+          ]
+        },
+        {
+          "database": "Proteomes",
+          "id": "UP000005640",
+          "properties": [
+            {
+              "key": "Component",
+              "value": "Chromosome 14"
+            }
+          ]
+        },
+        {
+          "database": "Bgee",
+          "id": "ENSG00000054983",
+          "properties": [
+            {
+              "key": "ExpressionPatterns",
+              "value": "Expressed in adrenal tissue and 209 other cell types or tissues"
+            }
+          ]
+        },
+        {
+          "database": "ExpressionAtlas",
+          "id": "A0A087WX10",
+          "properties": [
+            {
+              "key": "ExpressionPatterns",
+              "value": "baseline and differential"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0016020",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "C:membrane"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IEA:GOC"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0004336",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "F:galactosylceramidase activity"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IEA:UniProtKB-EC"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0006683",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:galactosylceramide catabolic process"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IEA:InterPro"
+            }
+          ]
+        },
+        {
+          "database": "FunFam",
+          "id": "3.20.20.70:FF:000091",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "galactocerebrosidase precursor"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "Gene3D",
+          "id": "3.20.20.70",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "Aldolase class I"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "Gene3D",
+          "id": "2.60.40.1180",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "Golgi alpha-mannosidase II"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "InterPro",
+          "id": "IPR013785",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "Aldolase_TIM"
+            }
+          ]
+        },
+        {
+          "database": "InterPro",
+          "id": "IPR017853",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "GH"
+            }
+          ]
+        },
+        {
+          "database": "InterPro",
+          "id": "IPR049161",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "GH59_cat"
+            }
+          ]
+        },
+        {
+          "database": "InterPro",
+          "id": "IPR001286",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "Glyco_hydro_59"
+            }
+          ]
+        },
+        {
+          "database": "InterPro",
+          "id": "IPR035394",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "Glyco_hydro_59_dom"
+            }
+          ]
+        },
+        {
+          "database": "InterPro",
+          "id": "IPR013780",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "Glyco_hydro_b"
+            }
+          ]
+        },
+        {
+          "database": "PANTHER",
+          "id": "PTHR15172",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "GALACTOCEREBROSIDASE"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "PANTHER",
+          "id": "PTHR15172:SF1",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "GALACTOCEREBROSIDASE"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "Pfam",
+          "id": "PF02057",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "Glyco_hydro_59"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "Pfam",
+          "id": "PF17387",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "Glyco_hydro_59M"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "PRINTS",
+          "id": "PR00850",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "GLHYDRLASE59"
+            }
+          ]
+        },
+        {
+          "database": "SUPFAM",
+          "id": "SSF51445",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "(Trans)glycosidases"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        }
+      ],
+      "uniProtkbId": "A0A087WX10_HUMAN"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "data": {
+    "credibleSets": {
+      "count": 1,
+      "rows": [
+        {
+          "beta": -0.10678537433939297,
+          "chromosome": "5",
+          "colocalisation": {
+            "count": 3,
+            "rows": [
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.027391037525942,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9678379322544608,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "interleukin 12B",
+                      "approvedSymbol": "IL12B",
+                      "id": "ENSG00000113302"
+                    },
+                    "traitFromSource": "IL12A_IL12B:P29459_P29460:OID21327:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_IL12B_P29460_OID21327_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.027391037525942,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9678379322544608,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "interleukin 12A",
+                      "approvedSymbol": "IL12A",
+                      "id": "ENSG00000168811"
+                    },
+                    "traitFromSource": "IL12A_IL12B:P29459_P29460:OID21327:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_IL12A_P29459_OID21327_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.026691569997671735,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9673213896013875,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "interleukin 12B",
+                      "approvedSymbol": "IL12B",
+                      "id": "ENSG00000113302"
+                    },
+                    "traitFromSource": "IL12B:P29460:OID20666:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_IL12B_P29460_OID20666_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              }
+            ]
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.8362582921981812,
+                "target": {
+                  "approvedName": "interleukin 12B",
+                  "approvedSymbol": "IL12B",
+                  "id": "ENSG00000113302"
+                }
+              },
+              {
+                "score": 0.052533552050590515,
+                "target": {
+                  "approvedName": "ubiquitin like domain containing CTD phosphatase 1",
+                  "approvedSymbol": "UBLCP1",
+                  "id": "ENSG00000164332"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -13,
+          "pValueMantissa": 3.5517592430114746,
+          "position": 159395637,
+          "purityMeanR2": 0.9775481733309632,
+          "purityMinR2": 0.9352534566433303,
+          "standardError": null,
+          "studyId": "GCST90019015",
+          "studyLocusId": "f401ba075afbd4350cbfca72b7beadef",
+          "studyType": "gwas",
+          "variant": {
+            "id": "5_159395637_G_C",
+            "rsIds": [
+              "rs6887695"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

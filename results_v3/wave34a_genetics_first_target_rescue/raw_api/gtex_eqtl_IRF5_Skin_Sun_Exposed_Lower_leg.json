@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr7",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000128604.19",
+        "geneSymbol": "IRF5",
+        "geneSymbolUpper": "IRF5",
+        "nes": 0.41355,
+        "ontologyId": "UBERON:0004264",
+        "pValue": 8.74513e-05,
+        "pos": 128808257,
+        "snpId": "rs11765411",
+        "snpIdUpper": "RS11765411",
+        "tissueSiteDetailId": "Skin_Sun_Exposed_Lower_leg",
+        "variantId": "chr7_128808257_G_A_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 210,
+      "page": 0,
+      "totalNumberOfItems": 210
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000128604.19&tissueSiteDetailId=Skin_Sun_Exposed_Lower_leg&datasetId=gtex_v8&itemsPerPage=1"
+}

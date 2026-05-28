@@ -1,0 +1,11 @@
+dataset	n_genes	n_samples	transform	note
+GSE156234_Mertk_scRNA_pseudobulk	55537	6	log2cpm	single-cell aggregate pseudobulk by GEO sample suffix; one biological sample per condition, descriptive only
+GSE169160_human_MF_efferocytosis	55198	12	log2p1	human CD14 macrophages plus apoptotic Jurkat cells
+GSE253577_mouse_efferocytosis_timecourse	77	16	log2cpm	mouse Hoxb8 macrophage apoptotic-cell time course
+GSE325329_ifng_il10_phagocytic_macrophages	77	28	log2p1	BMDM IFNg/IL10 polarized phagocytic vs non-phagocytic fractions
+GSE100260_human_LIPA_KO_iPSC_macrophages	16445	6	log2p1	human iPSC macrophage LIPA knockout
+GSE243117_mouse_LipaOE_peritoneal_macrophages	32802	6	identity	RLD-normalized counts; myeloid Lipa overexpression in PM
+GSE285961_mouse_LipaOE_plaque_macrophages	16701	8	identity	RLD-normalized counts; myeloid Lipa overexpression in plaque macrophages
+GSE274954_GpnmbR150X_BMDM_OxLDL	77	12	log2cpm	GpnmbR150X BMDM with and without OxLDL
+GSE287142_RXR_bexarotene_CNS_myeloid	77	18	log2cpm	brain microglia/macrophages BEX vs vehicle
+GSE302857_Trem2KO_cuprizone_microglia	25124	23	log2p1	TPM-normalized WT/Trem2KO cuprizone sorted microglia subsets

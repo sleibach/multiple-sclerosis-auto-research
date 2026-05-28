@@ -1,0 +1,759 @@
+{
+  "data": {
+    "credibleSets": {
+      "count": 11,
+      "rows": [
+        {
+          "beta": 0.070218,
+          "chromosome": "15",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.8279868364334106,
+                "target": {
+                  "approvedName": "leucine rich repeat and Ig domain containing 1",
+                  "approvedSymbol": "LINGO1",
+                  "id": "ENSG00000169783"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -10,
+          "pValueMantissa": 2.9609999656677246,
+          "position": 77619702,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.011144,
+          "studyId": "GCST90014464",
+          "studyLocusId": "4b68d4d94841ce3c4c4b94170fb9ff46",
+          "studyType": "gwas",
+          "variant": {
+            "id": "15_77619702_T_TA",
+            "rsIds": [
+              "rs571149010"
+            ]
+          }
+        },
+        {
+          "beta": 0.09351,
+          "chromosome": "18",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 4,
+            "rows": [
+              {
+                "score": 0.39151111245155334,
+                "target": {
+                  "approvedName": "APC down-regulated 1",
+                  "approvedSymbol": "APCDD1",
+                  "id": "ENSG00000154856"
+                }
+              },
+              {
+                "score": 0.18868893384933472,
+                "target": {
+                  "approvedName": "VAMP associated protein A",
+                  "approvedSymbol": "VAPA",
+                  "id": "ENSG00000101558"
+                }
+              },
+              {
+                "score": 0.09969611465930939,
+                "target": {
+                  "approvedName": "thioredoxin domain containing 2",
+                  "approvedSymbol": "TXNDC2",
+                  "id": "ENSG00000168454"
+                }
+              },
+              {
+                "score": 0.05194665864109993,
+                "target": {
+                  "approvedName": "NSF attachment protein gamma",
+                  "approvedSymbol": "NAPG",
+                  "id": "ENSG00000134265"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -10,
+          "pValueMantissa": 1.0019999742507935,
+          "position": 10181148,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.01446,
+          "studyId": "GCST90014464",
+          "studyLocusId": "4fb1fe168ab737024a242b3e46dc0b82",
+          "studyType": "gwas",
+          "variant": {
+            "id": "18_10181148_T_G",
+            "rsIds": [
+              "rs114781893"
+            ]
+          }
+        },
+        {
+          "beta": 0.01777634146592287,
+          "chromosome": "1",
+          "colocalisation": {
+            "count": 7,
+            "rows": [
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.45733791136624635,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.998814844561045,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "C-X-C motif chemokine ligand 9",
+                      "approvedSymbol": "CXCL9",
+                      "id": "ENSG00000138755"
+                    },
+                    "traitFromSource": "CXCL9:Q07325:OID20675:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_CXCL9_Q07325_OID20675_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.47112711840453547,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9988786893827435,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "C-C motif chemokine ligand 19",
+                      "approvedSymbol": "CCL19",
+                      "id": "ENSG00000172724"
+                    },
+                    "traitFromSource": "CCL19:Q99731:OID21030:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_CCL19_Q99731_OID21030_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.4904726661190149,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9989796971110978,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "programmed cell death 1",
+                      "approvedSymbol": "PDCD1",
+                      "id": "ENSG00000188389"
+                    },
+                    "traitFromSource": "PDCD1:Q15116:OID21396:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_PDCD1_Q15116_OID21396_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.4934650061974357,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9989747127935733,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "CD5 molecule like",
+                      "approvedSymbol": "CD5L",
+                      "id": "ENSG00000073754"
+                    },
+                    "traitFromSource": "CD5L:O43866:OID30775:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_CD5L_O43866_OID30775_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.48142764923511105,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9989266160014103,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "interleukin 10",
+                      "approvedSymbol": "IL10",
+                      "id": "ENSG00000136634"
+                    },
+                    "traitFromSource": "IL10:P22301:OID20431:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_IL10_P22301_OID20431_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.46235826890678944,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9988385957967243,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "chondroadherin",
+                      "approvedSymbol": "CHAD",
+                      "id": "ENSG00000136457"
+                    },
+                    "traitFromSource": "CHAD:O15335:OID30660:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_CHAD_O15335_OID30660_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.03573607957964014,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.975054424241652,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0002037",
+                      "biosampleName": "cerebellum"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "DNA cross-link repair 1B",
+                      "approvedSymbol": "DCLRE1B",
+                      "id": "ENSG00000118655"
+                    },
+                    "traitFromSource": "ENST00000650450"
+                  },
+                  "studyId": "gtex_tx_brain_cerebellum_enst00000650450",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              }
+            ]
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.6939134001731873,
+                "target": {
+                  "approvedName": "protein tyrosine phosphatase non-receptor type 22",
+                  "approvedSymbol": "PTPN22",
+                  "id": "ENSG00000134242"
+                }
+              },
+              {
+                "score": 0.10504315048456192,
+                "target": {
+                  "approvedName": "putative homeodomain transcription factor 1",
+                  "approvedSymbol": "PHTF1",
+                  "id": "ENSG00000116793"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -24,
+          "pValueMantissa": 2.1370644569396973,
+          "position": 113761186,
+          "purityMeanR2": 0.9957334114578602,
+          "purityMinR2": 0.9914668229157203,
+          "standardError": null,
+          "studyId": "GCST90014464",
+          "studyLocusId": "6632550004ea8d59505f34a6d8f3c85b",
+          "studyType": "gwas",
+          "variant": {
+            "id": "1_113761186_C_A",
+            "rsIds": [
+              "rs6679677"
+            ]
+          }
+        },
+        {
+          "beta": 0.015428691354247825,
+          "chromosome": "11",
+          "colocalisation": {
+            "count": 4,
+            "rows": [
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.4034485431441265,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9987641171314522,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001150",
+                      "biosampleName": "body of pancreas"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "insulin",
+                      "approvedSymbol": "INS",
+                      "id": "ENSG00000254647"
+                    },
+                    "traitFromSource": "ENSG00000254647.grp_2.upstream.ENST00000381330"
+                  },
+                  "studyId": "gtex_txrev_pancreas_ensg00000254647_grp_2_upstream_enst00000381330",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.40166509188477606,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9987542073357063,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000006",
+                      "biosampleName": "islet of Langerhans"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "insulin",
+                      "approvedSymbol": "INS",
+                      "id": "ENSG00000254647"
+                    },
+                    "traitFromSource": "ENSG00000254647.grp_1.upstream.ENST00000421783"
+                  },
+                  "studyId": "pisa_txrev_pancreatic_islet_ensg00000254647_grp_1_upstream_enst00000421783",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.005522376025346001,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.8602455791067897,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000006",
+                      "biosampleName": "islet of Langerhans"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "insulin",
+                      "approvedSymbol": "INS",
+                      "id": "ENSG00000254647"
+                    },
+                    "traitFromSource": "ENSG00000254647.grp_1.downstream.ENST00000397262"
+                  },
+                  "studyId": "van_de_bunt_2015_txrev_pancreatic_islet_ensg00000254647_grp_1_downstream_enst00000397262",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.3469018533980366,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9984004414539804,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001150",
+                      "biosampleName": "body of pancreas"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "insulin",
+                      "approvedSymbol": "INS",
+                      "id": "ENSG00000254647"
+                    },
+                    "traitFromSource": "ENST00000381330"
+                  },
+                  "studyId": "gtex_tx_pancreas_enst00000381330",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              }
+            ]
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.8796334862709045,
+                "target": {
+                  "approvedName": "insulin",
+                  "approvedSymbol": "INS",
+                  "id": "ENSG00000254647"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -21,
+          "pValueMantissa": 4.38736629486084,
+          "position": 2160994,
+          "purityMeanR2": 0.8302939881595106,
+          "purityMinR2": 0.6394394391874386,
+          "standardError": null,
+          "studyId": "GCST90014464",
+          "studyLocusId": "79853626eeb0c0dfc7f9fb3e7648469a",
+          "studyType": "gwas",
+          "variant": {
+            "id": "11_2160994_A_T",
+            "rsIds": [
+              "rs689"
+            ]
+          }
+        },
+        {
+          "beta": 0.11818,
+          "chromosome": "7",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.6388862729072571,
+                "target": {
+                  "approvedName": "diacylglycerol kinase beta",
+                  "approvedSymbol": "DGKB",
+                  "id": "ENSG00000136267"
+                }
+              },
+              {
+                "score": 0.15699294209480286,
+                "target": {
+                  "approvedName": "alkylglycerol monooxygenase",
+                  "approvedSymbol": "AGMO",
+                  "id": "ENSG00000187546"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -12,
+          "pValueMantissa": 6.668000221252441,
+          "position": 15082055,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.017215,
+          "studyId": "GCST90014464",
+          "studyLocusId": "8a91317d96d344a643ea9f373e235cdf",
+          "studyType": "gwas",
+          "variant": {
+            "id": "7_15082055_C_A",
+            "rsIds": [
+              "rs2358161"
+            ]
+          }
+        },
+        {
+          "beta": 0.038256,
+          "chromosome": "1",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.2215566486120224,
+                "target": {
+                  "approvedName": "solute carrier family 25 member 44",
+                  "approvedSymbol": "SLC25A44",
+                  "id": "ENSG00000160785"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -8,
+          "pValueMantissa": 1,
+          "position": 156185351,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0066753,
+          "studyId": "GCST90014464",
+          "studyLocusId": "a4767932930ee9a92c79cf692ecc1810",
+          "studyType": "gwas",
+          "variant": {
+            "id": "1_156185351_G_A",
+            "rsIds": [
+              "rs7538810"
+            ]
+          }
+        },
+        {
+          "beta": 0.011678026677592126,
+          "chromosome": "10",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.856553852558136,
+                "target": {
+                  "approvedName": "transcription factor 7 like 2",
+                  "approvedSymbol": "TCF7L2",
+                  "id": "ENSG00000148737"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -10,
+          "pValueMantissa": 2.7883989810943604,
+          "position": 112995025,
+          "purityMeanR2": 0.9342251369739591,
+          "purityMinR2": 0.8283115407591581,
+          "standardError": null,
+          "studyId": "GCST90014464",
+          "studyLocusId": "c0abd99cace4ad4430fc2e349500af5f",
+          "studyType": "gwas",
+          "variant": {
+            "id": "10_112995025_T_C",
+            "rsIds": [
+              "rs35198068"
+            ]
+          }
+        },
+        {
+          "beta": 0.096707,
+          "chromosome": "5",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 0,
+            "rows": []
+          },
+          "pValueExponent": -49,
+          "pValueMantissa": 1.5779999494552612,
+          "position": 117778359,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0065354,
+          "studyId": "GCST90014464",
+          "studyLocusId": "db6e2077046041319d861c2a6e5c974d",
+          "studyType": "gwas",
+          "variant": {
+            "id": "5_117778359_A_G",
+            "rsIds": [
+              "rs79883437"
+            ]
+          }
+        },
+        {
+          "beta": 0.011854,
+          "chromosome": "10",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 3,
+            "rows": [
+              {
+                "score": 0.6977636218070984,
+                "target": {
+                  "approvedName": "FERM domain containing 4A",
+                  "approvedSymbol": "FRMD4A",
+                  "id": "ENSG00000151474"
+                }
+              },
+              {
+                "score": 0.23379798233509064,
+                "target": {
+                  "approvedName": "pre-mRNA processing factor 18",
+                  "approvedSymbol": "PRPF18",
+                  "id": "ENSG00000165630"
+                }
+              },
+              {
+                "score": 0.07906614989042282,
+                "target": {
+                  "approvedName": "BEN domain containing 7",
+                  "approvedSymbol": "BEND7",
+                  "id": "ENSG00000165626"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -11,
+          "pValueMantissa": 2.4210000038146973,
+          "position": 13739195,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0017749,
+          "studyId": "GCST90014464",
+          "studyLocusId": "e449966e700812344c5b7f09b1fd65aa",
+          "studyType": "gwas",
+          "variant": {
+            "id": "10_13739195_A_T",
+            "rsIds": [
+              "rs10906460"
+            ]
+          }
+        },
+        {
+          "beta": 0.088954,
+          "chromosome": "1",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.7164201736450195,
+                "target": {
+                  "approvedName": "divergent protein kinase domain 1A",
+                  "approvedSymbol": "DIPK1A",
+                  "id": "ENSG00000154511"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -14,
+          "pValueMantissa": 1.0759999752044678,
+          "position": 92913385,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.011507,
+          "studyId": "GCST90014464",
+          "studyLocusId": "efa1011d9741bff66288b62ba3d1c978",
+          "studyType": "gwas",
+          "variant": {
+            "id": "1_92913385_A_AG",
+            "rsIds": [
+              "rs397815118"
+            ]
+          }
+        },
+        {
+          "beta": 0.009790336876883791,
+          "chromosome": "7",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.9146071672439575,
+                "target": {
+                  "approvedName": "piccolo presynaptic cytomatrix protein",
+                  "approvedSymbol": "PCLO",
+                  "id": "ENSG00000186472"
+                }
+              },
+              {
+                "score": 0.06656263768672943,
+                "target": {
+                  "approvedName": "semaphorin 3E",
+                  "approvedSymbol": "SEMA3E",
+                  "id": "ENSG00000170381"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -9,
+          "pValueMantissa": 8.009483337402344,
+          "position": 83149202,
+          "purityMeanR2": 1,
+          "purityMinR2": 1,
+          "standardError": null,
+          "studyId": "GCST90014464",
+          "studyLocusId": "f0b40eea5bd2235bc0817cf28ca1c729",
+          "studyType": "gwas",
+          "variant": {
+            "id": "7_83149202_T_A",
+            "rsIds": [
+              "rs78363679"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

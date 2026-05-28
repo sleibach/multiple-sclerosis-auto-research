@@ -1,0 +1,1017 @@
+{
+  "results": [
+    {
+      "annotationScore": 1.0,
+      "entryAudit": {
+        "entryVersion": 102,
+        "firstPublicDate": "2009-03-03",
+        "lastAnnotationUpdateDate": "2026-01-28",
+        "lastSequenceUpdateDate": "2009-03-03",
+        "sequenceVersion": 1
+      },
+      "entryType": "UniProtKB unreviewed (TrEMBL)",
+      "extraAttributes": {
+        "countByFeatureType": {
+          "Chain": 1,
+          "Domain": 1,
+          "Signal": 1
+        },
+        "uniParcId": "UPI0001922183"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "SignalP",
+              "source": "SAM"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 20
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 1
+            }
+          },
+          "type": "Signal"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "SignalP",
+              "source": "SAM"
+            }
+          ],
+          "featureId": "PRO_5014568513",
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 180
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 21
+            }
+          },
+          "type": "Chain"
+        },
+        {
+          "description": "IL-7Ralpha fibronectin type III",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000259",
+              "id": "PF18447",
+              "source": "Pfam"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 127
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 32
+            }
+          },
+          "type": "Domain"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "id": "ENSP00000427688.1",
+                "source": "Ensembl"
+              }
+            ],
+            "value": "IL7R"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0007829",
+              "id": "B8YG18",
+              "source": "PeptideAtlas"
+            },
+            {
+              "evidenceCode": "ECO:0007829",
+              "id": "B8YG18",
+              "source": "ProteomicsDB"
+            }
+          ],
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Molecular function",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ACL80333.1",
+              "source": "EMBL"
+            }
+          ],
+          "id": "KW-0675",
+          "name": "Receptor"
+        },
+        {
+          "category": "Technical term",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "UP000005640",
+              "source": "Proteomes"
+            }
+          ],
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "SignalP",
+              "source": "SAM"
+            }
+          ],
+          "id": "KW-0732",
+          "name": "Signal"
+        }
+      ],
+      "organism": {
+        "commonName": "Human",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000313",
+            "id": "ACL80333.1",
+            "source": "EMBL"
+          }
+        ],
+        "lineage": [
+          "Eukaryota",
+          "Metazoa",
+          "Chordata",
+          "Craniata",
+          "Vertebrata",
+          "Euteleostomi",
+          "Mammalia",
+          "Eutheria",
+          "Euarchontoglires",
+          "Primates",
+          "Haplorrhini",
+          "Catarrhini",
+          "Hominidae",
+          "Homo"
+        ],
+        "scientificName": "Homo sapiens",
+        "taxonId": 9606
+      },
+      "primaryAccession": "B8YG18",
+      "proteinDescription": {
+        "submissionNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000313",
+                  "id": "ACL80333.1",
+                  "source": "EMBL"
+                },
+                {
+                  "evidenceCode": "ECO:0000313",
+                  "id": "ENSP00000427688.1",
+                  "source": "Ensembl"
+                }
+              ],
+              "value": "Interleukin 7 receptor"
+            }
+          }
+        ]
+      },
+      "proteinExistence": "1: Evidence at protein level",
+      "references": [
+        {
+          "citation": {
+            "authoringGroup": [
+              "International Human Genome Sequencing Consortium"
+            ],
+            "authors": [
+              "Lander E.S.",
+              "Linton L.M.",
+              "Birren B.",
+              "Nusbaum C.",
+              "Zody M.C.",
+              "Baldwin J.",
+              "Devon K.",
+              "Dewar K.",
+              "Doyle M.",
+              "FitzHugh W.",
+              "Funke R.",
+              "Gage D.",
+              "Harris K.",
+              "Heaford A.",
+              "Howland J.",
+              "Kann L.",
+              "Lehoczky J.",
+              "LeVine R.",
+              "McEwan P.",
+              "McKernan K.",
+              "Meldrim J.",
+              "Mesirov J.P.",
+              "Miranda C.",
+              "Morris W.",
+              "Naylor J.",
+              "Raymond C.",
+              "Rosetti M.",
+              "Santos R.",
+              "Sheridan A.",
+              "Sougnez C.",
+              "Stange-Thomann N.",
+              "Stojanovic N.",
+              "Subramanian A.",
+              "Wyman D.",
+              "Rogers J.",
+              "Sulston J.",
+              "Ainscough R.",
+              "Beck S.",
+              "Bentley D.",
+              "Burton J.",
+              "Clee C.",
+              "Carter N.",
+              "Coulson A.",
+              "Deadman R.",
+              "Deloukas P.",
+              "Dunham A.",
+              "Dunham I.",
+              "Durbin R.",
+              "French L.",
+              "Grafham D.",
+              "Gregory S.",
+              "Hubbard T.",
+              "Humphray S.",
+              "Hunt A.",
+              "Jones M.",
+              "Lloyd C.",
+              "McMurray A.",
+              "Matthews L.",
+              "Mercer S.",
+              "Milne S.",
+              "Mullikin J.C.",
+              "Mungall A.",
+              "Plumb R.",
+              "Ross M.",
+              "Shownkeen R.",
+              "Sims S.",
+              "Waterston R.H.",
+              "Wilson R.K.",
+              "Hillier L.W.",
+              "McPherson J.D.",
+              "Marra M.A.",
+              "Mardis E.R.",
+              "Fulton L.A.",
+              "Chinwalla A.T.",
+              "Pepin K.H.",
+              "Gish W.R.",
+              "Chissoe S.L.",
+              "Wendl M.C.",
+              "Delehaunty K.D.",
+              "Miner T.L.",
+              "Delehaunty A.",
+              "Kramer J.B.",
+              "Cook L.L.",
+              "Fulton R.S.",
+              "Johnson D.L.",
+              "Minx P.J.",
+              "Clifton S.W.",
+              "Hawkins T.",
+              "Branscomb E.",
+              "Predki P.",
+              "Richardson P.",
+              "Wenning S.",
+              "Slezak T.",
+              "Doggett N.",
+              "Cheng J.F.",
+              "Olsen A.",
+              "Lucas S.",
+              "Elkin C.",
+              "Uberbacher E.",
+              "Frazier M.",
+              "Gibbs R.A.",
+              "Muzny D.M.",
+              "Scherer S.E.",
+              "Bouck J.B.",
+              "Sodergren E.J.",
+              "Worley K.C.",
+              "Rives C.M.",
+              "Gorrell J.H.",
+              "Metzker M.L.",
+              "Naylor S.L.",
+              "Kucherlapati R.S.",
+              "Nelson D.L.",
+              "Weinstock G.M.",
+              "Sakaki Y.",
+              "Fujiyama A.",
+              "Hattori M.",
+              "Yada T.",
+              "Toyoda A.",
+              "Itoh T.",
+              "Kawagoe C.",
+              "Watanabe H.",
+              "Totoki Y.",
+              "Taylor T.",
+              "Weissenbach J.",
+              "Heilig R.",
+              "Saurin W.",
+              "Artiguenave F.",
+              "Brottier P.",
+              "Bruls T.",
+              "Pelletier E.",
+              "Robert C.",
+              "Wincker P.",
+              "Smith D.R.",
+              "Doucette-Stamm L.",
+              "Rubenfield M.",
+              "Weinstock K.",
+              "Lee H.M.",
+              "Dubois J.",
+              "Rosenthal A.",
+              "Platzer M.",
+              "Nyakatura G.",
+              "Taudien S.",
+              "Rump A.",
+              "Yang H.",
+              "Yu J.",
+              "Wang J.",
+              "Huang G.",
+              "Gu J.",
+              "Hood L.",
+              "Rowen L.",
+              "Madan A.",
+              "Qin S.",
+              "Davis R.W.",
+              "Federspiel N.A.",
+              "Abola A.P.",
+              "Proctor M.J.",
+              "Myers R.M.",
+              "Schmutz J.",
+              "Dickson M.",
+              "Grimwood J.",
+              "Cox D.R.",
+              "Olson M.V.",
+              "Kaul R.",
+              "Raymond C.",
+              "Shimizu N.",
+              "Kawasaki K.",
+              "Minoshima S.",
+              "Evans G.A.",
+              "Athanasiou M.",
+              "Schultz R.",
+              "Roe B.A.",
+              "Chen F.",
+              "Pan H.",
+              "Ramser J.",
+              "Lehrach H.",
+              "Reinhardt R.",
+              "McCombie W.R.",
+              "de la Bastide M.",
+              "Dedhia N.",
+              "Blocker H.",
+              "Hornischer K.",
+              "Nordsiek G.",
+              "Agarwala R.",
+              "Aravind L.",
+              "Bailey J.A.",
+              "Bateman A.",
+              "Batzoglou S.",
+              "Birney E.",
+              "Bork P.",
+              "Brown D.G.",
+              "Burge C.B.",
+              "Cerutti L.",
+              "Chen H.C.",
+              "Church D.",
+              "Clamp M.",
+              "Copley R.R.",
+              "Doerks T.",
+              "Eddy S.R.",
+              "Eichler E.E.",
+              "Furey T.S.",
+              "Galagan J.",
+              "Gilbert J.G.",
+              "Harmon C.",
+              "Hayashizaki Y.",
+              "Haussler D.",
+              "Hermjakob H.",
+              "Hokamp K.",
+              "Jang W.",
+              "Johnson L.S.",
+              "Jones T.A.",
+              "Kasif S.",
+              "Kaspryzk A.",
+              "Kennedy S.",
+              "Kent W.J.",
+              "Kitts P.",
+              "Koonin E.V.",
+              "Korf I.",
+              "Kulp D.",
+              "Lancet D.",
+              "Lowe T.M.",
+              "McLysaght A.",
+              "Mikkelsen T.",
+              "Moran J.V.",
+              "Mulder N.",
+              "Pollara V.J.",
+              "Ponting C.P.",
+              "Schuler G.",
+              "Schultz J.",
+              "Slater G.",
+              "Smit A.F.",
+              "Stupka E.",
+              "Szustakowski J.",
+              "Thierry-Mieg D.",
+              "Thierry-Mieg J.",
+              "Wagner L.",
+              "Wallis J.",
+              "Wheeler R.",
+              "Williams A.",
+              "Wolf Y.I.",
+              "Wolfe K.H.",
+              "Yang S.P.",
+              "Yeh R.F.",
+              "Collins F.",
+              "Guyer M.S.",
+              "Peterson J.",
+              "Felsenfeld A.",
+              "Wetterstrand K.A.",
+              "Patrinos A.",
+              "Morgan M.J.",
+              "de Jong P.",
+              "Catanese J.J.",
+              "Osoegawa K.",
+              "Shizuya H.",
+              "Choi S.",
+              "Chen Y.J."
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "11237011"
+              },
+              {
+                "database": "DOI",
+                "id": "10.1038/35057062"
+              }
+            ],
+            "citationType": "journal article",
+            "firstPage": "860",
+            "id": "11237011",
+            "journal": "Nature",
+            "lastPage": "921",
+            "publicationDate": "2001",
+            "title": "Initial sequencing and analysis of the human genome.",
+            "volume": "409"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ENSP00000427688.1",
+              "source": "Ensembl"
+            }
+          ],
+          "referenceNumber": 1,
+          "referencePositions": [
+            "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+          ]
+        },
+        {
+          "citation": {
+            "authors": [
+              "Schmutz J.",
+              "Martin J.",
+              "Terry A.",
+              "Couronne O.",
+              "Grimwood J.",
+              "Lowry S.",
+              "Gordon L.A.",
+              "Scott D.",
+              "Xie G.",
+              "Huang W.",
+              "Hellsten U.",
+              "Tran-Gyamfi M.",
+              "She X.",
+              "Prabhakar S.",
+              "Aerts A.",
+              "Altherr M.",
+              "Bajorek E.",
+              "Black S.",
+              "Branscomb E.",
+              "Caoile C.",
+              "Challacombe J.F.",
+              "Chan Y.M.",
+              "Denys M.",
+              "Detter J.C.",
+              "Escobar J.",
+              "Flowers D.",
+              "Fotopulos D.",
+              "Glavina T.",
+              "Gomez M.",
+              "Gonzales E.",
+              "Goodstein D.",
+              "Grigoriev I.",
+              "Groza M.",
+              "Hammon N.",
+              "Hawkins T.",
+              "Haydu L.",
+              "Israni S.",
+              "Jett J.",
+              "Kadner K.",
+              "Kimball H.",
+              "Kobayashi A.",
+              "Lopez F.",
+              "Lou Y.",
+              "Martinez D.",
+              "Medina C.",
+              "Morgan J.",
+              "Nandkeshwar R.",
+              "Noonan J.P.",
+              "Pitluck S.",
+              "Pollard M.",
+              "Predki P.",
+              "Priest J.",
+              "Ramirez L.",
+              "Retterer J.",
+              "Rodriguez A.",
+              "Rogers S.",
+              "Salamov A.",
+              "Salazar A.",
+              "Thayer N.",
+              "Tice H.",
+              "Tsai M.",
+              "Ustaszewska A.",
+              "Vo N.",
+              "Wheeler J.",
+              "Wu K.",
+              "Yang J.",
+              "Dickson M.",
+              "Cheng J.F.",
+              "Eichler E.E.",
+              "Olsen A.",
+              "Pennacchio L.A.",
+              "Rokhsar D.S.",
+              "Richardson P.",
+              "Lucas S.M.",
+              "Myers R.M.",
+              "Rubin E.M."
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "15372022"
+              },
+              {
+                "database": "DOI",
+                "id": "10.1038/nature02919"
+              }
+            ],
+            "citationType": "journal article",
+            "firstPage": "268",
+            "id": "15372022",
+            "journal": "Nature",
+            "lastPage": "274",
+            "publicationDate": "2004",
+            "title": "The DNA sequence and comparative analysis of human chromosome 5.",
+            "volume": "431"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ENSP00000427688.1",
+              "source": "Ensembl"
+            },
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "UP000005640",
+              "source": "Proteomes"
+            }
+          ],
+          "referenceNumber": 2,
+          "referencePositions": [
+            "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+          ]
+        },
+        {
+          "citation": {
+            "authoringGroup": [
+              "International Human Genome Sequencing Consortium"
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "15496913"
+              },
+              {
+                "database": "DOI",
+                "id": "10.1038/nature03001"
+              }
+            ],
+            "citationType": "journal article",
+            "firstPage": "931",
+            "id": "15496913",
+            "journal": "Nature",
+            "lastPage": "945",
+            "publicationDate": "2004",
+            "title": "Finishing the euchromatic sequence of the human genome.",
+            "volume": "431"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ENSP00000427688.1",
+              "source": "Ensembl"
+            }
+          ],
+          "referenceNumber": 3,
+          "referencePositions": [
+            "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+          ]
+        },
+        {
+          "citation": {
+            "authors": [
+              "Colle J.-H.",
+              "Rose T."
+            ],
+            "citationType": "submission",
+            "id": "CI-EDFVA30F63LQ3",
+            "publicationDate": "DEC-2008",
+            "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ACL80333.1",
+              "source": "EMBL"
+            }
+          ],
+          "referenceNumber": 4,
+          "referencePositions": [
+            "NUCLEOTIDE SEQUENCE"
+          ]
+        },
+        {
+          "citation": {
+            "authors": [
+              "Rose T.",
+              "Lambotte O.",
+              "Pallier C.",
+              "Delfraissy J.F.",
+              "Colle J.H."
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "19494261"
+              },
+              {
+                "database": "DOI",
+                "id": "10.4049/jimmunol.0900190"
+              }
+            ],
+            "citationType": "journal article",
+            "firstPage": "7389",
+            "id": "19494261",
+            "journal": "J. Immunol.",
+            "lastPage": "7397",
+            "publicationDate": "2009",
+            "title": "Identification and biochemical characterization of human plasma soluble IL-7R: lower concentrations in HIV-1-infected patients.",
+            "volume": "182"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ACL80333.1",
+              "source": "EMBL"
+            }
+          ],
+          "referenceNumber": 5,
+          "referencePositions": [
+            "NUCLEOTIDE SEQUENCE"
+          ]
+        },
+        {
+          "citation": {
+            "authoringGroup": [
+              "Ensembl"
+            ],
+            "citationType": "submission",
+            "id": "CI-20IMVO6BKU264",
+            "publicationDate": "MAY-2025",
+            "submissionDatabase": "UniProtKB"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ENSP00000427688.1",
+              "source": "Ensembl"
+            }
+          ],
+          "referenceNumber": 6,
+          "referencePositions": [
+            "IDENTIFICATION"
+          ]
+        }
+      ],
+      "sequence": {
+        "crc64": "D35859708A56DB73",
+        "length": 180,
+        "md5": "5AFDE28E6EEA0B8330219F313B59C3F0",
+        "molWeight": 20380,
+        "value": "MTILGTTFGMVFSLLQVVSGESGYAQNGDLEDAELDDYSFSCYSQLEVNGSQHSLTCAFEDPDVNITNLEFEICGALVEVKCLNFRKLQEIYFIETKKFLLIGKSNICVKVGEKSLTCKKIDLTTIVKPEAPFDLSVVYREGANDFVVTFNTSHLQKKYVKVLMHDVAYRQEKDENKWTD"
+      },
+      "uniProtKBCrossReferences": [
+        {
+          "database": "EMBL",
+          "id": "AC112204",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "-"
+            },
+            {
+              "key": "Status",
+              "value": "NOT_ANNOTATED_CDS"
+            },
+            {
+              "key": "MoleculeType",
+              "value": "Genomic_DNA"
+            }
+          ]
+        },
+        {
+          "database": "EMBL",
+          "id": "FJ529208",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "ACL80333.1"
+            },
+            {
+              "key": "Status",
+              "value": "-"
+            },
+            {
+              "key": "MoleculeType",
+              "value": "mRNA"
+            }
+          ]
+        },
+        {
+          "database": "AlphaFoldDB",
+          "id": "B8YG18",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "SMR",
+          "id": "B8YG18",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "ProteomicsDB",
+          "id": "7287",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "Ensembl",
+          "id": "ENST00000514217.5",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "ENSP00000427688.1"
+            },
+            {
+              "key": "GeneId",
+              "value": "ENSG00000168685.15"
+            }
+          ]
+        },
+        {
+          "database": "UCSC",
+          "id": "uc063cyr.1",
+          "properties": [
+            {
+              "key": "OrganismName",
+              "value": "human"
+            }
+          ]
+        },
+        {
+          "database": "HGNC",
+          "id": "HGNC:6024",
+          "properties": [
+            {
+              "key": "GeneName",
+              "value": "IL7R"
+            }
+          ]
+        },
+        {
+          "database": "OpenTargets",
+          "id": "ENSG00000168685",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "VEuPathDB",
+          "id": "HostDB:ENSG00000168685",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "GeneTree",
+          "id": "ENSGT00510000048500",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "HOGENOM",
+          "id": "CLU_092831_0_0_1",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "OrthoDB",
+          "id": "8611929at2759",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "ChiTaRS",
+          "id": "IL7R",
+          "properties": [
+            {
+              "key": "OrganismName",
+              "value": "human"
+            }
+          ]
+        },
+        {
+          "database": "Proteomes",
+          "id": "UP000005640",
+          "properties": [
+            {
+              "key": "Component",
+              "value": "Chromosome 5"
+            }
+          ]
+        },
+        {
+          "database": "Bgee",
+          "id": "ENSG00000168685",
+          "properties": [
+            {
+              "key": "ExpressionPatterns",
+              "value": "Expressed in right lung and 148 other cell types or tissues"
+            }
+          ]
+        },
+        {
+          "database": "ExpressionAtlas",
+          "id": "B8YG18",
+          "properties": [
+            {
+              "key": "ExpressionPatterns",
+              "value": "baseline and differential"
+            }
+          ]
+        },
+        {
+          "database": "FunFam",
+          "id": "2.60.40.1870:FF:000001",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "Interleukin-7 receptor subunit alpha"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "Gene3D",
+          "id": "2.60.40.1870",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "-"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "Gene3D",
+          "id": "2.60.40.10",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "Immunoglobulins"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "InterPro",
+          "id": "IPR040997",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "FN3_7"
+            }
+          ]
+        },
+        {
+          "database": "InterPro",
+          "id": "IPR013783",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "Ig-like_fold"
+            }
+          ]
+        },
+        {
+          "database": "Pfam",
+          "id": "PF18447",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "FN3_7"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        }
+      ],
+      "uniProtkbId": "B8YG18_HUMAN"
+    }
+  ]
+}

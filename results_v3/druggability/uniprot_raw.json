@@ -1,0 +1,2554 @@
+{
+  "IFI30": {
+    "gene": "IFI30",
+    "status": "found",
+    "raw": {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P13284",
+      "uniProtkbId": "GILT_HUMAN",
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "source": "PubMed",
+                "id": "10639150"
+              }
+            ],
+            "value": "Gamma-interferon-inducible lysosomal thiol reductase"
+          },
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "10639150"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "10852914"
+                }
+              ],
+              "value": "1.8.4.-"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000305",
+                  "source": "PubMed",
+                  "id": "3136170"
+                }
+              ],
+              "value": "Gamma-interferon-inducible protein IP-30"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Legumaturain"
+            }
+          }
+        ],
+        "flag": "Precursor"
+      },
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "source": "HGNC",
+                "id": "HGNC:5398"
+              }
+            ],
+            "value": "IFI30"
+          },
+          "synonyms": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "source": "PubMed",
+                  "id": "10639150"
+                }
+              ],
+              "value": "GILT"
+            },
+            {
+              "value": "IP30"
+            }
+          ]
+        }
+      ],
+      "comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "10639150"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "10852914"
+                },
+                {
+                  "evidenceCode": "ECO:0000305",
+                  "source": "PubMed",
+                  "id": "10852914"
+                }
+              ],
+              "value": "Lysosomal thiol reductase that catalyzes protein disulfide bonds reduction (PubMed:10639150). Plays an important role in antigen processing and presentation, of namely both major histocompatibility complex (MHC) class I- and class II-restricted antigen by reducing the disulfide bonds of endocytosed proteins and facilitating their unfolding and optimal degradation (PubMed:10639150). Shares with thioredoxin a reduction mechanism in which the N-terminal cysteine thiol group in the CXXC active site motif initiates a nucleophilic attack on the substrate disulfide bond,resulting in the formation of a mixed disulfide-linked enzyme-substrate intermediate (Probable). Subsequent intramolecular attack by the second cysteine thiol group enables the release of the reduced substrate and oxidized enzyme (Probable). Lysosomal cysteine is a physiological reducing agent that is capable of reducing IFI30, so that it can catalyzes the next reaction (PubMed:10852914). Dithiothreitol, cysteine, and cysteinyl glycine, but not glutathione, are capable of regenerating active precursor and mature IFI30 in vitro (PubMed:10639150, PubMed:10852914)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ],
+      "features": [
+        {
+          "type": "Disulfide bond",
+          "location": {
+            "start": {
+              "value": 72,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 75,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Redox-active",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "10639150"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "10852914"
+            }
+          ]
+        },
+        {
+          "type": "Disulfide bond",
+          "location": {
+            "start": {
+              "value": 117,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 124,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "Q9ESY9"
+            }
+          ]
+        },
+        {
+          "type": "Disulfide bond",
+          "location": {
+            "start": {
+              "value": 132,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 178,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "Q9ESY9"
+            }
+          ]
+        },
+        {
+          "type": "Disulfide bond",
+          "location": {
+            "start": {
+              "value": 148,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 162,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "Q9ESY9"
+            }
+          ]
+        },
+        {
+          "type": "Disulfide bond",
+          "location": {
+            "start": {
+              "value": 226,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 237,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "Q9ESY9"
+            }
+          ]
+        }
+      ],
+      "sequence": {
+        "value": "MTLSPLLLFLPPLLLLLDVPTAAVQASPLQALDFFGNGPPVNYKTGNLYLRGPLKKSNAPLVNVTLYYEALCGGCRAFLIRELFPTWLLVMEILNVTLVPYGNAQEQNVSGRWEFKCQHGEEECKFNKVEACVLDELDMELAFLTIVCMEEFEDMERSLPLCLQLYAPGLSPDTIMECAMGDRGMQLMHANAQRTDALQPPHEYVPWVTVNGKPLEDQTQLLTLVCQLYQGKKPDVCPSSTSSLRSVCFK",
+        "length": 250,
+        "molWeight": 27964,
+        "crc64": "54B4950E3788CD5A",
+        "md5": "7C9A71CB19FAC5FBC0BE7FEBC647E4C7"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI0000072A2B"
+      }
+    }
+  },
+  "CTSS": {
+    "gene": "CTSS",
+    "status": "found",
+    "raw": {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P25774",
+      "uniProtkbId": "CATS_HUMAN",
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "value": "Cathepsin S"
+          },
+          "ecNumbers": [
+            {
+              "value": "3.4.22.27"
+            }
+          ]
+        },
+        "flag": "Precursor"
+      },
+      "genes": [
+        {
+          "geneName": {
+            "value": "CTSS"
+          }
+        }
+      ],
+      "comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "O70370"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "30612035"
+                }
+              ],
+              "value": "Thiol protease (PubMed:30612035). Key protease responsible for the removal of the invariant chain from MHC class II molecules and MHC class II antigen presentation (PubMed:30612035). The bond-specificity of this proteinase is in part similar to the specificities of cathepsin L (PubMed:30612035). Elicits itch by mediating cleavage and activation of MRGPRX1 (By similarity)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ],
+      "features": [
+        {
+          "type": "Active site",
+          "location": {
+            "start": {
+              "value": 139,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 139,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU10088"
+            }
+          ]
+        },
+        {
+          "type": "Active site",
+          "location": {
+            "start": {
+              "value": 278,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 278,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU10089"
+            }
+          ]
+        },
+        {
+          "type": "Active site",
+          "location": {
+            "start": {
+              "value": 298,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 298,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU10090"
+            }
+          ]
+        },
+        {
+          "type": "Disulfide bond",
+          "location": {
+            "start": {
+              "value": 126,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 224,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "17469812"
+            }
+          ]
+        },
+        {
+          "type": "Disulfide bond",
+          "location": {
+            "start": {
+              "value": 136,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 180,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "17469812"
+            }
+          ]
+        },
+        {
+          "type": "Disulfide bond",
+          "location": {
+            "start": {
+              "value": 170,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 213,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "17469812"
+            }
+          ]
+        },
+        {
+          "type": "Disulfide bond",
+          "location": {
+            "start": {
+              "value": 272,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 320,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "17469812"
+            }
+          ]
+        }
+      ],
+      "sequence": {
+        "value": "MKRLVCVLLVCSSAVAQLHKDPTLDHHWHLWKKTYGKQYKEKNEEAVRRLIWEKNLKFVMLHNLEHSMGMHSYDLGMNHLGDMTSEEVMSLMSSLRVPSQWQRNITYKSNPNRILPDSVDWREKGCVTEVKYQGSCGACWAFSAVGALEAQLKLKTGKLVSLSAQNLVDCSTEKYGNKGCNGGFMTTAFQYIIDNKGIDSDASYPYKAMDQKCQYDSKYRAATCSKYTELPYGREDVLKEAVANKGPVSVGVDARHPSFFLYRSGVYYEPSCTQNVNHGVLVVGYGDLNGKEYWLVKNSWGHNFGEEGYIRMARNKGNHCGIASFPSYPEI",
+        "length": 331,
+        "molWeight": 37496,
+        "crc64": "86093619DB6F0269",
+        "md5": "63B4F907DCC43C24DDC825676695D13C"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI000013DFE1"
+      }
+    }
+  },
+  "CTSL": {
+    "gene": "CTSL",
+    "status": "found",
+    "raw": {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P07711",
+      "uniProtkbId": "CATL1_HUMAN",
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Procathepsin L"
+          },
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "9468501"
+                }
+              ],
+              "value": "3.4.22.15"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000305"
+                }
+              ],
+              "value": "Cathepsin L1"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Major excreted protein"
+            },
+            "shortNames": [
+              {
+                "value": "MEP"
+              }
+            ]
+          }
+        ],
+        "contains": [
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "Cathepsin L"
+              }
+            }
+          },
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "Cathepsin L heavy chain"
+              }
+            }
+          },
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "Cathepsin L light chain"
+              }
+            }
+          }
+        ],
+        "flag": "Precursor"
+      },
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "source": "HGNC",
+                "id": "HGNC:2537"
+              }
+            ],
+            "value": "CTSL"
+          },
+          "synonyms": [
+            {
+              "value": "CTSL1"
+            }
+          ]
+        }
+      ],
+      "comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "P06797"
+                },
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "P07154"
+                },
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "P25975"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "10716919"
+                },
+                {
+                  "evidenceCode": "ECO:0000305"
+                }
+              ],
+              "value": "Thiol protease important for the overall degradation of proteins in lysosomes (Probable). Plays a critical for normal cellular functions such as general protein turnover, antigen processing and bone remodeling. Involved in the solubilization of cross-linked TG/thyroglobulin and in the subsequent release of thyroid hormone thyroxine (T4) by limited proteolysis of TG/thyroglobulin in the thyroid follicle lumen (By similarity). In neuroendocrine chromaffin cells secretory vesicles, catalyzes the prohormone proenkephalin processing to the active enkephalin peptide neurotransmitter (By similarity). In thymus, regulates CD4(+) T cell positive selection by generating the major histocompatibility complex class II (MHCII) bound peptide ligands presented by cortical thymic epithelial cells. Also mediates invariant chain processing in cortical thymic epithelial cells (By similarity). Major elastin-degrading enzyme at neutral pH. Accumulates as a mature and active enzyme in the extracellular space of antigen presenting cells (APCs) to regulate degradation of the extracellular matrix in the course of inflammation (By similarity). Secreted form generates endostatin from COL18A1 (PubMed:10716919). Critical for cardiac morphology and function. Plays an important role in hair follicle morphogenesis and cycling, as well as epidermal differentiation (By similarity). Required for maximal stimulation of steroidogenesis by TIMP1 (By similarity)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        },
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "16081529"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "16339146"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "18562523"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "26953343"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "32142651"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "32221306"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "32855215"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "37990007"
+                }
+              ],
+              "value": "(Microbial infection) In cells lacking TMPRSS2 expression, facilitates human coronaviruses SARS-CoV and SARS-CoV-2 infections via a slow acid-activated route with the proteolysis of coronavirus spike (S) glycoproteins in lysosome for entry into host cell (PubMed:16339146, PubMed:18562523, PubMed:32142651, PubMed:32221306, PubMed:37990007). Proteolysis within lysosomes is sufficient to activate membrane fusion by coronaviruses SARS-CoV and EMC (HCoV-EMC) S as well as Zaire ebolavirus glycoproteins (PubMed:16081529, PubMed:18562523, PubMed:26953343)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        },
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "15099520"
+                }
+              ],
+              "value": "Functions in the regulation of cell cycle progression through proteolytic processing of the CUX1 transcription factor (PubMed:15099520). Translation initiation at downstream start sites allows the synthesis of isoforms that are devoid of a signal peptide and localize to the nucleus where they cleave the CUX1 transcription factor and modify its DNA binding properties (PubMed:15099520)"
+            }
+          ],
+          "commentType": "FUNCTION",
+          "molecule": "Isoform 2"
+        }
+      ],
+      "features": [
+        {
+          "type": "Active site",
+          "location": {
+            "start": {
+              "value": 138,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 138,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "9468501"
+            }
+          ]
+        },
+        {
+          "type": "Active site",
+          "location": {
+            "start": {
+              "value": 276,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 276,
+              "modifier": "EXACT"
+            }
+          },
+          "description": ""
+        },
+        {
+          "type": "Active site",
+          "location": {
+            "start": {
+              "value": 300,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 300,
+              "modifier": "EXACT"
+            }
+          },
+          "description": ""
+        },
+        {
+          "type": "Binding site",
+          "location": {
+            "start": {
+              "value": 122,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 122,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "37990007"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "source": "PDB",
+              "id": "8HFV"
+            }
+          ],
+          "ligand": {
+            "name": "Zn(2+)",
+            "id": "ChEBI:CHEBI:29105",
+            "label": "1"
+          }
+        },
+        {
+          "type": "Binding site",
+          "location": {
+            "start": {
+              "value": 163,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 163,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "37990007"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "source": "PDB",
+              "id": "8HFV"
+            }
+          ],
+          "ligand": {
+            "name": "Zn(2+)",
+            "id": "ChEBI:CHEBI:29105",
+            "label": "2"
+          }
+        },
+        {
+          "type": "Binding site",
+          "location": {
+            "start": {
+              "value": 184,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 184,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "37990007"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "source": "PDB",
+              "id": "8HFV"
+            }
+          ],
+          "ligand": {
+            "name": "Zn(2+)",
+            "id": "ChEBI:CHEBI:29105",
+            "label": "3"
+          }
+        },
+        {
+          "type": "Binding site",
+          "location": {
+            "start": {
+              "value": 199,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 199,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "37990007"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "source": "PDB",
+              "id": "8HFV"
+            }
+          ],
+          "ligand": {
+            "name": "Zn(2+)",
+            "id": "ChEBI:CHEBI:29105",
+            "label": "2"
+          }
+        },
+        {
+          "type": "Binding site",
+          "location": {
+            "start": {
+              "value": 205,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 205,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "37990007"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "source": "PDB",
+              "id": "8HFV"
+            }
+          ],
+          "ligand": {
+            "name": "Zn(2+)",
+            "id": "ChEBI:CHEBI:29105",
+            "label": "4"
+          }
+        },
+        {
+          "type": "Binding site",
+          "location": {
+            "start": {
+              "value": 209,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 209,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "37990007"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "source": "PDB",
+              "id": "8HFV"
+            }
+          ],
+          "ligand": {
+            "name": "Zn(2+)",
+            "id": "ChEBI:CHEBI:29105",
+            "label": "4"
+          }
+        },
+        {
+          "type": "Binding site",
+          "location": {
+            "start": {
+              "value": 227,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 227,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "37990007"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "source": "PDB",
+              "id": "8HFV"
+            }
+          ],
+          "ligand": {
+            "name": "Zn(2+)",
+            "id": "ChEBI:CHEBI:29105",
+            "label": "3"
+          }
+        },
+        {
+          "type": "Binding site",
+          "location": {
+            "start": {
+              "value": 250,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 250,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "37990007"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "source": "PDB",
+              "id": "8HFV"
+            }
+          ],
+          "ligand": {
+            "name": "Zn(2+)",
+            "id": "ChEBI:CHEBI:29105",
+            "label": "5"
+          }
+        },
+        {
+          "type": "Binding site",
+          "location": {
+            "start": {
+              "value": 253,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 253,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "37990007"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "source": "PDB",
+              "id": "8HFV"
+            }
+          ],
+          "ligand": {
+            "name": "Zn(2+)",
+            "id": "ChEBI:CHEBI:29105",
+            "label": "5"
+          }
+        },
+        {
+          "type": "Binding site",
+          "location": {
+            "start": {
+              "value": 273,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 273,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "37990007"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "source": "PDB",
+              "id": "8HFV"
+            }
+          ],
+          "ligand": {
+            "name": "Zn(2+)",
+            "id": "ChEBI:CHEBI:29105",
+            "label": "6"
+          }
+        },
+        {
+          "type": "Binding site",
+          "location": {
+            "start": {
+              "value": 275,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 275,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "37990007"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "source": "PDB",
+              "id": "8HFV"
+            }
+          ],
+          "ligand": {
+            "name": "Zn(2+)",
+            "id": "ChEBI:CHEBI:29105",
+            "label": "7"
+          }
+        },
+        {
+          "type": "Disulfide bond",
+          "location": {
+            "start": {
+              "value": 135,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 178,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8896443"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "source": "PDB",
+              "id": "1CJL"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "source": "PDB",
+              "id": "1CS8"
+            }
+          ]
+        },
+        {
+          "type": "Disulfide bond",
+          "location": {
+            "start": {
+              "value": 169,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 211,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8896443"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "source": "PDB",
+              "id": "1CJL"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "source": "PDB",
+              "id": "1CS8"
+            }
+          ]
+        },
+        {
+          "type": "Disulfide bond",
+          "location": {
+            "start": {
+              "value": 269,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 322,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Interchain (between heavy and light chains)",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8896443"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "source": "PDB",
+              "id": "1CJL"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "source": "PDB",
+              "id": "1CS8"
+            }
+          ]
+        }
+      ],
+      "sequence": {
+        "value": "MNPTLILAAFCLGIASATLTFDHSLEAQWTKWKAMHNRLYGMNEEGWRRAVWEKNMKMIELHNQEYREGKHSFTMAMNAFGDMTSEEFRQVMNGFQNRKPRKGKVFQEPLFYEAPRSVDWREKGYVTPVKNQGQCGSCWAFSATGALEGQMFRKTGRLISLSEQNLVDCSGPQGNEGCNGGLMDYAFQYVQDNGGLDSEESYPYEATEESCKYNPKYSVANDTGFVDIPKQEKALMKAVATVGPISVAIDAGHESFLFYKEGIYFEPDCSSEDMDHGVLVVGYGFESTESDNNKYWLVKNSWGEEWGMGGYVKMAKDRRNHCGIASAASYPTV",
+        "length": 333,
+        "molWeight": 37564,
+        "crc64": "8CD17D00EF859D85",
+        "md5": "0C3FB318B71CF9CA1DFBF55F687D2540"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI000004CAA2"
+      }
+    }
+  },
+  "CTSB": {
+    "gene": "CTSB",
+    "status": "found",
+    "raw": {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P07858",
+      "uniProtkbId": "CATB_HUMAN",
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "value": "Cathepsin B"
+          },
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "12220505"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "3972105"
+                }
+              ],
+              "value": "3.4.22.1"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "APP secretase"
+            },
+            "shortNames": [
+              {
+                "value": "APPS"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Cathepsin B1"
+            }
+          }
+        ],
+        "contains": [
+          {
+            "recommendedName": {
+              "fullName": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "source": "PubMed",
+                    "id": "3972105"
+                  }
+                ],
+                "value": "Cathepsin B light chain"
+              }
+            }
+          },
+          {
+            "recommendedName": {
+              "fullName": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "source": "PubMed",
+                    "id": "3972105"
+                  }
+                ],
+                "value": "Cathepsin B heavy chain"
+              }
+            }
+          }
+        ],
+        "flag": "Precursor"
+      },
+      "genes": [
+        {
+          "geneName": {
+            "value": "CTSB"
+          },
+          "synonyms": [
+            {
+              "value": "CPSB"
+            }
+          ]
+        }
+      ],
+      "comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "P10605"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "12220505"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "3972105"
+                }
+              ],
+              "value": "Thiol protease which is believed to participate in intracellular degradation and turnover of proteins (PubMed:12220505). Cleaves matrix extracellular phosphoglycoprotein MEPE (PubMed:12220505). Involved in the solubilization of cross-linked TG/thyroglobulin in the thyroid follicle lumen (By similarity). Has also been implicated in tumor invasion and metastasis (PubMed:3972105)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ],
+      "features": [
+        {
+          "type": "Active site",
+          "location": {
+            "start": {
+              "value": 108,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 108,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "9299326"
+            }
+          ]
+        },
+        {
+          "type": "Active site",
+          "location": {
+            "start": {
+              "value": 278,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 278,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "9299326"
+            }
+          ]
+        },
+        {
+          "type": "Active site",
+          "location": {
+            "start": {
+              "value": 298,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 298,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "9299326"
+            }
+          ]
+        },
+        {
+          "type": "Disulfide bond",
+          "location": {
+            "start": {
+              "value": 93,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 122,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "1868826"
+            }
+          ]
+        },
+        {
+          "type": "Disulfide bond",
+          "location": {
+            "start": {
+              "value": 105,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 150,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "1868826"
+            }
+          ]
+        },
+        {
+          "type": "Disulfide bond",
+          "location": {
+            "start": {
+              "value": 141,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 207,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "1868826"
+            }
+          ]
+        },
+        {
+          "type": "Disulfide bond",
+          "location": {
+            "start": {
+              "value": 142,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 146,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "1868826"
+            }
+          ]
+        },
+        {
+          "type": "Disulfide bond",
+          "location": {
+            "start": {
+              "value": 179,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 211,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "1868826"
+            }
+          ]
+        },
+        {
+          "type": "Disulfide bond",
+          "location": {
+            "start": {
+              "value": 187,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 198,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "1868826"
+            }
+          ]
+        }
+      ],
+      "sequence": {
+        "value": "MWQLWASLCCLLVLANARSRPSFHPLSDELVNYVNKRNTTWQAGHNFYNVDMSYLKRLCGTFLGGPKPPQRVMFTEDLKLPASFDAREQWPQCPTIKEIRDQGSCGSCWAFGAVEAISDRICIHTNAHVSVEVSAEDLLTCCGSMCGDGCNGGYPAEAWNFWTRKGLVSGGLYESHVGCRPYSIPPCEHHVNGSRPPCTGEGDTPKCSKICEPGYSPTYKQDKHYGYNSYSVSNSEKDIMAEIYKNGPVEGAFSVYSDFLLYKSGVYQHVTGEMMGGHAIRILGWGVENGTPYWLVANSWNTDWGDNGFFKILRGQDHCGIESEVVAGIPRTDQYWEKI",
+        "length": 339,
+        "molWeight": 37822,
+        "crc64": "0FC818EA4C1F6D90",
+        "md5": "6846BE2036CF0FBE2910B3DE38F5C6F2"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI000013E3F0"
+      }
+    }
+  },
+  "CTSD": {
+    "gene": "CTSD",
+    "status": "found",
+    "raw": {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P07339",
+      "uniProtkbId": "CATD_HUMAN",
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "value": "Cathepsin D"
+          },
+          "ecNumbers": [
+            {
+              "value": "3.4.23.5"
+            }
+          ]
+        },
+        "contains": [
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "Cathepsin D light chain"
+              }
+            }
+          },
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "Cathepsin D heavy chain"
+              }
+            }
+          }
+        ],
+        "flag": "Precursor"
+      },
+      "genes": [
+        {
+          "geneName": {
+            "value": "CTSD"
+          },
+          "synonyms": [
+            {
+              "value": "CPSD"
+            }
+          ]
+        }
+      ],
+      "comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "27333034"
+                }
+              ],
+              "value": "Acid protease active in intracellular protein breakdown. Plays a role in APP processing following cleavage and activation by ADAM30 which leads to APP degradation (PubMed:27333034). Involved in the pathogenesis of several diseases such as breast cancer and possibly Alzheimer disease"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ],
+      "features": [
+        {
+          "type": "Active site",
+          "location": {
+            "start": {
+              "value": 97,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 97,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU10094"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8393577"
+            }
+          ]
+        },
+        {
+          "type": "Active site",
+          "location": {
+            "start": {
+              "value": 295,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 295,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU10094"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8393577"
+            }
+          ]
+        },
+        {
+          "type": "Disulfide bond",
+          "location": {
+            "start": {
+              "value": 91,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 160,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8393577"
+            }
+          ]
+        },
+        {
+          "type": "Disulfide bond",
+          "location": {
+            "start": {
+              "value": 110,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 117,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8393577"
+            }
+          ]
+        },
+        {
+          "type": "Disulfide bond",
+          "location": {
+            "start": {
+              "value": 286,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 290,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8393577"
+            }
+          ]
+        },
+        {
+          "type": "Disulfide bond",
+          "location": {
+            "start": {
+              "value": 329,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 366,
+              "modifier": "EXACT"
+            }
+          },
+          "description": ""
+        }
+      ],
+      "sequence": {
+        "value": "MQPSSLLPLALCLLAAPASALVRIPLHKFTSIRRTMSEVGGSVEDLIAKGPVSKYSQAVPAVTEGPIPEVLKNYMDAQYYGEIGIGTPPQCFTVVFDTGSSNLWVPSIHCKLLDIACWIHHKYNSDKSSTYVKNGTSFDIHYGSGSLSGYLSQDTVSVPCQSASSASALGGVKVERQVFGEATKQPGITFIAAKFDGILGMAYPRISVNNVLPVFDNLMQQKLVDQNIFSFYLSRDPDAQPGGELMLGGTDSKYYKGSLSYLNVTRKAYWQVHLDQVEVASGLTLCKEGCEAIVDTGTSLMVGPVDEVRELQKAIGAVPLIQGEYMIPCEKVSTLPAITLKLGGKGYKLSPEDYTLKVSQAGKTLCLSGFMGMDIPPPSGPLWILGDVFIGRYYTVFDRDNNRVGFAEAARL",
+        "length": 412,
+        "molWeight": 44552,
+        "crc64": "903FB8412E0CF0B0",
+        "md5": "96FAAB77E7A636425952954C519DFE4B"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI00000463E2"
+      }
+    }
+  },
+  "JAK1": {
+    "gene": "JAK1",
+    "status": "found",
+    "raw": {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P23458",
+      "uniProtkbId": "JAK1_HUMAN",
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "value": "Tyrosine-protein kinase JAK1"
+          },
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "1848670"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "7615558"
+                }
+              ],
+              "value": "2.7.10.2"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Janus kinase 1"
+            },
+            "shortNames": [
+              {
+                "value": "JAK-1"
+              }
+            ]
+          }
+        ]
+      },
+      "genes": [
+        {
+          "geneName": {
+            "value": "JAK1"
+          },
+          "synonyms": [
+            {
+              "value": "JAK1A"
+            },
+            {
+              "value": "JAK1B"
+            }
+          ]
+        }
+      ],
+      "comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "11909529"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "12133952"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "16239216"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "28111307"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "32750333"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "7615558"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "7657660"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "8232552"
+                }
+              ],
+              "value": "Tyrosine kinase of the non-receptor type, involved in the IFN-alpha/beta/gamma signal pathway (PubMed:16239216, PubMed:28111307, PubMed:32750333, PubMed:7615558, PubMed:8232552). Kinase partner for the interleukin (IL)-2 receptor (PubMed:11909529) as well as interleukin (IL)-10 receptor (PubMed:12133952). Kinase partner for the type I interferon receptor IFNAR2 (PubMed:16239216, PubMed:28111307, PubMed:32750333, PubMed:7615558, PubMed:8232552). In response to interferon-binding to IFNAR1-IFNAR2 heterodimer, phosphorylates and activates its binding partner IFNAR2, creating docking sites for STAT proteins (PubMed:7759950). Directly phosphorylates STAT proteins but also activates STAT signaling through the transactivation of other JAK kinases associated with signaling receptors (PubMed:16239216, PubMed:32750333, PubMed:8232552)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ],
+      "features": [
+        {
+          "type": "Active site",
+          "location": {
+            "start": {
+              "value": 1003,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 1003,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Proton acceptor",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00159"
+            },
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU10028"
+            }
+          ]
+        },
+        {
+          "type": "Binding site",
+          "location": {
+            "start": {
+              "value": 881,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 889,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:30616"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00159"
+            }
+          ],
+          "ligand": {
+            "name": "ATP",
+            "id": "ChEBI:CHEBI:30616"
+          }
+        },
+        {
+          "type": "Binding site",
+          "location": {
+            "start": {
+              "value": 908,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 908,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:30616"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00159"
+            },
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "32750333"
+            }
+          ],
+          "ligand": {
+            "name": "ATP",
+            "id": "ChEBI:CHEBI:30616"
+          }
+        }
+      ],
+      "sequence": {
+        "value": "MQYLNIKEDCNAMAFCAKMRSSKKTEVNLEAPEPGVEVIFYLSDREPLRLGSGEYTAEELCIRAAQACRISPLCHNLFALYDENTKLWYAPNRTITVDDKMSLRLHYRMRFYFTNWHGTNDNEQSVWRHSPKKQKNGYEKKKIPDATPLLDASSLEYLFAQGQYDLVKCLAPIRDPKTEQDGHDIENECLGMAVLAISHYAMMKKMQLPELPKDISYKRYIPETLNKSIRQRNLLTRMRINNVFKDFLKEFNNKTICDSSVSTHDLKVKYLATLETLTKHYGAEIFETSMLLISSENEMNWFHSNDGGNVLYYEVMVTGNLGIQWRHKPNVVSVEKEKNKLKRKKLENKHKKDEEKNKIREEWNNFSYFPEITHIVIKESVVSINKQDNKKMELKLSSHEEALSFVSLVDGYFRLTADAHHYLCTDVAPPLIVHNIQNGCHGPICTEYAINKLRQEGSEEGMYVLRWSCTDFDNILMTVTCFEKSEQVQGAQKQFKNFQIEVQKGRYSLHGSDRSFPSLGDLMSHLKKQILRTDNISFMLKRCCQPKPREISNLLVATKKAQEWQPVYPMSQLSFDRILKKDLVQGEHLGRGTRTHIYSGTLMDYKDDEGTSEEKKIKVILKVLDPSHRDISLAFFEAASMMRQVSHKHIVYLYGVCVRDVENIMVEEFVEGGPLDLFMHRKSDVLTTPWKFKVAKQLASALSYLEDKDLVHGNVCTKNLLLAREGIDSECGPFIKLSDPGIPITVLSRQECIERIPWIAPECVEDSKNLSVAADKWSFGTTLWEICYNGEIPLKDKTLIEKERFYESRCRPVTPSCKELADLMTRCMNYDPNQRPFFRAIMRDINKLEEQNPDIVSEKKPATEVDPTHFEKRFLKRIRDLGEGHFGKVELCRYDPEGDNTGEQVAVKSLKPESGGNHIADLKKEIEILRNLYHENIVKYKGICTEDGGNGIKLIMEFLPSGSLKEYLPKNKNKINLKQQLKYAVQICKGMDYLGSRQYVHRDLAARNVLVESEHQVKIGDFGLTKAIETDKEYYTVKDDRDSPVFWYAPECLMQSKFYIASDVWSFGVTLHELLTYCDSDSSPMALFLKMIGPTHGQMTVTRLVNTLKEGKRLPCPPNCPDEVYQLMRKCWEFQPSNRTSFQNLIEGFEALLK",
+        "length": 1154,
+        "molWeight": 133277,
+        "crc64": "A2C4BE27851ACABB",
+        "md5": "933420E3EAC5BE8B1760CDE731133E4A"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI0000054C7D"
+      }
+    }
+  },
+  "JAK2": {
+    "gene": "JAK2",
+    "status": "found",
+    "raw": {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "O60674",
+      "uniProtkbId": "JAK2_HUMAN",
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Tyrosine-protein kinase JAK2"
+          },
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "15690087"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "16174768"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "7615558"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "9618263"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "9657743"
+                }
+              ],
+              "value": "2.7.10.2"
+            }
+          ]
+        },
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Janus kinase 2"
+            },
+            "shortNames": [
+              {
+                "value": "JAK-2"
+              }
+            ]
+          }
+        ]
+      },
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "source": "HGNC",
+                "id": "HGNC:6192"
+              }
+            ],
+            "value": "JAK2"
+          }
+        }
+      ],
+      "comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "12023369"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "15690087"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "19783980"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "20098430"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "21368206"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "21423214"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "25644777"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "7615558"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "9618263"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "9657743"
+                }
+              ],
+              "value": "Non-receptor tyrosine kinase involved in various processes such as cell growth, development, differentiation or histone modifications. Mediates essential signaling events in both innate and adaptive immunity. In the cytoplasm, plays a pivotal role in signal transduction via its association with type I receptors such as growth hormone (GHR), prolactin (PRLR), leptin (LEPR), erythropoietin (EPOR), thrombopoietin receptor (MPL/TPOR); or type II receptors including IFN-alpha, IFN-beta, IFN-gamma and multiple interleukins (PubMed:15690087, PubMed:7615558, PubMed:9657743, PubMed:15899890). Following ligand-binding to cell surface receptors, phosphorylates specific tyrosine residues on the cytoplasmic tails of the receptor, creating docking sites for STATs proteins (PubMed:15690087, PubMed:9618263). Subsequently, phosphorylates the STATs proteins once they are recruited to the receptor. Phosphorylated STATs then form homodimer or heterodimers and translocate to the nucleus to activate gene transcription. For example, cell stimulation with erythropoietin (EPO) during erythropoiesis leads to JAK2 autophosphorylation, activation, and its association with erythropoietin receptor (EPOR) that becomes phosphorylated in its cytoplasmic domain (PubMed:9657743). Then, STAT5 (STAT5A or STAT5B) is recruited, phosphorylated and activated by JAK2. Once activated, dimerized STAT5 translocates into the nucleus and promotes the transcription of several essential genes involved in the modulation of erythropoiesis. Part of a signaling cascade that is activated by increased cellular retinol and that leads to the activation of STAT5 (STAT5A or STAT5B) (PubMed:21368206). In addition, JAK2 mediates angiotensin-2-induced ARHGEF1 phosphorylation (PubMed:20098430). Plays a role in cell cycle by phosphorylating CDKN1B (PubMed:21423214). Cooperates with TEC through reciprocal phosphorylation to mediate cytokine-driven activation of FOS transcription. In the nucleus, plays a key role in chromatin by specifically mediating phosphorylation of 'Tyr-41' of histone H3 (H3Y41ph), a specific tag that promotes exclusion of CBX5 (HP1 alpha) from chromatin (PubMed:19783980). Up-regulates the potassium voltage-gated channel activity of KCNA3 (PubMed:25644777)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ],
+      "features": [
+        {
+          "type": "Active site",
+          "location": {
+            "start": {
+              "value": 976,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 976,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "Proton acceptor",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00159"
+            },
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU10028"
+            }
+          ]
+        },
+        {
+          "type": "Binding site",
+          "location": {
+            "start": {
+              "value": 855,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 863,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:30616"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00159"
+            }
+          ],
+          "ligand": {
+            "name": "ATP",
+            "id": "ChEBI:CHEBI:30616"
+          }
+        },
+        {
+          "type": "Binding site",
+          "location": {
+            "start": {
+              "value": 882,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 882,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:30616"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00159"
+            }
+          ],
+          "ligand": {
+            "name": "ATP",
+            "id": "ChEBI:CHEBI:30616"
+          }
+        }
+      ],
+      "sequence": {
+        "value": "MGMACLTMTEMEGTSTSSIYQNGDISGNANSMKQIDPVLQVYLYHSLGKSEADYLTFPSGEYVAEEICIAASKACGITPVYHNMFALMSETERIWYPPNHVFHIDESTRHNVLYRIRFYFPRWYCSGSNRAYRHGISRGAEAPLLDDFVMSYLFAQWRHDFVHGWIKVPVTHETQEECLGMAVLDMMRIAKENDQTPLAIYNSISYKTFLPKCIRAKIQDYHILTRKRIRYRFRRFIQQFSQCKATARNLKLKYLINLETLQSAFYTEKFEVKEPGSGPSGEEIFATIIITGNGGIQWSRGKHKESETLTEQDLQLYCDFPNIIDVSIKQANQEGSNESRVVTIHKQDGKNLEIELSSLREALSFVSLIDGYYRLTADAHHYLCKEVAPPAVLENIQSNCHGPISMDFAISKLKKAGNQTGLYVLRCSPKDFNKYFLTFAVERENVIEYKHCLITKNENEEYNLSGTKKNFSSLKDLLNCYQMETVRSDNIIFQFTKCCPPKPKDKSNLLVFRTNGVSDVPTSPTLQRPTHMNQMVFHKIRNEDLIFNESLGQGTFTKIFKGVRREVGDYGQLHETEVLLKVLDKAHRNYSESFFEAASMMSKLSHKHLVLNYGVCVCGDENILVQEFVKFGSLDTYLKKNKNCINILWKLEVAKQLAWAMHFLEENTLIHGNVCAKNILLIREEDRKTGNPPFIKLSDPGISITVLPKDILQERIPWVPPECIENPKNLNLATDKWSFGTTLWEICSGGDKPLSALDSQRKLQFYEDRHQLPAPKWAELANLINNCMDYEPDFRPSFRAIIRDLNSLFTPDYELLTENDMLPNMRIGALGFSGAFEDRDPTQFEERHLKFLQQLGKGNFGSVEMCRYDPLQDNTGEVVAVKKLQHSTEEHLRDFEREIEILKSLQHDNIVKYKGVCYSAGRRNLKLIMEYLPYGSLRDYLQKHKERIDHIKLLQYTSQICKGMEYLGTKRYIHRDLATRNILVENENRVKIGDFGLTKVLPQDKEYYKVKEPGESPIFWYAPESLTESKFSVASDVWSFGVVLYELFTYIEKSKSPPAEFMRMIGNDKQGQMIVFHLIELLKNNGRLPRPDGCPDEIYMIMTECWNNNVNQRPSFRDLALRVDQIRDNMAG",
+        "length": 1132,
+        "molWeight": 130674,
+        "crc64": "C30669EF1A7DA80C",
+        "md5": "06A47FFCC300B3340AE364CBDAF040BE"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI000012DA9E"
+      }
+    }
+  },
+  "STAT1": {
+    "gene": "STAT1",
+    "status": "found",
+    "raw": {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P42224",
+      "uniProtkbId": "STAT1_HUMAN",
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "value": "Signal transducer and activator of transcription 1-alpha/beta"
+          }
+        },
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Transcription factor ISGF-3 components p91/p84"
+            }
+          }
+        ]
+      },
+      "genes": [
+        {
+          "geneName": {
+            "value": "STAT1"
+          }
+        }
+      ],
+      "comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "P42225"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "12764129"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "12855578"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "15322115"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "19088846"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "23940278"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "26479788"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "28753426"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "32209697"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "34508746"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "35568036"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "8156998"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "9724754"
+                },
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "source": "PubMed",
+                  "id": "15526160"
+                }
+              ],
+              "value": "Signal transducer and transcription activator that mediates cellular responses to interferons (IFNs), cytokine KITLG/SCF and other cytokines and other growth factors (PubMed:12764129, PubMed:12855578, PubMed:15322115, PubMed:23940278, PubMed:34508746, PubMed:35568036, PubMed:9724754). Following type I IFN (IFN-alpha and IFN-beta) binding to cell surface receptors, signaling via protein kinases leads to activation of Jak kinases (TYK2 and JAK1) and to tyrosine phosphorylation of STAT1 and STAT2. The phosphorylated STATs dimerize and associate with ISGF3G/IRF-9 to form a complex termed ISGF3 transcription factor, that enters the nucleus (PubMed:28753426, PubMed:35568036). ISGF3 binds to the IFN stimulated response element (ISRE) to activate the transcription of IFN-stimulated genes (ISG), which drive the cell in an antiviral state (PubMed:28753426, PubMed:35568036). In response to type II IFN (IFN-gamma), STAT1 is tyrosine- and serine-phosphorylated (PubMed:26479788). It then forms a homodimer termed IFN-gamma-activated factor (GAF), migrates into the nucleus and binds to the IFN gamma activated sequence (GAS) to drive the expression of the target genes, inducing a cellular antiviral state (PubMed:8156998). Becomes activated in response to KITLG/SCF and KIT signaling (PubMed:15526160). May mediate cellular responses to activated FGFR1, FGFR2, FGFR3 and FGFR4 (PubMed:19088846). Following bacterial lipopolysaccharide (LPS)-induced TLR4 endocytosis, phosphorylated at Thr-749 by IKBKB which promotes binding of STAT1 to the 5'-TTTGAGGC-3' sequence in the ARID5A promoter, resulting in transcriptional activation of ARID5A and subsequent ARID5A-mediated stabilization of IL6 (PubMed:32209697). Phosphorylation at Thr-749 also promotes binding of STAT1 to the 5'-TTTGAGTC-3' sequence in the IL12B promoter and activation of IL12B transcription (PubMed:32209697). Involved in food tolerance in small intestine: associates with the Gasdermin-D, p13 cleavage product (13 kDa GSDMD) and promotes transcription of CIITA, inducing type 1 regulatory T (Tr1) cells in upper small intestine (By similarity)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ],
+      "features": [],
+      "sequence": {
+        "value": "MSQWYELQQLDSKFLEQVHQLYDDSFPMEIRQYLAQWLEKQDWEHAANDVSFATIRFHDLLSQLDDQYSRFSLENNFLLQHNIRKSKRNLQDNFQEDPIQMSMIIYSCLKEERKILENAQRFNQAQSGNIQSTVMLDKQKELDSKVRNVKDKVMCIEHEIKSLEDLQDEYDFKCKTLQNREHETNGVAKSDQKQEQLLLKKMYLMLDNKRKEVVHKIIELLNVTELTQNALINDELVEWKRRQQSACIGGPPNACLDQLQNWFTIVAESLQQVRQQLKKLEELEQKYTYEHDPITKNKQVLWDRTFSLFQQLIQSSFVVERQPCMPTHPQRPLVLKTGVQFTVKLRLLVKLQELNYNLKVKVLFDKDVNERNTVKGFRKFNILGTHTKVMNMEESTNGSLAAEFRHLQLKEQKNAGTRTNEGPLIVTEELHSLSFETQLCQPGLVIDLETTSLPVVVISNVSQLPSGWASILWYNMLVAEPRNLSFFLTPPCARWAQLSEVLSWQFSSVTKRGLNVDQLNMLGEKLLGPNASPDGLIPWTRFCKENINDKNFPFWLWIESILELIKKHLLPLWNDGCIMGFISKERERALLKDQQPGTFLLRFSESSREGAITFTWVERSQNGGEPDFHAVEPYTKKELSAVTFPDIIRNYKVMAAENIPENPLKYLYPNIDKDHAFGKYYSRPKEAPEPMELDGPKGTGYIKTELISVSEVHPSRLQTTDNLLPMSPEEFDEVSRIVGSVEFDSMMNTV",
+        "length": 750,
+        "molWeight": 87335,
+        "crc64": "054A813522364BA6",
+        "md5": "928D3192950DB622B5CC70171385C78D"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI00000473FB"
+      }
+    }
+  },
+  "CIITA": {
+    "gene": "CIITA",
+    "status": "found",
+    "raw": {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P33076",
+      "uniProtkbId": "C2TA_HUMAN",
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "MHC class II transactivator"
+          },
+          "shortNames": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000305"
+                }
+              ],
+              "value": "CIITA"
+            }
+          ],
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "11172716"
+                }
+              ],
+              "value": "2.3.1.-"
+            },
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "24036077"
+                }
+              ],
+              "value": "2.7.11.1"
+            }
+          ]
+        }
+      },
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "source": "HGNC",
+                "id": "HGNC:7067"
+              }
+            ],
+            "value": "CIITA"
+          },
+          "synonyms": [
+            {
+              "value": "MHC2TA"
+            }
+          ]
+        }
+      ],
+      "comments": [
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "11172716"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "16600381"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "17493635"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "24036077"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "32855215"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "40608405"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "7749984"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "8402893"
+                }
+              ],
+              "value": "Essential for transcriptional activity of the HLA class II promoter; activation is via the proximal promoter (PubMed:16600381, PubMed:17493635, PubMed:7749984, PubMed:8402893, PubMed:40608405). Does not bind DNA (PubMed:16600381, PubMed:17493635, PubMed:7749984, PubMed:8402893). May act in a coactivator-like fashion through protein-protein interactions by contacting factors binding to the proximal MHC class II promoter, to elements of the transcription machinery, or both PubMed:8402893, PubMed:7749984, (PubMed:16600381, PubMed:17493635). Alternatively it may activate HLA class II transcription by modifying proteins that bind to the MHC class II promoter (PubMed:16600381, PubMed:17493635, PubMed:7749984, PubMed:8402893). Also mediates enhanced MHC class I transcription; the promoter element requirements for CIITA-mediated transcription are distinct from those of constitutive MHC class I transcription, and CIITA can functionally replace TAF1 at these genes. Activates CD74 transcription (PubMed:32855215). Exhibits intrinsic GTP-stimulated acetyltransferase activity (PubMed:11172716). Exhibits serine/threonine protein kinase activity: can phosphorylate the TFIID component TAF7, the RAP74 subunit of the general transcription factor TFIIF, histone H2B at 'Ser-37' and other histones (in vitro) (PubMed:24036077). Has antiviral activity against Ebola virus and coronaviruses, including SARS-CoV-2 (PubMed:32855215). Induces resistance by up-regulation of the p41 isoform of CD74, which blocks cathepsin-mediated cleavage of viral glycoproteins, thereby preventing viral fusion (PubMed:32855215)"
+            }
+          ],
+          "commentType": "FUNCTION"
+        },
+        {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "12919287"
+                }
+              ],
+              "value": "Exhibits dominant-negative suppression of MHC class II gene expression"
+            }
+          ],
+          "commentType": "FUNCTION",
+          "molecule": "Isoform 3"
+        }
+      ],
+      "features": [
+        {
+          "type": "Binding site",
+          "location": {
+            "start": {
+              "value": 420,
+              "modifier": "EXACT"
+            },
+            "end": {
+              "value": 427,
+              "modifier": "EXACT"
+            }
+          },
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "11172716"
+            }
+          ],
+          "ligand": {
+            "name": "GTP",
+            "id": "ChEBI:CHEBI:37565"
+          }
+        }
+      ],
+      "sequence": {
+        "value": "MRCLAPRPAGSYLSEPQGSSQCATMELGPLEGGYLELLNSDADPLCLYHFYDQMDLAGEEEIELYSEPDTDTINCDQFSRLLCDMEGDEETREAYANIAELDQYVFQDSQLEGLSKDIFKHIGPDEVIGESMEMPAEVGQKSQKRPFPEELPADLKHWKPAEPPTVVTGSLLVGPVSDCSTLPCLPLPALFNQEPASGQMRLEKTDQIPMPFSSSSLSCLNLPEGPIQFVPTISTLPHGLWQISEAGTGVSSIFIYHGEVPQASQVPPPSGFTVHGLPTSPDRPGSTSPFAPSATDLPSMPEPALTSRANMTEHKTSPTQCPAAGEVSNKLPKWPEPVEQFYRSLQDTYGAEPAGPDGILVEVDLVQARLERSSSKSLERELATPDWAERQLAQGGLAEVLLAAKEHRRPRETRVIAVLGKAGQGKSYWAGAVSRAWACGRLPQYDFVFSVPCHCLNRPGDAYGLQDLLFSLGPQPLVAADEVFSHILKRPDRVLLILDGFEELEAQDGFLHSTCGPAPAEPCSLRGLLAGLFQKKLLRGCTLLLTARPRGRLVQSLSKADALFELSGFSMEQAQAYVMRYFESSGMTEHQDRALTLLRDRPLLLSHSHSPTLCRAVCQLSEALLELGEDAKLPSTLTGLYVGLLGRAALDSPPGALAELAKLAWELGRRHQSTLQEDQFPSADVRTWAMAKGLVQHPPRAAESELAFPSFLLQCFLGALWLALSGEIKDKELPQYLALTPRKKRPYDNWLEGVPRFLAGLIFQPPARCLGALLGPSAAASVDRKQKVLARYLKRLQPGTLRARQLLELLHCAHEAEEAGIWQHVVQELPGRLSFLGTRLTPPDAHVLGKALEAAGQDFSLDLRSTGICPSGLGSLVGLSCVTRFRAALSDTVALWESLQQHGETKLLQAAEEKFTIEPFKAKSLKDVEDLGKLVQTQRTRSSSEDTAGELPAVRDLKKLEFALGPVSGPQAFPKLVRILTAFSSLQHLDLDALSENKIGDEGVSQLSATFPQLKSLETLNLSQNNITDLGAYKLAEALPSLAASLLRLSLYNNCICDVGAESLARVLPDMVSLRVMDVQYNKFTAAGAQQLAASLRRCPHVETLAMWTPTIPFSVQEHLQQQDSRISLR",
+        "length": 1130,
+        "molWeight": 123415,
+        "crc64": "D698094576546509",
+        "md5": "4CA6B047FD6DA19422C2E3EF45A28C08"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI00015BB2D6"
+      }
+    }
+  },
+  "RFX5": {
+    "gene": "RFX5",
+    "status": "found",
+    "raw": {
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "primaryAccession": "P48382",
+      "uniProtkbId": "RFX5_HUMAN",
+      "proteinDescription": {
+        "recommendedName": {
+          "fullName": {
+            "value": "DNA-binding protein RFX5"
+          }
+        },
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Regulatory factor X 5"
+            }
+          }
+        ]
+      },
+      "genes": [
+        {
+          "geneName": {
+            "value": "RFX5"
+          }
+        }
+      ],
+      "comments": [
+        {
+          "texts": [
+            {
+              "value": "Activates transcription from class II MHC promoters. Recognizes X-boxes. Mediates cooperative binding between RFX and NF-Y. RFX binds the X1 box of MHC-II promoters"
+            }
+          ],
+          "commentType": "FUNCTION"
+        }
+      ],
+      "features": [],
+      "sequence": {
+        "value": "MAEDEPDAKSPKTGGRAPPGGAEAGEPTTLLQRLRGTISKAVQNKVEGILQDVQKFSDNDKLYLYLQLPSGPTTGDKSSEPSTLSNEEYMYAYRWIRNHLEEHTDTCLPKQSVYDAYRKYCESLACCRPLSTANFGKIIREIFPDIKARRLGGRGQSKYCYSGIRRKTLVSMPPLPGLDLKGSESPEMGPEVTPAPRDELVEAACALTCDWAERILKRSFSSIVEVARFLLQQHLISARSAHAHVLKAMGLAEEDEHAPRERSSKPKNGLENPEGGAHKKPERLAQPPKDLEARTGAGPLARGERKKSVVESSAPGANNLQVNALVARLPLLLPRAPRSLIPPIPVSPPILAPRLSSGALKVATLPLSSRAGAPPAAVPIINMILPTVPALPGPGPGPGRAPPGGLTQPRGTENREVGIGGDQGPHDKGVKRTAEVPVSEASGQAPPAKAAKQDIEDTASDAKRKRGRPRKKSGGSGERNSTPLKSAAAMESAQSSRLPWETWGSGGEGNSAGGAERPGPMGEAEKGAVLAQGQGDGTVSKGGRGPGSQHTKEAEDKIPLVPSKVSVIKGSRSQKEAFPLAKGEVDTAPQGNKDLKEHVLQSSLSQEHKDPKATPP",
+        "length": 616,
+        "molWeight": 65323,
+        "crc64": "5EBB33C677BB717F",
+        "md5": "7A6087A819339167193D7352E69C4E60"
+      },
+      "extraAttributes": {
+        "uniParcId": "UPI0000000E8B"
+      }
+    }
+  }
+}

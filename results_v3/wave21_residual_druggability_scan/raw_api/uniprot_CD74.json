@@ -1,0 +1,253 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ACD74%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "value": "Plays a critical role in MHC class II antigen processing by stabilizing peptide-free class II alpha/beta heterodimers in a complex soon after their synthesis and directing transport of the complex from the endoplasmic reticulum to the endosomal/lysosomal system where the antigen processing and binding of antigenic peptides to MHC class II takes place. Serves as cell surface receptor for the cytokine MIF"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "molecule": "Class-II-associated invariant chain peptide",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "1448172",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Binds to the peptide-binding site of MHC class II alpha/beta heterodimers forming an alpha-beta-CLIP complex, thereby preventing the loading of antigenic peptides to the MHC class II complex until its release by HLA-DM in the endosome"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "molecule": "Isoform p41",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P04441",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "32855215",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Stabilizes the conformation of mature CTSL by binding to its active site and serving as a chaperone to help maintain a pool of mature enzyme in endocytic compartments and extracellular space of antigen-presenting cells (APCs). Has antiviral activity by stymieing the endosomal entry of Ebola virus and coronaviruses, including SARS-CoV-2 (PubMed:32855215). Disrupts cathepsin-mediated Ebola virus glycoprotein processing, which prevents viral fusion and entry. This antiviral activity is specific to p41 isoform (PubMed:32855215)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "value": "Transits through a number of intracellular compartments in the endocytic pathway. It can either undergo proteolysis or reach the cell membrane"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-9906",
+                "value": "Single-pass type II membrane protein"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0097",
+                "value": "Endoplasmic reticulum membrane"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0266",
+                "value": "Golgi apparatus, trans-Golgi network"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0101",
+                "value": "Endosome"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0158",
+                "value": "Lysosome"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "25326458",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "36213313",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "37453717",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "molecule": "Isoform p41",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P04441",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0152",
+                "value": "Late endosome"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P04441",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0158",
+                "value": "Lysosome"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000012C6BB"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:1697",
+                "source": "HGNC"
+              }
+            ],
+            "value": "CD74"
+          },
+          "synonyms": [
+            {
+              "value": "DHLAG"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P04233",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "HLA-DR antigens-associated invariant chain"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Ia antigen-associated invariant chain"
+            },
+            "shortNames": [
+              {
+                "value": "Ii"
+              }
+            ]
+          }
+        ],
+        "cdAntigenNames": [
+          {
+            "value": "CD74"
+          }
+        ],
+        "contains": [
+          {
+            "recommendedName": {
+              "fullName": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "1448172",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Class-II-associated invariant chain peptide"
+              },
+              "shortNames": [
+                {
+                  "evidences": [
+                    {
+                      "evidenceCode": "ECO:0000303",
+                      "id": "1448172",
+                      "source": "PubMed"
+                    }
+                  ],
+                  "value": "CLIP"
+                }
+              ]
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "HLA class II histocompatibility antigen gamma chain"
+          }
+        }
+      }
+    }
+  ]
+}

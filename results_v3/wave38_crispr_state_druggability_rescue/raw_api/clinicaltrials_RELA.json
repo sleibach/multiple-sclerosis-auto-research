@@ -1,0 +1,288 @@
+{
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D005921",
+              "term": "Glomerulonephritis"
+            },
+            {
+              "id": "D009393",
+              "term": "Nephritis"
+            },
+            {
+              "id": "D007674",
+              "term": "Kidney Diseases"
+            },
+            {
+              "id": "D014570",
+              "term": "Urologic Diseases"
+            },
+            {
+              "id": "D052776",
+              "term": "Female Urogenital Diseases"
+            },
+            {
+              "id": "D005261",
+              "term": "Female Urogenital Diseases and Pregnancy Complications"
+            },
+            {
+              "id": "D000091642",
+              "term": "Urogenital Diseases"
+            },
+            {
+              "id": "D052801",
+              "term": "Male Urogenital Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D005922",
+              "term": "Glomerulonephritis, IGA"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D004562",
+              "term": "Electrocardiography"
+            },
+            {
+              "id": "D006334",
+              "term": "Heart Function Tests"
+            },
+            {
+              "id": "D003935",
+              "term": "Diagnostic Techniques, Cardiovascular"
+            },
+            {
+              "id": "D019937",
+              "term": "Diagnostic Techniques and Procedures"
+            },
+            {
+              "id": "D003933",
+              "term": "Diagnosis"
+            },
+            {
+              "id": "D004568",
+              "term": "Electrodiagnosis"
+            },
+            {
+              "id": "D018670",
+              "term": "Monitoring, Ambulatory"
+            },
+            {
+              "id": "D008991",
+              "term": "Monitoring, Physiologic"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D015716",
+              "term": "Electrocardiography, Ambulatory"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Measure of ANS by holter device in IgAN patients with glomerular filtration rate (GFR) \\>90 ml/min/1.73 m2",
+              "interventionNames": [
+                "Device: Holter"
+              ],
+              "label": "IgAN with glomerular filtration rate (GFR) >90 ml/min/1.73 m2",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Measure of ANS by holter device in IgAN patients with GFR 60-89 ml/min/1.73 m2",
+              "interventionNames": [
+                "Device: Holter"
+              ],
+              "label": "IgAN with GFR 60-89 ml/min/1.73 m2",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Measure of ANS by holter device in IgAN patients with GFR 30-59 ml/min/1.73 m2",
+              "interventionNames": [
+                "Device: Holter"
+              ],
+              "label": "IgAN with GFR 30-59 ml/min/1.73 m2",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Measure of ANS by holter device in IgAN patients with GFR 15-29 ml/min/1.73 m2",
+              "interventionNames": [
+                "Device: Holter"
+              ],
+              "label": "IgAN with GFR 15-29 ml/min/1.73 m2",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "Measure of ANS by holter device in IgAN patients with GFR \\< 15ml/min/1.73 m2.",
+              "interventionNames": [
+                "Device: Holter"
+              ],
+              "label": "IgAN with GFR < 15ml/min/1.73 m2",
+              "type": "EXPERIMENTAL"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "IgAN with GFR 15-29 ml/min/1.73 m2",
+                "IgAN with GFR 30-59 ml/min/1.73 m2",
+                "IgAN with GFR 60-89 ml/min/1.73 m2",
+                "IgAN with GFR < 15ml/min/1.73 m2",
+                "IgAN with glomerular filtration rate (GFR) >90 ml/min/1.73 m2"
+              ],
+              "description": "measure of ANS in IgAN patients",
+              "name": "Holter",
+              "type": "DEVICE"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "IGA Glomerulonephritis"
+          ],
+          "keywords": [
+            "IGA Glomerulonephritis",
+            "Autonomic nervous system",
+            "ANS"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Saint-Etienne",
+              "country": "France",
+              "facility": "CHU Saint-Etienne",
+              "geoPoint": {
+                "lat": 45.43389,
+                "lon": 4.39
+              },
+              "zip": "42055"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Centre Hospitalier Universitaire de Saint Etienne",
+              "name": "Eric Alamartine, PhD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The estimation of the cardiovascular risk in the general population must take into account small renal disturbances, as the microalbuminuria. Conversely certain parameters of the cardiovascular risk influence the evolution of renal diseases, for example the arterial high blood pressure.\n\nThe measure of the activity of the autonomous nervous system, and especially the quantification of its variability, is a means to estimate the cardiovascular risk. The investigators formulate the hypothesis that the variability of the autonomous nervous system is an additional clinical element for the evaluation of the evolutionary risk of renal diseases.\n\nThe aim of this study is to compare the variability of the autonomous nervous system during the various evolutionary stages of the renal disease.\n\nThe renal disease studied will be IgA nephropathy (IgNA). IgNA is a histologically defined glomerulonephritis (rela biopsy) by the presence of deposits immunoglobulin A (IgA) in the renal mesangium (at list 1+) by immunofluorescence."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "NON_RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "DIAGNOSTIC"
+          },
+          "enrollmentInfo": {
+            "count": 12,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "NA"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* diagnosis of IgNA biopsy-proven free, informed, express and written\n\nExclusion Criteria:\n\n* IgNA secondary to Henoch-Schonlein purpura (HSP) or Systemic Lupus Erythematosus or alcoholic cirrhosis\n* current kidney transplantation\n* Hypertension treated or not,\n* Diseases interfering with ANS analysis: cardiac arrhythmia, beta-blocker therapy\n* diabetes",
+          "healthyVolunteers": false,
+          "minimumAge": "18 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Autonomic Nervous System (ANS) and Renal Function in Immunoglobin A (IgA) Nephropathy",
+          "nctId": "NCT02527902",
+          "officialTitle": "Autonomic Nervous System (ANS) Analysis According to Different Renal Function Stage in Immunoglobin A (IgA) Nephropathy",
+          "orgStudyIdInfo": {
+            "id": "1008123"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Centre Hospitalier Universitaire de Saint Etienne"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Comparison of Standard deviation of all R-R intervals (SDNN) between GFR category of IgNA",
+              "measure": "Standard deviation of all R-R intervals (SDNN)",
+              "timeFrame": "day 1"
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": false
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Centre Hospitalier Universitaire de Saint Etienne"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2012-04",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2015-08-19",
+            "type": "ESTIMATED"
+          },
+          "lastUpdateSubmitDate": "2015-08-18",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2012-04",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2011-01"
+          },
+          "statusVerifiedDate": "2015-08",
+          "studyFirstPostDateStruct": {
+            "date": "2015-08-19",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2015-08-18",
+          "studyFirstSubmitQcDate": "2015-08-18"
+        }
+      }
+    }
+  ]
+}

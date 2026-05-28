@@ -1,0 +1,94 @@
+{
+  "branch_call": "CUX1_CONSISTENT_DIRECTIONAL_CONTROLLER_SIGNAL",
+  "random_seed": 20260527,
+  "n_induced_context_sirna_tests": 105,
+  "cux1_all_context_summary": [
+    {
+      "sirna": "CUX1",
+      "scope": "all_induced_contexts",
+      "module": "ALL",
+      "n_contexts": 21,
+      "n_negative": 18,
+      "fraction_negative": 0.8571428571428571,
+      "mean_effect": -0.3068882363597114,
+      "median_effect": -0.1992457576165758,
+      "wilcoxon_less_p": 6.532669067382812e-05,
+      "binomial_negative_p": 0.0007448196411132812,
+      "wilcoxon_less_q_bh": 0.0016331672668457031,
+      "binomial_negative_q_bh": 0.006206830342610677
+    }
+  ],
+  "top_all_context_sirnas": [
+    {
+      "sirna": "CUX1",
+      "scope": "all_induced_contexts",
+      "module": "ALL",
+      "n_contexts": 21,
+      "n_negative": 18,
+      "fraction_negative": 0.8571428571428571,
+      "mean_effect": -0.3068882363597114,
+      "median_effect": -0.1992457576165758,
+      "wilcoxon_less_p": 6.532669067382812e-05,
+      "binomial_negative_p": 0.0007448196411132812,
+      "wilcoxon_less_q_bh": 0.0016331672668457031,
+      "binomial_negative_q_bh": 0.006206830342610677
+    },
+    {
+      "sirna": "STAT4",
+      "scope": "all_induced_contexts",
+      "module": "ALL",
+      "n_contexts": 21,
+      "n_negative": 19,
+      "fraction_negative": 0.9047619047619048,
+      "mean_effect": -0.27462448501819786,
+      "median_effect": -0.3068634699912006,
+      "wilcoxon_less_p": 9.870529174804688e-05,
+      "binomial_negative_p": 0.000110626220703125,
+      "wilcoxon_less_q_bh": 0.001233816146850586,
+      "binomial_negative_q_bh": 0.0013828277587890625
+    },
+    {
+      "sirna": "STAT3",
+      "scope": "all_induced_contexts",
+      "module": "ALL",
+      "n_contexts": 21,
+      "n_negative": 19,
+      "fraction_negative": 0.9047619047619048,
+      "mean_effect": -0.2396477324151221,
+      "median_effect": -0.1598041235639267,
+      "wilcoxon_less_p": 0.0005879402160644531,
+      "binomial_negative_p": 0.000110626220703125,
+      "wilcoxon_less_q_bh": 0.004899501800537109,
+      "binomial_negative_q_bh": 0.002765655517578125
+    },
+    {
+      "sirna": "LIFR",
+      "scope": "all_induced_contexts",
+      "module": "ALL",
+      "n_contexts": 21,
+      "n_negative": 16,
+      "fraction_negative": 0.7619047619047619,
+      "mean_effect": -0.14425321277744074,
+      "median_effect": -0.1029132117594704,
+      "wilcoxon_less_p": 0.0024394989013671875,
+      "binomial_negative_p": 0.013301849365234375,
+      "wilcoxon_less_q_bh": 0.015246868133544922,
+      "binomial_negative_q_bh": 0.08313655853271484
+    },
+    {
+      "sirna": "ELF3",
+      "scope": "all_induced_contexts",
+      "module": "ALL",
+      "n_contexts": 21,
+      "n_negative": 12,
+      "fraction_negative": 0.5714285714285714,
+      "mean_effect": -0.053285027410249305,
+      "median_effect": -0.0863881006660547,
+      "wilcoxon_less_p": 0.12862396240234375,
+      "binomial_negative_p": 0.33181190490722656,
+      "wilcoxon_less_q_bh": 0.17864439222547743,
+      "binomial_negative_q_bh": 0.43659461172003494
+    }
+  ],
+  "interpretation_guardrail": "Requires CUX1 >=75% negative effects across induced contexts and BH q<0.10 for one-sided Wilcoxon."
+}

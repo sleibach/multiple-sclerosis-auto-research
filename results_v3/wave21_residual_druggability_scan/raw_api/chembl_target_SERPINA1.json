@@ -1,0 +1,130 @@
+{
+  "_request_url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=SERPINA1&limit=10",
+  "_status_code": 200,
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Mus caroli",
+      "pref_name": "Alpha-1-antiproteinase",
+      "score": 18.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL1795142",
+      "target_components": [
+        {
+          "accession": "P26595",
+          "component_description": "Alpha-1-antiproteinase",
+          "component_id": 5629,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "AAT",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Alpha-1-antiproteinase",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Alpha-1-antitrypsin",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Alpha-1-proteinase inhibitor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Serpina1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Serpin A1",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P26595",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005615",
+              "xref_name": "extracellular space",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0004867",
+              "xref_name": "serine-type endopeptidase inhibitor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "IPR000215",
+              "xref_name": "Serpin_fam",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR023795",
+              "xref_name": "Serpin_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR023796",
+              "xref_name": "Serpin_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036186",
+              "xref_name": "Serpin_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR042178",
+              "xref_name": "Serpin_sf_1",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR042185",
+              "xref_name": "Serpin_sf_2",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11461",
+              "xref_name": "SERINE PROTEASE INHIBITOR, SERPIN",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR11461:SF165",
+              "xref_name": "ALPHA-1-ANTITRYPSIN",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00079",
+              "xref_name": "Serpin",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "P26595",
+              "xref_name": "Alpha-1-antiproteinase",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 10089
+    }
+  ]
+}

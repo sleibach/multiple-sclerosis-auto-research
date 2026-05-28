@@ -1,0 +1,1175 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ATGM2%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P08587",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P21981",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "12506096",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "1683874",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "18092889",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20547769",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "23797785",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "23941696",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "24349085",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "26250429",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "27131890",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "28198360",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "29618516",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "30458214",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "30867594",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "31991788",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "32273471",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "7592956",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "7649299",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "7935379",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "8943303",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9252372",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9623982",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "27270573",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Calcium-dependent acyltransferase that catalyzes the formation of covalent bonds between peptide-bound glutamine and various primary amines, such as gamma-amino group of peptide-bound lysine, or mono- and polyamines, thereby producing cross-linked or aminated proteins, respectively (PubMed:23941696, PubMed:31991788, PubMed:9252372). Involved in many biological processes, such as bone development, angiogenesis, wound healing, cellular differentiation, chromatin modification and apoptosis (PubMed:1683874, PubMed:27270573, PubMed:28198360, PubMed:7935379, PubMed:9252372). Acts as a protein-glutamine gamma-glutamyltransferase by mediating the cross-linking of proteins, such as ACO2, HSPB6, FN1, HMGB1, RAP1GDS1, SLC25A4/ANT1, SPP1 and WDR54 (PubMed:23941696, PubMed:24349085, PubMed:29618516, PubMed:30458214). Under physiological conditions, the protein cross-linking activity is inhibited by GTP; inhibition is relieved by Ca(2+) in response to various stresses (PubMed:18092889, PubMed:7592956, PubMed:7649299). When secreted, catalyzes cross-linking of proteins of the extracellular matrix, such as FN1 and SPP1 resulting in the formation of scaffolds (PubMed:12506096). Plays a key role during apoptosis, both by (1) promoting the cross-linking of cytoskeletal proteins resulting in condensation of the cytoplasm, and by (2) mediating cross-linking proteins of the extracellular matrix, resulting in the irreversible formation of scaffolds that stabilize the integrity of the dying cells before their clearance by phagocytosis, thereby preventing the leakage of harmful intracellular components (PubMed:7935379, PubMed:9252372). In addition to protein cross-linking, can use different monoamine substrates to catalyze a vast array of protein post-translational modifications: mediates aminylation of serotonin, dopamine, noradrenaline or histamine into glutamine residues of target proteins to generate protein serotonylation, dopaminylation, noradrenalinylation or histaminylation, respectively (PubMed:23797785, PubMed:30867594). Mediates protein serotonylation of small GTPases during activation and aggregation of platelets, leading to constitutive activation of these GTPases (By similarity). Plays a key role in chromatin organization by mediating serotonylation and dopaminylation of histone H3 (PubMed:30867594, PubMed:32273471). Catalyzes serotonylation of 'Gln-5' of histone H3 (H3Q5ser) during serotonergic neuron differentiation, thereby facilitating transcription (PubMed:30867594). Acts as a mediator of neurotransmission-independent role of nuclear dopamine in ventral tegmental area (VTA) neurons: catalyzes dopaminylation of 'Gln-5' of histone H3 (H3Q5dop), thereby regulating relapse-related transcriptional plasticity in the reward system (PubMed:32273471). Regulates vein remodeling by mediating serotonylation and subsequent inactivation of ATP2A2/SERCA2 (By similarity). Also acts as a protein deamidase by mediating the side chain deamidation of specific glutamine residues of proteins to glutamate (PubMed:20547769, PubMed:9623982). Catalyzes specific deamidation of protein gliadin, a component of wheat gluten in the diet (PubMed:9623982). May also act as an isopeptidase cleaving the previously formed cross-links (PubMed:26250429, PubMed:27131890). Also able to participate in signaling pathways independently of its acyltransferase activity: acts as a signal transducer in alpha-1 adrenergic receptor-mediated stimulation of phospholipase C-delta (PLCD) activity and is required for coupling alpha-1 adrenergic agonists to the stimulation of phosphoinositide lipid metabolism (PubMed:8943303)"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "molecule": "Isoform 2",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17116873",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Has cytotoxic activity: is able to induce apoptosis independently of its acyltransferase activity"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "9575137",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "27270573",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Mainly localizes to the cytosol (PubMed:9575137). Present at much lower level in the nucleus and chromatin (PubMed:9575137). Also secreted via a non-classical secretion pathway to the extracellular matrix (PubMed:27270573)"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "24349085",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "29618516",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "9575137",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0091",
+                "value": "Cytoplasm, cytosol"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "29618516",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "9575137",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0191",
+                "value": "Nucleus"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "9575137",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0468",
+                "value": "Chromosome"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "12506096",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "1683874",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "28198360",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0111",
+                "value": "Secreted, extracellular space, extracellular matrix"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "Q9WVJ6",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "24349085",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0173",
+                "value": "Mitochondrion"
+              }
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "molecule": "Isoform 2",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "17116873",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0198",
+                "value": "Cytoplasm, perinuclear region"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000136CCB"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU10024",
+              "source": "PROSITE-ProRule"
+            },
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "7649299",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "8943303",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 277
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 277
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU10024",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 335
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 335
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU10024",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 358
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 358
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P00488",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 398
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 398
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P00488",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 400
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 400
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "31991788",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 437
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 437
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P00488",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 447
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 447
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P00488",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 452
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 452
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "25192068",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "30321187",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "31991788",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "11867708",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "20450932",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1KV3",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3LY6",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4PYG",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "6A8P",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "6KZB",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 483
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 476
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "31991788",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 539
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 539
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "25192068",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "30321187",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "31991788",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "11867708",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "20450932",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1KV3",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3LY6",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4PYG",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "6A8P",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "6KZB",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:37565"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:37565",
+            "name": "GTP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 583
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 580
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "id": "17939176",
+                "source": "PubMed"
+              },
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:11778",
+                "source": "HGNC"
+              }
+            ],
+            "value": "TGM2"
+          }
+        }
+      ],
+      "primaryAccession": "P21980",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "2903073",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Erythrocyte transglutaminase"
+            }
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "7592956",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Heart G alpha(h)"
+            },
+            "shortNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "7592956",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "hhG alpha(h)"
+              }
+            ]
+          },
+          {
+            "ecNumbers": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "26250429",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "27131890",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "3.4.-.-"
+              }
+            ],
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000305"
+                }
+              ],
+              "value": "Isopeptidase TGM2"
+            }
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "8943303",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Protein G alpha(h)"
+            },
+            "shortNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "8943303",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "G(h)"
+              }
+            ]
+          },
+          {
+            "ecNumbers": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "20547769",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "9623982",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "3.5.1.44"
+              }
+            ],
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000305"
+                }
+              ],
+              "value": "Protein-glutamine deamidase TGM2"
+            }
+          },
+          {
+            "ecNumbers": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "32273471",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "2.3.1.-"
+              }
+            ],
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000305"
+                }
+              ],
+              "value": "Protein-glutamine dopaminyltransferase TGM2"
+            }
+          },
+          {
+            "ecNumbers": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "23797785",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "2.3.1.-"
+              }
+            ],
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000305"
+                }
+              ],
+              "value": "Protein-glutamine histaminyltransferase TGM2"
+            }
+          },
+          {
+            "ecNumbers": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P08587",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "value": "2.3.1.-"
+              }
+            ],
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000305"
+                }
+              ],
+              "value": "Protein-glutamine noradrenalinyltransferase TGM2"
+            }
+          },
+          {
+            "ecNumbers": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "30867594",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "2.3.1.-"
+              }
+            ],
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000305"
+                }
+              ],
+              "value": "Protein-glutamine serotonyltransferase TGM2"
+            }
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "1358880",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "1670766",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "7935379",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "9212111",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Tissue transglutaminase"
+            },
+            "shortNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "7935379",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "9212111",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "tTG"
+              },
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "12506096",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "7649299",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "tTgase"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "11390390",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Transglutaminase C"
+            },
+            "shortNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "11390390",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "TG(C)"
+              },
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "11390390",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "TGC"
+              },
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "11390390",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "TGase C"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "1358880",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Transglutaminase H"
+            },
+            "shortNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "1358880",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "TGase H"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "7592956",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Transglutaminase II"
+            },
+            "shortNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "7592956",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "TGase II"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "24349085",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "30458214",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Transglutaminase-2"
+            },
+            "shortNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "24349085",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "30458214",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "TG2"
+              },
+              {
+                "value": "TGase-2"
+              },
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "28858494",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "hTG2"
+              }
+            ]
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "23941696",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "24349085",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "31991788",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "2.3.2.13"
+            }
+          ],
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Protein-glutamine gamma-glutamyltransferase 2"
+          }
+        }
+      }
+    }
+  ]
+}

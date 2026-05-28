@@ -1,0 +1,213 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3AKCNJ2%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11371347",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15761194",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15922306",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "16571646",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17324964",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "36149965",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "7590287",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "7696590",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "7840300",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "8821791",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9490857",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9533862",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Inward rectifier potassium channels are characterized by a greater tendency to allow potassium to flow into the cell rather than out of it (PubMed:36149965, PubMed:7590287, PubMed:9490857). Their voltage dependence is regulated by the concentration of extracellular potassium; as external potassium is raised, the voltage range of the channel opening shifts to more positive voltages (PubMed:7590287, PubMed:7696590). The inward rectification is mainly due to the blockage of outward current by internal magnesium (PubMed:9490857). Can be blocked by extracellular barium or cesium (PubMed:7590287, PubMed:7696590). Probably participates in establishing action potential waveform and excitability of neuronal and muscle tissues (PubMed:7590287, PubMed:7696590, PubMed:7840300)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "16571646",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "9533862",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000255"
+                  }
+                ],
+                "id": "SL-9909",
+                "value": "Multi-pass membrane protein"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "Q64273",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0505",
+                "value": "Cell membrane, sarcolemma, T-tubule"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000004F21A"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "36149965",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "7ZDZ",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29103"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29103",
+            "name": "K(+)",
+            "note": "ligand shared between two neighboring subunits"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 255
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 255
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "KCNJ2"
+          },
+          "synonyms": [
+            {
+              "value": "IRK1"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P63252",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Cardiac inward rectifier potassium channel"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Inward rectifier K(+) channel Kir2.1"
+            },
+            "shortNames": [
+              {
+                "value": "IRK-1"
+              },
+              {
+                "value": "hIRK1"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Potassium channel, inwardly rectifying subfamily J member 2"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Inward rectifier potassium channel 2"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "Q99KR7",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "19228691",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20676357",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22726440",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "26387735",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "PPIase that catalyzes the cis-trans isomerization of proline imidic peptide bonds in oligopeptides and may therefore assist protein folding (PubMed:20676357). Involved in regulation of the mitochondrial permeability transition pore (mPTP) (PubMed:26387735). It is proposed that its association with the mPTP is masking a binding site for inhibiting inorganic phosphate (Pi) and promotes the open probability of the mPTP leading to apoptosis or necrosis; the requirement of the PPIase activity for this function is debated (PubMed:26387735). In cooperation with mitochondrial p53/TP53 is involved in activating oxidative stress-induced necrosis (PubMed:22726440). Involved in modulation of mitochondrial membrane F(1)F(0) ATP synthase activity and regulation of mitochondrial matrix adenine nucleotide levels (By similarity). Has anti-apoptotic activity independently of mPTP and in cooperation with BCL2 inhibits cytochrome c-dependent apoptosis (PubMed:19228691)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "10406942",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0170",
+                "value": "Mitochondrion matrix"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000003AF84"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "PPIF"
+          },
+          "synonyms": [
+            {
+              "value": "CYP3"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0007",
+          "name": "Acetylation"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0053",
+          "name": "Apoptosis"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0413",
+          "name": "Isomerase"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0496",
+          "name": "Mitochondrion"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-1210",
+          "name": "Necrosis"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0697",
+          "name": "Rotamase"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0702",
+          "name": "S-nitrosylation"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0809",
+          "name": "Transit peptide"
+        }
+      ],
+      "primaryAccession": "P30405",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Cyclophilin D"
+            },
+            "shortNames": [
+              {
+                "value": "CyP-D"
+              },
+              {
+                "value": "CypD"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Cyclophilin F"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Mitochondrial cyclophilin"
+            },
+            "shortNames": [
+              {
+                "value": "CyP-M"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Rotamase F"
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20676357",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "5.2.1.8"
+            }
+          ],
+          "fullName": {
+            "value": "Peptidyl-prolyl cis-trans isomerase F, mitochondrial"
+          },
+          "shortNames": [
+            {
+              "value": "PPIase F"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "D7C76F1D4049F16A",
+        "length": 207,
+        "md5": "78A02ED88FEAEC7A3EFE83F41146EFC5",
+        "molWeight": 22040,
+        "value": "MLALRCGSRWLGLLSVPRSVPLRLPAARACSKGSGDPSSSSSSGNPLVYLDVDANGKPLGRVVLELKADVVPKTAENFRALCTGEKGFGYKGSTFHRVIPSFMCQAGDFTNHNGTGGKSIYGSRFPDENFTLKHVGPGVLSMANAGPNTNGSQFFICTIKTDWLDGKHVVFGHVKEGMDVVKKIESFGSKSGRTSKKIVITDCGQLS"
+      },
+      "uniProtkbId": "PPIF_HUMAN"
+    }
+  ]
+}

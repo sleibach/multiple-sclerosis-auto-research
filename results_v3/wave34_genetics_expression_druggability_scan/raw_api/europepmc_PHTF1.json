@@ -1,0 +1,61 @@
+{
+  "payload": {
+    "hitCount": 102,
+    "nextCursorMark": "AoIIQTO1tCg1MjgzMTg5NQ==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PHTF1 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQTO1tCg1MjgzMTg5NQ==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "PHTF1 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Shigesi N, Harris HR, Fang H, Ndungu A, Lincoln MR, International Endometriosis Genome Consortium, 23andMe Research Team, Cotsapas C, Knight J, Missmer SA, Morris AP, Becker CM, Rahmioglu N, Zondervan KT.",
+          "citedByCount": 11,
+          "doi": "10.1093/humrep/deaf062",
+          "firstIndexDate": "2025-04-24",
+          "firstPublicationDate": "2025-06-01",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12127507"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "40262193",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "6",
+          "journalIssn": "0268-1161; 1460-2350; ",
+          "journalTitle": "Hum Reprod",
+          "journalVolume": "40",
+          "pageInfo": "1195-1209",
+          "pmcid": "PMC12127507",
+          "pmid": "40262193",
+          "pubType": "research-article; journal article",
+          "pubYear": "2025",
+          "source": "MED",
+          "title": "The phenotypic and genetic association between endometriosis and immunological diseases.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "refsnp"
+            ]
+          }
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PHTF1+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

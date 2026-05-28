@@ -1,0 +1,226 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "Q64253",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "32641482",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "GPI-anchored cell surface protein that regulates T-lymphocytes proliferation, differentiation, and activation. Regulates the T-cell receptor (TCR) signaling by interacting with component CD3Z/CD247 at the plasma membrane, leading to CD3Z/CD247 phosphorylation modulation (By similarity). Restricts the entry of human coronaviruses, including SARS-CoV, MERS-CoV and SARS-CoV-2, by interfering with spike protein-mediated membrane fusion (PubMed:32641482). Also plays an essential role in placenta formation by acting as the main receptor for syncytin-A (SynA). Therefore, participates in the normal fusion of syncytiotrophoblast layer I (SynT-I) and in the proper morphogenesis of both fetal and maternal vasculatures within the placenta. May also act as a modulator of nicotinic acetylcholine receptors (nAChRs) activity (By similarity)"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "28130445",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "29610346",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "30190477",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "(Microbial infection) Promotes entry, likely through an enhanced virus-cell fusion process, of various viruses including HIV-1, West Nile virus, dengue virus and Zika virus (PubMed:28130445). In contrast, the paramyxovirus PIV5, which enters at the plasma membrane, does not require LY6E (PubMed:28130445, PubMed:29610346). Mechanistically, adopts a microtubule-like organization upon viral infection and enhances viral uncoating after endosomal escape (PubMed:28130445, PubMed:30190477)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "Q64253",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "Q64253",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-9902",
+                "value": "Lipid-anchor, GPI-anchor"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00000374A7"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:6727",
+                "source": "HGNC"
+              }
+            ],
+            "value": "LY6E"
+          },
+          "synonyms": [
+            {
+              "value": "9804"
+            },
+            {
+              "value": "RIGE"
+            },
+            {
+              "value": "SCA2"
+            },
+            {
+              "value": "TSA1"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Cellular component",
+          "id": "KW-1003",
+          "name": "Cell membrane"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-1015",
+          "name": "Disulfide bond"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0325",
+          "name": "Glycoprotein"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0336",
+          "name": "GPI-anchor"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0945",
+          "name": "Host-virus interaction"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0449",
+          "name": "Lipoprotein"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0732",
+          "name": "Signal"
+        }
+      ],
+      "primaryAccession": "Q16553",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Retinoic acid-induced gene E protein"
+            },
+            "shortNames": [
+              {
+                "value": "RIG-E"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Stem cell antigen 2"
+            },
+            "shortNames": [
+              {
+                "value": "SCA-2"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Thymic shared antigen 1"
+            },
+            "shortNames": [
+              {
+                "value": "TSA-1"
+              }
+            ]
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Lymphocyte antigen 6E"
+          },
+          "shortNames": [
+            {
+              "value": "Ly-6E"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "0F6D1157741AFC98",
+        "length": 131,
+        "md5": "FE4AE81AEAD056E42228A7EED5B3E258",
+        "molWeight": 13507,
+        "value": "MKIFLPVLLAALLGVERASSLMCFSCLNQKSNLYCLKPTICSDQDNYCVTVSASAGIGNLVTFGHSLSKTCSPACPIPEGVNVGVASMGISCCQSFLCNFSAADGGLRASVTLLGAGLLLSLLPALLRFGP"
+      },
+      "uniProtkbId": "LY6E_HUMAN"
+    }
+  ]
+}

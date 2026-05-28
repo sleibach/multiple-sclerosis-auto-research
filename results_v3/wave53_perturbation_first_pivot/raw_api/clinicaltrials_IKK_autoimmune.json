@@ -1,0 +1,927 @@
+{
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D001168",
+              "term": "Arthritis"
+            },
+            {
+              "id": "D007592",
+              "term": "Joint Diseases"
+            },
+            {
+              "id": "D009140",
+              "term": "Musculoskeletal Diseases"
+            },
+            {
+              "id": "D012216",
+              "term": "Rheumatic Diseases"
+            },
+            {
+              "id": "D003240",
+              "term": "Connective Tissue Diseases"
+            },
+            {
+              "id": "D017437",
+              "term": "Skin and Connective Tissue Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D001172",
+              "term": "Arthritis, Rheumatoid"
+            }
+          ]
+        },
+        "interventionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D008605",
+              "term": "Mental Health Services"
+            },
+            {
+              "id": "D004191",
+              "term": "Behavioral Disciplines and Activities"
+            },
+            {
+              "id": "D003153",
+              "term": "Community Health Services"
+            },
+            {
+              "id": "D006296",
+              "term": "Health Services"
+            },
+            {
+              "id": "D005159",
+              "term": "Health Care Facilities Workforce and Services"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D003376",
+              "term": "Counseling"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "intervention group, receives counselling on medical inpatient rehabilitation by statutory health insurance, is intended to apply for a 3-wek medical inpatient rehabilitation at the co-operating clinic (Bad Bramstedt)",
+              "interventionNames": [
+                "Procedure: Counselling and 3-week medical in-patient rehabilitation"
+              ],
+              "label": "IG",
+              "type": "EXPERIMENTAL"
+            },
+            {
+              "description": "control group, receives usual care",
+              "label": "KG",
+              "type": "NO_INTERVENTION"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "IG"
+              ],
+              "description": "Counselling and 3-week medical in-patient rehabilitation in IG",
+              "name": "Counselling and 3-week medical in-patient rehabilitation",
+              "type": "PROCEDURE"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Rheumatoid Arthritis"
+          ],
+          "keywords": [
+            "Medical in-patient rehabilitation",
+            "Gainfully employed",
+            "Work incapacity"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "L\u00fcbeck",
+              "country": "Germany",
+              "facility": "Institute for Social Medicine, University of Luebeck",
+              "geoPoint": {
+                "lat": 53.86893,
+                "lon": 10.68729
+              },
+              "zip": "23538"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Institute for Social Medicine, University of Luebeck",
+              "name": "Heiner Raspe, Prof.Dr.Dr.",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The randomised controlled trial explores the efficacy of a counselling interview on an multidisciplinary multimodal intervention to ameliorate the somatic, mental and social medical progress of rheumatoid arthritis in gainfully employed insurants of compulsory health insurances and statutory pension insurances . Additionally, the feasibility to recruit a study population via databases of compulsory health insurances is examined.",
+          "detailedDescription": "Rheumatoid arthritis is the most prevalent inflammatory rheumatic disease. Limited participation of the individual patient accumulates with large amounts of indirect costs for society: About 40 % of the affected patients have to quit their jobs within the first three to four years after disease onset. Nevertheless, the German health care system still seems to lack an adequate supply, particularly in case of medical rehabilitation in early stages of disease. International clinical trials, reviews amd evidence-based guidelines emphasize the importance of an early multimodal multidisciplinary team care as in Germany provided by specialised clinics through three-week in-patient medical rehabilitation programs. The available study explores the efficacy of a counselling interview on an medical in-patient rehabilitation in a randomised controlled design. Exclusively, gainfully employed insurants of compulsory health insurances and statutory pension insurances are included in the study.\n\nSecondary, to avoid the problem of a selection bias caused by recruitment via clinics or doctors, the RCT tests the possibility to recruit potential participants by data of the co-operating health insurances on RA-specific diagnoses of work incapacity, hospital discharge diagnoses, and medical prescriptions within the past 24 months.\n\nDetailed process:\n\n1. Recruitment of a potential study population via health insurance data (defined search criteria: ICD-10 diagnoses M05/06/13/79 in case of work disability/hospital discharge, RA-specific medical prescriptions within the past 24 months)\n2. screening questionnaire to verify in-/exclusion criteria\n3. selection of eligible insurants (RA-criteria of American College of Rheumatology, clinical expert)\n4. baseline measurement (e.g. SF-36, RAQoL, FFbH-P, SPE)\n5. external stratified block by block randomization: intervention group (3- week medical in-patient rehabilitation) vs. control group (usual care)\n6. follow-up measurement (12 months after baseline)\n7. data transfer of health insurances and pension insurances\n\nComparison:\n\nLooking at a 12-months follow-up, the intervention group (3-week medical in-patient rehabilitation) is expected to show significant enhancement in somatic, mental and social medical parameters concerning rheumatoid arthritis compared to a control group receiving usual care."
+        },
+        "designModule": {
+          "designInfo": {
+            "allocation": "RANDOMIZED",
+            "interventionModel": "PARALLEL",
+            "maskingInfo": {
+              "masking": "NONE"
+            },
+            "primaryPurpose": "TREATMENT"
+          },
+          "enrollmentInfo": {
+            "count": 129,
+            "type": "ACTUAL"
+          },
+          "phases": [
+            "PHASE3"
+          ],
+          "studyType": "INTERVENTIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Rheumatoid arthritis / psoriatic arthritis (expert decision, ACR criteria)\n* Insurant of co-operating health insurance and pension insurance\n* Gainfully employed\n* Eligible to receive a medical in-patient rehabilitation\n\nExclusion Criteria:\n\n* Polyarthritis, inflammatory intestinal diseases and diseases of connective tissue\n* Currently work disabled\n* Not able / not willing to co-operate\n* Medical in-patient rehabilitation within past 48 months",
+          "healthyVolunteers": false,
+          "maximumAge": "62 Years",
+          "minimumAge": "20 Years",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT"
+          ]
+        },
+        "identificationModule": {
+          "briefTitle": "Medical In-Patient Rehabilitation in Rheumatoid Arthritis",
+          "nctId": "NCT00229541",
+          "officialTitle": "Medical In-Patient Rehabilitation in Rheumatoid Arthritis: Acceptance and Outcomes in Insurants of Compulsory Health Insurances and Statutory Pension Insurances (VERA)",
+          "orgStudyIdInfo": {
+            "id": "FKZ 01GL0306"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "University of Luebeck"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "measure": "work incapacity (incidence, duration)",
+              "timeFrame": "baseline, 12 months follow-up"
+            }
+          ],
+          "secondaryOutcomes": [
+            {
+              "measure": "general health status (SF-36)",
+              "timeFrame": "baseline, 12 months follow-up"
+            },
+            {
+              "measure": "Functional capacity (FFbH-P)",
+              "timeFrame": "baseline, 12 months follow-up"
+            },
+            {
+              "measure": "Quality of life (RAQoL)",
+              "timeFrame": "baseline"
+            },
+            {
+              "measure": "Subjective prognosis of gainful employment (SPE-scale)",
+              "timeFrame": "baseline, 12 months follow-up"
+            },
+            {
+              "measure": "Somatization (SCL-90-R)",
+              "timeFrame": "baseline, 12 months follow-up"
+            },
+            {
+              "measure": "Depression",
+              "timeFrame": "baseline, 12 months follow-up"
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": true
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Schlademann S, Huppe A, Raspe H. [Results of a randomised controlled trial on the acceptance and the outcomes of a counselling on medical inpatient rehabilitation in gainfully employed members of statutory health insurances with rheumatoid arthritis (clinicaltrials.gov identifier NCT00229541)]. Gesundheitswesen. 2007 Jun;69(6):325-35. doi: 10.1055/s-2007-982519. German.",
+              "pmid": "17642037",
+              "type": "RESULT"
+            }
+          ],
+          "seeAlsoLinks": [
+            {
+              "label": "homepage Institute for Social Medicine, University of Luebeck",
+              "url": "http://www.sozmed.uni-luebeck.de"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "INDUSTRY",
+              "name": "AOK Schleswig-Holstein"
+            },
+            {
+              "class": "UNKNOWN",
+              "name": "BEK Nord"
+            },
+            {
+              "class": "INDUSTRY",
+              "name": "Draeger and Hanse BKK"
+            },
+            {
+              "class": "OTHER",
+              "name": "DAK Gesundheit"
+            },
+            {
+              "class": "UNKNOWN",
+              "name": "IKK Schleswig-Holstein"
+            },
+            {
+              "class": "UNKNOWN",
+              "name": "TK Schleswig-Holstein"
+            },
+            {
+              "class": "UNKNOWN",
+              "name": "LVA Schleswig-Holstein"
+            },
+            {
+              "class": "UNKNOWN",
+              "name": "BfA"
+            },
+            {
+              "class": "UNKNOWN",
+              "name": "Deutsche Rheumaliga Schleswig-Holstein"
+            },
+            {
+              "class": "UNKNOWN",
+              "name": "Berufsverband Deutscher Rheumatologen"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "University of Luebeck"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2006-03",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2007-10-29",
+            "type": "ESTIMATED"
+          },
+          "lastUpdateSubmitDate": "2007-10-26",
+          "overallStatus": "COMPLETED",
+          "startDateStruct": {
+            "date": "2003-10"
+          },
+          "statusVerifiedDate": "2007-10",
+          "studyFirstPostDateStruct": {
+            "date": "2005-09-29",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2005-09-27",
+          "studyFirstSubmitQcDate": "2005-09-27"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D007239",
+              "term": "Infections"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D014777",
+              "term": "Virus Diseases"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "641,407 patients with a SARS-CoV-2 infection in the year 2020.",
+              "interventionNames": [
+                "Other: Exposed to a SARS-CoV-2 infection"
+              ],
+              "label": "COVID"
+            },
+            {
+              "description": "Matched patients with no SARS-CoV-2 infection during the study period.",
+              "label": "Non-COVID"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "COVID"
+              ],
+              "description": "The study compared humans exposed to the SARS-CoV-2 infection with a matched group of those not exposed. No Intervention was applied.",
+              "name": "Exposed to a SARS-CoV-2 infection",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Virus Diseases"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Dresden",
+              "country": "Germany",
+              "facility": "Center for Evidence-Based Healthcare, Technische Universit\u00e4t Dresden",
+              "geoPoint": {
+                "lat": 51.05089,
+                "lon": 13.73832
+              },
+              "state": "Saxony",
+              "zip": "01307"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "Center for Evidence-Based Healthcare, Technische Universit\u00e4t Dresden",
+              "name": "Jochen Schmitt, MD, MPH",
+              "role": "STUDY_DIRECTOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The SARS-CoV-2 (Severe acute respiratory syndrome coronavirus type 2) infection was in 2020 responsible for new disease related chronic conditions which have been referred to as Post-COVID. To date it is still unknown how common this condition is and how it might effect the working of the Immune system. The aim of the study is therefore to monitor the onset of autoimmune diseases in a large observational study consisting of German health insurance data.",
+          "detailedDescription": "SARS-CoV-2 is a virus of the coronavirus family, which includes a large number of viruses that can cause a wide variety of diseases in humans. The SARS-CoV-2 virus causes acute symptoms associated with the infection and can cause chronic conditions known as Post-COVID. To understand how the virus might effect the working of the Immune system a large observational study of health insurance data from Germany was set up. The exposed patients were identified by a diagnosis indicating a confirmed laboratory test for COVID-19.\n\nThe basic question concerns the burden of the Post-COVID condition. The study investigate which autoimmune diseases or groups of autoimmune diseases are more common in humans after the exposure to the virus compared to a matched unexposed cohort. Further will this be investigated in subgroups of the population."
+        },
+        "designModule": {
+          "designInfo": {
+            "observationalModel": "COHORT",
+            "timePerspective": "RETROSPECTIVE"
+          },
+          "enrollmentInfo": {
+            "count": 641407,
+            "type": "ACTUAL"
+          },
+          "patientRegistry": false,
+          "studyType": "OBSERVATIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* At least one outpatient or inpatient diagnosis of COVID-19 with laboratory detection of the virus (ICD-10: U07.1!) in the year 2020\n* Continuously insured with the respective health insurance between 2019-01-01/birth and 2021-06-30/death\n\nExclusion Criteria:\n\n* Only an outpatient or inpatient diagnosis of COVID-19 without laboratory detection of the virus( ICD-10:U07.2!) till 30th of June 2021\n* At least one outpatient or inpatient diagnosis of COVID-19 with laboratory detection of the virus (ICD-10: U07.1!) in the first half of the year 2021",
+          "healthyVolunteers": true,
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Patients were collected from six different health insurances/research institutions in Germany in the year 2020."
+        },
+        "identificationModule": {
+          "acronym": "POINTED-AD",
+          "briefTitle": "Post-COVID-19 Monitoring in Routine Health Insurance Data With Focus on Autoimmune Diseases (POINTED-AD)",
+          "nctId": "NCT05606198",
+          "officialTitle": "Post-COVID-19 Monitoring in Routine Health Insurance Data With Focus on Autoimmune Diseases (POINTED-AD)",
+          "orgStudyIdInfo": {
+            "id": "POINTED-AD"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Technische Universit\u00e4t Dresden"
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "NO"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "Incidence of a diagnosis of Addison's disease recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Addison's disease",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Alopecia areata recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Alopecia areata",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Autoimmune hemolytic anemia recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Autoimmune hemolytic anemia",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Arteriitis temporalis recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Arteriitis temporalis",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Graves' disease recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Graves' disease",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of ankylosing spondylitis recorded in outpatient or inpatient setting",
+              "measure": "Incidence of ankylosing spondylitis",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Behcet's disease recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Behcet's disease",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Churg-Strauss disease recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Churg-Strauss disease",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Morbus Crohn recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Morbus Crohn",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Dermatomyositis recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Dermatomyositis",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Diabetes type I recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Diabetes type I",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Dermatitis herpetiformis (Duhring's disease) recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Dermatitis herpetiformis (Duhring's disease)",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of atopic dermatitis recorded in outpatient or inpatient setting",
+              "measure": "Incidence of atopic dermatitis",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Guillain-Barr\u00e9-syndrome recorded in inpatient setting",
+              "measure": "Incidence of Guillain-Barr\u00e9-syndrome",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Goodpasture syndrome recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Goodpasture syndrome",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Hashimoto's thyroiditis recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Hashimoto's thyroiditis",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Autoimmune Hepatitis recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Autoimmune Hepatitis",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Juvenile rheumatoid arthritis recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Juvenile rheumatoid arthritis",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Kawasaki syndrome recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Kawasaki syndrome",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Cutaneous lupus erythematosus recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Cutaneous lupus erythematosus",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Cryoglobulinemia recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Cryoglobulinemia",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Systemic lupus erythematosus recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Systemic lupus erythematosus",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Morphea recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Morphea",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Multiple sclerosis recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Multiple sclerosis",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Myasthenia gravis recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Myasthenia gravis",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Necrotizing vasculopathy recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Necrotizing vasculopathy",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Bullous pemphigoid recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Bullous pemphigoid",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Pemphigus vulgaris recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Pemphigus vulgaris",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Polyarteritis nodosa recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Polyarteritis nodosa",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Polymyalgia rheumatica recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Polymyalgia rheumatica",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Polymyositis recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Polymyositis",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Psoriasis recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Psoriasis",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Idiopathic thrombocytopenic purpura recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Idiopathic thrombocytopenic purpura",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of rheumatoid arthritis recorded in outpatient or inpatient setting",
+              "measure": "Incidence of rheumatoid arthritis",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Sarcoidosis recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Sarcoidosis",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Sj\u00f6gren's syndrome recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Sj\u00f6gren's syndrome",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Takayasu arteritis recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Takayasu arteritis",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Ulcerative colitis recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Ulcerative colitis",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Vitiligo recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Vitiligo",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of Wegener's disease recorded in outpatient or inpatient setting",
+              "measure": "Incidence of Wegener's disease",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of primary biliary cholangitis recorded in outpatient or inpatient setting",
+              "measure": "Incidence of primary biliary cholangitis",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            },
+            {
+              "description": "Incidence of a diagnosis of celiac disease recorded in outpatient or inpatient setting",
+              "measure": "Incidence of celiac disease",
+              "timeFrame": "At least 12 weeks after the infection by SARS-CoV-2"
+            }
+          ]
+        },
+        "oversightModule": {
+          "isFdaRegulatedDevice": false,
+          "isFdaRegulatedDrug": false
+        },
+        "referencesModule": {
+          "references": [
+            {
+              "citation": "Tesch F, Ehm F, Vivirito A, Wende D, Batram M, Loser F, Menzer S, Jacob J, Roessler M, Seifert M, Kind B, Konig C, Schulte C, Buschmann T, Hertle D, Ballesteros P, Bassler S, Bertele B, Bitterer T, Riederer C, Sobik F, Reitzle L, Scheidt-Nave C, Schmitt J. Incident autoimmune diseases in association with SARS-CoV-2 infection: a matched cohort study. Clin Rheumatol. 2023 Oct;42(10):2905-2914. doi: 10.1007/s10067-023-06670-0. Epub 2023 Jun 19.",
+              "pmid": "37335408",
+              "type": "BACKGROUND"
+            }
+          ]
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "UNKNOWN",
+              "name": "InGef - Institut f\u00fcr angewandte Gesundheitsforschung Berlin GmbH"
+            },
+            {
+              "class": "UNKNOWN",
+              "name": "BARMER Institut f\u00fcr Gesundheitssystemforschung (bifg)"
+            },
+            {
+              "class": "OTHER",
+              "name": "Techniker Krankenkasse"
+            },
+            {
+              "class": "OTHER",
+              "name": "DAK Gesundheit"
+            },
+            {
+              "class": "INDUSTRY",
+              "name": "AOK PLUS"
+            },
+            {
+              "class": "UNKNOWN",
+              "name": "IKK Classic"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Technische Universit\u00e4t Dresden"
+          },
+          "responsibleParty": {
+            "investigatorAffiliation": "Technische Universit\u00e4t Dresden",
+            "investigatorFullName": "Falko Tesch",
+            "investigatorTitle": "Principal Investigator",
+            "type": "PRINCIPAL_INVESTIGATOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2023-06-19",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2023-09-11",
+            "type": "ACTUAL"
+          },
+          "lastUpdateSubmitDate": "2023-09-07",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2023-01-25",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2022-05-01",
+            "type": "ACTUAL"
+          },
+          "statusVerifiedDate": "2023-07",
+          "studyFirstPostDateStruct": {
+            "date": "2022-11-04",
+            "type": "ACTUAL"
+          },
+          "studyFirstSubmitDate": "2022-11-02",
+          "studyFirstSubmitQcDate": "2022-11-02"
+        }
+      }
+    },
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D001168",
+              "term": "Arthritis"
+            },
+            {
+              "id": "D007592",
+              "term": "Joint Diseases"
+            },
+            {
+              "id": "D009140",
+              "term": "Musculoskeletal Diseases"
+            },
+            {
+              "id": "D012216",
+              "term": "Rheumatic Diseases"
+            },
+            {
+              "id": "D003240",
+              "term": "Connective Tissue Diseases"
+            },
+            {
+              "id": "D017437",
+              "term": "Skin and Connective Tissue Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D001172",
+              "term": "Arthritis, Rheumatoid"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Patients with rheumatoid arthritis who met the criteria established by the American College of RheumatologyDisease Activity Score 28 (DAS28) \\> 3.6.",
+              "interventionNames": [
+                "Other: Genetic relative expression"
+              ],
+              "label": "Clinical activity"
+            },
+            {
+              "description": "Patients with rheumatoid arthritis with Disease Activity Score 28 (DAS28) \\< 2.4.",
+              "interventionNames": [
+                "Other: Genetic relative expression"
+              ],
+              "label": "Clinical remission"
+            }
+          ],
+          "interventions": [
+            {
+              "armGroupLabels": [
+                "Clinical activity",
+                "Clinical remission"
+              ],
+              "description": "The genetic expression of NF-KB1 and IKK epsilon were quantified in both groups.",
+              "name": "Genetic relative expression",
+              "type": "OTHER"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Rheumatoid Arthritis"
+          ],
+          "keywords": [
+            "Nuclear factor Kappa B",
+            "IKK epsilon"
+          ]
+        },
+        "contactsLocationsModule": {
+          "overallOfficials": [
+            {
+              "affiliation": "Asociaci\u00f3n Cient\u00edfica Latina A.C.",
+              "name": "Hugo Mendieta Zer\u00f3n, PhD.",
+              "role": "STUDY_DIRECTOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "Rheumatoid arthritis (RA) is a systemic and auto-immune disorder whose primary characteristic is the chronic inflammation of joints. The objective of this study was to evaluate whether there was an association between the NF-KB1/IKK epsilon genetic expression and the clinical activity in RA.\n\n60 RA patients were included in the study, 30 with clinical activity and 30 with clinical remission The NF-KB1/IKK epsilon genetic expression was performed by real time quantitative Polymerase chain reaction (qPCR) through the Pfaffl method of relative quantification with Taqman probes.",
+          "detailedDescription": "Patients with a confirmed diagnosis of RA were allocated in two groups based on the Disease Activity Score 28 (DAS28): a) with clinical activity and b) with clinical remission. Key exclusion criteria were patients with any other inflammatory or autoimmune disease and patients with infections. The control group was represented by healthy patients Sample size\n\nThe sample size calculation was carried out through the following formula:\n\nn= Nz2 pq /d2(N-1) +z2 pq With N=30, Z=2.46 (99% of confidence), p=0.9, q=0.1, d=0.05 (95% of accuracy). The sample size contained 20 patients with RA.\n\nAnthropometric measurements Weight (kg) and height (m) were calculated in a mechanical column scale (SECA). The patients were classified according to their Body mass index (BMI, weight (Kg)/ height (m)2) as a) normal weight (BMI\\< 24.9), b) overweight (24.9 kg/m2 \\<BMI\\<29.9 kg/m2) and c) obese (BMI\\> 30 kg/m2).\n\nLymphocyte extraction Lymphocytes from peripheral blood were extracted using the ACK Lysing Buffer\u00ae (Life technologies, Grand Island, NY) kit. Briefly, a venous blood sample in EDTA tube (BD Vacutainer\u00ae, Franklin Lakes, NJ), was centrifuged at 3500 rpm during 5-8 minutes. The resulting intermediate white colored phase was extracted and placed in an eppendorf tube; 1 mL of ACK Lysing Buffer\u00ae was added and carefully re-suspended. Once again, the suspension was centrifuged at 3500 rpm during 5-8 minutes and the supernatant was discarded. This last step was repeated until the leukocyte package was completely white. Finally, it was added 100 mcl of ACK Lysing Buffer\u00ae and frozen at -70\u00baC for later use.\n\nGenetic expression From the leukocyte package (approximately 10 to 15 mg), it was performed a messenger RNA (mRNA) extraction using the Magna Pure LC RNA isolation kit III (Roche) in the Magna Pure LC 2.0 Instrument. The A260/A280 nm absorbance ratio was \\>1.8 (quality) and total RNA concentration was calculated by determining absorbance at 260 nm established with the NanoPhotometer (Implen GmbH, Germany) and the extracts were adjusted to a concentration of 20 \u00b5g of DNA for the PCR reaction.\n\nSubsequently, the cDNA was synthesized with the Transcriptor High Fidelity cDNA Synthesis Kit (Roche Applied Science). It was performed a real time polymerase chain reaction (qPCR), using the specific primers and probes for NF-KB1, IKK epsilon and 18s (as constitutive gene), using a 7500 Fast Real Time PCR System (Applied Biosystems, Applera UK, Cheshire, UK), mixing TaqMan\u00ae Universal PCR Master Mix and the specific probes for each gene NF-KB1 (Hs00765730-m1), IKK epsilon (Hs01063858-m1) and 18S (Hs99999901-s1), (Applied Biosystems, Applera UK, Cheshire, UK).\n\nAccording to the Ct obtained from the two different groups it was calculated the relative units of expression through the Pfaffl relative quantification method, in which it was used as control a healthy patient.\n\nStatistical analysis The statistical analysis was performed through the Sigmaplot software version 12.0. Parametric and non-parametric test were used in function to the variable distribution: among the parametric test that were performed to compare the groups, the Student\u00b4s T-test was included; the non-parametric tests applied were: The Mann-Whitney U test and the Shapiro-Wilk test. Finally, a receiver operating characteristic (ROC) was used for the analysis of the genetic expression of NF-KB1/IKK epsilon with the SPSS software version 22.0."
+        },
+        "designModule": {
+          "designInfo": {
+            "observationalModel": "CASE_ONLY",
+            "timePerspective": "CROSS_SECTIONAL"
+          },
+          "enrollmentInfo": {
+            "count": 60,
+            "type": "ACTUAL"
+          },
+          "patientRegistry": false,
+          "studyType": "OBSERVATIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis criteria established by the American College of Rheumatology (ACR).\n\nExclusion Criteria:\n\n* Patients with any other inflammatory, autoimmune or neoplastic disease and patients with infections.",
+          "healthyVolunteers": false,
+          "maximumAge": "65 Years",
+          "minimumAge": "30 Years",
+          "samplingMethod": "PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "The key inclusion criteria were patients with RA who met the criteria established by the American College of Rheumatology (ACR). Two groups were conformed based on the Disease Activity Score 28 (DAS28): a) with clinical activity (DAS28 \\> 3.6) and b) with clinical remission (DAS28 \\< 2.4). Key exclusion criteria were patients with any other inflammatory, autoimmune or neoplastic disease and patients with infections. The control group was represented by healthy patients"
+        },
+        "identificationModule": {
+          "acronym": "NUIRA",
+          "briefTitle": "NFKB1 and IKK Epsilon in Rheumatoid Arthritis",
+          "nctId": "NCT02689115",
+          "officialTitle": "NF-KB1/IKK Epsilon Genetic Expression in Patients With Rheumatoid Arthritis",
+          "orgStudyIdInfo": {
+            "id": "2015/02"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "Asociaci\u00f3n Cient\u00edfica Latina A.C."
+          }
+        },
+        "ipdSharingStatementModule": {
+          "ipdSharing": "UNDECIDED"
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "measure": "Relative genetic expression of NF-KB1 and IKK epsilon.",
+              "timeFrame": "Within one month after the patient selection."
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": false
+        },
+        "sponsorCollaboratorsModule": {
+          "collaborators": [
+            {
+              "class": "OTHER",
+              "name": "Universidad Autonoma del Estado de Mexico"
+            }
+          ],
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "Asociaci\u00f3n Cient\u00edfica Latina A.C."
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2015-12",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2016-02-23",
+            "type": "ESTIMATED"
+          },
+          "lastUpdateSubmitDate": "2016-02-18",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2014-06",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2013-11"
+          },
+          "statusVerifiedDate": "2016-02",
+          "studyFirstPostDateStruct": {
+            "date": "2016-02-23",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2016-02-15",
+          "studyFirstSubmitQcDate": "2016-02-18"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "benchmark_genes": [
+    "IFI30"
+  ],
+  "candidate_genes": [
+    "CD58",
+    "SPNS1",
+    "P4HB",
+    "SEL1L3"
+  ],
+  "inputs": {
+    "ms_signature": "results_v3/gse111972_full_ms_wm_signature.tsv",
+    "ra_counts": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_counts_used.tsv",
+    "ra_meta": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_sample_metadata.tsv",
+    "ra_modules": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_module_scores.tsv",
+    "wave39_surfaceome": "results_v3/wave39_surfaceome_rescue_after_resolution_pivot/surfaceome_rescue_rank.tsv",
+    "wave62_target_resolution": "results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv",
+    "wave68_adjusted": "results_v3/wave68_gse282122_unrestricted_gene_screen/integrated_gene_target_rank.tsv",
+    "wave68_raw": "results_v3/wave68_gse282122_unrestricted_gene_screen/raw_remission_response_gene_tests.tsv",
+    "wave71_meta": "results_v3/wave71_global_survivor_meta_rank/global_survivor_meta_rank.tsv"
+  },
+  "n_donor_score_rows": 309,
+  "n_residual_tests": 1080,
+  "seed": 20260527,
+  "top_call": "PARK_CD58_MS_GENETIC_BUT_NO_STATE_RESPONSE_CONVERGENCE",
+  "top_gene": "CD58"
+}

@@ -1,0 +1,528 @@
+{
+  "_request_url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=S100A9&limit=10",
+  "_status_code": 200,
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Protein S100-A9",
+      "score": 16.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL4296265",
+      "target_components": [
+        {
+          "accession": "P06702",
+          "component_description": "Protein S100-A9",
+          "component_id": 18489,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "CAGB",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Calgranulin-B",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Calprotectin L1H subunit",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CFAG",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Leukocyte L1 complex heavy chain",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Migration inhibitory factor-related protein 14",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "MRP-14",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "MRP14",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "p14",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Protein S100-A9",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "S100A9",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "S100 calcium-binding protein A9",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Synonyms=CAGB",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P06702",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005615",
+              "xref_name": "extracellular space",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005856",
+              "xref_name": "cytoskeleton",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0034774",
+              "xref_name": "secretory granule lumen",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:1990660",
+              "xref_name": "calprotectin complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:1990662",
+              "xref_name": "S100A9 complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005509",
+              "xref_name": "calcium ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008017",
+              "xref_name": "microtubule binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008270",
+              "xref_name": "zinc ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016209",
+              "xref_name": "antioxidant activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0035662",
+              "xref_name": "Toll-like receptor 4 binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0048306",
+              "xref_name": "calcium-dependent protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0050544",
+              "xref_name": "arachidonate binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0050786",
+              "xref_name": "RAGE receptor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0002523",
+              "xref_name": "leukocyte migration involved in inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006914",
+              "xref_name": "autophagy",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006915",
+              "xref_name": "apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006935",
+              "xref_name": "chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007267",
+              "xref_name": "cell-cell signaling",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010976",
+              "xref_name": "positive regulation of neuron projection development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0014002",
+              "xref_name": "astrocyte development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030307",
+              "xref_name": "positive regulation of cell growth",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030593",
+              "xref_name": "neutrophil chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034121",
+              "xref_name": "regulation of toll-like receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035425",
+              "xref_name": "autocrine signaling",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043542",
+              "xref_name": "endothelial cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045087",
+              "xref_name": "innate immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050729",
+              "xref_name": "positive regulation of inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051493",
+              "xref_name": "regulation of cytoskeleton organization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060264",
+              "xref_name": "regulation of respiratory burst involved in inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0061844",
+              "xref_name": "antimicrobial humoral immune response mediated by antimicrobial peptide",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070488",
+              "xref_name": "neutrophil aggregation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0098869",
+              "xref_name": "cellular oxidant detoxification",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2001056",
+              "xref_name": "positive regulation of cysteine-type endopeptidase activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2001244",
+              "xref_name": "positive regulation of intrinsic apoptotic signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:10499",
+              "xref_name": "S100A9",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "P06702",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR001751",
+              "xref_name": "S100/CaBP7/8-like_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR002048",
+              "xref_name": "EF_hand_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR011992",
+              "xref_name": "EF-hand-dom_pair",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR013787",
+              "xref_name": "S100_Ca-bd_sub",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR018247",
+              "xref_name": "EF_Hand_1_Ca_BS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11639",
+              "xref_name": "S100 CALCIUM-BINDING PROTEIN",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR11639:SF79",
+              "xref_name": "PROTEIN S100-A9",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "1IRJ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1XK4",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4GGF",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4XJK",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5I8N",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5W1F",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6DS2",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7QUV",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7UI5",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8SJB",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8SJC",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1IRJ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1XK4",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4GGF",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4XJK",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5W1F",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6DS2",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7QUV",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8SJB",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8SJC",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF01023",
+              "xref_name": "S_100",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA34911",
+              "xref_name": "S100 calcium binding protein A9",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P06702",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-1236974",
+              "xref_name": "ER-Phagosome pathway",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-166058",
+              "xref_name": "MyD88:MAL(TIRAP) cascade initiated on plasma membrane",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5602498",
+              "xref_name": "MyD88 deficiency (TLR2/4)",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5603041",
+              "xref_name": "IRAK4 deficiency (TLR2/4)",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5668599",
+              "xref_name": "RHO GTPases Activate NADPH Oxidases",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5686938",
+              "xref_name": "Regulation of TLR by endogenous ligand",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-6798695",
+              "xref_name": "Neutrophil degranulation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-6799990",
+              "xref_name": "Metal sequestration by antimicrobial proteins",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "D3DV36",
+              "xref_name": "Protein S100-A9",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P06702",
+              "xref_name": "Protein S100-A9",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q6FGA1",
+              "xref_name": "Protein S100-A9",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9NYM0",
+              "xref_name": "Protein S100-A9",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UCJ1",
+              "xref_name": "Protein S100-A9",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "branch_call": "NO_REOPEN_SPNS1_CONTROLLER_ROUTE",
+  "controller_pass_diseases": 0,
+  "crispr_support": false,
+  "inputs": {
+    "candidate_matrix": "results_v3/wave79_targetability_shortlist_residual_audit/targetability_shortlist_candidate_matrix.tsv",
+    "crispr": "results_v3/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv",
+    "donor_scores": "results_v3/wave79_targetability_shortlist_residual_audit/direct_shortlist_donor_scores.tsv",
+    "ibd_response": "results_v3/wave79_targetability_shortlist_residual_audit/ibd_antitnf_shortlist_response_rows.tsv",
+    "ms": "results_v3/wave79_targetability_shortlist_residual_audit/ms_white_matter_shortlist_rows.tsv",
+    "ra_response": "results_v3/wave79_targetability_shortlist_residual_audit/ra_antitnf_shortlist_response_rows.tsv",
+    "target_resolution": "results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv",
+    "wave94": "results_v3/wave94_accessible_state_rerank/accessible_state_candidate_rank.tsv"
+  },
+  "modality_ready": false,
+  "ms_anchor": false,
+  "myeloid_pass_contexts": 0,
+  "random_seed": 20260527,
+  "response_support": false,
+  "target_resolution": false
+}

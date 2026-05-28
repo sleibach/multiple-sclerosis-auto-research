@@ -1,0 +1,27 @@
+{
+  "branch_call": "NO_REOPEN_PARK7_GENERIC_STRESS_ROUTE",
+  "broad_genetics": false,
+  "broad_myeloid_positive_diseases": 2,
+  "crispr_support": false,
+  "foundation_strong": false,
+  "generic_covariate_residual_diseases": 0,
+  "generic_stress_like": true,
+  "ibd_response": false,
+  "inputs": {
+    "broad_context": "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv",
+    "residual": "results_v3/broad_residual_gate/broad_residual_residual_tests.tsv",
+    "wave55": "results_v3/wave55_external_genetics_druggability_sweep/external_genetics_candidate_audit.tsv",
+    "wave68": "results_v3/wave68_gse282122_unrestricted_gene_screen/integrated_gene_target_rank.tsv",
+    "wave81_broad": "results_v3/wave81_perturbation_first_rescue/perturbation_first_broad_summary.tsv",
+    "wave81_foundation": "results_v3/wave81_perturbation_first_rescue/perturbation_first_wave57_rows.tsv",
+    "wave81_ibd": "results_v3/wave81_perturbation_first_rescue/perturbation_first_ibd_response_summary.tsv",
+    "wave81_ms": "results_v3/wave81_perturbation_first_rescue/perturbation_first_ms_rows.tsv",
+    "wave81_rank": "results_v3/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv",
+    "wave81_w37": "results_v3/wave81_perturbation_first_rescue/perturbation_first_wave37_rows.tsv",
+    "wave81_w62": "results_v3/wave81_perturbation_first_rescue/perturbation_first_wave62_rows.tsv"
+  },
+  "ms_anchor": false,
+  "random_seed": 20260527,
+  "target_resolution": false,
+  "wave68_response": false
+}

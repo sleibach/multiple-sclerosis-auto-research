@@ -1,0 +1,272 @@
+{
+  "model": "Geneformer V2-104M",
+  "model_repo": "ctheodoris/Geneformer",
+  "revision": "04c2b2e84da7c0f385c3f9ad8f3ec24bab6650e5",
+  "checkpoint": "/Users/soeren.leibach/Projects/ms-auto-research/tmp_v3/foundation_wave6/geneformer_assets/Geneformer-V2-104M",
+  "parameters_loaded_encoder": 104365056,
+  "seed": 20260526,
+  "max_len": 512,
+  "max_disease_cells_per_context": 24,
+  "max_control_cells_per_context": 24,
+  "random_deletion_reps": 3,
+  "batch_size": 12,
+  "contexts": [
+    {
+      "context": "IBD_myeloid",
+      "h5ad": "data/raw_v3/cell_state/ibd_human_10x.h5ad",
+      "compartment": "myeloid cell",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 466.9583333333333
+    },
+    {
+      "context": "IBD_epithelial",
+      "h5ad": "data/raw_v3/cell_state/ibd_human_10x.h5ad",
+      "compartment": "colon epithelial cell",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 473.9166666666667
+    },
+    {
+      "context": "IBD_stromal",
+      "h5ad": "data/raw_v3/cell_state/ibd_human_10x.h5ad",
+      "compartment": "stromal cell of lamina propria of colon",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 512.0
+    },
+    {
+      "context": "psoriasis_keratinocyte",
+      "h5ad": "data/raw_v3/cell_state/psoriasis_skin.h5ad",
+      "compartment": "keratinocyte_family",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 512.0
+    },
+    {
+      "context": "psoriasis_stromal",
+      "h5ad": "data/raw_v3/cell_state/psoriasis_skin.h5ad",
+      "compartment": "skin fibroblast",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 512.0
+    },
+    {
+      "context": "sjogren_APC",
+      "h5ad": "data/raw_v3/cell_state/sjogren_salivary.h5ad",
+      "compartment": "salivary_APC",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 452.4583333333333
+    },
+    {
+      "context": "sjogren_epithelial",
+      "h5ad": "data/raw_v3/cell_state/sjogren_salivary.h5ad",
+      "compartment": "duct epithelial cell",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 492.9166666666667
+    },
+    {
+      "context": "t1d_acinar",
+      "h5ad": "data/raw_v3/cell_state/t1d_hpap_islet.h5ad",
+      "compartment": "pancreatic acinar cell",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 507.1458333333333
+    },
+    {
+      "context": "t1d_ductal",
+      "h5ad": "data/raw_v3/cell_state/t1d_hpap_islet.h5ad",
+      "compartment": "pancreatic ductal cell",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 495.125
+    },
+    {
+      "context": "t1d_stellate",
+      "h5ad": "data/raw_v3/cell_state/t1d_hpap_islet.h5ad",
+      "compartment": "pancreatic stellate cell",
+      "selected_n": 48,
+      "disease_n": 24,
+      "control_n": 24,
+      "mean_sequence_length": 507.0
+    }
+  ],
+  "candidate_genes": [
+    "LGALS3",
+    "LGALS1",
+    "LGALS9",
+    "LGALS3BP",
+    "CD44",
+    "TYROBP",
+    "CTSB",
+    "CTSL",
+    "CTSD",
+    "FABP5",
+    "MSR1",
+    "SCARB2",
+    "GPNMB",
+    "SPP1"
+  ],
+  "metric": "delete candidate token; positive cosine/projection shift means disease-cell embedding moved toward matched control centroid",
+  "limitations": [
+    "custom lightweight Geneformer embedding-deletion screen, not the official InSilicoPerturberStats workflow",
+    "input h5ads are assumed count-like; no independent raw-layer verification was performed",
+    "candidate-expressing disease cells were enriched to test candidate axes, so effect sizes are not population estimates",
+    "embedding shifts are model hypotheses and not expression log2FC or causal perturbation evidence"
+  ],
+  "posthoc_gene_summary": [
+    {
+      "gene": "CTSB",
+      "contexts_with_token": 7,
+      "disease_cells_with_token": 34,
+      "mean_cosine_shift": 0.00017334698350168878,
+      "mean_projection_shift": 0.013401702844670845,
+      "mean_cosine_z_vs_random": 0.44793943675691156,
+      "support_contexts": 3,
+      "positive_projection_contexts": 6
+    },
+    {
+      "gene": "CTSL",
+      "contexts_with_token": 7,
+      "disease_cells_with_token": 32,
+      "mean_cosine_shift": 4.878589173882474e-05,
+      "mean_projection_shift": -0.003905122833592557,
+      "mean_cosine_z_vs_random": 0.2647380974370724,
+      "support_contexts": 3,
+      "positive_projection_contexts": 3
+    },
+    {
+      "gene": "LGALS3BP",
+      "contexts_with_token": 6,
+      "disease_cells_with_token": 34,
+      "mean_cosine_shift": 0.00017870671581473913,
+      "mean_projection_shift": 0.012332849980642385,
+      "mean_cosine_z_vs_random": 0.4170840880358224,
+      "support_contexts": 2,
+      "positive_projection_contexts": 3
+    },
+    {
+      "gene": "LGALS1",
+      "contexts_with_token": 5,
+      "disease_cells_with_token": 32,
+      "mean_cosine_shift": 0.00025564951356500063,
+      "mean_projection_shift": -0.030914663895964624,
+      "mean_cosine_z_vs_random": 0.4419313803819345,
+      "support_contexts": 2,
+      "positive_projection_contexts": 2
+    },
+    {
+      "gene": "CTSD",
+      "contexts_with_token": 8,
+      "disease_cells_with_token": 29,
+      "mean_cosine_shift": -8.879918595992875e-05,
+      "mean_projection_shift": 0.004306996794184663,
+      "mean_cosine_z_vs_random": -0.04497549333837281,
+      "support_contexts": 1,
+      "positive_projection_contexts": 5
+    },
+    {
+      "gene": "SPP1",
+      "contexts_with_token": 4,
+      "disease_cells_with_token": 10,
+      "mean_cosine_shift": -0.0005868002772331,
+      "mean_projection_shift": 0.025373612530529475,
+      "mean_cosine_z_vs_random": -0.6389757028022252,
+      "support_contexts": 1,
+      "positive_projection_contexts": 3
+    },
+    {
+      "gene": "FABP5",
+      "contexts_with_token": 6,
+      "disease_cells_with_token": 21,
+      "mean_cosine_shift": -9.707803352868495e-06,
+      "mean_projection_shift": -0.029642804525792585,
+      "mean_cosine_z_vs_random": 0.08486908336259193,
+      "support_contexts": 1,
+      "positive_projection_contexts": 2
+    },
+    {
+      "gene": "LGALS3",
+      "contexts_with_token": 7,
+      "disease_cells_with_token": 34,
+      "mean_cosine_shift": -0.0001237967163823,
+      "mean_projection_shift": -0.02910343888860161,
+      "mean_cosine_z_vs_random": -0.061304278604762195,
+      "support_contexts": 1,
+      "positive_projection_contexts": 2
+    },
+    {
+      "gene": "TYROBP",
+      "contexts_with_token": 2,
+      "disease_cells_with_token": 10,
+      "mean_cosine_shift": -0.0003112107515335,
+      "mean_projection_shift": -0.016211694106459604,
+      "mean_cosine_z_vs_random": -0.33132392187204396,
+      "support_contexts": 1,
+      "positive_projection_contexts": 1
+    },
+    {
+      "gene": "CD44",
+      "contexts_with_token": 9,
+      "disease_cells_with_token": 75,
+      "mean_cosine_shift": -0.0002964669349441148,
+      "mean_projection_shift": -0.005062237174974556,
+      "mean_cosine_z_vs_random": -0.263907333540718,
+      "support_contexts": 0,
+      "positive_projection_contexts": 4
+    },
+    {
+      "gene": "SCARB2",
+      "contexts_with_token": 8,
+      "disease_cells_with_token": 32,
+      "mean_cosine_shift": 6.812638275732261e-05,
+      "mean_projection_shift": 0.011786713643232336,
+      "mean_cosine_z_vs_random": 0.22366883362249135,
+      "support_contexts": 0,
+      "positive_projection_contexts": 3
+    },
+    {
+      "gene": "LGALS9",
+      "contexts_with_token": 3,
+      "disease_cells_with_token": 8,
+      "mean_cosine_shift": -0.00011265277862545872,
+      "mean_projection_shift": 0.027428998922308268,
+      "mean_cosine_z_vs_random": -0.03375177154134517,
+      "support_contexts": 0,
+      "positive_projection_contexts": 3
+    },
+    {
+      "gene": "GPNMB",
+      "contexts_with_token": 4,
+      "disease_cells_with_token": 5,
+      "mean_cosine_shift": -0.00017625093460082157,
+      "mean_projection_shift": -0.02356300177052615,
+      "mean_cosine_z_vs_random": -0.12411914226592316,
+      "support_contexts": 0,
+      "positive_projection_contexts": 1
+    },
+    {
+      "gene": "MSR1",
+      "contexts_with_token": 1,
+      "disease_cells_with_token": 1,
+      "mean_cosine_shift": 0.0008006691932678,
+      "mean_projection_shift": 0.003777970559895,
+      "mean_cosine_z_vs_random": 1.3529502461529406,
+      "support_contexts": 0,
+      "positive_projection_contexts": 0
+    }
+  ],
+  "posthoc_support_rule": "candidate_support_flag requires >=3 disease cells with token and both cosine and projection shift exceeding context random deletion means.",
+  "interpretation_guardrail": "This is a small embedding-deletion screen over candidate-enriched cells. It can veto weak expression-only candidates, but it cannot by itself establish target causality or safety."
+}

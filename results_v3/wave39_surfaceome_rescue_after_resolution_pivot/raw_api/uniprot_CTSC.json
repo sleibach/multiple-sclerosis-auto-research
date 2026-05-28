@@ -1,0 +1,420 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "1586157",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "8428921",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Thiol protease (PubMed:1586157). Has dipeptidylpeptidase activity (PubMed:1586157). Active against a broad range of dipeptide substrates composed of both polar and hydrophobic amino acids (PubMed:1586157). Proline cannot occupy the P1 position and arginine cannot occupy the P2 position of the substrate (PubMed:1586157). Can act as both an exopeptidase and endopeptidase (PubMed:1586157). Activates serine proteases such as elastase, cathepsin G and granzymes A and B (PubMed:8428921)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305",
+                    "id": "7665576",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0158",
+                "value": "Lysosome"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000006D22D"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU10088",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 258
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 258
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU10089",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 405
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 405
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU10090",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 427
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 427
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11726493",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1K3B",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:17996"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:17996",
+            "name": "chloride"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 302
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 302
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11726493",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1K3B",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:17996"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:17996",
+            "name": "chloride"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 304
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 304
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11726493",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1K3B",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:17996"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:17996",
+            "name": "chloride"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 347
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 347
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "CTSC"
+          },
+          "synonyms": [
+            {
+              "value": "CPPI"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0868",
+          "name": "Chloride"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-0903",
+          "name": "Direct protein sequencing"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0225",
+          "name": "Disease variant"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-1015",
+          "name": "Disulfide bond"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0325",
+          "name": "Glycoprotein"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0378",
+          "name": "Hydrolase"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0458",
+          "name": "Lysosome"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-1007",
+          "name": "Palmoplantar keratoderma"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0645",
+          "name": "Protease"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0732",
+          "name": "Signal"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0788",
+          "name": "Thiol protease"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0865",
+          "name": "Zymogen"
+        }
+      ],
+      "primaryAccession": "P53634",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Cathepsin C"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Cathepsin J"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Dipeptidyl peptidase I"
+            },
+            "shortNames": [
+              {
+                "value": "DPP-I"
+              },
+              {
+                "value": "DPPI"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Dipeptidyl transferase"
+            }
+          }
+        ],
+        "contains": [
+          {
+            "alternativeNames": [
+              {
+                "fullName": {
+                  "value": "Dipeptidyl peptidase I exclusion domain chain"
+                }
+              }
+            ],
+            "recommendedName": {
+              "fullName": {
+                "value": "Dipeptidyl peptidase 1 exclusion domain chain"
+              }
+            }
+          },
+          {
+            "alternativeNames": [
+              {
+                "fullName": {
+                  "value": "Dipeptidyl peptidase I heavy chain"
+                }
+              }
+            ],
+            "recommendedName": {
+              "fullName": {
+                "value": "Dipeptidyl peptidase 1 heavy chain"
+              }
+            }
+          },
+          {
+            "alternativeNames": [
+              {
+                "fullName": {
+                  "value": "Dipeptidyl peptidase I light chain"
+                }
+              }
+            ],
+            "recommendedName": {
+              "fullName": {
+                "value": "Dipeptidyl peptidase 1 light chain"
+              }
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "1586157",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "3.4.14.1"
+            }
+          ],
+          "fullName": {
+            "value": "Dipeptidyl peptidase 1"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "4C9C7C24D900CEE6",
+        "length": 463,
+        "md5": "E8A46A7D094FBF58310BA4338A003C1C",
+        "molWeight": 51854,
+        "value": "MGAGPSLLLAALLLLLSGDGAVRCDTPANCTYLDLLGTWVFQVGSSGSQRDVNCSVMGPQEKKVVVYLQKLDTAYDDLGNSGHFTIIYNQGFEIVLNDYKWFAFFKYKEEGSKVTTYCNETMTGWVHDVLGRNWACFTGKKVGTASENVYVNIAHLKNSQEKYSNRLYKYDHNFVKAINAIQKSWTATTYMEYETLTLGDMIRRSGGHSRKIPRPKPAPLTAEIQQKILHLPTSWDWRNVHGINFVSPVRNQASCGSCYSFASMGMLEARIRILTNNSQTPILSPQEVVSCSQYAQGCEGGFPYLIAGKYAQDFGLVEEACFPYTGTDSPCKMKEDCFRYYSSEYHYVGGFYGGCNEALMKLELVHHGPMAVAFEVYDDFLHYKKGIYHHTGLRDPFNPFELTNHAVLLVGYGTDSASGMDYWIVKNSWGTGWGENGYFRIRRGTDECAIESIAVAATPIPKL"
+      },
+      "uniProtkbId": "CATC_HUMAN"
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "payload": {
+    "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxnZfCi2_YW",
+    "studies": [
+      {
+        "derivedSection": {
+          "conditionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D003920",
+                "term": "Diabetes Mellitus"
+              },
+              {
+                "id": "D044882",
+                "term": "Glucose Metabolism Disorders"
+              },
+              {
+                "id": "D008659",
+                "term": "Metabolic Diseases"
+              },
+              {
+                "id": "D009750",
+                "term": "Nutritional and Metabolic Diseases"
+              },
+              {
+                "id": "D004700",
+                "term": "Endocrine System Diseases"
+              },
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D003922",
+                "term": "Diabetes Mellitus, Type 1"
+              }
+            ]
+          },
+          "miscInfoModule": {
+            "versionHolder": "2026-05-26"
+          }
+        },
+        "hasResults": false,
+        "protocolSection": {
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "description": "I.V. infusion of autoCD6-CAR Treg cells",
+                "interventionNames": [
+                  "Drug: AutoCD6-CAR Treg cells"
+                ],
+                "label": "I.V. infusion of autoCD6-CAR Treg cells",
+                "type": "EXPERIMENTAL"
+              }
+            ],
+            "interventions": [
+              {
+                "armGroupLabels": [
+                  "I.V. infusion of autoCD6-CAR Treg cells"
+                ],
+                "description": "The investigational product is an autologous (patient-derived) anti-CD6 chimeric antigen receptor (CD6-CAR) T regulatory cell (Treg) cellular product (CD6-CAR Tregs).",
+                "name": "AutoCD6-CAR Treg cells",
+                "type": "DRUG"
+              }
+            ]
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Stage 3 Type 1 Diabetes"
+            ],
+            "keywords": [
+              "Type 1 Diabetes",
+              "CAR T cell Therapy",
+              "CAR-Treg cells"
+            ]
+          },
+          "contactsLocationsModule": {
+            "centralContacts": [
+              {
+                "email": "islets@coh.org",
+                "name": "Arthur Riggs Diabetes & Metabolism Research Institute",
+                "phone": "866-444-7538",
+                "role": "CONTACT"
+              }
+            ],
+            "locations": [
+              {
+                "city": "Duarte",
+                "contacts": [
+                  {
+                    "email": "islets@coh.org",
+                    "name": "Fouad Kandeel, MD",
+                    "phone": "866-444-7538",
+                    "role": "CONTACT"
+                  },
+                  {
+                    "name": "Fouad Kandeel, MD",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                  }
+                ],
+                "country": "United States",
+                "facility": "City of Hope Medical Center",
+                "geoPoint": {
+                  "lat": 34.13945,
+                  "lon": -117.97729
+                },
+                "state": "California",
+                "zip": "91010"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "affiliation": "City of Hope Medical Center",
+                "name": "Matthew Mei, MD",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ]
+          },
+          "descriptionModule": {
+            "briefSummary": "Type 1 diabetes (T1D) is a persistent and gradually increasing genetic autoimmune disease requiring life-long management. The disease commonly impacts children. However, a quarter of cases are diagnosed in adults. The pancreatic islet beta-cells are responsible for producing insulin, a peptide hormone that is involved in the tight regulation of blood glucose levels. In T1D, the beta-cells are mistakenly destroyed by autoreactive T cells resulting in insulin deficiency and an inability to regulate blood glucose levels. The cause for such an autoimmune reaction to beta-cells is under active investigation. T regulatory cells (Tregs), are specialized immune cells that typically act to control your immune system. Tregs can be modified in the laboratory to recognize and deactivate T1D-causing cells. This process is done by inserting a piece of DNA (the molecules inside cells that carry genetic information and pass it from one generation to the next) into the Tregs. A non-infectious virus called a lentivirus will carry the piece of DNA into the cells that were collected from a donor. Tregs are then grown to large numbers in the laboratory and stored for treatment of T1D. It is not known whether these Tregs cells will treat T1D.",
+            "detailedDescription": "This is a single-center, pilot clinical trial of autologous CD6-targeted chimeric antigen receptor regulatory T cells (autoCD6-CAR Tregs) in patients diagnosed with Type 1 Diabetes (T1D). This study is designed to evaluate the safety, tolerability, and feasibility of autoCD6-CAR Tregs as T1D treatment. Currently, the disease is managed through intensive supportive care. Patients require multiple daily injections or continuous pump delivery of exogenous insulin therapy to manage blood glucose levels. Furthermore, chronic hyperglycemia and hyperglycemic excursions increase the risk of both acute and chronic complications, which can be life-threatening (e.g., severe hypoglycemia, ketoacidosis leading to coma, retinopathy, neuropathy, and nephropathy). Therefore, there is an urgent unmet medical need for curative therapies for patients with T1D. We propose to harness the natural immunomodulatory capacity of regulatory T cells (Tregs) to specifically target pathogenic autoreactive effector T cells (Teffs). CD6 has been implicated in several autoimmune diseases and is highly expressed by activated Teff cells whereas Tregs express little or no CD6. Itolizumab is a first-in-class humanized anti-CD6 monoclonal antibody (mAb) with demonstrated clinical efficacy in psoriasis. Our therapeutic approach is to co-opt the chimeric antigen receptor (CAR) T cell platform to generate autologous Tregs expressing a CD6-targeting CAR (autoCD6-CAR Tregs), which are expected to target activated pathogenic T cells while sparing Tregs in T1D patients."
+          },
+          "designModule": {
+            "designInfo": {
+              "allocation": "NA",
+              "interventionModel": "SEQUENTIAL",
+              "interventionModelDescription": "While this is not a maximum tolerated or recommended phase 2 dose (MTD/RP2D) finding (phase I) study, out of an abundance of caution, 1+1+1 dose expansion/de-escalation rules based on observed toxicity at a dose level are used. Among the first cohort of 3 patients at a dose level, we will enroll one patient at dose level 1 and evaluable unacceptable toxicity (UT) and moderate toxicity (MOD) during the observation period each time. If 0 of 3 evaluable participantsat dose level 1 has UT and at most 1 of them has MOD during the observation period, we will treat another cohort of 3 patients at dose level 2 using the same rule. Accrual suspension will be triggered as soon as a patient experiencing UT or MOD safety boundary is crossed. We will conduct safety review and submit a report to COH DSMC.",
+              "maskingInfo": {
+                "masking": "NONE"
+              },
+              "primaryPurpose": "TREATMENT"
+            },
+            "enrollmentInfo": {
+              "count": 6,
+              "type": "ESTIMATED"
+            },
+            "phases": [
+              "EARLY_PHASE1"
+            ],
+            "studyType": "INTERVENTIONAL"
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "INCLUSION CRITERIA:\n\nInformed Consent and Willingness to Participate\n\n* 1\\. Documented informed consent of the participant\n\n  1. Note: For research participants who do not speak English, a short form consent may be used with a COH certified interpreter/translator to proceed with screening and leukapheresis, while the request for a translated full consent is processed. However, the research participant can proceed with lymphodepletion (if applicable) and CAR T cell infusion only after the translated full consent form is signed.\n* 2\\. Willingness to continue into follow-up assessments for up to 15 years after autoCD6-CAR Treg treatment\n* 3\\. Willingness to wear a study continuous glucose monitoring device (CGMD) for 2 weeks prior to mandated study visits for at least 1 year of follow-up post last CAR Treg infusion.\n\n  i. For participants who have a personal CGMD: Willingness to wear a second CGMD during mandated study CGMD visits Age, Nature of Illness and Transplant Related Criteria\n* 4\\. Age: 18-35 years old\n* 5\\. Stage 3 T1D diagnosed by standard ADA Criteria, with residual beta cell function, enrolled between 12 and 24 months from the date of T1D diagnosis.\n\n  \u2022 Date of diagnosis is defined as the date that diabetes was confirmed by standard ADA criteria.\n  * Historical or current presence of at least one type-1 diabetes associated autoantibody other than insulin autoantibodies, such as:\n\n    \\- GAD specific autoantibodies (GADA); and/or\n\n    \\- Islet-antigen 2 specific autoantibody (IA-2A); and/or\n\n    \\- Zinc Transporter 8 specific autoantibody (ZNT8A)\n  * Must have stimulated C-peptide levels \u2265 0.2 nmol/L measured during a 2-hr mixed meal tolerance test (MMTT) conducted prior to enrollment.\n\n    i. MMTTs will be coordinated with the Diabetes team and will be collected between 7-10am on the days of collection. Results may take 5-10 business days to be available.\n  * Willing to comply with intensive diabetes management.\n* 6\\. Negative Covid-19 self-antigen test within 3 days of enrollment.\n* 7\\. Vaccinations: Participants are required to be fully vaccinated for age.\n\n  * Subjects should have immunizations as recommended for age by the CDC\n  * Participants must be at least 90 days from last live immunization.\n* 8\\. Must be willing to not use any non-insulin glucose-lowering agents such as GLP-1 agonists (including for weight loss indication), symlin, DPP-4 inhibitors, SGLT-2 inhibitors, biguanides, sulfonylureas). Participants are required to go off these drugs 30 days prior to screening.\n* 9\\. Deemed able to correctly use the study CGMD following training session with Certified Diabetes Educator (CDE).\n\nClinical Laboratory and Organ Function Criteria (To be performed within 10 days prior to leukapheresis unless otherwise stated)\n\n* 10\\. Absolute neutrophil counts (ANC) \u2265 1,000/mm3\n* 11\\. Leukocytes \u2265 2500/mL\n* 12\\. Platelets \u2265 100,000/mm3\n* 13\\. Hemoglobin \u2265 10 g/dL\n* 14\\. Lymphocytes \u2265 800/mm3\n* 15\\. Total bilirubin \u2264 2.0 X ULN\n* 16\\. AST \u2264 2.0 x ULN\n* 17\\. ALT \u2264 2.0 x ULN\n* 18\\. Creatinine clearance of \u2265 60 mL/min per 24 hour urine test or the Cockcroft-Gault formula\n* 19\\. Women of childbearing potential (WOCBP): negative urine or serum pregnancy test\n\n  a. NOTE: If the urine test is positive or cannot be confirmed as negative, a serum pregnancy test will be required.\n* 20\\. Seronegative for HIV Ag, HCV\\*, and active HBV (Surface Antigen Negative)\\*\\*\n\n  a. \\*If HCV Ab is positive,, Hepatitis C RNA quantitation must be performed and be negative.\n\n  b. \\*HBV sAg positivity is exclusionary. c. \\*HBV cAb positivity can be emnrolled provided HBV DNA is undetectable. d. \\*HIV Ab positivity is exclusionary\n* 21\\. Subjects must have negative QuantiFERON-TB Gold (QFTG) test. Patients with positive QFTG test need clearance from ID before enrollment.\n* 22\\. Negative for CMV, EBV by PCR-based assay\n\n  a. Subjects must be tested and found to be CMV and EBV PCR negative in the 30 days preceding enrollment and must not have had signs or symptoms of a CMV or EBV compatible illness lasting longer than 7 days within 30 days of enrollment.\n* 23\\. Meets other institutional and federal requirements for infectious disease titer requirements.\n\nReproductive\n\n* 24\\. Agreement by women of child bearing potential (WOCBP), who are not currently pregnant, to avoid pregnancy and breastfeeding, and to undergo pregnancy testing at baseline and prior to each cell product administration, and on further follow-up for the duration of the study.\n\n  i. Pregnant females are excluded from this study Contraception\n* 25\\. Agreement by women of childbearing potential (WOCBP) and males of childbearing potential\\* to use an effective\\*\\* method of birth control\\*\\* from screening through 1 year of follow-up from the last dose of study treatment.\n\n  * Childbearing potential defined as not being surgically sterilized (men and women) or have not been free from menses for \\> 1 year (women only)\n\n    * Highly effective birth control is defined as use of an intrauterine device (IUD), combination of two methods that are user dependent of which only one can be a barrier method, or true abstinence from heterosexual intercourse when this is in line with the preferred and usual lifestyle of the subject. Periodic abstinence, declaration of abstinence for the duration of the study, withdrawal, and lactational amenorrhea are not acceptable methods of contraception. Some hormonal contraceptives may interact with the investigational drug or affect study results. Generally, stable use of hormonal contraceptive/s for at least 6 months is recommended, or as otherwise deemed appropriate by PI..\n  * Any lab abnormality believed to be transient may be repeated at the discretion of the site PI. If repeat value does not preclude participation, and potential participant would otherwise qualify for the study, then may proceed with enrollment per investigator discretion.\n\nEXCLUSION CRITERIA:\n\nPrior and concomitant medications/therapies\n\n* 1\\. Prior treatment with Itolizumab or other CD6-directed therapies.\n* 2\\. Prior or current participation in research study in which a potential participant received an immunomodulatory agent or diabetes care, unless the participant was in the placebo arm.\n* 3\\. Other investigational agents, biologics (including cellular immunotherapies)\n* 4\\. Anti-inflammatory therapy (Exception: Over-the-counter (OTC) anti-inflammatory agents (e.g. ibuprofen, Tylenol) are generally allowed)\n* 5\\. Systemic corticosteroids within 14 days prior to leukapheresis\n* 6\\. Systemic immunosuppressive therapy (e.g., cyclosporine-A, cyclophosphamide)\n* 7\\. Vaccine(s) within 8 weeks of leukapheresis\n* 8\\. Prior organ transplant\n* 9\\. Last dose of Beta-cell stimulants (e.g., sulphonylureas), glucagon-like peptide-1 agonists, dipeptidyl peptidase-IV inhibitors, insulin sensitizers (e.g., metformin, thiazolidinediones), verapamil, must be at least 30 days prior to enrollment.\n\nOther illnesses or conditions\n\n* 10\\. Unstable cardiac disease as defined by one of the following:\n* 11\\. Uncontrolled arrhythmia and/or coronary artery disease\n* 12\\. Cardiac events such as myocardial infarction (MI) within the past 6 months\n* 13\\. NYHA (New York Heart Association) heart failure class III-IV\n* 14\\. Uncontrolled atrial fibrillation or hypertension\n* 15\\. History of allergic reactions attributed to compounds of similar chemical or biologic composition to study agent\n* 16\\. History of stroke or intracranial hemorrhage within 6 months prior to screening\n* 17\\. Other autoimmune/inflammatory disorders except:\n\n  1. Stable or treated hypothyroidism,\n  2. Graves' disease\n  3. Celiac disease\n  4. Psoriasis\n* 18\\. Active infection requiring hospitalization or intravenous antibiotics and/or anti-virals\n* 19\\. Any history of HIV.\n* 20\\. Known positive test result for chronic HBV infection (defined by HBsAg positivity).\n* 21\\. Antiviral prophylaxis may be administered as per institutional guidelines\n* 22\\. History of prior malignancy within 5 years of enrollment with the exception of the following:\n\n  1. Malignancy treated with curative intent and no known active disease present for \u2265 2 years prior to initiation of therapy on current study;\n  2. Basal skin cancer without active lesions evidence of disease;\n  3. Adequately treated in situ carcinomas (e.g., cervical, esophageal, etc.) without evidence of disease;\n  4. Asymptomatic prostate cancer managed with \"watch and wait\" strategy\n* 23\\. Clinically significant uncontrolled illness\n* 24\\. Females only: pregnant or breastfeeding\n* 25\\. Any other condition (including psychosocial condition, medical issues, or lab abnormalities) that would, in the Investigator's judgment, contraindicate/interfere with the patient's participation in the clinical study or cause increased risk to pre-existing disease, due to safety concerns with clinical study procedures / treatment.\n* 26\\. Any other condition (such as hypersensitivity reaction to study medications/components) that would confound study results\n\n  * Any lab abnormality believed to be transient may be repeated at the discretion of the site PI. If repeat value does not preclude participation, and potential participant would otherwise qualify for the study, then may proceed with enrollment per investigator discretion.\n\nNoncompliance\n\n\\_\\_27. Prospective participants who, in the opinion of the investigator, may not be able to comply with all study procedures (including compliance issues related to feasibility/logistics).",
+            "healthyVolunteers": false,
+            "maximumAge": "35 Years",
+            "minimumAge": "18 Years",
+            "sex": "ALL",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "identificationModule": {
+            "briefTitle": "Autologous CD6-CAR Treg Cells for Patients With Stage 3 Type 1 Diabetes",
+            "nctId": "NCT07395050",
+            "officialTitle": "A Pilot Study to Evaluate the Safety, Tolerability, and Feasibility of Autologous Anti-CD6 Chimeric Antigen Receptor T Regulatory Cells (CD6-CAR Tregs) in Patients With Stage 3 Type 1 Diabetes",
+            "orgStudyIdInfo": {
+              "id": "24895"
+            },
+            "organization": {
+              "class": "OTHER",
+              "fullName": "City of Hope Medical Center"
+            }
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "description": "Toxicity will be graded according to the CTCAE version 65.0; cytokine release syndrome (CRS) and immune effector cell associated neurotoxicity syndrome (ICANS) will be assessed per ASTCT consensus criteria \\[8\\]; Hyperglycemia/DKA will be graded per the Clinical Islet Transplant Consortium Terminology Criteria for Adverse Events (CIT-TCAE). Unacceptable toxicity (UT) and moderate toxicity (MOD) are defined in Section 11.2. All patients who are not evaluable for UT or MOD will be replaced.",
+                "measure": "Toxicity, CRS, ICANS, hyperglycemia/DKA",
+                "timeFrame": "till 28 days post investigational drug infusion"
+              },
+              {
+                "description": "Feasibility will be assessed by achieving both following conditions.\n\n* ability to meet at least 80% of the required cell dose at the assigned dose level and\n* ability to meet the required product release criteria.",
+                "measure": "Feasibility of investigational product manufacture",
+                "timeFrame": "till 28 days post investigational drug infusion"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "description": "To assess change in insulin over time, to evaluate effects of treatment on beta-cell function.",
+                "measure": "Change in insulin levels",
+                "timeFrame": "at baseline (pre-intervention), 3, 6 and 12 months post last CAR T cell infusion through study completion, an average of 1 year'"
+              },
+              {
+                "description": "To assess change in stimulated C-peptide levels over time, to evaluate effects of treatment on beta-cell function as reflected mostly by potentially accelerated/delayed loss of C-peptide preservation in blood samples through change in stimulated C-peptide area under the curve (AUC) value during 2-hr MMTT, and peak C-peptide at baseline (pre-intervention), 3, 6 and 12 months post last CAR T cell infusion through study completion, an average of 1 year.",
+                "measure": "Change in stimulated C-peptide levels",
+                "timeFrame": "at baseline (pre-intervention), 3, 6 and 12 months post last CAR T cell infusion through study completion, an average of 1 year'"
+              },
+              {
+                "description": "To assess continuous glucose monitoring (CGM) metrics: mean glucose, time in range 70 to 180 mg/dL, time \\< 54 mg/dL, time \\< 70 mg/dL, CGM measured hypo events, coefficient of variation, % time \\> 180mg/dL, % time \\> 250mg/dL, % with \\> 70% time in range, % with \\< 4% of time \\< 70mg/dL, % with \\<1% of time \\< 54 mg/dL, time in tight range 70 to 140 mg/dL.",
+                "measure": "Change in continuous glucose monitoring (CGM) metrics levels",
+                "timeFrame": "at baseline (pre-intervention), 3, 6 and 12 months post last CAR T cell infusion through study completion, an average of 1 year'"
+              },
+              {
+                "description": "To assess change in Hb1Ac levels baseline (pre-intervention), 3, 6 and 12 months post last CAR T cell infusion through study completion, an average of 1 year",
+                "measure": "Change in Hb1Ac levels",
+                "timeFrame": "at baseline (pre-intervention), 3, 6 and 12 months post last CAR T cell infusion through study completion, an average of 1 year'"
+              }
+            ]
+          },
+          "oversightModule": {
+            "isFdaRegulatedDevice": false,
+            "isFdaRegulatedDrug": true,
+            "oversightHasDmc": true
+          },
+          "sponsorCollaboratorsModule": {
+            "collaborators": [
+              {
+                "class": "NIH",
+                "name": "National Cancer Institute (NCI)"
+              }
+            ],
+            "leadSponsor": {
+              "class": "OTHER",
+              "name": "City of Hope Medical Center"
+            },
+            "responsibleParty": {
+              "type": "SPONSOR"
+            }
+          },
+          "statusModule": {
+            "completionDateStruct": {
+              "date": "2026-09-14",
+              "type": "ESTIMATED"
+            },
+            "lastUpdatePostDateStruct": {
+              "date": "2026-05-13",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2026-05-11",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "primaryCompletionDateStruct": {
+              "date": "2026-09-14",
+              "type": "ESTIMATED"
+            },
+            "startDateStruct": {
+              "date": "2026-06-01",
+              "type": "ESTIMATED"
+            },
+            "statusVerifiedDate": "2026-05",
+            "studyFirstPostDateStruct": {
+              "date": "2026-02-09",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2026-01-27",
+            "studyFirstSubmitQcDate": "2026-02-03"
+          }
+        }
+      }
+    ],
+    "totalCount": 6
+  },
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.term=CD6+OR+ALCAM&query.cond=autoimmune+OR+multiple+sclerosis+OR+rheumatoid+arthritis+OR+lupus+OR+Crohn+OR+psoriasis&format=json&pageSize=1&countTotal=true"
+}

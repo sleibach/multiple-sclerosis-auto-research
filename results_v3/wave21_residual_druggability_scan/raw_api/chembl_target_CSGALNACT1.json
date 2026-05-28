@@ -1,0 +1,278 @@
+{
+  "_request_url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=CSGALNACT1&limit=10",
+  "_status_code": 200,
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Chondroitin sulfate N-acetylgalactosaminyltransferase 1",
+      "score": 19.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL2040705",
+      "target_components": [
+        {
+          "accession": "Q8TDX6",
+          "component_description": "Chondroitin sulfate N-acetylgalactosaminyltransferase 1",
+          "component_id": 5979,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "2.4.1.174",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Beta4GalNAcT-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CHGN",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Chondroitin beta-1,4-N-acetylgalactosaminyltransferase 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Chondroitin sulfate N-acetylgalactosaminyltransferase 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CsGalNAcT-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CSGALNACT1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "GALNACT1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "Q8TDX6",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "Q8TDX6",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0000139",
+              "xref_name": "Golgi membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005794",
+              "xref_name": "Golgi apparatus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0032580",
+              "xref_name": "Golgi cisterna membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0008194",
+              "xref_name": "UDP-glycosyltransferase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008376",
+              "xref_name": "acetylgalactosaminyltransferase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008955",
+              "xref_name": "peptidoglycan glycosyltransferase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0015020",
+              "xref_name": "glucuronosyltransferase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016740",
+              "xref_name": "transferase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016758",
+              "xref_name": "hexosyltransferase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0047237",
+              "xref_name": "glucuronylgalactosylproteoglycan 4-beta-N-acetylgalactosaminyltransferase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0047238",
+              "xref_name": "glucuronosyl-N-acetylgalactosaminyl-proteoglycan 4-beta-N-acetylgalactosaminyltransferase activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001958",
+              "xref_name": "endochondral ossification",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0015014",
+              "xref_name": "heparan sulfate proteoglycan biosynthetic process, polysaccharide chain biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0019276",
+              "xref_name": "UDP-N-acetylgalactosamine metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030198",
+              "xref_name": "extracellular matrix organization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030204",
+              "xref_name": "chondroitin sulfate metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030206",
+              "xref_name": "chondroitin sulfate biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030210",
+              "xref_name": "heparin biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0046398",
+              "xref_name": "UDP-glucuronate metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050653",
+              "xref_name": "chondroitin sulfate proteoglycan biosynthetic process, polysaccharide chain biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051216",
+              "xref_name": "cartilage development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:24290",
+              "xref_name": "CSGALNACT1",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "Q8TDX6",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR008428",
+              "xref_name": "Chond_GalNAc",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR029044",
+              "xref_name": "Nucleotide-diphossugar_trans",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR051227",
+              "xref_name": "CS_glycosyltransferase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR12369",
+              "xref_name": "CHONDROITIN SYNTHASE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR12369:SF19",
+              "xref_name": "CHONDROITIN SULFATE N-ACETYLGALACTOSAMINYLTRANSFERASE 1",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF05679",
+              "xref_name": "CHGN",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA162382829",
+              "xref_name": "chondroitin sulfate N-acetylgalactosaminyltransferase 1",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "Q8TDX6",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-2022870",
+              "xref_name": "Chondroitin sulfate biosynthesis",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "B2RBE4",
+              "xref_name": "Chondroitin sulfate N-acetylgalactosaminyltransferase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q6P9G6",
+              "xref_name": "Chondroitin sulfate N-acetylgalactosaminyltransferase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8IUF9",
+              "xref_name": "Chondroitin sulfate N-acetylgalactosaminyltransferase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8TDX6",
+              "xref_name": "Chondroitin sulfate N-acetylgalactosaminyltransferase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9NSQ7",
+              "xref_name": "Chondroitin sulfate N-acetylgalactosaminyltransferase 1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9NUM9",
+              "xref_name": "Chondroitin sulfate N-acetylgalactosaminyltransferase 1",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

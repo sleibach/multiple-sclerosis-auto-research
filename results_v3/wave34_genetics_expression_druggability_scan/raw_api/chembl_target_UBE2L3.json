@@ -1,0 +1,511 @@
+{
+  "payload": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Ubiquitin-conjugating enzyme E2 L3",
+        "score": 13.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL4105871",
+        "target_components": [
+          {
+            "accession": "P68036",
+            "component_description": "Ubiquitin-conjugating enzyme E2 L3",
+            "component_id": 17723,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "2.3.2.23",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "E2 ubiquitin-conjugating enzyme L3",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "L-UBC",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "UBCE7",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "UbcH7",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "UBCH7",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "UBE2L3",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Ubiquitin carrier protein L3",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Ubiquitin-conjugating enzyme E2-F1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Ubiquitin-conjugating enzyme E2 L3",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Ubiquitin-protein ligase L3",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "P68036",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P68036",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0000151",
+                "xref_name": "ubiquitin ligase complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005634",
+                "xref_name": "nucleus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005654",
+                "xref_name": "nucleoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0003713",
+                "xref_name": "transcription coactivator activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0003723",
+                "xref_name": "RNA binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0004842",
+                "xref_name": "ubiquitin-protein transferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005524",
+                "xref_name": "ATP binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016740",
+                "xref_name": "transferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019787",
+                "xref_name": "ubiquitin-like protein transferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019899",
+                "xref_name": "enzyme binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031625",
+                "xref_name": "ubiquitin protein ligase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0061631",
+                "xref_name": "ubiquitin conjugating enzyme activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0097027",
+                "xref_name": "ubiquitin-protein transferase activator activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0006511",
+                "xref_name": "ubiquitin-dependent protein catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008283",
+                "xref_name": "cell population proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0031398",
+                "xref_name": "positive regulation of protein ubiquitination",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0044770",
+                "xref_name": "cell cycle phase transition",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045893",
+                "xref_name": "positive regulation of DNA-templated transcription",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051443",
+                "xref_name": "positive regulation of ubiquitin-protein transferase activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071383",
+                "xref_name": "cellular response to steroid hormone stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071385",
+                "xref_name": "cellular response to glucocorticoid stimulus",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1903955",
+                "xref_name": "positive regulation of protein targeting to mitochondrion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:12488",
+                "xref_name": "UBE2L3",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "P68036",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR000608",
+                "xref_name": "UBQ-conjugat_E2_core",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR016135",
+                "xref_name": "UBQ-conjugating_enzyme/RWD",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR023313",
+                "xref_name": "UBQ-conjugating_AS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050113",
+                "xref_name": "Ub_conjugating_enzyme",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR24067",
+                "xref_name": "UBIQUITIN-CONJUGATING ENZYME E2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "1C4Z",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1FBV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3SQV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3SY2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4Q5E",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "4Q5H",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5HPT",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5TTE",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5UDH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6CP2",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6DJW",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6DJX",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6N13",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6XXU",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7B5L",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7B5N",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7OIK",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7V8F",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8EAZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8EB0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1C4Z",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1FBV",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3SQV",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3SY2",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4Q5E",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "4Q5H",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5HPT",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5TTE",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5UDH",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6CP2",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6DJW",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6DJX",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7V8F",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8EAZ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8EB0",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF00179",
+                "xref_name": "UQ_con",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA37137",
+                "xref_name": "ubiquitin conjugating enzyme E2 L3",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "P68036",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-5205685",
+                "xref_name": "PINK1-PRKN Mediated Mitophagy",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5357905",
+                "xref_name": "Regulation of TNFR1 signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5675482",
+                "xref_name": "Regulation of necroptotic cell death",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8866652",
+                "xref_name": "Synthesis of active ubiquitin: roles of E1 and E2 enzymes",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-8866654",
+                "xref_name": "E3 ubiquitin ligases ubiquitinate target proteins",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-983168",
+                "xref_name": "Antigen processing: Ubiquitination & Proteasome degradation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "B2R4A7",
+                "xref_name": "Ubiquitin-conjugating enzyme E2 L3",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "B4DDG1",
+                "xref_name": "Ubiquitin-conjugating enzyme E2 L3",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "B4DSZ4",
+                "xref_name": "Ubiquitin-conjugating enzyme E2 L3",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "E7EWS7",
+                "xref_name": "Ubiquitin-conjugating enzyme E2 L3",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P51966",
+                "xref_name": "Ubiquitin-conjugating enzyme E2 L3",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P68036",
+                "xref_name": "Ubiquitin-conjugating enzyme E2 L3",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P70653",
+                "xref_name": "Ubiquitin-conjugating enzyme E2 L3",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9HAV1",
+                "xref_name": "Ubiquitin-conjugating enzyme E2 L3",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=UBE2L3"
+}

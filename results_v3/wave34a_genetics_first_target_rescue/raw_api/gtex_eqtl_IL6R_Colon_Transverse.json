@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr1",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000160712.12",
+        "geneSymbol": "IL6R",
+        "geneSymbolUpper": "IL6R",
+        "nes": -0.303164,
+        "ontologyId": "UBERON:0001157",
+        "pValue": 2.57775e-13,
+        "pos": 154422649,
+        "snpId": "rs11265611",
+        "snpIdUpper": "RS11265611",
+        "tissueSiteDetailId": "Colon_Transverse",
+        "variantId": "chr1_154422649_G_A_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 76,
+      "page": 0,
+      "totalNumberOfItems": 76
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000160712.12&tissueSiteDetailId=Colon_Transverse&datasetId=gtex_v8&itemsPerPage=1"
+}

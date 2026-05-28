@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr2",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000085978.21",
+        "geneSymbol": "ATG16L1",
+        "geneSymbolUpper": "ATG16L1",
+        "nes": -0.447833,
+        "ontologyId": "EFO:0000572",
+        "pValue": 4.21534e-07,
+        "pos": 233470099,
+        "snpId": "rs2971873",
+        "snpIdUpper": "RS2971873",
+        "tissueSiteDetailId": "Cells_EBV-transformed_lymphocytes",
+        "variantId": "chr2_233470099_G_A_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 5,
+      "page": 0,
+      "totalNumberOfItems": 5
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000085978.21&tissueSiteDetailId=Cells_EBV-transformed_lymphocytes&datasetId=gtex_v8&itemsPerPage=1"
+}

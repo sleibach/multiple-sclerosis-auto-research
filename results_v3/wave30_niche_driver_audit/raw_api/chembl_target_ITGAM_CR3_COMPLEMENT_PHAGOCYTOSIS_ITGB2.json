@@ -1,0 +1,3226 @@
+{
+  "page_meta": {
+    "limit": 3,
+    "next": "/chembl/api/data/target/search.json?limit=3&offset=3&q=ITGB2",
+    "offset": 0,
+    "previous": null,
+    "total_count": 6
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Integrin beta-2",
+      "score": 12.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL3631",
+      "target_components": [
+        {
+          "accession": "P05107",
+          "component_description": "Integrin beta-2",
+          "component_id": 1948,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "CD18",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "CD_antigen=CD18",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Cell surface adhesion glycoproteins LFA-1/CR3/p150,95 subunit beta",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Complement receptor C3 subunit beta",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Integrin beta-2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ITGB2",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "MFI7",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "4NEH",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5E6W",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5ES4",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1YUK",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2V7D",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5E6V",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3K71",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3K72",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5E6X",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3K6S",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7P2D",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2P28",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2JF1",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5E6S",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2P26",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5E6R",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5E6U",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4NEN",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0001540",
+              "xref_name": "amyloid-beta binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001851",
+              "xref_name": "complement component C3b binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005178",
+              "xref_name": "integrin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019901",
+              "xref_name": "protein kinase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0030369",
+              "xref_name": "ICAM-3 receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0031072",
+              "xref_name": "heat shock protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0050839",
+              "xref_name": "cell adhesion molecule binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001774",
+              "xref_name": "microglial cell activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002523",
+              "xref_name": "leukocyte migration involved in inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006898",
+              "xref_name": "receptor-mediated endocytosis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006909",
+              "xref_name": "phagocytosis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006911",
+              "xref_name": "phagocytosis, engulfment",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006915",
+              "xref_name": "apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007155",
+              "xref_name": "cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007159",
+              "xref_name": "leukocyte cell-cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007160",
+              "xref_name": "cell-matrix adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007229",
+              "xref_name": "integrin-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007267",
+              "xref_name": "cell-cell signaling",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008360",
+              "xref_name": "regulation of cell shape",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030593",
+              "xref_name": "neutrophil chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031623",
+              "xref_name": "receptor internalization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032930",
+              "xref_name": "positive regulation of superoxide anion generation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034113",
+              "xref_name": "heterotypic cell-cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035987",
+              "xref_name": "endodermal cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043113",
+              "xref_name": "receptor clustering",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043315",
+              "xref_name": "positive regulation of neutrophil degranulation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043542",
+              "xref_name": "endothelial cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045123",
+              "xref_name": "cellular extravasation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045429",
+              "xref_name": "positive regulation of nitric oxide biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045766",
+              "xref_name": "positive regulation of angiogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045963",
+              "xref_name": "negative regulation of dopamine metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071404",
+              "xref_name": "cellular response to low-density lipoprotein particle stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0090314",
+              "xref_name": "positive regulation of protein targeting to membrane",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0097242",
+              "xref_name": "amyloid-beta clearance",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0098609",
+              "xref_name": "cell-cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0098742",
+              "xref_name": "cell-cell adhesion via plasma-membrane adhesion molecules",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1904996",
+              "xref_name": "positive regulation of leukocyte adhesion to vascular endothelial cell",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1990266",
+              "xref_name": "neutrophil migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000363",
+              "xref_name": "positive regulation of prostaglandin-E synthase activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005925",
+              "xref_name": "focal adhesion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009986",
+              "xref_name": "cell surface",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009897",
+              "xref_name": "external side of plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0035579",
+              "xref_name": "specific granule membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0044853",
+              "xref_name": "plasma membrane raft",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0045121",
+              "xref_name": "membrane raft",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070821",
+              "xref_name": "tertiary granule membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0101003",
+              "xref_name": "ficolin-1-rich granule membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:1903561",
+              "xref_name": "extracellular vesicle",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0008305",
+              "xref_name": "integrin complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0034687",
+              "xref_name": "integrin alphaL-beta2 complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0034688",
+              "xref_name": "integrin alphaM-beta2 complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0034689",
+              "xref_name": "integrin alphaX-beta2 complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0043235",
+              "xref_name": "receptor complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "B3KTS8",
+              "xref_name": "Integrin beta-2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "D3DSM1",
+              "xref_name": "Integrin beta-2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q16418",
+              "xref_name": "Integrin beta-2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q53HS5",
+              "xref_name": "Integrin beta-2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UD72",
+              "xref_name": "Integrin beta-2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P05107",
+              "xref_name": "Integrin beta-2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "1L3Y",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1YUK",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2JF1",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2P26",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2P28",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2V7D",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3K6S",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3K71",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3K72",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4NEH",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4NEN",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5E6R",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5E6S",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5E6U",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5E6V",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5E6W",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5E6X",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5ES4",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5XR1",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5ZAZ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7P2D",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7USL",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7USM",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P05107",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P05107",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:6155",
+              "xref_name": "ITGB2",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-166016",
+              "xref_name": "Toll Like Receptor 4 (TLR4) Cascade",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-198933",
+              "xref_name": "Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-202733",
+              "xref_name": "Cell surface interactions at the vascular wall",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-216083",
+              "xref_name": "Integrin cell surface interactions",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-6785807",
+              "xref_name": "Interleukin-4 and Interleukin-13 signaling",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-6798695",
+              "xref_name": "Neutrophil degranulation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P05107",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P05107",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR015439",
+              "xref_name": "Integrin_b-2_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR033760",
+              "xref_name": "Integrin_beta_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015812",
+              "xref_name": "Integrin_bsu",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR014836",
+              "xref_name": "Integrin_bsu_cyt_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR012896",
+              "xref_name": "Integrin_bsu_tail",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036349",
+              "xref_name": "Integrin_bsu_tail_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR002369",
+              "xref_name": "Integrin_bsu_VWA",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR032695",
+              "xref_name": "Integrin_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016201",
+              "xref_name": "PSI",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036465",
+              "xref_name": "vWFA_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10082",
+              "xref_name": "INTEGRIN BETA SUBUNIT",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10082:SF15",
+              "xref_name": "INTEGRIN BETA-2",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF23105",
+              "xref_name": "EGF_integrin",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF08725",
+              "xref_name": "Integrin_b_cyt",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF07965",
+              "xref_name": "Integrin_B_tail",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF00362",
+              "xref_name": "Integrin_beta",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF17205",
+              "xref_name": "PSI_integrin",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA29955",
+              "xref_name": "integrin subunit beta 2",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    },
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Integrin alpha1/beta2 complex",
+      "score": 10.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL5465394",
+      "target_components": [
+        {
+          "accession": "P05107",
+          "component_description": "Integrin beta-2",
+          "component_id": 1948,
+          "component_type": "PROTEIN",
+          "relationship": "PROTEIN SUBUNIT",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "CD18",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "CD_antigen=CD18",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Cell surface adhesion glycoproteins LFA-1/CR3/p150,95 subunit beta",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Complement receptor C3 subunit beta",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Integrin beta-2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ITGB2",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "MFI7",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "4NEH",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5E6W",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5ES4",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1YUK",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2V7D",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5E6V",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3K71",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3K72",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5E6X",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3K6S",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7P2D",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2P28",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2JF1",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5E6S",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2P26",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5E6R",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5E6U",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4NEN",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0001540",
+              "xref_name": "amyloid-beta binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001851",
+              "xref_name": "complement component C3b binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005178",
+              "xref_name": "integrin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019901",
+              "xref_name": "protein kinase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0030369",
+              "xref_name": "ICAM-3 receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0031072",
+              "xref_name": "heat shock protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0050839",
+              "xref_name": "cell adhesion molecule binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001774",
+              "xref_name": "microglial cell activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002523",
+              "xref_name": "leukocyte migration involved in inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006898",
+              "xref_name": "receptor-mediated endocytosis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006909",
+              "xref_name": "phagocytosis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006911",
+              "xref_name": "phagocytosis, engulfment",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006915",
+              "xref_name": "apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007155",
+              "xref_name": "cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007159",
+              "xref_name": "leukocyte cell-cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007160",
+              "xref_name": "cell-matrix adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007229",
+              "xref_name": "integrin-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007267",
+              "xref_name": "cell-cell signaling",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008360",
+              "xref_name": "regulation of cell shape",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030593",
+              "xref_name": "neutrophil chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031623",
+              "xref_name": "receptor internalization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032930",
+              "xref_name": "positive regulation of superoxide anion generation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034113",
+              "xref_name": "heterotypic cell-cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035987",
+              "xref_name": "endodermal cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043113",
+              "xref_name": "receptor clustering",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043315",
+              "xref_name": "positive regulation of neutrophil degranulation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043542",
+              "xref_name": "endothelial cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045123",
+              "xref_name": "cellular extravasation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045429",
+              "xref_name": "positive regulation of nitric oxide biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045766",
+              "xref_name": "positive regulation of angiogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045963",
+              "xref_name": "negative regulation of dopamine metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071404",
+              "xref_name": "cellular response to low-density lipoprotein particle stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0090314",
+              "xref_name": "positive regulation of protein targeting to membrane",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0097242",
+              "xref_name": "amyloid-beta clearance",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0098609",
+              "xref_name": "cell-cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0098742",
+              "xref_name": "cell-cell adhesion via plasma-membrane adhesion molecules",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1904996",
+              "xref_name": "positive regulation of leukocyte adhesion to vascular endothelial cell",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1990266",
+              "xref_name": "neutrophil migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000363",
+              "xref_name": "positive regulation of prostaglandin-E synthase activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005925",
+              "xref_name": "focal adhesion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009986",
+              "xref_name": "cell surface",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009897",
+              "xref_name": "external side of plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0035579",
+              "xref_name": "specific granule membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0044853",
+              "xref_name": "plasma membrane raft",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0045121",
+              "xref_name": "membrane raft",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070821",
+              "xref_name": "tertiary granule membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0101003",
+              "xref_name": "ficolin-1-rich granule membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:1903561",
+              "xref_name": "extracellular vesicle",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0008305",
+              "xref_name": "integrin complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0034687",
+              "xref_name": "integrin alphaL-beta2 complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0034688",
+              "xref_name": "integrin alphaM-beta2 complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0034689",
+              "xref_name": "integrin alphaX-beta2 complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0043235",
+              "xref_name": "receptor complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "B3KTS8",
+              "xref_name": "Integrin beta-2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "D3DSM1",
+              "xref_name": "Integrin beta-2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q16418",
+              "xref_name": "Integrin beta-2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q53HS5",
+              "xref_name": "Integrin beta-2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UD72",
+              "xref_name": "Integrin beta-2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P05107",
+              "xref_name": "Integrin beta-2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "1L3Y",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1YUK",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2JF1",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2P26",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2P28",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2V7D",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3K6S",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3K71",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3K72",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4NEH",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4NEN",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5E6R",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5E6S",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5E6U",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5E6V",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5E6W",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5E6X",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5ES4",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5XR1",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5ZAZ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7P2D",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7USL",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7USM",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P05107",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P05107",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:6155",
+              "xref_name": "ITGB2",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-166016",
+              "xref_name": "Toll Like Receptor 4 (TLR4) Cascade",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-198933",
+              "xref_name": "Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-202733",
+              "xref_name": "Cell surface interactions at the vascular wall",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-216083",
+              "xref_name": "Integrin cell surface interactions",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-6785807",
+              "xref_name": "Interleukin-4 and Interleukin-13 signaling",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-6798695",
+              "xref_name": "Neutrophil degranulation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P05107",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P05107",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR015439",
+              "xref_name": "Integrin_b-2_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR033760",
+              "xref_name": "Integrin_beta_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015812",
+              "xref_name": "Integrin_bsu",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR014836",
+              "xref_name": "Integrin_bsu_cyt_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR012896",
+              "xref_name": "Integrin_bsu_tail",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036349",
+              "xref_name": "Integrin_bsu_tail_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR002369",
+              "xref_name": "Integrin_bsu_VWA",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR032695",
+              "xref_name": "Integrin_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016201",
+              "xref_name": "PSI",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036465",
+              "xref_name": "vWFA_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10082",
+              "xref_name": "INTEGRIN BETA SUBUNIT",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10082:SF15",
+              "xref_name": "INTEGRIN BETA-2",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF23105",
+              "xref_name": "EGF_integrin",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF08725",
+              "xref_name": "Integrin_b_cyt",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF07965",
+              "xref_name": "Integrin_B_tail",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF00362",
+              "xref_name": "Integrin_beta",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF17205",
+              "xref_name": "PSI_integrin",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA29955",
+              "xref_name": "integrin subunit beta 2",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        },
+        {
+          "accession": "P56199",
+          "component_description": "Integrin alpha-1",
+          "component_id": 1997,
+          "component_type": "PROTEIN",
+          "relationship": "PROTEIN SUBUNIT",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "CD49 antigen-like family member A",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CD_antigen=CD49a",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Integrin alpha-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ITGA1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Laminin and collagen receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "VLA-1",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "1QCY",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1QC5",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1PT6",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4A0Q",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5HGJ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0005102",
+              "xref_name": "signaling receptor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005178",
+              "xref_name": "integrin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019211",
+              "xref_name": "phosphatase activator activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019903",
+              "xref_name": "protein phosphatase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0098639",
+              "xref_name": "collagen binding involved in cell-matrix adhesion",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0007155",
+              "xref_name": "cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007160",
+              "xref_name": "cell-matrix adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007229",
+              "xref_name": "integrin-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008285",
+              "xref_name": "negative regulation of cell population proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030593",
+              "xref_name": "neutrophil chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033627",
+              "xref_name": "cell adhesion mediated by integrin",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042059",
+              "xref_name": "negative regulation of epidermal growth factor receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042311",
+              "xref_name": "vasodilation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043410",
+              "xref_name": "positive regulation of MAPK cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043525",
+              "xref_name": "positive regulation of neuron apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045123",
+              "xref_name": "cellular extravasation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048812",
+              "xref_name": "neuron projection morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060326",
+              "xref_name": "cell chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0098609",
+              "xref_name": "cell-cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009897",
+              "xref_name": "external side of plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005925",
+              "xref_name": "focal adhesion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009986",
+              "xref_name": "cell surface",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0043204",
+              "xref_name": "perikaryon",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0045178",
+              "xref_name": "basal part of cell",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0008305",
+              "xref_name": "integrin complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0034665",
+              "xref_name": "integrin alpha1-beta1 complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "B2RNU0",
+              "xref_name": "Integrin alpha-1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P56199",
+              "xref_name": "Integrin alpha-1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "1PT6",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1QC5",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1QCY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2L8S",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2M32",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4A0Q",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5HGJ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P56199",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P56199",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:6134",
+              "xref_name": "ITGA1",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-216083",
+              "xref_name": "Integrin cell surface interactions",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-3000157",
+              "xref_name": "Laminin interactions",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-416700",
+              "xref_name": "Other semaphorin interactions",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-445355",
+              "xref_name": "Smooth Muscle Contraction",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-447041",
+              "xref_name": "CHL1 interactions",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-75892",
+              "xref_name": "Platelet Adhesion to exposed collagen",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P56199",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P56199",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR013517",
+              "xref_name": "FG-GAP",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR013519",
+              "xref_name": "Int_alpha_beta-p",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR000413",
+              "xref_name": "Integrin_alpha",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR018184",
+              "xref_name": "Integrin_alpha_C_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR013649",
+              "xref_name": "Integrin_alpha_Ig-like_1",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR048285",
+              "xref_name": "Integrin_alpha_Ig-like_2",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR048286",
+              "xref_name": "Integrin_alpha_Ig-like_3",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR028994",
+              "xref_name": "Integrin_alpha_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR032695",
+              "xref_name": "Integrin_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR002035",
+              "xref_name": "VWF_A",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036465",
+              "xref_name": "vWFA_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR23220",
+              "xref_name": "INTEGRIN ALPHA",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR23220:SF22",
+              "xref_name": "INTEGRIN ALPHA-1",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF01839",
+              "xref_name": "FG-GAP",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF08441",
+              "xref_name": "Integrin_A_Ig_1",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF20805",
+              "xref_name": "Integrin_A_Ig_2",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF20806",
+              "xref_name": "Integrin_A_Ig_3",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF00092",
+              "xref_name": "VWA",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA29935",
+              "xref_name": "integrin subunit alpha 1",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        }
+      ],
+      "target_type": "PROTEIN COMPLEX",
+      "tax_id": 9606
+    },
+    {
+      "cross_references": [
+        {
+          "xref_id": "CPX-1826",
+          "xref_name": "Integrin alphaM-beta2 complex",
+          "xref_src": "ComplexPortal"
+        }
+      ],
+      "organism": "Homo sapiens",
+      "pref_name": "Integrin alpha-M/beta-2",
+      "score": 8.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL2111362",
+      "target_components": [
+        {
+          "accession": "P05107",
+          "component_description": "Integrin beta-2",
+          "component_id": 1948,
+          "component_type": "PROTEIN",
+          "relationship": "PROTEIN SUBUNIT",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "CD18",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "CD_antigen=CD18",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Cell surface adhesion glycoproteins LFA-1/CR3/p150,95 subunit beta",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Complement receptor C3 subunit beta",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Integrin beta-2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ITGB2",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "MFI7",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "4NEH",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5E6W",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5ES4",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1YUK",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2V7D",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5E6V",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3K71",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3K72",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5E6X",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3K6S",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7P2D",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2P28",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2JF1",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5E6S",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "2P26",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5E6R",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5E6U",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4NEN",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0001540",
+              "xref_name": "amyloid-beta binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001851",
+              "xref_name": "complement component C3b binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005178",
+              "xref_name": "integrin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019901",
+              "xref_name": "protein kinase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0030369",
+              "xref_name": "ICAM-3 receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0031072",
+              "xref_name": "heat shock protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0050839",
+              "xref_name": "cell adhesion molecule binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001774",
+              "xref_name": "microglial cell activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002523",
+              "xref_name": "leukocyte migration involved in inflammatory response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006898",
+              "xref_name": "receptor-mediated endocytosis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006909",
+              "xref_name": "phagocytosis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006911",
+              "xref_name": "phagocytosis, engulfment",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006915",
+              "xref_name": "apoptotic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007155",
+              "xref_name": "cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007159",
+              "xref_name": "leukocyte cell-cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007160",
+              "xref_name": "cell-matrix adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007229",
+              "xref_name": "integrin-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007267",
+              "xref_name": "cell-cell signaling",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008360",
+              "xref_name": "regulation of cell shape",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030593",
+              "xref_name": "neutrophil chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0031623",
+              "xref_name": "receptor internalization",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032930",
+              "xref_name": "positive regulation of superoxide anion generation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034113",
+              "xref_name": "heterotypic cell-cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035987",
+              "xref_name": "endodermal cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043113",
+              "xref_name": "receptor clustering",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043315",
+              "xref_name": "positive regulation of neutrophil degranulation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043542",
+              "xref_name": "endothelial cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045123",
+              "xref_name": "cellular extravasation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045429",
+              "xref_name": "positive regulation of nitric oxide biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045766",
+              "xref_name": "positive regulation of angiogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045963",
+              "xref_name": "negative regulation of dopamine metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071404",
+              "xref_name": "cellular response to low-density lipoprotein particle stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0090314",
+              "xref_name": "positive regulation of protein targeting to membrane",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0097242",
+              "xref_name": "amyloid-beta clearance",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0098609",
+              "xref_name": "cell-cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0098742",
+              "xref_name": "cell-cell adhesion via plasma-membrane adhesion molecules",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1904996",
+              "xref_name": "positive regulation of leukocyte adhesion to vascular endothelial cell",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1990266",
+              "xref_name": "neutrophil migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000363",
+              "xref_name": "positive regulation of prostaglandin-E synthase activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005925",
+              "xref_name": "focal adhesion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009986",
+              "xref_name": "cell surface",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009897",
+              "xref_name": "external side of plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0035579",
+              "xref_name": "specific granule membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0044853",
+              "xref_name": "plasma membrane raft",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0045121",
+              "xref_name": "membrane raft",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070821",
+              "xref_name": "tertiary granule membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0101003",
+              "xref_name": "ficolin-1-rich granule membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:1903561",
+              "xref_name": "extracellular vesicle",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0008305",
+              "xref_name": "integrin complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0034687",
+              "xref_name": "integrin alphaL-beta2 complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0034688",
+              "xref_name": "integrin alphaM-beta2 complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0034689",
+              "xref_name": "integrin alphaX-beta2 complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0043235",
+              "xref_name": "receptor complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "B3KTS8",
+              "xref_name": "Integrin beta-2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "D3DSM1",
+              "xref_name": "Integrin beta-2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q16418",
+              "xref_name": "Integrin beta-2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q53HS5",
+              "xref_name": "Integrin beta-2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UD72",
+              "xref_name": "Integrin beta-2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P05107",
+              "xref_name": "Integrin beta-2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "1L3Y",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1YUK",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2JF1",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2P26",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2P28",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2V7D",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3K6S",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3K71",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3K72",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4NEH",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4NEN",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5E6R",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5E6S",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5E6U",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5E6V",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5E6W",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5E6X",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5ES4",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5XR1",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5ZAZ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7P2D",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7USL",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7USM",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P05107",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P05107",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:6155",
+              "xref_name": "ITGB2",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-166016",
+              "xref_name": "Toll Like Receptor 4 (TLR4) Cascade",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-198933",
+              "xref_name": "Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-202733",
+              "xref_name": "Cell surface interactions at the vascular wall",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-216083",
+              "xref_name": "Integrin cell surface interactions",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-6785807",
+              "xref_name": "Interleukin-4 and Interleukin-13 signaling",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-6798695",
+              "xref_name": "Neutrophil degranulation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P05107",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P05107",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR015439",
+              "xref_name": "Integrin_b-2_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR033760",
+              "xref_name": "Integrin_beta_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR015812",
+              "xref_name": "Integrin_bsu",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR014836",
+              "xref_name": "Integrin_bsu_cyt_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR012896",
+              "xref_name": "Integrin_bsu_tail",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036349",
+              "xref_name": "Integrin_bsu_tail_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR002369",
+              "xref_name": "Integrin_bsu_VWA",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR032695",
+              "xref_name": "Integrin_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR016201",
+              "xref_name": "PSI",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036465",
+              "xref_name": "vWFA_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10082",
+              "xref_name": "INTEGRIN BETA SUBUNIT",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10082:SF15",
+              "xref_name": "INTEGRIN BETA-2",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF23105",
+              "xref_name": "EGF_integrin",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF08725",
+              "xref_name": "Integrin_b_cyt",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF07965",
+              "xref_name": "Integrin_B_tail",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF00362",
+              "xref_name": "Integrin_beta",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF17205",
+              "xref_name": "PSI_integrin",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA29955",
+              "xref_name": "integrin subunit beta 2",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        },
+        {
+          "accession": "P11215",
+          "component_description": "Integrin alpha-M",
+          "component_id": 2144,
+          "component_type": "PROTEIN",
+          "relationship": "PROTEIN SUBUNIT",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "CD11 antigen-like family member B",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CD11B",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "CD_antigen=CD11b",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Cell surface glycoprotein MAC-1 subunit alpha",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CR3A",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "CR-3 alpha chain",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Integrin alpha-M",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ITGAM",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Leukocyte adhesion receptor MO1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Neutrophil adherence receptor",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "4M76",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8CE9",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1NA5",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8CE6",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "4XW2",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3QA3",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1N9Z",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "3Q3G",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1BHQ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1JLM",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1BHO",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7P2D",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6RHW",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "7AKK",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1IDO",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1IDN",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1M1U",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "1MF7",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "GO:0001540",
+              "xref_name": "amyloid-beta binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001851",
+              "xref_name": "complement component C3b binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005178",
+              "xref_name": "integrin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0031072",
+              "xref_name": "heat shock protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001774",
+              "xref_name": "microglial cell activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002430",
+              "xref_name": "complement receptor mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002931",
+              "xref_name": "response to ischemia",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006898",
+              "xref_name": "receptor-mediated endocytosis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006911",
+              "xref_name": "phagocytosis, engulfment",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007155",
+              "xref_name": "cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007160",
+              "xref_name": "cell-matrix adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007229",
+              "xref_name": "integrin-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010668",
+              "xref_name": "ectodermal cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030900",
+              "xref_name": "forebrain development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032930",
+              "xref_name": "positive regulation of superoxide anion generation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033627",
+              "xref_name": "cell adhesion mediated by integrin",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034113",
+              "xref_name": "heterotypic cell-cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043315",
+              "xref_name": "positive regulation of neutrophil degranulation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045087",
+              "xref_name": "innate immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045963",
+              "xref_name": "negative regulation of dopamine metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0090314",
+              "xref_name": "positive regulation of protein targeting to membrane",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0097242",
+              "xref_name": "amyloid-beta clearance",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0098609",
+              "xref_name": "cell-cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0098742",
+              "xref_name": "cell-cell adhesion via plasma-membrane adhesion molecules",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0150062",
+              "xref_name": "complement-mediated synapse pruning",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0150064",
+              "xref_name": "vertebrate eye-specific patterning",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1904151",
+              "xref_name": "positive regulation of microglial cell mediated cytotoxicity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000363",
+              "xref_name": "positive regulation of prostaglandin-E synthase activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009897",
+              "xref_name": "external side of plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005615",
+              "xref_name": "extracellular space",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009986",
+              "xref_name": "cell surface",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0035579",
+              "xref_name": "specific granule membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0044853",
+              "xref_name": "plasma membrane raft",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0045121",
+              "xref_name": "membrane raft",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070821",
+              "xref_name": "tertiary granule membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0008305",
+              "xref_name": "integrin complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0034688",
+              "xref_name": "integrin alphaM-beta2 complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "Q4VAK0",
+              "xref_name": "Integrin alpha-M",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q4VAK1",
+              "xref_name": "Integrin alpha-M",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q4VAK2",
+              "xref_name": "Integrin alpha-M",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P11215",
+              "xref_name": "Integrin alpha-M",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "1BHO",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1BHQ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1IDN",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1IDO",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1JLM",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1M1U",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1MF7",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1N9Z",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "1NA5",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2LKE",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2LKJ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3Q3G",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "3QA3",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4M76",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4XW2",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6RHW",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7AKK",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7P2D",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7USL",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7USM",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8CE6",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8CE9",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8VOH",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8VOI",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "P11215",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P11215",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "HGNC:6149",
+              "xref_name": "ITGAM",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "R-HSA-166016",
+              "xref_name": "Toll Like Receptor 4 (TLR4) Cascade",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-202733",
+              "xref_name": "Cell surface interactions at the vascular wall",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-216083",
+              "xref_name": "Integrin cell surface interactions",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-6785807",
+              "xref_name": "Interleukin-4 and Interleukin-13 signaling",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-6798695",
+              "xref_name": "Neutrophil degranulation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P11215",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "P11215",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR013517",
+              "xref_name": "FG-GAP",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR013519",
+              "xref_name": "Int_alpha_beta-p",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR000413",
+              "xref_name": "Integrin_alpha",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR018184",
+              "xref_name": "Integrin_alpha_C_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR013649",
+              "xref_name": "Integrin_alpha_Ig-like_1",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR048285",
+              "xref_name": "Integrin_alpha_Ig-like_2",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR028994",
+              "xref_name": "Integrin_alpha_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR032695",
+              "xref_name": "Integrin_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR048633",
+              "xref_name": "ITGAX-like_Ig_3",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR002035",
+              "xref_name": "VWF_A",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036465",
+              "xref_name": "vWFA_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR23220",
+              "xref_name": "INTEGRIN ALPHA",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR23220:SF130",
+              "xref_name": "INTEGRIN ALPHA-M",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF01839",
+              "xref_name": "FG-GAP",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF08441",
+              "xref_name": "Integrin_A_Ig_1",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF20805",
+              "xref_name": "Integrin_A_Ig_2",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF00357",
+              "xref_name": "Integrin_alpha",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF21520",
+              "xref_name": "ITGAX-like_Ig_3",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF00092",
+              "xref_name": "VWA",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA29949",
+              "xref_name": "integrin subunit alpha M",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        }
+      ],
+      "target_type": "PROTEIN COMPLEX",
+      "tax_id": 9606
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+# Wave40 Parked Surface Fail-Fast
+
+## Result
+
+- Parked Wave39 candidates evaluated: 6.
+- Calls: {"NO_GO_PARKED_SURFACE_FAILFAST": 5, "PARK_ONLY_IF_NEW_PERTURBATION": 1}.
+
+## Candidate Decisions
+
+- `MMP7`: NO_GO_PARKED_SURFACE_FAILFAST; MS_anchor_nominal_or_trend_only_not_FDR_supported; breadth_or_MS_anchor_below_promotion_gate; broad_inhibition_risks_tissue_remodeling_and_epithelial_repair; no_strict_core_covariate_residual_survival; prior_art_or_trial_saturation; secreted_matrix_protease_repair_barrier_liability; wave25_NO_GO_CAUSAL_PROXY
+- `CD82`: NO_GO_PARKED_SURFACE_FAILFAST; MS_anchor_nominal_or_trend_only_not_FDR_supported; no_non_IBD_strict_residual_support; no_strict_core_covariate_residual_survival; previously_demoted_as_raw_state_marker; prior_review_Do not follow up.; tetraspanin_direction_agonism_vs_blockade_undefined; wave25_MODULE_MARKER_NOT_GENETICALLY_ANCHORED
+- `FXYD5`: PARK_ONLY_IF_NEW_PERTURBATION; MS_anchor_nominal_or_trend_only_not_FDR_supported; NaK_ATPase_regulator_direction_not_autoimmune_specific; breadth_or_MS_anchor_below_promotion_gate; no_ChEMBL_activity_or_defined_antibody_modality_in_local_scan; no_strict_core_covariate_residual_survival; same_gene_has_negative_disease_or_compartment_signal; single_negative_Crohn_signal_conflicts_with_cross_disease_direction
+- `SCD`: NO_GO_PARKED_SURFACE_FAILFAST; MS_anchor_nominal_or_trend_only_not_FDR_supported; breadth_or_MS_anchor_below_promotion_gate; lipid_metabolism_enzyme_reopens_failed_lipid_axis; no_strict_core_covariate_residual_survival; prior_art_or_trial_saturation; same_gene_has_negative_disease_or_compartment_signal; systemic_SCD_inhibition_has_metabolic_and_barrier_risk; wave25_NO_GO_CAUSAL_PROXY
+- `CCL20`: NO_GO_PARKED_SURFACE_FAILFAST; MS_anchor_nominal_or_trend_only_not_FDR_supported; chemokine_blockade_direction_not_module_specific; generic_CCL20_CCR6_trafficking_axis; no_strict_core_covariate_residual_survival; prior_art_or_trial_saturation; wave25_NO_GO_CAUSAL_PROXY
+- `IL23A`: NO_GO_PARKED_SURFACE_FAILFAST; MS_anchor_nominal_or_trend_only_not_FDR_supported; established_IL23_autoimmune_axis_not_novel; missing_local_target_resolved_coloc_or_MR_package; no_strict_core_covariate_residual_survival; prior_art_or_trial_saturation; wave25_NO_GO_CAUSAL_PROXY; wave34_NO_GO_WAVE34_GENETICS_EXPRESSION_DRUGGABILITY
+
+## Interpretation
+
+Wave39's parked surface/secreted candidates do not become V3 leads.
+`FXYD5` remains a narrow artifact/reopening check only because it is
+accessible and relatively less prior-art saturated, but it lacks a mature
+modality, has a conflicting Crohn signal, and has no target-level causal
+or perturbation evidence.

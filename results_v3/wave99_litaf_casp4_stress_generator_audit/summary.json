@@ -1,0 +1,21 @@
+{
+  "random_seed": 20260527,
+  "analysis_call": "NO_PROMOTABLE_LITAF_CASP4_STRESS_GENERATOR",
+  "candidate_calls": [
+    {
+      "candidate": "CASP4",
+      "call": "PARK_CASP4_UPSTREAM_PYROPTOSIS_NODE_PRIOR_SELECTIVITY_BLOCKED",
+      "gates_passed": 3,
+      "gates_total": 10,
+      "failed_gates": "human_timecourse_temporal_lead_over_c15;perturbation_not_just_broad_jak_ifn_confounding;mouse_indirect_perturbation_consistent;ms_claim_grade_anchor;target_resolved_genetics_or_coloc;direct_crispr_or_foundation_support;prior_art_not_blocking"
+    },
+    {
+      "candidate": "LITAF",
+      "call": "PARK_LITAF_UPSTREAM_STRESS_MARKER_NO_MODALITY",
+      "gates_passed": 3,
+      "gates_total": 10,
+      "failed_gates": "real_perturbation_moves_candidate_and_c15;perturbation_not_just_broad_jak_ifn_confounding;mouse_indirect_perturbation_consistent;ms_claim_grade_anchor;target_resolved_genetics_or_coloc;direct_crispr_or_foundation_support;selective_druggable_modality"
+    }
+  ],
+  "interpretation": "LITAF and CASP4 are plausible upstream inflammatory stress-state markers that can precede C15ORF48 induction in human macrophage LPS time courses. The perturbation evidence is not selective: ruxolitinib effects ride broad IFN/APC suppression, mouse perturbation is indirect and lacks C15orf48, direct CRISPR/foundation support is absent, MS anchors are weak, and genetics do not support target-resolved causality."
+}

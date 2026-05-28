@@ -1,0 +1,19 @@
+{
+  "branch_call": "NO_TWEAK_FN14_ROUTE_PROMOTION",
+  "random_seed": 20260527,
+  "dataset": "GSE237845",
+  "n_genes_tested": 18711,
+  "n_fdr10_up_genes": 725,
+  "n_nominal_up_non_elr_genes": 2096,
+  "promoted_candidates": [],
+  "top_module": {
+    "module": "elr_comparator",
+    "n_present": 4,
+    "mean_delta_log2": 2.250475178887519,
+    "median_delta_log2": 2.0053447745929676,
+    "n_up_p_lt_0_05": 3,
+    "n_down_p_lt_0_05": 0,
+    "genes_present": "CXCL1;CXCL2;CXCL3;CXCL5"
+  },
+  "interpretation": "GSE237845 provides real human fibroblast TWEAK perturbation data, but local cross-disease/MS/genetic/reachability gates do not yet promote TNFSF12/TNFRSF12A or immediate non-ELR downstream genes."
+}

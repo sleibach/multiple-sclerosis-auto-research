@@ -1,0 +1,1503 @@
+{
+  "results": [
+    {
+      "annotationScore": 3.0,
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "id": "ARBA00025505",
+                  "source": "ARBA"
+                }
+              ],
+              "value": "Receptor for interleukin-8 which is a powerful neutrophil chemotactic factor. Binding of IL-8 to the receptor causes activation of neutrophils. This response is mediated via a G-protein that activates a phosphatidylinositol-calcium second messenger system. Binds to IL-8 with high affinity. Also binds with high affinity to CXCL3, GRO/MGSA and NAP-2"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBUNIT",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "id": "ARBA00034130",
+                  "source": "ARBA"
+                }
+              ],
+              "value": "Interacts with IL8. Interacts with GNAI2"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000256",
+                    "id": "ARBA00004651",
+                    "source": "ARBA"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000256",
+                    "id": "ARBA00004651",
+                    "source": "ARBA"
+                  }
+                ],
+                "id": "SL-9909",
+                "value": "Multi-pass membrane protein"
+              }
+            }
+          ]
+        },
+        {
+          "commentType": "SIMILARITY",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "id": "RU000688",
+                  "source": "RuleBase"
+                }
+              ],
+              "value": "Belongs to the G-protein coupled receptor 1 family"
+            }
+          ]
+        }
+      ],
+      "entryAudit": {
+        "entryVersion": 101,
+        "firstPublicDate": "2009-11-03",
+        "lastAnnotationUpdateDate": "2026-01-28",
+        "lastSequenceUpdateDate": "2009-11-03",
+        "sequenceVersion": 1
+      },
+      "entryType": "UniProtKB unreviewed (TrEMBL)",
+      "extraAttributes": {
+        "countByCommentType": {
+          "FUNCTION": 1,
+          "SIMILARITY": 1,
+          "SUBCELLULAR LOCATION": 1,
+          "SUBUNIT": 1
+        },
+        "countByFeatureType": {
+          "Domain": 1,
+          "Non-terminal residue": 1,
+          "Transmembrane": 3
+        },
+        "uniParcId": "UPI000198C76D"
+      },
+      "features": [
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "Phobius",
+              "source": "SAM"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 74
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 49
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "Phobius",
+              "source": "SAM"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 105
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 86
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "Phobius",
+              "source": "SAM"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 149
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 130
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "G-protein coupled receptors family 1 profile",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000259",
+              "id": "PS50262",
+              "source": "PROSITE"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 172
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 65
+            }
+          },
+          "type": "Domain"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ENSP00000392698.1",
+              "source": "Ensembl"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 172
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 172
+            }
+          },
+          "type": "Non-terminal residue"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000313",
+                "id": "ENSP00000392698.1",
+                "source": "Ensembl"
+              }
+            ],
+            "value": "CXCR2"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Cellular component",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00022475",
+              "source": "ARBA"
+            }
+          ],
+          "id": "KW-1003",
+          "name": "Cell membrane"
+        },
+        {
+          "category": "Biological process",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00022500",
+              "source": "ARBA"
+            }
+          ],
+          "id": "KW-0145",
+          "name": "Chemotaxis"
+        },
+        {
+          "category": "PTM",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00023157",
+              "source": "ARBA"
+            }
+          ],
+          "id": "KW-1015",
+          "name": "Disulfide bond"
+        },
+        {
+          "category": "Molecular function",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00023040",
+              "source": "ARBA"
+            },
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "RU000688",
+              "source": "RuleBase"
+            }
+          ],
+          "id": "KW-0297",
+          "name": "G-protein coupled receptor"
+        },
+        {
+          "category": "PTM",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00023180",
+              "source": "ARBA"
+            }
+          ],
+          "id": "KW-0325",
+          "name": "Glycoprotein"
+        },
+        {
+          "category": "Cellular component",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00023136",
+              "source": "ARBA"
+            },
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "Phobius",
+              "source": "SAM"
+            }
+          ],
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "PTM",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00022553",
+              "source": "ARBA"
+            }
+          ],
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0007829",
+              "id": "C9J1J7",
+              "source": "PeptideAtlas"
+            }
+          ],
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Molecular function",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00023170",
+              "source": "ARBA"
+            },
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "RU000688",
+              "source": "RuleBase"
+            }
+          ],
+          "id": "KW-0675",
+          "name": "Receptor"
+        },
+        {
+          "category": "Technical term",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "UP000005640",
+              "source": "Proteomes"
+            }
+          ],
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Molecular function",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00023224",
+              "source": "ARBA"
+            },
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "RU000688",
+              "source": "RuleBase"
+            }
+          ],
+          "id": "KW-0807",
+          "name": "Transducer"
+        },
+        {
+          "category": "Domain",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00022692",
+              "source": "ARBA"
+            },
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "RU000688",
+              "source": "RuleBase"
+            }
+          ],
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "ARBA00022989",
+              "source": "ARBA"
+            },
+            {
+              "evidenceCode": "ECO:0000256",
+              "id": "Phobius",
+              "source": "SAM"
+            }
+          ],
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        }
+      ],
+      "organism": {
+        "commonName": "Human",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000313",
+            "id": "ENSP00000392698.1",
+            "source": "Ensembl"
+          },
+          {
+            "evidenceCode": "ECO:0000313",
+            "id": "UP000005640",
+            "source": "Proteomes"
+          }
+        ],
+        "lineage": [
+          "Eukaryota",
+          "Metazoa",
+          "Chordata",
+          "Craniata",
+          "Vertebrata",
+          "Euteleostomi",
+          "Mammalia",
+          "Eutheria",
+          "Euarchontoglires",
+          "Primates",
+          "Haplorrhini",
+          "Catarrhini",
+          "Hominidae",
+          "Homo"
+        ],
+        "scientificName": "Homo sapiens",
+        "taxonId": 9606
+      },
+      "primaryAccession": "C9J1J7",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000256",
+                  "id": "ARBA00033468",
+                  "source": "ARBA"
+                }
+              ],
+              "value": "High affinity interleukin-8 receptor B"
+            }
+          }
+        ],
+        "flag": "Fragment",
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000256",
+                "id": "ARBA00020033",
+                "source": "ARBA"
+              }
+            ],
+            "value": "C-X-C chemokine receptor type 2"
+          }
+        }
+      },
+      "proteinExistence": "1: Evidence at protein level",
+      "references": [
+        {
+          "citation": {
+            "authoringGroup": [
+              "International Human Genome Sequencing Consortium"
+            ],
+            "authors": [
+              "Lander E.S.",
+              "Linton L.M.",
+              "Birren B.",
+              "Nusbaum C.",
+              "Zody M.C.",
+              "Baldwin J.",
+              "Devon K.",
+              "Dewar K.",
+              "Doyle M.",
+              "FitzHugh W.",
+              "Funke R.",
+              "Gage D.",
+              "Harris K.",
+              "Heaford A.",
+              "Howland J.",
+              "Kann L.",
+              "Lehoczky J.",
+              "LeVine R.",
+              "McEwan P.",
+              "McKernan K.",
+              "Meldrim J.",
+              "Mesirov J.P.",
+              "Miranda C.",
+              "Morris W.",
+              "Naylor J.",
+              "Raymond C.",
+              "Rosetti M.",
+              "Santos R.",
+              "Sheridan A.",
+              "Sougnez C.",
+              "Stange-Thomann N.",
+              "Stojanovic N.",
+              "Subramanian A.",
+              "Wyman D.",
+              "Rogers J.",
+              "Sulston J.",
+              "Ainscough R.",
+              "Beck S.",
+              "Bentley D.",
+              "Burton J.",
+              "Clee C.",
+              "Carter N.",
+              "Coulson A.",
+              "Deadman R.",
+              "Deloukas P.",
+              "Dunham A.",
+              "Dunham I.",
+              "Durbin R.",
+              "French L.",
+              "Grafham D.",
+              "Gregory S.",
+              "Hubbard T.",
+              "Humphray S.",
+              "Hunt A.",
+              "Jones M.",
+              "Lloyd C.",
+              "McMurray A.",
+              "Matthews L.",
+              "Mercer S.",
+              "Milne S.",
+              "Mullikin J.C.",
+              "Mungall A.",
+              "Plumb R.",
+              "Ross M.",
+              "Shownkeen R.",
+              "Sims S.",
+              "Waterston R.H.",
+              "Wilson R.K.",
+              "Hillier L.W.",
+              "McPherson J.D.",
+              "Marra M.A.",
+              "Mardis E.R.",
+              "Fulton L.A.",
+              "Chinwalla A.T.",
+              "Pepin K.H.",
+              "Gish W.R.",
+              "Chissoe S.L.",
+              "Wendl M.C.",
+              "Delehaunty K.D.",
+              "Miner T.L.",
+              "Delehaunty A.",
+              "Kramer J.B.",
+              "Cook L.L.",
+              "Fulton R.S.",
+              "Johnson D.L.",
+              "Minx P.J.",
+              "Clifton S.W.",
+              "Hawkins T.",
+              "Branscomb E.",
+              "Predki P.",
+              "Richardson P.",
+              "Wenning S.",
+              "Slezak T.",
+              "Doggett N.",
+              "Cheng J.F.",
+              "Olsen A.",
+              "Lucas S.",
+              "Elkin C.",
+              "Uberbacher E.",
+              "Frazier M.",
+              "Gibbs R.A.",
+              "Muzny D.M.",
+              "Scherer S.E.",
+              "Bouck J.B.",
+              "Sodergren E.J.",
+              "Worley K.C.",
+              "Rives C.M.",
+              "Gorrell J.H.",
+              "Metzker M.L.",
+              "Naylor S.L.",
+              "Kucherlapati R.S.",
+              "Nelson D.L.",
+              "Weinstock G.M.",
+              "Sakaki Y.",
+              "Fujiyama A.",
+              "Hattori M.",
+              "Yada T.",
+              "Toyoda A.",
+              "Itoh T.",
+              "Kawagoe C.",
+              "Watanabe H.",
+              "Totoki Y.",
+              "Taylor T.",
+              "Weissenbach J.",
+              "Heilig R.",
+              "Saurin W.",
+              "Artiguenave F.",
+              "Brottier P.",
+              "Bruls T.",
+              "Pelletier E.",
+              "Robert C.",
+              "Wincker P.",
+              "Smith D.R.",
+              "Doucette-Stamm L.",
+              "Rubenfield M.",
+              "Weinstock K.",
+              "Lee H.M.",
+              "Dubois J.",
+              "Rosenthal A.",
+              "Platzer M.",
+              "Nyakatura G.",
+              "Taudien S.",
+              "Rump A.",
+              "Yang H.",
+              "Yu J.",
+              "Wang J.",
+              "Huang G.",
+              "Gu J.",
+              "Hood L.",
+              "Rowen L.",
+              "Madan A.",
+              "Qin S.",
+              "Davis R.W.",
+              "Federspiel N.A.",
+              "Abola A.P.",
+              "Proctor M.J.",
+              "Myers R.M.",
+              "Schmutz J.",
+              "Dickson M.",
+              "Grimwood J.",
+              "Cox D.R.",
+              "Olson M.V.",
+              "Kaul R.",
+              "Raymond C.",
+              "Shimizu N.",
+              "Kawasaki K.",
+              "Minoshima S.",
+              "Evans G.A.",
+              "Athanasiou M.",
+              "Schultz R.",
+              "Roe B.A.",
+              "Chen F.",
+              "Pan H.",
+              "Ramser J.",
+              "Lehrach H.",
+              "Reinhardt R.",
+              "McCombie W.R.",
+              "de la Bastide M.",
+              "Dedhia N.",
+              "Blocker H.",
+              "Hornischer K.",
+              "Nordsiek G.",
+              "Agarwala R.",
+              "Aravind L.",
+              "Bailey J.A.",
+              "Bateman A.",
+              "Batzoglou S.",
+              "Birney E.",
+              "Bork P.",
+              "Brown D.G.",
+              "Burge C.B.",
+              "Cerutti L.",
+              "Chen H.C.",
+              "Church D.",
+              "Clamp M.",
+              "Copley R.R.",
+              "Doerks T.",
+              "Eddy S.R.",
+              "Eichler E.E.",
+              "Furey T.S.",
+              "Galagan J.",
+              "Gilbert J.G.",
+              "Harmon C.",
+              "Hayashizaki Y.",
+              "Haussler D.",
+              "Hermjakob H.",
+              "Hokamp K.",
+              "Jang W.",
+              "Johnson L.S.",
+              "Jones T.A.",
+              "Kasif S.",
+              "Kaspryzk A.",
+              "Kennedy S.",
+              "Kent W.J.",
+              "Kitts P.",
+              "Koonin E.V.",
+              "Korf I.",
+              "Kulp D.",
+              "Lancet D.",
+              "Lowe T.M.",
+              "McLysaght A.",
+              "Mikkelsen T.",
+              "Moran J.V.",
+              "Mulder N.",
+              "Pollara V.J.",
+              "Ponting C.P.",
+              "Schuler G.",
+              "Schultz J.",
+              "Slater G.",
+              "Smit A.F.",
+              "Stupka E.",
+              "Szustakowski J.",
+              "Thierry-Mieg D.",
+              "Thierry-Mieg J.",
+              "Wagner L.",
+              "Wallis J.",
+              "Wheeler R.",
+              "Williams A.",
+              "Wolf Y.I.",
+              "Wolfe K.H.",
+              "Yang S.P.",
+              "Yeh R.F.",
+              "Collins F.",
+              "Guyer M.S.",
+              "Peterson J.",
+              "Felsenfeld A.",
+              "Wetterstrand K.A.",
+              "Patrinos A.",
+              "Morgan M.J.",
+              "de Jong P.",
+              "Catanese J.J.",
+              "Osoegawa K.",
+              "Shizuya H.",
+              "Choi S.",
+              "Chen Y.J."
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "11237011"
+              },
+              {
+                "database": "DOI",
+                "id": "10.1038/35057062"
+              }
+            ],
+            "citationType": "journal article",
+            "firstPage": "860",
+            "id": "11237011",
+            "journal": "Nature",
+            "lastPage": "921",
+            "publicationDate": "2001",
+            "title": "Initial sequencing and analysis of the human genome.",
+            "volume": "409"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ENSP00000392698.1",
+              "source": "Ensembl"
+            },
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "UP000005640",
+              "source": "Proteomes"
+            }
+          ],
+          "referenceNumber": 1,
+          "referencePositions": [
+            "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+          ]
+        },
+        {
+          "citation": {
+            "authoringGroup": [
+              "International Human Genome Sequencing Consortium"
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "15496913"
+              },
+              {
+                "database": "DOI",
+                "id": "10.1038/nature03001"
+              }
+            ],
+            "citationType": "journal article",
+            "firstPage": "931",
+            "id": "15496913",
+            "journal": "Nature",
+            "lastPage": "945",
+            "publicationDate": "2004",
+            "title": "Finishing the euchromatic sequence of the human genome.",
+            "volume": "431"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ENSP00000392698.1",
+              "source": "Ensembl"
+            },
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "UP000005640",
+              "source": "Proteomes"
+            }
+          ],
+          "referenceNumber": 2,
+          "referencePositions": [
+            "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+          ]
+        },
+        {
+          "citation": {
+            "authors": [
+              "Hillier L.W.",
+              "Graves T.A.",
+              "Fulton R.S.",
+              "Fulton L.A.",
+              "Pepin K.H.",
+              "Minx P.",
+              "Wagner-McPherson C.",
+              "Layman D.",
+              "Wylie K.",
+              "Sekhon M.",
+              "Becker M.C.",
+              "Fewell G.A.",
+              "Delehaunty K.D.",
+              "Miner T.L.",
+              "Nash W.E.",
+              "Kremitzki C.",
+              "Oddy L.",
+              "Du H.",
+              "Sun H.",
+              "Bradshaw-Cordum H.",
+              "Ali J.",
+              "Carter J.",
+              "Cordes M.",
+              "Harris A.",
+              "Isak A.",
+              "van Brunt A.",
+              "Nguyen C.",
+              "Du F.",
+              "Courtney L.",
+              "Kalicki J.",
+              "Ozersky P.",
+              "Abbott S.",
+              "Armstrong J.",
+              "Belter E.A.",
+              "Caruso L.",
+              "Cedroni M.",
+              "Cotton M.",
+              "Davidson T.",
+              "Desai A.",
+              "Elliott G.",
+              "Erb T.",
+              "Fronick C.",
+              "Gaige T.",
+              "Haakenson W.",
+              "Haglund K.",
+              "Holmes A.",
+              "Harkins R.",
+              "Kim K.",
+              "Kruchowski S.S.",
+              "Strong C.M.",
+              "Grewal N.",
+              "Goyea E.",
+              "Hou S.",
+              "Levy A.",
+              "Martinka S.",
+              "Mead K.",
+              "McLellan M.D.",
+              "Meyer R.",
+              "Randall-Maher J.",
+              "Tomlinson C.",
+              "Dauphin-Kohlberg S.",
+              "Kozlowicz-Reilly A.",
+              "Shah N.",
+              "Swearengen-Shahid S.",
+              "Snider J.",
+              "Strong J.T.",
+              "Thompson J.",
+              "Yoakum M.",
+              "Leonard S.",
+              "Pearman C.",
+              "Trani L.",
+              "Radionenko M.",
+              "Waligorski J.E.",
+              "Wang C.",
+              "Rock S.M.",
+              "Tin-Wollam A.M.",
+              "Maupin R.",
+              "Latreille P.",
+              "Wendl M.C.",
+              "Yang S.P.",
+              "Pohl C.",
+              "Wallis J.W.",
+              "Spieth J.",
+              "Bieri T.A.",
+              "Berkowicz N.",
+              "Nelson J.O.",
+              "Osborne J.",
+              "Ding L.",
+              "Meyer R.",
+              "Sabo A.",
+              "Shotland Y.",
+              "Sinha P.",
+              "Wohldmann P.E.",
+              "Cook L.L.",
+              "Hickenbotham M.T.",
+              "Eldred J.",
+              "Williams D.",
+              "Jones T.A.",
+              "She X.",
+              "Ciccarelli F.D.",
+              "Izaurralde E.",
+              "Taylor J.",
+              "Schmutz J.",
+              "Myers R.M.",
+              "Cox D.R.",
+              "Huang X.",
+              "McPherson J.D.",
+              "Mardis E.R.",
+              "Clifton S.W.",
+              "Warren W.C.",
+              "Chinwalla A.T.",
+              "Eddy S.R.",
+              "Marra M.A.",
+              "Ovcharenko I.",
+              "Furey T.S.",
+              "Miller W.",
+              "Eichler E.E.",
+              "Bork P.",
+              "Suyama M.",
+              "Torrents D.",
+              "Waterston R.H.",
+              "Wilson R.K."
+            ],
+            "citationCrossReferences": [
+              {
+                "database": "PubMed",
+                "id": "15815621"
+              },
+              {
+                "database": "DOI",
+                "id": "10.1038/nature03466"
+              }
+            ],
+            "citationType": "journal article",
+            "firstPage": "724",
+            "id": "15815621",
+            "journal": "Nature",
+            "lastPage": "731",
+            "publicationDate": "2005",
+            "title": "Generation and annotation of the DNA sequences of human chromosomes 2 and 4.",
+            "volume": "434"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ENSP00000392698.1",
+              "source": "Ensembl"
+            },
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "UP000005640",
+              "source": "Proteomes"
+            }
+          ],
+          "referenceNumber": 3,
+          "referencePositions": [
+            "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+          ]
+        },
+        {
+          "citation": {
+            "authoringGroup": [
+              "Ensembl"
+            ],
+            "citationType": "submission",
+            "id": "CI-20IMDPQG5KTS4",
+            "publicationDate": "AUG-2025",
+            "submissionDatabase": "UniProtKB"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ENSP00000392698.1",
+              "source": "Ensembl"
+            }
+          ],
+          "referenceNumber": 4,
+          "referencePositions": [
+            "IDENTIFICATION"
+          ]
+        },
+        {
+          "citation": {
+            "authoringGroup": [
+              "Ensembl"
+            ],
+            "citationType": "submission",
+            "id": "CI-20IMJ6JJ0DQF4",
+            "publicationDate": "SEP-2025",
+            "submissionDatabase": "UniProtKB"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "id": "ENSP00000392698.1",
+              "source": "Ensembl"
+            }
+          ],
+          "referenceNumber": 5,
+          "referencePositions": [
+            "IDENTIFICATION"
+          ]
+        }
+      ],
+      "sequence": {
+        "crc64": "1EEF88A8676F86D3",
+        "length": 172,
+        "md5": "95B4B42FB7604C1FE8CCD40472D01EC2",
+        "molWeight": 19473,
+        "value": "MEDFNMESDSFEDFWKGEDLSNYSYSSTLPPFLLDAAPCEPESLEINKYFVVIIYALVFLLSLLGNSLVMLVILYSRVGRSVTDVYLLNLALADLLFALTLPIWAASKVNGWIFGTFLCKVVSLLKEVNFYSGILLLACISVDRYLAIVHATRTLTQKRYLVKFICLSIWGL"
+      },
+      "uniProtKBCrossReferences": [
+        {
+          "database": "EMBL",
+          "id": "AC124768",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "-"
+            },
+            {
+              "key": "Status",
+              "value": "NOT_ANNOTATED_CDS"
+            },
+            {
+              "key": "MoleculeType",
+              "value": "Genomic_DNA"
+            }
+          ]
+        },
+        {
+          "database": "AlphaFoldDB",
+          "id": "C9J1J7",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "SMR",
+          "id": "C9J1J7",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "MassIVE",
+          "id": "C9J1J7",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "Antibodypedia",
+          "id": "4268",
+          "properties": [
+            {
+              "key": "antibodies",
+              "value": "1062 antibodies from 48 providers"
+            }
+          ]
+        },
+        {
+          "database": "Ensembl",
+          "id": "ENST00000428565.1",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "ENSP00000392698.1"
+            },
+            {
+              "key": "GeneId",
+              "value": "ENSG00000180871.8"
+            }
+          ]
+        },
+        {
+          "database": "Ensembl",
+          "id": "ENST00000428565.1",
+          "properties": [
+            {
+              "key": "ProteinId",
+              "value": "ENSP00000392698.1"
+            },
+            {
+              "key": "GeneId",
+              "value": "ENSG00000180871.9"
+            }
+          ]
+        },
+        {
+          "database": "UCSC",
+          "id": "uc061sic.1",
+          "properties": [
+            {
+              "key": "OrganismName",
+              "value": "human"
+            }
+          ]
+        },
+        {
+          "database": "HGNC",
+          "id": "HGNC:6027",
+          "properties": [
+            {
+              "key": "GeneName",
+              "value": "CXCR2"
+            }
+          ]
+        },
+        {
+          "database": "OpenTargets",
+          "id": "ENSG00000180871",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "VEuPathDB",
+          "id": "HostDB:ENSG00000180871",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "GeneTree",
+          "id": "ENSGT01050000244848",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "HOGENOM",
+          "id": "CLU_132993_0_0_1",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "OMA",
+          "id": "DTCPRRE",
+          "properties": [
+            {
+              "key": "Fingerprint",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "OrthoDB",
+          "id": "9946013at2759",
+          "properties": [
+            {
+              "key": "Description",
+              "value": "-"
+            }
+          ]
+        },
+        {
+          "database": "ChiTaRS",
+          "id": "CXCR2",
+          "properties": [
+            {
+              "key": "OrganismName",
+              "value": "human"
+            }
+          ]
+        },
+        {
+          "database": "Proteomes",
+          "id": "UP000005640",
+          "properties": [
+            {
+              "key": "Component",
+              "value": "Chromosome 2"
+            }
+          ]
+        },
+        {
+          "database": "Bgee",
+          "id": "ENSG00000180871",
+          "properties": [
+            {
+              "key": "ExpressionPatterns",
+              "value": "Expressed in blood and 133 other cell types or tissues"
+            }
+          ]
+        },
+        {
+          "database": "ExpressionAtlas",
+          "id": "C9J1J7",
+          "properties": [
+            {
+              "key": "ExpressionPatterns",
+              "value": "baseline and differential"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0015630",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "C:microtubule cytoskeleton"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:HPA"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0072686",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "C:mitotic spindle"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:HPA"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0005886",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "C:plasma membrane"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IDA:HPA"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0016494",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "F:C-X-C chemokine receptor activity"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IEA:InterPro"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0019959",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "F:interleukin-8 binding"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IEA:InterPro"
+            }
+          ]
+        },
+        {
+          "database": "GO",
+          "id": "GO:0006935",
+          "properties": [
+            {
+              "key": "GoTerm",
+              "value": "P:chemotaxis"
+            },
+            {
+              "key": "GoEvidenceType",
+              "value": "IEA:UniProtKB-KW"
+            }
+          ]
+        },
+        {
+          "database": "Gene3D",
+          "id": "1.20.1070.10",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "Rhodopsin 7-helix transmembrane proteins"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "InterPro",
+          "id": "IPR050119",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "CCR1-9-like"
+            }
+          ]
+        },
+        {
+          "database": "InterPro",
+          "id": "IPR000057",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "Chemokine_CXCR2"
+            }
+          ]
+        },
+        {
+          "database": "InterPro",
+          "id": "IPR000174",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "Chemokine_CXCR_1/2"
+            }
+          ]
+        },
+        {
+          "database": "InterPro",
+          "id": "IPR000276",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "GPCR_Rhodpsn"
+            }
+          ]
+        },
+        {
+          "database": "InterPro",
+          "id": "IPR017452",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "GPCR_Rhodpsn_7TM"
+            }
+          ]
+        },
+        {
+          "database": "PANTHER",
+          "id": "PTHR10489:SF689",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "C-X-C CHEMOKINE RECEPTOR TYPE 2"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "PANTHER",
+          "id": "PTHR10489",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "CELL ADHESION MOLECULE"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "Pfam",
+          "id": "PF00001",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "7tm_1"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "PRINTS",
+          "id": "PR00237",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "GPCRRHODOPSN"
+            }
+          ]
+        },
+        {
+          "database": "PRINTS",
+          "id": "PR00427",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "INTRLEUKIN8R"
+            }
+          ]
+        },
+        {
+          "database": "PRINTS",
+          "id": "PR00573",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "INTRLEUKN8BR"
+            }
+          ]
+        },
+        {
+          "database": "SUPFAM",
+          "id": "SSF81321",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "Family A G protein-coupled receptor-like"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "PROSITE",
+          "id": "PS00237",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "G_PROTEIN_RECEP_F1_1"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "database": "PROSITE",
+          "id": "PS50262",
+          "properties": [
+            {
+              "key": "EntryName",
+              "value": "G_PROTEIN_RECEP_F1_2"
+            },
+            {
+              "key": "MatchStatus",
+              "value": "1"
+            }
+          ]
+        }
+      ],
+      "uniProtkbId": "C9J1J7_HUMAN"
+    }
+  ]
+}

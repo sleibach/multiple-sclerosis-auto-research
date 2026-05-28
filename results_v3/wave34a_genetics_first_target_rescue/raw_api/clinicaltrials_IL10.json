@@ -1,0 +1,418 @@
+{
+  "error": "",
+  "payload": {
+    "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxuYfep",
+    "studies": [
+      {
+        "annotationSection": {
+          "annotationModule": {
+            "unpostedAnnotation": {
+              "unpostedEvents": [
+                {
+                  "date": "2026-03-09",
+                  "type": "RELEASE"
+                },
+                {
+                  "date": "2026-03-27",
+                  "type": "RESET"
+                },
+                {
+                  "date": "2026-04-17",
+                  "type": "RELEASE"
+                },
+                {
+                  "date": "2026-05-08",
+                  "type": "RESET"
+                }
+              ],
+              "unpostedResponsibleParty": "William R Reed DC, PhD, Associate Professor, University of Alabama at Birmingham"
+            }
+          }
+        },
+        "derivedSection": {
+          "conditionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D020278",
+                "term": "Demyelinating Autoimmune Diseases, CNS"
+              },
+              {
+                "id": "D020274",
+                "term": "Autoimmune Diseases of the Nervous System"
+              },
+              {
+                "id": "D009422",
+                "term": "Nervous System Diseases"
+              },
+              {
+                "id": "D003711",
+                "term": "Demyelinating Diseases"
+              },
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D020529",
+                "term": "Multiple Sclerosis, Relapsing-Remitting"
+              },
+              {
+                "id": "D009103",
+                "term": "Multiple Sclerosis"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D026201",
+                "term": "Musculoskeletal Manipulations"
+              },
+              {
+                "id": "D026741",
+                "term": "Physical Therapy Modalities"
+              },
+              {
+                "id": "D013812",
+                "term": "Therapeutics"
+              },
+              {
+                "id": "D012046",
+                "term": "Rehabilitation"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D020393",
+                "term": "Manipulation, Spinal"
+              }
+            ]
+          },
+          "miscInfoModule": {
+            "submissionTracking": {
+              "estimatedResultsFirstSubmitDate": "2026-03-09",
+              "submissionInfos": [
+                {
+                  "releaseDate": "2026-03-09",
+                  "resetDate": "2026-03-27"
+                },
+                {
+                  "releaseDate": "2026-04-17",
+                  "resetDate": "2026-05-08"
+                },
+                {
+                  "releaseDate": "2026-05-13"
+                }
+              ]
+            },
+            "versionHolder": "2026-05-26"
+          }
+        },
+        "hasResults": false,
+        "protocolSection": {
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "description": "The spinal manipulation (SM) group will receive manually delivered SM limited to the thoracic spine.",
+                "interventionNames": [
+                  "Other: Spinal Manipulation"
+                ],
+                "label": "Spinal Manipulation",
+                "type": "EXPERIMENTAL"
+              },
+              {
+                "description": "Sham-spinal manipulation will be delivered by setting the expansion control knob on an Activator II (Activator Methods\u00ae) device to the zero position (off; no thrust) and placed onto the dorsal thumb surface of the clinician. At a setting of zero, no excursion of the Activator II stylus occurs, despite the device delivering an audible clicking sound, with no biomechanical force being imparted.",
+                "interventionNames": [
+                  "Other: Sham Spinal Manipulation"
+                ],
+                "label": "Sham Spinal Manipulation",
+                "type": "SHAM_COMPARATOR"
+              }
+            ],
+            "interventions": [
+              {
+                "armGroupLabels": [
+                  "Spinal Manipulation"
+                ],
+                "description": "Diversified (i.e. crossed bilateral hypothenar contact) chiropractic technique will be administered at levels of identified spinal joint restriction/dysfunction (derived from thoracic spine x-rays, static and motion palpation, and confirmed or provoked localized tenderness in paraspinal soft tissues).",
+                "name": "Spinal Manipulation",
+                "otherNames": [
+                  "chiropractic care"
+                ],
+                "type": "OTHER"
+              },
+              {
+                "armGroupLabels": [
+                  "Sham Spinal Manipulation"
+                ],
+                "description": "Sham-SM will be delivered by setting the expansion control knob on an Activator II (Activator Methods\u00ae, Phoenix AZ) device to the zero position (off; no thrust) and placed onto the dorsal thumb surface of the clinician (no actual instrument contact with study participant). At a setting of zero, no excursion of the Activator II stylus occurs, despite the device delivering an audible clicking sound, with no biomechanical force being imparted to the participant.",
+                "name": "Sham Spinal Manipulation",
+                "type": "OTHER"
+              }
+            ]
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Multiple Sclerosis, Relapsing-Remitting"
+            ],
+            "keywords": [
+              "chiropractic",
+              "spinal manipulation",
+              "multiple sclerosis",
+              "cytokines"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "city": "Birmingham",
+                "country": "United States",
+                "facility": "University of Alabama at Birmingham",
+                "geoPoint": {
+                  "lat": 33.52066,
+                  "lon": -86.80249
+                },
+                "state": "Alabama",
+                "zip": "35294"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "affiliation": "University of Alabama at Birmingham",
+                "name": "William R Reed, DC, PhD",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ]
+          },
+          "descriptionModule": {
+            "briefSummary": "Multiple sclerosis (MS) is an inflammatory autoimmune disease associated with an imbalance between pro- and anti-inflammatory markers (cytokines) resulting in a demyelinating and neurodegenerative disease. There is early evidence that spinal manipulation (chiropractic care) is better than control in influencing immune (cytokine) activity in asymptomatic participants, but few studies have been completed in participants with chronic inflammatory conditions, such as MS. The purpose of this project is to examine the immediate (after a single thoracic spinal manipulation treatment) and summative impact (after 8 thoracic spinal manipulation treatments occurring over 4 weeks) on pro-inflammatory (interleukin (IL) IL-1\u00df, IL-2, IL-6, Tumor necrosis factor-alpha) and anti-inflammatory (IL-4, IL-10) plasma cytokines 20 minutes and 2 hours after thoracic spinal manipulation in participants diagnosed with neuroinflammatory relapsing-remitting MS (RR-MS). Spinal manipulation treatment will be limited to the thoracic spine. Secondary outcomes will include determining the impact of 8 thoracic spinal manipulations on fatigue, cognitive processing speed, pain, depression, sleep, and motor function through questionnaires and performance of various in assessments such as the timed 25 foot walk test.",
+            "detailedDescription": "Study Design. The investigators plan to conduct a pilot parallel-group randomized controlled trial with appropriate SM and Sham SM treatment groups. Randomization will occur with the sequence being completed prior to enrolling the first participant and with concealed allocation by a member of the team not involved with the outcomes or treatments. The investigators designed the Sham SM treatments to ensure all participants have similar amounts of physical contact and clinician interaction (i.e. contextual environment for placebo-related improvement). The primary and secondary outcomes of the study will be assessed and processed by blinded assessors who are not part of the intervention delivery to reduce any potential bias in collected outcomes.\n\nSM Delivery. Diversified (i.e. crossed bilateral hypothenar contact) chiropractic technique will be administered at levels of identified spinal joint restriction/dysfunction (derived from thoracic spine x-rays, static and motion palpation, and confirmed or provoked localized tenderness in paraspinal soft tissues). Participants in the SM and Sham SM group will be scheduled for 8 office visits (2x/wk) over a period of 4 weeks.\n\nThe Sham-SM will be delivered by setting the expansion control knob on an Activator II (Activator Methods\u00ae, Phoenix AZ) device to the zero position (off; no thrust) and placed onto the dorsal thumb surface of the clinician (no actual instrument contact with study participant). At a setting of zero, no excursion of the Activator II stylus occurs, despite the device delivering an audible clicking sound, with no biomechanical force being imparted to the participant.\n\nPrimary Outcome Variable. To examine the immediate (1x) and summative impact of SM (8x/4wk) on pro-inflammatory and anti-inflammatory plasma cytokine levels at 20 minutes and 2 hours post-SM (after the first and 8th treatment) and compared to baseline measures.\n\nSecondary Outcome Variables. To examine the summative and secondary impact of 8 chiropractic treatments over 4 weeks on RR-MS-related fatigue (Fatigue Severity Scale, Modified Fatigue Impact Scale), cognitive processing speed (Symbol Digit Modalities Test), pain (short-form McGill Pain Questionnaire), depression (Hospital Anxiety Depression Scale), subjective sleep (Insomnia Severity Index) and upper/lower body motor function (Nine-Hole Peg Test, Timed 25 foot Walk Test). These secondary outcomes will be measured before onset of treatment (baseline) and upon completion of 8 spinal manipulation treatments over the period of 4 weeks) (2 visits per week)."
+          },
+          "designModule": {
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "PARALLEL",
+              "interventionModelDescription": "e plan to conduct a randomized pilot parallel-group randomized controlled trial (RCT) with appropriate SM and Sham SM treatment groups.",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "maskingDescription": "The chiropractic clinician will not be blinded in order to deliver the assigned treatment (spinal manipulation or Sham spinal manipulation) but all other assessors and study personnel will be blinded to the group assignment.",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "OUTCOMES_ASSESSOR"
+                ]
+              },
+              "primaryPurpose": "TREATMENT"
+            },
+            "enrollmentInfo": {
+              "count": 26,
+              "type": "ACTUAL"
+            },
+            "phases": [
+              "NA"
+            ],
+            "studyType": "INTERVENTIONAL"
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18 to 55 years\n* Physician-confirmed diagnosis of MS within the last 5 years\n* Expanded Disability Status Scale (EDSS) score below 4 based on Neurostatus-certified examination\n* Relapse free in the last 30 days\n* No known cardiovascular, pulmonary, or metabolic disease\n* Currently on stable FDA-approved disease modifying therapy (eg, interferon beta-1a or beta-1b, natalizumab etc.)\n* Na\u00efve to chiropractic care\n* No contraindications to spinal manipulation\n* Acceptance of informed consent.\n\nExclusion criteria include:\n\n* Uncontrolled hypertension (systolic pressure \\>160 mmHg, diastolic blood pressure \\>95 mmHg) Any past spinal surgery or recent history of bone fractures\n* Pregnancy in the last 12 months\n* Unable to understand English or follow simple instruction.",
+            "healthyVolunteers": false,
+            "maximumAge": "55 Years",
+            "minimumAge": "18 Years",
+            "sex": "ALL",
+            "stdAges": [
+              "ADULT"
+            ]
+          },
+          "identificationModule": {
+            "briefTitle": "Effects of Chiropractic Care on Cytokine Levels in Multiple Sclerosis",
+            "nctId": "NCT04972929",
+            "officialTitle": "Effects of Chiropractic Care on Pro- and Anti-inflammatory Cytokine Levels in Multiple Sclerosis",
+            "orgStudyIdInfo": {
+              "id": "IRB-300007021"
+            },
+            "organization": {
+              "class": "OTHER",
+              "fullName": "University of Alabama at Birmingham"
+            },
+            "secondaryIdInfos": [
+              {
+                "domain": "Australian Spinal Research Foundation",
+                "id": "TRG2020",
+                "type": "OTHER_GRANT"
+              }
+            ]
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "description": "Determine changes in serum inflammatory cytokine levels from baseline",
+                "measure": "Serum inflammatory cytokine levels",
+                "timeFrame": "Week 1 (at baseline)"
+              },
+              {
+                "description": "Determine changes in serum inflammatory cytokine levels from baseline",
+                "measure": "Serum inflammatory cytokine levels",
+                "timeFrame": "Week 1 (after 1st treatment"
+              },
+              {
+                "description": "Determine changes in serum inflammatory cytokine levels from baseline",
+                "measure": "Serum inflammatory cytokine levels",
+                "timeFrame": "Week 4 (after 8th treatment)"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "description": "Determine changes in fatigue from baseline. It is a 9 item scale determining fatigue severity and its effect on a person's activities",
+                "measure": "Fatigue Severity Scale",
+                "timeFrame": "Week 1 (at baseline)"
+              },
+              {
+                "description": "Determine changes in fatigue from baseline. It is a 9 item scale determining fatigue severity and its effect on a person's activities",
+                "measure": "Fatigue Severity Scale",
+                "timeFrame": "Week 4 (after 8th treatment)"
+              },
+              {
+                "description": "Determine changes in fatigue and tiredness from baseline. It is a 21 item scale that provides a more in-depth look at the impact of fatigue and lack of energy might have on mental alertness and daily activities.",
+                "measure": "Modified Fatigue Impact Scale",
+                "timeFrame": "Week 1 (at baseline)"
+              },
+              {
+                "description": "Determine changes in fatigue and tiredness from baseline. It is a 21 item scale that provides a more in-depth look at the impact of fatigue and lack of energy might have on mental alertness and daily activities.",
+                "measure": "Modified Fatigue Impact Scale",
+                "timeFrame": "Week 4 (after 8th treatment)"
+              },
+              {
+                "description": "Determine changes in cognitive (rapid) processing speed from baseline. Assesses the time it takes to complete a mental task and is related to the speed at which a person can understand and react to a set of information that they receive.",
+                "measure": "Cognitive Processing Speed",
+                "timeFrame": "Week 1 (at baseline)"
+              },
+              {
+                "description": "Determine changes in cognitive (rapid) processing speed from baseline. Assesses the time it takes to complete a mental task and is related to the speed at which a person can understand and react to a set of information that they receive.",
+                "measure": "Cognitive Processing Speed",
+                "timeFrame": "Week 4 (after 8th treatment)"
+              },
+              {
+                "description": "Determine changes in pain from baseline. There are 2 subscales with 11 words (sensory dimension) and 4 words (Affective dimension) with selections of none, mild, moderate and severe along with a visual analog scale and present pain intensity description.",
+                "measure": "Short-form McGill Pain Questionnaire",
+                "timeFrame": "Week 1 (at baseline)"
+              },
+              {
+                "description": "Determine changes in pain from baseline. There are 2 subscales with 11 words (sensory dimension) and 4 words (Affective dimension) with selections of none, mild, moderate and severe along with a visual analog scale and present pain intensity description.",
+                "measure": "Short-form McGill Pain Questionnaire",
+                "timeFrame": "Week 4 (after 8th treatment)"
+              },
+              {
+                "description": "Determine changes in anxiety/depression from baseline. This is a 14 item instrument that you respond to inquires related about you have felt during the last week.",
+                "measure": "Hospital Anxiety Depression Scale",
+                "timeFrame": "Week 1 (at baseline)"
+              },
+              {
+                "description": "Determine changes in anxiety/depression from baseline. This is a 14 item instrument that you respond to inquires related about you have felt during the last week.",
+                "measure": "Hospital Anxiety Depression Scale",
+                "timeFrame": "Week 4 (after 8th treatment)"
+              },
+              {
+                "description": "Determine changes in sleep quality from baseline. This is a 7 item instrument to assess components of nighttime and daytime insomnia",
+                "measure": "Insomnia Severity Index",
+                "timeFrame": "(Week 1 (at baseline)"
+              },
+              {
+                "description": "Determine changes in sleep quality from baseline. This is a 7 item instrument to assess components of nighttime and daytime insomnia",
+                "measure": "Insomnia Severity Index",
+                "timeFrame": "Week 4 (after 8th treatment)"
+              },
+              {
+                "description": "Determine changes in upper limb coordination from baseline. This is a standardized timed assessment to assess finger dexterity in which 9 wooden pegs are placed into predrilled holes in a block of wood.",
+                "measure": "Nine-Hole Peg Test",
+                "timeFrame": "Week 1 (at baseline)"
+              },
+              {
+                "description": "Determine changes in upper limb coordination from baseline. This is a standardized timed assessment to assess finger dexterity in which 9 wooden pegs are placed into predrilled holes in a block of wood.",
+                "measure": "Nine-Hole Peg Test",
+                "timeFrame": "Week 4 (after 8th treatment)"
+              },
+              {
+                "description": "Determine changes in lower limb mobility from baseline. Evaluates leg function and quantitative mobility in a timed 25 foot walk.",
+                "measure": "Timed 25 foot Walk Test",
+                "timeFrame": "Week 1 (at baseline)"
+              },
+              {
+                "description": "Determine changes in lower limb mobility from baseline. Evaluates leg function and quantitative mobility in a timed 25 foot walk.",
+                "measure": "Timed 25 foot Walk Test",
+                "timeFrame": "Week 4 (after 8th treatment)"
+              }
+            ]
+          },
+          "oversightModule": {
+            "isFdaRegulatedDevice": false,
+            "isFdaRegulatedDrug": false,
+            "isUsExport": false,
+            "oversightHasDmc": false
+          },
+          "referencesModule": {
+            "references": [
+              {
+                "citation": "Alanazi MS, Motl RW, Jones BA, Qu H, Li P, Reed WR. Effects of thoracic manipulation with trigger point therapy on inflammatory cytokine levels in individuals with multiple sclerosis: a pilot study. Front Rehabil Sci. 2026 Apr 8;7:1699274. doi: 10.3389/fresc.2026.1699274. eCollection 2026.",
+                "pmid": "42028147",
+                "type": "DERIVED"
+              }
+            ]
+          },
+          "sponsorCollaboratorsModule": {
+            "leadSponsor": {
+              "class": "OTHER",
+              "name": "University of Alabama at Birmingham"
+            },
+            "responsibleParty": {
+              "investigatorAffiliation": "University of Alabama at Birmingham",
+              "investigatorFullName": "William R Reed DC, PhD",
+              "investigatorTitle": "Associate Professor",
+              "type": "PRINCIPAL_INVESTIGATOR"
+            }
+          },
+          "statusModule": {
+            "completionDateStruct": {
+              "date": "2025-03-12",
+              "type": "ACTUAL"
+            },
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "lastUpdatePostDateStruct": {
+              "date": "2025-03-17",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2025-03-13",
+            "overallStatus": "COMPLETED",
+            "primaryCompletionDateStruct": {
+              "date": "2025-03-12",
+              "type": "ACTUAL"
+            },
+            "startDateStruct": {
+              "date": "2022-12-15",
+              "type": "ACTUAL"
+            },
+            "statusVerifiedDate": "2024-12",
+            "studyFirstPostDateStruct": {
+              "date": "2021-07-22",
+              "type": "ACTUAL"
+            },
+            "studyFirstSubmitDate": "2021-04-27",
+            "studyFirstSubmitQcDate": "2021-07-12"
+          }
+        }
+      }
+    ],
+    "totalCount": 246
+  },
+  "status": "ok",
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.term=IL10&query.cond=autoimmune+OR+multiple+sclerosis+OR+rheumatoid+arthritis+OR+lupus+OR+Crohn+OR+psoriasis&format=json&pageSize=1&countTotal=true"
+}

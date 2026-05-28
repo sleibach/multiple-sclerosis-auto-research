@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr2",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000138378.17",
+        "geneSymbol": "STAT4",
+        "geneSymbolUpper": "STAT4",
+        "nes": -0.134288,
+        "ontologyId": "UBERON:0004264",
+        "pValue": 0.000288528,
+        "pos": 191204329,
+        "snpId": "rs12990047",
+        "snpIdUpper": "RS12990047",
+        "tissueSiteDetailId": "Skin_Sun_Exposed_Lower_leg",
+        "variantId": "chr2_191204329_T_G_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 233,
+      "page": 0,
+      "totalNumberOfItems": 233
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000138378.17&tissueSiteDetailId=Skin_Sun_Exposed_Lower_leg&datasetId=gtex_v8&itemsPerPage=1"
+}

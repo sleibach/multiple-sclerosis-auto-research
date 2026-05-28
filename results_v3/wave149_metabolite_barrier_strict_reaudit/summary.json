@@ -1,0 +1,54 @@
+{
+  "branch_call": "NO_METABOLITE_BARRIER_ROUTE_REOPENED",
+  "less_directly_closed_routes": [
+    "ahr_tryptophan",
+    "bile_acid_fxr_tgr5",
+    "retinoid_vdr_rxr",
+    "scfa_ffar_hcar"
+  ],
+  "n_passing_routes": 0,
+  "n_routes": 7,
+  "random_seed": 20260527,
+  "wave146_architecture_context": [
+    {
+      "direct_prior_or_comparator_block": false,
+      "module": "endothelial_entry",
+      "ms_anchor_pass": false,
+      "paired_receiver_positive_count": 0,
+      "passes_architecture_gate": false,
+      "source_disease_positive_count": 2
+    },
+    {
+      "direct_prior_or_comparator_block": false,
+      "module": "stromal_retention_fibrosis",
+      "ms_anchor_pass": true,
+      "paired_receiver_positive_count": 0,
+      "passes_architecture_gate": false,
+      "source_disease_positive_count": 3
+    },
+    {
+      "direct_prior_or_comparator_block": true,
+      "module": "epithelial_chemokine_entry",
+      "ms_anchor_pass": false,
+      "paired_receiver_positive_count": 0,
+      "passes_architecture_gate": false,
+      "source_disease_positive_count": 3
+    },
+    {
+      "direct_prior_or_comparator_block": false,
+      "module": "tls_lymphoid_niche",
+      "ms_anchor_pass": false,
+      "paired_receiver_positive_count": 1,
+      "passes_architecture_gate": false,
+      "source_disease_positive_count": 1
+    },
+    {
+      "direct_prior_or_comparator_block": true,
+      "module": "tl1a_comparator",
+      "ms_anchor_pass": false,
+      "paired_receiver_positive_count": 0,
+      "passes_architecture_gate": false,
+      "source_disease_positive_count": 1
+    }
+  ]
+}

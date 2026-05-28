@@ -1,0 +1,102 @@
+{
+  "branch_call": "NO_PROMOTABLE_ROUTE_SELECT_NEXT_FORCING_TEST",
+  "inputs": {
+    "wave81": "results_v3/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv",
+    "wave83": "results_v3/wave83_intervention_class_meta_rank/intervention_class_meta_rank.tsv",
+    "wave91": "results_v3/wave91_lipid_lysosomal_module_intervention_rank/lipid_lysosomal_intervention_rank.tsv"
+  },
+  "n_routes": 138,
+  "random_seed": 20260527,
+  "top_candidates": [
+    {
+      "candidate": "PSAP",
+      "escape_score": 4.800000000000001,
+      "recommended_next_test": "Check PSAP/prosaposin against MS lesion, direct h5ad lipid-loader contexts, and perturbation/foundation rows; kill if no cross-disease recurrence.",
+      "source": "wave81"
+    },
+    {
+      "candidate": "GPR183_EBI2_OXYSTEROL_NICHE",
+      "escape_score": 3.7,
+      "recommended_next_test": "MS-spatial/lesion validation of GPR183 plus CH25H/CYP7B1 ligand-axis in same APC niche; kill if receptor and ligand do not co-localize.",
+      "source": "wave83"
+    },
+    {
+      "candidate": "FPR2_ANXA1_BIASED_RESOLUTION",
+      "escape_score": 2.5650000000000004,
+      "recommended_next_test": "Cross-disease response-state test of ANXA1/FPR2 ligand-receptor module with MS lesion anchor; kill if no MS/resolution-state support.",
+      "source": "wave83"
+    },
+    {
+      "candidate": "PARK7_RESIDUAL_ROUTE",
+      "escape_score": 1.8449999999999998,
+      "recommended_next_test": "MS anchor and perturbation direction test in myeloid lipid-stress datasets; kill if PARK7 remains generic stress biology.",
+      "source": "wave83"
+    },
+    {
+      "candidate": "P2RX7_PURINERGIC_STRATIFICATION",
+      "escape_score": 0.2550000000000001,
+      "recommended_next_test": "Target-level P2RX7 expression/genetics plus inflammasome-high subgroup test; kill if P2RX7 is not the subgroup driver.",
+      "source": "wave83"
+    },
+    {
+      "candidate": "PARK7",
+      "escape_score": 7.2,
+      "recommended_next_test": "",
+      "source": "wave81"
+    },
+    {
+      "candidate": "DAB2",
+      "escape_score": 5.6,
+      "recommended_next_test": "",
+      "source": "wave81"
+    },
+    {
+      "candidate": "CD58_TARGETABILITY",
+      "escape_score": 5.305,
+      "recommended_next_test": "",
+      "source": "wave83"
+    },
+    {
+      "candidate": "CD9",
+      "escape_score": 5.2,
+      "recommended_next_test": "",
+      "source": "wave81"
+    },
+    {
+      "candidate": "BLK",
+      "escape_score": 5.15,
+      "recommended_next_test": "",
+      "source": "wave81"
+    },
+    {
+      "candidate": "LRRC61",
+      "escape_score": 3.9000000000000004,
+      "recommended_next_test": "",
+      "source": "wave81"
+    },
+    {
+      "candidate": "CLEC7A",
+      "escape_score": 3.6500000000000004,
+      "recommended_next_test": "",
+      "source": "wave81"
+    },
+    {
+      "candidate": "FAM49B",
+      "escape_score": 3.6500000000000004,
+      "recommended_next_test": "",
+      "source": "wave81"
+    },
+    {
+      "candidate": "LYN",
+      "escape_score": 3.6500000000000004,
+      "recommended_next_test": "",
+      "source": "wave81"
+    },
+    {
+      "candidate": "CCDC121",
+      "escape_score": 3.4000000000000004,
+      "recommended_next_test": "",
+      "source": "wave81"
+    }
+  ]
+}

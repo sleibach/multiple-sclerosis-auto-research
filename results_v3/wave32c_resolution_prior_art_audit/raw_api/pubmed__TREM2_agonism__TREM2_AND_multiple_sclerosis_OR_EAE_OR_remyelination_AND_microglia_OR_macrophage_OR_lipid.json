@@ -1,0 +1,52 @@
+{
+  "search": {
+    "esearchresult": {
+      "count": "97",
+      "idlist": [
+        "35642214",
+        "28930663",
+        "28442216",
+        "32772264",
+        "39419029",
+        "33603230",
+        "40131948",
+        "36952346"
+      ],
+      "querytranslation": "(\"trem2 protein human\"[Supplementary Concept] OR \"trem2 protein human\"[All Fields] OR \"trem2\"[All Fields]) AND (\"multiple sclerosis\"[All Fields] OR \"EAE\"[All Fields] OR (\"remyelinate\"[All Fields] OR \"remyelinated\"[All Fields] OR \"remyelinating\"[All Fields] OR \"remyelination\"[MeSH Terms] OR \"remyelination\"[All Fields] OR \"remyelinations\"[All Fields] OR \"remyelinization\"[All Fields])) AND (\"microglia\"[MeSH Terms] OR \"microglia\"[All Fields] OR \"microglias\"[All Fields] OR \"microglia s\"[All Fields] OR (\"macrophagal\"[All Fields] OR \"macrophage s\"[All Fields] OR \"macrophageal\"[All Fields] OR \"macrophages\"[MeSH Terms] OR \"macrophages\"[All Fields] OR \"macrophage\"[All Fields] OR \"macrophagic\"[All Fields]) OR (\"lipid s\"[All Fields] OR \"lipidate\"[All Fields] OR \"lipidated\"[All Fields] OR \"lipidates\"[All Fields] OR \"lipidation\"[All Fields] OR \"lipidations\"[All Fields] OR \"lipide\"[All Fields] OR \"lipides\"[All Fields] OR \"lipidic\"[All Fields] OR \"lipids\"[Supplementary Concept] OR \"lipids\"[All Fields] OR \"lipid\"[All Fields] OR \"lipids\"[MeSH Terms]))",
+      "retmax": "8",
+      "retstart": "0",
+      "translationset": [
+        {
+          "from": "TREM2",
+          "to": "\"trem2 protein, human\"[Supplementary Concept] OR \"trem2 protein, human\"[All Fields] OR \"trem2\"[All Fields]"
+        },
+        {
+          "from": "remyelination",
+          "to": "\"remyelinate\"[All Fields] OR \"remyelinated\"[All Fields] OR \"remyelinating\"[All Fields] OR \"remyelination\"[MeSH Terms] OR \"remyelination\"[All Fields] OR \"remyelinations\"[All Fields] OR \"remyelinization\"[All Fields]"
+        },
+        {
+          "from": "microglia",
+          "to": "\"microglia\"[MeSH Terms] OR \"microglia\"[All Fields] OR \"microglias\"[All Fields] OR \"microglia's\"[All Fields]"
+        },
+        {
+          "from": "macrophage",
+          "to": "\"macrophagal\"[All Fields] OR \"macrophage's\"[All Fields] OR \"macrophageal\"[All Fields] OR \"macrophages\"[MeSH Terms] OR \"macrophages\"[All Fields] OR \"macrophage\"[All Fields] OR \"macrophagic\"[All Fields]"
+        },
+        {
+          "from": "lipid",
+          "to": "\"lipid's\"[All Fields] OR \"lipidate\"[All Fields] OR \"lipidated\"[All Fields] OR \"lipidates\"[All Fields] OR \"lipidation\"[All Fields] OR \"lipidations\"[All Fields] OR \"lipide\"[All Fields] OR \"lipides\"[All Fields] OR \"lipidic\"[All Fields] OR \"lipids\"[Supplementary Concept] OR \"lipids\"[All Fields] OR \"lipid\"[All Fields] OR \"lipids\"[MeSH Terms]"
+        }
+      ]
+    },
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    }
+  },
+  "summaries": {
+    "data": {
+      "error": "{\"error\":\"API rate limit exceeded\",\"api-key\":\"77.0.170.234\",\"count\":\"4\",\"limit\":\"3\"}\n"
+    },
+    "status": 429
+  }
+}

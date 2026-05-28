@@ -1,0 +1,3 @@
+{
+  "error": "{\"error_message\": \"Could not execute query on elasticsearch engine at http://chembl-elk-prod-es-http.chembl-elk-prod.svc.cluster.local:9200\", \"traceback\": \"Traceback (most recent call last):\\n\\n  File \\\"/usr/local/lib/python3.11/site-packages/django/db/backends/base/base.py\\\", line 217, in ensure_connection\\n    self.connect()\\n\\n  File \\\"/usr/local/lib/python3.11/site-packages/django/db/backends/base/base.py\\\", line 195, in connect\\n    self.connection = self.get_new_connection(conn_params)\\n  "
+}

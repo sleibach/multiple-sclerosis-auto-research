@@ -1,0 +1,19 @@
+gene	gate	passed	value	rationale
+CXCR2	cross_disease_external_genetic_breadth	True	n=5; diseases=AS;Crohn;Psoriasis;RA;UC	screening breadth across autoimmune diseases
+CXCR2	ms_external_genetic_anchor	False	MS Open Targets genetic=0.0	MS genetic anchoring required for MS-relevant V3 claim
+CXCR2	local_cross_disease_cell_state	True	positive=3; negative=0; diseases=Crohn disease;psoriasis;ulcerative colitis	local expression/cell-state recurrence
+CXCR2	strict_ms_white_matter_anchor	False	delta=0.8298247585525846; p=0.3775250672864965; fdr=0.9141270983319502	local MS white-matter replication after correction
+CXCR2	foundation_model_reopener	True	context=IBD_myeloid; z=1.196925064184147; projection=0.0288096619802269	bounded Geneformer reopener only, not causal evidence
+CXCR2	real_perturbation_or_efferocytosis	False	screen=UNRESOLVED; lfc=0.1920243199075076; fdr=0.9971256078463696	real disease-relevant perturbation evidence
+CXCR2	direct_druggable_or_modality_handle	True	ChEMBL activity_rows=100.0; best_nM=6.0; clinical_score=0.4852976461600768; clinicaltrial_hits=1	chemical matter, biologic modality, or clinical modality precedent
+CXCR2	module_specific_not_generic_immunology	False	primary biology is CXCL chemokine/neutrophil recruitment; V3 requires evidence that modulation changes the lipid-lysosomal inflammatory myeloid/APC state rather than simply blocking neutrophil trafficking	manual hard gate: must not be generic neutrophil/T-cell axis without module-specific mechanism
+CXCR2	prior_art_not_blocking	False	EuropePMC prior hits=153; ClinicalTrials max relevant hits=1	early crowding/trial gate; patent URLs recorded separately
+IL7R	cross_disease_external_genetic_breadth	True	n=7; diseases=AITD;Crohn;MS;PBC;Psoriasis;SLE;T1D	screening breadth across autoimmune diseases
+IL7R	ms_external_genetic_anchor	True	MS Open Targets genetic=0.7885940637617141	MS genetic anchoring required for MS-relevant V3 claim
+IL7R	local_cross_disease_cell_state	True	positive=3; negative=0; diseases=Crohn disease;type 1 diabetes mellitus;ulcerative colitis	local expression/cell-state recurrence
+IL7R	strict_ms_white_matter_anchor	False	delta=-0.6536992297096775; p=0.5724603142052797; fdr=0.9431647247323408	local MS white-matter replication after correction
+IL7R	foundation_model_reopener	True	context=ra_myeloid_dendritic; z=0.5289555289406979; projection=0.0317525753667318	bounded Geneformer reopener only, not causal evidence
+IL7R	real_perturbation_or_efferocytosis	False	screen=UNRESOLVED; lfc=-0.1553618289551992; fdr=1.0	real disease-relevant perturbation evidence
+IL7R	direct_druggable_or_modality_handle	True	ChEMBL activity_rows=0.0; best_nM=nan; clinical_score=0.0; clinicaltrial_hits=10	chemical matter, biologic modality, or clinical modality precedent
+IL7R	module_specific_not_generic_immunology	False	primary biology is IL-7/CD127 lymphocyte survival and T-cell biology; V3 requires a myeloid/APC-state or explicit lymphoid-to-myeloid chain, not generic immunosuppression	manual hard gate: must not be generic neutrophil/T-cell axis without module-specific mechanism
+IL7R	prior_art_not_blocking	False	EuropePMC prior hits=947; ClinicalTrials max relevant hits=10	early crowding/trial gate; patent URLs recorded separately

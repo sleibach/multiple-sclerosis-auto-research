@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr6",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000112486.15",
+        "geneSymbol": "CCR6",
+        "geneSymbolUpper": "CCR6",
+        "nes": 0.123259,
+        "ontologyId": "UBERON:0013756",
+        "pValue": 8.76171e-06,
+        "pos": 167042548,
+        "snpId": "rs10946207",
+        "snpIdUpper": "RS10946207",
+        "tissueSiteDetailId": "Whole_Blood",
+        "variantId": "chr6_167042548_C_T_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 185,
+      "page": 0,
+      "totalNumberOfItems": 185
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000112486.15&tissueSiteDetailId=Whole_Blood&datasetId=gtex_v8&itemsPerPage=1"
+}

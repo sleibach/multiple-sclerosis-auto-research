@@ -1,0 +1,789 @@
+{
+  "data": {
+    "credibleSets": {
+      "count": 12,
+      "rows": [
+        {
+          "beta": 0.231172,
+          "chromosome": "1",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.7577723264694214,
+                "target": {
+                  "approvedName": "regulator of G protein signaling 1",
+                  "approvedSymbol": "RGS1",
+                  "id": "ENSG00000090104"
+                }
+              },
+              {
+                "score": 0.07265692949295044,
+                "target": {
+                  "approvedName": "regulator of G protein signaling 13",
+                  "approvedSymbol": "RGS13",
+                  "id": "ENSG00000127074"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -10,
+          "pValueMantissa": 2.5,
+          "position": 192556147,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0365277,
+          "studyId": "GCST90558088",
+          "studyLocusId": "2a7abb06c9db038da8c22d95441677f6",
+          "studyType": "gwas",
+          "variant": {
+            "id": "1_192556147_G_A",
+            "rsIds": [
+              "rs1161100958"
+            ]
+          }
+        },
+        {
+          "beta": -0.998315,
+          "chromosome": "6",
+          "colocalisation": {
+            "count": 11,
+            "rows": [
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.05696398341608252,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9853169859762559,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0002057",
+                      "biosampleName": "CD14-positive, CD16-negative classical monocyte"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "peroxisome proliferator activated receptor delta",
+                      "approvedSymbol": "PPARD",
+                      "id": "ENSG00000112033"
+                    },
+                    "traitFromSource": "6:35351696:35352929:clu_25942_+"
+                  },
+                  "studyId": "quach_2016_leafcutter_monocyte_naive_6_35351696_35352929_clu_25942__",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.025667422877271404,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9668458201271607,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000235",
+                      "biosampleName": "macrophage"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "peroxisome proliferator activated receptor delta",
+                      "approvedSymbol": "PPARD",
+                      "id": "ENSG00000112033"
+                    },
+                    "traitFromSource": "6:35351696:35352929:clu_20379_+"
+                  },
+                  "studyId": "nedelec_2016_leafcutter_macrophage_listeria_6_35351696_35352929_clu_20379__",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.04798432328886539,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9824363545938545,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0002057",
+                      "biosampleName": "CD14-positive, CD16-negative classical monocyte"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "peroxisome proliferator activated receptor delta",
+                      "approvedSymbol": "PPARD",
+                      "id": "ENSG00000112033"
+                    },
+                    "traitFromSource": "6:35351696:35352929:clu_25942_+"
+                  },
+                  "studyId": "quach_2016_leafcutter_monocyte_pam3csk4_6_35351696_35352929_clu_25942__",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.05695714270284802,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9853151317997193,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0002057",
+                      "biosampleName": "CD14-positive, CD16-negative classical monocyte"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "peroxisome proliferator activated receptor delta",
+                      "approvedSymbol": "PPARD",
+                      "id": "ENSG00000112033"
+                    },
+                    "traitFromSource": "6:35351696:35352929:clu_25942_+"
+                  },
+                  "studyId": "quach_2016_leafcutter_monocyte_r848_6_35351696_35352929_clu_25942__",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.012366305058224825,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9326183941938627,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0002057",
+                      "biosampleName": "CD14-positive, CD16-negative classical monocyte"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "peroxisome proliferator activated receptor delta",
+                      "approvedSymbol": "PPARD",
+                      "id": "ENSG00000112033"
+                    },
+                    "traitFromSource": "6:35347150:35410987:clu_25942_+"
+                  },
+                  "studyId": "quach_2016_leafcutter_monocyte_lps_6_35347150_35410987_clu_25942__",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.05699419586007987,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9853251698240308,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0002057",
+                      "biosampleName": "CD14-positive, CD16-negative classical monocyte"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "peroxisome proliferator activated receptor delta",
+                      "approvedSymbol": "PPARD",
+                      "id": "ENSG00000112033"
+                    },
+                    "traitFromSource": "6:35351696:35352929:clu_25942_+"
+                  },
+                  "studyId": "quach_2016_leafcutter_monocyte_iav_6_35351696_35352929_clu_25942__",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": 0,
+                "clpp": 0.004453195054427222,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.8316620718664185,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0009834",
+                      "biosampleName": "dorsolateral prefrontal cortex"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "peroxisome proliferator activated receptor delta",
+                      "approvedSymbol": "PPARD",
+                      "id": "ENSG00000112033"
+                    },
+                    "traitFromSource": "6:35351696:35352929:clu_33622_+"
+                  },
+                  "studyId": "brainseq_leafcutter_brain_6_35351696_35352929_clu_33622__",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.052599916880357776,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9840377790109986,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000235",
+                      "biosampleName": "macrophage"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "peroxisome proliferator activated receptor delta",
+                      "approvedSymbol": "PPARD",
+                      "id": "ENSG00000112033"
+                    },
+                    "traitFromSource": "6:35351696:35352929:clu_20379_+"
+                  },
+                  "studyId": "nedelec_2016_leafcutter_macrophage_salmonella_6_35351696_35352929_clu_20379__",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.005919660058170436,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.8680399134916328,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000235",
+                      "biosampleName": "macrophage"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "DEF6 guanine nucleotide exchange factor",
+                      "approvedSymbol": "DEF6",
+                      "id": "ENSG00000023892"
+                    },
+                    "traitFromSource": "ENSG00000023892"
+                  },
+                  "studyId": "nedelec_2016_ge_macrophage_listeria_ensg00000023892",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.0251696032307583,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9661937685156557,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000235",
+                      "biosampleName": "macrophage"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "DEF6 guanine nucleotide exchange factor",
+                      "approvedSymbol": "DEF6",
+                      "id": "ENSG00000023892"
+                    },
+                    "traitFromSource": "ENSG00000023892"
+                  },
+                  "studyId": "alasoo_2018_ge_macrophage_ifng_ensg00000023892",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.017425525987826693,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9514901889222889,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000235",
+                      "biosampleName": "macrophage"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "DEF6 guanine nucleotide exchange factor",
+                      "approvedSymbol": "DEF6",
+                      "id": "ENSG00000023892"
+                    },
+                    "traitFromSource": "ENSG00000023892.11_6_35310570_35310644"
+                  },
+                  "studyId": "alasoo_2018_exon_macrophage_ifng_ensg00000023892_11_6_35310570_35310644",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              }
+            ]
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.839073657989502,
+                "target": {
+                  "approvedName": "peroxisome proliferator activated receptor delta",
+                  "approvedSymbol": "PPARD",
+                  "id": "ENSG00000112033"
+                }
+              },
+              {
+                "score": 0.1042860597372055,
+                "target": {
+                  "approvedName": "DEF6 guanine nucleotide exchange factor",
+                  "approvedSymbol": "DEF6",
+                  "id": "ENSG00000023892"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -21,
+          "pValueMantissa": 8.100000381469727,
+          "position": 35352671,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.106684,
+          "studyId": "GCST90558088",
+          "studyLocusId": "33fe1bc27c3b12b703a04d0ed3583502",
+          "studyType": "gwas",
+          "variant": {
+            "id": "6_35352671_A_G",
+            "rsIds": [
+              "rs7771323"
+            ]
+          }
+        },
+        {
+          "beta": 0.188175,
+          "chromosome": "2",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.2094457745552063,
+                "target": {
+                  "approvedName": "CD28 molecule",
+                  "approvedSymbol": "CD28",
+                  "id": "ENSG00000178562"
+                }
+              },
+              {
+                "score": 0.05290135741233826,
+                "target": {
+                  "approvedName": "cytotoxic T-lymphocyte associated protein 4",
+                  "approvedSymbol": "CTLA4",
+                  "id": "ENSG00000163599"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -9,
+          "pValueMantissa": 2.5999999046325684,
+          "position": 203752416,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0316069,
+          "studyId": "GCST90558088",
+          "studyLocusId": "3a7804b60080c2593fa047d9899e0a2d",
+          "studyType": "gwas",
+          "variant": {
+            "id": "2_203752416_G_A",
+            "rsIds": [
+              "rs1051115632"
+            ]
+          }
+        },
+        {
+          "beta": -0.332536,
+          "chromosome": "3",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.13612903654575348,
+                "target": {
+                  "approvedName": "C-C motif chemokine receptor 1",
+                  "approvedSymbol": "CCR1",
+                  "id": "ENSG00000163823"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -10,
+          "pValueMantissa": 4.099999904632568,
+          "position": 46179009,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0531994,
+          "studyId": "GCST90558088",
+          "studyLocusId": "4554685378dd8166fff9517d5b8b3e10",
+          "studyType": "gwas",
+          "variant": {
+            "id": "3_46179009_A_G",
+            "rsIds": [
+              "rs1403493870"
+            ]
+          }
+        },
+        {
+          "beta": 0.189587,
+          "chromosome": "12",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.94141685962677,
+                "target": {
+                  "approvedName": "SH2B adaptor protein 3",
+                  "approvedSymbol": "SH2B3",
+                  "id": "ENSG00000111252"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -11,
+          "pValueMantissa": 1.2999999523162842,
+          "position": 111446805,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.028003,
+          "studyId": "GCST90558088",
+          "studyLocusId": "7fbcaf21319a5cd73a9b8e8f84b432a2",
+          "studyType": "gwas",
+          "variant": {
+            "id": "12_111446805_G_A",
+            "rsIds": [
+              "rs1398947274"
+            ]
+          }
+        },
+        {
+          "beta": 0.253283,
+          "chromosome": "6",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.4745464622974396,
+                "target": {
+                  "approvedName": "oligodendrocyte transcription factor 3",
+                  "approvedSymbol": "OLIG3",
+                  "id": "ENSG00000177468"
+                }
+              },
+              {
+                "score": 0.09517824649810791,
+                "target": {
+                  "approvedName": "TNF alpha induced protein 3",
+                  "approvedSymbol": "TNFAIP3",
+                  "id": "ENSG00000118503"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -14,
+          "pValueMantissa": 3.4000000953674316,
+          "position": 137652696,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0334019,
+          "studyId": "GCST90558088",
+          "studyLocusId": "9fcaa80acd4c58ae3483967915354573",
+          "studyType": "gwas",
+          "variant": {
+            "id": "6_137652696_G_A",
+            "rsIds": [
+              "rs1039418018"
+            ]
+          }
+        },
+        {
+          "beta": -0.749144,
+          "chromosome": "6",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.5700725317001343,
+                "target": {
+                  "approvedName": "mitogen-activated protein kinase 14",
+                  "approvedSymbol": "MAPK14",
+                  "id": "ENSG00000112062"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -12,
+          "pValueMantissa": 9.899999618530273,
+          "position": 36108788,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.110036,
+          "studyId": "GCST90558088",
+          "studyLocusId": "a7126d78a4957260c9861895ec7377ed",
+          "studyType": "gwas",
+          "variant": {
+            "id": "6_36108788_G_A",
+            "rsIds": [
+              "rs1184973064"
+            ]
+          }
+        },
+        {
+          "beta": 0.176472,
+          "chromosome": "2",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.627504289150238,
+                "target": {
+                  "approvedName": "integrin subunit alpha 4",
+                  "approvedSymbol": "ITGA4",
+                  "id": "ENSG00000115232"
+                }
+              },
+              {
+                "score": 0.22936582565307617,
+                "target": {
+                  "approvedName": "ubiquitin conjugating enzyme E2 E3",
+                  "approvedSymbol": "UBE2E3",
+                  "id": "ENSG00000170035"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -10,
+          "pValueMantissa": 5.400000095367432,
+          "position": 181230539,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0284257,
+          "studyId": "GCST90558088",
+          "studyLocusId": "a713779c64e83fd2509afa8c0bc8e81c",
+          "studyType": "gwas",
+          "variant": {
+            "id": "2_181230539_C_T",
+            "rsIds": [
+              "rs1000764842"
+            ]
+          }
+        },
+        {
+          "beta": 0.21659,
+          "chromosome": "3",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.6629089117050171,
+                "target": {
+                  "approvedName": "LIM domain containing preferred translocation partner in lipoma",
+                  "approvedSymbol": "LPP",
+                  "id": "ENSG00000145012"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -14,
+          "pValueMantissa": 1.399999976158142,
+          "position": 188388592,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0281305,
+          "studyId": "GCST90558088",
+          "studyLocusId": "d73a3f769d41625084c599ebb1c96d63",
+          "studyType": "gwas",
+          "variant": {
+            "id": "3_188388592_C_T",
+            "rsIds": [
+              "rs1191124423"
+            ]
+          }
+        },
+        {
+          "beta": 0.37028,
+          "chromosome": "1",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.9292392730712891,
+                "target": {
+                  "approvedName": "neutrophil cytosolic factor 2",
+                  "approvedSymbol": "NCF2",
+                  "id": "ENSG00000116701"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -9,
+          "pValueMantissa": 4.400000095367432,
+          "position": 183573189,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.063113,
+          "studyId": "GCST90558088",
+          "studyLocusId": "e392a6f2a28d9ce63f0e5f0c74a3718a",
+          "studyType": "gwas",
+          "variant": {
+            "id": "1_183573189_G_A",
+            "rsIds": [
+              "rs137854508"
+            ]
+          }
+        },
+        {
+          "beta": -0.320851,
+          "chromosome": "4",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.5185993909835815,
+                "target": {
+                  "approvedName": "interleukin 2",
+                  "approvedSymbol": "IL2",
+                  "id": "ENSG00000109471"
+                }
+              },
+              {
+                "score": 0.3189919590950012,
+                "target": {
+                  "approvedName": "adenosine deaminase domain containing 1",
+                  "approvedSymbol": "ADAD1",
+                  "id": "ENSG00000164113"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -18,
+          "pValueMantissa": 2.799999952316284,
+          "position": 122437807,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0367925,
+          "studyId": "GCST90558088",
+          "studyLocusId": "ea925820ccf671642118bce477160371",
+          "studyType": "gwas",
+          "variant": {
+            "id": "4_122437807_G_A",
+            "rsIds": [
+              "rs536431402"
+            ]
+          }
+        },
+        {
+          "beta": 0.263585,
+          "chromosome": "18",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.7506269812583923,
+                "target": {
+                  "approvedName": "protein tyrosine phosphatase non-receptor type 2",
+                  "approvedSymbol": "PTPN2",
+                  "id": "ENSG00000175354"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -10,
+          "pValueMantissa": 5.599999904632568,
+          "position": 12864764,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0425115,
+          "studyId": "GCST90558088",
+          "studyLocusId": "f465f046ddf2d15d7dd4d314d64c5ecb",
+          "studyType": "gwas",
+          "variant": {
+            "id": "18_12864764_T_C",
+            "rsIds": [
+              "rs949987929"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "error": "",
+  "payload": {
+    "hitCount": 1413,
+    "nextCursorMark": "AoIIQTgW3Cg1NTA0Mzc1Nw==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(CD6) AND (\"autoimmune\" OR \"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR psoriasis)&cursorMark=AoIIQTgW3Cg1NTA0Mzc1Nw==&resultType=lite&pageSize=3&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 3,
+      "queryString": "(CD6) AND (\"autoimmune\" OR \"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR psoriasis)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Shah N.",
+          "bookOrReportDetails": {
+            "publisher": "Research Square",
+            "yearOfPublication": 2026
+          },
+          "citedByCount": 0,
+          "doi": "10.21203/rs.3.rs-9368949/v1",
+          "firstIndexDate": "2026-04-11",
+          "firstPublicationDate": "2026-04-10",
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "N",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "PPR1176377",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "isOpenAccess": "N",
+          "pubType": "preprint",
+          "pubYear": "2026",
+          "source": "PPR",
+          "title": "InsulatorLeak, a mechanism-first pipeline for variant prioritization by predicted CTCF insulator disruption across seven autoimmune diseases",
+          "versionNumber": 1
+        },
+        {
+          "authorString": "Africa RE, McKinnon BJ, Hughes CA, Hardison SA.",
+          "citedByCount": 0,
+          "doi": "10.1002/lio2.70340",
+          "firstIndexDate": "2026-01-02",
+          "firstPublicationDate": "2025-12-30",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12750445"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41477026",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "1",
+          "journalIssn": "2378-8038",
+          "journalTitle": "Laryngoscope Investig Otolaryngol",
+          "journalVolume": "11",
+          "pageInfo": "e70340",
+          "pmcid": "PMC12750445",
+          "pmid": "41477026",
+          "pubType": "research-article; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Chronic Rhinosinusitis and Autoimmune Diseases: A Comprehensive Large Population-Based Analysis."
+        },
+        {
+          "authorString": "Sobczyk MK, Gaunt TR.",
+          "citedByCount": 0,
+          "doi": "10.1038/s41598-026-41818-3",
+          "firstIndexDate": "2026-03-04",
+          "firstPublicationDate": "2026-03-03",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13065838"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "41775781",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "1",
+          "journalIssn": "2045-2322",
+          "journalTitle": "Sci Rep",
+          "journalVolume": "16",
+          "pageInfo": "11851",
+          "pmcid": "PMC13065838",
+          "pmid": "41775781",
+          "pubType": "research-article; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Integrative mendelian randomization approaches for therapeutic target prioritisation in immune-mediated diseases.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "hgnc"
+            ]
+          }
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "status": "ok",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28CD6%29+AND+%28%22autoimmune%22+OR+%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+psoriasis%29&format=json&pageSize=3&resultType=lite"
+}

@@ -1,0 +1,249 @@
+{
+  "IFNGR_JAK_STAT1_upstream_control": {
+    "direct_h5ad": [
+      "ibd_crohn_epithelial:ifn_apc:g=1.554:FDR=0.0879:Crohn disease:colon epithelial",
+      "ibd_crohn_epithelial:mixscale_validated_ifng_readout:g=1.619:FDR=0.0872:Crohn disease:colon epithelial",
+      "ibd_crohn_myeloid:ifn_apc:g=2.087:FDR=0.0563:Crohn disease:colon myeloid",
+      "ibd_crohn_myeloid:mixscale_validated_ifng_readout:g=2.115:FDR=0.0525:Crohn disease:colon myeloid",
+      "ibd_uc_epithelial:hla_ii_apc:g=1.572:FDR=0.0872:ulcerative colitis:colon epithelial",
+      "ibd_uc_epithelial:ifn_apc:g=1.579:FDR=0.0897:ulcerative colitis:colon epithelial",
+      "ibd_uc_myeloid:ifn_apc:g=2.359:FDR=0.0525:ulcerative colitis:colon myeloid",
+      "ibd_uc_myeloid:mixscale_validated_ifng_readout:g=3.271:FDR=0.025:ulcerative colitis:colon myeloid",
+      "psoriasis_skin_apc:ifn_apc:g=2.817:FDR=0.0914:psoriasis:skin APC",
+      "sjogren_gland_epithelial:hla_ii_apc:g=1.034:FDR=0.0914:Sjogren syndrome:salivary gland epithelial",
+      "t1d_ductal_cell:hla_ii_apc:g=1.377:FDR=0.0897:type 1 diabetes mellitus:pancreatic ductal cell",
+      "t1d_ductal_cell:mixscale_validated_ifng_readout:g=1.952:FDR=0.0914:type 1 diabetes mellitus:pancreatic ductal cell"
+    ],
+    "ms_gse111972": [],
+    "thyroid_spatial": [
+      "ifn_apc:g=17.340:FDR=0.022:Hashimoto thyroid spatial",
+      "hla_ii_apc:g=30.190:FDR=0.022:Hashimoto thyroid spatial",
+      "mixscale_validated_ifng_readout:g=19.687:FDR=0.00169:Hashimoto thyroid spatial"
+    ],
+    "celiac_marker": [
+      "epithelial_like:hla_ii_apc:g=1.724:p=0.0279:marker-compartment",
+      "epithelial_like:ifn_apc:g=1.204:p=0.0956:marker-compartment"
+    ],
+    "mixscale_controller": [
+      "IFNGR1->gilt_lysosomal_apc:-0.266:negFrac=0.83",
+      "JAK2->gilt_lysosomal_apc:-0.238:negFrac=0.83",
+      "IFNGR2->gilt_lysosomal_apc:-0.235:negFrac=1.00",
+      "JAK1->gilt_lysosomal_apc:-0.201:negFrac=1.00",
+      "STAT1->gilt_lysosomal_apc:-0.181:negFrac=1.00",
+      "IFNGR1->hla_ii_apc:-1.605:negFrac=1.00",
+      "IFNGR2->hla_ii_apc:-1.546:negFrac=1.00",
+      "JAK2->hla_ii_apc:-1.251:negFrac=1.00",
+      "JAK1->hla_ii_apc:-1.214:negFrac=1.00",
+      "STAT1->hla_ii_apc:-1.107:negFrac=1.00",
+      "IFNGR1->ifn_apc:-1.492:negFrac=1.00",
+      "IFNGR2->ifn_apc:-1.451:negFrac=1.00",
+      "STAT1->ifn_apc:-1.253:negFrac=1.00",
+      "JAK2->ifn_apc:-1.149:negFrac=1.00",
+      "JAK1->ifn_apc:-0.877:negFrac=1.00"
+    ],
+    "mixscale_readout": [
+      "IFNGR1->STAT1:-1.260:negFrac=1.00",
+      "IFNGR2->STAT1:-1.216:negFrac=1.00",
+      "JAK1->STAT1:-0.661:negFrac=1.00",
+      "JAK2->STAT1:-0.964:negFrac=1.00",
+      "STAT1->STAT1:-1.657:negFrac=1.00"
+    ],
+    "opentargets": [
+      "RA:STAT1:genetic=0.163:overall=0.127",
+      "SLE:STAT1:genetic=0.165:overall=0.133",
+      "celiac:STAT1:genetic=0.154:overall=0.096"
+    ],
+    "prior_art": [
+      "EuropePMC_log_penalty=6.666",
+      "ClinicalTrials_penalty=6.660",
+      "queries=13"
+    ],
+    "scoring_caveat": "Scores are rank-aggregation heuristics. They are designed to force transparent tradeoffs, not to estimate causal effect sizes."
+  },
+  "CIITA_RFX5_HLAII_transcriptional_gate": {
+    "direct_h5ad": [
+      "ibd_crohn_epithelial:mif_cd74_receptor_state:g=1.589:FDR=0.0879:Crohn disease:colon epithelial",
+      "ibd_uc_epithelial:hla_ii_apc:g=1.572:FDR=0.0872:ulcerative colitis:colon epithelial",
+      "ibd_uc_epithelial:mif_cd74_receptor_state:g=1.880:FDR=0.0599:ulcerative colitis:colon epithelial",
+      "ibd_uc_myeloid:mif_cd74_receptor_state:g=1.652:FDR=0.0914:ulcerative colitis:colon myeloid",
+      "sjogren_gland_epithelial:hla_ii_apc:g=1.034:FDR=0.0914:Sjogren syndrome:salivary gland epithelial",
+      "sjogren_gland_epithelial:mif_cd74_receptor_state:g=1.075:FDR=0.0914:Sjogren syndrome:salivary gland epithelial",
+      "t1d_ductal_cell:hla_ii_apc:g=1.377:FDR=0.0897:type 1 diabetes mellitus:pancreatic ductal cell",
+      "t1d_ductal_cell:mif_cd74_receptor_state:g=1.142:FDR=0.0525:type 1 diabetes mellitus:pancreatic ductal cell"
+    ],
+    "ms_gse111972": [
+      "mif_cd74_receptor_state:g=1.341:FDR=0.0192"
+    ],
+    "thyroid_spatial": [
+      "hla_ii_apc:g=30.190:FDR=0.022:Hashimoto thyroid spatial",
+      "mif_cd74_receptor_state:g=19.590:FDR=0.00271:Hashimoto thyroid spatial"
+    ],
+    "celiac_marker": [
+      "epithelial_like:hla_ii_apc:g=1.724:p=0.0279:marker-compartment",
+      "epithelial_like:mif_cd74_receptor_state:g=2.091:p=0.0164:marker-compartment"
+    ],
+    "mixscale_controller": [
+      "RFX5->gilt_lysosomal_apc:0.032:negFrac=0.33",
+      "RFX5->hla_ii_apc:-0.706:negFrac=0.75",
+      "RFX5->ifn_apc:-0.050:negFrac=0.67",
+      "RFX5->mif_cd74_receptor_state:-0.573:negFrac=0.75"
+    ],
+    "mixscale_readout": [
+      "IFNGR1->CIITA:-1.584:negFrac=1.00",
+      "IFNGR1->NLRC5:-1.425:negFrac=1.00",
+      "IFNGR2->CIITA:-1.552:negFrac=1.00",
+      "IFNGR2->NLRC5:-1.453:negFrac=1.00",
+      "JAK1->CIITA:-1.215:negFrac=1.00",
+      "JAK1->NLRC5:-0.692:negFrac=1.00",
+      "JAK2->CIITA:-1.162:negFrac=1.00",
+      "JAK2->NLRC5:-1.036:negFrac=1.00",
+      "STAT1->CIITA:-1.023:negFrac=1.00",
+      "STAT1->NLRC5:-1.214:negFrac=1.00"
+    ],
+    "opentargets": [],
+    "prior_art": [
+      "EuropePMC_log_penalty=3.966",
+      "ClinicalTrials_penalty=0.540",
+      "queries=11"
+    ],
+    "scoring_caveat": "Scores are rank-aggregation heuristics. They are designed to force transparent tradeoffs, not to estimate causal effect sizes."
+  },
+  "IFI30_GILT_lysosomal_feedback_effector": {
+    "direct_h5ad": [
+      "ibd_crohn_epithelial:mixscale_validated_ifng_readout:g=1.619:FDR=0.0872:Crohn disease:colon epithelial",
+      "ibd_crohn_myeloid:mixscale_validated_ifng_readout:g=2.115:FDR=0.0525:Crohn disease:colon myeloid",
+      "ibd_uc_myeloid:lysosomal_apc:g=1.660:FDR=0.0872:ulcerative colitis:colon myeloid",
+      "ibd_uc_myeloid:mixscale_validated_ifng_readout:g=3.271:FDR=0.025:ulcerative colitis:colon myeloid",
+      "t1d_ductal_cell:mixscale_validated_ifng_readout:g=1.952:FDR=0.0914:type 1 diabetes mellitus:pancreatic ductal cell"
+    ],
+    "ms_gse111972": [
+      "lysosomal_apc:g=0.947:FDR=0.0965"
+    ],
+    "thyroid_spatial": [
+      "lysosomal_apc:g=2.926:FDR=0.0888:Hashimoto thyroid spatial",
+      "mixscale_validated_ifng_readout:g=19.687:FDR=0.00169:Hashimoto thyroid spatial"
+    ],
+    "celiac_marker": [],
+    "mixscale_controller": [],
+    "mixscale_readout": [
+      "IFNGR1->IFI30:-1.335:negFrac=1.00",
+      "IFNGR2->IFI30:-1.295:negFrac=1.00",
+      "JAK1->IFI30:-0.981:negFrac=1.00",
+      "JAK2->IFI30:-1.344:negFrac=1.00",
+      "STAT1->IFI30:-1.039:negFrac=1.00"
+    ],
+    "opentargets": [
+      "MS:IFI30:genetic=0.484:overall=0.299"
+    ],
+    "prior_art": [
+      "EuropePMC_log_penalty=3.411",
+      "ClinicalTrials_penalty=0.180",
+      "queries=9"
+    ],
+    "scoring_caveat": "Scores are rank-aggregation heuristics. They are designed to force transparent tradeoffs, not to estimate causal effect sizes."
+  },
+  "CTSS_cathepsinS_lysosomal_effector": {
+    "direct_h5ad": [
+      "ibd_crohn_epithelial:mixscale_validated_ifng_readout:g=1.619:FDR=0.0872:Crohn disease:colon epithelial",
+      "ibd_crohn_myeloid:mixscale_validated_ifng_readout:g=2.115:FDR=0.0525:Crohn disease:colon myeloid",
+      "ibd_uc_myeloid:lysosomal_apc:g=1.660:FDR=0.0872:ulcerative colitis:colon myeloid",
+      "ibd_uc_myeloid:mixscale_validated_ifng_readout:g=3.271:FDR=0.025:ulcerative colitis:colon myeloid",
+      "t1d_ductal_cell:mixscale_validated_ifng_readout:g=1.952:FDR=0.0914:type 1 diabetes mellitus:pancreatic ductal cell"
+    ],
+    "ms_gse111972": [
+      "lysosomal_apc:g=0.947:FDR=0.0965"
+    ],
+    "thyroid_spatial": [
+      "lysosomal_apc:g=2.926:FDR=0.0888:Hashimoto thyroid spatial",
+      "mixscale_validated_ifng_readout:g=19.687:FDR=0.00169:Hashimoto thyroid spatial"
+    ],
+    "celiac_marker": [],
+    "mixscale_controller": [],
+    "mixscale_readout": [
+      "IFNGR1->CTSS:-1.442:negFrac=1.00",
+      "IFNGR2->CTSS:-1.474:negFrac=1.00",
+      "JAK1->CTSS:-1.008:negFrac=1.00",
+      "JAK2->CTSS:-1.153:negFrac=1.00",
+      "STAT1->CTSS:-1.221:negFrac=1.00"
+    ],
+    "opentargets": [
+      "celiac:CTSS:genetic=0.000:overall=0.051"
+    ],
+    "prior_art": [
+      "EuropePMC_log_penalty=3.429",
+      "ClinicalTrials_penalty=1.800",
+      "queries=12"
+    ],
+    "scoring_caveat": "Scores are rank-aggregation heuristics. They are designed to force transparent tradeoffs, not to estimate causal effect sizes."
+  },
+  "CD74_HLAII_receptor_APC_state_biomarker": {
+    "direct_h5ad": [
+      "ibd_crohn_epithelial:mif_cd74_receptor_state:g=1.589:FDR=0.0879:Crohn disease:colon epithelial",
+      "ibd_uc_epithelial:hla_ii_apc:g=1.572:FDR=0.0872:ulcerative colitis:colon epithelial",
+      "ibd_uc_epithelial:mif_cd74_receptor_state:g=1.880:FDR=0.0599:ulcerative colitis:colon epithelial",
+      "ibd_uc_myeloid:mif_cd74_receptor_state:g=1.652:FDR=0.0914:ulcerative colitis:colon myeloid",
+      "sjogren_gland_epithelial:hla_ii_apc:g=1.034:FDR=0.0914:Sjogren syndrome:salivary gland epithelial",
+      "sjogren_gland_epithelial:mif_cd74_receptor_state:g=1.075:FDR=0.0914:Sjogren syndrome:salivary gland epithelial",
+      "t1d_ductal_cell:hla_ii_apc:g=1.377:FDR=0.0897:type 1 diabetes mellitus:pancreatic ductal cell",
+      "t1d_ductal_cell:mif_cd74_receptor_state:g=1.142:FDR=0.0525:type 1 diabetes mellitus:pancreatic ductal cell"
+    ],
+    "ms_gse111972": [
+      "mif_cd74_receptor_state:g=1.341:FDR=0.0192"
+    ],
+    "thyroid_spatial": [
+      "hla_ii_apc:g=30.190:FDR=0.022:Hashimoto thyroid spatial",
+      "mif_cd74_receptor_state:g=19.590:FDR=0.00271:Hashimoto thyroid spatial"
+    ],
+    "celiac_marker": [
+      "epithelial_like:hla_ii_apc:g=1.724:p=0.0279:marker-compartment",
+      "epithelial_like:mif_cd74_receptor_state:g=2.091:p=0.0164:marker-compartment"
+    ],
+    "mixscale_controller": [
+      "IFNGR1->gilt_lysosomal_apc:-0.266:negFrac=0.83",
+      "JAK2->gilt_lysosomal_apc:-0.238:negFrac=0.83",
+      "IFNGR2->gilt_lysosomal_apc:-0.235:negFrac=1.00",
+      "JAK1->gilt_lysosomal_apc:-0.201:negFrac=1.00",
+      "STAT1->gilt_lysosomal_apc:-0.181:negFrac=1.00",
+      "RFX5->gilt_lysosomal_apc:0.032:negFrac=0.33",
+      "IFNGR1->hla_ii_apc:-1.605:negFrac=1.00",
+      "IFNGR2->hla_ii_apc:-1.546:negFrac=1.00",
+      "JAK2->hla_ii_apc:-1.251:negFrac=1.00",
+      "JAK1->hla_ii_apc:-1.214:negFrac=1.00",
+      "STAT1->hla_ii_apc:-1.107:negFrac=1.00",
+      "RFX5->hla_ii_apc:-0.706:negFrac=0.75",
+      "IFNGR1->ifn_apc:-1.492:negFrac=1.00",
+      "IFNGR2->ifn_apc:-1.451:negFrac=1.00",
+      "STAT1->ifn_apc:-1.253:negFrac=1.00",
+      "JAK2->ifn_apc:-1.149:negFrac=1.00",
+      "JAK1->ifn_apc:-0.877:negFrac=1.00",
+      "RFX5->ifn_apc:-0.050:negFrac=0.67",
+      "RFX5->mif_cd74_receptor_state:-0.573:negFrac=0.75",
+      "IFNGR1->mif_cd74_receptor_state:-0.534:negFrac=1.00",
+      "IFNGR2->mif_cd74_receptor_state:-0.515:negFrac=0.75",
+      "JAK2->mif_cd74_receptor_state:-0.449:negFrac=1.00",
+      "JAK1->mif_cd74_receptor_state:-0.317:negFrac=0.75",
+      "STAT1->mif_cd74_receptor_state:-0.282:negFrac=0.75"
+    ],
+    "mixscale_readout": [
+      "IFNGR1->CD44:0.217:negFrac=0.25",
+      "IFNGR1->CD74:-1.691:negFrac=1.00",
+      "IFNGR2->CD44:0.094:negFrac=0.00",
+      "IFNGR2->CD74:-1.553:negFrac=1.00",
+      "JAK1->CD44:0.108:negFrac=0.00",
+      "JAK1->CD74:-1.020:negFrac=1.00",
+      "JAK2->CD44:0.140:negFrac=0.25",
+      "JAK2->CD74:-1.380:negFrac=1.00",
+      "STAT1->CD44:0.151:negFrac=0.00",
+      "STAT1->CD74:-1.001:negFrac=1.00"
+    ],
+    "opentargets": [
+      "AS:CD74:genetic=0.000:overall=0.021"
+    ],
+    "prior_art": [
+      "EuropePMC_log_penalty=3.452",
+      "ClinicalTrials_penalty=2.520",
+      "queries=9"
+    ],
+    "scoring_caveat": "Scores are rank-aggregation heuristics. They are designed to force transparent tradeoffs, not to estimate causal effect sizes."
+  }
+}

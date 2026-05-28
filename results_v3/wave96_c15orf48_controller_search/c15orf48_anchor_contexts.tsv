@@ -1,0 +1,18 @@
+analysis	disease_name	compartment	role	c15_delta_log2_cpm	c15_hedges_g	c15_p	c15_fdr	c15_anchor_strict	c15_anchor_trend	c15_anchor_fdr10
+ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	3.8815724931805544	2.769099615621702	0.0006135142886959	0.084811487980697	True	True	True
+ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	4.446094548919012	3.847759567355839	2.9480144785423246e-05	0.0287473526150427	True	True	True
+ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	-0.1505773939189776	-0.3434517055460694	0.5360754977178109	0.7582795750034089	False	False	False
+ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	-0.5225009732927539	-0.8301452089650196	0.165508026928717	0.5070960328575178	False	False	False
+ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	1.9254757333574384	0.7219127643791762	0.227174142704232	0.72652862619561	False	False	False
+ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	1.2311289634937392	0.7360918441442662	0.2109280927257035	0.6101556791049706	False	False	False
+psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	-0.4693652155538608	-0.3466510038883585	0.6258297057769004	0.8863585895297242	False	False	False
+psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	-1.3953822292508071	-0.6489518363474329	0.3863397119115232	0.6796008793691151	False	False	False
+psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	0.0431242897032577	0.0669742486941848	0.9246715890079404	0.9773302113659676	False	False	False
+sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	0.6006238207308918	0.64471453240683	0.0964145479568358	0.941417255008202	False	True	False
+sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	0.651159326688751	0.4064400123869389	0.3166056452956435	0.8441184433525579	False	False	False
+sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	0.476068296403747	0.3979900689196039	0.3632007899145169	0.8977501225891201	False	False	False
+t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	0.8197640443425547	1.0700803859164902	0.2551398566301295	0.8365891046684474	False	False	False
+t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	1.6036534888155112	0.9029928950290896	0.0901157137204279	0.5095768187996199	False	True	False
+t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	1.4920622946127595	0.9238426209485474	0.0972956322227546	0.603627784518603	False	True	False
+t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	3.093471529702463	1.6156827888092162	0.0154343048339554	0.3164364198714402	True	True	False
+t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	3.2089257678507717	1.5142067384236677	0.0013719310891858	0.1204697420210957	True	True	False

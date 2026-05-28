@@ -1,0 +1,129 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ACXCL1%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "10095777",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Has chemotactic activity for neutrophils. May play a role in inflammation and exerts its effects on endothelial cells in an autocrine fashion. In vitro, the processed forms GRO-alpha(4-73), GRO-alpha(5-73) and GRO-alpha(6-73) show a 30-fold higher chemotactic activity"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000047AA6"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "CXCL1"
+          },
+          "synonyms": [
+            {
+              "value": "GRO"
+            },
+            {
+              "value": "GRO1"
+            },
+            {
+              "value": "GROA"
+            },
+            {
+              "value": "MGSA"
+            },
+            {
+              "value": "SCYB1"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P09341",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "C-X-C motif chemokine 1"
+            }
+          },
+          {
+            "fullName": {
+              "value": "GRO-alpha(1-73)"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Melanoma growth stimulatory activity"
+            },
+            "shortNames": [
+              {
+                "value": "MGSA"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Neutrophil-activating protein 3"
+            },
+            "shortNames": [
+              {
+                "value": "NAP-3"
+              }
+            ]
+          }
+        ],
+        "contains": [
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "GRO-alpha(4-73)"
+              }
+            }
+          },
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "GRO-alpha(5-73)"
+              }
+            }
+          },
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "GRO-alpha(6-73)"
+              }
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "Growth-regulated alpha protein"
+          }
+        }
+      }
+    }
+  ]
+}

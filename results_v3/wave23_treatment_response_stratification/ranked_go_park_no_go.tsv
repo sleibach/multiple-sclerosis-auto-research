@@ -1,0 +1,16 @@
+rank	call	dataset	therapy_class	therapy	evidence_type	best_module	best_scope	effect_size	delta	p	fdr	n	generic_adjusted_p	generic_max_abs_r	reason
+1	PARK	GSE138746	anti-TNF	adalimumab/etanercept	baseline_response	ifn_apc	compartment=CD4_T_cell;drug=adalimumab	0.9132196701158987	0.5856616508028629	0.0076281896179902844	0.06865370656191257	19R/18NR	0.024350052665938964	0.5073774865152948	nominal baseline association only; generic_inflammation_module_not_stratum_specific
+2	PARK	GSE183047	IL-17/IL-23	secukinumab	pharmacodynamic_only	lysosomal_apc	marker_compartment=myeloid_apc_like		-0.18084907747889126	0.022104364737203838	0.19893928263483454	4 pairs			post-treatment-only signal; cannot support baseline patient stratification
+3	PARK	GSE171012	IL-17/IL-23	secukinumab	metadata_only										public_metadata_pd_only_not_analyzed
+4	PARK	GSE228330	anti-CD20	ocrelizumab	metadata_only										public_metadata_pd_only_not_analyzed
+5	PARK	GSE261334	integrin	vedolizumab	metadata_only										public_metadata_parked
+6	PARK	GSE296117	anti-TNF/JAK	TNF-alpha/JAK inhibitor	metadata_only										public_metadata_heavy_controlled_parked
+7	NO_GO	GSE24742	anti-CD20	rituximab	baseline_response	lipid_loader_repair	response_scope=good_moderate_vs_poor	-3.558694480566952	-1.301040860309958	0.022137186664144673	0.10988622875726552	9R/3NR	0.00026224664748004256	0.4722145384050982	no usable baseline stratification signal; too_underpowered_for_effect_size_claim
+8	NO_GO	GSE106992	anti-TNF/IL-17/IL-23	etanercept/ustekinumab	baseline_response	hif_nampt_metabolic	therapy=etanercept	-0.6793915486588534	-0.383792637597722	0.05958895553190236	0.41839725530166433	21R/14NR	0.03274473098780453	0.6087520820617539	no usable baseline stratification signal; not_corrected_significant
+9	NO_GO	GSE253006	JAK/TYK	tofacitinib	baseline_response	lipid_loader_repair	marker_compartment=stromal_endothelial_like	-0.8631989686065908	-0.05246910595364038	0.12910053048073925	0.6744174419004436	4R/6NR	0.32096773449954064	0.21875575220428692	no usable baseline stratification signal; too_underpowered_for_effect_size_claim
+10	NO_GO	GSE250453	S1P	fingolimod	baseline_response	ifn_apc	contrast=R_vs_NR	-0.8069301280235005	-0.49741152575417913	0.19933726998356027	0.9969987912762708	5R/5NR	0.16243616417746484	0.29626277249331673	no usable baseline stratification signal; not_corrected_significant
+11	NO_GO	GSE235357	fumarate	dimethyl fumarate	baseline_response	hif_nampt_metabolic	contrast=R_vs_NR	-0.6883510281799224	-0.45800128801976603	0.26560204421430644	0.6740806891877343	5R/5NR	0.6281821354819829	0.8131882896008042	no usable baseline stratification signal; not_corrected_significant
+12	NO_GO	GSE106992	anti-TNF	etanercept	metadata_only										analyzed_public_bulk
+13	NO_GO	GSE106992	IL-17/IL-23	ustekinumab	metadata_only										analyzed_public_bulk
+14	NO_GO	GSE73661	anti-TNF	infliximab	metadata_only										analyzed_public_bulk
+15	NO_GO	GSE73661	integrin	vedolizumab	metadata_only										analyzed_public_bulk

@@ -1,0 +1,793 @@
+{
+  "json": {
+    "esearchresult": {
+      "count": "131",
+      "idlist": [
+        "41904951",
+        "41899479",
+        "41873761",
+        "41841563",
+        "41828687"
+      ],
+      "querytranslation": "\"RIC\"[All Fields] AND (\"knockdown\"[All Fields] OR \"knockdowned\"[All Fields] OR \"knockdowns\"[All Fields] OR (\"knockout\"[All Fields] OR \"knockouts\"[All Fields]) OR \"knock-out\"[All Fields] OR (\"clustered regularly interspaced short palindromic repeats\"[MeSH Terms] OR (\"clustered\"[All Fields] AND \"regularly\"[All Fields] AND \"interspaced\"[All Fields] AND \"short\"[All Fields] AND \"palindromic\"[All Fields] AND \"repeats\"[All Fields]) OR \"clustered regularly interspaced short palindromic repeats\"[All Fields] OR \"crispr\"[All Fields] OR \"crisprs\"[All Fields]) OR (\"rna small interfering\"[Supplementary Concept] OR \"rna small interfering\"[All Fields] OR \"sirna\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR (\"rna\"[All Fields] AND \"small\"[All Fields] AND \"interfering\"[All Fields]) OR \"small interfering rna\"[All Fields] OR \"sirna s\"[All Fields] OR \"sirnas\"[All Fields]) OR (\"rna small interfering\"[Supplementary Concept] OR \"rna small interfering\"[All Fields] OR \"shrna\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR (\"rna\"[All Fields] AND \"small\"[All Fields] AND \"interfering\"[All Fields]) OR \"small interfering rna\"[All Fields] OR \"shrnas\"[All Fields]) OR (\"overexpress\"[All Fields] OR \"overexpressed\"[All Fields] OR \"overexpresser\"[All Fields] OR \"overexpressers\"[All Fields] OR \"overexpresses\"[All Fields] OR \"overexpressing\"[All Fields] OR \"overexpression\"[All Fields] OR \"overexpressions\"[All Fields]) OR (\"perturb\"[All Fields] OR \"perturbance\"[All Fields] OR \"perturbances\"[All Fields] OR \"perturbant\"[All Fields] OR \"perturbants\"[All Fields] OR \"perturbated\"[All Fields] OR \"perturbation\"[All Fields] OR \"perturbational\"[All Fields] OR \"perturbations\"[All Fields] OR \"perturbative\"[All Fields] OR \"perturbatively\"[All Fields] OR \"perturbed\"[All Fields] OR \"perturbing\"[All Fields] OR \"perturbs\"[All Fields]))",
+      "retmax": "5",
+      "retstart": "0",
+      "translationset": [
+        {
+          "from": "knockdown",
+          "to": "\"knockdown\"[All Fields] OR \"knockdowned\"[All Fields] OR \"knockdowns\"[All Fields]"
+        },
+        {
+          "from": "knockout",
+          "to": "\"knockout\"[All Fields] OR \"knockouts\"[All Fields]"
+        },
+        {
+          "from": "CRISPR",
+          "to": "\"clustered regularly interspaced short palindromic repeats\"[MeSH Terms] OR (\"clustered\"[All Fields] AND \"regularly\"[All Fields] AND \"interspaced\"[All Fields] AND \"short\"[All Fields] AND \"palindromic\"[All Fields] AND \"repeats\"[All Fields]) OR \"clustered regularly interspaced short palindromic repeats\"[All Fields] OR \"crispr\"[All Fields] OR \"crisprs\"[All Fields]"
+        },
+        {
+          "from": "siRNA",
+          "to": "\"rna, small interfering\"[Supplementary Concept] OR \"rna, small interfering\"[All Fields] OR \"sirna\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR (\"rna\"[All Fields] AND \"small\"[All Fields] AND \"interfering\"[All Fields]) OR \"small interfering rna\"[All Fields] OR \"sirna's\"[All Fields] OR \"sirnas\"[All Fields]"
+        },
+        {
+          "from": "shRNA",
+          "to": "\"rna, small interfering\"[Supplementary Concept] OR \"rna, small interfering\"[All Fields] OR \"shrna\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR (\"rna\"[All Fields] AND \"small\"[All Fields] AND \"interfering\"[All Fields]) OR \"small interfering rna\"[All Fields] OR \"shrnas\"[All Fields]"
+        },
+        {
+          "from": "overexpression",
+          "to": "\"overexpress\"[All Fields] OR \"overexpressed\"[All Fields] OR \"overexpresser\"[All Fields] OR \"overexpressers\"[All Fields] OR \"overexpresses\"[All Fields] OR \"overexpressing\"[All Fields] OR \"overexpression\"[All Fields] OR \"overexpressions\"[All Fields]"
+        },
+        {
+          "from": "perturbation",
+          "to": "\"perturb\"[All Fields] OR \"perturbance\"[All Fields] OR \"perturbances\"[All Fields] OR \"perturbant\"[All Fields] OR \"perturbants\"[All Fields] OR \"perturbated\"[All Fields] OR \"perturbation\"[All Fields] OR \"perturbational\"[All Fields] OR \"perturbations\"[All Fields] OR \"perturbative\"[All Fields] OR \"perturbatively\"[All Fields] OR \"perturbed\"[All Fields] OR \"perturbing\"[All Fields] OR \"perturbs\"[All Fields]"
+        }
+      ]
+    },
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    }
+  },
+  "status": 200,
+  "summary_json": {
+    "header": {
+      "type": "esummary",
+      "version": "0.3"
+    },
+    "result": {
+      "41828687": {
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "41828687"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC12986076"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC12986076;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.3390/ijms27052474"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "ijms27052474"
+          }
+        ],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "authors": [
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Galliano I"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Sorgato P"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Calvi C"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Pavan M"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Pau A"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Massobrio A"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Albiani R"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Linari C"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Geranzani A"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Clemente A"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Montanari P"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Gambarino S"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Licciardi F"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Bergallo M"
+          }
+        ],
+        "availablefromurl": "",
+        "bookname": "",
+        "booktitle": "",
+        "chapter": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "doctype": "citation",
+        "edition": "",
+        "elocationid": "doi: 10.3390/ijms27052474",
+        "epubdate": "2026 Mar 7",
+        "essn": "1422-0067",
+        "fulljournalname": "International journal of molecular sciences",
+        "history": [
+          {
+            "date": "2026/01/29 00:00",
+            "pubstatus": "received"
+          },
+          {
+            "date": "2026/02/26 00:00",
+            "pubstatus": "revised"
+          },
+          {
+            "date": "2026/03/05 00:00",
+            "pubstatus": "accepted"
+          },
+          {
+            "date": "2026/03/14 06:32",
+            "pubstatus": "medline"
+          },
+          {
+            "date": "2026/03/14 06:31",
+            "pubstatus": "pubmed"
+          },
+          {
+            "date": "2026/03/14 01:06",
+            "pubstatus": "entrez"
+          },
+          {
+            "date": "2026/03/07 00:00",
+            "pubstatus": "pmc-release"
+          }
+        ],
+        "issn": "",
+        "issue": "5",
+        "lang": [
+          "eng"
+        ],
+        "lastauthor": "Bergallo M",
+        "locationlabel": "",
+        "medium": "",
+        "nlmuniqueid": "101092791",
+        "pages": "",
+        "pmcrefcount": 35,
+        "pubdate": "2026 Mar 7",
+        "publisherlocation": "",
+        "publishername": "",
+        "pubstatus": "3",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "references": [],
+        "reportnumber": "",
+        "sortfirstauthor": "Galliano I",
+        "sortpubdate": "2026/03/07 00:00",
+        "sorttitle": "one step multiplex pcr reveals selective activation of immunostimulatory human endogenous retroviruses and epigenetic imbalance in systemic lupus erythematosus",
+        "source": "Int J Mol Sci",
+        "srccontriblist": [],
+        "srcdate": "",
+        "title": "One-Step Multiplex PCR Reveals Selective Activation of Immunostimulatory Human Endogenous Retroviruses and Epigenetic Imbalance in Systemic Lupus Erythematosus.",
+        "uid": "41828687",
+        "vernaculartitle": "",
+        "volume": "27"
+      },
+      "41841563": {
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "41841563"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1002/advs.202520059"
+          }
+        ],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "authors": [
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Li X"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Hu X"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Wu J"
+          }
+        ],
+        "availablefromurl": "",
+        "bookname": "",
+        "booktitle": "",
+        "chapter": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "doctype": "citation",
+        "edition": "",
+        "elocationid": "doi: 10.1002/advs.202520059",
+        "epubdate": "2026 Mar 17",
+        "essn": "2198-3844",
+        "fulljournalname": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+        "history": [
+          {
+            "date": "2026/03/09 00:00",
+            "pubstatus": "revised"
+          },
+          {
+            "date": "2025/10/10 00:00",
+            "pubstatus": "received"
+          },
+          {
+            "date": "2026/03/10 00:00",
+            "pubstatus": "accepted"
+          },
+          {
+            "date": "2026/03/17 14:25",
+            "pubstatus": "pubmed"
+          },
+          {
+            "date": "2026/03/17 14:25",
+            "pubstatus": "medline"
+          },
+          {
+            "date": "2026/03/17 07:42",
+            "pubstatus": "entrez"
+          }
+        ],
+        "issn": "",
+        "issue": "",
+        "lang": [
+          "eng"
+        ],
+        "lastauthor": "Wu J",
+        "locationlabel": "",
+        "medium": "",
+        "nlmuniqueid": "101664569",
+        "pages": "e20059",
+        "pmcrefcount": "",
+        "pubdate": "2026 Mar 17",
+        "publisherlocation": "",
+        "publishername": "",
+        "pubstatus": "10",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - as supplied by publisher",
+        "references": [],
+        "reportnumber": "",
+        "sortfirstauthor": "Li X",
+        "sortpubdate": "2026/03/17 00:00",
+        "sorttitle": "n4 acetylcytidine in lncrna gm26917 promotes translation in female germline stem cells by recruiting ribosomal protein mrna via eef1a1",
+        "source": "Adv Sci (Weinh)",
+        "srccontriblist": [],
+        "srcdate": "",
+        "title": "N4-acetylcytidine in LncRNA Gm26917 Promotes Translation in Female Germline Stem Cells by Recruiting Ribosomal Protein mRNA via EEF1A1.",
+        "uid": "41841563",
+        "vernaculartitle": "",
+        "volume": ""
+      },
+      "41873761": {
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "41873761"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC13010136"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC13010136;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1093/nar/gkag247"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "8539532"
+          }
+        ],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "authors": [
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Cozzaglio M"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Dal Ponte N"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Rotondo M"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Biondi B"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Rigo R"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Spolaore B"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Sissi C"
+          }
+        ],
+        "availablefromurl": "",
+        "bookname": "",
+        "booktitle": "",
+        "chapter": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "doctype": "citation",
+        "edition": "",
+        "elocationid": "doi: 10.1093/nar/gkag247",
+        "epubdate": "",
+        "essn": "1362-4962",
+        "fulljournalname": "Nucleic acids research",
+        "history": [
+          {
+            "date": "2025/03/11 00:00",
+            "pubstatus": "received"
+          },
+          {
+            "date": "2026/02/25 00:00",
+            "pubstatus": "revised"
+          },
+          {
+            "date": "2026/03/01 00:00",
+            "pubstatus": "accepted"
+          },
+          {
+            "date": "2026/03/24 12:38",
+            "pubstatus": "medline"
+          },
+          {
+            "date": "2026/03/24 12:37",
+            "pubstatus": "pubmed"
+          },
+          {
+            "date": "2026/03/24 07:04",
+            "pubstatus": "entrez"
+          },
+          {
+            "date": "2026/03/24 00:00",
+            "pubstatus": "pmc-release"
+          }
+        ],
+        "issn": "0305-1048",
+        "issue": "6",
+        "lang": [
+          "eng"
+        ],
+        "lastauthor": "Sissi C",
+        "locationlabel": "",
+        "medium": "",
+        "nlmuniqueid": "0411011",
+        "pages": "",
+        "pmcrefcount": 72,
+        "pubdate": "2026 Mar 19",
+        "publisherlocation": "",
+        "publishername": "",
+        "pubstatus": "4",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - indexed for MEDLINE",
+        "references": [],
+        "reportnumber": "",
+        "sortfirstauthor": "Cozzaglio M",
+        "sortpubdate": "2026/03/19 00:00",
+        "sorttitle": "unraveling the molecular mechanisms of vimentin interaction with g quadruplex repeats",
+        "source": "Nucleic Acids Res",
+        "srccontriblist": [],
+        "srcdate": "",
+        "title": "Unraveling the molecular mechanisms of vimentin interaction with G-quadruplex repeats.",
+        "uid": "41873761",
+        "vernaculartitle": "",
+        "volume": "54"
+      },
+      "41899479": {
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "41899479"
+          },
+          {
+            "idtype": "pmc",
+            "idtypen": 8,
+            "value": "PMC13025562"
+          },
+          {
+            "idtype": "pmcid",
+            "idtypen": 5,
+            "value": "pmc-id: PMC13025562;"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.3390/cimb48030328"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "cimb48030328"
+          }
+        ],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "authors": [
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Galliano I"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Tovo PA"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Calvi C"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Pau A"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Clemente A"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Montanari P"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Gambarino S"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Mussa A"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Bergallo M"
+          }
+        ],
+        "availablefromurl": "",
+        "bookname": "",
+        "booktitle": "",
+        "chapter": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "doctype": "citation",
+        "edition": "",
+        "elocationid": "doi: 10.3390/cimb48030328",
+        "epubdate": "2026 Mar 19",
+        "essn": "1467-3045",
+        "fulljournalname": "Current issues in molecular biology",
+        "history": [
+          {
+            "date": "2026/01/29 00:00",
+            "pubstatus": "received"
+          },
+          {
+            "date": "2026/02/23 00:00",
+            "pubstatus": "revised"
+          },
+          {
+            "date": "2026/03/16 00:00",
+            "pubstatus": "accepted"
+          },
+          {
+            "date": "2026/03/28 06:41",
+            "pubstatus": "medline"
+          },
+          {
+            "date": "2026/03/28 06:40",
+            "pubstatus": "pubmed"
+          },
+          {
+            "date": "2026/03/28 01:25",
+            "pubstatus": "entrez"
+          },
+          {
+            "date": "2026/03/19 00:00",
+            "pubstatus": "pmc-release"
+          }
+        ],
+        "issn": "1467-3037",
+        "issue": "3",
+        "lang": [
+          "eng"
+        ],
+        "lastauthor": "Bergallo M",
+        "locationlabel": "",
+        "medium": "",
+        "nlmuniqueid": "100931761",
+        "pages": "",
+        "pmcrefcount": 44,
+        "pubdate": "2026 Mar 19",
+        "publisherlocation": "",
+        "publishername": "",
+        "pubstatus": "3",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed",
+        "references": [],
+        "reportnumber": "",
+        "sortfirstauthor": "Galliano I",
+        "sortpubdate": "2026/03/19 00:00",
+        "sorttitle": "human endogenous retroviruses and epigenetic regulators are dysregulated in beckwith wiedemann syndrome",
+        "source": "Curr Issues Mol Biol",
+        "srccontriblist": [],
+        "srcdate": "",
+        "title": "Human Endogenous Retroviruses and Epigenetic Regulators Are Dysregulated in Beckwith-Wiedemann Syndrome.",
+        "uid": "41899479",
+        "vernaculartitle": "",
+        "volume": "48"
+      },
+      "41904951": {
+        "articleids": [
+          {
+            "idtype": "pubmed",
+            "idtypen": 1,
+            "value": "41904951"
+          },
+          {
+            "idtype": "doi",
+            "idtypen": 3,
+            "value": "10.1016/j.celrep.2026.117174"
+          },
+          {
+            "idtype": "pii",
+            "idtypen": 4,
+            "value": "S2211-1247(26)00252-4"
+          }
+        ],
+        "attributes": [
+          "Has Abstract"
+        ],
+        "authors": [
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Iselin L"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Demyanenko Y"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Palmalux N"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Embarc Buh A"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Ruscica V"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Batyrbayeva Brown J"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Raut N"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Kamel W"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Simmonds P"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Mohammed S"
+          },
+          {
+            "authtype": "Author",
+            "clusterid": "",
+            "name": "Castello A"
+          }
+        ],
+        "availablefromurl": "",
+        "bookname": "",
+        "booktitle": "",
+        "chapter": "",
+        "doccontriblist": [],
+        "docdate": "",
+        "doctype": "citation",
+        "edition": "",
+        "elocationid": "doi: 10.1016/j.celrep.2026.117174",
+        "epubdate": "2026 Mar 28",
+        "essn": "2211-1247",
+        "fulljournalname": "Cell reports",
+        "history": [
+          {
+            "date": "2025/03/30 00:00",
+            "pubstatus": "received"
+          },
+          {
+            "date": "2025/12/24 00:00",
+            "pubstatus": "revised"
+          },
+          {
+            "date": "2026/03/04 00:00",
+            "pubstatus": "accepted"
+          },
+          {
+            "date": "2026/03/29 18:33",
+            "pubstatus": "medline"
+          },
+          {
+            "date": "2026/03/29 18:33",
+            "pubstatus": "pubmed"
+          },
+          {
+            "date": "2026/03/29 13:36",
+            "pubstatus": "entrez"
+          }
+        ],
+        "issn": "",
+        "issue": "4",
+        "lang": [
+          "eng"
+        ],
+        "lastauthor": "Castello A",
+        "locationlabel": "",
+        "medium": "",
+        "nlmuniqueid": "101573691",
+        "pages": "117174",
+        "pmcrefcount": "",
+        "pubdate": "2026 Mar 28",
+        "publisherlocation": "",
+        "publishername": "",
+        "pubstatus": "10",
+        "pubtype": [
+          "Journal Article"
+        ],
+        "recordstatus": "PubMed - as supplied by publisher",
+        "references": [],
+        "reportnumber": "",
+        "sortfirstauthor": "Iselin L",
+        "sortpubdate": "2026/03/28 00:00",
+        "sorttitle": "rna binding as an emerging regulatory dimension in the type i ifn response",
+        "source": "Cell Rep",
+        "srccontriblist": [],
+        "srcdate": "",
+        "title": "RNA binding as an emerging regulatory dimension in the type I IFN response.",
+        "uid": "41904951",
+        "vernaculartitle": "",
+        "volume": "45"
+      },
+      "uids": [
+        "41904951",
+        "41899479",
+        "41873761",
+        "41841563",
+        "41828687"
+      ]
+    }
+  },
+  "summary_status": 200,
+  "summary_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=41904951%2C41899479%2C41873761%2C41841563%2C41828687&retmode=json",
+  "text": null,
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=RIC%5BAll+Fields%5D+AND+%28knockdown+OR+knockout+OR+knock-out+OR+CRISPR+OR+siRNA+OR+shRNA+OR+overexpression+OR+perturbation%29&retmode=json&retmax=5"
+}

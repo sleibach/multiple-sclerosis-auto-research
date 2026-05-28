@@ -1,0 +1,999 @@
+{
+  "page_meta": {
+    "limit": 8,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 2
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Mus musculus",
+      "pref_name": "Phospholipid-transporting ATPase ABCA1",
+      "score": 19.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL1641361",
+      "target_components": [
+        {
+          "accession": "P41233",
+          "component_description": "Phospholipid-transporting ATPase ABCA1",
+          "component_id": 5406,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "7.6.2.1",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "Abc1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "ABC-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Abca1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "ATP-binding cassette 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ATP-binding cassette sub-family A member 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ATP-binding cassette transporter 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Phospholipid-transporting ATPase ABCA1",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P41233",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "GO:0005768",
+              "xref_name": "endosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005794",
+              "xref_name": "Golgi apparatus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009897",
+              "xref_name": "external side of plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009986",
+              "xref_name": "cell surface",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016323",
+              "xref_name": "basolateral plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0045121",
+              "xref_name": "membrane raft",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0048471",
+              "xref_name": "perinuclear region of cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005102",
+              "xref_name": "signaling receptor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005524",
+              "xref_name": "ATP binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008320",
+              "xref_name": "protein transmembrane transporter activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016887",
+              "xref_name": "ATP hydrolysis activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019905",
+              "xref_name": "syntaxin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0031210",
+              "xref_name": "phosphatidylcholine binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0031267",
+              "xref_name": "small GTPase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0034185",
+              "xref_name": "apolipoprotein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0034186",
+              "xref_name": "apolipoprotein A-I binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0034188",
+              "xref_name": "apolipoprotein A-I receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042626",
+              "xref_name": "ATPase-coupled transmembrane transporter activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0051117",
+              "xref_name": "ATPase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0140359",
+              "xref_name": "ABC-type transporter activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0002790",
+              "xref_name": "peptide secretion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006911",
+              "xref_name": "phagocytosis, engulfment",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007186",
+              "xref_name": "G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007189",
+              "xref_name": "adenylate cyclase-activating G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008203",
+              "xref_name": "cholesterol metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009306",
+              "xref_name": "protein secretion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010875",
+              "xref_name": "positive regulation of cholesterol efflux",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0015914",
+              "xref_name": "phospholipid transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016197",
+              "xref_name": "endosomal transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0023061",
+              "xref_name": "signal release",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030301",
+              "xref_name": "cholesterol transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032367",
+              "xref_name": "intracellular cholesterol transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032489",
+              "xref_name": "regulation of Cdc42 protein signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033344",
+              "xref_name": "cholesterol efflux",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033700",
+              "xref_name": "phospholipid efflux",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034380",
+              "xref_name": "high-density lipoprotein particle assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034616",
+              "xref_name": "response to laminar fluid shear stress",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0038027",
+              "xref_name": "apolipoprotein A-I-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042158",
+              "xref_name": "lipoprotein biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042632",
+              "xref_name": "cholesterol homeostasis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043691",
+              "xref_name": "reverse cholesterol transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045332",
+              "xref_name": "phospholipid translocation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0055085",
+              "xref_name": "transmembrane transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0055091",
+              "xref_name": "phospholipid homeostasis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071222",
+              "xref_name": "cellular response to lipopolysaccharide",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071300",
+              "xref_name": "cellular response to retinoic acid",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071397",
+              "xref_name": "cellular response to cholesterol",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071403",
+              "xref_name": "cellular response to high density lipoprotein particle stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071466",
+              "xref_name": "cellular response to xenobiotic stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071806",
+              "xref_name": "protein transmembrane transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0090108",
+              "xref_name": "positive regulation of high-density lipoprotein particle assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0099039",
+              "xref_name": "sphingolipid translocation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0140115",
+              "xref_name": "export across plasma membrane",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "P41233",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR003439",
+              "xref_name": "ABC_transporter-like_ATP-bd",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR003593",
+              "xref_name": "AAA+_ATPase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR013525",
+              "xref_name": "ABC2_TM",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR017871",
+              "xref_name": "ABC_transporter-like_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR026082",
+              "xref_name": "ABCA",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR027417",
+              "xref_name": "P-loop_NTPase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR056264",
+              "xref_name": "R2_ABCA1-4-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR19229",
+              "xref_name": "ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY A ABCA",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR19229:SF250",
+              "xref_name": "ABC TRANSPORTER DOMAIN-CONTAINING PROTEIN-RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00005",
+              "xref_name": "ABC_tran",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF12698",
+              "xref_name": "ABC2_membrane_3",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF23321",
+              "xref_name": "R1_ABCA1",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "R-MMU-8963896",
+              "xref_name": "HDL assembly",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-MMU-9029569",
+              "xref_name": "NR1H3 & NR1H2 regulate gene expression linked to cholesterol transport and efflux",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "B1AWZ8",
+              "xref_name": "Phospholipid-transporting ATPase ABCA1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P41233",
+              "xref_name": "Phospholipid-transporting ATPase ABCA1",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 10090
+    },
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Phospholipid-transporting ATPase ABCA1",
+      "score": 18.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL2362986",
+      "target_components": [
+        {
+          "accession": "O95477",
+          "component_description": "Phospholipid-transporting ATPase ABCA1",
+          "component_id": 7332,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "7.6.2.1",
+              "syn_type": "EC_NUMBER"
+            },
+            {
+              "component_synonym": "ABC-1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ABC1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "ABCA1",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "ATP-binding cassette 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ATP-binding cassette sub-family A member 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "ATP-binding cassette transporter 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CERP",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Cholesterol efflux regulatory protein",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Phospholipid-transporting ATPase ABCA1",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "O95477",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "O95477",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005768",
+              "xref_name": "endosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005789",
+              "xref_name": "endoplasmic reticulum membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005794",
+              "xref_name": "Golgi apparatus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009897",
+              "xref_name": "external side of plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009986",
+              "xref_name": "cell surface",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016323",
+              "xref_name": "basolateral plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0045121",
+              "xref_name": "membrane raft",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0048471",
+              "xref_name": "perinuclear region of cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005102",
+              "xref_name": "signaling receptor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005524",
+              "xref_name": "ATP binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008320",
+              "xref_name": "protein transmembrane transporter activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0015485",
+              "xref_name": "cholesterol binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016887",
+              "xref_name": "ATP hydrolysis activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019905",
+              "xref_name": "syntaxin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0031210",
+              "xref_name": "phosphatidylcholine binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0031267",
+              "xref_name": "small GTPase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0034185",
+              "xref_name": "apolipoprotein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0034186",
+              "xref_name": "apolipoprotein A-I binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0034188",
+              "xref_name": "apolipoprotein A-I receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042626",
+              "xref_name": "ATPase-coupled transmembrane transporter activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0051117",
+              "xref_name": "ATPase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0140359",
+              "xref_name": "ABC-type transporter activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0002790",
+              "xref_name": "peptide secretion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006869",
+              "xref_name": "lipid transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006911",
+              "xref_name": "phagocytosis, engulfment",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007186",
+              "xref_name": "G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007189",
+              "xref_name": "adenylate cyclase-activating G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008203",
+              "xref_name": "cholesterol metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009306",
+              "xref_name": "protein secretion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010745",
+              "xref_name": "negative regulation of macrophage derived foam cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010875",
+              "xref_name": "positive regulation of cholesterol efflux",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010887",
+              "xref_name": "negative regulation of cholesterol storage",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0015914",
+              "xref_name": "phospholipid transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016197",
+              "xref_name": "endosomal transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0023061",
+              "xref_name": "signal release",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030301",
+              "xref_name": "cholesterol transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032367",
+              "xref_name": "intracellular cholesterol transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032489",
+              "xref_name": "regulation of Cdc42 protein signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033344",
+              "xref_name": "cholesterol efflux",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033700",
+              "xref_name": "phospholipid efflux",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034380",
+              "xref_name": "high-density lipoprotein particle assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034616",
+              "xref_name": "response to laminar fluid shear stress",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0038027",
+              "xref_name": "apolipoprotein A-I-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042158",
+              "xref_name": "lipoprotein biosynthetic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042632",
+              "xref_name": "cholesterol homeostasis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043691",
+              "xref_name": "reverse cholesterol transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045332",
+              "xref_name": "phospholipid translocation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0055085",
+              "xref_name": "transmembrane transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0055091",
+              "xref_name": "phospholipid homeostasis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071222",
+              "xref_name": "cellular response to lipopolysaccharide",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071300",
+              "xref_name": "cellular response to retinoic acid",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071397",
+              "xref_name": "cellular response to cholesterol",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071404",
+              "xref_name": "cellular response to low-density lipoprotein particle stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071466",
+              "xref_name": "cellular response to xenobiotic stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071806",
+              "xref_name": "protein transmembrane transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0090107",
+              "xref_name": "regulation of high-density lipoprotein particle assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0090108",
+              "xref_name": "positive regulation of high-density lipoprotein particle assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0099039",
+              "xref_name": "sphingolipid translocation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0140115",
+              "xref_name": "export across plasma membrane",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:29",
+              "xref_name": "ABCA1",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "O95477",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR003439",
+              "xref_name": "ABC_transporter-like_ATP-bd",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR003593",
+              "xref_name": "AAA+_ATPase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR013525",
+              "xref_name": "ABC2_TM",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR017871",
+              "xref_name": "ABC_transporter-like_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR026082",
+              "xref_name": "ABCA",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR027417",
+              "xref_name": "P-loop_NTPase",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR056264",
+              "xref_name": "R2_ABCA1-4-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR19229",
+              "xref_name": "ATP-BINDING CASSETTE TRANSPORTER SUBFAMILY A ABCA",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR19229:SF250",
+              "xref_name": "ABC TRANSPORTER DOMAIN-CONTAINING PROTEIN-RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "5XJY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7ROQ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7TBW",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7TBY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7TBZ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7TC0",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "7TDT",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "PF00005",
+              "xref_name": "ABC_tran",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF12698",
+              "xref_name": "ABC2_membrane_3",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF23321",
+              "xref_name": "R1_ABCA1",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA24373",
+              "xref_name": "ATP binding cassette subfamily A member 1",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "O95477",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-1989781",
+              "xref_name": "PPARA activates gene expression",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-5682113",
+              "xref_name": "Defective ABCA1 causes TGD",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-8963896",
+              "xref_name": "HDL assembly",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9029569",
+              "xref_name": "NR1H3 & NR1H2 regulate gene expression linked to cholesterol transport and efflux",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "O95477",
+              "xref_name": "Phospholipid-transporting ATPase ABCA1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q5VX33",
+              "xref_name": "Phospholipid-transporting ATPase ABCA1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q96S56",
+              "xref_name": "Phospholipid-transporting ATPase ABCA1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q96T85",
+              "xref_name": "Phospholipid-transporting ATPase ABCA1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9NQV4",
+              "xref_name": "Phospholipid-transporting ATPase ABCA1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UN06",
+              "xref_name": "Phospholipid-transporting ATPase ABCA1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UN07",
+              "xref_name": "Phospholipid-transporting ATPase ABCA1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UN08",
+              "xref_name": "Phospholipid-transporting ATPase ABCA1",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UN09",
+              "xref_name": "Phospholipid-transporting ATPase ABCA1",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

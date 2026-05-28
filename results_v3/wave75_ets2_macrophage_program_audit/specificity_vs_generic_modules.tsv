@@ -1,0 +1,52 @@
+analysis	disease_name	compartment	role	candidate_module	candidate_effect	max_generic_comparator_effect	specificity_margin	specificity_pass
+ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	ets2_macrophage_program	0.6776525692429041	1.4475546770665444	-0.7699021078236403	False
+ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	ap1_ets_immediate_early	0.33059495265064087	1.4475546770665444	-1.1169597244159035	False
+ibd_crohn_epithelial	Crohn disease	colon epithelial	tissue_resident	ets2_direct	0.3055460239424237	1.4475546770665444	-1.1420086531241207	False
+ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	ets2_macrophage_program	1.4043956445991592	1.630948999020061	-0.22655335442090174	False
+ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	ap1_ets_immediate_early	-0.1831582207835989	1.630948999020061	-1.8141072198036599	False
+ibd_crohn_myeloid	Crohn disease	colon myeloid	myeloid_apc	ets2_direct	1.5189707271616737	1.630948999020061	-0.11197827185838727	False
+ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	ets2_macrophage_program	1.001719193190663	1.2042345466763171	-0.20251535348565408	False
+ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	ap1_ets_immediate_early	-0.13273665576771954	1.2042345466763171	-1.3369712024440368	False
+ibd_crohn_stromal	Crohn disease	colon stromal	tissue_resident	ets2_direct	0.174825800682389	1.2042345466763171	-1.029408745993928	False
+ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	ets2_macrophage_program	0.7566370251019459	1.5211656701528367	-0.7645286450508908	False
+ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	ap1_ets_immediate_early	-0.2010623140852098	1.5211656701528367	-1.7222279842380463	False
+ibd_uc_epithelial	ulcerative colitis	colon epithelial	tissue_resident	ets2_direct	0.6927803548861098	1.5211656701528367	-0.8283853152667269	False
+ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	ets2_macrophage_program	1.4160505168494166	1.6406067611682977	-0.2245562443188811	False
+ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	ap1_ets_immediate_early	-0.5219693449670467	1.6406067611682977	-2.1625761061353446	False
+ibd_uc_myeloid	ulcerative colitis	colon myeloid	myeloid_apc	ets2_direct	1.972336498380402	1.6406067611682977	0.3317297372121042	True
+ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	ets2_macrophage_program	0.7898522191901001	0.8598656130854461	-0.070013393895346	False
+ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	ap1_ets_immediate_early	-0.6411555856129545	0.8598656130854461	-1.5010211986984006	False
+ibd_uc_stromal	ulcerative colitis	colon stromal	tissue_resident	ets2_direct	0.3229015394896466	0.8598656130854461	-0.5369640735957995	False
+psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	ets2_macrophage_program	-0.5324789116089733	1.346213068573638	-1.8786919801826114	False
+psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	ap1_ets_immediate_early	-1.105061121497495	1.346213068573638	-2.451274190071133	False
+psoriasis_keratinocyte	psoriasis	skin keratinocyte	tissue_resident	ets2_direct	-0.7908911666239122	1.346213068573638	-2.13710423519755	False
+psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	ets2_macrophage_program	-0.9495693642247229	1.3331344813298849	-2.282703845554608	False
+psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	ap1_ets_immediate_early	-0.5801144037815583	1.3331344813298849	-1.913248885111443	False
+psoriasis_skin_apc	psoriasis	skin APC	myeloid_apc	ets2_direct	-0.7144025340295892	1.3331344813298849	-2.047537015359474	False
+psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	ets2_macrophage_program	-0.43466713233303383	0.7587120411563969	-1.1933791734894308	False
+psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	ap1_ets_immediate_early	-0.8916978164001849	0.7587120411563969	-1.6504098575565818	False
+psoriasis_skin_stromal	psoriasis	skin stromal	tissue_resident	ets2_direct	-0.1132392711392302	0.7587120411563969	-0.8719513122956271	False
+sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	ets2_macrophage_program	0.2136714325068903	0.5243586619322715	-0.31068722942538124	False
+sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	ap1_ets_immediate_early	0.09335465339710236	0.5243586619322715	-0.4310040085351692	False
+sjogren_gland_apc	Sjogren syndrome	salivary gland APC	myeloid_apc	ets2_direct	-0.2800052704874742	0.5243586619322715	-0.8043639324197458	False
+sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	ets2_macrophage_program	0.18284384516712215	0.7609400649153891	-0.578096219748267	False
+sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	ap1_ets_immediate_early	-0.0700402757151341	0.7609400649153891	-0.8309803406305232	False
+sjogren_gland_epithelial	Sjogren syndrome	salivary gland epithelial	tissue_resident	ets2_direct	-0.1231972695152459	0.7609400649153891	-0.884137334430635	False
+sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	ets2_macrophage_program	0.23449879110457236	0.26256496672442436	-0.028066175619852002	False
+sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	ap1_ets_immediate_early	0.196091506277973	0.26256496672442436	-0.06647346044645136	False
+sjogren_gland_stromal	Sjogren syndrome	salivary gland stromal/endothelial	tissue_resident	ets2_direct	-0.241231355305838	0.26256496672442436	-0.5037963220302624	False
+t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	ets2_macrophage_program	1.2972353034030606	1.4521602059074015	-0.15492490250434088	False
+t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	ap1_ets_immediate_early	-0.40310352817320994	1.4521602059074015	-1.8552637340806113	False
+t1d_acinar_cell	type 1 diabetes mellitus	pancreatic acinar cell	tissue_resident	ets2_direct	0.0006740489797287	1.4521602059074015	-1.4514861569276727	False
+t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	ets2_macrophage_program	1.1156861317712201	1.8211795024733461	-0.705493370702126	False
+t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	ap1_ets_immediate_early	-0.4276018963958717	1.8211795024733461	-2.248781398869218	False
+t1d_beta_cell	type 1 diabetes mellitus	pancreatic beta cell	tissue_resident	ets2_direct	0.2953726632972282	1.8211795024733461	-1.525806839176118	False
+t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	ets2_macrophage_program	1.2265087491264324	1.350941963184538	-0.1244332140581057	False
+t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	ap1_ets_immediate_early	-0.08590249190071936	1.350941963184538	-1.4368444550852575	False
+t1d_ductal_cell	type 1 diabetes mellitus	pancreatic ductal cell	tissue_resident	ets2_direct	-0.351197328611704	1.350941963184538	-1.7021392917962421	False
+t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	ets2_macrophage_program	1.2442237904295437	1.5141346071056394	-0.26991081667609573	False
+t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	ap1_ets_immediate_early	0.31048683790466824	1.5141346071056394	-1.203647769200971	False
+t1d_endothelial_cell	type 1 diabetes mellitus	pancreatic endothelial cell	tissue_resident	ets2_direct	-0.3646341689757451	1.5141346071056394	-1.8787687760813845	False
+t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	ets2_macrophage_program	1.3315424956099517	1.4706295036643893	-0.13908700805443752	False
+t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	ap1_ets_immediate_early	0.24296140675016004	1.4706295036643893	-1.2276680969142293	False
+t1d_stellate_cell	type 1 diabetes mellitus	pancreatic stellate cell	tissue_resident	ets2_direct	0.2103799129676105	1.4706295036643893	-1.2602495906967788	False

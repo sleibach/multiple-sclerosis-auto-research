@@ -1,0 +1,1659 @@
+{
+  "data": {
+    "credibleSets": {
+      "count": 11,
+      "rows": [
+        {
+          "beta": 0.012068576177297076,
+          "chromosome": "6",
+          "colocalisation": {
+            "count": 3,
+            "rows": [
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.13814619508299822,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9943666779888439,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0002057",
+                      "biosampleName": "CD14-positive, CD16-negative classical monocyte"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "novel transcript",
+                      "approvedSymbol": "ENSG00000283265",
+                      "id": "ENSG00000283265"
+                    },
+                    "traitFromSource": "ENSG00000283265"
+                  },
+                  "studyId": "quach_2016_ge_monocyte_r848_ensg00000283265",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.14783246818569687,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9947986784221068,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0002057",
+                      "biosampleName": "CD14-positive, CD16-negative classical monocyte"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "novel transcript",
+                      "approvedSymbol": "ENSG00000283265",
+                      "id": "ENSG00000283265"
+                    },
+                    "traitFromSource": "ENSG00000283265"
+                  },
+                  "studyId": "quach_2016_ge_monocyte_lps_ensg00000283265",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.12571639998483564,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9935648132338606,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "cytotoxic and regulatory T cell molecule",
+                      "approvedSymbol": "CRTAM",
+                      "id": "ENSG00000109943"
+                    },
+                    "traitFromSource": "CRTAM:O95727:OID20914:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_CRTAM_O95727_OID20914_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              }
+            ]
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.3907698392868042,
+                "target": {
+                  "approvedName": "oligodendrocyte transcription factor 3",
+                  "approvedSymbol": "OLIG3",
+                  "id": "ENSG00000177468"
+                }
+              },
+              {
+                "score": 0.08114705234766006,
+                "target": {
+                  "approvedName": "TNF alpha induced protein 3",
+                  "approvedSymbol": "TNFAIP3",
+                  "id": "ENSG00000118503"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -12,
+          "pValueMantissa": 1.0384886264801025,
+          "position": 137643560,
+          "purityMeanR2": 0.9867690224546043,
+          "purityMinR2": 0.9736931112285571,
+          "standardError": null,
+          "studyId": "GCST90436342",
+          "studyLocusId": "1f6967ce00445e46735f0496492da4ba",
+          "studyType": "gwas",
+          "variant": {
+            "id": "6_137643560_A_G",
+            "rsIds": [
+              "rs62432712"
+            ]
+          }
+        },
+        {
+          "beta": -0.011783259009239737,
+          "chromosome": "3",
+          "colocalisation": {
+            "count": 2,
+            "rows": [
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.022153965561504497,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.961139671649647,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "C-C motif chemokine ligand 22",
+                      "approvedSymbol": "CCL22",
+                      "id": "ENSG00000102962"
+                    },
+                    "traitFromSource": "CCL22:O00626:OID20765:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_CCL22_O00626_OID20765_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.0058529203911242104,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.8663546225924722,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000129",
+                      "biosampleName": "microglial cell"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "LIM domain containing preferred translocation partner in lipoma",
+                      "approvedSymbol": "LPP",
+                      "id": "ENSG00000145012"
+                    },
+                    "traitFromSource": "3:188397891:188406112:clu_19514_+"
+                  },
+                  "studyId": "young_2019_leafcutter_microglia_naive_3_188397891_188406112_clu_19514__",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              }
+            ]
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.815724790096283,
+                "target": {
+                  "approvedName": "LIM domain containing preferred translocation partner in lipoma",
+                  "approvedSymbol": "LPP",
+                  "id": "ENSG00000145012"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -13,
+          "pValueMantissa": 4.579167366027832,
+          "position": 188414322,
+          "purityMeanR2": 0.920461130293832,
+          "purityMinR2": 0.7749702664877117,
+          "standardError": null,
+          "studyId": "GCST90436342",
+          "studyLocusId": "2f6d9c046bb459918b3ed746ab5a0ff4",
+          "studyType": "gwas",
+          "variant": {
+            "id": "3_188414322_A_G",
+            "rsIds": [
+              "rs6780858"
+            ]
+          }
+        },
+        {
+          "beta": -0.012364674972530071,
+          "chromosome": "4",
+          "colocalisation": {
+            "count": 2,
+            "rows": [
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.041047994572530166,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9793301365606961,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000775",
+                      "biosampleName": "neutrophil"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "bridge-like lipid transfer protein family member 1",
+                      "approvedSymbol": "BLTP1",
+                      "id": "ENSG00000138688"
+                    },
+                    "traitFromSource": "ENST00000693357"
+                  },
+                  "studyId": "blueprint_tx_neutrophil_enst00000693357",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.03903585654330555,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9782384938277497,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000775",
+                      "biosampleName": "neutrophil"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "bridge-like lipid transfer protein family member 1",
+                      "approvedSymbol": "BLTP1",
+                      "id": "ENSG00000138688"
+                    },
+                    "traitFromSource": "ENSG00000138688.17_4_122362753_122364167"
+                  },
+                  "studyId": "blueprint_exon_neutrophil_ensg00000138688_17_4_122362753_122364167",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              }
+            ]
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.6818433403968811,
+                "target": {
+                  "approvedName": "interleukin 21",
+                  "approvedSymbol": "IL21",
+                  "id": "ENSG00000138684"
+                }
+              },
+              {
+                "score": 0.21150149405002594,
+                "target": {
+                  "approvedName": "interleukin 2",
+                  "approvedSymbol": "IL2",
+                  "id": "ENSG00000109471"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -14,
+          "pValueMantissa": 5.1586689949035645,
+          "position": 122588266,
+          "purityMeanR2": 0.9691044262005184,
+          "purityMinR2": 0.9112309348666703,
+          "standardError": null,
+          "studyId": "GCST90436342",
+          "studyLocusId": "3cb0b1de2598e97b394808a611eae70a",
+          "studyType": "gwas",
+          "variant": {
+            "id": "4_122588266_G_T",
+            "rsIds": [
+              "rs6822844"
+            ]
+          }
+        },
+        {
+          "beta": 2.33,
+          "chromosome": "6",
+          "colocalisation": {
+            "count": 2,
+            "rows": [
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.029689029318594462,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9699505676310151,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000473",
+                      "biosampleName": "testis"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "LEM domain nuclear envelope protein 2",
+                      "approvedSymbol": "LEMD2",
+                      "id": "ENSG00000161904"
+                    },
+                    "traitFromSource": "ENSG00000161904.grp_2.contained.ENST00000513832"
+                  },
+                  "studyId": "gtex_txrev_testis_ensg00000161904_grp_2_contained_enst00000513832",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.0038469166426044516,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.8026891457275158,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000006",
+                      "biosampleName": "islet of Langerhans"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "major histocompatibility complex, class II, DP beta 1",
+                      "approvedSymbol": "HLA-DPB1",
+                      "id": "ENSG00000223865"
+                    },
+                    "traitFromSource": "ENSG00000223865.grp_2.downstream.ENST00000416804"
+                  },
+                  "studyId": "van_de_bunt_2015_txrev_pancreatic_islet_ensg00000223865_grp_2_downstream_enst00000416804",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              }
+            ]
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.08288590610027313,
+                "target": {
+                  "approvedName": "synaptic Ras GTPase activating protein 1",
+                  "approvedSymbol": "SYNGAP1",
+                  "id": "ENSG00000197283"
+                }
+              },
+              {
+                "score": 0.07095333188772202,
+                "target": {
+                  "approvedName": "zinc finger and BTB domain containing 9",
+                  "approvedSymbol": "ZBTB9",
+                  "id": "ENSG00000213588"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -104,
+          "pValueMantissa": 4.349999904632568,
+          "position": 33469459,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.108,
+          "studyId": "GCST90436342",
+          "studyLocusId": "40afba69b668660b564ed11ec5b394ae",
+          "studyType": "gwas",
+          "variant": {
+            "id": "6_33469459_G_A",
+            "rsIds": [
+              "rs114176380"
+            ]
+          }
+        },
+        {
+          "beta": 0.012341120752731327,
+          "chromosome": "6",
+          "colocalisation": {
+            "count": 6,
+            "rows": [
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.005249191898020427,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.8536844019722761,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000235",
+                      "biosampleName": "macrophage"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "peroxisome proliferator activated receptor delta",
+                      "approvedSymbol": "PPARD",
+                      "id": "ENSG00000112033"
+                    },
+                    "traitFromSource": "6:35349003:35356229:clu_20379_+"
+                  },
+                  "studyId": "nedelec_2016_leafcutter_macrophage_listeria_6_35349003_35356229_clu_20379__",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.0003474108303795303,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.27748739887626384,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0002057",
+                      "biosampleName": "CD14-positive, CD16-negative classical monocyte"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "peroxisome proliferator activated receptor delta",
+                      "approvedSymbol": "PPARD",
+                      "id": "ENSG00000112033"
+                    },
+                    "traitFromSource": "6:35347150:35410987:clu_25942_+"
+                  },
+                  "studyId": "quach_2016_leafcutter_monocyte_lps_6_35347150_35410987_clu_25942__",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.004517632232671395,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.833813169607074,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0009834",
+                      "biosampleName": "dorsolateral prefrontal cortex"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "peroxisome proliferator activated receptor delta",
+                      "approvedSymbol": "PPARD",
+                      "id": "ENSG00000112033"
+                    },
+                    "traitFromSource": "6:35353050:35410987:clu_33622_+"
+                  },
+                  "studyId": "brainseq_leafcutter_brain_6_35353050_35410987_clu_33622__",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.00441483069547522,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.8305829005746486,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000235",
+                      "biosampleName": "macrophage"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "peroxisome proliferator activated receptor delta",
+                      "approvedSymbol": "PPARD",
+                      "id": "ENSG00000112033"
+                    },
+                    "traitFromSource": "6:35349003:35356229:clu_20379_+"
+                  },
+                  "studyId": "nedelec_2016_leafcutter_macrophage_salmonella_6_35349003_35356229_clu_20379__",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.005443416532258436,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.8581908440506347,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0002057",
+                      "biosampleName": "CD14-positive, CD16-negative classical monocyte"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "peroxisome proliferator activated receptor delta",
+                      "approvedSymbol": "PPARD",
+                      "id": "ENSG00000112033"
+                    },
+                    "traitFromSource": "6:35349003:35356229:clu_25942_+"
+                  },
+                  "studyId": "quach_2016_leafcutter_monocyte_iav_6_35349003_35356229_clu_25942__",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.003895057212531613,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.8121323929252465,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000235",
+                      "biosampleName": "macrophage"
+                    },
+                    "studyType": "sqtl",
+                    "target": {
+                      "approvedName": "peroxisome proliferator activated receptor delta",
+                      "approvedSymbol": "PPARD",
+                      "id": "ENSG00000112033"
+                    },
+                    "traitFromSource": "6:35353050:35356229:clu_20379_+"
+                  },
+                  "studyId": "nedelec_2016_leafcutter_macrophage_naive_6_35353050_35356229_clu_20379__",
+                  "studyType": "sqtl"
+                },
+                "rightStudyType": "sqtl"
+              }
+            ]
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 4,
+            "rows": [
+              {
+                "score": 0.31064069271087646,
+                "target": {
+                  "approvedName": "small nuclear ribonucleoprotein polypeptide C",
+                  "approvedSymbol": "SNRPC",
+                  "id": "ENSG00000124562"
+                }
+              },
+              {
+                "score": 0.11593405902385712,
+                "target": {
+                  "approvedName": "inflammation and lipid regulator with UBA-like and NBR1-like domains",
+                  "approvedSymbol": "ILRUN",
+                  "id": "ENSG00000196821"
+                }
+              },
+              {
+                "score": 0.06523050367832184,
+                "target": {
+                  "approvedName": "ankyrin repeat and sterile alpha motif domain containing 1A",
+                  "approvedSymbol": "ANKS1A",
+                  "id": "ENSG00000064999"
+                }
+              },
+              {
+                "score": 0.06123731657862663,
+                "target": {
+                  "approvedName": "TATA-box binding protein associated factor 11",
+                  "approvedSymbol": "TAF11",
+                  "id": "ENSG00000064995"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -14,
+          "pValueMantissa": 7.264864444732666,
+          "position": 34745495,
+          "purityMeanR2": 0.9370736808775282,
+          "purityMinR2": 0.8112604437976273,
+          "standardError": null,
+          "studyId": "GCST90436342",
+          "studyLocusId": "52f038f7d190a960e253f3e45427e736",
+          "studyType": "gwas",
+          "variant": {
+            "id": "6_34745495_G_T",
+            "rsIds": [
+              "rs116540964"
+            ]
+          }
+        },
+        {
+          "beta": 0.691,
+          "chromosome": "6",
+          "colocalisation": {
+            "count": 3,
+            "rows": [
+              {
+                "betaRatioSignAverage": 0,
+                "clpp": 8.221087118177349e-05,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.08339323193767546,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001954",
+                      "biosampleName": "Ammon's horn"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "long intergenic non-protein coding RNA 2980",
+                      "approvedSymbol": "LINC02980",
+                      "id": "ENSG00000272462"
+                    },
+                    "traitFromSource": "ENSG00000272462.4_6_25992641_25992659"
+                  },
+                  "studyId": "gtex_exon_brain_hippocampus_ensg00000272462_4_6_25992641_25992659",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 0,
+                "clpp": 0.021127122063666133,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.957831151649398,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "butyrophilin subfamily 3 member A2",
+                      "approvedSymbol": "BTN3A2",
+                      "id": "ENSG00000186470"
+                    },
+                    "traitFromSource": "BTN3A2:P78410:OID20540:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_BTN3A2_P78410_OID20540_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 0,
+                "clpp": 0.005646291493652506,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.8565497768015448,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "major histocompatibility complex, class I, A",
+                      "approvedSymbol": "HLA-A",
+                      "id": "ENSG00000206503"
+                    },
+                    "traitFromSource": "HLA-A:P04439:OID31048:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_HLA-A_P04439_OID31048_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              }
+            ]
+          },
+          "confidence": "PICS fine-mapped credible set extracted from summary statistics",
+          "finemappingMethod": "PICS",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.3334101736545563,
+                "target": {
+                  "approvedName": "RHO family interacting cell polarization regulator 2",
+                  "approvedSymbol": "RIPOR2",
+                  "id": "ENSG00000111913"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -15,
+          "pValueMantissa": 9.670000076293945,
+          "position": 24998437,
+          "purityMeanR2": null,
+          "purityMinR2": null,
+          "standardError": 0.0892,
+          "studyId": "GCST90436342",
+          "studyLocusId": "5a51653b34b7447ab395f6f11bcd6280",
+          "studyType": "gwas",
+          "variant": {
+            "id": "6_24998437_C_T",
+            "rsIds": [
+              "rs77386029"
+            ]
+          }
+        },
+        {
+          "beta": 0.016725566949589894,
+          "chromosome": "6",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 3,
+            "rows": [
+              {
+                "score": 0.5777699947357178,
+                "target": {
+                  "approvedName": "motilin",
+                  "approvedSymbol": "MLN",
+                  "id": "ENSG00000096395"
+                }
+              },
+              {
+                "score": 0.08840904384851456,
+                "target": {
+                  "approvedName": "LEM domain nuclear envelope protein 2",
+                  "approvedSymbol": "LEMD2",
+                  "id": "ENSG00000161904"
+                }
+              },
+              {
+                "score": 0.050230033695697784,
+                "target": {
+                  "approvedName": "inositol hexakisphosphate kinase 3",
+                  "approvedSymbol": "IP6K3",
+                  "id": "ENSG00000161896"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -10,
+          "pValueMantissa": 3.5726985931396484,
+          "position": 33874478,
+          "purityMeanR2": 1,
+          "purityMinR2": 1,
+          "standardError": null,
+          "studyId": "GCST90436342",
+          "studyLocusId": "6617d47ab07dc743a40952a078faa9eb",
+          "studyType": "gwas",
+          "variant": {
+            "id": "6_33874478_T_C",
+            "rsIds": [
+              "rs62397638"
+            ]
+          }
+        },
+        {
+          "beta": -0.01058082151811788,
+          "chromosome": "12",
+          "colocalisation": {
+            "count": 314,
+            "rows": [
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.06536598159345379,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.987032319319496,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "cytokine receptor like factor 1",
+                      "approvedSymbol": "CRLF1",
+                      "id": "ENSG00000006016"
+                    },
+                    "traitFromSource": "CRLF1:O75462:OID20699:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_CRLF1_O75462_OID20699_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.07930268888870426,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.989699966528378,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "CL_0000775",
+                      "biosampleName": "neutrophil"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "aldehyde dehydrogenase 2 family member",
+                      "approvedSymbol": "ALDH2",
+                      "id": "ENSG00000111275"
+                    },
+                    "traitFromSource": "ENST00000261733"
+                  },
+                  "studyId": "blueprint_tx_neutrophil_enst00000261733",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.1780044762671566,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9958111093976282,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "TNF receptor superfamily member 6b",
+                      "approvedSymbol": "TNFRSF6B",
+                      "id": "ENSG00000243509"
+                    },
+                    "traitFromSource": "TNFRSF6B:O95407:OID20964:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_TNFRSF6B_O95407_OID20964_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.07968968817240255,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9892420869321159,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "adhesion molecule with Ig like domain 2",
+                      "approvedSymbol": "AMIGO2",
+                      "id": "ENSG00000139211"
+                    },
+                    "traitFromSource": "AMIGO2:Q86SJ2:OID21370:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_AMIGO2_Q86SJ2_OID21370_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.17653552948880968,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9957738951097834,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "Fc gamma receptor IIa",
+                      "approvedSymbol": "FCGR2A",
+                      "id": "ENSG00000143226"
+                    },
+                    "traitFromSource": "FCGR2A:P12318:OID20391:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_FCGR2A_P12318_OID20391_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.09486458203745918,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9914351766748926,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "dpy-30 histone methyltransferase complex regulatory subunit",
+                      "approvedSymbol": "DPY30",
+                      "id": "ENSG00000162961"
+                    },
+                    "traitFromSource": "DPY30:Q9C005:OID21410:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_DPY30_Q9C005_OID21410_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.1659432934534379,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9955570639258462,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "leukocyte associated immunoglobulin like receptor 1",
+                      "approvedSymbol": "LAIR1",
+                      "id": "ENSG00000167613"
+                    },
+                    "traitFromSource": "LAIR1:Q6GTX8:OID20737:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_LAIR1_Q6GTX8_OID20737_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.1611773888575308,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9953415166900161,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "superoxide dismutase 3",
+                      "approvedSymbol": "SOD3",
+                      "id": "ENSG00000109610"
+                    },
+                    "traitFromSource": "SOD3:P08294:OID30683:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_SOD3_P08294_OID30683_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.22952464584898327,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9969400191903022,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "cystatin F",
+                      "approvedSymbol": "CST7",
+                      "id": "ENSG00000077984"
+                    },
+                    "traitFromSource": "CST7:O76096:OID20704:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_CST7_O76096_OID20704_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.052607467940409214,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.983857391507692,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "colony stimulating factor 3 receptor",
+                      "approvedSymbol": "CSF3R",
+                      "id": "ENSG00000119535"
+                    },
+                    "traitFromSource": "CSF3R:Q99062:OID30527:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_CSF3R_Q99062_OID30527_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.15232743116671085,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.994852019237673,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "vascular endothelial growth factor A",
+                      "approvedSymbol": "VEGFA",
+                      "id": "ENSG00000112715"
+                    },
+                    "traitFromSource": "VEGFA:P15692:OID20650:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_VEGFA_P15692_OID20650_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.16708023726098462,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.995536590098812,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "junctional adhesion molecule 2",
+                      "approvedSymbol": "JAM2",
+                      "id": "ENSG00000154721"
+                    },
+                    "traitFromSource": "JAM2:P57087:OID21064:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_JAM2_P57087_OID21064_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.10857221391504107,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9925774478546854,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "intercellular adhesion molecule 1",
+                      "approvedSymbol": "ICAM1",
+                      "id": "ENSG00000090339"
+                    },
+                    "traitFromSource": "ICAM1:P05362:OID20411:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_ICAM1_P05362_OID20411_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.07209136346052987,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9882628813785305,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "serine peptidase inhibitor, Kunitz type 2",
+                      "approvedSymbol": "SPINT2",
+                      "id": "ENSG00000167642"
+                    },
+                    "traitFromSource": "SPINT2:O43291:OID20720:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_SPINT2_O43291_OID20720_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.09166705845429408,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9909475885942023,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "Fc epsilon receptor II",
+                      "approvedSymbol": "FCER2",
+                      "id": "ENSG00000104921"
+                    },
+                    "traitFromSource": "FCER2:P06734:OID21133:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_FCER2_P06734_OID21133_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.2008994039619123,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9964596432664322,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "ribonuclease A family member 6",
+                      "approvedSymbol": "RNASE6",
+                      "id": "ENSG00000169413"
+                    },
+                    "traitFromSource": "RNASE6:Q93091:OID30689:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_RNASE6_Q93091_OID30689_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.14245341175267723,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9943957760179754,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "adhesion G protein-coupled receptor F5",
+                      "approvedSymbol": "ADGRF5",
+                      "id": "ENSG00000069122"
+                    },
+                    "traitFromSource": "ADGRF5:Q8IZF2:OID30349:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_ADGRF5_Q8IZF2_OID30349_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.007963527402206629,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.8985343323432008,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "lymphotoxin beta",
+                      "approvedSymbol": "LTB",
+                      "id": "ENSG00000227507"
+                    },
+                    "traitFromSource": "LTB:Q06643:OID31383:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_LTB_Q06643_OID31383_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.20270481397778956,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9964910238773262,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "intercellular adhesion molecule 2",
+                      "approvedSymbol": "ICAM2",
+                      "id": "ENSG00000108622"
+                    },
+                    "traitFromSource": "ICAM2:P13598:OID20248:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_ICAM2_P13598_OID20248_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.06896794043808788,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9877197314389482,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "CD274 molecule",
+                      "approvedSymbol": "CD274",
+                      "id": "ENSG00000120217"
+                    },
+                    "traitFromSource": "CD274:Q9NZQ7:OID20966:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_CD274_Q9NZQ7_OID20966_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.1893151904287559,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9961852779470413,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "IFI30 lysosomal thiol reductase",
+                      "approvedSymbol": "IFI30",
+                      "id": "ENSG00000216490"
+                    },
+                    "traitFromSource": "IFI30:P13284:OID31505:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_IFI30_P13284_OID31505_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.0900526528050654,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9906933705840412,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "C-type lectin domain family 3 member B",
+                      "approvedSymbol": "CLEC3B",
+                      "id": "ENSG00000163815"
+                    },
+                    "traitFromSource": "CLEC3B:P05452:OID30756:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_CLEC3B_P05452_OID30756_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.126325637871821,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9938079693290811,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "ADAM metallopeptidase domain 15",
+                      "approvedSymbol": "ADAM15",
+                      "id": "ENSG00000143537"
+                    },
+                    "traitFromSource": "ADAM15:Q13444:OID20109:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_ADAM15_Q13444_OID20109_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.24193331683851718,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9972399663399982,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "C-X-C motif chemokine ligand 11",
+                      "approvedSymbol": "CXCL11",
+                      "id": "ENSG00000169248"
+                    },
+                    "traitFromSource": "CXCL11:O14625:OID21042:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_CXCL11_O14625_OID21042_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              },
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.18412676156476512,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9961018352182643,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "TNF receptor superfamily member 9",
+                      "approvedSymbol": "TNFRSF9",
+                      "id": "ENSG00000049249"
+                    },
+                    "traitFromSource": "TNFRSF9:Q07011:OID20985:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_TNFRSF9_Q07011_OID20985_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              }
+            ]
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.8933120369911194,
+                "target": {
+                  "approvedName": "SH2B adaptor protein 3",
+                  "approvedSymbol": "SH2B3",
+                  "id": "ENSG00000111252"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -10,
+          "pValueMantissa": 3.0704193115234375,
+          "position": 111446804,
+          "purityMeanR2": 0.9792025413571138,
+          "purityMinR2": 0.9388820303369161,
+          "standardError": null,
+          "studyId": "GCST90436342",
+          "studyLocusId": "aec8595fc17a612ffe60c8dfb425906c",
+          "studyType": "gwas",
+          "variant": {
+            "id": "12_111446804_T_C",
+            "rsIds": [
+              "rs3184504"
+            ]
+          }
+        },
+        {
+          "beta": 0.01587364504068666,
+          "chromosome": "6",
+          "colocalisation": {
+            "count": 0,
+            "rows": []
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.8533138632774353,
+                "target": {
+                  "approvedName": "motilin",
+                  "approvedSymbol": "MLN",
+                  "id": "ENSG00000096395"
+                }
+              },
+              {
+                "score": 0.1062852144241333,
+                "target": {
+                  "approvedName": "LEM domain nuclear envelope protein 2",
+                  "approvedSymbol": "LEMD2",
+                  "id": "ENSG00000161904"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -19,
+          "pValueMantissa": 3.3508141040802,
+          "position": 33839780,
+          "purityMeanR2": 1,
+          "purityMinR2": 1,
+          "standardError": null,
+          "studyId": "GCST90436342",
+          "studyLocusId": "cf714f4941d2d9813eda4733e1e24727",
+          "studyType": "gwas",
+          "variant": {
+            "id": "6_33839780_C_T",
+            "rsIds": [
+              "rs116277862",
+              "rs2113415600",
+              "rs2113415602"
+            ]
+          }
+        },
+        {
+          "beta": 0.03390548402299937,
+          "chromosome": "6",
+          "colocalisation": {
+            "count": 1,
+            "rows": [
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.3248252547042401,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9980790478550294,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000473",
+                      "biosampleName": "testis"
+                    },
+                    "studyType": "tuqtl",
+                    "target": {
+                      "approvedName": "LEM domain nuclear envelope protein 2",
+                      "approvedSymbol": "LEMD2",
+                      "id": "ENSG00000161904"
+                    },
+                    "traitFromSource": "ENSG00000161904.grp_2.contained.ENST00000513832"
+                  },
+                  "studyId": "gtex_txrev_testis_ensg00000161904_grp_2_contained_enst00000513832",
+                  "studyType": "tuqtl"
+                },
+                "rightStudyType": "tuqtl"
+              }
+            ]
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 2,
+            "rows": [
+              {
+                "score": 0.634053111076355,
+                "target": {
+                  "approvedName": "motilin",
+                  "approvedSymbol": "MLN",
+                  "id": "ENSG00000096395"
+                }
+              },
+              {
+                "score": 0.2763430178165436,
+                "target": {
+                  "approvedName": "LEM domain nuclear envelope protein 2",
+                  "approvedSymbol": "LEMD2",
+                  "id": "ENSG00000161904"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -87,
+          "pValueMantissa": 2.218226194381714,
+          "position": 33820795,
+          "purityMeanR2": 1,
+          "purityMinR2": 1,
+          "standardError": null,
+          "studyId": "GCST90436342",
+          "studyLocusId": "d85865a6e66f0f91f9f9f41992944a9d",
+          "studyType": "gwas",
+          "variant": {
+            "id": "6_33820795_C_T",
+            "rsIds": [
+              "rs115572255"
+            ]
+          }
+        },
+        {
+          "beta": 0.009827832115880382,
+          "chromosome": "3",
+          "colocalisation": {
+            "count": 1,
+            "rows": [
+              {
+                "betaRatioSignAverage": 1,
+                "clpp": 0.2328003763228689,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9969158870571327,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0001969",
+                      "biosampleName": "blood plasma"
+                    },
+                    "studyType": "pqtl",
+                    "target": {
+                      "approvedName": "interferon gamma",
+                      "approvedSymbol": "IFNG",
+                      "id": "ENSG00000111537"
+                    },
+                    "traitFromSource": "IFNG:P01579:OID20495:v1"
+                  },
+                  "studyId": "UKB_PPP_EUR_IFNG_P01579_OID20495_v1",
+                  "studyType": "pqtl"
+                },
+                "rightStudyType": "pqtl"
+              }
+            ]
+          },
+          "confidence": "SuSiE fine-mapped credible set with out-of-sample LD",
+          "finemappingMethod": "SuSiE-inf",
+          "l2GPredictions": {
+            "count": 3,
+            "rows": [
+              {
+                "score": 0.508561909198761,
+                "target": {
+                  "approvedName": "interleukin 12A",
+                  "approvedSymbol": "IL12A",
+                  "id": "ENSG00000168811"
+                }
+              },
+              {
+                "score": 0.21282227337360382,
+                "target": {
+                  "approvedName": "schwannomin interacting protein 1",
+                  "approvedSymbol": "SCHIP1",
+                  "id": "ENSG00000151967"
+                }
+              },
+              {
+                "score": 0.06033162772655487,
+                "target": {
+                  "approvedName": "intraflagellar transport 80",
+                  "approvedSymbol": "IFT80",
+                  "id": "ENSG00000068885"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -9,
+          "pValueMantissa": 9.685994148254395,
+          "position": 159929885,
+          "purityMeanR2": 0.9841303733200394,
+          "purityMinR2": 0.9641690736248982,
+          "standardError": null,
+          "studyId": "GCST90436342",
+          "studyLocusId": "f4a21acc136bb9637ac92c3eb7df46eb",
+          "studyType": "gwas",
+          "variant": {
+            "id": "3_159929885_A_G",
+            "rsIds": [
+              "rs17753641"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

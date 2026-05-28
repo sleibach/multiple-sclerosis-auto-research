@@ -1,0 +1,205 @@
+{
+  "studies": [
+    {
+      "derivedSection": {
+        "conditionBrowseModule": {
+          "ancestors": [
+            {
+              "id": "D013967",
+              "term": "Thyroiditis, Autoimmune"
+            },
+            {
+              "id": "D013966",
+              "term": "Thyroiditis"
+            },
+            {
+              "id": "D013959",
+              "term": "Thyroid Diseases"
+            },
+            {
+              "id": "D004700",
+              "term": "Endocrine System Diseases"
+            },
+            {
+              "id": "D001327",
+              "term": "Autoimmune Diseases"
+            },
+            {
+              "id": "D007154",
+              "term": "Immune System Diseases"
+            },
+            {
+              "id": "D005094",
+              "term": "Exophthalmos"
+            },
+            {
+              "id": "D009916",
+              "term": "Orbital Diseases"
+            },
+            {
+              "id": "D005128",
+              "term": "Eye Diseases"
+            },
+            {
+              "id": "D006042",
+              "term": "Goiter"
+            },
+            {
+              "id": "D006980",
+              "term": "Hyperthyroidism"
+            }
+          ],
+          "meshes": [
+            {
+              "id": "D050031",
+              "term": "Hashimoto Disease"
+            },
+            {
+              "id": "D006111",
+              "term": "Graves Disease"
+            }
+          ]
+        },
+        "miscInfoModule": {
+          "versionHolder": "2026-05-26"
+        }
+      },
+      "hasResults": false,
+      "protocolSection": {
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "description": "Patients with Hashimoto's disease or Graves' disease",
+              "label": "Autoimmune Thyroid Disease"
+            },
+            {
+              "description": "Population not known to be affected by Hashimoto's Disease or Graves' Disease",
+              "label": "Unaffected Population"
+            }
+          ]
+        },
+        "conditionsModule": {
+          "conditions": [
+            "Hashimoto's Disease",
+            "Graves' Disease"
+          ]
+        },
+        "contactsLocationsModule": {
+          "locations": [
+            {
+              "city": "Aurora",
+              "country": "United States",
+              "facility": "University of Colorado Denver",
+              "geoPoint": {
+                "lat": 39.72943,
+                "lon": -104.83192
+              },
+              "state": "Colorado",
+              "zip": "80045"
+            }
+          ],
+          "overallOfficials": [
+            {
+              "affiliation": "University of Colorado, Denver",
+              "name": "Richard Spritz, MD",
+              "role": "PRINCIPAL_INVESTIGATOR"
+            }
+          ]
+        },
+        "descriptionModule": {
+          "briefSummary": "The hypothesis of this project is that specific genes can be identified that contribute to genetic susceptibility to autoimmune thyroid disease (AITD) in different populations. The specific aim of this project is carry out one or more genomewide association studies (GWAS) to map and ultimately identify genes that confer susceptibility to AITD. AITD consists principally of Hashimoto's Thyroiditis (HT) and Graves' Disease (GD), characterized clinically generally by hypothyroidism and hyperthyroidism, respectively. Both HT and GD are autoimmune diseases characterized by infiltration of the thyroid by T and B cells that are reactive with thyroid antigens and by the production of thyroid autoantibodies (TAB). While there is some evidence that there may be genes specific to either GD or HT, other genes appear to be common to both, and some genes may furthermore be in common to susceptibility to other autoimmune diseases. Genes known to play a role in AITD include HLA, CTLA4, thyroglobulin (TG), THSR, and CD40, PTPN2, and PTPN22, several of which are also involved in susceptibility to other autoimmune diseases. All of these genes interact in a complex manner that has yet to be understood. Furthermore, it seems clear that relatively few of the genes involved in susceptibility to AITD have thus far been discovered."
+        },
+        "designModule": {
+          "bioSpec": {
+            "description": "Saliva",
+            "retention": "SAMPLES_WITH_DNA"
+          },
+          "designInfo": {
+            "observationalModel": "CASE_CONTROL",
+            "timePerspective": "CROSS_SECTIONAL"
+          },
+          "enrollmentInfo": {
+            "count": 199,
+            "type": "ACTUAL"
+          },
+          "studyType": "OBSERVATIONAL"
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Clinical diagnosis of abnormal thyroid function (hypo or hyperthyroidism) due to autoimmune thyroid disease\n\nExclusion Criteria:\n\n* Lack of documentation of abnormal thyroid function or clear evidence of autoimmune etiology",
+          "healthyVolunteers": false,
+          "minimumAge": "7 Years",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE",
+          "sex": "ALL",
+          "stdAges": [
+            "CHILD",
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Patients seen in Endocrinology Clinic"
+        },
+        "identificationModule": {
+          "briefTitle": "Autoimmune Thyroid Disease Genetic Study",
+          "nctId": "NCT00958113",
+          "officialTitle": "Autoimmune Thyroid Disease Genetic Study",
+          "orgStudyIdInfo": {
+            "id": "08-0931"
+          },
+          "organization": {
+            "class": "OTHER",
+            "fullName": "University of Colorado, Denver"
+          }
+        },
+        "outcomesModule": {
+          "primaryOutcomes": [
+            {
+              "description": "SNP genotypes (allele frequencies, genotype frequencies) will be compared in cases versus controls.",
+              "measure": "Map and identify genes that confer susceptibility to Autoimmune Thyroid Disease (AITD)",
+              "timeFrame": "Approximately one year after all samples are collected"
+            }
+          ]
+        },
+        "oversightModule": {
+          "oversightHasDmc": false
+        },
+        "sponsorCollaboratorsModule": {
+          "leadSponsor": {
+            "class": "OTHER",
+            "name": "University of Colorado, Denver"
+          },
+          "responsibleParty": {
+            "type": "SPONSOR"
+          }
+        },
+        "statusModule": {
+          "completionDateStruct": {
+            "date": "2015-05",
+            "type": "ACTUAL"
+          },
+          "expandedAccessInfo": {
+            "hasExpandedAccess": false
+          },
+          "lastUpdatePostDateStruct": {
+            "date": "2015-05-28",
+            "type": "ESTIMATED"
+          },
+          "lastUpdateSubmitDate": "2015-05-26",
+          "overallStatus": "COMPLETED",
+          "primaryCompletionDateStruct": {
+            "date": "2013-02",
+            "type": "ACTUAL"
+          },
+          "startDateStruct": {
+            "date": "2009-07"
+          },
+          "statusVerifiedDate": "2015-05",
+          "studyFirstPostDateStruct": {
+            "date": "2009-08-13",
+            "type": "ESTIMATED"
+          },
+          "studyFirstSubmitDate": "2009-08-11",
+          "studyFirstSubmitQcDate": "2009-08-12"
+        }
+      }
+    }
+  ]
+}

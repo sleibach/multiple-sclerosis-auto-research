@@ -1,0 +1,157 @@
+anchor_gene	query_role	source_gene	target_gene	candidate_node	is_directed	is_stimulation	is_inhibition	consensus_direction	consensus_stimulation	consensus_inhibition	source_databases	reference_count	curation_effort	status	mode
+ARHGAP31	incoming_to_anchor	GSK3B	ARHGAP31	GSK3B	True	True	False	True	True	False	ProtMapper;SIGNOR;SIGNOR_ProtMapper	35.0	2.0	200	cache
+ARHGAP31	incoming_to_anchor	GSK3A	ARHGAP31	GSK3A	True	True	False	True	True	False	ProtMapper;SIGNOR;SIGNOR_ProtMapper;iPTMnet	35.0	2.0	200	cache
+ARHGAP31	incoming_to_anchor	RPS6KA1	ARHGAP31	RPS6KA1	True	False	False	False	False	False	PhosphoSite;PhosphoSite_ProtMapper;PhosphoSite_noref;ProtMapper	20.0	1.0	200	cache
+ARHGAP31	outgoing_from_anchor	ARHGAP31	RAC1	RAC1	True	False	True	True	False	True	HINT;SIGNOR;SPIKE;SPIKE_LC	62.0	4.0	200	cache
+ARHGAP31	outgoing_from_anchor	ARHGAP31	RHOA	RHOA	True	False	True	True	False	True	SIGNOR	15.0	1.0	200	cache
+ARHGAP31	outgoing_from_anchor	ARHGAP31	CDC42	CDC42	True	False	True	True	False	True	HINT;SIGNOR	42.0	3.0	200	cache
+CD274	incoming_to_anchor	GSK3B	CD274	GSK3B	True	False	True	True	False	True	PhosphoSite;PhosphoSite_ProtMapper;PhosphoSite_noref;ProtMapper;SIGNOR;Sparser_ProtMapper	56.0	3.0	200	cache
+CD274	incoming_to_anchor	STT3A	CD274	STT3A	True	True	False	True	True	False	SIGNOR	15.0	1.0	200	cache
+CD274	incoming_to_anchor	GSK3A	CD274	GSK3A	True	False	True	True	False	True	PhosphoSite_ProtMapper;PhosphoSite_noref;ProtMapper;SIGNOR;Sparser_ProtMapper	35.0	2.0	200	cache
+CD274	incoming_to_anchor	COPS5	CD274	COPS5	True	True	False	True	True	False	BioGRID;HINT;SIGNOR	60.0	4.0	200	cache
+CD274	incoming_to_anchor	FKBP5	CD274	FKBP5	True	True	False	True	True	False	SIGNOR	15.0	1.0	200	cache
+CD274	incoming_to_anchor	NEK2	CD274	NEK2	True	True	False	True	True	False	PhosphoSite;PhosphoSite_ProtMapper;PhosphoSite_noref;ProtMapper;REACH_ProtMapper;SIGNOR	56.0	3.0	200	cache
+CD274	incoming_to_anchor	B3GNT3	CD274	B3GNT3	True	True	False	True	True	False	SIGNOR	15.0	1.0	200	cache
+CD274	incoming_to_anchor	ITCH	CD274	ITCH	True	False	True	True	False	True	SIGNOR	15.0	1.0	200	cache
+CD274	incoming_to_anchor	STT3B	CD274	STT3B	True	True	False	True	True	False	SIGNOR	15.0	1.0	200	cache
+CD274	incoming_to_anchor	CMTM6	CD274	CMTM6	True	True	False	True	True	False	HINT;IntAct;SIGNOR	75.0	5.0	200	cache
+CD274	incoming_to_anchor	STUB1	CD274	STUB1	True	False	True	True	False	True	SIGNOR	15.0	1.0	200	cache
+CD274	incoming_to_anchor	ARIH1	CD274	ARIH1	True	False	True	True	False	True	SIGNOR	15.0	1.0	200	cache
+CD274	incoming_to_anchor	SPOP	CD274	SPOP	True	False	True	True	False	True	SIGNOR	15.0	1.0	200	cache
+CD274	incoming_to_anchor	BTRC_CUL1_SKP1	CD274	BTRC_CUL1_SKP1	True	False	True	True	False	True	SIGNOR	15.0	1.0	200	cache
+CD274	incoming_to_anchor	CMTM4	CD274	CMTM4	True	True	False	True	True	False	SIGNOR	15.0	1.0	200	cache
+CD274	incoming_to_anchor	SIGMAR1	CD274	SIGMAR1	True	True	False	True	True	False	SIGNOR	15.0	1.0	200	cache
+CD274	incoming_to_anchor	CD80	CD274	CD80	True	True	False	True	True	False	Baccin2019;CellChatDB;CellPhoneDB;CellPhoneDB_Cellinker;Cellinker;HINT;IntAct;Lit-BM-17;Wojtowicz2020;connectomeDB2020	330.0	19.0	200	cache
+CD274	incoming_to_anchor	EPHA3	CD274	EPHA3	True	False	False	False	False	False	Cellinker	18.0	1.0	200	cache
+CD274	incoming_to_anchor	PRKAA1	CD274	PRKAA1	True	False	False	False	False	False	PhosphoSite;PhosphoSite_ProtMapper;ProtMapper;Sparser_ProtMapper	141.0	7.0	200	cache
+CD274	incoming_to_anchor	JAK1	CD274	JAK1	True	False	False	False	False	False	PhosphoSite;PhosphoSite_ProtMapper;ProtMapper;REACH_ProtMapper;Sparser_ProtMapper	180.0	9.0	200	cache
+CD274	outgoing_from_anchor	CD274	PDCD1	PDCD1	True	True	False	True	True	False	BioGRID;CellChatDB;CellPhoneDB;CellPhoneDB_Cellinker;CellTalkDB;Cellinker;DIP;Guide2Pharma;HINT;HPRD;ICELLNET;InnateDB;IntAct;KEGG-MEDICUS;LRdb;Lit-BM-17;SIGNOR;Wang;Wojtowicz2020;connectomeDB2020;iTALK;scConnect	473.0	29.0	200	cache
+CD274	outgoing_from_anchor	CD274	CD80	CD80	True	True	False	False	False	False	Baccin2019;CellPhoneDB;CellTalkDB;HINT;ICELLNET;IntAct;LRdb;Lit-BM-17;Wojtowicz2020;connectomeDB2020	318.0	18.0	200	cache
+CD274	outgoing_from_anchor	CD274	PDCD1LG2	PDCD1LG2	True	False	False	False	False	False	Cellinker;HINT;Wojtowicz2020	46.0	3.0	200	cache
+CD274	outgoing_from_anchor	CD274	NCR3	NCR3	True	False	False	False	False	False	Cellinker;Wojtowicz2020	18.0	1.0	200	cache
+CD80	incoming_to_anchor	CD28	CD80	CD28	True	True	False	False	False	False	BioGRID;CellPhoneDB;DIP;HINT;HPRD;Lit-BM-17;NetPath;SPIKE;SPIKE_LC;Wang;Wojtowicz2020;connectomeDB2020	343.0	22.0	200	cache
+CD80	incoming_to_anchor	CD274	CD80	CD274	True	True	False	False	False	False	Baccin2019;CellPhoneDB;CellTalkDB;HINT;ICELLNET;IntAct;LRdb;Lit-BM-17;Wojtowicz2020;connectomeDB2020	318.0	18.0	200	cache
+CD80	incoming_to_anchor	ZPBP2	CD80	ZPBP2	True	False	False	False	False	False	Cellinker;Wojtowicz2020	18.0	1.0	200	cache
+CD80	outgoing_from_anchor	CD80	CD28	CD28	True	True	False	True	True	False	BioGRID;CellChatDB;CellPhoneDB_Cellinker;Cellinker;DIP;HINT;HPRD;ICELLNET;KEGG-MEDICUS;LRdb;Lit-BM-17;NetPath;SPIKE;SPIKE_LC;Wang;Wojtowicz2020;connectomeDB2020;iTALK	431.0	29.0	200	cache
+CD80	outgoing_from_anchor	CD80	CTLA4	CTLA4	True	True	False	True	True	False	BioGRID;CellChatDB;CellPhoneDB_Cellinker;Cellinker;HINT;HPRD;ICELLNET;InnateDB;IntAct;KEGG-MEDICUS;LRdb;Lit-BM-17;NetPath;SPIKE;SPIKE_LC;Wang;Wojtowicz2020;connectomeDB2020;iTALK	462.0	27.0	200	cache
+CD80	outgoing_from_anchor	CD80	CD274	CD274	True	True	False	True	True	False	Baccin2019;CellChatDB;CellPhoneDB;CellPhoneDB_Cellinker;Cellinker;HINT;IntAct;Lit-BM-17;Wojtowicz2020;connectomeDB2020	330.0	19.0	200	cache
+CD80	outgoing_from_anchor	CD80	NGFR	NGFR	True	False	False	False	False	False	CellPhoneDB;Cellinker;ICELLNET;Lit-BM-17;Wojtowicz2020	55.0	3.0	200	cache
+DCLRE1B	incoming_to_anchor	HSPA1A	DCLRE1B	HSPA1A	True	True	False	True	True	False	SPIKE;SPIKE_LC	32.0	2.0	200	cache
+DCLRE1B	outgoing_from_anchor	DCLRE1B	ATR	ATR	True	True	False	True	True	False	SPIKE;SPIKE_LC	32.0	2.0	200	cache
+DCLRE1B	outgoing_from_anchor	DCLRE1B	ATM	ATM	True	True	False	True	True	False	SPIKE;SPIKE_LC	32.0	2.0	200	cache
+DCLRE1B	outgoing_from_anchor	DCLRE1B	TERF2	TERF2	True	True	False	True	True	False	BioGRID;HINT;IntAct;LMPID;Lit-BM-17;SPIKE;SPIKE_LC	305.0	19.0	200	cache
+DCLRE1B	outgoing_from_anchor	DCLRE1B	MUS81	MUS81	True	True	False	True	True	False	SPIKE;SPIKE_LC	32.0	4.0	200	cache
+FCGR2A	incoming_to_anchor	SYK	FCGR2A	SYK	True	True	False	True	True	False	BioGRID;CellTalkDB;HINT;HPRD;HPRD-phos;HPRD_KEA;HPRD_MIMP;InnateDB;KEA;LRdb;Li2012;MIMP;PhosphoNetworks;PhosphoPoint;PhosphoSite_KEA;PhosphoSite_MIMP;PhosphoSite_ProtMapper;PhosphoSite_noref;ProtMapper;SIGNOR;SIGNOR_ProtMapper;Wang;iPTMnet;phosphoELM;phosphoELM_KEA;phosphoELM_MIMP	275.0	18.0	200	cache
+FCGR2A	incoming_to_anchor	BLK	FCGR2A	BLK	True	True	False	True	True	False	HPRD;HPRD-phos;HPRD_KEA;HPRD_MIMP;KEA;MIMP;PhosphoNetworks;PhosphoPoint;PhosphoSite_KEA;PhosphoSite_MIMP;PhosphoSite_ProtMapper;ProtMapper;SIGNOR;SIGNOR_ProtMapper;iPTMnet;phosphoELM;phosphoELM_KEA;phosphoELM_MIMP	95.0	6.0	200	cache
+FCGR2A	incoming_to_anchor	FYN	FCGR2A	FYN	True	True	False	True	True	False	HPRD;HPRD-phos;HPRD_KEA;HPRD_MIMP;KEA;MIMP;PhosphoNetworks;PhosphoPoint;PhosphoSite_KEA;PhosphoSite_MIMP;PhosphoSite_ProtMapper;PhosphoSite_noref;ProtMapper;Reactome_ProtMapper;SIGNOR;SIGNOR_ProtMapper;iPTMnet;phosphoELM;phosphoELM_KEA;phosphoELM_MIMP	95.0	6.0	200	cache
+FCGR2A	incoming_to_anchor	LYN	FCGR2A	LYN	True	True	False	True	True	False	HPRD;HPRD-phos;HPRD_KEA;HPRD_MIMP;InnateDB;KEA;MIMP;PhosphoNetworks;PhosphoPoint;PhosphoSite_KEA;PhosphoSite_MIMP;PhosphoSite_ProtMapper;ProtMapper;Reactome_ProtMapper;SIGNOR;SIGNOR_ProtMapper;Wang;iPTMnet;phosphoELM;phosphoELM_KEA;phosphoELM_MIMP	112.0	7.0	200	cache
+FCGR2A	incoming_to_anchor	CXCL9	FCGR2A	CXCL9	True	False	False	False	False	False	CellTalkDB;HuRI	19.0	1.0	200	cache
+FCGR2A	incoming_to_anchor	LCN2	FCGR2A	LCN2	True	False	False	False	False	False	Cellinker;Wojtowicz2020	18.0	1.0	200	cache
+FCGR2A	incoming_to_anchor	SEMA3G	FCGR2A	SEMA3G	True	False	False	False	False	False	Cellinker;Wojtowicz2020	18.0	1.0	200	cache
+FCGR2A	incoming_to_anchor	ACP1	FCGR2A	ACP1	True	False	False	False	False	False	DEPOD	14.0	1.0	200	cache
+FCGR2A	incoming_to_anchor	SRC	FCGR2A	SRC	True	True	False	True	True	False	KEGG-MEDICUS;Li2012;ProtMapper;Reactome_ProtMapper;dbPTM	28.0	2.0	200	cache
+FCGR2A	incoming_to_anchor	EGFR	FCGR2A	EGFR	True	False	False	False	False	False	KEA;NetworKIN_KEA	12.0	1.0	200	cache
+FCGR2A	incoming_to_anchor	INSR	FCGR2A	INSR	True	False	False	False	False	False	KEA;NetworKIN_KEA	12.0	1.0	200	cache
+FCGR2A	outgoing_from_anchor	FCGR2A	BTNL8	BTNL8	True	False	False	False	False	False	Cellinker;Wojtowicz2020	18.0	1.0	200	cache
+FCGR2A	outgoing_from_anchor	FCGR2A	MPZ	MPZ	True	False	False	False	False	False	Cellinker;Wojtowicz2020	18.0	1.0	200	cache
+FCGR2A	outgoing_from_anchor	FCGR2A	PDGFRB	PDGFRB	True	False	False	False	False	False	Cellinker;Wojtowicz2020	18.0	1.0	200	cache
+FCGR2A	outgoing_from_anchor	FCGR2A	PDCD1	PDCD1	True	False	False	False	False	False	Cellinker	18.0	1.0	200	cache
+FCGR2A	outgoing_from_anchor	FCGR2A	TIGIT	TIGIT	True	False	False	False	False	False	Cellinker;Wojtowicz2020	18.0	1.0	200	cache
+FCGR2A	outgoing_from_anchor	FCGR2A	MOG	MOG	True	False	False	False	False	False	Cellinker;Wojtowicz2020	18.0	1.0	200	cache
+FCGR2A	outgoing_from_anchor	FCGR2A	ILDR1	ILDR1	True	False	False	False	False	False	Cellinker;Wojtowicz2020	18.0	1.0	200	cache
+FCGR2A	outgoing_from_anchor	FCGR2A	CD72	CD72	True	False	False	False	False	False	Cellinker;Wojtowicz2020	18.0	1.0	200	cache
+FCGR2A	outgoing_from_anchor	FCGR2A	TARM1	TARM1	True	False	False	False	False	False	Cellinker;Wojtowicz2020	18.0	1.0	200	cache
+FCGR2B	incoming_to_anchor	LYN	FCGR2B	LYN	True	True	False	True	True	False	HINT;HPRD;HPRD_KEA;HPRD_MIMP;KEA;MIMP;PhosphoNetworks;PhosphoPoint;PhosphoSite_KEA;PhosphoSite_MIMP;PhosphoSite_ProtMapper;ProtMapper;SIGNOR;SIGNOR_ProtMapper;Wang;iPTMnet;phosphoELM;phosphoELM_KEA;phosphoELM_MIMP	104.0	7.0	200	cache
+FCGR2B	incoming_to_anchor	MARCHF9	FCGR2B	MARCHF9	True	False	True	True	False	True	SIGNOR	15.0	1.0	200	cache
+FCGR2B	incoming_to_anchor	IGHG1_IGLC1	FCGR2B	IGHG1_IGLC1	True	False	False	False	False	False	Cellinker;ICELLNET	36.0	2.0	200	cache
+FCGR2B	incoming_to_anchor	FYN	FCGR2B	FYN	True	True	False	True	True	False	DOMINO;HPRD_MIMP;MIMP;PhosphoSite;PhosphoSite_MIMP;PhosphoSite_ProtMapper;ProtMapper;SPIKE_LC;Wang;iPTMnet;phosphoELM_MIMP	74.0	4.0	200	cache
+FCGR2B	incoming_to_anchor	BLK	FCGR2B	BLK	True	True	False	True	True	False	HPRD;HPRD_KEA;HPRD_MIMP;KEA;MIMP;PhosphoNetworks;PhosphoPoint;PhosphoSite_KEA;PhosphoSite_MIMP;PhosphoSite_ProtMapper;ProtMapper;Wang;iPTMnet;phosphoELM;phosphoELM_KEA;phosphoELM_MIMP	62.0	4.0	200	cache
+FCGR2B	incoming_to_anchor	SRC	FCGR2B	SRC	True	True	False	True	True	False	DOMINO;Li2012;SPIKE_LC;dbPTM	47.0	3.0	200	cache
+IL7R	incoming_to_anchor	JAK1	IL7R	JAK1	True	True	False	True	True	False	HPRD;InnateDB;NetPath;PhosphoPoint;ProtMapper;REACH_ProtMapper;SPIKE;SPIKE_LC;Wang	130.0	8.0	200	cache
+IL7R	incoming_to_anchor	JAK3	IL7R	JAK3	True	True	False	True	True	False	HPRD;InnateDB;NetPath;PhosphoPoint;ProtMapper;SPIKE;SPIKE_LC;Sparser_ProtMapper;Wang	133.0	8.0	200	cache
+IL7R	incoming_to_anchor	IL7	IL7R	IL7	True	True	False	True	True	False	Baccin2019;CellCall;CellTalkDB;DIP;DLRP_talklr;EMBRACE;Fantom5_LRdb;Guide2Pharma;HINT;HPMR;HPMR_LRdb;HPMR_talklr;HPRD;HPRD_LRdb;HPRD_talklr;InnateDB;IntAct;Kirouac2010;LRdb;Lit-BM-17;NetPath;Ramilowski2015;Ramilowski2015_Baccin2019;SIGNOR;SPIKE;SPIKE_LC;STRING_talklr;SignaLink3;UniProt_LRdb;Wang;connectomeDB2020;iTALK;talklr	567.0	34.0	200	cache
+IL7R	incoming_to_anchor	TSLP	IL7R	TSLP	True	True	False	True	True	False	Baccin2019;CellCall;CellTalkDB;EMBRACE;Fantom5_LRdb;Guide2Pharma;HINT;HPRD;HPRD_LRdb;HPRD_talklr;InnateDB;LRdb;NetPath;Ramilowski2015;Ramilowski2015_Baccin2019;UniProt_LRdb;Wang;connectomeDB2020;iTALK;scConnect;talklr	159.0	9.0	200	cache
+IL7R	incoming_to_anchor	KIT	IL7R	KIT	True	False	False	False	False	False	Cellinker;NetPath	35.0	2.0	200	cache
+IL7R	outgoing_from_anchor	IL7R	JAK1	JAK1	True	True	False	False	False	False	HPRD;InnateDB;NetPath;SIGNOR;Wang	93.0	6.0	200	cache
+IL7R	outgoing_from_anchor	IL7R	JAK3	JAK3	True	True	False	False	False	False	HPRD;InnateDB;NetPath;SPIKE;SPIKE_LC;Wang	91.0	6.0	200	cache
+IL7R	outgoing_from_anchor	IL7R	CRLF2	CRLF2	True	True	False	True	True	False	HINT;HPRD;NetPath;SignaLink3;Wang	84.0	5.0	200	cache
+IL7R	outgoing_from_anchor	IL7R	TNFRSF11B	TNFRSF11B	True	False	False	False	False	False	Cellinker	18.0	1.0	200	cache
+LPP	incoming_to_anchor	TGFB1	LPP	TGFB1	True	False	False	False	False	False	Cellinker	18.0	1.0	200	cache
+LPP	incoming_to_anchor	SRC	LPP	SRC	True	False	False	False	False	False	PhosphoSite;PhosphoSite_ProtMapper;PhosphoSite_noref;ProtMapper	20.0	1.0	200	cache
+LPP	incoming_to_anchor	FYN	LPP	FYN	True	False	False	False	False	False	KEA;NetworKIN_KEA	12.0	1.0	200	cache
+LPP	incoming_to_anchor	IGF1R	LPP	IGF1R	True	False	False	False	False	False	KEA;NetworKIN_KEA	12.0	1.0	200	cache
+LPP	incoming_to_anchor	INSR	LPP	INSR	True	False	False	False	False	False	KEA;NetworKIN_KEA	12.0	1.0	200	cache
+LPP	incoming_to_anchor	LCK	LPP	LCK	True	False	False	False	False	False	KEA;NetworKIN_KEA	12.0	1.0	200	cache
+NCF1	incoming_to_anchor	SPI1	NCF1	SPI1	True	False	False	False	False	False	SPIKE;SPIKE_LC	30.0	2.0	200	cache
+NCF1	incoming_to_anchor	PRKCB	NCF1	PRKCB	True	True	False	True	True	False	BioGRID;HINT;HPRD;KEA;MIMP;PhosphoPoint;PhosphoSite;PhosphoSite_KEA;PhosphoSite_MIMP;PhosphoSite_ProtMapper;ProtMapper;Reactome_ProtMapper;SIGNOR;SIGNOR_ProtMapper;SPIKE_LC;SignaLink3;TCRcuration_SignaLink3;Wang;iPTMnet;phosphoELM_MIMP	387.0	24.0	200	cache
+NCF1	incoming_to_anchor	PRKCD	NCF1	PRKCD	True	True	False	True	True	False	HINT;HPRD;KEA;MIMP;PhosphoSite;PhosphoSite_KEA;PhosphoSite_MIMP;PhosphoSite_ProtMapper;ProtMapper;Reactome_ProtMapper;SIGNOR;SIGNOR_ProtMapper;SPIKE_LC;SignaLink3;TCRcuration_SignaLink3;iPTMnet;phosphoELM_MIMP	320.0	21.0	200	cache
+NCF1	incoming_to_anchor	PRKCZ	NCF1	PRKCZ	True	True	False	True	True	False	BioGRID;HINT;HPRD;InnateDB;KEA;MIMP;PhosphoSite_KEA;PhosphoSite_MIMP;PhosphoSite_ProtMapper;ProtMapper;Reactome_ProtMapper;SIGNOR;SIGNOR_ProtMapper;iPTMnet;phosphoELM_MIMP	228.0	16.0	200	cache
+NCF1	incoming_to_anchor	PRKCA	NCF1	PRKCA	True	True	False	True	True	False	HINT;HPRD;KEA;MIMP;NetworKIN_KEA;PhosphoNetworks;PhosphoSite;PhosphoSite_KEA;PhosphoSite_MIMP;PhosphoSite_ProtMapper;PhosphoSite_noref;ProtMapper;Reactome_ProtMapper;SIGNOR;SIGNOR_ProtMapper;SPIKE_LC;Wang;iPTMnet;phosphoELM;phosphoELM_KEA;phosphoELM_MIMP	577.0	34.0	200	cache
+NCF1	incoming_to_anchor	MAPK3	NCF1	MAPK3	True	True	False	True	True	False	KEA;MIMP;PhosphoNetworks;PhosphoSite;PhosphoSite_KEA;PhosphoSite_MIMP;PhosphoSite_ProtMapper;ProtMapper;SIGNOR;SIGNOR_ProtMapper;iPTMnet;phosphoELM;phosphoELM_KEA;phosphoELM_MIMP	198.0	13.0	200	cache
+NCF1	incoming_to_anchor	IRAK4	NCF1	IRAK4	True	True	False	True	True	False	InnateDB;MIMP;PhosphoSite_MIMP;PhosphoSite_ProtMapper;PhosphoSite_noref;ProtMapper;SIGNOR;SIGNOR_ProtMapper;Wang;iPTMnet;phosphoELM_MIMP	53.0	3.0	200	cache
+NCF1	incoming_to_anchor	MAPK1	NCF1	MAPK1	True	True	False	True	True	False	KEA;MIMP;NetworKIN_KEA;PhosphoSite_MIMP;PhosphoSite_ProtMapper;ProtMapper;SIGNOR;SIGNOR_ProtMapper;iPTMnet;phosphoELM_MIMP	48.0	3.0	200	cache
+NCF1	incoming_to_anchor	AKT1	NCF1	AKT1	True	True	False	True	True	False	HPRD;InnateDB;MIMP;PhosphoSite;PhosphoSite_MIMP;PhosphoSite_ProtMapper;ProtMapper;SIGNOR;SIGNOR_ProtMapper;iPTMnet;phosphoELM_MIMP	193.0	10.0	200	cache
+NCF1	incoming_to_anchor	CSNK2A1	NCF1	CSNK2A1	True	False	False	False	False	False	HPRD;KEA;MIMP;PhosphoSite;PhosphoSite_KEA;PhosphoSite_MIMP;PhosphoSite_ProtMapper;PhosphoSite_noref;ProtMapper;iPTMnet;phosphoELM_MIMP	110.0	8.0	200	cache
+NCF1	incoming_to_anchor	MAPK14	NCF1	MAPK14	True	False	False	False	False	False	HPRD;KEA;MIMP;NetworKIN_KEA;PhosphoNetworks;PhosphoSite_KEA;PhosphoSite_MIMP;PhosphoSite_ProtMapper;PhosphoSite_noref;ProtMapper;Reactome_ProtMapper;iPTMnet;phosphoELM;phosphoELM_KEA;phosphoELM_MIMP	134.0	10.0	200	cache
+NCF1	incoming_to_anchor	CDK2	NCF1	CDK2	True	False	False	False	False	False	KEA;NetworKIN_KEA	12.0	1.0	200	cache
+NCF1	incoming_to_anchor	CSNK2A2	NCF1	CSNK2A2	True	False	False	False	False	False	HPRD;KEA;MIMP;PhosphoPoint;PhosphoSite_KEA;PhosphoSite_MIMP;phosphoELM_MIMP	89.0	7.0	200	cache
+NCF1	incoming_to_anchor	CSNK2B	NCF1	CSNK2B	True	False	False	False	False	False	HPRD;KEA;PhosphoSite_KEA	103.0	8.0	200	cache
+NCF1	incoming_to_anchor	GSK3B	NCF1	GSK3B	True	False	False	False	False	False	KEA;NetworKIN_KEA	12.0	1.0	200	cache
+NCF1	incoming_to_anchor	PRKDC	NCF1	PRKDC	True	False	False	False	False	False	KEA;NetworKIN_KEA	12.0	1.0	200	cache
+NCF1	incoming_to_anchor	PRKG1	NCF1	PRKG1	True	False	False	False	False	False	KEA;NetworKIN_KEA	12.0	1.0	200	cache
+NCF1	incoming_to_anchor	RPS6KA3	NCF1	RPS6KA3	True	False	False	False	False	False	KEA;NetworKIN_KEA	12.0	1.0	200	cache
+NCF1	outgoing_from_anchor	NCF1	NOX4	NOX4	True	False	False	False	False	False	SignaLink3;TCRcuration_SignaLink3	79.0	4.0	200	cache
+NCF1	outgoing_from_anchor	NCF1	NOX3	NOX3	True	True	False	True	True	False	SIGNOR;Wang	15.0	1.0	200	cache
+NCF1	outgoing_from_anchor	NCF1	CYBA	CYBA	True	True	False	True	True	False	HINT;HPRD;IntAct;Lit-BM-17;SIGNOR;SPIKE_LC;Wang	235.0	15.0	200	cache
+RGS14	incoming_to_anchor	PRKACA	RGS14	PRKACA	True	True	False	True	True	False	HPRD;HPRD_KEA;HPRD_MIMP;KEA;MIMP;PhosphoNetworks;PhosphoPoint;PhosphoSite_KEA;PhosphoSite_MIMP;ProtMapper;SIGNOR;SIGNOR_ProtMapper;Wang;iPTMnet;phosphoELM_MIMP	62.0	4.0	200	cache
+RGS14	incoming_to_anchor	PRKACB	RGS14	PRKACB	True	False	False	False	False	False	KEA;NetworKIN_KEA	12.0	1.0	200	cache
+RGS14	incoming_to_anchor	PRKDC	RGS14	PRKDC	True	False	False	False	False	False	KEA;NetworKIN_KEA	12.0	1.0	200	cache
+STAT4	incoming_to_anchor	MAPK14	STAT4	MAPK14	True	True	False	True	True	False	HPRD;HPRD-phos;HPRD_KEA;HPRD_MIMP;KEA;MIMP;NCI-PID_ProtMapper;PhosphoPoint;PhosphoSite_KEA;ProtMapper;SIGNOR;SIGNOR_ProtMapper;SPIKE;SPIKE_LC;SignaLink3;Wang;iPTMnet;phosphoELM_KEA;phosphoELM_MIMP	234.0	13.0	200	cache
+STAT4	incoming_to_anchor	PIAS2	STAT4	PIAS2	True	True	True	True	True	False	HPRD;SPIKE_LC;SignaLink3;Wang	71.0	4.0	200	cache
+STAT4	incoming_to_anchor	SOCS3	STAT4	SOCS3	True	True	False	True	True	False	SignaLink3	39.0	2.0	200	cache
+STAT4	incoming_to_anchor	JAK2	STAT4	JAK2	True	True	True	True	True	False	KEGG-MEDICUS;ProtMapper;REACH_ProtMapper;SIGNOR;SIGNOR_ProtMapper;SignaLink3;Sparser_ProtMapper;Wang;iPTMnet	95.0	5.0	200	cache
+STAT4	incoming_to_anchor	TYK2	STAT4	TYK2	True	True	True	True	True	False	Cui2007;ProtMapper;REACH_ProtMapper;RLIMS-P_ProtMapper;SIGNOR;SignaLink3;Sparser_ProtMapper;Wang	75.0	4.0	200	cache
+STAT4	incoming_to_anchor	MAP2K6	STAT4	MAP2K6	True	True	False	True	True	False	HPRD;HPRD-phos;HPRD_KEA;HPRD_MIMP;KEA;MIMP;PhosphoPoint;PhosphoSite_KEA;ProtMapper;REACH_ProtMapper;SIGNOR;SIGNOR_ProtMapper;iPTMnet;phosphoELM_MIMP	101.0	6.0	200	cache
+STAT4	outgoing_from_anchor	STAT4	LAMTOR5	LAMTOR5	True	True	False	True	True	False	SIGNOR	15.0	1.0	200	cache
+TNFRSF9	incoming_to_anchor	TNFSF9	TNFRSF9	TNFSF9	True	True	False	True	True	False	Baccin2019;CellChatDB;CellPhoneDB;CellTalkDB;Cellinker;Cui2007;DIP;DLRP_talklr;EMBRACE;Fantom5_LRdb;Guide2Pharma;Guide2Pharma_LRdb;Guide2Pharma_talklr;HINT;HPMR;HPMR_LRdb;HPMR_talklr;HPRD;HPRD_LRdb;HPRD_talklr;ICELLNET;LRdb;Ramilowski2015;Ramilowski2015_Baccin2019;SPIKE;SPIKE_LC;STRING_talklr;UniProt_LRdb;Wang;Wojtowicz2020;connectomeDB2020;iTALK;scConnect;talklr	460.0	28.0	200	cache
+TNFRSF9	outgoing_from_anchor	TNFRSF9	TNFSF9	TNFSF9	True	False	False	False	False	False	Baccin2019;Cui2007;DIP;HINT;HPMR;HPRD;Ramilowski2015_Baccin2019;Wang;Wojtowicz2020	180.0	13.0	200	cache
+TNFSF15	incoming_to_anchor	TNFRSF6B	TNFSF15	TNFRSF6B	True	False	True	False	False	False	CellPhoneDB;HINT;HPMR;HPRD;SIGNOR	57.0	4.0	200	cache
+TNFSF15	incoming_to_anchor	CD59	TNFSF15	CD59	True	False	False	False	False	False	Cellinker	18.0	1.0	200	cache
+TNFSF15	outgoing_from_anchor	TNFSF15	TNFRSF6B	TNFRSF6B	True	True	False	True	True	False	CellPhoneDB;CellTalkDB;Cellinker;Fantom5_LRdb;HINT;HPMR;HPRD;HPRD_LRdb;HPRD_talklr;ICELLNET;LRdb;Ramilowski2015;STRING_talklr;UniProt_LRdb;Wang;connectomeDB2020;iTALK;talklr	138.0	8.0	200	cache
+TNFSF15	outgoing_from_anchor	TNFSF15	TNFRSF25	TNFRSF25	True	True	False	True	True	False	CellChatDB;CellPhoneDB;CellTalkDB;Cellinker;DIP;Fantom5_LRdb;Guide2Pharma;Guide2Pharma_Cellinker;Guide2Pharma_LRdb;Guide2Pharma_talklr;HPMR;HPMR_Cellinker;HPMR_LRdb;HPMR_talklr;HPRD;HPRD_LRdb;HPRD_talklr;ICELLNET;InnateDB;LRdb;Ramilowski2015;SIGNOR;STRING_talklr;UniProt_LRdb;Wang;connectomeDB2020;iTALK;scConnect;talklr	171.0	10.0	200	cache
+RGS14	manual_seed_controller	PRKACA	RGS14	PRKACA	True						manual_seed_from_immediate_known_biology			200	manual
+RGS14	manual_seed_controller	HRAS	RGS14	HRAS	True						manual_seed_from_immediate_known_biology			200	manual
+RGS14	manual_seed_controller	RAF1	RGS14	RAF1	True						manual_seed_from_immediate_known_biology			200	manual
+RGS14	manual_seed_controller	RAP1A	RGS14	RAP1A	True						manual_seed_from_immediate_known_biology			200	manual
+CD274	manual_seed_controller	PDCD1	CD274	PDCD1	True						manual_seed_from_immediate_known_biology			200	manual
+CD274	manual_seed_controller	JAK1	CD274	JAK1	True						manual_seed_from_immediate_known_biology			200	manual
+CD274	manual_seed_controller	JAK2	CD274	JAK2	True						manual_seed_from_immediate_known_biology			200	manual
+CD274	manual_seed_controller	STAT1	CD274	STAT1	True						manual_seed_from_immediate_known_biology			200	manual
+CD274	manual_seed_controller	RELA	CD274	RELA	True						manual_seed_from_immediate_known_biology			200	manual
+CD80	manual_seed_controller	CD28	CD80	CD28	True						manual_seed_from_immediate_known_biology			200	manual
+CD80	manual_seed_controller	CTLA4	CD80	CTLA4	True						manual_seed_from_immediate_known_biology			200	manual
+CD80	manual_seed_controller	CD86	CD80	CD86	True						manual_seed_from_immediate_known_biology			200	manual
+TNFSF15	manual_seed_controller	TNFRSF25	TNFSF15	TNFRSF25	True						manual_seed_from_immediate_known_biology			200	manual
+TNFSF15	manual_seed_controller	NFKB1	TNFSF15	NFKB1	True						manual_seed_from_immediate_known_biology			200	manual
+TNFSF15	manual_seed_controller	RELA	TNFSF15	RELA	True						manual_seed_from_immediate_known_biology			200	manual
+FCGR2B	manual_seed_controller	SYK	FCGR2B	SYK	True						manual_seed_from_immediate_known_biology			200	manual
+FCGR2B	manual_seed_controller	INPP5D	FCGR2B	INPP5D	True						manual_seed_from_immediate_known_biology			200	manual
+FCGR2B	manual_seed_controller	LILRB1	FCGR2B	LILRB1	True						manual_seed_from_immediate_known_biology			200	manual
+FCGR2A	manual_seed_controller	SYK	FCGR2A	SYK	True						manual_seed_from_immediate_known_biology			200	manual
+FCGR2A	manual_seed_controller	FCER1G	FCGR2A	FCER1G	True						manual_seed_from_immediate_known_biology			200	manual
+NCF1	manual_seed_controller	CYBB	NCF1	CYBB	True						manual_seed_from_immediate_known_biology			200	manual
+NCF1	manual_seed_controller	NCF2	NCF1	NCF2	True						manual_seed_from_immediate_known_biology			200	manual
+NCF1	manual_seed_controller	NCF4	NCF1	NCF4	True						manual_seed_from_immediate_known_biology			200	manual
+NCF1	manual_seed_controller	RAC2	NCF1	RAC2	True						manual_seed_from_immediate_known_biology			200	manual
+IL7R	manual_seed_controller	JAK1	IL7R	JAK1	True						manual_seed_from_immediate_known_biology			200	manual
+IL7R	manual_seed_controller	JAK3	IL7R	JAK3	True						manual_seed_from_immediate_known_biology			200	manual
+IL7R	manual_seed_controller	STAT5A	IL7R	STAT5A	True						manual_seed_from_immediate_known_biology			200	manual
+IL7R	manual_seed_controller	STAT5B	IL7R	STAT5B	True						manual_seed_from_immediate_known_biology			200	manual
+STAT4	manual_seed_controller	JAK2	STAT4	JAK2	True						manual_seed_from_immediate_known_biology			200	manual
+STAT4	manual_seed_controller	TYK2	STAT4	TYK2	True						manual_seed_from_immediate_known_biology			200	manual
+STAT4	manual_seed_controller	IL12RB1	STAT4	IL12RB1	True						manual_seed_from_immediate_known_biology			200	manual
+STAT4	manual_seed_controller	IL12RB2	STAT4	IL12RB2	True						manual_seed_from_immediate_known_biology			200	manual
+TNFRSF9	manual_seed_controller	TRAF1	TNFRSF9	TRAF1	True						manual_seed_from_immediate_known_biology			200	manual
+TNFRSF9	manual_seed_controller	TRAF2	TNFRSF9	TRAF2	True						manual_seed_from_immediate_known_biology			200	manual
+TNFRSF9	manual_seed_controller	NFKB1	TNFRSF9	NFKB1	True						manual_seed_from_immediate_known_biology			200	manual
+TNFRSF9	manual_seed_controller	RELA	TNFRSF9	RELA	True						manual_seed_from_immediate_known_biology			200	manual

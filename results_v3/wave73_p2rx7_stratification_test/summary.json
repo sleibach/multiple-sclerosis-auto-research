@@ -1,0 +1,89 @@
+{
+  "broad_p2rx7_summary": [
+    {
+      "best_positive_context": "ibd_crohn_myeloid|Crohn disease|colon myeloid|effect=1.42|p=4.42e-06|fdr=6.44e-05",
+      "module": "p2rx7_inflammasome",
+      "negative_context_count": 0,
+      "negative_disease_count": 0,
+      "negative_diseases": "",
+      "positive_context_count": 5,
+      "positive_disease_count": 3,
+      "positive_diseases": "Crohn disease;type 1 diabetes mellitus;ulcerative colitis",
+      "positive_fdr10_context_count": 5,
+      "specificity_pass_context_count": 0,
+      "tested_context_count": 17
+    }
+  ],
+  "decision": {
+    "best_gse282122_response": {
+      "cell_state": "DC",
+      "combined_p": 0.2232812923152514,
+      "combined_z": 1.2178491775059896,
+      "dataset": "GSE282122",
+      "expected_direction_support": false,
+      "fdr": 0.49868891297808166,
+      "genes_present": "CASP1;GSDMD;IL1B;NLRP1;NLRP3;P2RX7;PYCARD",
+      "mean_effect": 0.08835910996782455,
+      "median_effect": 0.1191805558680366,
+      "module": "p2rx7_inflammasome",
+      "n_genes_present": 7,
+      "test": "remission_delta_difference"
+    },
+    "biochemical_purine_support": 1,
+    "broad_negative_diseases": "",
+    "broad_positive_diseases": "Crohn disease;type 1 diabetes mellitus;ulcerative colitis",
+    "candidate": "P2RX7_purinergic_inflammasome_stratification",
+    "cellstate_broad_support": 1,
+    "decision_reason": "biochemistry and cell-state support exist, but target-level validation is missing",
+    "gate_count": 2,
+    "gse282122_response_support": 0,
+    "ms_combined_p": 0.06082489025676918,
+    "ms_mean_effect": -0.21359586134899236,
+    "ms_module_anchor": 0,
+    "p2rx7_gene_level_anchor": 0,
+    "ra_response_row": {
+      "dataset": "GSE198520_RA_synovium_antiTNF",
+      "expected_direction_support": false,
+      "good_vs_other_delta": -0.06332583144547949,
+      "good_vs_other_fdr": 0.5929618047666811,
+      "good_vs_other_p": 0.5329247126716025,
+      "mean_post_minus_pre": -0.1402342401403561,
+      "modgood_vs_none_delta": -0.06557797991227464,
+      "modgood_vs_none_fdr": 0.5207949190808949,
+      "modgood_vs_none_p": 0.4909264566882204,
+      "module": "p2rx7_inflammasome",
+      "n_patients": 46,
+      "paired_fdr": 0.01001200436706063,
+      "paired_p": 0.0037367103192994674,
+      "paired_t": -3.0587164347733724
+    },
+    "ra_response_support": 0,
+    "specificity_vs_generic_modules": 0,
+    "wave72_supportive_diseases": "AS;Crohn;RA;T1D;UC",
+    "wave73_call": "PARK_P2RX7_STRATIFICATION_NEEDS_TARGET_LEVEL_DATA"
+  },
+  "inputs": {
+    "broad": "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv",
+    "gse282122_paired": "results_v3/wave68_gse282122_unrestricted_gene_screen/paired_gene_delta_tests.tsv",
+    "gse282122_raw": "results_v3/wave68_gse282122_unrestricted_gene_screen/raw_remission_response_gene_tests.tsv",
+    "ms_signature": "results_v3/gse111972_full_ms_wm_signature.tsv",
+    "ra_counts": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_counts_used.tsv",
+    "ra_meta": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_sample_metadata.tsv",
+    "wave72_decisions": "results_v3/wave72_lipid_mediator_intervention_scout/lipid_mediator_decisions.tsv"
+  },
+  "ms_p2rx7_summary": [
+    {
+      "combined_p": 0.06082489025676918,
+      "combined_z": -1.8747662347817755,
+      "dataset": "GSE111972_MS_white_matter",
+      "fdr": 0.09123733538515377,
+      "genes_present": "CASP1;GSDMD;IL1B;NLRP1;NLRP3;P2RX7;PYCARD",
+      "mean_effect": -0.21359586134899236,
+      "median_effect": -0.2348280075935918,
+      "module": "p2rx7_inflammasome",
+      "n_genes_present": 7,
+      "support_call": "NO_MS_MODULE_SUPPORT"
+    }
+  ],
+  "random_seed": 20260527
+}

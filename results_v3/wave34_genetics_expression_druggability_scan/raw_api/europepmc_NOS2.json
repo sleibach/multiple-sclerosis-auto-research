@@ -1,0 +1,56 @@
+{
+  "payload": {
+    "hitCount": 26263,
+    "nextCursorMark": "AoIIQSPAbig1NDc1NTM4OA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=NOS2 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQSPAbig1NDc1NTM4OA==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "NOS2 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Tiffany E, Kim KS, Sittipo P, Lee DW, Lee YK.",
+          "citedByCount": 0,
+          "doi": "10.1080/19490976.2026.2614054",
+          "firstIndexDate": "2026-01-24",
+          "firstPublicationDate": "2026-01-23",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12834151"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41572837",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "1",
+          "journalIssn": "1949-0976; 1949-0984; ",
+          "journalTitle": "Gut Microbes",
+          "journalVolume": "18",
+          "pageInfo": "2614054",
+          "pmcid": "PMC12834151",
+          "pmid": "41572837",
+          "pubType": "review-article; review; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Mucin-degrading gut bacteria: context-dependent roles in intestinal homeostasis and disease."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=NOS2+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

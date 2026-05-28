@@ -1,0 +1,26 @@
+{
+  "api_calls": 16,
+  "date": "2026-05-27",
+  "input": "results_v3/wave27_l1000_unknown_deconvolution/unknown_l1000_deconvolution.tsv",
+  "interpretation": "The only Wave27 external-lookup survivor, BRD-A72180425/K784-3188, resolves to PubChem CID 3689416 and ChEMBL CHEMBL1472126, an ML162 analog/RAS-selective-lethal probe-family compound. Public target and mechanism resources do not provide a selective autoimmune target; the compound has a single L1000 opposite query and cytotoxic electrophile-probe context. The perturbation-first repurposing branch therefore remains closed.",
+  "n_parked_external_lookup_rows": 1,
+  "output_paths": {
+    "api_call_log": "results_v3/wave41_l1000_external_unknown_deconvolution/api_call_log.tsv",
+    "chembl_targets": "results_v3/wave41_l1000_external_unknown_deconvolution/chembl_target_activity_summary.tsv",
+    "deconvolution": "results_v3/wave41_l1000_external_unknown_deconvolution/external_unknown_deconvolution.tsv",
+    "raw_api_dir": "results_v3/wave41_l1000_external_unknown_deconvolution/raw_api"
+  },
+  "promotion_allowed_count": 0,
+  "random_seed": 20260527,
+  "resolved_identities": [
+    {
+      "no_go_reasons": "single L1000 opposite-query hit, no recurrence across module signatures | no approved or clinical-phase ChEMBL development status | ChEMBL mechanism endpoint has zero target-mechanism records | L1000FWD DMOA report lists known MOA and target(s) as Unknown | NCBI Bookshelf places BRD-A72180425 in ML162/RAS-selective-lethal probe SAR, not autoimmune therapeutics | contains chloroacetamide-like electrophile motif consistent with reactive/cytotoxic probe chemistry",
+      "pert_id": "BRD-A72180425",
+      "resolved_identity": "CHEMBL1472126 / PubChem CID 3689416 / ML162 analog-like Broad probe SAR member",
+      "wave41_call": "NO_GO_CYTOTOXIC_PROBE_ANALOG"
+    }
+  ],
+  "wave41_call_counts": {
+    "NO_GO_CYTOTOXIC_PROBE_ANALOG": 1
+  }
+}

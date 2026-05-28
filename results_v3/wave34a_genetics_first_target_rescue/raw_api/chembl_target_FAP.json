@@ -1,0 +1,1851 @@
+{
+  "error": "",
+  "payload": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 5
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Mus musculus",
+        "pref_name": "Prolyl endopeptidase FAP",
+        "score": 20.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL5769",
+        "target_components": [
+          {
+            "accession": "P97321",
+            "component_description": "Prolyl endopeptidase FAP",
+            "component_id": 4153,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "3.4.14.5",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "3.4.21.-",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "3.4.21.26",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "Antiplasmin-cleaving enzyme FAP, soluble form",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "APCE",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Dipeptidyl peptidase FAP",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Fap",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "FAPalpha",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Fibroblast activation protein alpha",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Gelatine degradation protease FAP",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Integral membrane serine protease",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Post-proline cleaving enzyme",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Prolyl endopeptidase FAP",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Seprase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Serine integral membrane protease",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "SIMP",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Surface-expressed protease",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0002020",
+                "xref_name": "protease binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0004175",
+                "xref_name": "endopeptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0004252",
+                "xref_name": "serine-type endopeptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005178",
+                "xref_name": "integrin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008233",
+                "xref_name": "peptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008236",
+                "xref_name": "serine-type peptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008239",
+                "xref_name": "dipeptidyl-peptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042802",
+                "xref_name": "identical protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042803",
+                "xref_name": "protein homodimerization activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001525",
+                "xref_name": "angiogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006508",
+                "xref_name": "proteolysis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006915",
+                "xref_name": "apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007155",
+                "xref_name": "cell adhesion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010716",
+                "xref_name": "negative regulation of extracellular matrix disassembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043542",
+                "xref_name": "endothelial cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051603",
+                "xref_name": "proteolysis involved in protein catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051726",
+                "xref_name": "regulation of cell cycle",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060244",
+                "xref_name": "negative regulation of cell proliferation involved in contact inhibition",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097325",
+                "xref_name": "melanocyte proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1900119",
+                "xref_name": "positive regulation of execution phase of apoptosis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1902362",
+                "xref_name": "melanocyte apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1903054",
+                "xref_name": "negative regulation of extracellular matrix organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009986",
+                "xref_name": "cell surface",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030027",
+                "xref_name": "lamellipodium",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031258",
+                "xref_name": "lamellipodium membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0032587",
+                "xref_name": "ruffle membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0042995",
+                "xref_name": "cell projection",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0045177",
+                "xref_name": "apical part of cell",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0045178",
+                "xref_name": "basal part of cell",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070161",
+                "xref_name": "anchoring junction",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:1905368",
+                "xref_name": "peptidase complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "P97321",
+                "xref_name": "Prolyl endopeptidase FAP",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P97321",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P97321",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR029058",
+                "xref_name": "AB_hydrolase_fold",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002471",
+                "xref_name": "Pept_S9_AS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001375",
+                "xref_name": "Peptidase_S9_cat",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002469",
+                "xref_name": "Peptidase_S9B_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050278",
+                "xref_name": "Serine_Prot_S9B/DPPIV",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR11731:SF136",
+                "xref_name": "PROLYL ENDOPEPTIDASE FAP",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR11731",
+                "xref_name": "PROTEASE FAMILY S9B,C DIPEPTIDYL-PEPTIDASE IV-RELATED",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00930",
+                "xref_name": "DPPIV_N",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00326",
+                "xref_name": "Peptidase_S9",
+                "xref_src_db": "Pfam"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 10090
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Prolyl endopeptidase FAP",
+        "score": 19.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL4683",
+        "target_components": [
+          {
+            "accession": "Q12884",
+            "component_description": "Prolyl endopeptidase FAP",
+            "component_id": 3001,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "170 kDa melanoma membrane-bound gelatinase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "3.4.14.5",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "3.4.21.-",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "3.4.21.26",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "Antiplasmin-cleaving enzyme FAP, soluble form",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "APCE",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Dipeptidyl peptidase FAP",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "FAP",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "FAPalpha",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Fibroblast activation protein alpha",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Gelatine degradation protease FAP",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Integral membrane serine protease",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Post-proline cleaving enzyme",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Prolyl endopeptidase FAP",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Seprase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Serine integral membrane protease",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "SIMP",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Surface-expressed protease",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "6Y0F",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1Z68",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0002020",
+                "xref_name": "protease binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0004175",
+                "xref_name": "endopeptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0004252",
+                "xref_name": "serine-type endopeptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005178",
+                "xref_name": "integrin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008233",
+                "xref_name": "peptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008236",
+                "xref_name": "serine-type peptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008239",
+                "xref_name": "dipeptidyl-peptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042802",
+                "xref_name": "identical protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042803",
+                "xref_name": "protein homodimerization activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001525",
+                "xref_name": "angiogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006508",
+                "xref_name": "proteolysis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006915",
+                "xref_name": "apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007155",
+                "xref_name": "cell adhesion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010716",
+                "xref_name": "negative regulation of extracellular matrix disassembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043542",
+                "xref_name": "endothelial cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051603",
+                "xref_name": "proteolysis involved in protein catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051726",
+                "xref_name": "regulation of cell cycle",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051917",
+                "xref_name": "regulation of fibrinolysis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060244",
+                "xref_name": "negative regulation of cell proliferation involved in contact inhibition",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097325",
+                "xref_name": "melanocyte proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1900119",
+                "xref_name": "positive regulation of execution phase of apoptosis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1902362",
+                "xref_name": "melanocyte apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1903054",
+                "xref_name": "negative regulation of extracellular matrix organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005925",
+                "xref_name": "focal adhesion",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009986",
+                "xref_name": "cell surface",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016020",
+                "xref_name": "membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030027",
+                "xref_name": "lamellipodium",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031258",
+                "xref_name": "lamellipodium membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0032587",
+                "xref_name": "ruffle membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0042995",
+                "xref_name": "cell projection",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0045177",
+                "xref_name": "apical part of cell",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0045178",
+                "xref_name": "basal part of cell",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070161",
+                "xref_name": "anchoring junction",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:1905368",
+                "xref_name": "peptidase complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "Q12884",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "O00199",
+                "xref_name": "Prolyl endopeptidase FAP",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q53TP5",
+                "xref_name": "Prolyl endopeptidase FAP",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q86Z29",
+                "xref_name": "Prolyl endopeptidase FAP",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q99998",
+                "xref_name": "Prolyl endopeptidase FAP",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UID4",
+                "xref_name": "Prolyl endopeptidase FAP",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q12884",
+                "xref_name": "Prolyl endopeptidase FAP",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "1Z68",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6Y0F",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9DVQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "9DVR",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "Q12884",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "HGNC:3590",
+                "xref_name": "FAP",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "Q12884",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "Q12884",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR029058",
+                "xref_name": "AB_hydrolase_fold",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002471",
+                "xref_name": "Pept_S9_AS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001375",
+                "xref_name": "Peptidase_S9_cat",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002469",
+                "xref_name": "Peptidase_S9B_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050278",
+                "xref_name": "Serine_Prot_S9B/DPPIV",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR11731:SF136",
+                "xref_name": "PROLYL ENDOPEPTIDASE FAP",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR11731",
+                "xref_name": "PROTEASE FAMILY S9B,C DIPEPTIDYL-PEPTIDASE IV-RELATED",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00930",
+                "xref_name": "DPPIV_N",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00326",
+                "xref_name": "Peptidase_S9",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA28003",
+                "xref_name": "fibroblast activation protein alpha",
+                "xref_src_db": "PharmGKB"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Bos taurus",
+        "pref_name": "Prolyl endopeptidase FAP",
+        "score": 19.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL3734641",
+        "target_components": [
+          {
+            "accession": "A5D7B7",
+            "component_description": "Prolyl endopeptidase FAP",
+            "component_id": 16874,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "3.4.14.5",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "3.4.21.-",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "3.4.21.26",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "Antiplasmin-cleaving enzyme FAP, soluble form",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "APCE",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Dipeptidyl peptidase FAP",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "FAP",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "FAPalpha",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Fibroblast activation protein alpha",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Gelatine degradation protease FAP",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Integral membrane serine protease",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Post-proline cleaving enzyme",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Prolyl endopeptidase FAP",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Seprase",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Serine integral membrane protease",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "SIMP",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Surface-expressed protease",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "ZIP",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Z-Pro-prolinal insensitive peptidase",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "GO:0002020",
+                "xref_name": "protease binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0004175",
+                "xref_name": "endopeptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0004252",
+                "xref_name": "serine-type endopeptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005178",
+                "xref_name": "integrin binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008233",
+                "xref_name": "peptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008236",
+                "xref_name": "serine-type peptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008239",
+                "xref_name": "dipeptidyl-peptidase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042802",
+                "xref_name": "identical protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042803",
+                "xref_name": "protein homodimerization activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001525",
+                "xref_name": "angiogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006508",
+                "xref_name": "proteolysis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006915",
+                "xref_name": "apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007155",
+                "xref_name": "cell adhesion",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010716",
+                "xref_name": "negative regulation of extracellular matrix disassembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043542",
+                "xref_name": "endothelial cell migration",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051603",
+                "xref_name": "proteolysis involved in protein catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051726",
+                "xref_name": "regulation of cell cycle",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060244",
+                "xref_name": "negative regulation of cell proliferation involved in contact inhibition",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097325",
+                "xref_name": "melanocyte proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1900119",
+                "xref_name": "positive regulation of execution phase of apoptosis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1902362",
+                "xref_name": "melanocyte apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1903054",
+                "xref_name": "negative regulation of extracellular matrix organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009986",
+                "xref_name": "cell surface",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030027",
+                "xref_name": "lamellipodium",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031258",
+                "xref_name": "lamellipodium membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0032587",
+                "xref_name": "ruffle membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0042995",
+                "xref_name": "cell projection",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0045177",
+                "xref_name": "apical part of cell",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0045178",
+                "xref_name": "basal part of cell",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070161",
+                "xref_name": "anchoring junction",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:1905368",
+                "xref_name": "peptidase complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "A5D7B7",
+                "xref_name": "Prolyl endopeptidase FAP",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "A5D7B7",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "IPR029058",
+                "xref_name": "AB_hydrolase_fold",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002471",
+                "xref_name": "Pept_S9_AS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001375",
+                "xref_name": "Peptidase_S9_cat",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002469",
+                "xref_name": "Peptidase_S9B_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR050278",
+                "xref_name": "Serine_Prot_S9B/DPPIV",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR11731:SF136",
+                "xref_name": "PROLYL ENDOPEPTIDASE FAP",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR11731",
+                "xref_name": "PROTEASE FAMILY S9B,C DIPEPTIDYL-PEPTIDASE IV-RELATED",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF00930",
+                "xref_name": "DPPIV_N",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00326",
+                "xref_name": "Peptidase_S9",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA28003",
+                "xref_name": "fibroblast activation protein alpha",
+                "xref_src_db": "PharmGKB"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9913
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Glomulin",
+        "score": 14.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL5465342",
+        "target_components": [
+          {
+            "accession": "Q92990",
+            "component_description": "Glomulin",
+            "component_id": 22877,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "FAP",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "FAP68 GN  ",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "FK506-binding protein-associated protein",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "FKBP-associated protein",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "GLMN",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Glomulin",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Synonyms=FAP48",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "VMGLOM",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "4F52",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0007166",
+                "xref_name": "cell surface receptor signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0008285",
+                "xref_name": "negative regulation of cell population proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032743",
+                "xref_name": "positive regulation of interleukin-2 production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005102",
+                "xref_name": "signaling receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005171",
+                "xref_name": "hepatocyte growth factor receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031625",
+                "xref_name": "ubiquitin protein ligase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0055105",
+                "xref_name": "ubiquitin-protein transferase inhibitor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001570",
+                "xref_name": "vasculogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001819",
+                "xref_name": "positive regulation of cytokine production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001843",
+                "xref_name": "neural tube closure",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042130",
+                "xref_name": "negative regulation of T cell proliferation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042327",
+                "xref_name": "positive regulation of phosphorylation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042692",
+                "xref_name": "muscle cell differentiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0072359",
+                "xref_name": "circulatory system development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031461",
+                "xref_name": "cullin-RING ubiquitin ligase complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031462",
+                "xref_name": "Cul2-RING ubiquitin ligase complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031463",
+                "xref_name": "Cul3-RING ubiquitin ligase complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031464",
+                "xref_name": "Cul4A-RING E3 ubiquitin ligase complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "Q5VVC3",
+                "xref_name": "Glomulin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9BVE8",
+                "xref_name": "Glomulin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q92990",
+                "xref_name": "Glomulin",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "4F52",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "Q92990",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "Q92990",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:14373",
+                "xref_name": "GLMN",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-983168",
+                "xref_name": "Antigen processing: Ubiquitination & Proteasome degradation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "Q92990",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "Q92990",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR019516",
+                "xref_name": "Glomulin/ALF4",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013877",
+                "xref_name": "YAP-bd/ALF4/Glomulin",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR15430",
+                "xref_name": "GLOMULIN",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR15430:SF1",
+                "xref_name": "GLOMULIN",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF08568",
+                "xref_name": "Kinetochor_Ybp2",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA134870088",
+                "xref_name": "glomulin, FKBP associated protein",
+                "xref_src_db": "PharmGKB"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Tyrosine-protein phosphatase non-receptor type 13",
+        "score": 11.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL2976",
+        "target_components": [
+          {
+            "accession": "Q12923",
+            "component_description": "Tyrosine-protein phosphatase non-receptor type 13",
+            "component_id": 1307,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "3.1.3.48",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "FAP-1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Fas-associated protein-tyrosine phosphatase 1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "hPTPE1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "PNP1",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "Protein-tyrosine phosphatase 1E",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Protein-tyrosine phosphatase PTPL1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "PTP1E",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "PTP-BAS",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "PTP-E1",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "PTPL1",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "PTPN13",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Tyrosine-protein phosphatase non-receptor type 13",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "5GLJ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3LNX",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1WCH",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3LNY",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7XTY",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "GO:0004721",
+                "xref_name": "phosphoprotein phosphatase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0004725",
+                "xref_name": "protein tyrosine phosphatase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0004726",
+                "xref_name": "non-membrane spanning protein tyrosine phosphatase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0030946",
+                "xref_name": "protein tyrosine phosphatase activity, metal-dependent",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0036312",
+                "xref_name": "phosphatidylinositol 3-kinase regulatory subunit binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0140793",
+                "xref_name": "histone H2AXY142 phosphatase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0001933",
+                "xref_name": "negative regulation of protein phosphorylation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006470",
+                "xref_name": "protein dephosphorylation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035335",
+                "xref_name": "peptidyl-tyrosine dephosphorylation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051896",
+                "xref_name": "regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097237",
+                "xref_name": "cellular response to toxic substance",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1904890",
+                "xref_name": "negative regulation of excitatory synapse assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0005634",
+                "xref_name": "nucleus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0001650",
+                "xref_name": "fibrillar center",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005654",
+                "xref_name": "nucleoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005856",
+                "xref_name": "cytoskeleton",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0030027",
+                "xref_name": "lamellipodium",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0042995",
+                "xref_name": "cell projection",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0044297",
+                "xref_name": "cell body",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "B2RTR0",
+                "xref_name": "Tyrosine-protein phosphatase non-receptor type 13",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q15159",
+                "xref_name": "Tyrosine-protein phosphatase non-receptor type 13",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q15263",
+                "xref_name": "Tyrosine-protein phosphatase non-receptor type 13",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q15264",
+                "xref_name": "Tyrosine-protein phosphatase non-receptor type 13",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q15265",
+                "xref_name": "Tyrosine-protein phosphatase non-receptor type 13",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q15674",
+                "xref_name": "Tyrosine-protein phosphatase non-receptor type 13",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q16826",
+                "xref_name": "Tyrosine-protein phosphatase non-receptor type 13",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q8IWH7",
+                "xref_name": "Tyrosine-protein phosphatase non-receptor type 13",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9NYN9",
+                "xref_name": "Tyrosine-protein phosphatase non-receptor type 13",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UDA8",
+                "xref_name": "Tyrosine-protein phosphatase non-receptor type 13",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q12923",
+                "xref_name": "Tyrosine-protein phosphatase non-receptor type 13",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "1D5G",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1Q7X",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1WCH",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2M0Z",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2M10",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3LNX",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3LNY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3PDZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5GLJ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7QCX",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7QCY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7XTY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "Q12923",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "Q12923",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "HGNC:9646",
+                "xref_name": "PTPN13",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "R-HSA-1660499",
+                "xref_name": "Synthesis of PIPs at the plasma membrane",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9008059",
+                "xref_name": "Interleukin-37 signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9696264",
+                "xref_name": "RND3 GTPase cycle",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9696270",
+                "xref_name": "RND2 GTPase cycle",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9696273",
+                "xref_name": "RND1 GTPase cycle",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "Q12923",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "Q12923",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "IPR019749",
+                "xref_name": "Band_41_domain",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR014352",
+                "xref_name": "FERM/acyl-CoA-bd_prot_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR035963",
+                "xref_name": "FERM_2",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR019748",
+                "xref_name": "FERM_central",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000299",
+                "xref_name": "FERM_domain",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR018979",
+                "xref_name": "FERM_N",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR018980",
+                "xref_name": "FERM_PH-like_C",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR011019",
+                "xref_name": "KIND_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR052074",
+                "xref_name": "NonRcpt_TyrProt_Phosphatase",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001478",
+                "xref_name": "PDZ",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR036034",
+                "xref_name": "PDZ_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR011993",
+                "xref_name": "PH-like_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR029021",
+                "xref_name": "Prot-tyrosine_phosphatase-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000242",
+                "xref_name": "PTP_cat",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR012153",
+                "xref_name": "PTPN13",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR003595",
+                "xref_name": "Tyr_Pase_cat",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000387",
+                "xref_name": "Tyr_Pase_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR029071",
+                "xref_name": "Ubiquitin-like_domsf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR46900",
+                "xref_name": "TYROSINE-PROTEIN PHOSPHATASE NON-RECEPTOR TYPE 13",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR46900:SF1",
+                "xref_name": "TYROSINE-PROTEIN PHOSPHATASE NON-RECEPTOR TYPE 13",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PF09380",
+                "xref_name": "FERM_C",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00373",
+                "xref_name": "FERM_M",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF09379",
+                "xref_name": "FERM_N",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00595",
+                "xref_name": "PDZ",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF16599",
+                "xref_name": "PTN13_u3",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00102",
+                "xref_name": "Y_phosphatase",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA33988",
+                "xref_name": "protein tyrosine phosphatase non-receptor type 13",
+                "xref_src_db": "PharmGKB"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "status": "ok",
+  "url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=FAP"
+}

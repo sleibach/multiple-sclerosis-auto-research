@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr7",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000128604.19",
+        "geneSymbol": "IRF5",
+        "geneSymbolUpper": "IRF5",
+        "nes": -0.375734,
+        "ontologyId": "UBERON:0013756",
+        "pValue": 0.000129484,
+        "pos": 128873245,
+        "snpId": "rs181055987",
+        "snpIdUpper": "RS181055987",
+        "tissueSiteDetailId": "Whole_Blood",
+        "variantId": "chr7_128873245_C_T_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 378,
+      "page": 0,
+      "totalNumberOfItems": 378
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000128604.19&tissueSiteDetailId=Whole_Blood&datasetId=gtex_v8&itemsPerPage=1"
+}

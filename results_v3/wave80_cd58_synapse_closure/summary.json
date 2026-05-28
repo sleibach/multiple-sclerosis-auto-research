@@ -1,0 +1,19 @@
+{
+  "call": "PARK_CD58_RA_ONLY_PRIOR_ART_BLOCKED",
+  "decision_text": "Park CD58 as an RA-only response-state comparator: RA retains some signal after mixture/synapse adjustment, but IBD replication is absent and the intervention route is prior-art blocked.",
+  "ibd_any_baseline_full_p10": false,
+  "ibd_baseline_full_min_p": 0.7903372161866677,
+  "ibd_n_patient_cellstate_rows": 58,
+  "ibd_n_patients": 30,
+  "inputs": {
+    "ibd_h5ad": "data/raw_v3/wave67_gse282122_myeloid/myeloid_final.h5ad",
+    "ra_counts": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_counts_used.tsv",
+    "ra_metadata": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_sample_metadata.tsv"
+  },
+  "interpretation": "closure/falsification only; prior art blocks intervention novelty",
+  "ra_baseline_full_abs_coef_ratio": 0.5933932845344019,
+  "ra_baseline_full_coef": 0.540226391415028,
+  "ra_baseline_full_p": 0.08459358127296267,
+  "ra_n_patients": 46,
+  "seed": 20260527
+}

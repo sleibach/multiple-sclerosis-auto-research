@@ -1,0 +1,347 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ACXCL8%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11971003",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11978786",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "1840701",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "18692776",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "1891716",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "2145175",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "2212672",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "7636208",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "8662698",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9623510",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Chemotactic factor that mediates inflammatory response by attracting neutrophils, basophils, and T-cells to clear pathogens and protect the host from infection (PubMed:18692776, PubMed:7636208). Also plays an important role in neutrophil activation (PubMed:2145175, PubMed:9623510). Released in response to an inflammatory stimulus, exerts its effect by binding to the G-protein-coupled receptors CXCR1 and CXCR2, primarily found in neutrophils, monocytes and endothelial cells (PubMed:1840701, PubMed:1891716). G-protein heterotrimer (alpha, beta, gamma subunits) constitutively binds to CXCR1/CXCR2 receptor and activation by IL8 leads to beta and gamma subunits release from Galpha (GNAI2 in neutrophils) and activation of several downstream signaling pathways including PI3K and MAPK pathways (PubMed:11971003, PubMed:8662698)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000000DD0"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "CXCL8"
+          },
+          "synonyms": [
+            {
+              "value": "IL8"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P10145",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "C-X-C motif chemokine 8"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Chemokine (C-X-C motif) ligand 8"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Emoctakin"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Granulocyte chemotactic protein 1"
+            },
+            "shortNames": [
+              {
+                "value": "GCP-1"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Monocyte-derived neutrophil chemotactic factor"
+            },
+            "shortNames": [
+              {
+                "value": "MDNCF"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Monocyte-derived neutrophil-activating peptide"
+            },
+            "shortNames": [
+              {
+                "value": "MONAP"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Neutrophil-activating protein 1"
+            },
+            "shortNames": [
+              {
+                "value": "NAP-1"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Protein 3-10C"
+            }
+          },
+          {
+            "fullName": {
+              "value": "T-cell chemotactic factor"
+            }
+          }
+        ],
+        "contains": [
+          {
+            "alternativeNames": [
+              {
+                "fullName": {
+                  "value": "GCP/IL-8 protein IV"
+                }
+              },
+              {
+                "fullName": {
+                  "value": "IL8/NAP1 form I"
+                }
+              }
+            ],
+            "recommendedName": {
+              "fullName": {
+                "value": "MDNCF-a"
+              }
+            }
+          },
+          {
+            "alternativeNames": [
+              {
+                "fullName": {
+                  "value": "(Ala-IL-8)77"
+                }
+              },
+              {
+                "fullName": {
+                  "value": "GCP/IL-8 protein II"
+                }
+              },
+              {
+                "fullName": {
+                  "value": "IL-8(1-77)"
+                }
+              },
+              {
+                "fullName": {
+                  "value": "IL8/NAP1 form II"
+                }
+              },
+              {
+                "fullName": {
+                  "value": "MDNCF-b"
+                }
+              }
+            ],
+            "recommendedName": {
+              "fullName": {
+                "value": "Interleukin-8"
+              }
+            }
+          },
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "IL-8(5-77)"
+              }
+            }
+          },
+          {
+            "alternativeNames": [
+              {
+                "fullName": {
+                  "value": "(Ser-IL-8)72"
+                }
+              },
+              {
+                "fullName": {
+                  "value": "GCP/IL-8 protein I"
+                }
+              },
+              {
+                "fullName": {
+                  "value": "IL8/NAP1 form III"
+                }
+              },
+              {
+                "fullName": {
+                  "value": "Lymphocyte-derived neutrophil-activating factor"
+                },
+                "shortNames": [
+                  {
+                    "value": "LYNAP"
+                  }
+                ]
+              },
+              {
+                "fullName": {
+                  "value": "MDNCF-c"
+                }
+              },
+              {
+                "fullName": {
+                  "value": "Neutrophil-activating factor"
+                },
+                "shortNames": [
+                  {
+                    "value": "NAF"
+                  }
+                ]
+              }
+            ],
+            "recommendedName": {
+              "fullName": {
+                "value": "IL-8(6-77)"
+              }
+            }
+          },
+          {
+            "alternativeNames": [
+              {
+                "fullName": {
+                  "value": "GCP/IL-8 protein V"
+                }
+              },
+              {
+                "fullName": {
+                  "value": "IL8/NAP1 form IV"
+                }
+              }
+            ],
+            "recommendedName": {
+              "fullName": {
+                "value": "IL-8(7-77)"
+              }
+            }
+          },
+          {
+            "alternativeNames": [
+              {
+                "fullName": {
+                  "value": "GCP/IL-8 protein VI"
+                }
+              },
+              {
+                "fullName": {
+                  "value": "IL8/NAP1 form V"
+                }
+              }
+            ],
+            "recommendedName": {
+              "fullName": {
+                "value": "IL-8(8-77)"
+              }
+            }
+          },
+          {
+            "alternativeNames": [
+              {
+                "fullName": {
+                  "value": "GCP/IL-8 protein III"
+                }
+              },
+              {
+                "fullName": {
+                  "value": "IL8/NAP1 form VI"
+                }
+              }
+            ],
+            "recommendedName": {
+              "fullName": {
+                "value": "IL-8(9-77)"
+              }
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "Interleukin-8"
+          },
+          "shortNames": [
+            {
+              "value": "IL-8"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

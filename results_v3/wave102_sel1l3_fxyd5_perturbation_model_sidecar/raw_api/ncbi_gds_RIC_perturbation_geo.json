@@ -1,0 +1,532 @@
+{
+  "json": {
+    "esearchresult": {
+      "count": "25",
+      "idlist": [
+        "200255527",
+        "200255526",
+        "200255525",
+        "200255524",
+        "200243723"
+      ],
+      "querytranslation": "RIC[All Fields] AND (knockdown[All Fields] OR knockout[All Fields] OR knock-out[All Fields] OR CRISPR[All Fields] OR (\"rna, small interfering\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR siRNA[All Fields]) OR (\"rna, small interfering\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR shRNA[All Fields]) OR overexpression[All Fields] OR perturbation[All Fields])",
+      "retmax": "5",
+      "retstart": "0",
+      "translationset": [
+        {
+          "from": "CRISPR",
+          "to": "CRISPR[All Fields]"
+        },
+        {
+          "from": "siRNA",
+          "to": "\"rna, small interfering\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR siRNA[All Fields]"
+        },
+        {
+          "from": "shRNA",
+          "to": "\"rna, small interfering\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR shRNA[All Fields]"
+        }
+      ],
+      "translationstack": [
+        {
+          "count": "3873",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "RIC[All Fields]"
+        },
+        {
+          "count": "84631",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "knockdown[All Fields]"
+        },
+        {
+          "count": "128483",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "knockout[All Fields]"
+        },
+        "OR",
+        {
+          "count": "26896",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "knock-out[All Fields]"
+        },
+        "OR",
+        {
+          "count": "55911",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "CRISPR[All Fields]"
+        },
+        "OR",
+        {
+          "count": "84043",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "\"rna, small interfering\"[All Fields]"
+        },
+        {
+          "count": "84043",
+          "explode": "Y",
+          "field": "MeSH Terms",
+          "term": "\"rna, small interfering\"[MeSH Terms]"
+        },
+        "OR",
+        {
+          "count": "83983",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "siRNA[All Fields]"
+        },
+        "OR",
+        "GROUP",
+        "OR",
+        {
+          "count": "84043",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "\"rna, small interfering\"[All Fields]"
+        },
+        {
+          "count": "84043",
+          "explode": "Y",
+          "field": "MeSH Terms",
+          "term": "\"rna, small interfering\"[MeSH Terms]"
+        },
+        "OR",
+        {
+          "count": "64825",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "shRNA[All Fields]"
+        },
+        "OR",
+        "GROUP",
+        "OR",
+        {
+          "count": "53056",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "overexpression[All Fields]"
+        },
+        "OR",
+        {
+          "count": "14889",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "perturbation[All Fields]"
+        },
+        "OR",
+        "GROUP",
+        "AND"
+      ]
+    },
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    }
+  },
+  "status": 200,
+  "summary_json": {
+    "header": {
+      "type": "esummary",
+      "version": "0.3"
+    },
+    "result": {
+      "200243723": {
+        "accession": "GSE243723",
+        "bioproject": "PRJNA1018971",
+        "entrytype": "GSE",
+        "extrelations": [],
+        "ftplink": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE243nnn/GSE243723/",
+        "gds": "",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "geo2r": "no",
+        "gpl": "20301",
+        "gse": "243723",
+        "n_samples": 8,
+        "pdat": "2023/11/06",
+        "platformtaxa": "",
+        "platformtitle": "",
+        "projects": [],
+        "ptechtype": "",
+        "pubmedids": [
+          "41106388"
+        ],
+        "relations": [],
+        "samples": [
+          {
+            "accession": "GSM7794790",
+            "title": "H1K5 cells, RIC-KO, Rep1"
+          },
+          {
+            "accession": "GSM7794787",
+            "title": "H1C3 cells, RIC-WT, Rep2"
+          },
+          {
+            "accession": "GSM7794784",
+            "title": "H1C1 cells, RIC-WT, Rep1"
+          },
+          {
+            "accession": "GSM7794788",
+            "title": "H1K1 cells, RIC-KO, Rep1"
+          },
+          {
+            "accession": "GSM7794785",
+            "title": "H1C1 cells, RIC-WT, Rep2"
+          },
+          {
+            "accession": "GSM7794791",
+            "title": "H1K5 cells, RIC-KO, Rep2"
+          },
+          {
+            "accession": "GSM7794789",
+            "title": "H1K1 cells, RIC-KO, Rep2"
+          },
+          {
+            "accession": "GSM7794786",
+            "title": "H1C3 cells, RIC-WT, Rep1"
+          }
+        ],
+        "samplestaxa": "",
+        "seriestitle": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "summary": "The mechanistic target of rapamycin complex 2 (mTORC2) is essential for embryonic development but the underlying molecular mechanisms remain unclear. Here we show that disruption of mTORC2 in human embryonic stem cells (hESCs) considerably alters the balance of Rho/Rac signaling and reduces cell adhesion. Although these changes have no clear effect on their self-renewal and the expression of pluripotent markers, they significantly impede BMP-induced activation of canonical WNT genes, leading to impaired mesendoderm differentiation. Direct activation of the downstream WNT pathway by inhibiting GSK3 dramatically improves mesendoderm differentiation in mTORC2-deficient hESCs. Our studies uncover a new mechanism by which mTORC2 regulates cell fate determination and link the intercellular contacts with the activation of WNT genes.",
+        "suppfile": "RESULTS",
+        "taxon": "Homo sapiens",
+        "title": "mTORC2-mediated cell-cell interaction promote BMP4-induced WNT activation and mesoderm differentiation",
+        "uid": "200243723",
+        "valtype": ""
+      },
+      "200255524": {
+        "accession": "GSE255524",
+        "bioproject": "PRJNA1075150",
+        "entrytype": "GSE",
+        "extrelations": [],
+        "ftplink": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE255nnn/GSE255524/",
+        "gds": "",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "geo2r": "no",
+        "gpl": "24247",
+        "gse": "255524",
+        "n_samples": 19,
+        "pdat": "2025/11/25",
+        "platformtaxa": "",
+        "platformtitle": "",
+        "projects": [],
+        "ptechtype": "",
+        "pubmedids": [
+          "40118054"
+        ],
+        "relations": [],
+        "samples": [
+          {
+            "accession": "GSM8073792",
+            "title": "liver, CDAHFD_RIC, rep3"
+          },
+          {
+            "accession": "GSM8073775",
+            "title": "liver, NC_sham, rep1"
+          },
+          {
+            "accession": "GSM8073789",
+            "title": "liver, CDAHFD_sham, rep5"
+          },
+          {
+            "accession": "GSM8073778",
+            "title": "liver, NC_sham, rep4"
+          },
+          {
+            "accession": "GSM8073781",
+            "title": "liver, NC_RIC, rep2"
+          },
+          {
+            "accession": "GSM8073777",
+            "title": "liver, NC_sham, rep3"
+          },
+          {
+            "accession": "GSM8073786",
+            "title": "liver, CDAHFD_sham, rep2"
+          },
+          {
+            "accession": "GSM8073780",
+            "title": "liver, NC_RIC, rep1"
+          },
+          {
+            "accession": "GSM8073783",
+            "title": "liver, NC_RIC, rep4"
+          },
+          {
+            "accession": "GSM8073779",
+            "title": "liver, NC_sham, rep5"
+          },
+          {
+            "accession": "GSM8073785",
+            "title": "liver, CDAHFD_sham, rep1"
+          },
+          {
+            "accession": "GSM8073782",
+            "title": "liver, NC_RIC, rep3"
+          },
+          {
+            "accession": "GSM8073788",
+            "title": "liver, CDAHFD_sham, rep4"
+          },
+          {
+            "accession": "GSM8073776",
+            "title": "liver, NC_sham, rep2"
+          },
+          {
+            "accession": "GSM8073791",
+            "title": "liver, CDAHFD_RIC, rep2"
+          },
+          {
+            "accession": "GSM8073784",
+            "title": "liver, NC_RIC, rep5"
+          },
+          {
+            "accession": "GSM8073787",
+            "title": "liver, CDAHFD_sham, rep3"
+          },
+          {
+            "accession": "GSM8073790",
+            "title": "liver, CDAHFD_RIC, rep1"
+          },
+          {
+            "accession": "GSM8073793",
+            "title": "liver, CDAHFD_RIC, rep4"
+          }
+        ],
+        "samplestaxa": "",
+        "seriestitle": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "summary": "Nonalcoholic steatohepatitis (NASH) is an advanced form of nonalcoholic fatty liver disease with adverse outcomes that currently lacks approved medication. Muscle-liver interaction has emerged as one of the critical determinants governing NASH progression. Here, we report that remote limb ischemic conditioning (RIC), a clinically validated therapy for distant ischemic organ protection by transient muscle ischemia, significantly alleviated NASH in different mouse models. The anti-NASH effect of chronic RIC treatment was mediated by the muscle-to-liver transfer of extracellular vesicles (EVs) and their cargo microRNAs, leading to elevation of miR-181d-5p in the liver. Hepatic miR-181d-5p overexpression faithfully mirrored the benefits of RIC treatment via suppression of nuclear receptor 4A3. Furthermore, administration of circulating EVs from human volunteers undergoing RIC treatment improved NASH phenotypes and transcriptomic perturbations in primary human hepatocytes and animal models. Our data underscore the translational potential of RIC treatment for NASH management and extend our understanding of muscle-liver crosstalk.",
+        "suppfile": "CSV",
+        "taxon": "Mus musculus",
+        "title": "Remote limb ischemic conditioning alleviates nonalcoholic steatohepatitis via extracellular vesicle-mediated muscle-liver crosstalk [RIC Sham]",
+        "uid": "200255524",
+        "valtype": ""
+      },
+      "200255525": {
+        "accession": "GSE255525",
+        "bioproject": "PRJNA1075151",
+        "entrytype": "GSE",
+        "extrelations": [],
+        "ftplink": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE255nnn/GSE255525/",
+        "gds": "",
+        "gdstype": "Non-coding RNA profiling by high throughput sequencing",
+        "geo2r": "no",
+        "gpl": "21273",
+        "gse": "255525",
+        "n_samples": 8,
+        "pdat": "2025/11/25",
+        "platformtaxa": "",
+        "platformtitle": "",
+        "projects": [],
+        "ptechtype": "",
+        "pubmedids": [
+          "40118054"
+        ],
+        "relations": [],
+        "samples": [
+          {
+            "accession": "GSM8073799",
+            "title": "plasma extracellular vesicles, RIC, rep2"
+          },
+          {
+            "accession": "GSM8073796",
+            "title": "plasma extracellular vesicles, sham, rep3"
+          },
+          {
+            "accession": "GSM8073801",
+            "title": "plasma extracellular vesicles, RIC, rep4"
+          },
+          {
+            "accession": "GSM8073798",
+            "title": "plasma extracellular vesicles, RIC, rep1"
+          },
+          {
+            "accession": "GSM8073795",
+            "title": "plasma extracellular vesicles, sham, rep2"
+          },
+          {
+            "accession": "GSM8073794",
+            "title": "plasma extracellular vesicles, sham, rep1"
+          },
+          {
+            "accession": "GSM8073797",
+            "title": "plasma extracellular vesicles, sham, rep4"
+          },
+          {
+            "accession": "GSM8073800",
+            "title": "plasma extracellular vesicles, RIC, rep3"
+          }
+        ],
+        "samplestaxa": "",
+        "seriestitle": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "summary": "Nonalcoholic steatohepatitis (NASH) is an advanced form of nonalcoholic fatty liver disease with adverse outcomes that currently lacks approved medication. Muscle-liver interaction has emerged as one of the critical determinants governing NASH progression. Here, we report that remote limb ischemic conditioning (RIC), a clinically validated therapy for distant ischemic organ protection by transient muscle ischemia, significantly alleviated NASH in different mouse models. The anti-NASH effect of chronic RIC treatment was mediated by the muscle-to-liver transfer of extracellular vesicles (EVs) and their cargo microRNAs, leading to elevation of miR-181d-5p in the liver. Hepatic miR-181d-5p overexpression faithfully mirrored the benefits of RIC treatment via suppression of nuclear receptor 4A3. Furthermore, administration of circulating EVs from human volunteers undergoing RIC treatment improved NASH phenotypes and transcriptomic perturbations in primary human hepatocytes and animal models. Our data underscore the translational potential of RIC treatment for NASH management and extend our understanding of muscle-liver crosstalk.",
+        "suppfile": "CSV",
+        "taxon": "Mus musculus",
+        "title": "Remote limb ischemic conditioning alleviates nonalcoholic steatohepatitis via extracellular vesicle-mediated muscle-liver crosstalk [EV miRNA]",
+        "uid": "200255525",
+        "valtype": ""
+      },
+      "200255526": {
+        "accession": "GSE255526",
+        "bioproject": "PRJNA1075153",
+        "entrytype": "GSE",
+        "extrelations": [],
+        "ftplink": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE255nnn/GSE255526/",
+        "gds": "",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "geo2r": "no",
+        "gpl": "21273",
+        "gse": "255526",
+        "n_samples": 10,
+        "pdat": "2025/11/25",
+        "platformtaxa": "",
+        "platformtitle": "",
+        "projects": [],
+        "ptechtype": "",
+        "pubmedids": [
+          "40118054"
+        ],
+        "relations": [],
+        "samples": [
+          {
+            "accession": "GSM8073806",
+            "title": "liver, control AAV, rep5"
+          },
+          {
+            "accession": "GSM8073803",
+            "title": "liver, control AAV, rep2"
+          },
+          {
+            "accession": "GSM8073809",
+            "title": "liver, AAV-miR-181d-5p, rep3"
+          },
+          {
+            "accession": "GSM8073811",
+            "title": "liver, AAV-miR-181d-5p, rep5"
+          },
+          {
+            "accession": "GSM8073808",
+            "title": "liver, AAV-miR-181d-5p, rep2"
+          },
+          {
+            "accession": "GSM8073805",
+            "title": "liver, control AAV, rep4"
+          },
+          {
+            "accession": "GSM8073802",
+            "title": "liver, control AAV, rep1"
+          },
+          {
+            "accession": "GSM8073810",
+            "title": "liver, AAV-miR-181d-5p, rep4"
+          },
+          {
+            "accession": "GSM8073807",
+            "title": "liver, AAV-miR-181d-5p, rep1"
+          },
+          {
+            "accession": "GSM8073804",
+            "title": "liver, control AAV, rep3"
+          }
+        ],
+        "samplestaxa": "",
+        "seriestitle": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "summary": "Nonalcoholic steatohepatitis (NASH) is an advanced form of nonalcoholic fatty liver disease with adverse outcomes that currently lacks approved medication. Muscle-liver interaction has emerged as one of the critical determinants governing NASH progression. Here, we report that remote limb ischemic conditioning (RIC), a clinically validated therapy for distant ischemic organ protection by transient muscle ischemia, significantly alleviated NASH in different mouse models. The anti-NASH effect of chronic RIC treatment was mediated by the muscle-to-liver transfer of extracellular vesicles (EVs) and their cargo microRNAs, leading to elevation of miR-181d-5p in the liver. Hepatic miR-181d-5p overexpression faithfully mirrored the benefits of RIC treatment via suppression of nuclear receptor 4A3. Furthermore, administration of circulating EVs from human volunteers undergoing RIC treatment improved NASH phenotypes and transcriptomic perturbations in primary human hepatocytes and animal models. Our data underscore the translational potential of RIC treatment for NASH management and extend our understanding of muscle-liver crosstalk.",
+        "suppfile": "CSV",
+        "taxon": "Mus musculus",
+        "title": "Remote limb ischemic conditioning alleviates nonalcoholic steatohepatitis via extracellular vesicle-mediated muscle-liver crosstalk [miR_181_RNAseq]",
+        "uid": "200255526",
+        "valtype": ""
+      },
+      "200255527": {
+        "accession": "GSE255527",
+        "bioproject": "PRJNA1075152",
+        "entrytype": "GSE",
+        "extrelations": [],
+        "ftplink": "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE255nnn/GSE255527/",
+        "gds": "",
+        "gdstype": "Expression profiling by high throughput sequencing",
+        "geo2r": "no",
+        "gpl": "24247",
+        "gse": "255527",
+        "n_samples": 8,
+        "pdat": "2025/11/25",
+        "platformtaxa": "",
+        "platformtitle": "",
+        "projects": [],
+        "ptechtype": "",
+        "pubmedids": [
+          "40118054"
+        ],
+        "relations": [],
+        "samples": [
+          {
+            "accession": "GSM8073816",
+            "title": "liver, RIC_hEV, rep1"
+          },
+          {
+            "accession": "GSM8073813",
+            "title": "liver, ctr_hEV, rep2"
+          },
+          {
+            "accession": "GSM8073819",
+            "title": "liver, RIC_hEV, rep4"
+          },
+          {
+            "accession": "GSM8073815",
+            "title": "liver, ctr_hEV, rep4"
+          },
+          {
+            "accession": "GSM8073812",
+            "title": "liver, ctr_hEV, rep1"
+          },
+          {
+            "accession": "GSM8073818",
+            "title": "liver, RIC_hEV, rep3"
+          },
+          {
+            "accession": "GSM8073817",
+            "title": "liver, RIC_hEV, rep2"
+          },
+          {
+            "accession": "GSM8073814",
+            "title": "liver, ctr_hEV, rep3"
+          }
+        ],
+        "samplestaxa": "",
+        "seriestitle": "",
+        "ssinfo": "",
+        "subsetinfo": "",
+        "summary": "Nonalcoholic steatohepatitis (NASH) is an advanced form of nonalcoholic fatty liver disease with adverse outcomes that currently lacks approved medication. Muscle-liver interaction has emerged as one of the critical determinants governing NASH progression. Here, we report that remote limb ischemic conditioning (RIC), a clinically validated therapy for distant ischemic organ protection by transient muscle ischemia, significantly alleviated NASH in different mouse models. The anti-NASH effect of chronic RIC treatment was mediated by the muscle-to-liver transfer of extracellular vesicles (EVs) and their cargo microRNAs, leading to elevation of miR-181d-5p in the liver. Hepatic miR-181d-5p overexpression faithfully mirrored the benefits of RIC treatment via suppression of nuclear receptor 4A3. Furthermore, administration of circulating EVs from human volunteers undergoing RIC treatment improved NASH phenotypes and transcriptomic perturbations in primary human hepatocytes and animal models. Our data underscore the translational potential of RIC treatment for NASH management and extend our understanding of muscle-liver crosstalk.",
+        "suppfile": "CSV",
+        "taxon": "Mus musculus",
+        "title": "Remote limb ischemic conditioning alleviates nonalcoholic steatohepatitis via extracellular vesicle-mediated muscle-liver crosstalk [hEV_RNAseq]",
+        "uid": "200255527",
+        "valtype": ""
+      },
+      "uids": [
+        "200255527",
+        "200255526",
+        "200255525",
+        "200255524",
+        "200243723"
+      ]
+    }
+  },
+  "summary_status": 200,
+  "summary_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=gds&id=200255527%2C200255526%2C200255525%2C200255524%2C200243723&retmode=json",
+  "text": null,
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=RIC%5BAll+Fields%5D+AND+%28knockdown+OR+knockout+OR+knock-out+OR+CRISPR+OR+siRNA+OR+shRNA+OR+overexpression+OR+perturbation%29&retmode=json&retmax=5"
+}

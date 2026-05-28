@@ -1,0 +1,56 @@
+{
+  "payload": {
+    "hitCount": 1086,
+    "nextCursorMark": "AoIIQTn+Wyg1NDU3NjQ0MA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PSMB9 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQTn+Wyg1NDU3NjQ0MA==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "PSMB9 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Han PF, Cui WR, He FZ, Wu T, Liao CS.",
+          "citedByCount": 0,
+          "doi": "10.1371/journal.pone.0339397",
+          "firstIndexDate": "2026-01-04",
+          "firstPublicationDate": "2026-01-02",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12758813"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41481752",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "1",
+          "journalIssn": "1932-6203",
+          "journalTitle": "PLoS One",
+          "journalVolume": "21",
+          "pageInfo": "e0339397",
+          "pmcid": "PMC12758813",
+          "pmid": "41481752",
+          "pubType": "research-article; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Analysis of common differential gene expression between rheumatoid arthritis and ulcerative colitis."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PSMB9+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

@@ -1,0 +1,195 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15545625",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15632201",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15988001",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17005863",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17379067",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "19557001",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20166753",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "21460850",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Regulates cell growth, proliferation and survival via inhibition of the activity of the mammalian target of rapamycin complex 1 (mTORC1). Inhibition of mTORC1 is mediated by a pathway that involves DDIT4/REDD1, AKT1, the TSC1-TSC2 complex and the GTPase RHEB. Plays an important role in responses to cellular energy levels and cellular stress, including responses to hypoxia and DNA damage. Regulates p53/TP53-mediated apoptosis in response to DNA damage via its effect on mTORC1 activity. Its role in the response to hypoxia depends on the cell type; it mediates mTORC1 inhibition in fibroblasts and thymocytes, but not in hepatocytes (By similarity). Required for mTORC1-mediated defense against viral protein synthesis and virus replication (By similarity). Inhibits neuronal differentiation and neurite outgrowth mediated by NGF via its effect on mTORC1 activity. Required for normal neuron migration during embryonic brain development. Plays a role in neuronal cell death"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "id": "SL-0173",
+                "value": "Mitochondrion"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "12453409",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0091",
+                "value": "Cytoplasm, cytosol"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000004EC6A"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "DDIT4"
+          },
+          "synonyms": [
+            {
+              "value": "REDD1"
+            },
+            {
+              "value": "RTP801"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0051",
+          "name": "Antiviral defense"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0053",
+          "name": "Apoptosis"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0963",
+          "name": "Cytoplasm"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-0903",
+          "name": "Direct protein sequencing"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0496",
+          "name": "Mitochondrion"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0832",
+          "name": "Ubl conjugation"
+        }
+      ],
+      "primaryAccession": "Q9NX09",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "HIF-1 responsive protein RTP801"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Protein regulated in development and DNA damage response 1"
+            },
+            "shortNames": [
+              {
+                "value": "REDD-1"
+              }
+            ]
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "DNA damage-inducible transcript 4 protein"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "774E941EBDD08198",
+        "length": 232,
+        "md5": "2851859A845F7AA734C41C435CD2C644",
+        "molWeight": 25371,
+        "value": "MPSLWDRFSSSSTSSSPSSLPRTPTPDRPPRSAWGSATREEGFDRSTSLESSDCESLDSSNSGFGPEEDTAYLDGVSLPDFELLSDPEDEHLCANLMQLLQESLAQARLGSRRPARLLMPSQLVSQVGKELLRLAYSEPCGLRGALLDVCVEQGKSCHSVGQLALDPSLVPTFQLTLVLRLDSRLWPKIQGLFSSANSPFLPGFSQSLTLSTGFRVIKKKLYSSEQLLIEEC"
+      },
+      "uniProtkbId": "DDIT4_HUMAN"
+    }
+  ]
+}

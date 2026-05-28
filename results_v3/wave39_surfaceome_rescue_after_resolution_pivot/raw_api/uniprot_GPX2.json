@@ -1,0 +1,240 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "36608588",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "8428933",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Catalyzes the reduction of hydroperoxides in a glutathione-dependent manner thus regulating cellular redox homeostasis (PubMed:36608588, PubMed:8428933). Can reduce small soluble hydroperoxides such as H2O2, cumene hydroperoxide and tert-butyl hydroperoxide, as well as several fatty acid-derived hydroperoxides (PubMed:36608588, PubMed:8428933). Cannot reduce phosphatidycholine hydroperoxide (PubMed:8428933)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "8428933",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0091",
+                "value": "Cytoplasm, cytosol"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00001B2F3B"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "O70325",
+              "source": "UniProtKB"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 40
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 40
+            }
+          },
+          "type": "Active site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "id": "Ref.9",
+                "source": "Reference"
+              },
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:4554",
+                "source": "HGNC"
+              }
+            ],
+            "value": "GPX2"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0963",
+          "name": "Cytoplasm"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0560",
+          "name": "Oxidoreductase"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0575",
+          "name": "Peroxidase"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0712",
+          "name": "Selenocysteine"
+        }
+      ],
+      "primaryAccession": "P18283",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Gastrointestinal glutathione peroxidase"
+            }
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "8428933",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Glutathione peroxidase-gastrointestinal"
+            },
+            "shortNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "8428933",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "GPx-GI"
+              },
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "8428933",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "GSHPx-GI"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Glutathione peroxidase-related protein 2"
+            },
+            "shortNames": [
+              {
+                "value": "GPRP-2"
+              }
+            ]
+          },
+          {
+            "ecNumbers": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "36608588",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "1.11.1.12"
+              }
+            ],
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "36608588",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Phospholipid hydroperoxide glutathione peroxidase GPX2"
+            }
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "8428933",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "1.11.1.9"
+            }
+          ],
+          "fullName": {
+            "value": "Glutathione peroxidase 2"
+          },
+          "shortNames": [
+            {
+              "value": "GPx-2"
+            },
+            {
+              "value": "GSHPx-2"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "FC8C4E69C4DE83A0",
+        "length": 190,
+        "md5": "C9706D122D1A0B634EAE16C6CDA6AC3D",
+        "molWeight": 21954,
+        "value": "MAFIAKSFYDLSAISLDGEKVDFNTFRGRAVLIENVASLUGTTTRDFTQLNELQCRFPRRLVVLGFPCNQFGHQENCQNEEILNSLKYVRPGGGYQPTFTLVQKCEVNGQNEHPVFAYLKDKLPYPYDDPFSLMTDPKLIIWSPVRRSDVAWNFEKFLIGPEGEPFRRYSRTFPTINIEPDIKRLLKVAI"
+      },
+      "uniProtkbId": "GPX2_HUMAN"
+    }
+  ]
+}

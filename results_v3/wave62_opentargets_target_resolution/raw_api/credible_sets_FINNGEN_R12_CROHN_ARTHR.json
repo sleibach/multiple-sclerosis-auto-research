@@ -1,0 +1,73 @@
+{
+  "data": {
+    "credibleSets": {
+      "count": 1,
+      "rows": [
+        {
+          "beta": 0.509330337642527,
+          "chromosome": "7",
+          "colocalisation": {
+            "count": 1,
+            "rows": [
+              {
+                "betaRatioSignAverage": -1,
+                "clpp": 0.030459795671319463,
+                "colocalisationMethod": "COLOC_PIP_ECAVIAR",
+                "h4": 0.9721044906028308,
+                "otherStudyLocus": {
+                  "qtlGeneId": null,
+                  "study": {
+                    "biosample": {
+                      "biosampleId": "UBERON_0000178",
+                      "biosampleName": "blood"
+                    },
+                    "studyType": "eqtl",
+                    "target": {
+                      "approvedName": "trinucleotide repeat containing 18",
+                      "approvedSymbol": "TNRC18",
+                      "id": "ENSG00000182095"
+                    },
+                    "traitFromSource": "ENSG00000182095"
+                  },
+                  "studyId": "lepik_2017_ge_blood_ensg00000182095",
+                  "studyType": "eqtl"
+                },
+                "rightStudyType": "eqtl"
+              }
+            ]
+          },
+          "confidence": "SuSiE fine-mapped credible set with in-sample LD",
+          "finemappingMethod": "SuSie",
+          "l2GPredictions": {
+            "count": 1,
+            "rows": [
+              {
+                "score": 0.6926220655441284,
+                "target": {
+                  "approvedName": "trinucleotide repeat containing 18",
+                  "approvedSymbol": "TNRC18",
+                  "id": "ENSG00000182095"
+                }
+              }
+            ]
+          },
+          "pValueExponent": -8,
+          "pValueMantissa": 1.5369999408721924,
+          "position": 5397122,
+          "purityMeanR2": 0.777315891687,
+          "purityMinR2": 0.601156767649,
+          "standardError": 0.147972,
+          "studyId": "FINNGEN_R12_CROHN_ARTHR",
+          "studyLocusId": "33fb63a8212520ed00432d04997e29fe",
+          "studyType": "gwas",
+          "variant": {
+            "id": "7_5397122_C_T",
+            "rsIds": [
+              "rs748670681"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "search": {
+    "esearchresult": {
+      "count": "858",
+      "idlist": [
+        "34290407",
+        "39547438",
+        "38353580",
+        "37725372",
+        "38042110",
+        "39366931",
+        "39630885",
+        "40576580"
+      ],
+      "querytranslation": "(\"npc1 protein human\"[Supplementary Concept] OR \"npc1 protein human\"[All Fields] OR \"npc1\"[All Fields] OR (\"npc2 protein human\"[Supplementary Concept] OR \"npc2 protein human\"[All Fields] OR \"npc2\"[All Fields] OR \"niemann pick disease type c2\"[Supplementary Concept] OR \"niemann pick disease type c2\"[All Fields]) OR \"Niemann-Pick type C\"[All Fields] OR (\"cyclodextrine\"[All Fields] OR \"cyclodextrines\"[All Fields] OR \"cyclodextrins\"[Supplementary Concept] OR \"cyclodextrins\"[All Fields] OR \"cyclodextrin\"[All Fields] OR \"cyclodextrins\"[MeSH Terms])) AND (\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields] OR (\"macrophagal\"[All Fields] OR \"macrophage s\"[All Fields] OR \"macrophageal\"[All Fields] OR \"macrophages\"[MeSH Terms] OR \"macrophages\"[All Fields] OR \"macrophage\"[All Fields] OR \"macrophagic\"[All Fields]) OR (\"microglia\"[MeSH Terms] OR \"microglia\"[All Fields] OR \"microglias\"[All Fields] OR \"microglia s\"[All Fields]) OR \"multiple sclerosis\"[All Fields])",
+      "retmax": "8",
+      "retstart": "0",
+      "translationset": [
+        {
+          "from": "NPC1",
+          "to": "\"npc1 protein, human\"[Supplementary Concept] OR \"npc1 protein, human\"[All Fields] OR \"npc1\"[All Fields]"
+        },
+        {
+          "from": "NPC2",
+          "to": "\"npc2 protein, human\"[Supplementary Concept] OR \"npc2 protein, human\"[All Fields] OR \"npc2\"[All Fields] OR \"niemann-pick disease, type c2\"[Supplementary Concept] OR \"niemann-pick disease, type c2\"[All Fields]"
+        },
+        {
+          "from": "cyclodextrin",
+          "to": "\"cyclodextrine\"[All Fields] OR \"cyclodextrines\"[All Fields] OR \"cyclodextrins\"[Supplementary Concept] OR \"cyclodextrins\"[All Fields] OR \"cyclodextrin\"[All Fields] OR \"cyclodextrins\"[MeSH Terms]"
+        },
+        {
+          "from": "autoimmune",
+          "to": "\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields]"
+        },
+        {
+          "from": "macrophage",
+          "to": "\"macrophagal\"[All Fields] OR \"macrophage's\"[All Fields] OR \"macrophageal\"[All Fields] OR \"macrophages\"[MeSH Terms] OR \"macrophages\"[All Fields] OR \"macrophage\"[All Fields] OR \"macrophagic\"[All Fields]"
+        },
+        {
+          "from": "microglia",
+          "to": "\"microglia\"[MeSH Terms] OR \"microglia\"[All Fields] OR \"microglias\"[All Fields] OR \"microglia's\"[All Fields]"
+        }
+      ]
+    },
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    }
+  },
+  "summaries": {
+    "data": {
+      "error": "{\"error\":\"API rate limit exceeded\",\"api-key\":\"77.0.170.234\",\"count\":\"4\",\"limit\":\"3\"}\n"
+    },
+    "status": 429
+  }
+}

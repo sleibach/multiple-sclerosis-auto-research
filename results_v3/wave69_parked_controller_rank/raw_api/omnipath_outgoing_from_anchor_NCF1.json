@@ -1,0 +1,61 @@
+[
+  {
+    "consensus_direction": false,
+    "consensus_inhibition": false,
+    "consensus_stimulation": false,
+    "curation_effort": 4,
+    "is_directed": true,
+    "is_inhibition": false,
+    "is_stimulation": false,
+    "references": "SignaLink3:15258578;SignaLink3:10336447;SignaLink3:23109003;SignaLink3:10029572",
+    "source": "P14598",
+    "source_genesymbol": "NCF1",
+    "sources": [
+      "SignaLink3",
+      "TCRcuration_SignaLink3"
+    ],
+    "target": "Q9NPH5",
+    "target_genesymbol": "NOX4"
+  },
+  {
+    "consensus_direction": true,
+    "consensus_inhibition": false,
+    "consensus_stimulation": true,
+    "curation_effort": 1,
+    "is_directed": true,
+    "is_inhibition": false,
+    "is_stimulation": true,
+    "references": "SIGNOR:12672956",
+    "source": "P14598",
+    "source_genesymbol": "NCF1",
+    "sources": [
+      "SIGNOR",
+      "Wang"
+    ],
+    "target": "Q9HBY0",
+    "target_genesymbol": "NOX3"
+  },
+  {
+    "consensus_direction": true,
+    "consensus_inhibition": false,
+    "consensus_stimulation": true,
+    "curation_effort": 15,
+    "is_directed": true,
+    "is_inhibition": false,
+    "is_stimulation": true,
+    "references": "HINT:16326715;HPRD:9121467;SIGNOR:12672956;HINT:17803994;HPRD:11893732;HPRD:7938008;HINT:7938008;Lit-BM-17:12056906;Lit-BM-17:17803994;IntAct:17803994;Lit-BM-17:7938008;IntAct:16326715;HINT:12056906;Lit-BM-17:16326715;SPIKE_LC:17803994",
+    "source": "P14598",
+    "source_genesymbol": "NCF1",
+    "sources": [
+      "HINT",
+      "HPRD",
+      "IntAct",
+      "Lit-BM-17",
+      "SIGNOR",
+      "SPIKE_LC",
+      "Wang"
+    ],
+    "target": "P13498",
+    "target_genesymbol": "CYBA"
+  }
+]

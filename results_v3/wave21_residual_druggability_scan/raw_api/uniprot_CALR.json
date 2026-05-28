@@ -1,0 +1,595 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ACALR%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P28491",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "Q8K3H7",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11149926",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "7876246",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Calcium-binding chaperone that promotes folding, oligomeric assembly and quality control in the endoplasmic reticulum (ER) via the calreticulin/calnexin cycle. This lectin interacts transiently with almost all of the monoglucosylated glycoproteins that are synthesized in the ER (PubMed:7876246). Interacts with the DNA-binding domain of NR3C1 and mediates its nuclear export (PubMed:11149926). Involved in maternal gene expression regulation. May participate in oocyte maturation via the regulation of calcium homeostasis (By similarity). Present in the cortical granules of non-activated oocytes, is exocytosed during the cortical reaction in response to oocyte activation and might participate in the block to polyspermy (By similarity)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P28491",
+                    "source": "UniProtKB"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "Q8K3H7",
+                    "source": "UniProtKB"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "8418194",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Also found in cell surface (T cells), cytosol and extracellular matrix (PubMed:10358038). During oocyte maturation and after parthenogenetic activation accumulates in cortical granules. In pronuclear and early cleaved embryos localizes weakly to cytoplasm around nucleus and more strongly in the region near the cortex (By similarity). In cortical granules of non-activated oocytes, is exocytosed during the cortical reaction in response to oocyte activation (By similarity)"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "10358038",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "11149926",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0096",
+                "value": "Endoplasmic reticulum lumen"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "11149926",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0091",
+                "value": "Cytoplasm, cytosol"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-0111",
+                "value": "Secreted, extracellular space, extracellular matrix"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "10358038",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0310",
+                "value": "Cell surface"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P28491",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0240",
+                "value": "Sarcoplasmic reticulum lumen"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "Q8K3H7",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0541",
+                "value": "Cytoplasmic vesicle, secretory vesicle, Cortical granule"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "8418194",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0543",
+                "value": "Cytolytic granule"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000004CEC9"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "21423620",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27840680",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3POS",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3POW",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LK5",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 26
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 26
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "21423620",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27840680",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3POS",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3POW",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LK5",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 62
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 62
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "21423620",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27840680",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3POS",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3POW",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LK5",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 64
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 64
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P14211",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:22390"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:22390",
+            "name": "an alpha-D-glucoside"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 109
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 109
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P14211",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:22390"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:22390",
+            "name": "an alpha-D-glucoside"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 111
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 111
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P14211",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:22390"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:22390",
+            "name": "an alpha-D-glucoside"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 128
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 128
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P14211",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:22390"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:22390",
+            "name": "an alpha-D-glucoside"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 135
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 135
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P14211",
+              "source": "UniProtKB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:22390"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:22390",
+            "name": "an alpha-D-glucoside"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 317
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 317
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "21423620",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "27840680",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3POS",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "3POW",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "5LK5",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "name": "Ca(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 328
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 328
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:1455",
+                "source": "HGNC"
+              }
+            ],
+            "value": "CALR"
+          },
+          "synonyms": [
+            {
+              "value": "CRTC"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P27797",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "CRP55"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Calregulin"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Endoplasmic reticulum resident protein 60"
+            },
+            "shortNames": [
+              {
+                "value": "ERp60"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "HACBP"
+            }
+          },
+          {
+            "fullName": {
+              "value": "grp60"
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "id": "9427624",
+                "source": "PubMed"
+              }
+            ],
+            "value": "Calreticulin"
+          }
+        }
+      }
+    }
+  ]
+}

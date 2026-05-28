@@ -1,0 +1,7 @@
+module	class	genes	n_genes
+ets2_direct	candidate	ETS2	1
+ets2_macrophage_program	candidate	ETS2;IL1B;IL6;TNF;PTGS2;CCL2;CCL3;CCL4;CXCL8;TNFAIP3;NFKBIA;ICAM1;MMP9	13
+ap1_ets_immediate_early	candidate	ETS2;FOS;FOSB;JUN;JUNB;JUND;EGR1;DUSP1;DUSP2	9
+generic_nfkb_tnf	specificity_comparator	TNF;IL6;CXCL8;NFKBIA;TNFAIP3;CCL2;CCL3;CCL4;IL1B	9
+interferon_apc	specificity_comparator	STAT1;IRF1;CXCL10;IFI30;HLA-DRA;HLA-DRB1;CD74;GBP1;ISG15	9
+lysosome_apc	specificity_comparator	IFI30;CTSD;CTSB;CTSS;CTSL;LAMP1;LAMP2;TPP1;CD74;HLA-DRA	10

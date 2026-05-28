@@ -1,0 +1,300 @@
+{
+  "_request_url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=SERPINB1&limit=10",
+  "_status_code": 200,
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Leukocyte elastase inhibitor",
+      "score": 16.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL6066509",
+      "target_components": [
+        {
+          "accession": "P30740",
+          "component_description": "Leukocyte elastase inhibitor",
+          "component_id": 23700,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "ELANH2",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "LEI",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Leukocyte elastase inhibitor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "M/NEI",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "MNEI",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Monocyte/neutrophil elastase inhibitor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Peptidase inhibitor 2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PI-2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PI2",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Serpin B1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "SERPINB1",
+              "syn_type": "GENE_SYMBOL"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P30740",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P30740",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0005576",
+              "xref_name": "extracellular region",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005615",
+              "xref_name": "extracellular space",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005764",
+              "xref_name": "lysosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005768",
+              "xref_name": "endosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005769",
+              "xref_name": "early endosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031012",
+              "xref_name": "extracellular matrix",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0034774",
+              "xref_name": "secretory granule lumen",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0036464",
+              "xref_name": "cytoplasmic ribonucleoprotein granule",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0044194",
+              "xref_name": "cytolytic granule",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0004867",
+              "xref_name": "serine-type endopeptidase inhibitor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0030414",
+              "xref_name": "peptidase inhibitor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0010951",
+              "xref_name": "negative regulation of endopeptidase activity",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030336",
+              "xref_name": "negative regulation of cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0032691",
+              "xref_name": "negative regulation of interleukin-1 beta production",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0044342",
+              "xref_name": "type B pancreatic cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051246",
+              "xref_name": "regulation of protein metabolic process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:3311",
+              "xref_name": "SERPINB1",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "P30740",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR000215",
+              "xref_name": "Serpin_fam",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR023795",
+              "xref_name": "Serpin_CS",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR023796",
+              "xref_name": "Serpin_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR036186",
+              "xref_name": "Serpin_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR042178",
+              "xref_name": "Serpin_sf_1",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR042185",
+              "xref_name": "Serpin_sf_2",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR11461",
+              "xref_name": "SERINE PROTEASE INHIBITOR, SERPIN",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR11461:SF180",
+              "xref_name": "LEUKOCYTE ELASTASE INHIBITOR",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "4GA7",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4GA7",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF00079",
+              "xref_name": "Serpin",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA35046",
+              "xref_name": "serpin family B member 1",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P30740",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-6798695",
+              "xref_name": "Neutrophil degranulation",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "A8K5L2",
+              "xref_name": "Leukocyte elastase inhibitor",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "B4DNT0",
+              "xref_name": "Leukocyte elastase inhibitor",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P30740",
+              "xref_name": "Leukocyte elastase inhibitor",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q53FB9",
+              "xref_name": "Leukocyte elastase inhibitor",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q5W0E1",
+              "xref_name": "Leukocyte elastase inhibitor",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UDF8",
+              "xref_name": "Leukocyte elastase inhibitor",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

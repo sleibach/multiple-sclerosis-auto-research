@@ -1,0 +1,32 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr10",
+        "dataSource": "HAVANA",
+        "description": "interleukin 2 receptor subunit alpha [Source:HGNC Symbol;Acc:HGNC:6008]",
+        "end": 6062325,
+        "entrezGeneId": 3559,
+        "gencodeId": "ENSG00000134460.15",
+        "gencodeVersion": "v26",
+        "geneStatus": "",
+        "geneSymbol": "IL2RA",
+        "geneSymbolUpper": "IL2RA",
+        "geneType": "protein coding",
+        "genomeBuild": "GRCh38/hg38",
+        "start": 6010689,
+        "strand": "-",
+        "tss": 6062325
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 3,
+      "numberOfPages": 1,
+      "page": 0,
+      "totalNumberOfItems": 1
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/reference/gene?geneId=IL2RA&gencodeVersion=v26&genomeBuild=GRCh38%2Fhg38&itemsPerPage=3"
+}

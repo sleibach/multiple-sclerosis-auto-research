@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr11",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000013725.14",
+        "geneSymbol": "CD6",
+        "geneSymbolUpper": "CD6",
+        "nes": -0.0487744,
+        "ontologyId": "UBERON:0013756",
+        "pValue": 0.000127886,
+        "pos": 61005880,
+        "snpId": "rs9734510",
+        "snpIdUpper": "RS9734510",
+        "tissueSiteDetailId": "Whole_Blood",
+        "variantId": "chr11_61005880_G_A_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 5,
+      "page": 0,
+      "totalNumberOfItems": 5
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000013725.14&tissueSiteDetailId=Whole_Blood&datasetId=gtex_v8&itemsPerPage=1"
+}

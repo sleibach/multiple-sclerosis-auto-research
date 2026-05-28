@@ -1,0 +1,132 @@
+{
+  "error": "",
+  "payload": {
+    "hitCount": 1441,
+    "nextCursorMark": "AoIIQPMK3Cg1MjQxOTU2Mg==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(PTPN2) AND (\"autoimmune\" OR \"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR psoriasis)&cursorMark=AoIIQPMK3Cg1MjQxOTU2Mg==&resultType=lite&pageSize=3&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 3,
+      "queryString": "(PTPN2) AND (\"autoimmune\" OR \"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR psoriasis)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Alsaedi S, Mineta K, Tamura N, Gao X, Gojobori T, Ogasawara M.",
+          "citedByCount": 0,
+          "doi": "10.1371/journal.pone.0329101",
+          "firstIndexDate": "2025-08-23",
+          "firstPublicationDate": "2025-08-21",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12370121"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "40839671",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "8",
+          "journalIssn": "1932-6203",
+          "journalTitle": "PLoS One",
+          "journalVolume": "20",
+          "pageInfo": "e0329101",
+          "pmcid": "PMC12370121",
+          "pmid": "40839671",
+          "pubType": "research-article; journal article",
+          "pubYear": "2025",
+          "source": "MED",
+          "title": "Integrative molecular network analysis of genetic risk factors to infer biomarkers and therapeutic targets for rheumatoid arthritis.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "refsnp"
+            ]
+          }
+        },
+        {
+          "authorString": "Lodde V, Margarita V, Gorospe M, Campesi I.",
+          "citedByCount": 0,
+          "doi": "10.3389/fgwh.2026.1758961",
+          "firstIndexDate": "2026-03-10",
+          "firstPublicationDate": "2026-02-19",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12960141"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "N",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41799158",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalIssn": "2673-5059",
+          "journalTitle": "Front Glob Womens Health",
+          "journalVolume": "7",
+          "pageInfo": "1758961",
+          "pmcid": "PMC12960141",
+          "pmid": "41799158",
+          "pubType": "review-article; review; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "X chromosome-encoded microRNAs in immune regulation: sex differences and clinical implications."
+        },
+        {
+          "authorString": "Pan W, Tsokos MG, Li W, Tsokos GC.",
+          "citedByCount": 0,
+          "doi": "10.1097/in9.0000000000000056",
+          "firstIndexDate": "2025-02-14",
+          "firstPublicationDate": "2025-01-01",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11812671"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "39944077",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "1",
+          "journalIssn": "2633-0407",
+          "journalTitle": "Immunometabolism (Cobham)",
+          "journalVolume": "7",
+          "pageInfo": "e00056",
+          "pmcid": "PMC11812671",
+          "pmid": "39944077",
+          "pubType": "review-article; review; journal article",
+          "pubYear": "2025",
+          "source": "MED",
+          "title": "Protein phosphatases in systemic autoimmunity."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "status": "ok",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28PTPN2%29+AND+%28%22autoimmune%22+OR+%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+psoriasis%29&format=json&pageSize=3&resultType=lite"
+}

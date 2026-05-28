@@ -1,0 +1,360 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "10734133",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11909529",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "12138178",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "12612081",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "14966296",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15592458",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "18819921",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22080863",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9488479",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Non-receptor type tyrosine-specific phosphatase that dephosphorylates receptor protein tyrosine kinases including INSR, EGFR, CSF1R, PDGFR. Also dephosphorylates non-receptor protein tyrosine kinases like JAK1, JAK2, JAK3, Src family kinases, STAT1, STAT3 and STAT6 either in the nucleus or the cytoplasm. Negatively regulates numerous signaling pathways and biological processes like hematopoiesis, inflammatory response, cell proliferation and differentiation, and glucose homeostasis. Plays a multifaceted and important role in the development of the immune system. Functions in T-cell receptor signaling through dephosphorylation of FYN and LCK to control T-cells differentiation and activation. Dephosphorylates CSF1R, negatively regulating its downstream signaling and macrophage differentiation. Negatively regulates cytokine (IL2/interleukin-2 and interferon)-mediated signaling through dephosphorylation of the cytoplasmic kinases JAK1, JAK3 and their substrate STAT1, that propagate signaling downstream of the cytokine receptors. Also regulates the IL6/interleukin-6 and IL4/interleukin-4 cytokine signaling through dephosphorylation of STAT3 and STAT6 respectively. In addition to the immune system, it is involved in anchorage-dependent, negative regulation of EGF-stimulated cell growth. Activated by the integrin ITGA1/ITGB1, it dephosphorylates EGFR and negatively regulates EGF signaling. Dephosphorylates PDGFRB and negatively regulates platelet-derived growth factor receptor-beta signaling pathway and therefore cell proliferation. Negatively regulates tumor necrosis factor-mediated signaling downstream via MAPK through SRC dephosphorylation. May also regulate the hepatocyte growth factor receptor signaling pathway through dephosphorylation of the hepatocyte growth factor receptor MET. Also plays an important role in glucose homeostasis. For instance, negatively regulates the insulin receptor signaling pathway through the dephosphorylation of INSR and control gluconeogenesis and liver glucose production through negative regulation of the IL6 signaling pathways. May also bind DNA"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "molecule": "Isoform 1",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "7593185",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Targeted to the endoplasmic reticulum by its C-terminal hydrophobic region"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "7593185",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0095",
+                "value": "Endoplasmic reticulum"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "7593185",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0098",
+                "value": "Endoplasmic reticulum-Golgi intermediate compartment"
+              }
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "molecule": "Isoform 2",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "9488479",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Predominantly localizes to chromatin (By similarity). Able to shuttle between the nucleus and the cytoplasm and to dephosphorylate plasma membrane receptors (PubMed:9488479). Recruited by activated ITGA1 at the plasma membrane"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0191",
+                "value": "Nucleus"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            },
+            {
+              "location": {
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000017284E"
+      },
+      "features": [
+        {
+          "description": "Phosphocysteine intermediate",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00160",
+              "source": "PROSITE-ProRule"
+            },
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU10044",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 216
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 216
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 182
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 182
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 222
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 216
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 260
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 260
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "PTPN2"
+          },
+          "synonyms": [
+            {
+              "value": "PTPT"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-1003",
+          "name": "Cell membrane"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0963",
+          "name": "Cytoplasm"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0256",
+          "name": "Endoplasmic reticulum"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0378",
+          "name": "Hydrolase"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0539",
+          "name": "Nucleus"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0904",
+          "name": "Protein phosphatase"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0702",
+          "name": "S-nitrosylation"
+        }
+      ],
+      "primaryAccession": "P17706",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "T-cell protein-tyrosine phosphatase"
+            },
+            "shortNames": [
+              {
+                "value": "TCPTP"
+              }
+            ]
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "value": "3.1.3.48"
+            }
+          ],
+          "fullName": {
+            "value": "Tyrosine-protein phosphatase non-receptor type 2"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "0207694A4F058E68",
+        "length": 415,
+        "md5": "7FA28A52DB1217F894D97D6CC55A59C8",
+        "molWeight": 48473,
+        "value": "MPTTIEREFEELDTQRRWQPLYLEIRNESHDYPHRVAKFPENRNRNRYRDVSPYDHSRVKLQNAENDYINASLVDIEEAQRSYILTQGPLPNTCCHFWLMVWQQKTKAVVMLNRIVEKESVKCAQYWPTDDQEMLFKETGFSVKLLSEDVKSYYTVHLLQLENINSGETRTISHFHYTTWPDFGVPESPASFLNFLFKVRESGSLNPDHGPAVIHCSAGIGRSGTFSLVDTCLVLMEKGDDINIKQVLLNMRKYRMGLIQTPDQLRFSYMAIIEGAKCIKGDSSIQKRWKELSKEDLSPAFDHSPNKIMTEKYNGNRIGLEEEKLTGDRCTGLSSKMQDTMEENSESALRKRIREDRKATTAQKVQQMKQRLNENERKRKRWLYWQPILTKMGFMSVILVGAFVGWTLFFQQNAL"
+      },
+      "uniProtkbId": "PTN2_HUMAN"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22FXYD5%22+AND+%28%22Perturb-seq%22+OR+Perturbseq+OR+%22single-cell+CRISPR%22+OR+scCRISPR%29&format=json&pageSize=5&resultType=lite",
+  "status": 200,
+  "json": {
+    "version": "6.9",
+    "hitCount": 0,
+    "request": {
+      "queryString": "\"FXYD5\" AND (\"Perturb-seq\" OR Perturbseq OR \"single-cell CRISPR\" OR scCRISPR)",
+      "resultType": "lite",
+      "cursorMark": "*",
+      "pageSize": 5,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": []
+    }
+  }
+}

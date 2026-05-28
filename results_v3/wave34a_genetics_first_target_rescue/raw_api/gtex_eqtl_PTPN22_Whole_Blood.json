@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr1",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000134242.15",
+        "geneSymbol": "PTPN22",
+        "geneSymbolUpper": "PTPN22",
+        "nes": 0.0833428,
+        "ontologyId": "UBERON:0013756",
+        "pValue": 3.16331e-05,
+        "pos": 113881455,
+        "snpId": "rs2296176",
+        "snpIdUpper": "RS2296176",
+        "tissueSiteDetailId": "Whole_Blood",
+        "variantId": "chr1_113881455_G_A_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 3,
+      "page": 0,
+      "totalNumberOfItems": 3
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000134242.15&tissueSiteDetailId=Whole_Blood&datasetId=gtex_v8&itemsPerPage=1"
+}

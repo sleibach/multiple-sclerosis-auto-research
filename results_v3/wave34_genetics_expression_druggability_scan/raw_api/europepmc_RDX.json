@@ -1,0 +1,61 @@
+{
+  "payload": {
+    "hitCount": 229,
+    "nextCursorMark": "AoIIQHlx0Sg1MzkyOTIzNQ==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=RDX AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQHlx0Sg1MzkyOTIzNQ==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "RDX AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Pedrycz-Wieczorska A, Chyli\u0144ska-Wrzos P, Grzywacz A, Zieli\u0144ski E, Bartosi\u0144ski A, K\u0119dziora-Kornatowska K, Lis-Sochocka M, Mertowska P, Mertowski S, Bojarski K, Rahnama-Hezavah M, Urbanowicz T, Grywalska E.",
+          "citedByCount": 1,
+          "doi": "10.3390/ijms26188870",
+          "firstIndexDate": "2025-09-28",
+          "firstPublicationDate": "2025-09-11",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12469257"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "41009438",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "18",
+          "journalIssn": "1422-0067",
+          "journalTitle": "Int J Mol Sci",
+          "journalVolume": "26",
+          "pageInfo": "8870",
+          "pmcid": "PMC12469257",
+          "pmid": "41009438",
+          "pubType": "review-article; review; journal article",
+          "pubYear": "2025",
+          "source": "MED",
+          "title": "CD44 as a Central Integrator of Inflammation and Fibrosis: From Molecular Signaling to Environmental Modulation.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "uniprot"
+            ]
+          }
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=RDX+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

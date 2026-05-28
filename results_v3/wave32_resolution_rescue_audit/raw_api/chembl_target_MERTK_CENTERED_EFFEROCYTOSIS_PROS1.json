@@ -1,0 +1,339 @@
+{
+  "payload": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "Vitamin K-dependent protein S",
+        "score": 21.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL5498501",
+        "target_components": [
+          {
+            "accession": "P07225",
+            "component_description": "Vitamin K-dependent protein S",
+            "component_id": 22950,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "PROS",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "PROS1",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Vitamin K-dependent protein S",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "P07225",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "P07225",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0000139",
+                "xref_name": "Golgi membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005576",
+                "xref_name": "extracellular region",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005615",
+                "xref_name": "extracellular space",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005783",
+                "xref_name": "endoplasmic reticulum",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005789",
+                "xref_name": "endoplasmic reticulum membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005796",
+                "xref_name": "Golgi lumen",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005886",
+                "xref_name": "plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0031093",
+                "xref_name": "platelet alpha granule lumen",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0072562",
+                "xref_name": "blood microparticle",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0004866",
+                "xref_name": "endopeptidase inhibitor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005509",
+                "xref_name": "calcium ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0007596",
+                "xref_name": "blood coagulation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042730",
+                "xref_name": "fibrinolysis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051897",
+                "xref_name": "positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:9456",
+                "xref_name": "PROS1",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "P07225",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR000152",
+                "xref_name": "EGF-type_Asp/Asn_hydroxyl_site",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000294",
+                "xref_name": "GLA_domain",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR000742",
+                "xref_name": "EGF-like_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001791",
+                "xref_name": "Laminin_G",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001881",
+                "xref_name": "EGF-like_Ca-bd_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR009030",
+                "xref_name": "Growth_fac_rcpt_cys_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013032",
+                "xref_name": "EGF-like_CS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013320",
+                "xref_name": "ConA-like_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR017857",
+                "xref_name": "Coagulation_fac-like_Gla_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR018097",
+                "xref_name": "EGF_Ca-bd_CS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR035972",
+                "xref_name": "GLA-like_dom_SF",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR049883",
+                "xref_name": "NOTCH1_EGF-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR051145",
+                "xref_name": "GAS-SHBG-PROS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR24040",
+                "xref_name": "LAMININ G-LIKE DOMAIN-CONTAINING PROTEIN",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR24040:SF0",
+                "xref_name": "VITAMIN K-DEPENDENT PROTEIN S",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "1Z6C",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "PF00054",
+                "xref_name": "Laminin_G_1",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00594",
+                "xref_name": "Gla",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF02210",
+                "xref_name": "Laminin_G_2",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF07645",
+                "xref_name": "EGF_CA",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF12661",
+                "xref_name": "hEGF",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF14670",
+                "xref_name": "FXa_inhibition",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA33809",
+                "xref_name": "protein S",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "P07225",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-114608",
+                "xref_name": "Platelet degranulation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-140837",
+                "xref_name": "Intrinsic Pathway of Fibrin Clot Formation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-140875",
+                "xref_name": "Common Pathway of Fibrin Clot Formation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-159740",
+                "xref_name": "Gamma-carboxylation of protein precursors",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-159763",
+                "xref_name": "Transport of gamma-carboxylated protein precursors from the endoplasmic reticulum to the Golgi apparatus",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-159782",
+                "xref_name": "Removal of aminoterminal propeptides from gamma-carboxylated proteins",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-202733",
+                "xref_name": "Cell surface interactions at the vascular wall",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-977606",
+                "xref_name": "Regulation of Complement cascade",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "A8KAC9",
+                "xref_name": "Vitamin K-dependent protein S",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "D3DN28",
+                "xref_name": "Vitamin K-dependent protein S",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "P07225",
+                "xref_name": "Vitamin K-dependent protein S",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q15518",
+                "xref_name": "Vitamin K-dependent protein S",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q7Z715",
+                "xref_name": "Vitamin K-dependent protein S",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UCZ8",
+                "xref_name": "Vitamin K-dependent protein S",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=PROS1"
+}

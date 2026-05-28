@@ -1,0 +1,548 @@
+{
+  "payload": {
+    "hitCount": 1234,
+    "nextCursorMark": "AoIIQM3kWyg1NDU4ODc1Ng==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(GPNMB) AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR Sjogren OR \"type 1 diabetes\" OR \"primary biliary cholangitis\" OR autoimmune)&cursorMark=AoIIQM3kWyg1NDU4ODc1Ng==&resultType=core&pageSize=3&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 3,
+      "queryString": "(GPNMB) AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR Sjogren OR \"type 1 diabetes\" OR \"primary biliary cholangitis\" OR autoimmune)",
+      "resultType": "core",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "abstractText": "<h4>Background</h4>Observational studies have suggested a potential association between autoimmune diseases and anemia, but the direction of causality remains unclear. To investigate the potential causal relationship between autoimmune diseases and anemia using Mendelian randomization (MR).<h4>Methods</h4>We conducted a bidirectional two-sample MR study using summary-level genetic data from the EBI and FinnGen databases. We examined 21 autoimmune diseases as exposures and anemia as the outcome, and vice versa. Multivariable MR, meta-analysis, and two-step mediation analysis involving 43 candidate mediators were also performed. Proteomic MR and colocalization analyses were used to validate causal relationships involving proteins. Functional annotations including KEGG pathway, GO enrichment, protein-protein interaction networks, and drug enrichment analyses were performed to identify potential therapeutic targets.<h4>Results</h4>Genetically determined type 1 diabetes mellitus (T1DM), rheumatoid arthritis (RA), and primary biliary cholangitis (PBC) were associated with an increased risk of anemia (<i>P</i>\u00a0<\u00a00.05 in meta-analysis). Reverse MR analyses suggested potential bidirectional causality between anemia and mixed connective tissue disease, hypothyroidism, and asthma. Mediation analysis indicated that hypothyroidism may contribute to anemia by elevating IgG levels. Proteomic and colocalization analyses identified several proteins associated with anemia (e.g., MCCD1, TMEM106B), T1DM (e.g., CTRB1, CTRB2, IL7RA), RA (e.g., TGFBI, IL1RN), and PBC (e.g., ALDH2, CXCL16).<h4>Conclusion</h4>This MR study supports a causal effect of certain autoimmune diseases on anemia risk and highlights potential protein targets for intervention, offering new insights for anemia prevention and treatment.",
+          "affiliation": "Department of Hematology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China.",
+          "authMan": "N",
+          "authorList": {
+            "author": [
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Hematology, The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China."
+                    }
+                  ]
+                },
+                "firstName": "Xin",
+                "fullName": "Zhuang X",
+                "initials": "X",
+                "lastName": "Zhuang"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Department of Infectious Diseases, Pingyang Hospital of Traditional Chinese Medicine Zhejiang Chinese Medical University, Wenzhou, China."
+                    }
+                  ]
+                },
+                "firstName": "Tianen",
+                "fullName": "Pan T",
+                "initials": "T",
+                "lastName": "Pan"
+              }
+            ]
+          },
+          "authorString": "Zhuang X, Pan T.",
+          "citedByCount": 0,
+          "dateOfCompletion": "2025-12-01",
+          "dateOfCreation": "2025-12-01",
+          "dateOfRevision": "2025-12-03",
+          "doi": "10.1016/j.jtauto.2025.100333",
+          "electronicPublicationDate": "2025-11-12",
+          "epmcAuthMan": "N",
+          "firstIndexDate": "2025-12-01",
+          "firstPublicationDate": "2025-11-12",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12664391"
+            ]
+          },
+          "fullTextReceivedDate": "2025-12-22",
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/j.jtauto.2025.100333"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12664391"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12664391?pdf=render"
+              }
+            ]
+          },
+          "hasBook": "N",
+          "hasData": "Y",
+          "hasDbCrossReferences": "N",
+          "hasEvaluations": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41323472",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalInfo": {
+            "dateOfPublication": "2025 Dec",
+            "journal": {
+              "essn": "2589-9090",
+              "isoabbreviation": "J Transl Autoimmun",
+              "issn": "2589-9090",
+              "medlineAbbreviation": "J Transl Autoimmun",
+              "nlmid": "101759413",
+              "title": "Journal of translational autoimmunity"
+            },
+            "journalIssueId": 3962669,
+            "monthOfPublication": 12,
+            "printPublicationDate": "2025-12-01",
+            "volume": "11",
+            "yearOfPublication": 2025
+          },
+          "keywordList": {
+            "keyword": [
+              "Immunoglobulins",
+              "Anemia",
+              "Cytokines",
+              "Blood cell count",
+              "Autoimmune diseases",
+              "Mendelian Randomization",
+              "Causal Relationship"
+            ]
+          },
+          "language": "eng",
+          "license": "cc by-nc-nd",
+          "nihAuthMan": "N",
+          "pageInfo": "100333",
+          "pmcid": "PMC12664391",
+          "pmid": "41323472",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "pubYear": "2025",
+          "publicationStatus": "epublish",
+          "source": "MED",
+          "title": "Mendelian randomization study of the causal relationship between autoimmune diseases and anemia using proteomic and genetic data."
+        },
+        {
+          "abstractText": "The formation and progression of atherosclerotic plaques occur through cellular dysfunction and remodeling of the extracellular matrix in the sub-endothelial space of vessels. The immunity against specific antigens is suggested to mitigate the atherosclerosis process. Primarily, studies have suggested that certain antigens, such as ox-LDL, ApoB-100, CETP, PCSK9, HSP60, MHC-II-derived peptides, and interleukins, are involved in atherosclerosis. However, recognizing the intricate interplay between immune responses and the formation of arterial plaques is essential to optimize immunization against atherosclerosis. In this review, the roles of some genes were presented in triggering atherosclerotic plaque events. Furthermore, some immunization approaches are presented to target these genes. The studies suggested that vaccination against the progression of atherosclerosis is an essential and effective approach to reducing the high death rate in autoimmune diseases.",
+          "affiliation": "Student Research Committee, Faculty of Medical Sciences, Iran University of Medical Sciences, Tehran, Iran.",
+          "authMan": "N",
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0000-0002-0622-4174"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0002-3353-348X"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0003-7446-3796"
+              },
+              {
+                "type": "ORCID",
+                "value": "0009-0005-4523-0744"
+              }
+            ]
+          },
+          "authorList": {
+            "author": [
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Student Research Committee, Faculty of Medical Sciences, Iran University of Medical Sciences, Tehran, Iran."
+                    }
+                  ]
+                },
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0005-4523-0744"
+                },
+                "firstName": "Alireza",
+                "fullName": "Haraj A",
+                "initials": "A",
+                "lastName": "Haraj"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Clinical Biochemistry Department, Faculty of Medical Sciences, Iran University of Medical Sciences, Tehran, Iran."
+                    }
+                  ]
+                },
+                "firstName": "Masoomeh",
+                "fullName": "Bakhshandeh M",
+                "initials": "M",
+                "lastName": "Bakhshandeh"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Clinical Biochemistry Department, Faculty of Medical Sciences, Shahid Beheshti University of Medical Sciences, Tehran, Iran."
+                    }
+                  ]
+                },
+                "firstName": "Nafiseh",
+                "fullName": "Shokri N",
+                "initials": "N",
+                "lastName": "Shokri"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Student Research Committee, Kermanshah University of Medical Sciences, Tehran, Iran."
+                    }
+                  ]
+                },
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0002-3353-348X"
+                },
+                "firstName": "Prand",
+                "fullName": "Shariat Rad P",
+                "initials": "P",
+                "lastName": "Shariat Rad"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Student Research Committee, Faculty of Medical Sciences, Iran University of Medical Sciences, Tehran, Iran."
+                    }
+                  ]
+                },
+                "firstName": "Ali",
+                "fullName": "Alyan A",
+                "initials": "A",
+                "lastName": "Alyan"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Student Research Committee, Faculty of Medical Sciences, Iran University of Medical Sciences, Tehran, Iran."
+                    }
+                  ]
+                },
+                "firstName": "Zahra",
+                "fullName": "Chegini Z",
+                "initials": "Z",
+                "lastName": "Chegini"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Student Research Committee, Faculty of Medical Sciences, Iran University of Medical Sciences, Tehran, Iran."
+                    }
+                  ]
+                },
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0003-7446-3796"
+                },
+                "firstName": "Mohammad Ali",
+                "fullName": "Nazari MA",
+                "initials": "MA",
+                "lastName": "Nazari"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Clinical Biochemistry Department, Faculty of Medical Sciences, Iran University of Medical Sciences, Tehran, Iran."
+                    }
+                  ]
+                },
+                "firstName": "Seyed Parsa Seyedi",
+                "fullName": "Taji SPS",
+                "initials": "SPS",
+                "lastName": "Taji"
+              },
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "Clinical Biochemistry Department, Faculty of Medical Sciences, Iran University of Medical Sciences, Tehran, Iran."
+                    },
+                    {
+                      "affiliation": "Microbial Biotechnology Research Center, Iran University of Medical Sciences, Tehran, Iran."
+                    }
+                  ]
+                },
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0000-0002-0622-4174"
+                },
+                "firstName": "Mohammad",
+                "fullName": "Najafi M",
+                "initials": "M",
+                "lastName": "Najafi"
+              }
+            ]
+          },
+          "authorString": "Haraj A, Bakhshandeh M, Shokri N, Shariat Rad P, Alyan A, Chegini Z, Nazari MA, Taji SPS, Najafi M.",
+          "citedByCount": 0,
+          "dateOfCompletion": "2025-09-14",
+          "dateOfCreation": "2025-08-18",
+          "dateOfRevision": "2025-09-14",
+          "doi": "10.1016/j.ahjo.2025.100588",
+          "electronicPublicationDate": "2025-08-06",
+          "epmcAuthMan": "N",
+          "firstIndexDate": "2025-08-21",
+          "firstPublicationDate": "2025-08-06",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12351348"
+            ]
+          },
+          "fullTextReceivedDate": "2025-12-02",
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1016/j.ahjo.2025.100588"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12351348"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12351348?pdf=render"
+              }
+            ]
+          },
+          "hasBook": "N",
+          "hasData": "N",
+          "hasDbCrossReferences": "N",
+          "hasEvaluations": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "40823653",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalInfo": {
+            "dateOfPublication": "2025 Sep",
+            "journal": {
+              "essn": "2666-6022",
+              "isoabbreviation": "Am Heart J Plus",
+              "issn": "2666-6022",
+              "medlineAbbreviation": "Am Heart J Plus",
+              "nlmid": "101779333",
+              "title": "American heart journal plus : cardiology research and practice"
+            },
+            "journalIssueId": 3982285,
+            "monthOfPublication": 9,
+            "printPublicationDate": "2025-09-01",
+            "volume": "57",
+            "yearOfPublication": 2025
+          },
+          "keywordList": {
+            "keyword": [
+              "Atherosclerosis",
+              "Gene",
+              "Vaccine",
+              "Inflammation"
+            ]
+          },
+          "language": "eng",
+          "license": "cc by",
+          "nihAuthMan": "N",
+          "pageInfo": "100588",
+          "pmcid": "PMC12351348",
+          "pmid": "40823653",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "review-article",
+              "Review",
+              "Journal Article"
+            ]
+          },
+          "pubYear": "2025",
+          "publicationStatus": "epublish",
+          "source": "MED",
+          "title": "Mitigating atherosclerosis: Integrating vaccines with gene targets."
+        },
+        {
+          "abstractText": "<h4>Background</h4>Crohn's disease (CD) is a chronic inflammatory bowel disorder with a multifactorial genetic, immune, and environmental basis, yet robustly validated therapeutic targets remain limited. We applied a multi-omics Mendelian randomization (MR) framework and colocalization to prioritize genetically supported immune susceptibility loci for CD.<h4>Methods</h4>A two-sample MR framework was used, integrating protein quantitative trait loci (pQTL) and expression quantitative trait loci (eQTL) datasets with genome-wide association study (GWAS) data on CD from the Finnish biobank. After identifying 994 pQTL genes, 610 genes overlapping with known druggable targets were selected. Causal associations with CD were evaluated using inverse variance weighted (IVW) MR. Significant hits were further validated through colocalization analysis and summary-data-based Mendelian randomization (SMR).<h4>Results</h4>IVW analysis identified 56 pQTL genes significantly associated with CD risk, with six genes (including <i>HLA-A</i>, <i>MST1</i>, and <i>CDH5</i>) passing false discovery rate (FDR) correction. Colocalization analysis indicated that <i>HLA-A</i> and <i>MST1</i> shared causal variants with CD. Subsequent eQTL-based MR and SMR analysis confirmed the causal association of <i>HLA-A</i> expression with increased CD risk (SMR OR\u2009=\u20091.434, <i>p</i>\u2009=\u20094.10\u2009\u00d7\u200910<sup>-5</sup>), with no evidence of heterogeneity.<h4>Conclusion</h4>These findings suggest that HLA-A represents a genetically validated immune susceptibility marker in CD. By integrating pQTL, eQTL, colocalization, and SMR analyses, it highlights the utility of multi-omics MR in uncovering novel genetic contributors to complex diseases. Further experimental and clinical validation is warranted to explore the translational potential of targeting <i>HLA-A</i> in CD treatment.",
+          "affiliation": "School of Physical Education Qilu Normal University Jinan Shandong China.",
+          "authMan": "N",
+          "authorIdList": {
+            "authorId": [
+              {
+                "type": "ORCID",
+                "value": "0009-0005-2092-1741"
+              }
+            ]
+          },
+          "authorList": {
+            "author": [
+              {
+                "authorAffiliationDetailsList": {
+                  "authorAffiliation": [
+                    {
+                      "affiliation": "School of Physical Education Qilu Normal University Jinan Shandong China."
+                    }
+                  ]
+                },
+                "authorId": {
+                  "type": "ORCID",
+                  "value": "0009-0005-2092-1741"
+                },
+                "firstName": "Zeyang",
+                "fullName": "Li Z",
+                "initials": "Z",
+                "lastName": "Li"
+              }
+            ]
+          },
+          "authorString": "Li Z.",
+          "citedByCount": 0,
+          "dateOfCompletion": "2026-01-05",
+          "dateOfCreation": "2026-01-05",
+          "dateOfRevision": "2026-01-07",
+          "doi": "10.1002/jgh3.70332",
+          "electronicPublicationDate": "2026-01-01",
+          "epmcAuthMan": "N",
+          "firstIndexDate": "2026-01-05",
+          "firstPublicationDate": "2026-01-01",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12757437"
+            ]
+          },
+          "fullTextReceivedDate": "2026-01-05",
+          "fullTextUrlList": {
+            "fullTextUrl": [
+              {
+                "availability": "Subscription required",
+                "availabilityCode": "S",
+                "documentStyle": "doi",
+                "site": "DOI",
+                "url": "https://doi.org/10.1002/jgh3.70332"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "html",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12757437"
+              },
+              {
+                "availability": "Open access",
+                "availabilityCode": "OA",
+                "documentStyle": "pdf",
+                "site": "Europe_PMC",
+                "url": "https://europepmc.org/articles/PMC12757437?pdf=render"
+              }
+            ]
+          },
+          "hasBook": "N",
+          "hasData": "Y",
+          "hasDbCrossReferences": "N",
+          "hasEvaluations": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41487707",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "journalInfo": {
+            "dateOfPublication": "2026 Jan",
+            "issue": "1",
+            "journal": {
+              "essn": "2397-9070",
+              "isoabbreviation": "JGH Open",
+              "issn": "2397-9070",
+              "medlineAbbreviation": "JGH Open",
+              "nlmid": "101730833",
+              "title": "JGH open : an open access journal of gastroenterology and hepatology"
+            },
+            "journalIssueId": 4080975,
+            "monthOfPublication": 1,
+            "printPublicationDate": "2026-01-01",
+            "volume": "10",
+            "yearOfPublication": 2026
+          },
+          "keywordList": {
+            "keyword": [
+              "Crohn's Disease",
+              "Mendelian Randomization",
+              "Hla\u2010a",
+              "Immune Susceptibility Marker"
+            ]
+          },
+          "language": "eng",
+          "license": "cc by",
+          "nihAuthMan": "N",
+          "pageInfo": "e70332",
+          "pmcid": "PMC12757437",
+          "pmid": "41487707",
+          "pubModel": "Electronic-eCollection",
+          "pubTypeList": {
+            "pubType": [
+              "research-article",
+              "Journal Article"
+            ]
+          },
+          "pubYear": "2026",
+          "publicationStatus": "epublish",
+          "source": "MED",
+          "title": "Genetically Validated Immune Susceptibility Markers for Crohn's Disease: A Multi-Omics Mendelian Randomization Analysis."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28GPNMB%29+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+Sjogren+OR+%22type+1+diabetes%22+OR+%22primary+biliary+cholangitis%22+OR+autoimmune%29&format=json&pageSize=3&resultType=core"
+}

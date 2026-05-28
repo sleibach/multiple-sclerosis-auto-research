@@ -1,0 +1,56 @@
+{
+  "payload": {
+    "hitCount": 3004,
+    "nextCursorMark": "AoIIQQaW7ig1NTE0NjEyMw==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DAP AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQQaW7ig1NTE0NjEyMw==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "DAP AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Al-Mohannadi A, Awada Z, Lo B, Mifsud B, Deola S.",
+          "citedByCount": 0,
+          "doi": "10.1186/s12863-026-01414-w",
+          "firstIndexDate": "2026-03-20",
+          "firstPublicationDate": "2026-03-18",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC13112774"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "N",
+          "id": "41851628",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "1",
+          "journalIssn": "2730-6844",
+          "journalTitle": "BMC Genom Data",
+          "journalVolume": "27",
+          "pageInfo": "31",
+          "pmcid": "PMC13112774",
+          "pmid": "41851628",
+          "pubType": "research-article; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "A curated list of immune system associated genes related to cancer."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DAP+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

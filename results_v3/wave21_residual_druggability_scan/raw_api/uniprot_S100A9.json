@@ -1,0 +1,958 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3AS100A9%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "12626582",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15331440",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15598812",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15642721",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "16258195",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "19087201",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "19122197",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "19402754",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "19534726",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "19935772",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20103766",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "21325622",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "21487906",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22363402",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22804476",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22808130",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "25417112",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "26296369",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "8423249",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "21912088",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "22489132",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "S100A9 is a calcium- and zinc-binding protein which plays a prominent role in the regulation of inflammatory processes and immune response (PubMed:12626582, PubMed:15331440, PubMed:16258195, PubMed:19122197, PubMed:20103766, PubMed:21325622, PubMed:8423249). It can induce neutrophil chemotaxis, adhesion, can increase the bactericidal activity of neutrophils by promoting phagocytosis via activation of SYK, PI3K/AKT, and ERK1/2 and can induce degranulation of neutrophils by a MAPK-dependent mechanism (PubMed:12626582, PubMed:15331440, PubMed:20103766). Predominantly found as calprotectin (S100A8/A9) which has a wide plethora of intra- and extracellular functions (PubMed:16258195, PubMed:19122197, PubMed:8423249). The intracellular functions include: facilitating leukocyte arachidonic acid trafficking and metabolism, modulation of the tubulin-dependent cytoskeleton during migration of phagocytes and activation of the neutrophilic NADPH-oxidase (PubMed:15331440, PubMed:21325622). Also participates in regulatory T-cell differentiation together with CD69 (PubMed:26296369). Activates NADPH-oxidase by facilitating the enzyme complex assembly at the cell membrane, transferring arachidonic acid, an essential cofactor, to the enzyme complex and S100A8 contributes to the enzyme assembly by directly binding to NCF2/P67PHOX (PubMed:15642721, PubMed:22808130). The extracellular functions involve pro-inflammatory, antimicrobial, oxidant-scavenging and apoptosis-inducing activities (PubMed:19534726, PubMed:8423249). Its pro-inflammatory activity includes recruitment of leukocytes, promotion of cytokine and chemokine production, and regulation of leukocyte adhesion and migration (PubMed:15598812, PubMed:21487906). Acts as an alarmin or a danger associated molecular pattern (DAMP) molecule and stimulates innate immune cells via binding to pattern recognition receptors such as Toll-like receptor 4 (TLR4) and receptor for advanced glycation endproducts (AGER) (PubMed:19402754). Binding to TLR4 and AGER activates the MAP-kinase and NF-kappa-B signaling pathways resulting in the amplification of the pro-inflammatory cascade (PubMed:19402754, PubMed:22804476). Has antimicrobial activity towards bacteria and fungi and exerts its antimicrobial activity probably via chelation of Zn(2+) which is essential for microbial growth (PubMed:19087201). Can induce cell death via autophagy and apoptosis and this occurs through the cross-talk of mitochondria and lysosomes via reactive oxygen species (ROS) and the process involves BNIP3 (PubMed:19935772). Can regulate neutrophil number and apoptosis by an anti-apoptotic effect; regulates cell survival via ITGAM/ITGB and TLR4 and a signaling mechanism involving MEK-ERK (PubMed:22363402). Its role as an oxidant scavenger has a protective role in preventing exaggerated tissue damage by scavenging oxidants (PubMed:21912088, PubMed:22489132). Can act as a potent amplifier of inflammation in autoimmunity as well as in cancer development and tumor spread (PubMed:16258195). Has transnitrosylase activity; in oxidatively-modified low-densitity lipoprotein (LDL(ox))-induced S-nitrosylation of GAPDH on 'Cys-247' proposed to transfer the NO moiety from NOS2/iNOS to GAPDH via its own S-nitrosylated Cys-3 (PubMed:25417112). The iNOS-S100A8/A9 transnitrosylase complex is proposed to also direct selective inflammatory stimulus-dependent S-nitrosylation of multiple targets such as ANXA5, EZR, MSN and VIM by recognizing a [IL]-x-C-x-x-[DE] motif (PubMed:25417112)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15598812",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "18786929",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Predominantly localized in the cytoplasm. Upon elevation of the intracellular calcium level, translocated from the cytoplasm to the cytoskeleton and the cell membrane (PubMed:18786929). Upon neutrophil activation or endothelial adhesion of monocytes, is secreted via a microtubule-mediated, alternative pathway (PubMed:15598812)"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15598812",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "8423249",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "22489132",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "9083090",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0090",
+                "value": "Cytoplasm, cytoskeleton"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "18786929",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305",
+                    "id": "18786929",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9903",
+                "value": "Peripheral membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000002C6C8"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "17553524",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 20
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 20
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11851337",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "17553524",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1IRJ",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XK4",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "1",
+            "name": "Ca(2+)",
+            "note": "low affinity"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 23
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 23
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11851337",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "17553524",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1IRJ",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XK4",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "1",
+            "name": "Ca(2+)",
+            "note": "low affinity"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 26
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 26
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11851337",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "17553524",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1IRJ",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XK4",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "1",
+            "name": "Ca(2+)",
+            "note": "low affinity"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 28
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 28
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "17553524",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 30
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 30
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11851337",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "17553524",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1IRJ",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XK4",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "1",
+            "name": "Ca(2+)",
+            "note": "low affinity"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 31
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 31
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11851337",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "17553524",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1IRJ",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XK4",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "1",
+            "name": "Ca(2+)",
+            "note": "low affinity"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 36
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 36
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00448",
+              "source": "PROSITE-ProRule"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11851337",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "17553524",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1IRJ",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XK4",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)",
+            "note": "high affinity"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 67
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 67
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00448",
+              "source": "PROSITE-ProRule"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11851337",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "17553524",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1IRJ",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XK4",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)",
+            "note": "high affinity"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 69
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 69
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00448",
+              "source": "PROSITE-ProRule"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11851337",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "17553524",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1IRJ",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XK4",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)",
+            "note": "high affinity"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 71
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 71
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00448",
+              "source": "PROSITE-ProRule"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11851337",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "17553524",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1IRJ",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XK4",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)",
+            "note": "high affinity"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 73
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 73
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU00448",
+              "source": "PROSITE-ProRule"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "11851337",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "17553524",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1IRJ",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1XK4",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29108"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29108",
+            "label": "2",
+            "name": "Ca(2+)",
+            "note": "high affinity"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 78
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 78
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "17553524",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 91
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 91
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "id": "17553524",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29105",
+            "name": "Zn(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 95
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 95
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "id": "12626582",
+                "source": "PubMed"
+              },
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:10499",
+                "source": "HGNC"
+              }
+            ],
+            "value": "S100A9"
+          },
+          "synonyms": [
+            {
+              "value": "CAGB"
+            },
+            {
+              "value": "CFAG"
+            },
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "Ref.4",
+                  "source": "Reference"
+                }
+              ],
+              "value": "MRP14"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P06702",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Calgranulin-B"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Calprotectin L1H subunit"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Leukocyte L1 complex heavy chain"
+            }
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "Ref.4",
+                  "source": "Reference"
+                }
+              ],
+              "value": "Migration inhibitory factor-related protein 14"
+            },
+            "shortNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "Ref.4",
+                    "source": "Reference"
+                  }
+                ],
+                "value": "MRP-14"
+              },
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "2478889",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "p14"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "12626582",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "S100 calcium-binding protein A9"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Protein S100-A9"
+          }
+        }
+      }
+    }
+  ]
+}

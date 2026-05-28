@@ -1,0 +1,533 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ACASP4%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P70343",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15123740",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15326478",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22246630",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "23516580",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "23661706",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "24879791",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "25119034",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "25121752",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "25964352",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "26173988",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "26174085",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "26375003",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "26508369",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "28314590",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "29520027",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "31268602",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "32109412",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "32510692",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "32581219",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "33377178",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "34671164",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "37001519",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "37993714",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "7743998",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "7797510",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "7797592",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Inflammatory caspase that acts as the effector of the non-canonical inflammasome by mediating lipopolysaccharide (LPS)-induced pyroptosis (PubMed:25119034, PubMed:26375003, PubMed:32109412, PubMed:34671164, PubMed:37001519, PubMed:37993712, PubMed:37993714). Also indirectly activates the NLRP3 and NLRP6 inflammasomes (PubMed:23516580, PubMed:26375003, PubMed:32109412, PubMed:7797510). Acts as a thiol protease that cleaves a tetrapeptide after an Asp residue at position P1: catalyzes cleavage of CGAS, GSDMD and IL18 (PubMed:15326478, PubMed:23516580, PubMed:26375003, PubMed:28314590, PubMed:32109412, PubMed:37993712, PubMed:37993714, PubMed:7797510). Effector of the non-canonical inflammasome independently of NLRP3 inflammasome and CASP1: the non-canonical inflammasome promotes pyroptosis through GSDMD cleavage without involving secretion of cytokine IL1B (PubMed:25119034, PubMed:25121752, PubMed:26375003, PubMed:31268602, PubMed:32109412, PubMed:37993712, PubMed:37993714). In the non-canonical inflammasome, CASP4 is activated by direct binding to the lipid A moiety of LPS without the need of an upstream sensor (PubMed:25119034, PubMed:25121752, PubMed:29520027, PubMed:32510692, PubMed:32581219, PubMed:37993712). LPS-binding promotes CASP4 activation and CASP4-mediated cleavage of GSDMD and IL18, followed by IL18 secretion through the GSDMD pore, pyroptosis of infected cells and their extrusion into the gut lumen (PubMed:25119034, PubMed:25121752, PubMed:37993712, PubMed:37993714). Also indirectly promotes secretion of mature cytokines (IL1A and HMGB1) downstream of GSDMD-mediated pyroptosis via activation of the NLRP3 and NLRP6 inflammasomes (PubMed:26375003, PubMed:32109412). Involved in NLRP3-dependent CASP1 activation and IL1B secretion in response to non-canonical activators, such as UVB radiation or cholera enterotoxin (PubMed:22246630, PubMed:23516580, PubMed:24879791, PubMed:25964352, PubMed:26173988, PubMed:26174085, PubMed:26508369). Involved in NLRP6 inflammasome-dependent activation in response to lipoteichoic acid (LTA), a cell-wall component of Gram-positive bacteria, which leads to CASP1 activation and IL1B secretion (PubMed:33377178). Involved in LPS-induced IL6 secretion; this activity may not require caspase enzymatic activity (PubMed:26508369). The non-canonical inflammasome is required for innate immunity to cytosolic, but not vacuolar, bacteria (By similarity). Plays a crucial role in the restriction of S.typhimurium replication in colonic epithelial cells during infection (PubMed:25121752, PubMed:25964352). Activation of the non-canonical inflammasome in brain endothelial cells can lead to excessive pyroptosis, leading to blood-brain barrier breakdown (By similarity). Pyroptosis limits bacterial replication, while cytokine secretion promotes the recruitment and activation of immune cells and triggers mucosal inflammation (PubMed:25121752, PubMed:25964352, PubMed:26375003). May also act as an activator of adaptive immunity in dendritic cells, following activation by oxidized phospholipid 1-palmitoyl-2-arachidonoyl- sn-glycero-3-phosphorylcholine, an oxidized phospholipid (oxPAPC) (By similarity). Involved in cell death induced by endoplasmic reticulum stress and by treatment with cytotoxic APP peptides found in Alzheimer's patient brains (PubMed:15123740, PubMed:22246630, PubMed:23661706). Cleavage of GSDMD is not strictly dependent on the consensus cleavage site but depends on an exosite interface on CASP4 that recognizes and binds the Gasdermin-D, C-terminal (GSDMD-CT) part (PubMed:32109412). Catalyzes cleavage and maturation of IL18; IL18 processing also depends of the exosite interface on CASP4 (PubMed:15326478, PubMed:37993712, PubMed:37993714). In contrast, it does not directly process IL1B (PubMed:7743998, PubMed:7797510, PubMed:7797592). During non-canonical inflammasome activation, cuts CGAS and may play a role in the regulation of antiviral innate immune activation (PubMed:28314590)"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "29077095",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "(Microbial infection) In response to the Td92 surface protein of the periodontal pathogen T.denticola, activated by cathepsin CTSG which leads to production and secretion of IL1A and pyroptosis of gingival fibroblasts"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15123740",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "22246630",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Predominantly localizes to the endoplasmic reticulum (ER). Association with the ER membrane requires TMEM214 (PubMed:15123740). Released in the extracellular milieu by keratinocytes following UVB irradiation (PubMed:22246630)"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "23661706",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0091",
+                "value": "Cytoplasm, cytosol"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15123740",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "23661706",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0097",
+                "value": "Endoplasmic reticulum membrane"
+              },
+              "orientation": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "23661706",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9910",
+                "value": "Cytoplasmic side"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "23661706",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9903",
+                "value": "Peripheral membrane protein"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "15123740",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "23661706",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0173",
+                "value": "Mitochondrion"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "25119034",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "26508369",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0488",
+                "value": "Inflammasome"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "22246630",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI000003AEFA"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P29466",
+              "source": "UniProtKB"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 210
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 210
+            }
+          },
+          "type": "Active site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "22246630",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "23661706",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "25119034",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "37993712",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "37993714",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "7743998",
+              "source": "PubMed"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 258
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 258
+            }
+          },
+          "type": "Active site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "id": "15123740",
+                "source": "PubMed"
+              },
+              {
+                "evidenceCode": "ECO:0000312",
+                "id": "HGNC:1505",
+                "source": "HGNC"
+              }
+            ],
+            "value": "CASP4"
+          },
+          "synonyms": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "7797510",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "ICH2"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P49662",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "7797510",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "ICE and Ced-3 homolog 2"
+            },
+            "shortNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "7797510",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "ICH-2"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "7797592",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "ICE(rel)-II"
+            }
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "Ref.4",
+                  "source": "Reference"
+                }
+              ],
+              "value": "Mih1"
+            }
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "7743998",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Protease TX"
+            }
+          }
+        ],
+        "contains": [
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "Caspase-4 subunit p10"
+              }
+            }
+          },
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "Caspase-4 subunit p20"
+              }
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "23516580",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "37993712",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "37993714",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "7797510",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "3.4.22.57"
+            }
+          ],
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "id": "15123740",
+                "source": "PubMed"
+              }
+            ],
+            "value": "Caspase-4"
+          },
+          "shortNames": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "15123740",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "CASP-4"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

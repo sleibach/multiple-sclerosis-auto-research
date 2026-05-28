@@ -1,0 +1,174 @@
+{
+  "input": "data/derived_v3/disease_axis_evidence_v3.tsv",
+  "n_disease_rows": 14,
+  "top_axes": [
+    {
+      "axis": "ifn_apc",
+      "weighted_score": 21.799999999999994,
+      "strong_disease_count": 12,
+      "supportive_disease_count": 14,
+      "weak_or_contradictory_count": 0,
+      "supporting_diseases": "MS;MS;RA;SLE_LN;Crohn;UC;psoriasis;Sjogren;AITD;T1D;MG;SpA_AS_PsA;Celiac;PBC",
+      "strong_diseases": "RA;SLE_LN;Crohn;UC;psoriasis;Sjogren;AITD;T1D;MG;SpA_AS_PsA;Celiac;PBC"
+    },
+    {
+      "axis": "lysosomal_apc",
+      "weighted_score": 18.299999999999997,
+      "strong_disease_count": 8,
+      "supportive_disease_count": 14,
+      "weak_or_contradictory_count": 0,
+      "supporting_diseases": "MS;MS;RA;SLE_LN;Crohn;UC;psoriasis;Sjogren;AITD;T1D;MG;SpA_AS_PsA;Celiac;PBC",
+      "strong_diseases": "MS;SLE_LN;Crohn;UC;psoriasis;SpA_AS_PsA;Celiac;PBC"
+    },
+    {
+      "axis": "hif_nampt_metabolic",
+      "weighted_score": 11.899999999999999,
+      "strong_disease_count": 3,
+      "supportive_disease_count": 11,
+      "weak_or_contradictory_count": 3,
+      "supporting_diseases": "MS;RA;SLE_LN;Crohn;UC;psoriasis;AITD;T1D;SpA_AS_PsA;Celiac;PBC",
+      "strong_diseases": "Crohn;UC;T1D"
+    },
+    {
+      "axis": "complement_phagocytosis",
+      "weighted_score": 10.2,
+      "strong_disease_count": 3,
+      "supportive_disease_count": 9,
+      "weak_or_contradictory_count": 5,
+      "supporting_diseases": "MS;RA;SLE_LN;Crohn;UC;psoriasis;MG;SpA_AS_PsA;PBC",
+      "strong_diseases": "RA;SLE_LN;MG"
+    },
+    {
+      "axis": "lipid_loader_repair",
+      "weighted_score": 5.7,
+      "strong_disease_count": 1,
+      "supportive_disease_count": 5,
+      "weak_or_contradictory_count": 9,
+      "supporting_diseases": "MS;MS;RA;SLE_LN;Crohn",
+      "strong_diseases": "MS"
+    }
+  ],
+  "top_candidate_genes": [
+    {
+      "gene": "STAT1",
+      "axes": "ifn_apc",
+      "axis_weighted_score": 21.799999999999994,
+      "mentioned_disease_count": 8,
+      "mentioned_diseases": "RA;UC;Sjogren;AITD;T1D;MG;SpA_AS_PsA;Celiac",
+      "priority_score": 28.199999999999996
+    },
+    {
+      "gene": "CXCL10",
+      "axes": "ifn_apc",
+      "axis_weighted_score": 21.799999999999994,
+      "mentioned_disease_count": 8,
+      "mentioned_diseases": "SLE_LN;psoriasis;Sjogren;AITD;T1D;MG;Celiac;PBC",
+      "priority_score": 28.199999999999996
+    },
+    {
+      "gene": "IRF1",
+      "axes": "ifn_apc",
+      "axis_weighted_score": 21.799999999999994,
+      "mentioned_disease_count": 7,
+      "mentioned_diseases": "UC;Sjogren;AITD;T1D;MG;SpA_AS_PsA;Celiac",
+      "priority_score": 27.399999999999995
+    },
+    {
+      "gene": "CD74",
+      "axes": "ifn_apc,lysosomal_apc",
+      "axis_weighted_score": 20.049999999999997,
+      "mentioned_disease_count": 7,
+      "mentioned_diseases": "Sjogren;AITD;T1D;MG;SpA_AS_PsA;Celiac;PBC",
+      "priority_score": 25.65
+    },
+    {
+      "gene": "IFI30",
+      "axes": "ifn_apc,lysosomal_apc",
+      "axis_weighted_score": 20.049999999999997,
+      "mentioned_disease_count": 7,
+      "mentioned_diseases": "MS;SLE_LN;Crohn;psoriasis;T1D;SpA_AS_PsA;Celiac",
+      "priority_score": 25.65
+    },
+    {
+      "gene": "OSM",
+      "axes": "ifn_apc",
+      "axis_weighted_score": 21.799999999999994,
+      "mentioned_disease_count": 1,
+      "mentioned_diseases": "UC",
+      "priority_score": 22.599999999999994
+    },
+    {
+      "gene": "TREM1",
+      "axes": "ifn_apc",
+      "axis_weighted_score": 21.799999999999994,
+      "mentioned_disease_count": 1,
+      "mentioned_diseases": "UC",
+      "priority_score": 22.599999999999994
+    },
+    {
+      "gene": "CTSB",
+      "axes": "lysosomal_apc",
+      "axis_weighted_score": 18.299999999999997,
+      "mentioned_disease_count": 4,
+      "mentioned_diseases": "Crohn;psoriasis;SpA_AS_PsA;Celiac",
+      "priority_score": 21.499999999999996
+    },
+    {
+      "gene": "HLA-DRA",
+      "axes": "ifn_apc,lysosomal_apc",
+      "axis_weighted_score": 20.049999999999997,
+      "mentioned_disease_count": 1,
+      "mentioned_diseases": "SpA_AS_PsA",
+      "priority_score": 20.849999999999998
+    },
+    {
+      "gene": "LAMP3",
+      "axes": "lysosomal_apc,ifn_apc",
+      "axis_weighted_score": 20.049999999999997,
+      "mentioned_disease_count": 1,
+      "mentioned_diseases": "Sjogren",
+      "priority_score": 20.849999999999998
+    },
+    {
+      "gene": "CTSS",
+      "axes": "lysosomal_apc",
+      "axis_weighted_score": 18.299999999999997,
+      "mentioned_disease_count": 3,
+      "mentioned_diseases": "MG;Celiac;PBC",
+      "priority_score": 20.699999999999996
+    },
+    {
+      "gene": "IL1B",
+      "axes": "ifn_apc,hif_nampt_metabolic",
+      "axis_weighted_score": 16.85,
+      "mentioned_disease_count": 4,
+      "mentioned_diseases": "Crohn;psoriasis;Celiac;PBC",
+      "priority_score": 20.05
+    },
+    {
+      "gene": "LAMP1",
+      "axes": "lysosomal_apc",
+      "axis_weighted_score": 18.299999999999997,
+      "mentioned_disease_count": 1,
+      "mentioned_diseases": "MS",
+      "priority_score": 19.099999999999998
+    },
+    {
+      "gene": "TNF",
+      "axes": "ifn_apc,hif_nampt_metabolic",
+      "axis_weighted_score": 16.85,
+      "mentioned_disease_count": 1,
+      "mentioned_diseases": "Crohn",
+      "priority_score": 17.650000000000002
+    },
+    {
+      "gene": "NAMPT",
+      "axes": "hif_nampt_metabolic",
+      "axis_weighted_score": 11.899999999999999,
+      "mentioned_disease_count": 6,
+      "mentioned_diseases": "MS;Crohn;UC;psoriasis;T1D;SpA_AS_PsA",
+      "priority_score": 16.7
+    }
+  ],
+  "interpretation": "Current breadth favors IFN/APC first, lysosomal antigen-processing second, HIF/NAMPT third, with lipid-loader/repair strong mainly in MS and lupus-like macrophage contexts rather than uniformly pan-autoimmune."
+}

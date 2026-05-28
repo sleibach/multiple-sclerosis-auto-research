@@ -1,0 +1,24 @@
+{
+  "branch_call": "NO_REOPEN_GPR183_FAIR_CLOSURE",
+  "coherent_compartment_disease_count": 0,
+  "evidence_classes": {
+    "external_response_support": "MIXED_SUPPORTIVE",
+    "matched_spatial_proxy": "MISSING_NOT_NEGATIVE",
+    "ms_pbmc_gpr183_gene_response": "NO_CROSS_MS_REPLICATION",
+    "ms_pbmc_ligand_axis_response": "NO_CROSS_MS_REPLICATION",
+    "weak_compartment_contrast": "NEGATIVE"
+  },
+  "inputs": {
+    "wave111_summary": "results_v3/wave111_gpr183_spatial_proxy_forcing_test/summary.json",
+    "wave112_compartment": "results_v3/wave112_gpr183_compartment_contrast_fallback/gpr183_compartment_contrast_summary.tsv",
+    "wave112_response": "results_v3/wave112_gpr183_compartment_contrast_fallback/gpr183_response_support_rows.tsv",
+    "wave112_summary": "results_v3/wave112_gpr183_compartment_contrast_fallback/summary.json",
+    "wave135_stability": "results_v3/wave135_lipid_flux_ms_response_sensitivity/lipid_flux_ms_response_stability.tsv",
+    "wave135_tests": "results_v3/wave135_lipid_flux_ms_response_sensitivity/lipid_flux_ms_response_feature_tests.tsv",
+    "wave83_meta": "results_v3/wave83_intervention_class_meta_rank/intervention_class_meta_rank.tsv",
+    "wave93_integrated": "results_v3/wave93_gpr183_oxysterol_forcing_test/integrated_decision.tsv"
+  },
+  "n_matched_spatial_pairs": 0,
+  "random_seed": 20260527,
+  "response_support_system_count_p_lt_0_10": 2
+}

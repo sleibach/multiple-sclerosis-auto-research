@@ -1,0 +1,21 @@
+candidate	gate	status	evidence
+LITAF	residual_c15_costate_replicates	True	c15_positive_diseases=3; residual_case_positive_diseases=3; median_residual_r=0.4155
+LITAF	human_timecourse_temporal_lead_over_c15	True	PBS_LPS: LITAF first=3h peak=3h; C15ORF48 first=3h peak=12h; IFNY_LPS: LITAF first=3h peak=6h; C15ORF48 first=3h peak=12h
+LITAF	real_perturbation_moves_candidate_and_c15	False	rux_mean_3_6h_LITAF=-0.05685; rux_6h_C15ORF48=-0.3235; rux_6h_ifn_apc=-1.306; rux_6h_pyroptosis=-0.3891
+LITAF	perturbation_not_just_broad_jak_ifn_confounding	False	rux_6h_ifn_apc=-1.306; if this is strongly negative, candidate suppression is broad JAK/IFN confounding rather than selective stress-node perturbation
+LITAF	mouse_indirect_perturbation_consistent	False	Gsk3b_KO_IFNg_vs_NTC_IFNg=-0.2359; Med16_KO_IFNg_vs_NTC_IFNg=-0.09276; C15orf48 absent from this mouse matrix
+LITAF	ms_claim_grade_anchor	False	MS delta=0.3084; p=0.1716; fdr=0.8994
+LITAF	target_resolved_genetics_or_coloc	False	strong_qtl_coloc_diseases=0
+LITAF	direct_crispr_or_foundation_support	False	Wave37=UNRESOLVED; contrast_lfc=0.04879; contrast_fdr=0.9971; Geneformer strong contexts=
+LITAF	selective_druggable_modality	False	ChEMBL activity count=0; uniprot_accessible=True; for CASP4 this is only provisional because CASP1/CASP5 selectivity is not shown
+LITAF	prior_art_not_blocking	True	LITAF has close macrophage/TNF and arthritis prior plus no modality; CASP4/CASP11 has direct EAE/demyelination and inhibitor-patent prior
+CASP4	residual_c15_costate_replicates	True	c15_positive_diseases=3; residual_case_positive_diseases=2; median_residual_r=0.3084
+CASP4	human_timecourse_temporal_lead_over_c15	False	PBS_LPS: CASP4 first=3h peak=12h; C15ORF48 first=3h peak=12h; IFNY_LPS: CASP4 first=h peak=3h; C15ORF48 first=3h peak=12h
+CASP4	real_perturbation_moves_candidate_and_c15	True	rux_mean_3_6h_CASP4=-1.081; rux_6h_C15ORF48=-0.3235; rux_6h_ifn_apc=-1.306; rux_6h_pyroptosis=-0.3891
+CASP4	perturbation_not_just_broad_jak_ifn_confounding	False	rux_6h_ifn_apc=-1.306; if this is strongly negative, candidate suppression is broad JAK/IFN confounding rather than selective stress-node perturbation
+CASP4	mouse_indirect_perturbation_consistent	False	Gsk3b_KO_IFNg_vs_NTC_IFNg=-0.4693; Med16_KO_IFNg_vs_NTC_IFNg=1.078; C15orf48 absent from this mouse matrix
+CASP4	ms_claim_grade_anchor	False	MS delta=0.2067; p=0.4927; fdr=0.9272
+CASP4	target_resolved_genetics_or_coloc	False	strong_qtl_coloc_diseases=0
+CASP4	direct_crispr_or_foundation_support	False	Wave37=; contrast_lfc=; contrast_fdr=; Geneformer strong contexts=
+CASP4	selective_druggable_modality	True	ChEMBL activity count=61; uniprot_accessible=True; for CASP4 this is only provisional because CASP1/CASP5 selectivity is not shown
+CASP4	prior_art_not_blocking	False	LITAF has close macrophage/TNF and arthritis prior plus no modality; CASP4/CASP11 has direct EAE/demyelination and inhibitor-patent prior

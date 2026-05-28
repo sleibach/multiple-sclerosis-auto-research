@@ -1,0 +1,31 @@
+{
+  "analysis_call": "C15_RESIDUAL_COSTATE_FALSIFICATION_COMPLETED",
+  "call_counts": {
+    "NO_GO_GENERIC_INFLAMMATION_CONFONDED": 2,
+    "NO_GO_RESIDUAL_COSTATE_WEAK": 1,
+    "PARK_RESIDUAL_COSTATE_WITH_MODALITY": 9,
+    "REOPEN_AFTER_RESIDUAL_COSTATE": 1
+  },
+  "inputs": {
+    "anchors": "results_v3/wave96_c15orf48_controller_search/c15orf48_anchor_contexts.tsv",
+    "wave96": "results_v3/wave96_c15orf48_controller_search/c15orf48_controller_candidate_rank.tsv"
+  },
+  "n_candidates": 13,
+  "n_parked_residual": 9,
+  "n_reopened": 1,
+  "parked_residual": [
+    "LITAF",
+    "CASP4",
+    "CD200",
+    "SLPI",
+    "MTHFD2",
+    "PDPN",
+    "FKBP1A",
+    "PIK3R2",
+    "PLEK2"
+  ],
+  "reopened": [
+    "CCL20"
+  ],
+  "seed": 20260527
+}

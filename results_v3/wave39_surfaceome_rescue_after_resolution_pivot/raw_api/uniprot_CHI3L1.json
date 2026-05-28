@@ -1,0 +1,408 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "16472595",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "19414556",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20558631",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "9492324",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Carbohydrate-binding lectin with a preference for chitin. Has no chitinase activity. May play a role in tissue remodeling and in the capacity of cells to respond to and cope with changes in their environment. Plays a role in T-helper cell type 2 (Th2) inflammatory response and IL-13-induced inflammation, regulating allergen sensitization, inflammatory cell apoptosis, dendritic cell accumulation and M2 macrophage differentiation. Facilitates invasion of pathogenic enteric bacteria into colonic mucosa and lymphoid organs. Mediates activation of AKT1 signaling pathway and subsequent IL8 production in colonic epithelial cells. Regulates antibacterial responses in lung by contributing to macrophage bacterial killing, controlling bacterial dissemination and augmenting host tolerance. Also regulates hyperoxia-induced injury, inflammation and epithelial apoptosis in lung"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "9492324",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0112",
+                "value": "Secreted, extracellular space"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "id": "SL-0198",
+                "value": "Cytoplasm, perinuclear region"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "id": "SL-0095",
+                "value": "Endoplasmic reticulum"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000072E4F"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU01258",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:17029"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:17029",
+            "name": "chitin"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 71
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 70
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU01258",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:17029"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:17029",
+            "name": "chitin"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 100
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 97
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU01258",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:17029"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:17029",
+            "name": "chitin"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 141
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 141
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU01258",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:17029"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:17029",
+            "name": "chitin"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 207
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 204
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:17029"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:17029",
+            "name": "chitin"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 263
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 263
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "id": "PRU01258",
+              "source": "PROSITE-ProRule"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:17029"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:17029",
+            "name": "chitin"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 352
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 352
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "CHI3L1"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0929",
+          "name": "Antimicrobial"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0053",
+          "name": "Apoptosis"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-1058",
+          "name": "Asthma"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0963",
+          "name": "Cytoplasm"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-0903",
+          "name": "Direct protein sequencing"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-1015",
+          "name": "Disulfide bond"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0256",
+          "name": "Endoplasmic reticulum"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0325",
+          "name": "Glycoprotein"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0395",
+          "name": "Inflammatory response"
+        },
+        {
+          "category": "Ligand",
+          "id": "KW-0430",
+          "name": "Lectin"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-1211",
+          "name": "Schizophrenia"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0964",
+          "name": "Secreted"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0732",
+          "name": "Signal"
+        }
+      ],
+      "primaryAccession": "P36222",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "39 kDa synovial protein"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Cartilage glycoprotein 39"
+            },
+            "shortNames": [
+              {
+                "value": "CGP-39"
+              },
+              {
+                "value": "GP-39"
+              },
+              {
+                "value": "hCGP-39"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "YKL-40"
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "Chitinase-3-like protein 1"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "6C9EF133BDC7C2D1",
+        "length": 383,
+        "md5": "0E7AC26D377931E9DD78F5AB253C1EAC",
+        "molWeight": 42625,
+        "value": "MGVKASQTGFVVLVLLQCCSAYKLVCYYTSWSQYREGDGSCFPDALDRFLCTHIIYSFANISNDHIDTWEWNDVTLYGMLNTLKNRNPNLKTLLSVGGWNFGSQRFSKIASNTQSRRTFIKSVPPFLRTHGFDGLDLAWLYPGRRDKQHFTTLIKEMKAEFIKEAQPGKKQLLLSAALSAGKVTIDSSYDIAKISQHLDFISIMTYDFHGAWRGTTGHHSPLFRGQEDASPDRFSNTDYAVGYMLRLGAPASKLVMGIPTFGRSFTLASSETGVGAPISGPGIPGRFTKEAGTLAYYEICDFLRGATVHRILGQQVPYATKGNQWVGYDDQESVKSKVQYLKDRQLAGAMVWALDLDDFQGSFCGQDLRFPLTNAIKDALAAT"
+      },
+      "uniProtkbId": "CH3L1_HUMAN"
+    }
+  ]
+}

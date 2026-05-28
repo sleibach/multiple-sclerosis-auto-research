@@ -1,0 +1,49 @@
+{
+  "calls": {
+    "GO": 0,
+    "NO_GO": 13,
+    "PARK": 11
+  },
+  "created": "2026-05-27",
+  "go_genes": [],
+  "inputs": [
+    "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv",
+    "results_v3/cross_disease_gene_summary.tsv",
+    "results_v3/disease_axis_candidate_gene_rank.tsv",
+    "results_v3/wave15_surface_trafficking_dependency/candidate_ranked.tsv",
+    "results_v3/wave15_orchestrator_dependency_scan/candidate_dependency_priority_summary.tsv",
+    "results_v3/existing_evidence_candidate_matrix.tsv",
+    "results_v3/opentargets_candidate_disease_hits.tsv",
+    "results_v3/intervention_prior_art_audit.tsv",
+    "subagents_v3 wave5-wave17 reports"
+  ],
+  "n_candidates": 24,
+  "no_go_genes": [
+    "LGALS9",
+    "C1QB",
+    "FCGR3A",
+    "TREM2",
+    "FCGR2A",
+    "C1QA",
+    "TREM1",
+    "LILRB1",
+    "SPP1",
+    "AXL",
+    "LGALS3",
+    "CD47",
+    "MERTK"
+  ],
+  "park_genes": [
+    "ITGAM",
+    "CD44",
+    "CD274",
+    "ITGAX",
+    "TYROBP",
+    "CD24",
+    "MSR1",
+    "LILRB2",
+    "SIRPA",
+    "GPNMB",
+    "CHI3L1"
+  ]
+}

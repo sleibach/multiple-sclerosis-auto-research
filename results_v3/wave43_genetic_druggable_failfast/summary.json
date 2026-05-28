@@ -1,0 +1,29 @@
+{
+  "date": "2026-05-27",
+  "inputs": {
+    "broad": "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv",
+    "residual": "results_v3/broad_residual_gate/broad_residual_gate_summary.tsv",
+    "wave34": "results_v3/wave34_genetics_expression_druggability_scan/wave34_genetics_expression_druggability_rank.tsv",
+    "wave42_summary": "results_v3/wave42_fads_lipid_desaturation_axis/summary.json"
+  },
+  "interpretation": "The full Wave34 genetics-plus-druggability parked class is closed for V3 promotion. FADS1 is parked only for future coloc/perturbation work; TYK2 and JAK2 are prior-art/generic JAK-STAT immunosuppression; NOD2 is genetically real but directionally and contextually IBD-heavy without MS/residual or correct-direction perturbation support.",
+  "n_parked_genetic_druggable_rows": 4,
+  "output_paths": {
+    "broad_rows": "results_v3/wave43_genetic_druggable_failfast/broad_cellstate_rows.tsv",
+    "failfast": "results_v3/wave43_genetic_druggable_failfast/genetic_druggable_failfast.tsv",
+    "residual_rows": "results_v3/wave43_genetic_druggable_failfast/residual_rows.tsv",
+    "wave34_input_rows": "results_v3/wave43_genetic_druggable_failfast/wave34_parked_input_rows.tsv"
+  },
+  "promoted_count": 0,
+  "random_seed": 20260527,
+  "wave42_fads_context": {
+    "lincs_fads_perturbagen_rows": 0,
+    "promotion_status": "NO_THERAPEUTIC_CLAIM",
+    "wave42_call": "PARK_ONLY_IF_COLOC_DIRECTION_AND_PERTURBATION_APPEAR"
+  },
+  "wave43_call_counts": {
+    "NO_GO_ALREADY_DEMOTED_WAVE42": 1,
+    "NO_GO_DIRECTION_AND_CONTEXT_MISMATCH": 1,
+    "NO_GO_PRIOR_ART_AND_GENERIC_IMMUNOSUPPRESSION": 2
+  }
+}

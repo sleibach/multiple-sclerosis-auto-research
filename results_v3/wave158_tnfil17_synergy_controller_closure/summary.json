@@ -1,0 +1,22 @@
+{
+  "branch_call": "NO_TNF_IL17_SYNERGY_CONTROLLER_PROMOTION",
+  "genes_audited": [
+    "CUX1",
+    "NFKBIZ",
+    "STAT3",
+    "STAT4"
+  ],
+  "promoted_gene_count": 0,
+  "cux1_elr_gene_specificity_signal": {
+    "source": "Wave155",
+    "top_selective_gene": "CXCL1",
+    "cxcl1_induced_contexts": 5,
+    "cxcl1_cux1_selective_nominal": 5
+  },
+  "elr_state_support": {
+    "source": "Wave157",
+    "induction_datasets_p_lt_0_05": 6,
+    "treatment_down_contrasts_p_lt_0_05": 1
+  },
+  "interpretation": "The TNF/IL17-CUX1/NFKBIZ-ELR circuit is biologically real in local human interface datasets and matches verified prior art, but it fails V3 promotion gates for novelty, MS anchoring, target-resolved genetics, and selective reachable intervention modality."
+}

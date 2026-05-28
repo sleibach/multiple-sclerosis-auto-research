@@ -1,0 +1,200 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "value": "Induces production of reactive oxygen species (ROS) which are necessary for cell proliferation. May play a role in inducing oxidative DNA damage and replicative senescence. May play a role in the coordination of mitochondrial morphology and cell proliferation"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "value": "Has antibacterial activity against a variety of bacteria including S.aureus, P.aeruginosa and M.tuberculosis. Acts by inducing bacterial membrane breakage"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "16842742",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "19535734",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0168",
+                "value": "Mitochondrion inner membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "16842742",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "19535734",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9904",
+                "value": "Single-pass membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000024489"
+      },
+      "features": [
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 44
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 22
+            }
+          },
+          "type": "Transmembrane"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "ROMO1"
+          },
+          "synonyms": [
+            {
+              "value": "C20orf52"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0044",
+          "name": "Antibiotic"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0929",
+          "name": "Antimicrobial"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0496",
+          "name": "Mitochondrion"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0999",
+          "name": "Mitochondrion inner membrane"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        }
+      ],
+      "primaryAccession": "P60602",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Epididymis tissue protein Li 175"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Glyrichin"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Mitochondrial targeting GxxxG motif protein"
+            },
+            "shortNames": [
+              {
+                "value": "MTGM"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Protein MGR2 homolog"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "Reactive oxygen species modulator 1"
+          },
+          "shortNames": [
+            {
+              "value": "ROS modulator 1"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "AD959C88C89EF80A",
+        "length": 79,
+        "md5": "C2C86363E5880E328E1CD6BD97FC541D",
+        "molWeight": 8183,
+        "value": "MPVAVGPYGQSQPSCFDRVKMGFVMGCAVGMAAGALFGTFSCLRIGMRGRELMGGIGKTMMQSGGTFGTFMAIGMGIRC"
+      },
+      "uniProtkbId": "ROMO1_HUMAN"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "error": "",
+  "payload": {
+    "hitCount": 1173,
+    "nextCursorMark": "AoIIQRQViig1Mzg2OTY1Mg==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=(SH2B3) AND (\"autoimmune\" OR \"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR psoriasis)&cursorMark=AoIIQRQViig1Mzg2OTY1Mg==&resultType=lite&pageSize=3&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 3,
+      "queryString": "(SH2B3) AND (\"autoimmune\" OR \"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR psoriasis)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Shchekina VS, Batashkov NA, Maznina AA, Krupinova JA, Bogdanov VP, Korobeinikova AV, Tychinin DI, Glushkova OV, Petriaikina ES, Svetlichnyy DV, Woroncow M, Yudin VS, Keskinov AA, Yudin SM, Skvortsova VI, Tabakov DV, Deviatkin AA, Volchkov PY.",
+          "citedByCount": 0,
+          "doi": "10.3390/ijms27010543",
+          "firstIndexDate": "2026-01-10",
+          "firstPublicationDate": "2026-01-05",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12786532"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "41516417",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "1",
+          "journalIssn": "1422-0067",
+          "journalTitle": "Int J Mol Sci",
+          "journalVolume": "27",
+          "pageInfo": "543",
+          "pmcid": "PMC12786532",
+          "pmid": "41516417",
+          "pubType": "research-article; journal article",
+          "pubYear": "2026",
+          "source": "MED",
+          "title": "Identifying a Common Autoimmune Gene Core as a Tool for Verifying Biological Significance and Applicability of Polygenic Risk Scores.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "refsnp"
+            ]
+          }
+        },
+        {
+          "authorString": "Zhou F, Li T, Hui H, Gao J, Xu Z, Deng Z.",
+          "citedByCount": 0,
+          "doi": "10.1007/s10238-025-01836-3",
+          "firstIndexDate": "2025-09-01",
+          "firstPublicationDate": "2025-08-27",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12391177"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "hasTextMinedTerms": "Y",
+          "id": "40864326",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "1",
+          "journalIssn": "1591-8890; 1591-9528; ",
+          "journalTitle": "Clin Exp Med",
+          "journalVolume": "25",
+          "pageInfo": "305",
+          "pmcid": "PMC12391177",
+          "pmid": "40864326",
+          "pubType": "research-article; journal article",
+          "pubYear": "2025",
+          "source": "MED",
+          "title": "The shared genetic etiology of autoimmune disorders and interstitial lung disease: insights from large-scale genome-wide cross-trait analysis.",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "refsnp"
+            ]
+          }
+        },
+        {
+          "authorString": "Syed AAS, Memon AA, Fahira A, Yang Q, Zhang M, Jian X, Shi Y.",
+          "bookOrReportDetails": {
+            "publisher": "bioRxiv",
+            "yearOfPublication": 2025
+          },
+          "citedByCount": 0,
+          "doi": "10.1101/2025.09.12.675974",
+          "firstIndexDate": "2025-09-19",
+          "firstPublicationDate": "2025-09-17",
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasPDF": "N",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "PPR1085741",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "isOpenAccess": "N",
+          "pubType": "preprint",
+          "pubYear": "2025",
+          "source": "PPR",
+          "title": "The Genetic Immune Basis of Gout: Identification, Functional Characterization, and Therapeutic Implications"
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "status": "ok",
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28SH2B3%29+AND+%28%22autoimmune%22+OR+%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+psoriasis%29&format=json&pageSize=3&resultType=lite"
+}

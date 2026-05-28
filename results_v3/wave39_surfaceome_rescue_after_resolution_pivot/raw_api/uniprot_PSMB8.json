@@ -1,0 +1,254 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "16423992",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "19443843",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "21881205",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "27049119",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "8163024",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "The proteasome is a multicatalytic proteinase complex which is characterized by its ability to cleave peptides with Arg, Phe, Tyr, Leu, and Glu adjacent to the leaving group at neutral or slightly basic pH. The proteasome has an ATP-dependent proteolytic activity. This subunit is involved in antigen processing to generate class I binding peptides. Replacement of PSMB5 by PSMB8 increases the capacity of the immunoproteasome to cleave model peptides after hydrophobic and basic residues. Involved in the generation of spliced peptides resulting from the ligation of two separate proteasomal cleavage products that are not contiguous in the parental protein (PubMed:27049119). Acts as a major component of interferon gamma-induced sensitivity. Plays a key role in apoptosis via the degradation of the apoptotic inhibitor MCL1. May be involved in the inflammatory response pathway. In cancer cells, substitution of isoform 1 (E2) by isoform 2 (E1) results in immunoproteasome deficiency. Required for the differentiation of preadipocytes into adipocytes"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000255",
+                    "id": "PRU00809",
+                    "source": "PROSITE-ProRule"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "id": "SL-0191",
+                "value": "Nucleus"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000140B8A"
+      },
+      "features": [
+        {
+          "description": "Nucleophile",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 73
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 73
+            }
+          },
+          "type": "Active site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "PSMB8"
+          },
+          "synonyms": [
+            {
+              "value": "LMP7"
+            },
+            {
+              "value": "PSMB5i"
+            },
+            {
+              "value": "RING10"
+            },
+            {
+              "value": "Y2"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0963",
+          "name": "Cytoplasm"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0221",
+          "name": "Differentiation"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0225",
+          "name": "Disease variant"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0945",
+          "name": "Host-virus interaction"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0378",
+          "name": "Hydrolase"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0391",
+          "name": "Immunity"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0539",
+          "name": "Nucleus"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0645",
+          "name": "Protease"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0647",
+          "name": "Proteasome"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Molecular function",
+          "id": "KW-0888",
+          "name": "Threonine protease"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0865",
+          "name": "Zymogen"
+        }
+      ],
+      "primaryAccession": "P28062",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "Low molecular mass protein 7"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Macropain subunit C13"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Multicatalytic endopeptidase complex subunit C13"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Proteasome component C13"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Proteasome subunit beta-5i"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Really interesting new gene 10 protein"
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "value": "3.4.25.1"
+            }
+          ],
+          "fullName": {
+            "value": "Proteasome subunit beta type-8"
+          }
+        }
+      },
+      "sequence": {
+        "crc64": "4F689501677DBD44",
+        "length": 276,
+        "md5": "8CD1C46EDCE180F0D4468FE7F7446E60",
+        "molWeight": 30354,
+        "value": "MALLDVCGAPRGQRPESALPVAGSGRRSDPGHYSFSMRSPELALPRGMQPTEFFQSLGGDGERNVQIEMAHGTTTLAFKFQHGVIAAVDSRASAGSYISALRVNKVIEINPYLLGTMSGCAADCQYWERLLAKECRLYYLRNGERISVSAASKLLSNMMCQYRGMGLSMGSMICGWDKKGPGLYYVDEHGTRLSGNMFSTGSGNTYAYGVMDSGYRPNLSPEEAYDLGRRAIAYATHRDSYSGGVVNMYHMKEDGWVKVESTDVSDLLHQYREANQ"
+      },
+      "uniProtkbId": "PSB8_HUMAN"
+    }
+  ]
+}

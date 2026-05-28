@@ -1,0 +1,322 @@
+{
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "Q810U4",
+                  "source": "UniProtKB"
+                }
+              ],
+              "value": "Cell adhesion protein that is required for normal responses to cell-cell contacts in brain and in the peripheral nervous system. Plays a role in neurite outgrowth in response to contactin binding. Plays a role in mediating cell-cell contacts between Schwann cells and axons. Plays a role in the formation and maintenance of the nodes of Ranvier on myelinated axons. Nodes of Ranvier contain clustered sodium channels that are crucial for the saltatory propagation of action potentials along myelinated axons. During development, nodes of Ranvier are formed by the fusion of two heminodes. Required for normal clustering of sodium channels at heminodes; not required for the formation of mature nodes with normal sodium channel clusters. Required, together with GLDN, for maintaining NFASC and sodium channel clusters at mature nodes of Ranvier"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "Q810U4",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "value": "Detected at nodes of Ranvier"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "Q810U4",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "Q810U4",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-9905",
+                "value": "Single-pass type I membrane protein"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "Q810U4",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0279",
+                "value": "Cell projection, axon"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "Q810U4",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI00005E2661"
+      },
+      "features": [
+        {
+          "description": "Extracellular",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 1167
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 25
+            }
+          },
+          "type": "Topological domain"
+        },
+        {
+          "description": "Helical",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 1190
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 1168
+            }
+          },
+          "type": "Transmembrane"
+        },
+        {
+          "description": "Cytoplasmic",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255"
+            }
+          ],
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 1304
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 1191
+            }
+          },
+          "type": "Topological domain"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "NRCAM"
+          },
+          "synonyms": [
+            {
+              "value": "KIAA0343"
+            }
+          ]
+        }
+      ],
+      "keywords": [
+        {
+          "category": "Technical term",
+          "id": "KW-0002",
+          "name": "3D-structure"
+        },
+        {
+          "category": "Coding sequence diversity",
+          "id": "KW-0025",
+          "name": "Alternative splicing"
+        },
+        {
+          "category": "Biological process",
+          "id": "KW-0130",
+          "name": "Cell adhesion"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-1003",
+          "name": "Cell membrane"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0966",
+          "name": "Cell projection"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0225",
+          "name": "Disease variant"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-1015",
+          "name": "Disulfide bond"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0325",
+          "name": "Glycoprotein"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0393",
+          "name": "Immunoglobulin domain"
+        },
+        {
+          "category": "Disease",
+          "id": "KW-0991",
+          "name": "Intellectual disability"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0472",
+          "name": "Membrane"
+        },
+        {
+          "category": "PTM",
+          "id": "KW-0597",
+          "name": "Phosphoprotein"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1267",
+          "name": "Proteomics identification"
+        },
+        {
+          "category": "Technical term",
+          "id": "KW-1185",
+          "name": "Reference proteome"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0677",
+          "name": "Repeat"
+        },
+        {
+          "category": "Cellular component",
+          "id": "KW-0964",
+          "name": "Secreted"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0732",
+          "name": "Signal"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-0812",
+          "name": "Transmembrane"
+        },
+        {
+          "category": "Domain",
+          "id": "KW-1133",
+          "name": "Transmembrane helix"
+        }
+      ],
+      "primaryAccession": "Q92823",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "8812479",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Neuronal surface protein Bravo"
+            },
+            "shortNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "8812479",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "hBravo"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "NgCAM-related cell adhesion molecule"
+            },
+            "shortNames": [
+              {
+                "value": "Ng-CAM-related"
+              }
+            ]
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "Neuronal cell adhesion molecule"
+          },
+          "shortNames": [
+            {
+              "value": "Nr-CAM"
+            }
+          ]
+        }
+      },
+      "sequence": {
+        "crc64": "1F2698BC7DB5C363",
+        "length": 1304,
+        "md5": "C82A8510863C237DF1D0AC683DC1358F",
+        "molWeight": 143890,
+        "value": "MQLKIMPKKKRLSAGRVPLILFLCQMISALEVPLDPKLLEDLVQPPTITQQSPKDYIIDPRENIVIQCEAKGKPPPSFSWTRNGTHFDIDKDPLVTMKPGTGTLIINIMSEGKAETYEGVYQCTARNERGAAVSNNIVVRPSRSPLWTKEKLEPITLQSGQSLVLPCRPPIGLPPPIIFWMDNSFQRLPQSERVSQGLNGDLYFSNVLPEDTREDYICYARFNHTQTIQQKQPISVKVISVDELNDTIAANLSDTEFYGAKSSRERPPTFLTPEGNASNKEELRGNVLSLECIAEGLPTPIIYWAKEDGMLPKNRTVYKNFEKTLQIIHVSEADSGNYQCIAKNALGAIHHTISVRVKAAPYWITAPQNLVLSPGEDGTLICRANGNPKPRISWLTNGVPIEIAPDDPSRKIDGDTIIFSNVQERSSAVYQCNASNEYGYLLANAFVNVLAEPPRILTPANTLYQVIANRPALLDCAFFGSPLPTIEWFKGAKGSALHEDIYVLHENGTLEIPVAQKDSTGTYTCVARNKLGMAKNEVHLEIKDPTWIVKQPEYAVVQRGSMVSFECKVKHDHTLSLTVLWLKDNRELPSDERFTVDKDHLVVADVSDDDSGTYTCVANTTLDSVSASAVLSVVAPTPTPAPVYDVPNPPFDLELTDQLDKSVQLSWTPGDDNNSPITKFIIEYEDAMHKPGLWHHQTEVSGTQTTAQLKLSPYVNYSFRVMAVNSIGKSLPSEASEQYLTKASEPDKNPTAVEGLGSEPDNLVITWKPLNGFESNGPGLQYKVSWRQKDGDDEWTSVVVANVSKYIVSGTPTFVPYLIKVQALNDMGFAPEPAVVMGHSGEDLPMVAPGNVRVNVVNSTLAEVHWDPVPLKSIRGHLQGYRIYYWKTQSSSKRNRRHIEKKILTFQGSKTHGMLPGLEPFSHYTLNVRVVNGKGEGPASPDRVFNTPEGVPSAPSSLKIVNPTLDSLTLEWDPPSHPNGILTEYTLKYQPINSTHELGPLVDLKIPANKTRWTLKNLNFSTRYKFYFYAQTSAGSGSQITEEAVTTVDEAGILPPDVGAGKVQAVNPRISNLTAAAAETYANISWEYEGPEHVNFYVEYGVAGSKEEWRKEIVNGSRSFFGLKGLMPGTAYKVRVGAVGDSGFVSSEDVFETGPAMASRQVDIATQGWFIGLMCAVALLILILLIVCFIRRNKGGKYPVKEKEDAHADPEIQPMKEDDGTFGEYSDAEDHKPLKKGSRTPSDRTVKKEDSDDSLVDYGEGVNGQFNEDGSFIGQYSGKKEKEPAEGNESSEAPSPVNAMNSFV"
+      },
+      "uniProtkbId": "NRCAM_HUMAN"
+    }
+  ]
+}

@@ -1,0 +1,1536 @@
+{
+  "payload": {
+    "page_meta": {
+      "limit": 20,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 3
+    },
+    "targets": [
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "TNF receptor-associated factor 2",
+        "score": 20.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL6067211",
+        "target_components": [
+          {
+            "accession": "Q12933",
+            "component_description": "TNF receptor-associated factor 2",
+            "component_id": 24068,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "2.3.2.27",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "E3 ubiquitin-protein ligase TRAF2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "RING-type E3 ubiquitin transferase TRAF2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "Synonyms=TRAP3",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "TNF receptor-associated factor 2",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TRAF2",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "Tumor necrosis factor type 2 receptor-associated protein 3",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "Q12933",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "Q12933",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0000151",
+                "xref_name": "ubiquitin ligase complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0002947",
+                "xref_name": "tumor necrosis factor receptor superfamily complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005654",
+                "xref_name": "nucleoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005938",
+                "xref_name": "cell cortex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0009898",
+                "xref_name": "cytoplasmic side of plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0012506",
+                "xref_name": "vesicle membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0032991",
+                "xref_name": "protein-containing complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0035631",
+                "xref_name": "CD40 receptor complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0043235",
+                "xref_name": "receptor complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0045121",
+                "xref_name": "membrane raft",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0097057",
+                "xref_name": "TRAF2-GSTP1 complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:1990604",
+                "xref_name": "IRE1-TRAF2-ASK1 complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0004842",
+                "xref_name": "ubiquitin-protein transferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005164",
+                "xref_name": "tumor necrosis factor receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005174",
+                "xref_name": "CD40 receptor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008270",
+                "xref_name": "zinc ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0008289",
+                "xref_name": "lipid binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0016740",
+                "xref_name": "transferase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019899",
+                "xref_name": "enzyme binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019901",
+                "xref_name": "protein kinase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0019903",
+                "xref_name": "protein phosphatase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0030674",
+                "xref_name": "protein-macromolecule adaptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031435",
+                "xref_name": "mitogen-activated protein kinase kinase kinase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031625",
+                "xref_name": "ubiquitin protein ligase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031996",
+                "xref_name": "thioesterase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0032813",
+                "xref_name": "tumor necrosis factor receptor superfamily binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0035591",
+                "xref_name": "signaling adaptor activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0042802",
+                "xref_name": "identical protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0043120",
+                "xref_name": "tumor necrosis factor binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0044877",
+                "xref_name": "protein-containing complex binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046625",
+                "xref_name": "sphingolipid binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0061630",
+                "xref_name": "ubiquitin protein ligase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0002637",
+                "xref_name": "regulation of immunoglobulin production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002700",
+                "xref_name": "regulation of production of molecular mediator of immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0002726",
+                "xref_name": "positive regulation of T cell cytokine production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006915",
+                "xref_name": "apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007165",
+                "xref_name": "signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010628",
+                "xref_name": "positive regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0012501",
+                "xref_name": "programmed cell death",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0016567",
+                "xref_name": "protein ubiquitination",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0023019",
+                "xref_name": "signal transduction involved in regulation of gene expression",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0023035",
+                "xref_name": "CD40 signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030163",
+                "xref_name": "protein catabolic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032743",
+                "xref_name": "positive regulation of interleukin-2 production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0033209",
+                "xref_name": "tumor necrosis factor-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034351",
+                "xref_name": "negative regulation of glial cell apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0034976",
+                "xref_name": "response to endoplasmic reticulum stress",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0038061",
+                "xref_name": "non-canonical NF-kappaB signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0038202",
+                "xref_name": "TORC1 signaling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0038203",
+                "xref_name": "TORC2 signaling",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042110",
+                "xref_name": "T cell activation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0042981",
+                "xref_name": "regulation of apoptotic process",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043123",
+                "xref_name": "positive regulation of canonical NF-kappaB signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043254",
+                "xref_name": "regulation of protein-containing complex assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043408",
+                "xref_name": "regulation of MAPK cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043507",
+                "xref_name": "positive regulation of JUN kinase activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0045087",
+                "xref_name": "innate immune response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046328",
+                "xref_name": "regulation of JNK cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048255",
+                "xref_name": "mRNA stabilization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051092",
+                "xref_name": "positive regulation of NF-kappaB transcription factor activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0051865",
+                "xref_name": "protein autoubiquitination",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0065003",
+                "xref_name": "protein-containing complex assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070059",
+                "xref_name": "intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0070534",
+                "xref_name": "protein K63-linked ubiquitination",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071732",
+                "xref_name": "cellular response to nitric oxide",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097300",
+                "xref_name": "programmed necrotic cell death",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0097400",
+                "xref_name": "interleukin-17-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0160162",
+                "xref_name": "CD27 signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1903265",
+                "xref_name": "positive regulation of tumor necrosis factor-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905669",
+                "xref_name": "TORC1 complex assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1905670",
+                "xref_name": "TORC2 complex disassembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2001238",
+                "xref_name": "positive regulation of extrinsic apoptotic signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:12032",
+                "xref_name": "TRAF2",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "Q12933",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR001293",
+                "xref_name": "Znf_TRAF",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001841",
+                "xref_name": "Znf_RING",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR002083",
+                "xref_name": "MATH/TRAF_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008974",
+                "xref_name": "TRAF-like",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR012227",
+                "xref_name": "TNF_rcpt-assoc_TRAF_met",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR013083",
+                "xref_name": "Znf_RING/FYVE/PHD",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR017907",
+                "xref_name": "Znf_RING_CS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR018957",
+                "xref_name": "Znf_C3HC4_RING-type",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR027133",
+                "xref_name": "TRAF2_RING-HC",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR032070",
+                "xref_name": "TRAF_BIRC3-bd",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR037305",
+                "xref_name": "TRAF2_MATH",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR049342",
+                "xref_name": "TRAF1-6_MATH_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR049441",
+                "xref_name": "TRAF2_Znf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR10131",
+                "xref_name": "TNF RECEPTOR ASSOCIATED FACTOR",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR10131:SF21",
+                "xref_name": "TNF RECEPTOR-ASSOCIATED FACTOR 2",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "1CA4",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1CA9",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1CZY",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1CZZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1D00",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1D01",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1D0A",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1D0J",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1F3V",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1QSC",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3KNV",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3M06",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3M0A",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "3M0D",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8T5Q",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1CA4",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1CA9",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1CZY",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1CZZ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1D00",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1D01",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1D0A",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1D0J",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1F3V",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1QSC",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3KNV",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3M06",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3M0A",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "3M0D",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8T5Q",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF00097",
+                "xref_name": "zf-C3HC4",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF02176",
+                "xref_name": "zf-TRAF",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF16673",
+                "xref_name": "TRAF_BIRC3_bd",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF21341",
+                "xref_name": "TRAF2_zf",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF21355",
+                "xref_name": "TRAF-mep_MATH",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA164742666",
+                "xref_name": "TNF receptor associated factor 2",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "Q12933",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-140534",
+                "xref_name": "Caspase activation via Death Receptors in the presence of ligand",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-3371378",
+                "xref_name": "Regulation by c-FLIP",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5213460",
+                "xref_name": "RIPK1-mediated regulated necrosis",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5218900",
+                "xref_name": "CASP8 activity is inhibited",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5357786",
+                "xref_name": "TNFR1-induced proapoptotic signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5357905",
+                "xref_name": "Regulation of TNFR1 signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5357956",
+                "xref_name": "TNFR1-induced NF-kappa-B signaling pathway",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5668541",
+                "xref_name": "TNFR2 non-canonical NF-kB pathway",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5675482",
+                "xref_name": "Regulation of necroptotic cell death",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5676594",
+                "xref_name": "TNF receptor superfamily (TNFSF) members mediating non-canonical NF-kB pathway",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-5689880",
+                "xref_name": "Ub-specific processing proteases",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-69416",
+                "xref_name": "Dimerization of procaspase-8",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-75893",
+                "xref_name": "TNF signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-933541",
+                "xref_name": "TRAF6 mediated IRF7 activation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-933542",
+                "xref_name": "TRAF6 mediated NF-kB activation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9693928",
+                "xref_name": "Defective RIPK1-mediated regulated necrosis",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9758274",
+                "xref_name": "Regulation of NF-kappa B signaling",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "A8K107",
+                "xref_name": "TNF receptor-associated factor 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "B4DPJ7",
+                "xref_name": "TNF receptor-associated factor 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q12933",
+                "xref_name": "TNF receptor-associated factor 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q7Z337",
+                "xref_name": "TNF receptor-associated factor 2",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q96NT2",
+                "xref_name": "TNF receptor-associated factor 2",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "TRAF2 and NCK-interacting protein kinase",
+        "score": 18.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL4527",
+        "target_components": [
+          {
+            "accession": "Q9UKE5",
+            "component_description": "TRAF2 and NCK-interacting protein kinase",
+            "component_id": 2844,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "2.7.11.1",
+                "syn_type": "EC_NUMBER"
+              },
+              {
+                "component_synonym": "KIAA0551",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "TNIK",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "TRAF2 and NCK-interacting protein kinase",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "Q9UKE5",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "Q9UKE5",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0005634",
+                "xref_name": "nucleus",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005654",
+                "xref_name": "nucleoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005768",
+                "xref_name": "endosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005856",
+                "xref_name": "cytoskeleton",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0016324",
+                "xref_name": "apical plasma membrane",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0055037",
+                "xref_name": "recycling endosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0070062",
+                "xref_name": "extracellular exosome",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0098793",
+                "xref_name": "presynapse",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0098978",
+                "xref_name": "glutamatergic synapse",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005524",
+                "xref_name": "ATP binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0000165",
+                "xref_name": "MAPK cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0001934",
+                "xref_name": "positive regulation of protein phosphorylation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0006468",
+                "xref_name": "protein phosphorylation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007010",
+                "xref_name": "cytoskeleton organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007399",
+                "xref_name": "nervous system development",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0009966",
+                "xref_name": "regulation of signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0016055",
+                "xref_name": "Wnt signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030033",
+                "xref_name": "microvillus assembly",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0030036",
+                "xref_name": "actin cytoskeleton organization",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0035556",
+                "xref_name": "intracellular signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043408",
+                "xref_name": "regulation of MAPK cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046330",
+                "xref_name": "positive regulation of JNK cascade",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0046777",
+                "xref_name": "protein autophosphorylation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048812",
+                "xref_name": "neuron projection morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0048814",
+                "xref_name": "regulation of dendrite morphogenesis",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:30765",
+                "xref_name": "TNIK",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "Q9UKE5",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR000719",
+                "xref_name": "Prot_kinase_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR001180",
+                "xref_name": "CNH_dom",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR008271",
+                "xref_name": "Ser/Thr_kinase_AS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR011009",
+                "xref_name": "Kinase-like_dom_sf",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR017441",
+                "xref_name": "Protein_kinase_ATP_BS",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR051700",
+                "xref_name": "STE20_Ser-Thr_kinase",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR47096",
+                "xref_name": "MISSHAPEN LIKE KINASE 1",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR47096:SF1",
+                "xref_name": "MISSHAPEN LIKE KINASE 1",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "2X7F",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5AX9",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5CWZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5D7A",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6RA5",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "6RA7",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7XZQ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "7XZR",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8WM0",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "8X88",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "2X7F",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5AX9",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5CWZ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5D7A",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6RA5",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "6RA7",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7XZQ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "7XZR",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8WM0",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "8X88",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF00069",
+                "xref_name": "Pkinase",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PF00780",
+                "xref_name": "CNH",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA134893180",
+                "xref_name": "TRAF2 and NCK interacting kinase",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "Q9UKE5",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-2559580",
+                "xref_name": "Oxidative Stress Induced Senescence",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "A7E2A3",
+                "xref_name": "TRAF2 and NCK-interacting protein kinase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "A8K4U1",
+                "xref_name": "TRAF2 and NCK-interacting protein kinase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "D3DNQ6",
+                "xref_name": "TRAF2 and NCK-interacting protein kinase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "O60298",
+                "xref_name": "TRAF2 and NCK-interacting protein kinase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q8WUY7",
+                "xref_name": "TRAF2 and NCK-interacting protein kinase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UKD8",
+                "xref_name": "TRAF2 and NCK-interacting protein kinase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UKD9",
+                "xref_name": "TRAF2 and NCK-interacting protein kinase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UKE0",
+                "xref_name": "TRAF2 and NCK-interacting protein kinase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UKE1",
+                "xref_name": "TRAF2 and NCK-interacting protein kinase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UKE2",
+                "xref_name": "TRAF2 and NCK-interacting protein kinase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UKE3",
+                "xref_name": "TRAF2 and NCK-interacting protein kinase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UKE4",
+                "xref_name": "TRAF2 and NCK-interacting protein kinase",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q9UKE5",
+                "xref_name": "TRAF2 and NCK-interacting protein kinase",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      },
+      {
+        "cross_references": [],
+        "organism": "Homo sapiens",
+        "pref_name": "TRAF family member-associated NF-kappa-B activator",
+        "score": 15.0,
+        "species_group_flag": false,
+        "target_chembl_id": "CHEMBL4523420",
+        "target_components": [
+          {
+            "accession": "Q92844",
+            "component_description": "TRAF family member-associated NF-kappa-B activator",
+            "component_id": 18924,
+            "component_type": "PROTEIN",
+            "relationship": "SINGLE PROTEIN",
+            "target_component_synonyms": [
+              {
+                "component_synonym": "I-TRAF",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "ITRAF",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "TANK",
+                "syn_type": "GENE_SYMBOL"
+              },
+              {
+                "component_synonym": "TRAF2",
+                "syn_type": "GENE_SYMBOL_OTHER"
+              },
+              {
+                "component_synonym": "TRAF family member-associated NF-kappa-B activator",
+                "syn_type": "UNIPROT"
+              },
+              {
+                "component_synonym": "TRAF-interacting protein",
+                "syn_type": "UNIPROT"
+              }
+            ],
+            "target_component_xrefs": [
+              {
+                "xref_id": "Q92844",
+                "xref_name": null,
+                "xref_src_db": "AlphaFoldDB"
+              },
+              {
+                "xref_id": "Q92844",
+                "xref_name": null,
+                "xref_src_db": "ExpressionAtlas"
+              },
+              {
+                "xref_id": "GO:0005737",
+                "xref_name": "cytoplasm",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0005829",
+                "xref_name": "cytosol",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0032991",
+                "xref_name": "protein-containing complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:1902554",
+                "xref_name": "serine/threonine protein kinase complex",
+                "xref_src_db": "GoComponent"
+              },
+              {
+                "xref_id": "GO:0004843",
+                "xref_name": "cysteine-type deubiquitinase activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0005515",
+                "xref_name": "protein binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0031625",
+                "xref_name": "ubiquitin protein ligase binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0035800",
+                "xref_name": "deubiquitinase activator activity",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0046872",
+                "xref_name": "metal ion binding",
+                "xref_src_db": "GoFunction"
+              },
+              {
+                "xref_id": "GO:0006974",
+                "xref_name": "DNA damage response",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0007165",
+                "xref_name": "signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0010804",
+                "xref_name": "negative regulation of tumor necrosis factor-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0032481",
+                "xref_name": "positive regulation of type I interferon production",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0043124",
+                "xref_name": "negative regulation of canonical NF-kappaB signal transduction",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0060337",
+                "xref_name": "type I interferon-mediated signaling pathway",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:0071479",
+                "xref_name": "cellular response to ionizing radiation",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:1903003",
+                "xref_name": "positive regulation of protein deubiquitination",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "GO:2000158",
+                "xref_name": "positive regulation of ubiquitin-specific protease activity",
+                "xref_src_db": "GoProcess"
+              },
+              {
+                "xref_id": "HGNC:11562",
+                "xref_name": "TANK",
+                "xref_src_db": "HGNC"
+              },
+              {
+                "xref_id": "Q92844",
+                "xref_name": null,
+                "xref_src_db": "IntAct"
+              },
+              {
+                "xref_id": "IPR024581",
+                "xref_name": "TBD",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR039669",
+                "xref_name": "TANK",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "IPR041641",
+                "xref_name": "CALCOCO1/2_Zn_UBZ1",
+                "xref_src_db": "InterPro"
+              },
+              {
+                "xref_id": "PTHR15249",
+                "xref_name": "TRAF FAMILY MEMBER-ASSOCIATED NF-KAPPA-B ACTIVATOR",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "PTHR15249:SF0",
+                "xref_name": "TRAF FAMILY MEMBER-ASSOCIATED NF-KAPPA-B ACTIVATOR",
+                "xref_src_db": "PANTHER"
+              },
+              {
+                "xref_id": "1KZZ",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1L0A",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "5H10",
+                "xref_name": null,
+                "xref_src_db": "PDB"
+              },
+              {
+                "xref_id": "1KZZ",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "1L0A",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "5H10",
+                "xref_name": "A",
+                "xref_src_db": "PDBe"
+              },
+              {
+                "xref_id": "PF12845",
+                "xref_name": "TBD",
+                "xref_src_db": "Pfam"
+              },
+              {
+                "xref_id": "PA36330",
+                "xref_name": "TRAF family member associated NFKB activator",
+                "xref_src_db": "PharmGKB"
+              },
+              {
+                "xref_id": "Q92844",
+                "xref_name": null,
+                "xref_src_db": "Pharos"
+              },
+              {
+                "xref_id": "R-HSA-9013973",
+                "xref_name": "TICAM1-dependent activation of IRF3/IRF7",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-933541",
+                "xref_name": "TRAF6 mediated IRF7 activation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-936964",
+                "xref_name": "Activation of IRF3, IRF7 mediated by TBK1, IKKEpsilon (IKBKE)",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9824878",
+                "xref_name": "Regulation of TBK1, IKKEpsilon (IKBKE)-mediated activation of IRF3, IRF7",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "R-HSA-9828211",
+                "xref_name": "Regulation of TBK1, IKKEpsilon-mediated activation of IRF3, IRF7 upon TLR3 ligation",
+                "xref_src_db": "Reactome"
+              },
+              {
+                "xref_id": "D3DPB5",
+                "xref_name": "TRAF family member-associated NF-kappa-B activator",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q7Z4J6",
+                "xref_name": "TRAF family member-associated NF-kappa-B activator",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q92844",
+                "xref_name": "TRAF family member-associated NF-kappa-B activator",
+                "xref_src_db": "UniProt"
+              },
+              {
+                "xref_id": "Q92885",
+                "xref_name": "TRAF family member-associated NF-kappa-B activator",
+                "xref_src_db": "UniProt"
+              }
+            ]
+          }
+        ],
+        "target_type": "SINGLE PROTEIN",
+        "tax_id": 9606
+      }
+    ]
+  },
+  "url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=TRAF2"
+}

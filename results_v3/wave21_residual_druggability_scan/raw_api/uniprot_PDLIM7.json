@@ -1,0 +1,114 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3APDLIM7%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11874232",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "7929196",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "May function as a scaffold on which the coordinated assembly of proteins can occur. May play a role as an adapter that, via its PDZ domain, localizes LIM-binding proteins to actin filaments of both skeletal muscle and nonmuscle tissues. Involved in both of the two fundamental mechanisms of bone formation, direct bone formation (e.g. embryonic flat bones mandible and cranium), and endochondral bone formation (e.g. embryonic long bone development). Plays a role during fracture repair. Involved in BMP6 signaling pathway (By similarity)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "value": "Colocalizes with RET to the cell periphery and in some cytoskeletal components. Colocalizes with TPM2 near the Z line in muscle. Colocalizes with TBX4 and TBX5 to actin filaments (By similarity)"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250"
+                  }
+                ],
+                "id": "SL-0090",
+                "value": "Cytoplasm, cytoskeleton"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000073DEF"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "PDLIM7"
+          },
+          "synonyms": [
+            {
+              "value": "ENIGMA"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "Q9NR12",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "LIM mineralization protein"
+            },
+            "shortNames": [
+              {
+                "value": "LMP"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Protein enigma"
+            }
+          }
+        ],
+        "recommendedName": {
+          "fullName": {
+            "value": "PDZ and LIM domain protein 7"
+          }
+        }
+      }
+    }
+  ]
+}

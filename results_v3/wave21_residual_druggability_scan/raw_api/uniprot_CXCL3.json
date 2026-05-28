@@ -1,0 +1,107 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ACXCL3%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "10095777",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Ligand for CXCR2 (By similarity). Has chemotactic activity for neutrophils. May play a role in inflammation and exert its effects on endothelial cells in an autocrine fashion. In vitro, the processed form GRO-gamma(5-73) shows a fivefold higher chemotactic activity for neutrophilic granulocytes"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "id": "SL-0243",
+                "value": "Secreted"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000000DFD"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "CXCL3"
+          },
+          "synonyms": [
+            {
+              "value": "GRO3"
+            },
+            {
+              "value": "GROG"
+            },
+            {
+              "value": "SCYB3"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P19876",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "value": "GRO-gamma(1-73)"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Growth-regulated protein gamma"
+            },
+            "shortNames": [
+              {
+                "value": "GRO-gamma"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Macrophage inflammatory protein 2-beta"
+            },
+            "shortNames": [
+              {
+                "value": "MIP2-beta"
+              }
+            ]
+          }
+        ],
+        "contains": [
+          {
+            "recommendedName": {
+              "fullName": {
+                "value": "GRO-gamma(5-73)"
+              }
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "C-X-C motif chemokine 3"
+          }
+        }
+      }
+    }
+  ]
+}

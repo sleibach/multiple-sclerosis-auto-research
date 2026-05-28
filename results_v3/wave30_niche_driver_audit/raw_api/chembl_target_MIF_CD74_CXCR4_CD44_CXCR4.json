@@ -1,0 +1,812 @@
+{
+  "page_meta": {
+    "limit": 3,
+    "next": "/chembl/api/data/target/search.json?limit=3&offset=3&q=CXCR4",
+    "offset": 0,
+    "previous": null,
+    "total_count": 5
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "GHOST CXCR4",
+      "score": 18.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL612253",
+      "target_components": [],
+      "target_type": "CELL-LINE",
+      "tax_id": 9606
+    },
+    {
+      "cross_references": [],
+      "organism": "Rattus norvegicus",
+      "pref_name": "C-X-C chemokine receptor type 4",
+      "score": 17.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL5556",
+      "target_components": [
+        {
+          "accession": "O08565",
+          "component_description": "C-X-C chemokine receptor type 4",
+          "component_id": 3847,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "CD_antigen=CD184",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Cmkar4",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "C-X-C chemokine receptor type 4",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Cxcr4",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "CXC-R4",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CXCR-4",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Fusin",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LESTR",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Leukocyte-derived seven transmembrane domain receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "SDF-1 receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Stromal cell-derived factor 1 receptor",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0001569",
+              "xref_name": "branching involved in blood vessel morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001764",
+              "xref_name": "neuron migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0001822",
+              "xref_name": "kidney development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0003281",
+              "xref_name": "ventricular septum development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007281",
+              "xref_name": "germ cell development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007420",
+              "xref_name": "brain development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008354",
+              "xref_name": "germ cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0019722",
+              "xref_name": "calcium-mediated signaling",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030334",
+              "xref_name": "regulation of cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035701",
+              "xref_name": "hematopoietic stem cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035904",
+              "xref_name": "aorta development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0038160",
+              "xref_name": "CXCL12-activated CXCR4 signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0042098",
+              "xref_name": "T cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043534",
+              "xref_name": "blood vessel endothelial cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070374",
+              "xref_name": "positive regulation of ERK1 and ERK2 cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0090280",
+              "xref_name": "positive regulation of calcium ion import",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2001222",
+              "xref_name": "regulation of neuron migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0003779",
+              "xref_name": "actin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004930",
+              "xref_name": "G protein-coupled receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004950",
+              "xref_name": "chemokine receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016493",
+              "xref_name": "C-C chemokine receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016494",
+              "xref_name": "C-X-C chemokine receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019955",
+              "xref_name": "cytokine binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019957",
+              "xref_name": "C-C chemokine binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0031625",
+              "xref_name": "ubiquitin protein ligase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0032027",
+              "xref_name": "myosin light chain binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0038147",
+              "xref_name": "C-X-C motif chemokine 12 receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0043130",
+              "xref_name": "ubiquitin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001666",
+              "xref_name": "response to hypoxia",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002064",
+              "xref_name": "epithelial cell development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006935",
+              "xref_name": "chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006955",
+              "xref_name": "immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007186",
+              "xref_name": "G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007204",
+              "xref_name": "positive regulation of cytosolic calcium ion concentration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008038",
+              "xref_name": "neuron recognition",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016477",
+              "xref_name": "cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0022008",
+              "xref_name": "neurogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0022029",
+              "xref_name": "telencephalon cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030155",
+              "xref_name": "regulation of cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030316",
+              "xref_name": "osteoclast differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030335",
+              "xref_name": "positive regulation of cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035470",
+              "xref_name": "positive regulation of vascular wound healing",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043067",
+              "xref_name": "regulation of programmed cell death",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043217",
+              "xref_name": "myelin maintenance",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045446",
+              "xref_name": "endothelial cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048699",
+              "xref_name": "generation of neurons",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048714",
+              "xref_name": "positive regulation of oligodendrocyte differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050769",
+              "xref_name": "positive regulation of neurogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050792",
+              "xref_name": "regulation of viral process",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050920",
+              "xref_name": "regulation of chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050921",
+              "xref_name": "positive regulation of chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051924",
+              "xref_name": "regulation of calcium ion transport",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060326",
+              "xref_name": "cell chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0061154",
+              "xref_name": "endothelial tube morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0061351",
+              "xref_name": "neural precursor cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070098",
+              "xref_name": "chemokine-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0071466",
+              "xref_name": "cellular response to xenobiotic stimulus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0120162",
+              "xref_name": "positive regulation of cold-induced thermogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1903861",
+              "xref_name": "positive regulation of dendrite extension",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1904018",
+              "xref_name": "positive regulation of vasculature development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1905322",
+              "xref_name": "positive regulation of mesenchymal stem cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:2000448",
+              "xref_name": "positive regulation of macrophage migration inhibitory factor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009897",
+              "xref_name": "external side of plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005764",
+              "xref_name": "lysosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005768",
+              "xref_name": "endosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005769",
+              "xref_name": "early endosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005770",
+              "xref_name": "late endosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005911",
+              "xref_name": "cell-cell junction",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009986",
+              "xref_name": "cell surface",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0030426",
+              "xref_name": "growth cone",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031252",
+              "xref_name": "cell leading edge",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070161",
+              "xref_name": "anchoring junction",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0032991",
+              "xref_name": "protein-containing complex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "F1LPN8",
+              "xref_name": "C-X-C chemokine receptor type 4",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8VD47",
+              "xref_name": "C-X-C chemokine receptor type 4",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O08565",
+              "xref_name": "C-X-C chemokine receptor type 4",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O08565",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "O08565",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "R-RNO-380108",
+              "xref_name": "Chemokine receptors bind chemokines",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-RNO-418594",
+              "xref_name": "G alpha (i) signalling events",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "O08565",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR050119",
+              "xref_name": "CCR1-9-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR022726",
+              "xref_name": "Chemokine_CXCR4_N_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR000355",
+              "xref_name": "Chemokine_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001277",
+              "xref_name": "CXCR4/ACKR2",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR000276",
+              "xref_name": "GPCR_Rhodpsn",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR017452",
+              "xref_name": "GPCR_Rhodpsn_7TM",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10489:SF594",
+              "xref_name": "C-X-C CHEMOKINE RECEPTOR TYPE 4",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10489",
+              "xref_name": "CELL ADHESION MOLECULE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00001",
+              "xref_name": "7tm_1",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF12109",
+              "xref_name": "CXCR4_N",
+              "xref_src_db": "Pfam"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 10116
+    },
+    {
+      "cross_references": [],
+      "organism": "Macaca mulatta",
+      "pref_name": "C-X-C chemokine receptor type 4",
+      "score": 17.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL1250366",
+      "target_components": [
+        {
+          "accession": "P79394",
+          "component_description": "C-X-C chemokine receptor type 4",
+          "component_id": 5225,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "CD_antigen=CD184",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "C-X-C chemokine receptor type 4",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CXC-R4",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CXCR-4",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CXCR4",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Fusin",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "LESTR",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Leukocyte-derived seven transmembrane domain receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "SDF-1 receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Stromal cell-derived factor 1 receptor",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0004930",
+              "xref_name": "G protein-coupled receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0004950",
+              "xref_name": "chemokine receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016493",
+              "xref_name": "C-C chemokine receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019955",
+              "xref_name": "cytokine binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019957",
+              "xref_name": "C-C chemokine binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0038147",
+              "xref_name": "C-X-C motif chemokine 12 receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0006935",
+              "xref_name": "chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006955",
+              "xref_name": "immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007186",
+              "xref_name": "G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007204",
+              "xref_name": "positive regulation of cytosolic calcium ion concentration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007420",
+              "xref_name": "brain development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0019722",
+              "xref_name": "calcium-mediated signaling",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0022008",
+              "xref_name": "neurogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0038160",
+              "xref_name": "CXCL12-activated CXCR4 signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060326",
+              "xref_name": "cell chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070098",
+              "xref_name": "chemokine-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009897",
+              "xref_name": "external side of plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005764",
+              "xref_name": "lysosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005768",
+              "xref_name": "endosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005769",
+              "xref_name": "early endosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005770",
+              "xref_name": "late endosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070161",
+              "xref_name": "anchoring junction",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "O02745",
+              "xref_name": "C-X-C chemokine receptor type 4",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O46428",
+              "xref_name": "C-X-C chemokine receptor type 4",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P79394",
+              "xref_name": "C-X-C chemokine receptor type 4",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P79394",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "IPR050119",
+              "xref_name": "CCR1-9-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR022726",
+              "xref_name": "Chemokine_CXCR4_N_dom",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR000355",
+              "xref_name": "Chemokine_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR001277",
+              "xref_name": "CXCR4/ACKR2",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR000276",
+              "xref_name": "GPCR_Rhodpsn",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR017452",
+              "xref_name": "GPCR_Rhodpsn_7TM",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10489:SF594",
+              "xref_name": "C-X-C CHEMOKINE RECEPTOR TYPE 4",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10489",
+              "xref_name": "CELL ADHESION MOLECULE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00001",
+              "xref_name": "7tm_1",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF12109",
+              "xref_name": "CXCR4_N",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA27058",
+              "xref_name": "C-X-C motif chemokine receptor 4",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9544
+    }
+  ]
+}

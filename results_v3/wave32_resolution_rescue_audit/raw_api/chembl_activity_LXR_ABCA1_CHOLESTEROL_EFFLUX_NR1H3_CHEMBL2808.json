@@ -1,0 +1,67 @@
+{
+  "payload": {
+    "activities": [
+      {
+        "action_type": null,
+        "activity_comment": null,
+        "activity_id": 756238,
+        "activity_properties": [],
+        "assay_chembl_id": "CHEMBL710256",
+        "assay_description": "Ligand-dependent recruitment of steroid receptor co-activator 1 (SRC1) to Liver X receptor-alpha",
+        "assay_type": "B",
+        "assay_variant_accession": null,
+        "assay_variant_mutation": null,
+        "bao_endpoint": "BAO_0000188",
+        "bao_format": "BAO_0000357",
+        "bao_label": "single protein format",
+        "canonical_smiles": "O=C(O)Cc1cccc(OCCCN(Cc2cccc(C(F)(F)F)c2Cl)CC(c2ccccc2)c2ccccc2)c1",
+        "data_validity_comment": null,
+        "data_validity_description": null,
+        "document_chembl_id": "CHEMBL1135404",
+        "document_journal": "J Med Chem",
+        "document_year": 2002,
+        "ligand_efficiency": {
+          "bei": "11.86",
+          "le": "0.23",
+          "lle": "-1.19",
+          "sei": "13.87"
+        },
+        "molecule_chembl_id": "CHEMBL59030",
+        "molecule_pref_name": null,
+        "parent_molecule_chembl_id": "CHEMBL59030",
+        "pchembl_value": "6.90",
+        "potential_duplicate": 0,
+        "qudt_units": "http://www.openphacts.org/units/Nanomolar",
+        "record_id": 102432,
+        "relation": "=",
+        "src_id": 1,
+        "standard_flag": 1,
+        "standard_relation": "=",
+        "standard_text_value": null,
+        "standard_type": "EC50",
+        "standard_units": "nM",
+        "standard_upper_value": null,
+        "standard_value": "125.0",
+        "target_chembl_id": "CHEMBL2808",
+        "target_organism": "Homo sapiens",
+        "target_pref_name": "Oxysterols receptor LXR-alpha",
+        "target_tax_id": "9606",
+        "text_value": null,
+        "toid": null,
+        "type": "EC50",
+        "units": "nM",
+        "uo_units": "UO_0000065",
+        "upper_value": null,
+        "value": "125.0"
+      }
+    ],
+    "page_meta": {
+      "limit": 1,
+      "next": "/chembl/api/data/activity.json?limit=1&offset=1&target_chembl_id=CHEMBL2808&standard_units=nM",
+      "offset": 0,
+      "previous": null,
+      "total_count": 2269
+    }
+  },
+  "url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?limit=1&target_chembl_id=CHEMBL2808&standard_units=nM"
+}

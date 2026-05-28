@@ -1,0 +1,153 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3AFXYD5%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P97808",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "11756660",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "18263667",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Associates with and regulates the activity of the sodium/potassium-transporting ATPase (NKA) which catalyzes the hydrolysis of ATP coupled with the exchange of Na(+) and K(+) ions across the plasma membrane (By similarity). May increase NKA activity by increasing the apparent affinity for Na(+) (PubMed:18263667). Involved in down-regulation of E-cadherin which results in reduced cell adhesion. Promotes metastasis (PubMed:11756660)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P97808",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "value": "In kidneys localizes to the basolateral membrane of the connecting tubule"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "11756660",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0039",
+                "value": "Cell membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P97808",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-9905",
+                "value": "Single-pass type I membrane protein"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P97808",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-0026",
+                "value": "Basolateral cell membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000250",
+                    "id": "P97808",
+                    "source": "UniProtKB"
+                  }
+                ],
+                "id": "SL-9905",
+                "value": "Single-pass type I membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000048F47"
+      },
+      "features": [],
+      "genes": [
+        {
+          "geneName": {
+            "value": "FXYD5"
+          },
+          "orfNames": [
+            {
+              "value": "HSPC113"
+            },
+            {
+              "value": "UNQ2561/PRO6241"
+            }
+          ],
+          "synonyms": [
+            {
+              "value": "DYSAD"
+            },
+            {
+              "value": "IWU1"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "Q96DB9",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "11756660",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Dysadherin"
+            }
+          }
+        ],
+        "flag": "Precursor",
+        "recommendedName": {
+          "fullName": {
+            "value": "FXYD domain-containing ion transport regulator 5"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+endpoint	identifier	count_or_value	interpretation	url
+ChEMBL SP140 target/activity	CHEMBL3108643	61	activity rows are thermal-shift Delta Tm records; no nM potency/pChEMBL series found in this endpoint	https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3108643/
+ChEMBL SP140 target search	SP140	2	SP140 single-protein target exists, but GSK761 was not found by ChEMBL molecule-name search	https://www.ebi.ac.uk/chembl/
+PubChem GSK761	CID 168007146	MW=646.8; XLogP=7; TPSA=94.5; rotB=13	large, lipophilic tool compound; CNS exposure is not supported by these properties alone	https://pubchem.ncbi.nlm.nih.gov/compound/168007146
+Europe PMC	SP140 inhibitor	388	literature saturation / prior-art screen; titles require manual relevance filtering	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=SP140+inhibitor&format=json&pageSize=5&resultType=lite
+Europe PMC	SP140 autoimmune therapeutic target	130	literature saturation / prior-art screen; titles require manual relevance filtering	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=SP140+autoimmune+therapeutic+target&format=json&pageSize=5&resultType=lite
+Europe PMC	SP140 degrader	8	literature saturation / prior-art screen; titles require manual relevance filtering	https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=SP140+degrader&format=json&pageSize=5&resultType=lite
+ClinicalTrials.gov	SP140 autoimmune	0	no SP140 autoimmune trial surfaced by this query	https://clinicaltrials.gov/search?term=SP140%20autoimmune

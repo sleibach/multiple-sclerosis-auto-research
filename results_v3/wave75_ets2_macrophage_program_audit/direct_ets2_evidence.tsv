@@ -1,0 +1,12 @@
+source	metric	effect	p	fdr	support	details
+broad_h5ad_gene_summary	cross_disease_expression	1.972336498380402	0.0002169108406527	0.052088525467179	True	positive_diseases=Crohn disease;ulcerative colitis; negative_diseases=; fdr10_contexts=1
+GSE111972_MS_white_matter	MS_case_minus_control_expression	-0.0607605098234369	0.8649092339386921	0.9801638168834976	False	direct ETS2 in MS white matter signature
+wave62_opentargets_target_resolution	target_resolved_genetics	1.2288841779557549			False	call=NO_GO_WAVE62_TARGET_RESOLUTION; strong_l2g=; relevant_qtl=AS;UC; ms_l2g=0.0
+wave57_geneformer_intervention	foundation_model_perturbation				False	ETS2 absent from output or below token/support threshold
+wave69d_geneformer_remission_centroid	foundation_model_perturbation				False	ETS2 absent from output or below token/support threshold
+GSE282122_raw_DC	IBD_antiTNF_remission_delta	-0.1138883684642015	0.5205476248805255	1.0	False	negative effect means remission moves down relative to non-remission
+GSE282122_raw_Mono_macro	IBD_antiTNF_remission_delta	-0.6527057582018596	0.0648574571179849	0.9670511228671426	False	negative effect means remission moves down relative to non-remission
+GSE282122_paired_DC	IBD_antiTNF_paired_post_minus_pre	-0.0183645873744508	0.814685108912407	1.0	False	negative effect means treatment pharmacodynamically lowers ETS2
+GSE282122_paired_Mono_macro	IBD_antiTNF_paired_post_minus_pre	0.0303130503978126	0.8277594906351843	1.0	False	negative effect means treatment pharmacodynamically lowers ETS2
+GSE282122_integrated_	IBD_integrated_gene_rank	1.8845780029615828	0.9670511228671426		False	cell_state=Mono_macro; call=DESCRIPTIVE_GENE_SIGNAL; paired_fdr=1.0
+GSE282122_integrated_	IBD_integrated_gene_rank	0.9869918415265072	1.0		False	cell_state=DC; call=DESCRIPTIVE_GENE_SIGNAL; paired_fdr=1.0

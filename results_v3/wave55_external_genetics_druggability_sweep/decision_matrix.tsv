@@ -1,0 +1,161 @@
+gene	gate	passed	value	rationale
+IL7R	cross_disease_external_genetic_breadth	True	n_ge_0.25=7; diseases=AITD;Crohn;MS;PBC;Psoriasis;SLE;T1D	requires Open Targets genetic association in at least four autoimmune diseases
+IL7R	ms_external_genetic_anchor	True	MS genetic=0.7885940637617141; MS overall=0.5755767565735939	requires MS target-disease genetic evidence
+IL7R	coloc_or_mr_grade_target_resolution	False	not run: no paired disease/eQTL/pQTL summary statistics	Open Targets association is not a coloc/MR result
+IL7R	local_cellstate_replication	True	positive=3; negative=0; diseases=Crohn disease;type 1 diabetes mellitus;ulcerative colitis	requires local cross-disease cell-state support
+IL7R	strict_local_ms_anchor	False	delta=-0.6536992297096775; p=0.5724603142052797; fdr=0.9431647247323408	requires FDR-supported local MS signal
+IL7R	real_perturbation_support	False	selectivity=nan; calls=	requires real perturbation support
+IL7R	tractable_druggability	False	activity_rows=0; best_nM=None; clinical_score=0.0	requires chemical matter or clinical modality precedent
+IL7R	novelty_prior_art_unblocked	False	EuropePMC=600	uses literature saturation as an early crowding flag, not patent clearance
+SP140	cross_disease_external_genetic_breadth	True	n_ge_0.25=6; diseases=AS;Crohn;MS;Psoriasis;RA;UC	requires Open Targets genetic association in at least four autoimmune diseases
+SP140	ms_external_genetic_anchor	True	MS genetic=0.7593921205206332; MS overall=0.4647797254821645	requires MS target-disease genetic evidence
+SP140	coloc_or_mr_grade_target_resolution	False	not run: no paired disease/eQTL/pQTL summary statistics	Open Targets association is not a coloc/MR result
+SP140	local_cellstate_replication	True	positive=4; negative=0; diseases=Crohn disease;Sjogren syndrome;psoriasis;ulcerative colitis	requires local cross-disease cell-state support
+SP140	strict_local_ms_anchor	False	delta=-0.0867628128456026; p=0.7262224269643743; fdr=0.9677805697088556	requires FDR-supported local MS signal
+SP140	real_perturbation_support	False	selectivity=nan; calls=	requires real perturbation support
+SP140	tractable_druggability	False	activity_rows=0; best_nM=None; clinical_score=0.0	requires chemical matter or clinical modality precedent
+SP140	novelty_prior_art_unblocked	True	EuropePMC=61	uses literature saturation as an early crowding flag, not patent clearance
+CD40	cross_disease_external_genetic_breadth	True	n_ge_0.25=8; diseases=AITD;AS;Crohn;MS;Psoriasis;RA;SLE;UC	requires Open Targets genetic association in at least four autoimmune diseases
+CD40	ms_external_genetic_anchor	True	MS genetic=0.7292906022301274; MS overall=0.4555174061769214	requires MS target-disease genetic evidence
+CD40	coloc_or_mr_grade_target_resolution	False	not run: no paired disease/eQTL/pQTL summary statistics	Open Targets association is not a coloc/MR result
+CD40	local_cellstate_replication	False	positive=2; negative=1; diseases=Crohn disease;ulcerative colitis	requires local cross-disease cell-state support
+CD40	strict_local_ms_anchor	False	delta=-0.5445775168848961; p=0.0540269612921963; fdr=0.8904676266102052	requires FDR-supported local MS signal
+CD40	real_perturbation_support	False	selectivity=nan; calls=	requires real perturbation support
+CD40	tractable_druggability	False	activity_rows=3; best_nM=50.0; clinical_score=0.17333457997235344	requires chemical matter or clinical modality precedent
+CD40	novelty_prior_art_unblocked	False	EuropePMC=4564	uses literature saturation as an early crowding flag, not patent clearance
+STAT4	cross_disease_external_genetic_breadth	True	n_ge_0.25=9; diseases=AITD;Celiac;Crohn;MS;PBC;RA;SLE;Sjogren;T1D	requires Open Targets genetic association in at least four autoimmune diseases
+STAT4	ms_external_genetic_anchor	True	MS genetic=0.655585325609798; MS overall=0.40336907556436014	requires MS target-disease genetic evidence
+STAT4	coloc_or_mr_grade_target_resolution	False	not run: no paired disease/eQTL/pQTL summary statistics	Open Targets association is not a coloc/MR result
+STAT4	local_cellstate_replication	False	positive=2; negative=0; diseases=Crohn disease;ulcerative colitis	requires local cross-disease cell-state support
+STAT4	strict_local_ms_anchor	False	delta=0.8684079555977076; p=0.4607005214454064; fdr=0.9239963547089984	requires FDR-supported local MS signal
+STAT4	real_perturbation_support	False	selectivity=-0.0502650068931169; calls=null_or_wrong_direction	requires real perturbation support
+STAT4	tractable_druggability	False	activity_rows=5; best_nM=10.0; clinical_score=0.0	requires chemical matter or clinical modality precedent
+STAT4	novelty_prior_art_unblocked	False	EuropePMC=1429	uses literature saturation as an early crowding flag, not patent clearance
+BACH2	cross_disease_external_genetic_breadth	True	n_ge_0.25=10; diseases=AITD;AS;Celiac;Crohn;MS;Psoriasis;RA;SLE;T1D;UC	requires Open Targets genetic association in at least four autoimmune diseases
+BACH2	ms_external_genetic_anchor	True	MS genetic=0.7231039278192867; MS overall=0.4411977390831753	requires MS target-disease genetic evidence
+BACH2	coloc_or_mr_grade_target_resolution	False	not run: no paired disease/eQTL/pQTL summary statistics	Open Targets association is not a coloc/MR result
+BACH2	local_cellstate_replication	False	positive=1; negative=0; diseases=Sjogren syndrome	requires local cross-disease cell-state support
+BACH2	strict_local_ms_anchor	False	delta=-1.247739315378678; p=0.2980719423940499; fdr=0.9075477698307116	requires FDR-supported local MS signal
+BACH2	real_perturbation_support	False	selectivity=nan; calls=	requires real perturbation support
+BACH2	tractable_druggability	False	activity_rows=0; best_nM=None; clinical_score=0.0	requires chemical matter or clinical modality precedent
+BACH2	novelty_prior_art_unblocked	True	EuropePMC=341	uses literature saturation as an early crowding flag, not patent clearance
+INAVA	cross_disease_external_genetic_breadth	True	n_ge_0.25=7; diseases=AS;Celiac;Crohn;MS;Psoriasis;RA;UC	requires Open Targets genetic association in at least four autoimmune diseases
+INAVA	ms_external_genetic_anchor	True	MS genetic=0.6676684262582133; MS overall=0.4058961989152514	requires MS target-disease genetic evidence
+INAVA	coloc_or_mr_grade_target_resolution	False	not run: no paired disease/eQTL/pQTL summary statistics	Open Targets association is not a coloc/MR result
+INAVA	local_cellstate_replication	False	positive=1; negative=1; diseases=type 1 diabetes mellitus	requires local cross-disease cell-state support
+INAVA	strict_local_ms_anchor	False	delta=0.0; p=1.0; fdr=1.0	requires FDR-supported local MS signal
+INAVA	real_perturbation_support	False	selectivity=nan; calls=	requires real perturbation support
+INAVA	tractable_druggability	False	activity_rows=0; best_nM=None; clinical_score=0.0	requires chemical matter or clinical modality precedent
+INAVA	novelty_prior_art_unblocked	True	EuropePMC=64	uses literature saturation as an early crowding flag, not patent clearance
+PRDM1	cross_disease_external_genetic_breadth	True	n_ge_0.25=6; diseases=AS;Crohn;Psoriasis;RA;SLE;UC	requires Open Targets genetic association in at least four autoimmune diseases
+PRDM1	ms_external_genetic_anchor	False	MS genetic=0.0; MS overall=0.0	requires MS target-disease genetic evidence
+PRDM1	coloc_or_mr_grade_target_resolution	False	not run: no paired disease/eQTL/pQTL summary statistics	Open Targets association is not a coloc/MR result
+PRDM1	local_cellstate_replication	True	positive=3; negative=0; diseases=Crohn disease;type 1 diabetes mellitus;ulcerative colitis	requires local cross-disease cell-state support
+PRDM1	strict_local_ms_anchor	False	delta=-0.0411396810451609; p=0.9031141115364548; fdr=0.9853557740270772	requires FDR-supported local MS signal
+PRDM1	real_perturbation_support	False	selectivity=-0.0029204183808801; calls=null_or_wrong_direction	requires real perturbation support
+PRDM1	tractable_druggability	False	activity_rows=0; best_nM=None; clinical_score=0.0	requires chemical matter or clinical modality precedent
+PRDM1	novelty_prior_art_unblocked	True	EuropePMC=424	uses literature saturation as an early crowding flag, not patent clearance
+PUS10	cross_disease_external_genetic_breadth	True	n_ge_0.25=7; diseases=AS;Celiac;Crohn;MS;Psoriasis;RA;UC	requires Open Targets genetic association in at least four autoimmune diseases
+PUS10	ms_external_genetic_anchor	True	MS genetic=0.5871795903065286; MS overall=0.35696455667631277	requires MS target-disease genetic evidence
+PUS10	coloc_or_mr_grade_target_resolution	False	not run: no paired disease/eQTL/pQTL summary statistics	Open Targets association is not a coloc/MR result
+PUS10	local_cellstate_replication	False	positive=1; negative=1; diseases=type 1 diabetes mellitus	requires local cross-disease cell-state support
+PUS10	strict_local_ms_anchor	False	delta=-0.1800350557802215; p=0.5667268975128495; fdr=0.94290799259041	requires FDR-supported local MS signal
+PUS10	real_perturbation_support	False	selectivity=nan; calls=	requires real perturbation support
+PUS10	tractable_druggability	False	activity_rows=0; best_nM=None; clinical_score=0.0	requires chemical matter or clinical modality precedent
+PUS10	novelty_prior_art_unblocked	True	EuropePMC=17	uses literature saturation as an early crowding flag, not patent clearance
+SPRED2	cross_disease_external_genetic_breadth	True	n_ge_0.25=6; diseases=Celiac;Crohn;MS;Psoriasis;RA;SLE	requires Open Targets genetic association in at least four autoimmune diseases
+SPRED2	ms_external_genetic_anchor	True	MS genetic=0.6798598760820634; MS overall=0.4133077567307067	requires MS target-disease genetic evidence
+SPRED2	coloc_or_mr_grade_target_resolution	False	not run: no paired disease/eQTL/pQTL summary statistics	Open Targets association is not a coloc/MR result
+SPRED2	local_cellstate_replication	False	positive=1; negative=1; diseases=type 1 diabetes mellitus	requires local cross-disease cell-state support
+SPRED2	strict_local_ms_anchor	False	delta=-0.2835103518497526; p=0.2238020768563351; fdr=0.8993702893651148	requires FDR-supported local MS signal
+SPRED2	real_perturbation_support	False	selectivity=nan; calls=	requires real perturbation support
+SPRED2	tractable_druggability	False	activity_rows=0; best_nM=None; clinical_score=0.0	requires chemical matter or clinical modality precedent
+SPRED2	novelty_prior_art_unblocked	True	EuropePMC=48	uses literature saturation as an early crowding flag, not patent clearance
+TAGAP	cross_disease_external_genetic_breadth	True	n_ge_0.25=9; diseases=AITD;AS;Celiac;Crohn;MS;Psoriasis;RA;T1D;UC	requires Open Targets genetic association in at least four autoimmune diseases
+TAGAP	ms_external_genetic_anchor	True	MS genetic=0.7690720106401111; MS overall=0.4699087670608812	requires MS target-disease genetic evidence
+TAGAP	coloc_or_mr_grade_target_resolution	False	not run: no paired disease/eQTL/pQTL summary statistics	Open Targets association is not a coloc/MR result
+TAGAP	local_cellstate_replication	False	positive=1; negative=1; diseases=Crohn disease	requires local cross-disease cell-state support
+TAGAP	strict_local_ms_anchor	False	delta=0.4550322625700271; p=0.2565170635340987; fdr=0.9037679420388188	requires FDR-supported local MS signal
+TAGAP	real_perturbation_support	False	selectivity=nan; calls=	requires real perturbation support
+TAGAP	tractable_druggability	False	activity_rows=0; best_nM=None; clinical_score=0.0	requires chemical matter or clinical modality precedent
+TAGAP	novelty_prior_art_unblocked	True	EuropePMC=68	uses literature saturation as an early crowding flag, not patent clearance
+IL12B	cross_disease_external_genetic_breadth	True	n_ge_0.25=11; diseases=AITD;AS;Celiac;Crohn;MS;PBC;Psoriasis;RA;SLE;T1D;UC	requires Open Targets genetic association in at least four autoimmune diseases
+IL12B	ms_external_genetic_anchor	True	MS genetic=0.6698761173306804; MS overall=0.4317686511788899	requires MS target-disease genetic evidence
+IL12B	coloc_or_mr_grade_target_resolution	False	not run: no paired disease/eQTL/pQTL summary statistics	Open Targets association is not a coloc/MR result
+IL12B	local_cellstate_replication	False	positive=0; negative=0; diseases=	requires local cross-disease cell-state support
+IL12B	strict_local_ms_anchor	False	delta=0.2347246460272134; p=0.8363232772483672; fdr=0.9761732664217524	requires FDR-supported local MS signal
+IL12B	real_perturbation_support	False	selectivity=nan; calls=	requires real perturbation support
+IL12B	tractable_druggability	True	activity_rows=0; best_nM=None; clinical_score=0.9947824938941359	requires chemical matter or clinical modality precedent
+IL12B	novelty_prior_art_unblocked	False	EuropePMC=504	uses literature saturation as an early crowding flag, not patent clearance
+ANKRD55	cross_disease_external_genetic_breadth	True	n_ge_0.25=10; diseases=AITD;AS;Celiac;Crohn;MS;Psoriasis;RA;SLE;T1D;UC	requires Open Targets genetic association in at least four autoimmune diseases
+ANKRD55	ms_external_genetic_anchor	True	MS genetic=0.710779114428204; MS overall=0.43690126528949996	requires MS target-disease genetic evidence
+ANKRD55	coloc_or_mr_grade_target_resolution	False	not run: no paired disease/eQTL/pQTL summary statistics	Open Targets association is not a coloc/MR result
+ANKRD55	local_cellstate_replication	False	positive=0; negative=0; diseases=	requires local cross-disease cell-state support
+ANKRD55	strict_local_ms_anchor	False	delta=-0.248205733458104; p=0.8213839388878235; fdr=0.9761732664217524	requires FDR-supported local MS signal
+ANKRD55	real_perturbation_support	False	selectivity=nan; calls=	requires real perturbation support
+ANKRD55	tractable_druggability	False	activity_rows=0; best_nM=None; clinical_score=0.0	requires chemical matter or clinical modality precedent
+ANKRD55	novelty_prior_art_unblocked	True	EuropePMC=48	uses literature saturation as an early crowding flag, not patent clearance
+BANK1	cross_disease_external_genetic_breadth	True	n_ge_0.25=6; diseases=AS;Crohn;Psoriasis;RA;SLE;UC	requires Open Targets genetic association in at least four autoimmune diseases
+BANK1	ms_external_genetic_anchor	False	MS genetic=0.0; MS overall=0.0	requires MS target-disease genetic evidence
+BANK1	coloc_or_mr_grade_target_resolution	False	not run: no paired disease/eQTL/pQTL summary statistics	Open Targets association is not a coloc/MR result
+BANK1	local_cellstate_replication	False	positive=2; negative=0; diseases=Crohn disease;ulcerative colitis	requires local cross-disease cell-state support
+BANK1	strict_local_ms_anchor	False	delta=-1.3276943484174517; p=0.2391155920390936; fdr=0.9004758652001262	requires FDR-supported local MS signal
+BANK1	real_perturbation_support	False	selectivity=nan; calls=	requires real perturbation support
+BANK1	tractable_druggability	False	activity_rows=0; best_nM=None; clinical_score=0.0	requires chemical matter or clinical modality precedent
+BANK1	novelty_prior_art_unblocked	True	EuropePMC=135	uses literature saturation as an early crowding flag, not patent clearance
+CCL20	cross_disease_external_genetic_breadth	True	n_ge_0.25=5; diseases=AS;Crohn;Psoriasis;RA;UC	requires Open Targets genetic association in at least four autoimmune diseases
+CCL20	ms_external_genetic_anchor	False	MS genetic=0.0; MS overall=0.0	requires MS target-disease genetic evidence
+CCL20	coloc_or_mr_grade_target_resolution	False	not run: no paired disease/eQTL/pQTL summary statistics	Open Targets association is not a coloc/MR result
+CCL20	local_cellstate_replication	True	positive=4; negative=0; diseases=Crohn disease;psoriasis;type 1 diabetes mellitus;ulcerative colitis	requires local cross-disease cell-state support
+CCL20	strict_local_ms_anchor	False	delta=1.1469018183892334; p=0.0611072952242856; fdr=0.8989378106274888	requires FDR-supported local MS signal
+CCL20	real_perturbation_support	False	selectivity=nan; calls=	requires real perturbation support
+CCL20	tractable_druggability	False	activity_rows=0; best_nM=None; clinical_score=0.0	requires chemical matter or clinical modality precedent
+CCL20	novelty_prior_art_unblocked	False	EuropePMC=1550	uses literature saturation as an early crowding flag, not patent clearance
+CDKAL1	cross_disease_external_genetic_breadth	True	n_ge_0.25=6; diseases=AS;Crohn;Psoriasis;RA;T1D;UC	requires Open Targets genetic association in at least four autoimmune diseases
+CDKAL1	ms_external_genetic_anchor	False	MS genetic=0.0; MS overall=0.0	requires MS target-disease genetic evidence
+CDKAL1	coloc_or_mr_grade_target_resolution	False	not run: no paired disease/eQTL/pQTL summary statistics	Open Targets association is not a coloc/MR result
+CDKAL1	local_cellstate_replication	False	positive=2; negative=0; diseases=Crohn disease;type 1 diabetes mellitus	requires local cross-disease cell-state support
+CDKAL1	strict_local_ms_anchor	False	delta=-0.6895238072804037; p=0.4020741645624514; fdr=0.9157809859344704	requires FDR-supported local MS signal
+CDKAL1	real_perturbation_support	False	selectivity=nan; calls=	requires real perturbation support
+CDKAL1	tractable_druggability	False	activity_rows=0; best_nM=None; clinical_score=0.0	requires chemical matter or clinical modality precedent
+CDKAL1	novelty_prior_art_unblocked	True	EuropePMC=58	uses literature saturation as an early crowding flag, not patent clearance
+ELMO1	cross_disease_external_genetic_breadth	True	n_ge_0.25=7; diseases=AITD;Celiac;Crohn;MS;PBC;Psoriasis;RA	requires Open Targets genetic association in at least four autoimmune diseases
+ELMO1	ms_external_genetic_anchor	True	MS genetic=0.5108727446557169; MS overall=0.3475048137899376	requires MS target-disease genetic evidence
+ELMO1	coloc_or_mr_grade_target_resolution	False	not run: no paired disease/eQTL/pQTL summary statistics	Open Targets association is not a coloc/MR result
+ELMO1	local_cellstate_replication	False	positive=0; negative=0; diseases=	requires local cross-disease cell-state support
+ELMO1	strict_local_ms_anchor	False	delta=-0.2660429536334607; p=0.115590147912949; fdr=0.8989378106274888	requires FDR-supported local MS signal
+ELMO1	real_perturbation_support	False	selectivity=nan; calls=	requires real perturbation support
+ELMO1	tractable_druggability	False	activity_rows=1; best_nM=10000.0; clinical_score=0.0	requires chemical matter or clinical modality precedent
+ELMO1	novelty_prior_art_unblocked	True	EuropePMC=112	uses literature saturation as an early crowding flag, not patent clearance
+IRF4	cross_disease_external_genetic_breadth	True	n_ge_0.25=7; diseases=AITD;Celiac;Crohn;Psoriasis;RA;SLE;T1D	requires Open Targets genetic association in at least four autoimmune diseases
+IRF4	ms_external_genetic_anchor	False	MS genetic=0.0; MS overall=0.33527853182715517	requires MS target-disease genetic evidence
+IRF4	coloc_or_mr_grade_target_resolution	False	not run: no paired disease/eQTL/pQTL summary statistics	Open Targets association is not a coloc/MR result
+IRF4	local_cellstate_replication	False	positive=2; negative=0; diseases=Sjogren syndrome;ulcerative colitis	requires local cross-disease cell-state support
+IRF4	strict_local_ms_anchor	False	delta=0.0444471151552097; p=0.910671703211036; fdr=0.9869419643747628	requires FDR-supported local MS signal
+IRF4	real_perturbation_support	False	selectivity=nan; calls=	requires real perturbation support
+IRF4	tractable_druggability	False	activity_rows=51; best_nM=1280.0; clinical_score=0.0	requires chemical matter or clinical modality precedent
+IRF4	novelty_prior_art_unblocked	False	EuropePMC=1160	uses literature saturation as an early crowding flag, not patent clearance
+JAZF1	cross_disease_external_genetic_breadth	True	n_ge_0.25=8; diseases=AS;Crohn;MS;Psoriasis;RA;SLE;T1D;UC	requires Open Targets genetic association in at least four autoimmune diseases
+JAZF1	ms_external_genetic_anchor	True	MS genetic=0.4558970423902871; MS overall=0.43886831783697833	requires MS target-disease genetic evidence
+JAZF1	coloc_or_mr_grade_target_resolution	False	not run: no paired disease/eQTL/pQTL summary statistics	Open Targets association is not a coloc/MR result
+JAZF1	local_cellstate_replication	False	positive=0; negative=0; diseases=	requires local cross-disease cell-state support
+JAZF1	strict_local_ms_anchor	False	delta=-0.5307690698614227; p=0.0395106029515515; fdr=0.85672364651018	requires FDR-supported local MS signal
+JAZF1	real_perturbation_support	False	selectivity=nan; calls=	requires real perturbation support
+JAZF1	tractable_druggability	False	activity_rows=0; best_nM=None; clinical_score=0.0	requires chemical matter or clinical modality precedent
+JAZF1	novelty_prior_art_unblocked	True	EuropePMC=76	uses literature saturation as an early crowding flag, not patent clearance
+TNFSF15	cross_disease_external_genetic_breadth	True	n_ge_0.25=10; diseases=AITD;AS;Celiac;Crohn;PBC;Psoriasis;RA;SLE;T1D;UC	requires Open Targets genetic association in at least four autoimmune diseases
+TNFSF15	ms_external_genetic_anchor	False	MS genetic=0.0; MS overall=0.0	requires MS target-disease genetic evidence
+TNFSF15	coloc_or_mr_grade_target_resolution	False	not run: no paired disease/eQTL/pQTL summary statistics	Open Targets association is not a coloc/MR result
+TNFSF15	local_cellstate_replication	False	positive=2; negative=0; diseases=psoriasis;ulcerative colitis	requires local cross-disease cell-state support
+TNFSF15	strict_local_ms_anchor	False	delta=0.3944092138441286; p=0.7556576392930524; fdr=0.9708581480143637	requires FDR-supported local MS signal
+TNFSF15	real_perturbation_support	False	selectivity=nan; calls=	requires real perturbation support
+TNFSF15	tractable_druggability	False	activity_rows=0; best_nM=None; clinical_score=0.0	requires chemical matter or clinical modality precedent
+TNFSF15	novelty_prior_art_unblocked	True	EuropePMC=140	uses literature saturation as an early crowding flag, not patent clearance
+IL12A	cross_disease_external_genetic_breadth	True	n_ge_0.25=5; diseases=Celiac;MS;PBC;SLE;Sjogren	requires Open Targets genetic association in at least four autoimmune diseases
+IL12A	ms_external_genetic_anchor	True	MS genetic=0.7515116724599907; MS overall=0.4809817956157057	requires MS target-disease genetic evidence
+IL12A	coloc_or_mr_grade_target_resolution	False	not run: no paired disease/eQTL/pQTL summary statistics	Open Targets association is not a coloc/MR result
+IL12A	local_cellstate_replication	False	positive=1; negative=0; diseases=type 1 diabetes mellitus	requires local cross-disease cell-state support
+IL12A	strict_local_ms_anchor	False	delta=-0.9142671409053884; p=0.4432527767673943; fdr=0.9214560346888634	requires FDR-supported local MS signal
+IL12A	real_perturbation_support	False	selectivity=nan; calls=	requires real perturbation support
+IL12A	tractable_druggability	True	activity_rows=0; best_nM=None; clinical_score=0.9864871266463598	requires chemical matter or clinical modality precedent
+IL12A	novelty_prior_art_unblocked	True	EuropePMC=337	uses literature saturation as an early crowding flag, not patent clearance

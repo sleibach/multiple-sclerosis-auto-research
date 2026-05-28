@@ -1,0 +1,44 @@
+{
+  "analysis_call": "NO_GO_GPR183_NO_MS_RECEPTOR_OR_LIGAND_ANCHOR",
+  "candidate": "GPR183_EBI2_oxysterol_niche",
+  "inputs": {
+    "broad_h5ad": "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv",
+    "ibd_external_geo_raw": "data/raw_v3/wave84_external_geo",
+    "ms_signature": "results_v3/gse111972_full_ms_wm_signature.tsv",
+    "psoriasis_platform": "data/raw_v3/wave89_psoriasis_response/GPL10558.annot.gz",
+    "psoriasis_series": "data/raw_v3/wave89_psoriasis_response/GSE85034_series_matrix.txt.gz",
+    "ra_counts": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_counts_used.tsv",
+    "ra_meta": "results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_sample_metadata.tsv",
+    "wave55": "results_v3/wave55_external_genetics_druggability_sweep/external_genetics_rank.tsv",
+    "wave62": "results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv",
+    "wave74": "results_v3/wave74_gpr183_oxysterol_niche",
+    "wave83": "results_v3/wave83_intervention_class_meta_rank/intervention_class_meta_rank.tsv"
+  },
+  "n_clinicaltrials_records": 4,
+  "n_ibd_gene_tests": 119,
+  "n_psoriasis_gene_tests": 51,
+  "n_pubmed_records": 0,
+  "n_ra_gene_tests": 15,
+  "response_genes": [
+    "CCR7",
+    "CCL19",
+    "CCL21",
+    "CXCL13",
+    "CXCR5",
+    "LTA",
+    "LTB",
+    "CD83",
+    "LAMP3",
+    "ITGAX",
+    "CCL17",
+    "CCL22"
+  ],
+  "seed": 20260527,
+  "target_genes": [
+    "GPR183",
+    "CH25H",
+    "CYP7B1",
+    "HSD3B7",
+    "CYP27A1"
+  ]
+}

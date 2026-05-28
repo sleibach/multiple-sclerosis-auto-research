@@ -1,0 +1,32 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr1",
+        "dataSource": "HAVANA",
+        "description": "interleukin 6 receptor [Source:HGNC Symbol;Acc:HGNC:6019]",
+        "end": 154469450,
+        "entrezGeneId": 3570,
+        "gencodeId": "ENSG00000160712.12",
+        "gencodeVersion": "v26",
+        "geneStatus": "",
+        "geneSymbol": "IL6R",
+        "geneSymbolUpper": "IL6R",
+        "geneType": "protein coding",
+        "genomeBuild": "GRCh38/hg38",
+        "start": 154405193,
+        "strand": "+",
+        "tss": 154405193
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 3,
+      "numberOfPages": 1,
+      "page": 0,
+      "totalNumberOfItems": 1
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/reference/gene?geneId=IL6R&gencodeVersion=v26&genomeBuild=GRCh38%2Fhg38&itemsPerPage=3"
+}

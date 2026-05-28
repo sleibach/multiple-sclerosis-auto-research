@@ -1,0 +1,359 @@
+{
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%22FXYD5%22+AND+%28knockdown+OR+knockout+OR+CRISPR+OR+siRNA+OR+shRNA+OR+overexpression+OR+perturbation%29&format=json&pageSize=10&resultType=lite",
+  "status": 200,
+  "json": {
+    "version": "6.9",
+    "hitCount": 41,
+    "nextCursorMark": "AoIIQCxzgCg0OTMzMjI0MA==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS:\"FXYD5\" AND (knockdown OR knockout OR CRISPR OR siRNA OR shRNA OR overexpression OR perturbation)&cursorMark=AoIIQCxzgCg0OTMzMjI0MA==&resultType=lite&pageSize=10&format=json",
+    "request": {
+      "queryString": "TITLE_ABS:\"FXYD5\" AND (knockdown OR knockout OR CRISPR OR siRNA OR shRNA OR overexpression OR perturbation)",
+      "resultType": "lite",
+      "cursorMark": "*",
+      "pageSize": 10,
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "id": "PPR1054220",
+          "source": "PPR",
+          "doi": "10.21203/rs.3.rs-6967066/v1",
+          "title": "FXYD5 promotes the growth of glioblastoma by targeting the PI3K/AKT/ACSL4 signaling axis",
+          "authorString": "Hu X, Wang B, Qin Y, Cheng H, Zeng Y, Jiang L.",
+          "pubYear": "2025",
+          "pubType": "preprint",
+          "bookOrReportDetails": {
+            "publisher": "Research Square",
+            "yearOfPublication": 2025
+          },
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "versionNumber": 1,
+          "hasTMAccessionNumbers": "N",
+          "firstIndexDate": "2025-07-24",
+          "firstPublicationDate": "2025-07-23"
+        },
+        {
+          "id": "40972883",
+          "source": "MED",
+          "pmid": "40972883",
+          "doi": "10.1016/j.yexcr.2025.114758",
+          "title": "USP11 stabilizes RALY to promote FXYD5-mediated aerobic glycolysis and aggravate pancreatic cancer progression.",
+          "authorString": "Xie H, Liao L, Li J, Cai R, He H, Lu M.",
+          "journalTitle": "Exp Cell Res",
+          "issue": "2",
+          "journalVolume": "452",
+          "pubYear": "2025",
+          "journalIssn": "0014-4827; 1090-2422; ",
+          "pageInfo": "114758",
+          "pubType": "journal article",
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasTMAccessionNumbers": "N",
+          "firstIndexDate": "2025-09-21",
+          "firstPublicationDate": "2025-09-17"
+        },
+        {
+          "id": "39532790",
+          "source": "MED",
+          "pmid": "39532790",
+          "pmcid": "PMC11557794",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11557794"
+            ]
+          },
+          "doi": "10.1007/s12672-024-01497-w",
+          "title": "Circ_0001068 accelerates the development of ovarian cancer by promoting FXYD5 expression through inhibiting mir-149-5p activity.",
+          "authorString": "Mou Z, Ge L, Ye S, Gong Z.",
+          "journalTitle": "Discov Oncol",
+          "issue": "1",
+          "journalVolume": "15",
+          "pubYear": "2024",
+          "journalIssn": "2730-6011",
+          "pageInfo": "648",
+          "pubType": "research-article; journal article",
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "citedByCount": 2,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasTMAccessionNumbers": "N",
+          "firstIndexDate": "2024-11-16",
+          "firstPublicationDate": "2024-11-12"
+        },
+        {
+          "id": "40912610",
+          "source": "MED",
+          "pmid": "40912610",
+          "doi": "10.1016/j.trim.2025.102282",
+          "title": "Fxyd5 downregulation protects the heart from ischemia/reperfusion injury by suppressing myocardial inflammation.",
+          "authorString": "Zhang L, Xu J, Cui F, Jin J, Liu L, Wang L, Gao Y.",
+          "journalTitle": "Transpl Immunol",
+          "journalVolume": "93",
+          "pubYear": "2025",
+          "journalIssn": "0966-3274; 1878-5492; ",
+          "pageInfo": "102282",
+          "pubType": "journal article",
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasTMAccessionNumbers": "N",
+          "firstIndexDate": "2025-09-07",
+          "firstPublicationDate": "2025-09-03"
+        },
+        {
+          "id": "38774095",
+          "source": "MED",
+          "pmid": "38774095",
+          "pmcid": "PMC11107115",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11107115"
+            ]
+          },
+          "doi": "10.1016/j.heliyon.2024.e30727",
+          "title": "Association analysis of FXYD5 with prognosis and immunological characteristics across pan-cancer.",
+          "authorString": "Bai Y, Li L, Li J, Lu X.",
+          "journalTitle": "Heliyon",
+          "issue": "9",
+          "journalVolume": "10",
+          "pubYear": "2024",
+          "journalIssn": "2405-8440",
+          "pageInfo": "e30727",
+          "pubType": "research-article; journal article",
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "citedByCount": 5,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasTMAccessionNumbers": "N",
+          "firstIndexDate": "2024-05-22",
+          "firstPublicationDate": "2024-05-09"
+        },
+        {
+          "id": "38155284",
+          "source": "MED",
+          "pmid": "38155284",
+          "doi": "10.1007/s12033-023-00923-8",
+          "title": "miR-1180 Targets FXYD5 to Regulate Pancreatic Cancer Cells Migration and Invasion.",
+          "authorString": "Xie H, Li J, Lu M, Zhang R, Mao H.",
+          "journalTitle": "Mol Biotechnol",
+          "issue": "11",
+          "journalVolume": "66",
+          "pubYear": "2024",
+          "journalIssn": "1073-6085; 1559-0305; ",
+          "pageInfo": "3182-3194",
+          "pubType": "journal article",
+          "isOpenAccess": "N",
+          "inEPMC": "N",
+          "inPMC": "N",
+          "hasPDF": "N",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "citedByCount": 4,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasTMAccessionNumbers": "N",
+          "firstIndexDate": "2023-12-29",
+          "firstPublicationDate": "2023-12-28"
+        },
+        {
+          "id": "35191523",
+          "source": "MED",
+          "pmid": "35191523",
+          "pmcid": "PMC8908309",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC8908309"
+            ]
+          },
+          "doi": "10.3892/mmr.2022.12650",
+          "title": "Fxyd5 activates the NF\u2011\u03baB pathway and is involved in chondrocytes inflammation and extracellular matrix degradation.",
+          "authorString": "Song L, Li X, Sun Q, Zhao Y.",
+          "journalTitle": "Mol Med Rep",
+          "issue": "4",
+          "journalVolume": "25",
+          "pubYear": "2022",
+          "journalIssn": "1791-2997; 1791-3004; ",
+          "pageInfo": "134",
+          "pubType": "research-article; journal article",
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "N",
+          "citedByCount": 5,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasTMAccessionNumbers": "N",
+          "firstIndexDate": "2022-02-23",
+          "firstPublicationDate": "2022-02-22"
+        },
+        {
+          "id": "39717768",
+          "source": "MED",
+          "pmid": "39717768",
+          "pmcid": "PMC11663906",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11663906"
+            ]
+          },
+          "doi": "10.3389/fimmu.2024.1509658",
+          "title": "Innovative strategies to optimise colorectal cancer immunotherapy through molecular mechanism insights.",
+          "authorString": "Lin Q, Wang Z, Wang J, Xu M, Zhang X, Sun P, Yuan Y.",
+          "journalTitle": "Front Immunol",
+          "journalVolume": "15",
+          "pubYear": "2024",
+          "journalIssn": "1664-3224",
+          "pageInfo": "1509658",
+          "pubType": "research-article; journal article",
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "citedByCount": 5,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "geo"
+            ]
+          },
+          "firstIndexDate": "2024-12-24",
+          "firstPublicationDate": "2024-12-09"
+        },
+        {
+          "id": "PPR684430",
+          "source": "PPR",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PPR684430"
+            ]
+          },
+          "doi": "10.1101/2023.06.27.546683",
+          "title": "Rewiring of chromatin loops in adipogenesis reveals targets for obesity and diabetes intervention",
+          "authorString": "Sandovici I, Mifsud B, Kentistou KA, Emery A, Gulati P, Banu A, Campbell N, Hardwick BS, Crooks AT, Fernandez-Twinn DS, Mennitti LV, Srour L, Awad S, Chiarugi D, Hamilton RS, Wingett SW, Fraser P, Ong KK, Schoenfelder S, Mohammad F, O\u2019Rahilly S, Perry JR, Venkitaraman AR, Ozanne SE, Const\u00e2ncia M.",
+          "pubYear": "2023",
+          "pubType": "preprint",
+          "bookOrReportDetails": {
+            "publisher": "bioRxiv",
+            "yearOfPublication": 2023
+          },
+          "isOpenAccess": "Y",
+          "inEPMC": "Y",
+          "inPMC": "N",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "citedByCount": 0,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "geo",
+              "refsnp",
+              "efo"
+            ]
+          },
+          "firstIndexDate": "2023-07-02",
+          "firstPublicationDate": "2023-06-30"
+        },
+        {
+          "id": "37814066",
+          "source": "MED",
+          "pmid": "37814066",
+          "pmcid": "PMC11796877",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC11796877"
+            ]
+          },
+          "doi": "10.1007/s00432-023-05445-z",
+          "title": "The roles of FXYD family members in ovarian cancer: an integrated analysis by mining TCGA and GEO databases and functional validations.",
+          "authorString": "Zhao E, Gao K, Xiong J, Liu Z, Chen Y, Yi L.",
+          "journalTitle": "J Cancer Res Clin Oncol",
+          "issue": "19",
+          "journalVolume": "149",
+          "pubYear": "2023",
+          "journalIssn": "0171-5216; 1432-1335; ",
+          "pageInfo": "17269-17284",
+          "pubType": "research-article; journal article",
+          "isOpenAccess": "N",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "hasPDF": "Y",
+          "hasBook": "N",
+          "hasSuppl": "Y",
+          "citedByCount": 11,
+          "hasReferences": "Y",
+          "hasTextMinedTerms": "Y",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "Y",
+          "hasTMAccessionNumbers": "Y",
+          "tmAccessionTypeList": {
+            "accessionType": [
+              "geo"
+            ]
+          },
+          "firstIndexDate": "2023-10-10",
+          "firstPublicationDate": "2023-10-09"
+        }
+      ]
+    }
+  }
+}

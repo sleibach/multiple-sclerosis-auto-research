@@ -1,0 +1,1173 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3APKM%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15996096",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "1854723",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20847263",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Catalyzes the final rate-limiting step of glycolysis by mediating the transfer of a phosphoryl group from phosphoenolpyruvate (PEP) to ADP, generating ATP (PubMed:15996096, PubMed:1854723, PubMed:20847263). The ratio between the highly active tetrameric form and nearly inactive dimeric form determines whether glucose carbons are channeled to biosynthetic processes or used for glycolytic ATP production (PubMed:15996096, PubMed:1854723, PubMed:20847263). The transition between the 2 forms contributes to the control of glycolysis and is important for tumor cell proliferation and survival (PubMed:15996096, PubMed:1854723, PubMed:20847263)"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "molecule": "Isoform M2",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "id": "P52480",
+                  "source": "UniProtKB"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "17308100",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "18191611",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "18337823",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20847263",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "21620138",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22056988",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22306293",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "22901803",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "24120661",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "26787900",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Isoform specifically expressed during embryogenesis that has low pyruvate kinase activity by itself and requires allosteric activation by D-fructose 1,6-bisphosphate (FBP) for pyruvate kinase activity (PubMed:18337823, PubMed:20847263). In addition to its pyruvate kinase activity in the cytoplasm, also acts as a regulator of transcription in the nucleus by acting as a protein kinase (PubMed:18191611, PubMed:21620138, PubMed:22056988, PubMed:22306293, PubMed:22901803, PubMed:24120661). Translocates into the nucleus in response to various signals, such as EGF receptor activation, and homodimerizes, leading to its conversion into a protein threonine- and tyrosine-protein kinase (PubMed:22056988, PubMed:22306293, PubMed:22901803, PubMed:24120661, PubMed:26787900). Catalyzes phosphorylation of STAT3 at 'Tyr-705' and histone H3 at 'Thr-11' (H3T11ph), leading to activate transcription (PubMed:22306293, PubMed:22901803, PubMed:24120661). Its ability to activate transcription plays a role in cancer cells by promoting cell proliferation and promote tumorigenesis (PubMed:18337823, PubMed:22901803, PubMed:26787900). Promotes the expression of the immune checkpoint protein CD274 in BMAL1-deficient macrophages (By similarity). May also act as a translation regulator for a subset of mRNAs, independently of its pyruvate kinase activity: associates with subpools of endoplasmic reticulum-associated ribosomes, binds directly to the mRNAs translated at the endoplasmic reticulum and promotes translation of these endoplasmic reticulum-destined mRNAs (By similarity). Plays a role in caspase independent cell death of tumor cells (PubMed:17308100)"
+            }
+          ]
+        },
+        {
+          "commentType": "FUNCTION",
+          "molecule": "Isoform M1",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "18337823",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20847263",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Pyruvate kinase isoform expressed in adult tissues, which replaces isoform M2 after birth (PubMed:18337823). In contrast to isoform M2, has high pyruvate kinase activity by itself and does not require allosteric activation by D-fructose 1,6-bisphosphate (FBP) for activity (PubMed:20847263)"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "molecule": "Isoform M2",
+          "note": {
+            "texts": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "17308100",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "22056988",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "24120661",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "26787900",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "Translocates to the nucleus in response to various signals, such as EGF receptor activation or apoptotic stimuli (PubMed:17308100, PubMed:22056988, PubMed:24120661). Nuclear translocation is promoted by acetylation by EP300 (PubMed:24120661). Deacetylation by SIRT6 promotes its nuclear export in a process dependent of XPO4, thereby suppressing its ability to activate transcription and promote tumorigenesis (PubMed:26787900)"
+              }
+            ]
+          },
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "25263439",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "26787900",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "27573352",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "32268273",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "17308100",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "18191611",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "22056988",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "22901803",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "24120661",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "26787900",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "27573352",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "32268273",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0191",
+                "value": "Nucleus"
+              }
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "molecule": "Isoform M1",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305"
+                  }
+                ],
+                "id": "SL-0086",
+                "value": "Cytoplasm"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000169DBC"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "23064226",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:33384"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:33384",
+            "name": "L-serine"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 70
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 70
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P30613",
+              "source": "UniProtKB"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 73
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 73
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "23530218",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4FXF",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:30616"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:30616",
+            "name": "ATP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 78
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 75
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "23530218",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4FXF",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29103"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29103",
+            "name": "K(+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 75
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 75
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "23530218",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4FXF",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29103"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29103",
+            "name": "K(+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 77
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 77
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "23064226",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:33384"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:33384",
+            "name": "L-serine"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 106
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 106
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "23530218",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4FXF",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29103"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29103",
+            "name": "K(+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 113
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 113
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "23530218",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4FXF",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29103"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:29103",
+            "name": "K(+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 114
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 114
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "23530218",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4FXF",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:30616"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:30616",
+            "name": "ATP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 120
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 120
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "23530218",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4FXF",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:30616"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:30616",
+            "name": "ATP"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 207
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 207
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P30613",
+              "source": "UniProtKB"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 270
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 270
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "23530218",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4FXF",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:18420"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:18420",
+            "name": "Mg(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 272
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 272
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P30613",
+              "source": "UniProtKB"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 295
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 295
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "23530218",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4FXF",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:18420"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:18420",
+            "name": "Mg(2+)"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 296
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 296
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P30613",
+              "source": "UniProtKB"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 296
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 296
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "id": "P30613",
+              "source": "UniProtKB"
+            }
+          ],
+          "ligand": {
+            "name": "substrate"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 328
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 328
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15996096",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "23530218",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1T5A",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4FXF",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:32966"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:32966",
+            "name": "beta-D-fructose 1,6-bisphosphate",
+            "note": "allosteric activator"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 437
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 432
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "23064226",
+              "source": "PubMed"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:33384"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:33384",
+            "name": "L-serine"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 464
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 464
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15996096",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "23530218",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1T5A",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4FXF",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:32966"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:32966",
+            "name": "beta-D-fructose 1,6-bisphosphate",
+            "note": "allosteric activator"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 482
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 482
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15996096",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "23530218",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1T5A",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4FXF",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:32966"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:32966",
+            "name": "beta-D-fructose 1,6-bisphosphate",
+            "note": "allosteric activator"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 489
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 489
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "15996096",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "23530218",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "1T5A",
+              "source": "PDB"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "4FXF",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:32966"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:32966",
+            "name": "beta-D-fructose 1,6-bisphosphate",
+            "note": "allosteric activator"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 521
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 516
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "PKM"
+          },
+          "synonyms": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "9466265",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "OIP3"
+            },
+            {
+              "value": "PK2"
+            },
+            {
+              "value": "PK3"
+            },
+            {
+              "value": "PKM2"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "P14618",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "2813362",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Cytosolic thyroid hormone-binding protein"
+            },
+            "shortNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "2813362",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "CTHBP"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "9466265",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Opa-interacting protein 3"
+            },
+            "shortNames": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000303",
+                    "id": "9466265",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "OIP-3"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Pyruvate kinase 2/3"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Pyruvate kinase muscle isozyme"
+            }
+          },
+          {
+            "ecNumbers": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "22901803",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "24120661",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "2.7.11.1"
+              }
+            ],
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000305"
+                }
+              ],
+              "value": "Threonine-protein kinase PKM2"
+            }
+          },
+          {
+            "fullName": {
+              "value": "Thyroid hormone-binding protein 1"
+            },
+            "shortNames": [
+              {
+                "value": "THBP1"
+              }
+            ]
+          },
+          {
+            "fullName": {
+              "value": "Tumor M2-PK"
+            }
+          },
+          {
+            "ecNumbers": [
+              {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "22306293",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "24120661",
+                    "source": "PubMed"
+                  }
+                ],
+                "value": "2.7.10.2"
+              }
+            ],
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000305"
+                }
+              ],
+              "value": "Tyrosine-protein kinase PKM2"
+            }
+          },
+          {
+            "fullName": {
+              "value": "p58"
+            }
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "15996096",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "1854723",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "20847263",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "2.7.1.40"
+            }
+          ],
+          "fullName": {
+            "value": "Pyruvate kinase PKM"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "branch_call": "NO_REOPEN_GPR183_COMPARTMENT_FALLBACK",
+  "coherent_compartment_disease_count": 0,
+  "gpr183_response_support_system_count_p_lt_0_10": 2,
+  "inputs": {
+    "broad_h5ad": "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv",
+    "wave93_ibd": "results_v3/wave93_gpr183_oxysterol_forcing_test/ibd_external_antitnf_gene_response_meta.tsv",
+    "wave93_psoriasis": "results_v3/wave93_gpr183_oxysterol_forcing_test/psoriasis_gse85034_ada_gene_response_meta.tsv",
+    "wave93_ra": "results_v3/wave93_gpr183_oxysterol_forcing_test/ra_gse198520_baseline_gene_response_meta.tsv"
+  },
+  "random_seed": 20260527,
+  "scope": "weak_compartment_contrast_fallback_not_spatial_or_donor_matched"
+}

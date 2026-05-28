@@ -1,0 +1,453 @@
+{
+  "_request_url": "https://rest.uniprot.org/uniprotkb/search?query=%28gene_exact%3ASQLE%29+AND+%28organism_id%3A9606%29+AND+%28reviewed%3Atrue%29&format=json&fields=accession%2Cgene_names%2Cprotein_name%2Ccc_function%2Ccc_subcellular_location%2Cft_act_site%2Cft_binding&size=1",
+  "_status_code": 200,
+  "results": [
+    {
+      "comments": [
+        {
+          "commentType": "FUNCTION",
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "10666321",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "30626872",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Catalyzes the stereospecific oxidation of squalene to (S)-2,3-epoxysqualene, and is considered to be a rate-limiting enzyme in steroid biosynthesis"
+            }
+          ]
+        },
+        {
+          "commentType": "SUBCELLULAR LOCATION",
+          "subcellularLocations": [
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "26434806",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "28972164",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "30626872",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0165",
+                "value": "Microsome membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "26434806",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "28972164",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9903",
+                "value": "Peripheral membrane protein"
+              }
+            },
+            {
+              "location": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000305",
+                    "id": "26434806",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-0097",
+                "value": "Endoplasmic reticulum membrane"
+              },
+              "topology": {
+                "evidences": [
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "26434806",
+                    "source": "PubMed"
+                  },
+                  {
+                    "evidenceCode": "ECO:0000269",
+                    "id": "28972164",
+                    "source": "PubMed"
+                  }
+                ],
+                "id": "SL-9903",
+                "value": "Peripheral membrane protein"
+              }
+            }
+          ]
+        }
+      ],
+      "entryType": "UniProtKB reviewed (Swiss-Prot)",
+      "extraAttributes": {
+        "uniParcId": "UPI0000073EEE"
+      },
+      "features": [
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "30626872",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "6C6N",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57692"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57692",
+            "name": "FAD"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 134
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 133
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "30626872",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "6C6N",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57692"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57692",
+            "name": "FAD"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 154
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 153
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "30626872",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "6C6N",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57692"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57692",
+            "name": "FAD"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 161
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 161
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "30626872",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "6C6N",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57692"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57692",
+            "name": "FAD"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 166
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 166
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "30626872",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "6C6N",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57692"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57692",
+            "name": "FAD"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 234
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 234
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "30626872",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "6C6N",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57692"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57692",
+            "name": "FAD"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 250
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 250
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "30626872",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "6C6N",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57692"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57692",
+            "name": "FAD"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 408
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 408
+            }
+          },
+          "type": "Binding site"
+        },
+        {
+          "description": "",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "id": "30626872",
+              "source": "PubMed"
+            },
+            {
+              "evidenceCode": "ECO:0007744",
+              "id": "6C6N",
+              "source": "PDB"
+            }
+          ],
+          "featureCrossReferences": [
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57692"
+            }
+          ],
+          "ligand": {
+            "id": "ChEBI:CHEBI:57692",
+            "name": "FAD"
+          },
+          "location": {
+            "end": {
+              "modifier": "EXACT",
+              "value": 421
+            },
+            "start": {
+              "modifier": "EXACT",
+              "value": 421
+            }
+          },
+          "type": "Binding site"
+        }
+      ],
+      "genes": [
+        {
+          "geneName": {
+            "value": "SQLE"
+          },
+          "synonyms": [
+            {
+              "value": "ERG1"
+            }
+          ]
+        }
+      ],
+      "primaryAccession": "Q14534",
+      "proteinDescription": {
+        "alternativeNames": [
+          {
+            "fullName": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "id": "9286711",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "Squalene epoxidase"
+            },
+            "shortNames": [
+              {
+                "value": "SE"
+              }
+            ]
+          }
+        ],
+        "recommendedName": {
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "10666321",
+                  "source": "PubMed"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "id": "30626872",
+                  "source": "PubMed"
+                }
+              ],
+              "value": "1.14.14.17"
+            }
+          ],
+          "fullName": {
+            "value": "Squalene monooxygenase"
+          }
+        }
+      }
+    }
+  ]
+}

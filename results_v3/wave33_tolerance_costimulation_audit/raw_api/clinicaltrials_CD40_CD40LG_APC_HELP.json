@@ -1,0 +1,2387 @@
+{
+  "payload": {
+    "nextPageToken": "ZVJj7o2Elu8o3lp1UdymprbumpOQJJxuZfWn2PIW",
+    "studies": [
+      {
+        "derivedSection": {
+          "conditionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D001168",
+                "term": "Arthritis"
+              },
+              {
+                "id": "D007592",
+                "term": "Joint Diseases"
+              },
+              {
+                "id": "D009140",
+                "term": "Musculoskeletal Diseases"
+              },
+              {
+                "id": "D012216",
+                "term": "Rheumatic Diseases"
+              },
+              {
+                "id": "D003240",
+                "term": "Connective Tissue Diseases"
+              },
+              {
+                "id": "D017437",
+                "term": "Skin and Connective Tissue Diseases"
+              },
+              {
+                "id": "D001327",
+                "term": "Autoimmune Diseases"
+              },
+              {
+                "id": "D007154",
+                "term": "Immune System Diseases"
+              },
+              {
+                "id": "D001161",
+                "term": "Arteriosclerosis"
+              },
+              {
+                "id": "D001157",
+                "term": "Arterial Occlusive Diseases"
+              },
+              {
+                "id": "D014652",
+                "term": "Vascular Diseases"
+              },
+              {
+                "id": "D002318",
+                "term": "Cardiovascular Diseases"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D001172",
+                "term": "Arthritis, Rheumatoid"
+              },
+              {
+                "id": "D050197",
+                "term": "Atherosclerosis"
+              }
+            ]
+          },
+          "interventionBrowseModule": {
+            "ancestors": [
+              {
+                "id": "D013449",
+                "term": "Sulfonamides"
+              },
+              {
+                "id": "D000577",
+                "term": "Amides"
+              },
+              {
+                "id": "D009930",
+                "term": "Organic Chemicals"
+              },
+              {
+                "id": "D013450",
+                "term": "Sulfones"
+              },
+              {
+                "id": "D013457",
+                "term": "Sulfur Compounds"
+              },
+              {
+                "id": "D010879",
+                "term": "Piperazines"
+              },
+              {
+                "id": "D006573",
+                "term": "Heterocyclic Compounds, 1-Ring"
+              },
+              {
+                "id": "D006571",
+                "term": "Heterocyclic Compounds"
+              },
+              {
+                "id": "D011687",
+                "term": "Purines"
+              },
+              {
+                "id": "D006574",
+                "term": "Heterocyclic Compounds, 2-Ring"
+              },
+              {
+                "id": "D000072471",
+                "term": "Heterocyclic Compounds, Fused-Ring"
+              }
+            ],
+            "meshes": [
+              {
+                "id": "D000068677",
+                "term": "Sildenafil Citrate"
+              }
+            ]
+          },
+          "miscInfoModule": {
+            "submissionTracking": {
+              "firstMcpInfo": {
+                "postDateStruct": {
+                  "date": "2021-06-28",
+                  "type": "ACTUAL"
+                }
+              }
+            },
+            "versionHolder": "2026-05-26"
+          }
+        },
+        "documentSection": {
+          "largeDocumentModule": {
+            "largeDocs": [
+              {
+                "date": "2019-07-10",
+                "filename": "Prot_SAP_000.pdf",
+                "hasIcf": false,
+                "hasProtocol": true,
+                "hasSap": true,
+                "label": "Study Protocol and Statistical Analysis Plan",
+                "size": 1407193,
+                "typeAbbrev": "Prot_SAP",
+                "uploadDate": "2021-06-02T18:16"
+              }
+            ]
+          }
+        },
+        "hasResults": true,
+        "protocolSection": {
+          "armsInterventionsModule": {
+            "armGroups": [
+              {
+                "description": "Sildenafil 50 mg orally once daily for first 3 months, then after 2-week washout, Placebo orally once daily for 3 months",
+                "interventionNames": [
+                  "Drug: Sildenafil",
+                  "Other: Placebo"
+                ],
+                "label": "Initial Sildenafil",
+                "type": "EXPERIMENTAL"
+              },
+              {
+                "description": "Placebo orally once daily for first 3 months, then after 2-week washout, Sildenafil 50 mg orally once daily for 3 months",
+                "interventionNames": [
+                  "Drug: Sildenafil",
+                  "Other: Placebo"
+                ],
+                "label": "Initial Placebo",
+                "type": "PLACEBO_COMPARATOR"
+              }
+            ],
+            "interventions": [
+              {
+                "armGroupLabels": [
+                  "Initial Placebo",
+                  "Initial Sildenafil"
+                ],
+                "description": "Sildenafil 50 mg once daily",
+                "name": "Sildenafil",
+                "otherNames": [
+                  "Viagra",
+                  "Revatio"
+                ],
+                "type": "DRUG"
+              },
+              {
+                "armGroupLabels": [
+                  "Initial Placebo",
+                  "Initial Sildenafil"
+                ],
+                "description": "Placebo once daily with same size, shape, color, and texture as Sildenafil 50 mg pill",
+                "name": "Placebo",
+                "type": "OTHER"
+              }
+            ]
+          },
+          "conditionsModule": {
+            "conditions": [
+              "Arthritis, Rheumatoid",
+              "Atherosclerosis"
+            ],
+            "keywords": [
+              "Arthritis, Rheumatoid",
+              "Atherosclerosis"
+            ]
+          },
+          "contactsLocationsModule": {
+            "locations": [
+              {
+                "city": "Pittsburgh",
+                "country": "United States",
+                "facility": "University of Pittsburgh",
+                "geoPoint": {
+                  "lat": 40.44062,
+                  "lon": -79.99589
+                },
+                "state": "Pennsylvania",
+                "zip": "15213"
+              }
+            ],
+            "overallOfficials": [
+              {
+                "affiliation": "University of Pittsburgh",
+                "name": "Kimberly P Liang, MD",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ]
+          },
+          "descriptionModule": {
+            "briefSummary": "The purpose of this study is to determine whether sildenafil improves parameters of vascular function and blood markers involved in development of heart disease in patients with rheumatoid arthritis.",
+            "detailedDescription": "Rheumatoid arthritis (RA) is associated with a 2-fold increased risk of cardiovascular disease (CVD), which is not explained by traditional cardiovascular (CV) risk factors alone; this risk is likely mediated in part through systemic inflammation. Indeed, RA itself is deemed to impart a CV risk equivalent to diabetes mellitus (DM). However, unlike in DM, optimal CV management strategies in RA are lacking. Despite improved anti-inflammatory therapies for RA, the mortality gap in RA compared to the general population is still widening, in part due to suboptimal primary and secondary CV preventive care in RA. To date, there have been no published controlled intervention trials for primary CV prevention in RA, despite this clearly urgent unmet need.\n\nOne of the early stages of atherogenesis is endothelial dysfunction, and drugs that target improvement in this are promising novel strategies for CVD prevention. The fundamental feature of endothelial dysfunction is impaired nitric oxide (NO) bioavailability. Sildenafil improves endothelial function by increasing NO signaling by inhibition of phosphodiesterase-5 (PDE5). PDE5 inhibitors improve endothelial function in pulmonary hypertension and DM, and were safe and well tolerated in patients with erectile dysfunction and other CV comorbidities. Furthermore, PDE inhibitors have immunomodulatory properties that may be utilized to treat autoimmune conditions like RA. The investigators' central hypothesis is that sildenafil is a uniquely suited agent targeting endothelial dysfunction as a novel adjunctive CV prevention strategy and immunomodulatory agent in RA. Specifically, their goal is to determine if sildenafil use in RA improves endothelial dysfunction and atherosclerosis biomarkers.\n\nThe proposed study is a phase II, randomized double-blind placebo-controlled crossover efficacy trial of 60 RA patients, with no known history of CVD but at least one traditional CV risk factor, on stable baseline doses of RA medications; randomized 1:1 to receive either sildenafil 50 mg or placebo orally once daily for 3 months, with a 2-week washout before the crossover phase for another 3 months. Vascular studies validated in assessing endothelial dysfunction and laboratory studies for selected atherosclerosis biomarkers will be performed at baseline, 3 months pre- and post-washout, and 6 months. Adverse events will be collected to assess safety. The Specific Aims are:\n\n1. To determine whether sildenafil use in RA leads to improvement in parameters of vascular function; and to confirm its safety profile.\n2. To determine whether sildenafil use in RA is associated with improvement in atherosclerosis biomarkers.\n\nThe results of this study will serve as preliminary data for future larger trials evaluating sildenafil as a CV prevention strategy by reducing endothelial dysfunction in RA. It will provide needed data on potential benefits of sildenafil for immunomodulation and CV prevention in this high-risk population."
+          },
+          "designModule": {
+            "designInfo": {
+              "allocation": "RANDOMIZED",
+              "interventionModel": "CROSSOVER",
+              "maskingInfo": {
+                "masking": "DOUBLE",
+                "whoMasked": [
+                  "PARTICIPANT",
+                  "INVESTIGATOR"
+                ]
+              },
+              "primaryPurpose": "PREVENTION"
+            },
+            "enrollmentInfo": {
+              "count": 25,
+              "type": "ACTUAL"
+            },
+            "phases": [
+              "PHASE2"
+            ],
+            "studyType": "INTERVENTIONAL"
+          },
+          "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Meets 2010 American College of Rheumatology (ACR) classification criteria for diagnosis of RA\n* Aged 18 years or older\n* No known history of CVD (see Exclusion Criteria)\n* At least one traditional CV risk factor (i.e., older age \\[men \u226545 years, women \u226555 years\\], obesity \\[defined as body mass index (BMI) \\>30 kg/m2\\], smoking, hypertension, hyperlipidemia, diabetes mellitus, family history of premature \\[defined as diagnosed at \\<65 years old\\] CVD in first-degree relative)\n* On stable baseline doses of RA medications, defined as no change in dose within past 4 weeks and no anticipated changes over the next 6 months\n* On no higher than 10 mg per day of prednisone or prednisone-equivalent within past 4 weeks\n* RA disease duration (from symptom onset) of more than 6 months\n* Having clinical disease activity index (CDAI) of \\>2.8 but \u226422 (i.e., either low or moderate disease activity), within 30 days of study enrollment\n\nExclusion Criteria:\n\n* Aged \\<18 years\n* Pregnant women\n* Known personal history of CVD (clinical diagnoses of stroke, transient ischemic attack, myocardial infarction, acute coronary syndrome, peripheral arterial disease, percutaneous coronary intervention or coronary bypass graft surgery)\n* Use of high-dose statins (e.g., atorvastatin 40-80 mg/day or rosuvastatin 20-40 mg/day) currently or within past 3 months, or any dose changes of statins or of blood pressure medications that may affect endothelial function (i.e., angiotensin-converting-enzyme \\[ACE\\] inhibitors or angiotensin receptor blockers \\[ARBs\\]) within past 3 months. If on statin or an ACE-I or ARB, there should be no anticipated dose changes over the next 6 months.\n* Persons with intra-cardiac and intra-pulmonary shunts, unstable cardiopulmonary conditions, or anyone on chronic oxygen therapy\n* Persons taking nitric oxide donors, organic nitrites and nitrates, such as glyceryl trinitrate (nitroglycerin), sodium nitroprusside, amyl nitrite (\"poppers\")\n* Severe hepatic impairment (liver function tests \\>1.5 times upper limit of normal) within past 4 weeks\n* Severe impairment in renal function (serum creatinine \u22651.5 mg/dL) within past 4 weeks\n* Hypotension (defined as blood pressure \\[BP\\] \\<90/60)\n* Hereditary degenerative retinal disorders (including genetic disorders of retinal phosphodiesterases)\n* Persons already taking (or taken within 3 months) sildenafil or other PDE inhibitors (i.e., tadalafil, vardenafil)\n* Persons unable to provide voluntary written informed consent\n* Severe hypertension (BP \\>170/110)\n* Persons with HIV/AIDS",
+            "healthyVolunteers": false,
+            "minimumAge": "18 Years",
+            "sex": "ALL",
+            "stdAges": [
+              "ADULT",
+              "OLDER_ADULT"
+            ]
+          },
+          "identificationModule": {
+            "briefTitle": "Does Sildenafil Improve Endothelial Dysfunction in Rheumatoid Arthritis?",
+            "nctId": "NCT02908490",
+            "officialTitle": "Does Sildenafil Improve Endothelial Dysfunction in Rheumatoid Arthritis?",
+            "orgStudyIdInfo": {
+              "id": "PRO14120209"
+            },
+            "organization": {
+              "class": "OTHER",
+              "fullName": "University of Pittsburgh"
+            }
+          },
+          "ipdSharingStatementModule": {
+            "ipdSharing": "YES"
+          },
+          "outcomesModule": {
+            "primaryOutcomes": [
+              {
+                "description": "The methods of assessment of endothelial function via FMD will be performed following guidelines. Using Duplex ultrasound with a high-resolution linear array transducer, the difference between the maximum brachial artery diameter (BAD) postocclusion and the baseline diameter will be calculated, expressed as a percentage (%BAD). Generally, %BAD values below 5-7% represent endothelial dysfunction, which is associated with CV risk factors, future CVD and mortality.",
+                "measure": "Change From Baseline in Brachial Artery Flow Mediated Dilation (FMD) Without Nitroglycerin at 3 Months",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)"
+              }
+            ],
+            "secondaryOutcomes": [
+              {
+                "description": "PAT measured by the EndoPAT 2000 device is a non-invasive method to assess endothelial function. It is a standardized, rapid, and easy to apply method, and has been found to correlate with multiple traditional CV risk factors and to be responsive to interventions. PAT is a validated alternative measure to brachial arterial FMD in assessing endothelial function, and is less operator-dependent than FMD. FMD directly measures the dilation capability of the large-conduit artery, whereas PAT measures flow response hyperemia, which is related to endothelial function of small arteries of microcirculation. PAT measures endothelium-mediated changes in vascular tone using bio-sensors placed on fingertips. The semi-automatically calculated result (Reactive Hyperemia Index) is an index of endothelial function. LnRHI is a Reactive Hyperemia Index after natural log transformation with a matched cutoff: Normal: LnRHI \\> 0.51 and Abnormal: LnRHI \\<= 0.51 cut-off.",
+                "measure": "Change From Baseline in Peripheral Arterial Tone (PAT) LnRHI at 3 Months",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)"
+              },
+              {
+                "description": "High-sensitivity CRP (hsCRP) measured using standard clinical laboratory protocols",
+                "measure": "Change From Baseline in hsCRP at 3 Months",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)"
+              },
+              {
+                "description": "Erythrocyte sedimentation rate (ESR) measured using standard clinical laboratory protocols",
+                "measure": "Change From Baseline in ESR at 3 Months",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)"
+              },
+              {
+                "description": "Interleukin (IL)-6 measured using enzyme linked immunosorbent assay (ELISA) (pg/mL). Since very few subjects had detectable IL-6 levels, the outcome measure reports the number of participants with detectable IL-6 rather than mean levels.",
+                "measure": "Change From Baseline in Number of Participants With Detectable IL-6 at 3 Months",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)"
+              },
+              {
+                "description": "Rheumatoid factor (RF) measured using standard clinical laboratory protocols",
+                "measure": "Change From Baseline in RF at 3 Months",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)"
+              },
+              {
+                "description": "Anti-cyclic citrullinated peptide antibody (CCP) measured using standard clinical laboratory protocols. Note, the universal unit of measure for CCP is \"Units.\"",
+                "measure": "Change From Baseline in CCP at 3 Months",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)"
+              },
+              {
+                "description": "Leukocyte adhesion molecule E-selectin measured using enzyme linked immunosorbent assay (ELISA)",
+                "measure": "Change From Baseline in E-selectin at 3 Months",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)"
+              },
+              {
+                "description": "Intercellular adhesion molecule (ICAM)-1 measured using enzyme linked immunosorbent assay (ELISA)",
+                "measure": "Change From Baseline in ICAM-1 at 3 Months",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)"
+              },
+              {
+                "description": "Vascular cell adhesion molecule (VCAM)-1 measured using enzyme linked immunosorbent assay (ELISA)",
+                "measure": "Change From Baseline in VCAM-1 at 3 Months",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)"
+              },
+              {
+                "description": "CD40 ligand (CD40L) measured using enzyme linked immunosorbent assay (ELISA)",
+                "measure": "Change From Baseline in CD40L at 3 Months",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)"
+              },
+              {
+                "description": "Matrix metalloproteinase-9 (MMP-9) measured using enzyme linked immunosorbent assay (ELISA)",
+                "measure": "Change From Baseline in MMP-9 at 3 Months",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)"
+              },
+              {
+                "description": "Myeloperoxidase (MPO) measured using enzyme linked immunosorbent assay (ELISA)",
+                "measure": "Change From Baseline in MPO at 3 Months",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)"
+              },
+              {
+                "description": "SAEs include death, hospitalization or prolonged existing hospitalization, life threatening, persistent or significant disability, birth defect/congenital anomaly, or medically significant event.",
+                "measure": "Serious Adverse Events (SAE)",
+                "timeFrame": "6 Months and 2 Weeks from Baseline Visit"
+              },
+              {
+                "description": "AEs related to sildenafil treatment may include headache, flushing, indigestion, or visual disturbance, among others.",
+                "measure": "Adverse Events (AE) Related to Treatment",
+                "timeFrame": "6 Months and 2 Weeks from Baseline Visit"
+              }
+            ]
+          },
+          "oversightModule": {
+            "isFdaRegulatedDevice": false,
+            "isFdaRegulatedDrug": true,
+            "isUsExport": false,
+            "oversightHasDmc": false
+          },
+          "sponsorCollaboratorsModule": {
+            "leadSponsor": {
+              "class": "OTHER",
+              "name": "Kimberly Liang"
+            },
+            "responsibleParty": {
+              "investigatorAffiliation": "University of Pittsburgh",
+              "investigatorFullName": "Kimberly Liang",
+              "investigatorTitle": "MD",
+              "type": "SPONSOR_INVESTIGATOR"
+            }
+          },
+          "statusModule": {
+            "completionDateStruct": {
+              "date": "2020-12-31",
+              "type": "ACTUAL"
+            },
+            "expandedAccessInfo": {
+              "hasExpandedAccess": false
+            },
+            "lastUpdatePostDateStruct": {
+              "date": "2021-08-13",
+              "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2021-07-20",
+            "overallStatus": "TERMINATED",
+            "primaryCompletionDateStruct": {
+              "date": "2020-06-04",
+              "type": "ACTUAL"
+            },
+            "resultsFirstPostDateStruct": {
+              "date": "2021-08-13",
+              "type": "ACTUAL"
+            },
+            "resultsFirstSubmitDate": "2021-05-31",
+            "resultsFirstSubmitQcDate": "2021-07-20",
+            "startDateStruct": {
+              "date": "2017-04-01",
+              "type": "ACTUAL"
+            },
+            "statusVerifiedDate": "2021-07",
+            "studyFirstPostDateStruct": {
+              "date": "2016-09-21",
+              "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2016-07-08",
+            "studyFirstSubmitQcDate": "2016-09-16",
+            "whyStopped": "Slow recruitment, lack of continued funding"
+          }
+        },
+        "resultsSection": {
+          "adverseEventsModule": {
+            "description": "The definition of adverse event and/or serious adverse event did not differ from the clinicaltrials.gov definitions.",
+            "eventGroups": [
+              {
+                "deathsNumAffected": 0,
+                "deathsNumAtRisk": 25,
+                "description": "Participants who received Sildenafil 50 mg once daily in either the first or last 3 months of the study",
+                "id": "EG000",
+                "otherNumAffected": 3,
+                "otherNumAtRisk": 25,
+                "seriousNumAffected": 0,
+                "seriousNumAtRisk": 25,
+                "title": "Sildenafil Period"
+              },
+              {
+                "deathsNumAffected": 0,
+                "deathsNumAtRisk": 25,
+                "description": "Participants who received Placebo tablets (matching Sildenafil 50 mg) once daily in either the first or last 3 months of the study",
+                "id": "EG001",
+                "otherNumAffected": 3,
+                "otherNumAtRisk": 25,
+                "seriousNumAffected": 0,
+                "seriousNumAtRisk": 25,
+                "title": "Placebo Period"
+              }
+            ],
+            "frequencyThreshold": "0",
+            "otherEvents": [
+              {
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "organSystem": "Musculoskeletal and connective tissue disorders",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numAffected": 1,
+                    "numAtRisk": 25,
+                    "numEvents": 1
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numAffected": 0,
+                    "numAtRisk": 25,
+                    "numEvents": 0
+                  }
+                ],
+                "term": "Back pain"
+              },
+              {
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "organSystem": "Nervous system disorders",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numAffected": 1,
+                    "numAtRisk": 25,
+                    "numEvents": 1
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numAffected": 0,
+                    "numAtRisk": 25,
+                    "numEvents": 0
+                  }
+                ],
+                "term": "Headache"
+              },
+              {
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "organSystem": "Nervous system disorders",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numAffected": 1,
+                    "numAtRisk": 25,
+                    "numEvents": 1
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numAffected": 0,
+                    "numAtRisk": 25,
+                    "numEvents": 0
+                  }
+                ],
+                "term": "Insomnia"
+              },
+              {
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "organSystem": "Musculoskeletal and connective tissue disorders",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numAffected": 0,
+                    "numAtRisk": 25,
+                    "numEvents": 0
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numAffected": 1,
+                    "numAtRisk": 25,
+                    "numEvents": 1
+                  }
+                ],
+                "term": "Joint Pain"
+              },
+              {
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numAffected": 0,
+                    "numAtRisk": 25,
+                    "numEvents": 0
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numAffected": 1,
+                    "numAtRisk": 25,
+                    "numEvents": 1
+                  }
+                ],
+                "term": "Cough"
+              },
+              {
+                "assessmentType": "SYSTEMATIC_ASSESSMENT",
+                "organSystem": "Respiratory, thoracic and mediastinal disorders",
+                "stats": [
+                  {
+                    "groupId": "EG000",
+                    "numAffected": 0,
+                    "numAtRisk": 25,
+                    "numEvents": 0
+                  },
+                  {
+                    "groupId": "EG001",
+                    "numAffected": 1,
+                    "numAtRisk": 25,
+                    "numEvents": 1
+                  }
+                ],
+                "term": "Bronchospasm"
+              }
+            ],
+            "timeFrame": "Adverse event data were collected over the entire study duration for each participant (i.e., 6 months and 2 weeks)."
+          },
+          "baselineCharacteristicsModule": {
+            "denoms": [
+              {
+                "counts": [
+                  {
+                    "groupId": "BG000",
+                    "value": "12"
+                  },
+                  {
+                    "groupId": "BG001",
+                    "value": "13"
+                  },
+                  {
+                    "groupId": "BG002",
+                    "value": "25"
+                  }
+                ],
+                "units": "Participants"
+              }
+            ],
+            "groups": [
+              {
+                "description": "Sildenafil 50 mg orally once daily for first 3 months, then after 2-week washout, Placebo orally once daily for 3 months\n\nSildenafil: Sildenafil 50 mg once daily\n\nPlacebo: Placebo once daily with same size, shape, color, and texture as Sildenafil 50 mg pill",
+                "id": "BG000",
+                "title": "Initial Sildenafil"
+              },
+              {
+                "description": "Placebo orally once daily for first 3 months, then after 2-week washout, Sildenafil 50 mg orally once daily for 3 months\n\nSildenafil: Sildenafil 50 mg once daily\n\nPlacebo: Placebo once daily with same size, shape, color, and texture as Sildenafil 50 mg pill",
+                "id": "BG001",
+                "title": "Initial Placebo"
+              },
+              {
+                "description": "Total of all reporting groups",
+                "id": "BG002",
+                "title": "Total"
+              }
+            ],
+            "measures": [
+              {
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "spread": "11.2",
+                            "value": "61.1"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "spread": "11.1",
+                            "value": "62.9"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "spread": "10.9",
+                            "value": "62.0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "dispersionType": "STANDARD_DEVIATION",
+                "paramType": "MEAN",
+                "title": "Age, Continuous",
+                "unitOfMeasure": "years"
+              },
+              {
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "10"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "11"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "21"
+                          }
+                        ],
+                        "title": "Female"
+                      },
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "2"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "2"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "4"
+                          }
+                        ],
+                        "title": "Male"
+                      }
+                    ]
+                  }
+                ],
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "title": "Sex: Female, Male",
+                "unitOfMeasure": "Participants"
+              },
+              {
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "0"
+                          }
+                        ],
+                        "title": "Hispanic or Latino"
+                      },
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "12"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "13"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "25"
+                          }
+                        ],
+                        "title": "Not Hispanic or Latino"
+                      },
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "0"
+                          }
+                        ],
+                        "title": "Unknown or Not Reported"
+                      }
+                    ]
+                  }
+                ],
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "title": "Ethnicity (NIH/OMB)",
+                "unitOfMeasure": "Participants"
+              },
+              {
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "0"
+                          }
+                        ],
+                        "title": "American Indian or Alaska Native"
+                      },
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "0"
+                          }
+                        ],
+                        "title": "Asian"
+                      },
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "0"
+                          }
+                        ],
+                        "title": "Native Hawaiian or Other Pacific Islander"
+                      },
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "2"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "2"
+                          }
+                        ],
+                        "title": "Black or African American"
+                      },
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "10"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "13"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "23"
+                          }
+                        ],
+                        "title": "White"
+                      },
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "0"
+                          }
+                        ],
+                        "title": "More than one race"
+                      },
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "0"
+                          }
+                        ],
+                        "title": "Unknown or Not Reported"
+                      }
+                    ]
+                  }
+                ],
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "title": "Race (NIH/OMB)",
+                "unitOfMeasure": "Participants"
+              },
+              {
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "12"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "13"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "25"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "United States"
+                  }
+                ],
+                "paramType": "NUMBER",
+                "title": "Region of Enrollment",
+                "unitOfMeasure": "participants"
+              },
+              {
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "10"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "11"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "21"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "Older age"
+                  },
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "7"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "6"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "13"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "Obesity"
+                  },
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "4"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "6"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "10"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "Smoking (ever or current)"
+                  },
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "7"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "7"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "14"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "Hypertension"
+                  },
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "6"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "8"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "14"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "Hyperlipidemia"
+                  },
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "2"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "2"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "4"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "Diabetes mellitus"
+                  },
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "8"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "6"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "14"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "Family history of CVD"
+                  },
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "9"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "8"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "17"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "Postmenopausal"
+                  },
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "BG000",
+                            "value": "1"
+                          },
+                          {
+                            "groupId": "BG001",
+                            "value": "3"
+                          },
+                          {
+                            "groupId": "BG002",
+                            "value": "4"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "Estrogen replacement use"
+                  }
+                ],
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "title": "Cardiovascular Risk Factors",
+                "unitOfMeasure": "Participants"
+              }
+            ]
+          },
+          "moreInfoModule": {
+            "certainAgreement": {
+              "piSponsorEmployee": true,
+              "restrictiveAgreement": false
+            },
+            "pointOfContact": {
+              "email": "liangkp@upmc.edu",
+              "organization": "University of Pittsburgh",
+              "phone": "412-586-3550",
+              "title": "Kimberly P. Liang, MD, MS"
+            }
+          },
+          "outcomeMeasuresModule": {
+            "outcomeMeasures": [
+              {
+                "analyses": [
+                  {
+                    "ciLowerLimit": "-3.54",
+                    "ciNumSides": "TWO_SIDED",
+                    "ciPctValue": "95",
+                    "ciUpperLimit": "0.68",
+                    "groupIds": [
+                      "OG000"
+                    ],
+                    "nonInferiorityComment": "Given the cross-over design, analyses included a random effects model for within-subject comparisons of sildenafil versus placebo periods, adjusting for the baseline FMD within that period and a term for treatment order.",
+                    "nonInferiorityType": "SUPERIORITY",
+                    "pValue": "0.185",
+                    "pValueComment": "The a priori threshold for statistical significance was \\<0.05.",
+                    "paramType": "Slope",
+                    "paramValue": "-1.42",
+                    "statisticalMethod": "Mixed Models Analysis"
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "spread": "4.05",
+                            "value": "7.06"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "spread": "3.23",
+                            "value": "6.48"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "FMD at Baseline"
+                  },
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "spread": "4.72",
+                            "value": "-1.14"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "spread": "2.98",
+                            "value": "0.814"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "Change in FMD from Baseline at 3 Months"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "20"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "19"
+                      }
+                    ],
+                    "units": "Participants"
+                  }
+                ],
+                "description": "The methods of assessment of endothelial function via FMD will be performed following guidelines. Using Duplex ultrasound with a high-resolution linear array transducer, the difference between the maximum brachial artery diameter (BAD) postocclusion and the baseline diameter will be calculated, expressed as a percentage (%BAD). Generally, %BAD values below 5-7% represent endothelial dysfunction, which is associated with CV risk factors, future CVD and mortality.",
+                "dispersionType": "Standard Deviation",
+                "groups": [
+                  {
+                    "description": "Participants who received Sildenafil 50 mg once daily in either the first or last 3 months of the study",
+                    "id": "OG000",
+                    "title": "Sildenafil Period"
+                  },
+                  {
+                    "description": "Participants who received Placebo tablets (matching Sildenafil 50 mg) once daily in either the first or last 3 months of the study",
+                    "id": "OG001",
+                    "title": "Placebo Period"
+                  }
+                ],
+                "paramType": "MEAN",
+                "populationDescription": "The number of participants analyzed reflects those in each period who had evaluable data for the given outcome measure at both the Baseline and After 3 months of Study Drug use timepoints.",
+                "reportingStatus": "POSTED",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)",
+                "title": "Change From Baseline in Brachial Artery Flow Mediated Dilation (FMD) Without Nitroglycerin at 3 Months",
+                "type": "PRIMARY",
+                "unitOfMeasure": "percent of BAD"
+              },
+              {
+                "analyses": [
+                  {
+                    "ciLowerLimit": "0.069",
+                    "ciNumSides": "TWO_SIDED",
+                    "ciPctValue": "95",
+                    "ciUpperLimit": "0.331",
+                    "groupIds": [
+                      "OG000"
+                    ],
+                    "nonInferiorityComment": "Given the cross-over design, analyses included a random effects model for within-subject comparisons of sildenafil versus placebo periods, adjusting for the baseline EndoPAT within that period and a term for treatment order.",
+                    "nonInferiorityType": "SUPERIORITY",
+                    "pValue": "0.003",
+                    "pValueComment": "The a priori threshold for statistical significance was \\<0.05.",
+                    "paramType": "Slope",
+                    "paramValue": "0.200",
+                    "statisticalMethod": "Mixed Models Analysis"
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "spread": "0.29",
+                            "value": "0.77"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "spread": "0.32",
+                            "value": "0.78"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "LnRHI at Baseline"
+                  },
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "spread": "0.54",
+                            "value": "0.21"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "spread": "0.35",
+                            "value": "-0.01"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "Change in LnRHI from Baseline at 3 Months"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "19"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "20"
+                      }
+                    ],
+                    "units": "Participants"
+                  }
+                ],
+                "description": "PAT measured by the EndoPAT 2000 device is a non-invasive method to assess endothelial function. It is a standardized, rapid, and easy to apply method, and has been found to correlate with multiple traditional CV risk factors and to be responsive to interventions. PAT is a validated alternative measure to brachial arterial FMD in assessing endothelial function, and is less operator-dependent than FMD. FMD directly measures the dilation capability of the large-conduit artery, whereas PAT measures flow response hyperemia, which is related to endothelial function of small arteries of microcirculation. PAT measures endothelium-mediated changes in vascular tone using bio-sensors placed on fingertips. The semi-automatically calculated result (Reactive Hyperemia Index) is an index of endothelial function. LnRHI is a Reactive Hyperemia Index after natural log transformation with a matched cutoff: Normal: LnRHI \\> 0.51 and Abnormal: LnRHI \\<= 0.51 cut-off.",
+                "dispersionType": "Standard Deviation",
+                "groups": [
+                  {
+                    "description": "Participants who received Sildenafil 50 mg once daily in either the first or last 3 months of the study",
+                    "id": "OG000",
+                    "title": "Sildenafil Period"
+                  },
+                  {
+                    "description": "Participants who received Placebo tablets (matching Sildenafil 50 mg) once daily in either the first or last 3 months of the study",
+                    "id": "OG001",
+                    "title": "Placebo Period"
+                  }
+                ],
+                "paramType": "MEAN",
+                "populationDescription": "The number of participants analyzed reflects those in each period who had evaluable data for the given outcome measure at both the Baseline and After 3 months of Study Drug use timepoints.",
+                "reportingStatus": "POSTED",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)",
+                "title": "Change From Baseline in Peripheral Arterial Tone (PAT) LnRHI at 3 Months",
+                "type": "SECONDARY",
+                "unitOfMeasure": "LnRHI"
+              },
+              {
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "spread": "0.43",
+                            "value": "0.43"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "spread": "0.63",
+                            "value": "0.58"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "hsCRP at Baseline"
+                  },
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "spread": "0.42",
+                            "value": "0.08"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "spread": "2.55",
+                            "value": "0.43"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "Change in hsCRP from Baseline at 3 Months"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "20"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "20"
+                      }
+                    ],
+                    "units": "Participants"
+                  }
+                ],
+                "description": "High-sensitivity CRP (hsCRP) measured using standard clinical laboratory protocols",
+                "dispersionType": "Standard Deviation",
+                "groups": [
+                  {
+                    "description": "Participants who received Sildenafil 50 mg once daily in either the first or last 3 months of the study",
+                    "id": "OG000",
+                    "title": "Sildenafil Period"
+                  },
+                  {
+                    "description": "Participants who received Placebo tablets (matching Sildenafil 50 mg) once daily in either the first or last 3 months of the study",
+                    "id": "OG001",
+                    "title": "Placebo Period"
+                  }
+                ],
+                "paramType": "MEAN",
+                "populationDescription": "Pre-specified linear mixed model statistical analysis not conducted because not scientifically appropriate due to insufficient enrollment.\n\nThe number of participants analyzed reflects those in each period who had evaluable data for the given outcome measure at both the Baseline and After 3 months of Study Drug use timepoints.",
+                "reportingStatus": "POSTED",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)",
+                "title": "Change From Baseline in hsCRP at 3 Months",
+                "type": "SECONDARY",
+                "unitOfMeasure": "mg/dL"
+              },
+              {
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "spread": "15.64",
+                            "value": "19.22"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "spread": "10.25",
+                            "value": "17.35"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "ESR at Baseline"
+                  },
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "spread": "5.73",
+                            "value": "3.30"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "spread": "10.83",
+                            "value": "3.95"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "Change in ESR from Baseline at 3 Months"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "20"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "20"
+                      }
+                    ],
+                    "units": "Participants"
+                  }
+                ],
+                "description": "Erythrocyte sedimentation rate (ESR) measured using standard clinical laboratory protocols",
+                "dispersionType": "Standard Deviation",
+                "groups": [
+                  {
+                    "description": "Participants who received Sildenafil 50 mg once daily in either the first or last 3 months of the study",
+                    "id": "OG000",
+                    "title": "Sildenafil Period"
+                  },
+                  {
+                    "description": "Participants who received Placebo tablets (matching Sildenafil 50 mg) once daily in either the first or last 3 months of the study",
+                    "id": "OG001",
+                    "title": "Placebo Period"
+                  }
+                ],
+                "paramType": "MEAN",
+                "populationDescription": "Pre-specified linear mixed model statistical analysis not conducted because not scientifically appropriate due to insufficient enrollment.\n\nThe number of participants analyzed reflects those in each period who had evaluable data for the given outcome measure at both the Baseline and After 3 months of Study Drug use timepoints.",
+                "reportingStatus": "POSTED",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)",
+                "title": "Change From Baseline in ESR at 3 Months",
+                "type": "SECONDARY",
+                "unitOfMeasure": "mm/hr"
+              },
+              {
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "3"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "8"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "Number (%) of Participants with Detectable IL-6 at Baseline"
+                  },
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "1"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "1"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "Change (decrease) in Number (%) of Participants with Detectable IL-6 from Baseline at 3 Months"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "16"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "19"
+                      }
+                    ],
+                    "units": "Participants"
+                  }
+                ],
+                "description": "Interleukin (IL)-6 measured using enzyme linked immunosorbent assay (ELISA) (pg/mL). Since very few subjects had detectable IL-6 levels, the outcome measure reports the number of participants with detectable IL-6 rather than mean levels.",
+                "groups": [
+                  {
+                    "description": "Participants who received Sildenafil 50 mg once daily in either the first or last 3 months of the study",
+                    "id": "OG000",
+                    "title": "Sildenafil Period"
+                  },
+                  {
+                    "description": "Participants who received Placebo tablets (matching Sildenafil 50 mg) once daily in either the first or last 3 months of the study",
+                    "id": "OG001",
+                    "title": "Placebo Period"
+                  }
+                ],
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "populationDescription": "Pre-specified linear mixed model statistical analysis not conducted because not scientifically appropriate due to insufficient enrollment.\n\nThe number of participants analyzed reflects those in each period who had evaluable data for the given outcome measure at both the Baseline and After 3 months of Study Drug use timepoints.",
+                "reportingStatus": "POSTED",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)",
+                "title": "Change From Baseline in Number of Participants With Detectable IL-6 at 3 Months",
+                "type": "SECONDARY",
+                "unitOfMeasure": "Participants"
+              },
+              {
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "spread": "337.02",
+                            "value": "128.17"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "spread": "296.77",
+                            "value": "138.96"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "RF at Baseline"
+                  },
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "spread": "81.29",
+                            "value": "20.00"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "spread": "59.47",
+                            "value": "-16.20"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "Change in RF from Baseline at 3 Months"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "20"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "20"
+                      }
+                    ],
+                    "units": "Participants"
+                  }
+                ],
+                "description": "Rheumatoid factor (RF) measured using standard clinical laboratory protocols",
+                "dispersionType": "Standard Deviation",
+                "groups": [
+                  {
+                    "description": "Participants who received Sildenafil 50 mg once daily in either the first or last 3 months of the study",
+                    "id": "OG000",
+                    "title": "Sildenafil Period"
+                  },
+                  {
+                    "description": "Participants who received Placebo tablets (matching Sildenafil 50 mg) once daily in either the first or last 3 months of the study",
+                    "id": "OG001",
+                    "title": "Placebo Period"
+                  }
+                ],
+                "paramType": "MEAN",
+                "populationDescription": "Pre-specified linear mixed model statistical analysis not conducted because not scientifically appropriate due to insufficient enrollment.\n\nThe number of participants analyzed reflects those in each period who had evaluable data for the given outcome measure at both the Baseline and After 3 months of Study Drug use timepoints.",
+                "reportingStatus": "POSTED",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)",
+                "title": "Change From Baseline in RF at 3 Months",
+                "type": "SECONDARY",
+                "unitOfMeasure": "IU/ml"
+              },
+              {
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "spread": "107.17",
+                            "value": "60.00"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "spread": "105.11",
+                            "value": "62.80"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "CCP at Baseline"
+                  },
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "spread": "38.93",
+                            "value": "-10.70"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "spread": "32.17",
+                            "value": "-10.70"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "Change in CCP from Baseline at 3 Months"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "20"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "20"
+                      }
+                    ],
+                    "units": "Participants"
+                  }
+                ],
+                "description": "Anti-cyclic citrullinated peptide antibody (CCP) measured using standard clinical laboratory protocols. Note, the universal unit of measure for CCP is \"Units.\"",
+                "dispersionType": "Standard Deviation",
+                "groups": [
+                  {
+                    "description": "Participants who received Sildenafil 50 mg once daily in either the first or last 3 months of the study",
+                    "id": "OG000",
+                    "title": "Sildenafil Period"
+                  },
+                  {
+                    "description": "Participants who received Placebo tablets (matching Sildenafil 50 mg) once daily in either the first or last 3 months of the study",
+                    "id": "OG001",
+                    "title": "Placebo Period"
+                  }
+                ],
+                "paramType": "MEAN",
+                "populationDescription": "Pre-specified linear mixed model statistical analysis not conducted because not scientifically appropriate due to insufficient enrollment.\n\nThe number of participants analyzed reflects those in each period who had evaluable data for the given outcome measure at both the Baseline and After 3 months of Study Drug use timepoints.",
+                "reportingStatus": "POSTED",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)",
+                "title": "Change From Baseline in CCP at 3 Months",
+                "type": "SECONDARY",
+                "unitOfMeasure": "Units"
+              },
+              {
+                "analyses": [
+                  {
+                    "ciLowerLimit": "-0.36",
+                    "ciNumSides": "TWO_SIDED",
+                    "ciPctValue": "95",
+                    "ciUpperLimit": "15.63",
+                    "groupIds": [
+                      "OG000"
+                    ],
+                    "nonInferiorityComment": "Given the cross-over design, analyses included a random effects model for within-subject comparisons of sildenafil versus placebo periods, adjusting for the baseline biomarker within that period and a term for treatment order.",
+                    "nonInferiorityType": "SUPERIORITY",
+                    "pValue": "0.061",
+                    "pValueComment": "The a prior threshold for statistical significance was \\<0.05.",
+                    "paramType": "Slope",
+                    "paramValue": "7.63",
+                    "statisticalMethod": "Mixed Models Analysis"
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "spread": "14.68",
+                            "value": "37.10"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "spread": "14.63",
+                            "value": "42.56"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "E-Selectin at Baseline"
+                  },
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "spread": "13.37",
+                            "value": "4.91"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "spread": "11.42",
+                            "value": "-2.56"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "Change in E-Selectin from Baseline at 3 Months"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "16"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "19"
+                      }
+                    ],
+                    "units": "Participants"
+                  }
+                ],
+                "description": "Leukocyte adhesion molecule E-selectin measured using enzyme linked immunosorbent assay (ELISA)",
+                "dispersionType": "Standard Deviation",
+                "groups": [
+                  {
+                    "description": "Participants who received Sildenafil 50 mg once daily in either the first or last 3 months of the study",
+                    "id": "OG000",
+                    "title": "Sildenafil Period"
+                  },
+                  {
+                    "description": "Participants who received Placebo tablets (matching Sildenafil 50 mg) once daily in either the first or last 3 months of the study",
+                    "id": "OG001",
+                    "title": "Placebo Period"
+                  }
+                ],
+                "paramType": "MEAN",
+                "populationDescription": "The number of participants analyzed reflects those in each period who had evaluable data for the given outcome measure at both the Baseline and After 3 months of Study Drug use timepoints.",
+                "reportingStatus": "POSTED",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)",
+                "title": "Change From Baseline in E-selectin at 3 Months",
+                "type": "SECONDARY",
+                "unitOfMeasure": "ng/mL"
+              },
+              {
+                "analyses": [
+                  {
+                    "ciLowerLimit": "12.79",
+                    "ciNumSides": "TWO_SIDED",
+                    "ciPctValue": "95",
+                    "ciUpperLimit": "97.81",
+                    "groupIds": [
+                      "OG000"
+                    ],
+                    "nonInferiorityComment": "Given the cross-over design, analyses included a random effects model for within-subject comparisons of sildenafil versus placebo periods, adjusting for the baseline biomarker within that period and a term for treatment order.",
+                    "nonInferiorityType": "SUPERIORITY",
+                    "pValue": "0.011",
+                    "pValueComment": "The a prior threshold for statistical significance was \\<0.05.",
+                    "paramType": "Slope",
+                    "paramValue": "55.30",
+                    "statisticalMethod": "Mixed Models Analysis"
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "spread": "65.96",
+                            "value": "256.23"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "spread": "81.80",
+                            "value": "299.59"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "ICAM-1 at Baseline"
+                  },
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "spread": "77.03",
+                            "value": "26.31"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "spread": "67.97",
+                            "value": "-44.33"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "Change in ICAM-1 from Baseline at 3 Months"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "16"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "19"
+                      }
+                    ],
+                    "units": "Participants"
+                  }
+                ],
+                "description": "Intercellular adhesion molecule (ICAM)-1 measured using enzyme linked immunosorbent assay (ELISA)",
+                "dispersionType": "Standard Deviation",
+                "groups": [
+                  {
+                    "description": "Participants who received Sildenafil 50 mg once daily in either the first or last 3 months of the study",
+                    "id": "OG000",
+                    "title": "Sildenafil Period"
+                  },
+                  {
+                    "description": "Participants who received Placebo tablets (matching Sildenafil 50 mg) once daily in either the first or last 3 months of the study",
+                    "id": "OG001",
+                    "title": "Placebo Period"
+                  }
+                ],
+                "paramType": "MEAN",
+                "populationDescription": "The number of participants analyzed reflects those in each period who had evaluable data for the given outcome measure at both the Baseline and After 3 months of Study Drug use timepoints.",
+                "reportingStatus": "POSTED",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)",
+                "title": "Change From Baseline in ICAM-1 at 3 Months",
+                "type": "SECONDARY",
+                "unitOfMeasure": "ng/mL"
+              },
+              {
+                "analyses": [
+                  {
+                    "ciLowerLimit": "-7.98",
+                    "ciNumSides": "TWO_SIDED",
+                    "ciPctValue": "95",
+                    "ciUpperLimit": "157.84",
+                    "groupIds": [
+                      "OG000"
+                    ],
+                    "nonInferiorityComment": "Given the cross-over design, analyses included a random effects model for within-subject comparisons of sildenafil versus placebo periods, adjusting for the baseline biomarker within that period and a term for treatment order.",
+                    "nonInferiorityType": "SUPERIORITY",
+                    "pValue": "0.077",
+                    "pValueComment": "The a priori threshold for statistical significance was \\<0.05.",
+                    "paramType": "Slope",
+                    "paramValue": "74.93",
+                    "statisticalMethod": "Mixed Models Analysis"
+                  }
+                ],
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "spread": "294.35",
+                            "value": "751.30"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "spread": "231.11",
+                            "value": "771.86"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "VCAM-1 at Baseline"
+                  },
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "spread": "117.2",
+                            "value": "46.12"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "spread": "123.4",
+                            "value": "-33.23"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "Change in VCAM-1 from Baseline at 3 Months"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "16"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "19"
+                      }
+                    ],
+                    "units": "Participants"
+                  }
+                ],
+                "description": "Vascular cell adhesion molecule (VCAM)-1 measured using enzyme linked immunosorbent assay (ELISA)",
+                "dispersionType": "Standard Deviation",
+                "groups": [
+                  {
+                    "description": "Participants who received Sildenafil 50 mg once daily in either the first or last 3 months of the study",
+                    "id": "OG000",
+                    "title": "Sildenafil Period"
+                  },
+                  {
+                    "description": "Participants who received Placebo tablets (matching Sildenafil 50 mg) once daily in either the first or last 3 months of the study",
+                    "id": "OG001",
+                    "title": "Placebo Period"
+                  }
+                ],
+                "paramType": "MEAN",
+                "populationDescription": "The number of participants analyzed reflects those in each period who had evaluable data for the given outcome measure at both the Baseline and After 3 months of Study Drug use timepoints.",
+                "reportingStatus": "POSTED",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)",
+                "title": "Change From Baseline in VCAM-1 at 3 Months",
+                "type": "SECONDARY",
+                "unitOfMeasure": "ng/mL"
+              },
+              {
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "spread": "6994.27",
+                            "value": "7650.22"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "spread": "8513.34",
+                            "value": "10316.24"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "CD40L at Baseline"
+                  },
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "spread": "9936.68",
+                            "value": "2559.09"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "spread": "6972.17",
+                            "value": "-3857.02"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "Change in CD40L from Baseline at 3 Months"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "15"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "19"
+                      }
+                    ],
+                    "units": "Participants"
+                  }
+                ],
+                "description": "CD40 ligand (CD40L) measured using enzyme linked immunosorbent assay (ELISA)",
+                "dispersionType": "Standard Deviation",
+                "groups": [
+                  {
+                    "description": "Participants who received Sildenafil 50 mg once daily in either the first or last 3 months of the study",
+                    "id": "OG000",
+                    "title": "Sildenafil Period"
+                  },
+                  {
+                    "description": "Participants who received Placebo tablets (matching Sildenafil 50 mg) once daily in either the first or last 3 months of the study",
+                    "id": "OG001",
+                    "title": "Placebo Period"
+                  }
+                ],
+                "paramType": "MEAN",
+                "populationDescription": "Pre-specified linear mixed model statistical analysis not conducted because not scientifically appropriate due to insufficient enrollment.\n\nThe number of participants analyzed reflects those in each period who had evaluable data for the given outcome measure at both the Baseline and After 3 months of Study Drug use timepoints.",
+                "reportingStatus": "POSTED",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)",
+                "title": "Change From Baseline in CD40L at 3 Months",
+                "type": "SECONDARY",
+                "unitOfMeasure": "pg/mL"
+              },
+              {
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "spread": "399.32",
+                            "value": "441.00"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "spread": "298.36",
+                            "value": "454.85"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "MMP-9 at Baseline"
+                  },
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "spread": "437.21",
+                            "value": "-5.61"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "spread": "333.04",
+                            "value": "-105.65"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "Change in MMP-9 from Baseline at 3 Months"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "16"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "19"
+                      }
+                    ],
+                    "units": "Participants"
+                  }
+                ],
+                "description": "Matrix metalloproteinase-9 (MMP-9) measured using enzyme linked immunosorbent assay (ELISA)",
+                "dispersionType": "Standard Deviation",
+                "groups": [
+                  {
+                    "description": "Participants who received Sildenafil 50 mg once daily in either the first or last 3 months of the study",
+                    "id": "OG000",
+                    "title": "Sildenafil Period"
+                  },
+                  {
+                    "description": "Participants who received Placebo tablets (matching Sildenafil 50 mg) once daily in either the first or last 3 months of the study",
+                    "id": "OG001",
+                    "title": "Placebo Period"
+                  }
+                ],
+                "paramType": "MEAN",
+                "populationDescription": "Pre-specified linear mixed model statistical analysis not conducted because not scientifically appropriate due to insufficient enrollment.\n\nThe number of participants analyzed reflects those in each period who had evaluable data for the given outcome measure at both the Baseline and After 3 months of Study Drug use timepoints.",
+                "reportingStatus": "POSTED",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)",
+                "title": "Change From Baseline in MMP-9 at 3 Months",
+                "type": "SECONDARY",
+                "unitOfMeasure": "ng/mL"
+              },
+              {
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "spread": "276.33",
+                            "value": "236.68"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "spread": "241.29",
+                            "value": "233.24"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "MPO at Baseline"
+                  },
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "spread": "242.20",
+                            "value": "17.18"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "spread": "309.70",
+                            "value": "-54.04"
+                          }
+                        ]
+                      }
+                    ],
+                    "title": "Change in MPO from Baseline at 3 Months"
+                  }
+                ],
+                "denoms": [
+                  {
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "16"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "19"
+                      }
+                    ],
+                    "units": "Participants"
+                  }
+                ],
+                "description": "Myeloperoxidase (MPO) measured using enzyme linked immunosorbent assay (ELISA)",
+                "dispersionType": "Standard Deviation",
+                "groups": [
+                  {
+                    "description": "Participants who received Sildenafil 50 mg once daily in either the first or last 3 months of the study",
+                    "id": "OG000",
+                    "title": "Sildenafil Period"
+                  },
+                  {
+                    "description": "Participants who received Placebo tablets (matching Sildenafil 50 mg) once daily in either the first or last 3 months of the study",
+                    "id": "OG001",
+                    "title": "Placebo Period"
+                  }
+                ],
+                "paramType": "MEAN",
+                "populationDescription": "Pre-specified linear mixed model statistical analysis not conducted because not scientifically appropriate due to insufficient enrollment.\n\nThe number of participants analyzed reflects those in each period who had evaluable data for the given outcome measure at both the Baseline and After 3 months of Study Drug use timepoints.",
+                "reportingStatus": "POSTED",
+                "timeFrame": "Baseline and After 3 months of Study Drug use (i.e., either at 3 months pre-washout or at 6 months, depending on group assignment)",
+                "title": "Change From Baseline in MPO at 3 Months",
+                "type": "SECONDARY",
+                "unitOfMeasure": "ng/mL"
+              },
+              {
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "0"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "0"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "denoms": [
+                  {
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "25"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "25"
+                      }
+                    ],
+                    "units": "Participants"
+                  }
+                ],
+                "description": "SAEs include death, hospitalization or prolonged existing hospitalization, life threatening, persistent or significant disability, birth defect/congenital anomaly, or medically significant event.",
+                "groups": [
+                  {
+                    "description": "Participants who received Sildenafil 50 mg once daily in either the first or last 3 months of the study",
+                    "id": "OG000",
+                    "title": "Sildenafil Period"
+                  },
+                  {
+                    "description": "Participants who received Placebo tablets (matching Sildenafil 50 mg) once daily in either the first or last 3 months of the study",
+                    "id": "OG001",
+                    "title": "Placebo Period"
+                  }
+                ],
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "reportingStatus": "POSTED",
+                "timeFrame": "6 Months and 2 Weeks from Baseline Visit",
+                "title": "Serious Adverse Events (SAE)",
+                "type": "SECONDARY",
+                "unitOfMeasure": "Participants"
+              },
+              {
+                "classes": [
+                  {
+                    "categories": [
+                      {
+                        "measurements": [
+                          {
+                            "groupId": "OG000",
+                            "value": "3"
+                          },
+                          {
+                            "groupId": "OG001",
+                            "value": "3"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "denoms": [
+                  {
+                    "counts": [
+                      {
+                        "groupId": "OG000",
+                        "value": "25"
+                      },
+                      {
+                        "groupId": "OG001",
+                        "value": "25"
+                      }
+                    ],
+                    "units": "Participants"
+                  }
+                ],
+                "description": "AEs related to sildenafil treatment may include headache, flushing, indigestion, or visual disturbance, among others.",
+                "groups": [
+                  {
+                    "description": "Participants who received Sildenafil 50 mg once daily in either the first or last 3 months of the study",
+                    "id": "OG000",
+                    "title": "Sildenafil Period"
+                  },
+                  {
+                    "description": "Participants who received Placebo tablets (matching Sildenafil 50 mg) once daily in either the first or last 3 months of the study",
+                    "id": "OG001",
+                    "title": "Placebo Period"
+                  }
+                ],
+                "paramType": "COUNT_OF_PARTICIPANTS",
+                "reportingStatus": "POSTED",
+                "timeFrame": "6 Months and 2 Weeks from Baseline Visit",
+                "title": "Adverse Events (AE) Related to Treatment",
+                "type": "SECONDARY",
+                "unitOfMeasure": "Participants"
+              }
+            ]
+          },
+          "participantFlowModule": {
+            "groups": [
+              {
+                "description": "Sildenafil 50 mg orally once daily for first 3 months, then after 2-week washout, Placebo orally once daily for 3 months\n\nSildenafil: Sildenafil 50 mg once daily\n\nPlacebo: Placebo once daily with same size, shape, color, and texture as Sildenafil 50 mg pill",
+                "id": "FG000",
+                "title": "Initial Sildenafil"
+              },
+              {
+                "description": "Placebo orally once daily for first 3 months, then after 2-week washout, Sildenafil 50 mg orally once daily for 3 months\n\nSildenafil: Sildenafil 50 mg once daily\n\nPlacebo: Placebo once daily with same size, shape, color, and texture as Sildenafil 50 mg pill",
+                "id": "FG001",
+                "title": "Initial Placebo"
+              }
+            ],
+            "periods": [
+              {
+                "milestones": [
+                  {
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "12"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "13"
+                      }
+                    ],
+                    "type": "STARTED"
+                  },
+                  {
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "10"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "11"
+                      }
+                    ],
+                    "type": "COMPLETED"
+                  },
+                  {
+                    "achievements": [
+                      {
+                        "groupId": "FG000",
+                        "numSubjects": "2"
+                      },
+                      {
+                        "groupId": "FG001",
+                        "numSubjects": "2"
+                      }
+                    ],
+                    "type": "NOT COMPLETED"
+                  }
+                ],
+                "title": "Overall Study"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "totalCount": 35
+  },
+  "url": "https://clinicaltrials.gov/api/v2/studies?query.term=CD40+OR+CD40LG+OR+TRAF2+OR+TRAF3&query.cond=autoimmune+OR+multiple+sclerosis+OR+rheumatoid+arthritis+OR+lupus+OR+Crohn+OR+psoriasis&format=json&pageSize=1&countTotal=true"
+}

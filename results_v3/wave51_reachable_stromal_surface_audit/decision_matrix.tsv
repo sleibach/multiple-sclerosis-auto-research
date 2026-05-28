@@ -1,0 +1,17 @@
+gene	gate	passed	value	rationale
+FAP	cross_disease_local_signal	False	positive=2.0; negative=0.0	requires broad non-contradictory local signal
+FAP	strict_ms_anchor	False	delta=-999.0; p=1.0; fdr=None	requires FDR-supported MS signal
+FAP	target_level_genetics	True	traits=15; min_p=6e-25	requires target/locus support
+FAP	strict_residual_state_survival	False	0.0	requires survival after covariate/core-module residualization
+FAP	direction_and_safety_resolved	False	unresolved	requires intervention direction that does not impair repair/barrier biology
+FAP	real_perturbation_anchor	False	absent	requires disease-relevant perturbation rescue
+FAP	tractable_modality	True	activity_rows=37; best_nM=4.6; trials=5	requires usable inhibitor/antibody/modality
+FAP	novelty_prior_art_not_blocking	False	EuropePMC=218; ClinicalTrials=5; prior_block=True	requires no direct crowded/prior-art blockage
+FXYD5	cross_disease_local_signal	False	positive=4.0; negative=1.0	requires broad non-contradictory local signal
+FXYD5	strict_ms_anchor	False	delta=0.3524746864413863; p=0.0587113391653537; fdr=0.8989378106274888	requires FDR-supported MS signal
+FXYD5	target_level_genetics	False	traits=0; min_p=1.0	requires target/locus support
+FXYD5	strict_residual_state_survival	False	0.0	requires survival after covariate/core-module residualization
+FXYD5	direction_and_safety_resolved	False	unresolved	requires intervention direction that does not impair repair/barrier biology
+FXYD5	real_perturbation_anchor	False	absent	requires disease-relevant perturbation rescue
+FXYD5	tractable_modality	False	activity_rows=0; best_nM=nan; trials=0	requires usable inhibitor/antibody/modality
+FXYD5	novelty_prior_art_not_blocking	True	EuropePMC=101; ClinicalTrials=0; prior_block=False	requires no direct crowded/prior-art blockage

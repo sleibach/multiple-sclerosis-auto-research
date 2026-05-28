@@ -1,0 +1,31 @@
+{
+  "esearchresult": {
+    "count": "117",
+    "idlist": [
+      "41846900",
+      "41842954",
+      "41549797"
+    ],
+    "querytranslation": "(\"btla protein human\"[Supplementary Concept] OR \"btla protein human\"[All Fields] OR \"btla\"[All Fields] OR (\"btla protein human\"[Supplementary Concept] OR \"btla protein human\"[All Fields] OR \"cd272\"[All Fields])) AND (\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields])",
+    "retmax": "3",
+    "retstart": "0",
+    "translationset": [
+      {
+        "from": "BTLA",
+        "to": "\"btla protein, human\"[Supplementary Concept] OR \"btla protein, human\"[All Fields] OR \"btla\"[All Fields]"
+      },
+      {
+        "from": "CD272",
+        "to": "\"btla protein, human\"[Supplementary Concept] OR \"btla protein, human\"[All Fields] OR \"cd272\"[All Fields]"
+      },
+      {
+        "from": "autoimmune",
+        "to": "\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields]"
+      }
+    ]
+  },
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  }
+}

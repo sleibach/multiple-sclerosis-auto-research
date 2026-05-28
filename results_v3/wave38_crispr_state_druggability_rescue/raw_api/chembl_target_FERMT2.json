@@ -1,0 +1,997 @@
+{
+  "page_meta": {
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 2
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Mus musculus",
+      "pref_name": "Fermitin family homolog 2",
+      "score": 16.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL4879490",
+      "target_components": [
+        {
+          "accession": "Q8CIB5",
+          "component_description": "Fermitin family homolog 2",
+          "component_id": 19894,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "Fermitin family homolog 2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Fermt2",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Kindlin-2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Pleckstrin homology domain-containing family C member 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Plekhc1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "Q8CIB5",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "Q8CIB5",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0001725",
+              "xref_name": "stress fiber",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005654",
+              "xref_name": "nucleoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005856",
+              "xref_name": "cytoskeleton",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005912",
+              "xref_name": "adherens junction",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005925",
+              "xref_name": "focal adhesion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005938",
+              "xref_name": "cell cortex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009898",
+              "xref_name": "cytoplasmic side of plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009986",
+              "xref_name": "cell surface",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0030054",
+              "xref_name": "cell junction",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031258",
+              "xref_name": "lamellipodium membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031674",
+              "xref_name": "I band",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0042995",
+              "xref_name": "cell projection",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070161",
+              "xref_name": "anchoring junction",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0003779",
+              "xref_name": "actin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005547",
+              "xref_name": "phosphatidylinositol-3,4,5-trisphosphate binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008289",
+              "xref_name": "lipid binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019901",
+              "xref_name": "protein kinase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0034713",
+              "xref_name": "type I transforming growth factor beta receptor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046332",
+              "xref_name": "SMAD binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0051015",
+              "xref_name": "actin filament binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0120283",
+              "xref_name": "protein serine/threonine kinase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0007155",
+              "xref_name": "cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007160",
+              "xref_name": "cell-matrix adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007179",
+              "xref_name": "transforming growth factor beta receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007229",
+              "xref_name": "integrin-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008360",
+              "xref_name": "regulation of cell shape",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010718",
+              "xref_name": "positive regulation of epithelial to mesenchymal transition",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016055",
+              "xref_name": "Wnt signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0022604",
+              "xref_name": "regulation of cell morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030335",
+              "xref_name": "positive regulation of cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033622",
+              "xref_name": "integrin activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033625",
+              "xref_name": "positive regulation of integrin activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034334",
+              "xref_name": "adherens junction maintenance",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034446",
+              "xref_name": "substrate adhesion-dependent cell spreading",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035025",
+              "xref_name": "positive regulation of Rho protein signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043116",
+              "xref_name": "negative regulation of vascular permeability",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045599",
+              "xref_name": "negative regulation of fat cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045669",
+              "xref_name": "positive regulation of osteoblast differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048041",
+              "xref_name": "focal adhesion assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051496",
+              "xref_name": "positive regulation of stress fiber assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051894",
+              "xref_name": "positive regulation of focal adhesion assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051897",
+              "xref_name": "positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060173",
+              "xref_name": "limb development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070374",
+              "xref_name": "positive regulation of ERK1 and ERK2 cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0072657",
+              "xref_name": "protein localization to membrane",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1900026",
+              "xref_name": "positive regulation of substrate adhesion-dependent cell spreading",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1900182",
+              "xref_name": "positive regulation of protein localization to nucleus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1902414",
+              "xref_name": "protein localization to cell junction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1902462",
+              "xref_name": "positive regulation of mesenchymal stem cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1903691",
+              "xref_name": "positive regulation of wound healing, spreading of epidermal cells",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "Q8CIB5",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR001849",
+              "xref_name": "PH_domain",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR011993",
+              "xref_name": "PH-like_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR019748",
+              "xref_name": "FERM_central",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR019749",
+              "xref_name": "Band_41_domain",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR035963",
+              "xref_name": "FERM_2",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR037837",
+              "xref_name": "PH_Kindlin/fermitin",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR037843",
+              "xref_name": "Kindlin/fermitin",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR040790",
+              "xref_name": "Kindlin_2_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR16160",
+              "xref_name": "FERMITIN 2-RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR16160:SF11",
+              "xref_name": "FERMITIN FAMILY HOMOLOG 2",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "5XPY",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5XPZ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5XQ0",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5XQ1",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8TEC",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "8TEE",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "5XPY",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5XPZ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5XQ0",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "5XQ1",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8TEC",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "8TEE",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF00373",
+              "xref_name": "FERM_M",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF18124",
+              "xref_name": "Kindlin_2_N",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "R-MMU-446353",
+              "xref_name": "Cell-extracellular matrix interactions",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-MMU-9013149",
+              "xref_name": "RAC1 GTPase cycle",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-MMU-9013423",
+              "xref_name": "RAC3 GTPase cycle",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "Q8C542",
+              "xref_name": "Fermitin family homolog 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8CIB5",
+              "xref_name": "Fermitin family homolog 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q8K035",
+              "xref_name": "Fermitin family homolog 2",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 10090
+    },
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Fermitin family homolog 2",
+      "score": 12.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL5465266",
+      "target_components": [
+        {
+          "accession": "Q96AC1",
+          "component_description": "Fermitin family homolog 2",
+          "component_id": 22803,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "Fermitin family homolog 2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "FERMT2",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "KIND2",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Kindlin-2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "MIG-2",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "MIG2",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "Mitogen-inducible gene 2 protein",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PH domain-containing family C member 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Pleckstrin homology domain-containing family C member 1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "PLEKHC1",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "Q96AC1",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "Q96AC1",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0001725",
+              "xref_name": "stress fiber",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005634",
+              "xref_name": "nucleus",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005654",
+              "xref_name": "nucleoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005856",
+              "xref_name": "cytoskeleton",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005912",
+              "xref_name": "adherens junction",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005925",
+              "xref_name": "focal adhesion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005938",
+              "xref_name": "cell cortex",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009898",
+              "xref_name": "cytoplasmic side of plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009986",
+              "xref_name": "cell surface",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0030054",
+              "xref_name": "cell junction",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031258",
+              "xref_name": "lamellipodium membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0031674",
+              "xref_name": "I band",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0042995",
+              "xref_name": "cell projection",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070161",
+              "xref_name": "anchoring junction",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0003779",
+              "xref_name": "actin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005178",
+              "xref_name": "integrin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005547",
+              "xref_name": "phosphatidylinositol-3,4,5-trisphosphate binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008289",
+              "xref_name": "lipid binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019901",
+              "xref_name": "protein kinase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0034713",
+              "xref_name": "type I transforming growth factor beta receptor binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046332",
+              "xref_name": "SMAD binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0051015",
+              "xref_name": "actin filament binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0120283",
+              "xref_name": "protein serine/threonine kinase binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0007155",
+              "xref_name": "cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007160",
+              "xref_name": "cell-matrix adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007179",
+              "xref_name": "transforming growth factor beta receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007229",
+              "xref_name": "integrin-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008360",
+              "xref_name": "regulation of cell shape",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010718",
+              "xref_name": "positive regulation of epithelial to mesenchymal transition",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0016055",
+              "xref_name": "Wnt signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0022604",
+              "xref_name": "regulation of cell morphogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030335",
+              "xref_name": "positive regulation of cell migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033622",
+              "xref_name": "integrin activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0033625",
+              "xref_name": "positive regulation of integrin activation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034334",
+              "xref_name": "adherens junction maintenance",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0034446",
+              "xref_name": "substrate adhesion-dependent cell spreading",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0035025",
+              "xref_name": "positive regulation of Rho protein signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0043116",
+              "xref_name": "negative regulation of vascular permeability",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045599",
+              "xref_name": "negative regulation of fat cell differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045669",
+              "xref_name": "positive regulation of osteoblast differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0048041",
+              "xref_name": "focal adhesion assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051496",
+              "xref_name": "positive regulation of stress fiber assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051894",
+              "xref_name": "positive regulation of focal adhesion assembly",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051897",
+              "xref_name": "positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060173",
+              "xref_name": "limb development",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070374",
+              "xref_name": "positive regulation of ERK1 and ERK2 cascade",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0072657",
+              "xref_name": "protein localization to membrane",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1900026",
+              "xref_name": "positive regulation of substrate adhesion-dependent cell spreading",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1900182",
+              "xref_name": "positive regulation of protein localization to nucleus",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1902414",
+              "xref_name": "protein localization to cell junction",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1902462",
+              "xref_name": "positive regulation of mesenchymal stem cell proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1903691",
+              "xref_name": "positive regulation of wound healing, spreading of epidermal cells",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:15767",
+              "xref_name": "FERMT2",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "Q96AC1",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR001849",
+              "xref_name": "PH_domain",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR011993",
+              "xref_name": "PH-like_dom_sf",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR019748",
+              "xref_name": "FERM_central",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR019749",
+              "xref_name": "Band_41_domain",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR035963",
+              "xref_name": "FERM_2",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR037837",
+              "xref_name": "PH_Kindlin/fermitin",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR037843",
+              "xref_name": "Kindlin/fermitin",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR040790",
+              "xref_name": "Kindlin_2_N",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR16160",
+              "xref_name": "FERMITIN 2-RELATED",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR16160:SF11",
+              "xref_name": "FERMITIN FAMILY HOMOLOG 2",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "2LGX",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2LKO",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "2MSU",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4F7H",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6U4N",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "6XTJ",
+              "xref_name": null,
+              "xref_src_db": "PDB"
+            },
+            {
+              "xref_id": "4F7H",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "6XTJ",
+              "xref_name": "A",
+              "xref_src_db": "PDBe"
+            },
+            {
+              "xref_id": "PF00373",
+              "xref_name": "FERM_M",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PF18124",
+              "xref_name": "Kindlin_2_N",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA162388349",
+              "xref_name": "FERM domain containing kindlin 2",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "Q96AC1",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-446353",
+              "xref_name": "Cell-extracellular matrix interactions",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9013149",
+              "xref_name": "RAC1 GTPase cycle",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9013423",
+              "xref_name": "RAC3 GTPase cycle",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "B5TJY2",
+              "xref_name": "Fermitin family homolog 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q14840",
+              "xref_name": "Fermitin family homolog 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q86TY7",
+              "xref_name": "Fermitin family homolog 2",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q96AC1",
+              "xref_name": "Fermitin family homolog 2",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

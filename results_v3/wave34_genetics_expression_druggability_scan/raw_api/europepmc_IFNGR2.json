@@ -1,0 +1,56 @@
+{
+  "payload": {
+    "hitCount": 1354,
+    "nextCursorMark": "AoIIQUAGOyg1NDEyNDE0Ng==",
+    "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=IFNGR2 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)&cursorMark=AoIIQUAGOyg1NDEyNDE0Ng==&resultType=lite&pageSize=1&format=json",
+    "request": {
+      "cursorMark": "*",
+      "pageSize": 1,
+      "queryString": "IFNGR2 AND (\"multiple sclerosis\" OR \"rheumatoid arthritis\" OR lupus OR Crohn OR \"ulcerative colitis\" OR psoriasis OR \"type 1 diabetes\" OR autoimmune)",
+      "resultType": "lite",
+      "sort": "",
+      "synonym": false
+    },
+    "resultList": {
+      "result": [
+        {
+          "authorString": "Mihaescu G, Gradisteanu Pircalabioru G, Roznovan CN, Ditu LM, Comanici MM, Savu O.",
+          "citedByCount": 2,
+          "doi": "10.3390/biomedicines13102472",
+          "firstIndexDate": "2025-10-29",
+          "firstPublicationDate": "2025-10-11",
+          "fullTextIdList": {
+            "fullTextId": [
+              "PMC12561355"
+            ]
+          },
+          "hasBook": "N",
+          "hasDbCrossReferences": "N",
+          "hasLabsLinks": "N",
+          "hasPDF": "Y",
+          "hasReferences": "Y",
+          "hasSuppl": "N",
+          "hasTMAccessionNumbers": "N",
+          "hasTextMinedTerms": "Y",
+          "id": "41153754",
+          "inEPMC": "Y",
+          "inPMC": "Y",
+          "isOpenAccess": "Y",
+          "issue": "10",
+          "journalIssn": "2227-9059",
+          "journalTitle": "Biomedicines",
+          "journalVolume": "13",
+          "pageInfo": "2472",
+          "pmcid": "PMC12561355",
+          "pmid": "41153754",
+          "pubType": "review-article; review; journal article",
+          "pubYear": "2025",
+          "source": "MED",
+          "title": "Interferons in Autoimmunity: From Loss of Tolerance to Chronic Inflammation."
+        }
+      ]
+    },
+    "version": "6.9"
+  },
+  "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=IFNGR2+AND+%28%22multiple+sclerosis%22+OR+%22rheumatoid+arthritis%22+OR+lupus+OR+Crohn+OR+%22ulcerative+colitis%22+OR+psoriasis+OR+%22type+1+diabetes%22+OR+autoimmune%29&format=json&pageSize=1"
+}

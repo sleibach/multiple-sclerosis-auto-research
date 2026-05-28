@@ -1,0 +1,26 @@
+{
+  "call_counts": {
+    "GENE_LEVEL_ANTITNF_NONRESPONSE_ANCHOR": 16,
+    "NO_GENE_LEVEL_CONVERGENCE": 20,
+    "PARK_DIRECTIONAL_NONRESPONSE_GENE": 9
+  },
+  "n_genes_tested": 45,
+  "overlap_control_contexts": [
+    "GSE16879_Crohn_all_Leuven_baseline",
+    "GSE16879_UC_Leuven_baseline",
+    "GSE16879_all_IBD_Leuven_baseline"
+  ],
+  "primary_contexts": [
+    "GSE12251_UC_ACT1_baseline",
+    "GSE14580_UC_Leuven_baseline",
+    "GSE16879_Crohn_colitis_Leuven_baseline",
+    "GSE16879_Crohn_ileitis_Leuven_baseline"
+  ],
+  "seed": 20260527,
+  "top_gene": "IL1B",
+  "wave85_inputs_reused": {
+    "gpl570_annotation": "data/raw_v3/wave84_external_geo/GPL570.annot.gz",
+    "raw_dir": "data/raw_v3/wave84_external_geo",
+    "wave85_output": "results_v3/wave85_external_geo_antitnf_validation"
+  }
+}

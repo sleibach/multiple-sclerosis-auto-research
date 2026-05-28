@@ -1,0 +1,30 @@
+{
+  "error": "",
+  "payload": {
+    "data": [
+      {
+        "chromosome": "chr19",
+        "datasetId": "gtex_v8",
+        "gencodeId": "ENSG00000105397.13",
+        "geneSymbol": "TYK2",
+        "geneSymbolUpper": "TYK2",
+        "nes": 0.0550734,
+        "ontologyId": "UBERON:0013756",
+        "pValue": 5.95582e-05,
+        "pos": 10281040,
+        "snpId": "rs368084345",
+        "snpIdUpper": "RS368084345",
+        "tissueSiteDetailId": "Whole_Blood",
+        "variantId": "chr19_10281040_A_AT_b38"
+      }
+    ],
+    "paging_info": {
+      "maxItemsPerPage": 1,
+      "numberOfPages": 110,
+      "page": 0,
+      "totalNumberOfItems": 110
+    }
+  },
+  "status": "ok",
+  "url": "https://gtexportal.org/api/v2/association/singleTissueEqtl?gencodeId=ENSG00000105397.13&tissueSiteDetailId=Whole_Blood&datasetId=gtex_v8&itemsPerPage=1"
+}

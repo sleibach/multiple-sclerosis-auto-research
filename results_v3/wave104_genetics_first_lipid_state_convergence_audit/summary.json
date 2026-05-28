@@ -1,0 +1,32 @@
+{
+  "branch_call": "NO_PROMOTABLE_TARGET_BUT_DISPATCH_GENETICS_STATE_SIDECARS",
+  "call_counts": {
+    "NO_GO_NO_MS_GENETIC_ANCHOR": 1913,
+    "PARK_GENETICS_FIRST_NO_LIPID_STATE_CONVERGENCE": 55,
+    "PARK_GENETICS_STATE_DIRECTION_NO_MODALITY": 1,
+    "PARK_GENETICS_STATE_NEEDS_DIRECTION_OR_MODALITY": 4,
+    "PARK_MS_GENETICS_NARROW_OR_WEAK": 55
+  },
+  "inputs": {
+    "broad": "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv",
+    "residual": "results_v3/broad_residual_gate/broad_residual_gate_summary.tsv",
+    "wave103": "results_v3/wave103_intervention_first_successor_triage/intervention_first_successor_rank.tsv",
+    "wave37": "results_v3/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv",
+    "wave57": "results_v3/wave57_intervention_first_geneformer_screen/wave57_intervention_first_candidate_calls.tsv",
+    "wave62": "results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv",
+    "wave81": "results_v3/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv",
+    "wave83": "results_v3/wave83_intervention_class_first_scan/reachable_intervention_rank.tsv",
+    "wave91": "results_v3/wave91_lipid_lysosomal_module_intervention_rank/lipid_lysosomal_intervention_rank.tsv",
+    "wave94": "results_v3/wave94_accessible_state_rerank/accessible_state_candidate_rank.tsv"
+  },
+  "n_ranked": 2028,
+  "reopen_genes": [],
+  "seed": 20260527,
+  "sidecar_recommendation_genes": [
+    "IFI30",
+    "IL7R",
+    "SP140",
+    "GALC",
+    "CD58"
+  ]
+}

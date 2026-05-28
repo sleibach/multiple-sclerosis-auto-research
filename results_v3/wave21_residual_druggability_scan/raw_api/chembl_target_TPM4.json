@@ -1,0 +1,277 @@
+{
+  "_request_url": "https://www.ebi.ac.uk/chembl/api/data/target/search.json?q=TPM4&limit=10",
+  "_status_code": 200,
+  "page_meta": {
+    "limit": 10,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Homo sapiens",
+      "pref_name": "Tropomyosin alpha-4 chain",
+      "score": 20.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL4295789",
+      "target_components": [
+        {
+          "accession": "P67936",
+          "component_description": "Tropomyosin alpha-4 chain",
+          "component_id": 18209,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "TM30p1",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "TPM4",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Tropomyosin-4",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Tropomyosin alpha-4 chain",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "P67936",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "P67936",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "GO:0001725",
+              "xref_name": "stress fiber",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005737",
+              "xref_name": "cytoplasm",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005829",
+              "xref_name": "cytosol",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005856",
+              "xref_name": "cytoskeleton",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005862",
+              "xref_name": "muscle thin filament tropomyosin",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005884",
+              "xref_name": "actin filament",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005925",
+              "xref_name": "focal adhesion",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0030863",
+              "xref_name": "cortical cytoskeleton",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0070062",
+              "xref_name": "extracellular exosome",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0003779",
+              "xref_name": "actin binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005509",
+              "xref_name": "calcium ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0005515",
+              "xref_name": "protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0008307",
+              "xref_name": "structural constituent of muscle",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042802",
+              "xref_name": "identical protein binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0042803",
+              "xref_name": "protein homodimerization activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046872",
+              "xref_name": "metal ion binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0046982",
+              "xref_name": "protein heterodimerization activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0051015",
+              "xref_name": "actin filament binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001649",
+              "xref_name": "osteoblast differentiation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030220",
+              "xref_name": "platelet formation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "HGNC:12013",
+              "xref_name": "TPM4",
+              "xref_src_db": "HGNC"
+            },
+            {
+              "xref_id": "P67936",
+              "xref_name": null,
+              "xref_src_db": "IntAct"
+            },
+            {
+              "xref_id": "IPR000533",
+              "xref_name": "Tropomyosin",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR014751",
+              "xref_name": "XRCC4-like_C",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR19269",
+              "xref_name": "TROPOMYOSIN",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00261",
+              "xref_name": "Tropomyosin",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA36693",
+              "xref_name": "tropomyosin 4",
+              "xref_src_db": "PharmGKB"
+            },
+            {
+              "xref_id": "P67936",
+              "xref_name": null,
+              "xref_src_db": "Pharos"
+            },
+            {
+              "xref_id": "R-HSA-390522",
+              "xref_name": "Striated Muscle Contraction",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-445355",
+              "xref_name": "Smooth Muscle Contraction",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9013424",
+              "xref_name": "RHOV GTPase cycle",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-HSA-9725370",
+              "xref_name": "Signaling by ALK fusions and activated point mutants",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "P07226",
+              "xref_name": "Tropomyosin alpha-4 chain",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "P67936",
+              "xref_name": "Tropomyosin alpha-4 chain",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q15659",
+              "xref_name": "Tropomyosin alpha-4 chain",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q5U0D9",
+              "xref_name": "Tropomyosin alpha-4 chain",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9BU85",
+              "xref_name": "Tropomyosin alpha-4 chain",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9H8Q3",
+              "xref_name": "Tropomyosin alpha-4 chain",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UCS1",
+              "xref_name": "Tropomyosin alpha-4 chain",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UCS2",
+              "xref_name": "Tropomyosin alpha-4 chain",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UCS3",
+              "xref_name": "Tropomyosin alpha-4 chain",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9UCS4",
+              "xref_name": "Tropomyosin alpha-4 chain",
+              "xref_src_db": "UniProt"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9606
+    }
+  ]
+}

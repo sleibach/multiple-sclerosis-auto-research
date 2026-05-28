@@ -1,0 +1,31 @@
+{
+  "esearchresult": {
+    "count": "55",
+    "idlist": [
+      "41800033",
+      "41311648",
+      "39384643"
+    ],
+    "querytranslation": "(\"lilrb1 protein human\"[Supplementary Concept] OR \"lilrb1 protein human\"[All Fields] OR \"lilrb1\"[All Fields] OR \"leukocyte immunoglobulin like receptor b1\"[Supplementary Concept] OR \"leukocyte immunoglobulin like receptor b1\"[All Fields] OR \"leukocyte immunoglobulin like receptor b1\"[MeSH Terms] OR (\"leukocyte\"[All Fields] AND \"immunoglobulin like\"[All Fields] AND \"receptor\"[All Fields] AND \"b1\"[All Fields]) OR \"ILT2\"[All Fields] OR (\"lilrb1 protein human\"[Supplementary Concept] OR \"lilrb1 protein human\"[All Fields] OR \"cd85j\"[All Fields])) AND (\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields])",
+    "retmax": "3",
+    "retstart": "0",
+    "translationset": [
+      {
+        "from": "LILRB1",
+        "to": "\"lilrb1 protein, human\"[Supplementary Concept] OR \"lilrb1 protein, human\"[All Fields] OR \"lilrb1\"[All Fields] OR \"leukocyte immunoglobulin-like receptor b1\"[Supplementary Concept] OR \"leukocyte immunoglobulin-like receptor b1\"[All Fields] OR \"leukocyte immunoglobulin-like receptor b1\"[MeSH Terms] OR (\"leukocyte\"[All Fields] AND \"immunoglobulin-like\"[All Fields] AND \"receptor\"[All Fields] AND \"b1\"[All Fields])"
+      },
+      {
+        "from": "CD85J",
+        "to": "\"lilrb1 protein, human\"[Supplementary Concept] OR \"lilrb1 protein, human\"[All Fields] OR \"cd85j\"[All Fields]"
+      },
+      {
+        "from": "autoimmune",
+        "to": "\"autoimmune\"[All Fields] OR \"autoimmunity\"[MeSH Terms] OR \"autoimmunity\"[All Fields] OR \"autoimmunities\"[All Fields] OR \"autoimmunization\"[All Fields] OR \"autoimmunizing\"[All Fields]"
+      }
+    ]
+  },
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  }
+}

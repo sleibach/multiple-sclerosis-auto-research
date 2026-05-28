@@ -1,0 +1,220 @@
+{
+  "json": {
+    "esearchresult": {
+      "count": "0",
+      "idlist": [],
+      "querytranslation": "FXYD5[All Fields] AND (knockdown[All Fields] OR knockout[All Fields] OR knock-out[All Fields] OR CRISPR[All Fields] OR (\"rna, small interfering\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR siRNA[All Fields]) OR (\"rna, small interfering\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR shRNA[All Fields]) OR overexpression[All Fields] OR perturbation[All Fields]) AND (immune[All Fields] OR (\"macrophages\"[MeSH Terms] OR macrophage[All Fields]) OR (\"monocytes\"[MeSH Terms] OR monocyte[All Fields]) OR stromal[All Fields] OR epithelial[All Fields] OR autoimmune[All Fields] OR (\"inflammation\"[MeSH Terms] OR inflammation[All Fields]) OR inflammatory[All Fields])",
+      "retmax": "0",
+      "retstart": "0",
+      "translationset": [
+        {
+          "from": "CRISPR",
+          "to": "CRISPR[All Fields]"
+        },
+        {
+          "from": "siRNA",
+          "to": "\"rna, small interfering\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR siRNA[All Fields]"
+        },
+        {
+          "from": "shRNA",
+          "to": "\"rna, small interfering\"[All Fields] OR \"rna, small interfering\"[MeSH Terms] OR shRNA[All Fields]"
+        },
+        {
+          "from": "macrophage",
+          "to": "\"macrophages\"[MeSH Terms] OR macrophage[All Fields]"
+        },
+        {
+          "from": "monocyte",
+          "to": "\"monocytes\"[MeSH Terms] OR monocyte[All Fields]"
+        },
+        {
+          "from": "inflammation",
+          "to": "\"inflammation\"[MeSH Terms] OR inflammation[All Fields]"
+        }
+      ],
+      "translationstack": [
+        {
+          "count": "3458",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "FXYD5[All Fields]"
+        },
+        {
+          "count": "84631",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "knockdown[All Fields]"
+        },
+        {
+          "count": "128483",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "knockout[All Fields]"
+        },
+        "OR",
+        {
+          "count": "26896",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "knock-out[All Fields]"
+        },
+        "OR",
+        {
+          "count": "55911",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "CRISPR[All Fields]"
+        },
+        "OR",
+        {
+          "count": "84043",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "\"rna, small interfering\"[All Fields]"
+        },
+        {
+          "count": "84043",
+          "explode": "Y",
+          "field": "MeSH Terms",
+          "term": "\"rna, small interfering\"[MeSH Terms]"
+        },
+        "OR",
+        {
+          "count": "83983",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "siRNA[All Fields]"
+        },
+        "OR",
+        "GROUP",
+        "OR",
+        {
+          "count": "84043",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "\"rna, small interfering\"[All Fields]"
+        },
+        {
+          "count": "84043",
+          "explode": "Y",
+          "field": "MeSH Terms",
+          "term": "\"rna, small interfering\"[MeSH Terms]"
+        },
+        "OR",
+        {
+          "count": "64825",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "shRNA[All Fields]"
+        },
+        "OR",
+        "GROUP",
+        "OR",
+        {
+          "count": "53056",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "overexpression[All Fields]"
+        },
+        "OR",
+        {
+          "count": "14889",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "perturbation[All Fields]"
+        },
+        "OR",
+        "GROUP",
+        "AND",
+        {
+          "count": "73813",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "immune[All Fields]"
+        },
+        {
+          "count": "127612",
+          "explode": "Y",
+          "field": "MeSH Terms",
+          "term": "\"macrophages\"[MeSH Terms]"
+        },
+        {
+          "count": "70087",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "macrophage[All Fields]"
+        },
+        "OR",
+        "GROUP",
+        "OR",
+        {
+          "count": "115661",
+          "explode": "Y",
+          "field": "MeSH Terms",
+          "term": "\"monocytes\"[MeSH Terms]"
+        },
+        {
+          "count": "65264",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "monocyte[All Fields]"
+        },
+        "OR",
+        "GROUP",
+        "OR",
+        {
+          "count": "36639",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "stromal[All Fields]"
+        },
+        "OR",
+        {
+          "count": "175509",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "epithelial[All Fields]"
+        },
+        "OR",
+        {
+          "count": "7795",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "autoimmune[All Fields]"
+        },
+        "OR",
+        {
+          "count": "48621",
+          "explode": "Y",
+          "field": "MeSH Terms",
+          "term": "\"inflammation\"[MeSH Terms]"
+        },
+        {
+          "count": "27455",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "inflammation[All Fields]"
+        },
+        "OR",
+        "GROUP",
+        "OR",
+        {
+          "count": "42151",
+          "explode": "N",
+          "field": "All Fields",
+          "term": "inflammatory[All Fields]"
+        },
+        "OR",
+        "GROUP",
+        "AND"
+      ]
+    },
+    "header": {
+      "type": "esearch",
+      "version": "0.3"
+    }
+  },
+  "status": 200,
+  "text": null,
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=FXYD5%5BAll+Fields%5D+AND+%28knockdown+OR+knockout+OR+knock-out+OR+CRISPR+OR+siRNA+OR+shRNA+OR+overexpression+OR+perturbation%29+AND+%28immune+OR+macrophage+OR+monocyte+OR+stromal+OR+epithelial+OR+autoimmune+OR+inflammation+OR+inflammatory%29&retmode=json&retmax=5"
+}

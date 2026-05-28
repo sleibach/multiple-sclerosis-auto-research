@@ -1,0 +1,718 @@
+{
+  "page_meta": {
+    "limit": 3,
+    "next": "/chembl/api/data/target/search.json?limit=3&offset=3&q=CXCR3",
+    "offset": 0,
+    "previous": null,
+    "total_count": 5
+  },
+  "targets": [
+    {
+      "cross_references": [],
+      "organism": "Mus musculus",
+      "pref_name": "C-X-C chemokine receptor type 3",
+      "score": 18.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL5200",
+      "target_components": [
+        {
+          "accession": "O88410",
+          "component_description": "C-X-C chemokine receptor type 3",
+          "component_id": 3501,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "CD_antigen=CD183",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Cmkar3",
+              "syn_type": "GENE_SYMBOL_OTHER"
+            },
+            {
+              "component_synonym": "C-X-C chemokine receptor type 3",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Cxcr3",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "CXC-R3",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CXCR-3",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Interferon-inducible protein 10 receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "IP-10 receptor",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0004930",
+              "xref_name": "G protein-coupled receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016494",
+              "xref_name": "C-X-C chemokine receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019956",
+              "xref_name": "chemokine binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019958",
+              "xref_name": "C-X-C chemokine binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0038023",
+              "xref_name": "signaling receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001525",
+              "xref_name": "angiogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002685",
+              "xref_name": "regulation of leukocyte migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006935",
+              "xref_name": "chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007166",
+              "xref_name": "cell surface receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007186",
+              "xref_name": "G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008284",
+              "xref_name": "positive regulation of cell population proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030155",
+              "xref_name": "regulation of cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045766",
+              "xref_name": "positive regulation of angiogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050921",
+              "xref_name": "positive regulation of chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051281",
+              "xref_name": "positive regulation of release of sequestered calcium ion into cytosol",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070098",
+              "xref_name": "chemokine-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1900118",
+              "xref_name": "negative regulation of execution phase of apoptosis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009897",
+              "xref_name": "external side of plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009986",
+              "xref_name": "cell surface",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "Q4V9Y6",
+              "xref_name": "C-X-C chemokine receptor type 3",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9QWN6",
+              "xref_name": "C-X-C chemokine receptor type 3",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O88410",
+              "xref_name": "C-X-C chemokine receptor type 3",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "O88410",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "R-MMU-380108",
+              "xref_name": "Chemokine receptors bind chemokines",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-MMU-418594",
+              "xref_name": "G alpha (i) signalling events",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "IPR050119",
+              "xref_name": "CCR1-9-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR004070",
+              "xref_name": "Chemokine_CXCR3",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR000355",
+              "xref_name": "Chemokine_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR000276",
+              "xref_name": "GPCR_Rhodpsn",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR017452",
+              "xref_name": "GPCR_Rhodpsn_7TM",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10489:SF671",
+              "xref_name": "C-X-C CHEMOKINE RECEPTOR TYPE 3",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10489",
+              "xref_name": "CELL ADHESION MOLECULE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00001",
+              "xref_name": "7tm_1",
+              "xref_src_db": "Pfam"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 10090
+    },
+    {
+      "cross_references": [],
+      "organism": "Rattus norvegicus",
+      "pref_name": "C-X-C chemokine receptor type 3",
+      "score": 18.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL1075172",
+      "target_components": [
+        {
+          "accession": "Q9JII9",
+          "component_description": "C-X-C chemokine receptor type 3",
+          "component_id": 4292,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "CD_antigen=CD183",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "C-X-C chemokine receptor type 3",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Cxcr3",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "CXC-R3",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CXCR-3",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "Interferon-inducible protein 10 receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "IP-10 receptor",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0004930",
+              "xref_name": "G protein-coupled receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016493",
+              "xref_name": "C-C chemokine receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016494",
+              "xref_name": "C-X-C chemokine receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019956",
+              "xref_name": "chemokine binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019957",
+              "xref_name": "C-C chemokine binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019958",
+              "xref_name": "C-X-C chemokine binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0038023",
+              "xref_name": "signaling receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001525",
+              "xref_name": "angiogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002685",
+              "xref_name": "regulation of leukocyte migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006935",
+              "xref_name": "chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006955",
+              "xref_name": "immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007166",
+              "xref_name": "cell surface receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007186",
+              "xref_name": "G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007204",
+              "xref_name": "positive regulation of cytosolic calcium ion concentration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008284",
+              "xref_name": "positive regulation of cell population proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0010818",
+              "xref_name": "T cell chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0019722",
+              "xref_name": "calcium-mediated signaling",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0030155",
+              "xref_name": "regulation of cell adhesion",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045766",
+              "xref_name": "positive regulation of angiogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050921",
+              "xref_name": "positive regulation of chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051281",
+              "xref_name": "positive regulation of release of sequestered calcium ion into cytosol",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060326",
+              "xref_name": "cell chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070098",
+              "xref_name": "chemokine-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1900118",
+              "xref_name": "negative regulation of execution phase of apoptosis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009897",
+              "xref_name": "external side of plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0009986",
+              "xref_name": "cell surface",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "Q9JII9",
+              "xref_name": "C-X-C chemokine receptor type 3",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q9JII9",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "R-RNO-380108",
+              "xref_name": "Chemokine receptors bind chemokines",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "R-RNO-418594",
+              "xref_name": "G alpha (i) signalling events",
+              "xref_src_db": "Reactome"
+            },
+            {
+              "xref_id": "Q9JII9",
+              "xref_name": null,
+              "xref_src_db": "ExpressionAtlas"
+            },
+            {
+              "xref_id": "IPR050119",
+              "xref_name": "CCR1-9-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR004070",
+              "xref_name": "Chemokine_CXCR3",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR000355",
+              "xref_name": "Chemokine_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR000276",
+              "xref_name": "GPCR_Rhodpsn",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR017452",
+              "xref_name": "GPCR_Rhodpsn_7TM",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10489:SF671",
+              "xref_name": "C-X-C CHEMOKINE RECEPTOR TYPE 3",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10489",
+              "xref_name": "CELL ADHESION MOLECULE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00001",
+              "xref_name": "7tm_1",
+              "xref_src_db": "Pfam"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 10116
+    },
+    {
+      "cross_references": [],
+      "organism": "Canis lupus familiaris",
+      "pref_name": "C-X-C chemokine receptor type 3",
+      "score": 18.0,
+      "species_group_flag": false,
+      "target_chembl_id": "CHEMBL1075194",
+      "target_components": [
+        {
+          "accession": "Q5KSK8",
+          "component_description": "C-X-C chemokine receptor type 3",
+          "component_id": 4354,
+          "component_type": "PROTEIN",
+          "relationship": "SINGLE PROTEIN",
+          "target_component_synonyms": [
+            {
+              "component_synonym": "CD_antigen=CD183",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "C-X-C chemokine receptor type 3",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CXC-R3",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CXCR-3",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "CXCR3",
+              "syn_type": "GENE_SYMBOL"
+            },
+            {
+              "component_synonym": "Interferon-inducible protein 10 receptor",
+              "syn_type": "UNIPROT"
+            },
+            {
+              "component_synonym": "IP-10 receptor",
+              "syn_type": "UNIPROT"
+            }
+          ],
+          "target_component_xrefs": [
+            {
+              "xref_id": "GO:0004930",
+              "xref_name": "G protein-coupled receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016493",
+              "xref_name": "C-C chemokine receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0016494",
+              "xref_name": "C-X-C chemokine receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019957",
+              "xref_name": "C-C chemokine binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0019958",
+              "xref_name": "C-X-C chemokine binding",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0038023",
+              "xref_name": "signaling receptor activity",
+              "xref_src_db": "GoFunction"
+            },
+            {
+              "xref_id": "GO:0001525",
+              "xref_name": "angiogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0002685",
+              "xref_name": "regulation of leukocyte migration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006935",
+              "xref_name": "chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0006955",
+              "xref_name": "immune response",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007186",
+              "xref_name": "G protein-coupled receptor signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0007204",
+              "xref_name": "positive regulation of cytosolic calcium ion concentration",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0008284",
+              "xref_name": "positive regulation of cell population proliferation",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0019722",
+              "xref_name": "calcium-mediated signaling",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0045766",
+              "xref_name": "positive regulation of angiogenesis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0050921",
+              "xref_name": "positive regulation of chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0051281",
+              "xref_name": "positive regulation of release of sequestered calcium ion into cytosol",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0060326",
+              "xref_name": "cell chemotaxis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0070098",
+              "xref_name": "chemokine-mediated signaling pathway",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:1900118",
+              "xref_name": "negative regulation of execution phase of apoptosis",
+              "xref_src_db": "GoProcess"
+            },
+            {
+              "xref_id": "GO:0009897",
+              "xref_name": "external side of plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0005886",
+              "xref_name": "plasma membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "GO:0016020",
+              "xref_name": "membrane",
+              "xref_src_db": "GoComponent"
+            },
+            {
+              "xref_id": "Q5KSK8",
+              "xref_name": "C-X-C chemokine receptor type 3",
+              "xref_src_db": "UniProt"
+            },
+            {
+              "xref_id": "Q5KSK8",
+              "xref_name": null,
+              "xref_src_db": "AlphaFoldDB"
+            },
+            {
+              "xref_id": "IPR050119",
+              "xref_name": "CCR1-9-like",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR004070",
+              "xref_name": "Chemokine_CXCR3",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR000355",
+              "xref_name": "Chemokine_rcpt",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR000276",
+              "xref_name": "GPCR_Rhodpsn",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "IPR017452",
+              "xref_name": "GPCR_Rhodpsn_7TM",
+              "xref_src_db": "InterPro"
+            },
+            {
+              "xref_id": "PTHR10489:SF671",
+              "xref_name": "C-X-C CHEMOKINE RECEPTOR TYPE 3",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PTHR10489",
+              "xref_name": "CELL ADHESION MOLECULE",
+              "xref_src_db": "PANTHER"
+            },
+            {
+              "xref_id": "PF00001",
+              "xref_name": "7tm_1",
+              "xref_src_db": "Pfam"
+            },
+            {
+              "xref_id": "PA35049",
+              "xref_name": "C-X-C motif chemokine receptor 3",
+              "xref_src_db": "PharmGKB"
+            }
+          ]
+        }
+      ],
+      "target_type": "SINGLE PROTEIN",
+      "tax_id": 9615
+    }
+  ]
+}
