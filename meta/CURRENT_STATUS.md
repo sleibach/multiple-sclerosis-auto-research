@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-02 12:15 CEST
+Last updated: 2026-06-02 12:52 CEST
 
 ## Mission State
 
@@ -26,9 +26,11 @@ V10:
 - `DISAGREEMENT_MATRIX_V10.md`
 - `DISAGREEMENT_RESOLUTION_V10.md`
 - `SJOGREN_SPLIT_AUDIT_V10.md`
+- `RA_PREGNANCY_TREATMENT_DECOUPLING_V10.md`
 - `TRANSFER_VALIDITY_MAP_V10.md`
 - `AXIS_DISAGREEMENT_FINDINGS_V10.md`
 - `CONVERGENCE_CHECK_V10_01.md`
+- `CONVERGENCE_CHECK_V10_02.md`
 - `analysis/v10_disagreement/disagreement_pairs.tsv`
 - `analysis/v10_disagreement/artifact_audit.tsv`
 
@@ -77,6 +79,15 @@ Important downgraded hypothesis:
   mucosal IFN/APC downshift repeatedly tracks response. This is a dynamic
   biomarker hypothesis, not a resolved MS mechanism.
 
+Second V10 biological candidate:
+
+- **RA pregnancy/postpartum versus blood APC/treatment decoupling.**
+- RA blood APC state and RA anti-TNF blood response rules are negative or fail,
+  but seropositive RA pregnancy data show late-pregnancy trough and postpartum
+  rebound in MIF/CD74, HLA-II, IFN/APC, and lysosomal/APC modules.
+- MS implication: RA is useful as a pregnancy/postpartum timing comparator, but
+  not as a positive comparator for blood APC treatment-response biomarkers.
+
 V9 microbiome result still stands:
 
 - MS has primary-data stool microbiome shifts in one processed cohort.
@@ -87,10 +98,10 @@ V9 microbiome result still stands:
 
 ## Highest-Value Next Actions
 
-1. Resolve the RA pregnancy-near versus APC/treatment-far disagreement with a
-   matched signature audit if data exists.
-2. Attempt independent Sjogren salivary dataset replication or matched
+1. Attempt independent Sjogren salivary dataset replication or matched
    cell-type residualization for the IFN/APC versus lipid-lysosomal split.
+2. Search for composition-adjusted RA/MS pregnancy datasets with monocyte/APC
+   resolution and clinical activity timecourses.
 3. Rebuild UC tissue-repair axis with independent repair endpoints before using
    it as an independent disagreement axis.
 4. If genetics access becomes available, run harmonized LDSC/HDL with MHC

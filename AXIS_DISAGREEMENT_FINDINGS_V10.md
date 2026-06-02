@@ -21,6 +21,11 @@ The strongest UC-derived hypothesis remains important but downgraded:
 > In UC treatment datasets, baseline mucosal IFN/APC height fails as a response
 > predictor while early mucosal IFN/APC downshift repeatedly tracks response.
 
+The strongest RA-derived hypothesis is:
+
+> RA shares with MS a pregnancy/postpartum immune-kinetic axis while remaining
+> far from MS on blood APC treatment-response architecture.
+
 ## Evidence Chain: Sjogren Split
 
 ### Axis 1: Sjogren Is Near MS On IFN/APC Antigen-Presentation
@@ -171,6 +176,64 @@ Interpretation:
 - The APC plasticity rule is compartment and disease-axis specific. RA blood is
   a negative comparator for transferring IBD mucosal or MS compartmental APC
   response biomarkers.
+
+## Evidence Chain: RA Pregnancy/Treatment Decoupling
+
+### Axis 1: RA Is Far From MS On Blood APC State And Treatment Response
+
+V8/V7 evidence:
+
+- RA blood `mixscale_validated_ifng_readout`: delta `-0.0178`, Hedges g
+  `-0.182`, p `0.580`, FDR `0.686`, n `18` RA and `18` controls.
+- RA blood `ifn_apc`: delta `-0.0460`, Hedges g `-0.249`, p `0.450`, FDR
+  `0.572`.
+- `GSE12051` RA baseline blood IFN/APC response rule: AUC `0.382`, Hedges g
+  `-0.339`, n `44`.
+- `GSE138746_CD14` RA anti-TNF baseline CD14 monocytes: AUC `0.485`, Hedges g
+  `-0.099`, n `78`.
+- `GSE8350` RA infliximab 2-week blood `-delta_IFN_APC`: AUC `0.450`, Hedges g
+  `-0.356`, n `18`.
+
+Interpretation:
+
+- RA blood does not reproduce the MS/IBD APC-state proximity or the IBD dynamic
+  IFN/APC response-monitoring behavior.
+
+### Axis 2: RA Is Near MS On Pregnancy/Postpartum Immune Kinetics
+
+GSE235508 seropositive RA timecourse:
+
+- `mif_cd74_receptor_state`: late pregnancy T3 - early T1 `-0.642`; 6wk
+  postpartum T4 - T3 `0.526`; 6mo postpartum T5 - T3 `0.781`; later
+  postpartum T6 - T3 `1.162`.
+- `hla_ii_only`: T3 - T1 `-0.646`; T4 - T3 `0.493`; T5 - T3 `0.844`; T6 - T3
+  `1.394`.
+- `ifn_apc`: T3 - T1 `-0.551`; T4 - T3 `0.137`; T5 - T3 `0.651`; T6 - T3
+  `1.267`.
+- `lysosomal_apc`: T3 - T1 `-0.566`; T4 - T3 `0.309`; T5 - T3 `0.496`; T6 -
+  T3 `0.835`.
+
+Interpretation:
+
+- Seropositive RA has a pregnancy trough and postpartum rebound in APC/HLA-II
+  modules.
+- This is a natural-experiment immune-kinetic axis, not the same biological
+  object as anti-TNF treatment response.
+
+### Mechanistic Meaning
+
+The RA disagreement survives as a perturbation-class decoupling candidate:
+
+> Pregnancy/postpartum endocrine-immune kinetics can align RA with MS even when
+> RA blood APC treatment-response architecture does not.
+
+MS implication:
+
+- RA may be useful for postpartum flare timing and rebound hypotheses.
+- RA is not a valid positive comparator for MS APC treatment-response
+  biomarkers based on current blood evidence.
+- The next decisive test is composition-adjusted RA/MS pregnancy data with
+  monocyte/APC resolution and clinical activity timecourses.
 
 ## Mechanistic Hypothesis
 

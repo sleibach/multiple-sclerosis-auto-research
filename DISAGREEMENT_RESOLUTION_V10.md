@@ -13,7 +13,8 @@ Source tables:
 | --- | ---: | --- |
 | Survives first audit as biological candidate | 1 | Sjogren IFN/APC versus lipid-lysosomal split |
 | Biological candidate after reformulation | 1 | UC IFN/APC versus treatment-response |
-| Unresolved biological candidate due compartment/measurement mismatch | 7 | UC genetics/treatment, RA pregnancy contrasts, Sjogren IFN/APC/lipid-lysosomal, Crohn genetics contrasts |
+| Unresolved biological candidate due compartment/measurement mismatch | 6 | UC genetics/treatment, RA pregnancy contrasts, Crohn genetics contrasts |
+| Survives first audit as perturbation-class biological candidate | 1 | RA pregnancy/postpartum near versus blood APC/treatment far |
 | Lower-priority biological candidate | 3 | Crohn genetics versus IFN/APC/treatment/repair |
 | Downgraded due axis non-independence | 1 | UC treatment-response versus tissue-repair |
 
@@ -135,6 +136,26 @@ Artifact audit:
 - IFN/APC evidence is blood myeloid/APC and pregnancy evidence is blood, but
   timing and physiological perturbation differ.
 - Tissue repair includes blood/synovium and is not cleanly matched.
+- V10 RA audit file: `RA_PREGNANCY_TREATMENT_DECOUPLING_V10.md`.
+
+Evidence details:
+
+- RA blood `mixscale_validated_ifng_readout`: delta `-0.0178`, Hedges g
+  `-0.182`, p `0.580`, FDR `0.686`, n `18/18`.
+- RA blood `ifn_apc`: delta `-0.0460`, Hedges g `-0.249`, p `0.450`, FDR
+  `0.572`.
+- `GSE12051` RA baseline blood IFN/APC response rule: AUC `0.382`, Hedges g
+  `-0.339`, n `44`.
+- `GSE138746_CD14` RA anti-TNF CD14 monocytes: AUC `0.485`, Hedges g
+  `-0.099`, n `78`.
+- `GSE8350` RA infliximab 2-week blood `-delta_IFN_APC`: AUC `0.450`, Hedges g
+  `-0.356`, n `18`.
+- GSE235508 seropositive RA pregnancy timecourse shows late-pregnancy trough
+  and postpartum rebound:
+  - `mif_cd74_receptor_state`: T3-T1 `-0.642`; T6-T3 `1.162`.
+  - `hla_ii_only`: T3-T1 `-0.646`; T6-T3 `1.394`.
+  - `ifn_apc`: T3-T1 `-0.551`; T6-T3 `1.267`.
+  - `lysosomal_apc`: T3-T1 `-0.566`; T6-T3 `0.835`.
 
 First-pass interpretation:
 
@@ -156,8 +177,10 @@ Falsifiable prediction:
 
 Status:
 
-- Unresolved biological candidate. Needs matched pregnancy and treatment
-  response signatures in comparable compartments.
+- Tier 1 perturbation-class biological disagreement candidate.
+- Not a therapeutic claim.
+- Needs matched cell-composition-adjusted RA/MS pregnancy/postpartum datasets,
+  ideally with monocyte/APC resolution and clinical activity timecourses.
 
 ## Sjogren IFN/APC Versus Lipid-Lysosomal Split
 
@@ -233,6 +256,13 @@ The strongest current biological disagreement candidate is the Sjogren split:
 
 This is supported by matched local salivary epithelial and APC module contrasts
 summarized in `SJOGREN_SPLIT_AUDIT_V10.md`.
+
+The strongest RA-derived disagreement candidate is:
+
+> RA shares a pregnancy/postpartum immune-kinetic axis with MS but not the
+> blood APC treatment-response architecture tested in V7.
+
+This is supported by `RA_PREGNANCY_TREATMENT_DECOUPLING_V10.md`.
 
 The strongest **UC treatment-dynamics hypothesis** is downgraded:
 

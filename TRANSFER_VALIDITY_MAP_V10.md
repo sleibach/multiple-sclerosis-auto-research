@@ -90,6 +90,9 @@ Stop-loss:
 3. **Pregnancy/hormonal comparator branch**
    - Use RA as a comparator for pregnancy remission/postpartum rebound biology,
      not for APC treatment-response transfer.
+   - The supported RA pattern is a perturbation-class decoupling: seropositive
+     RA shows late-pregnancy APC/HLA-II trough and postpartum rebound, while RA
+     blood anti-TNF APC response rules fail.
 
 4. **MS-specific lesion-rim branch**
    - Sjogren's IFN/APC similarity without lipid-lysosomal similarity reinforces
@@ -105,6 +108,9 @@ Stop-loss:
 - It does not support direct transfer of IBD taxonomic dysbiosis signatures to
   MS.
 - It does not support RA blood treatment-response biomarkers as MS biomarkers.
+- It does not support treating RA as globally far from MS; RA is axis-near on
+  pregnancy/postpartum immune kinetics and axis-far on blood APC treatment
+  response.
 
 ## Prior-Art Recalibration
 
@@ -177,10 +183,35 @@ The valid warning is:
 - do not claim tissue-repair mechanism until independent repair endpoints
   validate the dynamic IFN/APC interpretation.
 
+## RA Pregnancy/Treatment Decoupling Adjustment
+
+The V10 RA audit preserves a second transfer-validity rule:
+
+> RA can transfer to MS as a pregnancy/postpartum timing comparator while
+> failing as a blood APC treatment-response comparator.
+
+Evidence:
+
+- RA blood IFN/APC and anti-TNF response features are negative or failed:
+  `GSE12051` AUC `0.382`, `GSE138746_CD14` AUC `0.485`, `GSE8350` early
+  `-delta_IFN_APC` AUC `0.450`.
+- Seropositive RA pregnancy data show a late-pregnancy trough and postpartum
+  rebound in MIF/CD74, HLA-II, IFN/APC, and lysosomal/APC modules.
+
+MS consequence:
+
+- RA is a useful comparator for postpartum flare biology only if the analysis
+  is time-resolved and composition-adjusted.
+- RA should remain a negative comparator for blood APC treatment-response
+  biomarker transfer.
+
 ## Current Confidence
 
 - Dynamic UC mucosal IFN/APC downshift transfer hypothesis: medium as a UC
   response-monitoring observation; low-to-medium as an MS transfer rule.
+- RA pregnancy/postpartum transfer hypothesis: medium as an RA natural
+  experiment observation; low-to-medium as an MS transfer rule until matched
+  RA/MS pregnancy data are composition-adjusted.
 - MS clinical actionability today: low; needs compartment-relevant MS paired
   data.
 - Direct therapeutic intervention claim: not made.
