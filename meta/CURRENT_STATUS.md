@@ -1,91 +1,104 @@
 # Current Status
 
-Last updated: 2026-06-02 11:41 CEST
+Last updated: 2026-06-02 12:15 CEST
 
 ## Mission State
 
-V9 is active. V8 produced the first MS-centered multi-axis autoimmune mechanism
-map; V9 is deepening the highest-value gaps, especially the microbiome axis and
-its relationship to the MS/IBD proximity signal.
+V10 is active. V8 produced the MS-centered multi-axis autoimmune mechanism map;
+V9 upgraded the microbiome axis with primary data and showed that MS/IBD
+proximity is not currently supported by broad shared taxonomic dysbiosis. V10
+is now mining **axis disagreements**: where a comparator disease is near MS on
+one supported axis and far/contradictory/intermediate on another.
 
-Methodology integrity steps completed:
+Methodology integrity steps:
 
-- V8 lock: `ROADMAP_V8.md`, `MAP_METHODOLOGY_V8.md`, git commit `9c2e548`.
-- V9 lock: `ROADMAP_V9.md`, `MAP_METHODOLOGY_V9.md`, git commit `df7c7de`.
+- V8 lock: `ROADMAP_V8.md`, `MAP_METHODOLOGY_V8.md`, commit `9c2e548`.
+- V9 lock: `ROADMAP_V9.md`, `MAP_METHODOLOGY_V9.md`, commit `df7c7de`.
+- V10 roadmap: `ROADMAP_V10.md`.
 
-V9 explicitly states that a cure-class therapeutic claim is unlikely from one
-public-data computational session. The current goal is robust axis upgrade and
-mechanism/intervention hypothesis convergence without overclaiming.
+`OPENGWAS_JWT` is missing, so V10 genetics execution is access-blocked outside
+existing UC/Crohn supported evidence.
 
 ## Current Deliverables
 
-Core V8 map:
+V10:
+
+- `DISAGREEMENT_MATRIX_V10.md`
+- `DISAGREEMENT_RESOLUTION_V10.md`
+- `SJOGREN_SPLIT_AUDIT_V10.md`
+- `TRANSFER_VALIDITY_MAP_V10.md`
+- `AXIS_DISAGREEMENT_FINDINGS_V10.md`
+- `CONVERGENCE_CHECK_V10_01.md`
+- `analysis/v10_disagreement/disagreement_pairs.tsv`
+- `analysis/v10_disagreement/artifact_audit.tsv`
+
+V9:
+
+- `MICROBIOME_AXIS_V9.md`
+- `DATA_SEARCH_V9.md`
+
+V8:
 
 - `MS_MECHANISM_MAP_V8.md`
-- `analysis/v8_map/evidence_registry.tsv`: 132 evidence rows.
-- `analysis/v8_map/placement_matrix.tsv`: 120 disease-axis placements.
-
-V9 active artifacts:
-
-- `DATA_SEARCH_V9.md`
-- `CONVERGENCE_CHECK_V9_01.md`
-- `analysis/v9_microbiome/ms_primary_analysis/REPORT.md`
-- `analysis/v9_microbiome/ibdmdb_subset_50_analysis/REPORT.md`
-- `subagents/20260602_v9_microbiome_expansion_james.md`
-- `subagents/20260602_v9_genetics_robustness_sartre.md`
-- `subagents/20260602_v9_mechanism_intervention_nietzsche.md`
+- `analysis/v8_map/placement_matrix.tsv`
+- `analysis/v8_map/evidence_registry.tsv`
 
 ## Current Interpretation
 
-The V8 map core still stands:
+V10 supported-only matrix:
 
-- RA diverges from MS on blood IFN/APC treatment-response architecture, not
-  globally.
-- IBD remains closest to MS on mucosal IFN/APC dynamics and tissue-repair /
-  response-monitoring behavior.
-- UC has the strongest verified genetic proximity to MS from the current
-  encoded LDSC source; Crohn is intermediate.
-- SLE remains a separate MS-adjacent hypothesis space around EBV/infectious
-  trigger biology and possibly complement/pregnancy.
+- `120` V8 placements.
+- `21` supported/robust placements eligible.
+- `10` supported-axis disagreement pairs.
 
-V9 microbiome update:
+Hostile critique corrected an overclaim:
 
-- MS now has primary-data microbiome evidence from processed stool `phyloseq`
-  data: Bacteroides is higher in MS versus controls (Hedges g `0.716`, FDR
-  `0.00108`; age/sex-adjusted FDR `0.00639`), Enterobacteriaceae/LPS proxy is
-  lower (g `-0.569`, FDR `0.00836`; adjusted FDR `0.00510`), and
-  Faecalibacterium is lower (unadjusted FDR `0.0557`; age/sex-adjusted FDR
-  `0.0341`).
-- IBDMDB/HMP2 106-profile independent-participant subset did not show any
-  pre-specified taxonomic feature family at FDR `<0.10`.
-- IBDMDB/HMP2 1,360-profile all-sample sensitivity showed naive repeated-sample
-  taxonomic effects, but participant-clustered inference removed FDR support
-  (CD Enterobacteriaceae p `0.00989`, FDR `0.119`).
-- Therefore V9 does **not** support a simple microbiome-mediated explanation
-  for MS/IBD proximity at the tested taxonomic-family level. MS/IBD proximity
-  remains stronger on mucosal IFN/APC and repair/response-monitoring axes.
+- UC treatment-response versus tissue-repair looked clean initially, but
+  Hypatia identified high axis non-independence because both axes reuse dynamic
+  IFN/APC response evidence.
+- `scripts/v10_build_disagreement_matrix.py` now applies an independence
+  penalty to treatment-response/tissue-repair pairs.
+- UC treatment-response versus tissue-repair is downgraded to an internal
+  treatment-dynamics refinement, not a clean independent disagreement.
 
-## Active Work
+Cleanest current biological candidate:
 
-- No long-running local commands are active at this checkpoint.
-- The genetics sidecar recommends a harmonized LDSC/HDL workflow with MHC
-  exclusion before upgrading non-IBD genetics placements; automated OpenGWAS
-  access is currently blocked by missing `OPENGWAS_JWT`.
+- **Sjogren IFN/APC versus lipid-lysosomal split.**
+- Sjogren salivary epithelial/APC antigen-presentation modules are positive or
+  trending, while lipid-loader and lysosomal repair modules are null/negative
+  in matched salivary epithelial/APC contexts.
+- MS implication: IFN/APC similarity alone is not sufficient evidence that a
+  comparator disease models chronic-active MS lesion-rim lipid-lysosomal /
+  foamy myeloid biology.
+
+Important downgraded hypothesis:
+
+- UC baseline mucosal IFN/APC height fails as a response predictor while early
+  mucosal IFN/APC downshift repeatedly tracks response. This is a dynamic
+  biomarker hypothesis, not a resolved MS mechanism.
+
+V9 microbiome result still stands:
+
+- MS has primary-data stool microbiome shifts in one processed cohort.
+- IBDMDB/HMP2 participant-aware tests did not support shared broad taxonomic
+  IBD dysbiosis.
+- MS/IBD proximity remains stronger on mucosal IFN/APC and response/repair
+  axes than on microbiome.
 
 ## Highest-Value Next Actions
 
-1. Use `MICROBIOME_AXIS_V9.md` as the current microbiome-axis synthesis.
-2. Start `analysis/v9_genetics` download/munging only if OpenGWAS access or
-   manual summary-stat paths become available.
-3. Search for pathway/metabolite microbiome layers or independent MS
-   microbiome replication; taxonomic family-level IBD overlap is not enough.
-4. Keep the gut-barrier/metabolite/APC-plasticity intervention hypothesis
-   conditional until pathway/metabolite or dynamic APC evidence supports it.
+1. Resolve the RA pregnancy-near versus APC/treatment-far disagreement with a
+   matched signature audit if data exists.
+2. Attempt independent Sjogren salivary dataset replication or matched
+   cell-type residualization for the IFN/APC versus lipid-lysosomal split.
+3. Rebuild UC tissue-repair axis with independent repair endpoints before using
+   it as an independent disagreement axis.
+4. If genetics access becomes available, run harmonized LDSC/HDL with MHC
+   exclusion.
 
 ## Compute / Access Notes
 
 - Working directory: `/Users/soeren.leibach/Projects/ms-auto-research`.
-- `.venv/bin/python` works for V7-V9 pandas/numpy/scipy scripts.
+- `.venv/bin/python` works for V7-V10 pandas/numpy/scipy/statsmodels scripts.
 - `.venv_v3_py312/bin/python` works for the local TF-IDF knowledge index.
-- R `4.6.0` is installed. `phyloseq` and `vegan` are now installed in the
-  Homebrew R site library after a long Bioconductor dependency build.
+- R `4.6.0`, `phyloseq`, and `vegan` are installed.

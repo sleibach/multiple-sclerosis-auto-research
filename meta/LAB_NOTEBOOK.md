@@ -1277,3 +1277,97 @@ Decision:
   taxonomic-family evidence after participant-aware inference; therefore the
   MS/IBD proximity should not be explained as shared broad taxonomic dysbiosis
   based on current V9 evidence.
+
+## 2026-06-02 12:05 CEST - V10 Axis-Disagreement Matrix And Critique
+
+Question:
+
+- Which supported axes disagree, and which disagreements survive artifact
+  audit?
+
+Execution:
+
+- Queried the local knowledge index before new analysis.
+- Confirmed `OPENGWAS_JWT` is missing; genetics execution remains
+  access-blocked outside existing UC/Crohn supported source.
+- Wrote `ROADMAP_V10.md`.
+- Built the disagreement matrix with `scripts/v10_build_disagreement_matrix.py`.
+- Inputs: `analysis/v8_map/placement_matrix.tsv` plus V9 microbiome overlay.
+- Output: `analysis/v10_disagreement/disagreement_pairs.tsv`.
+
+Initial result:
+
+- `120` placements in V8 matrix.
+- `21` supported/robust placements considered.
+- `10` supported-axis disagreement pairs.
+
+Hostile critique:
+
+- Hypatia wrote `subagents/20260602_v10_disagreement_critique_hypatia.md`.
+- The critique identified a serious axis-nonindependence problem: UC
+  treatment-response and tissue-repair axes share datasets/features/endpoint
+  interpretation.
+
+Correction:
+
+- Patched `scripts/v10_build_disagreement_matrix.py` to add
+  `axis_nonindependence_risk` and `independence_penalty`.
+- UC treatment-response versus tissue-repair dropped to the bottom of the
+  supported matrix.
+- Revised:
+  - `DISAGREEMENT_MATRIX_V10.md`
+  - `DISAGREEMENT_RESOLUTION_V10.md`
+  - `TRANSFER_VALIDITY_MAP_V10.md`
+  - `AXIS_DISAGREEMENT_FINDINGS_V10.md`
+
+Decision:
+
+- No fully resolved artifact-controlled biological disagreement has yet reached
+  Tier 4.
+- The best current V10 hypothesis is downgraded to a treatment-dynamics
+  refinement: in UC, baseline mucosal IFN/APC height fails as a response
+  predictor while early mucosal IFN/APC downshift repeatedly tracks response.
+- The strongest unresolved disagreement candidates after correction are:
+  1. UC cross-sectional IFN/APC proximity versus treatment-response
+     contradiction.
+  2. Sjogren IFN/APC versus lipid-lysosomal split.
+  3. RA pregnancy near versus APC/treatment far.
+
+## 2026-06-02 12:15 CEST - V10 Sjogren Split Audit
+
+Question:
+
+- Does the Sjogren IFN/APC near versus lipid-lysosomal far disagreement survive
+  compartment audit?
+
+Execution:
+
+- Queried `results_v3/cross_disease_cell_state_convergence.tsv` for Sjogren
+  salivary epithelial and APC module contrasts.
+- Wrote `SJOGREN_SPLIT_AUDIT_V10.md`.
+
+Result:
+
+- Salivary epithelial antigen-presentation modules are positive:
+  - `hla_ii_apc`: Hedges g `1.034`, p `0.0206`, FDR `0.0914`.
+  - `mif_cd74_receptor_state`: Hedges g `1.075`, p `0.0207`, FDR `0.0914`.
+  - `ifn_apc`: Hedges g `0.844`, p `0.0568`, FDR `0.157`.
+- Salivary APC antigen-presentation trends positive:
+  - `mif_cd74_receptor_state`: Hedges g `0.747`, p `0.0831`, FDR `0.199`.
+  - `ifn_apc`: Hedges g `0.687`, p `0.101`, FDR `0.235`.
+- Lipid/lysosomal repair modules are null or negative in both compartments:
+  - APC `lipid_loader_repair`: Hedges g `-0.774`, p `0.0554`, FDR `0.156`.
+  - epithelial `lipid_loader_repair`: Hedges g `-0.202`, p `0.604`, FDR
+    `0.697`.
+  - APC `lysosomal_apc`: Hedges g `-0.307`, p `0.434`, FDR `0.555`.
+  - epithelial `lysosomal_apc`: Hedges g `-0.267`, p `0.484`, FDR `0.600`.
+
+Decision:
+
+- The Sjogren split survives first compartment audit as V10's cleanest current
+  biological disagreement candidate.
+- Mechanistic statement: antigen-presentation activation can decouple from
+  lipid-lysosomal / foamy myeloid repair-state biology across autoimmune
+  tissues.
+- MS transfer consequence: IFN/APC similarity alone is not sufficient evidence
+  that a comparator disease models chronic-active MS lesion-rim biology.
