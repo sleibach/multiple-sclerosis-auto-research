@@ -45,6 +45,12 @@ V10 matched-compartment audit:
 - salivary gland APC `mif_cd74_receptor_state`: Hedges g `0.747`, p `0.0831`,
   FDR `0.199`.
 
+Orthogonal bulk sanity check:
+
+- GSE23117 minor salivary gland bulk `ifn_apc`: Hedges g `2.164`, p
+  `0.000271`, FDR `0.00162`.
+- GSE23117 `hla_ii_apc`: Hedges g `0.569`, p `0.163`, FDR `0.253`.
+
 ### Axis 2: Sjogren Is Far From MS On Lipid-Lysosomal / Foamy Myeloid State
 
 V8 placement:
@@ -61,6 +67,9 @@ V10 matched-compartment audit:
   `0.555`.
 - salivary gland epithelial `lysosomal_apc`: Hedges g `-0.267`, p `0.484`, FDR
   `0.600`.
+- GSE23117 bulk `lysosomal_apc`: Hedges g `0.165`, p `0.652`, FDR `0.652`.
+- GSE23117 bulk `lipid_loader_repair`: Hedges g `0.562`, p `0.144`, FDR
+  `0.253`.
 
 ### Mechanistic Meaning
 
@@ -75,6 +84,14 @@ Mechanistic hypothesis:
 
 > Antigen-presentation activation can decouple from lipid-lysosomal
 > repair-state biology across autoimmune tissues.
+
+Bulk-replication adjustment:
+
+- The strongest replicated component is IFN/APC-positive with lysosomal/APC
+  null.
+- The broader lipid-loader-negative claim remains single-cell/APC-dependent
+  because GSE23117 bulk lipid-loader is positive-null and cannot resolve
+  cell-type composition.
 
 MS implication:
 

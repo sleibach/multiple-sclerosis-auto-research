@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-02 12:52 CEST
+Last updated: 2026-06-02 13:14 CEST
 
 ## Mission State
 
@@ -31,6 +31,7 @@ V10:
 - `AXIS_DISAGREEMENT_FINDINGS_V10.md`
 - `CONVERGENCE_CHECK_V10_01.md`
 - `CONVERGENCE_CHECK_V10_02.md`
+- `analysis/v10_sjogren_gse23117/REPORT.md`
 - `analysis/v10_disagreement/disagreement_pairs.tsv`
 - `analysis/v10_disagreement/artifact_audit.tsv`
 
@@ -69,9 +70,16 @@ Cleanest current biological candidate:
 - Sjogren salivary epithelial/APC antigen-presentation modules are positive or
   trending, while lipid-loader and lysosomal repair modules are null/negative
   in matched salivary epithelial/APC contexts.
+- GSE23117 bulk salivary gland independently supports IFN/APC-positive and
+  lysosomal/APC-null directionality:
+  - `ifn_apc`: Hedges g `2.164`, p `0.000271`, FDR `0.00162`.
+  - `lysosomal_apc`: Hedges g `0.165`, p `0.652`, FDR `0.652`.
+- GSE23117 does not fully replicate a lipid-loader-negative claim because bulk
+  `lipid_loader_repair` is positive-null: Hedges g `0.562`, p `0.144`, FDR
+  `0.253`.
 - MS implication: IFN/APC similarity alone is not sufficient evidence that a
-  comparator disease models chronic-active MS lesion-rim lipid-lysosomal /
-  foamy myeloid biology.
+  comparator disease models chronic-active MS lesion-rim lysosomal/APC or
+  foamy myeloid biology. The lipid-loader part needs matched APC replication.
 
 Important downgraded hypothesis:
 

@@ -199,6 +199,20 @@ Mechanistic candidate:
 > Sjogren may share MS-like antigen-presentation activation in glandular
 > epithelium while lacking MS-like lipid-lysosomal myeloid pathology.
 
+GSE23117 bulk replication adjustment:
+
+- `ifn_apc`: Hedges g `2.164`, p `0.000271`, FDR `0.00162`.
+- `lysosomal_apc`: Hedges g `0.165`, p `0.652`, FDR `0.652`.
+- `lipid_loader_repair`: Hedges g `0.562`, p `0.144`, FDR `0.253`.
+
+Interpretation:
+
+- Bulk data independently supports strong IFN/APC activation and lack of a
+  lysosomal/APC module signal.
+- Bulk data does not support a strict lipid-loader-negative claim; lipid-loader
+  is positive-null and must be resolved in matched APC/foamy-myeloid
+  compartments.
+
 MS consequence:
 
 - Sjogren may transfer epithelial/barrier antigen-presentation ideas to MS
@@ -255,7 +269,9 @@ The strongest current biological disagreement candidate is the Sjogren split:
 > but not MS-like lipid-lysosomal / foamy myeloid repair-state biology.
 
 This is supported by matched local salivary epithelial and APC module contrasts
-summarized in `SJOGREN_SPLIT_AUDIT_V10.md`.
+summarized in `SJOGREN_SPLIT_AUDIT_V10.md`, with GSE23117 bulk replication for
+IFN/APC-positive and lysosomal/APC-null directionality. The lipid-loader-negative
+component remains weaker because GSE23117 bulk lipid-loader is positive-null.
 
 The strongest RA-derived disagreement candidate is:
 

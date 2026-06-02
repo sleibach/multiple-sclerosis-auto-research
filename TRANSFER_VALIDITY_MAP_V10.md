@@ -40,6 +40,10 @@ Transfer rule:
 - Sjogren may inform epithelial/barrier antigen-presentation hypotheses.
 - Sjogren should not currently be used as support for TREM2/APOE/LPL/GPNMB-like
   or lipid-loader lesion-rim repair interventions in MS.
+- After GSE23117 bulk replication, the strongest version of this rule is
+  antigen-presentation similarity without a matched lysosomal/APC signal; the
+  lipid-loader-negative claim still needs matched APC/foamy-myeloid
+  replication because bulk lipid-loader is positive-null.
 
 ## Strongest Biomarker-Design Consequence
 

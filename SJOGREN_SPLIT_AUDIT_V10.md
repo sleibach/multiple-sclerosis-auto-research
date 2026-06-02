@@ -24,6 +24,14 @@ Contexts:
   `14` controls.
 - `sjogren_gland_apc`: salivary gland APC, `9` case donors and `13` controls.
 
+Orthogonal bulk sanity check:
+
+- `GSE23117`: minor salivary gland bulk microarray, `10` early/moderate/advanced
+  SS cases versus `4` non-SS controls.
+- Excluded one ambiguous "control gland from SS patient" sample.
+- Script: `scripts/v10_sjogren_gse23117_bulk_replication.py`.
+- Output: `analysis/v10_sjogren_gse23117/module_results.tsv`.
+
 ## Module-Level Results
 
 | Compartment | Module | Delta | Hedges g | p | FDR | Support |
@@ -49,8 +57,16 @@ Compartment artifact:
 
 Cohort artifact:
 
-- Both compartments come from the same local Sjogren salivary gland atlas
-  family used in V3.
+- The matched-compartment evidence comes from one local Sjogren salivary gland
+  atlas family used in V3.
+- GSE23117 bulk salivary gland gives partial orthogonal replication:
+  - `ifn_apc`: Hedges g `2.164`, p `0.000271`, FDR `0.00162`.
+  - `hla_ii_apc`: Hedges g `0.569`, p `0.163`, FDR `0.253`.
+  - `lysosomal_apc`: Hedges g `0.165`, p `0.652`, FDR `0.652`.
+  - `lipid_loader_repair`: Hedges g `0.562`, p `0.144`, FDR `0.253`.
+- This supports IFN/APC-positive and lysosomal-null directionality outside the
+  h5ad analysis, but it does **not** fully replicate a lipid-loader-negative
+  claim because bulk lipid-loader is positive-null.
 - Donor counts are modest, so confidence remains medium at best.
 
 Measurement-grade artifact:
@@ -64,6 +80,13 @@ The Sjogren split survives first compartment audit as a biological candidate:
 
 > Sjogren salivary gland disease shares MS-like antigen-presentation activation
 > but not MS-like lipid-lysosomal / foamy myeloid repair-state biology.
+
+After GSE23117 bulk replication, the statement should be sharpened:
+
+> Sjogren robustly supports antigen-presentation activation and does not show a
+> matched APC lysosomal-repair signal; whole-gland bulk data are insufficient to
+> rule out lipid-loader activation because lipid-loader is positive-null in
+> bulk.
 
 This is a cleaner axis disagreement than the UC treatment-response versus
 tissue-repair row because it compares distinct module families rather than
@@ -88,14 +111,18 @@ In an independent Sjogren salivary single-cell or spatial dataset:
 
 - HLA-II/CD74/IFN epithelial or APC antigen-presentation modules should be
   positive or enriched in disease.
-- Lipid-loader / lysosomal repair modules should remain null or negative in
-  myeloid/APC compartments after cell-type and donor adjustment.
+- Lysosomal/APC modules should remain null or negative in myeloid/APC
+  compartments after cell-type and donor adjustment.
+- Lipid-loader modules are now a weaker prediction: they should remain absent
+  from matched APC/foamy-myeloid compartments, but bulk gland positivity alone
+  is not a stop-loss because it can reflect epithelial/stromal or composition
+  effects.
 
 Stop-loss:
 
-- If matched myeloid compartments show a reproducible positive lipid-lysosomal
-  repair module with Hedges g `>=0.5` and corrected p/FDR support, the V10
-  split is downgraded to dataset artifact.
+- If matched myeloid compartments show a reproducible positive lysosomal/APC or
+  lipid-loader repair module with Hedges g `>=0.5` and corrected p/FDR support,
+  the V10 split is downgraded to dataset artifact.
 
 ## Current Tier
 

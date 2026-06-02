@@ -1419,3 +1419,42 @@ Decision:
   biomarker transfer.
 - Main blocker: matched cell-composition-adjusted RA/MS pregnancy datasets with
   monocyte/APC resolution and clinical activity timecourses.
+
+## 2026-06-02 13:14 CEST - V10 Sjogren GSE23117 Bulk Replication
+
+Question:
+
+- Does an orthogonal Sjogren dataset support the IFN/APC-versus-lipid/lysosomal
+  split seen in the local salivary single-cell/APC audit?
+
+Execution:
+
+- Queried the local RAG index before analysis.
+- Used `data/raw_v2/GSE23117_series_matrix.txt.gz` and GPL570 annotation.
+- Wrote and ran `scripts/v10_sjogren_gse23117_bulk_replication.py`.
+- Comparison: `10` early/moderate/advanced SS minor salivary gland samples
+  versus `4` non-SS controls.
+- Excluded one ambiguous "control gland from SS patient" sample.
+- Outputs:
+  - `analysis/v10_sjogren_gse23117/module_results.tsv`
+  - `analysis/v10_sjogren_gse23117/sample_groups.tsv`
+  - `analysis/v10_sjogren_gse23117/REPORT.md`
+
+Result:
+
+- `ifn_apc`: Hedges g `2.164`, p `0.000271`, FDR `0.00162`.
+- `hla_ii_apc`: Hedges g `0.569`, p `0.163`, FDR `0.253`.
+- `lysosomal_apc`: Hedges g `0.165`, p `0.652`, FDR `0.652`.
+- `lipid_loader_repair`: Hedges g `0.562`, p `0.144`, FDR `0.253`.
+
+Decision:
+
+- GSE23117 bulk supports strong IFN/APC activation and lack of a lysosomal/APC
+  module signal outside the h5ad analysis.
+- It does not support a strict lipid-loader-negative claim, because
+  lipid-loader is positive-null in bulk tissue.
+- Updated `SJOGREN_SPLIT_AUDIT_V10.md`, `DISAGREEMENT_RESOLUTION_V10.md`,
+  `TRANSFER_VALIDITY_MAP_V10.md`, and `AXIS_DISAGREEMENT_FINDINGS_V10.md` to
+  sharpen the claim: the robust part is antigen-presentation versus
+  lysosomal/APC decoupling; lipid-loader/foamy-myeloid transfer remains blocked
+  pending matched APC or spatial replication.
