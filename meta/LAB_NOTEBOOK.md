@@ -953,3 +953,327 @@ Interpretation:
 - Combined with `GSE282122`, the general treatment-response concept survives
   only as therapy- and tissue-specific APC response architecture. It is not yet
   a Tier 1 mechanism.
+## 2026-05-28 21:31 CEST - V7 Locked Rule
+
+Decision: locked `HYP_V6_006` predictive rule before touching any new
+validation cohort.
+
+Files:
+- `LOCKED_RULE_V7.md`
+- `ROADMAP_V7.md`
+- `VALIDATION_LEDGER.md`
+
+SHA256:
+- `LOCKED_RULE_V7.md`: `06ca669a56725689f18df45118a0115e1152a0393e92db2da1719eb570687f7e`
+- `ROADMAP_V7.md`: `a19c9044d45566e187732014cf7f291a03a787eac22ad5187742207829ad9611`
+- `VALIDATION_LEDGER.md`: `6bf4e8a9d71df8d3a0864ae3dc1215d44db52d6747e81fac84483271d3690cbb`
+
+Git commit:
+- `27605b3` (`Lock V7 APC response validation rule`)
+
+Rule exclusions:
+- `GSE282122`
+- `GSE138064`
+- `GSE24427`
+
+These cohorts were used in V6 derivation/refinement and cannot count as V7
+independent validation.
+
+## 2026-05-28 23:11 CEST - V7 Locked-Rule Validation Kill And Refinement
+
+Execution:
+
+- Implemented `scripts/v7_apply_locked_rule_affy_validation.py`.
+- First attempted `python`, which failed because `python` is not on PATH.
+- Retried with `python3`, which failed because the system interpreter lacks
+  `numpy`.
+- Used `.venv/bin/python`, which has `numpy`, `pandas`, and `scipy`.
+- Added HGNC RefSeq/Ensembl mapping because `GSE12051` lacks platform gene
+  symbols and only provides RefSeq accessions.
+
+Validation results from `analysis/v7_validation/v7_validation_summary.tsv`:
+
+- `GSE16879` IBD infliximab paired early delta: pass, AUC `0.754`, Hedges g
+  `0.985`.
+- `GSE73661_IFX` UC infliximab paired early delta: pass, AUC `0.825`, Hedges g
+  `1.390`.
+- `GSE8350` RA infliximab 2-week blood delta: fail, AUC `0.450`, Hedges g
+  `-0.356`.
+- `GSE12051` RA infliximab baseline blood: fail, AUC `0.382`, Hedges g
+  `-0.339`.
+- `GSE12251` UC infliximab baseline mucosa: fail, AUC `0.250`, Hedges g
+  `-1.043`.
+- `GSE138746_CD14` RA anti-TNF baseline CD14 monocytes: fail, AUC `0.485`,
+  Hedges g `-0.099`.
+
+Decision:
+
+- `HYP_V6_006` is killed as the locked cross-disease treatment-response rule
+  because the pre-specified kill threshold is met.
+- The failure mode is informative: baseline IFN/APC is not a valid fallback,
+  while intestinal mucosal early IFN/APC downshift remains alive.
+- Opened `HYP_V7_001` as a Tier 0 candidate.
+
+## 2026-05-28 23:11 CEST - HYP_V7_001 Vedolizumab Specificity Check
+
+Question: is the paired intestinal IFN/APC downshift anti-TNF-specific or a
+generic mucosal response/healing signal?
+
+Analysis:
+
+- Script: `scripts/v7_explore_hyp_v7_001_gse73661_vdz_specificity.py`.
+- Dataset: `GSE73661`, vedolizumab induction arms with W0 and W6 paired UC
+  biopsies.
+- This is Class C exploratory context under `LOCKED_RULE_V7.md`, not locked
+  validation.
+
+Result:
+
+- N `24`, AUC `0.889`, Hedges g `1.286`, p `0.1622`.
+
+Decision:
+
+- This strengthens the existence of an intestinal mucosal dynamic IFN/APC
+  response marker.
+- It weakens any anti-TNF-specific mechanism claim. The better Tier -1/Tier 0
+  framing is mucosal healing/plasticity versus nonresponse, with therapy-class
+  specificity unresolved.
+
+## 2026-05-29 00:20 CEST - V8 Methodology Lock And First Axis Merge
+
+Integrity step:
+
+- Wrote `ROADMAP_V8.md` and `MAP_METHODOLOGY_V8.md` before generating V8
+  placements.
+- Committed the methodology lock as git commit `9c2e548`
+  (`Lock V8 mechanism map methodology`).
+
+Execution:
+
+- Ran `scripts/v8_build_local_axis_evidence.py` to consolidate V3-V7 local
+  evidence for axes 1, 4, and 7.
+- Ran `scripts/v8_build_genetics_axis.py` to create a low-confidence genetics
+  proxy from the local OpenTargets associated-target table. This is explicitly
+  not LDSC, MR, or coloc.
+- Ran `scripts/v8_build_microbiome_axis.py` to create a literature-anchored
+  microbiome axis.
+- Ran `scripts/v8_merge_axis_outputs.py` to create the combined V8 evidence
+  registry and placement matrix.
+
+Generated artifacts after subsequent V8 axis expansion and hostile-critique
+downgrading:
+
+- `analysis/v8_map/evidence_registry.tsv`: 132 evidence rows.
+- `analysis/v8_map/placement_matrix.tsv`: 120 disease-axis placements.
+- `analysis/v8_map/axis_population_summary.tsv`.
+- `analysis/v8_map/MAP_MERGE_REPORT.md`.
+- `CONVERGENCE_CHECK_V8_01.md`.
+- `CRITIQUE_V8_01.md`.
+- `MS_MECHANISM_MAP_V8.md`.
+
+Current interpretation:
+
+- The strongest current map feature remains axis-specific MS/RA divergence:
+  RA is far from MS on IFN/APC treatment-response behavior in blood, but not
+  globally far across all axes.
+- IBD is near MS on mucosal IFN/APC dynamics and repair/response-monitoring
+  axes. Its microbiome/gut-barrier placement is plausible but provisional
+  pending a harmonized quantitative microbiome matrix.
+- Genetics is currently too weakly populated and must be upgraded before it
+  can support or contradict the map core outside the current UC/Crohn LDSC
+  upgrade.
+
+## 2026-06-02 11:35 CEST - V9 Microbiome Primary-Data Upgrade Attempt
+
+Integrity step:
+
+- Wrote and committed `ROADMAP_V9.md` and `MAP_METHODOLOGY_V9.md` before
+  generating V9 placements or microbiome upgrades.
+- Commit: `df7c7de` (`Lock V9 microbiome upgrade methodology`).
+- The methodology explicitly states that a cure-class computational DoD is
+  unlikely in one public-data session; V9's realistic target is robust axis
+  upgrade plus intervention-hypothesis convergence.
+
+MS microbiome route:
+
+- Downloaded processed `phyloseq` RDS files from the PRJEB44538-associated
+  GitHub repository:
+  - `data/raw/v9_microbiome_ms/ps_HMS.subset.stool.itm.rds`
+  - `data/raw/v9_microbiome_ms/ps.ms.stool.rds`
+- Local R initially lacked `phyloseq`; Bioconductor installation was started.
+- `vegan` installed successfully, but `phyloseq` was still unavailable at this
+  checkpoint. Export/analysis scripts are prepared:
+  - `scripts/v9_export_ms_phyloseq.R`
+  - `scripts/v9_analyze_ms_microbiome.py`
+
+IBD microbiome route:
+
+- Downloaded IBDMDB/HMP2 metadata and MGX tax-profile product-page URLs.
+- Initial balanced subset: 30 BIOM profiles, 10 nonIBD / 10 UC / 10 CD.
+- Expanded independent-participant subset:
+  - selection target: 50 per diagnosis;
+  - available counts: 26 nonIBD, 30 UC, 50 CD;
+  - downloaded profiles: 106;
+  - missing profiles: 0;
+  - manifest: `data/raw/v9_microbiome_ibd/tax_profiles_subset_50/download_manifest.tsv`.
+- Ran pre-specified feature-family analysis:
+  `analysis/v9_microbiome/ibdmdb_subset_50_analysis/REPORT.md`.
+
+Result:
+
+- No pre-specified taxonomic feature family reached FDR `<0.10` in the expanded
+  IBDMDB subset; all FDR values were `>=0.7429`.
+- Largest exploratory signal: UC butyrate-clostridia higher than nonIBD,
+  Hedges g `0.409`, p `0.109`, FDR `0.743`.
+- Akkermansia was lower in UC (g `-0.386`) and CD (g `-0.353`), but not
+  statistically supported.
+
+Decision:
+
+- Do not upgrade the IBD microbiome placement under `MAP_METHODOLOGY_V9.md`
+  from these taxonomic feature-family tests.
+- This is a primary-data negative for this operationalization, not a claim that
+  IBD lacks microbiome involvement. The operationalization may be too crude:
+  pathway/metabolite features, longitudinal dynamics, medication adjustment, or
+  full HMP2 mixed modeling may be needed.
+- Continue the MS processed-data route when `phyloseq` becomes available, and
+  treat the gut-barrier/metabolite intervention hypothesis as conditional until
+  MS primary data or metabolite/pathway data supports it.
+
+## 2026-06-02 11:41 CEST - V9 MS Microbiome Export And Analysis
+
+Dependency resolution:
+
+- The R/Bioconductor installation completed and `phyloseq` became available.
+- Initial export failed because `as.data.frame(sample_data(ps))` retained a
+  `sample_data` class that failed validation in `write.table`.
+- Patched `scripts/v9_export_ms_phyloseq.R` to coerce metadata with
+  `data.frame(sample_data(ps))`.
+
+Execution:
+
+- Exported:
+  - `analysis/v9_microbiome/ms_phyloseq_export/ms_vs_hc_stool_otu_table.tsv`
+  - `analysis/v9_microbiome/ms_phyloseq_export/ms_vs_hc_stool_taxonomy.tsv`
+  - `analysis/v9_microbiome/ms_phyloseq_export/ms_vs_hc_stool_metadata.tsv`
+  - corresponding before/after stool files.
+- Ran `scripts/v9_analyze_ms_microbiome.py`.
+- Patched the analysis to separate valid MS-vs-control tests from paired
+  timepoint deltas, because the before/after object lacks healthy controls.
+
+MS-vs-control result:
+
+- Cohort: `95` MS and `54` healthy controls, stool, group column `Status`.
+- Bacteroides higher in MS: Hedges g `0.716`, p `0.000180`, FDR `0.00108`.
+- Enterobacteriaceae/LPS proxy lower in MS: Hedges g `-0.569`, p `0.00279`,
+  FDR `0.00836`.
+- Faecalibacterium/butyrate proxy lower in MS: Hedges g `-0.360`, p `0.0278`,
+  FDR `0.0557`.
+- Akkermansia, Prevotella, and butyrate-clostridia were not supported.
+
+Age/sex-adjusted sensitivity:
+
+- Added OLS models for each family: feature abundance ~ MS status + age + sex.
+- Bacteroides remained higher in MS: adjusted coefficient `0.0505`, p
+  `0.00213`, FDR `0.00639`.
+- Enterobacteriaceae/LPS proxy remained lower in MS: adjusted coefficient
+  `-0.0647`, p `0.000850`, FDR `0.00510`.
+- Faecalibacterium/butyrate proxy became FDR-supported after adjustment:
+  adjusted coefficient `-0.0120`, p `0.0171`, FDR `0.0341`.
+
+Paired MS timepoint result:
+
+- TP2/TP3/TP4 minus TP1 deltas were computed for available paired MS samples.
+- No paired timepoint feature reached FDR `<0.10`.
+- The largest exploratory signal was Enterobacteriaceae/LPS proxy increase at
+  TP4 minus TP1, Hedges g about `0.70`, p about `0.032`, FDR about `0.458`,
+  with only `11` pairs.
+
+Decision:
+
+- The MS microbiome axis is no longer literature-only: it has a primary-data
+  corrected case-control signal in one processed cohort.
+- The signal does not cleanly match the IBDMDB subset: MS shows Bacteroides
+  increase and Enterobacteriaceae decrease; the 106-profile IBD subset shows
+  no corrected feature-family effects and exploratory Enterobacteriaceae is
+  higher in UC/CD than nonIBD.
+- Therefore V9 should **not** claim that MS/IBD proximity is microbiome-mediated
+  at the tested taxonomic-family level. The MS/IBD proximity remains stronger
+  on mucosal IFN/APC treatment-response and tissue-repair axes than on
+  microbiome.
+- Started an all-sample IBDMDB sensitivity (1,360 samples, 106 participants)
+  to test whether repeated-sample precision changes the IBD taxonomic-family
+  result. This is sensitivity only, not independent-sample validation.
+
+## 2026-06-02 11:43 CEST - V9 Genetics Access Scaffold
+
+Question:
+
+- Can V9 immediately upgrade the genetics axis with harmonized LDSC/HDL as
+  recommended by the genetics sidecar?
+
+Execution:
+
+- Wrote `scripts/v9_genetics_source_manifest.py`.
+- Ran it to create:
+  - `analysis/v9_genetics/source_manifest.tsv`
+  - `analysis/v9_genetics/SOURCE_MANIFEST_REPORT.md`
+
+Result:
+
+- The manifest lists MS, UC, Crohn, RA, SLE, T1D, and psoriasis OpenGWAS source
+  IDs and metadata for a future harmonized LDSC run.
+- `OPENGWAS_JWT` is not present in the environment.
+
+Decision:
+
+- Do not claim new genetics results in V9 from this scaffold.
+- Treat automated OpenGWAS summary-stat download as access-blocked until a JWT
+  or manually downloaded summary-stat paths are available.
+- The V8 genetics axis remains checkpoint-grade outside the existing UC/Crohn
+  LDSC-backed source.
+
+## 2026-06-02 12:04 CEST - V9 IBDMDB All-Sample Sensitivity
+
+Question:
+
+- Did the 106-profile independent-participant IBDMDB subset miss taxonomic
+  feature-family effects because of low precision?
+
+Execution:
+
+- Patched `scripts/v9_select_ibdmdb_subset.py` with `--all-samples`.
+- Downloaded all selected MGX taxonomic profiles:
+  - `1,360` profiles;
+  - manifest: `data/raw/v9_microbiome_ibd/tax_profiles_all_samples/download_manifest.tsv`.
+- Ran:
+  `scripts/v9_analyze_ibdmdb_subset.py --subset analysis/v9_microbiome/ibdmdb_all_samples/selected_ibdmdb_samples.tsv --raw-dir data/raw/v9_microbiome_ibd/tax_profiles_all_samples --out-dir analysis/v9_microbiome/ibdmdb_all_samples_analysis`.
+- Then ran participant-clustered OLS sensitivity on the all-sample scores
+  because there are only `106` participants.
+
+Naive all-sample result:
+
+- Multiple feature families reached FDR support when repeated samples were
+  treated as independent.
+- Examples:
+  - UC Bacteroides higher than nonIBD: FDR `6.16e-05`.
+  - CD Bacteroides higher than nonIBD: FDR `7.40e-06`.
+  - UC Enterobacteriaceae/LPS proxy higher: FDR `0.00933`.
+  - CD Enterobacteriaceae/LPS proxy higher: FDR `3.09e-06`.
+
+Cluster-robust participant-level sensitivity:
+
+- No feature family reached FDR `<0.10`.
+- CD Enterobacteriaceae/LPS proxy had p `0.00989` but FDR `0.119`.
+- CD Faecalibacterium had p `0.0863`, FDR `0.292`.
+
+Decision:
+
+- The all-sample signals are pseudo-replication-sensitive.
+- They are useful for hypothesis generation but do not upgrade the IBD
+  microbiome placement under V9.
+- V9's microbiome conclusion is now sharper: MS has a primary-data
+  case-control taxonomic-family signal; IBD does not have V9-supported
+  taxonomic-family evidence after participant-aware inference; therefore the
+  MS/IBD proximity should not be explained as shared broad taxonomic dysbiosis
+  based on current V9 evidence.
