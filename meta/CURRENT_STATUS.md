@@ -1,25 +1,36 @@
 # Current Status
 
-Last updated: 2026-06-02 13:14 CEST
+Last updated: 2026-06-04 00:22 CEST
 
 ## Mission State
 
-V10 is active. V8 produced the MS-centered multi-axis autoimmune mechanism map;
-V9 upgraded the microbiome axis with primary data and showed that MS/IBD
-proximity is not currently supported by broad shared taxonomic dysbiosis. V10
-is now mining **axis disagreements**: where a comparator disease is near MS on
-one supported axis and far/contradictory/intermediate on another.
+V11 is active. V8 produced the MS-centered multi-axis autoimmune mechanism map;
+V9 upgraded the microbiome axis with primary data; V10 began axis-disagreement
+mining. V11 adds resume discipline and a canonical matrix state so short
+sessions can chain without re-deriving resolved cells.
 
 Methodology integrity steps:
 
 - V8 lock: `ROADMAP_V8.md`, `MAP_METHODOLOGY_V8.md`, commit `9c2e548`.
 - V9 lock: `ROADMAP_V9.md`, `MAP_METHODOLOGY_V9.md`, commit `df7c7de`.
 - V10 roadmap: `ROADMAP_V10.md`.
+- V11 resume backbone: `meta/MATRIX_STATUS.md`, `meta/NEXT_ACTIONS.md`,
+  `meta/SESSION_LOG.md`, `analysis/v11_matrix/disagreement_matrix.tsv`.
 
-`OPENGWAS_JWT` is missing, so V10 genetics execution is access-blocked outside
+`OPENGWAS_JWT` is missing, so V11 genetics execution is access-blocked outside
 existing UC/Crohn supported evidence.
 
 ## Current Deliverables
+
+V11:
+
+- `meta/MATRIX_STATUS.md`
+- `meta/NEXT_ACTIONS.md`
+- `meta/SESSION_LOG.md`
+- `analysis/v11_matrix/disagreement_matrix.tsv`
+- `UC_STATIC_DYNAMIC_APC_DECOUPLING_V11.md`
+- `RA_TISSUE_REPAIR_PREGNANCY_SCOPE_AUDIT_V11.md`
+- `CONVERGENCE_CHECK_V11_01.md`
 
 V10:
 
@@ -47,6 +58,25 @@ V8:
 - `analysis/v8_map/evidence_registry.tsv`
 
 ## Current Interpretation
+
+V11 matrix state:
+
+- Total qualifying supported disagreement cells: `10`.
+- Non-unresolved cells: `6`.
+- Completion: `60.0%`.
+- Current unresolved queue starts with
+  `006_ulcerative_colitis_axis_02_genetics_vs_axis_07_treatment_response`.
+
+New V11 resolutions:
+
+- **UC static/dynamic APC decoupling:** UC is near MS on inflammatory IFN/APC
+  state, but treatment-response transfer depends on early dynamic IFN/APC
+  downshift rather than baseline IFN/APC height. This is a transfer-validity
+  finding, not a drug claim.
+- **RA tissue-repair/pregnancy scope correction:** RA is far from MS for blood
+  APC response-monitoring transfer, but the current matrix does not resolve RA
+  synovial tissue repair. The prior RA pregnancy comparator remains valid only
+  as a pregnancy/postpartum timing hypothesis.
 
 V10 supported-only matrix:
 
@@ -106,14 +136,11 @@ V9 microbiome result still stands:
 
 ## Highest-Value Next Actions
 
-1. Attempt independent Sjogren salivary dataset replication or matched
-   cell-type residualization for the IFN/APC versus lipid-lysosomal split.
-2. Search for composition-adjusted RA/MS pregnancy datasets with monocyte/APC
-   resolution and clinical activity timecourses.
-3. Rebuild UC tissue-repair axis with independent repair endpoints before using
-   it as an independent disagreement axis.
-4. If genetics access becomes available, run harmonized LDSC/HDL with MHC
-   exclusion.
+1. Read `meta/NEXT_ACTIONS.md`.
+2. Resolve `006_ulcerative_colitis_axis_02_genetics_vs_axis_07_treatment_response`.
+3. If `OPENGWAS_JWT` remains unavailable, use published/support-grade genetics
+   evidence and flag coloc/local-rg as blocked.
+4. Continue queue without re-deriving resolved cells.
 
 ## Compute / Access Notes
 
