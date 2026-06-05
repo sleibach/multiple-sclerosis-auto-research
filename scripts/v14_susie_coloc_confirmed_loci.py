@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run bounded SuSiE-coloc for V14 confirmed chr1 and chr10 loci.
+"""Run bounded SuSiE-coloc for V14 candidate shared loci.
 
 Inputs are cached V13 OpenGWAS association JSONs plus OpenGWAS EUR LD matrices
 retrieved via POST /ld/matrix. This is a multi-signal follow-up layer, not a
@@ -47,6 +47,28 @@ LOCUS_SPECS = [
         "trait2": "Crohn",
         "path1": RAW / "assoc_MS_ieu-b-18_10_80542475_81559335.json",
         "path2": RAW / "assoc_Crohn_ieu-a-30_10_80542475_81559335.json",
+    },
+    {
+        "name": "MS_UC_chr5_39896425_40944986",
+        "comparator": "UC",
+        "chr": "5",
+        "start": 39_896_425,
+        "end": 40_944_986,
+        "trait1": "MS",
+        "trait2": "UC",
+        "path1": RAW / "assoc_MS_ieu-b-18_5_39896425_40944986.json",
+        "path2": RAW / "assoc_UC_ieu-a-32_5_39896425_40944986.json",
+    },
+    {
+        "name": "MS_Crohn_chr17_40014201_41029835",
+        "comparator": "Crohn",
+        "chr": "17",
+        "start": 40_014_201,
+        "end": 41_029_835,
+        "trait1": "MS",
+        "trait2": "Crohn",
+        "path1": RAW / "assoc_MS_ieu-b-18_17_40014201_41029835.json",
+        "path2": RAW / "assoc_Crohn_ieu-a-30_17_40014201_41029835.json",
     },
 ]
 

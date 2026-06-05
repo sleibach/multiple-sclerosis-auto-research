@@ -266,3 +266,13 @@ Next session first action:
 - Frontier advanced: `README.md` updated to reflect V14 status, LDSC Zenodo reference-panel provisioning, and the mandatory session-end reporting rule.
 - Stop reason: completed.
 - Next action: run real LDSC genetic correlation for MS vs UC/Crohn using `data/raw/ldsc_reference/eur_w_ld_chr/`, with MHC-excluded sensitivity and sample-overlap/intercept reporting.
+
+## RUN SUMMARY - 2026-06-05 23:34 UTC
+
+- Active runtime: approximately 36 minutes; total elapsed approximately 36 minutes; no usage-limit waiting time observed.
+- Session start UTC: 2026-06-05 22:58 UTC.
+- Session end UTC: 2026-06-05 23:34 UTC.
+- Frontier advanced: V15 completed causal-gene/effect-direction workup for both required loci, added reproducible V15 table generation, extended bounded SuSiE-coloc to chr5/PTGER4 and chr17/STAT3-STAT5, updated resume state, README, and knowledge index.
+- Locus step status: chr1 MS-UC completed steps 1-6 with `GPR25` as moderate-high-confidence causal-gene candidate but no matrix upgrade; chr10 MS-Crohn completed steps 1-6 with `ZMIZ1` as moderate-confidence causal-gene candidate, opposite MS/Crohn effect direction, and no matrix upgrade.
+- Stop reason: completed V15 bounded deliverable; no therapeutic-grade claim because raw eQTL/pQTL effect-allele alignment, stronger MS cell-state support, and perturbation evidence remain missing.
+- Next action: retrieve raw eQTLGen/GTEx QTL summary statistics and run allele-aligned eQTL colocalization for chr1 (`GPR25`, `C1orf106/INAVA`, `KIF21B`, `CACNA1S`) and chr10 (`ZMIZ1`, with `PPIF` as nearby negative control), then decompose the mixed chr5/PTGER4 SuSiE signal before any intervention inference.

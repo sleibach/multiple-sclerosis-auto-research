@@ -1,6 +1,6 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-06-05 23:59 CEST
+Last updated: 2026-06-06 00:05 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
@@ -22,19 +22,34 @@ Current genetics robustness state:
   EUR LD matrices and top-500 shared SNP subsets:
   - UC chr1 `1:200375242-201375897`: max PP.H4 `0.959324545654259`.
   - Crohn chr10 `10:80542475-81559335`: max PP.H4 `0.958107919239886`.
+- V15 causal-gene/effect-direction workup exists at
+  `GENETICS_LOCI_WORKUP_V15.md`.
+- V15 verdict:
+  - UC chr1 most likely maps to `GPR25` by stored blood eQTL colocalization
+    in MS and UC; direction proxies are concordant but raw allele-aligned
+    eQTL summary statistics were not rerun; not intervention-grade.
+  - Crohn chr10 most likely maps to `ZMIZ1` by positional plus Crohn blood
+    eQTL support; MS/Crohn disease-effect signs are opposite; not
+    transfer-ready or intervention-grade.
+- V15 next-tier SuSiE:
+  - UC chr5/PTGER4 is mixed multi-signal: `max PP.H4 = 0.998601068519585`,
+    `max PP.H3 = 0.998187670954932`, 21 pairwise rows.
+  - Crohn chr17/STAT3-STAT5 is downgraded: `max PP.H4 =
+    0.0267570011193013`.
 
 Next session first action:
 
 1. Run `.venv/bin/python scripts/check_opengwas_access.py`.
-2. Continue from `analysis/v14_susie_coloc/REPORT.md` and
-   `GENETICS_AXIS_V14_LANDSCAPE_CHECKPOINT.md`.
-3. Run bounded SuSiE-coloc on:
-   - Crohn `17:40014201-41029835`;
-   - UC `5:39896425-40944986`;
-   - MHC H3 negative controls.
-4. Run real LDSC genetic correlation for MS vs UC/Crohn with MHC-excluded
+2. Retrieve raw eQTLGen/GTEx QTL summary statistics for the two V15 loci and
+   run allele-aligned eQTL colocalization:
+   - chr1 genes: `GPR25`, `C1orf106/INAVA`, `KIF21B`, `CACNA1S`;
+   - chr10 genes: `ZMIZ1`, with `PPIF` only as a nearby negative-control gene.
+3. Decompose the UC chr5/PTGER4 SuSiE result by pairwise signal: separate the
+   shared `rs350054` row (`PP.H4 = 0.998601068519585`) from the distinct
+   `rs62356511`/`rs1445002` row (`PP.H3 = 0.998187670954932`) before any gene
+   or therapeutic inference.
+4. Run MHC H3 negative-control SuSiE-coloc.
+5. Run real LDSC genetic correlation for MS vs UC/Crohn with MHC-excluded
    sensitivity and sample-overlap/intercept reporting.
-5. For PTGER4, resolve effect-allele-aligned QTL direction before any
-   agonist/antagonist or MS intervention claim.
-6. Do not upgrade matrix grades until LDSC/HDL, multi-signal coloc, and
-   eQTL/pQTL causal-gene mapping are available.
+6. Do not upgrade matrix grades or therapeutic direction until raw
+   effect-allele-aligned eQTL/pQTL mapping is complete.

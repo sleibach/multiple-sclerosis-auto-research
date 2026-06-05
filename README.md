@@ -11,18 +11,22 @@ All analysis uses public human-tissue data only and random seed `20260526`
 
 ## Current Status
 
-The current phase is **V14**. The V4 directory structure remains canonical, and
+The current phase is **V15**. The V4 directory structure remains canonical, and
 V11 introduced the resume backbone for short-session continuity.
 
 - Start here: `meta/CURRENT_STATUS.md` — the live mission state, active leads,
   and next actions.
-- Current active genetics focus: robust workup of OpenGWAS-backed shared MS/UC
-  and MS/Crohn loci, including LDSC genetic correlation, multi-signal coloc,
-  causal-gene mapping, and effect-direction checks.
+- Current active genetics focus: raw allele-aligned QTL direction checks for
+  the two V14/V15 SuSiE-surviving shared loci.
 - Confirmed first-pass high-H4 regions from V13/V14 include MS-UC chr1,
   MS-UC chr5/PTGER4, MS-Crohn chr10, and MS-Crohn chr17/STAT3-STAT5. The
-  chr1 and chr10 loci have passed bounded SuSiE-coloc follow-up; matrix grades
-  are not upgraded until LDSC, sensitivity, and causal-gene layers are complete.
+  chr1 and chr10 loci passed bounded SuSiE-coloc follow-up. V15 mapped the
+  chr1 locus most strongly to `GPR25` and the chr10 locus most strongly to
+  `ZMIZ1`, but did not upgrade matrix grades because raw eQTL/pQTL
+  effect-allele alignment, stronger cell-state evidence, and perturbation
+  support remain missing. V15 also downgraded chr17/STAT3-STAT5 under
+  bounded SuSiE-coloc and reframed chr5/PTGER4 as a mixed shared/distinct
+  signal-decomposition problem.
 - `ACSL1`, `NAMPT`, and several early target candidates were demoted or parked
   under the V4/V5 prior-art and tiering framework. Current value has shifted to
   axis-disagreement mining and genetics-grounded transfer-validity analysis.
@@ -73,6 +77,7 @@ of `meta/SESSION_LOG.md`.
 | V8-V12 | MS-centered multi-axis mechanism map and axis-disagreement matrix. | Matrix completed; UC/Crohn/MS genetics and treatment-response disagreements became priority. |
 | V13 | OpenGWAS-backed first-pass cross-trait colocalization for MS/UC/Crohn shared loci. | Four high-H4 regions identified; MHC overlaps mostly ruled distinct causal variants. |
 | V14 | Robust workup of confirmed shared loci. | Tooling and LDSC reference panel provisioned; bounded SuSiE-coloc supports chr1 UC and chr10 Crohn loci. Active. |
+| V15 | Causal-gene and effect-direction workup for the SuSiE-surviving loci. | chr1 MS-UC points to concordant `GPR25` blood eQTL risk direction but weak cell-state/druggability support; chr10 MS-Crohn points to `ZMIZ1` with opposite disease-effect signs and no transfer-ready intervention claim; chr5/PTGER4 is mixed shared/distinct signal; chr17/STAT3-STAT5 is downgraded. See `GENETICS_LOCI_WORKUP_V15.md` and `GENETICS_AXIS_V15_NEXT_TIER_SUSIE_ADDENDUM.md`. |
 
 `FINDING.md` documents the (since-demoted) `ACSL1` target hypothesis from an
 earlier phase and is retained for the historical trace.

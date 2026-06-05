@@ -5,8 +5,8 @@ Last updated: 2026-06-06 00:05 CEST
 ## Mission State
 
 V12 completed the supported-cell axis-disagreement matrix that V11 made
-resumable. V13 has started the genetics-axis robustification using the now
-working OpenGWAS token from `.env`.
+resumable. V13-V15 are robustifying the genetics axis using the working
+OpenGWAS token from `.env`.
 
 Standing reporting rule:
 
@@ -40,6 +40,12 @@ Methodology backbone:
   - `meta/PROVISIONING_REPORT.md`
   - `analysis/v14_susie_coloc/REPORT.md`
   - `scripts/v14_susie_coloc_confirmed_loci.py`
+- V15 causal-gene/effect-direction workup:
+  - `GENETICS_LOCI_WORKUP_V15.md`
+  - `analysis/v15_loci_workup/locus_verdicts.tsv`
+- V15 next-tier SuSiE addendum:
+  - `GENETICS_AXIS_V15_NEXT_TIER_SUSIE_ADDENDUM.md`
+  - `analysis/v14_susie_coloc/susie_coloc_rollup.tsv`
 
 ## Current Matrix State
 
@@ -143,6 +149,44 @@ Bounded SuSiE-coloc status:
   model, but does not yet justify robust genetics-axis upgrade because
   genome-wide LDSC/HDL, full-region sensitivity, MHC controls, and causal-gene
   direction mapping remain incomplete.
+
+## V15 Causal-Gene / Direction Checkpoint
+
+V15 worked up the two V14 SuSiE-surviving loci through credible sets,
+positional annotation, stored QTL colocalization, direction proxies,
+cell-state context, druggability, and novelty checks.
+
+- MS-UC chr1 `1:200375242-201375897`:
+  - credible-set intersection: 11 variants;
+  - top causal-gene candidate: `GPR25`;
+  - evidence: repeated stored blood eQTL colocalization in MS and UC;
+  - direction: MS and UC association signs are concordant, and stored QTL
+    direction proxies suggest risk-associated higher GPR25 expression;
+  - limitation: raw eQTL effect-allele alignment was not rerun, MS lesion
+    cell-state support is weak, and chemical matter is immature.
+- MS-Crohn chr10 `10:80542475-81559335`:
+  - credible-set intersection: 4 intronic variants;
+  - top causal-gene candidate: `ZMIZ1`;
+  - evidence: tight positional support plus Crohn blood eQTL colocalization;
+  - direction: MS and Crohn association signs are opposite, making this a
+    decoupling locus rather than a straightforward transfer locus;
+  - limitation: no stored MS eQTL colocalization row, weak MS cell-state
+    support, and no direct ChEMBL target.
+
+Matrix decision:
+
+- No matrix grade upgraded in V15.
+- Next decisive layer is raw allele-aligned QTL colocalization for `GPR25` and
+  `ZMIZ1`, plus pQTL lookup and perturbation/cell-state validation.
+
+V15 also extended bounded SuSiE-coloc to the queued next-tier loci:
+
+- MS-UC chr5/PTGER4: mixed multi-signal result, `max PP.H4 =
+  0.998601068519585` and `max PP.H3 = 0.998187670954932` across 21 pairwise
+  signal rows. This is a signal-decomposition problem, not a clean PTGER4
+  therapeutic rescue.
+- MS-Crohn chr17/STAT3-STAT5: downgraded by bounded SuSiE-coloc, `max PP.H4 =
+  0.0267570011193013`, `max PP.H3 = 0.604986704498299`.
 
 ## V12 Findings
 
