@@ -2,6 +2,27 @@
 
 Append-only V11 resume log. Newest entries may be at the bottom.
 
+## Standing Session-End Runtime Rule
+
+At the end of every session, append a `RUN SUMMARY` block to this file and echo
+the same block in the final chat message. This applies to all sessions,
+including checkpoints, failed runs, provisioning-only sessions, and sessions
+that stop because of environmental limits.
+
+Required fields:
+
+- Active runtime: wall-clock time actually spent working this session,
+  excluding usage-limit waiting time. If active runtime and total elapsed differ,
+  state both. If runtime cannot be measured precisely, give the best estimate
+  and label it as an estimate.
+- Session start and end timestamps in UTC.
+- Frontier advanced: one line naming what concretely moved, such as cells
+  resolved, loci graded, tools provisioned, reports written, or blockers
+  documented.
+- Stop reason: `completed`, `environmental termination`, `blocker`, or
+  `external`.
+- Next action: the first thing the next session should do.
+
 ## 2026-06-04 00:22 CEST - V11 Session 1
 
 Objective:
@@ -209,3 +230,12 @@ Next session first action:
   - MS-Crohn chr10 `10:80542475-81559335`: 492 allele-aligned SNPs, max PP.H4 `0.958107919239886`.
 - Interpretation: positive multi-signal support for chr1 and chr10, but not full robust-grade upgrade because runs used top-500 SNP subsets, EUR reference LD, no LDSC/HDL, and no causal-gene/effect-direction mapping.
 - Next first action: run SuSiE-coloc for UC chr5/PTGER4, Crohn chr17/STAT3-STAT5, and MHC H3 negative controls; provision LD-score reference panels before genetic correlation.
+
+## RUN SUMMARY - 2026-06-05 22:19 UTC
+
+- Active runtime: approximately 5 minutes; total elapsed approximately 5 minutes; no usage-limit waiting time observed.
+- Session start UTC: 2026-06-05 22:14 UTC (estimated).
+- Session end UTC: 2026-06-05 22:19 UTC.
+- Frontier advanced: standing mandatory session-end runtime reporting rule written into `meta/SESSION_LOG.md` and mirrored in project status.
+- Stop reason: completed.
+- Next action: continue V14 from `meta/NEXT_ACTIONS.md`, starting with bounded SuSiE-coloc on UC chr5/PTGER4, Crohn chr17/STAT3-STAT5, and MHC H3 negative controls.

@@ -8,6 +8,13 @@ V12 completed the supported-cell axis-disagreement matrix that V11 made
 resumable. V13 has started the genetics-axis robustification using the now
 working OpenGWAS token from `.env`.
 
+Standing reporting rule:
+
+- Every session must end by appending a `RUN SUMMARY` block to
+  `meta/SESSION_LOG.md` and echoing the same block in the final chat message.
+- The block must include active runtime, UTC start/end timestamps, frontier
+  advanced, stop reason, and next action.
+
 Methodology backbone:
 
 - V8 lock: `ROADMAP_V8.md`, `MAP_METHODOLOGY_V8.md`, commit `9c2e548`.
