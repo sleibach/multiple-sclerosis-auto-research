@@ -257,3 +257,12 @@ Next session first action:
 - Frontier advanced: DOI-stable Zenodo source for LDSC `eur_w_ld_chr` identified, downloaded, checksummed, extracted, and smoke-tested with `munge_sumstats.py` plus `ldsc.py --h2`.
 - Stop reason: completed.
 - Next action: run real LDSC genetic correlation for MS vs UC/Crohn using `data/raw/ldsc_reference/eur_w_ld_chr/`, with MHC-excluded sensitivity and sample-overlap/intercept reporting.
+
+## RUN SUMMARY - 2026-06-05 22:42 UTC
+
+- Active runtime: approximately 1 minute; total elapsed approximately 1 minute; no usage-limit waiting time observed.
+- Session start UTC: 2026-06-05 22:41 UTC.
+- Session end UTC: 2026-06-05 22:42 UTC.
+- Frontier advanced: `README.md` updated to reflect V14 status, LDSC Zenodo reference-panel provisioning, and the mandatory session-end reporting rule.
+- Stop reason: completed.
+- Next action: run real LDSC genetic correlation for MS vs UC/Crohn using `data/raw/ldsc_reference/eur_w_ld_chr/`, with MHC-excluded sensitivity and sample-overlap/intercept reporting.
