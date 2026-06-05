@@ -1,0 +1,58 @@
+/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/munge_sumstats.py:680: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  dat_gen = pd.read_csv(args.sumstats, delim_whitespace=True, header=0,
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 2.0.0
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./munge_sumstats.py \
+--sumstats results/provisioning/ldsc_toy/toy.sumstats.tsv \
+--N 10000.0 \
+--out results/provisioning/ldsc_toy/toy_munged 
+
+Interpreting column names as follows:
+SNP:	Variant ID (e.g., rs number)
+A1:	Allele 1, interpreted as ref allele for signed sumstat.
+A2:	Allele 2, interpreted as non-ref allele for signed sumstat.
+Z:	Z-score (0 --> no effect; above 0 --> A1 is trait/risk increasing)
+P:	p-Value
+N:	Sample size
+
+Reading sumstats from results/provisioning/ldsc_toy/toy.sumstats.tsv into memory 5000000 SNPs at a time.
+. done
+Read 5 SNPs from --sumstats file.
+Removed 0 SNPs with missing values.
+Removed 0 SNPs with INFO <= 0.9.
+Removed 0 SNPs with MAF <= 0.01.
+Removed 0 SNPs with out-of-bounds p-values.
+Removed 0 variants that were not SNPs or were strand-ambiguous.
+5 SNPs remain.
+Removed 0 SNPs with duplicated rs numbers (5 SNPs remain).
+Removed 0 SNPs with N < 6666.666666666667 (5 SNPs remain).
+
+ERROR converting summary statistics:
+
+Traceback (most recent call last):
+  File "/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/munge_sumstats.py", line 700, in munge_sumstats
+    check_median(dat.SIGNED_SUMSTAT, signed_sumstat_null, 0.1, sign_cname))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/munge_sumstats.py", line 372, in check_median
+    raise ValueError(msg.format(F=name, M=expected_median, V=round(m, 2)))
+ValueError: WARNING: median value of Z is 0.8 (should be close to 0). This column may be mislabeled.
+
+
+Conversion finished at Fri Jun  5 23:58:03 2026
+Total time elapsed: 0.01s
+Traceback (most recent call last):
+  File "/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/munge_sumstats.py", line 743, in <module>
+    munge_sumstats(parser.parse_args(), p=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/munge_sumstats.py", line 700, in munge_sumstats
+    check_median(dat.SIGNED_SUMSTAT, signed_sumstat_null, 0.1, sign_cname))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/munge_sumstats.py", line 372, in check_median
+    raise ValueError(msg.format(F=name, M=expected_median, V=round(m, 2)))
+ValueError: WARNING: median value of Z is 0.8 (should be close to 0). This column may be mislabeled.

@@ -193,3 +193,19 @@ Next session first action:
 
 - Provision LDSC/HDL and R `susieR`/`coloc`, then run multi-signal coloc and
   genome-wide rg/MHC sensitivity before re-grading.
+## 2026-06-05 23:59 CEST - V14 genetics provisioning and bounded SuSiE-coloc
+
+- User required tool provisioning before any genetics analysis.
+- Wrote `meta/PROVISIONING_REPORT.md` before any downstream coloc or correlation.
+- Installed and smoke-tested R `coloc` 5.2.3 and `susieR` 0.14.2 from CRAN mirror `https://cloud.r-project.org`.
+- Evaluated pip-installable LD-score-regression alternatives:
+  - `ldsc` 2.0.1 installed; CLI and toy munge smoke passed.
+  - `ld-score-regression` and `ldsc-python` were unavailable on PyPI under those names.
+  - Full genetic correlation remains blocked on reference LD-score panels and weights.
+- Verified OpenGWAS token with `scripts/check_opengwas_access.py`; token valid until 2026-06-19 12:28 UTC.
+- Added `scripts/v14_susie_coloc_confirmed_loci.py`.
+- Ran bounded SuSiE-coloc using OpenGWAS EUR LD matrices for:
+  - MS-UC chr1 `1:200375242-201375897`: 485 allele-aligned SNPs, max PP.H4 `0.959324545654259`.
+  - MS-Crohn chr10 `10:80542475-81559335`: 492 allele-aligned SNPs, max PP.H4 `0.958107919239886`.
+- Interpretation: positive multi-signal support for chr1 and chr10, but not full robust-grade upgrade because runs used top-500 SNP subsets, EUR reference LD, no LDSC/HDL, and no causal-gene/effect-direction mapping.
+- Next first action: run SuSiE-coloc for UC chr5/PTGER4, Crohn chr17/STAT3-STAT5, and MHC H3 negative controls; provision LD-score reference panels before genetic correlation.

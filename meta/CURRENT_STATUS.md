@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-05 16:11 CEST
+Last updated: 2026-06-06 00:05 CEST
 
 ## Mission State
 
@@ -29,6 +29,10 @@ Methodology backbone:
   - `GENETICS_AXIS_V14_LANDSCAPE_CHECKPOINT.md`
   - `CONVERGENCE_CHECK_V14_01.md`
   - `analysis/v14_locus_landscape/`
+- V14 genetics robustness provisioning and bounded SuSiE-coloc:
+  - `meta/PROVISIONING_REPORT.md`
+  - `analysis/v14_susie_coloc/REPORT.md`
+  - `scripts/v14_susie_coloc_confirmed_loci.py`
 
 ## Current Matrix State
 
@@ -109,9 +113,23 @@ PTGER4 status:
 - Not robust or intervention-grade because multi-signal coloc and therapeutic
   direction are unresolved.
 
-Tool blockers:
+Tool status:
 
-- `ldsc.py`, `munge_sumstats.py`, R `susieR`, and R `coloc` are absent.
+- R `coloc` 5.2.3 and `susieR` 0.14.2 are installed and smoke-tested.
+- PyPI `ldsc` 2.0.1 is installed; CLI/help and toy munge smoke tests pass.
+- Full LDSC/HDL genetic correlation remains blocked on reference LD-score
+  panel and weights provisioning, not on package installation.
+
+Bounded SuSiE-coloc status:
+
+- UC chr1 `1:200375242-201375897`: top-500 shared SNP subset, 485
+  allele-aligned SNPs used, max `PP.H4.abf = 0.959324545654259`.
+- Crohn chr10 `10:80542475-81559335`: top-500 shared SNP subset, 492
+  allele-aligned SNPs used, max `PP.H4.abf = 0.958107919239886`.
+- Interpretation: supports the stable first-pass H4 loci under a multi-signal
+  model, but does not yet justify robust genetics-axis upgrade because
+  genome-wide LDSC/HDL, full-region sensitivity, MHC controls, and causal-gene
+  direction mapping remain incomplete.
 
 ## V12 Findings
 
@@ -150,9 +168,9 @@ label.
 ## Highest-Value Next Actions
 
 1. Continue V14 from `GENETICS_AXIS_V14_LANDSCAPE_CHECKPOINT.md`.
-2. Provision LDSC/HDL and R `susieR`/`coloc`.
-3. Run multi-signal coloc on stable-H4, nominal-H4-only, and MHC H3 control
-   regions.
+2. Run bounded SuSiE-coloc on remaining V14 high-H4 candidates:
+   UC chr5/PTGER4, Crohn chr17/STAT3-STAT5, and MHC H3 negative controls.
+3. Provision reference LD-score panels before LDSC/HDL genetic correlation.
 4. Resolve PTGER4 effect-allele-aligned QTL direction before causal-gene or
    intervention claims.
 5. Rebuild independent tissue-repair axes where current repair evidence
@@ -163,4 +181,4 @@ label.
 - Working directory: `/Users/soeren.leibach/Projects/ms-auto-research`.
 - `.venv/bin/python` works for pandas/numpy/scipy/statsmodels scripts.
 - `.venv_v3_py312/bin/python` works for the local TF-IDF knowledge index.
-- R `4.6.0`, `phyloseq`, and `vegan` are installed.
+- R `4.6.0`, `phyloseq`, `vegan`, `coloc`, and `susieR` are installed.
