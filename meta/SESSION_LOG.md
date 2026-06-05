@@ -92,3 +92,56 @@ Next session first action:
 - If `OPENGWAS_JWT` is actually visible, upgrade the UC/MS and Crohn/MS
   genetics cells with executable OpenGWAS/HDL/LDSC and cross-trait coloc.
 - If it remains absent, extend the matrix into lower-grade/thin-axis cells.
+
+## 2026-06-05 16:11 CEST - V13 Session 1
+
+Objective:
+
+- Start the robust-grade genetics-axis upgrade now that `OPENGWAS_JWT` is
+  known to work when loaded from `.env`.
+
+Completed:
+
+- Ran `.venv/bin/python scripts/check_opengwas_access.py`; OpenGWAS auth passed.
+- Queried the local RAG index for prior genetics/coloc work before analysis.
+- Created `scripts/v13_opengwas_coloc_uc_crohn.py`.
+- Created `scripts/v13_annotate_coloc_regions.py`.
+- Ran OpenGWAS API v4 POST `/tophits` and `/associations` calls for:
+  - MS `ieu-b-18`;
+  - UC `ieu-a-32`;
+  - Crohn `ieu-a-30`.
+- Analyzed `34` shared top-hit windows with first-pass single-causal-variant
+  approximate coloc ABF.
+- Annotated regions with Ensembl GRCh37 genes.
+- Wrote `GENETICS_AXIS_V13_COLOCALIZATION_CHECKPOINT.md`.
+- Wrote `CONVERGENCE_CHECK_V13_01.md`.
+
+Key outputs:
+
+- `analysis/v13_genetics_coloc/REPORT.md`
+- `analysis/v13_genetics_coloc/coloc_region_summary_annotated.tsv`
+- `analysis/v13_genetics_coloc/coloc_snp_abf.tsv`
+
+Key result:
+
+- First-pass high-H4 regions:
+  - MS-UC `1:200375242-201375897`, `PP.H4 = 0.9840`.
+  - MS-UC `5:39896425-40944986`, `PP.H4 = 0.9337`.
+  - MS-Crohn `10:80542475-81559335`, `PP.H4 = 0.9776`.
+  - MS-Crohn `17:40014201-41029835`, `PP.H4 = 0.9413`.
+- Multiple MHC windows favored distinct causal variants (`PP.H3 ~= 1`) rather
+  than shared causal variants.
+
+Decision:
+
+- Do not upgrade matrix genetics cells yet.
+- This checkpoint adds a real coloc layer, but robust grade still requires
+  genome-wide LDSC/HDL, MHC-excluded sensitivity, multi-signal coloc, and
+  eQTL/pQTL causal-gene mapping.
+
+Next session first action:
+
+- Run `.venv/bin/python scripts/check_opengwas_access.py`.
+- Continue from `GENETICS_AXIS_V13_COLOCALIZATION_CHECKPOINT.md`.
+- Prioritize LDSC/HDL scaffold or multi-signal coloc on the four high-H4
+  regions and MHC H3 negative-control regions.

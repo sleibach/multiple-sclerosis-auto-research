@@ -1,11 +1,12 @@
 # Current Status
 
-Last updated: 2026-06-05 14:41 CEST
+Last updated: 2026-06-05 16:11 CEST
 
 ## Mission State
 
 V12 completed the supported-cell axis-disagreement matrix that V11 made
-resumable. The matrix now has no unresolved supported disagreement cells.
+resumable. V13 has started the genetics-axis robustification using the now
+working OpenGWAS token from `.env`.
 
 Methodology backbone:
 
@@ -20,6 +21,10 @@ Methodology backbone:
 - V12 synthesis:
   - `AXIS_DISAGREEMENT_FINDINGS_V12.md`
   - `CONVERGENCE_CHECK_V12_01.md`
+- V13 genetics checkpoint:
+  - `GENETICS_AXIS_V13_COLOCALIZATION_CHECKPOINT.md`
+  - `CONVERGENCE_CHECK_V13_01.md`
+  - `analysis/v13_genetics_coloc/`
 
 ## Current Matrix State
 
@@ -34,21 +39,45 @@ Status counts:
 - `artifact`: `2`.
 - `intervention_derived`: `4`.
 
-## V12 Genetics Access Limitation
+## OpenGWAS Access
 
-The V12 prompt stated that `OPENGWAS_JWT` was available, but the environment
-visible to this process returned `OPENGWAS_JWT_MISSING`.
+OpenGWAS access works when `.env` is loaded explicitly. This shell does not
+auto-load `.env`.
 
-Consequences:
+Verification command:
 
-- No new OpenGWAS/LDSC/HDL was run.
-- No new MS-UC or MS-Crohn cross-trait colocalization was run.
-- V12 genetics cells are resolved at supported triangulation grade, not robust
-  coloc-grade.
+- `.venv/bin/python scripts/check_opengwas_access.py`
 
-The upgrade path is specific: rerun the UC/MS and Crohn/MS genetics cells with
-working OpenGWAS access, sample-overlap checks, and cross-trait coloc for the
-shared target/locus set.
+Verified on 2026-06-05:
+
+- `/user`: HTTP `200`.
+- POST `/gwasinfo` for `ieu-b-18`: HTTP `200`.
+- POST `/tophits` for `ieu-b-18`: HTTP `200`.
+
+Use OpenGWAS API v4 POST calls for `gwasinfo`, `tophits`, and `associations`.
+Do not reuse old GET-style scripts.
+
+## V13 Genetics Checkpoint
+
+First-pass OpenGWAS coloc has been run for MS/UC/Crohn overlapping top-hit
+regions.
+
+High-H4 first-pass regions:
+
+- MS-UC `1:200375242-201375897`, `PP.H4 = 0.9840`.
+- MS-UC `5:39896425-40944986`, `PP.H4 = 0.9337`.
+- MS-Crohn `10:80542475-81559335`, `PP.H4 = 0.9776`.
+- MS-Crohn `17:40014201-41029835`, `PP.H4 = 0.9413`.
+
+MHC windows in both UC and Crohn mostly favored `PP.H3 ~= 1`, meaning distinct
+causal variants rather than simple shared causality.
+
+Matrix grade decision:
+
+- No genetics matrix cell is upgraded to robust yet.
+- The current coloc is single-causal-variant and top-hit-window selected.
+- Required next layers: genome-wide LDSC/HDL, MHC-excluded sensitivity,
+  multi-signal coloc, and eQTL/pQTL causal-gene mapping.
 
 ## V12 Findings
 
@@ -86,12 +115,13 @@ label.
 
 ## Highest-Value Next Actions
 
-1. If `OPENGWAS_JWT` becomes visible to the process, upgrade UC/MS and
-   Crohn/MS genetics cells with executable OpenGWAS/HDL/LDSC and cross-trait
-   coloc.
-2. Extend the disagreement matrix into lower-grade or thin-axis cells while
-   preserving V11/V12 artifact discipline.
-3. Rebuild independent tissue-repair axes where current repair evidence
+1. Continue V13 genetics robustification from
+   `GENETICS_AXIS_V13_COLOCALIZATION_CHECKPOINT.md`.
+2. Run or scaffold genome-wide LDSC/HDL for MS-UC and MS-Crohn with
+   MHC-included and MHC-excluded sensitivity.
+3. Run multi-signal coloc on first-pass H4 regions and MHC H3 negative controls.
+4. Add eQTL/pQTL coloc before causal-gene or intervention claims.
+5. Rebuild independent tissue-repair axes where current repair evidence
    overlaps treatment-response evidence.
 
 ## Compute / Access Notes

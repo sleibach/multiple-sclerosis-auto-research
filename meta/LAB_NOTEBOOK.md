@@ -1510,3 +1510,46 @@ Synthesis:
   support downstream mucosal IFN/APC response-monitoring analogies.
 - The next upgrade is executable genetics: OpenGWAS/HDL/LDSC plus cross-trait
   coloc for UC/MS and Crohn/MS shared targets once credentials are visible.
+
+## 2026-06-05 16:11 CEST - V13 OpenGWAS First-Pass MS/UC/Crohn Coloc
+
+Question:
+
+- Does the V12 genetics layer survive the first executable locus-level
+  colocalization check now that OpenGWAS access works?
+
+Execution:
+
+- Loaded `.env` explicitly and verified OpenGWAS with
+  `scripts/check_opengwas_access.py`.
+- Queried the local RAG index before analysis.
+- Wrote and ran `scripts/v13_opengwas_coloc_uc_crohn.py`.
+- Wrote and ran `scripts/v13_annotate_coloc_regions.py`.
+- Used OpenGWAS API v4 POST `/tophits` and `/associations`.
+- Inputs:
+  - MS `ieu-b-18`;
+  - UC `ieu-a-32`;
+  - Crohn `ieu-a-30`.
+- Defined shared windows where top hits were within `+/-500 kb`.
+- Ran first-pass single-causal-variant approximate coloc ABF.
+
+Result:
+
+- Shared top-hit windows analyzed: `34`.
+- High-H4 MS-UC regions:
+  - `1:200375242-201375897`, `PP.H4 = 0.9840`.
+  - `5:39896425-40944986`, `PP.H4 = 0.9337`.
+- High-H4 MS-Crohn regions:
+  - `10:80542475-81559335`, `PP.H4 = 0.9776`.
+  - `17:40014201-41029835`, `PP.H4 = 0.9413`.
+- MHC windows in both UC and Crohn favored distinct causal variants
+  (`PP.H3 ~= 1`), not simple shared causal variants.
+
+Decision:
+
+- Do not upgrade genetics cells to robust yet.
+- This is a real coloc layer but not full robust-grade genetics because it lacks
+  genome-wide LDSC/HDL, MHC-excluded sensitivity, multi-signal coloc, and QTL
+  causal-gene mapping.
+- Next required work: LDSC/HDL scaffold and SuSiE-coloc/eQTL-coloc on the
+  high-H4 regions plus MHC negative controls.

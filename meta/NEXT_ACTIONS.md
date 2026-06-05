@@ -1,18 +1,22 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-06-05 14:41 CEST
+Last updated: 2026-06-05 16:11 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
 ## Queue
 
-No unresolved supported cells remain. `AXIS_DISAGREEMENT_FINDINGS_V12.md` has
-been written.
+No unresolved supported V12 cells remain. V13 has begun genetics-axis
+robustification with executable OpenGWAS first-pass coloc for MS/UC/Crohn.
 
 Next session first action:
 
-1. If `OPENGWAS_JWT` is visible to the process, upgrade the UC/MS and Crohn/MS
-   genetics cells with executable OpenGWAS/HDL/LDSC and cross-trait
-   colocalization.
-2. If `OPENGWAS_JWT` is still not visible, extend the matrix into lower-grade
-   or thin-axis cells while preserving V11/V12 artifact-control discipline.
+1. Run `.venv/bin/python scripts/check_opengwas_access.py`.
+2. Continue from `GENETICS_AXIS_V13_COLOCALIZATION_CHECKPOINT.md`.
+3. Run or scaffold genome-wide LDSC/HDL for MS-UC and MS-Crohn using
+   OpenGWAS-accessible summary statistics, with MHC-included and MHC-excluded
+   sensitivity.
+4. Run multi-signal SuSiE-coloc on the four first-pass high-H4 regions and MHC
+   H3 negative-control regions.
+5. Do not upgrade matrix grades until LDSC/HDL, multi-signal coloc, and
+   eQTL/pQTL causal-gene mapping are available.
