@@ -40,6 +40,23 @@ STATUS_OVERRIDES = {
             "delta, not baseline IFN/APC height. See UC_STATIC_DYNAMIC_APC_DECOUPLING_V11.md."
         ),
     },
+    ("ulcerative colitis", "axis_02_genetics", "axis_07_treatment_response"): {
+        "status": "intervention_derived",
+        "resolution_grade": "V12 supported genetics layer-decoupling finding",
+        "last_action": (
+            "V12 triangulated published MS-UC LDSC genetics, OpenTargets shared "
+            "genetic targets, QTL/L2G target-resolution evidence, UC myeloid "
+            "cell-state transcriptomics, and V7 treatment-response cohorts. "
+            "Resolved as upstream shared genetic liability decoupled from downstream "
+            "mucosal dynamic treatment-response architecture. OPENGWAS_JWT was not "
+            "visible, so new LDSC/coloc was not run."
+        ),
+        "next_action": (
+            "Upgrade only when OpenGWAS/coloc can run: test shared loci and 12 "
+            "shared OpenTargets genes for cross-trait colocalization and response "
+            "prediction. See UC_GENETICS_TREATMENT_DECOUPLING_V12.md."
+        ),
+    },
     ("Sjogren syndrome", "axis_01_ifn_apc", "axis_04_lipid_lysosomal"): {
         "status": "biological",
         "resolution_grade": "Tier 1 candidate",
@@ -98,6 +115,48 @@ STATUS_OVERRIDES = {
             "and tissue-repair axes; row downgraded by independence penalty."
         ),
         "next_action": "Rebuild tissue-repair axis with independent repair endpoints.",
+    },
+    ("Crohn disease", "axis_01_ifn_apc", "axis_02_genetics"): {
+        "status": "biological",
+        "resolution_grade": "V12 supported downstream-convergence finding",
+        "last_action": (
+            "V12 triangulated published MS-Crohn LDSC genetics, OpenTargets shared "
+            "targets, QTL/L2G and same-gene cell-state evidence, Crohn colon myeloid "
+            "IFN/APC transcriptomics, and IBD treatment-response context. Resolved as "
+            "downstream colon myeloid IFN/APC convergence exceeding inherited-risk "
+            "proximity. OPENGWAS_JWT was not visible, so new LDSC/coloc was not run."
+        ),
+        "next_action": (
+            "Upgrade with in-process OpenGWAS/HDL and cross-trait coloc, then replicate "
+            "Crohn myeloid IFN/APC in an independent atlas. See CROHN_IFN_APC_GENETICS_DECOUPLING_V12.md."
+        ),
+    },
+    ("Crohn disease", "axis_02_genetics", "axis_07_treatment_response"): {
+        "status": "intervention_derived",
+        "resolution_grade": "V12 supported downstream-response convergence finding",
+        "last_action": (
+            "V12 resolved as Crohn intermediate MS genetics with downstream mucosal "
+            "treatment-response convergence. Evidence combined published genetics, "
+            "OpenTargets target overlap, QTL/L2G/same-gene cell-state evidence, "
+            "Crohn/IBD myeloid IFN/APC transcriptomics, and GSE16879 response dynamics."
+        ),
+        "next_action": (
+            "Upgrade with executable OpenGWAS/coloc and Crohn-only paired mucosal "
+            "response cohorts. See CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md."
+        ),
+    },
+    ("Crohn disease", "axis_02_genetics", "axis_08_tissue_repair_resolution"): {
+        "status": "intervention_derived",
+        "resolution_grade": "V12 supported downstream-repair convergence finding",
+        "last_action": (
+            "V12 resolved as Crohn intermediate MS genetics with downstream mucosal "
+            "repair/response-monitoring convergence. The transferable concept is "
+            "inflammatory-state downshift, not remyelination or shared causal genetics."
+        ),
+        "next_action": (
+            "Upgrade with executable OpenGWAS/coloc, Crohn-only treatment cohorts, and "
+            "repair endpoints independent of IFN/APC delta. See CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md."
+        ),
     },
 }
 
@@ -192,7 +251,7 @@ def write_next_actions(matrix: pd.DataFrame) -> None:
         "",
     ]
     if unresolved.empty:
-        lines.append("No unresolved supported cells remain. Synthesize V11.")
+        lines.append("No unresolved supported cells remain. Synthesize V12.")
     else:
         for n, (_, row) in enumerate(unresolved.iterrows(), start=1):
             genetics_note = " genetics-involving" if "genetic" in f"{row['axis_a_label']} {row['axis_b_label']}".lower() else ""

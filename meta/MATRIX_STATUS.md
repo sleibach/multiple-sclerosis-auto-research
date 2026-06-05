@@ -1,19 +1,19 @@
 # MATRIX_STATUS
 
-Last updated: 2026-06-04 00:22 
+Last updated: 2026-06-05 14:39 
 
 Canonical machine-readable state: `analysis/v11_matrix/disagreement_matrix.tsv`.
 
 ## Summary
 
 - Total qualifying supported disagreement cells: `10`.
-- Non-unresolved cells: `6`.
-- Completion: `60.0%`.
-- `unresolved`: `4`.
-- `biological`: `3`.
+- Non-unresolved cells: `10`.
+- Completion: `100.0%`.
+- `unresolved`: `0`.
+- `biological`: `4`.
 - `artifact`: `2`.
 - `explained`: `0`.
-- `intervention_derived`: `1`.
+- `intervention_derived`: `4`.
 
 ## Cells
 
@@ -72,6 +72,17 @@ Canonical machine-readable state: `analysis/v11_matrix/disagreement_matrix.tsv`.
 - Last action: V10 RA audit: RA anti-TNF blood APC response rules fail, but pregnancy immune-kinetic axis is near MS.
 - Next action: Test whether pregnancy modules fail to rescue RA anti-TNF APC response in independent cohorts.
 
+### 007_Crohn_disease_axis_01_ifn_apc_vs_axis_02_genetics
+
+- Disease: `Crohn disease`.
+- Axis A: `IFN/APC antigen-presentation state` = `near/supported`.
+- Axis B: `genetic risk architecture` = `intermediate/supported`.
+- Rank score: `1.5`.
+- Status: `biological`.
+- Resolution grade: `V12 supported downstream-convergence finding`.
+- Last action: V12 triangulated published MS-Crohn LDSC genetics, OpenTargets shared targets, QTL/L2G and same-gene cell-state evidence, Crohn colon myeloid IFN/APC transcriptomics, and IBD treatment-response context. Resolved as downstream colon myeloid IFN/APC convergence exceeding inherited-risk proximity. OPENGWAS_JWT was not visible, so new LDSC/coloc was not run.
+- Next action: Upgrade with in-process OpenGWAS/HDL and cross-trait coloc, then replicate Crohn myeloid IFN/APC in an independent atlas. See CROHN_IFN_APC_GENETICS_DECOUPLING_V12.md.
+
 ### 001_ulcerative_colitis_axis_01_ifn_apc_vs_axis_07_treatment_response
 
 - Disease: `ulcerative colitis`.
@@ -89,21 +100,10 @@ Canonical machine-readable state: `analysis/v11_matrix/disagreement_matrix.tsv`.
 - Axis A: `genetic risk architecture` = `near/supported`.
 - Axis B: `treatment-response architecture` = `contradictory/supported`.
 - Rank score: `3.75`.
-- Status: `unresolved`.
-- Resolution grade: ``.
-- Last action: Imported from frozen V10 supported-only disagreement matrix.
-- Next action: Run V11 artifact audit: compartment, cohort, measurement grade.
-
-### 007_Crohn_disease_axis_01_ifn_apc_vs_axis_02_genetics
-
-- Disease: `Crohn disease`.
-- Axis A: `IFN/APC antigen-presentation state` = `near/supported`.
-- Axis B: `genetic risk architecture` = `intermediate/supported`.
-- Rank score: `1.5`.
-- Status: `unresolved`.
-- Resolution grade: ``.
-- Last action: Imported from frozen V10 supported-only disagreement matrix.
-- Next action: Run V11 artifact audit: compartment, cohort, measurement grade.
+- Status: `intervention_derived`.
+- Resolution grade: `V12 supported genetics layer-decoupling finding`.
+- Last action: V12 triangulated published MS-UC LDSC genetics, OpenTargets shared genetic targets, QTL/L2G target-resolution evidence, UC myeloid cell-state transcriptomics, and V7 treatment-response cohorts. Resolved as upstream shared genetic liability decoupled from downstream mucosal dynamic treatment-response architecture. OPENGWAS_JWT was not visible, so new LDSC/coloc was not run.
+- Next action: Upgrade only when OpenGWAS/coloc can run: test shared loci and 12 shared OpenTargets genes for cross-trait colocalization and response prediction. See UC_GENETICS_TREATMENT_DECOUPLING_V12.md.
 
 ### 008_Crohn_disease_axis_02_genetics_vs_axis_07_treatment_response
 
@@ -111,10 +111,10 @@ Canonical machine-readable state: `analysis/v11_matrix/disagreement_matrix.tsv`.
 - Axis A: `genetic risk architecture` = `intermediate/supported`.
 - Axis B: `treatment-response architecture` = `near/supported`.
 - Rank score: `1.5`.
-- Status: `unresolved`.
-- Resolution grade: ``.
-- Last action: Imported from frozen V10 supported-only disagreement matrix.
-- Next action: Run V11 artifact audit: compartment, cohort, measurement grade.
+- Status: `intervention_derived`.
+- Resolution grade: `V12 supported downstream-response convergence finding`.
+- Last action: V12 resolved as Crohn intermediate MS genetics with downstream mucosal treatment-response convergence. Evidence combined published genetics, OpenTargets target overlap, QTL/L2G/same-gene cell-state evidence, Crohn/IBD myeloid IFN/APC transcriptomics, and GSE16879 response dynamics.
+- Next action: Upgrade with executable OpenGWAS/coloc and Crohn-only paired mucosal response cohorts. See CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md.
 
 ### 009_Crohn_disease_axis_02_genetics_vs_axis_08_tissue_repair_resolution
 
@@ -122,7 +122,7 @@ Canonical machine-readable state: `analysis/v11_matrix/disagreement_matrix.tsv`.
 - Axis A: `genetic risk architecture` = `intermediate/supported`.
 - Axis B: `tissue repair and resolution biology` = `near/supported`.
 - Rank score: `1.5`.
-- Status: `unresolved`.
-- Resolution grade: ``.
-- Last action: Imported from frozen V10 supported-only disagreement matrix.
-- Next action: Run V11 artifact audit: compartment, cohort, measurement grade.
+- Status: `intervention_derived`.
+- Resolution grade: `V12 supported downstream-repair convergence finding`.
+- Last action: V12 resolved as Crohn intermediate MS genetics with downstream mucosal repair/response-monitoring convergence. The transferable concept is inflammatory-state downshift, not remyelination or shared causal genetics.
+- Next action: Upgrade with executable OpenGWAS/coloc, Crohn-only treatment cohorts, and repair endpoints independent of IFN/APC delta. See CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md.

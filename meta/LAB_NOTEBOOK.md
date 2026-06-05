@@ -1458,3 +1458,55 @@ Decision:
   sharpen the claim: the robust part is antigen-presentation versus
   lysosomal/APC decoupling; lipid-loader/foamy-myeloid transfer remains blocked
   pending matched APC or spatial replication.
+
+## 2026-06-05 14:41 CEST - V12 Genetics Disagreement Matrix Completion
+
+Question:
+
+- Can the remaining supported genetics-involving disagreement cells be resolved
+  by multi-tool triangulation rather than by a single genetics method?
+
+Credential check:
+
+- `OPENGWAS_JWT` was not visible to this process, despite the V12 prompt
+  stating that the credential was available.
+- New OpenGWAS/LDSC/HDL and cross-trait colocalization were therefore not run.
+- V12 genetics resolutions are supported triangulation findings, not robust
+  coloc-grade findings.
+
+Execution:
+
+- Queried the local RAG index before the UC and Crohn genetics cells.
+- Built shared OpenTargets target-overlap tables:
+  - `analysis/v12_uc_genetics_treatment/shared_ms_uc_opentargets_genetic_targets.tsv`
+  - `analysis/v12_uc_genetics_treatment/shared_ms_crohn_opentargets_genetic_targets.tsv`
+- Resolved UC genetics versus treatment response in
+  `UC_GENETICS_TREATMENT_DECOUPLING_V12.md`.
+- Resolved Crohn IFN/APC versus genetics in
+  `CROHN_IFN_APC_GENETICS_DECOUPLING_V12.md`.
+- Resolved Crohn genetics versus treatment response and tissue repair in
+  `CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md`.
+- Regenerated canonical matrix state:
+  - `analysis/v11_matrix/disagreement_matrix.tsv`
+  - `meta/MATRIX_STATUS.md`
+  - `meta/NEXT_ACTIONS.md`
+
+Result:
+
+- Supported disagreement cells: `10`.
+- Resolved/classified cells: `10`.
+- Matrix completion: `100.0%`.
+- Status counts:
+  - `biological`: `4`.
+  - `artifact`: `2`.
+  - `intervention_derived`: `4`.
+
+Synthesis:
+
+- Wrote `AXIS_DISAGREEMENT_FINDINGS_V12.md`.
+- Core rule: MS-adjacent autoimmune mechanisms transfer by biological layer,
+  not disease label.
+- UC is the better gut comparator for inherited MS risk; UC and Crohn both
+  support downstream mucosal IFN/APC response-monitoring analogies.
+- The next upgrade is executable genetics: OpenGWAS/HDL/LDSC plus cross-trait
+  coloc for UC/MS and Crohn/MS shared targets once credentials are visible.
