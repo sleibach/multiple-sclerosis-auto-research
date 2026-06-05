@@ -124,8 +124,14 @@ Tool status:
 
 - R `coloc` 5.2.3 and `susieR` 0.14.2 are installed and smoke-tested.
 - PyPI `ldsc` 2.0.1 is installed; CLI/help and toy munge smoke tests pass.
-- Full LDSC/HDL genetic correlation remains blocked on reference LD-score
-  panel and weights provisioning, not on package installation.
+- LDSC reference-panel provisioning is now complete from Zenodo DOI
+  `10.5281/zenodo.14993076`.
+- `data/raw/ldsc_reference/eur_w_ld_chr/` contains 22 `.l2.ldscore.gz` files,
+  22 `.l2.M_5_50` files, and `w_hm3.snplist`.
+- Reference-panel smoke test passed with `munge_sumstats.py` and
+  `ldsc.py --h2` on a reference-matched toy file.
+- HDL remains separate and not provisioned; LDSC genetic correlation is now
+  unblocked.
 
 Bounded SuSiE-coloc status:
 
@@ -177,7 +183,9 @@ label.
 1. Continue V14 from `GENETICS_AXIS_V14_LANDSCAPE_CHECKPOINT.md`.
 2. Run bounded SuSiE-coloc on remaining V14 high-H4 candidates:
    UC chr5/PTGER4, Crohn chr17/STAT3-STAT5, and MHC H3 negative controls.
-3. Provision reference LD-score panels before LDSC/HDL genetic correlation.
+3. Run real LDSC genetic correlation for MS vs UC/Crohn using the provisioned
+   `data/raw/ldsc_reference/eur_w_ld_chr/` reference panel, with MHC-excluded
+   sensitivity and sample-overlap/intercept reporting.
 4. Resolve PTGER4 effect-allele-aligned QTL direction before causal-gene or
    intervention claims.
 5. Rebuild independent tissue-repair axes where current repair evidence

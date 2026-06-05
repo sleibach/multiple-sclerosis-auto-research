@@ -1,0 +1,48 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 2.0.0
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./munge_sumstats.py \
+--sumstats results/provisioning/ldsc_reference_smoke/hm3_reference_matched_toy.sumstats.tsv \
+--N 100000.0 \
+--out results/provisioning/ldsc_reference_smoke/hm3_reference_matched_toy_munged \
+--merge-alleles data/raw/ldsc_reference/eur_w_ld_chr/w_hm3.snplist 
+
+Interpreting column names as follows:
+SNP:	Variant ID (e.g., rs number)
+A1:	Allele 1, interpreted as ref allele for signed sumstat.
+A2:	Allele 2, interpreted as non-ref allele for signed sumstat.
+Z:	Z-score (0 --> no effect; above 0 --> A1 is trait/risk increasing)
+P:	p-Value
+N:	Sample size
+
+Reading list of SNPs for allele merge from data/raw/ldsc_reference/eur_w_ld_chr/w_hm3.snplist
+Read 1217311 SNPs for allele merge.
+Reading sumstats from results/provisioning/ldsc_reference_smoke/hm3_reference_matched_toy.sumstats.tsv into memory 5000000 SNPs at a time.
+Read 121731 SNPs from --sumstats file.
+Removed 0 SNPs not in --merge-alleles.
+Removed 0 SNPs with missing values.
+Removed 0 SNPs with INFO <= 0.9.
+Removed 0 SNPs with MAF <= 0.01.
+Removed 0 SNPs with out-of-bounds p-values.
+Removed 0 variants that were not SNPs or were strand-ambiguous.
+121731 SNPs remain.
+Removed 0 SNPs with duplicated rs numbers (121731 SNPs remain).
+Removed 0 SNPs with N < 66666.66666666667 (121731 SNPs remain).
+Median value of Z was 0.00273646, which seems sensible.
+Removed 0 SNPs whose alleles did not match --merge-alleles (121731 SNPs remain).
+Writing summary statistics for 1217311 SNPs (121731 with nonmissing beta) to results/provisioning/ldsc_reference_smoke/hm3_reference_matched_toy_munged.sumstats.gz.
+
+Metadata:
+Mean chi^2 = 0.999
+WARNING: mean chi^2 may be too small.
+Lambda GC = 0.995
+Max chi^2 = 21.409
+0 Genome-wide significant SNPs (some may have been removed by filtering).
+
+Conversion finished at Sat Jun  6 00:38:50 2026
+Total time elapsed: 7.34s

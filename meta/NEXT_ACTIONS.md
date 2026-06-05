@@ -13,8 +13,11 @@ Current genetics robustness state:
 
 - `meta/PROVISIONING_REPORT.md` exists.
 - R `coloc` 5.2.3 and `susieR` 0.14.2 are installed and smoke-tested.
-- PyPI `ldsc` 2.0.1 is installed; munge and CLI smoke tests pass, but genetic
-  correlation remains blocked on reference LD-score panel provisioning.
+- PyPI `ldsc` 2.0.1 is installed; munge and CLI smoke tests pass.
+- Standard LDSC European LD-score reference panel is provisioned from Zenodo DOI
+  `10.5281/zenodo.14993076` at `data/raw/ldsc_reference/eur_w_ld_chr/`.
+- `w_hm3.snplist` is present inside the extracted reference panel.
+- Reference-panel smoke test passed with `munge_sumstats.py` and `ldsc.py --h2`.
 - Bounded SuSiE-coloc has been run for UC chr1 and Crohn chr10 using OpenGWAS
   EUR LD matrices and top-500 shared SNP subsets:
   - UC chr1 `1:200375242-201375897`: max PP.H4 `0.959324545654259`.
@@ -29,7 +32,8 @@ Next session first action:
    - Crohn `17:40014201-41029835`;
    - UC `5:39896425-40944986`;
    - MHC H3 negative controls.
-4. Provision reference LD-score panels before LDSC/HDL genetic correlation.
+4. Run real LDSC genetic correlation for MS vs UC/Crohn with MHC-excluded
+   sensitivity and sample-overlap/intercept reporting.
 5. For PTGER4, resolve effect-allele-aligned QTL direction before any
    agonist/antagonist or MS intervention claim.
 6. Do not upgrade matrix grades until LDSC/HDL, multi-signal coloc, and

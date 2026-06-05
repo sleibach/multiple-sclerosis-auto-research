@@ -139,3 +139,99 @@ Current reference-panel status:
 - The standard LDSC European LD-score panel and HapMap3 SNP list are not present.
 - LDSC genetic-correlation analysis remains blocked. The block is not an observed proxy/allowlist block; it is that the LDSC GitHub-documented Broad URLs currently redirect to `alkesgroup.broadinstitute.org` and return HTTP `404`.
 - No LDSC smoke test was run, because there is no verifiable reference panel on disk.
+
+## LDSC Reference Panel Working Source - 2026-06-05 22:39 UTC
+
+Purpose: find a current working source for the standard LDSC European LD score panel and HapMap3 SNP list after the Broad-documented URLs returned 404.
+
+Sources searched/read:
+
+- LDSC GitHub README and wiki documentation, including the Broad `README_new_data_location.txt`.
+- LDSC GitHub issues search for `eur_w_ld_chr`, `w_hm3.snplist`, `zenodo.7768714`, and `README_new_data_location`.
+- Zenodo records `10.5281/zenodo.7768714` and `10.5281/zenodo.14993076`.
+- HDL GitHub reference-panel documentation.
+- PGC resource-page web search for `eur_w_ld_chr`, `w_hm3.snplist`, and LDSC reference files.
+
+Working source selected:
+
+- DOI-stable source: Zenodo record `10.5281/zenodo.14993076`
+- Record title from Zenodo API: `Original european LDscores`
+- File URL: `https://zenodo.org/records/14993076/files/eur_w_ld_chr.tgz`
+- API content URL: `https://zenodo.org/api/records/14993076/files/eur_w_ld_chr.tgz/content`
+- File listed by Zenodo API:
+  - filename: `eur_w_ld_chr.tgz`
+  - size: `31708859` bytes
+  - Zenodo checksum: `md5:76c1890c8cf22d99d05c6707cc8441b4`
+
+Verification before download:
+
+- `curl -I -L https://zenodo.org/records/14993076/files/eur_w_ld_chr.tgz`
+- Result: HTTP `200 OK`
+- `content-length`: `31708859`
+- Host: `zenodo.org`
+- Proxy block: none observed.
+- `x-deny-reason`: none observed.
+- Header log: `logs/provisioning/current_ldsc_sources/zenodo_14993076_eur_w_ld_chr_tgz.headers`
+
+Download result:
+
+- Local archive: `data/raw/ldsc_reference/eur_w_ld_chr.tgz`
+- Download exit code: `0`
+- Size on disk: `31708859` bytes
+- MD5: `76c1890c8cf22d99d05c6707cc8441b4`
+- SHA-256: `0ac97e1c128ca5ba5dfd5858c736741b1544434924248027ae73725a9773311a`
+- Download header/log files:
+  - `logs/provisioning/current_ldsc_sources/zenodo_14993076_eur_w_ld_chr_download.headers`
+  - `logs/provisioning/current_ldsc_sources/zenodo_14993076_eur_w_ld_chr_download.stderr`
+
+Extraction result:
+
+- Extracted directory: `data/raw/ldsc_reference/eur_w_ld_chr/`
+- `.l2.ldscore.gz` files: `22`
+- `.l2.M_5_50` files: `22`
+- HapMap3 SNP list present: `data/raw/ldsc_reference/eur_w_ld_chr/w_hm3.snplist`
+- `w_hm3.snplist` line count: `1217312` including header
+- `w_hm3.snplist` size: `17264312` bytes
+- `w_hm3.snplist` MD5: `e1372a59749eb1f92f7f6931c075f5ac`
+- `w_hm3.snplist` SHA-256: `ec73fca0b696e8beba465b51e52911676fcade375bcc9475d99c0ec30509d3ed`
+
+Reference-panel smoke test:
+
+- Synthetic reference-matched toy summary statistics generated from every 10th SNP in `w_hm3.snplist`: `121731` SNP rows.
+- Munge command used:
+
+```bash
+.venv/bin/python .venv/bin/munge_sumstats.py \
+  --sumstats results/provisioning/ldsc_reference_smoke/hm3_reference_matched_toy.sumstats.tsv \
+  --N 100000 \
+  --merge-alleles data/raw/ldsc_reference/eur_w_ld_chr/w_hm3.snplist \
+  --out results/provisioning/ldsc_reference_smoke/hm3_reference_matched_toy_munged
+```
+
+- Munge exit code: `0`
+- Munge result: read `121731` SNPs, read `1217311` merge-allele SNPs, removed `0` allele mismatches, wrote `1217311` SNPs with `121731` nonmissing beta values.
+- Munge log: `logs/provisioning/ldsc_reference_smoke/munge_hm3_reference_matched_toy.log`
+
+LDSC smoke command used:
+
+```bash
+.venv/bin/python .venv/bin/ldsc.py \
+  --h2 results/provisioning/ldsc_reference_smoke/hm3_reference_matched_toy_munged.sumstats.gz \
+  --ref-ld-chr data/raw/ldsc_reference/eur_w_ld_chr/ \
+  --w-ld-chr data/raw/ldsc_reference/eur_w_ld_chr/ \
+  --out results/provisioning/ldsc_reference_smoke/hm3_reference_matched_toy_h2
+```
+
+- LDSC smoke exit code: `0`
+- LDSC read reference panel LD Scores for `1290028` SNPs.
+- LDSC read regression weight LD Scores for `1290028` SNPs.
+- After merging with reference panel LD and regression SNP LD, `118434` SNPs remained.
+- LDSC warning: number of SNPs was less than `200k`; this is expected for this deliberately small smoke test and is not a panel failure.
+- LDSC completed and reported observed-scale toy h2 `0.0137 (0.0043)`.
+- LDSC log: `logs/provisioning/ldsc_reference_smoke/ldsc_h2_hm3_reference_matched_toy.log`
+
+Current reference-panel status:
+
+- The standard LDSC European LD score panel is present and smoke-tested.
+- The HapMap3 SNP list is present inside the extracted Zenodo archive and smoke-tested through `--merge-alleles`.
+- LDSC may now be used for real genetic-correlation work, subject to the usual ancestry matching, sample-overlap/intercept checks, and MHC sensitivity discipline.
