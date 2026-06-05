@@ -239,3 +239,12 @@ Next session first action:
 - Frontier advanced: standing mandatory session-end runtime reporting rule written into `meta/SESSION_LOG.md` and mirrored in project status.
 - Stop reason: completed.
 - Next action: continue V14 from `meta/NEXT_ACTIONS.md`, starting with bounded SuSiE-coloc on UC chr5/PTGER4, Crohn chr17/STAT3-STAT5, and MHC H3 negative controls.
+
+## RUN SUMMARY - 2026-06-05 22:29 UTC
+
+- Active runtime: approximately 2 minutes; total elapsed approximately 2 minutes; no usage-limit waiting time observed.
+- Session start UTC: 2026-06-05 22:27 UTC.
+- Session end UTC: 2026-06-05 22:29 UTC.
+- Frontier advanced: LDSC and HDL GitHub documentation read; standard LDSC `eur_w_ld_chr.tar.bz2` and `w_hm3.snplist.bz2` documented URLs tested and recorded in `meta/PROVISIONING_REPORT.md`.
+- Stop reason: blocker.
+- Next action: locate a currently working official/mirrored source for the standard LDSC European LD-score panel and HapMap3 SNP list, or manually provide those files under `data/raw/ldsc_reference/`, then run a reference-panel presence/smoke test before LDSC.

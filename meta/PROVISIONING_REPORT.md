@@ -90,3 +90,52 @@ Failed toy note: an initial five-SNP toy munge was rejected by LDSC with `ValueE
 ## Next Allowed Step
 
 Because this report now exists and both `coloc` and `susieR` passed real smoke tests, the project may proceed to multi-signal SuSiE/coloc work on the chr1 UC and chr10 Crohn loci. Genetic-correlation work should wait until reference LD-score panels and weights are provisioned and documented.
+
+## LDSC Reference Panel Download Attempt - 2026-06-05 22:29 UTC
+
+Purpose: identify exact current documented URLs for the standard LDSC European LD score reference panel and HapMap3 SNP list by reading LDSC and HDL GitHub documentation, then attempt download. LDSC was not run because the required files were not verifiably present.
+
+Documentation sources read and cached:
+
+- LDSC GitHub wiki page `Heritability-and-Genetic-Correlation.md`: `logs/provisioning/reference_docs/ldsc_heritability_genetic_correlation.md`
+- LDSC GitHub `README.md`: `logs/provisioning/reference_docs/ldsc_README.md`
+- HDL GitHub wiki page `Reference-panels.md`: `logs/provisioning/reference_docs/hdl_reference_panels.md`
+
+Documented LDSC URLs:
+
+- European LD score reference panel:
+  - LDSC wiki command: `wget https://data.broadinstitute.org/alkesgroup/LDSCORE/eur_w_ld_chr.tar.bz2`
+  - LDSC README link: `https://data.broadinstitute.org/alkesgroup/LDSCORE/eur_w_ld_chr.tar.bz2`
+- HapMap3 SNP list:
+  - LDSC wiki command: `wget https://data.broadinstitute.org/alkesgroup/LDSCORE/w_hm3.snplist.bz2`
+
+HDL documentation note:
+
+- HDL's GitHub wiki documents HDL-specific Dropbox-hosted UK Biobank SVD reference panels, not the standard LDSC `eur_w_ld_chr.tar.bz2` and `w_hm3.snplist.bz2` files.
+- HDL imputed HapMap3 panel URL documented there: `https://www.dropbox.com/s/6js1dzy4tkc3gac/UKB_imputed_SVD_eigen99_extraction.tar.gz?dl=0`, MD5 `b1ba0081dc0f7cbf626c0e711e88a2e9`. This was recorded for context but not downloaded because it is not the requested standard LDSC European LD-score panel and is approximately 33 GB after extraction.
+
+Download attempts:
+
+- `https://data.broadinstitute.org/alkesgroup/LDSCORE/eur_w_ld_chr.tar.bz2`
+  - HEAD result: HTTP `301` redirect to `https://alkesgroup.broadinstitute.org/LDSCORE/eur_w_ld_chr.tar.bz2`, then HTTP `404`.
+  - GET result: curl exit `56`, final HTTP `404`.
+  - Redirect/final host: `alkesgroup.broadinstitute.org`.
+  - Proxy block: none observed.
+  - `x-deny-reason`: none observed in headers.
+  - Output file present: no.
+  - Headers/logs: `logs/provisioning/ldsc_reference/eur_w_ld_chr.tar.bz2.headers`, `logs/provisioning/ldsc_reference/eur_w_ld_chr.tar.bz2.get_headers`, `logs/provisioning/ldsc_reference/download_attempt.log`.
+- `https://data.broadinstitute.org/alkesgroup/LDSCORE/w_hm3.snplist.bz2`
+  - HEAD result: HTTP `301` redirect to `https://alkesgroup.broadinstitute.org/LDSCORE/w_hm3.snplist.bz2`, then HTTP `404`.
+  - GET result: curl exit `56`, final HTTP `404`.
+  - Redirect/final host: `alkesgroup.broadinstitute.org`.
+  - Proxy block: none observed.
+  - `x-deny-reason`: none observed in headers.
+  - Output file present: no.
+  - Headers/logs: `logs/provisioning/ldsc_reference/w_hm3.snplist.bz2.headers`, `logs/provisioning/ldsc_reference/w_hm3.snplist.bz2.get_headers`, `logs/provisioning/ldsc_reference/download_attempt.log`.
+
+Current reference-panel status:
+
+- `data/raw/ldsc_reference/` is empty.
+- The standard LDSC European LD-score panel and HapMap3 SNP list are not present.
+- LDSC genetic-correlation analysis remains blocked. The block is not an observed proxy/allowlist block; it is that the LDSC GitHub-documented Broad URLs currently redirect to `alkesgroup.broadinstitute.org` and return HTTP `404`.
+- No LDSC smoke test was run, because there is no verifiable reference panel on disk.
