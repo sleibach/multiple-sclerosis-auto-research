@@ -1553,3 +1553,45 @@ Decision:
   causal-gene mapping.
 - Next required work: LDSC/HDL scaffold and SuSiE-coloc/eQTL-coloc on the
   high-H4 regions plus MHC negative controls.
+
+## 2026-06-05 16:11 CEST - V14 Locus Landscape and PTGER4 Sensitivity
+
+Question:
+
+- Is PTGER4 genuinely the standout shared MS-UC locus after sensitivity checks
+  and landscape context, or only a druggable candidate inside a nominal high-H4
+  region?
+
+Execution:
+
+- Verified OpenGWAS access.
+- Queried local RAG before analysis.
+- Checked tooling:
+  - `ldsc.py` missing.
+  - `munge_sumstats.py` missing.
+  - R `susieR` missing.
+  - R `coloc` missing.
+- Wrote and ran `scripts/v14_locus_landscape.py`.
+- Inputs:
+  - `analysis/v13_genetics_coloc/coloc_region_summary_annotated.tsv`.
+  - `analysis/v13_genetics_coloc/coloc_snp_abf.tsv`.
+  - V3 target-resolution, QTL-coloc, cell-state, and druggability tables.
+
+Result:
+
+- Region landscape rows: `34`.
+- Gene-region landscape rows: `931`.
+- Stable first-pass H4 regions:
+  - UC `1:200375242-201375897`, min sensitivity `PP.H4 = 0.8591`.
+  - Crohn `10:80542475-81559335`, min sensitivity `PP.H4 = 0.8088`.
+- Nominal-H4-only regions:
+  - Crohn `17:40014201-41029835`, min sensitivity `PP.H4 = 0.6141`.
+  - UC/PTGER4 `5:39896425-40944986`, min sensitivity `PP.H4 = 0.5700`.
+
+Decision:
+
+- PTGER4 remains the highest-priority druggable locus because local V3 evidence
+  reports L2G across Crohn/MS/Psoriasis/T1D/UC and QTL-coloc in Crohn/MS/UC.
+- PTGER4 is not robust or intervention-grade because the MS-UC regional H4 is
+  prior-sensitive and EP4 agonist/antagonist direction remains unresolved.
+- No matrix grade upgraded.

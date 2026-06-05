@@ -145,3 +145,51 @@ Next session first action:
 - Continue from `GENETICS_AXIS_V13_COLOCALIZATION_CHECKPOINT.md`.
 - Prioritize LDSC/HDL scaffold or multi-signal coloc on the four high-H4
   regions and MHC H3 negative-control regions.
+
+## 2026-06-05 16:11 CEST - V14 Session 1
+
+Objective:
+
+- Begin robust workup of the V13 high-H4 shared loci in landscape context, with
+  PTGER4 treated as a hypothesis rather than assumed lead.
+
+Completed:
+
+- Verified OpenGWAS access with `scripts/check_opengwas_access.py`.
+- Read `meta/MATRIX_STATUS.md` and `meta/NEXT_ACTIONS.md`.
+- Queried the local knowledge index for PTGER4/STAT3/SuSiE/LDSC prior work.
+- Checked local genetics tooling:
+  - `ldsc.py`: missing.
+  - `munge_sumstats.py`: missing.
+  - R `susieR`: missing.
+  - R `coloc`: missing.
+- Created and ran `scripts/v14_locus_landscape.py`.
+- Wrote `GENETICS_AXIS_V14_LANDSCAPE_CHECKPOINT.md`.
+- Wrote `CONVERGENCE_CHECK_V14_01.md`.
+
+Outputs:
+
+- `analysis/v14_locus_landscape/REPORT.md`
+- `analysis/v14_locus_landscape/coloc_prior_sensitivity.tsv`
+- `analysis/v14_locus_landscape/region_landscape_rollup.tsv`
+- `analysis/v14_locus_landscape/shared_locus_gene_landscape.tsv`
+
+Key result:
+
+- Stable first-pass H4 regions:
+  - UC `1:200375242-201375897`, minimum sensitivity `PP.H4 = 0.8591`.
+  - Crohn `10:80542475-81559335`, minimum sensitivity `PP.H4 = 0.8088`.
+- Nominal-H4-only regions:
+  - Crohn `17:40014201-41029835`, minimum sensitivity `PP.H4 = 0.6141`.
+  - UC/PTGER4 `5:39896425-40944986`, minimum sensitivity `PP.H4 = 0.5700`.
+
+Decision:
+
+- PTGER4 remains the highest-priority druggable locus, but it is not robust or
+  intervention-grade.
+- No matrix grade upgraded.
+
+Next session first action:
+
+- Provision LDSC/HDL and R `susieR`/`coloc`, then run multi-signal coloc and
+  genome-wide rg/MHC sensitivity before re-grading.

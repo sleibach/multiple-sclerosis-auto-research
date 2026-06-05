@@ -25,6 +25,10 @@ Methodology backbone:
   - `GENETICS_AXIS_V13_COLOCALIZATION_CHECKPOINT.md`
   - `CONVERGENCE_CHECK_V13_01.md`
   - `analysis/v13_genetics_coloc/`
+- V14 locus-landscape checkpoint:
+  - `GENETICS_AXIS_V14_LANDSCAPE_CHECKPOINT.md`
+  - `CONVERGENCE_CHECK_V14_01.md`
+  - `analysis/v14_locus_landscape/`
 
 ## Current Matrix State
 
@@ -79,6 +83,36 @@ Matrix grade decision:
 - Required next layers: genome-wide LDSC/HDL, MHC-excluded sensitivity,
   multi-signal coloc, and eQTL/pQTL causal-gene mapping.
 
+## V14 Locus-Landscape Checkpoint
+
+V14 added prior/effect-size sensitivity and local evidence joins over the V13
+OpenGWAS coloc outputs.
+
+Stable first-pass H4:
+
+- UC `1:200375242-201375897`: nominal `PP.H4 = 0.9840`; minimum sensitivity
+  `PP.H4 = 0.8591`.
+- Crohn `10:80542475-81559335`: nominal `PP.H4 = 0.9776`; minimum sensitivity
+  `PP.H4 = 0.8088`.
+
+Nominal-H4-only:
+
+- Crohn `17:40014201-41029835`: nominal `PP.H4 = 0.9413`; minimum sensitivity
+  `PP.H4 = 0.6141`.
+- UC/PTGER4 `5:39896425-40944986`: nominal `PP.H4 = 0.9337`; minimum
+  sensitivity `PP.H4 = 0.5700`.
+
+PTGER4 status:
+
+- Alive and high priority because it is druggable and has local L2G/QTL-coloc
+  support across Crohn/MS/UC.
+- Not robust or intervention-grade because multi-signal coloc and therapeutic
+  direction are unresolved.
+
+Tool blockers:
+
+- `ldsc.py`, `munge_sumstats.py`, R `susieR`, and R `coloc` are absent.
+
 ## V12 Findings
 
 Completed synthesis:
@@ -115,12 +149,12 @@ label.
 
 ## Highest-Value Next Actions
 
-1. Continue V13 genetics robustification from
-   `GENETICS_AXIS_V13_COLOCALIZATION_CHECKPOINT.md`.
-2. Run or scaffold genome-wide LDSC/HDL for MS-UC and MS-Crohn with
-   MHC-included and MHC-excluded sensitivity.
-3. Run multi-signal coloc on first-pass H4 regions and MHC H3 negative controls.
-4. Add eQTL/pQTL coloc before causal-gene or intervention claims.
+1. Continue V14 from `GENETICS_AXIS_V14_LANDSCAPE_CHECKPOINT.md`.
+2. Provision LDSC/HDL and R `susieR`/`coloc`.
+3. Run multi-signal coloc on stable-H4, nominal-H4-only, and MHC H3 control
+   regions.
+4. Resolve PTGER4 effect-allele-aligned QTL direction before causal-gene or
+   intervention claims.
 5. Rebuild independent tissue-repair axes where current repair evidence
    overlaps treatment-response evidence.
 
