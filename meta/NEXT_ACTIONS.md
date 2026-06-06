@@ -1,6 +1,6 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-06-06 00:05 CEST
+Last updated: 2026-06-06 02:07 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
@@ -36,20 +36,30 @@ Current genetics robustness state:
     `max PP.H3 = 0.998187670954932`, 21 pairwise rows.
   - Crohn chr17/STAT3-STAT5 is downgraded: `max PP.H4 =
     0.0267570011193013`.
+- V16 eQTL direction:
+  - GPR25 direction revised: expression-increasing alleles are protective for
+    both MS and UC; risk associates with lower GPR25 expression.
+  - ZMIZ1 direction confirmed: expression-increasing alleles are MS-risk and
+    Crohn-protective.
+  - PTGER4 remains mixed: shared and distinct signal components point in
+    different MS/UC directions.
 
 Next session first action:
 
 1. Run `.venv/bin/python scripts/check_opengwas_access.py`.
-2. Retrieve raw eQTLGen/GTEx QTL summary statistics for the two V15 loci and
-   run allele-aligned eQTL colocalization:
-   - chr1 genes: `GPR25`, `C1orf106/INAVA`, `KIF21B`, `CACNA1S`;
-   - chr10 genes: `ZMIZ1`, with `PPIF` only as a nearby negative-control gene.
-3. Decompose the UC chr5/PTGER4 SuSiE result by pairwise signal: separate the
-   shared `rs350054` row (`PP.H4 = 0.998601068519585`) from the distinct
-   `rs62356511`/`rs1445002` row (`PP.H3 = 0.998187670954932`) before any gene
-   or therapeutic inference.
-4. Run MHC H3 negative-control SuSiE-coloc.
-5. Run real LDSC genetic correlation for MS vs UC/Crohn with MHC-excluded
+2. Run formal full-summary-statistics QTL colocalization if feasible:
+   - eQTLGen full file is `4590510138` bytes and was not downloaded in V16;
+   - GTEx full archive URL remains unresolved/stale;
+   - significant-only eQTLGen rows are not enough for formal PP.H4.
+3. For GPR25, prioritize cell-state and ligand feasibility:
+   - test GPR25 expression in MS lesion and immune atlas cell types;
+   - search/develop agonist/restoration feasibility, not antagonist logic.
+4. For ZMIZ1, write a dedicated decoupling finding if full QTL coloc confirms:
+   same higher-expression alleles are MS-risk and Crohn-protective.
+5. For PTGER4, perform signal-specific QTL coloc separating `rs350054` shared
+   component from `rs62356511`/`rs1445002` distinct component.
+6. Run MHC H3 negative-control SuSiE-coloc.
+7. Run real LDSC genetic correlation for MS vs UC/Crohn with MHC-excluded
    sensitivity and sample-overlap/intercept reporting.
-6. Do not upgrade matrix grades or therapeutic direction until raw
-   effect-allele-aligned eQTL/pQTL mapping is complete.
+8. Do not claim intervention-grade therapeutic direction until cell-state,
+   perturbation, and formal QTL coloc are complete.

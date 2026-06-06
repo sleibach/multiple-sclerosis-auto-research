@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-06 00:05 CEST
+Last updated: 2026-06-06 02:07 CEST
 
 ## Mission State
 
@@ -46,6 +46,12 @@ Methodology backbone:
 - V15 next-tier SuSiE addendum:
   - `GENETICS_AXIS_V15_NEXT_TIER_SUSIE_ADDENDUM.md`
   - `analysis/v14_susie_coloc/susie_coloc_rollup.tsv`
+- V16 eQTL-grounded workup:
+  - `GENETICS_EQTL_WORKUP_V16.md`
+  - `ORCHESTRATION_LOG_V16.md`
+  - `subagents/v16_gpr25_eqtl_report.md`
+  - `subagents/v16_zmiz1_eqtl_report.md`
+  - `subagents/v16_ptger4_signal_decomposition_report.md`
 
 ## Current Matrix State
 
@@ -187,6 +193,43 @@ V15 also extended bounded SuSiE-coloc to the queued next-tier loci:
   therapeutic rescue.
 - MS-Crohn chr17/STAT3-STAT5: downgraded by bounded SuSiE-coloc, `max PP.H4 =
   0.0267570011193013`, `max PP.H3 = 0.604986704498299`.
+
+## V16 eQTL Direction Checkpoint
+
+V16 replaced key proxy directions with allele-aligned GTEx/eQTLGen evidence.
+
+- eQTL data access:
+  - GTEx API reachable and used for targeted significant eQTL lookup.
+  - eQTLGen significant cis-eQTL file downloaded from `download.gcc.rug.nl`
+    using `curl -k` because the host TLS certificate is expired; SHA-256
+    `8d963046d7b74cf3533c3510614cdc724e7ad0e325a3d2f7cca63ad13661b4c4`.
+  - Full eQTLGen all-tested file is reachable but large (`4590510138` bytes)
+    and was not downloaded.
+- GPR25:
+  - GTEx and eQTLGen support GPR25 as the leading chr1 blood eQTL gene.
+  - Direction revised: expression-increasing alleles are protective for both MS
+    and UC; risk associates with lower GPR25 expression.
+  - This changes the therapeutic hypothesis from antagonism/lowering to
+    restoration or agonism, pending cell-state and ligand feasibility.
+- ZMIZ1:
+  - eQTLGen confirms all four chr10 shared credible-set variants increase
+    ZMIZ1 expression and are MS-risk but Crohn-protective.
+  - This is a confirmed opposite-direction decoupling locus, not a transfer
+    target.
+- PTGER4:
+  - eQTLGen confirms PTGER4 expression effects at both shared and distinct
+    signal-marker SNPs.
+  - The shared and distinct components have opposing disease implications; no
+    global PTGER4 agonist/antagonist conclusion is justified.
+
+Matrix decision:
+
+- No cure-class or intervention-grade finding.
+- GPR25 is upgraded from proxy-level lead to allele-aligned eQTL-grounded lead,
+  but not to therapeutic finding.
+- ZMIZ1 is upgraded to an eQTL-grounded decoupling finding.
+- PTGER4 remains mixed-signal and must be decomposed with full QTL coloc before
+  any intervention inference.
 
 ## V12 Findings
 

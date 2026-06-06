@@ -1,6 +1,6 @@
 # MATRIX_STATUS
 
-Last updated: 2026-06-06 00:05 CEST
+Last updated: 2026-06-06 02:07 CEST
 
 Canonical machine-readable state: `analysis/v11_matrix/disagreement_matrix.tsv`.
 
@@ -80,8 +80,8 @@ Canonical machine-readable state: `analysis/v11_matrix/disagreement_matrix.tsv`.
 - Rank score: `1.5`.
 - Status: `biological`.
 - Resolution grade: `V12 supported downstream-convergence finding`.
-- Last action: V15 worked up the V14 MS-Crohn chr10 shared SuSiE-coloc locus (`10:80542475-81559335`, max PP.H4 `0.958107919239886`). Credible-set intersection is four variants inside/near `ZMIZ1`; Crohn eQTL-coloc supports ZMIZ1 in blood, but no stored MS eQTL-coloc row was available and MS/Crohn aligned disease effects are opposite. This supports a genetics decoupling locus, not a transfer-ready shared treatment mechanism.
-- Next action: Retrieve raw eQTLGen/GTEx summary statistics for the chr10 four-SNP credible set and run allele-aligned ZMIZ1 eQTL colocalization; then test ZMIZ1 perturbation in APC/myeloid models. See GENETICS_LOCI_WORKUP_V15.md.
+- Last action: V16 eQTLGen significant blood eQTLs confirm all four chr10 shared variants regulate `ZMIZ1`; expression-increasing alleles are MS-risk and Crohn-protective. This upgrades the locus to an eQTL-grounded decoupling signal but not an intervention target.
+- Next action: Run full-summary-statistics QTL coloc for ZMIZ1 and perturbation testing in APC/myeloid models. See GENETICS_EQTL_WORKUP_V16.md.
 
 ### 001_ulcerative_colitis_axis_01_ifn_apc_vs_axis_07_treatment_response
 
@@ -102,8 +102,8 @@ Canonical machine-readable state: `analysis/v11_matrix/disagreement_matrix.tsv`.
 - Rank score: `3.75`.
 - Status: `intervention_derived`.
 - Resolution grade: `V12 supported genetics layer-decoupling finding`.
-- Last action: V15 worked up the V14 MS-UC chr1 shared SuSiE-coloc locus (`1:200375242-201375897`, max PP.H4 `0.959324545654259`). Credible-set intersection is 11 variants near/overlapping `C1orf106/INAVA`, but stored QTL colocalization points most strongly to blood eQTLs for `GPR25` in both MS and UC. Direction proxies suggest concordant MS/UC risk-increasing GPR25 expression, but raw allele-aligned eQTL summary statistics were not rerun and cell-state/druggability support is weak.
-- Next action: Retrieve raw eQTLGen/GTEx summary statistics for `GPR25`, `C1orf106/INAVA`, `KIF21B`, and `CACNA1S` around the chr1 credible set; run allele-aligned eQTL coloc before any therapeutic-direction claim. See GENETICS_LOCI_WORKUP_V15.md.
+- Last action: V16 GTEx/eQTLGen allele-aligned evidence strengthens `GPR25` as the leading chr1 blood eQTL gene and revises direction: expression-increasing alleles are protective for both MS and UC; risk associates with lower GPR25 expression. Not intervention-grade because cell-state support and mature chemical matter remain weak.
+- Next action: Run full-summary-statistics QTL coloc for GPR25 and test MS-relevant cell-state expression; intervention logic, if any, is GPR25 restoration/agonism rather than antagonism. See GENETICS_EQTL_WORKUP_V16.md.
 
 ### 008_Crohn_disease_axis_02_genetics_vs_axis_07_treatment_response
 
@@ -113,8 +113,8 @@ Canonical machine-readable state: `analysis/v11_matrix/disagreement_matrix.tsv`.
 - Rank score: `1.5`.
 - Status: `intervention_derived`.
 - Resolution grade: `V12 supported downstream-response convergence finding`.
-- Last action: V15 added the chr10 `ZMIZ1` shared-locus workup. The locus supports a real MS-Crohn inherited-risk connection, but opposite MS/Crohn disease-effect signs and weak MS cell-state support mean it should not be interpreted as a Crohn-to-MS response-biomarker transfer locus.
-- Next action: Add Crohn-only paired mucosal response cohorts and raw ZMIZ1 eQTL direction; preserve the downstream response-convergence claim as separate from the chr10 inherited-risk decoupling. See CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md and GENETICS_LOCI_WORKUP_V15.md.
+- Last action: V16 confirms ZMIZ1 as an eQTL-grounded opposite-direction inherited-risk decoupling locus. Preserve the downstream Crohn response-convergence claim as a separate non-genetic axis.
+- Next action: Add Crohn-only paired mucosal response cohorts; do not use ZMIZ1 as a Crohn-to-MS response-biomarker transfer locus. See CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md and GENETICS_EQTL_WORKUP_V16.md.
 
 ### 009_Crohn_disease_axis_02_genetics_vs_axis_08_tissue_repair_resolution
 
@@ -124,5 +124,5 @@ Canonical machine-readable state: `analysis/v11_matrix/disagreement_matrix.tsv`.
 - Rank score: `1.5`.
 - Status: `intervention_derived`.
 - Resolution grade: `V12 supported downstream-repair convergence finding`.
-- Last action: V15 added the chr10 `ZMIZ1` shared-locus workup. The genetic locus is not a repair-transfer mechanism on current evidence; it is a decoupling locus with opposite MS/Crohn disease-effect signs.
-- Next action: Upgrade repair axis using repair endpoints independent of IFN/APC delta; do not use chr10 ZMIZ1 as repair-transfer evidence unless perturbation or longitudinal repair data appears. See CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md and GENETICS_LOCI_WORKUP_V15.md.
+- Last action: V16 confirms the chr10 ZMIZ1 genetic locus is not a repair-transfer mechanism; expression-increasing alleles are MS-risk and Crohn-protective.
+- Next action: Upgrade repair axis using repair endpoints independent of IFN/APC delta; do not use chr10 ZMIZ1 as repair-transfer evidence unless perturbation or longitudinal repair data appears. See CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md and GENETICS_EQTL_WORKUP_V16.md.

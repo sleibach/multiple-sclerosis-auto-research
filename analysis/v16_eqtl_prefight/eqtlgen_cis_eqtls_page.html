@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>eQTLGen - cis-eQTLs</title>
+
+    <link href="css/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css"> -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="css/eqtlgen.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="phase1.html">eQTLGen phase I</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="cis-eqtls.html"><em>Cis</em>-eQTLs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="trans-eqtls.html"><em>Trans</em>-eQTLs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="eqts.html">eQTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="replications.html">Replications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="publications.html">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sc/index.html">sc-eQTLGen</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container" style="margin-top: 75px">
+
+      <h2 class="my-4"><em>cis</em>-eQTLs</h2>
+
+      This page contains the <em>cis</em>-eQTL results. The statistically significant <em>cis</em>-eQTLs
+      and SMR-prioritised genes for several traits are browsable, the other files can be downloaded.
+      <p/>
+
+      <div class="card-group">
+        <div class="card bg-light mb-3 border-0" style="max-width: 21rem;">
+          <div class="card-body">
+            <h5 class="card-title">Downloads</h5>
+            <ul>
+              <li><a href="https://download.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2019-12-11-cis-eQTLsFDR0.05-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz">Significant <em>cis</em>-eQTLs</a></li>
+              <li><a href="https://download.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2019-12-11-cis-eQTLsFDR-ProbeLevel-CohortInfoRemoved-BonferroniAdded.txt.gz">Full <em>cis</em>-eQTL summary statistics</a></li>
+              <li><a href="https://download.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/README_cis">README</a></li>
+            </ul>
+            <ul>
+              <li><a href="https://download.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/cis-eQTL_significant_20181017.txt.gz">Initial release Significant <em>cis</em>-eQTLs</a> (deprecated)</li>
+              <li><a href="https://download.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/cis-eQTLs_full_20180905.txt.gz">Initial release Full <em>cis</em>-eQTL summary statistics</a> (deprecated)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card bg-light mb-3 border-0" style="max-width: 18rem;">
+          <div class="card-body">
+            <h6 class="card-title"><b>Changelog</b></h6>
+            <code>
+              <small>
+                <b>2019-12-23</b>: <em>Cis</em>-eQTLs are now updated to have a 2-cohort filter: every <em>cis</em>-eQTL must be tested in at least 2 cohorts to be reported. The files now also include Bonferroni-adjusted p-values.<br/>
+                <b>2018-10-19</b>: Initial data release
+              </small>
+            </code>
+          </div>
+        </div>
+      </div>
+
+      <h4 class="my-4">Significant <em>cis</em>-eQTLs</h4>
+
+      <table id="eqtl-table" class="table table-striped table-borderless nowrap" style="width:100%">
+          <thead>
+              <tr class="table-header-upper">
+                <th></th>
+                <th colspan="3">SNP</th>
+                <th colspan="5">Gene</th>
+                <th colspan="2">Allele</th>
+                <th colspan="2"></th>
+              </tr>
+              <tr class="table-header-lower">
+                  <th>P-value</th>
+                  <th>ID</th>
+                  <th>Chr</th>
+                  <th>Pos (hg19)</th>
+                  <th>ID</th>
+                  <th>Symbol</th>
+                  <th>Chr</th>
+                  <th>Pos (hg19)</th>
+	          <th>Z-score</th>
+                  <th>Assessed</th>
+                  <th>Other</th>
+                  <th>Nr Cohorts</th>
+                  <th>Nr Samples</th>
+                  <th>FDR</th>
+              </tr>
+          </thead>
+          <tfoot>
+            <tr>
+              <th>P-value</th>
+              <th>ID</th>
+              <th>Chr</th>
+              <th>Pos</th>
+              <th>ID</th>
+              <th>Symbol</th>
+              <th>Chr</th>
+              <th>Pos</th>
+	      <th>Z-score</th>
+              <th>Assessed</th>
+              <th>Other</th>
+              <th>Nr Cohorts</th>
+              <th>Nr Samples</th>
+              <th>FDR</th>
+            </tr>
+          </tfoot>
+      </table>
+
+      <h2 class="my-4">SMR</h2>
+
+      Summary statistics based Mendelian Randomisation (<a href="http://cnsgenomics.com/software/smr/" target="_blank">SMR</a>) is a statistical approach to infer putatively causal genes.
+      Here you can download the <em>cis</em>-eQTL results in SMR format, as well as the results for the traits that we have looked at in the manuscript.
+      <p/>
+
+      <div class="card bg-light mb-3 border-0" style="max-width: 35rem;">
+        <div class="card-body">
+          <h5 class="card-title">Downloads</h5>
+
+          <ul>
+            <li><a href="https://download.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/SMR_formatted/cis-eQTL-SMR_20191212.tar.gz">SMR-formatted cis-eQTLs</a></li>
+            <li><a href="https://download.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/SMR_formatted/README_cis_full_SMR">README</a></li>
+          </ul>
+
+          SMR-prioritised gene lists
+          <div class="row">
+            <div class="col-sm">
+              <ul>
+                <li><a href="https://download.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/SMR_results/bmd_2018.smr">Bone mineral density</a></li>
+                <li><a href="https://download.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/SMR_results/bmi_2018.smr">Body mass index</a></li>
+                <li><a href="https://download.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/SMR_results/cad_2018.smr">Coronary artery disease</a></li>
+                <li><a href="https://download.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/SMR_results/ea_2018.smr">Educational attainment</a></li>
+                <li><a href="https://download.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/SMR_results/hdl_2013.smr">High-density lipoprotein</a></li>
+                <li><a href="https://download.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/SMR_results/height_2018.smr">Height</a></li>
+                <li><a href="https://download.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/SMR_results/ibd_2017.smr">Inflammatory bowel disease</a></li>
+              </ul>
+            </div>
+            <div class="col-sm">
+              <ul>
+                <li><a href="https://download.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/SMR_results/pbc_2012.smr">Primary biliary cirrhosis / cholangitis</a></li>
+                <li><a href="https://download.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/SMR_results/ra_2015.smr">Rheumatoid arthritis</a></li>
+                <li><a href="https://download.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/SMR_results/scz_2018.smr">Schizophrenia</a></li>
+                <li><a href="https://download.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/SMR_results/t1d_2015.smr">Type 1 diabetes</a></li>
+                <li><a href="https://download.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/SMR_results/t2d_unadj.smr">Type 2 diabetes</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <h2 class="my-4">Allele frequencies</h2>
+
+      Download the allele frequencies for all tested SNPs here:<br/>
+      <a href="https://download.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/2018-07-18_SNP_AF_for_AlleleB_combined_allele_counts_and_MAF_pos_added.txt.gz">Allele frequencies based on 26,609 eQTLGen samples (excluding FHS)</a><br/>
+      <a href="https://download.gcc.rug.nl/downloads/eqtlgen/cis-eqtl/README_allele_frequency">README</a>
+
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="pt-5">
+      <hr>
+      <div class="container text-center">
+        <img src="img/rug.jpg" height="100px">
+        <p class="m-0 text-center text-white">Copyright &copy; eQTLGen 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <script src="js/vendor/jquery/jquery.min.js"></script>
+    <script src="js/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script> -->
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.18/b-1.5.2/b-html5-1.5.2/datatables.min.js"></script>
+    <!-- <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script> -->
+    <script>
+      //https://eqtl.molgenis.org/api/v2/eqtlgen_eqts
+      $(document).ready( function () {
+
+        var columns = ["pvalue", "SNP.ID", "SNP.Chr", "SNP.Pos", "gene.ID", "gene.Symbol", "gene.Chr", "gene.Pos", "assessed_allele", "other_allele", "nr_cohorts", "nr_samples", "FDR"]
+
+        $('#eqtl-table').DataTable( {
+          serverSide: true,
+          processing: true,
+          language: { processing: "<i class='fa fa-spinner fa-spin fa-3x fa-fw'></i>" },
+          oSearch: {"sSearch": "HLA-A"},
+          dom: "<'row'<'col-sm-12 col-md-6'f><'col-sm-12 col-md-6'l>>" +
+                "<'row'<'col-sm-12'tr>>" +
+                "<'row'<'col-sm-12 col-md-5'i><'col-sm-12 col-md-7'p>>" +
+                "<'row'<'col-sm-12'B>>",
+          columnDefs: [ {
+            "targets": [2,3,5,6,7],
+            "orderable": false
+          } ],
+          buttons: [
+            'copy', 'csv', 'excel', 'pdf'
+          ],
+          scrollX: true,
+          ajax: {
+            url: 'https://eqtlgen.molgeniscloud.org/api/v2/eqtlgen_v2_cis_eqtl',
+            "data": function (d) {
+              var request = {};
+              request.num = d.length
+              request.start = d.start
+              request.sort = columns[d.order[0].column] + ':' + d.order[0].dir
+              request.attrs = "pvalue,gene(*),SNP(*),zscore,FDR,nr_samples,nr_cohorts,assessed_allele,other_allele"
+              if (d.search.value) {
+                var searchUrlSafe = encodeURI(d.search.value)
+                request.q = 'gene.ID=like=' + searchUrlSafe + ',SNP.ID=like=' + searchUrlSafe + ',gene.Symbol=like=' + searchUrlSafe
+              }
+              return(request)
+            },
+            dataFilter: function(data) {
+              var json = jQuery.parseJSON( data );
+              json.recordsTotal = json.total;
+              json.recordsFiltered = json.total;
+
+              json.data = [];
+              for (var i=0, ien=json.items.length ; i<ien ; i++) {
+                row = [];
+                row.push(json.items[i].pvalue);
+                row.push(json.items[i].SNP.ID);
+                row.push(json.items[i].SNP.Chr);
+                row.push(json.items[i].SNP.Pos);
+                row.push(json.items[i].gene.ID);
+                row.push(json.items[i].gene.Symbol);
+                row.push(json.items[i].gene.Chr);
+                row.push(json.items[i].gene.Pos);
+         	row.push(json.items[i].zscore);
+	        row.push(json.items[i].assessed_allele);
+                row.push(json.items[i].other_allele);
+                row.push(json.items[i].nr_cohorts);
+                row.push(json.items[i].nr_samples);
+                row.push(json.items[i].FDR);
+
+                json.data.push(row);
+              }
+
+              return JSON.stringify( json ); // return JSON string
+            },
+          }
+        });
+      });
+    </script>
+
+  </body>
+</html>

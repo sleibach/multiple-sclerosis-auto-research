@@ -276,3 +276,14 @@ Next session first action:
 - Locus step status: chr1 MS-UC completed steps 1-6 with `GPR25` as moderate-high-confidence causal-gene candidate but no matrix upgrade; chr10 MS-Crohn completed steps 1-6 with `ZMIZ1` as moderate-confidence causal-gene candidate, opposite MS/Crohn effect direction, and no matrix upgrade.
 - Stop reason: completed V15 bounded deliverable; no therapeutic-grade claim because raw eQTL/pQTL effect-allele alignment, stronger MS cell-state support, and perturbation evidence remain missing.
 - Next action: retrieve raw eQTLGen/GTEx QTL summary statistics and run allele-aligned eQTL colocalization for chr1 (`GPR25`, `C1orf106/INAVA`, `KIF21B`, `CACNA1S`) and chr10 (`ZMIZ1`, with `PPIF` as nearby negative control), then decompose the mixed chr5/PTGER4 SuSiE signal before any intervention inference.
+
+## RUN SUMMARY - 2026-06-06 00:28 UTC
+
+- Active runtime: approximately 31 minutes; total elapsed approximately 31 minutes; no usage-limit waiting time observed.
+- Session start UTC: 2026-06-05 23:56 UTC.
+- Session end UTC: 2026-06-06 00:28 UTC.
+- Frontier advanced: V16 replaced proxy directions with allele-aligned GTEx/eQTLGen evidence for GPR25, ZMIZ1, and PTGER4; wrote `GENETICS_EQTL_WORKUP_V16.md`, three labeled workstream reports, updated resume state, README, manifest, and knowledge index.
+- Per-lead step-completion status: GPR25 completed GTEx/eQTLGen allele-aligned direction workup and revised direction to protective higher expression; ZMIZ1 completed eQTLGen allele-aligned direction workup and confirmed opposite MS/Crohn decoupling; PTGER4 completed signal-level eQTLGen direction workup and remains mixed/conflicted.
+- Novel-result verdict: no intervention-grade or cure-class finding; strongest result is an eQTL-grounded refinement: GPR25 is a stronger MS-UC lead with restoration/agonism direction, ZMIZ1 is a confirmed opposite-direction decoupling locus, and PTGER4 is not a simple transfer target.
+- Stop reason: completed V16 bounded deliverable; no remaining V16 lead is blocked at the significant-QTL direction layer, but formal full-summary-statistics QTL colocalization and cell-state/perturbation validation remain incomplete.
+- Next action: run formal all-variant QTL colocalization if GTEx/eQTLGen full summary statistics can be indexed or downloaded; otherwise prioritize GPR25 cell-state expression and ligand/agonist feasibility while preserving ZMIZ1 as a decoupling finding.
