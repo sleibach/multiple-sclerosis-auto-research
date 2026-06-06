@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-06 10:37 CEST
+Last updated: 2026-06-06 10:47 CEST
 
 ## Mission State
 
@@ -8,16 +8,21 @@ V12 completed the supported-cell axis-disagreement matrix that V11 made
 resumable. V13-V17 robustified the genetics axis from OpenGWAS coloc through
 allele-aligned eQTL and mechanism workup. V18 completed data-source acquisition
 triage for the unresolved chr1 MS-UC `GPR25`-versus-`KIF21B` causal-gene
-ambiguity.
+ambiguity. V19 re-evaluated the chr1 locus under first-principles
+druggability discipline.
 
 Current frontier:
 
-- `GPR25` remains the stronger druggable/protective-expression lead.
-- `KIF21B` remains the stronger public immune-eQTL and expression-supported
-  competitor.
-- Public Tier 1 sources acquired in V18 do not resolve genotype-linked GPR25
-  protein/CSF causality; controlled or richer immune-genotype data remain the
-  decisive next layer.
+- `GPR25` remains a live eQTLGen-supported lead, but not a protected favorite:
+  public V18 immune-QTL sources did not support it, and its required therapeutic
+  direction is agonism/restoration of a sparsely tooled receptor.
+- `KIF21B` now has independent dense QTD000021 coloc support against the chr1
+  disease signal: MS/eQTL PP.H4 `0.874879034973956`, UC/eQTL PP.H4
+  `0.868660082128031`; exact shared credible-set variants show risk alleles
+  lowering KIF21B expression `11 / 11` for both MS and UC.
+- The chr1 locus is a tractable genetics/mechanism lead, not an
+  intervention-grade target. Controlled or richer immune-genotype/protein data
+  remain the decisive next layer.
 
 Standing reporting rule:
 
@@ -82,6 +87,10 @@ Methodology backbone:
   - `CONVERGENCE_CHECK_V18_01.md`
   - `analysis/v18_source_triage/`
   - `data/raw/v18_source_triage/`
+- V19 chr1 re-evaluation:
+  - `GENETICS_CHR1_REEVALUATION_V19.md`
+  - `scripts/v19_chr1_reanalysis.py`
+  - `analysis/v19_chr1_druggability/`
 
 ## Current Matrix State
 

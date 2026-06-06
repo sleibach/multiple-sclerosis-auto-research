@@ -102,8 +102,8 @@ Canonical machine-readable state: `analysis/v11_matrix/disagreement_matrix.tsv`.
 - Rank score: `3.75`.
 - Status: `intervention_derived`.
 - Resolution grade: `V12 supported genetics layer-decoupling finding`.
-- Last action: V17 streamed the full eQTLGen file for chr1 candidate genes and ran bounded disease-vs-eQTL SuSiE-coloc. `GPR25` remains strongest in the disease-shared block and protective when expression is higher, but `KIF21B` also shows high bounded PP.H4 (`0.956099` MS/eQTL, `0.963951` UC/eQTL). Local MS CNS atlases did not contain measurable `GPR25`, so no lesion-cell mechanism is supported.
-- Next action: Resolve `GPR25` versus `KIF21B` using immune-cell/CSF single-cell or CITE-seq data with measurable expression; do not upgrade this cell to intervention-grade. See GENETICS_GPR25_WORKUP_V17.md.
+- Last action: V19 re-evaluated chr1 under first-principles druggability discipline. `KIF21B` gained independent dense QTD000021 coloc support (MS/eQTL PP.H4 `0.874879034973956`, UC/eQTL PP.H4 `0.868660082128031` over `472` aligned SNPs), and exact shared credible-set variants showed risk alleles lowering KIF21B expression `11 / 11` for both diseases. `GPR25` remains eQTLGen-supported but unsupported by V18 public immune-QTL sources. Neither gene is intervention-grade.
+- Next action: Resolve `GPR25` versus `KIF21B` using genotype-stratified immune-cell or CSF single-cell/CITE-seq data with measurable GPR25 protein/transcript and KIF21B expression; do not upgrade this cell to intervention-grade. See GENETICS_CHR1_REEVALUATION_V19.md.
 
 ### 008_Crohn_disease_axis_02_genetics_vs_axis_07_treatment_response
 

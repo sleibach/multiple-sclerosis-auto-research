@@ -1,13 +1,15 @@
 # GPR25
 
-Status: alive Tier 1 lead  
+Status: alive Tier 1 lead, downgraded from protected favorite
 Last updated: 2026-06-06  
 Primary evidence file: `../../GENETICS_GPR25_WORKUP_V17.md`
 
 ## Current Verdict
 
 `GPR25` remains alive as a genetics-to-lymphocyte-trafficking lead at the
-MS-UC chr1 shared locus, but it is not intervention-grade.
+MS-UC chr1 shared locus, but it is not intervention-grade. V19 corrected the
+druggability framing: GPR25 is structurally plausible as a GPCR, but existing
+chemistry is immature and the required direction is agonism/restoration.
 
 ## Evidence
 
@@ -20,6 +22,8 @@ MS-UC chr1 shared locus, but it is not intervention-grade.
   - UC/eQTL max PP.H4 `0.981623`.
 - UniProt/IUPHAR support a CXCL17-GPR25 receptor axis with lymphocyte homing
   biology.
+- V19 first-principles structural review: UniProt and GPCRdb support a
+  seven-transmembrane GPCR architecture; AlphaFold global metric value `82.44`.
 
 ## Limits
 
@@ -37,6 +41,11 @@ MS-UC chr1 shared locus, but it is not intervention-grade.
   Sjogren salivary pro-T cells at `0.9009%` in a small group (`n=111`).
 - ChEMBL has only screening activity records and no mechanism records.
 - No ClinicalTrials.gov GPR25 studies were found.
+- V19 found no new public V18 immune-QTL target hit for GPR25. Its causal case
+  still rests mainly on eQTLGen shared-block evidence, not on the acquired
+  OneK1K/DICE/eQTL Catalogue sources.
+- The protective direction implies agonism/restoration, which is harder than a
+  simple antagonist program for a sparsely tooled receptor.
 
 ## Next Required Test
 

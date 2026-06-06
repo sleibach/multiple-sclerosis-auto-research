@@ -1,6 +1,6 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-06-06 02:51 CEST
+Last updated: 2026-06-06 10:47 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
@@ -124,16 +124,36 @@ V18 data-source acquisition checkpoint:
   - fast overlap check found the OneK1K/DICE top/significant KIF21B hits do
     not exactly match the V17 shared credible-set variants; closest OneK1K hits
     were `17,230 bp` and `21,012 bp` away;
-  - no acquired public Tier 1 source resolves GPR25 at protein/CITE-seq level.
+- no acquired public Tier 1 source resolves GPR25 at protein/CITE-seq level.
+
+V19 chr1 first-principles re-evaluation checkpoint:
+
+- Report: `GENETICS_CHR1_REEVALUATION_V19.md`.
+- Reproducible script: `scripts/v19_chr1_reanalysis.py`.
+- V18 acquired-source checksums reverified: `19 / 19` matched.
+- Dense eQTL Catalogue QTD000021 KIF21B coloc:
+  - MS vs KIF21B eQTL PP.H4 `0.874879034973956` over `472` aligned SNPs;
+  - UC vs KIF21B eQTL PP.H4 `0.868660082128031` over `472` aligned SNPs.
+- Exact shared credible-set direction in QTD000021:
+  - MS risk allele lowers KIF21B expression `11 / 11`;
+  - UC risk allele lowers KIF21B expression `11 / 11`.
+- First-principles druggability revision:
+  - `GPR25`: structurally plausible GPCR, but agonism/restoration is required
+    and chemical matter is immature.
+  - `KIF21B`: structurally ligandable motor-domain protein, but simple
+    inhibition/degradation is likely wrong-direction because risk lowers
+    expression; restoration/up-function is the difficult modality.
+- Integrated verdict: chr1 is a real genetics/mechanism lead, not an
+  intervention-grade target.
 
 Next session first action:
 
 1. Run `.venv/bin/python scripts/check_opengwas_access.py`.
-2. Read `meta/DATA_ACQUISITION_PLAN_V18.md` and
-   `analysis/v18_source_triage/target_gene_eqtl_hits.tsv`.
-3. Do not treat OneK1K/DICE top-hit KIF21B evidence as causal resolution. If
-   continuing computationally, verify QTD000021/eQTL Catalogue metadata and run
-   formal dense variant intersection/coloc with the V17 shared credible set.
+2. Read `GENETICS_CHR1_REEVALUATION_V19.md` and
+   `analysis/v19_chr1_druggability/v19_chr1_reanalysis_summary.json`.
+3. Verify QTD000021/eQTL Catalogue metadata before publication-grade use of the
+   V19 KIF21B coloc values. V19 confirmed the FTP files exist, but REST
+   metadata calls returned HTTP 404/500.
 4. Do not repeat generic GEO searches for `GPR25`/`KIF21B` MS CITE-seq without
    a new source; V17 found zero obvious public hits. Instead, look for
    controlled-access, consortium, CSF immune-cell, or unpublished protein/CITE

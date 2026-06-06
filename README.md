@@ -11,15 +11,17 @@ All analysis uses public human-tissue data only and random seed `20260526`
 
 ## Current Status
 
-The current phase is **V18**. The V4 directory structure remains canonical, and
+The current phase is **V19**. The V4 directory structure remains canonical, and
 V11 introduced the resume backbone for short-session continuity.
 
 - Start here: `meta/CURRENT_STATUS.md` — the live mission state, active leads,
   and next actions.
 - Current active genetics/data focus: chr1 MS-UC causal-gene resolution after
-  V18 acquisition triage. `GPR25` remains the stronger druggable/protective
-  expression lead, but `KIF21B` is the stronger public immune-eQTL and
-  cell-expression-supported competitor.
+  V19 first-principles druggability re-evaluation. `GPR25` remains an
+  eQTLGen-supported but weakly expressed GPCR lead; `KIF21B` now has
+  independent dense immune-QTL coloc support and stronger expression context,
+  but the required therapeutic direction is restoration/up-function rather than
+  simple inhibition.
 - Confirmed first-pass high-H4 regions from V13/V14 include MS-UC chr1,
   MS-UC chr5/PTGER4, MS-Crohn chr10, and MS-Crohn chr17/STAT3-STAT5. The
   chr1 and chr10 loci passed bounded SuSiE-coloc follow-up. V15 mapped the
@@ -39,6 +41,11 @@ V11 introduced the resume backbone for short-session continuity.
   eQTL Catalogue chr1 extract, IUPHAR, and GPCRdb. These public genotype-linked
   immune sources favor `KIF21B` context but still do not resolve `GPR25`
   protein/genotype causality or the controlled MS PBMC/CSF immune-data gap.
+  V19 ran dense QTD000021 KIF21B coloc against the chr1 disease signal:
+  MS/eQTL PP.H4 `0.874879034973956`, UC/eQTL PP.H4 `0.868660082128031`;
+  exact shared credible-set variants showed disease-risk alleles lowering
+  KIF21B expression `11 / 11` for both MS and UC. The integrated verdict is
+  real shared genetics/mechanism, not an intervention-grade target.
 - `ACSL1`, `NAMPT`, and several early target candidates were demoted or parked
   under the V4/V5 prior-art and tiering framework. Current value has shifted to
   axis-disagreement mining and genetics-grounded transfer-validity analysis.
@@ -98,6 +105,7 @@ that explicitly in `meta/SESSION_LOG.md`.
 | V16 | eQTL-grounded allele-direction workup of live loci. | `GPR25` direction corrected to protective higher expression; `ZMIZ1` confirmed as opposite-direction MS/Crohn decoupling locus; `PTGER4` confirmed signal-conflicted. See `GENETICS_EQTL_WORKUP_V16.md`. |
 | V17 | GPR25 mechanism workup and lead consolidation. | `GPR25` survives as a Tier 1 genetics-to-lymphocyte-trafficking lead, not an intervention-grade finding. Full eQTLGen candidate extraction and bounded eQTL-coloc keep `GPR25` alive but reopen `KIF21B` as a competing causal gene; local MS CNS atlases do not support a lesion-cell GPR25 mechanism, and h5ad scans make KIF21B a stronger expression-supported competitor but weak direct target. See `GENETICS_GPR25_WORKUP_V17.md`, `KIF21B_SCOUT_V17.md`, `SOURCES_V17.md`, and `GPR25_KIF21B_EXPERIMENTAL_DESIGN_V17.md`. |
 | V18 | Data-source acquisition and access triage. | Acquired public OneK1K top eQTL, DICE significant eQTL/mean expression, eQTL Catalogue targeted chr1 extract, IUPHAR, and GPCRdb sources. Public genotype-linked immune eQTL sources favor `KIF21B` context (`14` OneK1K target hits and `1` DICE NK hit, all KIF21B) but do not resolve GPR25 protein/genotype causality. See `meta/DATA_ACQUISITION_PLAN_V18.md`. |
+| V19 | First-principles druggability and causal-gene re-evaluation of chr1. | Dense QTD000021 eQTL Catalogue coloc supports `KIF21B` as a serious causal-gene candidate (MS/eQTL PP.H4 `0.874879034973956`, UC/eQTL PP.H4 `0.868660082128031`), and exact shared credible-set variants show risk lowers KIF21B expression. Druggability was revised: `GPR25` is structurally plausible but agonism-immature; `KIF21B` is structurally ligandable but likely wrong-direction for inhibition. See `GENETICS_CHR1_REEVALUATION_V19.md`. |
 
 `FINDING.md` documents the (since-demoted) `ACSL1` target hypothesis from an
 earlier phase and is retained for the historical trace.
@@ -143,6 +151,13 @@ V18 reproducibility entry point:
 
 - `scripts/v18_smoke_test_acquired_sources.py` regenerates target-gene smoke
   summaries from acquired OneK1K and DICE files.
+
+V19 reproducibility entry point:
+
+- `scripts/v19_chr1_reanalysis.py` verifies V18 source checksums, aligns the
+  QTD000021 KIF21B extract to the saved V14 MS/UC chr1 disease sumstats, runs
+  coloc.abf, and writes the V19 chr1 re-analysis summary under
+  `analysis/v19_chr1_druggability/`.
 
 LDSC reference panel:
 

@@ -346,3 +346,16 @@ Next session first action:
 - Top human next-actions: prioritize MS PBMC/CSF genotype plus scRNA/CITE-seq controlled cohorts; then DICE controlled dbGaP `phs001703.v3.p1`; then OneK1K individual-level/raw data if needed; no host allowlisting is currently required.
 - Stop reason: completed V18 acquisition-plan deliverable and resume-state update; no long-running processes remain.
 - Next action: verify QTD000021/eQTL Catalogue metadata and run dense variant intersection/colocalization only if metadata is trustworthy; otherwise move to the Tier 3 controlled/protein-data path for genotype-linked GPR25/KIF21B expression.
+
+## RUN SUMMARY - 2026-06-06 08:59 UTC
+
+- Active runtime: approximately 12 minutes; total elapsed approximately 12 minutes; no usage-limit waiting time observed.
+- Session start UTC: 2026-06-06 08:47:44 UTC.
+- Session end UTC: 2026-06-06 08:59:22 UTC.
+- Frontier advanced: V19 re-evaluated the chr1 MS-UC locus under first-principles druggability discipline, added dense QTD000021 KIF21B coloc, effect-direction counts, AlphaFold domain-confidence summaries, KIF11 comparator chemistry, and updated README/resume state.
+- KIF21B status: serious competing causal-gene candidate; QTD000021 coloc PP.H4 `0.874879034973956` for MS/eQTL and `0.868660082128031` for UC/eQTL over `472` aligned SNPs; exact shared credible-set risk alleles lower KIF21B expression `11 / 11` for both MS and UC; structurally ligandable motor domain but likely wrong-direction for inhibition.
+- GPR25 status: alive but downgraded from protected favorite; still strongest in eQTLGen shared-block evidence, but unsupported by V18 public immune-QTL sources and absent/trace in available scRNA; structurally plausible GPCR but agonism/restoration is chemically immature.
+- Both druggability assessments: prior-art-only framing corrected; GPR25 is structurally plausible but causally/expression-limited, KIF21B is structurally tractable in the motor domain but therapeutically difficult because restoration/up-function is the direction.
+- Integrated verdict: chr1 is real shared MS-UC genetics/mechanism, not an intervention-grade target; the decisive next layer is genotype-stratified immune-cell or CSF single-cell/CITE-seq/protein data for exact chr1 shared haplotype carriers.
+- Stop reason: completed V19 bounded deliverable; remaining work is external/metadata-dependent rather than an unstarted V19 step.
+- Next action: verify QTD000021/eQTL Catalogue metadata for publication-grade use or move to controlled/protein-data acquisition and wet-lab genotype-stratified expression/functional assays.

@@ -1,6 +1,6 @@
 # KIF21B
 
-Status: alive Tier 1 competing causal-gene candidate  
+Status: alive Tier 1 competing causal-gene candidate; data-favored expression-context candidate
 Last updated: 2026-06-06  
 Primary evidence files: `../../GENETICS_GPR25_WORKUP_V17.md`,
 `../../KIF21B_SCOUT_V17.md`
@@ -8,7 +8,10 @@ Primary evidence files: `../../GENETICS_GPR25_WORKUP_V17.md`,
 ## Current Verdict
 
 `KIF21B` is reopened as a competing causal-gene candidate at the MS-UC chr1
-shared locus. It prevents an exclusive `GPR25` causal-gene claim.
+shared locus. It prevents an exclusive `GPR25` causal-gene claim. V19 rejects
+the earlier class-precedent dismissal: KIF21B has first-principles structural
+tractability in its kinesin motor domain, but the required direction is likely
+restoration/up-function rather than inhibition.
 
 ## Evidence
 
@@ -37,15 +40,29 @@ shared locus. It prevents an exclusive `GPR25` causal-gene claim.
 - Fast overlap check found no exact match between the OneK1K/DICE
   top/significant KIF21B hits and the V17 shared MS-UC credible-set variants;
   the closest OneK1K hits were `17,230 bp` and `21,012 bp` away.
+- V19 dense QTD000021 eQTL Catalogue coloc:
+  - MS vs KIF21B eQTL PP.H4 `0.874879034973956` over `472` aligned SNPs;
+  - UC vs KIF21B eQTL PP.H4 `0.868660082128031` over `472` aligned SNPs.
+- V19 exact V17 shared credible-set direction in QTD000021:
+  - MS risk allele lowers KIF21B expression `11 / 11`;
+  - UC risk allele lowers KIF21B expression `11 / 11`.
+- UniProt structural features: kinesin motor domain residues `8-370`, binding
+  site residues `87-94`, and multiple coiled-coil regions. AlphaFold global
+  metric value `69.62`, consistent with a structured motor plus flexible
+  regions.
 
 ## Limits
 
 - `GPR25` remains stronger in the disease-shared eQTL block by eQTLGen Z-score.
 - `KIF21B` mechanism and druggability were not worked up in V17.
 - No intervention claim is made.
-- V17 scout found poor direct druggability: no ChEMBL target, no ChEMBL
-  mechanisms, no ClinicalTrials.gov studies, and no specific autoimmune
-  intervention patent in inspected top Google Patents hits.
+- V17 scout found no existing KIF21B ChEMBL target, no ChEMBL mechanisms, no
+  ClinicalTrials.gov studies, and no specific autoimmune intervention patent in
+  inspected top Google Patents hits.
+- V19 first-principles druggability review: KIF21B is not undruggable by
+  structure, but inhibition/degradation is likely wrong-direction if the shared
+  risk haplotype lowers expression. Restoration/up-function is harder and not
+  currently a straightforward therapeutic modality.
 - Literature search confirms KIF21B is prior art as an MS and IBD
   susceptibility locus; any V17/V18 contribution would be causal-gene
   resolution and cell-state mechanism, not locus novelty.
@@ -60,4 +77,6 @@ Run cell-type-resolved expression and perturbation checks for `KIF21B` in the
 same immune-cell datasets used to test `GPR25`; decide whether the chr1 locus is
 better explained by lymphocyte trafficking (`GPR25`) or intracellular
 cytoskeletal/transport biology (`KIF21B`). If `KIF21B` wins, expect a mechanism
-or biomarker contribution rather than direct drug repositioning.
+or biomarker contribution rather than direct drug repositioning. The decisive
+next dataset is genotype-stratified immune-cell or CSF single-cell/CITE-seq data
+for exact chr1 shared credible-set haplotype carriers.

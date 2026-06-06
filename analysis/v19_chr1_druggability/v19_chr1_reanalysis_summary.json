@@ -1,0 +1,307 @@
+{
+  "kif21b_qtd_coloc_abf": [
+    {
+      "PP.H0.abf": "1.70806033059426e-07",
+      "PP.H1.abf": "0.0592645027127789",
+      "PP.H2.abf": "1.9232513814673e-07",
+      "PP.H3.abf": "0.0658560991820944",
+      "PP.H4.abf": "0.874879034973956",
+      "comparison": "MS_vs_QTD000021_KIF21B",
+      "nsnps": "472",
+      "nsnps_input": "472"
+    },
+    {
+      "PP.H0.abf": "7.01838969865217e-08",
+      "PP.H1.abf": "0.0621868873878265",
+      "PP.H2.abf": "7.90260592195385e-08",
+      "PP.H3.abf": "0.0691528812741881",
+      "PP.H4.abf": "0.868660082128031",
+      "comparison": "UC_vs_QTD000021_KIF21B",
+      "nsnps": "472",
+      "nsnps_input": "472"
+    }
+  ],
+  "qtd_kif21b_effect_direction": {
+    "all_intersecting_snps": {
+      "ms_direction_total": 472,
+      "ms_risk_allele_lowers_kif21b_expression": 304,
+      "ms_risk_allele_raises_kif21b_expression": 168,
+      "n": 472,
+      "top_qtl_snps": [
+        {
+          "ms_beta": "-0.11386399999999999",
+          "position": "200960354",
+          "qtl_beta_aligned_to_ld_a1": 0.463202,
+          "qtl_p": 1.06531e-05,
+          "snp": "rs6427868",
+          "uc_beta": "-0.146798"
+        },
+        {
+          "ms_beta": "-0.113953",
+          "position": "200986438",
+          "qtl_beta_aligned_to_ld_a1": 0.456621,
+          "qtl_p": 1.27831e-05,
+          "snp": "rs7539693",
+          "uc_beta": "-0.139501"
+        },
+        {
+          "ms_beta": "-0.112078",
+          "position": "201005987",
+          "qtl_beta_aligned_to_ld_a1": 0.456589,
+          "qtl_p": 1.2805e-05,
+          "snp": "rs11589573",
+          "uc_beta": "-0.137597"
+        },
+        {
+          "ms_beta": "-0.11440000000000002",
+          "position": "200981832",
+          "qtl_beta_aligned_to_ld_a1": 0.456553,
+          "qtl_p": 1.28071e-05,
+          "snp": "rs12118735",
+          "uc_beta": "-0.144298"
+        },
+        {
+          "ms_beta": "-0.114132",
+          "position": "200993159",
+          "qtl_beta_aligned_to_ld_a1": 0.456521,
+          "qtl_p": 1.28231e-05,
+          "snp": "rs12140420",
+          "uc_beta": "-0.138596"
+        },
+        {
+          "ms_beta": "-0.109123",
+          "position": "201014361",
+          "qtl_beta_aligned_to_ld_a1": 0.456429,
+          "qtl_p": 1.28837e-05,
+          "snp": "rs11580823",
+          "uc_beta": "-0.1385"
+        },
+        {
+          "ms_beta": "-0.114043",
+          "position": "200977800",
+          "qtl_beta_aligned_to_ld_a1": 0.456407,
+          "qtl_p": 1.28919e-05,
+          "snp": "rs34873729",
+          "uc_beta": "-0.145398"
+        },
+        {
+          "ms_beta": "-0.113329",
+          "position": "200970514",
+          "qtl_beta_aligned_to_ld_a1": 0.456355,
+          "qtl_p": 1.28932e-05,
+          "snp": "rs3208703",
+          "uc_beta": "-0.1455"
+        },
+        {
+          "ms_beta": "-0.108047",
+          "position": "201015352",
+          "qtl_beta_aligned_to_ld_a1": 0.450705,
+          "qtl_p": 1.33156e-05,
+          "snp": "rs12122721",
+          "uc_beta": "-0.139297"
+        },
+        {
+          "ms_beta": "-0.113597",
+          "position": "200987904",
+          "qtl_beta_aligned_to_ld_a1": 0.455355,
+          "qtl_p": 1.36749e-05,
+          "snp": "rs10494828",
+          "uc_beta": "-0.139205"
+        }
+      ],
+      "uc_direction_total": 472,
+      "uc_risk_allele_lowers_kif21b_expression": 386,
+      "uc_risk_allele_raises_kif21b_expression": 86
+    },
+    "exact_v17_shared_credible_snps": {
+      "ms_direction_total": 11,
+      "ms_risk_allele_lowers_kif21b_expression": 11,
+      "ms_risk_allele_raises_kif21b_expression": 0,
+      "n": 11,
+      "top_qtl_snps": [
+        {
+          "ms_beta": "-0.12327900000000001",
+          "position": "200905600",
+          "qtl_beta_aligned_to_ld_a1": 0.441577,
+          "qtl_p": 3.14893e-05,
+          "snp": "rs55838263",
+          "uc_beta": "-0.165303"
+        },
+        {
+          "ms_beta": "-0.12266",
+          "position": "200908722",
+          "qtl_beta_aligned_to_ld_a1": 0.426542,
+          "qtl_p": 6.11465e-05,
+          "snp": "rs41299637",
+          "uc_beta": "-0.165904"
+        },
+        {
+          "ms_beta": "-0.123191",
+          "position": "200906114",
+          "qtl_beta_aligned_to_ld_a1": 0.426556,
+          "qtl_p": 6.11906e-05,
+          "snp": "rs12132349",
+          "uc_beta": "-0.166503"
+        },
+        {
+          "ms_beta": "-0.121952",
+          "position": "200911850",
+          "qtl_beta_aligned_to_ld_a1": 0.42641,
+          "qtl_p": 6.15155e-05,
+          "snp": "rs296520",
+          "uc_beta": "-0.160502"
+        },
+        {
+          "ms_beta": "-0.12266",
+          "position": "200908434",
+          "qtl_beta_aligned_to_ld_a1": 0.426411,
+          "qtl_p": 6.15642e-05,
+          "snp": "rs7554511",
+          "uc_beta": "-0.1657"
+        },
+        {
+          "ms_beta": "-0.123191",
+          "position": "200905967",
+          "qtl_beta_aligned_to_ld_a1": 0.426415,
+          "qtl_p": 6.15734e-05,
+          "snp": "rs12132298",
+          "uc_beta": "-0.166497"
+        },
+        {
+          "ms_beta": "-0.12319099999999998",
+          "position": "200906769",
+          "qtl_beta_aligned_to_ld_a1": 0.426378,
+          "qtl_p": 6.16e-05,
+          "snp": "rs59655222",
+          "uc_beta": "-0.166302"
+        },
+        {
+          "ms_beta": "-0.120712",
+          "position": "200912467",
+          "qtl_beta_aligned_to_ld_a1": 0.426489,
+          "qtl_p": 6.18059e-05,
+          "snp": "rs7522462",
+          "uc_beta": "-0.158597"
+        },
+        {
+          "ms_beta": "-0.123102",
+          "position": "200905101",
+          "qtl_beta_aligned_to_ld_a1": 0.426518,
+          "qtl_p": 6.25083e-05,
+          "snp": "rs35730213",
+          "uc_beta": "-0.167"
+        },
+        {
+          "ms_beta": "-0.12239500000000002",
+          "position": "200909599",
+          "qtl_beta_aligned_to_ld_a1": 0.426143,
+          "qtl_p": 6.28073e-05,
+          "snp": "rs12131796",
+          "uc_beta": "-0.164698"
+        }
+      ],
+      "uc_direction_total": 11,
+      "uc_risk_allele_lowers_kif21b_expression": 11,
+      "uc_risk_allele_raises_kif21b_expression": 0
+    }
+  },
+  "qtd_kif21b_rows_intersecting_v14_disease_snps": 472,
+  "qtd_kif21b_rows_total": 8416,
+  "v17_bounded_eqtl_susie_competitor_rollup": [
+    {
+      "comparison": "MS",
+      "error": "",
+      "gene": "DDX59",
+      "max_PP.H3": "0.999977551018726",
+      "max_PP.H4": "2.76640601361495e-06",
+      "nsnps": "485",
+      "status": "ok"
+    },
+    {
+      "comparison": "UC",
+      "error": "",
+      "gene": "DDX59",
+      "max_PP.H3": "0.999964463659367",
+      "max_PP.H4": "1.36696103357345e-05",
+      "nsnps": "485",
+      "status": "ok"
+    },
+    {
+      "comparison": "MS",
+      "error": "",
+      "gene": "KIF21B",
+      "max_PP.H3": "0.999386209538619",
+      "max_PP.H4": "0.95609866029669",
+      "nsnps": "485",
+      "status": "ok"
+    },
+    {
+      "comparison": "UC",
+      "error": "",
+      "gene": "KIF21B",
+      "max_PP.H3": "0.998720187957682",
+      "max_PP.H4": "0.963951010560479",
+      "nsnps": "485",
+      "status": "ok"
+    },
+    {
+      "comparison": "MS",
+      "error": "",
+      "gene": "C1orf106",
+      "max_PP.H3": "0.999096594234362",
+      "max_PP.H4": "0.00256175482497818",
+      "nsnps": "485",
+      "status": "ok"
+    },
+    {
+      "comparison": "UC",
+      "error": "",
+      "gene": "C1orf106",
+      "max_PP.H3": "0.998626823419886",
+      "max_PP.H4": "0.00259136631270398",
+      "nsnps": "485",
+      "status": "ok"
+    }
+  ],
+  "v17_shared_block_by_gene": [
+    {
+      "gene": "GPR25",
+      "max_abs_z": 15.8694,
+      "min_p": 1.0322e-56,
+      "overlap_snps": 11
+    },
+    {
+      "gene": "DDX59",
+      "max_abs_z": 10.7135,
+      "min_p": 8.8067e-27,
+      "overlap_snps": 11
+    },
+    {
+      "gene": "KIF21B",
+      "max_abs_z": 7.5681,
+      "min_p": 3.7901e-14,
+      "overlap_snps": 11
+    },
+    {
+      "gene": "C1orf106",
+      "max_abs_z": 6.5713,
+      "min_p": 4.9911e-11,
+      "overlap_snps": 11
+    }
+  ],
+  "v18_checksum_files_checked": 19,
+  "v18_checksums_all_match": true,
+  "v18_hits": {
+    "exact_credible_matches": 0,
+    "median_distance_to_v17_credible_bp": 463258.0,
+    "min_distance_to_v17_credible_bp": 17230.0,
+    "target_hits_by_gene": {
+      "KIF21B": 15
+    },
+    "target_hits_by_source": {
+      "DICE_significant_eqtl": 1,
+      "OneK1K_top_eqtl": 14
+    },
+    "target_hits_total": 15
+  }
+}
