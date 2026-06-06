@@ -66,7 +66,7 @@ CTSS is upstream in that subgroup. V3 did not provide that evidence.
   molecules in retained rows, median potency 206 nM, 594 sub-100 nM rows), so
   lack of chemistry is not the blocker.
 - `results_v3/wave46_central_axis_closure_audit/` and
-  `LAB_NOTEBOOK_V3.md`: `CTSS_cathepsinS_lysosomal_effector` closed as
+  `docs/lab_notebooks/LAB_NOTEBOOK_V3.md`: `CTSS_cathepsinS_lysosomal_effector` closed as
   `NO_GO_CTSS_PRIOR_ART_DOWNSTREAM_EFFECTOR`; modeled 70% CTSS suppression was
   essentially null on upstream `IFN/APC` and `HLA-II/CD74`.
 - PubMed/PMC verified celiac study: RO5459072 in 19 celiac participants under a

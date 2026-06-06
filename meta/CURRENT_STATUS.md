@@ -20,7 +20,7 @@ the monitoring lead by therapy mechanism.
 Current frontier:
 
 - V22 treatment-response result:
-  - `LOCKED_RULE_V22.md` was committed before validation (`013639b`).
+  - `docs/locked_rules/LOCKED_RULE_V22.md` was committed before validation (`013639b`).
   - Primary locked validation is mixed:
     - `GSE235357` MS dimethyl fumarate passed the small-n rule: AUC `0.72`,
       Hedges g `0.651`, `n=10`.
@@ -57,7 +57,7 @@ Current frontier:
 - The chr1 locus is a tractable genetics/mechanism lead, not an
   intervention-grade target. Controlled or richer immune-genotype/protein data
   remain the decisive next layer, but V20 does not continue chr1.
-- `LEAD_SLATE_V20.md` now ranks 13 next-tier candidates:
+- `docs/history/LEAD_SLATE_V20.md` now ranks 13 next-tier candidates:
   - `5` promising follow-ups;
   - `2` hard-target real-biology findings;
   - `6` negative/not-now findings.
@@ -88,81 +88,81 @@ Standing reporting rule:
 
 Methodology backbone:
 
-- V8 lock: `ROADMAP_V8.md`, `MAP_METHODOLOGY_V8.md`, commit `9c2e548`.
-- V9 lock: `ROADMAP_V9.md`, `MAP_METHODOLOGY_V9.md`, commit `df7c7de`.
-- V10 roadmap: `ROADMAP_V10.md`.
+- V8 lock: `docs/roadmaps/ROADMAP_V8.md`, `docs/locked_rules/MAP_METHODOLOGY_V8.md`, commit `9c2e548`.
+- V9 lock: `docs/roadmaps/ROADMAP_V9.md`, `docs/locked_rules/MAP_METHODOLOGY_V9.md`, commit `df7c7de`.
+- V10 roadmap: `docs/roadmaps/ROADMAP_V10.md`.
 - V11 resume backbone:
   - `meta/MATRIX_STATUS.md`
   - `meta/NEXT_ACTIONS.md`
   - `meta/SESSION_LOG.md`
   - `analysis/v11_matrix/disagreement_matrix.tsv`
 - V12 synthesis:
-  - `AXIS_DISAGREEMENT_FINDINGS_V12.md`
-  - `CONVERGENCE_CHECK_V12_01.md`
+  - `docs/findings/AXIS_DISAGREEMENT_FINDINGS_V12.md`
+  - `docs/convergence/CONVERGENCE_CHECK_V12_01.md`
 - V13 genetics checkpoint:
-  - `GENETICS_AXIS_V13_COLOCALIZATION_CHECKPOINT.md`
-  - `CONVERGENCE_CHECK_V13_01.md`
+  - `docs/workups/genetics/GENETICS_AXIS_V13_COLOCALIZATION_CHECKPOINT.md`
+  - `docs/convergence/CONVERGENCE_CHECK_V13_01.md`
   - `analysis/v13_genetics_coloc/`
 - V14 locus-landscape checkpoint:
-  - `GENETICS_AXIS_V14_LANDSCAPE_CHECKPOINT.md`
-  - `CONVERGENCE_CHECK_V14_01.md`
+  - `docs/workups/genetics/GENETICS_AXIS_V14_LANDSCAPE_CHECKPOINT.md`
+  - `docs/convergence/CONVERGENCE_CHECK_V14_01.md`
   - `analysis/v14_locus_landscape/`
 - V14 genetics robustness provisioning and bounded SuSiE-coloc:
   - `meta/PROVISIONING_REPORT.md`
   - `analysis/v14_susie_coloc/REPORT.md`
   - `scripts/v14_susie_coloc_confirmed_loci.py`
 - V15 causal-gene/effect-direction workup:
-  - `GENETICS_LOCI_WORKUP_V15.md`
+  - `docs/workups/genetics/GENETICS_LOCI_WORKUP_V15.md`
   - `analysis/v15_loci_workup/locus_verdicts.tsv`
 - V15 next-tier SuSiE addendum:
-  - `GENETICS_AXIS_V15_NEXT_TIER_SUSIE_ADDENDUM.md`
+  - `docs/workups/genetics/GENETICS_AXIS_V15_NEXT_TIER_SUSIE_ADDENDUM.md`
   - `analysis/v14_susie_coloc/susie_coloc_rollup.tsv`
 - V16 eQTL-grounded workup:
-  - `GENETICS_EQTL_WORKUP_V16.md`
-  - `ORCHESTRATION_LOG_V16.md`
+  - `docs/workups/genetics/GENETICS_EQTL_WORKUP_V16.md`
+  - `docs/orchestration/ORCHESTRATION_LOG_V16.md`
   - `subagents/v16_gpr25_eqtl_report.md`
   - `subagents/v16_zmiz1_eqtl_report.md`
   - `subagents/v16_ptger4_signal_decomposition_report.md`
 - V17 GPR25 mechanism workup:
-  - `GENETICS_GPR25_WORKUP_V17.md`
-  - `KIF21B_SCOUT_V17.md`
-  - `SOURCES_V17.md`
-  - `ORCHESTRATION_LOG_V17.md`
-  - `CRITIQUE_V17.md`
-  - `CONVERGENCE_CHECK_V17_01.md`
-  - `GPR25_KIF21B_EXPERIMENTAL_DESIGN_V17.md`
+  - `docs/workups/genetics/GENETICS_GPR25_WORKUP_V17.md`
+  - `docs/workups/genetics/KIF21B_SCOUT_V17.md`
+  - `docs/resources/SOURCES_V17.md`
+  - `docs/orchestration/ORCHESTRATION_LOG_V17.md`
+  - `docs/critiques/CRITIQUE_V17.md`
+  - `docs/convergence/CONVERGENCE_CHECK_V17_01.md`
+  - `docs/workups/genetics/GPR25_KIF21B_EXPERIMENTAL_DESIGN_V17.md`
   - `analysis/v17_gpr25_mechanism/`
 - V18 data-source acquisition:
   - `meta/DATA_ACQUISITION_PLAN_V18.md`
   - `meta/DATA_TIER2_KEY_REQUESTS.md`
   - `meta/DATA_TIER3_DOWNLOAD_INSTRUCTIONS.md`
-  - `CONVERGENCE_CHECK_V18_01.md`
+  - `docs/convergence/CONVERGENCE_CHECK_V18_01.md`
   - `analysis/v18_source_triage/`
   - `data/raw/v18_source_triage/`
 - V19 chr1 re-evaluation:
-  - `GENETICS_CHR1_REEVALUATION_V19.md`
+  - `docs/workups/genetics/GENETICS_CHR1_REEVALUATION_V19.md`
   - `scripts/v19_chr1_reanalysis.py`
   - `analysis/v19_chr1_druggability/`
 - V20 next-tier slate:
-  - `LEAD_SLATE_V20.md`
+  - `docs/history/LEAD_SLATE_V20.md`
   - `scripts/v20_generate_lead_slate.py`
   - `analysis/v20_lead_slate/lead_slate_v20.tsv`
   - `analysis/v20_lead_slate/lead_slate_v20_summary.json`
 - V21 genetic-correlation and next-tier-locus checkpoint:
-  - `GENETIC_CORRELATION_BACKDROP_V21.md`
-  - `LEAD_SLATE_V21.md`
+  - `docs/workups/genetics/GENETIC_CORRELATION_BACKDROP_V21.md`
+  - `docs/history/LEAD_SLATE_V21.md`
   - `analysis/v21_ldsc_backdrop/`
 - V22 locked treatment-response validation:
-  - `LOCKED_RULE_V22.md`
-  - `VALIDATION_LEDGER_V22.md`
-  - `FINDING_V22.md`
-  - `COHORT_SEARCH_V22.md`
-  - `CONVERGENCE_CHECK_V22_01.md`
+  - `docs/locked_rules/LOCKED_RULE_V22.md`
+  - `docs/validation/VALIDATION_LEDGER_V22.md`
+  - `docs/findings/FINDING_V22.md`
+  - `docs/validation/COHORT_SEARCH_V22.md`
+  - `docs/convergence/CONVERGENCE_CHECK_V22_01.md`
   - `analysis/v22_locked_apc_hla_validation/`
 - V23 APC/HLA-II monitoring workup:
-  - `APC_HLA_MONITORING_WORKUP_V23.md`
-  - `V23_ACTION_QUEUE.md`
-  - `CONVERGENCE_CHECK_V23_01.md`
+  - `docs/workups/treatment_response/APC_HLA_MONITORING_WORKUP_V23.md`
+  - `meta/queues/V23_ACTION_QUEUE.md`
+  - `docs/convergence/CONVERGENCE_CHECK_V23_01.md`
   - `analysis/v23_apc_hla_monitoring/`
 
 ## Current Matrix State
@@ -408,13 +408,13 @@ V17 verdict:
 
 Completed synthesis:
 
-- `AXIS_DISAGREEMENT_FINDINGS_V12.md`
+- `docs/findings/AXIS_DISAGREEMENT_FINDINGS_V12.md`
 
 Resolved V12 cell reports:
 
-- `UC_GENETICS_TREATMENT_DECOUPLING_V12.md`
-- `CROHN_IFN_APC_GENETICS_DECOUPLING_V12.md`
-- `CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md`
+- `docs/workups/genetics/UC_GENETICS_TREATMENT_DECOUPLING_V12.md`
+- `docs/workups/genetics/CROHN_IFN_APC_GENETICS_DECOUPLING_V12.md`
+- `docs/workups/genetics/CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md`
 
 Core V12 interpretation:
 
@@ -440,8 +440,8 @@ label.
 
 ## Highest-Value Next Actions
 
-1. Start from `MODEL_CARD_V25.md`, `MODEL_DESIGN_V25.md`,
-   `DATA_SCOUT_V24.md`, and
+1. Start from `docs/workups/treatment_response/MODEL_CARD_V25.md`, `docs/workups/treatment_response/MODEL_DESIGN_V25.md`,
+   `docs/workups/microbiome/DATA_SCOUT_V24.md`, and
    `analysis/v24_data_scout/v24_candidate_inventory.tsv`.
 2. Do not use the V25 model for wet-lab triage; it failed held-out validation.
 3. Primary APC/HLA monitoring unlock: obtain Gafson et al. 2018 DMF PBMC
@@ -463,7 +463,7 @@ label.
 
 ## V24 Treatment-Response Data Scout
 
-- Report: `DATA_SCOUT_V24.md`.
+- Report: `docs/workups/microbiome/DATA_SCOUT_V24.md`.
 - Machine-readable logs:
   - `analysis/v24_data_scout/v24_search_log.tsv`.
   - `analysis/v24_data_scout/v24_candidate_inventory.tsv`.
@@ -483,8 +483,8 @@ label.
 
 ## V25 Immune-State Model Build
 
-- Design: `MODEL_DESIGN_V25.md`.
-- Model card: `MODEL_CARD_V25.md`.
+- Design: `docs/workups/treatment_response/MODEL_DESIGN_V25.md`.
+- Model card: `docs/workups/treatment_response/MODEL_CARD_V25.md`.
 - Immutable split:
   `analysis/v25_immune_state_model/TRAIN_HELDOUT_SPLIT_V25.tsv`, committed
   before validation in commit `0bc726e`.

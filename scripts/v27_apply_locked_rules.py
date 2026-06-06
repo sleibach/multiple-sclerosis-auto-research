@@ -6,8 +6,8 @@ cohort,patient,response,therapy_class,delta_IFN_APC,delta_HLAII,delta_RECEPTOR
 
 This script does not compute expression modules from raw expression. It is the
 final locked-rule scoring layer after a cohort has already been normalized and
-converted into frozen module deltas according to LOCKED_RULE_V22.md and
-VALIDATION_READINESS_V27.md.
+converted into frozen module deltas according to docs/locked_rules/LOCKED_RULE_V22.md and
+docs/validation/VALIDATION_READINESS_V27.md.
 """
 
 from __future__ import annotations

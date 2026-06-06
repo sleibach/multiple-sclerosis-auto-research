@@ -21,9 +21,9 @@ dynamics under ACSL1 reduction, and no CNS/microglia-engaged clinical modality
 exists.
 
 Key local evidence:
-- `FINDING.md`
-- `EXHAUSTION.md`
-- `CONVERGENCE_CHECK_1.md`
+- `docs/findings/FINDING.md`
+- `docs/history/EXHAUSTION.md`
+- `docs/convergence/CONVERGENCE_CHECK_1.md`
 - `subagents/alpha1_acsl1_deepening_report_2026-05-26.md`
 - `subagents/beta1_cross_autoimmune_report_2026-05-26.md`
 - `subagents/gamma1_hostile_review_2026-05-26.md`

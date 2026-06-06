@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "analysis" / "v8_map"
 MATRIX = OUT / "placement_matrix.tsv"
 EVIDENCE = OUT / "evidence_registry.tsv"
-DEST = ROOT / "MS_MECHANISM_MAP_V8.md"
+DEST = ROOT / "docs/findings/MS_MECHANISM_MAP_V8.md"
 
 AXIS_LABELS = {
     "axis_01_ifn_apc": "IFN/APC Antigen-Presentation State",
@@ -120,7 +120,7 @@ def main() -> None:
         "",
         "This is an MS-centered, multi-axis map. It is not a binary disease clustering. Each cell is placement / grade / confidence relative to MS on that axis only.",
         "",
-        "Methodology was pre-specified in `MAP_METHODOLOGY_V8.md` and committed before placement generation (`9c2e548`). The map currently contains "
+        "Methodology was pre-specified in `docs/locked_rules/MAP_METHODOLOGY_V8.md` and committed before placement generation (`9c2e548`). The map currently contains "
         f"{len(matrix)} disease-axis placements and {len(evidence)} evidence rows.",
         "",
         "## Executive Interpretation",
@@ -188,7 +188,7 @@ def main() -> None:
         "- `analysis/v8_map/evidence_registry.tsv`",
         "- `analysis/v8_map/placement_matrix.tsv`",
         "- `analysis/v8_map/MAP_MERGE_REPORT.md`",
-        "- `MS_MECHANISM_MAP_V8.md`",
+        "- `docs/findings/MS_MECHANISM_MAP_V8.md`",
         "",
         "Known limitation: several axes are literature/local-evidence placements, not harmonized raw-data re-analyses. Their grade and confidence are intentionally capped.",
         "",

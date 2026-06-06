@@ -18,7 +18,7 @@ V11 introduced the resume backbone for short-session continuity.
   and next actions.
 - Current active treatment-response focus: the V20/V21 top actionable lead,
   dynamic APC/HLA-II treatment-response monitoring, underwent locked
-  held-out validation in V22. `LOCKED_RULE_V22.md` was committed before
+  held-out validation in V22. `docs/locked_rules/LOCKED_RULE_V22.md` was committed before
   validation. Primary locked results were mixed: MS dimethyl fumarate
   `GSE235357` passed the small-n rule (AUC `0.72`, Hedges g `0.65`, `n=10`),
   MS fingolimod `GSE250453` failed (AUC `0.60`, Hedges g `0.15`, `n=10`), and
@@ -65,7 +65,7 @@ V11 introduced the resume backbone for short-session continuity.
   exact shared credible-set variants showed disease-risk alleles lowering
   KIF21B expression `11 / 11` for both MS and UC. The integrated verdict is
   real shared genetics/mechanism, not an intervention-grade target. V20 then
-  generated `LEAD_SLATE_V20.md`, a 13-candidate ranked next-tier slate. The
+  generated `docs/history/LEAD_SLATE_V20.md`, a 13-candidate ranked next-tier slate. The
   top actionable lead is dynamic APC/HLA-II treatment-response monitoring in
   MS. V21 then established the genome-wide LDSC backdrop: MS-UC is the
   strongest tested comparator (`rg = 0.3342`), MS-SLE is positive but caveated
@@ -108,7 +108,9 @@ that explicitly in `meta/SESSION_LOG.md`.
 
 | Path | Contents |
 |---|---|
-| `meta/` | Live status, roadmaps, rulebooks (prior-art and tiering), and convergence checks for the current phase. |
+| `README.md` | Root entry point and high-level project status. |
+| `docs/` | Human-facing Markdown artifacts moved out of root: findings, locked rules, validation reports, workups, roadmaps, convergence checks, critiques, lab notebooks, orchestration logs, historical notes, and resource notes. `docs/ARTIFACT_INDEX.md` maps old root paths to new paths. |
+| `meta/` | Live status, rulebooks, resume state, provisioning reports, session log, repository inventory/restructure records, and `meta/queues/` for active build/action queues. |
 | `knowledge/` | Canonical distilled knowledge: per-candidate histories (`candidates/`), evidence dimensions (`dimensions/`), mechanism hypotheses (`mechanisms/`), dataset/tool registries, and an append-only decision log (`decisions/`). |
 | `analysis/` | Tiered analyses (`tier_0_triage/`, `tier_1_mechanism/`) for the current phase, each with a `REPORT.md` and decision artifacts. |
 | `results/`, `results_v2/`, `results_v3/` | Per-phase analysis outputs (TSV/JSON/reports). |
@@ -121,24 +123,24 @@ that explicitly in `meta/SESSION_LOG.md`.
 
 | Phase | Question | Outcome |
 |---|---|---|
-| V1 | Does a 4-1BB costimulation score (`TNFRSF9`/`TNFSF9`) track a lipid/complement microglial program in human MS lesions? | Constrained association test executed; see `MS_RESEARCH_LOG_2026-05-26.md`, `SELECTION.md`. |
-| V2 | Can a single MS lipid-handling target (`ACSL1`) be promoted to a therapeutic claim? | No finding survived. `ACSL1` demoted to marker; `NAMPT` prior-art-blocked. See `FINDING_EXECUTION_PHASE.md`, `EXHAUSTION.md`. |
-| V3 | What node or state transition in the cross-autoimmune lipid-lysosomal myeloid module is a druggable intervention point? | 170+ waves; no candidate met the Definition of Done. See `PLAN_V3.md`, `REFRAME_V3.md`, `LAB_NOTEBOOK_V3.md`. |
+| V1 | Does a 4-1BB costimulation score (`TNFRSF9`/`TNFSF9`) track a lipid/complement microglial program in human MS lesions? | Constrained association test executed; see `docs/history/MS_RESEARCH_LOG_2026-05-26.md`, `docs/history/SELECTION.md`. |
+| V2 | Can a single MS lipid-handling target (`ACSL1`) be promoted to a therapeutic claim? | No finding survived. `ACSL1` demoted to marker; `NAMPT` prior-art-blocked. See `docs/findings/FINDING_EXECUTION_PHASE.md`, `docs/history/EXHAUSTION.md`. |
+| V3 | What node or state transition in the cross-autoimmune lipid-lysosomal myeloid module is a druggable intervention point? | 170+ waves; no candidate met the Definition of Done. See `docs/roadmaps/PLAN_V3.md`, `docs/roadmaps/REFRAME_V3.md`, `docs/lab_notebooks/LAB_NOTEBOOK_V3.md`. |
 | V4 | Same question, under stricter prior-art and tiering rulebooks. | Reorganized knowledge into `knowledge/` + `meta/`; tiered triage. |
 | V5 | Tiered continuation on concrete leads (pregnancy axis, MIF/CD74 resolution, longitudinal dimension). | Produced concrete leads but no Tier 4 claim. |
 | V6-V7 | APC response architecture as cross-disease treatment-response stratifier. | Narrow IBD response-monitoring signal survived; broad APC rule killed. |
 | V8-V12 | MS-centered multi-axis mechanism map and axis-disagreement matrix. | Matrix completed; UC/Crohn/MS genetics and treatment-response disagreements became priority. |
 | V13 | OpenGWAS-backed first-pass cross-trait colocalization for MS/UC/Crohn shared loci. | Four high-H4 regions identified; MHC overlaps mostly ruled distinct causal variants. |
 | V14 | Robust workup of confirmed shared loci. | Tooling and LDSC reference panel provisioned; bounded SuSiE-coloc supports chr1 UC and chr10 Crohn loci. Active. |
-| V15 | Causal-gene and effect-direction workup for the SuSiE-surviving loci. | chr1 MS-UC points to concordant `GPR25` blood eQTL risk direction but weak cell-state/druggability support; chr10 MS-Crohn points to `ZMIZ1` with opposite disease-effect signs and no transfer-ready intervention claim; chr5/PTGER4 is mixed shared/distinct signal; chr17/STAT3-STAT5 is downgraded. See `GENETICS_LOCI_WORKUP_V15.md` and `GENETICS_AXIS_V15_NEXT_TIER_SUSIE_ADDENDUM.md`. |
-| V16 | eQTL-grounded allele-direction workup of live loci. | `GPR25` direction corrected to protective higher expression; `ZMIZ1` confirmed as opposite-direction MS/Crohn decoupling locus; `PTGER4` confirmed signal-conflicted. See `GENETICS_EQTL_WORKUP_V16.md`. |
-| V17 | GPR25 mechanism workup and lead consolidation. | `GPR25` survives as a Tier 1 genetics-to-lymphocyte-trafficking lead, not an intervention-grade finding. Full eQTLGen candidate extraction and bounded eQTL-coloc keep `GPR25` alive but reopen `KIF21B` as a competing causal gene; local MS CNS atlases do not support a lesion-cell GPR25 mechanism, and h5ad scans make KIF21B a stronger expression-supported competitor but weak direct target. See `GENETICS_GPR25_WORKUP_V17.md`, `KIF21B_SCOUT_V17.md`, `SOURCES_V17.md`, and `GPR25_KIF21B_EXPERIMENTAL_DESIGN_V17.md`. |
+| V15 | Causal-gene and effect-direction workup for the SuSiE-surviving loci. | chr1 MS-UC points to concordant `GPR25` blood eQTL risk direction but weak cell-state/druggability support; chr10 MS-Crohn points to `ZMIZ1` with opposite disease-effect signs and no transfer-ready intervention claim; chr5/PTGER4 is mixed shared/distinct signal; chr17/STAT3-STAT5 is downgraded. See `docs/workups/genetics/GENETICS_LOCI_WORKUP_V15.md` and `docs/workups/genetics/GENETICS_AXIS_V15_NEXT_TIER_SUSIE_ADDENDUM.md`. |
+| V16 | eQTL-grounded allele-direction workup of live loci. | `GPR25` direction corrected to protective higher expression; `ZMIZ1` confirmed as opposite-direction MS/Crohn decoupling locus; `PTGER4` confirmed signal-conflicted. See `docs/workups/genetics/GENETICS_EQTL_WORKUP_V16.md`. |
+| V17 | GPR25 mechanism workup and lead consolidation. | `GPR25` survives as a Tier 1 genetics-to-lymphocyte-trafficking lead, not an intervention-grade finding. Full eQTLGen candidate extraction and bounded eQTL-coloc keep `GPR25` alive but reopen `KIF21B` as a competing causal gene; local MS CNS atlases do not support a lesion-cell GPR25 mechanism, and h5ad scans make KIF21B a stronger expression-supported competitor but weak direct target. See `docs/workups/genetics/GENETICS_GPR25_WORKUP_V17.md`, `docs/workups/genetics/KIF21B_SCOUT_V17.md`, `docs/resources/SOURCES_V17.md`, and `docs/workups/genetics/GPR25_KIF21B_EXPERIMENTAL_DESIGN_V17.md`. |
 | V18 | Data-source acquisition and access triage. | Acquired public OneK1K top eQTL, DICE significant eQTL/mean expression, eQTL Catalogue targeted chr1 extract, IUPHAR, and GPCRdb sources. Public genotype-linked immune eQTL sources favor `KIF21B` context (`14` OneK1K target hits and `1` DICE NK hit, all KIF21B) but do not resolve GPR25 protein/genotype causality. See `meta/DATA_ACQUISITION_PLAN_V18.md`. |
-| V19 | First-principles druggability and causal-gene re-evaluation of chr1. | Dense QTD000021 eQTL Catalogue coloc supports `KIF21B` as a serious causal-gene candidate (MS/eQTL PP.H4 `0.874879034973956`, UC/eQTL PP.H4 `0.868660082128031`), and exact shared credible-set variants show risk lowers KIF21B expression. Druggability was revised: `GPR25` is structurally plausible but agonism-immature; `KIF21B` is structurally ligandable but likely wrong-direction for inhibition. See `GENETICS_CHR1_REEVALUATION_V19.md`. |
-| V20 | Next-tier lead generation across the full landscape. | Produced `LEAD_SLATE_V20.md` and `analysis/v20_lead_slate/lead_slate_v20.tsv`: 13 pre-vetted candidates across four workstreams, with 5 promising follow-ups, 2 hard-target real-biology findings, and 6 negative/not-now entries. Top lead is dynamic APC/HLA-II treatment-response monitoring; next genetics follow-ups are chr14 `ZFP36L1` and chr2 `REL/PUS10/USP34`. |
-| V21 | Genome-wide genetic-correlation backdrop and queued next-tier locus vetting. | Used the verified LDSC panel to compute rg for MS vs UC, Crohn, RA, and SLE; UC is the strongest tested genetic comparator for MS. Bounded SuSiE-coloc parked chr14 `ZFP36L1` as suggestive and closed chr2 `REL/PUS10/USP34` as not-now. See `GENETIC_CORRELATION_BACKDROP_V21.md` and `LEAD_SLATE_V21.md`. |
+| V19 | First-principles druggability and causal-gene re-evaluation of chr1. | Dense QTD000021 eQTL Catalogue coloc supports `KIF21B` as a serious causal-gene candidate (MS/eQTL PP.H4 `0.874879034973956`, UC/eQTL PP.H4 `0.868660082128031`), and exact shared credible-set variants show risk lowers KIF21B expression. Druggability was revised: `GPR25` is structurally plausible but agonism-immature; `KIF21B` is structurally ligandable but likely wrong-direction for inhibition. See `docs/workups/genetics/GENETICS_CHR1_REEVALUATION_V19.md`. |
+| V20 | Next-tier lead generation across the full landscape. | Produced `docs/history/LEAD_SLATE_V20.md` and `analysis/v20_lead_slate/lead_slate_v20.tsv`: 13 pre-vetted candidates across four workstreams, with 5 promising follow-ups, 2 hard-target real-biology findings, and 6 negative/not-now entries. Top lead is dynamic APC/HLA-II treatment-response monitoring; next genetics follow-ups are chr14 `ZFP36L1` and chr2 `REL/PUS10/USP34`. |
+| V21 | Genome-wide genetic-correlation backdrop and queued next-tier locus vetting. | Used the verified LDSC panel to compute rg for MS vs UC, Crohn, RA, and SLE; UC is the strongest tested genetic comparator for MS. Bounded SuSiE-coloc parked chr14 `ZFP36L1` as suggestive and closed chr2 `REL/PUS10/USP34` as not-now. See `docs/workups/genetics/GENETIC_CORRELATION_BACKDROP_V21.md` and `docs/history/LEAD_SLATE_V21.md`. |
 
-`FINDING.md` documents the (since-demoted) `ACSL1` target hypothesis from an
+`docs/findings/FINDING.md` documents the (since-demoted) `ACSL1` target hypothesis from an
 earlier phase and is retained for the historical trace.
 
 ## Reproducibility
@@ -194,7 +196,7 @@ V20 reproducibility entry point:
 
 - `scripts/v20_generate_lead_slate.py` consolidates V13-V19 evidence into the
   ranked next-tier slate under `analysis/v20_lead_slate/` and supports
-  `LEAD_SLATE_V20.md`.
+  `docs/history/LEAD_SLATE_V20.md`.
 
 V21 reproducibility entry points:
 
@@ -225,7 +227,7 @@ LDSC reference panel:
 
 V24 data-scout entry points:
 
-- `DATA_SCOUT_V24.md` is the current treatment-response cohort acquisition
+- `docs/workups/microbiome/DATA_SCOUT_V24.md` is the current treatment-response cohort acquisition
   verdict for the APC/HLA-II monitoring lead.
 - `analysis/v24_data_scout/v24_search_log.tsv` records searched source types,
   queries, hit counts/results, and inspection outcomes.
@@ -242,7 +244,7 @@ V24 data-scout entry points:
 
 V25 model-build entry points:
 
-- `MODEL_DESIGN_V25.md` records the architecture choice and why V25 downscoped
+- `docs/workups/treatment_response/MODEL_DESIGN_V25.md` records the architecture choice and why V25 downscoped
   to a bounded empirical Mixscale module-response model.
 - `analysis/v25_immune_state_model/DATA_INVENTORY_V25.tsv` inventories the
   data substrates considered for model building.
@@ -250,7 +252,7 @@ V25 model-build entry points:
   immutable held-out split, committed before validation in commit `0bc726e`.
 - `scripts/v25_build_bounded_immune_state_model.py` rebuilds the bounded model
   and held-out validation outputs.
-- `MODEL_CARD_V25.md` is the final V25 deliverable. Verdict: V25 did not
+- `docs/workups/treatment_response/MODEL_CARD_V25.md` is the final V25 deliverable. Verdict: V25 did not
   achieve a reliable immune-state simulator. Held-out direction accuracy was
   `0.542` across `24` module predictions, calibration was weak, and the model
   must abstain on `KIF21B/GPR25`, `ZMIZ1`, patient response, single-cell
@@ -258,12 +260,12 @@ V25 model-build entry points:
 
 V26 deep-structure entry points:
 
-- `V26_QUEUE.md` records the V26 self-driving queue and completed workstream
+- `meta/queues/V26_QUEUE.md` records the V26 self-driving queue and completed workstream
   statuses.
 - `scripts/v26_deep_structure_analysis.py` rebuilds the held-data modality
   manifest, module matrices, latent-axis tests, dependency tests, invariant
   tests, and stalled-lead reread tables under `analysis/v26_deep_structure/`.
-- `DEEP_STRUCTURE_V26.md` is the final V26 deliverable. Verdict: V26 found a
+- `docs/findings/DEEP_STRUCTURE_V26.md` is the final V26 deliverable. Verdict: V26 found a
   supported shared APC remodeling structure, not a cure-class target and not a
   load-bearing invariant. Supported latent pairings were treatment
   pharmacodynamics vs cross-disease h5ad cell state (cosine `0.934`, BH q
@@ -274,12 +276,12 @@ V26 deep-structure entry points:
 
 V27 coupled-axis rule entry points:
 
-- `COUPLED_AXIS_V27.md` freezes the coupled APC-axis candidate feature
+- `docs/workups/treatment_response/COUPLED_AXIS_V27.md` freezes the coupled APC-axis candidate feature
   definitions before response comparison and records the scalar-vs-coupled
   result.
 - `scripts/v27_coupled_axis_comparison.py` rebuilds the V27 comparison under
   `analysis/v27_coupled_axis/`.
-- `VALIDATION_READINESS_V27.md` documents the future fresh-cohort validation
+- `docs/validation/VALIDATION_READINESS_V27.md` documents the future fresh-cohort validation
   procedure and input format.
 - `scripts/v27_apply_locked_rules.py` mechanically scores a future paired
   module-delta cohort with the immutable V22 scalar and secondary V27 coupled

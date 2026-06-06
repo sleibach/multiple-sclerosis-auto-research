@@ -12,7 +12,7 @@ Session objective: extract deep latent, interaction, and invariant structure fro
 | 4 | completed | Workstream B: higher-order module dependency scan with permutation and BH correction. | `workstream_b_module_dependencies.tsv` |
 | 5 | completed | Workstream C: invariant/negative-space module relationship analysis. | `workstream_c_invariants.tsv` |
 | 6 | completed | Workstream D: integrate results and reread stalled leads. | `workstream_d_lead_reread.tsv` |
-| 7 | completed | Write synthesis and update resume state, README, session log, RAG index, commit. | `DEEP_STRUCTURE_V26.md` |
+| 7 | completed | Write synthesis and update resume state, README, session log, RAG index, commit. | `docs/findings/DEEP_STRUCTURE_V26.md` |
 
 ## Method Guardrails
 

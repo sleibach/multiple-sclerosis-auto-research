@@ -290,7 +290,7 @@ def main() -> int:
     paired.to_csv(OUT / "paired_locked_scores_v22.tsv", sep="\t", index=False)
     summary = {
         "random_seed": SEED,
-        "locked_rule": "LOCKED_RULE_V22.md",
+        "locked_rule": "docs/locked_rules/LOCKED_RULE_V22.md",
         "n_cohorts": int(len(ledger)),
         "n_pass": int((ledger["pass_fail"] == "pass").sum()),
         "n_fail": int((ledger["pass_fail"] == "fail").sum()),

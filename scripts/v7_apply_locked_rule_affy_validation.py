@@ -3,7 +3,7 @@
 
 This script deliberately contains no fitted model and no cohort-specific tuning.
 The only cohort-specific logic is eligibility/label extraction and selection of
-the locked therapy-class feature from LOCKED_RULE_V7.md.
+the locked therapy-class feature from docs/locked_rules/LOCKED_RULE_V7.md.
 """
 
 from __future__ import annotations
@@ -735,7 +735,7 @@ def write_report(accession: str, result: CohortResult, scored: pd.DataFrame, map
     response_counts = scored["response"].value_counts(dropna=False).to_dict()
     report = f"""# V7 Locked-Rule Validation: {accession}
 
-Rule file: `LOCKED_RULE_V7.md`
+Rule file: `docs/locked_rules/LOCKED_RULE_V7.md`
 
 ## Result
 

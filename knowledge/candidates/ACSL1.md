@@ -6,7 +6,7 @@ Last updated: 2026-05-28
 
 ## V3 History
 
-ACSL1 was proposed as a target in `FINDING.md` but later demoted after deeper
+ACSL1 was proposed as a target in `docs/findings/FINDING.md` but later demoted after deeper
 module-adjusted testing; it currently appears more like a lipid-myeloid marker
 than a standalone intervention point.
 
@@ -30,7 +30,7 @@ ACSL1 remains useful as:
 Verdict 3: evidence-driven and modality-driven demotion holds.
 
 The V4 prior-art standard does not rescue ACSL1 because ACSL1 was not mainly
-demoted for prior art. The original `FINDING.md` had a narrow novelty claim:
+demoted for prior art. The original `docs/findings/FINDING.md` had a narrow novelty claim:
 ACSL1 as a foamy/MIMS2 chronic-active MS lesion microglial target hypothesis.
 The later V3/V2 scrutiny weakened the target claim on its own terms:
 
@@ -46,13 +46,13 @@ The later V3/V2 scrutiny weakened the target claim on its own terms:
 
 ## Evidence Ledger
 
-- `FINDING.md`: original positive ACSL1 hypothesis, based on foamy MS lesion
+- `docs/findings/FINDING.md`: original positive ACSL1 hypothesis, based on foamy MS lesion
   proteomics, MIMS2-like snRNA validation, and directional MERFISH support.
-- `EXHAUSTION.md`: ACSL1 failed under heavier scrutiny; foamy proteomics
+- `docs/history/EXHAUSTION.md`: ACSL1 failed under heavier scrutiny; foamy proteomics
   coefficient fell from 0.366 (p 2.76e-05) to 0.124 (p 0.136) after adjustment
   for the broader lipid/lysosomal module; ABM lesion-rim simulation worsened
   active lesion area as ACSL1 activity was reduced under stated assumptions.
-- `CONVERGENCE_CHECK_1.md`: documented structural/pharmacology inventory,
+- `docs/convergence/CONVERGENCE_CHECK_1.md`: documented structural/pharmacology inventory,
   simulation weakening, and cross-autoimmune inconsistency.
 - `subagents/alpha1_acsl1_deepening_report_2026-05-26.md`: ACSL1 selectivity
   is feasible in principle via Shionogi benzimidazole chemistry, but ACSL5/6

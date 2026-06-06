@@ -23,7 +23,7 @@ Current genetics robustness state:
   - UC chr1 `1:200375242-201375897`: max PP.H4 `0.959324545654259`.
   - Crohn chr10 `10:80542475-81559335`: max PP.H4 `0.958107919239886`.
 - V15 causal-gene/effect-direction workup exists at
-  `GENETICS_LOCI_WORKUP_V15.md`.
+  `docs/workups/genetics/GENETICS_LOCI_WORKUP_V15.md`.
 - V15 verdict:
   - UC chr1 most likely maps to `GPR25` by stored blood eQTL colocalization
     in MS and UC; direction proxies are concordant but raw allele-aligned
@@ -46,10 +46,10 @@ Current genetics robustness state:
 
 V17 checkpoint:
 
-- `GENETICS_GPR25_WORKUP_V17.md` is the current lead-consolidation report.
-- `CRITIQUE_V17.md` records the local hostile critique; subagent spawning was
+- `docs/workups/genetics/GENETICS_GPR25_WORKUP_V17.md` is the current lead-consolidation report.
+- `docs/critiques/CRITIQUE_V17.md` records the local hostile critique; subagent spawning was
   attempted but failed because the agent thread limit was reached.
-- `GPR25_KIF21B_EXPERIMENTAL_DESIGN_V17.md` records the current wet-lab
+- `docs/workups/genetics/GPR25_KIF21B_EXPERIMENTAL_DESIGN_V17.md` records the current wet-lab
   handoff design for resolving the chr1 causal-gene ambiguity.
 - Full eQTLGen file was streamed and filtered for chr1 candidate genes:
   `analysis/v17_gpr25_mechanism/eqtlgen_full_extract/chr1_candidate_gene_full_rows.tsv`.
@@ -128,7 +128,7 @@ V18 data-source acquisition checkpoint:
 
 V19 chr1 first-principles re-evaluation checkpoint:
 
-- Report: `GENETICS_CHR1_REEVALUATION_V19.md`.
+- Report: `docs/workups/genetics/GENETICS_CHR1_REEVALUATION_V19.md`.
 - Reproducible script: `scripts/v19_chr1_reanalysis.py`.
 - V18 acquired-source checksums reverified: `19 / 19` matched.
 - Dense eQTL Catalogue QTD000021 KIF21B coloc:
@@ -148,7 +148,7 @@ V19 chr1 first-principles re-evaluation checkpoint:
 
 V20 next-tier slate checkpoint:
 
-- Report: `LEAD_SLATE_V20.md`.
+- Report: `docs/history/LEAD_SLATE_V20.md`.
 - Reproducible script: `scripts/v20_generate_lead_slate.py`.
 - Output table: `analysis/v20_lead_slate/lead_slate_v20.tsv`.
 - Slate size: `13` candidates.
@@ -171,8 +171,8 @@ V20 next-tier slate checkpoint:
 V21 genetic-correlation and next-tier-locus checkpoint:
 
 - Reports:
-  - `GENETIC_CORRELATION_BACKDROP_V21.md`.
-  - `LEAD_SLATE_V21.md`.
+  - `docs/workups/genetics/GENETIC_CORRELATION_BACKDROP_V21.md`.
+  - `docs/history/LEAD_SLATE_V21.md`.
 - Reproducible scripts:
   - `scripts/v21_ldsc_core_backdrop.py`.
   - `scripts/v21_next_tier_locus_susie.py`.
@@ -195,7 +195,7 @@ V21 genetic-correlation and next-tier-locus checkpoint:
 
 V22 locked treatment-response checkpoint:
 
-- `LOCKED_RULE_V22.md` was committed before validation in commit `013639b`.
+- `docs/locked_rules/LOCKED_RULE_V22.md` was committed before validation in commit `013639b`.
 - Primary locked validation:
   - `GSE235357` MS dimethyl fumarate: pass, AUC `0.72`, Hedges g `0.651`,
     `n=10`, wide CI.
@@ -214,8 +214,8 @@ V22 locked treatment-response checkpoint:
 
 V23 APC/HLA-II monitoring workup:
 
-- Report: `APC_HLA_MONITORING_WORKUP_V23.md`.
-- Queue/log: `V23_ACTION_QUEUE.md`.
+- Report: `docs/workups/treatment_response/APC_HLA_MONITORING_WORKUP_V23.md`.
+- Queue/log: `meta/queues/V23_ACTION_QUEUE.md`.
 - Unbounded primary locked pooled AUC: `0.547`, CI `0.337-0.743`.
 - Exact raw-10x `GSE253006_TOF` rescoring: pass, AUC `0.95`, CI `0.70-1.00`,
   Hedges g `1.811`.
@@ -229,8 +229,8 @@ V23 APC/HLA-II monitoring workup:
 
 V26 deep-structure checkpoint:
 
-- Report: `DEEP_STRUCTURE_V26.md`.
-- Queue: `V26_QUEUE.md`.
+- Report: `docs/findings/DEEP_STRUCTURE_V26.md`.
+- Queue: `meta/queues/V26_QUEUE.md`.
 - Reproducible script: `scripts/v26_deep_structure_analysis.py`.
 - Output directory: `analysis/v26_deep_structure/`.
 - Modality manifest: `analysis/v26_deep_structure/modality_manifest_v26.tsv`.
@@ -260,9 +260,9 @@ V26 deep-structure checkpoint:
 V27 coupled-axis rule checkpoint:
 
 - Reports:
-  - `COUPLED_AXIS_V27.md`.
-  - `VALIDATION_READINESS_V27.md`.
-  - `V27_QUEUE.md`.
+  - `docs/workups/treatment_response/COUPLED_AXIS_V27.md`.
+  - `docs/validation/VALIDATION_READINESS_V27.md`.
+  - `meta/queues/V27_QUEUE.md`.
 - Reproducible scripts:
   - `scripts/v27_coupled_axis_comparison.py`.
   - `scripts/v27_apply_locked_rules.py`.
@@ -293,12 +293,12 @@ V27 coupled-axis rule checkpoint:
 Next session first action:
 
 1. Run `.venv/bin/python scripts/check_opengwas_access.py`.
-2. Read `COUPLED_AXIS_V27.md`, `VALIDATION_READINESS_V27.md`,
-   `DEEP_STRUCTURE_V26.md`, `MODEL_CARD_V25.md`, `DATA_SCOUT_V24.md`,
+2. Read `docs/workups/treatment_response/COUPLED_AXIS_V27.md`, `docs/validation/VALIDATION_READINESS_V27.md`,
+   `docs/findings/DEEP_STRUCTURE_V26.md`, `docs/workups/treatment_response/MODEL_CARD_V25.md`, `docs/workups/microbiome/DATA_SCOUT_V24.md`,
    `analysis/v24_data_scout/v24_candidate_inventory.tsv`,
-   `APC_HLA_MONITORING_WORKUP_V23.md`, and `LOCKED_RULE_V22.md`.
+   `docs/workups/treatment_response/APC_HLA_MONITORING_WORKUP_V23.md`, and `docs/locked_rules/LOCKED_RULE_V22.md`.
 3. Do not use the V25 model for wet-lab triage; held-out validation failed to
-   support a deployable simulator. Do not tune `LOCKED_RULE_V22.md`. Treat V26
+   support a deployable simulator. Do not tune `docs/locked_rules/LOCKED_RULE_V22.md`. Treat V26
    as structural support for coupled APC/HLA-II/MIF-CD74 monitoring only, not a
    validated clinical rule or target. V27 showed the coupled representation did
    not outperform the V22 scalar, so do not use a V27 successor rule.

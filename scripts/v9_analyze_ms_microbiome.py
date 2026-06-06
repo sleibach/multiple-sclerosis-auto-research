@@ -313,7 +313,7 @@ def main() -> None:
 
     with (OUT / "REPORT.md").open("w", encoding="utf-8") as fh:
         fh.write("# V9 MS Microbiome Primary Analysis\n\n")
-        fh.write("Pre-specified feature-family tests from `MAP_METHODOLOGY_V9.md`.\n\n")
+        fh.write("Pre-specified feature-family tests from `docs/locked_rules/MAP_METHODOLOGY_V9.md`.\n\n")
         fh.write("## MS Versus Control\n\n")
         fh.write(markdown_table(stats_df))
         fh.write("\n\n## MS Versus Control, Age/Sex-Adjusted OLS\n\n")

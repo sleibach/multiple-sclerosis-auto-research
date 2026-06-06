@@ -298,7 +298,7 @@ def main() -> None:
     report = [
         "# V8 Local Axis Consolidation",
         "",
-        "Generated from existing V3-V7 outputs after `MAP_METHODOLOGY_V8.md` was committed.",
+        "Generated from existing V3-V7 outputs after `docs/locked_rules/MAP_METHODOLOGY_V8.md` was committed.",
         "",
         "## Placement Summary",
         "",

@@ -2,7 +2,7 @@
 
 Initialized: 2026-06-06 14:18 CEST
 
-Rule discipline: `LOCKED_RULE_V22.md` is immutable. V23 may pool,
+Rule discipline: `docs/locked_rules/LOCKED_RULE_V22.md` is immutable. V23 may pool,
 characterize, or bound the existing rule. Any improved rule must be a separate
 successor lock and cannot be tested on data that motivated it.
 

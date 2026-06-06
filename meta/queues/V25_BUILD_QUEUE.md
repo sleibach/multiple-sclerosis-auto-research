@@ -11,7 +11,7 @@ Last updated: 2026-06-06 20:55 UTC
 5. completed - Validate on held-out perturbations with calibration.
 6. completed - Test against project findings.
 7. completed - Triage live hypotheses only inside validated domain.
-8. in_progress - Write `MODEL_CARD_V25.md`, update resume state, rebuild index,
+8. in_progress - Write `docs/workups/treatment_response/MODEL_CARD_V25.md`, update resume state, rebuild index,
    commit.
 
 ## Current Scope

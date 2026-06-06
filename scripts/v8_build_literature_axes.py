@@ -105,7 +105,7 @@ ROWS = [
         "source": "V7 HYP_V7_001: early intestinal IFN/APC downshift tracks response and likely mucosal healing/plasticity; repair-state dynamics are therefore near MS's repair/resolution question at the level of monitoring architecture.",
         "statistic": "GSE16879 AUC 0.754, Hedges g 0.985 for paired early IFN/APC downshift",
         "causality": "treatment_perturbation",
-        "url": "VALIDATION_LEDGER.md",
+        "url": "docs/validation/VALIDATION_LEDGER.md",
         "caveat": "Near on response-monitoring/repair dynamics, not on remyelination biology.",
     },
     {
@@ -133,7 +133,7 @@ ROWS = [
         "source": "V7 RA anti-TNF blood cohorts fail the early IFN/APC downshift response-monitoring rule that works in IBD mucosa.",
         "statistic": "GSE8350 AUC 0.450; GSE12051 AUC 0.382; GSE138746_CD14 AUC 0.485",
         "causality": "treatment_perturbation",
-        "url": "VALIDATION_LEDGER.md",
+        "url": "docs/validation/VALIDATION_LEDGER.md",
         "caveat": "Far for blood response-monitoring architecture; RA synovial tissue repair remains less tested.",
     },
     {

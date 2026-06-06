@@ -79,10 +79,10 @@ Completed:
   - UC treatment response versus tissue repair as an axis-nonindependence
     artifact.
 - Resolved `001_ulcerative_colitis_axis_01_ifn_apc_vs_axis_07_treatment_response`
-  as `intervention_derived`; see `UC_STATIC_DYNAMIC_APC_DECOUPLING_V11.md`.
+  as `intervention_derived`; see `docs/workups/genetics/UC_STATIC_DYNAMIC_APC_DECOUPLING_V11.md`.
 - Resolved `005_rheumatoid_arthritis_axis_08_tissue_repair_resolution_vs_axis_09_sex_hormonal_pregnancy`
-  as `artifact`; see `RA_TISSUE_REPAIR_PREGNANCY_SCOPE_AUDIT_V11.md`.
-- Wrote `CONVERGENCE_CHECK_V11_01.md`.
+  as `artifact`; see `docs/findings/RA_TISSUE_REPAIR_PREGNANCY_SCOPE_AUDIT_V11.md`.
+- Wrote `docs/convergence/CONVERGENCE_CHECK_V11_01.md`.
 
 Current matrix:
 
@@ -116,17 +116,17 @@ Completed:
 - Queried the local knowledge index before starting the UC and Crohn genetics
   cells.
 - Resolved `006_ulcerative_colitis_axis_02_genetics_vs_axis_07_treatment_response`
-  as `intervention_derived`; see `UC_GENETICS_TREATMENT_DECOUPLING_V12.md`.
+  as `intervention_derived`; see `docs/workups/genetics/UC_GENETICS_TREATMENT_DECOUPLING_V12.md`.
 - Resolved `007_Crohn_disease_axis_01_ifn_apc_vs_axis_02_genetics` as
-  `biological`; see `CROHN_IFN_APC_GENETICS_DECOUPLING_V12.md`.
+  `biological`; see `docs/workups/genetics/CROHN_IFN_APC_GENETICS_DECOUPLING_V12.md`.
 - Resolved `008_Crohn_disease_axis_02_genetics_vs_axis_07_treatment_response`
   as `intervention_derived`; see
-  `CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md`.
+  `docs/workups/genetics/CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md`.
 - Resolved `009_Crohn_disease_axis_02_genetics_vs_axis_08_tissue_repair_resolution`
   as `intervention_derived`; see
-  `CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md`.
-- Wrote `AXIS_DISAGREEMENT_FINDINGS_V12.md`.
-- Wrote `CONVERGENCE_CHECK_V12_01.md`.
+  `docs/workups/genetics/CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md`.
+- Wrote `docs/findings/AXIS_DISAGREEMENT_FINDINGS_V12.md`.
+- Wrote `docs/convergence/CONVERGENCE_CHECK_V12_01.md`.
 
 Current matrix:
 
@@ -168,8 +168,8 @@ Completed:
 - Analyzed `34` shared top-hit windows with first-pass single-causal-variant
   approximate coloc ABF.
 - Annotated regions with Ensembl GRCh37 genes.
-- Wrote `GENETICS_AXIS_V13_COLOCALIZATION_CHECKPOINT.md`.
-- Wrote `CONVERGENCE_CHECK_V13_01.md`.
+- Wrote `docs/workups/genetics/GENETICS_AXIS_V13_COLOCALIZATION_CHECKPOINT.md`.
+- Wrote `docs/convergence/CONVERGENCE_CHECK_V13_01.md`.
 
 Key outputs:
 
@@ -197,7 +197,7 @@ Decision:
 Next session first action:
 
 - Run `.venv/bin/python scripts/check_opengwas_access.py`.
-- Continue from `GENETICS_AXIS_V13_COLOCALIZATION_CHECKPOINT.md`.
+- Continue from `docs/workups/genetics/GENETICS_AXIS_V13_COLOCALIZATION_CHECKPOINT.md`.
 - Prioritize LDSC/HDL scaffold or multi-signal coloc on the four high-H4
   regions and MHC H3 negative-control regions.
 
@@ -219,8 +219,8 @@ Completed:
   - R `susieR`: missing.
   - R `coloc`: missing.
 - Created and ran `scripts/v14_locus_landscape.py`.
-- Wrote `GENETICS_AXIS_V14_LANDSCAPE_CHECKPOINT.md`.
-- Wrote `CONVERGENCE_CHECK_V14_01.md`.
+- Wrote `docs/workups/genetics/GENETICS_AXIS_V14_LANDSCAPE_CHECKPOINT.md`.
+- Wrote `docs/convergence/CONVERGENCE_CHECK_V14_01.md`.
 
 Outputs:
 
@@ -316,7 +316,7 @@ Next session first action:
 - Active runtime: approximately 31 minutes; total elapsed approximately 31 minutes; no usage-limit waiting time observed.
 - Session start UTC: 2026-06-05 23:56 UTC.
 - Session end UTC: 2026-06-06 00:28 UTC.
-- Frontier advanced: V16 replaced proxy directions with allele-aligned GTEx/eQTLGen evidence for GPR25, ZMIZ1, and PTGER4; wrote `GENETICS_EQTL_WORKUP_V16.md`, three labeled workstream reports, updated resume state, README, manifest, and knowledge index.
+- Frontier advanced: V16 replaced proxy directions with allele-aligned GTEx/eQTLGen evidence for GPR25, ZMIZ1, and PTGER4; wrote `docs/workups/genetics/GENETICS_EQTL_WORKUP_V16.md`, three labeled workstream reports, updated resume state, README, manifest, and knowledge index.
 - Per-lead step-completion status: GPR25 completed GTEx/eQTLGen allele-aligned direction workup and revised direction to protective higher expression; ZMIZ1 completed eQTLGen allele-aligned direction workup and confirmed opposite MS/Crohn decoupling; PTGER4 completed signal-level eQTLGen direction workup and remains mixed/conflicted.
 - Novel-result verdict: no intervention-grade or cure-class finding; strongest result is an eQTL-grounded refinement: GPR25 is a stronger MS-UC lead with restoration/agonism direction, ZMIZ1 is a confirmed opposite-direction decoupling locus, and PTGER4 is not a simple transfer target.
 - Stop reason: completed V16 bounded deliverable; no remaining V16 lead is blocked at the significant-QTL direction layer, but formal full-summary-statistics QTL colocalization and cell-state/perturbation validation remain incomplete.
@@ -333,7 +333,7 @@ Next session first action:
 - PTGER4 close-out status: closed as signal-conflicted and not a simple MS-UC transfer target unless signal-specific cell-type QTL data appears.
 - GPR25 verdict: alive Tier 1 genetics-to-lymphocyte-trafficking lead, not intervention-grade; the chr1 locus requires protein-level or genotype-linked immune/CSF data to resolve `GPR25` versus `KIF21B`.
 - Stop reason: completed V17 bounded deliverable and resume-state update; no long-running analysis processes remain.
-- Next action: use `GPR25_KIF21B_EXPERIMENTAL_DESIGN_V17.md` as the default handoff unless controlled-access protein/CITE-seq data is found; test genotype-linked GPR25/KIF21B expression and CXCL17 migration/RhoA/integrin function before any intervention-grade claim.
+- Next action: use `docs/workups/genetics/GPR25_KIF21B_EXPERIMENTAL_DESIGN_V17.md` as the default handoff unless controlled-access protein/CITE-seq data is found; test genotype-linked GPR25/KIF21B expression and CXCL17 migration/RhoA/integrin function before any intervention-grade claim.
 
 ## RUN SUMMARY - 2026-06-06 08:08 UTC
 
@@ -385,7 +385,7 @@ Next session first action:
 - Active runtime: approximately 23 minutes; total elapsed approximately 23 minutes; no usage-limit waiting time observed.
 - Session start UTC: 2026-06-06 11:19 UTC.
 - Session end UTC: 2026-06-06 11:42 UTC.
-- Frontier advanced: V21 established the first LDSC genome-wide genetic-correlation backdrop for MS vs UC/Crohn/RA/SLE, ran bounded SuSiE-coloc for the two queued V20 loci, wrote `GENETIC_CORRELATION_BACKDROP_V21.md`, `LEAD_SLATE_V21.md`, and `CONVERGENCE_CHECK_V21_01.md`, updated resume state and README, and rebuilt the knowledge index.
+- Frontier advanced: V21 established the first LDSC genome-wide genetic-correlation backdrop for MS vs UC/Crohn/RA/SLE, ran bounded SuSiE-coloc for the two queued V20 loci, wrote `docs/workups/genetics/GENETIC_CORRELATION_BACKDROP_V21.md`, `docs/history/LEAD_SLATE_V21.md`, and `docs/convergence/CONVERGENCE_CHECK_V21_01.md`, updated resume state and README, and rebuilt the knowledge index.
 - rg pairs computed: MS-UC `rg = 0.3342`, MS-Crohn `rg = 0.1675`, MS-RA `rg = 0.1692`, MS-SLE `rg = 0.2439`; UC/Crohn raw MHC-excluded runs were identical after LDSC merge because the verified reference panel has zero chr6:25-34 Mb SNPs in the active regression set.
 - Loci verdicts: chr14 `ZFP36L1` is suggestive but not robust (`PP.H4 = 0.687732800443124`) and is parked; chr2 `REL/PUS10/USP34` returned no `coloc.susie` credible-set summary and is closed/not-now.
 - chr1-bar verdict: neither V21 locus clears the chr1 bar; no new genetics target should be surfaced to the medical team from chr14 or chr2.
@@ -397,19 +397,19 @@ Next session first action:
 - Active runtime: approximately 24 minutes; total elapsed approximately 24 minutes; no usage-limit waiting time observed. Runtime is estimated because the V22 session resumed after context compaction.
 - Session start UTC: approximately 2026-06-06 11:43 UTC.
 - Session end UTC: 2026-06-06 12:07 UTC.
-- Frontier advanced: V22 locked the APC/HLA-II dynamic treatment-response rule before held-out testing, validated it on reachable independent cohorts, wrote `VALIDATION_LEDGER_V22.md`, `FINDING_V22.md`, `COHORT_SEARCH_V22.md`, `CONVERGENCE_CHECK_V22_01.md`, updated resume state and README, and rebuilt the knowledge index.
+- Frontier advanced: V22 locked the APC/HLA-II dynamic treatment-response rule before held-out testing, validated it on reachable independent cohorts, wrote `docs/validation/VALIDATION_LEDGER_V22.md`, `docs/findings/FINDING_V22.md`, `docs/validation/COHORT_SEARCH_V22.md`, `docs/convergence/CONVERGENCE_CHECK_V22_01.md`, updated resume state and README, and rebuilt the knowledge index.
 - Cohorts tested with pass/fail: `GSE235357` MS dimethyl fumarate primary locked pass (AUC `0.72`, Hedges g `0.651`, `n=10`); `GSE250453` MS fingolimod primary locked fail (AUC `0.60`, Hedges g `0.150`, `n=10`); `GSE85034_ADA` psoriasis adalimumab primary locked fail (AUC `0.511`, Hedges g `0.044`, `n=14`); `GSE253006_TOF` UC tofacitinib exploratory module-approximation pass (AUC `1.00`, Hedges g `1.522`, `n=9`) not counted as primary validation.
 - Validation verdict: no Tier 4 breakthrough and no kill; the locked dynamic rule remains a provisional early-treatment monitoring lead.
 - Stratifier vs monitor characterization: V22 supports only an early on-treatment monitoring interpretation; it does not validate a baseline patient-selection stratifier or a clinical decision threshold.
 - Stop reason: completed the bounded V22 validation package; no long-running analysis processes remain.
-- Next action: do not tune `LOCKED_RULE_V22.md`; acquire or identify a larger paired MS DMT response cohort (`n >= 30`) or recompute exact frozen modules in `GSE253006_TOF` at compartment-resolved level before considering any successor locked rule.
+- Next action: do not tune `docs/locked_rules/LOCKED_RULE_V22.md`; acquire or identify a larger paired MS DMT response cohort (`n >= 30`) or recompute exact frozen modules in `GSE253006_TOF` at compartment-resolved level before considering any successor locked rule.
 
 ## RUN SUMMARY - 2026-06-06 12:32 UTC
 
 - Active runtime: approximately 24 minutes; total elapsed approximately 24 minutes; no usage-limit waiting time observed.
 - Session start UTC: approximately 2026-06-06 12:08 UTC.
 - Session end UTC: 2026-06-06 12:32 UTC.
-- Frontier advanced: V23 completed the self-driving workup of the APC/HLA-II monitoring lead: pooled V22 cohorts, characterized mechanism specificity, resolved the UC tofacitinib exact-module caveat from raw 10x data, regenerated exact marker-compartment scoring, wrote `APC_HLA_MONITORING_WORKUP_V23.md`, updated README/resume state, and rebuilt the knowledge index.
+- Frontier advanced: V23 completed the self-driving workup of the APC/HLA-II monitoring lead: pooled V22 cohorts, characterized mechanism specificity, resolved the UC tofacitinib exact-module caveat from raw 10x data, regenerated exact marker-compartment scoring, wrote `docs/workups/treatment_response/APC_HLA_MONITORING_WORKUP_V23.md`, updated README/resume state, and rebuilt the knowledge index.
 - Sequence of actions executed: Action 1 pooled small cohorts; Action 2 characterized drug-mechanism specificity; Action 3 recomputed exact frozen modules in `GSE253006_TOF`; Action 4 ran exact marker-derived compartment rescoring; Action 5 sharpened monitoring-only clinical utility; Action 6 decided not to lock a V23 successor rule without fresh held-out data.
 - Pooled result: unbounded primary locked pooled AUC `0.547` (CI `0.337-0.743`), Hedges g `0.180`; primary plus exact UC AUC `0.656` (CI `0.489-0.808`), Hedges g `0.611`; bounded DMF plus exact tofacitinib AUC `0.811` (CI `0.567-1.000`), Hedges g `1.191`.
 - Mechanism-bounding verdict: bounded immune-remodeling/JAK-STAT monitoring domain is plausible and stronger than the unbounded rule; fingolimod/S1P and psoriasis lesional adalimumab contexts fail or weaken the broad claim.
@@ -422,7 +422,7 @@ Next session first action:
 - Active runtime: approximately 55 minutes; total elapsed approximately 55 minutes; no usage-limit waiting time observed. Runtime is estimated because this V24 session resumed after context compaction.
 - Session start UTC: approximately 2026-06-06 13:50 UTC.
 - Session end UTC: 2026-06-06 14:45 UTC.
-- Frontier advanced: V24 completed the dedicated treatment-response validation cohort scout, wrote `DATA_SCOUT_V24.md`, search log and candidate inventory TSVs, updated resume state and README, and identified the best low-barrier validation source.
+- Frontier advanced: V24 completed the dedicated treatment-response validation cohort scout, wrote `docs/workups/microbiome/DATA_SCOUT_V24.md`, search log and candidate inventory TSVs, updated resume state and README, and identified the best low-barrier validation source.
 - Source types searched: GEO; ArrayExpress/BioStudies; ENA/SRA; EGA; Zenodo/Figshare/Dryad/OSF; PubMed/Europe PMC paper mining; consortia/portal routes; preprint supplements; partially used datasets.
 - Total candidates found/triaged: 8 ranked candidate sources in `analysis/v24_data_scout/v24_candidate_inventory.tsv`, plus rejected/false-positive hits logged in `analysis/v24_data_scout/v24_search_log.tsv`.
 - Candidates usability-verified: `GSE130478/GSE130491/GSE130494`, `GSE85034_MTX`, `GSE253495`, and the Gafson et al. 2018 PubMed design/label description; Gafson public accession was not verified.
@@ -437,7 +437,7 @@ Next session first action:
 - Active runtime: approximately 4 minutes; total elapsed approximately 4 minutes; no usage-limit waiting time observed.
 - Session start UTC: 2026-06-06 20:52 UTC.
 - Session end UTC: 2026-06-06 20:56 UTC.
-- Frontier advanced: V25 inventoried model-building datasets, wrote and committed `MODEL_DESIGN_V25.md` plus immutable train/held-out split before validation, built a bounded empirical Mixscale module-response model, validated it on held-out perturbations, wrote `MODEL_CARD_V25.md`, and updated resume state and README.
+- Frontier advanced: V25 inventoried model-building datasets, wrote and committed `docs/workups/treatment_response/MODEL_DESIGN_V25.md` plus immutable train/held-out split before validation, built a bounded empirical Mixscale module-response model, validated it on held-out perturbations, wrote `docs/workups/treatment_response/MODEL_CARD_V25.md`, and updated resume state and README.
 - Phases completed: Phase 1 scope/data/split completed; Phase 2 bounded model built; Phase 3 held-out validation completed; Phase 4 project-finding checks completed; Phase 5 live hypothesis triage completed with abstentions; Phase 6 model card completed.
 - Architecture chosen: bounded empirical pathway/module mean model over Mixscale IFNB/IFNG/TNFA perturbation summaries; broad foundation-model/ODE/ML approaches were rejected as not validateable with current data.
 - Held-out validation result and validated domain: `6` held-out perturbations, `24` module predictions, direction accuracy `0.542`, MAE `0.261` log2FC, Pearson `0.531`, Spearman `0.377`; no reliable validated domain for wet-lab triage was established.
@@ -452,7 +452,7 @@ Next session first action:
 - Active runtime: approximately 7 minutes; total elapsed approximately 7 minutes; no usage-limit waiting time observed.
 - Session start UTC: 2026-06-06 23:16 UTC.
 - Session end UTC: 2026-06-06 23:23 UTC.
-- Frontier advanced: V26 inventoried held modality artifacts, ran null-tested cross-modal latent-axis, module-dependency, and invariant scans over existing module-level data, wrote `DEEP_STRUCTURE_V26.md`, updated `V26_QUEUE.md`, `meta/NEXT_ACTIONS.md`, and README.
+- Frontier advanced: V26 inventoried held modality artifacts, ran null-tested cross-modal latent-axis, module-dependency, and invariant scans over existing module-level data, wrote `docs/findings/DEEP_STRUCTURE_V26.md`, updated `meta/queues/V26_QUEUE.md`, `meta/NEXT_ACTIONS.md`, and README.
 - Workstreams completed: A cross-modal latent structure completed; B higher-order module dependency completed; C invariant/negative-space completed; D stalled-lead reread/integration completed.
 - Robust latent axes found: `2` supported pairings: treatment pharmacodynamic vs h5ad cell state (cosine `0.933576`, BH q `0.009995`) and h5ad cell state vs cross-disease summary (cosine `0.879242`, BH q `0.017491`).
 - Surviving interactions: `25` supported replicated module-dependency rows; strongest recurring dependency is `hla_ii_apc` with `mif_cd74_receptor_state` across four modalities.
@@ -468,11 +468,20 @@ Next session first action:
 - Active runtime: approximately 12 minutes; total elapsed approximately 12 minutes; no usage-limit waiting time observed.
 - Session start UTC: 2026-06-06 23:23 UTC.
 - Session end UTC: 2026-06-06 23:35 UTC.
-- Frontier advanced: V27 froze coupled APC-axis candidate features before comparison, ran fixed-feature scalar-vs-coupled evaluation with bootstrap and 5,000-permutation max-candidate null, wrote `COUPLED_AXIS_V27.md`, `VALIDATION_READINESS_V27.md`, `V27_QUEUE.md`, and future scoring harness scripts.
+- Frontier advanced: V27 froze coupled APC-axis candidate features before comparison, ran fixed-feature scalar-vs-coupled evaluation with bootstrap and 5,000-permutation max-candidate null, wrote `docs/workups/treatment_response/COUPLED_AXIS_V27.md`, `docs/validation/VALIDATION_READINESS_V27.md`, `meta/queues/V27_QUEUE.md`, and future scoring harness scripts.
 - Phases completed: Phase 1 coupled representation completed; Phase 2 scalar-vs-coupled comparison completed; Phase 3 successor-lock decision completed with no lock; Phase 4 validation harness completed; Phase 5 mechanistic interpretation completed.
 - Scalar-vs-coupled verdict: no coupled feature improved over the immutable V22 scalar. In the bounded domain, V22 scalar AUC `0.811111`, Hedges g `1.190835`; best coupled feature `coupling_coordination` AUC `0.733333`, Hedges g `0.776968`; coupled-minus-scalar AUC delta `-0.077778`; max-candidate permutation p `0.912817`.
 - Held-out/null evidence: fixed zero-parameter features were evaluated on already-held V22/V23 cohorts only; label-permutation null with `5,000` permutations showed no coupled advantage. No fresh Gafson/NEDA cohort was present or read.
 - Successor locked: no; `LOCKED_RULE_V27.md` was intentionally not created.
-- Validation-harness readiness: `scripts/v27_apply_locked_rules.py` and `VALIDATION_READINESS_V27.md` are ready for future paired module-delta cohorts; primary validation remains `LOCKED_RULE_V22.md`.
+- Validation-harness readiness: `scripts/v27_apply_locked_rules.py` and `docs/validation/VALIDATION_READINESS_V27.md` are ready for future paired module-delta cohorts; primary validation remains `docs/locked_rules/LOCKED_RULE_V22.md`.
 - Stop reason: completed all V27 phases and documented a negative successor-rule result; no long-running analysis processes remain.
 - Next action: acquire/request Gafson et al. 2018 DMF PBMC RNA-seq counts plus NEDA-4 labels, prepare the paired module-delta TSV, and run the frozen V22 scoring harness mechanically without tuning.
+
+## RUN SUMMARY - 2026-06-06 23:46 UTC
+
+- Active runtime: approximately 18 minutes; total elapsed approximately 18 minutes; no usage-limit waiting time observed.
+- Session start UTC: 2026-06-06 23:28 UTC.
+- Session end UTC: 2026-06-06 23:46 UTC.
+- Frontier advanced: maintenance-only repository restructuring completed; `meta/REPO_INVENTORY_PRE.md`, `meta/REPO_RESTRUCTURE_PLAN.md`, `meta/REPO_MOVE_MAP.tsv`, `docs/ARTIFACT_INDEX.md`, and `meta/REPO_INVENTORY_POST.md` written; root Markdown artifacts moved into `docs/`/`meta/queues/` with `git mv`; canonical README/meta/knowledge references updated; RAG index rebuilt.
+- Stop reason: completed.
+- Next action: resume research from `meta/NEXT_ACTIONS.md`; primary scientific next action remains acquiring/requesting Gafson et al. 2018 DMF PBMC RNA-seq counts plus NEDA-4 labels and validating the immutable V22 rule mechanically when fresh paired data arrives.

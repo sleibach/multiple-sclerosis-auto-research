@@ -2,7 +2,7 @@
 """Exploratory specificity check for HYP_V7_001 in GSE73661 vedolizumab arms.
 
 This is not counted as locked V7 validation because vedolizumab is Class C under
-LOCKED_RULE_V7.md. It asks whether the IBD IFN/APC downshift is anti-TNF-like
+docs/locked_rules/LOCKED_RULE_V7.md. It asks whether the IBD IFN/APC downshift is anti-TNF-like
 or a generic mucosal response/healing signal.
 """
 
@@ -80,7 +80,7 @@ def main() -> None:
     report = f"""# HYP_V7_001 Specificity Check: GSE73661 Vedolizumab
 
 This is exploratory and not counted as locked V7 validation because
-vedolizumab is Class C in `LOCKED_RULE_V7.md`.
+vedolizumab is Class C in `docs/locked_rules/LOCKED_RULE_V7.md`.
 
 | Metric | Value |
 | --- | --- |

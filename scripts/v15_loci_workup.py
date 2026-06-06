@@ -4,7 +4,7 @@
 This script intentionally uses only the Python standard library. It does not
 download data and does not call OpenGWAS. It converts the saved V14 SuSiE and
 allele-harmonized files into the small tables used by
-GENETICS_LOCI_WORKUP_V15.md.
+docs/workups/genetics/GENETICS_LOCI_WORKUP_V15.md.
 """
 
 from __future__ import annotations

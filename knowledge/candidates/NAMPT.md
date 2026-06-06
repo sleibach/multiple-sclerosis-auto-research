@@ -46,7 +46,7 @@ generic NAMPT inhibition; it is eNAMPT/subgroup/transient-modulation biology.
 
 ## Evidence Ledger
 
-- `EXHAUSTION.md`: NAMPT was the top computational successor after ACSL1, with
+- `docs/history/EXHAUSTION.md`: NAMPT was the top computational successor after ACSL1, with
   MS foamy proteome/snRNA convergence, recurrence in RA/psoriasis/IBD/SLE,
   ChEMBL tractability, and AlphaFold pLDDT 94.25; rejected for prior art,
   direction ambiguity, and systemic safety.

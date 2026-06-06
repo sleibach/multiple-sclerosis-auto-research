@@ -37,7 +37,7 @@ STATUS_OVERRIDES = {
         ),
         "next_action": (
             "Use as MS transfer warning: test early compartment-relevant IFN/APC "
-            "delta, not baseline IFN/APC height. See UC_STATIC_DYNAMIC_APC_DECOUPLING_V11.md."
+            "delta, not baseline IFN/APC height. See docs/workups/genetics/UC_STATIC_DYNAMIC_APC_DECOUPLING_V11.md."
         ),
     },
     ("ulcerative colitis", "axis_02_genetics", "axis_07_treatment_response"): {
@@ -54,7 +54,7 @@ STATUS_OVERRIDES = {
         "next_action": (
             "Upgrade only when OpenGWAS/coloc can run: test shared loci and 12 "
             "shared OpenTargets genes for cross-trait colocalization and response "
-            "prediction. See UC_GENETICS_TREATMENT_DECOUPLING_V12.md."
+            "prediction. See docs/workups/genetics/UC_GENETICS_TREATMENT_DECOUPLING_V12.md."
         ),
     },
     ("Sjogren syndrome", "axis_01_ifn_apc", "axis_04_lipid_lysosomal"): {
@@ -104,7 +104,7 @@ STATUS_OVERRIDES = {
         ),
         "next_action": (
             "Rebuild RA tissue-repair axis with paired synovial tissue or validated "
-            "synovial repair endpoints. See RA_TISSUE_REPAIR_PREGNANCY_SCOPE_AUDIT_V11.md."
+            "synovial repair endpoints. See docs/findings/RA_TISSUE_REPAIR_PREGNANCY_SCOPE_AUDIT_V11.md."
         ),
     },
     ("ulcerative colitis", "axis_07_treatment_response", "axis_08_tissue_repair_resolution"): {
@@ -128,7 +128,7 @@ STATUS_OVERRIDES = {
         ),
         "next_action": (
             "Upgrade with in-process OpenGWAS/HDL and cross-trait coloc, then replicate "
-            "Crohn myeloid IFN/APC in an independent atlas. See CROHN_IFN_APC_GENETICS_DECOUPLING_V12.md."
+            "Crohn myeloid IFN/APC in an independent atlas. See docs/workups/genetics/CROHN_IFN_APC_GENETICS_DECOUPLING_V12.md."
         ),
     },
     ("Crohn disease", "axis_02_genetics", "axis_07_treatment_response"): {
@@ -142,7 +142,7 @@ STATUS_OVERRIDES = {
         ),
         "next_action": (
             "Upgrade with executable OpenGWAS/coloc and Crohn-only paired mucosal "
-            "response cohorts. See CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md."
+            "response cohorts. See docs/workups/genetics/CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md."
         ),
     },
     ("Crohn disease", "axis_02_genetics", "axis_08_tissue_repair_resolution"): {
@@ -155,7 +155,7 @@ STATUS_OVERRIDES = {
         ),
         "next_action": (
             "Upgrade with executable OpenGWAS/coloc, Crohn-only treatment cohorts, and "
-            "repair endpoints independent of IFN/APC delta. See CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md."
+            "repair endpoints independent of IFN/APC delta. See docs/workups/genetics/CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md."
         ),
     },
 }

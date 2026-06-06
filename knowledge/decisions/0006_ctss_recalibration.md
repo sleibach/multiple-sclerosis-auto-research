@@ -25,7 +25,7 @@ Key local evidence:
 - `subagents_v3/wave13_genetics_prior_art_reopen.md`
 - `results_v3/wave16_ctsh_chembl_feasibility/cathepsin_activity_summary.tsv`
 - `results_v3/wave46_central_axis_closure_audit/`
-- `LAB_NOTEBOOK_V3.md`
+- `docs/lab_notebooks/LAB_NOTEBOOK_V3.md`
 
 External verified evidence:
 - RO5459072/petesicatib primary Sjogren phase IIa: `NCT02701985`, no clinically

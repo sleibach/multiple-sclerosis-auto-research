@@ -959,14 +959,14 @@ Decision: locked `HYP_V6_006` predictive rule before touching any new
 validation cohort.
 
 Files:
-- `LOCKED_RULE_V7.md`
-- `ROADMAP_V7.md`
-- `VALIDATION_LEDGER.md`
+- `docs/locked_rules/LOCKED_RULE_V7.md`
+- `docs/roadmaps/ROADMAP_V7.md`
+- `docs/validation/VALIDATION_LEDGER.md`
 
 SHA256:
-- `LOCKED_RULE_V7.md`: `06ca669a56725689f18df45118a0115e1152a0393e92db2da1719eb570687f7e`
-- `ROADMAP_V7.md`: `a19c9044d45566e187732014cf7f291a03a787eac22ad5187742207829ad9611`
-- `VALIDATION_LEDGER.md`: `6bf4e8a9d71df8d3a0864ae3dc1215d44db52d6747e81fac84483271d3690cbb`
+- `docs/locked_rules/LOCKED_RULE_V7.md`: `06ca669a56725689f18df45118a0115e1152a0393e92db2da1719eb570687f7e`
+- `docs/roadmaps/ROADMAP_V7.md`: `a19c9044d45566e187732014cf7f291a03a787eac22ad5187742207829ad9611`
+- `docs/validation/VALIDATION_LEDGER.md`: `6bf4e8a9d71df8d3a0864ae3dc1215d44db52d6747e81fac84483271d3690cbb`
 
 Git commit:
 - `27605b3` (`Lock V7 APC response validation rule`)
@@ -1024,7 +1024,7 @@ Analysis:
 - Script: `scripts/v7_explore_hyp_v7_001_gse73661_vdz_specificity.py`.
 - Dataset: `GSE73661`, vedolizumab induction arms with W0 and W6 paired UC
   biopsies.
-- This is Class C exploratory context under `LOCKED_RULE_V7.md`, not locked
+- This is Class C exploratory context under `docs/locked_rules/LOCKED_RULE_V7.md`, not locked
   validation.
 
 Result:
@@ -1043,7 +1043,7 @@ Decision:
 
 Integrity step:
 
-- Wrote `ROADMAP_V8.md` and `MAP_METHODOLOGY_V8.md` before generating V8
+- Wrote `docs/roadmaps/ROADMAP_V8.md` and `docs/locked_rules/MAP_METHODOLOGY_V8.md` before generating V8
   placements.
 - Committed the methodology lock as git commit `9c2e548`
   (`Lock V8 mechanism map methodology`).
@@ -1067,9 +1067,9 @@ downgrading:
 - `analysis/v8_map/placement_matrix.tsv`: 120 disease-axis placements.
 - `analysis/v8_map/axis_population_summary.tsv`.
 - `analysis/v8_map/MAP_MERGE_REPORT.md`.
-- `CONVERGENCE_CHECK_V8_01.md`.
-- `CRITIQUE_V8_01.md`.
-- `MS_MECHANISM_MAP_V8.md`.
+- `docs/convergence/CONVERGENCE_CHECK_V8_01.md`.
+- `docs/critiques/CRITIQUE_V8_01.md`.
+- `docs/findings/MS_MECHANISM_MAP_V8.md`.
 
 Current interpretation:
 
@@ -1087,7 +1087,7 @@ Current interpretation:
 
 Integrity step:
 
-- Wrote and committed `ROADMAP_V9.md` and `MAP_METHODOLOGY_V9.md` before
+- Wrote and committed `docs/roadmaps/ROADMAP_V9.md` and `docs/locked_rules/MAP_METHODOLOGY_V9.md` before
   generating V9 placements or microbiome upgrades.
 - Commit: `df7c7de` (`Lock V9 microbiome upgrade methodology`).
 - The methodology explicitly states that a cure-class computational DoD is
@@ -1130,7 +1130,7 @@ Result:
 
 Decision:
 
-- Do not upgrade the IBD microbiome placement under `MAP_METHODOLOGY_V9.md`
+- Do not upgrade the IBD microbiome placement under `docs/locked_rules/MAP_METHODOLOGY_V9.md`
   from these taxonomic feature-family tests.
 - This is a primary-data negative for this operationalization, not a claim that
   IBD lacks microbiome involvement. The operationalization may be too crude:
@@ -1290,7 +1290,7 @@ Execution:
 - Queried the local knowledge index before new analysis.
 - Confirmed `OPENGWAS_JWT` is missing; genetics execution remains
   access-blocked outside existing UC/Crohn supported source.
-- Wrote `ROADMAP_V10.md`.
+- Wrote `docs/roadmaps/ROADMAP_V10.md`.
 - Built the disagreement matrix with `scripts/v10_build_disagreement_matrix.py`.
 - Inputs: `analysis/v8_map/placement_matrix.tsv` plus V9 microbiome overlay.
 - Output: `analysis/v10_disagreement/disagreement_pairs.tsv`.
@@ -1315,10 +1315,10 @@ Correction:
 - UC treatment-response versus tissue-repair dropped to the bottom of the
   supported matrix.
 - Revised:
-  - `DISAGREEMENT_MATRIX_V10.md`
-  - `DISAGREEMENT_RESOLUTION_V10.md`
-  - `TRANSFER_VALIDITY_MAP_V10.md`
-  - `AXIS_DISAGREEMENT_FINDINGS_V10.md`
+  - `docs/findings/DISAGREEMENT_MATRIX_V10.md`
+  - `docs/findings/DISAGREEMENT_RESOLUTION_V10.md`
+  - `docs/findings/TRANSFER_VALIDITY_MAP_V10.md`
+  - `docs/findings/AXIS_DISAGREEMENT_FINDINGS_V10.md`
 
 Decision:
 
@@ -1344,7 +1344,7 @@ Execution:
 
 - Queried `results_v3/cross_disease_cell_state_convergence.tsv` for Sjogren
   salivary epithelial and APC module contrasts.
-- Wrote `SJOGREN_SPLIT_AUDIT_V10.md`.
+- Wrote `docs/findings/SJOGREN_SPLIT_AUDIT_V10.md`.
 
 Result:
 
@@ -1385,12 +1385,12 @@ Execution:
 - Re-read `knowledge/candidates/PREGNANCY_REMISSION_AXIS.md`,
   `results/pregnancy_dimension/gse235508_timecourse/REPORT.md`, and the V8
   evidence registry.
-- Wrote `RA_PREGNANCY_TREATMENT_DECOUPLING_V10.md`.
+- Wrote `docs/findings/RA_PREGNANCY_TREATMENT_DECOUPLING_V10.md`.
 - Updated:
-  - `DISAGREEMENT_RESOLUTION_V10.md`
-  - `TRANSFER_VALIDITY_MAP_V10.md`
-  - `AXIS_DISAGREEMENT_FINDINGS_V10.md`
-  - `CONVERGENCE_CHECK_V10_02.md`
+  - `docs/findings/DISAGREEMENT_RESOLUTION_V10.md`
+  - `docs/findings/TRANSFER_VALIDITY_MAP_V10.md`
+  - `docs/findings/AXIS_DISAGREEMENT_FINDINGS_V10.md`
+  - `docs/convergence/CONVERGENCE_CHECK_V10_02.md`
 
 Result:
 
@@ -1453,8 +1453,8 @@ Decision:
   module signal outside the h5ad analysis.
 - It does not support a strict lipid-loader-negative claim, because
   lipid-loader is positive-null in bulk tissue.
-- Updated `SJOGREN_SPLIT_AUDIT_V10.md`, `DISAGREEMENT_RESOLUTION_V10.md`,
-  `TRANSFER_VALIDITY_MAP_V10.md`, and `AXIS_DISAGREEMENT_FINDINGS_V10.md` to
+- Updated `docs/findings/SJOGREN_SPLIT_AUDIT_V10.md`, `docs/findings/DISAGREEMENT_RESOLUTION_V10.md`,
+  `docs/findings/TRANSFER_VALIDITY_MAP_V10.md`, and `docs/findings/AXIS_DISAGREEMENT_FINDINGS_V10.md` to
   sharpen the claim: the robust part is antigen-presentation versus
   lysosomal/APC decoupling; lipid-loader/foamy-myeloid transfer remains blocked
   pending matched APC or spatial replication.
@@ -1481,11 +1481,11 @@ Execution:
   - `analysis/v12_uc_genetics_treatment/shared_ms_uc_opentargets_genetic_targets.tsv`
   - `analysis/v12_uc_genetics_treatment/shared_ms_crohn_opentargets_genetic_targets.tsv`
 - Resolved UC genetics versus treatment response in
-  `UC_GENETICS_TREATMENT_DECOUPLING_V12.md`.
+  `docs/workups/genetics/UC_GENETICS_TREATMENT_DECOUPLING_V12.md`.
 - Resolved Crohn IFN/APC versus genetics in
-  `CROHN_IFN_APC_GENETICS_DECOUPLING_V12.md`.
+  `docs/workups/genetics/CROHN_IFN_APC_GENETICS_DECOUPLING_V12.md`.
 - Resolved Crohn genetics versus treatment response and tissue repair in
-  `CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md`.
+  `docs/workups/genetics/CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md`.
 - Regenerated canonical matrix state:
   - `analysis/v11_matrix/disagreement_matrix.tsv`
   - `meta/MATRIX_STATUS.md`
@@ -1503,7 +1503,7 @@ Result:
 
 Synthesis:
 
-- Wrote `AXIS_DISAGREEMENT_FINDINGS_V12.md`.
+- Wrote `docs/findings/AXIS_DISAGREEMENT_FINDINGS_V12.md`.
 - Core rule: MS-adjacent autoimmune mechanisms transfer by biological layer,
   not disease label.
 - UC is the better gut comparator for inherited MS risk; UC and Crohn both
@@ -1598,7 +1598,7 @@ Decision:
 
 ## 2026-06-06 14:33 CEST - V23 APC/HLA-II monitoring self-driving workup
 
-- Read V22 locked-rule state and initialized `V23_ACTION_QUEUE.md`.
+- Read V22 locked-rule state and initialized `meta/queues/V23_ACTION_QUEUE.md`.
 - Action 1 completed: pooled V22 primary locked cohorts. Unbounded primary pooled AUC `0.547` with CI `0.337-0.743`; immediate next action selected automatically because bounded mechanism specificity remained plausible.
 - Action 2 completed: mechanism-specificity analysis. DMF and exact UC tofacitinib immune-remodeling/JAK-STAT contexts pass; fingolimod/S1P and psoriasis lesional adalimumab fail.
 - Action 3 completed: exact raw-10x GSE253006 rescoring. Exact frozen V22 all-cell result passes with AUC `0.95`, CI `0.70-1.00`, Hedges g `1.811`; module-approximation caveat resolved, compartment caveat remained.
@@ -1615,7 +1615,7 @@ Decision:
 - Searched GEO, BioStudies/ArrayExpress, SRA/ENA, EGA, Zenodo, Figshare, OSF,
   Europe PMC/PubMed, preprint queries, consortium/portal paths, and partially
   used local datasets.
-- Wrote `DATA_SCOUT_V24.md` plus machine-readable search log and inventory
+- Wrote `docs/workups/microbiome/DATA_SCOUT_V24.md` plus machine-readable search log and inventory
   under `analysis/v24_data_scout/`.
 - Key verdict: no clean public ready-to-run n>=30 fresh MS DMT transcriptomic
   validation cohort was verified. The well is not dry at low-barrier level:
@@ -1628,7 +1628,7 @@ Decision:
 - Verified OpenGWAS token; HTTP 200, token valid until 2026-06-19 12:28 UTC.
 - Inventoried model-building datasets into
   `analysis/v25_immune_state_model/DATA_INVENTORY_V25.tsv`.
-- Wrote `MODEL_DESIGN_V25.md` and locked
+- Wrote `docs/workups/treatment_response/MODEL_DESIGN_V25.md` and locked
   `analysis/v25_immune_state_model/TRAIN_HELDOUT_SPLIT_V25.tsv` before
   validation; committed the split in `0bc726e`.
 - Built bounded empirical Mixscale pathway/module model via
@@ -1636,6 +1636,6 @@ Decision:
 - Held-out validation failed to support a useful simulator: direction accuracy
   `0.542` over `24` module predictions, MAE `0.261` log2FC, Spearman `0.377`;
   calibration weak.
-- Wrote `MODEL_CARD_V25.md`. Verdict: no deployable in-silico immune-state
+- Wrote `docs/workups/treatment_response/MODEL_CARD_V25.md`. Verdict: no deployable in-silico immune-state
   simulator from current data; model must abstain on KIF21B/GPR25, ZMIZ1,
   patient response, single-cell compartments, and unseen pathways.

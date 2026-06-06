@@ -26,7 +26,7 @@ Canonical machine-readable state: `analysis/v11_matrix/disagreement_matrix.tsv`.
 - Status: `artifact`.
 - Resolution grade: `V11 axis-scope correction`.
 - Last action: V11 audit found the RA axis-08 far placement is supported mainly by blood anti-TNF response-monitoring failures, while synovial tissue repair remains under-tested. The pregnancy contrast remains valid only against blood response-monitoring, not global RA tissue repair.
-- Next action: Rebuild RA tissue-repair axis with paired synovial tissue or validated synovial repair endpoints. See RA_TISSUE_REPAIR_PREGNANCY_SCOPE_AUDIT_V11.md.
+- Next action: Rebuild RA tissue-repair axis with paired synovial tissue or validated synovial repair endpoints. See docs/findings/RA_TISSUE_REPAIR_PREGNANCY_SCOPE_AUDIT_V11.md.
 
 ### 010_ulcerative_colitis_axis_07_treatment_response_vs_axis_08_tissue_repair_resolution
 
@@ -81,7 +81,7 @@ Canonical machine-readable state: `analysis/v11_matrix/disagreement_matrix.tsv`.
 - Status: `biological`.
 - Resolution grade: `V12 supported downstream-convergence finding`.
 - Last action: V16 eQTLGen significant blood eQTLs confirm all four chr10 shared variants regulate `ZMIZ1`; expression-increasing alleles are MS-risk and Crohn-protective. This upgrades the locus to an eQTL-grounded decoupling signal but not an intervention target.
-- Next action: Run full-summary-statistics QTL coloc for ZMIZ1 and perturbation testing in APC/myeloid models. See GENETICS_EQTL_WORKUP_V16.md.
+- Next action: Run full-summary-statistics QTL coloc for ZMIZ1 and perturbation testing in APC/myeloid models. See docs/workups/genetics/GENETICS_EQTL_WORKUP_V16.md.
 
 ### 001_ulcerative_colitis_axis_01_ifn_apc_vs_axis_07_treatment_response
 
@@ -92,7 +92,7 @@ Canonical machine-readable state: `analysis/v11_matrix/disagreement_matrix.tsv`.
 - Status: `intervention_derived`.
 - Resolution grade: `V11 transfer-validity finding`.
 - Last action: V11 UC audit resolved cell as static-state versus dynamic-downshift decoupling. Cross-sectional colon myeloid IFN/APC is high, but baseline mucosal IFN/APC fails as a response predictor while early -delta IFN/APC passes in paired mucosal treatment cohorts.
-- Next action: Use as MS transfer warning: test early compartment-relevant IFN/APC delta, not baseline IFN/APC height. See UC_STATIC_DYNAMIC_APC_DECOUPLING_V11.md.
+- Next action: Use as MS transfer warning: test early compartment-relevant IFN/APC delta, not baseline IFN/APC height. See docs/workups/genetics/UC_STATIC_DYNAMIC_APC_DECOUPLING_V11.md.
 
 ### 006_ulcerative_colitis_axis_02_genetics_vs_axis_07_treatment_response
 
@@ -103,7 +103,7 @@ Canonical machine-readable state: `analysis/v11_matrix/disagreement_matrix.tsv`.
 - Status: `intervention_derived`.
 - Resolution grade: `V12 supported genetics layer-decoupling finding`.
 - Last action: V19 re-evaluated chr1 under first-principles druggability discipline. `KIF21B` gained independent dense QTD000021 coloc support (MS/eQTL PP.H4 `0.874879034973956`, UC/eQTL PP.H4 `0.868660082128031` over `472` aligned SNPs), and exact shared credible-set variants showed risk alleles lowering KIF21B expression `11 / 11` for both diseases. `GPR25` remains eQTLGen-supported but unsupported by V18 public immune-QTL sources. Neither gene is intervention-grade.
-- Next action: Resolve `GPR25` versus `KIF21B` using genotype-stratified immune-cell or CSF single-cell/CITE-seq data with measurable GPR25 protein/transcript and KIF21B expression; do not upgrade this cell to intervention-grade. See GENETICS_CHR1_REEVALUATION_V19.md.
+- Next action: Resolve `GPR25` versus `KIF21B` using genotype-stratified immune-cell or CSF single-cell/CITE-seq data with measurable GPR25 protein/transcript and KIF21B expression; do not upgrade this cell to intervention-grade. See docs/workups/genetics/GENETICS_CHR1_REEVALUATION_V19.md.
 
 ### 008_Crohn_disease_axis_02_genetics_vs_axis_07_treatment_response
 
@@ -114,7 +114,7 @@ Canonical machine-readable state: `analysis/v11_matrix/disagreement_matrix.tsv`.
 - Status: `intervention_derived`.
 - Resolution grade: `V12 supported downstream-response convergence finding`.
 - Last action: V16 confirms ZMIZ1 as an eQTL-grounded opposite-direction inherited-risk decoupling locus. Preserve the downstream Crohn response-convergence claim as a separate non-genetic axis.
-- Next action: Add Crohn-only paired mucosal response cohorts; do not use ZMIZ1 as a Crohn-to-MS response-biomarker transfer locus. See CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md and GENETICS_EQTL_WORKUP_V16.md.
+- Next action: Add Crohn-only paired mucosal response cohorts; do not use ZMIZ1 as a Crohn-to-MS response-biomarker transfer locus. See docs/workups/genetics/CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md and docs/workups/genetics/GENETICS_EQTL_WORKUP_V16.md.
 
 ### 009_Crohn_disease_axis_02_genetics_vs_axis_08_tissue_repair_resolution
 
@@ -125,4 +125,4 @@ Canonical machine-readable state: `analysis/v11_matrix/disagreement_matrix.tsv`.
 - Status: `intervention_derived`.
 - Resolution grade: `V12 supported downstream-repair convergence finding`.
 - Last action: V16 confirms the chr10 ZMIZ1 genetic locus is not a repair-transfer mechanism; expression-increasing alleles are MS-risk and Crohn-protective.
-- Next action: Upgrade repair axis using repair endpoints independent of IFN/APC delta; do not use chr10 ZMIZ1 as repair-transfer evidence unless perturbation or longitudinal repair data appears. See CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md and GENETICS_EQTL_WORKUP_V16.md.
+- Next action: Upgrade repair axis using repair endpoints independent of IFN/APC delta; do not use chr10 ZMIZ1 as repair-transfer evidence unless perturbation or longitudinal repair data appears. See docs/workups/genetics/CROHN_GENETICS_RESPONSE_REPAIR_DECOUPLING_V12.md and docs/workups/genetics/GENETICS_EQTL_WORKUP_V16.md.
