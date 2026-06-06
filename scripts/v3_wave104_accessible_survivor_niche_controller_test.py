@@ -32,18 +32,18 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave104_accessible_survivor_niche_controller_test"
+OUT = ROOT / "phases/v3/results" / "wave104_accessible_survivor_niche_controller_test"
 
 DONOR_SCORES = (
     ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave102_accessible_survivor_residual_compartment_test"
     / "accessible_survivor_donor_scores.tsv"
 )
-MODULE_SCORES = ROOT / "results_v3" / "direct_h5ad_cell_state" / "direct_h5ad_donor_module_scores.tsv"
+MODULE_SCORES = ROOT / "phases/v3/results" / "direct_h5ad_cell_state" / "direct_h5ad_donor_module_scores.tsv"
 W102 = (
     ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave102_accessible_survivor_residual_compartment_test"
     / "accessible_survivor_residual_summary.tsv"
 )

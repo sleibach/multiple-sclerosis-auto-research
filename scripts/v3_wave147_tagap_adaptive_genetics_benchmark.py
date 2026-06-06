@@ -25,7 +25,7 @@ from v3_analyze_direct_h5ad_cell_states import ROOT, hedges_g
 
 SEED = 20260527
 RAW = ROOT / "data" / "raw_v3" / "cell_state"
-OUT = ROOT / "results_v3" / "wave147_tagap_adaptive_genetics_benchmark"
+OUT = ROOT / "phases/v3/results" / "wave147_tagap_adaptive_genetics_benchmark"
 
 GENES = {
     "TAGAP_single": ["TAGAP"],
@@ -33,10 +33,10 @@ GENES = {
 }
 
 GENETICS_FILES = {
-    "wave55": ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv",
-    "wave62": ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv",
-    "wave104": ROOT / "results_v3" / "wave104_genetics_first_lipid_state_convergence_audit" / "genetics_first_lipid_state_rank.tsv",
-    "ms_signature": ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv",
+    "wave55": ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv",
+    "wave62": ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv",
+    "wave104": ROOT / "phases/v3/results" / "wave104_genetics_first_lipid_state_convergence_audit" / "genetics_first_lipid_state_rank.tsv",
+    "ms_signature": ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv",
 }
 
 

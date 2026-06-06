@@ -20,13 +20,13 @@ Initial decision:
 
 Created V3 directories:
 
-- `results_v3`
-- `subagents_v3`
-- `literature_v3`
+- `phases/v3/results`
+- `phases/v3/subagents`
+- `phases/v3/literature`
 - `data/raw_v3`
 - `data/derived_v3`
-- `models_v3`
-- `tmp_v3`
+- `phases/v3/models`
+- `phases/v3/tmp`
 
 Created initial control documents:
 
@@ -92,10 +92,10 @@ Interim central-node candidates:
 
 Local first-pass V3 ranking executed:
 
-- `results_v3/existing_evidence_candidate_matrix.tsv`
-- `results_v3/central_node_first_pass_rank.tsv`
-- `results_v3/axis_level_convergence.tsv`
-- `results_v3/central_node_first_pass_summary.json`
+- `phases/v3/results/existing_evidence_candidate_matrix.tsv`
+- `phases/v3/results/central_node_first_pass_rank.tsv`
+- `phases/v3/results/axis_level_convergence.tsv`
+- `phases/v3/results/central_node_first_pass_summary.json`
 
 The top heuristic genes are `NAMPT`, `IFI30`, `CXCL10`, `C1QB`, `CTSB`, `SPP1`, `IL1B`, `C1QA`, `TNF`, `MSR1`. This is a triage result only.
 
@@ -133,8 +133,8 @@ Integrated and closed second-wave returns:
 
 Preserved summaries:
 
-- `subagents_v3/autoimmune_thyroid_dirac_report.md`
-- `subagents_v3/sjogren_arendt_report.md`
+- `phases/v3/subagents/autoimmune_thyroid_dirac_report.md`
+- `phases/v3/subagents/sjogren_arendt_report.md`
 
 Integration decision: both diseases support the IFN/APC arm, especially
 `STAT1/IRF1/CXCL10/HLA-II/CD74`, but neither can currently promote the full
@@ -156,7 +156,7 @@ re-dispatched a narrow replacement:
 Integrated T1D return:
 
 - T1D: `019e65a2-e1fe-7852-b515-f0a25177d90e` / Rawls
-- preserved summary: `subagents_v3/t1d_rawls_report.md`
+- preserved summary: `phases/v3/subagents/t1d_rawls_report.md`
 
 Integration decision: T1D promotes the broader IFN/MHC-II/metabolic-stress axis
 in islets and cytokine perturbation systems, but not a clean blood-monocyte or
@@ -166,7 +166,7 @@ node and toward a cross-cell APC/metabolic stress transition.
 Integrated myasthenia gravis replacement return:
 
 - MG: `019e65ac-dd68-7b50-8f83-60e8051487a4` / Dalton
-- preserved summary: `subagents_v3/myasthenia_gravis_dalton_report.md`
+- preserved summary: `phases/v3/subagents/myasthenia_gravis_dalton_report.md`
 
 Integration decision: MG is partial and thymus/PBMC-anchored. It supports
 IFN/APC and MHC-II/lysosomal processing, but the disease-defining NMJ lesion is
@@ -178,8 +178,8 @@ Integrated SpA and celiac returns:
 - ankylosing spondylitis / SpA: `019e65a2-e232-7201-a767-8929c5797144` / Planck
 - celiac disease: `019e65ac-0910-7593-894f-720936207c59` / Plato
 - preserved summaries:
-  - `subagents_v3/spa_as_psa_planck_report.md`
-  - `subagents_v3/celiac_plato_report.md`
+  - `phases/v3/subagents/spa_as_psa_planck_report.md`
+  - `phases/v3/subagents/celiac_plato_report.md`
 
 Integration decision: SpA strengthens inflammatory APC/myeloid convergence in
 synovial fluid, while celiac strengthens IFN/APC plus antigen processing but
@@ -194,7 +194,7 @@ Dispatched focused modality agents after axis reranking:
 Integrated PBC return:
 
 - PBC: `019e65ac-094c-7a93-88b8-54e9c112a32c` / Goodall
-- preserved summary: `subagents_v3/pbc_goodall_report.md`
+- preserved summary: `phases/v3/subagents/pbc_goodall_report.md`
 
 Integration decision: PBC strongly supports the portal IFN/APC plus
 CTSS/CD74/HLA-II lysosomal antigen-processing arm. It weakens lipid-loader and
@@ -205,7 +205,7 @@ target engagement without biochemical improvement.
 Integrated genetics return:
 
 - cross-autoimmune genetics: `019e65a4-e588-7e02-9b93-59822da6f7f2` / James
-- preserved summary: `subagents_v3/genetics_james_report.md`
+- preserved summary: `phases/v3/subagents/genetics_james_report.md`
 
 Integration decision: promote `IFI30 + IRF1/HLA-II antigen-processing` as the
 best genetics-compatible central axis. `NAMPT/HIF1A/NAD` is demoted to
@@ -215,7 +215,7 @@ remains unresolved, so no direct `IFI30` inhibition/activation claim is allowed.
 Integrated intervention scout return:
 
 - target/intervention scout: `019e65b3-023d-7e42-a17a-92978404a88a` / Ohm
-- preserved summary: `subagents_v3/intervention_ohm_report.md`
+- preserved summary: `phases/v3/subagents/intervention_ohm_report.md`
 
 Integration decision: the best therapeutic path is not a novel first-in-class
 CTSS/IFI30 claim. It is a stratified CD74/MIF-high progressive MS program with
@@ -228,7 +228,7 @@ Integrated foundation/perturbation route return:
 
 - foundation-model/perturbation scout: `019e65b3-025d-7d82-a953-2578a86bdc5d`
   / Hubble
-- preserved summary: `subagents_v3/foundation_hubble_report.md`
+- preserved summary: `phases/v3/subagents/foundation_hubble_report.md`
 
 Integration decision: de novo State is invalid in this workspace without
 compatible AnnData. State remains feature-agnostic cytokine-response validation.
@@ -273,7 +273,7 @@ Integrated foundation-alternative return:
 
 - foundation/perturbation alternatives:
   `019e65c5-8dfd-7303-a30f-8bcb44e76fdc` / Bernoulli
-- preserved summary: `subagents_v3/foundation_alt_bernoulli_report.md`
+- preserved summary: `phases/v3/subagents/foundation_alt_bernoulli_report.md`
 
 Integration decision: promote Mixscale Perturb-seq `GSE281048` / Zenodo
 `14035992` to the primary gene-specific perturbation branch. This is stronger
@@ -285,7 +285,7 @@ Integrated CD74/MIF novelty audit:
 
 - CD74/MIF novelty and translational audit:
   `019e65c5-ac49-7fc0-b879-585722c5fd6a` / Galileo
-- preserved summary: `subagents_v3/cd74_mif_novelty_galileo_report.md`
+- preserved summary: `phases/v3/subagents/cd74_mif_novelty_galileo_report.md`
 
 Integration decision: the broad CD74/MIF/ibudilast progressive MS therapeutic
 claim is blocked by publications, trials, and patents. Only a narrower
@@ -298,7 +298,7 @@ Integrated cross-autoimmune cell-state replication scout:
 
 - cross-autoimmune cell-state replication:
   `019e65c5-c595-71b2-9e3b-f82cef4a3b92` / Zeno
-- preserved summary: `subagents_v3/cell_state_replication_zeno_report.md`
+- preserved summary: `phases/v3/subagents/cell_state_replication_zeno_report.md`
 
 Integration decision: quantify `CD74/CD44/CXCR4/HLA-II` plus
 `STAT1/IRF1/IFI30/CTSS` in disease-relevant compartments using CELLxGENE where
@@ -349,7 +349,7 @@ Integrated disease-breadth expansion return:
 
 - disease-breadth expansion scout: `019e6615-e412-7d60-88bf-320a2bc7ff74` /
   Kepler
-- preserved summary: `subagents_v3/wave3_disease_breadth_kepler_report.md`
+- preserved summary: `phases/v3/subagents/wave3_disease_breadth_kepler_report.md`
 
 Integration decision: prioritize RA synovium/macrophage `E-MTAB-8322` as the
 next new disease tissue because it has direct h5ad plus disease, response, donor,
@@ -362,7 +362,7 @@ Integrated novelty/prior-art return:
 
 - IFI30/state novelty and patent scout: `019e6615-b9cc-7882-a73d-112908ac114b`
   / Epicurus
-- preserved summary: `subagents_v3/wave3_novelty_epicurus_report.md`
+- preserved summary: `phases/v3/subagents/wave3_novelty_epicurus_report.md`
 
 Integration decision: demote broad `IFI30/GILT` inhibition/activation/modulation
 as a therapeutic lead. It is prior-arted and mechanistically risky in MS/EAE.
@@ -373,7 +373,7 @@ Integrated genetics return:
 
 - genetics/colocalization scout: `019e6615-9c23-7700-940b-536d3eb478e7` /
   Kierkegaard
-- preserved summary: `subagents_v3/wave3_genetics_kierkegaard_report.md`
+- preserved summary: `phases/v3/subagents/wave3_genetics_kierkegaard_report.md`
 
 Integration decision: use genetics as pathway support only. HLA-II/MHC is broad
 but non-specific; `IRF1/CARINH` is the best non-MHC cross-disease regulatory
@@ -388,7 +388,7 @@ Local route-around after the RA EBI transfer blocker:
 - analyzed autoimmune thyroid spatial dataset `GSE248205`;
 - added `scripts/v3_analyze_gse248205_thyroid_spatial.py` to the reproducible
   V3 runner;
-- outputs preserved under `results_v3/gse248205_thyroid_spatial/`.
+- outputs preserved under `phases/v3/results/gse248205_thyroid_spatial/`.
 
 Integration decision: count Hashimoto thyroiditis as an additional
 cross-autoimmune tissue where the IFN-gamma/HLA-II/CD74/GILT/TAP state recurs,
@@ -492,7 +492,7 @@ closer to the original reviewer-specified module.
 ## 2026-05-26 21:59 UTC
 
 Integrated intervention scout from
-`subagents_v3/intervention_scout_report.md`.
+`phases/v3/subagents/intervention_scout_report.md`.
 
 Scout recommendation: local PDE4/cAMP-PKA modulation of the
 CIITA/MHC-II/CD74 gate in biomarker-high UC is the nearest-term tractable
@@ -505,7 +505,7 @@ risk is medium-high; it does not by itself satisfy the cross-autoimmune V3 DoD
 after IFN residualization.
 
 Integrated foundation-model fallback scout from
-`subagents_v3/foundation_fallback_report.md`.
+`phases/v3/subagents/foundation_fallback_report.md`.
 
 Scout recommendation: State remains the best route if `adata_real.h5ad` opens
 and provides gene mapping. Geneformer V2-104M is the CPU-feasible fallback but
@@ -537,17 +537,17 @@ Dispatched wave-4 agents:
 
 - Boole `019e664d-7a6d-7e01-8af3-82e199152d43`: `LIPA` /
   lipid-lysosomal central-node scout. Deliverable:
-  `subagents_v3/wave4_lipa_scout_report.md`.
+  `phases/v3/subagents/wave4_lipa_scout_report.md`.
 - Leibniz `019e664d-7b33-71b3-958d-4816ea6c90c6`: residual CD74/HLA
   receptor-state scout. Deliverable:
-  `subagents_v3/wave4_residual_cd74_scout_report.md`.
+  `phases/v3/subagents/wave4_residual_cd74_scout_report.md`.
 - Mill `019e664d-7c86-7de3-9353-46643fe5d93f`: foundation-model gate runner.
-  Deliverable: `subagents_v3/wave4_foundation_gate_report.md`.
+  Deliverable: `phases/v3/subagents/wave4_foundation_gate_report.md`.
 
 ## 2026-05-26 22:04 UTC
 
 Integrated Mill's foundation-model gate report:
-`subagents_v3/wave4_foundation_gate_report.md`.
+`phases/v3/subagents/wave4_foundation_gate_report.md`.
 
 Gate result:
 
@@ -555,7 +555,7 @@ Gate result:
   local size 5,619,356,404 bytes vs HDF5 stored EOF 9,112,404,896 bytes.
 - Current State output tables remain anonymous `FEATURE_n`; named genes
   `CD74`, `IFI30`, `CTSS`, `STAT1`, `TAP1`, `B2M`, and `HLA-DRA` appear zero
-  times in `results_v3/state_parse_cd14_de_with_gene_symbols.tsv`.
+  times in `phases/v3/results/state_parse_cd14_de_with_gene_symbols.tsv`.
 - State is valid only for feature-agnostic calibration: IFN-gamma Spearman
   0.4793, direction match 0.7087, significant-feature recall 0.8174,
   precision 0.7397.
@@ -568,7 +568,7 @@ kept as a CPU-feasible follow-up model-hypothesis route, not current evidence.
 ## 2026-05-26 22:09 UTC
 
 Integrated Leibniz's residual CD74/HLA receptor-state report:
-`subagents_v3/wave4_residual_cd74_scout_report.md`.
+`phases/v3/subagents/wave4_residual_cd74_scout_report.md`.
 
 Scout conclusion: demote residual CD74/HLA receptor-state to biomarker-only.
 
@@ -588,7 +588,7 @@ and even that is now compartment-specific rather than pan-autoimmune.
 ## 2026-05-26 22:11 UTC
 
 Integrated Boole's `LIPA` scout report:
-`subagents_v3/wave4_lipa_scout_report.md`.
+`phases/v3/subagents/wave4_lipa_scout_report.md`.
 
 Scout conclusion: demote `LIPA` as a V3 central cross-autoimmune node.
 
@@ -619,13 +619,13 @@ Closed wave-4 completed agents and dispatched wave 5:
 
 - Euclid `019e6656-7b7c-7e81-954d-124054878be8`: `OSM/OSMR`
   tissue-licensing axis scout. Deliverable:
-  `subagents_v3/wave5_osmr_scout_report.md`.
+  `phases/v3/subagents/wave5_osmr_scout_report.md`.
 - Helmholtz `019e6656-7c43-7e83-ab04-a16bd2b37e42`: complement/C1q
   resident-myeloid axis scout. Deliverable:
-  `subagents_v3/wave5_complement_scout_report.md`.
+  `phases/v3/subagents/wave5_complement_scout_report.md`.
 - Jason `019e6656-7d69-7792-b565-89dc5e55f343`: local OSMR/complement
   quantification worker. Deliverable:
-  `subagents_v3/wave5_local_quant_report.md`.
+  `phases/v3/subagents/wave5_local_quant_report.md`.
 
 Pivot standard: no promotion unless a candidate shows direction-stable,
 compartment-plausible cross-disease evidence after basic residual controls and
@@ -639,7 +639,7 @@ Dispatched wave 6 foundation-model fallback worker:
   named-gene cellular/genomic foundation-model perturbation can be run locally
   for `OSM/OSMR/IL6ST/STAT3/SOCS3`, complement/C1q candidates, and residual
   IFN/CD74 controls. Deliverable:
-  `subagents_v3/wave6_foundation_named_gene_report.md`.
+  `phases/v3/subagents/wave6_foundation_named_gene_report.md`.
 
 Reason: Arc State has quantitative anonymous IFN-gamma calibration but still
 lacks named-gene interpretability until the full `adata_real.h5ad` is readable.
@@ -650,14 +650,14 @@ gene route becomes real, reproducible output rather than a model aspiration.
 
 Integrated wave-5 reports:
 
-- Helmholtz `subagents_v3/wave5_complement_scout_report.md`: complement/C1q
+- Helmholtz `phases/v3/subagents/wave5_complement_scout_report.md`: complement/C1q
   no-go as V3 central node. MS chronic-active lesion and lupus nephritis
   biology are real but disease-specific, directionally inconsistent in local
   donor-level myeloid data, and heavily prior-arted for complement blockade.
-- Jason `subagents_v3/wave5_local_quant_report.md`: local OSM/OSMR passes only
+- Jason `phases/v3/subagents/wave5_local_quant_report.md`: local OSM/OSMR passes only
   as a continuation signal in Crohn, UC, and T1D epithelial/ductal-like
   compartments; C1q/complement no-go.
-- Euclid `subagents_v3/wave5_osmr_scout_report.md`: OSM/OSMR no-go for V3
+- Euclid `phases/v3/subagents/wave5_osmr_scout_report.md`: OSM/OSMR no-go for V3
   central-node status because MS evidence is absent/ambiguous, local OSMR
   expression is not direction-stable, and IBD/RA/skin prior art is direct.
 
@@ -672,7 +672,7 @@ gene-level discovery pass over local single-cell matrices plus existing MS and
 cross-disease evidence, because repeated hand-picked rescue of the lipid module
 is producing comparator biology rather than a DoD-grade therapeutic claim.
 
-2026-05-26 22:27 UTC - Wave 6 foundation fallback completed: `subagents_v3/wave6_foundation_named_gene_report.md` created; State remains blocked for named genes, Geneformer V2-104M scratch inference ran on real local cells with weak/non-decisive OSMR/complement support.
+2026-05-26 22:27 UTC - Wave 6 foundation fallback completed: `phases/v3/subagents/wave6_foundation_named_gene_report.md` created; State remains blocked for named genes, Geneformer V2-104M scratch inference ran on real local cells with weak/non-decisive OSMR/complement support.
 
 ## 2026-05-26 22:31 UTC
 
@@ -714,7 +714,7 @@ Decision: no current candidate satisfies V3 DoD. Continue pivoting; do not
 force `LTA4H` or `CHI3L1`.
 
 2026-05-26 22:40 UTC - Wave 7 lipid-myeloid target scout completed:
-`subagents_v3/wave7_lipid_myeloid_target_scout_report.md` created. Best
+`phases/v3/subagents/wave7_lipid_myeloid_target_scout_report.md` created. Best
 computational handoff is `LGALS3` only as a fail-fast test; `LTA4H` remains
 demoted after Geneformer/prior-art integration. `GPNMB` is marker/PD only;
 cathepsins, `SPP1/CD44`, TAM/TREM2, `LRP1/CALR`, `PLA2G7`, `TBXAS1`, and
@@ -751,11 +751,11 @@ Dispatched wave 8 sidecar workers:
   druggability scout for `FABP5`, `MSR1`, `SCARB2`, `LGALS1`, `LGALS3`, with
   required search queries, source links, patent/trial red flags, and
   go/no-go/uncertain ratings. Deliverable:
-  `subagents_v3/wave8_target_prior_art_druggability_report.md`.
+  `phases/v3/subagents/wave8_target_prior_art_druggability_report.md`.
 - Avicenna `019e6673-e045-7e02-a867-290b2125c823`: local data-breadth scout
   for the same candidates and adjacent lipid-lysosomal/glycan-checkpoint genes,
-  using `results_v3/broad_h5ad_gene_discovery/` and other local evidence.
-  Deliverable: `subagents_v3/wave8_candidate_breadth_report.md`.
+  using `phases/v3/results/broad_h5ad_gene_discovery/` and other local evidence.
+  Deliverable: `phases/v3/subagents/wave8_candidate_breadth_report.md`.
 
 Local orchestrator task while wave 8 runs: produce a focused candidate triage
 table from the actual result files and test whether any of these candidates
@@ -766,8 +766,8 @@ deserves deeper foundation-model or perturbation analysis.
 Integrated wave-7 handoff and ran a fail-fast LGALS3/glycan-checkpoint test:
 
 - Added `scripts/v3_lgals3_glycan_checkpoint_analysis.py`.
-- Added the script to `run_v3_analysis.sh`.
-- Output directory: `results_v3/lgals3_glycan_checkpoint/`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
+- Output directory: `phases/v3/results/lgals3_glycan_checkpoint/`.
 
 Result:
 
@@ -800,8 +800,8 @@ druggability, and foundation-model constraints.
 
 Integrated Avicenna wave-8 data-breadth report:
 
-- `subagents_v3/wave8_candidate_breadth_report.md`
-- `subagents_v3/wave8_candidate_breadth_contrast_extract.tsv`
+- `phases/v3/subagents/wave8_candidate_breadth_report.md`
+- `phases/v3/subagents/wave8_candidate_breadth_contrast_extract.tsv`
 
 Key vetted conclusions:
 
@@ -828,7 +828,7 @@ Action:
 
 Integrated Feynman wave-8 target/prior-art/druggability report:
 
-- `subagents_v3/wave8_target_prior_art_druggability_report.md`
+- `phases/v3/subagents/wave8_target_prior_art_druggability_report.md`
 
 Vetted conclusion:
 
@@ -848,8 +848,8 @@ Closed Feynman after report return.
 Geneformer phagolysosomal/matrix deletion screen completed:
 
 - Script: `scripts/v3_geneformer_phagolysosomal_matrix_screen.py`
-- Output directory: `results_v3/geneformer_phagolysosomal_matrix_delete/`
-- Added to `run_v3_analysis.sh`.
+- Output directory: `phases/v3/results/geneformer_phagolysosomal_matrix_delete/`
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Key result:
 
@@ -927,7 +927,7 @@ Reopened unrestricted broad h5ad survivor scan:
 
 - Added `scripts/v3_unrestricted_survivor_scan.py`.
 - Added `scripts/v3_geneformer_unrestricted_survivor_screen.py`.
-- Added both scripts to `run_v3_analysis.sh`.
+- Added both scripts to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Second-pass foundation-model result:
 
@@ -939,7 +939,7 @@ Second-pass foundation-model result:
 
 Sidecar integration:
 
-- Banach returned `subagents_v3/wave10_survivor_cell_state_biology_report.md`.
+- Banach returned `phases/v3/subagents/wave10_survivor_cell_state_biology_report.md`.
   Vetted conclusion: the unrestricted survivors split into inflammatory
   myeloid/immunometabolic (`C15ORF48`, `SNX10`), barrier/stromal/endothelial
   remodeling (`FMNL2`, `SDC4`, `ABHD2`), and generic stress/survival tails.
@@ -984,7 +984,7 @@ is available.
 
 Integrated Lorentz wave-10 unrestricted survivor target scout:
 
-- Report: `subagents_v3/wave10_unrestricted_survivor_target_scout.md`
+- Report: `phases/v3/subagents/wave10_unrestricted_survivor_target_scout.md`
 - Top-line vetted result: no clean target among unrestricted survivors.
 - `SNX10` and `C15ORF48` remain the only plausible fail-fast rescue hypotheses,
   but neither is a promotion candidate: `SNX10` is prior-arted and weakly
@@ -1001,8 +1001,8 @@ Closed Lorentz to free an agent slot.
 
 Integrated wave-9 APOC1 sidecars:
 
-- Pasteur report: `subagents_v3/wave9_apoc1_prior_art_druggability_report.md`
-- Hilbert report: `subagents_v3/wave9_apoc1_genetics_report.md`
+- Pasteur report: `phases/v3/subagents/wave9_apoc1_prior_art_druggability_report.md`
+- Hilbert report: `phases/v3/subagents/wave9_apoc1_genetics_report.md`
 
 Vetted conclusion:
 
@@ -1021,11 +1021,11 @@ Closed Pasteur and Hilbert after integration.
 Integrated wave-11 sidecars and closed Beauvoir, Ampere, and Singer:
 
 - Ampere report:
-  `subagents_v3/wave11_cross_domain_intervention_scout_report.md`
+  `phases/v3/subagents/wave11_cross_domain_intervention_scout_report.md`
 - Singer report:
-  `subagents_v3/wave11_hostile_critique_report.md`
+  `phases/v3/subagents/wave11_hostile_critique_report.md`
 - Beauvoir report:
-  `subagents_v3/wave11_genetics_prior_art_scout_report.md`
+  `phases/v3/subagents/wave11_genetics_prior_art_scout_report.md`
 
 Vetted conclusion:
 
@@ -1045,8 +1045,8 @@ Local execution added a stricter post-APOC1 no-go gate:
 
 - Script: `scripts/v3_snx10_c15orf48_residual_gate.py`
 - Output:
-  `results_v3/snx10_c15orf48_residual_gate/snx10_c15orf48_residual_gate.tsv`
-- `run_v3_analysis.sh` now runs the gate.
+  `phases/v3/results/snx10_c15orf48_residual_gate/snx10_c15orf48_residual_gate.tsv`
+- `scripts/entrypoints/run_v3_analysis.sh` now runs the gate.
 
 Residual-gate result:
 
@@ -1071,10 +1071,10 @@ Integrated wave-12 broad residual pivot:
 
 - Added and ran `scripts/v3_broad_residual_gate.py`.
 - Added and ran `scripts/v3_geneformer_broad_residual_screen.py`.
-- Added both scripts to `run_v3_analysis.sh`.
+- Added both scripts to `scripts/entrypoints/run_v3_analysis.sh`.
 - Reports integrated:
-  - `subagents_v3/wave12_broad_residual_genetics_prior_art_report.md`
-  - `subagents_v3/wave12_hostile_critique_report.md`
+  - `phases/v3/subagents/wave12_broad_residual_genetics_prior_art_report.md`
+  - `phases/v3/subagents/wave12_hostile_critique_report.md`
 
 Broad residual-gate result:
 
@@ -1089,7 +1089,7 @@ Broad residual-gate result:
 Geneformer broad residual screen:
 
 - Output:
-  `results_v3/geneformer_broad_residual_delete/geneformer_broad_residual_gene_summary.tsv`
+  `phases/v3/results/geneformer_broad_residual_delete/geneformer_broad_residual_gene_summary.tsv`
 - Strongest model-supported genes were `SEC61B`, `MTHFD2`, `HIF1A`,
   `SEC61A1`, `TMSB10`, `RPL17`, `TPM4`, `DAP`, and `SQLE`.
 - This is a generic ER-translocation/metabolic/structural/stress profile, not
@@ -1175,12 +1175,12 @@ SLE targeted branch:
 - Added `scripts/v3_analyze_sle_census_targeted.py` to query Perez et al. SLE
   PBMCs through CELLxGENE Census selected-gene extraction instead of full
   11.3 GB h5ad download.
-- Added an opt-in `RUN_SLE_CENSUS_TARGETED=1` branch to `run_v3_analysis.sh`.
+- Added an opt-in `RUN_SLE_CENSUS_TARGETED=1` branch to `scripts/entrypoints/run_v3_analysis.sh`.
 - The SLE selected-gene extraction is running as a remote/CPU-heavy job.
 
 Integrated Schrodinger wave-13 perturbation scout:
 
-- Report: `subagents_v3/wave13_perturbation_intervention_scout.md`.
+- Report: `phases/v3/subagents/wave13_perturbation_intervention_scout.md`.
 - Vetted result: perturbation support is strongest for the
   IFNG/IFNGR/JAK/STAT1 -> CIITA/RFX5 -> MHC-II/CD74 transition.
 - Broad JAK/IFNGR is retained only as a positive control and prior-arted
@@ -1198,7 +1198,7 @@ Decision:
 ## 2026-05-27 00:36 UTC
 
 Wave-13 agent handles were closed after their written reports were preserved in
-`subagents_v3/`. No files were reverted.
+`phases/v3/subagents/`. No files were reverted.
 
 Wave-14 dispatched:
 
@@ -1209,20 +1209,20 @@ Wave-14 dispatched:
 - Darwin (`019e66dd-761b-7d13-aaba-d87e93e18e4f`): GSK3B/CIITA perturbation
   worker. Assigned write scope:
   `scripts/v3_wave14_gsk3b_ciita_perturbation.py`,
-  `results_v3/wave14_gsk3b_ciita_perturbation/`,
+  `phases/v3/results/wave14_gsk3b_ciita_perturbation/`,
   `data/raw_v3/wave14_gsk3b_ciita/`, and
-  `subagents_v3/wave14_gsk3b_ciita_perturbation.md`.
+  `phases/v3/subagents/wave14_gsk3b_ciita_perturbation.md`.
 - Hypatia (`019e66dd-94f5-7932-836a-ff28648e5918`):
   SLC15A4/TASL/IRF5 fail-fast worker. Assigned write scope:
   `scripts/v3_wave14_slc15a4_tasl_failfast.py`,
-  `results_v3/wave14_slc15a4_tasl_failfast/`, and
-  `subagents_v3/wave14_slc15a4_tasl_failfast.md`.
+  `phases/v3/results/wave14_slc15a4_tasl_failfast/`, and
+  `phases/v3/subagents/wave14_slc15a4_tasl_failfast.md`.
 - Mendel (`019e66dd-b315-7880-819b-3285b7d40bfc`): myasthenia gravis breadth
   worker around `GSE227835` or a tractable fallback. Assigned write scope:
   `scripts/v3_wave14_gse227835_myasthenia_marker.py`,
-  `results_v3/wave14_gse227835_myasthenia/`,
+  `phases/v3/results/wave14_gse227835_myasthenia/`,
   `data/raw_v3/gse227835/`, and
-  `subagents_v3/wave14_myasthenia_breadth.md`.
+  `phases/v3/subagents/wave14_myasthenia_breadth.md`.
 
 Integration decision:
 
@@ -1239,7 +1239,7 @@ Integration decision:
 Hour-6 critique integrated:
 
 - Lagrange report:
-  `subagents_v3/wave14_hour6_hostile_critique.md`.
+  `phases/v3/subagents/wave14_hour6_hostile_critique.md`.
 - Verdict accepted: IFNG/HLA-II/CD74 is a recurrent autoimmune state, not a
   defensible therapeutic central node with current evidence.
 
@@ -1248,7 +1248,7 @@ Orchestrator-side gate work:
 - Added `scripts/v3_wave14_candidate_gate_matrix.py`.
 - Ran it with `.venv_v3_py312/bin/python`.
 - Output:
-  `results_v3/wave14_candidate_gate_matrix/wave14_candidate_gate_matrix.tsv`.
+  `phases/v3/results/wave14_candidate_gate_matrix/wave14_candidate_gate_matrix.tsv`.
 - Gate result: `SLC15A4/TASL/IRF5` and `PTPN2` are the only candidates passing
   simple expression+genetics gates; both are crowded, and `PTPN2` has poor
   direct therapeutic direction.
@@ -1258,7 +1258,7 @@ Foundation-model focused screen:
 - Added and ran
   `scripts/v3_wave14_geneformer_narrowed_candidate_screen.py`.
 - Output:
-  `results_v3/wave14_geneformer_narrowed_candidate_delete/`.
+  `phases/v3/results/wave14_geneformer_narrowed_candidate_delete/`.
 - Result: Geneformer did not support broad control-like normalization for
   `SLC15A4`, `IRF5`, `GPR65`, `GSK3B`, `CIITA`, `RFX5`, `CD74`, or `CTSS`.
   It gave the most support to `PTPN2`, `TNFAIP3`, and `SH2B3`, which are
@@ -1269,15 +1269,15 @@ New sidecar:
 - Tesla (`019e66e5-1f91-7ce0-b627-f75413f58284`): target-level genetics worker
   for narrowed candidates. Assigned write scope:
   `scripts/v3_wave14_target_level_genetics.py`,
-  `results_v3/wave14_target_level_genetics/`, and
-  `subagents_v3/wave14_target_level_genetics.md`.
+  `phases/v3/results/wave14_target_level_genetics/`, and
+  `phases/v3/subagents/wave14_target_level_genetics.md`.
 
 ## 2026-05-27 00:49 UTC
 
 Integrated Hypatia wave-14 SLC15A4/TASL fail-fast.
 
-- Report: `subagents_v3/wave14_slc15a4_tasl_failfast.md`.
-- Outputs: `results_v3/wave14_slc15a4_tasl_failfast/`.
+- Report: `phases/v3/subagents/wave14_slc15a4_tasl_failfast.md`.
+- Outputs: `phases/v3/results/wave14_slc15a4_tasl_failfast/`.
 - Accepted recommendation: no-go for cross-autoimmune central/intervention
   nomination.
 
@@ -1300,7 +1300,7 @@ Completed orchestrator feedback-vs-brake test for the negative-regulator
 branch.
 
 - Script: `scripts/v3_wave14_negative_regulator_feedback_test.py`.
-- Output: `results_v3/wave14_negative_regulator_feedback/`.
+- Output: `phases/v3/results/wave14_negative_regulator_feedback/`.
 - Result: `PTPN2`, `SH2B3`, and `TNFAIP3` do not show repeated donor-level
   anticorrelation with IFN/HLA/CD74 modules. `PTPN2` and `SH2B3` mostly
   correlate positively with the inflammatory state; `TNFAIP3` is mixed.
@@ -1315,8 +1315,8 @@ Decision:
 
 Integrated Darwin wave-14 GSK3B/CIITA perturbation scout.
 
-- Report: `subagents_v3/wave14_gsk3b_ciita_perturbation.md`.
-- Outputs: `results_v3/wave14_gsk3b_ciita_perturbation/`.
+- Report: `phases/v3/subagents/wave14_gsk3b_ciita_perturbation.md`.
+- Outputs: `phases/v3/results/wave14_gsk3b_ciita_perturbation/`.
 - Accepted verdict: public macrophage perturbation data support `GSK3B` as a
   testable upstream controller of IFN-gamma-induced CIITA/MHC-II/CD74, but not
   as a final therapeutic finding.
@@ -1335,11 +1335,11 @@ the lipid-lysosomal inflammatory myeloid/APC module.
 
 New report:
 
-- `subagents_v3/wave13_genetics_prior_art_reopen.md`
+- `phases/v3/subagents/wave13_genetics_prior_art_reopen.md`
 
 New verification artifact:
 
-- `tmp_v3/wave13_opentargets_gwas_credible_sets.tsv`
+- `phases/v3/tmp/wave13_opentargets_gwas_credible_sets.tsv`
 
 Result:
 
@@ -1370,7 +1370,7 @@ Decision:
 Completed orchestrator local gate for the `GSK3B`/CIITA perturbation scout.
 
 - Script: `scripts/v3_wave14_gsk3b_local_gate.py`.
-- Outputs: `results_v3/wave14_gsk3b_local_gate/`.
+- Outputs: `phases/v3/results/wave14_gsk3b_local_gate/`.
 - Repair made before rerun: Europe PMC and ClinicalTrials.gov API failures are
   now recorded as errors instead of aborting the analysis; an unused grouping
   loop was removed.
@@ -1418,8 +1418,8 @@ Prepared wave-15 dispatch around the resolved bottleneck:
 
 Integrated target-level genetics worker return from Tesla.
 
-- Report: `subagents_v3/wave14_target_level_genetics.md`.
-- Outputs: `results_v3/wave14_target_level_genetics/`.
+- Report: `phases/v3/subagents/wave14_target_level_genetics.md`.
+- Outputs: `phases/v3/results/wave14_target_level_genetics/`.
 - Conservative call accepted: no-go for V3 target-level genetics among the
   narrowed candidates. Broad locus-level autoimmune evidence exists for
   `IRF5`, `PTPN2`, `CLEC16A`, `SH2B3`, and `GPR65`, but none has validated
@@ -1437,8 +1437,8 @@ Implication:
 
 Integrated Wave15-B perturbation/drug-response worker return.
 
-- Report: `subagents_v3/wave15_perturbation_drug_response.md`.
-- Outputs: `results_v3/wave15_perturbation_drug_response/`.
+- Report: `phases/v3/subagents/wave15_perturbation_drug_response.md`.
+- Outputs: `phases/v3/results/wave15_perturbation_drug_response/`.
 - Accepted verdict: no compound is strong enough to nominate from available
   perturbation/drug-response evidence.
 
@@ -1462,11 +1462,11 @@ Completed orchestrator wave-15 dependency scans around the `CD74`/HLA-II state.
 New scripts and outputs:
 
 - `scripts/v3_wave15_orchestrator_dependency_scan.py`
-- `results_v3/wave15_orchestrator_dependency_scan/`
+- `phases/v3/results/wave15_orchestrator_dependency_scan/`
 - `scripts/v3_wave15_geneformer_loader_dependency_screen.py`
-- `results_v3/wave15_geneformer_loader_dependency_delete/`
+- `phases/v3/results/wave15_geneformer_loader_dependency_delete/`
 - `scripts/v3_wave15_loader_external_gate.py`
-- `results_v3/wave15_loader_external_gate/`
+- `phases/v3/results/wave15_loader_external_gate/`
 
 Result:
 
@@ -1501,11 +1501,11 @@ Integrated Wave15-A surface/trafficking dependency worker return.
 
 Report:
 
-- `subagents_v3/wave15_surface_trafficking_dependency.md`
+- `phases/v3/subagents/wave15_surface_trafficking_dependency.md`
 
 Outputs:
 
-- `results_v3/wave15_surface_trafficking_dependency/`
+- `phases/v3/results/wave15_surface_trafficking_dependency/`
 
 Accepted result:
 
@@ -1572,11 +1572,11 @@ Integrated myasthenia gravis breadth worker return.
 
 Report:
 
-- `subagents_v3/wave14_myasthenia_breadth.md`
+- `phases/v3/subagents/wave14_myasthenia_breadth.md`
 
 Outputs:
 
-- `results_v3/wave14_gse227835_myasthenia/`
+- `phases/v3/results/wave14_gse227835_myasthenia/`
 
 Accepted result:
 
@@ -1602,8 +1602,8 @@ Integrated Wave16 hostile critique and alternatives comparison.
 
 Reports:
 
-- `subagents_v3/wave16_hostile_ctsh_critique.md`
-- `subagents_v3/wave16_alternative_dependency_comparison.md`
+- `phases/v3/subagents/wave16_hostile_ctsh_critique.md`
+- `phases/v3/subagents/wave16_alternative_dependency_comparison.md`
 
 Decisions:
 
@@ -1644,8 +1644,8 @@ Integrated Wave16-A CTSH chemistry/selectivity worker return.
 - Closed the worker after completion.
 - Accepted verdict: selective CTSH/cathepsin H modulation is a no-go as the V3
   intervention point on current public chemistry.
-- Preserved outputs under `subagents_v3/wave16_ctsh_chemistry_selectivity.md`
-  and `results_v3/wave16_ctsh_chemistry_selectivity/`.
+- Preserved outputs under `phases/v3/subagents/wave16_ctsh_chemistry_selectivity.md`
+  and `phases/v3/results/wave16_ctsh_chemistry_selectivity/`.
 - Decision: CTSH remains a lysosomal/APC state marker and possible assay
   readout, not a therapeutic nomination.
 
@@ -1654,13 +1654,13 @@ Integrated Wave16-A CTSH chemistry/selectivity worker return.
 Integrated Wave17 returns.
 
 - Mediator/CDK8-CDK19 route:
-  `results_v3/wave17_mediator_route_gate/` and
-  `subagents_v3/wave17_mediator_kinase_route.md`.
+  `phases/v3/results/wave17_mediator_route_gate/` and
+  `phases/v3/subagents/wave17_mediator_kinase_route.md`.
 - Accepted park verdict. `Med16_KO` remains a strong perturbation clue, but
   CDK8/CDK19 promotion is blocked by weak local recurrence, absent inhibitor
   phenocopy in local autoimmune APC data, broad transcriptional risk, and
   broad autoimmune patent prior art.
-- LAPTM5 route: `subagents_v3/wave17_laptm5_modality_route.md`.
+- LAPTM5 route: `phases/v3/subagents/wave17_laptm5_modality_route.md`.
 - Accepted park verdict. LAPTM5 is credible as a module marker/readout but not
   as a current direct intervention.
 
@@ -1697,9 +1697,9 @@ Wave18 dispatch planned.
 Wave18-A returned and was locally vetted.
 
 - Agent: `019e671f-f30f-79b3-9ae7-0297ffe1809e`.
-- Report: `subagents_v3/wave18_treatment_response_scout.md`.
+- Report: `phases/v3/subagents/wave18_treatment_response_scout.md`.
 - Accepted outputs: `scripts/v3_wave18_treatment_response_scout.py` and
-  `results_v3/wave18_treatment_response/`.
+  `phases/v3/results/wave18_treatment_response/`.
 - Vetting: parsed `summary.json`; confirmed `GSE183047_RAW.tar` completed and
   matrices extracted; checked that RA and UC baseline predictor FDR values match
   the report.
@@ -1712,9 +1712,9 @@ Wave18-A returned and was locally vetted.
 Wave18-B returned and was locally vetted.
 
 - Agent: `019e671f-f334-79a2-a1b6-86f56a71b80d`.
-- Report: `subagents_v3/wave18_accessible_target_rescue.md`.
+- Report: `phases/v3/subagents/wave18_accessible_target_rescue.md`.
 - Accepted outputs: `scripts/v3_wave18_accessible_target_rescue.py` and
-  `results_v3/wave18_accessible_target_rescue/`.
+  `phases/v3/results/wave18_accessible_target_rescue/`.
 - Vetting: parsed `summary.json` (`0 GO`, `11 PARK`, `13 NO_GO`) and checked
   the candidate table/source log.
 - Decision: no accessible surface/secreted/enzyme state component is promotable
@@ -1724,9 +1724,9 @@ Wave18-B returned and was locally vetted.
 
 Wave18-C result integrated from local reproducible outputs.
 
-- Report: `subagents_v3/wave18_foundation_rescue.md`.
+- Report: `phases/v3/subagents/wave18_foundation_rescue.md`.
 - Accepted outputs: `scripts/v3_wave18_foundation_rescue.py` and
-  `results_v3/wave18_foundation_rescue/`.
+  `phases/v3/results/wave18_foundation_rescue/`.
 - Decision: strict foundation-model plus real-perturbation rescue candidate set
   is empty. Geneformer/State evidence is retained as veto/triage only.
 
@@ -1760,7 +1760,7 @@ Planned dispatch:
 Wave19-C hostile critique returned and was accepted as a hard gate.
 
 - Agent: `019e6801-eab2-7d43-bb3c-49e2d3370bf6`.
-- Report: `subagents_v3/wave19_hostile_critique.md`.
+- Report: `phases/v3/subagents/wave19_hostile_critique.md`.
 - Bottom line accepted: the V3 package currently supports a recurrent
   autoimmune IFN/APC/lysosomal tissue state, not a therapeutic target.
 - Adopted promotion gates: residual specificity beyond IFN/APC/myeloid density,
@@ -1773,7 +1773,7 @@ Wave19-C hostile critique returned and was accepted as a hard gate.
 Orchestrator-side controller triage executed.
 
 - Script: `scripts/v3_wave19_orchestrator_controller_triage.py`.
-- Output: `results_v3/wave19_orchestrator_controller_triage/`.
+- Output: `phases/v3/results/wave19_orchestrator_controller_triage/`.
 - Result: 69 controller candidates screened; `66 DEMOTE_LOCAL_TRIAGE`, `3
   PARK_FOR_WORKER_REVIEW`, `0 FOLLOW_UP_NOW`.
 - Parked stress-test candidates only: `LIPA`, `CD274`, `NPC1`.
@@ -1802,9 +1802,9 @@ Planned dispatch:
 Wave19-B lysosomal/lipid-controller audit returned and was vetted.
 
 - Agent: `019e6801-b632-7422-951b-b438f4b7661e`.
-- Report: `subagents_v3/wave19_lysosomal_controller.md`.
+- Report: `phases/v3/subagents/wave19_lysosomal_controller.md`.
 - Script/output: `scripts/v3_wave19_lysosomal_controller.py`,
-  `results_v3/wave19_lysosomal_controller/`.
+  `phases/v3/results/wave19_lysosomal_controller/`.
 - Validation: `summary.json` reports 35 candidates, 12 routes, and
   `promoted_go_routes: []`; route summary and candidate table agree.
 - Integrated call: no upstream lysosomal/lipid controller is promotable.
@@ -1820,9 +1820,9 @@ Wave19-B lysosomal/lipid-controller audit returned and was vetted.
 Wave19-A tolerogenic/checkpoint-controller audit returned and was vetted.
 
 - Agent: `019e6801-b5eb-7861-9bcb-2d385229386a`.
-- Report: `subagents_v3/wave19_tolerogenic_checkpoint.md`.
+- Report: `phases/v3/subagents/wave19_tolerogenic_checkpoint.md`.
 - Script/output: `scripts/v3_wave19_tolerogenic_checkpoint.py`,
-  `results_v3/wave19_tolerogenic_checkpoint/`.
+  `phases/v3/results/wave19_tolerogenic_checkpoint/`.
 - Validation: reran the script locally; `summary.json` reports 29 candidates,
   `PROMOTE: 0`, `PARK: 5`, `PARK_LOW: 6`, `NO_GO: 18`.
 - Integrated call: no tolerogenic or inhibitory myeloid checkpoint controller
@@ -1839,9 +1839,9 @@ Wave20-A unrestricted survivor stress test returned and was vetted.
 - Agent: `019e6809-cdca-7821-bbba-dd1a1d6668ef`.
 - Note: an earlier poll used a mistyped agent path ending in `bb3c`; that
   `not_found` was a polling error, not a subagent failure.
-- Report: `subagents_v3/wave20_unrestricted_survivor.md`.
+- Report: `phases/v3/subagents/wave20_unrestricted_survivor.md`.
 - Script/output: `scripts/v3_wave20_unrestricted_survivor.py`,
-  `results_v3/wave20_unrestricted_survivor/`.
+  `phases/v3/results/wave20_unrestricted_survivor/`.
 - Validation: reran the script locally; `summary.json` reports
   `promoted_targets: []` and `least_bad_comparator: SNX10`.
 - Integrated call: no unrestricted survivor is promotable. `SNX10` is only a
@@ -1855,9 +1855,9 @@ Wave20-A unrestricted survivor stress test returned and was vetted.
 Wave20-B genetic/druggable alternate-axis scout returned and was vetted.
 
 - Agent: `019e6809-cdea-7613-acf7-1bf574c45230`.
-- Report: `subagents_v3/wave20_genetic_druggable_altaxis.md`.
+- Report: `phases/v3/subagents/wave20_genetic_druggable_altaxis.md`.
 - Script/output: `scripts/v3_wave20_genetic_druggable_altaxis.py`,
-  `results_v3/wave20_genetic_druggable_altaxis/`.
+  `phases/v3/results/wave20_genetic_druggable_altaxis/`.
 - Validation: reran the script locally; it completed with `promoted_count: 0`
   after a non-fatal pandas mixed-type warning from a local TSV input.
 - Integrated call: no alternate genetically anchored and druggable axis outside
@@ -1909,7 +1909,7 @@ Wave21 dispatch completed after one spawn retry.
 Orchestrator-side Wave21 residual-druggability scan completed.
 
 - Script/output: `scripts/v3_wave21_residual_druggability_scan.py`,
-  `results_v3/wave21_residual_druggability_scan/`.
+  `phases/v3/results/wave21_residual_druggability_scan/`.
 - Scope: 271 residual candidates, top 80 API-scanned against ChEMBL and
   UniProt with cached raw responses.
 - Result: `0 FOLLOW_UP_NOW`, `0 PARK_PRIOR_ART_REVIEW`,
@@ -1925,9 +1925,9 @@ Orchestrator-side Wave21 residual-druggability scan completed.
 Wave21-A residual-druggability worker returned and was vetted.
 
 - Agent: `019e681b-d8c0-70b0-b47d-fa09ae1bd75b` (`Pauli`).
-- Report: `subagents_v3/wave21_residual_druggability_scan.md`.
+- Report: `phases/v3/subagents/wave21_residual_druggability_scan.md`.
 - Script/output: `scripts/v3_wave21_residual_druggability_scan.py`,
-  `results_v3/wave21_residual_druggability_scan/`.
+  `phases/v3/results/wave21_residual_druggability_scan/`.
 - Important integration note: the worker refined and superseded the earlier
   orchestrator-side rough Wave21 script/output in the same assigned write
   scope. The retained output is the worker's stricter 26-candidate screen, while
@@ -1959,8 +1959,8 @@ Active-time accounting corrected per user instruction.
 Wave21-B hostile prior-art/modality review returned and was vetted.
 
 - Agent: `019e681c-23d7-75c1-aefc-51cf7068cd1e` (`Hooke`).
-- Report: `subagents_v3/wave21_residual_candidate_prior_art.md`.
-- Output: `results_v3/wave21_residual_candidate_prior_art/`.
+- Report: `phases/v3/subagents/wave21_residual_candidate_prior_art.md`.
+- Output: `phases/v3/results/wave21_residual_candidate_prior_art/`.
 - Coverage: 18 candidates, 126 exact source-query rows, PubMed, Europe PMC,
   Europe PMC preprints, ClinicalTrials.gov, Google Patents, ChEMBL, and UniProt
   with raw captures under `raw_api/`.
@@ -1977,8 +1977,8 @@ Wave21-B hostile prior-art/modality review returned and was vetted.
 Wave22 orchestrator-side SQLE fail-fast completed and vetted.
 
 - Script: `scripts/v3_wave22_sqle_failfast.py`.
-- Output: `results_v3/wave22_sqle_failfast/`.
-- Runner entry added: `run_v3_analysis.sh`.
+- Output: `phases/v3/results/wave22_sqle_failfast/`.
+- Runner entry added: `scripts/entrypoints/run_v3_analysis.sh`.
 - Result: `NO_GO_SQLE_FAILFAST`.
 - Failed gates: local gate, MS anchor, cross-disease residual specificity,
   foundation-plus-real perturbation alignment, real perturbation alignment,
@@ -2018,7 +2018,7 @@ Wave23 dispatch completed.
 Orchestrator-side Wave23 route triage completed.
 
 - Script/output: `scripts/v3_wave23_orchestrator_nonexpression_axis_triage.py`,
-  `results_v3/wave23_orchestrator_nonexpression_axis_triage/`.
+  `phases/v3/results/wave23_orchestrator_nonexpression_axis_triage/`.
 - Initial treatment-response gate was too permissive; I corrected it to count
   corrected baseline associations, then reran the script.
 - Corrected result: `2 PARK_REVIEW`, `14 NO_GO`, `0 GO_REVIEW`.
@@ -2039,16 +2039,16 @@ Wave23-D hostile critique dispatched.
 - Agent: `019e6838-43cf-7b42-8f41-06e963367ec6` (`Carver`).
 - Scope: attack GPR65, PTPN2 restoration, and the baseline module-response
   biomarker route; identify neglected non-redundant routes.
-- Write scope: `subagents_v3/wave23_hostile_critique.md`.
+- Write scope: `phases/v3/subagents/wave23_hostile_critique.md`.
 
 ## 2026-05-27 07:18 UTC
 
 Wave23-B genetics-restoration modality worker returned and was vetted.
 
 - Agent: `019e6831-6a97-7d72-8da5-5403fbc8ee27` (`Wegener`).
-- Report: `subagents_v3/wave23_genetics_restoration_modality.md`.
+- Report: `phases/v3/subagents/wave23_genetics_restoration_modality.md`.
 - Script/output: `scripts/v3_wave23_genetics_restoration_modality.py`,
-  `results_v3/wave23_genetics_restoration_modality/`.
+  `phases/v3/results/wave23_genetics_restoration_modality/`.
 - Validation: `py_compile` passed locally.
 - Result: `0 GO`, `2 PARK`, `12 NO_GO`.
 - Parked by worker: `GPR65`, `IL10`.
@@ -2061,7 +2061,7 @@ Wave23-B genetics-restoration modality worker returned and was vetted.
 Wave24 perturbation-first L1000 recurrent reversal triage completed.
 
 - Script/output: `scripts/v3_wave24_l1000_recurrent_reversal_triage.py`,
-  `results_v3/wave24_l1000_recurrent_reversal/`.
+  `phases/v3/results/wave24_l1000_recurrent_reversal/`.
 - Result: no repurposing candidate promoted.
 - 123 grouped compounds were triaged from 144 opposite-mode L1000 rows.
 - `0 PARK_REVIEW`; 61 unknown-target/MOA compounds are parked only for
@@ -2076,7 +2076,7 @@ Wave24 perturbation-first L1000 recurrent reversal triage completed.
 Wave23-D hostile critique returned and was vetted.
 
 - Agent: `019e6838-43cf-7b42-8f41-06e963367ec6` (`Carver`).
-- Report: `subagents_v3/wave23_hostile_critique.md`.
+- Report: `phases/v3/subagents/wave23_hostile_critique.md`.
 - Changed files: report only.
 - Accepted critique: route labels are not enough; `GPR65`, `PTPN2`, and the
   baseline biomarker branch remain weak under promotion-grade gates.
@@ -2089,9 +2089,9 @@ Wave23-D hostile critique returned and was vetted.
 Wave23-A metabolite/barrier circuit worker returned and was vetted.
 
 - Agent: `019e6831-6a5d-7902-b7fc-ffbeeae78e91` (`Noether`).
-- Report: `subagents_v3/wave23_metabolite_barrier_circuit.md`.
+- Report: `phases/v3/subagents/wave23_metabolite_barrier_circuit.md`.
 - Script/output: `scripts/v3_wave23_metabolite_barrier_circuit.py`,
-  `results_v3/wave23_metabolite_barrier_circuit/`.
+  `phases/v3/results/wave23_metabolite_barrier_circuit/`.
 - Worker-reported validation: script run and `py_compile` passed.
 - Result: `7 NO_GO`, `0 PARK`, `0 GO`.
 - Integrated call: no metabolite/barrier route is promoted. AHR/tryptophan is
@@ -2105,8 +2105,8 @@ Wave25 orchestrator-side target-resolved genetics-to-module proxy audit
 completed.
 
 - Script/output: `scripts/v3_wave25_causal_genetics_module_proxy.py`,
-  `results_v3/wave25_causal_genetics_module_proxy/`.
-- Runner entry: `run_v3_analysis.sh`.
+  `phases/v3/results/wave25_causal_genetics_module_proxy/`.
+- Runner entry: `scripts/entrypoints/run_v3_analysis.sh`.
 - Result: no target-resolved causal genetics claim is available.
 - Counts: `206` candidates; `0` candidates with proper coloc/MR feasibility;
   `1 COLOC_NEEDED_NOT_CLAIMABLE` (`PTPN2`), `14 MODULE_MARKER_NOT_GENETICALLY_ANCHORED`,
@@ -2122,8 +2122,8 @@ completed.
 Wave26 strict treatment-response biomarker audit completed.
 
 - Script/output: `scripts/v3_wave26_treatment_response_strict_audit.py`,
-  `results_v3/wave26_treatment_response_strict_audit/`.
-- Runner entry: `run_v3_analysis.sh`.
+  `phases/v3/results/wave26_treatment_response_strict_audit/`.
+- Runner entry: `scripts/entrypoints/run_v3_analysis.sh`.
 - Purpose: reconcile Wave18 no-corrected-predictor conclusion with the Wave23-C
   `GO` row for `GSE138746` anti-TNF / adalimumab `CD4_T_cell` `ifn_apc`.
 - Result: the prior `GO` is demoted. It had within-scope FDR 0.068654 but
@@ -2137,8 +2137,8 @@ Wave26 strict treatment-response biomarker audit completed.
 Wave27 L1000 unknown-BRD deconvolution completed.
 
 - Script/output: `scripts/v3_wave27_l1000_unknown_deconvolution.py`,
-  `results_v3/wave27_l1000_unknown_deconvolution/`.
-- Runner entry: `run_v3_analysis.sh`.
+  `phases/v3/results/wave27_l1000_unknown_deconvolution/`.
+- Runner entry: `scripts/entrypoints/run_v3_analysis.sh`.
 - First run failed on duplicate `cmap_name` columns after merging LINCS
   metadata; fixed and rerun.
 - Result: 62 unknown parked compounds audited; 61 `NO_GO`, 1
@@ -2162,8 +2162,8 @@ Outstanding Wave23-C treatment-response subagent closed.
 Wave28 orchestrator-side target-first rescue audit completed.
 
 - Script/output: `scripts/v3_wave28_target_first_rescue.py`,
-  `results_v3/wave28_target_first_rescue/`.
-- Runner entry: `run_v3_analysis.sh`.
+  `phases/v3/results/wave28_target_first_rescue/`.
+- Runner entry: `scripts/entrypoints/run_v3_analysis.sh`.
 - First pass exposed a ClinicalTrials.gov count parser issue; fixed by adding
   target-specific `query.term`, autoimmune `query.cond`, and `countTotal=true`,
   then reran.
@@ -2184,8 +2184,8 @@ Wave28 orchestrator-side target-first rescue audit completed.
 Wave29 PTPN2 restoration model completed.
 
 - Script/output: `scripts/v3_wave29_ptpn2_restoration_model.py`,
-  `results_v3/wave29_ptpn2_restoration_model/`.
-- Runner entry: `run_v3_analysis.sh`.
+  `phases/v3/results/wave29_ptpn2_restoration_model/`.
+- Runner entry: `scripts/entrypoints/run_v3_analysis.sh`.
 - Orchestration note: the initial 750-sample-per-condition sweep was too slow
   and was killed. The final run uses 125 samples per condition; this downscope
   is documented in the script and notebook.
@@ -2202,7 +2202,7 @@ Wave29 PTPN2 restoration model completed.
 Wave30 upstream niche-driver audit completed and reformulated.
 
 - Added `scripts/v3_wave30_niche_driver_audit.py`; output:
-  `results_v3/wave30_niche_driver_audit/`.
+  `phases/v3/results/wave30_niche_driver_audit/`.
 - First run was rejected by the orchestrator because broad `ifn_apc` module
   breadth was incorrectly allowed to count as evidence for every annotated
   ligand/receptor axis. This overpromoted OSM/OSMR, CD40/CD40LG,
@@ -2226,8 +2226,8 @@ Wave30 upstream niche-driver audit completed and reformulated.
 Wave31 dynamic transition-controller audit completed.
 
 - Added `scripts/v3_wave31_dynamic_transition_controller_audit.py`; output:
-  `results_v3/wave31_dynamic_transition_controller_audit/`.
-- Added the script to `run_v3_analysis.sh`.
+  `phases/v3/results/wave31_dynamic_transition_controller_audit/`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 - Call counts: `17` candidates audited; `0 GO_TO_HOSTILE_NOVELTY_REVIEW`;
   `1 PARK_STRONG_PERTURBATION_NO_DRUGGABLE_HANDLE`;
   `2 PARK_SELECTIVE_PERTURBATION_BUT_TRANSLATION_BLOCKED`;
@@ -2266,11 +2266,11 @@ Wave32-C prior-art/translation audit integrated.
 
 - Added and ran `scripts/v3_wave32c_resolution_prior_art_audit.py`.
 - Output:
-  `results_v3/wave32c_resolution_prior_art_audit/`.
+  `phases/v3/results/wave32c_resolution_prior_art_audit/`.
 - Human-curated audit:
   `WAVE32C_PRIOR_ART_AUDIT.md`.
 - Ranked TSV:
-  `results_v3/wave32c_resolution_prior_art_audit/route_feasibility_ranked.tsv`.
+  `phases/v3/results/wave32c_resolution_prior_art_audit/route_feasibility_ranked.tsv`.
 
 Vetting notes:
 
@@ -2301,8 +2301,8 @@ Integration decision:
 Wave32 downstream-resolution local audit completed.
 
 - Added `scripts/v3_wave32_resolution_rescue_audit.py`; output:
-  `results_v3/wave32_resolution_rescue_audit/`.
-- Added the script to `run_v3_analysis.sh`.
+  `phases/v3/results/wave32_resolution_rescue_audit/`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 - Call counts: `14` routes audited; `0 GO_TO_HOSTILE_NOVELTY_REVIEW`;
   `1 PARK_RESOLUTION_BIOLOGY_NO_CAUSAL_ANCHOR`;
   `1 NO_GO_RESOLUTION_PRIOR_ART_BLOCKED`;
@@ -2358,7 +2358,7 @@ a testable therapeutic program?
 
 Wave32-D / Hour-9 hostile critique returned and integrated.
 
-- Report: `subagents_v3/wave32d_hour9_hostile_critique.md`.
+- Report: `phases/v3/subagents/wave32d_hour9_hostile_critique.md`.
 - Verdict: reject the lipid-lysosomal/IFN-HLA-II module as the active
   therapeutic-discovery route under the V3 DoD; keep it only as state scaffold,
   comparator, or biomarker hypothesis.
@@ -2375,8 +2375,8 @@ Wave33 local CD226/tolerance-costimulation pivot audit completed before a new
 subagent wave.
 
 - Added `scripts/v3_wave33_tolerance_costimulation_audit.py` to
-  `run_v3_analysis.sh` and ran it.
-- Output: `results_v3/wave33_tolerance_costimulation_audit/`.
+  `scripts/entrypoints/run_v3_analysis.sh` and ran it.
+- Output: `phases/v3/results/wave33_tolerance_costimulation_audit/`.
 - Result: `13` tolerance/costimulation axes audited; `0` promoted.
 - Calls: `11 NO_GO_TOLERANCE_PRIOR_ART_BLOCKED`,
   `2 NO_GO_TOLERANCE_AXIS`.
@@ -2403,8 +2403,8 @@ Wave34 pivot fleet dispatch:
 
 Wave32-B perturbation/dataset availability scan completed locally.
 
-- Report: `subagents_v3/wave32b_perturbation_dataset_availability_scan.md`.
-- Matrix: `results_v3/wave32b_dataset_availability_scan/candidate_dataset_matrix.tsv`.
+- Report: `phases/v3/subagents/wave32b_perturbation_dataset_availability_scan.md`.
+- Matrix: `phases/v3/results/wave32b_dataset_availability_scan/candidate_dataset_matrix.tsv`.
 - Scope guard: this is a dataset availability and recommended-analysis result,
   not a therapeutic finding.
 - `32` rows catalogued; `15` primary or primary-screen candidate datasets.
@@ -2425,15 +2425,15 @@ Wave34-A genetics-first target rescue was executed locally in the shared repo
 context after the external limit reset.
 
 - Script: `scripts/v3_wave34a_genetics_first_target_rescue.py`.
-- Report: `subagents_v3/wave34a_genetics_first_target_rescue.md`.
-- Results: `results_v3/wave34a_genetics_first_target_rescue/`.
-- Standard runner updated: `run_v3_analysis.sh`.
+- Report: `phases/v3/subagents/wave34a_genetics_first_target_rescue.md`.
+- Results: `phases/v3/results/wave34a_genetics_first_target_rescue/`.
+- Standard runner updated: `scripts/entrypoints/run_v3_analysis.sh`.
 - Scope: broad autoimmune genetics-first scan for druggable candidates missed
   by expression-first screens; GWAS Catalog mapped-gene overlap treated as
   weak unless backed by local credible-set/eQTL/coloc-like evidence.
 - Scale: `23` candidate genes, `15,875` local GWAS Catalog autoimmune rows,
   ChEMBL/GTEx/Europe PMC/ClinicalTrials.gov public API lookups cached under
-  `results_v3/wave34a_genetics_first_target_rescue/raw_api/`.
+  `phases/v3/results/wave34a_genetics_first_target_rescue/raw_api/`.
 - Result: no candidate promoted. Parked: `IRF5`, `IL10`, `PTPN22`, `FAP`,
   `GPR65`, `CCR6`, `TNFRSF14`. Demoted: all others including `CD226`.
 - Integration decision: do not claim a genetics-first target. The strict
@@ -2470,13 +2470,13 @@ Wave36 dispatch:
 
 Wave36-A and Wave36-B returned and were integrated.
 
-- Wave36-B report: `subagents_v3/wave36b_hostile_critique.md`.
+- Wave36-B report: `phases/v3/subagents/wave36b_hostile_critique.md`.
 - Wave36-B verdict: pivot away from active resolution/efferocytosis target
   discovery; keep the branch only as biomarker/readout panel and comparator.
-- Wave36-A report: `subagents_v3/wave36a_gene_level_controller_rescue.md`.
+- Wave36-A report: `phases/v3/subagents/wave36a_gene_level_controller_rescue.md`.
 - Wave36-A script/results:
   `scripts/v3_wave36a_gene_level_controller_rescue.py`,
-  `results_v3/wave36a_gene_level_controller_rescue/`.
+  `phases/v3/results/wave36a_gene_level_controller_rescue/`.
 - Wave36-A result: 9 submodule-gate contexts and 13 gene-rescue-shaped contexts
   found under permissive scans, but 0 promotion-ready target routes.
 
@@ -2530,7 +2530,7 @@ Wave39 and Wave40 integrated.
 Wave39 local scan:
 
 - Script: `scripts/v3_wave39_surfaceome_rescue_after_resolution_pivot.py`.
-- Results: `results_v3/wave39_surfaceome_rescue_after_resolution_pivot/`.
+- Results: `phases/v3/results/wave39_surfaceome_rescue_after_resolution_pivot/`.
 - Scope: broad h5ad recurrence pool filtered through UniProt accessibility,
   ChEMBL target/activity, Europe PMC/ClinicalTrials.gov saturation, prior V3
   demotion flags, and MS-anchor/direction gates.
@@ -2545,7 +2545,7 @@ Wave39 local scan:
 
 Wave39-B critique:
 
-- Report: `subagents_v3/wave39b_accessibility_prior_art_critique.md`.
+- Report: `phases/v3/subagents/wave39b_accessibility_prior_art_critique.md`.
 - Accepted verdict: the accessibility-first route is a hostile filter, not a
   finding engine. Accessible candidates require independent target-level
   causal or perturbation evidence before promotion.
@@ -2553,7 +2553,7 @@ Wave39-B critique:
 Wave40 parked candidate fail-fast:
 
 - Script/results: `scripts/v3_wave40_parked_surface_failfast.py`,
-  `results_v3/wave40_parked_surface_failfast/`.
+  `phases/v3/results/wave40_parked_surface_failfast/`.
 - Parked rows tested: `MMP7`, `CD82`, `FXYD5`, `SCD`, `CCL20`, `IL23A`.
 - Outcome: 5 `NO_GO_PARKED_SURFACE_FAILFAST`; `FXYD5`
   `PARK_ONLY_IF_NEW_PERTURBATION`.
@@ -2609,7 +2609,7 @@ Integration rule:
 Wave42 integrated:
 
 - Local script: `scripts/v3_wave42_fads_lipid_desaturation_axis.py`.
-- Results: `results_v3/wave42_fads_lipid_desaturation_axis/`.
+- Results: `phases/v3/results/wave42_fads_lipid_desaturation_axis/`.
 - Bugfix: ClinicalTrials.gov empty-result parsing corrected; `AMG 786` and
   `D5D inhibitor` queries added.
 - Local conclusion: `FADS1/FADS2` is not promotable. The signal is broad but
@@ -2629,7 +2629,7 @@ Integration decision:
 Wave43 integrated:
 
 - Script: `scripts/v3_wave43_genetic_druggable_failfast.py`.
-- Results: `results_v3/wave43_genetic_druggable_failfast/`.
+- Results: `phases/v3/results/wave43_genetic_druggable_failfast/`.
 - Scope: the four Wave34 `PARK_GENETIC_DRUGGABLE_NEEDS_CELL_STATE` rows:
   `FADS1`, `TYK2`, `NOD2`, and `JAK2`.
 - Result: 0 promotions; calls were one `NO_GO_ALREADY_DEMOTED_WAVE42`, two
@@ -2648,7 +2648,7 @@ Integration decision:
 Wave44 integrated:
 
 - Script: `scripts/v3_wave44_cfb_complement_stratification_audit.py`.
-- Results: `results_v3/wave44_cfb_complement_stratification_audit/`.
+- Results: `phases/v3/results/wave44_cfb_complement_stratification_audit/`.
 - Patch: fixed Wave21 prior-art join from `gene` to `candidate`.
 - Result: `NO_GO_COMPLEMENT_STRATIFICATION_PRIOR_ART_BLOCKED`.
 
@@ -2665,7 +2665,7 @@ Integration decision:
 Wave45 integrated:
 
 - Script: `scripts/v3_wave45_regulatory_controller_audit.py`.
-- Results: `results_v3/wave45_regulatory_controller_audit/`.
+- Results: `phases/v3/results/wave45_regulatory_controller_audit/`.
 - Scope: `TNFAIP3`, `SBNO2`, `SP140`, `GPR65`, `IL10`, `MED16`,
   `CDK8_CDK19_MEDIATOR_KINASE`, and `GSK3B`.
 - Result: 0 promotions.
@@ -2682,9 +2682,9 @@ Integration decision:
 Wave46 integrated:
 
 - Script: `scripts/v3_wave46_central_axis_closure_audit.py`.
-- Results: `results_v3/wave46_central_axis_closure_audit/`.
+- Results: `phases/v3/results/wave46_central_axis_closure_audit/`.
 - Scope: the five central axes from
-  `results_v3/central_and_intervention_candidate_rank.tsv`.
+  `phases/v3/results/central_and_intervention_candidate_rank.tsv`.
 - Result: 0 promotions.
 
 Integration decision:
@@ -2724,11 +2724,11 @@ Wave48-G dispatch plan added:
 Wave47 and local Wave48 integrated:
 
 - Wave47 local map: `scripts/v3_wave47_late_stage_survivor_map.py` and
-  `results_v3/wave47_late_stage_survivor_map/`.
+  `phases/v3/results/wave47_late_stage_survivor_map/`.
 - Wave47 result: 0 promotable late-stage routes; 15 reopen-only routes remain
   but none satisfies the V3 therapeutic gates now.
 - Wave48 local audit: `scripts/v3_wave48_resolution_reopener_audit.py` and
-  `results_v3/wave48_resolution_reopener_audit/`.
+  `phases/v3/results/wave48_resolution_reopener_audit/`.
 - Wave48 result: 0 promotions.
 
 Integration decision:
@@ -2745,7 +2745,7 @@ Integration decision:
 Wave48-G returned and was closed.
 
 - Preserved report:
-  `subagents_v3/wave48g_resolution_reopener_critique.md`.
+  `phases/v3/subagents/wave48g_resolution_reopener_critique.md`.
 - Subagent verdict matched the local audit: no `PROMOTE_CANDIDATE`;
   `FPR2/ANXA1` and receptor-specific `CD300` are only narrow wet-lab
   reopeners.
@@ -2769,7 +2769,7 @@ Wave49-G dispatch plan added:
 Local Wave49 integrated:
 
 - Script: `scripts/v3_wave49_ptpn22_directionality_audit.py`.
-- Results: `results_v3/wave49_ptpn22_directionality_audit/`.
+- Results: `phases/v3/results/wave49_ptpn22_directionality_audit/`.
 - Verdict: `PTPN22` is `NO_GO_BROAD_GENETICS_WITH_UNRESOLVED_DIRECTION_AND_SELECTIVITY`.
 - Pass count: 2/9 gates. The branch has broad genetics and chemical matter,
   but fails target-resolved direction, strict MS anchor, disease-cell
@@ -2782,7 +2782,7 @@ Local Wave49 integrated:
 Wave49-G returned and was closed.
 
 - Preserved report:
-  `subagents_v3/wave49g_ptpn22_directionality_critique.md`.
+  `phases/v3/subagents/wave49g_ptpn22_directionality_critique.md`.
 - Subagent verdict matched the local audit: `PTPN22` is `NO_GO`, not a V3
   therapeutic candidate.
 - The advisory prior-art details strengthened the closure: broad PTPN22
@@ -2803,7 +2803,7 @@ Wave50-G dispatch plan added:
 Local Wave50 integrated:
 
 - Script: `scripts/v3_wave50_gpr65_acid_sensing_gpcr_audit.py`.
-- Results: `results_v3/wave50_gpr65_acid_sensing_gpcr_audit/`.
+- Results: `phases/v3/results/wave50_gpr65_acid_sensing_gpcr_audit/`.
 - Verdict: `GPR65` is `NO_GO_GPR65_PRIOR_ART_AND_LOCAL_CELLSTATE_MISMATCH`.
 - Pass count: 3/8 gates. The branch passes genetics, modality, and clinical
   whitespace but fails target-resolved coloc/MR, strict MS anchor, local
@@ -2815,7 +2815,7 @@ Local Wave50 integrated:
 Local Wave51 integrated:
 
 - Script: `scripts/v3_wave51_reachable_stromal_surface_audit.py`.
-- Results: `results_v3/wave51_reachable_stromal_surface_audit/`.
+- Results: `phases/v3/results/wave51_reachable_stromal_surface_audit/`.
 - Verdicts:
   - `FAP`: `NO_GO_REACHABLE_SURFACE_STROMAL_ROUTE`, 2/8 gates passed.
   - `FXYD5`: `NO_GO_REACHABLE_SURFACE_STROMAL_ROUTE`, 1/8 gates passed.
@@ -2838,7 +2838,7 @@ Hour-12 active-work checkpoint reached.
 Wave50-G returned and was closed.
 
 - Preserved report:
-  `subagents_v3/wave50g_gpr65_critique.md`.
+  `phases/v3/subagents/wave50g_gpr65_critique.md`.
 - Integration decision: local Wave50 and Wave50-G agree on `GPR65` `NO_GO`.
   The branch remains a wet-lab reopener only because genotype-stratified acidic
   pH primary-cell PAM biology could still be useful, but it cannot support a
@@ -2860,7 +2860,7 @@ Local Wave52 started:
 
 Local Wave52 integrated.
 
-- Results: `results_v3/wave52_remaining_mechanistic_reopeners/`.
+- Results: `phases/v3/results/wave52_remaining_mechanistic_reopeners/`.
 - Verdicts:
   - `CCR6_TH17_TRAFFICKING`:
     `NO_GO_CROWDED_TRAFFICKING_NO_COLOC_LOCAL_SUPPORT`, 2/8 gates passed.
@@ -2919,7 +2919,7 @@ Wave53 integrated:
 - Wave53-I `Huygens`: closed; no therapeutic shortlist, one `MFGE8`
   `PARK_EX_VIVO_ONLY` reopener.
 - Local Wave53 results:
-  `results_v3/wave53_perturbation_first_pivot/`.
+  `phases/v3/results/wave53_perturbation_first_pivot/`.
 - Integration decision: no perturbation-first therapeutic claim is available.
   Continue with a focused Wave54 audit of `MFGE8` because it is the only new
   cross-domain mechanism that is not just a relabel of prior closed axes.
@@ -2940,7 +2940,7 @@ Local Wave54 started:
 
 Local Wave54 integrated:
 
-- Results: `results_v3/wave54_mfge8_debris_opsonin_audit/`.
+- Results: `phases/v3/results/wave54_mfge8_debris_opsonin_audit/`.
 - Verdict: `MFGE8` is `PARK_EX_VIVO_ONLY_MFGE8_DEBRIS_OPSONIN`, 3/8 gates
   passed.
 - Integration decision: `MFGE8` is not a V3 therapeutic finding. The branch is
@@ -2964,7 +2964,7 @@ Local Wave55 started:
 
 Local Wave55 integrated:
 
-- Results: `results_v3/wave55_external_genetics_druggability_sweep/`.
+- Results: `phases/v3/results/wave55_external_genetics_druggability_sweep/`.
 - Scope completed: 12 autoimmune diseases queried through live Open Targets
   GraphQL; results joined to local cell-state, perturbation, foundation-model,
   ChEMBL, and Europe PMC summary channels.
@@ -3031,7 +3031,7 @@ Local Wave56 started:
 
 Local Wave56 integrated:
 
-- Results: `results_v3/wave56_sp140_targeted_reopener_audit/`.
+- Results: `phases/v3/results/wave56_sp140_targeted_reopener_audit/`.
 - Verdict: `SP140` is `NO_GO_SP140_TARGETED_AUDIT`, 2/10 gates passed.
 - Integration decision: `SP140` is demoted to marker/reopener status. It
   cannot serve as the V3 therapeutic central node without target-resolved
@@ -3043,7 +3043,7 @@ Local Wave56 integrated:
 Wave56-L returned:
 
 - Agent `019e692d-3631-7362-9c9e-9be11b448a81` (`Averroes`) created
-  `subagents_v3/wave56l_il12a_comparator_prior_art.md`.
+  `phases/v3/subagents/wave56l_il12a_comparator_prior_art.md`.
 - Verdict: `DEMOTE_IL12A_TO_COMPARATOR_CONTROL`.
 - Integration decision: `IL12A` remains a comparator/control. Selective
   IL-12p35 antagonism is biologically real but already covered by DM618 and
@@ -3067,7 +3067,7 @@ Local Wave57 started:
 Wave56-J returned:
 
 - Agent `019e692d-3375-76a1-925c-95168fc6fede` (`Turing`) created
-  `subagents_v3/wave56j_sp140_genetics_prior_art.md`.
+  `phases/v3/subagents/wave56j_sp140_genetics_prior_art.md`.
 - Verdict: demote `SP140` as a V3 therapeutic target nomination.
 - Integration decision:
   - The sidecar agrees with local Wave56 demotion.
@@ -3082,11 +3082,11 @@ Wave56-J returned:
 Wave56-K returned:
 
 - Agent `019e692d-34be-72e1-bf35-24aaa227525f` (`Godel`) created
-  `subagents_v3/wave56k_sp140_perturbation_druggability.md`.
+  `phases/v3/subagents/wave56k_sp140_perturbation_druggability.md`.
 - Support script:
   `scripts/v3_wave56k_sp140_perturbation_druggability_audit.py`.
 - Outputs:
-  `results_v3/wave56k_sp140_perturbation_druggability/`.
+  `phases/v3/results/wave56k_sp140_perturbation_druggability/`.
 - Verdict: `DEMOTE_FOR_V3_PROMOTION; PARK_AS_SP140_HIGH_IBD_TOOL_COMPOUND_AND_STRATIFICATION_ROUTE`.
 - Integration decision:
   - Local Wave56 was too strict in saying no direct perturbation evidence;
@@ -3095,13 +3095,13 @@ Wave56-K returned:
     early IFN/NF-kB macrophage suppression, not a clean lipid-lysosomal module
     rescue; local MS support is null; CNS/lead-like feasibility is weak; and
     direct SP140 inhibition is prior art.
-  - Added the support script to `run_v3_analysis.sh` for reproducibility.
+  - Added the support script to `scripts/entrypoints/run_v3_analysis.sh` for reproducibility.
 
 ## 2026-05-27 11:40 UTC
 
 Local Wave57 integrated:
 
-- Results: `results_v3/wave57_intervention_first_geneformer_screen/`.
+- Results: `phases/v3/results/wave57_intervention_first_geneformer_screen/`.
 - Model: bounded Geneformer V2-104M token-deletion screen using revision
   `04c2b2e84da7c0f385c3f9ad8f3ec24bab6650e5`.
 - Contexts: 11 disease-relevant tissue/cell contexts across IBD, psoriasis,
@@ -3162,7 +3162,7 @@ Local Wave58 started:
 
 Local Wave58 integrated:
 
-- Results: `results_v3/wave58_cxcr2_il7r_targeted_audit/`.
+- Results: `phases/v3/results/wave58_cxcr2_il7r_targeted_audit/`.
 - Verdicts:
   - `CXCR2`: `NO_GO_WAVE58_TARGETED_AUDIT`, 4/9 gates passed.
   - `IL7R`: `NO_GO_WAVE58_TARGETED_AUDIT`, 5/9 gates passed.
@@ -3180,7 +3180,7 @@ Local Wave58 integrated:
 Wave58-O returned:
 
 - Agent `019e693e-23e0-7532-9833-4ddc202b6c7e` (`Meitner`) created
-  `subagents_v3/wave58o_hostile_review_cxcr2_il7r.md`.
+  `phases/v3/subagents/wave58o_hostile_review_cxcr2_il7r.md`.
 - Verdict: close both `CXCR2` and `IL7R` for V3 therapeutic promotion.
 - Integration decision:
   - The hostile review agrees with local Wave58 closure.
@@ -3205,21 +3205,21 @@ Local Wave59 started:
 Wave58 subagent closure:
 
 - Closed Wave58-M `019e693e-220a-7b22-bf91-83afe0f71d6a` (`Curie`).
-  Report: `subagents_v3/wave58m_cxcr2_therapeutic_audit.md`.
+  Report: `phases/v3/subagents/wave58m_cxcr2_therapeutic_audit.md`.
   Integration decision: `CXCR2` closed for V3 promotion.
 - Closed Wave58-N `019e693e-2550-71e3-b0ca-6b333e602558`
   (`Cicero the 2nd`). Report:
-  `subagents_v3/wave58n_il7r_therapeutic_audit.md`.
+  `phases/v3/subagents/wave58n_il7r_therapeutic_audit.md`.
   Integration decision: `IL7R` closed for V3 promotion.
 - Closed Wave58-O `019e693e-23e0-7532-9833-4ddc202b6c7e` (`Meitner`).
-  Report: `subagents_v3/wave58o_hostile_review_cxcr2_il7r.md`.
+  Report: `phases/v3/subagents/wave58o_hostile_review_cxcr2_il7r.md`.
   Integration decision: hostile review supports closure of both branches.
 
 ## 2026-05-27 11:55 UTC
 
 Local Wave59 integrated:
 
-- Results: `results_v3/wave59_lysosomal_sphingolipid_model_reopener_audit/`.
+- Results: `phases/v3/results/wave59_lysosomal_sphingolipid_model_reopener_audit/`.
 - Verdict: no lysosomal/sphingolipid single-enzyme target is promotable.
 - Key decision rows:
   - `GALC`: 4/10 gates; genetic/local hints, but failed model support,
@@ -3278,7 +3278,7 @@ Local non-overlapping work:
 Local Wave60 integrated:
 
 - Script: `scripts/v3_wave60_circuit_coupling_pivot.py`.
-- Outputs: `results_v3/wave60_circuit_coupling_pivot/`.
+- Outputs: `phases/v3/results/wave60_circuit_coupling_pivot/`.
 - Result: 0 full reopeners, 63 parked expression-coupling hypotheses.
 - Interpretation: donor-level circuit coupling produces biologically
   suggestive rows (`GPNMB`, `OSMR`, `C15ORF48`, complement/C1q), but no row
@@ -3297,7 +3297,7 @@ Integration decision:
 Wave60-R returned and was closed:
 
 - Agent `019e694f-6dcc-7e33-a542-51547e080e16` (`Newton the 2nd`).
-- Report: `subagents_v3/wave60r_circuit_pivot_hostile_review.md`.
+- Report: `phases/v3/subagents/wave60r_circuit_pivot_hostile_review.md`.
 - Verdict: `NO_GO` for promoting current donor-level circuit coupling.
 
 Integration decision:
@@ -3361,7 +3361,7 @@ Wave60-P returned and was closed:
 
 - Agent `019e694f-6d85-7521-91c4-f8561900121e`
   (`Galileo the 2nd`).
-- Report: `subagents_v3/wave60p_c15orf48_mocci_circuit_audit.md`.
+- Report: `phases/v3/subagents/wave60p_c15orf48_mocci_circuit_audit.md`.
 - Verdict: `C15ORF48`/MOCCI is assay-only.
 
 Integration decision:
@@ -3381,7 +3381,7 @@ Wave60-Q returned and was closed:
 
 - Agent `019e694f-6db2-7cb3-aa28-98cabf336adb`
   (`James the 2nd`).
-- Report: `subagents_v3/wave60q_osm_osmr_circuit_audit.md`.
+- Report: `phases/v3/subagents/wave60q_osm_osmr_circuit_audit.md`.
 - Verdict: `OSM`/`OSMR`/`IL6ST` is a comparator and possible IBD OSM-high
   stratification axis, not a V3 therapeutic target.
 
@@ -3410,7 +3410,7 @@ Wave61-U returned and was closed:
 
 - Agent `019e695a-0848-7cb0-8b1f-9fe41fbecc5a`
   (`Darwin the 2nd`).
-- Report: `subagents_v3/wave61u_hostile_review_perturbation_first.md`.
+- Report: `phases/v3/subagents/wave61u_hostile_review_perturbation_first.md`.
 - Verdict: abandon perturbation-first as a V3 finding route under current
   evidence; keep it as hypothesis-generation only.
 
@@ -3425,7 +3425,7 @@ Integration decision:
 
 Local Wave61 guardrail scorer rerun completed:
 
-- Outputs: `results_v3/wave61_perturbation_first_guardrail/`.
+- Outputs: `phases/v3/results/wave61_perturbation_first_guardrail/`.
 - Evidence rows: 395.
 - Direct perturbation rows: 186.
 - L1000 rows: 180.
@@ -3464,7 +3464,7 @@ Wave61-S returned and was closed:
 
 - Agent `019e695a-06f6-7f02-9c29-cd1ecf93455a`
   (`Hegel the 2nd`).
-- Report: `subagents_v3/wave61s_intervention_mining.md`.
+- Report: `phases/v3/subagents/wave61s_intervention_mining.md`.
 - Verdict: no intervention candidate earns promotion.
 
 Integration decision:
@@ -3513,9 +3513,9 @@ Wave62 first local script run failed:
 Wave62 local target-resolution rerun completed after stricter gating:
 
 - Script: `scripts/v3_wave62_opentargets_target_resolution.py`.
-- Runner entry: `run_v3_analysis.sh`.
+- Runner entry: `scripts/entrypoints/run_v3_analysis.sh`.
 - Output directory:
-  `results_v3/wave62_opentargets_target_resolution/`.
+  `phases/v3/results/wave62_opentargets_target_resolution/`.
 
 Counts:
 
@@ -3549,7 +3549,7 @@ Wave62-V returned and was vetted:
 
 - Agent: `019e6967-377f-7582-a3fd-e31187f31749`
   (`Planck the 2nd`).
-- Report: `subagents_v3/wave62v_opentargets_target_resolution.md`.
+- Report: `phases/v3/subagents/wave62v_opentargets_target_resolution.md`.
 - File length: 196 lines.
 - ASCII check: passed.
 
@@ -3607,7 +3607,7 @@ Wave63-Y returned and was accepted:
 
 - Agent: `019e6976-502a-7600-9b8f-9c13302706b5`
   (`Fermat the 2nd`).
-- Report: `subagents_v3/wave63y_broad_genetics_benchmark.md`.
+- Report: `phases/v3/subagents/wave63y_broad_genetics_benchmark.md`.
 - Verdict: no promotion.
 
 Accepted integration:
@@ -3623,7 +3623,7 @@ Wave63-Z returned and was accepted:
 
 - Agent: `019e6976-5187-78c1-ba4a-4f8dd115a89b`
   (`Pascal the 2nd`).
-- Report: `subagents_v3/wave63z_transition_controller_hostile.md`.
+- Report: `phases/v3/subagents/wave63z_transition_controller_hostile.md`.
 - Verdict: no transition-controller candidate should be promoted.
 
 Accepted methodological corrections:
@@ -3648,7 +3648,7 @@ Wave63-X returned and was accepted:
 
 - Agent: `019e6976-4ee2-72a3-a4ad-19f7a330d34a`
   (`Beauvoir the 2nd`).
-- Report: `subagents_v3/wave63x_sp140_topoisomerase_transfer.md`.
+- Report: `phases/v3/subagents/wave63x_sp140_topoisomerase_transfer.md`.
 - Verdict:
   `DEMOTE_FOR_V3_PROMOTION; PARK_AS_CROHN_SP140_LOF_STRATIFICATION_AND_MECHANISTIC_COMPARATOR`.
 
@@ -3733,13 +3733,13 @@ Wave64 agents returned and were vetted:
 
 - Wave64-A `019e6981-dfdf-7473-9a66-791235909312`
   (`Euclid the 2nd`): accepted. Report:
-  `subagents_v3/wave64a_perturbation_dataset_scout.md`.
+  `phases/v3/subagents/wave64a_perturbation_dataset_scout.md`.
 - Wave64-B `019e6981-e120-7ae1-b71d-4a64d4ddcd81`
   (`Dewey the 2nd`): accepted. Report:
-  `subagents_v3/wave64b_nonexpression_modality_scout.md`.
+  `phases/v3/subagents/wave64b_nonexpression_modality_scout.md`.
 - Wave64-C `019e6982-355f-7f70-b8ce-a88780102d2a`
   (`Bohr the 2nd`): accepted. Report:
-  `subagents_v3/wave64c_hostile_perturbation_gate.md`.
+  `phases/v3/subagents/wave64c_hostile_perturbation_gate.md`.
 
 Vetting:
 
@@ -3770,7 +3770,7 @@ Artifacts:
 
 - Script: `scripts/v3_wave65_gse198520_ra_synovium_antitnf_audit.py`.
 - Outputs:
-  `results_v3/wave65_gse198520_ra_synovium_antitnf_audit/`.
+  `phases/v3/results/wave65_gse198520_ra_synovium_antitnf_audit/`.
 
 Integration decision:
 
@@ -3821,7 +3821,7 @@ Wave66 local metabolomics branch completed and both Wave66 sidecars returned.
 Local result:
 
 - `scripts/v3_wave66_metabolomics_class_convergence.py`.
-- Outputs: `results_v3/wave66_metabolomics_class_convergence/`.
+- Outputs: `phases/v3/results/wave66_metabolomics_class_convergence/`.
 - No biochemical class was promoted.
 - Ceramide/glycosphingolipid classes are weak orthogonal hints but not a target
   nomination.
@@ -3830,13 +3830,13 @@ Sidecar vetting:
 
 - Wave66-A `019e6995-4cbc-7ce1-b896-53d41f009798`
   (`Kierkegaard the 2nd`): accepted as an access scout. Report:
-  `subagents_v3/wave66a_metabolomics_access_scout.md`.
+  `phases/v3/subagents/wave66a_metabolomics_access_scout.md`.
   - It confirmed no-auth access for the main Metabolomics Workbench studies.
   - It corrected the TEDDY route: use `untarg_data`, but `cc` labels remain
     unresolved without a data dictionary. TEDDY therefore remains conditional.
 - Wave66-B `019e6995-4ea2-7403-9aad-c247e198c282`
   (`Boyle the 2nd`): accepted as a feasibility scout. Report:
-  `subagents_v3/wave66b_gse282122_feasibility.md`.
+  `phases/v3/subagents/wave66b_gse282122_feasibility.md`.
   - It identified Zenodo record `14007626`, `myeloid_final.h5ad`, and
     `paired_sample_list.csv` as the feasible path for `GSE282122`.
   - GEO-only route is demoted because it lacks integrated myeloid annotations.
@@ -3856,7 +3856,7 @@ Wave67 local `GSE282122` myeloid pseudobulk analysis completed.
 Artifacts:
 
 - Script: `scripts/v3_wave67_gse282122_myeloid_pseudobulk.py`.
-- Outputs: `results_v3/wave67_gse282122_myeloid_pseudobulk/`.
+- Outputs: `phases/v3/results/wave67_gse282122_myeloid_pseudobulk/`.
 
 Integration decision:
 
@@ -3875,7 +3875,7 @@ Wave68 local unrestricted gene screen completed and corrected.
 Artifacts:
 
 - Script: `scripts/v3_wave68_gse282122_unrestricted_gene_screen.py`.
-- Outputs: `results_v3/wave68_gse282122_unrestricted_gene_screen/`.
+- Outputs: `phases/v3/results/wave68_gse282122_unrestricted_gene_screen/`.
 
 Integration decision:
 
@@ -3923,24 +3923,24 @@ Accepted sidecar outputs:
 
 - Wave69-A `019e69b8-8918-7773-845d-169f176b050b`
   (`Gibbs the 2nd`): report
-  `subagents_v3/wave69a_parked_gene_controller_triage.md`.
+  `phases/v3/subagents/wave69a_parked_gene_controller_triage.md`.
 - Wave69-B `019e69b8-aa8e-74d2-b3bf-094e6347a546`
   (`Pauli the 2nd`): report
-  `subagents_v3/wave69b_independent_validation_scout.md`, script
+  `phases/v3/subagents/wave69b_independent_validation_scout.md`, script
   `scripts/v3_wave69b_independent_validation_scout.py`, outputs
-  `results_v3/wave69b_independent_validation_scout/`.
+  `phases/v3/results/wave69b_independent_validation_scout/`.
 - Wave69-C `019e69b8-c8ef-7fa2-bf4c-b6eed98906a0`
   (`Carver the 2nd`): report
-  `subagents_v3/wave69c_foundation_model_feasibility.md`.
+  `phases/v3/subagents/wave69c_foundation_model_feasibility.md`.
 
 Local analyses:
 
 - `scripts/v3_wave69_parked_controller_rank.py` added and added to
-  `run_v3_analysis.sh`.
+  `scripts/entrypoints/run_v3_analysis.sh`.
   - First run failed only during report rendering on missing Enrichr columns.
   - Patched Enrichr submission and broad-kinase blockers; final run succeeded.
 - `scripts/v3_wave69d_gse282122_geneformer_remission_centroid.py` added and
-  added to `run_v3_analysis.sh`.
+  added to `scripts/entrypoints/run_v3_analysis.sh`.
   - First run failed only during report rendering because per-context support
     flags were missing.
   - Patched metric annotation; final run succeeded.
@@ -3990,7 +3990,7 @@ Wave70 local matrix completed before sidecar returns.
 Local output:
 
 - `scripts/v3_wave70_fc_ros_resolution_matrix.py`
-- `results_v3/wave70_fc_ros_resolution_matrix/`
+- `phases/v3/results/wave70_fc_ros_resolution_matrix/`
 
 Integration status:
 
@@ -4014,9 +4014,9 @@ Wave70-B computational scout completed.
 
 Output:
 
-- Report: `subagents_v3/wave70b_fc_ros_computational_scout.md`.
+- Report: `phases/v3/subagents/wave70b_fc_ros_computational_scout.md`.
 - Script: `scripts/v3_wave70b_fc_ros_computational_scout.py`.
-- Results: `results_v3/wave70b_fc_ros_computational_scout/`.
+- Results: `phases/v3/results/wave70b_fc_ros_computational_scout/`.
 
 Vetting:
 
@@ -4064,7 +4064,7 @@ Sidecars:
 Local Wave70-C:
 
 - Script: `scripts/v3_wave70c_inhibitory_receptor_geneformer_direction.py`.
-- Output: `results_v3/wave70c_inhibitory_receptor_geneformer_direction/`.
+- Output: `phases/v3/results/wave70c_inhibitory_receptor_geneformer_direction/`.
 - Result: model direction support concentrated on blocked `NCF1`, `FCGR2A`,
   `CYBB`, and `NCF2`; `LILRB2`, `LILRB1`, `LILRB4`, `INPP5D`, `PTPN6`, and
   `SIGLEC10` did not clear the threshold for a real-perturbation reopener.
@@ -4115,7 +4115,7 @@ Wave71 returns and integration.
 Wave71-B:
 
 - Agent `019e69dd-17a8-79b1-b8c2-1e27af831e28` completed.
-- Artifact: `subagents_v3/wave71b_prior_branch_status_synthesis.md`.
+- Artifact: `phases/v3/subagents/wave71b_prior_branch_status_synthesis.md`.
 - Accepted as hostile branch-memory synthesis.
 - Integration decision: do not reopen prior V3 branches from expression
   recurrence, module coupling, mapped-gene genetics, ChEMBL availability, or
@@ -4124,7 +4124,7 @@ Wave71-B:
 Wave71-C:
 
 - Agent `019e69dd-17c5-7920-8d3c-398bfe74efb9` completed.
-- Artifact: `subagents_v3/wave71c_cross_autoimmune_intervention_scout.md`.
+- Artifact: `phases/v3/subagents/wave71c_cross_autoimmune_intervention_scout.md`.
 - Accepted as a scout, not a claim.
 - Key proposal: test biochemical/context-stratified intervention routes outside
   Fc/ROS, especially `NAAA`, `EPHX2`, `GPR183`, and `P2RX7`; keep `MFGE8`,
@@ -4135,8 +4135,8 @@ Wave71-A:
 - Agent `019e69dd-176b-7a82-b4ac-24132f1506f3` completed.
 - Accepted outputs:
   - `scripts/v3_wave71_global_survivor_meta_rank.py`
-  - `results_v3/wave71_global_survivor_meta_rank/`
-  - `subagents_v3/wave71a_global_survivor_meta_rank.md`
+  - `phases/v3/results/wave71_global_survivor_meta_rank/`
+  - `phases/v3/subagents/wave71a_global_survivor_meta_rank.md`
 - Result: no global survivor reopens.
 - Top non-reopening rows: `CD58`, `CARMIL1`, `RAD51B`, `PARK7`, `ADCY3`,
   `FADS1`, `CCDC88B`, `PRR5L`, `YDJC`, `ARID5B`.
@@ -4146,8 +4146,8 @@ Wave71-A:
 Local Wave72:
 
 - Script: `scripts/v3_wave72_lipid_mediator_intervention_scout.py`.
-- Output: `results_v3/wave72_lipid_mediator_intervention_scout/`.
-- Added to `run_v3_analysis.sh`.
+- Output: `phases/v3/results/wave72_lipid_mediator_intervention_scout/`.
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
 - Initial run failed because `pandas.to_markdown()` required optional
   dependency `tabulate`; fixed by adding an internal Markdown-table formatter.
 - Validation:
@@ -4171,8 +4171,8 @@ Convergence checkpoint:
 Wave73 local branch completed and vetted.
 
 - Script: `scripts/v3_wave73_p2rx7_stratification_test.py`.
-- Outputs: `results_v3/wave73_p2rx7_stratification_test/`.
-- Added to `run_v3_analysis.sh`.
+- Outputs: `phases/v3/results/wave73_p2rx7_stratification_test/`.
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
 - Verdict: `PARK_P2RX7_STRATIFICATION_NEEDS_TARGET_LEVEL_DATA`.
 - Integration:
   - accepted as a negative/parked target-resolution result.
@@ -4190,8 +4190,8 @@ Wave73 local branch completed and vetted.
 Wave74 local branch completed and vetted.
 
 - Script: `scripts/v3_wave74_ephx2_direct_ratio_audit.py`.
-- Outputs: `results_v3/wave74_ephx2_direct_ratio_audit/`.
-- Added to `run_v3_analysis.sh`.
+- Outputs: `phases/v3/results/wave74_ephx2_direct_ratio_audit/`.
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
 - Verdict: `NO_GO_EPHX2_DIRECT_RATIO_UNAVAILABLE`.
 - Accepted correction:
   - tightened oxylipin parser after detecting generic `oxo` over-counting.
@@ -4214,13 +4214,13 @@ Launched agents:
 
 - Wave75-A `019e69f9-499b-7741-b3b0-0d634e9f26fc` (`Helmholtz`):
   perturbation-first controller hunt over existing V3 artifacts. Deliverable:
-  `subagents_v3/wave75a_perturbation_first_controller_hunt.md`.
+  `phases/v3/subagents/wave75a_perturbation_first_controller_hunt.md`.
 - Wave75-C `019e69f9-796d-7651-8a46-0be994cf1618` (`Herschel`):
   cross-disease targetability scout for IFN/APC plus lysosomal/APC state.
-  Deliverable: `subagents_v3/wave75c_cross_disease_targetability_scout.md`.
+  Deliverable: `phases/v3/subagents/wave75c_cross_disease_targetability_scout.md`.
 - Wave75-Gamma `019e69f9-9c63-7780-8c89-4014f88e5455` (`Kierkegaard`):
   hostile critique of the pivot away from lipid enzymes toward state-control
-  intervention points. Deliverable: `subagents_v3/wave75g_hostile_critique.md`.
+  intervention points. Deliverable: `phases/v3/subagents/wave75g_hostile_critique.md`.
 
 Local orchestrator task while sidecars run:
 
@@ -4236,8 +4236,8 @@ Local orchestrator task while sidecars run:
 Wave73 local execution and closure.
 
 - Script: `scripts/v3_wave73_p2rx7_stratification_test.py`.
-- Output: `results_v3/wave73_p2rx7_stratification_test/`.
-- Added to `run_v3_analysis.sh`.
+- Output: `phases/v3/results/wave73_p2rx7_stratification_test/`.
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
 - Call: `PARK_P2RX7_STRATIFICATION_NEEDS_TARGET_LEVEL_DATA`.
 
 Integration decision:
@@ -4265,13 +4265,13 @@ Launched agents:
 - Wave74-A `019e69f3-d362-7bb1-a4fd-d1f2086cec2f`
   (`Hypatia the 2nd`): worker for an `EPHX2`/oxylipin specificity audit.
   Ownership: `scripts/v3_wave74_ephx2_oxylipin_specificity.py`,
-  `results_v3/wave74_ephx2_oxylipin_specificity/`,
-  optional `subagents_v3/wave74a_ephx2_oxylipin_specificity.md`.
+  `phases/v3/results/wave74_ephx2_oxylipin_specificity/`,
+  optional `phases/v3/subagents/wave74a_ephx2_oxylipin_specificity.md`.
 - Wave74-B `019e69f4-08fa-7f63-a58b-864a56e9178b`
   (`Mendel the 2nd`): worker for a `GPR183`/oxysterol-niche audit.
   Ownership: `scripts/v3_wave74_gpr183_oxysterol_niche.py`,
-  `results_v3/wave74_gpr183_oxysterol_niche/`,
-  optional `subagents_v3/wave74b_gpr183_oxysterol_niche.md`.
+  `phases/v3/results/wave74_gpr183_oxysterol_niche/`,
+  optional `phases/v3/subagents/wave74b_gpr183_oxysterol_niche.md`.
 - Wave74-C `019e69f4-2afc-7ce0-a520-fa25f4a7f1a6`
   (`Peirce the 2nd`): explorer for hostile prior-art/druggability scouting of
   `EPHX2`, `GPR183`, and `P2RX7`.
@@ -4287,7 +4287,7 @@ Local orchestrator task while sidecars run:
 Wave74-C returned and was vetted.
 
 - Agent `019e69f4-2afc-7ce0-a520-fa25f4a7f1a6` completed.
-- Artifact: `subagents_v3/wave74c_prior_art_druggability_scout.md`.
+- Artifact: `phases/v3/subagents/wave74c_prior_art_druggability_scout.md`.
 - Accepted as a hostile blocker audit.
 
 Subagent calls:
@@ -4323,8 +4323,8 @@ Wave74-B returned and was vetted.
 - Agent `019e69f4-08fa-7f63-a58b-864a56e9178b` completed and closed.
 - Accepted outputs:
   - `scripts/v3_wave74_gpr183_oxysterol_niche.py`
-  - `results_v3/wave74_gpr183_oxysterol_niche/`
-- Added script to `run_v3_analysis.sh`.
+  - `phases/v3/results/wave74_gpr183_oxysterol_niche/`
+- Added script to `scripts/entrypoints/run_v3_analysis.sh`.
 - Validation: `.venv_v3_py312/bin/python -m py_compile
   scripts/v3_wave74_gpr183_oxysterol_niche.py`.
 
@@ -4359,11 +4359,11 @@ Wave74-A returned and was vetted.
 - Agent `019e69f3-d362-7bb1-a4fd-d1f2086cec2f` completed and closed.
 - Accepted outputs:
   - `scripts/v3_wave74_ephx2_oxylipin_specificity.py`
-  - `results_v3/wave74_ephx2_oxylipin_specificity/`
+  - `phases/v3/results/wave74_ephx2_oxylipin_specificity/`
 - Also accepted pre-existing/local direct-ratio audit:
   - `scripts/v3_wave74_ephx2_direct_ratio_audit.py`
-  - `results_v3/wave74_ephx2_direct_ratio_audit/`
-- Added Wave74-A worker script to `run_v3_analysis.sh`.
+  - `phases/v3/results/wave74_ephx2_direct_ratio_audit/`
+- Added Wave74-A worker script to `scripts/entrypoints/run_v3_analysis.sh`.
 - Validation under V3 environment:
   `.venv_v3_py312/bin/python -m py_compile
   scripts/v3_wave74_ephx2_oxylipin_specificity.py
@@ -4424,8 +4424,8 @@ Wave75 `ETS2` local audit and prior-art scout integrated.
 Local audit:
 
 - Script: `scripts/v3_wave75_ets2_macrophage_program_audit.py`.
-- Outputs: `results_v3/wave75_ets2_macrophage_program_audit/`.
-- Added to `run_v3_analysis.sh`.
+- Outputs: `phases/v3/results/wave75_ets2_macrophage_program_audit/`.
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
 - Validation:
   `.venv_v3_py312/bin/python -m py_compile
   scripts/v3_wave75_ets2_macrophage_program_audit.py` and script run.
@@ -4463,7 +4463,7 @@ Local evidence:
 Prior-art scout:
 
 - Agent `019e6a00-3679-7df0-b6d1-6bf1bf30ce0c` completed and closed.
-- Artifact: `subagents_v3/wave75c_ets2_prior_art_directionality.md`.
+- Artifact: `phases/v3/subagents/wave75c_ets2_prior_art_directionality.md`.
 - Call: `PARK_NARROW_DELTA_ONLY`.
 - Hostile conclusion: broad ETS2 inflammatory macrophage biology is already
   published, IBD and AS are directly covered, direct ETS2 is not conventionally
@@ -4482,19 +4482,19 @@ Interrupted-work integration completed.
 Subagent returns integrated:
 
 - Wave75-A perturbation-first controller hunt:
-  `subagents_v3/wave75a_perturbation_first_controller_hunt.md`.
+  `phases/v3/subagents/wave75a_perturbation_first_controller_hunt.md`.
   - Call: no immediate finding.
   - MED16 is a non-druggable positive-control benchmark.
   - LILRB family (`LILRB2`, `LILRB1`, `LILRB4`) is the only bounded target
     family recommended for a response-direction audit.
   - `CD300A` and `INPP5D` remain low-priority.
 - Wave75-C cross-disease targetability scout:
-  `subagents_v3/wave75c_cross_disease_targetability_scout.md`.
+  `phases/v3/subagents/wave75c_cross_disease_targetability_scout.md`.
   - Call: no promotable target.
   - Strict local follow-up shortlist: `CD58`, `SPNS1`, `P4HB`, `SEL1L3`.
   - `IFI30` benchmark only.
 - Wave75-gamma hostile critique:
-  `subagents_v3/wave75g_hostile_critique.md`.
+  `phases/v3/subagents/wave75g_hostile_critique.md`.
   - Core criticism: proxy-satisficing remains unless a target/intervention
     node survives held-out state correction, beats generic controls, and has
     modality plus safety guardrails.
@@ -4505,12 +4505,12 @@ Subagent returns integrated:
 Local orchestrator work completed:
 
 - `scripts/v3_wave75_response_state_stratification.py` and
-  `results_v3/wave75_response_state_stratification/`.
+  `phases/v3/results/wave75_response_state_stratification/`.
 - `scripts/v3_wave76_adjusted_response_specificity.py` and
-  `results_v3/wave76_adjusted_response_specificity/`.
+  `phases/v3/results/wave76_adjusted_response_specificity/`.
 - `scripts/v3_wave77_ets2_macrophage_axis_audit.py` and
-  `results_v3/wave77_ets2_macrophage_axis_audit/`.
-- Added all three scripts to `run_v3_analysis.sh`.
+  `phases/v3/results/wave77_ets2_macrophage_axis_audit/`.
+- Added all three scripts to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Integration decision:
 
@@ -4527,14 +4527,14 @@ Subagent:
 
 - Wave78-A `019e6a0b-8503-7bd0-b101-ec603041af8b`
   (`Nietzsche the 2nd`) completed and closed.
-- Artifact: `subagents_v3/wave78a_lilrb_prior_art_feasibility.md`.
+- Artifact: `phases/v3/subagents/wave78a_lilrb_prior_art_feasibility.md`.
 - Call: `PARK_DIRECTIONALITY`.
 
 Local audit:
 
 - Script: `scripts/v3_wave78_lilrb_family_target_audit.py`.
-- Outputs: `results_v3/wave78_lilrb_family_target_audit/`.
-- Added to `run_v3_analysis.sh`.
+- Outputs: `phases/v3/results/wave78_lilrb_family_target_audit/`.
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
 - Call: `NO_GO_LILRB_TARGET_LEVEL_CONVERGENCE`.
 
 Integration decision:
@@ -4560,8 +4560,8 @@ Wave78 LILRB branch integrated.
 Local orchestrator work:
 
 - Script: `scripts/v3_wave78_lilrb_inhibitory_receptor_audit.py`.
-- Outputs: `results_v3/wave78_lilrb_inhibitory_receptor_audit/`.
-- Added to `run_v3_analysis.sh`.
+- Outputs: `phases/v3/results/wave78_lilrb_inhibitory_receptor_audit/`.
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
 - Validation passed:
   - py_compile.
   - script execution.
@@ -4570,7 +4570,7 @@ Local orchestrator work:
 Subagent:
 
 - Wave78 sidecar `019e6a0c-49f8-7703-af96-f561232c93a7` (`Dirac`).
-- Artifact: `subagents_v3/wave78_lilrb_prior_art_directionality.md`.
+- Artifact: `phases/v3/subagents/wave78_lilrb_prior_art_directionality.md`.
 - Bottom line: do not promote LILRBs as therapeutic targets; keep `LILRB2`
   only as a bounded biomarker/falsification lead if useful.
 
@@ -4592,8 +4592,8 @@ Wave79 non-LILRB targetability audit completed.
 Local orchestrator work:
 
 - Script: `scripts/v3_wave79_targetability_shortlist_audit.py`.
-- Outputs: `results_v3/wave79_targetability_shortlist_audit/`.
-- Added to `run_v3_analysis.sh`.
+- Outputs: `phases/v3/results/wave79_targetability_shortlist_audit/`.
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
 - Validation passed:
   - py_compile.
   - script execution.
@@ -4623,8 +4623,8 @@ Wave80 `CD58`/CD2-axis deepening completed.
 Local orchestrator work:
 
 - Script: `scripts/v3_wave80_cd58_cd2_axis_deepening.py`.
-- Outputs: `results_v3/wave80_cd58_cd2_axis_deepening/`.
-- Added to `run_v3_analysis.sh`.
+- Outputs: `phases/v3/results/wave80_cd58_cd2_axis_deepening/`.
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
 - Validation passed:
   - py_compile.
   - script execution.
@@ -4657,7 +4657,7 @@ Wave79 sidecar returned and was integrated.
 
 Subagent artifact:
 
-- `subagents_v3/wave79_targetability_prior_art_directionality.md`
+- `phases/v3/subagents/wave79_targetability_prior_art_directionality.md`
 
 Bottom line:
 
@@ -4730,14 +4730,14 @@ Wave82 sidecars returned and local intervention-route audit completed.
 Subagent returns:
 
 - `019e6a2c-d95b-7bb1-bf18-40a6e4f782af`
-  (`subagents_v3/wave82a_parked_perturbation_feasibility.md`):
+  (`phases/v3/subagents/wave82a_parked_perturbation_feasibility.md`):
   - no candidate gets ranked;
   - `LYN`, `HEXA/HEXB`, `SP140`, and `STAT4` have some modality/prior-art
     evidence but are blocked by directionality, safety, or prior art;
   - `DAB2`, `CD9`, `PARK7`, `PSAP`, and `RGS14` fail direct targetability or
     selective autoimmune direction.
 - `019e6a2c-fafb-7942-9805-88ed76ea0b5d`
-  (`subagents_v3/wave82b_cross_disease_evidence_stress_test.md`):
+  (`phases/v3/subagents/wave82b_cross_disease_evidence_stress_test.md`):
   - `STAT4` and `SP140` have true cross-autoimmune breadth but are blocked;
   - `RGS14` has genetics without cross-disease state breadth;
   - `LYN` has state/model signal without genetics;
@@ -4746,7 +4746,7 @@ Subagent returns:
 Local audit:
 
 - `scripts/v3_wave82_parked_perturbation_intervention_audit.py`
-- `results_v3/wave82_parked_perturbation_intervention_audit/`
+- `phases/v3/results/wave82_parked_perturbation_intervention_audit/`
 - Call: `NO_PROMOTABLE_INTERVENTION_ROUTE`.
 
 Integration decision:
@@ -4768,14 +4768,14 @@ Subagent recovery after interruption:
 - Spawned Wave82 translational/prior-art sidecar
   `019e6a2e-feea-75c3-b3e9-445f848c4e7d` (`Carver`):
   - artifact requested:
-    `subagents_v3/wave82_translational_prior_art_residuals.md`;
+    `phases/v3/subagents/wave82_translational_prior_art_residuals.md`;
   - scope: `DAB2`, `CD9`, `PSAP`, `LYN`, `FAM49B`, `LRRC61`, `HEXA`, `HEXB`,
     `DAP`, `PARK7`, `FMNL2`.
 - Closed still-running but already integrated Wave79 sidecar
   `019e6a13-66bf-7c70-a4f2-b596a1210978` to free capacity.
 - Spawned Wave82 cross-disease stress-test sidecar
   `019e6a2f-645d-7801-a0ea-ea792e448925` (`Beauvoir`):
-  - artifact requested: `subagents_v3/wave82_cross_disease_residuals.md`;
+  - artifact requested: `phases/v3/subagents/wave82_cross_disease_residuals.md`;
   - same candidate scope.
 
 Local Wave82 correction:
@@ -4792,7 +4792,7 @@ Local Wave82 correction:
 Local Wave82 result:
 
 - Script: `scripts/v3_wave82_parked_intervention_route_audit.py`.
-- Outputs: `results_v3/wave82_parked_intervention_route_audit/`.
+- Outputs: `phases/v3/results/wave82_parked_intervention_route_audit/`.
 - Call counts:
   - `PARK_ROUTE_POSSIBLE_BUT_EVIDENCE_INCOMPLETE`: 1 (`PARK7`).
   - `NO_GO_NO_CREDIBLE_INTERVENTION_ROUTE`: 10.
@@ -4813,7 +4813,7 @@ Wave82 cross-disease residual sidecar returned after continuation.
 
 Artifact:
 
-- `subagents_v3/wave82_cross_disease_residuals.md`
+- `phases/v3/subagents/wave82_cross_disease_residuals.md`
 
 Result:
 
@@ -4848,7 +4848,7 @@ Wave83 local branch completed.
 Artifact:
 
 - `scripts/v3_wave83_intervention_class_first_scan.py`
-- `results_v3/wave83_intervention_class_first_scan/`
+- `phases/v3/results/wave83_intervention_class_first_scan/`
 
 Dispatch equivalent:
 
@@ -4898,12 +4898,12 @@ Dispatch:
 
 Returns integrated:
 
-- Wave83B wrote `subagents_v3/wave83b_intervention_class_scout.md` and called
+- Wave83B wrote `phases/v3/subagents/wave83b_intervention_class_scout.md` and called
   `NO_REACHABLE_CLASS_FINDING`. It suggested a conditional metabolite-first
   lipid-flux branch, but local reconciliation found this was already tested in
   Waves 72-74 (`NAAA`, `P2RX7`, `EPHX2`, `GPR183`) and did not satisfy the
   branch's own minimum data requirements.
-- Wave83A wrote `subagents_v3/wave83a_genetics_first_prior_closure_audit.md`
+- Wave83A wrote `phases/v3/subagents/wave83a_genetics_first_prior_closure_audit.md`
   and independently called no unblocked intervention-grade genetics-first
   survivor. This agrees with the hardened Wave83 local result.
 
@@ -4921,7 +4921,7 @@ Wave83 meta-rank reconciliation completed locally.
 
 Artifact:
 
-- `results_v3/wave83_intervention_class_meta_rank/`
+- `phases/v3/results/wave83_intervention_class_meta_rank/`
 
 Vetting note:
 
@@ -4979,7 +4979,7 @@ Dispatched task:
   nonresponse signatures and candidate genes/routes (`OSM`, `TREM1`, `IL1B`,
   `CXCL8`, chemokines, `TNF`, `NFKBIA`, IFN/APC genes).
 - Write:
-  `subagents_v3/wave86_prior_art_antitnf_inflammatory_nonresponse.md`.
+  `phases/v3/subagents/wave86_prior_art_antitnf_inflammatory_nonresponse.md`.
 
 Local orchestrator task in parallel:
 
@@ -5220,7 +5220,7 @@ Continuation after another usage-limit interruption. The waiting gap is not
 counted as active working time.
 
 Recovered and integrated the still-open Wave95 sidecar returns into
-`subagents_v3/wave95_sidecar_returns_integrated.md`.
+`phases/v3/subagents/wave95_sidecar_returns_integrated.md`.
 
 Attempted to retrieve the Wave97 sidecars dispatched at 20:36 CEST:
 
@@ -5280,10 +5280,10 @@ Local orchestrator task while sidecars run:
 Wave99 sidecar returns and integration:
 
 - `019e6acf-7c89-7e01-82ef-59fe34129770` (`Kepler`) wrote
-  `subagents_v3/wave99_inflammasome_brake_prior_art_sidecar.md`.
+  `phases/v3/subagents/wave99_inflammasome_brake_prior_art_sidecar.md`.
   Bottom line: no GO; `CARD16` only PARK as a brake-state/order hypothesis.
 - `019e6acf-7e3d-7c92-bc43-c269f7777f87` (`Mill`) wrote
-  `subagents_v3/wave99_inflammasome_brake_directionality_sidecar.md`.
+  `phases/v3/subagents/wave99_inflammasome_brake_directionality_sidecar.md`.
   Bottom line: `CARD16` is the strongest local C15-linked clue but
   directionally unsafe; `SERPINB1` has cleaner published brake mechanism but
   weak local MS/C15 support.
@@ -5291,7 +5291,7 @@ Wave99 sidecar returns and integration:
 Local orchestrator result:
 
 - Added `scripts/v3_wave99_endogenous_inflammasome_brake_audit.py`.
-- Added it to `run_v3_analysis.sh`.
+- Added it to `scripts/entrypoints/run_v3_analysis.sh`.
 - First run with system `python3` failed because `numpy` was absent.
 - Re-ran with `.venv_v3_py312/bin/python`.
 - Patched an MS-signature column-name bug (`delta_log2`, not
@@ -5341,7 +5341,7 @@ Wave98 CCL20/CCR6 integration.
 Local result:
 
 - `scripts/v3_wave98_ccl20_ccr6_forcing_audit.py`
-- `results_v3/wave98_ccl20_ccr6_forcing_audit/`
+- `phases/v3/results/wave98_ccl20_ccr6_forcing_audit/`
 - Final call after bug fix:
   `NO_GO_CCL20_CCR6_PRIOR_ART_BLOCKED`.
 - Claim-grade gates passed: `1/7`.
@@ -5349,15 +5349,15 @@ Local result:
 Sidecar returns:
 
 - `019e6ac5-6138-7940-8dc8-f5a7497d631a` wrote
-  `subagents_v3/wave98_hostile_c15_ccl20_branch_review.md`; hostile call:
+  `phases/v3/subagents/wave98_hostile_c15_ccl20_branch_review.md`; hostile call:
   do not promote because CCL20 is a known inflammatory chemokine passenger,
   C15 evidence is not MS-specific, residual survival is fragile, and prior art
   is severe.
 - `019e6ac5-5d68-7600-9701-513620954055` wrote
-  `subagents_v3/wave98_ccl20_ccr6_prior_art_sidecar.md`; call:
+  `phases/v3/subagents/wave98_ccl20_ccr6_prior_art_sidecar.md`; call:
   `NO_AUTOIMMUNE_THERAPEUTIC_NOVELTY_FOR_CCL20_CCR6_AXIS`.
 - `019e6ac5-5f4d-70f3-8a0f-03f3ab10dfbf` wrote
-  `subagents_v3/wave97_ccl20_ccr6_mechanistic_sidecar.md`; call:
+  `phases/v3/subagents/wave97_ccl20_ccr6_mechanistic_sidecar.md`; call:
   CCL20 is downstream/parallel inflammatory chemokine output and CCR6 is not
   locally C15-state coupled.
 
@@ -5384,9 +5384,9 @@ Dispatched sidecars:
 Local result while sidecars run:
 
 - Added `scripts/v3_wave99_litaf_casp4_stress_generator_audit.py`.
-- Added it to `run_v3_analysis.sh`.
+- Added it to `scripts/entrypoints/run_v3_analysis.sh`.
 - Output:
-  `results_v3/wave99_litaf_casp4_stress_generator_audit/`.
+  `phases/v3/results/wave99_litaf_casp4_stress_generator_audit/`.
 - Call:
   `NO_PROMOTABLE_LITAF_CASP4_STRESS_GENERATOR`.
 - `LITAF`: parked as upstream stress marker with no modality.
@@ -5405,13 +5405,13 @@ Integration decision:
 Wave99 sidecars returned.
 
 - `019e6ace-fec4-7222-9d5b-1f5acdcbf5a0` wrote
-  `subagents_v3/wave99_litaf_sidecar_audit.md`; call: LITAF remains a
+  `phases/v3/subagents/wave99_litaf_sidecar_audit.md`; call: LITAF remains a
   perturbation-ordering hypothesis / inflammatory stress marker, not target.
 - `019e6acf-0076-7bc0-b446-d8becb3c75c4` wrote
-  `subagents_v3/wave99_casp4_sidecar_audit.md`; call: CASP4 remains
+  `phases/v3/subagents/wave99_casp4_sidecar_audit.md`; call: CASP4 remains
   `PARK/NO-GO` due prior art, CASP4/5 selectivity, and weak local MS anchor.
 - `019e6acf-032b-7150-8c20-36464a8bb16f` wrote
-  `subagents_v3/sidecar_litaf_casp4_perturbation_modeling.md` and
+  `phases/v3/subagents/sidecar_litaf_casp4_perturbation_modeling.md` and
   `scripts/v3_sidecar_litaf_casp4_ordering.py`; call: no direct perturbation
   dataset locally perturbs LITAF/CASP4 while measuring C15/NDUFA4/MOCCI.
 
@@ -5430,9 +5430,9 @@ Wave100 cAMP-restoration returns and integration.
 Local orchestrator result:
 
 - Added and ran `scripts/v3_wave100_camp_restoration_class_audit.py`.
-- Added it to `run_v3_analysis.sh`.
+- Added it to `scripts/entrypoints/run_v3_analysis.sh`.
 - Output:
-  `results_v3/wave100_camp_restoration_class_audit/`.
+  `phases/v3/results/wave100_camp_restoration_class_audit/`.
 - Branch call:
   `NO_REOPEN_CAMP_RESTORATION_CLASS`.
 - Candidate routes tested:
@@ -5444,12 +5444,12 @@ Local orchestrator result:
 Sidecar returns:
 
 - `019e6ada-309a-7511-8ea3-97a21ce93783` (`Lorentz`) wrote
-  `subagents_v3/wave100_camp_directionality_model_sidecar.md`.
+  `phases/v3/subagents/wave100_camp_directionality_model_sidecar.md`.
   Verdict: no finding claimed. `PDE4B` is the best local perturbation
   hypothesis; `PTGER4` is the strongest genetics-rich comparator but
   direction-conflicted; other cAMP routes are marker/comparator routes.
 - `019e6ada-2ee6-7c72-99e8-7304b1531152` (`Pauli`) wrote
-  `subagents_v3/wave100_camp_prior_art_sidecar.md`.
+  `phases/v3/subagents/wave100_camp_prior_art_sidecar.md`.
   Verdict: no route is a GO. PDE4B/D local cAMP restoration is only a
   prior-art-aware comparator/stratification branch; `GPR65` is secondary PARK;
   `ADCY3`, `PTGER4`, `ADORA2A/B`, `HCAR2`, and generic cAMP controls are
@@ -5474,10 +5474,10 @@ Wave101 accessible-survivor forcing triage.
 Local orchestrator result:
 
 - Added and ran `scripts/v3_wave101_accessible_survivor_forcing_triage.py`.
-- Added it to `run_v3_analysis.sh`.
+- Added it to `scripts/entrypoints/run_v3_analysis.sh`.
 - Fixed the first-run ranking bug by introducing explicit call priorities.
 - Output:
-  `results_v3/wave101_accessible_survivor_forcing_triage/`.
+  `phases/v3/results/wave101_accessible_survivor_forcing_triage/`.
 - Branch call:
   `NO_PROMOTABLE_ACCESSIBLE_SURVIVOR_YET`.
 - Parked forcing candidates:
@@ -5513,28 +5513,28 @@ Wave101/Wave102 sidecar returns and closure.
 Returns and local integrations:
 
 - Wrote missing mechanism/direction sidecar:
-  `subagents_v3/wave101_accessible_survivor_mechanism_sidecar.md`.
+  `phases/v3/subagents/wave101_accessible_survivor_mechanism_sidecar.md`.
   Verdict: neither `SEL1L3` nor `FXYD5` can currently be said to control a
   lipid-lysosomal inflammatory tissue state. `APOC1` should be killed as an
   intervention branch; `FXYD5` should be killed as an immediate target
   nomination and retained only as a wet-lab comparator.
 - Existing sidecar:
-  `subagents_v3/wave102_sel1l3_fxyd5_mechanism_modality_sidecar.md`.
+  `phases/v3/subagents/wave102_sel1l3_fxyd5_mechanism_modality_sidecar.md`.
   Verdict: `SEL1L3` is topology-validation only; `FXYD5` is wet-lab kill-test
   only; neither is a therapeutic GO.
 - Existing sidecar:
-  `subagents_v3/wave102_sel1l3_fxyd5_prior_art_sidecar.md`.
+  `phases/v3/subagents/wave102_sel1l3_fxyd5_prior_art_sidecar.md`.
   Verdict: `SEL1L3` has sparse direct autoimmune therapeutic prior art but too
   little target biology; `FXYD5` is prior-art/safety crowded around
   dysadherin, barrier biology, Na/K-ATPase, and oncology antibody routes.
 - Existing local analysis:
-  `results_v3/wave102_accessible_survivor_residual_compartment_test/`.
+  `phases/v3/results/wave102_accessible_survivor_residual_compartment_test/`.
   Branch call: `NO_ACCESSIBLE_SURVIVOR_RESIDUAL_REOPEN`.
 - Existing local analysis:
-  `results_v3/wave102_sel1l3_fxyd5_target_specific_evidence_audit/`.
+  `phases/v3/results/wave102_sel1l3_fxyd5_target_specific_evidence_audit/`.
   Branch call: `NO_PROMOTABLE_SEL1L3_FXYD5_TARGET_SPECIFIC_EVIDENCE`.
 - New local analysis:
-  `results_v3/wave102_sel1l3_fxyd5_residual_controller_test/`.
+  `phases/v3/results/wave102_sel1l3_fxyd5_residual_controller_test/`.
   Branch call: `NO_REOPEN_ACCESSIBLE_SURVIVOR_AFTER_RESIDUAL_TEST`.
 
 Integrated decision:
@@ -5553,9 +5553,9 @@ Local orchestrator result:
 
 - Added and ran
   `scripts/v3_wave102_accessible_survivor_residual_compartment_test.py`.
-- Added it to `run_v3_analysis.sh`.
+- Added it to `scripts/entrypoints/run_v3_analysis.sh`.
 - Output:
-  `results_v3/wave102_accessible_survivor_residual_compartment_test/`.
+  `phases/v3/results/wave102_accessible_survivor_residual_compartment_test/`.
 - Branch call:
   `NO_ACCESSIBLE_SURVIVOR_RESIDUAL_REOPEN`.
 - No candidate survived either strict single-core-covariate gates or
@@ -5577,9 +5577,9 @@ Wave103 Fc/FcRn/efferocytosis route audit.
 Local orchestrator result:
 
 - Added and ran `scripts/v3_wave103_fc_receptor_efferocytosis_route_audit.py`.
-- Added it to `run_v3_analysis.sh`.
+- Added it to `scripts/entrypoints/run_v3_analysis.sh`.
 - Output:
-  `results_v3/wave103_fc_receptor_efferocytosis_route_audit/`.
+  `phases/v3/results/wave103_fc_receptor_efferocytosis_route_audit/`.
 - Branch call:
   `NO_REOPEN_FC_EFFEROCYTOSIS_ROUTE`.
 
@@ -5600,7 +5600,7 @@ Wave104 accessible-survivor niche-controller test.
 Sidecar integration:
 
 - `019e6aeb-4789-79a3-bcf0-87d227556772` (`Ohm`) returned
-  `subagents_v3/wave101_accessible_survivor_mechanism_sidecar.md`.
+  `phases/v3/subagents/wave101_accessible_survivor_mechanism_sidecar.md`.
   Verdict: do not promote `SEL1L3` or `FXYD5`; run a residualized
   tissue-niche controller test; kill `APOC1`; keep `CD82` and `LAPTM5` as
   comparators.
@@ -5612,7 +5612,7 @@ Local orchestrator result:
 - Patched the initial over-parameterized adjustment with adaptive covariate
   trimming before logging the result.
 - Output:
-  `results_v3/wave104_accessible_survivor_niche_controller_test/`.
+  `phases/v3/results/wave104_accessible_survivor_niche_controller_test/`.
 - Branch call:
   `REOPEN_ACCESSIBLE_SURVIVOR_NICHE_CONTROLLER`.
 - Only reopened candidate:
@@ -5645,7 +5645,7 @@ Wave102 prior-art sidecar return for `SEL1L3` and `FXYD5`.
 
 Return artifact:
 
-- `subagents_v3/wave102_sel1l3_fxyd5_prior_art_sidecar.md`
+- `phases/v3/subagents/wave102_sel1l3_fxyd5_prior_art_sidecar.md`
 
 Vetting:
 
@@ -5674,14 +5674,14 @@ Wave102 perturbation/model sidecar return for `SEL1L3` and `FXYD5`.
 
 Return artifact:
 
-- `subagents_v3/wave102_sel1l3_fxyd5_perturbation_model_sidecar.md`
+- `phases/v3/subagents/wave102_sel1l3_fxyd5_perturbation_model_sidecar.md`
 
 Supporting query artifacts:
 
-- `results_v3/wave102_sel1l3_fxyd5_perturbation_model_sidecar/public_perturbation_resource_queries.tsv`
-- `results_v3/wave102_sel1l3_fxyd5_perturbation_model_sidecar/targeted_public_perturbation_queries.tsv`
-- `results_v3/wave102_sel1l3_fxyd5_perturbation_model_sidecar/perturbseq_queries.tsv`
-- `results_v3/wave102_sel1l3_fxyd5_perturbation_model_sidecar/raw_api/`
+- `phases/v3/results/wave102_sel1l3_fxyd5_perturbation_model_sidecar/public_perturbation_resource_queries.tsv`
+- `phases/v3/results/wave102_sel1l3_fxyd5_perturbation_model_sidecar/targeted_public_perturbation_queries.tsv`
+- `phases/v3/results/wave102_sel1l3_fxyd5_perturbation_model_sidecar/perturbseq_queries.tsv`
+- `phases/v3/results/wave102_sel1l3_fxyd5_perturbation_model_sidecar/raw_api/`
 
 Vetting:
 
@@ -5726,7 +5726,7 @@ Wave103 intervention-first successor triage integrated.
 
 Output:
 
-- `results_v3/wave103_intervention_first_successor_triage/REPORT.md`
+- `phases/v3/results/wave103_intervention_first_successor_triage/REPORT.md`
 - `CONVERGENCE_CHECK_60.md`
 
 Vetting:
@@ -5749,8 +5749,8 @@ dispatched.
 
 Output:
 
-- `results_v3/wave104_genetics_first_lipid_state_convergence_audit/REPORT.md`
-- `results_v3/wave104_genetics_first_lipid_state_convergence_audit/genetics_first_lipid_state_rank.tsv`
+- `phases/v3/results/wave104_genetics_first_lipid_state_convergence_audit/REPORT.md`
+- `phases/v3/results/wave104_genetics_first_lipid_state_convergence_audit/genetics_first_lipid_state_rank.tsv`
 
 Integrated local call:
 
@@ -5774,7 +5774,7 @@ Wave104 genetics/colocalization sidecar returned.
 
 Output:
 
-- `subagents_v3/wave104_genetics_coloc_sidecar.md`
+- `phases/v3/subagents/wave104_genetics_coloc_sidecar.md`
 
 Vetting:
 
@@ -5797,7 +5797,7 @@ running.
 
 Output:
 
-- `results_v3/wave105_wave104_candidate_context_decomposition/REPORT.md`
+- `phases/v3/results/wave105_wave104_candidate_context_decomposition/REPORT.md`
 
 Integration note:
 
@@ -5814,14 +5814,14 @@ accounting.
 Subagent reconciliation:
 
 - Franklin `019e6b04-ca05-70f3-8666-059ae94066af` returned and was closed.
-  - Output: `subagents_v3/wave105_cd82_prior_art_sidecar.md`.
+  - Output: `phases/v3/subagents/wave105_cd82_prior_art_sidecar.md`.
   - Call:
     `PARK_AS_NICHE_BIOMARKER_OR_MECHANISM_BRANCH_NO_GO_THERAPEUTIC_CD82`.
   - Integration decision: direct CD82 therapeutic modulation is blocked; CD82
     can only proceed as a mechanism/biomarker branch unless an indirect,
     non-CD82 intervention emerges.
 - Meitner `019e6aeb-45c2-76c2-8557-a57935e95cd7` returned and was closed.
-  - Output: `subagents_v3/wave101_accessible_survivor_prior_art_sidecar.md`.
+  - Output: `phases/v3/subagents/wave101_accessible_survivor_prior_art_sidecar.md`.
   - Integration decision: no Wave101 accessible-survivor candidate is
     promotable as a therapeutic target.
 - Kuhn `019e6aeb-4950-7d43-9b96-4c651fa02180` did not return on a bounded
@@ -5831,8 +5831,8 @@ Local Wave105 CD82 robustness audit completed.
 
 Output:
 
-- `results_v3/wave105_cd82_niche_robustness_audit/REPORT.md`
-- `results_v3/wave105_cd82_niche_robustness_audit/summary.json`
+- `phases/v3/results/wave105_cd82_niche_robustness_audit/REPORT.md`
+- `phases/v3/results/wave105_cd82_niche_robustness_audit/summary.json`
 
 Integration decision:
 
@@ -5855,7 +5855,7 @@ Fermat CD82 mechanism/modality sidecar returned.
 
 Output:
 
-- `subagents_v3/wave105_cd82_mechanism_modality_sidecar.md`
+- `phases/v3/subagents/wave105_cd82_mechanism_modality_sidecar.md`
 
 Calls:
 
@@ -5882,7 +5882,7 @@ Bohr hostile methods sidecar returned and was closed.
 
 Output:
 
-- `subagents_v3/wave105_cd82_hostile_methods_review.md`
+- `phases/v3/subagents/wave105_cd82_hostile_methods_review.md`
 
 Integration decision:
 
@@ -5897,7 +5897,7 @@ Local Wave106 specificity/confounder audit completed.
 
 Output:
 
-- `results_v3/wave106_cd82_specificity_confounder_audit/REPORT.md`
+- `phases/v3/results/wave106_cd82_specificity_confounder_audit/REPORT.md`
 
 Decision:
 
@@ -5914,7 +5914,7 @@ Wave107 CD82 multiplicity/disease-collapse audit completed.
 
 Output:
 
-- `results_v3/wave107_cd82_multiplicity_disease_collapse_audit/REPORT.md`
+- `phases/v3/results/wave107_cd82_multiplicity_disease_collapse_audit/REPORT.md`
 
 Decision:
 
@@ -5945,8 +5945,8 @@ Wave108/Wave109 MFGE8 local debris-opsonin safety modeling completed.
 
 Outputs:
 
-- `results_v3/wave108_mfge8_debris_opsonin_safety_window_model/REPORT.md`
-- `results_v3/wave109_mfge8_threshold_sensitivity_audit/REPORT.md`
+- `phases/v3/results/wave108_mfge8_debris_opsonin_safety_window_model/REPORT.md`
+- `phases/v3/results/wave109_mfge8_threshold_sensitivity_audit/REPORT.md`
 
 Decision:
 
@@ -5969,10 +5969,10 @@ Wave110 route map and GPR183 forcing branch completed.
 
 Outputs:
 
-- `results_v3/wave110_post_closure_intervention_route_map/REPORT.md`
-- `subagents_v3/wave110_overlooked_intervention_route_scout.md`
-- `results_v3/wave111_gpr183_spatial_proxy_forcing_test/REPORT.md`
-- `results_v3/wave112_gpr183_compartment_contrast_fallback/REPORT.md`
+- `phases/v3/results/wave110_post_closure_intervention_route_map/REPORT.md`
+- `phases/v3/subagents/wave110_overlooked_intervention_route_scout.md`
+- `phases/v3/results/wave111_gpr183_spatial_proxy_forcing_test/REPORT.md`
+- `phases/v3/results/wave112_gpr183_compartment_contrast_fallback/REPORT.md`
 
 Integration:
 
@@ -5994,7 +5994,7 @@ Wave113 PSAP recurrence/specificity audit completed.
 
 Output:
 
-- `results_v3/wave113_psap_recurrence_specificity_audit/REPORT.md`
+- `phases/v3/results/wave113_psap_recurrence_specificity_audit/REPORT.md`
 
 Integration:
 
@@ -6025,7 +6025,7 @@ Local analysis:
 - Ran `scripts/v3_wave114_p2rx7_target_level_closure_audit.py` in the pinned
   V3 environment.
 - Output:
-  `results_v3/wave114_p2rx7_target_level_closure_audit/REPORT.md`.
+  `phases/v3/results/wave114_p2rx7_target_level_closure_audit/REPORT.md`.
 
 Integration:
 
@@ -6049,7 +6049,7 @@ Wave115 SPNS1 controller falsification completed.
 
 Output:
 
-- `results_v3/wave115_spns1_controller_falsification_audit/REPORT.md`
+- `phases/v3/results/wave115_spns1_controller_falsification_audit/REPORT.md`
 
 Integration:
 
@@ -6074,8 +6074,8 @@ Wave116/Wave117 route rerank and PARK7 closure.
 
 Outputs:
 
-- `results_v3/wave116_closure_aware_route_rerank/REPORT.md`
-- `results_v3/wave117_park7_stress_route_forcing_test/REPORT.md`
+- `phases/v3/results/wave116_closure_aware_route_rerank/REPORT.md`
+- `phases/v3/results/wave117_park7_stress_route_forcing_test/REPORT.md`
 
 Integration:
 
@@ -6100,7 +6100,7 @@ Wave118 DAB2/CD9 efferocytosis directionality audit completed.
 
 Output:
 
-- `results_v3/wave118_dab2_cd9_efferocytosis_directionality_audit/REPORT.md`
+- `phases/v3/results/wave118_dab2_cd9_efferocytosis_directionality_audit/REPORT.md`
 
 Integration:
 
@@ -6162,7 +6162,7 @@ Wave119 batch prefilter for remaining Wave110 survivors completed.
 
 Output:
 
-- `results_v3/wave119_wave110_remaining_survivor_prefilter/REPORT.md`
+- `phases/v3/results/wave119_wave110_remaining_survivor_prefilter/REPORT.md`
 
 Integration:
 
@@ -6435,7 +6435,7 @@ Wave127 external spot-check for recurrent unknown L1000 hits completed.
 
 Artifact:
 
-- `literature_v3/wave127_external_l1000_unknown_lookup.md`
+- `phases/v3/literature/wave127_external_l1000_unknown_lookup.md`
 
 Decision:
 
@@ -6765,10 +6765,10 @@ Dispatch:
   Wave133 closure hygiene correction.
 
 Inputs:
-- `results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv`
-- `results_v3/wave104_genetics_first_lipid_state_convergence_audit/genetics_first_lipid_state_rank.tsv`
-- `results_v3/wave128_genetics_first_reopener/genetics_first_reopener_decisions.tsv`
-- `results_v3/wave133_closure_hygiene_correction/wave122_corrected_rank.tsv`
+- `phases/v3/results/wave62_opentargets_target_resolution/target_resolution_summary.tsv`
+- `phases/v3/results/wave104_genetics_first_lipid_state_convergence_audit/genetics_first_lipid_state_rank.tsv`
+- `phases/v3/results/wave128_genetics_first_reopener/genetics_first_reopener_decisions.tsv`
+- `phases/v3/results/wave133_closure_hygiene_correction/wave122_corrected_rank.tsv`
 
 Return:
 - `NO_TARGET_FIRST_PIVOT_AVAILABLE`.
@@ -7582,7 +7582,7 @@ Issue:
 
 Wave170 external target-quality audit:
 - Used approved `curl` to download ChEMBL raw JSON for top targets into
-  `results_v3/wave170_external_chembl_target_quality/raw/`.
+  `phases/v3/results/wave170_external_chembl_target_quality/raw/`.
 - Parsed saved artifacts with
   `scripts/v3_wave170_external_chembl_target_quality.py`.
 

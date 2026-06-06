@@ -38,7 +38,7 @@ Prior-art grade: `P1 high crowding`.
 
 Key prior-art context:
 
-- `results_v3/wave171_lrrk2_prior_art_killtest/REPORT.md` documents the V3
+- `phases/v3/results/wave171_lrrk2_prior_art_killtest/REPORT.md` documents the V3
   kill test.
 - Google Patents `WO2024182689A1` explicitly discusses LRRK2 inhibitors and
   includes immune-system diseases such as multiple sclerosis, rheumatoid

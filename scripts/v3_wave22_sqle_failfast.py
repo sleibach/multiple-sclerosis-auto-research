@@ -24,43 +24,43 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave22_sqle_failfast"
+OUT = ROOT / "phases/v3/results" / "wave22_sqle_failfast"
 GENE = "SQLE"
 SEED = 20260527
 
 INPUTS = {
-    "broad_h5ad_rank": ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
-    "broad_residual_summary": ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
-    "broad_residual_tests": ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_residual_tests.tsv",
-    "wave18_foundation_rank": ROOT / "results_v3" / "wave18_foundation_rescue" / "foundation_rescue_candidate_rank.tsv",
+    "broad_h5ad_rank": ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
+    "broad_residual_summary": ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
+    "broad_residual_tests": ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_residual_tests.tsv",
+    "wave18_foundation_rank": ROOT / "phases/v3/results" / "wave18_foundation_rescue" / "foundation_rescue_candidate_rank.tsv",
     "wave18_direct_perturbation": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave18_foundation_rescue"
     / "direct_perturbation_evidence_by_candidate.tsv",
     "wave18_readout_concordance": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave18_foundation_rescue"
     / "readout_concordance_by_candidate.tsv",
     "geneformer_broad_summary": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "geneformer_broad_residual_delete"
     / "geneformer_broad_residual_gene_summary.tsv",
     "geneformer_broad_metrics": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "geneformer_broad_residual_delete"
     / "geneformer_broad_residual_delete_metrics.tsv",
     "wave21_druggability": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave21_residual_druggability_scan"
     / "local_integrated_strict_residual_evidence.tsv",
     "wave21_prior_art": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave21_residual_candidate_prior_art"
     / "candidate_prior_art_gate.tsv",
     "lincs_compound_info": ROOT / "data" / "raw_v3" / "lincs2020" / "compoundinfo_beta.txt",
-    "l1000_compound_summary": ROOT / "results_v3" / "l1000fwd_compound_summary.tsv",
+    "l1000_compound_summary": ROOT / "phases/v3/results" / "l1000fwd_compound_summary.tsv",
     "wave15_l1000_selectivity": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave15_perturbation_drug_response"
     / "l1000fwd_selectivity_compound_rank.tsv",
 }

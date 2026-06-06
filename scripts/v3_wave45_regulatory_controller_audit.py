@@ -11,15 +11,15 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave45_regulatory_controller_audit"
+OUT = ROOT / "phases/v3/results" / "wave45_regulatory_controller_audit"
 SEED = 20260527
 
-WAVE34 = ROOT / "results_v3" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv"
-BROAD = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
-RESIDUAL = ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv"
-WAVE23_REST = ROOT / "results_v3" / "wave23_genetics_restoration_modality" / "ranked_go_park_no_go.tsv"
-WAVE31 = ROOT / "results_v3" / "wave31_dynamic_transition_controller_audit" / "dynamic_transition_controller_audit.tsv"
-WAVE25 = ROOT / "results_v3" / "wave25_causal_genetics_module_proxy" / "causal_proxy_candidate_matrix.tsv"
+WAVE34 = ROOT / "phases/v3/results" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv"
+BROAD = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
+RESIDUAL = ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv"
+WAVE23_REST = ROOT / "phases/v3/results" / "wave23_genetics_restoration_modality" / "ranked_go_park_no_go.tsv"
+WAVE31 = ROOT / "phases/v3/results" / "wave31_dynamic_transition_controller_audit" / "dynamic_transition_controller_audit.tsv"
+WAVE25 = ROOT / "phases/v3/results" / "wave25_causal_genetics_module_proxy" / "causal_proxy_candidate_matrix.tsv"
 
 
 RULES = {

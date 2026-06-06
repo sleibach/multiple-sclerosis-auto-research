@@ -5,8 +5,8 @@
 Action:
 - Started V4 as a continuation, not a fresh project.
 - Inspected current project tree and confirmed V3 is large and dirty:
-  `results_v3/` has 243 first-level result directories, `scripts/v3_*.py` has
-  246 scripts, and `subagents_v3/` has 175 first-level report files.
+  `phases/v3/results/` has 243 first-level result directories, `scripts/v3_*.py` has
+  246 scripts, and `phases/v3/subagents/` has 175 first-level report files.
 
 Decision:
 - Freeze historical V1-V3 files by index/pointer rather than moving or
@@ -1342,7 +1342,7 @@ Question:
 
 Execution:
 
-- Queried `results_v3/cross_disease_cell_state_convergence.tsv` for Sjogren
+- Queried `phases/v3/results/cross_disease_cell_state_convergence.tsv` for Sjogren
   salivary epithelial and APC module contrasts.
 - Wrote `docs/findings/SJOGREN_SPLIT_AUDIT_V10.md`.
 

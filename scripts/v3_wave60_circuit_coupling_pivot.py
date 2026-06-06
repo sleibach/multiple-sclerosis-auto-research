@@ -26,22 +26,22 @@ from statsmodels.stats.multitest import multipletests
 
 SEED = 20260527
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave60_circuit_coupling_pivot"
+OUT = ROOT / "phases/v3/results" / "wave60_circuit_coupling_pivot"
 
 MODULE_FILES = [
-    ROOT / "results_v3" / "direct_h5ad_cell_state" / "direct_h5ad_donor_module_scores.tsv",
-    ROOT / "results_v3" / "osmr_complement_axes" / "osmr_complement_donor_module_scores.tsv",
+    ROOT / "phases/v3/results" / "direct_h5ad_cell_state" / "direct_h5ad_donor_module_scores.tsv",
+    ROOT / "phases/v3/results" / "osmr_complement_axes" / "osmr_complement_donor_module_scores.tsv",
 ]
-GENE_DONOR_FILE = ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gene_donor_scores.tsv"
-GENE_SUMMARY_FILE = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
-RESIDUAL_SUMMARY_FILE = ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv"
-MS_GENE_FILE = ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv"
-MS_MODULE_FILE = ROOT / "results_v3" / "gse111972_module_contrasts.tsv"
+GENE_DONOR_FILE = ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gene_donor_scores.tsv"
+GENE_SUMMARY_FILE = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
+RESIDUAL_SUMMARY_FILE = ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv"
+MS_GENE_FILE = ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv"
+MS_MODULE_FILE = ROOT / "phases/v3/results" / "gse111972_module_contrasts.tsv"
 EFFEROCYTOSIS_FILE = (
-    ROOT / "results_v3" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
+    ROOT / "phases/v3/results" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
 )
 GENEFORMER_FILE = (
-    ROOT / "results_v3" / "wave57_intervention_first_geneformer_screen" / "wave57_intervention_first_candidate_calls.tsv"
+    ROOT / "phases/v3/results" / "wave57_intervention_first_geneformer_screen" / "wave57_intervention_first_candidate_calls.tsv"
 )
 
 KEYS = ["analysis", "dataset_path", "disease_name", "compartment", "role", "donor_id", "disease", "group"]

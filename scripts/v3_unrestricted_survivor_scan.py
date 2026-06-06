@@ -19,7 +19,7 @@ import pandas as pd
 
 SEED = 20260526
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "unrestricted_survivor_scan"
+OUT = ROOT / "phases/v3/results" / "unrestricted_survivor_scan"
 
 MANUAL_LABELS: dict[str, dict[str, str]] = {
     "CBX3": {"status": "generic_hold", "reason": "chromatin/proliferation-associated; no clear lipid-lysosomal intervention point"},
@@ -46,10 +46,10 @@ def safe_float(x: Any) -> float:
 def main() -> None:
     np.random.seed(SEED)
     OUT.mkdir(parents=True, exist_ok=True)
-    broad = pd.read_csv(ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv", sep="\t", low_memory=False)
+    broad = pd.read_csv(ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv", sep="\t", low_memory=False)
     gf_paths = [
-        ROOT / "results_v3" / "geneformer_pivot_panel_delete" / "geneformer_pivot_panel_gene_summary.tsv",
-        ROOT / "results_v3" / "geneformer_unrestricted_survivor_delete" / "geneformer_unrestricted_survivor_gene_summary.tsv",
+        ROOT / "phases/v3/results" / "geneformer_pivot_panel_delete" / "geneformer_pivot_panel_gene_summary.tsv",
+        ROOT / "phases/v3/results" / "geneformer_unrestricted_survivor_delete" / "geneformer_unrestricted_survivor_gene_summary.tsv",
     ]
     gf_tables = [pd.read_csv(path, sep="\t") for path in gf_paths if path.exists()]
     gf_pivot = pd.concat(gf_tables, ignore_index=True) if gf_tables else pd.DataFrame()

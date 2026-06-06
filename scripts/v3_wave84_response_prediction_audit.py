@@ -44,14 +44,14 @@ warnings.filterwarnings(
 
 SEED = 20260527
 N_PERM = 499
-OUT = ROOT / "results_v3" / "wave84_response_prediction_audit"
+OUT = ROOT / "phases/v3/results" / "wave84_response_prediction_audit"
 
-RA_WIDE = ROOT / "results_v3" / "wave76_adjusted_response_specificity" / "ra_wide_patient_table.tsv"
-IBD_WIDE = ROOT / "results_v3" / "wave76_adjusted_response_specificity" / "ibd_wide_patient_cellstate_table.tsv"
-UC_DONOR = ROOT / "results_v3" / "gse253006_tofacitinib_marker" / "gse253006_marker_donor_module_scores.tsv"
-W76_CONV = ROOT / "results_v3" / "wave76_adjusted_response_specificity" / "adjusted_cross_dataset_convergence.tsv"
-W18_RA_TESTS = ROOT / "results_v3" / "wave18_treatment_response" / "wave18_gse138746_ra_baseline_response_tests.tsv"
-W18_PSORIASIS = ROOT / "results_v3" / "wave18_treatment_response" / "wave18_gse183047_psoriasis_prepost_tests.tsv"
+RA_WIDE = ROOT / "phases/v3/results" / "wave76_adjusted_response_specificity" / "ra_wide_patient_table.tsv"
+IBD_WIDE = ROOT / "phases/v3/results" / "wave76_adjusted_response_specificity" / "ibd_wide_patient_cellstate_table.tsv"
+UC_DONOR = ROOT / "phases/v3/results" / "gse253006_tofacitinib_marker" / "gse253006_marker_donor_module_scores.tsv"
+W76_CONV = ROOT / "phases/v3/results" / "wave76_adjusted_response_specificity" / "adjusted_cross_dataset_convergence.tsv"
+W18_RA_TESTS = ROOT / "phases/v3/results" / "wave18_treatment_response" / "wave18_gse138746_ra_baseline_response_tests.tsv"
+W18_PSORIASIS = ROOT / "phases/v3/results" / "wave18_treatment_response" / "wave18_gse183047_psoriasis_prepost_tests.tsv"
 
 PRIMARY_MODULE = "lysosomal_apc__resid_inflammatory_nfkb"
 SECONDARY_MODULES = [

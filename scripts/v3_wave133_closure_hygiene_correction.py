@@ -41,13 +41,13 @@ from v3_wave122_fresh_breadth_target_scan import (
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave133_closure_hygiene_correction"
+OUT = ROOT / "phases/v3/results" / "wave133_closure_hygiene_correction"
 
-W55_CORRECT = ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv"
-W122_ORIGINAL = ROOT / "results_v3" / "wave122_fresh_breadth_target_scan" / "fresh_breadth_target_rank.tsv"
-W128_ORIGINAL = ROOT / "results_v3" / "wave128_genetics_first_reopener" / "genetics_first_reopener_decisions.tsv"
-W55_DECISIONS = ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "decision_matrix.tsv"
-W34 = ROOT / "results_v3" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv"
+W55_CORRECT = ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv"
+W122_ORIGINAL = ROOT / "phases/v3/results" / "wave122_fresh_breadth_target_scan" / "fresh_breadth_target_rank.tsv"
+W128_ORIGINAL = ROOT / "phases/v3/results" / "wave128_genetics_first_reopener" / "genetics_first_reopener_decisions.tsv"
+W55_DECISIONS = ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "decision_matrix.tsv"
+W34 = ROOT / "phases/v3/results" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv"
 
 
 def is_closed_exact(gene: str) -> bool:
@@ -331,7 +331,7 @@ therapeutic claims.
 ## Reproducibility
 
 - Script: `scripts/v3_wave133_closure_hygiene_correction.py`
-- Outputs: `results_v3/wave133_closure_hygiene_correction/`
+- Outputs: `phases/v3/results/wave133_closure_hygiene_correction/`
 - Seed: `{SEED}`
 """
     (OUT / "REPORT.md").write_text(report, encoding="utf-8")

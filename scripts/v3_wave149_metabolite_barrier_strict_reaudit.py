@@ -11,11 +11,11 @@ import pandas as pd
 from v3_analyze_direct_h5ad_cell_states import ROOT
 
 
-OUT = ROOT / "results_v3" / "wave149_metabolite_barrier_strict_reaudit"
+OUT = ROOT / "phases/v3/results" / "wave149_metabolite_barrier_strict_reaudit"
 SEED = 20260527
-W23 = ROOT / "results_v3" / "wave23_metabolite_barrier_circuit" / "wave23_ranked_routes.tsv"
-W83 = ROOT / "results_v3" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv"
-W146 = ROOT / "results_v3" / "wave146_architecture_first_barrier_retention_scan" / "architecture_gate_decision.tsv"
+W23 = ROOT / "phases/v3/results" / "wave23_metabolite_barrier_circuit" / "wave23_ranked_routes.tsv"
+W83 = ROOT / "phases/v3/results" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv"
+W146 = ROOT / "phases/v3/results" / "wave146_architecture_first_barrier_retention_scan" / "architecture_gate_decision.tsv"
 
 LESS_DIRECTLY_CLOSED = {"ahr_tryptophan", "scfa_ffar_hcar", "bile_acid_fxr_tgr5", "retinoid_vdr_rxr"}
 

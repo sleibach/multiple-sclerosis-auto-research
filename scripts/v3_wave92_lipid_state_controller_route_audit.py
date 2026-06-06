@@ -60,16 +60,16 @@ from v3_wave89_psoriasis_gse85034_response_validation import (
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave92_lipid_state_controller_route_audit"
+OUT = ROOT / "phases/v3/results" / "wave92_lipid_state_controller_route_audit"
 
-RA_COUNTS = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
-RA_META = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
-MS_WM = ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv"
-BROAD_H5AD = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
-W30 = ROOT / "results_v3" / "wave30_niche_driver_audit" / "niche_driver_axis_audit.tsv"
-W32 = ROOT / "results_v3" / "wave32c_resolution_prior_art_audit" / "route_feasibility_ranked.tsv"
-W48 = ROOT / "results_v3" / "wave48_resolution_reopener_audit" / "route_reopener_audit.tsv"
-W74 = ROOT / "results_v3" / "wave74_gpr183_oxysterol_niche" / "integrated_decision.tsv"
+RA_COUNTS = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
+RA_META = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
+MS_WM = ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv"
+BROAD_H5AD = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
+W30 = ROOT / "phases/v3/results" / "wave30_niche_driver_audit" / "niche_driver_axis_audit.tsv"
+W32 = ROOT / "phases/v3/results" / "wave32c_resolution_prior_art_audit" / "route_feasibility_ranked.tsv"
+W48 = ROOT / "phases/v3/results" / "wave48_resolution_reopener_audit" / "route_reopener_audit.tsv"
+W74 = ROOT / "phases/v3/results" / "wave74_gpr183_oxysterol_niche" / "integrated_decision.tsv"
 
 
 ROUTES: dict[str, dict[str, Any]] = {

@@ -50,24 +50,24 @@ generic NAMPT inhibition; it is eNAMPT/subgroup/transient-modulation biology.
   MS foamy proteome/snRNA convergence, recurrence in RA/psoriasis/IBD/SLE,
   ChEMBL tractability, and AlphaFold pLDDT 94.25; rejected for prior art,
   direction ambiguity, and systemic safety.
-- `results_v3/cross_disease_gene_summary.tsv`: NAMPT tested in 7 diseases;
+- `phases/v3/results/cross_disease_gene_summary.tsv`: NAMPT tested in 7 diseases;
   supportive/trend signal only in Crohn and UC; no strong disease count.
-- `results_v3/broad_residual_gate/broad_residual_gate_summary.tsv`: NAMPT
+- `phases/v3/results/broad_residual_gate/broad_residual_gate_summary.tsv`: NAMPT
   residual support retained only in IBD; `non_ibd_retained_positive_disease_count
   = 0`, `strict_core_covariate_surviving_disease_count = 0`, MS white-matter
   delta -0.214, p 0.543.
-- `results_v3/wave20_genetic_druggable_altaxis/local_opentargets_genetics_summary.tsv`:
+- `phases/v3/results/wave20_genetic_druggable_altaxis/local_opentargets_genetics_summary.tsv`:
   NAMPT OpenTargets score 0.0, no disease genetics support.
-- `results_v3/wave96_c15orf48_controller_search/pre_donor_controller_rank.tsv`:
+- `phases/v3/results/wave96_c15orf48_controller_search/pre_donor_controller_rank.tsv`:
   NAMPT had positive contexts in Crohn myeloid, UC myeloid, and T1D acinar
   cell, but failed MS anchor, genetics, perturbation, foundation, and modality
   gates.
-- `results_v3/wave126_l1000_upstream_regulator_reopener/l1000_upstream_regulator_decisions.tsv`:
+- `phases/v3/results/wave126_l1000_upstream_regulator_reopener/l1000_upstream_regulator_decisions.tsv`:
   withaferin-A/NAMPT did not reopen because the compound signal was high-risk
   cytotoxic/steroid/stress biology.
-- `subagents_v3/genetics_james_report.md`: NAMPT weak as a common-variant
+- `phases/v3/subagents/genetics_james_report.md`: NAMPT weak as a common-variant
   cross-autoimmune anchor; genetics favored HLA-II/IFI30/IRF1 instead.
-- `subagents_v3/wave19_hostile_critique.md`: local prior art cites FK866/NAMPT
+- `phases/v3/subagents/wave19_hostile_critique.md`: local prior art cites FK866/NAMPT
   inhibition reducing EAE disability via NAD depletion (PMID 19936064) and
   protective NAD biology (PMID 25290058), supporting direction ambiguity.
 

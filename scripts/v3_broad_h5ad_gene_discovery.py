@@ -28,10 +28,10 @@ from statsmodels.stats.multitest import multipletests
 from v3_analyze_osmr_complement_axes import CONFIGS, DirectConfig, ROOT
 
 SEED = 20260526
-OUT = ROOT / "results_v3" / "broad_h5ad_gene_discovery"
-MS_SIGNATURE = ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv"
-OPENTARGETS = ROOT / "results_v3" / "opentargets_candidate_disease_hits.tsv"
-CENTRAL_FIRST_PASS = ROOT / "results_v3" / "central_node_first_pass_rank.tsv"
+OUT = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery"
+MS_SIGNATURE = ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv"
+OPENTARGETS = ROOT / "phases/v3/results" / "opentargets_candidate_disease_hits.tsv"
+CENTRAL_FIRST_PASS = ROOT / "phases/v3/results" / "central_node_first_pass_rank.tsv"
 
 MIN_DONOR_CELLS = 10
 MIN_DONORS_PER_GROUP = 2

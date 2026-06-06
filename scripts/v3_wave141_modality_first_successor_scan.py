@@ -18,13 +18,13 @@ from v3_analyze_osmr_complement_axes import ROOT
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave141_modality_first_successor_scan"
+OUT = ROOT / "phases/v3/results" / "wave141_modality_first_successor_scan"
 
 INPUTS = {
-    "wave81": ROOT / "results_v3" / "wave81_perturbation_first_rescue" / "perturbation_first_integrated_rank.tsv",
-    "wave83": ROOT / "results_v3" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv",
-    "wave126": ROOT / "results_v3" / "wave126_l1000_upstream_regulator_reopener" / "l1000_upstream_regulator_decisions.tsv",
-    "wave140": ROOT / "results_v3" / "wave140_target_first_pivot_audit" / "target_first_pivot_audit.tsv",
+    "wave81": ROOT / "phases/v3/results" / "wave81_perturbation_first_rescue" / "perturbation_first_integrated_rank.tsv",
+    "wave83": ROOT / "phases/v3/results" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv",
+    "wave126": ROOT / "phases/v3/results" / "wave126_l1000_upstream_regulator_reopener" / "l1000_upstream_regulator_decisions.tsv",
+    "wave140": ROOT / "phases/v3/results" / "wave140_target_first_pivot_audit" / "target_first_pivot_audit.tsv",
 }
 
 BLOCK_TERMS = [

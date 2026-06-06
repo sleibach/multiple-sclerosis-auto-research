@@ -27,23 +27,23 @@ from v3_analyze_direct_h5ad_cell_states import ROOT
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave78_lilrb_family_target_audit"
+OUT = ROOT / "phases/v3/results" / "wave78_lilrb_family_target_audit"
 
 LILRB_GENES = ["LILRB1", "LILRB2", "LILRB3", "LILRB4", "LILRB5"]
 ACTIVATING_PARALOGS = ["LILRA1", "LILRA2", "LILRA3", "LILRA4", "LILRA5", "LILRA6"]
 ADJACENT_INHIBITORY = ["LAIR1", "SIGLEC10", "CD300A", "CD300LF", "FCGR2B"]
 CANDIDATE_GENES = LILRB_GENES + ACTIVATING_PARALOGS + ADJACENT_INHIBITORY
 
-BROAD = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
-MS_SIG = ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv"
-W34 = ROOT / "results_v3" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv"
-W55 = ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv"
-W62 = ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
-W68 = ROOT / "results_v3" / "wave68_gse282122_unrestricted_gene_screen" / "integrated_gene_target_rank.tsv"
-W70C = ROOT / "results_v3" / "wave70c_inhibitory_receptor_geneformer_direction" / "geneformer_direction_candidate_calls.tsv"
-RA_COUNTS = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
-RA_META = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
-RA_MODULES = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_module_scores.tsv"
+BROAD = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
+MS_SIG = ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv"
+W34 = ROOT / "phases/v3/results" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv"
+W55 = ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv"
+W62 = ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
+W68 = ROOT / "phases/v3/results" / "wave68_gse282122_unrestricted_gene_screen" / "integrated_gene_target_rank.tsv"
+W70C = ROOT / "phases/v3/results" / "wave70c_inhibitory_receptor_geneformer_direction" / "geneformer_direction_candidate_calls.tsv"
+RA_COUNTS = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
+RA_META = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
+RA_MODULES = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_module_scores.tsv"
 
 
 def rel(path: Path) -> str:

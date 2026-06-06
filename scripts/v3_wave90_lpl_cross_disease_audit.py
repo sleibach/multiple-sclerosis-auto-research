@@ -37,16 +37,16 @@ from v3_wave85_external_geo_antitnf_validation import bh, hedges_g, markdown_tab
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave90_lpl_cross_disease_audit"
+OUT = ROOT / "phases/v3/results" / "wave90_lpl_cross_disease_audit"
 
-MS_WM = ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv"
-MS_MODULE = ROOT / "results_v3" / "gse111972_module_contrasts.tsv"
-DIRECT_H5AD = ROOT / "results_v3" / "direct_h5ad_gene_replication" / "direct_h5ad_gene_donor_comparisons.tsv"
-W86_META = ROOT / "results_v3" / "wave86_external_geo_antitnf_gene_driver" / "external_geo_gene_meta_rank.tsv"
-W86_TESTS = ROOT / "results_v3" / "wave86_external_geo_antitnf_gene_driver" / "external_geo_gene_response_tests.tsv"
-RA_COUNTS = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
-RA_META = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
-PSO_TESTS = ROOT / "results_v3" / "wave89_psoriasis_gse85034_response" / "psoriasis_baseline_gene_response_tests.tsv"
+MS_WM = ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv"
+MS_MODULE = ROOT / "phases/v3/results" / "gse111972_module_contrasts.tsv"
+DIRECT_H5AD = ROOT / "phases/v3/results" / "direct_h5ad_gene_replication" / "direct_h5ad_gene_donor_comparisons.tsv"
+W86_META = ROOT / "phases/v3/results" / "wave86_external_geo_antitnf_gene_driver" / "external_geo_gene_meta_rank.tsv"
+W86_TESTS = ROOT / "phases/v3/results" / "wave86_external_geo_antitnf_gene_driver" / "external_geo_gene_response_tests.tsv"
+RA_COUNTS = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
+RA_META = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
+PSO_TESTS = ROOT / "phases/v3/results" / "wave89_psoriasis_gse85034_response" / "psoriasis_baseline_gene_response_tests.tsv"
 
 
 def auc_score(y: np.ndarray, score: np.ndarray) -> float:

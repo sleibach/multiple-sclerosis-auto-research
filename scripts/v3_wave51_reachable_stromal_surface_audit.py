@@ -16,18 +16,18 @@ import requests
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave51_reachable_stromal_surface_audit"
+OUT = ROOT / "phases/v3/results" / "wave51_reachable_stromal_surface_audit"
 RAW = OUT / "raw_api"
 SEED = 20260527
 
 INPUTS = {
-    "wave47": ROOT / "results_v3" / "wave47_late_stage_survivor_map" / "reopen_only_requirements.tsv",
-    "wave34a": ROOT / "results_v3" / "wave34a_genetics_first_target_rescue" / "genetics_first_candidate_rank.tsv",
-    "wave34": ROOT / "results_v3" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv",
-    "wave39": ROOT / "results_v3" / "wave39_surfaceome_rescue_after_resolution_pivot" / "surfaceome_rescue_rank.tsv",
-    "wave40": ROOT / "results_v3" / "wave40_parked_surface_failfast" / "parked_surface_failfast.tsv",
-    "broad": ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
-    "residual": ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
+    "wave47": ROOT / "phases/v3/results" / "wave47_late_stage_survivor_map" / "reopen_only_requirements.tsv",
+    "wave34a": ROOT / "phases/v3/results" / "wave34a_genetics_first_target_rescue" / "genetics_first_candidate_rank.tsv",
+    "wave34": ROOT / "phases/v3/results" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv",
+    "wave39": ROOT / "phases/v3/results" / "wave39_surfaceome_rescue_after_resolution_pivot" / "surfaceome_rescue_rank.tsv",
+    "wave40": ROOT / "phases/v3/results" / "wave40_parked_surface_failfast" / "parked_surface_failfast.tsv",
+    "broad": ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
+    "residual": ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
 }
 
 GENES = ["FAP", "FXYD5"]

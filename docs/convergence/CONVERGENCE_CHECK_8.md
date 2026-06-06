@@ -11,10 +11,10 @@ OpenTargets locus score is not enough for the V3 DoD.
 ## Inputs
 
 - Wave23-A metabolite/barrier scout:
-  `subagents_v3/wave23_metabolite_barrier_circuit.md`
+  `phases/v3/subagents/wave23_metabolite_barrier_circuit.md`
 - Wave25 proxy audit:
   `scripts/v3_wave25_causal_genetics_module_proxy.py`
-  and `results_v3/wave25_causal_genetics_module_proxy/`
+  and `phases/v3/results/wave25_causal_genetics_module_proxy/`
 - Prior integrated outputs from Wave14 target-level genetics, Wave18
   foundation/perturbation synthesis, Wave23 route/restoration triage, and
   Wave24 L1000 recurrence triage.

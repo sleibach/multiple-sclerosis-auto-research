@@ -16,7 +16,7 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave166_same_gene_genetics_cellstate_overlap"
+OUT = ROOT / "phases/v3/results" / "wave166_same_gene_genetics_cellstate_overlap"
 OUT.mkdir(parents=True, exist_ok=True)
 
 
@@ -52,10 +52,10 @@ def first(df: pd.DataFrame, gene: str) -> dict:
     return m.iloc[0].to_dict()
 
 
-wave62 = read_tsv("results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv")
-wave96 = read_tsv("results_v3/wave96_c15orf48_controller_search/pre_donor_controller_rank.tsv")
-wave103 = read_tsv("results_v3/wave103_intervention_first_successor_triage/intervention_first_successor_rank.tsv")
-wave164 = read_tsv("results_v3/wave164_genetics_first_survivor_audit/genetics_first_survivor_rank.tsv")
+wave62 = read_tsv("phases/v3/results/wave62_opentargets_target_resolution/target_resolution_summary.tsv")
+wave96 = read_tsv("phases/v3/results/wave96_c15orf48_controller_search/pre_donor_controller_rank.tsv")
+wave103 = read_tsv("phases/v3/results/wave103_intervention_first_successor_triage/intervention_first_successor_rank.tsv")
+wave164 = read_tsv("phases/v3/results/wave164_genetics_first_survivor_audit/genetics_first_survivor_rank.tsv")
 
 genes = sorted(set(wave62.get("gene", [])) | set(wave96.get("gene", [])) | set(wave164.get("gene", [])))
 

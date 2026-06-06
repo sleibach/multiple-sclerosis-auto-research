@@ -32,9 +32,9 @@ P2 = 1e-4
 P12_VALUES = [1e-6, 1e-5, 1e-4]
 W_VALUES = [0.01, 0.04, 0.09]
 
-TARGET_SUMMARY = ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
-CELLSTATE = ROOT / "results_v3" / "wave166_same_gene_genetics_cellstate_overlap" / "same_gene_genetics_cellstate_rank.tsv"
-EXTERNAL = ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv"
+TARGET_SUMMARY = ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
+CELLSTATE = ROOT / "phases/v3/results" / "wave166_same_gene_genetics_cellstate_overlap" / "same_gene_genetics_cellstate_rank.tsv"
+EXTERNAL = ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv"
 
 
 def read_tsv(path: Path) -> list[dict[str, str]]:

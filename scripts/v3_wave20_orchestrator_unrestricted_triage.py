@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave20_orchestrator_unrestricted_triage"
+OUT = ROOT / "phases/v3/results" / "wave20_orchestrator_unrestricted_triage"
 SEED = 20260527
 
 
@@ -43,12 +43,12 @@ def main() -> None:
     np.random.seed(SEED)
     OUT.mkdir(parents=True, exist_ok=True)
 
-    survivors = read_tsv("results_v3/unrestricted_survivor_scan/unrestricted_survivor_candidates.tsv")
-    broad_resid = read_tsv("results_v3/broad_residual_gate/broad_residual_gate_summary.tsv")
-    foundation = read_tsv("results_v3/wave18_foundation_rescue/foundation_rescue_candidate_rank.tsv")
-    geneformer = read_tsv("results_v3/geneformer_broad_residual_delete/geneformer_broad_residual_gene_summary.tsv")
-    chembl = read_tsv("results_v3/druggability/chembl_target_activity_summary.tsv")
-    genetics = read_tsv("results_v3/wave14_target_level_genetics/opentargets_locus_summary.tsv")
+    survivors = read_tsv("phases/v3/results/unrestricted_survivor_scan/unrestricted_survivor_candidates.tsv")
+    broad_resid = read_tsv("phases/v3/results/broad_residual_gate/broad_residual_gate_summary.tsv")
+    foundation = read_tsv("phases/v3/results/wave18_foundation_rescue/foundation_rescue_candidate_rank.tsv")
+    geneformer = read_tsv("phases/v3/results/geneformer_broad_residual_delete/geneformer_broad_residual_gene_summary.tsv")
+    chembl = read_tsv("phases/v3/results/druggability/chembl_target_activity_summary.tsv")
+    genetics = read_tsv("phases/v3/results/wave14_target_level_genetics/opentargets_locus_summary.tsv")
 
     if survivors.empty:
         raise FileNotFoundError("unrestricted survivor table missing")

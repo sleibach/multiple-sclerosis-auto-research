@@ -29,7 +29,7 @@ from statsmodels.stats.multitest import multipletests
 SEED = 20260526
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw_v3" / "cell_state"
-OUT = ROOT / "results_v3" / "direct_h5ad_cell_state"
+OUT = ROOT / "phases/v3/results" / "direct_h5ad_cell_state"
 
 MODULES = {
     "ifn_apc": ["STAT1", "IRF1", "CXCL10", "GBP1", "CD74", "IFI30", "HLA-DRA", "HLA-DRB1"],

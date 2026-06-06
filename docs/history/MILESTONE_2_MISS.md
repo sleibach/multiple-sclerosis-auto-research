@@ -44,7 +44,7 @@ Central candidates were ranked and then stress-tested:
 
 Post-critique status file:
 
-- `results_v3/post_critique_candidate_status.tsv`
+- `phases/v3/results/post_critique_candidate_status.tsv`
 
 ## What Was Missed
 

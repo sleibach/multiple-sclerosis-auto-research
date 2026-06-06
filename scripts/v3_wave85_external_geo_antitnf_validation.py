@@ -37,7 +37,7 @@ from v3_analyze_direct_h5ad_cell_states import ROOT
 
 SEED = 20260527
 RAW = ROOT / "data" / "raw_v3" / "wave84_external_geo"
-OUT = ROOT / "results_v3" / "wave85_external_geo_antitnf_validation"
+OUT = ROOT / "phases/v3/results" / "wave85_external_geo_antitnf_validation"
 
 SERIES_FILES = {
     "GSE12251": RAW / "GSE12251_series_matrix.txt.gz",

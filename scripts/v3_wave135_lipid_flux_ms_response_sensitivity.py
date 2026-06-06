@@ -29,7 +29,7 @@ from v3_wave130_ms_treatment_response_audit import (
 )
 
 
-OUT = ROOT / "results_v3" / "wave135_lipid_flux_ms_response_sensitivity"
+OUT = ROOT / "phases/v3/results" / "wave135_lipid_flux_ms_response_sensitivity"
 
 GENES = [
     "NAAA",
@@ -225,7 +225,7 @@ tissue-compartment validation before promotion.
 ## Reproducibility
 
 - Script: `scripts/v3_wave135_lipid_flux_ms_response_sensitivity.py`
-- Outputs: `results_v3/wave135_lipid_flux_ms_response_sensitivity/`
+- Outputs: `phases/v3/results/wave135_lipid_flux_ms_response_sensitivity/`
 - Seed: `{SEED}`
 """
     (OUT / "REPORT.md").write_text(report, encoding="utf-8")

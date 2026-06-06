@@ -20,7 +20,7 @@ import requests
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave16_ctsh_chemistry_selectivity"
+OUT = ROOT / "phases/v3/results" / "wave16_ctsh_chemistry_selectivity"
 RAW = OUT / "raw"
 
 TARGETS = {

@@ -12,17 +12,17 @@ from v3_analyze_osmr_complement_axes import ROOT
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave139_residual_marker_falsification_integrator"
+OUT = ROOT / "phases/v3/results" / "wave139_residual_marker_falsification_integrator"
 
 FILES = {
-    "lipid_rank": ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_lipid_lysosomal_neighborhood_rank.tsv",
-    "controller91": ROOT / "results_v3" / "wave91_lipid_neighborhood_controller_scan" / "lipid_neighborhood_controller_rank.tsv",
-    "route92": ROOT / "results_v3" / "wave92_lipid_state_controller_route_audit" / "controller_route_rank.tsv",
-    "snx10": ROOT / "results_v3" / "snx10_c15orf48_residual_gate" / "snx10_c15orf48_residual_gate.tsv",
-    "wave133": ROOT / "results_v3" / "wave133_closure_hygiene_correction" / "wave122_corrected_rank.tsv",
-    "wave104": ROOT / "results_v3" / "wave104_genetics_first_lipid_state_convergence_audit" / "genetics_first_lipid_state_rank.tsv",
-    "wave62": ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv",
-    "wave128": ROOT / "results_v3" / "wave128_genetics_first_reopener" / "genetics_first_reopener_decisions.tsv",
+    "lipid_rank": ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_lipid_lysosomal_neighborhood_rank.tsv",
+    "controller91": ROOT / "phases/v3/results" / "wave91_lipid_neighborhood_controller_scan" / "lipid_neighborhood_controller_rank.tsv",
+    "route92": ROOT / "phases/v3/results" / "wave92_lipid_state_controller_route_audit" / "controller_route_rank.tsv",
+    "snx10": ROOT / "phases/v3/results" / "snx10_c15orf48_residual_gate" / "snx10_c15orf48_residual_gate.tsv",
+    "wave133": ROOT / "phases/v3/results" / "wave133_closure_hygiene_correction" / "wave122_corrected_rank.tsv",
+    "wave104": ROOT / "phases/v3/results" / "wave104_genetics_first_lipid_state_convergence_audit" / "genetics_first_lipid_state_rank.tsv",
+    "wave62": ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv",
+    "wave128": ROOT / "phases/v3/results" / "wave128_genetics_first_reopener" / "genetics_first_reopener_decisions.tsv",
 }
 
 CANDIDATES = [

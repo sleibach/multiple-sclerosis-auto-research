@@ -10,13 +10,13 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave129_response_stratification_salvage"
+OUT = ROOT / "phases/v3/results" / "wave129_response_stratification_salvage"
 
-W87 = ROOT / "results_v3" / "wave87_cross_system_antitnf_resistance_gene_check" / "cross_system_antitnf_gene_integration.tsv"
-W75 = ROOT / "results_v3" / "wave75_response_state_stratification" / "cross_dataset_response_convergence.tsv"
-W76 = ROOT / "results_v3" / "wave76_adjusted_response_specificity" / "adjusted_cross_dataset_convergence.tsv"
-W84 = ROOT / "results_v3" / "wave84_response_prediction_audit" / "response_prediction_decision.tsv"
-W122 = ROOT / "results_v3" / "wave122_fresh_breadth_target_scan" / "fresh_breadth_target_rank.tsv"
+W87 = ROOT / "phases/v3/results" / "wave87_cross_system_antitnf_resistance_gene_check" / "cross_system_antitnf_gene_integration.tsv"
+W75 = ROOT / "phases/v3/results" / "wave75_response_state_stratification" / "cross_dataset_response_convergence.tsv"
+W76 = ROOT / "phases/v3/results" / "wave76_adjusted_response_specificity" / "adjusted_cross_dataset_convergence.tsv"
+W84 = ROOT / "phases/v3/results" / "wave84_response_prediction_audit" / "response_prediction_decision.tsv"
+W122 = ROOT / "phases/v3/results" / "wave122_fresh_breadth_target_scan" / "fresh_breadth_target_rank.tsv"
 
 CLOSED_TARGETS = {"ACSL1", "LAMP3", "IL1B", "CD44", "SPP1", "MERTK", "IFI30", "CTSB", "CXCR2", "CCL2", "TREM1"}
 

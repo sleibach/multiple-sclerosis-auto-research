@@ -27,21 +27,21 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave100_camp_restoration_class_audit"
+OUT = ROOT / "phases/v3/results" / "wave100_camp_restoration_class_audit"
 
-MS_WM = ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv"
-BROAD_RAW = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
-BROAD_RESID = ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv"
-W55 = ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv"
-W62 = ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
-W68 = ROOT / "results_v3" / "wave68_gse282122_unrestricted_gene_screen" / "integrated_gene_target_rank.tsv"
-W37 = ROOT / "results_v3" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
-W18 = ROOT / "results_v3" / "wave18_foundation_rescue" / "foundation_rescue_candidate_rank.tsv"
-W96 = ROOT / "results_v3" / "wave96_c15orf48_controller_search" / "contrast_state_rank_all.tsv"
-W96_DONOR = ROOT / "results_v3" / "wave96_c15orf48_controller_search" / "donor_level_c15_costate_summary.tsv"
-W28 = ROOT / "results_v3" / "wave28_target_first_rescue" / "target_first_rescue_matrix.tsv"
-W50_SUMMARY = ROOT / "results_v3" / "wave50_gpr65_acid_sensing_gpcr_audit" / "summary.json"
-PDE4_L1000 = ROOT / "results_v3" / "pde4_camp_l1000_audit_summary.json"
+MS_WM = ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv"
+BROAD_RAW = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
+BROAD_RESID = ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv"
+W55 = ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv"
+W62 = ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
+W68 = ROOT / "phases/v3/results" / "wave68_gse282122_unrestricted_gene_screen" / "integrated_gene_target_rank.tsv"
+W37 = ROOT / "phases/v3/results" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
+W18 = ROOT / "phases/v3/results" / "wave18_foundation_rescue" / "foundation_rescue_candidate_rank.tsv"
+W96 = ROOT / "phases/v3/results" / "wave96_c15orf48_controller_search" / "contrast_state_rank_all.tsv"
+W96_DONOR = ROOT / "phases/v3/results" / "wave96_c15orf48_controller_search" / "donor_level_c15_costate_summary.tsv"
+W28 = ROOT / "phases/v3/results" / "wave28_target_first_rescue" / "target_first_rescue_matrix.tsv"
+W50_SUMMARY = ROOT / "phases/v3/results" / "wave50_gpr65_acid_sensing_gpcr_audit" / "summary.json"
+PDE4_L1000 = ROOT / "phases/v3/results" / "pde4_camp_l1000_audit_summary.json"
 
 
 CANDIDATES: dict[str, dict[str, Any]] = {

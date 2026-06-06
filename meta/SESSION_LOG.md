@@ -485,3 +485,12 @@ Next session first action:
 - Frontier advanced: maintenance-only repository restructuring completed; `meta/REPO_INVENTORY_PRE.md`, `meta/REPO_RESTRUCTURE_PLAN.md`, `meta/REPO_MOVE_MAP.tsv`, `docs/ARTIFACT_INDEX.md`, and `meta/REPO_INVENTORY_POST.md` written; root Markdown artifacts moved into `docs/`/`meta/queues/` with `git mv`; canonical README/meta/knowledge references updated; RAG index rebuilt.
 - Stop reason: completed.
 - Next action: resume research from `meta/NEXT_ACTIONS.md`; primary scientific next action remains acquiring/requesting Gafson et al. 2018 DMF PBMC RNA-seq counts plus NEDA-4 labels and validating the immutable V22 rule mechanically when fresh paired data arrives.
+
+## RUN SUMMARY - 2026-06-06 23:55 UTC
+
+- Active runtime: approximately 9 minutes; total elapsed approximately 9 minutes; no usage-limit waiting time observed.
+- Session start UTC: 2026-06-06 23:46 UTC.
+- Session end UTC: 2026-06-06 23:55 UTC.
+- Frontier advanced: maintenance-only root cleanup completed for project-owned V2/V3 artifacts; `results_v2`, `results_v3`, `literature_v3`, `subagents_v3`, and V2/V3 entrypoint scripts moved with `git mv`; empty V2/V3 placeholder directories moved under `phases/` with `.gitkeep`; path references, README, artifact index, and RAG index updated.
+- Stop reason: completed.
+- Next action: resume research from `meta/NEXT_ACTIONS.md`; primary scientific next action remains acquiring/requesting Gafson et al. 2018 DMF PBMC RNA-seq counts plus NEDA-4 labels and validating the immutable V22 rule mechanically when fresh paired data arrives.

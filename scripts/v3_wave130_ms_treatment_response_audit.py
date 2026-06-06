@@ -30,13 +30,13 @@ from v3_analyze_osmr_complement_axes import ROOT
 
 SEED = 20260527
 RAW = ROOT / "data" / "raw_v3" / "wave96_ms_treatment"
-OUT = ROOT / "results_v3" / "wave130_ms_treatment_response_audit"
+OUT = ROOT / "phases/v3/results" / "wave130_ms_treatment_response_audit"
 
 GSE235_EXPR = RAW / "GSE235357_normalized_annotated.csv.gz"
 GSE235_MATRIX = RAW / "GSE235357_series_matrix.txt.gz"
 GSE250_EXPR = RAW / "GSE250453_fingo_RNAseq_all.tsv.gz"
 GSE250_MATRIX = RAW / "GSE250453_series_matrix.txt.gz"
-W129 = ROOT / "results_v3" / "wave129_response_stratification_salvage" / "response_stratification_salvage_decisions.tsv"
+W129 = ROOT / "phases/v3/results" / "wave129_response_stratification_salvage" / "response_stratification_salvage_decisions.tsv"
 
 PRIMARY_GENES = ["IL1B", "LAMP3"]
 MODULES = {
@@ -490,7 +490,7 @@ important than nominal p-values.
 ## Reproducibility
 
 - Script: `scripts/v3_wave130_ms_treatment_response_audit.py`
-- Outputs: `results_v3/wave130_ms_treatment_response_audit/`
+- Outputs: `phases/v3/results/wave130_ms_treatment_response_audit/`
 - Seed: `{SEED}`
 """
     (OUT / "REPORT.md").write_text(report, encoding="utf-8")

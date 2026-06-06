@@ -22,18 +22,18 @@ import requests
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave58_cxcr2_il7r_targeted_audit"
+OUT = ROOT / "phases/v3/results" / "wave58_cxcr2_il7r_targeted_audit"
 RAW = OUT / "raw_api"
 SEED = 20260527
 TARGETS = ["CXCR2", "IL7R"]
 
 INPUTS = {
-    "wave57_calls": ROOT / "results_v3" / "wave57_intervention_first_geneformer_screen" / "wave57_intervention_first_candidate_calls.tsv",
-    "wave57_metrics": ROOT / "results_v3" / "wave57_intervention_first_geneformer_screen" / "wave57_geneformer_metrics.tsv",
-    "wave55_rank": ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv",
-    "broad_h5ad": ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
-    "broad_residual": ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
-    "wave37_efferocytosis": ROOT / "results_v3" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv",
+    "wave57_calls": ROOT / "phases/v3/results" / "wave57_intervention_first_geneformer_screen" / "wave57_intervention_first_candidate_calls.tsv",
+    "wave57_metrics": ROOT / "phases/v3/results" / "wave57_intervention_first_geneformer_screen" / "wave57_geneformer_metrics.tsv",
+    "wave55_rank": ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv",
+    "broad_h5ad": ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
+    "broad_residual": ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
+    "wave37_efferocytosis": ROOT / "phases/v3/results" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv",
 }
 
 MANUAL_BIOLOGY_RISKS = {

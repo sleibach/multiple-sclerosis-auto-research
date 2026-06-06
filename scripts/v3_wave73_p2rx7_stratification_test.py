@@ -21,17 +21,17 @@ from statsmodels.stats.multitest import multipletests
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave73_p2rx7_stratification_test"
+OUT = ROOT / "phases/v3/results" / "wave73_p2rx7_stratification_test"
 SEED = 20260527
 
-BROAD = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
-MS_SIG = ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv"
-GSE282122_RAW = ROOT / "results_v3" / "wave68_gse282122_unrestricted_gene_screen" / "raw_remission_response_gene_tests.tsv"
-GSE282122_PAIRED = ROOT / "results_v3" / "wave68_gse282122_unrestricted_gene_screen" / "paired_gene_delta_tests.tsv"
-RA_COUNTS = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
-RA_META = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
-WAVE72_DECISIONS = ROOT / "results_v3" / "wave72_lipid_mediator_intervention_scout" / "lipid_mediator_decisions.tsv"
-WAVE72_BRANCH = ROOT / "results_v3" / "wave72_lipid_mediator_intervention_scout" / "lipid_mediator_branch_summary.tsv"
+BROAD = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
+MS_SIG = ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv"
+GSE282122_RAW = ROOT / "phases/v3/results" / "wave68_gse282122_unrestricted_gene_screen" / "raw_remission_response_gene_tests.tsv"
+GSE282122_PAIRED = ROOT / "phases/v3/results" / "wave68_gse282122_unrestricted_gene_screen" / "paired_gene_delta_tests.tsv"
+RA_COUNTS = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
+RA_META = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
+WAVE72_DECISIONS = ROOT / "phases/v3/results" / "wave72_lipid_mediator_intervention_scout" / "lipid_mediator_decisions.tsv"
+WAVE72_BRANCH = ROOT / "phases/v3/results" / "wave72_lipid_mediator_intervention_scout" / "lipid_mediator_branch_summary.tsv"
 
 MODULES: dict[str, list[str]] = {
     "p2rx7_inflammasome": ["P2RX7", "IL1B", "NLRP3", "CASP1", "PYCARD", "GSDMD", "NLRP1"],

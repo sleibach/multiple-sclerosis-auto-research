@@ -29,7 +29,7 @@ SEED = 20260526
 CENSUS_URI = "s3://cellxgene-census-public-us-west-2/cell-census/2025-11-17/soma/"
 DATASET_ID = "218acb0f-9f2f-4f76-b90b-15a4b7c7f629"
 DATASET_VERSION = "4118e166-34f5-4c1f-9eed-c64b90a3dace"
-OUT = ROOT / "results_v3" / "sle_census_targeted"
+OUT = ROOT / "phases/v3/results" / "sle_census_targeted"
 
 DISEASE_LABEL = "systemic lupus erythematosus"
 CONTROL_LABEL = "normal"

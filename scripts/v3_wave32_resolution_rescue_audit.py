@@ -28,26 +28,26 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave32_resolution_rescue_audit"
+OUT = ROOT / "phases/v3/results" / "wave32_resolution_rescue_audit"
 RAW = OUT / "raw_api"
 SEED = 20260527
 USER_AGENT = "ms-auto-research-wave32-resolution-rescue/1.0"
 
 
 PATHS = {
-    "cross_gene": ROOT / "results_v3" / "cross_disease_gene_summary.tsv",
-    "broad_gene": ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
-    "residual": ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
-    "surface": ROOT / "results_v3" / "wave15_surface_trafficking_dependency" / "candidate_ranked.tsv",
-    "accessible": ROOT / "results_v3" / "wave18_accessible_target_rescue" / "accessible_target_rescue_candidates.tsv",
-    "foundation": ROOT / "results_v3" / "wave18_foundation_rescue" / "foundation_rescue_candidate_rank.tsv",
-    "checkpoint": ROOT / "results_v3" / "wave19_tolerogenic_checkpoint" / "checkpoint_candidate_synthesis.tsv",
-    "lysosomal_routes": ROOT / "results_v3" / "wave19_lysosomal_controller" / "route_summary.tsv",
-    "controller_triage": ROOT / "results_v3" / "wave19_orchestrator_controller_triage" / "wave19_controller_triage.tsv",
-    "genetics": ROOT / "results_v3" / "wave25_causal_genetics_module_proxy" / "causal_proxy_candidate_matrix.tsv",
-    "target_first": ROOT / "results_v3" / "wave28_target_first_rescue" / "target_first_rescue_matrix.tsv",
-    "direct": ROOT / "results_v3" / "wave15_perturbation_drug_response" / "candidate_level_synthesis.tsv",
-    "l1000": ROOT / "results_v3" / "wave15_perturbation_drug_response" / "l1000fwd_selectivity_compound_rank.tsv",
+    "cross_gene": ROOT / "phases/v3/results" / "cross_disease_gene_summary.tsv",
+    "broad_gene": ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
+    "residual": ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
+    "surface": ROOT / "phases/v3/results" / "wave15_surface_trafficking_dependency" / "candidate_ranked.tsv",
+    "accessible": ROOT / "phases/v3/results" / "wave18_accessible_target_rescue" / "accessible_target_rescue_candidates.tsv",
+    "foundation": ROOT / "phases/v3/results" / "wave18_foundation_rescue" / "foundation_rescue_candidate_rank.tsv",
+    "checkpoint": ROOT / "phases/v3/results" / "wave19_tolerogenic_checkpoint" / "checkpoint_candidate_synthesis.tsv",
+    "lysosomal_routes": ROOT / "phases/v3/results" / "wave19_lysosomal_controller" / "route_summary.tsv",
+    "controller_triage": ROOT / "phases/v3/results" / "wave19_orchestrator_controller_triage" / "wave19_controller_triage.tsv",
+    "genetics": ROOT / "phases/v3/results" / "wave25_causal_genetics_module_proxy" / "causal_proxy_candidate_matrix.tsv",
+    "target_first": ROOT / "phases/v3/results" / "wave28_target_first_rescue" / "target_first_rescue_matrix.tsv",
+    "direct": ROOT / "phases/v3/results" / "wave15_perturbation_drug_response" / "candidate_level_synthesis.tsv",
+    "l1000": ROOT / "phases/v3/results" / "wave15_perturbation_drug_response" / "l1000fwd_selectivity_compound_rank.tsv",
 }
 
 

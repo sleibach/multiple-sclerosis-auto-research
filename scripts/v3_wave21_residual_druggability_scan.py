@@ -26,43 +26,43 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave21_residual_druggability_scan"
+OUT = ROOT / "phases/v3/results" / "wave21_residual_druggability_scan"
 RAW = OUT / "raw_api"
 
-BROAD_RESIDUAL = ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv"
-BROAD_H5AD = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
-OT_CREDIBLE = ROOT / "tmp_v3" / "wave13_opentargets_gwas_credible_sets.tsv"
-OT_CANDIDATE_HITS = ROOT / "results_v3" / "opentargets_candidate_disease_hits.tsv"
-LOCAL_CHEMBL = ROOT / "results_v3" / "druggability" / "chembl_target_activity_summary.tsv"
-LOCAL_UNIPROT = ROOT / "results_v3" / "druggability" / "uniprot_target_summary.tsv"
+BROAD_RESIDUAL = ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv"
+BROAD_H5AD = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
+OT_CREDIBLE = ROOT / "phases/v3/tmp" / "wave13_opentargets_gwas_credible_sets.tsv"
+OT_CANDIDATE_HITS = ROOT / "phases/v3/results" / "opentargets_candidate_disease_hits.tsv"
+LOCAL_CHEMBL = ROOT / "phases/v3/results" / "druggability" / "chembl_target_activity_summary.tsv"
+LOCAL_UNIPROT = ROOT / "phases/v3/results" / "druggability" / "uniprot_target_summary.tsv"
 
 PRIOR_TABLES = {
-    "wave20_unrestricted": ROOT / "results_v3" / "wave20_unrestricted_survivor" / "wave20_gate_matrix.tsv",
+    "wave20_unrestricted": ROOT / "phases/v3/results" / "wave20_unrestricted_survivor" / "wave20_gate_matrix.tsv",
     "wave20_orchestrator": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave20_orchestrator_unrestricted_triage"
     / "wave20_unrestricted_triage.tsv",
     "wave20_genetic_altaxis": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave20_genetic_druggable_altaxis"
     / "negative_ranked_shortlist.tsv",
     "wave19_checkpoint": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave19_tolerogenic_checkpoint"
     / "checkpoint_candidate_synthesis.tsv",
     "wave19_lysosomal_routes": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave19_lysosomal_controller"
     / "route_summary.tsv",
     "wave19_lysosomal_candidates": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave19_lysosomal_controller"
     / "candidate_local_evidence.tsv",
     "wave19_orchestrator": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave19_orchestrator_controller_triage"
     / "wave19_controller_triage.tsv",
-    "wave14_gate_matrix": ROOT / "results_v3" / "wave14_candidate_gate_matrix" / "wave14_candidate_gate_matrix.tsv",
+    "wave14_gate_matrix": ROOT / "phases/v3/results" / "wave14_candidate_gate_matrix" / "wave14_candidate_gate_matrix.tsv",
 }
 
 USER_AGENT = "ms-auto-research-wave21-residual-druggability/1.0"

@@ -6,15 +6,15 @@ Timestamp: 2026-05-27 16:49 CEST
 
 - Wave71-A global survivor meta-rank:
   - `scripts/v3_wave71_global_survivor_meta_rank.py`
-  - `results_v3/wave71_global_survivor_meta_rank/`
-  - `subagents_v3/wave71a_global_survivor_meta_rank.md`
+  - `phases/v3/results/wave71_global_survivor_meta_rank/`
+  - `phases/v3/subagents/wave71a_global_survivor_meta_rank.md`
 - Wave71-B hostile prior-branch status synthesis:
-  - `subagents_v3/wave71b_prior_branch_status_synthesis.md`
+  - `phases/v3/subagents/wave71b_prior_branch_status_synthesis.md`
 - Wave71-C outside-Fc/ROS intervention scout:
-  - `subagents_v3/wave71c_cross_autoimmune_intervention_scout.md`
+  - `phases/v3/subagents/wave71c_cross_autoimmune_intervention_scout.md`
 - Local Wave72 lipid-mediator intervention scout:
   - `scripts/v3_wave72_lipid_mediator_intervention_scout.py`
-  - `results_v3/wave72_lipid_mediator_intervention_scout/`
+  - `phases/v3/results/wave72_lipid_mediator_intervention_scout/`
 
 ## What Each Track Believes Now
 

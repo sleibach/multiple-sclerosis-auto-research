@@ -21,12 +21,12 @@ claims.
 
 Vetted local evidence:
 
-- `results_v3/wave15_perturbation_drug_response/gse162464_mouse_rna_selectivity.tsv`
-- `results_v3/wave17_mediator_kinase_route/local_perturbation_evidence.tsv`
-- `results_v3/wave17_mediator_route_gate/summary.json`
-- `results_v3/wave17_mediator_kinase_route/compound_landscape.tsv`
-- `results_v3/wave53_perturbation_first_pivot/decision_matrix.tsv`
-- `subagents_v3/wave53g_med16_mediator_review.md`
+- `phases/v3/results/wave15_perturbation_drug_response/gse162464_mouse_rna_selectivity.tsv`
+- `phases/v3/results/wave17_mediator_kinase_route/local_perturbation_evidence.tsv`
+- `phases/v3/results/wave17_mediator_route_gate/summary.json`
+- `phases/v3/results/wave17_mediator_kinase_route/compound_landscape.tsv`
+- `phases/v3/results/wave53_perturbation_first_pivot/decision_matrix.tsv`
+- `phases/v3/subagents/wave53g_med16_mediator_review.md`
 
 ## Next Action
 

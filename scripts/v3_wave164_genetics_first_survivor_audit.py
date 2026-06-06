@@ -10,7 +10,7 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave164_genetics_first_survivor_audit"
+OUT = ROOT / "phases/v3/results" / "wave164_genetics_first_survivor_audit"
 OUT.mkdir(parents=True, exist_ok=True)
 
 CLOSED = {
@@ -20,9 +20,9 @@ CLOSED = {
 
 
 def main() -> None:
-    w62 = pd.read_csv(ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv", sep="\t", low_memory=False)
-    broad = pd.read_csv(ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_summary.tsv", sep="\t", low_memory=False)
-    w103 = pd.read_csv(ROOT / "results_v3" / "wave103_intervention_first_successor_triage" / "intervention_first_successor_rank.tsv", sep="\t", low_memory=False)
+    w62 = pd.read_csv(ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv", sep="\t", low_memory=False)
+    broad = pd.read_csv(ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_summary.tsv", sep="\t", low_memory=False)
+    w103 = pd.read_csv(ROOT / "phases/v3/results" / "wave103_intervention_first_successor_triage" / "intervention_first_successor_rank.tsv", sep="\t", low_memory=False)
 
     b = broad.set_index("gene")
     i103 = w103.set_index("gene")

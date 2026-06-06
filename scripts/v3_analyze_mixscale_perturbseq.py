@@ -26,7 +26,7 @@ from statsmodels.stats.multitest import multipletests
 SEED = 20260526
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw_v3" / "mixscale"
-OUT = ROOT / "results_v3" / "mixscale"
+OUT = ROOT / "phases/v3/results" / "mixscale"
 ZIP_PATH = RAW / "DE_results_all_pathway.zip"
 
 PRIMARY_PERTURBATIONS = {

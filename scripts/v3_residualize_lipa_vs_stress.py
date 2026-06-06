@@ -23,7 +23,7 @@ from scipy import stats
 from statsmodels.stats.multitest import multipletests
 
 ROOT = Path(__file__).resolve().parents[1]
-RESULTS = ROOT / "results_v3"
+RESULTS = ROOT / "phases/v3/results"
 OUT = RESULTS / "lipa_residualization"
 
 GENES = [

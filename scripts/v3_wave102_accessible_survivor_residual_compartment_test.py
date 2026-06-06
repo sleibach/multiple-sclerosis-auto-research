@@ -29,8 +29,8 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave102_accessible_survivor_residual_compartment_test"
-W101 = ROOT / "results_v3" / "wave101_accessible_survivor_forcing_triage" / "accessible_survivor_forcing_rank.tsv"
+OUT = ROOT / "phases/v3/results" / "wave102_accessible_survivor_residual_compartment_test"
+W101 = ROOT / "phases/v3/results" / "wave101_accessible_survivor_forcing_triage" / "accessible_survivor_forcing_rank.tsv"
 
 CANDIDATES = [
     "SEL1L3",

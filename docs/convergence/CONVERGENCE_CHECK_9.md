@@ -10,9 +10,9 @@ routes were treatment-response stratification and perturbation/deconvolution.
 ## Inputs
 
 - Wave26 strict treatment-response audit:
-  `results_v3/wave26_treatment_response_strict_audit/`
+  `phases/v3/results/wave26_treatment_response_strict_audit/`
 - Wave27 L1000 unknown perturbagen deconvolution:
-  `results_v3/wave27_l1000_unknown_deconvolution/`
+  `phases/v3/results/wave27_l1000_unknown_deconvolution/`
 
 ## Response Track
 

@@ -16,7 +16,7 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave168_efferocytosis_state_controller_pivot"
+OUT = ROOT / "phases/v3/results" / "wave168_efferocytosis_state_controller_pivot"
 OUT.mkdir(parents=True, exist_ok=True)
 
 
@@ -52,12 +52,12 @@ def first(df: pd.DataFrame, gene: str, col: str = "gene") -> dict:
     return rows.iloc[0].to_dict()
 
 
-wave37 = read_tsv("results_v3/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv")
-wave81 = read_tsv("results_v3/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv")
-wave82 = read_tsv("results_v3/wave82_parked_perturbation_intervention_audit/wave82_integrated_intervention_rank.tsv")
-wave166 = read_tsv("results_v3/wave166_same_gene_genetics_cellstate_overlap/same_gene_genetics_cellstate_rank.tsv")
-wave167 = read_tsv("results_v3/wave167_shadow_no_label_overlap/shadow_no_label_rank.tsv")
-wave62 = read_tsv("results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv")
+wave37 = read_tsv("phases/v3/results/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv")
+wave81 = read_tsv("phases/v3/results/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv")
+wave82 = read_tsv("phases/v3/results/wave82_parked_perturbation_intervention_audit/wave82_integrated_intervention_rank.tsv")
+wave166 = read_tsv("phases/v3/results/wave166_same_gene_genetics_cellstate_overlap/same_gene_genetics_cellstate_rank.tsv")
+wave167 = read_tsv("phases/v3/results/wave167_shadow_no_label_overlap/shadow_no_label_rank.tsv")
+wave62 = read_tsv("phases/v3/results/wave62_opentargets_target_resolution/target_resolution_summary.tsv")
 
 if wave37.empty:
     raise SystemExit("Missing Wave37 efferocytosis screen table")

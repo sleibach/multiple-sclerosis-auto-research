@@ -18,7 +18,7 @@ from scipy import stats
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave160_lifr_interface_rescue_guardrail"
+OUT = ROOT / "phases/v3/results" / "wave160_lifr_interface_rescue_guardrail"
 OUT.mkdir(parents=True, exist_ok=True)
 
 AXIS = ["LIFR", "LIF", "IL6ST", "OSMR"]
@@ -41,12 +41,12 @@ def pick(df: pd.DataFrame, gene: str) -> dict[str, object]:
 
 
 def main() -> None:
-    rescue = read_tsv(ROOT / "results_v3" / "wave153_gse129487_synovial_fibroblast_sirna_rescue" / "sirna_rescue_module_tests.tsv")
-    broad = read_tsv(ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_summary.tsv")
-    ms = read_tsv(ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv")
-    wave62 = read_tsv(ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv")
-    wave103 = read_tsv(ROOT / "results_v3" / "wave103_intervention_first_successor_triage" / "intervention_first_successor_rank.tsv")
-    wave122 = read_tsv(ROOT / "results_v3" / "wave122_fresh_breadth_target_scan" / "fresh_breadth_target_rank.tsv")
+    rescue = read_tsv(ROOT / "phases/v3/results" / "wave153_gse129487_synovial_fibroblast_sirna_rescue" / "sirna_rescue_module_tests.tsv")
+    broad = read_tsv(ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_summary.tsv")
+    ms = read_tsv(ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv")
+    wave62 = read_tsv(ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv")
+    wave103 = read_tsv(ROOT / "phases/v3/results" / "wave103_intervention_first_successor_triage" / "intervention_first_successor_rank.tsv")
+    wave122 = read_tsv(ROOT / "phases/v3/results" / "wave122_fresh_breadth_target_scan" / "fresh_breadth_target_rank.tsv")
 
     induced = rescue[(rescue["ctrl_induction_p_value"] < 0.05) & (rescue["mean_ctrl_induction"] > 0)].copy()
     induced.to_csv(OUT / "all_induced_context_rescue_tests.tsv", sep="\t", index=False)

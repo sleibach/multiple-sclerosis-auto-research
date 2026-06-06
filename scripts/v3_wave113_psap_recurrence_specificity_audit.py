@@ -14,12 +14,12 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave113_psap_recurrence_specificity_audit"
-BROAD = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
-MS = ROOT / "results_v3" / "wave81_perturbation_first_rescue" / "perturbation_first_ms_rows.tsv"
-W57 = ROOT / "results_v3" / "wave57_intervention_first_geneformer_screen" / "wave57_geneformer_gene_summary.tsv"
-W37 = ROOT / "results_v3" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
-W81 = ROOT / "results_v3" / "wave81_perturbation_first_rescue" / "perturbation_first_integrated_rank.tsv"
+OUT = ROOT / "phases/v3/results" / "wave113_psap_recurrence_specificity_audit"
+BROAD = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
+MS = ROOT / "phases/v3/results" / "wave81_perturbation_first_rescue" / "perturbation_first_ms_rows.tsv"
+W57 = ROOT / "phases/v3/results" / "wave57_intervention_first_geneformer_screen" / "wave57_geneformer_gene_summary.tsv"
+W37 = ROOT / "phases/v3/results" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
+W81 = ROOT / "phases/v3/results" / "wave81_perturbation_first_rescue" / "perturbation_first_integrated_rank.tsv"
 
 GENE = "PSAP"
 

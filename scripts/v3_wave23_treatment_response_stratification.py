@@ -8,7 +8,7 @@ the shared lipid-lysosomal/APC module is more useful as a baseline
 stratification biomarker than as a therapeutic target.
 
 Outputs are written under:
-results_v3/wave23_treatment_response_stratification/
+phases/v3/results/wave23_treatment_response_stratification/
 """
 
 from __future__ import annotations
@@ -34,7 +34,7 @@ from statsmodels.stats.multitest import multipletests
 from v3_analyze_direct_h5ad_cell_states import MODULES, ROOT
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave23_treatment_response_stratification"
+OUT = ROOT / "phases/v3/results" / "wave23_treatment_response_stratification"
 
 GENERIC_MODULES = ["inflammatory_nfkb", "ifn_apc"]
 SHARED_MODULES = [
@@ -155,7 +155,7 @@ def collapse_probes_to_genes(expr: pd.DataFrame, annot: pd.DataFrame) -> pd.Data
 
 
 def ensembl_symbol_map() -> dict[str, str]:
-    path = ROOT / "results_v3" / "wave18_treatment_response" / "wave18_gse138746_ra_gene_map.tsv"
+    path = ROOT / "phases/v3/results" / "wave18_treatment_response" / "wave18_gse138746_ra_gene_map.tsv"
     if not path.exists():
         return {}
     df = pd.read_csv(path, sep="\t")
@@ -443,7 +443,7 @@ def analyze_local_wave18() -> tuple[pd.DataFrame, pd.DataFrame, list[dict[str, o
     pd_tables = []
     inventory: list[dict[str, object]] = []
 
-    ra_path = ROOT / "results_v3" / "wave18_treatment_response" / "wave18_gse138746_ra_sample_module_scores.tsv"
+    ra_path = ROOT / "phases/v3/results" / "wave18_treatment_response" / "wave18_gse138746_ra_sample_module_scores.tsv"
     if ra_path.exists():
         ra = pd.read_csv(ra_path, sep="\t")
         index_cols = ["patient", "sample", "compartment", "drug", "response_code", "eular_responder", "good_responder"]
@@ -498,7 +498,7 @@ def analyze_local_wave18() -> tuple[pd.DataFrame, pd.DataFrame, list[dict[str, o
             }
         )
 
-    uc_path = ROOT / "results_v3" / "gse253006_tofacitinib_marker" / "gse253006_marker_donor_module_scores.tsv"
+    uc_path = ROOT / "phases/v3/results" / "gse253006_tofacitinib_marker" / "gse253006_marker_donor_module_scores.tsv"
     if uc_path.exists():
         uc = pd.read_csv(uc_path, sep="\t").rename(columns={"mean_score": "score"})
         baseline = uc[uc["timepoint_norm"].eq("W0")].copy()
@@ -549,7 +549,7 @@ def analyze_local_wave18() -> tuple[pd.DataFrame, pd.DataFrame, list[dict[str, o
             }
         )
 
-    pso_path = ROOT / "results_v3" / "wave18_treatment_response" / "wave18_gse183047_psoriasis_sample_module_scores.tsv"
+    pso_path = ROOT / "phases/v3/results" / "wave18_treatment_response" / "wave18_gse183047_psoriasis_sample_module_scores.tsv"
     if pso_path.exists():
         pso = pd.read_csv(pso_path, sep="\t").rename(columns={"mean_score": "score"})
         pso = pso[pso["group"].eq("psoriasis") & pso["lesion"].eq("LS")].copy()

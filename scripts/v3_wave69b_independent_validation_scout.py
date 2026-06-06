@@ -20,16 +20,16 @@ from statsmodels.stats.multitest import multipletests
 
 SEED = 20260527
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave69b_independent_validation_scout"
+OUT = ROOT / "phases/v3/results" / "wave69b_independent_validation_scout"
 
 CANDIDATES = ["RGS14", "CD274", "TNFSF15", "CD80", "FCGR2B", "NCF1", "IL7R", "STAT4", "SP140"]
 
-WAVE68 = ROOT / "results_v3" / "wave68_gse282122_unrestricted_gene_screen" / "integrated_gene_target_rank.tsv"
-MS_SIGNATURE = ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv"
-BROAD_CONTRASTS = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
-BROAD_SUMMARY = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_summary.tsv"
-RA_COUNTS = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
-RA_META = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
+WAVE68 = ROOT / "phases/v3/results" / "wave68_gse282122_unrestricted_gene_screen" / "integrated_gene_target_rank.tsv"
+MS_SIGNATURE = ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv"
+BROAD_CONTRASTS = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
+BROAD_SUMMARY = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_summary.tsv"
+RA_COUNTS = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
+RA_META = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
 
 
 def hedges_g(a: np.ndarray, b: np.ndarray) -> float:

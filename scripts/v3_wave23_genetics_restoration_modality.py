@@ -19,15 +19,15 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave23_genetics_restoration_modality"
+OUT = ROOT / "phases/v3/results" / "wave23_genetics_restoration_modality"
 
-OT_CREDIBLE = ROOT / "tmp_v3" / "wave13_opentargets_gwas_credible_sets.tsv"
-WAVE20 = ROOT / "results_v3" / "wave20_genetic_druggable_altaxis"
-WAVE14_TRUTH = ROOT / "results_v3" / "wave14_target_level_genetics" / "target_level_genetics_truth_table.tsv"
-BROAD_H5AD = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
-PERT_SYNTH = ROOT / "results_v3" / "wave15_perturbation_drug_response" / "candidate_level_synthesis.tsv"
-LOCAL_CHEMBL = ROOT / "results_v3" / "druggability" / "chembl_target_activity_summary.tsv"
-LOCAL_UNIPROT = ROOT / "results_v3" / "druggability" / "uniprot_target_summary.tsv"
+OT_CREDIBLE = ROOT / "phases/v3/tmp" / "wave13_opentargets_gwas_credible_sets.tsv"
+WAVE20 = ROOT / "phases/v3/results" / "wave20_genetic_druggable_altaxis"
+WAVE14_TRUTH = ROOT / "phases/v3/results" / "wave14_target_level_genetics" / "target_level_genetics_truth_table.tsv"
+BROAD_H5AD = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
+PERT_SYNTH = ROOT / "phases/v3/results" / "wave15_perturbation_drug_response" / "candidate_level_synthesis.tsv"
+LOCAL_CHEMBL = ROOT / "phases/v3/results" / "druggability" / "chembl_target_activity_summary.tsv"
+LOCAL_UNIPROT = ROOT / "phases/v3/results" / "druggability" / "uniprot_target_summary.tsv"
 
 
 CANDIDATES: dict[str, dict[str, Any]] = {

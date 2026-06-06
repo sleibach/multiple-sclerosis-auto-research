@@ -18,61 +18,61 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave18_foundation_rescue"
+OUT = ROOT / "phases/v3/results" / "wave18_foundation_rescue"
 
 GENEFORMER_SOURCES = [
     {
         "source": "candidate_delete",
-        "dir": ROOT / "results_v3" / "geneformer_candidate_delete",
+        "dir": ROOT / "phases/v3/results" / "geneformer_candidate_delete",
         "metrics": "geneformer_candidate_delete_metrics.tsv",
         "summary": "summary.json",
     },
     {
         "source": "pivot_panel_delete",
-        "dir": ROOT / "results_v3" / "geneformer_pivot_panel_delete",
+        "dir": ROOT / "phases/v3/results" / "geneformer_pivot_panel_delete",
         "metrics": "geneformer_pivot_panel_delete_metrics.tsv",
         "summary": "summary.json",
     },
     {
         "source": "unrestricted_survivor_delete",
-        "dir": ROOT / "results_v3" / "geneformer_unrestricted_survivor_delete",
+        "dir": ROOT / "phases/v3/results" / "geneformer_unrestricted_survivor_delete",
         "metrics": "geneformer_unrestricted_survivor_delete_metrics.tsv",
         "summary": "summary.json",
     },
     {
         "source": "broad_residual_delete",
-        "dir": ROOT / "results_v3" / "geneformer_broad_residual_delete",
+        "dir": ROOT / "phases/v3/results" / "geneformer_broad_residual_delete",
         "metrics": "geneformer_broad_residual_delete_metrics.tsv",
         "summary": "summary.json",
     },
     {
         "source": "wave14_narrowed_delete",
-        "dir": ROOT / "results_v3" / "wave14_geneformer_narrowed_candidate_delete",
+        "dir": ROOT / "phases/v3/results" / "wave14_geneformer_narrowed_candidate_delete",
         "metrics": "wave14_geneformer_narrowed_candidate_delete_metrics.tsv",
         "summary": "summary.json",
     },
     {
         "source": "wave15_loader_dependency_delete",
-        "dir": ROOT / "results_v3" / "wave15_geneformer_loader_dependency_delete",
+        "dir": ROOT / "phases/v3/results" / "wave15_geneformer_loader_dependency_delete",
         "metrics": "wave15_geneformer_loader_dependency_metrics.tsv",
         "summary": "summary.json",
     },
 ]
 
-DIRECT_PERTURBATION_PATH = ROOT / "results_v3" / "wave15_perturbation_drug_response" / "ranked_direct_perturbations.tsv"
-MIXSCALE_TRANSITION_PATH = ROOT / "results_v3" / "mixscale" / "mixscale_transition_controller_rank.tsv"
-MIXSCALE_READOUT_PATH = ROOT / "results_v3" / "mixscale" / "mixscale_readout_gene_summary.tsv"
-GSE162463_SCREEN_PATH = ROOT / "results_v3" / "wave14_gsk3b_ciita_perturbation" / "gse162463_screen_gene_summary.tsv"
+DIRECT_PERTURBATION_PATH = ROOT / "phases/v3/results" / "wave15_perturbation_drug_response" / "ranked_direct_perturbations.tsv"
+MIXSCALE_TRANSITION_PATH = ROOT / "phases/v3/results" / "mixscale" / "mixscale_transition_controller_rank.tsv"
+MIXSCALE_READOUT_PATH = ROOT / "phases/v3/results" / "mixscale" / "mixscale_readout_gene_summary.tsv"
+GSE162463_SCREEN_PATH = ROOT / "phases/v3/results" / "wave14_gsk3b_ciita_perturbation" / "gse162463_screen_gene_summary.tsv"
 GSE162464_READOUT_PATH = (
-    ROOT / "results_v3" / "wave15_perturbation_drug_response" / "gse162464_mouse_rna_readout_gene_effects.tsv"
+    ROOT / "phases/v3/results" / "wave15_perturbation_drug_response" / "gse162464_mouse_rna_readout_gene_effects.tsv"
 )
 GSE294918_READOUT_PATH = (
-    ROOT / "results_v3" / "wave15_perturbation_drug_response" / "gse294918_human_ruxolitinib_readout_gene_effects.tsv"
+    ROOT / "phases/v3/results" / "wave15_perturbation_drug_response" / "gse294918_human_ruxolitinib_readout_gene_effects.tsv"
 )
-STATE_SUMMARY_PATH = ROOT / "results_v3" / "state_parse_cd14_summary.json"
-STATE_FOCUSED_VALIDATION_PATH = ROOT / "results_v3" / "state_parse_cd14_focused_per_target_validation.tsv"
-STATE_AXIS_PATH = ROOT / "results_v3" / "state_parse_cd14_axis_scores.tsv"
-STATE_TRANSITION_RANK_PATH = ROOT / "results_v3" / "state_parse_cd14_transition_target_rank.tsv"
+STATE_SUMMARY_PATH = ROOT / "phases/v3/results" / "state_parse_cd14_summary.json"
+STATE_FOCUSED_VALIDATION_PATH = ROOT / "phases/v3/results" / "state_parse_cd14_focused_per_target_validation.tsv"
+STATE_AXIS_PATH = ROOT / "phases/v3/results" / "state_parse_cd14_axis_scores.tsv"
+STATE_TRANSITION_RANK_PATH = ROOT / "phases/v3/results" / "state_parse_cd14_transition_target_rank.tsv"
 
 MOUSE_TO_HUMAN = {
     "CTSH": "CTSH",

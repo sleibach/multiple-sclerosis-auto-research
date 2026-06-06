@@ -21,7 +21,7 @@ import requests
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave62_opentargets_target_resolution"
+OUT = ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution"
 RAW = OUT / "raw_api"
 SEED = 20260527
 OT_API = "https://api.platform.opentargets.org/api/v4/graphql"
@@ -42,12 +42,12 @@ DISEASES = {
 }
 
 INPUTS = {
-    "broad_h5ad": ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
-    "broad_residual": ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
-    "wave34": ROOT / "results_v3" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv",
-    "wave34a": ROOT / "results_v3" / "wave34a_genetics_first_target_rescue" / "genetics_first_candidate_rank.tsv",
-    "wave55": ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv",
-    "wave61": ROOT / "results_v3" / "wave61_perturbation_first_guardrail" / "intervention_evidence_tiers.tsv",
+    "broad_h5ad": ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
+    "broad_residual": ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
+    "wave34": ROOT / "phases/v3/results" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv",
+    "wave34a": ROOT / "phases/v3/results" / "wave34a_genetics_first_target_rescue" / "genetics_first_candidate_rank.tsv",
+    "wave55": ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv",
+    "wave61": ROOT / "phases/v3/results" / "wave61_perturbation_first_guardrail" / "intervention_evidence_tiers.tsv",
 }
 
 MAX_STUDIES_PER_DISEASE = 60

@@ -15,7 +15,7 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave165_inava_nod_ripk_neighbor_audit"
+OUT = ROOT / "phases/v3/results" / "wave165_inava_nod_ripk_neighbor_audit"
 OUT.mkdir(parents=True, exist_ok=True)
 
 GENES = ["INAVA", "RIPK2", "NOD2", "NOD1", "ATG16L1", "IRGM", "CARD9"]
@@ -53,14 +53,14 @@ def row_for(df: pd.DataFrame, gene: str) -> dict:
     return rows.iloc[0].to_dict()
 
 
-wave62 = read_tsv("results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv")
+wave62 = read_tsv("phases/v3/results/wave62_opentargets_target_resolution/target_resolution_summary.tsv")
 if wave62.empty:
-    wave62 = read_tsv("results_v3/wave62_target_resolution/target_resolution_summary.tsv")
-wave55 = read_tsv("results_v3/wave55_external_genetics_druggability_sweep/external_genetics_rank.tsv")
-wave96 = read_tsv("results_v3/wave96_c15orf48_controller_search/pre_donor_controller_rank.tsv")
-wave103 = read_tsv("results_v3/wave103_intervention_first_successor_triage/intervention_first_successor_rank.tsv")
-wave104 = read_tsv("results_v3/wave104_genetics_first_lipid_state_convergence_audit/genetics_first_lipid_state_rank.tsv")
-wave164 = read_tsv("results_v3/wave164_genetics_first_survivor_audit/genetics_first_survivor_rank.tsv")
+    wave62 = read_tsv("phases/v3/results/wave62_target_resolution/target_resolution_summary.tsv")
+wave55 = read_tsv("phases/v3/results/wave55_external_genetics_druggability_sweep/external_genetics_rank.tsv")
+wave96 = read_tsv("phases/v3/results/wave96_c15orf48_controller_search/pre_donor_controller_rank.tsv")
+wave103 = read_tsv("phases/v3/results/wave103_intervention_first_successor_triage/intervention_first_successor_rank.tsv")
+wave104 = read_tsv("phases/v3/results/wave104_genetics_first_lipid_state_convergence_audit/genetics_first_lipid_state_rank.tsv")
+wave164 = read_tsv("phases/v3/results/wave164_genetics_first_survivor_audit/genetics_first_survivor_rank.tsv")
 
 records = []
 for gene in GENES:

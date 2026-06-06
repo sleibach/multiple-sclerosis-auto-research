@@ -4,7 +4,7 @@ Timestamp: 2026-05-27 16:23 CEST
 
 ## Inputs
 
-- Local matrix: `results_v3/wave70_fc_ros_resolution_matrix/`.
+- Local matrix: `phases/v3/results/wave70_fc_ros_resolution_matrix/`.
 - Sidecars still pending:
   - Wave70-A prior-art/translational hostile audit.
   - Wave70-B independent local computational scout.

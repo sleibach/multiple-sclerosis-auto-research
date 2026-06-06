@@ -28,16 +28,16 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave103_intervention_first_successor_triage"
+OUT = ROOT / "phases/v3/results" / "wave103_intervention_first_successor_triage"
 
-W81 = ROOT / "results_v3" / "wave81_perturbation_first_rescue" / "perturbation_first_integrated_rank.tsv"
-W57 = ROOT / "results_v3" / "wave57_intervention_first_geneformer_screen" / "wave57_intervention_first_candidate_calls.tsv"
-W83 = ROOT / "results_v3" / "wave83_intervention_class_first_scan" / "reachable_intervention_rank.tsv"
-W91 = ROOT / "results_v3" / "wave91_lipid_lysosomal_module_intervention_rank" / "lipid_lysosomal_intervention_rank.tsv"
-W94 = ROOT / "results_v3" / "wave94_accessible_state_rerank" / "accessible_state_candidate_rank.tsv"
-W102 = ROOT / "results_v3" / "wave102_accessible_survivor_residual_compartment_test" / "accessible_survivor_residual_summary.tsv"
-W37 = ROOT / "results_v3" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
-W62 = ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
+W81 = ROOT / "phases/v3/results" / "wave81_perturbation_first_rescue" / "perturbation_first_integrated_rank.tsv"
+W57 = ROOT / "phases/v3/results" / "wave57_intervention_first_geneformer_screen" / "wave57_intervention_first_candidate_calls.tsv"
+W83 = ROOT / "phases/v3/results" / "wave83_intervention_class_first_scan" / "reachable_intervention_rank.tsv"
+W91 = ROOT / "phases/v3/results" / "wave91_lipid_lysosomal_module_intervention_rank" / "lipid_lysosomal_intervention_rank.tsv"
+W94 = ROOT / "phases/v3/results" / "wave94_accessible_state_rerank" / "accessible_state_candidate_rank.tsv"
+W102 = ROOT / "phases/v3/results" / "wave102_accessible_survivor_residual_compartment_test" / "accessible_survivor_residual_summary.tsv"
+W37 = ROOT / "phases/v3/results" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
+W62 = ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
 
 PRIOR_BLOCK_RE = re.compile(
     r"prior|saturat|generic|host.?defense|safety|blocked|wrong.?direction|"

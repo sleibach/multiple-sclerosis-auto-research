@@ -16,7 +16,7 @@ small public L1000FWD API calls when available:
 
 This is an evidence worker, not a novelty or therapeutic-claim script. It keeps
 effect scales separate by data source and writes all outputs under
-results_v3/wave15_perturbation_drug_response/.
+phases/v3/results/wave15_perturbation_drug_response/.
 """
 
 from __future__ import annotations
@@ -39,7 +39,7 @@ from statsmodels.stats.multitest import multipletests
 
 SEED = 20260527
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave15_perturbation_drug_response"
+OUT = ROOT / "phases/v3/results" / "wave15_perturbation_drug_response"
 
 MIXSCALE_ZIP = ROOT / "data" / "raw_v3" / "mixscale" / "DE_results_all_pathway.zip"
 GSE162463_SCREEN = ROOT / "data" / "raw_v3" / "wave14_gsk3b_ciita" / "GSE162463_sgRNA_CountsNormalized.txt.gz"
@@ -942,7 +942,7 @@ def write_report(
         rows = ["| " + " | ".join(fmt(v) for v in row) + " |" for row in view.to_numpy(dtype=object)]
         return "\n".join([header, sep, *rows])
 
-    report = OUT.parent.parent / "subagents_v3" / "wave15_perturbation_drug_response.md"
+    report = OUT.parent.parent / "phases/v3/subagents" / "wave15_perturbation_drug_response.md"
     top_direct = direct_rank.head(15)
     top_l1000 = l1000_rank.head(12) if not l1000_rank.empty else pd.DataFrame()
     gsk = direct_rank[direct_rank["perturbation"].astype(str).str.contains("Gsk3b", case=False, regex=False)]
@@ -1137,25 +1137,25 @@ def main() -> None:
     run_log.append({"step": "integrated_rank", "status": "ok", "n_rows": int(len(direct_rank))})
 
     outputs = [
-        "results_v3/wave15_perturbation_drug_response/mixscale_selectivity_by_perturbation.tsv",
-        "results_v3/wave15_perturbation_drug_response/mixscale_selectivity_by_cell_type.tsv",
-        "results_v3/wave15_perturbation_drug_response/mixscale_readout_gene_effects.tsv",
-        "results_v3/wave15_perturbation_drug_response/gse162464_mouse_rna_selectivity.tsv",
-        "results_v3/wave15_perturbation_drug_response/gse162464_mouse_rna_readout_gene_effects.tsv",
-        "results_v3/wave15_perturbation_drug_response/gse162463_mouse_crispr_screen_gene_summary.tsv",
-        "results_v3/wave15_perturbation_drug_response/gse162463_mouse_crispr_screen_sgrna_effects.tsv",
-        "results_v3/wave15_perturbation_drug_response/gse294918_human_ruxolitinib_selectivity.tsv",
-        "results_v3/wave15_perturbation_drug_response/gse294918_human_ruxolitinib_readout_gene_effects.tsv",
-        "results_v3/wave15_perturbation_drug_response/l1000fwd_selectivity_raw.json",
-        "results_v3/wave15_perturbation_drug_response/l1000fwd_selectivity_hits.tsv",
-        "results_v3/wave15_perturbation_drug_response/l1000fwd_selectivity_compound_rank.tsv",
-        "results_v3/wave15_perturbation_drug_response/l1000fwd_selectivity_summary.json",
-        "results_v3/wave15_perturbation_drug_response/control_compound_metadata.tsv",
-        "results_v3/wave15_perturbation_drug_response/ranked_direct_perturbations.tsv",
-        "results_v3/wave15_perturbation_drug_response/candidate_level_synthesis.tsv",
-        "results_v3/wave15_perturbation_drug_response/summary.json",
-        "results_v3/wave15_perturbation_drug_response/run_log.tsv",
-        "subagents_v3/wave15_perturbation_drug_response.md",
+        "phases/v3/results/wave15_perturbation_drug_response/mixscale_selectivity_by_perturbation.tsv",
+        "phases/v3/results/wave15_perturbation_drug_response/mixscale_selectivity_by_cell_type.tsv",
+        "phases/v3/results/wave15_perturbation_drug_response/mixscale_readout_gene_effects.tsv",
+        "phases/v3/results/wave15_perturbation_drug_response/gse162464_mouse_rna_selectivity.tsv",
+        "phases/v3/results/wave15_perturbation_drug_response/gse162464_mouse_rna_readout_gene_effects.tsv",
+        "phases/v3/results/wave15_perturbation_drug_response/gse162463_mouse_crispr_screen_gene_summary.tsv",
+        "phases/v3/results/wave15_perturbation_drug_response/gse162463_mouse_crispr_screen_sgrna_effects.tsv",
+        "phases/v3/results/wave15_perturbation_drug_response/gse294918_human_ruxolitinib_selectivity.tsv",
+        "phases/v3/results/wave15_perturbation_drug_response/gse294918_human_ruxolitinib_readout_gene_effects.tsv",
+        "phases/v3/results/wave15_perturbation_drug_response/l1000fwd_selectivity_raw.json",
+        "phases/v3/results/wave15_perturbation_drug_response/l1000fwd_selectivity_hits.tsv",
+        "phases/v3/results/wave15_perturbation_drug_response/l1000fwd_selectivity_compound_rank.tsv",
+        "phases/v3/results/wave15_perturbation_drug_response/l1000fwd_selectivity_summary.json",
+        "phases/v3/results/wave15_perturbation_drug_response/control_compound_metadata.tsv",
+        "phases/v3/results/wave15_perturbation_drug_response/ranked_direct_perturbations.tsv",
+        "phases/v3/results/wave15_perturbation_drug_response/candidate_level_synthesis.tsv",
+        "phases/v3/results/wave15_perturbation_drug_response/summary.json",
+        "phases/v3/results/wave15_perturbation_drug_response/run_log.tsv",
+        "phases/v3/subagents/wave15_perturbation_drug_response.md",
     ]
 
     summary = {

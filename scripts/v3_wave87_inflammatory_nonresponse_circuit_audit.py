@@ -20,7 +20,7 @@ from v3_analyze_direct_h5ad_cell_states import ROOT
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave87_inflammatory_nonresponse_circuit_audit"
+OUT = ROOT / "phases/v3/results" / "wave87_inflammatory_nonresponse_circuit_audit"
 
 CANDIDATES = [
     "IL1B",
@@ -59,14 +59,14 @@ PRIOR_OR_ROUTE_BLOCKERS = {
 }
 
 PATHS = {
-    "wave86": ROOT / "results_v3" / "wave86_external_geo_antitnf_gene_driver" / "external_geo_gene_meta_rank.tsv",
-    "direct_h5ad": ROOT / "results_v3" / "direct_h5ad_gene_replication" / "direct_h5ad_gene_donor_comparisons.tsv",
-    "ms_wm": ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv",
-    "ms_modules": ROOT / "results_v3" / "gse111972_module_contrasts.tsv",
-    "geneformer_gene": ROOT / "results_v3" / "geneformer_broad_residual_delete" / "geneformer_broad_residual_gene_summary.tsv",
-    "geneformer_context": ROOT / "results_v3" / "geneformer_broad_residual_delete" / "geneformer_broad_residual_context_metrics_ranked.tsv",
-    "wave55": ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv",
-    "wave62": ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv",
+    "wave86": ROOT / "phases/v3/results" / "wave86_external_geo_antitnf_gene_driver" / "external_geo_gene_meta_rank.tsv",
+    "direct_h5ad": ROOT / "phases/v3/results" / "direct_h5ad_gene_replication" / "direct_h5ad_gene_donor_comparisons.tsv",
+    "ms_wm": ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv",
+    "ms_modules": ROOT / "phases/v3/results" / "gse111972_module_contrasts.tsv",
+    "geneformer_gene": ROOT / "phases/v3/results" / "geneformer_broad_residual_delete" / "geneformer_broad_residual_gene_summary.tsv",
+    "geneformer_context": ROOT / "phases/v3/results" / "geneformer_broad_residual_delete" / "geneformer_broad_residual_context_metrics_ranked.tsv",
+    "wave55": ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv",
+    "wave62": ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv",
 }
 
 

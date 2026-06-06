@@ -30,7 +30,7 @@ from statsmodels.stats.multitest import multipletests
 SEED = 20260526
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw_v3" / "cell_state"
-OUT = ROOT / "results_v3" / "osmr_complement_axes"
+OUT = ROOT / "phases/v3/results" / "osmr_complement_axes"
 
 TARGET_MODULES = {
     # OSM itself is sparse; the ligand module keeps OSM explicit while asking

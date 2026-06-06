@@ -28,17 +28,17 @@ from v3_analyze_direct_h5ad_cell_states import ROOT
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave79_targetability_shortlist_audit"
+OUT = ROOT / "phases/v3/results" / "wave79_targetability_shortlist_audit"
 
 TARGET_GENES = ["CD58", "SPNS1", "P4HB", "SEL1L3"]
 BENCHMARK_GENES = ["IFI30"]
 GENES = TARGET_GENES + BENCHMARK_GENES
 
-W21 = ROOT / "results_v3" / "wave21_residual_druggability_scan" / "wave21_residual_druggability_ranked_full.tsv"
-W39 = ROOT / "results_v3" / "wave39_surfaceome_rescue_after_resolution_pivot" / "surfaceome_rescue_rank_full.tsv"
-W71 = ROOT / "results_v3" / "wave71_global_survivor_meta_rank" / "global_survivor_meta_rank.tsv"
-W18_RANK = ROOT / "results_v3" / "wave18_foundation_rescue" / "foundation_rescue_candidate_rank.tsv"
-W18_GENEFORMER = ROOT / "results_v3" / "wave18_foundation_rescue" / "geneformer_consolidated_context_metrics.tsv"
+W21 = ROOT / "phases/v3/results" / "wave21_residual_druggability_scan" / "wave21_residual_druggability_ranked_full.tsv"
+W39 = ROOT / "phases/v3/results" / "wave39_surfaceome_rescue_after_resolution_pivot" / "surfaceome_rescue_rank_full.tsv"
+W71 = ROOT / "phases/v3/results" / "wave71_global_survivor_meta_rank" / "global_survivor_meta_rank.tsv"
+W18_RANK = ROOT / "phases/v3/results" / "wave18_foundation_rescue" / "foundation_rescue_candidate_rank.tsv"
+W18_GENEFORMER = ROOT / "phases/v3/results" / "wave18_foundation_rescue" / "geneformer_consolidated_context_metrics.tsv"
 
 
 def read_tsv(path: Path) -> pd.DataFrame:

@@ -20,7 +20,7 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v2"
+OUT = ROOT / "phases/v2/results"
 RAW = ROOT / "data" / "raw_v2"
 
 GENES = ["ACSL1", "ACSL3", "ACSL4", "ACSL5", "ACSL6"]

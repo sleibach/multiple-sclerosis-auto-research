@@ -19,16 +19,16 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave115_spns1_controller_falsification_audit"
+OUT = ROOT / "phases/v3/results" / "wave115_spns1_controller_falsification_audit"
 
-DONOR = ROOT / "results_v3" / "wave79_targetability_shortlist_residual_audit" / "direct_shortlist_donor_scores.tsv"
-MATRIX = ROOT / "results_v3" / "wave79_targetability_shortlist_residual_audit" / "targetability_shortlist_candidate_matrix.tsv"
-MS = ROOT / "results_v3" / "wave79_targetability_shortlist_residual_audit" / "ms_white_matter_shortlist_rows.tsv"
-RA_RESPONSE = ROOT / "results_v3" / "wave79_targetability_shortlist_residual_audit" / "ra_antitnf_shortlist_response_rows.tsv"
-IBD_RESPONSE = ROOT / "results_v3" / "wave79_targetability_shortlist_residual_audit" / "ibd_antitnf_shortlist_response_rows.tsv"
-W37 = ROOT / "results_v3" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
-W62 = ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
-W94 = ROOT / "results_v3" / "wave94_accessible_state_rerank" / "accessible_state_candidate_rank.tsv"
+DONOR = ROOT / "phases/v3/results" / "wave79_targetability_shortlist_residual_audit" / "direct_shortlist_donor_scores.tsv"
+MATRIX = ROOT / "phases/v3/results" / "wave79_targetability_shortlist_residual_audit" / "targetability_shortlist_candidate_matrix.tsv"
+MS = ROOT / "phases/v3/results" / "wave79_targetability_shortlist_residual_audit" / "ms_white_matter_shortlist_rows.tsv"
+RA_RESPONSE = ROOT / "phases/v3/results" / "wave79_targetability_shortlist_residual_audit" / "ra_antitnf_shortlist_response_rows.tsv"
+IBD_RESPONSE = ROOT / "phases/v3/results" / "wave79_targetability_shortlist_residual_audit" / "ibd_antitnf_shortlist_response_rows.tsv"
+W37 = ROOT / "phases/v3/results" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
+W62 = ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
+W94 = ROOT / "phases/v3/results" / "wave94_accessible_state_rerank" / "accessible_state_candidate_rank.tsv"
 
 DOWNSTREAM_MODULES = [
     "module_lipid_loader_repair",

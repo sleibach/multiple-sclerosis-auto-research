@@ -18,7 +18,7 @@ import pandas as pd
 
 SEED = 20260526
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3"
+OUT = ROOT / "phases/v3/results"
 
 
 AXES: dict[str, list[str]] = {
@@ -114,8 +114,8 @@ def load_existing_evidence() -> pd.DataFrame:
 
     # Non-MS target screens.
     for path in [
-        ROOT / "results_v2" / "cross_autoimmune_target_gene_contrasts.tsv",
-        ROOT / "results_v2" / "extended_autoimmune_target_gene_contrasts.tsv",
+        ROOT / "phases/v2/results" / "cross_autoimmune_target_gene_contrasts.tsv",
+        ROOT / "phases/v2/results" / "extended_autoimmune_target_gene_contrasts.tsv",
     ]:
         if not path.exists():
             continue

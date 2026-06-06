@@ -40,7 +40,7 @@ from statsmodels.stats.multitest import multipletests
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw_v3" / "wave35_resolution_perturbation"
-OUT = ROOT / "results_v3" / "wave35_resolution_perturbation"
+OUT = ROOT / "phases/v3/results" / "wave35_resolution_perturbation"
 API = OUT / "raw_api"
 SEED = 20260527
 USER_AGENT = "ms-auto-research-wave35-resolution-perturbation/1.0"

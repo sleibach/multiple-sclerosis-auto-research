@@ -56,16 +56,16 @@ CTSS is upstream in that subgroup. V3 did not provide that evidence.
 
 ## Evidence Ledger
 
-- `subagents_v3/wave11_genetics_prior_art_scout_report.md`: CTSS had weak or
+- `phases/v3/subagents/wave11_genetics_prior_art_scout_report.md`: CTSS had weak or
   non-decisive Crohn genetics and no broad genetic anchor; report lists
   Sjogren, celiac, RA, and psoriasis/autoimmune cathepsin-S clinical prior art.
-- `subagents_v3/wave13_genetics_prior_art_reopen.md`: CTSS retained as a
+- `phases/v3/subagents/wave13_genetics_prior_art_reopen.md`: CTSS retained as a
   prior-art-blocked enzyme comparator, not promoted.
-- `results_v3/wave16_ctsh_chembl_feasibility/cathepsin_activity_summary.tsv`:
+- `phases/v3/results/wave16_ctsh_chembl_feasibility/cathepsin_activity_summary.tsv`:
   CTSS is druggable (`CHEMBL2954`, 3,171 reported activities, 1,333 unique
   molecules in retained rows, median potency 206 nM, 594 sub-100 nM rows), so
   lack of chemistry is not the blocker.
-- `results_v3/wave46_central_axis_closure_audit/` and
+- `phases/v3/results/wave46_central_axis_closure_audit/` and
   `docs/lab_notebooks/LAB_NOTEBOOK_V3.md`: `CTSS_cathepsinS_lysosomal_effector` closed as
   `NO_GO_CTSS_PRIOR_ART_DOWNSTREAM_EFFECTOR`; modeled 70% CTSS suppression was
   essentially null on upstream `IFN/APC` and `HLA-II/CD74`.
@@ -141,18 +141,18 @@ Evidence basis:
 
 - `knowledge/decisions/0006_ctss_recalibration.md`: CTSS retained only as
   comparator/readout after V4 review.
-- `results_v3/wave91_lipid_lysosomal_module_intervention_rank/REPORT.md`:
+- `phases/v3/results/wave91_lipid_lysosomal_module_intervention_rank/REPORT.md`:
   CTSS scored `4.5` with `NO_GO_NO_MS_WHITE_MATTER_SINGLE_GENE_ANCHOR`,
   `NO_GO_CATHEPSIN_S_PRIOR_AUDITED_HOST_DEFENSE_AND_PRIOR_ART`,
   `MS_WM_NULL_OR_WEAK`, direct positive signal only in Crohn disease and UC,
   no cross-disease genetic anchor, and `NO_GO_PERTURBATION_FIRST_BLOCKED`.
-- `subagents_v3/wave11_genetics_prior_art_scout_report.md`: CTSS had
+- `phases/v3/subagents/wave11_genetics_prior_art_scout_report.md`: CTSS had
   weak/non-decisive Crohn genetics and no broad genetic anchor; direct CTSS
   autoimmune prior art includes Sjogren, celiac, and RA.
-- `subagents_v3/wave15_prior_art_feasibility.md`: CTSS is chemically
+- `phases/v3/subagents/wave15_prior_art_feasibility.md`: CTSS is chemically
   druggable but highly saturated; use as assay comparator unless a new
   subgroup/compartment/delivery mechanism is demonstrated.
-- `results_v3/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv`:
+- `phases/v3/results/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv`:
   Ctss CRISPR/efferocytosis direction was unresolved, not a rescue signal.
 - V4 pregnancy and V5 MIF/CD74 work continue to support antigen-processing
   module behavior, but not CTSS-specific causal control.

@@ -17,8 +17,8 @@ import pandas as pd
 import requests
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave15_loader_external_gate"
-LIT = ROOT / "literature_v3"
+OUT = ROOT / "phases/v3/results" / "wave15_loader_external_gate"
+LIT = ROOT / "phases/v3/literature"
 
 OPEN_TARGETS = "https://api.platform.opentargets.org/api/v4/graphql"
 EUROPEPMC = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"

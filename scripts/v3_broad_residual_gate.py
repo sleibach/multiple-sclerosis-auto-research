@@ -26,7 +26,7 @@ import v3_snx10_c15orf48_residual_gate as gate
 from v3_analyze_osmr_complement_axes import CONFIGS, ROOT
 
 SEED = 20260526
-RESULTS = ROOT / "results_v3"
+RESULTS = ROOT / "phases/v3/results"
 OUT = RESULTS / "broad_residual_gate"
 BROAD_RANK = RESULTS / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
 MS_SIGNATURE = RESULTS / "gse111972_full_ms_wm_signature.tsv"

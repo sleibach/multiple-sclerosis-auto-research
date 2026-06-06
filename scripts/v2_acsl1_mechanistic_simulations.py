@@ -17,7 +17,7 @@ from scipy import stats
 
 SEED = 20260526
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v2"
+OUT = ROOT / "phases/v2/results"
 RNG = np.random.default_rng(SEED)
 
 

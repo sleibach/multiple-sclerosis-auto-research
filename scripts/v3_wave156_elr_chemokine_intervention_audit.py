@@ -11,7 +11,7 @@ import pandas as pd
 
 SEED = 20260527
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave156_elr_chemokine_intervention_audit"
+OUT = ROOT / "phases/v3/results" / "wave156_elr_chemokine_intervention_audit"
 OUT.mkdir(parents=True, exist_ok=True)
 
 GENES = ["CXCL1", "CXCL2", "CXCL3", "CXCL5", "CXCL8"]
@@ -24,10 +24,10 @@ def read_optional(path: Path) -> pd.DataFrame:
 
 
 def main() -> None:
-    wave155 = read_optional(ROOT / "results_v3" / "wave155_cux1_gene_specificity_vs_stat" / "gene_specificity_summary.tsv")
-    wave21 = read_optional(ROOT / "results_v3" / "wave21_residual_druggability_scan" / "wave21_residual_druggability_rank.tsv")
-    wave71 = read_optional(ROOT / "results_v3" / "wave71_global_survivor_meta_rank" / "global_survivor_meta_rank.tsv")
-    wave103 = read_optional(ROOT / "results_v3" / "wave103_intervention_first_successor_triage" / "intervention_first_successor_rank.tsv")
+    wave155 = read_optional(ROOT / "phases/v3/results" / "wave155_cux1_gene_specificity_vs_stat" / "gene_specificity_summary.tsv")
+    wave21 = read_optional(ROOT / "phases/v3/results" / "wave21_residual_druggability_scan" / "wave21_residual_druggability_rank.tsv")
+    wave71 = read_optional(ROOT / "phases/v3/results" / "wave71_global_survivor_meta_rank" / "global_survivor_meta_rank.tsv")
+    wave103 = read_optional(ROOT / "phases/v3/results" / "wave103_intervention_first_successor_triage" / "intervention_first_successor_rank.tsv")
 
     rows = []
     for gene in GENES:

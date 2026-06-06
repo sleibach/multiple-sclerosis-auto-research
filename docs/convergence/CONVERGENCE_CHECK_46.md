@@ -65,10 +65,10 @@ Script:
 
 Inputs:
 
-- `results_v3/wave86_external_geo_antitnf_gene_driver/external_geo_gene_meta_rank.tsv`
-- `results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_counts_used.tsv`
-- `results_v3/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_sample_metadata.tsv`
-- `results_v3/wave68_gse282122_unrestricted_gene_screen/raw_remission_response_gene_tests.tsv`
+- `phases/v3/results/wave86_external_geo_antitnf_gene_driver/external_geo_gene_meta_rank.tsv`
+- `phases/v3/results/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_counts_used.tsv`
+- `phases/v3/results/wave65_gse198520_ra_synovium_antitnf_audit/gse198520_sample_metadata.tsv`
+- `phases/v3/results/wave68_gse282122_unrestricted_gene_screen/raw_remission_response_gene_tests.tsv`
 
 Key result:
 

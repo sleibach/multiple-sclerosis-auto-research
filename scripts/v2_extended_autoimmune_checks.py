@@ -31,7 +31,7 @@ from v2_cross_autoimmune_bulk import (
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw_v2"
-OUT = ROOT / "results_v2"
+OUT = ROOT / "phases/v2/results"
 
 
 def contains(series: pd.Series, pattern: str) -> pd.Series:

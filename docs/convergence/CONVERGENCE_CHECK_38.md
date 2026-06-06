@@ -6,9 +6,9 @@ Timestamp: 2026-05-27 17:37 CEST
 
 - Local Wave78 audit:
   - `scripts/v3_wave78_lilrb_family_target_audit.py`
-  - `results_v3/wave78_lilrb_family_target_audit/`
+  - `phases/v3/results/wave78_lilrb_family_target_audit/`
 - Prior-art/translational sidecar:
-  - `subagents_v3/wave78a_lilrb_prior_art_feasibility.md`
+  - `phases/v3/subagents/wave78a_lilrb_prior_art_feasibility.md`
 
 ## What Each Track Believes
 

@@ -28,10 +28,10 @@ Script:
 
 Outputs:
 
-- `results_v3/wave85_external_geo_antitnf_validation/REPORT.md`
-- `results_v3/wave85_external_geo_antitnf_validation/external_geo_response_tests.tsv`
-- `results_v3/wave85_external_geo_antitnf_validation/external_geo_primary_meta_summary.tsv`
-- `results_v3/wave85_external_geo_antitnf_validation/external_geo_patient_module_scores.tsv`
+- `phases/v3/results/wave85_external_geo_antitnf_validation/REPORT.md`
+- `phases/v3/results/wave85_external_geo_antitnf_validation/external_geo_response_tests.tsv`
+- `phases/v3/results/wave85_external_geo_antitnf_validation/external_geo_primary_meta_summary.tsv`
+- `phases/v3/results/wave85_external_geo_antitnf_validation/external_geo_patient_module_scores.tsv`
 
 Primary result:
 

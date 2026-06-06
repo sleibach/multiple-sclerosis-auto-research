@@ -27,24 +27,24 @@ from v3_wave85_external_geo_antitnf_validation import bh, hedges_g, markdown_tab
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave91_lipid_neighborhood_controller_scan"
+OUT = ROOT / "phases/v3/results" / "wave91_lipid_neighborhood_controller_scan"
 
-MS_WM = ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv"
-DIRECT_H5AD = ROOT / "results_v3" / "direct_h5ad_gene_replication" / "direct_h5ad_gene_donor_comparisons.tsv"
-W86_META = ROOT / "results_v3" / "wave86_external_geo_antitnf_gene_driver" / "external_geo_gene_meta_rank.tsv"
-RA_COUNTS = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
-RA_META = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
-PSO_TESTS = ROOT / "results_v3" / "wave89_psoriasis_gse85034_response" / "psoriasis_baseline_gene_response_tests.tsv"
-GENETICS = ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv"
-W81 = ROOT / "results_v3" / "wave81_perturbation_first_rescue" / "perturbation_first_integrated_rank.tsv"
-W82 = ROOT / "results_v3" / "wave82_parked_perturbation_intervention_audit" / "wave82_integrated_intervention_rank.tsv"
-W83 = ROOT / "results_v3" / "wave83_intervention_class_first_scan" / "reachable_intervention_rank.tsv"
+MS_WM = ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv"
+DIRECT_H5AD = ROOT / "phases/v3/results" / "direct_h5ad_gene_replication" / "direct_h5ad_gene_donor_comparisons.tsv"
+W86_META = ROOT / "phases/v3/results" / "wave86_external_geo_antitnf_gene_driver" / "external_geo_gene_meta_rank.tsv"
+RA_COUNTS = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
+RA_META = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
+PSO_TESTS = ROOT / "phases/v3/results" / "wave89_psoriasis_gse85034_response" / "psoriasis_baseline_gene_response_tests.tsv"
+GENETICS = ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv"
+W81 = ROOT / "phases/v3/results" / "wave81_perturbation_first_rescue" / "perturbation_first_integrated_rank.tsv"
+W82 = ROOT / "phases/v3/results" / "wave82_parked_perturbation_intervention_audit" / "wave82_integrated_intervention_rank.tsv"
+W83 = ROOT / "phases/v3/results" / "wave83_intervention_class_first_scan" / "reachable_intervention_rank.tsv"
 GENEFORMER_FILES = [
-    ROOT / "results_v3" / "geneformer_pivot_panel_delete" / "geneformer_pivot_panel_context_metrics_ranked.tsv",
-    ROOT / "results_v3" / "geneformer_unrestricted_survivor_delete" / "geneformer_unrestricted_survivor_context_metrics_ranked.tsv",
-    ROOT / "results_v3" / "geneformer_broad_residual_delete" / "geneformer_broad_residual_context_metrics_ranked.tsv",
-    ROOT / "results_v3" / "wave57_intervention_first_geneformer_screen" / "wave57_geneformer_metrics.tsv",
-    ROOT / "results_v3" / "wave70c_inhibitory_receptor_geneformer_direction" / "geneformer_direction_metrics.tsv",
+    ROOT / "phases/v3/results" / "geneformer_pivot_panel_delete" / "geneformer_pivot_panel_context_metrics_ranked.tsv",
+    ROOT / "phases/v3/results" / "geneformer_unrestricted_survivor_delete" / "geneformer_unrestricted_survivor_context_metrics_ranked.tsv",
+    ROOT / "phases/v3/results" / "geneformer_broad_residual_delete" / "geneformer_broad_residual_context_metrics_ranked.tsv",
+    ROOT / "phases/v3/results" / "wave57_intervention_first_geneformer_screen" / "wave57_geneformer_metrics.tsv",
+    ROOT / "phases/v3/results" / "wave70c_inhibitory_receptor_geneformer_direction" / "geneformer_direction_metrics.tsv",
 ]
 
 CANDIDATES = [

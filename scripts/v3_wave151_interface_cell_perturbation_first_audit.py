@@ -17,7 +17,7 @@ import pandas as pd
 from v3_analyze_direct_h5ad_cell_states import ROOT
 
 
-OUT = ROOT / "results_v3" / "wave151_interface_cell_perturbation_first_audit"
+OUT = ROOT / "phases/v3/results" / "wave151_interface_cell_perturbation_first_audit"
 SEED = 20260527
 
 ROUTE_TO_ARCH = {
@@ -32,12 +32,12 @@ ROUTE_TO_ARCH = {
 }
 
 FILES = {
-    "w23_routes": ROOT / "results_v3" / "wave23_metabolite_barrier_circuit" / "wave23_ranked_routes.tsv",
-    "w23_l1000": ROOT / "results_v3" / "wave23_metabolite_barrier_circuit" / "route_l1000_matches.tsv",
-    "w23_presence": ROOT / "results_v3" / "wave23_metabolite_barrier_circuit" / "lincs_compound_presence.tsv",
-    "w146_source": ROOT / "results_v3" / "wave146_architecture_first_barrier_retention_scan" / "architecture_source_disease_tests.tsv",
-    "w146_ms": ROOT / "results_v3" / "wave146_architecture_first_barrier_retention_scan" / "architecture_ms_anchor.tsv",
-    "w148": ROOT / "results_v3" / "wave148_tnfsf14_light_lymphoid_niche_audit" / "summary.json",
+    "w23_routes": ROOT / "phases/v3/results" / "wave23_metabolite_barrier_circuit" / "wave23_ranked_routes.tsv",
+    "w23_l1000": ROOT / "phases/v3/results" / "wave23_metabolite_barrier_circuit" / "route_l1000_matches.tsv",
+    "w23_presence": ROOT / "phases/v3/results" / "wave23_metabolite_barrier_circuit" / "lincs_compound_presence.tsv",
+    "w146_source": ROOT / "phases/v3/results" / "wave146_architecture_first_barrier_retention_scan" / "architecture_source_disease_tests.tsv",
+    "w146_ms": ROOT / "phases/v3/results" / "wave146_architecture_first_barrier_retention_scan" / "architecture_ms_anchor.tsv",
+    "w148": ROOT / "phases/v3/results" / "wave148_tnfsf14_light_lymphoid_niche_audit" / "summary.json",
 }
 
 

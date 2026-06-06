@@ -22,16 +22,16 @@ import requests
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave49_ptpn22_directionality_audit"
+OUT = ROOT / "phases/v3/results" / "wave49_ptpn22_directionality_audit"
 RAW = OUT / "raw_api"
 SEED = 20260527
 
-WAVE47 = ROOT / "results_v3" / "wave47_late_stage_survivor_map" / "reopen_only_requirements.tsv"
-WAVE34A = ROOT / "results_v3" / "wave34a_genetics_first_target_rescue" / "genetics_first_candidate_rank.tsv"
-WAVE34 = ROOT / "results_v3" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv"
-BROAD = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
-RESIDUAL = ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv"
-WAVE23_REST = ROOT / "results_v3" / "wave23_genetics_restoration_modality" / "ranked_go_park_no_go.tsv"
+WAVE47 = ROOT / "phases/v3/results" / "wave47_late_stage_survivor_map" / "reopen_only_requirements.tsv"
+WAVE34A = ROOT / "phases/v3/results" / "wave34a_genetics_first_target_rescue" / "genetics_first_candidate_rank.tsv"
+WAVE34 = ROOT / "phases/v3/results" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv"
+BROAD = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
+RESIDUAL = ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv"
+WAVE23_REST = ROOT / "phases/v3/results" / "wave23_genetics_restoration_modality" / "ranked_go_park_no_go.tsv"
 
 TARGETS = {
     "PTPN22": "Tyrosine-protein phosphatase non-receptor type 22",

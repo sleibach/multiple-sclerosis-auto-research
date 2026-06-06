@@ -18,11 +18,11 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "results" / "tier0_ciita_mediator_selectivity"
 
 
-DIRECT_PERTURBATIONS = ROOT / "results_v3" / "wave15_perturbation_drug_response" / "ranked_direct_perturbations.tsv"
-MOUSE_SELECTIVITY = ROOT / "results_v3" / "wave15_perturbation_drug_response" / "gse162464_mouse_rna_selectivity.tsv"
-COMPOUNDS = ROOT / "results_v3" / "wave17_mediator_kinase_route" / "compound_landscape.tsv"
-WAVE17_VERDICT = ROOT / "results_v3" / "wave17_mediator_kinase_route" / "route_verdict.json"
-WAVE53_AUDIT = ROOT / "results_v3" / "wave53_perturbation_first_pivot" / "perturbation_first_audit.tsv"
+DIRECT_PERTURBATIONS = ROOT / "phases/v3/results" / "wave15_perturbation_drug_response" / "ranked_direct_perturbations.tsv"
+MOUSE_SELECTIVITY = ROOT / "phases/v3/results" / "wave15_perturbation_drug_response" / "gse162464_mouse_rna_selectivity.tsv"
+COMPOUNDS = ROOT / "phases/v3/results" / "wave17_mediator_kinase_route" / "compound_landscape.tsv"
+WAVE17_VERDICT = ROOT / "phases/v3/results" / "wave17_mediator_kinase_route" / "route_verdict.json"
+WAVE53_AUDIT = ROOT / "phases/v3/results" / "wave53_perturbation_first_pivot" / "perturbation_first_audit.tsv"
 
 
 def read_tsv(path: Path) -> list[dict[str, str]]:

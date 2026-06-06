@@ -31,7 +31,7 @@ SEED = 20260526
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw_v3" / "gse253006"
 MATRIX_DIR = RAW / "raw"
-OUT = ROOT / "results_v3" / "gse253006_tofacitinib"
+OUT = ROOT / "phases/v3/results" / "gse253006_tofacitinib"
 
 MODULES = {
     "ifn_apc": ["STAT1", "IRF1", "CXCL10", "GBP1", "CD74", "IFI30", "HLA-DRA", "HLA-DRB1"],

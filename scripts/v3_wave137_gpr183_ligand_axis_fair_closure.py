@@ -17,29 +17,29 @@ from v3_analyze_osmr_complement_axes import ROOT
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave137_gpr183_ligand_axis_fair_closure"
+OUT = ROOT / "phases/v3/results" / "wave137_gpr183_ligand_axis_fair_closure"
 
 INPUTS = {
-    "wave111_summary": ROOT / "results_v3" / "wave111_gpr183_spatial_proxy_forcing_test" / "summary.json",
-    "wave112_summary": ROOT / "results_v3" / "wave112_gpr183_compartment_contrast_fallback" / "summary.json",
+    "wave111_summary": ROOT / "phases/v3/results" / "wave111_gpr183_spatial_proxy_forcing_test" / "summary.json",
+    "wave112_summary": ROOT / "phases/v3/results" / "wave112_gpr183_compartment_contrast_fallback" / "summary.json",
     "wave112_compartment": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave112_gpr183_compartment_contrast_fallback"
     / "gpr183_compartment_contrast_summary.tsv",
     "wave112_response": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave112_gpr183_compartment_contrast_fallback"
     / "gpr183_response_support_rows.tsv",
     "wave135_stability": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave135_lipid_flux_ms_response_sensitivity"
     / "lipid_flux_ms_response_stability.tsv",
     "wave135_tests": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave135_lipid_flux_ms_response_sensitivity"
     / "lipid_flux_ms_response_feature_tests.tsv",
-    "wave83_meta": ROOT / "results_v3" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv",
-    "wave93_integrated": ROOT / "results_v3" / "wave93_gpr183_oxysterol_forcing_test" / "integrated_decision.tsv",
+    "wave83_meta": ROOT / "phases/v3/results" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv",
+    "wave93_integrated": ROOT / "phases/v3/results" / "wave93_gpr183_oxysterol_forcing_test" / "integrated_decision.tsv",
 }
 
 

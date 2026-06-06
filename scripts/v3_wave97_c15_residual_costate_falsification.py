@@ -26,10 +26,10 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave97_c15_residual_costate_falsification"
+OUT = ROOT / "phases/v3/results" / "wave97_c15_residual_costate_falsification"
 
-W96 = ROOT / "results_v3" / "wave96_c15orf48_controller_search" / "c15orf48_controller_candidate_rank.tsv"
-ANCHORS = ROOT / "results_v3" / "wave96_c15orf48_controller_search" / "c15orf48_anchor_contexts.tsv"
+W96 = ROOT / "phases/v3/results" / "wave96_c15orf48_controller_search" / "c15orf48_controller_candidate_rank.tsv"
+ANCHORS = ROOT / "phases/v3/results" / "wave96_c15orf48_controller_search" / "c15orf48_anchor_contexts.tsv"
 
 
 def clean(value: Any) -> str:

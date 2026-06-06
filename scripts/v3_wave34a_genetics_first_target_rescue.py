@@ -26,25 +26,25 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave34a_genetics_first_target_rescue"
+OUT = ROOT / "phases/v3/results" / "wave34a_genetics_first_target_rescue"
 RAW = OUT / "raw_api"
-REPORT = ROOT / "subagents_v3" / "wave34a_genetics_first_target_rescue.md"
+REPORT = ROOT / "phases/v3/subagents" / "wave34a_genetics_first_target_rescue.md"
 SEED = 20260527
 USER_AGENT = "ms-auto-research-wave34a-genetics-first-target-rescue/1.0"
 
 LOCAL_FILES = {
-    "opentargets_credible_sets": ROOT / "tmp_v3" / "wave13_opentargets_gwas_credible_sets.tsv",
-    "opentargets_target_disease_scores": ROOT / "tmp_v3" / "wave11_opentargets_target_disease_scores.tsv",
-    "gwas_catalog_parquet": ROOT / "tmp_v3" / "gwascatalog_associations_20260317_convert.parquet",
-    "wave14_truth": ROOT / "results_v3" / "wave14_target_level_genetics" / "target_level_genetics_truth_table.tsv",
-    "broad_h5ad_rank": ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
-    "broad_residual_gate": ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
-    "wave20_local_genetics": ROOT / "results_v3" / "wave20_genetic_druggable_altaxis" / "local_opentargets_genetics_summary.tsv",
-    "wave20_shortlist": ROOT / "results_v3" / "wave20_genetic_druggable_altaxis" / "negative_ranked_shortlist.tsv",
-    "wave23_restoration": ROOT / "results_v3" / "wave23_genetics_restoration_modality" / "ranked_go_park_no_go.tsv",
-    "wave25_causal_proxy": ROOT / "results_v3" / "wave25_causal_genetics_module_proxy" / "causal_proxy_candidate_matrix.tsv",
-    "wave28_target_first": ROOT / "results_v3" / "wave28_target_first_rescue" / "target_first_rescue_matrix.tsv",
-    "wave33_tolerance_audit": ROOT / "results_v3" / "wave33_tolerance_costimulation_audit" / "tolerance_costimulation_axis_audit.tsv",
+    "opentargets_credible_sets": ROOT / "phases/v3/tmp" / "wave13_opentargets_gwas_credible_sets.tsv",
+    "opentargets_target_disease_scores": ROOT / "phases/v3/tmp" / "wave11_opentargets_target_disease_scores.tsv",
+    "gwas_catalog_parquet": ROOT / "phases/v3/tmp" / "gwascatalog_associations_20260317_convert.parquet",
+    "wave14_truth": ROOT / "phases/v3/results" / "wave14_target_level_genetics" / "target_level_genetics_truth_table.tsv",
+    "broad_h5ad_rank": ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
+    "broad_residual_gate": ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
+    "wave20_local_genetics": ROOT / "phases/v3/results" / "wave20_genetic_druggable_altaxis" / "local_opentargets_genetics_summary.tsv",
+    "wave20_shortlist": ROOT / "phases/v3/results" / "wave20_genetic_druggable_altaxis" / "negative_ranked_shortlist.tsv",
+    "wave23_restoration": ROOT / "phases/v3/results" / "wave23_genetics_restoration_modality" / "ranked_go_park_no_go.tsv",
+    "wave25_causal_proxy": ROOT / "phases/v3/results" / "wave25_causal_genetics_module_proxy" / "causal_proxy_candidate_matrix.tsv",
+    "wave28_target_first": ROOT / "phases/v3/results" / "wave28_target_first_rescue" / "target_first_rescue_matrix.tsv",
+    "wave33_tolerance_audit": ROOT / "phases/v3/results" / "wave33_tolerance_costimulation_audit" / "tolerance_costimulation_axis_audit.tsv",
 }
 
 AUTOIMMUNE_REGEX = re.compile(
@@ -700,7 +700,7 @@ def build_report(ranked: pd.DataFrame, query_log: pd.DataFrame, local_status: pd
             "",
             "## Public Queries Run",
             "",
-            "All public lookups were cached under `results_v3/wave34a_genetics_first_target_rescue/raw_api/`. The query log is `results_v3/wave34a_genetics_first_target_rescue/public_query_log.tsv`.",
+            "All public lookups were cached under `phases/v3/results/wave34a_genetics_first_target_rescue/raw_api/`. The query log is `phases/v3/results/wave34a_genetics_first_target_rescue/public_query_log.tsv`.",
             "",
             f"- Local GWAS Catalog autoimmune subset rows scanned: {gwas_auto_rows}.",
             "- Surfaces queried per candidate where available: ChEMBL target/activity API, GTEx Portal reference/single-tissue eQTL API, Europe PMC search API, ClinicalTrials.gov API v2.",

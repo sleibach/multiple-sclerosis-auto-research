@@ -165,7 +165,7 @@ Open gaps:
 
 ## Hour-6 Hostile Critique Result
 
-Report: `subagents_v3/wave14_hour6_hostile_critique.md`.
+Report: `phases/v3/subagents/wave14_hour6_hostile_critique.md`.
 
 Verdict: the IFNG/HLA-II/CD74 direction is a real recurrent state, but not yet
 a defensible therapeutic central node.

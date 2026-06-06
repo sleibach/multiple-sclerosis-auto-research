@@ -34,8 +34,8 @@ from statsmodels.stats.multitest import multipletests
 
 ROOT = Path(__file__).resolve().parents[1]
 WAVE35_PATH = ROOT / "scripts" / "v3_wave35_resolution_perturbation_analysis.py"
-WAVE35_OUT = ROOT / "results_v3" / "wave35_resolution_perturbation"
-OUT = ROOT / "results_v3" / "wave36a_gene_level_controller_rescue"
+WAVE35_OUT = ROOT / "phases/v3/results" / "wave35_resolution_perturbation"
+OUT = ROOT / "phases/v3/results" / "wave36a_gene_level_controller_rescue"
 SEED = 20260527
 
 

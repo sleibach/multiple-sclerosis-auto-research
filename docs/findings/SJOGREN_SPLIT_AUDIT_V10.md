@@ -16,7 +16,7 @@ Supported V8 placements:
 
 Local V3 convergence table:
 
-- `results_v3/cross_disease_cell_state_convergence.tsv`
+- `phases/v3/results/cross_disease_cell_state_convergence.tsv`
 
 Contexts:
 

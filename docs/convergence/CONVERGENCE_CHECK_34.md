@@ -11,14 +11,14 @@ than generic inflammatory activation?
 ## Evidence Integrated
 
 - Script: `scripts/v3_wave73_p2rx7_stratification_test.py`.
-- Outputs: `results_v3/wave73_p2rx7_stratification_test/`.
+- Outputs: `phases/v3/results/wave73_p2rx7_stratification_test/`.
 - Broad single-cell atlas input:
-  `results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv`.
-- MS white-matter input: `results_v3/gse111972_full_ms_wm_signature.tsv`.
+  `phases/v3/results/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv`.
+- MS white-matter input: `phases/v3/results/gse111972_full_ms_wm_signature.tsv`.
 - IBD anti-TNF input:
-  `results_v3/wave68_gse282122_unrestricted_gene_screen/`.
+  `phases/v3/results/wave68_gse282122_unrestricted_gene_screen/`.
 - RA anti-TNF input:
-  `results_v3/wave65_gse198520_ra_synovium_antitnf_audit/`.
+  `phases/v3/results/wave65_gse198520_ra_synovium_antitnf_audit/`.
 - Biochemical prior: Wave72 purine feature disturbance across `AS`, `Crohn`,
   `RA`, `T1D`, and `UC`.
 

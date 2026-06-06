@@ -14,8 +14,8 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave109_mfge8_threshold_sensitivity_audit"
-GRID = ROOT / "results_v3" / "wave108_mfge8_debris_opsonin_safety_window_model" / "mfge8_safety_window_grid.tsv"
+OUT = ROOT / "phases/v3/results" / "wave109_mfge8_threshold_sensitivity_audit"
+GRID = ROOT / "phases/v3/results" / "wave108_mfge8_debris_opsonin_safety_window_model" / "mfge8_safety_window_grid.tsv"
 
 
 def read_tsv(path: Path) -> pd.DataFrame:

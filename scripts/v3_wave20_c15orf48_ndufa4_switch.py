@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave20_c15orf48_ndufa4_switch"
+OUT = ROOT / "phases/v3/results" / "wave20_c15orf48_ndufa4_switch"
 SEED = 20260527
 
 
@@ -41,8 +41,8 @@ def main() -> None:
     np.random.seed(SEED)
     OUT.mkdir(parents=True, exist_ok=True)
 
-    broad = read_tsv("results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv")
-    ms = read_tsv("results_v3/gse111972_full_ms_wm_signature.tsv")
+    broad = read_tsv("phases/v3/results/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv")
+    ms = read_tsv("phases/v3/results/gse111972_full_ms_wm_signature.tsv")
     if broad.empty:
         raise FileNotFoundError("broad_h5ad_gene_contrasts.tsv missing")
 

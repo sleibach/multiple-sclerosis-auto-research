@@ -18,7 +18,7 @@ import pandas as pd
 import requests
 
 
-OUT = Path("results_v3/wave16_ctsh_chembl_feasibility")
+OUT = Path("phases/v3/results/wave16_ctsh_chembl_feasibility")
 OUT.mkdir(parents=True, exist_ok=True)
 
 SEED = 20260526

@@ -29,9 +29,9 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave41_l1000_external_unknown_deconvolution"
+OUT = ROOT / "phases/v3/results" / "wave41_l1000_external_unknown_deconvolution"
 RAW = OUT / "raw_api"
-INPUT = ROOT / "results_v3" / "wave27_l1000_unknown_deconvolution" / "unknown_l1000_deconvolution.tsv"
+INPUT = ROOT / "phases/v3/results" / "wave27_l1000_unknown_deconvolution" / "unknown_l1000_deconvolution.tsv"
 SEED = 20260527
 
 

@@ -17,7 +17,7 @@ np.random.seed(SEED)
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw_v3" / "interface_perturbation_geo"
-OUT = ROOT / "results_v3" / "wave153_gse129487_synovial_fibroblast_sirna_rescue"
+OUT = ROOT / "phases/v3/results" / "wave153_gse129487_synovial_fibroblast_sirna_rescue"
 OUT.mkdir(parents=True, exist_ok=True)
 
 MODULES: dict[str, list[str]] = {

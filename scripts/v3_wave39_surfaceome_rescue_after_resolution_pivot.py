@@ -25,23 +25,23 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave39_surfaceome_rescue_after_resolution_pivot"
+OUT = ROOT / "phases/v3/results" / "wave39_surfaceome_rescue_after_resolution_pivot"
 RAW = OUT / "raw_api"
 
-BROAD_H5AD = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
-SURFACE_W15 = ROOT / "results_v3" / "wave15_surface_trafficking_dependency" / "candidate_ranked.tsv"
-WAVE18 = ROOT / "results_v3" / "wave18_accessible_target_rescue" / "accessible_target_rescue_candidates.tsv"
-WAVE21 = ROOT / "results_v3" / "wave21_residual_druggability_scan" / "wave21_residual_druggability_rank.tsv"
-WAVE21_PRIOR = ROOT / "results_v3" / "wave21_residual_candidate_prior_art" / "candidate_prior_art_gate.tsv"
-WAVE22_SUMMARY = ROOT / "results_v3" / "wave22_sqle_failfast" / "summary.json"
-WAVE25 = ROOT / "results_v3" / "wave25_causal_genetics_module_proxy" / "causal_proxy_candidate_matrix.tsv"
+BROAD_H5AD = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
+SURFACE_W15 = ROOT / "phases/v3/results" / "wave15_surface_trafficking_dependency" / "candidate_ranked.tsv"
+WAVE18 = ROOT / "phases/v3/results" / "wave18_accessible_target_rescue" / "accessible_target_rescue_candidates.tsv"
+WAVE21 = ROOT / "phases/v3/results" / "wave21_residual_druggability_scan" / "wave21_residual_druggability_rank.tsv"
+WAVE21_PRIOR = ROOT / "phases/v3/results" / "wave21_residual_candidate_prior_art" / "candidate_prior_art_gate.tsv"
+WAVE22_SUMMARY = ROOT / "phases/v3/results" / "wave22_sqle_failfast" / "summary.json"
+WAVE25 = ROOT / "phases/v3/results" / "wave25_causal_genetics_module_proxy" / "causal_proxy_candidate_matrix.tsv"
 WAVE34 = (
     ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave34_genetics_expression_druggability_scan"
     / "wave34_genetics_expression_druggability_rank.tsv"
 )
-WAVE38 = ROOT / "results_v3" / "wave38_crispr_state_druggability_rescue" / "crispr_state_druggability_rescue_rank.tsv"
+WAVE38 = ROOT / "phases/v3/results" / "wave38_crispr_state_druggability_rescue" / "crispr_state_druggability_rescue_rank.tsv"
 
 USER_AGENT = "ms-auto-research-wave39-surfaceome-rescue/1.0"
 SEED = 20260527

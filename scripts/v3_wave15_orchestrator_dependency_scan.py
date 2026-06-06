@@ -28,9 +28,9 @@ from statsmodels.stats.multitest import multipletests
 from v3_analyze_osmr_complement_axes import CONFIGS, ROOT
 
 SEED = 20260526
-OUT = ROOT / "results_v3" / "wave15_orchestrator_dependency_scan"
-MODULE_SCORES = ROOT / "results_v3" / "direct_h5ad_cell_state" / "direct_h5ad_donor_module_scores.tsv"
-MS_SIGNATURE = ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv"
+OUT = ROOT / "phases/v3/results" / "wave15_orchestrator_dependency_scan"
+MODULE_SCORES = ROOT / "phases/v3/results" / "direct_h5ad_cell_state" / "direct_h5ad_donor_module_scores.tsv"
+MS_SIGNATURE = ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv"
 
 STATE_MODULES = ("hla_ii_apc", "mif_cd74_receptor_state")
 IFN_MODULE = "ifn_apc"

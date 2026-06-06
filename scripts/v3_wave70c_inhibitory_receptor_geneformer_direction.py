@@ -38,12 +38,12 @@ from transformers import BertModel
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "tmp_v3" / "foundation_wave6" / "geneformer_tiny_delete_screen.py"
-ASSETS = ROOT / "tmp_v3" / "foundation_wave6" / "geneformer_assets"
-OUT = ROOT / "results_v3" / "wave70c_inhibitory_receptor_geneformer_direction"
+SOURCE = ROOT / "phases/v3/tmp" / "foundation_wave6" / "geneformer_tiny_delete_screen.py"
+ASSETS = ROOT / "phases/v3/tmp" / "foundation_wave6" / "geneformer_assets"
+OUT = ROOT / "phases/v3/results" / "wave70c_inhibitory_receptor_geneformer_direction"
 H5AD = ROOT / "data" / "raw_v3" / "wave67_gse282122_myeloid" / "myeloid_final.h5ad"
-WAVE70 = ROOT / "results_v3" / "wave70_fc_ros_resolution_matrix" / "fc_ros_resolution_candidate_matrix.tsv"
-WAVE68 = ROOT / "results_v3" / "wave68_gse282122_unrestricted_gene_screen" / "integrated_gene_target_rank.tsv"
+WAVE70 = ROOT / "phases/v3/results" / "wave70_fc_ros_resolution_matrix" / "fc_ros_resolution_candidate_matrix.tsv"
+WAVE68 = ROOT / "phases/v3/results" / "wave68_gse282122_unrestricted_gene_screen" / "integrated_gene_target_rank.tsv"
 
 SEED = 20260527
 MAX_LEN = 512

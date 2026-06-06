@@ -57,7 +57,7 @@ No claim will be made if cross-disease evidence is literature-only, if simulatio
 - `LAB_NOTEBOOK_V2.md`
 - `ORCHESTRATION_LOG.md`
 - `CRITIQUE_V2.md`
-- `results_v2/` for all new outputs
+- `phases/v2/results/` for all new outputs
 - `subagents/` for subagent reports
 - `FINDING_V2.md`, `EXHAUSTION.md`, or `BLOCKERS.md`
 

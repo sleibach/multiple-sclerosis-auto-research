@@ -38,7 +38,7 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave102_sel1l3_fxyd5_residual_controller_test"
+OUT = ROOT / "phases/v3/results" / "wave102_sel1l3_fxyd5_residual_controller_test"
 
 CANDIDATES = ["SEL1L3", "FXYD5", "APOC1", "CD82", "LAPTM5"]
 
@@ -64,8 +64,8 @@ ADJUST_MODULES = [
 
 MYELOID_LINK_MODULES = ["lipid_loader_repair", "lysosomal_apc", "c15_mocci_costate", "inflammatory_nfkb"]
 
-MS_SIG = ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv"
-W101 = ROOT / "results_v3" / "wave101_accessible_survivor_forcing_triage" / "accessible_survivor_forcing_rank.tsv"
+MS_SIG = ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv"
+W101 = ROOT / "phases/v3/results" / "wave101_accessible_survivor_forcing_triage" / "accessible_survivor_forcing_rank.tsv"
 
 MIN_DONOR_CELLS = 10
 
@@ -670,10 +670,10 @@ def write_report(summary: pd.DataFrame, raw: pd.DataFrame, residuals: pd.DataFra
             "## Reproducibility",
             "",
             "- Script: `scripts/v3_wave102_sel1l3_fxyd5_residual_controller_test.py`",
-            "- Candidate gene scores: `results_v3/wave102_sel1l3_fxyd5_residual_controller_test/candidate_gene_scores.tsv`",
-            "- Module scores: `results_v3/wave102_sel1l3_fxyd5_residual_controller_test/candidate_module_scores.tsv`",
-            "- Residual tests: `results_v3/wave102_sel1l3_fxyd5_residual_controller_test/candidate_multicovariate_residual_tests.tsv`",
-            "- Same-donor links: `results_v3/wave102_sel1l3_fxyd5_residual_controller_test/same_donor_tissue_to_myeloid_links.tsv`",
+            "- Candidate gene scores: `phases/v3/results/wave102_sel1l3_fxyd5_residual_controller_test/candidate_gene_scores.tsv`",
+            "- Module scores: `phases/v3/results/wave102_sel1l3_fxyd5_residual_controller_test/candidate_module_scores.tsv`",
+            "- Residual tests: `phases/v3/results/wave102_sel1l3_fxyd5_residual_controller_test/candidate_multicovariate_residual_tests.tsv`",
+            "- Same-donor links: `phases/v3/results/wave102_sel1l3_fxyd5_residual_controller_test/same_donor_tissue_to_myeloid_links.tsv`",
             f"- Seed: `{SEED}`",
             "",
         ]

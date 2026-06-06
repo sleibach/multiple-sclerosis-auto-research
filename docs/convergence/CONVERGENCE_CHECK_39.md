@@ -6,11 +6,11 @@ Timestamp: 2026-05-27 17:42 CEST
 
 - Wave79 targetability shortlist audit:
   - `scripts/v3_wave79_targetability_shortlist_audit.py`
-  - `results_v3/wave79_targetability_shortlist_audit/`
+  - `phases/v3/results/wave79_targetability_shortlist_audit/`
 - Wave75-C targetability scout:
-  - `subagents_v3/wave75c_cross_disease_targetability_scout.md`
+  - `phases/v3/subagents/wave75c_cross_disease_targetability_scout.md`
 - Wave79 hostile sidecar:
-  - `subagents_v3/wave79_targetability_prior_art_directionality.md`
+  - `phases/v3/subagents/wave79_targetability_prior_art_directionality.md`
 
 ## What The Targetability Track Believes
 

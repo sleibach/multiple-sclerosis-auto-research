@@ -22,20 +22,20 @@ import requests
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave50_gpr65_acid_sensing_gpcr_audit"
+OUT = ROOT / "phases/v3/results" / "wave50_gpr65_acid_sensing_gpcr_audit"
 RAW = OUT / "raw_api"
 SEED = 20260527
 
 INPUTS = {
-    "wave47_reopen": ROOT / "results_v3" / "wave47_late_stage_survivor_map" / "reopen_only_requirements.tsv",
-    "wave34a": ROOT / "results_v3" / "wave34a_genetics_first_target_rescue" / "genetics_first_candidate_rank.tsv",
-    "wave34": ROOT / "results_v3" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv",
-    "broad_h5ad": ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
-    "wave20_local": ROOT / "results_v3" / "wave20_genetic_druggable_altaxis" / "local_biology_and_druggability_metrics.tsv",
-    "wave20_genetics": ROOT / "results_v3" / "wave20_genetic_druggable_altaxis" / "local_opentargets_genetics_summary.tsv",
-    "wave20_public": ROOT / "results_v3" / "wave20_genetic_druggable_altaxis" / "public_api_prior_art_druggability_audit.tsv",
-    "wave20_interpretation": ROOT / "results_v3" / "wave20_genetic_druggable_altaxis" / "public_source_interpretation.tsv",
-    "wave23_restoration": ROOT / "results_v3" / "wave23_genetics_restoration_modality" / "ranked_go_park_no_go.tsv",
+    "wave47_reopen": ROOT / "phases/v3/results" / "wave47_late_stage_survivor_map" / "reopen_only_requirements.tsv",
+    "wave34a": ROOT / "phases/v3/results" / "wave34a_genetics_first_target_rescue" / "genetics_first_candidate_rank.tsv",
+    "wave34": ROOT / "phases/v3/results" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv",
+    "broad_h5ad": ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
+    "wave20_local": ROOT / "phases/v3/results" / "wave20_genetic_druggable_altaxis" / "local_biology_and_druggability_metrics.tsv",
+    "wave20_genetics": ROOT / "phases/v3/results" / "wave20_genetic_druggable_altaxis" / "local_opentargets_genetics_summary.tsv",
+    "wave20_public": ROOT / "phases/v3/results" / "wave20_genetic_druggable_altaxis" / "public_api_prior_art_druggability_audit.tsv",
+    "wave20_interpretation": ROOT / "phases/v3/results" / "wave20_genetic_druggable_altaxis" / "public_source_interpretation.tsv",
+    "wave23_restoration": ROOT / "phases/v3/results" / "wave23_genetics_restoration_modality" / "ranked_go_park_no_go.tsv",
 }
 
 PUBLIC_QUERIES = [

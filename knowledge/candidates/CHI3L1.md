@@ -40,27 +40,27 @@ adequate target engagement.
 
 - Sparse-index query run before recalibration:
   `./.venv_v3_py312/bin/python scripts/query_knowledge_index.py "CHI3L1 V4 autoimmune marker mechanism prior art" 10`.
-- `subagents_v3/wave8_candidate_breadth_report.md`: CHI3L1 was a benchmark
+- `phases/v3/subagents/wave8_candidate_breadth_report.md`: CHI3L1 was a benchmark
   with MS delta 2.007, p 0.00461; positive in Crohn, UC, and T1D; UC stromal
   delta 5.94, p 5.62e-04, FDR 0.0627. Caveat: heavy biomarker/prior-art burden
   and weak Geneformer support.
-- `subagents_v3/wave18_accessible_target_rescue.md`: CHI3L1 was parked as
+- `phases/v3/subagents/wave18_accessible_target_rescue.md`: CHI3L1 was parked as
   positive-control biomarker/secreted benchmark, with broad h5ad positives in
   3 diseases and attractive secreted accessibility but no local state-coupling
   support and weak intervention package.
-- `results_v3/wave18_accessible_target_rescue/accessible_target_rescue_candidates.tsv`:
+- `phases/v3/results/wave18_accessible_target_rescue/accessible_target_rescue_candidates.tsv`:
   CHI3L1 call `PARK`; recurrence below promotion threshold, no state-coupled
   disease support, prior-art saturation high, ChEMBL target `CHEMBL5724768`
   with 39 activity records.
-- `results_v3/wave18_accessible_target_rescue/accessible_target_rescue_source_log.tsv`:
+- `phases/v3/results/wave18_accessible_target_rescue/accessible_target_rescue_source_log.tsv`:
   Europe PMC count 1833 for CHI3L1/YKL-40 autoimmune, ClinicalTrials.gov count
   9, ChEMBL 39 records, OpenTargets selected autoimmune row count 0, and patent
   query recorded.
-- `results_v3/wave20_unrestricted_survivor/wave20_gate_matrix.tsv`: CHI3L1
+- `phases/v3/results/wave20_unrestricted_survivor/wave20_gate_matrix.tsv`: CHI3L1
   failed strict-core survival and model/real perturbation gates; direct
   neutralization was conceivable but not V3-specific and may disturb
   repair/remodeling.
-- `results_v3/wave166_same_gene_genetics_cellstate_overlap/same_gene_genetics_cellstate_rank.tsv`:
+- `phases/v3/results/wave166_same_gene_genetics_cellstate_overlap/same_gene_genetics_cellstate_rank.tsv`:
   CHI3L1 did not pass same-gene genetics/cell-state overlap despite expression
   signals; support was concentrated in T1D tissue-resident contexts rather than
   target-resolved autoimmune genetics.

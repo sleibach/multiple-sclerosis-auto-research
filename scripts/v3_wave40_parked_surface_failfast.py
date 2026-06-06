@@ -18,18 +18,18 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave40_parked_surface_failfast"
-WAVE39 = ROOT / "results_v3" / "wave39_surfaceome_rescue_after_resolution_pivot" / "surfaceome_rescue_rank_full.tsv"
-BROAD = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
-RESIDUAL = ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv"
-WAVE25 = ROOT / "results_v3" / "wave25_causal_genetics_module_proxy" / "causal_proxy_candidate_matrix.tsv"
+OUT = ROOT / "phases/v3/results" / "wave40_parked_surface_failfast"
+WAVE39 = ROOT / "phases/v3/results" / "wave39_surfaceome_rescue_after_resolution_pivot" / "surfaceome_rescue_rank_full.tsv"
+BROAD = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
+RESIDUAL = ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv"
+WAVE25 = ROOT / "phases/v3/results" / "wave25_causal_genetics_module_proxy" / "causal_proxy_candidate_matrix.tsv"
 WAVE34 = (
     ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave34_genetics_expression_druggability_scan"
     / "wave34_genetics_expression_druggability_rank.tsv"
 )
-WAVE21_PRIOR = ROOT / "results_v3" / "wave21_residual_candidate_prior_art" / "candidate_prior_art_gate.tsv"
+WAVE21_PRIOR = ROOT / "phases/v3/results" / "wave21_residual_candidate_prior_art" / "candidate_prior_art_gate.tsv"
 
 SEED = 20260527
 

@@ -19,9 +19,9 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "tmp_v3" / "foundation_wave6" / "geneformer_tiny_delete_screen.py"
-INPUT = ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv"
-OUT = ROOT / "results_v3" / "geneformer_broad_residual_delete"
+SOURCE = ROOT / "phases/v3/tmp" / "foundation_wave6" / "geneformer_tiny_delete_screen.py"
+INPUT = ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv"
+OUT = ROOT / "phases/v3/results" / "geneformer_broad_residual_delete"
 
 MAX_GENES = 52
 ALWAYS_INCLUDE = [

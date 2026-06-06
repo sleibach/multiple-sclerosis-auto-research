@@ -35,7 +35,7 @@ from statsmodels.stats.multitest import multipletests
 SEED = 20260527
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw_v3" / "wave14_gsk3b_ciita"
-OUT = ROOT / "results_v3" / "wave14_gsk3b_ciita_perturbation"
+OUT = ROOT / "phases/v3/results" / "wave14_gsk3b_ciita_perturbation"
 
 DOWNLOADS = [
     {

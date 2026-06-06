@@ -40,12 +40,12 @@ from v3_wave85_external_geo_antitnf_validation import bh, hedges_g, markdown_tab
 
 SEED = 20260527
 RAW = ROOT / "data" / "raw_v3" / "wave89_psoriasis_response"
-OUT = ROOT / "results_v3" / "wave89_psoriasis_gse85034_response"
+OUT = ROOT / "phases/v3/results" / "wave89_psoriasis_gse85034_response"
 
 SERIES = RAW / "GSE85034_series_matrix.txt.gz"
 GPL10558_ANNOT = RAW / "GPL10558.annot.gz"
-W86_META = ROOT / "results_v3" / "wave86_external_geo_antitnf_gene_driver" / "external_geo_gene_meta_rank.tsv"
-W87_INTEGRATED = ROOT / "results_v3" / "wave87_cross_system_antitnf_resistance_gene_check" / "cross_system_antitnf_gene_integration.tsv"
+W86_META = ROOT / "phases/v3/results" / "wave86_external_geo_antitnf_gene_driver" / "external_geo_gene_meta_rank.tsv"
+W87_INTEGRATED = ROOT / "phases/v3/results" / "wave87_cross_system_antitnf_resistance_gene_check" / "cross_system_antitnf_gene_integration.tsv"
 
 PRIMARY_GENES = ["IL1B", "LAMP3"]
 MODULES: dict[str, list[str]] = {

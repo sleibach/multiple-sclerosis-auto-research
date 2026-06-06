@@ -37,8 +37,8 @@ from v3_wave104_accessible_survivor_niche_controller_test import (
 SEED = 20260527
 N_PERM = 2000
 GENE = "CD82"
-OUT = ROOT / "results_v3" / "wave105_cd82_niche_robustness_audit"
-W104 = ROOT / "results_v3" / "wave104_accessible_survivor_niche_controller_test"
+OUT = ROOT / "phases/v3/results" / "wave105_cd82_niche_robustness_audit"
+W104 = ROOT / "phases/v3/results" / "wave104_accessible_survivor_niche_controller_test"
 PAIRS = W104 / "matched_niche_pairs.tsv"
 TESTS = W104 / "niche_controller_tests.tsv"
 

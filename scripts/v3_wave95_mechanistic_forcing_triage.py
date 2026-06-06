@@ -28,21 +28,21 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave95_mechanistic_forcing_triage"
+OUT = ROOT / "phases/v3/results" / "wave95_mechanistic_forcing_triage"
 
-W94 = ROOT / "results_v3" / "wave94_accessible_state_rerank" / "accessible_state_candidate_rank.tsv"
-W92_ROUTE = ROOT / "results_v3" / "wave92_lipid_state_controller_route_audit" / "controller_route_rank.tsv"
-W39 = ROOT / "results_v3" / "wave39_surfaceome_rescue_after_resolution_pivot" / "surfaceome_rescue_rank_full.tsv"
-MS = ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv"
-RESID = ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv"
-W55 = ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv"
-W62 = ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
-W68 = ROOT / "results_v3" / "wave68_gse282122_unrestricted_gene_screen" / "integrated_gene_target_rank.tsv"
-W68_OLS = ROOT / "results_v3" / "wave68_gse282122_unrestricted_gene_screen" / "adjusted_top_gene_ols.tsv"
-W37 = ROOT / "results_v3" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
-W18 = ROOT / "results_v3" / "wave18_foundation_rescue" / "foundation_rescue_candidate_rank.tsv"
-W79 = ROOT / "results_v3" / "wave79_targetability_shortlist_audit" / "targetability_integrated_decision.tsv"
-W83 = ROOT / "results_v3" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv"
+W94 = ROOT / "phases/v3/results" / "wave94_accessible_state_rerank" / "accessible_state_candidate_rank.tsv"
+W92_ROUTE = ROOT / "phases/v3/results" / "wave92_lipid_state_controller_route_audit" / "controller_route_rank.tsv"
+W39 = ROOT / "phases/v3/results" / "wave39_surfaceome_rescue_after_resolution_pivot" / "surfaceome_rescue_rank_full.tsv"
+MS = ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv"
+RESID = ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv"
+W55 = ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv"
+W62 = ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
+W68 = ROOT / "phases/v3/results" / "wave68_gse282122_unrestricted_gene_screen" / "integrated_gene_target_rank.tsv"
+W68_OLS = ROOT / "phases/v3/results" / "wave68_gse282122_unrestricted_gene_screen" / "adjusted_top_gene_ols.tsv"
+W37 = ROOT / "phases/v3/results" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
+W18 = ROOT / "phases/v3/results" / "wave18_foundation_rescue" / "foundation_rescue_candidate_rank.tsv"
+W79 = ROOT / "phases/v3/results" / "wave79_targetability_shortlist_audit" / "targetability_integrated_decision.tsv"
+W83 = ROOT / "phases/v3/results" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv"
 
 
 GENE_CANDIDATES: list[str] = [

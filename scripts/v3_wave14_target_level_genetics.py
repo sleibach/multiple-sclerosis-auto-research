@@ -29,10 +29,10 @@ from urllib.request import Request, urlopen
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave14_target_level_genetics"
-OT_CREDIBLE_SETS = ROOT / "tmp_v3" / "wave13_opentargets_gwas_credible_sets.tsv"
-EXPR_SUMMARY = ROOT / "results_v3" / "wave13_candidate_gene_local_validation" / "wave13_candidate_gene_summary.tsv"
-GWAS_CATALOG_PARQUET = ROOT / "tmp_v3" / "gwascatalog_associations_20260317_convert.parquet"
+OUT = ROOT / "phases/v3/results" / "wave14_target_level_genetics"
+OT_CREDIBLE_SETS = ROOT / "phases/v3/tmp" / "wave13_opentargets_gwas_credible_sets.tsv"
+EXPR_SUMMARY = ROOT / "phases/v3/results" / "wave13_candidate_gene_local_validation" / "wave13_candidate_gene_summary.tsv"
+GWAS_CATALOG_PARQUET = ROOT / "phases/v3/tmp" / "gwascatalog_associations_20260317_convert.parquet"
 
 DATE = "2026-05-27"
 USER_AGENT = "ms-auto-research-wave14-target-level-genetics/1.0"

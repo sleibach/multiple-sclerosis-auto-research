@@ -21,7 +21,7 @@ import pandas as pd
 
 SEED = 20260527
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave98_ccl20_ccr6_forcing_audit"
+OUT = ROOT / "phases/v3/results" / "wave98_ccl20_ccr6_forcing_audit"
 
 
 def read_tsv(path: str) -> pd.DataFrame:
@@ -147,39 +147,39 @@ def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
 
     w97 = read_tsv(
-        "results_v3/wave97_c15_residual_costate_falsification/"
+        "phases/v3/results/wave97_c15_residual_costate_falsification/"
         "residual_costate_candidate_summary.tsv"
     )
     w96 = read_tsv(
-        "results_v3/wave96_c15orf48_controller_search/"
+        "phases/v3/results/wave96_c15orf48_controller_search/"
         "c15orf48_controller_candidate_rank.tsv"
     )
     w39 = read_tsv(
-        "results_v3/wave39_surfaceome_rescue_after_resolution_pivot/"
+        "phases/v3/results/wave39_surfaceome_rescue_after_resolution_pivot/"
         "surfaceome_rescue_rank.tsv"
     )
     w55 = read_tsv(
-        "results_v3/wave55_external_genetics_druggability_sweep/"
+        "phases/v3/results/wave55_external_genetics_druggability_sweep/"
         "external_genetics_candidate_audit.tsv"
     )
     w57 = read_tsv(
-        "results_v3/wave57_intervention_first_geneformer_screen/"
+        "phases/v3/results/wave57_intervention_first_geneformer_screen/"
         "wave57_geneformer_gene_summary.tsv"
     )
     w81 = read_tsv(
-        "results_v3/wave81_perturbation_first_rescue/"
+        "phases/v3/results/wave81_perturbation_first_rescue/"
         "perturbation_first_integrated_rank.tsv"
     )
     broad = read_tsv(
-        "results_v3/wave94_accessible_state_rerank/"
+        "phases/v3/results/wave94_accessible_state_rerank/"
         "broad_candidate_context_rows.tsv"
     )
     response_meta = read_tsv(
-        "results_v3/wave94_accessible_state_rerank/"
+        "phases/v3/results/wave94_accessible_state_rerank/"
         "candidate_response_meta.tsv"
     )
     w34 = read_tsv(
-        "results_v3/wave34a_genetics_first_target_rescue/"
+        "phases/v3/results/wave34a_genetics_first_target_rescue/"
         "genetics_first_candidate_rank.tsv"
     )
 
@@ -441,14 +441,14 @@ def main() -> None:
             "",
             "## Output Files",
             "",
-            "- `results_v3/wave98_ccl20_ccr6_forcing_audit/ccl20_ccr6_gate_matrix.tsv`",
-            "- `results_v3/wave98_ccl20_ccr6_forcing_audit/ccl20_ccr6_axis_summary.tsv`",
-            "- `results_v3/wave98_ccl20_ccr6_forcing_audit/verified_prior_art_sources.tsv`",
-            "- `results_v3/wave98_ccl20_ccr6_forcing_audit/ccl20_broad_context_rows.tsv`",
-            "- `results_v3/wave98_ccl20_ccr6_forcing_audit/ccr6_broad_context_rows.tsv`",
-            "- `results_v3/wave98_ccl20_ccr6_forcing_audit/ccl20_ccr6_response_meta.tsv`",
-            "- `results_v3/wave98_ccl20_ccr6_forcing_audit/summary.json`",
-            "- `results_v3/wave98_ccl20_ccr6_forcing_audit/REPORT.md`",
+            "- `phases/v3/results/wave98_ccl20_ccr6_forcing_audit/ccl20_ccr6_gate_matrix.tsv`",
+            "- `phases/v3/results/wave98_ccl20_ccr6_forcing_audit/ccl20_ccr6_axis_summary.tsv`",
+            "- `phases/v3/results/wave98_ccl20_ccr6_forcing_audit/verified_prior_art_sources.tsv`",
+            "- `phases/v3/results/wave98_ccl20_ccr6_forcing_audit/ccl20_broad_context_rows.tsv`",
+            "- `phases/v3/results/wave98_ccl20_ccr6_forcing_audit/ccr6_broad_context_rows.tsv`",
+            "- `phases/v3/results/wave98_ccl20_ccr6_forcing_audit/ccl20_ccr6_response_meta.tsv`",
+            "- `phases/v3/results/wave98_ccl20_ccr6_forcing_audit/summary.json`",
+            "- `phases/v3/results/wave98_ccl20_ccr6_forcing_audit/REPORT.md`",
             "",
         ]
     )

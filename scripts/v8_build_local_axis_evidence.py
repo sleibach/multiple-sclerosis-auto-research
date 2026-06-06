@@ -146,7 +146,7 @@ def placement_from_local(disease: str, rows: list[dict[str, str]], axis: str) ->
 
 
 def build_cell_state_evidence() -> tuple[list[dict[str, str]], list[dict[str, str]]]:
-    path = ROOT / "results_v3" / "cross_disease_cell_state_convergence.tsv"
+    path = ROOT / "phases/v3/results" / "cross_disease_cell_state_convergence.tsv"
     df = pd.read_csv(path, sep="\t")
     evidence: list[dict[str, str]] = []
     placements: list[dict[str, str]] = []

@@ -39,7 +39,7 @@ ACCESSION = "GSE227835"
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw_v3" / "gse227835"
 RAW_SAMPLE_DIR = RAW / "raw"
-OUT = ROOT / "results_v3" / "wave14_gse227835_myasthenia"
+OUT = ROOT / "phases/v3/results" / "wave14_gse227835_myasthenia"
 
 SERIES_MATRIX_URL = "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE227nnn/GSE227835/matrix/GSE227835_series_matrix.txt.gz"
 FAMILY_SOFT_URL = "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE227nnn/GSE227835/soft/GSE227835_family.soft.gz"

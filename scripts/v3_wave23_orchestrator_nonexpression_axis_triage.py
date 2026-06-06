@@ -20,37 +20,37 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave23_orchestrator_nonexpression_axis_triage"
+OUT = ROOT / "phases/v3/results" / "wave23_orchestrator_nonexpression_axis_triage"
 RAW = OUT / "raw_api"
 SEED = 20260527
 USER_AGENT = "ms-auto-research-wave23-orchestrator/1.0"
 
 PATHS = {
-    "broad_h5ad": ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
-    "broad_residual": ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
-    "opentargets_credible": ROOT / "tmp_v3" / "wave13_opentargets_gwas_credible_sets.tsv",
-    "wave14_gate": ROOT / "results_v3" / "wave14_candidate_gate_matrix" / "wave14_candidate_gate_matrix.tsv",
-    "wave18_foundation": ROOT / "results_v3" / "wave18_foundation_rescue" / "foundation_rescue_candidate_rank.tsv",
+    "broad_h5ad": ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
+    "broad_residual": ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
+    "opentargets_credible": ROOT / "phases/v3/tmp" / "wave13_opentargets_gwas_credible_sets.tsv",
+    "wave14_gate": ROOT / "phases/v3/results" / "wave14_candidate_gate_matrix" / "wave14_candidate_gate_matrix.tsv",
+    "wave18_foundation": ROOT / "phases/v3/results" / "wave18_foundation_rescue" / "foundation_rescue_candidate_rank.tsv",
     "wave15_direct_perturb": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave15_perturbation_drug_response"
     / "candidate_level_synthesis.tsv",
-    "l1000_summary": ROOT / "results_v3" / "l1000fwd_compound_summary.tsv",
+    "l1000_summary": ROOT / "phases/v3/results" / "l1000fwd_compound_summary.tsv",
     "wave20_genetic": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave20_genetic_druggable_altaxis"
     / "negative_ranked_shortlist.tsv",
-    "chembl_local": ROOT / "results_v3" / "druggability" / "chembl_target_activity_summary.tsv",
+    "chembl_local": ROOT / "phases/v3/results" / "druggability" / "chembl_target_activity_summary.tsv",
     "treatment_response_ra": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave18_treatment_response"
     / "wave18_gse138746_ra_baseline_response_tests.tsv",
     "treatment_response_uc": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave18_treatment_response"
     / "wave18_existing_gse253006_uc_summary.tsv",
     "treatment_response_psoriasis": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave18_treatment_response"
     / "wave18_gse183047_psoriasis_prepost_tests.tsv",
 }

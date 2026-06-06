@@ -15,7 +15,7 @@ Wave41 script:
 `scripts/v3_wave41_l1000_external_unknown_deconvolution.py`
 
 Outputs:
-`results_v3/wave41_l1000_external_unknown_deconvolution/`
+`phases/v3/results/wave41_l1000_external_unknown_deconvolution/`
 
 Key result:
 

@@ -72,12 +72,12 @@ if [[ "${RUN_CELLXGENE_CENSUS:-0}" == "1" ]]; then
 else
   echo "Skipping CELLxGENE Census expression query: set RUN_CELLXGENE_CENSUS=1 to run the fragile remote path"
 fi
-if [[ -s data/raw_v3/state_parse_split4/CD14_Mono_pred_de.csv && -s data/raw_v3/state_parse_split4/CD14_Mono_real_de.csv && -s tmp_v3/var_dims_split4.pkl ]]; then
+if [[ -s data/raw_v3/state_parse_split4/CD14_Mono_pred_de.csv && -s data/raw_v3/state_parse_split4/CD14_Mono_real_de.csv && -s phases/v3/tmp/var_dims_split4.pkl ]]; then
   "$PYTHON_BIN" scripts/v3_analyze_state_parse_cd14.py
 else
   echo "Skipping State CD14 analysis: released prediction/real files not present"
 fi
-if [[ -s tmp_v3/foundation_wave6/geneformer_assets/Geneformer-V2-104M/model.safetensors ]]; then
+if [[ -s phases/v3/tmp/foundation_wave6/geneformer_assets/Geneformer-V2-104M/model.safetensors ]]; then
   "$PYTHON_BIN" scripts/v3_geneformer_candidate_delete_screen.py
   "$PYTHON_BIN" scripts/v3_geneformer_phagolysosomal_matrix_screen.py
   "$PYTHON_BIN" scripts/v3_geneformer_pivot_panel_screen.py

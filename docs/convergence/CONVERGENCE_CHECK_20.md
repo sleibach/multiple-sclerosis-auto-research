@@ -4,11 +4,11 @@ Timestamp: 2026-05-27 11:55 UTC
 
 ## Inputs Since Check 19
 
-- Wave58-M: `subagents_v3/wave58m_cxcr2_therapeutic_audit.md`.
-- Wave58-N: `subagents_v3/wave58n_il7r_therapeutic_audit.md`.
-- Wave58-O: `subagents_v3/wave58o_hostile_review_cxcr2_il7r.md`.
+- Wave58-M: `phases/v3/subagents/wave58m_cxcr2_therapeutic_audit.md`.
+- Wave58-N: `phases/v3/subagents/wave58n_il7r_therapeutic_audit.md`.
+- Wave58-O: `phases/v3/subagents/wave58o_hostile_review_cxcr2_il7r.md`.
 - Wave59 local audit:
-  `results_v3/wave59_lysosomal_sphingolipid_model_reopener_audit/`.
+  `phases/v3/results/wave59_lysosomal_sphingolipid_model_reopener_audit/`.
 
 ## What Each Track Now Believes
 

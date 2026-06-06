@@ -43,11 +43,11 @@ Inventory:
 
 Core train/validation substrate:
 
-- `results_v3/mixscale/mixscale_module_summary.tsv`
+- `phases/v3/results/mixscale/mixscale_module_summary.tsv`
 
 External check substrate:
 
-- `results_v3/state_parse_cd14_per_target_validation.tsv`
+- `phases/v3/results/state_parse_cd14_per_target_validation.tsv`
 - `data/raw_v3/state_parse_split4/CD14_Mono_real_de.csv`
 - `data/raw_v3/state_parse_split4/CD14_Mono_pred_de.csv`
 
@@ -197,7 +197,7 @@ Script:
 
 Inputs:
 
-- `results_v3/mixscale/mixscale_module_summary.tsv`
+- `phases/v3/results/mixscale/mixscale_module_summary.tsv`
 - `analysis/v25_immune_state_model/TRAIN_HELDOUT_SPLIT_V25.tsv`
 
 Outputs:

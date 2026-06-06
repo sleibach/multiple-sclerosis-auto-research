@@ -30,11 +30,11 @@ from v3_analyze_direct_h5ad_cell_states import ROOT
 
 SEED = 20260527
 RAW = ROOT / "data" / "raw_v3" / "wave67_gse282122_myeloid"
-OUT = ROOT / "results_v3" / "wave68_gse282122_unrestricted_gene_screen"
+OUT = ROOT / "phases/v3/results" / "wave68_gse282122_unrestricted_gene_screen"
 MYELOID_FILE = RAW / "myeloid_final.h5ad"
 PAIRED_FILE = RAW / "paired_sample_list.csv"
-WAVE62_TARGETS = ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
-WAVE67_DELTAS = ROOT / "results_v3" / "wave67_gse282122_myeloid_pseudobulk" / "paired_module_deltas.tsv"
+WAVE62_TARGETS = ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
+WAVE67_DELTAS = ROOT / "phases/v3/results" / "wave67_gse282122_myeloid_pseudobulk" / "paired_module_deltas.tsv"
 
 PRIMARY_STATES = ["Mono_macro", "DC"]
 MIN_CELLS_PER_SIDE = 20

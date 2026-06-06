@@ -16,7 +16,7 @@ from pathlib import Path
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-RESULTS = ROOT / "results_v3"
+RESULTS = ROOT / "phases/v3/results"
 COMPOUNDINFO = ROOT / "data" / "raw_v3" / "lincs2020" / "compoundinfo_beta.txt"
 HITS = RESULTS / "l1000fwd_reversal_hits.tsv"
 

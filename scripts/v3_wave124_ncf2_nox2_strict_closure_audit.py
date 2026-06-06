@@ -12,16 +12,16 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave124_ncf2_nox2_strict_closure_audit"
+OUT = ROOT / "phases/v3/results" / "wave124_ncf2_nox2_strict_closure_audit"
 
-W122 = ROOT / "results_v3" / "wave122_fresh_breadth_target_scan" / "fresh_breadth_target_rank.tsv"
-W81 = ROOT / "results_v3" / "wave81_perturbation_first_rescue" / "perturbation_first_integrated_rank.tsv"
-W71 = ROOT / "results_v3" / "wave81_perturbation_first_rescue" / "perturbation_first_wave71_rows.tsv"
-W62 = ROOT / "results_v3" / "wave81_perturbation_first_rescue" / "perturbation_first_wave62_rows.tsv"
-W70 = ROOT / "results_v3" / "wave70_fc_ros_resolution_matrix" / "fc_ros_resolution_candidate_matrix.tsv"
-W70_REPORT = ROOT / "results_v3" / "wave70_fc_ros_resolution_matrix" / "REPORT.md"
-W37 = ROOT / "results_v3" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
-W96 = ROOT / "results_v3" / "wave96_c15orf48_controller_search" / "c15orf48_controller_candidate_rank.tsv"
+W122 = ROOT / "phases/v3/results" / "wave122_fresh_breadth_target_scan" / "fresh_breadth_target_rank.tsv"
+W81 = ROOT / "phases/v3/results" / "wave81_perturbation_first_rescue" / "perturbation_first_integrated_rank.tsv"
+W71 = ROOT / "phases/v3/results" / "wave81_perturbation_first_rescue" / "perturbation_first_wave71_rows.tsv"
+W62 = ROOT / "phases/v3/results" / "wave81_perturbation_first_rescue" / "perturbation_first_wave62_rows.tsv"
+W70 = ROOT / "phases/v3/results" / "wave70_fc_ros_resolution_matrix" / "fc_ros_resolution_candidate_matrix.tsv"
+W70_REPORT = ROOT / "phases/v3/results" / "wave70_fc_ros_resolution_matrix" / "REPORT.md"
+W37 = ROOT / "phases/v3/results" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
+W96 = ROOT / "phases/v3/results" / "wave96_c15orf48_controller_search" / "c15orf48_controller_candidate_rank.tsv"
 
 GENE = "NCF2"
 

@@ -23,13 +23,13 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave43_genetic_druggable_failfast"
+OUT = ROOT / "phases/v3/results" / "wave43_genetic_druggable_failfast"
 SEED = 20260527
 
-WAVE34 = ROOT / "results_v3" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv"
-BROAD = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
-RESIDUAL = ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv"
-WAVE42 = ROOT / "results_v3" / "wave42_fads_lipid_desaturation_axis" / "summary.json"
+WAVE34 = ROOT / "phases/v3/results" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv"
+BROAD = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
+RESIDUAL = ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv"
+WAVE42 = ROOT / "phases/v3/results" / "wave42_fads_lipid_desaturation_axis" / "summary.json"
 
 MANUAL_RULES = {
     "FADS1": {

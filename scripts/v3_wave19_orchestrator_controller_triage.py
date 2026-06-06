@@ -16,7 +16,7 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave19_orchestrator_controller_triage"
+OUT = ROOT / "phases/v3/results" / "wave19_orchestrator_controller_triage"
 SEED = 20260527
 
 CHECKPOINT_GENES = [
@@ -127,13 +127,13 @@ def main() -> None:
     np.random.seed(SEED)
     OUT.mkdir(parents=True, exist_ok=True)
 
-    broad = read_tsv("results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv")
-    orchestrator = read_tsv("results_v3/wave15_orchestrator_dependency_scan/candidate_dependency_priority_summary.tsv")
-    surface = read_tsv("results_v3/wave15_surface_trafficking_dependency/candidate_ranked.tsv")
-    foundation = read_tsv("results_v3/wave18_foundation_rescue/foundation_rescue_candidate_rank.tsv")
-    accessible = read_tsv("results_v3/wave18_accessible_target_rescue/accessible_target_rescue_candidates.tsv")
-    genetics = read_tsv("results_v3/wave14_target_level_genetics/opentargets_locus_summary.tsv")
-    central = read_tsv("results_v3/central_node_first_pass_rank.tsv")
+    broad = read_tsv("phases/v3/results/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv")
+    orchestrator = read_tsv("phases/v3/results/wave15_orchestrator_dependency_scan/candidate_dependency_priority_summary.tsv")
+    surface = read_tsv("phases/v3/results/wave15_surface_trafficking_dependency/candidate_ranked.tsv")
+    foundation = read_tsv("phases/v3/results/wave18_foundation_rescue/foundation_rescue_candidate_rank.tsv")
+    accessible = read_tsv("phases/v3/results/wave18_accessible_target_rescue/accessible_target_rescue_candidates.tsv")
+    genetics = read_tsv("phases/v3/results/wave14_target_level_genetics/opentargets_locus_summary.tsv")
+    central = read_tsv("phases/v3/results/central_node_first_pass_rank.tsv")
 
     candidate_classes: dict[str, set[str]] = {
         "tolerogenic_checkpoint": set(CHECKPOINT_GENES),

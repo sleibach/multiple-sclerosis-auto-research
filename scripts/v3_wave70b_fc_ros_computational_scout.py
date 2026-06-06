@@ -24,7 +24,7 @@ from statsmodels.stats.multitest import multipletests
 
 SEED = 20260527
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave70b_fc_ros_computational_scout"
+OUT = ROOT / "phases/v3/results" / "wave70b_fc_ros_computational_scout"
 
 CANDIDATES = [
     "INPP5D",
@@ -52,27 +52,27 @@ CANDIDATE_SET = set(CANDIDATES)
 RAW_GSE282122 = ROOT / "data" / "raw_v3" / "wave67_gse282122_myeloid"
 GSE282122_H5AD = RAW_GSE282122 / "myeloid_final.h5ad"
 GSE282122_PAIRS = RAW_GSE282122 / "paired_sample_list.csv"
-WAVE68_INTEGRATED = ROOT / "results_v3" / "wave68_gse282122_unrestricted_gene_screen" / "integrated_gene_target_rank.tsv"
-WAVE69B = ROOT / "results_v3" / "wave69b_independent_validation_scout"
-MS_SIGNATURE = ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv"
-BROAD_SUMMARY = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_summary.tsv"
-BROAD_CONTRASTS = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
-WAVE37_EFFERO = ROOT / "results_v3" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
+WAVE68_INTEGRATED = ROOT / "phases/v3/results" / "wave68_gse282122_unrestricted_gene_screen" / "integrated_gene_target_rank.tsv"
+WAVE69B = ROOT / "phases/v3/results" / "wave69b_independent_validation_scout"
+MS_SIGNATURE = ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv"
+BROAD_SUMMARY = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_summary.tsv"
+BROAD_CONTRASTS = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
+WAVE37_EFFERO = ROOT / "phases/v3/results" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
 WAVE57_CALLS = (
-    ROOT / "results_v3" / "wave57_intervention_first_geneformer_screen" / "wave57_intervention_first_candidate_calls.tsv"
+    ROOT / "phases/v3/results" / "wave57_intervention_first_geneformer_screen" / "wave57_intervention_first_candidate_calls.tsv"
 )
 WAVE69D_CALLS = (
     ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave69d_gse282122_geneformer_remission_centroid"
     / "geneformer_remission_candidate_calls.tsv"
 )
-GENEFORMER_SOURCE_SUMMARY = ROOT / "results_v3" / "wave18_foundation_rescue" / "geneformer_source_gene_summary.tsv"
+GENEFORMER_SOURCE_SUMMARY = ROOT / "phases/v3/results" / "wave18_foundation_rescue" / "geneformer_source_gene_summary.tsv"
 GENEFORMER_PIVOT_SUMMARY = (
-    ROOT / "results_v3" / "geneformer_pivot_panel_delete" / "geneformer_pivot_panel_gene_summary.tsv"
+    ROOT / "phases/v3/results" / "geneformer_pivot_panel_delete" / "geneformer_pivot_panel_gene_summary.tsv"
 )
-RA_COUNTS = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
-RA_META = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
+RA_COUNTS = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
+RA_META = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
 
 PRIMARY_STATES = ["Mono_macro", "DC"]
 MIN_CELLS_PER_SIDE = 20

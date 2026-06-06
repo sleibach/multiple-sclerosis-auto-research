@@ -39,26 +39,26 @@ engagement for target-mechanistic reasons.
 
 - Sparse-index query run before recalibration:
   `./.venv_v3_py312/bin/python scripts/query_knowledge_index.py "LTA4H V4 prior art autoimmune lipid mediator subgroup" 10`.
-- `subagents_v3/wave7_lipid_myeloid_target_scout_report.md`: LTA4H had local
+- `phases/v3/subagents/wave7_lipid_myeloid_target_scout_report.md`: LTA4H had local
   MS white-matter microglia delta 0.809, Hedges g 1.357, p 0.00636, plus
   MIMS2-like microglia effect 1.483, p 0.0108 and foamy proteomics effect
   0.169, p 0.0321, but was called no-go after Geneformer/prior-art demotion.
-- `subagents_v3/wave8_candidate_breadth_report.md`: LTA4H had 4 token
+- `phases/v3/subagents/wave8_candidate_breadth_report.md`: LTA4H had 4 token
   contexts, 6 disease cells with token, mean cosine shift -0.000289, mean
   projection shift -0.00278, and 0 support contexts in the Geneformer deletion
   summary; interpretation: negative by posthoc rule, keep demoted.
-- `results_v3/wave20_unrestricted_survivor/wave20_local_evidence.tsv`:
+- `phases/v3/results/wave20_unrestricted_survivor/wave20_local_evidence.tsv`:
   demoted with positive local signals in Crohn myeloid, UC myeloid, T1D
   acinar, and MS white matter, but no strict core survival and no model/real
   perturbation support.
-- `results_v3/wave20_unrestricted_survivor/wave20_gate_matrix.tsv`: failed
+- `phases/v3/results/wave20_unrestricted_survivor/wave20_gate_matrix.tsv`: failed
   `FAIL_RETAINED_ONLY_NO_STRICT_CORE_SURVIVAL` and
   `FAIL_NO_MODEL_OR_REAL_PERTURBATION`; blocker noted direct EAE/MS and
   inflammatory-disease inhibitor prior art plus prior Geneformer veto.
-- `results_v3/wave20_unrestricted_survivor/wave20_chembl_target_search.tsv`:
+- `phases/v3/results/wave20_unrestricted_survivor/wave20_chembl_target_search.tsv`:
   ChEMBL target `CHEMBL4618`, 2863 activity records, confirming druggability
   but not V4 specificity.
-- `results_v3/wave166_same_gene_genetics_cellstate_overlap/same_gene_genetics_cellstate_rank.tsv`:
+- `phases/v3/results/wave166_same_gene_genetics_cellstate_overlap/same_gene_genetics_cellstate_rank.tsv`:
   LTA4H had some cell-state support but no cross-disease genetic support, no
   MR/coloc, no perturbation/foundation support, and no druggability-derived
   V4 promotion signal.

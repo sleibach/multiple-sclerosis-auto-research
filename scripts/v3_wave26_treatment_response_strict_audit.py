@@ -26,12 +26,12 @@ from statsmodels.stats.multitest import multipletests
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave26_treatment_response_strict_audit"
+OUT = ROOT / "phases/v3/results" / "wave26_treatment_response_strict_audit"
 SEED = 20260527
 
-BASELINE = ROOT / "results_v3" / "wave23_treatment_response_stratification" / "baseline_module_response_evidence.tsv"
-PD = ROOT / "results_v3" / "wave23_treatment_response_stratification" / "pharmacodynamic_module_evidence.tsv"
-RANKED = ROOT / "results_v3" / "wave23_treatment_response_stratification" / "ranked_go_park_no_go.tsv"
+BASELINE = ROOT / "phases/v3/results" / "wave23_treatment_response_stratification" / "baseline_module_response_evidence.tsv"
+PD = ROOT / "phases/v3/results" / "wave23_treatment_response_stratification" / "pharmacodynamic_module_evidence.tsv"
+RANKED = ROOT / "phases/v3/results" / "wave23_treatment_response_stratification" / "ranked_go_park_no_go.tsv"
 
 
 def rel(path: Path) -> str:

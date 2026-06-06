@@ -48,42 +48,42 @@ only novelty.
   `./.venv_v3_py312/bin/python scripts/query_knowledge_index.py "LXR ABCA1 ABCG1 lipid efflux remyelination V4" 10`
   returned this candidate file first, followed by V3 Wave19/Wave32/Wave36
   lipid-efflux analyses and `meta/PRIOR_ART_RULEBOOK.md`.
-- `subagents_v3/wave19_lysosomal_controller.md` and
-  `results_v3/wave19_lysosomal_controller/decision_matrix.tsv`:
+- `phases/v3/subagents/wave19_lysosomal_controller.md` and
+  `phases/v3/results/wave19_lysosomal_controller/decision_matrix.tsv`:
   `PPAR_LXR_cholesterol_efflux_activation` was `NO_GO`; V3 recorded
   mixed/negative local direction for `PPARG/NR1H3/ABCG1`, with `ABCA1`
   MS-positive but broad-negative, plus saturated autoimmune/metabolic claims and
   LXR lipogenesis liability.
-- `results_v3/wave19_lysosomal_controller/external_evidence_matrix.tsv`:
+- `phases/v3/results/wave19_lysosomal_controller/external_evidence_matrix.tsv`:
   generic activation of `PPARG;NR1H3;NR1H2;ABCA1;ABCG1` had chemical matter and
   biological plausibility, but the route was broad, metabolically constrained,
   and locally mixed/negative.
-- `results_v3/wave19_lysosomal_controller/source_log.tsv`: local prior-art
+- `phases/v3/results/wave19_lysosomal_controller/source_log.tsv`: local prior-art
   anchors include LXR EAE prior art (PubMed `16955483`), LXR lipogenesis
   liability (PubMed `11090131`), and PPAR-gamma autoimmune trial anchors.
-- `subagents_v3/wave13_genetics_prior_art_reopen.md`: scoped genetics found
+- `phases/v3/subagents/wave13_genetics_prior_art_reopen.md`: scoped genetics found
   only weak `NR1H3` MS credible-set evidence; `ABCA1`/`SOAT1` lacked scoped
   support in that run. The route was called mechanistically relevant but weak
   on genetics and safety.
-- `results_v3/wave32_resolution_rescue_audit/resolution_rescue_route_audit.tsv`:
+- `phases/v3/results/wave32_resolution_rescue_audit/resolution_rescue_route_audit.tsv`:
   `LXR_ABCA1_CHOLESTEROL_EFFLUX` was
   `NO_GO_RESOLUTION_MARKER_OR_UNVALIDATED_ROUTE`; it had coherent biology and
   druggability, but no cross-disease coloc/MR/perturbation/foundation support
   and a blocking prior-art/safety profile.
-- `subagents_v3/wave36a_gene_level_controller_rescue.md`: RXR/LXR agonism
+- `phases/v3/subagents/wave36a_gene_level_controller_rescue.md`: RXR/LXR agonism
   produced some favorable submodule movements in a bexarotene context, but only
   in one dataset; V3 did not find independent perturbation replication.
-- `subagents_v3/wave36b_hostile_critique.md`: hostile review noted
+- `phases/v3/subagents/wave36b_hostile_critique.md`: hostile review noted
   `Aged_BEX_vs_Aged_vehicle` had resolution +0.286, lipid/APC +0.024, IFN
   -0.094, stress -0.342; young and stroke-aged contexts did not replicate,
   leaving broad nuclear-receptor pharmacology, weak lipid/APC reduction, and
   age/context dependence.
-- `results_v3/wave122_fresh_breadth_target_scan/fresh_breadth_target_rank.tsv`
-  and `results_v3/wave133_closure_hygiene_correction/wave122_corrected_rank.tsv`:
+- `phases/v3/results/wave122_fresh_breadth_target_scan/fresh_breadth_target_rank.tsv`
+  and `phases/v3/results/wave133_closure_hygiene_correction/wave122_corrected_rank.tsv`:
   `ABCA1`, `ABCG1`, `NR1H2`, and `NR1H3` were all
   `NO_GO_FRESH_SCAN`, lacking genetics, perturbation, foundation, and modality
   gates despite isolated expression trends.
-- `results_v3/wave23_orchestrator_nonexpression_axis_triage/raw_api/chembl_search_NR1H3.json`,
+- `phases/v3/results/wave23_orchestrator_nonexpression_axis_triage/raw_api/chembl_search_NR1H3.json`,
   `chembl_search_NR1H2.json`, and ABCA1/NR1H activity files confirm available
   ChEMBL target/assay precedent, but this supports tractability rather than
   therapeutic specificity.

@@ -49,21 +49,21 @@ def as_float(row: dict[str, str], key: str) -> float:
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
 
-    cross = find_gene(ROOT / "results_v3" / "cross_disease_gene_summary.tsv", "NAMPT")
+    cross = find_gene(ROOT / "phases/v3/results" / "cross_disease_gene_summary.tsv", "NAMPT")
     residual = find_gene(
-        ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
+        ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
         "NAMPT",
     )
     controller = find_gene(
         ROOT
-        / "results_v3"
+        / "phases/v3/results"
         / "wave96_c15orf48_controller_search"
         / "pre_donor_controller_rank.tsv",
         "NAMPT",
     )
     genetics = find_gene(
         ROOT
-        / "results_v3"
+        / "phases/v3/results"
         / "wave20_genetic_druggable_altaxis"
         / "local_opentargets_genetics_summary.tsv",
         "NAMPT",
@@ -72,7 +72,7 @@ def main() -> None:
     evidence_rows: list[dict[str, object]] = [
         {
             "dimension": "cross_disease_expression",
-            "source": "results_v3/cross_disease_gene_summary.tsv",
+            "source": "phases/v3/results/cross_disease_gene_summary.tsv",
             "metric": "trend_or_better_disease_count",
             "value": cross["n_trend_or_better_diseases"],
             "supporting_diseases": cross["supporting_diseases"],
@@ -80,7 +80,7 @@ def main() -> None:
         },
         {
             "dimension": "module_adjusted_residual",
-            "source": "results_v3/broad_residual_gate/broad_residual_gate_summary.tsv",
+            "source": "phases/v3/results/broad_residual_gate/broad_residual_gate_summary.tsv",
             "metric": "non_ibd_retained_positive_disease_count",
             "value": residual["non_ibd_retained_positive_disease_count"],
             "supporting_diseases": residual["top_retained_tests"],
@@ -88,7 +88,7 @@ def main() -> None:
         },
         {
             "dimension": "ms_anchor",
-            "source": "results_v3/broad_residual_gate/broad_residual_gate_summary.tsv",
+            "source": "phases/v3/results/broad_residual_gate/broad_residual_gate_summary.tsv",
             "metric": "ms_wm_delta_log2;ms_wm_p",
             "value": f"{residual['ms_wm_delta_log2']};{residual['ms_wm_p']}",
             "supporting_diseases": "MS",
@@ -96,7 +96,7 @@ def main() -> None:
         },
         {
             "dimension": "candidate_controller",
-            "source": "results_v3/wave96_c15orf48_controller_search/pre_donor_controller_rank.tsv",
+            "source": "phases/v3/results/wave96_c15orf48_controller_search/pre_donor_controller_rank.tsv",
             "metric": "positive_contexts;residual_retained_disease_count",
             "value": f"{controller['positive_c15_contexts']};{controller['residual_retained_disease_count']}",
             "supporting_diseases": controller["positive_c15_contexts"],
@@ -104,7 +104,7 @@ def main() -> None:
         },
         {
             "dimension": "genetics",
-            "source": "results_v3/wave20_genetic_druggable_altaxis/local_opentargets_genetics_summary.tsv",
+            "source": "phases/v3/results/wave20_genetic_druggable_altaxis/local_opentargets_genetics_summary.tsv",
             "metric": "ot_max_score;ot_n_diseases_any",
             "value": f"{genetics['ot_max_score']};{genetics['ot_n_diseases_any']}",
             "supporting_diseases": genetics["ot_diseases_any"],

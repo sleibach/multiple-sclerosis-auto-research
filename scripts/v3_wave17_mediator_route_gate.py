@@ -25,7 +25,7 @@ import pandas as pd
 import requests
 
 
-OUT = Path("results_v3/wave17_mediator_route_gate")
+OUT = Path("phases/v3/results/wave17_mediator_route_gate")
 OUT.mkdir(parents=True, exist_ok=True)
 SEED = 20260526
 
@@ -58,7 +58,7 @@ LOCAL_GENES = ["MED16", "CDK8", "CDK19", "CCNC", "MED12", "MED13", "MED23", "STA
 
 
 def read_existing_perturbation() -> pd.DataFrame:
-    p = Path("results_v3/wave15_perturbation_drug_response/ranked_direct_perturbations.tsv")
+    p = Path("phases/v3/results/wave15_perturbation_drug_response/ranked_direct_perturbations.tsv")
     if not p.exists():
         return pd.DataFrame()
     df = pd.read_csv(p, sep="\t")
@@ -68,7 +68,7 @@ def read_existing_perturbation() -> pd.DataFrame:
 
 def read_local_gene_rows() -> pd.DataFrame:
     rows = []
-    p = Path("results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv")
+    p = Path("phases/v3/results/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv")
     if p.exists():
         broad = pd.read_csv(p, sep="\t", low_memory=False)
         for _, row in broad[broad["gene"].isin(LOCAL_GENES)].iterrows():
@@ -87,7 +87,7 @@ def read_local_gene_rows() -> pd.DataFrame:
                     "discovery_priority_score": row.get("discovery_priority_score"),
                 }
             )
-    p2 = Path("results_v3/wave14_gsk3b_local_gate/gsk3b_local_gate_gene_summary.tsv")
+    p2 = Path("phases/v3/results/wave14_gsk3b_local_gate/gsk3b_local_gate_gene_summary.tsv")
     if p2.exists():
         gate = pd.read_csv(p2, sep="\t")
         for _, row in gate[gate["gene"].isin(LOCAL_GENES)].iterrows():

@@ -31,7 +31,7 @@ from statsmodels.stats.multitest import multipletests
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw_v3" / "gse212008"
-OUT = ROOT / "results_v3" / "wave37_gse212008_crispr_efferocytosis_screen"
+OUT = ROOT / "phases/v3/results" / "wave37_gse212008_crispr_efferocytosis_screen"
 SEED = 20260527
 USER_AGENT = "ms-auto-research-wave37-gse212008/1.0"
 URL = "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE212nnn/GSE212008/suppl/GSE212008_Screen_1and3_dedup_merged_filt_by_5pct_comb_Amp_filt_contamination_RAW_sgRNA_counts.txt.gz"

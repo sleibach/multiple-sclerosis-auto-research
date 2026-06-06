@@ -7,7 +7,7 @@ Canonical manifest:
 
 - `../../data/raw_v3/`
 - `../../data/derived_v3/`
-- `../../results_v3/`
+- `../../phases/v3/results/`
 
 ## V4 Registry Rule
 

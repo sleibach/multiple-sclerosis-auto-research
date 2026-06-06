@@ -12,7 +12,7 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "analysis" / "v25_immune_state_model"
-MODULE_SUMMARY = ROOT / "results_v3" / "mixscale" / "mixscale_module_summary.tsv"
+MODULE_SUMMARY = ROOT / "phases/v3/results" / "mixscale" / "mixscale_module_summary.tsv"
 SPLIT = OUT / "TRAIN_HELDOUT_SPLIT_V25.tsv"
 
 

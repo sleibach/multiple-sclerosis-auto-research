@@ -14,11 +14,11 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave145_strict_route_inventory"
+OUT = ROOT / "phases/v3/results" / "wave145_strict_route_inventory"
 SEED = 20260527
 
-WAVE83 = ROOT / "results_v3" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv"
-WAVE116 = ROOT / "results_v3" / "wave116_closure_aware_route_rerank" / "closure_aware_route_universe.tsv"
+WAVE83 = ROOT / "phases/v3/results" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv"
+WAVE116 = ROOT / "phases/v3/results" / "wave116_closure_aware_route_rerank" / "closure_aware_route_universe.tsv"
 
 
 POST_CLOSURE_VETOES = {

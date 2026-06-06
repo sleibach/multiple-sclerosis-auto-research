@@ -13,8 +13,8 @@ from scipy import stats
 
 SEED = 20260527
 ROOT = Path(__file__).resolve().parents[1]
-IN = ROOT / "results_v3" / "wave153_gse129487_synovial_fibroblast_sirna_rescue"
-OUT = ROOT / "results_v3" / "wave154_cux1_consistency_guardrail"
+IN = ROOT / "phases/v3/results" / "wave153_gse129487_synovial_fibroblast_sirna_rescue"
+OUT = ROOT / "phases/v3/results" / "wave154_cux1_consistency_guardrail"
 OUT.mkdir(parents=True, exist_ok=True)
 
 

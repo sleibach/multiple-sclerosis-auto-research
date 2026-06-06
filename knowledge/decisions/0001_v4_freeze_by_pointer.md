@@ -10,7 +10,7 @@ historical files.
 ## Rationale
 
 - V3 scripts and notebooks reference existing paths.
-- `results_v3/`, `scripts/v3_*.py`, and `subagents_v3/` are large enough that
+- `phases/v3/results/`, `scripts/v3_*.py`, and `phases/v3/subagents/` are large enough that
   duplication would worsen hygiene.
 - The V4 knowledge base should be canonical going forward, but historical
   reproducibility should remain intact.

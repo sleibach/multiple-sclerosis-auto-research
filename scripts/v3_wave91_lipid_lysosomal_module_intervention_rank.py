@@ -35,18 +35,18 @@ from v3_wave85_external_geo_antitnf_validation import bh, hedges_g, markdown_tab
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave91_lipid_lysosomal_module_intervention_rank"
+OUT = ROOT / "phases/v3/results" / "wave91_lipid_lysosomal_module_intervention_rank"
 
-PSO_TESTS = ROOT / "results_v3" / "wave89_psoriasis_gse85034_response" / "psoriasis_baseline_gene_response_tests.tsv"
-PSO_SOURCES = ROOT / "results_v3" / "wave89_psoriasis_gse85034_response" / "candidate_gene_sources.tsv"
-IBD_META = ROOT / "results_v3" / "wave86_external_geo_antitnf_gene_driver" / "external_geo_gene_meta_rank.tsv"
-RA_COUNTS = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
-RA_META = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
-MS_WM = ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv"
-DIRECT_H5AD = ROOT / "results_v3" / "direct_h5ad_gene_replication" / "direct_h5ad_gene_donor_comparisons.tsv"
-W55 = ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv"
-W62 = ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
-W81 = ROOT / "results_v3" / "wave81_perturbation_first_rescue" / "perturbation_first_integrated_rank.tsv"
+PSO_TESTS = ROOT / "phases/v3/results" / "wave89_psoriasis_gse85034_response" / "psoriasis_baseline_gene_response_tests.tsv"
+PSO_SOURCES = ROOT / "phases/v3/results" / "wave89_psoriasis_gse85034_response" / "candidate_gene_sources.tsv"
+IBD_META = ROOT / "phases/v3/results" / "wave86_external_geo_antitnf_gene_driver" / "external_geo_gene_meta_rank.tsv"
+RA_COUNTS = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
+RA_META = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
+MS_WM = ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv"
+DIRECT_H5AD = ROOT / "phases/v3/results" / "direct_h5ad_gene_replication" / "direct_h5ad_gene_donor_comparisons.tsv"
+W55 = ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv"
+W62 = ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
+W81 = ROOT / "phases/v3/results" / "wave81_perturbation_first_rescue" / "perturbation_first_integrated_rank.tsv"
 
 
 ROUTE_BLOCKERS: dict[str, str] = {

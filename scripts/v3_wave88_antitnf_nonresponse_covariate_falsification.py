@@ -45,7 +45,7 @@ from v3_wave85_external_geo_antitnf_validation import (
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave88_antitnf_nonresponse_covariate_falsification"
+OUT = ROOT / "phases/v3/results" / "wave88_antitnf_nonresponse_covariate_falsification"
 
 PRIMARY_COHORTS = {
     "GSE12251_UC_ACT1_baseline",

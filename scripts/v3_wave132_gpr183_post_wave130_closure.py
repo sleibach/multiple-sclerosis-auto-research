@@ -12,14 +12,14 @@ from v3_analyze_osmr_complement_axes import ROOT
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave132_gpr183_post_wave130_closure"
+OUT = ROOT / "phases/v3/results" / "wave132_gpr183_post_wave130_closure"
 
-W83 = ROOT / "results_v3" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv"
-W93 = ROOT / "results_v3" / "wave93_gpr183_oxysterol_forcing_test" / "integrated_decision.tsv"
-W111 = ROOT / "results_v3" / "wave111_gpr183_spatial_proxy_forcing_test" / "summary.json"
-W112 = ROOT / "results_v3" / "wave112_gpr183_compartment_contrast_fallback" / "summary.json"
-W112_SUMMARY = ROOT / "results_v3" / "wave112_gpr183_compartment_contrast_fallback" / "gpr183_compartment_contrast_summary.tsv"
-W130 = ROOT / "results_v3" / "wave130_ms_treatment_response_audit" / "ms_treatment_response_cross_dataset_stability.tsv"
+W83 = ROOT / "phases/v3/results" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv"
+W93 = ROOT / "phases/v3/results" / "wave93_gpr183_oxysterol_forcing_test" / "integrated_decision.tsv"
+W111 = ROOT / "phases/v3/results" / "wave111_gpr183_spatial_proxy_forcing_test" / "summary.json"
+W112 = ROOT / "phases/v3/results" / "wave112_gpr183_compartment_contrast_fallback" / "summary.json"
+W112_SUMMARY = ROOT / "phases/v3/results" / "wave112_gpr183_compartment_contrast_fallback" / "gpr183_compartment_contrast_summary.tsv"
+W130 = ROOT / "phases/v3/results" / "wave130_ms_treatment_response_audit" / "ms_treatment_response_cross_dataset_stability.tsv"
 
 
 def read_tsv(path: Path) -> pd.DataFrame:
@@ -134,7 +134,7 @@ lipid-lysosomal MS treatment-response context.
 ## Reproducibility
 
 - Script: `scripts/v3_wave132_gpr183_post_wave130_closure.py`
-- Output: `results_v3/wave132_gpr183_post_wave130_closure/`
+- Output: `phases/v3/results/wave132_gpr183_post_wave130_closure/`
 - Seed: `{SEED}`
 """
     (OUT / "REPORT.md").write_text(report, encoding="utf-8")

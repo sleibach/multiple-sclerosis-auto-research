@@ -10,11 +10,11 @@ inflammatory myeloid state without simply suppressing IFN/HLA-II/CD74.
 Primary reproducibility artifacts:
 
 - Query script: `scripts/v3_wave32c_resolution_prior_art_audit.py`
-- Source query log: `results_v3/wave32c_resolution_prior_art_audit/source_query_log.tsv`
-- API hit summary: `results_v3/wave32c_resolution_prior_art_audit/api_hit_summary.tsv`
-- Target/drug database hits: `results_v3/wave32c_resolution_prior_art_audit/target_drug_database_hits.tsv`
-- Patent search URLs: `results_v3/wave32c_resolution_prior_art_audit/patent_search_urls.tsv`
-- Raw API snapshots: `results_v3/wave32c_resolution_prior_art_audit/raw_api/`
+- Source query log: `phases/v3/results/wave32c_resolution_prior_art_audit/source_query_log.tsv`
+- API hit summary: `phases/v3/results/wave32c_resolution_prior_art_audit/api_hit_summary.tsv`
+- Target/drug database hits: `phases/v3/results/wave32c_resolution_prior_art_audit/target_drug_database_hits.tsv`
+- Patent search URLs: `phases/v3/results/wave32c_resolution_prior_art_audit/patent_search_urls.tsv`
+- Raw API snapshots: `phases/v3/results/wave32c_resolution_prior_art_audit/raw_api/`
 
 Sources searched: PubMed, Europe PMC including indexed preprints, ClinicalTrials.gov,
 Google Patents URLs, Espacenet URLs, ChEMBL target/molecule search, and PubChem
@@ -424,7 +424,7 @@ wrong direction.**
 ## Exact Query Records
 
 The full exact query record is in
-`results_v3/wave32c_resolution_prior_art_audit/source_query_log.tsv`.
+`phases/v3/results/wave32c_resolution_prior_art_audit/source_query_log.tsv`.
 Representative queries used for the ranking:
 
 - TAM agonism:

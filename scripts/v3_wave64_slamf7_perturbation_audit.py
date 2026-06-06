@@ -35,17 +35,17 @@ from v3_analyze_direct_h5ad_cell_states import MODULES, ROOT
 
 SEED = 20260527
 RAW = ROOT / "data" / "raw_v3" / "wave64_gse185509_slamf7"
-OUT = ROOT / "results_v3" / "wave64_slamf7_perturbation_audit"
+OUT = ROOT / "phases/v3/results" / "wave64_slamf7_perturbation_audit"
 COUNTS_URL = (
     "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE185nnn/GSE185509/suppl/"
     "GSE185509_SLAMF7_stimulation_counts.csv.gz"
 )
 
 COUNT_FILE = RAW / "GSE185509_SLAMF7_stimulation_counts.csv.gz"
-QTL = ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "opentargets_qtl_coloc_rows.tsv"
-BROAD = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
-BROAD_CONTRASTS = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
-MS_WM = ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv"
+QTL = ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "opentargets_qtl_coloc_rows.tsv"
+BROAD = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
+BROAD_CONTRASTS = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
+MS_WM = ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv"
 
 EXTRA_MODULES = {
     "slamf7_receptor_axis": ["SLAMF7", "TYROBP", "FCER1G", "SYK", "LCP2", "FGR", "FCGR1A", "FCGR3A"],

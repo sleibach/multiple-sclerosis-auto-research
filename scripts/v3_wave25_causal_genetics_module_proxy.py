@@ -21,52 +21,52 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave25_causal_genetics_module_proxy"
+OUT = ROOT / "phases/v3/results" / "wave25_causal_genetics_module_proxy"
 SEED = 20260527
 
 PATHS = {
     "target_truth": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave14_target_level_genetics"
     / "target_level_genetics_truth_table.tsv",
     "gwas_catalog_top": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave14_target_level_genetics"
     / "gwas_catalog_mapped_gene_autoimmune_top_associations.tsv",
     "opentargets_loader": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave15_loader_external_gate"
     / "open_targets_gwas_credible_sets.tsv",
-    "opentargets_tmp": ROOT / "tmp_v3" / "wave13_opentargets_gwas_credible_sets.tsv",
+    "opentargets_tmp": ROOT / "phases/v3/tmp" / "wave13_opentargets_gwas_credible_sets.tsv",
     "broad_gene_rank": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "broad_h5ad_gene_discovery"
     / "broad_h5ad_gene_rank.tsv",
     "broad_residual": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "broad_residual_gate"
     / "broad_residual_gate_summary.tsv",
     "wave18_foundation": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave18_foundation_rescue"
     / "foundation_rescue_candidate_rank.tsv",
     "wave23_routes": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave23_orchestrator_nonexpression_axis_triage"
     / "wave23_route_triage.tsv",
     "wave23_restoration": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave23_genetics_restoration_modality"
     / "ranked_go_park_no_go.tsv",
     "wave23_metabolite": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave23_metabolite_barrier_circuit"
     / "wave23_ranked_routes.tsv",
     "wave24_l1000": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave24_l1000_recurrent_reversal"
     / "recurrent_l1000_compound_triage.tsv",
-    "gwas_catalog_parquet": ROOT / "tmp_v3" / "gwascatalog_associations_20260317_convert.parquet",
+    "gwas_catalog_parquet": ROOT / "phases/v3/tmp" / "gwascatalog_associations_20260317_convert.parquet",
 }
 
 CORE_CANDIDATES = [

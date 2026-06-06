@@ -27,7 +27,7 @@ import pandas as pd
 
 SEED = 20260526
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "pivot_panel_triage"
+OUT = ROOT / "phases/v3/results" / "pivot_panel_triage"
 
 PANEL = [
     "APOC1",
@@ -254,15 +254,15 @@ def main() -> None:
     np.random.seed(SEED)
     OUT.mkdir(parents=True, exist_ok=True)
 
-    broad = read_tsv(ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv")
-    contrasts = read_tsv(ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv")
-    existing = read_tsv(ROOT / "results_v3" / "existing_evidence_candidate_matrix.tsv")
-    ms = read_tsv(ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv")
-    gf_candidate = read_tsv(ROOT / "results_v3" / "geneformer_candidate_delete" / "geneformer_candidate_delete_gene_summary.tsv")
+    broad = read_tsv(ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv")
+    contrasts = read_tsv(ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv")
+    existing = read_tsv(ROOT / "phases/v3/results" / "existing_evidence_candidate_matrix.tsv")
+    ms = read_tsv(ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv")
+    gf_candidate = read_tsv(ROOT / "phases/v3/results" / "geneformer_candidate_delete" / "geneformer_candidate_delete_gene_summary.tsv")
     gf_candidate.attrs["source"] = "candidate_delete"
-    gf_matrix = read_tsv(ROOT / "results_v3" / "geneformer_phagolysosomal_matrix_delete" / "geneformer_phagolysosomal_matrix_gene_summary.tsv")
+    gf_matrix = read_tsv(ROOT / "phases/v3/results" / "geneformer_phagolysosomal_matrix_delete" / "geneformer_phagolysosomal_matrix_gene_summary.tsv")
     gf_matrix.attrs["source"] = "phagolysosomal_matrix_delete"
-    gf_pivot = read_tsv(ROOT / "results_v3" / "geneformer_pivot_panel_delete" / "geneformer_pivot_panel_gene_summary.tsv")
+    gf_pivot = read_tsv(ROOT / "phases/v3/results" / "geneformer_pivot_panel_delete" / "geneformer_pivot_panel_gene_summary.tsv")
     gf_pivot.attrs["source"] = "pivot_panel_delete"
 
     rows: list[dict[str, Any]] = []

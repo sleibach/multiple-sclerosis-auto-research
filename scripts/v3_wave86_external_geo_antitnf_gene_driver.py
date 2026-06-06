@@ -52,7 +52,7 @@ from v3_wave85_external_geo_antitnf_validation import (
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave86_external_geo_antitnf_gene_driver"
+OUT = ROOT / "phases/v3/results" / "wave86_external_geo_antitnf_gene_driver"
 
 PRIMARY_CONTEXTS = {
     "GSE12251_UC_ACT1_baseline",

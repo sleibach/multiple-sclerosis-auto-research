@@ -11,7 +11,7 @@ The script keeps analysis in compartments where public metadata allow it:
 * GSE253006: UC tofacitinib marker-compartment analysis already exists in V3;
   this script copies the relevant summary into the Wave18 output tree.
 
-Outputs are written under results_v3/wave18_treatment_response/.
+Outputs are written under phases/v3/results/wave18_treatment_response/.
 """
 
 from __future__ import annotations
@@ -36,7 +36,7 @@ from v3_analyze_direct_h5ad_cell_states import MODULES, ROOT
 
 SEED = 20260527
 RAW = ROOT / "data" / "raw_v3"
-OUT = ROOT / "results_v3" / "wave18_treatment_response"
+OUT = ROOT / "phases/v3/results" / "wave18_treatment_response"
 
 GSE138746_RAW = RAW / "wave18_gse138746"
 GSE183047_RAW = RAW / "wave18_gse183047"
@@ -562,7 +562,7 @@ def compare_pso_prepost(sample_scores: pd.DataFrame) -> pd.DataFrame:
 
 
 def summarize_existing_gse253006() -> pd.DataFrame:
-    base = ROOT / "results_v3" / "gse253006_tofacitinib_marker"
+    base = ROOT / "phases/v3/results" / "gse253006_tofacitinib_marker"
     rows = []
     baseline_path = base / "gse253006_marker_baseline_response_tests.tsv"
     prepost_path = base / "gse253006_marker_prepost_tests.tsv"

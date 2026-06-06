@@ -43,8 +43,8 @@ Downloaded official State released outputs from `arcinstitute/ST-HVG-Parse`, spl
 - `data/raw_v3/state_parse_split4/CD14_Mono_pred_de.csv`
 - `data/raw_v3/state_parse_split4/CD14_Mono_real_de.csv`
 - `data/raw_v3/state_parse_split4/CD14_Mono_agg_results.csv`
-- `tmp_v3/var_dims_split4.pkl`
-- `tmp_v3/data_module_split4.torch`
+- `phases/v3/tmp/var_dims_split4.pkl`
+- `phases/v3/tmp/data_module_split4.torch`
 
 These are model-produced prediction files and matched real perturbation files released by Arc. They are not yet a de novo perturbation run, but they can validate model accuracy and test cytokine perturbations relevant to IFN/IL-1/IL-17/TNF/C5a/GM-CSF axes in CD14 monocytes.
 
@@ -160,7 +160,7 @@ State outputs or a defensible alternative model/perturbation dataset.
 
 ## 2026-05-26 20:25 UTC
 
-Reproducibility update: patched `run_v3_analysis.sh` so the entry point now runs
+Reproducibility update: patched `scripts/entrypoints/run_v3_analysis.sh` so the entry point now runs
 the Mixscale perturb-seq analysis and direct h5ad disease-atlas validation when
 their raw files are present. The fragile remote CELLxGENE Census expression
 query remains opt-in via `RUN_CELLXGENE_CENSUS=1`. Refreshed
@@ -459,7 +459,7 @@ autoimmune thyroid spatial dataset `GSE248205`.
 `scripts/v3_analyze_gse248205_thyroid_spatial.py` treats each Visium sample as
 the statistical unit, not each spot, and compares two controls with three
 Hashimoto thyroiditis and three Graves disease samples. Added the script to
-`run_v3_analysis.sh` so this evidence is reproducible when the extracted
+`scripts/entrypoints/run_v3_analysis.sh` so this evidence is reproducible when the extracted
 processed matrices are present.
 
 Result:
@@ -582,7 +582,7 @@ thyroid-wide autoimmune claim.
 ## 2026-05-26 21:44 UTC
 
 Integrated hour-3 hostile critique from
-`subagents_v3/critique_hour3_report.md`. The critique correctly attacked the
+`phases/v3/subagents/critique_hour3_report.md`. The critique correctly attacked the
 current central mechanism as canonical IFN/APC activation and demanded
 adversarial residualization against generic IFN intensity.
 
@@ -734,7 +734,7 @@ Audited the intervention scout's PDE4/cAMP-PKA suggestion against the existing
 L1000FWD output.
 
 Added `scripts/v3_pde4_camp_l1000_audit.py` and added it to
-`run_v3_analysis.sh`.
+`scripts/entrypoints/run_v3_analysis.sh`.
 
 Result:
 
@@ -758,7 +758,7 @@ it prevents me from using L1000FWD as independent support for the PDE4 lead.
 ## 2026-05-26 22:04 UTC
 
 Integrated foundation-model gate report from Mill:
-`subagents_v3/wave4_foundation_gate_report.md`.
+`phases/v3/subagents/wave4_foundation_gate_report.md`.
 
 Independent check confirmed:
 
@@ -780,7 +780,7 @@ model-hypothesis fallback.
 ## 2026-05-26 22:08 UTC
 
 Added `scripts/v3_residualize_lipa_vs_stress.py` and added it to
-`run_v3_analysis.sh`.
+`scripts/entrypoints/run_v3_analysis.sh`.
 
 Question: can the revived `LIPA` lipid-lysosomal lane survive simple
 same-compartment residual controls against `ifn_apc`, `inflammatory_nfkb`,
@@ -875,11 +875,11 @@ Wave-5 OSM/OSMR and complement integration.
 
 Inputs reviewed:
 
-- `subagents_v3/wave5_complement_scout_report.md`
-- `subagents_v3/wave5_local_quant_report.md`
-- `subagents_v3/wave5_osmr_scout_report.md`
-- `results_v3/wave5_local_quant/*`
-- `results_v3/osmr_complement_axes/*`
+- `phases/v3/subagents/wave5_complement_scout_report.md`
+- `phases/v3/subagents/wave5_local_quant_report.md`
+- `phases/v3/subagents/wave5_osmr_scout_report.md`
+- `phases/v3/results/wave5_local_quant/*`
+- `phases/v3/results/osmr_complement_axes/*`
 
 Complement/C1q result:
 
@@ -931,11 +931,11 @@ Script:
 
 Outputs:
 
-- `results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv`
-- `results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_summary.tsv`
-- `results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv`
-- `results_v3/broad_h5ad_gene_discovery/broad_h5ad_lipid_lysosomal_neighborhood_rank.tsv`
-- `results_v3/broad_h5ad_gene_discovery/broad_h5ad_ms_positive_rank.tsv`
+- `phases/v3/results/broad_h5ad_gene_discovery/broad_h5ad_gene_contrasts.tsv`
+- `phases/v3/results/broad_h5ad_gene_discovery/broad_h5ad_gene_summary.tsv`
+- `phases/v3/results/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv`
+- `phases/v3/results/broad_h5ad_gene_discovery/broad_h5ad_lipid_lysosomal_neighborhood_rank.tsv`
+- `phases/v3/results/broad_h5ad_gene_discovery/broad_h5ad_ms_positive_rank.tsv`
 
 Run statistics:
 
@@ -980,9 +980,9 @@ Script:
 
 Outputs:
 
-- `results_v3/geneformer_candidate_delete/geneformer_candidate_delete_metrics.tsv`
-- `results_v3/geneformer_candidate_delete/geneformer_candidate_delete_gene_summary.tsv`
-- `results_v3/geneformer_candidate_delete/geneformer_candidate_delete_summary.json`
+- `phases/v3/results/geneformer_candidate_delete/geneformer_candidate_delete_metrics.tsv`
+- `phases/v3/results/geneformer_candidate_delete/geneformer_candidate_delete_gene_summary.tsv`
+- `phases/v3/results/geneformer_candidate_delete/geneformer_candidate_delete_summary.json`
 
 Key results:
 
@@ -1054,10 +1054,10 @@ Script:
 
 Outputs:
 
-- `results_v3/lgals3_glycan_checkpoint/lgals3_summary.json`
-- `results_v3/lgals3_glycan_checkpoint/lgals3_candidate_crosswalk.tsv`
-- `results_v3/lgals3_glycan_checkpoint/lgals3_disease_summary.tsv`
-- `results_v3/lgals3_glycan_checkpoint/lgals3_residual_tests.tsv`
+- `phases/v3/results/lgals3_glycan_checkpoint/lgals3_summary.json`
+- `phases/v3/results/lgals3_glycan_checkpoint/lgals3_candidate_crosswalk.tsv`
+- `phases/v3/results/lgals3_glycan_checkpoint/lgals3_disease_summary.tsv`
+- `phases/v3/results/lgals3_glycan_checkpoint/lgals3_residual_tests.tsv`
 
 Key result:
 
@@ -1116,9 +1116,9 @@ Geneformer phagolysosomal/matrix screen completed.
 
 Outputs:
 
-- `results_v3/geneformer_phagolysosomal_matrix_delete/geneformer_phagolysosomal_matrix_gene_summary.tsv`
-- `results_v3/geneformer_phagolysosomal_matrix_delete/geneformer_phagolysosomal_matrix_delete_metrics.tsv`
-- `results_v3/geneformer_phagolysosomal_matrix_delete/geneformer_phagolysosomal_matrix_summary.json`
+- `phases/v3/results/geneformer_phagolysosomal_matrix_delete/geneformer_phagolysosomal_matrix_gene_summary.tsv`
+- `phases/v3/results/geneformer_phagolysosomal_matrix_delete/geneformer_phagolysosomal_matrix_delete_metrics.tsv`
+- `phases/v3/results/geneformer_phagolysosomal_matrix_delete/geneformer_phagolysosomal_matrix_summary.json`
 
 Interpretation:
 
@@ -1149,8 +1149,8 @@ Script:
 
 Outputs:
 
-- `results_v3/pivot_panel_triage/pivot_panel_summary.tsv`
-- `results_v3/pivot_panel_triage/pivot_panel_summary.json`
+- `phases/v3/results/pivot_panel_triage/pivot_panel_summary.tsv`
+- `phases/v3/results/pivot_panel_triage/pivot_panel_summary.json`
 
 Decision:
 
@@ -1183,8 +1183,8 @@ Script:
 
 Outputs:
 
-- `results_v3/geneformer_pivot_panel_delete/geneformer_pivot_panel_gene_summary.tsv`
-- `results_v3/geneformer_pivot_panel_delete/geneformer_pivot_panel_delete_metrics.tsv`
+- `phases/v3/results/geneformer_pivot_panel_delete/geneformer_pivot_panel_gene_summary.tsv`
+- `phases/v3/results/geneformer_pivot_panel_delete/geneformer_pivot_panel_delete_metrics.tsv`
 
 Key result:
 
@@ -1263,13 +1263,13 @@ Method:
 - Patched the script after the first run because the initially reused
   `direct_h5ad_cell_state` module table only covered 11 of 17 compartments.
   The corrected version prefers
-  `results_v3/osmr_complement_axes/osmr_complement_donor_module_scores.tsv`,
+  `phases/v3/results/osmr_complement_axes/osmr_complement_donor_module_scores.tsv`,
   which covers all 17 compartments, and uses the older direct table only for
   extra modules.
 
 Key output:
 
-- `results_v3/snx10_c15orf48_residual_gate/snx10_c15orf48_residual_gate.tsv`
+- `phases/v3/results/snx10_c15orf48_residual_gate/snx10_c15orf48_residual_gate.tsv`
 
 Result:
 
@@ -1411,11 +1411,11 @@ Method:
 - Queried Open Targets Platform GraphQL for scoped `gwas_credible_sets`
   evidence across the V3 autoimmune disease panel.
 - Preserved query output at
-  `tmp_v3/wave13_opentargets_gwas_credible_sets.tsv`.
+  `phases/v3/tmp/wave13_opentargets_gwas_credible_sets.tsv`.
 - Cross-checked candidate-specific druggability and prior-art blockers using
   PubMed/PMC, ClinicalTrials.gov, Google Patents, and selected primary or
   database sources.
-- Wrote `subagents_v3/wave13_genetics_prior_art_reopen.md`.
+- Wrote `phases/v3/subagents/wave13_genetics_prior_art_reopen.md`.
 
 Result:
 
@@ -1537,7 +1537,7 @@ Script:
 
 Output:
 
-- `results_v3/wave13_candidate_gene_local_validation/`
+- `phases/v3/results/wave13_candidate_gene_local_validation/`
 
 Key results:
 
@@ -1579,7 +1579,7 @@ Hour-6 critique and gate matrix integrated.
 
 Critique:
 
-- `subagents_v3/wave14_hour6_hostile_critique.md` returned and explicitly
+- `phases/v3/subagents/wave14_hour6_hostile_critique.md` returned and explicitly
   rejected the current IFNG/HLA-II/CD74 direction as a therapeutic central node
   without additional selective-intervention evidence.
 - I accepted all major criticisms in `CRITIQUE_V3.md`: IFN confounding, RA
@@ -1590,7 +1590,7 @@ Candidate gate matrix:
 
 - Added and ran `scripts/v3_wave14_candidate_gate_matrix.py`.
 - Output:
-  `results_v3/wave14_candidate_gate_matrix/wave14_candidate_gate_matrix.tsv`.
+  `phases/v3/results/wave14_candidate_gate_matrix/wave14_candidate_gate_matrix.tsv`.
 - The matrix combines local expression recurrence, wave-13 Open Targets
   credible-set evidence, Europe PMC counts, ClinicalTrials.gov counts, and
   patent-search URLs.
@@ -1610,7 +1610,7 @@ Focused Geneformer narrowed-candidate screen:
 - Added and ran
   `scripts/v3_wave14_geneformer_narrowed_candidate_screen.py`.
 - Output:
-  `results_v3/wave14_geneformer_narrowed_candidate_delete/`.
+  `phases/v3/results/wave14_geneformer_narrowed_candidate_delete/`.
 - Model: Geneformer V2-104M, revision
   `04c2b2e84da7c0f385c3f9ad8f3ec24bab6650e5`, 104,365,056 encoder
   parameters loaded.
@@ -1651,12 +1651,12 @@ Wave-14 SLC15A4/TASL/IRF5 fail-fast returned.
 
 Report:
 
-- `subagents_v3/wave14_slc15a4_tasl_failfast.md`
+- `phases/v3/subagents/wave14_slc15a4_tasl_failfast.md`
 
 Script and outputs:
 
 - `scripts/v3_wave14_slc15a4_tasl_failfast.py`
-- `results_v3/wave14_slc15a4_tasl_failfast/`
+- `phases/v3/results/wave14_slc15a4_tasl_failfast/`
 
 Verdict accepted:
 
@@ -1695,7 +1695,7 @@ Script:
 
 Outputs:
 
-- `results_v3/wave14_negative_regulator_feedback/`
+- `phases/v3/results/wave14_negative_regulator_feedback/`
 
 Question:
 
@@ -1733,12 +1733,12 @@ Wave-14 GSK3B/CIITA perturbation scout returned and was vetted.
 
 Report:
 
-- `subagents_v3/wave14_gsk3b_ciita_perturbation.md`
+- `phases/v3/subagents/wave14_gsk3b_ciita_perturbation.md`
 
 Script and outputs:
 
 - `scripts/v3_wave14_gsk3b_ciita_perturbation.py`
-- `results_v3/wave14_gsk3b_ciita_perturbation/`
+- `phases/v3/results/wave14_gsk3b_ciita_perturbation/`
 
 Data:
 
@@ -1787,10 +1787,10 @@ Script:
 
 Outputs:
 
-- `results_v3/wave14_gsk3b_local_gate/gsk3b_local_gate_gene_summary.tsv`
-- `results_v3/wave14_gsk3b_local_gate/gsk3b_local_gate_module_correlations.tsv`
-- `results_v3/wave14_gsk3b_local_gate/gsk3b_prior_art_detail.json`
-- `results_v3/wave14_gsk3b_local_gate/summary.json`
+- `phases/v3/results/wave14_gsk3b_local_gate/gsk3b_local_gate_gene_summary.tsv`
+- `phases/v3/results/wave14_gsk3b_local_gate/gsk3b_local_gate_module_correlations.tsv`
+- `phases/v3/results/wave14_gsk3b_local_gate/gsk3b_prior_art_detail.json`
+- `phases/v3/results/wave14_gsk3b_local_gate/summary.json`
 
 Result:
 
@@ -1821,12 +1821,12 @@ Integrated no-go target-level genetics audit.
 
 Report:
 
-- `subagents_v3/wave14_target_level_genetics.md`
+- `phases/v3/subagents/wave14_target_level_genetics.md`
 
 Main outputs:
 
-- `results_v3/wave14_target_level_genetics/target_level_genetics_truth_table.tsv`
-- `results_v3/wave14_target_level_genetics/target_level_genetics_summary.json`
+- `phases/v3/results/wave14_target_level_genetics/target_level_genetics_truth_table.tsv`
+- `phases/v3/results/wave14_target_level_genetics/target_level_genetics_summary.json`
 
 Result:
 
@@ -1848,13 +1848,13 @@ Integrated Wave15-B perturbation/drug-response scan.
 
 Report:
 
-- `subagents_v3/wave15_perturbation_drug_response.md`
+- `phases/v3/subagents/wave15_perturbation_drug_response.md`
 
 Main outputs:
 
-- `results_v3/wave15_perturbation_drug_response/ranked_direct_perturbations.tsv`
-- `results_v3/wave15_perturbation_drug_response/candidate_level_synthesis.tsv`
-- `results_v3/wave15_perturbation_drug_response/summary.json`
+- `phases/v3/results/wave15_perturbation_drug_response/ranked_direct_perturbations.tsv`
+- `phases/v3/results/wave15_perturbation_drug_response/candidate_level_synthesis.tsv`
+- `phases/v3/results/wave15_perturbation_drug_response/summary.json`
 
 Result:
 
@@ -1884,9 +1884,9 @@ Scripts:
 
 Outputs:
 
-- `results_v3/wave15_orchestrator_dependency_scan/`
-- `results_v3/wave15_geneformer_loader_dependency_delete/`
-- `results_v3/wave15_loader_external_gate/`
+- `phases/v3/results/wave15_orchestrator_dependency_scan/`
+- `phases/v3/results/wave15_geneformer_loader_dependency_delete/`
+- `phases/v3/results/wave15_loader_external_gate/`
 
 Result:
 
@@ -1933,8 +1933,8 @@ Integrated Wave15-A surface/trafficking dependency screen.
 Script and report:
 
 - `scripts/v3_wave15_surface_trafficking_dependency.py`
-- `subagents_v3/wave15_surface_trafficking_dependency.md`
-- `results_v3/wave15_surface_trafficking_dependency/`
+- `phases/v3/subagents/wave15_surface_trafficking_dependency.md`
+- `phases/v3/results/wave15_surface_trafficking_dependency/`
 
 Important correction from worker:
 
@@ -2008,8 +2008,8 @@ Integrated GSE227835 myasthenia breadth worker.
 Script/report/output:
 
 - `scripts/v3_wave14_gse227835_myasthenia_marker.py`
-- `subagents_v3/wave14_myasthenia_breadth.md`
-- `results_v3/wave14_gse227835_myasthenia/`
+- `phases/v3/subagents/wave14_myasthenia_breadth.md`
+- `phases/v3/results/wave14_gse227835_myasthenia/`
 
 Result:
 
@@ -2071,7 +2071,7 @@ Formal CTSH ChEMBL feasibility audit completed.
 Script/output:
 
 - `scripts/v3_wave16_ctsh_chembl_feasibility.py`
-- `results_v3/wave16_ctsh_chembl_feasibility/`
+- `phases/v3/results/wave16_ctsh_chembl_feasibility/`
 
 Result:
 
@@ -2099,7 +2099,7 @@ Mediator/CDK8-CDK19 route gate completed.
 Script/output:
 
 - `scripts/v3_wave17_mediator_route_gate.py`
-- `results_v3/wave17_mediator_route_gate/`
+- `phases/v3/results/wave17_mediator_route_gate/`
 
 Result:
 
@@ -2138,7 +2138,7 @@ Reason for test:
 
 Local check:
 
-- `ACOD1` in `results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv`
+- `ACOD1` in `phases/v3/results/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv`
   is positive in only 2 diseases: Crohn disease and ulcerative colitis.
 - Best compartments: Crohn myeloid delta `5.08`, p `0.0018`; UC myeloid delta
   `3.69`, p `0.037`.
@@ -2156,9 +2156,9 @@ Integrated formal CTSH chemistry/selectivity worker return.
 
 Report/output:
 
-- `subagents_v3/wave16_ctsh_chemistry_selectivity.md`
+- `phases/v3/subagents/wave16_ctsh_chemistry_selectivity.md`
 - `scripts/v3_wave16_ctsh_chemistry_selectivity.py`
-- `results_v3/wave16_ctsh_chemistry_selectivity/`
+- `phases/v3/results/wave16_ctsh_chemistry_selectivity/`
 
 Accepted result:
 
@@ -2184,7 +2184,7 @@ Integrated marker-compartment GSE253006 tofacitinib analysis.
 Script/output:
 
 - `scripts/v3_analyze_gse253006_tofacitinib_marker_compartments.py`
-- `results_v3/gse253006_tofacitinib_marker/`
+- `phases/v3/results/gse253006_tofacitinib_marker/`
 
 Result:
 
@@ -2216,8 +2216,8 @@ Integrated Wave18-A treatment-response scout after local verification.
 Script/output:
 
 - `scripts/v3_wave18_treatment_response_scout.py`
-- `results_v3/wave18_treatment_response/`
-- `subagents_v3/wave18_treatment_response_scout.md`
+- `phases/v3/results/wave18_treatment_response/`
+- `phases/v3/subagents/wave18_treatment_response_scout.md`
 
 Verified result:
 
@@ -2249,8 +2249,8 @@ Integrated Wave18-B accessible/druggable state-component rescue.
 Script/output:
 
 - `scripts/v3_wave18_accessible_target_rescue.py`
-- `results_v3/wave18_accessible_target_rescue/`
-- `subagents_v3/wave18_accessible_target_rescue.md`
+- `phases/v3/results/wave18_accessible_target_rescue/`
+- `phases/v3/subagents/wave18_accessible_target_rescue.md`
 
 Verified result:
 
@@ -2278,8 +2278,8 @@ Integrated Wave18-C foundation-model rescue.
 Script/output:
 
 - `scripts/v3_wave18_foundation_rescue.py`
-- `results_v3/wave18_foundation_rescue/`
-- `subagents_v3/wave18_foundation_rescue.md`
+- `phases/v3/results/wave18_foundation_rescue/`
+- `phases/v3/subagents/wave18_foundation_rescue.md`
 
 Verified result:
 
@@ -2307,7 +2307,7 @@ Ran orchestrator-side Wave19 controller triage.
 Script/output:
 
 - `scripts/v3_wave19_orchestrator_controller_triage.py`
-- `results_v3/wave19_orchestrator_controller_triage/`
+- `phases/v3/results/wave19_orchestrator_controller_triage/`
 
 Result:
 
@@ -2344,7 +2344,7 @@ Ran orchestrator-side Wave20 unrestricted survivor triage.
 Script/output:
 
 - `scripts/v3_wave20_orchestrator_unrestricted_triage.py`
-- `results_v3/wave20_orchestrator_unrestricted_triage/`
+- `phases/v3/results/wave20_orchestrator_unrestricted_triage/`
 
 Result:
 
@@ -2391,7 +2391,7 @@ Reason:
 Script/output:
 
 - `scripts/v3_wave20_c15orf48_ndufa4_switch.py`
-- `results_v3/wave20_c15orf48_ndufa4_switch/`
+- `phases/v3/results/wave20_c15orf48_ndufa4_switch/`
 
 Result:
 
@@ -2425,9 +2425,9 @@ Integrated Wave19-B lysosomal/lipid-controller audit.
 
 Report/output:
 
-- `subagents_v3/wave19_lysosomal_controller.md`
+- `phases/v3/subagents/wave19_lysosomal_controller.md`
 - `scripts/v3_wave19_lysosomal_controller.py`
-- `results_v3/wave19_lysosomal_controller/`
+- `phases/v3/results/wave19_lysosomal_controller/`
 
 Vetting:
 
@@ -2452,9 +2452,9 @@ Integrated Wave19-A tolerogenic/checkpoint-controller audit.
 
 Report/output:
 
-- `subagents_v3/wave19_tolerogenic_checkpoint.md`
+- `phases/v3/subagents/wave19_tolerogenic_checkpoint.md`
 - `scripts/v3_wave19_tolerogenic_checkpoint.py`
-- `results_v3/wave19_tolerogenic_checkpoint/`
+- `phases/v3/results/wave19_tolerogenic_checkpoint/`
 
 Vetting:
 
@@ -2486,9 +2486,9 @@ Correction:
 
 Report/output:
 
-- `subagents_v3/wave20_unrestricted_survivor.md`
+- `phases/v3/subagents/wave20_unrestricted_survivor.md`
 - `scripts/v3_wave20_unrestricted_survivor.py`
-- `results_v3/wave20_unrestricted_survivor/`
+- `phases/v3/results/wave20_unrestricted_survivor/`
 
 Vetting:
 
@@ -2512,9 +2512,9 @@ Integrated Wave20-B genetic/druggable alternate-axis scout.
 
 Report/output:
 
-- `subagents_v3/wave20_genetic_druggable_altaxis.md`
+- `phases/v3/subagents/wave20_genetic_druggable_altaxis.md`
 - `scripts/v3_wave20_genetic_druggable_altaxis.py`
-- `results_v3/wave20_genetic_druggable_altaxis/`
+- `phases/v3/results/wave20_genetic_druggable_altaxis/`
 
 Vetting:
 
@@ -2573,7 +2573,7 @@ Ran orchestrator-side Wave21 residual-druggability scan.
 Script/output:
 
 - `scripts/v3_wave21_residual_druggability_scan.py`
-- `results_v3/wave21_residual_druggability_scan/`
+- `phases/v3/results/wave21_residual_druggability_scan/`
 
 Result:
 
@@ -2635,9 +2635,9 @@ Integrated Wave21-A / Pauli residual-druggability worker return.
 
 Report/output:
 
-- `subagents_v3/wave21_residual_druggability_scan.md`
+- `phases/v3/subagents/wave21_residual_druggability_scan.md`
 - `scripts/v3_wave21_residual_druggability_scan.py`
-- `results_v3/wave21_residual_druggability_scan/`
+- `phases/v3/results/wave21_residual_druggability_scan/`
 
 Vetting:
 
@@ -2689,8 +2689,8 @@ Integrated Wave21-B / Hooke hostile prior-art/modality review.
 
 Report/output:
 
-- `subagents_v3/wave21_residual_candidate_prior_art.md`
-- `results_v3/wave21_residual_candidate_prior_art/`
+- `phases/v3/subagents/wave21_residual_candidate_prior_art.md`
+- `phases/v3/results/wave21_residual_candidate_prior_art/`
 
 Vetting:
 
@@ -2721,8 +2721,8 @@ Decision:
 Wave22 SQLE fail-fast stress test completed.
 
 - Script: `scripts/v3_wave22_sqle_failfast.py`.
-- Output: `results_v3/wave22_sqle_failfast/`.
-- Runner: added to `run_v3_analysis.sh`.
+- Output: `phases/v3/results/wave22_sqle_failfast/`.
+- Runner: added to `scripts/entrypoints/run_v3_analysis.sh`.
 - Decision: `NO_GO_SQLE_FAILFAST`.
 
 Traceable generated numbers:
@@ -2753,8 +2753,8 @@ Decision:
 Wave23 orchestrator-side non-expression route triage completed.
 
 - Script: `scripts/v3_wave23_orchestrator_nonexpression_axis_triage.py`.
-- Output: `results_v3/wave23_orchestrator_nonexpression_axis_triage/`.
-- Runner: added to `run_v3_analysis.sh`.
+- Output: `phases/v3/results/wave23_orchestrator_nonexpression_axis_triage/`.
+- Runner: added to `scripts/entrypoints/run_v3_analysis.sh`.
 - Scope: 16 route-level hypotheses spanning metabolite/barrier circuits,
   genetics-first restoration, and treatment-response stratification; 56 genes
   checked; ChEMBL API snapshots cached under `raw_api/`.
@@ -2795,9 +2795,9 @@ Integrated Wave23-B / Wegener genetics-restoration modality scout.
 
 Report/output:
 
-- `subagents_v3/wave23_genetics_restoration_modality.md`
+- `phases/v3/subagents/wave23_genetics_restoration_modality.md`
 - `scripts/v3_wave23_genetics_restoration_modality.py`
-- `results_v3/wave23_genetics_restoration_modality/`
+- `phases/v3/results/wave23_genetics_restoration_modality/`
 
 Vetting:
 
@@ -2831,11 +2831,11 @@ Decision:
 Wave24 perturbation-first recurrent L1000 reversal triage completed.
 
 - Script: `scripts/v3_wave24_l1000_recurrent_reversal_triage.py`.
-- Output: `results_v3/wave24_l1000_recurrent_reversal/`.
-- Runner: added to `run_v3_analysis.sh`.
-- Inputs: `results_v3/l1000fwd_compound_summary.tsv`,
-  `results_v3/wave15_perturbation_drug_response/l1000fwd_selectivity_compound_rank.tsv`,
-  and `results_v3/pde4_camp_l1000_audit_summary.json`.
+- Output: `phases/v3/results/wave24_l1000_recurrent_reversal/`.
+- Runner: added to `scripts/entrypoints/run_v3_analysis.sh`.
+- Inputs: `phases/v3/results/l1000fwd_compound_summary.tsv`,
+  `phases/v3/results/wave15_perturbation_drug_response/l1000fwd_selectivity_compound_rank.tsv`,
+  and `phases/v3/results/pde4_camp_l1000_audit_summary.json`.
 
 Result:
 
@@ -2863,7 +2863,7 @@ Integrated Wave23-D / Carver hostile critique.
 
 Report:
 
-- `subagents_v3/wave23_hostile_critique.md`
+- `phases/v3/subagents/wave23_hostile_critique.md`
 
 Accepted criticisms:
 
@@ -2894,9 +2894,9 @@ Integrated Wave23-A / Noether metabolite-barrier circuit scout.
 
 Report/output:
 
-- `subagents_v3/wave23_metabolite_barrier_circuit.md`
+- `phases/v3/subagents/wave23_metabolite_barrier_circuit.md`
 - `scripts/v3_wave23_metabolite_barrier_circuit.py`
-- `results_v3/wave23_metabolite_barrier_circuit/`
+- `phases/v3/results/wave23_metabolite_barrier_circuit/`
 
 Result:
 
@@ -2919,8 +2919,8 @@ Decision:
 Wave25 target-resolved genetics-to-module proxy audit completed.
 
 - Script: `scripts/v3_wave25_causal_genetics_module_proxy.py`.
-- Output: `results_v3/wave25_causal_genetics_module_proxy/`.
-- Runner entry added: `run_v3_analysis.sh`.
+- Output: `phases/v3/results/wave25_causal_genetics_module_proxy/`.
+- Runner entry added: `scripts/entrypoints/run_v3_analysis.sh`.
 - Validation: `py_compile` passed and the script ran to completion.
 
 Result:
@@ -2955,8 +2955,8 @@ Decision:
 Wave26 strict treatment-response audit completed.
 
 - Script: `scripts/v3_wave26_treatment_response_strict_audit.py`.
-- Output: `results_v3/wave26_treatment_response_strict_audit/`.
-- Runner entry added: `run_v3_analysis.sh`.
+- Output: `phases/v3/results/wave26_treatment_response_strict_audit/`.
+- Runner entry added: `scripts/entrypoints/run_v3_analysis.sh`.
 - Validation: `py_compile` passed and the script ran to completion.
 
 Reason for audit:
@@ -2989,8 +2989,8 @@ Decision:
 Wave27 L1000 unknown perturbagen deconvolution completed.
 
 - Script: `scripts/v3_wave27_l1000_unknown_deconvolution.py`.
-- Output: `results_v3/wave27_l1000_unknown_deconvolution/`.
-- Runner entry added: `run_v3_analysis.sh`.
+- Output: `phases/v3/results/wave27_l1000_unknown_deconvolution/`.
+- Runner entry added: `scripts/entrypoints/run_v3_analysis.sh`.
 - Validation: first run failed because merging LINCS metadata created duplicate
   `cmap_name` columns; fixed by using `class_cmap_name`. `py_compile` and rerun
   then passed.
@@ -3022,8 +3022,8 @@ Decision:
 Wave28 target-first rescue audit completed.
 
 - Script: `scripts/v3_wave28_target_first_rescue.py`.
-- Output: `results_v3/wave28_target_first_rescue/`.
-- Runner entry added: `run_v3_analysis.sh`.
+- Output: `phases/v3/results/wave28_target_first_rescue/`.
+- Runner entry added: `scripts/entrypoints/run_v3_analysis.sh`.
 - Validation: `py_compile` passed and the script ran to completion twice. The
   first run exposed a ClinicalTrials.gov v2 parsing weakness: `totalCount` is
   absent unless `countTotal=true` is requested. I fixed the query to use
@@ -3078,8 +3078,8 @@ Decision:
 Wave29 PTPN2 restoration model completed, after one downscope.
 
 - Script: `scripts/v3_wave29_ptpn2_restoration_model.py`.
-- Output: `results_v3/wave29_ptpn2_restoration_model/`.
-- Runner entry added: `run_v3_analysis.sh`.
+- Output: `phases/v3/results/wave29_ptpn2_restoration_model/`.
+- Runner entry added: `scripts/entrypoints/run_v3_analysis.sh`.
 - Validation: `py_compile` passed and the reduced script ran to completion.
 
 Failed attempt:
@@ -3126,7 +3126,7 @@ driver explain the recurrent cross-autoimmune IFN/HLA-II/CD74/GILT/APC state and
 provide a more selective intervention point than direct module markers?
 
 Added and ran `scripts/v3_wave30_niche_driver_audit.py`.
-Output directory: `results_v3/wave30_niche_driver_audit/`.
+Output directory: `phases/v3/results/wave30_niche_driver_audit/`.
 
 First run exposed a bad operationalization: I let global `ifn_apc` module
 breadth count as support for every upstream axis annotated to that state. That
@@ -3184,8 +3184,8 @@ host-defense genes, while mapping to a tractable cross-autoimmune intervention?
 
 Added and ran `scripts/v3_wave31_dynamic_transition_controller_audit.py`.
 Output directory:
-`results_v3/wave31_dynamic_transition_controller_audit/`.
-Runner entry added to `run_v3_analysis.sh`.
+`phases/v3/results/wave31_dynamic_transition_controller_audit/`.
+Runner entry added to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Inputs integrated:
 
@@ -3250,8 +3250,8 @@ already blocked by prior art, wrong therapeutic direction, tissue-delivery
 failure, or unavailable modality?
 
 Added and ran `scripts/v3_wave32c_resolution_prior_art_audit.py`; output:
-`results_v3/wave32c_resolution_prior_art_audit/`. Added runner entry to
-`run_v3_analysis.sh`.
+`phases/v3/results/wave32c_resolution_prior_art_audit/`. Added runner entry to
+`scripts/entrypoints/run_v3_analysis.sh`.
 
 The script queried PubMed, Europe PMC, ClinicalTrials.gov, ChEMBL, PubChem, and
 generated Google Patents/Espacenet search URLs. It produced `70` source
@@ -3264,7 +3264,7 @@ precedent for TREM2 agonism.
 Curated outputs:
 
 - `WAVE32C_PRIOR_ART_AUDIT.md`
-- `results_v3/wave32c_resolution_prior_art_audit/route_feasibility_ranked.tsv`
+- `phases/v3/results/wave32c_resolution_prior_art_audit/route_feasibility_ranked.tsv`
 
 Ranked result:
 
@@ -3313,8 +3313,8 @@ efferocytosis, lipid clearance, and tissue repair without collapsing generic
 host defense?
 
 Added and ran `scripts/v3_wave32_resolution_rescue_audit.py`.
-Output directory: `results_v3/wave32_resolution_rescue_audit/`.
-Runner entry added to `run_v3_analysis.sh`.
+Output directory: `phases/v3/results/wave32_resolution_rescue_audit/`.
+Runner entry added to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Inputs integrated:
 
@@ -3420,8 +3420,8 @@ the weak expression-only operationalization that prior reviews criticized?
 
 Outputs:
 
-- `subagents_v3/wave32b_perturbation_dataset_availability_scan.md`
-- `results_v3/wave32b_dataset_availability_scan/candidate_dataset_matrix.tsv`
+- `phases/v3/subagents/wave32b_perturbation_dataset_availability_scan.md`
+- `phases/v3/results/wave32b_dataset_availability_scan/candidate_dataset_matrix.tsv`
 
 Searches:
 
@@ -3471,9 +3471,9 @@ weak unless backed by local credible-set/eQTL/coloc-like evidence.
 Outputs:
 
 - Script: `scripts/v3_wave34a_genetics_first_target_rescue.py`.
-- Report: `subagents_v3/wave34a_genetics_first_target_rescue.md`.
-- Results: `results_v3/wave34a_genetics_first_target_rescue/`.
-- Runner: added to `run_v3_analysis.sh`.
+- Report: `phases/v3/subagents/wave34a_genetics_first_target_rescue.md`.
+- Results: `phases/v3/results/wave34a_genetics_first_target_rescue/`.
+- Runner: added to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Inputs:
 
@@ -3566,7 +3566,7 @@ Integrated Wave36, Wave37, and Wave38.
 
 Wave36-B hostile critique:
 
-- Report: `subagents_v3/wave36b_hostile_critique.md`.
+- Report: `phases/v3/subagents/wave36b_hostile_critique.md`.
 - Verdict: pivot away from active resolution/efferocytosis target discovery.
 - Key criticism accepted: corrected Wave35 fixes mapping but still tests mixed
   state modules; several mapped datasets are effectively panel-normalized after
@@ -3576,8 +3576,8 @@ Wave36-B hostile critique:
 Wave36-A gene-level controller rescue:
 
 - Script: `scripts/v3_wave36a_gene_level_controller_rescue.py`.
-- Results: `results_v3/wave36a_gene_level_controller_rescue/`.
-- Report: `subagents_v3/wave36a_gene_level_controller_rescue.md`.
+- Results: `phases/v3/results/wave36a_gene_level_controller_rescue/`.
+- Report: `phases/v3/subagents/wave36a_gene_level_controller_rescue.md`.
 - Result: no gene-level perturbation controller rescued. The permissive scan
   found 9 submodule-gate contexts and 13 gene-rescue-shaped contexts but 0
   promotion-ready target routes. `RXR/LXR` is one-dataset-only; `LIPA` lacks
@@ -3621,7 +3621,7 @@ resolution/efferocytosis branch.
 Wave39 accessibility-first rescue:
 
 - Script: `scripts/v3_wave39_surfaceome_rescue_after_resolution_pivot.py`.
-- Results: `results_v3/wave39_surfaceome_rescue_after_resolution_pivot/`.
+- Results: `phases/v3/results/wave39_surfaceome_rescue_after_resolution_pivot/`.
 - Initial run produced one apparent `GO_REVIEW`: `PSMA3`.
 - Interrogation showed this was a bug, not biology. `PSMA3` is a proteasome
   core subunit with UniProt locations `Cytoplasm;Nucleus`; the accessibility
@@ -3638,7 +3638,7 @@ Wave39 accessibility-first rescue:
 
 Wave39-B hostile critique:
 
-- Report: `subagents_v3/wave39b_accessibility_prior_art_critique.md`.
+- Report: `phases/v3/subagents/wave39b_accessibility_prior_art_critique.md`.
 - Main warning accepted: accessibility must not substitute for causal target
   evidence. The route should start with hard exclusions for HLA-II/APC markers,
   cathepsins/lysosomal loading, complement/Fc/TAM/TREM/efferocytosis,
@@ -3648,7 +3648,7 @@ Wave39-B hostile critique:
 Wave40 parked surface fail-fast:
 
 - Script: `scripts/v3_wave40_parked_surface_failfast.py`.
-- Results: `results_v3/wave40_parked_surface_failfast/`.
+- Results: `phases/v3/results/wave40_parked_surface_failfast/`.
 - Outcome: 5 `NO_GO_PARKED_SURFACE_FAILFAST` and 1
   `PARK_ONLY_IF_NEW_PERTURBATION`.
 - `FXYD5` is not promoted. It is a narrow reopen-only artifact check because it
@@ -3685,7 +3685,7 @@ Failed attempt:
 Successful run:
 
 - Script: `scripts/v3_wave41_l1000_external_unknown_deconvolution.py`.
-- Outputs: `results_v3/wave41_l1000_external_unknown_deconvolution/`.
+- Outputs: `phases/v3/results/wave41_l1000_external_unknown_deconvolution/`.
 - Public sources queried and cached: PubChem PUG-REST, ChEMBL, Europe PMC,
   ClinicalTrials.gov, L1000FWD DMOA, and NCBI Bookshelf.
 - `BRD-A72180425` resolved to PubChem CID `3689416` and ChEMBL
@@ -3722,7 +3722,7 @@ Reasoning:
 Local execution:
 
 - Script: `scripts/v3_wave42_fads_lipid_desaturation_axis.py`.
-- Outputs: `results_v3/wave42_fads_lipid_desaturation_axis/`.
+- Outputs: `phases/v3/results/wave42_fads_lipid_desaturation_axis/`.
 - Inputs: Wave34 genetics-expression-druggability scan, broad h5ad
   cell-state scan, residual-gate tables, local GWAS Catalog parquet, LINCS
   compound metadata, ChEMBL, Europe PMC, ClinicalTrials.gov, and patent-search
@@ -3754,7 +3754,7 @@ Key results:
 Wave42-B hostile critique:
 
 - Agent `019e68ca-40be-78a1-997b-1fe65cecfe12` (`Kuhn`) returned
-  `subagents_v3/wave42b_fads_lipid_axis_critique.md`.
+  `phases/v3/subagents/wave42b_fads_lipid_axis_critique.md`.
 - Verdict: `DEMOTE`.
 - I verified that the key cited web endpoints are reachable where not blocked
   by publisher access controls; the local demotion does not depend on the
@@ -3781,7 +3781,7 @@ Reasoning:
 Results:
 
 - Script: `scripts/v3_wave43_genetic_druggable_failfast.py`.
-- Outputs: `results_v3/wave43_genetic_druggable_failfast/`.
+- Outputs: `phases/v3/results/wave43_genetic_druggable_failfast/`.
 - `FADS1`: `NO_GO_ALREADY_DEMOTED_WAVE42`.
 - `TYK2`: `NO_GO_PRIOR_ART_AND_GENERIC_IMMUNOSUPPRESSION`.
 - `JAK2`: `NO_GO_PRIOR_ART_AND_GENERIC_IMMUNOSUPPRESSION`.
@@ -3811,7 +3811,7 @@ Reasoning:
 Execution:
 
 - Script: `scripts/v3_wave44_cfb_complement_stratification_audit.py`.
-- Outputs: `results_v3/wave44_cfb_complement_stratification_audit/`.
+- Outputs: `phases/v3/results/wave44_cfb_complement_stratification_audit/`.
 - Inputs: Wave34, broad h5ad, broad residual, Wave21 prior-art gate, Wave25
   causal proxy, and OSMR/complement summary.
 - Public API queries: Europe PMC and ClinicalTrials.gov; patent search URLs
@@ -3860,7 +3860,7 @@ Reasoning:
 Execution:
 
 - Script: `scripts/v3_wave45_regulatory_controller_audit.py`.
-- Outputs: `results_v3/wave45_regulatory_controller_audit/`.
+- Outputs: `phases/v3/results/wave45_regulatory_controller_audit/`.
 - Inputs: Wave34, broad h5ad, broad residual, Wave23 restoration-modality
   scout, Wave31 dynamic-controller audit, and Wave25 causal proxy.
 
@@ -3901,7 +3901,7 @@ Reasoning:
 Execution:
 
 - Script: `scripts/v3_wave46_central_axis_closure_audit.py`.
-- Outputs: `results_v3/wave46_central_axis_closure_audit/`.
+- Outputs: `phases/v3/results/wave46_central_axis_closure_audit/`.
 - Inputs: central axis rank, mechanistic ODE model outputs, Wave14 target-level
   genetics, Wave15 loader external gate, Wave19 lysosomal controller tables,
   Wave31 dynamic controller audit, Wave34 genetics/expression/druggability,
@@ -3954,9 +3954,9 @@ Reasoning:
 Execution:
 
 - Wave47 script: `scripts/v3_wave47_late_stage_survivor_map.py`.
-- Wave47 outputs: `results_v3/wave47_late_stage_survivor_map/`.
+- Wave47 outputs: `phases/v3/results/wave47_late_stage_survivor_map/`.
 - Wave48 script: `scripts/v3_wave48_resolution_reopener_audit.py`.
-- Wave48 outputs: `results_v3/wave48_resolution_reopener_audit/`.
+- Wave48 outputs: `phases/v3/results/wave48_resolution_reopener_audit/`.
 - First Wave48 run failed because `gene_contrast_scores.tsv` uses `p` and
   `contrast_type`, not always `p_value` and `comparison_type`. I patched the
   parser and reran successfully.
@@ -4005,7 +4005,7 @@ Reasoning:
 Execution:
 
 - Script: `scripts/v3_wave49_ptpn22_directionality_audit.py`.
-- Outputs: `results_v3/wave49_ptpn22_directionality_audit/`.
+- Outputs: `phases/v3/results/wave49_ptpn22_directionality_audit/`.
 - Sources: Wave47, Wave34A, Wave34, broad h5ad gene discovery, broad residual
   gate, Wave23 restoration-modality table, live Europe PMC,
   ClinicalTrials.gov, ChEMBL target/activity APIs, and patent-search URLs.
@@ -4051,7 +4051,7 @@ Reasoning:
 Execution:
 
 - Script: `scripts/v3_wave50_gpr65_acid_sensing_gpcr_audit.py`.
-- Outputs: `results_v3/wave50_gpr65_acid_sensing_gpcr_audit/`.
+- Outputs: `phases/v3/results/wave50_gpr65_acid_sensing_gpcr_audit/`.
 - Sources: Wave47, Wave34A, Wave34, Wave20 genetic-druggable alt-axis,
   Wave23 restoration-modality table, broad h5ad table, live Europe PMC,
   ClinicalTrials.gov, ChEMBL, and patent-search URLs.
@@ -4097,7 +4097,7 @@ Reasoning:
 Execution:
 
 - Script: `scripts/v3_wave51_reachable_stromal_surface_audit.py`.
-- Outputs: `results_v3/wave51_reachable_stromal_surface_audit/`.
+- Outputs: `phases/v3/results/wave51_reachable_stromal_surface_audit/`.
 - Sources: Wave47, Wave34A, Wave34, Wave39 surfaceome rescue, Wave40 parked
   surface fail-fast, broad h5ad, broad residual gate, live Europe PMC,
   ClinicalTrials.gov, ChEMBL, and patent-search URLs.
@@ -4132,7 +4132,7 @@ Decision:
 Integrated Wave50-G and closed the agent.
 
 - Preserved report:
-  `subagents_v3/wave50g_gpr65_critique.md`.
+  `phases/v3/subagents/wave50g_gpr65_critique.md`.
 - Independent critique agrees with the local GPR65 audit:
   `NO_GO`, not a V3 therapeutic candidate.
 - Added blockers from the subagent to the orchestrator reasoning:
@@ -4165,7 +4165,7 @@ Executed Wave52.
 Execution:
 
 - Script: `scripts/v3_wave52_remaining_mechanistic_reopeners.py`.
-- Outputs: `results_v3/wave52_remaining_mechanistic_reopeners/`.
+- Outputs: `phases/v3/results/wave52_remaining_mechanistic_reopeners/`.
 - Sources: Wave47, Wave23 restoration, Wave28 target-first rescue, Wave32
   resolution rescue, Wave34/Wave34A genetics-expression audits, Wave22 SQLE
   fail-fast, broad h5ad discovery, broad residual gate, live Europe PMC,
@@ -4228,17 +4228,17 @@ Integrated Wave53 local audit and subagents.
 Subagents:
 
 - Wave53-G returned `WETLAB_ONLY` for the `MED16` branch and was closed.
-  Report: `subagents_v3/wave53g_med16_mediator_review.md`.
+  Report: `phases/v3/subagents/wave53g_med16_mediator_review.md`.
 - Wave53-H returned `NO_GO` for treatment-response stratification and was
-  closed. Report: `subagents_v3/wave53h_treatment_response_review.md`.
+  closed. Report: `phases/v3/subagents/wave53h_treatment_response_review.md`.
 - Wave53-I returned no therapeutic shortlist and was closed. It identified
   `MFGE8` augmentation as one `PARK_EX_VIVO_ONLY` reopener. Report:
-  `subagents_v3/wave53i_cross_domain_scout.md`.
+  `phases/v3/subagents/wave53i_cross_domain_scout.md`.
 
 Local Wave53:
 
 - Script: `scripts/v3_wave53_perturbation_first_pivot.py`.
-- Outputs: `results_v3/wave53_perturbation_first_pivot/`.
+- Outputs: `phases/v3/results/wave53_perturbation_first_pivot/`.
 - Calls:
   - `MED16_MEDIATOR_MODULE`:
     `WETLAB_ONLY_MED16_SELECTIVE_NONDRUGGABLE_ROUTE`, 2/8 gates passed.
@@ -4287,7 +4287,7 @@ Executed Wave54 `MFGE8` audit.
 Results:
 
 - Script: `scripts/v3_wave54_mfge8_debris_opsonin_audit.py`.
-- Outputs: `results_v3/wave54_mfge8_debris_opsonin_audit/`.
+- Outputs: `phases/v3/results/wave54_mfge8_debris_opsonin_audit/`.
 - Call: `PARK_EX_VIVO_ONLY_MFGE8_DEBRIS_OPSONIN`, 3/8 gates passed.
 - Passed gates: cross-domain mechanistic anchor, tractable modality, and
   no obvious direct clinical therapeutic crowding.
@@ -4338,7 +4338,7 @@ Executed Wave55 external genetics and druggability sweep.
 Results:
 
 - Script: `scripts/v3_wave55_external_genetics_druggability_sweep.py`.
-- Outputs: `results_v3/wave55_external_genetics_druggability_sweep/`.
+- Outputs: `phases/v3/results/wave55_external_genetics_druggability_sweep/`.
 - Live Open Targets raw rows: 6000 across 12 autoimmune diseases.
 - Non-closed ranked targets: 2815.
 - Promoted targets: 0.
@@ -4390,7 +4390,7 @@ Reasoning:
 Execution:
 
 - Added `scripts/v3_wave56_sp140_targeted_reopener_audit.py`.
-- Added the script to `run_v3_analysis.sh`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 - Inputs: Wave55 external genetics rank/raw rows, broad h5ad discovery,
   broad residual gate, Wave37 efferocytosis CRISPR screen, Wave45 regulatory
   audit, Wave18 foundation/perturbation summaries, Wave15 perturbation
@@ -4404,7 +4404,7 @@ Executed Wave56 targeted `SP140` audit.
 Results:
 
 - Script: `scripts/v3_wave56_sp140_targeted_reopener_audit.py`.
-- Outputs: `results_v3/wave56_sp140_targeted_reopener_audit/`.
+- Outputs: `phases/v3/results/wave56_sp140_targeted_reopener_audit/`.
 - Call: `NO_GO_SP140_TARGETED_AUDIT`, 2/10 gates passed.
 - Passed gates: cross-disease external genetics breadth and local
   cross-disease cell-state replication.
@@ -4439,7 +4439,7 @@ Integrated Wave56-L `IL12A` comparator sidecar.
 
 Result:
 
-- Report: `subagents_v3/wave56l_il12a_comparator_prior_art.md`.
+- Report: `phases/v3/subagents/wave56l_il12a_comparator_prior_art.md`.
 - Verdict: `DEMOTE_IL12A_TO_COMPARATOR_CONTROL`.
 - Key reasons:
   - Selective IL-12p35 antagonism is real and druggable but already covered
@@ -4474,7 +4474,7 @@ Reasoning:
 Execution:
 
 - Added `scripts/v3_wave57_intervention_first_geneformer_screen.py`.
-- Added the script to `run_v3_analysis.sh`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 
 ## 2026-05-27 11:34 UTC
 
@@ -4482,7 +4482,7 @@ Integrated Wave56-J `SP140` genetics/prior-art sidecar.
 
 Result:
 
-- Report: `subagents_v3/wave56j_sp140_genetics_prior_art.md`.
+- Report: `phases/v3/subagents/wave56j_sp140_genetics_prior_art.md`.
 - Verdict: demote `SP140` as a V3 therapeutic target.
 - Key reasons:
   - MS and Crohn genetics are real and target-resolved.
@@ -4505,11 +4505,11 @@ Integrated Wave56-K `SP140` perturbation/druggability sidecar.
 
 Result:
 
-- Report: `subagents_v3/wave56k_sp140_perturbation_druggability.md`.
+- Report: `phases/v3/subagents/wave56k_sp140_perturbation_druggability.md`.
 - Support script:
   `scripts/v3_wave56k_sp140_perturbation_druggability_audit.py`.
 - Outputs:
-  `results_v3/wave56k_sp140_perturbation_druggability/`.
+  `phases/v3/results/wave56k_sp140_perturbation_druggability/`.
 - Verdict:
   `DEMOTE_FOR_V3_PROMOTION; PARK_AS_SP140_HIGH_IBD_TOOL_COMPOUND_AND_STRATIFICATION_ROUTE`.
 
@@ -4535,7 +4535,7 @@ Executed and integrated Wave57 intervention-first Geneformer screen.
 Results:
 
 - Script: `scripts/v3_wave57_intervention_first_geneformer_screen.py`.
-- Outputs: `results_v3/wave57_intervention_first_geneformer_screen/`.
+- Outputs: `phases/v3/results/wave57_intervention_first_geneformer_screen/`.
 - Model: Geneformer V2-104M, revision
   `04c2b2e84da7c0f385c3f9ad8f3ec24bab6650e5`.
 - Candidate genes: 26.
@@ -4579,7 +4579,7 @@ Reasoning:
 Execution:
 
 - Added `scripts/v3_wave58_cxcr2_il7r_targeted_audit.py`.
-- Added the script to `run_v3_analysis.sh`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 
 ## 2026-05-27 11:47 UTC
 
@@ -4588,7 +4588,7 @@ Executed and integrated Wave58 targeted `CXCR2`/`IL7R` audit.
 Results:
 
 - Script: `scripts/v3_wave58_cxcr2_il7r_targeted_audit.py`.
-- Outputs: `results_v3/wave58_cxcr2_il7r_targeted_audit/`.
+- Outputs: `phases/v3/results/wave58_cxcr2_il7r_targeted_audit/`.
 - `CXCR2`: `NO_GO_WAVE58_TARGETED_AUDIT`, 4/9 gates passed.
   - Passed: cross-disease external genetics breadth, local cross-disease
     cell-state recurrence, Geneformer reopener, and direct druggability.
@@ -4618,7 +4618,7 @@ Integrated Wave58-O hostile review.
 
 Result:
 
-- Report: `subagents_v3/wave58o_hostile_review_cxcr2_il7r.md`.
+- Report: `phases/v3/subagents/wave58o_hostile_review_cxcr2_il7r.md`.
 - Verdict: close both `CXCR2` and `IL7R` for V3 therapeutic promotion.
 - Added critique:
   - `CXCR2` is MS-genetics negative, likely composition/neutrophil-driven,
@@ -4648,7 +4648,7 @@ Reasoning:
 Execution:
 
 - Added `scripts/v3_wave59_lysosomal_sphingolipid_model_reopener_audit.py`.
-- Added the script to `run_v3_analysis.sh`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 
 ## 2026-05-27 11:54 UTC
 
@@ -4656,9 +4656,9 @@ Integrated returned Wave58 sidecars and closed their agents.
 
 Reports:
 
-- `subagents_v3/wave58m_cxcr2_therapeutic_audit.md`.
-- `subagents_v3/wave58n_il7r_therapeutic_audit.md`.
-- `subagents_v3/wave58o_hostile_review_cxcr2_il7r.md`.
+- `phases/v3/subagents/wave58m_cxcr2_therapeutic_audit.md`.
+- `phases/v3/subagents/wave58n_il7r_therapeutic_audit.md`.
+- `phases/v3/subagents/wave58o_hostile_review_cxcr2_il7r.md`.
 
 Decision:
 
@@ -4687,7 +4687,7 @@ Integrated Wave59 lysosomal/sphingolipid model reopener audit.
 Results:
 
 - Script: `scripts/v3_wave59_lysosomal_sphingolipid_model_reopener_audit.py`.
-- Outputs: `results_v3/wave59_lysosomal_sphingolipid_model_reopener_audit/`.
+- Outputs: `phases/v3/results/wave59_lysosomal_sphingolipid_model_reopener_audit/`.
 - Candidate genes: `CTSB`, `ASAH1`, `HEXB`, `HEXA`, `CTSS`, `CTSD`, `PSAP`,
   `LIPA`, `GALC`, `GBA1`, `SMPD1`.
 - Promotions: 0.
@@ -4742,7 +4742,7 @@ Execution:
 - Dispatched Wave60-Q `OSM/OSMR/IL6ST` audit.
 - Dispatched Wave60-R hostile methods review.
 - Added `scripts/v3_wave60_circuit_coupling_pivot.py`.
-- Added the script to `run_v3_analysis.sh`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 
 ## 2026-05-27 12:06 UTC
 
@@ -4750,7 +4750,7 @@ Executed and integrated local Wave60 circuit-coupling pivot.
 
 Results:
 
-- Outputs: `results_v3/wave60_circuit_coupling_pivot/`.
+- Outputs: `phases/v3/results/wave60_circuit_coupling_pivot/`.
 - Donor-context rows: 309.
 - Predictors ranked: 276.
 - Full reopeners: 0.
@@ -4781,7 +4781,7 @@ Integrated Wave60-R hostile methods review.
 
 Report:
 
-- `subagents_v3/wave60r_circuit_pivot_hostile_review.md`.
+- `phases/v3/subagents/wave60r_circuit_pivot_hostile_review.md`.
 
 Verdict:
 
@@ -4809,7 +4809,7 @@ Integrated Wave60-P C15ORF48/MOCCI audit.
 
 Report:
 
-- `subagents_v3/wave60p_c15orf48_mocci_circuit_audit.md`.
+- `phases/v3/subagents/wave60p_c15orf48_mocci_circuit_audit.md`.
 
 Result:
 
@@ -4834,7 +4834,7 @@ Integrated Wave60-Q OSM/OSMR tissue-niche audit.
 
 Report:
 
-- `subagents_v3/wave60q_osm_osmr_circuit_audit.md`.
+- `phases/v3/subagents/wave60q_osm_osmr_circuit_audit.md`.
 
 Result:
 
@@ -4873,7 +4873,7 @@ Executed and integrated Wave61 perturbation-first guardrail scorer.
 
 Outputs:
 
-- `results_v3/wave61_perturbation_first_guardrail/`.
+- `phases/v3/results/wave61_perturbation_first_guardrail/`.
 
 Results:
 
@@ -4923,7 +4923,7 @@ Integrated Wave61-S intervention mining audit.
 
 Report:
 
-- `subagents_v3/wave61s_intervention_mining.md`.
+- `phases/v3/subagents/wave61s_intervention_mining.md`.
 
 Result:
 
@@ -4994,10 +4994,10 @@ Script:
 
 Reproducibility:
 
-- Added to `run_v3_analysis.sh`.
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
 - Random seed: `20260527`.
 - Uses cached/raw Open Targets Platform GraphQL responses under
-  `results_v3/wave62_opentargets_target_resolution/raw_api/`.
+  `phases/v3/results/wave62_opentargets_target_resolution/raw_api/`.
 
 Patch before rerun:
 
@@ -5055,7 +5055,7 @@ Integrated Wave62-V subagent return.
 
 Report:
 
-- `subagents_v3/wave62v_opentargets_target_resolution.md`.
+- `phases/v3/subagents/wave62v_opentargets_target_resolution.md`.
 
 Accepted:
 
@@ -5081,8 +5081,8 @@ Closed Wave63 transition-controller integration branch for promotion.
 Local script:
 
 - `scripts/v3_wave63_transition_controller_integrator.py`.
-- Added to `run_v3_analysis.sh`.
-- Output directory: `results_v3/wave63_transition_controller_integrator/`.
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
+- Output directory: `phases/v3/results/wave63_transition_controller_integrator/`.
 
 Execution history:
 
@@ -5124,17 +5124,17 @@ Interpretation:
 
 Subagent integration:
 
-- Wave63-Y `subagents_v3/wave63y_broad_genetics_benchmark.md`: accepted.
+- Wave63-Y `phases/v3/subagents/wave63y_broad_genetics_benchmark.md`: accepted.
   Broad genetics hits (`BACH2`, `IRF5`, `IL7R`, `STAT4`, `SP140`, `IFI30`,
   `CD40`, `IL12A`) are calibration controls, not less-blocked intervention
   routes.
-- Wave63-Z `subagents_v3/wave63z_transition_controller_hostile.md`: accepted.
+- Wave63-Z `phases/v3/subagents/wave63z_transition_controller_hostile.md`: accepted.
   Minimum promotion bar now requires independent evidence accounting, direct
   human disease-relevant perturbation, held-out state readout, functional
   repair and host-defense guardrails, correct directionality, non-pseudo-
   replicated cross-disease breadth, correct-direction druggability, frozen
   claim-specific prior-art search, and effect-size thresholds.
-- Wave63-X `subagents_v3/wave63x_sp140_topoisomerase_transfer.md`: accepted.
+- Wave63-X `phases/v3/subagents/wave63x_sp140_topoisomerase_transfer.md`: accepted.
   SP140/TOP is demoted for V3 promotion and parked only as Crohn SP140-loss
   stratification/mechanistic comparator.
 
@@ -5186,7 +5186,7 @@ Operational note:
 
 - The hostile reviewer initially hit the agent thread limit. I closed completed
   Wave62/Wave63 agents and relaunched it. This does not affect prior accepted
-  subagent outputs, which remain preserved under `subagents_v3/`.
+  subagent outputs, which remain preserved under `phases/v3/subagents/`.
 
 ## 2026-05-27 13:06 UTC
 
@@ -5195,8 +5195,8 @@ Wave64 SLAMF7 perturbation audit completed.
 Script:
 
 - `scripts/v3_wave64_slamf7_perturbation_audit.py`.
-- Added to `run_v3_analysis.sh`.
-- Output directory: `results_v3/wave64_slamf7_perturbation_audit/`.
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
+- Output directory: `phases/v3/results/wave64_slamf7_perturbation_audit/`.
 
 Inputs:
 
@@ -5263,9 +5263,9 @@ Wave65 `GSE198520` RA paired synovium anti-TNF audit completed.
 Script:
 
 - `scripts/v3_wave65_gse198520_ra_synovium_antitnf_audit.py`.
-- Added to `run_v3_analysis.sh`.
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
 - Output directory:
-  `results_v3/wave65_gse198520_ra_synovium_antitnf_audit/`.
+  `phases/v3/results/wave65_gse198520_ra_synovium_antitnf_audit/`.
 
 Run issue and correction:
 
@@ -5320,8 +5320,8 @@ Wave66 cross-autoimmune metabolomics/lipidomics class audit completed.
 Script:
 
 - `scripts/v3_wave66_metabolomics_class_convergence.py`.
-- Added to `run_v3_analysis.sh`.
-- Output directory: `results_v3/wave66_metabolomics_class_convergence/`.
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
+- Output directory: `phases/v3/results/wave66_metabolomics_class_convergence/`.
 
 Inputs:
 
@@ -5376,7 +5376,7 @@ Decision:
 
 Wave66-B subagent returned and was accepted as a feasibility result:
 
-- Report: `subagents_v3/wave66b_gse282122_feasibility.md`.
+- Report: `phases/v3/subagents/wave66b_gse282122_feasibility.md`.
 - Key finding: `GSE282122` is feasible through Zenodo record `14007626`
   `myeloid_final.h5ad` (416,722,961 bytes, MD5
   `bdfe50345a11abdb1a72b2439bf9950e`) and `paired_sample_list.csv`.
@@ -5400,8 +5400,8 @@ Wave67 `GSE282122` myeloid anti-TNF pseudobulk audit completed.
 Script:
 
 - `scripts/v3_wave67_gse282122_myeloid_pseudobulk.py`.
-- Added to `run_v3_analysis.sh`.
-- Output directory: `results_v3/wave67_gse282122_myeloid_pseudobulk/`.
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
+- Output directory: `phases/v3/results/wave67_gse282122_myeloid_pseudobulk/`.
 
 Inputs:
 
@@ -5458,7 +5458,7 @@ Script:
 
 - `scripts/v3_wave68_gse282122_unrestricted_gene_screen.py`.
 - Output directory:
-  `results_v3/wave68_gse282122_unrestricted_gene_screen/`.
+  `phases/v3/results/wave68_gse282122_unrestricted_gene_screen/`.
 - Added guardrail: `SP140` is now blocked by the already-completed V3
   SP140/topoisomerase audit rather than reopened by the unrestricted screen.
   The post-hoc blocker is
@@ -5512,18 +5512,18 @@ centroid screen.
 
 Subagent returns:
 
-- Wave69-A (`subagents_v3/wave69a_parked_gene_controller_triage.md`):
+- Wave69-A (`phases/v3/subagents/wave69a_parked_gene_controller_triage.md`):
   accepted. Verdict: none of the 13 Wave68 parked genes is a direct
   therapeutic anchor. The useful pattern is a blocked comparator panel of APC
   costimulation/checkpoint genes plus Fc/ROS myeloid-balance genes.
-- Wave69-B (`subagents_v3/wave69b_independent_validation_scout.md` and
+- Wave69-B (`phases/v3/subagents/wave69b_independent_validation_scout.md` and
   `scripts/v3_wave69b_independent_validation_scout.py`): accepted. Verdict:
   no parked candidate should be reopened. `IL7R`, `CD274`, and `SP140` have
   the strongest cross-dataset expression recurrence but remain markers or
   blocked comparators. `FCGR2B` and `NCF1` move in bulk RA synovium after
   anti-TNF but not as a cell-resolved controller claim. `RGS14` does not
   validate independently.
-- Wave69-C (`subagents_v3/wave69c_foundation_model_feasibility.md`):
+- Wave69-C (`phases/v3/subagents/wave69c_foundation_model_feasibility.md`):
   accepted. Verdict: Arc State remains blocked for named-gene claims because
   exposed features are numeric IDs; the runnable replacement is a narrow local
   Geneformer V2-104M token-deletion screen on `GSE282122` remission centroids.
@@ -5536,7 +5536,7 @@ Local controller rank:
 - Patch: use proper Enrichr multipart `files=` submission, tolerate partial
   enrichment schemas, and add blockers for broad kinase false leads
   (`FYN/SRC/LYN/MAPK14/GSK3A/GSK3B/INSR`).
-- Final output: `results_v3/wave69_parked_controller_rank/`.
+- Final output: `phases/v3/results/wave69_parked_controller_rank/`.
 - Enrichr confirmed that the 13 parked genes are dominated by immune system,
   checkpoint/costimulation, Fc-gamma phagocytosis/phagosome, TNF receptor, and
   cytokine-signaling terms.
@@ -5582,8 +5582,8 @@ Wave70 local Fc/ROS-resolution matrix completed.
 Script and outputs:
 
 - `scripts/v3_wave70_fc_ros_resolution_matrix.py`.
-- `results_v3/wave70_fc_ros_resolution_matrix/`.
-- Added to `run_v3_analysis.sh`.
+- `phases/v3/results/wave70_fc_ros_resolution_matrix/`.
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Result:
 
@@ -5629,9 +5629,9 @@ Wave70-B local computational scout completed and reported.
 Script and outputs:
 
 - `scripts/v3_wave70b_fc_ros_computational_scout.py`.
-- `results_v3/wave70b_fc_ros_computational_scout/`.
-- Report: `subagents_v3/wave70b_fc_ros_computational_scout.md`.
-- Added to `run_v3_analysis.sh`.
+- `phases/v3/results/wave70b_fc_ros_computational_scout/`.
+- Report: `phases/v3/subagents/wave70b_fc_ros_computational_scout.md`.
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Scope:
 
@@ -5690,13 +5690,13 @@ Wave70-C inhibitory-receptor Geneformer directionality screen completed.
 Script and outputs:
 
 - `scripts/v3_wave70c_inhibitory_receptor_geneformer_direction.py`.
-- `results_v3/wave70c_inhibitory_receptor_geneformer_direction/`.
-- Added to `run_v3_analysis.sh`.
+- `phases/v3/results/wave70c_inhibitory_receptor_geneformer_direction/`.
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Model:
 
 - Local Geneformer V2-104M checkpoint from
-  `tmp_v3/foundation_wave6/geneformer_assets/Geneformer-V2-104M`.
+  `phases/v3/tmp/foundation_wave6/geneformer_assets/Geneformer-V2-104M`.
 - Loaded encoder parameters: 104,365,056.
 - Random seed: `20260527`.
 - Contexts: `GSE282122` post-treatment non-remission vs remission centroids in
@@ -5748,7 +5748,7 @@ count toward active working hours, so the V3 session continues and
 
 Integrated Wave71-B prior-branch synthesis:
 
-- Artifact: `subagents_v3/wave71b_prior_branch_status_synthesis.md`.
+- Artifact: `phases/v3/subagents/wave71b_prior_branch_status_synthesis.md`.
 - Accepted as a hostile memory artifact, not as a finding.
 - Core rule reinforced: do not reopen a branch from expression recurrence,
   module coupling, mapped-gene genetics, ChEMBL availability, or Geneformer-only
@@ -5794,7 +5794,7 @@ Integrated Wave71-A:
 
 - Script/output:
   `scripts/v3_wave71_global_survivor_meta_rank.py`,
-  `results_v3/wave71_global_survivor_meta_rank/`.
+  `phases/v3/results/wave71_global_survivor_meta_rank/`.
 - Result: no candidate reopens. Top non-reopening rows are `CD58`,
   `CARMIL1`, `RAD51B`, `PARK7`, `ADCY3`, `FADS1`, `CCDC88B`, `PRR5L`, `YDJC`,
   and `ARID5B`, all blocked by insufficient independent convergence, missing
@@ -5807,7 +5807,7 @@ Integrated Wave71-C and executed Wave72:
   `SLC15A4` as comparators.
 - Added and ran
   `scripts/v3_wave72_lipid_mediator_intervention_scout.py`.
-- Outputs: `results_v3/wave72_lipid_mediator_intervention_scout/`.
+- Outputs: `phases/v3/results/wave72_lipid_mediator_intervention_scout/`.
 - Reproducibility correction: initial Wave72 report generation failed because
   `pandas.to_markdown()` needed optional `tabulate`. Replaced it with an
   internal Markdown-table writer and reran successfully.
@@ -5830,8 +5830,8 @@ Decision:
 Wave73 `P2RX7`/purine-inflammasome stratification branch completed.
 
 - Script: `scripts/v3_wave73_p2rx7_stratification_test.py`.
-- Outputs: `results_v3/wave73_p2rx7_stratification_test/`.
-- Added to `run_v3_analysis.sh`.
+- Outputs: `phases/v3/results/wave73_p2rx7_stratification_test/`.
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
 - Validation:
   - `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave73_p2rx7_stratification_test.py`
   - `.venv_v3_py312/bin/python scripts/v3_wave73_p2rx7_stratification_test.py`
@@ -5863,8 +5863,8 @@ Decision:
 Wave74 `EPHX2` direct-ratio audit completed.
 
 - Script: `scripts/v3_wave74_ephx2_direct_ratio_audit.py`.
-- Outputs: `results_v3/wave74_ephx2_direct_ratio_audit/`.
-- Added to `run_v3_analysis.sh`.
+- Outputs: `phases/v3/results/wave74_ephx2_direct_ratio_audit/`.
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
 - Validation:
   - `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave74_ephx2_direct_ratio_audit.py`
   - `.venv_v3_py312/bin/python scripts/v3_wave74_ephx2_direct_ratio_audit.py`
@@ -5897,7 +5897,7 @@ Executed Wave73 `P2RX7`/purine-inflammasome stratification test.
 Script/output:
 
 - `scripts/v3_wave73_p2rx7_stratification_test.py`
-- `results_v3/wave73_p2rx7_stratification_test/`
+- `phases/v3/results/wave73_p2rx7_stratification_test/`
 
 Question:
 
@@ -5986,7 +5986,7 @@ Wave74-C prior-art/druggability scout returned.
 
 Artifact:
 
-- `subagents_v3/wave74c_prior_art_druggability_scout.md`
+- `phases/v3/subagents/wave74c_prior_art_druggability_scout.md`
 
 Accepted parts:
 
@@ -6023,7 +6023,7 @@ Integrated Wave74-B `GPR183`/oxysterol-niche audit.
 Script/output:
 
 - `scripts/v3_wave74_gpr183_oxysterol_niche.py`
-- `results_v3/wave74_gpr183_oxysterol_niche/`
+- `phases/v3/results/wave74_gpr183_oxysterol_niche/`
 
 Result:
 
@@ -6067,9 +6067,9 @@ Integrated Wave74-A `EPHX2`/oxylipin specificity audit and direct-ratio audit.
 Artifacts:
 
 - `scripts/v3_wave74_ephx2_oxylipin_specificity.py`
-- `results_v3/wave74_ephx2_oxylipin_specificity/`
+- `phases/v3/results/wave74_ephx2_oxylipin_specificity/`
 - `scripts/v3_wave74_ephx2_direct_ratio_audit.py`
-- `results_v3/wave74_ephx2_direct_ratio_audit/`
+- `phases/v3/results/wave74_ephx2_direct_ratio_audit/`
 
 Validation:
 
@@ -6140,8 +6140,8 @@ Integrated Wave75 `ETS2` branch.
 Artifacts:
 
 - `scripts/v3_wave75_ets2_macrophage_program_audit.py`
-- `results_v3/wave75_ets2_macrophage_program_audit/`
-- `subagents_v3/wave75c_ets2_prior_art_directionality.md`
+- `phases/v3/results/wave75_ets2_macrophage_program_audit/`
+- `phases/v3/subagents/wave75c_ets2_prior_art_directionality.md`
 
 Local-data result:
 
@@ -6204,11 +6204,11 @@ that ran during the interrupted segment.
 Artifacts:
 
 - `scripts/v3_wave75_response_state_stratification.py`
-- `results_v3/wave75_response_state_stratification/`
+- `phases/v3/results/wave75_response_state_stratification/`
 - `scripts/v3_wave76_adjusted_response_specificity.py`
-- `results_v3/wave76_adjusted_response_specificity/`
+- `phases/v3/results/wave76_adjusted_response_specificity/`
 - `scripts/v3_wave77_ets2_macrophage_axis_audit.py`
-- `results_v3/wave77_ets2_macrophage_axis_audit/`
+- `phases/v3/results/wave77_ets2_macrophage_axis_audit/`
 
 Wave75 response-state stratification:
 
@@ -6273,14 +6273,14 @@ Wave78 LILRB inhibitory-receptor family audit completed.
 Artifacts:
 
 - `scripts/v3_wave78_lilrb_family_target_audit.py`
-- `results_v3/wave78_lilrb_family_target_audit/`
-- `subagents_v3/wave78a_lilrb_prior_art_feasibility.md`
+- `phases/v3/results/wave78_lilrb_family_target_audit/`
+- `phases/v3/subagents/wave78a_lilrb_prior_art_feasibility.md`
 
 Validation:
 
 - `py_compile` passed.
 - Script ran under `.venv_v3_py312`.
-- Added to `run_v3_analysis.sh`.
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Local-data result:
 
@@ -6338,14 +6338,14 @@ Completed Wave78 LILRB inhibitory-receptor family audit.
 Artifacts:
 
 - `scripts/v3_wave78_lilrb_inhibitory_receptor_audit.py`
-- `results_v3/wave78_lilrb_inhibitory_receptor_audit/`
-- `subagents_v3/wave78_lilrb_prior_art_directionality.md`
+- `phases/v3/results/wave78_lilrb_inhibitory_receptor_audit/`
+- `phases/v3/subagents/wave78_lilrb_prior_art_directionality.md`
 
 Validation:
 
 - `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave78_lilrb_inhibitory_receptor_audit.py`
 - `.venv_v3_py312/bin/python scripts/v3_wave78_lilrb_inhibitory_receptor_audit.py`
-- `bash -n run_v3_analysis.sh`
+- `bash -n scripts/entrypoints/run_v3_analysis.sh`
 
 Local audit:
 
@@ -6400,7 +6400,7 @@ Completed Wave79 non-LILRB targetability shortlist audit.
 Artifacts:
 
 - `scripts/v3_wave79_targetability_shortlist_audit.py`
-- `results_v3/wave79_targetability_shortlist_audit/`
+- `phases/v3/results/wave79_targetability_shortlist_audit/`
 
 Validation:
 
@@ -6456,13 +6456,13 @@ Completed Wave80 `CD58`/CD2-axis deepening.
 Artifacts:
 
 - `scripts/v3_wave80_cd58_cd2_axis_deepening.py`
-- `results_v3/wave80_cd58_cd2_axis_deepening/`
+- `phases/v3/results/wave80_cd58_cd2_axis_deepening/`
 
 Validation:
 
 - `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave80_cd58_cd2_axis_deepening.py`
 - `.venv_v3_py312/bin/python scripts/v3_wave80_cd58_cd2_axis_deepening.py`
-- `bash -n run_v3_analysis.sh`
+- `bash -n scripts/entrypoints/run_v3_analysis.sh`
 
 New local test:
 
@@ -6511,7 +6511,7 @@ Completed Wave81 perturbation-first rescue audit.
 Artifacts:
 
 - `scripts/v3_wave81_perturbation_first_rescue.py`
-- `results_v3/wave81_perturbation_first_rescue/`
+- `phases/v3/results/wave81_perturbation_first_rescue/`
 
 Validation:
 
@@ -6561,7 +6561,7 @@ Integrated Wave79 hostile prior-art/directionality sidecar.
 
 Artifact:
 
-- `subagents_v3/wave79_targetability_prior_art_directionality.md`
+- `phases/v3/subagents/wave79_targetability_prior_art_directionality.md`
 
 What changed:
 
@@ -6593,8 +6593,8 @@ Re-audited Wave81 after continuation and corrected a proxy-satisficing bug.
 Artifacts changed:
 
 - `scripts/v3_wave81_perturbation_first_rescue.py`
-- `results_v3/wave81_perturbation_first_rescue/`
-- `run_v3_analysis.sh`
+- `phases/v3/results/wave81_perturbation_first_rescue/`
+- `scripts/entrypoints/run_v3_analysis.sh`
 
 What happened:
 
@@ -6647,15 +6647,15 @@ Completed Wave82 parked perturbation intervention audit.
 Artifacts:
 
 - `scripts/v3_wave82_parked_perturbation_intervention_audit.py`
-- `results_v3/wave82_parked_perturbation_intervention_audit/`
-- `subagents_v3/wave82a_parked_perturbation_feasibility.md`
-- `subagents_v3/wave82b_cross_disease_evidence_stress_test.md`
+- `phases/v3/results/wave82_parked_perturbation_intervention_audit/`
+- `phases/v3/subagents/wave82a_parked_perturbation_feasibility.md`
+- `phases/v3/subagents/wave82b_cross_disease_evidence_stress_test.md`
 
 Validation:
 
 - `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave82_parked_perturbation_intervention_audit.py`
 - `.venv_v3_py312/bin/python scripts/v3_wave82_parked_perturbation_intervention_audit.py`
-- `bash -n run_v3_analysis.sh`
+- `bash -n scripts/entrypoints/run_v3_analysis.sh`
 
 Important correction:
 
@@ -6708,12 +6708,12 @@ Completed corrected Wave82 parked intervention-route audit.
 Artifacts:
 
 - `scripts/v3_wave82_parked_intervention_route_audit.py`
-- `results_v3/wave82_parked_intervention_route_audit/`
+- `phases/v3/results/wave82_parked_intervention_route_audit/`
 
 Validation:
 
 - `py_compile` passed for Wave81 and Wave82 scripts.
-- `bash -n run_v3_analysis.sh` passed.
+- `bash -n scripts/entrypoints/run_v3_analysis.sh` passed.
 - Re-ran Wave81 after fixing missing blocker parsing; missing values no longer
   create literal `nan; nan` blockers.
 - Re-ran Wave82 against the corrected Wave81 table.
@@ -6764,7 +6764,7 @@ continuation.
 
 Artifact:
 
-- `subagents_v3/wave82_cross_disease_residuals.md`
+- `phases/v3/subagents/wave82_cross_disease_residuals.md`
 
 Method:
 
@@ -6809,13 +6809,13 @@ Implemented and ran Wave83 intervention-class-first scan.
 Artifacts:
 
 - `scripts/v3_wave83_intervention_class_first_scan.py`
-- `results_v3/wave83_intervention_class_first_scan/`
-- `run_v3_analysis.sh`
+- `phases/v3/results/wave83_intervention_class_first_scan/`
+- `scripts/entrypoints/run_v3_analysis.sh`
 
 Validation:
 
 - `py_compile` passed for Wave83.
-- `bash -n run_v3_analysis.sh` passed.
+- `bash -n scripts/entrypoints/run_v3_analysis.sh` passed.
 
 Method:
 
@@ -6875,14 +6875,14 @@ Implemented and ran Wave83 intervention-class-first meta-rank.
 Artifacts:
 
 - `scripts/v3_wave83_intervention_class_meta_rank.py`
-- `results_v3/wave83_intervention_class_meta_rank/`
-- `run_v3_analysis.sh`
+- `phases/v3/results/wave83_intervention_class_meta_rank/`
+- `scripts/entrypoints/run_v3_analysis.sh`
 
 Validation:
 
 - `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave83_intervention_class_meta_rank.py`
 - `.venv_v3_py312/bin/python scripts/v3_wave83_intervention_class_meta_rank.py`
-- `bash -n run_v3_analysis.sh`
+- `bash -n scripts/entrypoints/run_v3_analysis.sh`
 
 Important failed intermediate:
 
@@ -6927,8 +6927,8 @@ Wave83 local hardening:
 
 - File edited: `scripts/v3_wave83_intervention_class_first_scan.py`.
 - Added genetics-first survivor sources:
-  - `results_v3/wave34a_genetics_first_target_rescue/genetics_first_candidate_rank.tsv`
-  - `results_v3/wave71_global_survivor_meta_rank/global_survivor_meta_rank.tsv`
+  - `phases/v3/results/wave34a_genetics_first_target_rescue/genetics_first_candidate_rank.tsv`
+  - `phases/v3/results/wave71_global_survivor_meta_rank/global_survivor_meta_rank.tsv`
 - Added explicit branch-closure dictionary for repeatedly rediscovered axes
   (`PTPN2`, `STAT4`, `PTGER4`, `TYK2`, `PTPN22`, `IL2RA`, `GPR65`, `CXCR2`,
   `CD40`, `CTLA4`, etc.).
@@ -6940,7 +6940,7 @@ Verification:
 
 - `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave83_intervention_class_first_scan.py`
 - `.venv_v3_py312/bin/python scripts/v3_wave83_intervention_class_first_scan.py`
-- `bash -n run_v3_analysis.sh`
+- `bash -n scripts/entrypoints/run_v3_analysis.sh`
 
 Wave83 result:
 
@@ -6995,12 +6995,12 @@ Data downloaded and used:
 Code:
 
 - Added `scripts/v3_wave85_external_geo_antitnf_validation.py`.
-- Added the script to `run_v3_analysis.sh`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Verification:
 
 - `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave85_external_geo_antitnf_validation.py`
-- `bash -n run_v3_analysis.sh`
+- `bash -n scripts/entrypoints/run_v3_analysis.sh`
 - `.venv_v3_py312/bin/python scripts/v3_wave85_external_geo_antitnf_validation.py`
 
 Failed/irrelevant command:
@@ -7012,7 +7012,7 @@ Failed/irrelevant command:
 Primary result:
 
 - Output directory:
-  `results_v3/wave85_external_geo_antitnf_validation/`
+  `phases/v3/results/wave85_external_geo_antitnf_validation/`
 - `summary.json` call:
   `WEAK_EXTERNAL_DIRECTIONAL_SUPPORT_NOT_STRATIFICATION_GRADE`.
 - Primary module:
@@ -7049,13 +7049,13 @@ Wave86 and Wave87 completed.
 Wave86:
 
 - Added `scripts/v3_wave86_external_geo_antitnf_gene_driver.py`.
-- Added the script to `run_v3_analysis.sh`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 - Verification:
   - `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave86_external_geo_antitnf_gene_driver.py`
-  - `bash -n run_v3_analysis.sh`
+  - `bash -n scripts/entrypoints/run_v3_analysis.sh`
   - `.venv_v3_py312/bin/python scripts/v3_wave86_external_geo_antitnf_gene_driver.py`
 - Output directory:
-  `results_v3/wave86_external_geo_antitnf_gene_driver/`
+  `phases/v3/results/wave86_external_geo_antitnf_gene_driver/`
 - Result:
   - `45` module genes tested.
   - `16` genes called `GENE_LEVEL_ANTITNF_NONRESPONSE_ANCHOR`.
@@ -7068,7 +7068,7 @@ Wave86:
 Wave87:
 
 - Added `scripts/v3_wave87_cross_system_antitnf_resistance_gene_check.py`.
-- Added the script to `run_v3_analysis.sh`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 - Verification:
   - `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave87_cross_system_antitnf_resistance_gene_check.py`
   - `.venv_v3_py312/bin/python scripts/v3_wave87_cross_system_antitnf_resistance_gene_check.py`
@@ -7077,7 +7077,7 @@ Wave87:
     patched `test_ra_baseline_gene()` to drop non-finite expression values and
     reran cleanly.
 - Output directory:
-  `results_v3/wave87_cross_system_antitnf_resistance_gene_check/`
+  `phases/v3/results/wave87_cross_system_antitnf_resistance_gene_check/`
 - Result:
   - `25` Wave86 anchor/park genes considered.
   - `22` genes had usable RA synovium expression.
@@ -7104,16 +7104,16 @@ Decision:
 Wave89 completed.
 
 - Added `scripts/v3_wave89_psoriasis_gse85034_response_validation.py`.
-- Added the script to `run_v3_analysis.sh`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 - Downloaded and used:
   - `data/raw_v3/wave89_psoriasis_response/GSE85034_series_matrix.txt.gz`
   - `data/raw_v3/wave89_psoriasis_response/GPL10558.annot.gz`
 - Verification:
   - `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave89_psoriasis_gse85034_response_validation.py`
-  - `bash -n run_v3_analysis.sh`
+  - `bash -n scripts/entrypoints/run_v3_analysis.sh`
   - `.venv_v3_py312/bin/python scripts/v3_wave89_psoriasis_gse85034_response_validation.py`
 - Output directory:
-  `results_v3/wave89_psoriasis_gse85034_response/`
+  `phases/v3/results/wave89_psoriasis_gse85034_response/`
 - Design:
   - Reconstructed PASI75 at week 16 from GEO PASI fields.
   - Used baseline lesional skin only (`timepoint: LS`).
@@ -7154,13 +7154,13 @@ Decision:
 Wave90 completed.
 
 - Added `scripts/v3_wave90_lpl_cross_disease_audit.py`.
-- Added the script to `run_v3_analysis.sh`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 - Verification:
   - `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave90_lpl_cross_disease_audit.py`
-  - `bash -n run_v3_analysis.sh`
+  - `bash -n scripts/entrypoints/run_v3_analysis.sh`
   - `.venv_v3_py312/bin/python scripts/v3_wave90_lpl_cross_disease_audit.py`
 - Output directory:
-  `results_v3/wave90_lpl_cross_disease_audit/`
+  `phases/v3/results/wave90_lpl_cross_disease_audit/`
 - Integrated evidence:
   - MS bulk white matter: `GSE111972` full MS white-matter signature.
   - direct donor-level h5ad case-control contrasts.
@@ -7199,13 +7199,13 @@ Wave90 completed.
 Wave91 completed.
 
 - Added `scripts/v3_wave91_lipid_lysosomal_module_intervention_rank.py`.
-- Added the script to `run_v3_analysis.sh`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 - Verification:
   - `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave91_lipid_lysosomal_module_intervention_rank.py`
-  - `bash -n run_v3_analysis.sh`
+  - `bash -n scripts/entrypoints/run_v3_analysis.sh`
   - `.venv_v3_py312/bin/python scripts/v3_wave91_lipid_lysosomal_module_intervention_rank.py`
 - Output directory:
-  `results_v3/wave91_lipid_lysosomal_module_intervention_rank/`
+  `phases/v3/results/wave91_lipid_lysosomal_module_intervention_rank/`
 - Inputs:
   - Wave86 external IBD anti-TNF gene meta-rank.
   - Fresh all-candidate RA synovium baseline response tests from GSE198520.
@@ -7244,13 +7244,13 @@ Wave91 and Wave92 completed.
 Wave91:
 
 - Added `scripts/v3_wave91_lipid_neighborhood_controller_scan.py`.
-- Added the script to `run_v3_analysis.sh`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 - Verification:
   - `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave91_lipid_neighborhood_controller_scan.py`
-  - `bash -n run_v3_analysis.sh`
+  - `bash -n scripts/entrypoints/run_v3_analysis.sh`
   - `.venv_v3_py312/bin/python scripts/v3_wave91_lipid_neighborhood_controller_scan.py`
 - Output directory:
-  `results_v3/wave91_lipid_neighborhood_controller_scan/`
+  `phases/v3/results/wave91_lipid_neighborhood_controller_scan/`
 - Initial run produced NaN scores for candidates with missing direct-context
   rows. Patched the scorer so missing evidence is zero evidence rather than
   undefined score, and added explicit call-order sorting.
@@ -7275,12 +7275,12 @@ Wave91:
 Wave92:
 
 - Added `scripts/v3_wave92_fabp5_prior_art_audit.py`.
-- Added the script to `run_v3_analysis.sh`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 - Verification:
   - `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave92_fabp5_prior_art_audit.py`
   - `.venv_v3_py312/bin/python scripts/v3_wave92_fabp5_prior_art_audit.py`
 - Output directory:
-  `results_v3/wave92_fabp5_prior_art_audit/`
+  `phases/v3/results/wave92_fabp5_prior_art_audit/`
 - Result:
   - Analysis call:
     `FABP5_PRIOR_ART_BLOCKED_FOR_MS_THERAPEUTIC_NOVELTY`.
@@ -7331,12 +7331,12 @@ Script:
 
 Runner:
 
-- Added to `run_v3_analysis.sh`.
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Verification:
 
 - `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave93_gpr183_oxysterol_forcing_test.py`
-- `bash -n run_v3_analysis.sh`
+- `bash -n scripts/entrypoints/run_v3_analysis.sh`
 - `.venv_v3_py312/bin/python scripts/v3_wave93_gpr183_oxysterol_forcing_test.py`
 
 Failed attempt:
@@ -7349,7 +7349,7 @@ Failed attempt:
 
 Output directory:
 
-- `results_v3/wave93_gpr183_oxysterol_forcing_test/`
+- `phases/v3/results/wave93_gpr183_oxysterol_forcing_test/`
 
 Result:
 
@@ -7398,17 +7398,17 @@ Script:
 
 Runner:
 
-- Added to `run_v3_analysis.sh`.
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Verification:
 
 - `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave94_accessible_state_rerank.py`
-- `bash -n run_v3_analysis.sh`
+- `bash -n scripts/entrypoints/run_v3_analysis.sh`
 - `.venv_v3_py312/bin/python scripts/v3_wave94_accessible_state_rerank.py`
 
 Output directory:
 
-- `results_v3/wave94_accessible_state_rerank/`
+- `phases/v3/results/wave94_accessible_state_rerank/`
 
 Initial issue:
 
@@ -7473,10 +7473,10 @@ Reason for the wave:
 Implementation:
 
 - Added `scripts/v3_wave95_cd300_vs_accessible_top_forcing_triage.py`.
-- Added it to `run_v3_analysis.sh`.
+- Added it to `scripts/entrypoints/run_v3_analysis.sh`.
 - Verification:
   - `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave95_cd300_vs_accessible_top_forcing_triage.py`
-  - `bash -n run_v3_analysis.sh`
+  - `bash -n scripts/entrypoints/run_v3_analysis.sh`
   - `.venv_v3_py312/bin/python scripts/v3_wave95_cd300_vs_accessible_top_forcing_triage.py`
 
 Failed attempt / bug caught:
@@ -7491,7 +7491,7 @@ Failed attempt / bug caught:
 Current output:
 
 - Output directory:
-  `results_v3/wave95_cd300_vs_accessible_top_forcing_triage/`
+  `phases/v3/results/wave95_cd300_vs_accessible_top_forcing_triage/`
 - Analysis call:
   `NO_PROMOTABLE_ROUTE_AFTER_CD300_VS_ACCESSIBLE_TOP_FORCING_TRIAGE`.
 - Entities tested: `8`.
@@ -7536,13 +7536,13 @@ Continuation audit and correction after interruption.
 Wave92 controller-route audit:
 
 - Added `scripts/v3_wave92_lipid_state_controller_route_audit.py`.
-- Added the script to `run_v3_analysis.sh`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 - Verification:
   - `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave92_lipid_state_controller_route_audit.py`
-  - `bash -n run_v3_analysis.sh`
+  - `bash -n scripts/entrypoints/run_v3_analysis.sh`
   - `.venv_v3_py312/bin/python scripts/v3_wave92_lipid_state_controller_route_audit.py`
 - Output directory:
-  `results_v3/wave92_lipid_state_controller_route_audit/`
+  `phases/v3/results/wave92_lipid_state_controller_route_audit/`
 - Result:
   - Analysis call: `NO_REOPEN_CONTROLLER_ROUTE`.
   - Routes tested: `15`.
@@ -7591,7 +7591,7 @@ usage-limit interruption. The idle gap is excluded from working-time accounting.
 Files:
 
 - `scripts/v3_wave95_mechanistic_forcing_triage.py`
-- `results_v3/wave95_mechanistic_forcing_triage/`
+- `phases/v3/results/wave95_mechanistic_forcing_triage/`
 
 Corrections before using the output:
 
@@ -7603,7 +7603,7 @@ Corrections before using the output:
   counts as supportive real perturbation evidence.
 - Corrected route prior-art parsing so `NOT_BLOCKED_BUT_*` is not classified
   as prior-art blocked by substring matching.
-- Added the script to `run_v3_analysis.sh`; `bash -n run_v3_analysis.sh`
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`; `bash -n scripts/entrypoints/run_v3_analysis.sh`
   passes.
 
 Result:
@@ -7652,17 +7652,17 @@ Wave96/Wave97 status at resume:
 Sidecar reconciliation:
 
 - The old Wave97 runtime sidecar IDs were not retrievable (`not_found`), but
-  the sidecar files existed in `subagents_v3/`:
+  the sidecar files existed in `phases/v3/subagents/`:
   - `wave97_c15_prior_art_sidecar.md`
   - `wave97_c15_directionality_sidecar.md`
   - `wave97_hostile_critique.md`
 - I also recovered and preserved the earlier Wave95 sidecar returns in
-  `subagents_v3/wave95_sidecar_returns_integrated.md`.
+  `phases/v3/subagents/wave95_sidecar_returns_integrated.md`.
 
 Wave98 CCL20/CCR6 forcing audit:
 
 - Added `scripts/v3_wave98_ccl20_ccr6_forcing_audit.py`.
-- Added the script to `run_v3_analysis.sh`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 - First run failed because `pandas.to_markdown()` requires optional dependency
   `tabulate`, which is not installed/pinned in `.venv_v3_py312`.
 - Patch: replaced `to_markdown()` with a small dependency-free markdown table
@@ -7675,13 +7675,13 @@ Wave98 CCL20/CCR6 forcing audit:
 Verification:
 
 - `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave98_ccl20_ccr6_forcing_audit.py`
-- `bash -n run_v3_analysis.sh`
+- `bash -n scripts/entrypoints/run_v3_analysis.sh`
 - `.venv_v3_py312/bin/python scripts/v3_wave98_ccl20_ccr6_forcing_audit.py`
 
 Current output:
 
 - Output directory:
-  `results_v3/wave98_ccl20_ccr6_forcing_audit/`
+  `phases/v3/results/wave98_ccl20_ccr6_forcing_audit/`
 - Analysis call:
   `NO_GO_CCL20_CCR6_PRIOR_ART_BLOCKED`.
 - Claim-grade gates passed: `1/7`.
@@ -7737,13 +7737,13 @@ Rationale:
 Files:
 
 - `scripts/v3_wave99_litaf_casp4_stress_generator_audit.py`
-- `results_v3/wave99_litaf_casp4_stress_generator_audit/`
-- Added to `run_v3_analysis.sh`.
+- `phases/v3/results/wave99_litaf_casp4_stress_generator_audit/`
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Verification:
 
 - `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave99_litaf_casp4_stress_generator_audit.py`
-- `bash -n run_v3_analysis.sh`
+- `bash -n scripts/entrypoints/run_v3_analysis.sh`
 - `.venv_v3_py312/bin/python scripts/v3_wave99_litaf_casp4_stress_generator_audit.py`
 
 Data used:
@@ -7847,8 +7847,8 @@ Rationale:
 Files:
 
 - `scripts/v3_wave99_endogenous_inflammasome_brake_audit.py`
-- `results_v3/wave99_endogenous_inflammasome_brake_audit/`
-- Added to `run_v3_analysis.sh`.
+- `phases/v3/results/wave99_endogenous_inflammasome_brake_audit/`
+- Added to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Execution notes:
 
@@ -7905,12 +7905,12 @@ Wave96 and Wave97 C15ORF48-state branch integration.
 Wave96:
 
 - Added `scripts/v3_wave96_c15orf48_controller_search.py`.
-- Added the script to `run_v3_analysis.sh`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 - First run failed before producing biological output because the C15 anchor
   merge created suffixed `disease_name` fields; patched the merge to keep the
   original broad contrast metadata.
 - Final run output:
-  `results_v3/wave96_c15orf48_controller_search/`.
+  `phases/v3/results/wave96_c15orf48_controller_search/`.
 - Analysis call: `C15_CONTROLLER_SEARCH_COMPLETED`.
 - Genes ranked: `25175`.
 - Donor-validated genes: `370`.
@@ -7927,9 +7927,9 @@ Wave96:
 Wave97 residual co-state falsification:
 
 - Added `scripts/v3_wave97_c15_residual_costate_falsification.py`.
-- Added the script to `run_v3_analysis.sh`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 - Output:
-  `results_v3/wave97_c15_residual_costate_falsification/`.
+  `phases/v3/results/wave97_c15_residual_costate_falsification/`.
 - Analysis call:
   `C15_RESIDUAL_COSTATE_FALSIFICATION_COMPLETED`.
 - Candidates tested: `13`.
@@ -7990,7 +7990,7 @@ Reason:
 Local code:
 
 - Added `scripts/v3_wave100_camp_restoration_class_audit.py`.
-- Added the script to `run_v3_analysis.sh`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 - Syntax check:
   `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave100_camp_restoration_class_audit.py`.
 - Run:
@@ -7998,10 +7998,10 @@ Local code:
 
 Outputs:
 
-- `results_v3/wave100_camp_restoration_class_audit/camp_restoration_candidate_rank.tsv`
-- `results_v3/wave100_camp_restoration_class_audit/camp_candidate_context_rows.tsv`
-- `results_v3/wave100_camp_restoration_class_audit/summary.json`
-- `results_v3/wave100_camp_restoration_class_audit/REPORT.md`
+- `phases/v3/results/wave100_camp_restoration_class_audit/camp_restoration_candidate_rank.tsv`
+- `phases/v3/results/wave100_camp_restoration_class_audit/camp_candidate_context_rows.tsv`
+- `phases/v3/results/wave100_camp_restoration_class_audit/summary.json`
+- `phases/v3/results/wave100_camp_restoration_class_audit/REPORT.md`
 
 Key numeric result:
 
@@ -8027,12 +8027,12 @@ Key numeric result:
 
 Sidecar integration:
 
-- `subagents_v3/wave100_camp_directionality_model_sidecar.md`:
+- `phases/v3/subagents/wave100_camp_directionality_model_sidecar.md`:
   no finding claimed. It independently ranked `PDE4B` as the best local
   perturbation hypothesis, `PTGER4` as the genetics-rich but direction-conflicted
   comparator, and rejected `ADCY3`, `GPR65`, `ADORA2A/B`, and `HCAR2` from
   current local evidence.
-- `subagents_v3/wave100_camp_prior_art_sidecar.md`:
+- `phases/v3/subagents/wave100_camp_prior_art_sidecar.md`:
   no route is a GO. It found PDE4B/D local cAMP restoration only suitable as a
   prior-art-aware comparator or stratification branch, not as a novel class
   therapeutic claim. It kept `GPR65` as secondary PARK and called `ADCY3`,
@@ -8070,18 +8070,18 @@ Local code:
 - Fixed a report-ordering bug before logging: the first run sorted by call
   string and put hard no-go candidates above parked candidates. I added explicit
   call priority and filled missing scoring fields with zero.
-- Added the script to `run_v3_analysis.sh`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 - Syntax checks:
   `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave101_accessible_survivor_forcing_triage.py`
-  and `bash -n run_v3_analysis.sh`.
+  and `bash -n scripts/entrypoints/run_v3_analysis.sh`.
 - Run:
   `.venv_v3_py312/bin/python scripts/v3_wave101_accessible_survivor_forcing_triage.py`.
 
 Outputs:
 
-- `results_v3/wave101_accessible_survivor_forcing_triage/accessible_survivor_forcing_rank.tsv`
-- `results_v3/wave101_accessible_survivor_forcing_triage/summary.json`
-- `results_v3/wave101_accessible_survivor_forcing_triage/REPORT.md`
+- `phases/v3/results/wave101_accessible_survivor_forcing_triage/accessible_survivor_forcing_rank.tsv`
+- `phases/v3/results/wave101_accessible_survivor_forcing_triage/summary.json`
+- `phases/v3/results/wave101_accessible_survivor_forcing_triage/REPORT.md`
 
 Key numeric result:
 
@@ -8137,15 +8137,15 @@ Reason:
 Local code and outputs:
 
 - Added sidecar:
-  `subagents_v3/wave101_accessible_survivor_mechanism_sidecar.md`.
+  `phases/v3/subagents/wave101_accessible_survivor_mechanism_sidecar.md`.
 - Added and ran:
   `scripts/v3_wave102_sel1l3_fxyd5_residual_controller_test.py`.
-- Added the script to `run_v3_analysis.sh`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 - Syntax checks:
   `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave102_sel1l3_fxyd5_residual_controller_test.py`
-  and `bash -n run_v3_analysis.sh`.
+  and `bash -n scripts/entrypoints/run_v3_analysis.sh`.
 - Output directory:
-  `results_v3/wave102_sel1l3_fxyd5_residual_controller_test/`.
+  `phases/v3/results/wave102_sel1l3_fxyd5_residual_controller_test/`.
 
 Key result:
 
@@ -8192,22 +8192,22 @@ Reason:
 Local code:
 
 - Added `scripts/v3_wave102_accessible_survivor_residual_compartment_test.py`.
-- Added the script to `run_v3_analysis.sh`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 - Syntax checks:
   `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave102_accessible_survivor_residual_compartment_test.py`
-  and `bash -n run_v3_analysis.sh`.
+  and `bash -n scripts/entrypoints/run_v3_analysis.sh`.
 - Run:
   `.venv_v3_py312/bin/python scripts/v3_wave102_accessible_survivor_residual_compartment_test.py`.
 
 Outputs:
 
-- `results_v3/wave102_accessible_survivor_residual_compartment_test/accessible_survivor_donor_scores.tsv`
-- `results_v3/wave102_accessible_survivor_residual_compartment_test/accessible_survivor_gene_presence.tsv`
-- `results_v3/wave102_accessible_survivor_residual_compartment_test/accessible_survivor_raw_tests.tsv`
-- `results_v3/wave102_accessible_survivor_residual_compartment_test/accessible_survivor_residual_tests.tsv`
-- `results_v3/wave102_accessible_survivor_residual_compartment_test/accessible_survivor_residual_summary.tsv`
-- `results_v3/wave102_accessible_survivor_residual_compartment_test/summary.json`
-- `results_v3/wave102_accessible_survivor_residual_compartment_test/REPORT.md`
+- `phases/v3/results/wave102_accessible_survivor_residual_compartment_test/accessible_survivor_donor_scores.tsv`
+- `phases/v3/results/wave102_accessible_survivor_residual_compartment_test/accessible_survivor_gene_presence.tsv`
+- `phases/v3/results/wave102_accessible_survivor_residual_compartment_test/accessible_survivor_raw_tests.tsv`
+- `phases/v3/results/wave102_accessible_survivor_residual_compartment_test/accessible_survivor_residual_tests.tsv`
+- `phases/v3/results/wave102_accessible_survivor_residual_compartment_test/accessible_survivor_residual_summary.tsv`
+- `phases/v3/results/wave102_accessible_survivor_residual_compartment_test/summary.json`
+- `phases/v3/results/wave102_accessible_survivor_residual_compartment_test/REPORT.md`
 
 Key numeric result:
 
@@ -8260,18 +8260,18 @@ Reason:
 Local code:
 
 - Added `scripts/v3_wave103_fc_receptor_efferocytosis_route_audit.py`.
-- Added the script to `run_v3_analysis.sh`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 - Syntax checks:
   `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave103_fc_receptor_efferocytosis_route_audit.py`
-  and `bash -n run_v3_analysis.sh`.
+  and `bash -n scripts/entrypoints/run_v3_analysis.sh`.
 - Run:
   `.venv_v3_py312/bin/python scripts/v3_wave103_fc_receptor_efferocytosis_route_audit.py`.
 
 Outputs:
 
-- `results_v3/wave103_fc_receptor_efferocytosis_route_audit/fc_efferocytosis_route_rank.tsv`
-- `results_v3/wave103_fc_receptor_efferocytosis_route_audit/summary.json`
-- `results_v3/wave103_fc_receptor_efferocytosis_route_audit/REPORT.md`
+- `phases/v3/results/wave103_fc_receptor_efferocytosis_route_audit/fc_efferocytosis_route_rank.tsv`
+- `phases/v3/results/wave103_fc_receptor_efferocytosis_route_audit/summary.json`
+- `phases/v3/results/wave103_fc_receptor_efferocytosis_route_audit/REPORT.md`
 
 Key numeric result:
 
@@ -8321,24 +8321,24 @@ Reason:
 Local code:
 
 - Added `scripts/v3_wave104_accessible_survivor_niche_controller_test.py`.
-- Added the script to `run_v3_analysis.sh`.
+- Added the script to `scripts/entrypoints/run_v3_analysis.sh`.
 - First implementation problem:
   full covariate adjustment over-parameterized small IBD paired-donor tests,
   producing `NaN` adjusted estimates. I patched the script to use adaptive
   covariate trimming with explicit `covariate_mode`.
 - Syntax checks:
   `.venv_v3_py312/bin/python -m py_compile scripts/v3_wave104_accessible_survivor_niche_controller_test.py`
-  and `bash -n run_v3_analysis.sh`.
+  and `bash -n scripts/entrypoints/run_v3_analysis.sh`.
 - Run:
   `.venv_v3_py312/bin/python scripts/v3_wave104_accessible_survivor_niche_controller_test.py`.
 
 Outputs:
 
-- `results_v3/wave104_accessible_survivor_niche_controller_test/matched_niche_pairs.tsv`
-- `results_v3/wave104_accessible_survivor_niche_controller_test/niche_controller_tests.tsv`
-- `results_v3/wave104_accessible_survivor_niche_controller_test/niche_controller_summary.tsv`
-- `results_v3/wave104_accessible_survivor_niche_controller_test/summary.json`
-- `results_v3/wave104_accessible_survivor_niche_controller_test/REPORT.md`
+- `phases/v3/results/wave104_accessible_survivor_niche_controller_test/matched_niche_pairs.tsv`
+- `phases/v3/results/wave104_accessible_survivor_niche_controller_test/niche_controller_tests.tsv`
+- `phases/v3/results/wave104_accessible_survivor_niche_controller_test/niche_controller_summary.tsv`
+- `phases/v3/results/wave104_accessible_survivor_niche_controller_test/summary.json`
+- `phases/v3/results/wave104_accessible_survivor_niche_controller_test/REPORT.md`
 
 Key numeric result:
 
@@ -8405,7 +8405,7 @@ External checks:
 
 Output:
 
-- `subagents_v3/wave102_sel1l3_fxyd5_prior_art_sidecar.md`.
+- `phases/v3/subagents/wave102_sel1l3_fxyd5_prior_art_sidecar.md`.
 
 Key result:
 
@@ -8460,7 +8460,7 @@ Local checks:
 Public checks:
 
 - Saved raw query outputs to
-  `results_v3/wave102_sel1l3_fxyd5_perturbation_model_sidecar/`.
+  `phases/v3/results/wave102_sel1l3_fxyd5_perturbation_model_sidecar/`.
 - NCBI GDS returned `0` perturbation datasets for `SEL1L3`, `FXYD5`, and
   dysadherin.
 - LINCS Data Portal entity API returned `0` documents for both genes; SigCom
@@ -8476,7 +8476,7 @@ Public checks:
 
 Output:
 
-- `subagents_v3/wave102_sel1l3_fxyd5_perturbation_model_sidecar.md`
+- `phases/v3/subagents/wave102_sel1l3_fxyd5_perturbation_model_sidecar.md`
 
 Decision:
 
@@ -8492,13 +8492,13 @@ Integrated Wave102 `SEL1L3`/`FXYD5` convergence.
 Inputs:
 
 - Residual compartment test:
-  `results_v3/wave102_accessible_survivor_residual_compartment_test/REPORT.md`
+  `phases/v3/results/wave102_accessible_survivor_residual_compartment_test/REPORT.md`
 - Prior-art sidecar:
-  `subagents_v3/wave102_sel1l3_fxyd5_prior_art_sidecar.md`
+  `phases/v3/subagents/wave102_sel1l3_fxyd5_prior_art_sidecar.md`
 - Mechanism/modality sidecar:
-  `subagents_v3/wave102_sel1l3_fxyd5_mechanism_modality_sidecar.md`
+  `phases/v3/subagents/wave102_sel1l3_fxyd5_mechanism_modality_sidecar.md`
 - Perturbation/model sidecar:
-  `subagents_v3/wave102_sel1l3_fxyd5_perturbation_model_sidecar.md`
+  `phases/v3/subagents/wave102_sel1l3_fxyd5_perturbation_model_sidecar.md`
 
 Output:
 
@@ -8517,7 +8517,7 @@ Closed Wave103 intervention-first successor triage.
 
 Output:
 
-- `results_v3/wave103_intervention_first_successor_triage/REPORT.md`
+- `phases/v3/results/wave103_intervention_first_successor_triage/REPORT.md`
 - `CONVERGENCE_CHECK_60.md`
 
 Decision:
@@ -8537,7 +8537,7 @@ Ran Wave104 genetics-first lipid-state convergence audit.
 Output:
 
 - `scripts/v3_wave104_genetics_first_lipid_state_convergence_audit.py`
-- `results_v3/wave104_genetics_first_lipid_state_convergence_audit/REPORT.md`
+- `phases/v3/results/wave104_genetics_first_lipid_state_convergence_audit/REPORT.md`
 
 Local result:
 
@@ -8569,7 +8569,7 @@ Completed Wave104 genetics/colocalization sidecar.
 
 Output:
 
-- `subagents_v3/wave104_genetics_coloc_sidecar.md`
+- `phases/v3/subagents/wave104_genetics_coloc_sidecar.md`
 
 Result:
 
@@ -8589,7 +8589,7 @@ Ran Wave105 context decomposition for Wave104 sidecar genes.
 Output:
 
 - `scripts/v3_wave105_wave104_candidate_context_decomposition.py`
-- `results_v3/wave105_wave104_candidate_context_decomposition/REPORT.md`
+- `phases/v3/results/wave105_wave104_candidate_context_decomposition/REPORT.md`
 
 Result:
 
@@ -8613,7 +8613,7 @@ active working time.
 
 Reconciled accessible-survivor sidecar state:
 
-- `subagents_v3/wave105_cd82_prior_art_sidecar.md` returned.
+- `phases/v3/subagents/wave105_cd82_prior_art_sidecar.md` returned.
   - Call:
     `PARK_AS_NICHE_BIOMARKER_OR_MECHANISM_BRANCH_NO_GO_THERAPEUTIC_CD82`.
   - Direct CD82 therapeutic promotion is blocked by close colitis/NLRP3 prior
@@ -8621,7 +8621,7 @@ Reconciled accessible-survivor sidecar state:
   - The narrow Wave104 claim, tissue-resident CD82 predicting matched myeloid
     lipid-lysosomal state across autoimmune tissues, was not found as directly
     published by the sidecar.
-- `subagents_v3/wave101_accessible_survivor_prior_art_sidecar.md` returned.
+- `phases/v3/subagents/wave101_accessible_survivor_prior_art_sidecar.md` returned.
   - Verdict: no Wave101 accessible-survivor candidate is promotable as a
     therapeutic target. `CD82`, `SEL1L3`, `APOC1`, and `LAPTM5` remain
     marker/readout/comparator nodes; `FXYD5` remains only a bounded wet-lab
@@ -8634,7 +8634,7 @@ Ran Wave105 CD82 niche robustness audit.
 Output:
 
 - `scripts/v3_wave105_cd82_niche_robustness_audit.py`
-- `results_v3/wave105_cd82_niche_robustness_audit/REPORT.md`
+- `phases/v3/results/wave105_cd82_niche_robustness_audit/REPORT.md`
 
 First-pass bug/sanity issue:
 
@@ -8685,7 +8685,7 @@ Integrated CD82 mechanism/modality sidecar.
 
 Output:
 
-- `subagents_v3/wave105_cd82_mechanism_modality_sidecar.md`
+- `phases/v3/subagents/wave105_cd82_mechanism_modality_sidecar.md`
 
 Result:
 
@@ -8708,7 +8708,7 @@ audit.
 
 Sidecar:
 
-- `subagents_v3/wave105_cd82_hostile_methods_review.md`
+- `phases/v3/subagents/wave105_cd82_hostile_methods_review.md`
 
 Hostile review conclusion:
 
@@ -8722,7 +8722,7 @@ Hostile review conclusion:
 Wave106 output:
 
 - `scripts/v3_wave106_cd82_specificity_confounder_audit.py`
-- `results_v3/wave106_cd82_specificity_confounder_audit/REPORT.md`
+- `phases/v3/results/wave106_cd82_specificity_confounder_audit/REPORT.md`
 
 Wave106 result:
 
@@ -8754,7 +8754,7 @@ Ran Wave107 CD82 multiplicity and disease-collapse audit.
 Output:
 
 - `scripts/v3_wave107_cd82_multiplicity_disease_collapse_audit.py`
-- `results_v3/wave107_cd82_multiplicity_disease_collapse_audit/REPORT.md`
+- `phases/v3/results/wave107_cd82_multiplicity_disease_collapse_audit/REPORT.md`
 
 Result:
 
@@ -8800,9 +8800,9 @@ Motivation:
 Outputs:
 
 - `scripts/v3_wave108_mfge8_debris_opsonin_safety_window_model.py`
-- `results_v3/wave108_mfge8_debris_opsonin_safety_window_model/REPORT.md`
+- `phases/v3/results/wave108_mfge8_debris_opsonin_safety_window_model/REPORT.md`
 - `scripts/v3_wave109_mfge8_threshold_sensitivity_audit.py`
-- `results_v3/wave109_mfge8_threshold_sensitivity_audit/REPORT.md`
+- `phases/v3/results/wave109_mfge8_threshold_sensitivity_audit/REPORT.md`
 
 Operational note:
 
@@ -8850,8 +8850,8 @@ Ran Wave110 route map and attempted Wave111 GPR183 spatial-proxy forcing test.
 Wave110 outputs:
 
 - `scripts/v3_wave110_post_closure_intervention_route_map.py`
-- `results_v3/wave110_post_closure_intervention_route_map/REPORT.md`
-- Sidecar: `subagents_v3/wave110_overlooked_intervention_route_scout.md`
+- `phases/v3/results/wave110_post_closure_intervention_route_map/REPORT.md`
+- Sidecar: `phases/v3/subagents/wave110_overlooked_intervention_route_scout.md`
 
 Wave110 convergence:
 
@@ -8862,7 +8862,7 @@ Wave110 convergence:
 Wave111 outputs:
 
 - `scripts/v3_wave111_gpr183_spatial_proxy_forcing_test.py`
-- `results_v3/wave111_gpr183_spatial_proxy_forcing_test/REPORT.md`
+- `phases/v3/results/wave111_gpr183_spatial_proxy_forcing_test/REPORT.md`
 
 Wave111 result:
 
@@ -8894,7 +8894,7 @@ Ran Wave112 GPR183 compartment-contrast fallback.
 Output:
 
 - `scripts/v3_wave112_gpr183_compartment_contrast_fallback.py`
-- `results_v3/wave112_gpr183_compartment_contrast_fallback/REPORT.md`
+- `phases/v3/results/wave112_gpr183_compartment_contrast_fallback/REPORT.md`
 
 Result:
 
@@ -8926,7 +8926,7 @@ Ran Wave113 PSAP recurrence/specificity audit.
 Output:
 
 - `scripts/v3_wave113_psap_recurrence_specificity_audit.py`
-- `results_v3/wave113_psap_recurrence_specificity_audit/REPORT.md`
+- `phases/v3/results/wave113_psap_recurrence_specificity_audit/REPORT.md`
 
 Sanity correction:
 
@@ -8964,9 +8964,9 @@ Ran Wave114 P2RX7 target-level closure audit after interruption/resume.
 Output:
 
 - `scripts/v3_wave114_p2rx7_target_level_closure_audit.py`
-- `results_v3/wave114_p2rx7_target_level_closure_audit/REPORT.md`
-- `results_v3/wave114_p2rx7_target_level_closure_audit/summary.json`
-- `results_v3/wave114_p2rx7_target_level_closure_audit/p2rx7_closure_evidence.tsv`
+- `phases/v3/results/wave114_p2rx7_target_level_closure_audit/REPORT.md`
+- `phases/v3/results/wave114_p2rx7_target_level_closure_audit/summary.json`
+- `phases/v3/results/wave114_p2rx7_target_level_closure_audit/p2rx7_closure_evidence.tsv`
 
 Execution note:
 
@@ -9003,11 +9003,11 @@ Ran Wave115 SPNS1 controller falsification audit.
 Output:
 
 - `scripts/v3_wave115_spns1_controller_falsification_audit.py`
-- `results_v3/wave115_spns1_controller_falsification_audit/REPORT.md`
-- `results_v3/wave115_spns1_controller_falsification_audit/summary.json`
-- `results_v3/wave115_spns1_controller_falsification_audit/spns1_case_only_partial_controller_tests.tsv`
-- `results_v3/wave115_spns1_controller_falsification_audit/spns1_controller_disease_summary.tsv`
-- `results_v3/wave115_spns1_controller_falsification_audit/spns1_external_gate_evidence.tsv`
+- `phases/v3/results/wave115_spns1_controller_falsification_audit/REPORT.md`
+- `phases/v3/results/wave115_spns1_controller_falsification_audit/summary.json`
+- `phases/v3/results/wave115_spns1_controller_falsification_audit/spns1_case_only_partial_controller_tests.tsv`
+- `phases/v3/results/wave115_spns1_controller_falsification_audit/spns1_controller_disease_summary.tsv`
+- `phases/v3/results/wave115_spns1_controller_falsification_audit/spns1_external_gate_evidence.tsv`
 
 Result:
 
@@ -9050,9 +9050,9 @@ Ran Wave116 closure-aware route rerank.
 Output:
 
 - `scripts/v3_wave116_closure_aware_route_rerank.py`
-- `results_v3/wave116_closure_aware_route_rerank/REPORT.md`
-- `results_v3/wave116_closure_aware_route_rerank/summary.json`
-- `results_v3/wave116_closure_aware_route_rerank/closure_aware_route_universe.tsv`
+- `phases/v3/results/wave116_closure_aware_route_rerank/REPORT.md`
+- `phases/v3/results/wave116_closure_aware_route_rerank/summary.json`
+- `phases/v3/results/wave116_closure_aware_route_rerank/closure_aware_route_universe.tsv`
 
 Result:
 
@@ -9082,11 +9082,11 @@ Ran Wave117 PARK7/DJ-1 stress-route forcing test.
 Output:
 
 - `scripts/v3_wave117_park7_stress_route_forcing_test.py`
-- `results_v3/wave117_park7_stress_route_forcing_test/REPORT.md`
-- `results_v3/wave117_park7_stress_route_forcing_test/summary.json`
-- `results_v3/wave117_park7_stress_route_forcing_test/park7_gate_evidence.tsv`
-- `results_v3/wave117_park7_stress_route_forcing_test/park7_broad_contexts.tsv`
-- `results_v3/wave117_park7_stress_route_forcing_test/park7_broad_disease_summary.tsv`
+- `phases/v3/results/wave117_park7_stress_route_forcing_test/REPORT.md`
+- `phases/v3/results/wave117_park7_stress_route_forcing_test/summary.json`
+- `phases/v3/results/wave117_park7_stress_route_forcing_test/park7_gate_evidence.tsv`
+- `phases/v3/results/wave117_park7_stress_route_forcing_test/park7_broad_contexts.tsv`
+- `phases/v3/results/wave117_park7_stress_route_forcing_test/park7_broad_disease_summary.tsv`
 
 Result:
 
@@ -9121,10 +9121,10 @@ Ran Wave118 DAB2/CD9 efferocytosis directionality audit.
 Output:
 
 - `scripts/v3_wave118_dab2_cd9_efferocytosis_directionality_audit.py`
-- `results_v3/wave118_dab2_cd9_efferocytosis_directionality_audit/REPORT.md`
-- `results_v3/wave118_dab2_cd9_efferocytosis_directionality_audit/summary.json`
-- `results_v3/wave118_dab2_cd9_efferocytosis_directionality_audit/dab2_cd9_directionality_decisions.tsv`
-- `results_v3/wave118_dab2_cd9_efferocytosis_directionality_audit/dab2_cd9_evidence_rows.tsv`
+- `phases/v3/results/wave118_dab2_cd9_efferocytosis_directionality_audit/REPORT.md`
+- `phases/v3/results/wave118_dab2_cd9_efferocytosis_directionality_audit/summary.json`
+- `phases/v3/results/wave118_dab2_cd9_efferocytosis_directionality_audit/dab2_cd9_directionality_decisions.tsv`
+- `phases/v3/results/wave118_dab2_cd9_efferocytosis_directionality_audit/dab2_cd9_evidence_rows.tsv`
 
 Result:
 
@@ -9148,12 +9148,12 @@ Prefiltered BLK after closure-aware rerank selected it.
 
 Evidence inspected:
 
-- `results_v3/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv`
-- `results_v3/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv`
-- `results_v3/wave81_perturbation_first_rescue/perturbation_first_ms_rows.tsv`
-- `results_v3/wave81_perturbation_first_rescue/perturbation_first_broad_summary.tsv`
-- `results_v3/wave81_perturbation_first_rescue/perturbation_first_ibd_response_summary.tsv`
-- `results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv`
+- `phases/v3/results/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv`
+- `phases/v3/results/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv`
+- `phases/v3/results/wave81_perturbation_first_rescue/perturbation_first_ms_rows.tsv`
+- `phases/v3/results/wave81_perturbation_first_rescue/perturbation_first_broad_summary.tsv`
+- `phases/v3/results/wave81_perturbation_first_rescue/perturbation_first_ibd_response_summary.tsv`
+- `phases/v3/results/wave62_opentargets_target_resolution/target_resolution_summary.tsv`
 
 Result:
 
@@ -9177,11 +9177,11 @@ Prefiltered LRRC61 after closure-aware rerank selected it.
 
 Evidence inspected:
 
-- `results_v3/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv`
-- `results_v3/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv`
-- `results_v3/wave81_perturbation_first_rescue/perturbation_first_ms_rows.tsv`
-- `results_v3/wave81_perturbation_first_rescue/perturbation_first_broad_summary.tsv`
-- `results_v3/wave81_perturbation_first_rescue/perturbation_first_ibd_response_summary.tsv`
+- `phases/v3/results/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv`
+- `phases/v3/results/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv`
+- `phases/v3/results/wave81_perturbation_first_rescue/perturbation_first_ms_rows.tsv`
+- `phases/v3/results/wave81_perturbation_first_rescue/perturbation_first_broad_summary.tsv`
+- `phases/v3/results/wave81_perturbation_first_rescue/perturbation_first_ibd_response_summary.tsv`
 
 Result:
 
@@ -9205,10 +9205,10 @@ Ran Wave119 batch prefilter for remaining Wave110 survivors.
 Output:
 
 - `scripts/v3_wave119_wave110_remaining_survivor_prefilter.py`
-- `results_v3/wave119_wave110_remaining_survivor_prefilter/REPORT.md`
-- `results_v3/wave119_wave110_remaining_survivor_prefilter/summary.json`
-- `results_v3/wave119_wave110_remaining_survivor_prefilter/remaining_wave110_prefilter_decisions.tsv`
-- `results_v3/wave119_wave110_remaining_survivor_prefilter/remaining_wave110_prefilter_evidence.tsv`
+- `phases/v3/results/wave119_wave110_remaining_survivor_prefilter/REPORT.md`
+- `phases/v3/results/wave119_wave110_remaining_survivor_prefilter/summary.json`
+- `phases/v3/results/wave119_wave110_remaining_survivor_prefilter/remaining_wave110_prefilter_decisions.tsv`
+- `phases/v3/results/wave119_wave110_remaining_survivor_prefilter/remaining_wave110_prefilter_evidence.tsv`
 
 Result:
 
@@ -9241,9 +9241,9 @@ Script:
 
 Outputs:
 
-- `results_v3/wave120_ephx2_target_pd_coherence_closure/summary.json`
-- `results_v3/wave120_ephx2_target_pd_coherence_closure/ephx2_target_pd_gates.tsv`
-- `results_v3/wave120_ephx2_target_pd_coherence_closure/REPORT.md`
+- `phases/v3/results/wave120_ephx2_target_pd_coherence_closure/summary.json`
+- `phases/v3/results/wave120_ephx2_target_pd_coherence_closure/ephx2_target_pd_gates.tsv`
+- `phases/v3/results/wave120_ephx2_target_pd_coherence_closure/REPORT.md`
 
 Result:
 
@@ -9350,9 +9350,9 @@ whether either route could be computationally deepened.
 
 Outputs:
 
-- `results_v3/wave121_final_wetlab_only_route_closure/summary.json`
-- `results_v3/wave121_final_wetlab_only_route_closure/wetlab_only_route_decisions.tsv`
-- `results_v3/wave121_final_wetlab_only_route_closure/REPORT.md`
+- `phases/v3/results/wave121_final_wetlab_only_route_closure/summary.json`
+- `phases/v3/results/wave121_final_wetlab_only_route_closure/wetlab_only_route_decisions.tsv`
+- `phases/v3/results/wave121_final_wetlab_only_route_closure/REPORT.md`
 
 Result:
 
@@ -9457,9 +9457,9 @@ Script:
 
 Outputs:
 
-- `results_v3/wave123_sidecar_candidate_kill_audit/summary.json`
-- `results_v3/wave123_sidecar_candidate_kill_audit/sidecar_candidate_kill_decisions.tsv`
-- `results_v3/wave123_sidecar_candidate_kill_audit/REPORT.md`
+- `phases/v3/results/wave123_sidecar_candidate_kill_audit/summary.json`
+- `phases/v3/results/wave123_sidecar_candidate_kill_audit/sidecar_candidate_kill_decisions.tsv`
+- `phases/v3/results/wave123_sidecar_candidate_kill_audit/REPORT.md`
 
 Result:
 
@@ -9485,9 +9485,9 @@ Script:
 
 Outputs:
 
-- `results_v3/wave124_ncf2_nox2_strict_closure_audit/summary.json`
-- `results_v3/wave124_ncf2_nox2_strict_closure_audit/ncf2_nox2_strict_gates.tsv`
-- `results_v3/wave124_ncf2_nox2_strict_closure_audit/REPORT.md`
+- `phases/v3/results/wave124_ncf2_nox2_strict_closure_audit/summary.json`
+- `phases/v3/results/wave124_ncf2_nox2_strict_closure_audit/ncf2_nox2_strict_gates.tsv`
+- `phases/v3/results/wave124_ncf2_nox2_strict_closure_audit/REPORT.md`
 
 Result:
 
@@ -9518,10 +9518,10 @@ Script:
 
 Outputs:
 
-- `results_v3/wave125_mechanism_class_failure_map/summary.json`
-- `results_v3/wave125_mechanism_class_failure_map/failure_mode_summary.tsv`
-- `results_v3/wave125_mechanism_class_failure_map/mechanism_class_failure_summary.tsv`
-- `results_v3/wave125_mechanism_class_failure_map/pivot_recommendations.tsv`
+- `phases/v3/results/wave125_mechanism_class_failure_map/summary.json`
+- `phases/v3/results/wave125_mechanism_class_failure_map/failure_mode_summary.tsv`
+- `phases/v3/results/wave125_mechanism_class_failure_map/mechanism_class_failure_summary.tsv`
+- `phases/v3/results/wave125_mechanism_class_failure_map/pivot_recommendations.tsv`
 
 Result:
 
@@ -9549,9 +9549,9 @@ Script:
 
 Outputs:
 
-- `results_v3/wave126_l1000_upstream_regulator_reopener/summary.json`
-- `results_v3/wave126_l1000_upstream_regulator_reopener/l1000_upstream_regulator_decisions.tsv`
-- `results_v3/wave126_l1000_upstream_regulator_reopener/REPORT.md`
+- `phases/v3/results/wave126_l1000_upstream_regulator_reopener/summary.json`
+- `phases/v3/results/wave126_l1000_upstream_regulator_reopener/l1000_upstream_regulator_decisions.tsv`
+- `phases/v3/results/wave126_l1000_upstream_regulator_reopener/REPORT.md`
 
 Result:
 
@@ -9581,7 +9581,7 @@ the branch with an unresolved loophole.
 
 Artifact:
 
-- `literature_v3/wave127_external_l1000_unknown_lookup.md`
+- `phases/v3/literature/wave127_external_l1000_unknown_lookup.md`
 
 Queries:
 
@@ -9611,9 +9611,9 @@ Script:
 
 Outputs:
 
-- `results_v3/wave128_genetics_first_reopener/summary.json`
-- `results_v3/wave128_genetics_first_reopener/genetics_first_reopener_decisions.tsv`
-- `results_v3/wave128_genetics_first_reopener/REPORT.md`
+- `phases/v3/results/wave128_genetics_first_reopener/summary.json`
+- `phases/v3/results/wave128_genetics_first_reopener/genetics_first_reopener_decisions.tsv`
+- `phases/v3/results/wave128_genetics_first_reopener/REPORT.md`
 
 Result:
 
@@ -9645,9 +9645,9 @@ Script:
 
 Outputs:
 
-- `results_v3/wave129_response_stratification_salvage/summary.json`
-- `results_v3/wave129_response_stratification_salvage/response_stratification_salvage_decisions.tsv`
-- `results_v3/wave129_response_stratification_salvage/REPORT.md`
+- `phases/v3/results/wave129_response_stratification_salvage/summary.json`
+- `phases/v3/results/wave129_response_stratification_salvage/response_stratification_salvage_decisions.tsv`
+- `phases/v3/results/wave129_response_stratification_salvage/REPORT.md`
 
 Result:
 
@@ -9684,8 +9684,8 @@ Subagent state:
 Wave130 implemented and completed:
 
 - Script: `scripts/v3_wave130_ms_treatment_response_audit.py`
-- Output: `results_v3/wave130_ms_treatment_response_audit/`
-- Runner updated: `run_v3_analysis.sh`
+- Output: `phases/v3/results/wave130_ms_treatment_response_audit/`
+- Runner updated: `scripts/entrypoints/run_v3_analysis.sh`
 
 Important debugging:
 
@@ -9733,8 +9733,8 @@ Decision:
 Wave131 implemented and completed:
 
 - Script: `scripts/v3_wave131_class_route_forcing_audit.py`
-- Output: `results_v3/wave131_class_route_forcing_audit/`
-- Runner updated: `run_v3_analysis.sh`
+- Output: `phases/v3/results/wave131_class_route_forcing_audit/`
+- Runner updated: `scripts/entrypoints/run_v3_analysis.sh`
 
 Branch call:
 
@@ -9764,8 +9764,8 @@ Decision:
 Wave132 implemented and completed:
 
 - Script: `scripts/v3_wave132_gpr183_post_wave130_closure.py`
-- Output: `results_v3/wave132_gpr183_post_wave130_closure/`
-- Runner updated: `run_v3_analysis.sh`
+- Output: `phases/v3/results/wave132_gpr183_post_wave130_closure/`
+- Runner updated: `scripts/entrypoints/run_v3_analysis.sh`
 
 Branch call:
 
@@ -9804,7 +9804,7 @@ Hostile critique integration:
 Wave133 implemented and completed:
 
 - Script: `scripts/v3_wave133_closure_hygiene_correction.py`
-- Output: `results_v3/wave133_closure_hygiene_correction/`
+- Output: `phases/v3/results/wave133_closure_hygiene_correction/`
 - Branch call: `HYGIENE_CORRECTION_REOPENS_ROUTE`
 - Corrected Wave122 testable routes: 1 (`DAP`)
 - Corrected Wave122 exact-closure restorations: 22 genes, all remaining
@@ -9820,7 +9820,7 @@ Immediate concern:
 Wave134 implemented and completed:
 
 - Script: `scripts/v3_wave134_dap_strict_reopen_audit.py`
-- Output: `results_v3/wave134_dap_strict_reopen_audit/`
+- Output: `phases/v3/results/wave134_dap_strict_reopen_audit/`
 - Branch call: `NO_REOPEN_DAP_HYGIENE_ARTIFACT`
 
 Wave134 critical failures:
@@ -9847,7 +9847,7 @@ Decision:
 Wave135 implemented and completed:
 
 - Script: `scripts/v3_wave135_lipid_flux_ms_response_sensitivity.py`
-- Output: `results_v3/wave135_lipid_flux_ms_response_sensitivity/`
+- Output: `phases/v3/results/wave135_lipid_flux_ms_response_sensitivity/`
 - Branch call: `LIPID_FLUX_MS_SMALL_N_SIGNAL_NOT_PROMOTABLE`
 
 Tested:
@@ -9877,7 +9877,7 @@ Interpretation:
 Wave136 implemented and completed:
 
 - Script: `scripts/v3_wave136_leukotriene_axis_strict_route_audit.py`
-- Output: `results_v3/wave136_leukotriene_axis_strict_route_audit/`
+- Output: `phases/v3/results/wave136_leukotriene_axis_strict_route_audit/`
 - Branch call: `NO_REOPEN_LEUKOTRIENE_AXIS_SMALL_N_ONLY`
 
 Critical failures:
@@ -9901,7 +9901,7 @@ Decision:
 Wave137 implemented and completed:
 
 - Script: `scripts/v3_wave137_gpr183_ligand_axis_fair_closure.py`
-- Output: `results_v3/wave137_gpr183_ligand_axis_fair_closure/`
+- Output: `phases/v3/results/wave137_gpr183_ligand_axis_fair_closure/`
 - Branch call: `NO_REOPEN_GPR183_FAIR_CLOSURE`
 
 Evidence classes:
@@ -9924,7 +9924,7 @@ Decision:
 Wave138 implemented and completed:
 
 - Script: `scripts/v3_wave138_postcritique_residual_fresh_route_map.py`
-- Output: `results_v3/wave138_postcritique_residual_fresh_route_map/`
+- Output: `phases/v3/results/wave138_postcritique_residual_fresh_route_map/`
 - Branch call: `NO_STRICT_FRESH_ROUTE_AFTER_POSTCRITIQUE_FILTERS`
 
 Result:
@@ -9993,7 +9993,7 @@ Decision:
 Wave139 implemented and completed:
 
 - Script: `scripts/v3_wave139_residual_marker_falsification_integrator.py`
-- Output: `results_v3/wave139_residual_marker_falsification_integrator/`
+- Output: `phases/v3/results/wave139_residual_marker_falsification_integrator/`
 - Branch call: `NO_RESIDUAL_MARKER_PROMOTABLE`
 
 Result:
@@ -10018,13 +10018,13 @@ Decision:
 
 Action:
 - Added `scripts/v3_wave140_target_first_pivot_audit.py` to
-  `run_v3_analysis.sh`.
+  `scripts/entrypoints/run_v3_analysis.sh`.
 - Ran Wave140 after the Wave133 closure-hygiene correction and Wave139
   residual-marker integrator.
 
 Result:
 - Output directory:
-  `results_v3/wave140_target_first_pivot_audit/`.
+  `phases/v3/results/wave140_target_first_pivot_audit/`.
 - Branch call: `NO_TARGET_FIRST_PIVOT_AVAILABLE`.
 - Pivot candidates: `0`.
 - Genetics comparators: `37`.
@@ -10044,7 +10044,7 @@ Interpretation:
 
 Action:
 - Added and ran `scripts/v3_wave141_modality_first_successor_scan.py`.
-- Added Wave141 to `run_v3_analysis.sh`.
+- Added Wave141 to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Rationale:
 - Wave140 closed target-first salvage. Wave141 inverted the search to start
@@ -10054,7 +10054,7 @@ Rationale:
 
 Result:
 - Output directory:
-  `results_v3/wave141_modality_first_successor_scan/`.
+  `phases/v3/results/wave141_modality_first_successor_scan/`.
 - Branch call: `NO_MODALITY_FIRST_SUCCESSOR_AVAILABLE`.
 - Promotable candidates: `0`.
 - Near misses with at least six of eight gates: `1`.
@@ -10090,7 +10090,7 @@ Corrections performed:
 
 Wave142 result:
 - Script: `scripts/v3_wave142_sender_bridge_strict_pivot_audit.py`.
-- Output: `results_v3/wave142_sender_bridge_strict_pivot_audit/`.
+- Output: `phases/v3/results/wave142_sender_bridge_strict_pivot_audit/`.
 - Branch call: `NO_ORTHOGONAL_BRIDGE_PIVOT_AVAILABLE`.
 - Bridge-biology-only candidates: `HIF1A`, `CALR`, `ITGAV`; all fail target
   or safety/prior-art gates.
@@ -10103,10 +10103,10 @@ Decision:
 
 Action:
 - Added and ran `scripts/v3_wave143_cd58_cd2_adaptive_synapse_forcing.py`.
-- Added Wave143 to `run_v3_analysis.sh`.
+- Added Wave143 to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Result:
-- Output: `results_v3/wave143_cd58_cd2_adaptive_synapse_forcing/`.
+- Output: `phases/v3/results/wave143_cd58_cd2_adaptive_synapse_forcing/`.
 - Branch call: `NO_CD58_CD2_ADAPTIVE_SYNAPSE_PROMOTION`.
 - Failed critical gates:
   `ra_signal_survives_full_mixture_adjustment`,
@@ -10130,10 +10130,10 @@ Interpretation:
 
 Action:
 - Added and ran `scripts/v3_wave144_bcell_complement_architecture_audit.py`.
-- Added Wave144 to `run_v3_analysis.sh`.
+- Added Wave144 to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Result:
-- Output: `results_v3/wave144_bcell_complement_architecture_audit/`.
+- Output: `phases/v3/results/wave144_bcell_complement_architecture_audit/`.
 - Branch call: `NO_BCELL_COMPLEMENT_SHARED_THERAPEUTIC_TARGET`.
 - Shared target candidates: `0`.
 - Architecture-only axes: `3`.
@@ -10154,10 +10154,10 @@ Interpretation:
 
 Action:
 - Added and ran `scripts/v3_wave145_strict_route_inventory.py`.
-- Added Wave145 to `run_v3_analysis.sh`.
+- Added Wave145 to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Result:
-- Output: `results_v3/wave145_strict_route_inventory/`.
+- Output: `phases/v3/results/wave145_strict_route_inventory/`.
 - Branch call: `NO_PROMOTABLE_ROUTE_AFTER_STRICT_INVENTORY`.
 - Routes scanned: `59`.
 - Promotable routes after strict inventory: `0`.
@@ -10187,10 +10187,10 @@ Sidecar returns:
 Action:
 - Added and ran
   `scripts/v3_wave146_architecture_first_barrier_retention_scan.py`.
-- Added Wave146 to `run_v3_analysis.sh`.
+- Added Wave146 to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Result:
-- Output: `results_v3/wave146_architecture_first_barrier_retention_scan/`.
+- Output: `phases/v3/results/wave146_architecture_first_barrier_retention_scan/`.
 - Branch call: `NO_ARCHITECTURE_FIRST_BARRIER_RETENTION_TARGET`.
 - Donor score rows: `2968`.
 - Source disease tests: `35`.
@@ -10221,12 +10221,12 @@ Interpretation:
 
 Action:
 - Added and ran `scripts/v3_wave147_tagap_adaptive_genetics_benchmark.py`.
-- Added Wave147 to `run_v3_analysis.sh`.
+- Added Wave147 to `scripts/entrypoints/run_v3_analysis.sh`.
 - Corrected a gate bug where an empty direction-proxy field was read as `nan`
   text and incorrectly counted as resolved.
 
 Result:
-- Output: `results_v3/wave147_tagap_adaptive_genetics_benchmark/`.
+- Output: `phases/v3/results/wave147_tagap_adaptive_genetics_benchmark/`.
 - Branch call: `NO_TAGAP_ADAPTIVE_GENETICS_PROMOTION`.
 - T-cell tests: `10`.
 
@@ -10256,10 +10256,10 @@ Interpretation:
 
 Action:
 - Added and ran `scripts/v3_wave148_tnfsf14_light_lymphoid_niche_audit.py`.
-- Added Wave148 to `run_v3_analysis.sh`.
+- Added Wave148 to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Result:
-- Output: `results_v3/wave148_tnfsf14_light_lymphoid_niche_audit/`.
+- Output: `phases/v3/results/wave148_tnfsf14_light_lymphoid_niche_audit/`.
 - Branch call: `NO_TNFSF14_LIGHT_LYMPHOID_NICHE_PROMOTION`.
 
 Passed gate:
@@ -10286,10 +10286,10 @@ Interpretation:
 
 Action:
 - Added and ran `scripts/v3_wave149_metabolite_barrier_strict_reaudit.py`.
-- Added Wave149 to `run_v3_analysis.sh`.
+- Added Wave149 to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Result:
-- Output: `results_v3/wave149_metabolite_barrier_strict_reaudit/`.
+- Output: `phases/v3/results/wave149_metabolite_barrier_strict_reaudit/`.
 - Branch call: `NO_METABOLITE_BARRIER_ROUTE_REOPENED`.
 - Routes scanned: `7`.
 - Passing routes: `0`.
@@ -10315,10 +10315,10 @@ Action:
 - Added and ran `scripts/v3_wave150_repurposing_first_strict_audit.py`.
 - Corrected a scope bug so the MS L1000 q-value count only includes
   `gse111972_ms_wm_full_top150`.
-- Added Wave150 to `run_v3_analysis.sh`.
+- Added Wave150 to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Result:
-- Output: `results_v3/wave150_repurposing_first_strict_audit/`.
+- Output: `phases/v3/results/wave150_repurposing_first_strict_audit/`.
 - Branch call: `NO_REPURPOSING_FIRST_CANDIDATE`.
 - Recurrent compounds audited: `123`.
 - Repurposing gate pass: `0`.
@@ -10339,11 +10339,11 @@ Interpretation:
 
 Action:
 - Ran `scripts/v3_wave151_interface_cell_perturbation_first_audit.py`.
-- Added Wave151 to `run_v3_analysis.sh`.
+- Added Wave151 to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Result:
 - Output:
-  `results_v3/wave151_interface_cell_perturbation_first_audit/`.
+  `phases/v3/results/wave151_interface_cell_perturbation_first_audit/`.
 - Branch call: `NO_INTERFACE_CELL_PERTURBATION_ROUTE`.
 - Routes audited: `8`.
 - Passing routes: `0`.
@@ -10385,11 +10385,11 @@ Action:
 - Downloaded HGNC complete set for Ensembl-to-symbol harmonization.
 - Added and ran
   `scripts/v3_wave152_external_interface_perturbation_module_test.py`.
-- Added Wave152 to `run_v3_analysis.sh`.
+- Added Wave152 to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Result:
 - Output:
-  `results_v3/wave152_external_interface_perturbation_module_test/`.
+  `phases/v3/results/wave152_external_interface_perturbation_module_test/`.
 - Branch call: `NO_EXTERNAL_INTERFACE_MODULE_ROUTE_REOPENED`.
 - Datasets analyzed: `GSE190634`, `GSE200309`, `GSE217552`, `GSE237845`.
 - Module contrasts tested: `96`.
@@ -10437,7 +10437,7 @@ Action:
 
 Result:
 - Output:
-  `results_v3/wave153_gse129487_synovial_fibroblast_sirna_rescue/`.
+  `phases/v3/results/wave153_gse129487_synovial_fibroblast_sirna_rescue/`.
 - Branch call: `SYNOVIAL_FIBROBLAST_CONTROLLER_RESCUE_SIGNAL`.
 - Samples: `192`.
 - Rescue tests: `120`.
@@ -10474,7 +10474,7 @@ Action:
   control-siRNA cytokine induction was positive and BH q<0.05.
 
 Result:
-- Output: `results_v3/wave154_cux1_consistency_guardrail/`.
+- Output: `phases/v3/results/wave154_cux1_consistency_guardrail/`.
 - Branch call: `CUX1_CONSISTENT_DIRECTIONAL_CONTROLLER_SIGNAL`.
 - Induced-context siRNA tests: `105`.
 - `CUX1`: `21` contexts, `18` negative, fraction negative `0.8571`, mean
@@ -10512,7 +10512,7 @@ Action:
   in the same context.
 
 Result:
-- Output: `results_v3/wave155_cux1_gene_specificity_vs_stat/`.
+- Output: `phases/v3/results/wave155_cux1_gene_specificity_vs_stat/`.
 - Branch call: `CUX1_HAS_NOMINAL_NONSTAT_INTERFACE_GENE_SUBSET`.
 - Induced gene-contexts: `72`.
 - CUX1 nominally suppressed gene-contexts: `37`.
@@ -10572,10 +10572,10 @@ Action:
 - First run contained a blocker-parser bug: genes with explicit
   `no_target_resolved_coloc_or_mr` text were promoted. Fixed the parser and
   reran before interpretation.
-- Added Wave156 to `run_v3_analysis.sh`.
+- Added Wave156 to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Result:
-- Output: `results_v3/wave156_elr_chemokine_intervention_audit/`.
+- Output: `phases/v3/results/wave156_elr_chemokine_intervention_audit/`.
 - Branch call: `NO_ELR_CHEMOKINE_INTERVENTION_PROMOTION`.
 - Genes audited: `CXCL1`, `CXCL2`, `CXCL3`, `CXCL5`, `CXCL8`.
 - Promoted interventions: `0`.
@@ -10596,7 +10596,7 @@ Decision:
 Action:
 - Spawned Epicurus as hostile reviewer of the CUX1/ELR biomarker salvage route.
 - Added and ran `scripts/v3_wave157_elr_state_biomarker_responsiveness.py`.
-- Added Wave157 to `run_v3_analysis.sh`.
+- Added Wave157 to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Epicurus return:
 - Do not promote CUX1/ELR as target biology or MS biomarker.
@@ -10604,7 +10604,7 @@ Epicurus return:
   residual specificity, MS anchoring, and predictive value for a named therapy.
 
 Wave157 result:
-- Output: `results_v3/wave157_elr_state_biomarker_responsiveness/`.
+- Output: `phases/v3/results/wave157_elr_state_biomarker_responsiveness/`.
 - Branch call: `ELR_STATE_INDUCED_AND_TREATMENT_RESPONSIVE`.
 - ELR genes: `CXCL1`, `CXCL2`, `CXCL3`, `CXCL5`, `CXCL8`.
 - Upregulated induction datasets p<0.05: `3`
@@ -10632,11 +10632,11 @@ Action:
   Lovelace, and Epicurus had already returned and closed.
 - Added and ran
   `scripts/v3_wave158_tnfil17_synergy_controller_closure.py`.
-- Added Wave158 to `run_v3_analysis.sh`.
+- Added Wave158 to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Result:
 - Output:
-  `results_v3/wave158_tnfil17_synergy_controller_closure/`.
+  `phases/v3/results/wave158_tnfil17_synergy_controller_closure/`.
 - Branch call: `NO_TNF_IL17_SYNERGY_CONTROLLER_PROMOTION`.
 - Genes audited: `CUX1`, `NFKBIZ`, `STAT3`, `STAT4`.
 - Promoted gene count: `0`.
@@ -10667,10 +10667,10 @@ Action:
   - Feynman: TWEAK/Fn14 prior-art and translational saturation audit.
   - Aquinas: non-ELR interface intervention candidate scout.
 - Added and ran `scripts/v3_wave159_tweak_fn14_interface_audit.py`.
-- Added Wave159 to `run_v3_analysis.sh`.
+- Added Wave159 to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Result:
-- Output: `results_v3/wave159_tweak_fn14_interface_audit/`.
+- Output: `phases/v3/results/wave159_tweak_fn14_interface_audit/`.
 - Branch call: `NO_TWEAK_FN14_ROUTE_PROMOTION`.
 - Dataset: `GSE237845`.
 - Genes tested: `18711`.
@@ -10697,10 +10697,10 @@ Decision:
 
 Action:
 - Added and ran `scripts/v3_wave160_lifr_interface_rescue_guardrail.py`.
-- Added Wave160 to `run_v3_analysis.sh`.
+- Added Wave160 to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Result:
-- Output: `results_v3/wave160_lifr_interface_rescue_guardrail/`.
+- Output: `phases/v3/results/wave160_lifr_interface_rescue_guardrail/`.
 - Branch call: `NO_LIFR_ROUTE_PROMOTION`.
 - Axis genes audited: `LIFR`, `LIF`, `IL6ST`, `OSMR`.
 - LIFR induced contexts tested: `21`.
@@ -10728,10 +10728,10 @@ Action:
   bug and would have recycled a weak closed perturbation-first leftover.
 - Fixed the guardrail to require a concrete next test for branch selection and
   to hard-penalize recent and older closed routes.
-- Added Wave161 to `run_v3_analysis.sh`.
+- Added Wave161 to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Corrected result:
-- Output: `results_v3/wave161_post_interface_route_reprioritization/`.
+- Output: `phases/v3/results/wave161_post_interface_route_reprioritization/`.
 - Branch call: `POST_INTERFACE_NEXT_BRANCH_SELECTED`.
 - Routes ranked: `138`.
 - Selected candidate: `FPR2_ANXA1_BIASED_RESOLUTION`.
@@ -10750,10 +10750,10 @@ Decision:
 
 Action:
 - Added and ran `scripts/v3_wave162_fpr2_anxa1_response_state_killtest.py`.
-- Added Wave162 to `run_v3_analysis.sh`.
+- Added Wave162 to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Result:
-- Output: `results_v3/wave162_fpr2_anxa1_response_state_killtest/`.
+- Output: `phases/v3/results/wave162_fpr2_anxa1_response_state_killtest/`.
 - Branch call: `NO_REOPEN_FPR2_ANXA1_NO_MS_OR_PERTURBATION_ANCHOR`.
 - FPR2 broad positive diseases: `Crohn disease;ulcerative colitis`.
 - FPR2 MS white-matter delta: `-0.9326`, FDR `0.9141`.
@@ -10779,10 +10779,10 @@ Action:
   it with `NO_REOPEN_P2RX7_TARGET_LEVEL_STRATIFICATION`; no new script was
   needed.
 - Added and ran `scripts/v3_wave163_cd300_receptor_specific_closure.py`.
-- Added Wave163 to `run_v3_analysis.sh`.
+- Added Wave163 to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Result:
-- Output: `results_v3/wave163_cd300_receptor_specific_closure/`.
+- Output: `phases/v3/results/wave163_cd300_receptor_specific_closure/`.
 - Branch call: `NO_REOPEN_CD300_DIRECTION_AND_MS_ANCHOR_FAIL`.
 - Genes audited: `CD300A`, `CD300E`, `CD300LF`, `CD300C`, `CD300LG`.
 - Best cross-signal gene: `CD300E`, positive in `3` diseases.
@@ -10805,10 +10805,10 @@ Action:
 - Reran `scripts/v3_wave164_genetics_first_survivor_audit.py` after fixing the
   missing-ChEMBL handling bug: `NaN` target IDs are now treated as missing, not
   as the literal string `"nan"`.
-- Added Wave164 to `run_v3_analysis.sh`.
+- Added Wave164 to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Result:
-- Output: `results_v3/wave164_genetics_first_survivor_audit/`.
+- Output: `phases/v3/results/wave164_genetics_first_survivor_audit/`.
 - Branch call: `GENETICS_FIRST_MECHANISM_BUT_NO_DIRECT_TARGET`.
 - Candidates ranked: `2014`.
 - Corrected top gene: `TYK2`, score `23.5`.
@@ -10841,10 +10841,10 @@ Action:
   `c15_trend_positive_disease_count`, `c15_strict_positive_context_count`,
   `ms_delta_log2`, `ms_p`, `ms_fdr`, `w37_contrast_lfc`, and
   `w37_contrast_fdr`; reran before integration.
-- Added Wave165 to `run_v3_analysis.sh`.
+- Added Wave165 to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Result:
-- Output: `results_v3/wave165_inava_nod_ripk_neighbor_audit/`.
+- Output: `phases/v3/results/wave165_inava_nod_ripk_neighbor_audit/`.
 - Branch call: `NO_INAVA_NOD_RIPK_NEIGHBOR_PROMOTION`.
 - Genes tested: `INAVA`, `RIPK2`, `NOD2`, `NOD1`, `ATG16L1`, `IRGM`, `CARD9`.
 - Best scored gene: `INAVA`, neighbor score `0`.
@@ -10891,10 +10891,10 @@ Action:
   explicit known-closed list (`SP140`, `STAT4`, `STAT3`, `IL7R`, `IFI30`,
   `GPR183`, `P2RX7`, `FPR2`, `ANXA1`, `CD300*`, `TYK2`, `IL12*`, `PTPN2`,
   `IRF5`, `NOD2`, `RIPK2`, `INAVA`), then reran before integration.
-- Added Wave166 to `run_v3_analysis.sh`.
+- Added Wave166 to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Corrected result:
-- Output: `results_v3/wave166_same_gene_genetics_cellstate_overlap/`.
+- Output: `phases/v3/results/wave166_same_gene_genetics_cellstate_overlap/`.
 - Branch call: `NO_UNBLOCKED_SAME_GENE_GENETICS_CELLSTATE_ROUTE`.
 - Genes ranked: `25255`.
 - Eligible same-gene routes after guardrails: `0`.
@@ -10929,10 +10929,10 @@ Action:
 - Added and ran `scripts/v3_wave167_shadow_no_label_overlap.py`.
 - This recomputes same-gene genetics/cell-state overlap with inherited labels
   removed from eligibility and retained only as annotations.
-- Added Wave167 to `run_v3_analysis.sh`.
+- Added Wave167 to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Result:
-- Output: `results_v3/wave167_shadow_no_label_overlap/`.
+- Output: `phases/v3/results/wave167_shadow_no_label_overlap/`.
 - Branch call:
   `SHADOW_RANK_READY_FOR_TARGET_QUALITY_AND_INDEPENDENT_STATE_VALIDATION`.
 - Genes ranked: `25255`.
@@ -10967,10 +10967,10 @@ Action:
 - This implements Boole's phenotype-first branch: start from Wave37 CRISPR hits
   where KO enhances efferocytosis, then require autoimmune state recurrence,
   MS anchor, intervention handle, and no hard modality/prior blocker.
-- Added Wave168 to `run_v3_analysis.sh`.
+- Added Wave168 to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Result:
-- Output: `results_v3/wave168_efferocytosis_state_controller_pivot/`.
+- Output: `phases/v3/results/wave168_efferocytosis_state_controller_pivot/`.
 - Branch call: `NO_EFFEROCYTOSIS_STATE_CONTROLLER_PROMOTION`.
 - Screen hits tested: `128`.
 - Promoted candidates: `0`.
@@ -11008,7 +11008,7 @@ Wave169 action:
   target-deconvolution candidates rather than failed gene-first targets.
 
 Wave169 result:
-- Output: `results_v3/wave169_l1000_repurposing_deconvolution_pivot/`.
+- Output: `phases/v3/results/wave169_l1000_repurposing_deconvolution_pivot/`.
 - Branch call: `NO_L1000_REPURPOSING_PROMOTION`.
 - Review rows tested: `33`.
 - Promoted candidates: `0`.
@@ -11022,7 +11022,7 @@ Problem found:
 
 External artifacts:
 - Downloaded ChEMBL target-search JSON with `curl` into
-  `results_v3/wave170_external_chembl_target_quality/raw/` for:
+  `phases/v3/results/wave170_external_chembl_target_quality/raw/` for:
   `LRRK2`, `PIK3CG`, `PTGIR`, `SLC1A2`.
 - Downloaded ChEMBL activity JSON for:
   `LRRK2` (`CHEMBL1075104`), `PTGIR` (`CHEMBL1995`), and provisional
@@ -11032,10 +11032,10 @@ Wave170 action:
 - Added and ran `scripts/v3_wave170_external_chembl_target_quality.py`.
 - This parses only saved raw JSON, so it is reproducible offline once the raw
   artifacts are present.
-- Added Waves169-170 to `run_v3_analysis.sh`.
+- Added Waves169-170 to `scripts/entrypoints/run_v3_analysis.sh`.
 
 Wave170 result:
-- Output: `results_v3/wave170_external_chembl_target_quality/`.
+- Output: `phases/v3/results/wave170_external_chembl_target_quality/`.
 - Branch call: `PROMOTE_AFTER_EXTERNAL_TARGET_QUALITY`.
 - Quality-supported genes: `LRRK2`, `PTGIR`.
 - Corrected promoted candidate: `XMD-1150/LRRK2`.
@@ -11054,7 +11054,7 @@ Interpretation:
 ## 2026-05-28 09:55 CEST - Wave171 LRRK2 Prior-Art Kill Test
 
 Action:
-- Wrote `results_v3/wave171_lrrk2_prior_art_killtest/REPORT.md`.
+- Wrote `phases/v3/results/wave171_lrrk2_prior_art_killtest/REPORT.md`.
 - Ran web/PubMed/ClinicalTrials/patent searches for `LRRK2`, MS/EAE,
   neuroinflammation, autoimmune disease, and inhibitors.
 

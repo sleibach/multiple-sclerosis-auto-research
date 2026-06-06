@@ -14,7 +14,7 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave170_external_chembl_target_quality"
+OUT = ROOT / "phases/v3/results" / "wave170_external_chembl_target_quality"
 RAW = OUT / "raw"
 OUT.mkdir(parents=True, exist_ok=True)
 
@@ -119,7 +119,7 @@ quality = pd.DataFrame(rows)
 quality.to_csv(OUT / "external_chembl_target_quality.tsv", sep="\t", index=False)
 
 wave169 = pd.read_csv(
-    ROOT / "results_v3" / "wave169_l1000_repurposing_deconvolution_pivot" / "l1000_repurposing_deconvolution_rank.tsv",
+    ROOT / "phases/v3/results" / "wave169_l1000_repurposing_deconvolution_pivot" / "l1000_repurposing_deconvolution_rank.tsv",
     sep="\t",
     low_memory=False,
 )

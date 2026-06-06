@@ -28,7 +28,7 @@ agonism must be distinguished from oncology-style inhibition.
 
 Reconciliation with automated V3 evidence:
 
-- `results_v3/wave32_resolution_rescue_audit/summary.json` already audited 14
+- `phases/v3/results/wave32_resolution_rescue_audit/summary.json` already audited 14
   downstream-resolution routes and promoted none. Its only parked route was
   `TREM2_APOE_LIPID_REPAIR`; `LIPA`, `NPC1/NPC2`, `GPNMB`, `CD300`, and
   `TAM_EFFEROCYTOSIS_AGONISM` were no-go or readout/marker routes under local
@@ -64,7 +64,7 @@ weak, but it has the cleanest *drug-like pro-resolution mechanism*.
 
 Project-local evidence:
 
-- `results_v3/wave23_metabolite_barrier_circuit/candidate_gene_local_evidence.tsv`
+- `phases/v3/results/wave23_metabolite_barrier_circuit/candidate_gene_local_evidence.tsv`
   has `FPR2` positive in Crohn and UC myeloid compartments:
   `ibd_crohn_myeloid` delta `4.64`, p `0.00026`; `ibd_uc_myeloid`
   delta `4.12`, p `0.00059`. It was still marked expression-only by Wave23
@@ -155,7 +155,7 @@ good intervention points by themselves.
 
 Project-local evidence already parked this route:
 
-- `results_v3/wave19_lysosomal_controller/route_summary.tsv` calls
+- `phases/v3/results/wave19_lysosomal_controller/route_summary.tsv` calls
   `LIPA_LAL_enhancement` `PARK` and `NPC1_NPC2_cholesterol_egress`
   `PARK_READOUT`.
 - The local issue is not lack of biology. It is that LIPA signals are

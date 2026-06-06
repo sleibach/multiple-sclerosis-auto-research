@@ -20,7 +20,7 @@ from statsmodels.stats.multitest import multipletests
 from v3_analyze_direct_h5ad_cell_states import CONFIGS, ROOT, TARGET_GENES, get_gene_indices, hedges_g, read_counts
 
 SEED = 20260526
-OUT = ROOT / "results_v3" / "direct_h5ad_gene_replication"
+OUT = ROOT / "phases/v3/results" / "direct_h5ad_gene_replication"
 
 
 def donor_gene_scores(config, a, x) -> pd.DataFrame:

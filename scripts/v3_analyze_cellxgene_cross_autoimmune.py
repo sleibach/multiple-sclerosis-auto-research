@@ -28,7 +28,7 @@ import cellxgene_census
 
 SEED = 20260526
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "cellxgene"
+OUT = ROOT / "phases/v3/results" / "cellxgene"
 CENSUS_URI = "s3://cellxgene-census-public-us-west-2/cell-census/2025-11-17/soma/"
 MAX_CELLS_PER_DONOR_CELLTYPE = 200
 

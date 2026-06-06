@@ -23,39 +23,39 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave23_metabolite_barrier_circuit"
+OUT = ROOT / "phases/v3/results" / "wave23_metabolite_barrier_circuit"
 RAW_API = OUT / "raw_api"
 USER_AGENT = "ms-auto-research-wave23-metabolite-barrier-circuit/1.0"
 SEED = 20260527
 
 INPUTS = {
-    "broad_h5ad": ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
+    "broad_h5ad": ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
     "broad_residual_summary": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "broad_residual_gate"
     / "broad_residual_gate_summary.tsv",
     "broad_residual_tests": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "broad_residual_gate"
     / "broad_residual_residual_tests.tsv",
     "wave19_controller": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave19_orchestrator_controller_triage"
     / "wave19_controller_triage.tsv",
     "wave19_lysosomal_local": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave19_lysosomal_controller"
     / "candidate_local_evidence.tsv",
     "wave19_lysosomal_routes": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave19_lysosomal_controller"
     / "route_summary.tsv",
-    "ot_credible": ROOT / "tmp_v3" / "wave13_opentargets_gwas_credible_sets.tsv",
-    "ot_reopen": ROOT / "tmp_v3" / "wave13_opentargets_reopen_scores.tsv",
-    "l1000_compounds": ROOT / "results_v3" / "l1000fwd_compound_summary.tsv",
-    "l1000_hits": ROOT / "results_v3" / "l1000fwd_reversal_hits.tsv",
+    "ot_credible": ROOT / "phases/v3/tmp" / "wave13_opentargets_gwas_credible_sets.tsv",
+    "ot_reopen": ROOT / "phases/v3/tmp" / "wave13_opentargets_reopen_scores.tsv",
+    "l1000_compounds": ROOT / "phases/v3/results" / "l1000fwd_compound_summary.tsv",
+    "l1000_hits": ROOT / "phases/v3/results" / "l1000fwd_reversal_hits.tsv",
     "wave15_l1000_selectivity": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave15_perturbation_drug_response"
     / "l1000fwd_selectivity_compound_rank.tsv",
     "lincs_compoundinfo": ROOT / "data" / "raw_v3" / "lincs2020" / "compoundinfo_beta.txt",

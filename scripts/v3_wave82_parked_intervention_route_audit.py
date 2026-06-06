@@ -23,14 +23,14 @@ from v3_analyze_direct_h5ad_cell_states import ROOT
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave82_parked_intervention_route_audit"
+OUT = ROOT / "phases/v3/results" / "wave82_parked_intervention_route_audit"
 
-W81 = ROOT / "results_v3" / "wave81_perturbation_first_rescue" / "perturbation_first_integrated_rank.tsv"
-W62 = ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
-W34 = ROOT / "results_v3" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv"
-W39 = ROOT / "results_v3" / "wave39_surfaceome_rescue_after_resolution_pivot" / "surfaceome_rescue_rank_full.tsv"
-W55 = ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv"
-W21 = ROOT / "results_v3" / "wave21_residual_druggability_scan" / "wave21_residual_druggability_ranked_full.tsv"
+W81 = ROOT / "phases/v3/results" / "wave81_perturbation_first_rescue" / "perturbation_first_integrated_rank.tsv"
+W62 = ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
+W34 = ROOT / "phases/v3/results" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv"
+W39 = ROOT / "phases/v3/results" / "wave39_surfaceome_rescue_after_resolution_pivot" / "surfaceome_rescue_rank_full.tsv"
+W55 = ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv"
+W21 = ROOT / "phases/v3/results" / "wave21_residual_druggability_scan" / "wave21_residual_druggability_ranked_full.tsv"
 
 
 ROUTE_ANNOTATIONS: dict[str, dict[str, str]] = {

@@ -31,30 +31,30 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave34_genetics_expression_druggability_scan"
+OUT = ROOT / "phases/v3/results" / "wave34_genetics_expression_druggability_scan"
 RAW = OUT / "raw_api"
 SEED = 20260527
 USER_AGENT = "ms-auto-research-wave34-genetics-expression-druggability/1.0"
 
 PATHS = {
-    "gwas_catalog": ROOT / "tmp_v3" / "gwascatalog_associations_20260317_convert.parquet",
-    "broad": ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
-    "residual": ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
+    "gwas_catalog": ROOT / "phases/v3/tmp" / "gwascatalog_associations_20260317_convert.parquet",
+    "broad": ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
+    "residual": ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
     "wave25": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave25_causal_genetics_module_proxy"
     / "causal_proxy_candidate_matrix.tsv",
     "wave23_gene": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave23_orchestrator_nonexpression_axis_triage"
     / "wave23_gene_evidence.tsv",
     "target_first": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave28_target_first_rescue"
     / "target_first_rescue_matrix.tsv",
-    "local_chembl": ROOT / "results_v3" / "druggability" / "chembl_target_activity_summary.tsv",
+    "local_chembl": ROOT / "phases/v3/results" / "druggability" / "chembl_target_activity_summary.tsv",
     "direct": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave15_perturbation_drug_response"
     / "candidate_level_synthesis.tsv",
 }

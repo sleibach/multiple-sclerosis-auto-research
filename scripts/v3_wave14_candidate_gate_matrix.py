@@ -27,10 +27,10 @@ import pandas as pd
 import requests
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave14_candidate_gate_matrix"
+OUT = ROOT / "phases/v3/results" / "wave14_candidate_gate_matrix"
 
-EXPR_PATH = ROOT / "results_v3" / "wave13_candidate_gene_local_validation" / "wave13_candidate_gene_summary.tsv"
-GENETICS_PATH = ROOT / "tmp_v3" / "wave13_opentargets_gwas_credible_sets.tsv"
+EXPR_PATH = ROOT / "phases/v3/results" / "wave13_candidate_gene_local_validation" / "wave13_candidate_gene_summary.tsv"
+GENETICS_PATH = ROOT / "phases/v3/tmp" / "wave13_opentargets_gwas_credible_sets.tsv"
 
 CANDIDATES = {
     "IFNG_HLAII_CD74_transition_state": {

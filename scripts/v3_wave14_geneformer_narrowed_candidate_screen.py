@@ -23,8 +23,8 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "tmp_v3" / "foundation_wave6" / "geneformer_tiny_delete_screen.py"
-OUT = ROOT / "results_v3" / "wave14_geneformer_narrowed_candidate_delete"
+SOURCE = ROOT / "phases/v3/tmp" / "foundation_wave6" / "geneformer_tiny_delete_screen.py"
+OUT = ROOT / "phases/v3/results" / "wave14_geneformer_narrowed_candidate_delete"
 
 CANDIDATE_GENES = [
     "SLC15A4",

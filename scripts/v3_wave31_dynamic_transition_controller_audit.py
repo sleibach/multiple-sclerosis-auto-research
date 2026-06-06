@@ -24,25 +24,25 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave31_dynamic_transition_controller_audit"
+OUT = ROOT / "phases/v3/results" / "wave31_dynamic_transition_controller_audit"
 SEED = 20260527
 
 PATHS = {
-    "direct_ranked": ROOT / "results_v3" / "wave15_perturbation_drug_response" / "ranked_direct_perturbations.tsv",
-    "candidate_synthesis": ROOT / "results_v3" / "wave15_perturbation_drug_response" / "candidate_level_synthesis.tsv",
+    "direct_ranked": ROOT / "phases/v3/results" / "wave15_perturbation_drug_response" / "ranked_direct_perturbations.tsv",
+    "candidate_synthesis": ROOT / "phases/v3/results" / "wave15_perturbation_drug_response" / "candidate_level_synthesis.tsv",
     "l1000_selective": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave15_perturbation_drug_response"
     / "l1000fwd_selectivity_compound_rank.tsv",
     "l1000_recurrent": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave24_l1000_recurrent_reversal"
     / "recurrent_l1000_compound_triage.tsv",
-    "mediator_verdict": ROOT / "results_v3" / "wave17_mediator_kinase_route" / "route_verdict.json",
-    "mediator_local": ROOT / "results_v3" / "wave17_mediator_kinase_route" / "local_perturbation_evidence.tsv",
-    "wave25_genetics": ROOT / "results_v3" / "wave25_causal_genetics_module_proxy" / "causal_proxy_candidate_matrix.tsv",
-    "wave28_target_first": ROOT / "results_v3" / "wave28_target_first_rescue" / "target_first_rescue_matrix.tsv",
-    "wave14_local": ROOT / "results_v3" / "wave14_gsk3b_local_gate" / "gsk3b_local_gate_gene_summary.tsv",
+    "mediator_verdict": ROOT / "phases/v3/results" / "wave17_mediator_kinase_route" / "route_verdict.json",
+    "mediator_local": ROOT / "phases/v3/results" / "wave17_mediator_kinase_route" / "local_perturbation_evidence.tsv",
+    "wave25_genetics": ROOT / "phases/v3/results" / "wave25_causal_genetics_module_proxy" / "causal_proxy_candidate_matrix.tsv",
+    "wave28_target_first": ROOT / "phases/v3/results" / "wave28_target_first_rescue" / "target_first_rescue_matrix.tsv",
+    "wave14_local": ROOT / "phases/v3/results" / "wave14_gsk3b_local_gate" / "gsk3b_local_gate_gene_summary.tsv",
 }
 
 

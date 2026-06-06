@@ -11,12 +11,12 @@ import pandas as pd
 from v3_analyze_direct_h5ad_cell_states import ROOT
 
 
-OUT = ROOT / "results_v3" / "wave150_repurposing_first_strict_audit"
+OUT = ROOT / "phases/v3/results" / "wave150_repurposing_first_strict_audit"
 SEED = 20260527
-W24_TRIAGE = ROOT / "results_v3" / "wave24_l1000_recurrent_reversal" / "recurrent_l1000_compound_triage.tsv"
-W24_MECH = ROOT / "results_v3" / "wave24_l1000_recurrent_reversal" / "recurrent_l1000_mechanism_summary.tsv"
-W15 = ROOT / "results_v3" / "wave15_perturbation_drug_response" / "l1000fwd_selectivity_compound_rank.tsv"
-MS_L1000 = ROOT / "results_v3" / "l1000fwd_compound_summary.tsv"
+W24_TRIAGE = ROOT / "phases/v3/results" / "wave24_l1000_recurrent_reversal" / "recurrent_l1000_compound_triage.tsv"
+W24_MECH = ROOT / "phases/v3/results" / "wave24_l1000_recurrent_reversal" / "recurrent_l1000_mechanism_summary.tsv"
+W15 = ROOT / "phases/v3/results" / "wave15_perturbation_drug_response" / "l1000fwd_selectivity_compound_rank.tsv"
+MS_L1000 = ROOT / "phases/v3/results" / "l1000fwd_compound_summary.tsv"
 
 
 def read(path: Path) -> pd.DataFrame:

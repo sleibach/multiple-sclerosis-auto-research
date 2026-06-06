@@ -38,8 +38,8 @@ from v3_analyze_osmr_complement_axes import CONFIGS as DIRECT_CONFIGS
 from v3_analyze_osmr_complement_axes import ROOT
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave15_surface_trafficking_dependency"
-REPORT = ROOT / "subagents_v3" / "wave15_surface_trafficking_dependency.md"
+OUT = ROOT / "phases/v3/results" / "wave15_surface_trafficking_dependency"
+REPORT = ROOT / "phases/v3/subagents" / "wave15_surface_trafficking_dependency.md"
 
 
 MINIMUM_CANDIDATES = [
@@ -1325,12 +1325,12 @@ def write_markdown_report(rank: pd.DataFrame, delta_tests: pd.DataFrame, couplin
         "",
         "## Output Files",
         "",
-        "- `results_v3/wave15_surface_trafficking_dependency/candidate_donor_scores.tsv`",
-        "- `results_v3/wave15_surface_trafficking_dependency/state_module_scores.tsv`",
-        "- `results_v3/wave15_surface_trafficking_dependency/candidate_disease_delta_tests.tsv`",
-        "- `results_v3/wave15_surface_trafficking_dependency/candidate_state_couplings.tsv`",
-        "- `results_v3/wave15_surface_trafficking_dependency/candidate_ranked.tsv`",
-        "- `results_v3/wave15_surface_trafficking_dependency/summary.json`",
+        "- `phases/v3/results/wave15_surface_trafficking_dependency/candidate_donor_scores.tsv`",
+        "- `phases/v3/results/wave15_surface_trafficking_dependency/state_module_scores.tsv`",
+        "- `phases/v3/results/wave15_surface_trafficking_dependency/candidate_disease_delta_tests.tsv`",
+        "- `phases/v3/results/wave15_surface_trafficking_dependency/candidate_state_couplings.tsv`",
+        "- `phases/v3/results/wave15_surface_trafficking_dependency/candidate_ranked.tsv`",
+        "- `phases/v3/results/wave15_surface_trafficking_dependency/summary.json`",
         "",
         "## Bottom Line",
         "",

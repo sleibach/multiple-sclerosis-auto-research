@@ -37,27 +37,27 @@ Verdict 3: evidence-driven demotion holds.
 
 ## Evidence Ledger
 
-- `subagents_v3/wave11_genetics_prior_art_scout_report.md`: MERTK was described
+- `phases/v3/subagents/wave11_genetics_prior_art_scout_report.md`: MERTK was described
   as the closest genetics-backed efferocytosis comparator, but mostly
   MS-specific and not a clean intervention route.
-- `subagents_v3/wave13_genetics_prior_art_reopen.md`: MERTK/AXL retained as an
+- `phases/v3/subagents/wave13_genetics_prior_art_reopen.md`: MERTK/AXL retained as an
   attractive tissue-repair/efferocytosis arm, with agonist modality called the
   difficult part.
-- `results_v3/wave32_resolution_rescue_audit/resolution_rescue_route_audit.tsv`:
+- `phases/v3/results/wave32_resolution_rescue_audit/resolution_rescue_route_audit.tsv`:
   `TAM_EFFEROCYTOSIS_AGONISM` and `MERTK_CENTERED_EFFEROCYTOSIS` were called
   `NO_GO_RESOLUTION_MARKER_OR_UNVALIDATED_ROUTE`.
-- `results_v3/wave32c_resolution_prior_art_audit/route_feasibility_ranked.tsv`:
+- `phases/v3/results/wave32c_resolution_prior_art_audit/route_feasibility_ranked.tsv`:
   TAM agonism/restoration was `PARTLY_BLOCKED_AND_DIFFICULT`, with lupus or RA
   favored before MS if revived.
-- `results_v3/wave70b_fc_ros_computational_scout/REPORT.md`: TAM nodes remained
+- `phases/v3/results/wave70b_fc_ros_computational_scout/REPORT.md`: TAM nodes remained
   directionally blocked; MERTK recurrence was negative/contradictory.
-- `results_v3/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv`:
+- `phases/v3/results/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv`:
   `MERTK`, `AXL`, `GAS6`, `PROS1`, and `TYRO3` all remained
   `NO_REOPEN_INSUFFICIENT_CONVERGENCE`.
-- `results_v3/wave91_lipid_lysosomal_module_intervention_rank/module_wide_evidence_matrix.tsv`:
+- `phases/v3/results/wave91_lipid_lysosomal_module_intervention_rank/module_wide_evidence_matrix.tsv`:
   `MERTK` had no MS white-matter single-gene anchor, no perturbation support,
   and unresolved TAM efferocytosis direction/agonism route.
-- `results_v3/wave32c_resolution_prior_art_audit/api_hit_summary.tsv`: local
+- `phases/v3/results/wave32c_resolution_prior_art_audit/api_hit_summary.tsv`: local
   PubMed TAM agonism query had 253 hits, documenting crowding but not a P0
   target-invalidating equivalent failure.
 

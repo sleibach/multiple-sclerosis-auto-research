@@ -19,17 +19,17 @@ from v3_analyze_osmr_complement_axes import ROOT
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave134_dap_strict_reopen_audit"
+OUT = ROOT / "phases/v3/results" / "wave134_dap_strict_reopen_audit"
 
 INPUTS = {
-    "wave133_corrected_rank": ROOT / "results_v3" / "wave133_closure_hygiene_correction" / "wave122_corrected_rank.tsv",
-    "wave81_integrated": ROOT / "results_v3" / "wave81_perturbation_first_rescue" / "perturbation_first_integrated_rank.tsv",
-    "wave82_route": ROOT / "results_v3" / "wave82_parked_intervention_route_audit" / "parked_intervention_route_audit.tsv",
-    "wave83_meta": ROOT / "results_v3" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv",
-    "wave55_external_genetics": ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv",
-    "wave62_target_resolution": ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv",
-    "wave20_gate_matrix": ROOT / "results_v3" / "wave20_unrestricted_survivor" / "wave20_gate_matrix.tsv",
-    "wave18_foundation": ROOT / "results_v3" / "wave18_foundation_rescue" / "foundation_rescue_candidate_rank.tsv",
+    "wave133_corrected_rank": ROOT / "phases/v3/results" / "wave133_closure_hygiene_correction" / "wave122_corrected_rank.tsv",
+    "wave81_integrated": ROOT / "phases/v3/results" / "wave81_perturbation_first_rescue" / "perturbation_first_integrated_rank.tsv",
+    "wave82_route": ROOT / "phases/v3/results" / "wave82_parked_intervention_route_audit" / "parked_intervention_route_audit.tsv",
+    "wave83_meta": ROOT / "phases/v3/results" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv",
+    "wave55_external_genetics": ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv",
+    "wave62_target_resolution": ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv",
+    "wave20_gate_matrix": ROOT / "phases/v3/results" / "wave20_unrestricted_survivor" / "wave20_gate_matrix.tsv",
+    "wave18_foundation": ROOT / "phases/v3/results" / "wave18_foundation_rescue" / "foundation_rescue_candidate_rank.tsv",
 }
 
 STRICT_BLOCK_TERMS = (

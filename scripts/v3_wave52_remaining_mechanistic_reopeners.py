@@ -22,20 +22,20 @@ import requests
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave52_remaining_mechanistic_reopeners"
+OUT = ROOT / "phases/v3/results" / "wave52_remaining_mechanistic_reopeners"
 RAW = OUT / "raw_api"
 SEED = 20260527
 
 INPUTS = {
-    "wave47_reopen": ROOT / "results_v3" / "wave47_late_stage_survivor_map" / "reopen_only_requirements.tsv",
-    "wave23_restoration": ROOT / "results_v3" / "wave23_genetics_restoration_modality" / "ranked_go_park_no_go.tsv",
-    "wave28_target_first": ROOT / "results_v3" / "wave28_target_first_rescue" / "target_first_rescue_matrix.tsv",
-    "wave32_resolution": ROOT / "results_v3" / "wave32_resolution_rescue_audit" / "resolution_rescue_route_audit.tsv",
-    "wave34_genetics_expression": ROOT / "results_v3" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv",
-    "wave34a_genetics_first": ROOT / "results_v3" / "wave34a_genetics_first_target_rescue" / "genetics_first_candidate_rank.tsv",
-    "wave22_sqle_decision": ROOT / "results_v3" / "wave22_sqle_failfast" / "sqle_decision.tsv",
-    "broad_h5ad": ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
-    "broad_residual": ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
+    "wave47_reopen": ROOT / "phases/v3/results" / "wave47_late_stage_survivor_map" / "reopen_only_requirements.tsv",
+    "wave23_restoration": ROOT / "phases/v3/results" / "wave23_genetics_restoration_modality" / "ranked_go_park_no_go.tsv",
+    "wave28_target_first": ROOT / "phases/v3/results" / "wave28_target_first_rescue" / "target_first_rescue_matrix.tsv",
+    "wave32_resolution": ROOT / "phases/v3/results" / "wave32_resolution_rescue_audit" / "resolution_rescue_route_audit.tsv",
+    "wave34_genetics_expression": ROOT / "phases/v3/results" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv",
+    "wave34a_genetics_first": ROOT / "phases/v3/results" / "wave34a_genetics_first_target_rescue" / "genetics_first_candidate_rank.tsv",
+    "wave22_sqle_decision": ROOT / "phases/v3/results" / "wave22_sqle_failfast" / "sqle_decision.tsv",
+    "broad_h5ad": ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
+    "broad_residual": ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
 }
 
 CANDIDATES = {

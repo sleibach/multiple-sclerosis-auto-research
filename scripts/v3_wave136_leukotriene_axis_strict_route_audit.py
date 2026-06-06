@@ -12,22 +12,22 @@ from v3_analyze_osmr_complement_axes import ROOT
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave136_leukotriene_axis_strict_route_audit"
+OUT = ROOT / "phases/v3/results" / "wave136_leukotriene_axis_strict_route_audit"
 
 INPUTS = {
     "wave135_stability": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave135_lipid_flux_ms_response_sensitivity"
     / "lipid_flux_ms_response_stability.tsv",
     "wave135_tests": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave135_lipid_flux_ms_response_sensitivity"
     / "lipid_flux_ms_response_feature_tests.tsv",
-    "wave131_class": ROOT / "results_v3" / "wave131_class_route_forcing_audit" / "class_route_forcing_decisions.tsv",
-    "wave83_meta": ROOT / "results_v3" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv",
-    "wave71_meta": ROOT / "results_v3" / "wave71_global_survivor_meta_rank" / "global_survivor_meta_rank.tsv",
-    "wave25_proxy": ROOT / "results_v3" / "wave25_causal_genetics_module_proxy" / "causal_proxy_candidate_matrix.tsv",
-    "wave32_routes": ROOT / "results_v3" / "wave32_resolution_rescue_audit" / "resolution_rescue_route_audit.tsv",
+    "wave131_class": ROOT / "phases/v3/results" / "wave131_class_route_forcing_audit" / "class_route_forcing_decisions.tsv",
+    "wave83_meta": ROOT / "phases/v3/results" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv",
+    "wave71_meta": ROOT / "phases/v3/results" / "wave71_global_survivor_meta_rank" / "global_survivor_meta_rank.tsv",
+    "wave25_proxy": ROOT / "phases/v3/results" / "wave25_causal_genetics_module_proxy" / "causal_proxy_candidate_matrix.tsv",
+    "wave32_routes": ROOT / "phases/v3/results" / "wave32_resolution_rescue_audit" / "resolution_rescue_route_audit.tsv",
 }
 
 FEATURES = ["leukotriene_axis", "oxylipin_resolution_axis", "LTA4H", "ALOX5", "ALOX5AP"]

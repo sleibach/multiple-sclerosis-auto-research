@@ -27,19 +27,19 @@ modulation of antigen-processing-high APC states.
 
 Local V3 support for biology:
 
-- `results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv`:
+- `phases/v3/results/wave62_opentargets_target_resolution/target_resolution_summary.tsv`:
   IFI30 has MS L2G support `0.650102` and MS monocyte QTL H4 `0.995901`, plus
   QTL colocalization in `Celiac;Crohn;MS`.
-- `results_v3/wave91_lipid_lysosomal_module_intervention_rank/module_wide_evidence_matrix.tsv`:
+- `phases/v3/results/wave91_lipid_lysosomal_module_intervention_rank/module_wide_evidence_matrix.tsv`:
   IFI30 has anti-TNF nonresponse and UC myeloid signals.
-- `results_v3/wave166_same_gene_genetics_cellstate_overlap/same_gene_genetics_cellstate_rank.tsv`:
+- `phases/v3/results/wave166_same_gene_genetics_cellstate_overlap/same_gene_genetics_cellstate_rank.tsv`:
   genetics and cell-state gates pass.
 
 Evidence against direct target promotion:
 
 - MS white matter expression anchor is weak/null: delta `0.210162`, p
   `0.379947`, FDR `0.914127`.
-- `results_v3/wave122_fresh_breadth_target_scan/fresh_breadth_target_rank.tsv`:
+- `phases/v3/results/wave122_fresh_breadth_target_scan/fresh_breadth_target_rank.tsv`:
   IFI30 has support channels but no MS anchor, perturbation/model support, or
   modality.
 - ChEMBL local summaries contain no IFI30 activity rows.

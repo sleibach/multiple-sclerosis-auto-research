@@ -36,11 +36,11 @@ from v3_wave94_accessible_state_rerank import (
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave95_cd300_vs_accessible_top_forcing_triage"
+OUT = ROOT / "phases/v3/results" / "wave95_cd300_vs_accessible_top_forcing_triage"
 
-W39 = ROOT / "results_v3" / "wave39_surfaceome_rescue_after_resolution_pivot" / "surfaceome_rescue_rank_full.tsv"
-W92 = ROOT / "results_v3" / "wave92_lipid_state_controller_route_audit" / "controller_route_rank.tsv"
-W94 = ROOT / "results_v3" / "wave94_accessible_state_rerank" / "accessible_state_candidate_rank.tsv"
+W39 = ROOT / "phases/v3/results" / "wave39_surfaceome_rescue_after_resolution_pivot" / "surfaceome_rescue_rank_full.tsv"
+W92 = ROOT / "phases/v3/results" / "wave92_lipid_state_controller_route_audit" / "controller_route_rank.tsv"
+W94 = ROOT / "phases/v3/results" / "wave94_accessible_state_rerank" / "accessible_state_candidate_rank.tsv"
 
 CD300_GENES = {"CD300A", "CD300C", "CD300E", "CD300LF", "CD300LG", "CD300LB"}
 ACCESSIBLE_TOP = {"SEL1L3", "NRCAM", "PLEK2", "C15ORF48", "CD200", "CHI3L1", "ROMO1"}

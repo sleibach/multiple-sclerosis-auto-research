@@ -12,14 +12,14 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave121_final_wetlab_only_route_closure"
+OUT = ROOT / "phases/v3/results" / "wave121_final_wetlab_only_route_closure"
 
-W95 = ROOT / "results_v3" / "wave95_mechanistic_forcing_triage" / "mechanistic_forcing_candidate_rank.tsv"
-W95_SIDECAR = ROOT / "subagents_v3" / "wave95_sidecar_returns_integrated.md"
-W94_HOSTILE = ROOT / "subagents_v3" / "wave94_remaining_route_hostile_rank.md"
-W32C_PRIOR = ROOT / "results_v3" / "wave32c_resolution_prior_art_audit" / "resolution_prior_art_audit.tsv"
-W81 = ROOT / "results_v3" / "wave81_perturbation_first_rescue" / "perturbation_first_integrated_rank.tsv"
-W37 = ROOT / "results_v3" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
+W95 = ROOT / "phases/v3/results" / "wave95_mechanistic_forcing_triage" / "mechanistic_forcing_candidate_rank.tsv"
+W95_SIDECAR = ROOT / "phases/v3/subagents" / "wave95_sidecar_returns_integrated.md"
+W94_HOSTILE = ROOT / "phases/v3/subagents" / "wave94_remaining_route_hostile_rank.md"
+W32C_PRIOR = ROOT / "phases/v3/results" / "wave32c_resolution_prior_art_audit" / "resolution_prior_art_audit.tsv"
+W81 = ROOT / "phases/v3/results" / "wave81_perturbation_first_rescue" / "perturbation_first_integrated_rank.tsv"
+W37 = ROOT / "phases/v3/results" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
 
 ROUTES = {
     "FPR2_ANXA1_BIASED_RESOLUTION": ["FPR2", "ANXA1"],

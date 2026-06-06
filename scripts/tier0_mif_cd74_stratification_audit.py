@@ -45,13 +45,13 @@ def main() -> None:
     residual_rows = [
         row
         for row in read_tsv(
-            ROOT / "results_v3" / "residualization" / "ifn_residualization_module_tests.tsv"
+            ROOT / "phases/v3/results" / "residualization" / "ifn_residualization_module_tests.tsv"
         )
         if row["target_module"] == MODULE
     ]
 
     summary = json.loads(
-        (ROOT / "results_v3" / "residualization" / "ifn_residualization_summary.json").read_text()
+        (ROOT / "phases/v3/results" / "residualization" / "ifn_residualization_summary.json").read_text()
     )
 
     rows: list[dict[str, object]] = []
@@ -86,7 +86,7 @@ def main() -> None:
     ]
 
     remission_path = (
-        ROOT / "results_v3" / "wave67_gse282122_myeloid_pseudobulk" / "remission_interaction_tests.tsv"
+        ROOT / "phases/v3/results" / "wave67_gse282122_myeloid_pseudobulk" / "remission_interaction_tests.tsv"
     )
     remission_modules = set()
     if remission_path.exists():

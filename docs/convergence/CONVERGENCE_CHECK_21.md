@@ -5,9 +5,9 @@ Timestamp: 2026-05-27 12:06 UTC
 ## Inputs
 
 - Local Wave60:
-  `results_v3/wave60_circuit_coupling_pivot/`.
+  `phases/v3/results/wave60_circuit_coupling_pivot/`.
 - Wave60-R hostile review:
-  `subagents_v3/wave60r_circuit_pivot_hostile_review.md`.
+  `phases/v3/subagents/wave60r_circuit_pivot_hostile_review.md`.
 
 Wave60-P (`C15ORF48/MOCCI`) and Wave60-Q (`OSM/OSMR`) are still pending at
 this checkpoint.

@@ -10,12 +10,12 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave126_l1000_upstream_regulator_reopener"
+OUT = ROOT / "phases/v3/results" / "wave126_l1000_upstream_regulator_reopener"
 
-W24 = ROOT / "results_v3" / "wave24_l1000_recurrent_reversal" / "recurrent_l1000_compound_triage.tsv"
-W15 = ROOT / "results_v3" / "wave15_perturbation_drug_response" / "l1000fwd_selectivity_compound_rank.tsv"
-HITS = ROOT / "results_v3" / "l1000fwd_reversal_hits.tsv"
-W125 = ROOT / "results_v3" / "wave125_mechanism_class_failure_map" / "pivot_recommendations.tsv"
+W24 = ROOT / "phases/v3/results" / "wave24_l1000_recurrent_reversal" / "recurrent_l1000_compound_triage.tsv"
+W15 = ROOT / "phases/v3/results" / "wave15_perturbation_drug_response" / "l1000fwd_selectivity_compound_rank.tsv"
+HITS = ROOT / "phases/v3/results" / "l1000fwd_reversal_hits.tsv"
+W125 = ROOT / "phases/v3/results" / "wave125_mechanism_class_failure_map" / "pivot_recommendations.tsv"
 
 TOXIC_TERMS = ["oncology", "cell-cycle", "cytotoxic", "steroid", "glucocorticoid", "tubulin", "HSP", "proteasome"]
 GENERIC_TERMS = ["generic/prior-art", "generic_ifn_reversal_at_least_as_strong", "NF-kB", "PPAR", "eicosanoid"]

@@ -113,9 +113,10 @@ that explicitly in `meta/SESSION_LOG.md`.
 | `meta/` | Live status, rulebooks, resume state, provisioning reports, session log, repository inventory/restructure records, and `meta/queues/` for active build/action queues. |
 | `knowledge/` | Canonical distilled knowledge: per-candidate histories (`candidates/`), evidence dimensions (`dimensions/`), mechanism hypotheses (`mechanisms/`), dataset/tool registries, and an append-only decision log (`decisions/`). |
 | `analysis/` | Tiered analyses (`tier_0_triage/`, `tier_1_mechanism/`) for the current phase, each with a `REPORT.md` and decision artifacts. |
-| `results/`, `results_v2/`, `results_v3/` | Per-phase analysis outputs (TSV/JSON/reports). |
-| `scripts/` | Analysis scripts; `v3_*.py` are the V3 wave scripts. |
-| `subagents/`, `subagents_v3/` | Specialist subagent reports. |
+| `results/`, `phases/v2/results/`, `phases/v3/results/` | Per-phase analysis outputs (TSV/JSON/reports). |
+| `phases/` | Preserved V2/V3 phase-local outputs and auxiliary artifacts moved out of root, including V2 literature placeholders and V3 literature, model, temporary, subagent, and result artifacts. |
+| `scripts/` | Analysis scripts; `scripts/entrypoints/` contains moved V2/V3 phase entrypoints and `v3_*.py` are the V3 wave scripts. |
+| `subagents/`, `phases/v3/subagents/` | Specialist subagent reports. |
 | `data/` | `raw*/` (downloaded public inputs, Git-ignored) and `derived*/` (computed tables, manifests, and SHA-256 hashes). |
 | `archive/` | Index and pointers freezing the V1–V3 phases as historical. |
 
@@ -145,13 +146,15 @@ earlier phase and is retained for the historical trace.
 
 ## Reproducibility
 
-Each phase has its own entry point at the repository root:
+Each phase has its own entry point. V1 and the ACSL1-phase entrypoints remain
+at the repository root; V2/V3 entrypoints now live under
+`scripts/entrypoints/` after the maintenance restructure:
 
 ```bash
 ./run_analysis.sh            # V1
 ./run_therapeutic_analysis.sh # ACSL1-phase analysis
-./run_v2_analysis.sh         # V2
-./run_v3_analysis.sh         # V3
+./scripts/entrypoints/run_v2_analysis.sh         # V2
+./scripts/entrypoints/run_v3_analysis.sh         # V3
 ```
 
 Each script provisions a virtual environment, installs pinned dependencies,

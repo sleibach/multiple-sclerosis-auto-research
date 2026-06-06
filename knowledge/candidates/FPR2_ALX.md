@@ -53,44 +53,44 @@ FPR2 ligand bias creates real sign risk.
 
 ## Evidence Ledger
 
-- `subagents_v3/wave34b_fpr2_anxa1_resolution.md`: parked FPR2/ALX + ANXA1 as
+- `phases/v3/subagents/wave34b_fpr2_anxa1_resolution.md`: parked FPR2/ALX + ANXA1 as
   plausible IBD/lupus-nephritis follow-up but not MS promotion. Local Crohn
   colon myeloid `FPR2` delta 4.638, Hedges g 2.933, p 0.000260, FDR 0.068672;
   UC colon myeloid delta 4.123, Hedges g 2.633, p 0.000587, FDR 0.082977. MS
   white matter was negative/null: `FPR2` delta -0.933, p 0.372, FDR 0.914;
   `ANXA1` delta -0.069, p 0.880, FDR 0.983.
-- `results_v3/wave34_genetics_expression_druggability_scan/wave34_genetics_expression_druggability_rank.tsv`:
+- `phases/v3/results/wave34_genetics_expression_druggability_scan/wave34_genetics_expression_druggability_rank.tsv`:
   `FPR2` was `NO_GO_WAVE34_GENETICS_EXPRESSION_DRUGGABILITY`; failed genetic
   breadth, local cell-state, druggable-surface, and perturbation/model gates
   despite not being marked prior-art-blocked.
-- `results_v3/wave37_gse212008_crispr_efferocytosis_screen/candidate_gene_screen_scores.tsv`
-  as summarized in `subagents_v3/wave61s_intervention_mining.md`: `FPR2` and
+- `phases/v3/results/wave37_gse212008_crispr_efferocytosis_screen/candidate_gene_screen_scores.tsv`
+  as summarized in `phases/v3/subagents/wave61s_intervention_mining.md`: `FPR2` and
   `ANXA1` were tracked resolution/efferocytosis candidates but both were
   unresolved; `FPR2` median efficient-minus-noneater LFC -0.246, FDR 0.920;
   `ANXA1` median LFC -0.348, FDR 0.920.
-- `results_v3/wave161_post_interface_route_reprioritization/post_interface_route_rank.tsv`:
+- `phases/v3/results/wave161_post_interface_route_reprioritization/post_interface_route_rank.tsv`:
   `FPR2_ANXA1_BIASED_RESOLUTION` was
   `REOPEN_WITH_WETLAB_TEST_ONLY_NOT_V3_PROMOTION`; blockers were strict MS
   anchor, target resolution/genetics, lack of perturbation/model response, and
   fewer than two support channels.
-- `subagents_v3/wave48g_resolution_reopener_critique.md`: branch was
+- `phases/v3/subagents/wave48g_resolution_reopener_critique.md`: branch was
   `REOPEN_WITH_NEW_TEST_ONLY`; strongest evidence was biased FPR2 colitis
   pharmacology and CNS-adjacent FPR2/ALX astrocytopathy support, but blockers
   remained ligand-bias sign risk, ANXA1/EAE context conflict, weak/negative MS
   signal, no target-level genetics, no human disease-tissue FPR2 dependency,
   and unsettled CNS delivery.
-- `subagents_v3/wave47g_overlooked_route_critique.md`: called FPR2/ANXA1 the
+- `phases/v3/subagents/wave47g_overlooked_route_critique.md`: called FPR2/ANXA1 the
   only real overlooked resolution-route reopener, but explicitly required
   human macrophage/microglia cargo-clearance dependency testing rather than
   another expression correlation.
-- `results_v3/wave23_metabolite_barrier_circuit/chembl_target_snapshot.tsv`:
+- `phases/v3/results/wave23_metabolite_barrier_circuit/chembl_target_snapshot.tsv`:
   FPR2 is a tractable GPCR target (`CHEMBL4227`, UniProt `P25090`) with 3374
   ChEMBL nM activity records in the V3 snapshot.
-- `results_v3/wave32c_resolution_prior_art_audit/route_feasibility_ranked.tsv`:
+- `phases/v3/results/wave32c_resolution_prior_art_audit/route_feasibility_ranked.tsv`:
   specialized pro-resolving mediator/FPR2 route was the least-blocked
   resolution route but still `NOT_BLOCKED_BUT_IMMATURE`, with IBD favored
   before MS.
-- `subagents_v3/wave34b_fpr2_anxa1_resolution.md`: local prior-art/trial
+- `phases/v3/subagents/wave34b_fpr2_anxa1_resolution.md`: local prior-art/trial
   surface found no direct ClinicalTrials.gov FPR2 agonist, FPR2 MS, or annexin
   A1 autoimmune interventional trial, but did identify broad Google Patents
   coverage including `US11708327B2` and `EP3981878A1`.

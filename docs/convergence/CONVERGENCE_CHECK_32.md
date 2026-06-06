@@ -5,14 +5,14 @@ Timestamp: 2026-05-27 16:33 CEST
 ## Inputs
 
 - Wave70-A prior-art/translational audit:
-  `subagents_v3/wave70a_fc_ros_prior_art_feasibility.md`.
+  `phases/v3/subagents/wave70a_fc_ros_prior_art_feasibility.md`.
 - Wave70-B computational scout:
-  `subagents_v3/wave70b_fc_ros_computational_scout.md` and
-  `results_v3/wave70b_fc_ros_computational_scout/`.
+  `phases/v3/subagents/wave70b_fc_ros_computational_scout.md` and
+  `phases/v3/results/wave70b_fc_ros_computational_scout/`.
 - Wave70 local matrix:
-  `results_v3/wave70_fc_ros_resolution_matrix/`.
+  `phases/v3/results/wave70_fc_ros_resolution_matrix/`.
 - Wave70-C Geneformer directionality screen:
-  `results_v3/wave70c_inhibitory_receptor_geneformer_direction/`.
+  `phases/v3/results/wave70c_inhibitory_receptor_geneformer_direction/`.
 
 ## Agreement
 

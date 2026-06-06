@@ -23,7 +23,7 @@ import v3_analyze_osmr_complement_axes as base
 
 SEED = 20260526
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "lgals3_glycan_checkpoint"
+OUT = ROOT / "phases/v3/results" / "lgals3_glycan_checkpoint"
 
 TARGET_MODULES = {
     "lgals3_core": ["LGALS3"],
@@ -257,9 +257,9 @@ def disease_summary(module_comparisons: pd.DataFrame, gene_comparisons: pd.DataF
 
 
 def candidate_crosswalk(gene_comparisons: pd.DataFrame, residuals: pd.DataFrame) -> pd.DataFrame:
-    broad_path = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
-    existing_path = ROOT / "results_v3" / "existing_evidence_candidate_matrix.tsv"
-    geneformer_path = ROOT / "results_v3" / "geneformer_candidate_delete" / "geneformer_candidate_delete_gene_summary.tsv"
+    broad_path = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
+    existing_path = ROOT / "phases/v3/results" / "existing_evidence_candidate_matrix.tsv"
+    geneformer_path = ROOT / "phases/v3/results" / "geneformer_candidate_delete" / "geneformer_candidate_delete_gene_summary.tsv"
 
     candidates = ["LGALS3", "LGALS1", "LGALS9", "LGALS3BP", "FABP5", "MSR1", "SCARB2", "GPNMB", "CD44", "SPP1"]
     broad = pd.read_csv(broad_path, sep="\t") if broad_path.exists() else pd.DataFrame()

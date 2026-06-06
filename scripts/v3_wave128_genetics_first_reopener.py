@@ -10,12 +10,12 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave128_genetics_first_reopener"
+OUT = ROOT / "phases/v3/results" / "wave128_genetics_first_reopener"
 
-W55 = ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv"
-W55_DECISIONS = ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "decision_matrix.tsv"
-W34 = ROOT / "results_v3" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv"
-W122 = ROOT / "results_v3" / "wave122_fresh_breadth_target_scan" / "fresh_breadth_target_rank.tsv"
+W55 = ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv"
+W55_DECISIONS = ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "decision_matrix.tsv"
+W34 = ROOT / "phases/v3/results" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv"
+W122 = ROOT / "phases/v3/results" / "wave122_fresh_breadth_target_scan" / "fresh_breadth_target_rank.tsv"
 
 CLOSED = {
     "ACSL1", "NAMPT", "P2RX7", "GPR183", "PSAP", "CD82", "MFGE8", "SPNS1", "CD58",

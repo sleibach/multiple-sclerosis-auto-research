@@ -24,8 +24,8 @@ from v3_analyze_direct_h5ad_cell_states import CONFIGS, MODULES as TARGET_MODULE
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave146_architecture_first_barrier_retention_scan"
-MS_SIG = ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv"
+OUT = ROOT / "phases/v3/results" / "wave146_architecture_first_barrier_retention_scan"
+MS_SIG = ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv"
 
 ARCH_MODULES = {
     "endothelial_entry": ["ANGPT2", "ICAM1", "VCAM1", "SELE", "MADCAM1"],

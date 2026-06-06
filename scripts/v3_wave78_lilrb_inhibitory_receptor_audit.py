@@ -36,18 +36,18 @@ from v3_wave68_gse282122_unrestricted_gene_screen import (
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave78_lilrb_inhibitory_receptor_audit"
+OUT = ROOT / "phases/v3/results" / "wave78_lilrb_inhibitory_receptor_audit"
 
-BROAD = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
-MS_SIG = ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv"
-W62 = ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
-W62_QTL = ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "opentargets_qtl_coloc_rows.tsv"
-W70B = ROOT / "results_v3" / "wave70b_fc_ros_computational_scout" / "integrated_fc_ros_candidate_scout.tsv"
-W70C = ROOT / "results_v3" / "wave70c_inhibitory_receptor_geneformer_direction" / "geneformer_direction_candidate_calls.tsv"
-W37 = ROOT / "results_v3" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
-RA_COUNTS = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
-RA_META = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
-IBD_PAIR_META = ROOT / "results_v3" / "wave68_gse282122_unrestricted_gene_screen" / "all_gene_pair_metadata.tsv"
+BROAD = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
+MS_SIG = ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv"
+W62 = ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
+W62_QTL = ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "opentargets_qtl_coloc_rows.tsv"
+W70B = ROOT / "phases/v3/results" / "wave70b_fc_ros_computational_scout" / "integrated_fc_ros_candidate_scout.tsv"
+W70C = ROOT / "phases/v3/results" / "wave70c_inhibitory_receptor_geneformer_direction" / "geneformer_direction_candidate_calls.tsv"
+W37 = ROOT / "phases/v3/results" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
+RA_COUNTS = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
+RA_META = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
+IBD_PAIR_META = ROOT / "phases/v3/results" / "wave68_gse282122_unrestricted_gene_screen" / "all_gene_pair_metadata.tsv"
 
 TARGET_GENES = ["LILRB1", "LILRB2", "LILRB3", "LILRB4", "LILRB5"]
 COMPARATOR_GENES = ["LAIR1", "CD300A", "CD300LF", "FCGR2B", "INPP5D"]

@@ -12,14 +12,14 @@ from v3_analyze_osmr_complement_axes import ROOT
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave142_sender_bridge_strict_pivot_audit"
+OUT = ROOT / "phases/v3/results" / "wave142_sender_bridge_strict_pivot_audit"
 
 INPUTS = {
-    "bridge_summary": ROOT / "results_v3" / "wave103_sender_to_myeloid_bridge_scan" / "sender_bridge_gene_summary.tsv",
-    "bridge_links": ROOT / "results_v3" / "wave103_sender_to_myeloid_bridge_scan" / "sender_to_myeloid_bridge_links.tsv",
-    "intervention_first": ROOT / "results_v3" / "wave103_intervention_first_successor_triage" / "intervention_first_successor_rank.tsv",
-    "wave140": ROOT / "results_v3" / "wave140_target_first_pivot_audit" / "target_first_pivot_audit.tsv",
-    "wave83": ROOT / "results_v3" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv",
+    "bridge_summary": ROOT / "phases/v3/results" / "wave103_sender_to_myeloid_bridge_scan" / "sender_bridge_gene_summary.tsv",
+    "bridge_links": ROOT / "phases/v3/results" / "wave103_sender_to_myeloid_bridge_scan" / "sender_to_myeloid_bridge_links.tsv",
+    "intervention_first": ROOT / "phases/v3/results" / "wave103_intervention_first_successor_triage" / "intervention_first_successor_rank.tsv",
+    "wave140": ROOT / "phases/v3/results" / "wave140_target_first_pivot_audit" / "target_first_pivot_audit.tsv",
+    "wave83": ROOT / "phases/v3/results" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv",
 }
 
 MANUAL_BLOCKERS = {

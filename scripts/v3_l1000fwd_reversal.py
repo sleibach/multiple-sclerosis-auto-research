@@ -24,8 +24,8 @@ from v3_analyze_gse111972_microglia import load_expression, load_sample_metadata
 
 SEED = 20260526
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3"
-LIT = ROOT / "literature_v3"
+OUT = ROOT / "phases/v3/results"
+LIT = ROOT / "phases/v3/literature"
 RAW = ROOT / "data" / "raw_v3" / "lincs2020"
 BASE_URL = "https://maayanlab.cloud/L1000FWD"
 COMPOUNDINFO_URL = "https://s3.amazonaws.com/macchiato.clue.io/builds/LINCS2020/compoundinfo_beta.txt"

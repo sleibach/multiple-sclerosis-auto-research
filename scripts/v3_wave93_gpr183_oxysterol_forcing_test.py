@@ -63,20 +63,20 @@ from v3_wave89_psoriasis_gse85034_response_validation import (
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave93_gpr183_oxysterol_forcing_test"
+OUT = ROOT / "phases/v3/results" / "wave93_gpr183_oxysterol_forcing_test"
 
 TARGET_GENES = ["GPR183", "CH25H", "CYP7B1", "HSD3B7", "CYP27A1"]
 RESPONSE_GENES = ["CCR7", "CCL19", "CCL21", "CXCL13", "CXCR5", "LTA", "LTB", "CD83", "LAMP3", "ITGAX", "CCL17", "CCL22"]
 ALL_GENES = sorted(set(TARGET_GENES + RESPONSE_GENES))
 
-W74 = ROOT / "results_v3" / "wave74_gpr183_oxysterol_niche"
-W83 = ROOT / "results_v3" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv"
-MS_SIG = ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv"
-BROAD = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
-W55 = ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv"
-W62 = ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
-RA_COUNTS = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
-RA_META = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
+W74 = ROOT / "phases/v3/results" / "wave74_gpr183_oxysterol_niche"
+W83 = ROOT / "phases/v3/results" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv"
+MS_SIG = ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv"
+BROAD = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
+W55 = ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv"
+W62 = ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
+RA_COUNTS = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
+RA_META = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
 
 PRIMARY_IBD_CONTEXTS = {
     "GSE12251_UC_ACT1_baseline",

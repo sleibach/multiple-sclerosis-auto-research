@@ -15,7 +15,7 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 IN = ROOT / "data" / "derived_v3" / "disease_axis_evidence_v3.tsv"
-OUT = ROOT / "results_v3"
+OUT = ROOT / "phases/v3/results"
 
 SCORES = {
     "strong": 2.0,

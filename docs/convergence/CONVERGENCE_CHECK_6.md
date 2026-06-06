@@ -20,9 +20,9 @@ No. `SQLE` is now closed as `NO_GO_SQLE_FAILFAST`.
 Traceable output:
 
 - Script: `scripts/v3_wave22_sqle_failfast.py`
-- Output: `results_v3/wave22_sqle_failfast/`
-- Decision table: `results_v3/wave22_sqle_failfast/sqle_decision.tsv`
-- Summary: `results_v3/wave22_sqle_failfast/summary.json`
+- Output: `phases/v3/results/wave22_sqle_failfast/`
+- Decision table: `phases/v3/results/wave22_sqle_failfast/sqle_decision.tsv`
+- Summary: `phases/v3/results/wave22_sqle_failfast/summary.json`
 
 Key numbers from the generated summary:
 

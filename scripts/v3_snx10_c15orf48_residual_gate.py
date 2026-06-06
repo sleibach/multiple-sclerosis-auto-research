@@ -28,7 +28,7 @@ from statsmodels.stats.multitest import multipletests
 from v3_analyze_osmr_complement_axes import CONFIGS, DirectConfig, ROOT
 
 SEED = 20260526
-RESULTS = ROOT / "results_v3"
+RESULTS = ROOT / "phases/v3/results"
 OUT = RESULTS / "snx10_c15orf48_residual_gate"
 
 MIN_DONOR_CELLS = 10

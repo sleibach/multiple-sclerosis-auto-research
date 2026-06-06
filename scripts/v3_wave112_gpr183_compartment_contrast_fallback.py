@@ -23,11 +23,11 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave112_gpr183_compartment_contrast_fallback"
-BROAD = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
-W93_IBD = ROOT / "results_v3" / "wave93_gpr183_oxysterol_forcing_test" / "ibd_external_antitnf_gene_response_meta.tsv"
-W93_RA = ROOT / "results_v3" / "wave93_gpr183_oxysterol_forcing_test" / "ra_gse198520_baseline_gene_response_meta.tsv"
-W93_PSO = ROOT / "results_v3" / "wave93_gpr183_oxysterol_forcing_test" / "psoriasis_gse85034_ada_gene_response_meta.tsv"
+OUT = ROOT / "phases/v3/results" / "wave112_gpr183_compartment_contrast_fallback"
+BROAD = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
+W93_IBD = ROOT / "phases/v3/results" / "wave93_gpr183_oxysterol_forcing_test" / "ibd_external_antitnf_gene_response_meta.tsv"
+W93_RA = ROOT / "phases/v3/results" / "wave93_gpr183_oxysterol_forcing_test" / "ra_gse198520_baseline_gene_response_meta.tsv"
+W93_PSO = ROOT / "phases/v3/results" / "wave93_gpr183_oxysterol_forcing_test" / "psoriasis_gse85034_ada_gene_response_meta.tsv"
 
 RECEPTOR = "GPR183"
 LIGANDS = ["CH25H", "CYP7B1", "HSD3B7", "CYP27A1"]

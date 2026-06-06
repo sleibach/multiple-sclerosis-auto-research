@@ -22,7 +22,7 @@ np.random.seed(SEED)
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw_v3" / "interface_perturbation_geo"
-OUT = ROOT / "results_v3" / "wave159_tweak_fn14_interface_audit"
+OUT = ROOT / "phases/v3/results" / "wave159_tweak_fn14_interface_audit"
 OUT.mkdir(parents=True, exist_ok=True)
 
 TARGET_GENES = ["TNFSF12", "TNFRSF12A", "PDPN", "VCAM1", "ICAM1", "CCL2", "IL6", "MMP3", "CXCL12", "LTBR"]
@@ -129,10 +129,10 @@ def main() -> None:
     modules = pd.DataFrame(module_rows)
     modules.to_csv(OUT / "gse237845_tweak_module_effects.tsv", sep="\t", index=False)
 
-    broad = read_tsv(ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_summary.tsv")
-    ms = read_tsv(ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv")
-    wave62 = read_tsv(ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv")
-    wave103 = read_tsv(ROOT / "results_v3" / "wave103_intervention_first_successor_triage" / "intervention_first_successor_rank.tsv")
+    broad = read_tsv(ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_summary.tsv")
+    ms = read_tsv(ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv")
+    wave62 = read_tsv(ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv")
+    wave103 = read_tsv(ROOT / "phases/v3/results" / "wave103_intervention_first_successor_triage" / "intervention_first_successor_rank.tsv")
 
     candidate_rows = []
     for gene in TARGET_GENES:

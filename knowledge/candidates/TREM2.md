@@ -42,25 +42,25 @@ not direction-resolved or causally anchored.
 
 ## Evidence Ledger
 
-- `results_v3/wave32_resolution_rescue_audit/resolution_rescue_route_audit.tsv`:
+- `phases/v3/results/wave32_resolution_rescue_audit/resolution_rescue_route_audit.tsv`:
   `TREM2_APOE_LIPID_REPAIR` was the only parked downstream-resolution branch,
   but failed coupling, causal/perturbation, prior-art/nonblocking, and
   independent-validation gates.
-- `results_v3/wave32_resolution_rescue_audit/resolution_rescue_gate_matrix.tsv`:
+- `phases/v3/results/wave32_resolution_rescue_audit/resolution_rescue_gate_matrix.tsv`:
   the route passed MS-anchor and modality-plausibility gates but failed
   causal/perturbational and independent-validation gates.
-- `results_v3/wave52_remaining_mechanistic_reopeners/decision_matrix.tsv`:
+- `phases/v3/results/wave52_remaining_mechanistic_reopeners/decision_matrix.tsv`:
   passed cross-autoimmune breadth and cell-state replication but failed
   target-specific MS anchor, target-resolved genetics/coloc,
   perturbation/foundation alignment, safe direction, and novelty delta.
-- `results_v3/cross_disease_gene_convergence.tsv`: weak/null gene-level
+- `phases/v3/results/cross_disease_gene_convergence.tsv`: weak/null gene-level
   cross-disease signal; MS white-matter microglia delta 0.190, p 0.613, FDR
   0.793 in V3 output.
-- `results_v3/wave32b_dataset_availability_scan/candidate_dataset_matrix.tsv`:
+- `phases/v3/results/wave32b_dataset_availability_scan/candidate_dataset_matrix.tsv`:
   usable perturbation datasets exist (`GSE302857`, `GSE66926`, `GSE70475`,
   `GSE65067`), but V3 did not convert them into a validated direction-resolved
   target claim.
-- `results_v3/wave32c_resolution_prior_art_audit/raw_api/clinicaltrials__TREM2_agonism__AL002.json`:
+- `phases/v3/results/wave32c_resolution_prior_art_audit/raw_api/clinicaltrials__TREM2_agonism__AL002.json`:
   locally cached AL002 TREM2 agonist precedent, including `NCT03635047`,
   `NCT04592874`, and `NCT05744401`; crowding/modality context but not
   target-invalidating for MS under V4.
@@ -92,7 +92,7 @@ Prior-art grade: `P2 adjacent prior art`.
 
 AL002/TREM2 agonist precedent is not target-invalidating for this V5 question.
 The locally cached ClinicalTrials.gov artifact
-`results_v3/wave32c_resolution_prior_art_audit/raw_api/clinicaltrials__TREM2_agonism__AL002.json`
+`phases/v3/results/wave32c_resolution_prior_art_audit/raw_api/clinicaltrials__TREM2_agonism__AL002.json`
 lists AL002 as a biological intervention in healthy volunteer/Alzheimer disease
 contexts, including Alzheimer disease browse terms. That is not the same
 indication, not the same patient subgroup, and not a progressive-MS or
@@ -126,13 +126,13 @@ Reason:
   beyond the V3/V4 baseline.
 - V3 local gates support TREM2/APOE lipid-repair biology broadly, but not a
   target-resolved MS therapeutic claim:
-  `results_v3/wave52_remaining_mechanistic_reopeners/decision_matrix.tsv`
+  `phases/v3/results/wave52_remaining_mechanistic_reopeners/decision_matrix.tsv`
   marked `TREM2_APOE_LIPID_REPAIR` as passing cross-autoimmune breadth and
   cross-dataset cell-state replication, while failing target-specific MS
   anchor, target-resolved genetics/coloc, foundation plus real perturbation
   alignment, and safe/selective direction resolution.
 - The route-split V3 audit
-  `results_v3/wave32_resolution_rescue_audit/resolution_rescue_gate_matrix.tsv`
+  `phases/v3/results/wave32_resolution_rescue_audit/resolution_rescue_gate_matrix.tsv`
   called `TREM2_APOE_LIPID_REPAIR` `PARK_RESOLUTION_BIOLOGY_NO_CAUSAL_ANCHOR`.
   It passed MS-anchor and correct-direction-modality gates, but failed
   state-coupling-not-density-only, genetic-or-real-perturbation-anchor, and
@@ -152,10 +152,10 @@ local verified artifacts only:
 - `meta/PRIOR_ART_RULEBOOK.md`
 - `meta/TIERING_RULEBOOK.md`
 - `meta/CURRENT_STATUS.md`
-- `results_v3/wave52_remaining_mechanistic_reopeners/decision_matrix.tsv`
-- `results_v3/wave32_resolution_rescue_audit/resolution_rescue_gate_matrix.tsv`
-- `results_v3/wave32b_dataset_availability_scan/candidate_dataset_matrix.tsv`
-- `results_v3/wave32c_resolution_prior_art_audit/raw_api/clinicaltrials__TREM2_agonism__AL002.json`
+- `phases/v3/results/wave52_remaining_mechanistic_reopeners/decision_matrix.tsv`
+- `phases/v3/results/wave32_resolution_rescue_audit/resolution_rescue_gate_matrix.tsv`
+- `phases/v3/results/wave32b_dataset_availability_scan/candidate_dataset_matrix.tsv`
+- `phases/v3/results/wave32c_resolution_prior_art_audit/raw_api/clinicaltrials__TREM2_agonism__AL002.json`
 
 ### Re-Entry Criteria
 

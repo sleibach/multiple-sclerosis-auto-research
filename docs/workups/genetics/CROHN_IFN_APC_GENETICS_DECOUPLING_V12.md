@@ -50,7 +50,7 @@ Local output:
 
 Extraction:
 
-- From `results_v3/wave55_external_genetics_druggability_sweep/opentargets_associated_targets_raw.tsv`.
+- From `phases/v3/results/wave55_external_genetics_druggability_sweep/opentargets_associated_targets_raw.tsv`.
 - Threshold: OpenTargets `genetic_association >= 0.5` in both MS and Crohn.
 
 Result:
@@ -70,8 +70,8 @@ Interpretation:
 
 Local files:
 
-- `results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv`
-- `results_v3/wave166_same_gene_genetics_cellstate_overlap/same_gene_genetics_cellstate_rank.tsv`
+- `phases/v3/results/wave62_opentargets_target_resolution/target_resolution_summary.tsv`
+- `phases/v3/results/wave166_same_gene_genetics_cellstate_overlap/same_gene_genetics_cellstate_rank.tsv`
 
 Relevant rows:
 

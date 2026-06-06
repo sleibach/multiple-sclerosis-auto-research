@@ -32,23 +32,23 @@ Prior-art grade: `P1 high crowding`, not target-invalidating.
 
 Local V3 support:
 
-- `results_v3/wave15_perturbation_drug_response/gse162464_mouse_rna_selectivity.tsv`:
+- `phases/v3/results/wave15_perturbation_drug_response/gse162464_mouse_rna_selectivity.tsv`:
   `Med16_KO` in IFN-gamma-stimulated mouse macrophages suppresses the target
   antigen-presentation module with `target_module_effect=-3.1395`, generic IFN
   effect `-0.7979`, and selectivity score `2.3051`.
-- `results_v3/wave17_mediator_kinase_route/local_perturbation_evidence.tsv`:
+- `phases/v3/results/wave17_mediator_kinase_route/local_perturbation_evidence.tsv`:
   `Med16_KO` has mean target module log2FC `-3.74`, generic IFN core `-0.46`,
   `Ciita -3.34`, `Cd74 -2.46`, `H2-Aa -7.33`, `H2-Ab1 -4.71`.
-- `results_v3/wave17_mediator_route_gate/summary.json`: V3 verdict
+- `phases/v3/results/wave17_mediator_route_gate/summary.json`: V3 verdict
   `PARK_AS_PERTURBATION_DERIVED_INTERVENTION_HYPOTHESIS`, not no-go.
-- `results_v3/wave17_mediator_kinase_route/compound_landscape.tsv`: real
+- `phases/v3/results/wave17_mediator_kinase_route/compound_landscape.tsv`: real
   CDK8/19 chemical matter exists, including cortistatin A, CCT251921,
   MSC2530818, Senexin B/BCD-115, and RVU120.
-- `results_v3/wave53_perturbation_first_pivot/decision_matrix.tsv`:
+- `phases/v3/results/wave53_perturbation_first_pivot/decision_matrix.tsv`:
   `MED16_MEDIATOR_MODULE` passes `real_perturbation_selectivity` and
   `tractable_druggability`, but failed V3 on MS anchor, safe-selective
   direction, and novelty.
-- `subagents_v3/wave53g_med16_mediator_review.md`: decisive blocker is missing
+- `phases/v3/subagents/wave53g_med16_mediator_review.md`: decisive blocker is missing
   pharmacologic CDK8/CDK19 phenocopy of `MED16`, not target-invalidating prior
   art.
 

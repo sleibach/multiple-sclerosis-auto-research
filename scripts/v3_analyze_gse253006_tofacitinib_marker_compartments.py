@@ -29,7 +29,7 @@ from v3_analyze_gse253006_tofacitinib_uc import parse_soft_metadata
 SEED = 20260526
 RAW = ROOT / "data" / "raw_v3" / "gse253006"
 MATRIX_DIR = RAW / "raw"
-OUT = ROOT / "results_v3" / "gse253006_tofacitinib_marker"
+OUT = ROOT / "phases/v3/results" / "gse253006_tofacitinib_marker"
 
 MARKER_SETS = {
     "epithelial_like": ["EPCAM", "KRT8", "KRT18", "KRT19", "VIL1", "MUC2", "TFF3", "FABP1"],

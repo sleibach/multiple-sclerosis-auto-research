@@ -15,7 +15,7 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave163_cd300_receptor_specific_closure"
+OUT = ROOT / "phases/v3/results" / "wave163_cd300_receptor_specific_closure"
 OUT.mkdir(parents=True, exist_ok=True)
 
 GENES = ["CD300A", "CD300E", "CD300LF", "CD300C", "CD300LG"]
@@ -37,11 +37,11 @@ def pick(df: pd.DataFrame, gene: str) -> dict[str, object]:
 
 
 def main() -> None:
-    broad = read(ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_summary.tsv")
-    ms = read(ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv")
-    wave37 = read(ROOT / "results_v3" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv")
-    wave48_route = read(ROOT / "results_v3" / "wave48_resolution_reopener_audit" / "route_reopener_audit.tsv")
-    wave103 = read(ROOT / "results_v3" / "wave103_intervention_first_successor_triage" / "intervention_first_successor_rank.tsv")
+    broad = read(ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_summary.tsv")
+    ms = read(ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv")
+    wave37 = read(ROOT / "phases/v3/results" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv")
+    wave48_route = read(ROOT / "phases/v3/results" / "wave48_resolution_reopener_audit" / "route_reopener_audit.tsv")
+    wave103 = read(ROOT / "phases/v3/results" / "wave103_intervention_first_successor_triage" / "intervention_first_successor_rank.tsv")
 
     rows = []
     for gene in GENES:

@@ -25,16 +25,16 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave20_genetic_druggable_altaxis"
+OUT = ROOT / "phases/v3/results" / "wave20_genetic_druggable_altaxis"
 
-OT_CREDIBLE = ROOT / "tmp_v3" / "wave13_opentargets_gwas_credible_sets.tsv"
-WAVE14_TRUTH = ROOT / "results_v3" / "wave14_target_level_genetics" / "target_level_genetics_truth_table.tsv"
-BROAD_H5AD = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
-CENTRAL_FIRST_PASS = ROOT / "results_v3" / "central_node_first_pass_rank.tsv"
-CENTRAL_INTERVENTION = ROOT / "results_v3" / "central_and_intervention_candidate_rank.tsv"
-DISEASE_AXIS = ROOT / "results_v3" / "disease_axis_candidate_gene_rank.tsv"
-LOCAL_CHEMBL = ROOT / "results_v3" / "druggability" / "chembl_target_activity_summary.tsv"
-WAVE19 = ROOT / "results_v3" / "wave19_orchestrator_controller_triage" / "wave19_controller_triage.tsv"
+OT_CREDIBLE = ROOT / "phases/v3/tmp" / "wave13_opentargets_gwas_credible_sets.tsv"
+WAVE14_TRUTH = ROOT / "phases/v3/results" / "wave14_target_level_genetics" / "target_level_genetics_truth_table.tsv"
+BROAD_H5AD = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
+CENTRAL_FIRST_PASS = ROOT / "phases/v3/results" / "central_node_first_pass_rank.tsv"
+CENTRAL_INTERVENTION = ROOT / "phases/v3/results" / "central_and_intervention_candidate_rank.tsv"
+DISEASE_AXIS = ROOT / "phases/v3/results" / "disease_axis_candidate_gene_rank.tsv"
+LOCAL_CHEMBL = ROOT / "phases/v3/results" / "druggability" / "chembl_target_activity_summary.tsv"
+WAVE19 = ROOT / "phases/v3/results" / "wave19_orchestrator_controller_triage" / "wave19_controller_triage.tsv"
 
 USER_AGENT = "ms-auto-research-wave20-genetic-druggable-altaxis/1.0"
 

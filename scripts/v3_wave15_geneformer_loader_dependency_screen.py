@@ -20,8 +20,8 @@ from pathlib import Path
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "tmp_v3" / "foundation_wave6" / "geneformer_tiny_delete_screen.py"
-OUT = ROOT / "results_v3" / "wave15_geneformer_loader_dependency_delete"
+SOURCE = ROOT / "phases/v3/tmp" / "foundation_wave6" / "geneformer_tiny_delete_screen.py"
+OUT = ROOT / "phases/v3/results" / "wave15_geneformer_loader_dependency_delete"
 
 CANDIDATE_GENES = [
     "CTSH",

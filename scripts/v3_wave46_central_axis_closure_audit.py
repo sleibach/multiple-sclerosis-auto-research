@@ -16,20 +16,20 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave46_central_axis_closure_audit"
+OUT = ROOT / "phases/v3/results" / "wave46_central_axis_closure_audit"
 SEED = 20260527
 
-CENTRAL = ROOT / "results_v3" / "central_and_intervention_candidate_rank.tsv"
-MODEL = ROOT / "results_v3" / "mechanistic_model" / "ifng_apc_feedback_intervention_effects.tsv"
-MODEL_SUMMARY = ROOT / "results_v3" / "mechanistic_model" / "ifng_apc_feedback_summary.json"
-TARGET_GENETICS = ROOT / "results_v3" / "wave14_target_level_genetics" / "target_level_genetics_truth_table.tsv"
-WAVE15_LOADER = ROOT / "results_v3" / "wave15_loader_external_gate" / "loader_external_gate_summary.tsv"
-WAVE19_LOCAL = ROOT / "results_v3" / "wave19_lysosomal_controller" / "candidate_local_evidence.tsv"
-WAVE19_ROUTES = ROOT / "results_v3" / "wave19_lysosomal_controller" / "route_summary.tsv"
-WAVE31 = ROOT / "results_v3" / "wave31_dynamic_transition_controller_audit" / "dynamic_transition_controller_audit.tsv"
-WAVE34 = ROOT / "results_v3" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv"
-WAVE43 = ROOT / "results_v3" / "wave43_genetic_druggable_failfast" / "genetic_druggable_failfast.tsv"
-WAVE45 = ROOT / "results_v3" / "wave45_regulatory_controller_audit" / "regulatory_controller_audit.tsv"
+CENTRAL = ROOT / "phases/v3/results" / "central_and_intervention_candidate_rank.tsv"
+MODEL = ROOT / "phases/v3/results" / "mechanistic_model" / "ifng_apc_feedback_intervention_effects.tsv"
+MODEL_SUMMARY = ROOT / "phases/v3/results" / "mechanistic_model" / "ifng_apc_feedback_summary.json"
+TARGET_GENETICS = ROOT / "phases/v3/results" / "wave14_target_level_genetics" / "target_level_genetics_truth_table.tsv"
+WAVE15_LOADER = ROOT / "phases/v3/results" / "wave15_loader_external_gate" / "loader_external_gate_summary.tsv"
+WAVE19_LOCAL = ROOT / "phases/v3/results" / "wave19_lysosomal_controller" / "candidate_local_evidence.tsv"
+WAVE19_ROUTES = ROOT / "phases/v3/results" / "wave19_lysosomal_controller" / "route_summary.tsv"
+WAVE31 = ROOT / "phases/v3/results" / "wave31_dynamic_transition_controller_audit" / "dynamic_transition_controller_audit.tsv"
+WAVE34 = ROOT / "phases/v3/results" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv"
+WAVE43 = ROOT / "phases/v3/results" / "wave43_genetic_druggable_failfast" / "genetic_druggable_failfast.tsv"
+WAVE45 = ROOT / "phases/v3/results" / "wave45_regulatory_controller_audit" / "regulatory_controller_audit.tsv"
 
 
 AXIS_RULES = {

@@ -16,7 +16,7 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "analysis" / "v8_map"
-RAW = ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "opentargets_associated_targets_raw.tsv"
+RAW = ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "opentargets_associated_targets_raw.tsv"
 
 DISEASE_LABELS = {
     "RA": "rheumatoid arthritis",

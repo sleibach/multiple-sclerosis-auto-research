@@ -15,7 +15,7 @@ Script:
 
 Output:
 
-- `results_v3/wave100_camp_restoration_class_audit/`
+- `phases/v3/results/wave100_camp_restoration_class_audit/`
 
 Branch call:
 
@@ -37,7 +37,7 @@ Quantitative anchors:
 
 Directionality/modeling sidecar:
 
-- `subagents_v3/wave100_camp_directionality_model_sidecar.md`
+- `phases/v3/subagents/wave100_camp_directionality_model_sidecar.md`
 - No finding claimed.
 - `PDE4B` is the best local route for a perturbation-ordering experiment.
 - `PTGER4` is the strongest genetics-rich comparator but therapeutic direction
@@ -47,7 +47,7 @@ Directionality/modeling sidecar:
 
 Prior-art/translational sidecar:
 
-- `subagents_v3/wave100_camp_prior_art_sidecar.md`
+- `phases/v3/subagents/wave100_camp_prior_art_sidecar.md`
 - No route is a GO.
 - PDE4B/D local cAMP restoration is only a prior-art-aware comparator or
   stratification branch.

@@ -15,7 +15,7 @@ from statsmodels.genmod.families import Gaussian
 
 ROOT = Path(__file__).resolve().parents[1]
 WORKBOOK = ROOT / "data" / "raw" / "Processed_data_all_omics.xlsx"
-OUT = ROOT / "results_v2"
+OUT = ROOT / "phases/v2/results"
 
 LDAM = [
     "APOE",

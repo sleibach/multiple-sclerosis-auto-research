@@ -22,21 +22,21 @@ from statsmodels.stats.multitest import multipletests
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave74_gpr183_oxysterol_niche"
+OUT = ROOT / "phases/v3/results" / "wave74_gpr183_oxysterol_niche"
 SEED = 20260527
 
-BROAD = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
-MS_SIG = ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv"
-GSE282122_RAW = ROOT / "results_v3" / "wave68_gse282122_unrestricted_gene_screen" / "raw_remission_response_gene_tests.tsv"
-GSE282122_PAIRED = ROOT / "results_v3" / "wave68_gse282122_unrestricted_gene_screen" / "paired_gene_delta_tests.tsv"
-RA_COUNTS = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
-RA_META = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
-WAVE66_FEATURES = ROOT / "results_v3" / "wave66_metabolomics_class_convergence" / "feature_contrast_effects.tsv"
-WAVE62 = ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
-WAVE57 = ROOT / "results_v3" / "wave57_intervention_first_geneformer_screen" / "wave57_geneformer_gene_summary.tsv"
-WAVE69D = ROOT / "results_v3" / "wave69d_gse282122_geneformer_remission_centroid" / "geneformer_remission_gene_summary.tsv"
-WAVE72_FEATURES = ROOT / "results_v3" / "wave72_lipid_mediator_intervention_scout" / "lipid_mediator_feature_matches.tsv"
-WAVE72_GENES = ROOT / "results_v3" / "wave72_lipid_mediator_intervention_scout" / "lipid_mediator_gene_evidence.tsv"
+BROAD = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
+MS_SIG = ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv"
+GSE282122_RAW = ROOT / "phases/v3/results" / "wave68_gse282122_unrestricted_gene_screen" / "raw_remission_response_gene_tests.tsv"
+GSE282122_PAIRED = ROOT / "phases/v3/results" / "wave68_gse282122_unrestricted_gene_screen" / "paired_gene_delta_tests.tsv"
+RA_COUNTS = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
+RA_META = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
+WAVE66_FEATURES = ROOT / "phases/v3/results" / "wave66_metabolomics_class_convergence" / "feature_contrast_effects.tsv"
+WAVE62 = ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
+WAVE57 = ROOT / "phases/v3/results" / "wave57_intervention_first_geneformer_screen" / "wave57_geneformer_gene_summary.tsv"
+WAVE69D = ROOT / "phases/v3/results" / "wave69d_gse282122_geneformer_remission_centroid" / "geneformer_remission_gene_summary.tsv"
+WAVE72_FEATURES = ROOT / "phases/v3/results" / "wave72_lipid_mediator_intervention_scout" / "lipid_mediator_feature_matches.tsv"
+WAVE72_GENES = ROOT / "phases/v3/results" / "wave72_lipid_mediator_intervention_scout" / "lipid_mediator_gene_evidence.tsv"
 
 
 MODULES: dict[str, dict[str, Any]] = {

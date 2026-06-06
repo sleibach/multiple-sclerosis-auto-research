@@ -27,7 +27,7 @@ from v3_analyze_direct_h5ad_cell_states import MODULES, ROOT
 
 SEED = 20260526
 RAW = ROOT / "data" / "raw_v3" / "gse315138" / "raw"
-OUT = ROOT / "results_v3" / "gse315138_celiac_marker"
+OUT = ROOT / "phases/v3/results" / "gse315138_celiac_marker"
 
 MARKER_SETS = {
     "epithelial_like": ["EPCAM", "KRT8", "KRT18", "KRT19", "VIL1", "APOA4", "ALPI", "FABP1", "MUC2"],

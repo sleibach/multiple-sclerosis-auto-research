@@ -17,7 +17,7 @@ from statsmodels.stats.multitest import multipletests
 
 ROOT = Path(__file__).resolve().parents[1]
 H5AD = ROOT / "data/raw_v3/wave67_gse282122_myeloid/myeloid_final.h5ad"
-PAIRS = ROOT / "results_v3/wave67_gse282122_myeloid_pseudobulk/paired_module_deltas.tsv"
+PAIRS = ROOT / "phases/v3/results/wave67_gse282122_myeloid_pseudobulk/paired_module_deltas.tsv"
 OUT = ROOT / "analysis/tier_1_mechanism/mif_cd74_gse282122_component_response"
 
 COMPONENTS = {

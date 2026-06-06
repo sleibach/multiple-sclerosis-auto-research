@@ -78,7 +78,7 @@ Local OpenTargets QTL colocalization evidence points most strongly to `GPR25`, n
 - `C1orf106`/`INAVA` is physically overlapped by the credible-set block but had no local QTL colocalization rows in the project target-resolution table.
 - `CACNA1S` has QTL colocalization in tibial artery, but that tissue is not disease-relevant for this MS-UC immune locus.
 - `KIF21B` has UC L2G support but no MS QTL support in the local target-resolution table.
-- pQTL check: no pQTL rows for `GPR25`, `C1orf106/INAVA`, `KIF21B`, or `CACNA1S` were present in `results_v3/wave62_opentargets_target_resolution/opentargets_qtl_coloc_rows.tsv`.
+- pQTL check: no pQTL rows for `GPR25`, `C1orf106/INAVA`, `KIF21B`, or `CACNA1S` were present in `phases/v3/results/wave62_opentargets_target_resolution/opentargets_qtl_coloc_rows.tsv`.
 
 Verdict: `GPR25` is the top causal-gene candidate with moderate-to-high confidence. The confidence is not maximal because this run did not download raw GTEx/eQTLGen summary statistics for allele-level re-colocalization; it relied on stored OpenTargets QTL-coloc rows and V14 SuSiE-coloc outputs.
 
@@ -189,7 +189,7 @@ Local QTL/target-resolution evidence:
   - supporting L2G diseases: `AS;Celiac;Crohn;Psoriasis`.
 - No stored MS eQTL colocalization row was present for `ZMIZ1`.
 - `PPIF` has stronger local cell-state evidence but no genetic/QTL colocalization support for this locus and sits outside the tight four-SNP shared credible set.
-- pQTL check: no pQTL rows for `ZMIZ1` or `PPIF` were present in `results_v3/wave62_opentargets_target_resolution/opentargets_qtl_coloc_rows.tsv`.
+- pQTL check: no pQTL rows for `ZMIZ1` or `PPIF` were present in `phases/v3/results/wave62_opentargets_target_resolution/opentargets_qtl_coloc_rows.tsv`.
 
 Verdict: `ZMIZ1` is the top causal-gene candidate with moderate confidence. The evidence is stronger positionally than transcriptionally for MS, because the shared credible set lies in/near `ZMIZ1`, but the existing eQTL-coloc support is Crohn-side only.
 

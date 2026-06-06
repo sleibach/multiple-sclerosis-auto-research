@@ -25,19 +25,19 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave33_tolerance_costimulation_audit"
+OUT = ROOT / "phases/v3/results" / "wave33_tolerance_costimulation_audit"
 RAW = OUT / "raw_api"
 SEED = 20260527
 USER_AGENT = "ms-auto-research-wave33-tolerance-costim/1.0"
 
 PATHS = {
-    "broad": ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
-    "residual": ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
-    "checkpoint": ROOT / "results_v3" / "wave19_tolerogenic_checkpoint" / "checkpoint_candidate_synthesis.tsv",
-    "genetics": ROOT / "results_v3" / "wave25_causal_genetics_module_proxy" / "causal_proxy_candidate_matrix.tsv",
-    "target_first": ROOT / "results_v3" / "wave28_target_first_rescue" / "target_first_rescue_matrix.tsv",
-    "direct": ROOT / "results_v3" / "wave15_perturbation_drug_response" / "candidate_level_synthesis.tsv",
-    "gwas_catalog": ROOT / "tmp_v3" / "gwascatalog_associations_20260317_convert.parquet",
+    "broad": ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
+    "residual": ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
+    "checkpoint": ROOT / "phases/v3/results" / "wave19_tolerogenic_checkpoint" / "checkpoint_candidate_synthesis.tsv",
+    "genetics": ROOT / "phases/v3/results" / "wave25_causal_genetics_module_proxy" / "causal_proxy_candidate_matrix.tsv",
+    "target_first": ROOT / "phases/v3/results" / "wave28_target_first_rescue" / "target_first_rescue_matrix.tsv",
+    "direct": ROOT / "phases/v3/results" / "wave15_perturbation_drug_response" / "candidate_level_synthesis.tsv",
+    "gwas_catalog": ROOT / "phases/v3/tmp" / "gwascatalog_associations_20260317_convert.parquet",
 }
 
 AUTOIMMUNE_REGEX = re.compile(

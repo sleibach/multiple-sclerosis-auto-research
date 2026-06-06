@@ -29,7 +29,7 @@ except Exception:  # pragma: no cover - statsmodels is expected in the V3 env.
 SEED = 20260526
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw_v3" / "gse111972"
-OUT = ROOT / "results_v3"
+OUT = ROOT / "phases/v3/results"
 
 NORM_PATH = RAW / "GSE111972_norm_data.txt.gz"
 MATRIX_PATH = RAW / "GSE111972_series_matrix.txt.gz"

@@ -20,7 +20,7 @@ from urllib.request import Request, urlopen
 
 
 ROOT = Path(__file__).resolve().parents[1]
-RESULTS = ROOT / "results_v3"
+RESULTS = ROOT / "phases/v3/results"
 OUT = RESULTS / "wave18_accessible_target_rescue"
 RAW = OUT / "raw"
 
@@ -881,15 +881,15 @@ def main() -> None:
         "no_go_genes": [r["gene"] for r in rows if r["wave18_call"] == "NO_GO"],
         "created": "2026-05-27",
         "inputs": [
-            "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv",
-            "results_v3/cross_disease_gene_summary.tsv",
-            "results_v3/disease_axis_candidate_gene_rank.tsv",
-            "results_v3/wave15_surface_trafficking_dependency/candidate_ranked.tsv",
-            "results_v3/wave15_orchestrator_dependency_scan/candidate_dependency_priority_summary.tsv",
-            "results_v3/existing_evidence_candidate_matrix.tsv",
-            "results_v3/opentargets_candidate_disease_hits.tsv",
-            "results_v3/intervention_prior_art_audit.tsv",
-            "subagents_v3 wave5-wave17 reports",
+            "phases/v3/results/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv",
+            "phases/v3/results/cross_disease_gene_summary.tsv",
+            "phases/v3/results/disease_axis_candidate_gene_rank.tsv",
+            "phases/v3/results/wave15_surface_trafficking_dependency/candidate_ranked.tsv",
+            "phases/v3/results/wave15_orchestrator_dependency_scan/candidate_dependency_priority_summary.tsv",
+            "phases/v3/results/existing_evidence_candidate_matrix.tsv",
+            "phases/v3/results/opentargets_candidate_disease_hits.tsv",
+            "phases/v3/results/intervention_prior_art_audit.tsv",
+            "phases/v3/subagents wave5-wave17 reports",
         ],
     }
     (OUT / "summary.json").write_text(json.dumps(summary, indent=2, sort_keys=True) + "\n")

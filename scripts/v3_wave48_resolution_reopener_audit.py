@@ -33,24 +33,24 @@ import requests
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave48_resolution_reopener_audit"
+OUT = ROOT / "phases/v3/results" / "wave48_resolution_reopener_audit"
 RAW = OUT / "raw_api"
 SEED = 20260527
 
 
-WAVE32_GENE = ROOT / "results_v3" / "wave32_resolution_rescue_audit" / "resolution_rescue_gene_detail.tsv"
-WAVE32_ROUTE = ROOT / "results_v3" / "wave32_resolution_rescue_audit" / "resolution_rescue_route_audit.tsv"
-WAVE32_GATE = ROOT / "results_v3" / "wave32_resolution_rescue_audit" / "resolution_rescue_gate_matrix.tsv"
-WAVE32C_ROUTE = ROOT / "results_v3" / "wave32c_resolution_prior_art_audit" / "route_feasibility_ranked.tsv"
-WAVE32C_API = ROOT / "results_v3" / "wave32c_resolution_prior_art_audit" / "api_hit_summary.tsv"
-WAVE32C_DRUG = ROOT / "results_v3" / "wave32c_resolution_prior_art_audit" / "target_drug_database_hits.tsv"
-WAVE34 = ROOT / "results_v3" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv"
-WAVE36_REC = ROOT / "results_v3" / "wave36a_gene_level_controller_rescue" / "gene_recurrence_in_rescue_like_contexts.tsv"
-WAVE36_CONTRAST = ROOT / "results_v3" / "wave36a_gene_level_controller_rescue" / "gene_contrast_scores.tsv"
-WAVE37 = ROOT / "results_v3" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
-PIVOT = ROOT / "results_v3" / "pivot_panel_triage" / "pivot_panel_summary.tsv"
-GENEFORMER_CTX = ROOT / "results_v3" / "geneformer_pivot_panel_delete" / "geneformer_pivot_panel_context_metrics_ranked.tsv"
-GENEFORMER_GENE = ROOT / "results_v3" / "geneformer_pivot_panel_delete" / "geneformer_pivot_panel_gene_summary.tsv"
+WAVE32_GENE = ROOT / "phases/v3/results" / "wave32_resolution_rescue_audit" / "resolution_rescue_gene_detail.tsv"
+WAVE32_ROUTE = ROOT / "phases/v3/results" / "wave32_resolution_rescue_audit" / "resolution_rescue_route_audit.tsv"
+WAVE32_GATE = ROOT / "phases/v3/results" / "wave32_resolution_rescue_audit" / "resolution_rescue_gate_matrix.tsv"
+WAVE32C_ROUTE = ROOT / "phases/v3/results" / "wave32c_resolution_prior_art_audit" / "route_feasibility_ranked.tsv"
+WAVE32C_API = ROOT / "phases/v3/results" / "wave32c_resolution_prior_art_audit" / "api_hit_summary.tsv"
+WAVE32C_DRUG = ROOT / "phases/v3/results" / "wave32c_resolution_prior_art_audit" / "target_drug_database_hits.tsv"
+WAVE34 = ROOT / "phases/v3/results" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv"
+WAVE36_REC = ROOT / "phases/v3/results" / "wave36a_gene_level_controller_rescue" / "gene_recurrence_in_rescue_like_contexts.tsv"
+WAVE36_CONTRAST = ROOT / "phases/v3/results" / "wave36a_gene_level_controller_rescue" / "gene_contrast_scores.tsv"
+WAVE37 = ROOT / "phases/v3/results" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
+PIVOT = ROOT / "phases/v3/results" / "pivot_panel_triage" / "pivot_panel_summary.tsv"
+GENEFORMER_CTX = ROOT / "phases/v3/results" / "geneformer_pivot_panel_delete" / "geneformer_pivot_panel_context_metrics_ranked.tsv"
+GENEFORMER_GENE = ROOT / "phases/v3/results" / "geneformer_pivot_panel_delete" / "geneformer_pivot_panel_gene_summary.tsv"
 
 
 ROUTES = {

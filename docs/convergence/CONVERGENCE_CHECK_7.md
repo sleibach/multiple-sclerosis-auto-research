@@ -22,7 +22,7 @@ module state.
 
 - Script/output:
   `scripts/v3_wave23_orchestrator_nonexpression_axis_triage.py`,
-  `results_v3/wave23_orchestrator_nonexpression_axis_triage/`.
+  `phases/v3/results/wave23_orchestrator_nonexpression_axis_triage/`.
 - Corrected route calls: `2 PARK_REVIEW`, `14 NO_GO`, `0 GO_REVIEW`.
 - Parked routes:
   - `GPR65_pH_endolysosomal_gpcr`
@@ -34,8 +34,8 @@ module state.
 ### Wave23-B Genetics Restoration
 
 - Report/output:
-  `subagents_v3/wave23_genetics_restoration_modality.md`,
-  `results_v3/wave23_genetics_restoration_modality/`.
+  `phases/v3/subagents/wave23_genetics_restoration_modality.md`,
+  `phases/v3/results/wave23_genetics_restoration_modality/`.
 - Worker calls: `0 GO`, `2 PARK`, `12 NO_GO`.
 - Parked: `GPR65`, `IL10`.
 - The worker demoted `PTPN2` because the needed direction is restoration and
@@ -43,7 +43,7 @@ module state.
 
 ### Wave23-D Hostile Critique
 
-- Report: `subagents_v3/wave23_hostile_critique.md`.
+- Report: `phases/v3/subagents/wave23_hostile_critique.md`.
 - Key accepted criticisms:
   - `GPR65` has weak/contradictory local module evidence, no perturbation/model
     rescue, and direct prior art.
@@ -59,7 +59,7 @@ module state.
 
 - Script/output:
   `scripts/v3_wave24_l1000_recurrent_reversal_triage.py`,
-  `results_v3/wave24_l1000_recurrent_reversal/`.
+  `phases/v3/results/wave24_l1000_recurrent_reversal/`.
 - 123 grouped compounds from 144 opposite-mode rows.
 - 20 compounds recur across at least two opposite-mode queries.
 - `0 PARK_REVIEW`.

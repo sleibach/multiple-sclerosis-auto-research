@@ -23,7 +23,7 @@ GLOBS = [
     "knowledge/**/*.md",
     "meta/*.md",
     "subagents/*.md",
-    "subagents_v3/*.md",
+    "phases/v3/subagents/*.md",
 ]
 
 

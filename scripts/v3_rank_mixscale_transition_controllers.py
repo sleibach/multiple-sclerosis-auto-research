@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "mixscale"
+OUT = ROOT / "phases/v3/results" / "mixscale"
 
 MODULE_WEIGHTS = {
     "ifn_apc": 1.0,

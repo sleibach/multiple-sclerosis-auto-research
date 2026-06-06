@@ -12,21 +12,21 @@ from v3_analyze_osmr_complement_axes import ROOT
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave144_bcell_complement_architecture_audit"
+OUT = ROOT / "phases/v3/results" / "wave144_bcell_complement_architecture_audit"
 
 REPORTS = {
-    "myasthenia_gravis": ROOT / "subagents_v3" / "myasthenia_gravis_dalton_report.md",
-    "autoimmune_thyroid": ROOT / "subagents_v3" / "autoimmune_thyroid_dirac_report.md",
-    "celiac": ROOT / "subagents_v3" / "celiac_plato_report.md",
-    "pbc": ROOT / "subagents_v3" / "pbc_goodall_report.md",
+    "myasthenia_gravis": ROOT / "phases/v3/subagents" / "myasthenia_gravis_dalton_report.md",
+    "autoimmune_thyroid": ROOT / "phases/v3/subagents" / "autoimmune_thyroid_dirac_report.md",
+    "celiac": ROOT / "phases/v3/subagents" / "celiac_plato_report.md",
+    "pbc": ROOT / "phases/v3/subagents" / "pbc_goodall_report.md",
 }
 
 TABLES = {
-    "cfb_wave44": ROOT / "results_v3" / "wave44_cfb_complement_stratification_audit" / "summary.json",
-    "cfb_report": ROOT / "results_v3" / "wave44_cfb_complement_stratification_audit" / "REPORT.md",
-    "mg_module": ROOT / "results_v3" / "wave14_gse227835_myasthenia" / "gse227835_module_support_summary.tsv",
-    "celiac_modules": ROOT / "results_v3" / "gse315138_celiac_marker" / "gse315138_donor_module_comparisons.tsv",
-    "thyroid_modules": ROOT / "results_v3" / "gse248205_thyroid_spatial" / "gse248205_module_gene_contrasts.tsv",
+    "cfb_wave44": ROOT / "phases/v3/results" / "wave44_cfb_complement_stratification_audit" / "summary.json",
+    "cfb_report": ROOT / "phases/v3/results" / "wave44_cfb_complement_stratification_audit" / "REPORT.md",
+    "mg_module": ROOT / "phases/v3/results" / "wave14_gse227835_myasthenia" / "gse227835_module_support_summary.tsv",
+    "celiac_modules": ROOT / "phases/v3/results" / "gse315138_celiac_marker" / "gse315138_donor_module_comparisons.tsv",
+    "thyroid_modules": ROOT / "phases/v3/results" / "gse248205_thyroid_spatial" / "gse248205_module_gene_contrasts.tsv",
 }
 
 AXES = {

@@ -34,42 +34,42 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave28_target_first_rescue"
+OUT = ROOT / "phases/v3/results" / "wave28_target_first_rescue"
 RAW = OUT / "raw_api"
 SEED = 20260527
 USER_AGENT = "ms-auto-research-wave28-target-first-rescue/1.0"
 
 PATHS = {
     "wave20_altaxis": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave20_genetic_druggable_altaxis"
     / "negative_ranked_shortlist.tsv",
     "wave21_residual": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave21_residual_druggability_scan"
     / "wave21_residual_druggability_rank.tsv",
     "wave18_accessible": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave18_accessible_target_rescue"
     / "accessible_target_rescue_candidates.tsv",
     "wave25_genetics": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave25_causal_genetics_module_proxy"
     / "causal_proxy_candidate_matrix.tsv",
     "wave18_foundation": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave18_foundation_rescue"
     / "foundation_rescue_candidate_rank.tsv",
     "direct_perturbation": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave15_perturbation_drug_response"
     / "ranked_direct_perturbations.tsv",
     "l1000_recurrent": ROOT
-    / "results_v3"
+    / "phases/v3/results"
     / "wave24_l1000_recurrent_reversal"
     / "recurrent_l1000_compound_triage.tsv",
-    "central_rank": ROOT / "results_v3" / "central_and_intervention_candidate_rank.tsv",
-    "local_chembl": ROOT / "results_v3" / "druggability" / "chembl_target_activity_summary.tsv",
+    "central_rank": ROOT / "phases/v3/results" / "central_and_intervention_candidate_rank.tsv",
+    "local_chembl": ROOT / "phases/v3/results" / "druggability" / "chembl_target_activity_summary.tsv",
 }
 
 DISEASE_QUERY = (

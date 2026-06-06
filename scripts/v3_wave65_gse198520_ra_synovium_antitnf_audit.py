@@ -29,7 +29,7 @@ from v3_analyze_direct_h5ad_cell_states import MODULES, ROOT
 
 SEED = 20260527
 RAW = ROOT / "data" / "raw_v3" / "wave65_gse198520_ra_synovium"
-OUT = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit"
+OUT = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit"
 COUNTS_URL = "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE198nnn/GSE198520/suppl/GSE198520_Raw_gene_count_matrix.txt.gz"
 MATRIX_URL = "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE198nnn/GSE198520/matrix/GSE198520_series_matrix.txt.gz"
 COUNTS_FILE = RAW / "GSE198520_Raw_gene_count_matrix.txt.gz"

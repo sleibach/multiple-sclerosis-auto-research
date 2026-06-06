@@ -49,16 +49,16 @@ class Artifact:
 
 
 ARTIFACTS = [
-    Artifact("results_v3/mixscale/mixscale_module_summary.tsv", "perturbation", "module_effects", True),
-    Artifact("results_v3/mixscale/mixscale_module_effects_by_cell_type.tsv", "perturbation", "cell_type_module_effects", True),
-    Artifact("results_v3/wave23_treatment_response_stratification/pharmacodynamic_module_evidence.tsv", "treatment_response", "pharmacodynamic_module_effects", True),
-    Artifact("results_v3/wave75_response_state_stratification/ibd_response_module_tests.tsv", "treatment_response", "ibd_response_module_tests", True),
-    Artifact("results_v3/wave75_response_state_stratification/ra_response_module_tests.tsv", "treatment_response", "ra_response_module_tests", True),
+    Artifact("phases/v3/results/mixscale/mixscale_module_summary.tsv", "perturbation", "module_effects", True),
+    Artifact("phases/v3/results/mixscale/mixscale_module_effects_by_cell_type.tsv", "perturbation", "cell_type_module_effects", True),
+    Artifact("phases/v3/results/wave23_treatment_response_stratification/pharmacodynamic_module_evidence.tsv", "treatment_response", "pharmacodynamic_module_effects", True),
+    Artifact("phases/v3/results/wave75_response_state_stratification/ibd_response_module_tests.tsv", "treatment_response", "ibd_response_module_tests", True),
+    Artifact("phases/v3/results/wave75_response_state_stratification/ra_response_module_tests.tsv", "treatment_response", "ra_response_module_tests", True),
     Artifact("analysis/v23_apc_hla_monitoring/v23_mechanism_specificity.tsv", "treatment_response", "locked_rule_mechanism_specificity", True),
     Artifact("analysis/v23_apc_hla_monitoring/v23_pooled_locked_rule_summary.tsv", "treatment_response", "locked_rule_pooled_summary", True),
     Artifact("analysis/v22_locked_apc_hla_validation/validation_ledger_v22.tsv", "treatment_response", "locked_rule_validation_ledger", True),
-    Artifact("results_v3/direct_h5ad_cell_state/direct_h5ad_donor_module_comparisons.tsv", "cell_state", "cross_disease_h5ad_module_comparisons", True),
-    Artifact("results_v3/cross_disease_module_summary.tsv", "cell_state", "cross_disease_module_summary", True),
+    Artifact("phases/v3/results/direct_h5ad_cell_state/direct_h5ad_donor_module_comparisons.tsv", "cell_state", "cross_disease_h5ad_module_comparisons", True),
+    Artifact("phases/v3/results/cross_disease_module_summary.tsv", "cell_state", "cross_disease_module_summary", True),
     Artifact("analysis/v21_ldsc_backdrop/ldsc_rg_results.tsv", "genetics", "genome_wide_rg_backdrop", True),
     Artifact("analysis/v14_susie_coloc/susie_coloc_rollup.tsv", "genetics", "susie_coloc_rollup", False),
     Artifact("analysis/v18_source_triage/target_gene_eqtl_hits.tsv", "eqtl", "immune_eqtl_target_hits", True),
@@ -161,7 +161,7 @@ def permutation_cosine_p(a_mat: pd.DataFrame, b_mat: pd.DataFrame, observed: flo
 
 
 def matrix_from_mixscale() -> pd.DataFrame:
-    df = read_tsv("results_v3/mixscale/mixscale_module_summary.tsv")
+    df = read_tsv("phases/v3/results/mixscale/mixscale_module_summary.tsv")
     df = df[df["module"].isin(CORE_MODULES)].copy()
     mat = df.pivot_table(
         index=["pathway", "perturbation"],
@@ -176,7 +176,7 @@ def matrix_from_mixscale() -> pd.DataFrame:
 
 
 def matrix_from_pharmacodynamics() -> pd.DataFrame:
-    df = read_tsv("results_v3/wave23_treatment_response_stratification/pharmacodynamic_module_evidence.tsv")
+    df = read_tsv("phases/v3/results/wave23_treatment_response_stratification/pharmacodynamic_module_evidence.tsv")
     df = df[df["module"].isin(CORE_MODULES)].copy()
     mat = df.pivot_table(
         index=["dataset", "therapy", "analysis_scope"],
@@ -193,8 +193,8 @@ def matrix_from_pharmacodynamics() -> pd.DataFrame:
 def matrix_from_response_tests() -> pd.DataFrame:
     parts = []
     for path in [
-        "results_v3/wave75_response_state_stratification/ibd_response_module_tests.tsv",
-        "results_v3/wave75_response_state_stratification/ra_response_module_tests.tsv",
+        "phases/v3/results/wave75_response_state_stratification/ibd_response_module_tests.tsv",
+        "phases/v3/results/wave75_response_state_stratification/ra_response_module_tests.tsv",
     ]:
         df = read_tsv(path)
         df = df[df["module"].isin(CORE_MODULES)].copy()
@@ -208,7 +208,7 @@ def matrix_from_response_tests() -> pd.DataFrame:
 
 
 def matrix_from_cell_state() -> pd.DataFrame:
-    df = read_tsv("results_v3/direct_h5ad_cell_state/direct_h5ad_donor_module_comparisons.tsv")
+    df = read_tsv("phases/v3/results/direct_h5ad_cell_state/direct_h5ad_donor_module_comparisons.tsv")
     df = df[(df["metric"] == "mean_score") & (df["module"].isin(CORE_MODULES))].copy()
     mat = df.pivot_table(
         index=["analysis", "disease_name", "compartment"],
@@ -223,7 +223,7 @@ def matrix_from_cell_state() -> pd.DataFrame:
 
 
 def matrix_from_cross_disease_summary() -> pd.DataFrame:
-    df = read_tsv("results_v3/cross_disease_module_summary.tsv")
+    df = read_tsv("phases/v3/results/cross_disease_module_summary.tsv")
     df = df[df["module"].isin(CORE_MODULES)].copy()
     mat = df.set_index("module")[[
         "n_strong_diseases",

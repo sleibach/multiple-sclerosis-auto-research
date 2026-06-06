@@ -34,7 +34,7 @@ The central object is therefore an IFN-gamma-licensed antigen-processing/APC
 transition. It can appear in myeloid cells, epithelial cells, and tissue APC
 compartments depending on disease and tissue.
 
-Axis-level breadth from `results_v3/disease_axis_convergence_rank.tsv`:
+Axis-level breadth from `phases/v3/results/disease_axis_convergence_rank.tsv`:
 
 - `ifn_apc`: weighted score 21.8, strong in 12 disease contexts, supportive in
   14, no weak/contradictory disease calls.

@@ -18,19 +18,19 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave47_late_stage_survivor_map"
+OUT = ROOT / "phases/v3/results" / "wave47_late_stage_survivor_map"
 SEED = 20260527
 
-WAVE23_REST = ROOT / "results_v3" / "wave23_genetics_restoration_modality" / "ranked_go_park_no_go.tsv"
-WAVE23_TREAT = ROOT / "results_v3" / "wave23_treatment_response_stratification" / "ranked_go_park_no_go.tsv"
-WAVE28 = ROOT / "results_v3" / "wave28_target_first_rescue" / "target_first_gate_summary.tsv"
-WAVE32 = ROOT / "results_v3" / "wave32_resolution_rescue_audit" / "resolution_rescue_route_audit.tsv"
-WAVE33 = ROOT / "results_v3" / "wave33_tolerance_costimulation_audit" / "tolerance_costimulation_axis_audit.tsv"
-WAVE34A = ROOT / "results_v3" / "wave34a_genetics_first_target_rescue" / "genetics_first_candidate_rank.tsv"
-WAVE38 = ROOT / "results_v3" / "wave38_crispr_state_druggability_rescue" / "crispr_state_druggability_rescue_rank.tsv"
-WAVE39 = ROOT / "results_v3" / "wave39_surfaceome_rescue_after_resolution_pivot" / "surfaceome_rescue_rank.tsv"
-WAVE40 = ROOT / "results_v3" / "wave40_parked_surface_failfast" / "parked_surface_failfast.tsv"
-WAVE46 = ROOT / "results_v3" / "wave46_central_axis_closure_audit" / "central_axis_closure_audit.tsv"
+WAVE23_REST = ROOT / "phases/v3/results" / "wave23_genetics_restoration_modality" / "ranked_go_park_no_go.tsv"
+WAVE23_TREAT = ROOT / "phases/v3/results" / "wave23_treatment_response_stratification" / "ranked_go_park_no_go.tsv"
+WAVE28 = ROOT / "phases/v3/results" / "wave28_target_first_rescue" / "target_first_gate_summary.tsv"
+WAVE32 = ROOT / "phases/v3/results" / "wave32_resolution_rescue_audit" / "resolution_rescue_route_audit.tsv"
+WAVE33 = ROOT / "phases/v3/results" / "wave33_tolerance_costimulation_audit" / "tolerance_costimulation_axis_audit.tsv"
+WAVE34A = ROOT / "phases/v3/results" / "wave34a_genetics_first_target_rescue" / "genetics_first_candidate_rank.tsv"
+WAVE38 = ROOT / "phases/v3/results" / "wave38_crispr_state_druggability_rescue" / "crispr_state_druggability_rescue_rank.tsv"
+WAVE39 = ROOT / "phases/v3/results" / "wave39_surfaceome_rescue_after_resolution_pivot" / "surfaceome_rescue_rank.tsv"
+WAVE40 = ROOT / "phases/v3/results" / "wave40_parked_surface_failfast" / "parked_surface_failfast.tsv"
+WAVE46 = ROOT / "phases/v3/results" / "wave46_central_axis_closure_audit" / "central_axis_closure_audit.tsv"
 
 
 EXCLUDED_OR_CLOSED_LABELS = {

@@ -25,15 +25,15 @@ from v3_analyze_direct_h5ad_cell_states import ROOT
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave84_stratification_first_audit"
+OUT = ROOT / "phases/v3/results" / "wave84_stratification_first_audit"
 
-RA_WIDE = ROOT / "results_v3" / "wave76_adjusted_response_specificity" / "ra_wide_patient_table.tsv"
-IBD_WIDE = ROOT / "results_v3" / "wave76_adjusted_response_specificity" / "ibd_wide_patient_cellstate_table.tsv"
-RA_BLOOD = ROOT / "results_v3" / "wave18_treatment_response" / "wave18_gse138746_ra_sample_module_scores.tsv"
-W75_CROSS = ROOT / "results_v3" / "wave75_response_state_stratification" / "cross_dataset_response_convergence.tsv"
-W76_CROSS = ROOT / "results_v3" / "wave76_adjusted_response_specificity" / "adjusted_cross_dataset_convergence.tsv"
-PSO_PREPOST = ROOT / "results_v3" / "wave18_treatment_response" / "wave18_gse183047_psoriasis_prepost_tests.tsv"
-UC_TOFA = ROOT / "results_v3" / "wave18_treatment_response" / "wave18_existing_gse253006_uc_summary.tsv"
+RA_WIDE = ROOT / "phases/v3/results" / "wave76_adjusted_response_specificity" / "ra_wide_patient_table.tsv"
+IBD_WIDE = ROOT / "phases/v3/results" / "wave76_adjusted_response_specificity" / "ibd_wide_patient_cellstate_table.tsv"
+RA_BLOOD = ROOT / "phases/v3/results" / "wave18_treatment_response" / "wave18_gse138746_ra_sample_module_scores.tsv"
+W75_CROSS = ROOT / "phases/v3/results" / "wave75_response_state_stratification" / "cross_dataset_response_convergence.tsv"
+W76_CROSS = ROOT / "phases/v3/results" / "wave76_adjusted_response_specificity" / "adjusted_cross_dataset_convergence.tsv"
+PSO_PREPOST = ROOT / "phases/v3/results" / "wave18_treatment_response" / "wave18_gse183047_psoriasis_prepost_tests.tsv"
+UC_TOFA = ROOT / "phases/v3/results" / "wave18_treatment_response" / "wave18_existing_gse253006_uc_summary.tsv"
 
 MODULES = [
     "lysosomal_apc",

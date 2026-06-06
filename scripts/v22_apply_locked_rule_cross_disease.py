@@ -160,7 +160,7 @@ def eval_gse85034() -> tuple[dict[str, object], pd.DataFrame]:
 
 
 def eval_gse253006() -> tuple[dict[str, object], pd.DataFrame]:
-    path = ROOT / "results_v3" / "gse253006_tofacitinib" / "gse253006_sample_target_scores.tsv"
+    path = ROOT / "phases/v3/results" / "gse253006_tofacitinib" / "gse253006_sample_target_scores.tsv"
     df = pd.read_csv(path, sep="\t", low_memory=False)
     rows = []
     for patient, sub in df.groupby("patient"):

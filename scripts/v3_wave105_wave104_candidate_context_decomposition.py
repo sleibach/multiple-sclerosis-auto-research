@@ -22,16 +22,16 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave105_wave104_candidate_context_decomposition"
+OUT = ROOT / "phases/v3/results" / "wave105_wave104_candidate_context_decomposition"
 
 TARGETS = ["IFI30", "IL7R", "SP140", "GALC", "CD58"]
 
-BROAD_CONTRASTS = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
-W94_CONTEXT = ROOT / "results_v3" / "wave94_accessible_state_rerank" / "broad_candidate_context_rows.tsv"
-RESIDUAL_RAW = ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_raw_tests.tsv"
-RESIDUAL_TESTS = ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_residual_tests.tsv"
-W91_MATRIX = ROOT / "results_v3" / "wave91_lipid_lysosomal_module_intervention_rank" / "module_wide_evidence_matrix.tsv"
-W104_RANK = ROOT / "results_v3" / "wave104_genetics_first_lipid_state_convergence_audit" / "genetics_first_lipid_state_rank.tsv"
+BROAD_CONTRASTS = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
+W94_CONTEXT = ROOT / "phases/v3/results" / "wave94_accessible_state_rerank" / "broad_candidate_context_rows.tsv"
+RESIDUAL_RAW = ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_raw_tests.tsv"
+RESIDUAL_TESTS = ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_residual_tests.tsv"
+W91_MATRIX = ROOT / "phases/v3/results" / "wave91_lipid_lysosomal_module_intervention_rank" / "module_wide_evidence_matrix.tsv"
+W104_RANK = ROOT / "phases/v3/results" / "wave104_genetics_first_lipid_state_convergence_audit" / "genetics_first_lipid_state_rank.tsv"
 
 
 def read_tsv(path: Path) -> pd.DataFrame:

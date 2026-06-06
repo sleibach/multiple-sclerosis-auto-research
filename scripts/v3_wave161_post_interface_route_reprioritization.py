@@ -15,7 +15,7 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave161_post_interface_route_reprioritization"
+OUT = ROOT / "phases/v3/results" / "wave161_post_interface_route_reprioritization"
 OUT.mkdir(parents=True, exist_ok=True)
 
 RECENT_CLOSED_TOKENS = [
@@ -68,9 +68,9 @@ def has_token(row: pd.Series, tokens: list[str]) -> bool:
 
 
 def main() -> None:
-    route = read(ROOT / "results_v3" / "wave110_post_closure_intervention_route_map" / "post_closure_route_map.tsv")
-    meta = read(ROOT / "results_v3" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv")
-    strict = read(ROOT / "results_v3" / "wave145_strict_route_inventory" / "strict_route_inventory.tsv")
+    route = read(ROOT / "phases/v3/results" / "wave110_post_closure_intervention_route_map" / "post_closure_route_map.tsv")
+    meta = read(ROOT / "phases/v3/results" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv")
+    strict = read(ROOT / "phases/v3/results" / "wave145_strict_route_inventory" / "strict_route_inventory.tsv")
 
     rows = []
     for _, r in route.iterrows():

@@ -12,9 +12,9 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave125_mechanism_class_failure_map"
+OUT = ROOT / "phases/v3/results" / "wave125_mechanism_class_failure_map"
 
-W122 = ROOT / "results_v3" / "wave122_fresh_breadth_target_scan" / "fresh_breadth_target_rank.tsv"
+W122 = ROOT / "phases/v3/results" / "wave122_fresh_breadth_target_scan" / "fresh_breadth_target_rank.tsv"
 TOP_N = 300
 
 

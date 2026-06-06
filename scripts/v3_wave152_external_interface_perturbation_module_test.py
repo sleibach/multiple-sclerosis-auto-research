@@ -25,7 +25,7 @@ np.random.seed(SEED)
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw_v3" / "interface_perturbation_geo"
-OUT = ROOT / "results_v3" / "wave152_external_interface_perturbation_module_test"
+OUT = ROOT / "phases/v3/results" / "wave152_external_interface_perturbation_module_test"
 OUT.mkdir(parents=True, exist_ok=True)
 
 MODULES: dict[str, list[str]] = {

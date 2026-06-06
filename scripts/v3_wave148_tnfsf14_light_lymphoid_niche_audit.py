@@ -11,19 +11,19 @@ import pandas as pd
 from v3_analyze_direct_h5ad_cell_states import ROOT
 
 
-OUT = ROOT / "results_v3" / "wave148_tnfsf14_light_lymphoid_niche_audit"
+OUT = ROOT / "phases/v3/results" / "wave148_tnfsf14_light_lymphoid_niche_audit"
 SEED = 20260527
 GENES = ["TNFSF14", "TNFRSF14", "LTBR"]
 
 FILES = {
-    "wave55": ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv",
-    "wave62": ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv",
-    "wave104": ROOT / "results_v3" / "wave104_genetics_first_lipid_state_convergence_audit" / "genetics_first_lipid_state_rank.tsv",
-    "wave146": ROOT / "results_v3" / "wave146_architecture_first_barrier_retention_scan" / "architecture_gate_decision.tsv",
-    "wave103_sender": ROOT / "results_v3" / "wave103_sender_to_myeloid_bridge_scan" / "sender_bridge_gene_summary.tsv",
-    "wave103_raw": ROOT / "results_v3" / "wave103_sender_to_myeloid_bridge_scan" / "sender_raw_contrasts.tsv",
-    "wave96": ROOT / "results_v3" / "wave96_c15orf48_controller_search" / "c15orf48_controller_candidate_rank.tsv",
-    "ms": ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv",
+    "wave55": ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv",
+    "wave62": ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv",
+    "wave104": ROOT / "phases/v3/results" / "wave104_genetics_first_lipid_state_convergence_audit" / "genetics_first_lipid_state_rank.tsv",
+    "wave146": ROOT / "phases/v3/results" / "wave146_architecture_first_barrier_retention_scan" / "architecture_gate_decision.tsv",
+    "wave103_sender": ROOT / "phases/v3/results" / "wave103_sender_to_myeloid_bridge_scan" / "sender_bridge_gene_summary.tsv",
+    "wave103_raw": ROOT / "phases/v3/results" / "wave103_sender_to_myeloid_bridge_scan" / "sender_raw_contrasts.tsv",
+    "wave96": ROOT / "phases/v3/results" / "wave96_c15orf48_controller_search" / "c15orf48_controller_candidate_rank.tsv",
+    "ms": ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv",
 }
 
 

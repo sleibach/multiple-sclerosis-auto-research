@@ -23,31 +23,31 @@ from statsmodels.stats.multitest import multipletests
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave74_ephx2_oxylipin_specificity"
+OUT = ROOT / "phases/v3/results" / "wave74_ephx2_oxylipin_specificity"
 SEED = 20260527
 
-WAVE66 = ROOT / "results_v3" / "wave66_metabolomics_class_convergence"
+WAVE66 = ROOT / "phases/v3/results" / "wave66_metabolomics_class_convergence"
 FEATURE_EFFECTS = WAVE66 / "feature_contrast_effects.tsv"
 CLASS_EFFECTS = WAVE66 / "class_contrast_effects.tsv"
 CLASS_RANK = WAVE66 / "class_convergence_rank.tsv"
 INVENTORY = WAVE66 / "metabolite_class_inventory.tsv"
 
-BROAD_SUMMARY = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_summary.tsv"
-BROAD_RANK = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
-BROAD_CONTRASTS = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
-MS_WM = ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv"
-WAVE62 = ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
+BROAD_SUMMARY = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_summary.tsv"
+BROAD_RANK = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
+BROAD_CONTRASTS = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
+MS_WM = ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv"
+WAVE62 = ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
 
-GSE282122_RAW = ROOT / "results_v3" / "wave68_gse282122_unrestricted_gene_screen" / "raw_remission_response_gene_tests.tsv"
-GSE282122_PAIRED = ROOT / "results_v3" / "wave68_gse282122_unrestricted_gene_screen" / "paired_gene_delta_tests.tsv"
-GSE282122_INTEGRATED = ROOT / "results_v3" / "wave68_gse282122_unrestricted_gene_screen" / "integrated_gene_target_rank.tsv"
-WAVE69D = ROOT / "results_v3" / "wave69d_gse282122_geneformer_remission_centroid" / "geneformer_remission_gene_summary.tsv"
-WAVE57 = ROOT / "results_v3" / "wave57_intervention_first_geneformer_screen" / "wave57_geneformer_gene_summary.tsv"
+GSE282122_RAW = ROOT / "phases/v3/results" / "wave68_gse282122_unrestricted_gene_screen" / "raw_remission_response_gene_tests.tsv"
+GSE282122_PAIRED = ROOT / "phases/v3/results" / "wave68_gse282122_unrestricted_gene_screen" / "paired_gene_delta_tests.tsv"
+GSE282122_INTEGRATED = ROOT / "phases/v3/results" / "wave68_gse282122_unrestricted_gene_screen" / "integrated_gene_target_rank.tsv"
+WAVE69D = ROOT / "phases/v3/results" / "wave69d_gse282122_geneformer_remission_centroid" / "geneformer_remission_gene_summary.tsv"
+WAVE57 = ROOT / "phases/v3/results" / "wave57_intervention_first_geneformer_screen" / "wave57_geneformer_gene_summary.tsv"
 
-RA_COUNTS = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
-RA_META = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
-RA_MODULE_PAIRED = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "paired_pharmacodynamic_tests.tsv"
-RA_MODULE_RESPONSE = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "response_delta_tests.tsv"
+RA_COUNTS = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
+RA_META = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
+RA_MODULE_PAIRED = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "paired_pharmacodynamic_tests.tsv"
+RA_MODULE_RESPONSE = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "response_delta_tests.tsv"
 
 TARGET = "EPHX2"
 

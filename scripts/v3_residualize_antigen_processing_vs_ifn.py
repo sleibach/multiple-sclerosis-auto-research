@@ -24,7 +24,7 @@ from statsmodels.stats.multitest import multipletests
 
 SEED = 20260526
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "residualization"
+OUT = ROOT / "phases/v3/results" / "residualization"
 
 TARGET_MODULES = [
     "hla_ii_apc",
@@ -85,7 +85,7 @@ def residualize(y: np.ndarray, x: np.ndarray) -> tuple[np.ndarray, float, float]
 
 
 def direct_h5ad_wide() -> pd.DataFrame:
-    path = ROOT / "results_v3" / "direct_h5ad_cell_state" / "direct_h5ad_donor_module_scores.tsv"
+    path = ROOT / "phases/v3/results" / "direct_h5ad_cell_state" / "direct_h5ad_donor_module_scores.tsv"
     long = pd.read_csv(path, sep="\t")
     long = long[long["module"].isin(["ifn_apc", *TARGET_MODULES])].copy()
     rows = []
@@ -101,7 +101,7 @@ def direct_h5ad_wide() -> pd.DataFrame:
 
 
 def thyroid_wide() -> pd.DataFrame:
-    path = ROOT / "results_v3" / "gse248205_thyroid_spatial" / "gse248205_sample_module_scores.tsv"
+    path = ROOT / "phases/v3/results" / "gse248205_thyroid_spatial" / "gse248205_sample_module_scores.tsv"
     if not path.exists():
         return pd.DataFrame()
     df = pd.read_csv(path, sep="\t")

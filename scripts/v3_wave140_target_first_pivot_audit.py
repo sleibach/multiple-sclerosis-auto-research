@@ -12,13 +12,13 @@ from v3_analyze_osmr_complement_axes import ROOT
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave140_target_first_pivot_audit"
+OUT = ROOT / "phases/v3/results" / "wave140_target_first_pivot_audit"
 
 INPUTS = {
-    "wave62": ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv",
-    "wave104": ROOT / "results_v3" / "wave104_genetics_first_lipid_state_convergence_audit" / "genetics_first_lipid_state_rank.tsv",
-    "wave128": ROOT / "results_v3" / "wave128_genetics_first_reopener" / "genetics_first_reopener_decisions.tsv",
-    "wave133": ROOT / "results_v3" / "wave133_closure_hygiene_correction" / "wave122_corrected_rank.tsv",
+    "wave62": ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv",
+    "wave104": ROOT / "phases/v3/results" / "wave104_genetics_first_lipid_state_convergence_audit" / "genetics_first_lipid_state_rank.tsv",
+    "wave128": ROOT / "phases/v3/results" / "wave128_genetics_first_reopener" / "genetics_first_reopener_decisions.tsv",
+    "wave133": ROOT / "phases/v3/results" / "wave133_closure_hygiene_correction" / "wave122_corrected_rank.tsv",
 }
 
 PRIOR_BLOCK_TERMS = [

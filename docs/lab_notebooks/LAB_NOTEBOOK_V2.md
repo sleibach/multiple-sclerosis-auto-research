@@ -67,6 +67,6 @@ However, ACSL1 remains rejected as V2 target because the local tests fail on the
 
 ## 2026-05-26T19:05Z
 
-Started `./run_v2_analysis.sh`. The first replay failed in the online `v2_acsl_family_inventory.py` step due a UniProt/AlphaFold/ChEMBL network timeout, after the output had already been generated earlier. Modified `run_v2_analysis.sh` to rerun local analyses and reuse cached online-query outputs when present. This avoids making reproducibility depend on transient API availability for already-recorded results.
+Started `./scripts/entrypoints/run_v2_analysis.sh`. The first replay failed in the online `v2_acsl_family_inventory.py` step due a UniProt/AlphaFold/ChEMBL network timeout, after the output had already been generated earlier. Modified `scripts/entrypoints/run_v2_analysis.sh` to rerun local analyses and reuse cached online-query outputs when present. This avoids making reproducibility depend on transient API availability for already-recorded results.
 
 The second replay completed. A later attempt to create prior-art files via live NCBI E-utilities timed out, so I cached the PubMed query counts and first-hit summaries that were already retrieved earlier in this session. `scripts/v2_prior_art_counts.py` remains available to refresh these files when NCBI is reachable.

@@ -24,7 +24,7 @@ import v3_analyze_gse111972_microglia as gse111972
 
 SEED = 20260526
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave5_local_quant"
+OUT = ROOT / "phases/v3/results" / "wave5_local_quant"
 
 
 @dataclass(frozen=True)

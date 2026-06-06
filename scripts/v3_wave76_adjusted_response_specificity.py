@@ -29,11 +29,11 @@ from v3_analyze_direct_h5ad_cell_states import ROOT
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave76_adjusted_response_specificity"
+OUT = ROOT / "phases/v3/results" / "wave76_adjusted_response_specificity"
 
-RA_PAIRS = ROOT / "results_v3" / "wave75_response_state_stratification" / "ra_patient_module_pairs.tsv"
-IBD_PAIRS = ROOT / "results_v3" / "wave75_response_state_stratification" / "ibd_patient_module_pairs.tsv"
-RA_META = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
+RA_PAIRS = ROOT / "phases/v3/results" / "wave75_response_state_stratification" / "ra_patient_module_pairs.tsv"
+IBD_PAIRS = ROOT / "phases/v3/results" / "wave75_response_state_stratification" / "ibd_patient_module_pairs.tsv"
+RA_META = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
 
 FROZEN_MODULES = [
     "lysosomal_apc",

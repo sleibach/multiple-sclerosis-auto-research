@@ -17,9 +17,9 @@ signaling.
 
 ## Evidence
 
-- `results_v3/wave14_gsk3b_ciita_perturbation/wave14_verdict.json`
-- `results_v3/wave15_perturbation_drug_response/ranked_direct_perturbations.tsv`
-- `results_v3/wave17_mediator_kinase_route/route_verdict.json`
+- `phases/v3/results/wave14_gsk3b_ciita_perturbation/wave14_verdict.json`
+- `phases/v3/results/wave15_perturbation_drug_response/ranked_direct_perturbations.tsv`
+- `phases/v3/results/wave17_mediator_kinase_route/route_verdict.json`
 
 ## Next Action
 

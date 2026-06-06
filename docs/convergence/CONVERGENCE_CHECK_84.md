@@ -62,5 +62,5 @@ context for future stratification work.
 ## Reproducibility
 
 - Script: `scripts/v3_wave130_ms_treatment_response_audit.py`
-- Output: `results_v3/wave130_ms_treatment_response_audit/`
+- Output: `phases/v3/results/wave130_ms_treatment_response_audit/`
 - Seed: `20260527`

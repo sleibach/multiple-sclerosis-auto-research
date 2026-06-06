@@ -12,11 +12,11 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave116_closure_aware_route_rerank"
-W110 = ROOT / "results_v3" / "wave110_post_closure_intervention_route_map" / "post_closure_route_map.tsv"
-W95 = ROOT / "results_v3" / "wave95_mechanistic_forcing_triage" / "mechanistic_forcing_candidate_rank.tsv"
-W83 = ROOT / "results_v3" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv"
-W91 = ROOT / "results_v3" / "wave91_lipid_lysosomal_module_intervention_rank" / "lipid_lysosomal_intervention_rank.tsv"
+OUT = ROOT / "phases/v3/results" / "wave116_closure_aware_route_rerank"
+W110 = ROOT / "phases/v3/results" / "wave110_post_closure_intervention_route_map" / "post_closure_route_map.tsv"
+W95 = ROOT / "phases/v3/results" / "wave95_mechanistic_forcing_triage" / "mechanistic_forcing_candidate_rank.tsv"
+W83 = ROOT / "phases/v3/results" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv"
+W91 = ROOT / "phases/v3/results" / "wave91_lipid_lysosomal_module_intervention_rank" / "lipid_lysosomal_intervention_rank.tsv"
 
 CLOSED_TERMS = {
     "PSAP": "wave113_no_recurrence",

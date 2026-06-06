@@ -28,7 +28,7 @@ from v3_analyze_osmr_complement_axes import CONFIGS, ROOT
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave79_targetability_shortlist_residual_audit"
+OUT = ROOT / "phases/v3/results" / "wave79_targetability_shortlist_residual_audit"
 
 CANDIDATE_GENES = ["CD58", "SPNS1", "P4HB", "SEL1L3"]
 BENCHMARK_GENES = ["IFI30"]
@@ -60,15 +60,15 @@ MODULES = {
 CORE_COVARIATES = ["ifn_apc", "hla_ii_apc", "lysosomal_apc", "inflammatory_nfkb"]
 EXTRA_COVARIATES = ["lipid_loader_repair", "er_upr_stress", "stromal_injury", "t_cell_admixture"]
 
-MS_SIG = ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv"
-W39 = ROOT / "results_v3" / "wave39_surfaceome_rescue_after_resolution_pivot" / "surfaceome_rescue_rank.tsv"
-W62 = ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
-W68_RAW = ROOT / "results_v3" / "wave68_gse282122_unrestricted_gene_screen" / "raw_remission_response_gene_tests.tsv"
-W68_ADJ = ROOT / "results_v3" / "wave68_gse282122_unrestricted_gene_screen" / "integrated_gene_target_rank.tsv"
-W71 = ROOT / "results_v3" / "wave71_global_survivor_meta_rank" / "global_survivor_meta_rank.tsv"
-RA_COUNTS = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
-RA_META = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
-RA_MODULES = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_module_scores.tsv"
+MS_SIG = ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv"
+W39 = ROOT / "phases/v3/results" / "wave39_surfaceome_rescue_after_resolution_pivot" / "surfaceome_rescue_rank.tsv"
+W62 = ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
+W68_RAW = ROOT / "phases/v3/results" / "wave68_gse282122_unrestricted_gene_screen" / "raw_remission_response_gene_tests.tsv"
+W68_ADJ = ROOT / "phases/v3/results" / "wave68_gse282122_unrestricted_gene_screen" / "integrated_gene_target_rank.tsv"
+W71 = ROOT / "phases/v3/results" / "wave71_global_survivor_meta_rank" / "global_survivor_meta_rank.tsv"
+RA_COUNTS = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
+RA_META = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
+RA_MODULES = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_module_scores.tsv"
 
 
 def rel(path: Path) -> str:

@@ -27,7 +27,7 @@ V6/V7 derivation, V7 validation, or V7 kill/survival decisions:
   expression with week-16 PASI75 outcome; local cache under
   `data/raw_v3/wave89_psoriasis_response/`.
 - `GSE253006_TOF`: ulcerative-colitis tofacitinib single-cell sample-level
-  module summaries; local results under `results_v3/gse253006_tofacitinib/`.
+  module summaries; local results under `phases/v3/results/gse253006_tofacitinib/`.
   This is exploratory for V22 because the precomputed module is broader than
   the frozen V22 IFN/APC gene set and compartment is unresolved.
 

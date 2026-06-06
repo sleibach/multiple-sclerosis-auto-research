@@ -82,9 +82,9 @@ Searches run on 2026-05-28:
   `./.venv_v3_py312/bin/python scripts/query_knowledge_index.py "TYK2 deucravacitinib allosteric MS Sjogren V5 prior art recalibration" 12`.
   Top hits were this file, `meta/ROADMAP_V5.md`,
   `meta/CONVERGENCE_CHECK_V5_01.md`, `meta/CURRENT_STATUS.md`, and
-  `subagents_v3/wave11_genetics_prior_art_scout_report.md`.
+  `phases/v3/subagents/wave11_genetics_prior_art_scout_report.md`.
 - Local text search:
-  `rg -n "TYK2|deucravacitinib|BMS-986165|Sotyktu|allosteric" knowledge meta subagents subagents_v3 results_v3 analysis results scripts`.
+  `rg -n "TYK2|deucravacitinib|BMS-986165|Sotyktu|allosteric" knowledge meta subagents phases/v3/subagents phases/v3/results analysis results scripts`.
   This recovered the V3 genetics, perturbation, OpenTargets, and prior-art
   records summarized below.
 - ClinicalTrials.gov API:
@@ -147,39 +147,39 @@ pathway suppression.
   `./.venv_v3_py312/bin/python scripts/query_knowledge_index.py "TYK2 V4 prior art subgroup combination autoimmune" 10`.
   Top hits were `knowledge/candidates/TYK2.md`,
   `knowledge/candidates/LRRK2.md`, `meta/PRIOR_ART_RULEBOOK.md`,
-  `knowledge/candidates/LTA4H.md`, and `subagents_v3/wave11_genetics_prior_art_scout_report.md`.
-- `subagents_v3/wave11_genetics_prior_art_scout_report.md`: TYK2 was called
+  `knowledge/candidates/LTA4H.md`, and `phases/v3/subagents/wave11_genetics_prior_art_scout_report.md`.
+- `phases/v3/subagents/wave11_genetics_prior_art_scout_report.md`: TYK2 was called
   the strongest cross-autoimmune genetic comparator, with literature links for
   TYK2 coding/common variants across MS, SLE, Crohn, UC, psoriasis, RA, T1D,
   and IBD, but the hard call was "blocked positive control" rather than novel
   intervention.
-- `results_v3/wave34a_genetics_first_target_rescue/genetics_first_candidate_rank.tsv`:
+- `phases/v3/results/wave34a_genetics_first_target_rescue/genetics_first_candidate_rank.tsv`:
   TYK2 ranked high in a genetics-first target scan (`genetics_first_score`
   19.65, 36 GWAS Catalog trait count, 7 OpenTargets diseases score >= 0.5:
   AITD, Crohn, PBC, psoriasis, RA, SLE, T1D), but was called
   `DEMOTE_PRIOR_ART_BLOCKED` and had no new local cell-state or perturbation
   delta.
-- `results_v3/wave34_genetics_expression_druggability_scan/wave34_genetics_expression_druggability_rank.tsv`:
+- `phases/v3/results/wave34_genetics_expression_druggability_scan/wave34_genetics_expression_druggability_rank.tsv`:
   TYK2 was `PARK_GENETIC_DRUGGABLE_NEEDS_CELL_STATE`; failed
   `gate_local_cell_state`, `gate_perturbation_or_model`, and
   `gate_not_prior_art_blocked`; MS anchor was false.
-- `results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv`:
+- `phases/v3/results/wave62_opentargets_target_resolution/target_resolution_summary.tsv`:
   TYK2 had cross-disease L2G/QTL breadth but failed MS L2G, MS-relevant QTL,
   module-link, manual-blocker, and prior-context gates; call
   `NO_GO_WAVE62_TARGET_RESOLUTION`; blocker class
   `prior_art_autoimmune_kinase_class` / `generic_JAK_STAT_axis`.
-- `results_v3/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv`:
+- `phases/v3/results/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv`:
   TYK2 was `NO_GO_PERTURBATION_FIRST_BLOCKED`, with support only in psoriasis
   and T1D, no MS positive disease count, and blocker
   `JAK/IFN broad immunosuppression/prior art`.
-- `results_v3/wave81_perturbation_first_rescue/perturbation_first_wave15_rows.tsv`:
+- `phases/v3/results/wave81_perturbation_first_rescue/perturbation_first_wave15_rows.tsv`:
   direct perturbation evidence classified TYK2 as
   `broad_ifn_jak_like_collapse` and `comparator_only_broad_ifn_jak_collapse`.
-- `results_v3/wave166_same_gene_genetics_cellstate_overlap/same_gene_genetics_cellstate_rank.tsv`:
+- `phases/v3/results/wave166_same_gene_genetics_cellstate_overlap/same_gene_genetics_cellstate_rank.tsv`:
   TYK2 failed same-gene genetics/cell-state overlap because of insufficient MS
   genetic anchor and prior/local no-go blocker.
-- `results_v3/wave34a_genetics_first_target_rescue/raw_api/clinicaltrials_TYK2.json`
-  and `results_v3/wave34a_genetics_first_target_rescue/raw_api/europepmc_TYK2.json`:
+- `phases/v3/results/wave34a_genetics_first_target_rescue/raw_api/clinicaltrials_TYK2.json`
+  and `phases/v3/results/wave34a_genetics_first_target_rescue/raw_api/europepmc_TYK2.json`:
   local API cache records 17 ClinicalTrials.gov matches and 6839 Europe PMC
   hits for TYK2 autoimmune/MS-adjacent queries, documenting crowding but not a
   P0-equivalent MS subgroup failure.

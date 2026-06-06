@@ -22,7 +22,7 @@ import requests
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave32c_resolution_prior_art_audit"
+OUT = ROOT / "phases/v3/results" / "wave32c_resolution_prior_art_audit"
 RAW = OUT / "raw_api"
 SEED = 20260527
 

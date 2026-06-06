@@ -1,0 +1,10 @@
+old_path	new_path	method	notes
+results_v2	phases/v2/results	git mv	Tracked V2 analysis outputs moved out of repository root.
+literature_v2	phases/v2/literature	mv + .gitkeep	Directory was empty/untracked, so git mv was not applicable.
+run_v2_analysis.sh	scripts/entrypoints/run_v2_analysis.sh	git mv	V2 root entrypoint moved under script entrypoints.
+results_v3	phases/v3/results	git mv	Tracked V3 analysis outputs moved out of repository root.
+literature_v3	phases/v3/literature	git mv	Tracked V3 literature and prior-art artifacts moved out of repository root.
+models_v3	phases/v3/models	mv + .gitkeep	Directory was empty/untracked, so git mv was not applicable.
+tmp_v3	phases/v3/tmp	mv + .gitkeep	Directory was empty/untracked, so git mv was not applicable.
+subagents_v3	phases/v3/subagents	git mv	Tracked V3 subagent artifacts moved out of repository root.
+run_v3_analysis.sh	scripts/entrypoints/run_v3_analysis.sh	git mv	V3 root entrypoint moved under script entrypoints.

@@ -32,14 +32,14 @@ Prior-art grade: `P1 high crowding`, not target-invalidating.
 
 Local V3 support:
 
-- `results_v3/wave14_gsk3b_ciita_perturbation/wave14_verdict.json`:
+- `phases/v3/results/wave14_gsk3b_ciita_perturbation/wave14_verdict.json`:
   `Gsk3b_KO` reduces CIITA/MHC-II/CD74 mean log2FC `-1.856`, generic IFN mean
   log2FC `-0.483`, selectivity ratio `3.84`. Ruxolitinib is the broad
   IFN/JAK-collapse control.
-- `results_v3/wave15_perturbation_drug_response/ranked_direct_perturbations.tsv`:
+- `phases/v3/results/wave15_perturbation_drug_response/ranked_direct_perturbations.tsv`:
   `Med16_KO` suppresses target module `-3.1395`, generic IFN `-0.7979`,
   selectivity score `2.3051`; `RFX5` CRISPRi is weaker but target-selective.
-- `results_v3/wave17_mediator_kinase_route/route_verdict.json`:
+- `phases/v3/results/wave17_mediator_kinase_route/route_verdict.json`:
   CDK8/CDK19 translational route was parked because pharmacologic phenocopy of
   MED16 selectivity was not proven.
 

@@ -34,7 +34,7 @@ from v3_wave66_metabolomics_class_convergence import (
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave74_ephx2_direct_ratio_audit"
+OUT = ROOT / "phases/v3/results" / "wave74_ephx2_direct_ratio_audit"
 
 
 def rel(path: Path) -> str:
@@ -267,7 +267,7 @@ def contrast_ratio_rows(
 
 
 def proxy_feature_contrasts(inventory: pd.DataFrame) -> pd.DataFrame:
-    feature_path = ROOT / "results_v3" / "wave66_metabolomics_class_convergence" / "feature_contrast_effects.tsv"
+    feature_path = ROOT / "phases/v3/results" / "wave66_metabolomics_class_convergence" / "feature_contrast_effects.tsv"
     if inventory.empty or not feature_path.exists():
         return pd.DataFrame()
     feature = pd.read_csv(feature_path, sep="\t")
@@ -420,7 +420,7 @@ def main() -> None:
         "inputs": {
             "wave66_raw": rel(ROOT / "data" / "raw_v3" / "wave66_metabolomics_workbench"),
             "wave66_feature_contrasts": rel(
-                ROOT / "results_v3" / "wave66_metabolomics_class_convergence" / "feature_contrast_effects.tsv"
+                ROOT / "phases/v3/results" / "wave66_metabolomics_class_convergence" / "feature_contrast_effects.tsv"
             ),
         },
         "ephx2_relevant_features": int(inventory.shape[0]),

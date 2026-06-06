@@ -27,9 +27,9 @@ from statsmodels.stats.multitest import multipletests
 
 from v3_analyze_osmr_complement_axes import CONFIGS, ROOT
 
-OUT = ROOT / "results_v3" / "wave14_gsk3b_local_gate"
-MS_SIGNATURE = ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv"
-MODULE_SCORES = ROOT / "results_v3" / "direct_h5ad_cell_state" / "direct_h5ad_donor_module_scores.tsv"
+OUT = ROOT / "phases/v3/results" / "wave14_gsk3b_local_gate"
+MS_SIGNATURE = ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv"
+MODULE_SCORES = ROOT / "phases/v3/results" / "direct_h5ad_cell_state" / "direct_h5ad_donor_module_scores.tsv"
 
 GENE_ALIASES = {
     "GSK3B": ("GSK3B",),

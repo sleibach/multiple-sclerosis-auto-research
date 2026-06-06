@@ -24,8 +24,8 @@ from scipy import stats
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw_v3" / "state_parse_split4"
-TMP = ROOT / "tmp_v3"
-OUT = ROOT / "results_v3"
+TMP = ROOT / "phases/v3/tmp"
+OUT = ROOT / "phases/v3/results"
 ADATA_REAL_PATH = RAW / "adata_real.h5ad"
 
 MODEL_REPO = "arcinstitute/ST-HVG-Parse"

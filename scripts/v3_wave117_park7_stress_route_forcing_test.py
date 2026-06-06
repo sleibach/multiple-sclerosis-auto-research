@@ -13,19 +13,19 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave117_park7_stress_route_forcing_test"
+OUT = ROOT / "phases/v3/results" / "wave117_park7_stress_route_forcing_test"
 
-W81_RANK = ROOT / "results_v3" / "wave81_perturbation_first_rescue" / "perturbation_first_integrated_rank.tsv"
-W81_MS = ROOT / "results_v3" / "wave81_perturbation_first_rescue" / "perturbation_first_ms_rows.tsv"
-W81_BROAD = ROOT / "results_v3" / "wave81_perturbation_first_rescue" / "perturbation_first_broad_summary.tsv"
-W81_FOUNDATION = ROOT / "results_v3" / "wave81_perturbation_first_rescue" / "perturbation_first_wave57_rows.tsv"
-W81_IBD = ROOT / "results_v3" / "wave81_perturbation_first_rescue" / "perturbation_first_ibd_response_summary.tsv"
-W81_W62 = ROOT / "results_v3" / "wave81_perturbation_first_rescue" / "perturbation_first_wave62_rows.tsv"
-W81_W37 = ROOT / "results_v3" / "wave81_perturbation_first_rescue" / "perturbation_first_wave37_rows.tsv"
-W68 = ROOT / "results_v3" / "wave68_gse282122_unrestricted_gene_screen" / "integrated_gene_target_rank.tsv"
-BROAD = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
-RESID = ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_residual_tests.tsv"
-W55 = ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "external_genetics_candidate_audit.tsv"
+W81_RANK = ROOT / "phases/v3/results" / "wave81_perturbation_first_rescue" / "perturbation_first_integrated_rank.tsv"
+W81_MS = ROOT / "phases/v3/results" / "wave81_perturbation_first_rescue" / "perturbation_first_ms_rows.tsv"
+W81_BROAD = ROOT / "phases/v3/results" / "wave81_perturbation_first_rescue" / "perturbation_first_broad_summary.tsv"
+W81_FOUNDATION = ROOT / "phases/v3/results" / "wave81_perturbation_first_rescue" / "perturbation_first_wave57_rows.tsv"
+W81_IBD = ROOT / "phases/v3/results" / "wave81_perturbation_first_rescue" / "perturbation_first_ibd_response_summary.tsv"
+W81_W62 = ROOT / "phases/v3/results" / "wave81_perturbation_first_rescue" / "perturbation_first_wave62_rows.tsv"
+W81_W37 = ROOT / "phases/v3/results" / "wave81_perturbation_first_rescue" / "perturbation_first_wave37_rows.tsv"
+W68 = ROOT / "phases/v3/results" / "wave68_gse282122_unrestricted_gene_screen" / "integrated_gene_target_rank.tsv"
+BROAD = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
+RESID = ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_residual_tests.tsv"
+W55 = ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "external_genetics_candidate_audit.tsv"
 
 GENERIC_COVARS = {
     "er_upr_stress",

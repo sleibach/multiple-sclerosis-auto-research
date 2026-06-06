@@ -29,7 +29,7 @@ from v3_analyze_direct_h5ad_cell_states import MODULES, ROOT
 
 SEED = 20260527
 RAW = ROOT / "data" / "raw_v3" / "wave67_gse282122_myeloid"
-OUT = ROOT / "results_v3" / "wave67_gse282122_myeloid_pseudobulk"
+OUT = ROOT / "phases/v3/results" / "wave67_gse282122_myeloid_pseudobulk"
 
 MYELOID_URL = "https://zenodo.org/api/records/14007626/files/myeloid_final.h5ad/content"
 PAIRED_URL = "https://zenodo.org/api/records/14007626/files/paired_sample_list.csv/content"

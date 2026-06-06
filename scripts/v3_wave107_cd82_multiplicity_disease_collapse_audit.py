@@ -22,10 +22,10 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave107_cd82_multiplicity_disease_collapse_audit"
-W105_GRID = ROOT / "results_v3" / "wave105_cd82_niche_robustness_audit" / "cd82_model_grid_tests.tsv"
-W105_SUMMARY = ROOT / "results_v3" / "wave105_cd82_niche_robustness_audit" / "cd82_robustness_summary.tsv"
-W106_SUMMARY = ROOT / "results_v3" / "wave106_cd82_specificity_confounder_audit" / "cd82_specificity_summary.tsv"
+OUT = ROOT / "phases/v3/results" / "wave107_cd82_multiplicity_disease_collapse_audit"
+W105_GRID = ROOT / "phases/v3/results" / "wave105_cd82_niche_robustness_audit" / "cd82_model_grid_tests.tsv"
+W105_SUMMARY = ROOT / "phases/v3/results" / "wave105_cd82_niche_robustness_audit" / "cd82_robustness_summary.tsv"
+W106_SUMMARY = ROOT / "phases/v3/results" / "wave106_cd82_specificity_confounder_audit" / "cd82_specificity_summary.tsv"
 
 
 def read_tsv(path: Path) -> pd.DataFrame:

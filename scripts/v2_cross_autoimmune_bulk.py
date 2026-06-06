@@ -23,7 +23,7 @@ from scipy import stats
 SEED = 20260526
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw_v2"
-OUT = ROOT / "results_v2"
+OUT = ROOT / "phases/v2/results"
 
 TARGET_GENES = [
     "ACSL1",

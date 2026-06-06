@@ -19,7 +19,7 @@ import requests
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw_v3" / "structures"
-OUT = ROOT / "results_v3" / "druggability"
+OUT = ROOT / "phases/v3/results" / "druggability"
 
 GENES = {
     "IFI30": {"role": "candidate lysosomal thiol reductase feedback effector", "fallback_accession": "P13284"},

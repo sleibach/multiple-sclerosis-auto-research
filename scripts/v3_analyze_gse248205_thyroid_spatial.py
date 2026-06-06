@@ -22,7 +22,7 @@ SEED = 20260526
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw_v3" / "gse248205"
 PROCESSED = RAW / "processed"
-OUT = ROOT / "results_v3" / "gse248205_thyroid_spatial"
+OUT = ROOT / "phases/v3/results" / "gse248205_thyroid_spatial"
 
 MODULES = {
     "ifn_apc": ["STAT1", "IRF1", "CXCL10", "GBP1", "CD74", "IFI30", "HLA-DRA", "HLA-DRB1"],

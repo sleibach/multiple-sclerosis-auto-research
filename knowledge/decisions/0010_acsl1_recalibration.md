@@ -27,7 +27,7 @@ Key local evidence:
 - `subagents/alpha1_acsl1_deepening_report_2026-05-26.md`
 - `subagents/beta1_cross_autoimmune_report_2026-05-26.md`
 - `subagents/gamma1_hostile_review_2026-05-26.md`
-- `results_v3/geneformer_broad_residual_delete/geneformer_broad_residual_summary.json`
+- `phases/v3/results/geneformer_broad_residual_delete/geneformer_broad_residual_summary.json`
 
 ## Consequence
 

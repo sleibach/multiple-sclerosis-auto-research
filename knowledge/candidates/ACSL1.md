@@ -63,7 +63,7 @@ The later V3/V2 scrutiny weakened the target claim on its own terms:
 - `subagents/gamma1_hostile_review_2026-05-26.md`: ACSL1 may be an overfit
   marker and requires incremental-value, perturbation-rescue, selectivity, and
   repair-safety gates before target promotion.
-- `results_v3/geneformer_broad_residual_delete/geneformer_broad_residual_summary.json`:
+- `phases/v3/results/geneformer_broad_residual_delete/geneformer_broad_residual_summary.json`:
   ACSL1 deletion in the bounded Geneformer screen had no support contexts, no
   strong support contexts, and negative projection direction in 5 of 7 contexts.
 

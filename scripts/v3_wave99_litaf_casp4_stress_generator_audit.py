@@ -22,7 +22,7 @@ import pandas as pd
 
 SEED = 20260527
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave99_litaf_casp4_stress_generator_audit"
+OUT = ROOT / "phases/v3/results" / "wave99_litaf_casp4_stress_generator_audit"
 
 
 GENES_HUMAN = [
@@ -257,13 +257,13 @@ def load_mouse_perturbation() -> pd.DataFrame:
 
 
 def collect_candidate_rows() -> pd.DataFrame:
-    w96 = read_tsv("results_v3/wave96_c15orf48_controller_search/c15orf48_controller_candidate_rank.tsv")
-    w97 = read_tsv("results_v3/wave97_c15_residual_costate_falsification/residual_costate_candidate_summary.tsv")
-    w37 = read_tsv("results_v3/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv")
-    w39 = read_tsv("results_v3/wave39_surfaceome_rescue_after_resolution_pivot/surfaceome_rescue_rank.tsv")
-    w57 = read_tsv("results_v3/wave57_intervention_first_geneformer_screen/wave57_geneformer_gene_summary.tsv")
-    w68 = read_tsv("results_v3/wave68_gse282122_unrestricted_gene_screen/adjusted_top_gene_ols.tsv")
-    w81 = read_tsv("results_v3/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv")
+    w96 = read_tsv("phases/v3/results/wave96_c15orf48_controller_search/c15orf48_controller_candidate_rank.tsv")
+    w97 = read_tsv("phases/v3/results/wave97_c15_residual_costate_falsification/residual_costate_candidate_summary.tsv")
+    w37 = read_tsv("phases/v3/results/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv")
+    w39 = read_tsv("phases/v3/results/wave39_surfaceome_rescue_after_resolution_pivot/surfaceome_rescue_rank.tsv")
+    w57 = read_tsv("phases/v3/results/wave57_intervention_first_geneformer_screen/wave57_geneformer_gene_summary.tsv")
+    w68 = read_tsv("phases/v3/results/wave68_gse282122_unrestricted_gene_screen/adjusted_top_gene_ols.tsv")
+    w81 = read_tsv("phases/v3/results/wave81_perturbation_first_rescue/perturbation_first_integrated_rank.tsv")
 
     rows = []
     for gene in ["LITAF", "CASP4"]:
@@ -611,17 +611,17 @@ def main() -> None:
         "",
         "## Output Files",
         "",
-        "- `results_v3/wave99_litaf_casp4_stress_generator_audit/litaf_casp4_gate_matrix.tsv`",
-        "- `results_v3/wave99_litaf_casp4_stress_generator_audit/litaf_casp4_calls.tsv`",
-        "- `results_v3/wave99_litaf_casp4_stress_generator_audit/litaf_casp4_local_evidence_summary.tsv`",
-        "- `results_v3/wave99_litaf_casp4_stress_generator_audit/gse294918_log2cpm_selected_genes.tsv`",
-        "- `results_v3/wave99_litaf_casp4_stress_generator_audit/gse294918_lps_timecourse_deltas.tsv`",
-        "- `results_v3/wave99_litaf_casp4_stress_generator_audit/gse294918_timecourse_summary.tsv`",
-        "- `results_v3/wave99_litaf_casp4_stress_generator_audit/gse294918_ruxolitinib_effects.tsv`",
-        "- `results_v3/wave99_litaf_casp4_stress_generator_audit/gse162464_mouse_perturbation_selected_genes.tsv`",
-        "- `results_v3/wave99_litaf_casp4_stress_generator_audit/source_anchor_table.tsv`",
-        "- `results_v3/wave99_litaf_casp4_stress_generator_audit/summary.json`",
-        "- `results_v3/wave99_litaf_casp4_stress_generator_audit/REPORT.md`",
+        "- `phases/v3/results/wave99_litaf_casp4_stress_generator_audit/litaf_casp4_gate_matrix.tsv`",
+        "- `phases/v3/results/wave99_litaf_casp4_stress_generator_audit/litaf_casp4_calls.tsv`",
+        "- `phases/v3/results/wave99_litaf_casp4_stress_generator_audit/litaf_casp4_local_evidence_summary.tsv`",
+        "- `phases/v3/results/wave99_litaf_casp4_stress_generator_audit/gse294918_log2cpm_selected_genes.tsv`",
+        "- `phases/v3/results/wave99_litaf_casp4_stress_generator_audit/gse294918_lps_timecourse_deltas.tsv`",
+        "- `phases/v3/results/wave99_litaf_casp4_stress_generator_audit/gse294918_timecourse_summary.tsv`",
+        "- `phases/v3/results/wave99_litaf_casp4_stress_generator_audit/gse294918_ruxolitinib_effects.tsv`",
+        "- `phases/v3/results/wave99_litaf_casp4_stress_generator_audit/gse162464_mouse_perturbation_selected_genes.tsv`",
+        "- `phases/v3/results/wave99_litaf_casp4_stress_generator_audit/source_anchor_table.tsv`",
+        "- `phases/v3/results/wave99_litaf_casp4_stress_generator_audit/summary.json`",
+        "- `phases/v3/results/wave99_litaf_casp4_stress_generator_audit/REPORT.md`",
         "",
     ]
     (OUT / "REPORT.md").write_text("\n".join(report))

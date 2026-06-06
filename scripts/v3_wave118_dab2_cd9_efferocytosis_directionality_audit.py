@@ -12,16 +12,16 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave118_dab2_cd9_efferocytosis_directionality_audit"
+OUT = ROOT / "phases/v3/results" / "wave118_dab2_cd9_efferocytosis_directionality_audit"
 GENES = ["DAB2", "CD9"]
 
-W81 = ROOT / "results_v3" / "wave81_perturbation_first_rescue" / "perturbation_first_integrated_rank.tsv"
-W37 = ROOT / "results_v3" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
-MS = ROOT / "results_v3" / "wave81_perturbation_first_rescue" / "perturbation_first_ms_rows.tsv"
-BROAD = ROOT / "results_v3" / "wave81_perturbation_first_rescue" / "perturbation_first_broad_summary.tsv"
-IBD = ROOT / "results_v3" / "wave81_perturbation_first_rescue" / "perturbation_first_ibd_response_summary.tsv"
-W71 = ROOT / "results_v3" / "wave81_perturbation_first_rescue" / "perturbation_first_wave71_rows.tsv"
-W110 = ROOT / "results_v3" / "wave110_post_closure_intervention_route_map" / "post_closure_route_map.tsv"
+W81 = ROOT / "phases/v3/results" / "wave81_perturbation_first_rescue" / "perturbation_first_integrated_rank.tsv"
+W37 = ROOT / "phases/v3/results" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
+MS = ROOT / "phases/v3/results" / "wave81_perturbation_first_rescue" / "perturbation_first_ms_rows.tsv"
+BROAD = ROOT / "phases/v3/results" / "wave81_perturbation_first_rescue" / "perturbation_first_broad_summary.tsv"
+IBD = ROOT / "phases/v3/results" / "wave81_perturbation_first_rescue" / "perturbation_first_ibd_response_summary.tsv"
+W71 = ROOT / "phases/v3/results" / "wave81_perturbation_first_rescue" / "perturbation_first_wave71_rows.tsv"
+W110 = ROOT / "phases/v3/results" / "wave110_post_closure_intervention_route_map" / "post_closure_route_map.tsv"
 
 
 def read_tsv(path: Path) -> pd.DataFrame:

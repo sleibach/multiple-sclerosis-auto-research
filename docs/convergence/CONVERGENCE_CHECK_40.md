@@ -6,12 +6,12 @@ Timestamp: 2026-05-27 17:44 CEST
 
 - Wave79 targetability shortlist audit:
   - `scripts/v3_wave79_targetability_shortlist_audit.py`
-  - `results_v3/wave79_targetability_shortlist_audit/`
+  - `phases/v3/results/wave79_targetability_shortlist_audit/`
 - Wave79 sidecar:
-  - `subagents_v3/wave79_targetability_prior_art_directionality.md`
+  - `phases/v3/subagents/wave79_targetability_prior_art_directionality.md`
 - Wave80 CD58/CD2-axis deepening:
   - `scripts/v3_wave80_cd58_cd2_axis_deepening.py`
-  - `results_v3/wave80_cd58_cd2_axis_deepening/`
+  - `phases/v3/results/wave80_cd58_cd2_axis_deepening/`
 
 ## What The Tracks Now Believe
 

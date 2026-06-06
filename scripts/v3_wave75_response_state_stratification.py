@@ -34,11 +34,11 @@ from v3_wave68_gse282122_unrestricted_gene_screen import (
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave75_response_state_stratification"
+OUT = ROOT / "phases/v3/results" / "wave75_response_state_stratification"
 
-RA_COUNTS = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
-RA_META = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
-IBD_PAIR_META = ROOT / "results_v3" / "wave68_gse282122_unrestricted_gene_screen" / "all_gene_pair_metadata.tsv"
+RA_COUNTS = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
+RA_META = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
+IBD_PAIR_META = ROOT / "phases/v3/results" / "wave68_gse282122_unrestricted_gene_screen" / "all_gene_pair_metadata.tsv"
 
 MODULES: dict[str, list[str]] = {
     "ifn_apc": BASE_MODULES["ifn_apc"],

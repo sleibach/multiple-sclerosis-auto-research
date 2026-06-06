@@ -24,8 +24,8 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave71_global_survivor_meta_rank"
-SUBAGENT = ROOT / "subagents_v3" / "wave71a_global_survivor_meta_rank.md"
+OUT = ROOT / "phases/v3/results" / "wave71_global_survivor_meta_rank"
+SUBAGENT = ROOT / "phases/v3/subagents" / "wave71a_global_survivor_meta_rank.md"
 SEED = 20260527
 
 
@@ -49,7 +49,7 @@ SOURCES = [
     SourceSpec(
         "wave21",
         "residual_druggability",
-        "results_v3/wave21_residual_druggability_scan/wave21_residual_druggability_ranked_full.tsv",
+        "phases/v3/results/wave21_residual_druggability_scan/wave21_residual_druggability_ranked_full.tsv",
         ("gene",),
         ("wave21_call", "audit_priority_call", "target_level_genetics_dod_call"),
         ("wave21_residual_modality_score", "residual_gate_priority_score", "discovery_priority_score_broad"),
@@ -69,7 +69,7 @@ SOURCES = [
     SourceSpec(
         "wave23",
         "genetics_restoration",
-        "results_v3/wave23_genetics_restoration_modality/ranked_go_park_no_go.tsv",
+        "phases/v3/results/wave23_genetics_restoration_modality/ranked_go_park_no_go.tsv",
         ("gene",),
         ("call",),
         ("rank_score",),
@@ -81,7 +81,7 @@ SOURCES = [
     SourceSpec(
         "wave25",
         "causal_proxy",
-        "results_v3/wave25_causal_genetics_module_proxy/causal_proxy_candidate_matrix.tsv",
+        "phases/v3/results/wave25_causal_genetics_module_proxy/causal_proxy_candidate_matrix.tsv",
         ("gene",),
         ("proxy_call", "wave23_restoration_call"),
         ("overall_proxy_score", "genetics_ready_score", "module_state_score", "perturbation_score"),
@@ -101,7 +101,7 @@ SOURCES = [
     SourceSpec(
         "wave34",
         "genetics_expression_druggability",
-        "results_v3/wave34_genetics_expression_druggability_scan/wave34_genetics_expression_druggability_rank.tsv",
+        "phases/v3/results/wave34_genetics_expression_druggability_scan/wave34_genetics_expression_druggability_rank.tsv",
         ("gene",),
         ("wave34_call", "proxy_call"),
         ("wave34_score", "genetics_ready_score", "druggable_activity_count"),
@@ -121,7 +121,7 @@ SOURCES = [
     SourceSpec(
         "wave34a",
         "genetics_first_target_rescue",
-        "results_v3/wave34a_genetics_first_target_rescue/genetics_first_candidate_rank.tsv",
+        "phases/v3/results/wave34a_genetics_first_target_rescue/genetics_first_candidate_rank.tsv",
         ("gene",),
         ("wave34a_call", "wave28_gate_call", "wave14_target_level_call"),
         ("genetics_first_score", "ot_n_diseases_score_ge_0_5", "chembl_activity_count_nM"),
@@ -141,7 +141,7 @@ SOURCES = [
     SourceSpec(
         "wave38",
         "crispr_state_druggability",
-        "results_v3/wave38_crispr_state_druggability_rescue/crispr_state_druggability_rescue_rank.tsv",
+        "phases/v3/results/wave38_crispr_state_druggability_rescue/crispr_state_druggability_rescue_rank.tsv",
         ("gene", "gene_symbol"),
         ("wave38_call", "screen_call", "wave34_call"),
         ("rescue_score", "median_efficient_minus_noneater_lfc", "discovery_priority_score"),
@@ -161,7 +161,7 @@ SOURCES = [
     SourceSpec(
         "wave39",
         "surfaceome_rescue",
-        "results_v3/wave39_surfaceome_rescue_after_resolution_pivot/surfaceome_rescue_rank.tsv",
+        "phases/v3/results/wave39_surfaceome_rescue_after_resolution_pivot/surfaceome_rescue_rank.tsv",
         ("gene",),
         ("wave39_call", "go_no_go"),
         ("wave39_score", "chembl_activity_count", "positive_disease_count"),
@@ -180,7 +180,7 @@ SOURCES = [
     SourceSpec(
         "wave48",
         "resolution_reopener",
-        "results_v3/wave48_resolution_reopener_audit/route_reopener_audit.tsv",
+        "phases/v3/results/wave48_resolution_reopener_audit/route_reopener_audit.tsv",
         ("genes",),
         ("call", "wave32_prior_call", "wave32c_translational_verdict"),
         ("critical_gate_pass_count",),
@@ -192,7 +192,7 @@ SOURCES = [
     SourceSpec(
         "wave52",
         "remaining_reopeners",
-        "results_v3/wave52_remaining_mechanistic_reopeners/remaining_reopeners_audit.tsv",
+        "phases/v3/results/wave52_remaining_mechanistic_reopeners/remaining_reopeners_audit.tsv",
         ("primary_gene", "genes", "candidate"),
         ("call", "source_calls"),
         ("critical_gate_pass_count", "supporting_disease_count_union", "foundation_contexts"),
@@ -212,7 +212,7 @@ SOURCES = [
     SourceSpec(
         "wave55",
         "external_genetics",
-        "results_v3/wave55_external_genetics_druggability_sweep/external_genetics_rank.tsv",
+        "phases/v3/results/wave55_external_genetics_druggability_sweep/external_genetics_rank.tsv",
         ("gene",),
         ("foundation_recommendation", "direct_evidence_calls", "closed_axis"),
         ("wave55_score", "n_diseases_genetic_ge_0_5", "best_direct_selectivity_score"),
@@ -234,7 +234,7 @@ SOURCES = [
     SourceSpec(
         "wave57",
         "geneformer",
-        "results_v3/wave57_intervention_first_geneformer_screen/wave57_intervention_first_candidate_calls.tsv",
+        "phases/v3/results/wave57_intervention_first_geneformer_screen/wave57_intervention_first_candidate_calls.tsv",
         ("gene",),
         ("wave57_call", "screen_call"),
         ("wave57_model_priority_score", "support_contexts", "strong_support_contexts"),
@@ -254,7 +254,7 @@ SOURCES = [
     SourceSpec(
         "wave60",
         "circuit_coupling",
-        "results_v3/wave60_circuit_coupling_pivot/circuit_predictor_rank.tsv",
+        "phases/v3/results/wave60_circuit_coupling_pivot/circuit_predictor_rank.tsv",
         ("gene", "predictor"),
         ("wave60_call", "wave57_call", "screen_call"),
         ("combined_fisher_z", "best_abs_rho", "support_contexts", "strong_support_contexts"),
@@ -275,7 +275,7 @@ SOURCES = [
     SourceSpec(
         "wave61",
         "perturbation_guardrail",
-        "results_v3/wave61_perturbation_first_guardrail/intervention_evidence_tiers.tsv",
+        "phases/v3/results/wave61_perturbation_first_guardrail/intervention_evidence_tiers.tsv",
         ("gene",),
         ("wave61_call", "evidence_tier", "source"),
         ("direct_priority_score", "selectivity_score", "gate_count", "target_vs_ifn_margin"),
@@ -296,7 +296,7 @@ SOURCES = [
     SourceSpec(
         "wave62",
         "target_resolution",
-        "results_v3/wave62_opentargets_target_resolution/target_resolution_summary.tsv",
+        "phases/v3/results/wave62_opentargets_target_resolution/target_resolution_summary.tsv",
         ("gene",),
         ("wave62_call", "wave34_call", "wave34a_call", "wave61_best_call"),
         ("wave62_score", "max_l2g_score", "max_qtl_h4", "wave55_score"),
@@ -317,7 +317,7 @@ SOURCES = [
     SourceSpec(
         "wave63",
         "transition_controller",
-        "results_v3/wave63_transition_controller_integrator/transition_controller_candidates.tsv",
+        "phases/v3/results/wave63_transition_controller_integrator/transition_controller_candidates.tsv",
         ("gene", "candidate", "intervention_node"),
         ("wave63_call", "wave62_call", "wave31_call", "wave34_call", "wave57_call", "wave61_call"),
         ("wave63_score", "gate_pass_count", "direct_selectivity_score", "direct_target_suppression"),
@@ -338,7 +338,7 @@ SOURCES = [
     SourceSpec(
         "wave68",
         "unrestricted_gene_screen",
-        "results_v3/wave68_gse282122_unrestricted_gene_screen/integrated_gene_target_rank.tsv",
+        "phases/v3/results/wave68_gse282122_unrestricted_gene_screen/integrated_gene_target_rank.tsv",
         ("gene",),
         ("wave68_call", "wave62_call"),
         ("integrated_score", "perturbation_strength", "wave62_score", "wave55_score"),
@@ -361,7 +361,7 @@ SOURCES = [
     SourceSpec(
         "wave70",
         "fc_ros_resolution_closure",
-        "results_v3/wave70_fc_ros_resolution_matrix/fc_ros_resolution_candidate_matrix.tsv",
+        "phases/v3/results/wave70_fc_ros_resolution_matrix/fc_ros_resolution_candidate_matrix.tsv",
         ("gene",),
         ("wave70_call", "wave62_call", "wave57_call", "wave61_call"),
         ("wave70_score", "evidence_count"),
@@ -373,7 +373,7 @@ SOURCES = [
     SourceSpec(
         "wave70b",
         "fc_ros_computational_closure",
-        "results_v3/wave70b_fc_ros_computational_scout/integrated_fc_ros_candidate_scout.tsv",
+        "phases/v3/results/wave70b_fc_ros_computational_scout/integrated_fc_ros_candidate_scout.tsv",
         ("gene",),
         ("integrated_call", "wave68_best_call", "ra_antitnf_call", "ra_response_call", "wave37_screen_call"),
         ("support_score_0_9", "geneformer_support_contexts_max", "geneformer_strong_support_contexts_max"),
@@ -392,7 +392,7 @@ SOURCES = [
     SourceSpec(
         "wave70c",
         "fc_ros_geneformer_direction_closure",
-        "results_v3/wave70c_inhibitory_receptor_geneformer_direction/geneformer_direction_candidate_calls.tsv",
+        "phases/v3/results/wave70c_inhibitory_receptor_geneformer_direction/geneformer_direction_candidate_calls.tsv",
         ("gene",),
         ("direction_model_call", "wave70_call"),
         ("geneformer_direction_priority_score", "support_contexts", "strong_support_contexts"),

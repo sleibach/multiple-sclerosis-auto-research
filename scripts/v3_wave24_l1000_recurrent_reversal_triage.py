@@ -18,12 +18,12 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave24_l1000_recurrent_reversal"
+OUT = ROOT / "phases/v3/results" / "wave24_l1000_recurrent_reversal"
 SEED = 20260527
 
-L1000 = ROOT / "results_v3" / "l1000fwd_compound_summary.tsv"
-SELECTIVITY = ROOT / "results_v3" / "wave15_perturbation_drug_response" / "l1000fwd_selectivity_compound_rank.tsv"
-PDE4_AUDIT = ROOT / "results_v3" / "pde4_camp_l1000_audit_summary.json"
+L1000 = ROOT / "phases/v3/results" / "l1000fwd_compound_summary.tsv"
+SELECTIVITY = ROOT / "phases/v3/results" / "wave15_perturbation_drug_response" / "l1000fwd_selectivity_compound_rank.tsv"
+PDE4_AUDIT = ROOT / "phases/v3/results" / "pde4_camp_l1000_audit_summary.json"
 
 TOXIC_OR_ONCOLOGY_TARGETS = {
     "PLK1",

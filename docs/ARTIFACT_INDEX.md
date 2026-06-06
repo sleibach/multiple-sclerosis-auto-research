@@ -229,3 +229,19 @@ Root-level Markdown artifacts were moved during the maintenance restructure. Can
 | `WAVE32C_PRIOR_ART_AUDIT.md` | `docs/history/WAVE32C_PRIOR_ART_AUDIT.md` |
 | `WAVE88_PRIOR_ART_IL1B_LAMP3_AUDIT.md` | `docs/history/WAVE88_PRIOR_ART_IL1B_LAMP3_AUDIT.md` |
 | `prompt.md` | `docs/history/prompt.md` |
+
+## Phase Output Relocations
+
+Detailed move map: `meta/REPO_MOVE_MAP_PHASE_DIRS.tsv`.
+
+| Old root path | New path |
+|---|---|
+| `results_v2/` | `phases/v2/results/` |
+| `literature_v2/` | `phases/v2/literature/` |
+| `run_v2_analysis.sh` | `scripts/entrypoints/run_v2_analysis.sh` |
+| `results_v3/` | `phases/v3/results/` |
+| `literature_v3/` | `phases/v3/literature/` |
+| `models_v3/` | `phases/v3/models/` |
+| `tmp_v3/` | `phases/v3/tmp/` |
+| `subagents_v3/` | `phases/v3/subagents/` |
+| `run_v3_analysis.sh` | `scripts/entrypoints/run_v3_analysis.sh` |

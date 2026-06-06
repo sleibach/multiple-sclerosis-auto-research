@@ -15,7 +15,7 @@ from urllib.request import urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw_v3" / "state_parse_split4"
-TMP = ROOT / "tmp_v3"
+TMP = ROOT / "phases/v3/tmp"
 DERIVED = ROOT / "data" / "derived_v3"
 
 BASE = "https://huggingface.co/arcinstitute/ST-HVG-Parse/resolve/main/fewshot/split_4"

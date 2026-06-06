@@ -27,21 +27,21 @@ import requests
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave56_sp140_targeted_reopener_audit"
+OUT = ROOT / "phases/v3/results" / "wave56_sp140_targeted_reopener_audit"
 RAW = OUT / "raw_api"
 SEED = 20260527
 
 INPUTS = {
-    "wave55_rank": ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv",
-    "wave55_audit": ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "external_genetics_candidate_audit.tsv",
-    "wave55_ot_raw": ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "opentargets_associated_targets_raw.tsv",
-    "broad_h5ad": ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
-    "broad_residual": ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
-    "wave37_efferocytosis": ROOT / "results_v3" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv",
-    "wave45_regulatory": ROOT / "results_v3" / "wave45_regulatory_controller_audit" / "regulatory_controller_audit.tsv",
-    "wave18_foundation": ROOT / "results_v3" / "wave18_foundation_rescue" / "foundation_rescue_candidate_rank.tsv",
-    "wave18_direct_perturb": ROOT / "results_v3" / "wave18_foundation_rescue" / "direct_perturbation_evidence_by_candidate.tsv",
-    "wave15_synthesis": ROOT / "results_v3" / "wave15_perturbation_drug_response" / "candidate_level_synthesis.tsv",
+    "wave55_rank": ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv",
+    "wave55_audit": ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "external_genetics_candidate_audit.tsv",
+    "wave55_ot_raw": ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "opentargets_associated_targets_raw.tsv",
+    "broad_h5ad": ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
+    "broad_residual": ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
+    "wave37_efferocytosis": ROOT / "phases/v3/results" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv",
+    "wave45_regulatory": ROOT / "phases/v3/results" / "wave45_regulatory_controller_audit" / "regulatory_controller_audit.tsv",
+    "wave18_foundation": ROOT / "phases/v3/results" / "wave18_foundation_rescue" / "foundation_rescue_candidate_rank.tsv",
+    "wave18_direct_perturb": ROOT / "phases/v3/results" / "wave18_foundation_rescue" / "direct_perturbation_evidence_by_candidate.tsv",
+    "wave15_synthesis": ROOT / "phases/v3/results" / "wave15_perturbation_drug_response" / "candidate_level_synthesis.tsv",
 }
 
 DISEASES = ["MS", "Crohn", "UC", "Psoriasis", "RA", "AS", "Sjogren", "SLE", "T1D", "Celiac", "PBC", "AITD"]

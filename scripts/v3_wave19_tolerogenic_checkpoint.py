@@ -19,7 +19,7 @@ from urllib.request import Request, urlopen
 
 
 ROOT = Path(__file__).resolve().parents[1]
-RESULTS = ROOT / "results_v3"
+RESULTS = ROOT / "phases/v3/results"
 OUT = RESULTS / "wave19_tolerogenic_checkpoint"
 RAW = OUT / "raw_api"
 
@@ -1057,12 +1057,12 @@ def main() -> None:
         "parked": [r["gene"] for r in synthesis if r["wave19_call"] == "PARK"],
         "script": "scripts/v3_wave19_tolerogenic_checkpoint.py",
         "outputs": [
-            "results_v3/wave19_tolerogenic_checkpoint/local_checkpoint_evidence.tsv",
-            "results_v3/wave19_tolerogenic_checkpoint/local_checkpoint_evidence_detail.tsv",
-            "results_v3/wave19_tolerogenic_checkpoint/perturbation_foundation_checkpoint_evidence.tsv",
-            "results_v3/wave19_tolerogenic_checkpoint/external_prior_art_query_log.tsv",
-            "results_v3/wave19_tolerogenic_checkpoint/chembl_checkpoint_target_snapshot.tsv",
-            "results_v3/wave19_tolerogenic_checkpoint/checkpoint_candidate_synthesis.tsv",
+            "phases/v3/results/wave19_tolerogenic_checkpoint/local_checkpoint_evidence.tsv",
+            "phases/v3/results/wave19_tolerogenic_checkpoint/local_checkpoint_evidence_detail.tsv",
+            "phases/v3/results/wave19_tolerogenic_checkpoint/perturbation_foundation_checkpoint_evidence.tsv",
+            "phases/v3/results/wave19_tolerogenic_checkpoint/external_prior_art_query_log.tsv",
+            "phases/v3/results/wave19_tolerogenic_checkpoint/chembl_checkpoint_target_snapshot.tsv",
+            "phases/v3/results/wave19_tolerogenic_checkpoint/checkpoint_candidate_synthesis.tsv",
         ],
     }
     (OUT / "summary.json").write_text(json.dumps(summary, indent=2, sort_keys=True))

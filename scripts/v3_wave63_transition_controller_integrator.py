@@ -19,22 +19,22 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave63_transition_controller_integrator"
+OUT = ROOT / "phases/v3/results" / "wave63_transition_controller_integrator"
 SEED = 20260527
 
 INPUTS = {
-    "wave62": ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv",
-    "broad": ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
-    "residual": ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
-    "wave31": ROOT / "results_v3" / "wave31_dynamic_transition_controller_audit" / "dynamic_transition_controller_audit.tsv",
-    "wave34": ROOT / "results_v3" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv",
-    "wave34a": ROOT / "results_v3" / "wave34a_genetics_first_target_rescue" / "genetics_first_candidate_rank.tsv",
-    "wave45": ROOT / "results_v3" / "wave45_regulatory_controller_audit" / "regulatory_controller_audit.tsv",
-    "wave55": ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv",
-    "wave57": ROOT / "results_v3" / "wave57_intervention_first_geneformer_screen" / "wave57_intervention_first_candidate_calls.tsv",
-    "wave59": ROOT / "results_v3" / "wave59_lysosomal_sphingolipid_model_reopener_audit" / "lysosomal_sphingolipid_evidence.tsv",
-    "wave59_decision": ROOT / "results_v3" / "wave59_lysosomal_sphingolipid_model_reopener_audit" / "lysosomal_sphingolipid_decision.tsv",
-    "wave61": ROOT / "results_v3" / "wave61_perturbation_first_guardrail" / "intervention_evidence_tiers.tsv",
+    "wave62": ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv",
+    "broad": ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
+    "residual": ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
+    "wave31": ROOT / "phases/v3/results" / "wave31_dynamic_transition_controller_audit" / "dynamic_transition_controller_audit.tsv",
+    "wave34": ROOT / "phases/v3/results" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv",
+    "wave34a": ROOT / "phases/v3/results" / "wave34a_genetics_first_target_rescue" / "genetics_first_candidate_rank.tsv",
+    "wave45": ROOT / "phases/v3/results" / "wave45_regulatory_controller_audit" / "regulatory_controller_audit.tsv",
+    "wave55": ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv",
+    "wave57": ROOT / "phases/v3/results" / "wave57_intervention_first_geneformer_screen" / "wave57_intervention_first_candidate_calls.tsv",
+    "wave59": ROOT / "phases/v3/results" / "wave59_lysosomal_sphingolipid_model_reopener_audit" / "lysosomal_sphingolipid_evidence.tsv",
+    "wave59_decision": ROOT / "phases/v3/results" / "wave59_lysosomal_sphingolipid_model_reopener_audit" / "lysosomal_sphingolipid_decision.tsv",
+    "wave61": ROOT / "phases/v3/results" / "wave61_perturbation_first_guardrail" / "intervention_evidence_tiers.tsv",
 }
 
 BENCHMARK_GENES = [

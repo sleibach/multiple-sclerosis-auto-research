@@ -25,8 +25,8 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / "tmp_v3" / "foundation_wave6" / "geneformer_tiny_delete_screen.py"
-OUT = ROOT / "results_v3" / "wave57_intervention_first_geneformer_screen"
+SOURCE = ROOT / "phases/v3/tmp" / "foundation_wave6" / "geneformer_tiny_delete_screen.py"
+OUT = ROOT / "phases/v3/results" / "wave57_intervention_first_geneformer_screen"
 SEED = 20260527
 
 CANDIDATE_GENES = [
@@ -138,10 +138,10 @@ def summarize(metrics: pd.DataFrame) -> pd.DataFrame:
 
 
 def join_external(summary: pd.DataFrame) -> pd.DataFrame:
-    rank_path = ROOT / "results_v3" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv"
-    broad_path = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
-    residual_path = ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv"
-    wave37_path = ROOT / "results_v3" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
+    rank_path = ROOT / "phases/v3/results" / "wave55_external_genetics_druggability_sweep" / "external_genetics_rank.tsv"
+    broad_path = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
+    residual_path = ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv"
+    wave37_path = ROOT / "phases/v3/results" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
     rank = pd.read_csv(rank_path, sep="\t", low_memory=False) if rank_path.exists() else pd.DataFrame()
     broad = pd.read_csv(broad_path, sep="\t", low_memory=False) if broad_path.exists() else pd.DataFrame()
     residual = pd.read_csv(residual_path, sep="\t", low_memory=False) if residual_path.exists() else pd.DataFrame()

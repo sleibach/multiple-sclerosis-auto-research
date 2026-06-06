@@ -17,8 +17,8 @@ import pandas as pd
 import requests
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3"
-LIT = ROOT / "literature_v3"
+OUT = ROOT / "phases/v3/results"
+LIT = ROOT / "phases/v3/literature"
 
 CANDIDATES = {
     "IFNG_IFNGR_axis": {

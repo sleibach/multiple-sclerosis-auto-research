@@ -21,10 +21,10 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave27_l1000_unknown_deconvolution"
+OUT = ROOT / "phases/v3/results" / "wave27_l1000_unknown_deconvolution"
 SEED = 20260527
 
-RECURRENT = ROOT / "results_v3" / "wave24_l1000_recurrent_reversal" / "recurrent_l1000_compound_triage.tsv"
+RECURRENT = ROOT / "phases/v3/results" / "wave24_l1000_recurrent_reversal" / "recurrent_l1000_compound_triage.tsv"
 COMPOUNDINFO = ROOT / "data" / "raw_v3" / "lincs2020" / "compoundinfo_beta.txt"
 
 MANUAL_ALIAS_CLASS = {

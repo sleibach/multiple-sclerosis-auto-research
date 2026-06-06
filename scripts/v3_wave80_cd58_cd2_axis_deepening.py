@@ -28,14 +28,14 @@ from v3_analyze_direct_h5ad_cell_states import MODULES, ROOT
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave80_cd58_cd2_axis_deepening"
+OUT = ROOT / "phases/v3/results" / "wave80_cd58_cd2_axis_deepening"
 
-RA_COUNTS = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
-RA_META = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
-W79_DECISION = ROOT / "results_v3" / "wave79_targetability_shortlist_audit" / "targetability_integrated_decision.tsv"
-W79_CONV = ROOT / "results_v3" / "wave79_targetability_shortlist_audit" / "targetability_adjusted_response_convergence.tsv"
-W62 = ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
-W62_QTL = ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "opentargets_qtl_coloc_rows.tsv"
+RA_COUNTS = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
+RA_META = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
+W79_DECISION = ROOT / "phases/v3/results" / "wave79_targetability_shortlist_audit" / "targetability_integrated_decision.tsv"
+W79_CONV = ROOT / "phases/v3/results" / "wave79_targetability_shortlist_audit" / "targetability_adjusted_response_convergence.tsv"
+W62 = ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
+W62_QTL = ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "opentargets_qtl_coloc_rows.tsv"
 
 GENE = "CD58"
 T_CELL_MODULE = [

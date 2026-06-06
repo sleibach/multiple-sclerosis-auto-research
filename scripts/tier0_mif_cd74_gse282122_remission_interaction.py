@@ -12,7 +12,7 @@ from scipy import stats
 
 
 ROOT = Path(__file__).resolve().parents[1]
-IN = ROOT / "results_v3" / "wave67_gse282122_myeloid_pseudobulk" / "paired_module_deltas.tsv"
+IN = ROOT / "phases/v3/results" / "wave67_gse282122_myeloid_pseudobulk" / "paired_module_deltas.tsv"
 OUT = ROOT / "analysis" / "tier_0_triage" / "mif_cd74_stratification" / "gse282122_remission_interaction"
 SEED = 20260528
 

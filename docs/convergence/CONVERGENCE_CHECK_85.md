@@ -46,5 +46,5 @@ checked against later GPR183 closure waves.
 ## Reproducibility
 
 - Script: `scripts/v3_wave131_class_route_forcing_audit.py`
-- Output: `results_v3/wave131_class_route_forcing_audit/`
+- Output: `phases/v3/results/wave131_class_route_forcing_audit/`
 - Seed: `20260527`

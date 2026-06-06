@@ -23,9 +23,9 @@ import pandas as pd
 from scipy import stats
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave14_negative_regulator_feedback"
-GENE_SCORES = ROOT / "results_v3" / "wave13_candidate_gene_local_validation" / "wave13_candidate_gene_donor_scores.tsv"
-MODULE_SCORES = ROOT / "results_v3" / "direct_h5ad_cell_state" / "direct_h5ad_donor_module_scores.tsv"
+OUT = ROOT / "phases/v3/results" / "wave14_negative_regulator_feedback"
+GENE_SCORES = ROOT / "phases/v3/results" / "wave13_candidate_gene_local_validation" / "wave13_candidate_gene_donor_scores.tsv"
+MODULE_SCORES = ROOT / "phases/v3/results" / "direct_h5ad_cell_state" / "direct_h5ad_donor_module_scores.tsv"
 
 GENES = ["PTPN2", "TNFAIP3", "SH2B3", "CLEC16A", "SLC15A4", "CD74", "CTSS", "CIITA", "RFX5"]
 MODULES = ["ifn_apc", "hla_ii_apc", "mif_cd74_receptor_state", "mixscale_validated_ifng_readout", "lysosomal_apc"]

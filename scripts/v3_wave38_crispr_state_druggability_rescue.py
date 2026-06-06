@@ -22,14 +22,14 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave38_crispr_state_druggability_rescue"
+OUT = ROOT / "phases/v3/results" / "wave38_crispr_state_druggability_rescue"
 API = OUT / "raw_api"
 SEED = 20260527
 USER_AGENT = "ms-auto-research-wave38-crispr-state-druggability/1.0"
 
-SCREEN_PATH = ROOT / "results_v3" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
-BROAD_PATH = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
-WAVE34_PATH = ROOT / "results_v3" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv"
+SCREEN_PATH = ROOT / "phases/v3/results" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
+BROAD_PATH = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
+WAVE34_PATH = ROOT / "phases/v3/results" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv"
 
 
 def get_json(url: str, path: Path, timeout: int = 30) -> dict:

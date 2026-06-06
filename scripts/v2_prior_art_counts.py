@@ -11,7 +11,7 @@ from urllib.parse import quote
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v2"
+OUT = ROOT / "phases/v2/results"
 
 QUERIES = {
     "ACSL1_MS": '(ACSL1 OR "acyl-CoA synthetase 1") AND ("multiple sclerosis" OR EAE)',

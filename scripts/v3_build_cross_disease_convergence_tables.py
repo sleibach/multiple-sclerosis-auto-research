@@ -15,7 +15,7 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3"
+OUT = ROOT / "phases/v3/results"
 
 MODULE_MAP_GSE111972 = {
     "interferon_apc": "ifn_apc",

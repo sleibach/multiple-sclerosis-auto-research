@@ -22,7 +22,7 @@ import requests
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave20_unrestricted_survivor"
+OUT = ROOT / "phases/v3/results" / "wave20_unrestricted_survivor"
 DATE = "2026-05-27"
 
 FOCUS_GENES = [
@@ -662,11 +662,11 @@ def chembl_rows(genes: list[str]) -> list[dict[str, Any]]:
 
 
 def build_local_evidence(genes: list[str]) -> pd.DataFrame:
-    survivor = read_tsv("results_v3/unrestricted_survivor_scan/unrestricted_survivor_candidates.tsv")
-    broad = read_tsv("results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv")
-    residual = read_tsv("results_v3/broad_residual_gate/broad_residual_gate_summary.tsv")
-    focused_residual = read_tsv("results_v3/snx10_c15orf48_residual_gate/snx10_c15orf48_residual_gate.tsv")
-    geneformer = read_tsv("results_v3/geneformer_unrestricted_survivor_delete/geneformer_unrestricted_survivor_gene_summary.tsv")
+    survivor = read_tsv("phases/v3/results/unrestricted_survivor_scan/unrestricted_survivor_candidates.tsv")
+    broad = read_tsv("phases/v3/results/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv")
+    residual = read_tsv("phases/v3/results/broad_residual_gate/broad_residual_gate_summary.tsv")
+    focused_residual = read_tsv("phases/v3/results/snx10_c15orf48_residual_gate/snx10_c15orf48_residual_gate.tsv")
+    geneformer = read_tsv("phases/v3/results/geneformer_unrestricted_survivor_delete/geneformer_unrestricted_survivor_gene_summary.tsv")
 
     rows = []
     for gene in genes:
@@ -769,7 +769,7 @@ def build_gate_matrix(local: pd.DataFrame) -> pd.DataFrame:
 
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
-    survivor = read_tsv("results_v3/unrestricted_survivor_scan/unrestricted_survivor_candidates.tsv")
+    survivor = read_tsv("phases/v3/results/unrestricted_survivor_scan/unrestricted_survivor_candidates.tsv")
     genes = survivor["gene"].astype(str).tolist()
     missing = sorted(set(ANNOTATIONS) - set(genes) - {"SDC4"})
     if missing:

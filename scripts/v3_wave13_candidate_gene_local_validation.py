@@ -22,8 +22,8 @@ from statsmodels.stats.multitest import multipletests
 from v3_analyze_osmr_complement_axes import CONFIGS, ROOT
 
 SEED = 20260526
-OUT = ROOT / "results_v3" / "wave13_candidate_gene_local_validation"
-MS_SIGNATURE = ROOT / "results_v3" / "gse111972_full_ms_wm_signature.tsv"
+OUT = ROOT / "phases/v3/results" / "wave13_candidate_gene_local_validation"
+MS_SIGNATURE = ROOT / "phases/v3/results" / "gse111972_full_ms_wm_signature.tsv"
 
 CANDIDATE_GENES = [
     "GPR65",

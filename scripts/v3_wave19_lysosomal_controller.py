@@ -15,7 +15,7 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave19_lysosomal_controller"
+OUT = ROOT / "phases/v3/results" / "wave19_lysosomal_controller"
 
 
 CANDIDATES = [
@@ -538,9 +538,9 @@ def coerce_numeric(df: pd.DataFrame, columns: list[str]) -> pd.DataFrame:
 
 def collapse_geneformer() -> pd.DataFrame:
     files = [
-        *ROOT.glob("results_v3/geneformer_*/*gene_summary.tsv"),
-        *ROOT.glob("results_v3/wave14_geneformer_narrowed_candidate_delete/*gene_summary.tsv"),
-        *ROOT.glob("results_v3/wave15_geneformer_loader_dependency_delete/*gene_summary.tsv"),
+        *ROOT.glob("phases/v3/results/geneformer_*/*gene_summary.tsv"),
+        *ROOT.glob("phases/v3/results/wave14_geneformer_narrowed_candidate_delete/*gene_summary.tsv"),
+        *ROOT.glob("phases/v3/results/wave15_geneformer_loader_dependency_delete/*gene_summary.tsv"),
     ]
     frames = []
     for path in files:
@@ -607,7 +607,7 @@ def local_evidence() -> pd.DataFrame:
         "ms_positive_trend",
         "discovery_priority_score",
     ]
-    broad = read_table("results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv")
+    broad = read_table("phases/v3/results/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv")
     if not broad.empty:
         broad = broad[[c for c in broad_cols if c in broad.columns]]
         broad = broad.add_prefix("broad_").rename(columns={"broad_gene": "gene"})
@@ -623,7 +623,7 @@ def local_evidence() -> pd.DataFrame:
         "median_positive_hedges_g",
         "supporting_diseases",
     ]
-    cross = read_table("results_v3/cross_disease_gene_summary.tsv")
+    cross = read_table("phases/v3/results/cross_disease_gene_summary.tsv")
     if not cross.empty:
         cross = cross[[c for c in cross_cols if c in cross.columns]]
         cross = cross.add_prefix("cross_").rename(columns={"cross_gene": "gene"})
@@ -648,7 +648,7 @@ def local_evidence() -> pd.DataFrame:
         "go_no_go",
         "demotion_or_support_reason",
     ]
-    surface = read_table("results_v3/wave15_surface_trafficking_dependency/candidate_ranked.tsv")
+    surface = read_table("phases/v3/results/wave15_surface_trafficking_dependency/candidate_ranked.tsv")
     if not surface.empty:
         surface = surface[[c for c in surface_cols if c in surface.columns]]
         surface = surface.add_prefix("surface_").rename(columns={"surface_gene": "gene"})
@@ -667,7 +667,7 @@ def local_evidence() -> pd.DataFrame:
         "raw_state_supporting_diseases",
         "priority_score",
     ]
-    orch = read_table("results_v3/wave15_orchestrator_dependency_scan/candidate_dependency_priority_summary.tsv")
+    orch = read_table("phases/v3/results/wave15_orchestrator_dependency_scan/candidate_dependency_priority_summary.tsv")
     if not orch.empty:
         orch = orch[[c for c in orch_cols if c in orch.columns]]
         orch = orch.add_prefix("orchestrator_").rename(columns={"orchestrator_gene": "gene"})
@@ -803,13 +803,13 @@ def main() -> None:
         "parked_routes": routes.loc[routes["route_call"].fillna("").str.contains("PARK"), "route"].tolist(),
         "no_go_routes": routes.loc[routes["route_call"].fillna("").str.contains("NO_GO"), "route"].tolist(),
         "inputs": [
-            "results_v3/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv",
-            "results_v3/cross_disease_gene_summary.tsv",
-            "results_v3/wave15_surface_trafficking_dependency/candidate_ranked.tsv",
-            "results_v3/wave15_orchestrator_dependency_scan/candidate_dependency_priority_summary.tsv",
-            "results_v3/geneformer_*/*gene_summary.tsv",
-            "results_v3/wave14_geneformer_narrowed_candidate_delete/*gene_summary.tsv",
-            "results_v3/wave15_geneformer_loader_dependency_delete/*gene_summary.tsv",
+            "phases/v3/results/broad_h5ad_gene_discovery/broad_h5ad_gene_rank.tsv",
+            "phases/v3/results/cross_disease_gene_summary.tsv",
+            "phases/v3/results/wave15_surface_trafficking_dependency/candidate_ranked.tsv",
+            "phases/v3/results/wave15_orchestrator_dependency_scan/candidate_dependency_priority_summary.tsv",
+            "phases/v3/results/geneformer_*/*gene_summary.tsv",
+            "phases/v3/results/wave14_geneformer_narrowed_candidate_delete/*gene_summary.tsv",
+            "phases/v3/results/wave15_geneformer_loader_dependency_delete/*gene_summary.tsv",
         ],
         "outputs": [
             "candidate_local_evidence.tsv",

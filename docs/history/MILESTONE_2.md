@@ -26,7 +26,7 @@ Script:
 
 Output directory:
 
-- `results_v3/broad_h5ad_gene_discovery/`
+- `phases/v3/results/broad_h5ad_gene_discovery/`
 
 Statistics:
 
@@ -96,7 +96,7 @@ Geneformer:
 - Real local named-gene route completed with official `ctheodoris/Geneformer`
   V2-104M assets, revision `04c2b2e84da7c0f385c3f9ad8f3ec24bab6650e5`.
 - Candidate deletion screen output:
-  `results_v3/geneformer_candidate_delete/`.
+  `phases/v3/results/geneformer_candidate_delete/`.
 - `IFITM3` had the strongest model-normalization signal
   (8 contexts, 45 disease cells with token, mean cosine shift 0.000189,
   mean projection shift 0.0239, support contexts 3), but fails MS-direction

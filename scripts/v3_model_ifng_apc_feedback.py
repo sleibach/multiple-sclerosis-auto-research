@@ -36,7 +36,7 @@ import pandas as pd
 from scipy.integrate import solve_ivp
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "mechanistic_model"
+OUT = ROOT / "phases/v3/results" / "mechanistic_model"
 
 SEED = 20260526
 

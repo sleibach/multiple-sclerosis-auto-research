@@ -6,17 +6,17 @@ Timestamp: 2026-05-27 17:24 CEST
 
 - Wave75 response-state stratification:
   - `scripts/v3_wave75_response_state_stratification.py`
-  - `results_v3/wave75_response_state_stratification/`
+  - `phases/v3/results/wave75_response_state_stratification/`
 - Wave76 adjusted response-specificity stress test:
   - `scripts/v3_wave76_adjusted_response_specificity.py`
-  - `results_v3/wave76_adjusted_response_specificity/`
+  - `phases/v3/results/wave76_adjusted_response_specificity/`
 - Wave77 local `ETS2` target audit:
   - `scripts/v3_wave77_ets2_macrophage_axis_audit.py`
-  - `results_v3/wave77_ets2_macrophage_axis_audit/`
+  - `phases/v3/results/wave77_ets2_macrophage_axis_audit/`
 - Subagent reports:
-  - `subagents_v3/wave75a_perturbation_first_controller_hunt.md`
-  - `subagents_v3/wave75c_cross_disease_targetability_scout.md`
-  - `subagents_v3/wave75g_hostile_critique.md`
+  - `phases/v3/subagents/wave75a_perturbation_first_controller_hunt.md`
+  - `phases/v3/subagents/wave75c_cross_disease_targetability_scout.md`
+  - `phases/v3/subagents/wave75g_hostile_critique.md`
 
 ## What Each Track Believes
 

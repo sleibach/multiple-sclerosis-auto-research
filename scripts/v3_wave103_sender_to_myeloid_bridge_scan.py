@@ -31,11 +31,11 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave103_sender_to_myeloid_bridge_scan"
+OUT = ROOT / "phases/v3/results" / "wave103_sender_to_myeloid_bridge_scan"
 
-W30 = ROOT / "results_v3" / "wave30_niche_driver_audit" / "niche_driver_axis_audit.tsv"
+W30 = ROOT / "phases/v3/results" / "wave30_niche_driver_audit" / "niche_driver_axis_audit.tsv"
 MYELOID_MODULE_SCORES = (
-    ROOT / "results_v3" / "wave102_sel1l3_fxyd5_residual_controller_test" / "candidate_module_scores.tsv"
+    ROOT / "phases/v3/results" / "wave102_sel1l3_fxyd5_residual_controller_test" / "candidate_module_scores.tsv"
 )
 
 MYELOID_MODULES = ["lipid_loader_repair", "lysosomal_apc", "c15_mocci_costate", "inflammatory_nfkb"]
@@ -518,10 +518,10 @@ def write_report(summary: pd.DataFrame, links: pd.DataFrame, run_log: list[dict[
         "## Reproducibility",
         "",
         "- Script: `scripts/v3_wave103_sender_to_myeloid_bridge_scan.py`",
-        "- Sender scores: `results_v3/wave103_sender_to_myeloid_bridge_scan/sender_gene_scores.tsv`",
-        "- Raw contrasts: `results_v3/wave103_sender_to_myeloid_bridge_scan/sender_raw_contrasts.tsv`",
-        "- Bridge links: `results_v3/wave103_sender_to_myeloid_bridge_scan/sender_to_myeloid_bridge_links.tsv`",
-        "- Summary: `results_v3/wave103_sender_to_myeloid_bridge_scan/sender_bridge_gene_summary.tsv`",
+        "- Sender scores: `phases/v3/results/wave103_sender_to_myeloid_bridge_scan/sender_gene_scores.tsv`",
+        "- Raw contrasts: `phases/v3/results/wave103_sender_to_myeloid_bridge_scan/sender_raw_contrasts.tsv`",
+        "- Bridge links: `phases/v3/results/wave103_sender_to_myeloid_bridge_scan/sender_to_myeloid_bridge_links.tsv`",
+        "- Summary: `phases/v3/results/wave103_sender_to_myeloid_bridge_scan/sender_bridge_gene_summary.tsv`",
         f"- Seed: `{SEED}`",
         "",
     ]

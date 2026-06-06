@@ -27,13 +27,13 @@ from v3_wave85_external_geo_antitnf_validation import bh, design_matrix, hedges_
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave87_cross_system_antitnf_resistance_gene_check"
+OUT = ROOT / "phases/v3/results" / "wave87_cross_system_antitnf_resistance_gene_check"
 
-W86_META = ROOT / "results_v3" / "wave86_external_geo_antitnf_gene_driver" / "external_geo_gene_meta_rank.tsv"
-RA_COUNTS = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
-RA_META = ROOT / "results_v3" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
-IBD_RAW = ROOT / "results_v3" / "wave68_gse282122_unrestricted_gene_screen" / "raw_remission_response_gene_tests.tsv"
-IBD_ADJ = ROOT / "results_v3" / "wave68_gse282122_unrestricted_gene_screen" / "adjusted_top_gene_ols.tsv"
+W86_META = ROOT / "phases/v3/results" / "wave86_external_geo_antitnf_gene_driver" / "external_geo_gene_meta_rank.tsv"
+RA_COUNTS = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_counts_used.tsv"
+RA_META = ROOT / "phases/v3/results" / "wave65_gse198520_ra_synovium_antitnf_audit" / "gse198520_sample_metadata.tsv"
+IBD_RAW = ROOT / "phases/v3/results" / "wave68_gse282122_unrestricted_gene_screen" / "raw_remission_response_gene_tests.tsv"
+IBD_ADJ = ROOT / "phases/v3/results" / "wave68_gse282122_unrestricted_gene_screen" / "adjusted_top_gene_ols.tsv"
 
 
 def log_cpm(counts: pd.DataFrame) -> pd.DataFrame:

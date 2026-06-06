@@ -12,19 +12,19 @@ from v3_analyze_osmr_complement_axes import ROOT
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave143_cd58_cd2_adaptive_synapse_forcing"
+OUT = ROOT / "phases/v3/results" / "wave143_cd58_cd2_adaptive_synapse_forcing"
 
 INPUTS = {
-    "wave80_decision": ROOT / "results_v3" / "wave80_cd58_cd2_axis_deepening" / "cd58_cd2_axis_decision.tsv",
-    "wave80_ra_tcell": ROOT / "results_v3" / "wave80_cd58_cd2_axis_deepening" / "cd58_ra_tcell_adjusted_models.tsv",
-    "wave80_response": ROOT / "results_v3" / "wave80_cd58_cd2_axis_deepening" / "cd58_wave79_response_convergence_row.tsv",
-    "wave80_prior": ROOT / "results_v3" / "wave80_cd58_cd2_axis_deepening" / "cd58_prior_art_directionality_sources.tsv",
-    "wave80_qtl": ROOT / "results_v3" / "wave80_cd58_cd2_axis_deepening" / "cd58_wave62_qtl_rows.tsv",
-    "wave80_closure_ra": ROOT / "results_v3" / "wave80_cd58_synapse_closure" / "ra_cd58_synapse_models.tsv",
-    "wave80_closure_ibd": ROOT / "results_v3" / "wave80_cd58_synapse_closure" / "ibd_cd58_synapse_models.tsv",
-    "wave80_attenuation": ROOT / "results_v3" / "wave80_cd58_synapse_closure" / "cd58_synapse_attenuation.tsv",
-    "wave79_decision": ROOT / "results_v3" / "wave79_targetability_shortlist_audit" / "targetability_integrated_decision.tsv",
-    "wave141": ROOT / "results_v3" / "wave141_modality_first_successor_scan" / "modality_first_successor_rank.tsv",
+    "wave80_decision": ROOT / "phases/v3/results" / "wave80_cd58_cd2_axis_deepening" / "cd58_cd2_axis_decision.tsv",
+    "wave80_ra_tcell": ROOT / "phases/v3/results" / "wave80_cd58_cd2_axis_deepening" / "cd58_ra_tcell_adjusted_models.tsv",
+    "wave80_response": ROOT / "phases/v3/results" / "wave80_cd58_cd2_axis_deepening" / "cd58_wave79_response_convergence_row.tsv",
+    "wave80_prior": ROOT / "phases/v3/results" / "wave80_cd58_cd2_axis_deepening" / "cd58_prior_art_directionality_sources.tsv",
+    "wave80_qtl": ROOT / "phases/v3/results" / "wave80_cd58_cd2_axis_deepening" / "cd58_wave62_qtl_rows.tsv",
+    "wave80_closure_ra": ROOT / "phases/v3/results" / "wave80_cd58_synapse_closure" / "ra_cd58_synapse_models.tsv",
+    "wave80_closure_ibd": ROOT / "phases/v3/results" / "wave80_cd58_synapse_closure" / "ibd_cd58_synapse_models.tsv",
+    "wave80_attenuation": ROOT / "phases/v3/results" / "wave80_cd58_synapse_closure" / "cd58_synapse_attenuation.tsv",
+    "wave79_decision": ROOT / "phases/v3/results" / "wave79_targetability_shortlist_audit" / "targetability_integrated_decision.tsv",
+    "wave141": ROOT / "phases/v3/results" / "wave141_modality_first_successor_scan" / "modality_first_successor_rank.tsv",
 }
 
 

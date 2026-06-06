@@ -23,9 +23,9 @@ from v3_wave104_accessible_survivor_niche_controller_test import MIN_PAIRS, clea
 
 SEED = 20260527
 GENE = "CD82"
-OUT = ROOT / "results_v3" / "wave106_cd82_specificity_confounder_audit"
-PAIRS = ROOT / "results_v3" / "wave104_accessible_survivor_niche_controller_test" / "matched_niche_pairs.tsv"
-W105 = ROOT / "results_v3" / "wave105_cd82_niche_robustness_audit" / "cd82_robust_tests.tsv"
+OUT = ROOT / "phases/v3/results" / "wave106_cd82_specificity_confounder_audit"
+PAIRS = ROOT / "phases/v3/results" / "wave104_accessible_survivor_niche_controller_test" / "matched_niche_pairs.tsv"
+W105 = ROOT / "phases/v3/results" / "wave105_cd82_niche_robustness_audit" / "cd82_robust_tests.tsv"
 
 PRIMARY_MODULES = ["lysosomal_apc", "lipid_loader_repair", "complement_phagocytosis"]
 CONTROL_MODULES = ["ifn_apc", "inflammatory_nfkb", "hif_nampt_metabolic", "hla_ii_apc"]

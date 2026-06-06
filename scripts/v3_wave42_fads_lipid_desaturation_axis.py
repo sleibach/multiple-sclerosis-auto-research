@@ -30,14 +30,14 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave42_fads_lipid_desaturation_axis"
+OUT = ROOT / "phases/v3/results" / "wave42_fads_lipid_desaturation_axis"
 RAW = OUT / "raw_api"
 SEED = 20260527
 
-WAVE34 = ROOT / "results_v3" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv"
-BROAD = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
-RESIDUAL = ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv"
-GWAS = ROOT / "tmp_v3" / "gwascatalog_associations_20260317_convert.parquet"
+WAVE34 = ROOT / "phases/v3/results" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv"
+BROAD = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv"
+RESIDUAL = ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv"
+GWAS = ROOT / "phases/v3/tmp" / "gwascatalog_associations_20260317_convert.parquet"
 L1000_COMPOUNDS = ROOT / "data" / "raw_v3" / "lincs2020" / "compoundinfo_beta.txt"
 
 GENES = ["FADS1", "FADS2", "FADS3"]

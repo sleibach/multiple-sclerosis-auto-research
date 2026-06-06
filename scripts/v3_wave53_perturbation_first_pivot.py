@@ -22,19 +22,19 @@ import requests
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave53_perturbation_first_pivot"
+OUT = ROOT / "phases/v3/results" / "wave53_perturbation_first_pivot"
 RAW = OUT / "raw_api"
 SEED = 20260527
 
 INPUTS = {
-    "wave15_synthesis": ROOT / "results_v3" / "wave15_perturbation_drug_response" / "candidate_level_synthesis.tsv",
-    "wave15_direct": ROOT / "results_v3" / "wave15_perturbation_drug_response" / "ranked_direct_perturbations.tsv",
-    "wave18_foundation": ROOT / "results_v3" / "wave18_foundation_rescue" / "foundation_rescue_candidate_rank.tsv",
-    "wave24_l1000": ROOT / "results_v3" / "wave24_l1000_recurrent_reversal" / "recurrent_l1000_mechanism_summary.tsv",
-    "wave26_baseline": ROOT / "results_v3" / "wave26_treatment_response_strict_audit" / "strict_baseline_response_audit.tsv",
-    "wave34": ROOT / "results_v3" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv",
-    "broad_h5ad": ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
-    "broad_residual": ROOT / "results_v3" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
+    "wave15_synthesis": ROOT / "phases/v3/results" / "wave15_perturbation_drug_response" / "candidate_level_synthesis.tsv",
+    "wave15_direct": ROOT / "phases/v3/results" / "wave15_perturbation_drug_response" / "ranked_direct_perturbations.tsv",
+    "wave18_foundation": ROOT / "phases/v3/results" / "wave18_foundation_rescue" / "foundation_rescue_candidate_rank.tsv",
+    "wave24_l1000": ROOT / "phases/v3/results" / "wave24_l1000_recurrent_reversal" / "recurrent_l1000_mechanism_summary.tsv",
+    "wave26_baseline": ROOT / "phases/v3/results" / "wave26_treatment_response_strict_audit" / "strict_baseline_response_audit.tsv",
+    "wave34": ROOT / "phases/v3/results" / "wave34_genetics_expression_druggability_scan" / "wave34_genetics_expression_druggability_rank.tsv",
+    "broad_h5ad": ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_rank.tsv",
+    "broad_residual": ROOT / "phases/v3/results" / "broad_residual_gate" / "broad_residual_gate_summary.tsv",
 }
 
 ROUTES = {

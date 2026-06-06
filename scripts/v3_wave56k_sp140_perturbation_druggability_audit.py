@@ -27,7 +27,7 @@ from statsmodels.stats.multitest import multipletests
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave56k_sp140_perturbation_druggability"
+OUT = ROOT / "phases/v3/results" / "wave56k_sp140_perturbation_druggability"
 RAW = OUT / "raw_api"
 
 ARTICLE_DOI = "10.1186/s12915-022-01380-6"

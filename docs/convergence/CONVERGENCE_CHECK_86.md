@@ -29,5 +29,5 @@ support, target-level genetics, and MS response rescue.
 ## Reproducibility
 
 - Script: `scripts/v3_wave132_gpr183_post_wave130_closure.py`
-- Output: `results_v3/wave132_gpr183_post_wave130_closure/`
+- Output: `phases/v3/results/wave132_gpr183_post_wave130_closure/`
 - Seed: `20260527`

@@ -70,7 +70,7 @@ Spawn hostile review agents at the requested intervals or major milestones. Thei
 - Every report must separate verified facts from speculation.
 - Every dataset accession and citation must be checkable.
 - Failed searches and blocked datasets are useful and must be reported.
-- The orchestrator will copy or summarize returned outputs under `subagents_v3/`.
+- The orchestrator will copy or summarize returned outputs under `phases/v3/subagents/`.
 
 ## First-Wave Allocation
 
@@ -104,7 +104,7 @@ Scope:
 
 Deliverable:
 
-- `subagents_v3/wave3_genetics_report.md` with accessions, exact loci where
+- `phases/v3/subagents/wave3_genetics_report.md` with accessions, exact loci where
   possible, what is true vs not established, and a go/no-go recommendation for
   V3 genetic anchoring.
 
@@ -128,7 +128,7 @@ Scope:
 
 Deliverable:
 
-- `subagents_v3/wave3_novelty_report.md` with closest prior art, explicit
+- `phases/v3/subagents/wave3_novelty_report.md` with closest prior art, explicit
   deltas, and whether a narrow novelty claim survives.
 
 Pivot criteria:
@@ -150,7 +150,7 @@ Scope:
 
 Deliverable:
 
-- `subagents_v3/wave3_disease_breadth_report.md` with candidate datasets,
+- `phases/v3/subagents/wave3_disease_breadth_report.md` with candidate datasets,
   metadata quality, expected file sizes, and recommended next two downloads.
 
 Pivot criteria:
@@ -177,7 +177,7 @@ Scope:
 
 Deliverable:
 
-- `subagents_v3/wave4_lipa_scout_report.md`
+- `phases/v3/subagents/wave4_lipa_scout_report.md`
 - Required sections: evidence for, evidence against, disease breadth,
   mechanism, intervention tractability, prior-art blockers, exact next
   falsifying analysis.
@@ -200,7 +200,7 @@ Scope:
 
 Deliverable:
 
-- `subagents_v3/wave4_residual_cd74_scout_report.md`
+- `phases/v3/subagents/wave4_residual_cd74_scout_report.md`
 - Required sections: residual evidence, confounders, therapeutic handles,
   prior art, why it is or is not a V3 central node.
 
@@ -240,8 +240,8 @@ Scope:
 
 Deliverable:
 
-- `subagents_v3/wave18_treatment_response_scout.md`
-- Any scripts/outputs under `scripts/` and `results_v3/wave18_treatment_response/`
+- `phases/v3/subagents/wave18_treatment_response_scout.md`
+- Any scripts/outputs under `scripts/` and `phases/v3/results/wave18_treatment_response/`
   if local execution is feasible.
 
 Pivot criterion:
@@ -265,7 +265,7 @@ Scope:
 
 Deliverable:
 
-- `subagents_v3/wave18_accessible_target_rescue.md`
+- `phases/v3/subagents/wave18_accessible_target_rescue.md`
 - Optional reproducible script/output if a quantitative ranking is built.
 
 Pivot criterion:
@@ -287,8 +287,8 @@ Scope:
 
 Deliverable:
 
-- `subagents_v3/wave18_foundation_rescue.md`
-- Optional script/output under `results_v3/wave18_foundation_rescue/`.
+- `phases/v3/subagents/wave18_foundation_rescue.md`
+- Optional script/output under `phases/v3/results/wave18_foundation_rescue/`.
 
 Pivot criterion:
 
@@ -297,7 +297,7 @@ Pivot criterion:
 
 Deliverable:
 
-- `subagents_v3/wave4_foundation_gate_report.md`
+- `phases/v3/subagents/wave4_foundation_gate_report.md`
 - Required sections: State gate result, exact command to validate mapping,
   Geneformer feasibility, compute estimate, and hard invalid-output rules.
 
@@ -326,7 +326,7 @@ Scope:
 
 Deliverable:
 
-- `subagents_v3/wave5_osmr_scout_report.md`
+- `phases/v3/subagents/wave5_osmr_scout_report.md`
 - Required sections: bottom line, genetics, cell-state evidence, perturbation
   evidence, druggability/intervention, prior art, falsifying next analysis,
   go/no-go for V3 central-node status.
@@ -345,7 +345,7 @@ Scope:
 
 Deliverable:
 
-- `subagents_v3/wave5_complement_scout_report.md`
+- `phases/v3/subagents/wave5_complement_scout_report.md`
 - Required sections: bottom line, disease breadth, genetic anchoring,
   cell-state evidence, intervention feasibility, prior art, falsifying next
   analysis, go/no-go.
@@ -363,8 +363,8 @@ Scope:
 
 Deliverable:
 
-- Code and outputs under `scripts/` and `results_v3/` with a report
-  `subagents_v3/wave5_local_quant_report.md`.
+- Code and outputs under `scripts/` and `phases/v3/results/` with a report
+  `phases/v3/subagents/wave5_local_quant_report.md`.
 
 Pivot criterion:
 
@@ -393,16 +393,16 @@ Workers:
   glycosylation dependencies that correlate with or perturb the `CD74`/HLA-II
   state across existing local single-cell/spatial datasets. Write scope:
   `scripts/v3_wave15_surface_trafficking_dependency.py`,
-  `results_v3/wave15_surface_trafficking_dependency/`,
-  `subagents_v3/wave15_surface_trafficking_dependency.md`.
+  `phases/v3/results/wave15_surface_trafficking_dependency/`,
+  `phases/v3/subagents/wave15_surface_trafficking_dependency.md`.
 
 - Wave15-B, perturbation and drug-response worker. Scope:
   query already downloaded and public perturbation resources for compounds or
   genetic perturbations that reduce `CD74`/`CIITA`/HLA-II while preserving a
   narrower generic IFN/core viability profile. Write scope:
   `scripts/v3_wave15_perturbation_drug_response.py`,
-  `results_v3/wave15_perturbation_drug_response/`,
-  `subagents_v3/wave15_perturbation_drug_response.md`.
+  `phases/v3/results/wave15_perturbation_drug_response/`,
+  `phases/v3/subagents/wave15_perturbation_drug_response.md`.
 
 - Wave15-C, novelty/prior-art and translational feasibility worker. Scope:
   audit candidate intervention classes around antigen presentation trafficking
@@ -410,8 +410,8 @@ Workers:
   lysosomal lipid handling, Fc/complement uptake, glycan checkpoints) across
   MS, IBD, psoriasis, Sjogren, T1D, RA, SLE, celiac, autoimmune thyroiditis,
   myasthenia, PBC, and ankylosing spondylitis. Write scope:
-  `literature_v3/wave15_prior_art_queries.tsv`,
-  `subagents_v3/wave15_prior_art_feasibility.md`.
+  `phases/v3/literature/wave15_prior_art_queries.tsv`,
+  `phases/v3/subagents/wave15_prior_art_feasibility.md`.
 
 Pivot criteria:
 
@@ -443,23 +443,23 @@ Workers:
   `LILRB4`, `LAIR1`, `CD200R1`, `SIGLEC10`, `LILRB3`, `LILRB5`, `HAVCR2`,
   `TIGIT`, `BTLA`, and related axes. Evaluate local recurrence/state coupling,
   drug modality, intervention direction, prior art, and novelty. Write scope:
-  `results_v3/wave19_tolerogenic_checkpoint/` and
-  `subagents_v3/wave19_tolerogenic_checkpoint.md`.
+  `phases/v3/results/wave19_tolerogenic_checkpoint/` and
+  `phases/v3/subagents/wave19_tolerogenic_checkpoint.md`.
 
 - Wave19-B, lysosomal stress and lipid-handling controllers. Scope:
   test `TFEB/TFE3`, `MCOLN1/TRPML1`, `PIKFYVE`, `LIPA`, `NPC1`, `NPC2`,
   `GBA`, `GBA2`, `LRRK2`, `PPARG`, `NR1H3/NR1H2`, and related lysosomal,
   autophagy, cholesterol-efflux, and lipid-repair routes. Evaluate whether
   activation/inhibition direction is explicit and druggable. Write scope:
-  `results_v3/wave19_lysosomal_controller/` and
-  `subagents_v3/wave19_lysosomal_controller.md`.
+  `phases/v3/results/wave19_lysosomal_controller/` and
+  `phases/v3/subagents/wave19_lysosomal_controller.md`.
 
 - Wave19-C, hostile critique. Scope:
   attack the V3 package as if reviewing a therapeutic target nomination.
   Determine whether the lipid-lysosomal/APC module is more likely a
   damage-response biomarker, myeloid-abundance confounder, or nonspecific
   inflammation marker than a causal intervention axis. Write scope:
-  `subagents_v3/wave19_hostile_critique.md`.
+  `phases/v3/subagents/wave19_hostile_critique.md`.
 
 Promotion criteria:
 
@@ -491,11 +491,11 @@ Workers:
 - Wave20-A, unrestricted survivor stress test. Scope:
   evaluate `SNX10`, `DAP`, `FMNL2`, `TNFAIP8L1`, `PPIL3`, `NCK1`, `PLEK2`,
   `SEL1L3`, `AQR`, `C15ORF48`, and any adjacent survivor from
-  `results_v3/unrestricted_survivor_scan/unrestricted_survivor_candidates.tsv`.
+  `phases/v3/results/unrestricted_survivor_scan/unrestricted_survivor_candidates.tsv`.
   Apply hostile Wave19 gates: recurrence, residual specificity, perturbation,
   modality, safety, and prior-art delta. Write scope:
-  `results_v3/wave20_unrestricted_survivor/` and
-  `subagents_v3/wave20_unrestricted_survivor.md`.
+  `phases/v3/results/wave20_unrestricted_survivor/` and
+  `phases/v3/subagents/wave20_unrestricted_survivor.md`.
 
 - Wave20-B, genetic/druggable alternate-axis search. Scope:
   search for cross-autoimmune genetically anchored targets or pathways outside
@@ -505,8 +505,8 @@ Workers:
   `NAMPT`, `SLC15A4/TASL`, `GSK3B`, `CTSH/CTSS`, `CD44/SPP1`, `PD-L1`,
   galectin, complement/Fc/TAM/TREM, and JAK/IFN generic routes unless the
   worker finds a genuinely new modality or population delta. Write scope:
-  `results_v3/wave20_genetic_druggable_altaxis/` and
-  `subagents_v3/wave20_genetic_druggable_altaxis.md`.
+  `phases/v3/results/wave20_genetic_druggable_altaxis/` and
+  `phases/v3/subagents/wave20_genetic_druggable_altaxis.md`.
 
 Promotion criteria:
 
@@ -539,8 +539,8 @@ Workers:
   residual survival plus plausible modality. Demote generic IFN/JAK/proteasome
   or core-machinery hits unless a new intervention delta is explicit. Write
   scope: `scripts/v3_wave21_residual_druggability_scan.py`,
-  `results_v3/wave21_residual_druggability_scan/`, and
-  `subagents_v3/wave21_residual_druggability_scan.md`.
+  `phases/v3/results/wave21_residual_druggability_scan/`, and
+  `phases/v3/subagents/wave21_residual_druggability_scan.md`.
 
 - Wave21-B, novelty/modality hostile review for residual candidates. Scope:
   focus on plausible residual/druggable candidates surfaced locally or obvious
@@ -548,8 +548,8 @@ Workers:
   `CD82`, `PSME1/2`, `POMP`, and `IFITM2/3`. Search PubMed/Europe PMC,
   preprints, ClinicalTrials.gov, Google Patents, ChEMBL, and UniProt; identify
   blocking prior art, modality, direction, and safety risks. Write scope:
-  `results_v3/wave21_residual_candidate_prior_art/` and
-  `subagents_v3/wave21_residual_candidate_prior_art.md`.
+  `phases/v3/results/wave21_residual_candidate_prior_art/` and
+  `phases/v3/subagents/wave21_residual_candidate_prior_art.md`.
 
 Promotion criteria:
 
@@ -585,8 +585,8 @@ Workers:
   `FFAR3`, `HCAR2`), retinoid/VDR axes, S1P receptors, and
   eicosanoid/leukotriene sensors. Write scope:
   `scripts/v3_wave23_metabolite_barrier_circuit.py`,
-  `results_v3/wave23_metabolite_barrier_circuit/`, and
-  `subagents_v3/wave23_metabolite_barrier_circuit.md`.
+  `phases/v3/results/wave23_metabolite_barrier_circuit/`, and
+  `phases/v3/subagents/wave23_metabolite_barrier_circuit.md`.
 
 - Wave23-B, genetics-first restoration modality scout. Scope:
   revisit genetically anchored negative regulators and autophagy/endolysosomal
@@ -595,8 +595,8 @@ Workers:
   `IL6R`, `TYK2`, plus any locally justified additions. Explicitly distinguish
   feasible current modalities from speculative restoration. Write scope:
   `scripts/v3_wave23_genetics_restoration_modality.py`,
-  `results_v3/wave23_genetics_restoration_modality/`, and
-  `subagents_v3/wave23_genetics_restoration_modality.md`.
+  `phases/v3/results/wave23_genetics_restoration_modality/`, and
+  `phases/v3/subagents/wave23_genetics_restoration_modality.md`.
 
 - Wave23-C, treatment-response stratification scout. Scope:
   ask whether the shared lipid-lysosomal/APC module is more useful as a
@@ -605,8 +605,8 @@ Workers:
   pharmacodynamic associations across anti-TNF, JAK/TYK, IL-17/IL-23,
   anti-CD20, S1P, fumarate, and integrin therapies. Write scope:
   `scripts/v3_wave23_treatment_response_stratification.py`,
-  `results_v3/wave23_treatment_response_stratification/`, and
-  `subagents_v3/wave23_treatment_response_stratification.md`.
+  `phases/v3/results/wave23_treatment_response_stratification/`, and
+  `phases/v3/subagents/wave23_treatment_response_stratification.md`.
 
 Promotion criteria:
 
@@ -1012,8 +1012,8 @@ Reason for wave:
 Worker:
 
 - Wave53-G adversarial translational reviewer. Scope: start from
-  `results_v3/wave15_perturbation_drug_response/` and
-  `results_v3/wave18_foundation_rescue/`; determine whether the strong
+  `phases/v3/results/wave15_perturbation_drug_response/` and
+  `phases/v3/results/wave18_foundation_rescue/`; determine whether the strong
   `Med16_KO` perturbation can be converted into a druggable intervention such
   as CDK8/19, Mediator kinase-module, or transcriptional co-regulator
   modulation. Check cross-autoimmune prior art, safety, cell specificity, and
@@ -1048,10 +1048,10 @@ Reason for wave:
 Worker:
 
 - Wave53-H hostile treatment-response reviewer. Scope: review
-  `results_v3/wave23_treatment_response_stratification/`,
-  `results_v3/wave26_treatment_response_strict_audit/`,
-  `results_v3/gse253006_tofacitinib*/`, and
-  `results_v3/wave18_treatment_response/`. Focus on anti-TNF RA,
+  `phases/v3/results/wave23_treatment_response_stratification/`,
+  `phases/v3/results/wave26_treatment_response_strict_audit/`,
+  `phases/v3/results/gse253006_tofacitinib*/`, and
+  `phases/v3/results/wave18_treatment_response/`. Focus on anti-TNF RA,
   tofacitinib UC, IL-17/IL-23 psoriasis, anti-CD20 MS, fumarate MS,
   fingolimod MS, and rituximab RA.
 
@@ -1404,7 +1404,7 @@ Worker:
   `wave37_gse212008_crispr_efferocytosis_screen`,
   `wave53_perturbation_first_pivot`, `mixscale`) and identify intervention
   candidates whose evidence is genuinely perturbation-first rather than
-  expression-first. Write only `subagents_v3/wave61s_intervention_mining.md`.
+  expression-first. Write only `phases/v3/subagents/wave61s_intervention_mining.md`.
 
 Promotion criteria:
 
@@ -1438,7 +1438,7 @@ Worker:
   and any stronger candidate found locally), audit druggability, tissue/CNS
   delivery, existing chemical matter, biomarker readouts, trials, patents, and
   prior art across MS/IBD/psoriasis/RA/SLE/T1D. Write only
-  `subagents_v3/wave61t_translational_prior_art.md`.
+  `phases/v3/subagents/wave61t_translational_prior_art.md`.
 
 Promotion criteria:
 
@@ -1469,7 +1469,7 @@ Worker:
   especially cross-species transfer, L1000 interpretability, CRISPR screen
   readout mismatch, module-score circularity, selectivity definitions, repair
   guardrails, prior-art leakage, and causal inference. Write only
-  `subagents_v3/wave61u_hostile_review_perturbation_first.md`.
+  `phases/v3/subagents/wave61u_hostile_review_perturbation_first.md`.
 
 Promotion criteria:
 
@@ -1501,7 +1501,7 @@ Worker:
   credible-set plus QTL-colocalisation evidence, especially in MS and at least
   three other autoimmune diseases. Focus on genes relevant to the
   lipid-lysosomal/APC module and genetically broad nodes from Wave55/34A.
-  Write only `subagents_v3/wave62v_opentargets_target_resolution.md`.
+  Write only `phases/v3/subagents/wave62v_opentargets_target_resolution.md`.
 
 Promotion criteria:
 
@@ -1533,7 +1533,7 @@ Worker:
   using these API outputs in a therapeutic claim and identify failure modes
   around HLA/MHC, pleiotropy, ancestry, QTL tissue mismatch, sign ambiguity,
   prior art, and druggability. Write only
-  `subagents_v3/wave62w_hostile_genetics_first.md`.
+  `phases/v3/subagents/wave62w_hostile_genetics_first.md`.
 
 Promotion criteria:
 
@@ -1565,7 +1565,7 @@ Worker:
   rescue, macrophage state, and cross-autoimmune transferability using local
   artifacts plus verified public literature. Assess `TOP1`, `TOP2A`,
   `TOP2B`, and any lower-toxicity topoisomerase-modulating route. Write only
-  `subagents_v3/wave63x_sp140_topoisomerase_transfer.md`.
+  `phases/v3/subagents/wave63x_sp140_topoisomerase_transfer.md`.
 
 Promotion criteria:
 
@@ -1596,7 +1596,7 @@ Worker:
   `SP140`, and `IFI30` as genetics benchmarks. Determine whether any has a
   downstream intervention point that is both module-relevant and less blocked
   than direct target modulation. Write only
-  `subagents_v3/wave63y_broad_genetics_benchmark.md`.
+  `phases/v3/subagents/wave63y_broad_genetics_benchmark.md`.
 
 Promotion criteria:
 
@@ -1627,7 +1627,7 @@ Worker:
   integration logic before it can harden into a narrative. Focus on
   independence of evidence channels, reuse of the same datasets, target versus
   marker distinction, lack of perturbation, directionality, druggability, and
-  novelty. Write only `subagents_v3/wave63z_transition_controller_hostile.md`.
+  novelty. Write only `phases/v3/subagents/wave63z_transition_controller_hostile.md`.
 
 Promotion criteria:
 
@@ -1657,7 +1657,7 @@ Worker:
   psoriasis, SLE, Sjogren's, T1D, and celiac disease. Include accessions,
   sample sizes, cell/tissue system, intervention, readout, whether raw data is
   feasible here, and a ranked recommendation for one dataset to analyze next.
-  Write only `subagents_v3/wave64a_perturbation_dataset_scout.md`.
+  Write only `phases/v3/subagents/wave64a_perturbation_dataset_scout.md`.
 
 Promotion criteria:
 
@@ -1689,7 +1689,7 @@ Worker:
   drug-response clinical datasets, imaging/radiomics, and comorbidity
   phenomics. Include exact accessions/resources, feasibility, variables, and a
   ranked recommendation. Write only
-  `subagents_v3/wave64b_nonexpression_modality_scout.md`.
+  `phases/v3/subagents/wave64b_nonexpression_modality_scout.md`.
 
 Promotion criteria:
 
@@ -1720,7 +1720,7 @@ Worker:
   circularity, drug-class non-specificity, wrong tissue, and prior-art leakage.
   Apply those rules to likely routes such as JAK/TYK, IL-17/23, anti-TNF,
   CD127/IL7R, SP140/TOP, lysosomal enzymes, and phagolysosomal modulators.
-  Write only `subagents_v3/wave64c_hostile_perturbation_gate.md`.
+  Write only `phases/v3/subagents/wave64c_hostile_perturbation_gate.md`.
 
 Promotion criteria:
 
@@ -1752,7 +1752,7 @@ Worker:
   individual-level processed data and sample metadata are downloadable without
   authentication, the relevant factors/case-control labels, file names/URLs,
   and any harmonization traps. Write only
-  `subagents_v3/wave66a_metabolomics_access_scout.md`.
+  `phases/v3/subagents/wave66a_metabolomics_access_scout.md`.
 
 Promotion criteria:
 
@@ -1782,7 +1782,7 @@ Worker:
   full download, cell-state annotations, subject/timepoint/remission metadata,
   and the minimal feasible analysis plan for V3 lipid-lysosomal/APC module
   testing. Include compute/memory risks and a go/no-go recommendation. Write
-  only `subagents_v3/wave66b_gse282122_feasibility.md`.
+  only `phases/v3/subagents/wave66b_gse282122_feasibility.md`.
 
 Promotion criteria:
 

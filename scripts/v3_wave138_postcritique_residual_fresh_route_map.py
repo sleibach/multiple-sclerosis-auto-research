@@ -12,8 +12,8 @@ from v3_analyze_osmr_complement_axes import ROOT
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave138_postcritique_residual_fresh_route_map"
-W133 = ROOT / "results_v3" / "wave133_closure_hygiene_correction" / "wave122_corrected_rank.tsv"
+OUT = ROOT / "phases/v3/results" / "wave138_postcritique_residual_fresh_route_map"
+W133 = ROOT / "phases/v3/results" / "wave133_closure_hygiene_correction" / "wave122_corrected_rank.tsv"
 
 HARD_CLOSED = {
     "ACSL1", "NAMPT", "GPR183", "DAP", "NCF2", "P2RX7", "SPNS1", "EPHX2",

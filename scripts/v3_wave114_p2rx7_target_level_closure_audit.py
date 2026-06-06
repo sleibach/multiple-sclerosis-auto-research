@@ -13,14 +13,14 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave114_p2rx7_target_level_closure_audit"
-W73_DECISION = ROOT / "results_v3" / "wave73_p2rx7_stratification_test" / "p2rx7_stratification_decision.tsv"
-W73_BROAD = ROOT / "results_v3" / "wave73_p2rx7_stratification_test" / "broad_h5ad_module_summary.tsv"
-W73_MS = ROOT / "results_v3" / "wave73_p2rx7_stratification_test" / "ms_gse111972_module_tests.tsv"
-W73_RA = ROOT / "results_v3" / "wave73_p2rx7_stratification_test" / "ra_gse198520_module_tests.tsv"
-W73_IBD = ROOT / "results_v3" / "wave73_p2rx7_stratification_test" / "gse282122_module_response_tests.tsv"
-W37 = ROOT / "results_v3" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
-W95 = ROOT / "results_v3" / "wave95_mechanistic_forcing_triage" / "mechanistic_forcing_metric_long.tsv"
+OUT = ROOT / "phases/v3/results" / "wave114_p2rx7_target_level_closure_audit"
+W73_DECISION = ROOT / "phases/v3/results" / "wave73_p2rx7_stratification_test" / "p2rx7_stratification_decision.tsv"
+W73_BROAD = ROOT / "phases/v3/results" / "wave73_p2rx7_stratification_test" / "broad_h5ad_module_summary.tsv"
+W73_MS = ROOT / "phases/v3/results" / "wave73_p2rx7_stratification_test" / "ms_gse111972_module_tests.tsv"
+W73_RA = ROOT / "phases/v3/results" / "wave73_p2rx7_stratification_test" / "ra_gse198520_module_tests.tsv"
+W73_IBD = ROOT / "phases/v3/results" / "wave73_p2rx7_stratification_test" / "gse282122_module_response_tests.tsv"
+W37 = ROOT / "phases/v3/results" / "wave37_gse212008_crispr_efferocytosis_screen" / "gene_level_screen_scores.tsv"
+W95 = ROOT / "phases/v3/results" / "wave95_mechanistic_forcing_triage" / "mechanistic_forcing_metric_long.tsv"
 
 
 def read_tsv(path: Path) -> pd.DataFrame:

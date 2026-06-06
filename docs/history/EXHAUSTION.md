@@ -22,12 +22,12 @@ Reports are preserved in `subagents/`.
 
 Executed:
 
-- ACSL-family AlphaFold/UniProt/ChEMBL inventory: `results_v2/acsl_family_structure_pharmacology.tsv`.
-- ODE therapeutic-window simulation: `results_v2/acsl1_ode_sensitivity.tsv`.
-- Agent-based lesion-rim simulation: `results_v2/acsl1_abm_runs.tsv`.
-- Trial-feasibility simulation: `results_v2/acsl1_trial_feasibility_simulation.tsv`.
-- Incremental-value test beyond lipid/lysosomal module: `results_v2/acsl1_incremental_value_models.tsv`.
-- Cross-autoimmune expression screen: `results_v2/cross_autoimmune_target_gene_contrasts.tsv`.
+- ACSL-family AlphaFold/UniProt/ChEMBL inventory: `phases/v2/results/acsl_family_structure_pharmacology.tsv`.
+- ODE therapeutic-window simulation: `phases/v2/results/acsl1_ode_sensitivity.tsv`.
+- Agent-based lesion-rim simulation: `phases/v2/results/acsl1_abm_runs.tsv`.
+- Trial-feasibility simulation: `phases/v2/results/acsl1_trial_feasibility_simulation.tsv`.
+- Incremental-value test beyond lipid/lysosomal module: `phases/v2/results/acsl1_incremental_value_models.tsv`.
+- Cross-autoimmune expression screen: `phases/v2/results/cross_autoimmune_target_gene_contrasts.tsv`.
 
 Key results:
 
@@ -80,7 +80,7 @@ Conclusion: NAMPT is a plausible known inflammatory-metabolic node, but not a no
 | Translational feasibility audit | ACSL1 lacks CNS clinical modality; NAMPT is tractable but high-liability and prior-arted. |
 | Verified novelty | Not met for NAMPT; ACSL1 narrow novelty remains but target claim failed. |
 | Falsification path | Exists for ACSL1 from prior phase, but V2 claim is rejected. |
-| Reproducibility | Met for analyses executed; entrypoint is `./run_v2_analysis.sh`. |
+| Reproducibility | Met for analyses executed; entrypoint is `./scripts/entrypoints/run_v2_analysis.sh`. |
 
 ## What Would Revive Each Path
 
@@ -115,20 +115,20 @@ Needed:
 Entry point:
 
 ```bash
-./run_v2_analysis.sh
+./scripts/entrypoints/run_v2_analysis.sh
 ```
 
 Important outputs:
 
-- `results_v2/cross_autoimmune_target_gene_contrasts.tsv`
-- `results_v2/cross_autoimmune_module_contrasts.tsv`
-- `results_v2/extended_autoimmune_target_gene_contrasts.tsv`
-- `results_v2/acsl1_incremental_value_models.tsv`
-- `results_v2/acsl1_ode_summary.json`
-- `results_v2/acsl1_abm_summary.tsv`
-- `results_v2/successor_target_priority_rank.tsv`
-- `results_v2/nampt_feasibility_summary.json`
-- `results_v2/prior_art_pubmed_counts.tsv`
+- `phases/v2/results/cross_autoimmune_target_gene_contrasts.tsv`
+- `phases/v2/results/cross_autoimmune_module_contrasts.tsv`
+- `phases/v2/results/extended_autoimmune_target_gene_contrasts.tsv`
+- `phases/v2/results/acsl1_incremental_value_models.tsv`
+- `phases/v2/results/acsl1_ode_summary.json`
+- `phases/v2/results/acsl1_abm_summary.tsv`
+- `phases/v2/results/successor_target_priority_rank.tsv`
+- `phases/v2/results/nampt_feasibility_summary.json`
+- `phases/v2/results/prior_art_pubmed_counts.tsv`
 - `data/derived_v2_manifest.tsv`
 
 Random seed: `20260526`.

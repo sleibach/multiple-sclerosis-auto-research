@@ -85,7 +85,7 @@ Output:
 Potentially valid only for:
 
 - Mixscale-like pathway perturbations;
-- module outputs represented in `results_v3/mixscale/mixscale_module_summary.tsv`;
+- module outputs represented in `phases/v3/results/mixscale/mixscale_module_summary.tsv`;
 - pathway contexts represented in training data.
 
 The model must abstain for:

@@ -67,10 +67,10 @@ def contains_probe(row: dict[str, str]) -> bool:
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
 
-    summary_path = ROOT / "results_v3" / "wave17_mediator_route_gate" / "summary.json"
-    local_path = ROOT / "results_v3" / "wave17_mediator_kinase_route" / "local_perturbation_evidence.tsv"
-    compounds_path = ROOT / "results_v3" / "wave17_mediator_kinase_route" / "compound_landscape.tsv"
-    l1000_path = ROOT / "results_v3" / "l1000fwd_compound_summary.tsv"
+    summary_path = ROOT / "phases/v3/results" / "wave17_mediator_route_gate" / "summary.json"
+    local_path = ROOT / "phases/v3/results" / "wave17_mediator_kinase_route" / "local_perturbation_evidence.tsv"
+    compounds_path = ROOT / "phases/v3/results" / "wave17_mediator_kinase_route" / "compound_landscape.tsv"
+    l1000_path = ROOT / "phases/v3/results" / "l1000fwd_compound_summary.tsv"
 
     summary = json.loads(summary_path.read_text())
     local_rows = read_tsv(local_path)

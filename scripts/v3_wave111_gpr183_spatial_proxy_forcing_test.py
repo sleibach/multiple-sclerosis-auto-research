@@ -24,10 +24,10 @@ from v3_wave104_accessible_survivor_niche_controller_test import MIN_PAIRS, linr
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave111_gpr183_spatial_proxy_forcing_test"
-DONOR = ROOT / "results_v3" / "wave102_accessible_survivor_residual_compartment_test" / "accessible_survivor_donor_scores.tsv"
-MODULES = ROOT / "results_v3" / "direct_h5ad_cell_state" / "direct_h5ad_donor_module_scores.tsv"
-BROAD = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
+OUT = ROOT / "phases/v3/results" / "wave111_gpr183_spatial_proxy_forcing_test"
+DONOR = ROOT / "phases/v3/results" / "wave102_accessible_survivor_residual_compartment_test" / "accessible_survivor_donor_scores.tsv"
+MODULES = ROOT / "phases/v3/results" / "direct_h5ad_cell_state" / "direct_h5ad_donor_module_scores.tsv"
+BROAD = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_contrasts.tsv"
 
 RECEPTOR = "GPR183"
 LIGAND_GENES = ["CH25H", "CYP7B1", "HSD3B7", "CYP27A1"]

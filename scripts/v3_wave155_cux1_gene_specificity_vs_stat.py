@@ -14,7 +14,7 @@ from scipy import stats
 SEED = 20260527
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw_v3" / "interface_perturbation_geo"
-OUT = ROOT / "results_v3" / "wave155_cux1_gene_specificity_vs_stat"
+OUT = ROOT / "phases/v3/results" / "wave155_cux1_gene_specificity_vs_stat"
 OUT.mkdir(parents=True, exist_ok=True)
 
 MODULES: dict[str, list[str]] = {

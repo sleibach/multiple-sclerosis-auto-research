@@ -169,7 +169,7 @@ resource tradeoff rather than the next default branch.
 The reduced SLE Census selected-gene retry was also stopped. With
 `SLE_MAX_CELLS_PER_DONOR_CELLTYPE=25` and `SLE_MAX_TOTAL_CELLS=8000`, the
 process ran for more than ten minutes, consumed several GB of memory, and
-produced no output files under `results_v3/sle_census_targeted/`.
+produced no output files under `phases/v3/results/sle_census_targeted/`.
 
 Decision: do not spend the current critical path on Census raw-matrix
 materialization. The SLE metadata and source h5ad remain documented and

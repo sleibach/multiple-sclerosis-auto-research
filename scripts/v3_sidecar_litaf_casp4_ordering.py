@@ -22,8 +22,8 @@ from scipy import stats
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "sidecar_litaf_casp4_ordering"
-REPORT = ROOT / "subagents_v3" / "sidecar_litaf_casp4_perturbation_modeling.md"
+OUT = ROOT / "phases/v3/results" / "sidecar_litaf_casp4_ordering"
+REPORT = ROOT / "phases/v3/subagents" / "sidecar_litaf_casp4_perturbation_modeling.md"
 SEED = 20260527
 
 GSE294918 = ROOT / "data/raw_v3/wave14_gsk3b_ciita/GSE294918_IFNyRNAseq_CPM.csv.gz"
@@ -400,7 +400,7 @@ def analyze_mouse() -> tuple[pd.DataFrame, pd.DataFrame]:
 
 
 def extract_wave37() -> pd.DataFrame:
-    path = ROOT / "results_v3/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv"
+    path = ROOT / "phases/v3/results/wave37_gse212008_crispr_efferocytosis_screen/gene_level_screen_scores.tsv"
     if not path.exists():
         return pd.DataFrame()
     df = pd.read_csv(path, sep="\t")
@@ -409,7 +409,7 @@ def extract_wave37() -> pd.DataFrame:
 
 
 def extract_mixscale() -> pd.DataFrame:
-    path = ROOT / "results_v3/mixscale/mixscale_readout_gene_summary.tsv"
+    path = ROOT / "phases/v3/results/mixscale/mixscale_readout_gene_summary.tsv"
     if not path.exists():
         return pd.DataFrame()
     df = pd.read_csv(path, sep="\t")
@@ -420,8 +420,8 @@ def extract_mixscale() -> pd.DataFrame:
 
 
 def extract_geneformer() -> tuple[pd.DataFrame, pd.DataFrame]:
-    metrics_path = ROOT / "results_v3/geneformer_broad_residual_delete/geneformer_broad_residual_delete_metrics.tsv"
-    summary_path = ROOT / "results_v3/wave18_foundation_rescue/geneformer_source_gene_summary.tsv"
+    metrics_path = ROOT / "phases/v3/results/geneformer_broad_residual_delete/geneformer_broad_residual_delete_metrics.tsv"
+    summary_path = ROOT / "phases/v3/results/wave18_foundation_rescue/geneformer_source_gene_summary.tsv"
     metrics = pd.DataFrame()
     summary = pd.DataFrame()
     if metrics_path.exists():
@@ -435,8 +435,8 @@ def extract_geneformer() -> tuple[pd.DataFrame, pd.DataFrame]:
 
 def extract_l1000() -> pd.DataFrame:
     paths = [
-        ROOT / "results_v3/l1000fwd_reversal_hits.tsv",
-        ROOT / "results_v3/wave15_perturbation_drug_response/l1000fwd_selectivity_hits.tsv",
+        ROOT / "phases/v3/results/l1000fwd_reversal_hits.tsv",
+        ROOT / "phases/v3/results/wave15_perturbation_drug_response/l1000fwd_selectivity_hits.tsv",
     ]
     rows = []
     pattern = "CASP4|LITAF|caspase|pyroptosis|NFKB|NF-kappa|JAK|ruxolitinib|TNF"
@@ -619,19 +619,19 @@ def main() -> None:
     target_summary = build_target_summary(human_gene_tc, human_mod_tc, human_order, human_rux, mouse_gene, wave37, gf_summary)
 
     artifacts = {
-        "human_gene_timecourse": "results_v3/sidecar_litaf_casp4_ordering/gse294918_gene_timecourse.tsv",
-        "human_module_timecourse": "results_v3/sidecar_litaf_casp4_ordering/gse294918_module_timecourse.tsv",
-        "human_ordering_summary": "results_v3/sidecar_litaf_casp4_ordering/gse294918_ordering_summary.tsv",
-        "human_rux_effects": "results_v3/sidecar_litaf_casp4_ordering/gse294918_rux_effects.tsv",
-        "mouse_gene_contrasts": "results_v3/sidecar_litaf_casp4_ordering/gse162464_gene_contrasts.tsv",
-        "mouse_module_contrasts": "results_v3/sidecar_litaf_casp4_ordering/gse162464_module_contrasts.tsv",
-        "wave37_extract": "results_v3/sidecar_litaf_casp4_ordering/wave37_screen_extract.tsv",
-        "mixscale_extract": "results_v3/sidecar_litaf_casp4_ordering/mixscale_axis_extract.tsv",
-        "geneformer_context_extract": "results_v3/sidecar_litaf_casp4_ordering/geneformer_context_extract.tsv",
-        "geneformer_gene_summary_extract": "results_v3/sidecar_litaf_casp4_ordering/geneformer_gene_summary_extract.tsv",
-        "l1000_extract": "results_v3/sidecar_litaf_casp4_ordering/l1000_branch_extract.tsv",
-        "target_directionality_summary": "results_v3/sidecar_litaf_casp4_ordering/target_directionality_summary.tsv",
-        "report": "subagents_v3/sidecar_litaf_casp4_perturbation_modeling.md",
+        "human_gene_timecourse": "phases/v3/results/sidecar_litaf_casp4_ordering/gse294918_gene_timecourse.tsv",
+        "human_module_timecourse": "phases/v3/results/sidecar_litaf_casp4_ordering/gse294918_module_timecourse.tsv",
+        "human_ordering_summary": "phases/v3/results/sidecar_litaf_casp4_ordering/gse294918_ordering_summary.tsv",
+        "human_rux_effects": "phases/v3/results/sidecar_litaf_casp4_ordering/gse294918_rux_effects.tsv",
+        "mouse_gene_contrasts": "phases/v3/results/sidecar_litaf_casp4_ordering/gse162464_gene_contrasts.tsv",
+        "mouse_module_contrasts": "phases/v3/results/sidecar_litaf_casp4_ordering/gse162464_module_contrasts.tsv",
+        "wave37_extract": "phases/v3/results/sidecar_litaf_casp4_ordering/wave37_screen_extract.tsv",
+        "mixscale_extract": "phases/v3/results/sidecar_litaf_casp4_ordering/mixscale_axis_extract.tsv",
+        "geneformer_context_extract": "phases/v3/results/sidecar_litaf_casp4_ordering/geneformer_context_extract.tsv",
+        "geneformer_gene_summary_extract": "phases/v3/results/sidecar_litaf_casp4_ordering/geneformer_gene_summary_extract.tsv",
+        "l1000_extract": "phases/v3/results/sidecar_litaf_casp4_ordering/l1000_branch_extract.tsv",
+        "target_directionality_summary": "phases/v3/results/sidecar_litaf_casp4_ordering/target_directionality_summary.tsv",
+        "report": "phases/v3/subagents/sidecar_litaf_casp4_perturbation_modeling.md",
     }
 
     human_gene_tc.to_csv(ROOT / artifacts["human_gene_timecourse"], sep="\t", index=False)

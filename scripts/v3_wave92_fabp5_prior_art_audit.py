@@ -24,7 +24,7 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave92_fabp5_prior_art_audit"
+OUT = ROOT / "phases/v3/results" / "wave92_fabp5_prior_art_audit"
 
 PUBMED_QUERIES = [
     'FABP5 multiple sclerosis',

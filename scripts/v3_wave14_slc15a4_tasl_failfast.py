@@ -25,10 +25,10 @@ from v3_analyze_osmr_complement_axes import CONFIGS, ROOT
 
 
 SEED = 20260527
-RESULTS = ROOT / "results_v3"
+RESULTS = ROOT / "phases/v3/results"
 OUT = RESULTS / "wave14_slc15a4_tasl_failfast"
 MS_SIGNATURE = RESULTS / "gse111972_full_ms_wm_signature.tsv"
-GENETICS = ROOT / "tmp_v3" / "wave13_opentargets_gwas_credible_sets.tsv"
+GENETICS = ROOT / "phases/v3/tmp" / "wave13_opentargets_gwas_credible_sets.tsv"
 
 MIN_DONOR_CELLS = 10
 

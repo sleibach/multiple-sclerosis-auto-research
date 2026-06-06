@@ -2,7 +2,7 @@
 
 ## 2026-05-26 21:44 UTC - Hour 3 Hostile Critique
 
-Source report: `subagents_v3/critique_hour3_report.md`.
+Source report: `phases/v3/subagents/critique_hour3_report.md`.
 
 ### Criticism 1: The IFNG/HLA-II/CD74/GILT/TAP transition is too generic.
 
@@ -94,7 +94,7 @@ abandoned in favor of a different cross-disease mechanism?"
 
 ## 2026-05-27 00:38 UTC - Hour 6 Hostile Critique
 
-Source report: `subagents_v3/wave14_hour6_hostile_critique.md`.
+Source report: `phases/v3/subagents/wave14_hour6_hostile_critique.md`.
 
 ### Criticism 1: The current central state is canonical IFN/APC biology.
 
@@ -166,7 +166,7 @@ Timestamp: 2026-05-27 06:08 UTC
 
 Source:
 
-- `subagents_v3/wave19_hostile_critique.md`
+- `phases/v3/subagents/wave19_hostile_critique.md`
 
 Accepted critique:
 
@@ -212,7 +212,7 @@ Timestamp: 2026-05-27 08:04 UTC
 
 Source:
 
-- `subagents_v3/wave32d_hour9_hostile_critique.md`
+- `phases/v3/subagents/wave32d_hour9_hostile_critique.md`
 
 Accepted critique:
 
@@ -257,7 +257,7 @@ Timestamp: 2026-05-27 09:05 UTC
 
 Source:
 
-- `subagents_v3/wave36b_hostile_critique.md`
+- `phases/v3/subagents/wave36b_hostile_critique.md`
 
 Accepted critique:
 
@@ -289,7 +289,7 @@ Timestamp: 2026-05-27 09:20 UTC
 
 Source:
 
-- `subagents_v3/wave39b_accessibility_prior_art_critique.md`
+- `phases/v3/subagents/wave39b_accessibility_prior_art_critique.md`
 
 Accepted critique:
 
@@ -429,7 +429,7 @@ Corrections made:
 - Patched and reran Wave136 report text to state corrected Wave135 found no
   reproduced lipid-flux MS response rescue.
 - Added
-  `results_v3/wave133_closure_hygiene_correction/SUPERSEDED_BY_WAVE134.json`.
+  `phases/v3/results/wave133_closure_hygiene_correction/SUPERSEDED_BY_WAVE134.json`.
 - Abandoned treatment-response target pivot based on Ramanujan's audit.
 - Ran Wave142 sender-bridge audit with explicit orthogonal gates; no target
   survived.

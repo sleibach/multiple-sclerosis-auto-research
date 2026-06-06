@@ -9,7 +9,7 @@
 - Current `.venv` has `numpy`, `pandas`, `scipy`, `statsmodels`.
 - Missing at start: `requests`, `Bio`, `scikit-learn`, `anndata`, `scanpy`, `torch`, `transformers`, `huggingface_hub`, `rdkit`, `networkx`.
 - Existing real data: MS lesion proteomics/RNA/spatial data under `data/raw`, autoimmune GEO matrices under `data/raw_v2`.
-- Existing V2 entry point: `./run_v2_analysis.sh`.
+- Existing V2 entry point: `./scripts/entrypoints/run_v2_analysis.sh`.
 
 ## Foundation Models
 
@@ -167,8 +167,8 @@ Model candidates:
 
 ## Reproducibility Targets
 
-- `run_v3_analysis.sh` end-to-end entry point.
+- `scripts/entrypoints/run_v3_analysis.sh` end-to-end entry point.
 - `environment/requirements_v3.txt` and `environment/python_v3_freeze.txt`.
 - fixed random seed `20260526`.
 - manifest of data downloads/checksums under `data/derived_v3`.
-- all subagent reports copied under `subagents_v3`.
+- all subagent reports copied under `phases/v3/subagents`.

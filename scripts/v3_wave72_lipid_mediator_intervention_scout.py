@@ -24,16 +24,16 @@ import pandas as pd
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "results_v3" / "wave72_lipid_mediator_intervention_scout"
+OUT = ROOT / "phases/v3/results" / "wave72_lipid_mediator_intervention_scout"
 SEED = 20260527
 
-WAVE66 = ROOT / "results_v3" / "wave66_metabolomics_class_convergence"
+WAVE66 = ROOT / "phases/v3/results" / "wave66_metabolomics_class_convergence"
 FEATURE_EFFECTS = WAVE66 / "feature_contrast_effects.tsv"
 CLASS_EFFECTS = WAVE66 / "class_contrast_effects.tsv"
-BROAD_H5AD = ROOT / "results_v3" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_summary.tsv"
-WAVE62 = ROOT / "results_v3" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
-WAVE57 = ROOT / "results_v3" / "wave57_intervention_first_geneformer_screen" / "wave57_intervention_first_candidate_calls.tsv"
-WAVE68 = ROOT / "results_v3" / "wave68_gse282122_unrestricted_gene_screen" / "integrated_gene_target_rank.tsv"
+BROAD_H5AD = ROOT / "phases/v3/results" / "broad_h5ad_gene_discovery" / "broad_h5ad_gene_summary.tsv"
+WAVE62 = ROOT / "phases/v3/results" / "wave62_opentargets_target_resolution" / "target_resolution_summary.tsv"
+WAVE57 = ROOT / "phases/v3/results" / "wave57_intervention_first_geneformer_screen" / "wave57_intervention_first_candidate_calls.tsv"
+WAVE68 = ROOT / "phases/v3/results" / "wave68_gse282122_unrestricted_gene_screen" / "integrated_gene_target_rank.tsv"
 FOAMY_PROTEOME = ROOT / "results" / "mims2_proteome_convergent_targets.tsv"
 
 

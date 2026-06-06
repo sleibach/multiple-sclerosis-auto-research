@@ -12,14 +12,14 @@ from v3_wave85_external_geo_antitnf_validation import markdown_table, rel, write
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave120_ephx2_target_pd_coherence_closure"
+OUT = ROOT / "phases/v3/results" / "wave120_ephx2_target_pd_coherence_closure"
 
-DIRECT_RATIO = ROOT / "results_v3" / "wave74_ephx2_direct_ratio_audit" / "ephx2_direct_ratio_decision.tsv"
-FINAL_DECISION = ROOT / "results_v3" / "wave74_ephx2_oxylipin_specificity" / "final_decision.tsv"
-GENE_EVIDENCE = ROOT / "results_v3" / "wave74_ephx2_oxylipin_specificity" / "ephx2_gene_evidence.tsv"
-MODULE_MARGINS = ROOT / "results_v3" / "wave74_ephx2_oxylipin_specificity" / "module_specificity_margins.tsv"
-METABOLITE_STATS = ROOT / "results_v3" / "wave74_ephx2_oxylipin_specificity" / "metabolite_cross_disease_stats.tsv"
-PRIOR_ART = ROOT / "subagents_v3" / "wave74c_prior_art_druggability_scout.md"
+DIRECT_RATIO = ROOT / "phases/v3/results" / "wave74_ephx2_direct_ratio_audit" / "ephx2_direct_ratio_decision.tsv"
+FINAL_DECISION = ROOT / "phases/v3/results" / "wave74_ephx2_oxylipin_specificity" / "final_decision.tsv"
+GENE_EVIDENCE = ROOT / "phases/v3/results" / "wave74_ephx2_oxylipin_specificity" / "ephx2_gene_evidence.tsv"
+MODULE_MARGINS = ROOT / "phases/v3/results" / "wave74_ephx2_oxylipin_specificity" / "module_specificity_margins.tsv"
+METABOLITE_STATS = ROOT / "phases/v3/results" / "wave74_ephx2_oxylipin_specificity" / "metabolite_cross_disease_stats.tsv"
+PRIOR_ART = ROOT / "phases/v3/subagents" / "wave74c_prior_art_druggability_scout.md"
 
 
 def read_tsv(path: Path) -> pd.DataFrame:

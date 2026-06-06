@@ -17,13 +17,13 @@ from v3_analyze_osmr_complement_axes import ROOT
 
 
 SEED = 20260527
-OUT = ROOT / "results_v3" / "wave131_class_route_forcing_audit"
+OUT = ROOT / "phases/v3/results" / "wave131_class_route_forcing_audit"
 
-W83 = ROOT / "results_v3" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv"
-W83_UNIVERSE = ROOT / "results_v3" / "wave83_intervention_class_meta_rank" / "intervention_class_candidate_universe.tsv"
-W130 = ROOT / "results_v3" / "wave130_ms_treatment_response_audit" / "ms_treatment_response_cross_dataset_stability.tsv"
-W126 = ROOT / "results_v3" / "wave126_l1000_upstream_regulator_reopener" / "l1000_upstream_reopener_decisions.tsv"
-W128 = ROOT / "results_v3" / "wave128_genetics_first_reopener" / "genetics_first_reopener_decisions.tsv"
+W83 = ROOT / "phases/v3/results" / "wave83_intervention_class_meta_rank" / "intervention_class_meta_rank.tsv"
+W83_UNIVERSE = ROOT / "phases/v3/results" / "wave83_intervention_class_meta_rank" / "intervention_class_candidate_universe.tsv"
+W130 = ROOT / "phases/v3/results" / "wave130_ms_treatment_response_audit" / "ms_treatment_response_cross_dataset_stability.tsv"
+W126 = ROOT / "phases/v3/results" / "wave126_l1000_upstream_regulator_reopener" / "l1000_upstream_reopener_decisions.tsv"
+W128 = ROOT / "phases/v3/results" / "wave128_genetics_first_reopener" / "genetics_first_reopener_decisions.tsv"
 
 TARGET_CLASSES = {
     "eicosanoid_receptors": {
@@ -221,7 +221,7 @@ target claim merely because it is biologically plausible.
 ## Reproducibility
 
 - Script: `scripts/v3_wave131_class_route_forcing_audit.py`
-- Outputs: `results_v3/wave131_class_route_forcing_audit/`
+- Outputs: `phases/v3/results/wave131_class_route_forcing_audit/`
 - Seed: `{SEED}`
 """
     (OUT / "REPORT.md").write_text(report, encoding="utf-8")
