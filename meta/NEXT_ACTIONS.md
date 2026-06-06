@@ -1,6 +1,6 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-06-06 14:32 CEST
+Last updated: 2026-06-07 01:23 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
@@ -227,14 +227,46 @@ V23 APC/HLA-II monitoring workup:
 - No `LOCKED_RULE_V23.md` exists. Do not create one until a fresh held-out
   cohort is acquired.
 
+V26 deep-structure checkpoint:
+
+- Report: `DEEP_STRUCTURE_V26.md`.
+- Queue: `V26_QUEUE.md`.
+- Reproducible script: `scripts/v26_deep_structure_analysis.py`.
+- Output directory: `analysis/v26_deep_structure/`.
+- Modality manifest: `analysis/v26_deep_structure/modality_manifest_v26.tsv`.
+- Workstream A result:
+  - supported treatment pharmacodynamic vs h5ad cell-state latent axis,
+    cosine `0.933576`, permutation p `0.001000`, BH q `0.009995`;
+  - supported h5ad cell-state vs cross-disease summary latent axis, cosine
+    `0.879242`, permutation p `0.003498`, BH q `0.017491`;
+  - perturbation and response-outcome matrices did not pass the shared latent
+    axis gate against other modalities.
+- Workstream B result:
+  - `25` supported replicated module-dependency rows;
+  - strongest recurring dependency is `hla_ii_apc` with
+    `mif_cd74_receptor_state` across four modalities;
+  - APC/HLA-II monitoring is strengthened mechanistically as coupled early
+    immune remodeling, not as a baseline stratifier.
+- Workstream C result:
+  - zero load-bearing invariants passed BH correction;
+  - do not claim invariant immune constraints from V26.
+- Stalled lead reread:
+  - chr1/KIF21B remains causal-favored, hard target, wrong-direction for
+    tractable inhibition;
+  - GPR25 remains unsupported by held module/QTL data;
+  - ZMIZ1 remains a locked opposite-direction decoupling;
+  - PTGER4 remains closed.
+
 Next session first action:
 
 1. Run `.venv/bin/python scripts/check_opengwas_access.py`.
-2. Read `MODEL_CARD_V25.md`, `MODEL_DESIGN_V25.md`, `DATA_SCOUT_V24.md`,
-   `analysis/v24_data_scout/v24_candidate_inventory.tsv`,
+2. Read `DEEP_STRUCTURE_V26.md`, `V26_QUEUE.md`, `MODEL_CARD_V25.md`,
+   `DATA_SCOUT_V24.md`, `analysis/v24_data_scout/v24_candidate_inventory.tsv`,
    `APC_HLA_MONITORING_WORKUP_V23.md`, and `LOCKED_RULE_V22.md`.
 3. Do not use the V25 model for wet-lab triage; held-out validation failed to
-   support a deployable simulator. Do not tune `LOCKED_RULE_V22.md`.
+   support a deployable simulator. Do not tune `LOCKED_RULE_V22.md`. Treat V26
+   as structural support for coupled APC/HLA-II/MIF-CD74 monitoring only, not a
+   validated clinical rule or target.
 4. Primary next action is human/low-barrier
    acquisition of Gafson et al. 2018 DMF PBMC RNA-seq processed counts plus
    sample-level NEDA-4 responder labels (PMID `30283812`, DOI

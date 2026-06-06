@@ -256,6 +256,22 @@ V25 model-build entry points:
   must abstain on `KIF21B/GPR25`, `ZMIZ1`, patient response, single-cell
   compartments, and unseen pathways.
 
+V26 deep-structure entry points:
+
+- `V26_QUEUE.md` records the V26 self-driving queue and completed workstream
+  statuses.
+- `scripts/v26_deep_structure_analysis.py` rebuilds the held-data modality
+  manifest, module matrices, latent-axis tests, dependency tests, invariant
+  tests, and stalled-lead reread tables under `analysis/v26_deep_structure/`.
+- `DEEP_STRUCTURE_V26.md` is the final V26 deliverable. Verdict: V26 found a
+  supported shared APC remodeling structure, not a cure-class target and not a
+  load-bearing invariant. Supported latent pairings were treatment
+  pharmacodynamics vs cross-disease h5ad cell state (cosine `0.934`, BH q
+  `0.010`) and h5ad cell state vs cross-disease summary (cosine `0.879`, BH q
+  `0.017`). The strongest replicated dependency was `hla_ii_apc` with
+  `mif_cd74_receptor_state` across four modalities. Zero invariants passed the
+  stricter V26 invariant gate.
+
 ## Honest Scope
 
 This is a reproducible computational prioritization, not a validated mechanism,
