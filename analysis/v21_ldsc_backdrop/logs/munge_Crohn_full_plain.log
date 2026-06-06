@@ -1,0 +1,53 @@
+/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/munge_sumstats.py:660: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  merge_alleles = pd.read_csv(args.merge_alleles, compression=compression, header=0,
+/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/munge_sumstats.py:680: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  dat_gen = pd.read_csv(args.sumstats, delim_whitespace=True, header=0,
+/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/munge_sumstats.py:434: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value '[True True True ... True True True]' has dtype incompatible with bool, please explicitly cast to a compatible dtype first.
+  jj[ii] = match
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 2.0.0
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./munge_sumstats.py \
+--sumstats analysis/v21_ldsc_backdrop/sumstats_raw/Crohn_full.sumstats.tsv \
+--out analysis/v21_ldsc_backdrop/munged/Crohn_full \
+--merge-alleles data/raw/ldsc_reference/eur_w_ld_chr/w_hm3.snplist 
+
+Interpreting column names as follows:
+SNP:	Variant ID (e.g., rs number)
+A1:	Allele 1, interpreted as ref allele for signed sumstat.
+A2:	Allele 2, interpreted as non-ref allele for signed sumstat.
+BETA:	[linear/logistic] regression coefficient (0 --> no effect; above 0 --> A1 is trait/risk increasing)
+P:	p-Value
+N:	Sample size
+
+Reading list of SNPs for allele merge from data/raw/ldsc_reference/eur_w_ld_chr/w_hm3.snplist
+Read 1217311 SNPs for allele merge.
+Reading sumstats from analysis/v21_ldsc_backdrop/sumstats_raw/Crohn_full.sumstats.tsv into memory 5000000 SNPs at a time.
+. done
+Read 1208632 SNPs from --sumstats file.
+Removed 0 SNPs not in --merge-alleles.
+Removed 0 SNPs with missing values.
+Removed 0 SNPs with INFO <= 0.9.
+Removed 0 SNPs with MAF <= 0.01.
+Removed 0 SNPs with out-of-bounds p-values.
+Removed 0 variants that were not SNPs or were strand-ambiguous.
+1208632 SNPs remain.
+Removed 0 SNPs with duplicated rs numbers (1208632 SNPs remain).
+Removed 0 SNPs with N < 13922.0 (1208632 SNPs remain).
+Median value of BETA was 0.0003000450087711, which seems sensible.
+Removed 0 SNPs whose alleles did not match --merge-alleles (1208632 SNPs remain).
+Writing summary statistics for 1217311 SNPs (1208632 with nonmissing beta) to analysis/v21_ldsc_backdrop/munged/Crohn_full.sumstats.gz.
+
+Metadata:
+Mean chi^2 = 1.228
+Lambda GC = 1.139
+Max chi^2 = 272.495
+1024 Genome-wide significant SNPs (some may have been removed by filtering).
+
+Conversion finished at Sat Jun  6 13:30:17 2026
+Total time elapsed: 8.45s

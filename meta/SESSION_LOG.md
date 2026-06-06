@@ -379,3 +379,15 @@ Next session first action:
 - Frontier advanced: LDSC reference-panel provisioning state verified on disk; `meta/LDSC_PANEL_STATUS.md` written, README updated, and knowledge index rebuilt.
 - Stop reason: completed.
 - Next action: LDSC genetic-correlation analyses may proceed from a provisioning standpoint; next research action remains bounded SuSiE-coloc for MS-Crohn chr14 `14:68710199-69753364` and MS-UC chr2 `2:60689469-61742410`.
+
+## RUN SUMMARY - 2026-06-06 11:42 UTC
+
+- Active runtime: approximately 23 minutes; total elapsed approximately 23 minutes; no usage-limit waiting time observed.
+- Session start UTC: 2026-06-06 11:19 UTC.
+- Session end UTC: 2026-06-06 11:42 UTC.
+- Frontier advanced: V21 established the first LDSC genome-wide genetic-correlation backdrop for MS vs UC/Crohn/RA/SLE, ran bounded SuSiE-coloc for the two queued V20 loci, wrote `GENETIC_CORRELATION_BACKDROP_V21.md`, `LEAD_SLATE_V21.md`, and `CONVERGENCE_CHECK_V21_01.md`, updated resume state and README, and rebuilt the knowledge index.
+- rg pairs computed: MS-UC `rg = 0.3342`, MS-Crohn `rg = 0.1675`, MS-RA `rg = 0.1692`, MS-SLE `rg = 0.2439`; UC/Crohn raw MHC-excluded runs were identical after LDSC merge because the verified reference panel has zero chr6:25-34 Mb SNPs in the active regression set.
+- Loci verdicts: chr14 `ZFP36L1` is suggestive but not robust (`PP.H4 = 0.687732800443124`) and is parked; chr2 `REL/PUS10/USP34` returned no `coloc.susie` credible-set summary and is closed/not-now.
+- chr1-bar verdict: neither V21 locus clears the chr1 bar; no new genetics target should be surfaced to the medical team from chr14 or chr2.
+- Stop reason: completed the bounded V21 core deliverable for UC, Crohn, RA, SLE plus both queued loci; no long-running analysis processes remain.
+- Next action: extend LDSC rg to remaining map diseases after verifying OpenGWAS IDs, or pivot to a locked dynamic APC/HLA-II MS DMT monitoring rule tested only on held-out cohorts.

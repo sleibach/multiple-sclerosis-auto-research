@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-06 11:56 CEST
+Last updated: 2026-06-06 13:55 CEST
 
 ## Mission State
 
@@ -10,7 +10,9 @@ allele-aligned eQTL and mechanism workup. V18 completed data-source acquisition
 triage for the unresolved chr1 MS-UC `GPR25`-versus-`KIF21B` causal-gene
 ambiguity. V19 re-evaluated the chr1 locus under first-principles
 druggability discipline. V20 widened back out from chr1 to a ranked
-next-tier lead slate across the full landscape.
+next-tier lead slate across the full landscape. V21 established the first
+LDSC genome-wide genetic-correlation backdrop and vetted the two queued
+next-tier genetics regions.
 
 Current frontier:
 
@@ -28,12 +30,21 @@ Current frontier:
   - `5` promising follow-ups;
   - `2` hard-target real-biology findings;
   - `6` negative/not-now findings.
-- V20 top actionable lead: dynamic APC/HLA-II treatment-response monitoring in
+- V20/V21 top actionable lead: dynamic APC/HLA-II treatment-response monitoring in
   MS, treated as a biomarker/mechanism transfer lead rather than drug
   repositioning.
-- V20 next genetics regions: MS-Crohn chr14 `ZFP36L1` and MS-UC chr2
-  `REL/PUS10/USP34`, both requiring bounded SuSiE-coloc and allele-aligned QTL
-  direction before any target claim.
+- V21 genetic-correlation backdrop:
+  - MS-UC `rg = 0.3342`, `SE = 0.0444`, `p = 4.8771e-14`;
+  - MS-SLE `rg = 0.2439`, `SE = 0.0608`, `p = 6.0712e-05`, caveated by high
+    SLE h2 intercept `1.1998`;
+  - MS-RA `rg = 0.1692`, `SE = 0.0453`, `p = 0.0002`;
+  - MS-Crohn `rg = 0.1675`, `SE = 0.0527`, `p = 0.0015`.
+- V21 next genetics regions:
+  - MS-Crohn chr14 `ZFP36L1`: suggestive bounded SuSiE `PP.H4 =
+    0.687732800443124`, below robust threshold; parked, not promoted.
+  - MS-UC chr2 `REL/PUS10/USP34`: bounded SuSiE returned no credible-set
+    summary; closed/not-now.
+- No V21 locus clears the chr1 bar for a next therapeutic lead.
 
 Standing reporting rule:
 

@@ -11,16 +11,17 @@ All analysis uses public human-tissue data only and random seed `20260526`
 
 ## Current Status
 
-The current phase is **V20**. The V4 directory structure remains canonical, and
+The current phase is **V21**. The V4 directory structure remains canonical, and
 V11 introduced the resume backbone for short-session continuity.
 
 - Start here: `meta/CURRENT_STATUS.md` — the live mission state, active leads,
   and next actions.
 - Current active genetics/data focus: the chr1 MS-UC causal-gene question is
   computationally resolved for now and handed forward as real shared genetics,
-  not an intervention-grade target. V20 widens back out to a ranked
-  next-tier slate across genetics, treatment-response, agreement, and
-  decoupling axes.
+  not an intervention-grade target. V20 widened back out to a ranked
+  next-tier slate; V21 supplied the first LDSC genome-wide
+  genetic-correlation backdrop and vetted the two queued next-tier genetics
+  loci.
 - Confirmed first-pass high-H4 regions from V13/V14 include MS-UC chr1,
   MS-UC chr5/PTGER4, MS-Crohn chr10, and MS-Crohn chr17/STAT3-STAT5. The
   chr1 and chr10 loci passed bounded SuSiE-coloc follow-up. V15 mapped the
@@ -47,9 +48,13 @@ V11 introduced the resume backbone for short-session continuity.
   real shared genetics/mechanism, not an intervention-grade target. V20 then
   generated `LEAD_SLATE_V20.md`, a 13-candidate ranked next-tier slate. The
   top actionable lead is dynamic APC/HLA-II treatment-response monitoring in
-  MS; the next genetics regions are chr14 `ZFP36L1` and chr2
-  `REL/PUS10/USP34`, both requiring bounded SuSiE-coloc and allele-aligned
-  QTL direction before any target claim.
+  MS. V21 then established the genome-wide LDSC backdrop: MS-UC is the
+  strongest tested comparator (`rg = 0.3342`), MS-SLE is positive but caveated
+  by high h2 intercept (`rg = 0.2439`), and MS-RA/MS-Crohn are modestly
+  positive (`rg = 0.1692` and `0.1675`). The V20 queued chr14 `ZFP36L1`
+  region was only suggestive under bounded SuSiE-coloc (`PP.H4 = 0.6877`),
+  and chr2 `REL/PUS10/USP34` did not produce a SuSiE credible-set summary.
+  Neither clears the chr1 bar.
 - `ACSL1`, `NAMPT`, and several early target candidates were demoted or parked
   under the V4/V5 prior-art and tiering framework. Current value has shifted to
   axis-disagreement mining and genetics-grounded transfer-validity analysis.
@@ -111,6 +116,7 @@ that explicitly in `meta/SESSION_LOG.md`.
 | V18 | Data-source acquisition and access triage. | Acquired public OneK1K top eQTL, DICE significant eQTL/mean expression, eQTL Catalogue targeted chr1 extract, IUPHAR, and GPCRdb sources. Public genotype-linked immune eQTL sources favor `KIF21B` context (`14` OneK1K target hits and `1` DICE NK hit, all KIF21B) but do not resolve GPR25 protein/genotype causality. See `meta/DATA_ACQUISITION_PLAN_V18.md`. |
 | V19 | First-principles druggability and causal-gene re-evaluation of chr1. | Dense QTD000021 eQTL Catalogue coloc supports `KIF21B` as a serious causal-gene candidate (MS/eQTL PP.H4 `0.874879034973956`, UC/eQTL PP.H4 `0.868660082128031`), and exact shared credible-set variants show risk lowers KIF21B expression. Druggability was revised: `GPR25` is structurally plausible but agonism-immature; `KIF21B` is structurally ligandable but likely wrong-direction for inhibition. See `GENETICS_CHR1_REEVALUATION_V19.md`. |
 | V20 | Next-tier lead generation across the full landscape. | Produced `LEAD_SLATE_V20.md` and `analysis/v20_lead_slate/lead_slate_v20.tsv`: 13 pre-vetted candidates across four workstreams, with 5 promising follow-ups, 2 hard-target real-biology findings, and 6 negative/not-now entries. Top lead is dynamic APC/HLA-II treatment-response monitoring; next genetics follow-ups are chr14 `ZFP36L1` and chr2 `REL/PUS10/USP34`. |
+| V21 | Genome-wide genetic-correlation backdrop and queued next-tier locus vetting. | Used the verified LDSC panel to compute rg for MS vs UC, Crohn, RA, and SLE; UC is the strongest tested genetic comparator for MS. Bounded SuSiE-coloc parked chr14 `ZFP36L1` as suggestive and closed chr2 `REL/PUS10/USP34` as not-now. See `GENETIC_CORRELATION_BACKDROP_V21.md` and `LEAD_SLATE_V21.md`. |
 
 `FINDING.md` documents the (since-demoted) `ACSL1` target hypothesis from an
 earlier phase and is retained for the historical trace.
@@ -169,6 +175,16 @@ V20 reproducibility entry point:
 - `scripts/v20_generate_lead_slate.py` consolidates V13-V19 evidence into the
   ranked next-tier slate under `analysis/v20_lead_slate/` and supports
   `LEAD_SLATE_V20.md`.
+
+V21 reproducibility entry points:
+
+- `scripts/v21_ldsc_core_backdrop.py` consumes local OpenGWAS VCFs under
+  `data/raw/opengwas_v21/`, converts them to HapMap3 plain TSV summary
+  statistics, runs `munge_sumstats.py`, and runs LDSC rg against the verified
+  European reference panel.
+- `scripts/v21_next_tier_locus_susie.py` regenerates bounded SuSiE-coloc for
+  the chr14 `ZFP36L1` and chr2 `REL/PUS10/USP34` follow-up loci under
+  `analysis/v21_next_tier_loci/`.
 
 LDSC reference panel:
 

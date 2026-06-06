@@ -1,0 +1,18 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 2.0.0
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--out /Users/soeren.leibach/Projects/ms-auto-research/analysis/v21_ldsc_backdrop/rg/MS_vs_Crohn_full \
+--rg /Users/soeren.leibach/Projects/ms-auto-research/analysis/v21_ldsc_backdrop/munged/MS_full.sumstats.gz,/Users/soeren.leibach/Projects/ms-auto-research/analysis/v21_ldsc_backdrop/munged/Crohn_full.sumstats.gz \
+--ref-ld-chr /Users/soeren.leibach/Projects/ms-auto-research/data/raw/ldsc_reference/eur_w_ld_chr/ \
+--w-ld-chr /Users/soeren.leibach/Projects/ms-auto-research/data/raw/ldsc_reference/eur_w_ld_chr/ 
+
+Beginning analysis at Sat Jun  6 13:28:44 2026
+Reading summary statistics from /Users/soeren.leibach/Projects/ms-auto-research/analysis/v21_ldsc_backdrop/munged/MS_full.sumstats.gz ...
+Analysis finished at Sat Jun  6 13:28:44 2026
+Total time elapsed: 0.0s

@@ -1,0 +1,37 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 2.0.0
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./munge_sumstats.py \
+--sumstats /Users/soeren.leibach/Projects/ms-auto-research/analysis/v21_ldsc_backdrop/sumstats_raw/UC_no_mhc.sumstats.tsv.gz \
+--out /Users/soeren.leibach/Projects/ms-auto-research/analysis/v21_ldsc_backdrop/munged/UC_no_mhc \
+--merge-alleles /Users/soeren.leibach/Projects/ms-auto-research/data/raw/ldsc_reference/eur_w_ld_chr/w_hm3.snplist 
+
+
+ERROR converting summary statistics:
+
+Traceback (most recent call last):
+  File "/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/munge_sumstats.py", line 550, in munge_sumstats
+    file_cnames = read_header(args.sumstats)  # note keys not cleaned
+  File "/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/munge_sumstats.py", line 128, in read_header
+    return [x.rstrip('\n') for x in openfunc(fh).readline().split()]
+            ~~~~~~~~^^^^^^
+TypeError: a bytes-like object is required, not 'str'
+
+
+Conversion finished at Sat Jun  6 13:28:35 2026
+Total time elapsed: 0.0s
+Traceback (most recent call last):
+  File "/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/munge_sumstats.py", line 743, in <module>
+    munge_sumstats(parser.parse_args(), p=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/munge_sumstats.py", line 550, in munge_sumstats
+    file_cnames = read_header(args.sumstats)  # note keys not cleaned
+  File "/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/munge_sumstats.py", line 128, in read_header
+    return [x.rstrip('\n') for x in openfunc(fh).readline().split()]
+            ~~~~~~~~^^^^^^
+TypeError: a bytes-like object is required, not 'str'

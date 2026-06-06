@@ -1,0 +1,65 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 2.0.0
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--out analysis/v21_ldsc_backdrop/rg/MS_vs_UC_full_plain \
+--rg analysis/v21_ldsc_backdrop/munged/MS_full.sumstats.gz,analysis/v21_ldsc_backdrop/munged/UC_full.sumstats.gz \
+--ref-ld-chr data/raw/ldsc_reference/eur_w_ld_chr/ \
+--w-ld-chr data/raw/ldsc_reference/eur_w_ld_chr/ 
+
+Beginning analysis at Sat Jun  6 13:30:27 2026
+Reading summary statistics from analysis/v21_ldsc_backdrop/munged/MS_full.sumstats.gz ...
+Read summary statistics for 1118186 SNPs.
+Reading reference panel LD Score from data/raw/ldsc_reference/eur_w_ld_chr/[1-22] ... (ldscore_fromlist)
+Read reference panel LD Scores for 1290028 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from data/raw/ldsc_reference/eur_w_ld_chr/[1-22] ... (ldscore_fromlist)
+Read regression weight LD Scores for 1290028 SNPs.
+After merging with reference panel LD, 1109175 SNPs remain.
+After merging with regression SNP LD, 1109175 SNPs remain.
+Computing rg for phenotype 2/2
+Reading summary statistics from analysis/v21_ldsc_backdrop/munged/UC_full.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1109175 SNPs remain.
+1108932 SNPs with valid alleles.
+
+Heritability of phenotype 1
+---------------------------
+Total Observed scale h2: 0.1049 (0.0097)
+Lambda GC: 1.1491
+Mean Chi^2: 1.2482
+Intercept: 1.0171 (0.0101)
+Ratio: 0.069 (0.0407)
+
+Heritability of phenotype 2/2
+-----------------------------
+Total Observed scale h2: 0.2551 (0.0315)
+Lambda GC: 1.127
+Mean Chi^2: 1.1822
+Intercept: 1.0467 (0.0097)
+Ratio: 0.2562 (0.0531)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0547 (0.008)
+Mean z1*z2: 0.1405
+Intercept: 0.0844 (0.005)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.3342 (0.0444)
+Z-score: 7.5352
+P: 4.8771e-14
+
+
+Summary of Genetic Correlation Results
+                                                   p1                                                    p2     rg     se      z          p  h2_obs  h2_obs_se  h2_int  h2_int_se  gcov_int  gcov_int_se
+analysis/v21_ldsc_backdrop/munged/MS_full.sumstats.gz analysis/v21_ldsc_backdrop/munged/UC_full.sumstats.gz 0.3342 0.0444 7.5352 4.8771e-14  0.2551     0.0315  1.0467     0.0097    0.0844        0.005
+
+Analysis finished at Sat Jun  6 13:30:31 2026
+Total time elapsed: 4.43s

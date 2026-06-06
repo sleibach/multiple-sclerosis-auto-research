@@ -1,0 +1,94 @@
+/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/ldsc.py:479: SyntaxWarning: invalid escape sequence '\e'
+  'i.e., \ell_j := \sum_k p_k(1-p_k)r^2_{jk}, where p_k denotes the MAF '
+/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/ldsc.py:483: SyntaxWarning: invalid escape sequence '\e'
+  'i.e., \ell_j := \sum_k (p_k(1-p_k))^a r^2_{jk}, where p_k denotes the MAF '
+/Users/soeren.leibach/Projects/ms-auto-research/.venv/lib/python3.13/site-packages/ldscore/parse.py:21: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  return pd.read_csv(fh, delim_whitespace=True, na_values='.', **kwargs)
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 2.0.0
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--out /Users/soeren.leibach/Projects/ms-auto-research/analysis/v21_ldsc_backdrop/rg/MS_vs_Crohn_no_mhc \
+--rg /Users/soeren.leibach/Projects/ms-auto-research/analysis/v21_ldsc_backdrop/munged/MS_no_mhc.sumstats.gz,/Users/soeren.leibach/Projects/ms-auto-research/analysis/v21_ldsc_backdrop/munged/Crohn_no_mhc.sumstats.gz \
+--ref-ld-chr /Users/soeren.leibach/Projects/ms-auto-research/data/raw/ldsc_reference/eur_w_ld_chr/ \
+--w-ld-chr /Users/soeren.leibach/Projects/ms-auto-research/data/raw/ldsc_reference/eur_w_ld_chr/ 
+
+Beginning analysis at Sat Jun  6 13:28:46 2026
+Reading summary statistics from /Users/soeren.leibach/Projects/ms-auto-research/analysis/v21_ldsc_backdrop/munged/MS_no_mhc.sumstats.gz ...
+Analysis finished at Sat Jun  6 13:28:46 2026
+Total time elapsed: 0.0s
+Traceback (most recent call last):
+  File "/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/ldsc.py", line 643, in <module>
+    sumstats.estimate_rg(args, log)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/soeren.leibach/Projects/ms-auto-research/.venv/lib/python3.13/site-packages/ldscore/sumstats.py", line 396, in estimate_rg
+    M_annot, w_ld_cname, ref_ld_cnames, sumstats, _ = _read_ld_sumstats(args, log, p1,
+                                                      ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+                                                                        alleles=True, dropna=True)
+                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/soeren.leibach/Projects/ms-auto-research/.venv/lib/python3.13/site-packages/ldscore/sumstats.py", line 242, in _read_ld_sumstats
+    sumstats = _read_sumstats(args, log, fh, alleles=alleles, dropna=dropna)
+  File "/Users/soeren.leibach/Projects/ms-auto-research/.venv/lib/python3.13/site-packages/ldscore/sumstats.py", line 163, in _read_sumstats
+    sumstats = ps.sumstats(fh, alleles=alleles, dropna=dropna)
+  File "/Users/soeren.leibach/Projects/ms-auto-research/.venv/lib/python3.13/site-packages/ldscore/parse.py", line 89, in sumstats
+    x = read_csv(fh, usecols=usecols, dtype=dtype_dict, compression=compression)
+  File "/Users/soeren.leibach/Projects/ms-auto-research/.venv/lib/python3.13/site-packages/ldscore/parse.py", line 21, in read_csv
+    return pd.read_csv(fh, delim_whitespace=True, na_values='.', **kwargs)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/soeren.leibach/Projects/ms-auto-research/.venv/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/Users/soeren.leibach/Projects/ms-auto-research/.venv/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/Users/soeren.leibach/Projects/ms-auto-research/.venv/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/soeren.leibach/Projects/ms-auto-research/.venv/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/soeren.leibach/Projects/ms-auto-research/.venv/lib/python3.13/site-packages/pandas/io/common.py", line 765, in get_handle
+    handle = gzip.GzipFile(  # type: ignore[assignment]
+        filename=handle,
+        mode=ioargs.mode,
+        **compression_args,
+    )
+  File "/opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/gzip.py", line 203, in __init__
+    fileobj = self.myfileobj = builtins.open(filename, mode or 'rb')
+                               ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/soeren.leibach/Projects/ms-auto-research/analysis/v21_ldsc_backdrop/munged/MS_no_mhc.sumstats.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/ldsc.py", line 656, in <module>
+    log.log( traceback.format_exc(ex) )
+             ~~~~~~~~~~~~~~~~~~~~^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/traceback.py", line 212, in format_exc
+    return "".join(format_exception(sys.exception(), limit=limit, chain=chain))
+                   ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/traceback.py", line 154, in format_exception
+    te = TracebackException(type(value), value, tb, limit=limit, compact=True)
+  File "/opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/traceback.py", line 1052, in __init__
+    self.stack = StackSummary._extract_from_extended_frame_gen(
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        _walk_tb_with_full_positions(exc_traceback),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        limit=limit, lookup_lines=lookup_lines,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        capture_locals=capture_locals)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.13/3.13.3/Frameworks/Python.framework/Versions/3.13/lib/python3.13/traceback.py", line 469, in _extract_from_extended_frame_gen
+    elif limit >= 0:
+         ^^^^^^^^^^
+TypeError: '>=' not supported between instances of 'FileNotFoundError' and 'int'

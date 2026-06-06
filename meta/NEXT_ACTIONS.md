@@ -1,6 +1,6 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-06-06 11:56 CEST
+Last updated: 2026-06-06 13:55 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
@@ -168,26 +168,47 @@ V20 next-tier slate checkpoint:
   - `PTGER4`, chr17 `STAT3/STAT5`, generic `TYK2`, and MHC overlap logic are
     not current leads without new signal-specific data.
 
+V21 genetic-correlation and next-tier-locus checkpoint:
+
+- Reports:
+  - `GENETIC_CORRELATION_BACKDROP_V21.md`.
+  - `LEAD_SLATE_V21.md`.
+- Reproducible scripts:
+  - `scripts/v21_ldsc_core_backdrop.py`.
+  - `scripts/v21_next_tier_locus_susie.py`.
+- LDSC rg results:
+  - MS-UC `rg = 0.3342`, `SE = 0.0444`, `p = 4.8771e-14`.
+  - MS-SLE `rg = 0.2439`, `SE = 0.0608`, `p = 6.0712e-05`, caveated by high
+    SLE h2 intercept `1.1998`.
+  - MS-RA `rg = 0.1692`, `SE = 0.0453`, `p = 0.0002`.
+  - MS-Crohn `rg = 0.1675`, `SE = 0.0527`, `p = 0.0015`.
+- MHC sensitivity note:
+  - raw MHC-excluded sumstats were built for MS/UC/Crohn;
+  - after LDSC reference merge, estimates were identical because the verified
+    reference panel has zero chr6:25-34 Mb SNPs in the active regression set.
+- Queued V20 genetics regions:
+  - MS-Crohn chr14 `14:68710199-69753364` (`ZFP36L1`) produced bounded
+    SuSiE max PP.H4 `0.687732800443124`; parked as suggestive, not robust.
+  - MS-UC chr2 `2:60689469-61742410` (`REL/PUS10/USP34`) returned no
+    `coloc.susie` credible-set summary; closed/not-now.
+- Neither V21 locus clears the chr1 bar.
+
 Next session first action:
 
 1. Run `.venv/bin/python scripts/check_opengwas_access.py`.
-2. Read `LEAD_SLATE_V20.md` and
-   `analysis/v20_lead_slate/lead_slate_v20.tsv`.
-3. Run bounded SuSiE-coloc for MS-Crohn chr14
-   `14:68710199-69753364` (`ZFP36L1` neighborhood).
-4. Run bounded SuSiE-coloc for MS-UC chr2
-   `2:60689469-61742410` (`REL/PUS10/USP34` neighborhood).
-5. If either survives, immediately run allele-aligned immune-QTL
-   colocalization and first-principles direction-matched druggability before
-   surfacing it as a target.
-6. In parallel or next, pre-register a dynamic APC/HLA-II MS DMT monitoring
-   rule from `HYP_V6_006` / `LEAD_SLATE_V20.md` and test only on held-out
-   DMT cohorts.
-7. Keep chr1 (`KIF21B`/`GPR25`) in wet-lab/controlled-data handoff status; do
+2. Read `GENETIC_CORRELATION_BACKDROP_V21.md`, `LEAD_SLATE_V21.md`, and
+   `analysis/v21_ldsc_backdrop/ldsc_rg_results.tsv`.
+3. Extend LDSC rg to remaining map diseases once the best OpenGWAS IDs are
+   selected and verified: psoriasis, T1D, Sjogren's, celiac disease,
+   autoimmune thyroid disease, and myasthenia gravis.
+4. In parallel or next, pre-register a dynamic APC/HLA-II MS DMT monitoring
+   rule from `HYP_V6_006` / `LEAD_SLATE_V20.md` and test only on held-out DMT
+   cohorts.
+5. Keep chr1 (`KIF21B`/`GPR25`) in wet-lab/controlled-data handoff status; do
    not continue it computationally unless new genotype-linked protein/CSF data
    arrives.
-8. Preserve `ZMIZ1` as a decoupling finding; do not re-litigate unless formal
+6. Preserve `ZMIZ1` as a decoupling finding; do not re-litigate unless formal
    QTL coloc is needed for publication-grade writeup.
-9. Do not spend more time on `PTGER4`, chr17 `STAT3/STAT5`, generic `TYK2`, or
-   MHC overlap as current leads without new fine-mapped or signal-specific
-   data.
+7. Do not spend more time on V21 chr14 `ZFP36L1`, V21 chr2
+   `REL/PUS10/USP34`, `PTGER4`, chr17 `STAT3/STAT5`, generic `TYK2`, or MHC
+   overlap as current leads without new fine-mapped or signal-specific data.
