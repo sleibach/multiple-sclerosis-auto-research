@@ -1,6 +1,6 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-06-06 13:55 CEST
+Last updated: 2026-06-06 14:12 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
@@ -193,17 +193,37 @@ V21 genetic-correlation and next-tier-locus checkpoint:
     `coloc.susie` credible-set summary; closed/not-now.
 - Neither V21 locus clears the chr1 bar.
 
+V22 locked treatment-response checkpoint:
+
+- `LOCKED_RULE_V22.md` was committed before validation in commit `013639b`.
+- Primary locked validation:
+  - `GSE235357` MS dimethyl fumarate: pass, AUC `0.72`, Hedges g `0.651`,
+    `n=10`, wide CI.
+  - `GSE250453` MS fingolimod: fail, AUC `0.60`, Hedges g `0.150`, `n=10`.
+  - `GSE85034_ADA` psoriasis adalimumab: fail, AUC `0.511`, Hedges g
+    `0.044`, `n=14`.
+- Exploratory support:
+  - `GSE253006_TOF` UC tofacitinib: numerical pass, AUC `1.00`, Hedges g
+    `1.522`, `n=9`, but not counted as primary validation because the module
+    is an approximation and compartment is unresolved.
+- Verdict:
+  - no breakthrough;
+  - no kill;
+  - the dynamic APC/HLA-II rule remains a provisional early-treatment
+    monitoring lead.
+
 Next session first action:
 
 1. Run `.venv/bin/python scripts/check_opengwas_access.py`.
-2. Read `GENETIC_CORRELATION_BACKDROP_V21.md`, `LEAD_SLATE_V21.md`, and
-   `analysis/v21_ldsc_backdrop/ldsc_rg_results.tsv`.
-3. Extend LDSC rg to remaining map diseases once the best OpenGWAS IDs are
+2. Read `LOCKED_RULE_V22.md`, `VALIDATION_LEDGER_V22.md`,
+   `FINDING_V22.md`, and `COHORT_SEARCH_V22.md`.
+3. Do not tune `LOCKED_RULE_V22.md`. The next useful action is acquisition of
+   a larger paired MS DMT response cohort (`n >= 30`) or recomputation of exact
+   frozen modules in `GSE253006_TOF` at compartment-resolved level before
+   considering a successor locked rule.
+4. Extend LDSC rg to remaining map diseases once the best OpenGWAS IDs are
    selected and verified: psoriasis, T1D, Sjogren's, celiac disease,
    autoimmune thyroid disease, and myasthenia gravis.
-4. In parallel or next, pre-register a dynamic APC/HLA-II MS DMT monitoring
-   rule from `HYP_V6_006` / `LEAD_SLATE_V20.md` and test only on held-out DMT
-   cohorts.
 5. Keep chr1 (`KIF21B`/`GPR25`) in wet-lab/controlled-data handoff status; do
    not continue it computationally unless new genotype-linked protein/CSF data
    arrives.

@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-06 13:55 CEST
+Last updated: 2026-06-06 14:12 CEST
 
 ## Mission State
 
@@ -12,10 +12,25 @@ ambiguity. V19 re-evaluated the chr1 locus under first-principles
 druggability discipline. V20 widened back out from chr1 to a ranked
 next-tier lead slate across the full landscape. V21 established the first
 LDSC genome-wide genetic-correlation backdrop and vetted the two queued
-next-tier genetics regions.
+next-tier genetics regions. V22 locked and tested the dynamic APC/HLA-II
+treatment-response monitoring rule on reachable held-out cohorts.
 
 Current frontier:
 
+- V22 treatment-response result:
+  - `LOCKED_RULE_V22.md` was committed before validation (`013639b`).
+  - Primary locked validation is mixed:
+    - `GSE235357` MS dimethyl fumarate passed the small-n rule: AUC `0.72`,
+      Hedges g `0.651`, `n=10`.
+    - `GSE250453` MS fingolimod failed: AUC `0.60`, Hedges g `0.150`, `n=10`.
+    - `GSE85034_ADA` psoriasis adalimumab failed: AUC `0.511`, Hedges g
+      `0.044`, `n=14`.
+  - `GSE253006_TOF` UC tofacitinib passed numerically but is exploratory, not
+    primary locked validation, because it uses precomputed all-cell module
+    summaries broader than the exact frozen V22 module.
+  - Verdict: no Tier 4 breakthrough and no kill. The dynamic APC/HLA-II rule
+    remains a provisional early-treatment monitoring lead, not a validated
+    baseline stratifier or clinical rule.
 - `GPR25` remains a live eQTLGen-supported lead, but not a protected favorite:
   public V18 immune-QTL sources did not support it, and its required therapeutic
   direction is agonism/restoration of a sparsely tooled receptor.
@@ -30,9 +45,8 @@ Current frontier:
   - `5` promising follow-ups;
   - `2` hard-target real-biology findings;
   - `6` negative/not-now findings.
-- V20/V21 top actionable lead: dynamic APC/HLA-II treatment-response monitoring in
-  MS, treated as a biomarker/mechanism transfer lead rather than drug
-  repositioning.
+- V20/V21 top actionable lead: dynamic APC/HLA-II treatment-response monitoring
+  in MS, now V22-tested with mixed locked validation; it remains provisional.
 - V21 genetic-correlation backdrop:
   - MS-UC `rg = 0.3342`, `SE = 0.0444`, `p = 4.8771e-14`;
   - MS-SLE `rg = 0.2439`, `SE = 0.0608`, `p = 6.0712e-05`, caveated by high
@@ -118,6 +132,17 @@ Methodology backbone:
   - `scripts/v20_generate_lead_slate.py`
   - `analysis/v20_lead_slate/lead_slate_v20.tsv`
   - `analysis/v20_lead_slate/lead_slate_v20_summary.json`
+- V21 genetic-correlation and next-tier-locus checkpoint:
+  - `GENETIC_CORRELATION_BACKDROP_V21.md`
+  - `LEAD_SLATE_V21.md`
+  - `analysis/v21_ldsc_backdrop/`
+- V22 locked treatment-response validation:
+  - `LOCKED_RULE_V22.md`
+  - `VALIDATION_LEDGER_V22.md`
+  - `FINDING_V22.md`
+  - `COHORT_SEARCH_V22.md`
+  - `CONVERGENCE_CHECK_V22_01.md`
+  - `analysis/v22_locked_apc_hla_validation/`
 
 ## Current Matrix State
 

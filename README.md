@@ -11,12 +11,24 @@ All analysis uses public human-tissue data only and random seed `20260526`
 
 ## Current Status
 
-The current phase is **V21**. The V4 directory structure remains canonical, and
+The current phase is **V22**. The V4 directory structure remains canonical, and
 V11 introduced the resume backbone for short-session continuity.
 
 - Start here: `meta/CURRENT_STATUS.md` — the live mission state, active leads,
   and next actions.
-- Current active genetics/data focus: the chr1 MS-UC causal-gene question is
+- Current active treatment-response focus: the V20/V21 top actionable lead,
+  dynamic APC/HLA-II treatment-response monitoring, underwent locked
+  held-out validation in V22. `LOCKED_RULE_V22.md` was committed before
+  validation. Primary locked results were mixed: MS dimethyl fumarate
+  `GSE235357` passed the small-n rule (AUC `0.72`, Hedges g `0.65`, `n=10`),
+  MS fingolimod `GSE250453` failed (AUC `0.60`, Hedges g `0.15`, `n=10`), and
+  psoriasis adalimumab `GSE85034_ADA` failed (AUC `0.511`, Hedges g `0.044`,
+  `n=14`). UC tofacitinib `GSE253006_TOF` passed numerically but is
+  exploratory because the module was a precomputed approximation rather than
+  the exact frozen V22 gene set. V22 does not reach breakthrough and does not
+  meet the kill threshold; the rule remains a provisional early-treatment
+  monitoring lead, not a validated clinical stratifier.
+- Current genetics/data focus: the chr1 MS-UC causal-gene question is
   computationally resolved for now and handed forward as real shared genetics,
   not an intervention-grade target. V20 widened back out to a ranked
   next-tier slate; V21 supplied the first LDSC genome-wide
@@ -57,7 +69,8 @@ V11 introduced the resume backbone for short-session continuity.
   Neither clears the chr1 bar.
 - `ACSL1`, `NAMPT`, and several early target candidates were demoted or parked
   under the V4/V5 prior-art and tiering framework. Current value has shifted to
-  axis-disagreement mining and genetics-grounded transfer-validity analysis.
+  axis-disagreement mining, genetics-grounded transfer-validity analysis, and
+  locked treatment-response biomarker validation.
 
 ## How To Read This Repository
 

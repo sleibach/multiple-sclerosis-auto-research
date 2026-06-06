@@ -391,3 +391,15 @@ Next session first action:
 - chr1-bar verdict: neither V21 locus clears the chr1 bar; no new genetics target should be surfaced to the medical team from chr14 or chr2.
 - Stop reason: completed the bounded V21 core deliverable for UC, Crohn, RA, SLE plus both queued loci; no long-running analysis processes remain.
 - Next action: extend LDSC rg to remaining map diseases after verifying OpenGWAS IDs, or pivot to a locked dynamic APC/HLA-II MS DMT monitoring rule tested only on held-out cohorts.
+
+## RUN SUMMARY - 2026-06-06 12:07 UTC
+
+- Active runtime: approximately 24 minutes; total elapsed approximately 24 minutes; no usage-limit waiting time observed. Runtime is estimated because the V22 session resumed after context compaction.
+- Session start UTC: approximately 2026-06-06 11:43 UTC.
+- Session end UTC: 2026-06-06 12:07 UTC.
+- Frontier advanced: V22 locked the APC/HLA-II dynamic treatment-response rule before held-out testing, validated it on reachable independent cohorts, wrote `VALIDATION_LEDGER_V22.md`, `FINDING_V22.md`, `COHORT_SEARCH_V22.md`, `CONVERGENCE_CHECK_V22_01.md`, updated resume state and README, and rebuilt the knowledge index.
+- Cohorts tested with pass/fail: `GSE235357` MS dimethyl fumarate primary locked pass (AUC `0.72`, Hedges g `0.651`, `n=10`); `GSE250453` MS fingolimod primary locked fail (AUC `0.60`, Hedges g `0.150`, `n=10`); `GSE85034_ADA` psoriasis adalimumab primary locked fail (AUC `0.511`, Hedges g `0.044`, `n=14`); `GSE253006_TOF` UC tofacitinib exploratory module-approximation pass (AUC `1.00`, Hedges g `1.522`, `n=9`) not counted as primary validation.
+- Validation verdict: no Tier 4 breakthrough and no kill; the locked dynamic rule remains a provisional early-treatment monitoring lead.
+- Stratifier vs monitor characterization: V22 supports only an early on-treatment monitoring interpretation; it does not validate a baseline patient-selection stratifier or a clinical decision threshold.
+- Stop reason: completed the bounded V22 validation package; no long-running analysis processes remain.
+- Next action: do not tune `LOCKED_RULE_V22.md`; acquire or identify a larger paired MS DMT response cohort (`n >= 30`) or recompute exact frozen modules in `GSE253006_TOF` at compartment-resolved level before considering any successor locked rule.
