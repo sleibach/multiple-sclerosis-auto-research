@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-06 10:47 CEST
+Last updated: 2026-06-06 11:56 CEST
 
 ## Mission State
 
@@ -9,7 +9,8 @@ resumable. V13-V17 robustified the genetics axis from OpenGWAS coloc through
 allele-aligned eQTL and mechanism workup. V18 completed data-source acquisition
 triage for the unresolved chr1 MS-UC `GPR25`-versus-`KIF21B` causal-gene
 ambiguity. V19 re-evaluated the chr1 locus under first-principles
-druggability discipline.
+druggability discipline. V20 widened back out from chr1 to a ranked
+next-tier lead slate across the full landscape.
 
 Current frontier:
 
@@ -22,7 +23,17 @@ Current frontier:
   lowering KIF21B expression `11 / 11` for both MS and UC.
 - The chr1 locus is a tractable genetics/mechanism lead, not an
   intervention-grade target. Controlled or richer immune-genotype/protein data
-  remain the decisive next layer.
+  remain the decisive next layer, but V20 does not continue chr1.
+- `LEAD_SLATE_V20.md` now ranks 13 next-tier candidates:
+  - `5` promising follow-ups;
+  - `2` hard-target real-biology findings;
+  - `6` negative/not-now findings.
+- V20 top actionable lead: dynamic APC/HLA-II treatment-response monitoring in
+  MS, treated as a biomarker/mechanism transfer lead rather than drug
+  repositioning.
+- V20 next genetics regions: MS-Crohn chr14 `ZFP36L1` and MS-UC chr2
+  `REL/PUS10/USP34`, both requiring bounded SuSiE-coloc and allele-aligned QTL
+  direction before any target claim.
 
 Standing reporting rule:
 
@@ -91,6 +102,11 @@ Methodology backbone:
   - `GENETICS_CHR1_REEVALUATION_V19.md`
   - `scripts/v19_chr1_reanalysis.py`
   - `analysis/v19_chr1_druggability/`
+- V20 next-tier slate:
+  - `LEAD_SLATE_V20.md`
+  - `scripts/v20_generate_lead_slate.py`
+  - `analysis/v20_lead_slate/lead_slate_v20.tsv`
+  - `analysis/v20_lead_slate/lead_slate_v20_summary.json`
 
 ## Current Matrix State
 

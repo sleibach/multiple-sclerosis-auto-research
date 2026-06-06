@@ -359,3 +359,14 @@ Next session first action:
 - Integrated verdict: chr1 is real shared MS-UC genetics/mechanism, not an intervention-grade target; the decisive next layer is genotype-stratified immune-cell or CSF single-cell/CITE-seq/protein data for exact chr1 shared haplotype carriers.
 - Stop reason: completed V19 bounded deliverable; remaining work is external/metadata-dependent rather than an unstarted V19 step.
 - Next action: verify QTD000021/eQTL Catalogue metadata for publication-grade use or move to controlled/protein-data acquisition and wet-lab genotype-stratified expression/functional assays.
+
+## RUN SUMMARY - 2026-06-06 09:59 UTC
+
+- Active runtime: approximately 45 minutes; total elapsed cannot be measured precisely because the V20 session resumed from a context-compacted/interrupted state; no usage-limit waiting time was observed in the resumed segment.
+- Session start UTC: approximately 2026-06-06 09:14 UTC.
+- Session end UTC: 2026-06-06 09:59 UTC.
+- Frontier advanced: V20 produced a reproducible 13-candidate next-tier lead slate across four workstreams, updated resume state and README, rebuilt the knowledge index, and documented the subagent thread-limit blocker.
+- Leads generated per workstream: A next-tier colocalized loci `4`; B thin/unpopulated axes `3`; C repositioning/agreement structure `3`; D decoupling-as-signal `3`.
+- Ranked slate summary: `5` promising follow-ups, `2` hard-target real-biology findings, and `6` negative/not-now entries; top lead is dynamic APC/HLA-II treatment-response monitoring, with chr14 `ZFP36L1` and chr2 `REL/PUS10/USP34` as next genetics-region follow-ups.
+- Stop reason: completed bounded V20 slate deliverable; broad live subagent execution was environmentally blocked by agent thread limit, and new locus-level coloc was intentionally deferred to the next queued action so the slate remains resumable.
+- Next action: run bounded SuSiE-coloc for MS-Crohn chr14 `14:68710199-69753364` and MS-UC chr2 `2:60689469-61742410`; if either survives, run allele-aligned immune-QTL colocalization plus first-principles direction-matched druggability.

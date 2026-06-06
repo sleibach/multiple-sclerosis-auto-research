@@ -11,17 +11,16 @@ All analysis uses public human-tissue data only and random seed `20260526`
 
 ## Current Status
 
-The current phase is **V19**. The V4 directory structure remains canonical, and
+The current phase is **V20**. The V4 directory structure remains canonical, and
 V11 introduced the resume backbone for short-session continuity.
 
 - Start here: `meta/CURRENT_STATUS.md` — the live mission state, active leads,
   and next actions.
-- Current active genetics/data focus: chr1 MS-UC causal-gene resolution after
-  V19 first-principles druggability re-evaluation. `GPR25` remains an
-  eQTLGen-supported but weakly expressed GPCR lead; `KIF21B` now has
-  independent dense immune-QTL coloc support and stronger expression context,
-  but the required therapeutic direction is restoration/up-function rather than
-  simple inhibition.
+- Current active genetics/data focus: the chr1 MS-UC causal-gene question is
+  computationally resolved for now and handed forward as real shared genetics,
+  not an intervention-grade target. V20 widens back out to a ranked
+  next-tier slate across genetics, treatment-response, agreement, and
+  decoupling axes.
 - Confirmed first-pass high-H4 regions from V13/V14 include MS-UC chr1,
   MS-UC chr5/PTGER4, MS-Crohn chr10, and MS-Crohn chr17/STAT3-STAT5. The
   chr1 and chr10 loci passed bounded SuSiE-coloc follow-up. V15 mapped the
@@ -45,7 +44,12 @@ V11 introduced the resume backbone for short-session continuity.
   MS/eQTL PP.H4 `0.874879034973956`, UC/eQTL PP.H4 `0.868660082128031`;
   exact shared credible-set variants showed disease-risk alleles lowering
   KIF21B expression `11 / 11` for both MS and UC. The integrated verdict is
-  real shared genetics/mechanism, not an intervention-grade target.
+  real shared genetics/mechanism, not an intervention-grade target. V20 then
+  generated `LEAD_SLATE_V20.md`, a 13-candidate ranked next-tier slate. The
+  top actionable lead is dynamic APC/HLA-II treatment-response monitoring in
+  MS; the next genetics regions are chr14 `ZFP36L1` and chr2
+  `REL/PUS10/USP34`, both requiring bounded SuSiE-coloc and allele-aligned
+  QTL direction before any target claim.
 - `ACSL1`, `NAMPT`, and several early target candidates were demoted or parked
   under the V4/V5 prior-art and tiering framework. Current value has shifted to
   axis-disagreement mining and genetics-grounded transfer-validity analysis.
@@ -106,6 +110,7 @@ that explicitly in `meta/SESSION_LOG.md`.
 | V17 | GPR25 mechanism workup and lead consolidation. | `GPR25` survives as a Tier 1 genetics-to-lymphocyte-trafficking lead, not an intervention-grade finding. Full eQTLGen candidate extraction and bounded eQTL-coloc keep `GPR25` alive but reopen `KIF21B` as a competing causal gene; local MS CNS atlases do not support a lesion-cell GPR25 mechanism, and h5ad scans make KIF21B a stronger expression-supported competitor but weak direct target. See `GENETICS_GPR25_WORKUP_V17.md`, `KIF21B_SCOUT_V17.md`, `SOURCES_V17.md`, and `GPR25_KIF21B_EXPERIMENTAL_DESIGN_V17.md`. |
 | V18 | Data-source acquisition and access triage. | Acquired public OneK1K top eQTL, DICE significant eQTL/mean expression, eQTL Catalogue targeted chr1 extract, IUPHAR, and GPCRdb sources. Public genotype-linked immune eQTL sources favor `KIF21B` context (`14` OneK1K target hits and `1` DICE NK hit, all KIF21B) but do not resolve GPR25 protein/genotype causality. See `meta/DATA_ACQUISITION_PLAN_V18.md`. |
 | V19 | First-principles druggability and causal-gene re-evaluation of chr1. | Dense QTD000021 eQTL Catalogue coloc supports `KIF21B` as a serious causal-gene candidate (MS/eQTL PP.H4 `0.874879034973956`, UC/eQTL PP.H4 `0.868660082128031`), and exact shared credible-set variants show risk lowers KIF21B expression. Druggability was revised: `GPR25` is structurally plausible but agonism-immature; `KIF21B` is structurally ligandable but likely wrong-direction for inhibition. See `GENETICS_CHR1_REEVALUATION_V19.md`. |
+| V20 | Next-tier lead generation across the full landscape. | Produced `LEAD_SLATE_V20.md` and `analysis/v20_lead_slate/lead_slate_v20.tsv`: 13 pre-vetted candidates across four workstreams, with 5 promising follow-ups, 2 hard-target real-biology findings, and 6 negative/not-now entries. Top lead is dynamic APC/HLA-II treatment-response monitoring; next genetics follow-ups are chr14 `ZFP36L1` and chr2 `REL/PUS10/USP34`. |
 
 `FINDING.md` documents the (since-demoted) `ACSL1` target hypothesis from an
 earlier phase and is retained for the historical trace.
@@ -158,6 +163,12 @@ V19 reproducibility entry point:
   QTD000021 KIF21B extract to the saved V14 MS/UC chr1 disease sumstats, runs
   coloc.abf, and writes the V19 chr1 re-analysis summary under
   `analysis/v19_chr1_druggability/`.
+
+V20 reproducibility entry point:
+
+- `scripts/v20_generate_lead_slate.py` consolidates V13-V19 evidence into the
+  ranked next-tier slate under `analysis/v20_lead_slate/` and supports
+  `LEAD_SLATE_V20.md`.
 
 LDSC reference panel:
 

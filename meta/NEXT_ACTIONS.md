@@ -1,6 +1,6 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-06-06 10:47 CEST
+Last updated: 2026-06-06 11:56 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
@@ -146,29 +146,48 @@ V19 chr1 first-principles re-evaluation checkpoint:
 - Integrated verdict: chr1 is a real genetics/mechanism lead, not an
   intervention-grade target.
 
+V20 next-tier slate checkpoint:
+
+- Report: `LEAD_SLATE_V20.md`.
+- Reproducible script: `scripts/v20_generate_lead_slate.py`.
+- Output table: `analysis/v20_lead_slate/lead_slate_v20.tsv`.
+- Slate size: `13` candidates.
+- Verdict counts:
+  - promising follow-up: `5`;
+  - hard-target real biology: `2`;
+  - negative/not-now: `6`.
+- Top actionable lead:
+  - dynamic APC/HLA-II treatment-response monitoring in MS; treat as
+    biomarker/mechanism transfer, not direct target or drug repositioning.
+- Next genetics regions:
+  - MS-Crohn chr14 `14:68710199-69753364` (`ZFP36L1` neighborhood);
+  - MS-UC chr2 `2:60689469-61742410` (`REL/PUS10/USP34` neighborhood).
+- Guardrails:
+  - `ZMIZ1` remains a locked opposite-direction decoupling finding, not a
+    transfer target.
+  - `PTGER4`, chr17 `STAT3/STAT5`, generic `TYK2`, and MHC overlap logic are
+    not current leads without new signal-specific data.
+
 Next session first action:
 
 1. Run `.venv/bin/python scripts/check_opengwas_access.py`.
-2. Read `GENETICS_CHR1_REEVALUATION_V19.md` and
-   `analysis/v19_chr1_druggability/v19_chr1_reanalysis_summary.json`.
-3. Verify QTD000021/eQTL Catalogue metadata before publication-grade use of the
-   V19 KIF21B coloc values. V19 confirmed the FTP files exist, but REST
-   metadata calls returned HTTP 404/500.
-4. Do not repeat generic GEO searches for `GPR25`/`KIF21B` MS CITE-seq without
-   a new source; V17 found zero obvious public hits. Instead, look for
-   controlled-access, consortium, CSF immune-cell, or unpublished protein/CITE
-   datasets where `GPR25` surface protein is measurable.
-5. If a suitable dataset is found or manually added, test genotype-linked or disease-linked
-   expression of `GPR25` and `KIF21B` in T-cell/B-cell subsets; otherwise move
-   to the existing wet-lab design in
-   `GPR25_KIF21B_EXPERIMENTAL_DESIGN_V17.md` for genotype-linked expression and
-   CXCL17 migration/RhoA/integrin assays.
-6. Preserve `ZMIZ1` as a decoupling finding; do not re-litigate unless formal
+2. Read `LEAD_SLATE_V20.md` and
+   `analysis/v20_lead_slate/lead_slate_v20.tsv`.
+3. Run bounded SuSiE-coloc for MS-Crohn chr14
+   `14:68710199-69753364` (`ZFP36L1` neighborhood).
+4. Run bounded SuSiE-coloc for MS-UC chr2
+   `2:60689469-61742410` (`REL/PUS10/USP34` neighborhood).
+5. If either survives, immediately run allele-aligned immune-QTL
+   colocalization and first-principles direction-matched druggability before
+   surfacing it as a target.
+6. In parallel or next, pre-register a dynamic APC/HLA-II MS DMT monitoring
+   rule from `HYP_V6_006` / `LEAD_SLATE_V20.md` and test only on held-out
+   DMT cohorts.
+7. Keep chr1 (`KIF21B`/`GPR25`) in wet-lab/controlled-data handoff status; do
+   not continue it computationally unless new genotype-linked protein/CSF data
+   arrives.
+8. Preserve `ZMIZ1` as a decoupling finding; do not re-litigate unless formal
    QTL coloc is needed for publication-grade writeup.
-7. Do not spend more time on `PTGER4` unless signal-specific cell-type QTL or
-   perturbation data appears.
-8. Run real LDSC genetic correlation for MS vs UC/Crohn with MHC-excluded
-   sensitivity and sample-overlap/intercept reporting when useful for the
-   genetics-axis synthesis.
-9. Do not claim intervention-grade therapeutic direction until causal gene,
-   cell-state expression, perturbation, and modality feasibility all cohere.
+9. Do not spend more time on `PTGER4`, chr17 `STAT3/STAT5`, generic `TYK2`, or
+   MHC overlap as current leads without new fine-mapped or signal-specific
+   data.
