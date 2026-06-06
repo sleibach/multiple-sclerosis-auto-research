@@ -1605,3 +1605,20 @@ Decision:
 - Action 4 completed: exact marker-derived compartment rescoring. Strongest specific signals are T-cell-like and B/plasma-like compartments; myeloid/APC-like is positive but weaker. Interpretation shifts from APC-only to broader cytokine/JAK-STAT immune remodeling.
 - Action 5 completed: clinical utility remains early monitoring only, not baseline stratification.
 - Action 6 completed: no `LOCKED_RULE_V23.md` created because all currently reachable successful data motivated the bounded rule and no fresh held-out test cohort remains.
+
+## 2026-06-06 16:34 CEST - V24 treatment-response data scout
+
+- Verified OpenGWAS token with `scripts/check_opengwas_access.py`; HTTP 200,
+  token valid until 2026-06-19 12:28 UTC.
+- Re-read V22/V23 APC/HLA monitoring state and excluded all derivation or
+  already-tested cohorts from fresh validation status.
+- Searched GEO, BioStudies/ArrayExpress, SRA/ENA, EGA, Zenodo, Figshare, OSF,
+  Europe PMC/PubMed, preprint queries, consortium/portal paths, and partially
+  used local datasets.
+- Wrote `DATA_SCOUT_V24.md` plus machine-readable search log and inventory
+  under `analysis/v24_data_scout/`.
+- Key verdict: no clean public ready-to-run n>=30 fresh MS DMT transcriptomic
+  validation cohort was verified. The well is not dry at low-barrier level:
+  Gafson et al. 2018 DMF PBMC RNA-seq is the best next validation source but
+  needs author/data request; `GSE130478/GSE130491` need response-label mapping;
+  `GSE85034_MTX` is a local secondary stress test only.

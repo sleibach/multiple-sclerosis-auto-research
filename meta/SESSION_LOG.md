@@ -416,3 +416,18 @@ Next session first action:
 - Tofacitinib resolution: exact frozen all-cell `GSE253006_TOF` rescoring passes with AUC `0.95`, CI `0.70-1.00`, Hedges g `1.811`; exact marker-derived compartments show strongest specific signal in `t_cell_like` and `b_plasma_like`, with myeloid/APC-like positive but weaker.
 - Stop reason: all V23 Actions 1-5 completed and Action 6 completed as "no successor lock without fresh held-out data"; no long-running analysis processes remain.
 - Next action: acquire a larger paired MS DMT response cohort (`n >= 30`) in an immune-remodeling/JAK-STAT-like therapy context, then lock a bounded successor rule before testing it.
+
+## RUN SUMMARY - 2026-06-06 14:45 UTC
+
+- Active runtime: approximately 55 minutes; total elapsed approximately 55 minutes; no usage-limit waiting time observed. Runtime is estimated because this V24 session resumed after context compaction.
+- Session start UTC: approximately 2026-06-06 13:50 UTC.
+- Session end UTC: 2026-06-06 14:45 UTC.
+- Frontier advanced: V24 completed the dedicated treatment-response validation cohort scout, wrote `DATA_SCOUT_V24.md`, search log and candidate inventory TSVs, updated resume state and README, and identified the best low-barrier validation source.
+- Source types searched: GEO; ArrayExpress/BioStudies; ENA/SRA; EGA; Zenodo/Figshare/Dryad/OSF; PubMed/Europe PMC paper mining; consortia/portal routes; preprint supplements; partially used datasets.
+- Total candidates found/triaged: 8 ranked candidate sources in `analysis/v24_data_scout/v24_candidate_inventory.tsv`, plus rejected/false-positive hits logged in `analysis/v24_data_scout/v24_search_log.tsv`.
+- Candidates usability-verified: `GSE130478/GSE130491/GSE130494`, `GSE85034_MTX`, `GSE253495`, and the Gafson et al. 2018 PubMed design/label description; Gafson public accession was not verified.
+- Tier 1 downloaded/ready: no primary fresh MS validation cohort; `GSE85034_MTX` is already local and usable only as a secondary same-study/cross-disease stress test.
+- Tier 2 low-barrier with steps: Gafson et al. 2018 DMF PBMC RNA-seq data request is the top action; `GSE130478/GSE130491/GSE130494` response-label mapping request is second.
+- Dry-well verdict: public ready-to-run data are effectively dry for primary validation, but low-barrier data are not dry.
+- Stop reason: completed V24 scout scope; no long-running analysis processes remain.
+- Next action: request/acquire Gafson et al. 2018 processed PBMC RNA-seq counts plus NEDA-4 sample labels, then lock any successor rule only after fresh held-out data are present.

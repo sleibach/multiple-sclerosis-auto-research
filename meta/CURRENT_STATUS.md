@@ -440,26 +440,44 @@ label.
 
 ## Highest-Value Next Actions
 
-1. Start from `meta/DATA_ACQUISITION_PLAN_V18.md`. V18 acquired public OneK1K
-   top-eQTL, DICE significant eQTL/mean expression, eQTL Catalogue targeted
-   chr1 extract, IUPHAR, and GPCRdb files under `data/raw/v18_source_triage/`.
-2. Use `scripts/v18_smoke_test_acquired_sources.py` and
-   `analysis/v18_source_triage/target_gene_eqtl_hits.tsv` to compare acquired
-   OneK1K/DICE/eQTL Catalogue KIF21B variant IDs against the V17 MS-UC shared
-   credible set.
-3. Human-controlled next actions: prioritize MS PBMC/CSF genotype plus
-   scRNA/CITE-seq cohorts, then dbGaP DICE `phs001703.v3.p1`, then OneK1K
-   individual-level/raw data if needed. See
-   `meta/DATA_TIER3_DOWNLOAD_INSTRUCTIONS.md`.
-4. Do not spend effort on GPR25 agonist chemistry before protein/genotype-linked
-   immune-cell evidence distinguishes GPR25 from KIF21B.
-5. Preserve `ZMIZ1` as the opposite-direction MS/Crohn decoupling finding and
+1. Start from `DATA_SCOUT_V24.md` and
+   `analysis/v24_data_scout/v24_candidate_inventory.tsv`.
+2. Primary APC/HLA monitoring unlock: obtain Gafson et al. 2018 DMF PBMC
+   RNA-seq processed counts plus sample-level NEDA-4 responder labels (PMID
+   `30283812`, DOI `10.1212/nxi.0000000000000470`). This is the best
+   identified fresh validation cohort and was not public-ready in V24.
+3. Secondary acquisition: request response-label mapping for
+   `GSE130478/GSE130491/GSE130494` so the public DMF expression/methylation data
+   become analyzable.
+4. Optional computational stress test: run the unchanged V22 rule on unused
+   `GSE85034_MTX` only if same-study/cross-disease secondary evidence is useful.
+5. Keep chr1 (`KIF21B`/`GPR25`) in wet-lab/controlled-data handoff status; do
+   not continue it computationally unless new genotype-linked protein/CSF data
+   arrives.
+6. Preserve `ZMIZ1` as the opposite-direction MS/Crohn decoupling finding and
    do not use it for Crohn-to-MS transfer.
-6. Keep `PTGER4` closed as not-a-clean-transfer-target unless signal-specific
-   cell-type QTL data appears.
-7. Run real LDSC genetic correlation for MS vs UC/Crohn with MHC-excluded
-   sensitivity and sample-overlap/intercept reporting when needed for
-   genetics-axis synthesis.
+7. Extend LDSC rg to remaining map diseases when genetics-axis synthesis is
+   needed.
+
+## V24 Treatment-Response Data Scout
+
+- Report: `DATA_SCOUT_V24.md`.
+- Machine-readable logs:
+  - `analysis/v24_data_scout/v24_search_log.tsv`.
+  - `analysis/v24_data_scout/v24_candidate_inventory.tsv`.
+- Verdict: public ready-to-run data are effectively dry for primary
+  APC/HLA-II monitoring validation, but low-barrier data are not dry.
+- Best next cohort: Gafson et al. 2018 DMF PBMC RNA-seq, PMID `30283812`,
+  DOI `10.1212/nxi.0000000000000470`; it matches MS/DMF/early 6-week
+  transcriptomics with NEDA-4 responder labels, but no clean public GEO/SRA/ENA
+  accession was verified. Needs author/data request for counts and metadata.
+- Best open-but-incomplete MS cohort: `GSE130478/GSE130491/GSE130494`; public
+  DMF longitudinal expression/methylation data, but response-label mapping is
+  absent from GEO metadata.
+- Verified Tier 1 secondary stress test: unused `GSE85034_MTX`, psoriasis
+  methotrexate lesional-skin arm, 13 PASI75-labeled paired baseline/week16
+  subjects, 9 frozen module genes represented. This is not primary MS
+  validation and must be caveated as same-study/late-tissue evidence.
 
 ## Compute / Access Notes
 

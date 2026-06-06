@@ -1,0 +1,28 @@
+source_type	query_or_source	hit_count_or_result	inspection_result
+GEO	multiple sclerosis dimethyl fumarate transcriptome response	2	GSE130478 and GSE130491 identified; GSE130478 is expression array with baseline/6m CD4 T-cell pairs; response labels not in GEO metadata.
+GEO	multiple sclerosis natalizumab transcriptome response	1	GSE261258 identified; regulatory B-cell TIM-1/TIGIT biology, not treatment-response validation.
+GEO	multiple sclerosis ocrelizumab transcriptome response	0	No GEO hit.
+GEO	multiple sclerosis DMT PBMC transcriptome responder	0	No GEO hit.
+GEO	ulcerative colitis tofacitinib transcriptome response baseline	0	No fresh GEO hit beyond already-used GSE253006.
+GEO	rheumatoid arthritis JAK inhibitor transcriptome response	1	GSE143443 identified; RA fibroblast-like synoviocyte joint-location study, not response cohort.
+GEO	lupus anifrolumab transcriptome response transcriptome	2	GSE240466/GSE240335 identified by search, but both are lichen planus IFN landscape studies, not anifrolumab/SLE response cohorts.
+GEO	Gafson dimethyl fumarate RNA sequencing	2	GSE312339 and GSE231871 returned; both false positives, not MS treatment-response data.
+GEO	GSE253495 direct inspection	verified	Open RA upadacitinib CD14 monocyte RNA-seq baseline/3m; all three patients improved, so no responder/nonresponder discrimination.
+BioStudies/ArrayExpress	dimethyl fumarate multiple sclerosis transcriptome response	5 visible top hits	S-EPMC9351505 and S-EPMC7227148 relevant to DMF monitoring but not transcriptomic validation datasets; GSE130478/491 remain the transcriptomic hits via GEO.
+BioStudies/ArrayExpress	multiple sclerosis treatment response RNA-seq	5 visible top hits	S-EPMC3094352 IFN-beta response paper found; excluded because IFN-beta datasets were already part of V6/V7 lineage.
+BioStudies/ArrayExpress	tofacitinib rheumatoid arthritis transcriptome response	5 visible top hits	No usable fresh RA tofacitinib response transcriptomic cohort in top BioStudies hits.
+BioStudies/ArrayExpress	filgotinib ulcerative colitis transcriptome response	5 visible top hits	No usable paired/labeled filgotinib validation cohort found; E-MTAB-7860 is UC biopsies/organoids, not treatment-response validation.
+SRA	Gafson dimethyl fumarate RNA-seq	302 nominal hits	Top hits were nonspecific; exact title/author query did not resolve to a clean SRA accession.
+SRA	Gafson Cencioni dimethyl fumarate MS RNA sequencing	0	No SRA hit.
+SRA	PMID 30283812 RNA-seq	44390 nominal hits	Unusable broad query; exact paper title did not resolve to a clean accession.
+ENA	Gafson/dimethyl fumarate exact queries	HTTP 400	ENA portal query syntax returned HTTP 400 for quoted exact-title style searches; no ENA accession verified.
+EGA	EGA search v2 treatment-response queries	HTTP 404	Queried endpoint returned 404; no EGA dataset could be verified from the sandbox in this run.
+Zenodo	multiple sclerosis dimethyl fumarate response transcriptome	247421 broad hits	Top hit was HuR/SOD2 cascade DMF paper, not a paired response-validation transcriptomic cohort; several narrower queries timed out.
+Figshare	treatment-response transcriptomic queries	HTTP 404	Figshare API endpoint returned 404 for queried terms.
+OSF	treatment-response transcriptomic queries	topical but nonspecific hits	No treatment-response transcriptomic dataset with paired samples and clinical response labels found.
+Europe PMC/PubMed	Mononuclear cell transcriptome changes associated with dimethyl fumarate	1	PMID 30283812 verified: 24 RRMS PBMC RNA-seq baseline/6w/15m with NEDA-4 response labels; no public GEO/SRA accession found in this run.
+Europe PMC/PubMed	High-dimensional immune profiling identifies a biomarker to monitor dimethyl fumarate response	1	PMID 35881799 verified; mass cytometry monitoring cohort, not transcriptomic locked-rule validation.
+Europe PMC/PubMed	Therapeutic efficacy of dimethyl fumarate non-responders	1	PMID 31300673 verified; corresponds to GSE130478/GSE130491/GSE130494, labels not in GEO metadata.
+Preprints	bioRxiv/medRxiv MS and JAK treatment-response queries	18/1/22/6 broad counts	No fresh paired/labeled transcriptomic validation cohort identified from top preprint search results.
+Consortia/portals	MultipleMS, MS PATHS, Accelerated Cure Project, ImmPort searches	variable	No directly downloadable paired treatment-response transcriptomic cohort found; classify as portal/collaboration paths rather than Tier 1.
+Partial prior datasets	GSE85034 methotrexate arm	verified local	Unused MTX arm has 13 PASI75-labeled subjects with paired baseline/week16 lesional skin; module coverage 9/12 frozen genes; same-study secondary stress test, not clean MS validation.

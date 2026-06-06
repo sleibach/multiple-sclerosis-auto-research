@@ -223,6 +223,23 @@ LDSC reference panel:
   `w_hm3.snplist` checksums match and a parse smoke test passes; see
   `meta/LDSC_PANEL_STATUS.md`.
 
+V24 data-scout entry points:
+
+- `DATA_SCOUT_V24.md` is the current treatment-response cohort acquisition
+  verdict for the APC/HLA-II monitoring lead.
+- `analysis/v24_data_scout/v24_search_log.tsv` records searched source types,
+  queries, hit counts/results, and inspection outcomes.
+- `analysis/v24_data_scout/v24_candidate_inventory.tsv` records the ranked
+  candidate sources and access-tier triage.
+- V24 conclusion: no clean public ready-to-run n>=30 fresh MS DMT
+  transcriptomic validation cohort was found. The public ready-to-run well is
+  effectively dry for primary validation, but low-barrier data are not dry:
+  the best next cohort is Gafson et al. 2018 DMF PBMC RNA-seq (PMID
+  `30283812`, DOI `10.1212/nxi.0000000000000470`), requiring author/data
+  request for processed counts and NEDA-4 sample labels. `GSE130478/GSE130491`
+  are open but need response-label mapping; `GSE85034_MTX` is a local,
+  secondary psoriasis stress test only.
+
 ## Honest Scope
 
 This is a reproducible computational prioritization, not a validated mechanism,
