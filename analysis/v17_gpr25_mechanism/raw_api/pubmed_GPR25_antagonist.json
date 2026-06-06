@@ -1,0 +1,28 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "4",
+    "retmax": "4",
+    "retstart": "0",
+    "idlist": [
+      "30214063",
+      "26220344",
+      "26116532",
+      "16282350"
+    ],
+    "translationset": [
+      {
+        "from": "GPR25",
+        "to": "\"adgrg1 protein, human\"[Supplementary Concept] OR \"adgrg1 protein, human\"[All Fields] OR \"gpr25\"[All Fields]"
+      },
+      {
+        "from": "antagonist",
+        "to": "\"antagonist\"[All Fields] OR \"antagonists and inhibitors\"[Subheading] OR (\"antagonists\"[All Fields] AND \"inhibitors\"[All Fields]) OR \"antagonists and inhibitors\"[All Fields] OR \"antagonists\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"adgrg1 protein human\"[Supplementary Concept] OR \"adgrg1 protein human\"[All Fields] OR \"gpr25\"[All Fields]) AND (\"antagonist\"[All Fields] OR \"antagonists and inhibitors\"[MeSH Subheading] OR (\"antagonists\"[All Fields] AND \"inhibitors\"[All Fields]) OR \"antagonists and inhibitors\"[All Fields] OR \"antagonists\"[All Fields])"
+  }
+}

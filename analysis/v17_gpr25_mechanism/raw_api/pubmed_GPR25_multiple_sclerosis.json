@@ -1,0 +1,25 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "1",
+    "retmax": "1",
+    "retstart": "0",
+    "idlist": [
+      "30867424"
+    ],
+    "translationset": [
+      {
+        "from": "GPR25",
+        "to": "\"adgrg1 protein, human\"[Supplementary Concept] OR \"adgrg1 protein, human\"[All Fields] OR \"gpr25\"[All Fields]"
+      },
+      {
+        "from": "multiple sclerosis",
+        "to": "\"multiple sclerosis\"[MeSH Terms] OR (\"multiple\"[All Fields] AND \"sclerosis\"[All Fields]) OR \"multiple sclerosis\"[All Fields]"
+      }
+    ],
+    "querytranslation": "(\"adgrg1 protein human\"[Supplementary Concept] OR \"adgrg1 protein human\"[All Fields] OR \"gpr25\"[All Fields]) AND (\"multiple sclerosis\"[MeSH Terms] OR (\"multiple\"[All Fields] AND \"sclerosis\"[All Fields]) OR \"multiple sclerosis\"[All Fields])"
+  }
+}

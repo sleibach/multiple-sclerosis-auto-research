@@ -287,3 +287,16 @@ Next session first action:
 - Novel-result verdict: no intervention-grade or cure-class finding; strongest result is an eQTL-grounded refinement: GPR25 is a stronger MS-UC lead with restoration/agonism direction, ZMIZ1 is a confirmed opposite-direction decoupling locus, and PTGER4 is not a simple transfer target.
 - Stop reason: completed V16 bounded deliverable; no remaining V16 lead is blocked at the significant-QTL direction layer, but formal full-summary-statistics QTL colocalization and cell-state/perturbation validation remain incomplete.
 - Next action: run formal all-variant QTL colocalization if GTEx/eQTLGen full summary statistics can be indexed or downloaded; otherwise prioritize GPR25 cell-state expression and ligand/agonist feasibility while preserving ZMIZ1 as a decoupling finding.
+
+## RUN SUMMARY - 2026-06-06 01:39 UTC
+
+- Active runtime: approximately 61 minutes; total elapsed approximately 61 minutes; no usage-limit waiting time observed.
+- Session start UTC: 2026-06-06 00:38 UTC.
+- Session end UTC: 2026-06-06 01:39 UTC.
+- Frontier advanced: V17 consolidated the chr1 MS-UC locus into a `GPR25` versus `KIF21B` causal-gene ambiguity, added h5ad/CXCL17 ligand-context scans, wrote critique/source/convergence/experimental-design artifacts, and made the V17 expression and checkpoint summaries reproducible.
+- GPR25 step status: causal-gene hardening partially successful but not exclusive (`GPR25` MS/eQTL max PP.H4 `0.969296`, UC/eQTL `0.981623`; `KIF21B` also high at `0.956099` and `0.963951`); local MS CNS atlases lack `GPR25`; h5ad scans found `GPR25` absent/trace while `KIF21B` is more detectable; CXCL17 ligand context is strong in Sjogren salivary epithelium but absent/trace in gut, RA blood, psoriasis skin, and IBD myeloid atlases.
+- ZMIZ1 lock status: preserved as a robust opposite-direction MS/Crohn eQTL decoupling finding; no Crohn-to-MS transfer claim.
+- PTGER4 close-out status: closed as signal-conflicted and not a simple MS-UC transfer target unless signal-specific cell-type QTL data appears.
+- GPR25 verdict: alive Tier 1 genetics-to-lymphocyte-trafficking lead, not intervention-grade; the chr1 locus requires protein-level or genotype-linked immune/CSF data to resolve `GPR25` versus `KIF21B`.
+- Stop reason: completed V17 bounded deliverable and resume-state update; no long-running analysis processes remain.
+- Next action: use `GPR25_KIF21B_EXPERIMENTAL_DESIGN_V17.md` as the default handoff unless controlled-access protein/CITE-seq data is found; test genotype-linked GPR25/KIF21B expression and CXCL17 migration/RhoA/integrin function before any intervention-grade claim.

@@ -1,0 +1,50 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+      {
+        "from": "multiple sclerosis",
+        "to": "\"multiple sclerosis\"[MeSH Terms] OR multiple sclerosis[All Fields]"
+      }
+    ],
+    "translationstack": [
+      {
+        "term": "KIF21B[All Fields]",
+        "field": "All Fields",
+        "count": "2956",
+        "explode": "N"
+      },
+      {
+        "term": "CITE-seq[All Fields]",
+        "field": "All Fields",
+        "count": "3179",
+        "explode": "N"
+      },
+      "AND",
+      {
+        "term": "\"multiple sclerosis\"[MeSH Terms]",
+        "field": "MeSH Terms",
+        "count": "7284",
+        "explode": "Y"
+      },
+      {
+        "term": "multiple sclerosis[All Fields]",
+        "field": "All Fields",
+        "count": "7284",
+        "explode": "N"
+      },
+      "OR",
+      "GROUP",
+      "AND",
+      "GROUP"
+    ],
+    "querytranslation": "KIF21B[All Fields] AND CITE-seq[All Fields] AND (\"multiple sclerosis\"[MeSH Terms] OR multiple sclerosis[All Fields])"
+  }
+}

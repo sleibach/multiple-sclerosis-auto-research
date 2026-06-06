@@ -1,0 +1,54 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+      {
+        "from": "GPR25",
+        "to": "GPR25[All Fields]"
+      },
+      {
+        "from": "multiple sclerosis",
+        "to": "\"multiple sclerosis\"[MeSH Terms] OR multiple sclerosis[All Fields]"
+      }
+    ],
+    "translationstack": [
+      {
+        "term": "CXCL17[All Fields]",
+        "field": "All Fields",
+        "count": "2364",
+        "explode": "N"
+      },
+      {
+        "term": "GPR25[All Fields]",
+        "field": "All Fields",
+        "count": "2444",
+        "explode": "N"
+      },
+      "AND",
+      {
+        "term": "\"multiple sclerosis\"[MeSH Terms]",
+        "field": "MeSH Terms",
+        "count": "7284",
+        "explode": "Y"
+      },
+      {
+        "term": "multiple sclerosis[All Fields]",
+        "field": "All Fields",
+        "count": "7284",
+        "explode": "N"
+      },
+      "OR",
+      "GROUP",
+      "AND",
+      "GROUP"
+    ],
+    "querytranslation": "CXCL17[All Fields] AND GPR25[All Fields] AND (\"multiple sclerosis\"[MeSH Terms] OR multiple sclerosis[All Fields])"
+  }
+}

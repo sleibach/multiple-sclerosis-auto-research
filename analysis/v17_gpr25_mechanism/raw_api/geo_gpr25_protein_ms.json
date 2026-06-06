@@ -1,0 +1,73 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+      {
+        "from": "GPR25",
+        "to": "GPR25[All Fields]"
+      },
+      {
+        "from": "multiple sclerosis",
+        "to": "\"multiple sclerosis\"[MeSH Terms] OR multiple sclerosis[All Fields]"
+      },
+      {
+        "from": "protein",
+        "to": "\"proteins\"[All Fields] OR \"proteins\"[MeSH Terms] OR protein[All Fields]"
+      }
+    ],
+    "translationstack": [
+      {
+        "term": "GPR25[All Fields]",
+        "field": "All Fields",
+        "count": "2444",
+        "explode": "N"
+      },
+      {
+        "term": "\"proteins\"[All Fields]",
+        "field": "All Fields",
+        "count": "239960",
+        "explode": "N"
+      },
+      {
+        "term": "\"proteins\"[MeSH Terms]",
+        "field": "MeSH Terms",
+        "count": "2242437",
+        "explode": "Y"
+      },
+      "OR",
+      {
+        "term": "protein[All Fields]",
+        "field": "All Fields",
+        "count": "211177",
+        "explode": "N"
+      },
+      "OR",
+      "GROUP",
+      "AND",
+      {
+        "term": "\"multiple sclerosis\"[MeSH Terms]",
+        "field": "MeSH Terms",
+        "count": "7284",
+        "explode": "Y"
+      },
+      {
+        "term": "multiple sclerosis[All Fields]",
+        "field": "All Fields",
+        "count": "7284",
+        "explode": "N"
+      },
+      "OR",
+      "GROUP",
+      "AND",
+      "GROUP"
+    ],
+    "querytranslation": "GPR25[All Fields] AND (\"proteins\"[All Fields] OR \"proteins\"[MeSH Terms] OR protein[All Fields]) AND (\"multiple sclerosis\"[MeSH Terms] OR multiple sclerosis[All Fields])"
+  }
+}

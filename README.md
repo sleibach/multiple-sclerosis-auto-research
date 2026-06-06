@@ -11,13 +11,13 @@ All analysis uses public human-tissue data only and random seed `20260526`
 
 ## Current Status
 
-The current phase is **V16**. The V4 directory structure remains canonical, and
+The current phase is **V17**. The V4 directory structure remains canonical, and
 V11 introduced the resume backbone for short-session continuity.
 
 - Start here: `meta/CURRENT_STATUS.md` — the live mission state, active leads,
   and next actions.
-- Current active genetics focus: formal full-summary-statistics QTL
-  colocalization and cell-state validation for the V16 live loci.
+- Current active genetics focus: chr1 MS-UC causal-gene resolution after V17
+  showed `GPR25` and `KIF21B` both retain bounded eQTL-coloc support.
 - Confirmed first-pass high-H4 regions from V13/V14 include MS-UC chr1,
   MS-UC chr5/PTGER4, MS-Crohn chr10, and MS-Crohn chr17/STAT3-STAT5. The
   chr1 and chr10 loci passed bounded SuSiE-coloc follow-up. V15 mapped the
@@ -29,7 +29,10 @@ V11 introduced the resume backbone for short-session continuity.
   signal-decomposition problem. V16 added allele-aligned GTEx/eQTLGen evidence:
   `GPR25` expression-increasing alleles are protective for both MS and UC,
   `ZMIZ1` expression-increasing alleles are MS-risk and Crohn-protective, and
-  `PTGER4` remains signal-conflicted.
+  `PTGER4` remains signal-conflicted. V17 streamed the full eQTLGen file for
+  chr1 candidate genes and found `GPR25` strongest in the disease-shared block,
+  but bounded disease-vs-eQTL SuSiE-coloc also supports `KIF21B`; local MS CNS
+  atlases did not contain measurable `GPR25`.
 - `ACSL1`, `NAMPT`, and several early target candidates were demoted or parked
   under the V4/V5 prior-art and tiering framework. Current value has shifted to
   axis-disagreement mining and genetics-grounded transfer-validity analysis.
@@ -82,6 +85,7 @@ of `meta/SESSION_LOG.md`.
 | V14 | Robust workup of confirmed shared loci. | Tooling and LDSC reference panel provisioned; bounded SuSiE-coloc supports chr1 UC and chr10 Crohn loci. Active. |
 | V15 | Causal-gene and effect-direction workup for the SuSiE-surviving loci. | chr1 MS-UC points to concordant `GPR25` blood eQTL risk direction but weak cell-state/druggability support; chr10 MS-Crohn points to `ZMIZ1` with opposite disease-effect signs and no transfer-ready intervention claim; chr5/PTGER4 is mixed shared/distinct signal; chr17/STAT3-STAT5 is downgraded. See `GENETICS_LOCI_WORKUP_V15.md` and `GENETICS_AXIS_V15_NEXT_TIER_SUSIE_ADDENDUM.md`. |
 | V16 | eQTL-grounded allele-direction workup of live loci. | `GPR25` direction corrected to protective higher expression; `ZMIZ1` confirmed as opposite-direction MS/Crohn decoupling locus; `PTGER4` confirmed signal-conflicted. See `GENETICS_EQTL_WORKUP_V16.md`. |
+| V17 | GPR25 mechanism workup and lead consolidation. | `GPR25` survives as a Tier 1 genetics-to-lymphocyte-trafficking lead, not an intervention-grade finding. Full eQTLGen candidate extraction and bounded eQTL-coloc keep `GPR25` alive but reopen `KIF21B` as a competing causal gene; local MS CNS atlases do not support a lesion-cell GPR25 mechanism, and h5ad scans make KIF21B a stronger expression-supported competitor but weak direct target. See `GENETICS_GPR25_WORKUP_V17.md`, `KIF21B_SCOUT_V17.md`, `SOURCES_V17.md`, and `GPR25_KIF21B_EXPERIMENTAL_DESIGN_V17.md`. |
 
 `FINDING.md` documents the (since-demoted) `ACSL1` target hypothesis from an
 earlier phase and is retained for the historical trace.
@@ -112,6 +116,16 @@ R genetics tooling:
 - R 4.6.0
 - `coloc` 5.2.3
 - `susieR` 0.14.2
+
+V17 reproducibility entry points:
+
+- `scripts/v17_extract_eqtlgen_chr1_candidates.sh` regenerates the streamed
+  full-eQTLGen chr1 candidate-gene extract used in V17.
+- `scripts/v17_scan_h5ad_gpr25_kif21b.py` regenerates the local h5ad
+  GPR25/KIF21B/CXCL17 expression tables under
+  `analysis/v17_gpr25_mechanism/`.
+- `scripts/v17_summarize_gpr25_checkpoint.py` prints the key V17 numeric
+  checkpoint values from saved TSV outputs.
 
 LDSC reference panel:
 

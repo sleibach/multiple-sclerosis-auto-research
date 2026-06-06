@@ -1,0 +1,62 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+      {
+        "from": "T cell",
+        "to": "\"t-lymphocytes\"[MeSH Terms] OR T cell[All Fields]"
+      },
+      {
+        "from": "multiple sclerosis",
+        "to": "\"multiple sclerosis\"[MeSH Terms] OR multiple sclerosis[All Fields]"
+      }
+    ],
+    "translationstack": [
+      {
+        "term": "KIF21B[All Fields]",
+        "field": "All Fields",
+        "count": "2956",
+        "explode": "N"
+      },
+      {
+        "term": "\"t-lymphocytes\"[MeSH Terms]",
+        "field": "MeSH Terms",
+        "count": "281591",
+        "explode": "Y"
+      },
+      {
+        "term": "T cell[All Fields]",
+        "field": "All Fields",
+        "count": "130722",
+        "explode": "N"
+      },
+      "OR",
+      "GROUP",
+      "AND",
+      {
+        "term": "\"multiple sclerosis\"[MeSH Terms]",
+        "field": "MeSH Terms",
+        "count": "7284",
+        "explode": "Y"
+      },
+      {
+        "term": "multiple sclerosis[All Fields]",
+        "field": "All Fields",
+        "count": "7284",
+        "explode": "N"
+      },
+      "OR",
+      "GROUP",
+      "AND",
+      "GROUP"
+    ],
+    "querytranslation": "KIF21B[All Fields] AND (\"t-lymphocytes\"[MeSH Terms] OR T cell[All Fields]) AND (\"multiple sclerosis\"[MeSH Terms] OR multiple sclerosis[All Fields])"
+  }
+}

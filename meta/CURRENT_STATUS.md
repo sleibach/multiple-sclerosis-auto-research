@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-06 02:07 CEST
+Last updated: 2026-06-06 02:51 CEST
 
 ## Mission State
 
@@ -52,6 +52,15 @@ Methodology backbone:
   - `subagents/v16_gpr25_eqtl_report.md`
   - `subagents/v16_zmiz1_eqtl_report.md`
   - `subagents/v16_ptger4_signal_decomposition_report.md`
+- V17 GPR25 mechanism workup:
+  - `GENETICS_GPR25_WORKUP_V17.md`
+  - `KIF21B_SCOUT_V17.md`
+  - `SOURCES_V17.md`
+  - `ORCHESTRATION_LOG_V17.md`
+  - `CRITIQUE_V17.md`
+  - `CONVERGENCE_CHECK_V17_01.md`
+  - `GPR25_KIF21B_EXPERIMENTAL_DESIGN_V17.md`
+  - `analysis/v17_gpr25_mechanism/`
 
 ## Current Matrix State
 
@@ -231,6 +240,67 @@ Matrix decision:
 - PTGER4 remains mixed-signal and must be decomposed with full QTL coloc before
   any intervention inference.
 
+## V17 GPR25 Mechanism Checkpoint
+
+V17 asked whether `GPR25` could move from genetics lead to mechanistically
+grounded MS intervention hypothesis.
+
+Data gates:
+
+- OpenGWAS access verified; token valid until `2026-06-19 12:28 UTC`.
+- GTEx API reachable, but historical full eQTL archive URLs still return HTTP
+  `404`; no proxy `x-deny-reason`.
+- eQTLGen full cis file reachable at `download.gcc.rug.nl` by `curl -k`;
+  content length `4590510138`; Python TLS verification fails because the host
+  certificate is expired.
+- V17 streamed the full eQTLGen file and extracted chr1 candidate-gene rows
+  without storing the full 4.6 GB file locally.
+- Local MS CNS atlases checked:
+  - `data/raw/GSE301908_sn_all.rds`;
+  - `data/raw/GSE180759_expression_matrix.csv.gz`;
+  - `GPR25` was absent from both feature sets.
+
+Main results:
+
+- eQTLGen full-file shared credible-set block:
+  - `GPR25`: 11 overlap SNPs, max abs Z `15.8694`, all
+    expression-up protective for MS and UC.
+  - `KIF21B`: 11 overlap SNPs, max abs Z `7.5681`, also expression-up
+    protective.
+  - `DDX59`: strong independent cis eQTL peak, but bounded coloc is distinct.
+  - `C1orf106`: weaker and mostly distinct.
+- Bounded disease-vs-eQTL SuSiE-coloc:
+  - `GPR25`: max PP.H4 `0.969296` for MS/eQTL and `0.981623` for UC/eQTL.
+  - `KIF21B`: max PP.H4 `0.956099` for MS/eQTL and `0.963951` for UC/eQTL.
+  - `DDX59` and `C1orf106` did not retain meaningful shared PP.H4.
+- Mechanism and feasibility:
+  - UniProt/IUPHAR support GPR25 as a CXCL17 receptor GPCR with
+    lymphocyte-homing/RhoA/integrin biology.
+  - ChEMBL has only two screening activity records and no mechanism records.
+  - ClinicalTrials.gov has no GPR25 studies.
+  - Local MS CNS data do not support a lesion-rim or IFN/APC mechanism.
+
+V17 verdict:
+
+- `GPR25` remains alive as a Tier 1 genetics-to-lymphocyte-trafficking lead.
+- It is not intervention-grade: no local CNS cell-state support, immature
+  agonist chemistry, and `KIF21B` remains a competing causal-gene candidate.
+- Additional h5ad atlas scans found `GPR25` absent or nearly absent across
+  local non-CNS atlases, while `KIF21B` was more consistently detectable.
+  Cell-type breakdown reinforced this: GPR25 was trace even in T-cell groups,
+  while KIF21B reached `10.17%` detection in psoriasis helper T cells, `8.79%`
+  in psoriasis Tregs, `7.38%` in psoriasis cytotoxic T cells, and `4.09%` in
+  IBD T cells.
+- CXCL17 ligand-context scan found strong salivary epithelial expression in the
+  Sjogren atlas but absent/trace signal in gut, RA blood, psoriasis skin, and
+  IBD myeloid atlases, so ligand-context data did not rescue a broad MS-UC
+  tissue mechanism.
+- `ZMIZ1` remains locked as the opposite-direction MS/Crohn decoupling locus.
+- `PTGER4` is closed as not-a-clean-transfer-target unless new signal-specific
+  cell-type QTL data appears.
+- `KIF21B` scout: better expression support than GPR25 but poor direct
+  druggability; keep for causal-gene resolution, not as a direct target.
+
 ## V12 Findings
 
 Completed synthesis:
@@ -267,16 +337,25 @@ label.
 
 ## Highest-Value Next Actions
 
-1. Continue V14 from `GENETICS_AXIS_V14_LANDSCAPE_CHECKPOINT.md`.
-2. Run bounded SuSiE-coloc on remaining V14 high-H4 candidates:
-   UC chr5/PTGER4, Crohn chr17/STAT3-STAT5, and MHC H3 negative controls.
-3. Run real LDSC genetic correlation for MS vs UC/Crohn using the provisioned
-   `data/raw/ldsc_reference/eur_w_ld_chr/` reference panel, with MHC-excluded
-   sensitivity and sample-overlap/intercept reporting.
-4. Resolve PTGER4 effect-allele-aligned QTL direction before causal-gene or
-   intervention claims.
-5. Rebuild independent tissue-repair axes where current repair evidence
-   overlaps treatment-response evidence.
+1. Resolve the chr1 MS-UC causal-gene ambiguity: `GPR25` versus `KIF21B`.
+   Current evidence supports both as shared disease/eQTL components, while
+   single-cell expression support favors KIF21B and druggability/ligand biology
+   favors GPR25.
+2. Do not repeat generic GEO searches for public MS `GPR25`/`KIF21B` CITE-seq
+   datasets; V17 found zero obvious hits. Look instead for controlled-access,
+   consortium, CSF immune-cell, or protein-level datasets where GPR25 surface
+   protein can be measured.
+3. If no suitable dataset is accessible, formalize the decisive wet-lab test:
+   genotype-linked GPR25/KIF21B expression in immune/CSF subsets plus
+   CXCL17-directed migration/RhoA/integrin readouts. Draft exists at
+   `GPR25_KIF21B_EXPERIMENTAL_DESIGN_V17.md`.
+4. Preserve `ZMIZ1` as the opposite-direction MS/Crohn decoupling finding and
+   do not use it for Crohn-to-MS transfer.
+5. Keep `PTGER4` closed as not-a-clean-transfer-target unless signal-specific
+   cell-type QTL data appears.
+6. Run real LDSC genetic correlation for MS vs UC/Crohn with MHC-excluded
+   sensitivity and sample-overlap/intercept reporting when needed for
+   genetics-axis synthesis.
 
 ## Compute / Access Notes
 

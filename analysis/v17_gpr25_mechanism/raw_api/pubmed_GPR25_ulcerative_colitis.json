@@ -1,0 +1,30 @@
+{
+  "header": {
+    "type": "esearch",
+    "version": "0.3"
+  },
+  "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [
+      {
+        "from": "GPR25",
+        "to": "\"adgrg1 protein, human\"[Supplementary Concept] OR \"adgrg1 protein, human\"[All Fields] OR \"gpr25\"[All Fields]"
+      },
+      {
+        "from": "ulcerative colitis",
+        "to": "\"colitis, ulcerative\"[MeSH Terms] OR (\"colitis\"[All Fields] AND \"ulcerative\"[All Fields]) OR \"ulcerative colitis\"[All Fields] OR (\"ulcerative\"[All Fields] AND \"colitis\"[All Fields])"
+      }
+    ],
+    "querytranslation": "(\"adgrg1 protein human\"[Supplementary Concept] OR \"adgrg1 protein human\"[All Fields] OR \"gpr25\"[All Fields]) AND (\"colitis, ulcerative\"[MeSH Terms] OR (\"colitis\"[All Fields] AND \"ulcerative\"[All Fields]) OR \"ulcerative colitis\"[All Fields] OR (\"ulcerative\"[All Fields] AND \"colitis\"[All Fields]))",
+    "warninglist": {
+      "phrasesignored": [],
+      "quotedphrasesnotfound": [],
+      "outputmessages": [
+        "No items found."
+      ]
+    }
+  }
+}

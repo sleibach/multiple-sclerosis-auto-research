@@ -1,6 +1,6 @@
 # MATRIX_STATUS
 
-Last updated: 2026-06-06 02:07 CEST
+Last updated: 2026-06-06 02:51 CEST
 
 Canonical machine-readable state: `analysis/v11_matrix/disagreement_matrix.tsv`.
 
@@ -102,8 +102,8 @@ Canonical machine-readable state: `analysis/v11_matrix/disagreement_matrix.tsv`.
 - Rank score: `3.75`.
 - Status: `intervention_derived`.
 - Resolution grade: `V12 supported genetics layer-decoupling finding`.
-- Last action: V16 GTEx/eQTLGen allele-aligned evidence strengthens `GPR25` as the leading chr1 blood eQTL gene and revises direction: expression-increasing alleles are protective for both MS and UC; risk associates with lower GPR25 expression. Not intervention-grade because cell-state support and mature chemical matter remain weak.
-- Next action: Run full-summary-statistics QTL coloc for GPR25 and test MS-relevant cell-state expression; intervention logic, if any, is GPR25 restoration/agonism rather than antagonism. See GENETICS_EQTL_WORKUP_V16.md.
+- Last action: V17 streamed the full eQTLGen file for chr1 candidate genes and ran bounded disease-vs-eQTL SuSiE-coloc. `GPR25` remains strongest in the disease-shared block and protective when expression is higher, but `KIF21B` also shows high bounded PP.H4 (`0.956099` MS/eQTL, `0.963951` UC/eQTL). Local MS CNS atlases did not contain measurable `GPR25`, so no lesion-cell mechanism is supported.
+- Next action: Resolve `GPR25` versus `KIF21B` using immune-cell/CSF single-cell or CITE-seq data with measurable expression; do not upgrade this cell to intervention-grade. See GENETICS_GPR25_WORKUP_V17.md.
 
 ### 008_Crohn_disease_axis_02_genetics_vs_axis_07_treatment_response
 

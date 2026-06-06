@@ -32,6 +32,15 @@ Candidate files are lifetime histories, not per-wave reports.
   composition-confounded; `E-MTAB-12260`, `GSE235508`, and `GSE108497` refine
   the model toward compartmental/disease-specific kinetics.
 
+## V13-V17 Genetics-Axis Candidates
+
+| Candidate file | Display name | Current status | V4 tier | Reason |
+|---|---|---:|---:|---|
+| `GPR25.md` | GPR25 | alive | Tier 1 | MS-UC chr1 shared locus; protective higher expression; CXCL17-GPR25 trafficking mechanism; not intervention-grade because `KIF21B` competes and local MS CNS atlases lack GPR25 |
+| `KIF21B.md` | KIF21B | alive | Tier 1 | competing causal-gene candidate at the same MS-UC chr1 locus; bounded eQTL-coloc and stronger atlas expression support, but poor direct druggability |
+| `ZMIZ1.md` | ZMIZ1 | alive finding | Tier 1 | MS-Crohn chr10 opposite-direction eQTL decoupling; transfer-validity finding, not intervention lead |
+| `PTGER4.md` | PTGER4 | demoted | Tier 0 | chr5 signal is mixed shared/distinct with conflicting direction; not a clean MS-UC transfer target |
+
 ## Status Semantics
 
 - `alive`: active at a V4 tier.
