@@ -1,0 +1,5 @@
+hypothesis	query_pathway	query_perturbation	module	interpretation	domain_flag	prediction_log2fc	predicted_direction	confidence_bin	confidence_raw	action
+IFN/JAK-STAT immune-remodeling monitoring signal	IFNG	JAK2	ifn_apc	proxy for JAK/IFN pathway suppression of IFN/APC modules	inside_bounded_pathway_module_domain	-0.7427479771769498	decrease	medium	0.9388364583523192	use_as_low_resolution_directional_prior_only
+HLA-II/APC remodeling through IFNG pathway blockade	IFNG	STAT1	hla_ii_apc	proxy for upstream IFNG-STAT1 axis	inside_bounded_pathway_module_domain	-0.900901913868607	decrease	high	1.2095503449016975	use_as_low_resolution_directional_prior_only
+KIF21B/GPR25 chr1 expression-direction lead		KIF21B/GPR25	ifn_apc	genetics/eQTL expression direction, not represented in Mixscale pathway domain	outside_validated_domain_abstain		abstain	abstain		do_not_use_model_for_this_hypothesis
+ZMIZ1 opposite-direction MS/Crohn decoupling		ZMIZ1	ifn_apc	genetic decoupling, not a pathway perturbation in validated domain	outside_validated_domain_abstain		abstain	abstain		do_not_use_model_for_this_hypothesis

@@ -240,6 +240,22 @@ V24 data-scout entry points:
   are open but need response-label mapping; `GSE85034_MTX` is a local,
   secondary psoriasis stress test only.
 
+V25 model-build entry points:
+
+- `MODEL_DESIGN_V25.md` records the architecture choice and why V25 downscoped
+  to a bounded empirical Mixscale module-response model.
+- `analysis/v25_immune_state_model/DATA_INVENTORY_V25.tsv` inventories the
+  data substrates considered for model building.
+- `analysis/v25_immune_state_model/TRAIN_HELDOUT_SPLIT_V25.tsv` is the
+  immutable held-out split, committed before validation in commit `0bc726e`.
+- `scripts/v25_build_bounded_immune_state_model.py` rebuilds the bounded model
+  and held-out validation outputs.
+- `MODEL_CARD_V25.md` is the final V25 deliverable. Verdict: V25 did not
+  achieve a reliable immune-state simulator. Held-out direction accuracy was
+  `0.542` across `24` module predictions, calibration was weak, and the model
+  must abstain on `KIF21B/GPR25`, `ZMIZ1`, patient response, single-cell
+  compartments, and unseen pathways.
+
 ## Honest Scope
 
 This is a reproducible computational prioritization, not a validated mechanism,

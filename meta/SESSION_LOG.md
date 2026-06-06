@@ -431,3 +431,18 @@ Next session first action:
 - Dry-well verdict: public ready-to-run data are effectively dry for primary validation, but low-barrier data are not dry.
 - Stop reason: completed V24 scout scope; no long-running analysis processes remain.
 - Next action: request/acquire Gafson et al. 2018 processed PBMC RNA-seq counts plus NEDA-4 sample labels, then lock any successor rule only after fresh held-out data are present.
+
+## RUN SUMMARY - 2026-06-06 20:56 UTC
+
+- Active runtime: approximately 4 minutes; total elapsed approximately 4 minutes; no usage-limit waiting time observed.
+- Session start UTC: 2026-06-06 20:52 UTC.
+- Session end UTC: 2026-06-06 20:56 UTC.
+- Frontier advanced: V25 inventoried model-building datasets, wrote and committed `MODEL_DESIGN_V25.md` plus immutable train/held-out split before validation, built a bounded empirical Mixscale module-response model, validated it on held-out perturbations, wrote `MODEL_CARD_V25.md`, and updated resume state and README.
+- Phases completed: Phase 1 scope/data/split completed; Phase 2 bounded model built; Phase 3 held-out validation completed; Phase 4 project-finding checks completed; Phase 5 live hypothesis triage completed with abstentions; Phase 6 model card completed.
+- Architecture chosen: bounded empirical pathway/module mean model over Mixscale IFNB/IFNG/TNFA perturbation summaries; broad foundation-model/ODE/ML approaches were rejected as not validateable with current data.
+- Held-out validation result and validated domain: `6` held-out perturbations, `24` module predictions, direction accuracy `0.542`, MAE `0.261` log2FC, Pearson `0.531`, Spearman `0.377`; no reliable validated domain for wet-lab triage was established.
+- Agreement with project findings: weak directional compatibility for IFNG/JAK suppression of IFN/APC/HLA-II modules; no valid test of T/B compartment localization, KIF21B/GPR25, or ZMIZ1.
+- Hypothesis-triage output: IFN/JAK monitoring biology receives only a low-resolution descriptive prior; KIF21B/GPR25 and ZMIZ1 are outside domain and the model abstains.
+- Honest simulator verdict: no usable validated simulator was achieved from current data; V25 is a bounded negative result.
+- Stop reason: completed all V25 phases with a negative validation verdict; no long-running analysis processes remain.
+- Next action: do not use V25 model for wet-lab triage; acquire Gafson et al. 2018 DMF PBMC RNA-seq counts plus NEDA-4 labels or map State/Parse feature IDs to gene symbols before any future model attempt.

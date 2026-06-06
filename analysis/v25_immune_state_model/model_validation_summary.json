@@ -1,0 +1,22 @@
+{
+  "architecture": "bounded_empirical_pathway_module_mean_model",
+  "train_perturbations": 18,
+  "heldout_perturbations": 6,
+  "metrics": {
+    "n_rows": 24,
+    "n_heldout_perturbations": 6,
+    "n_modules": 4,
+    "direction_accuracy": 0.5416666666666666,
+    "mae_log2fc": 0.26147368575157204,
+    "rmse_log2fc": 0.35983827796271367,
+    "pearson_pred_actual": 0.5314990451817116,
+    "spearman_pred_actual": 0.37663598748932425
+  },
+  "validated_domain": "directional module effects for Mixscale-like IFNB/IFNG/TNFA pathway contexts; low-resolution only",
+  "not_validated_for": [
+    "patient-level response prediction",
+    "single-cell compartment simulation",
+    "genetics-only expression-direction hypotheses",
+    "unseen pathways or unseen module definitions"
+  ]
+}

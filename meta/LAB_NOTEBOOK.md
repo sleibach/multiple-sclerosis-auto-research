@@ -1622,3 +1622,20 @@ Decision:
   Gafson et al. 2018 DMF PBMC RNA-seq is the best next validation source but
   needs author/data request; `GSE130478/GSE130491` need response-label mapping;
   `GSE85034_MTX` is a local secondary stress test only.
+
+## 2026-06-06 22:56 CEST - V25 immune-state model build
+
+- Verified OpenGWAS token; HTTP 200, token valid until 2026-06-19 12:28 UTC.
+- Inventoried model-building datasets into
+  `analysis/v25_immune_state_model/DATA_INVENTORY_V25.tsv`.
+- Wrote `MODEL_DESIGN_V25.md` and locked
+  `analysis/v25_immune_state_model/TRAIN_HELDOUT_SPLIT_V25.tsv` before
+  validation; committed the split in `0bc726e`.
+- Built bounded empirical Mixscale pathway/module model via
+  `scripts/v25_build_bounded_immune_state_model.py`.
+- Held-out validation failed to support a useful simulator: direction accuracy
+  `0.542` over `24` module predictions, MAE `0.261` log2FC, Spearman `0.377`;
+  calibration weak.
+- Wrote `MODEL_CARD_V25.md`. Verdict: no deployable in-silico immune-state
+  simulator from current data; model must abstain on KIF21B/GPR25, ZMIZ1,
+  patient response, single-cell compartments, and unseen pathways.

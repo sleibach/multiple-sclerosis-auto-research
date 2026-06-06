@@ -440,23 +440,25 @@ label.
 
 ## Highest-Value Next Actions
 
-1. Start from `DATA_SCOUT_V24.md` and
+1. Start from `MODEL_CARD_V25.md`, `MODEL_DESIGN_V25.md`,
+   `DATA_SCOUT_V24.md`, and
    `analysis/v24_data_scout/v24_candidate_inventory.tsv`.
-2. Primary APC/HLA monitoring unlock: obtain Gafson et al. 2018 DMF PBMC
+2. Do not use the V25 model for wet-lab triage; it failed held-out validation.
+3. Primary APC/HLA monitoring unlock: obtain Gafson et al. 2018 DMF PBMC
    RNA-seq processed counts plus sample-level NEDA-4 responder labels (PMID
    `30283812`, DOI `10.1212/nxi.0000000000000470`). This is the best
    identified fresh validation cohort and was not public-ready in V24.
-3. Secondary acquisition: request response-label mapping for
+4. Secondary acquisition: request response-label mapping for
    `GSE130478/GSE130491/GSE130494` so the public DMF expression/methylation data
    become analyzable.
-4. Optional computational stress test: run the unchanged V22 rule on unused
+5. Optional computational stress test: run the unchanged V22 rule on unused
    `GSE85034_MTX` only if same-study/cross-disease secondary evidence is useful.
-5. Keep chr1 (`KIF21B`/`GPR25`) in wet-lab/controlled-data handoff status; do
+6. Keep chr1 (`KIF21B`/`GPR25`) in wet-lab/controlled-data handoff status; do
    not continue it computationally unless new genotype-linked protein/CSF data
    arrives.
-6. Preserve `ZMIZ1` as the opposite-direction MS/Crohn decoupling finding and
+7. Preserve `ZMIZ1` as the opposite-direction MS/Crohn decoupling finding and
    do not use it for Crohn-to-MS transfer.
-7. Extend LDSC rg to remaining map diseases when genetics-axis synthesis is
+8. Extend LDSC rg to remaining map diseases when genetics-axis synthesis is
    needed.
 
 ## V24 Treatment-Response Data Scout
@@ -478,6 +480,30 @@ label.
   methotrexate lesional-skin arm, 13 PASI75-labeled paired baseline/week16
   subjects, 9 frozen module genes represented. This is not primary MS
   validation and must be caveated as same-study/late-tissue evidence.
+
+## V25 Immune-State Model Build
+
+- Design: `MODEL_DESIGN_V25.md`.
+- Model card: `MODEL_CARD_V25.md`.
+- Immutable split:
+  `analysis/v25_immune_state_model/TRAIN_HELDOUT_SPLIT_V25.tsv`, committed
+  before validation in commit `0bc726e`.
+- Script: `scripts/v25_build_bounded_immune_state_model.py`.
+- Architecture: bounded empirical Mixscale pathway/module mean model.
+- Held-out validation:
+  - train perturbations: `18`;
+  - held-out perturbations: `6`;
+  - held-out module predictions: `24`;
+  - direction accuracy: `0.542`;
+  - MAE: `0.261` log2FC;
+  - Pearson predicted-vs-actual: `0.531`;
+  - Spearman predicted-vs-actual: `0.377`.
+- Verdict: no reliable reusable immune-state simulator was achieved. The model
+  can only serve as a weak descriptive prior for Mixscale-like IFNB/IFNG/TNFA
+  pathway module directions and must not be used for wet-lab candidate triage.
+- Required abstentions: `KIF21B/GPR25`, `ZMIZ1`, patient-level response,
+  single-cell compartment effects, genetics-only hypotheses, and unseen
+  pathways.
 
 ## Compute / Access Notes
 

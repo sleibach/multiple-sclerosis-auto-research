@@ -230,28 +230,30 @@ V23 APC/HLA-II monitoring workup:
 Next session first action:
 
 1. Run `.venv/bin/python scripts/check_opengwas_access.py`.
-2. Read `DATA_SCOUT_V24.md`,
+2. Read `MODEL_CARD_V25.md`, `MODEL_DESIGN_V25.md`, `DATA_SCOUT_V24.md`,
    `analysis/v24_data_scout/v24_candidate_inventory.tsv`,
    `APC_HLA_MONITORING_WORKUP_V23.md`, and `LOCKED_RULE_V22.md`.
-3. Do not tune `LOCKED_RULE_V22.md`. Primary next action is human/low-barrier
+3. Do not use the V25 model for wet-lab triage; held-out validation failed to
+   support a deployable simulator. Do not tune `LOCKED_RULE_V22.md`.
+4. Primary next action is human/low-barrier
    acquisition of Gafson et al. 2018 DMF PBMC RNA-seq processed counts plus
    sample-level NEDA-4 responder labels (PMID `30283812`, DOI
    `10.1212/nxi.0000000000000470`).
-4. Secondary acquisition: request response-label mapping for
+5. Secondary acquisition: request response-label mapping for
    `GSE130478/GSE130491/GSE130494` from the GEO contact so the open DMF
    expression/methylation data become analyzable.
-5. Optional computational stress test, only if the medical team accepts the
+6. Optional computational stress test, only if the medical team accepts the
    caveat: apply the unchanged V22 rule to the unused `GSE85034_MTX` arm
    (psoriasis methotrexate, same-study context, paired baseline/week16,
    PASI75 labels).
-6. Extend LDSC rg to remaining map diseases once the best OpenGWAS IDs are
+7. Extend LDSC rg to remaining map diseases once the best OpenGWAS IDs are
    selected and verified: psoriasis, T1D, Sjogren's, celiac disease,
    autoimmune thyroid disease, and myasthenia gravis.
-7. Keep chr1 (`KIF21B`/`GPR25`) in wet-lab/controlled-data handoff status; do
+8. Keep chr1 (`KIF21B`/`GPR25`) in wet-lab/controlled-data handoff status; do
    not continue it computationally unless new genotype-linked protein/CSF data
    arrives.
-8. Preserve `ZMIZ1` as a decoupling finding; do not re-litigate unless formal
+9. Preserve `ZMIZ1` as a decoupling finding; do not re-litigate unless formal
    QTL coloc is needed for publication-grade writeup.
-9. Do not spend more time on V21 chr14 `ZFP36L1`, V21 chr2
+10. Do not spend more time on V21 chr14 `ZFP36L1`, V21 chr2
    `REL/PUS10/USP34`, `PTGER4`, chr17 `STAT3/STAT5`, generic `TYK2`, or MHC
    overlap as current leads without new fine-mapped or signal-specific data.
