@@ -1,0 +1,15 @@
+source	label	url	relevance	curl_exit	http_status_chain	content_length	content_type	location	x_deny_reason	stderr
+OneK1K	OneK1K official page	https://onek1k.org/	direct genotype-linked PBMC sc-eQTL documentation	0	HTTP/2 200	19738	text/html; charset=UTF-8
+OneK1K	OneK1K top eQTL Zenodo	https://zenodo.org/records/18870747/files/OneK1K_TensorQTL_top_eQTL_summary.zip?download=1	direct genotype-linked immune cell top eQTL summary	0	HTTP/1.1 200 OK	16950155	application/octet-stream
+OneK1K	OneK1K CD4 ET eQTL table	https://onek1k.s3.ap-southeast-2.amazonaws.com/eqtl/cd4et_eqtl_table.tsv.gz	direct genotype-linked immune cell eQTL table	0	HTTP/1.1 200 OK	1663413379	text/tab-separated-values
+DICE	DICE downloads page	https://dice-database.org/downloads	immune-cell eQTL/expression documentation	0	HTTP/1.1 200 OK	20720	text/html; charset=utf-8
+DICE	DICE mean TPM	https://dice-database.org/download/mean_tpm_merged.csv	immune-cell expression context	0	HTTP/1.1 200 OK	11007125	application/octet-stream
+DICE	DICE B naive unfiltered eQTL	https://downloads.dice-database.org/downloads/DICE_DB_1/eqtl/unfiltered/B_CELL_NAIVE.vcf.gz	immune-cell eQTL	0	HTTP/1.1 200 OK	3310357199	application/x-gzip
+DICE	DICE CD4 naive unfiltered eQTL	https://downloads.dice-database.org/downloads/DICE_DB_1/eqtl/unfiltered/CD4_NAIVE.vcf.gz	immune-cell eQTL	0	HTTP/1.1 200 OK	3374043610	application/x-gzip
+DICE	DICE CD8 naive unfiltered eQTL	https://downloads.dice-database.org/downloads/DICE_DB_1/eqtl/unfiltered/CD8_NAIVE.vcf.gz	immune-cell eQTL	0	HTTP/1.1 200 OK	3401883434	application/x-gzip
+eQTL Catalogue	eQTL Catalogue API docs	https://www.ebi.ac.uk/eqtl/api-docs/	cell-type eQTL API documentation	0	HTTP/2 200	230113	text/html
+eQTL Catalogue	eQTL Catalogue studies API	https://www.ebi.ac.uk/eqtl/api/studies?size=5	API smoke test	0	HTTP/2 405	31	application/json
+CELLxGENE	CELLxGENE Census docs	https://chanzuckerberg.github.io/cellxgene-census/python-api.html	single-cell expression API documentation	0	HTTP/2 200	31111	text/html; charset=utf-8
+BLUEPRINT	BLUEPRINT portal	https://blueprint-epigenome.eu/	immune epigenome/expression source	0	HTTP/2 404	237	text/html; charset=utf-8
+IUPHAR	GtoPdb GPR25 search	https://www.guidetopharmacology.org/services/targets?name=GPR25	GPR25 target/ligand source	0	HTTP/1.1 200 200		application/json
+GPCRdb	GPCRdb protein GPR25	https://gpcrdb.org/services/protein/gpr25_human/	GPR25 GPCR annotation	0	HTTP/1.1 200 OK	569	application/json

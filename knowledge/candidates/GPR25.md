@@ -24,6 +24,10 @@ MS-UC chr1 shared locus, but it is not intervention-grade.
 ## Limits
 
 - `KIF21B` also retains bounded eQTL-coloc support at the same locus.
+- V18 acquired public OneK1K top-eQTL, DICE significant eQTL/mean expression,
+  and eQTL Catalogue targeted chr1 data. None of these public Tier 1 eQTL
+  layers produced a target hit supporting GPR25; OneK1K/DICE/eQTL Catalogue
+  target hits favored KIF21B.
 - `GPR25` is absent from local MS CNS single-nucleus feature sets
   `GSE301908_sn_all.rds` and `GSE180759_expression_matrix.csv.gz`.
 - Direct h5ad scans across local gut, RA blood, Sjogren salivary, psoriasis

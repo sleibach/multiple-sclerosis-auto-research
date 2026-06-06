@@ -103,19 +103,42 @@ V17 checkpoint:
   - preserve the distinction between shared eQTL component and distinct eQTL
     components at chr1.
 
+V18 data-source acquisition checkpoint:
+
+- Master plan: `meta/DATA_ACQUISITION_PLAN_V18.md`.
+- Tier 2 key requests: `meta/DATA_TIER2_KEY_REQUESTS.md` (no new simple
+  key-gated sources promoted).
+- Tier 3 instructions: `meta/DATA_TIER3_DOWNLOAD_INSTRUCTIONS.md`.
+- Acquired Tier 1 data under `data/raw/v18_source_triage/`:
+  - OneK1K top eQTL Zenodo zip;
+  - DICE mean expression plus significant immune-cell eQTL VCF panel;
+  - eQTL Catalogue QTD000021 targeted chr1 extract;
+  - IUPHAR and GPCRdb GPR25 JSON.
+- Smoke-test summary:
+  - OneK1K top-eQTL summaries found `14` target hits, all `KIF21B`;
+  - DICE significant eQTL panel found `1` target hit, `KIF21B` in NK cells;
+  - DICE mean expression shows `KIF21B` high across immune subsets, `GPR25`
+    low but nonzero in selected T/NK subsets;
+  - eQTL Catalogue QTD000021 chr1 target extract returned `8,416` target rows,
+    all `KIF21B`;
+  - fast overlap check found the OneK1K/DICE top/significant KIF21B hits do
+    not exactly match the V17 shared credible-set variants; closest OneK1K hits
+    were `17,230 bp` and `21,012 bp` away;
+  - no acquired public Tier 1 source resolves GPR25 at protein/CITE-seq level.
+
 Next session first action:
 
 1. Run `.venv/bin/python scripts/check_opengwas_access.py`.
-2. Resolve the chr1 causal-gene ambiguity experimentally/computationally:
-   `GPR25` versus `KIF21B` is now the priority, not GPR25 alone.
-3. Prioritize `KIF21B` mechanism/druggability workup alongside any GPR25
-   protein-level follow-up, because current scRNA atlases support KIF21B
-   expression more strongly than GPR25.
+2. Read `meta/DATA_ACQUISITION_PLAN_V18.md` and
+   `analysis/v18_source_triage/target_gene_eqtl_hits.tsv`.
+3. Do not treat OneK1K/DICE top-hit KIF21B evidence as causal resolution. If
+   continuing computationally, verify QTD000021/eQTL Catalogue metadata and run
+   formal dense variant intersection/coloc with the V17 shared credible set.
 4. Do not repeat generic GEO searches for `GPR25`/`KIF21B` MS CITE-seq without
    a new source; V17 found zero obvious public hits. Instead, look for
    controlled-access, consortium, CSF immune-cell, or unpublished protein/CITE
    datasets where `GPR25` surface protein is measurable.
-5. If a suitable dataset is found, test genotype-linked or disease-linked
+5. If a suitable dataset is found or manually added, test genotype-linked or disease-linked
    expression of `GPR25` and `KIF21B` in T-cell/B-cell subsets; otherwise move
    to the existing wet-lab design in
    `GPR25_KIF21B_EXPERIMENTAL_DESIGN_V17.md` for genotype-linked expression and

@@ -61,6 +61,13 @@ Methodology backbone:
   - `CONVERGENCE_CHECK_V17_01.md`
   - `GPR25_KIF21B_EXPERIMENTAL_DESIGN_V17.md`
   - `analysis/v17_gpr25_mechanism/`
+- V18 data-source acquisition:
+  - `meta/DATA_ACQUISITION_PLAN_V18.md`
+  - `meta/DATA_TIER2_KEY_REQUESTS.md`
+  - `meta/DATA_TIER3_DOWNLOAD_INSTRUCTIONS.md`
+  - `CONVERGENCE_CHECK_V18_01.md`
+  - `analysis/v18_source_triage/`
+  - `data/raw/v18_source_triage/`
 
 ## Current Matrix State
 
@@ -337,23 +344,24 @@ label.
 
 ## Highest-Value Next Actions
 
-1. Resolve the chr1 MS-UC causal-gene ambiguity: `GPR25` versus `KIF21B`.
-   Current evidence supports both as shared disease/eQTL components, while
-   single-cell expression support favors KIF21B and druggability/ligand biology
-   favors GPR25.
-2. Do not repeat generic GEO searches for public MS `GPR25`/`KIF21B` CITE-seq
-   datasets; V17 found zero obvious hits. Look instead for controlled-access,
-   consortium, CSF immune-cell, or protein-level datasets where GPR25 surface
-   protein can be measured.
-3. If no suitable dataset is accessible, formalize the decisive wet-lab test:
-   genotype-linked GPR25/KIF21B expression in immune/CSF subsets plus
-   CXCL17-directed migration/RhoA/integrin readouts. Draft exists at
-   `GPR25_KIF21B_EXPERIMENTAL_DESIGN_V17.md`.
-4. Preserve `ZMIZ1` as the opposite-direction MS/Crohn decoupling finding and
+1. Start from `meta/DATA_ACQUISITION_PLAN_V18.md`. V18 acquired public OneK1K
+   top-eQTL, DICE significant eQTL/mean expression, eQTL Catalogue targeted
+   chr1 extract, IUPHAR, and GPCRdb files under `data/raw/v18_source_triage/`.
+2. Use `scripts/v18_smoke_test_acquired_sources.py` and
+   `analysis/v18_source_triage/target_gene_eqtl_hits.tsv` to compare acquired
+   OneK1K/DICE/eQTL Catalogue KIF21B variant IDs against the V17 MS-UC shared
+   credible set.
+3. Human-controlled next actions: prioritize MS PBMC/CSF genotype plus
+   scRNA/CITE-seq cohorts, then dbGaP DICE `phs001703.v3.p1`, then OneK1K
+   individual-level/raw data if needed. See
+   `meta/DATA_TIER3_DOWNLOAD_INSTRUCTIONS.md`.
+4. Do not spend effort on GPR25 agonist chemistry before protein/genotype-linked
+   immune-cell evidence distinguishes GPR25 from KIF21B.
+5. Preserve `ZMIZ1` as the opposite-direction MS/Crohn decoupling finding and
    do not use it for Crohn-to-MS transfer.
-5. Keep `PTGER4` closed as not-a-clean-transfer-target unless signal-specific
+6. Keep `PTGER4` closed as not-a-clean-transfer-target unless signal-specific
    cell-type QTL data appears.
-6. Run real LDSC genetic correlation for MS vs UC/Crohn with MHC-excluded
+7. Run real LDSC genetic correlation for MS vs UC/Crohn with MHC-excluded
    sensitivity and sample-overlap/intercept reporting when needed for
    genetics-axis synthesis.
 

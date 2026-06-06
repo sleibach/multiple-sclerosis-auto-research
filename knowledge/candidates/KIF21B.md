@@ -27,6 +27,16 @@ shared locus. It prevents an exclusive `GPR25` causal-gene claim.
 - Cell-type breakdown found KIF21B detection in psoriasis helper T cells
   `10.17%`, psoriasis Tregs `8.79%`, psoriasis cytotoxic T cells `7.38%`, IBD
   T cells `4.09%`, and Sjogren effector CD8 T cells `3.55%`.
+- V18 acquired-source triage:
+  - OneK1K public top-eQTL summaries produced `14` target hits, all `KIF21B`;
+  - DICE public significant eQTLs produced `1` target hit, `KIF21B` in NK
+    cells;
+  - eQTL Catalogue QTD000021 targeted chr1 extract produced `8,416` target
+    rows, all `KIF21B`;
+  - DICE mean expression showed KIF21B high across immune subsets.
+- Fast overlap check found no exact match between the OneK1K/DICE
+  top/significant KIF21B hits and the V17 shared MS-UC credible-set variants;
+  the closest OneK1K hits were `17,230 bp` and `21,012 bp` away.
 
 ## Limits
 
@@ -39,6 +49,10 @@ shared locus. It prevents an exclusive `GPR25` causal-gene claim.
 - Literature search confirms KIF21B is prior art as an MS and IBD
   susceptibility locus; any V17/V18 contribution would be causal-gene
   resolution and cell-state mechanism, not locus novelty.
+- Public top/significant QTL summaries are not sufficient for exclusive
+  causal-gene assignment; controlled full-summary or individual-level data is
+  still needed.
+- The V18 public KIF21B hits are context-strengthening, not causal resolution.
 
 ## Next Required Test
 

@@ -1,0 +1,61 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0* Host www.ebi.ac.uk:443 was resolved.
+* IPv6: 64:ff9b::c13e:c150
+* IPv4: 193.62.193.80
+*   Trying [64:ff9b::c13e:c150]:443...
+* Connected to www.ebi.ac.uk (64:ff9b::c13e:c150) port 443
+* ALPN: curl offers h2,http/1.1
+* (304) (OUT), TLS handshake, Client hello (1):
+} [318 bytes data]
+*  CAfile: /etc/ssl/cert.pem
+*  CApath: none
+* (304) (IN), TLS handshake, Server hello (2):
+{ [88 bytes data]
+* (304) (OUT), TLS handshake, Client hello (1):
+} [351 bytes data]
+* (304) (IN), TLS handshake, Server hello (2):
+{ [155 bytes data]
+* (304) (IN), TLS handshake, Unknown (8):
+{ [15 bytes data]
+* (304) (IN), TLS handshake, Certificate (11):
+{ [5254 bytes data]
+* (304) (IN), TLS handshake, CERT verify (15):
+{ [264 bytes data]
+* (304) (IN), TLS handshake, Finished (20):
+{ [36 bytes data]
+* (304) (OUT), TLS handshake, Finished (20):
+} [36 bytes data]
+* SSL connection using TLSv1.3 / AEAD-AES128-GCM-SHA256 / [blank] / UNDEF
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: C=GB; ST=Cambridgeshire; O=EMBL-European Bioinformatics Institute; CN=ebi.ac.uk
+*  start date: Oct  8 00:00:00 2025 GMT
+*  expire date: Oct  8 23:59:59 2026 GMT
+*  subjectAltName: host "www.ebi.ac.uk" matched cert's "www.ebi.ac.uk"
+*  issuer: C=GB; O=Sectigo Limited; CN=Sectigo Public Server Authentication CA OV R36
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://www.ebi.ac.uk/eqtl/api/studies?size=5
+* [HTTP/2] [1] [:method: GET]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: www.ebi.ac.uk]
+* [HTTP/2] [1] [:path: /eqtl/api/studies?size=5]
+* [HTTP/2] [1] [user-agent: curl/8.7.1]
+* [HTTP/2] [1] [accept: */*]
+> GET /eqtl/api/studies?size=5 HTTP/2
+> Host: www.ebi.ac.uk
+> User-Agent: curl/8.7.1
+> Accept: */*
+>
+* Request completely sent off
+< HTTP/2 500
+< server: uvicorn
+< content-type: text/plain; charset=utf-8
+< strict-transport-security: max-age=0
+< date: Sat, 06 Jun 2026 07:50:55 GMT
+< content-length: 21
+<
+{ [21 bytes data]
+100    21  100    21    0     0     77      0 --:--:-- --:--:-- --:--:--    78
+* Connection #0 to host www.ebi.ac.uk left intact

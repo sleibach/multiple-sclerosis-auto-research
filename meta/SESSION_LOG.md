@@ -300,3 +300,15 @@ Next session first action:
 - GPR25 verdict: alive Tier 1 genetics-to-lymphocyte-trafficking lead, not intervention-grade; the chr1 locus requires protein-level or genotype-linked immune/CSF data to resolve `GPR25` versus `KIF21B`.
 - Stop reason: completed V17 bounded deliverable and resume-state update; no long-running analysis processes remain.
 - Next action: use `GPR25_KIF21B_EXPERIMENTAL_DESIGN_V17.md` as the default handoff unless controlled-access protein/CITE-seq data is found; test genotype-linked GPR25/KIF21B expression and CXCL17 migration/RhoA/integrin function before any intervention-grade claim.
+
+## RUN SUMMARY - 2026-06-06 08:08 UTC
+
+- Active runtime: approximately 35 minutes; total elapsed approximately 35 minutes; no usage-limit waiting time observed.
+- Session start UTC: 2026-06-06 07:33 UTC (estimated from first V18 command and file timestamps).
+- Session end UTC: 2026-06-06 08:08 UTC.
+- Frontier advanced: V18 triaged acquisition sources, acquired and checksummed 19 Tier 1 files (~497 MB raw, gitignored), wrote Tier 2/Tier 3 acquisition instructions, updated manifest/resume state, and found public OneK1K/DICE/eQTL Catalogue data favors KIF21B context but does not resolve GPR25-versus-KIF21B causality.
+- Sources triaged per tier: Tier 1 acquired/self-queryable `5` source families (OneK1K, DICE, eQTL Catalogue/FTP-tabix, IUPHAR, GPCRdb); Tier 1 service/resource-blocked or not acquired `5` source classes (eQTL Catalogue REST HTTP 500, full QTD000021, OneK1K GEO raw tar, DICE unfiltered VCFs, CELLxGENE/HCA expression-only); Tier 2 `0` new key-gated sources; Tier 3 `4` controlled/manual source classes.
+- Tier 1 acquired vs blocked: acquired OneK1K top eQTL, DICE mean expression plus significant eQTL panel, eQTL Catalogue QTD000021 chr1 targeted extract, IUPHAR GPR25 JSON, GPCRdb GPR25 JSON; no proxy `x-deny-reason` observed; eQTL Catalogue REST returned HTTP 500 from `www.ebi.ac.uk`.
+- Top human next-actions: prioritize MS PBMC/CSF genotype plus scRNA/CITE-seq controlled cohorts; then DICE controlled dbGaP `phs001703.v3.p1`; then OneK1K individual-level/raw data if needed; no host allowlisting is currently required.
+- Stop reason: completed V18 acquisition-plan deliverable and resume-state update; no long-running processes remain.
+- Next action: verify QTD000021/eQTL Catalogue metadata and run dense variant intersection/colocalization only if metadata is trustworthy; otherwise move to the Tier 3 controlled/protein-data path for genotype-linked GPR25/KIF21B expression.

@@ -36,8 +36,8 @@ Candidate files are lifetime histories, not per-wave reports.
 
 | Candidate file | Display name | Current status | V4 tier | Reason |
 |---|---|---:|---:|---|
-| `GPR25.md` | GPR25 | alive | Tier 1 | MS-UC chr1 shared locus; protective higher expression; CXCL17-GPR25 trafficking mechanism; not intervention-grade because `KIF21B` competes and local MS CNS atlases lack GPR25 |
-| `KIF21B.md` | KIF21B | alive | Tier 1 | competing causal-gene candidate at the same MS-UC chr1 locus; bounded eQTL-coloc and stronger atlas expression support, but poor direct druggability |
+| `GPR25.md` | GPR25 | alive | Tier 1 | MS-UC chr1 shared locus; protective higher expression; CXCL17-GPR25 trafficking mechanism; V18 public OneK1K/DICE/eQTL Catalogue acquisition did not produce a GPR25 target hit |
+| `KIF21B.md` | KIF21B | alive | Tier 1 | competing causal-gene candidate at the same MS-UC chr1 locus; V18 public OneK1K/DICE/eQTL Catalogue acquisition produced KIF21B target hits and stronger expression support, but poor direct druggability |
 | `ZMIZ1.md` | ZMIZ1 | alive finding | Tier 1 | MS-Crohn chr10 opposite-direction eQTL decoupling; transfer-validity finding, not intervention lead |
 | `PTGER4.md` | PTGER4 | demoted | Tier 0 | chr5 signal is mixed shared/distinct with conflicting direction; not a clean MS-UC transfer target |
 

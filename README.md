@@ -86,6 +86,7 @@ of `meta/SESSION_LOG.md`.
 | V15 | Causal-gene and effect-direction workup for the SuSiE-surviving loci. | chr1 MS-UC points to concordant `GPR25` blood eQTL risk direction but weak cell-state/druggability support; chr10 MS-Crohn points to `ZMIZ1` with opposite disease-effect signs and no transfer-ready intervention claim; chr5/PTGER4 is mixed shared/distinct signal; chr17/STAT3-STAT5 is downgraded. See `GENETICS_LOCI_WORKUP_V15.md` and `GENETICS_AXIS_V15_NEXT_TIER_SUSIE_ADDENDUM.md`. |
 | V16 | eQTL-grounded allele-direction workup of live loci. | `GPR25` direction corrected to protective higher expression; `ZMIZ1` confirmed as opposite-direction MS/Crohn decoupling locus; `PTGER4` confirmed signal-conflicted. See `GENETICS_EQTL_WORKUP_V16.md`. |
 | V17 | GPR25 mechanism workup and lead consolidation. | `GPR25` survives as a Tier 1 genetics-to-lymphocyte-trafficking lead, not an intervention-grade finding. Full eQTLGen candidate extraction and bounded eQTL-coloc keep `GPR25` alive but reopen `KIF21B` as a competing causal gene; local MS CNS atlases do not support a lesion-cell GPR25 mechanism, and h5ad scans make KIF21B a stronger expression-supported competitor but weak direct target. See `GENETICS_GPR25_WORKUP_V17.md`, `KIF21B_SCOUT_V17.md`, `SOURCES_V17.md`, and `GPR25_KIF21B_EXPERIMENTAL_DESIGN_V17.md`. |
+| V18 | Data-source acquisition and access triage. | Acquired public OneK1K top eQTL, DICE significant eQTL/mean expression, eQTL Catalogue targeted chr1 extract, IUPHAR, and GPCRdb sources. Public genotype-linked immune eQTL sources favor `KIF21B` context (`14` OneK1K target hits and `1` DICE NK hit, all KIF21B) but do not resolve GPR25 protein/genotype causality. See `meta/DATA_ACQUISITION_PLAN_V18.md`. |
 
 `FINDING.md` documents the (since-demoted) `ACSL1` target hypothesis from an
 earlier phase and is retained for the historical trace.
@@ -126,6 +127,11 @@ V17 reproducibility entry points:
   `analysis/v17_gpr25_mechanism/`.
 - `scripts/v17_summarize_gpr25_checkpoint.py` prints the key V17 numeric
   checkpoint values from saved TSV outputs.
+
+V18 reproducibility entry point:
+
+- `scripts/v18_smoke_test_acquired_sources.py` regenerates target-gene smoke
+  summaries from acquired OneK1K and DICE files.
 
 LDSC reference panel:
 
