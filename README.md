@@ -272,6 +272,24 @@ V26 deep-structure entry points:
   `mif_cd74_receptor_state` across four modalities. Zero invariants passed the
   stricter V26 invariant gate.
 
+V27 coupled-axis rule entry points:
+
+- `COUPLED_AXIS_V27.md` freezes the coupled APC-axis candidate feature
+  definitions before response comparison and records the scalar-vs-coupled
+  result.
+- `scripts/v27_coupled_axis_comparison.py` rebuilds the V27 comparison under
+  `analysis/v27_coupled_axis/`.
+- `VALIDATION_READINESS_V27.md` documents the future fresh-cohort validation
+  procedure and input format.
+- `scripts/v27_apply_locked_rules.py` mechanically scores a future paired
+  module-delta cohort with the immutable V22 scalar and secondary V27 coupled
+  exploratory scores.
+- Verdict: no `LOCKED_RULE_V27.md` was created. In the bounded DMF/tofacitinib
+  domain, the V22 scalar remained better (AUC `0.811`, Hedges g `1.191`) than
+  the best coupled feature, `coupling_coordination` (AUC `0.733`, Hedges g
+  `0.777`), and the max-candidate permutation p for coupled advantage was
+  `0.913`.
+
 ## Honest Scope
 
 This is a reproducible computational prioritization, not a validated mechanism,

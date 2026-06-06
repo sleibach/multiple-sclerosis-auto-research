@@ -1,6 +1,6 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-06-07 01:23 CEST
+Last updated: 2026-06-07 01:35 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
@@ -257,16 +257,51 @@ V26 deep-structure checkpoint:
   - ZMIZ1 remains a locked opposite-direction decoupling;
   - PTGER4 remains closed.
 
+V27 coupled-axis rule checkpoint:
+
+- Reports:
+  - `COUPLED_AXIS_V27.md`.
+  - `VALIDATION_READINESS_V27.md`.
+  - `V27_QUEUE.md`.
+- Reproducible scripts:
+  - `scripts/v27_coupled_axis_comparison.py`.
+  - `scripts/v27_apply_locked_rules.py`.
+- Output directory: `analysis/v27_coupled_axis/`.
+- No fresh Gafson/NEDA cohort was found on disk or read during rule work.
+- V27 used `delta_RECEPTOR` (`CD74`, `CD44`, `CXCR4`) as the only available
+  MIF/CD74 receptor-state proxy in V22/V23 paired-score tables.
+- Frozen coupled candidates tested:
+  - `coupled_projection`;
+  - `coupled_v22_augmented`;
+  - `coupling_coordination`.
+- Bounded domain result:
+  - V22 scalar AUC `0.811111`, Hedges g `1.190835`;
+  - best coupled feature `coupling_coordination` AUC `0.733333`, Hedges g
+    `0.776968`;
+  - coupled-minus-scalar AUC delta `-0.077778`;
+  - max-candidate label-permutation p for coupled advantage `0.912817`.
+- All-primary-plus-exact result:
+  - V22 scalar AUC `0.655702`;
+  - best coupled feature `coupling_coordination` AUC `0.638158`;
+  - max-candidate label-permutation p for coupled advantage `0.856829`.
+- Verdict:
+  - no `LOCKED_RULE_V27.md` was written;
+  - V26 coupling remains mechanistic context;
+  - the immutable V22 scalar remains the primary frozen rule for future
+    validation.
+
 Next session first action:
 
 1. Run `.venv/bin/python scripts/check_opengwas_access.py`.
-2. Read `DEEP_STRUCTURE_V26.md`, `V26_QUEUE.md`, `MODEL_CARD_V25.md`,
-   `DATA_SCOUT_V24.md`, `analysis/v24_data_scout/v24_candidate_inventory.tsv`,
+2. Read `COUPLED_AXIS_V27.md`, `VALIDATION_READINESS_V27.md`,
+   `DEEP_STRUCTURE_V26.md`, `MODEL_CARD_V25.md`, `DATA_SCOUT_V24.md`,
+   `analysis/v24_data_scout/v24_candidate_inventory.tsv`,
    `APC_HLA_MONITORING_WORKUP_V23.md`, and `LOCKED_RULE_V22.md`.
 3. Do not use the V25 model for wet-lab triage; held-out validation failed to
    support a deployable simulator. Do not tune `LOCKED_RULE_V22.md`. Treat V26
    as structural support for coupled APC/HLA-II/MIF-CD74 monitoring only, not a
-   validated clinical rule or target.
+   validated clinical rule or target. V27 showed the coupled representation did
+   not outperform the V22 scalar, so do not use a V27 successor rule.
 4. Primary next action is human/low-barrier
    acquisition of Gafson et al. 2018 DMF PBMC RNA-seq processed counts plus
    sample-level NEDA-4 responder labels (PMID `30283812`, DOI

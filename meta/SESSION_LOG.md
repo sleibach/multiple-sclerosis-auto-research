@@ -462,3 +462,17 @@ Next session first action:
 - Single best structurally-grounded hypothesis: a coordinated APC remodeling architecture should be measured as a coupled early on-treatment axis, and falsified by testing whether the coupled score outperforms single modules in a fresh paired cohort and in APC/T/B perturbation data.
 - Stop reason: completed all four bounded V26 workstreams and synthesis; no long-running analysis processes remain.
 - Next action: acquire/request Gafson et al. 2018 DMF PBMC RNA-seq counts plus NEDA-4 labels or another fresh paired treatment-response cohort, then test whether the coupled APC remodeling axis improves over the immutable V22 scalar without tuning on validation data.
+
+## RUN SUMMARY - 2026-06-06 23:35 UTC
+
+- Active runtime: approximately 12 minutes; total elapsed approximately 12 minutes; no usage-limit waiting time observed.
+- Session start UTC: 2026-06-06 23:23 UTC.
+- Session end UTC: 2026-06-06 23:35 UTC.
+- Frontier advanced: V27 froze coupled APC-axis candidate features before comparison, ran fixed-feature scalar-vs-coupled evaluation with bootstrap and 5,000-permutation max-candidate null, wrote `COUPLED_AXIS_V27.md`, `VALIDATION_READINESS_V27.md`, `V27_QUEUE.md`, and future scoring harness scripts.
+- Phases completed: Phase 1 coupled representation completed; Phase 2 scalar-vs-coupled comparison completed; Phase 3 successor-lock decision completed with no lock; Phase 4 validation harness completed; Phase 5 mechanistic interpretation completed.
+- Scalar-vs-coupled verdict: no coupled feature improved over the immutable V22 scalar. In the bounded domain, V22 scalar AUC `0.811111`, Hedges g `1.190835`; best coupled feature `coupling_coordination` AUC `0.733333`, Hedges g `0.776968`; coupled-minus-scalar AUC delta `-0.077778`; max-candidate permutation p `0.912817`.
+- Held-out/null evidence: fixed zero-parameter features were evaluated on already-held V22/V23 cohorts only; label-permutation null with `5,000` permutations showed no coupled advantage. No fresh Gafson/NEDA cohort was present or read.
+- Successor locked: no; `LOCKED_RULE_V27.md` was intentionally not created.
+- Validation-harness readiness: `scripts/v27_apply_locked_rules.py` and `VALIDATION_READINESS_V27.md` are ready for future paired module-delta cohorts; primary validation remains `LOCKED_RULE_V22.md`.
+- Stop reason: completed all V27 phases and documented a negative successor-rule result; no long-running analysis processes remain.
+- Next action: acquire/request Gafson et al. 2018 DMF PBMC RNA-seq counts plus NEDA-4 labels, prepare the paired module-delta TSV, and run the frozen V22 scoring harness mechanically without tuning.
