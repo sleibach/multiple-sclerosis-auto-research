@@ -11,13 +11,15 @@ All analysis uses public human-tissue data only and random seed `20260526`
 
 ## Current Status
 
-The current phase is **V17**. The V4 directory structure remains canonical, and
+The current phase is **V18**. The V4 directory structure remains canonical, and
 V11 introduced the resume backbone for short-session continuity.
 
 - Start here: `meta/CURRENT_STATUS.md` — the live mission state, active leads,
   and next actions.
-- Current active genetics focus: chr1 MS-UC causal-gene resolution after V17
-  showed `GPR25` and `KIF21B` both retain bounded eQTL-coloc support.
+- Current active genetics/data focus: chr1 MS-UC causal-gene resolution after
+  V18 acquisition triage. `GPR25` remains the stronger druggable/protective
+  expression lead, but `KIF21B` is the stronger public immune-eQTL and
+  cell-expression-supported competitor.
 - Confirmed first-pass high-H4 regions from V13/V14 include MS-UC chr1,
   MS-UC chr5/PTGER4, MS-Crohn chr10, and MS-Crohn chr17/STAT3-STAT5. The
   chr1 and chr10 loci passed bounded SuSiE-coloc follow-up. V15 mapped the
@@ -32,7 +34,11 @@ V11 introduced the resume backbone for short-session continuity.
   `PTGER4` remains signal-conflicted. V17 streamed the full eQTLGen file for
   chr1 candidate genes and found `GPR25` strongest in the disease-shared block,
   but bounded disease-vs-eQTL SuSiE-coloc also supports `KIF21B`; local MS CNS
-  atlases did not contain measurable `GPR25`.
+  atlases did not contain measurable `GPR25`. V18 acquired and smoke-tested
+  public OneK1K top eQTLs, DICE significant eQTL/mean expression, a targeted
+  eQTL Catalogue chr1 extract, IUPHAR, and GPCRdb. These public genotype-linked
+  immune sources favor `KIF21B` context but still do not resolve `GPR25`
+  protein/genotype causality or the controlled MS PBMC/CSF immune-data gap.
 - `ACSL1`, `NAMPT`, and several early target candidates were demoted or parked
   under the V4/V5 prior-art and tiering framework. Current value has shifted to
   axis-disagreement mining and genetics-grounded transfer-validity analysis.
@@ -56,6 +62,11 @@ Every session must end by appending a `RUN SUMMARY` block to
 The block must include active runtime, UTC start/end timestamps, frontier
 advanced, stop reason, and next action. This rule is also recorded at the top
 of `meta/SESSION_LOG.md`.
+
+Every session must also update `README.md` before ending so the repository
+entry point stays synchronized with the current project phase, frontier, and
+standing rules. If no README content change is needed, the session must state
+that explicitly in `meta/SESSION_LOG.md`.
 
 ## Repository Layout
 

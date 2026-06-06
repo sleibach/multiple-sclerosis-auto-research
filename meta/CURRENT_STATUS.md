@@ -1,12 +1,23 @@
 # Current Status
 
-Last updated: 2026-06-06 02:51 CEST
+Last updated: 2026-06-06 10:37 CEST
 
 ## Mission State
 
 V12 completed the supported-cell axis-disagreement matrix that V11 made
-resumable. V13-V15 are robustifying the genetics axis using the working
-OpenGWAS token from `.env`.
+resumable. V13-V17 robustified the genetics axis from OpenGWAS coloc through
+allele-aligned eQTL and mechanism workup. V18 completed data-source acquisition
+triage for the unresolved chr1 MS-UC `GPR25`-versus-`KIF21B` causal-gene
+ambiguity.
+
+Current frontier:
+
+- `GPR25` remains the stronger druggable/protective-expression lead.
+- `KIF21B` remains the stronger public immune-eQTL and expression-supported
+  competitor.
+- Public Tier 1 sources acquired in V18 do not resolve genotype-linked GPR25
+  protein/CSF causality; controlled or richer immune-genotype data remain the
+  decisive next layer.
 
 Standing reporting rule:
 
@@ -14,6 +25,9 @@ Standing reporting rule:
   `meta/SESSION_LOG.md` and echoing the same block in the final chat message.
 - The block must include active runtime, UTC start/end timestamps, frontier
   advanced, stop reason, and next action.
+- Every session must update `README.md` before ending so it remains
+  synchronized with the current project status. If no README content change is
+  needed, say so explicitly in `meta/SESSION_LOG.md`.
 
 Methodology backbone:
 

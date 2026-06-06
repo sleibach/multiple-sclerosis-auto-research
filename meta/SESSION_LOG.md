@@ -9,6 +9,11 @@ the same block in the final chat message. This applies to all sessions,
 including checkpoints, failed runs, provisioning-only sessions, and sessions
 that stop because of environmental limits.
 
+Before ending every session, update `README.md` so the repository entry point
+reflects the current project phase, active frontier, and standing rules. If the
+README is already current and no content edit is needed, state that explicitly
+in the `RUN SUMMARY`.
+
 Required fields:
 
 - Active runtime: wall-clock time actually spent working this session,
@@ -22,6 +27,35 @@ Required fields:
 - Stop reason: `completed`, `environmental termination`, `blocker`, or
   `external`.
 - Next action: the first thing the next session should do.
+
+## 2026-06-06 10:38 CEST - README Rule Sync Session
+
+Objective:
+
+- Add the standing rule that `README.md` must be updated after every run.
+- Bring `README.md` into sync with the current V18 project status.
+
+Completed:
+
+- Updated `README.md` Current Status from V17 to V18.
+- Added V18 acquisition-triage status for the unresolved chr1 MS-UC
+  `GPR25`-versus-`KIF21B` ambiguity.
+- Added the standing README-update rule to `README.md`,
+  `meta/CURRENT_STATUS.md`, and this session-log header.
+
+RUN SUMMARY:
+
+- Active runtime: approximately 1 minute active; total elapsed approximately
+  1 minute. Runtime is an estimate because this was a short documentation
+  synchronization run.
+- Session start UTC: 2026-06-06 08:37:53 UTC.
+- Session end UTC: 2026-06-06 08:38:47 UTC.
+- Frontier advanced: standing README-update rule recorded and README
+  synchronized to V18 current project status.
+- Stop reason: completed.
+- Next action: resume V18/V19 data-axis work by following
+  `meta/NEXT_ACTIONS.md`, with README synchronization required before the next
+  session ends.
 
 ## 2026-06-04 00:22 CEST - V11 Session 1
 
