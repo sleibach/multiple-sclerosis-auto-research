@@ -370,3 +370,12 @@ Next session first action:
 - Ranked slate summary: `5` promising follow-ups, `2` hard-target real-biology findings, and `6` negative/not-now entries; top lead is dynamic APC/HLA-II treatment-response monitoring, with chr14 `ZFP36L1` and chr2 `REL/PUS10/USP34` as next genetics-region follow-ups.
 - Stop reason: completed bounded V20 slate deliverable; broad live subagent execution was environmentally blocked by agent thread limit, and new locus-level coloc was intentionally deferred to the next queued action so the slate remains resumable.
 - Next action: run bounded SuSiE-coloc for MS-Crohn chr14 `14:68710199-69753364` and MS-UC chr2 `2:60689469-61742410`; if either survives, run allele-aligned immune-QTL colocalization plus first-principles direction-matched druggability.
+
+## RUN SUMMARY - 2026-06-06 11:15 UTC
+
+- Active runtime: approximately 2 minutes; total elapsed approximately 2 minutes; no usage-limit waiting time observed.
+- Session start UTC: 2026-06-06 11:14 UTC.
+- Session end UTC: 2026-06-06 11:15 UTC.
+- Frontier advanced: LDSC reference-panel provisioning state verified on disk; `meta/LDSC_PANEL_STATUS.md` written, README updated, and knowledge index rebuilt.
+- Stop reason: completed.
+- Next action: LDSC genetic-correlation analyses may proceed from a provisioning standpoint; next research action remains bounded SuSiE-coloc for MS-Crohn chr14 `14:68710199-69753364` and MS-UC chr2 `2:60689469-61742410`.

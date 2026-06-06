@@ -183,6 +183,9 @@ LDSC reference panel:
   lines including header.
 - Reference-panel smoke test passed with `munge_sumstats.py` and `ldsc.py --h2`;
   details are in `meta/PROVISIONING_REPORT.md`.
+- Provisioning-only verification on 2026-06-06 confirmed the archive and
+  `w_hm3.snplist` checksums match and a parse smoke test passes; see
+  `meta/LDSC_PANEL_STATUS.md`.
 
 ## Honest Scope
 
