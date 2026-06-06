@@ -403,3 +403,16 @@ Next session first action:
 - Stratifier vs monitor characterization: V22 supports only an early on-treatment monitoring interpretation; it does not validate a baseline patient-selection stratifier or a clinical decision threshold.
 - Stop reason: completed the bounded V22 validation package; no long-running analysis processes remain.
 - Next action: do not tune `LOCKED_RULE_V22.md`; acquire or identify a larger paired MS DMT response cohort (`n >= 30`) or recompute exact frozen modules in `GSE253006_TOF` at compartment-resolved level before considering any successor locked rule.
+
+## RUN SUMMARY - 2026-06-06 12:32 UTC
+
+- Active runtime: approximately 24 minutes; total elapsed approximately 24 minutes; no usage-limit waiting time observed.
+- Session start UTC: approximately 2026-06-06 12:08 UTC.
+- Session end UTC: 2026-06-06 12:32 UTC.
+- Frontier advanced: V23 completed the self-driving workup of the APC/HLA-II monitoring lead: pooled V22 cohorts, characterized mechanism specificity, resolved the UC tofacitinib exact-module caveat from raw 10x data, regenerated exact marker-compartment scoring, wrote `APC_HLA_MONITORING_WORKUP_V23.md`, updated README/resume state, and rebuilt the knowledge index.
+- Sequence of actions executed: Action 1 pooled small cohorts; Action 2 characterized drug-mechanism specificity; Action 3 recomputed exact frozen modules in `GSE253006_TOF`; Action 4 ran exact marker-derived compartment rescoring; Action 5 sharpened monitoring-only clinical utility; Action 6 decided not to lock a V23 successor rule without fresh held-out data.
+- Pooled result: unbounded primary locked pooled AUC `0.547` (CI `0.337-0.743`), Hedges g `0.180`; primary plus exact UC AUC `0.656` (CI `0.489-0.808`), Hedges g `0.611`; bounded DMF plus exact tofacitinib AUC `0.811` (CI `0.567-1.000`), Hedges g `1.191`.
+- Mechanism-bounding verdict: bounded immune-remodeling/JAK-STAT monitoring domain is plausible and stronger than the unbounded rule; fingolimod/S1P and psoriasis lesional adalimumab contexts fail or weaken the broad claim.
+- Tofacitinib resolution: exact frozen all-cell `GSE253006_TOF` rescoring passes with AUC `0.95`, CI `0.70-1.00`, Hedges g `1.811`; exact marker-derived compartments show strongest specific signal in `t_cell_like` and `b_plasma_like`, with myeloid/APC-like positive but weaker.
+- Stop reason: all V23 Actions 1-5 completed and Action 6 completed as "no successor lock without fresh held-out data"; no long-running analysis processes remain.
+- Next action: acquire a larger paired MS DMT response cohort (`n >= 30`) in an immune-remodeling/JAK-STAT-like therapy context, then lock a bounded successor rule before testing it.

@@ -27,7 +27,14 @@ V11 introduced the resume backbone for short-session continuity.
   exploratory because the module was a precomputed approximation rather than
   the exact frozen V22 gene set. V22 does not reach breakthrough and does not
   meet the kill threshold; the rule remains a provisional early-treatment
-  monitoring lead, not a validated clinical stratifier.
+  monitoring lead, not a validated clinical stratifier. V23 then pooled the
+  small cohorts and resolved the UC tofacitinib caveat by exact raw-10x
+  rescoring: exact `GSE253006_TOF` passes (AUC `0.95`, Hedges g `1.81`) and
+  the bounded DMF-plus-exact-tofacitinib set reaches pooled AUC `0.811`
+  (`0.567-1.000`). The unbounded primary rule remains weak (AUC `0.547`).
+  Current interpretation: bounded early-monitoring hypothesis for
+  immune-remodeling/JAK-STAT contexts, not a universal cross-therapy rule and
+  not yet clinically validated.
 - Current genetics/data focus: the chr1 MS-UC causal-gene question is
   computationally resolved for now and handed forward as real shared genetics,
   not an intervention-grade target. V20 widened back out to a ranked

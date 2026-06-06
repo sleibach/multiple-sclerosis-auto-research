@@ -1595,3 +1595,13 @@ Decision:
 - PTGER4 is not robust or intervention-grade because the MS-UC regional H4 is
   prior-sensitive and EP4 agonist/antagonist direction remains unresolved.
 - No matrix grade upgraded.
+
+## 2026-06-06 14:33 CEST - V23 APC/HLA-II monitoring self-driving workup
+
+- Read V22 locked-rule state and initialized `V23_ACTION_QUEUE.md`.
+- Action 1 completed: pooled V22 primary locked cohorts. Unbounded primary pooled AUC `0.547` with CI `0.337-0.743`; immediate next action selected automatically because bounded mechanism specificity remained plausible.
+- Action 2 completed: mechanism-specificity analysis. DMF and exact UC tofacitinib immune-remodeling/JAK-STAT contexts pass; fingolimod/S1P and psoriasis lesional adalimumab fail.
+- Action 3 completed: exact raw-10x GSE253006 rescoring. Exact frozen V22 all-cell result passes with AUC `0.95`, CI `0.70-1.00`, Hedges g `1.811`; module-approximation caveat resolved, compartment caveat remained.
+- Action 4 completed: exact marker-derived compartment rescoring. Strongest specific signals are T-cell-like and B/plasma-like compartments; myeloid/APC-like is positive but weaker. Interpretation shifts from APC-only to broader cytokine/JAK-STAT immune remodeling.
+- Action 5 completed: clinical utility remains early monitoring only, not baseline stratification.
+- Action 6 completed: no `LOCKED_RULE_V23.md` created because all currently reachable successful data motivated the bounded rule and no fresh held-out test cohort remains.

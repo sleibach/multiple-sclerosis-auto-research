@@ -1,6 +1,6 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-06-06 14:12 CEST
+Last updated: 2026-06-06 14:32 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
@@ -212,15 +212,30 @@ V22 locked treatment-response checkpoint:
   - the dynamic APC/HLA-II rule remains a provisional early-treatment
     monitoring lead.
 
+V23 APC/HLA-II monitoring workup:
+
+- Report: `APC_HLA_MONITORING_WORKUP_V23.md`.
+- Queue/log: `V23_ACTION_QUEUE.md`.
+- Unbounded primary locked pooled AUC: `0.547`, CI `0.337-0.743`.
+- Exact raw-10x `GSE253006_TOF` rescoring: pass, AUC `0.95`, CI `0.70-1.00`,
+  Hedges g `1.811`.
+- Bounded DMF plus exact tofacitinib set: AUC `0.811`, CI `0.567-1.000`,
+  Hedges g `1.191`.
+- Exact GSE253006 compartment result: strongest specific compartments are
+  `t_cell_like` and `b_plasma_like`, not exclusively myeloid/APC; interpret as
+  broader cytokine/JAK-STAT immune remodeling.
+- No `LOCKED_RULE_V23.md` exists. Do not create one until a fresh held-out
+  cohort is acquired.
+
 Next session first action:
 
 1. Run `.venv/bin/python scripts/check_opengwas_access.py`.
 2. Read `LOCKED_RULE_V22.md`, `VALIDATION_LEDGER_V22.md`,
    `FINDING_V22.md`, and `COHORT_SEARCH_V22.md`.
 3. Do not tune `LOCKED_RULE_V22.md`. The next useful action is acquisition of
-   a larger paired MS DMT response cohort (`n >= 30`) or recomputation of exact
-   frozen modules in `GSE253006_TOF` at compartment-resolved level before
-   considering a successor locked rule.
+   a larger paired MS DMT response cohort (`n >= 30`) in an
+   immune-remodeling/JAK-STAT-like therapy context. Only after that should a
+   bounded successor rule be locked and tested.
 4. Extend LDSC rg to remaining map diseases once the best OpenGWAS IDs are
    selected and verified: psoriasis, T1D, Sjogren's, celiac disease,
    autoimmune thyroid disease, and myasthenia gravis.

@@ -1,0 +1,6 @@
+mechanism_group	expected_rule_domain	validation_scope	cohorts	n_cohorts	n_pass	mean_auc	mean_g
+JAK_STAT_cytokine_signaling	plausibly_in_scope	exploratory_module_approximation	GSE253006_TOF	1	1	1.0	1.5221148378698626
+JAK_STAT_cytokine_signaling	plausibly_in_scope	primary_locked_exact_all_cell_compartment_unresolved	GSE253006_TOF_exact	1	1	0.95	1.8110591428518383
+cytokine_blockade_TNF	context_dependent	primary_locked	GSE85034_ADA	1	0	0.5111111111111111	0.0442089727313232
+immune_redox_Nrf2_rebalancing	plausibly_in_scope	primary_locked	GSE235357	1	1	0.72	0.6512291126085582
+lymphocyte_trafficking_S1P	likely_out_of_scope	primary_locked	GSE250453	1	0	0.6	0.1502303301075881

@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-06 14:12 CEST
+Last updated: 2026-06-06 14:32 CEST
 
 ## Mission State
 
@@ -13,7 +13,9 @@ druggability discipline. V20 widened back out from chr1 to a ranked
 next-tier lead slate across the full landscape. V21 established the first
 LDSC genome-wide genetic-correlation backdrop and vetted the two queued
 next-tier genetics regions. V22 locked and tested the dynamic APC/HLA-II
-treatment-response monitoring rule on reachable held-out cohorts.
+treatment-response monitoring rule on reachable held-out cohorts. V23 pooled
+the small cohorts, resolved the UC tofacitinib exact-module caveat, and bounded
+the monitoring lead by therapy mechanism.
 
 Current frontier:
 
@@ -31,6 +33,20 @@ Current frontier:
   - Verdict: no Tier 4 breakthrough and no kill. The dynamic APC/HLA-II rule
     remains a provisional early-treatment monitoring lead, not a validated
     baseline stratifier or clinical rule.
+- V23 treatment-response workup:
+  - Unbounded primary locked pooled AUC is weak: `0.547`, stratified bootstrap
+    CI `0.337-0.743`.
+  - Exact raw-10x rescoring resolves the `GSE253006_TOF` module caveat at
+    all-cell level: AUC `0.95`, CI `0.70-1.00`, Hedges g `1.811`.
+  - Exact marker-derived GSE253006 compartments pass most strongly in
+    `t_cell_like` (AUC `1.00`, g `1.270`, receptor AUC `0.60`) and
+    `b_plasma_like` (AUC `0.95`, g `1.487`, receptor AUC `0.75`), with
+    myeloid/APC-like positive but weaker (AUC `0.80`).
+  - Bounded DMF plus exact tofacitinib set: pooled AUC `0.811`, CI
+    `0.567-1.000`, Hedges g `1.191`.
+  - Verdict: bounded early-monitoring hypothesis for immune-remodeling /
+    JAK-STAT contexts; no V23 successor rule locked because no fresh held-out
+    dataset remains for honest testing.
 - `GPR25` remains a live eQTLGen-supported lead, but not a protected favorite:
   public V18 immune-QTL sources did not support it, and its required therapeutic
   direction is agonism/restoration of a sparsely tooled receptor.
@@ -143,6 +159,11 @@ Methodology backbone:
   - `COHORT_SEARCH_V22.md`
   - `CONVERGENCE_CHECK_V22_01.md`
   - `analysis/v22_locked_apc_hla_validation/`
+- V23 APC/HLA-II monitoring workup:
+  - `APC_HLA_MONITORING_WORKUP_V23.md`
+  - `V23_ACTION_QUEUE.md`
+  - `CONVERGENCE_CHECK_V23_01.md`
+  - `analysis/v23_apc_hla_monitoring/`
 
 ## Current Matrix State
 
