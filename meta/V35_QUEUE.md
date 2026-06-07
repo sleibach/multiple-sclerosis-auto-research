@@ -237,10 +237,23 @@ Target block end UTC: 2026-06-07T17:37:36Z
 ### Iteration 19
 
 - Start UTC: 2026-06-07T17:23:00Z
-- Status: in_progress
+- End UTC: 2026-06-07T17:25:00Z
+- Status: blocked
 - Item selected: T/B gate independent-cohort feasibility scout.
 - Note: Search held treatment-response artifacts for another paired
   compartment-resolved cohort that can replicate the V35 T/B remodeling gate.
+- Result: blocked for independent replication with currently held data. The only
+  paired response-labeled exact compartment artifact is the already-used
+  `GSE253006` tofacitinib cohort. Other held cohorts are scalar/module-level
+  paired scores without T/B compartment resolution.
+
+### Iteration 20
+
+- Start UTC: 2026-06-07T17:25:00Z
+- Status: in_progress
+- Item selected: Lysosomal APC random-module specificity control.
+- Note: Stress-test whether the V35 lysosomal APC coupling in V26 treatment
+  response modules is stronger than arbitrary module-pair correlations.
 
 ## Backlog
 
@@ -264,7 +277,8 @@ Target block end UTC: 2026-06-07T17:37:36Z
 | 16 | EBV-module null-testing robustness | done | GSE108497 host EBV-module-like SLE signal survives timepoint-stratified label permutation; GSE10325 sorted-cell localization remains inconclusive. |
 | 17 | EBV-module random-gene-set specificity control | done | EBV-specific interpretation failed random same-size module control; broad SLE host-state signal remains. |
 | 18 | Postpartum APC-arm imbalance relapse-label test in MS pregnancy data | blocked | Local GSE17410/GSE17449 lacks reliable per-sample relapse labels; title prefixes are not sufficient. |
-| 19 | T/B gate independent-cohort feasibility scout | in_progress | Search held response artifacts for another paired compartment-resolved T/B gate replication cohort. |
+| 19 | T/B gate independent-cohort feasibility scout | blocked | No independent held compartment-resolved paired response cohort found beyond already-used GSE253006. |
+| 20 | Lysosomal APC random-module specificity control | in_progress | Test whether V35 lysosomal APC coupling exceeds arbitrary module-pair correlations. |
 
 ## Timing Rule
 

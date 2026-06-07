@@ -734,3 +734,32 @@ Next test:
 
 - Acquire the author-level phenotype table if available, or a true postpartum
   MS cohort with explicit relapse timing and treatment/steroid metadata.
+
+## Iteration 19: T/B Gate Independent-Cohort Feasibility Scout
+
+Status: **blocked for independent replication with held data**.
+
+Executable grounding:
+
+- Artifact: `analysis/v35_tb_gate_replication_scout/summary.md`
+- Search scope: `analysis`, `results`, `data/derived`, `docs`, `meta`, and
+  `scripts` for paired response and compartment-resolved artifacts.
+
+Result:
+
+- The only held paired response-labeled exact compartment dataset suitable for
+  the T/B gate is `analysis/v23_apc_hla_monitoring/gse253006_exact_compartments/`,
+  the same UC tofacitinib cohort used in V23 and V35.
+- Other held validation cohorts are scalar locked-rule ledgers, bulk paired
+  module deltas, or coupled-axis inputs, not T/B compartment-resolved data.
+
+Interpretation:
+
+The T/B remodeling gate remains the top internally supported hypothesis, but it
+is single-cohort. The current repository cannot independently replicate it.
+
+Next test:
+
+- Acquire paired baseline/early-treatment response data with single-cell,
+  CITE-seq, sorted T/B/myeloid expression, or pre-specified validated
+  deconvolution.
