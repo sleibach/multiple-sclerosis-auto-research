@@ -45,8 +45,8 @@ Minimum next test:
 | 1 | T/B compartment remodeling gate | supported but small-n | Replicate in an independent paired response cohort with sorted or single-cell T/B compartments |
 | 2 | Postpartum HLA-II/CD64 APC-arm imbalance trajectory | partially grounded / needs MS postpartum data | Acquire true postpartum MS relapse-window immune cohort |
 | 3 | Complement/lipid progressive axis | partially grounded | Run donor-aware chronic-active lesion-edge test |
-| 4 | MS-SLE EBV/IFN APC imprint | needs data | Acquire/build EBV-response module and EBV-stratified MS/SLE B-cell/APC data |
-| 5 | Lysosomal APC-processing bottleneck | todo | Test APC lysosomal perturbation data |
+| 4 | Lysosomal APC-processing bottleneck | reframed: coupled lysosomal APC axis, not proven bottleneck | Run functional lysosomal flux / HLA-peptidomics experiment |
+| 5 | MS-SLE EBV/IFN APC imprint | needs data | Acquire/build EBV-response module and EBV-stratified MS/SLE B-cell/APC data |
 | 6 | Metabolic/sterol setpoint | todo | Score explicit sterol genes and relate to V32 immune tone |
 
 ## Iteration 4: T/B Compartment Remodeling Gate
@@ -89,6 +89,49 @@ Next test:
   robust bulk deconvolution.
 - Reject or downgrade if the T/B advantage disappears under cohort-level
   replication or after steroid/cell-composition adjustment.
+
+## Iteration 5: Lysosomal APC-Processing Bottleneck
+
+Status: **reframed / coupled lysosomal APC axis supported, functional bottleneck
+not proven**.
+
+Executable grounding:
+
+- Script: `scripts/v35_lysosomal_apc_bottleneck.py`
+- Outputs: `analysis/v35_lysosomal_apc_bottleneck/`
+- Dataset: V26 Mixscale perturbation module matrix, `24` IFNB/IFNG/TNFA pathway
+  perturbations over `gilt_lysosomal_apc`, `hla_ii_apc`, `ifn_apc`, and
+  `mif_cd74_receptor_state`.
+
+Result:
+
+- `gilt_lysosomal_apc` is strongly positively coupled to `ifn_apc`:
+  Spearman `r = 0.902`, permutation p `0.00010`.
+- It is also positively coupled to `hla_ii_apc`: Spearman `r = 0.547`,
+  permutation p `0.0066`.
+- It is positively coupled to `mif_cd74_receptor_state`: Spearman `r = 0.477`,
+  permutation p `0.0213`.
+- Residual outliers after regressing lysosomal APC on the coupled APC modules
+  include `IFNB:TYK2` (negative residual z `-2.59`) and `IFNB:STAT1` (positive
+  residual z `2.15`), but these are transcript-module residuals, not direct
+  antigen-processing flux readouts.
+
+Interpretation:
+
+The held perturbation data supports lysosomal APC as a component of the coupled
+APC remodeling axis. It does **not** support an independent opposing bottleneck
+and does **not** prove a functional antigen-processing defect. The hypothesis is
+therefore narrowed from "lysosomal bottleneck" to "coupled lysosomal APC arm
+within IFN/HLA/CD74 remodeling, requiring functional peptide-processing tests."
+
+Minimum next test:
+
+1. Perturb cathepsin/V-ATPase/lysosomal pH or IFI30/GILT in disease-relevant
+   APCs.
+2. Measure HLA-peptidomics or myelin-antigen pulse-chase output, not only
+   transcript modules.
+3. Reject the bottleneck interpretation if lysosomal perturbation changes
+   transcript modules without changing antigen-processing output.
 
 ## Iteration 3: Complement/Lipid Progressive Axis
 

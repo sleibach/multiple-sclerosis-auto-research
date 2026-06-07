@@ -57,10 +57,22 @@ Target block end UTC: 2026-06-07T17:37:36Z
 ### Iteration 5
 
 - Start UTC: 2026-06-07T16:46:10Z
-- Status: in_progress
+- Status: completed
 - Item selected: Lysosomal APC-processing bottleneck.
 - Note: Test cathepsin/V-ATPase/lysosomal-flux modules in APC/immune data and
   report whether existing perturbation data is sufficient.
+- Result: reframed. V26 Mixscale perturbation modules support a coupled
+  lysosomal APC arm (`gilt_lysosomal_apc` vs `ifn_apc` Spearman `0.902`,
+  permutation p `0.00010`; vs `hla_ii_apc` Spearman `0.547`, p `0.0066`), but
+  do not prove a functional antigen-processing bottleneck.
+
+### Iteration 6
+
+- Start UTC: 2026-06-07T16:48:03Z
+- Status: in_progress
+- Item selected: Metabolic/sterol setpoint.
+- Note: Ground against existing metabolic module data and relate to V32
+  immune-tone confounding.
 
 ## Backlog
 
@@ -70,8 +82,8 @@ Target block end UTC: 2026-06-07T17:37:36Z
 | 2 | Postpartum APC-arm imbalance, MS-specificity | done | Partially grounded; true MS postpartum relapse-window data missing. |
 | 3 | Complement/lipid progressive axis | done | Partially grounded; lipid-repair immune component at chronic-active edge, complement not yet uniquely supported. |
 | 4 | T/B compartment remodeling gate | done | Supported but small-n; T/B-like AUC advantage p=0.0635 by exact patient-label permutation in n=9 tofacitinib cohort. |
-| 5 | Lysosomal APC-processing bottleneck | in_progress | Test cathepsin/V-ATPase/lysosomal modules in APC perturbation data. |
-| 6 | Metabolic/sterol setpoint | todo | Ground against existing metabolic module data and V32 immune-tone finding. |
+| 5 | Lysosomal APC-processing bottleneck | done | Reframed as coupled lysosomal APC arm; functional bottleneck remains unproven without lysosomal flux/HLA-peptidomics. |
+| 6 | Metabolic/sterol setpoint | in_progress | Ground against existing metabolic module data and V32 immune-tone finding. |
 | 7 | Two-lineage cross-examination of grounded hypotheses | todo | Use Claude/Gemini only after concrete data-grounded results exist. |
 
 ## Timing Rule

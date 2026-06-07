@@ -1,0 +1,54 @@
+{
+  "dataset": "analysis/v26_deep_structure/perturbation_module_matrix.tsv",
+  "grounded_result": "supports_coupled_lysosomal_apc_axis_not_functional_bottleneck",
+  "hypothesis": "lysosomal APC-processing bottleneck",
+  "interpretation": "Held Mixscale perturbation module data show GILT/lysosomal APC moving with IFN/HLA/CD74 modules, especially IFN/APC, not as an independently opposed bottleneck. This supports coupled APC remodeling but does not prove antigen-processing flux or myelin peptide presentation defects.",
+  "minimum_next_test": [
+    "Direct cathepsin/V-ATPase/lysosomal pH or antigen-processing perturbation in APCs.",
+    "HLA-peptidomics or myelin-antigen pulse-chase readout, not transcript-only module movement.",
+    "Reject bottleneck interpretation if lysosomal perturbation changes transcript modules without changing antigen-processing output."
+  ],
+  "module_tests": [
+    {
+      "comparison": "gilt_lysosomal_apc_vs_hla_ii_apc",
+      "pearson_r": 0.6406113774678565,
+      "spearman_perm_p_two_sided": 0.0065993400659934,
+      "spearman_r": 0.5469565217391303
+    },
+    {
+      "comparison": "gilt_lysosomal_apc_vs_ifn_apc",
+      "pearson_r": 0.9213536778981894,
+      "spearman_perm_p_two_sided": 9.999000099990002e-05,
+      "spearman_r": 0.9017391304347826
+    },
+    {
+      "comparison": "gilt_lysosomal_apc_vs_mif_cd74_receptor_state",
+      "pearson_r": 0.5025443941275368,
+      "spearman_perm_p_two_sided": 0.0212978702129787,
+      "spearman_r": 0.477391304347826
+    }
+  ],
+  "n_perturbations": 24,
+  "top_residual_outliers": [
+    {
+      "lysosomal_residual_z": -2.587973450510579,
+      "perturbation": "IFNB:TYK2"
+    },
+    {
+      "lysosomal_residual_z": 2.1493779691267925,
+      "perturbation": "IFNB:STAT1"
+    },
+    {
+      "lysosomal_residual_z": 1.4441441801235548,
+      "perturbation": "IFNG:NFKB1"
+    },
+    {
+      "lysosomal_residual_z": -1.4072785835641157,
+      "perturbation": "IFNG:JAK1"
+    },
+    {
+      "lysosomal_residual_z": -1.2857445136935122,
+      "perturbation": "TNFA:MAP3K7"
+    }
+  ]
+}
