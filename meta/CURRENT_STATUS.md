@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-07 18:15 CEST
+Last updated: 2026-06-07 19:37 CEST
 
 ## Mission State
 
@@ -44,9 +44,17 @@ No therapeutic hypothesis reached intervention-grade status.
 V34 fixed the Gemini generation failure mode by detecting `MAX_TOKENS` /
 `LENGTH` finish reasons instead of silently writing partial output. Two-lineage
 cross-check of the V33 shortlist then ran. Both Claude and Gemini ranked the
-MS-SLE EBV/IFN APC imprint highly, but it remains locally data-limited; the best
-locally grounded and clinically anchored hypothesis remains postpartum
-HLA-II/CD64 APC-arm imbalance as a relapse-window trajectory.
+MS-SLE EBV/IFN APC imprint highly, but it remained locally data-limited; the best
+locally grounded and clinically anchored hypothesis was postpartum HLA-II/CD64
+APC-arm imbalance as a relapse-window trajectory.
+V35 then ran a measured one-hour self-chaining exploratory block. It completed
+25 grounded iterations plus finalization, wrote
+`docs/history/HYPOTHESIS_SLATE_V35.md`, and converted blocked hypotheses into
+`meta/V35_BLOCKED_DATA_REQUESTS.md`. The final V35 ranking is:
+T/B compartment remodeling gate first but replication-gated; postpartum
+HLA-II/CD64 APC-arm imbalance second but blocked on true postpartum MS relapse
+data; metabolic/sterol and lysosomal APC remain context/mechanism hypotheses;
+complement/lipid and EBV-specific imprint were downgraded by stricter controls.
 
 Current frontier:
 
@@ -107,6 +115,29 @@ Current frontier:
   - ZMIZ1 remains a robust transfer-validity decoupling finding.
   - NAMPT, PTGER4, ZFP36L1, REL/PUS10/USP34, and generic TYK2 remain parked or
     closed under current standards.
+- V35 exploratory self-chaining block:
+  - Report: `docs/history/HYPOTHESIS_SLATE_V35.md`.
+  - Queue/runtime backbone: `meta/V35_QUEUE.md`.
+  - Blocked-data specs: `meta/V35_BLOCKED_DATA_REQUESTS.md`.
+  - Top internally supported hypothesis: T/B compartment remodeling gate. Exact
+    `GSE253006` compartment signal remained positive under W48 exclusion and
+    leave-one-patient stress tests, but repository scout found no independent
+    compartment-resolved paired response cohort; model cross-exam raised a
+    generic lymphocyte/cellularity artifact risk that held data cannot cleanly
+    falsify.
+  - Postpartum APC-arm imbalance: local MS pregnancy data can score
+    HLA-II/CD64 and show pregnancy-phase shift, but no postpartum samples or
+    reliable relapse labels are present.
+  - EBV/IFN APC imprint: host EBV-transformation module was built from
+    `GSE162516`, scored in SLE blood and sorted SLE cells, and survived
+    disease-label permutation in `GSE108497`; however random same-size gene-set
+    controls showed the signal is not EBV-module specific. Downgrade to broad
+    SLE host-state context unless EBV-stratified B-cell/APC data are acquired.
+  - Complement/lipid progressive axis: donor-aware lesion analysis downgraded
+    it to weak lipid context only; complement not supported.
+  - Lysosomal APC: strongest Mixscale module-pair correlation is
+    GILT/lysosomal APC vs IFN/APC, but V26 cross-modality grade remains
+    `not_supported`; no bottleneck claim.
 - V30 SAP AI Core / independent-lens review:
   - Access report: `meta/SAP_AI_CORE_ACCESS_V30.md`.
   - Reusable client: `scripts/sap_ai_core_client.py`.

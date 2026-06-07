@@ -1,6 +1,6 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-06-07 18:15 CEST
+Last updated: 2026-06-07 19:37 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
@@ -109,6 +109,35 @@ First V34 continuation action:
    and V22 scalar in MS/SLE B-cell/APC data.
 3. Mine progressive/chronic-active lesion data for complement/lipid negative
    pole orthogonality to V22 APC/HLA-II scalar.
+
+V35 update:
+
+- One-hour self-chaining exploratory block completed.
+- Main report: `docs/history/HYPOTHESIS_SLATE_V35.md`.
+- Queue/runtime record: `meta/V35_QUEUE.md`.
+- Blocked acquisition list: `meta/V35_BLOCKED_DATA_REQUESTS.md`.
+- Final ranking:
+  1. T/B compartment remodeling gate: best internally supported but
+     single-cohort and artifact-risk flagged.
+  2. Postpartum HLA-II/CD64 APC-arm imbalance: clinically anchored but requires
+     true postpartum MS relapse-window data.
+  3. Metabolic/sterol setpoint: context/confounder axis, not intervention-grade.
+  4. Lysosomal APC: strong perturbation coupling, no bottleneck proof.
+  5. Complement/lipid progressive axis: downgraded by donor-aware lesion test.
+  6. EBV/IFN APC imprint: downgraded because EBV specificity failed
+     random-gene-set control.
+
+First V35 continuation action:
+
+1. Highest leverage: acquire an independent paired response cohort with
+   patient-level T/B/myeloid compartment resolution to replicate or kill the
+   T/B remodeling gate.
+2. Parallel clinical biology acquisition: postpartum MS blood/CSF immune data
+   with relapse timing, DMT restart/stop, steroid exposure, lactation,
+   infection, and cell counts.
+3. Only revive EBV if EBV-stratified MS/SLE B-cell/APC data are available and
+   the module tracks EBV exposure/load beyond IFN/APC, composition, and
+   random-module controls.
 
 No unresolved supported V12 cells remain. V14 has added a first-pass locus
 landscape and prior-sensitivity layer over the V13 OpenGWAS coloc results.

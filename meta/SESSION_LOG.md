@@ -709,3 +709,17 @@ Next session first action:
   imbalance as the first actionable data-acquisition target.
 - Model lineages used and spend: Claude 4.7 Opus and Gemini 2.5 Pro via SAP AI
   Core; no separate paid-service spend was recorded in-repo.
+
+## RUN SUMMARY - V35 Autonomous One-Hour Self-Chaining Exploration Block
+
+- Active runtime: 1 hour 0 minutes 15 seconds, measured from real system-clock reads; no usage-limit waiting occurred, so active runtime equals total elapsed wall-clock time.
+- Session start timestamp (UTC): 2026-06-07T16:37:36Z.
+- Session end timestamp (UTC): 2026-06-07T17:37:51Z.
+- Frontier advanced: completed the V35 self-chaining exploration block, updated `docs/history/HYPOTHESIS_SLATE_V35.md`, wrote `meta/V35_BLOCKED_DATA_REQUESTS.md`, refreshed README/status/NEXT_ACTIONS, and rebuilt the RAG index.
+- Stop reason: completed the 60-minute cumulative active-work target at a clean resumable point.
+- Next action: acquire or identify an independent paired response-labeled compartment-resolved cohort to replicate or kill the T/B compartment remodeling gate; in parallel acquire postpartum MS relapse-window immune data for the APC-arm imbalance hypothesis.
+- Iterations completed: 26 total, including 25 exploration/grounding iterations plus finalization.
+- Per-item grounded outcomes: T/B compartment remodeling gate is the top supported but single-cohort/artifact-risk lead; postpartum HLA-II/CD64 APC-arm imbalance is partially grounded and needs MS postpartum relapse-window data; metabolic/sterol setpoint remains context-supported but not intervention-grade; lysosomal APC processing is a strong Mixscale coupling but not a proven bottleneck; complement/lipid progressive axis was downgraded to lipid-repair context only; EBV/IFN APC imprint was downgraded because the EBV-specific interpretation failed random-gene-set specificity control.
+- Final re-ranked shortlist: 1) T/B compartment remodeling gate, 2) postpartum HLA-II/CD64 APC-arm imbalance, 3) metabolic/sterol setpoint, 4) lysosomal APC-processing bottleneck, 5) complement/lipid progressive axis, 6) MS-SLE EBV/IFN APC imprint.
+- Two-lineage contributions: Claude 4.7 Opus and Gemini 3.1 Flash Lite were used as proposal/critique lenses; they sharpened the T/B generic-compartment artifact risk but did not change the data-grounded ranking. Gemini 2.5 Pro failed twice with `MAX_TOKENS` during the final cross-exam.
+- Model spend: SAP AI Core usage only; no separate paid-service spend was recorded in-repo.

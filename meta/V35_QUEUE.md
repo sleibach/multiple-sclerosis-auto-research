@@ -338,11 +338,15 @@ Target block end UTC: 2026-06-07T17:37:36Z
 ### Iteration 26
 
 - Start UTC: 2026-06-07T17:31:01Z
-- Status: in_progress
+- End UTC: 2026-06-07T17:37:51Z
+- Status: completed
 - Item selected: V35 finalization and run-summary preparation.
 - Note: The block is approaching the 60-minute target; update status files,
   README, session log, and final artifacts at a clean stopping point once the
   measured clock reaches the target.
+- Result: completed final README/status/NEXT_ACTIONS updates, rebuilt the RAG
+  index, appended the mandatory session run summary, and prepared the final
+  commit after the measured block runtime reached 60 minutes.
 
 ## Backlog
 
@@ -373,7 +377,7 @@ Target block end UTC: 2026-06-07T17:37:36Z
 | 23 | V35 blocked-data request list | done | Wrote `meta/V35_BLOCKED_DATA_REQUESTS.md` with concrete dataset/experiment pass-kill specs. |
 | 24 | Two-lineage cross-exam of revised V35 shortlist | done | Claude/Gemini did not change ranking; they sharpened T/B generic-compartment artifact risk. |
 | 25 | Orthogonal-context T/B artifact feasibility check | blocked | Held data cannot cleanly test T/B generic-compartment artifact; needs independent compartment-resolved cohort. |
-| 26 | V35 finalization and run-summary preparation | in_progress | Update resume/status/README/session log once measured clock reaches 60-minute target. |
+| 26 | V35 finalization and run-summary preparation | done | Final README/status/NEXT_ACTIONS/RAG/session-log close-out completed after measured runtime reached 60 minutes. |
 
 ## Timing Rule
 

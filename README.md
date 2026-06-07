@@ -11,7 +11,7 @@ All analysis uses public human-tissue data only and random seed `20260526`
 
 ## Current Status
 
-The current phase is **V34**. The V4 directory structure remains canonical, and
+The current phase is **V35**. The V4 directory structure remains canonical, and
 V11 introduced the resume backbone for short-session continuity.
 
 - Start here: `meta/CURRENT_STATUS.md` — the live mission state, active leads,
@@ -76,6 +76,15 @@ V11 introduced the resume backbone for short-session continuity.
   grounded and clinically anchored hypothesis remains postpartum HLA-II/CD64
   APC-arm imbalance as a relapse-window trajectory. See
   `docs/history/HYPOTHESIS_SLATE_V34.md`.
+  V35 then ran a measured one-hour self-chaining exploratory block and updated
+  `docs/history/HYPOTHESIS_SLATE_V35.md`. Final V35 ranking: T/B compartment
+  remodeling gate is the best internally supported hypothesis but remains
+  single-cohort and artifact-risk flagged; postpartum HLA-II/CD64 APC-arm
+  imbalance remains clinically important but blocked on true postpartum MS
+  relapse-window data; metabolic/sterol and lysosomal APC remain context/
+  mechanism hypotheses; complement/lipid and EBV-specific imprint were
+  downgraded. Concrete acquisition requirements are in
+  `meta/V35_BLOCKED_DATA_REQUESTS.md`.
 - Current genetics/data focus: the chr1 MS-UC causal-gene question is
   computationally resolved for now and handed forward as real shared genetics,
   not an intervention-grade target. V20 widened back out to a ranked
