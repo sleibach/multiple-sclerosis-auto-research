@@ -206,11 +206,25 @@
 ### Iteration 14
 
 - Start UTC: 2026-06-07T18:56:40Z
-- Status: in_progress
+- End UTC: 2026-06-07T18:58:22Z
+- Status: completed
 - Item selected: Timepoint and responder-leverage sensitivity for B/plasma
   IFN/STAT carrier.
 - Note: Test whether the B/plasma IFN/STAT result is driven by the single W48
   responder or another high-leverage patient/timepoint.
+- Result: Internal sensitivity strengthened the refined carrier. Excluding the
+  W48 responder (`TOF_009`) left the locked B/plasma score at AUC `0.938`
+  (exact p `0.0571`) and STAT1 downshift at AUC `1.000` (exact p `0.0286`).
+  Leave-one-out minimum AUC was `0.933` for locked B/plasma score and `1.000`
+  for STAT1. Still internal robustness only, not external validation.
+
+### Iteration 15
+
+- Start UTC: 2026-06-07T18:58:22Z
+- Status: in_progress
+- Item selected: Cross-compartment STAT1/IFN specificity scan.
+- Note: Test whether STAT1/IFN downshift is B/plasma-specific or a generic
+  compartment-wide response feature.
 
 ## Backlog
 
@@ -228,7 +242,8 @@
 | 10 | Cross-disease response-cohort B/plasma proxy scout | done | Independent replication blocked with held data; only GSE253006 is compartment-resolved. |
 | 11 | RPT second pass with refined B/plasma/T-cell split | done | RPT agrees carrier candidates are promising-but-unreplicated; no evidence upgrade. |
 | 12 | Gene-level B/plasma IFN/APC driver analysis | done | Carrier sharpens to B/plasma IFN/STAT remodeling; STAT1 strongest but no STAT1-only promotion. |
-| 13 | Timepoint and responder-leverage sensitivity for B/plasma IFN/STAT carrier | in_progress | Test W48/TOF_009 and high-leverage patient sensitivity. |
+| 13 | Timepoint and responder-leverage sensitivity for B/plasma IFN/STAT carrier | done | Not driven by W48 TOF_009 or one removable patient; still internal only. |
+| 14 | Cross-compartment STAT1/IFN specificity scan | in_progress | Test whether STAT1/IFN downshift is B/plasma-specific or generic. |
 
 ## Timing Rule
 

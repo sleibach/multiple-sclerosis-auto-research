@@ -398,3 +398,39 @@ the same responder-associated downshift direction but do not independently clear
 p <= `0.05`. This sharpens the carrier as B/plasma IFN/STAT remodeling, but it
 does **not** validate a STAT1-only biomarker or target because the evidence is
 still single-cohort n=9 and post-hoc at gene level.
+
+## Iteration 14: B/Plasma Timepoint and Leverage Sensitivity
+
+Status: **completed / internal robustness strengthened**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_b_plasma_timepoint_sensitivity.py`
+- Outputs: `analysis/v36_b_plasma_timepoint_sensitivity/`
+
+Test:
+
+Assess whether the B/plasma IFN/STAT carrier is driven by the single W48
+responder (`TOF_009`) or by one high-leverage patient.
+
+Result:
+
+| Subset | Feature | n | AUC | Exact p |
+|---|---|---:|---:|---:|
+| all patients | locked B/plasma score | `9` | `0.950` | `0.0317` |
+| W8-only / exclude TOF_009 | locked B/plasma score | `8` | `0.938` | `0.0571` |
+| all patients | STAT1 downshift | `9` | `1.000` | `0.0159` |
+| W8-only / exclude TOF_009 | STAT1 downshift | `8` | `1.000` | `0.0286` |
+
+Leave-one-out minima:
+
+- Locked B/plasma score AUC: `0.933`.
+- STAT1 downshift AUC: `1.000`.
+
+Interpretation:
+
+The refined B/plasma IFN/STAT carrier is not explained by the single W48
+responder or by one removable patient. The module-level exact p weakens after
+dropping W48 because n falls to eight, but the effect size remains high. This
+strengthens internal robustness while leaving the external-replication gate
+unchanged.
