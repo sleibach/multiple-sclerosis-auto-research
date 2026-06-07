@@ -109,3 +109,46 @@ promotion. The most useful new clue is that all-cell glycolysis moves with the
 tofacitinib response signal; the hard limitation is compartment specificity.
 The sterol/lysosomal convergence remains tempting across idea sources but fails
 the current held-data convergence gate.
+
+## Iteration 4: T/B Gate Count/Composition Artifact Audit
+
+Status: **survives simple count/fraction residualization, but not definitive**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_tb_gate_artifact_audit.py`
+- Outputs: `analysis/v36_tb_gate_artifact_audit/`
+
+Test:
+
+The audit merged exact `GSE253006` compartment locked-rule paired scores with
+per-sample compartment counts. It tested whether baseline cell counts, delta
+cell counts, baseline fractions, or delta fractions explain the T/B advantage,
+then residualized locked scores against baseline and delta compartment fractions.
+
+Result:
+
+- Patients: `9`.
+- Original locked T/B-minus-non-T/B AUC gap: `0.158`.
+- Residualized locked T/B-minus-non-T/B AUC gap after baseline/delta compartment
+  fraction adjustment: `0.133`.
+- Best count/fraction-only oriented AUC: `0.900`
+  (`myeloid_apc_like` / `delta_n_cells`, exact permutation p `0.0635`).
+- T-cell locked AUC -> residualized AUC: `1.000` -> `0.650`.
+- B/plasma locked AUC -> residualized AUC: `0.950` -> `0.850`.
+
+Interpretation:
+
+The current top lead is not explained away by the simplest held-data composition
+proxies because the residualized T/B-minus-non-T/B gap remains positive.
+However, the T-cell component attenuates sharply after fraction adjustment,
+whereas the B/plasma component remains more stable. V36 therefore refines the
+lead from a broad "T/B gate" to a more cautious hypothesis: **B/plasma-like
+remodeling is the more robust compartmental carrier; the T-cell component may
+partly reflect composition or sampling structure**.
+
+Verdict:
+
+No clinical or biomarker upgrade. The decisive next test remains an independent
+paired response-labeled cohort with T/B/myeloid compartments and pre-specified
+count/fraction adjustment.

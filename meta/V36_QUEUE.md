@@ -61,10 +61,26 @@
 ### Iteration 4
 
 - Start UTC: 2026-06-07T18:37:36Z
-- Status: in_progress
+- End UTC: 2026-06-07T18:40:04Z
+- Status: completed
 - Item selected: T/B compartment remodeling gate artifact audit.
 - Note: Test whether the current top lead can be explained by composition or
   generic T-cell/B-cell abundance proxies in existing exact compartment data.
+- Result: Simple count/fraction artifact did not explain away the gate:
+  T/B-minus-non-T/B AUC gap remained positive after residualizing locked scores
+  against baseline/delta compartment fractions (`0.158` -> `0.133`). The
+  T-cell component attenuated strongly (`1.000` -> `0.650`), while B/plasma
+  remained more stable (`0.950` -> `0.850`). Refined lead: B/plasma-like
+  remodeling is the more robust compartmental carrier; T-cell component may be
+  partly composition/sampling-sensitive.
+
+### Iteration 5
+
+- Start UTC: 2026-06-07T18:40:04Z
+- Status: in_progress
+- Item selected: Postpartum APC-arm imbalance MS-specificity.
+- Note: Deepen reachable grounding for postpartum/MS specificity using local
+  pregnancy and cross-disease APC-arm artifacts; specify remaining data need.
 
 ## Backlog
 
@@ -73,8 +89,8 @@
 | 1 | Extend client to SAP RPT + smoke test | done | `sap-rpt-1-large` smoke-passed through `rpt-smoke`; access documented. |
 | 2 | RPT-driven structured-data hypothesis pass | done | RPT added prioritization value but no data-grounded upgrades; see `analysis/v36_rpt_structured_pass/` and slate. |
 | 3 | Expansive tri-source generation round | done | 16 model hypotheses consolidated; first executable subset grounded with no upgrades. |
-| 4 | T/B compartment remodeling gate artifact audit | in_progress | Test within-cell remodeling vs cell-composition shift on existing data; specify replication cohort if unresolved. |
-| 5 | Postpartum APC-arm imbalance MS-specificity | todo | Deepen reachable grounding and specify required MS postpartum cohort. |
+| 4 | T/B compartment remodeling gate artifact audit | done | Survives simple count/fraction residualization, but T-cell component attenuates; B/plasma is more robust. |
+| 5 | Postpartum APC-arm imbalance MS-specificity | in_progress | Deepen reachable grounding and specify required MS postpartum cohort. |
 | 6 | Metabolic/sterol, lysosomal, complement/lipid, EBV/IFN deepening | todo | Continue strict grounding of remaining V35 shortlist. |
 | 7 | Deep multi-pass cross-examination | todo | Claude/Gemini adversarial rounds for top grounded hypotheses; ground concrete proposals. |
 | 8 | Heavier analyses now affordable | todo | Larger permutation/module scans or pooled tests where executable. |

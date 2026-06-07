@@ -1,0 +1,22 @@
+{
+  "b_plasma_locked_auc": 0.95,
+  "b_plasma_residualized_auc": 0.85,
+  "best_count_or_fraction_auc": 0.9,
+  "best_count_or_fraction_row": {
+    "auc_oriented": 0.9,
+    "class": "non-T/B-like",
+    "exact_perm_p_auc_ge_observed": 0.06349206349206349,
+    "feature": "delta_n_cells",
+    "marker_compartment": "myeloid_apc_like",
+    "mean_nonresponder": 203.5,
+    "mean_responder": -260.8
+  },
+  "grounded_result": "survives_simple_count_fraction_residualization_but_not_definitive",
+  "hypothesis": "T/B compartment remodeling gate count/composition artifact audit",
+  "interpretation": "Simple compartment abundance proxies do not explain away the T/B gate: residualizing locked scores against baseline and delta compartment fractions preserves a positive T/B-minus-non-T/B gap. However, this is not a full deconvolution or independent replication, and small n remains decisive.",
+  "locked_tb_minus_non_tb_auc_gap": 0.15833333333333321,
+  "n_patients": 9,
+  "residualized_tb_minus_non_tb_auc_gap": 0.1333333333333333,
+  "t_cell_locked_auc": 1.0,
+  "t_cell_residualized_auc": 0.65
+}
