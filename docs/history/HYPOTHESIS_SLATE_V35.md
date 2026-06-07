@@ -796,3 +796,34 @@ Next test:
 
 - Functional lysosomal flux, cathepsin/V-ATPase perturbation, or
   HLA-peptidomics/myelin-antigen pulse-chase in APCs.
+
+## Iteration 21: Metabolic/Sterol Setpoint Actionability Review
+
+Status: **context-supported / not intervention-grade**.
+
+Executable grounding:
+
+- Artifact: `analysis/v35_metabolic_sterol_actionability/summary.md`
+- Inputs: V35 metabolic/sterol outputs and V32 confounder audit rows.
+
+Result:
+
+- V32 metabolic/inflammatory/STAT1 joint adjustment attenuates the monitoring
+  signal from AUC `0.811` to `0.656`, but does not isolate sterol biology.
+- ST003328 cholesterol evidence is strong in PMS-derived iNSC models and
+  simvastatin response, but is not APC-resolved.
+- GSE180759 immune nuclei show lesion-edge cholesterol-synthesis transcript
+  context, but efflux/LXR and lysosomal-cholesterol modules are not clearly
+  elevated.
+
+Interpretation:
+
+The metabolic/sterol setpoint remains a real context and confounder/modifier
+axis. It does not currently define a direction-matched, first-principles
+druggable MS intervention hypothesis.
+
+Next test:
+
+- APC-resolved MS blood/CSF or lesion lipidomics with oxysterols and cholesterol
+  efflux markers, paired to APC/HLA-II state readouts and perturbation of the
+  `LXR/ABCA1/ABCG1/CH25H/SREBF2` axis.

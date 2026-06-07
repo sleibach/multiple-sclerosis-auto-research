@@ -268,10 +268,25 @@ Target block end UTC: 2026-06-07T17:37:36Z
 ### Iteration 21
 
 - Start UTC: 2026-06-07T17:24:42Z
-- Status: in_progress
+- End UTC: 2026-06-07T17:25:22Z
+- Status: completed
 - Item selected: Metabolic/sterol setpoint specificity and actionability review.
 - Note: Stress-test whether the sterol/metabolic setpoint has enough specific
   disease and direction evidence to remain above context-only status.
+- Result: remains context-supported, not intervention-grade. V32 joint
+  metabolic/inflammatory/STAT1 adjustment attenuates the monitoring signal
+  (`0.811` to `0.656`) but does not isolate sterol biology; ST003328 cholesterol
+  is strong in PMS iNSC models and simvastatin response, but not APC-resolved;
+  GSE180759 supports nucleus-level cholesterol-synthesis context at lesion edge
+  without a direction-matched APC causal path.
+
+### Iteration 22
+
+- Start UTC: 2026-06-07T17:25:22Z
+- Status: in_progress
+- Item selected: Re-rank V35 shortlist after EBV downgrade and blocker audit.
+- Note: Consolidate the accumulated iteration outcomes into a revised shortlist
+  before deciding whether another executable item is needed before the hour mark.
 
 ## Backlog
 
@@ -297,7 +312,8 @@ Target block end UTC: 2026-06-07T17:37:36Z
 | 18 | Postpartum APC-arm imbalance relapse-label test in MS pregnancy data | blocked | Local GSE17410/GSE17449 lacks reliable per-sample relapse labels; title prefixes are not sufficient. |
 | 19 | T/B gate independent-cohort feasibility scout | blocked | No independent held compartment-resolved paired response cohort found beyond already-used GSE253006. |
 | 20 | Lysosomal APC random-module specificity control | done | Strongest Mixscale module-pair correlation, but not cross-modality supported; remains not a bottleneck claim. |
-| 21 | Metabolic/sterol setpoint specificity and actionability review | in_progress | Stress-test whether metabolic/sterol setpoint rises above context-only status. |
+| 21 | Metabolic/sterol setpoint specificity and actionability review | done | Remains context-supported and confounder-relevant, not intervention-grade. |
+| 22 | Re-rank V35 shortlist after EBV downgrade and blocker audit | in_progress | Consolidate V35 outcomes into revised shortlist. |
 
 ## Timing Rule
 
