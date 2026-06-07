@@ -501,10 +501,24 @@
 ### Iteration 35
 
 - Start UTC: 2026-06-07T19:35:28Z
-- Status: in_progress
+- End UTC: 2026-06-07T19:36:48Z
+- Status: completed
 - Item selected: Resume-state next-actions update for V36 refactored lead.
 - Note: Ensure project resume state points to the correct next action after
   V36's demotions and validation-request artifact.
+- Result: Updated `meta/NEXT_ACTIONS.md` and `meta/CURRENT_STATUS.md` with V36
+  status: locked V22/V23 remains primary validation target; V36 perfect-AUC
+  features are secondary audits after multiplicity control; Gafson request
+  package and validation-readiness addendum are now canonical.
+
+### Iteration 36
+
+- Start UTC: 2026-06-07T19:36:48Z
+- Status: in_progress
+- Item selected: Continue autonomous V36 block with next executable
+  self-generated item.
+- Note: Block runtime remains below 120 minutes; select next grounded analysis
+  after resume-state update.
 
 ## Backlog
 
@@ -543,7 +557,8 @@
 | 31 | Multiplicity stress test across V36 generated compartment features | done | Perfect V36 feature AUCs are expected under post-hoc feature search; exploratory only. |
 | 32 | Update final V36 ranking after multiplicity caveat | done | Locked V22/V23 remains primary; V36 features secondary audits only. |
 | 33 | Human-facing Gafson data request package | done | Gafson request package written with V36 covariate/QC requirements. |
-| 34 | Resume-state next-actions update for V36 refactored lead | in_progress | Update `meta/NEXT_ACTIONS.md` if stale. |
+| 34 | Resume-state next-actions update for V36 refactored lead | done | `meta/NEXT_ACTIONS.md` and `meta/CURRENT_STATUS.md` updated for V36. |
+| 35 | Continue autonomous V36 block with next executable self-generated item | in_progress | Select next strict-grounding item; cumulative time below 120 min. |
 
 ## Timing Rule
 

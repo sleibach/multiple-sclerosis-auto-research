@@ -139,6 +139,37 @@ First V35 continuation action:
    the module tracks EBV exposure/load beyond IFN/APC, composition, and
    random-module controls.
 
+V36 update:
+
+- Two-hour autonomous block is in progress; live queue:
+  `meta/V36_QUEUE.md`.
+- Main cumulative slate: `docs/history/HYPOTHESIS_SLATE_V36.md`.
+- The top-line interpretation has changed from V35:
+  - the immutable V22/V23 bounded monitoring rule remains the primary
+    validation target because it was locked/pre-specified;
+  - V36-derived W8/compartment/substate perfect-AUC features are exploratory
+    secondary audits only after exact max-AUC multiplicity control showed such
+    features are common under label permutations in n=9.
+- Current best V36 wording:
+  early on-treatment IFN/APC/STAT1-axis monitoring state, broad across
+  compartments, T/B-readable, not baseline, not glucocorticoid-explained in held
+  scores, not B/plasma-specific, STAT1/QC/composition-conditioned, and
+  externally unreplicated.
+- `docs/validation/VALIDATION_READINESS_V27.md` now has a V36 addendum requiring
+  timing, baseline/treated/delta, STAT1, glycolysis, compartment, substate, and
+  batch/QC audits in future validation.
+- Human-facing Gafson request package written:
+  `docs/validation/GAFSON_DATA_REQUEST_V36.md`.
+
+First V36 continuation action:
+
+1. Continue `meta/V36_QUEUE.md` until cumulative measured block runtime reaches
+   at least 120 minutes.
+2. If externally interrupted before the block ends, resume from the first
+   `in_progress`/`todo` V36 queue item.
+3. If Gafson data arrives, quarantine it and run only frozen V22 validation plus
+   V32/V36 pre-specified audits; do not fit a V36 successor rule on it.
+
 No unresolved supported V12 cells remain. V14 has added a first-pass locus
 landscape and prior-sensitivity layer over the V13 OpenGWAS coloc results.
 
