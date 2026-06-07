@@ -122,11 +122,25 @@
 ### Iteration 8
 
 - Start UTC: 2026-06-07T18:46:12Z
-- Status: in_progress
+- End UTC: 2026-06-07T18:47:17Z
+- Status: completed
 - Item selected: Heavier analyses now affordable.
 - Note: Use larger permutation/bootstrap or broader scans for the leading
   hypotheses where executable; start with exact/randomization hardening of the
   refined B/plasma carrier.
+- Result: Exhaustive 31-combination compartment scan completed. T-cell alone
+  had raw AUC `1.000`, B/plasma alone AUC `0.950`, and T/B mean AUC `0.950`.
+  Many multi-compartment combinations reached AUC `1.000`, adding an overfit
+  warning rather than an upgrade. Future validation must pre-specify B/plasma
+  and T-cell components separately.
+
+### Iteration 9
+
+- Start UTC: 2026-06-07T18:47:17Z
+- Status: in_progress
+- Item selected: Generate next executable V36 backlog items.
+- Note: The seeded backlog has been worked once; create further executable
+  strict-grounding items to continue the 120-minute block.
 
 ## Backlog
 
@@ -139,7 +153,10 @@
 | 5 | Postpartum APC-arm imbalance MS-specificity | done | Pregnancy-phase MS movement grounded; postpartum relapse-window test blocked by missing data. |
 | 6 | Metabolic/sterol, lysosomal, complement/lipid, EBV/IFN deepening | done | No upgrades; generated variants remain blocked/proposal-only without new data. |
 | 7 | Deep multi-pass cross-examination | done | Gemini critiques grounded; T/B and postpartum interpretations refined, no upgrade. |
-| 8 | Heavier analyses now affordable | in_progress | Larger permutation/module scans or pooled tests where executable. |
+| 8 | Heavier analyses now affordable | done | Exhaustive compartment-combination scan added overfit warning; no upgrade. |
+| 9 | B/plasma-specific module decomposition | todo | Decompose B/plasma locked signal into IFN/APC, HLA-II, receptor, and count-adjusted components. |
+| 10 | Cross-disease response-cohort B/plasma proxy scout | todo | Search held response cohorts for any B/plasma proxy genes or deconvolution that can test the refined carrier. |
+| 11 | RPT second pass with refined B/plasma/T-cell split | todo | Update structured table with V36 refined features and ask RPT for masked carrier/verdict predictions. |
 
 ## Timing Rule
 

@@ -242,3 +242,30 @@ Net update:
 - Postpartum APC-arm imbalance remains rank 2 as an acquisition lead, but the
   HLA-II and CD64 components are separable and must be analyzed separately in
   any future cohort.
+
+## Iteration 8: Exhaustive Compartment-Combination Scan
+
+Status: **completed / overfit warning added**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_compartment_combo_scan.py`
+- Outputs: `analysis/v36_compartment_combo_scan/`
+
+Result:
+
+- Tested all `31` non-empty combinations of the five exact `GSE253006`
+  compartments.
+- Best raw single compartment: `t_cell_like`, AUC `1.000`, exact p `0.0159`.
+- B/plasma only: AUC `0.950`, exact p `0.0317`.
+- T/B mean: AUC `0.950`, exact p `0.0317`.
+- Many multi-compartment combinations also reached AUC `1.000`.
+
+Interpretation:
+
+This does **not** strengthen the T/B lead; it adds an overfit warning. In n=9,
+many compartment averages can separate labels perfectly. The only reason to keep
+B/plasma-like remodeling prioritized is that it survived the count/fraction
+residualization better than T-cell and matches the T/B mean without extra
+complexity. Future validation must pre-specify the B/plasma and T-cell
+components separately and avoid post-hoc compartment-combination selection.

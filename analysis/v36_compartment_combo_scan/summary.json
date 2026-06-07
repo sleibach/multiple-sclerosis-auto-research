@@ -1,0 +1,42 @@
+{
+  "b_plasma_only": {
+    "auc_oriented": 0.95,
+    "combo": "b_plasma_like",
+    "exact_perm_p_auc_ge_observed": 0.031746031746031744,
+    "includes_b_plasma": true,
+    "includes_t_cell": false,
+    "is_tb_only": true,
+    "n_compartments": 1
+  },
+  "best_combo": {
+    "auc_oriented": 1.0,
+    "combo": "t_cell_like",
+    "exact_perm_p_auc_ge_observed": 0.015873015873015872,
+    "includes_b_plasma": false,
+    "includes_t_cell": true,
+    "is_tb_only": true,
+    "n_compartments": 1
+  },
+  "grounded_result": "single_t_cell_tops_auc_but_b_plasma_matches_tb_mean_and_is_more_residualization_stable",
+  "hypothesis": "exhaustive compartment combination scan",
+  "interpretation": "The highest raw AUC is the single T-cell compartment, but V36 residualization showed the T-cell signal is composition-sensitive. B/plasma-only matches the two-compartment T/B mean AUC and remained more stable after count/fraction adjustment.",
+  "n_combinations": 31,
+  "t_cell_only": {
+    "auc_oriented": 1.0,
+    "combo": "t_cell_like",
+    "exact_perm_p_auc_ge_observed": 0.015873015873015872,
+    "includes_b_plasma": false,
+    "includes_t_cell": true,
+    "is_tb_only": true,
+    "n_compartments": 1
+  },
+  "tb_mean": {
+    "auc_oriented": 0.95,
+    "combo": "b_plasma_like;t_cell_like",
+    "exact_perm_p_auc_ge_observed": 0.031746031746031744,
+    "includes_b_plasma": true,
+    "includes_t_cell": true,
+    "is_tb_only": true,
+    "n_compartments": 2
+  }
+}
