@@ -1,0 +1,41 @@
+{
+  "delta_hlaii": {
+    "auc_oriented": 0.7,
+    "exact_perm_p_auc_ge_observed": 0.4126984126984127,
+    "feature": "delta_HLAII",
+    "mean_nonresponder": 0.7457153850856274,
+    "mean_responder": -0.6774380537464838
+  },
+  "delta_ifn_apc": {
+    "auc_oriented": 0.95,
+    "exact_perm_p_auc_ge_observed": 0.031746031746031744,
+    "feature": "delta_IFN_APC",
+    "mean_nonresponder": 1.026484780826004,
+    "mean_responder": -0.7851515838383147
+  },
+  "delta_receptor": {
+    "auc_oriented": 0.75,
+    "exact_perm_p_auc_ge_observed": 0.2857142857142857,
+    "feature": "delta_RECEPTOR",
+    "mean_nonresponder": -0.8516614353015207,
+    "mean_responder": 0.5618404382015152
+  },
+  "grounded_result": "b_plasma_signal_is_ifn_apc_locked_score_not_receptor_or_counts",
+  "hypothesis": "B/plasma-like carrier decomposition",
+  "interpretation": "B/plasma discrimination is carried by the IFN/APC-derived locked score. Receptor and count/fraction features are weaker, so the B/plasma carrier is not simply a receptor or abundance effect in held data.",
+  "locked_signed_score": {
+    "auc_oriented": 0.95,
+    "exact_perm_p_auc_ge_observed": 0.031746031746031744,
+    "feature": "locked_signed_score",
+    "mean_nonresponder": -1.026484780826004,
+    "mean_responder": 0.7851515838383147
+  },
+  "n_patients": 9,
+  "top_feature": {
+    "auc_oriented": 0.95,
+    "exact_perm_p_auc_ge_observed": 0.031746031746031744,
+    "feature": "delta_IFN_APC",
+    "mean_nonresponder": 1.026484780826004,
+    "mean_responder": -0.7851515838383147
+  }
+}

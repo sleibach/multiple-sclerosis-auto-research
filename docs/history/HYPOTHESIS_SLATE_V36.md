@@ -269,3 +269,31 @@ B/plasma-like remodeling prioritized is that it survived the count/fraction
 residualization better than T-cell and matches the T/B mean without extra
 complexity. Future validation must pre-specify the B/plasma and T-cell
 components separately and avoid post-hoc compartment-combination selection.
+
+## Iteration 10: B/Plasma-Specific Module Decomposition
+
+Status: **completed / refined mechanism carrier**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_b_plasma_decomposition.py`
+- Outputs: `analysis/v36_b_plasma_decomposition/`
+
+Result:
+
+- Patients: `9`.
+- In B/plasma-like compartment:
+  - `delta_IFN_APC` AUC `0.950`, exact p `0.0317`;
+  - locked signed score AUC `0.950`, exact p `0.0317`;
+  - `delta_HLAII` AUC `0.700`;
+  - `delta_RECEPTOR` AUC `0.750`;
+  - `delta_n_cells` AUC `0.800`;
+  - baseline abundance proxies were weaker.
+
+Interpretation:
+
+The refined top lead is not just "B cells changed." In held data, the B/plasma
+carrier is specifically the IFN/APC-derived locked dynamic score, not HLA-II
+alone, receptor genes alone, or simple abundance. This strengthens the
+mechanistic specificity of the B/plasma carrier while preserving the small-n and
+single-cohort caveat.

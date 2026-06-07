@@ -137,10 +137,36 @@
 ### Iteration 9
 
 - Start UTC: 2026-06-07T18:47:17Z
-- Status: in_progress
+- End UTC: 2026-06-07T18:48:14Z
+- Status: completed
 - Item selected: Generate next executable V36 backlog items.
 - Note: The seeded backlog has been worked once; create further executable
   strict-grounding items to continue the 120-minute block.
+- Result: Added follow-up executable items for B/plasma-specific module
+  decomposition, cross-disease B/plasma proxy scout, and RPT second pass with
+  refined B/plasma/T-cell split.
+
+### Iteration 10
+
+- Start UTC: 2026-06-07T18:48:14Z
+- End UTC: 2026-06-07T18:49:15Z
+- Status: completed
+- Item selected: B/plasma-specific module decomposition.
+- Note: Decompose the refined top lead to identify whether B/plasma
+  discrimination is driven by IFN/APC, HLA-II, receptor, or count/fraction
+  components.
+- Result: B/plasma-like discrimination is carried by `delta_IFN_APC` /
+  locked signed score (AUC `0.950`, exact p `0.0317`), not HLA-II alone
+  (AUC `0.700`), receptor genes alone (AUC `0.750`), or baseline abundance.
+  Mechanistic carrier refined to B/plasma IFN/APC dynamic remodeling.
+
+### Iteration 11
+
+- Start UTC: 2026-06-07T18:49:15Z
+- Status: in_progress
+- Item selected: Cross-disease response-cohort B/plasma proxy scout.
+- Note: Search held response cohorts for B/plasma proxy genes or deconvolution
+  features that can independently test the refined B/plasma carrier.
 
 ## Backlog
 
@@ -154,8 +180,8 @@
 | 6 | Metabolic/sterol, lysosomal, complement/lipid, EBV/IFN deepening | done | No upgrades; generated variants remain blocked/proposal-only without new data. |
 | 7 | Deep multi-pass cross-examination | done | Gemini critiques grounded; T/B and postpartum interpretations refined, no upgrade. |
 | 8 | Heavier analyses now affordable | done | Exhaustive compartment-combination scan added overfit warning; no upgrade. |
-| 9 | B/plasma-specific module decomposition | todo | Decompose B/plasma locked signal into IFN/APC, HLA-II, receptor, and count-adjusted components. |
-| 10 | Cross-disease response-cohort B/plasma proxy scout | todo | Search held response cohorts for any B/plasma proxy genes or deconvolution that can test the refined carrier. |
+| 9 | B/plasma-specific module decomposition | done | B/plasma IFN/APC delta carries signal; HLA-II/receptor/counts weaker. |
+| 10 | Cross-disease response-cohort B/plasma proxy scout | in_progress | Search held response cohorts for any B/plasma proxy genes or deconvolution that can test the refined carrier. |
 | 11 | RPT second pass with refined B/plasma/T-cell split | todo | Update structured table with V36 refined features and ask RPT for masked carrier/verdict predictions. |
 
 ## Timing Rule
