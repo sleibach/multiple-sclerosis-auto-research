@@ -636,3 +636,37 @@ delta STAT1-axis. This further demotes a compartment-specific mechanism and
 supports the conservative interpretation: **the measurable biology is a
 STAT1/IFN-axis treatment-response state with compartmental readouts, not an
 independent B/plasma or T-cell process.**
+
+## Iteration 20: Baseline-Versus-Delta Decomposition
+
+Status: **completed / monitoring interpretation strengthened**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_baseline_delta_decomposition.py`
+- Outputs: `analysis/v36_baseline_delta_decomposition/`
+
+Test:
+
+Using the V23 exact compartment scoring method, compare baseline IFN/APC,
+treated IFN/APC, locked delta score, baseline HLA-II, treated HLA-II, and HLA-II
+delta across compartments.
+
+Result:
+
+| Compartment | Best feature | AUC | Exact p | Baseline IFN/APC AUC |
+|---|---|---:|---:|---:|
+| `b_plasma_like` | `treated_IFN_APC` | `1.000` | `0.0159` | `0.500` |
+| `t_cell_like` | `treated_IFN_APC` / `locked_delta_score` | `1.000` | `0.0159` | `0.550` |
+| `myeloid_apc_like` | `treated_IFN_APC` | `1.000` | `0.0159` | `0.650` |
+| `epithelial_like` | `treated_IFN_APC` | `1.000` | `0.0159` | `0.500` |
+| `stromal_endothelial_like` | `treated_IFN_APC` | `0.900` | `0.0635` | `0.500` |
+
+Interpretation:
+
+This strengthens the **monitoring** characterization over baseline
+stratification. Baseline IFN/APC is null or weak, while treated IFN/APC and
+delta readouts dominate. Combined with Iteration 19, the most defensible current
+state is: **responders show a broad on-treatment IFN/APC/STAT1-axis state,
+measurable through T/B compartment readouts, not a baseline patient subtype and
+not a compartment-specific mechanism.**

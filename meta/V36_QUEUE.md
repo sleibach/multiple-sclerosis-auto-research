@@ -299,10 +299,24 @@
 ### Iteration 20
 
 - Start UTC: 2026-06-07T19:09:01Z
-- Status: in_progress
+- End UTC: 2026-06-07T19:11:07Z
+- Status: completed
 - Item selected: Baseline-versus-delta decomposition for compartment readouts.
 - Note: Test whether the refined readouts are monitoring dynamics or baseline
   stratification using exact compartment baseline and treated scores.
+- Result: Monitoring interpretation strengthened. Baseline IFN/APC was null or
+  weak across compartments (`0.500` in B/plasma, `0.550` in T cell), while
+  treated IFN/APC reached AUC `1.000` in B/plasma, T cell, myeloid, and
+  epithelial compartments. The lead is broad on-treatment IFN/APC/STAT1-axis
+  state, not baseline subtype.
+
+### Iteration 21
+
+- Start UTC: 2026-06-07T19:11:07Z
+- Status: in_progress
+- Item selected: Treated-timepoint trajectory and sample-timing audit.
+- Note: Test whether treated IFN/APC dominance reflects W8 monitoring or mixed
+  later timepoint structure.
 
 ## Backlog
 
@@ -326,7 +340,8 @@
 | 16 | Refined tri-source generation after specificity audit | done | Claude/Gemini generated concrete next tests; no evidence upgrade. |
 | 17 | B/plasma-vs-myeloid IFN independence and leave-one-gene module dependence | done | B/plasma-independent mechanism demoted; broad IFN remodeling favored. |
 | 18 | Steroid/global inflammatory marker coverage and residualization check | done | Glucocorticoid did not explain; delta STAT1-axis did. |
-| 19 | Baseline-versus-delta decomposition for compartment readouts | in_progress | Distinguish baseline stratifier from dynamic monitoring readout. |
+| 19 | Baseline-versus-delta decomposition for compartment readouts | done | Baseline weak/null; treated IFN/APC and delta dominate, supporting monitoring. |
+| 20 | Treated-timepoint trajectory and sample-timing audit | in_progress | Test W8 vs later timepoint structure in treated IFN/APC dominance. |
 
 ## Timing Rule
 
