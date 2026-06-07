@@ -222,11 +222,25 @@ Target block end UTC: 2026-06-07T17:37:36Z
 ### Iteration 18
 
 - Start UTC: 2026-06-07T17:21:58Z
-- Status: in_progress
+- End UTC: 2026-06-07T17:23:00Z
+- Status: blocked
 - Item selected: Postpartum APC-arm imbalance relapse-label test in MS pregnancy data.
 - Note: Use local GSE17410/GSE17449 pregnancy-phase expression and relapse
   metadata, if parseable, to test whether HLA-II/CD64 differs by pregnancy
   relapse label despite absent postpartum samples.
+- Result: blocked by missing per-sample relapse labels. The local metadata
+  repeats the study-level statement that relapsing and relapse-free patients
+  were compared, but the held SOFT-derived table and V35 module-score table do
+  not expose a reliable relapse-status column. Title prefixes such as `DD`,
+  `RP`, `SDC`, and `GRA9p` are insufficient for a non-fabricated relapse label.
+
+### Iteration 19
+
+- Start UTC: 2026-06-07T17:23:00Z
+- Status: in_progress
+- Item selected: T/B gate independent-cohort feasibility scout.
+- Note: Search held treatment-response artifacts for another paired
+  compartment-resolved cohort that can replicate the V35 T/B remodeling gate.
 
 ## Backlog
 
@@ -249,7 +263,8 @@ Target block end UTC: 2026-06-07T17:37:36Z
 | 15 | Sorted SLE immune-subset EBV-module feasibility | done | GSE10325 supports only inconclusive CD19 B directional localization after IFN residualization; no EBV metadata. |
 | 16 | EBV-module null-testing robustness | done | GSE108497 host EBV-module-like SLE signal survives timepoint-stratified label permutation; GSE10325 sorted-cell localization remains inconclusive. |
 | 17 | EBV-module random-gene-set specificity control | done | EBV-specific interpretation failed random same-size module control; broad SLE host-state signal remains. |
-| 18 | Postpartum APC-arm imbalance relapse-label test in MS pregnancy data | in_progress | Test pregnancy-phase HLA-II/CD64 scores by relapse label if GSE17410 metadata supports it. |
+| 18 | Postpartum APC-arm imbalance relapse-label test in MS pregnancy data | blocked | Local GSE17410/GSE17449 lacks reliable per-sample relapse labels; title prefixes are not sufficient. |
+| 19 | T/B gate independent-cohort feasibility scout | in_progress | Search held response artifacts for another paired compartment-resolved T/B gate replication cohort. |
 
 ## Timing Rule
 

@@ -702,3 +702,35 @@ Next test:
 - A valid revival requires EBV-stratified MS/SLE B-cell/APC expression where
   the EBV-derived module tracks EBV exposure/load after IFN/APC, composition,
   and random-module controls.
+
+## Iteration 18: MS Pregnancy Relapse-Label Feasibility
+
+Status: **blocked by missing relapse labels**.
+
+Executable grounding attempted:
+
+- Inputs inspected:
+  - `data/derived/GSE17410/sample_metadata.tsv`
+  - `analysis/v35_gse17410_pregnancy_apc/sample_module_scores.tsv`
+  - `analysis/v35_gse17410_pregnancy_apc/pregnancy_phase_tests.tsv`
+
+Result:
+
+- The held GSE17410/GSE17449 metadata repeats the study-level statement that
+  relapsing and relapse-free MS pregnancy patients were compared.
+- The local SOFT-derived metadata and V35 module-score table do not contain a
+  reliable per-sample relapse-status column.
+- Title tokens such as `DD`, `RP`, `SDC`, `SF`, `VB`, and `GRA9p` cannot be
+  converted into relapse labels without guessing.
+
+Interpretation:
+
+The local MS pregnancy data remain useful for pregnancy-phase HLA-II/CD64
+module scoring, but cannot test whether the APC-arm imbalance predicts or
+tracks relapse. The postpartum relapse-window hypothesis remains a data-
+acquisition target.
+
+Next test:
+
+- Acquire the author-level phenotype table if available, or a true postpartum
+  MS cohort with explicit relapse timing and treatment/steroid metadata.
