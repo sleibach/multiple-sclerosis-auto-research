@@ -47,7 +47,7 @@ Minimum next test:
 | 3 | Complement/lipid progressive axis | downgraded: lipid-repair context only; complement not supported donor-aware | Acquire/compute true donor-aware lesion-rim spatial lipid/complement data before reviving |
 | 4 | Metabolic/sterol setpoint | supported as context axis, not intervention-grade | APC-resolved lipidomics plus sterol-pathway perturbation |
 | 5 | Lysosomal APC-processing bottleneck | reframed: coupled lysosomal APC axis, not proven bottleneck | Run functional lysosomal flux / HLA-peptidomics experiment |
-| 6 | MS-SLE EBV/IFN APC imprint | host EBV-transformation module acquired; MS/SLE test still pending | Score host EBV module in MS/SLE B-cell/APC data and residualize against STAT1/IFN |
+| 6 | MS-SLE EBV/IFN APC imprint | host EBV module acquired and separable from IFN/APC in source; MS/SLE test still pending | Score host EBV module in MS/SLE B-cell/APC data and residualize against STAT1/IFN |
 
 ## Iteration 4: T/B Compartment Remodeling Gate
 
@@ -212,6 +212,39 @@ Next test:
 2. Score it in MS/SLE B-cell/APC data when a suitable dataset is present.
 3. Require EBV-serostatus or viral-load metadata before promoting an imprint
    claim.
+
+## Iteration 12: EBV Module IFN/APC Separability
+
+Status: **source-module separable; patient imprint still untested**.
+
+Executable grounding:
+
+- Script: `scripts/v35_ebv_ifn_separability.py`
+- Outputs: `analysis/v35_ebv_ifn_separability/`
+- Inputs: GSE162516 merged RPKM table and top host EBV-transformation modules.
+
+Result:
+
+- Top-100 host EBV-up genes have `0` overlap with the fixed IFN/APC gene set.
+- Top-100 host EBV-down genes have `0` overlap with the fixed IFN/APC gene set.
+- Across the six-point EBV transformation time course, host EBV-up score rises
+  while IFN/APC declines:
+  - Spearman `r = -0.886`, p `0.0188`.
+- Host EBV-down score correlates positively with IFN/APC:
+  - Spearman `r = 0.829`, p `0.0416`.
+
+Interpretation:
+
+The acquired host EBV-transformation up module is not just a relabeled IFN/APC
+module in its source dataset. This makes it suitable for patient-data scoring,
+but a patient EBV-imprint claim still requires MS/SLE B-cell/APC data and
+adjustment for STAT1/IFN/APC tone plus EBV-serostatus or viral-load metadata.
+
+Next test:
+
+- Run a technical portability score in local PBMC data (`GSE17410/GSE17449`) to
+  verify probe coverage and behavior.
+- Do not interpret that as EBV-specific without EBV metadata.
 
 ## Iteration 5: Lysosomal APC-Processing Bottleneck
 

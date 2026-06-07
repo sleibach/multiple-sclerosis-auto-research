@@ -141,10 +141,21 @@ Target block end UTC: 2026-06-07T17:37:36Z
 ### Iteration 12
 
 - Start UTC: 2026-06-07T17:07:38Z
-- Status: in_progress
+- Status: completed
 - Item selected: EBV module IFN/APC separability.
 - Note: Test whether the acquired host EBV-transformation module is distinct
   from generic IFN/APC within GSE162516 before using it on patient data.
+- Result: source-module separable. Top-100 EBV-up/down genes have zero fixed
+  IFN/APC overlap; EBV-up trajectory is negatively correlated with IFN/APC
+  across GSE162516 (`r = -0.886`, p `0.0188`).
+
+### Iteration 13
+
+- Start UTC: 2026-06-07T17:09:21Z
+- Status: in_progress
+- Item selected: EBV module portability in local MS PBMC data.
+- Note: Score acquired host EBV module in GSE17410/GSE17449 as a technical
+  portability test only; no EBV-imprint claim without EBV metadata.
 
 ## Backlog
 
@@ -161,7 +172,8 @@ Target block end UTC: 2026-06-07T17:37:36Z
 | 9 | T/B gate fragility check | done | Fragile but not collapsed; W48 exclusion and all leave-one-patient gaps remain positive. |
 | 10 | GSE17410/GSE17449 postpartum-MS feasibility check | done | Pregnancy-phase HLA/CD64 scoring feasible; postpartum relapse-window data absent. |
 | 11 | EBV-response module acquisition feasibility | done | Host EBV-transformation module acquired from GSE162516; not yet MS/SLE tested. |
-| 12 | EBV module IFN/APC separability | in_progress | Test host EBV module independence from generic IFN/APC across GSE162516 time course. |
+| 12 | EBV module IFN/APC separability | done | Source module separable from IFN/APC by top-gene overlap and trajectory. |
+| 13 | EBV module portability in local MS PBMC data | in_progress | Score EBV host module in GSE17410/GSE17449 as technical portability only. |
 
 ## Timing Rule
 

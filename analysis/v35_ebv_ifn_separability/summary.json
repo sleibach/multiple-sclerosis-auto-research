@@ -1,0 +1,57 @@
+{
+  "correlations": {
+    "ebv_down_vs_ifn_apc_p": 0.04156268221574334,
+    "ebv_down_vs_ifn_apc_spearman": 0.8285714285714287,
+    "ebv_up_vs_ifn_apc_p": 0.01884548104956266,
+    "ebv_up_vs_ifn_apc_spearman": -0.8857142857142858
+  },
+  "grounded_result": "separable_by_gene_overlap_but_timecourse_correlated",
+  "hypothesis": "host EBV module IFN/APC separability",
+  "interpretation": "The acquired host EBV-transformation module is disjoint from the fixed IFN/APC gene set in the top-100 membership. Across the six-point EBV transformation time course, the host EBV-up score rises while the IFN/APC score declines (negative Spearman), so it is separable from generic IFN/APC in this source dataset. In patient data it still must be tested as an EBV residual after STAT1/IFN/APC adjustment, not as a raw standalone imprint score.",
+  "top100_down_overlap_with_ifn_apc": [],
+  "top100_up_overlap_with_ifn_apc": [],
+  "trajectory": [
+    {
+      "ebv_minus_ifn": -9.352024639044489,
+      "host_ebv_down_top100": 6.70257075947628,
+      "host_ebv_up_top100": -2.0132741923196265,
+      "ifn_apc_fixed": 7.3387504467248625,
+      "timepoint": "D0"
+    },
+    {
+      "ebv_minus_ifn": -5.98724830657328,
+      "host_ebv_down_top100": 3.7126491384176528,
+      "host_ebv_up_top100": 1.1759212121665805,
+      "ifn_apc_fixed": 7.16316951873986,
+      "timepoint": "D3"
+    },
+    {
+      "ebv_minus_ifn": -6.407139024142265,
+      "host_ebv_down_top100": 2.555993511049962,
+      "host_ebv_up_top100": 0.680592020951215,
+      "ifn_apc_fixed": 7.08773104509348,
+      "timepoint": "D7"
+    },
+    {
+      "ebv_minus_ifn": -2.316664285770986,
+      "host_ebv_down_top100": -2.1725850239843254,
+      "host_ebv_up_top100": 3.7744862052838926,
+      "ifn_apc_fixed": 6.091150491054878,
+      "timepoint": "D14"
+    },
+    {
+      "ebv_minus_ifn": -2.1238850405842924,
+      "host_ebv_down_top100": -2.3000479417645026,
+      "host_ebv_up_top100": 3.841296397709941,
+      "ifn_apc_fixed": 5.965181438294233,
+      "timepoint": "D21"
+    },
+    {
+      "ebv_minus_ifn": -2.4975191930568257,
+      "host_ebv_down_top100": -2.468223812339709,
+      "host_ebv_up_top100": 3.803346966335782,
+      "ifn_apc_fixed": 6.300866159392608,
+      "timepoint": "LCL"
+    }
+  ]
+}
