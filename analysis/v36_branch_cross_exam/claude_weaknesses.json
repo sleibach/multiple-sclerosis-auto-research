@@ -1,0 +1,16 @@
+```json
+[
+  {
+    "test": "Train a classifier on IFN-beta responder vs non-responder transcriptomes using only HLA-II/CD74 pathway genes (e.g., HLA-DRA, HLA-DRB1, CD74, HLA-DPB1, CIITA), then apply it to held-out DMF and JAK inhibitor cohorts; separately train a classifier on DMF/JAK responders using IFN/APC/STAT1 genes (STAT1, IRF1, IFI44, MX1, ISG15) and test on IFN-beta cohort. Also test transfer to fingolimod, adalimumab, and methotrexate cohorts.",
+    "artifact": "AUROC table with 95% CIs for each train→test drug pair, plus SHAP feature attribution confirming pathway-specific signal; cohorts from GEO/ImmPort (e.g., GSE19285 IFN-beta, GSE126480 DMF, GSE97779 JAK, GSE73721 fingolimod, GSE33377 ADA, GSE15573 MTX).",
+    "weaken_if": "HLA-II/CD74 classifier achieves AUROC >0.7 on DMF/JAK cohorts, OR IFN/APC/STAT1 classifier achieves AUROC >0.7 on IFN-beta cohort, OR either classifier transfers to fingolimod/ADA/MTX with AUROC >0.7 (indicating pathways are not branch-specific or do transfer to excluded drugs).",
+    "support_if": "HLA-II/CD74 classifier AUROC >0.75 on IFN-beta but <0.6 on DMF/JAK; IFN/APC/STAT1 classifier AUROC >0.75 on DMF/JAK but <0.6 on IFN-beta; both classifiers AUROC <0.6 on fingolimod/ADA/MTX."
+  },
+  {
+    "test": "Perform pathway enrichment (GSEA with Reactome/KEGG HLA-II antigen presentation and IFN/STAT1 signaling gene sets) on differentially expressed genes between responders and non-responders within each drug cohort (IFN-beta, DMF, tofacitinib, fingolimod, adalimumab, methotrexate), using matched pre/post-treatment samples.",
+    "artifact": "Forest plot of normalized enrichment scores (NES) with FDR q-values per drug per pathway, derived from at least 3 independent datasets per drug.",
+    "weaken_if": "IFN-beta responders show significant enrichment (FDR<0.05) for IFN/STAT1 but not HLA-II/CD74; OR DMF/JAK responders show enrichment for HLA-II/CD74 but not IFN/STAT1; OR fingolimod/ADA/MTX responders show significant enrichment in either pathway with effect sizes comparable to the assigned drugs.",
+    "support_if": "IFN-beta responders selectively enrich HLA-II/CD74 (NES>1.5, FDR<0.05) without IFN/STAT1 enrichment; DMF and JAK responders selectively enrich IFN/APC/STAT1; fingolimod, ADA, and MTX show no significant enrichment (FDR>0.25) in either pathway."
+  }
+]
+```

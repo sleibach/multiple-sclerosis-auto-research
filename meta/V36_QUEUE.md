@@ -687,11 +687,27 @@
 
 ### Iteration 47
 
+- Start UTC: 2026-06-07T20:08:43Z
+- End UTC: 2026-06-07T20:11:50Z
+- Status: completed
+- Item selected: Continue autonomous V36 block with next executable
+  self-generated item.
+- Note: Run a focused Claude/Gemini cross-exam of the new therapy-branch
+  interpretation and ground any immediately testable weakness.
+- Result: Gemini repeatedly failed with `MAX_TOKENS` even on compact prompts.
+  Claude returned two broad cross-drug classifier/GSEA proposals, but they are
+  not executable with the held V36 artifact set as written because they require
+  additional raw responder/nonresponder cohorts across therapy classes. No
+  upgrade; closest held-data substitute was already executed in Iterations
+  39-46.
+
+### Iteration 48
+
 - Start UTC: pending
 - Status: todo
 - Item selected: Continue autonomous V36 block with next executable
   self-generated item.
-- Note: Block runtime remains below 120 minutes after Iteration 46.
+- Note: Block runtime remains below 120 minutes after Iteration 47.
 
 ## Backlog
 

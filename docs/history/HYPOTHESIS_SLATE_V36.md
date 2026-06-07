@@ -1543,3 +1543,33 @@ baseline HLA-II stratifier. This complements `GSE138064`, where baseline HLA-II
 competence was strong. The IFN-beta branch may contain both baseline competence
 and early induction depending on cohort design and timing; future IFN-beta
 validation should report both rather than collapsing them.
+
+## Iteration 47: Therapy-Branch Model Cross-Exam
+
+Status: **completed / model proposals not immediately executable**.
+
+Executable artifacts:
+
+- Prompt: `analysis/v36_branch_cross_exam/prompt.md`
+- Ultra-compact prompt:
+  `analysis/v36_branch_cross_exam/ultra_compact_prompt.md`
+- Claude output: `analysis/v36_branch_cross_exam/claude_weaknesses.json`
+
+Result:
+
+Gemini failed repeatedly with `MAX_TOKENS`, including compact and ultra-compact
+prompts. Claude produced two broad tests:
+
+1. Train pathway-specific classifiers across IFN-beta, DMF/JAK, fingolimod,
+   adalimumab, and methotrexate cohorts and test cross-drug transfer.
+2. Run pathway GSEA responder/nonresponder enrichment across multiple
+   independent datasets per drug.
+
+Grounding verdict:
+
+Both proposals are scientifically reasonable but not executable with the held
+V36 artifact set as written. They require additional cohorts or raw
+responder/nonresponder transcriptomes not currently local for every therapy
+class. The closest held-data substitute was already executed in Iterations
+39-46: branch-map consolidation, IFN-beta timing/dose audits, and MS DMT
+sensitivity. No new finding or upgrade is made from the model output.
