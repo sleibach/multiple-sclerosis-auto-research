@@ -11,7 +11,7 @@ All analysis uses public human-tissue data only and random seed `20260526`
 
 ## Current Status
 
-The current phase is **V32**. The V4 directory structure remains canonical, and
+The current phase is **V33**. The V4 directory structure remains canonical, and
 V11 introduced the resume backbone for short-session continuity.
 
 - Start here: `meta/CURRENT_STATUS.md` — the live mission state, active leads,
@@ -60,6 +60,15 @@ V11 introduced the resume backbone for short-session continuity.
   early-monitoring lead, not a pure APC/HLA-II-specific biomarker and not a
   glucocorticoid or composition artifact. Future validation must report V32
   confounder-adjusted results alongside the immutable V22 locked score.
+- Current exploratory frontier: V33 generated and grounded a fresh hypothesis
+  slate after the treatment-response lead became computationally settled pending
+  fresh data. Claude produced five usable compact proposals; Gemini
+  smoke-passed but generation output truncated and was not counted. Agent-native
+  grounding ranked six fresh hypotheses. Top grounded leads are the postpartum
+  HLA-II/CD64 APC split as a relapse-window state, a lysosomal APC-processing
+  bottleneck, and a complement/lipid negative pole as a progressive/tissue-
+  repair axis. No V33 hypothesis is intervention-grade. See
+  `docs/history/HYPOTHESIS_SLATE_V33.md`.
 - Current genetics/data focus: the chr1 MS-UC causal-gene question is
   computationally resolved for now and handed forward as real shared genetics,
   not an intervention-grade target. V20 widened back out to a ranked

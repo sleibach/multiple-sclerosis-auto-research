@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-07 12:20 CEST
+Last updated: 2026-06-07 13:05 CEST
 
 ## Mission State
 
@@ -37,6 +37,10 @@ metabolic/inflammatory/STAT1 joint adjustment attenuated but did not fully
 explain away the signal, so the lead is now classified as partially
 confounded / immune-tone bounded rather than a glucocorticoid or composition
 artifact.
+V33 pivoted back to exploratory hypothesis generation. Claude generated usable
+compact proposals; Gemini smoke-passed but generation outputs truncated and were
+not counted. Agent-native grounding produced a fresh ranked hypothesis slate.
+No therapeutic hypothesis reached intervention-grade status.
 
 Current frontier:
 
@@ -167,6 +171,25 @@ Current frontier:
   - `docs/validation/VALIDATION_READINESS_V27.md` now requires future
     validation to report V32 confounder-adjusted results alongside the
     immutable V22 primary score.
+- V33 exploratory hypothesis slate:
+  - Report: `docs/history/HYPOTHESIS_SLATE_V33.md`.
+  - Script: `scripts/v33_ground_hypotheses.py`.
+  - Outputs: `analysis/v33_hypothesis_generation/`.
+  - Usable generated hypotheses: Claude `5`; Gemini `0` because generated JSON
+    was malformed/truncated despite smoke-passing.
+  - Grounded agent-native hypotheses: `6`.
+  - Ranked fresh shortlist:
+    1. postpartum HLA-II/CD64 APC split as relapse-window state;
+    2. lysosomal APC-processing bottleneck;
+    3. complement/lipid negative pole as progressive/tissue-repair axis;
+    4. T/B compartment remodeling gate;
+    5. metabolic/sterol setpoint;
+    6. MS-SLE EBV/IFN APC imprint.
+  - Best current fresh biology lead: postpartum HLA-II/CD64 APC split, supported
+    as state biology but needing MS postpartum relapse-timing data.
+  - Best current mechanism hypothesis: lysosomal APC-processing bottleneck,
+    supported by V26 replicated module dependencies but needing functional
+    lysosomal/protein perturbation evidence.
 - `GPR25` remains a live eQTLGen-supported lead, but not a protected favorite:
   public V18 immune-QTL sources did not support it, and its required therapeutic
   direction is agonism/restoration of a sparsely tooled receptor.

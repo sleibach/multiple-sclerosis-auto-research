@@ -638,3 +638,38 @@ Next session first action:
 - Model lens used and spend: Claude and Gemini smoke tests were verified via
   SAP AI Core before the audit; no new model-grounded scientific claim was made
   and no separate paid-service spend was recorded.
+
+## RUN SUMMARY - V33 Exploratory Hypothesis Generation and Grounded Triage
+
+- Active runtime: 9 minutes 59 seconds, measured from real system-clock reads
+  at session start and end; no usage-limit waiting occurred, so active runtime
+  equals total elapsed wall-clock time.
+- Session start timestamp (UTC): 2026-06-07T10:46:08Z.
+- Session end timestamp (UTC): 2026-06-07T10:56:07Z.
+- Frontier advanced: generated and grounded a fresh exploratory hypothesis
+  slate after the V22 treatment-response lead became computationally settled
+  pending external validation.
+- Stop reason: completed available V33 generation, local grounding, resume
+  updates, README update, and RAG rebuild.
+- Next action: search/acquire postpartum MS relapse-timing blood/CSF data for
+  the HLA-II-minus-CD64 trajectory; in parallel scout APC perturbation data for
+  cathepsin/V-ATPase/lysosomal flux and progressive/chronic-active lesion data
+  for complement/lipid negative-pole testing.
+- Hypotheses generated: Claude `5` usable compact hypotheses; Gemini `0`
+  usable hypotheses because generation outputs were malformed/truncated despite
+  smoke-passing; agent-native grounded hypotheses `6`.
+- Hypotheses grounded: `6` local hypotheses triaged; counts were `1`
+  supported, `1` supported as state biology not biomarker, `1` supported
+  structure needing stage data, `1` supported biomarker context not target, `1`
+  inconclusive but prioritized, and `1` promising but untestable with current
+  module data.
+- Ranked novel shortlist: postpartum HLA-II/CD64 APC split as relapse-window
+  state; lysosomal APC-processing bottleneck; complement/lipid negative pole as
+  progressive/tissue-repair axis; T/B compartment remodeling gate;
+  metabolic/sterol setpoint; MS-SLE EBV/IFN APC imprint.
+- Multi-lineage exploration value: partial. Claude added divergent hypotheses;
+  Gemini access worked for smoke tests but generation truncation prevented true
+  two-lineage hypothesis triangulation.
+- Model lineages used and spend: Claude 4.7 Opus and Gemini 2.5 Pro via SAP AI
+  Core smoke-tested; Claude used for one valid short generation. No separate
+  paid-service spend was recorded in-repo.

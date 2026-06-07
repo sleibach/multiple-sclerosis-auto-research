@@ -1,0 +1,77 @@
+{
+  "hypotheses": [
+    {
+      "short_name": "APC_cholesterol_loading_set_point",
+      "hypothesis": "The coupled APC remodeling architecture (HLA-II, CD74/MIF, lysosomal processing) is set by macrophage/DC cholesterol and oxysterol flux (LXR/SREBP2/CH25H axis), such that cholesterol efflux state — not any single surface receptor — gates antigen presentation tone in MS APCs.",
+      "why_new_or_underexplored": "Project has stayed in adaptive-immunity and genetic-locus framing; immunometabolic lipid set-points as the upstream knob of the APC architecture have not been examined as a unifying explanation for coupled HLA-II/CD74/IFN readouts.",
+      "testable_prediction": "In existing single-cell APC data, a sterol-handling signature (ABCA1/ABCG1/NR1H3/CH25H/SREBF2) will co-vary with the V22-like APC/HLA-II scalar across donors and treatment timepoints, more tightly than canonical IFN modules.",
+      "data_to_test_now": ["single-cell", "treatment-response", "literature/public"],
+      "risk_of_artifact": "Sterol genes are tone-correlated with general activation; co-variation could be a passenger of monocyte differentiation state rather than causal regulation.",
+      "therapeutic_or_biomarker_angle": "Repurposing of LXR agonists, ACAT inhibitors, or statin-class agents stratified by APC sterol-signature high vs low; biomarker = sterol-handling APC score paired with HLA-II scalar.",
+      "minimum_grounding_test": "Show APC sterol module explains residual variance of the HLA-II/CD74 scalar after immune-tone covariates, in held-out cohort."
+    },
+    {
+      "short_name": "lysosomal_pH_cathepsin_bottleneck",
+      "hypothesis": "MS APC remodeling is rate-limited by lysosomal acidification and cathepsin S/L proteolytic balance (V-ATPase, CLN/TMEM proteins), which non-genetically constrains HLA-II peptide loading; this explains why surface-receptor single targets keep failing — the bottleneck is intra-organelle, not at the synapse.",
+      "why_new_or_underexplored": "Project's deep structure flags lysosomal processing as a node but has not tested it as the limiting variable; cathepsin-S inhibitor failures in autoimmunity have discouraged the field, but pH/processing breadth has not been re-examined in MS APCs.",
+      "testable_prediction": "Lysosomal/V-ATPase and cathepsin transcript/protein modules will rank above surface costimulation modules in predicting the APC scalar and its treatment-time trajectory.",
+      "data_to_test_now": ["single-cell", "perturbation", "treatment-response"],
+      "risk_of_artifact": "Lysosomal genes track monocyte maturation; needs orthogonal protein/functional readout (DQ-OVA, LysoTracker proxies) to avoid transcript-only confound.",
+      "therapeutic_or_biomarker_angle": "Modality-matched: selective cathepsin-S modulators or V-ATPase tone modulators only in lysosome-high APC subset; biomarker = lysosomal-processing APC score.",
+      "minimum_grounding_test": "In available perturbation/drug-response datasets, lysosomal acidification perturbation should shift the HLA-II/CD74 coupled module in the predicted direction."
+    },
+    {
+      "short_name": "meningeal_stromal_niche_relay",
+      "hypothesis": "Meningeal fibroblast/stromal niches (CCL19+ fibroblastic reticular-like cells, lymphotoxin-β responsive) sustain compartmentalized B/APC aggregates in progressive MS, and the relevant therapeutic node is stromal LTβR/BAFF/CXCL13 cross-talk rather than a lymphocyte-intrinsic target.",
+      "why_new_or_underexplored": "Project has focused on peripheral APC scalars and gut-shared genetics; tissue-niche stromal biology in CNS borders is outside its current scope and could explain progression-phase failures of T/B-cell-only drugs.",
+      "testable_prediction": "Cross-disease meningeal/lymphoid-stroma signatures (from RA synovium, tertiary lymphoid structure atlases) will project onto MS CSF/lesion data and identify a subset with high CXCL13/BAFF independent of peripheral APC tone.",
+      "data_to_test_now": ["single-cell", "literature/public", "disagreement_matrix"],
+      "risk_of_artifact": "Tissue-of-origin batch effects and rarity of CNS stromal cells in public data; signatures may reflect contamination.",
+      "therapeutic_or_biomarker_angle": "LTβR decoy, anti-CXCL13, or selective BAFF modulation indication-shaped to progressive/compartmentalized disease; CSF CXCL13 as enrichment biomarker.",
+      "minimum_grounding_test": "Show stromal-niche signature segregates a progressive-MS subgroup not captured by peripheral V22 APC scalar (orthogonality check)."
+    },
+    {
+      "short_name": "postpartum_metabolic_window",
+      "hypothesis": "The dormant postpartum HLA-II/CD64 APC split is driven by a transient lipid/bile-acid and prolactin-linked metabolic reset (FXR/PXR, sphingolipid rebound) rather than direct hormonal immunomodulation, defining a stage-specific therapeutic window.",
+      "why_new_or_underexplored": "Postpartum MS biology is usually framed hormonally (estrogen/progesterone); a metabolic-reset framing aligned with the project's APC architecture has not been tried.",
+      "testable_prediction": "Postpartum APC-split donors will show coordinated shifts in bile-acid/sphingolipid-responsive transcripts (NR1H4, sphingolipid enzymes) preceding the HLA-II/CD64 divergence.",
+      "data_to_test_now": ["single-cell", "treatment-response", "literature/public"],
+      "risk_of_artifact": "Small postpartum cohorts; metabolic signatures confounded by lactation, sleep, BMI rebound.",
+      "therapeutic_or_biomarker_angle": "Time-bounded FXR/PXR or sphingolipid-axis intervention during the postpartum window; biomarker panel for relapse-risk stratification.",
+      "minimum_grounding_test": "Replicate the HLA-II/CD64 split in independent postpartum data and show metabolic module timing is upstream."
+    },
+    {
+      "short_name": "single_target_failure_is_degeneracy",
+      "hypothesis": "Single-target MS leads keep failing because the APC remodeling architecture is a degenerate (multi-input, redundant) control system: HLA-II output is buffered by parallel inputs (IFN, MIF/CD74, lysosomal flux, sterols), so any one-node perturbation is compensated within days.",
+      "why_new_or_underexplored": "The project notes coupled architecture but has not formalized degeneracy as the failure model; this reframes druggability away from nodes toward edges/combinations.",
+      "testable_prediction": "In perturbation datasets (CRISPR, drug screens) on monocyte/DC lines, knocking single nodes of the coupled module will show <30% durable shift in the composite scalar, while paired perturbations across orthogonal arms will exceed additive expectation.",
+      "data_to_test_now": ["perturbation", "single-cell", "disagreement_matrix"],
+      "risk_of_artifact": "Compensation may be an in vitro phenomenon or reflect timescale mismatch with in vivo treatment data.",
+      "therapeutic_or_biomarker_angle": "Justifies rational combination repurposing (e.g., IFN-arm + lysosomal-arm) rather than new monotherapy targets; argues against further monogenic lead-hunting.",
+      "minimum_grounding_test": "Demonstrate buffering quantitatively: in existing perturbation data, fit a degeneracy score and show MS-relevant APC modules score higher than matched non-immune modules."
+    },
+    {
+      "short_name": "complement_C1q_tagging_of_APC_state",
+      "hypothesis": "Microglial/macrophage C1q expression marks and mechanistically reinforces the high-HLA-II APC state via local complement-opsonized myelin uptake, linking innate tagging to adaptive presentation; relevant axis is C1q/C3-CR3, not terminal complement.",
+      "why_new_or_underexplored": "MS complement focus has been on terminal pathway and biomarkers; upstream tagging coupling to the APC scalar is not part of project's current frame.",
+      "testable_prediction": "C1QA/B/C and CR3 (ITGAM/ITGB2) modules in myeloid cells will co-segregate with the HLA-II/CD74 scalar and with lesion-proximal microglial states in public CNS atlases.",
+      "data_to_test_now": ["single-cell", "literature/public"],
+      "risk_of_artifact": "C1q is a generic microglial activation marker; co-segregation may be non-specific.",
+      "therapeutic_or_biomarker_angle": "Upstream-complement (C1q/C3) modulation in myeloid-defined subgroup; CSF C1q as APC-state biomarker.",
+      "minimum_grounding_test": "Show C1q-myeloid module adds predictive value beyond IFN tone for the APC scalar in held-out single-cell data."
+    },
+    {
+      "short_name": "iron_ferroptosis_APC_coupling",
+      "hypothesis": "Iron handling in CNS-border and CSF myeloid cells (FTL/FTH1, SLC40A1, NRF2/GPX4 axis) couples to APC remodeling: iron-loaded macrophages adopt a distinct HLA-II/lysosomal state that drives chronic active lesion expansion, independent of peripheral lymphocyte activity.",
+      "why_new_or_underexplored": "Iron rim biology is recognized radiologically but rarely linked computationally to the APC architecture the project has built.",
+      "testable_prediction": "Iron-handling myeloid signatures will identify a chronic-active-lesion-like APC state that is orthogonal to V22 peripheral scalar and to anti-CD20 response.",
+      "data_to_test_now": ["single-cell", "literature/public", "disagreement_matrix"],
+      "risk_of_artifact": "Iron genes overlap with general macrophage maturation; need lesion-localized data.",
+      "therapeutic_or_biomarker_angle": "Iron chelation or GPX4/NRF2 modulation in PIRA/chronic-active subgroup; QSM-imaging-defined biomarker stratification.",
+      "minimum_grounding_test": "Show iron-myeloid module predicts a non-V22 axis of variance in MS myeloid single-cell data."
+    },
+    {
+      "short_name": "EBV_cross_disease_APC_imprint",
+      "hypothesis": "EBV-driven chronic B-cell and APC imprinting (LMP1/EBNA-induced HLA-II, CD40, IRF signatures) provides a cross-disease (MS/lupus/RA) shared APC remodeling axis that overlaps but is distinguishable from the V22 scalar, identifying an EBV-imprint subgroup.",
+      "why_new_or_underexplored": "EBV is acknowledged as MS trigger but rarely operationalized as a quantitative APC-imprint module compared across autoimmune diseases.",
+      "testable_prediction": "An LMP1/EBNA-response transcriptional module will show partial overlap with V22 and

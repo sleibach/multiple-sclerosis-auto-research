@@ -1,6 +1,6 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-06-07 12:20 CEST
+Last updated: 2026-06-07 13:05 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
@@ -59,6 +59,32 @@ First V32 continuation action:
    HLA-II/CD64 APC-axis biology lead from V29/V31 using existing data.
 3. Optional hardening: scout a direct public steroid-pulse transcriptomic cohort
    to benchmark the glucocorticoid signature control.
+
+V33 update:
+
+- Exploratory hypothesis slate written:
+  `docs/history/HYPOTHESIS_SLATE_V33.md`.
+- Grounding outputs are in `analysis/v33_hypothesis_generation/`.
+- Claude generated five usable compact hypotheses; Gemini generation output was
+  malformed/truncated and was not counted.
+- Grounded shortlist:
+  1. postpartum HLA-II/CD64 APC split as relapse-window state;
+  2. lysosomal APC-processing bottleneck;
+  3. complement/lipid negative pole as progressive/tissue-repair axis;
+  4. T/B compartment remodeling gate;
+  5. metabolic/sterol setpoint;
+  6. MS-SLE EBV/IFN APC imprint.
+- No V33 hypothesis is intervention-grade.
+
+First V33 continuation action:
+
+1. Search for or acquire postpartum MS relapse-timing blood/CSF data to test
+   whether HLA-II-minus-CD64 trajectory precedes relapse.
+2. In parallel, scout APC perturbation data for cathepsin/V-ATPase/lysosomal
+   flux perturbations to ground the lysosomal APC bottleneck.
+3. If progressive/chronic-active lesion data are local or reachable, test the
+   complement/lipid negative pole against lesion-rim/progression markers and
+   orthogonality to the V22 APC/HLA-II scalar.
 
 No unresolved supported V12 cells remain. V14 has added a first-pass locus
 landscape and prior-sensitivity layer over the V13 OpenGWAS coloc results.
