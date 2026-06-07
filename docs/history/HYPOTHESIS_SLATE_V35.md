@@ -42,7 +42,7 @@ Minimum next test:
 
 | Rank | Hypothesis | V35 status | Next action |
 |---:|---|---|---|
-| 1 | T/B compartment remodeling gate | supported but small-n | Replicate in an independent paired response cohort with sorted or single-cell T/B compartments |
+| 1 | T/B compartment remodeling gate | supported but small-n; W48/leave-one fragility check did not collapse | Replicate in an independent paired response cohort with sorted or single-cell T/B compartments |
 | 2 | Postpartum HLA-II/CD64 APC-arm imbalance trajectory | partially grounded / needs MS postpartum data | Acquire true postpartum MS relapse-window immune cohort |
 | 3 | Complement/lipid progressive axis | downgraded: lipid-repair context only; complement not supported donor-aware | Acquire/compute true donor-aware lesion-rim spatial lipid/complement data before reviving |
 | 4 | Metabolic/sterol setpoint | supported as context axis, not intervention-grade | APC-resolved lipidomics plus sterol-pathway perturbation |
@@ -89,6 +89,41 @@ Next test:
   robust bulk deconvolution.
 - Reject or downgrade if the T/B advantage disappears under cohort-level
   replication or after steroid/cell-composition adjustment.
+
+## Iteration 9: T/B Gate Fragility Check
+
+Status: **fragile but not collapsed**.
+
+Executable grounding:
+
+- Script: `scripts/v35_tb_gate_fragility.py`
+- Outputs: `analysis/v35_tb_gate_fragility/`
+- Dataset: exact V23 `GSE253006` compartment paired scores.
+
+Result:
+
+- Original T/B-minus-non-T/B AUC gap: `0.158`.
+- Excluding the lone W48 responder (`TOF_009`) leaves the gap essentially
+  unchanged at `0.156`.
+- Leave-one-patient gaps all remain positive:
+  - minimum `0.115`;
+  - maximum `0.211`;
+  - `0 / 9` leave-one runs had zero or negative gate gap.
+- T-cell-like AUC remains `1.0` in every leave-one run; B/plasma-like AUC ranges
+  from `0.933` to `1.0`.
+
+Interpretation:
+
+The T/B compartment gate is not simply an artifact of the single W48 sample or
+one obvious influential patient. It remains too small and same-cohort to claim
+generalizability, but it is stronger than a raw n=9 AUC observation.
+
+Next test:
+
+- Independent paired cohort with sorted or single-cell T/B compartments remains
+  mandatory.
+- In the validation harness, include a pre-specified leave-one and timepoint
+  leverage report so a future apparent pass cannot hide single-subject leverage.
 
 ## Iteration 5: Lysosomal APC-Processing Bottleneck
 

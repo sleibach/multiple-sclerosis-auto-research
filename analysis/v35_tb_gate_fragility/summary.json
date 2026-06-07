@@ -1,0 +1,30 @@
+{
+  "exclude_W48": {
+    "compartment_aucs": {
+      "b_plasma_like": 0.9375,
+      "epithelial_like": 0.875,
+      "myeloid_apc_like": 0.875,
+      "stromal_endothelial_like": 0.6875,
+      "t_cell_like": 1.0
+    },
+    "n_patients": 8,
+    "tb_minus_non_tb_auc_gap": 0.15625
+  },
+  "grounded_result": "fragile_but_not_collapsed",
+  "hypothesis": "T/B compartment remodeling gate fragility",
+  "interpretation": "The T/B gate remains directionally positive under leave-one-patient and W48 exclusion checks, but the gap varies substantially in n=8 subsets. This is compatible with a real compartment context signal but is too fragile for a generalizable biomarker claim without independent replication.",
+  "leave_one_patient_gap_max": 0.21111111111111114,
+  "leave_one_patient_gap_min": 0.11458333333333337,
+  "leave_one_patient_n_negative_or_zero_gap": 0,
+  "original": {
+    "compartment_aucs": {
+      "b_plasma_like": 0.95,
+      "epithelial_like": 0.9,
+      "myeloid_apc_like": 0.8,
+      "stromal_endothelial_like": 0.75,
+      "t_cell_like": 1.0
+    },
+    "n_patients": 9,
+    "tb_minus_non_tb_auc_gap": 0.15833333333333321
+  }
+}

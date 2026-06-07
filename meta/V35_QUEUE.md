@@ -106,10 +106,21 @@ Target block end UTC: 2026-06-07T17:37:36Z
 ### Iteration 9
 
 - Start UTC: 2026-06-07T16:57:06Z
-- Status: in_progress
+- Status: completed
 - Item selected: T/B gate fragility check.
 - Note: Stress-test the n=9 tofacitinib T/B signal for leave-one-patient and
   W48 timepoint leverage.
+- Result: fragile but not collapsed. Excluding the lone W48 patient keeps the
+  T/B-minus-non-T/B AUC gap at `0.156`; all leave-one-patient gaps remain
+  positive (`0.115` to `0.211`).
+
+### Iteration 10
+
+- Start UTC: 2026-06-07T16:58:36Z
+- Status: in_progress
+- Item selected: GSE17410/GSE17449 postpartum-MS feasibility check.
+- Note: Determine whether local pregnancy MS files can support HLA-II/CD64
+  module scoring now or only metadata-level cohort specification.
 
 ## Backlog
 
@@ -123,7 +134,8 @@ Target block end UTC: 2026-06-07T17:37:36Z
 | 6 | Metabolic/sterol setpoint | done | Supported as context axis; not intervention-grade without APC-resolved lipidomics/perturbation. |
 | 7 | Two-lineage cross-examination of grounded hypotheses | done | Both lineages converged on T/B replication, postpartum data acquisition, and donor-aware complement/lipid hardening. |
 | 8 | Donor-aware complement/lipid progressive-axis hardening | done | Downgraded: donor-level test supports lipid-repair context only; complement not supported. |
-| 9 | T/B gate fragility check | in_progress | Stress-test n=9 tofacitinib result for influential patients/timepoints. |
+| 9 | T/B gate fragility check | done | Fragile but not collapsed; W48 exclusion and all leave-one-patient gaps remain positive. |
+| 10 | GSE17410/GSE17449 postpartum-MS feasibility check | in_progress | Determine whether local pregnancy MS files can support HLA-II/CD64 module scoring or only metadata-level triage. |
 
 ## Timing Rule
 
