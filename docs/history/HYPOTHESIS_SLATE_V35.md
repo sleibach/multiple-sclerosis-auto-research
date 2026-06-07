@@ -45,9 +45,9 @@ Minimum next test:
 | 1 | T/B compartment remodeling gate | supported but small-n | Replicate in an independent paired response cohort with sorted or single-cell T/B compartments |
 | 2 | Postpartum HLA-II/CD64 APC-arm imbalance trajectory | partially grounded / needs MS postpartum data | Acquire true postpartum MS relapse-window immune cohort |
 | 3 | Complement/lipid progressive axis | partially grounded | Run donor-aware chronic-active lesion-edge test |
-| 4 | Lysosomal APC-processing bottleneck | reframed: coupled lysosomal APC axis, not proven bottleneck | Run functional lysosomal flux / HLA-peptidomics experiment |
-| 5 | MS-SLE EBV/IFN APC imprint | needs data | Acquire/build EBV-response module and EBV-stratified MS/SLE B-cell/APC data |
-| 6 | Metabolic/sterol setpoint | todo | Score explicit sterol genes and relate to V32 immune tone |
+| 4 | Metabolic/sterol setpoint | supported as context axis, not intervention-grade | APC-resolved lipidomics plus sterol-pathway perturbation |
+| 5 | Lysosomal APC-processing bottleneck | reframed: coupled lysosomal APC axis, not proven bottleneck | Run functional lysosomal flux / HLA-peptidomics experiment |
+| 6 | MS-SLE EBV/IFN APC imprint | needs data | Acquire/build EBV-response module and EBV-stratified MS/SLE B-cell/APC data |
 
 ## Iteration 4: T/B Compartment Remodeling Gate
 
@@ -132,6 +132,59 @@ Minimum next test:
    transcript modules.
 3. Reject the bottleneck interpretation if lysosomal perturbation changes
    transcript modules without changing antigen-processing output.
+
+## Iteration 6: Metabolic/Sterol Setpoint
+
+Status: **supported as context axis, not intervention-grade**.
+
+Executable grounding:
+
+- Script: `scripts/v35_metabolic_sterol_setpoint.py`
+- Outputs: `analysis/v35_metabolic_sterol_setpoint/`
+- Inputs:
+  - V32 confounder audit metrics;
+  - `GSE180759` chronic-active MS lesion single-nucleus expression;
+  - `ST003328` MS cellular lipidomics from Metabolomics Workbench.
+
+Result:
+
+- V32 metabolic/inflammatory/STAT1 joint adjustment attenuated the bounded V22
+  monitoring signal from raw locked AUC `0.811` to joint-adjusted AUC `0.656`
+  with permutation p `0.163`; this was an attenuation result, not a full
+  explanation.
+- `ST003328` cholesterol is higher in progressive MS-derived iNSC models than
+  AMC controls:
+  - untreated PMS vs AMC: delta log2 cholesterol `5.254`, Hedges g `4.417`,
+    Welch p `1.13e-05`;
+  - simvastatin-treated PMS vs AMC: delta log2 cholesterol `4.416`,
+    Hedges g `4.958`, Welch p `1.22e-07`.
+- Simvastatin lowers cholesterol in both groups:
+  - AMC: delta log2 `-3.501`, p `1.52e-04`;
+  - PMS: delta log2 `-4.339`, p `1.46e-13`.
+- In `GSE180759` immune cells, chronic-active lesion edge shows modestly higher
+  cholesterol-synthesis transcript module versus control white matter:
+  Hedges g `0.269`, Welch p `4.96e-18`, genes
+  `HMGCR;HMGCS1;SQLE;SREBF2;LDLR;INSIG1`.
+- LXR/efflux genes are not elevated at chronic-active edge in this quick test:
+  Hedges g `-0.118`, p `0.177`.
+
+Interpretation:
+
+Metabolic/sterol biology is a real context layer for MS immune/tissue state and
+for the treatment-response signal's confounding boundary. It is **not** yet a
+direct therapeutic hypothesis: the evidence currently mixes iNSC lipidomics,
+lesion-edge transcript state, and treatment-response confounding rather than a
+single APC-resolved causal sterol pathway with a direction-matched modality.
+
+Minimum next test:
+
+1. APC-resolved MS blood/CSF or lesion lipidomics with cholesterol, oxysterols,
+   and cholesterol-efflux markers.
+2. Perturb LXR/ABCA1/ABCG1/CH25H/SREBF2 in APCs and measure APC/HLA-II response
+   modules plus lipid output.
+3. Reject the therapeutic interpretation if sterol signal remains
+   tissue/metabolism-only and does not modulate APC remodeling after immune-tone
+   adjustment.
 
 ## Iteration 3: Complement/Lipid Progressive Axis
 

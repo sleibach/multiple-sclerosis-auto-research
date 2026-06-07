@@ -69,10 +69,24 @@ Target block end UTC: 2026-06-07T17:37:36Z
 ### Iteration 6
 
 - Start UTC: 2026-06-07T16:48:03Z
-- Status: in_progress
+- Status: completed
 - Item selected: Metabolic/sterol setpoint.
 - Note: Ground against existing metabolic module data and relate to V32
   immune-tone confounding.
+- Result: supported as context axis, not intervention-grade. V32
+  metabolic/inflammatory/STAT1 joint adjustment attenuates the monitoring
+  signal (AUC `0.811` to `0.656`); ST003328 shows higher cholesterol in
+  progressive MS-derived iNSC models and simvastatin lowering; GSE180759 shows
+  modest cholesterol-synthesis transcript elevation at chronic-active lesion
+  edge immune cells.
+
+### Iteration 7
+
+- Start UTC: 2026-06-07T16:52:14Z
+- Status: in_progress
+- Item selected: Two-lineage cross-examination of grounded hypotheses.
+- Note: Ask Claude and Gemini for fatal weakness/strongest test of the grounded
+  V35 shortlist; use as prioritization only, not evidence.
 
 ## Backlog
 
@@ -83,8 +97,8 @@ Target block end UTC: 2026-06-07T17:37:36Z
 | 3 | Complement/lipid progressive axis | done | Partially grounded; lipid-repair immune component at chronic-active edge, complement not yet uniquely supported. |
 | 4 | T/B compartment remodeling gate | done | Supported but small-n; T/B-like AUC advantage p=0.0635 by exact patient-label permutation in n=9 tofacitinib cohort. |
 | 5 | Lysosomal APC-processing bottleneck | done | Reframed as coupled lysosomal APC arm; functional bottleneck remains unproven without lysosomal flux/HLA-peptidomics. |
-| 6 | Metabolic/sterol setpoint | in_progress | Ground against existing metabolic module data and V32 immune-tone finding. |
-| 7 | Two-lineage cross-examination of grounded hypotheses | todo | Use Claude/Gemini only after concrete data-grounded results exist. |
+| 6 | Metabolic/sterol setpoint | done | Supported as context axis; not intervention-grade without APC-resolved lipidomics/perturbation. |
+| 7 | Two-lineage cross-examination of grounded hypotheses | in_progress | Use Claude/Gemini only after concrete data-grounded results exist. |
 
 ## Timing Rule
 

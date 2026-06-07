@@ -1,0 +1,95 @@
+{
+  "grounded_result": "supported_as_context_axis_not_intervention_grade",
+  "hypothesis": "metabolic/sterol setpoint",
+  "interpretation": "Metabolic/sterol state is a real context layer: V32 metabolic/inflammatory/STAT1 adjustment attenuates the monitoring signal, ST003328 shows higher cholesterol in progressive MS-derived neural stem-cell models and strong simvastatin lowering, and lesion-edge immune cells show sterol-handling transcript context. This is not yet a direct MS therapeutic hypothesis because current evidence mixes iNSC lipidomics, lesion transcript state, and treatment-response confounding rather than a unified APC-resolved causal sterol pathway.",
+  "metabolic_single_panels_n": 6,
+  "minimum_next_test": [
+    "APC-resolved MS blood/CSF or lesion lipidomics with oxysterols and cholesterol-efflux markers.",
+    "Perturb LXR/ABCA1/ABCG1/CH25H/SREBF2 axis in APCs and measure APC/HLA-II response modules plus lipid output.",
+    "Reject therapeutic interpretation if sterol signal remains tissue/metabolism-only and does not modulate APC remodeling after immune-tone adjustment."
+  ],
+  "st003328_cholesterol_tests": [
+    {
+      "comparison": "PMS_vs_AMC_SV",
+      "delta_log2_pms_minus_amc": 4.416150929003365,
+      "hedges_g": 4.957783773280046,
+      "mean_log2_amc": 13.414848783414978,
+      "mean_log2_pms": 17.830999712418343,
+      "n_amc": 9,
+      "n_pms": 12,
+      "welch_p": 1.2233899340177144e-07
+    },
+    {
+      "comparison": "PMS_vs_AMC_untreated",
+      "delta_log2_pms_minus_amc": 5.25419678542578,
+      "hedges_g": 4.416820601935366,
+      "mean_log2_amc": 16.915741514156537,
+      "mean_log2_pms": 22.169938299582316,
+      "n_amc": 9,
+      "n_pms": 12,
+      "welch_p": 1.1299913625332565e-05
+    },
+    {
+      "comparison": "SV_vs_untreated_AMC",
+      "delta_log2_pms_minus_amc": -3.5008927307415583,
+      "hedges_g": -2.33288562072441,
+      "mean_log2_amc": 16.915741514156537,
+      "mean_log2_pms": 13.414848783414978,
+      "n_amc": 9,
+      "n_pms": 9,
+      "welch_p": 0.00015152246250154047
+    },
+    {
+      "comparison": "SV_vs_untreated_PMS",
+      "delta_log2_pms_minus_amc": -4.338938587163973,
+      "hedges_g": -8.028325698842497,
+      "mean_log2_amc": 22.169938299582316,
+      "mean_log2_pms": 17.830999712418343,
+      "n_amc": 12,
+      "n_pms": 12,
+      "welch_p": 1.463311931426004e-13
+    }
+  ],
+  "sterol_lesion_edge_tests": [
+    {
+      "comparison": "immune_chronic_active_edge_vs_control_white_matter",
+      "hedges_g_active_minus_control": 0.2686208742241309,
+      "mean_chronic_active": 0.16626058707506672,
+      "mean_control": 0.06862745098039215,
+      "module": "cholesterol_synthesis",
+      "n_chronic_active": 2873,
+      "n_control": 289,
+      "present_genes": "HMGCR;HMGCS1;SQLE;SREBF2;LDLR;INSIG1",
+      "welch_p": 4.962001971791353e-18
+    },
+    {
+      "comparison": "immune_chronic_active_edge_vs_control_white_matter",
+      "hedges_g_active_minus_control": -0.11757878368514585,
+      "mean_chronic_active": 0.7179951270449009,
+      "mean_control": 0.871280276816609,
+      "module": "efflux_lxr",
+      "n_chronic_active": 2873,
+      "n_control": 289,
+      "present_genes": "ABCA1;ABCG1;APOE;NR1H3;CH25H",
+      "welch_p": 0.17749633930360975
+    },
+    {
+      "comparison": "immune_chronic_active_edge_vs_control_white_matter",
+      "hedges_g_active_minus_control": 0.05198347009668366,
+      "mean_chronic_active": 0.24309084580577792,
+      "mean_control": 0.2262975778546713,
+      "module": "lysosomal_cholesterol",
+      "n_chronic_active": 2873,
+      "n_control": 289,
+      "present_genes": "LIPA;NPC1;NPC2;CTSD;LAMP1",
+      "welch_p": 0.40283827327282995
+    }
+  ],
+  "v32_metabolic_joint": {
+    "auc_attenuation": 0.1555555555555555,
+    "joint_adjusted_auc": 0.6555555555555556,
+    "joint_adjusted_permutation_p": 0.1629185407296352,
+    "raw_locked_auc": 0.8111111111111111,
+    "verdict": "attenuates"
+  }
+}
