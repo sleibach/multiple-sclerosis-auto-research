@@ -55,7 +55,7 @@ T/B compartment remodeling gate first but replication-gated; postpartum
 HLA-II/CD64 APC-arm imbalance second but blocked on true postpartum MS relapse
 data; metabolic/sterol and lysosomal APC remain context/mechanism hypotheses;
 complement/lipid and EBV-specific imprint were downgraded by stricter controls.
-V36 is running a measured two-hour autonomous exploration block. It added SAP
+V36 completed a measured two-hour autonomous exploration block. It added SAP
 RPT as a tabular lens, used Claude/Gemini/RPT for broader proposal generation,
 and then strictly grounded the treatment-response lead variants. The key V36
 correction is that V36-derived perfect-AUC W8/compartment/substate features are

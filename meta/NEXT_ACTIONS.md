@@ -141,9 +141,10 @@ First V35 continuation action:
 
 V36 update:
 
-- Two-hour autonomous block is in progress; live queue:
+- Two-hour autonomous block completed; final queue/runtime record:
   `meta/V36_QUEUE.md`.
 - Main cumulative slate: `docs/history/HYPOTHESIS_SLATE_V36.md`.
+- Concise synthesis: `docs/history/V36_BLOCK_SYNTHESIS.md`.
 - The top-line interpretation has changed from V35:
   - the immutable V22/V23 bounded monitoring rule remains the primary
     validation target because it was locked/pre-specified;
@@ -160,15 +161,18 @@ V36 update:
   batch/QC audits in future validation.
 - Human-facing Gafson request package written:
   `docs/validation/GAFSON_DATA_REQUEST_V36.md`.
+- Local knowledge index rebuilt and smoke-tested after V36.
 
-First V36 continuation action:
+First post-V36 action:
 
-1. Continue `meta/V36_QUEUE.md` until cumulative measured block runtime reaches
-   at least 120 minutes.
-2. If externally interrupted before the block ends, resume from the first
-   `in_progress`/`todo` V36 queue item.
-3. If Gafson data arrives, quarantine it and run only frozen V22 validation plus
+1. Acquire Gafson et al. 2018 DMF PBMC RNA-seq processed counts plus
+   sample-level NEDA-4 labels using
+   `docs/validation/GAFSON_DATA_REQUEST_V36.md`.
+2. If Gafson data arrives, quarantine it and run only frozen V22 validation plus
    V32/V36 pre-specified audits; do not fit a V36 successor rule on it.
+3. If no fresh validation cohort is available, scout an independent paired
+   response-labeled compartment-resolved cohort to replicate or kill the
+   T/B-readable early IFN/APC/STAT1 monitoring state.
 
 No unresolved supported V12 cells remain. V14 has added a first-pass locus
 landscape and prior-sensitivity layer over the V13 OpenGWAS coloc results.

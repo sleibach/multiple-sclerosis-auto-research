@@ -723,3 +723,53 @@ Next session first action:
 - Final re-ranked shortlist: 1) T/B compartment remodeling gate, 2) postpartum HLA-II/CD64 APC-arm imbalance, 3) metabolic/sterol setpoint, 4) lysosomal APC-processing bottleneck, 5) complement/lipid progressive axis, 6) MS-SLE EBV/IFN APC imprint.
 - Two-lineage contributions: Claude 4.7 Opus and Gemini 3.1 Flash Lite were used as proposal/critique lenses; they sharpened the T/B generic-compartment artifact risk but did not change the data-grounded ranking. Gemini 2.5 Pro failed twice with `MAX_TOKENS` during the final cross-exam.
 - Model spend: SAP AI Core usage only; no separate paid-service spend was recorded in-repo.
+
+## RUN SUMMARY - V36 Two-Hour Autonomous Block
+
+- Active runtime: 2 hours 0 minutes 7 seconds, measured from real system-clock
+  reads; no usage-limit waiting occurred, so active runtime equals total
+  elapsed wall-clock time.
+- Session start timestamp (UTC): 2026-06-07T18:27:35Z.
+- Session end timestamp (UTC): 2026-06-07T20:27:42Z.
+- Frontier advanced: completed the V36 two-hour self-chaining exploration
+  block, integrated SAP RPT, stress-tested the treatment-response lead variants,
+  updated validation guardrails, wrote the Gafson request package, updated
+  README/status/NEXT_ACTIONS, and rebuilt plus smoke-tested the local knowledge
+  index.
+- Stop reason: completed the 120-minute cumulative measured-runtime target at a
+  clean resumable point.
+- Next action: acquire Gafson et al. 2018 DMF PBMC RNA-seq processed counts plus
+  sample-level NEDA-4 labels using
+  `docs/validation/GAFSON_DATA_REQUEST_V36.md`; then run frozen V22 validation
+  plus V32/V36 pre-specified audits without tuning.
+- Iterations completed: 55 total, including RPT integration, tri-source
+  generation, repeated grounding/stress tests, validation-planning updates,
+  repository resume-state sync, README update, script compile check, knowledge
+  index rebuild, and index smoke test.
+- RPT integration status and contribution: `sap-rpt-1-large` smoke-passed via
+  SAP AI Core and was used as a tabular hypothesis lens. It added prioritization
+  and exposed structural tensions, but no RPT output was treated as evidence and
+  no RPT-suggested lead was upgraded without data grounding.
+- Per-item grounded outcomes: the immutable V22/V23 bounded monitoring rule
+  remains the primary validation target; V36 W8/compartment/substate perfect-AUC
+  features are exploratory secondary audits after max-AUC multiplicity stress;
+  T/B-readable signal survived simple composition checks but is not an
+  independent T/B mechanism; B/plasma/STAT1 findings refactored to broad early
+  IFN/APC/STAT1 remodeling; glucocorticoid did not explain the held signal;
+  glycolysis is coupled context, not an independent mechanism; receptor/coupled
+  features remain unstable and did not justify a successor rule; MTX,
+  fingolimod, and adalimumab stress tests argue against unbounded transfer.
+- Final re-ranked shortlist: 1) immutable V22/V23 bounded APC/HLA-II early
+  monitoring rule for external validation; 2) V36 broad early
+  IFN/APC/STAT1-axis monitoring state as a secondary audit layer; 3) IFN-beta
+  HLA-II/CD74 receptor-state branch as therapy-specific context; 4) T/B-readable
+  compartment signal as replication-gated biology; 5) postpartum APC-arm
+  imbalance, metabolic/sterol, lysosomal APC, complement/lipid, and EBV/IFN
+  hypotheses remain data-gated or downgraded.
+- Two-lineage and RPT value: Claude, Gemini, and RPT expanded and cross-examined
+  the hypothesis space, but strict grounding mostly demoted rather than promoted
+  ideas. The added value was methodological: it sharpened the validation plan,
+  identified multiplicity risk, and prevented post-hoc successor-rule promotion.
+- Model spend: SAP AI Core Claude, Gemini, and RPT were used; the local client
+  does not expose per-call spend, and no separate paid-service spend was recorded
+  in-repo.

@@ -4,6 +4,9 @@
 
 - Block start UTC: 2026-06-07T18:27:35Z
 - Target end UTC: 2026-06-07T20:27:35Z
+- Block end UTC: 2026-06-07T20:27:42Z
+- Final status: completed; 120-minute target reached at a clean resumable
+  point.
 - Timing source: real `date -u` system-clock reads.
 
 ## Iteration Log
