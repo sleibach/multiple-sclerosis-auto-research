@@ -1,0 +1,69 @@
+{
+  "interpretation": "Receptor dynamics are direction- and context-dependent; no receptor successor rule is warranted without a pre-specified fresh test.",
+  "mtx_negative_delta_receptor_auc": 0.9,
+  "n_tests": 24,
+  "question": "Does the post-hoc GSE85034_MTX receptor-side observation recur in ADA or TOF artifacts?",
+  "status": "exploratory_post_hoc_only",
+  "strongest_recurrence": [
+    {
+      "auc_high_score_response": 1.0,
+      "cohort": "GSE253006_TOF_exact_epithelial_like",
+      "exact_auc_p": 0.007936507936507936,
+      "feature": "delta_RECEPTOR",
+      "hedges_g_responder_minus_non": 1.55515397848064,
+      "n": 9,
+      "n_nonresponders": 4,
+      "n_responders": 5,
+      "source": "recurrence_check",
+      "welch_p": 0.030113024428567392
+    },
+    {
+      "auc_high_score_response": 1.0,
+      "cohort": "GSE253006_TOF_all_cell_approx",
+      "exact_auc_p": 0.007936507936507936,
+      "feature": "locked_signed_score",
+      "hedges_g_responder_minus_non": 1.5221148378698623,
+      "n": 9,
+      "n_nonresponders": 4,
+      "n_responders": 5,
+      "source": "recurrence_check",
+      "welch_p": 0.033925155529974375
+    },
+    {
+      "auc_high_score_response": 1.0,
+      "cohort": "GSE253006_TOF_exact_t_cell_like",
+      "exact_auc_p": 0.007936507936507936,
+      "feature": "locked_signed_score",
+      "hedges_g_responder_minus_non": 1.2702169218759296,
+      "n": 9,
+      "n_nonresponders": 4,
+      "n_responders": 5,
+      "source": "recurrence_check",
+      "welch_p": 0.0650156967515688
+    },
+    {
+      "auc_high_score_response": 0.95,
+      "cohort": "GSE253006_TOF_exact_stromal_endothelial_like",
+      "exact_auc_p": 0.015873015873015872,
+      "feature": "delta_RECEPTOR",
+      "hedges_g_responder_minus_non": 1.6806570552105224,
+      "n": 9,
+      "n_nonresponders": 4,
+      "n_responders": 5,
+      "source": "recurrence_check",
+      "welch_p": 0.025995427943176
+    },
+    {
+      "auc_high_score_response": 0.95,
+      "cohort": "GSE253006_TOF_exact_b_plasma_like",
+      "exact_auc_p": 0.015873015873015872,
+      "feature": "locked_signed_score",
+      "hedges_g_responder_minus_non": 1.4870275071759465,
+      "n": 9,
+      "n_nonresponders": 4,
+      "n_responders": 5,
+      "source": "recurrence_check",
+      "welch_p": 0.05322647181959169
+    }
+  ]
+}

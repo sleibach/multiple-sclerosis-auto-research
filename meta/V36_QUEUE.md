@@ -529,11 +529,28 @@
 
 ### Iteration 37
 
+- Start UTC: 2026-06-07T19:43:17Z
+- End UTC: 2026-06-07T19:44:37Z
+- Status: completed
+- Item selected: Continue autonomous V36 block with next executable
+  self-generated item.
+- Note: Test whether the out-of-domain MTX receptor-side observation recurs in
+  GSE85034 ADA or GSE253006 tofacitinib artifacts, explicitly as a post-hoc
+  exploratory feature with multiplicity caveats.
+- Result: Receptor-side dynamics were direction- and context-dependent. MTX
+  favored `-delta_RECEPTOR` (`AUC = 0.900`, exact p `0.0245`), ADA was null
+  (`AUC = 0.444`, exact p `0.650` for the same orientation), and exact TOF
+  compartments that looked strong favored `+delta_RECEPTOR` instead
+  (`epithelial_like AUC = 1.000`, exact p `0.00794`; `stromal_endothelial_like
+  AUC = 0.950`, exact p `0.0159`). No receptor successor rule is warranted.
+
+### Iteration 38
+
 - Start UTC: pending
 - Status: todo
 - Item selected: Continue autonomous V36 block with next executable
   self-generated item.
-- Note: Block runtime remains below 120 minutes after Iteration 36.
+- Note: Block runtime remains below 120 minutes after Iteration 37.
 
 ## Backlog
 
@@ -574,7 +591,7 @@
 | 33 | Human-facing Gafson data request package | done | Gafson request package written with V36 covariate/QC requirements. |
 | 34 | Resume-state next-actions update for V36 refactored lead | done | `meta/NEXT_ACTIONS.md` and `meta/CURRENT_STATUS.md` updated for V36. |
 | 35 | Continue autonomous V36 block with next executable self-generated item | done | GSE85034 MTX stress test complete: locked IFN/APC null out of domain; receptor-side signal hypothesis-generating only. |
-| 36 | Receptor/coupling stress-test follow-up from GSE85034 MTX | todo | Ask whether receptor-side dynamics recur in ADA or exact tofacitinib artifacts, strictly as a new exploratory feature with multiplicity caveats. |
+| 36 | Receptor/coupling stress-test follow-up from GSE85034 MTX | done | Direction/context instability blocks receptor successor rule; keep as mechanistic prompt only. |
 
 ## Timing Rule
 

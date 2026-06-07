@@ -1169,3 +1169,39 @@ hypothesis-generating only: it was not the frozen primary feature, the arm has
 only `3` responders, and the cohort is outside the bounded MS/JAK-STAT setting.
 If revived later, it must be tested as a new pre-specified receptor/coupling
 hypothesis in fresh data.
+
+## Iteration 37: Receptor/Coupling Recurrence Follow-Up
+
+Status: **completed / no stable receptor successor rule**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_receptor_coupling_followup.py`
+- Output: `analysis/v36_receptor_coupling_followup/summary.md`
+- Test table:
+  `analysis/v36_receptor_coupling_followup/receptor_recurrence_tests.tsv`
+
+Question:
+
+The MTX stress test had a high post-hoc `negative_delta_RECEPTOR` metric. Test
+whether that same receptor-side orientation recurs in `GSE85034_ADA`,
+all-cell-approximate `GSE253006_TOF`, or exact `GSE253006_TOF` compartment
+artifacts.
+
+Grounding:
+
+| Cohort/artifact | Feature | AUC | Exact p | Interpretation |
+|---|---|---:|---:|---|
+| `GSE85034_MTX` | `negative_delta_RECEPTOR` | `0.900` | `0.0245` | hypothesis source only |
+| `GSE85034_ADA` | `negative_delta_RECEPTOR` | `0.444` | `0.650` | no recurrence |
+| `GSE253006_TOF_all_cell_approx` | `negative_delta_RECEPTOR` | `0.200` | `0.944` | opposite orientation |
+| `GSE253006_TOF_exact_epithelial_like` | `delta_RECEPTOR` | `1.000` | `0.00794` | positive receptor direction, not MTX orientation |
+| `GSE253006_TOF_exact_stromal_endothelial_like` | `delta_RECEPTOR` | `0.950` | `0.0159` | positive receptor direction, not MTX orientation |
+
+Interpretation:
+
+The receptor-side observation is direction- and context-dependent. MTX favors
+`-delta_RECEPTOR`; TOF compartments that look strong favor `+delta_RECEPTOR`;
+ADA is null. This blocks any receptor/coupling successor rule. The result is
+kept as a mechanistic prompt only: if receptor coupling is revived, it requires
+a separately locked, direction-specified rule and a fresh held-out test.
