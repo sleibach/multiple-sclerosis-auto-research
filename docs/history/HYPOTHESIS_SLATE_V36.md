@@ -926,3 +926,45 @@ response signal after IFN/APC+STAT1 residualization. IFN/APC retains more signal
 after glycolysis residualization, though it no longer reaches exact p <= `0.05`.
 This demotes metabolic/glycolysis from independent mechanism to coupled context
 around an IFN/STAT-primary early remodeling state.
+
+## Iteration 28: Technical QC / Batch Feasibility
+
+Status: **completed / batch metadata absent, QC caveat added**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_technical_qc_batch_feasibility.py`
+- Outputs: `analysis/v36_technical_qc_batch_feasibility/`
+
+Test:
+
+Audit `GSE253006` SOFT/raw metadata for batch fields and compute basic raw-matrix
+QC (`n_barcodes`, UMI counts, mitochondrial fraction). Residualize W8 treated
+IFN/APC against QC features.
+
+Metadata result:
+
+- Submission date: `Jan 11 2024` for all samples.
+- Instrument: `Illumina NextSeq 500` for all samples.
+- Unique data-processing string: `1`.
+- No lane, capture-date, chemistry-batch, ambient RNA, or per-sample
+  processing-batch field was present in held metadata.
+
+QC residualization:
+
+| Compartment | Strongest QC attenuator | Raw AUC | Residualized AUC | Attenuation |
+|---|---|---:|---:|---:|
+| `b_plasma_like` | `median_pct_mito` | `1.000` | `0.688` | `0.312` |
+| `myeloid_apc_like` | `mean_pct_mito` | `1.000` | `0.562` | `0.438` |
+| `t_cell_like` | `mean_pct_mito` | `1.000` | `0.750` | `0.250` |
+| `epithelial_like` | `mean_pct_mito` | `1.000` | `0.688` | `0.312` |
+| `stromal_endothelial_like` | `mean_pct_mito` | `0.875` | `0.562` | `0.312` |
+
+Interpretation:
+
+True batch confounding cannot be fully tested with held metadata. Basic QC
+residualization, especially mitochondrial fraction, substantially attenuates the
+W8 IFN/APC readout. This does not prove technical artifact, but it adds a
+serious validation requirement: any future cohort must include batch/lane,
+capture-date or processing metadata, ambient RNA/QC metrics, and pre-specified
+QC adjustment.

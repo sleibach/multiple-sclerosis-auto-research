@@ -410,10 +410,23 @@
 ### Iteration 28
 
 - Start UTC: 2026-06-07T19:24:22Z
-- Status: in_progress
+- End UTC: 2026-06-07T19:27:08Z
+- Status: completed
 - Item selected: Technical metadata and batch-confounding feasibility check.
 - Note: Determine whether held GSE253006 metadata contains batch/capture/date or
   QC fields sufficient to test Claude's batch-confounding critique.
+- Result: Batch metadata fields were absent (no lane/capture date/chemistry
+  batch/ambient RNA/per-sample processing batch). Raw-matrix QC residualization
+  was possible; mitochondrial fraction attenuated W8 IFN/APC readouts
+  substantially (B/plasma AUC `1.000` -> `0.688`, myeloid `1.000` -> `0.562`,
+  T-cell `1.000` -> `0.750`). Added serious QC validation requirement.
+
+### Iteration 29
+
+- Start UTC: 2026-06-07T19:27:08Z
+- Status: in_progress
+- Item selected: Validation requirement update for refactored V36 lead.
+- Note: Translate V36 caveats into concrete future-cohort/harness requirements.
 
 ## Backlog
 
@@ -445,7 +458,8 @@
 | 24 | V32 module specificity comparison for exact tofacitinib cohort | done | IFN/STAT-led but glycolysis-tied; dynamic broad remodeling, not IFN-exclusive. |
 | 25 | Focused two-lineage cross-exam of updated conservative lead | done | Glycolysis decoupling queued; several other issues external-data gated. |
 | 26 | Glycolysis decoupling from IFN/STAT | done | Glycolysis is coupled context, not independent mechanism; IFN/STAT primary. |
-| 27 | Technical metadata and batch-confounding feasibility check | in_progress | Check batch/capture/date/QC metadata availability and test if possible. |
+| 27 | Technical metadata and batch-confounding feasibility check | done | Batch metadata absent; mito/QC attenuation adds validation requirement. |
+| 28 | Validation requirement update for refactored V36 lead | in_progress | Update validation requirements for future cohort/harness. |
 
 ## Timing Rule
 
