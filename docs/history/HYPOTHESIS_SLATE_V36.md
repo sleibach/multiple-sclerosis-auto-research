@@ -1288,3 +1288,40 @@ tofacitinib/immune-remodeling settings. This is useful context for the
 validation harness: future cohorts should report therapy-class branches and
 should not force a single scalar interpretation across IFN-beta, JAK/immune
 remodeling, lymphocyte trafficking, and skin MTX/ADA contexts.
+
+## Iteration 40: MS IFN-beta Dose/Hour Audit
+
+Status: **completed / independent IFN-beta branch support**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_ms_ifnb_dose_hour_audit.py`
+- Output: `analysis/v36_ms_ifnb_dose_hour_audit/summary.md`
+- Test table:
+  `analysis/v36_ms_ifnb_dose_hour_audit/gse138064_ifnb_dose_hour_tests.tsv`
+
+Question:
+
+Use the held `GSE138064` MS IFN-beta response artifact to test complete versus
+partial responder separation across dose/hour subsets with AUC and a fixed-seed
+label-permutation null.
+
+Top grounded signals:
+
+| Subset | Feature | n | AUC high-score complete | Permutation p | Hedges g |
+|---|---|---:|---:|---:|---:|
+| stable hour 4 | `delta__receptor_only_cd74_cd44_cxcr4` | `52` | `0.693` | `0.00735` | `0.608` |
+| stable 8MU | `delta__receptor_only_cd74_cd44_cxcr4` | `52` | `0.688` | `0.0107` | `0.656` |
+| all | `baseline__hla_ii_without_cd74` | `133` | `0.685` | `0.000250` | `0.699` |
+| stable 8MU | `baseline__hla_ii_without_cd74` | `52` | `0.685` | `0.0107` | `0.820` |
+| stable all-dose | `delta__receptor_only_cd74_cd44_cxcr4` | `103` | `0.656` | `0.00310` | `0.510` |
+
+Interpretation:
+
+Together with the `GSE24427` month-1 HLA-II result, this independently supports
+an IFN-beta-specific branch: response associates with HLA-II competence and, in
+`GSE138064`, early CD74/CD44/CXCR4 receptor-state dynamics. This does not rescue
+the post-hoc receptor successor-rule idea because direction and tissue context
+remain unstable across MTX/TOF/ADA. It does sharpen the validation harness:
+IFN-beta should be interpreted with a therapy-specific HLA-II/receptor branch,
+while JAK/immune-remodeling contexts remain IFN/APC/STAT1-downshift dominated.

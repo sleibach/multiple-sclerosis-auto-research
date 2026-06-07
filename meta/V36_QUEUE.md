@@ -581,11 +581,28 @@
 
 ### Iteration 40
 
+- Start UTC: 2026-06-07T19:54:12Z
+- End UTC: 2026-06-07T19:56:07Z
+- Status: completed
+- Item selected: Continue autonomous V36 block with next executable
+  self-generated item.
+- Note: Use held `GSE138064` MS IFN-beta dose/hour artifact to test complete
+  versus partial responder separation across baseline and dynamic APC-axis
+  modules with AUC and permutation nulls.
+- Result: Independent IFN-beta branch support. Complete responders had stronger
+  baseline HLA-II (`all` AUC `0.685`, permutation p `0.000250`) and early
+  receptor-state dynamics (`stable_hour_4 delta__receptor_only_cd74_cd44_cxcr4
+  AUC = 0.693`, permutation p `0.00735`; `stable_8MU AUC = 0.688`,
+  permutation p `0.0107`). This supports therapy-specific HLA-II/receptor
+  interpretation for IFN-beta, not a universal scalar rule.
+
+### Iteration 41
+
 - Start UTC: pending
 - Status: todo
 - Item selected: Continue autonomous V36 block with next executable
   self-generated item.
-- Note: Block runtime remains below 120 minutes after Iteration 39.
+- Note: Block runtime remains below 120 minutes after Iteration 40.
 
 ## Backlog
 

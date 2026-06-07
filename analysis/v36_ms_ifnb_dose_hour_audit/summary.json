@@ -1,0 +1,140 @@
+{
+  "best_features": [
+    {
+      "auc_high_score_complete": 0.6934523809523809,
+      "auc_permutation_p": 0.0073496325183740815,
+      "feature": "delta__receptor_only_cd74_cd44_cxcr4",
+      "hedges_g_complete_minus_partial": 0.6084492242852696,
+      "n": 52,
+      "n_complete": 24,
+      "n_partial": 28,
+      "subset": "stable_hour_4",
+      "welch_p": 0.0327644119808477
+    },
+    {
+      "auc_high_score_complete": 0.6875,
+      "auc_permutation_p": 0.010749462526873657,
+      "feature": "delta__receptor_only_cd74_cd44_cxcr4",
+      "hedges_g_complete_minus_partial": 0.6556432341827483,
+      "n": 52,
+      "n_complete": 24,
+      "n_partial": 28,
+      "subset": "stable_8MU",
+      "welch_p": 0.018006765228887906
+    },
+    {
+      "auc_high_score_complete": 0.6852941176470588,
+      "auc_permutation_p": 0.00024998750062496874,
+      "feature": "baseline__hla_ii_without_cd74",
+      "hedges_g_complete_minus_partial": 0.6992303008783517,
+      "n": 133,
+      "n_complete": 48,
+      "n_partial": 85,
+      "subset": "all",
+      "welch_p": 0.00010007463403220492
+    },
+    {
+      "auc_high_score_complete": 0.6845238095238095,
+      "auc_permutation_p": 0.010699465026748662,
+      "feature": "baseline__hla_ii_without_cd74",
+      "hedges_g_complete_minus_partial": 0.8198001947039228,
+      "n": 52,
+      "n_complete": 24,
+      "n_partial": 28,
+      "subset": "stable_8MU",
+      "welch_p": 0.0041688432452930925
+    },
+    {
+      "auc_high_score_complete": 0.6592261904761905,
+      "auc_permutation_p": 0.024748762561871907,
+      "feature": "baseline__hla_ii_without_cd74",
+      "hedges_g_complete_minus_partial": 0.6436377598052234,
+      "n": 52,
+      "n_complete": 24,
+      "n_partial": 28,
+      "subset": "stable_hour_4",
+      "welch_p": 0.01998220256447794
+    },
+    {
+      "auc_high_score_complete": 0.6556818181818181,
+      "auc_permutation_p": 0.0030998450077496125,
+      "feature": "delta__receptor_only_cd74_cd44_cxcr4",
+      "hedges_g_complete_minus_partial": 0.510063509286021,
+      "n": 103,
+      "n_complete": 48,
+      "n_partial": 55,
+      "subset": "stable_all_dose",
+      "welch_p": 0.01028658706765403
+    },
+    {
+      "auc_high_score_complete": 0.6530303030303031,
+      "auc_permutation_p": 0.00359982000899955,
+      "feature": "baseline__hla_ii_without_cd74",
+      "hedges_g_complete_minus_partial": 0.6279305966300853,
+      "n": 103,
+      "n_complete": 48,
+      "n_partial": 55,
+      "subset": "stable_all_dose",
+      "welch_p": 0.0015047504384161305
+    },
+    {
+      "auc_high_score_complete": 0.6496913580246914,
+      "auc_permutation_p": 0.034098295085245735,
+      "feature": "delta__cd74_alone",
+      "hedges_g_complete_minus_partial": 0.5559911609218399,
+      "n": 51,
+      "n_complete": 24,
+      "n_partial": 27,
+      "subset": "stable_16MU",
+      "welch_p": 0.04814331622311476
+    },
+    {
+      "auc_high_score_complete": 0.6466049382716049,
+      "auc_permutation_p": 0.039398030098495074,
+      "feature": "baseline__hla_ii_without_cd74",
+      "hedges_g_complete_minus_partial": 0.5885030804086917,
+      "n": 51,
+      "n_complete": 24,
+      "n_partial": 27,
+      "subset": "stable_hour_24",
+      "welch_p": 0.03554715149987205
+    },
+    {
+      "auc_high_score_complete": 0.6362745098039215,
+      "auc_permutation_p": 0.004249787510624469,
+      "feature": "delta__receptor_only_cd74_cd44_cxcr4",
+      "hedges_g_complete_minus_partial": 0.3800385234289744,
+      "n": 133,
+      "n_complete": 48,
+      "n_partial": 85,
+      "subset": "all",
+      "welch_p": 0.03223226235109773
+    },
+    {
+      "auc_high_score_complete": 0.625,
+      "auc_permutation_p": 0.06269686515674217,
+      "feature": "delta__receptor_only_cd74_cd44_cxcr4",
+      "hedges_g_complete_minus_partial": 0.4301975456721737,
+      "n": 51,
+      "n_complete": 24,
+      "n_partial": 27,
+      "subset": "stable_hour_24",
+      "welch_p": 0.12109076140986925
+    },
+    {
+      "auc_high_score_complete": 0.625,
+      "auc_permutation_p": 0.06329683515824208,
+      "feature": "baseline__ifn_apc",
+      "hedges_g_complete_minus_partial": 0.232403554220336,
+      "n": 52,
+      "n_complete": 24,
+      "n_partial": 28,
+      "subset": "stable_8MU",
+      "welch_p": 0.3939660960123501
+    }
+  ],
+  "cohort": "GSE138064_MS_IFNB",
+  "interpretation": "Exploratory dose/hour support for IFN-beta HLA-II baseline/delta branch, not a V22 rule change.",
+  "n_tests": 60,
+  "question": "Which baseline/dynamic APC-axis features distinguish complete from partial IFN-beta responders?"
+}
