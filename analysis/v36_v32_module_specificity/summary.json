@@ -1,0 +1,45 @@
+{
+  "features_tested": 28,
+  "ifn_feature_ranks": [
+    {
+      "exact_p": 0.031746031746031744,
+      "module_feature": "delta_IFN_APC",
+      "oriented_auc": 0.95,
+      "rank": 1
+    },
+    {
+      "exact_p": 0.031746031746031744,
+      "module_feature": "delta_stat1_axis",
+      "oriented_auc": 0.95,
+      "rank": 3
+    },
+    {
+      "exact_p": 0.06349206349206349,
+      "module_feature": "delta_ifn_suppression_inverse_isg",
+      "oriented_auc": 0.9,
+      "rank": 5
+    },
+    {
+      "exact_p": 0.7301587301587301,
+      "module_feature": "baseline_IFN_APC",
+      "oriented_auc": 0.6,
+      "rank": 15
+    },
+    {
+      "exact_p": 0.7301587301587301,
+      "module_feature": "baseline_stat1_axis",
+      "oriented_auc": 0.6,
+      "rank": 21
+    },
+    {
+      "exact_p": 1.0,
+      "module_feature": "baseline_ifn_suppression_inverse_isg",
+      "oriented_auc": 0.5,
+      "rank": 28
+    }
+  ],
+  "patients": 9,
+  "top_auc": 0.95,
+  "top_exact_p": 0.031746031746031744,
+  "top_feature": "delta_IFN_APC"
+}

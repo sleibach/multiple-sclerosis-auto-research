@@ -814,3 +814,43 @@ Iterations 18-19. The signal remains useful as a candidate **early monitoring
 readout**, but the mechanistic claim must stay conservative: it reads an
 on-treatment IFN/STAT/composition state, not an independent cell-type-specific
 program.
+
+## Iteration 25: V32 Module Specificity Scan
+
+Status: **completed / IFN-STAT-led but not IFN-exclusive**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_v32_module_specificity.py`
+- Outputs: `analysis/v36_v32_module_specificity/`
+
+Test:
+
+Compare IFN/APC and STAT1 readouts with all V32 subject-level module/confounder
+features in `GSE253006_TOF_exact`.
+
+Result:
+
+Top features:
+
+| Rank | Feature | AUC | Exact p | Direction in responders |
+|---:|---|---:|---:|---|
+| 1 | `delta_IFN_APC` | `0.950` | `0.0317` | lower |
+| 2 | `delta_glycolysis` | `0.950` | `0.0317` | lower |
+| 3 | `delta_stat1_axis` | `0.950` | `0.0317` | lower |
+| 4 | `locked_signed_score` | `0.950` | `0.0317` | higher |
+| 5 | `delta_ifn_suppression_inverse_isg` | `0.900` | `0.0635` | lower |
+| 6 | `delta_t_cell_composition` | `0.900` | `0.0635` | lower |
+
+Baseline IFN/STAT features were weak/null:
+
+- `baseline_IFN_APC`: rank `15`, AUC `0.600`.
+- `baseline_stat1_axis`: rank `21`, AUC `0.600`.
+- `baseline_ifn_suppression_inverse_isg`: rank `28`, AUC `0.500`.
+
+Interpretation:
+
+The response signal remains IFN/APC/STAT1-led, but it is not IFN-exclusive:
+`delta_glycolysis` ties the top IFN features. This supports a broader early
+immune/metabolic remodeling state. It strengthens the dynamic monitoring
+interpretation while weakening any narrow pathway-specific claim.

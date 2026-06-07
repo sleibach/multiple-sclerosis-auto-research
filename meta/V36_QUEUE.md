@@ -369,10 +369,24 @@
 ### Iteration 25
 
 - Start UTC: 2026-06-07T19:18:10Z
-- Status: in_progress
+- End UTC: 2026-06-07T19:19:34Z
+- Status: completed
 - Item selected: V32 module specificity comparison for exact tofacitinib cohort.
 - Note: Compare IFN/APC/STAT1 readouts with non-IFN V32 modules in
   `GSE253006_TOF_exact`.
+- Result: V32 module scan completed over 28 numeric features. `delta_IFN_APC`,
+  `delta_glycolysis`, `delta_stat1_axis`, and `locked_signed_score` tied at AUC
+  `0.950` (exact p `0.0317`). Baseline IFN/STAT features were weak/null.
+  Interpretation: dynamic monitoring supported; signal is IFN/STAT-led but
+  metabolically coupled, not IFN-exclusive.
+
+### Iteration 26
+
+- Start UTC: 2026-06-07T19:19:34Z
+- Status: in_progress
+- Item selected: Focused two-lineage cross-exam of updated conservative lead.
+- Note: Ask Claude/Gemini for fatal weaknesses and executable tests after V36
+  refactored the lead to broad early IFN/metabolic remodeling.
 
 ## Backlog
 
@@ -401,7 +415,8 @@
 | 21 | Raw cell-level B/plasma subcluster feasibility check | done | Within-substate IFN/APC dominates B/plasma substate fractions; broad IFN dependence remains. |
 | 22 | V36 interim ranked-slate synthesis after lead refactoring | done | Lead refactored to early W8 broad IFN/APC/STAT1 monitoring state. |
 | 23 | W8 treated IFN/APC subject-level confounder residualization | done | W8 treated IFN/APC is STAT1/composition-conditioned, not orthogonal. |
-| 24 | V32 module specificity comparison for exact tofacitinib cohort | in_progress | Compare IFN/APC/STAT1 readouts with non-IFN modules. |
+| 24 | V32 module specificity comparison for exact tofacitinib cohort | done | IFN/STAT-led but glycolysis-tied; dynamic broad remodeling, not IFN-exclusive. |
+| 25 | Focused two-lineage cross-exam of updated conservative lead | in_progress | Generate concrete fatal weaknesses/tests for the updated wording. |
 
 ## Timing Rule
 
