@@ -125,6 +125,51 @@ Next test:
 - In the validation harness, include a pre-specified leave-one and timepoint
   leverage report so a future apparent pass cannot hide single-subject leverage.
 
+## Iteration 10: GSE17410/GSE17449 Pregnancy-Phase APC Feasibility
+
+Status: **pregnancy-phase scoring feasible; postpartum relapse-window still
+absent**.
+
+Executable grounding:
+
+- Script: `scripts/v35_gse17410_pregnancy_apc_feasibility.py`
+- Outputs: `analysis/v35_gse17410_pregnancy_apc/`
+- Dataset: local `GSE17410_family.soft.gz` sample expression tables, PBMC,
+  Affymetrix GPL571.
+
+Result:
+
+- The local SOFT file includes expression values, not only metadata.
+- HLA-II/CD64 module scoring is feasible:
+  - HLA-II probes: `21`;
+  - CD64 probes: `3`.
+- Timepoints present:
+  - pre-pregnancy MS: `8` samples;
+  - 9th-month pregnancy MS: `9` samples.
+- No postpartum timepoints are present.
+- Unpaired month-9 versus pre-pregnancy:
+  - HLA-II score delta `-0.170`, p `0.322`;
+  - CD64 score delta `+1.162`, p `0.00453`;
+  - HLA-II-minus-CD64 delta `-1.332`, p `0.00127`.
+- Paired-by-title-key subset (`DD`, `RP`, `SDC`, `SF`, `VB`; `n=5`):
+  - HLA-II score delta `-0.112`, p `0.720`;
+  - CD64 score delta `+1.055`, p `0.0608`;
+  - HLA-II-minus-CD64 delta `-1.168`, p `0.0432`.
+
+Interpretation:
+
+This supports pregnancy-phase CD64-arm movement in MS PBMC and is directionally
+consistent with the broader HLA-II/CD64 decoupling hypothesis. It does **not**
+validate the postpartum relapse-window hypothesis because the decisive
+postpartum samples and relapse-window labels are absent.
+
+Next test:
+
+- Use GSE17410/GSE17449 only as pregnancy-phase context.
+- The necessary data remains a true postpartum MS cohort with late pregnancy,
+  6-week postpartum, and 3-6-month postpartum immune profiles plus relapse and
+  steroid/DMT/lactation metadata.
+
 ## Iteration 5: Lysosomal APC-Processing Bottleneck
 
 Status: **reframed / coupled lysosomal APC axis supported, functional bottleneck

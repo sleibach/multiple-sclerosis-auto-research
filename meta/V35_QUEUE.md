@@ -117,10 +117,22 @@ Target block end UTC: 2026-06-07T17:37:36Z
 ### Iteration 10
 
 - Start UTC: 2026-06-07T16:58:36Z
-- Status: in_progress
+- Status: completed
 - Item selected: GSE17410/GSE17449 postpartum-MS feasibility check.
 - Note: Determine whether local pregnancy MS files can support HLA-II/CD64
   module scoring now or only metadata-level cohort specification.
+- Result: pregnancy-phase scoring feasible, postpartum window absent. Local SOFT
+  expression tables contain `21` HLA-II probes and `3` CD64 probes; month-9 MS
+  pregnancy increases CD64 and lowers HLA-II-minus-CD64, including paired
+  title-key delta `-1.168`, p `0.0432`, but no postpartum samples exist.
+
+### Iteration 11
+
+- Start UTC: 2026-06-07T17:05:12Z
+- Status: in_progress
+- Item selected: EBV-response module acquisition feasibility.
+- Note: Find whether an EBV/LMP1/EBNA response module can be built from local or
+  reachable public data now, without claiming EBV-specific biology until tested.
 
 ## Backlog
 
@@ -135,7 +147,8 @@ Target block end UTC: 2026-06-07T17:37:36Z
 | 7 | Two-lineage cross-examination of grounded hypotheses | done | Both lineages converged on T/B replication, postpartum data acquisition, and donor-aware complement/lipid hardening. |
 | 8 | Donor-aware complement/lipid progressive-axis hardening | done | Downgraded: donor-level test supports lipid-repair context only; complement not supported. |
 | 9 | T/B gate fragility check | done | Fragile but not collapsed; W48 exclusion and all leave-one-patient gaps remain positive. |
-| 10 | GSE17410/GSE17449 postpartum-MS feasibility check | in_progress | Determine whether local pregnancy MS files can support HLA-II/CD64 module scoring or only metadata-level triage. |
+| 10 | GSE17410/GSE17449 postpartum-MS feasibility check | done | Pregnancy-phase HLA/CD64 scoring feasible; postpartum relapse-window data absent. |
+| 11 | EBV-response module acquisition feasibility | in_progress | Find/build EBV-specific module source for later EBV/IFN APC imprint testing. |
 
 ## Timing Rule
 

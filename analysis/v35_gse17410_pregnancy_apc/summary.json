@@ -1,0 +1,81 @@
+{
+  "grounded_result": "pregnancy_phase_scoring_feasible_postpartum_window_absent",
+  "hypothesis": "postpartum APC-arm imbalance MS specificity feasibility",
+  "interpretation": "Local GSE17410/GSE17449 can score PBMC HLA-II and CD64 probes for pre-pregnancy versus 9th-month pregnancy MS samples. It cannot test the decisive postpartum relapse-window hypothesis because no postpartum timepoints or relapse-window labels are present in the held SOFT file.",
+  "n_cd64_probes": 3,
+  "n_hla_probes": 21,
+  "n_samples": 17,
+  "paired_subject_keys": [
+    "DD",
+    "RP",
+    "SDC",
+    "SF",
+    "VB"
+  ],
+  "tests": [
+    {
+      "comparison": "month9_pregnancy_vs_pre_pregnancy_unpaired",
+      "delta_month9_minus_pre": -0.17021143994047527,
+      "mean_month9": 9.179529091428572,
+      "mean_pre": 9.349740531369047,
+      "n_month9": 9,
+      "n_pre": 8,
+      "score": "hla_ii_score",
+      "welch_p": 0.32153173165978316
+    },
+    {
+      "comparison": "month9_pregnancy_vs_pre_pregnancy_unpaired",
+      "delta_month9_minus_pre": 1.1618183684675927,
+      "mean_month9": 6.919346822592592,
+      "mean_pre": 5.757528454125,
+      "n_month9": 9,
+      "n_pre": 8,
+      "score": "cd64_score",
+      "welch_p": 0.004529453477346761
+    },
+    {
+      "comparison": "month9_pregnancy_vs_pre_pregnancy_unpaired",
+      "delta_month9_minus_pre": -1.3320298084080684,
+      "mean_month9": 2.260182268835979,
+      "mean_pre": 3.5922120772440476,
+      "n_month9": 9,
+      "n_pre": 8,
+      "score": "hla_minus_cd64",
+      "welch_p": 0.001273937737188384
+    },
+    {
+      "comparison": "month9_pregnancy_vs_pre_pregnancy_paired_by_title_key",
+      "delta_month9_minus_pre": -0.11238945687619015,
+      "mean_month9": 9.319956755514287,
+      "mean_pre": 9.432346212390476,
+      "n_month9": 5,
+      "n_pre": 5,
+      "score": "hla_ii_score",
+      "welch_p": 0.7195845011482314
+    },
+    {
+      "comparison": "month9_pregnancy_vs_pre_pregnancy_paired_by_title_key",
+      "delta_month9_minus_pre": 1.0552699116666673,
+      "mean_month9": 6.9897976776,
+      "mean_pre": 5.934527765933334,
+      "n_month9": 5,
+      "n_pre": 5,
+      "score": "cd64_score",
+      "welch_p": 0.06080152334905631
+    },
+    {
+      "comparison": "month9_pregnancy_vs_pre_pregnancy_paired_by_title_key",
+      "delta_month9_minus_pre": -1.1676593685428576,
+      "mean_month9": 2.330159077914286,
+      "mean_pre": 3.497818446457143,
+      "n_month9": 5,
+      "n_pre": 5,
+      "score": "hla_minus_cd64",
+      "welch_p": 0.04318667726168648
+    }
+  ],
+  "timepoint_counts": {
+    "month9_pregnancy": 9,
+    "pre_pregnancy": 8
+  }
+}
