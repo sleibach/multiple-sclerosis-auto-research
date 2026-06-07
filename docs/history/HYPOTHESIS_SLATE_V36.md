@@ -1398,3 +1398,46 @@ subject (`LOO min AUC = 0.650`), but exact permutation p is only `0.155` in
 locked V22/V23 rule remains the primary validation target because it was
 pre-specified and mechanistically coherent, but its held MS DMT evidence is
 small-n and fragile. Fresh validation is not optional.
+
+## Iteration 43: Gafson-Style DMF Power Simulation
+
+Status: **completed / validation-size planning estimate**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_gafson_power_simulation.py`
+- Output: `analysis/v36_gafson_power_simulation/summary.md`
+- Table: `analysis/v36_gafson_power_simulation/dmf_empirical_power.tsv`
+
+Question:
+
+Given the observed `GSE235357` DMF locked-score distributions, how large would a
+fresh DMF validation cohort need to be to detect a similar effect?
+
+Assumptions:
+
+- Nonparametric bootstrap from the observed `5` responder and `5` nonresponder
+  locked-score values.
+- One-sided Mann-Whitney normal approximation for simulated p-values.
+- This is planning only; it is not evidence that the observed effect will
+  replicate.
+
+Selected results:
+
+| n per group | total n | median AUC | 95% simulated AUC interval | Power p<0.05 |
+|---:|---:|---:|---|---:|
+| `10` | `20` | `0.740` | `0.450-0.960` | `0.542` |
+| `15` | `30` | `0.724` | `0.507-0.907` | `0.672` |
+| `20` | `40` | `0.725` | `0.538-0.887` | `0.777` |
+| `30` | `60` | `0.722` | `0.568-0.856` | `0.897` |
+| `40` | `80` | `0.722` | `0.591-0.841` | `0.957` |
+| `50` | `100` | `0.721` | `0.603-0.828` | `0.981` |
+
+Interpretation:
+
+Under the observed effect template, very small fresh cohorts may estimate
+direction but will not settle the claim. A validation cohort around `30` per
+response group is the first range with high power by this approximation; `40-50`
+per group is safer if the true effect is weaker or covariate adjustment is
+required. This should be included in the Gafson/medical-team validation planning
+conversation.

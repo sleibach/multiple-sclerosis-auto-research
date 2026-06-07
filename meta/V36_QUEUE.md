@@ -629,11 +629,26 @@
 
 ### Iteration 43
 
+- Start UTC: 2026-06-07T20:00:18Z
+- End UTC: 2026-06-07T20:01:40Z
+- Status: completed
+- Item selected: Continue autonomous V36 block with next executable
+  self-generated item.
+- Note: Estimate validation sample-size requirements for a Gafson-style DMF
+  cohort using the observed V22 DMF locked-score effect as an empirical template.
+- Result: Empirical bootstrap power simulation from `GSE235357` DMF locked-score
+  distributions. Under the observed effect template, `n=30` per response group
+  gives approximate one-sided p<0.05 power `0.897`; `n=40-50` per group gives
+  `0.957-0.981`. Smaller cohorts are directional but unlikely to settle the
+  claim, especially after covariate adjustment.
+
+### Iteration 44
+
 - Start UTC: pending
 - Status: todo
 - Item selected: Continue autonomous V36 block with next executable
   self-generated item.
-- Note: Block runtime remains below 120 minutes after Iteration 42.
+- Note: Block runtime remains below 120 minutes after Iteration 43.
 
 ## Backlog
 

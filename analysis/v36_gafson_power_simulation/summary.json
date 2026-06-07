@@ -1,0 +1,116 @@
+{
+  "assumption": "Nonparametric bootstrap from observed n=5/5 GSE235357 locked-score distributions; one-sided Mann-Whitney normal approximation for p-values.",
+  "interpretation": "At the observed effect size, roughly 40-50 per group is needed for high one-sided p<0.05 power; smaller fresh cohorts can still estimate direction but are unlikely to settle the claim.",
+  "observed": {
+    "n_nonresponder": 5,
+    "n_responder": 5,
+    "nonresponder_scores": [
+      0.1202814845962059,
+      0.0103423642973317,
+      1.1297517906830503,
+      0.1261214004754689,
+      0.5352351910340527
+    ],
+    "observed_auc": 0.72,
+    "responder_scores": [
+      1.0337065596934607,
+      0.5965363459029711,
+      0.6960706331626278,
+      0.4771313145244698,
+      0.4427026515583017
+    ]
+  },
+  "power_table": [
+    {
+      "auc_ci_high": 0.96875,
+      "auc_ci_low": 0.421875,
+      "median_auc": 0.734375,
+      "n_per_group": 8,
+      "n_sim": 20000,
+      "power_auc_ge_0_70": 0.58065,
+      "power_one_sided_p_lt_0_05": 0.47835,
+      "total_n": 16
+    },
+    {
+      "auc_ci_high": 0.96,
+      "auc_ci_low": 0.45,
+      "median_auc": 0.74,
+      "n_per_group": 10,
+      "n_sim": 20000,
+      "power_auc_ge_0_70": 0.61425,
+      "power_one_sided_p_lt_0_05": 0.5418,
+      "total_n": 20
+    },
+    {
+      "auc_ci_high": 0.9305555555555556,
+      "auc_ci_low": 0.4722222222222222,
+      "median_auc": 0.7222222222222222,
+      "n_per_group": 12,
+      "n_sim": 20000,
+      "power_auc_ge_0_70": 0.59145,
+      "power_one_sided_p_lt_0_05": 0.59145,
+      "total_n": 24
+    },
+    {
+      "auc_ci_high": 0.9066666666666666,
+      "auc_ci_low": 0.5066666666666667,
+      "median_auc": 0.7244444444444444,
+      "n_per_group": 15,
+      "n_sim": 20000,
+      "power_auc_ge_0_70": 0.59005,
+      "power_one_sided_p_lt_0_05": 0.67205,
+      "total_n": 30
+    },
+    {
+      "auc_ci_high": 0.8875,
+      "auc_ci_low": 0.5375,
+      "median_auc": 0.725,
+      "n_per_group": 20,
+      "n_sim": 20000,
+      "power_auc_ge_0_70": 0.61875,
+      "power_one_sided_p_lt_0_05": 0.77745,
+      "total_n": 40
+    },
+    {
+      "auc_ci_high": 0.872,
+      "auc_ci_low": 0.5568,
+      "median_auc": 0.7232,
+      "n_per_group": 25,
+      "n_sim": 20000,
+      "power_auc_ge_0_70": 0.60535,
+      "power_one_sided_p_lt_0_05": 0.8516,
+      "total_n": 50
+    },
+    {
+      "auc_ci_high": 0.8555555555555555,
+      "auc_ci_low": 0.5677777777777778,
+      "median_auc": 0.7222222222222222,
+      "n_per_group": 30,
+      "n_sim": 20000,
+      "power_auc_ge_0_70": 0.62655,
+      "power_one_sided_p_lt_0_05": 0.8973,
+      "total_n": 60
+    },
+    {
+      "auc_ci_high": 0.84125,
+      "auc_ci_low": 0.590609375,
+      "median_auc": 0.721875,
+      "n_per_group": 40,
+      "n_sim": 20000,
+      "power_auc_ge_0_70": 0.63695,
+      "power_one_sided_p_lt_0_05": 0.9566,
+      "total_n": 80
+    },
+    {
+      "auc_ci_high": 0.828,
+      "auc_ci_low": 0.6032,
+      "median_auc": 0.7212,
+      "n_per_group": 50,
+      "n_sim": 20000,
+      "power_auc_ge_0_70": 0.64865,
+      "power_one_sided_p_lt_0_05": 0.98105,
+      "total_n": 100
+    }
+  ],
+  "question": "What sample size is needed to validate the locked DMF-like effect if the observed GSE235357 score distributions are representative?"
+}
