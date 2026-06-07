@@ -747,3 +747,37 @@ same signal is coupled to myeloid/global STAT1-axis remodeling. The most precise
 current statement is: **the response signal is broad IFN/APC remodeling, visible
 within B/plasma substates and T cells, not explained by major B/plasma substate
 fractions, but still globally STAT1-axis dependent and unreplicated.**
+
+## Iteration 23: Interim Ranked-Slate Synthesis
+
+Status: **completed / lead refactored**.
+
+Executable artifact:
+
+- Summary: `analysis/v36_interim_synthesis/summary.md`
+
+Current best wording:
+
+**An early W8 on-treatment IFN/APC/STAT1-axis monitoring state, broadly
+cross-compartmental and readable in T/B compartments, not a baseline subtype,
+not glucocorticoid-explained in held scores, not B/plasma-specific, and still
+single-cohort/unreplicated.**
+
+Re-ranked slate:
+
+| Rank | Hypothesis | Current V36 status |
+|---:|---|---|
+| 1 | Early W8 IFN/APC/STAT1-axis monitoring state | internally strongest; broad cross-compartment signal; T/B readouts useful but not mechanistically independent |
+| 2 | B/plasma/plasma-like within-substate IFN/APC remodeling | supported as within-substate readout, not fraction artifact; not independent from global STAT1/myeloid axis |
+| 3 | T-cell IFN/APC readout | strongest raw AUC but composition-sensitive and STAT1-axis dependent |
+| 4 | Postpartum HLA-II/CD64 APC-arm imbalance | clinically anchored, but MS postpartum relapse-window data absent |
+| 5 | Metabolic/sterol and lysosomal APC variants | context/proposal only; no bottleneck or direction-matched intervention proof |
+| 6 | EBV/IFN APC imprint and complement/lipid progressive axis | not supported with held data |
+
+Next executable tests:
+
+1. Test whether W8 treated IFN/APC remains strong after subject-level confounder
+   residualization.
+2. Compare broad treated IFN/APC against non-IFN modules from V32 in the exact
+   tofacitinib cohort.
+3. Run a focused two-lineage cross-exam on the new wording.

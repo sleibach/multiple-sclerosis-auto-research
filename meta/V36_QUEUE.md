@@ -342,10 +342,23 @@
 ### Iteration 23
 
 - Start UTC: 2026-06-07T19:14:54Z
-- Status: in_progress
+- End UTC: 2026-06-07T19:16:48Z
+- Status: completed
 - Item selected: V36 interim ranked-slate synthesis after lead refactoring.
 - Note: Consolidate the many grounding results into the current ranked slate
   and identify the next executable item for the remaining block.
+- Result: Interim synthesis written. Current best wording: early W8
+  on-treatment IFN/APC/STAT1-axis monitoring state, broad across compartments,
+  readable in T/B compartments, not baseline subtype, not glucocorticoid
+  explained, not B/plasma-specific, and still single-cohort/unreplicated.
+
+### Iteration 24
+
+- Start UTC: 2026-06-07T19:16:48Z
+- Status: in_progress
+- Item selected: W8 treated IFN/APC subject-level confounder residualization.
+- Note: Test whether treated W8 IFN/APC readout survives V32 confounder
+  residualization, not just locked delta score residualization.
 
 ## Backlog
 
@@ -372,7 +385,8 @@
 | 19 | Baseline-versus-delta decomposition for compartment readouts | done | Baseline weak/null; treated IFN/APC and delta dominate, supporting monitoring. |
 | 20 | Treated-timepoint trajectory and sample-timing audit | done | W8 early monitoring supported; later trajectory blocked by sparse data. |
 | 21 | Raw cell-level B/plasma subcluster feasibility check | done | Within-substate IFN/APC dominates B/plasma substate fractions; broad IFN dependence remains. |
-| 22 | V36 interim ranked-slate synthesis after lead refactoring | in_progress | Consolidate current evidence and choose next executable item. |
+| 22 | V36 interim ranked-slate synthesis after lead refactoring | done | Lead refactored to early W8 broad IFN/APC/STAT1 monitoring state. |
+| 23 | W8 treated IFN/APC subject-level confounder residualization | in_progress | Residualize W8 treated IFN/APC against V32 confounders. |
 
 ## Timing Rule
 
