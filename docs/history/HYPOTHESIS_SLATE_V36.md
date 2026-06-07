@@ -1074,3 +1074,28 @@ The result does **not** erase the locked V22/V23 signal, because that rule was
 pre-specified before the V36 feature search. It does mean V36-derived perfect
 AUC features, including substate and compartment-specific variants, must remain
 exploratory prioritization only until externally validated.
+
+## Iteration 33: Updated Ranking After Multiplicity Control
+
+Status: **completed / primary target clarified**.
+
+Executable artifact:
+
+- Summary: `analysis/v36_updated_ranking_after_multiplicity/summary.md`
+
+Updated ranking:
+
+| Rank | Item | Status after multiplicity control |
+|---:|---|---|
+| 1 | Immutable V22/V23 bounded monitoring rule | Primary validation target; pre-specified/locked before V36 feature search, but still provisional pending external validation and V36 audits. |
+| 2 | V36 early W8 broad IFN/APC/STAT1 treated-state readout | Useful mechanistic refinement, exploratory because it emerged from post-hoc feature searches in n=8-9. |
+| 3 | T/B and B/plasma compartment readouts | Secondary readouts only; not independent mechanisms and vulnerable to composition/QC/STAT1-axis caveats. |
+| 4 | B/plasma/plasma-like substate IFN/APC | Within-substate remodeling supported over simple fraction artifact, but exploratory and globally STAT1-axis dependent. |
+| 5 | Glycolysis/metabolic coupling | Coupled context only; not independent after IFN/STAT residualization. |
+| 6 | Postpartum APC-arm imbalance | Data-acquisition hypothesis; no MS postpartum validation. |
+
+Practical consequence:
+
+The next human-facing ask should be to validate the locked V22/V23 early
+treatment monitoring rule in Gafson or another fresh cohort, while treating all
+V36 features as pre-specified secondary audits rather than successor rules.

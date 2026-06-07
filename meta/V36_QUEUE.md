@@ -478,9 +478,21 @@
 ### Iteration 33
 
 - Start UTC: 2026-06-07T19:33:29Z
-- Status: in_progress
+- End UTC: 2026-06-07T19:34:22Z
+- Status: completed
 - Item selected: Update final V36 ranking after multiplicity caveat.
 - Note: Reflect exact max-AUC null in the top-line slate before continuing.
+- Result: Updated ranking written. Primary target clarified as immutable
+  V22/V23 bounded monitoring rule; V36-derived W8/compartment/substate features
+  are secondary audits only after multiplicity control.
+
+### Iteration 34
+
+- Start UTC: 2026-06-07T19:34:22Z
+- Status: in_progress
+- Item selected: Human-facing Gafson data request package.
+- Note: Convert V36 validation requirements into a concise request artifact for
+  the best low-barrier validation dataset.
 
 ## Backlog
 
@@ -517,7 +529,8 @@
 | 29 | Updated RPT pass over refactored slate | done | RPT concordant for broad W8 state but over-promotes grounded-demoted variants. |
 | 30 | Refactored validation cohort/data scout from held V24 inventory | done | Gafson remains best target with stricter V36 metadata request. |
 | 31 | Multiplicity stress test across V36 generated compartment features | done | Perfect V36 feature AUCs are expected under post-hoc feature search; exploratory only. |
-| 32 | Update final V36 ranking after multiplicity caveat | in_progress | Revise top-line V36 slate status after false-positive control. |
+| 32 | Update final V36 ranking after multiplicity caveat | done | Locked V22/V23 remains primary; V36 features secondary audits only. |
+| 33 | Human-facing Gafson data request package | in_progress | Write exact data request with V36 covariates. |
 
 ## Timing Rule
 
