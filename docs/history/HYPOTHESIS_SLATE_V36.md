@@ -1099,3 +1099,27 @@ Practical consequence:
 The next human-facing ask should be to validate the locked V22/V23 early
 treatment monitoring rule in Gafson or another fresh cohort, while treating all
 V36 features as pre-specified secondary audits rather than successor rules.
+
+## Iteration 34: Gafson Data Request Package
+
+Status: **completed / human-action artifact written**.
+
+Executable artifact:
+
+- `docs/validation/GAFSON_DATA_REQUEST_V36.md`
+
+Result:
+
+Wrote a concise request package for Gafson et al. 2018 DMF PBMC RNA-seq (PMID
+`30283812`) that asks for:
+
+- expression matrix and sample-to-patient/timepoint mapping;
+- NEDA-4 responder labels and outcome components if available;
+- steroid/glucocorticoid exposure;
+- batch/lane/library/run-date or processing metadata;
+- QC metrics including mitochondrial/ribosomal fraction and ambient RNA if
+  available;
+- blood count/cell-composition covariates if available.
+
+The request explicitly states the primary rule is locked and that V36 secondary
+audits are pre-specified.

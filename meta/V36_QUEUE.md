@@ -489,10 +489,22 @@
 ### Iteration 34
 
 - Start UTC: 2026-06-07T19:34:22Z
-- Status: in_progress
+- End UTC: 2026-06-07T19:35:28Z
+- Status: completed
 - Item selected: Human-facing Gafson data request package.
 - Note: Convert V36 validation requirements into a concise request artifact for
   the best low-barrier validation dataset.
+- Result: Wrote `docs/validation/GAFSON_DATA_REQUEST_V36.md` with exact files
+  and covariates to request, including V36 steroid, batch/QC, mitochondrial,
+  ambient RNA, and cell-composition requirements.
+
+### Iteration 35
+
+- Start UTC: 2026-06-07T19:35:28Z
+- Status: in_progress
+- Item selected: Resume-state next-actions update for V36 refactored lead.
+- Note: Ensure project resume state points to the correct next action after
+  V36's demotions and validation-request artifact.
 
 ## Backlog
 
@@ -530,7 +542,8 @@
 | 30 | Refactored validation cohort/data scout from held V24 inventory | done | Gafson remains best target with stricter V36 metadata request. |
 | 31 | Multiplicity stress test across V36 generated compartment features | done | Perfect V36 feature AUCs are expected under post-hoc feature search; exploratory only. |
 | 32 | Update final V36 ranking after multiplicity caveat | done | Locked V22/V23 remains primary; V36 features secondary audits only. |
-| 33 | Human-facing Gafson data request package | in_progress | Write exact data request with V36 covariates. |
+| 33 | Human-facing Gafson data request package | done | Gafson request package written with V36 covariate/QC requirements. |
+| 34 | Resume-state next-actions update for V36 refactored lead | in_progress | Update `meta/NEXT_ACTIONS.md` if stale. |
 
 ## Timing Rule
 
