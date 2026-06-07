@@ -355,10 +355,24 @@
 ### Iteration 24
 
 - Start UTC: 2026-06-07T19:16:48Z
-- Status: in_progress
+- End UTC: 2026-06-07T19:18:10Z
+- Status: completed
 - Item selected: W8 treated IFN/APC subject-level confounder residualization.
 - Note: Test whether treated W8 IFN/APC readout survives V32 confounder
   residualization, not just locked delta score residualization.
+- Result: W8 treated IFN/APC attenuated under V32 confounders. B/plasma and
+  myeloid raw AUCs `1.000` fell to `0.625` and `0.688` after
+  `delta_stat1_axis` residualization; T-cell fell to `0.750` after
+  `delta_t_cell_composition`. Interpretation: early monitoring signal remains
+  STAT1/composition-conditioned, not orthogonal.
+
+### Iteration 25
+
+- Start UTC: 2026-06-07T19:18:10Z
+- Status: in_progress
+- Item selected: V32 module specificity comparison for exact tofacitinib cohort.
+- Note: Compare IFN/APC/STAT1 readouts with non-IFN V32 modules in
+  `GSE253006_TOF_exact`.
 
 ## Backlog
 
@@ -386,7 +400,8 @@
 | 20 | Treated-timepoint trajectory and sample-timing audit | done | W8 early monitoring supported; later trajectory blocked by sparse data. |
 | 21 | Raw cell-level B/plasma subcluster feasibility check | done | Within-substate IFN/APC dominates B/plasma substate fractions; broad IFN dependence remains. |
 | 22 | V36 interim ranked-slate synthesis after lead refactoring | done | Lead refactored to early W8 broad IFN/APC/STAT1 monitoring state. |
-| 23 | W8 treated IFN/APC subject-level confounder residualization | in_progress | Residualize W8 treated IFN/APC against V32 confounders. |
+| 23 | W8 treated IFN/APC subject-level confounder residualization | done | W8 treated IFN/APC is STAT1/composition-conditioned, not orthogonal. |
+| 24 | V32 module specificity comparison for exact tofacitinib cohort | in_progress | Compare IFN/APC/STAT1 readouts with non-IFN modules. |
 
 ## Timing Rule
 

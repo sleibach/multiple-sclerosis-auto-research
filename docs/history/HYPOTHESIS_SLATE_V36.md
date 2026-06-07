@@ -781,3 +781,36 @@ Next executable tests:
 2. Compare broad treated IFN/APC against non-IFN modules from V32 in the exact
    tofacitinib cohort.
 3. Run a focused two-lineage cross-exam on the new wording.
+
+## Iteration 24: W8 Treated IFN Confounder Residualization
+
+Status: **completed / W8 treated state remains STAT1/composition-conditioned**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_w8_treated_ifn_confounder_residualization.py`
+- Outputs: `analysis/v36_w8_treated_ifn_confounder_residualization/`
+
+Test:
+
+Stress-test the W8 treated-state IFN/APC readout directly against V32
+subject-level confounder panels, rather than testing only locked delta scores.
+
+Result:
+
+| Compartment | Raw W8 AUC | Strongest attenuator | Residualized AUC | Exact p |
+|---|---:|---|---:|---:|
+| `b_plasma_like` | `1.000` | `delta_stat1_axis` | `0.625` | `0.6857` |
+| `myeloid_apc_like` | `1.000` | `delta_stat1_axis` | `0.688` | `0.4857` |
+| `t_cell_like` | `1.000` | `delta_t_cell_composition` | `0.750` | `0.3429` |
+| `epithelial_like` | `1.000` | `delta_t_cell_composition` | `0.625` | `0.6857` |
+| `stromal_endothelial_like` | `0.875` | `delta_t_cell_composition` | `0.562` | `0.8857` |
+
+Interpretation:
+
+The W8 treated IFN/APC state is not an orthogonal compartment marker. It is
+conditioned by the same STAT1-axis and composition structure identified in
+Iterations 18-19. The signal remains useful as a candidate **early monitoring
+readout**, but the mechanistic claim must stay conservative: it reads an
+on-treatment IFN/STAT/composition state, not an independent cell-type-specific
+program.
