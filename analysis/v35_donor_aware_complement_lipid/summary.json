@@ -1,0 +1,75 @@
+{
+  "grounded_result": "lipid_repair_partly_supported_complement_not_supported",
+  "hypothesis": "complement/lipid progressive axis donor-aware hardening",
+  "interpretation": "Donor-level aggregation reduces nucleus-level pseudo-replication. The lipid-repair arm remains directionally higher at chronic-active lesion edge in several comparisons, but sample counts are very small at donor level. The complement/phagocytosis arm does not show a clean active-edge increase and should not be promoted as part of the same lead.",
+  "key_tests": [
+    {
+      "comparison": "chronic_active_MS_lesion_edge_vs_control_white_matter",
+      "delta_active_minus_comparator": -0.08191051473582284,
+      "hedges_g": -0.23226108165547596,
+      "mean_active": 0.325137307477261,
+      "mean_comparator": 0.40704782221308383,
+      "module": "complement_phagocytosis",
+      "n_donors": 7,
+      "p_value": 0.7616759688489447,
+      "test_type": "unpaired_donor_welch"
+    },
+    {
+      "comparison": "chronic_active_MS_lesion_edge_vs_MS_periplaque_white_matter",
+      "delta_active_minus_comparator": -0.15522732535920677,
+      "hedges_g": -1.0743743863809878,
+      "mean_active": 0.2206174983297625,
+      "mean_comparator": 0.37584482368896927,
+      "module": "complement_phagocytosis",
+      "n_donors": 3,
+      "p_value": 0.20382782686745202,
+      "test_type": "paired_donor_ttest"
+    },
+    {
+      "comparison": "chronic_active_MS_lesion_edge_vs_MS_periplaque_white_matter",
+      "delta_active_minus_comparator": -0.11299631028946594,
+      "hedges_g": -0.4671142891632676,
+      "mean_active": 0.325137307477261,
+      "mean_comparator": 0.43813361776672693,
+      "module": "complement_phagocytosis",
+      "n_donors": 8,
+      "p_value": 0.4767098737215484,
+      "test_type": "unpaired_donor_welch"
+    },
+    {
+      "comparison": "chronic_active_MS_lesion_edge_vs_control_white_matter",
+      "delta_active_minus_comparator": 0.349053319646896,
+      "hedges_g": 0.36594593755078897,
+      "mean_active": 1.3339972900385892,
+      "mean_comparator": 0.9849439703916932,
+      "module": "lipid_repair",
+      "n_donors": 7,
+      "p_value": 0.6518832041212521,
+      "test_type": "unpaired_donor_welch"
+    },
+    {
+      "comparison": "chronic_active_MS_lesion_edge_vs_MS_periplaque_white_matter",
+      "delta_active_minus_comparator": -0.18527130729132132,
+      "hedges_g": -0.35619581702553293,
+      "mean_active": 1.1555307899647522,
+      "mean_comparator": 1.3408020972560735,
+      "module": "lipid_repair",
+      "n_donors": 3,
+      "p_value": 0.6001438118715829,
+      "test_type": "paired_donor_ttest"
+    },
+    {
+      "comparison": "chronic_active_MS_lesion_edge_vs_MS_periplaque_white_matter",
+      "delta_active_minus_comparator": 0.036729050429867405,
+      "hedges_g": 0.08477147052504541,
+      "mean_active": 1.3339972900385892,
+      "mean_comparator": 1.2972682396087218,
+      "module": "lipid_repair",
+      "n_donors": 8,
+      "p_value": 0.8974534077094504,
+      "test_type": "unpaired_donor_welch"
+    }
+  ],
+  "n_donor_pathology_bins": 17,
+  "n_immune_nuclei": 5432
+}

@@ -44,7 +44,7 @@ Minimum next test:
 |---:|---|---|---|
 | 1 | T/B compartment remodeling gate | supported but small-n | Replicate in an independent paired response cohort with sorted or single-cell T/B compartments |
 | 2 | Postpartum HLA-II/CD64 APC-arm imbalance trajectory | partially grounded / needs MS postpartum data | Acquire true postpartum MS relapse-window immune cohort |
-| 3 | Complement/lipid progressive axis | partially grounded | Run donor-aware chronic-active lesion-edge test |
+| 3 | Complement/lipid progressive axis | downgraded: lipid-repair context only; complement not supported donor-aware | Acquire/compute true donor-aware lesion-rim spatial lipid/complement data before reviving |
 | 4 | Metabolic/sterol setpoint | supported as context axis, not intervention-grade | APC-resolved lipidomics plus sterol-pathway perturbation |
 | 5 | Lysosomal APC-processing bottleneck | reframed: coupled lysosomal APC axis, not proven bottleneck | Run functional lysosomal flux / HLA-peptidomics experiment |
 | 6 | MS-SLE EBV/IFN APC imprint | needs data | Acquire/build EBV-response module and EBV-stratified MS/SLE B-cell/APC data |
@@ -216,6 +216,47 @@ Action taken:
 - The next V35 executable item is a donor-aware GSE180759 complement/lipid
   progressive-axis test, because it is the highest-priority model-convergent
   action that can be executed with data already on disk.
+
+## Iteration 8: Donor-Aware Complement/Lipid Progressive-Axis Hardening
+
+Status: **downgraded / lipid-repair context only, complement not supported**.
+
+Executable grounding:
+
+- Script: `scripts/v35_donor_aware_complement_lipid.py`
+- Outputs: `analysis/v35_donor_aware_complement_lipid/`
+- Dataset: `GSE180759` single-nucleus lesion expression and annotation,
+  aggregated to donor-pathology immune-cell bins (`5432` immune nuclei,
+  `17` donor-pathology bins).
+
+Result:
+
+- Complement/phagocytosis is **not** elevated at chronic-active lesion edge:
+  - active edge vs control white matter: delta `-0.082`, Hedges g `-0.232`,
+    p `0.762`;
+  - paired active edge vs periplaque within donor (`n=3`): delta `-0.155`,
+    p `0.204`;
+  - unpaired active edge vs periplaque donor bins: delta `-0.113`, p `0.477`.
+- Lipid-repair is directionally higher at active edge than control white matter
+  but not statistically hardened at donor level:
+  - active edge vs control: delta `0.349`, Hedges g `0.366`, p `0.652`;
+  - paired active edge vs periplaque (`n=3`): delta `-0.185`, p `0.600`;
+  - unpaired active edge vs periplaque: delta `0.037`, p `0.897`.
+
+Interpretation:
+
+The earlier nucleus-level lipid-repair elevation was partly pseudo-replication
+sensitive. The donor-aware result supports, at most, a weak lipid-repair context
+in chronic-active lesions. It does **not** support a combined
+complement/lipid progressive axis as a promotable hypothesis.
+
+Next test:
+
+- Do not surface this as a lead without donor-aware spatial/proteomic lesion-rim
+  replication.
+- A useful future dataset would include donor-balanced chronic-active edge,
+  inactive edge, periplaque, and control regions with lipid/protein readouts,
+  not only transcript counts.
 
 ## Iteration 3: Complement/Lipid Progressive Axis
 

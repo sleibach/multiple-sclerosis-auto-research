@@ -95,10 +95,21 @@ Target block end UTC: 2026-06-07T17:37:36Z
 ### Iteration 8
 
 - Start UTC: 2026-06-07T16:54:30Z
-- Status: in_progress
+- Status: completed
 - Item selected: Donor-aware complement/lipid progressive-axis hardening.
 - Note: Execute the convergent two-lineage next test on local GSE180759 using
   donor/case-aware summaries where metadata supports it.
+- Result: downgraded. Donor-level immune-cell aggregation removes the clean
+  chronic-active edge claim: complement is not elevated and lipid repair is only
+  weak/directional, not statistically hardened.
+
+### Iteration 9
+
+- Start UTC: 2026-06-07T16:57:06Z
+- Status: in_progress
+- Item selected: T/B gate fragility check.
+- Note: Stress-test the n=9 tofacitinib T/B signal for leave-one-patient and
+  W48 timepoint leverage.
 
 ## Backlog
 
@@ -111,7 +122,8 @@ Target block end UTC: 2026-06-07T17:37:36Z
 | 5 | Lysosomal APC-processing bottleneck | done | Reframed as coupled lysosomal APC arm; functional bottleneck remains unproven without lysosomal flux/HLA-peptidomics. |
 | 6 | Metabolic/sterol setpoint | done | Supported as context axis; not intervention-grade without APC-resolved lipidomics/perturbation. |
 | 7 | Two-lineage cross-examination of grounded hypotheses | done | Both lineages converged on T/B replication, postpartum data acquisition, and donor-aware complement/lipid hardening. |
-| 8 | Donor-aware complement/lipid progressive-axis hardening | in_progress | Execute on local GSE180759 donor/case metadata. |
+| 8 | Donor-aware complement/lipid progressive-axis hardening | done | Downgraded: donor-level test supports lipid-repair context only; complement not supported. |
+| 9 | T/B gate fragility check | in_progress | Stress-test n=9 tofacitinib result for influential patients/timepoints. |
 
 ## Timing Rule
 
