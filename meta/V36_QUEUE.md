@@ -464,11 +464,23 @@
 ### Iteration 32
 
 - Start UTC: 2026-06-07T19:31:34Z
-- Status: in_progress
+- End UTC: 2026-06-07T19:33:29Z
+- Status: completed
 - Item selected: Multiplicity stress test across V36 generated compartment
   features.
 - Note: Estimate how surprising the best AUCs are after scanning many
   compartment/feature combinations in the held cohort.
+- Result: Exact max-AUC null across 76 generated patient-level features found
+  observed max AUC `1.000`, but empirical p for max AUC >= observed was `0.5000`
+  and 70.6% of permutations had max AUC >= `0.95`. This downgrades all
+  V36-derived perfect-AUC feature claims to exploratory prioritization only.
+
+### Iteration 33
+
+- Start UTC: 2026-06-07T19:33:29Z
+- Status: in_progress
+- Item selected: Update final V36 ranking after multiplicity caveat.
+- Note: Reflect exact max-AUC null in the top-line slate before continuing.
 
 ## Backlog
 
@@ -504,7 +516,8 @@
 | 28 | Validation requirement update for refactored V36 lead | done | V36 validation-readiness addendum added. |
 | 29 | Updated RPT pass over refactored slate | done | RPT concordant for broad W8 state but over-promotes grounded-demoted variants. |
 | 30 | Refactored validation cohort/data scout from held V24 inventory | done | Gafson remains best target with stricter V36 metadata request. |
-| 31 | Multiplicity stress test across V36 generated compartment features | in_progress | Test how often max AUC appears under label permutations. |
+| 31 | Multiplicity stress test across V36 generated compartment features | done | Perfect V36 feature AUCs are expected under post-hoc feature search; exploratory only. |
+| 32 | Update final V36 ranking after multiplicity caveat | in_progress | Revise top-line V36 slate status after false-positive control. |
 
 ## Timing Rule
 

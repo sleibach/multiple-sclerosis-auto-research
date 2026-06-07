@@ -1039,3 +1039,38 @@ and NEDA-4 response. V36 adds required metadata to the request:
 
 Secondary options remain `GSE130478/GSE130491/GSE130494` after response-label
 acquisition and `GSE85034_MTX` as a caveated cross-disease stress test only.
+
+## Iteration 32: Feature Multiplicity Stress Test
+
+Status: **completed / perfect-AUC feature claims downgraded**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_feature_multiplicity_stress.py`
+- Outputs: `analysis/v36_feature_multiplicity_stress/`
+
+Test:
+
+Build a patient-level feature matrix from V32 modules, V36 baseline/delta
+decompositions, and V36 B/plasma substate features. Compute observed feature
+AUCs, then run an exact same-case-count label-permutation max-AUC null across
+all generated features.
+
+Result:
+
+- Patients: `9`.
+- Features tested: `76`.
+- Observed max AUC: `1.000`.
+- Features at max AUC: `8`.
+- Exact label permutations: `126`.
+- Empirical p for max AUC >= observed max: `0.5000`.
+- Fraction of permutations with max AUC >= `0.95`: `0.7063`.
+
+Interpretation:
+
+This is a major false-positive control. In an n=9 cohort with 76 generated
+features, perfect individual AUCs are not surprising under label permutation.
+The result does **not** erase the locked V22/V23 signal, because that rule was
+pre-specified before the V36 feature search. It does mean V36-derived perfect
+AUC features, including substate and compartment-specific variants, must remain
+exploratory prioritization only until externally validated.
