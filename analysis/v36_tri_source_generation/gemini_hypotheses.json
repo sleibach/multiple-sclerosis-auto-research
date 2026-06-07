@@ -1,0 +1,78 @@
+```json
+{
+  "hypotheses": [
+    {
+      "id": "metabolite_danger_signal",
+      "hypothesis": "A specific circulating lipid metabolite, produced during metabolic stress, is aberrantly sensed by a scavenger receptor on APCs as a damage-associated molecular pattern (DAMP), triggering their pro-inflammatory activation.",
+      "why_non_obvious": "This shifts the focus from cell-intrinsic metabolic reprogramming to the extracellular sensing of systemic metabolic byproducts as novel, non-canonical immune triggers.",
+      "strongest_existing_data_test": "Correlate untargeted serum metabolomics data with APC activation markers (e.g., CD86, HLA-DR) from matched PBMC flow cytometry data, looking for a specific lipid class that predicts APC state independent of traditional cytokines.",
+      "falsifier": "No correlation exists between any lipid species or class and APC activation status after correcting for known inflammatory mediators.",
+      "likely_artifact": "Dietary fluctuations or differences in fasting status between donors create strong lipid signatures that falsely correlate with immune status.",
+      "source_angle": "immunometabolism"
+    },
+    {
+      "id": "galt_priming_disruption",
+      "hypothesis": "Tofacitinib's efficacy is primarily driven by disrupting the formation of ectopic germinal center-like structures in gut-associated lymphoid tissue (GALT), preventing the initial priming and trafficking of CNS-autoreactive T/B cells.",
+      "why_non_obvious": "It posits that a key therapeutic intervention for a CNS disease acts not systemically or in the CNS, but by dismantling a specific immune-priming niche in a remote mucosal tissue.",
+      "strongest_existing_data_test": "In the existing UC tofacitinib dataset, test if B-cell and T-cell subsets show a significantly greater reduction in GALT-homing chemokine receptors (e.g., CCR9, α4β7) compared to systemic (e.g., CCR7) or CNS-homing (e.g., CXCR3) receptors.",
+      "falsifier": "Tofacitinib causes a uniform, non-selective downregulation of all activation and homing markers across T/B cell subsets.",
+      "likely_artifact": "The underlying UC pathology creates a GALT-centric signal that is not generalizable to MS, where the primary inflammatory site is different.",
+      "source_angle": "cell_cell_interaction"
+    },
+    {
+      "id": "pvm_lysosomal_blockade",
+      "hypothesis": "A cell-intrinsic lysosomal lipid-processing defect in long-lived perivascular macrophages, but not microglia or infiltrating monocytes, creates a self-perpetuating, non-resolving inflammatory niche at the blood-brain barrier.",
+      "why_non_obvious": "This assigns a unique pathogenic role to the often-overlooked perivascular macrophage population, distinct from both microglia and peripheral infiltrates, based on a specific organelle dysfunction.",
+      "strongest_existing_data_test": "Mine public MS lesion spatial transcriptomics datasets (e.g., from GEO/ArrayExpress) to test if cells identified as perivascular macrophages (e.g., CD163+/MRC1+) show a unique and enriched signature of lysosomal stress and lipid metabolism dysregulation compared to neighboring microglia and other myeloid cells.",
+      "falsifier": "Signatures of lysosomal dysfunction and lipid accumulation are either absent or are equally prominent in microglia and/or infiltrating monocytes within the same lesions.",
+      "likely_artifact": "Post-mortem interval (PMI) artifacts disproportionately affect lipid-rich myelin and phagocytic cells, creating a false signature of lysosomal stress.",
+      "source_angle": "tissue_niche"
+    },
+    {
+      "id": "genetic_response_modulation",
+      "hypothesis": "Non-HLA MS risk variants do not alter baseline immune states but instead function as response-QTLs, specifically controlling the magnitude of APC activation or T-cell proliferation in response to the dynamic hormonal shifts of the postpartum period.",
+      "why_non_obvious": "This reframes the function of risk GWAS hits away from static eQTLs towards a gene-by-environment model, where the genetic risk is only revealed under a specific physiological challenge.",
+      "strongest_existing_data_test": "Using the project's postpartum data, stratify donors by a non-HLA MS risk SNP (e.g., rs6897932 in IL7R) and test for a significant interaction effect between genotype and pregnancy phase on the HLA-II/CD64 APC imbalance score.",
+      "falsifier": "The magnitude of the postpartum immune shift is consistent across all genotypes for the tested risk variant, showing no evidence of interaction.",
+      "likely_artifact": "The chosen SNP is in linkage disequilibrium with another variant that affects a baseline trait, and this baseline difference is misinterpreted as a differential response.",
+      "source_angle": "genetics_decoupling"
+    },
+    {
+      "id": "b_cell_neuropeptide_sensing",
+      "hypothesis": "Chronic stress-associated neuropeptides (e.g., CGRP, VIP) directly bind to receptors on memory B cells, acting as a non-canonical third signal that lowers the threshold for their activation and antigen presentation to T cells.",
+      "why_non_obvious": "It proposes a direct neuro-immune communication axis where B cells, not typically seen as primary sensors of neuropeptides, are a key node for translating psychological stress into cellular autoimmunity.",
+      "strongest_existing_data_test": "In existing single-cell RNA-seq data, test for co-expression of neuropeptide receptors (e.g., VIPR1, CALCRL) and antigen presentation pathway genes (e.g., HLA-DQA1, CD86) within specific B cell clusters, and whether this co-expression module is enriched in MS.",
+      "falsifier": "Memory B cell subsets lack consistent or functional expression of neuropeptide receptors, or their expression is uncorrelated with the antigen presentation machinery.",
+      "likely_artifact": "In-vivo exposure to systemic stress hormones prior to blood draw creates a transient receptor expression pattern that is not reflective of a stable, functional role.",
+      "source_angle": "neuroimmune"
+    },
+    {
+      "id": "subset_specific_ifn_sensitivity",
+      "hypothesis": "Latent EBV infection establishes a poised, non-canonical IFN response state in a very small memory B-cell subset, making them hyper-responsive to secondary triggers without creating a detectable IFN signature in bulk cell analysis.",
+      "why_non_obvious": "This resurrects the downgraded IFN/EBV hypothesis by positing the signal is real but hidden from bulk analysis, existing only as a potential state in a rare cell population that requires single-cell resolution to uncover.",
+      "strongest_existing_data_test": "Re-analyze existing scRNA-seq data to isolate rare B-cell clusters (e.g., <0.5% of PBMCs) and test if any MS-enriched cluster shows a coherent, but subtle, upregulation of a specific branch of the IFN pathway (e.g., non-canonical STAT2-dependent genes) rather than the full ISG signature.",
+      "falsifier": "No B-cell sub-cluster in MS patients shows any enrichment for any subset of IFN-related genes compared to controls after rigorous correction for batch effects.",
+      "likely_artifact": "Stochastic gene expression ('transcriptional bursting') in single cells creates a noisy baseline that can be misinterpreted as a subtle, coherent pathway signature.",
+      "source_angle": "infectious_trigger"
+    },
+    {
+      "id": "senescence_driven_treg_failure",
+      "hypothesis": "Chronic, low-level inflammation in MS drives premature senescence in the regulatory T-cell (Treg) compartment, leading to a functional collapse of peripheral tolerance that permits autoreactive T-cell expansion.",
+      "why_non_obvious": "It frames MS pathogenesis not as a problem of over-activation of effector cells, but as a primary failure of suppression caused by accelerated aging in a specific regulatory population.",
+      "strongest_existing_data_test": "Using existing flow cytometry data, quantify senescence markers (e.g., KLRG1, CD57, γH2AX) specifically on the CD4+CD25+FOXP3+ Treg population and test if their frequency correlates with disease duration/activity independent of chronological age.",
+      "falsifier": "Treg senescence markers correlate strongly with patient age but show no independent association with any measure of MS disease activity or duration.",
+      "likely_artifact": "Chronic CMV infection, a known potent driver of T-cell senescence, is more prevalent or active in the MS population and confounds the analysis.",
+      "source_angle": "temporal_stage"
+    },
+    {
+      "id": "microbial_sterol_mimicry",
+      "hypothesis": "Tofacitinib's therapeutic effect is partially mediated by altering the gut microbiome to reduce the production of a bacterial metabolite that structurally mimics a human sterol, thereby correcting a downstream defect in APC lysosomal function.",
+      "why_non_obvious": "This proposes a highly indirect mechanism for a JAK inhibitor, linking it through the microbiome to a metabolic mimicry event that impacts a specific organelle's function in APCs.",
+      "strongest_existing_data_test": "Correlate the project's T/B cell remodeling signature in tofacitinib-treated UC patients with publicly available shotgun metagenomics data from separate tofacitinib cohorts to identify a microbial metabolic pathway (e.g., sterol synthesis) that is both suppressed by the drug and anti-correlates with the immune signature.",
+      "falsifier": "Changes in the T/B cell compartments following tofacitinib treatment show no association with any consistent microbial, genomic, or metabolic shifts in independent IBD cohorts.",
+      "likely_artifact": "Concomitant medications (e.g., steroids, antibiotics) or dietary changes in IBD patients are the true drivers of both the microbial and immune shifts, creating a spurious correlation.",
+      "source_angle": "treatment_dynamics"
+    }
+  ]
+}
+```

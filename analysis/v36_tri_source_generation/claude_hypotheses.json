@@ -1,0 +1,76 @@
+{
+  "hypotheses": [
+    {
+      "id": "tofa_treg_glycolytic_brake",
+      "hypothesis": "The UC tofacitinib T/B remodeling signature reflects a JAK1/3-dependent glycolytic brake on effector T cells that releases a Treg:Tfh ratio shift, and the same ratio shift predicts MS DMT response independent of UC context.",
+      "why_non_obvious": "It reframes the T/B AUC advantage as an immunometabolic ratio readout rather than a lineage abundance change, which is what cell-composition artifact tests would otherwise dismiss.",
+      "strongest_existing_data_test": "Compute Treg/Tfh signature scores (FOXP3/IKZF2 vs BCL6/CXCR5/PDCD1) within the UC tofa compartments and test correlation with the AUC lead; then evaluate the same score in public MS DMT cohorts (e.g., GSE131281 fingolimod, GSE126802).",
+      "falsifier": "AUC advantage persists after regressing out Treg/Tfh scores, or MS DMT cohorts show no response stratification by the ratio.",
+      "likely_artifact": "Deconvolution-driven cell fraction shifts mimicking metabolic signal in bulk RNA.",
+      "source_angle": "immunometabolism"
+    },
+    {
+      "id": "postpartum_cd64_monocyte_egress",
+      "hypothesis": "The postpartum HLA-II/CD64 APC imbalance is driven by a transient CD64-high intermediate monocyte egress wave that homes to CNS perivascular niches and seeds the 3-6 month relapse window.",
+      "why_non_obvious": "It localizes a blood-measured imbalance to a specific trafficking subset and a defined temporal window, instead of a generic APC activation story.",
+      "strongest_existing_data_test": "Score CD14+CD16+CD64hi monocyte signatures in existing pregnancy-phase transcriptomes and overlay with public postpartum MS cohorts (e.g., PRIMS-adjacent datasets, GSE17048 subsets) for time-to-relapse stratification.",
+      "falsifier": "CD64hi intermediate monocyte signature does not rise postpartum or fails to stratify relapse timing.",
+      "likely_artifact": "Lactation/prolactin-driven monocyte shifts unrelated to MS pathology.",
+      "source_angle": "temporal_stage"
+    },
+    {
+      "id": "sterol_setpoint_lysosomal_coupling",
+      "hypothesis": "The metabolic/sterol setpoint and lysosomal APC modules are mechanistically coupled via NPC1/LIPA-dependent cholesterol egress that gates MHC-II loading efficiency in dendritic cells.",
+      "why_non_obvious": "It predicts that two independently up-ranked modules are one bottleneck, making a single perturbation sufficient and providing intervention-grade leverage.",
+      "strongest_existing_data_test": "Test co-variation of NPC1/LIPA/LSS with CIITA/CD74/HLA-DR module scores across existing donor data; cross-check with public LXR-agonist or U18666A perturbation transcriptomes (LINCS/GEO).",
+      "falsifier": "Sterol egress genes do not predict MHC-II module variance and perturbation datasets show decoupling.",
+      "likely_artifact": "Macrophage activation state co-driving both modules without causal coupling.",
+      "source_angle": "cell_cell_interaction"
+    },
+    {
+      "id": "meningeal_bcell_niche_proxy",
+      "hypothesis": "A blood-detectable CXCR5+ memory B / CXCL13-responsive signature is a peripheral proxy for meningeal tertiary lymphoid structures and explains the progressive complement/lipid axis that was donor-confound-downgraded.",
+      "why_non_obvious": "It rescues the downgraded progressive axis by reattributing it to a tissue niche rather than a donor batch effect.",
+      "strongest_existing_data_test": "Build a CXCL13/CXCR5/LTB/TNFRSF13B score in existing progressive MS bulk data and test against meningeal TLS-positive vs negative postmortem cohorts (e.g., Magliozzi-linked public sets).",
+      "falsifier": "Score does not separate TLS+ vs TLS- postmortem samples or does not survive donor-aware controls.",
+      "likely_artifact": "Plasmablast contamination or donor-level B-cell abundance variance.",
+      "source_angle": "tissue_niche"
+    },
+    {
+      "id": "ebv_ifn_imprint_genetic_decoupling",
+      "hypothesis": "The downgraded EBV/IFN APC imprint is real but only visible after stratifying by HLA-DRB1*15:01 dosage, because the imprint requires the risk allele to manifest transcriptionally.",
+      "why_non_obvious": "It explains why random-gene controls killed the signal in aggregate while preserving a genotype-conditional effect.",
+      "strongest_existing_data_test": "Re-run EBV/IFN module scoring stratified by imputed HLA-DRB1*15:01 status (from existing SNP/expression data or HLA imputation on RNA) in project cohorts.",
+      "falsifier": "No interaction between HLA-DRB1*15:01 dosage and EBV/IFN module score.",
+      "likely_artifact": "HLA imputation error from RNA-seq inflating apparent stratification.",
+      "source_angle": "genetics_decoupling"
+    },
+    {
+      "id": "circadian_treatment_window",
+      "hypothesis": "Tofacitinib's T/B compartment AUC advantage is amplified by morning-dosed samples because JAK-STAT targets oscillate diurnally, and unmodeled sampling time inflates or masks the effect.",
+      "why_non_obvious": "It proposes a dosing-time covariate that could explain both AUC persistence and replication failure across cohorts.",
+      "strongest_existing_data_test": "Extract sampling time metadata (or infer via core clock gene phase: ARNTL/PER2/NR1D1) from existing tofa cohorts and test as a moderator of the T/B lead.",
+      "falsifier": "Inferred circadian phase shows no interaction with the AUC effect.",
+      "likely_artifact": "Clinic scheduling confounded with disease severity.",
+      "source_angle": "treatment_dynamics"
+    },
+    {
+      "id": "gut_vagal_apc_priming",
+      "hypothesis": "A gut-derived bile acid (TGR5/FXR) signal primes lysosomal APC tone via vagal-adjacent mesenteric DCs, linking UC-context tofa response to MS-relevant APC biology through a shared enteric axis.",
+      "why_non_obvious": "It bridges the UC dataset choice to MS without invoking generic JAK biology, making the cross-disease transfer mechanistically specific.",
+      "strongest_existing_data_test": "Score NR1H4/GPBAR1/CYP7A1-axis genes and lysosomal APC module in UC tofa data; test correlation with response, then check MS gut-axis public cohorts (e.g., iMSMS-linked transcriptomes).",
+      "falsifier": "Bile acid receptor axis does not co-vary with lysosomal APC module or response.",
+      "likely_artifact": "UC mucosal inflammation generically driving both axes.",
+      "source_angle": "infectious_trigger"
+    },
+    {
+      "id": "astrocyte_complement_lipid_relay",
+      "hypothesis": "The progressive complement/lipid axis reflects an astrocyte-microglia C3-ApoE relay that is detectable peripherally only via extracellular-vesicle cargo, explaining donor-aware downgrading in bulk blood.",
+      "why_non_obvious": "It posits the signal lives in EV transcripts not bulk PBMC, predicting a specific assay redirection rather than abandonment.",
+      "strongest_existing_data_test": "If project has plasma/serum small-RNA or EV-RNA fractions, score C3/C1Q/APOE/TREM2 modules there; otherwise use public MS plasma EV datasets (e.g., GSE-listed exosome MS sets) to test progressive vs RRMS contrast.",
+      "falsifier": "EV-fraction signal also fails donor-aware/random-gene controls.",
+      "likely_artifact": "Platelet/erythrocyte contamination dominating EV RNA.",
+      "source_angle": "neuroimmune"
+    }
+  ]
+}

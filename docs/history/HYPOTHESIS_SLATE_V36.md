@@ -75,3 +75,37 @@ structural promise is insufficient without the missing mechanistic tests.
 | 4 | Lysosomal APC-processing bottleneck | RPT-promising from perturbation structure, but no bottleneck proof | Agent, RPT | Lysosomal flux or HLA-peptidomics under cathepsin/V-ATPase perturbation. |
 | 5 | Complement/lipid progressive axis | downgraded; RPT concordant negative | Agent, RPT | Do not revive without donor-aware lesion-rim spatial lipid/complement proteomics. |
 | 6 | MS-SLE EBV/IFN APC imprint | downgraded; RPT concordant negative | Claude/Gemini, Agent, RPT | Only revive with EBV-stratified MS/SLE B-cell/APC data showing EBV-load tracking beyond IFN/APC and random modules. |
+
+## Iteration 3: Expansive Tri-Source Generation and First Grounding
+
+Status: **completed for first executable subset**.
+
+Generation artifacts:
+
+- Prompt: `analysis/v36_tri_source_generation/v36_generation_prompt.md`
+- Claude output: `analysis/v36_tri_source_generation/claude_hypotheses.json`
+- Gemini output: `analysis/v36_tri_source_generation/gemini_hypotheses.json`
+- Consolidated table:
+  `analysis/v36_tri_source_generation/consolidated_model_hypotheses.tsv`
+
+Generation result:
+
+- Claude generated `8` valid JSON hypotheses.
+- Gemini generated `8` hypotheses as JSON inside a markdown code fence; the
+  consolidation script stripped the fence and parsed the JSON.
+- RPT contributed the structured tensions from Iteration 2.
+
+Grounded executable subset:
+
+| Generated hypothesis | Source(s) | Grounded result | Key evidence | Verdict |
+|---|---|---|---|---|
+| Tofacitinib Treg/effector-T glycolytic brake | Claude | `inconclusive_partial_context_only` | In `GSE253006_TOF_exact`, all-cell `delta_glycolysis` has oriented AUC `0.95` and exact permutation p `0.0317`, matching the locked-score AUC, but the held exact compartment matrix lacks Treg/T-cell glycolysis genes. | Plausible mechanism proposal only; not a grounded Treg/T-cell finding. |
+| Sterol-setpoint / lysosomal-APC coupling and perivascular macrophage lysosomal blockade | Claude, Gemini, RPT | `not_supported_as_coupled_bottleneck_with_current_data` | Mixscale GILT/lysosomal APC vs IFN/APC is strong (`rho = 0.902`, permutation p `9.999e-05`), and lesion-edge cholesterol synthesis is elevated (`g = 0.269`, p `4.96e-18`), but lesion-edge lysosomal-cholesterol is weak/non-significant (`g = 0.052`, p `0.403`). | No unified sterol-lysosomal bottleneck claim. Needs APC/PVM lipid flux or HLA-peptidomics. |
+
+Interpretation:
+
+Expanded generation added mechanistic variants, but strict grounding prevented
+promotion. The most useful new clue is that all-cell glycolysis moves with the
+tofacitinib response signal; the hard limitation is compartment specificity.
+The sterol/lysosomal convergence remains tempting across idea sources but fails
+the current held-data convergence gate.

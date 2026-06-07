@@ -43,11 +43,28 @@
 ### Iteration 3
 
 - Start UTC: 2026-06-07T18:33:04Z
-- Status: in_progress
+- End UTC: 2026-06-07T18:37:36Z
+- Status: completed
 - Item selected: Expansive tri-source generation round.
 - Note: Use Claude, Gemini, RPT output, and agent-native interpretation to
   generate broader hypotheses, consolidate/de-duplicate, then ground the
   executable subset.
+- Result: Claude produced 8 valid JSON hypotheses; Gemini produced 8 JSON
+  hypotheses inside a markdown fence and was parsed by the consolidation
+  script. Grounded first executable subset: tofacitinib glycolytic-brake
+  hypothesis is all-cell context only (`delta_glycolysis` AUC `0.95`, exact p
+  `0.0317`, no Treg/T-cell-specific matrix); sterol/lysosomal coupling remains
+  not supported as a unified bottleneck because lesion-edge lysosomal
+  cholesterol is weak/non-significant despite strong Mixscale lysosomal APC
+  coupling.
+
+### Iteration 4
+
+- Start UTC: 2026-06-07T18:37:36Z
+- Status: in_progress
+- Item selected: T/B compartment remodeling gate artifact audit.
+- Note: Test whether the current top lead can be explained by composition or
+  generic T-cell/B-cell abundance proxies in existing exact compartment data.
 
 ## Backlog
 
@@ -55,8 +72,8 @@
 |---:|---|---|---|
 | 1 | Extend client to SAP RPT + smoke test | done | `sap-rpt-1-large` smoke-passed through `rpt-smoke`; access documented. |
 | 2 | RPT-driven structured-data hypothesis pass | done | RPT added prioritization value but no data-grounded upgrades; see `analysis/v36_rpt_structured_pass/` and slate. |
-| 3 | Expansive tri-source generation round | in_progress | Claude + Gemini + RPT + agent proposals; consolidate/de-dup; ground. |
-| 4 | T/B compartment remodeling gate artifact audit | todo | Test within-cell remodeling vs cell-composition shift on existing data; specify replication cohort if unresolved. |
+| 3 | Expansive tri-source generation round | done | 16 model hypotheses consolidated; first executable subset grounded with no upgrades. |
+| 4 | T/B compartment remodeling gate artifact audit | in_progress | Test within-cell remodeling vs cell-composition shift on existing data; specify replication cohort if unresolved. |
 | 5 | Postpartum APC-arm imbalance MS-specificity | todo | Deepen reachable grounding and specify required MS postpartum cohort. |
 | 6 | Metabolic/sterol, lysosomal, complement/lipid, EBV/IFN deepening | todo | Continue strict grounding of remaining V35 shortlist. |
 | 7 | Deep multi-pass cross-examination | todo | Claude/Gemini adversarial rounds for top grounded hypotheses; ground concrete proposals. |

@@ -1,0 +1,44 @@
+[
+  {
+    "grounded_result": "inconclusive_partial_context_only",
+    "hypothesis_ids": [
+      "tofa_treg_glycolytic_brake"
+    ],
+    "interpretation": "All-cell glycolysis delta can be scored, but it is not a Treg- or T-cell-specific brake test. The exact compartment matrix only carries the locked module genes, not glycolysis genes. The hypothesis remains a plausible mechanism proposal, not a grounded finding.",
+    "key_numbers": {
+      "delta_glycolysis_auc_oriented": 0.95,
+      "delta_glycolysis_exact_perm_p": 0.031746031746031744,
+      "locked_signed_score_auc_oriented": 0.95,
+      "locked_signed_score_exact_perm_p": 0.031746031746031744
+    },
+    "next_test": "Treg/effector-T sorted or single-cell paired treatment data with glycolysis genes and response labels.",
+    "source_models": [
+      "claude"
+    ],
+    "test": "GSE253006 exact all-cell V32 metabolic confounder scores; Treg-specific glycolysis is not available in held exact compartment matrix."
+  },
+  {
+    "grounded_result": "not_supported_as_coupled_bottleneck_with_current_data",
+    "hypothesis_ids": [
+      "sterol_setpoint_lysosomal_coupling",
+      "pvm_lysosomal_blockade"
+    ],
+    "interpretation": "The perturbation data strongly couples GILT/lysosomal APC to IFN/APC, and lesion-edge immune cells show cholesterol-synthesis context, but the lesion-edge lysosomal-cholesterol module itself is weak and non-significant. Current data do not support a unified sterol-lysosomal bottleneck.",
+    "key_numbers": {
+      "lesion_edge_cholesterol_synthesis_hedges_g": 0.2686208742241309,
+      "lesion_edge_cholesterol_synthesis_p": 4.962001971791353e-18,
+      "lesion_edge_lysosomal_cholesterol_hedges_g": 0.0519834700966836,
+      "lesion_edge_lysosomal_cholesterol_p": 0.4028382732728299,
+      "mixscale_top_lysosomal_pair": "gilt_lysosomal_apc_vs_ifn_apc",
+      "mixscale_top_perm_p": 9.999000099990002e-05,
+      "mixscale_top_spearman_r": 0.9017391304347826
+    },
+    "next_test": "APC- or perivascular-macrophage-resolved lipid/lysosomal flux or HLA-peptidomics in MS lesions.",
+    "source_models": [
+      "claude",
+      "gemini",
+      "rpt"
+    ],
+    "test": "Compare MS lesion-edge sterol/lysosomal cholesterol modules with V35 Mixscale lysosomal APC perturbation coupling."
+  }
+]
