@@ -42,12 +42,53 @@ Minimum next test:
 
 | Rank | Hypothesis | V35 status | Next action |
 |---:|---|---|---|
-| 1 | Postpartum HLA-II/CD64 APC-arm imbalance trajectory | next in progress | Scout MS postpartum/pregnancy immune data; if absent, stress-test cross-disease heterogeneity |
-| 2 | MS-SLE EBV/IFN APC imprint | needs data | Acquire/build EBV-response module and EBV-stratified MS/SLE B-cell/APC data |
-| 3 | Complement/lipid progressive axis | todo | Mine progressive/chronic-active lesion data |
-| 4 | T/B compartment remodeling gate | todo | Test existing single-cell/compartment data |
+| 1 | T/B compartment remodeling gate | supported but small-n | Replicate in an independent paired response cohort with sorted or single-cell T/B compartments |
+| 2 | Postpartum HLA-II/CD64 APC-arm imbalance trajectory | partially grounded / needs MS postpartum data | Acquire true postpartum MS relapse-window immune cohort |
+| 3 | Complement/lipid progressive axis | partially grounded | Run donor-aware chronic-active lesion-edge test |
+| 4 | MS-SLE EBV/IFN APC imprint | needs data | Acquire/build EBV-response module and EBV-stratified MS/SLE B-cell/APC data |
 | 5 | Lysosomal APC-processing bottleneck | todo | Test APC lysosomal perturbation data |
 | 6 | Metabolic/sterol setpoint | todo | Score explicit sterol genes and relate to V32 immune tone |
+
+## Iteration 4: T/B Compartment Remodeling Gate
+
+Status: **supported but small-n**.
+
+Executable grounding:
+
+- Script: `scripts/v35_tb_compartment_gate.py`
+- Outputs: `analysis/v35_tb_compartment_gate/`
+- Dataset: exact V23 compartment recheck of `GSE253006` tofacitinib paired
+  baseline/on-treatment scores, `n = 9` labeled patients (`5` responders,
+  `4` non-responders).
+
+Result:
+
+- T/B-like compartments had the strongest locked-rule response discrimination:
+  - `t_cell_like`: AUC `1.00`, exact label-permutation p(AUC >= observed)
+    `0.0079`;
+  - `b_plasma_like`: AUC `0.95`, p `0.0159`.
+- Non-T/B-like compartments were weaker on average:
+  - `epithelial_like`: AUC `0.90`;
+  - `myeloid_apc_like`: AUC `0.80`;
+  - `stromal_endothelial_like`: AUC `0.75`.
+- The mean T/B-like AUC was `0.975` versus non-T/B-like mean AUC `0.817`.
+- Exact patient-label permutation of the T/B-minus-non-T/B gate gap gave
+  p `0.0635` across all `126` possible responder-label assignments.
+
+Interpretation:
+
+This supports the V23/V26 idea that the response-monitoring signal is carried
+most strongly in T/B remodeling compartments, but the evidence remains
+small-n and single-cohort. It is stronger than a visual compartment ranking
+because the patient-label permutation preserves the paired compartment
+structure, but it is not yet a generalizable biomarker claim.
+
+Next test:
+
+- Replicate in a fresh paired response cohort with compartment-resolved data or
+  robust bulk deconvolution.
+- Reject or downgrade if the T/B advantage disappears under cohort-level
+  replication or after steroid/cell-composition adjustment.
 
 ## Iteration 3: Complement/Lipid Progressive Axis
 

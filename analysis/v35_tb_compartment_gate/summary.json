@@ -1,0 +1,13 @@
+{
+  "dataset": "analysis/v23_apc_hla_monitoring/gse253006_exact_compartments/gse253006_exact_compartment_paired_scores.tsv",
+  "grounded_result": "supported_but_small_n",
+  "hypothesis": "T/B compartment remodeling gate",
+  "interpretation": "T/B-like compartments have the highest locked-rule AUCs in the exact tofacitinib recheck; exact patient-label permutation tests whether that compartment advantage exceeds label-exchangeable expectation.",
+  "n_patients": 9,
+  "n_responders": 5,
+  "non_tb_mean_locked_auc": 0.8166666666666668,
+  "null_permutations": 126,
+  "observed_tb_minus_non_tb_auc_gap": 0.15833333333333321,
+  "patient_label_exact_permutation_p_gap_ge_observed": 0.06349206349206349,
+  "tb_mean_locked_auc": 0.975
+}

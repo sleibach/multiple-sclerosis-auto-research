@@ -44,11 +44,23 @@ Target block end UTC: 2026-06-07T17:37:36Z
 
 ### Iteration 4
 
-- Start UTC: pending
-- Status: in_progress
+- Start UTC: 2026-06-07T16:44:32Z
+- Status: completed
 - Item selected: T/B compartment remodeling gate.
 - Note: Test on existing single-cell/compartment data and null-test where
   feasible.
+- Result: supported but small-n. Exact V23 tofacitinib compartment scores show
+  T/B-like compartments with mean locked-rule AUC `0.975` versus non-T/B mean
+  `0.817`; exact patient-label permutation of the T/B-minus-non-T/B gap gives
+  p `0.0635` over `126` label assignments.
+
+### Iteration 5
+
+- Start UTC: 2026-06-07T16:46:10Z
+- Status: in_progress
+- Item selected: Lysosomal APC-processing bottleneck.
+- Note: Test cathepsin/V-ATPase/lysosomal-flux modules in APC/immune data and
+  report whether existing perturbation data is sufficient.
 
 ## Backlog
 
@@ -57,8 +69,8 @@ Target block end UTC: 2026-06-07T17:37:36Z
 | 1 | EBV/IFN APC imprint | done | Needs EBV-stratified MS/SLE B-cell/APC data; current held summaries cannot separate EBV imprint from generic IFN/APC. |
 | 2 | Postpartum APC-arm imbalance, MS-specificity | done | Partially grounded; true MS postpartum relapse-window data missing. |
 | 3 | Complement/lipid progressive axis | done | Partially grounded; lipid-repair immune component at chronic-active edge, complement not yet uniquely supported. |
-| 4 | T/B compartment remodeling gate | in_progress | Test on existing single-cell/compartment data; null-test. |
-| 5 | Lysosomal APC-processing bottleneck | todo | Test cathepsin/V-ATPase/lysosomal modules in APC perturbation data. |
+| 4 | T/B compartment remodeling gate | done | Supported but small-n; T/B-like AUC advantage p=0.0635 by exact patient-label permutation in n=9 tofacitinib cohort. |
+| 5 | Lysosomal APC-processing bottleneck | in_progress | Test cathepsin/V-ATPase/lysosomal modules in APC perturbation data. |
 | 6 | Metabolic/sterol setpoint | todo | Ground against existing metabolic module data and V32 immune-tone finding. |
 | 7 | Two-lineage cross-examination of grounded hypotheses | todo | Use Claude/Gemini only after concrete data-grounded results exist. |
 
