@@ -83,10 +83,22 @@ Target block end UTC: 2026-06-07T17:37:36Z
 ### Iteration 7
 
 - Start UTC: 2026-06-07T16:52:14Z
-- Status: in_progress
+- Status: completed
 - Item selected: Two-lineage cross-examination of grounded hypotheses.
 - Note: Ask Claude and Gemini for fatal weakness/strongest test of the grounded
   V35 shortlist; use as prioritization only, not evidence.
+- Result: completed. Claude and Gemini converged on T/B gate replication as the
+  highest-priority validation need; identified postpartum MS as data-acquisition
+  blocked; and selected donor-aware complement/lipid lesion-edge testing as the
+  highest-priority executable hardening step.
+
+### Iteration 8
+
+- Start UTC: 2026-06-07T16:54:30Z
+- Status: in_progress
+- Item selected: Donor-aware complement/lipid progressive-axis hardening.
+- Note: Execute the convergent two-lineage next test on local GSE180759 using
+  donor/case-aware summaries where metadata supports it.
 
 ## Backlog
 
@@ -98,7 +110,8 @@ Target block end UTC: 2026-06-07T17:37:36Z
 | 4 | T/B compartment remodeling gate | done | Supported but small-n; T/B-like AUC advantage p=0.0635 by exact patient-label permutation in n=9 tofacitinib cohort. |
 | 5 | Lysosomal APC-processing bottleneck | done | Reframed as coupled lysosomal APC arm; functional bottleneck remains unproven without lysosomal flux/HLA-peptidomics. |
 | 6 | Metabolic/sterol setpoint | done | Supported as context axis; not intervention-grade without APC-resolved lipidomics/perturbation. |
-| 7 | Two-lineage cross-examination of grounded hypotheses | in_progress | Use Claude/Gemini only after concrete data-grounded results exist. |
+| 7 | Two-lineage cross-examination of grounded hypotheses | done | Both lineages converged on T/B replication, postpartum data acquisition, and donor-aware complement/lipid hardening. |
+| 8 | Donor-aware complement/lipid progressive-axis hardening | in_progress | Execute on local GSE180759 donor/case metadata. |
 
 ## Timing Rule
 

@@ -1,3 +1,14 @@
+
+You are an independent adversarial scientific reviewer. You are a lens, not evidence.
+Review only the grounded V35 hypothesis slate below. For each hypothesis, return concise JSON with:
+- hypothesis
+- fatal_weakness
+- strongest_next_test
+- should_prioritize: high/medium/low
+- rationale_one_sentence
+Do not invent data or cite facts beyond the slate. Focus on what would falsify or harden the hypothesis.
+
+V35 SLATE:
 # Hypothesis Slate V35
 
 Block start UTC: 2026-06-07T16:37:36Z
@@ -186,37 +197,6 @@ Minimum next test:
    tissue/metabolism-only and does not modulate APC remodeling after immune-tone
    adjustment.
 
-## Iteration 7: Two-Lineage Cross-Examination
-
-Status: **completed / prioritization only, not evidence**.
-
-Executable grounding:
-
-- Prompt: `analysis/v35_two_lineage_cross_exam/prompt.md`
-- Claude output: `analysis/v35_two_lineage_cross_exam/claude_cross_exam.json`
-- Gemini output: `analysis/v35_two_lineage_cross_exam/gemini_cross_exam.json`
-- Summary table: `analysis/v35_two_lineage_cross_exam/summary.tsv`
-
-Convergent model-prioritized weaknesses and tests:
-
-- Both lineages prioritized the T/B compartment remodeling gate for replication;
-  the shared weakness is `n=9` single-cohort fragility.
-- Both lineages identified the postpartum hypothesis as high clinical value but
-  blocked by absence of a true postpartum MS relapse-window cohort.
-- Both lineages converged on a donor-aware test as the next hardening step for
-  the complement/lipid progressive axis.
-- Both lineages treated metabolic/sterol and lysosomal APC hypotheses as
-  plausible context biology requiring functional perturbation, not immediate
-  therapeutic claims.
-- Both lineages deprioritized EBV/IFN APC for immediate computation because the
-  held data cannot separate EBV-specific imprint from generic IFN/APC tone.
-
-Action taken:
-
-- The next V35 executable item is a donor-aware GSE180759 complement/lipid
-  progressive-axis test, because it is the highest-priority model-convergent
-  action that can be executed with data already on disk.
-
 ## Iteration 3: Complement/Lipid Progressive Axis
 
 Status: **partially grounded / needs donor-aware statistical test**.
@@ -305,3 +285,4 @@ Minimum next data/test:
 Updated status: postpartum APC-arm imbalance remains the best locally grounded
 clinical hypothesis, but it is a data-acquisition target rather than a completed
 MS-specific biomarker.
+

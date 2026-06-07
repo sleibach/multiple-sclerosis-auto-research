@@ -1,0 +1,46 @@
+```json
+[
+  {
+    "hypothesis": "T/B compartment remodeling gate (Iteration 4)",
+    "fatal_weakness": "n=9 single-cohort tofacitinib paired design with permutation p~0.06 for the gate gap means the headline AUCs are likely overfit to compartment labeling choices and cannot exclude cell-composition or steroid confounding.",
+    "strongest_next_test": "Pre-register the locked T/B vs non-T/B gate and apply it to an independent paired DMT-response cohort (e.g., anti-CD20 or JAKi) with sorted/scRNA compartments and explicit composition/steroid covariates.",
+    "should_prioritize": "high",
+    "rationale_one_sentence": "It is the only slate item with a locked rule and exact permutation evidence, so a single external replication will either harden it into a biomarker claim or cleanly falsify it."
+  },
+  {
+    "hypothesis": "Postpartum HLA-II/CD64 APC-arm imbalance, MS-specific (Iteration 2)",
+    "fatal_weakness": "The decisive postpartum relapse-window MS cohort does not exist in the held data, so the MS-specificity claim is currently unfalsifiable and rests on cross-disease analogies with disease-divergent component arms (CD64_shift vs HLAII_rebound).",
+    "strongest_next_test": "Acquire or contract access to a postpartum MS immune cohort (T3 + 6wk + 3-6mo) with relapse, DMT, steroid, and lactation metadata and pre-specify the HLA-II-minus-CD64 contrast versus matched RA/SLE/healthy postpartum controls.",
+    "should_prioritize": "medium",
+    "rationale_one_sentence": "Clinically high-value and well-scoped, but blocked on data acquisition, so it cannot advance without an external cohort."
+  },
+  {
+    "hypothesis": "Complement/lipid progressive axis (Iteration 3)",
+    "fatal_weakness": "Mean-expression comparisons across pathology bins in GSE180759 without donor-aware statistics conflate donor effects with lesion-state effects, and the complement arm is already not elevated versus control, undermining the original axis.",
+    "strongest_next_test": "Run donor-aware mixed-effects or donor-permutation tests within immune/microglia-like cells for lipid-repair and complement modules across chronic-active edge vs periplaque/inactive/control, with lesion-rim spatial validation.",
+    "should_prioritize": "medium",
+    "rationale_one_sentence": "The lipid-repair edge signal is interesting but the complement half is already weakly supported, so a rigorous donor-aware test is needed before further investment."
+  },
+  {
+    "hypothesis": "Metabolic/sterol setpoint (Iteration 6)",
+    "fatal_weakness": "Evidence mixes iNSC lipidomics, lesion transcripts, and treatment-response confounding without an APC-resolved causal sterol pathway, and the V32 adjustment only attenuated rather than abolished the monitoring signal, so sterol biology may be a correlate of immune tone rather than a driver.",
+    "strongest_next_test": "APC-resolved perturbation of LXR/ABCA1/CH25H/SREBF2 in disease-relevant APCs with paired HLA-II/IFN module readout and lipid output, after STAT1/IFN-tone adjustment.",
+    "should_prioritize": "low",
+    "rationale_one_sentence": "Useful as a context/confounder layer but not currently intervention-grade and unlikely to yield a clean causal claim without a dedicated APC-lipidomics arm."
+  },
+  {
+    "hypothesis": "Lysosomal APC-processing bottleneck, reframed as coupled lysosomal APC arm (Iteration 5)",
+    "fatal_weakness": "All evidence is transcript-module correlation within the IFN/HLA/CD74 axis, so the 'bottleneck' or even 'distinct arm' reading cannot be distinguished from passive co-regulation by IFN tone.",
+    "strongest_next_test": "Functional cathepsin/V-ATPase/IFI30 perturbation in MS-relevant APCs with HLA-peptidomics or myelin-antigen pulse-chase as the primary endpoint, decoupled from transcript modules.",
+    "should_prioritize": "low",
+    "rationale_one_sentence": "The reframed claim is coherent but currently indistinguishable from generic IFN coupling and requires a wet-lab functional assay the project does not yet have."
+  },
+  {
+    "hypothesis": "MS-SLE EBV/IFN APC imprint (Iteration 1)",
+    "fatal_weakness": "EBV latency genes (EBNA1, LMP1, LMP2A) are absent from current panels and no EBV-stratified MS/SLE cohort is held, so the EBV-specific component is not separable from generic STAT1/IFN tone and the high SLE h2 intercept (1.20) further weakens the rg=0.24 anchor.",
+    "strongest_next_test": "Build an EBV-latency/LMP1 response signature from infection or perturbation data and test residual MS/SLE B-cell/APC enrichment after STAT1/IFN adjustment in an EBV-serostatus- or load-stratified cohort.",
+    "should_prioritize": "low",
+    "rationale_one_sentence": "Currently not testable with held data and at risk of collapsing into the generic IFN/APC axis already covered by other slate items."
+  }
+]
+```

@@ -1,0 +1,46 @@
+```json
+[
+  {
+    "hypothesis": "T/B compartment remodeling gate",
+    "fatal_weakness": "The result is based on a single cohort with a very small sample size (n=9), making it highly susceptible to overfitting or being a cohort-specific artifact.",
+    "strongest_next_test": "Replicate the analysis in an independent, paired treatment-response cohort with sorted or single-cell T/B compartment data.",
+    "should_prioritize": "high",
+    "rationale_one_sentence": "The hypothesis shows an exceptionally strong but small-n effect, so immediate replication is the highest priority to confirm its generalizability before investing further."
+  },
+  {
+    "hypothesis": "Postpartum HLA-II/CD64 APC-arm imbalance trajectory",
+    "fatal_weakness": "The core claim about the postpartum relapse window in MS is entirely untested, as the project lacks an immune cohort with samples from that specific time period.",
+    "strongest_next_test": "Acquire a true postpartum MS cohort with immune profiling and clinical relapse data at the critical 6-week and 3-6 month timepoints.",
+    "should_prioritize": "high",
+    "rationale_one_sentence": "This clinically important hypothesis is untestable without acquiring a specific postpartum MS cohort, making that data acquisition a critical and high-priority next step."
+  },
+  {
+    "hypothesis": "Complement/lipid progressive axis",
+    "fatal_weakness": "The analysis does not account for inter-donor variability, so the observed lipid-repair signal at the lesion edge could be a statistical artifact driven by one or more specific donors.",
+    "strongest_next_test": "Run a donor-aware statistical comparison for gene modules within immune cells across different lesion and control regions.",
+    "should_prioritize": "medium",
+    "rationale_one_sentence": "The current evidence may be a simple statistical confound, which a more rigorous donor-aware analysis on existing data can quickly confirm or refute."
+  },
+  {
+    "hypothesis": "Metabolic/sterol setpoint",
+    "fatal_weakness": "The evidence is a mix of disconnected correlations from different cell types and contexts, lacking a direct causal link between sterol pathways and APC immune function.",
+    "strongest_next_test": "Perturb key sterol-pathway genes (e.g., LXR/SREBF2) in antigen-presenting cells and measure the functional impact on APC/HLA-II response modules.",
+    "should_prioritize": "medium",
+    "rationale_one_sentence": "The hypothesis remains a contextual observation until functional perturbation experiments can establish a causal link between sterol metabolism and APC remodeling."
+  },
+  {
+    "hypothesis": "Lysosomal APC-processing bottleneck",
+    "fatal_weakness": "The supporting data is purely transcriptional, showing co-regulation but not proving a functional change in antigen processing or a 'bottleneck'.",
+    "strongest_next_test": "Run a functional experiment perturbing lysosomal genes/pathways and directly measure antigen-processing output via HLA-peptidomics or a pulse-chase assay.",
+    "should_prioritize": "medium",
+    "rationale_one_sentence": "The hypothesis has been reframed to transcriptional coupling, which now requires a direct functional assay of antigen processing to prove its biological relevance."
+  },
+  {
+    "hypothesis": "MS-SLE EBV/IFN APC imprint",
+    "fatal_weakness": "The hypothesis is unfalsifiable with current data, as there is no way to separate a potential EBV-specific signal from the generic, dominant IFN/APC signal.",
+    "strongest_next_test": "Acquire or build an EBV-response gene module and test its enrichment in EBV-stratified MS/SLE B-cell/APC data, adjusting for STAT1/IFN signatures.",
+    "should_prioritize": "low",
+    "rationale_one_sentence": "The hypothesis is fundamentally untestable and blocked on the acquisition of highly specific EBV-stratified patient data, making it a low priority for immediate action."
+  }
+]
+```
