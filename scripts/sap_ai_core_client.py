@@ -246,6 +246,22 @@ def chat_completions_generate(
         raise SapAiCoreError(f"Unexpected chat-completions response schema: {payload}") from exc
 
 
+def rpt_predict(
+    deployment: dict[str, str],
+    token: str,
+    resource_group: str,
+    body: dict[str, Any],
+    timeout: int,
+) -> dict[str, Any]:
+    if not deployment["name"].startswith("sap-rpt"):
+        raise SapAiCoreError(f"RPT prediction requires sap-rpt deployment, got: {deployment['name']}")
+    url = deployment["deploymentUrl"].rstrip("/") + "/predict"
+    _, payload = request_json(url, token, resource_group, "POST", body, timeout)
+    if "predictions" not in payload and "status" not in payload:
+        raise SapAiCoreError(f"Unexpected RPT response schema: {payload}")
+    return payload
+
+
 def orchestration_generate(
     orchestration_deployment: dict[str, str],
     model_deployment: dict[str, str],
@@ -441,6 +457,61 @@ def cmd_debug_gemini(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_rpt_smoke(args: argparse.Namespace) -> int:
+    cred = credential()
+    token, expires = oauth_token(cred)
+    resources = deployments(cred, token, args.resource_group)
+    deployment = find_deployment(resources, args.model)
+    body = {
+        "prediction_config": {
+            "target_columns": [
+                {
+                    "name": "OUTCOME",
+                    "prediction_placeholder": "[PREDICT]",
+                    "task_type": "classification",
+                }
+            ]
+        },
+        "index_column": "ID",
+        "data_schema": {
+            "ID": {"dtype": "string"},
+            "MODULE_A": {"dtype": "numeric"},
+            "MODULE_B": {"dtype": "numeric"},
+            "OUTCOME": {"dtype": "string"},
+        },
+        "rows": [
+            {"ID": "train_1", "MODULE_A": 0.1, "MODULE_B": 1.0, "OUTCOME": "low"},
+            {"ID": "train_2", "MODULE_A": 0.2, "MODULE_B": 0.8, "OUTCOME": "low"},
+            {"ID": "train_3", "MODULE_A": 1.1, "MODULE_B": 0.1, "OUTCOME": "high"},
+            {"ID": "train_4", "MODULE_A": 1.2, "MODULE_B": 0.2, "OUTCOME": "high"},
+            {"ID": "predict_1", "MODULE_A": 1.0, "MODULE_B": 0.2, "OUTCOME": "[PREDICT]"},
+        ],
+    }
+    started = time.time()
+    payload = rpt_predict(deployment, token, args.resource_group, body, args.timeout)
+    elapsed = time.time() - started
+    print("oauth: ok; expires_in:", expires)
+    print("model:", deployment["name"], deployment["version"], deployment["id"])
+    print("smoke_elapsed_sec:", round(elapsed, 2))
+    print(json.dumps(payload, indent=2, sort_keys=True)[:2000])
+    return 0
+
+
+def cmd_rpt_predict(args: argparse.Namespace) -> int:
+    cred = credential()
+    token, _ = oauth_token(cred)
+    resources = deployments(cred, token, args.resource_group)
+    deployment = find_deployment(resources, args.model)
+    body = json.loads(pathlib.Path(args.payload_file).read_text())
+    payload = rpt_predict(deployment, token, args.resource_group, body, args.timeout)
+    if args.output:
+        pathlib.Path(args.output).parent.mkdir(parents=True, exist_ok=True)
+        pathlib.Path(args.output).write_text(json.dumps(payload, indent=2, sort_keys=True))
+    else:
+        print(json.dumps(payload, indent=2, sort_keys=True))
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest="command", required=True)
@@ -478,6 +549,20 @@ def build_parser() -> argparse.ArgumentParser:
     debug_gemini_parser.add_argument("--timeout", type=int, default=120)
     debug_gemini_parser.add_argument("--max-output-tokens", type=int, default=8192)
     debug_gemini_parser.set_defaults(func=cmd_debug_gemini)
+
+    rpt_smoke_parser = sub.add_parser("rpt-smoke", help="Run a minimal SAP RPT prediction smoke test")
+    rpt_smoke_parser.add_argument("--model", default="sap-rpt-1-large", help="Exact or partial RPT model name")
+    rpt_smoke_parser.add_argument("--resource-group", default=os.getenv("SAP_AI_CORE_RESOURCE_GROUP", DEFAULT_RESOURCE_GROUP))
+    rpt_smoke_parser.add_argument("--timeout", type=int, default=120)
+    rpt_smoke_parser.set_defaults(func=cmd_rpt_smoke)
+
+    rpt_predict_parser = sub.add_parser("rpt-predict", help="Run SAP RPT prediction from a JSON payload file")
+    rpt_predict_parser.add_argument("--model", default="sap-rpt-1-large", help="Exact or partial RPT model name")
+    rpt_predict_parser.add_argument("--payload-file", required=True)
+    rpt_predict_parser.add_argument("--output")
+    rpt_predict_parser.add_argument("--resource-group", default=os.getenv("SAP_AI_CORE_RESOURCE_GROUP", DEFAULT_RESOURCE_GROUP))
+    rpt_predict_parser.add_argument("--timeout", type=int, default=120)
+    rpt_predict_parser.set_defaults(func=cmd_rpt_predict)
     return parser
 
 

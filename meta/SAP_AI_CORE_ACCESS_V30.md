@@ -264,3 +264,69 @@ V31 access verdict:
 - two non-OpenAI lineages are now working: Claude via Orchestration and Gemini
   via native Gemini endpoint.
 - multi-lineage review can run.
+
+## V36 SAP RPT-1 Tabular Prediction Access
+
+V36 added SAP RPT access to the committed Python client for table-transformer
+style predictions.
+
+Working deployment:
+
+- model: `sap-rpt-1-large`
+- deployment ID smoke-tested: `d61aae51af327bbc`
+- deployment URL shape:
+  `https://api.ai.prod.eu-central-1.aws.ml.hana.ondemand.com/v2/inference/deployments/<deployment_id>`
+
+Request contract verified from `@sap-ai-sdk/rpt` 2.11.0 and live smoke test:
+
+- method/path: `POST <deploymentUrl>/predict`
+- headers:
+  - `Authorization: Bearer <token>`
+  - `AI-Resource-Group: default`
+  - `Content-Type: application/json`
+- body shape:
+
+```json
+{
+  "prediction_config": {
+    "target_columns": [
+      {
+        "name": "OUTCOME",
+        "prediction_placeholder": "[PREDICT]",
+        "task_type": "classification"
+      }
+    ]
+  },
+  "index_column": "ID",
+  "data_schema": {
+    "ID": { "dtype": "string" },
+    "MODULE_A": { "dtype": "numeric" },
+    "MODULE_B": { "dtype": "numeric" },
+    "OUTCOME": { "dtype": "string" }
+  },
+  "rows": [
+    { "ID": "train_1", "MODULE_A": 0.1, "MODULE_B": 1.0, "OUTCOME": "low" },
+    { "ID": "predict_1", "MODULE_A": 1.0, "MODULE_B": 0.2, "OUTCOME": "[PREDICT]" }
+  ]
+}
+```
+
+Important schema detail:
+
+- The service rejects a top-level field named `schema` with HTTP 422
+  `Extra inputs are not permitted`.
+- The accepted field is `data_schema`, as an object keyed by column name.
+
+Smoke test:
+
+- command: `python3 scripts/sap_ai_core_client.py rpt-smoke --timeout 180`
+- result: status code `0`, message `ok`, one prediction returned for
+  `predict_1`, predicted `OUTCOME = high` with confidence `0.96`, elapsed
+  `0.33s`.
+
+Operational rule:
+
+- RPT output is a tabular prediction lens, not evidence. In V36 it can be used
+  to prioritize anomalies or masked-label predictions over structured project
+  matrices, but every surfaced pattern still requires independent grounding on
+  real data.
