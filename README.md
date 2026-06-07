@@ -11,7 +11,7 @@ All analysis uses public human-tissue data only and random seed `20260526`
 
 ## Current Status
 
-The current phase is **V35**. The V4 directory structure remains canonical, and
+The current phase is **V36**. The V4 directory structure remains canonical, and
 V11 introduced the resume backbone for short-session continuity.
 
 - Start here: `meta/CURRENT_STATUS.md` — the live mission state, active leads,
@@ -85,6 +85,19 @@ V11 introduced the resume backbone for short-session continuity.
   mechanism hypotheses; complement/lipid and EBV-specific imprint were
   downgraded. Concrete acquisition requirements are in
   `meta/V35_BLOCKED_DATA_REQUESTS.md`.
+  V36 then ran a measured two-hour self-chaining block with expanded SAP AI
+  Core/RPT use and stricter grounding. Result: the immutable V22/V23 locked
+  treatment-response rule remains the primary validation target; V36 did not
+  create a successor locked rule. V36-derived compartment/substate features are
+  secondary audits only after a 76-feature max-AUC permutation stress test
+  showed post-hoc perfect AUCs are expected in n=9 (`p = 0.5000`). The
+  refactored biology is a broad early on-treatment IFN/APC/STAT1 monitoring
+  state, T/B-readable but not an independent T/B mechanism, STAT1/composition/
+  QC-conditioned, and still unreplicated. Therapy-branch evidence now separates
+  JAK/immune-remodeling IFN/APC/STAT1 downshift from IFN-beta HLA-II/CD74
+  receptor-state competence/induction; fingolimod, adalimumab, and MTX
+  psoriasis skin argue against unbounded transfer. See
+  `docs/history/HYPOTHESIS_SLATE_V36.md`.
 - Current genetics/data focus: the chr1 MS-UC causal-gene question is
   computationally resolved for now and handed forward as real shared genetics,
   not an intervention-grade target. V20 widened back out to a ranked
@@ -192,6 +205,9 @@ that explicitly in `meta/SESSION_LOG.md`.
 | V21 | Genome-wide genetic-correlation backdrop and queued next-tier locus vetting. | Used the verified LDSC panel to compute rg for MS vs UC, Crohn, RA, and SLE; UC is the strongest tested genetic comparator for MS. Bounded SuSiE-coloc parked chr14 `ZFP36L1` as suggestive and closed chr2 `REL/PUS10/USP34` as not-now. See `docs/workups/genetics/GENETIC_CORRELATION_BACKDROP_V21.md` and `docs/history/LEAD_SLATE_V21.md`. |
 | V22-V28 | Locked APC/HLA-II treatment-response monitoring validation and robustness testing. | V22 locked the dynamic scalar rule before held-out testing; V23 bounded it to immune-remodeling/JAK-STAT contexts; V27 showed coupled-axis successors do not beat the scalar; V28 showed the scalar is statistically tool-robust but not improved by flexible ML or adjacent dynamic features. See `docs/workups/treatment_response/ROBUSTNESS_MAP_V28.md`. |
 | V29 | Independent-lens review queue and dormant-lead reactivation. | No Anthropic/Google/Gemini key was configured, so the independent review was queued. Local reactivation found no intervention-grade dormant lead; postpartum HLA-II/CD64 APC split is the best dormant biology lead, ZMIZ1 remains a transfer-validity finding, MIF/CD74 is mechanism context, and NAMPT/PTGER4/ZFP36L1/REL/TYK2 remain parked or closed. See `docs/history/LEAD_INVENTORY_V29.md`. |
+| V30-V32 | SAP AI Core multi-lineage review and confounder audit. | Claude via SAP AI Core Orchestration and Gemini were made usable; multi-lineage review found no upgraded lead but prioritized confounder audits. V32 found the locked scalar is not a glucocorticoid or simple composition artifact, but is immune-tone/STAT1-conditioned. |
+| V33-V35 | Exploratory hypothesis generation and one-hour self-chaining block. | Produced and grounded a fresh hypothesis slate. The T/B remodeling gate became the best internal hypothesis but remained single-cohort/artifact-risk flagged; postpartum APC imbalance stayed clinically important but data-blocked. |
+| V36 | Two-hour expanded generation and strict grounding block. | Added SAP RPT structured-data lens, ran 49+ chained iterations, demoted V36 post-hoc perfect-AUC features after multiplicity control, sharpened the therapy-response branch map, updated Gafson validation request and readiness guardrails, and kept the locked V22/V23 rule as the primary validation target. |
 
 `docs/findings/FINDING.md` documents the (since-demoted) `ACSL1` target hypothesis from an
 earlier phase and is retained for the historical trace.

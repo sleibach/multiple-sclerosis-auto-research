@@ -747,11 +747,24 @@
 
 ### Iteration 51
 
+- Start UTC: 2026-06-07T20:16:27Z
+- End UTC: 2026-06-07T20:16:55Z
+- Status: completed
+- Item selected: Continue autonomous V36 block with next executable
+  self-generated item.
+- Note: Update `README.md` per standing rule so top-level project status is in
+  sync with V36 before block end.
+- Result: README now marks V36 as current, summarizes V36 multiplicity,
+  therapy-branch, SAP RPT, and validation-readiness conclusions, and adds
+  V30-V36 rows to the phase table.
+
+### Iteration 52
+
 - Start UTC: pending
 - Status: todo
 - Item selected: Continue autonomous V36 block with next executable
   self-generated item.
-- Note: Block runtime remains below 120 minutes after Iteration 50.
+- Note: Block runtime remains below 120 minutes after Iteration 51.
 
 ## Backlog
 
