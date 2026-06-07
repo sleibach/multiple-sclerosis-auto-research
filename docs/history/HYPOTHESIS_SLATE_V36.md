@@ -854,3 +854,34 @@ The response signal remains IFN/APC/STAT1-led, but it is not IFN-exclusive:
 `delta_glycolysis` ties the top IFN features. This supports a broader early
 immune/metabolic remodeling state. It strengthens the dynamic monitoring
 interpretation while weakening any narrow pathway-specific claim.
+
+## Iteration 26: Focused Two-Lineage Cross-Exam
+
+Status: **completed / glycolysis-decoupling queued**.
+
+Executable artifacts:
+
+- Prompt and outputs: `analysis/v36_focused_cross_exam/`
+
+Model status:
+
+- Claude returned `5` concrete weaknesses/tests.
+- Gemini hit `MAX_TOKENS` on the full prompt, then returned `3` compact
+  weaknesses/tests.
+
+Grounding triage:
+
+| Issue | Source | Held-data status |
+|---|---|---|
+| Small-n/unreplicated risk | Claude, Gemini | already acknowledged; external validation required |
+| Batch/technical confounding | Claude | metadata feasibility check remains |
+| Fine composition/substate artifact | Claude | partly grounded in Iteration 22 |
+| Viral/generic ISG confounding | Claude | partly overlaps V32 IFN-suppression residualization |
+| Glycolysis decoupling from IFN/STAT | Claude, Gemini | executable next |
+| Steroid dose interaction | Gemini | not testable with held metadata |
+
+Interpretation:
+
+The cross-exam added one high-value executable next test: determine whether
+`delta_glycolysis` is independent of IFN/STAT or simply rides along with the
+same early remodeling state.

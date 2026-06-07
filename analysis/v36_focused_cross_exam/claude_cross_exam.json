@@ -1,0 +1,37 @@
+[
+  {
+    "id": "n8_label_leakage",
+    "fatal_weakness": "Perfect AUC=1.000 across four independent compartments in n=8 is statistically implausible unless the score is partially derived from or correlated with the treatment label itself, suggesting leakage or circular feature selection.",
+    "held_data_test": "Permute W8-vs-baseline labels 1000x within subject and recompute compartment-wise IFN/APC AUCs; also run leave-one-subject-out AUC and report the empirical null distribution and per-fold AUC variance.",
+    "kill_result": "If permuted null AUCs frequently reach >=0.95 or LOSO AUC drops below 0.75 with high variance, the perfect AUCs reflect small-n overfitting/leakage rather than a real state.",
+    "priority": "high"
+  },
+  {
+    "id": "batch_processing_confound",
+    "fatal_weakness": "W8 samples may have been processed, sequenced, or captured in a different batch/run than baselines, so the IFN/APC signal could be a technical batch effect masquerading as treatment biology.",
+    "held_data_test": "Regress the locked_signed_score on sequencing batch, capture date, 10x lane, ambient RNA fraction, and %mito with timepoint as covariate; recompute AUC after residualizing on technical covariates only (no biology).",
+    "kill_result": "If technical-only residualization collapses AUC to <0.7 or batch explains >50% of score variance, the W8 state is a processing artifact.",
+    "priority": "high"
+  },
+  {
+    "id": "cell_composition_artifact",
+    "fatal_weakness": "Cross-compartmental IFN/APC elevation may reflect shifts in cell-type composition (e.g., more monocytes, fewer naive T) at W8 rather than a true within-cell transcriptional state.",
+    "held_data_test": "Recompute IFN/APC scores using only fine-grained subtype-matched cells (down-sampled to equal subtype proportions per sample) and report AUC; additionally test whether subtype fractions alone predict W8 at AUC>=0.9.",
+    "kill_result": "If composition-matched AUC falls below 0.8 or subtype fractions alone reach AUC>=0.9, the signal is a compositional shift, not a remodeling state.",
+    "priority": "high"
+  },
+  {
+    "id": "viral_infection_confound",
+    "fatal_weakness": "An incidental viral or inflammatory exposure concurrent with W8 sampling could drive a generic type-I IFN response indistinguishable from a treatment-induced state, especially if W8 visits cluster in time.",
+    "held_data_test": "Score samples for ISG-core (IFI6, ISG15, MX1, OAS1) versus APC/MHC-II module separately, check temporal clustering of W8 draws, and test whether residualizing on a generic viral-ISG signature collapses the locked score.",
+    "kill_result": "If APC component vanishes after ISG-core residualization or W8 draws cluster in calendar time with elevated ISG-core, the lead is confounded by incidental infection.",
+    "priority": "medium"
+  },
+  {
+    "id": "glycolysis_decoupling_test",
+    "fatal_weakness": "The claim of an integrated IFN/STAT/glycolysis remodeling state is undertested; tied AUCs at 0.950 may reflect any single dominant axis, with glycolysis riding passively on IFN.",
+    "held_data_test": "Compute partial AUC of delta_glycolysis after residualizing on delta_IFN_APC and delta_stat1_axis at the per-cell level, and conversely; also test single-cell correlation of glycolysis vs STAT1 within W8 cells per compartment.",
+    "kill_result": "If glycolysis AUC drops to chance after IFN/STAT residualization and within-cell correlations are near zero, glycolysis is not part of an integrated state and the 'broader remodeling' framing is unsupported.",
+    "priority": "medium"
+  }
+]

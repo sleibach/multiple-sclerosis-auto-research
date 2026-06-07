@@ -1,0 +1,25 @@
+```json
+[
+  {
+    "id": "V36_FW_1",
+    "fatal_weakness": "The finding is based on a very small (n=8-9) and unreplicated cohort, making it highly susceptible to being a statistical artifact or driven by cohort-specific outliers rather than a generalizable biological effect.",
+    "held_data_test": "Perform the identical W8 IFN/APC/STAT1 signature analysis on a held-out, independent validation cohort of similarly treated patients (n > 20).",
+    "kill_result": "The signature is not statistically significant in the validation cohort, or the magnitude and direction of the effect are inconsistent with the discovery cohort. This indicates the original finding is not reproducible.",
+    "priority": 1
+  },
+  {
+    "id": "V36_FW_2",
+    "fatal_weakness": "The claim that the signature is 'not glucocorticoid-explained' may be based on inadequate correction. The observed IFN/glycolysis state could be a non-linear or interactive effect of the co-administered glucocorticoids, which was not captured by the initial analysis.",
+    "held_data_test": "Using a validation cohort, stratify patients by cumulative glucocorticoid dose received by W8 (e.g., high vs. low/no dose). Test for an interaction between drug treatment and steroid dose on the signature. If available, analyze a cohort on a steroid-sparing regimen.",
+    "kill_result": "The IFN/STAT1 signature is significantly attenuated or absent in the low/no steroid group, while being strong in the high steroid group. This would re-attribute the finding to a known confounder.",
+    "priority": 2
+  },
+  {
+    "id": "V36_FW_3",
+    "fatal_weakness": "The mechanistic link 'IFN/STAT-led but glycolysis-tied' is an interpretation of a correlation. The two pathways may be co-regulated by an upstream driver, or the causal direction may be reversed (glycolysis enabling the IFN state), making the proposed mechanism incorrect.",
+    "held_data_test": "Using held-out single-cell RNA-seq data from W8, apply RNA velocity or pseudotime trajectory analysis to infer the dynamic state of T-cells. Determine if the inferred transcriptional vector flow shows upregulation of IFN/STAT pathway genes preceding the upregulation of glycolysis genes.",
+    "kill_result": "Trajectory analysis shows glycolysis gene upregulation occurs prior to or simultaneously with IFN/STAT genes, or the two processes appear to be on independent trajectories. This would invalidate the 'IFN-led' causal claim.",
+    "priority": 3
+  }
+]
+```

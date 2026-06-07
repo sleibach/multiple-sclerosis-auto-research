@@ -383,10 +383,23 @@
 ### Iteration 26
 
 - Start UTC: 2026-06-07T19:19:34Z
-- Status: in_progress
+- End UTC: 2026-06-07T19:22:05Z
+- Status: completed
 - Item selected: Focused two-lineage cross-exam of updated conservative lead.
 - Note: Ask Claude/Gemini for fatal weaknesses and executable tests after V36
   refactored the lead to broad early IFN/metabolic remodeling.
+- Result: Claude returned 5 concrete weaknesses; Gemini required compact prompt
+  after `MAX_TOKENS` and returned 3. Most issues were already grounded or require
+  external validation/steroid-dose metadata. New executable item: glycolysis
+  decoupling from IFN/STAT.
+
+### Iteration 27
+
+- Start UTC: 2026-06-07T19:22:05Z
+- Status: in_progress
+- Item selected: Glycolysis decoupling from IFN/STAT.
+- Note: Test whether `delta_glycolysis` retains response signal after
+  residualizing against IFN/STAT and vice versa in V32 exact tofacitinib data.
 
 ## Backlog
 
@@ -416,7 +429,8 @@
 | 22 | V36 interim ranked-slate synthesis after lead refactoring | done | Lead refactored to early W8 broad IFN/APC/STAT1 monitoring state. |
 | 23 | W8 treated IFN/APC subject-level confounder residualization | done | W8 treated IFN/APC is STAT1/composition-conditioned, not orthogonal. |
 | 24 | V32 module specificity comparison for exact tofacitinib cohort | done | IFN/STAT-led but glycolysis-tied; dynamic broad remodeling, not IFN-exclusive. |
-| 25 | Focused two-lineage cross-exam of updated conservative lead | in_progress | Generate concrete fatal weaknesses/tests for the updated wording. |
+| 25 | Focused two-lineage cross-exam of updated conservative lead | done | Glycolysis decoupling queued; several other issues external-data gated. |
+| 26 | Glycolysis decoupling from IFN/STAT | in_progress | Residualize glycolysis against IFN/STAT and IFN/STAT against glycolysis. |
 
 ## Timing Rule
 
