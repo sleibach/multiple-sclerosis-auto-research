@@ -1325,3 +1325,42 @@ the post-hoc receptor successor-rule idea because direction and tissue context
 remain unstable across MTX/TOF/ADA. It does sharpen the validation harness:
 IFN-beta should be interpreted with a therapy-specific HLA-II/receptor branch,
 while JAK/immune-remodeling contexts remain IFN/APC/STAT1-downshift dominated.
+
+## Iteration 41: Therapy-Branch Evidence Map
+
+Status: **completed / branch interpretation consolidated**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_therapy_branch_map.py`
+- Output: `analysis/v36_therapy_branch_map/summary.md`
+- Evidence table: `analysis/v36_therapy_branch_map/therapy_branch_evidence.tsv`
+
+Question:
+
+Consolidate the V22/V36 held-cohort evidence by therapy context so future
+validation does not force one scalar interpretation onto biologically different
+therapy mechanisms.
+
+Branch summary:
+
+| Therapy | Branch | Rows | Max AUC | Minimum p |
+|---|---|---:|---:|---:|
+| adalimumab | locked scalar | `1` | `0.511` | `0.944` |
+| dimethyl fumarate | locked scalar | `1` | `0.720` | `0.298` |
+| fingolimod | locked scalar | `1` | `0.600` | `0.799` |
+| interferon-beta | HLA-II competence/induction | `4` | `0.750` | `0.000250` |
+| interferon-beta | CD74/receptor-state dynamics | `3` | `0.722` | `0.00735` |
+| interferon-beta | IFN/APC/STAT1 dynamics | `1` | `0.715` | `0.0421` |
+| methotrexate | IFN/APC/STAT1 dynamics | `1` | `0.600` | `0.346` |
+| methotrexate | CD74/receptor-state dynamics | `1` | `0.900` | `0.0245` |
+| tofacitinib | locked scalar | `1` | `1.000` | `0.0339` |
+
+Interpretation:
+
+The evidence now supports therapy-branch reporting rather than a universal
+module story. IFN-beta held artifacts repeatedly emphasize HLA-II competence and
+CD74/receptor dynamics. Tofacitinib remains the strongest IFN/APC/STAT1
+downshift context. DMF remains the locked MS DMT pass but needs fresh external
+validation. Fingolimod, adalimumab, and MTX psoriasis skin argue against
+unbounded transfer.

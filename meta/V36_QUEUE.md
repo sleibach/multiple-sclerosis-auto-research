@@ -598,11 +598,26 @@
 
 ### Iteration 41
 
+- Start UTC: 2026-06-07T19:56:51Z
+- End UTC: 2026-06-07T19:57:58Z
+- Status: completed
+- Item selected: Continue autonomous V36 block with next executable
+  self-generated item.
+- Note: Consolidate held-cohort therapy-branch evidence into one auditable table
+  separating IFN/APC downshift, HLA-II competence, receptor-state dynamics, and
+  out-of-domain/null contexts.
+- Result: Wrote therapy-branch evidence map. IFN-beta held artifacts repeatedly
+  emphasize HLA-II competence and CD74/receptor dynamics; tofacitinib emphasizes
+  IFN/APC/STAT1 downshift; DMF remains the locked MS DMT pass; fingolimod,
+  adalimumab, and MTX psoriasis skin argue against unbounded transfer.
+
+### Iteration 42
+
 - Start UTC: pending
 - Status: todo
 - Item selected: Continue autonomous V36 block with next executable
   self-generated item.
-- Note: Block runtime remains below 120 minutes after Iteration 40.
+- Note: Block runtime remains below 120 minutes after Iteration 41.
 
 ## Backlog
 
