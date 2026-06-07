@@ -1,0 +1,26 @@
+{
+  "cell_types": [
+    "astrocytes",
+    "immune",
+    "lymphocytes",
+    "neurons",
+    "oligodendrocytes",
+    "opc",
+    "vascular_cells"
+  ],
+  "grounded_result": "computed_module_context_not_yet_statistically_tested",
+  "modules": [
+    "complement_phagocytosis",
+    "ifn_hla_apc",
+    "lipid_repair"
+  ],
+  "n_selected_genes_found": 23,
+  "next_test": "Use module_by_pathology_celltype.tsv to compare chronic_active_MS_lesion_edge against control/other pathology within microglia/macrophage-like cell types with permutation over nuclei or donor-aware tests if donor labels support it.",
+  "pathologies": [
+    "MS_lesion_core",
+    "MS_periplaque_white_matter",
+    "chronic_active_MS_lesion_edge",
+    "chronic_inactive_MS_lesion_edge",
+    "control_white_matter"
+  ]
+}

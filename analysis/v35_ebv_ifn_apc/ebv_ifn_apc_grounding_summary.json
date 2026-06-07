@@ -1,0 +1,26 @@
+{
+  "grounded_result": "needs_data_not_currently_testable_as_ebv_specific",
+  "hypothesis": "MS-SLE EBV/IFN APC imprint",
+  "minimum_next_test": [
+    "Build or acquire EBV/LMP1/EBNA-response signatures from perturbation or infection data.",
+    "Test separability from STAT1/IFN in MS and SLE B-cell/APC data with EBV serostatus or viral-load metadata.",
+    "Reject if EBV module collapses to generic IFN/APC after STAT1 adjustment or is not enriched in MS/SLE versus controls."
+  ],
+  "what_is_not_supported": [
+    "No local EBV-serostatus or EBV-load stratified MS/SLE expression cohort was found in the current artifact scan.",
+    "Existing V32 treatment-response matrices measure generic IFN/APC and B-cell/APC genes but not a sufficient EBV-latency module; EBNA1/LMP1/LMP2A are absent from the current panel coverage.",
+    "Therefore EBV imprint cannot be separated from generic STAT1/IFN/APC tone with current held summaries."
+  ],
+  "what_is_supported": {
+    "MS_Crohn_rg_for_context": 0.1675,
+    "MS_RA_rg_for_context": 0.1692,
+    "MS_SLE_rg": {
+      "h2_intercept_caveat": 1.1998,
+      "p": 6.0712e-05,
+      "rg": 0.2439,
+      "se": 0.0608
+    },
+    "MS_UC_rg_for_context": 0.3342,
+    "v26_supported_ifn_apc_dependencies": 21
+  }
+}

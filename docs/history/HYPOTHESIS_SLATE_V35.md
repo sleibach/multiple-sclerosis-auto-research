@@ -1,0 +1,139 @@
+# Hypothesis Slate V35
+
+Block start UTC: 2026-06-07T16:37:36Z
+
+## Iteration 1: EBV/IFN APC Imprint
+
+Status: **needs data / not currently testable as EBV-specific**.
+
+Executable grounding:
+
+- Script: `scripts/v35_ebv_ifn_apc_grounding.py`
+- Outputs: `analysis/v35_ebv_ifn_apc/`
+
+What is supported:
+
+- MS-SLE genome-wide rg is positive: `rg = 0.2439`, `SE = 0.0608`,
+  `p = 6.0712e-05`, but caveated by high SLE h2 intercept `1.1998`.
+- V26 contains supported IFN/APC/HLA-II/MIF-CD74 dependencies (`21` supported
+  rows in the V35 IFN/APC filter), so an IFN/APC imprint is plausible as a
+  project-internal axis.
+
+What is not supported with current held data:
+
+- No local EBV-serostatus or EBV-load stratified MS/SLE expression cohort was
+  found in the current artifact scan.
+- Existing V32 expression matrices measure generic IFN/APC and B-cell/APC genes
+  but not a sufficient EBV-latency module; `EBNA1`, `LMP1`, and `LMP2A` are
+  absent from current panel coverage.
+- Therefore EBV imprint cannot currently be separated from generic STAT1/IFN/APC
+  tone.
+
+Minimum next test:
+
+1. Build or acquire EBV/LMP1/EBNA-response signatures from perturbation or
+   infection data.
+2. Test separability from STAT1/IFN in MS and SLE B-cell/APC data with EBV
+   serostatus or viral-load metadata.
+3. Reject if the EBV module collapses to generic IFN/APC after STAT1 adjustment
+   or is not enriched in MS/SLE versus controls.
+
+## Current Re-Ranked Shortlist
+
+| Rank | Hypothesis | V35 status | Next action |
+|---:|---|---|---|
+| 1 | Postpartum HLA-II/CD64 APC-arm imbalance trajectory | next in progress | Scout MS postpartum/pregnancy immune data; if absent, stress-test cross-disease heterogeneity |
+| 2 | MS-SLE EBV/IFN APC imprint | needs data | Acquire/build EBV-response module and EBV-stratified MS/SLE B-cell/APC data |
+| 3 | Complement/lipid progressive axis | todo | Mine progressive/chronic-active lesion data |
+| 4 | T/B compartment remodeling gate | todo | Test existing single-cell/compartment data |
+| 5 | Lysosomal APC-processing bottleneck | todo | Test APC lysosomal perturbation data |
+| 6 | Metabolic/sterol setpoint | todo | Score explicit sterol genes and relate to V32 immune tone |
+
+## Iteration 3: Complement/Lipid Progressive Axis
+
+Status: **partially grounded / needs donor-aware statistical test**.
+
+Executable grounding:
+
+- Script: `scripts/v35_complement_lipid_progressive.py`
+- Outputs: `analysis/v35_complement_lipid_progressive/`
+- Dataset: local `GSE180759` single-nucleus expression matrix and pathology
+  annotation with labels including `chronic_active_MS_lesion_edge`,
+  `chronic_inactive_MS_lesion_edge`, `MS_lesion_core`,
+  `MS_periplaque_white_matter`, and `control_white_matter`.
+
+Result:
+
+- `23` selected genes were found across complement/phagocytosis, lipid-repair,
+  and IFN/HLA/APC modules.
+- In the `immune` cell-type bin:
+  - lipid-repair mean expression is highest at `chronic_active_MS_lesion_edge`
+    (`1.690`) versus `control_white_matter` (`1.297`),
+    `MS_periplaque_white_matter` (`1.236`), `chronic_inactive_MS_lesion_edge`
+    (`0.773`), and `MS_lesion_core` (`0.469`);
+  - complement/phagocytosis is not uniquely higher at chronic-active edge
+    (`0.480`) than control white matter (`0.538`);
+  - IFN/HLA/APC is not uniquely higher at chronic-active edge (`0.454`) than
+    control white matter (`0.678`).
+
+Interpretation:
+
+The strongest current support is for a **lipid-repair / lesion-edge immune
+component**, not for a simple complement-high progressive axis. This partly
+matches V26's complement/lipid negative-pole idea but sharpens it: lipid-repair
+at chronic-active lesion edge is the immediately grounded sub-signal, while
+complement requires stricter donor/pathology testing before being claimed.
+
+Next test:
+
+- Run donor-aware or case-aware permutation/statistical comparisons within
+  immune/microglia-like cells for chronic-active edge versus control,
+  periplaque, inactive edge, and lesion core.
+- If donor labels are too sparse/confounded, acquire progressive/chronic-active
+  lesion spatial transcriptomics/proteomics with lesion-rim annotation.
+
+## Iteration 2: Postpartum APC-Arm Imbalance, MS-Specificity
+
+Status: **partially grounded / MS postpartum data still missing**.
+
+Local data scout:
+
+- `GSE17410/GSE17449` is present locally via `data/raw/GSE17410/GSE17410_family.soft.gz`
+  and `data/derived/GSE17410/sample_metadata.tsv`.
+- It contains PBMC samples from women with MS and controls followed before and
+  during pregnancy, with samples before pregnancy and at the 3rd, 6th, and 9th
+  month of gestation. The GEO description also notes comparison of patients
+  relapsing during pregnancy versus relapse-free patients.
+- It does **not** provide the decisive postpartum 6-week / 3-6-month relapse
+  window needed for the V34 hypothesis, and no local normalized expression
+  matrix for immediate module scoring was found in this iteration.
+
+Cross-disease heterogeneity stress-test:
+
+- Existing RA/SLE/healthy pregnancy data support HLA-II-minus-CD64 decoupling
+  during postpartum, but the component arms differ by disease.
+- Healthy, SLE, and SNRA decoupling are mostly `CD64_shift` dominated.
+- SPRA decoupling is `HLAII_rebound` dominated.
+
+Interpretation:
+
+The MS-specificity question is not resolved. The available MS pregnancy dataset
+can potentially test pregnancy-phase HLA-II/CD64 behavior if normalized
+expression is rebuilt from CEL files, but it cannot test the postpartum relapse
+window. The needed cohort remains specifically postpartum MS immune profiling
+with relapse timing.
+
+Minimum next data/test:
+
+1. Rebuild normalized expression for `GSE17410/GSE17449` from CEL files only if
+   pregnancy-phase, not postpartum, context becomes useful.
+2. Search/acquire a true postpartum MS cohort with blood/CSF expression,
+   cytometry, or CITE-seq at trimester 3 plus 6-week and 3-6-month postpartum
+   timepoints.
+3. Required metadata: relapse within 3-6 months postpartum, DMT stop/restart,
+   steroid exposure, lactation, infection, age, disease duration, and cell
+   counts.
+
+Updated status: postpartum APC-arm imbalance remains the best locally grounded
+clinical hypothesis, but it is a data-acquisition target rather than a completed
+MS-specific biomarker.
