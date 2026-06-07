@@ -212,3 +212,33 @@ Expanded generation created plausible biological variants, but none cleared the
 strict held-data gate. The only V36 lead that strengthened materially remains
 the T/B compartment remodeling gate, now narrowed toward B/plasma-like
 remodeling with a T-cell composition caveat.
+
+## Iteration 7: Deep Cross-Examination and Grounding
+
+Status: **completed / refined lead interpretation**.
+
+Executable artifacts:
+
+- Prompt and model outputs: `analysis/v36_deep_cross_exam/`
+- Script: `scripts/v36_ground_cross_exam.py`
+
+Model status:
+
+- Gemini produced usable fenced JSON with concrete critiques.
+- Claude output file was empty in this round, so it was not counted.
+
+Grounded critiques:
+
+| Critique | Held-data result | Interpretation |
+|---|---|---|
+| T/B residualized gap may be bootstrap-fragile | Patient bootstrap of raw locked T/B-minus-non-T/B gap: mean `0.145`, 95% CI `0.000-0.285`, p(gap <= 0) `0.0402`; residualized point gap `0.133`. | Positive but fragile; lower CI touches zero. Still requires independent replication. |
+| B/plasma may drive the T/B gate alone | B/plasma-only AUC `0.95`, T-cell-only AUC `1.00`, T/B mean AUC `0.95`. | Combined T/B does not outperform the best single component; report B/plasma and T-cell separately. |
+| HLA-II-minus-CD64 may conflate separable arms | MS pregnancy-phase Spearman HLA-II vs CD64 across samples `0.022` (`n = 17`). | The postpartum metric should always be reported as HLA-II, CD64, and difference, not only as a scalar. |
+
+Net update:
+
+- T/B gate remains rank 1 but is now best described as **B/plasma-stable with a
+  T-cell-sensitive companion signal**, not a unified validated T/B biomarker.
+- Postpartum APC-arm imbalance remains rank 2 as an acquisition lead, but the
+  HLA-II and CD64 components are separable and must be analyzed separately in
+  any future cohort.

@@ -106,11 +106,27 @@
 ### Iteration 7
 
 - Start UTC: 2026-06-07T18:42:32Z
-- Status: in_progress
+- End UTC: 2026-06-07T18:46:12Z
+- Status: completed
 - Item selected: Deep multi-pass cross-examination of top grounded hypotheses.
 - Note: Use Claude and Gemini with higher budget to attack the refined T/B
   gate and postpartum acquisition lead; ground concrete criticisms where held
   data allows.
+- Result: Gemini produced usable critiques; Claude output was empty in this
+  round and was not counted. Grounding showed the T/B gap is positive but
+  bootstrap-fragile (raw gap bootstrap mean `0.145`, 95% CI `0.000-0.285`,
+  p(gap <= 0) `0.0402`), B/plasma-only AUC `0.95` matches T/B mean AUC `0.95`,
+  and MS pregnancy HLA-II/CD64 arms are separable (Spearman `0.022`). Lead
+  interpretation refined, no upgrade.
+
+### Iteration 8
+
+- Start UTC: 2026-06-07T18:46:12Z
+- Status: in_progress
+- Item selected: Heavier analyses now affordable.
+- Note: Use larger permutation/bootstrap or broader scans for the leading
+  hypotheses where executable; start with exact/randomization hardening of the
+  refined B/plasma carrier.
 
 ## Backlog
 
@@ -122,8 +138,8 @@
 | 4 | T/B compartment remodeling gate artifact audit | done | Survives simple count/fraction residualization, but T-cell component attenuates; B/plasma is more robust. |
 | 5 | Postpartum APC-arm imbalance MS-specificity | done | Pregnancy-phase MS movement grounded; postpartum relapse-window test blocked by missing data. |
 | 6 | Metabolic/sterol, lysosomal, complement/lipid, EBV/IFN deepening | done | No upgrades; generated variants remain blocked/proposal-only without new data. |
-| 7 | Deep multi-pass cross-examination | in_progress | Claude/Gemini adversarial rounds for top grounded hypotheses; ground concrete proposals. |
-| 8 | Heavier analyses now affordable | todo | Larger permutation/module scans or pooled tests where executable. |
+| 7 | Deep multi-pass cross-examination | done | Gemini critiques grounded; T/B and postpartum interpretations refined, no upgrade. |
+| 8 | Heavier analyses now affordable | in_progress | Larger permutation/module scans or pooled tests where executable. |
 
 ## Timing Rule
 

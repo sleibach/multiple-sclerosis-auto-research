@@ -1,0 +1,86 @@
+```json
+{
+  "items": [
+    {
+      "claim": "tb_gate",
+      "weakness_or_test": "The reported positive residualized AUC gap of 0.133 may be a statistical artifact or result from an inadequate residualization model that fails to control for confounding variables.",
+      "can_test_with_held_data": true,
+      "exact_held_data_test_if_true": "Re-calculate the T/B-minus-non-T/B residualized AUC gap using bootstrap resampling on the UC tofacitinib data to generate a confidence interval and p-value for the 0.133 gap.",
+      "data_needed_if_false": "",
+      "priority": "high"
+    },
+    {
+      "claim": "tb_gate",
+      "weakness_or_test": "The dramatic attenuation of T-cell AUC from 1.0 to 0.65 fatally undermines the concept of a unified 'T/B gate,' suggesting the signal is driven almost entirely by B/plasma cells.",
+      "can_test_with_held_data": true,
+      "exact_held_data_test_if_true": "Train and evaluate a model using only B/plasma cell features from the V36 audit and compare its AUC to the combined T/B model; if the B/plasma-only AUC is nearly identical, the T-cell contribution is negligible.",
+      "data_needed_if_false": "",
+      "priority": "high"
+    },
+    {
+      "claim": "tb_gate",
+      "weakness_or_test": "The term 'locked-rule response signal' is undefined jargon, and the model may be severely overfit to the specific UC tofacitinib dataset, rendering the 'gate' non-generalizable.",
+      "can_test_with_held_data": false,
+      "exact_held_data_test_if_true": "",
+      "data_needed_if_false": "A validation dataset of cell counts/fractions from patients with Crohn's disease or UC patients treated with a non-JAK inhibitor (e.g., vedolizumab) to test the rule's specificity and generalizability.",
+      "priority": "high"
+    },
+    {
+      "claim": "tb_gate",
+      "weakness_or_test": "The interpretation that T-cell signal is 'composition-sensitive' is a post-hoc excuse for model failure, lacking any specific analysis correlating T-cell subset changes with the AUC degradation.",
+      "can_test_with_held_data": true,
+      "exact_held_data_test_if_true": "Using the V36 audit data, stratify patients by changes in major T-cell subset fractions (e.g., CD4/CD8 ratio, naive/memory) and re-calculate the T-cell AUC for each stratum to identify the source of failure.",
+      "data_needed_if_false": "",
+      "priority": "medium"
+    },
+    {
+      "claim": "tb_gate",
+      "weakness_or_test": "The T/B-minus-non-T/B comparison is a false dichotomy that may mask the true signal driver, such as a single cell type within the 'non-T/B' group that is simply anti-correlated with B-cells.",
+      "can_test_with_held_data": true,
+      "exact_held_data_test_if_true": "Deconstruct the 'non-T/B' compartment from the V36 audit data and build separate predictive models for each major cell type within it (e.g., NK cells, monocytes) to see if one type's negative prediction artificially creates the gap.",
+      "data_needed_if_false": "",
+      "priority": "medium"
+    },
+    {
+      "claim": "postpartum_apc",
+      "weakness_or_test": "The central claim regarding a postpartum APC imbalance in MS is wholly unsubstantiated, as the authors admit to a complete lack of postpartum MS samples and relapse labels.",
+      "can_test_with_held_data": false,
+      "exact_held_data_test_if_true": "",
+      "data_needed_if_false": "Longitudinal PBMC samples from MS patients collected during pre-pregnancy, pregnancy, and the first 6 months postpartum, with accompanying clinical data on relapse activity.",
+      "priority": "high"
+    },
+    {
+      "claim": "postpartum_apc",
+      "weakness_or_test": "Extrapolating postpartum immune rebound dynamics from SLE/RA and healthy controls to MS is invalid given their distinct CNS-focused versus systemic immunopathologies.",
+      "can_test_with_held_data": false,
+      "exact_held_data_test_if_true": "",
+      "data_needed_if_false": "Longitudinal postpartum PBMC samples from MS patients to directly compare against the existing healthy/SLE/RA postpartum data and test the extrapolation hypothesis.",
+      "priority": "high"
+    },
+    {
+      "claim": "postpartum_apc",
+      "weakness_or_test": "The study's reliance on peripheral blood (PBMCs) is a critical flaw, as postpartum MS relapses are driven by immune events within the CNS, which may not be reflected in the periphery.",
+      "can_test_with_held_data": false,
+      "exact_held_data_test_if_true": "",
+      "data_needed_if_false": "Matched cerebrospinal fluid (CSF) and PBMC samples from postpartum MS patients (both relapsing and stable) to determine if the peripheral APC signature correlates with CNS inflammation.",
+      "priority": "high"
+    },
+    {
+      "claim": "postpartum_apc",
+      "weakness_or_test": "The 'HLA-II-minus-CD64' metric is an arbitrary, unvalidated construct whose biological significance is unclear and which conflates potentially independent molecular pathways.",
+      "can_test_with_held_data": true,
+      "exact_held_data_test_if_true": "Using the existing MS PBMC pre-pregnancy vs month-9 data, separately analyze the expression trajectories of HLA-II and CD64 on APCs and perform correlation analysis to determine if their expression is even linked.",
+      "data_needed_if_false": "",
+      "priority": "medium"
+    },
+    {
+      "claim": "postpartum_apc",
+      "weakness_or_test": "Attributing the signal to a CD64-driven imbalance is misleading, as increased monocyte CD64 expression is a known, non-pathological physiological change in late pregnancy.",
+      "can_test_with_held_data": true,
+      "exact_held_data_test_if_true": "Compare the magnitude of the CD64 increase from pre-pregnancy to month-9 in the MS cohort against the same interval in the healthy control cohort from the cross-disease dataset; if the change is identical, it is not disease-specific.",
+      "data_needed_if_false": "",
+      "priority": "medium"
+    }
+  ]
+}
+```
