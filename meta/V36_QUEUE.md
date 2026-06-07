@@ -326,11 +326,26 @@
 ### Iteration 22
 
 - Start UTC: 2026-06-07T19:12:49Z
-- Status: in_progress
+- End UTC: 2026-06-07T19:14:54Z
+- Status: completed
 - Item selected: Raw cell-level B/plasma subcluster feasibility check.
 - Note: Determine whether existing raw GSE253006 data can test within-B/plasma
   subcluster composition versus within-cell remodeling without rebuilding a
   heavy single-cell pipeline.
+- Result: Lightweight raw B/plasma substate audit completed. Within-substate
+  IFN/APC scores dominated fraction features: `delta_ifn_apc_plasma_like`,
+  `treated_ifn_apc_b_like`, and `treated_ifn_apc_plasma_like` all reached AUC
+  `1.000` (exact p `0.0159`), while B/plasma substate fraction deltas were weak
+  (`0.600`). Supports within-substate IFN remodeling over simple B/plasma
+  composition, but not B/plasma specificity.
+
+### Iteration 23
+
+- Start UTC: 2026-06-07T19:14:54Z
+- Status: in_progress
+- Item selected: V36 interim ranked-slate synthesis after lead refactoring.
+- Note: Consolidate the many grounding results into the current ranked slate
+  and identify the next executable item for the remaining block.
 
 ## Backlog
 
@@ -356,7 +371,8 @@
 | 18 | Steroid/global inflammatory marker coverage and residualization check | done | Glucocorticoid did not explain; delta STAT1-axis did. |
 | 19 | Baseline-versus-delta decomposition for compartment readouts | done | Baseline weak/null; treated IFN/APC and delta dominate, supporting monitoring. |
 | 20 | Treated-timepoint trajectory and sample-timing audit | done | W8 early monitoring supported; later trajectory blocked by sparse data. |
-| 21 | Raw cell-level B/plasma subcluster feasibility check | in_progress | Check whether subcluster composition can be tested from held raw data. |
+| 21 | Raw cell-level B/plasma subcluster feasibility check | done | Within-substate IFN/APC dominates B/plasma substate fractions; broad IFN dependence remains. |
+| 22 | V36 interim ranked-slate synthesis after lead refactoring | in_progress | Consolidate current evidence and choose next executable item. |
 
 ## Timing Rule
 

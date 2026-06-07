@@ -710,3 +710,40 @@ trajectory claim. Later timepoints are sparse and imbalanced (`W16 n=2`, `W24
 n=1`, `W48 n=1`) and cannot validate persistence. The best current validation
 spec should require baseline plus early post-treatment sampling, with W8-like
 timing if possible.
+
+## Iteration 22: B/Plasma Substate Audit
+
+Status: **completed / within-substate IFN remodeling supported in lightweight test**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_b_plasma_substate_audit.py`
+- Outputs: `analysis/v36_b_plasma_substate_audit/`
+
+Test:
+
+Read held `GSE253006` raw sparse matrices and run a lightweight marker split of
+B/plasma cells into B-like and plasma-like substates. Compare substate fractions
+against within-substate IFN/APC scores.
+
+Result:
+
+| Feature | n | AUC | Exact p |
+|---|---:|---:|---:|
+| `delta_ifn_apc_plasma_like` | `9` | `1.000` | `0.0159` |
+| `treated_ifn_apc_b_like` | `9` | `1.000` | `0.0159` |
+| `treated_ifn_apc_plasma_like` | `9` | `1.000` | `0.0159` |
+| `delta_ifn_apc_b_like` | `9` | `0.950` | `0.0317` |
+| `delta_frac_b_plasma` | `9` | `0.850` | `0.1111` |
+| `delta_frac_b_like_within_bplasma` | `9` | `0.600` | `0.7302` |
+| `delta_frac_plasma_like_within_bplasma` | `9` | `0.600` | `0.7302` |
+
+Interpretation:
+
+This lightweight marker split argues against a simple B/plasma-substate fraction
+artifact: within-substate IFN/APC scores outperform substate fractions. It does
+not restore a B/plasma-specific mechanism, because Iterations 18-19 showed the
+same signal is coupled to myeloid/global STAT1-axis remodeling. The most precise
+current statement is: **the response signal is broad IFN/APC remodeling, visible
+within B/plasma substates and T cells, not explained by major B/plasma substate
+fractions, but still globally STAT1-axis dependent and unreplicated.**
