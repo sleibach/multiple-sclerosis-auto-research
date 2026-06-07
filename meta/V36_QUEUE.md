@@ -236,11 +236,26 @@
 ### Iteration 16
 
 - Start UTC: 2026-06-07T18:59:50Z
-- Status: in_progress
+- End UTC: 2026-06-07T19:01:37Z
+- Status: completed
 - Item selected: Same-compartment random/module negative control for IFN/STAT
   signal.
 - Note: Test whether locked IFN/STAT performance is exceptional relative to
   random matched gene modules available in the exact compartment matrix.
+- Result: Genome-wide random null was impossible from the exact compartment
+  artifact, which contains only locked genes. A limited same-size locked-gene
+  combo null found the IFN/STAT four-gene set was not exceptional in B/plasma
+  (`5/15` same-size combos matched/beat it; empirical p `0.3333`) or other
+  compartments. This blocks a narrow STAT1/IRF1/GBP1/ISG15 module claim.
+
+### Iteration 17
+
+- Start UTC: 2026-06-07T19:01:37Z
+- Status: in_progress
+- Item selected: Refined tri-source generation after specificity audit.
+- Note: Ask Claude/Gemini, and use RPT table context, for new executable tests
+  now that the T/B lead has been narrowed to broad IFN/APC remodeling with
+  specificity limits.
 
 ## Backlog
 
@@ -260,7 +275,8 @@
 | 12 | Gene-level B/plasma IFN/APC driver analysis | done | Carrier sharpens to B/plasma IFN/STAT remodeling; STAT1 strongest but no STAT1-only promotion. |
 | 13 | Timepoint and responder-leverage sensitivity for B/plasma IFN/STAT carrier | done | Not driven by W48 TOF_009 or one removable patient; still internal only. |
 | 14 | Cross-compartment STAT1/IFN specificity scan | done | STAT1 downshift is broad, not B/plasma-specific; compartment specificity weakened. |
-| 15 | Same-compartment random/module negative control for IFN/STAT signal | in_progress | Compare locked/module performance with random available genes in exact compartment data. |
+| 15 | Same-compartment random/module negative control for IFN/STAT signal | done | Limited locked-gene combo null blocks narrow IFN/STAT four-gene specificity claim. |
+| 16 | Refined tri-source generation after specificity audit | in_progress | Generate next executable grounding tests under the updated conservative lead state. |
 
 ## Timing Rule
 

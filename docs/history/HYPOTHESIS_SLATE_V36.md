@@ -481,3 +481,39 @@ STAT1-only or B/plasma-exclusive story. The stronger current phrasing is:
 **response is associated with a broad IFN/STAT downshift, with B/plasma and
 T-cell locked scores as candidate compartmental readouts; compartmental
 specificity remains unresolved and requires replication.**
+
+## Iteration 16: Locked-Gene Module Empirical Null
+
+Status: **completed / module-specificity weakened**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_locked_gene_module_null.py`
+- Outputs: `analysis/v36_locked_gene_module_null/`
+
+Test:
+
+The exact compartment matrix does not contain a full transcriptome, so a
+genome-wide random-module null is not possible from this artifact. V36 therefore
+used the strongest available control: compare the IFN/STAT four-gene set
+(`STAT1`, `IRF1`, `GBP1`, `ISG15`) against all same-size combinations of the
+available gene-level deltas in each compartment.
+
+Result:
+
+| Compartment | IFN/STAT AUC | Empirical combo p | Same/better combos |
+|---|---:|---:|---:|
+| `b_plasma_like` | `0.950` | `0.3333` | `5/15` |
+| `myeloid_apc_like` | `0.900` | `0.2000` | `3/15` |
+| `epithelial_like` | `0.950` | `0.9333` | `14/15` |
+| `t_cell_like` | `0.800` | `0.7333` | `11/15` |
+| `stromal_endothelial_like` | `0.550` | `1.0000` | `15/15` |
+
+Interpretation:
+
+The IFN/STAT set separates responders in B/plasma-like cells, but it is not
+exceptional against the limited same-size locked-gene combination null. This
+prevents a narrow "STAT1/IRF1/GBP1/ISG15 module" claim. The surviving lead is
+broader and more conservative: **a response-associated IFN/APC remodeling signal
+with candidate T-cell and B/plasma readouts, internally robust but
+specificity-limited and unreplicated.**
