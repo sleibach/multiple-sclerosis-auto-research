@@ -524,3 +524,37 @@ Next session first action:
 - Refreshed lead inventory: top queue is V22 APC/HLA-II scalar validation, postpartum HLA-II/CD64 split, ZMIZ1 decoupling, chr1 KIF21B/GPR25 controlled-data handoff, MIF/CD74 context, FPR2/ALX comparator, NAMPT covariate; NAMPT/PTGER4/ZFP36L1/REL/TYK2 remain parked or closed.
 - Stop reason: completed all available V29 workstreams; model-gated Workstream A is blocked only by absent cross-lineage key; no long-running analysis processes remain.
 - Next action: if `ANTHROPIC_API_KEY`, `GOOGLE_API_KEY`, or `GEMINI_API_KEY` is provided, verify and run `meta/INDEPENDENT_REVIEW_QUEUE_V29.md`; otherwise continue acquiring/requesting Gafson et al. 2018 DMF PBMC RNA-seq counts plus NEDA-4 labels and run the frozen V22 scoring harness mechanically.
+## RUN SUMMARY - V30 SAP AI Core Independent Review Checkpoint
+
+- Active runtime: approximately 24 minutes active; total elapsed approximately
+  24 minutes (no usage-limit waiting).
+- Session start timestamp (UTC): 2026-06-07 00:29:00 UTC (estimated).
+- Session end timestamp (UTC): 2026-06-07 00:53:00 UTC.
+- Frontier advanced: SAP AI Core service-key auth, deployment discovery, Gemini
+  smoke tests, reusable client, access report, and Gemini-only grounded
+  proposal queue were completed; full multi-lineage review remains blocked.
+- Stop reason: completed available V30 work with documented blocker for
+  multi-lineage completion.
+- Next action: resolve Claude or Mistral SAP AI Core inference schema so at
+  least two non-OpenAI lineages smoke-pass, then rerun the V29 review package
+  across lineages and ground the de-duplicated proposals.
+- SAP AI Core access status: OAuth and deployment listing work; Gemini
+  `gemini-3.1-flash-lite` and `gemini-2.5-pro` smoke-pass; Claude deployments
+  are running but reject tested subpaths; Mistral corrected chat-completions
+  request timed out.
+- Model spend: SAP AI Core usage only; no separate paid service spend observed
+  or estimated in-repo.
+- Multi-model proposals grounded: Gemini-only proposals recorded; no
+  multi-lineage proposal was grounded. Steroid-pulse mimic is blocked on fresh
+  data scout; metabolic confounding is queued for pathway scoring; KIF21B
+  trans/pathway analysis is queued/data-limited.
+- Model-raised vulnerabilities tested: arbitrary mechanism boundary is
+  partially addressed by V23/V28 cohort-adjusted/jackknife evidence; small-n
+  model fallacy is held as a real limitation; premature KIF21B modality filter
+  remains queued for trans-eQTL/pathway analysis.
+- Biology leads advanced: no lead upgraded; postpartum HLA-II/CD64 APC split
+  remains the best dormant biology lead; V22 bounded scalar remains the active
+  validation lead.
+- Multi-lineage review added value beyond agent analysis: not yet established,
+  because only Gemini smoke-passed; Gemini did add concrete queue items but no
+  grounded lead upgrade.

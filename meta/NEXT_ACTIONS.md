@@ -1,10 +1,31 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-06-07 01:35 CEST
+Last updated: 2026-06-07 02:51 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
 ## Queue
+
+V30 SAP AI Core independent-lens checkpoint:
+
+- `SAP_AI_CORE_API_KEY` is configured in `.env` as SAP service-key JSON.
+- `scripts/sap_ai_core_client.py` is the committed reusable client.
+- OAuth and deployment listing work for resource group `default`.
+- Gemini smoke tests pass for `gemini-3.1-flash-lite` and `gemini-2.5-pro`.
+- Claude deployments are discoverable but inference is blocked by unresolved
+  allowed subpath/schema.
+- Mistral deployment is discoverable but corrected `/chat/completions` timed
+  out.
+- Gemini-only review produced proposal queue items, recorded in
+  `docs/history/LEAD_INVENTORY_V30.md`, but no multi-lineage result is claimed.
+
+First V30 continuation action:
+
+1. Resolve Claude or Mistral SAP AI Core inference schema so at least two
+   non-OpenAI lineages smoke-pass.
+2. Re-run `meta/INDEPENDENT_REVIEW_QUEUE_V29.md` across working lineages.
+3. Ground de-duplicated model proposals on local data before promoting any
+   finding.
 
 No unresolved supported V12 cells remain. V14 has added a first-pass locus
 landscape and prior-sensitivity layer over the V13 OpenGWAS coloc results.

@@ -1,0 +1,48 @@
+{
+  "proposals": [
+    {
+      "short_name": "Steroid Pulse as Postpartum Mimic",
+      "concrete_test": "Identify a public MS cohort with pre/post high-dose steroid (e.g., methylprednisolone) transcriptomic data. Calculate the V22 locked scalar score at both timepoints. Test if the score changes significantly post-treatment and if the change correlates with clinical metrics of relapse recovery.",
+      "data_artifacts": "Publicly available expression datasets (e.g., from GEO) for MS relapse treated with steroids. The V22 locked rule definition from `docs/locked_rules/LOCKED_RULE_V22.md`.",
+      "expected_if_true": "The V22 score, reflecting APC/HLA-II state, will change significantly following steroid-induced immune modulation, validating it as a marker of acute immune perturbation beyond the specific drugs in the bounded set. This would support the 'postpartum flare' natural experiment hypothesis using a pharmacological proxy.",
+      "falsifies_if": "The V22 score is stable and does not change after a steroid pulse, or changes randomly with respect to clinical outcome. This would imply the score is specific to the slow-acting mechanisms of DMF/Tofacitinib and not a general-purpose marker of APC-axis state change."
+    },
+    {
+      "short_name": "Metabolic Confounding of V22 Rule",
+      "concrete_test": "Using a gene set enrichment method (e.g., GSEA or GSVA), calculate scores for canonical metabolic pathways (e.g., Glycolysis, Oxidative Phosphorylation) for all subjects in all four treatment-response cohorts. Correlate the change in these metabolic scores with the change in the V22 locked scalar score.",
+      "data_artifacts": "Expression data from `GSE235357`, `GSE250453`, `GSE85034_ADA`, and `GSE253006_TOF`. Canonical pathway gene sets (e.g., from MSigDB Hallmark or KEGG).",
+      "expected_if_true": "Changes in the V22 score will be highly correlated with changes in specific metabolic pathway scores (e.g., those affected by Nrf2 or JAK-STAT signaling) in the passing cohorts (DMF, Tofacitinib) but not in the failing cohorts (Fingolimod, Adalimumab). This would suggest the V22 rule is a proxy for a specific metabolic reprogramming event.",
+      "falsifies_if": "No significant correlation is found between the V22 score and metabolic scores, or the correlation is equally strong across both passing and failing cohorts. This would indicate the V22 signature is independent of the major metabolic axes perturbed by these drugs."
+    },
+    {
+      "short_name": "Test Chr1 Locus for Decoupling",
+      "concrete_test": "Define a 'KIF21B locus score' from the expression of genes in the shared MS/UC credible set on chr1. Apply this score to the MS (GSE235357) and UC (GSE253006_TOF) cohorts. Test for an interaction between the KIF21B locus score and disease (MS vs UC) in predicting treatment response.",
+      "data_artifacts": "Expression data from `GSE235357` (MS) and `GSE253006_TOF` (UC). The list of shared credible-set variants and associated genes for the chr1 locus from the project's genetics workups.",
+      "expected_if_true": "The KIF21B locus score shows a divergent or null association with treatment response between the MS and UC cohorts. For example, the score predicts response in UC but not MS. This would mirror the ZMIZ1 finding and challenge the assumption that KIF21B represents a functionally conserved, shared therapeutic axis.",
+      "falsifies_if": "The KIF21B locus score has a consistent and significant association with treatment response (or with the V22 score) in both the MS and UC cohorts. This would strengthen the evidence for a shared biological mechanism at the chr1 locus relevant to therapy."
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "short_name": "Arbitrary Mechanism Boundary",
+      "concrete_test": "Define a quantitative 'immune remodeling' signature based on transcriptional variance or a broad set of immune pathways. Apply this signature to all four cohorts (`GSE235357`, `GSE250453`, `GSE85034_ADA`, `GSE253006_TOF`) at baseline. Test if the passing cohorts (DMF, Tofa) occupy a distinct space from the failing cohorts (Fingolimod, Adalimumab) according to this metric.",
+      "data_artifacts": "Baseline (pre-treatment) expression data for all four cohorts.",
+      "expected_if_true": "The failing cohorts will show a baseline immune state or remodeling potential indistinguishable from the passing cohorts, demonstrating that the 'immune-remodeling / JAK-STAT' boundary is a post-hoc explanation for the mixed results rather than a predictive, principled stratification.",
+      "falsifies_if": "The passing cohorts cluster together and separately from the failing cohorts based on a pre-defined, mechanism-agnostic measure of immune system state. This would support the existence of a real, underlying biological boundary condition for the V22 rule's validity."
+    },
+    {
+      "short_name": "Small-N Model Fallacy",
+      "concrete_test": "Train the flexible ML models from V28 (e.g., Ridge logistic regression) on the 'bounded' passing set (n=19; `GSE235357` + `GSE253006_TOF`). Then, use this trained model to predict outcomes on the held-out failing cohorts (`GSE250453`, `GSE85034_ADA`). Analyze the feature weights and prediction errors.",
+      "data_artifacts": "All data and models from the V28 analysis, specifically `scripts/v28_heterogeneous_response_analysis.py` and the four GEO datasets.",
+      "expected_if_true": "The analysis will show that while overall prediction is poor (as expected), the feature weights learned from the passing set are unstable or non-informative when applied to the failing set. This demonstrates that the V28 conclusion 'complexity does not help' is an artifact of insufficient data for model training (LOOCV on n=19), not a deep truth about the biology's simplicity.",
+      "falsifies_if": "The flexible model trained on the passing set produces systematically biased predictions on the failing set that are explainable by a single, interpretable feature. This would suggest the simple scalar is missing a key interaction that a more complex model, with enough data, could capture."
+    },
+    {
+      "short_name": "Premature Modality Filter",
+      "concrete_test": "Using existing eQTL data (e.g., eQTLGen, as used for V18/V19), perform a genome-wide trans-eQTL analysis using the lead `KIF21B`-associated SNP as the instrument. Identify genes whose expression is associated with the risk variant.",
+      "data_artifacts": "The lead shared MS/UC variant for the chr1 locus. Access to summary statistics from a large-scale eQTL database like eQTLGen.",
+      "expected_if_true": "The risk variant will be associated with the expression of multiple downstream genes (trans-eQTLs) that form a druggable pathway (e.g., a kinase or cytokine pathway). This would reveal alternative, tractable intervention points beyond simply 'restoring KIF21B function', showing the 'hard target' classification was premature.",
+      "falsifies_if": "No significant trans-eQTLs are found, or the identified trans-genes are themselves undruggable or part of an uninterpretable network. This would strengthen the conclusion that the biological effect is highly localized to KIF21B, making it the only viable (though difficult) target in the pathway."
+    }
+  ]
+}

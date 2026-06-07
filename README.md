@@ -11,7 +11,7 @@ All analysis uses public human-tissue data only and random seed `20260526`
 
 ## Current Status
 
-The current phase is **V22**. The V4 directory structure remains canonical, and
+The current phase is **V30**. The V4 directory structure remains canonical, and
 V11 introduced the resume backbone for short-session continuity.
 
 - Start here: `meta/CURRENT_STATUS.md` — the live mission state, active leads,
@@ -45,6 +45,11 @@ V11 introduced the resume backbone for short-session continuity.
   dormant-lead reactivation found no intervention-grade rescue; the postpartum
   HLA-II/CD64 APC-axis split is the best reactivated biology lead, and
   MIF/CD74 is retained as coupled-APC context rather than a standalone target.
+  V30 established partial SAP AI Core access: service-key auth and deployment
+  listing work, Gemini inference smoke tests pass, but Claude is blocked by
+  unresolved allowed-subpath/schema and Mistral times out. A Gemini-only review
+  produced grounded queue items but no lead upgrade; multi-lineage review
+  remains queued until a second non-OpenAI lineage smoke-passes.
 - Current genetics/data focus: the chr1 MS-UC causal-gene question is
   computationally resolved for now and handed forward as real shared genetics,
   not an intervention-grade target. V20 widened back out to a ranked

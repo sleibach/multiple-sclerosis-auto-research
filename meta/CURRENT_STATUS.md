@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-06 14:32 CEST
+Last updated: 2026-06-07 02:51 CEST
 
 ## Mission State
 
@@ -22,6 +22,10 @@ but not improved by flexible ML, receptor-only, coupled-axis, or generic
 dynamic-vector variants. V29 checked for a cross-lineage independent model key;
 none was configured, so the adversarial review package was queued. The local
 dormant-lead reactivation pass found no intervention-grade dormant rescue.
+V30 established SAP AI Core access for independent model review: auth,
+deployment discovery, and Gemini inference work through a committed client, but
+Claude and Mistral are not yet smoke-passing, so full multi-lineage review
+remains blocked.
 
 Current frontier:
 
@@ -82,6 +86,26 @@ Current frontier:
   - ZMIZ1 remains a robust transfer-validity decoupling finding.
   - NAMPT, PTGER4, ZFP36L1, REL/PUS10/USP34, and generic TYK2 remain parked or
     closed under current standards.
+- V30 SAP AI Core / independent-lens review:
+  - Access report: `meta/SAP_AI_CORE_ACCESS_V30.md`.
+  - Reusable client: `scripts/sap_ai_core_client.py`.
+  - Queue: `meta/V30_QUEUE.md`.
+  - V30 inventory: `docs/history/LEAD_INVENTORY_V30.md`.
+  - `SAP_AI_CORE_API_KEY` parses as service-key JSON from `.env`; OAuth2
+    client-credentials exchange and deployment listing work.
+  - Gemini deployments smoke-pass:
+    - `gemini-3.1-flash-lite`: response `OK.`
+    - `gemini-2.5-pro`: response `OK`
+  - Claude deployments are discoverable and `RUNNING`, but tested subpaths
+    (`/completion`, `/chat/completions`, `/messages`, `/v1/messages`, root,
+    and model/invoke variants) are rejected or 404.
+  - Mistral is discoverable and `RUNNING`, but corrected `/chat/completions`
+    timed out.
+  - Gemini-only review produced concrete queue items (steroid-pulse mimic,
+    metabolic confounding, KIF21B trans/pathway checks), but none upgrades a
+    lead; model output remains proposal-only.
+  - Full multi-lineage triangulation remains queued until a second non-OpenAI
+    lineage smoke-passes.
 - `GPR25` remains a live eQTLGen-supported lead, but not a protected favorite:
   public V18 immune-QTL sources did not support it, and its required therapeutic
   direction is agonism/restoration of a sparsely tooled receptor.
