@@ -1,0 +1,28 @@
+{
+  "dmf_locked": {
+    "auc": 0.72,
+    "cohort": "GSE235357",
+    "exact_auc_p": 0.15476190476190477,
+    "feature": "locked_signed_score",
+    "loo_auc_values": "0.650;0.650;0.900;0.650;0.750;0.700;0.700;0.700;0.750;0.750",
+    "loo_max_auc": 0.9,
+    "loo_min_auc": 0.65,
+    "n": 10,
+    "n_nonresponders": 5,
+    "n_responders": 5
+  },
+  "fingolimod_locked": {
+    "auc": 0.6,
+    "cohort": "GSE250453",
+    "exact_auc_p": 0.34523809523809523,
+    "feature": "locked_signed_score",
+    "loo_auc_values": "0.550;0.550;0.700;0.700;0.500;0.600;0.500;0.700;0.600;0.600",
+    "loo_max_auc": 0.7,
+    "loo_min_auc": 0.5,
+    "n": 10,
+    "n_nonresponders": 5,
+    "n_responders": 5
+  },
+  "interpretation": "DMF remains directionally supportive but fragile in n=10; fingolimod remains weak/null.",
+  "question": "How robust are the locked V22 MS DMT cohort signals under exact label permutation and leave-one-out?"
+}

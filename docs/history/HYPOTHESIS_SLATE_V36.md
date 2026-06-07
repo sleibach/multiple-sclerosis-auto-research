@@ -1364,3 +1364,37 @@ CD74/receptor dynamics. Tofacitinib remains the strongest IFN/APC/STAT1
 downshift context. DMF remains the locked MS DMT pass but needs fresh external
 validation. Fingolimod, adalimumab, and MTX psoriasis skin argue against
 unbounded transfer.
+
+## Iteration 42: MS DMT Locked-Rule Sensitivity
+
+Status: **completed / DMF support fragile but directionally stable**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_ms_dmt_locked_sensitivity.py`
+- Output: `analysis/v36_ms_dmt_locked_sensitivity/summary.md`
+- Table: `analysis/v36_ms_dmt_locked_sensitivity/ms_dmt_locked_sensitivity.tsv`
+
+Question:
+
+Run exact label-permutation and leave-one-subject sensitivity on the two V22 MS
+DMT paired cohorts (`GSE235357` DMF, `GSE250453` fingolimod), because the DMF
+pass remains the primary locked-rule support.
+
+Grounding:
+
+| Cohort | Feature | AUC | Exact p | LOO min AUC | LOO max AUC |
+|---|---|---:|---:|---:|---:|
+| `GSE235357` DMF | locked signed score | `0.720` | `0.155` | `0.650` | `0.900` |
+| `GSE235357` DMF | `delta_HLAII` | `0.760` | `0.111` | `0.700` | `0.950` |
+| `GSE250453` fingolimod | locked signed score | `0.600` | `0.345` | `0.500` | `0.700` |
+| `GSE250453` fingolimod | `negative_delta_receptor` | `0.600` | `0.345` | `0.500` | `0.700` |
+
+Interpretation:
+
+The DMF signal is directionally supportive and not driven by a single removable
+subject (`LOO min AUC = 0.650`), but exact permutation p is only `0.155` in
+`n=10`. Fingolimod remains weak/null. This tightens the status language: the
+locked V22/V23 rule remains the primary validation target because it was
+pre-specified and mechanistically coherent, but its held MS DMT evidence is
+small-n and fragile. Fresh validation is not optional.

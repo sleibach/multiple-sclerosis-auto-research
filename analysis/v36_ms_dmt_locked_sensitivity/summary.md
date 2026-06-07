@@ -1,0 +1,25 @@
+# V36 MS DMT Locked-Rule Sensitivity
+
+Exact permutation and leave-one-out sensitivity for the two V22 MS DMT
+paired cohorts.
+
+| cohort | feature | n | n_responders | n_nonresponders | auc | exact_auc_p | loo_min_auc | loo_max_auc | loo_auc_values |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| GSE235357 | locked_signed_score | 10 | 5 | 5 | 0.72 | 0.1548 | 0.65 | 0.9 | 0.650;0.650;0.900;0.650;0.750;0.700;0.700;0.700;0.750;0.750 |
+| GSE235357 | delta_IFN_APC | 10 | 5 | 5 | 0.6 | 0.3452 | 0.5 | 0.75 | 0.500;0.750;0.750;0.500;0.500;0.600;0.600;0.600;0.600;0.600 |
+| GSE235357 | negative_delta_ifn_apc | 10 | 5 | 5 | 0.4 | 0.7262 | 0.25 | 0.5 | 0.500;0.250;0.250;0.500;0.500;0.400;0.400;0.400;0.400;0.400 |
+| GSE235357 | delta_HLAII | 10 | 5 | 5 | 0.76 | 0.1111 | 0.7 | 0.95 | 0.700;0.750;0.950;0.700;0.700;0.800;0.750;0.750;0.750;0.750 |
+| GSE235357 | delta_RECEPTOR | 10 | 5 | 5 | 0.36 | 0.7897 | 0.25 | 0.45 | 0.350;0.450;0.350;0.350;0.300;0.450;0.400;0.250;0.250;0.450 |
+| GSE235357 | negative_delta_receptor | 10 | 5 | 5 | 0.64 | 0.2738 | 0.55 | 0.75 | 0.650;0.550;0.650;0.650;0.700;0.550;0.600;0.750;0.750;0.550 |
+| GSE250453 | locked_signed_score | 10 | 5 | 5 | 0.6 | 0.3452 | 0.5 | 0.7 | 0.550;0.550;0.700;0.700;0.500;0.600;0.500;0.700;0.600;0.600 |
+| GSE250453 | delta_IFN_APC | 10 | 5 | 5 | 0.52 | 0.5 | 0.4 | 0.6 | 0.600;0.400;0.550;0.550;0.500;0.450;0.600;0.400;0.600;0.550 |
+| GSE250453 | negative_delta_ifn_apc | 10 | 5 | 5 | 0.48 | 0.5794 | 0.4 | 0.6 | 0.400;0.600;0.450;0.450;0.500;0.550;0.400;0.600;0.400;0.450 |
+| GSE250453 | delta_HLAII | 10 | 5 | 5 | 0.52 | 0.5 | 0.4 | 0.6 | 0.600;0.400;0.600;0.600;0.400;0.550;0.550;0.400;0.550;0.550 |
+| GSE250453 | delta_RECEPTOR | 10 | 5 | 5 | 0.4 | 0.7262 | 0.3 | 0.5 | 0.450;0.300;0.400;0.350;0.500;0.350;0.300;0.400;0.450;0.500 |
+| GSE250453 | negative_delta_receptor | 10 | 5 | 5 | 0.6 | 0.3452 | 0.5 | 0.7 | 0.550;0.700;0.600;0.650;0.500;0.650;0.700;0.600;0.550;0.500 |
+
+## Interpretation
+
+The DMF locked score remains directionally supportive but is fragile in
+n=10. Fingolimod remains weak/null. This reinforces that fresh Gafson-style
+validation is required before any clinical claim.

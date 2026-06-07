@@ -613,11 +613,27 @@
 
 ### Iteration 42
 
+- Start UTC: 2026-06-07T19:58:45Z
+- End UTC: 2026-06-07T19:59:40Z
+- Status: completed
+- Item selected: Continue autonomous V36 block with next executable
+  self-generated item.
+- Note: Run exact permutation and leave-one-subject sensitivity for the V22
+  locked MS DMT cohorts, especially the DMF pass that remains the primary
+  locked-rule support.
+- Result: DMF locked score remains directionally supportive but fragile
+  (`AUC = 0.720`, exact p `0.155`, LOO min AUC `0.650`). DMF `delta_HLAII` was
+  slightly stronger (`AUC = 0.760`, exact p `0.111`). Fingolimod remains
+  weak/null (`locked AUC = 0.600`, exact p `0.345`). Fresh validation remains
+  mandatory.
+
+### Iteration 43
+
 - Start UTC: pending
 - Status: todo
 - Item selected: Continue autonomous V36 block with next executable
   self-generated item.
-- Note: Block runtime remains below 120 minutes after Iteration 41.
+- Note: Block runtime remains below 120 minutes after Iteration 42.
 
 ## Backlog
 
