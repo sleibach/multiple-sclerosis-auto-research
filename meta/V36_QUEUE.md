@@ -313,10 +313,24 @@
 ### Iteration 21
 
 - Start UTC: 2026-06-07T19:11:07Z
-- Status: in_progress
+- End UTC: 2026-06-07T19:12:49Z
+- Status: completed
 - Item selected: Treated-timepoint trajectory and sample-timing audit.
 - Note: Test whether treated IFN/APC dominance reflects W8 monitoring or mixed
   later timepoint structure.
+- Result: W8 is the only interpretable post-baseline timepoint with mixed
+  responder labels (`n=8`, `4` responders). At W8, IFN/APC AUC was `1.000`
+  in B/plasma, T-cell, myeloid, and epithelial compartments (exact p `0.0286`).
+  Later trajectory claims are blocked by sparse/imbalanced W16/W24/W48 data.
+
+### Iteration 22
+
+- Start UTC: 2026-06-07T19:12:49Z
+- Status: in_progress
+- Item selected: Raw cell-level B/plasma subcluster feasibility check.
+- Note: Determine whether existing raw GSE253006 data can test within-B/plasma
+  subcluster composition versus within-cell remodeling without rebuilding a
+  heavy single-cell pipeline.
 
 ## Backlog
 
@@ -341,7 +355,8 @@
 | 17 | B/plasma-vs-myeloid IFN independence and leave-one-gene module dependence | done | B/plasma-independent mechanism demoted; broad IFN remodeling favored. |
 | 18 | Steroid/global inflammatory marker coverage and residualization check | done | Glucocorticoid did not explain; delta STAT1-axis did. |
 | 19 | Baseline-versus-delta decomposition for compartment readouts | done | Baseline weak/null; treated IFN/APC and delta dominate, supporting monitoring. |
-| 20 | Treated-timepoint trajectory and sample-timing audit | in_progress | Test W8 vs later timepoint structure in treated IFN/APC dominance. |
+| 20 | Treated-timepoint trajectory and sample-timing audit | done | W8 early monitoring supported; later trajectory blocked by sparse data. |
+| 21 | Raw cell-level B/plasma subcluster feasibility check | in_progress | Check whether subcluster composition can be tested from held raw data. |
 
 ## Timing Rule
 

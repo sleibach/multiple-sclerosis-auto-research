@@ -670,3 +670,43 @@ delta readouts dominate. Combined with Iteration 19, the most defensible current
 state is: **responders show a broad on-treatment IFN/APC/STAT1-axis state,
 measurable through T/B compartment readouts, not a baseline patient subtype and
 not a compartment-specific mechanism.**
+
+## Iteration 21: Treated-Timepoint Audit
+
+Status: **completed / early-W8 monitoring bounded**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_treated_timepoint_audit.py`
+- Outputs: `analysis/v36_treated_timepoint_audit/`
+
+Test:
+
+Score IFN/APC by compartment and timepoint in the exact `GSE253006` artifact to
+determine whether the on-treatment signal is an early W8 signal or depends on
+mixed later timepoints.
+
+Result:
+
+- Patients total with baseline/timepoint data: `11`.
+- Timepoints present: `W0`, `W8`, `W16`, `W24`, `W48`.
+- W8 is the only post-baseline timepoint with enough mixed responder status for
+  interpretation (`n=8`, `4` responders).
+
+W8 IFN/APC AUC:
+
+| Compartment | W8 AUC | Exact p |
+|---|---:|---:|
+| `b_plasma_like` | `1.000` | `0.0286` |
+| `t_cell_like` | `1.000` | `0.0286` |
+| `myeloid_apc_like` | `1.000` | `0.0286` |
+| `epithelial_like` | `1.000` | `0.0286` |
+| `stromal_endothelial_like` | `0.875` | `0.1143` |
+
+Interpretation:
+
+The held data supports an **early W8 monitoring** signal, not a durable
+trajectory claim. Later timepoints are sparse and imbalanced (`W16 n=2`, `W24
+n=1`, `W48 n=1`) and cannot validate persistence. The best current validation
+spec should require baseline plus early post-treatment sampling, with W8-like
+timing if possible.
