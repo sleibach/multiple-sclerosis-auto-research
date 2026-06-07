@@ -1,0 +1,24 @@
+{
+  "grounded_result": "strong_within_mixscale_not_cross_modality_supported",
+  "hypothesis": "lysosomal APC coupling specificity",
+  "interpretation": "The GILT/lysosomal APC to IFN/APC pair is the strongest perturbation-module correlation among tested pairs, but V26 did not grade lysosomal pairs as supported because replication across independent modalities was insufficient. It remains a coupled transcript-state observation, not a proven antigen-processing bottleneck.",
+  "n_lysosomal_pairs": 3,
+  "n_perturbation_pairs": 6,
+  "top_lysosomal_pair": {
+    "abs_spearman_r": 0.9017391304347826,
+    "claim_grade": "not_supported",
+    "modality": "perturbation_mixscale",
+    "module_a": "gilt_lysosomal_apc",
+    "module_b": "ifn_apc",
+    "n_rows": 24,
+    "p": 1.7926261540790241e-09,
+    "perm_p": 0.0004997501249375,
+    "q_bh_within_modality": 0.0014992503748125,
+    "rank_abs_spearman_within_perturbation": 1,
+    "replicated_sign": 1.0,
+    "replicated_significant_modalities": 1,
+    "sign": 1.0,
+    "spearman_r": 0.9017391304347826
+  },
+  "top_pair_supported_elsewhere": false
+}

@@ -763,3 +763,36 @@ Next test:
 - Acquire paired baseline/early-treatment response data with single-cell,
   CITE-seq, sorted T/B/myeloid expression, or pre-specified validated
   deconvolution.
+
+## Iteration 20: Lysosomal APC Specificity Control
+
+Status: **strong within perturbation data / not cross-modality supported**.
+
+Executable grounding:
+
+- Script: `scripts/v35_lysosomal_apc_specificity.py`
+- Outputs: `analysis/v35_lysosomal_apc_specificity/`
+- Input: V26 `workstream_b_module_dependencies.tsv`.
+
+Result:
+
+- `gilt_lysosomal_apc` versus `ifn_apc` is the strongest perturbation
+  module-pair correlation among the six tested Mixscale module pairs:
+  - Spearman `rho = 0.902`;
+  - permutation p `0.00050`;
+  - BH q within perturbation modality `0.00150`;
+  - absolute-correlation rank `1 / 6`.
+- V26 still grades this pair `not_supported` as a project finding because only
+  one significant modality replicated it.
+
+Interpretation:
+
+The lysosomal APC-processing hypothesis is sharpened, not upgraded. Existing
+data support a coupled transcript-state relationship between GILT/lysosomal APC
+and IFN/APC under perturbation, but do not prove an antigen-processing
+bottleneck or cross-modality invariant.
+
+Next test:
+
+- Functional lysosomal flux, cathepsin/V-ATPase perturbation, or
+  HLA-peptidomics/myelin-antigen pulse-chase in APCs.

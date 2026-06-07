@@ -237,7 +237,7 @@ Target block end UTC: 2026-06-07T17:37:36Z
 ### Iteration 19
 
 - Start UTC: 2026-06-07T17:23:00Z
-- End UTC: 2026-06-07T17:25:00Z
+- End UTC: 2026-06-07T17:24:42Z
 - Status: blocked
 - Item selected: T/B gate independent-cohort feasibility scout.
 - Note: Search held treatment-response artifacts for another paired
@@ -249,11 +249,29 @@ Target block end UTC: 2026-06-07T17:37:36Z
 
 ### Iteration 20
 
-- Start UTC: 2026-06-07T17:25:00Z
-- Status: in_progress
+- Start UTC: 2026-06-07T17:24:42Z
+- End UTC: 2026-06-07T17:24:42Z
+- Status: completed
 - Item selected: Lysosomal APC random-module specificity control.
 - Note: Stress-test whether the V35 lysosomal APC coupling in V26 treatment
   response modules is stronger than arbitrary module-pair correlations.
+- Timing note: iteration 20 was opened during rapid chaining before a separate
+  start clock read; the timestamp was corrected to the next real `date -u`
+  read rather than preserving an impossible future timestamp.
+- Result: strongest within perturbation data but not cross-modality supported.
+  `gilt_lysosomal_apc` vs `ifn_apc` is the top perturbation module-pair
+  correlation among 6 pairs (`rho = 0.902`, permutation p `0.00050`, BH q
+  `0.00150`), but V26 grades the pair `not_supported` because only one
+  significant modality replicated it. This remains a coupled transcript-state
+  observation, not a proven antigen-processing bottleneck.
+
+### Iteration 21
+
+- Start UTC: 2026-06-07T17:24:42Z
+- Status: in_progress
+- Item selected: Metabolic/sterol setpoint specificity and actionability review.
+- Note: Stress-test whether the sterol/metabolic setpoint has enough specific
+  disease and direction evidence to remain above context-only status.
 
 ## Backlog
 
@@ -278,7 +296,8 @@ Target block end UTC: 2026-06-07T17:37:36Z
 | 17 | EBV-module random-gene-set specificity control | done | EBV-specific interpretation failed random same-size module control; broad SLE host-state signal remains. |
 | 18 | Postpartum APC-arm imbalance relapse-label test in MS pregnancy data | blocked | Local GSE17410/GSE17449 lacks reliable per-sample relapse labels; title prefixes are not sufficient. |
 | 19 | T/B gate independent-cohort feasibility scout | blocked | No independent held compartment-resolved paired response cohort found beyond already-used GSE253006. |
-| 20 | Lysosomal APC random-module specificity control | in_progress | Test whether V35 lysosomal APC coupling exceeds arbitrary module-pair correlations. |
+| 20 | Lysosomal APC random-module specificity control | done | Strongest Mixscale module-pair correlation, but not cross-modality supported; remains not a bottleneck claim. |
+| 21 | Metabolic/sterol setpoint specificity and actionability review | in_progress | Stress-test whether metabolic/sterol setpoint rises above context-only status. |
 
 ## Timing Rule
 
