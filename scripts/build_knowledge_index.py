@@ -21,6 +21,7 @@ OUT.mkdir(parents=True, exist_ok=True)
 
 GLOBS = [
     "knowledge/**/*.md",
+    "docs/**/*.md",
     "meta/*.md",
     "subagents/*.md",
     "phases/v3/subagents/*.md",

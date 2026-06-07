@@ -174,6 +174,27 @@ First post-V36 action:
    response-labeled compartment-resolved cohort to replicate or kill the
    T/B-readable early IFN/APC/STAT1 monitoring state.
 
+V37 update:
+
+- Comprehensive findings report written:
+  `docs/reports/FINDINGS_REPORT_V37.md`.
+- Machine-readable scored table written:
+  `docs/reports/FINDINGS_SCORES_V37.tsv`.
+- Items scored: 32 across positive/supported, decoupling/negative,
+  kills/closed/parked, and methodological/operational categories.
+- No new analysis, hypotheses, model review, or rule changes were performed.
+
+First post-V37 action:
+
+1. Use the V37 report as the authoritative project summary for medical-team
+   review.
+2. Continue the post-V36 validation path: acquire Gafson et al. 2018 DMF PBMC
+   RNA-seq processed counts plus sample-level NEDA-4 labels using
+   `docs/validation/GAFSON_DATA_REQUEST_V36.md`.
+3. If no fresh validation cohort is available, scout an independent paired
+   response-labeled compartment-resolved cohort for the T/B-readable early
+   IFN/APC/STAT1 monitoring state.
+
 No unresolved supported V12 cells remain. V14 has added a first-pass locus
 landscape and prior-sensitivity layer over the V13 OpenGWAS coloc results.
 

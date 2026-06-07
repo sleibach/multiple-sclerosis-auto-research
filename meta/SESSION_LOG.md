@@ -773,3 +773,32 @@ Next session first action:
 - Model spend: SAP AI Core Claude, Gemini, and RPT were used; the local client
   does not expose per-call spend, and no separate paid-service spend was recorded
   in-repo.
+
+## RUN SUMMARY - V37 Findings Report Synthesis
+
+- Active runtime: 5 minutes 17 seconds, measured from real system-clock reads;
+  no usage-limit waiting occurred, so active runtime equals total elapsed
+  wall-clock time.
+- Session start timestamp (UTC): 2026-06-07T21:51:32Z.
+- Session end timestamp (UTC): 2026-06-07T21:56:49Z.
+- Frontier advanced: wrote the comprehensive scored findings report
+  `docs/reports/FINDINGS_REPORT_V37.md` and machine-readable score table
+  `docs/reports/FINDINGS_SCORES_V37.tsv`, updated README/status/NEXT_ACTIONS,
+  and rebuilt the local knowledge index to include `docs/**/*.md`.
+- Items reported by category: 8 positive/supported, 9 decoupling/negative, 11
+  kills/closed/parked, and 4 methodological/operational; 32 total scored items.
+- Top item by relevance: bounded APC/HLA-II early treatment-response monitoring
+  scalar (relevance 5, novelty 4, evidence grade provisional).
+- Top items by novelty: bounded APC/HLA-II monitoring scalar, coupled APC
+  remodeling architecture, layer-specific autoimmune transfer-validity map,
+  T/B-readable IFN/APC/STAT1 monitoring state, postpartum HLA-II/CD64 APC-arm
+  imbalance, ZMIZ1 opposite-direction decoupling, V26 no-invariant negative,
+  and first-principles druggability discipline (all novelty 4).
+- Model review used: no. `SAP_AI_CORE_API_KEY` was present after loading
+  `.env`, but V37 scoring was grounded directly in committed artifacts.
+- Stop reason: completed synthesis/reporting deliverable, README sync, RAG
+  rebuild, and clean resume state.
+- Next action: use V37 as the authoritative medical-team summary; operationally
+  continue the post-V36 path by acquiring Gafson et al. 2018 DMF PBMC RNA-seq
+  processed counts plus NEDA-4 labels and then running frozen V22 validation
+  plus V32/V36 audits without tuning.

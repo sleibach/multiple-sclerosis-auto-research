@@ -11,7 +11,7 @@ All analysis uses public human-tissue data only and random seed `20260526`
 
 ## Current Status
 
-The current phase is **V36**. The V4 directory structure remains canonical, and
+The current phase is **V37**. The V4 directory structure remains canonical, and
 V11 introduced the resume backbone for short-session continuity.
 
 - Start here: `meta/CURRENT_STATUS.md` — the live mission state, active leads,
@@ -208,6 +208,7 @@ that explicitly in `meta/SESSION_LOG.md`.
 | V30-V32 | SAP AI Core multi-lineage review and confounder audit. | Claude via SAP AI Core Orchestration and Gemini were made usable; multi-lineage review found no upgraded lead but prioritized confounder audits. V32 found the locked scalar is not a glucocorticoid or simple composition artifact, but is immune-tone/STAT1-conditioned. |
 | V33-V35 | Exploratory hypothesis generation and one-hour self-chaining block. | Produced and grounded a fresh hypothesis slate. The T/B remodeling gate became the best internal hypothesis but remained single-cohort/artifact-risk flagged; postpartum APC imbalance stayed clinically important but data-blocked. |
 | V36 | Two-hour expanded generation and strict grounding block. | Added SAP RPT structured-data lens, ran 55 chained iterations, demoted V36 post-hoc perfect-AUC features after multiplicity control, sharpened the therapy-response branch map, updated Gafson validation request and readiness guardrails, rebuilt/smoke-tested the local knowledge index, and kept the locked V22/V23 rule as the primary validation target. |
+| V37 | Comprehensive findings report and scoring synthesis. | Produced `docs/reports/FINDINGS_REPORT_V37.md` and `docs/reports/FINDINGS_SCORES_V37.tsv`, scoring 32 positive, decoupling, closed/negative, and methodological items by scientific relevance, novelty, and evidence grade. No new analysis or rule changes. |
 
 `docs/findings/FINDING.md` documents the (since-demoted) `ACSL1` target hypothesis from an
 earlier phase and is retained for the historical trace.

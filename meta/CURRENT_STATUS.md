@@ -67,6 +67,11 @@ glucocorticoid-explained in held scores, not B/plasma-specific, and still
 externally unreplicated. `docs/validation/VALIDATION_READINESS_V27.md` now has a
 V36 addendum, and `docs/validation/GAFSON_DATA_REQUEST_V36.md` is the
 human-facing request package for the best validation dataset.
+V37 then produced the comprehensive synthesis/scoring report:
+`docs/reports/FINDINGS_REPORT_V37.md`, with a machine-readable score table at
+`docs/reports/FINDINGS_SCORES_V37.tsv`. It scored 32 positive, decoupling,
+closed/negative, and methodological findings by scientific relevance, novelty,
+and evidence grade. No new analysis, hypotheses, or rule changes were made.
 
 Current frontier:
 
