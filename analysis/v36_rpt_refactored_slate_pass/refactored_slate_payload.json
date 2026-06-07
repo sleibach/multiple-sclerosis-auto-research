@@ -1,0 +1,141 @@
+{
+  "prediction_config": {
+    "target_columns": [
+      {
+        "name": "VERDICT",
+        "prediction_placeholder": "[PREDICT]",
+        "task_type": "classification",
+        "top_k": 3
+      }
+    ]
+  },
+  "index_column": "ID",
+  "data_schema": {
+    "ID": {
+      "dtype": "string"
+    },
+    "HYPOTHESIS": {
+      "dtype": "string"
+    },
+    "INTERNAL_AUC": {
+      "dtype": "numeric"
+    },
+    "BASELINE_NULL": {
+      "dtype": "numeric"
+    },
+    "CONFOUNDER_CAVEAT": {
+      "dtype": "numeric"
+    },
+    "QC_CAVEAT": {
+      "dtype": "numeric"
+    },
+    "EXTERNAL_REPLICATION": {
+      "dtype": "numeric"
+    },
+    "MECHANISTIC_SPECIFICITY": {
+      "dtype": "numeric"
+    },
+    "ACTIONABILITY": {
+      "dtype": "numeric"
+    },
+    "DATA_GAP": {
+      "dtype": "numeric"
+    },
+    "VERDICT": {
+      "dtype": "string"
+    }
+  },
+  "rows": [
+    {
+      "ID": "validated_external_needed",
+      "HYPOTHESIS": "Locked V22 primary rule awaiting external validation",
+      "INTERNAL_AUC": 0.811,
+      "BASELINE_NULL": 1,
+      "CONFOUNDER_CAVEAT": 1,
+      "QC_CAVEAT": 1,
+      "EXTERNAL_REPLICATION": 0,
+      "MECHANISTIC_SPECIFICITY": 0,
+      "ACTIONABILITY": 1,
+      "DATA_GAP": 1,
+      "VERDICT": "validation_priority"
+    },
+    {
+      "ID": "stat3_locus_negative",
+      "HYPOTHESIS": "STAT3/STAT5 locus failed robust coloc",
+      "INTERNAL_AUC": 0.0,
+      "BASELINE_NULL": 0,
+      "CONFOUNDER_CAVEAT": 0,
+      "QC_CAVEAT": 0,
+      "EXTERNAL_REPLICATION": 0,
+      "MECHANISTIC_SPECIFICITY": 0,
+      "ACTIONABILITY": 0,
+      "DATA_GAP": 0,
+      "VERDICT": "not_now"
+    },
+    {
+      "ID": "ptger4_closed",
+      "HYPOTHESIS": "PTGER4 mixed/conflicted signal",
+      "INTERNAL_AUC": 0.0,
+      "BASELINE_NULL": 0,
+      "CONFOUNDER_CAVEAT": 1,
+      "QC_CAVEAT": 0,
+      "EXTERNAL_REPLICATION": 0,
+      "MECHANISTIC_SPECIFICITY": 0,
+      "ACTIONABILITY": 0,
+      "DATA_GAP": 1,
+      "VERDICT": "not_now"
+    },
+    {
+      "ID": "early_w8_ifn_stat_monitoring",
+      "HYPOTHESIS": "Early W8 broad IFN/APC/STAT1 monitoring state",
+      "INTERNAL_AUC": 1.0,
+      "BASELINE_NULL": 1,
+      "CONFOUNDER_CAVEAT": 1,
+      "QC_CAVEAT": 1,
+      "EXTERNAL_REPLICATION": 0,
+      "MECHANISTIC_SPECIFICITY": 0,
+      "ACTIONABILITY": 1,
+      "DATA_GAP": 1,
+      "VERDICT": "[PREDICT]"
+    },
+    {
+      "ID": "b_plasma_substate_ifn",
+      "HYPOTHESIS": "B/plasma within-substate IFN/APC readout",
+      "INTERNAL_AUC": 1.0,
+      "BASELINE_NULL": 1,
+      "CONFOUNDER_CAVEAT": 1,
+      "QC_CAVEAT": 1,
+      "EXTERNAL_REPLICATION": 0,
+      "MECHANISTIC_SPECIFICITY": 0,
+      "ACTIONABILITY": 0,
+      "DATA_GAP": 1,
+      "VERDICT": "[PREDICT]"
+    },
+    {
+      "ID": "glycolysis_independent",
+      "HYPOTHESIS": "Independent glycolysis mechanism",
+      "INTERNAL_AUC": 0.95,
+      "BASELINE_NULL": 1,
+      "CONFOUNDER_CAVEAT": 1,
+      "QC_CAVEAT": 0,
+      "EXTERNAL_REPLICATION": 0,
+      "MECHANISTIC_SPECIFICITY": 0,
+      "ACTIONABILITY": 0,
+      "DATA_GAP": 0,
+      "VERDICT": "[PREDICT]"
+    },
+    {
+      "ID": "postpartum_apc_arm",
+      "HYPOTHESIS": "Postpartum HLA-II/CD64 APC arm imbalance",
+      "INTERNAL_AUC": 0.0,
+      "BASELINE_NULL": 0,
+      "CONFOUNDER_CAVEAT": 1,
+      "QC_CAVEAT": 0,
+      "EXTERNAL_REPLICATION": 0,
+      "MECHANISTIC_SPECIFICITY": 1,
+      "ACTIONABILITY": 0,
+      "DATA_GAP": 1,
+      "VERDICT": "[PREDICT]"
+    }
+  ]
+}

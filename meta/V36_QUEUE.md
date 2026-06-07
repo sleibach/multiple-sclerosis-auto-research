@@ -436,10 +436,25 @@
 ### Iteration 30
 
 - Start UTC: 2026-06-07T19:28:30Z
-- Status: in_progress
+- End UTC: 2026-06-07T19:30:06Z
+- Status: completed
 - Item selected: Updated RPT pass over refactored slate.
 - Note: Use tabular lens after V36 demotions to prioritize any remaining
   untested patterns; ground output only if executable.
+- Result: RPT kept broad early W8 IFN/STAT monitoring as `validation_priority`
+  (confidence `0.950`) but over-prioritized B/plasma substate and glycolysis
+  relative to grounded demotions. Grounded evidence overrides RPT. No new
+  promoted item.
+
+### Iteration 31
+
+- Start UTC: 2026-06-07T19:30:06Z
+- Status: in_progress
+- Item selected: Refactored validation cohort/data scout from held V24
+  inventory.
+- Note: Re-read V24 scout outputs and identify candidates matching the stricter
+  V36 spec: baseline + W8-like early sample, response labels, expression,
+  batch/QC/steroid metadata, and compartment support if possible.
 
 ## Backlog
 
@@ -473,7 +488,8 @@
 | 26 | Glycolysis decoupling from IFN/STAT | done | Glycolysis is coupled context, not independent mechanism; IFN/STAT primary. |
 | 27 | Technical metadata and batch-confounding feasibility check | done | Batch metadata absent; mito/QC attenuation adds validation requirement. |
 | 28 | Validation requirement update for refactored V36 lead | done | V36 validation-readiness addendum added. |
-| 29 | Updated RPT pass over refactored slate | in_progress | Use tabular lens after lead refactoring. |
+| 29 | Updated RPT pass over refactored slate | done | RPT concordant for broad W8 state but over-promotes grounded-demoted variants. |
+| 30 | Refactored validation cohort/data scout from held V24 inventory | in_progress | Identify best next validation candidate under V36 stricter spec. |
 
 ## Timing Rule
 

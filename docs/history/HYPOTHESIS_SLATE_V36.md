@@ -991,3 +991,28 @@ future validation:
 - B/plasma substate fractions separated from within-substate IFN/APC;
 - batch/QC metadata and mitochondrial/ambient adjustment required where
   available.
+
+## Iteration 30: RPT Refactored-Slate Pass
+
+Status: **completed / RPT prioritization disagreement documented**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_rpt_refactored_slate_pass.py`
+- Outputs: `analysis/v36_rpt_refactored_slate_pass/`
+
+Result:
+
+| Row | RPT prediction | Confidence | Grounded interpretation |
+|---|---|---:|---|
+| `early_w8_ifn_stat_monitoring` | `validation_priority` | `0.950` | Concordant with grounded V36 ranking. |
+| `b_plasma_substate_ifn` | `validation_priority` | `0.820` | RPT over-prioritizes relative to grounded myeloid/STAT1 residualization; keep as secondary readout only. |
+| `glycolysis_independent` | `validation_priority` | `0.600` | RPT conflicts with Iteration 27 decoupling; grounded result overrides and glycolysis remains coupled context only. |
+| `postpartum_apc_arm` | `not_now` | `0.990` | Concordant with current data-gated status. |
+
+Interpretation:
+
+RPT added value by exposing which tabular features still look superficially
+promising after refactoring, but strict grounding overrides it. The only current
+validation-priority item remains the broad early W8 IFN/APC/STAT1 monitoring
+state with the V36 caveats.
