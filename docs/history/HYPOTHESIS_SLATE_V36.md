@@ -552,3 +552,49 @@ started to expose: the top lead may be a broad IFN-tone response, not a specific
 B/plasma mechanism. The next grounding work therefore focuses on independence,
 module dependence, and confound residualization rather than generating more
 hypotheses.
+
+## Iteration 18: IFN Independence and Gene Dependence
+
+Status: **completed / B-plasma-independent interpretation demoted**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_ifn_independence_dependence.py`
+- Outputs: `analysis/v36_ifn_independence_dependence/`
+
+Test:
+
+Ground the convergent Claude/Gemini proposal that the B/plasma IFN/STAT signal
+may be redundant with myeloid IFN remodeling, and test whether the B/plasma
+four-gene IFN/STAT score is a true module or a single-gene signature.
+
+Result:
+
+- B/plasma versus myeloid IFN/STAT Pearson r: `0.597` (p `0.0900`).
+- B/plasma versus myeloid IFN/STAT Spearman rho: `0.900` (p `0.0009`).
+- B/plasma IFN/STAT AUC: `0.950` (exact p `0.0317`).
+- Myeloid IFN/STAT AUC: `0.900` (exact p `0.0635`).
+- B/plasma residual after myeloid AUC: `0.650` (exact p `0.5556`).
+
+B/plasma leave-one-gene dependence:
+
+| Score | AUC | Exact p |
+|---|---:|---:|
+| full IFN/STAT (`STAT1`,`IRF1`,`GBP1`,`ISG15`) | `0.950` | `0.0317` |
+| omit `STAT1` | `0.950` | `0.0317` |
+| omit `IRF1` | `0.850` | `0.1111` |
+| omit `GBP1` | `0.950` | `0.0317` |
+| omit `ISG15` | `0.950` | `0.0317` |
+| single `STAT1` | `1.000` | `0.0159` |
+| single `IRF1` | `0.900` | `0.0635` |
+
+Interpretation:
+
+This is a material negative refinement. The B/plasma IFN/STAT score is strongly
+rank-correlated with myeloid IFN/STAT and loses response separation after
+residualizing against myeloid. That argues against a B/plasma-independent
+mechanism. The gene-dependence test also avoids a simple single-gene collapse:
+omitting `STAT1`, `GBP1`, or `ISG15` does not destroy the four-gene score, while
+single `STAT1` remains the strongest individual readout. The current top lead
+therefore becomes **broad cross-compartment IFN remodeling with T/B-readable
+outputs**, not a B/plasma-specific mechanism.

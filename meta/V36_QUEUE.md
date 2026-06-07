@@ -267,11 +267,28 @@
 ### Iteration 18
 
 - Start UTC: 2026-06-07T19:04:39Z
-- Status: in_progress
+- End UTC: 2026-06-07T19:06:53Z
+- Status: completed
 - Item selected: B/plasma-vs-myeloid IFN independence and leave-one-gene module
   dependence.
 - Note: Ground the strongest executable two-lineage proposals from Iteration
   17 on exact compartment data.
+- Result: B/plasma IFN/STAT and myeloid IFN/STAT were highly rank-correlated
+  (Spearman rho `0.900`, p `0.0009`). B/plasma response separation collapsed
+  after residualizing against myeloid (AUC `0.650`, exact p `0.5556`). The
+  four-gene score did not collapse when omitting STAT1, GBP1, or ISG15, although
+  single STAT1 was strongest. Interpretation: demote B/plasma-independent
+  mechanism; current lead is broad cross-compartment IFN remodeling with T/B
+  readable outputs.
+
+### Iteration 19
+
+- Start UTC: 2026-06-07T19:06:53Z
+- Status: in_progress
+- Item selected: Steroid/global inflammatory marker coverage and residualization
+  check.
+- Note: Test whether available exact-matrix markers permit glucocorticoid or
+  global inflammatory confound residualization; run where coverage exists.
 
 ## Backlog
 
@@ -293,7 +310,8 @@
 | 14 | Cross-compartment STAT1/IFN specificity scan | done | STAT1 downshift is broad, not B/plasma-specific; compartment specificity weakened. |
 | 15 | Same-compartment random/module negative control for IFN/STAT signal | done | Limited locked-gene combo null blocks narrow IFN/STAT four-gene specificity claim. |
 | 16 | Refined tri-source generation after specificity audit | done | Claude/Gemini generated concrete next tests; no evidence upgrade. |
-| 17 | B/plasma-vs-myeloid IFN independence and leave-one-gene module dependence | in_progress | Test redundancy with myeloid IFN and whether one gene drives the module. |
+| 17 | B/plasma-vs-myeloid IFN independence and leave-one-gene module dependence | done | B/plasma-independent mechanism demoted; broad IFN remodeling favored. |
+| 18 | Steroid/global inflammatory marker coverage and residualization check | in_progress | Test feasible confound residualization from exact marker coverage. |
 
 ## Timing Rule
 
