@@ -179,10 +179,25 @@ Target block end UTC: 2026-06-07T17:37:36Z
 ### Iteration 15
 
 - Start UTC: 2026-06-07T17:14:01Z
-- Status: in_progress
+- End UTC: 2026-06-07T17:17:58Z
+- Status: completed
 - Item selected: Sorted SLE immune-subset EBV-module feasibility.
 - Note: Test whether local sorted-cell SLE data (`GSE10325` or similar) can
   localize the host EBV-module-like signal to B-cell/APC compartments.
+- Result: inconclusive compartment localization. GSE10325 sorted SLE/control
+  CD4 T, CD19 B, and myeloid cells can score the module (`119` EBV-up probes,
+  `161` EBV-down probes). Raw EBV-up is higher in SLE CD19 B cells (delta
+  `64.814`, p `0.047`) and CD4 T cells (delta `18.384`, p `0.047`), but after
+  within-subset IFN/APC residualization only CD19 B remains directionally higher
+  and is not significant (delta `50.007`, p `0.126`). No EBV metadata exist.
+
+### Iteration 16
+
+- Start UTC: 2026-06-07T17:17:58Z
+- Status: in_progress
+- Item selected: EBV-module null-testing robustness.
+- Note: Add permutation/FDR accounting for the GSE108497 blood and GSE10325
+  sorted-cell EBV-module results before any shortlist upgrade.
 
 ## Backlog
 
@@ -202,7 +217,8 @@ Target block end UTC: 2026-06-07T17:37:36Z
 | 12 | EBV module IFN/APC separability | done | Source module separable from IFN/APC by top-gene overlap and trajectory. |
 | 13 | EBV module portability in local MS PBMC data | done | Portable to GPL571 PBMC data; no EBV-specific evidence without metadata. |
 | 14 | Local SLE/B-cell/APC EBV-module scoring scout | done | GSE108497 supports IFN-residualized SLE host EBV-module-like blood signal; no EBV metadata, so not an EBV imprint claim. |
-| 15 | Sorted SLE immune-subset EBV-module feasibility | in_progress | Inspect local sorted SLE immune-subset data for EBV-module/APC localization. |
+| 15 | Sorted SLE immune-subset EBV-module feasibility | done | GSE10325 supports only inconclusive CD19 B directional localization after IFN residualization; no EBV metadata. |
+| 16 | EBV-module null-testing robustness | in_progress | Add permutation/FDR accounting for GSE108497 and GSE10325 EBV-module contrasts. |
 
 ## Timing Rule
 

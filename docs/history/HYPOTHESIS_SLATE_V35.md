@@ -583,3 +583,44 @@ Minimum next data/test:
 Updated status: postpartum APC-arm imbalance remains the best locally grounded
 clinical hypothesis, but it is a data-acquisition target rather than a completed
 MS-specific biomarker.
+
+## Iteration 15: Sorted SLE Immune-Subset EBV-Module Feasibility
+
+Status: **inconclusive compartment localization / no EBV imprint claim**.
+
+Executable grounding:
+
+- Script: `scripts/v35_ebv_module_gse10325_sorted_sle.py`
+- Outputs: `analysis/v35_ebv_module_gse10325_sorted_sle/`
+- Dataset: local `GSE10325`, sorted CD4 T, CD19 B, and myeloid cells from SLE
+  patients and healthy controls, `67` samples total.
+
+Result:
+
+- GPL96 coverage is adequate for this bounded test: `119` EBV-up probes, `161`
+  EBV-down probes, and `48` IFN/APC probes.
+- Raw EBV-up score is higher in SLE than controls in:
+  - CD19 B cells: delta `64.814`, p `0.047`;
+  - CD4 T cells: delta `18.384`, p `0.047`;
+  - myeloid cells: delta `0.311`, p `0.981`.
+- IFN/APC is strongly higher in SLE CD4 T cells (delta `403.784`,
+  p `0.00061`), making CD4 raw EBV-up difficult to interpret.
+- After within-subset IFN/APC residualization, only CD19 B remains
+  directionally higher, and it is not statistically hardened:
+  - CD19 B residual EBV-up delta `50.007`, p `0.126`;
+  - CD4 T residual delta `2.411`, p `0.762`;
+  - myeloid residual delta `-6.734`, p `0.570`.
+
+Interpretation:
+
+The sorted-cell data weakly points toward a B-cell host EBV-module-like SLE
+signal, but it is underpowered and does not survive the simple residualized
+contrast. This does not establish an EBV imprint because the dataset has no EBV
+serostatus or viral-load metadata.
+
+Next test:
+
+- Apply permutation/FDR accounting across the GSE108497 and GSE10325 EBV-module
+  contrasts.
+- The decisive dataset remains EBV-stratified MS/SLE B-cell or APC expression
+  with IFN/APC, cell composition, and ideally viral-load metadata.

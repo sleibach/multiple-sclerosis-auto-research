@@ -1,0 +1,28 @@
+{
+  "best_ifn_residualized_subset": {
+    "delta_sle_minus_hc": 50.00686323069453,
+    "ebv_up_ifn_p": 0.24801687332012598,
+    "ebv_up_ifn_spearman": -0.2509881422924901,
+    "mean_hc": -30.438960227379237,
+    "mean_sle": 19.56790300331529,
+    "n_hc": 9,
+    "n_sle": 14,
+    "score": "ebv_up_resid_ifn",
+    "subset": "CD19_B",
+    "welch_p": 0.12589558821765393
+  },
+  "grounded_result": "sorted_subset_test_no_ebv_metadata",
+  "hypothesis": "SLE host EBV-module-like signal compartment localization",
+  "interpretation": "GSE10325 tests whether the host EBV-transformation-like module is localized to sorted SLE immune subsets and separable from IFN/APC. It has no EBV serostatus or viral-load metadata, so it cannot establish EBV imprint causality.",
+  "n_samples": 67,
+  "probe_counts": {
+    "ebv_down": 161,
+    "ebv_up": 119,
+    "ifn_apc": 48
+  },
+  "subsets": [
+    "CD19_B",
+    "CD4_T",
+    "myeloid"
+  ]
+}
