@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-07 02:51 CEST
+Last updated: 2026-06-07 03:15 CEST
 
 ## Mission State
 
@@ -26,6 +26,10 @@ V30 established SAP AI Core access for independent model review: auth,
 deployment discovery, and Gemini inference work through a committed client, but
 Claude and Mistral are not yet smoke-passing, so full multi-lineage review
 remains blocked.
+V31 resolved Claude through SAP AI Core Orchestration and completed the first
+Claude-plus-Gemini independent review. It produced no lead upgrade, but it
+prioritized a concrete raw-expression confounder panel for the V22/V23
+treatment-response lead.
 
 Current frontier:
 
@@ -106,6 +110,35 @@ Current frontier:
     lead; model output remains proposal-only.
   - Full multi-lineage triangulation remains queued until a second non-OpenAI
     lineage smoke-passes.
+- V31 multi-lineage review:
+  - Claude 4.7 Opus now works through SAP AI Core Orchestration:
+    - orchestration deployment `d65236404bbfb6b2`
+    - model deployment `def854013c7ac379`
+    - smoke response `OK`
+  - Gemini 2.5 Pro continues to smoke-pass through native Gemini endpoint.
+  - Mistral remains optional/blocking only for a third lens: discoverable but
+    timed out again on `/chat/completions`.
+  - Reports/artifacts:
+    - `docs/history/LEAD_INVENTORY_V31.md`
+    - `meta/V31_QUEUE.md`
+    - `analysis/v31_multi_lineage_review/`
+  - Multi-lineage review converged on vulnerabilities around V22/V23:
+    baseline-vs-dynamic confounding, small-n/pooling fragility, age/sex
+    metadata adjustment, metabolic/inflammatory/STAT1 alternatives,
+    proliferation/cell-composition artifacts, and V26 module-overlap risk.
+  - Fast groundings:
+    - cross-cohort threshold transfer is weak despite positive within-cohort
+      AUCs (`GSE235357` AUC `0.72`; `GSE253006_TOF_exact` AUC `0.95`;
+      threshold-transfer accuracies `0.667` and `0.600`);
+    - DICE chr1 significant eQTL scan found `DDX59`-dominated credible-set
+      hits, not a clean GPR25/KIF21B antagonistic model;
+    - V26 modalities share module definitions, so module-overlap sensitivity
+      is a real next audit.
+  - No model-proposed item is evidence by itself and no lead is upgraded.
+  - Next computational priority: raw-expression confounder scoring on V22/V23
+    cohorts for baseline APC/HLA-II, metabolic, inflammatory,
+    glucocorticoid, IFN-suppression, STAT1, proliferation, and cell-composition
+    controls.
 - `GPR25` remains a live eQTLGen-supported lead, but not a protected favorite:
   public V18 immune-QTL sources did not support it, and its required therapeutic
   direction is agonism/restoration of a sparsely tooled receptor.

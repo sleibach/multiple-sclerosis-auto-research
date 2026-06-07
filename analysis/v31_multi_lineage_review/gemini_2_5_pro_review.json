@@ -1,0 +1,91 @@
+```json
+{
+  "proposals": [
+    {
+      "short_name": "Metabolic State Confounding",
+      "why_missed": "The project's focus on APC/HLA-II biology and the explicit demotion of metabolic leads like NAMPT (per `knowledge/candidates/NAMPT.md`) may have created a blind spot, preventing consideration of metabolic state as a primary driver of the observed treatment response signal.",
+      "data_artifacts": [
+        "Expression data underlying the V22 scores for the bounded set: `GSE235357` and `GSE253006_TOF_exact`.",
+        "MSigDB Hallmark gene sets for Glycolysis and Oxidative Phosphorylation.",
+        "Gene lists from `knowledge/candidates/NAMPT.md` and related V3/V4 analyses if available."
+      ],
+      "expected_direction": "A score derived from a metabolic gene set (e.g., glycolysis or a NAMPT-correlated set) will predict treatment response in the bounded n=19 cohort with an AUC comparable to or exceeding the V22 scalar's performance.",
+      "falsification_test": "1. Generate a 'Glycolysis Score' for each sample in the bounded set using the Hallmark Glycolysis gene set. 2. Calculate the AUC of this score for predicting treatment response. 3. The proposal is supported if the Glycolysis Score AUC is ≥ 0.80, challenging the unique contribution of the APC/HLA-II module.",
+      "needs_new_data": false
+    },
+    {
+      "short_name": "STAT1 Master Axis Confounder",
+      "why_missed": "The analysis in V26 used pre-defined modules. This can obscure the fact that multiple modules (e.g., `ifn_apc`, `hla_ii_apc`) are co-regulated by a single upstream pathway, like STAT1 signaling, making the resulting 'deep structure' appear more complex than a simple measurement of IFN/STAT1 activity.",
+      "data_artifacts": [
+        "The module-level matrices from V26, specifically `treatment pharmacodynamics` and `cell-state h5ad` from `analysis/v26_deep_structure/`.",
+        "A canonical STAT1 target gene set (e.g., from MSigDB or JASPAR)."
+      ],
+      "expected_direction": "An independently-derived STAT1 activity score will be highly correlated with the 'immune-remodeling / antigen-presentation' latent axis discovered in V26.",
+      "falsification_test": "1. For each context (row) in the V26 `treatment pharmacodynamic` and `cell-state h5ad` matrices, compute a STAT1 activity score from the underlying expression data. 2. Correlate this new STAT1 score vector with the first right singular vector (the module-loading axis) from the V26 analysis. 3. The proposal is supported if the Pearson correlation is > 0.9, suggesting the 'deep structure' is largely redundant with a simple STAT1 activity measurement.",
+      "needs_new_data": false
+    },
+    {
+      "short_name": "Cell-Type Mismatch Explains Failure",
+      "why_missed": "The project's 'APC/HLA-II' framing for the V22 rule biases interpretation of its failures. The V23 finding that the UC signal is also strong in T-cells was not fully integrated into the core hypothesis, leading to vague explanations ('non-mucosal tissue') for the psoriasis/adalimumab failure instead of a more precise cell-type-mismatch hypothesis.",
+      "data_artifacts": [
+        "Expression data for `GSE85034_ADA` (psoriasis).",
+        "V23 cell-type specific results for `GSE253006_TOF` to define a T-cell specific signature."
+      ],
+      "expected_direction": "The V22 rule fails in psoriasis skin because it is an APC-centric score applied to a T-cell-driven response context. A T-cell-specific signature will successfully predict response.",
+      "falsification_test": "1. Define a 'T-cell Response Signature' using the top differentially expressed genes between responders and non-responders within the `t_cell_like` compartment of `GSE253006_TOF`. 2. Apply this signature as a score to the bulk skin samples in `GSE85034_ADA`. 3. The proposal is supported if this new T-cell score achieves a significantly higher AUC than the original V22 score's AUC of 0.511 in the psoriasis cohort.",
+      "needs_new_data": false
+    },
+    {
+      "short_name": "Cell-Type-Specific Antagonistic eQTL",
+      "why_missed": "Analyses of the chr1 locus have focused on single tissues (GTEx blood in V16) or single cell types (monocytes in V19), leading to a confusing GPR25-vs-KIF21B debate. The possibility that a single variant has opposite effects on the two genes in different, relevant immune cell types has not been systematically tested.",
+      "data_artifacts": [
+        "V17 shared credible-set variant list for chr1.",
+        "DICE significant eQTL summary statistics mentioned in V21.",
+        "Allele-aligned sumstats for `GPR25` and `KIF21B` from V16 and V19."
+      ],
+      "expected_direction": "The causal variant at the chr1 locus will exhibit antagonistic or distinct cell-type-specific eQTL effects on GPR25 and KIF21B across a panel of immune cells.",
+      "falsification_test": "1. Identify the lead shared credible set SNP from V17. 2. Using the locally available DICE eQTL data, extract the effect size (Z-score or beta) of this SNP on both `GPR25` and `KIF21B` expression across all available cell types (monocytes, T-cells, B-cells, etc.). 3. The proposal is supported if the effect on the two genes is significantly anti-correlated across cell types, or if one gene's eQTL is restricted to T-cells while the other's is restricted to monocytes.",
+      "needs_new_data": false
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "claim": "The V22 rule's predictive power is specific to 'immune-remodeling / JAK-STAT' mechanisms (V23).",
+      "weakness": "This 'mechanism boundary' is a post-hoc explanation for failed replications. The two 'passing' cohorts (DMF, Tofacitinib) might share a simple confounder, such as a higher baseline inflammatory load that is not present in the 'failing' cohorts. The V22 score may just be a proxy for this generic inflammation.",
+      "concrete_test": "1. Create a generic 'Inflammatory Response Score' using the MSigDB Hallmark Inflammatory Response gene set. 2. Score all samples in the bounded set (n=19 from `GSE235357` and `GSE253006_TOF_exact`). 3. Calculate the AUC for this generic score in predicting treatment response.",
+      "data_artifacts": [
+        "Expression data for the bounded set (`GSE235357`, `GSE253006_TOF_exact`)."
+      ],
+      "falsifies_if": "The generic inflammatory score achieves an AUC comparable to or greater than the V22 scalar's AUC of 0.811. This would indicate the V22 score's 'mechanism specificity' is low and it is primarily tracking general inflammation."
+    },
+    {
+      "claim": "The bounded V22 scalar signal is statistically tool-robust, surviving jackknife and cohort-adjustment tests (V28).",
+      "weakness": "Robustness tests on a pooled n=19 dataset are themselves not robust. Jackknife (leave-one-out) is a weak validation for such a small N. The signal may be an artifact of pooling two distinct cohorts rather than a generalizable finding.",
+      "concrete_test": "Perform a leave-one-cohort-out cross-validation. 1. Train a simple model (e.g., logistic regression on the V22 score) using only `GSE235357` (MS DMF) data and test its AUC on `GSE253006_TOF_exact` (UC Tofacitinib). 2. Reverse the process: train on UC and test on MS.",
+      "data_artifacts": [
+        "V22 scores and response labels for `GSE235357` and `GSE253006_TOF_exact`."
+      ],
+      "falsifies_if": "The AUC in either cross-cohort prediction drops substantially below the pooled AUC of 0.811 (e.g., to < 0.65). This would demonstrate that the model does not generalize across cohorts and the pooled result is misleading."
+    },
+    {
+      "claim": "A recurrent 'immune-remodeling / antigen-presentation module axis' links cross-disease cell-state differences and treatment pharmacodynamics (V26).",
+      "weakness": "The methodology used (z-scoring rows before SVD) can induce artificial correlations between the columns (modules), potentially creating the appearance of a shared 'axis' that is a mathematical artifact rather than a biological reality.",
+      "concrete_test": "Re-run the V26 analysis, but change the normalization. Instead of z-scoring rows, either use no normalization or apply a column-wise normalization (e.g., quantile normalization across modules) before computing the singular vectors and their cosine similarity.",
+      "data_artifacts": [
+        "The raw module-level matrices input to the V26 analysis, as listed in `docs/findings/DEEP_STRUCTURE_V26.md`."
+      ],
+      "falsifies_if": "The cosine similarity between the first right singular vectors of the `treatment pharmacodynamic` and `cell-state h5ad` matrices drops below the significance threshold (BH q > 0.05) after changing the normalization scheme. This would suggest the 'deep structure' is an artifact of the original data processing."
+    },
+    {
+      "claim": "The chr1 MS-UC causal signal most likely maps to KIF21B or GPR25 via an eQTL mechanism (V15, V19).",
+      "weakness": "The focus on eQTLs ignores other potential regulatory mechanisms. The V19 report notes a >17kb distance between the top eQTL and the credible set, which is large enough to warrant suspicion. The causal variant could act via a splicing QTL (sQTL) instead of an expression QTL.",
+      "concrete_test": "Perform colocalization analysis between the V14 MS/UC GWAS summary statistics for the chr1 locus and splicing QTL (sQTL) summary statistics for genes in the region (`KIF21B`, `GPR25`, etc.) from a public resource like GTEx v8.",
+      "data_artifacts": [
+        "V14 MS/UC chr1 disease summary statistics.",
+        "GTEx v8 sQTL summary statistics for the chr1 locus."
+      ],
+      "falsifies_if": "A significant colocalization (e.g., `coloc` PP.H4 > 0.8) is found between the disease signal and an sQTL for a gene in the locus. If this posterior probability is higher than the eQTL colocalization probability, it would shift the likely mechanism from expression to splicing."
+    }
+  ]
+}
+```

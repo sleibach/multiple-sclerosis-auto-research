@@ -1,0 +1,5 @@
+test	cohort	n	auc	train	test_cohort	threshold	n_test	accuracy	test_auc
+within_cohort_auc	GSE235357	10.0	0.72						
+within_cohort_auc	GSE253006_TOF_exact	9.0	0.95						
+median_threshold_transfer				GSE235357	GSE253006_TOF_exact	0.5061832527792612	9.0	0.6666666666666666	0.95
+median_threshold_transfer				GSE253006_TOF_exact	GSE235357	0.0791238424892715	10.0	0.6	0.72

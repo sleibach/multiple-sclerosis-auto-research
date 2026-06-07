@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Minimal SAP AI Core foundation-model client for V30.
+"""Minimal SAP AI Core foundation-model/orchestration client.
 
 Credentials are read from SAP_AI_CORE_API_KEY in .env/environment. The value is
 expected to be an SAP service-key JSON object or a base64-encoded JSON object.
@@ -160,6 +160,23 @@ def find_deployment(resources: list[dict[str, Any]], model_query: str) -> dict[s
     raise SapAiCoreError(f"No deployment found for model query: {model_query}")
 
 
+def find_orchestration_deployment(resources: list[dict[str, Any]]) -> dict[str, str]:
+    for item in resources:
+        if (
+            item.get("scenarioId") == "orchestration"
+            and item.get("configurationName") == "defaultOrchestrationConfig"
+        ):
+            return {
+                "id": item.get("id", ""),
+                "name": "defaultOrchestrationConfig",
+                "version": "",
+                "status": item.get("status", ""),
+                "deploymentUrl": item.get("deploymentUrl", "")
+                or item.get("deployment_url", ""),
+            }
+    raise SapAiCoreError("No RUNNING defaultOrchestrationConfig deployment found")
+
+
 def gemini_generate(
     deployment: dict[str, str],
     token: str,
@@ -204,6 +221,39 @@ def chat_completions_generate(
         raise SapAiCoreError(f"Unexpected chat-completions response schema: {payload}") from exc
 
 
+def orchestration_generate(
+    orchestration_deployment: dict[str, str],
+    model_deployment: dict[str, str],
+    token: str,
+    resource_group: str,
+    prompt: str,
+    timeout: int,
+    max_output_tokens: int,
+) -> str:
+    url = orchestration_deployment["deploymentUrl"].rstrip("/") + "/completion"
+    body = {
+        "orchestration_config": {
+            "module_configurations": {
+                "templating_module_config": {
+                    "template": [{"role": "user", "content": "{{?prompt}}"}],
+                    "defaults": {},
+                },
+                "llm_module_config": {
+                    "model_name": model_deployment["name"],
+                    "model_version": model_deployment["version"] or "1",
+                    "model_params": {"max_tokens": max_output_tokens},
+                },
+            }
+        },
+        "input_params": {"prompt": prompt},
+    }
+    _, payload = request_json(url, token, resource_group, "POST", body, timeout)
+    try:
+        return payload["orchestration_result"]["choices"][0]["message"]["content"]
+    except Exception as exc:
+        raise SapAiCoreError(f"Unexpected orchestration response schema: {payload}") from exc
+
+
 def generate(
     deployment: dict[str, str],
     token: str,
@@ -211,6 +261,7 @@ def generate(
     prompt: str,
     timeout: int,
     max_output_tokens: int,
+    orchestration_deployment: dict[str, str] | None = None,
 ) -> str:
     name = deployment["name"]
     if name.startswith("gemini"):
@@ -222,10 +273,18 @@ def generate(
             deployment, token, resource_group, prompt, timeout, max_output_tokens
         )
     if name.startswith("anthropic"):
-        raise SapAiCoreError(
-            "Anthropic deployment discovered, but no allowed native subpath was "
-            "identified in V30 probes. Tested /completion, /chat/completions, "
-            "/messages, /v1/messages, root, and model/invoke variants."
+        if orchestration_deployment is None:
+            raise SapAiCoreError(
+                "Anthropic models require the SAP AI Core orchestration deployment"
+            )
+        return orchestration_generate(
+            orchestration_deployment,
+            deployment,
+            token,
+            resource_group,
+            prompt,
+            timeout,
+            max_output_tokens,
         )
     raise SapAiCoreError(f"No implemented request schema for model: {name}")
 
@@ -266,6 +325,11 @@ def cmd_smoke(args: argparse.Namespace) -> int:
     token, expires = oauth_token(cred)
     resources = deployments(cred, token, args.resource_group)
     deployment = find_deployment(resources, args.model)
+    orchestration_deployment = (
+        find_orchestration_deployment(resources)
+        if deployment["name"].startswith("anthropic")
+        else None
+    )
     started = time.time()
     text = generate(
         deployment,
@@ -274,6 +338,7 @@ def cmd_smoke(args: argparse.Namespace) -> int:
         "Reply with exactly OK.",
         args.timeout,
         args.max_output_tokens,
+        orchestration_deployment,
     )
     elapsed = time.time() - started
     print("oauth: ok; expires_in:", expires)
@@ -288,6 +353,11 @@ def cmd_prompt(args: argparse.Namespace) -> int:
     token, _ = oauth_token(cred)
     resources = deployments(cred, token, args.resource_group)
     deployment = find_deployment(resources, args.model)
+    orchestration_deployment = (
+        find_orchestration_deployment(resources)
+        if deployment["name"].startswith("anthropic")
+        else None
+    )
     prompt = args.prompt
     if args.prompt_file:
         prompt = pathlib.Path(args.prompt_file).read_text()
@@ -298,6 +368,7 @@ def cmd_prompt(args: argparse.Namespace) -> int:
         prompt,
         args.timeout,
         args.max_output_tokens,
+        orchestration_deployment,
     )
     if args.output:
         pathlib.Path(args.output).parent.mkdir(parents=True, exist_ok=True)

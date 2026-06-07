@@ -46,10 +46,15 @@ V11 introduced the resume backbone for short-session continuity.
   HLA-II/CD64 APC-axis split is the best reactivated biology lead, and
   MIF/CD74 is retained as coupled-APC context rather than a standalone target.
   V30 established partial SAP AI Core access: service-key auth and deployment
-  listing work, Gemini inference smoke tests pass, but Claude is blocked by
-  unresolved allowed-subpath/schema and Mistral times out. A Gemini-only review
-  produced grounded queue items but no lead upgrade; multi-lineage review
-  remains queued until a second non-OpenAI lineage smoke-passes.
+  listing work, Gemini inference smoke tests pass, but Claude was blocked by
+  unresolved allowed-subpath/schema and Mistral timed out. V31 resolved Claude
+  through the SAP AI Core Orchestration deployment
+  `defaultOrchestrationConfig`, so Claude 4.7 Opus and Gemini 2.5 Pro both
+  smoke-pass. Multi-lineage review ran and sharpened the next negative-control
+  analyses, but did not upgrade any lead. The strongest next computational
+  action is a raw-expression confounder panel for the V22/V23 cohorts:
+  baseline APC/HLA-II, metabolic/inflammatory, glucocorticoid/IFN-suppression,
+  STAT1, proliferation, and cell-composition controls.
 - Current genetics/data focus: the chr1 MS-UC causal-gene question is
   computationally resolved for now and handed forward as real shared genetics,
   not an intervention-grade target. V20 widened back out to a ranked

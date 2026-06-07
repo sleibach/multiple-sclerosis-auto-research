@@ -160,3 +160,81 @@ SAP AI Core access is partially established:
 V30 can run a single-lineage Gemini independent-lens proposal pass, but it cannot
 honestly claim completed multi-lineage triangulation until at least one of
 Claude, Mistral, Sonar, or another non-Gemini deployment smoke-passes.
+
+## V31 Orchestration Update
+
+V31 resolved the Claude blocker. Anthropic models are reached through the SAP AI
+Core Orchestration deployment, not through the Claude foundation-model
+deployment URL directly.
+
+Orchestration deployment:
+
+| Scenario | Configuration | Deployment ID | Status |
+|---|---|---|---|
+| `orchestration` | `defaultOrchestrationConfig` | `d65236404bbfb6b2` | `RUNNING` |
+
+Working Claude model deployment:
+
+| Model | Version | Deployment ID | Status |
+|---|---:|---|---|
+| `anthropic--claude-4.7-opus` | `1` | `def854013c7ac379` | `RUNNING` |
+
+Working REST contract:
+
+- URL:
+  `$AI_API_URL/v2/inference/deployments/d65236404bbfb6b2/completion`
+- method: `POST`
+- headers:
+  - `Authorization: Bearer <token>`
+  - `AI-Resource-Group: default`
+  - `Content-Type: application/json`
+- body shape:
+
+```json
+{
+  "orchestration_config": {
+    "module_configurations": {
+      "templating_module_config": {
+        "template": [
+          {
+            "role": "user",
+            "content": "{{?prompt}}"
+          }
+        ],
+        "defaults": {}
+      },
+      "llm_module_config": {
+        "model_name": "anthropic--claude-4.7-opus",
+        "model_version": "1",
+        "model_params": {
+          "max_tokens": 64
+        }
+      }
+    }
+  },
+  "input_params": {
+    "prompt": "Reply with exactly OK."
+  }
+}
+```
+
+Important Claude parameter detail:
+
+- `temperature` must be omitted for `anthropic--claude-4.7-opus`; the service
+  returns HTTP 400 with `LLM Module: temperature is deprecated for this model`
+  if it is included.
+
+Smoke tests from the committed client:
+
+- `python3 scripts/sap_ai_core_client.py smoke --model anthropic--claude-4.7-opus`
+  passed: response `OK`, elapsed `0.81s`.
+- `python3 scripts/sap_ai_core_client.py smoke --model gemini-2.5-pro` passed:
+  response `OK`, elapsed `1.57s`.
+- `mistralai--mistral-medium-instruct` remained non-blocking: corrected
+  `/chat/completions` request timed out again.
+
+V31 access verdict:
+
+- two non-OpenAI lineages are now working: Claude via Orchestration and Gemini
+  via native Gemini endpoint.
+- multi-lineage review can run.

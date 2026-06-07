@@ -558,3 +558,40 @@ Next session first action:
 - Multi-lineage review added value beyond agent analysis: not yet established,
   because only Gemini smoke-passed; Gemini did add concrete queue items but no
   grounded lead upgrade.
+## RUN SUMMARY - V31 Claude Orchestration and Multi-Lineage Review
+
+- Active runtime: approximately 35 minutes active; total elapsed approximately
+  35 minutes (no usage-limit waiting).
+- Session start timestamp (UTC): 2026-06-07 00:36:00 UTC (estimated).
+- Session end timestamp (UTC): 2026-06-07 01:11:00 UTC.
+- Frontier advanced: Claude 4.7 Opus was made reachable through SAP AI Core
+  Orchestration, Claude + Gemini review ran, and fast local groundings were
+  completed for cross-cohort transfer, chr1 DICE eQTL evidence, and V26
+  module-overlap risk.
+- Stop reason: completed available V31 work with larger raw-expression
+  confounder panel queued for the next session.
+- Next action: run the V32 raw-expression confounder panel on V22/V23 cohorts:
+  baseline APC/HLA-II, metabolic/glycolysis/OXPHOS, inflammatory,
+  glucocorticoid, IFN-suppression, STAT1, proliferation, and cell-composition
+  scores compared against the locked scalar.
+- SAP AI Core access status: Claude via Orchestration yes; Claude 4.7 Opus
+  smoke-passed using orchestration deployment `d65236404bbfb6b2` and model
+  deployment `def854013c7ac379`; Gemini 2.5 Pro smoke-passed; Mistral remained
+  discoverable but timed out.
+- Model spend: SAP AI Core usage only; no separate paid service spend observed
+  or estimated in-repo.
+- Multi-model proposals grounded: Claude/Gemini proposals were consolidated.
+  Metabolic/STAT1/baseline/composition/steroid-signature items are queued for
+  raw-expression scoring; chr1 DICE antagonistic GPR25/KIF21B eQTL proposal
+  mostly failed locally; V22 threshold transfer vulnerability partially held.
+- Model-raised vulnerabilities tested: V22 bounded scalar is directionally
+  positive in both bounded cohorts but fixed threshold transfer is weak
+  (`0.667` and `0.600` accuracy); V26 axis has a real module-overlap
+  vulnerability; chr1 DICE significant eQTL hits are DDX59-dominated, not a
+  clean GPR25/KIF21B model.
+- V30 queued analyses completed: steroid-pulse mimic remains blocked on data
+  scout; metabolic confounding moved to top V32 raw-expression queue; KIF21B
+  trans/pathway remains data-limited.
+- Multi-lineage review added value: yes, by converging on a concrete
+  confounder-audit panel and sharpening V26/chr1 vulnerabilities; no lead was
+  upgraded and no model output was treated as evidence.

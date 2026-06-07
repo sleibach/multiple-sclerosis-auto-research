@@ -1,6 +1,6 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-06-07 02:51 CEST
+Last updated: 2026-06-07 03:15 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
@@ -26,6 +26,27 @@ First V30 continuation action:
 2. Re-run `meta/INDEPENDENT_REVIEW_QUEUE_V29.md` across working lineages.
 3. Ground de-duplicated model proposals on local data before promoting any
    finding.
+
+V31 update:
+
+- Claude 4.7 Opus now smoke-passes through SAP AI Core Orchestration using
+  `defaultOrchestrationConfig` deployment `d65236404bbfb6b2`.
+- Gemini 2.5 Pro continues to smoke-pass through native Gemini endpoint.
+- Claude + Gemini review completed and is documented in
+  `docs/history/LEAD_INVENTORY_V31.md`.
+- Mistral remains optional: discoverable but timed out.
+- No lead was upgraded.
+
+First V31 continuation action:
+
+1. Run the raw-expression confounder panel prioritized by multi-lineage review:
+   baseline APC/HLA-II, metabolic/glycolysis/OXPHOS, generic inflammatory,
+   glucocorticoid, IFN-suppression, STAT1, proliferation, and cell-composition
+   scores on the V22/V23 treatment-response cohorts.
+2. Compare each score against the locked scalar by AUC, cohort-adjusted model,
+   and residualization where possible.
+3. Keep `LOCKED_RULE_V22.md` immutable; this is a confounder audit, not rule
+   tuning.
 
 No unresolved supported V12 cells remain. V14 has added a first-pass locus
 landscape and prior-sensitivity layer over the V13 OpenGWAS coloc results.
