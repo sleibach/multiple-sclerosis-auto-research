@@ -91,11 +91,26 @@
 ### Iteration 6
 
 - Start UTC: 2026-06-07T18:41:15Z
-- Status: in_progress
+- End UTC: 2026-06-07T18:42:32Z
+- Status: completed
 - Item selected: Remaining V35 shortlist deepening.
 - Note: Revisit metabolic/sterol, lysosomal, complement/lipid, and EBV/IFN
   after RPT and generation outputs; identify any executable heavier analysis or
   confirm blocked/null status.
+- Result: No upgrades. Metabolic/sterol remains context-supported but not
+  intervention-grade; lysosomal APC remains perturbation-coupled but not a
+  proven bottleneck; complement/lipid remains donor-aware downgraded; EBV/IFN
+  and generated rare-B-cell variants require EBV-stratified B-cell/APC data;
+  neuropeptide B-cell and Treg-senescence variants lack required held metadata.
+
+### Iteration 7
+
+- Start UTC: 2026-06-07T18:42:32Z
+- Status: in_progress
+- Item selected: Deep multi-pass cross-examination of top grounded hypotheses.
+- Note: Use Claude and Gemini with higher budget to attack the refined T/B
+  gate and postpartum acquisition lead; ground concrete criticisms where held
+  data allows.
 
 ## Backlog
 
@@ -106,8 +121,8 @@
 | 3 | Expansive tri-source generation round | done | 16 model hypotheses consolidated; first executable subset grounded with no upgrades. |
 | 4 | T/B compartment remodeling gate artifact audit | done | Survives simple count/fraction residualization, but T-cell component attenuates; B/plasma is more robust. |
 | 5 | Postpartum APC-arm imbalance MS-specificity | done | Pregnancy-phase MS movement grounded; postpartum relapse-window test blocked by missing data. |
-| 6 | Metabolic/sterol, lysosomal, complement/lipid, EBV/IFN deepening | in_progress | Continue strict grounding of remaining V35 shortlist. |
-| 7 | Deep multi-pass cross-examination | todo | Claude/Gemini adversarial rounds for top grounded hypotheses; ground concrete proposals. |
+| 6 | Metabolic/sterol, lysosomal, complement/lipid, EBV/IFN deepening | done | No upgrades; generated variants remain blocked/proposal-only without new data. |
+| 7 | Deep multi-pass cross-examination | in_progress | Claude/Gemini adversarial rounds for top grounded hypotheses; ground concrete proposals. |
 | 8 | Heavier analyses now affordable | todo | Larger permutation/module scans or pooled tests where executable. |
 
 ## Timing Rule

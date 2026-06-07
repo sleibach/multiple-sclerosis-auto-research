@@ -185,3 +185,30 @@ Still high-priority for acquisition, not a finding. The exact next dataset and
 pass/kill criteria are recorded in
 `analysis/v36_postpartum_ms_specificity/summary.md` and
 `meta/V35_BLOCKED_DATA_REQUESTS.md`.
+
+## Iteration 6: Remaining Shortlist Deepening
+
+Status: **completed / no upgrades**.
+
+Executable artifact:
+
+- Summary: `analysis/v36_remaining_shortlist_deepening/summary.md`
+
+Result:
+
+- Metabolic/sterol remains context-supported, not intervention-grade.
+- Lysosomal APC remains a strong perturbation coupling but not a proven
+  antigen-processing bottleneck.
+- Complement/lipid remains downgraded unless new donor-aware lesion-rim/TLS
+  spatial lipid/complement data appear.
+- EBV/IFN APC remains closed for current data; the rare-B-cell version generated
+  in V36 still requires EBV-stratified MS/SLE B-cell/APC data.
+- Neuropeptide B-cell and Treg-senescence variants have marker coverage in some
+  artifacts but lack the necessary patient-level metadata and assay structure.
+
+Interpretation:
+
+Expanded generation created plausible biological variants, but none cleared the
+strict held-data gate. The only V36 lead that strengthened materially remains
+the T/B compartment remodeling gate, now narrowed toward B/plasma-like
+remodeling with a T-cell composition caveat.
