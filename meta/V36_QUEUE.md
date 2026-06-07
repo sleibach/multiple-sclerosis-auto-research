@@ -760,11 +760,24 @@
 
 ### Iteration 52
 
+- Start UTC: 2026-06-07T20:17:28Z
+- End UTC: 2026-06-07T20:18:06Z
+- Status: completed
+- Item selected: Continue autonomous V36 block with next executable
+  self-generated item.
+- Note: Write a concise V36 block synthesis artifact for medical-team and next
+  session use.
+- Result: Wrote `docs/history/V36_BLOCK_SYNTHESIS.md`, summarizing the final
+  V36 verdict, what changed, current best action, do-not-do list, and key
+  artifacts.
+
+### Iteration 53
+
 - Start UTC: pending
 - Status: todo
 - Item selected: Continue autonomous V36 block with next executable
   self-generated item.
-- Note: Block runtime remains below 120 minutes after Iteration 51.
+- Note: Block runtime remains below 120 minutes after Iteration 52.
 
 ## Backlog
 
