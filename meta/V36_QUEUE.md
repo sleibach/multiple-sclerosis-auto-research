@@ -673,11 +673,25 @@
 
 ### Iteration 46
 
+- Start UTC: 2026-06-07T20:06:33Z
+- End UTC: 2026-06-07T20:08:00Z
+- Status: completed
+- Item selected: Continue autonomous V36 block with next executable
+  self-generated item.
+- Note: Test whether the IFN-beta HLA-II branch in `GSE24427` is baseline
+  stratification, dynamic monitoring, or both.
+- Result: `GSE24427` supports dynamic month-1 HLA-II/CD74 induction rather than
+  baseline HLA-II stratification. Month-1 `delta_hla_ii` AUC `0.750`,
+  permutation p `0.0195`; month-1 `delta_cd74` AUC `0.722`, permutation p
+  `0.0359`; baseline HLA-II AUC `0.361`, permutation p `0.875`.
+
+### Iteration 47
+
 - Start UTC: pending
 - Status: todo
 - Item selected: Continue autonomous V36 block with next executable
   self-generated item.
-- Note: Block runtime remains below 120 minutes after Iteration 45.
+- Note: Block runtime remains below 120 minutes after Iteration 46.
 
 ## Backlog
 

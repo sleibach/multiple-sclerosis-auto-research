@@ -1510,3 +1510,36 @@ Interpretation:
 
 This converts the V36 branch-map and power analyses into validation guardrails.
 It does not edit the locked rule or create a successor rule.
+
+## Iteration 46: IFN-beta Baseline-vs-Dynamic Audit
+
+Status: **completed / GSE24427 supports dynamic HLA-II monitoring**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_ifnb_baseline_vs_dynamic.py`
+- Output: `analysis/v36_ifnb_baseline_vs_dynamic/summary.md`
+- Table: `analysis/v36_ifnb_baseline_vs_dynamic/gse24427_baseline_vs_dynamic.tsv`
+
+Question:
+
+In `GSE24427`, is the IFN-beta HLA-II branch a baseline competence stratifier,
+a dynamic month-1 monitoring readout, or both?
+
+Grounding:
+
+| Feature | n | AUC high-score relapse-free | Permutation p | Hedges g |
+|---|---:|---:|---:|---:|
+| month-1 `delta_hla_ii` | `25` | `0.750` | `0.0195` | `1.009` |
+| month-1 `delta_cd74` | `25` | `0.722` | `0.0359` | `0.928` |
+| month-1 `delta_ifn_apc` | `25` | `0.632` | `0.151` | `-0.022` |
+| month-1 locked-style score | `25` | `0.576` | `0.280` | `0.393` |
+| baseline HLA-II | `25` | `0.361` | `0.875` | `-0.409` |
+
+Interpretation:
+
+`GSE24427` supports a dynamic month-1 HLA-II/CD74 induction readout, not a
+baseline HLA-II stratifier. This complements `GSE138064`, where baseline HLA-II
+competence was strong. The IFN-beta branch may contain both baseline competence
+and early induction depending on cohort design and timing; future IFN-beta
+validation should report both rather than collapsing them.

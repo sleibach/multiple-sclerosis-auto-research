@@ -1,0 +1,56 @@
+{
+  "interpretation": "Month-1 HLA-II/CD74 dynamics outperform baseline HLA-II in this cohort, supporting monitoring context for GSE24427.",
+  "question": "In GSE24427 IFN-beta, is response signal baseline HLA-II competence or month-1 dynamic induction?",
+  "top_features": [
+    {
+      "auc_high_score_relapse_free": 0.75,
+      "feature": "month1_delta_hla_ii",
+      "hedges_g_relapsefree_minus_relapsed": 1.0089237828082185,
+      "n": 25,
+      "n_relapse_free": 16,
+      "n_relapsed": 9,
+      "permutation_p": 0.019519609607807843,
+      "welch_p": 0.022387938191276928
+    },
+    {
+      "auc_high_score_relapse_free": 0.7222222222222222,
+      "feature": "month1_delta_cd74",
+      "hedges_g_relapsefree_minus_relapsed": 0.9275925226189001,
+      "n": 25,
+      "n_relapse_free": 16,
+      "n_relapsed": 9,
+      "permutation_p": 0.035939281214375715,
+      "welch_p": 0.05009620583954894
+    },
+    {
+      "auc_high_score_relapse_free": 0.6319444444444444,
+      "feature": "month1_delta_ifn_apc",
+      "hedges_g_relapsefree_minus_relapsed": -0.022231400438502427,
+      "n": 25,
+      "n_relapse_free": 16,
+      "n_relapsed": 9,
+      "permutation_p": 0.1510369792604148,
+      "welch_p": 0.9503376128401613
+    },
+    {
+      "auc_high_score_relapse_free": 0.5763888888888888,
+      "feature": "month1_locked_style",
+      "hedges_g_relapsefree_minus_relapsed": 0.39349122173894624,
+      "n": 25,
+      "n_relapse_free": 16,
+      "n_relapsed": 9,
+      "permutation_p": 0.28023439531209376,
+      "welch_p": 0.2676481575426014
+    },
+    {
+      "auc_high_score_relapse_free": 0.3611111111111111,
+      "feature": "baseline__hla_ii_without_cd74",
+      "hedges_g_relapsefree_minus_relapsed": -0.40937655807200296,
+      "n": 25,
+      "n_relapse_free": 16,
+      "n_relapsed": 9,
+      "permutation_p": 0.875422491550169,
+      "welch_p": 0.3026482329504243
+    }
+  ]
+}
