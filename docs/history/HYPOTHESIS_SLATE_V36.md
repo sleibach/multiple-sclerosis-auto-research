@@ -1248,3 +1248,43 @@ HLA-II and receptor deltas do not concord, and the entire result is still one
 small cohort. Therefore this does not promote a T/B mechanism; it only preserves
 the narrower wording that the broad IFN/APC/STAT1 monitoring state is readable
 in both T-like and B/plasma-like compartments.
+
+## Iteration 39: MS IFN-beta Longitudinal Timing Audit
+
+Status: **completed / therapy-specific HLA-II timing context**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_ms_ifnb_longitudinal_audit.py`
+- Output: `analysis/v36_ms_ifnb_longitudinal_audit/summary.md`
+- Test table:
+  `analysis/v36_ms_ifnb_longitudinal_audit/gse24427_ifnb_timepoint_tests.tsv`
+
+Question:
+
+Use the held `GSE24427` MS IFN-beta longitudinal artifact to ask whether the
+locked-style APC/HLA-II dynamic score behaves as an early monitoring signal for
+2-year relapse-free status across second-injection, month-1, and month-24
+timepoints.
+
+Grounding:
+
+| Timepoint | Feature | n | AUC high-score relapse-free | Permutation p | Hedges g |
+|---|---|---:|---:|---:|---:|
+| second injection | locked-style score | `25` | `0.333` | `0.916` | `-0.417` |
+| second injection | `delta__ifn_apc` | `25` | `0.715` | `0.0421` | `0.336` |
+| month 1 | locked-style score | `25` | `0.576` | `0.280` | `0.393` |
+| month 1 | `delta__hla_ii_without_cd74` | `25` | `0.750` | `0.0201` | `1.009` |
+| month 1 | `delta__cd74_alone` | `25` | `0.722` | `0.0370` | `0.928` |
+| month 24 | locked-style score | `25` | `0.604` | `0.210` | `0.172` |
+
+Interpretation:
+
+This does not validate the locked V22/V23 combined rule in the older IFN-beta
+cohort. Instead it supports the older V6/V7 therapy-specific framing: IFN-beta
+response biology is more consistent with HLA-II/CD74 competence or induction,
+especially by month 1, rather than the broad IFN/APC downshift seen in
+tofacitinib/immune-remodeling settings. This is useful context for the
+validation harness: future cohorts should report therapy-class branches and
+should not force a single scalar interpretation across IFN-beta, JAK/immune
+remodeling, lymphocyte trafficking, and skin MTX/ADA contexts.

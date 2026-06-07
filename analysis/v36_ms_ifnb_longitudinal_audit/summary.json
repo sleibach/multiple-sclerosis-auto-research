@@ -1,0 +1,104 @@
+{
+  "best_features": [
+    {
+      "auc_high_score_relapse_free": 0.75,
+      "auc_permutation_p": 0.020079598408031838,
+      "feature": "delta__hla_ii_without_cd74",
+      "hedges_g_relapsefree_minus_relapsed": 1.0089237828082183,
+      "n": 25,
+      "n_relapse_free": 16,
+      "n_relapsed": 9,
+      "permutation_mode": "monte_carlo_50000",
+      "timepoint": "month_1",
+      "welch_p": 0.02238793819127696
+    },
+    {
+      "auc_high_score_relapse_free": 0.7222222222222222,
+      "auc_permutation_p": 0.036959260814783707,
+      "feature": "delta__cd74_alone",
+      "hedges_g_relapsefree_minus_relapsed": 0.9275925226189004,
+      "n": 25,
+      "n_relapse_free": 16,
+      "n_relapsed": 9,
+      "permutation_mode": "monte_carlo_50000",
+      "timepoint": "month_1",
+      "welch_p": 0.05009620583954894
+    },
+    {
+      "auc_high_score_relapse_free": 0.7152777777777778,
+      "auc_permutation_p": 0.042059158816823664,
+      "feature": "delta__ifn_apc",
+      "hedges_g_relapsefree_minus_relapsed": 0.33620000689429475,
+      "n": 25,
+      "n_relapse_free": 16,
+      "n_relapsed": 9,
+      "permutation_mode": "monte_carlo_50000",
+      "timepoint": "second_injection",
+      "welch_p": 0.3885935303942876
+    },
+    {
+      "auc_high_score_relapse_free": 0.6736111111111112,
+      "auc_permutation_p": 0.08519829603407932,
+      "feature": "delta__cd74_alone",
+      "hedges_g_relapsefree_minus_relapsed": 0.2491004062495068,
+      "n": 25,
+      "n_relapse_free": 16,
+      "n_relapsed": 9,
+      "permutation_mode": "monte_carlo_50000",
+      "timepoint": "second_injection",
+      "welch_p": 0.5174640095513847
+    },
+    {
+      "auc_high_score_relapse_free": 0.6319444444444444,
+      "auc_permutation_p": 0.1491370172596548,
+      "feature": "delta__cd74_alone",
+      "hedges_g_relapsefree_minus_relapsed": 0.3498405281153538,
+      "n": 25,
+      "n_relapse_free": 16,
+      "n_relapsed": 9,
+      "permutation_mode": "monte_carlo_50000",
+      "timepoint": "month_24",
+      "welch_p": 0.3905987812671272
+    },
+    {
+      "auc_high_score_relapse_free": 0.6319444444444444,
+      "auc_permutation_p": 0.15127697446051078,
+      "feature": "delta__ifn_apc",
+      "hedges_g_relapsefree_minus_relapsed": -0.022231400438502597,
+      "n": 25,
+      "n_relapse_free": 16,
+      "n_relapsed": 9,
+      "permutation_mode": "monte_carlo_50000",
+      "timepoint": "month_1",
+      "welch_p": 0.9503376128401608
+    },
+    {
+      "auc_high_score_relapse_free": 0.6319444444444444,
+      "auc_permutation_p": 0.15201695966080678,
+      "feature": "delta__hla_ii_without_cd74",
+      "hedges_g_relapsefree_minus_relapsed": 0.11398587872985157,
+      "n": 25,
+      "n_relapse_free": 16,
+      "n_relapsed": 9,
+      "permutation_mode": "monte_carlo_50000",
+      "timepoint": "second_injection",
+      "welch_p": 0.7705661395904495
+    },
+    {
+      "auc_high_score_relapse_free": 0.6111111111111112,
+      "auc_permutation_p": 0.19263614727705447,
+      "feature": "negative_delta_ifn_apc",
+      "hedges_g_relapsefree_minus_relapsed": 0.12091307955929136,
+      "n": 25,
+      "n_relapse_free": 16,
+      "n_relapsed": 9,
+      "permutation_mode": "monte_carlo_50000",
+      "timepoint": "month_24",
+      "welch_p": 0.7382634882684063
+    }
+  ],
+  "cohort": "GSE24427_MS_IFNB",
+  "interpretation": "Exploratory longitudinal stress test; no rule change without fresh validation.",
+  "n_tests": 18,
+  "question": "Does a locked-style APC/HLA-II dynamic score act as early monitoring for relapse-free status?"
+}

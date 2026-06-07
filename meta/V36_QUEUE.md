@@ -564,11 +564,28 @@
 
 ### Iteration 39
 
+- Start UTC: 2026-06-07T19:51:17Z
+- End UTC: 2026-06-07T19:53:23Z
+- Status: completed
+- Item selected: Continue autonomous V36 block with next executable
+  self-generated item.
+- Note: Use held MS IFN-beta longitudinal artifacts to test whether the
+  locked-style dynamic APC/HLA-II score behaves as an early monitoring signal
+  across second-injection, month-1, and month-24 timepoints.
+- Result: The locked-style combined score did not validate in `GSE24427`
+  (`month_1 AUC = 0.576`, permutation p `0.280`). A therapy-specific month-1
+  HLA-II/CD74 induction signal did appear (`delta__hla_ii_without_cd74 AUC =
+  0.750`, permutation p `0.0201`; `delta__cd74_alone AUC = 0.722`,
+  permutation p `0.0370`). This supports the V6/V7 therapy-branch framing, not
+  a universal scalar rule.
+
+### Iteration 40
+
 - Start UTC: pending
 - Status: todo
 - Item selected: Continue autonomous V36 block with next executable
   self-generated item.
-- Note: Block runtime remains below 120 minutes after Iteration 38.
+- Note: Block runtime remains below 120 minutes after Iteration 39.
 
 ## Backlog
 
