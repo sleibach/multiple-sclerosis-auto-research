@@ -47,7 +47,7 @@ Minimum next test:
 | 3 | Complement/lipid progressive axis | downgraded: lipid-repair context only; complement not supported donor-aware | Acquire/compute true donor-aware lesion-rim spatial lipid/complement data before reviving |
 | 4 | Metabolic/sterol setpoint | supported as context axis, not intervention-grade | APC-resolved lipidomics plus sterol-pathway perturbation |
 | 5 | Lysosomal APC-processing bottleneck | reframed: coupled lysosomal APC axis, not proven bottleneck | Run functional lysosomal flux / HLA-peptidomics experiment |
-| 6 | MS-SLE EBV/IFN APC imprint | host EBV-module-like SLE blood signal survives IFN residualization; EBV metadata absent, so imprint causality remains unproven | Score in EBV-stratified MS/SLE B-cell/APC data or sorted immune subsets with EBV metadata |
+| 6 | MS-SLE EBV/IFN APC imprint | downgraded: host SLE blood signal exists, but EBV-specificity failed random-gene-set control | Only revive with EBV-stratified MS/SLE B-cell/APC data showing exposure/load tracking beyond random modules and IFN/APC |
 
 ## Iteration 14: Local SLE EBV-Module Scoring
 
@@ -662,3 +662,43 @@ Next test:
 - Run a random-gene-set specificity control to test whether the GSE108497 signal
   exceeds arbitrary same-size gene/probe modules.
 - Acquire EBV-stratified MS/SLE B-cell/APC data for the actual imprint claim.
+
+## Iteration 17: EBV-Module Random-Gene-Set Specificity Control
+
+Status: **EBV-specific interpretation downgraded / broad SLE host-state signal
+remains**.
+
+Executable grounding:
+
+- Script: `scripts/v35_ebv_random_geneset_control.py`
+- Outputs: `analysis/v35_ebv_random_geneset_control/`
+- Dataset: local `GSE108497` normalized blood expression, same IFN/APC
+  residualization as iteration 14/16.
+
+Result:
+
+- `93` top EBV-up genes from the GSE162516 host-transformation module were
+  present on the GSE108497 platform.
+- Observed IFN-residualized SLE-HC EBV-up delta: `9.102`.
+- Against `2,000` random same-size gene sets:
+  - null delta mean `-0.130`;
+  - null delta SD `16.442`;
+  - observed percentile `0.759`;
+  - upper-tail empirical p `0.241`;
+  - two-sided absolute empirical p `0.514`.
+
+Interpretation:
+
+The SLE blood contrast is robust to disease-label permutation, but it is not
+specific to the EBV-derived host module relative to arbitrary same-size modules
+on this platform. Therefore the MS-SLE EBV/IFN APC imprint should be
+downgraded: current held data support a broad SLE host-state signal, not an EBV
+imprint or EBV-specific APC mechanism.
+
+Next test:
+
+- Do not prioritize EBV mechanistic claims without EBV-serostatus or viral-load
+  data.
+- A valid revival requires EBV-stratified MS/SLE B-cell/APC expression where
+  the EBV-derived module tracks EBV exposure/load after IFN/APC, composition,
+  and random-module controls.

@@ -208,10 +208,25 @@ Target block end UTC: 2026-06-07T17:37:36Z
 ### Iteration 17
 
 - Start UTC: 2026-06-07T17:20:23Z
-- Status: in_progress
+- End UTC: 2026-06-07T17:21:58Z
+- Status: completed
 - Item selected: EBV-module random-gene-set specificity control.
 - Note: Test whether the GSE108497 IFN-residualized SLE signal is stronger than
   random same-size gene/probe modules, not merely a large-module artifact.
+- Result: EBV-specific interpretation downgraded. The observed IFN-residualized
+  SLE-HC EBV-up delta is `9.102`, but among `2,000` random same-size gene sets
+  its percentile is only `0.759` (upper-tail empirical p `0.241`, two-sided
+  p `0.514`). This supports a broad SLE host-state signal, not EBV-module
+  specificity.
+
+### Iteration 18
+
+- Start UTC: 2026-06-07T17:21:58Z
+- Status: in_progress
+- Item selected: Postpartum APC-arm imbalance relapse-label test in MS pregnancy data.
+- Note: Use local GSE17410/GSE17449 pregnancy-phase expression and relapse
+  metadata, if parseable, to test whether HLA-II/CD64 differs by pregnancy
+  relapse label despite absent postpartum samples.
 
 ## Backlog
 
@@ -233,7 +248,8 @@ Target block end UTC: 2026-06-07T17:37:36Z
 | 14 | Local SLE/B-cell/APC EBV-module scoring scout | done | GSE108497 supports IFN-residualized SLE host EBV-module-like blood signal; no EBV metadata, so not an EBV imprint claim. |
 | 15 | Sorted SLE immune-subset EBV-module feasibility | done | GSE10325 supports only inconclusive CD19 B directional localization after IFN residualization; no EBV metadata. |
 | 16 | EBV-module null-testing robustness | done | GSE108497 host EBV-module-like SLE signal survives timepoint-stratified label permutation; GSE10325 sorted-cell localization remains inconclusive. |
-| 17 | EBV-module random-gene-set specificity control | in_progress | Test GSE108497 EBV-up residual signal against random same-size modules. |
+| 17 | EBV-module random-gene-set specificity control | done | EBV-specific interpretation failed random same-size module control; broad SLE host-state signal remains. |
+| 18 | Postpartum APC-arm imbalance relapse-label test in MS pregnancy data | in_progress | Test pregnancy-phase HLA-II/CD64 scores by relapse label if GSE17410 metadata supports it. |
 
 ## Timing Rule
 
