@@ -47,7 +47,50 @@ Minimum next test:
 | 3 | Complement/lipid progressive axis | downgraded: lipid-repair context only; complement not supported donor-aware | Acquire/compute true donor-aware lesion-rim spatial lipid/complement data before reviving |
 | 4 | Metabolic/sterol setpoint | supported as context axis, not intervention-grade | APC-resolved lipidomics plus sterol-pathway perturbation |
 | 5 | Lysosomal APC-processing bottleneck | reframed: coupled lysosomal APC axis, not proven bottleneck | Run functional lysosomal flux / HLA-peptidomics experiment |
-| 6 | MS-SLE EBV/IFN APC imprint | host EBV module acquired and separable from IFN/APC in source; MS/SLE test still pending | Score host EBV module in MS/SLE B-cell/APC data and residualize against STAT1/IFN |
+| 6 | MS-SLE EBV/IFN APC imprint | host EBV-module-like SLE blood signal survives IFN residualization; EBV metadata absent, so imprint causality remains unproven | Score in EBV-stratified MS/SLE B-cell/APC data or sorted immune subsets with EBV metadata |
+
+## Iteration 14: Local SLE EBV-Module Scoring
+
+Status: **supported host EBV-module-like SLE blood state / not EBV imprint**.
+
+Executable grounding:
+
+- Script: `scripts/v35_ebv_module_gse108497_sle.py`
+- Outputs: `analysis/v35_ebv_module_gse108497_sle/`
+- Dataset: local `GSE108497` SLE/healthy pregnancy blood normalized matrix,
+  `512` samples.
+
+Result:
+
+- The GSE162516 host EBV-transformation module maps to GSE108497 with
+  `145` EBV-up probes and `154` EBV-down probes.
+- EBV-up score is not meaningfully correlated with the fixed IFN/APC score:
+  Spearman `rho = -0.062`, p `0.165`.
+- SLE samples have higher EBV-up scores than healthy controls at multiple
+  pregnancy/postpartum windows, including:
+  - 24-31 weeks: delta `4.295`, p `0.018`;
+  - 32-40 weeks: delta `10.582`, p `0.0029`;
+  - 8-20 weeks postpartum: delta `4.775`, p `0.0166`;
+  - <16 weeks: delta `6.162`, p `0.0027`.
+- After linear residualization against IFN/APC, SLE remains higher than healthy
+  controls across all timepoints: residual EBV-up delta `9.102`, p `4.63e-17`.
+
+Interpretation:
+
+This upgrades the EBV/IFN APC idea from "module not yet patient-tested" to a
+bounded patient-data observation: a host EBV-transformation-like module can be
+scored in SLE blood and captures a SLE-associated signal not reducible to the
+fixed IFN/APC score by simple residualization. It still does **not** establish
+an EBV imprint, because GSE108497 has no EBV serostatus, viral-load, or
+latency-expression metadata.
+
+Next test:
+
+- Localize the signal to sorted immune subsets if local SLE sorted-cell data are
+  parseable.
+- Acquire or identify EBV-stratified MS/SLE B-cell/APC expression data; reject
+  the imprint version if the module does not track EBV exposure/load after
+  IFN/APC and cell-composition adjustment.
 
 ## Iteration 4: T/B Compartment Remodeling Gate
 

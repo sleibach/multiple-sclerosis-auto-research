@@ -1,0 +1,22 @@
+{
+  "correlations": {
+    "ebv_up_vs_ifn_p": 0.1645216874810479,
+    "ebv_up_vs_ifn_spearman": -0.06164399392719923
+  },
+  "grounded_result": "scored_no_ebv_metadata_not_imprint",
+  "hypothesis": "SLE host EBV-module-like state",
+  "interpretation": "The host EBV module can be scored in local SLE/healthy pregnancy blood. Because GSE108497 lacks EBV serostatus/viral-load metadata, this tests only an EBV-module-like host transcriptional state. Any SLE difference must be interpreted after IFN/APC residualization and cannot establish EBV imprint causality.",
+  "n_down_probes": 154,
+  "n_samples": 512,
+  "n_up_probes": 145,
+  "residual_test": {
+    "contrast": "SLE_vs_HC_all_timepoints_after_linear_IFN_residualization",
+    "delta_sle_minus_hc": 9.101615563583564,
+    "mean_hc": -5.764356523602904,
+    "mean_sle": 3.33725903998066,
+    "n_hc": 187,
+    "n_sle": 323,
+    "score": "ebv_up_resid_ifn",
+    "welch_p": 4.6338687552353254e-17
+  }
+}

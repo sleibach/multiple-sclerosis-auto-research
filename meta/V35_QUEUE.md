@@ -163,10 +163,26 @@ Target block end UTC: 2026-06-07T17:37:36Z
 ### Iteration 14
 
 - Start UTC: 2026-06-07T17:10:55Z
-- Status: in_progress
+- End UTC: 2026-06-07T17:14:01Z
+- Status: completed
 - Item selected: Local SLE/B-cell/APC EBV-module scoring scout.
 - Note: Search held local data for a SLE or B-cell/APC expression dataset where
   the acquired host EBV module can be scored with IFN/APC adjustment.
+- Result: supported as a host EBV-module-like SLE blood state, not an EBV
+  imprint claim. Local GSE108497 SLE/healthy pregnancy blood supports scoring
+  the GSE162516 host EBV-transformation module (`145` EBV-up probes, `154`
+  EBV-down probes). EBV-up is not correlated with IFN/APC (`rho = -0.062`,
+  p `0.165`) and remains higher in SLE after linear IFN residualization
+  (delta `9.102`, p `4.63e-17`). The dataset lacks EBV serostatus or viral-load
+  metadata, so this cannot establish EBV causality.
+
+### Iteration 15
+
+- Start UTC: 2026-06-07T17:14:01Z
+- Status: in_progress
+- Item selected: Sorted SLE immune-subset EBV-module feasibility.
+- Note: Test whether local sorted-cell SLE data (`GSE10325` or similar) can
+  localize the host EBV-module-like signal to B-cell/APC compartments.
 
 ## Backlog
 
@@ -185,7 +201,8 @@ Target block end UTC: 2026-06-07T17:37:36Z
 | 11 | EBV-response module acquisition feasibility | done | Host EBV-transformation module acquired from GSE162516; not yet MS/SLE tested. |
 | 12 | EBV module IFN/APC separability | done | Source module separable from IFN/APC by top-gene overlap and trajectory. |
 | 13 | EBV module portability in local MS PBMC data | done | Portable to GPL571 PBMC data; no EBV-specific evidence without metadata. |
-| 14 | Local SLE/B-cell/APC EBV-module scoring scout | in_progress | Find local held SLE/B-cell/APC data suitable for module scoring. |
+| 14 | Local SLE/B-cell/APC EBV-module scoring scout | done | GSE108497 supports IFN-residualized SLE host EBV-module-like blood signal; no EBV metadata, so not an EBV imprint claim. |
+| 15 | Sorted SLE immune-subset EBV-module feasibility | in_progress | Inspect local sorted SLE immune-subset data for EBV-module/APC localization. |
 
 ## Timing Rule
 
