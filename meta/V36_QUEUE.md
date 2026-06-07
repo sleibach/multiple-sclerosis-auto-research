@@ -424,9 +424,22 @@
 ### Iteration 29
 
 - Start UTC: 2026-06-07T19:27:08Z
-- Status: in_progress
+- End UTC: 2026-06-07T19:28:30Z
+- Status: completed
 - Item selected: Validation requirement update for refactored V36 lead.
 - Note: Translate V36 caveats into concrete future-cohort/harness requirements.
+- Result: Added V36 refactored-lead addendum to
+  `docs/validation/VALIDATION_READINESS_V27.md`, preserving locked V22 primary
+  rule but requiring timing, baseline/treated/delta, STAT1, glycolysis,
+  compartment, substate, and technical-QC audits in future validation.
+
+### Iteration 30
+
+- Start UTC: 2026-06-07T19:28:30Z
+- Status: in_progress
+- Item selected: Updated RPT pass over refactored slate.
+- Note: Use tabular lens after V36 demotions to prioritize any remaining
+  untested patterns; ground output only if executable.
 
 ## Backlog
 
@@ -459,7 +472,8 @@
 | 25 | Focused two-lineage cross-exam of updated conservative lead | done | Glycolysis decoupling queued; several other issues external-data gated. |
 | 26 | Glycolysis decoupling from IFN/STAT | done | Glycolysis is coupled context, not independent mechanism; IFN/STAT primary. |
 | 27 | Technical metadata and batch-confounding feasibility check | done | Batch metadata absent; mito/QC attenuation adds validation requirement. |
-| 28 | Validation requirement update for refactored V36 lead | in_progress | Update validation requirements for future cohort/harness. |
+| 28 | Validation requirement update for refactored V36 lead | done | V36 validation-readiness addendum added. |
+| 29 | Updated RPT pass over refactored slate | in_progress | Use tabular lens after lead refactoring. |
 
 ## Timing Rule
 

@@ -968,3 +968,26 @@ W8 IFN/APC readout. This does not prove technical artifact, but it adds a
 serious validation requirement: any future cohort must include batch/lane,
 capture-date or processing metadata, ambient RNA/QC metrics, and pre-specified
 QC adjustment.
+
+## Iteration 29: Validation Requirement Update
+
+Status: **completed / V36 addendum added**.
+
+Executable artifact:
+
+- Updated: `docs/validation/VALIDATION_READINESS_V27.md`
+
+Result:
+
+Added a V36 refactored-lead addendum. It does not change `LOCKED_RULE_V22.md` or
+the primary validation thresholds. It pre-specifies interpretation audits for
+future validation:
+
+- early/W8-like timing reported separately;
+- baseline, treated, and delta IFN/APC reported separately;
+- delta STAT1-axis and inverse-ISG adjustment;
+- glycolysis residualization against IFN/APC + STAT1;
+- T-cell, B/plasma, myeloid, and all-cell readouts reported separately;
+- B/plasma substate fractions separated from within-substate IFN/APC;
+- batch/QC metadata and mitochondrial/ambient adjustment required where
+  available.

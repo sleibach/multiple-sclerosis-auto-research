@@ -110,3 +110,46 @@ Validation reporting must include:
 This addendum does not change `LOCKED_RULE_V22.md`, the pass/fail thresholds, or
 the primary validation score. It only pre-specifies the confounder audit to
 apply alongside the frozen validation result.
+
+## V36 Refactored-Lead Addendum
+
+V36 refactored the exploratory interpretation of the treatment-response lead
+without changing the immutable V22 primary rule. The strongest held-data
+interpretation is now:
+
+**An early on-treatment IFN/APC/STAT1-axis monitoring state, broadly
+cross-compartmental and readable in T/B compartments, not a baseline subtype,
+not glucocorticoid-explained in held scores, not B/plasma-specific, and still
+single-cohort/unreplicated.**
+
+Future validation should therefore report these pre-specified secondary
+analyses alongside the primary V22 result:
+
+1. **Timing.** Report the first early on-treatment timepoint separately,
+   preferably W8-like when available. Do not infer durable trajectory from a
+   single early timepoint.
+2. **Baseline versus treated versus delta.** Report baseline IFN/APC, treated
+   IFN/APC, and delta IFN/APC separately. V36 found baseline weak/null and
+   treated/delta dominant.
+3. **STAT1-axis dependence.** Report adjustment for delta STAT1-axis and
+   inverse-ISG/IFN-suppression panels. V36 found the T/B compartment readouts
+   collapse after delta STAT1-axis residualization.
+4. **Metabolic coupling.** Report delta glycolysis and its residualization
+   against IFN/APC + STAT1. V36 found glycolysis tied to IFN/STAT but not
+   independently predictive after IFN/STAT residualization.
+5. **Compartment readouts.** If single-cell or sorted-cell data are available,
+   report T-cell, B/plasma, myeloid, and broad/all-cell IFN/APC readouts
+   separately. Do not claim B/plasma specificity unless the B/plasma signal
+   survives myeloid/global STAT1 adjustment.
+6. **B/plasma substate composition.** If raw single-cell data are available,
+   test B-like and plasma-like fractions separately from within-substate
+   IFN/APC expression.
+7. **Technical QC and batch.** Future validation input must include, where
+   available, batch/lane/capture-date/chemistry metadata, ambient RNA or
+   equivalent contamination estimates, cell counts, UMI counts, and
+   mitochondrial fraction. V36 held metadata lacked true batch fields, and
+   mitochondrial QC residualization substantially attenuated W8 IFN/APC.
+
+These V36 requirements do not change the primary locked V22 score or thresholds.
+They define the mandatory interpretation audit needed before promoting the
+monitoring signal beyond provisional status.
