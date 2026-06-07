@@ -296,10 +296,23 @@ Target block end UTC: 2026-06-07T17:37:36Z
 ### Iteration 23
 
 - Start UTC: 2026-06-07T17:26:10Z
-- Status: in_progress
+- End UTC: 2026-06-07T17:27:18Z
+- Status: completed
 - Item selected: V35 blocked-data request list.
 - Note: Convert the highest-value blocked V35 items into precise acquisition
   requests for the next data stream.
+- Result: wrote `meta/V35_BLOCKED_DATA_REQUESTS.md` with pass/kill criteria for
+  T/B gate replication, postpartum MS APC-arm relapse-window data,
+  EBV-stratified MS/SLE B-cell/APC data, APC-resolved sterol perturbation, and
+  lysosomal APC functional bottleneck testing.
+
+### Iteration 24
+
+- Start UTC: 2026-06-07T17:27:18Z
+- Status: in_progress
+- Item selected: Two-lineage cross-exam of revised V35 shortlist.
+- Note: Ask Claude and Gemini for the fatal weakness and strongest next test of
+  the revised shortlist after EBV downgrade; use as prioritization only.
 
 ## Backlog
 
@@ -327,7 +340,8 @@ Target block end UTC: 2026-06-07T17:37:36Z
 | 20 | Lysosomal APC random-module specificity control | done | Strongest Mixscale module-pair correlation, but not cross-modality supported; remains not a bottleneck claim. |
 | 21 | Metabolic/sterol setpoint specificity and actionability review | done | Remains context-supported and confounder-relevant, not intervention-grade. |
 | 22 | Re-rank V35 shortlist after EBV downgrade and blocker audit | done | Headline shortlist updated after EBV specificity failure and blocker audits. |
-| 23 | V35 blocked-data request list | in_progress | Convert blocked high-value hypotheses into concrete data acquisition requests. |
+| 23 | V35 blocked-data request list | done | Wrote `meta/V35_BLOCKED_DATA_REQUESTS.md` with concrete dataset/experiment pass-kill specs. |
+| 24 | Two-lineage cross-exam of revised V35 shortlist | in_progress | Run Claude/Gemini critique of final V35 ranking; model output is prioritization only. |
 
 ## Timing Rule
 
