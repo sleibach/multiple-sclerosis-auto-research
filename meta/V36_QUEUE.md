@@ -734,11 +734,24 @@
 
 ### Iteration 50
 
+- Start UTC: 2026-06-07T20:15:10Z
+- End UTC: 2026-06-07T20:16:01Z
+- Status: completed
+- Item selected: Continue autonomous V36 block with next executable
+  self-generated item.
+- Note: Update `meta/CURRENT_STATUS.md` and `meta/NEXT_ACTIONS.md` with the
+  V36 therapy-branch, power, and validation-request conclusions.
+- Result: Resume state now points to Gafson acquisition and frozen validation as
+  the canonical frontier; V36 features are secondary audits only; V36b
+  guardrails and sample-size caveats are recorded.
+
+### Iteration 51
+
 - Start UTC: pending
 - Status: todo
 - Item selected: Continue autonomous V36 block with next executable
   self-generated item.
-- Note: Block runtime remains below 120 minutes after Iteration 49.
+- Note: Block runtime remains below 120 minutes after Iteration 50.
 
 ## Backlog
 

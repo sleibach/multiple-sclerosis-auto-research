@@ -550,3 +550,30 @@ Next session first action:
 11. Do not spend more time on V21 chr14 `ZFP36L1`, V21 chr2
    `REL/PUS10/USP34`, `PTGER4`, chr17 `STAT3/STAT5`, generic `TYK2`, or MHC
    overlap as current leads without new fine-mapped or signal-specific data.
+
+## V36 Next Actions - Current Canonical Frontier
+
+1. Primary next action: acquire or receive Gafson et al. 2018 DMF PBMC RNA-seq
+   processed counts plus sample-level NEDA-4 responder labels using
+   `docs/validation/GAFSON_DATA_REQUEST_V36.md`.
+2. Once received, place files under `data/raw_v3/gafson_dmf_2018/`, checksum,
+   update `data/manifest.tsv`, and run the frozen validation harness. Do not
+   tune `docs/locked_rules/LOCKED_RULE_V22.md`.
+3. Treat V36 feature discoveries as secondary audits only:
+   - early IFN/APC/STAT1 treated state;
+   - T/B-readable compartment readouts;
+   - HLA-II/receptor IFN-beta branch;
+   - receptor/coupling observations.
+   None is a successor locked rule.
+4. Future validation must include the V32/V36/V36b guardrails in
+   `docs/validation/VALIDATION_READINESS_V27.md`: steroid/glucocorticoid,
+   STAT1, glycolysis, composition, QC/batch, therapy-branch reporting, and
+   effect-size floors.
+5. Interpret sample size conservatively. V36 simulations indicate that below
+   about `30` responders and `30` nonresponders, a fresh DMF/NEDA result should
+   usually be called directional unless the effect is large and confounder/QC
+   audits are clean.
+6. Optional future data-acquisition workstream: obtain the model-proposed
+   cross-drug classifier/GSEA datasets not held locally (`GSE19285`,
+   `GSE126480`, `GSE73721`, `GSE33377`, `GSE15573`) and map response labels.
+   This is not an in-hand analysis.

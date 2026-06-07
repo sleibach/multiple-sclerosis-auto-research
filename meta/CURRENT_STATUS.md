@@ -720,3 +720,48 @@ label.
 - `.venv/bin/python` works for pandas/numpy/scipy/statsmodels scripts.
 - `.venv_v3_py312/bin/python` works for the local TF-IDF knowledge index.
 - R `4.6.0`, `phyloseq`, `vegan`, `coloc`, and `susieR` are installed.
+
+## V36 Treatment-Response Exploration Checkpoint
+
+- Main report: `docs/history/HYPOTHESIS_SLATE_V36.md`.
+- Validation guardrails updated:
+  - `docs/validation/VALIDATION_READINESS_V27.md`
+  - `docs/validation/GAFSON_DATA_REQUEST_V36.md`
+- SAP RPT integration:
+  - `scripts/sap_ai_core_client.py` supports `sap-rpt-1-large`;
+  - RPT smoke-passed in V36 and contributed prioritization, but no RPT output
+    was treated as evidence.
+- Current primary validation target:
+  - the immutable V22/V23 bounded monitoring rule remains primary;
+  - V36 did not create a successor locked rule.
+- Refactored treatment-response biology:
+  - broad early on-treatment IFN/APC/STAT1-axis monitoring state;
+  - readable in T-like and B/plasma-like compartments, but not an independent
+    T/B mechanism;
+  - not glucocorticoid-explained in held scores;
+  - STAT1/composition/QC-conditioned and single-cohort/unreplicated.
+- Multiplicity caveat:
+  - 76 post-hoc V36 features in n=9 produced perfect AUCs under label
+    permutation often enough that V36 feature discoveries remain exploratory;
+  - empirical p for max AUC >= observed max was `0.5000`.
+- Therapy-branch conclusion:
+  - tofacitinib/immune-remodeling context: IFN/APC/STAT1 downshift dominates;
+  - IFN-beta context: HLA-II competence/induction and CD74/CD44/CXCR4
+    receptor-state dynamics are the more relevant secondary branch;
+  - fingolimod, adalimumab, and MTX psoriasis-skin arms argue against
+    unbounded transfer.
+- MS DMT locked-rule sensitivity:
+  - `GSE235357` DMF locked score: AUC `0.720`, exact p `0.155`, LOO min AUC
+    `0.650`;
+  - `GSE250453` fingolimod locked score: AUC `0.600`, exact p `0.345`.
+- IFN-beta held artifacts:
+  - `GSE24427` month-1 HLA-II delta: AUC `0.750`, permutation p `0.0195`;
+  - `GSE24427` baseline HLA-II: AUC `0.361`, permutation p `0.875`;
+  - `GSE138064` baseline HLA-II and receptor dynamics support complete-vs-
+    partial responder separation.
+- Gafson validation planning:
+  - request package now asks for enough labeled responders/nonresponders for
+    effect-size estimation;
+  - results below roughly `30` responders and `30` nonresponders should be
+    treated as directional unless effect size is large and audits are clean;
+  - validation must use both p-value and effect-size floors.
