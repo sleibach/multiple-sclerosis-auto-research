@@ -644,11 +644,27 @@
 
 ### Iteration 44
 
+- Start UTC: 2026-06-07T20:02:20Z
+- End UTC: 2026-06-07T20:03:51Z
+- Status: completed
+- Item selected: Continue autonomous V36 block with next executable
+  self-generated item.
+- Note: Extend the DMF validation power estimate with attenuation sensitivity,
+  so planning is not overconfident if the true effect is weaker than
+  `GSE235357`.
+- Result: Attenuation sensitivity showed p-value power alone is not enough.
+  At half the observed separation, median AUC is about `0.68`; p<0.05 power can
+  still exceed `0.90` at `n=50` per group, while AUC>=0.70 power remains only
+  `0.379`. Future validation should pre-specify both significance and
+  effect-size/clinical-utility floors.
+
+### Iteration 45
+
 - Start UTC: pending
 - Status: todo
 - Item selected: Continue autonomous V36 block with next executable
   self-generated item.
-- Note: Block runtime remains below 120 minutes after Iteration 43.
+- Note: Block runtime remains below 120 minutes after Iteration 44.
 
 ## Backlog
 

@@ -1,0 +1,199 @@
+{
+  "attenuation_definition": "Responder scores are moved toward the nonresponder mean by the attenuation fraction; 1.0 is observed effect, 0.5 is half separation.",
+  "interpretation": "If the true effect is half the observed GSE235357 separation, even 100 per group remains underpowered by this simple bootstrap model.",
+  "power_table": [
+    {
+      "attenuation_fraction": 1.0,
+      "median_auc": 0.725,
+      "n_per_group": 20,
+      "power_auc_ge_0_70": 0.6083333333333333,
+      "power_one_sided_p_lt_0_05": 0.7598,
+      "total_n": 40
+    },
+    {
+      "attenuation_fraction": 1.0,
+      "median_auc": 0.7222222222222222,
+      "n_per_group": 30,
+      "power_auc_ge_0_70": 0.6225333333333334,
+      "power_one_sided_p_lt_0_05": 0.8973333333333333,
+      "total_n": 60
+    },
+    {
+      "attenuation_fraction": 1.0,
+      "median_auc": 0.721875,
+      "n_per_group": 40,
+      "power_auc_ge_0_70": 0.6368,
+      "power_one_sided_p_lt_0_05": 0.9591333333333333,
+      "total_n": 80
+    },
+    {
+      "attenuation_fraction": 1.0,
+      "median_auc": 0.7216,
+      "n_per_group": 50,
+      "power_auc_ge_0_70": 0.6462,
+      "power_one_sided_p_lt_0_05": 0.9836,
+      "total_n": 100
+    },
+    {
+      "attenuation_fraction": 1.0,
+      "median_auc": 0.7214222222222222,
+      "n_per_group": 75,
+      "power_auc_ge_0_70": 0.674,
+      "power_one_sided_p_lt_0_05": 0.9979333333333333,
+      "total_n": 150
+    },
+    {
+      "attenuation_fraction": 1.0,
+      "median_auc": 0.7213,
+      "n_per_group": 100,
+      "power_auc_ge_0_70": 0.6989333333333333,
+      "power_one_sided_p_lt_0_05": 0.9997333333333334,
+      "total_n": 200
+    },
+    {
+      "attenuation_fraction": 0.75,
+      "median_auc": 0.725,
+      "n_per_group": 20,
+      "power_auc_ge_0_70": 0.6104666666666667,
+      "power_one_sided_p_lt_0_05": 0.7688,
+      "total_n": 40
+    },
+    {
+      "attenuation_fraction": 0.75,
+      "median_auc": 0.7222222222222222,
+      "n_per_group": 30,
+      "power_auc_ge_0_70": 0.6233333333333333,
+      "power_one_sided_p_lt_0_05": 0.8947333333333334,
+      "total_n": 60
+    },
+    {
+      "attenuation_fraction": 0.75,
+      "median_auc": 0.72125,
+      "n_per_group": 40,
+      "power_auc_ge_0_70": 0.6380666666666667,
+      "power_one_sided_p_lt_0_05": 0.9540666666666666,
+      "total_n": 80
+    },
+    {
+      "attenuation_fraction": 0.75,
+      "median_auc": 0.7208,
+      "n_per_group": 50,
+      "power_auc_ge_0_70": 0.6461333333333333,
+      "power_one_sided_p_lt_0_05": 0.9839333333333333,
+      "total_n": 100
+    },
+    {
+      "attenuation_fraction": 0.75,
+      "median_auc": 0.7210666666666666,
+      "n_per_group": 75,
+      "power_auc_ge_0_70": 0.6711333333333334,
+      "power_one_sided_p_lt_0_05": 0.9982,
+      "total_n": 150
+    },
+    {
+      "attenuation_fraction": 0.75,
+      "median_auc": 0.72,
+      "n_per_group": 100,
+      "power_auc_ge_0_70": 0.6925333333333333,
+      "power_one_sided_p_lt_0_05": 0.9996666666666667,
+      "total_n": 200
+    },
+    {
+      "attenuation_fraction": 0.5,
+      "median_auc": 0.685,
+      "n_per_group": 20,
+      "power_auc_ge_0_70": 0.4461333333333333,
+      "power_one_sided_p_lt_0_05": 0.6247333333333334,
+      "total_n": 40
+    },
+    {
+      "attenuation_fraction": 0.5,
+      "median_auc": 0.6833333333333333,
+      "n_per_group": 30,
+      "power_auc_ge_0_70": 0.4222666666666667,
+      "power_one_sided_p_lt_0_05": 0.7713333333333333,
+      "total_n": 60
+    },
+    {
+      "attenuation_fraction": 0.5,
+      "median_auc": 0.681875,
+      "n_per_group": 40,
+      "power_auc_ge_0_70": 0.4018,
+      "power_one_sided_p_lt_0_05": 0.857,
+      "total_n": 80
+    },
+    {
+      "attenuation_fraction": 0.5,
+      "median_auc": 0.6808,
+      "n_per_group": 50,
+      "power_auc_ge_0_70": 0.3794666666666667,
+      "power_one_sided_p_lt_0_05": 0.9164,
+      "total_n": 100
+    },
+    {
+      "attenuation_fraction": 0.5,
+      "median_auc": 0.6814222222222223,
+      "n_per_group": 75,
+      "power_auc_ge_0_70": 0.34673333333333334,
+      "power_one_sided_p_lt_0_05": 0.9808666666666667,
+      "total_n": 150
+    },
+    {
+      "attenuation_fraction": 0.5,
+      "median_auc": 0.68,
+      "n_per_group": 100,
+      "power_auc_ge_0_70": 0.3208666666666667,
+      "power_one_sided_p_lt_0_05": 0.9952,
+      "total_n": 200
+    },
+    {
+      "attenuation_fraction": 0.25,
+      "median_auc": 0.64,
+      "n_per_group": 20,
+      "power_auc_ge_0_70": 0.2988,
+      "power_one_sided_p_lt_0_05": 0.4632,
+      "total_n": 40
+    },
+    {
+      "attenuation_fraction": 0.25,
+      "median_auc": 0.6422222222222222,
+      "n_per_group": 30,
+      "power_auc_ge_0_70": 0.24313333333333334,
+      "power_one_sided_p_lt_0_05": 0.5821333333333333,
+      "total_n": 60
+    },
+    {
+      "attenuation_fraction": 0.25,
+      "median_auc": 0.640625,
+      "n_per_group": 40,
+      "power_auc_ge_0_70": 0.20686666666666667,
+      "power_one_sided_p_lt_0_05": 0.6785333333333333,
+      "total_n": 80
+    },
+    {
+      "attenuation_fraction": 0.25,
+      "median_auc": 0.6416,
+      "n_per_group": 50,
+      "power_auc_ge_0_70": 0.17306666666666667,
+      "power_one_sided_p_lt_0_05": 0.7572,
+      "total_n": 100
+    },
+    {
+      "attenuation_fraction": 0.25,
+      "median_auc": 0.6410666666666667,
+      "n_per_group": 75,
+      "power_auc_ge_0_70": 0.12653333333333333,
+      "power_one_sided_p_lt_0_05": 0.8848,
+      "total_n": 150
+    },
+    {
+      "attenuation_fraction": 0.25,
+      "median_auc": 0.64,
+      "n_per_group": 100,
+      "power_auc_ge_0_70": 0.09266666666666666,
+      "power_one_sided_p_lt_0_05": 0.9446666666666667,
+      "total_n": 200
+    }
+  ],
+  "question": "How sensitive is DMF validation power to weaker-than-observed effect sizes?"
+}

@@ -1441,3 +1441,44 @@ response group is the first range with high power by this approximation; `40-50`
 per group is safer if the true effect is weaker or covariate adjustment is
 required. This should be included in the Gafson/medical-team validation planning
 conversation.
+
+## Iteration 44: DMF Power Attenuation Sensitivity
+
+Status: **completed / weaker-effect planning caveat**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_gafson_power_attenuation.py`
+- Output: `analysis/v36_gafson_power_attenuation/summary.md`
+- Table: `analysis/v36_gafson_power_attenuation/dmf_power_attenuation.tsv`
+
+Question:
+
+How sensitive is the validation-size estimate to a weaker true effect than the
+observed `GSE235357` n=5/5 template?
+
+Method:
+
+Responder scores were moved toward the nonresponder mean by attenuation
+fractions (`1.0`, `0.75`, `0.5`, `0.25`) before bootstrap sampling. This is a
+rank-based planning sensitivity, not biological evidence.
+
+Selected results:
+
+| Effect fraction | n per group | Median AUC | Power p<0.05 | Power AUC>=0.70 |
+|---:|---:|---:|---:|---:|
+| `1.0` | `30` | `0.722` | `0.897` | `0.623` |
+| `1.0` | `50` | `0.722` | `0.984` | `0.646` |
+| `0.5` | `30` | `0.683` | `0.771` | `0.422` |
+| `0.5` | `50` | `0.681` | `0.916` | `0.379` |
+| `0.25` | `50` | `0.642` | `0.757` | `0.173` |
+| `0.25` | `100` | `0.640` | `0.945` | `0.0927` |
+
+Interpretation:
+
+One-sided p-value power can become high at large sample size even when the
+median AUC is only moderate. The validation plan should therefore not rely on p
+alone: it should pre-specify both statistical significance and an effect-size
+floor (for example AUC or clinically meaningful decision improvement). If the
+true effect is half the small DMF template, a future cohort may confirm a weak
+statistical association without producing a clinically useful monitoring rule.
