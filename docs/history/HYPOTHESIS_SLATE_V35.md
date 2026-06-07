@@ -42,11 +42,11 @@ Minimum next test:
 
 | Rank | Hypothesis | V35 status | Next action |
 |---:|---|---|---|
-| 1 | T/B compartment remodeling gate | supported but small-n; W48/leave-one fragility check did not collapse | Replicate in an independent paired response cohort with sorted or single-cell T/B compartments |
-| 2 | Postpartum HLA-II/CD64 APC-arm imbalance trajectory | partially grounded / needs MS postpartum data | Acquire true postpartum MS relapse-window immune cohort |
-| 3 | Complement/lipid progressive axis | downgraded: lipid-repair context only; complement not supported donor-aware | Acquire/compute true donor-aware lesion-rim spatial lipid/complement data before reviving |
-| 4 | Metabolic/sterol setpoint | supported as context axis, not intervention-grade | APC-resolved lipidomics plus sterol-pathway perturbation |
-| 5 | Lysosomal APC-processing bottleneck | reframed: coupled lysosomal APC axis, not proven bottleneck | Run functional lysosomal flux / HLA-peptidomics experiment |
+| 1 | T/B compartment remodeling gate | strongest internally supported: exact-compartment AUC advantage persists under W48 and leave-one stress tests, but no independent held compartment cohort exists | Acquire paired response cohort with sorted/single-cell T/B compartments |
+| 2 | Postpartum HLA-II/CD64 APC-arm imbalance trajectory | biologically plausible and pregnancy-phase MS scoring feasible, but postpartum relapse-window and relapse-label data absent | Acquire true postpartum MS relapse-window immune cohort with relapse/steroid/DMT metadata |
+| 3 | Metabolic/sterol setpoint | context-supported and confounder-relevant, not intervention-grade | APC-resolved lipidomics plus sterol-pathway perturbation |
+| 4 | Lysosomal APC-processing bottleneck | strong Mixscale lysosomal-IFN/APC coupling, but V26 cross-modality grade remains not-supported; not a proven bottleneck | Functional lysosomal flux / HLA-peptidomics experiment |
+| 5 | Complement/lipid progressive axis | downgraded: donor-aware lesion test supports weak lipid context only; complement not supported | True donor-aware lesion-rim spatial lipid/complement proteomics before reviving |
 | 6 | MS-SLE EBV/IFN APC imprint | downgraded: host SLE blood signal exists, but EBV-specificity failed random-gene-set control | Only revive with EBV-stratified MS/SLE B-cell/APC data showing exposure/load tracking beyond random modules and IFN/APC |
 
 ## Iteration 14: Local SLE EBV-Module Scoring

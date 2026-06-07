@@ -283,10 +283,23 @@ Target block end UTC: 2026-06-07T17:37:36Z
 ### Iteration 22
 
 - Start UTC: 2026-06-07T17:25:22Z
-- Status: in_progress
+- End UTC: 2026-06-07T17:26:10Z
+- Status: completed
 - Item selected: Re-rank V35 shortlist after EBV downgrade and blocker audit.
 - Note: Consolidate the accumulated iteration outcomes into a revised shortlist
   before deciding whether another executable item is needed before the hour mark.
+- Result: headline shortlist updated. T/B gate remains top but explicitly
+  single-cohort; postpartum remains second as data-acquisition target;
+  metabolic/sterol and lysosomal remain context/mechanism leads; complement/
+  lipid and EBV are downgraded.
+
+### Iteration 23
+
+- Start UTC: 2026-06-07T17:26:10Z
+- Status: in_progress
+- Item selected: V35 blocked-data request list.
+- Note: Convert the highest-value blocked V35 items into precise acquisition
+  requests for the next data stream.
 
 ## Backlog
 
@@ -313,7 +326,8 @@ Target block end UTC: 2026-06-07T17:37:36Z
 | 19 | T/B gate independent-cohort feasibility scout | blocked | No independent held compartment-resolved paired response cohort found beyond already-used GSE253006. |
 | 20 | Lysosomal APC random-module specificity control | done | Strongest Mixscale module-pair correlation, but not cross-modality supported; remains not a bottleneck claim. |
 | 21 | Metabolic/sterol setpoint specificity and actionability review | done | Remains context-supported and confounder-relevant, not intervention-grade. |
-| 22 | Re-rank V35 shortlist after EBV downgrade and blocker audit | in_progress | Consolidate V35 outcomes into revised shortlist. |
+| 22 | Re-rank V35 shortlist after EBV downgrade and blocker audit | done | Headline shortlist updated after EBV specificity failure and blocker audits. |
+| 23 | V35 blocked-data request list | in_progress | Convert blocked high-value hypotheses into concrete data acquisition requests. |
 
 ## Timing Rule
 
