@@ -660,11 +660,24 @@
 
 ### Iteration 45
 
+- Start UTC: 2026-06-07T20:04:48Z
+- End UTC: 2026-06-07T20:05:26Z
+- Status: completed
+- Item selected: Continue autonomous V36 block with next executable
+  self-generated item.
+- Note: Update validation readiness with V36 therapy-branch and power-planning
+  requirements derived from Iterations 41-44, without changing locked rules.
+- Result: Added V36b addendum to `docs/validation/VALIDATION_READINESS_V27.md`:
+  therapy-branch reporting, IFN-beta HLA-II/receptor branch, effect-size floor
+  in addition to p-value, and Gafson-style sample-size interpretation.
+
+### Iteration 46
+
 - Start UTC: pending
 - Status: todo
 - Item selected: Continue autonomous V36 block with next executable
   self-generated item.
-- Note: Block runtime remains below 120 minutes after Iteration 44.
+- Note: Block runtime remains below 120 minutes after Iteration 45.
 
 ## Backlog
 

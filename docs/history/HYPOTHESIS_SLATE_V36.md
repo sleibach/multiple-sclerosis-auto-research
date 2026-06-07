@@ -1482,3 +1482,31 @@ alone: it should pre-specify both statistical significance and an effect-size
 floor (for example AUC or clinically meaningful decision improvement). If the
 true effect is half the small DMF template, a future cohort may confirm a weak
 statistical association without producing a clinically useful monitoring rule.
+
+## Iteration 45: Validation-Readiness Branch and Power Addendum
+
+Status: **completed / future validation requirements sharpened**.
+
+Executable artifact:
+
+- Updated `docs/validation/VALIDATION_READINESS_V27.md`
+
+Result:
+
+Added a V36b addendum that preserves the immutable V22 rule but requires future
+validation reports to:
+
+- separate the primary locked scalar from therapy-class secondary branches;
+- report IFN-beta HLA-II competence and CD74/CD44/CXCR4 receptor-state dynamics
+  separately from DMF/JAK-style IFN/APC/STAT1 downshift;
+- treat fingolimod, adalimumab, and MTX psoriasis-skin as mechanism-specific or
+  out-of-domain checks, not unbounded failures;
+- require an effect-size floor alongside p-value significance;
+- treat fresh DMF/NEDA results below roughly `30` responders and `30`
+  nonresponders as directional unless effect size is large and confounder/QC
+  audits are clean.
+
+Interpretation:
+
+This converts the V36 branch-map and power analyses into validation guardrails.
+It does not edit the locked rule or create a successor rule.

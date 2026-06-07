@@ -153,3 +153,53 @@ analyses alongside the primary V22 result:
 These V36 requirements do not change the primary locked V22 score or thresholds.
 They define the mandatory interpretation audit needed before promoting the
 monitoring signal beyond provisional status.
+
+## V36b Therapy-Branch and Power-Planning Addendum
+
+V36 later consolidated the held therapy-response artifacts into a branch map and
+ran DMF validation power simulations. These do not alter `LOCKED_RULE_V22.md`;
+they pre-specify how future validation should be interpreted.
+
+### Therapy-Branch Reporting
+
+Future validation reports must separate the primary locked scalar from
+therapy-class secondary branches:
+
+1. **Primary locked scalar.** Always report the immutable V22/V23 score first.
+2. **DMF / immune-remodeling branch.** Report IFN/APC/STAT1 downshift,
+   HLA-II delta, receptor control, confounder-adjusted results, and the V36
+   secondary audits.
+3. **IFN-beta branch.** If an IFN-beta cohort is tested, do not force the
+   JAK/immune-remodeling interpretation. Report HLA-II competence/induction and
+   CD74/CD44/CXCR4 receptor-state dynamics separately. V36 held IFN-beta
+   artifacts supported this branch more than a universal scalar.
+4. **Lymphocyte-trafficking and out-of-domain therapies.** Fingolimod,
+   adalimumab, and methotrexate psoriasis-skin stress tests did not support
+   unbounded transfer. Treat these as mechanism-specific tests, not failures of
+   the bounded DMF/JAK-style claim.
+
+### Effect-Size Floor
+
+V36 power simulations showed that p-value significance alone is insufficient:
+large samples can detect weak associations that may not be clinically useful.
+Future validation should therefore report and pre-interpret:
+
+- AUC and 95% CI.
+- Hedges g and 95% CI where possible.
+- A clinically meaningful effect-size floor in addition to p-value. The current
+  working floor remains AUC `>= 0.70` and signed Hedges g `>= 0.50`; weaker
+  statistically significant results should be considered biologically
+  interesting but not clinically actionable.
+- Power context: under the observed `GSE235357` DMF effect template, roughly
+  `30` subjects per response group gave high one-sided p-value power in
+  simulation, while `40-50` per group was safer. If the true effect is weaker,
+  p-value power may remain high at large n while AUC stays below the clinical
+  usefulness floor.
+
+### Gafson-Style Data Request Implication
+
+For Gafson or any fresh DMF/NEDA cohort, request enough labeled responders and
+nonresponders to support both the primary locked-rule test and the secondary
+covariate audits. If sample size is much below `30` per response group, report
+the result as directional unless the observed effect is large and the
+pre-specified confounder/QC audits are clean.
