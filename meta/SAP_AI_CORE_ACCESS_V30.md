@@ -218,6 +218,32 @@ Working REST contract:
 }
 ```
 
+## V34 Gemini Generation Update
+
+V34 identified and fixed the Gemini long-generation failure mode seen in V33.
+Gemini smoke tests were valid, but longer JSON generations were malformed
+because the model response ended with `finishReason = MAX_TOKENS`. The previous
+client returned partial text without checking the finish reason.
+
+Client behavior now:
+
+- concatenates all Gemini text parts in the first candidate;
+- checks `finishReason` / `finish_reason`;
+- raises a clear error on `MAX_TOKENS` or `LENGTH` instead of writing partial
+  output;
+- exposes `debug-gemini` for non-secret response-shape diagnostics.
+
+Verified behavior:
+
+- Low-token V33 generation now fails loudly:
+  `Gemini response ended by MAX_TOKENS; increase --max-output-tokens or shorten prompt`.
+- The same generation succeeds with `--max-output-tokens 8192` and produces
+  parseable JSON at `analysis/v34_gemini_generation_fixed.json`.
+
+Operational rule: for structured Gemini generation, use enough output tokens
+for the requested JSON and validate with `python3 -m json.tool` before treating
+the output as usable proposal text.
+
 Important Claude parameter detail:
 
 - `temperature` must be omitted for `anthropic--claude-4.7-opus`; the service

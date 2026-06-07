@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-07 13:05 CEST
+Last updated: 2026-06-07 18:15 CEST
 
 ## Mission State
 
@@ -41,6 +41,12 @@ V33 pivoted back to exploratory hypothesis generation. Claude generated usable
 compact proposals; Gemini smoke-passed but generation outputs truncated and were
 not counted. Agent-native grounding produced a fresh ranked hypothesis slate.
 No therapeutic hypothesis reached intervention-grade status.
+V34 fixed the Gemini generation failure mode by detecting `MAX_TOKENS` /
+`LENGTH` finish reasons instead of silently writing partial output. Two-lineage
+cross-check of the V33 shortlist then ran. Both Claude and Gemini ranked the
+MS-SLE EBV/IFN APC imprint highly, but it remains locally data-limited; the best
+locally grounded and clinically anchored hypothesis remains postpartum
+HLA-II/CD64 APC-arm imbalance as a relapse-window trajectory.
 
 Current frontier:
 
@@ -190,6 +196,23 @@ Current frontier:
   - Best current mechanism hypothesis: lysosomal APC-processing bottleneck,
     supported by V26 replicated module dependencies but needing functional
     lysosomal/protein perturbation evidence.
+- V34 exploratory shortlist deepening:
+  - Report: `docs/history/HYPOTHESIS_SLATE_V34.md`.
+  - Gemini fix: `scripts/sap_ai_core_client.py` now concatenates Gemini text
+    parts and raises on `MAX_TOKENS` / `LENGTH` finishes.
+  - SAP access note updated: `meta/SAP_AI_CORE_ACCESS_V30.md`.
+  - High-token Gemini generation produced parseable JSON at
+    `analysis/v34_gemini_generation_fixed.json`.
+  - Two-lineage cross-check artifacts:
+    `analysis/v34_claude_crosscheck.json` and
+    `analysis/v34_gemini_crosscheck.json`.
+  - Cross-lineage agreement: MS-SLE EBV/IFN APC imprint ranked highest by both
+    lineages, but it needs EBV-response module construction and MS/SLE B-cell or
+    APC data before it can be grounded.
+  - Postpartum deepening: existing RA/SLE/healthy pregnancy data support
+    HLA-II-minus-CD64 as a postpartum trajectory state; component arms differ by
+    disease, so any MS test must measure HLA-II and CD64 separately and link
+    trajectory to postpartum relapse timing.
 - `GPR25` remains a live eQTLGen-supported lead, but not a protected favorite:
   public V18 immune-QTL sources did not support it, and its required therapeutic
   direction is agonism/restoration of a sparsely tooled receptor.

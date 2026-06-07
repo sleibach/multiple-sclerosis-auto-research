@@ -673,3 +673,39 @@ Next session first action:
 - Model lineages used and spend: Claude 4.7 Opus and Gemini 2.5 Pro via SAP AI
   Core smoke-tested; Claude used for one valid short generation. No separate
   paid-service spend was recorded in-repo.
+
+## RUN SUMMARY - V34 Deepen Exploratory Shortlist and Fix Two-Lineage Generation
+
+- Active runtime: 6 minutes 4 seconds, measured from real system-clock reads at
+  session start and end; no usage-limit waiting occurred, so active runtime
+  equals total elapsed wall-clock time.
+- Session start timestamp (UTC): 2026-06-07T16:02:33Z.
+- Session end timestamp (UTC): 2026-06-07T16:08:37Z.
+- Frontier advanced: Gemini generation failure mode fixed and V33 shortlist
+  deepened for the postpartum HLA-II/CD64 APC-arm imbalance hypothesis.
+- Stop reason: completed available V34 engineering fix, two-lineage cross-check,
+  postpartum grounding, resume updates, README update, and RAG rebuild.
+- Next action: search/acquire postpartum MS relapse-timing blood/CSF immune data
+  with DMT, steroid, lactation, infection, and cell-count metadata; then build
+  an EBV/LMP1/EBNA-response module for the two-lineage top-ranked EBV/IFN APC
+  imprint hypothesis.
+- Gemini generation fixed: yes. The client now concatenates Gemini text parts
+  and raises on `MAX_TOKENS` / `LENGTH` finish reasons. Low-token generation
+  fails loudly; high-token generation produced parseable JSON at
+  `analysis/v34_gemini_generation_fixed.json`.
+- Two-lineage cross-check result: Claude and Gemini both ranked MS-SLE EBV/IFN
+  APC imprint highest, but it remains locally data-limited; postpartum
+  HLA-II/CD64 remains the best locally grounded and clinically anchored
+  hypothesis.
+- Deepened grounding: postpartum HLA-II-minus-CD64 decoupling is supported as a
+  postpartum trajectory state in existing RA/SLE/healthy pregnancy data, but arm
+  behavior is heterogeneous by disease. It is not yet an MS relapse biomarker.
+- Re-ranked shortlist: postpartum HLA-II/CD64 APC-arm imbalance trajectory;
+  MS-SLE EBV/IFN APC imprint; complement/lipid progressive axis; T/B
+  compartment remodeling gate; lysosomal APC-processing bottleneck;
+  metabolic/sterol setpoint.
+- Two-lineage added value: yes for prioritization. It elevated EBV/IFN APC
+  imprint as a cross-lineage idea, while local evidence kept postpartum APC-arm
+  imbalance as the first actionable data-acquisition target.
+- Model lineages used and spend: Claude 4.7 Opus and Gemini 2.5 Pro via SAP AI
+  Core; no separate paid-service spend was recorded in-repo.

@@ -1,6 +1,6 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-06-07 13:05 CEST
+Last updated: 2026-06-07 18:15 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
@@ -85,6 +85,30 @@ First V33 continuation action:
 3. If progressive/chronic-active lesion data are local or reachable, test the
    complement/lipid negative pole against lesion-rim/progression markers and
    orthogonality to the V22 APC/HLA-II scalar.
+
+V34 update:
+
+- Gemini generation failure mode fixed in `scripts/sap_ai_core_client.py`.
+  Partial Gemini outputs now fail loudly on `MAX_TOKENS` / `LENGTH` rather than
+  being written as malformed JSON.
+- High-token Gemini generation now produces parseable JSON:
+  `analysis/v34_gemini_generation_fixed.json`.
+- Two-lineage shortlist cross-check ran:
+  - Claude and Gemini both ranked MS-SLE EBV/IFN APC imprint highly.
+  - Postpartum HLA-II/CD64 remains the best locally grounded and clinically
+    anchored hypothesis.
+- Postpartum grounding deepened: HLA-II-minus-CD64 decoupling is a real
+  postpartum trajectory state in existing RA/SLE/healthy pregnancy data, but
+  component arms differ by disease.
+
+First V34 continuation action:
+
+1. Search/acquire postpartum MS relapse-timing blood/CSF immune data with DMT,
+   steroid, lactation, infection, and cell-count metadata.
+2. Build an EBV/LMP1/EBNA-response module and test separability from STAT1/IFN
+   and V22 scalar in MS/SLE B-cell/APC data.
+3. Mine progressive/chronic-active lesion data for complement/lipid negative
+   pole orthogonality to V22 APC/HLA-II scalar.
 
 No unresolved supported V12 cells remain. V14 has added a first-pass locus
 landscape and prior-sensitivity layer over the V13 OpenGWAS coloc results.

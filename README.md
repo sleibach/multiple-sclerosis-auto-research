@@ -11,7 +11,7 @@ All analysis uses public human-tissue data only and random seed `20260526`
 
 ## Current Status
 
-The current phase is **V33**. The V4 directory structure remains canonical, and
+The current phase is **V34**. The V4 directory structure remains canonical, and
 V11 introduced the resume backbone for short-session continuity.
 
 - Start here: `meta/CURRENT_STATUS.md` — the live mission state, active leads,
@@ -69,6 +69,13 @@ V11 introduced the resume backbone for short-session continuity.
   bottleneck, and a complement/lipid negative pole as a progressive/tissue-
   repair axis. No V33 hypothesis is intervention-grade. See
   `docs/history/HYPOTHESIS_SLATE_V33.md`.
+  V34 fixed the Gemini generation failure mode by detecting `MAX_TOKENS` /
+  `LENGTH` finishes instead of silently writing partial JSON, then reran a
+  two-lineage shortlist cross-check. Both Claude and Gemini ranked MS-SLE
+  EBV/IFN APC imprint highest, but it remains data-limited. The best locally
+  grounded and clinically anchored hypothesis remains postpartum HLA-II/CD64
+  APC-arm imbalance as a relapse-window trajectory. See
+  `docs/history/HYPOTHESIS_SLATE_V34.md`.
 - Current genetics/data focus: the chr1 MS-UC causal-gene question is
   computationally resolved for now and handed forward as real shared genetics,
   not an intervention-grade target. V20 widened back out to a ranked

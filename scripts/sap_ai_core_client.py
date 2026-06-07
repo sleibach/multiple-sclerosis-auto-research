@@ -185,6 +185,19 @@ def gemini_generate(
     timeout: int,
     max_output_tokens: int,
 ) -> str:
+    return gemini_generate_payload(
+        deployment, token, resource_group, prompt, timeout, max_output_tokens
+    )[0]
+
+
+def gemini_generate_payload(
+    deployment: dict[str, str],
+    token: str,
+    resource_group: str,
+    prompt: str,
+    timeout: int,
+    max_output_tokens: int,
+) -> tuple[str, dict[str, Any]]:
     model = deployment["name"]
     url = deployment["deploymentUrl"].rstrip("/") + f"/models/{model}:generateContent"
     body = {
@@ -193,8 +206,20 @@ def gemini_generate(
     }
     _, payload = request_json(url, token, resource_group, "POST", body, timeout)
     try:
-        return payload["candidates"][0]["content"]["parts"][0]["text"]
+        candidate = payload["candidates"][0]
+        parts = candidate.get("content", {}).get("parts", [])
+        text = "".join(part.get("text", "") for part in parts if isinstance(part, dict))
+        finish_reason = candidate.get("finishReason") or candidate.get("finish_reason")
+        if finish_reason in {"MAX_TOKENS", "LENGTH"}:
+            raise SapAiCoreError(
+                f"Gemini response ended by {finish_reason}; increase --max-output-tokens or shorten prompt"
+            )
+        if not text:
+            raise SapAiCoreError(f"Gemini response contained no text parts: {payload}")
+        return text, payload
     except Exception as exc:
+        if isinstance(exc, SapAiCoreError):
+            raise
         raise SapAiCoreError(f"Unexpected Gemini response schema: {payload}") from exc
 
 
@@ -378,6 +403,44 @@ def cmd_prompt(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_debug_gemini(args: argparse.Namespace) -> int:
+    cred = credential()
+    token, _ = oauth_token(cred)
+    resources = deployments(cred, token, args.resource_group)
+    deployment = find_deployment(resources, args.model)
+    prompt = args.prompt
+    if args.prompt_file:
+        prompt = pathlib.Path(args.prompt_file).read_text()
+    if not deployment["name"].startswith("gemini"):
+        raise SapAiCoreError("debug-gemini requires a Gemini model")
+    text, payload = gemini_generate_payload(
+        deployment,
+        token,
+        args.resource_group,
+        prompt,
+        args.timeout,
+        args.max_output_tokens,
+    )
+    summary = {
+        "model": deployment["name"],
+        "text_length": len(text),
+        "candidate_count": len(payload.get("candidates", [])),
+        "finish_reasons": [
+            c.get("finishReason") or c.get("finish_reason")
+            for c in payload.get("candidates", [])
+        ],
+        "part_counts": [
+            len(c.get("content", {}).get("parts", []))
+            for c in payload.get("candidates", [])
+        ],
+    }
+    print(json.dumps(summary, indent=2, sort_keys=True))
+    if args.output:
+        pathlib.Path(args.output).parent.mkdir(parents=True, exist_ok=True)
+        pathlib.Path(args.output).write_text(json.dumps(payload, indent=2, sort_keys=True))
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest="command", required=True)
@@ -405,6 +468,16 @@ def build_parser() -> argparse.ArgumentParser:
     prompt_parser.add_argument("--timeout", type=int, default=120)
     prompt_parser.add_argument("--max-output-tokens", type=int, default=8192)
     prompt_parser.set_defaults(func=cmd_prompt)
+
+    debug_gemini_parser = sub.add_parser("debug-gemini", help="Run Gemini and print non-secret response-shape diagnostics")
+    debug_gemini_parser.add_argument("--model", required=True, help="Exact or partial Gemini model name")
+    debug_gemini_parser.add_argument("--prompt", default="")
+    debug_gemini_parser.add_argument("--prompt-file")
+    debug_gemini_parser.add_argument("--output")
+    debug_gemini_parser.add_argument("--resource-group", default=os.getenv("SAP_AI_CORE_RESOURCE_GROUP", DEFAULT_RESOURCE_GROUP))
+    debug_gemini_parser.add_argument("--timeout", type=int, default=120)
+    debug_gemini_parser.add_argument("--max-output-tokens", type=int, default=8192)
+    debug_gemini_parser.set_defaults(func=cmd_debug_gemini)
     return parser
 
 
