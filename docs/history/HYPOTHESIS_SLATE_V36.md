@@ -885,3 +885,44 @@ Interpretation:
 The cross-exam added one high-value executable next test: determine whether
 `delta_glycolysis` is independent of IFN/STAT or simply rides along with the
 same early remodeling state.
+
+## Iteration 27: Glycolysis-IFN Decoupling
+
+Status: **completed / glycolysis demoted to coupled context**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_glycolysis_ifn_decoupling.py`
+- Outputs: `analysis/v36_glycolysis_ifn_decoupling/`
+
+Test:
+
+Residualize `delta_glycolysis` against IFN/APC and STAT1, and residualize
+IFN/APC and STAT1 against glycolysis, in `GSE253006_TOF_exact`.
+
+Result:
+
+| Test | AUC | Exact p |
+|---|---:|---:|
+| `glycolysis_raw` | `0.950` | `0.0317` |
+| `ifn_apc_raw` | `0.950` | `0.0317` |
+| `stat1_axis_raw` | `0.950` | `0.0317` |
+| `ifn_apc_resid_glycolysis` | `0.850` | `0.1111` |
+| `stat1_resid_glycolysis` | `0.800` | `0.1905` |
+| `glycolysis_resid_stat1` | `0.700` | `0.4127` |
+| `glycolysis_resid_ifn_apc` | `0.600` | `0.7302` |
+| `glycolysis_resid_ifn_and_stat1` | `0.600` | `0.7302` |
+
+Correlations:
+
+- `delta_glycolysis` vs `delta_IFN_APC` Spearman `0.967`.
+- `delta_glycolysis` vs `delta_stat1_axis` Spearman `0.983`.
+- `delta_IFN_APC` vs `delta_stat1_axis` Spearman `0.983`.
+
+Interpretation:
+
+Glycolysis is tightly coupled to IFN/STAT but does not retain independent
+response signal after IFN/APC+STAT1 residualization. IFN/APC retains more signal
+after glycolysis residualization, though it no longer reaches exact p <= `0.05`.
+This demotes metabolic/glycolysis from independent mechanism to coupled context
+around an IFN/STAT-primary early remodeling state.

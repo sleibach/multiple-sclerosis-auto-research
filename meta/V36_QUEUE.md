@@ -396,10 +396,24 @@
 ### Iteration 27
 
 - Start UTC: 2026-06-07T19:22:05Z
-- Status: in_progress
+- End UTC: 2026-06-07T19:24:22Z
+- Status: completed
 - Item selected: Glycolysis decoupling from IFN/STAT.
 - Note: Test whether `delta_glycolysis` retains response signal after
   residualizing against IFN/STAT and vice versa in V32 exact tofacitinib data.
+- Result: Glycolysis collapsed after residualization against IFN/APC+STAT1
+  (AUC `0.600`, exact p `0.7302`). IFN/APC retained more residual signal after
+  glycolysis adjustment (AUC `0.850`, exact p `0.1111`). Interpretation:
+  glycolysis is coupled context, not independent mechanism; IFN/STAT is primary
+  in held data.
+
+### Iteration 28
+
+- Start UTC: 2026-06-07T19:24:22Z
+- Status: in_progress
+- Item selected: Technical metadata and batch-confounding feasibility check.
+- Note: Determine whether held GSE253006 metadata contains batch/capture/date or
+  QC fields sufficient to test Claude's batch-confounding critique.
 
 ## Backlog
 
@@ -430,7 +444,8 @@
 | 23 | W8 treated IFN/APC subject-level confounder residualization | done | W8 treated IFN/APC is STAT1/composition-conditioned, not orthogonal. |
 | 24 | V32 module specificity comparison for exact tofacitinib cohort | done | IFN/STAT-led but glycolysis-tied; dynamic broad remodeling, not IFN-exclusive. |
 | 25 | Focused two-lineage cross-exam of updated conservative lead | done | Glycolysis decoupling queued; several other issues external-data gated. |
-| 26 | Glycolysis decoupling from IFN/STAT | in_progress | Residualize glycolysis against IFN/STAT and IFN/STAT against glycolysis. |
+| 26 | Glycolysis decoupling from IFN/STAT | done | Glycolysis is coupled context, not independent mechanism; IFN/STAT primary. |
+| 27 | Technical metadata and batch-confounding feasibility check | in_progress | Check batch/capture/date/QC metadata availability and test if possible. |
 
 ## Timing Rule
 
