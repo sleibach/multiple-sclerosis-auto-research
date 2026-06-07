@@ -827,3 +827,33 @@ Next test:
 - APC-resolved MS blood/CSF or lesion lipidomics with oxysterols and cholesterol
   efflux markers, paired to APC/HLA-II state readouts and perturbation of the
   `LXR/ABCA1/ABCG1/CH25H/SREBF2` axis.
+
+## Iteration 24: Final Two-Lineage Cross-Exam
+
+Status: **ranking unchanged / top artifact risk sharpened**.
+
+Executable grounding:
+
+- Prompt and outputs: `analysis/v35_two_lineage_final_cross_exam/`
+- Claude 4.7 Opus completed a longer critique but ended after the lysosomal
+  item.
+- Gemini 2.5 Pro failed twice with `MAX_TOKENS`; Gemini 3.1 Flash Lite completed
+  a compact critique.
+
+Result:
+
+- Both lineages treated the T/B gate as useful but vulnerable to artifact:
+  generic lymphocyte/cellularity/variance artifact (Claude) or downstream
+  systemic-inflammation artifact (Gemini).
+- Both kept postpartum APC as clinically valuable but blocked by missing
+  postpartum relapse-window data.
+- Both kept metabolic/sterol and lysosomal APC as mechanism/context hypotheses
+  requiring perturbation or functional assays.
+- Neither model output changed the data-grounded ranking.
+
+Interpretation:
+
+The cross-exam added one concrete next stress test: if possible, test whether
+the T/B gate is merely a generic compartment artifact by applying analogous
+compartment scoring in an orthogonal myeloid-dominant perturbation context. If
+T/B wins there too, the current gate is likely artifactual.

@@ -309,10 +309,25 @@ Target block end UTC: 2026-06-07T17:37:36Z
 ### Iteration 24
 
 - Start UTC: 2026-06-07T17:27:18Z
-- Status: in_progress
+- End UTC: 2026-06-07T17:30:13Z
+- Status: completed
 - Item selected: Two-lineage cross-exam of revised V35 shortlist.
 - Note: Ask Claude and Gemini for the fatal weakness and strongest next test of
   the revised shortlist after EBV downgrade; use as prioritization only.
+- Result: completed with Claude 4.7 Opus and Gemini 3.1 Flash Lite. Gemini 2.5
+  Pro failed twice with `MAX_TOKENS`; flash completed. Models did not change
+  the data-grounded ranking, but sharpened the top risk: the T/B gate may be a
+  generic lymphocyte/cellularity or systemic-inflammation artifact unless tested
+  in an independent compartment-resolved or orthogonal myeloid-dominant context.
+
+### Iteration 25
+
+- Start UTC: 2026-06-07T17:30:13Z
+- Status: in_progress
+- Item selected: Orthogonal-context T/B artifact feasibility check.
+- Note: Determine whether existing Mixscale or treatment pharmacodynamic
+  module matrices can test the model-raised T/B generic-compartment artifact
+  without new data.
 
 ## Backlog
 
@@ -341,7 +356,8 @@ Target block end UTC: 2026-06-07T17:37:36Z
 | 21 | Metabolic/sterol setpoint specificity and actionability review | done | Remains context-supported and confounder-relevant, not intervention-grade. |
 | 22 | Re-rank V35 shortlist after EBV downgrade and blocker audit | done | Headline shortlist updated after EBV specificity failure and blocker audits. |
 | 23 | V35 blocked-data request list | done | Wrote `meta/V35_BLOCKED_DATA_REQUESTS.md` with concrete dataset/experiment pass-kill specs. |
-| 24 | Two-lineage cross-exam of revised V35 shortlist | in_progress | Run Claude/Gemini critique of final V35 ranking; model output is prioritization only. |
+| 24 | Two-lineage cross-exam of revised V35 shortlist | done | Claude/Gemini did not change ranking; they sharpened T/B generic-compartment artifact risk. |
+| 25 | Orthogonal-context T/B artifact feasibility check | in_progress | Check whether held matrices can test T/B generic-compartment artifact now. |
 
 ## Timing Rule
 
