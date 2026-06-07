@@ -319,10 +319,38 @@ V28 heterogeneous-toolchain robustness checkpoint:
     dynamic-vector features do not improve it;
   - validate the immutable scalar rather than adding complexity.
 
+V29 independent-lens and dormant-lead checkpoint:
+
+- Reports:
+  - `docs/history/LEAD_INVENTORY_V29.md`.
+  - `meta/INDEPENDENT_REVIEW_QUEUE_V29.md`.
+  - `meta/queues/V29_QUEUE.md`.
+- Cross-lineage key status:
+  - `ANTHROPIC_API_KEY`, `GOOGLE_API_KEY`, and `GEMINI_API_KEY` absent after
+    explicit `.env` load.
+  - independent model review not run; queued for immediate use when a key is
+    provided.
+- Dormant-lead result:
+  - no dormant lead became intervention-grade;
+  - postpartum HLA-II/CD64 APC-axis split is the best reactivated biology lead;
+  - MIF/CD74 is partially reactivated as coupled APC context, not as a
+    standalone target/predictor;
+  - ZMIZ1 remains a transfer-validity decoupling finding;
+  - NAMPT, PTGER4, ZFP36L1, REL/PUS10/USP34, and generic TYK2 remain parked or
+    closed.
+- Cross-domain reframing:
+  - NAMPT/HIF/glycolysis should be used as a metabolic-stress covariate in
+    future APC/HLA-II monitoring validation, not as a revived target;
+  - systems/dynamics reframing supports the simple V22 scalar over generic
+    trajectory geometry;
+  - structural reframing keeps FPR2/ALX as a wet-lab comparator, not a current
+    computational MS target.
+
 Next session first action:
 
 1. Run `.venv/bin/python scripts/check_opengwas_access.py`.
-2. Read `docs/workups/treatment_response/ROBUSTNESS_MAP_V28.md`, `docs/workups/treatment_response/COUPLED_AXIS_V27.md`, `docs/validation/VALIDATION_READINESS_V27.md`,
+2. Read `docs/history/LEAD_INVENTORY_V29.md`, `meta/INDEPENDENT_REVIEW_QUEUE_V29.md`,
+   `docs/workups/treatment_response/ROBUSTNESS_MAP_V28.md`, `docs/workups/treatment_response/COUPLED_AXIS_V27.md`, `docs/validation/VALIDATION_READINESS_V27.md`,
    `docs/findings/DEEP_STRUCTURE_V26.md`, `docs/workups/treatment_response/MODEL_CARD_V25.md`, `docs/workups/microbiome/DATA_SCOUT_V24.md`,
    `analysis/v24_data_scout/v24_candidate_inventory.tsv`,
    `docs/workups/treatment_response/APC_HLA_MONITORING_WORKUP_V23.md`, and `docs/locked_rules/LOCKED_RULE_V22.md`.
@@ -332,25 +360,29 @@ Next session first action:
    validated clinical rule or target. V27 showed the coupled representation did
    not outperform the V22 scalar, and V28 showed heterogeneous local methods
    support the scalar but not added model complexity.
-4. Primary next action is human/low-barrier
+4. If `ANTHROPIC_API_KEY`, `GOOGLE_API_KEY`, or `GEMINI_API_KEY` is provided,
+   verify it and run the queued independent review package in
+   `meta/INDEPENDENT_REVIEW_QUEUE_V29.md`; ground every proposal before using
+   it.
+5. Primary next action is human/low-barrier
    acquisition of Gafson et al. 2018 DMF PBMC RNA-seq processed counts plus
    sample-level NEDA-4 responder labels (PMID `30283812`, DOI
    `10.1212/nxi.0000000000000470`).
-5. Secondary acquisition: request response-label mapping for
+6. Secondary acquisition: request response-label mapping for
    `GSE130478/GSE130491/GSE130494` from the GEO contact so the open DMF
    expression/methylation data become analyzable.
-6. Optional computational stress test, only if the medical team accepts the
+7. Optional computational stress test, only if the medical team accepts the
    caveat: apply the unchanged V22 rule to the unused `GSE85034_MTX` arm
    (psoriasis methotrexate, same-study context, paired baseline/week16,
    PASI75 labels).
-7. Extend LDSC rg to remaining map diseases once the best OpenGWAS IDs are
+8. Extend LDSC rg to remaining map diseases once the best OpenGWAS IDs are
    selected and verified: psoriasis, T1D, Sjogren's, celiac disease,
    autoimmune thyroid disease, and myasthenia gravis.
-8. Keep chr1 (`KIF21B`/`GPR25`) in wet-lab/controlled-data handoff status; do
+9. Keep chr1 (`KIF21B`/`GPR25`) in wet-lab/controlled-data handoff status; do
    not continue it computationally unless new genotype-linked protein/CSF data
    arrives.
-9. Preserve `ZMIZ1` as a decoupling finding; do not re-litigate unless formal
+10. Preserve `ZMIZ1` as a decoupling finding; do not re-litigate unless formal
    QTL coloc is needed for publication-grade writeup.
-10. Do not spend more time on V21 chr14 `ZFP36L1`, V21 chr2
+11. Do not spend more time on V21 chr14 `ZFP36L1`, V21 chr2
    `REL/PUS10/USP34`, `PTGER4`, chr17 `STAT3/STAT5`, generic `TYK2`, or MHC
    overlap as current leads without new fine-mapped or signal-specific data.

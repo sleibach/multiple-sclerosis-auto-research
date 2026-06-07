@@ -40,7 +40,11 @@ V11 introduced the resume backbone for short-session continuity.
   bootstrap, and jackknife lenses, but model-flexibility fragile: ridge
   multifeature ML, receptor-only, coupled-axis, and generic dynamic-vector
   variants do not improve it. The scalar remains the best frozen rule for
-  future external validation.
+  future external validation. V29 then checked for an independent cross-lineage
+  model key; none was configured, so the review package was queued. Local
+  dormant-lead reactivation found no intervention-grade rescue; the postpartum
+  HLA-II/CD64 APC-axis split is the best reactivated biology lead, and
+  MIF/CD74 is retained as coupled-APC context rather than a standalone target.
 - Current genetics/data focus: the chr1 MS-UC causal-gene question is
   computationally resolved for now and handed forward as real shared genetics,
   not an intervention-grade target. V20 widened back out to a ranked
@@ -147,6 +151,7 @@ that explicitly in `meta/SESSION_LOG.md`.
 | V20 | Next-tier lead generation across the full landscape. | Produced `docs/history/LEAD_SLATE_V20.md` and `analysis/v20_lead_slate/lead_slate_v20.tsv`: 13 pre-vetted candidates across four workstreams, with 5 promising follow-ups, 2 hard-target real-biology findings, and 6 negative/not-now entries. Top lead is dynamic APC/HLA-II treatment-response monitoring; next genetics follow-ups are chr14 `ZFP36L1` and chr2 `REL/PUS10/USP34`. |
 | V21 | Genome-wide genetic-correlation backdrop and queued next-tier locus vetting. | Used the verified LDSC panel to compute rg for MS vs UC, Crohn, RA, and SLE; UC is the strongest tested genetic comparator for MS. Bounded SuSiE-coloc parked chr14 `ZFP36L1` as suggestive and closed chr2 `REL/PUS10/USP34` as not-now. See `docs/workups/genetics/GENETIC_CORRELATION_BACKDROP_V21.md` and `docs/history/LEAD_SLATE_V21.md`. |
 | V22-V28 | Locked APC/HLA-II treatment-response monitoring validation and robustness testing. | V22 locked the dynamic scalar rule before held-out testing; V23 bounded it to immune-remodeling/JAK-STAT contexts; V27 showed coupled-axis successors do not beat the scalar; V28 showed the scalar is statistically tool-robust but not improved by flexible ML or adjacent dynamic features. See `docs/workups/treatment_response/ROBUSTNESS_MAP_V28.md`. |
+| V29 | Independent-lens review queue and dormant-lead reactivation. | No Anthropic/Google/Gemini key was configured, so the independent review was queued. Local reactivation found no intervention-grade dormant lead; postpartum HLA-II/CD64 APC split is the best dormant biology lead, ZMIZ1 remains a transfer-validity finding, MIF/CD74 is mechanism context, and NAMPT/PTGER4/ZFP36L1/REL/TYK2 remain parked or closed. See `docs/history/LEAD_INVENTORY_V29.md`. |
 
 `docs/findings/FINDING.md` documents the (since-demoted) `ACSL1` target hypothesis from an
 earlier phase and is retained for the historical trace.
@@ -223,6 +228,13 @@ V28 reproducibility entry point:
 - `scripts/v28_heterogeneous_response_analysis.py` reruns the heterogeneous
   local robustness analysis of the immutable V22 treatment-response scalar and
   writes outputs under `analysis/v28_heterogeneous_response/`.
+
+V29 review artifacts:
+
+- `meta/INDEPENDENT_REVIEW_QUEUE_V29.md` is the queued package for a future
+  Anthropic/Google/Gemini independent-lens review.
+- `docs/history/LEAD_INVENTORY_V29.md` records the grounded dormant-lead
+  reactivation and cross-domain reframing pass.
 
 LDSC reference panel:
 

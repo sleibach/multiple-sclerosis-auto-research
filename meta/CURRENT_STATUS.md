@@ -19,7 +19,9 @@ the monitoring lead by therapy mechanism. V27 showed coupled-axis successors do
 not beat the immutable V22 scalar. V28 then stress-tested the bounded signal
 with heterogeneous local tools and found the scalar statistically tool-robust
 but not improved by flexible ML, receptor-only, coupled-axis, or generic
-dynamic-vector variants.
+dynamic-vector variants. V29 checked for a cross-lineage independent model key;
+none was configured, so the adversarial review package was queued. The local
+dormant-lead reactivation pass found no intervention-grade dormant rescue.
 
 Current frontier:
 
@@ -66,6 +68,20 @@ Current frontier:
     dynamic-vector features do not beat the scalar.
   - Verdict: the bounded signal is statistically tool-robust but
     model-flexibility fragile; validate the scalar, do not add complexity.
+- V29 dormant-lead reactivation:
+  - Reports: `docs/history/LEAD_INVENTORY_V29.md` and
+    `meta/INDEPENDENT_REVIEW_QUEUE_V29.md`.
+  - Cross-lineage keys checked: `ANTHROPIC_API_KEY`, `GOOGLE_API_KEY`, and
+    `GEMINI_API_KEY` absent.
+  - No independent sub-model output was used.
+  - No dormant lead became intervention-grade.
+  - Best reactivated biology lead: postpartum HLA-II/CD64 APC-axis split for
+    flare-timing/natural-experiment work.
+  - MIF/CD74 is partially reactivated as coupled APC mechanism context, not as
+    a standalone target or predictor.
+  - ZMIZ1 remains a robust transfer-validity decoupling finding.
+  - NAMPT, PTGER4, ZFP36L1, REL/PUS10/USP34, and generic TYK2 remain parked or
+    closed under current standards.
 - `GPR25` remains a live eQTLGen-supported lead, but not a protected favorite:
   public V18 immune-QTL sources did not support it, and its required therapeutic
   direction is agonism/restoration of a sparsely tooled receptor.

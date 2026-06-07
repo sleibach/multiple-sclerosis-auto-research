@@ -510,3 +510,17 @@ Next session first action:
 - Breadth value: broadened tooling strengthened confidence in the simple immutable scalar and argued against adding complexity before fresh validation.
 - Stop reason: completed all V28 workstreams with local tools; no long-running analysis processes remain.
 - Next action: acquire/request Gafson et al. 2018 DMF PBMC RNA-seq processed counts plus NEDA-4 labels and run the frozen V22 scoring harness mechanically; if `OPENAI_API_KEY` is provided, run `python3 scripts/check_openai_access.py` and use it only to generate additional grounded critique proposals.
+
+## RUN SUMMARY - 2026-06-07 00:30 UTC
+
+- Active runtime: approximately 16 minutes; total elapsed approximately 16 minutes; no usage-limit waiting time observed.
+- Session start UTC: 2026-06-07 00:14 UTC.
+- Session end UTC: 2026-06-07 00:30 UTC.
+- Frontier advanced: V29 independent-lens queue and dormant-lead reactivation completed; OpenGWAS verified; Anthropic/Google/Gemini key absence documented; wrote `meta/INDEPENDENT_REVIEW_QUEUE_V29.md`, `meta/queues/V29_QUEUE.md`, and `docs/history/LEAD_INVENTORY_V29.md`; README, current status, next actions, and RAG index updated.
+- Cross-lineage lens availability and spend: no `ANTHROPIC_API_KEY`, `GOOGLE_API_KEY`, or `GEMINI_API_KEY` configured; independent sub-model not used; paid spend `$0`.
+- Independent-lens proposals grounded: none this session because no cross-lineage key was available; full review package queued for immediate use when a key lands.
+- Dormant leads reactivated: no intervention-grade dormant lead; postpartum HLA-II/CD64 APC-axis split reactivated as the best natural-experiment biology lead; MIF/CD74 partially reactivated as coupled APC context; ZMIZ1 preserved as a transfer-validity decoupling finding.
+- Cross-domain reframings and outcomes: NAMPT/HIF/glycolysis reframed as metabolic-stress covariate, not target; systems/dynamics reframing supports the simple V22 scalar over generic trajectory geometry; structural reframing keeps FPR2/ALX as a wet-lab comparator only.
+- Refreshed lead inventory: top queue is V22 APC/HLA-II scalar validation, postpartum HLA-II/CD64 split, ZMIZ1 decoupling, chr1 KIF21B/GPR25 controlled-data handoff, MIF/CD74 context, FPR2/ALX comparator, NAMPT covariate; NAMPT/PTGER4/ZFP36L1/REL/TYK2 remain parked or closed.
+- Stop reason: completed all available V29 workstreams; model-gated Workstream A is blocked only by absent cross-lineage key; no long-running analysis processes remain.
+- Next action: if `ANTHROPIC_API_KEY`, `GOOGLE_API_KEY`, or `GEMINI_API_KEY` is provided, verify and run `meta/INDEPENDENT_REVIEW_QUEUE_V29.md`; otherwise continue acquiring/requesting Gafson et al. 2018 DMF PBMC RNA-seq counts plus NEDA-4 labels and run the frozen V22 scoring harness mechanically.
