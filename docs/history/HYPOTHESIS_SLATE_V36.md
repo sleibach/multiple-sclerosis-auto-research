@@ -1573,3 +1573,28 @@ responder/nonresponder transcriptomes not currently local for every therapy
 class. The closest held-data substitute was already executed in Iterations
 39-46: branch-map consolidation, IFN-beta timing/dose audits, and MS DMT
 sensitivity. No new finding or upgrade is made from the model output.
+
+## Iteration 48: Branch Cross-Exam Dataset Availability Audit
+
+Status: **completed / model-proposed cross-drug tests require acquisition**.
+
+Executable artifact:
+
+- `analysis/v36_branch_cross_exam/availability_audit.md`
+
+Result:
+
+The local repository holds usable treatment-response artifacts for:
+
+- `GSE235357` MS DMF;
+- `GSE250453` MS fingolimod;
+- `GSE85034` psoriasis ADA/MTX;
+- `GSE253006` UC tofacitinib;
+- `GSE24427` and `GSE138064` MS IFN-beta;
+- `GSE97779` as an RA macrophage artifact, not a clean response cohort.
+
+The model-named cross-drug classifier/GSEA datasets `GSE19285`, `GSE126480`,
+`GSE73721`, `GSE33377`, and `GSE15573` were not found as usable local
+treatment-response data. Some are mentioned only in old scout text. Therefore
+the classifier/GSEA proposal is a future acquisition workstream; it is not an
+unrun in-hand analysis.
