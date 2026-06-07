@@ -1,0 +1,20 @@
+{
+  "archive_sha256_recorded_elsewhere": "642fa1ac9c2ac6e643030859d0344cc4aabf954dd195a4b752808e05bf89375e",
+  "grounded_result": "host_ebv_transformation_module_acquired_not_yet_ms_sle_tested",
+  "hypothesis": "EBV/IFN APC imprint module acquisition",
+  "ifn_apc_overlap_in_up_module": [
+    "ISG15"
+  ],
+  "interpretation": "GSE162516 provides a usable host B-cell EBV-transformation time-course module. It does not by itself establish an MS/SLE EBV imprint and does not include viral EBNA/LMP marker rows in the parsed human gene table. The next grounding step is to score this host module in MS/SLE B-cell or APC data and residualize against generic STAT1/IFN/APC tone.",
+  "minimum_next_test": [
+    "Score host_ebv_transformation_up_top200 in MS/SLE B-cell/APC datasets.",
+    "Adjust for STAT1/IFN/APC module to test EBV-specific residual signal.",
+    "Require EBV-serostatus or viral-load metadata before claiming EBV imprint."
+  ],
+  "n_genes_total": 44714,
+  "n_host_late_down_log2fc_le_minus_1": 2703,
+  "n_host_late_up_log2fc_ge_1_rpkm_ge_1": 3363,
+  "n_protein_coding": 19357,
+  "source": "GSE162516 processed supplementary archive",
+  "viral_latency_markers_present_in_human_table": []
+}

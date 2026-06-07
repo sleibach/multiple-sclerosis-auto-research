@@ -47,7 +47,7 @@ Minimum next test:
 | 3 | Complement/lipid progressive axis | downgraded: lipid-repair context only; complement not supported donor-aware | Acquire/compute true donor-aware lesion-rim spatial lipid/complement data before reviving |
 | 4 | Metabolic/sterol setpoint | supported as context axis, not intervention-grade | APC-resolved lipidomics plus sterol-pathway perturbation |
 | 5 | Lysosomal APC-processing bottleneck | reframed: coupled lysosomal APC axis, not proven bottleneck | Run functional lysosomal flux / HLA-peptidomics experiment |
-| 6 | MS-SLE EBV/IFN APC imprint | needs data | Acquire/build EBV-response module and EBV-stratified MS/SLE B-cell/APC data |
+| 6 | MS-SLE EBV/IFN APC imprint | host EBV-transformation module acquired; MS/SLE test still pending | Score host EBV module in MS/SLE B-cell/APC data and residualize against STAT1/IFN |
 
 ## Iteration 4: T/B Compartment Remodeling Gate
 
@@ -169,6 +169,49 @@ Next test:
 - The necessary data remains a true postpartum MS cohort with late pregnancy,
   6-week postpartum, and 3-6-month postpartum immune profiles plus relapse and
   steroid/DMT/lactation metadata.
+
+## Iteration 11: EBV-Response Module Acquisition Feasibility
+
+Status: **host EBV-transformation module acquired; MS/SLE imprint not yet
+tested**.
+
+Executable grounding:
+
+- Downloaded source: `data/raw_v35/ebv_gse162516/GSE162516_RAW.tar`
+- SHA-256:
+  `642fa1ac9c2ac6e643030859d0344cc4aabf954dd195a4b752808e05bf89375e`
+- Script: `scripts/v35_ebv_module_from_gse162516.py`
+- Outputs: `analysis/v35_ebv_module_gse162516/`
+- Dataset: GSE162516 host B-cell EBV/LCL transformation time course
+  (`D0`, `D3`, `D7`, `D14`, `D21`, `LCL`).
+
+Result:
+
+- Parsed `44,714` genes, `19,357` protein-coding.
+- Built a conservative host late-EBV-transformation up module:
+  `3,363` protein-coding genes with late mean RPKM `>= 1` and log2 late-vs-D0
+  `>= 1`.
+- Built a down module with `2,703` protein-coding genes.
+- Only one V22-style IFN/APC gene overlaps the top host EBV-up module:
+  `ISG15`.
+- Viral latency markers (`EBNA1`, `EBNA2`, `LMP1`, `LMP2A`, `LMP2B`, `BZLF1`)
+  are not present as rows in the parsed human gene table, so the module is a
+  host transformation response, not direct viral-transcript detection.
+
+Interpretation:
+
+The EBV/IFN APC imprint hypothesis is no longer blocked by absence of any EBV
+response module: a host EBV-transformation module is now local and reproducible.
+It remains untested in MS/SLE and cannot be called EBV-specific in patient data
+without EBV serostatus/viral-load metadata and STAT1/IFN residualization.
+
+Next test:
+
+1. Test whether the host EBV module is separable from generic IFN/APC within
+   GSE162516 itself.
+2. Score it in MS/SLE B-cell/APC data when a suitable dataset is present.
+3. Require EBV-serostatus or viral-load metadata before promoting an imprint
+   claim.
 
 ## Iteration 5: Lysosomal APC-Processing Bottleneck
 

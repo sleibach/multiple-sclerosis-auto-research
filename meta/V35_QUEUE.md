@@ -129,10 +129,22 @@ Target block end UTC: 2026-06-07T17:37:36Z
 ### Iteration 11
 
 - Start UTC: 2026-06-07T17:05:12Z
-- Status: in_progress
+- Status: completed
 - Item selected: EBV-response module acquisition feasibility.
 - Note: Find whether an EBV/LMP1/EBNA response module can be built from local or
   reachable public data now, without claiming EBV-specific biology until tested.
+- Result: acquired host EBV-transformation module from GSE162516. Downloaded
+  processed archive, checksum recorded, parsed `44,714` genes and built top
+  host late-transformation up/down modules. Viral EBNA/LMP rows are absent from
+  the human gene table; patient MS/SLE imprint remains untested.
+
+### Iteration 12
+
+- Start UTC: 2026-06-07T17:07:38Z
+- Status: in_progress
+- Item selected: EBV module IFN/APC separability.
+- Note: Test whether the acquired host EBV-transformation module is distinct
+  from generic IFN/APC within GSE162516 before using it on patient data.
 
 ## Backlog
 
@@ -148,7 +160,8 @@ Target block end UTC: 2026-06-07T17:37:36Z
 | 8 | Donor-aware complement/lipid progressive-axis hardening | done | Downgraded: donor-level test supports lipid-repair context only; complement not supported. |
 | 9 | T/B gate fragility check | done | Fragile but not collapsed; W48 exclusion and all leave-one-patient gaps remain positive. |
 | 10 | GSE17410/GSE17449 postpartum-MS feasibility check | done | Pregnancy-phase HLA/CD64 scoring feasible; postpartum relapse-window data absent. |
-| 11 | EBV-response module acquisition feasibility | in_progress | Find/build EBV-specific module source for later EBV/IFN APC imprint testing. |
+| 11 | EBV-response module acquisition feasibility | done | Host EBV-transformation module acquired from GSE162516; not yet MS/SLE tested. |
+| 12 | EBV module IFN/APC separability | in_progress | Test host EBV module independence from generic IFN/APC across GSE162516 time course. |
 
 ## Timing Rule
 
