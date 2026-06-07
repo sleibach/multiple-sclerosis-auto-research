@@ -1,0 +1,72 @@
+[
+  {
+    "id": "global_ifn_tone_confound",
+    "hypothesis": "The B/plasma STAT1/IRF1/GBP1/ISG15 downshift reflects a global IFN tone change rather than a compartment-specific signal.",
+    "held_data_test": "Compute a pseudobulk per-sample mean expression of a broad Hallmark IFN-alpha/gamma gene set across all cells (compartment-agnostic) in GSE253006 and test responder vs non-responder AUC at W12; then partial-out this global IFN score from the B/plasma locked score and recompute AUC.",
+    "expected_failure_mode": "If global IFN tone alone yields AUC ~0.95 and B/plasma locked AUC collapses after residualization, the B/plasma specificity is illusory.",
+    "why_it_adds_value": "V36 only checked count/fraction residualization and cross-compartment gene scans, not residualization against a global IFN tone latent."
+  },
+  {
+    "id": "steroid_glucocorticoid_signature",
+    "hypothesis": "Apparent IFN/STAT downshift is confounded by concomitant glucocorticoid exposure producing a GC-response signature.",
+    "held_data_test": "Score each sample for a published glucocorticoid-response gene set (e.g., FKBP5, TSC22D3/GILZ, DDIT4, KLF9, PER1) per compartment; test correlation with the locked B/plasma score and whether responder/non-responder separation survives adjustment for the GC score.",
+    "expected_failure_mode": "High correlation (|r|>0.7) and loss of responder AUC after GC-score adjustment would indicate steroid confounding.",
+    "why_it_adds_value": "Steroid confounding has not been examined and is a standard alternative explanation in autoimmune treatment cohorts."
+  },
+  {
+    "id": "baseline_vs_delta_decomposition",
+    "hypothesis": "The locked W12 score separates responders mainly via baseline differences, not treatment-induced change.",
+    "held_data_test": "Decompose the B/plasma locked score into W0 baseline and (W12-W0) delta per patient; compute responder AUC for baseline-only and delta-only; bootstrap CIs.",
+    "expected_failure_mode": "If baseline-only AUC matches the W12 AUC and delta AUC is near 0.5, the lead is a baseline biomarker, not a treatment-response readout.",
+    "why_it_adds_value": "V36 framed this as treatment-response without separating prognostic baseline signal from pharmacodynamic delta."
+  },
+  {
+    "id": "permutation_label_null",
+    "hypothesis": "AUC=1.000 for STAT1 in B/plasma is within the null given small n and gene-scan multiplicity.",
+    "held_data_test": "Run 10,000 responder-label permutations; for each, scan all genes in B/plasma and record max AUC; report the empirical p-value for observed STAT1 AUC=1.000 and the FWER-adjusted threshold.",
+    "expected_failure_mode": "If >5% of permutations yield max AUC>=1.000 (achievable at this n), STAT1 specificity is not above chance.",
+    "why_it_adds_value": "The locked-module null was tested but a label-permutation gene-scan null controlling for gene-scan multiplicity has not been reported."
+  },
+  {
+    "id": "compartment_specificity_ranking",
+    "hypothesis": "B/plasma is not the most informative compartment for the IFN/STAT readout once effect size and stability are jointly considered.",
+    "held_data_test": "For each compartment (B/plasma, T, myeloid, other), compute locked-score AUC, leave-one-out AUC stability, and effect size (Cliff's delta); rank compartments and test whether B/plasma is dominated.",
+    "expected_failure_mode": "If myeloid matches or exceeds B/plasma on AUC and stability, the B/plasma framing is not defensible.",
+    "why_it_adds_value": "Cross-compartment scan in V36 only checked whether other compartments also reached AUC 1.0, not a joint stability+effect ranking."
+  },
+  {
+    "id": "w48_timepoint_consistency",
+    "hypothesis": "The IFN/STAT downshift is W12-specific and does not persist or strengthen at W48, undermining a durable treatment-response interpretation.",
+    "held_data_test": "Recompute B/plasma locked score and STAT1 single-gene AUC at W48 (with the W48 responder included and excluded); compare trajectory W0 -> W12 -> W48 per patient.",
+    "expected_failure_mode": "Non-monotonic or reverting trajectories at W48 (score returning to baseline in responders) weaken the durable-response claim.",
+    "why_it_adds_value": "V36 only addressed W48 by exclusion sensitivity, not by trajectory analysis."
+  },
+  {
+    "id": "cell_composition_artifact_within_bplasma",
+    "hypothesis": "Within-B/plasma subset shifts (e.g., naive vs memory vs plasmablast) drive the locked score rather than per-cell IFN downregulation.",
+    "held_data_test": "Subcluster B/plasma cells; compute locked score within each subcluster separately and test responder AUC; also test whether subcluster fractions alone predict response.",
+    "expected_failure_mode": "If the score only separates responders at the bulk level but is flat within subclusters while subcluster fractions separate responders, the signal is compositional within B/plasma.",
+    "why_it_adds_value": "Prior count/fraction residualization was at the major-compartment level, not within B/plasma subsets."
+  },
+  {
+    "id": "alt_dormant_plasmablast_hypothesis",
+    "hypothesis": "An alternative readout — plasmablast/ASC contraction — explains responder separation as well as or better than the IFN/STAT module.",
+    "held_data_test": "Score each sample for a plasmablast/ASC signature (XBP1, MZB1, JCHAIN, PRDM1, CD38) and ASC fraction; compute responder AUC and compare via DeLong-style test against the locked IFN/STAT score.",
+    "expected_failure_mode": "If plasmablast contraction yields equal/higher AUC and the IFN/STAT score becomes non-significant after adjusting for it, the dormant hypothesis supersedes the lead.",
+    "why_it_adds_value": "V36 has not seriously evaluated a non-IFN biological alternative within the B-lineage."
+  },
+  {
+    "id": "leave_one_patient_out_stability",
+    "hypothesis": "The locked AUC is driven by one or two influential patients beyond the known W48 responder.",
+    "held_data_test": "Run leave-one-patient-out for B/plasma locked score and STAT1 single-gene AUC; report the distribution of AUCs and identify any patient whose removal drops AUC below 0.8.",
+    "expected_failure_mode": "If removing any single non-W48 patient collapses AUC, the result is not robust at this n.",
+    "why_it_adds_value": "V36 only tested W48-responder exclusion; full LOPO stability has not been characterized."
+  },
+  {
+    "id": "orthogonal_pathway_specificity",
+    "hypothesis": "The responder-discriminating signal is not IFN/STAT-specific but matches any moderately variable immune pathway in B/plasma.",
+    "held_data_test": "Score B/plasma with 20 unrelated Hallmark/Reactome modules of similar size (e.g., oxidative phosphorylation, MYC targets, cholesterol biosynthesis, hypoxia, complement); record responder AUC distribution and rank IFN/STAT against it.",
+    "expected_failure_mode": "If >25% of unrelated modules reach AUC>=0.9, IFN/STAT specificity is not meaningful at this n.",
+    "why_it_adds_value": "Extends the locked-gene null (5/15 matched) to a pathway-level null with biologically diverse modules, sharpening the specificity claim."
+  }
+]

@@ -251,11 +251,27 @@
 ### Iteration 17
 
 - Start UTC: 2026-06-07T19:01:37Z
-- Status: in_progress
+- End UTC: 2026-06-07T19:04:39Z
+- Status: completed
 - Item selected: Refined tri-source generation after specificity audit.
 - Note: Ask Claude/Gemini, and use RPT table context, for new executable tests
   now that the T/B lead has been narrowed to broad IFN/APC remodeling with
   specificity limits.
+- Result: Claude returned 10 concrete JSON analyses. Gemini failed the long
+  prompt by `MAX_TOKENS`, then returned 6 usable analyses from a compact prompt.
+  Convergent next tests: B/plasma-versus-myeloid IFN/STAT correlation,
+  leave-one-gene module dependence, global IFN/steroid residualization where
+  markers exist, and within-B/plasma composition if cell-level artifacts are
+  accessible.
+
+### Iteration 18
+
+- Start UTC: 2026-06-07T19:04:39Z
+- Status: in_progress
+- Item selected: B/plasma-vs-myeloid IFN independence and leave-one-gene module
+  dependence.
+- Note: Ground the strongest executable two-lineage proposals from Iteration
+  17 on exact compartment data.
 
 ## Backlog
 
@@ -276,7 +292,8 @@
 | 13 | Timepoint and responder-leverage sensitivity for B/plasma IFN/STAT carrier | done | Not driven by W48 TOF_009 or one removable patient; still internal only. |
 | 14 | Cross-compartment STAT1/IFN specificity scan | done | STAT1 downshift is broad, not B/plasma-specific; compartment specificity weakened. |
 | 15 | Same-compartment random/module negative control for IFN/STAT signal | done | Limited locked-gene combo null blocks narrow IFN/STAT four-gene specificity claim. |
-| 16 | Refined tri-source generation after specificity audit | in_progress | Generate next executable grounding tests under the updated conservative lead state. |
+| 16 | Refined tri-source generation after specificity audit | done | Claude/Gemini generated concrete next tests; no evidence upgrade. |
+| 17 | B/plasma-vs-myeloid IFN independence and leave-one-gene module dependence | in_progress | Test redundancy with myeloid IFN and whether one gene drives the module. |
 
 ## Timing Rule
 

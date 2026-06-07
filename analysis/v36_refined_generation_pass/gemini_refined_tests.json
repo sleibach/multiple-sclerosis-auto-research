@@ -1,0 +1,46 @@
+```json
+[
+  {
+    "id": "V36_A01",
+    "hypothesis": "The B/plasma locked score (AUC 0.950) is robust and not an artifact of overfitting to the full dataset.",
+    "held_data_test": "Perform a stratified 50/50 split of the data. Train the B/plasma locked score model on the first half and calculate its AUC on the held-out second half.",
+    "expected_failure_mode": "The AUC on the held-out data drops significantly below 0.950 (e.g., < 0.85), suggesting the original model was overfit and the signature is not generalizable.",
+    "why_it_adds_value": "Directly addresses the 'unreplicated' status of the lead by providing a basic internal cross-validation, which is the fastest way to assess robustness before seeking external replication."
+  },
+  {
+    "id": "V36_A02",
+    "hypothesis": "The STAT1 downshift signature in B/plasma cells is independent of the stronger signal observed in myeloid cells.",
+    "held_data_test": "Create two per-patient scores for the STAT1/IRF1/GBP1/ISG15 module: one calculated using only myeloid cells, and one using only B/plasma cells. Correlate these two scores across all patients.",
+    "expected_failure_mode": "A very high correlation (e.g., r > 0.8) between the myeloid and B/plasma scores, indicating the B/plasma signal is redundant and likely reflects the dominant myeloid biology or technical spillover.",
+    "why_it_adds_value": "Falsifies or supports the B/plasma-centric lead by quantifying the signal's independence, helping to pivot the focus to the correct primary cell type (myeloid vs. B/plasma)."
+  },
+  {
+    "id": "V36_A03",
+    "hypothesis": "The T-cell signature (AUC 1.000) is driven by changes in gene expression within T-cells, not just by a shift in T-cell subset composition.",
+    "held_data_test": "Identify a core T-cell sub-cluster present in both case and control groups. Recalculate the T-cell score and its AUC using only the cells from this stable, shared sub-cluster.",
+    "expected_failure_mode": "The AUC of the score calculated within the stable sub-cluster drops to ~0.5, proving the original perfect score was driven entirely by the differential abundance of cell subsets, not an intra-cellular gene program.",
+    "why_it_adds_value": "De-risks the T-cell finding by definitively separating a true gene expression signal from a common compositional confounder, preventing a chase of a misleading artifact."
+  },
+  {
+    "id": "V36_A04",
+    "hypothesis": "The high performance of the B/plasma score is specific to the locked IFN-related genes (STAT1/IRF1/GBP1/ISG15).",
+    "held_data_test": "Generate an empirical null distribution by creating 100 new scores using randomly selected gene sets, matched to the locked genes for expression level and variance in B/plasma cells. Calculate the AUC for each null score.",
+    "expected_failure_mode": "A non-trivial number of random gene sets (e.g., >5%) achieve an AUC near or exceeding 0.950, suggesting the signature is not specific and reflects a general cellular state rather than a targeted IFN pathway.",
+    "why_it_adds_value": "Circumvents the 'limited locked-gene null blocks' by creating a robust statistical control, sharpening the claim that this specific IFN module is uniquely important."
+  },
+  {
+    "id": "V36_A05",
+    "hypothesis": "The B/plasma signature's strength relies on the collective downshift of the entire STAT1/IRF1/GBP1/ISG15 module.",
+    "held_data_test": "Perform a leave-one-out analysis on the B/plasma locked score. Recalculate the AUC four times, each time omitting one gene from the module (e.g., score without STAT1, score without IRF1, etc.).",
+    "expected_failure_mode": "Omitting a single gene (e.g., ISG15) causes the AUC to collapse (e.g., from 0.950 to <0.70), while omitting others has little impact. This would indicate the 'module' is actually a single-gene signature.",
+    "why_it_adds_value": "Refines the biological hypothesis from a 'module' to the minimal set of driver genes, providing a more precise target for downstream validation and mechanistic inquiry."
+  },
+  {
+    "id": "V36_A06",
+    "hypothesis": "The IFN signature in B/plasma cells is induced by IFN ligands produced by the myeloid compartment.",
+    "held_data_test": "Using a ligand-receptor database, correlate the per-patient expression of IFN ligands (e.g., IFNG, IFNA1) in myeloid cells with the per-patient B/plasma STAT1/IRF1/GBP1/ISG15 signature score.",
+    "expected_failure_mode": "No significant correlation is found between myeloid IFN ligand expression and the B/plasma signature score, suggesting the B/plasma IFN response is cell-intrinsic or driven by a non-myeloid source.",
+    "why_it_adds_value": "Proposes a mechanistic, cross-cell type connection that unifies the myeloid and B/plasma observations into a single, coherent biological narrative (myeloid cells signal to B-cells via IFN)."
+  }
+]
+```

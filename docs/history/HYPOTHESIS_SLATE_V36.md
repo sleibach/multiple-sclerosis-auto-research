@@ -517,3 +517,38 @@ prevents a narrow "STAT1/IRF1/GBP1/ISG15 module" claim. The surviving lead is
 broader and more conservative: **a response-associated IFN/APC remodeling signal
 with candidate T-cell and B/plasma readouts, internally robust but
 specificity-limited and unreplicated.**
+
+## Iteration 17: Refined Two-Lineage Generation After Specificity Audit
+
+Status: **completed / proposals queued, no evidence upgrade**.
+
+Executable artifacts:
+
+- Prompt: `analysis/v36_refined_generation_pass/prompt.md`
+- Compact Gemini prompt:
+  `analysis/v36_refined_generation_pass/gemini_short_prompt.md`
+- Outputs and summary: `analysis/v36_refined_generation_pass/`
+
+Model status:
+
+- Claude returned `10` concrete JSON analyses.
+- Gemini hit `MAX_TOKENS` on the long prompt, then returned `6` usable analyses
+  from the compact prompt.
+
+Highest-priority grounded follow-ups generated:
+
+1. B/plasma-versus-myeloid IFN/STAT correlation: test whether the B/plasma
+   signal is independent or redundant with myeloid IFN biology.
+2. Leave-one-gene module dependence: test whether the B/plasma IFN/STAT carrier
+   is a module or a single-gene signature.
+3. Global IFN-tone / steroid-like residualization where marker coverage exists.
+4. Within-B/plasma subset composition check if raw cell-level cluster artifacts
+   are accessible.
+
+Interpretation:
+
+The two-lineage pass added value by converging on the same vulnerability V36 had
+started to expose: the top lead may be a broad IFN-tone response, not a specific
+B/plasma mechanism. The next grounding work therefore focuses on independence,
+module dependence, and confound residualization rather than generating more
+hypotheses.
