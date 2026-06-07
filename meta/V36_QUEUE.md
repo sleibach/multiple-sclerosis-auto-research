@@ -284,11 +284,25 @@
 ### Iteration 19
 
 - Start UTC: 2026-06-07T19:06:53Z
-- Status: in_progress
+- End UTC: 2026-06-07T19:09:01Z
+- Status: completed
 - Item selected: Steroid/global inflammatory marker coverage and residualization
   check.
 - Note: Test whether available exact-matrix markers permit glucocorticoid or
   global inflammatory confound residualization; run where coverage exists.
+- Result: V32 subject-level confounders were available for `GSE253006_TOF_exact`.
+  Glucocorticoid residualization did not explain B/plasma or T-cell readouts
+  (AUCs stayed `0.950` and `1.000`), but residualizing against `delta_stat1_axis`
+  collapsed B/plasma (AUC `0.600`) and T-cell (AUC `0.500`). Interpretation:
+  not steroid artifact in held scores, but STAT1/IFN-axis dependent.
+
+### Iteration 20
+
+- Start UTC: 2026-06-07T19:09:01Z
+- Status: in_progress
+- Item selected: Baseline-versus-delta decomposition for compartment readouts.
+- Note: Test whether the refined readouts are monitoring dynamics or baseline
+  stratification using exact compartment baseline and treated scores.
 
 ## Backlog
 
@@ -311,7 +325,8 @@
 | 15 | Same-compartment random/module negative control for IFN/STAT signal | done | Limited locked-gene combo null blocks narrow IFN/STAT four-gene specificity claim. |
 | 16 | Refined tri-source generation after specificity audit | done | Claude/Gemini generated concrete next tests; no evidence upgrade. |
 | 17 | B/plasma-vs-myeloid IFN independence and leave-one-gene module dependence | done | B/plasma-independent mechanism demoted; broad IFN remodeling favored. |
-| 18 | Steroid/global inflammatory marker coverage and residualization check | in_progress | Test feasible confound residualization from exact marker coverage. |
+| 18 | Steroid/global inflammatory marker coverage and residualization check | done | Glucocorticoid did not explain; delta STAT1-axis did. |
+| 19 | Baseline-versus-delta decomposition for compartment readouts | in_progress | Distinguish baseline stratifier from dynamic monitoring readout. |
 
 ## Timing Rule
 

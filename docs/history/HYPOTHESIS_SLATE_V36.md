@@ -598,3 +598,41 @@ omitting `STAT1`, `GBP1`, or `ISG15` does not destroy the four-gene score, while
 single `STAT1` remains the strongest individual readout. The current top lead
 therefore becomes **broad cross-compartment IFN remodeling with T/B-readable
 outputs**, not a B/plasma-specific mechanism.
+
+## Iteration 19: Compartment Confounder Residualization
+
+Status: **completed / STAT1-axis dependence confirmed**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_compartment_confounder_residualization.py`
+- Outputs: `analysis/v36_compartment_confounder_residualization/`
+
+Test:
+
+Merge V36 compartment-level locked scores with V32 subject-level confounder
+scores for `GSE253006_TOF_exact`. Residualize B/plasma, T-cell, and myeloid
+locked scores against each confounder individually.
+
+Result:
+
+| Compartment | Raw AUC | Strongest attenuator | Residualized AUC | Exact p | Attenuation |
+|---|---:|---|---:|---:|---:|
+| `b_plasma_like` | `0.950` | `delta_stat1_axis` | `0.600` | `0.7302` | `0.350` |
+| `t_cell_like` | `1.000` | `delta_stat1_axis` | `0.500` | `1.0000` | `0.500` |
+| `myeloid_apc_like` | `0.800` | `delta_stat1_axis` | `0.550` | `0.9048` | `0.250` |
+
+Glucocorticoid panels did **not** explain the compartment readouts in this
+held-data screen:
+
+- B/plasma residualized AUC after `delta_glucocorticoid_response`: `0.950`.
+- T-cell residualized AUC after `delta_glucocorticoid_response`: `1.000`.
+
+Interpretation:
+
+The refined T/B readouts are not explained by the available V32
+glucocorticoid-response panel, but they are strongly dependent on the global
+delta STAT1-axis. This further demotes a compartment-specific mechanism and
+supports the conservative interpretation: **the measurable biology is a
+STAT1/IFN-axis treatment-response state with compartmental readouts, not an
+independent B/plasma or T-cell process.**
