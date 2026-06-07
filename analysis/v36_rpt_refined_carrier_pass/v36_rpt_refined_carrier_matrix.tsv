@@ -1,0 +1,11 @@
+ID	FEATURE	COMPARTMENT	AUC	EXACT_P	RESIDUALIZED_AUC	COUNT_PROXY_AUC	BOOTSTRAP_LOWER	INDEPENDENT_REPLICATION	COMPOSITION_RISK	DATA_GAP	MECHANISTIC_SPECIFICITY	CARRIER_VERDICT
+V22_scalar_unbounded	whole-blood scalar APC/HLA-II locked score	bulk	0.55	0.4	0.55	0.5	0.0	0	1	1	0	weak_or_unbounded
+V23_bounded_scalar	bounded immune-remodeling/JAK-STAT scalar	bulk	0.811	0.1	0.7	0.6	0.0	0	1	1	1	promising_but_unreplicated
+V36_non_tb_count_proxy	best count/fraction-only proxy	myeloid_apc_like	0.9	0.0635	0.5	0.9	0.0	0	1	1	0	composition_warning
+V36_t_cell_raw	locked dynamic score	t_cell_like	1.0	0.0159	0.65	0.8	0.0	0	1	1	1	[PREDICT]
+V36_b_plasma_locked	locked dynamic score	b_plasma_like	0.95	0.0317	0.85	0.8	0.0	0	1	1	1	[PREDICT]
+V36_b_plasma_ifn_apc	delta IFN/APC module in B/plasma-like compartment	b_plasma_like	0.95	0.0317	0.85	0.8	0.0	0	1	1	1	[PREDICT]
+V36_b_plasma_hlaii_only	delta HLA-II module in B/plasma-like compartment	b_plasma_like	0.7	0.4	0.6	0.8	0.0	0	1	1	0	[PREDICT]
+V36_b_plasma_receptor_only	delta MIF/CD74 receptor module in B/plasma-like compartment	b_plasma_like	0.75	0.3	0.65	0.8	0.0	0	1	1	0	[PREDICT]
+V36_tb_mean	mean locked dynamic score across T and B/plasma	t_and_b_plasma	0.95	0.0317	0.75	0.8	0.0	0	1	1	1	[PREDICT]
+V36_cross_disease_proxy	held cross-disease B/plasma proxy replication	unavailable	0.5	1.0	0.5	0.5	0.0	0	0	1	0	blocked_no_independent_carrier_data

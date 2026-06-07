@@ -1,0 +1,206 @@
+{
+  "data_schema": {
+    "AUC": {
+      "dtype": "numeric"
+    },
+    "BOOTSTRAP_LOWER": {
+      "dtype": "numeric"
+    },
+    "CARRIER_VERDICT": {
+      "dtype": "string"
+    },
+    "COMPARTMENT": {
+      "dtype": "string"
+    },
+    "COMPOSITION_RISK": {
+      "dtype": "numeric"
+    },
+    "COUNT_PROXY_AUC": {
+      "dtype": "numeric"
+    },
+    "DATA_GAP": {
+      "dtype": "numeric"
+    },
+    "EXACT_P": {
+      "dtype": "numeric"
+    },
+    "FEATURE": {
+      "dtype": "string"
+    },
+    "ID": {
+      "dtype": "string"
+    },
+    "INDEPENDENT_REPLICATION": {
+      "dtype": "numeric"
+    },
+    "MECHANISTIC_SPECIFICITY": {
+      "dtype": "numeric"
+    },
+    "RESIDUALIZED_AUC": {
+      "dtype": "numeric"
+    }
+  },
+  "index_column": "ID",
+  "prediction_config": {
+    "target_columns": [
+      {
+        "name": "CARRIER_VERDICT",
+        "prediction_placeholder": "[PREDICT]",
+        "task_type": "classification",
+        "top_k": 3
+      }
+    ]
+  },
+  "rows": [
+    {
+      "AUC": 0.55,
+      "BOOTSTRAP_LOWER": 0.0,
+      "CARRIER_VERDICT": "weak_or_unbounded",
+      "COMPARTMENT": "bulk",
+      "COMPOSITION_RISK": 1,
+      "COUNT_PROXY_AUC": 0.5,
+      "DATA_GAP": 1,
+      "EXACT_P": 0.4,
+      "FEATURE": "whole-blood scalar APC/HLA-II locked score",
+      "ID": "V22_scalar_unbounded",
+      "INDEPENDENT_REPLICATION": 0,
+      "MECHANISTIC_SPECIFICITY": 0,
+      "RESIDUALIZED_AUC": 0.55
+    },
+    {
+      "AUC": 0.811,
+      "BOOTSTRAP_LOWER": 0.0,
+      "CARRIER_VERDICT": "promising_but_unreplicated",
+      "COMPARTMENT": "bulk",
+      "COMPOSITION_RISK": 1,
+      "COUNT_PROXY_AUC": 0.6,
+      "DATA_GAP": 1,
+      "EXACT_P": 0.1,
+      "FEATURE": "bounded immune-remodeling/JAK-STAT scalar",
+      "ID": "V23_bounded_scalar",
+      "INDEPENDENT_REPLICATION": 0,
+      "MECHANISTIC_SPECIFICITY": 1,
+      "RESIDUALIZED_AUC": 0.7
+    },
+    {
+      "AUC": 0.9,
+      "BOOTSTRAP_LOWER": 0.0,
+      "CARRIER_VERDICT": "composition_warning",
+      "COMPARTMENT": "myeloid_apc_like",
+      "COMPOSITION_RISK": 1,
+      "COUNT_PROXY_AUC": 0.9,
+      "DATA_GAP": 1,
+      "EXACT_P": 0.0635,
+      "FEATURE": "best count/fraction-only proxy",
+      "ID": "V36_non_tb_count_proxy",
+      "INDEPENDENT_REPLICATION": 0,
+      "MECHANISTIC_SPECIFICITY": 0,
+      "RESIDUALIZED_AUC": 0.5
+    },
+    {
+      "AUC": 1.0,
+      "BOOTSTRAP_LOWER": 0.0,
+      "CARRIER_VERDICT": "[PREDICT]",
+      "COMPARTMENT": "t_cell_like",
+      "COMPOSITION_RISK": 1,
+      "COUNT_PROXY_AUC": 0.8,
+      "DATA_GAP": 1,
+      "EXACT_P": 0.0159,
+      "FEATURE": "locked dynamic score",
+      "ID": "V36_t_cell_raw",
+      "INDEPENDENT_REPLICATION": 0,
+      "MECHANISTIC_SPECIFICITY": 1,
+      "RESIDUALIZED_AUC": 0.65
+    },
+    {
+      "AUC": 0.95,
+      "BOOTSTRAP_LOWER": 0.0,
+      "CARRIER_VERDICT": "[PREDICT]",
+      "COMPARTMENT": "b_plasma_like",
+      "COMPOSITION_RISK": 1,
+      "COUNT_PROXY_AUC": 0.8,
+      "DATA_GAP": 1,
+      "EXACT_P": 0.0317,
+      "FEATURE": "locked dynamic score",
+      "ID": "V36_b_plasma_locked",
+      "INDEPENDENT_REPLICATION": 0,
+      "MECHANISTIC_SPECIFICITY": 1,
+      "RESIDUALIZED_AUC": 0.85
+    },
+    {
+      "AUC": 0.95,
+      "BOOTSTRAP_LOWER": 0.0,
+      "CARRIER_VERDICT": "[PREDICT]",
+      "COMPARTMENT": "b_plasma_like",
+      "COMPOSITION_RISK": 1,
+      "COUNT_PROXY_AUC": 0.8,
+      "DATA_GAP": 1,
+      "EXACT_P": 0.0317,
+      "FEATURE": "delta IFN/APC module in B/plasma-like compartment",
+      "ID": "V36_b_plasma_ifn_apc",
+      "INDEPENDENT_REPLICATION": 0,
+      "MECHANISTIC_SPECIFICITY": 1,
+      "RESIDUALIZED_AUC": 0.85
+    },
+    {
+      "AUC": 0.7,
+      "BOOTSTRAP_LOWER": 0.0,
+      "CARRIER_VERDICT": "[PREDICT]",
+      "COMPARTMENT": "b_plasma_like",
+      "COMPOSITION_RISK": 1,
+      "COUNT_PROXY_AUC": 0.8,
+      "DATA_GAP": 1,
+      "EXACT_P": 0.4,
+      "FEATURE": "delta HLA-II module in B/plasma-like compartment",
+      "ID": "V36_b_plasma_hlaii_only",
+      "INDEPENDENT_REPLICATION": 0,
+      "MECHANISTIC_SPECIFICITY": 0,
+      "RESIDUALIZED_AUC": 0.6
+    },
+    {
+      "AUC": 0.75,
+      "BOOTSTRAP_LOWER": 0.0,
+      "CARRIER_VERDICT": "[PREDICT]",
+      "COMPARTMENT": "b_plasma_like",
+      "COMPOSITION_RISK": 1,
+      "COUNT_PROXY_AUC": 0.8,
+      "DATA_GAP": 1,
+      "EXACT_P": 0.3,
+      "FEATURE": "delta MIF/CD74 receptor module in B/plasma-like compartment",
+      "ID": "V36_b_plasma_receptor_only",
+      "INDEPENDENT_REPLICATION": 0,
+      "MECHANISTIC_SPECIFICITY": 0,
+      "RESIDUALIZED_AUC": 0.65
+    },
+    {
+      "AUC": 0.95,
+      "BOOTSTRAP_LOWER": 0.0,
+      "CARRIER_VERDICT": "[PREDICT]",
+      "COMPARTMENT": "t_and_b_plasma",
+      "COMPOSITION_RISK": 1,
+      "COUNT_PROXY_AUC": 0.8,
+      "DATA_GAP": 1,
+      "EXACT_P": 0.0317,
+      "FEATURE": "mean locked dynamic score across T and B/plasma",
+      "ID": "V36_tb_mean",
+      "INDEPENDENT_REPLICATION": 0,
+      "MECHANISTIC_SPECIFICITY": 1,
+      "RESIDUALIZED_AUC": 0.75
+    },
+    {
+      "AUC": 0.5,
+      "BOOTSTRAP_LOWER": 0.0,
+      "CARRIER_VERDICT": "blocked_no_independent_carrier_data",
+      "COMPARTMENT": "unavailable",
+      "COMPOSITION_RISK": 0,
+      "COUNT_PROXY_AUC": 0.5,
+      "DATA_GAP": 1,
+      "EXACT_P": 1.0,
+      "FEATURE": "held cross-disease B/plasma proxy replication",
+      "ID": "V36_cross_disease_proxy",
+      "INDEPENDENT_REPLICATION": 0,
+      "MECHANISTIC_SPECIFICITY": 0,
+      "RESIDUALIZED_AUC": 0.5
+    }
+  ]
+}

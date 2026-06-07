@@ -176,10 +176,25 @@
 ### Iteration 12
 
 - Start UTC: 2026-06-07T18:50:57Z
-- Status: in_progress
+- End UTC: 2026-06-07T18:54:28Z
+- Status: completed
 - Item selected: RPT second pass with refined B/plasma/T-cell split.
 - Note: Update structured table with V36 refined features and ask RPT for
   masked verdict/carrier predictions after new groundings.
+- Result: RPT refined carrier pass completed over 10 rows. RPT classified
+  T-cell raw, B/plasma locked score, B/plasma IFN/APC delta, receptor-only, and
+  T/B mean as `promising_but_unreplicated`, and classified B/plasma HLA-II-only
+  as `weak_or_unbounded`. Grounding overrides RPT where needed: B/plasma IFN/APC
+  remains the best real-data carrier, T-cell remains composition-sensitive, and
+  no carrier is upgraded without independent replication.
+
+### Iteration 13
+
+- Start UTC: 2026-06-07T18:54:28Z
+- Status: in_progress
+- Item selected: Gene-level B/plasma IFN/APC driver analysis.
+- Note: Test whether the B/plasma IFN/APC carrier is broad module remodeling or
+  dominated by one/few genes in the n=9 exact compartment data.
 
 ## Backlog
 
@@ -195,7 +210,8 @@
 | 8 | Heavier analyses now affordable | done | Exhaustive compartment-combination scan added overfit warning; no upgrade. |
 | 9 | B/plasma-specific module decomposition | done | B/plasma IFN/APC delta carries signal; HLA-II/receptor/counts weaker. |
 | 10 | Cross-disease response-cohort B/plasma proxy scout | done | Independent replication blocked with held data; only GSE253006 is compartment-resolved. |
-| 11 | RPT second pass with refined B/plasma/T-cell split | in_progress | Update structured table with V36 refined features and ask RPT for masked carrier/verdict predictions. |
+| 11 | RPT second pass with refined B/plasma/T-cell split | done | RPT agrees carrier candidates are promising-but-unreplicated; no evidence upgrade. |
+| 12 | Gene-level B/plasma IFN/APC driver analysis | in_progress | Determine whether B/plasma IFN/APC is broad module remodeling or single-gene dominated. |
 
 ## Timing Rule
 

@@ -320,3 +320,38 @@ Verdict:
 
 No upgrade. Independent paired treatment-response data with B/plasma/T/myeloid
 resolution is still the first validation need.
+
+## Iteration 12: RPT Refined Carrier Pass
+
+Status: **completed / prioritization only**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_rpt_refined_carrier_pass.py`
+- Outputs: `analysis/v36_rpt_refined_carrier_pass/`
+
+RPT table:
+
+- Rows: `10`
+- Masked rows: refined V36 carrier candidates.
+- Known labels: weak/unbounded scalar, bounded scalar, composition proxy, and
+  blocked independent replication row.
+
+RPT predictions:
+
+| Candidate | RPT top prediction | Confidence | Grounded interpretation |
+|---|---|---:|---|
+| T-cell raw locked score | `promising_but_unreplicated` | `0.730` | Raw AUC is strongest, but residualized AUC fell to `0.650`; composition/sampling sensitivity remains. |
+| B/plasma locked score | `promising_but_unreplicated` | `0.880` | Real-data AUC `0.950`, residualized AUC `0.850`; promising carrier but unreplicated. |
+| B/plasma IFN/APC delta | `promising_but_unreplicated` | `0.800` | Best mechanistic carrier in held data: AUC `0.950`, exact p `0.0317`. |
+| B/plasma HLA-II-only delta | `weak_or_unbounded` | `0.520` | Concordant with weaker real-data AUC `0.700`; HLA-II alone is not the carrier. |
+| B/plasma receptor-only delta | `promising_but_unreplicated` | `0.730` | RPT over-prioritizes relative to real-data AUC `0.750`; receptor-only is not sufficient. |
+| T/B mean locked score | `promising_but_unreplicated` | `0.920` | Matches B/plasma AUC but adds post-hoc combination risk. |
+
+Grounded verdict:
+
+RPT added useful tabular prioritization but no evidentiary upgrade. It agrees
+that the refined carrier class is promising but unreplicated, and it correctly
+down-ranks HLA-II alone. The real-data gate still controls the conclusion:
+**B/plasma IFN/APC dynamic remodeling is the best specified carrier, but it is
+n=9 and lacks independent replication.**
