@@ -15,7 +15,11 @@ LDSC genome-wide genetic-correlation backdrop and vetted the two queued
 next-tier genetics regions. V22 locked and tested the dynamic APC/HLA-II
 treatment-response monitoring rule on reachable held-out cohorts. V23 pooled
 the small cohorts, resolved the UC tofacitinib exact-module caveat, and bounded
-the monitoring lead by therapy mechanism.
+the monitoring lead by therapy mechanism. V27 showed coupled-axis successors do
+not beat the immutable V22 scalar. V28 then stress-tested the bounded signal
+with heterogeneous local tools and found the scalar statistically tool-robust
+but not improved by flexible ML, receptor-only, coupled-axis, or generic
+dynamic-vector variants.
 
 Current frontier:
 
@@ -47,6 +51,21 @@ Current frontier:
   - Verdict: bounded early-monitoring hypothesis for immune-remodeling /
     JAK-STAT contexts; no V23 successor rule locked because no fresh held-out
     dataset remains for honest testing.
+- V28 heterogeneous robustness workup:
+  - Report: `docs/workups/treatment_response/ROBUSTNESS_MAP_V28.md`.
+  - Tooling: `meta/TOOLING_INVENTORY_V28.md`; optional external LLM key
+    request: `meta/TOOL_KEY_REQUESTS_V28.md`.
+  - Bounded V22 scalar: AUC `0.811`, Hedges g `1.191`, permutation p `0.0080`.
+  - Cohort-adjusted locked-score coefficient remains positive: `0.322`,
+    robust p `5.70e-07`.
+  - Bayesian-bootstrap posterior P(responder mean score > nonresponder mean
+    score): `0.999`.
+  - Jackknife bounded AUC range: `0.788-0.888`; no single subject removes the
+    signal.
+  - Ridge multifeature ML, receptor-only control, V27 coupled features, and
+    dynamic-vector features do not beat the scalar.
+  - Verdict: the bounded signal is statistically tool-robust but
+    model-flexibility fragile; validate the scalar, do not add complexity.
 - `GPR25` remains a live eQTLGen-supported lead, but not a protected favorite:
   public V18 immune-QTL sources did not support it, and its required therapeutic
   direction is agonism/restoration of a sparsely tooled receptor.

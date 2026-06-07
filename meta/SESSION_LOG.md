@@ -494,3 +494,19 @@ Next session first action:
 - Frontier advanced: maintenance-only root cleanup completed for project-owned V2/V3 artifacts; `results_v2`, `results_v3`, `literature_v3`, `subagents_v3`, and V2/V3 entrypoint scripts moved with `git mv`; empty V2/V3 placeholder directories moved under `phases/` with `.gitkeep`; path references, README, artifact index, and RAG index updated.
 - Stop reason: completed.
 - Next action: resume research from `meta/NEXT_ACTIONS.md`; primary scientific next action remains acquiring/requesting Gafson et al. 2018 DMF PBMC RNA-seq counts plus NEDA-4 labels and validating the immutable V22 rule mechanically when fresh paired data arrives.
+
+## RUN SUMMARY - 2026-06-07 00:13 UTC
+
+- Active runtime: approximately 13 minutes; total elapsed approximately 13 minutes; no usage-limit waiting time observed.
+- Session start UTC: 2026-06-07 00:00 UTC.
+- Session end UTC: 2026-06-07 00:13 UTC.
+- Frontier advanced: V28 heterogeneous-toolchain assault completed; wrote `meta/TOOLING_INVENTORY_V28.md`, `meta/TOOL_KEY_REQUESTS_V28.md`, `meta/queues/V28_QUEUE.md`, `scripts/check_openai_access.py`, `scripts/v28_heterogeneous_response_analysis.py`, `analysis/v28_heterogeneous_response/`, and `docs/workups/treatment_response/ROBUSTNESS_MAP_V28.md`; README, current status, next actions, and RAG index updated.
+- Tools/languages/sub-models used: OpenGWAS checker via `python3`; `.venv_v3_py312` Python stack with `numpy`, `pandas`, `scipy`, `sklearn`, and `statsmodels`; R/Node/Java inventoried but not used for analysis; external LLM/sub-model not used because no key is configured.
+- Paid services used / spend: none; estimated spend `$0`.
+- Keys requested: `OPENAI_API_KEY` as optional low-cost external critique/proposal lens, with checker `scripts/check_openai_access.py`.
+- Tool-robust-vs-tool-dependent verdict: bounded V22 scalar is statistically tool-robust across fixed-score permutation, nonparametric, cohort-adjusted, Bayesian-bootstrap, and jackknife lenses, but model-flexibility fragile because ridge multifeature ML, receptor-only, coupled-axis, and dynamic-vector variants do not improve it.
+- Grounded sub-model proposals: no external sub-model proposals were run; local hostile proposals tested receptor confounding, cohort pooling, single-subject influence, and dynamic/coupled extensions. Receptor/cohort/single-subject artifact explanations failed; dynamic/coupled extensions did not improve the scalar.
+- Novel analyses and outcomes: dynamic/vector features (`apc_vector_norm`, `hla_vs_ifn_angle`, `hla_ifn_product`) did not outperform the scalar; bounded scalar AUC `0.811`, Hedges g `1.191`, permutation p `0.007996`, cohort-adjusted p `5.70e-07`, Bayesian-bootstrap P(diff > 0) `0.999`, jackknife AUC range `0.7875-0.8875`.
+- Breadth value: broadened tooling strengthened confidence in the simple immutable scalar and argued against adding complexity before fresh validation.
+- Stop reason: completed all V28 workstreams with local tools; no long-running analysis processes remain.
+- Next action: acquire/request Gafson et al. 2018 DMF PBMC RNA-seq processed counts plus NEDA-4 labels and run the frozen V22 scoring harness mechanically; if `OPENAI_API_KEY` is provided, run `python3 scripts/check_openai_access.py` and use it only to generate additional grounded critique proposals.

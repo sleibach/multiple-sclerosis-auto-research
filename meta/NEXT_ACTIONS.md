@@ -290,10 +290,39 @@ V27 coupled-axis rule checkpoint:
   - the immutable V22 scalar remains the primary frozen rule for future
     validation.
 
+V28 heterogeneous-toolchain robustness checkpoint:
+
+- Reports:
+  - `docs/workups/treatment_response/ROBUSTNESS_MAP_V28.md`.
+  - `meta/TOOLING_INVENTORY_V28.md`.
+  - `meta/TOOL_KEY_REQUESTS_V28.md`.
+  - `meta/queues/V28_QUEUE.md`.
+- Reproducible script:
+  - `scripts/v28_heterogeneous_response_analysis.py`.
+- Output directory: `analysis/v28_heterogeneous_response/`.
+- Tooling result:
+  - `.venv_v3_py312` provides the usable heterogeneous local analysis stack
+    (`scipy`, `sklearn`, `statsmodels`, `torch`, `scanpy`, `networkx`,
+    `igraph`);
+  - no external LLM key is configured; `OPENAI_API_KEY` is requested only as an
+    optional proposal/critique lens.
+- Bounded V22 scalar robustness:
+  - AUC `0.811111`, Hedges g `1.190835`, permutation p `0.007996`;
+  - cohort-adjusted locked-score coefficient `0.321803`, robust p
+    `5.7045e-07`;
+  - Bayesian-bootstrap P(responder mean > nonresponder mean) `0.999`;
+  - jackknife bounded AUC range `0.7875-0.8875`.
+- V28 verdict:
+  - bounded scalar is statistically tool-robust across independent statistical
+    lenses;
+  - flexible multifeature ML, receptor-only, V27 coupled features, and generic
+    dynamic-vector features do not improve it;
+  - validate the immutable scalar rather than adding complexity.
+
 Next session first action:
 
 1. Run `.venv/bin/python scripts/check_opengwas_access.py`.
-2. Read `docs/workups/treatment_response/COUPLED_AXIS_V27.md`, `docs/validation/VALIDATION_READINESS_V27.md`,
+2. Read `docs/workups/treatment_response/ROBUSTNESS_MAP_V28.md`, `docs/workups/treatment_response/COUPLED_AXIS_V27.md`, `docs/validation/VALIDATION_READINESS_V27.md`,
    `docs/findings/DEEP_STRUCTURE_V26.md`, `docs/workups/treatment_response/MODEL_CARD_V25.md`, `docs/workups/microbiome/DATA_SCOUT_V24.md`,
    `analysis/v24_data_scout/v24_candidate_inventory.tsv`,
    `docs/workups/treatment_response/APC_HLA_MONITORING_WORKUP_V23.md`, and `docs/locked_rules/LOCKED_RULE_V22.md`.
@@ -301,7 +330,8 @@ Next session first action:
    support a deployable simulator. Do not tune `docs/locked_rules/LOCKED_RULE_V22.md`. Treat V26
    as structural support for coupled APC/HLA-II/MIF-CD74 monitoring only, not a
    validated clinical rule or target. V27 showed the coupled representation did
-   not outperform the V22 scalar, so do not use a V27 successor rule.
+   not outperform the V22 scalar, and V28 showed heterogeneous local methods
+   support the scalar but not added model complexity.
 4. Primary next action is human/low-barrier
    acquisition of Gafson et al. 2018 DMF PBMC RNA-seq processed counts plus
    sample-level NEDA-4 responder labels (PMID `30283812`, DOI

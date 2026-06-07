@@ -34,7 +34,13 @@ V11 introduced the resume backbone for short-session continuity.
   (`0.567-1.000`). The unbounded primary rule remains weak (AUC `0.547`).
   Current interpretation: bounded early-monitoring hypothesis for
   immune-remodeling/JAK-STAT contexts, not a universal cross-therapy rule and
-  not yet clinically validated.
+  not yet clinically validated. V28 then stress-tested this lead with
+  heterogeneous local tools. Result: the bounded V22 scalar is statistically
+  tool-robust across nonparametric, permutation, cohort-adjusted, Bayesian
+  bootstrap, and jackknife lenses, but model-flexibility fragile: ridge
+  multifeature ML, receptor-only, coupled-axis, and generic dynamic-vector
+  variants do not improve it. The scalar remains the best frozen rule for
+  future external validation.
 - Current genetics/data focus: the chr1 MS-UC causal-gene question is
   computationally resolved for now and handed forward as real shared genetics,
   not an intervention-grade target. V20 widened back out to a ranked
@@ -140,6 +146,7 @@ that explicitly in `meta/SESSION_LOG.md`.
 | V19 | First-principles druggability and causal-gene re-evaluation of chr1. | Dense QTD000021 eQTL Catalogue coloc supports `KIF21B` as a serious causal-gene candidate (MS/eQTL PP.H4 `0.874879034973956`, UC/eQTL PP.H4 `0.868660082128031`), and exact shared credible-set variants show risk lowers KIF21B expression. Druggability was revised: `GPR25` is structurally plausible but agonism-immature; `KIF21B` is structurally ligandable but likely wrong-direction for inhibition. See `docs/workups/genetics/GENETICS_CHR1_REEVALUATION_V19.md`. |
 | V20 | Next-tier lead generation across the full landscape. | Produced `docs/history/LEAD_SLATE_V20.md` and `analysis/v20_lead_slate/lead_slate_v20.tsv`: 13 pre-vetted candidates across four workstreams, with 5 promising follow-ups, 2 hard-target real-biology findings, and 6 negative/not-now entries. Top lead is dynamic APC/HLA-II treatment-response monitoring; next genetics follow-ups are chr14 `ZFP36L1` and chr2 `REL/PUS10/USP34`. |
 | V21 | Genome-wide genetic-correlation backdrop and queued next-tier locus vetting. | Used the verified LDSC panel to compute rg for MS vs UC, Crohn, RA, and SLE; UC is the strongest tested genetic comparator for MS. Bounded SuSiE-coloc parked chr14 `ZFP36L1` as suggestive and closed chr2 `REL/PUS10/USP34` as not-now. See `docs/workups/genetics/GENETIC_CORRELATION_BACKDROP_V21.md` and `docs/history/LEAD_SLATE_V21.md`. |
+| V22-V28 | Locked APC/HLA-II treatment-response monitoring validation and robustness testing. | V22 locked the dynamic scalar rule before held-out testing; V23 bounded it to immune-remodeling/JAK-STAT contexts; V27 showed coupled-axis successors do not beat the scalar; V28 showed the scalar is statistically tool-robust but not improved by flexible ML or adjacent dynamic features. See `docs/workups/treatment_response/ROBUSTNESS_MAP_V28.md`. |
 
 `docs/findings/FINDING.md` documents the (since-demoted) `ACSL1` target hypothesis from an
 earlier phase and is retained for the historical trace.
@@ -210,6 +217,12 @@ V21 reproducibility entry points:
 - `scripts/v21_next_tier_locus_susie.py` regenerates bounded SuSiE-coloc for
   the chr14 `ZFP36L1` and chr2 `REL/PUS10/USP34` follow-up loci under
   `analysis/v21_next_tier_loci/`.
+
+V28 reproducibility entry point:
+
+- `scripts/v28_heterogeneous_response_analysis.py` reruns the heterogeneous
+  local robustness analysis of the immutable V22 treatment-response scalar and
+  writes outputs under `analysis/v28_heterogeneous_response/`.
 
 LDSC reference panel:
 
