@@ -449,12 +449,26 @@
 ### Iteration 31
 
 - Start UTC: 2026-06-07T19:30:06Z
-- Status: in_progress
+- End UTC: 2026-06-07T19:31:34Z
+- Status: completed
 - Item selected: Refactored validation cohort/data scout from held V24
   inventory.
 - Note: Re-read V24 scout outputs and identify candidates matching the stricter
   V36 spec: baseline + W8-like early sample, response labels, expression,
   batch/QC/steroid metadata, and compartment support if possible.
+- Result: V24 inventory reinterpreted under V36. Best target remains Gafson et
+  al. 2018 DMF PBMC RNA-seq, now with added required request fields:
+  steroid/glucocorticoid exposure, batch/run metadata, QC metrics, and
+  cell-count/deconvolution covariates.
+
+### Iteration 32
+
+- Start UTC: 2026-06-07T19:31:34Z
+- Status: in_progress
+- Item selected: Multiplicity stress test across V36 generated compartment
+  features.
+- Note: Estimate how surprising the best AUCs are after scanning many
+  compartment/feature combinations in the held cohort.
 
 ## Backlog
 
@@ -489,7 +503,8 @@
 | 27 | Technical metadata and batch-confounding feasibility check | done | Batch metadata absent; mito/QC attenuation adds validation requirement. |
 | 28 | Validation requirement update for refactored V36 lead | done | V36 validation-readiness addendum added. |
 | 29 | Updated RPT pass over refactored slate | done | RPT concordant for broad W8 state but over-promotes grounded-demoted variants. |
-| 30 | Refactored validation cohort/data scout from held V24 inventory | in_progress | Identify best next validation candidate under V36 stricter spec. |
+| 30 | Refactored validation cohort/data scout from held V24 inventory | done | Gafson remains best target with stricter V36 metadata request. |
+| 31 | Multiplicity stress test across V36 generated compartment features | in_progress | Test how often max AUC appears under label permutations. |
 
 ## Timing Rule
 

@@ -1016,3 +1016,26 @@ RPT added value by exposing which tabular features still look superficially
 promising after refactoring, but strict grounding overrides it. The only current
 validation-priority item remains the broad early W8 IFN/APC/STAT1 monitoring
 state with the V36 caveats.
+
+## Iteration 31: Refactored Validation Scout
+
+Status: **completed / target unchanged, metadata requirements stricter**.
+
+Executable artifact:
+
+- Summary: `analysis/v36_refactored_validation_scout/summary.md`
+
+Result:
+
+The V24 scout inventory was reinterpreted under the stricter V36 validation
+requirements. The best next dataset remains **Gafson et al. 2018 DMF PBMC
+RNA-seq** (PMID `30283812`), because it has MS, DMF, baseline/6w/15m timing,
+and NEDA-4 response. V36 adds required metadata to the request:
+
+- steroid/glucocorticoid exposure;
+- batch/lane/library/run-date or processing metadata;
+- QC metrics including mitochondrial/ribosomal fractions if available;
+- cell-count/deconvolution covariates if available.
+
+Secondary options remain `GSE130478/GSE130491/GSE130494` after response-label
+acquisition and `GSE85034_MTX` as a caveated cross-disease stress test only.
