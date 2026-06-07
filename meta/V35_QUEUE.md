@@ -323,11 +323,26 @@ Target block end UTC: 2026-06-07T17:37:36Z
 ### Iteration 25
 
 - Start UTC: 2026-06-07T17:30:13Z
-- Status: in_progress
+- End UTC: 2026-06-07T17:31:01Z
+- Status: blocked
 - Item selected: Orthogonal-context T/B artifact feasibility check.
 - Note: Determine whether existing Mixscale or treatment pharmacodynamic
   module matrices can test the model-raised T/B generic-compartment artifact
   without new data.
+- Result: blocked for clean falsification with held data. Mixscale has cell
+  lines, not immune T/B/myeloid compartments; V26 treatment pharmacodynamic
+  matrices have marker-compartment summaries but not independent patient-level
+  paired response labels. The artifact risk is valid and goes into the data
+  request list.
+
+### Iteration 26
+
+- Start UTC: 2026-06-07T17:31:01Z
+- Status: in_progress
+- Item selected: V35 finalization and run-summary preparation.
+- Note: The block is approaching the 60-minute target; update status files,
+  README, session log, and final artifacts at a clean stopping point once the
+  measured clock reaches the target.
 
 ## Backlog
 
@@ -357,7 +372,8 @@ Target block end UTC: 2026-06-07T17:37:36Z
 | 22 | Re-rank V35 shortlist after EBV downgrade and blocker audit | done | Headline shortlist updated after EBV specificity failure and blocker audits. |
 | 23 | V35 blocked-data request list | done | Wrote `meta/V35_BLOCKED_DATA_REQUESTS.md` with concrete dataset/experiment pass-kill specs. |
 | 24 | Two-lineage cross-exam of revised V35 shortlist | done | Claude/Gemini did not change ranking; they sharpened T/B generic-compartment artifact risk. |
-| 25 | Orthogonal-context T/B artifact feasibility check | in_progress | Check whether held matrices can test T/B generic-compartment artifact now. |
+| 25 | Orthogonal-context T/B artifact feasibility check | blocked | Held data cannot cleanly test T/B generic-compartment artifact; needs independent compartment-resolved cohort. |
+| 26 | V35 finalization and run-summary preparation | in_progress | Update resume/status/README/session log once measured clock reaches 60-minute target. |
 
 ## Timing Rule
 

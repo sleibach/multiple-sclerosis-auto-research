@@ -857,3 +857,28 @@ The cross-exam added one concrete next stress test: if possible, test whether
 the T/B gate is merely a generic compartment artifact by applying analogous
 compartment scoring in an orthogonal myeloid-dominant perturbation context. If
 T/B wins there too, the current gate is likely artifactual.
+
+## Iteration 25: Orthogonal-Context T/B Artifact Feasibility
+
+Status: **blocked for clean falsification with held data**.
+
+Executable grounding:
+
+- Artifact: `analysis/v35_tb_artifact_feasibility/summary.md`
+- Inputs inspected: Mixscale cell-type effects and V26 treatment
+  pharmacodynamic/response module matrices.
+
+Result:
+
+- Mixscale has cell-line perturbation data (`A549`, `BXPC3`, `HAP1`, `HT29`,
+  `K562`, `MCF7`), not immune T/B/myeloid compartments.
+- V26 treatment pharmacodynamic matrices include marker compartments, but not
+  independent patient-level paired response labels suitable for the T/B gate.
+- The only exact patient-level compartment response cohort remains the already
+  used `GSE253006` tofacitinib dataset.
+
+Interpretation:
+
+The model-raised artifact risk is real but cannot be cleanly tested with held
+data. The T/B gate remains top-ranked only as an internally supported,
+replication-gated hypothesis.
