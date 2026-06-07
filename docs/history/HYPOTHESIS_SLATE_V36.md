@@ -297,3 +297,26 @@ carrier is specifically the IFN/APC-derived locked dynamic score, not HLA-II
 alone, receptor genes alone, or simple abundance. This strengthens the
 mechanistic specificity of the B/plasma carrier while preserving the small-n and
 single-cohort caveat.
+
+## Iteration 11: Cross-Disease B/Plasma Proxy Scout
+
+Status: **blocked for independent replication with held data**.
+
+Executable artifact:
+
+- Summary: `analysis/v36_b_plasma_proxy_scout/summary.md`
+
+Result:
+
+- `GSE253006_TOF_exact` remains the only held response cohort with saved
+  compartment-resolved paired scores.
+- MS IFN-beta and V22/V23 paired-response artifacts contain locked module scores
+  but no B/plasma marker/deconvolution score sufficient to test the refined
+  carrier outside `GSE253006`.
+- Therefore the B/plasma IFN/APC carrier is better specified but still
+  replication-gated.
+
+Verdict:
+
+No upgrade. Independent paired treatment-response data with B/plasma/T/myeloid
+resolution is still the first validation need.

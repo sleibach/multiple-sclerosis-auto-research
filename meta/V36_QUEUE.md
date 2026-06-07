@@ -163,10 +163,23 @@
 ### Iteration 11
 
 - Start UTC: 2026-06-07T18:49:15Z
-- Status: in_progress
+- End UTC: 2026-06-07T18:50:57Z
+- Status: completed
 - Item selected: Cross-disease response-cohort B/plasma proxy scout.
 - Note: Search held response cohorts for B/plasma proxy genes or deconvolution
   features that can independently test the refined B/plasma carrier.
+- Result: Blocked for independent replication with held data. `GSE253006` is
+  the only saved compartment-resolved paired response cohort; MS IFN-beta and
+  V22/V23 ledgers contain locked module scores but no B/plasma marker or
+  deconvolution score sufficient to test the refined B/plasma carrier.
+
+### Iteration 12
+
+- Start UTC: 2026-06-07T18:50:57Z
+- Status: in_progress
+- Item selected: RPT second pass with refined B/plasma/T-cell split.
+- Note: Update structured table with V36 refined features and ask RPT for
+  masked verdict/carrier predictions after new groundings.
 
 ## Backlog
 
@@ -181,8 +194,8 @@
 | 7 | Deep multi-pass cross-examination | done | Gemini critiques grounded; T/B and postpartum interpretations refined, no upgrade. |
 | 8 | Heavier analyses now affordable | done | Exhaustive compartment-combination scan added overfit warning; no upgrade. |
 | 9 | B/plasma-specific module decomposition | done | B/plasma IFN/APC delta carries signal; HLA-II/receptor/counts weaker. |
-| 10 | Cross-disease response-cohort B/plasma proxy scout | in_progress | Search held response cohorts for any B/plasma proxy genes or deconvolution that can test the refined carrier. |
-| 11 | RPT second pass with refined B/plasma/T-cell split | todo | Update structured table with V36 refined features and ask RPT for masked carrier/verdict predictions. |
+| 10 | Cross-disease response-cohort B/plasma proxy scout | done | Independent replication blocked with held data; only GSE253006 is compartment-resolved. |
+| 11 | RPT second pass with refined B/plasma/T-cell split | in_progress | Update structured table with V36 refined features and ask RPT for masked carrier/verdict predictions. |
 
 ## Timing Rule
 
