@@ -1,0 +1,14 @@
+ID	SOURCE	HYPOTHESIS	AXIS	GENETIC_ANCHOR	RESPONSE_ANCHOR	CROSS_MODALITY	NULL_TESTED	REPLICATION_GATED	ARTIFACT_RISK	DIRECTION_DRUG_MATCH	DATA_GAP	SCORE	VERDICT
+V20_APC_HLAII_scalar	V20/V28/V32	APC/HLA-II treatment-response scalar	treatment_response	0	1	1	1	1	1	0	1	7.2	promising_followup
+V20_dynamic_IFN_APC_transfer	V20/V23	Dynamic IFN/APC monitoring transfer	treatment_response	0	1	1	1	1	1	0	1	7.0	promising_followup
+V20_ZMIZ1_decoupling	V16/V20	ZMIZ1 opposite-direction decoupling	genetics_decoupling	1	0	1	0	0	0	0	0	6.4	hard_target_real_biology
+V20_STAT3_failed_susie	V15/V20	STAT3/STAT5 region failed SuSiE-coloc	genetics	0	0	0	0	0	0	0	0	4.552	negative_or_not_now
+V20_PTGER4_mixed	V16/V20	PTGER4 mixed shared/distinct signal	genetics_druggable_warning	0	0	0	0	0	1	0	1	2.8	negative_or_not_now
+V20_ZFP36L1_chr14	V20/V21	ZFP36L1 chr14 suggestive locus	genetics	0	0	0	0	1	1	0	1	5.656	negative_or_not_now
+V20_REL_chr2	V20/V21	REL/PUS10/USP34 unresolved locus	genetics	0	0	0	0	1	1	0	1	4.618	negative_or_not_now
+V35_TB_gate	V35	T/B compartment remodeling gate	compartment_response	0	1	0	1	1	1	0	1	6.8	[PREDICT]
+V35_postpartum_APC_arm	V35	Postpartum HLA-II/CD64 APC-arm imbalance	pregnancy_postpartum	0	0	1	0	1	1	0	1	6.2	[PREDICT]
+V35_metabolic_sterol	V35	Metabolic/sterol setpoint	metabolic_context	0	1	1	0	1	1	0	1	5.8	[PREDICT]
+V35_lysosomal_APC	V35	Lysosomal APC-processing bottleneck	lysosomal_apc	0	0	0	1	1	1	0	1	5.5	[PREDICT]
+V35_complement_lipid	V35	Complement/lipid progressive axis	progressive_lesion	0	0	0	0	1	1	0	1	4.2	[PREDICT]
+V35_EBV_IFN_APC	V35	MS-SLE EBV/IFN APC imprint	infectious_trigger	0	0	0	1	1	1	0	1	3.0	[PREDICT]

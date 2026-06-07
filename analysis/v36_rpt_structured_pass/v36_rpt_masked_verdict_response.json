@@ -1,0 +1,135 @@
+{
+  "id": "bc14cd6f-c274-4379-9136-e0feb4211f3b",
+  "metadata": {
+    "num_columns": 14,
+    "num_predictions": 6,
+    "num_query_rows": 6,
+    "num_rows": 13
+  },
+  "predictions": [
+    {
+      "ID": "V35_TB_gate",
+      "VERDICT": [
+        {
+          "confidence": 0.71,
+          "confidence_interval": null,
+          "prediction": "promising_followup"
+        },
+        {
+          "confidence": 0.28,
+          "confidence_interval": null,
+          "prediction": "negative_or_not_now"
+        },
+        {
+          "confidence": 0.01,
+          "confidence_interval": null,
+          "prediction": "hard_target_real_biology"
+        }
+      ]
+    },
+    {
+      "ID": "V35_postpartum_APC_arm",
+      "VERDICT": [
+        {
+          "confidence": 0.56,
+          "confidence_interval": null,
+          "prediction": "negative_or_not_now"
+        },
+        {
+          "confidence": 0.41,
+          "confidence_interval": null,
+          "prediction": "promising_followup"
+        },
+        {
+          "confidence": 0.03,
+          "confidence_interval": null,
+          "prediction": "hard_target_real_biology"
+        }
+      ]
+    },
+    {
+      "ID": "V35_metabolic_sterol",
+      "VERDICT": [
+        {
+          "confidence": 0.72,
+          "confidence_interval": null,
+          "prediction": "promising_followup"
+        },
+        {
+          "confidence": 0.26,
+          "confidence_interval": null,
+          "prediction": "negative_or_not_now"
+        },
+        {
+          "confidence": 0.02,
+          "confidence_interval": null,
+          "prediction": "hard_target_real_biology"
+        }
+      ]
+    },
+    {
+      "ID": "V35_lysosomal_APC",
+      "VERDICT": [
+        {
+          "confidence": 0.67,
+          "confidence_interval": null,
+          "prediction": "promising_followup"
+        },
+        {
+          "confidence": 0.32,
+          "confidence_interval": null,
+          "prediction": "negative_or_not_now"
+        },
+        {
+          "confidence": 0.01,
+          "confidence_interval": null,
+          "prediction": "hard_target_real_biology"
+        }
+      ]
+    },
+    {
+      "ID": "V35_complement_lipid",
+      "VERDICT": [
+        {
+          "confidence": 0.94,
+          "confidence_interval": null,
+          "prediction": "negative_or_not_now"
+        },
+        {
+          "confidence": 0.05,
+          "confidence_interval": null,
+          "prediction": "promising_followup"
+        },
+        {
+          "confidence": 0.01,
+          "confidence_interval": null,
+          "prediction": "hard_target_real_biology"
+        }
+      ]
+    },
+    {
+      "ID": "V35_EBV_IFN_APC",
+      "VERDICT": [
+        {
+          "confidence": 0.63,
+          "confidence_interval": null,
+          "prediction": "negative_or_not_now"
+        },
+        {
+          "confidence": 0.36,
+          "confidence_interval": null,
+          "prediction": "promising_followup"
+        },
+        {
+          "confidence": 0.01,
+          "confidence_interval": null,
+          "prediction": "hard_target_real_biology"
+        }
+      ]
+    }
+  ],
+  "status": {
+    "code": 0,
+    "message": "ok"
+  }
+}
