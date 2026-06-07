@@ -434,3 +434,50 @@ responder or by one removable patient. The module-level exact p weakens after
 dropping W48 because n falls to eight, but the effect size remains high. This
 strengthens internal robustness while leaving the external-replication gate
 unchanged.
+
+## Iteration 15: Cross-Compartment IFN Specificity
+
+Status: **completed / B-plasma-specific interpretation weakened**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_cross_compartment_ifn_specificity.py`
+- Outputs: `analysis/v36_cross_compartment_ifn_specificity/`
+
+Test:
+
+Compare STAT1, IFN/APC, HLA-II, and locked scores across all saved
+`GSE253006` marker compartments to determine whether the B/plasma IFN/STAT
+carrier is compartment-specific or a compartment-resolved view of a broader IFN
+response.
+
+Result:
+
+STAT1 downshift:
+
+| Compartment | AUC | Exact p |
+|---|---:|---:|
+| `b_plasma_like` | `1.000` | `0.0159` |
+| `myeloid_apc_like` | `1.000` | `0.0159` |
+| `epithelial_like` | `0.950` | `0.0317` |
+| `stromal_endothelial_like` | `0.900` | `0.0635` |
+| `t_cell_like` | `0.900` | `0.0635` |
+
+Locked score:
+
+| Compartment | AUC | Exact p |
+|---|---:|---:|
+| `t_cell_like` | `1.000` | `0.0159` |
+| `b_plasma_like` | `0.950` | `0.0317` |
+| `epithelial_like` | `0.900` | `0.0635` |
+| `myeloid_apc_like` | `0.800` | `0.1905` |
+| `stromal_endothelial_like` | `0.750` | `0.2857` |
+
+Interpretation:
+
+The STAT1 downshift is **not** B/plasma-specific; it is equally strong in the
+myeloid-like compartment and high across other compartments. This demotes any
+STAT1-only or B/plasma-exclusive story. The stronger current phrasing is:
+**response is associated with a broad IFN/STAT downshift, with B/plasma and
+T-cell locked scores as candidate compartmental readouts; compartmental
+specificity remains unresolved and requires replication.**

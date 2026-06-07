@@ -221,10 +221,26 @@
 ### Iteration 15
 
 - Start UTC: 2026-06-07T18:58:22Z
-- Status: in_progress
+- End UTC: 2026-06-07T18:59:50Z
+- Status: completed
 - Item selected: Cross-compartment STAT1/IFN specificity scan.
 - Note: Test whether STAT1/IFN downshift is B/plasma-specific or a generic
   compartment-wide response feature.
+- Result: STAT1 downshift is not B/plasma-specific: B/plasma and myeloid-like
+  compartments both had STAT1 AUC `1.000` (exact p `0.0159`), and other
+  compartments were high. Locked score was strongest in T-cell (AUC `1.000`)
+  and B/plasma (AUC `0.950`). Interpretation weakened from B/plasma-specific
+  STAT1 carrier to broad IFN/STAT downshift with candidate T-cell/B-plasma
+  compartmental readouts.
+
+### Iteration 16
+
+- Start UTC: 2026-06-07T18:59:50Z
+- Status: in_progress
+- Item selected: Same-compartment random/module negative control for IFN/STAT
+  signal.
+- Note: Test whether locked IFN/STAT performance is exceptional relative to
+  random matched gene modules available in the exact compartment matrix.
 
 ## Backlog
 
@@ -243,7 +259,8 @@
 | 11 | RPT second pass with refined B/plasma/T-cell split | done | RPT agrees carrier candidates are promising-but-unreplicated; no evidence upgrade. |
 | 12 | Gene-level B/plasma IFN/APC driver analysis | done | Carrier sharpens to B/plasma IFN/STAT remodeling; STAT1 strongest but no STAT1-only promotion. |
 | 13 | Timepoint and responder-leverage sensitivity for B/plasma IFN/STAT carrier | done | Not driven by W48 TOF_009 or one removable patient; still internal only. |
-| 14 | Cross-compartment STAT1/IFN specificity scan | in_progress | Test whether STAT1/IFN downshift is B/plasma-specific or generic. |
+| 14 | Cross-compartment STAT1/IFN specificity scan | done | STAT1 downshift is broad, not B/plasma-specific; compartment specificity weakened. |
+| 15 | Same-compartment random/module negative control for IFN/STAT signal | in_progress | Compare locked/module performance with random available genes in exact compartment data. |
 
 ## Timing Rule
 
