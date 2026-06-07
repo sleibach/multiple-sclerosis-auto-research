@@ -514,11 +514,26 @@
 ### Iteration 36
 
 - Start UTC: 2026-06-07T19:36:48Z
-- Status: in_progress
+- End UTC: 2026-06-07T19:42:27Z
+- Status: completed
 - Item selected: Continue autonomous V36 block with next executable
   self-generated item.
 - Note: Block runtime remains below 120 minutes; select next grounded analysis
   after resume-state update.
+- Result: Ran caveated `GSE85034_MTX` psoriasis-skin stress test. The primary
+  locked IFN/APC feature did not reproduce (`AUC = 0.600`, exact p `0.346`,
+  Hedges g `0.165`). The receptor-side feature was high (`AUC = 0.900`, exact
+  p `0.0245`) but is hypothesis-generating only because it was not the frozen
+  primary feature, the arm had only `3` responders, and the cohort is outside
+  the bounded MS/JAK-STAT validation domain.
+
+### Iteration 37
+
+- Start UTC: pending
+- Status: todo
+- Item selected: Continue autonomous V36 block with next executable
+  self-generated item.
+- Note: Block runtime remains below 120 minutes after Iteration 36.
 
 ## Backlog
 
@@ -558,7 +573,8 @@
 | 32 | Update final V36 ranking after multiplicity caveat | done | Locked V22/V23 remains primary; V36 features secondary audits only. |
 | 33 | Human-facing Gafson data request package | done | Gafson request package written with V36 covariate/QC requirements. |
 | 34 | Resume-state next-actions update for V36 refactored lead | done | `meta/NEXT_ACTIONS.md` and `meta/CURRENT_STATUS.md` updated for V36. |
-| 35 | Continue autonomous V36 block with next executable self-generated item | in_progress | Select next strict-grounding item; cumulative time below 120 min. |
+| 35 | Continue autonomous V36 block with next executable self-generated item | done | GSE85034 MTX stress test complete: locked IFN/APC null out of domain; receptor-side signal hypothesis-generating only. |
+| 36 | Receptor/coupling stress-test follow-up from GSE85034 MTX | todo | Ask whether receptor-side dynamics recur in ADA or exact tofacitinib artifacts, strictly as a new exploratory feature with multiplicity caveats. |
 
 ## Timing Rule
 

@@ -1,0 +1,46 @@
+{
+  "cohort": "GSE85034_MTX",
+  "disease": "psoriasis",
+  "interpretation": "secondary stress test; not a validation-pass/fail for the bounded MS/JAK-STAT monitoring rule",
+  "n_nonresponders": 10,
+  "n_paired_labeled": 13,
+  "n_responders": 3,
+  "outcome": "PASI75 at week 16 reconstructed from GEO PASI fields",
+  "present_HLAII": [
+    "HLA-DRA",
+    "HLA-DRB1",
+    "HLA-DPA1",
+    "HLA-DPB1",
+    "HLA-DQB1"
+  ],
+  "present_IFN_APC": [
+    "STAT1",
+    "IRF1",
+    "CXCL10",
+    "GBP1",
+    "ISG15",
+    "CD74",
+    "HLA-DRA"
+  ],
+  "present_RECEPTOR": [
+    "CD74",
+    "CD44",
+    "CXCR4"
+  ],
+  "primary_feature": "locked_signed_score = -delta_IFN_APC",
+  "primary_result": {
+    "auc_high_score_response": 0.6,
+    "exact_auc_p": 0.34615384615384615,
+    "feature": "locked_signed_score",
+    "hedges_g_responder_minus_non": 0.16540700101191294,
+    "mean_nonresponder": -0.03985959822121753,
+    "mean_responder": 0.03009973856638774,
+    "n": 13,
+    "n_nonresponders": 10,
+    "n_responders": 3,
+    "welch_p": 0.7634099982351203
+  },
+  "scope": "caveated_cross_disease_stress_test_only",
+  "therapy": "methotrexate",
+  "timepoint": "baseline lesional skin to week 1"
+}

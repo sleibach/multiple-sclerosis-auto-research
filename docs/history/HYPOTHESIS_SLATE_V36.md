@@ -1123,3 +1123,49 @@ Wrote a concise request package for Gafson et al. 2018 DMF PBMC RNA-seq (PMID
 
 The request explicitly states the primary rule is locked and that V36 secondary
 audits are pre-specified.
+
+## Iteration 36: GSE85034 MTX Cross-Disease Stress Test
+
+Status: **completed / caveated null for locked IFN/APC feature**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_gse85034_mtx_stress.py`
+- Output: `analysis/v36_gse85034_mtx_stress/summary.md`
+- Feature table:
+  `analysis/v36_gse85034_mtx_stress/gse85034_mtx_feature_tests.tsv`
+
+Question:
+
+Use the reachable, unused methotrexate arm of `GSE85034` as a caveated
+cross-disease stress test of the immutable V22 dynamic IFN/APC feature. This is
+psoriasis lesional skin baseline to week 1 with PASI75 at week 16, so it is not
+part of the bounded MS/JAK-STAT validation domain and cannot upgrade or kill the
+V22/V23 lead.
+
+Result:
+
+- Paired labeled MTX subjects: `13`.
+- PASI75 responders/nonresponders: `3` / `10`.
+- IFN/APC module genes present: `STAT1`, `IRF1`, `CXCL10`, `GBP1`, `ISG15`,
+  `CD74`, `HLA-DRA`.
+- HLA-II genes present: `HLA-DRA`, `HLA-DRB1`, `HLA-DPA1`, `HLA-DPB1`,
+  `HLA-DQB1`.
+- Receptor genes present: `CD74`, `CD44`, `CXCR4`.
+
+| Feature | AUC high-score response | Exact p | Hedges g responder-minus-non |
+|---|---:|---:|---:|
+| locked signed score (`-delta_IFN_APC`) | `0.600` | `0.346` | `0.165` |
+| `delta_IFN_APC` | `0.400` | `0.713` | `-0.165` |
+| `delta_HLAII` | `0.300` | `0.857` | `-0.687` |
+| `negative_delta_RECEPTOR` | `0.900` | `0.0245` | `1.092` |
+
+Interpretation:
+
+The primary locked IFN/APC feature does not reproduce in this out-of-domain MTX
+psoriasis-skin arm. That is an honest stress-test null and does not change the
+primary V22/V23 validation target. The high receptor-side metric is recorded as
+hypothesis-generating only: it was not the frozen primary feature, the arm has
+only `3` responders, and the cohort is outside the bounded MS/JAK-STAT setting.
+If revived later, it must be tested as a new pre-specified receptor/coupling
+hypothesis in fresh data.
