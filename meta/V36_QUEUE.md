@@ -720,11 +720,25 @@
 
 ### Iteration 49
 
+- Start UTC: 2026-06-07T20:14:08Z
+- End UTC: 2026-06-07T20:14:31Z
+- Status: completed
+- Item selected: Continue autonomous V36 block with next executable
+  self-generated item.
+- Note: Update `docs/validation/GAFSON_DATA_REQUEST_V36.md` with V36
+  power-derived sample-size and effect-floor requirements.
+- Result: Gafson request now asks for enough labeled responders/nonresponders
+  for effect-size estimation and states that below roughly `30` per group is
+  directional unless the effect is large and clean. It also states the
+  validation will apply AUC/Hedges-g effect-size floors, not p-values alone.
+
+### Iteration 50
+
 - Start UTC: pending
 - Status: todo
 - Item selected: Continue autonomous V36 block with next executable
   self-generated item.
-- Note: Block runtime remains below 120 minutes after Iteration 48.
+- Note: Block runtime remains below 120 minutes after Iteration 49.
 
 ## Backlog
 

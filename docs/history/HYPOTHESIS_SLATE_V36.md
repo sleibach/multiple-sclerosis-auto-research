@@ -1598,3 +1598,19 @@ The model-named cross-drug classifier/GSEA datasets `GSE19285`, `GSE126480`,
 treatment-response data. Some are mentioned only in old scout text. Therefore
 the classifier/GSEA proposal is a future acquisition workstream; it is not an
 unrun in-hand analysis.
+
+## Iteration 49: Gafson Request Guardrail Update
+
+Status: **completed / human-facing request synchronized**.
+
+Executable artifact:
+
+- Updated `docs/validation/GAFSON_DATA_REQUEST_V36.md`
+
+Result:
+
+The Gafson request now states that results below roughly `30` responders and
+`30` nonresponders should be treated as directional unless the observed effect
+is large and clean under the pre-specified confounder/QC audits. It also states
+that the future validation report will use an effect-size floor (currently AUC
+`>= 0.70` and signed Hedges g `>= 0.50`) rather than relying on p-values alone.

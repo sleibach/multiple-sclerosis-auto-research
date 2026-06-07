@@ -29,6 +29,13 @@ NEDA-4 response status.
 Would you be willing to share processed and/or raw expression data and
 sample-level metadata for the cohort in PMID 30283812?
 
+If the cohort includes more patients than the published subset, the validation
+is most useful with enough labeled responders and nonresponders to estimate both
+statistical significance and effect size. Our planning simulation suggests that
+results below roughly 30 responders and 30 nonresponders should be interpreted
+as directional unless the observed effect is large and robust to the
+pre-specified confounder/QC audits.
+
 The minimum files needed are:
 
 - gene expression matrix for all baseline, 6-week, and 15-month PBMC samples;
@@ -53,6 +60,10 @@ The primary analysis will apply a locked rule without re-fitting. Secondary
 pre-specified audits will test baseline versus early on-treatment dynamics,
 STAT1/IFN-axis dependence, glycolysis coupling, cell-composition effects, and
 technical QC/batch sensitivity.
+
+The validation report will not rely on p-values alone. It will also apply an
+effect-size floor (currently AUC >= 0.70 and signed Hedges g >= 0.50) before
+calling the rule clinically promising.
 
 We can work with either raw counts, normalized counts, or both, and will follow
 any data-use conditions you require.
