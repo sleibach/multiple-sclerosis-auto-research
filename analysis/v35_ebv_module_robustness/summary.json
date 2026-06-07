@@ -1,0 +1,18 @@
+{
+  "fdr_min_across_all_ebv_tests": 1.436499314122951e-15,
+  "grounded_result": "GSE108497 robust host-module-like SLE signal; GSE10325 sorted subset inconclusive",
+  "gse10325_best_subset": {
+    "contrast": "SLE_vs_HC_EBV_up_residualized_for_IFN_APC",
+    "dataset": "GSE10325",
+    "delta": 50.006863230694535,
+    "fdr_permutation_family": 0.35096490350964904,
+    "n_hc": 9,
+    "n_sle": 14,
+    "permutation_p_timepoint_stratified": NaN,
+    "permutation_p_unstratified": 0.17548245175482452,
+    "subset": "CD19_B"
+  },
+  "gse108497_timepoint_stratified_permutation_p": 9.999000099990002e-05,
+  "hypothesis": "EBV module robustness and multiple-testing accounting",
+  "interpretation": "Multiple-testing and permutation checks support a SLE-associated host EBV-module-like blood signal in GSE108497 after IFN/APC residualization. Sorted-cell GSE10325 remains inconclusive for B-cell/APC localization. Neither dataset has EBV exposure/load metadata, so EBV imprint causality remains unproven."
+}

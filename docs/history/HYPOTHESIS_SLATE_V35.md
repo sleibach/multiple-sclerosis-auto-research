@@ -624,3 +624,41 @@ Next test:
   contrasts.
 - The decisive dataset remains EBV-stratified MS/SLE B-cell or APC expression
   with IFN/APC, cell composition, and ideally viral-load metadata.
+
+## Iteration 16: EBV-Module Null-Testing Robustness
+
+Status: **GSE108497 robust host-module-like SLE blood signal / sorted-cell
+localization still inconclusive**.
+
+Executable grounding:
+
+- Script: `scripts/v35_ebv_module_robustness.py`
+- Outputs: `analysis/v35_ebv_module_robustness/`
+
+Result:
+
+- GSE108497 EBV-up residualized for IFN/APC remains higher in SLE than healthy
+  controls:
+  - delta `9.102`;
+  - unstratified label-permutation p `9.999e-05`;
+  - timepoint-stratified label-permutation p `9.999e-05`;
+  - permutation-family FDR `0.00040`.
+- GSE10325 sorted-cell IFN-residualized contrasts do not survive:
+  - CD19 B: delta `50.007`, permutation p `0.175`, family FDR `0.351`;
+  - CD4 T: permutation p `0.876`;
+  - myeloid: permutation p `0.585`.
+
+Interpretation:
+
+The GSE108497 host EBV-module-like SLE blood signal is robust to simple
+label-permutation and FDR accounting, including preservation of pregnancy/
+postpartum timepoint strata. The sorted-cell data are directionally compatible
+with a B-cell signal but underpowered and not hardened. The result remains a
+host-module-like SLE state, not EBV imprint causality, because neither dataset
+has EBV exposure or viral-load metadata.
+
+Next test:
+
+- Run a random-gene-set specificity control to test whether the GSE108497 signal
+  exceeds arbitrary same-size gene/probe modules.
+- Acquire EBV-stratified MS/SLE B-cell/APC data for the actual imprint claim.

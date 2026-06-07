@@ -194,10 +194,24 @@ Target block end UTC: 2026-06-07T17:37:36Z
 ### Iteration 16
 
 - Start UTC: 2026-06-07T17:17:58Z
-- Status: in_progress
+- End UTC: 2026-06-07T17:20:23Z
+- Status: completed
 - Item selected: EBV-module null-testing robustness.
 - Note: Add permutation/FDR accounting for the GSE108497 blood and GSE10325
   sorted-cell EBV-module results before any shortlist upgrade.
+- Result: broad SLE blood host-module signal survives, sorted-cell localization
+  does not. GSE108497 EBV-up residualized for IFN/APC has SLE-HC delta `9.102`
+  with unstratified and timepoint-stratified permutation p `9.999e-05`, FDR
+  `0.00040`. GSE10325 CD19 B residual contrast remains inconclusive
+  (permutation p `0.175`, family FDR `0.351`).
+
+### Iteration 17
+
+- Start UTC: 2026-06-07T17:20:23Z
+- Status: in_progress
+- Item selected: EBV-module random-gene-set specificity control.
+- Note: Test whether the GSE108497 IFN-residualized SLE signal is stronger than
+  random same-size gene/probe modules, not merely a large-module artifact.
 
 ## Backlog
 
@@ -218,7 +232,8 @@ Target block end UTC: 2026-06-07T17:37:36Z
 | 13 | EBV module portability in local MS PBMC data | done | Portable to GPL571 PBMC data; no EBV-specific evidence without metadata. |
 | 14 | Local SLE/B-cell/APC EBV-module scoring scout | done | GSE108497 supports IFN-residualized SLE host EBV-module-like blood signal; no EBV metadata, so not an EBV imprint claim. |
 | 15 | Sorted SLE immune-subset EBV-module feasibility | done | GSE10325 supports only inconclusive CD19 B directional localization after IFN residualization; no EBV metadata. |
-| 16 | EBV-module null-testing robustness | in_progress | Add permutation/FDR accounting for GSE108497 and GSE10325 EBV-module contrasts. |
+| 16 | EBV-module null-testing robustness | done | GSE108497 host EBV-module-like SLE signal survives timepoint-stratified label permutation; GSE10325 sorted-cell localization remains inconclusive. |
+| 17 | EBV-module random-gene-set specificity control | in_progress | Test GSE108497 EBV-up residual signal against random same-size modules. |
 
 ## Timing Rule
 
