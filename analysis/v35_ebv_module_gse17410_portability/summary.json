@@ -1,0 +1,72 @@
+{
+  "grounded_result": "portable_with_probe_coverage_not_ebv_specific",
+  "hypothesis": "EBV host module portability to GSE17410 PBMC",
+  "interpretation": "The host EBV-transformation module has enough GPL571 probe coverage to score in GSE17410 PBMC. Any pregnancy-phase shift is technical/context information only, because this cohort lacks EBV status and postpartum relapse-window sampling.",
+  "n_down_genes_top100": 100,
+  "n_down_probes_on_gpl571": 161,
+  "n_samples": 17,
+  "n_up_genes_top100": 100,
+  "n_up_probes_on_gpl571": 117,
+  "tests": [
+    {
+      "comparison": "month9_pregnancy_vs_pre_pregnancy_unpaired",
+      "delta_month9_minus_pre": -0.04439836794028995,
+      "mean_month9": 3.8828437370094964,
+      "mean_pre": 3.9272421049497863,
+      "n_month9": 9,
+      "n_pre": 8,
+      "score": "ebv_up_score",
+      "welch_p": 0.548021614888595
+    },
+    {
+      "comparison": "month9_pregnancy_vs_pre_pregnancy_unpaired",
+      "delta_month9_minus_pre": 0.315966518982143,
+      "mean_month9": 7.556386681689442,
+      "mean_pre": 7.240420162707299,
+      "n_month9": 9,
+      "n_pre": 8,
+      "score": "ebv_down_score",
+      "welch_p": 0.012026817995311257
+    },
+    {
+      "comparison": "month9_pregnancy_vs_pre_pregnancy_unpaired",
+      "delta_month9_minus_pre": -0.36036488692243296,
+      "mean_month9": -3.6735429446799444,
+      "mean_pre": -3.3131780577575114,
+      "n_month9": 9,
+      "n_pre": 8,
+      "score": "ebv_up_minus_down",
+      "welch_p": 0.008041974499958561
+    },
+    {
+      "comparison": "month9_pregnancy_vs_pre_pregnancy_paired_by_title_key",
+      "delta_month9_minus_pre": -0.0467736657914533,
+      "mean_month9": 3.9445918690205124,
+      "mean_pre": 3.9913655348119663,
+      "n_month9": 5,
+      "n_pre": 5,
+      "score": "ebv_up_score",
+      "welch_p": 0.6905438488572182
+    },
+    {
+      "comparison": "month9_pregnancy_vs_pre_pregnancy_paired_by_title_key",
+      "delta_month9_minus_pre": 0.39133901276024846,
+      "mean_month9": 7.588825399859627,
+      "mean_pre": 7.197486387099379,
+      "n_month9": 5,
+      "n_pre": 5,
+      "score": "ebv_down_score",
+      "welch_p": 0.012657703275938651
+    },
+    {
+      "comparison": "month9_pregnancy_vs_pre_pregnancy_paired_by_title_key",
+      "delta_month9_minus_pre": -0.4381126785517018,
+      "mean_month9": -3.6442335308391143,
+      "mean_pre": -3.2061208522874125,
+      "n_month9": 5,
+      "n_pre": 5,
+      "score": "ebv_up_minus_down",
+      "welch_p": 0.0284563077894174
+    }
+  ]
+}

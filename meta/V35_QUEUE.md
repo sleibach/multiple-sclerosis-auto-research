@@ -152,10 +152,21 @@ Target block end UTC: 2026-06-07T17:37:36Z
 ### Iteration 13
 
 - Start UTC: 2026-06-07T17:09:21Z
-- Status: in_progress
+- Status: completed
 - Item selected: EBV module portability in local MS PBMC data.
 - Note: Score acquired host EBV module in GSE17410/GSE17449 as a technical
   portability test only; no EBV-imprint claim without EBV metadata.
+- Result: portable with coverage, not EBV-specific evidence. GPL571 has `117`
+  top-100 EBV-up probes and `161` EBV-down probes; EBV-up does not rise in
+  month-9 pregnancy, while EBV-down rises. No EBV metadata or SLE comparator.
+
+### Iteration 14
+
+- Start UTC: 2026-06-07T17:10:55Z
+- Status: in_progress
+- Item selected: Local SLE/B-cell/APC EBV-module scoring scout.
+- Note: Search held local data for a SLE or B-cell/APC expression dataset where
+  the acquired host EBV module can be scored with IFN/APC adjustment.
 
 ## Backlog
 
@@ -173,7 +184,8 @@ Target block end UTC: 2026-06-07T17:37:36Z
 | 10 | GSE17410/GSE17449 postpartum-MS feasibility check | done | Pregnancy-phase HLA/CD64 scoring feasible; postpartum relapse-window data absent. |
 | 11 | EBV-response module acquisition feasibility | done | Host EBV-transformation module acquired from GSE162516; not yet MS/SLE tested. |
 | 12 | EBV module IFN/APC separability | done | Source module separable from IFN/APC by top-gene overlap and trajectory. |
-| 13 | EBV module portability in local MS PBMC data | in_progress | Score EBV host module in GSE17410/GSE17449 as technical portability only. |
+| 13 | EBV module portability in local MS PBMC data | done | Portable to GPL571 PBMC data; no EBV-specific evidence without metadata. |
+| 14 | Local SLE/B-cell/APC EBV-module scoring scout | in_progress | Find local held SLE/B-cell/APC data suitable for module scoring. |
 
 ## Timing Rule
 

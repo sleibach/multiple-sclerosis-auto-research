@@ -246,6 +246,44 @@ Next test:
   verify probe coverage and behavior.
 - Do not interpret that as EBV-specific without EBV metadata.
 
+## Iteration 13: EBV Module Portability in Local MS PBMC Data
+
+Status: **portable with probe coverage; not EBV-specific evidence**.
+
+Executable grounding:
+
+- Script: `scripts/v35_ebv_module_gse17410_portability.py`
+- Outputs: `analysis/v35_ebv_module_gse17410_portability/`
+- Inputs: top-100 GSE162516 host EBV-up/down modules and local
+  `GSE17410/GSE17449` GPL571 PBMC SOFT expression tables.
+
+Result:
+
+- GPL571 probe coverage is sufficient:
+  - top-100 EBV-up genes: `117` probes;
+  - top-100 EBV-down genes: `161` probes.
+- Unpaired month-9 versus pre-pregnancy:
+  - EBV-up score delta `-0.044`, p `0.548`;
+  - EBV-down score delta `+0.316`, p `0.0120`;
+  - EBV-up-minus-down delta `-0.360`, p `0.00804`.
+- Paired-by-title-key subset (`n=5`):
+  - EBV-up score delta `-0.047`, p `0.691`;
+  - EBV-down score delta `+0.391`, p `0.0127`;
+  - EBV-up-minus-down delta `-0.438`, p `0.0285`.
+
+Interpretation:
+
+The module can be scored in older Affymetrix PBMC data, so it is technically
+portable. The GSE17410 pregnancy-phase behavior is not evidence of EBV imprint:
+there is no EBV metadata, no SLE comparator, and the EBV-up score itself does
+not rise. The result mainly proves the module can be carried into patient
+microarray datasets when suitable MS/SLE B-cell/APC data is found.
+
+Next test:
+
+- Search local held data for SLE/B-cell/APC expression where this host EBV
+  module can be scored and adjusted for IFN/APC.
+
 ## Iteration 5: Lysosomal APC-Processing Bottleneck
 
 Status: **reframed / coupled lysosomal APC axis supported, functional bottleneck
