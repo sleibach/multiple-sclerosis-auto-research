@@ -152,3 +152,36 @@ Verdict:
 No clinical or biomarker upgrade. The decisive next test remains an independent
 paired response-labeled cohort with T/B/myeloid compartments and pre-specified
 count/fraction adjustment.
+
+## Iteration 5: Postpartum APC-Arm MS-Specificity
+
+Status: **partially grounded / decisive MS postpartum test blocked**.
+
+Executable artifact:
+
+- Summary: `analysis/v36_postpartum_ms_specificity/summary.md`
+
+Grounding:
+
+- Local MS PBMC pregnancy-phase data has pre-pregnancy and 9th-month pregnancy
+  samples, but no postpartum samples and no relapse-window labels.
+- Month-9 versus pre-pregnancy MS:
+  - unpaired HLA-II-minus-CD64 delta `-1.332`, p `0.00127`;
+  - paired-by-title-key HLA-II-minus-CD64 delta `-1.168`, p `0.0432`.
+- Cross-disease postpartum reference shows HLA-II-minus-CD64 rebound after
+  trimester 3 in healthy pregnancy, SLE, and seronegative RA, but this is not
+  MS-specific and is not relapse-labeled.
+
+Interpretation:
+
+V36 grounds pregnancy-phase APC-arm movement in MS but does not validate the
+postpartum relapse-window hypothesis. RPT's down-ranking was methodologically
+useful: this hypothesis lacks the response-label/null-tested MS postpartum data
+that would make it actionable.
+
+Verdict:
+
+Still high-priority for acquisition, not a finding. The exact next dataset and
+pass/kill criteria are recorded in
+`analysis/v36_postpartum_ms_specificity/summary.md` and
+`meta/V35_BLOCKED_DATA_REQUESTS.md`.

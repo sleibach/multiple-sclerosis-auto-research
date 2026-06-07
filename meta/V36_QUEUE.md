@@ -77,10 +77,25 @@
 ### Iteration 5
 
 - Start UTC: 2026-06-07T18:40:04Z
-- Status: in_progress
+- End UTC: 2026-06-07T18:41:15Z
+- Status: completed
 - Item selected: Postpartum APC-arm imbalance MS-specificity.
 - Note: Deepen reachable grounding for postpartum/MS specificity using local
   pregnancy and cross-disease APC-arm artifacts; specify remaining data need.
+- Result: Local MS data supports pregnancy-phase HLA-II-minus-CD64 movement
+  from pre-pregnancy to month 9 (paired delta `-1.168`, p `0.0432`) but has no
+  postpartum samples or relapse labels. Cross-disease postpartum data shows
+  HLA-II-minus-CD64 rebound in healthy/SLE/RA contexts, not MS-specificity.
+  Verdict remains high-priority data acquisition, not a finding.
+
+### Iteration 6
+
+- Start UTC: 2026-06-07T18:41:15Z
+- Status: in_progress
+- Item selected: Remaining V35 shortlist deepening.
+- Note: Revisit metabolic/sterol, lysosomal, complement/lipid, and EBV/IFN
+  after RPT and generation outputs; identify any executable heavier analysis or
+  confirm blocked/null status.
 
 ## Backlog
 
@@ -90,8 +105,8 @@
 | 2 | RPT-driven structured-data hypothesis pass | done | RPT added prioritization value but no data-grounded upgrades; see `analysis/v36_rpt_structured_pass/` and slate. |
 | 3 | Expansive tri-source generation round | done | 16 model hypotheses consolidated; first executable subset grounded with no upgrades. |
 | 4 | T/B compartment remodeling gate artifact audit | done | Survives simple count/fraction residualization, but T-cell component attenuates; B/plasma is more robust. |
-| 5 | Postpartum APC-arm imbalance MS-specificity | in_progress | Deepen reachable grounding and specify required MS postpartum cohort. |
-| 6 | Metabolic/sterol, lysosomal, complement/lipid, EBV/IFN deepening | todo | Continue strict grounding of remaining V35 shortlist. |
+| 5 | Postpartum APC-arm imbalance MS-specificity | done | Pregnancy-phase MS movement grounded; postpartum relapse-window test blocked by missing data. |
+| 6 | Metabolic/sterol, lysosomal, complement/lipid, EBV/IFN deepening | in_progress | Continue strict grounding of remaining V35 shortlist. |
 | 7 | Deep multi-pass cross-examination | todo | Claude/Gemini adversarial rounds for top grounded hypotheses; ground concrete proposals. |
 | 8 | Heavier analyses now affordable | todo | Larger permutation/module scans or pooled tests where executable. |
 
