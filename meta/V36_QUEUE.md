@@ -546,11 +546,29 @@
 
 ### Iteration 38
 
+- Start UTC: 2026-06-07T19:45:18Z
+- End UTC: 2026-06-07T19:50:26Z
+- Status: completed
+- Item selected: Continue autonomous V36 block with next executable
+  self-generated item.
+- Note: Run a focused two-lineage proposal pass on the refactored V36 state,
+  requesting only executable in-held tests; ground any concrete test that is
+  possible with existing artifacts.
+- Result: Claude and Gemini converged mostly on already-executed checks
+  (multiplicity, confounder attenuation, receptor stability). Claude proposed a
+  concrete T-vs-B/plasma concordance audit, which was grounded: locked signed
+  score T-vs-B/plasma Spearman rho `0.883`, permutation p `0.00340`, but sign
+  concordance only `0.667`; HLA-II and receptor deltas did not concord.
+  Therefore T/B-readable wording is retained only as a qualitative descriptor of
+  broad IFN/APC remodeling, not an independent mechanism.
+
+### Iteration 39
+
 - Start UTC: pending
 - Status: todo
 - Item selected: Continue autonomous V36 block with next executable
   self-generated item.
-- Note: Block runtime remains below 120 minutes after Iteration 37.
+- Note: Block runtime remains below 120 minutes after Iteration 38.
 
 ## Backlog
 

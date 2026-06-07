@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Locked V22/V23 rule replication on held-out MS DMT cohort",
+      "priority": 1,
+      "artifact": "V22/V23 locked APC/HLA-II early-treatment monitoring rule definition + fresh MS DMT cohort table (when delivered)",
+      "feature_or_comparison": "Apply pre-specified bounded APC/HLA-II rule with frozen thresholds to W8 vs baseline samples; primary endpoint = pre-specified responder discrimination AUC",
+      "null_or_control": "Exact label permutation (>=10000 perms) for AUC null; pre-registered one-sided alpha",
+      "status_change_if_positive": "V22/V23 promoted from locked candidate to validated primary monitoring rule; project advances to confirmatory write-up",
+      "status_change_if_negative": "Primary hypothesis falsified; project demoted to exploratory-only and V36 audit features cannot rescue primary status",
+      "executable_now": false
+    },
+    {
+      "name": "V36 IFN/APC/STAT1 axis permutation re-test with composition/QC covariate adjustment",
+      "priority": 2,
+      "artifact": "V36 W8 on-treatment feature table (n=8-9) with composition and QC covariates",
+      "feature_or_comparison": "Locked V36 IFN/APC/STAT1 axis score AUC for response, before vs after regressing out composition + QC covariates",
+      "null_or_control": "Exact label permutation max-AUC null across the 76-feature family; report empirical p for adjusted score",
+      "status_change_if_positive": "V36 axis survives covariate adjustment and multiplicity; upgrade from exploratory to pre-registerable secondary hypothesis",
+      "status_change_if_negative": "Confirms V36 W8 axis is confounded/multiplicity-driven; formally retire V36 features as anything beyond descriptive audit",
+      "executable_now": true
+    },
+    {
+      "name": "Receptor-side delta direction stability audit across MTX/TOF/ADA",
+      "priority": 3,
+      "artifact": "GSE85034 MTX stress-test outputs + TOF compartment tables + ADA table",
+      "feature_or_comparison": "Sign and magnitude of delta_RECEPTOR effect per drug; test whether a single signed receptor feature generalizes across MTX, TOF, ADA",
+      "null_or_control": "Permutation of drug labels within receptor feature; require concordant sign in >=2 of 3 datasets at pre-specified threshold",
+      "status_change_if_positive": "Receptor-side feature elevated to a pre-specified secondary cross-drug hypothesis to test in MS cohort",
+      "status_change_if_negative": "Receptor recurrence formally declared direction-unstable and removed from candidate secondary list",
+      "executable_now": true
+    },
+    {
+      "name": "Out-of-domain null re-test of locked IFN/APC feature on GSE85034",
+      "priority": 4,
+      "artifact": "GSE85034 MTX dataset + locked V36 IFN/APC feature definition",
+      "feature_or_comparison": "Locked feature AUC (observed 0.60) re-evaluated with exact permutation and bootstrap CI",
+      "null_or_control": "Exact label permutation p (already 0.346) plus 95% bootstrap CI on AUC; pre-specify CI must exclude 0.5 to keep feature",
+      "status_change_if_positive": "Locked IFN/APC feature retained as a weak cross-disease audit readout",
+      "status_change_if_negative": "Locked IFN/APC feature formally declared out-of-domain null; remove from any cross-disease claims",
+      "executable_now": true
+    },
+    {
+      "name": "Glucocorticoid and delta-STAT1 mediation decomposition for V36 axis",
+      "priority": 5,
+      "artifact": "V36 W8 feature table with glucocorticoid status and delta-STAT1-axis covariate",
+      "feature_or_comparison": "Compare V36 axis AUC in (a) raw, (b) glucocorticoid-stratified, (c) delta-STAT1 residualized models",
+      "null_or_control": "Within-stratum permutation null; pre-specify minimum retained AUC drop tolerance (e.g., <=0.1)",
+      "status_change_if_positive": "Confirms V36 axis is not mediated solely by delta-STAT1; supports it as a distinct secondary signal",
+      "status_change_if_negative": "V36 axis declared a delta-STAT1 proxy; collapse it into the STAT1 covariate and stop reporting as independent",
+      "executable_now": true
+    },
+    {
+      "name": "T vs B compartment readability falsification of V36 axis",
+      "priority": 6,
+      "artifact": "V36 compartment-resolved feature tables (T and B)",
+      "feature_or_comparison": "Test whether V36 axis direction and rank-order of subjects agree between T and B compartments (Spearman rho, sign concordance)",
+      "null_or_control": "Permutation of subject labels within compartment; pre-specify rho>=0.5 and sign concordance >=75% to claim cross-compartment readability",
+      "status_change_if_positive": "Cross-compartment readability claim retained as a qualitative descriptor of V36",
+      "status_change_if_negative": "Drop 'readable in T/B compartments' language; restrict V36 description to whichever single compartment passes",
+      "executable_now": true
+    }
+  ]
+}

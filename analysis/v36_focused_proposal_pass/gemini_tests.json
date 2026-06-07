@@ -1,0 +1,42 @@
+```json
+{
+  "tests": [
+    {
+      "name": "Validate V22/V23 APC/HLA-II monitoring rule",
+      "artifact": "V22/V23_APC_HLA-II_rule",
+      "feature_or_comparison": "Performance on independent early-treatment validation cohort",
+      "null_or_control": "Performance not superior to chance (e.g., AUC <= 0.5)",
+      "status_change_if_positive": "Primary target: Validated",
+      "status_change_if_negative": "Primary target: Failed validation",
+      "executable_now": true
+    },
+    {
+      "name": "Confirm V36 feature set non-significance",
+      "artifact": "V36_posthoc_featureset",
+      "feature_or_comparison": "Permutation testing of max-AUC on n=8-9 features",
+      "null_or_control": "Permutation p-value > 0.05",
+      "status_change_if_positive": "V36 features: Confirmed exploratory",
+      "status_change_if_negative": "V36 features: Significance detected, requires re-evaluation",
+      "executable_now": true
+    },
+    {
+      "name": "Quantify signal attenuation by confounders",
+      "artifact": "primary_signal_model",
+      "feature_or_comparison": "Model performance after correction for STAT1, composition, and QC",
+      "null_or_control": "Uncorrected model performance",
+      "status_change_if_positive": "Signal: Attenuation by listed confounders confirmed",
+      "status_change_if_negative": "Signal: Attenuation not explained by listed confounders",
+      "executable_now": true
+    },
+    {
+      "name": "Test receptor model directional stability across treatments",
+      "artifact": "receptor_posthoc_model",
+      "feature_or_comparison": "Significance of interaction term between model score and treatment type (MTX/TOF/ADA)",
+      "null_or_control": "No significant interaction (p > 0.05)",
+      "status_change_if_positive": "Receptor model: Directional instability confirmed",
+      "status_change_if_negative": "Receptor model: Directionally stable, conclusion requires revision",
+      "executable_now": true
+    }
+  ]
+}
+```

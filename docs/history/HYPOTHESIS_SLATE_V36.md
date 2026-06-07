@@ -1205,3 +1205,46 @@ The receptor-side observation is direction- and context-dependent. MTX favors
 ADA is null. This blocks any receptor/coupling successor rule. The result is
 kept as a mechanistic prompt only: if receptor coupling is revived, it requires
 a separately locked, direction-specified rule and a fresh held-out test.
+
+## Iteration 38: Focused Two-Lineage Proposals and T/B Readability Audit
+
+Status: **completed / T/B-readable wording retained with caveats**.
+
+Executable artifacts:
+
+- Prompt package: `analysis/v36_focused_proposal_pass/prompt.md`
+- Claude proposals: `analysis/v36_focused_proposal_pass/claude_tests.json`
+- Gemini compact proposals:
+  `analysis/v36_focused_proposal_pass/gemini_tests.json`
+- Script: `scripts/v36_tb_readability_concordance.py`
+- Output: `analysis/v36_tb_readability_concordance/summary.md`
+
+Two-lineage proposal result:
+
+Claude and Gemini converged on several tests already executed in V36:
+multiplicity control, confounder attenuation, and receptor direction stability.
+Claude additionally proposed direct T-vs-B/plasma concordance as a falsification
+test for the wording that the V36 state is T/B-readable. That was the most
+concrete ungrounded in-held test, so it was executed.
+
+Grounding:
+
+Using exact `GSE253006_TOF` compartment paired scores, T-like and B/plasma-like
+patient ranks were compared for the same dynamic readouts.
+
+| Feature | n | Spearman T-vs-B/plasma | Permutation p | Sign concordance |
+|---|---:|---:|---:|---:|
+| locked signed score | `9` | `0.883` | `0.00340` | `0.667` |
+| `delta_IFN_APC` | `9` | `0.883` | `0.00340` | `0.667` |
+| `delta_HLAII` | `9` | `-0.0167` | `0.982` | `0.333` |
+| `delta_RECEPTOR` | `9` | `0.0667` | `0.877` | `0.556` |
+
+Interpretation:
+
+The T/B-readable wording is supported for the IFN/APC-derived locked dynamic
+score as a qualitative descriptor: the same patients are ranked similarly in
+T-like and B/plasma-like compartments. The sign concordance is only `0.667`,
+HLA-II and receptor deltas do not concord, and the entire result is still one
+small cohort. Therefore this does not promote a T/B mechanism; it only preserves
+the narrower wording that the broad IFN/APC/STAT1 monitoring state is readable
+in both T-like and B/plasma-like compartments.
