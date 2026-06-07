@@ -1,0 +1,25 @@
+{
+  "cohorts": [
+    "GSE235357",
+    "GSE253006_TOF_exact"
+  ],
+  "joint_verdict": {
+    "auc_attenuation": -0.12222222222222223,
+    "features": "baseline_apc_hla_level;baseline_glucocorticoid_response;delta_glucocorticoid_response",
+    "joint_adjusted_auc": 0.9333333333333333,
+    "joint_adjusted_auc_ci_high": 1.0,
+    "joint_adjusted_auc_ci_low": 0.7954545454545454,
+    "joint_adjusted_permutation_p": 0.001999000499750125,
+    "loocv_auc_confounders_only": 0.15555555555555556,
+    "loocv_auc_locked_plus_confounders": 0.7888888888888889,
+    "raw_locked_auc": 0.8111111111111111,
+    "risk_set": "baseline_and_steroid",
+    "verdict": "survives"
+  },
+  "n_subjects": 19,
+  "panel_counts": {
+    "survives": 23
+  },
+  "raw_locked_auc": 0.8111111111111111,
+  "seed": 32032
+}

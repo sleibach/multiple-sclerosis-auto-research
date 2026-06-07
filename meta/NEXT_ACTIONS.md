@@ -1,6 +1,6 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-06-07 03:15 CEST
+Last updated: 2026-06-07 12:20 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
@@ -37,16 +37,28 @@ V31 update:
 - Mistral remains optional: discoverable but timed out.
 - No lead was upgraded.
 
-First V31 continuation action:
+V32 update:
 
-1. Run the raw-expression confounder panel prioritized by multi-lineage review:
-   baseline APC/HLA-II, metabolic/glycolysis/OXPHOS, generic inflammatory,
-   glucocorticoid, IFN-suppression, STAT1, proliferation, and cell-composition
-   scores on the V22/V23 treatment-response cohorts.
-2. Compare each score against the locked scalar by AUC, cohort-adjusted model,
-   and residualization where possible.
-3. Keep `LOCKED_RULE_V22.md` immutable; this is a confounder audit, not rule
-   tuning.
+- Raw-expression confounder audit completed:
+  `docs/workups/treatment_response/CONFOUNDER_AUDIT_V32.md`.
+- Outputs are in `analysis/v32_confounder_audit/`.
+- All single confounder panels survived adjustment; baseline/steroid and
+  composition joint adjustments survived.
+- Broad metabolic/inflammatory/STAT1 joint adjustment attenuated the signal but
+  did not fully explain it away.
+- Overall verdict: partially confounded / immune-tone bounded, not a
+  glucocorticoid or composition artifact.
+- `docs/validation/VALIDATION_READINESS_V27.md` now requires future validation
+  to report V32 confounder-adjusted results alongside the immutable V22 score.
+
+First V32 continuation action:
+
+1. If a fresh Gafson/NEDA or equivalent cohort appears, quarantine it and run
+   the frozen V22 validation harness plus V32 confounder panels without tuning.
+2. If no fresh validation cohort is available, advance the postpartum
+   HLA-II/CD64 APC-axis biology lead from V29/V31 using existing data.
+3. Optional hardening: scout a direct public steroid-pulse transcriptomic cohort
+   to benchmark the glucocorticoid signature control.
 
 No unresolved supported V12 cells remain. V14 has added a first-pass locus
 landscape and prior-sensitivity layer over the V13 OpenGWAS coloc results.

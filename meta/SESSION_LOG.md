@@ -595,3 +595,46 @@ Next session first action:
 - Multi-lineage review added value: yes, by converging on a concrete
   confounder-audit panel and sharpening V26/chr1 vulnerabilities; no lead was
   upgraded and no model output was treated as evidence.
+
+## RUN SUMMARY - V32 Treatment-Response Confounder Audit
+
+- Active runtime: estimated approximately 40 minutes active; total elapsed
+  approximately 40 minutes. This is an estimate because the session compacted
+  mid-run; derivation is visible post-compaction command timestamps
+  `2026-06-07T10:03:54Z` to `2026-06-07T10:13:03Z` plus the pre-compaction
+  completed first-action, SAP smoke-test, data-inspection, and initial audit
+  work recorded in the context summary.
+- Session start timestamp (UTC): approximately 2026-06-07 09:33:00 UTC
+  (estimated after compaction).
+- Session end timestamp (UTC): 2026-06-07 10:13:00 UTC.
+- Frontier advanced: V32 raw-expression confounder audit completed for the
+  bounded V22/V23 treatment-response cohorts; the validation harness/readiness
+  now requires prospective confounder-adjusted reporting.
+- Stop reason: completed available V32 confounder audit and resume-state
+  updates.
+- Next action: when a fresh Gafson/NEDA or equivalent cohort arrives,
+  quarantine it and run the frozen V22 validation harness plus V32 confounder
+  panels without tuning; otherwise advance the postpartum HLA-II/CD64 APC-axis
+  biology lead.
+- Confounder panels tested: baseline APC/HLA-II survived; glucocorticoid/steroid
+  signatures survived; glycolysis/OXPHOS/HIF-NAMPT metabolism survived as
+  single panels; general inflammatory tone survived as single panels;
+  IFN-suppression and STAT1 survived as single panels; proliferation survived;
+  monocyte/myeloid, T-cell, and B-cell marker composition survived.
+- Joint-adjustment result: baseline APC/HLA-II plus glucocorticoid survived
+  (adjusted AUC `0.933`, permutation p `0.0020`); cell-composition survived
+  (adjusted AUC `0.811`, p `0.0130`); broad metabolic/inflammatory/STAT1
+  attenuated the signal (adjusted AUC `0.656`, p `0.1629`) but locked-plus-
+  confounders still improved leave-one-out CV AUC over confounders alone
+  (`0.733` versus `0.611`).
+- Overall verdict: partially confounded / immune-tone bounded, not explained
+  away by glucocorticoid/steroid or cell-composition artifacts.
+- Validation-readiness update: `docs/validation/VALIDATION_READINESS_V27.md`
+  now requires future validation reports to include V32 confounder-adjusted
+  results alongside the immutable V22 locked score.
+- Queued groundings advanced: metabolic confounding was completed as part of
+  the V32 audit; steroid-pulse mimic remains optional and data-scout dependent;
+  KIF21B trans/pathway remains data-limited.
+- Model lens used and spend: Claude and Gemini smoke tests were verified via
+  SAP AI Core before the audit; no new model-grounded scientific claim was made
+  and no separate paid-service spend was recorded.

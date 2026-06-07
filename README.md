@@ -11,7 +11,7 @@ All analysis uses public human-tissue data only and random seed `20260526`
 
 ## Current Status
 
-The current phase is **V30**. The V4 directory structure remains canonical, and
+The current phase is **V32**. The V4 directory structure remains canonical, and
 V11 introduced the resume backbone for short-session continuity.
 
 - Start here: `meta/CURRENT_STATUS.md` — the live mission state, active leads,
@@ -51,10 +51,15 @@ V11 introduced the resume backbone for short-session continuity.
   through the SAP AI Core Orchestration deployment
   `defaultOrchestrationConfig`, so Claude 4.7 Opus and Gemini 2.5 Pro both
   smoke-pass. Multi-lineage review ran and sharpened the next negative-control
-  analyses, but did not upgrade any lead. The strongest next computational
-  action is a raw-expression confounder panel for the V22/V23 cohorts:
-  baseline APC/HLA-II, metabolic/inflammatory, glucocorticoid/IFN-suppression,
-  STAT1, proliferation, and cell-composition controls.
+  analyses, but did not upgrade any lead. V32 ran the prioritized
+  raw-expression confounder panel on the bounded V22/V23 cohorts. The locked
+  scalar is not explained by baseline APC/HLA-II, glucocorticoid/steroid
+  response, proliferation, or marker-level cell-composition shifts. A broad
+  metabolic/inflammatory/STAT1 joint adjustment attenuates the signal, so the
+  current interpretation is a partially confounded / immune-tone-bounded
+  early-monitoring lead, not a pure APC/HLA-II-specific biomarker and not a
+  glucocorticoid or composition artifact. Future validation must report V32
+  confounder-adjusted results alongside the immutable V22 locked score.
 - Current genetics/data focus: the chr1 MS-UC causal-gene question is
   computationally resolved for now and handed forward as real shared genetics,
   not an intervention-grade target. V20 widened back out to a ranked

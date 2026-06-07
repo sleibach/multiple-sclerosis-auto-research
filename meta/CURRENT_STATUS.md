@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-07 03:15 CEST
+Last updated: 2026-06-07 12:20 CEST
 
 ## Mission State
 
@@ -30,6 +30,13 @@ V31 resolved Claude through SAP AI Core Orchestration and completed the first
 Claude-plus-Gemini independent review. It produced no lead upgrade, but it
 prioritized a concrete raw-expression confounder panel for the V22/V23
 treatment-response lead.
+V32 completed that confounder audit on the bounded V22/V23 cohorts. The locked
+scalar survived baseline APC/HLA-II, glucocorticoid/steroid-response,
+proliferation, and marker-level cell-composition controls. A broad
+metabolic/inflammatory/STAT1 joint adjustment attenuated but did not fully
+explain away the signal, so the lead is now classified as partially
+confounded / immune-tone bounded rather than a glucocorticoid or composition
+artifact.
 
 Current frontier:
 
@@ -139,6 +146,27 @@ Current frontier:
     cohorts for baseline APC/HLA-II, metabolic, inflammatory,
     glucocorticoid, IFN-suppression, STAT1, proliferation, and cell-composition
     controls.
+- V32 treatment-response confounder audit:
+  - Report: `docs/workups/treatment_response/CONFOUNDER_AUDIT_V32.md`.
+  - Script: `scripts/v32_confounder_audit.py`.
+  - Outputs: `analysis/v32_confounder_audit/`.
+  - Audited bounded cohorts: `GSE235357` MS DMF and exact raw-10x
+    `GSE253006_TOF`, total `n = 19`.
+  - Raw locked scalar AUC remained `0.811`.
+  - All `23 / 23` single confounder scores survived adjustment.
+  - Baseline APC/HLA-II + glucocorticoid joint adjustment survived:
+    residualized AUC `0.933`, permutation p `0.0020`.
+  - Cell-composition joint adjustment survived: residualized AUC `0.811`,
+    permutation p `0.0130`.
+  - Broad metabolic/inflammatory/STAT1 joint adjustment attenuated:
+    residualized AUC `0.656`, permutation p `0.1629`; leave-one-out CV still
+    improved from confounders-only AUC `0.611` to locked-plus-confounders AUC
+    `0.733`.
+  - Overall verdict: partially confounded / immune-tone bounded, not explained
+    away by steroid/glucocorticoid or cell-composition artifacts.
+  - `docs/validation/VALIDATION_READINESS_V27.md` now requires future
+    validation to report V32 confounder-adjusted results alongside the
+    immutable V22 primary score.
 - `GPR25` remains a live eQTLGen-supported lead, but not a protected favorite:
   public V18 immune-QTL sources did not support it, and its required therapeutic
   direction is agonism/restoration of a sparsely tooled receptor.

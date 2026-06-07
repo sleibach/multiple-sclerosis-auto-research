@@ -79,3 +79,34 @@ V27 coupled scores are secondary only. They cannot replace the V22 scalar withou
 ## Next Validation Target
 
 Highest-leverage target remains Gafson et al. 2018 DMF PBMC RNA-seq processed counts plus sample-level NEDA-4 labels. Once acquired, prepare the paired module-delta TSV and run the harness mechanically.
+
+## V32 Confounder-Audit Addendum
+
+V32 audited the bounded V22/V23 cohorts against raw-expression confounder
+panels. The locked scalar survived baseline APC/HLA-II, glucocorticoid/steroid,
+proliferation, and marker-level cell-composition adjustment. It attenuated under
+a broad metabolic/inflammatory/STAT1 joint adjustment, so future validation must
+report confounder-adjusted results in addition to the primary locked-rule
+result.
+
+Future cohort preparation should compute these frozen panel scores per sample
+before the validation result is interpreted:
+
+- baseline APC/HLA-II level;
+- baseline and delta glucocorticoid-response score;
+- baseline and delta glycolysis, OXPHOS, and HIF/NAMPT immunometabolism;
+- baseline and delta general inflammatory tone;
+- baseline and delta IFN-suppression/inverse-ISG and STAT1-axis scores;
+- baseline and delta proliferation score;
+- baseline and delta monocyte/myeloid, T-cell, and B-cell marker scores.
+
+Validation reporting must include:
+
+1. The primary immutable V22 locked-scalar AUC, Hedges g, and CI.
+2. The locked scalar adjusted for glucocorticoid/steroid signatures.
+3. The locked scalar adjusted for cell-composition markers.
+4. The locked scalar adjusted for the broad metabolic/inflammatory/STAT1 family.
+
+This addendum does not change `LOCKED_RULE_V22.md`, the pass/fail thresholds, or
+the primary validation score. It only pre-specifies the confounder audit to
+apply alongside the frozen validation result.
