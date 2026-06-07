@@ -355,3 +355,46 @@ that the refined carrier class is promising but unreplicated, and it correctly
 down-ranks HLA-II alone. The real-data gate still controls the conclusion:
 **B/plasma IFN/APC dynamic remodeling is the best specified carrier, but it is
 n=9 and lacks independent replication.**
+
+## Iteration 13: B/Plasma Gene Driver Scan
+
+Status: **completed / mechanistic sharpening only**.
+
+Executable artifacts:
+
+- Script: `scripts/v36_b_plasma_gene_driver_scan.py`
+- Outputs: `analysis/v36_b_plasma_gene_driver_scan/`
+
+Test:
+
+Using the exact `GSE253006` B/plasma-like paired compartment data, compute
+baseline-to-treated deltas for each locked module gene, then test response
+separation with oriented AUC, exact same-case-count permutation, and
+leave-one-patient-out sensitivity.
+
+Result:
+
+- Patients: `9` (`5` responders, `4` non-responders).
+- Locked genes tested: `14`.
+- Genes with oriented AUC >= `0.9`: `2`.
+- Genes with exact oriented p <= `0.05`: `1`.
+
+Top genes:
+
+| Gene | Oriented AUC | Exact p | Direction in responders | LOO min AUC |
+|---|---:|---:|---|---:|
+| `STAT1` | `1.000` | `0.0159` | downshift | `1.000` |
+| `IRF1` | `0.900` | `0.0635` | downshift | `0.867` |
+| `GBP1` | `0.850` | `0.1111` | downshift | `0.800` |
+| `ISG15` | `0.850` | `0.1111` | downshift | `0.800` |
+| `CD74` | `0.800` | `0.1905` | downshift | `0.733` |
+
+Interpretation:
+
+The B/plasma carrier is more IFN/STAT-centered than HLA-II-centered in this
+cohort. `STAT1` is the only individual gene that clears the exact permutation
+threshold and remains leave-one-out stable; `IRF1`, `GBP1`, and `ISG15` move in
+the same responder-associated downshift direction but do not independently clear
+p <= `0.05`. This sharpens the carrier as B/plasma IFN/STAT remodeling, but it
+does **not** validate a STAT1-only biomarker or target because the evidence is
+still single-cohort n=9 and post-hoc at gene level.

@@ -191,10 +191,26 @@
 ### Iteration 13
 
 - Start UTC: 2026-06-07T18:54:28Z
-- Status: in_progress
+- End UTC: 2026-06-07T18:56:40Z
+- Status: completed
 - Item selected: Gene-level B/plasma IFN/APC driver analysis.
 - Note: Test whether the B/plasma IFN/APC carrier is broad module remodeling or
   dominated by one/few genes in the n=9 exact compartment data.
+- Result: B/plasma gene driver scan completed. `STAT1` alone had oriented AUC
+  `1.000`, exact p `0.0159`, and leave-one-out minimum AUC `1.000`; `IRF1`,
+  `GBP1`, and `ISG15` moved in the same responder-associated downshift
+  direction but did not independently clear exact p <= `0.05`. Interpretation:
+  carrier sharpens to B/plasma IFN/STAT remodeling, not HLA-II-only or
+  receptor-only, but remains n=9 and post-hoc.
+
+### Iteration 14
+
+- Start UTC: 2026-06-07T18:56:40Z
+- Status: in_progress
+- Item selected: Timepoint and responder-leverage sensitivity for B/plasma
+  IFN/STAT carrier.
+- Note: Test whether the B/plasma IFN/STAT result is driven by the single W48
+  responder or another high-leverage patient/timepoint.
 
 ## Backlog
 
@@ -211,7 +227,8 @@
 | 9 | B/plasma-specific module decomposition | done | B/plasma IFN/APC delta carries signal; HLA-II/receptor/counts weaker. |
 | 10 | Cross-disease response-cohort B/plasma proxy scout | done | Independent replication blocked with held data; only GSE253006 is compartment-resolved. |
 | 11 | RPT second pass with refined B/plasma/T-cell split | done | RPT agrees carrier candidates are promising-but-unreplicated; no evidence upgrade. |
-| 12 | Gene-level B/plasma IFN/APC driver analysis | in_progress | Determine whether B/plasma IFN/APC is broad module remodeling or single-gene dominated. |
+| 12 | Gene-level B/plasma IFN/APC driver analysis | done | Carrier sharpens to B/plasma IFN/STAT remodeling; STAT1 strongest but no STAT1-only promotion. |
+| 13 | Timepoint and responder-leverage sensitivity for B/plasma IFN/STAT carrier | in_progress | Test W48/TOF_009 and high-leverage patient sensitivity. |
 
 ## Timing Rule
 
