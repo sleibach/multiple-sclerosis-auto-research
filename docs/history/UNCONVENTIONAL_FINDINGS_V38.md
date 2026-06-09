@@ -580,6 +580,33 @@ It does sharpen the wording:
 
 No V37 score changes are made.
 
+### E2. Tool-Lens Contribution Ledger
+
+Status: **completed**.
+
+Artifacts:
+
+- Script: `scripts/v38_tool_lens_ledger.py`
+- Ledger: `analysis/v38_tool_lens_ledger/tool_lens_contribution_ledger.tsv`
+- Summary: `analysis/v38_tool_lens_ledger/tool_lens_contribution_summary.json`
+
+Verdict:
+
+RPT, Claude, and Gemini added value as proposal/prioritization lenses, but none
+provided evidence and none upgraded a finding by themselves. Evidence-bearing
+V38 results all come from deterministic scripts over committed project data.
+
+Specific contributions:
+
+- RPT sharpened that the bounded scalar is operationally prioritized, not
+  structurally exceptional.
+- Claude proposed concrete adversarial tests; the tone-residual scalar test was
+  grounded and weakened the broad-tone-artifact inversion.
+- Gemini converged on the failure/fragility comparison priority, but other
+  proposals were too abstract for current tables.
+- SAP AI Core spend was not exposed by the local client outputs; no open-ended
+  cost was incurred from the repo side.
+
 ## Workstream C: Unpublishable-But-True Exclusions
 
 ### C1. Conservative Exclusion / Non-Replication Ledger

@@ -32,6 +32,7 @@
 | 12 | A/C | Failure-vs-fragility concordance audit | done | Gate-level comparison shows maps are complementary: V38 captures direction/modality and marker-not-driver; V36 captures overfit/power/technical fragility. |
 | 13 | B | Layer-map heterogeneity permutation null | done | Simple 4/4 heterogeneity is not exceptional under random placement-label reassignment; layer-map evidence should rest on disagreement-cell specificity. |
 | 14 | D | Structured V37-to-V38 delta ledger | done | Wrote 8-item delta ledger: four strengthened-and-narrowed, no demotions, plus new prefilter/negative/fragility methodological ledgers. |
+| 15 | E | Tool-lens contribution ledger | done | RPT/Claude/Gemini contributed prioritization/proposals only; no model/RPT output upgraded evidence. |
 
 ## Iteration Log
 
@@ -269,3 +270,17 @@
   `analysis/v38_delta_ledger/v37_v38_delta_ledger.tsv` and summary JSON.
   Ledger contains `8` delta items: four `strengthened_and_narrowed`, no
   demotions, and new operational/methodological negative ledgers. Report updated.
+
+### Iteration 15
+
+- Start UTC: 2026-06-09T05:06:51Z
+- End UTC: 2026-06-09T05:07:56Z
+- Status: completed
+- Item selected: Workstream E, tool-lens contribution ledger.
+- Planned grounding: write a compact ledger separating RPT/Claude/Gemini
+  proposal value from data-grounded evidence, including whether any lens caused
+  an evidence upgrade.
+- Result: `scripts/v38_tool_lens_ledger.py` wrote the contribution ledger.
+  RPT/Claude/Gemini added prioritization and test ideas, but no lens output was
+  evidence and no lens upgraded a finding. SAP AI Core spend is not exposed by
+  the local client outputs. Report updated.
