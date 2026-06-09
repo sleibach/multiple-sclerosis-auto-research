@@ -1,10 +1,45 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-06-07 19:37 CEST
+Last updated: 2026-06-09 07:08 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
 ## Queue
+
+V38 update:
+
+- Main report: `docs/history/UNCONVENTIONAL_FINDINGS_V38.md`.
+- Structured V37-to-V38 delta ledger:
+  `analysis/v38_delta_ledger/v37_v38_delta_ledger.tsv`.
+- No V37 scored item was demoted.
+- Bounded V22 scalar survived V38 adversarial/tone-residual checks but remains
+  provisional, small-n, bounded, not clinically calibrated, and externally
+  validation-gated.
+- V26 coupled APC is now explicitly tone-loaded mechanistic context, not a
+  predictive successor rule.
+- MS-UC rg and the V10/V12 layer-transfer map survived inversions with caveats:
+  MHC sensitivity is limited by the already MHC-free LDSC panel, and
+  layer-transfer evidence should rest on disagreement-cell specificity rather
+  than simple disease heterogeneity.
+- New guardrails:
+  - apply `analysis/v38_direction_modality_prefilter/` before promoting any
+    future target-like lead;
+  - consult `analysis/v38_exclusion_ledger/` before reopening closed leads;
+  - use `analysis/v38_v36_fragility_map/` and
+    `analysis/v38_failure_fragility_concordance/` to pre-plan multiplicity,
+    confounder, power, and modality audits.
+
+First post-V38 action:
+
+1. Acquire Gafson et al. 2018 DMF PBMC RNA-seq processed counts plus
+   sample-level NEDA-4 labels using
+   `docs/validation/GAFSON_DATA_REQUEST_V36.md`.
+2. If data arrive, quarantine them and run only the frozen V22 validation
+   harness plus V32/V36/V38 pre-specified audits; do not fit a successor rule.
+3. If no fresh validation cohort is available, continue data acquisition for an
+   independent paired response-labeled compartment-resolved cohort; any new
+   computational lead must pass the V38 direction/modality and exclusion
+   prefilters before deep work.
 
 V30 SAP AI Core independent-lens checkpoint:
 

@@ -1,6 +1,6 @@
 # RAG Status
 
-Last updated: 2026-05-28 13:31 CEST
+Last updated: 2026-06-09 07:09 CEST
 
 ## Desired V4 Layer 2
 
@@ -25,7 +25,7 @@ Sparse local retrieval:
 - Build: `./.venv_v3_py312/bin/python scripts/build_knowledge_index.py`
 - Query: `./.venv_v3_py312/bin/python scripts/query_knowledge_index.py "candidate prior art" 10`
 - Index path: `knowledge/.index/tfidf_index.pkl`
-- Current document count: `222`.
+- Current document count: `524`.
 - Smoke test query `LRRK2 prior art V4 contribution` returned
   `knowledge/candidates/LRRK2.md` and `meta/PRIOR_ART_RULEBOOK.md` in the top
   two hits.

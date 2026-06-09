@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-07 19:37 CEST
+Last updated: 2026-06-09 07:08 CEST
 
 ## Mission State
 
@@ -72,8 +72,37 @@ V37 then produced the comprehensive synthesis/scoring report:
 `docs/reports/FINDINGS_SCORES_V37.tsv`. It scored 32 positive, decoupling,
 closed/negative, and methodological findings by scientific relevance, novelty,
 and evidence grade. No new analysis, hypotheses, or rule changes were made.
+V38 then ran an unconventional/adversarial analysis block over existing
+artifacts and wrote `docs/history/UNCONVENTIONAL_FINDINGS_V38.md`. V38 did not
+demote any V37 item. It strengthened and narrowed the current state: the bounded
+V22 scalar survived adversarial, control-system, and tone-residual checks but
+remains provisional and externally validation-gated; V26 coupled APC is
+tone-loaded mechanistic context, not a predictive successor; MS-UC rg and the
+layer-transfer map survived inversions with caveats; direction/modality and
+failure/fragility prefilters are now structured ledgers under `analysis/v38_*`.
 
 Current frontier:
+
+- V38 unconventional/adversarial state:
+  - Main report: `docs/history/UNCONVENTIONAL_FINDINGS_V38.md`.
+  - Structured delta ledger:
+    `analysis/v38_delta_ledger/v37_v38_delta_ledger.tsv`.
+  - No V37 scored item was demoted.
+  - Strengthened/narrowed results:
+    - bounded V22 scalar survived adversarial/tone-residual checks but is still
+      small-n, bounded, not a clinical threshold, and pending Gafson/DMF
+      validation;
+    - V26 coupled APC survives global-tone residualization but is tone-loaded
+      mechanistic context, not a successor rule;
+    - MS-UC rg survives recorded MHC/sample-overlap inversion, with the caveat
+      that the verified LDSC reference panel was already effectively MHC-free;
+    - V10/V12 layer-transfer map is supported by disagreement-cell evidence,
+      not by the simple 4/4 disease-heterogeneity statistic alone.
+  - New operational products:
+    - `analysis/v38_exclusion_ledger/` stop-spending ledger;
+    - `analysis/v38_direction_modality_prefilter/` target-lead prefilter;
+    - `analysis/v38_v36_fragility_map/` and
+      `analysis/v38_failure_fragility_concordance/` analysis-design guardrails.
 
 - V22 treatment-response result:
   - `docs/locked_rules/LOCKED_RULE_V22.md` was committed before validation (`013639b`).

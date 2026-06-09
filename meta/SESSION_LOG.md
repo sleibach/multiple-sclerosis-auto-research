@@ -802,3 +802,42 @@ Next session first action:
   continue the post-V36 path by acquiring Gafson et al. 2018 DMF PBMC RNA-seq
   processed counts plus NEDA-4 labels and then running frozen V22 validation
   plus V32/V36 audits without tuning.
+
+## RUN SUMMARY - V38 Unconventional/Adversarial Continuation
+
+- Active runtime: 39 minutes 7 seconds for this resumed segment, measured from
+  real system-clock reads (`2026-06-09T04:32:07Z` to
+  `2026-06-09T05:11:14Z`). The V38 queue preserves earlier block/iteration
+  timestamps; this summary does not claim completion of the original 240-minute
+  active-time target.
+- Session start timestamp (UTC): 2026-06-09T04:32:07Z.
+- Session end timestamp (UTC): 2026-06-09T05:11:14Z.
+- Frontier advanced: completed V38 iterations 5-15 plus final hygiene, wrote
+  `docs/history/UNCONVENTIONAL_FINDINGS_V38.md` updates and structured V38
+  ledgers under `analysis/v38_*`, updated README/current status/next actions,
+  rebuilt the local knowledge index, and smoke-tested V38 retrieval.
+- Stop reason: clean resumable handoff after all currently queued V38 items
+  were completed and committed; not a 240-minute block-completion claim.
+- Next action: operationally acquire Gafson et al. 2018 DMF PBMC RNA-seq
+  processed counts plus sample-level NEDA-4 labels using
+  `docs/validation/GAFSON_DATA_REQUEST_V36.md`; if V38 exploration continues
+  first, generate the next unconventional item in `meta/V38_QUEUE.md` and apply
+  the same evidence gate.
+- Iterations completed in the cumulative V38 queue: 15. This resumed segment
+  completed control-systems reframing, coupled-architecture inversion, LDSC
+  backdrop inversion, direction/modality prefilter, layer-transfer inversion,
+  V36 fragility map, model-lens proposal pass, tone-residual scalar grounding,
+  failure/fragility concordance, layer heterogeneity null, structured
+  V37-to-V38 delta ledger, and tool-lens contribution ledger.
+- V37-vs-V38 delta: no V37 scored item was demoted. Four items were
+  strengthened-and-narrowed: bounded V22 scalar, V26 coupled APC architecture,
+  MS-UC rg backdrop, and V10/V12 layer-transfer map. New operational products
+  include the exclusion ledger, direction/modality prefilter, V36 fragility map,
+  failure/fragility concordance, and tool-lens contribution ledger.
+- Tool/RPT/model contribution: SAP AI Core Claude, Gemini, and RPT were used as
+  proposal/prioritization lenses only. No model/RPT output was treated as
+  evidence and no model/RPT output upgraded a finding. The local client does
+  not expose per-call spend.
+- README sync: `README.md` was updated to V38; `meta/CURRENT_STATUS.md`,
+  `meta/NEXT_ACTIONS.md`, and `knowledge/tools/RAG_STATUS.md` were also
+  synchronized.

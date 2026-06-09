@@ -11,7 +11,7 @@ All analysis uses public human-tissue data only and random seed `20260526`
 
 ## Current Status
 
-The current phase is **V37**. The V4 directory structure remains canonical, and
+The current phase is **V38**. The V4 directory structure remains canonical, and
 V11 introduced the resume backbone for short-session continuity.
 
 - Start here: `meta/CURRENT_STATUS.md` — the live mission state, active leads,
@@ -98,6 +98,16 @@ V11 introduced the resume backbone for short-session continuity.
   receptor-state competence/induction; fingolimod, adalimumab, and MTX
   psoriasis skin argue against unbounded transfer. See
   `docs/history/HYPOTHESIS_SLATE_V36.md`.
+  V37 then produced the authoritative scored findings report
+  (`docs/reports/FINDINGS_REPORT_V37.md` and
+  `docs/reports/FINDINGS_SCORES_V37.tsv`). V38 adversarial/unconventional
+  analysis over existing artifacts did not demote any V37 item, but it narrowed
+  several claims: the V22 scalar is not merely broad immune tone but remains
+  provisional and validation-gated; V26 coupled APC is tone-loaded mechanistic
+  context, not a successor rule; the layer-transfer map is supported by
+  disagreement-cell evidence, not by disease-level heterogeneity alone. See
+  `docs/history/UNCONVENTIONAL_FINDINGS_V38.md` and
+  `analysis/v38_delta_ledger/v37_v38_delta_ledger.tsv`.
 - Current genetics/data focus: the chr1 MS-UC causal-gene question is
   computationally resolved for now and handed forward as real shared genetics,
   not an intervention-grade target. V20 widened back out to a ranked
@@ -209,6 +219,7 @@ that explicitly in `meta/SESSION_LOG.md`.
 | V33-V35 | Exploratory hypothesis generation and one-hour self-chaining block. | Produced and grounded a fresh hypothesis slate. The T/B remodeling gate became the best internal hypothesis but remained single-cohort/artifact-risk flagged; postpartum APC imbalance stayed clinically important but data-blocked. |
 | V36 | Two-hour expanded generation and strict grounding block. | Added SAP RPT structured-data lens, ran 55 chained iterations, demoted V36 post-hoc perfect-AUC features after multiplicity control, sharpened the therapy-response branch map, updated Gafson validation request and readiness guardrails, rebuilt/smoke-tested the local knowledge index, and kept the locked V22/V23 rule as the primary validation target. |
 | V37 | Comprehensive findings report and scoring synthesis. | Produced `docs/reports/FINDINGS_REPORT_V37.md` and `docs/reports/FINDINGS_SCORES_V37.tsv`, scoring 32 positive, decoupling, closed/negative, and methodological items by scientific relevance, novelty, and evidence grade. No new analysis or rule changes. |
+| V38 | Unconventional/adversarial analysis block over existing artifacts. | Produced `docs/history/UNCONVENTIONAL_FINDINGS_V38.md` and structured ledgers under `analysis/v38_*`. V38 strengthened and narrowed V37 without demoting any scored item: the bounded V22 scalar survived adversarial/tone-residual checks but remains provisional and validation-gated; V26 coupled APC is tone-loaded context, not a predictive successor; MS-UC rg and the layer-transfer map survived inversions with caveats. |
 
 `docs/findings/FINDING.md` documents the (since-demoted) `ACSL1` target hypothesis from an
 earlier phase and is retained for the historical trace.
