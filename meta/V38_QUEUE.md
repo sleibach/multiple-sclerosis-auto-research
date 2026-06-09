@@ -27,6 +27,7 @@
 | 7 | B | Adversarial inversion of MS-UC genetic backdrop | done | V21 MS-UC rg survives recorded MHC/sample-overlap inversion, with caveat that the reference panel was already effectively MHC-free. |
 | 8 | A/D | Failure-structure follow-up: hard-protective-direction constraint | done | Direction/modality constraints affect 8/20 closed/negative items and 5/6 target-like items; mandatory early prefilter for future target leads. |
 | 9 | B/C | Adversarial inversion of layer-transfer map | done | Matrix-grounded: 4/4 key diseases have heterogeneous axis placements and 8/8 non-artifact cells are axis-specific. |
+| 10 | A/C | V36 exploratory fragility map | done | V36 promotion failures cluster around multiplicity, confounder/composition, therapy specificity, small-n power, and missing decisive modalities/metadata. |
 
 ## Iteration Log
 
@@ -183,3 +184,19 @@
   compartment/causality/independence evidence. The narrative-similarity
   inversion is not supported; the map remains a warning/triage framework, not
   an intervention claim. Report updated.
+
+### Iteration 10
+
+- Start UTC: 2026-06-09T04:52:16Z
+- End UTC: 2026-06-09T04:54:34Z
+- Status: completed
+- Item selected: Workstream A/C, V36 exploratory fragility map.
+- Planned grounding: parse V36 summary artifacts and machine-readable outputs
+  to classify which exploratory hypothesis classes repeatedly fail under
+  multiplicity, confounder, compartment, timepoint, or data-specificity stress.
+- Result: `scripts/v38_v36_fragility_map.py` aggregated 13 selected V36
+  machine-readable artifacts. Promotion failed mostly at multiplicity/overfit,
+  composition/confounder, therapy-branch, small-n power, and missing
+  modality/metadata gates. The narrow survivor remains B/plasma-like IFN/APC
+  remodeling as an internal carrier, still single-cohort and validation-gated.
+  Report updated.

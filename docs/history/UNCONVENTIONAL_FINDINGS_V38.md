@@ -348,6 +348,52 @@ If any answer fails, the lead can still be important biology, but it should be
 labeled hard-target/decoupling/data-gated immediately rather than entering the
 medical-team lead slate as promising.
 
+### A3. V36 Exploratory Fragility Map
+
+Status: **completed across selected V36 machine-readable artifacts**.
+
+Question:
+
+When the project turned up the creativity dial in V36, what actually prevented
+creative hypotheses from becoming findings?
+
+Grounding artifacts:
+
+- Script: `scripts/v38_v36_fragility_map.py`
+- Item table: `analysis/v38_v36_fragility_map/v36_fragility_items.tsv`
+- Family counts: `analysis/v38_v36_fragility_map/v36_fragility_family_counts.tsv`
+- Summary: `analysis/v38_v36_fragility_map/v36_fragility_map_summary.json`
+
+Results:
+
+| Fragility family | Count | Representative grounded evidence |
+|---|---:|---|
+| Multiplicity / overfit | `2` | 76-feature search had observed max AUC `1.0` but empirical max-AUC p `0.5`; IFN/STAT four-gene subset top AUC `0.95` but empirical p `0.333`. |
+| Composition / confounding | `2` | T/B gap remained positive after simple fraction adjustment (`0.158` -> `0.133`), but T-cell AUC attenuated `1.0` -> `0.65`; broader residualization had worst T-cell AUC `0.5`, B/plasma `0.6`. |
+| Compartment-combination multiplicity | `1` | 31 compartment combinations; best single T-cell AUC `1.0`, B/plasma AUC `0.95`; no combo successor promoted. |
+| Therapy-branch specificity | `1` | DMF AUC `0.72` and tofacitinib AUC `1.0`, but fingolimod `0.6`, adalimumab `0.511`; IFN-beta uses HLA-II/receptor branch rather than universal scalar. |
+| Small-n power | `1` | Gafson-style validation needs roughly `30-40` per group for high p<0.05 power under the observed DMF effect. |
+| Creative-generation data gate | `2` | Glycolysis and sterol/lysosomal variants looked plausible but lacked the compartment or flux data needed for promotion. |
+| Missing decisive metadata/modality/QC | `3` | Postpartum lacks relapse-labeled MS postpartum samples; lysosomal/metabolic/EBV lack decisive stratified modality; QC structure cannot fully de-risk W8 features. |
+
+Verdict:
+
+V36's broad generation did not mainly fail because ideas were biologically
+implausible. It failed to promote them because the evidence gate repeatedly
+found the same practical blockers:
+
+- too many post-hoc features for too few patients;
+- composition/confounder sensitivity;
+- therapy mechanism specificity;
+- missing decisive metadata or assay modality;
+- inadequate sample size for a validation claim.
+
+The one narrow survivor remains **B/plasma-like IFN/APC remodeling** as the
+most stable internal carrier, but it is still single-cohort and validation-gated.
+This supports V38's broader failure-structure result: MS hypotheses tend to
+become useful only when they are pre-bounded by mechanism, compartment,
+direction, and data modality.
+
 ## Workstream E: RPT-Led Structural Mining
 
 ### E1. RPT Mining Over V37 Score Table And V38 Failure Annotations
@@ -569,6 +615,9 @@ Strengthened:
 - The layer-transfer map withstands narrative-similarity inversion: `4/4` key
   diseases are heterogeneous across axes and `8/8` non-artifact disagreement
   cells are axis-specific.
+- V36 creative-generation failures are now structured: promotion failed mostly
+  at multiplicity, confounder/composition, therapy-branch, power, and
+  missing-modality gates, not because the ideas were intrinsically incoherent.
 
 Weakened / narrowed:
 

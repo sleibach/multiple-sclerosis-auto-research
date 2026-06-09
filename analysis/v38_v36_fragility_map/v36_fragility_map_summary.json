@@ -1,0 +1,47 @@
+{
+  "n_items": 13,
+  "fragility_family_counts": [
+    {
+      "fragility_family": "composition_confounding",
+      "n_items": 2
+    },
+    {
+      "fragility_family": "creative_generation_data_gate",
+      "n_items": 2
+    },
+    {
+      "fragility_family": "multiplicity_overfit",
+      "n_items": 2
+    },
+    {
+      "fragility_family": "missing_decisive_metadata",
+      "n_items": 1
+    },
+    {
+      "fragility_family": "missing_decisive_modality",
+      "n_items": 1
+    },
+    {
+      "fragility_family": "multiplicity_compartment_scan",
+      "n_items": 1
+    },
+    {
+      "fragility_family": "sample_size_power",
+      "n_items": 1
+    },
+    {
+      "fragility_family": "small_n_therapy_specificity",
+      "n_items": 1
+    },
+    {
+      "fragility_family": "technical_qc_limit",
+      "n_items": 1
+    },
+    {
+      "fragility_family": "therapy_branch_specificity",
+      "n_items": 1
+    }
+  ],
+  "main_interpretation": "V36 did not fail because ideas were biologically implausible; it failed to promote them because strict gates exposed recurring fragility: multiplicity/overfit, composition/confounder sensitivity, therapy-branch specificity, small-n power limits, and missing decisive metadata/modalities.",
+  "surviving_narrow_signal": "B/plasma-like IFN/APC remodeling remains the most stable internal carrier, but it is still single-cohort and validation-gated."
+}
