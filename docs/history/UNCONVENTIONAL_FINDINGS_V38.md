@@ -256,6 +256,69 @@ This ledger should be used before any future wet-lab or data-acquisition spend.
 If a proposed experiment reopens one of these exclusions, it must name the exact
 new evidence that would override the current ledger.
 
+## Workstream D: Cross-Scale / Control-Systems Reframing
+
+### D1. Baseline Load vs Dynamic Control Action vs Treated Set-Point
+
+Status: **completed first control-systems probe**.
+
+Question:
+
+Is the bounded V22/V23 monitoring signal better read as a control-system
+behavior: baseline immune load, early corrective action, or movement toward a
+treated immune set-point?
+
+Grounding artifacts:
+
+- Script: `scripts/v38_control_system_reframing.py`
+- Input table:
+  `analysis/v32_confounder_audit/v32_subject_confounder_scores.tsv`
+- Feature tests:
+  `analysis/v38_control_system/control_feature_tests.tsv`
+- Family tests:
+  `analysis/v38_control_system/control_feature_family_tests.tsv`
+- Set-point tests:
+  `analysis/v38_control_system/setpoint_distance_tests.tsv`
+- Summary:
+  `analysis/v38_control_system/control_system_summary.json`
+
+Frame:
+
+- Subjects: `19` bounded V22/V23 cases.
+- Responders / non-responders: `10 / 9`.
+- Cohorts: GSE235357 DMF (`10`) and exact-module GSE253006 tofacitinib (`9`).
+- Tested scalar features: `54`.
+- Feature-level tests used exact label permutations preserving responder count.
+- Supervised set-point distances used fixed-seed Monte Carlo label permutation
+  with the responder centroid recomputed on each permutation.
+
+Results:
+
+| Framing | Best grounded result | Multiplicity-aware interpretation |
+|---|---|---|
+| Early dynamic/control action | Locked signed score AUC `0.811`, exact p `0.022` | Strongest simple scalar, but within-family max-AUC p `0.190` over 14 early-delta features and all-feature BH q `0.397`. |
+| Treated-state features | Treated IFN/APC AUC `0.811`, exact p `0.022`; treated proliferation AUC `0.811`, exact p `0.022` | Similar apparent signal, but within-family max-AUC p `0.196`; not a rule-level improvement over the locked scalar. |
+| Baseline-load features | Best baseline feature AUC `0.667`, exact p `0.243` | Baseline load remains weak; no support for converting the monitoring signal into a baseline stratifier. |
+| Negative-feedback features | Best feedback feature AUC `0.778`, exact p `0.043` | Does not survive within-family max-AUC correction (`p=0.402`). |
+| Responder set-point proximity | Treated IFN/HLA-II/STAT1/metabolic proximity AUC `0.867`, Monte Carlo p `0.0098`; treated composition proximity AUC `0.833`, p `0.0286` | Interesting control-systems hypothesis, but supervised/in-sample: the responder centroid is learned from the same small cohorts. It is a candidate validation readout, not established evidence. |
+
+Verdict:
+
+The data support a **dynamic/treated-state interpretation over baseline load**,
+but they do not justify a new rule or a demotion of the locked scalar. The
+control-systems view is useful mainly as framing:
+
+- responders look more like they move toward a treated immune set-point;
+- baseline state alone is not sufficient;
+- the apparent set-point signal needs fresh external validation because its
+  centroid is learned from the same `n=19` bounded cases.
+
+V38 delta:
+
+The V37 conclusion is **strengthened in one narrow way**: the signal is still
+dynamic, not baseline. It is also narrowed: any set-point/feedback wording must
+be explicitly exploratory until tested on Gafson/DMF or another fresh cohort.
+
 ## V37-to-V38 Delta So Far
 
 Strengthened:
@@ -273,12 +336,17 @@ Strengthened:
 - The exclusion ledger strengthens the negative side of V37: the project now
   has an explicit "do not pursue without new evidence" list rather than a set of
   scattered closed-lead notes.
+- The control-systems probe strengthens the dynamic-over-baseline reading of
+  the monitoring lead: baseline-load features are weak, while early-delta and
+  treated-state features carry the apparent signal.
 
 Weakened / narrowed:
 
 - Any phrase implying "MS-validated" or "clinical threshold" is too strong.
 - Any phrase implying APC/HLA-II specificity independent of broad
   STAT1/metabolic/inflammatory tone is too strong.
+- Any phrase implying a validated immune set-point rule is too strong; the
+  set-point result is supervised and in-sample.
 
 Demoted:
 
@@ -287,9 +355,6 @@ Demoted:
 
 ## Pending Workstreams
 
-- A. Failure-structure meta-analysis across killed/closed leads.
 - B. Additional adversarial inversions: coupled APC architecture, MS-UC genetic
   backdrop, and layer-transfer map.
-- C. Unpublishable-but-true exclusion/non-replication list.
-- D. Cross-scale/control-systems reframing.
-- E. RPT-led structural mining.
+- D. Additional cross-domain reframings if they yield concrete grounded tests.

@@ -1,0 +1,104 @@
+{
+  "input": "analysis/v32_confounder_audit/v32_subject_confounder_scores.tsv",
+  "n_subjects": 19,
+  "n_responders": 10,
+  "n_nonresponders": 9,
+  "cohorts": {
+    "GSE235357": 10,
+    "GSE253006_TOF_exact": 9
+  },
+  "n_features_tested": 54,
+  "best_feature_by_oriented_auc": {
+    "feature_family": "early_delta",
+    "feature": "locked_signed_score",
+    "auc_raw_higher_predicts_response": 0.8111111111111111,
+    "auc_oriented": 0.8111111111111111,
+    "orientation": "higher_in_responders",
+    "exact_permutation_p": 0.022028816072917005,
+    "responder_median": 0.5368338302137204,
+    "nonresponder_median": 0.0781972091104603,
+    "median_difference_responder_minus_nonresponder": 0.45863662110326014,
+    "bh_q_all_features": 0.3965186893125061
+  },
+  "family_best": [
+    {
+      "feature_family": "early_delta",
+      "n_features": 14,
+      "best_feature": "locked_signed_score",
+      "best_auc_oriented": 0.8111111111111111,
+      "best_feature_exact_p": 0.022028816072917005,
+      "within_family_max_auc_permutation_p": 0.18980504227151193
+    },
+    {
+      "feature_family": "treated_state",
+      "n_features": 13,
+      "best_feature": "treated_IFN_APC",
+      "best_auc_oriented": 0.8111111111111111,
+      "best_feature_exact_p": 0.022028816072917005,
+      "within_family_max_auc_permutation_p": 0.1959319758819645
+    },
+    {
+      "feature_family": "negative_feedback",
+      "n_features": 13,
+      "best_feature": "feedback_proliferation",
+      "best_auc_oriented": 0.7777777777777778,
+      "best_feature_exact_p": 0.04348390868054428,
+      "within_family_max_auc_permutation_p": 0.40249407332835385
+    },
+    {
+      "feature_family": "baseline_load",
+      "n_features": 14,
+      "best_feature": "baseline_monocyte_myeloid_composition",
+      "best_auc_oriented": 0.6666666666666667,
+      "best_feature_exact_p": 0.24281492547007436,
+      "within_family_max_auc_permutation_p": 0.9216813345024302
+    }
+  ],
+  "setpoint_tests": [
+    {
+      "setpoint_space": "treated_ifn_hlaii_stat1_metabolic",
+      "columns": "treated_IFN_APC,treated_HLAII,treated_stat1_axis,treated_glycolysis,treated_oxphos",
+      "auc_raw_higher_distance_predicts_response": 0.13333333333333333,
+      "auc_oriented": 0.8666666666666667,
+      "orientation": "lower_in_responders",
+      "monte_carlo_permutation_p_recomputing_centroid": 0.009798040391921616,
+      "n_monte_carlo_permutations": 5000,
+      "responder_median_distance": 1.5432548627387663,
+      "nonresponder_median_distance": 2.5632980836072075
+    },
+    {
+      "setpoint_space": "treated_composition",
+      "columns": "treated_monocyte_myeloid_composition,treated_t_cell_composition,treated_b_cell_composition",
+      "auc_raw_higher_distance_predicts_response": 0.16666666666666666,
+      "auc_oriented": 0.8333333333333334,
+      "orientation": "lower_in_responders",
+      "monte_carlo_permutation_p_recomputing_centroid": 0.028594281143771244,
+      "n_monte_carlo_permutations": 5000,
+      "responder_median_distance": 1.2212680540220946,
+      "nonresponder_median_distance": 2.1357523436324373
+    },
+    {
+      "setpoint_space": "delta_ifn_hlaii_stat1_metabolic",
+      "columns": "delta_IFN_APC,delta_HLAII,delta_stat1_axis,delta_glycolysis,delta_oxphos",
+      "auc_raw_higher_distance_predicts_response": 0.23333333333333334,
+      "auc_oriented": 0.7666666666666666,
+      "orientation": "lower_in_responders",
+      "monte_carlo_permutation_p_recomputing_centroid": 0.0623875224955009,
+      "n_monte_carlo_permutations": 5000,
+      "responder_median_distance": 1.19312933097657,
+      "nonresponder_median_distance": 2.484775283786823
+    },
+    {
+      "setpoint_space": "baseline_ifn_hlaii_stat1_metabolic",
+      "columns": "baseline_IFN_APC,baseline_HLAII,baseline_stat1_axis,baseline_glycolysis,baseline_oxphos",
+      "auc_raw_higher_distance_predicts_response": 0.6333333333333333,
+      "auc_oriented": 0.6333333333333333,
+      "orientation": "higher_in_responders",
+      "monte_carlo_permutation_p_recomputing_centroid": 0.4295140971805639,
+      "n_monte_carlo_permutations": 5000,
+      "responder_median_distance": 2.2554698985145127,
+      "nonresponder_median_distance": 1.5936058075394606
+    }
+  ],
+  "interpretation": "Exploratory control-systems reframing. The strongest signal remains an early dynamic/control-action feature, not a pure baseline-load or treated-setpoint feature. Set-point distances are supervised exploratory probes tested with fixed-seed Monte Carlo label permutation and require fresh validation before any rule use."
+}
