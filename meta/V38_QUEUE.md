@@ -31,6 +31,7 @@
 | 11 | B/D/E | Multi-lineage proposal pass plus tone-residual scalar grounding | done | Claude/Gemini proposed next tests; grounded tone-residual scalar test shows broad tone alone does not reproduce the scalar response signal. |
 | 12 | A/C | Failure-vs-fragility concordance audit | done | Gate-level comparison shows maps are complementary: V38 captures direction/modality and marker-not-driver; V36 captures overfit/power/technical fragility. |
 | 13 | B | Layer-map heterogeneity permutation null | done | Simple 4/4 heterogeneity is not exceptional under random placement-label reassignment; layer-map evidence should rest on disagreement-cell specificity. |
+| 14 | D | Structured V37-to-V38 delta ledger | done | Wrote 8-item delta ledger: four strengthened-and-narrowed, no demotions, plus new prefilter/negative/fragility methodological ledgers. |
 
 ## Iteration Log
 
@@ -254,3 +255,17 @@
   placement range). This narrows the layer-transfer claim: it should rest on the
   V11/V12 disagreement-cell evidence, not the heterogeneity count alone. Report
   updated.
+
+### Iteration 14
+
+- Start UTC: 2026-06-09T05:04:21Z
+- End UTC: 2026-06-09T05:05:56Z
+- Status: completed
+- Item selected: Workstream D, structured V37-to-V38 delta ledger.
+- Planned grounding: write a compact table of V37 conclusions affected by V38,
+  with delta type, supporting V38 artifact, and whether the evidence grade
+  changes.
+- Result: `scripts/v38_delta_ledger.py` wrote
+  `analysis/v38_delta_ledger/v37_v38_delta_ledger.tsv` and summary JSON.
+  Ledger contains `8` delta items: four `strengthened_and_narrowed`, no
+  demotions, and new operational/methodological negative ledgers. Report updated.

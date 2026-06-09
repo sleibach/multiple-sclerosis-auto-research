@@ -712,6 +712,13 @@ be explicitly exploratory until tested on Gafson/DMF or another fresh cohort.
 
 ## V37-to-V38 Delta So Far
 
+Structured ledger:
+
+- Table: `analysis/v38_delta_ledger/v37_v38_delta_ledger.tsv`
+- Summary: `analysis/v38_delta_ledger/v37_v38_delta_summary.json`
+- Delta items: `8`.
+- Demotions: `0`.
+
 Strengthened:
 
 - V37's conservative framing of the V22/V23 scalar survived direct adversarial
