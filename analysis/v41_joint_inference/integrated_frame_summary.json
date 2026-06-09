@@ -1,0 +1,46 @@
+{
+  "evidence_rows": 985,
+  "modalities": [
+    "cell_state_h5ad",
+    "corpus_synthesis",
+    "cross_disease_summary",
+    "deep_structure",
+    "exploratory",
+    "failure_structure",
+    "genetics",
+    "lead_slate",
+    "network_topology",
+    "perturbation",
+    "perturbation_mixscale",
+    "treatment_pharmacodynamic",
+    "treatment_response",
+    "treatment_response_tests"
+  ],
+  "p_valued_rows": 907,
+  "split": {
+    "created_utc": "2026-06-09T20:38:07Z",
+    "excluded_from_joint_model": [
+      "corpus_synthesis",
+      "lead_slate"
+    ],
+    "heldout_modalities": [
+      "treatment_response"
+    ],
+    "rationale": "Hold out treatment_response as the most clinically relevant modality. Train on genetics, deep/cell-state/perturbation/network/exploratory/failure evidence, then test whether train-ranked entities predict treatment-response support. corpus_synthesis is excluded from the joint discovery model to avoid circularity.",
+    "seed": 4101,
+    "train_modalities": [
+      "cell_state_h5ad",
+      "cross_disease_summary",
+      "deep_structure",
+      "exploratory",
+      "failure_structure",
+      "genetics",
+      "network_topology",
+      "perturbation",
+      "perturbation_mixscale",
+      "treatment_pharmacodynamic",
+      "treatment_response_tests"
+    ]
+  },
+  "unique_entities": 71
+}
