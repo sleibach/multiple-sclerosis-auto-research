@@ -1,0 +1,36 @@
+```json
+{
+  "inversions": [
+    {
+      "inversion": "The bounded-set AUC 0.811 is a selection artifact: the 'immune-tone bounded' filter was tuned post hoc on the same n=34 such that the bounded subset is exactly the slice where the scalar happens to separate, and the unbounded AUC 0.547 is the honest estimate.",
+      "grounding_test": "Compare the bounded (n=19, AUC 0.811) versus its complement within the locked all (n=34, AUC 0.547) and check whether the complement subset (n=15) has AUC at or below chance; if the complement is actively anti-predictive while the whole is near chance, the bounded result is consistent with a slicing artifact rather than a tone-restricted true signal.",
+      "expected_demotion_if_true": "Demote from 'primary provisional MS validation lead' to 'exploratory subgroup signal'; the pre-lock claim should be re-described as bounding-rule-conditional, and headline metric should revert to the unbounded AUC 0.547."
+    },
+    {
+      "inversion": "The signal is carried almost entirely by the exact tofacitinib cross-disease subset (AUC 0.95, n=9), and within MS-relevant DMTs alone the scalar is mediocre (DMF 0.72, fingolimod 0.60, adalimumab 0.511), so calling this an 'MS validation lead' overstates the MS-specific evidence.",
+      "grounding_test": "Recompute the bounded n=19 AUC after removing the exact tofacitinib contributors, using only the DMF/fingolimod/adalimumab-resembling members of the bounded set; if AUC collapses toward the 0.55-0.65 range matching the per-drug MS numbers, the bounded headline is tofacitinib-driven.",
+      "expected_demotion_if_true": "Demote the MS framing: relabel as a JAK/tofacitinib-axis cross-disease scalar with weak MS-internal support, and require the MS claim to rest only on DMF (AUC 0.72, n=10)."
+    },
+    {
+      "inversion": "V32 already falsifies primacy: a broad metabolic/inflammatory/STAT1 joint adjustment drops AUC to 0.656 with p=0.163, which is the regime where confounded biomarkers typically live; surviving only steroid and composition controls is insufficient to call the scalar 'not explained by' confounding.",
+      "grounding_test": "Treat the V32 joint-adjusted AUC 0.656, p 0.163 as the adjusted point estimate and compare it against the unadjusted 0.811; if the adjusted CI overlaps 0.5 and the adjusted p exceeds conventional thresholds on the same committed table, the 'tool-robust under V28' statement is not the relevant robustness claim.",
+      "expected_demotion_if_true": "Demote 'primary' to 'candidate, confounded by general inflammatory/STAT1 tone'; the headline scalar should be reported jointly with the V32-adjusted estimate, not the raw bounded one."
+    },
+    {
+      "inversion": "With n=19, permutation p=0.008 and Hedges g=1.191 are within the range expected for a single winning scalar selected from a multi-variant search (flexible ML, coupled, dynamic variants all tested); the 'scalar beats flexible variants' pattern is itself a signature of overfitting to a small bounded set.",
+      "grounding_test": "Enumerate from the existing committed comparison how many alternative scalar/ML/coupled/dynamic variants were evaluated on the bounded n=19 and apply a simple Bonferroni or equivalent family-wise correction on the reported permutation p=0.008; if the corrected p crosses 0.05, the statistical-robustness claim is not supported by the committed numbers.",
+      "expected_demotion_if_true": "Demote 'pre-locked and statistically tool-robust' to 'nominally significant, not multiplicity-corrected'; require the lead to be reported with corrected p and the Hedges g flagged as small-n upward-biased."
+    },
+    {
+      "inversion": "The DMF-alone result (AUC 0.72, n=10) is the only within-MS, within-drug anchor, and at n=10 its CI almost certainly spans 0.5; the bounded headline inherits its apparent strength from pooling DMF with the cross-disease tofacitinib arm rather than from a coherent MS effect.",
+      "grounding_test": "Using the committed per-drug numbers, check whether DMF AUC 0.72 at n=10 has a Wilson/DeLong-style 95% lower bound above 0.5; if not, the only MS-internal anchor is statistically indistinguishable from chance on its own table.",
+      "expected_demotion_if_true": "Demote from 'MS validation lead' to 'DMF-suggestive, MS-inconclusive'; require any MS framing to acknowledge that no single MS drug arm independently clears chance."
+    },
+    {
+      "inversion": "'Externally unvalidated' is doing too much work: the entire evidence chain (bounded set, V28, V32, per-drug AUCs) is computed on one committed cohort, so internal robustness is being conflated with generalization, and the lead's status as 'primary' rests on repeated reuse of the same n=34.",
+      "grounding_test": "Audit the committed tables to confirm whether V22/V23, V28, and V32 all derive from the same n=34 and the same bounded n=19; if yes, treat V28 and V32 as in-sample sensitivity analyses rather than independent corroboration when assessing primacy.",
+      "expected_demotion_if_true": "Demote 'tool-robust' framing to 'in-sample sensitivity-stable' and remove 'primary' status until at least one analysis on a non-overlapping committed slice replicates AUC > 0.7."
+    }
+  ]
+}
+```

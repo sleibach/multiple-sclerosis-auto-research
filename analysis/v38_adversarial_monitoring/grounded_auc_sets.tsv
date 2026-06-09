@@ -1,0 +1,8 @@
+set	n	n_responders	n_nonresponders	cohorts	auc	exact_auc_ge_p
+primary_locked_all_dmf_fingolimod_ada	34	19	15	GSE235357;GSE250453;GSE85034_ADA	0.5473684210526316	
+bounded_dmf_plus_exact_tofacitinib	19	10	9	GSE235357;GSE253006_TOF_exact	0.8111111111111111	0.011009114724285002
+bounded_without_tofacitinib_dmf_only	10	5	5	GSE235357	0.72	0.15476190476190477
+bounded_without_dmf_exact_tofacitinib_only	9	5	4	GSE253006_TOF_exact	0.95	0.015873015873015872
+primary_plus_exact_all	43	24	19	GSE235357;GSE250453;GSE253006_TOF_exact;GSE85034_ADA	0.6557017543859649	
+complement_of_bounded_fingolimod_plus_ada	24	14	10	GSE250453;GSE85034_ADA	0.5571428571428572	0.3332384961473668
+ms_only_dmf_plus_fingolimod	20	10	10	GSE235357;GSE250453	0.62	0.196524064171123

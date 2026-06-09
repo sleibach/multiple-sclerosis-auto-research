@@ -1,0 +1,110 @@
+{
+  "set_metrics": [
+    {
+      "set": "primary_locked_all_dmf_fingolimod_ada",
+      "n": 34,
+      "n_responders": 19,
+      "n_nonresponders": 15,
+      "cohorts": "GSE235357;GSE250453;GSE85034_ADA",
+      "auc": 0.5473684210526316,
+      "exact_auc_ge_p": NaN
+    },
+    {
+      "set": "bounded_dmf_plus_exact_tofacitinib",
+      "n": 19,
+      "n_responders": 10,
+      "n_nonresponders": 9,
+      "cohorts": "GSE235357;GSE253006_TOF_exact",
+      "auc": 0.8111111111111111,
+      "exact_auc_ge_p": 0.011009114724285002
+    },
+    {
+      "set": "bounded_without_tofacitinib_dmf_only",
+      "n": 10,
+      "n_responders": 5,
+      "n_nonresponders": 5,
+      "cohorts": "GSE235357",
+      "auc": 0.72,
+      "exact_auc_ge_p": 0.15476190476190477
+    },
+    {
+      "set": "bounded_without_dmf_exact_tofacitinib_only",
+      "n": 9,
+      "n_responders": 5,
+      "n_nonresponders": 4,
+      "cohorts": "GSE253006_TOF_exact",
+      "auc": 0.95,
+      "exact_auc_ge_p": 0.015873015873015872
+    },
+    {
+      "set": "primary_plus_exact_all",
+      "n": 43,
+      "n_responders": 24,
+      "n_nonresponders": 19,
+      "cohorts": "GSE235357;GSE250453;GSE253006_TOF_exact;GSE85034_ADA",
+      "auc": 0.6557017543859649,
+      "exact_auc_ge_p": NaN
+    },
+    {
+      "set": "complement_of_bounded_fingolimod_plus_ada",
+      "n": 24,
+      "n_responders": 14,
+      "n_nonresponders": 10,
+      "cohorts": "GSE250453;GSE85034_ADA",
+      "auc": 0.5571428571428572,
+      "exact_auc_ge_p": 0.3332384961473668
+    },
+    {
+      "set": "ms_only_dmf_plus_fingolimod",
+      "n": 20,
+      "n_responders": 10,
+      "n_nonresponders": 10,
+      "cohorts": "GSE235357;GSE250453",
+      "auc": 0.62,
+      "exact_auc_ge_p": 0.196524064171123
+    }
+  ],
+  "v28_bounded_method_count": 9,
+  "v28_locked_p": 0.0079960019990005,
+  "v28_bonferroni_if_treated_as_posthoc_family": 0.07196401799100449,
+  "immune_tone_joint": {
+    "features": "baseline_glycolysis;delta_glycolysis;baseline_immunometabolism_hif_nampt;delta_immunometabolism_hif_nampt;baseline_general_inflammatory_tone;delta_general_inflammatory_tone;baseline_stat1_axis;delta_stat1_axis;baseline_ifn_suppression_inverse_isg;delta_ifn_suppression_inverse_isg",
+    "risk_set": "metabolic_inflammatory_stat1",
+    "raw_locked_auc": 0.8111111111111111,
+    "joint_adjusted_auc": 0.6555555555555556,
+    "joint_adjusted_auc_ci_low": 0.3862283549783549,
+    "joint_adjusted_auc_ci_high": 0.8977840909090906,
+    "joint_adjusted_permutation_p": 0.1629185407296352,
+    "loocv_auc_confounders_only": 0.6111111111111112,
+    "loocv_auc_locked_plus_confounders": 0.7333333333333333,
+    "auc_attenuation": 0.1555555555555555,
+    "verdict": "attenuates"
+  },
+  "threshold_transfer": [
+    {
+      "test": "median_threshold_transfer",
+      "cohort": NaN,
+      "n": NaN,
+      "auc": NaN,
+      "train": "GSE235357",
+      "test_cohort": "GSE253006_TOF_exact",
+      "threshold": 0.5061832527792612,
+      "n_test": 9.0,
+      "accuracy": 0.6666666666666666,
+      "test_auc": 0.95
+    },
+    {
+      "test": "median_threshold_transfer",
+      "cohort": NaN,
+      "n": NaN,
+      "auc": NaN,
+      "train": "GSE253006_TOF_exact",
+      "test_cohort": "GSE235357",
+      "threshold": 0.0791238424892715,
+      "n_test": 10.0,
+      "accuracy": 0.6,
+      "test_auc": 0.72
+    }
+  ],
+  "overall_verdict": "adversarial inversion narrows but does not kill the V37 claim: the signal should be described as bounded, small-n, partly immune-tone-conditioned, not MS-calibrated, and dependent on fresh DMF validation."
+}

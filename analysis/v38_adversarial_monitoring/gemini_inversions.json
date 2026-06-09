@@ -1,0 +1,29 @@
+```json
+[
+  {
+    "inversion": "The scalar's performance is an artifact of post-hoc subset selection. The 'bounded' set is not a biologically meaningful subgroup but is simply the cherry-picked collection of patients and drugs (DMF/tofacitinib) where the scalar happened to work, as evidenced by its complete failure in the full pre-specified cohort.",
+    "grounding_test": "Compare the performance in the 'bounded set' (n=19, AUC 0.811) with the 'unbounded primary locked all' set (n=34, AUC 0.547). The dramatic performance collapse when moving from the subset to the full cohort is direct evidence of selection artifact.",
+    "expected_demotion_if_true": "The claim must be demoted from a 'validation lead' to a 'hypothesis-generating observation from a selected subgroup that failed confirmation in the full cohort'."
+  },
+  {
+    "inversion": "The claim of an 'MS validation lead' is invalid because the signal is overwhelmingly driven by the non-MS, cross-disease tofacitinib cohort (AUC 0.95), which artificially inflates the combined performance. The marker's effect in MS alone is much weaker.",
+    "grounding_test": "Isolate the performance of the MS-only portion of the 'bounded' set. The provided data shows the DMF-alone cohort (n=10) has an AUC of only 0.72, which is substantially lower than the near-perfect performance of the tofacitinib group (n=9, AUC 0.95) it is combined with.",
+    "expected_demotion_if_true": "The claim must be re-scoped from an 'MS validation lead' to a 'potent tofacitinib response marker with weaker, secondary utility observed in DMF-treated MS'."
+  },
+  {
+    "inversion": "The scalar is not a primary or novel finding, but is simply a redundant proxy for a broader, known inflammatory state (e.g., STAT1 signaling). It offers no independent predictive value once the true underlying biology is accounted for.",
+    "grounding_test": "Reference the V32 adjustment result. The 'broad metabolic/inflammatory/STAT1 joint adjustment attenuates AUC to 0.656, p 0.163'. The fact that the signal becomes statistically non-significant after adjusting for known inflammatory pathways proves it is not an independent factor.",
+    "expected_demotion_if_true": "The claim must be demoted from a 'primary...lead' to a 'secondary correlate of a known STAT1-associated inflammatory axis, lacking independent predictive power'."
+  },
+  {
+    "inversion": "The scalar is not a general MS treatment-response marker but a narrow, mechanism-specific biomarker that fails for multiple common MS therapies. Its utility is far more limited than the 'MS validation lead' claim implies.",
+    "grounding_test": "Compare the AUCs across all tested drug classes. The scalar shows some effect for DMF (0.72) and tofacitinib (0.95) but fails completely for Fingolimod (AUC 0.60) and Adalimumab (AUC 0.511). This demonstrates a lack of generalizability across MS mechanisms of action.",
+    "expected_demotion_if_true": "The claim must be restricted to a 'candidate marker for therapies directly impacting the APC/HLA-II axis' and explicitly noted as 'unvalidated and likely ineffective for S1P modulators or TNF-alpha inhibitors'."
+  },
+  {
+    "inversion": "The reported statistical significance (p=0.008) is a fragile small-n artifact. The combination of a small sample (n=19) and high effect size (Hedges g 1.191) is a classic signature of a winner's curse phenomenon, where the initial reported effect is dramatically overestimated.",
+    "grounding_test": "Juxtapose the high effect size (Hedges g 1.191) and low p-value (0.008) in the tiny n=19 'bounded' set against the random-chance performance (AUC 0.547) in the larger n=34 'unbounded' set. This contrast highlights the statistical instability and likelihood of an overestimated effect.",
+    "expected_demotion_if_true": "The claim's statistical support should be re-labeled from 'statistically tool-robust' to 'a statistically significant but likely overestimated finding in a small subgroup that requires substantial further validation due to high risk of winner's curse'."
+  }
+]
+```
