@@ -1,0 +1,59 @@
+{
+  "source": "analysis/v21_ldsc_backdrop/ldsc_rg_results.tsv",
+  "no_new_genetics_run": true,
+  "ms_uc": {
+    "comparator": "UC",
+    "full_rg": 0.3342,
+    "full_se": 0.0444,
+    "full_z": 7.5352,
+    "full_p": 4.8771e-14,
+    "full_h2_intercept_trait2": 1.0467,
+    "full_gcov_intercept": 0.0844,
+    "full_valid_snps": 1108932,
+    "has_no_mhc_run": true,
+    "no_mhc_rg": 0.3342,
+    "no_mhc_valid_snps": 1108932.0,
+    "rg_delta_no_mhc_minus_full": 0.0,
+    "mhc_inversion_result": "not_supported_but_sensitivity_not_independent_reference_panel_already_mhc_free",
+    "sample_overlap_inversion_result": "not_strongly_supported"
+  },
+  "ms_crohn": {
+    "comparator": "Crohn",
+    "full_rg": 0.1675,
+    "full_se": 0.0527,
+    "full_z": 3.1775,
+    "full_p": 0.0015,
+    "full_h2_intercept_trait2": 1.0212,
+    "full_gcov_intercept": 0.0789,
+    "full_valid_snps": 1108900,
+    "has_no_mhc_run": true,
+    "no_mhc_rg": 0.1675,
+    "no_mhc_valid_snps": 1108900.0,
+    "rg_delta_no_mhc_minus_full": 0.0,
+    "mhc_inversion_result": "not_supported_but_sensitivity_not_independent_reference_panel_already_mhc_free",
+    "sample_overlap_inversion_result": "not_strongly_supported"
+  },
+  "ranked_comparators_by_rg": [
+    {
+      "comparator": "UC",
+      "full_rg": 0.3342,
+      "full_p": 4.8771e-14
+    },
+    {
+      "comparator": "SLE",
+      "full_rg": 0.2439,
+      "full_p": 6.0712e-05
+    },
+    {
+      "comparator": "RA",
+      "full_rg": 0.1692,
+      "full_p": 0.0002
+    },
+    {
+      "comparator": "Crohn",
+      "full_rg": 0.1675,
+      "full_p": 0.0015
+    }
+  ],
+  "interpretation": "The MHC-artifact inversion is not supported for the recorded V21 LDSC frame because the no-MHC run is identical and V21 documented that the active reference panel contains zero SNPs in chr6:25-34Mb. However, this is not an independent MHC sensitivity using a MHC-containing reference. Sample-overlap/confounding is not strongly supported for UC by the recorded intercepts, while SLE remains caveated by high h2 intercept."
+}

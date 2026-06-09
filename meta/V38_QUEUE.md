@@ -24,7 +24,7 @@
 | 4 | C | Unpublishable-but-true exclusion/non-replication list | done | Ledger written with 16 exclusions/non-replications: 13 negative-established, 2 supported exclusions, 1 data-gated not-established. |
 | 5 | D | Cross-scale/control-systems reframing | done | Baseline load weak; dynamic/treated-state framing supported but set-point result is supervised/in-sample and needs fresh validation. |
 | 6 | B | Adversarial inversion of coupled APC architecture | done | Global immune tone is strong, but row-centering does not erase core APC edges; coupling is tone-loaded mechanistic context, not a predictive successor. |
-| 7 | B | Adversarial inversion of MS-UC genetic backdrop | todo | Test whether MS-UC rg/backdrop interpretation is MHC/sample-overlap dominated or unsupported outside the verified LDSC frame. |
+| 7 | B | Adversarial inversion of MS-UC genetic backdrop | done | V21 MS-UC rg survives recorded MHC/sample-overlap inversion, with caveat that the reference panel was already effectively MHC-free. |
 | 8 | A/D | Failure-structure follow-up: hard-protective-direction constraint | todo | Quantify whether restoration/up-function or wrong-direction modality constraints recur enough to become a future-lead prefilter. |
 
 ## Iteration Log
@@ -133,3 +133,19 @@
   V27 remains the predictive constraint: coupled features did not beat the V22
   scalar. Report updated as tone-loaded coupled architecture, not pure APC
   invariant and not a successor rule.
+
+### Iteration 7
+
+- Start UTC: 2026-06-09T04:45:21Z
+- End UTC: 2026-06-09T04:47:05Z
+- Status: completed
+- Item selected: Workstream B, adversarial inversion of MS-UC genetic backdrop.
+- Planned grounding: use recorded V21 LDSC full and MHC-excluded rg outputs to
+  test whether the MS-UC backdrop is MHC/sample-overlap dominated or otherwise
+  unsupported outside the primary LDSC run.
+- Result: `scripts/v38_rg_backdrop_inversion.py` parsed committed V21 LDSC
+  results only. MS-UC full rg remained `0.3342` (`p=4.8771e-14`), no-MHC rg was
+  identical, and recorded intercepts did not strongly support a
+  sample-overlap/confounding inversion. The caveat remains important: the
+  no-MHC run is not an independent MHC-containing-reference sensitivity because
+  the active LDSC panel already had zero chr6:25-34 Mb SNPs. Report updated.

@@ -128,6 +128,56 @@ pure APC-specific invariant and not as a superior clinical rule. This is a
 narrowing of interpretation, not a demotion of the V26 `supported` structural
 grade, because the row-centered residual test still leaves core structure.
 
+### B3. Inversion Of The MS-UC Genome-Wide Genetic Backdrop
+
+Status: **completed against recorded V21 LDSC outputs**.
+
+Question:
+
+Could the V21 MS-UC genetic-correlation backdrop be mostly an MHC artifact,
+sample-overlap artifact, or an interpretation unsupported outside the primary
+LDSC run?
+
+Grounding artifacts:
+
+- Script: `scripts/v38_rg_backdrop_inversion.py`
+- V21 LDSC table: `analysis/v21_ldsc_backdrop/ldsc_rg_results.tsv`
+- V21 report: `docs/workups/genetics/GENETIC_CORRELATION_BACKDROP_V21.md`
+- V38 inversion table:
+  `analysis/v38_rg_backdrop_inversion/rg_backdrop_inversion_table.tsv`
+- Summary:
+  `analysis/v38_rg_backdrop_inversion/rg_backdrop_inversion_summary.json`
+
+Results:
+
+| Comparator | Full rg | p | MHC sensitivity | Intercept caveat | V38 inversion result |
+|---|---:|---:|---|---|---|
+| UC | `0.3342` | `4.8771e-14` | no-MHC rg identical (`0.3342`), valid SNPs identical | h2 intercept `1.0467`, gcov intercept `0.0844`; not strongly inflated | MHC/sample-overlap inversion not supported in the recorded LDSC frame. |
+| Crohn | `0.1675` | `0.0015` | no-MHC rg identical (`0.1675`), valid SNPs identical | h2 intercept `1.0212`, gcov intercept `0.0789`; not strongly inflated | Same caveat; modest positive rg remains. |
+| SLE | `0.2439` | `6.0712e-05` | no no-MHC run in V21 | h2 intercept `1.1998` | Remains caveated, as V21 already stated. |
+| RA | `0.1692` | `0.0002` | no no-MHC run in V21 | h2 intercept `1.0553` | Modest positive rg remains within recorded frame. |
+
+Critical caveat:
+
+The MHC-excluded UC/Crohn runs were identical because V21 documented that the
+active LDSC reference panel contains zero chr6:25-34 Mb SNPs. That means the
+result is effectively MHC-free for that interval, but it is **not** an
+independent sensitivity using an MHC-containing reference.
+
+Verdict:
+
+The adversarial inversion **does not demote** the V21 MS-UC backdrop. The
+strongest supported statement remains:
+
+> In the verified LDSC frame, UC is the strongest tested genome-wide inherited
+> genetic comparator for MS, with Crohn materially weaker.
+
+What is narrowed:
+
+- do not overstate this as a separately confirmed MHC-exclusion sensitivity;
+- do not use SLE rg without the high-intercept caveat;
+- do not infer locus-level transferability from global rg.
+
 ## Workstream A: Structure Of Failure
 
 ### A1. Failure-Mode Meta-Analysis Across V37 Negative/Closed Items
@@ -407,6 +457,8 @@ Strengthened:
   treated-state features carry the apparent signal.
 - The coupled APC architecture withstands a direct global-tone inversion, but
   only as a tone-loaded structure rather than a pure APC-specific architecture.
+- The MS-UC rg backdrop withstands an MHC/sample-overlap adversarial check in
+  the recorded LDSC frame.
 
 Weakened / narrowed:
 
@@ -417,6 +469,9 @@ Weakened / narrowed:
   set-point result is supervised and in-sample.
 - Any phrase implying the V26 coupled architecture is independent of broad
   immune tone or composition is too strong.
+- Any phrase implying V21 provided an independent MHC-containing-reference
+  sensitivity is too strong; the verified panel was already effectively
+  MHC-free for chr6:25-34 Mb.
 
 Demoted:
 
