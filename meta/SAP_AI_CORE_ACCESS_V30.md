@@ -330,3 +330,28 @@ Operational rule:
   to prioritize anomalies or masked-label predictions over structured project
   matrices, but every surfaced pattern still requires independent grounding on
   real data.
+
+## V41 RPT Re-Verification
+
+V41 re-verified `sap-rpt-1-large` after V40 had treated RPT as unavailable for
+that run.
+
+Smoke test:
+
+- command: `python3 scripts/sap_ai_core_client.py rpt-smoke --timeout 90`
+- result: status code `0`, message `ok`; deployment
+  `d61aae51af327bbc`; one prediction for `predict_1`, predicted
+  `OUTCOME = high` with confidence `0.96`; elapsed `0.4s`.
+
+V41 joint-structure pass:
+
+- payload: `analysis/v41_joint_inference/v41_rpt_joint_payload.json`
+- output: `analysis/v41_joint_inference/v41_rpt_joint_predictions.json`
+- result: `19` masked-row predictions; class counts
+  `known_context = 9`, `not_validated = 10`.
+
+Interpretation:
+
+- RPT is usable through the committed Python client.
+- RPT output remained a proposal/ranking lens only and did not change the V41
+  evidence verdict.

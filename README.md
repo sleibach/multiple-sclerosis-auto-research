@@ -11,7 +11,7 @@ All analysis uses public human-tissue data only and random seed `20260526`
 
 ## Current Status
 
-The current phase is **V40**. The V4 directory structure remains canonical, and
+The current phase is **V41**. The V4 directory structure remains canonical, and
 V11 introduced the resume backbone for short-session continuity.
 
 - Start here: `meta/CURRENT_STATUS.md` — the live mission state, active leads,
@@ -127,8 +127,20 @@ V11 introduced the resume backbone for short-session continuity.
   target), while APC-axis network topology produced a correction-surviving
   `mixscale_validated_ifng_readout` hub. That topology result supports
   mechanism mapping only; it is not a controllability, target-nomination, or
-  successor-rule result. Claude and Gemini smoke-passed; SAP RPT is not
-  implemented in the current Python client and was not claimed as working.
+  successor-rule result. Claude and Gemini smoke-passed; SAP RPT was not used
+  in V40 because no working call path was confirmed in that run.
+  V41 then made the previously unmade computer-science move: joint inference
+  over the integrated corpus. It built `985` evidence rows over `71` entities
+  and `14` modalities, committed a held-out `treatment_response` split before
+  fitting, and wrote `docs/history/JOINT_INFERENCE_V41.md`. The only
+  train-side family-wise signal was `apc_hla_ifn_monitoring`; the
+  BH/FWER-ranked train set enriched for held-out treatment-response support
+  (`p=0.005704`, Spearman rho `0.403`, `p=0.000722`). Recurrence meta-analysis
+  recovered the known APC-axis and metabolic/immune-tone context, but no
+  unexpected new entity passed recurrence plus held-out validation. Corpus-level
+  exhaustion bound for unexpected joint-validated signal is `0.127`; the
+  verdict is that unconstrained public-data computation is exhausted for new
+  discovery under this gate, and new external data is now the rational path.
 - Current genetics/data focus: the chr1 MS-UC causal-gene question is
   computationally resolved for now and handed forward as real shared genetics,
   not an intervention-grade target. V20 widened back out to a ranked
@@ -243,6 +255,7 @@ that explicitly in `meta/SESSION_LOG.md`.
 | V38 | Unconventional/adversarial analysis block over existing artifacts. | Produced `docs/history/UNCONVENTIONAL_FINDINGS_V38.md` and structured ledgers under `analysis/v38_*`. V38 strengthened and narrowed V37 without demoting any scored item: the bounded V22 scalar survived adversarial/tone-residual checks but remains provisional and validation-gated; V26 coupled APC is tone-loaded context, not a predictive successor; MS-UC rg and the layer-transfer map survived inversions with caveats. |
 | V39 | Failure-structure meta-analysis and rigorous exclusion mapping. | Produced `docs/history/FAILURE_STRUCTURE_AND_EXCLUSION_V39.md`, `analysis/v39_failure_structure_exclusion/`, and `analysis/v39_immune_tone_anomaly/`. No universal failure law was supported; context/axis dependence is the strongest null-tested structure, direction/modality is a practical prefilter, and the exclusion/non-replication ledgers are now explicit stop-spending maps. |
 | V40 | Dimension-scouting and fast grounded probes of unexplored computational angles. | Produced `meta/DIMENSION_SCOUT_V40.md` and `docs/history/DIMENSION_PROBES_V40.md`. Protective/resilience-direction genetics was negative in the held frame; APC-axis topology showed a correction-surviving IFNG readout hub worth mechanism mapping but not target nomination. |
+| V41 | Maximum-capability joint inference over the full corpus. | Produced `docs/history/JOINT_INFERENCE_V41.md` and `analysis/v41_joint_inference/`. Joint inference recovered the known APC/HLA-II/IFN/MIF-CD74 monitoring axis and known metabolic/immune-tone context, but found no unexpected new held-out-validated signal; the public-data computation boundary is now explicit. |
 
 `docs/findings/FINDING.md` documents the (since-demoted) `ACSL1` target hypothesis from an
 earlier phase and is retained for the historical trace.

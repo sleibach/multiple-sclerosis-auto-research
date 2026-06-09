@@ -1,10 +1,60 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-06-09 21:30 CEST
+Last updated: 2026-06-09 22:52 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
 ## Queue
+
+V41 update:
+
+- Main report: `docs/history/JOINT_INFERENCE_V41.md`.
+- Outputs: `analysis/v41_joint_inference/`.
+- Integrated object:
+  - `985` evidence rows;
+  - `71` entities;
+  - `14` modalities;
+  - `907` p-valued rows.
+- Held-out split:
+  - committed before fitting in `39e6e90`;
+  - held out `treatment_response`;
+  - excluded `corpus_synthesis` and `lead_slate` from joint discovery model.
+- Joint-inference outcome:
+  - only `apc_hla_ifn_monitoring` passed the train-side family-wise
+    permutation gate (`train_joint_z = 8.0548`, FWER p `0.0684`);
+  - the BH/FWER-ranked train set enriched for held-out treatment-response
+    support (`8 / 26` vs `10 / 67`, hypergeometric p `0.005704`);
+  - train joint z correlated with held-out support (Spearman rho `0.403`,
+    p `0.000722`);
+  - this recovers the known APC monitoring axis, not a new target or successor
+    rule.
+- Recurrence/exhaustion outcome:
+  - formal recurrent entities: APC-axis terms, `lysosomal_apc`, and known
+    `metabolic_sterol` context;
+  - held-out-validated recurrent context entities: APC-axis terms plus
+    `metabolic_sterol`;
+  - no unexpected entity passed recurrence plus held-out validation;
+  - zero-success 95% upper bound for unexpected joint-validated signal in this
+    held corpus: `0.127`.
+- Tooling:
+  - Claude, Gemini, and SAP RPT smoke-passed in V41;
+  - RPT returned 19 predictions as a proposal/ranking lens only and did not
+    change the evidence verdict.
+
+First post-V41 action:
+
+1. Stop unconstrained public-data computation for new target/biomarker
+   discovery unless a genuinely new dataset arrives. V41 is the current
+   computational boundary statement.
+2. Highest-priority action is external data acquisition: obtain Gafson et al.
+   2018 DMF PBMC RNA-seq processed counts plus sample-level NEDA-4 labels using
+   `docs/validation/GAFSON_DATA_REQUEST_V36.md`.
+3. If Gafson data arrives, quarantine it and run only the frozen V22 validation
+   harness plus V32/V36/V38/V39/V41 secondary audits. Do not fit a successor
+   rule on it.
+4. If computational work must continue before new data, restrict it to
+   reproducibility hardening of V41 and validation-harness packaging, not new
+   lead generation.
 
 V40 update:
 
@@ -15,9 +65,8 @@ V40 update:
   - OpenGWAS HTTP 200; JWT valid until `2026-06-19 12:28 UTC` and now
     near-expiry;
   - Claude and Gemini smoke-pass through `scripts/sap_ai_core_client.py`;
-  - SAP RPT is not implemented in the current Python client and should not be
-    claimed usable until a real `sap-rpt-1-large` schema path is added and
-    smoke-passes.
+  - SAP RPT was not used in V40 because no working call path was confirmed in
+    that run; V41 later smoke-passed RPT and used it as proposal lens only.
 - Dimension-scout verdict:
   - protective/resilience-direction genetics is negative in the held frame:
     `0 / 8` genetics/target-like rows yielded a right-direction tractable

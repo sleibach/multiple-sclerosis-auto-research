@@ -945,3 +945,71 @@ Next session first action:
   topology hub, explicitly treating readout centrality as mechanism context and
   not as a target. Operational priority remains acquiring Gafson et al. 2018
   DMF PBMC RNA-seq processed counts plus sample-level NEDA-4 labels.
+
+## RUN SUMMARY - V41 Joint Inference And Exhaustion Boundary
+
+- Active runtime: 16 minutes 33 seconds, measured from real system-clock reads
+  (`2026-06-09T20:38:07Z` to `2026-06-09T20:54:40Z`). This does not claim the
+  optional 240-minute maximum target was reached; the directive was
+  value-complete at any stopping point, and the core joint-inference/exhaustion
+  work was completed.
+- Session start timestamp (UTC): 2026-06-09T20:38:07Z.
+- Session end timestamp (UTC): 2026-06-09T20:54:40Z.
+- OpenGWAS: HTTP 200 using the repo Python interpreter; JWT valid until
+  `2026-06-19 12:28 UTC`, flagged as near-expiry.
+- Iterations completed: 3.
+  1. Tooling health and integrated-frame preparation.
+  2. Joint inference, recurrence meta-analysis, exhaustion bound, and RPT
+     structural pass.
+  3. Repository close-out and RAG rebuild.
+- Integrated-frame coverage:
+  - `985` evidence rows;
+  - `71` entities;
+  - `14` modalities;
+  - `907` p-valued rows;
+  - committed held-out split before fitting: hold out `treatment_response`;
+    exclude `corpus_synthesis` and `lead_slate` from joint discovery model.
+- Joint-inference outcome:
+  - only `apc_hla_ifn_monitoring` passed the train-side family-wise permutation
+    gate (`train_joint_z = 8.0548`, FWER p `0.0684`);
+  - BH/FWER-ranked train entities enriched for held-out treatment-response
+    support (`8 / 26` vs `10 / 67`, hypergeometric p `0.005704`);
+  - train joint z correlated with held-out support (Spearman rho `0.403`, p
+    `0.000722`);
+  - verdict: recovered the known APC/HLA-II/IFN/MIF-CD74/IFNG monitoring axis,
+    not a new target, not a successor rule, and not an intervention-grade
+    discovery.
+- Recurring-signal meta-result:
+  - formal recurrent entities at FWER < `0.10`: `apc_hla_ifn_monitoring`,
+    `apc_axis`, `ifn_apc`, `hla_ii_apc`, `coupled_apc_axis`,
+    `mif_cd74_receptor_state`, `lysosomal_apc`, and `metabolic_sterol`;
+  - held-out-validated recurrent context entities: APC-axis terms plus known
+    `metabolic_sterol` immune-tone context;
+  - no unexpected entity passed recurrence plus held-out validation.
+- Quantitative exhaustion bound:
+  - unexpected/new-signal entities tested after excluding known APC,
+    metabolic/immune-tone, composition/steroid, genetic-backdrop,
+    layer-transfer, and protective-resilience context: `22`;
+  - zero successes;
+  - 95% upper bound on hidden unexpected joint-validated signal fraction in
+    this held corpus: `0.127`.
+- Exhaustion verdict: exhausted for unexpected new public-data discovery under
+  this corpus-level gate. Further unconstrained public-data mining is not the
+  rational next step without new data.
+- Tooling health and model spend: Claude 4.7 Opus, Gemini 2.5 Pro, and
+  `sap-rpt-1-large` all smoke-passed through SAP AI Core. RPT returned `19`
+  masked-row predictions as a proposal/ranking lens only; no model/RPT output
+  was used as evidence or changed the verdict. The local client exposes no
+  per-call spend, and no separate paid-service spend was recorded.
+- Frontier advanced: wrote `docs/history/JOINT_INFERENCE_V41.md` and
+  `analysis/v41_joint_inference/`, updated README/current status/next actions,
+  updated SAP AI Core access documentation for RPT, rebuilt the knowledge index
+  to `531` documents, and smoke-tested V41 retrieval.
+- Stop reason: value-complete handoff after joint inference, recurrence
+  meta-analysis, RPT lens pass, exhaustion verdict, and repository close-out
+  were completed and committed; optional 240-minute ceiling was not reached.
+- Next action: stop unconstrained public-data computation for new discovery and
+  acquire external validation data, especially Gafson et al. 2018 DMF PBMC
+  RNA-seq processed counts plus sample-level NEDA-4 labels. If data arrive,
+  quarantine them and run only the frozen V22 validation harness plus
+  V32/V36/V38/V39/V41 secondary audits; do not fit a successor rule on them.

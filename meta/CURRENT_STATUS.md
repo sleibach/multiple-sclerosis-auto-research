@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-09 21:30 CEST
+Last updated: 2026-06-09 22:52 CEST
 
 ## Mission State
 
@@ -95,8 +95,63 @@ protective/resilience-direction genetics is not supported in the held frame
 while APC-axis network topology has a correction-surviving
 `mixscale_validated_ifng_readout` hub. The topology result supports mechanism
 mapping only, not target nomination, controllability, or a successor rule.
+V41 then built and tested a joint inference object over the full held corpus.
+It assembled `985` evidence rows over `71` entities and `14` modalities, wrote
+and committed the `treatment_response` held-out split before fitting, and ran
+multi-view evidence aggregation plus recurrence/null analysis. The only
+train-side family-wise signal was `apc_hla_ifn_monitoring`; the larger
+BH/FWER-ranked train set predicted held-out treatment-response support
+(`p=0.005704`, Spearman rho `0.403`, `p=0.000722`). Recurrence analysis
+recovered the known APC-axis and known metabolic/immune-tone context, but no
+unexpected entity passed recurrence plus held-out validation. The corpus-level
+zero-success upper bound for unexpected joint-validated signal is `0.127`.
+Verdict: unconstrained public-data computation is exhausted for new discovery
+under this gate; external validation/new data is now the rational path.
 
 Current frontier:
+
+- V41 joint-inference state:
+  - Main report: `docs/history/JOINT_INFERENCE_V41.md`.
+  - Outputs: `analysis/v41_joint_inference/`.
+  - Integrated frame: `985` evidence rows, `71` entities, `14` modalities,
+    `907` p-valued rows.
+  - Integrity split:
+    `analysis/v41_joint_inference/heldout_modality_split.json`; held out
+    `treatment_response`; excluded `corpus_synthesis` and `lead_slate` from
+    joint discovery modeling to reduce circularity.
+  - Joint inference:
+    - only `apc_hla_ifn_monitoring` passed the train-side family-wise
+      permutation gate (`train_joint_z = 8.0548`, FWER p `0.0684`);
+    - the BH/FWER-ranked train set was enriched for held-out
+      treatment-response support (`8 / 26` top entities vs `10 / 67` universe,
+      hypergeometric p `0.005704`);
+    - train joint z correlated with held-out support (Spearman rho `0.403`,
+      p `0.000722`).
+  - Recurrence meta-inference:
+    - formal recurrent entities at FWER < `0.10`:
+      `apc_hla_ifn_monitoring`, `apc_axis`, `ifn_apc`, `hla_ii_apc`,
+      `coupled_apc_axis`, `mif_cd74_receptor_state`, `lysosomal_apc`,
+      `metabolic_sterol`;
+    - held-out-validated recurrent context entities:
+      APC-axis terms plus `metabolic_sterol`;
+    - no unexpected entity passed recurrence FWER < `0.10` plus held-out
+      support.
+  - Exhaustion bound:
+    - unexpected/new-signal entities tested after excluding known APC,
+      metabolic/immune-tone, composition/steroid, genetic-backdrop,
+      layer-transfer, and protective-resilience context: `22`;
+    - zero successes; 95% upper bound on hidden unexpected joint-validated
+      signal fraction in this corpus: `0.127`.
+  - Tooling:
+    - OpenGWAS HTTP 200; JWT valid until `2026-06-19 12:28 UTC`, near-expiry;
+    - Claude, Gemini, and SAP RPT smoke-passed;
+    - SAP RPT returned 19 predictions as a proposal/ranking lens only and did
+      not change the evidence verdict.
+  - Current decision:
+    - do not continue unconstrained public-data mining for new targets;
+    - acquire external data, especially Gafson et al. 2018 DMF PBMC RNA-seq
+      processed counts plus sample-level NEDA-4 labels, and run frozen
+      validation/audit harnesses only.
 
 - V40 dimension-scouting state:
   - Dimension map: `meta/DIMENSION_SCOUT_V40.md`.
@@ -113,8 +168,8 @@ Current frontier:
       near-expiry;
     - Claude 4.7 Opus and Gemini 2.5 Pro smoke-passed through the existing
       SAP AI Core client;
-    - SAP RPT is unavailable in the current Python client (`sap-rpt-1-large`
-      has no implemented request schema) and was not used as evidence.
+    - SAP RPT was not used in V40 because no working call path was confirmed in
+      that run; V41 later smoke-passed RPT and used it as proposal lens only.
   - Probe verdicts:
     - protective/resilience-direction genetics: negative in the held frame,
       with zero right-direction tractable targets and a zero-success 95% upper
