@@ -243,6 +243,56 @@ skeptically pre-filtered. A new lead should be penalized immediately if it
 requires cross-axis transfer, restoration/up-function without modality, or broad
 module interpretation without a matched specificity control.
 
+### A2. Direction/Modality Constraint As A Future-Lead Prefilter
+
+Status: **completed targeted follow-up**.
+
+Question:
+
+Was the chr1/KIF21B lesson, real biology but wrong or hard therapeutic
+direction, an anecdote, or a recurring enough pattern to become a mandatory
+prefilter for future leads?
+
+Grounding artifacts:
+
+- Script: `scripts/v38_direction_modality_prefilter.py`
+- Input: `analysis/v38_failure_structure/failure_mode_table.tsv`
+- Annotated table:
+  `analysis/v38_direction_modality_prefilter/direction_modality_annotated_failures.tsv`
+- Constraint counts:
+  `analysis/v38_direction_modality_prefilter/direction_modality_constraint_counts.tsv`
+- Summary:
+  `analysis/v38_direction_modality_prefilter/direction_modality_prefilter_summary.json`
+
+Results:
+
+| Frame | Count | Interpretation |
+|---|---:|---|
+| All V37/V38 negative or closed items with a direction/modality constraint | `8/20` (`40%`) | Common, but not universal across all failure types. |
+| Target-like genetics/nomination items with a direction/modality constraint | `5/6` (`83%`) | Strong enough to be a mandatory target-lead prefilter. |
+| Hard restoration/up-function/agonism specifically | `2/20` | Not the whole failure structure, but decisive for chr1/GPR25-type target claims. |
+| Opposite or invalid transfer direction | `2/20` | Captures ZMIZ1 and PTGER4-style transfer failures. |
+| Direction unresolved or missing | `3/20` | A recurrent reason to park rather than promote genetics leads. |
+| Modality or target-fit failure | `4/20` | Covers hard target fit and marker/covariate-not-driver cases. |
+
+Verdict:
+
+The hard-protective-direction problem is **not** a universal MS biology law.
+It is, however, a strong project-level constraint for target-like leads.
+
+Future genetics or target-nomination leads should be prefiltered before deep
+work:
+
+1. Is the protective direction allele-aligned and known?
+2. Does the feasible modality move in that protective direction?
+3. If the required action is restoration, up-function, or agonism, is there a
+   realistic modality rather than class-precedent optimism?
+4. Is the cross-disease direction same or opposite?
+
+If any answer fails, the lead can still be important biology, but it should be
+labeled hard-target/decoupling/data-gated immediately rather than entering the
+medical-team lead slate as promising.
+
 ## Workstream E: RPT-Led Structural Mining
 
 ### E1. RPT Mining Over V37 Score Table And V38 Failure Annotations
@@ -459,6 +509,8 @@ Strengthened:
   only as a tone-loaded structure rather than a pure APC-specific architecture.
 - The MS-UC rg backdrop withstands an MHC/sample-overlap adversarial check in
   the recorded LDSC frame.
+- Direction/modality constraints are now quantified as a recurring target-lead
+  failure mode: `5/6` target-like closed/negative items carried them.
 
 Weakened / narrowed:
 

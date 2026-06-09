@@ -25,7 +25,7 @@
 | 5 | D | Cross-scale/control-systems reframing | done | Baseline load weak; dynamic/treated-state framing supported but set-point result is supervised/in-sample and needs fresh validation. |
 | 6 | B | Adversarial inversion of coupled APC architecture | done | Global immune tone is strong, but row-centering does not erase core APC edges; coupling is tone-loaded mechanistic context, not a predictive successor. |
 | 7 | B | Adversarial inversion of MS-UC genetic backdrop | done | V21 MS-UC rg survives recorded MHC/sample-overlap inversion, with caveat that the reference panel was already effectively MHC-free. |
-| 8 | A/D | Failure-structure follow-up: hard-protective-direction constraint | todo | Quantify whether restoration/up-function or wrong-direction modality constraints recur enough to become a future-lead prefilter. |
+| 8 | A/D | Failure-structure follow-up: hard-protective-direction constraint | done | Direction/modality constraints affect 8/20 closed/negative items and 5/6 target-like items; mandatory early prefilter for future target leads. |
 
 ## Iteration Log
 
@@ -149,3 +149,19 @@
   sample-overlap/confounding inversion. The caveat remains important: the
   no-MHC run is not an independent MHC-containing-reference sensitivity because
   the active LDSC panel already had zero chr6:25-34 Mb SNPs. Report updated.
+
+### Iteration 8
+
+- Start UTC: 2026-06-09T04:47:38Z
+- End UTC: 2026-06-09T04:48:55Z
+- Status: completed
+- Item selected: Workstream A/D, hard-protective-direction constraint follow-up.
+- Planned grounding: use the V38 failure-mode table to quantify how often
+  direction/modality constraints recur, separating restoration/up-function
+  target problems from opposite-direction transfer and unresolved-direction
+  genetics.
+- Result: `scripts/v38_direction_modality_prefilter.py` found direction/modality
+  constraints in `8/20` closed/negative items overall and `5/6` target-like
+  genetics/nomination items. Hard restoration/up-function/agonism was `2/20`,
+  so it is not a universal law, but the target-like recurrence is strong enough
+  to make direction-matched modality a mandatory early prefilter. Report updated.

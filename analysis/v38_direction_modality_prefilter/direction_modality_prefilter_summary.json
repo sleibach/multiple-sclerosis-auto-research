@@ -1,0 +1,98 @@
+{
+  "input": "analysis/v38_failure_structure/failure_mode_table.tsv",
+  "n_total_failure_or_negative_items": 20,
+  "n_direction_modality_constrained": 8,
+  "fraction_direction_modality_constrained": 0.4,
+  "n_targetlike_items": 6,
+  "n_targetlike_direction_modality_constrained": 5,
+  "fraction_targetlike_direction_modality_constrained": 0.8333333333333334,
+  "constraint_counts": [
+    {
+      "constraint_label": "modality_or_target_fit_failure",
+      "n_items": 4,
+      "fraction_all_failures": 0.2,
+      "items": "chr1 KIF21B/GPR25 locus resolves to real biology but hard target | GPR25 demoted from protected favorite | NAMPT/eNAMPT not reactivated as target | Metabolic/sterol setpoint is context/confounder axis, not intervention-grade"
+    },
+    {
+      "constraint_label": "direction_unresolved_or_missing",
+      "n_items": 3,
+      "fraction_all_failures": 0.15,
+      "items": "PTGER4 mixed shared/distinct signal closes naive transfer | ZFP36L1 chr14 parked | REL/PUS10/USP34 chr2 closed"
+    },
+    {
+      "constraint_label": "hard_up_function_or_restoration",
+      "n_items": 2,
+      "fraction_all_failures": 0.1,
+      "items": "chr1 KIF21B/GPR25 locus resolves to real biology but hard target | GPR25 demoted from protected favorite"
+    },
+    {
+      "constraint_label": "opposite_or_invalid_transfer_direction",
+      "n_items": 2,
+      "fraction_all_failures": 0.1,
+      "items": "ZMIZ1 opposite-direction MS/Crohn decoupling | PTGER4 mixed shared/distinct signal closes naive transfer"
+    }
+  ],
+  "by_mechanism": [
+    {
+      "mechanism_level": "genetics_coloc",
+      "n_items": 3,
+      "n_direction_modality": 2,
+      "fraction": 0.6666666666666666
+    },
+    {
+      "mechanism_level": "genetics_direction",
+      "n_items": 2,
+      "n_direction_modality": 2,
+      "fraction": 1.0
+    },
+    {
+      "mechanism_level": "genetics_to_target",
+      "n_items": 2,
+      "n_direction_modality": 2,
+      "fraction": 1.0
+    },
+    {
+      "mechanism_level": "exploratory_module",
+      "n_items": 4,
+      "n_direction_modality": 1,
+      "fraction": 0.25
+    },
+    {
+      "mechanism_level": "target_nomination",
+      "n_items": 1,
+      "n_direction_modality": 1,
+      "fraction": 1.0
+    },
+    {
+      "mechanism_level": "cross_axis_transfer",
+      "n_items": 4,
+      "n_direction_modality": 0,
+      "fraction": 0.0
+    },
+    {
+      "mechanism_level": "deep_structure",
+      "n_items": 1,
+      "n_direction_modality": 0,
+      "fraction": 0.0
+    },
+    {
+      "mechanism_level": "modeling",
+      "n_items": 1,
+      "n_direction_modality": 0,
+      "fraction": 0.0
+    },
+    {
+      "mechanism_level": "treatment_response",
+      "n_items": 1,
+      "n_direction_modality": 0,
+      "fraction": 0.0
+    },
+    {
+      "mechanism_level": "treatment_response_modeling",
+      "n_items": 1,
+      "n_direction_modality": 0,
+      "fraction": 0.0
+    }
+  ],
+  "prefilter_recommendation": "Direction/modality is recurrent enough to be a mandatory early prefilter, especially for target-like genetics leads. A future lead should be downgraded before deep work if the protective direction requires restoration/up-function/agonism without a realistic modality, if the cross-disease direction is opposite, or if no allele-aligned direction is available."
+}
