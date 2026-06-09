@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-09 10:59 CEST
+Last updated: 2026-06-09 21:30 CEST
 
 ## Mission State
 
@@ -87,8 +87,49 @@ maps, and one cross-domain immune-tone anomaly probe. No universal MS failure
 law was supported. The strongest null-tested structure is context/axis
 dependence in cross-axis transfer failures; direction/modality remains a
 mandatory practical prefilter but only suggestive under the formal small-n null.
+V40 then mapped computational dimensions the project had not yet explored and
+ran two fast grounded probes. `meta/DIMENSION_SCOUT_V40.md` is the prioritized
+dimension map. `docs/history/DIMENSION_PROBES_V40.md` reports that
+protective/resilience-direction genetics is not supported in the held frame
+(`0 / 8` genetics/target-like rows produced a right-direction tractable target),
+while APC-axis network topology has a correction-surviving
+`mixscale_validated_ifng_readout` hub. The topology result supports mechanism
+mapping only, not target nomination, controllability, or a successor rule.
 
 Current frontier:
+
+- V40 dimension-scouting state:
+  - Dimension map: `meta/DIMENSION_SCOUT_V40.md`.
+  - Probe report: `docs/history/DIMENSION_PROBES_V40.md`.
+  - Machine-readable outputs:
+    - `analysis/v40_dimension_probes/protective_resilience_genetics_probe.tsv`;
+    - `analysis/v40_dimension_probes/protective_resilience_class_counts.tsv`;
+    - `analysis/v40_dimension_probes/protective_resilience_summary.json`;
+    - `analysis/v40_dimension_probes/apc_network_topology_probe.tsv`;
+    - `analysis/v40_dimension_probes/apc_network_topology_summary.json`;
+    - `analysis/v40_dimension_probes/v40_dimension_probe_summary.json`.
+  - Tooling health:
+    - OpenGWAS HTTP 200; JWT valid until `2026-06-19 12:28 UTC`, flagged
+      near-expiry;
+    - Claude 4.7 Opus and Gemini 2.5 Pro smoke-passed through the existing
+      SAP AI Core client;
+    - SAP RPT is unavailable in the current Python client (`sap-rpt-1-large`
+      has no implemented request schema) and was not used as evidence.
+  - Probe verdicts:
+    - protective/resilience-direction genetics: negative in the held frame,
+      with zero right-direction tractable targets and a zero-success 95% upper
+      bound of `0.312` across genetics/target-like rows;
+    - APC-axis network topology: supported as a readout topology signal only;
+      `mixscale_validated_ifng_readout` is the only module with BH q < `0.10`,
+      while `ifn_apc` and `hla_ii_apc` do not survive correction.
+  - Ranked new-dimension follow-up:
+    1. APC-axis network topology / mechanism mapping, medium-high priority;
+    2. cell-cell interaction / niche communication, medium priority but not yet
+       probed;
+    3. perturbation causal-discovery / module direction, medium priority and
+       partly covered by topology;
+    4. protective/resilience genetics, low until richer QTL/MR or controlled
+       genotype-linked data arrive.
 
 - V39 failure/exclusion state:
   - Main report: `docs/history/FAILURE_STRUCTURE_AND_EXCLUSION_V39.md`.

@@ -1,10 +1,48 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-06-09 10:59 CEST
+Last updated: 2026-06-09 21:30 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
 ## Queue
+
+V40 update:
+
+- Dimension map: `meta/DIMENSION_SCOUT_V40.md`.
+- Grounded probe report: `docs/history/DIMENSION_PROBES_V40.md`.
+- Probe outputs: `analysis/v40_dimension_probes/`.
+- Tooling health:
+  - OpenGWAS HTTP 200; JWT valid until `2026-06-19 12:28 UTC` and now
+    near-expiry;
+  - Claude and Gemini smoke-pass through `scripts/sap_ai_core_client.py`;
+  - SAP RPT is not implemented in the current Python client and should not be
+    claimed usable until a real `sap-rpt-1-large` schema path is added and
+    smoke-passes.
+- Dimension-scout verdict:
+  - protective/resilience-direction genetics is negative in the held frame:
+    `0 / 8` genetics/target-like rows yielded a right-direction tractable
+    target; do not spend more compute on this dimension until richer
+    full-summary QTL/drug-target MR instruments or controlled genotype-linked
+    immune/CSF data arrive;
+  - APC-axis network topology has a correction-surviving
+    `mixscale_validated_ifng_readout` hub only. This supports mechanism mapping,
+    not target nomination, controllability, or a successor rule;
+  - cell-cell interaction / niche communication and perturbation
+    causal-discovery remain the top unprobed feasible dimensions.
+
+First post-V40 action:
+
+1. If continuing computational exploration, run a dedicated APC-axis mechanism
+   mapping pass around the `mixscale_validated_ifng_readout` topology hub, with
+   the explicit constraint that readout centrality is not treated as a target.
+2. Next orthogonal probe: cell-cell interaction / niche communication on held
+   h5ad data, with composition controls and V39/V40 prefilters applied before
+   any lead claim.
+3. Do not reopen protective/resilience-direction genetics as a lead-generation
+   route without new QTL/MR/controlled genotype-linked data.
+4. Operational priority remains acquiring Gafson et al. 2018 DMF PBMC RNA-seq
+   processed counts plus sample-level NEDA-4 labels using
+   `docs/validation/GAFSON_DATA_REQUEST_V36.md`.
 
 V39 update:
 

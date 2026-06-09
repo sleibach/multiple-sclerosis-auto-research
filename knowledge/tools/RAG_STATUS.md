@@ -1,6 +1,6 @@
 # RAG Status
 
-Last updated: 2026-06-09 10:59 CEST
+Last updated: 2026-06-09 21:30 CEST
 
 ## Desired V4 Layer 2
 
@@ -25,10 +25,14 @@ Sparse local retrieval:
 - Build: `./.venv_v3_py312/bin/python scripts/build_knowledge_index.py`
 - Query: `./.venv_v3_py312/bin/python scripts/query_knowledge_index.py "candidate prior art" 10`
 - Index path: `knowledge/.index/tfidf_index.pkl`
-- Current document count: `526`.
-- Smoke test query `V39 failure structure context axis direction modality exclusion`
-  returned `meta/V39_QUEUE.md` and
-  `docs/history/FAILURE_STRUCTURE_AND_EXCLUSION_V39.md` as the top two hits.
+- Current document count: `529`.
+- Smoke test query `V40 dimension scout protective resilience network topology`
+  returned:
+  1. `docs/history/DIMENSION_PROBES_V40.md`;
+  2. `meta/V40_QUEUE.md`;
+  3. `meta/DIMENSION_SCOUT_V40.md`;
+  4. `knowledge/decisions/0019_pregnancy_dimension_scout.md`;
+  5. `meta/CURRENT_STATUS.md`.
 
 This is not a semantic embedding index. It is a continuity aid until the proper
 vector stack is installed.

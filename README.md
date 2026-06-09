@@ -11,7 +11,7 @@ All analysis uses public human-tissue data only and random seed `20260526`
 
 ## Current Status
 
-The current phase is **V39**. The V4 directory structure remains canonical, and
+The current phase is **V40**. The V4 directory structure remains canonical, and
 V11 introduced the resume backbone for short-session continuity.
 
 - Start here: `meta/CURRENT_STATUS.md` — the live mission state, active leads,
@@ -118,6 +118,17 @@ V11 introduced the resume backbone for short-session continuity.
   entries, and added an exploratory immune-tone anomaly result: responders
   converge into a compact treated/delta broad-tone state, but without enough
   group separation to create a classifier or replace the locked V22 scalar.
+  V40 then stepped back from individual leads to map unexplored computational
+  dimensions. The early value-complete deliverable is
+  `meta/DIMENSION_SCOUT_V40.md`, with grounded probes in
+  `docs/history/DIMENSION_PROBES_V40.md`. Two dimensions were probed:
+  protective/resilience-direction genetics was not supported in the held frame
+  (`0 / 8` genetics/target-like rows yielded a right-direction tractable
+  target), while APC-axis network topology produced a correction-surviving
+  `mixscale_validated_ifng_readout` hub. That topology result supports
+  mechanism mapping only; it is not a controllability, target-nomination, or
+  successor-rule result. Claude and Gemini smoke-passed; SAP RPT is not
+  implemented in the current Python client and was not claimed as working.
 - Current genetics/data focus: the chr1 MS-UC causal-gene question is
   computationally resolved for now and handed forward as real shared genetics,
   not an intervention-grade target. V20 widened back out to a ranked
@@ -231,6 +242,7 @@ that explicitly in `meta/SESSION_LOG.md`.
 | V37 | Comprehensive findings report and scoring synthesis. | Produced `docs/reports/FINDINGS_REPORT_V37.md` and `docs/reports/FINDINGS_SCORES_V37.tsv`, scoring 32 positive, decoupling, closed/negative, and methodological items by scientific relevance, novelty, and evidence grade. No new analysis or rule changes. |
 | V38 | Unconventional/adversarial analysis block over existing artifacts. | Produced `docs/history/UNCONVENTIONAL_FINDINGS_V38.md` and structured ledgers under `analysis/v38_*`. V38 strengthened and narrowed V37 without demoting any scored item: the bounded V22 scalar survived adversarial/tone-residual checks but remains provisional and validation-gated; V26 coupled APC is tone-loaded context, not a predictive successor; MS-UC rg and the layer-transfer map survived inversions with caveats. |
 | V39 | Failure-structure meta-analysis and rigorous exclusion mapping. | Produced `docs/history/FAILURE_STRUCTURE_AND_EXCLUSION_V39.md`, `analysis/v39_failure_structure_exclusion/`, and `analysis/v39_immune_tone_anomaly/`. No universal failure law was supported; context/axis dependence is the strongest null-tested structure, direction/modality is a practical prefilter, and the exclusion/non-replication ledgers are now explicit stop-spending maps. |
+| V40 | Dimension-scouting and fast grounded probes of unexplored computational angles. | Produced `meta/DIMENSION_SCOUT_V40.md` and `docs/history/DIMENSION_PROBES_V40.md`. Protective/resilience-direction genetics was negative in the held frame; APC-axis topology showed a correction-surviving IFNG readout hub worth mechanism mapping but not target nomination. |
 
 `docs/findings/FINDING.md` documents the (since-demoted) `ACSL1` target hypothesis from an
 earlier phase and is retained for the historical trace.

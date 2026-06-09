@@ -894,3 +894,54 @@ Next session first action:
   ledger; operationally acquire Gafson et al. 2018 DMF PBMC RNA-seq processed
   counts plus sample-level NEDA-4 labels and run only the frozen validation and
   pre-specified audit harnesses when data arrive.
+
+## RUN SUMMARY - V40 Dimension-Scouting And Grounded Probes
+
+- Active runtime: 10 minutes 25 seconds, measured from real system-clock reads
+  (`2026-06-09T19:21:12Z` to `2026-06-09T19:31:37Z`). This does not claim the
+  optional 240-minute maximum target was reached; the directive was
+  value-complete at any stopping point, and the high-value Phase 1/2 items were
+  completed.
+- Session start timestamp (UTC): 2026-06-09T19:21:12Z.
+- Session end timestamp (UTC): 2026-06-09T19:31:37Z.
+- OpenGWAS: HTTP 200 using the repo Python interpreter; JWT valid until
+  `2026-06-19 12:28 UTC`, flagged as near-expiry.
+- Iterations completed: 2.
+  1. Tooling health check and dimension map.
+  2. Two grounded Phase 2 probes and conservative interpretation.
+- Dimension-scout map status: written and committed at
+  `meta/DIMENSION_SCOUT_V40.md`.
+- Grounded probes:
+  - protective/resilience-direction genetics: not supported in the held frame.
+    It found `0 / 8` right-direction tractable genetics/target-like rows; the
+    zero-success 95% upper bound was `0.312` across genetics/target-like rows
+    and `0.393` across target-like rows.
+  - APC-axis network topology / mechanism mapping: supported only as a readout
+    topology signal. `mixscale_validated_ifng_readout` was the only module with
+    BH q < `0.10`; `ifn_apc` had the highest raw degree but did not survive
+    correction. This is not a target-nomination, controllability, or
+    successor-rule result.
+- Ranked new-dimension shortlist:
+  1. APC-axis network topology / mechanism mapping, medium-high priority;
+  2. cell-cell interaction / niche communication, medium priority and unprobed;
+  3. perturbation causal-discovery / module direction, medium priority and
+     partly covered by the topology probe;
+  4. protective/resilience-direction genetics, low priority until richer
+     QTL/MR or controlled genotype-linked data arrive.
+- Tooling health and model spend: Claude 4.7 Opus and Gemini 2.5 Pro
+  smoke-passed through SAP AI Core; SAP RPT is not implemented in the current
+  Python client and was not used. No model output was treated as evidence. The
+  local client exposes no per-call spend, and no separate paid-service spend was
+  recorded.
+- Frontier advanced: wrote `meta/DIMENSION_SCOUT_V40.md`,
+  `docs/history/DIMENSION_PROBES_V40.md`, and
+  `analysis/v40_dimension_probes/`; updated README/current status/next actions;
+  rebuilt the knowledge index to 529 documents and smoke-tested V40 retrieval.
+- Stop reason: value-complete handoff after Phase 1 map and two high-value
+  grounded probes were completed and committed; optional 240-minute ceiling was
+  not reached.
+- Next action: if computational exploration continues, run a dedicated
+  APC-axis mechanism-mapping pass around the `mixscale_validated_ifng_readout`
+  topology hub, explicitly treating readout centrality as mechanism context and
+  not as a target. Operational priority remains acquiring Gafson et al. 2018
+  DMF PBMC RNA-seq processed counts plus sample-level NEDA-4 labels.
