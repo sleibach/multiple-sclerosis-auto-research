@@ -1,0 +1,21 @@
+{
+  "dimension": "network_topology_controllability_apc_axis",
+  "prediction": "The APC-axis modules contain a non-random central hub in supported cross-modality dependency edges.",
+  "n_modules": 9,
+  "n_supported_edges": 25,
+  "n_permutations": 10000,
+  "top_module": {
+    "module": "ifn_apc",
+    "observed_supported_edge_degree": 11,
+    "null_mean_degree": 7.6057,
+    "null_sd_degree": 1.9000072394598921,
+    "empirical_p_degree_ge_observed": 0.0654934506549345,
+    "bh_q": 0.27117288271172885
+  },
+  "modules_with_bh_q_lt_0_10": [
+    "mixscale_validated_ifng_readout"
+  ],
+  "grounded_outcome": "supported_as_readout_topology_signal",
+  "grade": "supported_probe_mechanism_mapping",
+  "interpretation": "This tests topology, not causality. The only correction-surviving hub is the Mixscale-validated IFNG readout, while IFN/APC and HLA-II/APC have high raw degree but do not survive correction. The dimension is worth dedicated mechanism-mapping work, but this is not a controllability or target-nomination result."
+}

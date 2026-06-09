@@ -1,0 +1,35 @@
+{
+  "dimension": "protective_resilience_direction_genetics",
+  "prediction": "Reorienting held genetics by protective direction reveals at least one right-direction, tractable target candidate.",
+  "genetics_or_target_like_n": 8,
+  "target_nomination_like_n": 6,
+  "right_direction_tractable_targets_in_frame": 0,
+  "right_direction_tractable_targets_in_target_like_rows": 0,
+  "zero_success_95pct_upper_bound_genetics_or_target_like": 0.31234397806636793,
+  "zero_success_95pct_upper_bound_target_like": 0.39303776899708276,
+  "class_counts": [
+    {
+      "class": "opposite_or_invalid_cross_disease_direction",
+      "count": 2
+    },
+    {
+      "class": "protective_direction_requires_hard_restoration_or_agonism",
+      "count": 2
+    },
+    {
+      "class": "not_shared_causal_signal",
+      "count": 2
+    },
+    {
+      "class": "marker_or_covariate_not_target",
+      "count": 1
+    },
+    {
+      "class": "direction_or_coloc_unresolved",
+      "count": 1
+    }
+  ],
+  "grounded_outcome": "not_supported_in_held_frame",
+  "grade": "negative_in_held_frame_but_data_limited",
+  "interpretation": "The resilience/protective-direction framing is orthogonal and worth keeping, but held genetics does not currently produce a right-direction tractable target. The dominant outcomes are opposite transfer direction, hard restoration/agonism, signal conflict, failed coloc, or unresolved QTL direction."
+}
