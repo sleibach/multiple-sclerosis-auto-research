@@ -29,6 +29,9 @@ DIRECTION_TABLE = (
 EXCLUSION_LEDGER = (
     ROOT / "analysis" / "v38_exclusion_ledger" / "exclusion_nonreplication_ledger.tsv"
 )
+ANOMALY_TABLE = (
+    ROOT / "analysis" / "v39_immune_tone_anomaly" / "immune_tone_anomaly_spaces.tsv"
+)
 
 
 def comb(n: int, k: int) -> int:
@@ -278,9 +281,63 @@ def write_report(
     exclusions: pd.DataFrame,
     nonrep: pd.DataFrame,
     summary: dict[str, object],
+    anomaly: pd.DataFrame | None,
 ) -> None:
     REPORT.parent.mkdir(parents=True, exist_ok=True)
     target_rows = failures[failures["target_nomination_like"]].copy()
+    if anomaly is None:
+        workstream3 = """## Workstream 3: Cross-Domain Reframing
+
+Not started in this V39 value-complete checkpoint. The next executable item is
+to reuse or extend the existing V38 control-systems framing on the immune-tone
+axis only after this Workstream 1/2 report is committed.
+"""
+    else:
+        workstream3 = f"""## Workstream 3: Cross-Domain Reframing
+
+Status: **completed first grounded anomaly/control-system probe**.
+
+Question: do responders form a more compact treated immune-tone attractor than
+nonresponders in the bounded V22/V23 cohorts?
+
+Grounding artifacts:
+
+- Script: `scripts/v39_immune_tone_anomaly_reframing.py`
+- Input: `analysis/v32_confounder_audit/v32_subject_confounder_scores.tsv`
+- Output table:
+  `analysis/v39_immune_tone_anomaly/immune_tone_anomaly_spaces.tsv`
+- Summary:
+  `analysis/v39_immune_tone_anomaly/immune_tone_anomaly_summary.json`
+
+Method:
+
+Eight pre-defined baseline, delta, treated, broad-tone, and composition spaces
+were z-scored and tested with exact label permutations preserving the `10/9`
+responder/nonresponder split (`92,378` label assignments per space). The primary
+cross-domain metric was responder within-class compactness versus
+nonresponder within-class compactness; group-separation margin was also tested.
+Bonferroni and BH correction were applied across the eight spaces.
+
+Result:
+
+{markdown_table(anomaly, ["space", "timing", "responder_compactness_delta", "exact_p_responder_more_compact", "compactness_bonferroni_p", "compactness_bh_q", "separation_margin", "exact_p_greater_group_separation", "separation_bh_q"])}
+
+Verdict:
+
+The anomaly/control-system reframing is **supported only as exploratory
+mechanistic framing**, not as a new rule. Responders are significantly more
+compact in treated broad-tone space (`p=0.002674`, Bonferroni `0.02139`, BH
+`0.01199`) and delta broad-tone space (`p=0.002999`, Bonferroni `0.02399`, BH
+`0.01199`). However, group separation margins do not survive (`best separation
+BH q=0.655`), so the result is better read as **responder convergence toward a
+compact immune-tone treated state**, not as a deployable classifier or
+replacement for the locked V22 scalar.
+
+Medical-team implication: if Gafson/DMF arrives, measure treated/delta
+broad-tone compactness as a secondary audit endpoint, but do not tune or replace
+the locked scalar with it.
+"""
+
     text = f"""# Failure Structure And Exclusion Mapping V39
 
 Status: **value-complete for Workstreams 1 and 2**.
@@ -365,11 +422,7 @@ not a clean transfer locus, not EBV-specific, or not validated as a simulator.
 
 {markdown_table(nonrep, ["exclusion", "scope", "strength", "interpretation_type", "decision_value"])}
 
-## Workstream 3: Cross-Domain Reframing
-
-Not started in this V39 value-complete checkpoint. The next executable item is
-to reuse or extend the existing V38 control-systems framing on the immune-tone
-axis only after this Workstream 1/2 report is committed.
+{workstream3}
 
 ## Bottom Line
 
@@ -377,9 +430,12 @@ The project failures do contain structure, but not a simple one-line biological
 law. The strongest supported structure is **axis/context dependence**. The
 most important operational prefilter remains **direction/modality fit** for
 target-like leads, even though its enrichment is suggestive rather than
-formally significant in this 20-item frame. The exclusion ledger gives the
-medical team a concrete list of things not to spend on unless a new dataset
-directly overrides the named blocker.
+formally significant in this 20-item frame. The cross-domain immune-tone probe
+adds one exploratory but null-tested framing: responders converge into a compact
+treated/delta broad-tone state, while group separation remains insufficient for
+a classifier. The exclusion ledger gives the medical team a concrete list of
+things not to spend on unless a new dataset directly overrides the named
+blocker.
 """
     REPORT.write_text(text)
 
@@ -420,6 +476,7 @@ def main() -> None:
     family_counts["fraction_of_failure_frame"] = family_counts["count"] / len(failures)
 
     exclusions, nonrep = classify_exclusions(pd.read_csv(EXCLUSION_LEDGER, sep="\t"))
+    anomaly = pd.read_csv(ANOMALY_TABLE, sep="\t") if ANOMALY_TABLE.exists() else None
 
     failures.to_csv(OUT / "v39_failure_catalogue.tsv", sep="\t", index=False)
     family_counts.to_csv(OUT / "v39_pattern_family_counts.tsv", sep="\t", index=False)
@@ -451,7 +508,7 @@ def main() -> None:
         ),
     }
     (OUT / "v39_summary.json").write_text(json.dumps(summary, indent=2) + "\n")
-    write_report(failures, pattern_tests, family_counts, exclusions, nonrep, summary)
+    write_report(failures, pattern_tests, family_counts, exclusions, nonrep, summary, anomaly)
 
     print(json.dumps(summary, indent=2))
 

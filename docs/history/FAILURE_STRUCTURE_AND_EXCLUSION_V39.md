@@ -132,9 +132,57 @@ not a clean transfer locus, not EBV-specific, or not validated as a simulator.
 
 ## Workstream 3: Cross-Domain Reframing
 
-Not started in this V39 value-complete checkpoint. The next executable item is
-to reuse or extend the existing V38 control-systems framing on the immune-tone
-axis only after this Workstream 1/2 report is committed.
+Status: **completed first grounded anomaly/control-system probe**.
+
+Question: do responders form a more compact treated immune-tone attractor than
+nonresponders in the bounded V22/V23 cohorts?
+
+Grounding artifacts:
+
+- Script: `scripts/v39_immune_tone_anomaly_reframing.py`
+- Input: `analysis/v32_confounder_audit/v32_subject_confounder_scores.tsv`
+- Output table:
+  `analysis/v39_immune_tone_anomaly/immune_tone_anomaly_spaces.tsv`
+- Summary:
+  `analysis/v39_immune_tone_anomaly/immune_tone_anomaly_summary.json`
+
+Method:
+
+Eight pre-defined baseline, delta, treated, broad-tone, and composition spaces
+were z-scored and tested with exact label permutations preserving the `10/9`
+responder/nonresponder split (`92,378` label assignments per space). The primary
+cross-domain metric was responder within-class compactness versus
+nonresponder within-class compactness; group-separation margin was also tested.
+Bonferroni and BH correction were applied across the eight spaces.
+
+Result:
+
+| space | timing | responder_compactness_delta | exact_p_responder_more_compact | compactness_bonferroni_p | compactness_bh_q | separation_margin | exact_p_greater_group_separation | separation_bh_q |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| treated_broad_tone | treated | -1.4787975878552415 | 0.002673767847671 | 0.021390142781368 | 0.0119940679158683 | 0.0663386946295139 | 0.2496130072852055 | 0.6656346860938814 |
+| delta_broad_tone | delta | -2.1535725477410903 | 0.002998516978967 | 0.0239881358317366 | 0.0119940679158683 | -0.0012285660260307 | 0.4026347979519155 | 0.805269595903831 |
+| treated_composition | treated | -1.041125362365042 | 0.0130549150781021 | 0.1044393206248173 | 0.025443011939943 | 0.1278536526797959 | 0.1449247123263945 | 0.6551272475346128 |
+| treated_core | treated | -1.5005192845377546 | 0.0135961636302622 | 0.1087693090420983 | 0.025443011939943 | 0.0887496876860867 | 0.1637818118836532 | 0.6551272475346128 |
+| delta_core | delta | -1.5095279886010755 | 0.0159018824624644 | 0.1272150596997153 | 0.025443011939943 | -0.1284550299982965 | 0.7616016627155522 | 0.9381569404301844 |
+| baseline_core | baseline | -0.888863603525829 | 0.190454540534104 | 1.0 | 0.2539393873788054 | -0.3932443017321323 | 0.8583877288128254 | 0.9381569404301844 |
+| delta_composition | delta | -0.4175603721971166 | 0.2551986923434979 | 1.0 | 0.2916556483925691 | -0.0619293982976487 | 0.7492828456683879 | 0.9381569404301844 |
+| baseline_composition | baseline | 0.6203971950939242 | 0.8524015198259345 | 1.0 | 0.8524015198259345 | -0.2381457647182507 | 0.9381569404301844 | 0.9381569404301844 |
+
+Verdict:
+
+The anomaly/control-system reframing is **supported only as exploratory
+mechanistic framing**, not as a new rule. Responders are significantly more
+compact in treated broad-tone space (`p=0.002674`, Bonferroni `0.02139`, BH
+`0.01199`) and delta broad-tone space (`p=0.002999`, Bonferroni `0.02399`, BH
+`0.01199`). However, group separation margins do not survive (`best separation
+BH q=0.655`), so the result is better read as **responder convergence toward a
+compact immune-tone treated state**, not as a deployable classifier or
+replacement for the locked V22 scalar.
+
+Medical-team implication: if Gafson/DMF arrives, measure treated/delta
+broad-tone compactness as a secondary audit endpoint, but do not tune or replace
+the locked scalar with it.
+
 
 ## Bottom Line
 
@@ -142,6 +190,9 @@ The project failures do contain structure, but not a simple one-line biological
 law. The strongest supported structure is **axis/context dependence**. The
 most important operational prefilter remains **direction/modality fit** for
 target-like leads, even though its enrichment is suggestive rather than
-formally significant in this 20-item frame. The exclusion ledger gives the
-medical team a concrete list of things not to spend on unless a new dataset
-directly overrides the named blocker.
+formally significant in this 20-item frame. The cross-domain immune-tone probe
+adds one exploratory but null-tested framing: responders converge into a compact
+treated/delta broad-tone state, while group separation remains insufficient for
+a classifier. The exclusion ledger gives the medical team a concrete list of
+things not to spend on unless a new dataset directly overrides the named
+blocker.

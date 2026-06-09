@@ -8,6 +8,7 @@ Target UTC (+240 min): 2026-06-09T12:46:17Z
 | Iteration | Start UTC | End UTC | Status | Notes |
 |---|---:|---:|---|---|
 | 1 | 2026-06-09T08:46:17Z | 2026-06-09T08:52:05Z | done | Initialized V39; OpenGWAS HTTP 200 using repo interpreter; Gemini smoke passed; Claude timed out; RPT schema not implemented in current Python client. Workstreams 1-2 completed to a value-complete report. |
+| 2 | 2026-06-09T08:52:43Z | 2026-06-09T08:56:44Z | done | Workstream 3 completed with exact-permutation anomaly/control-system probe over V32 bounded immune-tone spaces. |
 
 ## Backlog
 
@@ -20,4 +21,4 @@ Target UTC (+240 min): 2026-06-09T12:46:17Z
 | 5 | Workstream 1: write value-complete failure-structure verdict | done | `docs/history/FAILURE_STRUCTURE_AND_EXCLUSION_V39.md`. |
 | 6 | Workstream 2: rigorous exclusion list | done | 16 exclusions in `analysis/v39_failure_structure_exclusion/v39_exclusion_list.tsv`. |
 | 7 | Workstream 2: non-replication list | done | 9 non-replication-like items in `analysis/v39_failure_structure_exclusion/v39_nonreplication_list.tsv`. |
-| 8 | Workstream 3: one cross-domain reframing if Workstreams 1-2 complete | todo | Optional only after 1 and 2. |
+| 8 | Workstream 3: one cross-domain reframing if Workstreams 1-2 complete | done | Responders compact in treated/delta broad-tone spaces after eight-space correction; group separation not sufficient for classifier. |

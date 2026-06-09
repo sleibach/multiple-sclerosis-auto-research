@@ -1,0 +1,42 @@
+{
+  "input": "analysis/v32_confounder_audit/v32_subject_confounder_scores.tsv",
+  "n_subjects": 19,
+  "n_responders": 10,
+  "n_nonresponders": 9,
+  "spaces_tested": 8,
+  "best_compactness_space": {
+    "space": "treated_broad_tone",
+    "timing": "treated",
+    "modules": "general_inflammatory_tone;stat1_axis;glycolysis;oxphos;immunometabolism_hif_nampt",
+    "responder_within_median_distance": 1.7617707493736554,
+    "nonresponder_within_median_distance": 3.240568337228897,
+    "between_group_median_distance": 2.56750823793079,
+    "responder_compactness_delta": -1.4787975878552415,
+    "separation_margin": 0.06633869462951392,
+    "exact_p_responder_more_compact": 0.0026737678476710077,
+    "exact_p_greater_group_separation": 0.24961300728520552,
+    "n_exact_label_permutations": 92378,
+    "compactness_bonferroni_p": 0.02139014278136806,
+    "separation_bonferroni_p": 1.0,
+    "compactness_bh_q": 0.011994067915868325,
+    "separation_bh_q": 0.6656346860938814
+  },
+  "best_separation_space": {
+    "space": "treated_composition",
+    "timing": "treated",
+    "modules": "monocyte_myeloid_composition;t_cell_composition;b_cell_composition",
+    "responder_within_median_distance": 1.6659055882634268,
+    "nonresponder_within_median_distance": 2.707030950628469,
+    "between_group_median_distance": 2.314321922125744,
+    "responder_compactness_delta": -1.041125362365042,
+    "separation_margin": 0.12785365267979598,
+    "exact_p_responder_more_compact": 0.013054915078102166,
+    "exact_p_greater_group_separation": 0.14492471232639453,
+    "n_exact_label_permutations": 92378,
+    "compactness_bonferroni_p": 0.10443932062481733,
+    "separation_bonferroni_p": 1.0,
+    "compactness_bh_q": 0.025443011939943062,
+    "separation_bh_q": 0.6551272475346128
+  },
+  "interpretation": "Exploratory anomaly/control-system framing. Responders are tested for compactness and group separation in pre-defined immune-tone spaces with exact label permutations and eight-space multiple-testing correction. This is not a new rule and must not replace the locked V22 scalar."
+}
