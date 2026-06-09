@@ -666,7 +666,7 @@ def run_joint_inference(evidence: pd.DataFrame, split: dict[str, Any]) -> tuple[
         top = result.head(min(5, len(result))).copy()
         top_gate = "top5_no_formal_train_signal"
     else:
-        top_gate = "formal_train_signal"
+        top_gate = "bh_or_fwer_train_signal"
 
     universe_n = int(len(result))
     holdout_success_n = int(result["holdout_supported_p_lt_0_05"].sum())
@@ -756,22 +756,40 @@ def run_recurring_signal_meta(evidence: pd.DataFrame, joint: pd.DataFrame) -> tu
         "lysosomal_apc",
         "gilt_lysosomal_apc",
     }
-    non_apc = recurrence[~recurrence["entity"].isin(known_apc_entities)].copy()
-    non_apc_formal = non_apc[
-        (non_apc["recurrence_empirical_fwer_p"] < 0.10)
-        & (non_apc["holdout_supported_p_lt_0_05"].fillna(False))
+    known_context_entities = known_apc_entities | {
+        "metabolic_sterol",
+        "cell_composition",
+        "glucocorticoid_steroid",
+        "tb_readable_compartment",
+        "genetic_backdrop_ms_uc",
+        "ms_uc_genetic_backdrop",
+        "layer_transfer_map",
+        "protective_resilience_genetics",
+    }
+    holdout_bool = recurrence["holdout_supported_p_lt_0_05"].fillna(False).astype(bool)
+    formal_and_holdout = recurrence[
+        (recurrence["recurrence_empirical_fwer_p"] < 0.10)
+        & holdout_bool
+    ].copy()
+    known_context_formal = formal_and_holdout[formal_and_holdout["entity"].isin(known_context_entities)].copy()
+    unexpected = recurrence[~recurrence["entity"].isin(known_context_entities)].copy()
+    unexpected_bool = unexpected["holdout_supported_p_lt_0_05"].fillna(False).astype(bool)
+    unexpected_formal = unexpected[
+        (unexpected["recurrence_empirical_fwer_p"] < 0.10)
+        & unexpected_bool
     ]
-    non_apc_candidates = int(len(non_apc))
-    zero_success_upper = 1.0 - (0.05 ** (1.0 / non_apc_candidates)) if non_apc_candidates else float("nan")
+    unexpected_candidates = int(len(unexpected))
+    zero_success_upper = 1.0 - (0.05 ** (1.0 / unexpected_candidates)) if unexpected_candidates else float("nan")
     summary = {
         "n_positive_source_units": int(source_units["source_unit"].nunique()),
         "n_entities": int(len(entities)),
         "max_null_recurrence_p95": float(np.quantile(max_null, 0.95)),
         "observed_top_recurrence": int(recurrence["positive_source_units"].max()) if not recurrence.empty else 0,
         "formal_recurrent_entities_fwer_0_10": recurrence[recurrence["recurrence_empirical_fwer_p"] < 0.10]["entity"].tolist(),
-        "non_apc_entities_tested_for_new_signal": non_apc_candidates,
-        "non_apc_formal_recurrent_and_holdout_validated": non_apc_formal["entity"].tolist(),
-        "zero_success_95pct_upper_bound_non_apc_joint_validated_signal": zero_success_upper,
+        "known_context_formal_recurrent_and_holdout_validated": known_context_formal["entity"].tolist(),
+        "unexpected_entities_tested_for_new_signal": unexpected_candidates,
+        "unexpected_formal_recurrent_and_holdout_validated": unexpected_formal["entity"].tolist(),
+        "zero_success_95pct_upper_bound_unexpected_joint_validated_signal": zero_success_upper,
     }
     (OUT / "recurring_signal_meta_summary.json").write_text(json.dumps(summary, indent=2, sort_keys=True) + "\n")
     return recurrence, summary
@@ -785,6 +803,94 @@ def md_table(df: pd.DataFrame, columns: list[str], n: int = 12) -> str:
     for _, row in sub.iterrows():
         lines.append("| " + " | ".join(str(row[c]).replace("|", "\\|") for c in columns) + " |")
     return "\n".join(lines)
+
+
+def write_rpt_payload(joint: pd.DataFrame, recurrence: pd.DataFrame) -> None:
+    merged = joint.merge(
+        recurrence[
+            [
+                "entity",
+                "positive_source_units",
+                "positive_modalities",
+                "recurrence_empirical_fwer_p",
+            ]
+        ],
+        on="entity",
+        how="left",
+    ).fillna(
+        {
+            "positive_source_units": 0,
+            "positive_modalities": 0,
+            "recurrence_empirical_fwer_p": 1.0,
+        }
+    )
+    known_context = {
+        "apc_hla_ifn_monitoring",
+        "apc_axis",
+        "ifn_apc",
+        "hla_ii_apc",
+        "coupled_apc_axis",
+        "mif_cd74_receptor_state",
+        "metabolic_sterol",
+        "lysosomal_apc",
+        "mixscale_validated_ifng_readout",
+        "tb_readable_compartment",
+        "cell_composition",
+        "glucocorticoid_steroid",
+    }
+
+    rows = []
+    for _, row in merged.iterrows():
+        entity = str(row["entity"])
+        if entity in known_context:
+            label = "known_context"
+        elif (
+            float(row.get("train_joint_z", 0)) >= 2.0
+            or int(row.get("positive_source_units", 0)) >= 3
+            or bool(row.get("holdout_supported_p_lt_0_05"))
+        ):
+            label = "[PREDICT]"
+        else:
+            label = "not_validated"
+        rows.append(
+            {
+                "ID": entity,
+                "train_joint_z": round(float(row.get("train_joint_z", 0)), 6),
+                "train_support_modalities": int(row.get("train_support_modalities", 0)),
+                "train_fwer_p": round(float(row.get("train_empirical_fwer_p", 1)), 6),
+                "holdout_support_z": round(float(row.get("holdout_support_z", 0)), 6),
+                "positive_source_units": int(row.get("positive_source_units", 0)),
+                "positive_modalities": int(row.get("positive_modalities", 0)),
+                "recurrence_fwer_p": round(float(row.get("recurrence_empirical_fwer_p", 1)), 6),
+                "V41_CLASS": label,
+            }
+        )
+
+    payload = {
+        "prediction_config": {
+            "target_columns": [
+                {
+                    "name": "V41_CLASS",
+                    "prediction_placeholder": "[PREDICT]",
+                    "task_type": "classification",
+                }
+            ]
+        },
+        "index_column": "ID",
+        "data_schema": {
+            "ID": {"dtype": "string"},
+            "train_joint_z": {"dtype": "numeric"},
+            "train_support_modalities": {"dtype": "numeric"},
+            "train_fwer_p": {"dtype": "numeric"},
+            "holdout_support_z": {"dtype": "numeric"},
+            "positive_source_units": {"dtype": "numeric"},
+            "positive_modalities": {"dtype": "numeric"},
+            "recurrence_fwer_p": {"dtype": "numeric"},
+            "V41_CLASS": {"dtype": "string"},
+        },
+        "rows": rows,
+    }
+    (OUT / "v41_rpt_joint_payload.json").write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n")
 
 
 def write_report(
@@ -808,11 +914,38 @@ def write_report(
     formal = joint[joint["train_empirical_fwer_p"] < 0.10].copy()
     holdout_row = holdout.iloc[0].to_dict()
     recurrence_formal = recurrence[recurrence["recurrence_empirical_fwer_p"] < 0.10].copy()
-    non_apc_found = recurrence_summary["non_apc_formal_recurrent_and_holdout_validated"]
-    if non_apc_found:
-        exhaustion = "not exhausted: non-APC joint signal found"
+    known_context_found = recurrence_summary["known_context_formal_recurrent_and_holdout_validated"]
+    unexpected_found = recurrence_summary["unexpected_formal_recurrent_and_holdout_validated"]
+    if unexpected_found:
+        exhaustion = "not exhausted: unexpected joint signal found"
     else:
-        exhaustion = "exhausted for new public-data discovery under this corpus-level gate"
+        exhaustion = "exhausted for unexpected new public-data discovery under this corpus-level gate"
+
+    rpt_file = OUT / "v41_rpt_joint_predictions.json"
+    rpt_section = "RPT joint structural pass was not run for this report."
+    if rpt_file.exists():
+        try:
+            rpt = json.loads(rpt_file.read_text())
+            preds = rpt.get("predictions", [])
+            counts: dict[str, int] = defaultdict(int)
+            examples: list[str] = []
+            for pred in preds:
+                values = pred.get("V41_CLASS", [])
+                label = values[0].get("prediction", "unknown") if values else "unknown"
+                counts[label] += 1
+                if len(examples) < 8:
+                    conf = values[0].get("confidence", "") if values else ""
+                    examples.append(f"{pred.get('ID')} -> {label} ({conf})")
+            rpt_section = (
+                f"SAP RPT ran on `analysis/v41_joint_inference/v41_rpt_joint_payload.json` "
+                f"and returned `{len(preds)}` predictions. Prediction class counts: "
+                + ", ".join(f"`{k}`={v}" for k, v in sorted(counts.items()))
+                + ". Example predictions: "
+                + "; ".join(examples)
+                + ". RPT output is treated only as a proposal/ranking lens and did not change the evidence verdict."
+            )
+        except Exception as exc:
+            rpt_section = f"RPT predictions file existed but could not be summarized: `{exc}`."
 
     text = f"""# Joint Inference V41
 
@@ -869,7 +1002,10 @@ Permutation/null summary:
 - Train entities passing FWER < 0.10:
   `{';'.join(null_summary['observed_entities_passing_fwer_0_10']) or 'none'}`.
 
-Held-out treatment-response validation:
+Held-out treatment-response validation of the BH/FWER-selected train-side top
+set. Only `apc_hla_ifn_monitoring` passes the stricter train-side family-wise
+permutation gate; the larger table below is used only as a rank-enrichment
+check:
 
 {md_table(holdout, ["gate", "universe_entities", "holdout_supported_entities", "top_entities", "top_holdout_supported", "hypergeom_p_top_enrichment", "spearman_train_z_vs_holdout_z", "spearman_p"])}
 
@@ -900,21 +1036,28 @@ Recurring-signal null:
   `{';'.join(recurrence_summary['formal_recurrent_entities_fwer_0_10']) or 'none'}`.
 
 The recurring entities are dominated by APC-axis and treatment-response terms.
-No non-APC entity passed both the recurrence gate and held-out
-treatment-response validation.
+`metabolic_sterol` also passes recurrence plus held-out support, but this is a
+known immune-tone/confounder/context axis from V32/V35/V39 rather than a new
+target or biomarker. No unexpected non-context entity passed both the recurrence
+gate and held-out treatment-response validation.
 
 ## Quantitative Exhaustion Bound
 
-Non-APC/new-signal entities tested against the recurrence-plus-held-out gate:
-`{recurrence_summary['non_apc_entities_tested_for_new_signal']}`.
+Unexpected/new-signal entities tested against the recurrence-plus-held-out gate
+after excluding known APC, metabolic/immune-tone, composition/steroid, genetic
+backdrop, layer-transfer, and protective-resilience context entities:
+`{recurrence_summary['unexpected_entities_tested_for_new_signal']}`.
 
-Non-APC entities passing recurrence FWER < 0.10 and held-out treatment-response
-support: `{';'.join(non_apc_found) or '0'}`.
+Known context entities passing recurrence FWER < 0.10 and held-out
+treatment-response support: `{';'.join(known_context_found) or '0'}`.
 
-With zero successes among those non-APC candidates, the simple zero-success
+Unexpected entities passing recurrence FWER < 0.10 and held-out
+treatment-response support: `{';'.join(unexpected_found) or '0'}`.
+
+With zero successes among those unexpected candidates, the simple zero-success
 95% upper bound on the fraction of such entities that could still hide a
 joint-validated signal in this held corpus is
-`{recurrence_summary['zero_success_95pct_upper_bound_non_apc_joint_validated_signal']:.3f}`.
+`{recurrence_summary['zero_success_95pct_upper_bound_unexpected_joint_validated_signal']:.3f}`.
 This bound is not a biological universal; it is a corpus-level computational
 bound for the entity vocabulary and evidence rows assembled here.
 
@@ -922,13 +1065,18 @@ bound for the entity vocabulary and evidence rows assembled here.
 
 Verdict: **{exhaustion}**.
 
-The held public corpus still supports one repeatable computational structure:
-the bounded APC/HLA-II/IFN/MIF-CD74/IFNG-readout monitoring axis. V41 does not
-find an additional joint signal that was invisible to per-dimension analyses.
+The held public corpus supports two repeatable structures: the bounded
+APC/HLA-II/IFN/MIF-CD74/IFNG-readout monitoring axis, and the already-known
+metabolic/immune-tone context that conditions that axis. V41 does not find an
+additional unexpected joint signal that was invisible to per-dimension analyses.
 The rational next step is therefore not more unconstrained public-data mining
 for new targets. It is external data: the Gafson/DMF NEDA-labeled cohort for
 the locked V22 scalar, plus any future genotype-linked immune/CSF/protein data
 needed for genetics questions.
+
+## Workstream D: RPT Joint Structural Pass
+
+{rpt_section}
 
 ## Single Most Defensible Next Step
 
@@ -970,14 +1118,16 @@ def infer() -> None:
     matrix = evidence_to_modality_matrix(evidence)
     joint, holdout, null_summary = run_joint_inference(evidence, split)
     recurrence, recurrence_summary = run_recurring_signal_meta(evidence, joint)
+    write_rpt_payload(joint, recurrence)
     write_report(evidence, matrix, joint, holdout, null_summary, recurrence, recurrence_summary, split)
     final = {
         "joint_top_entities": joint.head(10)["entity"].tolist(),
         "formal_train_entities": null_summary["observed_entities_passing_fwer_0_10"],
         "holdout_validation": holdout.iloc[0].to_dict(),
         "formal_recurrent_entities": recurrence_summary["formal_recurrent_entities_fwer_0_10"],
-        "non_apc_formal_recurrent_and_holdout_validated": recurrence_summary["non_apc_formal_recurrent_and_holdout_validated"],
-        "exhaustion_upper_bound": recurrence_summary["zero_success_95pct_upper_bound_non_apc_joint_validated_signal"],
+        "known_context_formal_recurrent_and_holdout_validated": recurrence_summary["known_context_formal_recurrent_and_holdout_validated"],
+        "unexpected_formal_recurrent_and_holdout_validated": recurrence_summary["unexpected_formal_recurrent_and_holdout_validated"],
+        "exhaustion_upper_bound": recurrence_summary["zero_success_95pct_upper_bound_unexpected_joint_validated_signal"],
     }
     (OUT / "v41_joint_inference_summary.json").write_text(json.dumps(final, indent=2, sort_keys=True) + "\n")
     print(json.dumps(final, indent=2, sort_keys=True))

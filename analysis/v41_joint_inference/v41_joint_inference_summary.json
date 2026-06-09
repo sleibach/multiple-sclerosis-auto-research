@@ -1,0 +1,48 @@
+{
+  "exhaustion_upper_bound": 0.12730543165483876,
+  "formal_recurrent_entities": [
+    "apc_hla_ifn_monitoring",
+    "apc_axis",
+    "ifn_apc",
+    "hla_ii_apc",
+    "coupled_apc_axis",
+    "mif_cd74_receptor_state",
+    "lysosomal_apc",
+    "metabolic_sterol"
+  ],
+  "formal_train_entities": [
+    "apc_hla_ifn_monitoring"
+  ],
+  "holdout_validation": {
+    "gate": "bh_or_fwer_train_signal",
+    "holdout_supported_entities": 10,
+    "hypergeom_p_top_enrichment": 0.0057036859875542936,
+    "spearman_p": 0.000722111258658304,
+    "spearman_train_z_vs_holdout_z": 0.402980143899722,
+    "top_entities": 26,
+    "top_holdout_supported": 8,
+    "universe_entities": 67
+  },
+  "joint_top_entities": [
+    "apc_hla_ifn_monitoring",
+    "apc_axis",
+    "hla_ii_apc",
+    "genetic_backdrop_ms_uc",
+    "ms_uc_genetic_backdrop",
+    "coupled_apc_axis",
+    "mif_cd74_receptor_state",
+    "ifn_apc",
+    "hla_ii_apc__mif_cd74_receptor_state",
+    "mixscale_validated_ifng_readout"
+  ],
+  "known_context_formal_recurrent_and_holdout_validated": [
+    "apc_hla_ifn_monitoring",
+    "apc_axis",
+    "ifn_apc",
+    "hla_ii_apc",
+    "coupled_apc_axis",
+    "mif_cd74_receptor_state",
+    "metabolic_sterol"
+  ],
+  "unexpected_formal_recurrent_and_holdout_validated": []
+}

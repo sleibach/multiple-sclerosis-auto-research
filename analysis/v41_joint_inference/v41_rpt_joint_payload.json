@@ -1,0 +1,780 @@
+{
+  "data_schema": {
+    "ID": {
+      "dtype": "string"
+    },
+    "V41_CLASS": {
+      "dtype": "string"
+    },
+    "holdout_support_z": {
+      "dtype": "numeric"
+    },
+    "positive_modalities": {
+      "dtype": "numeric"
+    },
+    "positive_source_units": {
+      "dtype": "numeric"
+    },
+    "recurrence_fwer_p": {
+      "dtype": "numeric"
+    },
+    "train_fwer_p": {
+      "dtype": "numeric"
+    },
+    "train_joint_z": {
+      "dtype": "numeric"
+    },
+    "train_support_modalities": {
+      "dtype": "numeric"
+    }
+  },
+  "index_column": "ID",
+  "prediction_config": {
+    "target_columns": [
+      {
+        "name": "V41_CLASS",
+        "prediction_placeholder": "[PREDICT]",
+        "task_type": "classification"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "ID": "apc_hla_ifn_monitoring",
+      "V41_CLASS": "known_context",
+      "holdout_support_z": 5.000961,
+      "positive_modalities": 11,
+      "positive_source_units": 78,
+      "recurrence_fwer_p": 0.0001,
+      "train_fwer_p": 0.068393,
+      "train_joint_z": 8.054845,
+      "train_support_modalities": 8
+    },
+    {
+      "ID": "apc_axis",
+      "V41_CLASS": "known_context",
+      "holdout_support_z": 2.324857,
+      "positive_modalities": 12,
+      "positive_source_units": 45,
+      "recurrence_fwer_p": 0.0001,
+      "train_fwer_p": 0.186981,
+      "train_joint_z": 7.773585,
+      "train_support_modalities": 8
+    },
+    {
+      "ID": "hla_ii_apc",
+      "V41_CLASS": "known_context",
+      "holdout_support_z": 2.324857,
+      "positive_modalities": 11,
+      "positive_source_units": 20,
+      "recurrence_fwer_p": 0.0001,
+      "train_fwer_p": 0.321068,
+      "train_joint_z": 7.601908,
+      "train_support_modalities": 7
+    },
+    {
+      "ID": "genetic_backdrop_ms_uc",
+      "V41_CLASS": "[PREDICT]",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 2,
+      "positive_source_units": 8,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 0.711529,
+      "train_joint_z": 7.535167,
+      "train_support_modalities": 1
+    },
+    {
+      "ID": "ms_uc_genetic_backdrop",
+      "V41_CLASS": "[PREDICT]",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 1,
+      "positive_source_units": 2,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 0.711529,
+      "train_joint_z": 7.535167,
+      "train_support_modalities": 1
+    },
+    {
+      "ID": "coupled_apc_axis",
+      "V41_CLASS": "known_context",
+      "holdout_support_z": 2.324857,
+      "positive_modalities": 10,
+      "positive_source_units": 18,
+      "recurrence_fwer_p": 0.0001,
+      "train_fwer_p": 0.777622,
+      "train_joint_z": 7.487342,
+      "train_support_modalities": 7
+    },
+    {
+      "ID": "mif_cd74_receptor_state",
+      "V41_CLASS": "known_context",
+      "holdout_support_z": 2.324857,
+      "positive_modalities": 9,
+      "positive_source_units": 16,
+      "recurrence_fwer_p": 0.0009,
+      "train_fwer_p": 0.777622,
+      "train_joint_z": 7.487342,
+      "train_support_modalities": 7
+    },
+    {
+      "ID": "ifn_apc",
+      "V41_CLASS": "known_context",
+      "holdout_support_z": 2.032934,
+      "positive_modalities": 11,
+      "positive_source_units": 21,
+      "recurrence_fwer_p": 0.0001,
+      "train_fwer_p": 0.926907,
+      "train_joint_z": 7.154917,
+      "train_support_modalities": 7
+    },
+    {
+      "ID": "hla_ii_apc__mif_cd74_receptor_state",
+      "V41_CLASS": "[PREDICT]",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 4,
+      "positive_source_units": 4,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 5.992856,
+      "train_support_modalities": 4
+    },
+    {
+      "ID": "mixscale_validated_ifng_readout",
+      "V41_CLASS": "known_context",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 5,
+      "positive_source_units": 12,
+      "recurrence_fwer_p": 0.124388,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 5.641094,
+      "train_support_modalities": 5
+    },
+    {
+      "ID": "lysosomal_apc",
+      "V41_CLASS": "known_context",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 7,
+      "positive_source_units": 13,
+      "recurrence_fwer_p": 0.038296,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 5.266123,
+      "train_support_modalities": 5
+    },
+    {
+      "ID": "ifn_apc__mixscale_validated_ifng_readout",
+      "V41_CLASS": "[PREDICT]",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 3,
+      "positive_source_units": 3,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 4.721935,
+      "train_support_modalities": 3
+    },
+    {
+      "ID": "ifn_apc__lysosomal_apc",
+      "V41_CLASS": "[PREDICT]",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 3,
+      "positive_source_units": 3,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 4.290182,
+      "train_support_modalities": 3
+    },
+    {
+      "ID": "ifn_apc__mif_cd74_receptor_state",
+      "V41_CLASS": "[PREDICT]",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 3,
+      "positive_source_units": 3,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 4.048969,
+      "train_support_modalities": 3
+    },
+    {
+      "ID": "hla_ii_apc__ifn_apc",
+      "V41_CLASS": "[PREDICT]",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 2,
+      "positive_source_units": 2,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 4.006738,
+      "train_support_modalities": 2
+    },
+    {
+      "ID": "hla_ii_apc__mixscale_validated_ifng_readout",
+      "V41_CLASS": "[PREDICT]",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 2,
+      "positive_source_units": 2,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 3.865467,
+      "train_support_modalities": 2
+    },
+    {
+      "ID": "complement_lipid_axis",
+      "V41_CLASS": "[PREDICT]",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 4,
+      "positive_source_units": 5,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 3.626204,
+      "train_support_modalities": 3
+    },
+    {
+      "ID": "lipid_loader_repair",
+      "V41_CLASS": "[PREDICT]",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 3,
+      "positive_source_units": 4,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 3.626204,
+      "train_support_modalities": 3
+    },
+    {
+      "ID": "metabolic_sterol",
+      "V41_CLASS": "known_context",
+      "holdout_support_z": 3.48089,
+      "positive_modalities": 4,
+      "positive_source_units": 13,
+      "recurrence_fwer_p": 0.038296,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 3.597986,
+      "train_support_modalities": 2
+    },
+    {
+      "ID": "mif_cd74_receptor_state__mixscale_validated_ifng_readout",
+      "V41_CLASS": "[PREDICT]",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 2,
+      "positive_source_units": 2,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 3.556604,
+      "train_support_modalities": 2
+    },
+    {
+      "ID": "lysosomal_apc__mixscale_validated_ifng_readout",
+      "V41_CLASS": "[PREDICT]",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 2,
+      "positive_source_units": 2,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 2.758338,
+      "train_support_modalities": 2
+    },
+    {
+      "ID": "tb_readable_compartment",
+      "V41_CLASS": "known_context",
+      "holdout_support_z": 2.483947,
+      "positive_modalities": 3,
+      "positive_source_units": 9,
+      "recurrence_fwer_p": 0.957704,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 2.654759,
+      "train_support_modalities": 1
+    },
+    {
+      "ID": "hla_ii_apc__lysosomal_apc",
+      "V41_CLASS": "[PREDICT]",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 2,
+      "positive_source_units": 2,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 2.624322,
+      "train_support_modalities": 2
+    },
+    {
+      "ID": "lipid_loader_repair__lysosomal_apc",
+      "V41_CLASS": "[PREDICT]",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 2,
+      "positive_source_units": 2,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 2.619667,
+      "train_support_modalities": 2
+    },
+    {
+      "ID": "complement_phagocytosis",
+      "V41_CLASS": "[PREDICT]",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 1,
+      "positive_source_units": 2,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 2.576002,
+      "train_support_modalities": 1
+    },
+    {
+      "ID": "hif_nampt_metabolic",
+      "V41_CLASS": "[PREDICT]",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 1,
+      "positive_source_units": 2,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 2.576002,
+      "train_support_modalities": 1
+    },
+    {
+      "ID": "chr1_kif21b_gpr25",
+      "V41_CLASS": "[PREDICT]",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 2,
+      "positive_source_units": 3,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 1.126331,
+      "train_support_modalities": 1
+    },
+    {
+      "ID": "zfp36l1",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 1,
+      "positive_source_units": 1,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 1.126331,
+      "train_support_modalities": 1
+    },
+    {
+      "ID": "rel_pus10_usp34",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 1,
+      "positive_source_units": 1,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.64955,
+      "train_support_modalities": 1
+    },
+    {
+      "ID": "cell_composition",
+      "V41_CLASS": "known_context",
+      "holdout_support_z": 3.090381,
+      "positive_modalities": 2,
+      "positive_source_units": 8,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "glucocorticoid_steroid",
+      "V41_CLASS": "known_context",
+      "holdout_support_z": 3.090381,
+      "positive_modalities": 2,
+      "positive_source_units": 4,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "broad_simulator",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "complement_phagocytosis__hif_nampt_metabolic",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "complement_phagocytosis__hla_ii_apc",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "complement_phagocytosis__ifn_apc",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "complement_phagocytosis__lipid_loader_repair",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "complement_phagocytosis__lysosomal_apc",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "complement_phagocytosis__mif_cd74_receptor_state",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "complement_phagocytosis__mixscale_validated_ifng_readout",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "ebv_ifn_imprint",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "gilt_lysosomal_apc",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "gilt_lysosomal_apc__hla_ii_apc",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "gilt_lysosomal_apc__ifn_apc",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "gilt_lysosomal_apc__mif_cd74_receptor_state",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "gpr25",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 1,
+      "positive_source_units": 1,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "hif_nampt_metabolic__hla_ii_apc",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "hif_nampt_metabolic__ifn_apc",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "hif_nampt_metabolic__lipid_loader_repair",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "hif_nampt_metabolic__lysosomal_apc",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "hif_nampt_metabolic__mif_cd74_receptor_state",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "hif_nampt_metabolic__mixscale_validated_ifng_readout",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "hla_ii_apc__lipid_loader_repair",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "ifn_apc__lipid_loader_repair",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "kif21b",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 1,
+      "positive_source_units": 1,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "layer_transfer_map",
+      "V41_CLASS": "[PREDICT]",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 3,
+      "positive_source_units": 8,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "lipid_loader_repair__mif_cd74_receptor_state",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "lipid_loader_repair__mixscale_validated_ifng_readout",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "locked_v7_general_cross_disease_baseline_fallback_killed",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "lysosomal_apc__mif_cd74_receptor_state",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "mhc_hla_overlap_is_not_simple_shared_causal_biology",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "mhc_overlap_is_distinct_signal_not_simple_shared_biology",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "no_load_bearing_invariant_found_in_v26",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "no_load_bearing_invariant_was_established",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "postpartum_apc_split",
+      "V41_CLASS": "[PREDICT]",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 2,
+      "positive_source_units": 3,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "protective_resilience_genetics",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "ptger4",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 0,
+      "positive_source_units": 0,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    },
+    {
+      "ID": "zmiz1",
+      "V41_CLASS": "not_validated",
+      "holdout_support_z": 0.0,
+      "positive_modalities": 1,
+      "positive_source_units": 1,
+      "recurrence_fwer_p": 1.0,
+      "train_fwer_p": 1.0,
+      "train_joint_z": 0.0,
+      "train_support_modalities": 0
+    }
+  ]
+}
