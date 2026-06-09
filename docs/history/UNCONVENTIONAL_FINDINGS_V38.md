@@ -178,6 +178,61 @@ What is narrowed:
 - do not use SLE rg without the high-intercept caveat;
 - do not infer locus-level transferability from global rg.
 
+### B4. Inversion Of The Layer-Transfer Map
+
+Status: **completed against V8-V12 matrix artifacts**.
+
+Question:
+
+Could the V10/V12 transfer-validity map be mostly narrative disease similarity
+rather than evidence-grounded, axis-specific transfer logic?
+
+Grounding artifacts:
+
+- Script: `scripts/v38_layer_transfer_inversion.py`
+- Placement matrix: `analysis/v8_map/placement_matrix.tsv`
+- Disagreement matrix: `analysis/v11_matrix/disagreement_matrix.tsv`
+- Axis heterogeneity table:
+  `analysis/v38_layer_transfer_inversion/disease_axis_heterogeneity.tsv`
+- Disagreement-cell specificity table:
+  `analysis/v38_layer_transfer_inversion/disagreement_cell_axis_specificity.tsv`
+- Summary:
+  `analysis/v38_layer_transfer_inversion/layer_transfer_inversion_summary.json`
+
+Results:
+
+| Test | Result | Interpretation |
+|---|---|---|
+| Key comparator diseases with heterogeneous axis placements | `4/4` | UC, Crohn, RA, and Sjogren each change placement across biological layers; disease label alone is insufficient. |
+| V11/V12 disagreement cells | `10` total: `4` intervention-derived, `4` biological, `2` artifact | Artifact accounting is explicit rather than hidden. |
+| Non-artifact cells with axis-specific evidence | `8/8` | Every retained transfer/disagreement cell has placement difference plus compartment, causality, or axis-independence evidence. |
+| Artifact cells | `2/10` | The map already downgraded overlapping or scope-confounded axes. |
+
+Disease-level heterogeneity:
+
+- Sjogren: `near` on IFN/APC, `far` on lipid-lysosomal.
+- RA: `near` on pregnancy/hormonal axis, `far` on blood APC/treatment/repair
+  axes.
+- Crohn: `near` on IFN/APC and treatment/repair, `intermediate` on genetics.
+- UC: `near` on IFN/APC/genetics/repair but `contradictory` on treatment
+  response because baseline and dynamic treatment-response behave differently.
+
+Verdict:
+
+The narrative-disease-similarity inversion is **not supported**. The transfer
+map is genuinely axis-specific in the committed matrix: the same disease can
+transfer on one biological layer and fail on another, and artifact cells were
+explicitly marked rather than promoted.
+
+What remains limited:
+
+- The map is a transfer-validity **warning framework**, not an intervention
+  claim.
+- Some V12 genetics cells were originally supported by triangulation rather
+  than new in-process OpenGWAS/LDSC/coloc. V21 hardened the global rg backdrop
+  but did not turn every V12 genetics transfer cell into robust locus-level
+  colocalization.
+
 ## Workstream A: Structure Of Failure
 
 ### A1. Failure-Mode Meta-Analysis Across V37 Negative/Closed Items
@@ -511,6 +566,9 @@ Strengthened:
   the recorded LDSC frame.
 - Direction/modality constraints are now quantified as a recurring target-lead
   failure mode: `5/6` target-like closed/negative items carried them.
+- The layer-transfer map withstands narrative-similarity inversion: `4/4` key
+  diseases are heterogeneous across axes and `8/8` non-artifact disagreement
+  cells are axis-specific.
 
 Weakened / narrowed:
 
@@ -524,6 +582,8 @@ Weakened / narrowed:
 - Any phrase implying V21 provided an independent MHC-containing-reference
   sensitivity is too strong; the verified panel was already effectively
   MHC-free for chr6:25-34 Mb.
+- Any phrase turning the transfer map into direct intervention transfer is too
+  strong; V38 supports it as an axis-specific warning/triage framework.
 
 Demoted:
 
@@ -532,6 +592,4 @@ Demoted:
 
 ## Pending Workstreams
 
-- B. Additional adversarial inversions: coupled APC architecture, MS-UC genetic
-  backdrop, and layer-transfer map.
 - D. Additional cross-domain reframings if they yield concrete grounded tests.

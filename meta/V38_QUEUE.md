@@ -26,6 +26,7 @@
 | 6 | B | Adversarial inversion of coupled APC architecture | done | Global immune tone is strong, but row-centering does not erase core APC edges; coupling is tone-loaded mechanistic context, not a predictive successor. |
 | 7 | B | Adversarial inversion of MS-UC genetic backdrop | done | V21 MS-UC rg survives recorded MHC/sample-overlap inversion, with caveat that the reference panel was already effectively MHC-free. |
 | 8 | A/D | Failure-structure follow-up: hard-protective-direction constraint | done | Direction/modality constraints affect 8/20 closed/negative items and 5/6 target-like items; mandatory early prefilter for future target leads. |
+| 9 | B/C | Adversarial inversion of layer-transfer map | done | Matrix-grounded: 4/4 key diseases have heterogeneous axis placements and 8/8 non-artifact cells are axis-specific. |
 
 ## Iteration Log
 
@@ -165,3 +166,20 @@
   genetics/nomination items. Hard restoration/up-function/agonism was `2/20`,
   so it is not a universal law, but the target-like recurrence is strong enough
   to make direction-matched modality a mandatory early prefilter. Report updated.
+
+### Iteration 9
+
+- Start UTC: 2026-06-09T04:49:52Z
+- End UTC: 2026-06-09T04:51:26Z
+- Status: completed
+- Item selected: Workstream B/C, adversarial inversion of the layer-transfer
+  map.
+- Planned grounding: use V8-V12 placement/disagreement matrices and transfer
+  reports to test whether transfer-validity claims are axis-specific and
+  evidence-backed, or merely narrative disease-proximity assertions.
+- Result: `scripts/v38_layer_transfer_inversion.py` parsed V8/V11 matrices. All
+  four key comparator diseases are heterogeneous across axes, and all eight
+  non-artifact disagreement cells had axis-specific placement plus
+  compartment/causality/independence evidence. The narrative-similarity
+  inversion is not supported; the map remains a warning/triage framework, not
+  an intervention claim. Report updated.

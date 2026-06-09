@@ -1,0 +1,5 @@
+disease	n_supported_or_robust_axes	n_resolved_supported_axes	distinct_resolved_placements	min_placement_score	max_placement_score	placement_range	has_axis_heterogeneity	compartments	causality_types
+Sjogren syndrome	2	2	far;near	0.0	2.0	2.0	True	salivary gland APC; salivary gland epithelial;salivary gland epithelial	cross_sectional
+rheumatoid arthritis	4	4	far;near	0.0	2.0	2.0	True	blood;blood myeloid/APC;blood/synovium	cross_sectional;natural_experiment;treatment_perturbation
+Crohn disease	4	4	intermediate;near	1.0	2.0	1.0	True	colon myeloid;germline;intestinal mucosa	cross_sectional;genetic_correlation;treatment_perturbation
+ulcerative colitis	4	4	contradictory;near	1.5	2.0	0.5	True	colon myeloid;germline;intestinal mucosa	cross_sectional;genetic_correlation;treatment_perturbation

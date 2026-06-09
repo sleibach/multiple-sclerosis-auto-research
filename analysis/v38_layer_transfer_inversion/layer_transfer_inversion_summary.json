@@ -1,0 +1,67 @@
+{
+  "placement_source": "analysis/v8_map/placement_matrix.tsv",
+  "disagreement_source": "analysis/v11_matrix/disagreement_matrix.tsv",
+  "n_key_diseases": 4,
+  "n_key_diseases_with_axis_heterogeneity": 4,
+  "disease_heterogeneity": [
+    {
+      "disease": "Sjogren syndrome",
+      "n_supported_or_robust_axes": 2,
+      "n_resolved_supported_axes": 2,
+      "distinct_resolved_placements": "far;near",
+      "min_placement_score": 0.0,
+      "max_placement_score": 2.0,
+      "placement_range": 2.0,
+      "has_axis_heterogeneity": true,
+      "compartments": "salivary gland APC; salivary gland epithelial;salivary gland epithelial",
+      "causality_types": "cross_sectional"
+    },
+    {
+      "disease": "rheumatoid arthritis",
+      "n_supported_or_robust_axes": 4,
+      "n_resolved_supported_axes": 4,
+      "distinct_resolved_placements": "far;near",
+      "min_placement_score": 0.0,
+      "max_placement_score": 2.0,
+      "placement_range": 2.0,
+      "has_axis_heterogeneity": true,
+      "compartments": "blood;blood myeloid/APC;blood/synovium",
+      "causality_types": "cross_sectional;natural_experiment;treatment_perturbation"
+    },
+    {
+      "disease": "Crohn disease",
+      "n_supported_or_robust_axes": 4,
+      "n_resolved_supported_axes": 4,
+      "distinct_resolved_placements": "intermediate;near",
+      "min_placement_score": 1.0,
+      "max_placement_score": 2.0,
+      "placement_range": 1.0,
+      "has_axis_heterogeneity": true,
+      "compartments": "colon myeloid;germline;intestinal mucosa",
+      "causality_types": "cross_sectional;genetic_correlation;treatment_perturbation"
+    },
+    {
+      "disease": "ulcerative colitis",
+      "n_supported_or_robust_axes": 4,
+      "n_resolved_supported_axes": 4,
+      "distinct_resolved_placements": "contradictory;near",
+      "min_placement_score": 1.5,
+      "max_placement_score": 2.0,
+      "placement_range": 0.5,
+      "has_axis_heterogeneity": true,
+      "compartments": "colon myeloid;germline;intestinal mucosa",
+      "causality_types": "cross_sectional;genetic_correlation;treatment_perturbation"
+    }
+  ],
+  "n_disagreement_cells": 10,
+  "status_counts": {
+    "intervention_derived": 4,
+    "biological": 4,
+    "artifact": 2
+  },
+  "n_artifact_cells": 2,
+  "n_non_artifact_cells": 8,
+  "n_non_artifact_axis_specific_cells": 8,
+  "fraction_non_artifact_axis_specific": 1.0,
+  "inversion_verdict": "Narrative-disease-similarity inversion is not supported. The key comparator diseases show heterogeneous placements across axes, and the non-artifact disagreement cells are axis/compartment/causality specific. The map remains a transfer-warning framework, not an intervention claim."
+}
