@@ -230,6 +230,20 @@ def make_pattern_tests(df: pd.DataFrame) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+def make_pattern_tests_by_frame(df: pd.DataFrame) -> pd.DataFrame:
+    frames = {
+        "all_failures": df,
+        "non_provisional_only": df[~df["evidence_grade"].eq("provisional")].copy(),
+        "negative_established_only": df[df["evidence_grade"].eq("negative-established")].copy(),
+    }
+    rows = []
+    for frame, sub in frames.items():
+        tested = make_pattern_tests(sub)
+        tested.insert(0, "sensitivity_frame", frame)
+        rows.append(tested)
+    return pd.concat(rows, ignore_index=True)
+
+
 def classify_exclusions(ledger: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
     ledger = ledger.copy()
     nonrep_patterns = [
@@ -285,6 +299,16 @@ def write_report(
 ) -> None:
     REPORT.parent.mkdir(parents=True, exist_ok=True)
     target_rows = failures[failures["target_nomination_like"]].copy()
+    sensitivity = pd.read_csv(OUT / "v39_pattern_null_tests_by_frame.tsv", sep="\t")
+    sensitivity_compact = sensitivity[
+        sensitivity["pattern"].isin(
+            [
+                "direction_or_modality_constraints_enriched_in_target_nomination_like_leads",
+                "context_axis_dependence_enriched_in_cross_axis_transfer_rows",
+                "generic_immune_tone_specific_constraints_enriched_in_exploratory_modules",
+            ]
+        )
+    ].copy()
     if anomaly is None:
         workstream3 = """## Workstream 3: Cross-Domain Reframing
 
@@ -397,6 +421,18 @@ not universal laws.
 
 {markdown_table(pattern_tests, ["pattern", "frame_n", "pattern_count", "subset", "subset_n", "observed_in_subset", "expected_under_random_assignment", "exact_hypergeom_tail_p", "verdict"])}
 
+### Sensitivity To Provisional Rows
+
+{markdown_table(sensitivity_compact, ["sensitivity_frame", "pattern", "frame_n", "pattern_count", "subset_n", "observed_in_subset", "expected_under_random_assignment", "exact_hypergeom_tail_p", "verdict"])}
+
+Interpretation: context/axis dependence remains supported after removing
+provisional rows, but cannot be tested in the negative-established-only frame
+because the cross-axis transfer rows are supported decouplings rather than
+negative-established closures. Direction/modality remains only suggestive or
+weaker after sensitivity filtering, so it is a practical prefilter rather than a
+formal failure law. Generic immune-tone enrichment is unstable after filtering
+because the frame becomes very small.
+
 ### Target-Nomination-Like Failures
 
 {markdown_table(target_rows, ["item", "evidence_grade", "mechanism_level", "therapeutic_constraint", "failure_modes"])}
@@ -458,6 +494,7 @@ def main() -> None:
     failures["mechanism_level_exploratory_module"] = failures["mechanism_level"].eq("exploratory_module")
 
     pattern_tests = make_pattern_tests(failures)
+    pattern_tests_by_frame = make_pattern_tests_by_frame(failures)
     family_counts = (
         failures[
             [
@@ -481,6 +518,7 @@ def main() -> None:
     failures.to_csv(OUT / "v39_failure_catalogue.tsv", sep="\t", index=False)
     family_counts.to_csv(OUT / "v39_pattern_family_counts.tsv", sep="\t", index=False)
     pattern_tests.to_csv(OUT / "v39_pattern_null_tests.tsv", sep="\t", index=False)
+    pattern_tests_by_frame.to_csv(OUT / "v39_pattern_null_tests_by_frame.tsv", sep="\t", index=False)
     exclusions.to_csv(OUT / "v39_exclusion_list.tsv", sep="\t", index=False)
     nonrep.to_csv(OUT / "v39_nonreplication_list.tsv", sep="\t", index=False)
 

@@ -71,6 +71,28 @@ not universal laws.
 | generic_immune_tone_specific_constraints_enriched_in_exploratory_modules | 20 | 2 | mechanism_level_exploratory_module | 4 | 2 | 0.4 | 0.031579 | supported_enrichment |
 | evidence_resolution_gaps_enriched_in_genetics_or_target_like_leads | 20 | 6 | genetics_or_target_like | 8 | 3 | 2.4 | 0.455108 | not_supported_as_statistical_regularity |
 
+### Sensitivity To Provisional Rows
+
+| sensitivity_frame | pattern | frame_n | pattern_count | subset_n | observed_in_subset | expected_under_random_assignment | exact_hypergeom_tail_p | verdict |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| all_failures | direction_or_modality_constraints_enriched_in_target_nomination_like_leads | 20 | 7 | 6 | 4 | 2.1 | 0.077657 | suggestive_not_established |
+| all_failures | context_axis_dependence_enriched_in_cross_axis_transfer_rows | 20 | 7 | 4 | 4 | 1.4 | 0.007224 | supported_enrichment |
+| all_failures | generic_immune_tone_specific_constraints_enriched_in_exploratory_modules | 20 | 2 | 4 | 2 | 0.4 | 0.031579 | supported_enrichment |
+| non_provisional_only | direction_or_modality_constraints_enriched_in_target_nomination_like_leads | 17 | 5 | 5 | 3 | 1.471 | 0.116516 | suggestive_not_established |
+| non_provisional_only | context_axis_dependence_enriched_in_cross_axis_transfer_rows | 17 | 7 | 4 | 4 | 1.647 | 0.014706 | supported_enrichment |
+| non_provisional_only | generic_immune_tone_specific_constraints_enriched_in_exploratory_modules | 17 | 1 | 2 | 1 | 0.118 | 0.117647 | suggestive_not_established |
+| negative_established_only | direction_or_modality_constraints_enriched_in_target_nomination_like_leads | 11 | 3 | 4 | 2 | 1.091 | 0.278788 | not_supported_as_statistical_regularity |
+| negative_established_only | context_axis_dependence_enriched_in_cross_axis_transfer_rows | 11 | 2 | 0 | 0 | 0.0 | 1.0 | not_supported_as_statistical_regularity |
+| negative_established_only | generic_immune_tone_specific_constraints_enriched_in_exploratory_modules | 11 | 1 | 2 | 1 | 0.182 | 0.181818 | not_supported_as_statistical_regularity |
+
+Interpretation: context/axis dependence remains supported after removing
+provisional rows, but cannot be tested in the negative-established-only frame
+because the cross-axis transfer rows are supported decouplings rather than
+negative-established closures. Direction/modality remains only suggestive or
+weaker after sensitivity filtering, so it is a practical prefilter rather than a
+formal failure law. Generic immune-tone enrichment is unstable after filtering
+because the frame becomes very small.
+
 ### Target-Nomination-Like Failures
 
 | item | evidence_grade | mechanism_level | therapeutic_constraint | failure_modes |

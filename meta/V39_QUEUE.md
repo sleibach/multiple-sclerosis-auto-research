@@ -9,6 +9,7 @@ Target UTC (+240 min): 2026-06-09T12:46:17Z
 |---|---:|---:|---|---|
 | 1 | 2026-06-09T08:46:17Z | 2026-06-09T08:52:05Z | done | Initialized V39; OpenGWAS HTTP 200 using repo interpreter; Gemini smoke passed; Claude timed out; RPT schema not implemented in current Python client. Workstreams 1-2 completed to a value-complete report. |
 | 2 | 2026-06-09T08:52:43Z | 2026-06-09T08:56:44Z | done | Workstream 3 completed with exact-permutation anomaly/control-system probe over V32 bounded immune-tone spaces. |
+| 3 | 2026-06-09T08:57:43Z | 2026-06-09T08:58:12Z | done | Added sensitivity frames excluding provisional rows and negative-established-only rows; context/axis dependence survives non-provisional filtering, direction/modality remains suggestive only. |
 
 ## Backlog
 
@@ -22,3 +23,4 @@ Target UTC (+240 min): 2026-06-09T12:46:17Z
 | 6 | Workstream 2: rigorous exclusion list | done | 16 exclusions in `analysis/v39_failure_structure_exclusion/v39_exclusion_list.tsv`. |
 | 7 | Workstream 2: non-replication list | done | 9 non-replication-like items in `analysis/v39_failure_structure_exclusion/v39_nonreplication_list.tsv`. |
 | 8 | Workstream 3: one cross-domain reframing if Workstreams 1-2 complete | done | Responders compact in treated/delta broad-tone spaces after eight-space correction; group separation not sufficient for classifier. |
+| 9 | Sensitivity: repeat pattern nulls without provisional rows | done | `analysis/v39_failure_structure_exclusion/v39_pattern_null_tests_by_frame.tsv`. |
