@@ -21,7 +21,7 @@
 | 1 | B | Adversarial inversion of bounded V22/V23 monitoring signal | in-progress | Construct strongest artifact/inversion cases and ground on held V22/V23/V28/V32 data. |
 | 2 | A | Failure-structure meta-analysis across killed/closed leads | done | V37 closed/negative frame analyzed: dominant families are evidence-resolution failure (7/20), context/axis dependence (5/20), direction/modality constraint (5/20), and specificity/control failure (4/20). |
 | 3 | E | RPT-led structured mining over V37 score table and lead matrices | done | RPT matched 5/6 masked V37 action classes; only contradiction was bounded scalar predicted as data-gated follow-up, sharpening operational-priority wording without evidence demotion. |
-| 4 | C | Unpublishable-but-true exclusion/non-replication list | todo | Extract rigorous exclusions and non-replications from committed artifacts. |
+| 4 | C | Unpublishable-but-true exclusion/non-replication list | done | Ledger written with 16 exclusions/non-replications: 13 negative-established, 2 supported exclusions, 1 data-gated not-established. |
 | 5 | D | Cross-scale/control-systems reframing | todo | Test whether held module data support set-point/feedback interpretations beyond scalar scores. |
 
 ## Iteration Log
@@ -78,3 +78,17 @@
   `5/6` rows. The single contradiction was the bounded scalar, predicted as
   `data_gated_followup` rather than `external_validation_priority`, reinforcing
   that its priority is operational/clinical and not evidence-grade inflation.
+
+### Iteration 4
+
+- Start UTC: 2026-06-09T04:28:25Z
+- End UTC: 2026-06-09T04:29:59Z
+- Status: completed
+- Item selected: Workstream C, unpublishable-but-true exclusion and
+  non-replication ledger.
+- Planned grounding: extract negative-established and supported exclusion
+  statements from V37/V38 tables and source artifacts; distinguish rigorous
+  exclusions from merely data-gated unknowns.
+- Result: `scripts/v38_exclusion_ledger.py` wrote 16 decision-useful
+  exclusions/non-replications. Counts: 13 negative-established, 2 supported
+  exclusions, 1 data-gated not-established. V38 report updated.

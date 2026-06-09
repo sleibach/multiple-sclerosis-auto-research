@@ -189,6 +189,73 @@ It does sharpen the wording:
 
 No V37 score changes are made.
 
+## Workstream C: Unpublishable-But-True Exclusions
+
+### C1. Conservative Exclusion / Non-Replication Ledger
+
+Status: **completed first ledger**.
+
+Question:
+
+What has the project established is **not** supported as a target, biomarker,
+transfer rule, or modeling capability under current data?
+
+Grounding artifacts:
+
+- Script: `scripts/v38_exclusion_ledger.py`
+- Ledger:
+  `analysis/v38_exclusion_ledger/exclusion_nonreplication_ledger.tsv`
+- Counts:
+  `analysis/v38_exclusion_ledger/exclusion_counts.tsv`
+- Summary:
+  `analysis/v38_exclusion_ledger/exclusion_summary.json`
+
+Result:
+
+- Exclusions/non-replications recorded: `16`.
+- Strength counts:
+  - `negative_established`: `13`;
+  - `supported_exclusion`: `2`;
+  - `data_gated_not_established`: `1`.
+
+Decision-useful exclusions:
+
+1. Baseline IFN/APC is not a valid general fallback stratifier.
+2. The V22 scalar is not a broad cross-therapy response rule.
+3. The V22 scalar is not a calibrated clinical threshold.
+4. Glucocorticoid/steroid signature does not explain the bounded scalar.
+5. Simple marker-level cell composition does not explain the bounded scalar.
+6. Receptor-only CD74/CD44/CXCR4 does not dominate the scalar.
+7. Coupled/dynamic/flexible ML variants do not improve over the scalar.
+8. A broad immune-state simulator is not validated from current data.
+9. No load-bearing invariant was established.
+10. PTGER4 is not a clean MS-UC transfer target.
+11. MHC/HLA overlap is not simple shared causal biology.
+12. EBV/IFN APC imprint is not EBV-specific in current data.
+13. Complement/lipid progressive axis is not supported as a combined axis.
+14. NAMPT/eNAMPT is not reactivated as an MS target.
+15. REL/PUS10/USP34 chr2 is not a current shared-locus lead.
+16. ZFP36L1 chr14 is not robust enough for lead status.
+
+Verdict:
+
+This is the most "unpublishable but true" V38 product so far. The project has
+created a reliable stop-spending ledger. Most entries do not mean the biology is
+irrelevant to MS; they mean a specific translational interpretation is not
+supported:
+
+- not a target;
+- not a general rule;
+- not a clinical threshold;
+- not a clean transfer locus;
+- not EBV-specific;
+- not validated as a simulator;
+- not robustly colocalized.
+
+This ledger should be used before any future wet-lab or data-acquisition spend.
+If a proposed experiment reopens one of these exclusions, it must name the exact
+new evidence that would override the current ledger.
+
 ## V37-to-V38 Delta So Far
 
 Strengthened:
@@ -203,6 +270,9 @@ Strengthened:
 - RPT independently treats the bounded scalar as data-gated rather than
   intrinsically exceptional, reinforcing that its priority is operational and
   clinical, not a reason to inflate evidence grade.
+- The exclusion ledger strengthens the negative side of V37: the project now
+  has an explicit "do not pursue without new evidence" list rather than a set of
+  scattered closed-lead notes.
 
 Weakened / narrowed:
 
