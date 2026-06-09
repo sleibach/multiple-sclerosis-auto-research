@@ -29,6 +29,7 @@
 | 9 | B/C | Adversarial inversion of layer-transfer map | done | Matrix-grounded: 4/4 key diseases have heterogeneous axis placements and 8/8 non-artifact cells are axis-specific. |
 | 10 | A/C | V36 exploratory fragility map | done | V36 promotion failures cluster around multiplicity, confounder/composition, therapy specificity, small-n power, and missing decisive modalities/metadata. |
 | 11 | B/D/E | Multi-lineage proposal pass plus tone-residual scalar grounding | done | Claude/Gemini proposed next tests; grounded tone-residual scalar test shows broad tone alone does not reproduce the scalar response signal. |
+| 12 | A/C | Failure-vs-fragility concordance audit | done | Gate-level comparison shows maps are complementary: V38 captures direction/modality and marker-not-driver; V36 captures overfit/power/technical fragility. |
 
 ## Iteration Log
 
@@ -220,3 +221,19 @@
   the tone-residual scalar had AUC `0.844` (p `0.0101`) versus raw scalar
   AUC `0.811` (p `0.0220`). This weakens the "scalar is merely broad immune
   tone" inversion but does not create a new locked rule. Report updated.
+
+### Iteration 12
+
+- Start UTC: 2026-06-09T05:00:25Z
+- End UTC: 2026-06-09T05:01:45Z
+- Status: completed
+- Item selected: Workstream A/C, failure-vs-fragility concordance audit.
+- Planned grounding: map V38 failure-family counts and V36 fragility-family
+  counts onto a shared gate taxonomy, then test whether they are redundant or
+  complementary views of the same project constraint structure.
+- Result: `scripts/v38_failure_fragility_concordance.py` compared shared gate
+  distributions rather than forcing a false item-level join. Jensen-Shannon
+  divergence was `0.186` bits. The maps are complementary: V38 captures
+  direction/modality and marker-not-driver target failures, while V36 captures
+  multiplicity/overfit, power, technical, and exploratory-data fragility. Report
+  updated.

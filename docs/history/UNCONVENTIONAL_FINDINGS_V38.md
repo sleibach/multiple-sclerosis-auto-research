@@ -454,6 +454,54 @@ This supports V38's broader failure-structure result: MS hypotheses tend to
 become useful only when they are pre-bounded by mechanism, compartment,
 direction, and data modality.
 
+### A4. Failure-Map vs Fragility-Map Concordance
+
+Status: **completed from model-lens proposal, grounded as gate-level comparison**.
+
+Question:
+
+Are the V38 failure-structure map and the V36 fragility map redundant, or do
+they capture different project constraints?
+
+Grounding artifacts:
+
+- Script: `scripts/v38_failure_fragility_concordance.py`
+- V38 failure families:
+  `analysis/v38_failure_structure/failure_family_counts.tsv`
+- V36 fragility families:
+  `analysis/v38_v36_fragility_map/v36_fragility_family_counts.tsv`
+- Gate comparison:
+  `analysis/v38_failure_fragility_concordance/failure_fragility_gate_comparison.tsv`
+- Summary:
+  `analysis/v38_failure_fragility_concordance/failure_fragility_concordance_summary.json`
+
+Important limitation:
+
+The row units differ: V38 rows are failed/closed findings, while V36 rows are
+analysis artifacts. V38 therefore uses a shared gate taxonomy, not a forced
+item-level join.
+
+Results:
+
+| Gate | V38 failure fraction | V36 fragility fraction | Interpretation |
+|---|---:|---:|---|
+| Evidence resolution / data gap | `0.28` | `0.462` | Shared dominant constraint, stronger in V36 exploratory work. |
+| Context / axis / therapy branch | `0.20` | `0.154` | Shared constraint. |
+| Direction / modality | `0.20` | `0.000` | V38 target/lead failures capture this; V36 exploratory artifacts do not. |
+| Specificity / control | `0.16` | `0.154` | Closely aligned. |
+| Complexity / overfit | `0.08` | `0.231` | V36 captures this more strongly because it stress-tested many post-hoc features. |
+| Marker not driver | `0.08` | `0.000` | V38 target-nomination failures capture this. |
+
+Jensen-Shannon divergence between the gate distributions: `0.186` bits.
+
+Verdict:
+
+The maps are **complementary, not redundant**. V38 failure structure is better
+for target/lead triage, especially direction/modality and marker-not-driver
+problems. V36 fragility structure is better for analysis-design triage,
+especially multiplicity, power, and technical/confounder fragility. Future work
+needs both gates.
+
 ## Workstream E: RPT-Led Structural Mining
 
 ### E1. RPT Mining Over V37 Score Table And V38 Failure Annotations
@@ -680,6 +728,9 @@ Strengthened:
   missing-modality gates, not because the ideas were intrinsically incoherent.
 - The tone-stripped scalar test weakens the broad-tone-artifact inversion: broad
   tone alone has AUC `0.589`, while the tone-residual scalar has AUC `0.844`.
+- Failure-map and fragility-map concordance shows the two are complementary:
+  V38 captures direction/modality target failures, while V36 captures
+  multiplicity/power/technical fragility.
 
 Weakened / narrowed:
 

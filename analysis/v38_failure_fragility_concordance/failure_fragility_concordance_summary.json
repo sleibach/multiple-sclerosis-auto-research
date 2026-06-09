@@ -1,0 +1,57 @@
+{
+  "v38_failure_source": "analysis/v38_failure_structure/failure_family_counts.tsv",
+  "v36_fragility_source": "analysis/v38_v36_fragility_map/v36_fragility_family_counts.tsv",
+  "row_units_warning": "V38 rows are failed/closed findings; V36 rows are analysis artifacts. The comparison is gate-level, not item-level.",
+  "jensen_shannon_divergence_bits": 0.18594294143066772,
+  "gate_comparison": [
+    {
+      "gate": "evidence_resolution_or_data_gap",
+      "v38_n": 7,
+      "v38_fraction": 0.28,
+      "v36_n": 6,
+      "v36_fraction": 0.46153846153846156,
+      "fraction_delta_v36_minus_v38": 0.18153846153846154
+    },
+    {
+      "gate": "context_axis_or_branch",
+      "v38_n": 5,
+      "v38_fraction": 0.2,
+      "v36_n": 2,
+      "v36_fraction": 0.15384615384615385,
+      "fraction_delta_v36_minus_v38": -0.046153846153846156
+    },
+    {
+      "gate": "direction_modality",
+      "v38_n": 5,
+      "v38_fraction": 0.2,
+      "v36_n": 0,
+      "v36_fraction": 0.0,
+      "fraction_delta_v36_minus_v38": -0.2
+    },
+    {
+      "gate": "specificity_control",
+      "v38_n": 4,
+      "v38_fraction": 0.16,
+      "v36_n": 2,
+      "v36_fraction": 0.15384615384615385,
+      "fraction_delta_v36_minus_v38": -0.006153846153846149
+    },
+    {
+      "gate": "complexity_overfit",
+      "v38_n": 2,
+      "v38_fraction": 0.08,
+      "v36_n": 3,
+      "v36_fraction": 0.23076923076923078,
+      "fraction_delta_v36_minus_v38": 0.15076923076923077
+    },
+    {
+      "gate": "marker_not_driver",
+      "v38_n": 2,
+      "v38_fraction": 0.08,
+      "v36_n": 0,
+      "v36_fraction": 0.0,
+      "fraction_delta_v36_minus_v38": -0.08
+    }
+  ],
+  "interpretation": "The two maps are complementary, not redundant. Both emphasize evidence/data gaps and context/branch constraints, but V38 uniquely captures direction/modality and marker-not-driver target failures, while V36 uniquely emphasizes multiplicity/overfit, sample-size, and technical/confounder fragility in exploratory analyses."
+}
