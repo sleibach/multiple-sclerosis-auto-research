@@ -1,0 +1,141 @@
+```json
+{
+  "dimensions": [
+    {
+      "name": "Cell-cell communication rewiring across treatment response",
+      "data_required": "Single-cell h5ad atlases with treatment metadata; ligand-receptor DBs (CellChat/CellPhoneDB priors)",
+      "data_held": "Likely (h5ad atlases, prior caches)",
+      "fast_probe": "Run CellChat/LIANA on responder vs non-responder scRNA subsets; rank LR pairs by differential interaction strength; cross-reference with HLA-II/APC scalar",
+      "orthogonality": "Existing work is gene/locus or scalar centric; intercellular signaling graph dimension is unexplored",
+      "false_positive_risk": "Compositional artifacts from cell-type abundance shifts mimicking signaling changes",
+      "priority": 4
+    },
+    {
+      "name": "Trajectory/pseudotime divergence between responder phenotypes",
+      "data_required": "scRNA atlases with longitudinal or treatment arms",
+      "data_held": "Likely",
+      "fast_probe": "Compute diffusion pseudotime per lineage; test branching probability differences (e.g., scFates, Palantir) between response groups; quantify APC lineage fate bias",
+      "orthogonality": "Latent APC structure was static/coupled; dynamics along differentiation axis not yet probed",
+      "false_positive_risk": "Pseudotime instability under batch/sampling differences",
+      "priority": 3
+    },
+    {
+      "name": "TCR/BCR repertoire structure and convergence",
+      "data_required": "Paired V(D)J or bulk repertoire data within held cohorts",
+      "data_held": "Uncertain — check single-cell atlases for VDJ tags",
+      "fast_probe": "If VDJ present: clonality, diversity (Shannon, D50), public clonotype enrichment, CDR3 motif clustering (GLIPH2/TCRdist) by response",
+      "orthogonality": "Adaptive receptor space orthogonal to expression-based scalars",
+      "false_positive_risk": "Sequencing depth/sampling drives diversity metrics",
+      "priority": 3
+    },
+    {
+      "name": "Splicing/isoform and intron retention QTL signatures",
+      "data_required": "Bulk RNA BAMs or junction counts; sQTL summary stats",
+      "data_held": "Partially (bulk cohorts, eQTL caches; sQTL uncertain)",
+      "fast_probe": "LeafCutter/MAJIQ on bulk treatment cohorts at MS risk loci; colocalize sQTL with GWAS where eQTL coloc was null",
+      "orthogonality": "Prior coloc was eQTL-only; splicing layer can rescue 'missing' coloc signals",
+      "false_positive_risk": "Low-coverage junctions and read-length bias",
+      "priority": 4
+    },
+    {
+      "name": "Mitochondrial heteroplasmy and mtDNA copy number",
+      "data_required": "scRNA/scATAC BAMs or pileups; bulk WGS/RNA",
+      "data_held": "Partially (raw scRNA may permit mgatk-style calling)",
+      "fast_probe": "mgatk/MQuad on scRNA; correlate heteroplasmy or mtDNA-CN with APC state and response",
+      "orthogonality": "Energetic/clonal-tracing axis untouched",
+      "false_positive_risk": "Allelic dropout and ambient RNA inflate variant calls",
+      "priority": 2
+    },
+    {
+      "name": "Chromatin accessibility / TF motif activity reconciliation",
+      "data_required": "scATAC or bulk ATAC; MS-relevant peaks",
+      "data_held": "Uncertain — check atlases for multiome",
+      "fast_probe": "chromVAR motif deviations per cell state; map to APC/HLA-II module; test motif activity ~ response",
+      "orthogonality": "Adds regulatory layer beneath expression scalar",
+      "false_positive_risk": "Peak set bias and donor batch confound TF deviation z-scores",
+      "priority": 3
+    },
+    {
+      "name": "Microbiome-metabolite-host axis triangulation",
+      "data_required": "Microbiome 16S/shotgun, metabolomics, paired host expression",
+      "data_held": "Yes (microbiome/metabolomics files held)",
+      "fast_probe": "MMVec/HALLA between taxa and metabolites; sparse CCA to host APC module scores; permutation null",
+      "orthogonality": "Cross-omic mediator axis not previously integrated with APC scalar",
+      "false_positive_risk": "Compositionality and batch confounding produce spurious cross-correlations",
+      "priority": 3
+    },
+    {
+      "name": "Polygenic score stratification of treatment response",
+      "data_required": "MS GWAS sumstats + cohort genotypes",
+      "data_held": "Sumstats held; cohort genotypes uncertain",
+      "fast_probe": "If genotypes available: PRS (PRS-CS) for MS, autoimmune comorbid traits; test PRS×treatment interaction on APC scalar",
+      "orthogonality": "Prior genetics work was locus-level coloc, not polygenic interaction",
+      "false_positive_risk": "Cohort size underpowers interaction tests; ancestry stratification",
+      "priority": 3
+    },
+    {
+      "name": "Drug-target network and polypharmacology mapping",
+      "data_required": "AlphaFold structures + chemical/prior-art caches; ChEMBL/DrugBank priors",
+      "data_held": "Yes",
+      "fast_probe": "Map APC/HLA-II module genes to druggable proteome; pocket similarity (FoldSeek/ProBiS) on AF structures vs known DMT targets; rank repurposing candidates",
+      "orthogonality": "Translational layer unconnected to current scalar",
+      "false_positive_risk": "Pocket similarity without binding affinity is weak; selection bias in chemical caches",
+      "priority": 3
+    },
+    {
+      "name": "EBV-host interaction signature in single cells",
+      "data_required": "EBV datasets + scRNA with B-cell coverage",
+      "data_held": "Yes (EBV held)",
+      "fast_probe": "Score EBV latency/lytic gene programs in B-cell subsets; test association with APC scalar and HLA-II expression per donor",
+      "orthogonality": "EBV held data underused; bridges viral exposure axis to APC monitoring scalar",
+      "false_positive_risk": "Sparse viral reads in scRNA; cross-reactive probes",
+      "priority": 4
+    },
+    {
+      "name": "Sex/pregnancy hormonal modulation axis",
+      "data_required": "Pregnancy datasets, sex-stratified expression",
+      "data_held": "Yes",
+      "fast_probe": "Differential APC/HLA-II module activity across pregnancy trimesters and sex; compare directionality with treatment-response shifts",
+      "orthogonality": "Endocrine modifier of APC scalar not assessed",
+      "false_positive_risk": "Confounded by gestational age and sample composition",
+      "priority": 3
+    },
+    {
+      "name": "Perturbation-response concordance with clinical scalar",
+      "data_required": "CRISPR/Mixscale held perturbation data",
+      "data_held": "Yes",
+      "fast_probe": "For each KD/KO, project perturbed transcriptome onto APC/HLA-II scalar axis; rank genes whose perturbation moves the scalar in the responder direction",
+      "orthogonality": "Causal-direction prior for scalar; bridges to mechanism",
+      "false_positive_risk": "In vitro perturbation context differs from in vivo PBMC; off-target effects",
+      "priority": 5
+    },
+    {
+      "name": "Negative-control / exclusion-region scalar specificity",
+      "data_required": "Existing scalar + non-MS autoimmune scRNA atlases",
+      "data_held": "Likely (atlases)",
+      "fast_probe": "Apply scalar to lupus/RA/IBD treatment cohorts; quantify discrimination AUC vs MS to test disease specificity",
+      "orthogonality": "Specificity testing across diseases not yet done",
+      "false_positive_risk": "Platform/batch differences masquerade as specificity",
+      "priority": 4
+    },
+    {
+      "name": "Cross-modality prior-art NLP mining for failure-axis hypotheses",
+      "data_required": "Prior-art/literature caches",
+      "data_held": "Yes",
+      "fast_probe": "Embed abstracts; cluster around APC/HLA-II + DMF/Gafson context; surface under-cited mediators for in silico follow-up",
+      "orthogonality": "Knowledge-graph axis distinct from data-driven probes",
+      "false_positive_risk": "LLM-style hallucinated associations; citation bias",
+      "priority": 2
+    },
+    {
+      "name": "Spatial niche structure (if spatial data present)",
+      "data_required": "Visium/MERFISH or similar in held atlases",
+      "data_held": "Uncertain",
+      "fast_probe": "If present: niche detection (cell2location/Banksy); test whether APC-HLA-II niche frequency tracks response",
+      "orthogonality": "Spatial dimension untouched",
+      "false_positive_risk": "Deconvolution noise in low-resolution spatial",
+      "priority": 2
+    }
+  ]
+}
+```

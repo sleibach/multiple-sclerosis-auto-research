@@ -1,0 +1,46 @@
+```json
+{
+  "dimensions": [
+    {
+      "dimension_name": "Host-Microbiome Metabolic Coupling",
+      "data_required": "Matched microbiome (16S/shotgun), metabolomics, and host transcriptomics (bulk or single-cell) from the same patient cohort. All are listed as held.",
+      "concrete_fast_probe": "Use `mmvec` or sparse canonical correlation analysis (sCCA) to identify co-varying axes between microbial taxa and serum metabolites. Correlate the top latent factors with treatment response status and the project's existing APC/HLA-II scalar to test for interaction or modulation.",
+      "why_orthogonal_new": "Introduces two entirely new biological domains (microbiome, metabolome) not mentioned in prior work. It shifts the search for modulators from endogenous genetics (host) to exogenous/environmental factors and their metabolic products.",
+      "main_false_positive_risk": "Strong correlations may be driven by unmeasured confounders like diet, which influences both the microbiome and metabolome independently of the host immune state. High multiple-testing burden.",
+      "priority": 1
+    },
+    {
+      "dimension_name": "Cell-State Trajectory Dynamics",
+      "data_required": "Time-resolved single-cell RNA-seq from treatment cohorts (h5ad atlases), ideally with pre-treatment and at least one on-treatment timepoint. Likely held.",
+      "concrete_fast_probe": "Apply RNA velocity analysis (e.g., `scVelo`) to a key lineage (e.g., monocytes/APCs) in responder vs. non-responder groups. Test for significant differences in velocity stream directionality or terminal state probabilities between the groups using `CellRank`.",
+      "why_orthogonal_new": "Moves beyond static cell-state definitions ('coupled APC latent structure') to model the dynamics of state transitions. It reframes 'treatment response' from a binary outcome to a dynamical system, directly addressing V39's 'context/axis dependence' by modeling the response axis itself.",
+      "main_false_positive_risk": "RNA velocity and pseudotime artifacts are common, especially with sparse data or batch effects between timepoints. The biological meaning of 'velocity' can be ambiguous without careful validation.",
+      "priority": 2
+    },
+    {
+      "dimension_name": "Treatment-Induced Network Rewiring",
+      "data_required": "Transcriptomic data (bulk or scRNA) from responder and non-responder cohorts, pre- and post-treatment. Data is held.",
+      "concrete_fast_probe": "For a specific cell type (e.g., CD14+ monocytes), construct differential co-expression networks between non-responders (post- vs. pre-treatment) and responders (post- vs. pre-treatment). Identify genes with the largest change in 'differential degree'—i.e., hubs that emerge specifically in the maladaptive non-responder network.",
+      "why_orthogonal_new": "Shifts analysis from node properties (gene expression levels) to edge properties (gene-gene relationships). It directly operationalizes the V39 'context-dependence' finding by modeling how the regulatory network context itself is altered in treatment failure, rather than just the expression levels within it.",
+      "main_false_positive_risk": "Changes in co-expression can be driven by non-biological factors like changes in overall expression variance or cell composition shifts (in bulk data). Networks built on small sample sizes are notoriously unstable.",
+      "priority": 2
+    },
+    {
+      "dimension_name": "Structural Variant Impact on Antigen Presentation",
+      "data_required": "Phased genetic data for HLA haplotypes, AlphaFold structures for HLA proteins, and TCRs. Genetics and AlphaFold structures are held.",
+      "concrete_fast_probe": "Select a key HLA-II risk allele identified in prior GWAS work. Using its AlphaFold structure, perform in-silico saturation mutagenesis of the peptide-binding groove residues. For each mutation, use a tool like `pMHC-TCR` or simple docking to predict the change in binding energy against a panel of peptides derived from V26 module genes.",
+      "why_orthogonal_new": "Moves from gene-level association (eQTL, LDSC) to biophysical mechanism. It directly probes the protein-level functional consequence of genetic variation in the project's key APC/HLA-II axis, providing a layer of causality below expression changes.",
+      "main_false_positive_risk": "In-silico binding affinity predictions are noisy and highly sensitive to force-field parameterization. The true immunopeptidome is unknown, making the choice of test peptides a major source of bias.",
+      "priority": 3
+    },
+    {
+      "dimension_name": "Exogenous Context-Specific Response Modeling",
+      "data_required": "EBV and/or pregnancy datasets with corresponding disease/treatment-response data. All are listed as held.",
+      "concrete_fast_probe": "Train a baseline treatment-response classifier (e.g., logistic regression on V26 module scores) on the general cohort. Add an interaction term for 'EBV_status * feature' for all features. Identify features where the interaction term is significant, indicating that the feature's predictive value is conditional on EBV status.",
+      "why_orthogonal_new": "Inverts the previous research philosophy. Instead of searching for a universal law and finding context as a failure mode (V39), it deliberately models a specific, strong biological context (viral infection) as a primary variable to understand response heterogeneity.",
+      "main_false_positive_risk": "Subsetting the data by context (e.g., EBV+) reduces statistical power, increasing the risk of both false positives and false negatives. The chosen context may not be the most relevant one, leading to a null result.",
+      "priority": 4
+    }
+  ]
+}
+```
