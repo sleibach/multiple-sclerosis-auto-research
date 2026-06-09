@@ -1,0 +1,178 @@
+{
+  "seed": 3806,
+  "n_permutations_per_edge": 5000,
+  "matrices": [
+    {
+      "modality": "perturbation_mixscale",
+      "rows": 24,
+      "modules": 4,
+      "source": "analysis/v26_deep_structure/perturbation_module_matrix.tsv"
+    },
+    {
+      "modality": "treatment_pharmacodynamic",
+      "rows": 24,
+      "modules": 8,
+      "source": "analysis/v26_deep_structure/treatment_pharmacodynamic_module_matrix.tsv"
+    },
+    {
+      "modality": "treatment_response_tests",
+      "rows": 20,
+      "modules": 5,
+      "source": "analysis/v26_deep_structure/treatment_response_module_matrix.tsv"
+    },
+    {
+      "modality": "cell_state_h5ad",
+      "rows": 12,
+      "modules": 8,
+      "source": "analysis/v26_deep_structure/cell_state_module_matrix.tsv"
+    },
+    {
+      "modality": "cross_disease_summary",
+      "rows": 6,
+      "modules": 8,
+      "source": "analysis/v26_deep_structure/cross_disease_summary_module_matrix.tsv"
+    }
+  ],
+  "n_edges_tested": 100,
+  "n_core_edge_tests": 32,
+  "n_noncore_edge_tests": 68,
+  "core_raw_supported_abs_r_ge_0_5_p_lt_0_05": 22,
+  "core_row_centered_supported_abs_r_ge_0_5_p_lt_0_05": 13,
+  "core_median_raw_abs_r": 0.7882608695652173,
+  "core_median_row_centered_abs_r": 0.5902097902097903,
+  "noncore_median_raw_abs_r": 0.46153846153846156,
+  "noncore_median_row_centered_abs_r": 0.42069626026147766,
+  "residual_strong_core_edges": [
+    {
+      "modality": "cross_disease_summary",
+      "module_a": "mif_cd74_receptor_state",
+      "module_b": "ifn_apc",
+      "row_centered_spearman": 0.9428571428571428,
+      "row_centered_perm_p": 0.01759648070385923,
+      "row_centered_q_bh_all_edges": 0.08085339453848361
+    },
+    {
+      "modality": "treatment_response_tests",
+      "module_a": "hla_ii_apc",
+      "module_b": "lysosomal_apc",
+      "row_centered_spearman": -0.9398496240601504,
+      "row_centered_perm_p": 0.0001999600079984003,
+      "row_centered_q_bh_all_edges": 0.0013330667199893355
+    },
+    {
+      "modality": "treatment_pharmacodynamic",
+      "module_a": "hla_ii_apc",
+      "module_b": "mif_cd74_receptor_state",
+      "row_centered_spearman": 0.9382608695652174,
+      "row_centered_perm_p": 0.0001999600079984003,
+      "row_centered_q_bh_all_edges": 0.0013330667199893355
+    },
+    {
+      "modality": "treatment_pharmacodynamic",
+      "module_a": "hla_ii_apc",
+      "module_b": "lysosomal_apc",
+      "row_centered_spearman": -0.9078260869565218,
+      "row_centered_perm_p": 0.0001999600079984003,
+      "row_centered_q_bh_all_edges": 0.0013330667199893355
+    },
+    {
+      "modality": "treatment_response_tests",
+      "module_a": "ifn_apc",
+      "module_b": "lysosomal_apc",
+      "row_centered_spearman": 0.8902255639097745,
+      "row_centered_perm_p": 0.0001999600079984003,
+      "row_centered_q_bh_all_edges": 0.0013330667199893355
+    },
+    {
+      "modality": "cross_disease_summary",
+      "module_a": "ifn_apc",
+      "module_b": "hla_ii_apc",
+      "row_centered_spearman": 0.8857142857142857,
+      "row_centered_perm_p": 0.03479304139172166,
+      "row_centered_q_bh_all_edges": 0.1122356173926505
+    },
+    {
+      "modality": "cross_disease_summary",
+      "module_a": "ifn_apc",
+      "module_b": "mixscale_validated_ifng_readout",
+      "row_centered_spearman": 0.8857142857142857,
+      "row_centered_perm_p": 0.03219356128774245,
+      "row_centered_q_bh_all_edges": 0.11101228030256018
+    },
+    {
+      "modality": "treatment_pharmacodynamic",
+      "module_a": "ifn_apc",
+      "module_b": "mixscale_validated_ifng_readout",
+      "row_centered_spearman": 0.8704347826086957,
+      "row_centered_perm_p": 0.0001999600079984003,
+      "row_centered_q_bh_all_edges": 0.0013330667199893355
+    },
+    {
+      "modality": "treatment_response_tests",
+      "module_a": "hla_ii_apc",
+      "module_b": "ifn_apc",
+      "row_centered_spearman": -0.869172932330827,
+      "row_centered_perm_p": 0.0001999600079984003,
+      "row_centered_q_bh_all_edges": 0.0013330667199893355
+    },
+    {
+      "modality": "perturbation_mixscale",
+      "module_a": "ifn_apc",
+      "module_b": "mif_cd74_receptor_state",
+      "row_centered_spearman": -0.8660869565217392,
+      "row_centered_perm_p": 0.0001999600079984003,
+      "row_centered_q_bh_all_edges": 0.0013330667199893355
+    },
+    {
+      "modality": "cell_state_h5ad",
+      "module_a": "ifn_apc",
+      "module_b": "mixscale_validated_ifng_readout",
+      "row_centered_spearman": 0.7132867132867133,
+      "row_centered_perm_p": 0.010797840431913617,
+      "row_centered_q_bh_all_edges": 0.059988002399520096
+    },
+    {
+      "modality": "cell_state_h5ad",
+      "module_a": "hla_ii_apc",
+      "module_b": "mif_cd74_receptor_state",
+      "row_centered_spearman": 0.6993006993006993,
+      "row_centered_perm_p": 0.013597280543891222,
+      "row_centered_q_bh_all_edges": 0.06798640271945611
+    },
+    {
+      "modality": "cell_state_h5ad",
+      "module_a": "hla_ii_apc",
+      "module_b": "lysosomal_apc",
+      "row_centered_spearman": -0.6433566433566433,
+      "row_centered_perm_p": 0.03079384123175365,
+      "row_centered_q_bh_all_edges": 0.10997800439912019
+    }
+  ],
+  "v27_bounded_pooled_auc": [
+    {
+      "feature": "locked_signed_score",
+      "auc": 0.8111111111111111,
+      "hedges_g": 1.1908348787735676,
+      "welch_p": 0.0165977015421691
+    },
+    {
+      "feature": "coupled_projection",
+      "auc": 0.6888888888888889,
+      "hedges_g": 0.6610474412772832,
+      "welch_p": 0.1519277019654248
+    },
+    {
+      "feature": "coupled_v22_augmented",
+      "auc": 0.6333333333333333,
+      "hedges_g": 0.5415359326965005,
+      "welch_p": 0.226787409030333
+    },
+    {
+      "feature": "coupling_coordination",
+      "auc": 0.7333333333333333,
+      "hedges_g": 0.7769683417807862,
+      "welch_p": 0.1109617946530097
+    }
+  ],
+  "interpretation": "The immune-tone inversion is only partly supported if row-centering collapses most core edges. Any residual strong HLA-II/IFN/MIF-CD74 edges support coupled architecture as more than row-wise global module tone. V27 remains a predictive constraint: coupling did not improve response prediction over the locked scalar."
+}

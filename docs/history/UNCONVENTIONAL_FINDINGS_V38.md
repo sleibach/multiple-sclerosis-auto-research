@@ -62,6 +62,72 @@ test that confirms the V37 wording should stay conservative and that the next
 action remains frozen Gafson/DMF validation rather than building a successor
 rule.
 
+### B2. Inversion Of The Coupled APC Architecture
+
+Status: **completed first immune-tone inversion**.
+
+Question:
+
+Could the V26 coupled HLA-II/IFN-APC/MIF-CD74 architecture be mostly generic
+immune-tone covariance rather than a structured APC module dependency?
+
+Grounding artifacts:
+
+- Script: `scripts/v38_coupled_architecture_inversion.py`
+- V26 module matrices:
+  `analysis/v26_deep_structure/*module_matrix.tsv`
+- Residual edge tests:
+  `analysis/v38_coupled_architecture_inversion/coupled_edge_residual_tests.tsv`
+- Global-tone tests:
+  `analysis/v38_coupled_architecture_inversion/module_global_tone_tests.tsv`
+- V27 predictive constraint:
+  `analysis/v38_coupled_architecture_inversion/v27_bounded_predictive_constraint.tsv`
+- Summary:
+  `analysis/v38_coupled_architecture_inversion/coupled_inversion_summary.json`
+
+Method:
+
+The adversarial control was row-wise module-mean residualization. For each V26
+matrix, each context's module vector was centered by its own mean, then module
+pair correlations were retested with 5,000 row-permutation nulls. If coupling
+were only global immune tone, core APC edges should collapse after this
+row-centering.
+
+Results:
+
+| Test | Result | Interpretation |
+|---|---|---|
+| Core modules vs global row mean | Core module median abs correlation with row mean `0.854`; non-core median `0.663` | The inversion is partly right: the coupled architecture is strongly tone-loaded. |
+| Core APC edges before row-centering | `22/32` core edge tests had abs r >= `0.5` and p < `0.05`; median core abs r `0.788` | Reproduces V26's coupled-dependency signal. |
+| Core APC edges after row-centering | `13/32` still had abs r >= `0.5` and p < `0.05`; `10/32` also had BH q < `0.10`; median core abs r `0.590` | Coupling is attenuated but not erased. It is not purely row-wise global tone. |
+| Non-core edges after row-centering | `15` non-core edge tests also passed abs r/p criteria; `13` had q < `0.10` | Specificity is imperfect; row-centering can induce compositional anti-correlations and does not isolate APC-only biology cleanly. |
+| Predictive successor constraint | V27 bounded AUC: scalar `0.811`, coupled projection `0.689`, V22-augmented `0.633`, coordination `0.733` | Coupling remains mechanistic context, not a better response-prediction rule. |
+
+Verdict:
+
+The adversarial inversion **partly succeeds but does not erase** the V26
+architecture.
+
+What survives:
+
+- core APC module dependencies remain after a harsh global-tone residualization;
+- several residual core edges remain strong, including HLA-II/MIF-CD74 and
+  IFN/lysosomal relationships in treatment/cell-state matrices.
+
+What weakens:
+
+- the architecture is heavily immune-tone-loaded;
+- specificity is not clean, because non-core residual edges also survive;
+- V27 already showed the coupled representation does not improve prediction
+  over the scalar.
+
+V38 delta:
+
+V26 should be framed as a **tone-loaded coupled APC architecture**, not as a
+pure APC-specific invariant and not as a superior clinical rule. This is a
+narrowing of interpretation, not a demotion of the V26 `supported` structural
+grade, because the row-centered residual test still leaves core structure.
+
 ## Workstream A: Structure Of Failure
 
 ### A1. Failure-Mode Meta-Analysis Across V37 Negative/Closed Items
@@ -339,6 +405,8 @@ Strengthened:
 - The control-systems probe strengthens the dynamic-over-baseline reading of
   the monitoring lead: baseline-load features are weak, while early-delta and
   treated-state features carry the apparent signal.
+- The coupled APC architecture withstands a direct global-tone inversion, but
+  only as a tone-loaded structure rather than a pure APC-specific architecture.
 
 Weakened / narrowed:
 
@@ -347,6 +415,8 @@ Weakened / narrowed:
   STAT1/metabolic/inflammatory tone is too strong.
 - Any phrase implying a validated immune set-point rule is too strong; the
   set-point result is supervised and in-sample.
+- Any phrase implying the V26 coupled architecture is independent of broad
+  immune tone or composition is too strong.
 
 Demoted:
 

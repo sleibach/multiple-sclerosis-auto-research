@@ -23,7 +23,7 @@
 | 3 | E | RPT-led structured mining over V37 score table and lead matrices | done | RPT matched 5/6 masked V37 action classes; only contradiction was bounded scalar predicted as data-gated follow-up, sharpening operational-priority wording without evidence demotion. |
 | 4 | C | Unpublishable-but-true exclusion/non-replication list | done | Ledger written with 16 exclusions/non-replications: 13 negative-established, 2 supported exclusions, 1 data-gated not-established. |
 | 5 | D | Cross-scale/control-systems reframing | done | Baseline load weak; dynamic/treated-state framing supported but set-point result is supervised/in-sample and needs fresh validation. |
-| 6 | B | Adversarial inversion of coupled APC architecture | todo | Test whether the V26 coupled HLA-II/IFN-APC/MIF-CD74 axis is merely global immune-tone/composition covariance rather than a coupled architecture. |
+| 6 | B | Adversarial inversion of coupled APC architecture | done | Global immune tone is strong, but row-centering does not erase core APC edges; coupling is tone-loaded mechanistic context, not a predictive successor. |
 | 7 | B | Adversarial inversion of MS-UC genetic backdrop | todo | Test whether MS-UC rg/backdrop interpretation is MHC/sample-overlap dominated or unsupported outside the verified LDSC frame. |
 | 8 | A/D | Failure-structure follow-up: hard-protective-direction constraint | todo | Quantify whether restoration/up-function or wrong-direction modality constraints recur enough to become a future-lead prefilter. |
 
@@ -114,3 +114,22 @@
   Treated-state/set-point proximity was interesting (treated IFN/HLA-II/STAT1/
   metabolic proximity AUC `0.867`, Monte Carlo p `0.0098`) but supervised and
   in-sample. Report updated; no new rule promoted.
+
+### Iteration 6
+
+- Start UTC: 2026-06-09T04:39:44Z
+- End UTC: 2026-06-09T04:44:12Z
+- Status: completed
+- Item selected: Workstream B, adversarial inversion of coupled APC
+  architecture.
+- Planned grounding: use V26/V27 coupled-axis and module-dependency outputs to
+  test whether the claimed coupling survives controls for broad immune tone,
+  composition, and scalar-response covariance.
+- Result: `scripts/v38_coupled_architecture_inversion.py` tested V26 module
+  matrices after row-wise global-tone centering. Core modules are strongly
+  tone-loaded (median abs correlation with row mean `0.854`), so the inversion
+  partly succeeds. But core APC edges did not collapse: `13/32` retained abs r
+  >= `0.5` and permutation p < `0.05`, with `10/32` also BH q < `0.10`.
+  V27 remains the predictive constraint: coupled features did not beat the V22
+  scalar. Report updated as tone-loaded coupled architecture, not pure APC
+  invariant and not a successor rule.
