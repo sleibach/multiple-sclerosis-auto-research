@@ -841,3 +841,56 @@ Next session first action:
 - README sync: `README.md` was updated to V38; `meta/CURRENT_STATUS.md`,
   `meta/NEXT_ACTIONS.md`, and `knowledge/tools/RAG_STATUS.md` were also
   synchronized.
+
+## RUN SUMMARY - V39 Failure Structure And Exclusion Mapping
+
+- Active runtime: 14 minutes 19 seconds, measured from real system-clock reads
+  (`2026-06-09T08:46:17Z` to `2026-06-09T09:00:36Z`). This does not claim the
+  optional 240-minute maximum target was reached.
+- Session start timestamp (UTC): 2026-06-09T08:46:17Z.
+- Session end timestamp (UTC): 2026-06-09T09:00:36Z.
+- OpenGWAS: HTTP 200 using the repo Python interpreter; JWT valid until
+  `2026-06-19 12:28 UTC`, flagged as near-expiry.
+- Iterations completed: 3.
+  1. Failure catalogue, exact pattern null tests, exclusion list, and
+     non-replication list.
+  2. Immune-tone anomaly/control-system probe.
+  3. Sensitivity frames excluding provisional and negative-established-only
+     rows.
+- Failure-structure verdict:
+  - no universal failure law was supported;
+  - context/axis dependence is enriched in cross-axis transfer failures
+    (`p=0.007224`; non-provisional sensitivity `p=0.014706`);
+  - generic immune-tone collapse is enriched in exploratory-module failures in
+    the full frame (`p=0.031579`) but sparse and unstable after filtering;
+  - direction/modality constraints are suggestive in target-like leads
+    (`p=0.077657`) and hard restoration/up-function is also suggestive
+    (`p=0.078947`), so these remain practical prefilters rather than a formal
+    universal law;
+  - evidence-resolution gaps are not specifically enriched in genetics/target
+    failures (`p=0.455108`).
+- Exclusion and non-replication status: 16 exclusions and 9
+  non-replication-like entries written under
+  `analysis/v39_failure_structure_exclusion/`, with the report at
+  `docs/history/FAILURE_STRUCTURE_AND_EXCLUSION_V39.md`.
+- Cross-domain result: responders are compact in treated/delta broad-tone
+  spaces after exact label permutation and eight-space correction
+  (`treated_broad_tone` Bonferroni `0.02139`, BH `0.01199`;
+  `delta_broad_tone` Bonferroni `0.02399`, BH `0.01199`), but group separation
+  is not significant enough for a classifier. Treat this as a secondary audit
+  endpoint, not a successor rule.
+- Model/RPT status and spend: Gemini smoke-passed; Claude timed out; RPT has no
+  implemented request schema in the current Python client. No model/RPT output
+  was used as evidence. The local client exposes no per-call spend, and no
+  separate paid-service spend was recorded.
+- Frontier advanced: wrote V39 report and ledgers, updated README/current
+  status/next actions, rebuilt the knowledge index to 526 documents, and
+  smoke-tested retrieval for V39.
+- Stop reason: all queued V39 workstreams and the sensitivity follow-up were
+  completed and committed at a clean resumable point; the optional 240-minute
+  ceiling was not reached because the directive was value-complete at any
+  length and all in-scope backlog items were done.
+- Next action: before any new lead work, apply the V39 prefilters and exclusion
+  ledger; operationally acquire Gafson et al. 2018 DMF PBMC RNA-seq processed
+  counts plus sample-level NEDA-4 labels and run only the frozen validation and
+  pre-specified audit harnesses when data arrive.

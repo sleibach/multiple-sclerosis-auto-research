@@ -1,10 +1,50 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-06-09 07:08 CEST
+Last updated: 2026-06-09 10:59 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
 ## Queue
+
+V39 update:
+
+- Main report: `docs/history/FAILURE_STRUCTURE_AND_EXCLUSION_V39.md`.
+- Machine-readable outputs:
+  - failure catalogue and null tests:
+    `analysis/v39_failure_structure_exclusion/`;
+  - immune-tone anomaly/control-system probe:
+    `analysis/v39_immune_tone_anomaly/`.
+- Failure-structure verdict:
+  - no universal failure mechanism was supported;
+  - strongest formal pattern: context/axis dependence in cross-axis transfer
+    failures (`p=0.007224`; non-provisional sensitivity `p=0.014706`);
+  - direction/modality constraints are suggestive in target-like leads
+    (`p=0.077657`) and remain a mandatory practical prefilter, not a universal
+    law;
+  - generic immune-tone collapse is enriched in exploratory-module failures in
+    the full frame but sparse and unstable after filtering.
+- Exclusion/non-replication map:
+  - 16 exclusions;
+  - 9 non-replication-like entries;
+  - use these as a stop-spending ledger before reopening a closed lead.
+- Cross-domain result:
+  - responders are compact in treated/delta broad-tone spaces after exact
+    permutation and eight-space correction;
+  - group separation is not significant enough for a classifier;
+  - measure this only as a secondary audit endpoint in future validation, never
+    as a replacement for the locked V22 scalar.
+
+First post-V39 action:
+
+1. Before any new target/lead work, apply the V39 failure/exclusion prefilters:
+   axis/context fit, direction/modality fit, specificity/tone controls, and the
+   exclusion ledger.
+2. Operational priority remains acquiring Gafson et al. 2018 DMF PBMC RNA-seq
+   processed counts plus sample-level NEDA-4 labels using
+   `docs/validation/GAFSON_DATA_REQUEST_V36.md`.
+3. If the Gafson/DMF data arrive, quarantine them and run only the frozen V22
+   validation harness plus V32/V36/V38/V39 secondary audits; do not fit a
+   successor rule.
 
 V38 update:
 

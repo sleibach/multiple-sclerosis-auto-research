@@ -1,6 +1,6 @@
 # RAG Status
 
-Last updated: 2026-06-09 07:09 CEST
+Last updated: 2026-06-09 10:59 CEST
 
 ## Desired V4 Layer 2
 
@@ -25,10 +25,10 @@ Sparse local retrieval:
 - Build: `./.venv_v3_py312/bin/python scripts/build_knowledge_index.py`
 - Query: `./.venv_v3_py312/bin/python scripts/query_knowledge_index.py "candidate prior art" 10`
 - Index path: `knowledge/.index/tfidf_index.pkl`
-- Current document count: `524`.
-- Smoke test query `LRRK2 prior art V4 contribution` returned
-  `knowledge/candidates/LRRK2.md` and `meta/PRIOR_ART_RULEBOOK.md` in the top
-  two hits.
+- Current document count: `526`.
+- Smoke test query `V39 failure structure context axis direction modality exclusion`
+  returned `meta/V39_QUEUE.md` and
+  `docs/history/FAILURE_STRUCTURE_AND_EXCLUSION_V39.md` as the top two hits.
 
 This is not a semantic embedding index. It is a continuity aid until the proper
 vector stack is installed.

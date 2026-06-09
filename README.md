@@ -11,7 +11,7 @@ All analysis uses public human-tissue data only and random seed `20260526`
 
 ## Current Status
 
-The current phase is **V38**. The V4 directory structure remains canonical, and
+The current phase is **V39**. The V4 directory structure remains canonical, and
 V11 introduced the resume backbone for short-session continuity.
 
 - Start here: `meta/CURRENT_STATUS.md` — the live mission state, active leads,
@@ -108,6 +108,16 @@ V11 introduced the resume backbone for short-session continuity.
   disagreement-cell evidence, not by disease-level heterogeneity alone. See
   `docs/history/UNCONVENTIONAL_FINDINGS_V38.md` and
   `analysis/v38_delta_ledger/v37_v38_delta_ledger.tsv`.
+  V39 then treated the project's killed/closed/parked findings as a dataset and
+  wrote `docs/history/FAILURE_STRUCTURE_AND_EXCLUSION_V39.md`. The strongest
+  null-tested failure structure is context/axis dependence in cross-axis
+  transfer failures (`p=0.007224`). Direction/modality constraints are
+  suggestive but not formally significant in the 20-item frame, so they remain
+  mandatory practical prefilters rather than a claimed universal law. V39 also
+  split the stop-spending map into 16 exclusions and 9 non-replication-like
+  entries, and added an exploratory immune-tone anomaly result: responders
+  converge into a compact treated/delta broad-tone state, but without enough
+  group separation to create a classifier or replace the locked V22 scalar.
 - Current genetics/data focus: the chr1 MS-UC causal-gene question is
   computationally resolved for now and handed forward as real shared genetics,
   not an intervention-grade target. V20 widened back out to a ranked
@@ -220,6 +230,7 @@ that explicitly in `meta/SESSION_LOG.md`.
 | V36 | Two-hour expanded generation and strict grounding block. | Added SAP RPT structured-data lens, ran 55 chained iterations, demoted V36 post-hoc perfect-AUC features after multiplicity control, sharpened the therapy-response branch map, updated Gafson validation request and readiness guardrails, rebuilt/smoke-tested the local knowledge index, and kept the locked V22/V23 rule as the primary validation target. |
 | V37 | Comprehensive findings report and scoring synthesis. | Produced `docs/reports/FINDINGS_REPORT_V37.md` and `docs/reports/FINDINGS_SCORES_V37.tsv`, scoring 32 positive, decoupling, closed/negative, and methodological items by scientific relevance, novelty, and evidence grade. No new analysis or rule changes. |
 | V38 | Unconventional/adversarial analysis block over existing artifacts. | Produced `docs/history/UNCONVENTIONAL_FINDINGS_V38.md` and structured ledgers under `analysis/v38_*`. V38 strengthened and narrowed V37 without demoting any scored item: the bounded V22 scalar survived adversarial/tone-residual checks but remains provisional and validation-gated; V26 coupled APC is tone-loaded context, not a predictive successor; MS-UC rg and the layer-transfer map survived inversions with caveats. |
+| V39 | Failure-structure meta-analysis and rigorous exclusion mapping. | Produced `docs/history/FAILURE_STRUCTURE_AND_EXCLUSION_V39.md`, `analysis/v39_failure_structure_exclusion/`, and `analysis/v39_immune_tone_anomaly/`. No universal failure law was supported; context/axis dependence is the strongest null-tested structure, direction/modality is a practical prefilter, and the exclusion/non-replication ledgers are now explicit stop-spending maps. |
 
 `docs/findings/FINDING.md` documents the (since-demoted) `ACSL1` target hypothesis from an
 earlier phase and is retained for the historical trace.

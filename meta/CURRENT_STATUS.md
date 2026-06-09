@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-09 07:08 CEST
+Last updated: 2026-06-09 10:59 CEST
 
 ## Mission State
 
@@ -80,8 +80,42 @@ remains provisional and externally validation-gated; V26 coupled APC is
 tone-loaded mechanistic context, not a predictive successor; MS-UC rg and the
 layer-transfer map survived inversions with caveats; direction/modality and
 failure/fragility prefilters are now structured ledgers under `analysis/v38_*`.
+V39 treated the project's failures as data and wrote
+`docs/history/FAILURE_STRUCTURE_AND_EXCLUSION_V39.md`. It produced a
+value-complete failure-structure verdict, explicit exclusion/non-replication
+maps, and one cross-domain immune-tone anomaly probe. No universal MS failure
+law was supported. The strongest null-tested structure is context/axis
+dependence in cross-axis transfer failures; direction/modality remains a
+mandatory practical prefilter but only suggestive under the formal small-n null.
 
 Current frontier:
+
+- V39 failure/exclusion state:
+  - Main report: `docs/history/FAILURE_STRUCTURE_AND_EXCLUSION_V39.md`.
+  - Machine-readable outputs:
+    - `analysis/v39_failure_structure_exclusion/v39_failure_catalogue.tsv`;
+    - `analysis/v39_failure_structure_exclusion/v39_pattern_null_tests.tsv`;
+    - `analysis/v39_failure_structure_exclusion/v39_pattern_null_tests_by_frame.tsv`;
+    - `analysis/v39_failure_structure_exclusion/v39_exclusion_list.tsv`;
+    - `analysis/v39_failure_structure_exclusion/v39_nonreplication_list.tsv`;
+    - `analysis/v39_immune_tone_anomaly/immune_tone_anomaly_spaces.tsv`.
+  - Failure-structure verdict:
+    - supported: context/axis dependence enriched in cross-axis transfer
+      failures (`p=0.007224`; still supported after removing provisional rows,
+      `p=0.014706`);
+    - supported but sparse: generic immune-tone collapse enriched in
+      exploratory-module failures in the full frame (`p=0.031579`) but unstable
+      after filtering;
+    - suggestive only: direction/modality constraints in target-like leads
+      (`p=0.077657`) and hard restoration/up-function (`p=0.078947`);
+    - not supported as a specific enrichment: evidence-resolution gaps in
+      genetics/target-like leads (`p=0.455108`).
+  - Exclusion map: 16 stop-spending exclusions and 9 non-replication-like
+    items. Use this before reopening closed leads.
+  - Cross-domain result: responders are compact in treated/delta broad-tone
+    spaces after exact permutation and eight-space correction, but group
+    separation is not sufficient for a classifier. Treat as a secondary audit
+    endpoint, not a successor rule.
 
 - V38 unconventional/adversarial state:
   - Main report: `docs/history/UNCONVENTIONAL_FINDINGS_V38.md`.
