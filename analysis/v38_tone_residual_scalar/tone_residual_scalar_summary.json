@@ -1,0 +1,64 @@
+{
+  "proposal_source": "analysis/v38_model_proposal_pass/claude_remaining_tests.json",
+  "input": "analysis/v32_confounder_audit/v32_subject_confounder_scores.tsv",
+  "n_subjects": 19,
+  "n_responders": 10,
+  "n_nonresponders": 9,
+  "tone_features": [
+    "delta_general_inflammatory_tone",
+    "delta_stat1_axis",
+    "delta_glycolysis",
+    "delta_immunometabolism_hif_nampt"
+  ],
+  "auc_results": [
+    {
+      "feature": "tone_residual_scalar",
+      "auc_oriented": 0.8444444444444444,
+      "orientation": "higher_in_responders",
+      "exact_permutation_p": 0.010142997867480704,
+      "responder_median": 0.44951343817332695,
+      "nonresponder_median": -0.4881770080243313
+    },
+    {
+      "feature": "raw_locked_scalar",
+      "auc_oriented": 0.8111111111111111,
+      "orientation": "higher_in_responders",
+      "exact_permutation_p": 0.022028816072917005,
+      "responder_median": 0.23393226990179805,
+      "nonresponder_median": -0.3100816135725666
+    },
+    {
+      "feature": "delta_glycolysis",
+      "auc_oriented": 0.6888888888888889,
+      "orientation": "lower_in_responders",
+      "exact_permutation_p": 0.18232498728065902,
+      "responder_median": -0.0163077257214298,
+      "nonresponder_median": 0.3645051282616154
+    },
+    {
+      "feature": "delta_stat1_axis",
+      "auc_oriented": 0.6111111111111112,
+      "orientation": "lower_in_responders",
+      "exact_permutation_p": 0.44697387934487276,
+      "responder_median": -0.8118477871773424,
+      "nonresponder_median": -0.2516287595853556
+    },
+    {
+      "feature": "loocv_tone_prediction_of_scalar",
+      "auc_oriented": 0.5888888888888889,
+      "orientation": "higher_in_responders",
+      "exact_permutation_p": 0.5489667565139263,
+      "responder_median": 0.18644619258653045,
+      "nonresponder_median": -0.2727026520080751
+    },
+    {
+      "feature": "delta_general_inflammatory_tone",
+      "auc_oriented": 0.5,
+      "orientation": "higher_in_responders",
+      "exact_permutation_p": 1.0,
+      "responder_median": 0.08712859442461911,
+      "nonresponder_median": 0.1865138496587963
+    }
+  ],
+  "interpretation": "If the LOOCV tone prediction matches the raw scalar and the residual collapses, the scalar is mostly broad-tone-correlated. If residual performance persists, broad tone does not fully account for the scalar."
+}

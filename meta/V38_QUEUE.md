@@ -28,6 +28,7 @@
 | 8 | A/D | Failure-structure follow-up: hard-protective-direction constraint | done | Direction/modality constraints affect 8/20 closed/negative items and 5/6 target-like items; mandatory early prefilter for future target leads. |
 | 9 | B/C | Adversarial inversion of layer-transfer map | done | Matrix-grounded: 4/4 key diseases have heterogeneous axis placements and 8/8 non-artifact cells are axis-specific. |
 | 10 | A/C | V36 exploratory fragility map | done | V36 promotion failures cluster around multiplicity, confounder/composition, therapy specificity, small-n power, and missing decisive modalities/metadata. |
+| 11 | B/D/E | Multi-lineage proposal pass plus tone-residual scalar grounding | done | Claude/Gemini proposed next tests; grounded tone-residual scalar test shows broad tone alone does not reproduce the scalar response signal. |
 
 ## Iteration Log
 
@@ -200,3 +201,22 @@
   modality/metadata gates. The narrow survivor remains B/plasma-like IFN/APC
   remodeling as an internal carrier, still single-cohort and validation-gated.
   Report updated.
+
+### Iteration 11
+
+- Start UTC: 2026-06-09T04:55:19Z
+- End UTC: 2026-06-09T04:59:43Z
+- Status: completed
+- Item selected: Workstreams B/D/E, multi-lineage proposal pass for the next
+  unconventional grounded test.
+- Planned grounding: prompt Claude and Gemini with the V38 results so far and
+  ask for concrete table-groundable remaining adversarial/unconventional tests;
+  then select and run the highest-value executable test. Model proposals are
+  not evidence.
+- Result: Claude proposed a tone-stripped scalar inversion; Gemini produced a
+  separate terse proposal list after increasing the token cap. Grounding in
+  `scripts/v38_tone_residual_scalar.py` used the V32 bounded subject-level
+  table. Broad-tone LOOCV prediction alone had AUC `0.589` (p `0.549`), while
+  the tone-residual scalar had AUC `0.844` (p `0.0101`) versus raw scalar
+  AUC `0.811` (p `0.0220`). This weakens the "scalar is merely broad immune
+  tone" inversion but does not create a new locked rule. Report updated.

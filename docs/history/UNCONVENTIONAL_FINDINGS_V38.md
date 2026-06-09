@@ -233,6 +233,66 @@ What remains limited:
   but did not turn every V12 genetics transfer cell into robust locus-level
   colocalization.
 
+### B5. Tone-Stripped Residual Scalar Test
+
+Status: **completed from model-lens proposal, grounded on V32 table**.
+
+Proposal source:
+
+- Claude proposed a "tone-stripped residual scalar" inversion in
+  `analysis/v38_model_proposal_pass/claude_remaining_tests.json`.
+- Gemini produced separate terse proposals in
+  `analysis/v38_model_proposal_pass/gemini_remaining_tests.json`.
+- Model output was used only to select a computable test.
+
+Question:
+
+Is the bounded V22/V23 scalar mostly a broad immune-tone proxy, or does response
+signal remain after broad tone is removed?
+
+Grounding artifacts:
+
+- Script: `scripts/v38_tone_residual_scalar.py`
+- Input: `analysis/v32_confounder_audit/v32_subject_confounder_scores.tsv`
+- AUC table: `analysis/v38_tone_residual_scalar/tone_residual_scalar_auc.tsv`
+- Summary: `analysis/v38_tone_residual_scalar/tone_residual_scalar_summary.json`
+
+Method:
+
+The script used V32 bounded subject-level data (`n=19`). It fit a leave-one-out
+linear model predicting the locked scalar from broad tone deltas:
+general inflammatory tone, STAT1 axis, glycolysis, and HIF/NAMPT
+immunometabolism. It then compared response AUCs for:
+
+- raw locked scalar;
+- LOOCV broad-tone prediction of the scalar;
+- tone-residual scalar.
+
+Results:
+
+| Feature | AUC | Exact p | Interpretation |
+|---|---:|---:|---|
+| Tone-residual scalar | `0.844` | `0.0101` | Residual after broad-tone prediction still separates responders. |
+| Raw locked scalar | `0.811` | `0.0220` | Reproduces bounded scalar signal. |
+| Broad-tone prediction of scalar | `0.589` | `0.549` | Tone-only prediction does not carry the response signal. |
+| Delta glycolysis | `0.689` | `0.182` | Weak context signal only. |
+| Delta STAT1 axis | `0.611` | `0.447` | Weak alone. |
+| Delta inflammatory tone | `0.500` | `1.000` | Null alone. |
+
+Verdict:
+
+This test **weakens the strongest artifact version** of the immune-tone
+inversion. The locked scalar is associated with broad tone in prior audits, but
+the response signal is not simply reproduced by broad tone alone. In this held
+table, the tone-residual scalar performs at least as well as the raw scalar.
+
+Limits:
+
+- This is still the same tiny bounded `n=19` table, not fresh validation.
+- The residual scalar is not a new locked rule.
+- V32's broader conclusion remains: the signal is immune-context-conditioned
+  and must be audited with confounders in Gafson/DMF validation.
+
 ## Workstream A: Structure Of Failure
 
 ### A1. Failure-Mode Meta-Analysis Across V37 Negative/Closed Items
@@ -618,12 +678,16 @@ Strengthened:
 - V36 creative-generation failures are now structured: promotion failed mostly
   at multiplicity, confounder/composition, therapy-branch, power, and
   missing-modality gates, not because the ideas were intrinsically incoherent.
+- The tone-stripped scalar test weakens the broad-tone-artifact inversion: broad
+  tone alone has AUC `0.589`, while the tone-residual scalar has AUC `0.844`.
 
 Weakened / narrowed:
 
 - Any phrase implying "MS-validated" or "clinical threshold" is too strong.
 - Any phrase implying APC/HLA-II specificity independent of broad
   STAT1/metabolic/inflammatory tone is too strong.
+- Any phrase implying the scalar is merely a broad immune-tone proxy is now too
+  strong; broad-tone prediction alone does not reproduce the response signal.
 - Any phrase implying a validated immune set-point rule is too strong; the
   set-point result is supervised and in-sample.
 - Any phrase implying the V26 coupled architecture is independent of broad

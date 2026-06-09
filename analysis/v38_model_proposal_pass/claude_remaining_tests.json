@@ -1,0 +1,64 @@
+Below are three unconventional but table-groundable V38 test proposals. Each is framed as a lens on existing committed artifacts, not as an evidence claim.
+
+---
+
+## Test 1: "Tone-Stripped Residual Scalar" inversion
+
+**1. Hypothesis / inversion.**
+The V22 scalar's surviving signal is *not* the immune-tone-conditioned component but the *residual* after tone is partialled out. Current framing treats tone-conditioning as the load-bearing context; the inversion asks whether a tone-orthogonalized residual scalar performs equivalently or better, which would demote the "tone-conditioned" qualifier rather than the scalar itself.
+
+**2. Committed artifacts needed.**
+- V37 scored findings TSV (for the V22 scalar values per cohort/stratum).
+- V26 module matrices (to extract a tone axis loading per row).
+- V32 confounder table (to confirm tone is recorded as a covariate, not an outcome).
+
+**3. Concrete computable test.**
+Regress the V22 scalar on the V26 tone-axis loading across rows in the scored findings TSV; take residuals. Re-rank rows by (a) raw scalar, (b) tone-residual scalar, (c) tone loading alone. Compare the three rankings against the same outcome column already used in V37 scoring (Spearman ρ, plus top-k overlap for k = 5, 10). Output one 3×3 table.
+
+**4. Interpretation rules.**
+- *Strengthens current conclusion* (scalar is tone-conditioned): tone loading alone ≥ residual, and residual collapses toward null.
+- *Weakens*: residual ρ ≈ raw ρ within small-n CI — the "tone-conditioned" label is descriptive, not mechanistic.
+- *Demotes*: residual ρ > raw ρ — current V38 framing of tone as the operative context should be downgraded to "tone-correlated."
+
+---
+
+## Test 2: "Failure-cluster vs. fragility-map concordance" audit
+
+**1. Hypothesis / inversion.**
+The V38 failure-structure meta-analysis clusters (context/axis, resolution, direction/modality, multiplicity, modality gap) and the V36 exploratory fragility map are *redundant decompositions of the same underlying instability*. If true, one is dispensable; if not, the fragility map is capturing an axis the failure ledger misses (or vice versa).
+
+**2. Committed artifacts needed.**
+- V38 failure table (cluster label per failed finding).
+- V36 fragility outputs (fragility score or flag per finding).
+- V37 scored findings TSV as the join key.
+
+**3. Concrete computable test.**
+Inner-join failure table and fragility outputs on finding ID via V37. Build a contingency table: failure cluster (5 rows) × fragility tier (e.g., high/med/low, 3 cols). Compute Cramér's V and report the marginal of findings flagged fragile but *not* in any failure cluster, and vice versa.
+
+**4. Interpretation rules.**
+- *Strengthens*: Cramér's V high (>0.5) and off-diagonal cells small — the two views agree; one can be cited as proxy for the other in V38 narrative.
+- *Weakens*: Cramér's V moderate (0.2–0.5) with structured off-diagonals — fragility map and failure ledger are complementary; V38 should retain both.
+- *Demotes*: Cramér's V low *and* large "fragile-but-not-failed" cell — fragility map may be flagging surviving findings, which would put items currently treated as live (including possibly the V22 scalar, MS-UC rg) onto a watchlist.
+
+---
+
+## Test 3: "Layer-transfer axis-specificity null via permuted axis labels"
+
+**1. Hypothesis / inversion.**
+The inverted layer-transfer map is reported as axis-specific rather than generic disease-similarity. The unconventional inversion: if axis labels are permuted within the same layer-transfer matrix, does the reported specificity signature persist? Current conclusion implicitly assumes it would not.
+
+**2. Committed artifacts needed.**
+- V8–V12 matrices (the layer-transfer matrix itself, pre-inversion).
+- V37 scored findings TSV (for the axis-specific transfer claims and their effect sizes).
+
+**3. Concrete computable test.**
+Take the committed layer-transfer matrix. Compute the axis-specificity statistic exactly as used in the V38 inversion (e.g., ratio of on-axis to off-axis transfer weight). Then permute axis labels 1,000 times within the matrix (no new data; pure relabeling) and recompute the statistic. Report observed value, permutation mean, permutation 95% interval, and empirical p. Output: one row per axis claim.
+
+**4. Interpretation rules.**
+- *Strengthens*: observed statistic outside the permutation 95% interval for the axes V38 currently calls specific — axis-specificity claim hardens.
+- *Weakens*: observed inside the interval for some axes — those specific axes should be demoted to "not distinguishable from label-permuted null" in the V38 ledger.
+- *Demotes*: observed inside interval for *most* axes — the layer-transfer inversion's "axis-specific, not narrative-similarity" conclusion needs to be re-scoped to the surviving subset.
+
+---
+
+**V37 → V38 delta in each case** is a single small table (3×3, 5×3, or one row per axis) plus a one-line ledger entry recording whether the existing V38 conclusion is strengthened, weakened, or demoted. No new data, no rule edits, no model-opinion evidence.
