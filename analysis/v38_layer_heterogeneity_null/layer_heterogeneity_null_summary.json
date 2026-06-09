@@ -1,0 +1,18 @@
+{
+  "input": "analysis/v38_layer_transfer_inversion/key_disease_axis_placements.tsv",
+  "seed": 3813,
+  "n_permutations": 10000,
+  "observed": {
+    "n_diseases": 4,
+    "n_heterogeneous": 4,
+    "mean_range": 1.375,
+    "max_range": 2.0
+  },
+  "null_n_heterogeneous_mean": 3.0496,
+  "null_n_heterogeneous_p95": 4.0,
+  "null_mean_range_mean": 1.0395625,
+  "null_mean_range_p95": 1.5,
+  "empirical_p_n_heterogeneous_ge_observed": 0.27647235276472354,
+  "empirical_p_mean_range_ge_observed": 0.14728527147285272,
+  "interpretation": "If this null p is high, simple disease-level heterogeneity is not itself surprising given the placement-label distribution. The layer-transfer claim should then rest on the disagreement-cell axis/compartment/causality evidence, not on heterogeneity count alone."
+}

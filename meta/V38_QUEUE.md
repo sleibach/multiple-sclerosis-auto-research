@@ -30,6 +30,7 @@
 | 10 | A/C | V36 exploratory fragility map | done | V36 promotion failures cluster around multiplicity, confounder/composition, therapy specificity, small-n power, and missing decisive modalities/metadata. |
 | 11 | B/D/E | Multi-lineage proposal pass plus tone-residual scalar grounding | done | Claude/Gemini proposed next tests; grounded tone-residual scalar test shows broad tone alone does not reproduce the scalar response signal. |
 | 12 | A/C | Failure-vs-fragility concordance audit | done | Gate-level comparison shows maps are complementary: V38 captures direction/modality and marker-not-driver; V36 captures overfit/power/technical fragility. |
+| 13 | B | Layer-map heterogeneity permutation null | done | Simple 4/4 heterogeneity is not exceptional under random placement-label reassignment; layer-map evidence should rest on disagreement-cell specificity. |
 
 ## Iteration Log
 
@@ -236,4 +237,20 @@
   divergence was `0.186` bits. The maps are complementary: V38 captures
   direction/modality and marker-not-driver target failures, while V36 captures
   multiplicity/overfit, power, technical, and exploratory-data fragility. Report
+  updated.
+
+### Iteration 13
+
+- Start UTC: 2026-06-09T05:02:29Z
+- End UTC: 2026-06-09T05:03:37Z
+- Status: completed
+- Item selected: Workstream B, layer-map heterogeneity permutation null.
+- Planned grounding: permute placement labels across key disease-axis rows to
+  test whether the simple "4/4 key diseases heterogeneous" statistic is itself
+  exceptional, separate from the richer disagreement-cell evidence.
+- Result: `scripts/v38_layer_heterogeneity_null.py` showed the simple
+  heterogeneity statistic is not exceptional under random placement-label
+  reassignment (`p=0.276` for `4/4` heterogeneous diseases; `p=0.147` for mean
+  placement range). This narrows the layer-transfer claim: it should rest on the
+  V11/V12 disagreement-cell evidence, not the heterogeneity count alone. Report
   updated.

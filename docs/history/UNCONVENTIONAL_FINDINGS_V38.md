@@ -233,6 +233,22 @@ What remains limited:
   but did not turn every V12 genetics transfer cell into robust locus-level
   colocalization.
 
+Additional null:
+
+- Script: `scripts/v38_layer_heterogeneity_null.py`
+- Summary:
+  `analysis/v38_layer_heterogeneity_null/layer_heterogeneity_null_summary.json`
+- The simple statistic "4/4 key diseases have heterogeneous axis placements" is
+  **not exceptional** under random reassignment of placement labels across the
+  same key disease-axis table:
+  - empirical p for `n_heterogeneous >= 4`: `0.276`;
+  - empirical p for mean placement range >= observed: `0.147`.
+
+This narrows the evidence basis: disease-level heterogeneity is a useful
+description but not the proof. The transfer-map claim rests on the specific
+V11/V12 disagreement cells, where `8/8` non-artifact cells carry
+axis/compartment/causality evidence.
+
 ### B5. Tone-Stripped Residual Scalar Test
 
 Status: **completed from model-lens proposal, grounded on V32 table**.
@@ -748,6 +764,9 @@ Weakened / narrowed:
   MHC-free for chr6:25-34 Mb.
 - Any phrase turning the transfer map into direct intervention transfer is too
   strong; V38 supports it as an axis-specific warning/triage framework.
+- Any phrase treating "4/4 heterogeneous diseases" alone as statistical proof
+  of axis-specific transfer is too strong; the permutation null shows that
+  statistic is not exceptional by itself.
 
 Demoted:
 
