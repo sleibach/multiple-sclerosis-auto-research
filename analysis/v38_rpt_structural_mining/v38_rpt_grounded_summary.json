@@ -1,0 +1,14 @@
+{
+  "n_masked": 6,
+  "n_matches_true_action": 5,
+  "n_contradictions": 1,
+  "contradiction_items": [
+    {
+      "ITEM": "Bounded APC/HLA-II early treatment-response monitoring scalar",
+      "TRUE_ACTION_CLASS": "external_validation_priority",
+      "prediction": "data_gated_followup",
+      "confidence": 0.88
+    }
+  ],
+  "overall_verdict": "RPT primarily recovers the V37 action classes when grounded against the same score table; contradictions are prioritization prompts, not evidence."
+}

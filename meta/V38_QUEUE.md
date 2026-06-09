@@ -20,7 +20,7 @@
 |---:|---|---|---|---|
 | 1 | B | Adversarial inversion of bounded V22/V23 monitoring signal | in-progress | Construct strongest artifact/inversion cases and ground on held V22/V23/V28/V32 data. |
 | 2 | A | Failure-structure meta-analysis across killed/closed leads | done | V37 closed/negative frame analyzed: dominant families are evidence-resolution failure (7/20), context/axis dependence (5/20), direction/modality constraint (5/20), and specificity/control failure (4/20). |
-| 3 | E | RPT-led structured mining over V37 score table and lead matrices | todo | Use RPT as tabular proposal source; ground surfaced patterns. |
+| 3 | E | RPT-led structured mining over V37 score table and lead matrices | done | RPT matched 5/6 masked V37 action classes; only contradiction was bounded scalar predicted as data-gated follow-up, sharpening operational-priority wording without evidence demotion. |
 | 4 | C | Unpublishable-but-true exclusion/non-replication list | todo | Extract rigorous exclusions and non-replications from committed artifacts. |
 | 5 | D | Cross-scale/control-systems reframing | todo | Test whether held module data support set-point/feedback interpretations beyond scalar scores. |
 
@@ -62,3 +62,19 @@
   Dominant families: evidence-resolution failure `7/20`, context/axis
   dependence `5/20`, direction/modality constraint `5/20`, specificity/control
   failure `4/20`. V38 report updated.
+
+### Iteration 3
+
+- Start UTC: 2026-06-09T04:25:16Z
+- End UTC: 2026-06-09T04:27:45Z
+- Status: completed
+- Item selected: Workstream E, RPT-led structured mining over V37 score table
+  and V38 failure-mode annotations.
+- Planned grounding: construct a compact tabular payload from V37/V38 tables,
+  let RPT classify masked rows, then compare RPT-surfaced patterns against
+  actual scored-table/failure-family counts.
+- Result: `scripts/v38_rpt_structural_mining.py` built a V37/V38 feature table
+  and masked six edge items. RPT matched the artifact-derived action class for
+  `5/6` rows. The single contradiction was the bounded scalar, predicted as
+  `data_gated_followup` rather than `external_validation_priority`, reinforcing
+  that its priority is operational/clinical and not evidence-grade inflation.

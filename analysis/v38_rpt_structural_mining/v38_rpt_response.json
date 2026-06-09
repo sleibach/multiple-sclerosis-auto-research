@@ -1,0 +1,165 @@
+{
+  "id": "9d67871a-cbd0-4a41-b4b8-67e8d7f749ba",
+  "metadata": {
+    "num_columns": 14,
+    "num_predictions": 6,
+    "num_query_rows": 6,
+    "num_rows": 32
+  },
+  "predictions": [
+    {
+      "ACTION_CLASS": [
+        {
+          "confidence": 0.88,
+          "confidence_interval": null,
+          "prediction": "data_gated_followup"
+        },
+        {
+          "confidence": 0.05,
+          "confidence_interval": null,
+          "prediction": "supported_context"
+        },
+        {
+          "confidence": 0.05,
+          "confidence_interval": null,
+          "prediction": "transfer_warning"
+        },
+        {
+          "confidence": 0.02,
+          "confidence_interval": null,
+          "prediction": "method_context"
+        }
+      ],
+      "ID": "V37_01"
+    },
+    {
+      "ACTION_CLASS": [
+        {
+          "confidence": 0.98,
+          "confidence_interval": null,
+          "prediction": "data_gated_followup"
+        },
+        {
+          "confidence": 0.01,
+          "confidence_interval": null,
+          "prediction": "transfer_warning"
+        },
+        {
+          "confidence": 0.01,
+          "confidence_interval": null,
+          "prediction": "supported_context"
+        },
+        {
+          "confidence": 0.0,
+          "confidence_interval": null,
+          "prediction": "negative_closed"
+        }
+      ],
+      "ID": "V37_09"
+    },
+    {
+      "ACTION_CLASS": [
+        {
+          "confidence": 1.0,
+          "confidence_interval": null,
+          "prediction": "data_gated_followup"
+        },
+        {
+          "confidence": 0.0,
+          "confidence_interval": null,
+          "prediction": "supported_context"
+        },
+        {
+          "confidence": 0.0,
+          "confidence_interval": null,
+          "prediction": "transfer_warning"
+        },
+        {
+          "confidence": 0.0,
+          "confidence_interval": null,
+          "prediction": "negative_closed"
+        }
+      ],
+      "ID": "V37_10"
+    },
+    {
+      "ACTION_CLASS": [
+        {
+          "confidence": 0.99,
+          "confidence_interval": null,
+          "prediction": "transfer_warning"
+        },
+        {
+          "confidence": 0.01,
+          "confidence_interval": null,
+          "prediction": "negative_closed"
+        },
+        {
+          "confidence": 0.0,
+          "confidence_interval": null,
+          "prediction": "supported_context"
+        },
+        {
+          "confidence": 0.0,
+          "confidence_interval": null,
+          "prediction": "data_gated_followup"
+        }
+      ],
+      "ID": "V37_11"
+    },
+    {
+      "ACTION_CLASS": [
+        {
+          "confidence": 0.89,
+          "confidence_interval": null,
+          "prediction": "transfer_warning"
+        },
+        {
+          "confidence": 0.11,
+          "confidence_interval": null,
+          "prediction": "negative_closed"
+        },
+        {
+          "confidence": 0.0,
+          "confidence_interval": null,
+          "prediction": "supported_context"
+        },
+        {
+          "confidence": 0.0,
+          "confidence_interval": null,
+          "prediction": "method_context"
+        }
+      ],
+      "ID": "V37_13"
+    },
+    {
+      "ACTION_CLASS": [
+        {
+          "confidence": 1.0,
+          "confidence_interval": null,
+          "prediction": "negative_closed"
+        },
+        {
+          "confidence": 0.0,
+          "confidence_interval": null,
+          "prediction": "transfer_warning"
+        },
+        {
+          "confidence": 0.0,
+          "confidence_interval": null,
+          "prediction": "supported_context"
+        },
+        {
+          "confidence": 0.0,
+          "confidence_interval": null,
+          "prediction": "method_context"
+        }
+      ],
+      "ID": "V37_20"
+    }
+  ],
+  "status": {
+    "code": 0,
+    "message": "ok"
+  }
+}

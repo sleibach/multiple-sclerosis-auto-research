@@ -127,6 +127,68 @@ skeptically pre-filtered. A new lead should be penalized immediately if it
 requires cross-axis transfer, restoration/up-function without modality, or broad
 module interpretation without a matched specificity control.
 
+## Workstream E: RPT-Led Structural Mining
+
+### E1. RPT Mining Over V37 Score Table And V38 Failure Annotations
+
+Status: **completed for V37 score-table action-class probe**.
+
+Question:
+
+Does the tabular structure of the V37 scored findings table surface a pattern
+or contradiction that the narrative synthesis missed?
+
+Grounding artifacts:
+
+- Script: `scripts/v38_rpt_structural_mining.py`
+- Payload:
+  `analysis/v38_rpt_structural_mining/v38_rpt_payload.json`
+- Response:
+  `analysis/v38_rpt_structural_mining/v38_rpt_response.json`
+- Masked predictions:
+  `analysis/v38_rpt_structural_mining/v38_rpt_masked_predictions.tsv`
+- Grounded summary:
+  `analysis/v38_rpt_structural_mining/v38_rpt_grounded_summary.json`
+
+Method:
+
+The table used V37 relevance, novelty, evidence grade, provisional/negative
+flags, data-gap flags, transfer-warning flags, and V38 failure-table membership.
+Six edge items were masked:
+
+- bounded APC/HLA-II scalar;
+- T/B-readable early IFN/APC/STAT1 state;
+- postpartum HLA-II/CD64 APC-arm imbalance;
+- ZMIZ1;
+- PTGER4;
+- V25 simulator negative.
+
+Result:
+
+- Masked rows: `6`.
+- RPT predictions matching the artifact-derived V37 action class: `5/6`.
+- Sole contradiction: the bounded APC/HLA-II scalar.
+  - V37 true class: `external_validation_priority`.
+  - RPT prediction: `data_gated_followup`, confidence `0.88`.
+
+Interpretation:
+
+RPT mostly rediscovered the V37 action taxonomy. The single contradiction is
+useful: tabularly, the bounded scalar looks like other provisional,
+data-gated follow-ups. Its "external validation priority" status is not earned
+by generic table structure; it is earned by clinical relevance, pre-locking,
+and the fact that a concrete Gafson/DMF validation path exists.
+
+Verdict:
+
+RPT does **not** demote the bounded scalar, because RPT output is not evidence.
+It does sharpen the wording:
+
+> The scalar is the top operational validation priority, not a structurally
+> exceptional finding in the score table.
+
+No V37 score changes are made.
+
 ## V37-to-V38 Delta So Far
 
 Strengthened:
@@ -138,6 +200,9 @@ Strengthened:
 - V37's broad discipline is strengthened by the failure-structure result: most
   dead ends were not random; they cluster around context/axis transfer, evidence
   resolution, and direction/modality constraints.
+- RPT independently treats the bounded scalar as data-gated rather than
+  intrinsically exceptional, reinforcing that its priority is operational and
+  clinical, not a reason to inflate evidence grade.
 
 Weakened / narrowed:
 
