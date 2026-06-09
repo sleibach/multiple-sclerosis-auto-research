@@ -1,0 +1,320 @@
+{
+  "n_failure_items": 20,
+  "top_failure_families": [
+    {
+      "family": "context_or_axis_dependence",
+      "n_items": 5,
+      "fraction_of_failure_items": 0.25,
+      "items": "UC genetics vs treatment-response layer split; Crohn downstream IFN/APC convergence exceeds genetic proximity; RA pregnancy comparator but blood APC treatment-response nontransfer; Sjogren antigen-presentation but not lysosomal/APC lesion-rim transfer; Locked V7 general cross-disease baseline fallback killed"
+    },
+    {
+      "family": "direction_or_modality_constraint",
+      "n_items": 5,
+      "fraction_of_failure_items": 0.25,
+      "items": "ZMIZ1 opposite-direction MS/Crohn decoupling; chr1 KIF21B/GPR25 locus resolves to real biology but hard target; PTGER4 mixed shared/distinct signal closes naive transfer; GPR25 demoted from protected favorite; Metabolic/sterol setpoint is context/confounder axis, not intervention-grade"
+    },
+    {
+      "family": "specificity_or_control_failure",
+      "n_items": 4,
+      "fraction_of_failure_items": 0.2,
+      "items": "MHC overlap is distinct-signal, not simple shared biology; Sjogren antigen-presentation but not lysosomal/APC lesion-rim transfer; EBV/IFN APC imprint downgraded by specificity control; Complement/lipid progressive axis downgraded"
+    },
+    {
+      "family": "evidence_resolution_failure",
+      "n_items": 7,
+      "fraction_of_failure_items": 0.35,
+      "items": "chr1 KIF21B/GPR25 locus resolves to real biology but hard target; No load-bearing invariant found in V26; No validated broad immune-state simulator from held data; GPR25 demoted from protected favorite; ZFP36L1 chr14 parked; REL/PUS10/USP34 chr2 closed; Lysosomal APC bottleneck not proven"
+    },
+    {
+      "family": "complexity_or_modeling_failure",
+      "n_items": 2,
+      "fraction_of_failure_items": 0.1,
+      "items": "No validated broad immune-state simulator from held data; Coupled-axis successor rule does not beat scalar"
+    },
+    {
+      "family": "marker_not_driver",
+      "n_items": 2,
+      "fraction_of_failure_items": 0.1,
+      "items": "NAMPT/eNAMPT not reactivated as target; Metabolic/sterol setpoint is context/confounder axis, not intervention-grade"
+    }
+  ],
+  "top_failure_modes": [
+    [
+      "module_specificity_failure",
+      3
+    ],
+    [
+      "transfer_invalid",
+      2
+    ],
+    [
+      "hard_protective_direction",
+      2
+    ],
+    [
+      "causal_gene_ambiguity",
+      2
+    ],
+    [
+      "axis_mismatch",
+      2
+    ],
+    [
+      "baseline_not_dynamic",
+      2
+    ],
+    [
+      "compartment_mismatch",
+      2
+    ],
+    [
+      "opposite_direction",
+      1
+    ],
+    [
+      "weak_modality_fit",
+      1
+    ],
+    [
+      "mixed_signals",
+      1
+    ],
+    [
+      "direction_conflict",
+      1
+    ],
+    [
+      "distinct_causal_variants",
+      1
+    ],
+    [
+      "overlap_not_mechanism",
+      1
+    ],
+    [
+      "downstream_context_dependence",
+      1
+    ],
+    [
+      "context_dependence",
+      1
+    ],
+    [
+      "invariance_not_supported",
+      1
+    ],
+    [
+      "underpowered_modality_count",
+      1
+    ],
+    [
+      "generalization_failure",
+      1
+    ],
+    [
+      "heldout_validation_failure",
+      1
+    ],
+    [
+      "scope_too_broad",
+      1
+    ],
+    [
+      "complexity_no_improvement",
+      1
+    ],
+    [
+      "small_n_overfit_risk",
+      1
+    ],
+    [
+      "cross_disease_generalization_failure",
+      1
+    ],
+    [
+      "weak_expression_support",
+      1
+    ],
+    [
+      "immature_chemical_matter",
+      1
+    ],
+    [
+      "marker_not_driver",
+      1
+    ],
+    [
+      "weak_genetic_support",
+      1
+    ],
+    [
+      "prior_art_not_enough",
+      1
+    ],
+    [
+      "subthreshold_coloc",
+      1
+    ],
+    [
+      "missing_qtl_direction",
+      1
+    ],
+    [
+      "coloc_failure",
+      1
+    ],
+    [
+      "expression_cannot_rescue",
+      1
+    ],
+    [
+      "random_control_failure",
+      1
+    ],
+    [
+      "donor_aware_nonreplication",
+      1
+    ],
+    [
+      "coupling_not_causality",
+      1
+    ],
+    [
+      "bottleneck_not_proven",
+      1
+    ],
+    [
+      "confounder_context_not_mechanism",
+      1
+    ],
+    [
+      "direction_not_actionable",
+      1
+    ]
+  ],
+  "mechanism_levels": [
+    [
+      "cross_axis_transfer",
+      4
+    ],
+    [
+      "exploratory_module",
+      4
+    ],
+    [
+      "genetics_coloc",
+      3
+    ],
+    [
+      "genetics_direction",
+      2
+    ],
+    [
+      "genetics_to_target",
+      2
+    ],
+    [
+      "deep_structure",
+      1
+    ],
+    [
+      "modeling",
+      1
+    ],
+    [
+      "treatment_response_modeling",
+      1
+    ],
+    [
+      "treatment_response",
+      1
+    ],
+    [
+      "target_nomination",
+      1
+    ]
+  ],
+  "constraint_counts": [
+    [
+      "same_locus_opposite_disease_direction",
+      1
+    ],
+    [
+      "restoration_or_up_function_required",
+      1
+    ],
+    [
+      "signal_specific_direction_unresolved",
+      1
+    ],
+    [
+      "shared_region_not_shared_target",
+      1
+    ],
+    [
+      "genetics_does_not_define_response_rule",
+      1
+    ],
+    [
+      "response_analogy_not_target_transfer",
+      1
+    ],
+    [
+      "pregnancy_timing_not_blood_biomarker",
+      1
+    ],
+    [
+      "antigen_presentation_not_lesion_repair",
+      1
+    ],
+    [
+      "no_conserved_invariant_target",
+      1
+    ],
+    [
+      "cannot_triage_patient_or_genetics_claims",
+      1
+    ],
+    [
+      "do_not_replace_locked_scalar",
+      1
+    ],
+    [
+      "baseline_stratifier_invalid",
+      1
+    ],
+    [
+      "agonism_or_restoration_required",
+      1
+    ],
+    [
+      "covariate_not_target",
+      1
+    ],
+    [
+      "no_direction_matched_target",
+      1
+    ],
+    [
+      "no_shared_disease_signal",
+      1
+    ],
+    [
+      "broad_ifn_not_ebv_specific",
+      1
+    ],
+    [
+      "weak_lipid_context_only",
+      1
+    ],
+    [
+      "needs_flux_or_peptidomics",
+      1
+    ],
+    [
+      "covariate_not_intervention",
+      1
+    ]
+  ],
+  "overall_verdict": "The dominant structure is not one universal failure mechanism. Most failures cluster into context/axis-dependence and evidence-resolution limits, with a smaller but important therapeutic-direction/up-function constraint in genetics targets."
+}

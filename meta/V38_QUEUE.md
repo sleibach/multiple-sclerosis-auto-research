@@ -19,7 +19,7 @@
 | Priority | Workstream | Item | Status | Resume Note |
 |---:|---|---|---|---|
 | 1 | B | Adversarial inversion of bounded V22/V23 monitoring signal | in-progress | Construct strongest artifact/inversion cases and ground on held V22/V23/V28/V32 data. |
-| 2 | A | Failure-structure meta-analysis across killed/closed leads | todo | Treat V37 scored closed/negative items as a dataset; test whether failures share direction, confounding, context-dependence, or evidence-modality constraints. |
+| 2 | A | Failure-structure meta-analysis across killed/closed leads | done | V37 closed/negative frame analyzed: dominant families are evidence-resolution failure (7/20), context/axis dependence (5/20), direction/modality constraint (5/20), and specificity/control failure (4/20). |
 | 3 | E | RPT-led structured mining over V37 score table and lead matrices | todo | Use RPT as tabular proposal source; ground surfaced patterns. |
 | 4 | C | Unpublishable-but-true exclusion/non-replication list | todo | Extract rigorous exclusions and non-replications from committed artifacts. |
 | 5 | D | Cross-scale/control-systems reframing | todo | Test whether held module data support set-point/feedback interpretations beyond scalar scores. |
@@ -46,3 +46,19 @@
   immune-tone adjustment AUC `0.656`, p `0.163`; threshold transfer weak
   (`0.667` and `0.600` accuracy). Report updated in
   `docs/history/UNCONVENTIONAL_FINDINGS_V38.md`.
+
+### Iteration 2
+
+- Start UTC: 2026-06-09T04:22:36Z
+- End UTC: 2026-06-09T04:24:43Z
+- Status: completed
+- Item selected: Workstream A, failure-structure meta-analysis across
+  killed/closed leads.
+- Planned grounding: use `docs/reports/FINDINGS_SCORES_V37.tsv` as the
+  closed/negative item frame, annotate failure modes from committed artifact
+  summaries, count recurrent structures, and update the V38 report.
+- Result: `scripts/v38_failure_structure_meta.py` analyzed 20 V37
+  closed/negative/decoupling items. There is no single universal failure law.
+  Dominant families: evidence-resolution failure `7/20`, context/axis
+  dependence `5/20`, direction/modality constraint `5/20`, specificity/control
+  failure `4/20`. V38 report updated.

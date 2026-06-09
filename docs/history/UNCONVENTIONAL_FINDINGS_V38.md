@@ -62,6 +62,71 @@ test that confirms the V37 wording should stay conservative and that the next
 action remains frozen Gafson/DMF validation rather than building a successor
 rule.
 
+## Workstream A: Structure Of Failure
+
+### A1. Failure-Mode Meta-Analysis Across V37 Negative/Closed Items
+
+Status: **completed for V37 closed/negative item frame**.
+
+Question:
+
+Do the project's killed, closed, parked, and decoupling findings fail for a
+common reason that itself reveals a constraint on MS biology or project
+methodology?
+
+Grounding artifacts:
+
+- Script: `scripts/v38_failure_structure_meta.py`
+- Input frame: `docs/reports/FINDINGS_SCORES_V37.tsv`
+- Annotated failure table:
+  `analysis/v38_failure_structure/failure_mode_table.tsv`
+- Family counts:
+  `analysis/v38_failure_structure/failure_family_counts.tsv`
+- Mode counts:
+  `analysis/v38_failure_structure/failure_mode_counts.tsv`
+- Summary:
+  `analysis/v38_failure_structure/failure_structure_summary.json`
+
+Frame:
+
+- V37 closed/negative/decoupling items analyzed: `20`.
+- Categories included: `decoupling_negative` and `kills_closed`.
+- Tags were explicit artifact-derived annotations, not model output.
+
+Family-level results:
+
+| Failure family | Items | Fraction | Interpretation |
+|---|---:|---:|---|
+| Evidence-resolution failure | `7` | `0.35` | The most common limit is not biological impossibility but insufficient causal resolution, full-QTL direction, held-out validation, or perturbation proof. |
+| Context or axis dependence | `5` | `0.25` | Mechanisms often fail when moved across disease, tissue, therapy, baseline/dynamic state, or compartment. |
+| Direction or modality constraint | `5` | `0.25` | Genetics and target leads often fail because the disease-protective direction is opposite, mixed, or requires hard restoration/up-function. |
+| Specificity or control failure | `4` | `0.20` | Attractive broad module interpretations often fail under random controls, donor-aware tests, or distinct-causal-variant checks. |
+| Complexity or modeling failure | `2` | `0.10` | More complex models or coupled successors fail to improve over simpler locked representations. |
+| Marker-not-driver failure | `2` | `0.10` | Some attractive biology remains useful as covariate/readout, not as target. |
+
+Most frequent individual tags:
+
+- `module_specificity_failure`: `3` items.
+- `transfer_invalid`, `hard_protective_direction`, `causal_gene_ambiguity`,
+  `axis_mismatch`, `baseline_not_dynamic`, `compartment_mismatch`: `2` items
+  each.
+
+Verdict:
+
+There is **no single universal failure mechanism**. The common structure is a
+three-part constraint:
+
+1. MS-adjacent mechanisms are highly context/axis dependent.
+2. Therapeutic genetics often points toward hard directions: restoration,
+   up-function, signal-specific modulation, or opposite disease directions.
+3. Broad module stories collapse unless they survive specificity, donor-aware,
+   full-QTL, or held-out validation gates.
+
+This is decision-useful because it predicts where future leads should be
+skeptically pre-filtered. A new lead should be penalized immediately if it
+requires cross-axis transfer, restoration/up-function without modality, or broad
+module interpretation without a matched specificity control.
+
 ## V37-to-V38 Delta So Far
 
 Strengthened:
@@ -70,6 +135,9 @@ Strengthened:
   inversion.
 - The need for Gafson DMF validation is stronger, because the only MS-internal
   anchor is DMF-only AUC `0.720` with exact p `0.155`.
+- V37's broad discipline is strengthened by the failure-structure result: most
+  dead ends were not random; they cluster around context/axis transfer, evidence
+  resolution, and direction/modality constraints.
 
 Weakened / narrowed:
 
