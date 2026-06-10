@@ -1013,3 +1013,50 @@ Next session first action:
   RNA-seq processed counts plus sample-level NEDA-4 labels. If data arrive,
   quarantine them and run only the frozen V22 validation harness plus
   V32/V36/V38/V39/V41 secondary audits; do not fit a successor rule on them.
+
+## RUN SUMMARY - V42 Gafson Pre-Registration And Validation-Readiness Hardening
+
+- Active runtime: 14 minutes 7 seconds, measured from real system-clock reads
+  (`2026-06-10T09:08:36Z` to `2026-06-10T09:22:43Z`). The optional 240-minute
+  ceiling was not needed; the preparation work was value-complete.
+- Session start timestamp (UTC): 2026-06-10T09:08:36Z.
+- Session end timestamp (UTC): 2026-06-10T09:22:43Z.
+- OpenGWAS: POST access check passed with HTTP 200; JWT valid until
+  `2026-06-19 12:28 UTC`. Renewal is now flagged as mandatory before any
+  validation-adjacent OpenGWAS-dependent check after that timestamp.
+- SAP AI Core health: `SAP_AI_CORE_API_KEY` present; Claude 4.7 Opus via
+  Orchestration, Gemini 2.5 Pro, and `sap-rpt-1-large` all smoke-passed. No
+  model output was used as evidence; no analysis model calls were made beyond
+  smoke checks. The local client exposes no per-call spend.
+- Iterations completed: 1 value-complete preparation iteration.
+- Pre-registration completeness: complete. Wrote
+  `docs/validation/PREREGISTRATION_V42.md`, freezing Gafson data ingestion,
+  paired-sample rules, NEDA-4 endpoint mapping, expression preprocessing,
+  immutable V22 scoring, V32 confounder panels, pass/fail thresholds, and the
+  analysis-count budget while blind to Gafson data.
+- Interpretation-grid completeness: complete. Wrote
+  `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md`, pre-committing clean
+  pass, immune-tone-bounded pass, non-specific pass, adequate-power fail,
+  inconclusive, and unscoreable-data interpretations.
+- Harness synthetic-data verification:
+  - new harness: `scripts/v42_gafson_validation_harness.py`;
+  - outputs: `analysis/v42_harness_validation/`;
+  - null synthetic cohort correctly did not pass:
+    `FAIL_ADEQUATE_POWER`, AUC `0.520`, Hedges g `0.029`;
+  - planted-signal synthetic cohort correctly passed:
+    `PASS_CLEAN`, AUC `1.000`, Hedges g `6.979`;
+  - script syntax check and `git diff --check` passed.
+- Validation-readiness update: `docs/validation/VALIDATION_READINESS_V27.md`
+  now points to the V42 preregistration, outcome grid, raw-expression harness,
+  synthetic verification outputs, command template, and token-renewal warning.
+- RAG rebuild: sparse knowledge index rebuilt to `534` documents. Smoke query
+  `V42 Gafson preregistration NEDA synthetic harness` returned the V42 queue,
+  readiness doc, preregistration, outcome grid, and Gafson data request.
+- Stop reason: value-complete handoff after frozen preregistration, frozen
+  interpretation grid, synthetic-verified harness, readiness addendum, resume
+  updates, and RAG rebuild were completed; optional long-block target was not
+  reached because no further preparation step was needed before receiving data.
+- Next action: acquire or receive Gafson et al. 2018 DMF PBMC RNA-seq processed
+  counts plus sample-level NEDA-4 labels, quarantine the package by path/size/
+  checksum before analysis, then run only the V42 preregistered harness and
+  interpret under the V42 grid. Do not tune the V22 rule on Gafson.

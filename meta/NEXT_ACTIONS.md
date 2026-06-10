@@ -1,10 +1,51 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-06-09 22:52 CEST
+Last updated: 2026-06-10 11:20 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
 ## Queue
+
+V42 update:
+
+- Main pre-registration:
+  `docs/validation/PREREGISTRATION_V42.md`.
+- Outcome interpretation grid:
+  `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md`.
+- Raw-expression validation harness:
+  `scripts/v42_gafson_validation_harness.py`.
+- Synthetic verification outputs:
+  `analysis/v42_harness_validation/`.
+- Synthetic self-test result:
+  - null cohort expected to fail and did fail:
+    `FAIL_ADEQUATE_POWER`, AUC `0.520`, Hedges g `0.029`;
+  - planted-signal cohort expected to pass and did pass:
+    `PASS_CLEAN`, AUC `1.000`, Hedges g `6.979`.
+- OpenGWAS:
+  - POST check passed HTTP 200;
+  - JWT expires `2026-06-19 12:28 UTC`;
+  - renew before any validation-adjacent OpenGWAS check after that timestamp.
+
+First post-V42 action:
+
+1. Acquire or receive Gafson et al. 2018 DMF PBMC RNA-seq processed counts plus
+   sample-level NEDA-4 labels.
+2. Before opening the data for analysis, quarantine the package by recording
+   path, file sizes, and checksums.
+3. Run only the frozen V42 harness and interpretation plan:
+
+   ```bash
+   .venv/bin/python scripts/v42_gafson_validation_harness.py run \
+     --expression path/to/gafson_expression.tsv \
+     --metadata path/to/gafson_sample_metadata.tsv \
+     --expression-type auto \
+     --outdir analysis/gafson_validation_v42
+   ```
+
+4. Interpret the result only under
+   `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md`.
+5. Do not fit a successor rule, change the V22 modules, switch endpoint,
+   change timepoint, flip sign, or tune thresholds on Gafson.
 
 V41 update:
 

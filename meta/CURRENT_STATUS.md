@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-09 22:52 CEST
+Last updated: 2026-06-10 11:20 CEST
 
 ## Mission State
 
@@ -107,8 +107,41 @@ unexpected entity passed recurrence plus held-out validation. The corpus-level
 zero-success upper bound for unexpected joint-validated signal is `0.127`.
 Verdict: unconstrained public-data computation is exhausted for new discovery
 under this gate; external validation/new data is now the rational path.
+V42 hardened that external-validation path while still blind to Gafson data. It
+wrote `docs/validation/PREREGISTRATION_V42.md` to freeze the Gafson DMF/NEDA-4
+analysis plan, `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md` to
+pre-commit result interpretation, and
+`scripts/v42_gafson_validation_harness.py` plus
+`analysis/v42_harness_validation/` to prove the harness rejects a synthetic null
+and accepts a synthetic planted signal before real data arrive. No discovery,
+rule change, or Gafson data reading occurred.
 
 Current frontier:
+
+- V42 Gafson validation-readiness state:
+  - Frozen pre-registration:
+    `docs/validation/PREREGISTRATION_V42.md`.
+  - Pre-committed interpretation grid:
+    `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md`.
+  - Raw-expression validation harness:
+    `scripts/v42_gafson_validation_harness.py`.
+  - Synthetic verification outputs:
+    `analysis/v42_harness_validation/`.
+  - Synthetic self-test:
+    - null cohort expected to fail and did fail:
+      `FAIL_ADEQUATE_POWER`, AUC `0.520`, Hedges g `0.029`;
+    - planted-signal cohort expected to pass and did pass:
+      `PASS_CLEAN`, AUC `1.000`, Hedges g `6.979`.
+  - OpenGWAS:
+    - POST access checked HTTP 200;
+    - JWT valid until `2026-06-19 12:28 UTC`;
+    - renew before any validation-adjacent OpenGWAS check after that timestamp.
+  - Current decision:
+    - do not tune or reopen the V22 rule;
+    - acquire/receive the Gafson et al. 2018 DMF PBMC RNA-seq processed counts
+      plus sample-level NEDA-4 labels;
+    - quarantine received data, then run the V42 preregistered harness
+      mechanically and interpret results under the V42 grid.
 
 - V41 joint-inference state:
   - Main report: `docs/history/JOINT_INFERENCE_V41.md`.

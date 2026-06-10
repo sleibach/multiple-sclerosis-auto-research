@@ -11,7 +11,7 @@ All analysis uses public human-tissue data only and random seed `20260526`
 
 ## Current Status
 
-The current phase is **V41**. The V4 directory structure remains canonical, and
+The current phase is **V42**. The V4 directory structure remains canonical, and
 V11 introduced the resume backbone for short-session continuity.
 
 - Start here: `meta/CURRENT_STATUS.md` — the live mission state, active leads,
@@ -141,6 +141,16 @@ V11 introduced the resume backbone for short-session continuity.
   exhaustion bound for unexpected joint-validated signal is `0.127`; the
   verdict is that unconstrained public-data computation is exhausted for new
   discovery under this gate, and new external data is now the rational path.
+  V42 then hardened the Gafson validation path while still blind to the cohort:
+  `docs/validation/PREREGISTRATION_V42.md` freezes data ingestion, NEDA-4
+  endpoint mapping, module scoring, confounder audits, thresholds, and the
+  analysis-count budget; `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md`
+  pre-commits what pass, immune-tone attenuation, fail, inconclusive, and
+  unscoreable data mean; and `scripts/v42_gafson_validation_harness.py` passed
+  synthetic self-tests under `analysis/v42_harness_validation/` (null fails,
+  planted signal passes). The OpenGWAS JWT expiry on `2026-06-19 12:28 UTC` is
+  now a readiness flag for any validation-adjacent OpenGWAS check after that
+  date.
 - Current genetics/data focus: the chr1 MS-UC causal-gene question is
   computationally resolved for now and handed forward as real shared genetics,
   not an intervention-grade target. V20 widened back out to a ranked
@@ -256,6 +266,7 @@ that explicitly in `meta/SESSION_LOG.md`.
 | V39 | Failure-structure meta-analysis and rigorous exclusion mapping. | Produced `docs/history/FAILURE_STRUCTURE_AND_EXCLUSION_V39.md`, `analysis/v39_failure_structure_exclusion/`, and `analysis/v39_immune_tone_anomaly/`. No universal failure law was supported; context/axis dependence is the strongest null-tested structure, direction/modality is a practical prefilter, and the exclusion/non-replication ledgers are now explicit stop-spending maps. |
 | V40 | Dimension-scouting and fast grounded probes of unexplored computational angles. | Produced `meta/DIMENSION_SCOUT_V40.md` and `docs/history/DIMENSION_PROBES_V40.md`. Protective/resilience-direction genetics was negative in the held frame; APC-axis topology showed a correction-surviving IFNG readout hub worth mechanism mapping but not target nomination. |
 | V41 | Maximum-capability joint inference over the full corpus. | Produced `docs/history/JOINT_INFERENCE_V41.md` and `analysis/v41_joint_inference/`. Joint inference recovered the known APC/HLA-II/IFN/MIF-CD74 monitoring axis and known metabolic/immune-tone context, but found no unexpected new held-out-validated signal; the public-data computation boundary is now explicit. |
+| V42 | Pre-registration and validation-readiness hardening for the Gafson cohort. | Produced `docs/validation/PREREGISTRATION_V42.md`, `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md`, `scripts/v42_gafson_validation_harness.py`, and `analysis/v42_harness_validation/`. The future Gafson DMF/NEDA-4 test is now a frozen, mechanical validation with synthetic null/planted self-tests and no new discovery claims. |
 
 `docs/findings/FINDING.md` documents the (since-demoted) `ACSL1` target hypothesis from an
 earlier phase and is retained for the historical trace.
@@ -423,6 +434,21 @@ V27 coupled-axis rule entry points:
   the best coupled feature, `coupling_coordination` (AUC `0.733`, Hedges g
   `0.777`), and the max-candidate permutation p for coupled advantage was
   `0.913`.
+
+V42 Gafson validation-readiness entry points:
+
+- `docs/validation/PREREGISTRATION_V42.md` is the frozen analysis plan for the
+  incoming Gafson et al. 2018 DMF PBMC RNA-seq plus NEDA-4 validation.
+- `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md` pre-commits what each
+  possible result means before data are read.
+- `scripts/v42_gafson_validation_harness.py` ingests raw expression and
+  metadata, computes the immutable V22 Class C score, and runs the V32
+  confounder panels.
+- `analysis/v42_harness_validation/` contains synthetic verification: null
+  synthetic cohort failed as expected (AUC `0.520`), planted-signal synthetic
+  cohort passed as expected (AUC `1.000`).
+- Operational readiness flag: renew OpenGWAS before any validation-adjacent
+  OpenGWAS-dependent check after `2026-06-19 12:28 UTC`.
 
 ## Honest Scope
 

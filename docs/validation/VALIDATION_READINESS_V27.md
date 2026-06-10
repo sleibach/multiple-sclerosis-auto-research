@@ -203,3 +203,54 @@ nonresponders to support both the primary locked-rule test and the secondary
 covariate audits. If sample size is much below `30` per response group, report
 the result as directional unless the observed effect is large and the
 pre-specified confounder/QC audits are clean.
+
+## V42 Pre-Registration And Harness-Hardening Addendum
+
+V42 converted the Gafson/DMF validation from a general readiness state into a
+blind, pre-registered, mechanical test plan.
+
+New frozen preparation artifacts:
+
+- `docs/validation/PREREGISTRATION_V42.md`: complete data-ingestion,
+  timepoint, expression-preprocessing, NEDA-4 endpoint, V22 scoring,
+  confounder-audit, threshold, and analysis-budget plan.
+- `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md`: pre-committed
+  interpretation grid for clean pass, immune-tone-bounded pass, non-specific
+  pass, adequate-power fail, inconclusive, and unscoreable data.
+- `scripts/v42_gafson_validation_harness.py`: raw-expression plus metadata
+  harness that computes V22 modules and V32 confounder panels without fitting
+  the primary score.
+- `analysis/v42_harness_validation/`: synthetic harness verification outputs.
+
+Synthetic validation result:
+
+- Null synthetic cohort: expected to fail; observed verdict
+  `FAIL_ADEQUATE_POWER`, AUC `0.520`, Hedges g `0.029`.
+- Planted-signal synthetic cohort: expected to pass; observed verdict
+  `PASS_CLEAN`, AUC `1.000`, Hedges g `6.979`.
+
+Future Gafson validation must use the V42 preregistration first. The older V27
+delta-only harness remains a final scoring layer for precomputed deltas, but
+V42 is now the authoritative plan for raw Gafson expression ingestion,
+confounder scoring, and interpretation.
+
+Command for the synthetic self-test:
+
+```bash
+.venv/bin/python scripts/v42_gafson_validation_harness.py synthetic-check \
+  --outdir analysis/v42_harness_validation
+```
+
+Command template for a future Gafson data package:
+
+```bash
+.venv/bin/python scripts/v42_gafson_validation_harness.py run \
+  --expression path/to/gafson_expression.tsv \
+  --metadata path/to/gafson_sample_metadata.tsv \
+  --expression-type auto \
+  --outdir analysis/gafson_validation_v42
+```
+
+Operational warning: OpenGWAS is not required for this validation, but the
+current JWT expires at `2026-06-19 12:28 UTC`. Renew the token before any
+validation-adjacent OpenGWAS-dependent check after that timestamp.

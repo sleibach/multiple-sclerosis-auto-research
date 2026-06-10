@@ -1,6 +1,6 @@
 # RAG Status
 
-Last updated: 2026-06-09 22:52 CEST
+Last updated: 2026-06-10 11:20 CEST
 
 ## Desired V4 Layer 2
 
@@ -25,14 +25,14 @@ Sparse local retrieval:
 - Build: `./.venv_v3_py312/bin/python scripts/build_knowledge_index.py`
 - Query: `./.venv_v3_py312/bin/python scripts/query_knowledge_index.py "candidate prior art" 10`
 - Index path: `knowledge/.index/tfidf_index.pkl`
-- Current document count: `531`.
-- Smoke test query `V41 joint inference exhaustion APC metabolic sterol heldout`
+- Current document count: `534`.
+- Smoke test query `V42 Gafson preregistration NEDA synthetic harness`
   returned:
-  1. `meta/V41_QUEUE.md`;
-  2. `docs/history/JOINT_INFERENCE_V41.md`;
-  3. `meta/CURRENT_STATUS.md`;
-  4. `meta/NEXT_ACTIONS.md`;
-  5. `meta/V32_QUEUE.md`.
+  1. `meta/V42_QUEUE.md`;
+  2. `docs/validation/VALIDATION_READINESS_V27.md`;
+  3. `docs/validation/PREREGISTRATION_V42.md`;
+  4. `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md`;
+  5. `docs/validation/GAFSON_DATA_REQUEST_V36.md`.
 
 This is not a semantic embedding index. It is a continuity aid until the proper
 vector stack is installed.
