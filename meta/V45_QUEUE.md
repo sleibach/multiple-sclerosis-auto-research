@@ -30,8 +30,8 @@ generate more internally executable tasks before continuing.
 | 3 | Robustness | Extend batch guard simulations to multi-confounder technical structures | done | Wrote `docs/validation/MULTICONFOUNDER_BATCH_GUARD_V45.md`; 5,600 synthetic cohorts show existing individual guard keeps worst synthetic-null acceptable pass at 0.0125, while naive joint guard is worse at 0.1000. |
 | 4 | Robustness | Stress-test V44 postpartum APC-arm harness under missing timepoints, steroid metadata, and batch imbalance | done | Wrote `docs/validation/POSTPARTUM_PATHOLOGY_STRESS_V45.md`; 6,300 synthetic cohorts show guarded null clean-pass max 0.0222 despite raw batch false positives up to 0.7667. |
 | 5 | Robustness | Stress-test V44 T/B compartment harness under composition shifts and compartment-label noise | done | Wrote `docs/validation/TB_COMPARTMENT_PATHOLOGY_STRESS_V45.md`; 6,300 synthetic cohorts show composition adjustment controls pure composition artifacts, but batch guard is required for response-correlated batch. |
-| 6 | Power/design | Produce medical-team cohort specification from V43/V44 simulations | in-progress | Exact n, timepoints, metadata, batch constraints, and label requirements for conclusive validation. |
-| 7 | Data-free validation | Run alternative convergence nulls using evidence-row weighting and source-family collapse | todo | Sensitivity for V44 recurrence without changing biological claim. |
+| 6 | Power/design | Produce medical-team cohort specification from V43/V44 simulations | done | Wrote `docs/validation/MEDICAL_TEAM_COHORT_SPEC_V45.md`; specifies minimum 30+30 for large clean effects and preferred 60-80 per group with batch-balanced metadata for robust validation. |
+| 7 | Data-free validation | Run alternative convergence nulls using evidence-row weighting and source-family collapse | in-progress | Sensitivity for V44 recurrence without changing biological claim. |
 | 8 | Data-free validation | Leave-one-artifact-family-out APC convergence check | todo | Tests whether report-derived artifacts inflate recurrence. |
 | 9 | Infrastructure | Package validation harness command templates and expected input schemas into a reusable validation README | todo | Durable CS output. |
 | 10 | Infrastructure/RPT | Exercise RPT on V44 structured readiness tables as proposal-only and verify no evidence claim changes | todo | RPT output must be grounded or labeled proposal-only. |
@@ -93,3 +93,10 @@ todo items.
   non-negotiable for this lead.
 - Next selected task: medical-team cohort specification from V43/V44/V45
   simulations.
+- Medical-team cohort specification completed. The decision-grade target is not
+  merely "get Gafson": Gafson remains best fit but likely underpowered; pursue
+  Karolinska labels in parallel; a prospective/collaborator cohort should target
+  at least `60+60` and preferably `80+80` with clean early timepoints, NEDA-style
+  labels, cell/technical covariates, and response-balanced processing.
+- Next selected task: alternative convergence nulls using evidence-row weighting
+  and source-family collapse.
