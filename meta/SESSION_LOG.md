@@ -1122,3 +1122,79 @@ Next session first action:
   counts plus sample-level NEDA-4 labels. Quarantine by path/size/checksum,
   check sample size and data quality against the V43 power/robustness envelope,
   then run only the frozen V42 harness and interpretation grid.
+
+## RUN SUMMARY - V44 Extended Autonomous Block: Reduce Single-Cohort Dependence
+
+- Active runtime: 31 minutes 46 seconds, measured from real system-clock reads
+  (`2026-06-12T15:20:06Z` to `2026-06-12T15:51:52Z`). The seeded V44 portfolio
+  was completed; the optional six-hour ceiling was not reached because all
+  seeded workstreams were done at a clean resumable point.
+- OpenGWAS: POST access check passed with HTTP 200 at block start; JWT valid
+  until `2026-06-19 12:28 UTC`, flagged for renewal before any
+  OpenGWAS-dependent work after that timestamp.
+- SAP AI Core health and model spend: `SAP_AI_CORE_API_KEY` present. Claude 4.7
+  Opus via Orchestration, Gemini 2.5 Pro, and `sap-rpt-1-large` smoke-passed.
+  Gemini requires a non-tiny output-token cap for smoke/generation because the
+  client now rejects `MAX_TOKENS` truncation. No model/RPT output was used as
+  evidence; only smoke checks were run. The local client exposes no per-call
+  spend.
+- Iterations/workstreams completed: 7.
+- Workstream 1, alternative/replication cohort scout:
+  - deliverable: `docs/validation/ALT_COHORT_SCOUT_V44.md`;
+  - outputs: `analysis/v44_alt_cohort_scout/`;
+  - result: no fresh public ready primary Tier 1 cohort found; Gafson remains
+    the best Tier 2 primary target; Karolinska DMF labels are a parallel Tier 2
+    request; `GSE228330` is open pharmacodynamic/context only.
+- Workstream 2, batch hardening:
+  - deliverable: `docs/validation/BATCH_GUARD_V44.md`;
+  - updated harness: `scripts/v42_gafson_validation_harness.py`;
+  - outputs: `analysis/v44_batch_guard/`;
+  - result: worst response-correlated batch synthetic null primary pass risk
+    fell from `0.40` to `0.00` guarded acceptable pass rate. This is an
+    additive diagnostic guard only; the locked V22 rule and V42 thresholds were
+    not changed.
+- Workstream 3, other live-lead preregistrations:
+  - deliverables:
+    `docs/validation/POSTPARTUM_APC_ARM_PREREGISTRATION_V44.md` and
+    `docs/validation/TB_COMPARTMENT_PREREGISTRATION_V44.md`;
+  - outputs: `analysis/v44_secondary_lead_harnesses/`;
+  - result: both synthetic null checks failed and both planted checks passed,
+    so these leads are mechanically validation-ready if relevant data arrive.
+- Workstream 4, self-audit weak leg:
+  - deliverable: `docs/history/SELF_AUDIT_WEAK_LEG_V44.md`;
+  - outputs: `analysis/v44_self_audit_weak_leg/`;
+  - result: V41 joint z is borderline because the family-wise max-z null is
+    high (`z=8.0548` vs null p95 `8.1547`, FWER `0.0684`), while recurrence is
+    the stronger formulation (`78` source units vs null p95 `12`, FWER
+    `0.0001`).
+- Workstream 5, internal convergence:
+  - deliverable: `docs/validation/APC_HLA_INTERNAL_CONVERGENCE_V44.md`;
+  - outputs: `analysis/v44_internal_validation/`;
+  - result: APC/HLA/IFN recurrence `78` exceeded the strictest source-local
+    max-null p99 `41` with FWER `0.00005` in 20,000-replicate nulls. Removing
+    `treatment_response` leaves recurrence `46`; removing the densest source
+    file leaves recurrence `55`.
+- Workstream 6, infrastructure:
+  - deliverable: `meta/INFRASTRUCTURE_STATUS_V44.md`;
+  - SAP access docs updated: `meta/SAP_AI_CORE_ACCESS_V30.md`;
+  - result: Claude, Gemini, and SAP RPT true statuses are documented; RPT is
+    genuinely implemented through `/predict`.
+- Workstream 7, external account:
+  - deliverable: `docs/reports/EXTERNAL_ACCOUNT_DRAFT_V44.md`;
+  - result: a skeptical external-facing draft now foregrounds no
+    intervention-grade target, provisional monitoring status, confounder/batch
+    bounds, and why Gafson is necessary but may not be sufficient.
+- RAG rebuild: sparse knowledge index rebuilt with
+  `.venv_v3_py312/bin/python scripts/build_knowledge_index.py` to `547`
+  documents. Smoke query `V44 batch guard alternative cohort scout APC
+  convergence Gafson` returned V44 external account, infrastructure status,
+  alternative cohort scout, validation readiness, V44 queue, batch guard, V42
+  preregistration, and next actions.
+- Stop reason: all seeded V44 workstreams completed and committed; clean
+  resumable point reached; six-hour ceiling not reached because backlog was
+  exhausted.
+- Next action: obtain Gafson processed counts plus NEDA-4 labels and/or
+  Karolinska DMF response labels; quarantine any received data by path, size,
+  and checksum; then run only the appropriate frozen V42/V44 preregistered
+  harness with batch/confounder diagnostics. Renew OpenGWAS before any
+  OpenGWAS-dependent work after `2026-06-19 12:28 UTC`.

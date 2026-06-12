@@ -1,10 +1,69 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-06-12 16:45 CEST
+Last updated: 2026-06-12 17:50 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
 ## Queue
+
+V44 update:
+
+- Queue / resume backbone: `meta/V44_QUEUE.md`.
+- Alternative/replication cohort scout:
+  `docs/validation/ALT_COHORT_SCOUT_V44.md`;
+  `analysis/v44_alt_cohort_scout/`.
+- Batch guard:
+  `docs/validation/BATCH_GUARD_V44.md`;
+  `analysis/v44_batch_guard/`;
+  additive harness changes in `scripts/v42_gafson_validation_harness.py`.
+- Secondary lead preregistrations:
+  `docs/validation/POSTPARTUM_APC_ARM_PREREGISTRATION_V44.md`;
+  `docs/validation/TB_COMPARTMENT_PREREGISTRATION_V44.md`;
+  `analysis/v44_secondary_lead_harnesses/`.
+- Self-audit/convergence:
+  `docs/history/SELF_AUDIT_WEAK_LEG_V44.md`;
+  `docs/validation/APC_HLA_INTERNAL_CONVERGENCE_V44.md`;
+  `analysis/v44_self_audit_weak_leg/`;
+  `analysis/v44_internal_validation/`.
+- Infrastructure/external account:
+  `meta/INFRASTRUCTURE_STATUS_V44.md`;
+  `docs/reports/EXTERNAL_ACCOUNT_DRAFT_V44.md`.
+
+Main conclusions:
+
+- No fresh public ready primary Tier 1 validation cohort was found beyond the
+  existing Gafson/Karolinska low-barrier path; `GSE228330` is useful open
+  pharmacodynamic context but lacks response labels.
+- The V44 batch guard prevents response-correlated batch from being interpreted
+  as a clean validation in synthetic nulls: worst null primary pass rate `0.40`
+  became guarded acceptable pass rate `0.00`.
+- Postpartum APC-arm and T/B compartment leads now have frozen preregistrations
+  and synthetic-verified harnesses, so a non-Gafson incoming dataset can be used
+  immediately without post-hoc rule construction.
+- The APC/HLA/IFN recurrence/convergence statement is stronger than the V41
+  joint-z statement: observed recurrence `78`; strictest source-local null p99
+  `41`; FWER `0.00005` in 20,000 replicates; no single modality/source file
+  removal eliminates it.
+- Claude, Gemini, and SAP RPT smoke-pass through the committed client; RPT is
+  genuinely implemented via `/predict`.
+
+First post-V44 actions:
+
+1. Acquire/receive Gafson et al. 2018 DMF PBMC RNA-seq processed counts plus
+   sample-level NEDA-4 labels. Quarantine by path, file size, and checksum
+   before opening for analysis.
+2. In parallel, request Karolinska DMF response/NEDA labels for the open
+   expression/methylation series and keep scouting for labeled paired
+   immune-remodeling/JAK-STAT cohorts. Do not count a cohort usable until
+   paired timing, labels, and module-gene coverage are verified.
+3. Run only the frozen V42/V44 Gafson harness for Gafson, including the additive
+   batch diagnostics. A raw pass with `batch_guard_flag=true` is technically
+   non-specific, not clean validation.
+4. If postpartum MS relapse-window or T/B-compartment data arrive before
+   Gafson, use the corresponding V44 preregistered harness; do not create or
+   tune a rule after seeing the data.
+5. Renew OpenGWAS JWT before any OpenGWAS-dependent work after
+   `2026-06-19 12:28 UTC`.
 
 V43 update:
 

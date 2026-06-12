@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-12 16:45 CEST
+Last updated: 2026-06-12 17:50 CEST
 
 ## Mission State
 
@@ -123,8 +123,64 @@ are `docs/validation/POWER_MAP_V43.md`,
 `docs/validation/HARNESS_ROBUSTNESS_V43.md`,
 `docs/history/PIPELINE_SELF_AUDIT_V43.md`, and
 `analysis/v43_method_validation/`.
+V44 then reduced single-cohort dependence while still blind to real Gafson data.
+It completed the seven-workstream portfolio in `meta/V44_QUEUE.md`: a deeper
+alternative/replication cohort scout, additive batch-diagnostic hardening of the
+V42 harness, frozen preregistrations and synthetic mechanics checks for the
+postpartum APC-arm and T/B compartment leads, a joint-vs-recurrence weak-leg
+self-audit, stricter internal convergence nulls, SAP AI Core/RPT tooling status
+documentation, and a skeptical external account draft. No V22 rule change, no
+Gafson data read, and no discovery reopening occurred.
 
 Current frontier:
+
+- V44 single-cohort-dependence reduction state:
+  - Queue / resume backbone:
+    `meta/V44_QUEUE.md`.
+  - Alternative cohort scout:
+    `docs/validation/ALT_COHORT_SCOUT_V44.md`;
+    `analysis/v44_alt_cohort_scout/`.
+    Result: no fresh public ready primary Tier 1 validation cohort was found;
+    Gafson remains the best Tier 2 primary target; Karolinska DMF labels are a
+    parallel Tier 2 request; `GSE228330` is open pharmacodynamic/context only.
+  - Batch hardening:
+    `docs/validation/BATCH_GUARD_V44.md`;
+    `scripts/v42_gafson_validation_harness.py`;
+    `analysis/v44_batch_guard/`.
+    Result: worst response-correlated batch synthetic null primary pass risk
+    fell from `0.40` to `0.00` guarded acceptable pass rate.
+  - Secondary lead readiness:
+    `docs/validation/POSTPARTUM_APC_ARM_PREREGISTRATION_V44.md`;
+    `docs/validation/TB_COMPARTMENT_PREREGISTRATION_V44.md`;
+    `scripts/v44_secondary_lead_harnesses.py`;
+    `analysis/v44_secondary_lead_harnesses/`.
+    Result: both synthetic null checks failed and both planted checks passed.
+  - Self-audit weak leg:
+    `docs/history/SELF_AUDIT_WEAK_LEG_V44.md`;
+    `analysis/v44_self_audit_weak_leg/`.
+    Result: V41 joint z is borderline because the family-wise max-z null is
+    high; recurrence is the stronger formulation.
+  - Internal convergence:
+    `docs/validation/APC_HLA_INTERNAL_CONVERGENCE_V44.md`;
+    `analysis/v44_internal_validation/`.
+    Result: APC/HLA/IFN recurrence `78` remains above global, modality-aware,
+    and source-local nulls; strictest source-local max-null p99 is `41`, and no
+    single modality/source file removal eliminates recurrence.
+  - Infrastructure:
+    `meta/INFRASTRUCTURE_STATUS_V44.md`;
+    `meta/SAP_AI_CORE_ACCESS_V30.md`.
+    Claude, Gemini, and SAP RPT smoke-pass; RPT is genuinely implemented via
+    `/predict`.
+  - External account:
+    `docs/reports/EXTERNAL_ACCOUNT_DRAFT_V44.md`.
+  - Current decision:
+    - Gafson remains necessary but not sufficient; do not rely on it as the
+      only possible validation path if it is underpowered or technically
+      confounded.
+    - Pursue Gafson processed counts plus NEDA-4 labels, Karolinska DMF labels,
+      and any low-barrier labeled replication cohort surfaced later.
+    - When any validation data arrives, quarantine it first, then run the
+      relevant frozen preregistered harness with batch/confounder diagnostics.
 
 - V43 validation method-characterization state:
   - Power map:
