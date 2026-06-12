@@ -29,16 +29,11 @@ should be checked.
 
 ## Current Result
 
-- scripts indexed: `63`
+- scripts indexed: `76`
 - undocumented scripts: `0`
-- scripts without detected output directories: `2`
+- scripts without detected output directories: `0`
 - overall status: `PASS`
 
-The two scripts without auto-detected output directories are documented
-generators whose output directory names are shortened relative to the script
-stem:
-
-- `scripts/v45_followup_message_template_generator.py`
-- `scripts/v45_route_arrival_packet_generator.py`
-
-This is a navigation/discovery limitation, not a validation failure.
+The generator-name shortening cases are handled by explicit registry
+exceptions, so all currently indexed V45 scripts have detected output
+directories.

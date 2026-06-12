@@ -20,10 +20,13 @@ OUTPUT_EXCEPTIONS = {
     "v45_author_run_packet_checksum_manifest": ["analysis/v45_author_run_packet_checksums"],
     "v45_collaborator_package_path_resolver": ["analysis/v45_collaborator_path_resolver"],
     "v45_followup_due_board": ["analysis/v45_followup_due_board"],
+    "v45_followup_escalation_packet_generator": ["analysis/v45_followup_escalation_packets"],
+    "v45_followup_message_template_generator": ["analysis/v45_followup_message_templates"],
     "v45_external_blocker_board": ["analysis/v45_external_blocker_board"],
     "v45_readiness_status_dashboard": ["analysis/v45_readiness_status_dashboard"],
     "v45_request_sent_updater": ["analysis/v45_request_sent_updater"],
     "v45_received_status_updater": ["analysis/v45_received_status_updater"],
+    "v45_route_arrival_packet_generator": ["analysis/v45_route_arrival_packets"],
     "v45_author_run_return_gate_runner": ["analysis/v45_author_run_return_gate_runner"],
     "v45_author_run_redaction_precheck": ["analysis/v45_author_run_redaction_precheck"],
     "v45_author_run_output_check": [
@@ -120,7 +123,7 @@ def main() -> int:
                 "output_dirs": ";".join(outputs),
                 "n_summary_json": len(summary_paths),
                 "summary_json": ";".join(summary_paths[:40]),
-                "observed_statuses": ";".join(statuses),
+                "observed_statuses": ";".join(statuses) if statuses else "none",
             }
         )
 
