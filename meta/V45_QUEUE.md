@@ -29,8 +29,8 @@ generate more internally executable tasks before continuing.
 | 2 | Cohort dependence | Deep paper/supplement scout specifically for GSE228330 anti-CD20/ocrelizumab outcomes | done | Wrote `docs/validation/GSE228330_OUTCOME_SCOUT_V45.md`; public metadata verify 44 PBMC ocrelizumab samples with baseline/0.5m/6m timing but no response/NEDA/relapse labels. |
 | 3 | Robustness | Extend batch guard simulations to multi-confounder technical structures | done | Wrote `docs/validation/MULTICONFOUNDER_BATCH_GUARD_V45.md`; 5,600 synthetic cohorts show existing individual guard keeps worst synthetic-null acceptable pass at 0.0125, while naive joint guard is worse at 0.1000. |
 | 4 | Robustness | Stress-test V44 postpartum APC-arm harness under missing timepoints, steroid metadata, and batch imbalance | done | Wrote `docs/validation/POSTPARTUM_PATHOLOGY_STRESS_V45.md`; 6,300 synthetic cohorts show guarded null clean-pass max 0.0222 despite raw batch false positives up to 0.7667. |
-| 5 | Robustness | Stress-test V44 T/B compartment harness under composition shifts and compartment-label noise | in-progress | Synthetic-only; no rule change. |
-| 6 | Power/design | Produce medical-team cohort specification from V43/V44 simulations | todo | Exact n, timepoints, metadata, batch constraints, and label requirements for conclusive validation. |
+| 5 | Robustness | Stress-test V44 T/B compartment harness under composition shifts and compartment-label noise | done | Wrote `docs/validation/TB_COMPARTMENT_PATHOLOGY_STRESS_V45.md`; 6,300 synthetic cohorts show composition adjustment controls pure composition artifacts, but batch guard is required for response-correlated batch. |
+| 6 | Power/design | Produce medical-team cohort specification from V43/V44 simulations | in-progress | Exact n, timepoints, metadata, batch constraints, and label requirements for conclusive validation. |
 | 7 | Data-free validation | Run alternative convergence nulls using evidence-row weighting and source-family collapse | todo | Sensitivity for V44 recurrence without changing biological claim. |
 | 8 | Data-free validation | Leave-one-artifact-family-out APC convergence check | todo | Tests whether report-derived artifacts inflate recurrence. |
 | 9 | Infrastructure | Package validation harness command templates and expected input schemas into a reusable validation README | todo | Durable CS output. |
@@ -86,3 +86,10 @@ todo items.
   small planted cohorts are not downgraded merely because many metadata fields
   are audited.
 - Next selected task: T/B compartment harness pathology stress test.
+- T/B compartment pathology stress test completed. Worst synthetic-null raw and
+  composition-adjusted pass rates were both `0.3333` under response-correlated
+  batch, while guarded clean pass was `0.0111`. Pure composition artifacts were
+  controlled by residualization, but batch metadata and compartment coverage are
+  non-negotiable for this lead.
+- Next selected task: medical-team cohort specification from V43/V44/V45
+  simulations.
