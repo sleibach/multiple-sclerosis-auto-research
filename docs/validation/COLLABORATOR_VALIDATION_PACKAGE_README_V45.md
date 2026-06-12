@@ -26,6 +26,15 @@ V42 preregistration, secondary preregistrations, or any threshold.
 | Subject-map sanity checker | `docs/validation/SUBJECT_MAP_SANITY_CHECKER_V45.md` |
 | Response-column audit | `docs/validation/RESPONSE_COLUMN_AUDIT_V45.md` |
 | Checksum manifest validator | `docs/validation/CHECKSUM_MANIFEST_VALIDATOR_V45.md` |
+| First-24h received-data checklist | `docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md` |
+| Package receipt manifest | `docs/validation/PACKAGE_RECEIPT_MANIFEST_TEMPLATE_V45.md` |
+| Preflight failure taxonomy | `docs/validation/PREFLIGHT_FAILURE_TAXONOMY_V45.md` |
+| Module-coverage precheck | `docs/validation/MODULE_COVERAGE_PRECHECK_V45.md` |
+| Harness-ready decision template | `docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md` |
+| Validation result report template | `docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md` |
+| Handoff bundle template | `docs/validation/VALIDATION_HANDOFF_BUNDLE_TEMPLATE_V45.md` |
+| Sensitive-data redaction checklist | `docs/validation/SENSITIVE_DATA_REDACTION_CHECKLIST_V45.md` |
+| Author-run frozen harness packet | `docs/validation/AUTHOR_RUN_FROZEN_HARNESS_PACKET_V45.md` |
 
 ## Ready-To-Send Request Packets
 
@@ -53,12 +62,16 @@ and update:
 3. Capture non-sensitive data-use terms using
    `docs/validation/input_schemas/V45_data_use_terms_capture_template.tsv`.
 4. Write or verify a checksum manifest.
-5. Run response-column audit if the cohort is pharmacodynamic/context-only.
-6. Run full intake preflight.
-7. Run subject-map sanity if paired deltas are required.
-8. Finalize any cohort-specific preregistration addendum before outcome labels
+5. Freeze the outcome-label dictionary before any response scoring.
+6. Run response-column audit if the cohort is pharmacodynamic/context-only.
+7. Run full intake preflight.
+8. Run module-coverage precheck for expression-matrix packages.
+9. Run subject-map sanity if paired deltas are required.
+10. Finalize any cohort-specific preregistration addendum before outcome labels
    are scored.
-9. Run only the matching frozen harness.
+11. Run locked-artifact hash audit and pre-commit readiness checks.
+12. Run only the matching frozen harness.
+13. Fill the validation result report and handoff bundle templates.
 
 ## Minimal Commands
 
@@ -96,6 +109,26 @@ and update:
   --outdir analysis/subject_map_sanity/<cohort> \
   --min-paired-subjects 2 \
   --fail-on-error
+```
+
+### Module-Coverage Precheck
+
+```bash
+.venv/bin/python scripts/v45_module_coverage_precheck.py check \
+  --expression data/quarantine/<cohort>/processed/expression.tsv \
+  --outdir analysis/module_coverage_precheck/<cohort> \
+  --fail-on-error
+```
+
+### Integrity/Regression Checks
+
+```bash
+.venv/bin/python scripts/v45_locked_artifact_hash_audit.py audit \
+  --baseline docs/validation/LOCKED_ARTIFACT_HASH_BASELINE_V45.tsv \
+  --outdir analysis/v45_locked_artifact_hash_audit \
+  --fail-on-drift
+
+.venv/bin/python scripts/v45_precommit_readiness_check.py
 ```
 
 ### Pharmacodynamic-Only Response-Column Audit
