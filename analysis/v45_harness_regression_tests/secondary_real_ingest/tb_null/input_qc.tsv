@@ -1,0 +1,16 @@
+field	required_level	present	complete	missing_count
+subject	required	True	True	0
+baseline_sample	required	True	True	0
+treated_sample	required	True	True	0
+response	required	True	True	0
+days_since_treatment	required	True	True	0
+b_plasma_locked_delta	required	True	True	0
+t_cell_locked_delta	required	True	True	0
+b_fraction	strongly_required	True	True	0
+t_fraction	strongly_required	True	True	0
+myeloid_fraction	strongly_required	True	True	0
+batch	strongly_required	True	True	0
+compartment_method	strongly_required	True	True	0
+b_coverage	strongly_required	True	True	0
+t_coverage	strongly_required	True	True	0
+steroid_exposure	strongly_required	True	True	0

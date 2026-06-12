@@ -1,0 +1,25 @@
+field	metric	diagnostic_type	n	value	absolute_value
+batch	delta_IFN_APC	spearman_numeric	24	-0.14446302370292302	0.14446302370292302
+batch	delta_HLAII	spearman_numeric	24	-0.27688746209726917	0.27688746209726917
+batch	delta_RECEPTOR	spearman_numeric	24	0.0	0.0
+batch	class_c_signed_delta_context_only	spearman_numeric	24	-0.04815434123430768	0.04815434123430768
+processing_batch	delta_IFN_APC	spearman_numeric	24	-0.1784025840085694	0.1784025840085694
+processing_batch	delta_HLAII	spearman_numeric	24	-0.15044776315252575	0.15044776315252575
+processing_batch	delta_RECEPTOR	spearman_numeric	24	0.13316660116878967	0.13316660116878967
+processing_batch	class_c_signed_delta_context_only	spearman_numeric	24	-0.001524808410329653	0.001524808410329653
+steroid_exposure	delta_IFN_APC	spearman_numeric	24		
+steroid_exposure	delta_HLAII	spearman_numeric	24		
+steroid_exposure	delta_RECEPTOR	spearman_numeric	24		
+steroid_exposure	class_c_signed_delta_context_only	spearman_numeric	24		
+disease_subtype	delta_IFN_APC	eta_squared_categorical	24	0.008372632143091778	0.008372632143091778
+disease_subtype	delta_HLAII	eta_squared_categorical	24	0.00019197376188933527	0.00019197376188933527
+disease_subtype	delta_RECEPTOR	eta_squared_categorical	24	0.0057959746138852054	0.0057959746138852054
+disease_subtype	class_c_signed_delta_context_only	eta_squared_categorical	24	0.009343171245520775	0.009343171245520775
+clinical_status	delta_IFN_APC	eta_squared_categorical	24	0.00039623366444483505	0.00039623366444483505
+clinical_status	delta_HLAII	eta_squared_categorical	24	0.09617587758807682	0.09617587758807682
+clinical_status	delta_RECEPTOR	eta_squared_categorical	24	0.20422043116762795	0.20422043116762795
+clinical_status	class_c_signed_delta_context_only	eta_squared_categorical	24	0.04546832725782735	0.04546832725782735
+days_since_treatment	delta_IFN_APC	spearman_numeric	24	0.44542765641734605	0.44542765641734605
+days_since_treatment	delta_HLAII	spearman_numeric	24	-0.2528102914801153	0.2528102914801153
+days_since_treatment	delta_RECEPTOR	spearman_numeric	24	0.0601929265428846	0.0601929265428846
+days_since_treatment	class_c_signed_delta_context_only	spearman_numeric	24	-0.6861993625888845	0.6861993625888845
