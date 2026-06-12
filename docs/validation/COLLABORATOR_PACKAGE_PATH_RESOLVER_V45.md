@@ -39,7 +39,7 @@ Synthetic positive/negative regression:
 
 Current verification:
 
-- live collaborator sources: `PASS`, `156` concrete references resolved, `0` missing, `7` placeholders/directories ignored;
+- live collaborator sources: `PASS`, `157` concrete references resolved, `0` missing, `7` placeholders/directories ignored;
 - synthetic broken source: `FAIL`, `1` missing synthetic reference, `1` ignored placeholder/directory example.
 
 ## Use

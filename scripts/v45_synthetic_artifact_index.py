@@ -63,6 +63,7 @@ MANUAL_CLASS = {
     "analysis/v45_compute_storage_summary": ("artifact_governance", "storage/accounting only"),
     "analysis/v45_governance_refresh": ("artifact_governance", "refresh log only"),
     "analysis/v45_precommit_readiness": ("integrity_governance", "pre-commit readiness only"),
+    "analysis/v45_readiness_status_dashboard": ("integrity_governance", "readiness dashboard only"),
     "analysis/v45_no_raw_git_scanner": ("integrity_governance", "repository hygiene only"),
     "analysis/v45_locked_artifact_hash_audit": ("integrity_governance", "locked-artifact integrity only"),
     "analysis/v45_command_plan_consistency": ("integrity_governance", "command-plan integrity only"),

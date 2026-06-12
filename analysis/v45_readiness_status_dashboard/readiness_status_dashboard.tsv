@@ -1,0 +1,8 @@
+area	status	metric	source	interpretation
+outbound_requests	ACTION_NEEDED	4/4 tracker rows ready; 0 marked sent	analysis/v45_outbound_data_requests/request_tracker.tsv	send/author-run requests remain external acquisition actions, not validation
+received_data_triage	AWAITING_EXTERNAL_DATA	0/3 cohorts harness-ready; 0 requests sent on board	analysis/v45_received_data_triage/received_data_triage_status.tsv	no frozen harness should run until a cohort is harness-ready
+precommit_readiness	PASS	5/5 checks pass; 96.541 seconds	analysis/v45_precommit_readiness/precommit_readiness_summary.json	repository/readiness guard status only
+collaborator_path_resolution	PASS	157 resolved; 0 missing	analysis/v45_collaborator_path_resolver/live_sources/collaborator_package_path_resolution_summary.json	handoff links resolve; no validation claim
+followup_due_board	ACTION_NEEDED	"{""not_sent_ready"": 4}"	analysis/v45_followup_due_board/live_template/followup_due_board_summary.json	acquisition action status only
+handoff_not_received_lifecycle	PASS	2/2 required-now artifacts present	analysis/v45_handoff_completeness/handoff_completeness_summary.json	pre-receipt handoff state should pass with only currently required artifacts
+handoff_scored_lifecycle_negative_control	EXPECTED_FAIL	9 hard missing scored-state outputs	analysis/v45_handoff_completeness_scored_missing/handoff_completeness_summary.json	scored-state failure is expected before data/harness outputs exist

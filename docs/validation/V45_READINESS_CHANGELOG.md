@@ -28,6 +28,7 @@ unless another path is shown, and bare script names refer to `scripts/`.
 
 | Area | Added artifacts | Purpose |
 |---|---|---|
+| readiness dashboard | `READINESS_STATUS_DASHBOARD_V45.md` | summarize current internal guard status and external blockers |
 | Karolinska parallel path | `KAROLINSKA_DMF_LABEL_REQUEST_V45.md`, `KAROLINSKA_PREREGISTRATION_TEMPLATE_V45.md` | keep an MS DMF secondary route ready if labels/mapping arrive |
 | GSE228330 context path | `GSE228330_OUTCOME_SCOUT_V45.md`, `GSE228330_PHARMACODYNAMIC_RUNBOOK_V45.md`, `GSE228330_OUTCOME_LABEL_ADDENDUM_TEMPLATE_V45.md` | separate pharmacodynamic context from response validation |
 | outbound requests | ready-to-send request packets and `OUTBOUND_DATA_REQUEST_TRACKER_V45.md` | make external blockers explicit |

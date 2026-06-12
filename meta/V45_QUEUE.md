@@ -124,8 +124,8 @@ generate more internally executable tasks before continuing.
 | 97 | Infrastructure | Run the next full precommit readiness wrapper after generated checker tasks are committed | done | Full wrapper passes `5/5` in `96.541` seconds; refreshed artifact index now covers `746` V45 paths, synthetic/governance index covers `62` V43-V45 dirs, and V45 analysis storage covers `56` dirs / `582` files / `85.053 MiB`. |
 | 98 | Validation readiness | Add a one-command author-run return gate runner chaining redaction precheck then output completeness | done | Wrote `scripts/v45_author_run_return_gate_runner.py`, `docs/validation/AUTHOR_RUN_RETURN_GATE_RUNNER_V45.md`, and synthetic outputs under `analysis/v45_author_run_return_gate_runner/`; `3/3` synthetic cases match expected pass/fail behavior and redaction-fail skips completeness. |
 | 99 | Operations | Add a follow-up due-board generator from request-sent logs and outbound tracker states | done | Wrote `scripts/v45_followup_due_board.py`, `docs/validation/FOLLOWUP_DUE_BOARD_V45.md`, and outputs under `analysis/v45_followup_due_board/`; live draft template yields `4` `not_sent_ready` rows, synthetic sent log yields `1` overdue follow-up and `3` ready-unsent rows. |
-| 100 | Infrastructure | Add a validation-readiness status dashboard that summarizes tracker, triage, precommit, path resolver, and handoff checks | in-progress | Selected next after item 99; should be read-only governance/status aggregation with no biology. |
-| 101 | Validation readiness | Add a checksum manifest builder for the author-run packet bundle index | todo | Generated after item 97; should hash included non-sensitive packet files so collaborator bundles can be checked after transfer. |
+| 100 | Infrastructure | Add a validation-readiness status dashboard that summarizes tracker, triage, precommit, path resolver, and handoff checks | done | Wrote `scripts/v45_readiness_status_dashboard.py`, `docs/validation/READINESS_STATUS_DASHBOARD_V45.md`, and outputs under `analysis/v45_readiness_status_dashboard/`; current headline is `READY_AWAITING_EXTERNAL_DATA` with precommit/path/handoff guards passing and `0/3` cohorts harness-ready. |
+| 101 | Validation readiness | Add a checksum manifest builder for the author-run packet bundle index | in-progress | Selected next after item 100; should hash included non-sensitive packet files so collaborator bundles can be checked after transfer. |
 | 102 | Operations | Add an external-blocker board that merges live cohort acquisition index, outbound tracker, and received triage state | todo | Generated after item 97; should make all remaining external blockers explicit and separate them from internal executable work. |
 | 103 | Infrastructure | Add a generated-checker registry mapping V45 scripts to docs, outputs, and synthetic regression status | todo | Generated after item 97; should improve reviewer navigation and catch undocumented scripts. |
 | 104 | Validation readiness | Add an author-run aggregate result redaction/completeness/reporting gate checklist for human operators | todo | Generated after item 97; should be a compact operator sequence wrapping redaction, completeness, report fill, and outcome-grid interpretation. |
@@ -769,3 +769,10 @@ todo items.
   ready-unsent rows. Path resolver now passes with `156` concrete references and
   `0` missing.
 - Next selected task: validation-readiness status dashboard.
+- Validation-readiness status dashboard completed. The generated dashboard
+  aggregates tracker, triage, precommit, path resolver, follow-up, and handoff
+  states. Current headline is `READY_AWAITING_EXTERNAL_DATA`: internal guards
+  pass, collaborator links resolve, pre-receipt handoff passes, and `0/3`
+  cohorts are harness-ready. Path resolver was refreshed to `157` concrete
+  references with `0` missing.
+- Next selected task: author-run packet bundle checksum manifest builder.
