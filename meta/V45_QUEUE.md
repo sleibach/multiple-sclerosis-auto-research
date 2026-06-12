@@ -139,7 +139,7 @@ generate more internally executable tasks before continuing.
 | 112 | Infrastructure | Add state-machine transition validator against live tracker, triage, blocker, and dashboard states | done | Wrote `scripts/v45_state_machine_validator.py`, `docs/validation/STATE_MACHINE_TRANSITION_VALIDATOR_V45.md`, and outputs under `analysis/v45_state_machine_validator/`; live boards pass with `0` hard violations across `3` route states, while synthetic impossible-state regression fails as expected with `11` hard violations. |
 | 113 | Infrastructure | Add route-arrival packet freshness and checksum manifest tied to generated packet outputs | done | Wrote `scripts/v45_route_packet_integrity_manifest.py`, `docs/validation/ROUTE_PACKET_INTEGRITY_MANIFEST_V45.md`, and outputs under `analysis/v45_route_packet_integrity_manifest/`; live check passes for `4/4` packets with `0` hard violations, and synthetic missing-packet regression fails as expected with `2` hard violations. |
 | 114 | Operations | Add a top-level current-action card generated from blocker board, follow-up board, and readiness dashboard | done | Wrote `scripts/v45_current_action_card.py`, `docs/validation/CURRENT_ACTION_CARD_V45.md`, and outputs under `analysis/v45_current_action_card/`; current card reports `READY_AWAITING_EXTERNAL_DATA`, guard statuses all `PASS`, `4` external send/approval actions, and `0` internal guard blocks. |
-| 115 | Operations | Add acquisition email/send-log intake parser template that updates sent-state drafts without touching data receipt state | todo | Generated after item 111 to reduce manual tracker drift while preserving external-data blockers. |
+| 115 | Operations | Add acquisition email/send-log intake parser template that updates sent-state drafts without touching data receipt state | done | Wrote `scripts/v45_send_log_intake_template.py`, `docs/validation/SEND_LOG_INTAKE_TEMPLATE_V45.md`, and outputs under `analysis/v45_send_log_intake_template/`; generated `4` draft rows and updater dry-run accepts `0` sent rows with `0` tracker updates, `0` triage updates, and `0` hard failures. |
 | 116 | Validation readiness | Add author-run package dry-run bundle manifest with path, checksum, and command-plan verification | todo | Generated after item 111 to make the fallback author-run route mechanically auditable before sending. |
 | 117 | Infrastructure | Add validation-readiness stale-check integration for route packets, generated checker registry, and operational handoff index | todo | Generated after item 111 to broaden stale-output detection to the newest handoff artifacts. |
 | 118 | Operations | Add external-blocker escalation matrix with per-route owner, request artifact, current blocker, and exact unblocking event | todo | Generated after item 111 to keep every live route externally actionable. |
@@ -894,3 +894,10 @@ todo items.
   send/approval actions, `0` internal guard blocks, and no harness-ready route.
   It is now first in the operational handoff index.
 - Next selected task: acquisition email/send-log intake parser template.
+- Send-log intake template completed. It generates `4` draft rows from the
+  current-action card, including the author-run fallback route, and dry-runs
+  through `v45_request_sent_updater.py` with `0` accepted sent rows, `0`
+  tracker updates, `0` triage updates, and `0` hard failures. This gives a
+  structured send-event intake path without changing data receipt or harness
+  readiness state.
+- Next selected task: author-run package dry-run bundle manifest.

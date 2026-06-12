@@ -14,6 +14,10 @@ Unsent message-template generator:
 
 `docs/validation/FOLLOWUP_MESSAGE_TEMPLATES_V45.md`
 
+Send-log intake template:
+
+`docs/validation/SEND_LOG_INTAKE_TEMPLATE_V45.md`
+
 ## Commands
 
 Live draft-template board:

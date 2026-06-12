@@ -23,6 +23,10 @@ Fill a copy of:
 
 `docs/validation/input_schemas/V45_request_sent_log_template.tsv`
 
+The current generated draft template is:
+
+`docs/validation/SEND_LOG_INTAKE_TEMPLATE_V45.md`
+
 Required operational fields include:
 
 - `cohort`
@@ -67,6 +71,8 @@ Synthetic positive-path check:
 Current verification outputs:
 
 - live draft template: `0` accepted sent rows, `0` tracker updates, `0` hard failures;
+- generated current-action template: `4` draft rows, `0` accepted sent rows,
+  `0` tracker updates, `0` triage-board updates, `0` hard failures;
 - synthetic sent fixture: `1` accepted sent row, `1` tracker update, `1` triage-board update, `0` hard failures.
 
 ## Write Mode

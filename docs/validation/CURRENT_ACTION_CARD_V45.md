@@ -48,6 +48,10 @@ Machine-readable outputs:
 - `analysis/v45_current_action_card/current_action_card_summary.json`
 - `analysis/v45_current_action_card/CURRENT_ACTION_CARD.md`
 
+When a request is actually sent, record it through:
+
+`docs/validation/SEND_LOG_INTAKE_TEMPLATE_V45.md`
+
 ## Interpretation Boundary
 
 A current-action card can support only operational statements about what should
