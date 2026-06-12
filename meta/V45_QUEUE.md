@@ -154,7 +154,7 @@ generate more internally executable tasks before continuing.
 | 127 | Integrity | Run the next full precommit/governance wrapper after items 120-126 | done | Full wrapper passes `5/5` in `101.339` seconds; classified the newest guard directories, eliminated `0` unclassified V43-V45 rows, refreshed governance docs to `947` V45 paths, `83` V43-V45 directories, and `77` V45 analysis dirs / `732` files / `85.303 MiB`; generated-doc linter passes `34/34`, stale detector passes `18` artifacts with `0` stale/missing. |
 | 128 | Integrity | Add a no-score-before-gates linter across validation docs and route packets | done | Wrote `scripts/v45_no_score_before_gates_linter.py`, `docs/validation/NO_SCORE_BEFORE_GATES_LINTER_V45.md`, and outputs under `analysis/v45_no_score_before_gates_linter/`; live operator docs/route packets pass `63/63` checks across `9` targets, synthetic bad fixture fails as expected with `6` failures, and stale detector now tracks `19` artifacts with `0` stale/missing. |
 | 129 | Validation readiness | Add a cold-start operator command sequence generator from the current action card and route state | done | Wrote `scripts/v45_cold_start_operator_sequence.py`, `docs/validation/COLD_START_OPERATOR_SEQUENCE_V45.md`, and outputs under `analysis/v45_cold_start_operator_sequence/`; generated `4` route sequences with `0` `may_score_now=yes`, linked it near the top of the operational handoff, and stale detector now tracks `20` artifacts with `0` stale/missing. |
-| 130 | Cohort dependence | Add a follow-up escalation packet generator keyed to due-board age and external-blocker state | todo | Self-generated after item 127 to keep Karolinska/Gafson/GSE228330 external routes moving without waiting for manual queue interpretation. |
+| 130 | Cohort dependence | Add a follow-up escalation packet generator keyed to due-board age and external-blocker state | done | Wrote `scripts/v45_followup_escalation_packet_generator.py`, `docs/validation/FOLLOWUP_ESCALATION_PACKETS_V45.md`, and live packets under `analysis/v45_followup_escalation_packets/live/`; generated `4` route packets, all `not_sent_ready`, `0` overdue/due-now, and stale detector now tracks `21` artifacts with `0` stale/missing. |
 | 131 | Infrastructure | Add an evidence-class manifest for external reports mapping each cited V45 artifact to allowed interpretation | todo | Self-generated after item 127 to prevent external-account citations from crossing synthetic/readiness/biological boundaries. |
 | 132 | Robustness | Add an end-to-end synthetic received-package state-machine dry run from arrival packet through blocked/non-scoring decision | todo | Self-generated after item 127 to test the operator route without reading real quarantined data. |
 | 133 | Validation readiness | Add an author-run aggregate report schema validator for returned collaborator-run outputs | todo | Self-generated after item 127 to validate aggregate-only return packages before any interpretation. |
@@ -1029,3 +1029,12 @@ todo items.
   passes with `76` concrete references and `0` missing.
 - Next selected task: follow-up escalation packet generator keyed to due-board
   age and external-blocker state.
+- Follow-up escalation packet generator completed. It joins the live follow-up
+  due board to the external-blocker escalation matrix and writes one draft
+  packet per route with owner, blocker, required external items, exact
+  unblocking event, and current action. Current output has `4` routes, all
+  `not_sent_ready`, and `0` overdue/due-now follow-ups. The packets are linked
+  from the operational handoff; stale-output detector tracks `21` artifacts with
+  `0` stale/missing; locked-artifact audit, no-raw scanner, path resolution, and
+  `git diff --check` pass.
+- Next selected task: evidence-class manifest for external reports.

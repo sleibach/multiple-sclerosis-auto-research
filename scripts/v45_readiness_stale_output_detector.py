@@ -75,6 +75,19 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v45_external_blocker_escalation_matrix.py --outdir analysis/v45_external_blocker_escalation_matrix",
     },
     {
+        "artifact": "followup_escalation_packets",
+        "sources": [
+            "analysis/v45_followup_due_board/live_template/followup_due_board.tsv",
+            "analysis/v45_external_blocker_escalation_matrix/external_blocker_escalation_matrix.tsv",
+            "scripts/v45_followup_escalation_packet_generator.py",
+        ],
+        "outputs": [
+            "analysis/v45_followup_escalation_packets/live/followup_escalation_packet_summary.json",
+            "analysis/v45_followup_escalation_packets/live/followup_escalation_packet_index.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v45_followup_escalation_packet_generator.py --outdir analysis/v45_followup_escalation_packets/live",
+    },
+    {
         "artifact": "outbound_request_packet_integrity",
         "sources": [
             "analysis/v45_external_blocker_board/external_blocker_board.tsv",
