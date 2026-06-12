@@ -31,8 +31,8 @@ generate more internally executable tasks before continuing.
 | 4 | Robustness | Stress-test V44 postpartum APC-arm harness under missing timepoints, steroid metadata, and batch imbalance | done | Wrote `docs/validation/POSTPARTUM_PATHOLOGY_STRESS_V45.md`; 6,300 synthetic cohorts show guarded null clean-pass max 0.0222 despite raw batch false positives up to 0.7667. |
 | 5 | Robustness | Stress-test V44 T/B compartment harness under composition shifts and compartment-label noise | done | Wrote `docs/validation/TB_COMPARTMENT_PATHOLOGY_STRESS_V45.md`; 6,300 synthetic cohorts show composition adjustment controls pure composition artifacts, but batch guard is required for response-correlated batch. |
 | 6 | Power/design | Produce medical-team cohort specification from V43/V44 simulations | done | Wrote `docs/validation/MEDICAL_TEAM_COHORT_SPEC_V45.md`; specifies minimum 30+30 for large clean effects and preferred 60-80 per group with batch-balanced metadata for robust validation. |
-| 7 | Data-free validation | Run alternative convergence nulls using evidence-row weighting and source-family collapse | in-progress | Sensitivity for V44 recurrence without changing biological claim. |
-| 8 | Data-free validation | Leave-one-artifact-family-out APC convergence check | todo | Tests whether report-derived artifacts inflate recurrence. |
+| 7 | Data-free validation | Run alternative convergence nulls using evidence-row weighting and source-family collapse | done | Wrote `docs/validation/APC_HLA_CONVERGENCE_SENSITIVITY_V45.md`; target remains rank 1 under source-file weighting and source-family collapse, all FWER p=0.00005. |
+| 8 | Data-free validation | Leave-one-artifact-family-out APC convergence check | in-progress | Tests whether report-derived artifacts inflate recurrence. |
 | 9 | Infrastructure | Package validation harness command templates and expected input schemas into a reusable validation README | todo | Durable CS output. |
 | 10 | Infrastructure/RPT | Exercise RPT on V44 structured readiness tables as proposal-only and verify no evidence claim changes | todo | RPT output must be grounded or labeled proposal-only. |
 | 11 | External account | Expand skeptical peer-review draft into methods/limitations checklist with rebuttal table | todo | Surfaces gaps; synthesis only. |
@@ -100,3 +100,8 @@ todo items.
   labels, cell/technical covariates, and response-balanced processing.
 - Next selected task: alternative convergence nulls using evidence-row weighting
   and source-family collapse.
+- Alternative convergence nulls completed. `apc_hla_ifn_monitoring` remains rank
+  1 under source-file weighting (`12.5267`, max-null p99 `4.0756`), modality
+  source-family collapse (`16`, p99 `8`), and source-family collapse (`10`, p99
+  `6`); all FWER p-values hit the 20,000-replicate floor `0.00005`.
+- Next selected task: leave-one-artifact-family-out convergence check.
