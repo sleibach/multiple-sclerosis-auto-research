@@ -12,16 +12,12 @@ threshold.
 
 ## Latest Governance Snapshot
 
-Latest committed governance refresh before this changelog:
+Latest committed governance refresh:
 
-- artifact index: `665` V45 paths across `8` fronts and `9` evidence classes;
-- synthetic/method retention index: `55` V43-V45 analysis directories;
-- V45 analysis storage: `49` directories, `513` files, `84.963 MiB`;
-- precommit readiness: `5/5` pass in the latest full wrapper run before the
-  later packet/status/rubric templates.
-
-Items added after that refresh are queued for the next governance-refresh
-checkpoint and should not be counted in those headline totals until refreshed.
+- artifact index: `746` V45 paths across `8` fronts and `9` evidence classes;
+- synthetic/method retention index: `62` V43-V45 analysis directories;
+- V45 analysis storage: `56` directories, `582` files, `85.053 MiB`;
+- precommit readiness: `5/5` pass in `96.541` seconds.
 
 ## What V45 Added
 

@@ -35,7 +35,7 @@ Outputs:
 
 ## Current Summary
 
-The current run indexes `665` paths across `8` fronts and `9` evidence classes.
+The current run indexes `746` paths across `8` fronts and `9` evidence classes.
 This refresh supersedes the earlier item-38 snapshot, which covered roughly
 `338-339` paths before the later V45 regression, readiness, acquisition, and
 module-coverage artifacts were added.
@@ -44,8 +44,8 @@ Front counts:
 
 | Front | Paths |
 |---|---:|
-| robustness | 196 |
-| infrastructure | 262 |
+| robustness | 199 |
+| infrastructure | 340 |
 | power/design | 113 |
 | cohort dependence | 52 |
 | data-free validation | 31 |
@@ -57,11 +57,11 @@ Evidence-class counts:
 
 | Evidence class | Paths | Allowed interpretation |
 |---|---:|---|
-| synthetic method behavior | 349 | method behavior/planning only; never biological evidence |
-| documentation/governance | 105 | governance/readiness documentation |
+| synthetic method behavior | 396 | method behavior/planning only; never biological evidence |
+| documentation/governance | 128 | governance/readiness documentation |
 | validation infrastructure | 82 | mechanical guardrail/readiness; no biological claim |
-| software | 43 | executable infrastructure; no biological claim by itself |
-| public/external acquisition operations | 49 | cohort availability/request readiness; no validation claim |
+| software | 49 | executable infrastructure; no biological claim by itself |
+| public/external acquisition operations | 54 | cohort availability/request readiness; no validation claim |
 | internal convergence null | 27 | data-free internal support; not clinical validation |
 | proposal-lens grounding | 7 | proposal prioritization only; no model output as evidence |
 | synthesis documentation | 2 | external framing/checklist; no new analysis |
@@ -69,7 +69,7 @@ Evidence-class counts:
 
 ## Drift Since Earlier Snapshot
 
-The path count increased by about `326-327` paths because V45 continued after
+The path count increased by about `407-408` paths because V45 continued after
 the original index was committed. The dominant additions were:
 
 - synthetic and regression outputs from primary, secondary, preflight,

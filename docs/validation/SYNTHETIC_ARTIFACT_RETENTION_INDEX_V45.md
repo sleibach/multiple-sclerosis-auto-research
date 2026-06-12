@@ -21,7 +21,7 @@ Generator:
 
 ## Index Summary
 
-The refreshed index covers `55` V43-V45 analysis directories, with `32`
+The refreshed index covers `62` V43-V45 analysis directories, with `39`
 directories containing synthetic inputs, synthetic outputs, or synthetic content
 markers. Current V43-V45 analysis output footprint is approximately `154 MiB`.
 
@@ -29,12 +29,17 @@ markers. Current V43-V45 analysis output footprint is approximately `154 MiB`.
 |---|---:|---:|---|
 | `synthetic_method_characterization` | `10` | `195` | Method behavior only |
 | `synthetic_regression` | `4` | `120` | Software regression only |
-| `synthetic_intake_verification` | `6` | `88` | Method behavior only |
+| `synthetic_intake_verification` | `10` | `139` | Method behavior only |
+| `synthetic_intake_verification` | `1` | `2` | Expected missing-output guard only |
 | `synthetic_harness_verification` | `3` | `42` | Method behavior only |
 | `internal_convergence_null` | `6` | `32` | Data-free internal support, not clinical validation |
-| `operations` | `6` | `9` | Acquisition and received-package operations only |
+| `operations` | `4` | `5` | Acquisition operations only |
+| `operations` | `1` | `10` | Request-sent status update only |
+| `operations` | `1` | `3` | Received-package status update only |
+| `operations` | `1` | `1` | Author-run packet bundle only |
 | `public_metadata_scout` | `3` | `20` | Cohort availability evidence only |
 | `artifact_governance` | `4` | `10` | Index/storage/refresh accounting only |
+| `integrity_governance` | `1` | `6` | Collaborator package path integrity only |
 | `integrity_governance` | `4` | `15` | Repository/locked-artifact/pre-commit/command-plan integrity only |
 | `power_design_planning` | `2` | `6` | Study-design planning only |
 | `public_metadata_preparation` | `1` | `5` | Acquisition readiness only |

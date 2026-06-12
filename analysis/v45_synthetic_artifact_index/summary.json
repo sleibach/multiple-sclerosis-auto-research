@@ -19,6 +19,12 @@
       "n_files": 6
     },
     {
+      "allowed_interpretation": "collaborator package path integrity only",
+      "class": "integrity_governance",
+      "n_dirs": 1,
+      "n_files": 6
+    },
+    {
       "allowed_interpretation": "command-plan integrity only",
       "class": "integrity_governance",
       "n_dirs": 1,
@@ -61,6 +67,12 @@
       "n_files": 3
     },
     {
+      "allowed_interpretation": "request-sent status update only",
+      "class": "operations",
+      "n_dirs": 1,
+      "n_files": 10
+    },
+    {
       "allowed_interpretation": "acquisition operations only",
       "class": "operations",
       "n_dirs": 4,
@@ -97,10 +109,16 @@
       "n_files": 42
     },
     {
+      "allowed_interpretation": "expected missing-output guard only",
+      "class": "synthetic_intake_verification",
+      "n_dirs": 1,
+      "n_files": 2
+    },
+    {
       "allowed_interpretation": "method behavior only",
       "class": "synthetic_intake_verification",
-      "n_dirs": 6,
-      "n_files": 88
+      "n_dirs": 10,
+      "n_files": 139
     },
     {
       "allowed_interpretation": "method behavior only",
@@ -145,8 +163,8 @@
       "n_files": 4
     }
   ],
-  "n_dirs_containing_synthetic": 32,
-  "n_dirs_indexed": 55,
+  "n_dirs_containing_synthetic": 39,
+  "n_dirs_indexed": 62,
   "purpose": "artifact governance index; no biological claim",
   "synthetic": false
 }

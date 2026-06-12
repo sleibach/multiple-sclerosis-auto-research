@@ -121,7 +121,14 @@ generate more internally executable tasks before continuing.
 | 94 | Operations | Add a request-sent log updater that proposes changes to the outbound request tracker after human send action | done | Wrote `scripts/v45_request_sent_updater.py`, `docs/validation/REQUEST_SENT_UPDATER_V45.md`, and outputs under `analysis/v45_request_sent_updater/`; live draft template proposes `0` updates, synthetic sent fixture proposes `1` tracker update and `1` triage-board update with `0` hard failures. |
 | 95 | Validation readiness | Add a collaborator-return redaction precheck for aggregate author-run packages | done | Wrote `scripts/v45_author_run_redaction_precheck.py`, `docs/validation/AUTHOR_RUN_REDACTION_PRECHECK_V45.md`, and synthetic outputs under `analysis/v45_author_run_redaction_precheck/`; complete aggregate fixture passes with `0` blocks, risky synthetic package fails with `3` blocks. |
 | 96 | Infrastructure | Add a collaborator package path resolver that checks all README-linked artifacts resolve after every readiness update | done | Wrote `scripts/v45_collaborator_package_path_resolver.py`, `docs/validation/COLLABORATOR_PACKAGE_PATH_RESOLVER_V45.md`, and outputs under `analysis/v45_collaborator_path_resolver/`; live package sources pass with `154` concrete references resolved and `0` missing, while a synthetic broken source fails with `1` missing reference. |
-| 97 | Infrastructure | Run the next full precommit readiness wrapper after generated checker tasks are committed | in-progress | Selected next after item 96 as recurring integrity control; should refresh governance/checks after items 91-96 and refill backlog above threshold. |
+| 97 | Infrastructure | Run the next full precommit readiness wrapper after generated checker tasks are committed | done | Full wrapper passes `5/5` in `96.541` seconds; refreshed artifact index now covers `746` V45 paths, synthetic/governance index covers `62` V43-V45 dirs, and V45 analysis storage covers `56` dirs / `582` files / `85.053 MiB`. |
+| 98 | Validation readiness | Add a one-command author-run return gate runner chaining redaction precheck then output completeness | in-progress | Generated after item 97; should run on aggregate returns only, fail before completeness if redaction blocks, and include synthetic pass/fail fixtures. |
+| 99 | Operations | Add a follow-up due-board generator from request-sent logs and outbound tracker states | todo | Generated after item 97; should surface overdue/pending acquisition follow-ups without implying data receipt. |
+| 100 | Infrastructure | Add a validation-readiness status dashboard that summarizes tracker, triage, precommit, path resolver, and handoff checks | todo | Generated after item 97; should be read-only governance/status aggregation with no biology. |
+| 101 | Validation readiness | Add a checksum manifest builder for the author-run packet bundle index | todo | Generated after item 97; should hash included non-sensitive packet files so collaborator bundles can be checked after transfer. |
+| 102 | Operations | Add an external-blocker board that merges live cohort acquisition index, outbound tracker, and received triage state | todo | Generated after item 97; should make all remaining external blockers explicit and separate them from internal executable work. |
+| 103 | Infrastructure | Add a generated-checker registry mapping V45 scripts to docs, outputs, and synthetic regression status | todo | Generated after item 97; should improve reviewer navigation and catch undocumented scripts. |
+| 104 | Validation readiness | Add an author-run aggregate result redaction/completeness/reporting gate checklist for human operators | todo | Generated after item 97; should be a compact operator sequence wrapping redaction, completeness, report fill, and outcome-grid interpretation. |
 
 ## Generated Follow-Ups
 
@@ -738,3 +745,12 @@ todo items.
   resolved and `0` missing; a synthetic broken source fails with `1` missing
   reference.
 - Next selected task: full precommit/governance readiness wrapper.
+- Full precommit/governance wrapper completed after items 91-96. The wrapper
+  passes `5/5` in `96.541` seconds. Refreshed governance now indexes `746` V45
+  paths, `62` V43-V45 method/governance directories, and V45 analysis storage
+  of `56` dirs / `582` files / `85.053 MiB`.
+- Backlog refilled above threshold with author-run return gate runner,
+  follow-up due-board generator, readiness dashboard, author-run packet
+  checksum builder, external-blocker board, generated-checker registry, and
+  human operator checklist tasks.
+- Next selected task: one-command author-run return gate runner.
