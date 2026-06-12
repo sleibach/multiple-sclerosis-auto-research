@@ -149,7 +149,7 @@ generate more internally executable tasks before continuing.
 | 122 | Validation readiness | Add a first-24h received-package operator decision tree tied to the current action card and state-machine validator | done | Wrote `scripts/v45_received_package_decision_tree.py`, `docs/validation/RECEIVED_PACKAGE_DECISION_TREE_V45.md`, and outputs under `analysis/v45_received_package_decision_tree/`; live tree covers `4` routes, allows scoring on `0`, and passes with `0` hard issues. Synthetic premature-harness-ready regression fails as expected with `1` hard issue. Stale detector now covers `17` artifacts with `0` stale/missing. |
 | 123 | Robustness | Add a synthetic metadata-contradiction stress test for validation intake, covering response label conflicts, timepoint conflicts, and batch metadata conflicts | done | Wrote `scripts/v45_metadata_contradiction_stress.py`, `docs/validation/METADATA_CONTRADICTION_STRESS_V45.md`, and outputs under `analysis/v45_metadata_contradiction_stress/`; synthetic clean metadata passes, while response-label conflict, timepoint conflict, and response-confounded batch cases fail as expected. The guard is linked from intake and first-24h docs and classified as synthetic intake verification. |
 | 124 | Power/design | Add a route-specific analyzable-pair calculator for partial Karolinska/GSE228330/Gafson returns | done | Wrote `scripts/v45_route_analyzable_pair_calculator.py`, `docs/validation/ROUTE_ANALYZABLE_PAIR_CALCULATOR_V45.md`, and outputs under `analysis/v45_route_analyzable_pair_calculator/`; synthetic route cases show Gafson-small complete as effect-size/CI likely inconclusive, Gafson partial and Karolinska small below planning floor, and GSE228330 no-label context as context-only/labels-needed. Linked from dropout, cohort-spec, and first-24h docs. |
-| 125 | Infrastructure | Add a generated-doc freshness linter that compares linked machine-readable outputs to human-facing governance counts | todo | Self-generated follow-up from item 119 because manual count refreshes are a known drift risk. |
+| 125 | Infrastructure | Add a generated-doc freshness linter that compares linked machine-readable outputs to human-facing governance counts | done | Wrote `scripts/v45_generated_doc_freshness_linter.py`, `docs/validation/GENERATED_DOC_FRESHNESS_LINTER_V45.md`, and outputs under `analysis/v45_generated_doc_freshness_linter/`; linter passes `34` doc-to-summary/config checks with `0` failures, and stale detector now tracks `18` generated artifacts including this linter. |
 | 126 | External account | Add a skeptical-review appendix explaining why synthetic/readiness outputs do not constitute biological validation | todo | Self-generated follow-up to make the external account harder to misread. |
 | 127 | Integrity | Run the next full precommit/governance wrapper after items 120-126 | todo | Recurring integrity control after the next self-generated batch. |
 
@@ -974,3 +974,13 @@ todo items.
   without labels as context-only/labels-needed. The calculator is linked from
   dropout/missingness, medical-team cohort-spec, and first-24h intake docs.
 - Next selected task: generated-doc freshness linter.
+- Generated-doc freshness linter completed. It checks `34` selected
+  documentation count/timing/config strings against current machine-readable
+  summaries or configured generated-artifact counts and passes with `0`
+  failures. The linter is intentionally post-refresh rather than embedded
+  inside `v45_precommit_readiness_check.py`, avoiding the circular case where
+  the wrapper checks its own summary before writing it. Stale-output detector
+  coverage now includes this linter and passes with `18` artifacts checked,
+  `0` stale or missing.
+- Next selected task: skeptical-review appendix explaining synthetic/readiness
+  outputs are not biological validation.

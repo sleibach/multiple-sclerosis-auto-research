@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `17`
+- artifacts checked: `18`
 - stale or missing: `0`
 - overall status: `PASS`
 
@@ -41,7 +41,8 @@ Checked generated artifacts:
 - author-run bundle dry-run manifest;
 - generated-checker registry;
 - operational handoff index;
-- readiness status dashboard.
+- readiness status dashboard;
+- generated-doc freshness linter.
 
 ## Interpretation
 

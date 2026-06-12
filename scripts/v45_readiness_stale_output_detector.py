@@ -265,6 +265,32 @@ CHECKS = [
         ],
         "refresh_command": ".venv/bin/python scripts/v45_readiness_status_dashboard.py --outdir analysis/v45_readiness_status_dashboard",
     },
+    {
+        "artifact": "generated_doc_freshness_linter",
+        "sources": [
+            "analysis/v45_artifact_index/summary.json",
+            "analysis/v45_compute_storage_summary/summary.json",
+            "analysis/v45_synthetic_artifact_index/summary.json",
+            "analysis/v45_precommit_readiness/precommit_readiness_summary.json",
+            "analysis/v45_regression_aggregator/regression_aggregator_summary.json",
+            "docs/validation/V45_GOVERNANCE_REFRESH.md",
+            "docs/validation/V45_ARTIFACT_INDEX.md",
+            "docs/validation/V45_COMPUTE_STORAGE_SUMMARY.md",
+            "docs/validation/PRECOMMIT_READINESS_CHECKLIST_V45.md",
+            "docs/validation/V45_READINESS_CHANGELOG.md",
+            "docs/validation/SYNTHETIC_ARTIFACT_RETENTION_INDEX_V45.md",
+            "docs/validation/SYNTHETIC_OUTPUT_RETENTION_POLICY_V45.md",
+            "docs/validation/V45_REGRESSION_AGGREGATOR.md",
+            "docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md",
+            "scripts/v45_generated_doc_freshness_linter.py",
+            "scripts/v45_readiness_stale_output_detector.py",
+        ],
+        "outputs": [
+            "analysis/v45_generated_doc_freshness_linter/generated_doc_freshness_summary.json",
+            "analysis/v45_generated_doc_freshness_linter/generated_doc_freshness_lint.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v45_generated_doc_freshness_linter.py --outdir analysis/v45_generated_doc_freshness_linter",
+    },
 ]
 
 MTIME_EPSILON_SECONDS = 1.0
