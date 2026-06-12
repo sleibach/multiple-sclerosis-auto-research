@@ -1,0 +1,13 @@
+packet_item	path_or_instruction	required	purpose	recipient_action
+locked_rule	docs/locked_rules/LOCKED_RULE_V22.md	yes	frozen V22 rule	do not edit
+primary_preregistration	docs/validation/PREREGISTRATION_V42.md	yes	frozen Gafson/DMF analysis plan	follow exactly if cohort matches
+interpretation_grid	docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md	yes	result interpretation	use exactly one class
+input_schema	docs/validation/input_schemas/V45_primary_metadata_schema.tsv	yes	metadata format	map local fields
+expression_schema	docs/validation/input_schemas/V45_primary_expression_schema.tsv	yes	expression format	map local features
+module_coverage_precheck	scripts/v45_module_coverage_precheck.py	yes	pre-harness coverage guard	run before harness
+frozen_harness	scripts/v42_gafson_validation_harness.py	yes	frozen validation execution	run without modification
+hash_baseline	docs/validation/LOCKED_ARTIFACT_HASH_BASELINE_V45.tsv	yes	integrity reference	verify sent artifacts if possible
+result_report_template	docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md	yes	aggregate report format	fill from frozen outputs
+handoff_bundle_template	docs/validation/VALIDATION_HANDOFF_BUNDLE_TEMPLATE_V45.md	yes	output completeness checklist	return non-sensitive outputs
+redaction_checklist	docs/validation/SENSITIVE_DATA_REDACTION_CHECKLIST_V45.md	yes	prevent private data leakage	exclude raw/private data unless permitted
+minimum_outputs	validation_summary.json;sample_attrition.tsv;gene_mapping_coverage.tsv;locked_rule_metrics.tsv;confounder_adjustment_metrics.tsv;joint_confounder_metrics.tsv;batch_diagnostic_metrics.tsv	yes	aggregate evidence package	return these files if non-sensitive
