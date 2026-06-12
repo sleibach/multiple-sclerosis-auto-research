@@ -1,10 +1,49 @@
 # NEXT_ACTIONS
 
-Last updated: 2026-06-10 11:20 CEST
+Last updated: 2026-06-12 16:45 CEST
 
 Start every resumed session here. Work the first unresolved item unless a higher-priority blocker has just cleared.
 
 ## Queue
+
+V43 update:
+
+- Power map: `docs/validation/POWER_MAP_V43.md`.
+- Robustness envelope: `docs/validation/HARNESS_ROBUSTNESS_V43.md`.
+- Pipeline self-audit: `docs/history/PIPELINE_SELF_AUDIT_V43.md`.
+- Outputs: `analysis/v43_method_validation/`.
+- Simulation code: `scripts/v43_method_validation_simulations.py`.
+- Synthetic-only scale:
+  - `9,408` power cohorts;
+  - `1,860` robustness cohorts;
+  - `5,000` synthetic-null corpus replicates.
+- Main conclusions:
+  - null false-positive rate across null power cells: `0.016`;
+  - Gafson-small (`10-15` per group) mean conclusive rate: `0.578`;
+  - clean effect size `1.00` reached 80% pass probability at about `30`
+    responders and `30` nonresponders;
+  - effect size `0.75` did not reach 80% pass probability up to `80` per
+    group, especially with label noise/immune-tone structure;
+  - response-correlated batch effects are the main false-positive robustness
+    risk;
+  - V41 joint z is family-wise borderline under synthetic null (`0.0706`),
+    while recurrence is far beyond null (`0.0002`).
+
+First post-V43 action:
+
+1. Acquire or receive Gafson et al. 2018 DMF PBMC RNA-seq processed counts plus
+   sample-level NEDA-4 labels.
+2. Before analysis, quarantine by recording path, file sizes, and checksums.
+3. Check whether the received cohort is inside the V43 robustness envelope:
+   response-correlated batch, label swaps/ambiguity, normalization noise,
+   outlier samples, missing timepoints, and module/gene-ID loss.
+4. If sample size is around `10-15` per response group, pre-interpret likely
+   outcomes as effect-size/power-planning unless the effect is very large and
+   quality audits are clean.
+5. If the goal is a decisive validation, seek roughly `30` responders and `30`
+   nonresponders or more for a clean effect near size `1.00`; weaker/noisier
+   effects need larger cohorts.
+6. Run only the frozen V42 harness and interpretation grid. Do not tune V22.
 
 V42 update:
 

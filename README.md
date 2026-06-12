@@ -11,7 +11,7 @@ All analysis uses public human-tissue data only and random seed `20260526`
 
 ## Current Status
 
-The current phase is **V42**. The V4 directory structure remains canonical, and
+The current phase is **V43**. The V4 directory structure remains canonical, and
 V11 introduced the resume backbone for short-session continuity.
 
 - Start here: `meta/CURRENT_STATUS.md` — the live mission state, active leads,
@@ -151,6 +151,18 @@ V11 introduced the resume backbone for short-session continuity.
   planted signal passes). The OpenGWAS JWT expiry on `2026-06-19 12:28 UTC` is
   now a readiness flag for any validation-adjacent OpenGWAS check after that
   date.
+  V43 then used synthetic, seeded, committed method-characterization only to
+  quantify whether the frozen validation can be interpreted. It wrote
+  `docs/validation/POWER_MAP_V43.md`,
+  `docs/validation/HARNESS_ROBUSTNESS_V43.md`, and
+  `docs/history/PIPELINE_SELF_AUDIT_V43.md`, with synthetic data quarantined
+  under `analysis/v43_method_validation/synthetic/`. The power map says tiny
+  Gafson-sized cohorts can estimate effect size but are unlikely to settle the
+  rule unless the true effect is large and labels are clean; a clean effect
+  size of `1.00` reached 80% pass probability at about `30` responders and
+  `30` nonresponders in the grid. The pipeline self-audit reproduced the V41
+  boundary: joint z is near the family-wise search tail (FWER `0.0706`), while
+  recurrence is far outside synthetic null (FWER `0.0002`).
 - Current genetics/data focus: the chr1 MS-UC causal-gene question is
   computationally resolved for now and handed forward as real shared genetics,
   not an intervention-grade target. V20 widened back out to a ranked
@@ -267,6 +279,7 @@ that explicitly in `meta/SESSION_LOG.md`.
 | V40 | Dimension-scouting and fast grounded probes of unexplored computational angles. | Produced `meta/DIMENSION_SCOUT_V40.md` and `docs/history/DIMENSION_PROBES_V40.md`. Protective/resilience-direction genetics was negative in the held frame; APC-axis topology showed a correction-surviving IFNG readout hub worth mechanism mapping but not target nomination. |
 | V41 | Maximum-capability joint inference over the full corpus. | Produced `docs/history/JOINT_INFERENCE_V41.md` and `analysis/v41_joint_inference/`. Joint inference recovered the known APC/HLA-II/IFN/MIF-CD74 monitoring axis and known metabolic/immune-tone context, but found no unexpected new held-out-validated signal; the public-data computation boundary is now explicit. |
 | V42 | Pre-registration and validation-readiness hardening for the Gafson cohort. | Produced `docs/validation/PREREGISTRATION_V42.md`, `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md`, `scripts/v42_gafson_validation_harness.py`, and `analysis/v42_harness_validation/`. The future Gafson DMF/NEDA-4 test is now a frozen, mechanical validation with synthetic null/planted self-tests and no new discovery claims. |
+| V43 | Compute-intensive synthetic method-characterization for validation power, harness robustness, and pipeline self-audit. | Produced `docs/validation/POWER_MAP_V43.md`, `docs/validation/HARNESS_ROBUSTNESS_V43.md`, `docs/history/PIPELINE_SELF_AUDIT_V43.md`, and `analysis/v43_method_validation/`. Synthetic-only result: Gafson-small cohorts are often inconclusive; roughly `30` responders and `30` nonresponders are needed for 80% pass probability under a clean effect size `1.00`; batch-response-confounded data are the main false-positive robustness risk; V41 recurrence is far beyond synthetic null while joint z is family-wise borderline. |
 
 `docs/findings/FINDING.md` documents the (since-demoted) `ACSL1` target hypothesis from an
 earlier phase and is retained for the historical trace.
@@ -449,6 +462,21 @@ V42 Gafson validation-readiness entry points:
   cohort passed as expected (AUC `1.000`).
 - Operational readiness flag: renew OpenGWAS before any validation-adjacent
   OpenGWAS-dependent check after `2026-06-19 12:28 UTC`.
+
+V43 validation method-characterization entry points:
+
+- `scripts/v43_method_validation_simulations.py` rebuilds all V43 synthetic
+  simulations with seed `43043`.
+- `docs/validation/POWER_MAP_V43.md` reports validation power and study-design
+  implications from `9,408` synthetic cohorts.
+- `docs/validation/HARNESS_ROBUSTNESS_V43.md` reports the data-quality envelope
+  from `1,860` synthetic robustness cohorts.
+- `docs/history/PIPELINE_SELF_AUDIT_V43.md` reports `5,000` synthetic-null
+  corpus replicates against the V41 joint-inference and recurrence gates.
+- `analysis/v43_method_validation/` contains the machine-readable outputs;
+  `analysis/v43_method_validation/synthetic/` contains the quarantined
+  synthetic data. These outputs characterize method behavior only and are not
+  biological evidence.
 
 ## Honest Scope
 

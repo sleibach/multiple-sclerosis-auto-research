@@ -1,6 +1,6 @@
 # Current Status
 
-Last updated: 2026-06-10 11:20 CEST
+Last updated: 2026-06-12 16:45 CEST
 
 ## Mission State
 
@@ -115,8 +115,54 @@ pre-commit result interpretation, and
 `analysis/v42_harness_validation/` to prove the harness rejects a synthetic null
 and accepts a synthetic planted signal before real data arrive. No discovery,
 rule change, or Gafson data reading occurred.
+V43 then used idle compute for synthetic method-characterization only. It did
+not reopen discovery, edit locked rules, edit the V42 preregistration, or read
+real Gafson data. It ran `9,408` synthetic power cohorts, `1,860` synthetic
+robustness cohorts, and `5,000` synthetic-null corpus replicates. The outputs
+are `docs/validation/POWER_MAP_V43.md`,
+`docs/validation/HARNESS_ROBUSTNESS_V43.md`,
+`docs/history/PIPELINE_SELF_AUDIT_V43.md`, and
+`analysis/v43_method_validation/`.
 
 Current frontier:
+
+- V43 validation method-characterization state:
+  - Power map:
+    `docs/validation/POWER_MAP_V43.md`.
+  - Robustness envelope:
+    `docs/validation/HARNESS_ROBUSTNESS_V43.md`.
+  - Pipeline self-audit:
+    `docs/history/PIPELINE_SELF_AUDIT_V43.md`.
+  - Simulation code:
+    `scripts/v43_method_validation_simulations.py`.
+  - Synthetic data and machine-readable outputs:
+    `analysis/v43_method_validation/`.
+  - Scale:
+    - power: `9,408` synthetic cohorts, `300` bootstrap replicates per cohort;
+    - robustness: `1,860` synthetic cohorts;
+    - self-audit: `5,000` synthetic-null corpus replicates.
+  - Power headline:
+    - null false-positive rate across null power cells: `0.016`;
+    - Gafson-small cells (`10-15` per group) mean conclusive rate: `0.578`;
+    - effect size `1.00`, no label noise, no confounder reached 80% pass
+      probability at `30` responders and `30` nonresponders;
+    - effect size `0.75` did not reach 80% pass probability up to `80` per
+      group, especially with label noise/immune-tone structure.
+  - Robustness headline:
+    - trustworthy envelope requires planted-signal correct rate `>=0.80` and
+      null pass rate `<=0.05`;
+    - high response-correlated batch effects are the main false-positive risk;
+    - any label swaps, high normalization noise, or outlier samples should make
+      the Gafson result inconclusive/non-specific unless resolved.
+  - Self-audit headline:
+    - real V41 joint z FWER against V43 synthetic null: `0.0706`;
+    - real V41 recurrence FWER against V43 synthetic null: `0.0002`;
+    - interpretation: recurrence is the stronger methodological corroboration;
+      joint z remains family-wise borderline, matching V41's conservative
+      boundary.
+  - Current decision:
+    - acquire/receive Gafson data, but treat small or noisy Gafson as likely
+      effect-size/power-planning evidence rather than a decisive validation.
 
 - V42 Gafson validation-readiness state:
   - Frozen pre-registration:

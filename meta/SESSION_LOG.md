@@ -1060,3 +1060,65 @@ Next session first action:
   counts plus sample-level NEDA-4 labels, quarantine the package by path/size/
   checksum before analysis, then run only the V42 preregistered harness and
   interpret under the V42 grid. Do not tune the V22 rule on Gafson.
+
+## RUN SUMMARY - V43 Validation Power, Harness Robustness, And Pipeline Self-Audit
+
+- Active runtime: 18 minutes 38 seconds, measured from real system-clock reads
+  (`2026-06-12T14:31:17Z` to `2026-06-12T14:49:55Z`). The run was
+  value-complete; the optional 240-minute ceiling was not reached.
+- Session start timestamp (UTC): 2026-06-12T14:31:17Z.
+- Session end timestamp (UTC): 2026-06-12T14:49:55Z.
+- OpenGWAS: POST access check passed with HTTP 200; JWT valid until
+  `2026-06-19 12:28 UTC`, flagged for renewal before any later
+  validation-adjacent OpenGWAS check.
+- SAP AI Core health and model spend: `SAP_AI_CORE_API_KEY` present; Claude
+  4.7 Opus, Gemini 2.5 Pro, and `sap-rpt-1-large` smoke-passed. No model output
+  was used as evidence and no model calls beyond smoke tests were needed. The
+  local client exposes no per-call spend.
+- Iterations completed: 1 value-complete synthetic method-characterization
+  iteration.
+- Simulation scale and compute used:
+  - `9,408` synthetic power cohorts;
+  - `300` bootstrap replicates per power/robustness cohort;
+  - `1,860` synthetic robustness cohorts;
+  - `5,000` V41-style synthetic-null corpus replicates;
+  - synthetic subject-level outputs are stored under
+    `analysis/v43_method_validation/synthetic/` and are explicitly synthetic.
+- Power-map headline:
+  - null false-positive rate across null power cells: `0.016`;
+  - Gafson-small cells (`10-15` per response group) mean conclusive rate:
+    `0.578`;
+  - clean effect size `1.00`, no label noise, no confounder reached 80% pass
+    probability at `30` responders and `30` nonresponders;
+  - effect size `0.75` did not reach 80% pass probability up to `80` per group,
+    especially under label noise and immune-tone structure.
+- Robustness envelope:
+  - envelope criterion requires planted-signal correct rate `>=0.80` and null
+    pass rate `<=0.05`;
+  - response-correlated batch effects are the main false-positive risk
+    (`0.40` null pass rate at severity `1.0`);
+  - label swaps, high normalization noise, and outlier samples quickly push the
+    result outside the trustworthy envelope.
+- Pipeline self-audit:
+  - real V41 `apc_hla_ifn_monitoring` train joint z `8.0548` had synthetic-null
+    FWER `0.0706`, matching the original conservative family-wise boundary;
+  - entity-specific APC null p was `0.0018`;
+  - real V41 recurrence of `78` positive source units had synthetic-null FWER
+    `0.0002`, making recurrence the stronger methodological corroboration.
+- Deliverables:
+  - `docs/validation/POWER_MAP_V43.md`;
+  - `docs/validation/HARNESS_ROBUSTNESS_V43.md`;
+  - `docs/history/PIPELINE_SELF_AUDIT_V43.md`;
+  - `scripts/v43_method_validation_simulations.py`;
+  - `analysis/v43_method_validation/`.
+- RAG rebuild: sparse index rebuilt to `538` documents. Smoke query
+  `V43 power map robustness synthetic null Gafson` returned V43 queue,
+  self-audit, power map, V42 queue, and current status.
+- Stop reason: value-complete handoff after all three V43 workstreams,
+  close-out updates, and RAG rebuild were completed. V43 made no biological
+  claims, did not reopen discovery, did not change locked rules or the V42
+  pre-registration, and did not read real Gafson data.
+- Next action: acquire or receive Gafson et al. 2018 DMF PBMC RNA-seq processed
+  counts plus sample-level NEDA-4 labels. Quarantine by path/size/checksum,
+  check sample size and data quality against the V43 power/robustness envelope,
+  then run only the frozen V42 harness and interpretation grid.

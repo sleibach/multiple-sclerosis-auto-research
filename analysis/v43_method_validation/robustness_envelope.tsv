@@ -1,0 +1,8 @@
+pathology	max_severity_inside_envelope	criterion
+batch_response_correlated	0.25	planted_correct_rate>=0.80 and null_pass_rate<=0.05
+gene_id_loss	0.25	planted_correct_rate>=0.80 and null_pass_rate<=0.05
+label_swap	0.0	planted_correct_rate>=0.80 and null_pass_rate<=0.05
+missing_timepoints	0.25	planted_correct_rate>=0.80 and null_pass_rate<=0.05
+normalization_noise	0.0	planted_correct_rate>=0.80 and null_pass_rate<=0.05
+outlier_samples	0.0	planted_correct_rate>=0.80 and null_pass_rate<=0.05
+receptor_artifact	1.0	planted_correct_rate>=0.80 and null_pass_rate<=0.05
