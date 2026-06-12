@@ -1,0 +1,8 @@
+order	gate	required_action	evidence_artifact	pass_condition	failure_response
+1	receipt_path	save returned aggregate package outside raw/quarantine data paths	package root path recorded	operator can name exact aggregate package root	record receipt path before continuing
+2	no_private_material	do not commit raw expression, clinical labels, private correspondence, agreements, credentials, or private URLs	docs/validation/SENSITIVE_DATA_REDACTION_CHECKLIST_V45.md	operator confirms package is intended aggregate-only	stop and request redacted aggregate package
+3	return_gate	run scripts/v45_author_run_return_gate_runner.py	analysis/v45_author_run_return_gate_runner/<cohort>_<date>/author_run_return_gate_summary.json	overall_status PASS	stop at failed redaction or completeness gate
+4	result_report	fill docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md from aggregate outputs only	completed validation result report	all reported metrics trace to returned aggregate files	request missing aggregate values or repair report
+5	outcome_grid	classify result only under docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md	result report outcome-grid section	classification matches precommitted grid	do not reinterpret post hoc
+6	precommit	run scripts/v45_precommit_readiness_check.py	analysis/v45_precommit_readiness/precommit_readiness_summary.json	overall_status PASS	repair repository/readiness failures before commit
+7	status_dashboard	refresh scripts/v45_readiness_status_dashboard.py	analysis/v45_readiness_status_dashboard/readiness_status_dashboard_summary.json	dashboard reflects returned-package gate state	refresh or repair linked status artifacts

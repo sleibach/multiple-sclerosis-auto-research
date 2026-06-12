@@ -128,7 +128,14 @@ generate more internally executable tasks before continuing.
 | 101 | Validation readiness | Add a checksum manifest builder for the author-run packet bundle index | done | Wrote `scripts/v45_author_run_packet_checksum_manifest.py`, `docs/validation/AUTHOR_RUN_PACKET_CHECKSUMS_V45.md`, and outputs under `analysis/v45_author_run_packet_checksums/`; hashes `28` included packet files, verifies `28/28`, and synthetic corrupted manifest fails with `1` mismatch. |
 | 102 | Operations | Add an external-blocker board that merges live cohort acquisition index, outbound tracker, and received triage state | done | Wrote `scripts/v45_external_blocker_board.py`, `docs/validation/EXTERNAL_BLOCKER_BOARD_V45.md`, and outputs under `analysis/v45_external_blocker_board/`; current board has `4` routes, all `external_send_or_author_approval`, and `0` harness-ready cohorts. |
 | 103 | Infrastructure | Add a generated-checker registry mapping V45 scripts to docs, outputs, and synthetic regression status | done | Wrote `scripts/v45_generated_checker_registry.py`, `docs/validation/GENERATED_CHECKER_REGISTRY_V45.md`, and outputs under `analysis/v45_generated_checker_registry/`; registry indexes `54` V45 scripts with `0` undocumented and `0` without detected output dirs. |
-| 104 | Validation readiness | Add an author-run aggregate result redaction/completeness/reporting gate checklist for human operators | in-progress | Selected next after item 103; should be a compact operator sequence wrapping redaction, completeness, report fill, and outcome-grid interpretation. |
+| 104 | Validation readiness | Add an author-run aggregate result redaction/completeness/reporting gate checklist for human operators | done | Wrote `docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md` and `docs/validation/input_schemas/V45_author_run_return_operator_checklist.tsv`; path resolver now passes with `163` concrete references and `0` missing. |
+| 105 | Validation readiness | Add a validation state-machine table spanning request, receipt, preflight, author-run return, report, and interpretation states | in-progress | Generated after item 104; should consolidate existing boards into one reviewer-readable state machine without changing gates. |
+| 106 | Operations | Add route-specific arrival command packets generated from the live acquisition index for Gafson, Karolinska, GSE228330, and author-run fallback | todo | Generated after item 104; should convert current runbooks into concrete first commands for each route and keep no-score-before-gates wording. |
+| 107 | Infrastructure | Add a stale-output detector for readiness dashboards that compares summary source mtimes to generated dashboards | todo | Generated after item 104; should flag when path resolver/dashboard/blocker outputs need refresh after docs or tracker changes. |
+| 108 | Operations | Add follow-up message templates derived from the due-board status classes | todo | Generated after item 104; should prepare unsent follow-up drafts for overdue/due-soon/sent-due-unknown states without marking any request sent. |
+| 109 | Validation readiness | Add cohort-route no-degrees-of-freedom checklist for Karolinska and GSE228330 addendum paths | todo | Generated after item 104; should precommit what must be frozen before any secondary/context route scoring. |
+| 110 | Infrastructure | Add a compact V45 handoff index that lists only the current top-level operational artifacts in execution order | todo | Generated after item 104; should help medical-team operators avoid navigating the full artifact corpus. |
+| 111 | Integrity | Run the next full precommit/governance wrapper after items 98-110 | todo | Generated after item 104 as recurring integrity control. |
 
 ## Generated Follow-Ups
 
@@ -796,3 +803,13 @@ todo items.
   scripts lacking detected output dirs. Path resolver now passes with `162`
   concrete references and `0` missing.
 - Next selected task: author-run aggregate result operator checklist.
+- Author-run return operator checklist completed. It gives a human sequence for
+  aggregate author-run returns: receipt path, no private material, combined
+  return gate, result report, V42 outcome grid, precommit, and dashboard
+  refresh. Machine-readable checklist has `7` gates. Path resolver now passes
+  with `163` concrete references and `0` missing.
+- Backlog refilled above threshold with validation state machine,
+  route-specific arrival command packets, stale-output detector, follow-up
+  templates, secondary-route no-degrees-of-freedom checklist, compact handoff
+  index, and the next full precommit wrapper.
+- Next selected task: validation state-machine table.

@@ -15,6 +15,10 @@ This runner does not run the frozen validation harness and does not interpret
 biological results. It is for returned aggregate packages from the author-run
 fallback path.
 
+Human operator checklist:
+
+`docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md`
+
 ## Command
 
 For a returned scored aggregate package:
