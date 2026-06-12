@@ -1,0 +1,26 @@
+field	required	allowed_values_or_format	notes
+cohort_id	yes	stable_local_identifier	Must match acquisition/preflight cohort_id.
+outcome_table_path	yes	relative_path_under_quarantine	Do not point to raw files outside the received package unless terms allow.
+subject_id_field	yes	column_name	Field linking labels to subject/patient IDs.
+sample_id_field	no	column_name_or_not_applicable	Use if labels are sample-level rather than subject-level.
+raw_outcome_field	yes	column_name	Original provider column for main outcome.
+raw_positive_values	yes	semicolon_separated_values	Provider values meaning responder/success/event-free.
+raw_negative_values	yes	semicolon_separated_values	Provider values meaning nonresponder/failure/disease activity.
+harness_positive_class	yes	responder;NEDA_achieved;event_free;treatment_success	Positive class after preregistered recoding.
+harness_negative_class	yes	nonresponder;NEDA_failed;disease_activity;treatment_failure	Negative class after preregistered recoding.
+assessment_start	yes	baseline;therapy_start;sample_date;other	Define start of outcome window.
+assessment_end	yes	weeks_or_months_or_date	Example: 12 months, 15 months, 3 months postpartum.
+outcome_definition_text	yes	free_text_non_sensitive	Concise provider definition; no private correspondence.
+composite_components	no	semicolon_separated_fields	Example: relapse;MRI_activity;disability_progression;brain_volume_loss.
+component_missing_rule	yes	exclude_before_analysis;censored_effect_size_only;component_missing_composite_unscoreable;other_preregistered_rule	Choose before scoring.
+censoring_field	no	column_name_or_not_applicable	Column indicating censoring/dropout if present.
+censoring_rule	yes	exclude_before_analysis;censored_effect_size_only;not_applicable;other_preregistered_rule	Choose before scoring.
+dropout_field	no	column_name_or_not_applicable	Column indicating dropout if present.
+dropout_rule	yes	exclude_before_analysis;censored_effect_size_only;not_applicable;other_preregistered_rule	Choose before scoring.
+indeterminate_values	no	semicolon_separated_values	Raw values that are neither positive nor negative.
+indeterminate_rule	yes	exclude_before_analysis;censored_effect_size_only;not_applicable;other_preregistered_rule	Choose before scoring.
+label_provider	yes	public_contact_or_role	No private email contents.
+label_received_date_utc	yes	YYYY-MM-DD	Use UTC date.
+definition_frozen_date_utc	yes	YYYY-MM-DD	Date this dictionary was finalized.
+reviewer	yes	name_or_agent_id	Who reviewed dictionary.
+status	yes	draft_pending_review;frozen_ready_for_addendum;blocked_ambiguous_definition	Only frozen_ready_for_addendum can proceed.
