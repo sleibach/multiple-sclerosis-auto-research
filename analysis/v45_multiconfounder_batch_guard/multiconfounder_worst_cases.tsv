@@ -1,0 +1,15 @@
+scenario	truth	worst_severity	primary_pass_rate	individual_guarded_acceptable_pass_rate	joint_guarded_acceptable_pass_rate
+independent_technical	synthetic_null	0.5	0.0125	0.0125	0.0125
+independent_technical	planted	0.0	0.9625	0.275	0.875
+batch_only	synthetic_null	0.0	0.0	0.0	0.0
+batch_only	planted	0.5	0.9125	0.0	0.4625
+distributed_weak_technical	synthetic_null	0.0	0.0	0.0	0.0
+distributed_weak_technical	planted	1.0	0.9625	0.0	0.1625
+batch_plus_depth	synthetic_null	0.0	0.025	0.0125	0.025
+batch_plus_depth	planted	0.75	0.975	0.0	0.025
+batch_plus_steroid	synthetic_null	0.0	0.0	0.0	0.0
+batch_plus_steroid	planted	0.75	0.95	0.0	0.075
+immune_tone_plus_batch	synthetic_null	0.5	0.0625	0.0125	0.05
+immune_tone_plus_batch	planted	1.0	0.9875	0.0	0.3875
+normalization_plus_depth	synthetic_null	0.0	0.0125	0.0	0.0125
+normalization_plus_depth	planted	0.75	1.0	0.0	0.1125

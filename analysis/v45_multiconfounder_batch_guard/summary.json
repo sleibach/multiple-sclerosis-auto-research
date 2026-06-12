@@ -1,0 +1,20 @@
+{
+  "cohorts": 5600,
+  "output_dir": "/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_multiconfounder_batch_guard",
+  "replicates_per_cell": 80,
+  "scenarios": [
+    "independent_technical",
+    "batch_only",
+    "distributed_weak_technical",
+    "batch_plus_depth",
+    "batch_plus_steroid",
+    "immune_tone_plus_batch",
+    "normalization_plus_depth"
+  ],
+  "seed": 45045,
+  "subjects": 336000,
+  "synthetic": true,
+  "worst_null_individual_guarded_acceptable_pass_rate": 0.0125,
+  "worst_null_joint_guarded_acceptable_pass_rate": 0.1,
+  "worst_null_primary_pass_rate": 0.8625
+}
