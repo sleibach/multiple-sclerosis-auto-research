@@ -1,0 +1,13 @@
+item	risk	required_action	commit_allowed	default_status	notes
+raw_expression_matrix	individual/sample-level expression data	keep in quarantine or approved restricted location	no	todo	
+raw_assay_files	CEL/FASTQ/BAM/IDAT or similar individual-level assay data	keep outside git unless explicit terms permit	no	todo	
+sample_level_outcomes	NEDA/relapse/EDSS/response labels	keep outside git unless explicit terms permit	terms_dependent	todo	
+signed_agreements	contracts, signed DUAs, legal terms	never commit; summarize permission status only	no	todo	
+credentials_or_tokens	API keys, bearer tokens, private download URLs	never commit	no	todo	
+private_email_content	private replies or collaborator correspondence	commit sanitized request templates only	no	todo	
+identifiable_dates_or_ids	patient identifiers or dates requiring de-identification	aggregate or replace with study IDs	terms_dependent	todo	
+portal_screenshots	account or portal screenshots	do not commit	no	todo	
+checksum_manifest	file hashes without private URLs	commit if terms permit	terms_dependent	todo	
+aggregate_gate_outputs	preflight/checksum/coverage/subject-map summaries	commit if non-sensitive and terms permit	terms_dependent	todo	
+frozen_addendum	blind preregistration addendum text	commit yes if no private data	yes	todo	
+frozen_harness_aggregate_outputs	aggregate metrics and attrition counts	commit if terms permit	terms_dependent	todo	
