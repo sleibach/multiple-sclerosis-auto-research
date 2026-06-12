@@ -5,6 +5,10 @@ Status: operational checklist. No data received or analyzed.
 Purpose: define what to do in the first day after any Gafson, Karolinska, or
 GSE228330 package arrives, without creating analysis degrees of freedom.
 
+Machine-readable status template:
+
+`docs/validation/input_schemas/V45_first_24h_operator_status_template.tsv`
+
 ## Before Touching Files
 
 - Do not open expression matrices beside file-listing/checksum operations.
