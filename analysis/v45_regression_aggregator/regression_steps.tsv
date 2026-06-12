@@ -1,0 +1,274 @@
+step	command	returncode	elapsed_seconds	status	stdout_tail	stderr_tail
+primary_harness_regression	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_primary_harness_regression_tests.py	0	66.873	PASS	"{
+  ""null_auc"": 0.52,
+  ""null_expected_fail"": true,
+  ""null_verdict"": ""FAIL_ADEQUATE_POWER"",
+  ""planted_auc"": 1.0,
+  ""planted_expected_pass"": true,
+  ""planted_verdict"": ""PASS_CLEAN""
+}
+{
+  ""expected_result_files"": [
+    ""validation_summary.json"",
+    ""paired_module_deltas.tsv"",
+    ""gene_mapping_coverage.tsv"",
+    ""sample_attrition.tsv"",
+    ""locked_rule_metrics.tsv"",
+    ""confounder_adjustment_metrics.tsv"",
+    ""joint_confounder_metrics.tsv"",
+    ""batch_diagnostic_metrics.tsv""
+  ],
+  ""failures"": [],
+  ""null_files_present"": [
+    ""validation_summary.json"",
+    ""paired_module_deltas.tsv"",
+    ""gene_mapping_coverage.tsv"",
+    ""sample_attrition.tsv"",
+    ""locked_rule_metrics.tsv"",
+    ""confounder_adjustment_metrics.tsv"",
+    ""joint_confounder_metrics.tsv"",
+    ""batch_diagnostic_metrics.tsv""
+  ],
+  ""null_summary"": {
+    ""final_verdict"": ""FAIL_ADEQUATE_POWER"",
+    ""n"": 60,
+    ""primary_auc"": 0.52,
+    ""primary_hedges_g"": 0.02850666687802032,
+    ""receptor_auc"": 0.3088888888888889
+  },
+  ""overall_status"": ""PASS"",
+  ""planted_files_present"": [
+    ""validation_summary.json"",
+    ""paired_module_deltas.tsv"",
+    ""gene_mapping_coverage.tsv"",
+    ""sample_attrition.tsv"",
+    ""locked_rule_metrics.tsv"",
+    ""confounder_adjustment_metrics.tsv"",
+    ""joint_confounder_metrics.tsv"",
+    ""batch_diagnostic_metrics.tsv""
+  ],
+  ""planted_summary"": {
+    ""final_verdict"": ""PASS_CLEAN"",
+    ""n"": 60,
+    ""primary_auc"": 1.0,
+    ""primary_hedges_g"": 6.979416104401358,
+    ""receptor_auc"": 0.2822222222222222
+  },
+  ""synthetic"": true,
+  ""v42_primary_outdir"": ""analysis/v45_primary_harness_regression_tests/v42_primary_synthetic""
+}
+"	
+secondary_and_context_harness_regression	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_harness_regression_tests.py	0	1.978	PASS	"88888888889
+    },
+    ""tb_planted"": {
+      ""adequate_power_fail"": false,
+      ""b_plasma_auc"": 0.9511111111111111,
+      ""b_plasma_auc_ci_high"": 0.9989154616240267,
+      ""b_plasma_auc_ci_low"": 0.8957941638608306,
+      ""b_plasma_hedges_g"": 2.3683977671439047,
+      ""b_plasma_pass"": true,
+      ""b_plasma_residual_auc"": 0.9477777777777778,
+      ""batch_guard_flag"": false,
+      ""composition_adjusted_pass"": true,
+      ""coverage_flag"": false,
+      ""guarded_clean_pass"": true,
+      ""interpretation"": ""CLEAN_PASS"",
+      ""lead"": ""tb_compartment"",
+      ""missing_strongly_required_fields"": """",
+      ""n"": 60,
+      ""n_nonresponders"": 30,
+      ""n_responders"": 30,
+      ""raw_pass"": true,
+      ""small_n_directional_pass"": false,
+      ""synthetic"": true,
+      ""t_cell_auc"": 0.7177777777777777,
+      ""t_cell_auc_ci_high"": 0.8358487933634992,
+      ""t_cell_auc_ci_low"": 0.5845783567974892,
+      ""t_cell_hedges_g"": 0.861525732454582,
+      ""t_cell_residual_auc"": 0.7088888888888889
+    }
+  },
+  ""seed"": 45645,
+  ""synthetic"": true
+}
+{
+  ""context_only"": true,
+  ""n_paired_deltas"": 24,
+  ""n_samples"": 36,
+  ""n_subjects"": 12,
+  ""response_like_columns_ignored"": """",
+  ""response_validation_performed"": false,
+  ""scoreable_modules"": ""IFN_APC;HLAII;RECEPTOR"",
+  ""source_mode"": ""precomputed_module_scores"",
+  ""synthetic"": true,
+  ""therapies"": ""ocrelizumab_synthetic"",
+  ""therapy_classes"": ""anti_cd20_cell_depletion""
+}
+{
+  ""failures"": [],
+  ""overall_status"": ""PASS"",
+  ""pharmacodynamic_context_only"": true,
+  ""pharmacodynamic_only_outdir"": ""analysis/v45_harness_regression_tests/pharmacodynamic_only"",
+  ""pharmacodynamic_paired_deltas"": 24,
+  ""pharmacodynamic_response_validation_performed"": false,
+  ""secondary_checks"": {
+    ""postpartum_null_expected_fail"": true,
+    ""postpartum_planted_expected_pass"": true,
+    ""tb_null_expected_fail"": true,
+    ""tb_planted_expected_pass"": true
+  },
+  ""secondary_real_ingest_outdir"": ""analysis/v45_harness_regression_tests/secondary_real_ingest"",
+  ""synthetic"": true
+}
+"	"/Users/soeren.leibach/Projects/ms-auto-research/.venv/lib/python3.13/site-packages/pandas/core/nanops.py:1632: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  return spearmanr(a, b)[0]
+"
+intake_preflight_regression	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_preflight_regression_tests.py	0	0.462	PASS	"s/ms-auto-research/analysis/v45_preflight_regression_tests/synthetic_check/synthetic_quarantine"",
+    ""warn_count"": 0
+  },
+  ""checks"": {
+    ""assertions_match"": true,
+    ""bad_pharmacodynamic_has_fail_count"": true,
+    ""no_module_scores_computed"": true,
+    ""pharmacodynamic_missing_checksum_count_zero"": true,
+    ""pharmacodynamic_preflight_pass"": true,
+    ""pharmacodynamic_response_label_guard_fails"": true,
+    ""primary_missing_checksum_count_zero"": true,
+    ""primary_preflight_pass"": true
+  },
+  ""overall_status"": ""PASS"",
+  ""pharmacodynamic_summary"": {
+    ""expression"": """",
+    ""fail_count"": 0,
+    ""files_audited"": 4,
+    ""metadata"": ""/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_preflight_regression_tests/synthetic_check/synthetic_quarantine/metadata/pharmacodynamic_metadata.tsv"",
+    ""missing_checksum_count"": 0,
+    ""mode"": ""pharmacodynamic"",
+    ""note"": ""Preflight only; no module score or validation metric computed."",
+    ""overall_status"": ""PASS"",
+    ""root"": ""/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_preflight_regression_tests/synthetic_check/synthetic_quarantine"",
+    ""warn_count"": 0
+  },
+  ""preflight_synthetic_outdir"": ""analysis/v45_preflight_regression_tests/synthetic_check"",
+  ""primary_summary"": {
+    ""expression"": ""/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_preflight_regression_tests/synthetic_check/synthetic_quarantine/processed/expression.tsv"",
+    ""fail_count"": 0,
+    ""files_audited"": 4,
+    ""metadata"": ""/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_preflight_regression_tests/synthetic_check/synthetic_quarantine/metadata/primary_metadata.tsv"",
+    ""missing_checksum_count"": 0,
+    ""mode"": ""primary"",
+    ""note"": ""Preflight only; no module score or validation metric computed."",
+    ""overall_status"": ""PASS"",
+    ""root"": ""/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_preflight_regression_tests/synthetic_check/synthetic_quarantine"",
+    ""warn_count"": 5
+  },
+  ""synthetic"": true
+}
+"	
+checksum_manifest_synthetic	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_checksum_manifest_validator.py synthetic-check --outdir analysis/v45_regression_aggregator/checksum_manifest	0	0.379	PASS	"{
+  ""fail_summary"": {
+    ""manifest"": ""analysis/v45_regression_aggregator/checksum_manifest/synthetic_manifest.tsv"",
+    ""n_audit_rows"": 2,
+    ""n_fail"": 1,
+    ""n_manifest_rows"": 2,
+    ""n_warn"": 0,
+    ""overall_status"": ""FAIL"",
+    ""root"": ""/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_regression_aggregator/checksum_manifest/synthetic_package""
+  },
+  ""modified_file_fails"": true,
+  ""overall_status"": ""PASS"",
+  ""pass_manifest_verifies"": true,
+  ""pass_summary"": {
+    ""manifest"": ""analysis/v45_regression_aggregator/checksum_manifest/synthetic_manifest.tsv"",
+    ""n_audit_rows"": 2,
+    ""n_fail"": 0,
+    ""n_manifest_rows"": 2,
+    ""n_warn"": 0,
+    ""overall_status"": ""PASS"",
+    ""root"": ""/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_regression_aggregator/checksum_manifest/synthetic_package""
+  },
+  ""synthetic"": true
+}
+"	
+response_column_synthetic	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_response_column_audit.py synthetic-check --outdir analysis/v45_regression_aggregator/response_column	0	0.343	PASS	"{
+  ""gse228330_public_draft_status"": ""PASS"",
+  ""gse228330_summary"": {
+    ""metadata_path"": ""/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_gse228330_pharmacodynamic_runbook/gse228330_draft_pharmacodynamic_metadata_unverified.tsv"",
+    ""n_columns"": 21,
+    ""n_response_like_columns"": 0,
+    ""overall_status"": ""PASS"",
+    ""response_like_columns"": []
+  },
+  ""overall_status"": ""PASS"",
+  ""safe_metadata_pass"": true,
+  ""safe_summary"": {
+    ""metadata_path"": ""analysis/v45_regression_aggregator/response_column/synthetic/safe_pharmacodynamic_metadata.tsv"",
+    ""n_columns"": 5,
+    ""n_response_like_columns"": 0,
+    ""overall_status"": ""PASS"",
+    ""response_like_columns"": []
+  },
+  ""synthetic"": true,
+  ""unsafe_metadata_fails"": true,
+  ""unsafe_summary"": {
+    ""metadata_path"": ""analysis/v45_regression_aggregator/response_column/synthetic/unsafe_response_metadata.tsv"",
+    ""n_columns"": 7,
+    ""n_response_like_columns"": 2,
+    ""overall_status"": ""FAIL_RESPONSE_LIKE_COLUMNS_PRESENT"",
+    ""response_like_columns"": [
+      ""NEDA4_response"",
+      ""relapse_12m""
+    ]
+  }
+}
+"	
+subject_map_synthetic	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_subject_map_sanity_check.py synthetic-check --outdir analysis/v45_regression_aggregator/subject_map	0	0.392	PASS	"{
+  ""missing_baseline_map_fails"": true,
+  ""missing_baseline_summary"": {
+    ""metadata_path"": ""analysis/v45_regression_aggregator/subject_map/synthetic/missing_baseline_subject_map.tsv"",
+    ""min_paired_subjects"": 2,
+    ""n_fail"": 1,
+    ""n_paired_subjects"": 2,
+    ""n_samples"": 8,
+    ""n_subjects"": 3,
+    ""n_warn"": 0,
+    ""overall_status"": ""FAIL""
+  },
+  ""missing_followup_map_fails"": true,
+  ""missing_followup_summary"": {
+    ""metadata_path"": ""analysis/v45_regression_aggregator/subject_map/synthetic/missing_followup_subject_map.tsv"",
+    ""min_paired_subjects"": 2,
+    ""n_fail"": 1,
+    ""n_paired_subjects"": 2,
+    ""n_samples"": 7,
+    ""n_subjects"": 3,
+    ""n_warn"": 0,
+    ""overall_status"": ""FAIL""
+  },
+  ""negative_metadata_path"": ""/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_gse228330_pharmacodynamic_runbook/gse228330_draft_pharmacodynamic_metadata_unverified.tsv"",
+  ""negative_summary"": {
+    ""metadata_path"": ""/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_gse228330_pharmacodynamic_runbook/gse228330_draft_pharmacodynamic_metadata_unverified.tsv"",
+    ""min_paired_subjects"": 2,
+    ""n_fail"": 133,
+    ""n_paired_subjects"": 0,
+    ""n_samples"": 44,
+    ""n_subjects"": 44,
+    ""n_warn"": 0,
+    ""overall_status"": ""FAIL""
+  },
+  ""overall_status"": ""PASS"",
+  ""synthetic"": true,
+  ""unverified_map_fails"": true,
+  ""valid_paired_map_pass"": true,
+  ""valid_summary"": {
+    ""metadata_path"": ""analysis/v45_regression_aggregator/subject_map/synthetic/valid_verified_subject_map.tsv"",
+    ""min_paired_subjects"": 2,
+    ""n_fail"": 0,
+    ""n_paired_subjects"": 3,
+    ""n_samples"": 9,
+    ""n_subjects"": 3,
+    ""n_warn"": 0,
+    ""overall_status"": ""PASS""
+  }
+}
+"	

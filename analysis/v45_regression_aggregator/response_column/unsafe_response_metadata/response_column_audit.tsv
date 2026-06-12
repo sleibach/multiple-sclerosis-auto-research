@@ -1,0 +1,3 @@
+column	matched_tokens	nonmissing_count	unique_nonmissing_values_sample	severity_for_pharmacodynamic_only	interpretation
+NEDA4_response	response;neda;neda4	2	responder	FAIL_RESPONSE_LIKE_COLUMN_PRESENT	Do not run pharmacodynamic-only context harness until this column is removed, quarantined, or governed by a response-validation preregistration.
+relapse_12m	relapse	2	no	FAIL_RESPONSE_LIKE_COLUMN_PRESENT	Do not run pharmacodynamic-only context harness until this column is removed, quarantined, or governed by a response-validation preregistration.
