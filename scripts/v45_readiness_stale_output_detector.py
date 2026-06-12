@@ -61,6 +61,18 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v45_external_blocker_board.py --outdir analysis/v45_external_blocker_board",
     },
     {
+        "artifact": "followup_message_templates",
+        "sources": [
+            "analysis/v45_followup_due_board/live_template/followup_due_board.tsv",
+            "scripts/v45_followup_message_template_generator.py",
+        ],
+        "outputs": [
+            "analysis/v45_followup_message_templates/live_template/followup_message_template_summary.json",
+            "analysis/v45_followup_message_templates/live_template/followup_message_template_index.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v45_followup_message_template_generator.py --board analysis/v45_followup_due_board/live_template/followup_due_board.tsv --outdir analysis/v45_followup_message_templates/live_template",
+    },
+    {
         "artifact": "route_arrival_packets",
         "sources": [
             "analysis/v45_live_cohort_acquisition_index/live_cohort_acquisition_index.tsv",

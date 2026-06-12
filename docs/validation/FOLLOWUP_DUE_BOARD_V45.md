@@ -10,6 +10,10 @@ Script:
 Purpose: merge the outbound request tracker with an explicit request-sent log
 and produce a due board for request sending and follow-up actions.
 
+Unsent message-template generator:
+
+`docs/validation/FOLLOWUP_MESSAGE_TEMPLATES_V45.md`
+
 ## Commands
 
 Live draft-template board:

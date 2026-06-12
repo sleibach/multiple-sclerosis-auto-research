@@ -58,6 +58,7 @@ MANUAL_CLASS = {
     "analysis/v45_received_status_updater": ("operations", "received-package status update only"),
     "analysis/v45_request_sent_updater": ("operations", "request-sent status update only"),
     "analysis/v45_followup_due_board": ("operations", "acquisition follow-up status only"),
+    "analysis/v45_followup_message_templates": ("operations", "unsent acquisition message drafts only"),
     "analysis/v45_external_blocker_board": ("operations", "external blocker status only"),
     "analysis/v45_route_arrival_packets": ("operations", "route-specific arrival commands only"),
     "analysis/v45_rpt_readiness": ("proposal_lens_grounding", "proposal prioritization only"),

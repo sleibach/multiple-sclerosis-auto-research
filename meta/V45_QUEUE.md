@@ -132,8 +132,8 @@ generate more internally executable tasks before continuing.
 | 105 | Validation readiness | Add a validation state-machine table spanning request, receipt, preflight, author-run return, report, and interpretation states | done | Wrote `docs/validation/VALIDATION_STATE_MACHINE_V45.md` and `docs/validation/input_schemas/V45_validation_state_machine.tsv`; current state remains `READY_AWAITING_EXTERNAL_DATA`, and path resolver passes with `164` concrete references and `0` missing. |
 | 106 | Operations | Add route-specific arrival command packets generated from the live acquisition index for Gafson, Karolinska, GSE228330, and author-run fallback | done | Wrote `scripts/v45_route_arrival_packet_generator.py`, `docs/validation/ROUTE_ARRIVAL_COMMAND_PACKETS_V45.md`, and four generated route packets under `analysis/v45_route_arrival_packets/`; each packet preserves no-score-before-gates wording. |
 | 107 | Infrastructure | Add a stale-output detector for readiness dashboards that compares summary source mtimes to generated dashboards | done | Wrote `scripts/v45_readiness_stale_output_detector.py`, `docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md`, and outputs under `analysis/v45_readiness_stale_output_detector/`; `5/5` generated readiness artifacts are fresh, `0` stale or missing. |
-| 108 | Operations | Add follow-up message templates derived from the due-board status classes | in-progress | Selected next after item 107; should prepare unsent follow-up drafts for overdue/due-soon/sent-due-unknown states without marking any request sent. |
-| 109 | Validation readiness | Add cohort-route no-degrees-of-freedom checklist for Karolinska and GSE228330 addendum paths | todo | Generated after item 104; should precommit what must be frozen before any secondary/context route scoring. |
+| 108 | Operations | Add follow-up message templates derived from the due-board status classes | done | Wrote `scripts/v45_followup_message_template_generator.py`, `docs/validation/FOLLOWUP_MESSAGE_TEMPLATES_V45.md`, and draft outputs under `analysis/v45_followup_message_templates/`; live board generates `4` unsent `not_sent_ready` drafts, synthetic overdue board includes `1` overdue follow-up draft. |
+| 109 | Validation readiness | Add cohort-route no-degrees-of-freedom checklist for Karolinska and GSE228330 addendum paths | in-progress | Selected next after item 108; should precommit what must be frozen before any secondary/context route scoring. |
 | 110 | Infrastructure | Add a compact V45 handoff index that lists only the current top-level operational artifacts in execution order | todo | Generated after item 104; should help medical-team operators avoid navigating the full artifact corpus. |
 | 111 | Integrity | Run the next full precommit/governance wrapper after items 98-110 | todo | Generated after item 104 as recurring integrity control. |
 
@@ -830,3 +830,11 @@ todo items.
   `PASS` with `0/5` stale or missing artifacts. Path resolver now passes with
   `166` concrete references and `0` missing.
 - Next selected task: follow-up message templates from due-board status classes.
+- Follow-up message templates completed. Generator creates unsent drafts from
+  due-board status classes without updating sent state. Live board produces `4`
+  `not_sent_ready` drafts; synthetic overdue board produces `1` overdue follow-up
+  plus `3` ready-unsent drafts. Stale-output detector now tracks `6` generated
+  artifacts and passes with `0` stale or missing; path resolver passes with
+  `167` concrete references and `0` missing.
+- Next selected task: cohort-route no-degrees-of-freedom checklist for
+  Karolinska and GSE228330 addendum paths.
