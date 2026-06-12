@@ -1,0 +1,25 @@
+field	required	allowed_values_or_format	notes
+cohort_id	yes	stable_local_identifier	Use the same cohort_id as acquisition and preflight artifacts.
+source_name	yes	free_text_non_sensitive	Study or dataset name.
+source_url_or_accession	yes	public_url_or_accession	Public accession/URL only; do not paste private links with tokens.
+access_tier	yes	open;low_barrier;controlled;author_shared;collaborator;unclear	Default to more restrictive if unsure.
+received_date_utc	yes	YYYY-MM-DD	Use UTC date.
+data_provider_contact_non_sensitive	yes	public_contact_or_role	No private message contents.
+agreement_location_non_git	yes	path_or_record_id_outside_git	Do not commit signed agreements or restricted PDFs.
+redistribution_allowed	yes	yes;no;unclear	Can raw/individual-level data be redistributed?
+derived_metrics_allowed	yes	yes;no;unclear	Can non-identifying module scores/QC summaries be generated?
+aggregate_publication_allowed	yes	yes;no;unclear	Can aggregate validation metrics be reported?
+individual_level_publication_allowed	yes	yes;no;unclear	Usually no for clinical cohorts.
+commercial_use_allowed	yes	yes;no;unclear;not_applicable	Record because some low-barrier terms restrict this.
+data_retention_limit	yes	free_text_or_unclear	Examples: none stated, 1 year, project duration.
+requires_acknowledgement	yes	yes;no;unclear	Capture non-sensitive acknowledgement requirement.
+requires_provider_review_before_publication	yes	yes;no;unclear	Flag before external reporting.
+contains_personal_data_or_sensitive_clinical_data	yes	yes;no;unclear	If yes, raw data stay outside git.
+approved_internal_use	yes	free_text_non_sensitive	Short summary of permitted project use.
+forbidden_use	yes	free_text_non_sensitive	Short summary of forbidden uses.
+commit_allowed_files	yes	free_text_non_sensitive	Define what can be committed, e.g. aggregate summaries only.
+non_git_storage_path	yes	local_path_outside_git_or_record_id	Do not use a path inside the repository for restricted raw data.
+notes_non_sensitive	no	free_text_non_sensitive	Do not include private correspondence or credentials.
+reviewer	yes	name_or_agent_id	Who reviewed/captured terms.
+review_date_utc	yes	YYYY-MM-DD	Use UTC date.
+status	yes	pending_review;approved_for_preflight;blocked_terms_unclear	Preflight allowed only when approved_for_preflight.
