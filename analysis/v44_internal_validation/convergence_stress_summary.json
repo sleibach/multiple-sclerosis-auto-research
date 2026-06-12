@@ -1,0 +1,48 @@
+{
+  "interpretation": "APC/HLA/IFN recurrence remains beyond global, modality-stratified, and source-local null envelopes and is not eliminated by removing any single modality or source file.",
+  "min_recurrence_after_modality_removal": 46,
+  "min_recurrence_after_source_file_removal": 55,
+  "n_reps_per_null": 20000,
+  "seed": 44055,
+  "stricter_nulls": [
+    {
+      "max_null_p95": 12.0,
+      "max_null_p99": 14.0,
+      "n_reps": 20000,
+      "null_mode": "global",
+      "observed_target_recurrence": 78,
+      "target_entity_p": 4.999750012499375e-05,
+      "target_fwer_p": 4.999750012499375e-05,
+      "target_null_p95": 8.0,
+      "target_null_p99": 10.0
+    },
+    {
+      "max_null_p95": 35.0,
+      "max_null_p99": 38.0,
+      "n_reps": 20000,
+      "null_mode": "modality",
+      "observed_target_recurrence": 78,
+      "target_entity_p": 4.999750012499375e-05,
+      "target_fwer_p": 4.999750012499375e-05,
+      "target_null_p95": 32.0,
+      "target_null_p99": 35.0
+    },
+    {
+      "max_null_p95": 38.0,
+      "max_null_p99": 41.0,
+      "n_reps": 20000,
+      "null_mode": "source_local",
+      "observed_target_recurrence": 78,
+      "target_entity_p": 4.999750012499375e-05,
+      "target_fwer_p": 4.999750012499375e-05,
+      "target_null_p95": 38.0,
+      "target_null_p99": 41.0
+    }
+  ],
+  "target": "apc_hla_ifn_monitoring",
+  "target_observed_recurrence": 78,
+  "target_positive_modalities": 11,
+  "target_v41_recurrence_fwer": 9.999000099990002e-05,
+  "worst_modality_drop": 32,
+  "worst_source_file_drop": 23
+}

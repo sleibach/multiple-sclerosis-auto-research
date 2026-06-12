@@ -17,8 +17,8 @@ Target UTC (+360 min): 2026-06-12T21:20:06Z
 | 2 | WS2 batch hardening | Add blind batch-diagnostic guard and rerun synthetic robustness | done | Added additive `batch_diagnostic_metrics.tsv` and `batch_guard_flag` to V42 harness, wrote `docs/validation/BATCH_GUARD_V44.md`, and reran 1,860 synthetic robustness cohorts. Worst response-correlated batch null pass risk fell from `0.40` primary to `0.00` guarded acceptable. |
 | 3 | WS3 prereg other leads | Pre-register postpartum APC-arm and T/B compartment monitoring leads | done | Wrote frozen V44 preregistrations and seeded synthetic null/planted mechanics checks. Both synthetic nulls failed and planted signals passed. |
 | 4 | WS4 self-audit weak leg | Resolve why V41 joint z is borderline while recurrence is strong | done | Wrote `docs/history/SELF_AUDIT_WEAK_LEG_V44.md`. Joint gate is borderline because the family-wise max-z null is high (`z/null p95=0.988`, FWER `0.0684`); recurrence is more defensible (`78` positive source units vs null p95 `12`, FWER `0.0001`). |
-| 5 | WS5 internal validation | Deepen synthetic-null/convergence evidence for APC/HLA-II monitoring lead | in-progress | Assemble the full cross-evidence convergence argument for the central lead without making new biological claims. |
-| 6 | WS6 infrastructure | Confirm/document SAP RPT true status and consolidate reusable machinery | todo | Do not claim RPT works unless health check verifies it. |
+| 5 | WS5 internal validation | Deepen synthetic-null/convergence evidence for APC/HLA-II monitoring lead | done | Wrote `docs/validation/APC_HLA_INTERNAL_CONVERGENCE_V44.md`; ran 20,000-replicate global, modality-aware, and source-local recurrence nulls. APC/HLA/IFN recurrence `78` remains above strictest null p99 `41`; no single modality/source file removal eliminates it. |
+| 6 | WS6 infrastructure | Confirm/document SAP RPT true status and consolidate reusable machinery | in-progress | Document true SAP RPT client status and consolidate validation/simulation utilities where feasible. |
 | 7 | WS7 external writeup | Draft skeptical external account of positive/negative results | todo | Publication-grade argument and limitations. |
 
 ## Constraints
@@ -57,3 +57,11 @@ Target UTC (+360 min): 2026-06-12T21:20:06Z
   (`8.0548` target z vs null p95 `8.1547`, empirical FWER `0.0684`), not
   because one modality carries the signal.
 - Next started item: Workstream 5 internal validation/convergence statement.
+- Workstream 5 completed at 2026-06-12T15:47:12Z. Added stricter convergence
+  stress tests with 20,000 replicates per null (`global`, `modality`,
+  `source_local`). Observed APC/HLA/IFN recurrence `78` exceeded the strictest
+  source-local max-null p99 `41` with FWER `0.00005`. Removing
+  `treatment_response` leaves recurrence `46`; removing the densest source file
+  leaves recurrence `55`, so the convergence is not a single-modality or
+  single-report artifact.
+- Next started item: Workstream 6 infrastructure/RPT status.
