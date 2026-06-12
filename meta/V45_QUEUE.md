@@ -19,14 +19,15 @@ generate more internally executable tasks before continuing.
 | Iteration | Start UTC | End UTC | Status | Notes |
 |---|---:|---:|---|---|
 | 1 | 2026-06-12T16:06:13Z |  | in-progress | Initialized V45. OpenGWAS POST check passed; JWT expires 2026-06-19 12:28 UTC. SAP AI Core Claude/Gemini/RPT smoke-passed. |
+| 1r | 2026-06-12T16:14:02Z |  | in-progress | Resumed V45. OpenGWAS POST check passed; Claude/Gemini/RPT smoke-passed with corrected Gemini exact model name. |
 
 ## Live Backlog
 
 | Priority | Front | Item | Status | Notes |
 |---:|---|---|---|---|
 | 1 | Cohort dependence | Write concrete Karolinska DMF label-access package and exact request steps | done | Wrote `docs/validation/KAROLINSKA_DMF_LABEL_REQUEST_V45.md`; verified GEO/PubMed metadata into `analysis/v45_karolinska_access/`; blocker is labels plus GSM-to-patient/timepoint map. |
-| 2 | Cohort dependence | Deep paper/supplement scout specifically for GSE228330 anti-CD20/ocrelizumab outcomes | in-progress | Determine whether clinical outcomes are recoverable outside GEO; usable only if labels map to samples. |
-| 3 | Robustness | Extend batch guard simulations to multi-confounder technical structures | todo | Test batch + immune-tone + normalization interactions; synthetic method behavior only. |
+| 2 | Cohort dependence | Deep paper/supplement scout specifically for GSE228330 anti-CD20/ocrelizumab outcomes | done | Wrote `docs/validation/GSE228330_OUTCOME_SCOUT_V45.md`; public metadata verify 44 PBMC ocrelizumab samples with baseline/0.5m/6m timing but no response/NEDA/relapse labels. |
+| 3 | Robustness | Extend batch guard simulations to multi-confounder technical structures | in-progress | Test batch + immune-tone + normalization interactions; synthetic method behavior only. |
 | 4 | Robustness | Stress-test V44 postpartum APC-arm harness under missing timepoints, steroid metadata, and batch imbalance | todo | Synthetic-only; no rule change. |
 | 5 | Robustness | Stress-test V44 T/B compartment harness under composition shifts and compartment-label noise | todo | Synthetic-only; no rule change. |
 | 6 | Power/design | Produce medical-team cohort specification from V43/V44 simulations | todo | Exact n, timepoints, metadata, batch constraints, and label requirements for conclusive validation. |
@@ -57,3 +58,12 @@ todo items.
   Karolinska-specific preregistration before any module scoring because the
   platform and timing differ from Gafson/V42.
 - Next selected task: GSE228330 anti-CD20/ocrelizumab outcome scout.
+- Resumed at 2026-06-12T16:14:02Z. OpenGWAS POST check still passes; JWT expiry
+  remains 2026-06-19 12:28 UTC. Claude and RPT smoke-passed immediately; Gemini
+  smoke-passed with exact model name `gemini-2.5-pro`.
+- GSE228330 scout completed. Public GEO and linked full-text audit found paired
+  ocrelizumab PBMC pharmacodynamic samples but no sample-mapped responder/NEDA/
+  relapse/EDSS-change label, so it is not response-validation ready. It remains
+  useful as open anti-CD20 pharmacodynamic context or an author-label request
+  target.
+- Next selected task: multi-confounder batch-guard simulation extension.
