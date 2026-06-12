@@ -73,6 +73,19 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v45_followup_message_template_generator.py --board analysis/v45_followup_due_board/live_template/followup_due_board.tsv --outdir analysis/v45_followup_message_templates/live_template",
     },
     {
+        "artifact": "send_log_intake_template",
+        "sources": [
+            "analysis/v45_current_action_card/current_action_card.tsv",
+            "scripts/v45_send_log_intake_template.py",
+        ],
+        "outputs": [
+            "analysis/v45_send_log_intake_template/send_log_intake_template_summary.json",
+            "analysis/v45_send_log_intake_template/send_log_intake_template.tsv",
+            "analysis/v45_send_log_intake_template/request_sent_updater_dryrun/request_sent_update_summary.json",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v45_send_log_intake_template.py --outdir analysis/v45_send_log_intake_template && .venv/bin/python scripts/v45_request_sent_updater.py --sent-log analysis/v45_send_log_intake_template/send_log_intake_template.tsv --outdir analysis/v45_send_log_intake_template/request_sent_updater_dryrun",
+    },
+    {
         "artifact": "route_arrival_packets",
         "sources": [
             "analysis/v45_live_cohort_acquisition_index/live_cohort_acquisition_index.tsv",
@@ -84,6 +97,90 @@ CHECKS = [
             "analysis/v45_route_arrival_packets/route_arrival_packet_index.tsv",
         ],
         "refresh_command": ".venv/bin/python scripts/v45_route_arrival_packet_generator.py --outdir analysis/v45_route_arrival_packets",
+    },
+    {
+        "artifact": "route_packet_integrity_manifest",
+        "sources": [
+            "analysis/v45_route_arrival_packets/route_arrival_packet_summary.json",
+            "analysis/v45_route_arrival_packets/route_arrival_packet_index.tsv",
+            "scripts/v45_route_packet_integrity_manifest.py",
+        ],
+        "outputs": [
+            "analysis/v45_route_packet_integrity_manifest/live/route_packet_integrity_summary.json",
+            "analysis/v45_route_packet_integrity_manifest/live/route_packet_integrity_manifest.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v45_route_packet_integrity_manifest.py --outdir analysis/v45_route_packet_integrity_manifest/live --expect-status PASS",
+    },
+    {
+        "artifact": "state_machine_transition_validator",
+        "sources": [
+            "analysis/v45_received_data_triage/received_data_triage_status.tsv",
+            "analysis/v45_external_blocker_board/external_blocker_board.tsv",
+            "analysis/v45_followup_due_board/live_template/followup_due_board.tsv",
+            "analysis/v45_readiness_status_dashboard/readiness_status_dashboard_summary.json",
+            "scripts/v45_state_machine_validator.py",
+        ],
+        "outputs": [
+            "analysis/v45_state_machine_validator/live/state_machine_validator_summary.json",
+            "analysis/v45_state_machine_validator/live/route_state_validation.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v45_state_machine_validator.py --outdir analysis/v45_state_machine_validator/live --expect-status PASS",
+    },
+    {
+        "artifact": "current_action_card",
+        "sources": [
+            "analysis/v45_external_blocker_board/external_blocker_board.tsv",
+            "analysis/v45_followup_due_board/live_template/followup_due_board.tsv",
+            "analysis/v45_readiness_status_dashboard/readiness_status_dashboard_summary.json",
+            "analysis/v45_state_machine_validator/live/state_machine_validator_summary.json",
+            "analysis/v45_route_packet_integrity_manifest/live/route_packet_integrity_summary.json",
+            "analysis/v45_precommit_readiness/precommit_readiness_summary.json",
+            "scripts/v45_current_action_card.py",
+        ],
+        "outputs": [
+            "analysis/v45_current_action_card/current_action_card_summary.json",
+            "analysis/v45_current_action_card/current_action_card.tsv",
+            "analysis/v45_current_action_card/CURRENT_ACTION_CARD.md",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v45_current_action_card.py --outdir analysis/v45_current_action_card",
+    },
+    {
+        "artifact": "author_run_bundle_dryrun_manifest",
+        "sources": [
+            "analysis/v45_author_run_packet_bundle/author_run_packet_bundle_index.tsv",
+            "analysis/v45_author_run_packet_checksums/write/author_run_packet_sha256_manifest.tsv",
+            "analysis/v45_author_run_packet_checksums/verify/author_run_packet_checksum_verify.tsv",
+            "analysis/v45_command_plan_consistency/command_plan_consistency_summary.json",
+            "analysis/v45_current_action_card/current_action_card.tsv",
+            "scripts/v45_author_run_bundle_dryrun_manifest.py",
+        ],
+        "outputs": [
+            "analysis/v45_author_run_bundle_dryrun_manifest/live/author_run_bundle_dryrun_summary.json",
+            "analysis/v45_author_run_bundle_dryrun_manifest/live/author_run_bundle_dryrun_manifest.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v45_author_run_bundle_dryrun_manifest.py --outdir analysis/v45_author_run_bundle_dryrun_manifest/live --expect-status PASS",
+    },
+    {
+        "artifact": "generated_checker_registry",
+        "sources": [
+            "scripts/v45_generated_checker_registry.py",
+            "docs/validation/GENERATED_CHECKER_REGISTRY_V45.md",
+        ],
+        "outputs": [
+            "analysis/v45_generated_checker_registry/generated_checker_registry_summary.json",
+            "analysis/v45_generated_checker_registry/generated_checker_registry.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v45_generated_checker_registry.py --outdir analysis/v45_generated_checker_registry",
+    },
+    {
+        "artifact": "operational_handoff_index",
+        "sources": [
+            "docs/validation/input_schemas/V45_operational_handoff_index.tsv",
+        ],
+        "outputs": [
+            "docs/validation/V45_OPERATIONAL_HANDOFF_INDEX.md",
+        ],
+        "refresh_command": "update docs/validation/V45_OPERATIONAL_HANDOFF_INDEX.md to match docs/validation/input_schemas/V45_operational_handoff_index.tsv",
     },
     {
         "artifact": "readiness_status_dashboard",
@@ -105,6 +202,8 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v45_readiness_status_dashboard.py --outdir analysis/v45_readiness_status_dashboard",
     },
 ]
+
+MTIME_EPSILON_SECONDS = 1.0
 
 
 def parse_args() -> argparse.Namespace:
@@ -136,7 +235,7 @@ def main() -> int:
         missing_outputs = [rel(path) for path in output_paths if not path.exists()]
         latest_source = max((mtime(path) for path in source_paths), default=-1.0)
         oldest_output = min((mtime(path) for path in output_paths), default=-1.0)
-        stale = bool(missing_outputs or missing_sources or latest_source > oldest_output)
+        stale = bool(missing_outputs or missing_sources or latest_source > oldest_output + MTIME_EPSILON_SECONDS)
         rows.append(
             {
                 "artifact": spec["artifact"],

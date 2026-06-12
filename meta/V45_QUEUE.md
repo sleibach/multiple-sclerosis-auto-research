@@ -141,7 +141,7 @@ generate more internally executable tasks before continuing.
 | 114 | Operations | Add a top-level current-action card generated from blocker board, follow-up board, and readiness dashboard | done | Wrote `scripts/v45_current_action_card.py`, `docs/validation/CURRENT_ACTION_CARD_V45.md`, and outputs under `analysis/v45_current_action_card/`; current card reports `READY_AWAITING_EXTERNAL_DATA`, guard statuses all `PASS`, `4` external send/approval actions, and `0` internal guard blocks. |
 | 115 | Operations | Add acquisition email/send-log intake parser template that updates sent-state drafts without touching data receipt state | done | Wrote `scripts/v45_send_log_intake_template.py`, `docs/validation/SEND_LOG_INTAKE_TEMPLATE_V45.md`, and outputs under `analysis/v45_send_log_intake_template/`; generated `4` draft rows and updater dry-run accepts `0` sent rows with `0` tracker updates, `0` triage updates, and `0` hard failures. |
 | 116 | Validation readiness | Add author-run package dry-run bundle manifest with path, checksum, and command-plan verification | done | Wrote `scripts/v45_author_run_bundle_dryrun_manifest.py`, `docs/validation/AUTHOR_RUN_BUNDLE_DRYRUN_MANIFEST_V45.md`, and outputs under `analysis/v45_author_run_bundle_dryrun_manifest/`; live dry-run passes with `28` included files, `0` hard violations, checksum write/verify `PASS`, and command-plan consistency `PASS`; synthetic missing-required regression fails as expected with `3` hard violations. |
-| 117 | Infrastructure | Add validation-readiness stale-check integration for route packets, generated checker registry, and operational handoff index | todo | Generated after item 111 to broaden stale-output detection to the newest handoff artifacts. |
+| 117 | Infrastructure | Add validation-readiness stale-check integration for route packets, generated checker registry, and operational handoff index | done | Expanded `scripts/v45_readiness_stale_output_detector.py` and `docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md`; detector now checks `13` readiness artifacts including route-packet integrity, state-machine validator, current-action card, send-log intake, author-run dry-run manifest, generated-checker registry, and operational handoff index, with `0` stale/missing. |
 | 118 | Operations | Add external-blocker escalation matrix with per-route owner, request artifact, current blocker, and exact unblocking event | todo | Generated after item 111 to keep every live route externally actionable. |
 | 119 | Integrity | Run the next full precommit/governance wrapper after items 112-118 | todo | Recurring integrity control after the next generated operational hardening batch. |
 
@@ -908,3 +908,10 @@ todo items.
   as expected with `3` hard violations. The guard is linked before send-log
   intake in the handoff order.
 - Next selected task: stale-check integration for newest handoff artifacts.
+- Stale-check integration completed. The detector now covers `13` artifacts and
+  passes with `0` stale/missing after refreshing collaborator path resolution,
+  readiness dashboard, state-machine validator, current-action card, send-log
+  intake template, route-packet integrity, and author-run dry-run outputs. Live
+  collaborator path resolution now resolves `170` concrete references with `0`
+  missing.
+- Next selected task: external-blocker escalation matrix.

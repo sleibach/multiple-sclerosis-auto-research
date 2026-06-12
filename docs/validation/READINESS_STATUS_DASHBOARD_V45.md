@@ -75,7 +75,7 @@ Current key metrics:
 - outbound tracker: `4/4` rows ready, `0` marked sent;
 - received-data triage: `0/3` cohorts harness-ready;
 - precommit readiness: `PASS`;
-- collaborator path resolution: `PASS`, `169` links resolved, `0` missing;
+- collaborator path resolution: `PASS`, `170` links resolved, `0` missing;
 - follow-up board: `4` `not_sent_ready` rows;
 - external blocker board: `4` `external_send_or_author_approval` rows;
 - state-machine transition validator: live `PASS`, synthetic impossible-state

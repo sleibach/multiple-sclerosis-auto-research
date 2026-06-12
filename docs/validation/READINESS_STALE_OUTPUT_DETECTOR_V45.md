@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `6`
+- artifacts checked: `13`
 - stale or missing: `0`
 - overall status: `PASS`
 
@@ -28,8 +28,15 @@ Checked generated artifacts:
 - collaborator path resolver;
 - follow-up due board;
 - follow-up message templates;
+- send-log intake template;
 - external blocker board;
 - route arrival packets;
+- route packet integrity manifest;
+- state-machine transition validator;
+- current-action card;
+- author-run bundle dry-run manifest;
+- generated-checker registry;
+- operational handoff index;
 - readiness status dashboard.
 
 ## Interpretation
