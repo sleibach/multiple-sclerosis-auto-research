@@ -1,4 +1,26 @@
 {
+  "missing_baseline_map_fails": true,
+  "missing_baseline_summary": {
+    "metadata_path": "analysis/v45_subject_map_sanity_check/synthetic/missing_baseline_subject_map.tsv",
+    "min_paired_subjects": 2,
+    "n_fail": 1,
+    "n_paired_subjects": 2,
+    "n_samples": 8,
+    "n_subjects": 3,
+    "n_warn": 0,
+    "overall_status": "FAIL"
+  },
+  "missing_followup_map_fails": true,
+  "missing_followup_summary": {
+    "metadata_path": "analysis/v45_subject_map_sanity_check/synthetic/missing_followup_subject_map.tsv",
+    "min_paired_subjects": 2,
+    "n_fail": 1,
+    "n_paired_subjects": 2,
+    "n_samples": 7,
+    "n_subjects": 3,
+    "n_warn": 0,
+    "overall_status": "FAIL"
+  },
   "negative_metadata_path": "/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_gse228330_pharmacodynamic_runbook/gse228330_draft_pharmacodynamic_metadata_unverified.tsv",
   "negative_summary": {
     "metadata_path": "/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_gse228330_pharmacodynamic_runbook/gse228330_draft_pharmacodynamic_metadata_unverified.tsv",

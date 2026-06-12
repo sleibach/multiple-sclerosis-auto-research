@@ -78,6 +78,8 @@ Result:
 | Fixture | Expected | Observed |
 |---|---:|---:|
 | verified synthetic longitudinal map | pass | pass |
+| synthetic missing-baseline subject map | fail | fail |
+| synthetic missing-follow-up subject map | fail | fail |
 | current GSE228330 public-order draft map | fail | fail |
 
 The synthetic fixture wrote:
@@ -91,6 +93,8 @@ Key results:
 | valid synthetic samples | 9 |
 | valid synthetic paired subjects | 3 |
 | valid synthetic failures | 0 |
+| missing-baseline synthetic failures | 1 |
+| missing-follow-up synthetic failures | 1 |
 | GSE228330 draft samples audited | 44 |
 | GSE228330 draft usable paired subjects | 0 |
 | GSE228330 draft failures | 133 |

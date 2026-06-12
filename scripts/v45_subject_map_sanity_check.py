@@ -280,13 +280,34 @@ def write_valid_synthetic(path: Path) -> None:
     pd.DataFrame(rows).to_csv(path, sep="\t", index=False)
 
 
+def write_missing_timepoint_synthetic(valid_path: Path, missing_baseline: Path, missing_followup: Path) -> None:
+    valid = pd.read_csv(valid_path, sep="\t")
+    no_baseline = valid[~((valid["subject"] == "SYN001") & (valid["timepoint"] == "baseline"))].copy()
+    no_followup = valid[~((valid["subject"] == "SYN002") & (valid["timepoint"] != "baseline"))].copy()
+    no_baseline.to_csv(missing_baseline, sep="\t", index=False)
+    no_followup.to_csv(missing_followup, sep="\t", index=False)
+
+
 def run_synthetic_check(outdir: Path) -> dict[str, object]:
     outdir.mkdir(parents=True, exist_ok=True)
     synthetic_dir = outdir / "synthetic"
     synthetic_dir.mkdir(parents=True, exist_ok=True)
     valid_metadata = synthetic_dir / "valid_verified_subject_map.tsv"
+    missing_baseline_metadata = synthetic_dir / "missing_baseline_subject_map.tsv"
+    missing_followup_metadata = synthetic_dir / "missing_followup_subject_map.tsv"
     write_valid_synthetic(valid_metadata)
+    write_missing_timepoint_synthetic(valid_metadata, missing_baseline_metadata, missing_followup_metadata)
     valid_summary = run_check(valid_metadata, outdir / "valid_verified_subject_map", min_paired_subjects=2)
+    missing_baseline_summary = run_check(
+        missing_baseline_metadata,
+        outdir / "missing_baseline_subject_map",
+        min_paired_subjects=2,
+    )
+    missing_followup_summary = run_check(
+        missing_followup_metadata,
+        outdir / "missing_followup_subject_map",
+        min_paired_subjects=2,
+    )
 
     negative_path = DEFAULT_GSE228330_DRAFT if DEFAULT_GSE228330_DRAFT.exists() else synthetic_dir / "negative_unverified_subject_map.tsv"
     if not negative_path.exists():
@@ -299,14 +320,21 @@ def run_synthetic_check(outdir: Path) -> dict[str, object]:
     assertions = {
         "synthetic": True,
         "valid_paired_map_pass": valid_summary["overall_status"] == "PASS",
+        "missing_baseline_map_fails": missing_baseline_summary["overall_status"] == "FAIL",
+        "missing_followup_map_fails": missing_followup_summary["overall_status"] == "FAIL",
         "unverified_map_fails": negative_summary["overall_status"] == "FAIL",
         "negative_metadata_path": str(negative_path),
         "valid_summary": valid_summary,
+        "missing_baseline_summary": missing_baseline_summary,
+        "missing_followup_summary": missing_followup_summary,
         "negative_summary": negative_summary,
     }
     assertions["overall_status"] = (
         "PASS"
-        if assertions["valid_paired_map_pass"] and assertions["unverified_map_fails"]
+        if assertions["valid_paired_map_pass"]
+        and assertions["missing_baseline_map_fails"]
+        and assertions["missing_followup_map_fails"]
+        and assertions["unverified_map_fails"]
         else "FAIL"
     )
     (outdir / "synthetic_check_assertions.json").write_text(json.dumps(assertions, indent=2, sort_keys=True) + "\n")
