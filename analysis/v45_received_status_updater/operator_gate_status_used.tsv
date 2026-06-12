@@ -1,0 +1,15 @@
+order	time_window	gate	required_for_harness_ready	status	owner	evidence_path	blocker_if_not_passed	notes
+1	first_30_minutes	receipt_log	yes	todo		LOCAL_NON_GIT_RECEIPT_LOG	receipt path/file inventory not recorded	
+2	first_30_minutes	quarantine_path	yes	todo		data/quarantine/<cohort>/	received files not quarantined or restricted path not recorded	
+3	first_30_minutes	data_use_terms	yes	todo		data/quarantine/<cohort>/governance/data_use_terms_summary.tsv	terms not approved for preflight	
+4	first_2_hours	checksum_manifest	yes	todo		data/quarantine/<cohort>/SHA256_MANIFEST.tsv	checksum manifest missing or failing	
+5	first_2_hours	received_data_triage_board	yes	todo		docs/validation/RECEIVED_DATA_TRIAGE_STATUS_BOARD_V45.md	triage status not updated	
+6	first_2_hours	outcome_dictionary	yes_for_response_validation	todo		data/quarantine/<cohort>/metadata/outcome_label_dictionary.tsv	outcome orientation/window not frozen before scoring	
+7	first_2_hours	intake_preflight	yes	todo		analysis/validation_command_runs/intake_preflight/<cohort>/preflight_summary.json	preflight not PASS	
+8	first_2_hours	module_coverage_precheck	yes_for_expression_matrix	todo		analysis/validation_command_runs/module_coverage/<cohort>/module_coverage_precheck_summary.json	primary module coverage not PASS	
+9	first_2_hours	subject_map_sanity	yes_for_paired_delta	todo		analysis/validation_command_runs/subject_map_sanity/<cohort>/subject_map_summary.json	subject map not PASS	
+10	same_day	preregistration_or_addendum	yes	todo		docs/validation/<applicable_preregistration_or_addendum>.md	no committed matching preregistration/addendum	
+11	same_day	locked_hash_audit	yes	todo		analysis/v45_locked_artifact_hash_audit/locked_artifact_hash_audit_summary.json	locked/frozen artifact drift detected	
+12	same_day	regression_aggregator	yes	todo		analysis/v45_regression_aggregator/regression_aggregator_summary.json	synthetic/software regression failure	
+13	same_day	no_raw_git_scanner	yes_before_commit	todo		analysis/v45_no_raw_git_scanner/summary.json	raw/quarantine/restricted path hard failure	
+14	same_day	harness_ready_decision	yes	todo		analysis/validation_runs/<cohort>/READY_TO_RUN_DECISION.md	one or more prior gates not PASS	

@@ -110,8 +110,8 @@ generate more internally executable tasks before continuing.
 | 83 | Infrastructure | Add latest governance refresh and precommit run after new templates are committed | done | Classified the new command-plan and gate-output analysis dirs in `scripts/v45_synthetic_artifact_index.py`, refreshed governance, and reran precommit readiness. Current wrapper passes `5/5` in `84.620` seconds; artifact index covers `646` V45 paths, synthetic retention index covers `51` V43-V45 dirs with no unclassified dirs, and V45 analysis footprint is `84.934 MiB`. |
 | 84 | Infrastructure | Add a validation handoff completeness checker comparing the V45 handoff bundle template to actual committed paths | done | Wrote `scripts/v45_handoff_completeness_check.py`, `docs/validation/HANDOFF_COMPLETENESS_CHECK_V45.md`, and outputs under `analysis/v45_handoff_completeness/`; current pre-receipt Gafson state passes with `0` hard failures, while deliberate scored-before-data negative control fails with `9` missing required outputs. |
 | 85 | Validation readiness | Add a ready-to-send author-run packet README bundle index for collaborators unable to share individual-level data | done | Wrote `docs/validation/AUTHOR_RUN_PACKET_BUNDLE_INDEX_V45.md` and `analysis/v45_author_run_packet_bundle/author_run_packet_bundle_index.tsv`; manifest has `31` data rows, `28` included committed paths, and `0` missing included paths. Linked from collaborator README and author-label escalation matrix. |
-| 86 | Operations | Add a received-package status-board updater template or script from the first-24h operator TSV | in-progress | Selected next after item 85; should convert operator gate statuses into the triage board without reading raw data. |
-| 87 | Validation reporting | Add a batch/QC/steroid missingness severity rubric for interpreting incomplete metadata in the future validation report | todo | Generated after item 83; should be additive and blind, not a rule change. |
+| 86 | Operations | Add a received-package status-board updater template or script from the first-24h operator TSV | done | Wrote `scripts/v45_received_status_updater.py`, `docs/validation/RECEIVED_STATUS_UPDATER_V45.md`, and outputs under `analysis/v45_received_status_updater/`; current all-todo Gafson operator template yields `harness_ready=no`, blocker `receipt path/file inventory not recorded`, and does not overwrite the canonical board. |
+| 87 | Validation reporting | Add a batch/QC/steroid missingness severity rubric for interpreting incomplete metadata in the future validation report | in-progress | Selected next after item 86; should be additive and blind, not a rule change. |
 | 88 | Cohort dependence | Add an author-run fallback request text template for cohorts that cannot transfer individual-level data | todo | Generated after item 83; should use the frozen author-run packet and non-sensitive output spec. |
 | 89 | External account | Add a V45 validation-readiness changelog/release note for reviewer navigation | todo | Generated after item 83; should summarize readiness artifacts without adding scientific claims. |
 | 90 | Infrastructure | Re-run governance refresh after the next template/checker checkpoint | todo | Generated after item 83 as recurring drift control. |
@@ -661,3 +661,10 @@ todo items.
   `include_in_author_packet=no`. The collaborator README and escalation matrix
   now link the index.
 - Next selected task: received-package status-board updater.
+- Received-package status-board updater completed. The script reads the first-24h
+  operator gate TSV and writes a proposed triage-board update without opening
+  raw data. Current all-`todo` Gafson run reads `14` gates, leaves
+  `harness_ready=no`, names `receipt path/file inventory not recorded` as the
+  blocker, and keeps the canonical board unchanged unless `--write-board` is
+  explicitly supplied.
+- Next selected task: batch/QC/steroid missingness severity rubric.

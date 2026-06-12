@@ -9,6 +9,10 @@ Machine-readable status template:
 
 `docs/validation/input_schemas/V45_first_24h_operator_status_template.tsv`
 
+Status-board updater:
+
+`docs/validation/RECEIVED_STATUS_UPDATER_V45.md`
+
 ## Before Touching Files
 
 - Do not open expression matrices beside file-listing/checksum operations.

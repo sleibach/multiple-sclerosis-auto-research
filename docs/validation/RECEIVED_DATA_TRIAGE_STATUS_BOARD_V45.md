@@ -12,6 +12,10 @@ Machine-readable board:
 
 `analysis/v45_received_data_triage/received_data_triage_status.tsv`
 
+Updater from first-24h operator gate statuses:
+
+`docs/validation/RECEIVED_STATUS_UPDATER_V45.md`
+
 ## Status Definitions
 
 | Stage | Meaning |
@@ -69,6 +73,8 @@ When data are received:
 5. run intake preflight;
 6. run subject-map sanity where paired deltas are required;
 7. freeze the outcome-label dictionary and any addendum before scoring.
+8. run `scripts/v45_received_status_updater.py` to produce a proposed board
+   update from the filled first-24h gate-status TSV.
 
 ## Guardrail
 

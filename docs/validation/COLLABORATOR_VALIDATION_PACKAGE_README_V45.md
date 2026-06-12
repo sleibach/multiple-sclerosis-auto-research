@@ -27,6 +27,7 @@ V42 preregistration, secondary preregistrations, or any threshold.
 | Response-column audit | `docs/validation/RESPONSE_COLUMN_AUDIT_V45.md` |
 | Checksum manifest validator | `docs/validation/CHECKSUM_MANIFEST_VALIDATOR_V45.md` |
 | First-24h received-data checklist | `docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md` |
+| Received-status updater | `docs/validation/RECEIVED_STATUS_UPDATER_V45.md` |
 | Package receipt manifest | `docs/validation/PACKAGE_RECEIPT_MANIFEST_TEMPLATE_V45.md` |
 | Preflight failure taxonomy | `docs/validation/PREFLIGHT_FAILURE_TAXONOMY_V45.md` |
 | Module-coverage precheck | `docs/validation/MODULE_COVERAGE_PRECHECK_V45.md` |
