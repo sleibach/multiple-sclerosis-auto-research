@@ -1,0 +1,34 @@
+{
+  "n_fail": 0,
+  "n_pass": 4,
+  "n_steps": 4,
+  "overall_status": "PASS",
+  "purpose": "V45 pre-commit readiness guard; no biological claim",
+  "steps": [
+    {
+      "elapsed_seconds": 0.451,
+      "returncode": 0,
+      "status": "PASS",
+      "step": "no_raw_git_scanner"
+    },
+    {
+      "elapsed_seconds": 0.073,
+      "returncode": 0,
+      "status": "PASS",
+      "step": "locked_artifact_hash_audit"
+    },
+    {
+      "elapsed_seconds": 72.626,
+      "returncode": 0,
+      "status": "PASS",
+      "step": "regression_aggregator"
+    },
+    {
+      "elapsed_seconds": 12.88,
+      "returncode": 0,
+      "status": "PASS",
+      "step": "governance_refresh"
+    }
+  ],
+  "total_elapsed_seconds": 86.03
+}

@@ -32,6 +32,7 @@ analysis/v45_outbound_data_requests	operations	acquisition operations only	2	Fal
 analysis/v45_pharmacodynamic_only_harness	synthetic_harness_verification	method behavior only	10	True	True	True	
 analysis/v45_postpartum_pathology	synthetic_method_characterization	method behavior only	4	True	True	True	analysis/v45_postpartum_pathology/summary.json
 analysis/v45_power_decision_table	power_design_planning	study design planning only	3	False	True	True	analysis/v45_power_decision_table/summary.json
+analysis/v45_precommit_readiness	integrity_governance	pre-commit readiness only	2	False	True	True	
 analysis/v45_preflight_regression_tests	synthetic_regression	software regression only	25	True	True	True	analysis/v45_preflight_regression_tests/regression_summary.json
 analysis/v45_primary_harness_regression_tests	synthetic_regression	software regression only	23	True	True	True	analysis/v45_primary_harness_regression_tests/regression_summary.json;analysis/v45_primary_harness_regression_tests/v42_primary_synthetic/synthetic_check_summary.json
 analysis/v45_received_data_triage	operations	acquisition operations only	1	False	False	False	

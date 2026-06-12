@@ -1,0 +1,81 @@
+step	command	returncode	elapsed_seconds	status	stdout_tail	stderr_tail
+no_raw_git_scanner	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_no_raw_git_scanner.py	0	0.451	PASS	"{
+  ""hard_forbidden_prefixes"": [
+    ""data/quarantine/"",
+    ""data/raw_v3/gafson_dmf_2018/"",
+    ""data/raw_v3/karolinska_dmf_ros_2019/"",
+    ""data/raw_v3/gse228330_ocrelizumab_outcomes/""
+  ],
+  ""n_fail"": 0,
+  ""n_warn"": 11,
+  ""note"": ""WARN rows include historical public raw-data paths; FAIL rows block commit until resolved."",
+  ""overall_status"": ""PASS"",
+  ""status"": ""scanner_only""
+}
+"	
+locked_artifact_hash_audit	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_locked_artifact_hash_audit.py audit --baseline docs/validation/LOCKED_ARTIFACT_HASH_BASELINE_V45.tsv --outdir analysis/v45_locked_artifact_hash_audit --fail-on-drift	0	0.073	PASS	"{
+  ""baseline"": ""/Users/soeren.leibach/Projects/ms-auto-research/docs/validation/LOCKED_ARTIFACT_HASH_BASELINE_V45.tsv"",
+  ""n_artifacts"": 9,
+  ""overall_status"": ""PASS"",
+  ""status_counts"": {
+    ""DRIFT"": 0,
+    ""MATCH"": 9,
+    ""MISSING"": 0
+  }
+}
+"	
+regression_aggregator	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_regression_aggregator.py	0	72.626	PASS	"{
+  ""n_fail"": 0,
+  ""n_pass"": 6,
+  ""n_steps"": 6,
+  ""overall_status"": ""PASS"",
+  ""steps"": [
+    {
+      ""elapsed_seconds"": 68.773,
+      ""returncode"": 0,
+      ""status"": ""PASS"",
+      ""step"": ""primary_harness_regression""
+    },
+    {
+      ""elapsed_seconds"": 1.949,
+      ""returncode"": 0,
+      ""status"": ""PASS"",
+      ""step"": ""secondary_and_context_harness_regression""
+    },
+    {
+      ""elapsed_seconds"": 0.466,
+      ""returncode"": 0,
+      ""status"": ""PASS"",
+      ""step"": ""intake_preflight_regression""
+    },
+    {
+      ""elapsed_seconds"": 0.316,
+      ""returncode"": 0,
+      ""status"": ""PASS"",
+      ""step"": ""checksum_manifest_synthetic""
+    },
+    {
+      ""elapsed_seconds"": 0.388,
+      ""returncode"": 0,
+      ""status"": ""PASS"",
+      ""step"": ""response_column_synthetic""
+    },
+    {
+      ""elapsed_seconds"": 0.424,
+      ""returncode"": 0,
+      ""status"": ""PASS"",
+      ""step"": ""subject_map_synthetic""
+    }
+  ],
+  ""synthetic_or_software_regression_only"": true,
+  ""total_elapsed_seconds"": 72.316
+}
+"	
+governance_refresh	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_refresh_governance_summaries.py	0	12.88	PASS	"is/v45_multiconfounder_batch_guard\"",\n      \""class\"": \""synthetic_or_method_behavior\"",\n      \""n_files\"": 5,\n      \""total_mib\"": 21.311\n    },\n    {\n      \""artifact_dir\"": \""analysis/v45_postpartum_pathology\"",\n      \""class\"": \""synthetic_or_method_behavior\"",\n      \""n_files\"": 4,\n      \""total_mib\"": 20.358\n    },\n    {\n      \""artifact_dir\"": \""analysis/v45_seed_variation_stability\"",\n      \""class\"": \""synthetic_or_method_behavior\"",\n      \""n_files\"": 5,\n      \""total_mib\"": 8.763\n    },\n    {\n      \""artifact_dir\"": \""analysis/v45_secondary_batch_calibration\"",\n      \""class\"": \""synthetic_or_method_behavior\"",\n      \""n_files\"": 3,\n      \""total_mib\"": 4.098\n    },\n    {\n      \""artifact_dir\"": \""analysis/v45_batch_guard_calibration_full\"",\n      \""class\"": \""synthetic_or_method_behavior\"",\n      \""n_files\"": 4,\n      \""total_mib\"": 3.302\n    },\n    {\n      \""artifact_dir\"": \""analysis/v45_batch_guard_calibration\"",\n      \""class\"": \""synthetic_or_method_behavior\"",\n      \""n_files\"": 4,\n      \""total_mib\"": 1.061\n    },\n    {\n      \""artifact_dir\"": \""analysis/v45_primary_harness_regression_tests\"",\n      \""class\"": \""synthetic_or_method_behavior\"",\n      \""n_files\"": 23,\n      \""total_mib\"": 0.727\n    },\n    {\n      \""artifact_dir\"": \""analysis/v45_secondary_missing_timepoint_stress\"",\n      \""class\"": \""synthetic_or_method_behavior\"",\n      \""n_files\"": 130,\n      \""total_mib\"": 0.319\n    },\n    {\n      \""artifact_dir\"": \""analysis/v45_gse228330_outcome_scout\"",\n      \""class\"": \""public_metadata_or_operations\"",\n      \""n_files\"": 9,\n      \""total_mib\"": 0.168\n    }\n  ],\n  \""n_files\"": 495,\n  \""n_v45_analysis_dirs\"": 43,\n  \""purpose\"": \""storage/compute transparency; no biological claim\"",\n  \""synthetic_or_method_behavior_mib\"": 84.332,\n  \""total_mib\"": 84.915\n}\n""
+    }
+  ],
+  ""n_commands"": 3,
+  ""overall_status"": ""PASS"",
+  ""purpose"": ""refresh V45 governance summaries; no biological claim""
+}
+"	

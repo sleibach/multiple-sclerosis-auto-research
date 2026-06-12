@@ -1,5 +1,5 @@
 step	command	returncode	elapsed_seconds	status	stdout_tail	stderr_tail
-primary_harness_regression	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_primary_harness_regression_tests.py	0	66.873	PASS	"{
+primary_harness_regression	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_primary_harness_regression_tests.py	0	68.773	PASS	"{
   ""null_auc"": 0.52,
   ""null_expected_fail"": true,
   ""null_verdict"": ""FAIL_ADEQUATE_POWER"",
@@ -58,7 +58,7 @@ primary_harness_regression	/Users/soeren.leibach/Projects/ms-auto-research/.venv
   ""v42_primary_outdir"": ""analysis/v45_primary_harness_regression_tests/v42_primary_synthetic""
 }
 "	
-secondary_and_context_harness_regression	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_harness_regression_tests.py	0	1.978	PASS	"88888888889
+secondary_and_context_harness_regression	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_harness_regression_tests.py	0	1.949	PASS	"88888888889
     },
     ""tb_planted"": {
       ""adequate_power_fail"": false,
@@ -123,7 +123,7 @@ secondary_and_context_harness_regression	/Users/soeren.leibach/Projects/ms-auto-
 "	"/Users/soeren.leibach/Projects/ms-auto-research/.venv/lib/python3.13/site-packages/pandas/core/nanops.py:1632: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
   return spearmanr(a, b)[0]
 "
-intake_preflight_regression	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_preflight_regression_tests.py	0	0.462	PASS	"s/ms-auto-research/analysis/v45_preflight_regression_tests/synthetic_check/synthetic_quarantine"",
+intake_preflight_regression	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_preflight_regression_tests.py	0	0.466	PASS	"s/ms-auto-research/analysis/v45_preflight_regression_tests/synthetic_check/synthetic_quarantine"",
     ""warn_count"": 0
   },
   ""checks"": {
@@ -165,7 +165,7 @@ intake_preflight_regression	/Users/soeren.leibach/Projects/ms-auto-research/.ven
   ""synthetic"": true
 }
 "	
-checksum_manifest_synthetic	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_checksum_manifest_validator.py synthetic-check --outdir analysis/v45_regression_aggregator/checksum_manifest	0	0.379	PASS	"{
+checksum_manifest_synthetic	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_checksum_manifest_validator.py synthetic-check --outdir analysis/v45_regression_aggregator/checksum_manifest	0	0.316	PASS	"{
   ""fail_summary"": {
     ""manifest"": ""analysis/v45_regression_aggregator/checksum_manifest/synthetic_manifest.tsv"",
     ""n_audit_rows"": 2,
@@ -190,7 +190,7 @@ checksum_manifest_synthetic	/Users/soeren.leibach/Projects/ms-auto-research/.ven
   ""synthetic"": true
 }
 "	
-response_column_synthetic	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_response_column_audit.py synthetic-check --outdir analysis/v45_regression_aggregator/response_column	0	0.343	PASS	"{
+response_column_synthetic	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_response_column_audit.py synthetic-check --outdir analysis/v45_regression_aggregator/response_column	0	0.388	PASS	"{
   ""gse228330_public_draft_status"": ""PASS"",
   ""gse228330_summary"": {
     ""metadata_path"": ""/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_gse228330_pharmacodynamic_runbook/gse228330_draft_pharmacodynamic_metadata_unverified.tsv"",
@@ -222,7 +222,7 @@ response_column_synthetic	/Users/soeren.leibach/Projects/ms-auto-research/.venv/
   }
 }
 "	
-subject_map_synthetic	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_subject_map_sanity_check.py synthetic-check --outdir analysis/v45_regression_aggregator/subject_map	0	0.392	PASS	"{
+subject_map_synthetic	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_subject_map_sanity_check.py synthetic-check --outdir analysis/v45_regression_aggregator/subject_map	0	0.424	PASS	"{
   ""missing_baseline_map_fails"": true,
   ""missing_baseline_summary"": {
     ""metadata_path"": ""analysis/v45_regression_aggregator/subject_map/synthetic/missing_baseline_subject_map.tsv"",
