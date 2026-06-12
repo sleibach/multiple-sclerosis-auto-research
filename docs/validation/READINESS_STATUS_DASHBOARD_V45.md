@@ -23,6 +23,10 @@ Validation state machine:
 
 `docs/validation/VALIDATION_STATE_MACHINE_V45.md`
 
+Stale-output detector:
+
+`docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md`
+
 ## Command
 
 ```bash
@@ -55,7 +59,7 @@ Current key metrics:
 - outbound tracker: `4/4` rows ready, `0` marked sent;
 - received-data triage: `0/3` cohorts harness-ready;
 - precommit readiness: `PASS`;
-- collaborator path resolution: `PASS`, `165` links resolved, `0` missing;
+- collaborator path resolution: `PASS`, `166` links resolved, `0` missing;
 - follow-up board: `4` `not_sent_ready` rows;
 - external blocker board: `4` `external_send_or_author_approval` rows;
 - scored-lifecycle handoff negative control: `EXPECTED_FAIL` until real harness outputs exist.
