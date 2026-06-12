@@ -162,12 +162,13 @@ Every validation package must include enough metadata to assess:
 - outliers and normalization pathologies;
 - cell composition or compartment fraction shifts where relevant.
 
-## Current Implementation Gaps
+## Current Implementation Status
 
 Primary V22/V42 real-cohort harness is executable now.
 
-Secondary lead real-cohort ingestion scripts are not yet implemented; the
-pre-registered schemas and synthetic mechanics are ready. Implementing those
-scripts should be a future infrastructure task before any matching real cohort
-is opened.
-
+Secondary lead real-cohort ingestion is executable through
+`scripts/v45_secondary_real_cohort_harness.py`; see
+`docs/validation/SECONDARY_REAL_INGEST_HARNESS_V45.md`. The harness consumes the
+frozen V45 subject-level schemas and passed synthetic null/planted checks for
+both postpartum APC-arm and T/B compartment readouts. It remains future-data
+infrastructure only; no real matching cohort has been opened by this checkpoint.
