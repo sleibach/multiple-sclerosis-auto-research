@@ -1,0 +1,28 @@
+{
+  "all_harnesses_null_guard_below_0_05": true,
+  "cohorts": 31500,
+  "harnesses": [
+    "postpartum_apc_arm",
+    "primary_multiconfounder_batch_guard",
+    "tb_compartment"
+  ],
+  "replicates_per_cell": 30,
+  "seed_bases": [
+    46045,
+    46145,
+    46245,
+    46345,
+    46445
+  ],
+  "synthetic": true,
+  "worst_guarded_null_by_harness": {
+    "postpartum_apc_arm": 0.03333333333333333,
+    "primary_multiconfounder_batch_guard": 0.03333333333333333,
+    "tb_compartment": 0.03333333333333333
+  },
+  "worst_raw_null_by_harness": {
+    "postpartum_apc_arm": 0.8666666666666667,
+    "primary_multiconfounder_batch_guard": 0.9,
+    "tb_compartment": 0.5
+  }
+}
