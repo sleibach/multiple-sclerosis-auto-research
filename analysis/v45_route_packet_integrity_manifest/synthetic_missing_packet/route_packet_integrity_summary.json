@@ -1,0 +1,14 @@
+{
+  "expectation_met": true,
+  "expected_status": "FAIL",
+  "manifest": "analysis/v45_route_packet_integrity_manifest/synthetic_missing_packet/route_packet_integrity_manifest.tsv",
+  "n_hard_violations": 2,
+  "n_packets": 4,
+  "observed_status": "FAIL",
+  "packet_dir": "analysis/v45_route_arrival_packets",
+  "purpose": "V45 route-arrival packet checksum/freshness guard; no biological claim",
+  "sources": "analysis/v45_route_packet_integrity_manifest/synthetic_missing_packet/route_packet_integrity_sources.tsv",
+  "synthetic": true,
+  "synthetic_case": "missing_packet",
+  "violations": "analysis/v45_route_packet_integrity_manifest/synthetic_missing_packet/route_packet_integrity_violations.tsv"
+}

@@ -137,7 +137,7 @@ generate more internally executable tasks before continuing.
 | 110 | Infrastructure | Add a compact V45 handoff index that lists only the current top-level operational artifacts in execution order | done | Wrote `docs/validation/V45_OPERATIONAL_HANDOFF_INDEX.md` and `docs/validation/input_schemas/V45_operational_handoff_index.tsv`; index lists `14` top-level operational artifacts in execution order. |
 | 111 | Integrity | Run the next full precommit/governance wrapper after items 98-110 | done | Restored future addendum templates to locked hash-baseline state after detecting pointer drift, then reran wrapper: `5/5` pass in `99.218` seconds; refreshed artifact index covers `835` V45 paths, synthetic/governance index covers `71` V43-V45 dirs, and V45 analysis storage covers `65` dirs / `645` files / `85.187 MiB`. |
 | 112 | Infrastructure | Add state-machine transition validator against live tracker, triage, blocker, and dashboard states | done | Wrote `scripts/v45_state_machine_validator.py`, `docs/validation/STATE_MACHINE_TRANSITION_VALIDATOR_V45.md`, and outputs under `analysis/v45_state_machine_validator/`; live boards pass with `0` hard violations across `3` route states, while synthetic impossible-state regression fails as expected with `11` hard violations. |
-| 113 | Infrastructure | Add route-arrival packet freshness and checksum manifest tied to generated packet outputs | todo | Generated after item 111 to make packet drift visible before human operators run a route-specific arrival command. |
+| 113 | Infrastructure | Add route-arrival packet freshness and checksum manifest tied to generated packet outputs | done | Wrote `scripts/v45_route_packet_integrity_manifest.py`, `docs/validation/ROUTE_PACKET_INTEGRITY_MANIFEST_V45.md`, and outputs under `analysis/v45_route_packet_integrity_manifest/`; live check passes for `4/4` packets with `0` hard violations, and synthetic missing-packet regression fails as expected with `2` hard violations. |
 | 114 | Operations | Add a top-level current-action card generated from blocker board, follow-up board, and readiness dashboard | todo | Generated after item 111 to expose the single next human/external action without reading multiple operational docs. |
 | 115 | Operations | Add acquisition email/send-log intake parser template that updates sent-state drafts without touching data receipt state | todo | Generated after item 111 to reduce manual tracker drift while preserving external-data blockers. |
 | 116 | Validation readiness | Add author-run package dry-run bundle manifest with path, checksum, and command-plan verification | todo | Generated after item 111 to make the fallback author-run route mechanically auditable before sending. |
@@ -880,3 +880,10 @@ todo items.
   violations. The validator is now linked after the state-machine map in the
   operational handoff order.
 - Next selected task: route-arrival packet freshness and checksum manifest.
+- Route-arrival packet integrity manifest completed. It hashes all `4` generated
+  route packets, records source mtimes/checksums, and verifies packet index and
+  summary agreement. Live status is `PASS` with `0` hard violations; synthetic
+  missing-packet regression is expected `FAIL` with `2` hard violations. The
+  guard is now linked after route-arrival packets in the operational handoff
+  order.
+- Next selected task: top-level current-action card.

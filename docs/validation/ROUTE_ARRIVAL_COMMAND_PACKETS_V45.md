@@ -11,6 +11,10 @@ aggregate outputs arrive. The packets are derived from the live acquisition
 index and outbound tracker, and repeat the hard stop that no scoring is allowed
 before route-specific gates pass.
 
+Packet integrity manifest:
+
+`docs/validation/ROUTE_PACKET_INTEGRITY_MANIFEST_V45.md`
+
 ## Command
 
 ```bash
@@ -30,6 +34,12 @@ Packets generated:
 - `analysis/v45_route_arrival_packets/karolinska_dmf_ros_2019_arrival_packet.md`
 - `analysis/v45_route_arrival_packets/gse228330_ocrelizumab_pbmc_arrival_packet.md`
 - `analysis/v45_route_arrival_packets/any_author_run_fallback_arrival_packet.md`
+
+Packet integrity status:
+
+- live manifest: `PASS`, `4/4` packets present and fresh;
+- synthetic missing-packet regression: `FAIL` as expected, with `2` hard
+  violations.
 
 ## Guardrail
 

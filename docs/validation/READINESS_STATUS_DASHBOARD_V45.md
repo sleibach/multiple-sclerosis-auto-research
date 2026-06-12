@@ -19,6 +19,10 @@ External blocker board:
 
 `docs/validation/EXTERNAL_BLOCKER_BOARD_V45.md`
 
+Route packet integrity manifest:
+
+`docs/validation/ROUTE_PACKET_INTEGRITY_MANIFEST_V45.md`
+
 Generated checker registry:
 
 `docs/validation/GENERATED_CHECKER_REGISTRY_V45.md`
