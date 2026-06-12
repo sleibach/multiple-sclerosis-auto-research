@@ -1,0 +1,18 @@
+column	required	description
+sample_id	yes	Expression sample ID; must match expression matrix columns.
+subject	yes	Subject identifier for longitudinal pairing.
+timepoint	yes	Treatment-relative timepoint label.
+days_since_treatment	strongly_required	Exact days since therapy start; use NA only if unavailable.
+therapy	yes	Therapy name, e.g. ocrelizumab, dimethyl fumarate.
+therapy_class	yes	Therapy mechanism class for context only.
+expression_platform	yes	RNA-seq, microarray, sorted-cell, single-cell pseudobulk, etc.
+disease	yes	Disease label.
+disease_subtype	optional	RRMS, SPMS, etc.; not a response label.
+clinical_status	optional	Stable/active if supplied; not a response label unless explicitly outcome-mapped.
+batch	strongly_required	Technical batch if available.
+processing_batch	strongly_required	Processing/prep batch if available.
+collection_date	strongly_required	Collection date if available.
+steroid_exposure	strongly_required	Steroid exposure near draw if available.
+prior_dmt	optional	Prior therapy.
+cell_count_metadata	optional	Cell counts/fractions if available.
+qc_pass	optional	QC inclusion flag.
