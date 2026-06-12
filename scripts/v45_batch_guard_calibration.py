@@ -227,7 +227,15 @@ def main() -> int:
         default=0,
         help="Optional cap on replicate number per truth/scenario/severity cell.",
     )
+    parser.add_argument(
+        "--outdir",
+        type=Path,
+        default=OUT,
+        help="Output directory. Defaults to the original V45 pilot output path.",
+    )
     args = parser.parse_args()
+    outdir = args.outdir
+    outdir.mkdir(parents=True, exist_ok=True)
     df = pd.read_csv(IN, sep="\t")
     if args.scenarios:
         keep = {item.strip() for item in args.scenarios.split(",") if item.strip()}
@@ -269,8 +277,8 @@ def main() -> int:
         )
     cohort = pd.DataFrame(cohort_rows)
     features = pd.concat(feature_rows, ignore_index=True)
-    cohort.to_csv(OUT / "batch_guard_calibrated_cohort_metrics.tsv", sep="\t", index=False)
-    features.to_csv(OUT / "batch_guard_calibrated_feature_metrics.tsv", sep="\t", index=False)
+    cohort.to_csv(outdir / "batch_guard_calibrated_cohort_metrics.tsv", sep="\t", index=False)
+    features.to_csv(outdir / "batch_guard_calibrated_feature_metrics.tsv", sep="\t", index=False)
     summary = (
         cohort.groupby(["truth", "scenario", "severity"], as_index=False)
         .agg(
@@ -285,7 +293,7 @@ def main() -> int:
             mean_auc=("auc", "mean"),
         )
     )
-    summary.to_csv(OUT / "batch_guard_calibration_summary.tsv", sep="\t", index=False)
+    summary.to_csv(outdir / "batch_guard_calibration_summary.tsv", sep="\t", index=False)
     null = summary[summary["truth"].eq("synthetic_null")]
     planted = summary[summary["truth"].eq("planted")]
     independent_planted = summary[
@@ -307,9 +315,9 @@ def main() -> int:
         "planted_independent_existing_acceptable_pass": float(independent_planted["existing_guarded_acceptable_pass_rate"]),
         "planted_independent_calibrated_q10_acceptable_pass": float(independent_planted["calibrated_q10_acceptable_pass_rate"]),
         "planted_independent_calibrated_q20_acceptable_pass": float(independent_planted["calibrated_q20_acceptable_pass_rate"]),
-        "output_dir": str(OUT),
+        "output_dir": str(outdir),
     }
-    (OUT / "summary.json").write_text(json.dumps(out, indent=2, sort_keys=True) + "\n")
+    (outdir / "summary.json").write_text(json.dumps(out, indent=2, sort_keys=True) + "\n")
     print(json.dumps(out, indent=2, sort_keys=True))
     return 0
 
