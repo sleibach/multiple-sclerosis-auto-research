@@ -135,7 +135,15 @@ generate more internally executable tasks before continuing.
 | 108 | Operations | Add follow-up message templates derived from the due-board status classes | done | Wrote `scripts/v45_followup_message_template_generator.py`, `docs/validation/FOLLOWUP_MESSAGE_TEMPLATES_V45.md`, and draft outputs under `analysis/v45_followup_message_templates/`; live board generates `4` unsent `not_sent_ready` drafts, synthetic overdue board includes `1` overdue follow-up draft. |
 | 109 | Validation readiness | Add cohort-route no-degrees-of-freedom checklist for Karolinska and GSE228330 addendum paths | done | Wrote `docs/validation/SECONDARY_ROUTE_NO_DOF_CHECKLIST_V45.md` and `docs/validation/input_schemas/V45_secondary_route_no_dof_checklist.tsv`; checklist covers `12` route/area freezes across Karolinska and GSE228330 before any secondary/context outcome scoring. |
 | 110 | Infrastructure | Add a compact V45 handoff index that lists only the current top-level operational artifacts in execution order | done | Wrote `docs/validation/V45_OPERATIONAL_HANDOFF_INDEX.md` and `docs/validation/input_schemas/V45_operational_handoff_index.tsv`; index lists `14` top-level operational artifacts in execution order. |
-| 111 | Integrity | Run the next full precommit/governance wrapper after items 98-110 | in-progress | Selected next after item 110 as recurring integrity control; should refresh governance after the latest operational docs/checkers and then refill backlog. |
+| 111 | Integrity | Run the next full precommit/governance wrapper after items 98-110 | done | Restored future addendum templates to locked hash-baseline state after detecting pointer drift, then reran wrapper: `5/5` pass in `99.218` seconds; refreshed artifact index covers `835` V45 paths, synthetic/governance index covers `71` V43-V45 dirs, and V45 analysis storage covers `65` dirs / `645` files / `85.187 MiB`. |
+| 112 | Infrastructure | Add state-machine transition validator against live tracker, triage, blocker, and dashboard states | todo | Generated after item 111 to catch impossible route-state combinations before any received-data scoring. |
+| 113 | Infrastructure | Add route-arrival packet freshness and checksum manifest tied to generated packet outputs | todo | Generated after item 111 to make packet drift visible before human operators run a route-specific arrival command. |
+| 114 | Operations | Add a top-level current-action card generated from blocker board, follow-up board, and readiness dashboard | todo | Generated after item 111 to expose the single next human/external action without reading multiple operational docs. |
+| 115 | Operations | Add acquisition email/send-log intake parser template that updates sent-state drafts without touching data receipt state | todo | Generated after item 111 to reduce manual tracker drift while preserving external-data blockers. |
+| 116 | Validation readiness | Add author-run package dry-run bundle manifest with path, checksum, and command-plan verification | todo | Generated after item 111 to make the fallback author-run route mechanically auditable before sending. |
+| 117 | Infrastructure | Add validation-readiness stale-check integration for route packets, generated checker registry, and operational handoff index | todo | Generated after item 111 to broaden stale-output detection to the newest handoff artifacts. |
+| 118 | Operations | Add external-blocker escalation matrix with per-route owner, request artifact, current blocker, and exact unblocking event | todo | Generated after item 111 to keep every live route externally actionable. |
+| 119 | Integrity | Run the next full precommit/governance wrapper after items 112-118 | todo | Recurring integrity control after the next generated operational hardening batch. |
 
 ## Generated Follow-Ups
 
@@ -151,6 +159,11 @@ todo items.
   received-package status updater, missing-metadata severity rubric, author-run
   fallback request text, V45 readiness changelog, and the next governance
   refresh checkpoint.
+- After item 111, generated items 112-119 to keep the internally executable
+  backlog above threshold: live state-machine validator, route-packet checksum
+  and freshness manifest, current-action card, send-log intake parser template,
+  author-run dry-run bundle manifest, stale-check integration, blocker
+  escalation matrix, and the next full precommit wrapper.
 
 ## Per-Iteration Notes
 
@@ -850,3 +863,12 @@ todo items.
   precommit, and freshness check. Path resolver now passes with `169` concrete
   references and `0` missing.
 - Next selected task: full precommit/governance wrapper after items 98-110.
+- Full precommit/governance wrapper completed. Initial locked-artifact audit
+  correctly caught drift in the Karolinska/GSE228330 future addendum templates
+  after item 109 pointer edits; those templates were restored to the committed
+  locked hash-baseline state before rerunning the wrapper. Final wrapper passes
+  `5/5` in `99.218` seconds. Current governance: `835` V45 paths, `71` V43-V45
+  method/governance directories, and V45 storage of `65` dirs / `645` files /
+  `85.187 MiB`.
+- Backlog refilled above threshold with items 112-119.
+- Next selected task: live state-machine transition validator.

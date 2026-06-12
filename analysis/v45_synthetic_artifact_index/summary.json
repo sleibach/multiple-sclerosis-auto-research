@@ -19,6 +19,12 @@
       "n_files": 6
     },
     {
+      "allowed_interpretation": "author-run packet checksum integrity only",
+      "class": "integrity_governance",
+      "n_dirs": 1,
+      "n_files": 8
+    },
+    {
       "allowed_interpretation": "collaborator package path integrity only",
       "class": "integrity_governance",
       "n_dirs": 1,
@@ -26,6 +32,12 @@
     },
     {
       "allowed_interpretation": "command-plan integrity only",
+      "class": "integrity_governance",
+      "n_dirs": 1,
+      "n_files": 2
+    },
+    {
+      "allowed_interpretation": "generated-checker registry only",
       "class": "integrity_governance",
       "n_dirs": 1,
       "n_files": 2
@@ -43,6 +55,18 @@
       "n_files": 2
     },
     {
+      "allowed_interpretation": "readiness dashboard only",
+      "class": "integrity_governance",
+      "n_dirs": 1,
+      "n_files": 3
+    },
+    {
+      "allowed_interpretation": "readiness freshness check only",
+      "class": "integrity_governance",
+      "n_dirs": 1,
+      "n_files": 2
+    },
+    {
       "allowed_interpretation": "repository hygiene only",
       "class": "integrity_governance",
       "n_dirs": 1,
@@ -55,10 +79,22 @@
       "n_files": 32
     },
     {
+      "allowed_interpretation": "acquisition follow-up status only",
+      "class": "operations",
+      "n_dirs": 1,
+      "n_files": 4
+    },
+    {
       "allowed_interpretation": "author-run packet bundle only",
       "class": "operations",
       "n_dirs": 1,
       "n_files": 1
+    },
+    {
+      "allowed_interpretation": "external blocker status only",
+      "class": "operations",
+      "n_dirs": 1,
+      "n_files": 2
     },
     {
       "allowed_interpretation": "received-package status update only",
@@ -71,6 +107,18 @@
       "class": "operations",
       "n_dirs": 1,
       "n_files": 10
+    },
+    {
+      "allowed_interpretation": "route-specific arrival commands only",
+      "class": "operations",
+      "n_dirs": 1,
+      "n_files": 6
+    },
+    {
+      "allowed_interpretation": "unsent acquisition message drafts only",
+      "class": "operations",
+      "n_dirs": 1,
+      "n_files": 12
     },
     {
       "allowed_interpretation": "acquisition operations only",
@@ -117,8 +165,8 @@
     {
       "allowed_interpretation": "method behavior only",
       "class": "synthetic_intake_verification",
-      "n_dirs": 10,
-      "n_files": 139
+      "n_dirs": 11,
+      "n_files": 163
     },
     {
       "allowed_interpretation": "method behavior only",
@@ -163,8 +211,8 @@
       "n_files": 4
     }
   ],
-  "n_dirs_containing_synthetic": 39,
-  "n_dirs_indexed": 62,
+  "n_dirs_containing_synthetic": 44,
+  "n_dirs_indexed": 71,
   "purpose": "artifact governance index; no biological claim",
   "synthetic": false
 }

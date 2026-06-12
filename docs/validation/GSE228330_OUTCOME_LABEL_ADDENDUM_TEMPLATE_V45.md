@@ -3,10 +3,6 @@
 Status: blank preregistration addendum template. No GSE228330 outcome labels have
 been received or scored.
 
-Shared no-degrees-of-freedom checklist:
-
-`docs/validation/SECONDARY_ROUTE_NO_DOF_CHECKLIST_V45.md`
-
 ## Purpose
 
 `GSE228330` is currently open ocrelizumab PBMC pharmacodynamic context only. If
