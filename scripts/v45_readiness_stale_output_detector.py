@@ -176,6 +176,21 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v45_state_machine_validator.py --outdir analysis/v45_state_machine_validator/live --expect-status PASS",
     },
     {
+        "artifact": "received_package_decision_tree",
+        "sources": [
+            "analysis/v45_current_action_card/current_action_card.tsv",
+            "analysis/v45_state_machine_validator/live/route_state_validation.tsv",
+            "analysis/v45_state_machine_validator/live/state_machine_validator_summary.json",
+            "scripts/v45_received_package_decision_tree.py",
+        ],
+        "outputs": [
+            "analysis/v45_received_package_decision_tree/live/received_package_decision_tree_summary.json",
+            "analysis/v45_received_package_decision_tree/live/received_package_decision_tree.tsv",
+            "analysis/v45_received_package_decision_tree/live/received_package_decision_tree_issues.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v45_received_package_decision_tree.py --outdir analysis/v45_received_package_decision_tree/live --expect-status PASS",
+    },
+    {
         "artifact": "current_action_card",
         "sources": [
             "analysis/v45_external_blocker_board/external_blocker_board.tsv",

@@ -1,0 +1,18 @@
+{
+  "expectation_met": true,
+  "expected_status": "PASS",
+  "issues": "analysis/v45_received_package_decision_tree/live/received_package_decision_tree_issues.tsv",
+  "n_hard_issues": 0,
+  "n_may_score_now": 0,
+  "n_routes": 4,
+  "observed_status": "PASS",
+  "purpose": "V45 first-24h received-package decision tree; no biological claim",
+  "sources": {
+    "actions": "analysis/v45_current_action_card/current_action_card.tsv",
+    "state_rows": "analysis/v45_state_machine_validator/live/route_state_validation.tsv",
+    "state_summary": "analysis/v45_state_machine_validator/live/state_machine_validator_summary.json"
+  },
+  "synthetic": false,
+  "synthetic_case": "none",
+  "tree": "analysis/v45_received_package_decision_tree/live/received_package_decision_tree.tsv"
+}

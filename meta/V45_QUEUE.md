@@ -146,7 +146,7 @@ generate more internally executable tasks before continuing.
 | 119 | Integrity | Run the next full precommit/governance wrapper after items 112-118 | done | Classified six newest operational/governance output dirs in the synthetic artifact index, reran the full wrapper, and refreshed docs. Current wrapper passes `5/5` in `117.168` seconds; artifact index covers `879` V45 paths, synthetic/governance index covers `77` V43-V45 dirs with `0` unclassified dirs, and V45 analysis storage covers `71` dirs / `677` files / `85.237 MiB`. |
 | 120 | Validation readiness | Add a cross-route readiness linter that checks every live route has request artifact, blocker state, arrival packet, command plan, and no-score gate linkage | done | Wrote `scripts/v45_cross_route_readiness_linter.py`, `docs/validation/CROSS_ROUTE_READINESS_LINTER_V45.md`, and outputs under `analysis/v45_cross_route_readiness_linter/`; generated the Karolinska plan-only command runner output; live linter passes across `4` routes with `0` hard/soft issues, synthetic missing-request regression fails as expected with `1` hard issue, and stale detector now checks `15` artifacts with `0` stale/missing. |
 | 121 | Cohort dependence | Add an external-request packet completeness and checksum guard for all outbound request artifacts, not only the author-run packet | done | Wrote `scripts/v45_outbound_request_packet_integrity.py`, `docs/validation/OUTBOUND_REQUEST_PACKET_INTEGRITY_V45.md`, and outputs under `analysis/v45_outbound_request_packet_integrity/`; live guard checks `4` routes, hashes `4` request packets, and passes with `0` hard/soft issues. Synthetic missing-packet regression fails as expected with `1` hard issue. Stale detector now covers `16` artifacts with `0` stale/missing. |
-| 122 | Validation readiness | Add a first-24h received-package operator decision tree tied to the current action card and state-machine validator | todo | Self-generated follow-up to remove post-arrival ambiguity before any scoring. |
+| 122 | Validation readiness | Add a first-24h received-package operator decision tree tied to the current action card and state-machine validator | done | Wrote `scripts/v45_received_package_decision_tree.py`, `docs/validation/RECEIVED_PACKAGE_DECISION_TREE_V45.md`, and outputs under `analysis/v45_received_package_decision_tree/`; live tree covers `4` routes, allows scoring on `0`, and passes with `0` hard issues. Synthetic premature-harness-ready regression fails as expected with `1` hard issue. Stale detector now covers `17` artifacts with `0` stale/missing. |
 | 123 | Robustness | Add a synthetic metadata-contradiction stress test for validation intake, covering response label conflicts, timepoint conflicts, and batch metadata conflicts | todo | Self-generated follow-up to harden intake against realistic author-return inconsistencies. |
 | 124 | Power/design | Add a route-specific analyzable-pair calculator for partial Karolinska/GSE228330/Gafson returns | todo | Self-generated follow-up to quantify whether partial data returns can ever be decision-useful. |
 | 125 | Infrastructure | Add a generated-doc freshness linter that compares linked machine-readable outputs to human-facing governance counts | todo | Self-generated follow-up from item 119 because manual count refreshes are a known drift risk. |
@@ -952,3 +952,12 @@ todo items.
   synthetic missing-packet regression fails as expected with `1` hard issue.
   Stale detector now includes this guard and passes with `16` checked artifacts.
 - Next selected task: first-24h received-package operator decision tree.
+- First-24h received-package decision tree completed. It joins the current
+  action card and state-machine validator to give route-specific arrival
+  actions and an explicit `may_score_now` field. Live status is `PASS` across
+  `4` routes with `0` scoring-authorized routes and `0` hard issues. Synthetic
+  premature-harness-ready regression fails as expected with `1` hard issue.
+  Stale detector now includes the decision tree and passes with `17` checked
+  artifacts.
+- Next selected task: synthetic metadata-contradiction stress test for
+  validation intake.

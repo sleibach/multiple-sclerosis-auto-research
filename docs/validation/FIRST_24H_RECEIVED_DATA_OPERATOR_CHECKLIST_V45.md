@@ -13,8 +13,14 @@ Status-board updater:
 
 `docs/validation/RECEIVED_STATUS_UPDATER_V45.md`
 
+Generated route-specific decision tree:
+
+`docs/validation/RECEIVED_PACKAGE_DECISION_TREE_V45.md`
+
 ## Before Touching Files
 
+- Read the generated decision tree and confirm `may_score_now=no` unless a
+  route is explicitly harness-ready under the state-machine validator.
 - Do not open expression matrices beside file-listing/checksum operations.
 - Do not inspect expression by outcome, response group, or sample phenotype.
 - Do not edit locked rules, preregistrations, thresholds, endpoint mappings, or

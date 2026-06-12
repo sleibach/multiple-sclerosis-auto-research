@@ -1,0 +1,18 @@
+{
+  "expectation_met": true,
+  "expected_status": "FAIL",
+  "issues": "analysis/v45_received_package_decision_tree/synthetic_premature_harness_ready/received_package_decision_tree_issues.tsv",
+  "n_hard_issues": 1,
+  "n_may_score_now": 1,
+  "n_routes": 4,
+  "observed_status": "FAIL",
+  "purpose": "V45 first-24h received-package decision tree; no biological claim",
+  "sources": {
+    "actions": "analysis/v45_current_action_card/current_action_card.tsv",
+    "state_rows": "analysis/v45_state_machine_validator/live/route_state_validation.tsv",
+    "state_summary": "analysis/v45_state_machine_validator/live/state_machine_validator_summary.json"
+  },
+  "synthetic": true,
+  "synthetic_case": "premature_harness_ready",
+  "tree": "analysis/v45_received_package_decision_tree/synthetic_premature_harness_ready/received_package_decision_tree.tsv"
+}

@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `16`
+- artifacts checked: `17`
 - stale or missing: `0`
 - overall status: `PASS`
 
@@ -36,6 +36,7 @@ Checked generated artifacts:
 - route packet integrity manifest;
 - cross-route readiness linter;
 - state-machine transition validator;
+- received-package decision tree;
 - current-action card;
 - author-run bundle dry-run manifest;
 - generated-checker registry;
