@@ -17,6 +17,12 @@ Machine-readable outputs:
 - `analysis/v45_power_decision_table/selected_scenarios_by_n.tsv`
 - `analysis/v45_power_decision_table/summary.json`
 
+Dropout/missing-timepoint sensitivity:
+
+- `docs/validation/DROPOUT_MISSING_TIMEPOINT_SENSITIVITY_V45.md`
+- `analysis/v45_dropout_sensitivity_table/dropout_enrollment_targets.tsv`
+- `analysis/v45_dropout_sensitivity_table/nominal_attrition_power_impact.tsv`
+
 Generator:
 
 - `scripts/v45_power_decision_table.py`
@@ -66,5 +72,8 @@ precision estimates. The robust conclusion is directional:
 3. **For a shaped collaborator/prospective cohort**, request at least `60-80`
    responders and `60-80` nonresponders where possible, with the V45 CRF fields
    mandatory.
-4. **If only `10-15/group` is available**, treat the output as effect-size and CI
+4. **Account for missing paired samples up front**: to retain `60-80` analyzable
+   paired subjects per group, enrollment must be about `75-100/group` at `20%`
+   missing/dropout and `100-134/group` at `40%` missing/dropout.
+5. **If only `10-15/group` is available**, treat the output as effect-size and CI
    information unless the result is very large and diagnostically clean.

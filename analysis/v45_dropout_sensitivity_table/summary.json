@@ -1,0 +1,18 @@
+{
+  "below_grid_rows": 8,
+  "first_large_clean_decision_grade_row": {
+    "conclusive_rate": 0.9166666666666666,
+    "decision_band": "decision_grade_pass_probability",
+    "description": "large effect, clean labels, no confounder",
+    "expected_analyzable_per_group": 30,
+    "mapped_grid_n_per_group": 30,
+    "missing_or_dropout_fraction": 0.0,
+    "nominal_enrolled_per_group": 30,
+    "pass_rate": 0.9166666666666666,
+    "planning_note": "Attrition maps nominal 30/group to about 30/group; using nearest lower simulated grid n=30.",
+    "scenario": "large_clean"
+  },
+  "gafson_size_mean_pass_rate_moderate_or_large_clean": 0.5208333333333333,
+  "n_attrition_rows": 192,
+  "status": "synthetic_method_planning_only"
+}
