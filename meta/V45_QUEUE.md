@@ -134,8 +134,8 @@ generate more internally executable tasks before continuing.
 | 107 | Infrastructure | Add a stale-output detector for readiness dashboards that compares summary source mtimes to generated dashboards | done | Wrote `scripts/v45_readiness_stale_output_detector.py`, `docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md`, and outputs under `analysis/v45_readiness_stale_output_detector/`; `5/5` generated readiness artifacts are fresh, `0` stale or missing. |
 | 108 | Operations | Add follow-up message templates derived from the due-board status classes | done | Wrote `scripts/v45_followup_message_template_generator.py`, `docs/validation/FOLLOWUP_MESSAGE_TEMPLATES_V45.md`, and draft outputs under `analysis/v45_followup_message_templates/`; live board generates `4` unsent `not_sent_ready` drafts, synthetic overdue board includes `1` overdue follow-up draft. |
 | 109 | Validation readiness | Add cohort-route no-degrees-of-freedom checklist for Karolinska and GSE228330 addendum paths | done | Wrote `docs/validation/SECONDARY_ROUTE_NO_DOF_CHECKLIST_V45.md` and `docs/validation/input_schemas/V45_secondary_route_no_dof_checklist.tsv`; checklist covers `12` route/area freezes across Karolinska and GSE228330 before any secondary/context outcome scoring. |
-| 110 | Infrastructure | Add a compact V45 handoff index that lists only the current top-level operational artifacts in execution order | in-progress | Selected next after item 109; should help medical-team operators avoid navigating the full artifact corpus. |
-| 111 | Integrity | Run the next full precommit/governance wrapper after items 98-110 | todo | Generated after item 104 as recurring integrity control. |
+| 110 | Infrastructure | Add a compact V45 handoff index that lists only the current top-level operational artifacts in execution order | done | Wrote `docs/validation/V45_OPERATIONAL_HANDOFF_INDEX.md` and `docs/validation/input_schemas/V45_operational_handoff_index.tsv`; index lists `14` top-level operational artifacts in execution order. |
+| 111 | Integrity | Run the next full precommit/governance wrapper after items 98-110 | in-progress | Selected next after item 110 as recurring integrity control; should refresh governance after the latest operational docs/checkers and then refill backlog. |
 
 ## Generated Follow-Ups
 
@@ -844,3 +844,9 @@ todo items.
   provenance, timepoint eligibility, and analysis budget for each route. Path
   resolver now passes with `168` concrete references and `0` missing.
 - Next selected task: compact V45 operational handoff index.
+- Compact V45 operational handoff index completed. It gives operators a `14`
+  step execution-order path from status dashboard and blockers through request,
+  arrival, state machine, gates, author-run return, reporting, interpretation,
+  precommit, and freshness check. Path resolver now passes with `169` concrete
+  references and `0` missing.
+- Next selected task: full precommit/governance wrapper after items 98-110.

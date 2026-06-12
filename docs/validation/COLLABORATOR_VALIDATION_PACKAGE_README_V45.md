@@ -16,6 +16,7 @@ V42 preregistration, secondary preregistrations, or any threshold.
 | Need | File |
 |---|---|
 | V45 readiness changelog / reviewer route | `docs/validation/V45_READINESS_CHANGELOG.md` |
+| V45 operational handoff index | `docs/validation/V45_OPERATIONAL_HANDOFF_INDEX.md` |
 | V45 readiness status dashboard | `docs/validation/READINESS_STATUS_DASHBOARD_V45.md` |
 | Generated checker registry | `docs/validation/GENERATED_CHECKER_REGISTRY_V45.md` |
 | Validation state machine | `docs/validation/VALIDATION_STATE_MACHINE_V45.md` |

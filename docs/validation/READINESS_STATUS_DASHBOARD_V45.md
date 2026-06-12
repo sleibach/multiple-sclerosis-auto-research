@@ -11,6 +11,10 @@ tracker, triage, precommit, path-resolution, follow-up, and handoff outputs.
 This is a read-only status summary. It does not run validation and does not mark
 any cohort scoreable.
 
+Compact operational handoff index:
+
+`docs/validation/V45_OPERATIONAL_HANDOFF_INDEX.md`
+
 External blocker board:
 
 `docs/validation/EXTERNAL_BLOCKER_BOARD_V45.md`
@@ -59,7 +63,7 @@ Current key metrics:
 - outbound tracker: `4/4` rows ready, `0` marked sent;
 - received-data triage: `0/3` cohorts harness-ready;
 - precommit readiness: `PASS`;
-- collaborator path resolution: `PASS`, `168` links resolved, `0` missing;
+- collaborator path resolution: `PASS`, `169` links resolved, `0` missing;
 - follow-up board: `4` `not_sent_ready` rows;
 - external blocker board: `4` `external_send_or_author_approval` rows;
 - scored-lifecycle handoff negative control: `EXPECTED_FAIL` until real harness outputs exist.
