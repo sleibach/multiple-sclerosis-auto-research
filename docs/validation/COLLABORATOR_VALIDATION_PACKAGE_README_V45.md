@@ -43,6 +43,7 @@ V42 preregistration, secondary preregistrations, or any threshold.
 | Author-run frozen harness packet | `docs/validation/AUTHOR_RUN_FROZEN_HARNESS_PACKET_V45.md` |
 | Author-run packet bundle index | `docs/validation/AUTHOR_RUN_PACKET_BUNDLE_INDEX_V45.md` |
 | Author-run output completeness check | `docs/validation/AUTHOR_RUN_OUTPUT_COMPLETENESS_CHECK_V45.md` |
+| Collaborator package path resolver | `docs/validation/COLLABORATOR_PACKAGE_PATH_RESOLVER_V45.md` |
 
 ## Ready-To-Send Request Packets
 
@@ -140,6 +141,14 @@ and update:
   --fail-on-drift
 
 .venv/bin/python scripts/v45_precommit_readiness_check.py
+```
+
+### Collaborator Package Path Resolution
+
+```bash
+.venv/bin/python scripts/v45_collaborator_package_path_resolver.py check \
+  --outdir analysis/v45_collaborator_path_resolver/live_sources \
+  --fail-on-missing
 ```
 
 ### Pharmacodynamic-Only Response-Column Audit

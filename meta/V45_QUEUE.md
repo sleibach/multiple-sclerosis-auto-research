@@ -120,8 +120,8 @@ generate more internally executable tasks before continuing.
 | 93 | Validation reporting | Add a metadata-missingness rubric scoring helper that maps available metadata fields to green/yellow/orange/red status | done | Wrote `scripts/v45_metadata_missingness_scorer.py`, `docs/validation/METADATA_MISSINGNESS_SCORER_V45.md`, and synthetic outputs under `analysis/v45_metadata_missingness_scorer/`; complete fixture maps to `METADATA_SUPPORTS_CLEAN_INTERPRETATION`, weak fixture maps to `METADATA_WEAK_FOR_CLEAN_PASS`. |
 | 94 | Operations | Add a request-sent log updater that proposes changes to the outbound request tracker after human send action | done | Wrote `scripts/v45_request_sent_updater.py`, `docs/validation/REQUEST_SENT_UPDATER_V45.md`, and outputs under `analysis/v45_request_sent_updater/`; live draft template proposes `0` updates, synthetic sent fixture proposes `1` tracker update and `1` triage-board update with `0` hard failures. |
 | 95 | Validation readiness | Add a collaborator-return redaction precheck for aggregate author-run packages | done | Wrote `scripts/v45_author_run_redaction_precheck.py`, `docs/validation/AUTHOR_RUN_REDACTION_PRECHECK_V45.md`, and synthetic outputs under `analysis/v45_author_run_redaction_precheck/`; complete aggregate fixture passes with `0` blocks, risky synthetic package fails with `3` blocks. |
-| 96 | Infrastructure | Add a collaborator package path resolver that checks all README-linked artifacts resolve after every readiness update | in-progress | Selected next after item 95; should prevent broken handoff links across collaborator package and validation docs without touching locked rules. |
-| 97 | Infrastructure | Run the next full precommit readiness wrapper after generated checker tasks are committed | todo | Generated after item 90 as recurring integrity control. |
+| 96 | Infrastructure | Add a collaborator package path resolver that checks all README-linked artifacts resolve after every readiness update | done | Wrote `scripts/v45_collaborator_package_path_resolver.py`, `docs/validation/COLLABORATOR_PACKAGE_PATH_RESOLVER_V45.md`, and outputs under `analysis/v45_collaborator_path_resolver/`; live package sources pass with `154` concrete references resolved and `0` missing, while a synthetic broken source fails with `1` missing reference. |
+| 97 | Infrastructure | Run the next full precommit readiness wrapper after generated checker tasks are committed | in-progress | Selected next after item 96 as recurring integrity control; should refresh governance/checks after items 91-96 and refill backlog above threshold. |
 
 ## Generated Follow-Ups
 
@@ -732,3 +732,9 @@ todo items.
   credential leakage before completeness checking. Complete synthetic aggregate
   package passes with `0` blocks; risky synthetic package fails with `3` blocks.
 - Next selected task: collaborator package path resolver.
+- Collaborator package path resolver completed. It checks concrete paths in the
+  collaborator README, author-run bundle index, collaborator manifest, and
+  author-run packet bundle TSV. Live package sources pass with `154` references
+  resolved and `0` missing; a synthetic broken source fails with `1` missing
+  reference.
+- Next selected task: full precommit/governance readiness wrapper.

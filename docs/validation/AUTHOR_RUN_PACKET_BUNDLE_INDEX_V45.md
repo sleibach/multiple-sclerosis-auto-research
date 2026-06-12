@@ -11,6 +11,10 @@ Machine-readable index:
 
 `analysis/v45_author_run_packet_bundle/author_run_packet_bundle_index.tsv`
 
+Path-resolution checker:
+
+`docs/validation/COLLABORATOR_PACKAGE_PATH_RESOLVER_V45.md`
+
 ## When To Use This Packet
 
 Use this path when an author or data controller says individual-level data
