@@ -1,0 +1,16 @@
+{
+  "cohorts": 900,
+  "features_tested": 4500,
+  "max_replicates_per_cell": 30,
+  "output_dir": "analysis/v45_batch_guard_calibration",
+  "permutations_per_feature_test": 50,
+  "planted_independent_calibrated_q10_acceptable_pass": 0.9333333333333333,
+  "planted_independent_calibrated_q20_acceptable_pass": 0.8666666666666667,
+  "planted_independent_existing_acceptable_pass": 0.23333333333333334,
+  "scenario_filter": "independent_technical,batch_only,distributed_weak_technical",
+  "seed": 45445,
+  "synthetic": true,
+  "worst_null_calibrated_q10_acceptable_pass": 0.0,
+  "worst_null_calibrated_q20_acceptable_pass": 0.0,
+  "worst_null_existing_acceptable_pass": 0.0
+}
