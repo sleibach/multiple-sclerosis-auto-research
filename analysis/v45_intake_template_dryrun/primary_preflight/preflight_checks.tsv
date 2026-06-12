@@ -1,0 +1,30 @@
+relative_path	in_checksum_file	expected_sha256	observed_sha256	status	table	field	required_level	present	complete	missing_count	check	note	n_metadata_samples	n_expression_samples	missing_metadata_samples_in_expression
+metadata/sample_metadata.tsv	True	3072dc8149ffb7ddba29166c37a3f6be455afae95c9de6f72ad85ba9317a3c6a	3072dc8149ffb7ddba29166c37a3f6be455afae95c9de6f72ad85ba9317a3c6a	PASS	checksum_audit										
+processed/expression.tsv	True	9c20ba26879baf4079c2460e1c355098925a6aed2e9e4b1e896f6f09d0023feb	9c20ba26879baf4079c2460e1c355098925a6aed2e9e4b1e896f6f09d0023feb	PASS	checksum_audit										
+				PASS	schema_check	sample_id	yes	True	True	0.0					
+				PASS	schema_check	patient	yes	True	True	0.0					
+				PASS	schema_check	timepoint	yes	True	True	0.0					
+				PASS	schema_check	response	yes	True	True	0.0					
+				PASS	schema_check	days_since_treatment	strongly_required	True	True	0.0					
+				OPTIONAL_ABSENT	schema_check	qc_pass	optional	False	False	4.0					
+				PASS	schema_check	batch	strongly_required	True	True	0.0					
+				OPTIONAL_ABSENT	schema_check	lane	optional	False	False	4.0					
+				OPTIONAL_ABSENT	schema_check	flowcell	optional	False	False	4.0					
+				OPTIONAL_ABSENT	schema_check	run	optional	False	False	4.0					
+				WARN_MISSING_STRONGLY_REQUIRED	schema_check	sequencing_batch	strongly_required_if_rnaseq	False	False	4.0					
+				PASS	schema_check	processing_batch	strongly_required	True	True	0.0					
+				OPTIONAL_ABSENT	schema_check	capture_batch	optional	False	False	4.0					
+				OPTIONAL_ABSENT	schema_check	library_batch	optional	False	False	4.0					
+				PASS	schema_check	collection_date	strongly_required	True	True	0.0					
+				PASS	schema_check	processing_date	strongly_required	True	True	0.0					
+				WARN_MISSING_STRONGLY_REQUIRED	schema_check	rin	strongly_required_if_rnaseq	False	False	4.0					
+				OPTIONAL_ABSENT	schema_check	rqn	optional	False	False	4.0					
+				WARN_MISSING_STRONGLY_REQUIRED	schema_check	sequencing_depth	strongly_required_if_rnaseq	False	False	4.0					
+				WARN_MISSING_STRONGLY_REQUIRED	schema_check	percent_mapped	strongly_required_if_rnaseq	False	False	4.0					
+				PASS	schema_check	steroid_exposure	strongly_required	True	True	0.0					
+				PASS	schema_check	prior_dmt	strongly_required	True	True	0.0					
+				PASS	schema_check	concomitant_dmt	strongly_required	True	True	0.0					
+				PASS	schema_check	outcome_window	strongly_required	True	True	0.0					
+				WARN_MISSING_STRONGLY_REQUIRED	schema_check	site	strongly_required_if_multicenter	False	False	4.0					
+				PASS	response_guard	response					response_label_required_for_validation_mode	Response/outcome labels are required for this validation mode.			
+				PASS	expression_header_check						expression_header_sample_match		4.0	4.0	

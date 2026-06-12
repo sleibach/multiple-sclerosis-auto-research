@@ -1,0 +1,22 @@
+relative_path	in_checksum_file	expected_sha256	observed_sha256	status	table	field	required_level	present	complete	missing_count	check	note	n_metadata_samples	n_expression_samples	missing_metadata_samples_in_expression
+metadata/sample_metadata.tsv	True	63cb5f4f230bd5361bf86a6fabe5ca70c20c6e0c6d3e44539a8a1c68326214c7	63cb5f4f230bd5361bf86a6fabe5ca70c20c6e0c6d3e44539a8a1c68326214c7	PASS	checksum_audit										
+processed/expression.tsv	True	8ac0e8c77ff2ad5f7552a232be19c448c148b1f97fb112585635bfd41bc8f0f5	8ac0e8c77ff2ad5f7552a232be19c448c148b1f97fb112585635bfd41bc8f0f5	PASS	checksum_audit										
+				PASS	schema_check	sample_id	yes	True	True	0.0					
+				PASS	schema_check	subject	yes	True	True	0.0					
+				PASS	schema_check	timepoint	yes	True	True	0.0					
+				PASS	schema_check	days_since_treatment	strongly_required	True	True	0.0					
+				PASS	schema_check	therapy	yes	True	True	0.0					
+				PASS	schema_check	therapy_class	yes	True	True	0.0					
+				PASS	schema_check	expression_platform	yes	True	True	0.0					
+				PASS	schema_check	disease	yes	True	True	0.0					
+				OPTIONAL_ABSENT	schema_check	disease_subtype	optional	False	False	4.0					
+				OPTIONAL_ABSENT	schema_check	clinical_status	optional	False	False	4.0					
+				PASS	schema_check	batch	strongly_required	True	True	0.0					
+				PASS	schema_check	processing_batch	strongly_required	True	True	0.0					
+				PASS	schema_check	collection_date	strongly_required	True	True	0.0					
+				PASS	schema_check	steroid_exposure	strongly_required	True	True	0.0					
+				OPTIONAL_ABSENT	schema_check	prior_dmt	optional	False	False	4.0					
+				OPTIONAL_ABSENT	schema_check	cell_count_metadata	optional	False	False	4.0					
+				OPTIONAL_ABSENT	schema_check	qc_pass	optional	False	False	4.0					
+				PASS	response_guard						pharmacodynamic_no_response_labels	No response-like metadata columns detected.			
+				PASS	expression_header_check						expression_header_sample_match		4.0	4.0	

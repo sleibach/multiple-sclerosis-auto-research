@@ -1,0 +1,37 @@
+{
+  "checks": {
+    "pharmacodynamic_checksums_written": true,
+    "pharmacodynamic_expression_checked": true,
+    "pharmacodynamic_template_pass": true,
+    "primary_checksums_written": true,
+    "primary_expression_checked": true,
+    "primary_template_pass": true
+  },
+  "overall_status": "PASS",
+  "pharmacodynamic_summary": {
+    "expression": "/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_intake_template_dryrun/synthetic_pharmacodynamic_quarantine/processed/expression.tsv",
+    "fail_count": 0,
+    "files_audited": 2,
+    "metadata": "/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_intake_template_dryrun/synthetic_pharmacodynamic_quarantine/metadata/sample_metadata.tsv",
+    "missing_checksum_count": 0,
+    "mode": "pharmacodynamic",
+    "note": "Preflight only; no module score or validation metric computed.",
+    "overall_status": "PASS",
+    "root": "/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_intake_template_dryrun/synthetic_pharmacodynamic_quarantine",
+    "warn_count": 0
+  },
+  "primary_summary": {
+    "expression": "/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_intake_template_dryrun/synthetic_primary_quarantine/processed/expression.tsv",
+    "fail_count": 0,
+    "files_audited": 2,
+    "metadata": "/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_intake_template_dryrun/synthetic_primary_quarantine/metadata/sample_metadata.tsv",
+    "missing_checksum_count": 0,
+    "mode": "primary",
+    "note": "Preflight only; no module score or validation metric computed.",
+    "overall_status": "PASS",
+    "root": "/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_intake_template_dryrun/synthetic_primary_quarantine",
+    "warn_count": 5
+  },
+  "purpose": "dry-run documented intake preflight command templates",
+  "synthetic": true
+}
