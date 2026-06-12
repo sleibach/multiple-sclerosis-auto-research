@@ -1,0 +1,18 @@
+{
+  "expectation_met": true,
+  "expected_status": "FAIL",
+  "issues": "analysis/v45_outbound_request_packet_integrity/synthetic_missing_packet/outbound_request_packet_issues.tsv",
+  "manifest": "analysis/v45_outbound_request_packet_integrity/synthetic_missing_packet/outbound_request_packet_manifest.tsv",
+  "n_hard_issues": 1,
+  "n_packets_hashed": 3,
+  "n_routes": 4,
+  "n_soft_issues": 1,
+  "observed_status": "FAIL",
+  "purpose": "V45 outbound request packet completeness/checksum guard; no biological claim",
+  "sources": {
+    "external": "analysis/v45_external_blocker_board/external_blocker_board.tsv",
+    "packet_dir": "docs/validation/outbound_requests"
+  },
+  "synthetic": true,
+  "synthetic_case": "missing_packet"
+}

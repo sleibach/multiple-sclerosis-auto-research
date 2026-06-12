@@ -75,6 +75,23 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v45_external_blocker_escalation_matrix.py --outdir analysis/v45_external_blocker_escalation_matrix",
     },
     {
+        "artifact": "outbound_request_packet_integrity",
+        "sources": [
+            "analysis/v45_external_blocker_board/external_blocker_board.tsv",
+            "scripts/v45_outbound_request_packet_integrity.py",
+            "docs/validation/outbound_requests/author_run_fallback_ready_to_send_V45.md",
+            "docs/validation/outbound_requests/gafson_dmf_ready_to_send_V45.md",
+            "docs/validation/outbound_requests/gse228330_ocrelizumab_ready_to_send_V45.md",
+            "docs/validation/outbound_requests/karolinska_dmf_ready_to_send_V45.md",
+        ],
+        "outputs": [
+            "analysis/v45_outbound_request_packet_integrity/live/outbound_request_packet_integrity_summary.json",
+            "analysis/v45_outbound_request_packet_integrity/live/outbound_request_packet_manifest.tsv",
+            "analysis/v45_outbound_request_packet_integrity/live/outbound_request_packet_issues.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v45_outbound_request_packet_integrity.py --outdir analysis/v45_outbound_request_packet_integrity/live --expect-status PASS",
+    },
+    {
         "artifact": "followup_message_templates",
         "sources": [
             "analysis/v45_followup_due_board/live_template/followup_due_board.tsv",

@@ -1,0 +1,3 @@
+severity	cohort_id	check	detail
+hard	any_author_run_fallback	request_packet_missing	missing request packet: docs/validation/outbound_requests/SYNTHETIC_MISSING_REQUEST.md
+soft	unmapped_packet	packet_not_in_external_board	packet exists but is not mapped to a live route: docs/validation/outbound_requests/author_run_fallback_ready_to_send_V45.md

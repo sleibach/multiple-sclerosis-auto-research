@@ -1,0 +1,18 @@
+{
+  "expectation_met": true,
+  "expected_status": "PASS",
+  "issues": "analysis/v45_outbound_request_packet_integrity/live/outbound_request_packet_issues.tsv",
+  "manifest": "analysis/v45_outbound_request_packet_integrity/live/outbound_request_packet_manifest.tsv",
+  "n_hard_issues": 0,
+  "n_packets_hashed": 4,
+  "n_routes": 4,
+  "n_soft_issues": 0,
+  "observed_status": "PASS",
+  "purpose": "V45 outbound request packet completeness/checksum guard; no biological claim",
+  "sources": {
+    "external": "analysis/v45_external_blocker_board/external_blocker_board.tsv",
+    "packet_dir": "docs/validation/outbound_requests"
+  },
+  "synthetic": false,
+  "synthetic_case": "none"
+}

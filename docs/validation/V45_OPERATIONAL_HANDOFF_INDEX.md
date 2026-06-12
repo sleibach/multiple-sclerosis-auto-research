@@ -18,23 +18,24 @@ full artifact corpus.
 | 2 | current status | `docs/validation/READINESS_STATUS_DASHBOARD_V45.md` |
 | 3 | current blockers | `docs/validation/EXTERNAL_BLOCKER_BOARD_V45.md` |
 | 4 | blocker escalation | `docs/validation/EXTERNAL_BLOCKER_ESCALATION_MATRIX_V45.md` |
-| 5 | request/follow-up | `docs/validation/FOLLOWUP_DUE_BOARD_V45.md` |
-| 6 | request/follow-up drafts | `docs/validation/FOLLOWUP_MESSAGE_TEMPLATES_V45.md` |
-| 7 | author-run bundle dry-run | `docs/validation/AUTHOR_RUN_BUNDLE_DRYRUN_MANIFEST_V45.md` |
-| 8 | send-log intake | `docs/validation/SEND_LOG_INTAKE_TEMPLATE_V45.md` |
-| 9 | route arrival | `docs/validation/ROUTE_ARRIVAL_COMMAND_PACKETS_V45.md` |
-| 10 | route packet integrity | `docs/validation/ROUTE_PACKET_INTEGRITY_MANIFEST_V45.md` |
-| 11 | cross-route readiness | `docs/validation/CROSS_ROUTE_READINESS_LINTER_V45.md` |
-| 12 | state machine | `docs/validation/VALIDATION_STATE_MACHINE_V45.md` |
-| 13 | transition consistency | `docs/validation/STATE_MACHINE_TRANSITION_VALIDATOR_V45.md` |
-| 14 | received package gates | `docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md` |
-| 15 | frozen-harness readiness | `docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md` |
-| 16 | author-run fallback | `docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md` |
-| 17 | secondary route freeze | `docs/validation/SECONDARY_ROUTE_NO_DOF_CHECKLIST_V45.md` |
-| 18 | result reporting | `docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md` |
-| 19 | interpretation | `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md` |
-| 20 | integrity refresh | `docs/validation/PRECOMMIT_READINESS_CHECKLIST_V45.md` |
-| 21 | freshness check | `docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md` |
+| 5 | outbound packet integrity | `docs/validation/OUTBOUND_REQUEST_PACKET_INTEGRITY_V45.md` |
+| 6 | request/follow-up | `docs/validation/FOLLOWUP_DUE_BOARD_V45.md` |
+| 7 | request/follow-up drafts | `docs/validation/FOLLOWUP_MESSAGE_TEMPLATES_V45.md` |
+| 8 | author-run bundle dry-run | `docs/validation/AUTHOR_RUN_BUNDLE_DRYRUN_MANIFEST_V45.md` |
+| 9 | send-log intake | `docs/validation/SEND_LOG_INTAKE_TEMPLATE_V45.md` |
+| 10 | route arrival | `docs/validation/ROUTE_ARRIVAL_COMMAND_PACKETS_V45.md` |
+| 11 | route packet integrity | `docs/validation/ROUTE_PACKET_INTEGRITY_MANIFEST_V45.md` |
+| 12 | cross-route readiness | `docs/validation/CROSS_ROUTE_READINESS_LINTER_V45.md` |
+| 13 | state machine | `docs/validation/VALIDATION_STATE_MACHINE_V45.md` |
+| 14 | transition consistency | `docs/validation/STATE_MACHINE_TRANSITION_VALIDATOR_V45.md` |
+| 15 | received package gates | `docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md` |
+| 16 | frozen-harness readiness | `docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md` |
+| 17 | author-run fallback | `docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md` |
+| 18 | secondary route freeze | `docs/validation/SECONDARY_ROUTE_NO_DOF_CHECKLIST_V45.md` |
+| 19 | result reporting | `docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md` |
+| 20 | interpretation | `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md` |
+| 21 | integrity refresh | `docs/validation/PRECOMMIT_READINESS_CHECKLIST_V45.md` |
+| 22 | freshness check | `docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md` |
 
 ## Current Headline
 
