@@ -52,8 +52,8 @@ Outputs per plan:
 
 | Example | Steps | Required gates |
 |---|---:|---|
-| Gafson primary plan | 6 | data-use terms, checksum manifest, intake preflight, subject-map sanity, preregistration/addendum |
-| GSE228330 pharmacodynamic plan | 7 | data-use terms, checksum manifest, response-column audit, intake preflight, subject-map sanity, preregistration/addendum |
+| Gafson primary plan | 7 | data-use terms, checksum manifest, intake preflight, module-coverage precheck, subject-map sanity, preregistration/addendum |
+| GSE228330 pharmacodynamic plan | 8 | data-use terms, checksum manifest, response-column audit, intake preflight, module-coverage precheck, subject-map sanity, preregistration/addendum |
 
 ## Gate Order
 
@@ -63,9 +63,10 @@ The generated plans enforce this order:
 2. checksum-manifest verification;
 3. response-column audit when pharmacodynamic-only;
 4. full intake preflight;
-5. subject-map sanity when paired deltas are required;
-6. preregistration/addendum confirmation;
-7. matching frozen harness handoff.
+5. module-coverage precheck when an expression matrix is supplied;
+6. subject-map sanity when paired deltas are required;
+7. preregistration/addendum confirmation;
+8. matching frozen harness handoff.
 
 ## Guardrail
 

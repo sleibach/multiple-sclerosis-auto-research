@@ -71,11 +71,11 @@ The standing command-runner can regenerate the base plan:
   --outdir analysis/v45_validation_command_runner/gafson_primary_plan
 ```
 
-Current generated base plan has six steps: data-use terms, checksum manifest,
-intake preflight, subject-map sanity, preregistration confirmation, and frozen
-harness handoff. This runbook adds two explicit operator gates around that base
-plan: outcome-label dictionary freeze and module-coverage precheck. Item 62 in
-the V45 queue will synchronize those additions into the command-runner output.
+Current generated base plan has seven steps: data-use terms, checksum manifest,
+intake preflight, module-coverage precheck, subject-map sanity, preregistration
+confirmation, and frozen harness handoff. This runbook adds one explicit
+operator gate around that base plan: outcome-label dictionary freeze before
+scoring.
 
 ## Output Capture
 

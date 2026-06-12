@@ -9,9 +9,10 @@ Root: `data/quarantine/gse228330_ocrelizumab`
 | 2 | `checksum_manifest` | True | manifest_audit_summary.json overall_status=PASS |
 | 3 | `response_column_audit` | True | no response-like columns for pharmacodynamic-only mode |
 | 4 | `intake_preflight` | True | preflight_summary.json overall_status=PASS |
-| 5 | `subject_map_sanity` | True | subject_map_summary.json overall_status=PASS |
-| 6 | `preregistration_or_addendum` | True | committed preregistration/addendum exists; no rule or threshold edits |
-| 7 | `frozen_harness_handoff` | False | execute only the matching frozen harness documented in VALIDATION_HARNESS_README_V45.md |
+| 5 | `module_coverage_precheck` | True | module_coverage_precheck_summary.json overall_status=PASS |
+| 6 | `subject_map_sanity` | True | subject_map_summary.json overall_status=PASS |
+| 7 | `preregistration_or_addendum` | True | committed preregistration/addendum exists; no rule or threshold edits |
+| 8 | `frozen_harness_handoff` | False | execute only the matching frozen harness documented in VALIDATION_HARNESS_README_V45.md |
 
 ## Commands
 
@@ -39,19 +40,25 @@ Fill docs/validation/input_schemas/V45_data_use_terms_capture_template.tsv and s
 .venv/bin/python scripts/v45_validation_intake_preflight.py check --root data/quarantine/gse228330_ocrelizumab --mode pharmacodynamic --metadata data/quarantine/gse228330_ocrelizumab/metadata/sample_metadata.tsv --expression data/quarantine/gse228330_ocrelizumab/processed/expression.tsv --outdir analysis/validation_command_runs/intake_preflight/gse228330_ocrelizumab --write-checksums
 ```
 
-### Step 5: subject_map_sanity
+### Step 5: module_coverage_precheck
+
+```bash
+.venv/bin/python scripts/v45_module_coverage_precheck.py check --expression data/quarantine/gse228330_ocrelizumab/processed/expression.tsv --outdir analysis/validation_command_runs/module_coverage/gse228330_ocrelizumab --fail-on-error
+```
+
+### Step 6: subject_map_sanity
 
 ```bash
 .venv/bin/python scripts/v45_subject_map_sanity_check.py check --metadata data/quarantine/gse228330_ocrelizumab/metadata/sample_metadata.tsv --outdir analysis/validation_command_runs/subject_map_sanity/gse228330_ocrelizumab --min-paired-subjects 2 --fail-on-error
 ```
 
-### Step 6: preregistration_or_addendum
+### Step 7: preregistration_or_addendum
 
 ```bash
 Confirm the applicable frozen preregistration/addendum is already committed and matches this cohort role before scoring outcomes.
 ```
 
-### Step 7: frozen_harness_handoff
+### Step 8: frozen_harness_handoff
 
 ```bash
 Run pharmacodynamic-only context harness; no response-validation claim.

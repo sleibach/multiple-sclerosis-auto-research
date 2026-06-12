@@ -126,6 +126,24 @@ def build_plan(cohort_id: str, mode: str, root: Path, analysis_root: Path) -> pd
         }
     )
     step += 1
+    if expression is not None:
+        rows.append(
+            {
+                "step": step,
+                "gate": "module_coverage_precheck",
+                "required_before_next": True,
+                "command": cmd(
+                    f"""
+                    .venv/bin/python scripts/v45_module_coverage_precheck.py check
+                    --expression {expression}
+                    --outdir {analysis_root}/module_coverage/{cohort_id}
+                    --fail-on-error
+                    """
+                ),
+                "expected_pass_condition": "module_coverage_precheck_summary.json overall_status=PASS",
+            }
+        )
+        step += 1
     if cfg["needs_subject_map"]:
         rows.append(
             {

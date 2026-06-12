@@ -1,11 +1,12 @@
 {
   "cohort_id": "gafson_dmf_2018",
   "mode": "primary",
-  "n_steps": 6,
+  "n_steps": 7,
   "required_gates": [
     "data_use_terms",
     "checksum_manifest",
     "intake_preflight",
+    "module_coverage_precheck",
     "subject_map_sanity",
     "preregistration_or_addendum"
   ],
