@@ -150,7 +150,7 @@ generate more internally executable tasks before continuing.
 | 123 | Robustness | Add a synthetic metadata-contradiction stress test for validation intake, covering response label conflicts, timepoint conflicts, and batch metadata conflicts | done | Wrote `scripts/v45_metadata_contradiction_stress.py`, `docs/validation/METADATA_CONTRADICTION_STRESS_V45.md`, and outputs under `analysis/v45_metadata_contradiction_stress/`; synthetic clean metadata passes, while response-label conflict, timepoint conflict, and response-confounded batch cases fail as expected. The guard is linked from intake and first-24h docs and classified as synthetic intake verification. |
 | 124 | Power/design | Add a route-specific analyzable-pair calculator for partial Karolinska/GSE228330/Gafson returns | done | Wrote `scripts/v45_route_analyzable_pair_calculator.py`, `docs/validation/ROUTE_ANALYZABLE_PAIR_CALCULATOR_V45.md`, and outputs under `analysis/v45_route_analyzable_pair_calculator/`; synthetic route cases show Gafson-small complete as effect-size/CI likely inconclusive, Gafson partial and Karolinska small below planning floor, and GSE228330 no-label context as context-only/labels-needed. Linked from dropout, cohort-spec, and first-24h docs. |
 | 125 | Infrastructure | Add a generated-doc freshness linter that compares linked machine-readable outputs to human-facing governance counts | done | Wrote `scripts/v45_generated_doc_freshness_linter.py`, `docs/validation/GENERATED_DOC_FRESHNESS_LINTER_V45.md`, and outputs under `analysis/v45_generated_doc_freshness_linter/`; linter passes `34` doc-to-summary/config checks with `0` failures, and stale detector now tracks `18` generated artifacts including this linter. |
-| 126 | External account | Add a skeptical-review appendix explaining why synthetic/readiness outputs do not constitute biological validation | todo | Self-generated follow-up to make the external account harder to misread. |
+| 126 | External account | Add a skeptical-review appendix explaining why synthetic/readiness outputs do not constitute biological validation | done | Wrote `docs/reports/SYNTHETIC_READINESS_BOUNDARY_APPENDIX_V45.md` and linked it from `docs/reports/EXTERNAL_ACCOUNT_DRAFT_V44.md` and `docs/reports/EXTERNAL_REBUTTAL_CHECKLIST_V45.md`; external-report path resolver passes with `74` concrete references, `4` placeholders ignored, and `0` missing. |
 | 127 | Integrity | Run the next full precommit/governance wrapper after items 120-126 | todo | Recurring integrity control after the next self-generated batch. |
 
 ## Generated Follow-Ups
@@ -984,3 +984,11 @@ todo items.
   `0` stale or missing.
 - Next selected task: skeptical-review appendix explaining synthetic/readiness
   outputs are not biological validation.
+- Skeptical-review synthetic/readiness boundary appendix completed. The new
+  appendix states that synthetic and readiness outputs can prove method
+  behavior, power expectations, false-positive behavior, harness mechanics, and
+  operational auditability, but cannot prove MS biology or clinical validation.
+  It is linked from the external account draft and rebuttal checklist. External
+  report path resolution passes with `74` concrete references, `4` placeholders
+  ignored, and `0` missing; locked-artifact audit and no-raw scanner both pass.
+- Next selected task: full precommit/governance wrapper after items 120-126.

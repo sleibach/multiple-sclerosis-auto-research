@@ -44,6 +44,9 @@ Additional readiness artifacts:
   are useful but often inconclusive; `30+30` is decision-grade only for large
   clean effects; noisy/moderate immune-tone cases may require larger or cleaner
   data.
+- `docs/reports/SYNTHETIC_READINESS_BOUNDARY_APPENDIX_V45.md`: reviewer-facing
+  boundary statement separating synthetic/readiness method evidence from
+  biological validation.
 
 Correct external framing:
 
@@ -70,6 +73,7 @@ and methodological; none is a biological validation result.
 | Are array/CEL cohorts locally processable now? | `docs/validation/ARRAY_PROCESSING_READINESS_V45.md` |
 | How does dropout/missingness affect planning? | `docs/validation/DROPOUT_MISSING_TIMEPOINT_SENSITIVITY_V45.md`; `docs/validation/SECONDARY_MISSING_TIMEPOINT_STRESS_V45.md` |
 | Is the primary harness regression-tested? | `docs/validation/PRIMARY_HARNESS_REGRESSION_TESTS_V45.md` |
+| How should synthetic/readiness outputs be interpreted externally? | `docs/reports/SYNTHETIC_READINESS_BOUNDARY_APPENDIX_V45.md` |
 
 Reviewer path:
 
