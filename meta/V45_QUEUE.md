@@ -155,7 +155,7 @@ generate more internally executable tasks before continuing.
 | 128 | Integrity | Add a no-score-before-gates linter across validation docs and route packets | done | Wrote `scripts/v45_no_score_before_gates_linter.py`, `docs/validation/NO_SCORE_BEFORE_GATES_LINTER_V45.md`, and outputs under `analysis/v45_no_score_before_gates_linter/`; live operator docs/route packets pass `63/63` checks across `9` targets, synthetic bad fixture fails as expected with `6` failures, and stale detector now tracks `19` artifacts with `0` stale/missing. |
 | 129 | Validation readiness | Add a cold-start operator command sequence generator from the current action card and route state | done | Wrote `scripts/v45_cold_start_operator_sequence.py`, `docs/validation/COLD_START_OPERATOR_SEQUENCE_V45.md`, and outputs under `analysis/v45_cold_start_operator_sequence/`; generated `4` route sequences with `0` `may_score_now=yes`, linked it near the top of the operational handoff, and stale detector now tracks `20` artifacts with `0` stale/missing. |
 | 130 | Cohort dependence | Add a follow-up escalation packet generator keyed to due-board age and external-blocker state | done | Wrote `scripts/v45_followup_escalation_packet_generator.py`, `docs/validation/FOLLOWUP_ESCALATION_PACKETS_V45.md`, and live packets under `analysis/v45_followup_escalation_packets/live/`; generated `4` route packets, all `not_sent_ready`, `0` overdue/due-now, and stale detector now tracks `21` artifacts with `0` stale/missing. |
-| 131 | Infrastructure | Add an evidence-class manifest for external reports mapping each cited V45 artifact to allowed interpretation | todo | Self-generated after item 127 to prevent external-account citations from crossing synthetic/readiness/biological boundaries. |
+| 131 | Infrastructure | Add an evidence-class manifest for external reports mapping each cited V45 artifact to allowed interpretation | done | Wrote `scripts/v45_external_report_evidence_manifest.py`, `docs/reports/EXTERNAL_REPORT_EVIDENCE_MANIFEST_V45.md`, and outputs under `analysis/v45_external_report_evidence_manifest/`; scanned `3` external-facing reports with `80` references, `57` V45-indexed, `23` existing non-V45/historical, and `0` missing. |
 | 132 | Robustness | Add an end-to-end synthetic received-package state-machine dry run from arrival packet through blocked/non-scoring decision | todo | Self-generated after item 127 to test the operator route without reading real quarantined data. |
 | 133 | Validation readiness | Add an author-run aggregate report schema validator for returned collaborator-run outputs | todo | Self-generated after item 127 to validate aggregate-only return packages before any interpretation. |
 | 134 | Infrastructure | Add an OpenGWAS token-expiry sentinel for readiness docs and queue state | todo | Self-generated after item 127 because the JWT expiry is near and auth failure must not masquerade as a null. |
@@ -1038,3 +1038,11 @@ todo items.
   `0` stale/missing; locked-artifact audit, no-raw scanner, path resolution, and
   `git diff --check` pass.
 - Next selected task: evidence-class manifest for external reports.
+- External-report evidence-class manifest completed. It scans the external
+  account, rebuttal checklist, and synthetic/readiness boundary appendix and
+  maps cited artifacts to V45 evidence classes or historical/non-V45 status.
+  Current output covers `80` references: `57` V45-indexed, `23` existing
+  non-V45/historical, and `0` missing. External report path resolution passes
+  with `80` concrete references, `4` placeholders ignored, and `0` missing.
+- Next selected task: end-to-end synthetic received-package state-machine dry
+  run.

@@ -75,6 +75,7 @@ MANUAL_CLASS = {
     "analysis/v45_artifact_index": ("artifact_governance", "index only"),
     "analysis/v45_compute_storage_summary": ("artifact_governance", "storage/accounting only"),
     "analysis/v45_governance_refresh": ("artifact_governance", "refresh log only"),
+    "analysis/v45_external_report_evidence_manifest": ("artifact_governance", "external-report citation boundary only"),
     "analysis/v45_precommit_readiness": ("integrity_governance", "pre-commit readiness only"),
     "analysis/v45_readiness_status_dashboard": ("integrity_governance", "readiness dashboard only"),
     "analysis/v45_generated_checker_registry": ("integrity_governance", "generated-checker registry only"),

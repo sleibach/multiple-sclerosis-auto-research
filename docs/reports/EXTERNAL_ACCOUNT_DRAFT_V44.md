@@ -47,6 +47,8 @@ Additional readiness artifacts:
 - `docs/reports/SYNTHETIC_READINESS_BOUNDARY_APPENDIX_V45.md`: reviewer-facing
   boundary statement separating synthetic/readiness method evidence from
   biological validation.
+- `docs/reports/EXTERNAL_REPORT_EVIDENCE_MANIFEST_V45.md`: citation manifest
+  mapping external-report artifact references to evidence/allowed-use classes.
 
 Correct external framing:
 

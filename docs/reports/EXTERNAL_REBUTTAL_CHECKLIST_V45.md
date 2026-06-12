@@ -43,6 +43,7 @@ where the answer is still incomplete, and what evidence must not be overstated.
 | Pharmacodynamic-only context path | `docs/validation/PHARMACODYNAMIC_ONLY_HARNESS_V45.md`; `docs/validation/GSE228330_PHARMACODYNAMIC_RUNBOOK_V45.md` | complete as infrastructure | GSE228330 needs expression reprocessing and confirmed subject map before context harness use. |
 | V45 readiness handoff/index | `docs/validation/V45_ARTIFACT_INDEX.md`; `docs/validation/COLLABORATOR_VALIDATION_PACKAGE_README_V45.md`; `docs/validation/VALIDATION_COMMAND_RUNNER_V45.md` | complete as operational appendix | Does not create validation evidence; it makes future intake auditable. |
 | Synthetic/readiness interpretation boundary | `docs/reports/SYNTHETIC_READINESS_BOUNDARY_APPENDIX_V45.md` | complete as external appendix | Must be cited whenever V43-V45 synthetic/readiness artifacts are summarized externally. |
+| External-report citation manifest | `docs/reports/EXTERNAL_REPORT_EVIDENCE_MANIFEST_V45.md` | complete as citation-governance appendix | Use to keep cited artifacts inside their allowed evidence class. |
 
 ## Skeptical Rebuttal Table
 
