@@ -45,6 +45,10 @@ Use the bundle index to assemble the non-sensitive send list:
 
 `docs/validation/AUTHOR_RUN_PACKET_BUNDLE_INDEX_V45.md`
 
+Use the ready-to-send fallback text when data transfer is blocked:
+
+`docs/validation/outbound_requests/author_run_fallback_ready_to_send_V45.md`
+
 Acceptable returned outputs:
 
 - summary JSON/Tables from the frozen harness;

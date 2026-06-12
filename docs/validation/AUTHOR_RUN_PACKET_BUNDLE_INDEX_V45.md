@@ -17,6 +17,10 @@ Use this path when an author or data controller says individual-level data
 cannot leave their institution, but they are willing to run a frozen script and
 return non-sensitive aggregate outputs.
 
+Ready-to-send fallback request text:
+
+`docs/validation/outbound_requests/author_run_fallback_ready_to_send_V45.md`
+
 This packet is a fallback acquisition route. It does not change:
 
 - `docs/locked_rules/LOCKED_RULE_V22.md`;

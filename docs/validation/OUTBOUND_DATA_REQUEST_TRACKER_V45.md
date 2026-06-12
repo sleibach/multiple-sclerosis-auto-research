@@ -21,6 +21,7 @@ Machine-readable tracker:
 | 1 | Gafson et al. 2018 DMF PBMC RNA-seq, PMID `30283812` | Best primary V22/V42 validation target | ready to request | processed/raw expression plus sample-level NEDA-4 labels and covariates not local | `docs/validation/GAFSON_DATA_REQUEST_V36.md` |
 | 2 | Karolinska DMF ROS, `GSE130478/GSE130491/GSE130494`, PMID `31300673` | Best parallel secondary MS DMF label path | ready to request | beneficial-response labels plus GSM-to-patient/timepoint map absent from public GEO | `docs/validation/KAROLINSKA_DMF_LABEL_REQUEST_V45.md` |
 | 3 | `GSE228330` ocrelizumab PBMC, PMID `37168665` | Open pharmacodynamic context; possible label request | optional request | public data lack responder/NEDA/relapse/EDSS-change labels | this document |
+| 4 | any cohort owner unable to transfer individual-level data | Author-run frozen harness fallback | ready after transfer blocker | cohort owner must run frozen harness locally and return aggregate outputs | `docs/validation/outbound_requests/author_run_fallback_ready_to_send_V45.md` |
 
 ## Gafson Request
 
@@ -146,3 +147,13 @@ For every outbound request:
 4. Checksum before opening.
 5. Write any cohort-specific preregistration addendum before scoring outcomes.
 
+## Author-Run Fallback
+
+If a cohort owner cannot transfer individual-level data, offer:
+
+`docs/validation/outbound_requests/author_run_fallback_ready_to_send_V45.md`
+
+The returned package is acceptable only if it includes the aggregate outputs
+specified by `docs/validation/AUTHOR_RUN_MINIMUM_OUTPUT_SPEC_V45.md` and passes
+handoff-completeness/redaction checks. A prose-only result is not validation
+evidence.

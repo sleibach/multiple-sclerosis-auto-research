@@ -47,6 +47,7 @@ V42 preregistration, secondary preregistrations, or any threshold.
 | Gafson DMF PBMC / NEDA-4 | `docs/validation/outbound_requests/gafson_dmf_ready_to_send_V45.md` | primary V22/V42 validation target |
 | Karolinska DMF ROS | `docs/validation/outbound_requests/karolinska_dmf_ready_to_send_V45.md` | parallel MS DMF secondary label path |
 | GSE228330 ocrelizumab PBMC | `docs/validation/outbound_requests/gse228330_ocrelizumab_ready_to_send_V45.md` | optional outcome-label request; otherwise context-only |
+| Author-run fallback | `docs/validation/outbound_requests/author_run_fallback_ready_to_send_V45.md` | use if individual-level data cannot be transferred |
 
 After a request is sent, save the exact sent text as:
 
