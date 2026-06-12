@@ -1,0 +1,25 @@
+lead	truth	scenario	dropout_fraction	input_path	run_status	n	auc	guarded_clean_pass	interpretation	error
+postpartum	null	missing_required_sample_field		analysis/v45_secondary_missing_timepoint_stress/synthetic/postpartum_null_missing_postpartum_sample.tsv	EXPECTED_FAIL				required sample field missing should hard-fail before metrics	Required column has missing values: postpartum_sample
+postpartum	null	row_dropout	0.0	analysis/v45_secondary_missing_timepoint_stress/synthetic/postpartum_null_dropout_0p0.tsv	PASS_RAN	60	0.5077777777777778	False	FAIL	
+postpartum	null	row_dropout	0.1	analysis/v45_secondary_missing_timepoint_stress/synthetic/postpartum_null_dropout_0p1.tsv	PASS_RAN	56	0.5229591836734694	False	FAIL	
+postpartum	null	row_dropout	0.25	analysis/v45_secondary_missing_timepoint_stress/synthetic/postpartum_null_dropout_0p25.tsv	PASS_RAN	48	0.458041958041958	False	FAIL	
+postpartum	null	row_dropout	0.4	analysis/v45_secondary_missing_timepoint_stress/synthetic/postpartum_null_dropout_0p4.tsv	PASS_RAN	35	0.4117647058823529	False	FAIL	
+postpartum	null	row_dropout	0.6	analysis/v45_secondary_missing_timepoint_stress/synthetic/postpartum_null_dropout_0p6.tsv	PASS_RAN	25	0.5714285714285714	False	INCONCLUSIVE	
+postpartum	planted	missing_required_sample_field		analysis/v45_secondary_missing_timepoint_stress/synthetic/postpartum_planted_missing_postpartum_sample.tsv	EXPECTED_FAIL				required sample field missing should hard-fail before metrics	Required column has missing values: postpartum_sample
+postpartum	planted	row_dropout	0.0	analysis/v45_secondary_missing_timepoint_stress/synthetic/postpartum_planted_dropout_0p0.tsv	PASS_RAN	60	0.9933333333333333	True	CLEAN_PASS	
+postpartum	planted	row_dropout	0.1	analysis/v45_secondary_missing_timepoint_stress/synthetic/postpartum_planted_dropout_0p1.tsv	PASS_RAN	58	0.9928656361474435	True	CLEAN_PASS	
+postpartum	planted	row_dropout	0.25	analysis/v45_secondary_missing_timepoint_stress/synthetic/postpartum_planted_dropout_0p25.tsv	PASS_RAN	40	0.995	False	RAW_PASS_BATCH_FLAGGED_NON_SPECIFIC	
+postpartum	planted	row_dropout	0.4	analysis/v45_secondary_missing_timepoint_stress/synthetic/postpartum_planted_dropout_0p4.tsv	PASS_RAN	37	0.9883040935672515	True	CLEAN_PASS	
+postpartum	planted	row_dropout	0.6	analysis/v45_secondary_missing_timepoint_stress/synthetic/postpartum_planted_dropout_0p6.tsv	PASS_RAN	28	0.9897435897435898	False	SMALL_N_DIRECTIONAL_PASS_PROVISIONAL	
+tb	null	missing_required_sample_field		analysis/v45_secondary_missing_timepoint_stress/synthetic/tb_null_missing_treated_sample.tsv	EXPECTED_FAIL				required sample field missing should hard-fail before metrics	Required column has missing values: treated_sample
+tb	null	row_dropout	0.0	analysis/v45_secondary_missing_timepoint_stress/synthetic/tb_null_dropout_0p0.tsv	PASS_RAN	60	0.41555555555555557	False	FAIL	
+tb	null	row_dropout	0.1	analysis/v45_secondary_missing_timepoint_stress/synthetic/tb_null_dropout_0p1.tsv	PASS_RAN	52	0.46597633136094674	False	FAIL	
+tb	null	row_dropout	0.25	analysis/v45_secondary_missing_timepoint_stress/synthetic/tb_null_dropout_0p25.tsv	PASS_RAN	43	0.45454545454545453	False	FAIL	
+tb	null	row_dropout	0.4	analysis/v45_secondary_missing_timepoint_stress/synthetic/tb_null_dropout_0p4.tsv	PASS_RAN	42	0.35600907029478457	False	FAIL	
+tb	null	row_dropout	0.6	analysis/v45_secondary_missing_timepoint_stress/synthetic/tb_null_dropout_0p6.tsv	PASS_RAN	22	0.5416666666666666	False	INCONCLUSIVE	
+tb	planted	missing_required_sample_field		analysis/v45_secondary_missing_timepoint_stress/synthetic/tb_planted_missing_treated_sample.tsv	EXPECTED_FAIL				required sample field missing should hard-fail before metrics	Required column has missing values: treated_sample
+tb	planted	row_dropout	0.0	analysis/v45_secondary_missing_timepoint_stress/synthetic/tb_planted_dropout_0p0.tsv	PASS_RAN	60	0.9511111111111111	True	CLEAN_PASS	
+tb	planted	row_dropout	0.1	analysis/v45_secondary_missing_timepoint_stress/synthetic/tb_planted_dropout_0p1.tsv	PASS_RAN	54	0.9684065934065934	True	CLEAN_PASS	
+tb	planted	row_dropout	0.25	analysis/v45_secondary_missing_timepoint_stress/synthetic/tb_planted_dropout_0p25.tsv	PASS_RAN	42	0.9610983981693364	True	CLEAN_PASS	
+tb	planted	row_dropout	0.4	analysis/v45_secondary_missing_timepoint_stress/synthetic/tb_planted_dropout_0p4.tsv	PASS_RAN	43	0.9630434782608696	True	CLEAN_PASS	
+tb	planted	row_dropout	0.6	analysis/v45_secondary_missing_timepoint_stress/synthetic/tb_planted_dropout_0p6.tsv	PASS_RAN	24	0.8740740740740741	False	SMALL_N_DIRECTIONAL_PASS_PROVISIONAL	
