@@ -1,0 +1,65 @@
+section	field	required_level	description
+primary_subjects	subject_id	required	Stable de-identified subject identifier linking samples, outcomes, and covariates.
+primary_subjects	disease	required	MS or comparator disease label.
+primary_subjects	disease_subtype	strongly_required	RRMS, SPMS, PPMS, CIS, or other source-defined subtype.
+primary_subjects	age	strongly_required	Age at baseline sample or treatment start.
+primary_subjects	sex	strongly_required	Sex recorded by source study.
+primary_subjects	disease_duration	strongly_required	Disease duration at baseline.
+primary_subjects	baseline_edss	strongly_required	Baseline EDSS or equivalent disability measure.
+primary_samples	sample_id	required	Expression sample identifier matching expression matrix columns.
+primary_samples	subject_id	required	Subject identifier for pairing.
+primary_samples	timepoint	required	Baseline, week/date label, or source visit label.
+primary_samples	days_since_treatment	required	Exact days since therapy start; baseline should be <=0 or explicitly labeled baseline.
+primary_samples	treatment	required	Therapy name.
+primary_samples	treatment_class	required	Therapy mechanism class.
+primary_samples	qc_pass	strongly_required	Source-provided sample QC pass/fail.
+primary_samples	collection_date	strongly_required	Collection date or relative collection day.
+primary_samples	processing_date	strongly_required	Processing/extraction/library date if available.
+expression	expression_matrix	required	Gene-by-sample raw counts or normalized expression matrix.
+expression	gene_identifier	required	Gene symbol, Ensembl, transcript, or probe ID.
+expression	feature_annotation	required	Mapping to official gene symbols where rows are not already symbols.
+expression	normalization_status	required	Raw counts, log-normalized, array normalized, or other source description.
+expression	raw_counts	strongly_required	Raw counts if RNA-seq and shareable.
+expression	processed_expression	strongly_required	Processed normalized expression if available.
+outcomes	subject_id	required	Subject identifier matching sample metadata.
+outcomes	primary_binary_outcome	required	NEDA-4 or source-defined responder/nonresponder label.
+outcomes	outcome_definition	required	Exact definition and cutoffs for the primary binary outcome.
+outcomes	outcome_window	required	Assessment date or months after treatment start.
+outcomes	relapse_component	strongly_required	Relapse/event component if NEDA-style composite is used.
+outcomes	mri_component	strongly_required	MRI activity component if NEDA-style composite is used.
+outcomes	disability_component	strongly_required	Disability progression component if NEDA-style composite is used.
+outcomes	brain_volume_component	strongly_required	Brain-volume component if NEDA-4 is used.
+outcomes	censoring_or_missing_reason	strongly_required	Reason outcome is missing/indeterminate/dropout if applicable.
+technical	batch	required	Technical batch.
+technical	processing_batch	strongly_required	Sample processing or extraction batch.
+technical	library_batch	strongly_required	Library preparation/capture batch if applicable.
+technical	sequencing_run	strongly_required	Sequencing run or array scan batch.
+technical	lane_flowcell	strongly_required	Lane and flowcell if RNA-seq.
+technical	rin_rqn	strongly_required	RNA quality metric.
+technical	sequencing_depth	strongly_required	Library size/read depth or array equivalent.
+technical	percent_mapped	strongly_required	Mapping rate or platform QC equivalent.
+technical	site	strongly_required_if_multicenter	Collection/processing site.
+clinical_confounders	steroid_exposure	required	Steroid/glucocorticoid exposure near sample draw.
+clinical_confounders	steroid_dose_date_indication	strongly_required	Dose, timing, and reason for steroid exposure.
+clinical_confounders	relapse_near_draw	strongly_required	Relapse/event near sample collection.
+clinical_confounders	infection_near_draw	strongly_required	Infection near sample collection.
+clinical_confounders	prior_dmt	strongly_required	Prior disease-modifying therapy and stop date.
+clinical_confounders	concomitant_medications	strongly_required	Relevant concomitant immune medications.
+clinical_confounders	lymphocyte_count	strongly_required	Absolute lymphocyte count near sample.
+clinical_confounders	cell_fractions	strongly_required	Major immune-cell counts/fractions or deconvolution estimates.
+postpartum_addon	late_pregnancy_sample	required_for_postpartum	Late-pregnancy sample ID.
+postpartum_addon	early_postpartum_sample	required_for_postpartum	Early postpartum sample ID, target 4-8 weeks.
+postpartum_addon	postpartum_days	required_for_postpartum	Exact days postpartum.
+postpartum_addon	postpartum_relapse_3m	required_for_postpartum	Relapse status through 3 months postpartum.
+postpartum_addon	dmt_restart	required_for_postpartum	DMT stop/restart timing.
+postpartum_addon	lactation	strongly_required_for_postpartum	Breastfeeding/lactation status.
+postpartum_addon	hla_cd64_coverage	required_for_postpartum	HLA-II and CD64/FCGR1 feature coverage.
+tb_addon	baseline_sample	required_for_tb	Baseline sample ID for compartment-resolved treatment cohort.
+tb_addon	early_treated_sample	required_for_tb	Early on-treatment sample ID.
+tb_addon	compartment_method	required_for_tb	Single-cell, CITE-seq, sorted-cell, or validated deconvolution method.
+tb_addon	b_plasma_score_or_expression	required_for_tb	B/plasma-like score or expression sufficient to compute it.
+tb_addon	t_like_score_or_expression	required_for_tb	T-like score or expression sufficient to compute it.
+tb_addon	b_t_myeloid_fractions	required_for_tb	B, T, and myeloid fractions/counts.
+data_use	data_dictionary	required	Definitions of all labels, codes, units, and missing values.
+data_use	data_use_terms	required	Data-use conditions.
+data_use	aggregate_publication_permission	strongly_required	Permission to report aggregate metrics and non-identifying derived module scores.
