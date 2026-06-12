@@ -88,6 +88,9 @@ The collaborator should run, in order:
 
 5. Return only the aggregate output package specified in
    `docs/validation/AUTHOR_RUN_MINIMUM_OUTPUT_SPEC_V45.md`.
+6. Internally, check the returned package with
+   `docs/validation/AUTHOR_RUN_OUTPUT_COMPLETENESS_CHECK_V45.md` before any
+   result-report wording.
 
 ## Required Return Boundary
 

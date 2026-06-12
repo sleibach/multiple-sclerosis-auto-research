@@ -66,6 +66,8 @@ MANUAL_CLASS = {
     "analysis/v45_gate_output_bundle_manifest": ("validation_infrastructure", "handoff manifest only"),
     "analysis/v45_handoff_completeness": ("validation_infrastructure", "handoff completeness only"),
     "analysis/v45_handoff_completeness_scored_missing": ("validation_infrastructure", "expected missing-output guard only"),
+    "analysis/v45_author_run_output_check": ("synthetic_intake_verification", "method behavior only"),
+    "analysis/v45_author_run_output_check_incomplete": ("synthetic_intake_verification", "expected missing-output guard only"),
     "analysis/v45_power_decision_table": ("power_design_planning", "study design planning only"),
     "analysis/v45_dropout_sensitivity_table": ("power_design_planning", "study design planning only"),
     "analysis/v45_checksum_manifest_validator": ("synthetic_intake_verification", "method behavior only"),

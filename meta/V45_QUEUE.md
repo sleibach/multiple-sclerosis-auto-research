@@ -115,8 +115,8 @@ generate more internally executable tasks before continuing.
 | 88 | Cohort dependence | Add an author-run fallback request text template for cohorts that cannot transfer individual-level data | done | Wrote `docs/validation/outbound_requests/author_run_fallback_ready_to_send_V45.md`, linked it from author-run bundle/escalation/collaborator docs, and added it as row 4 in `analysis/v45_outbound_data_requests/request_tracker.tsv`; tracker has `4` data rows and all prepared-request paths resolve. |
 | 89 | External account | Add a V45 validation-readiness changelog/release note for reviewer navigation | done | Wrote `docs/validation/V45_READINESS_CHANGELOG.md`; it groups V45 readiness outputs by cohort dependence, intake/gates, regression, robustness, power, convergence, handoff, and governance, while explicitly stating no validation or locked-rule change occurred. |
 | 90 | Infrastructure | Re-run governance refresh after the next template/checker checkpoint | done | Refreshed artifact, synthetic-retention, and storage summaries after items 85-89. Current artifact index covers `665` V45 paths; synthetic retention covers `55` V43-V45 dirs with no unclassified dirs; V45 analysis storage is `49` dirs, `513` files, `84.963 MiB`. |
-| 91 | Validation readiness | Add an author-run returned-output completeness checker against the minimum output specification | in-progress | Generated after item 90; should verify aggregate returned files without requiring raw data or private labels. |
-| 92 | Validation readiness | Add an outcome-label dictionary validator for orientation/window/missingness completeness before scoring | todo | Generated after item 90; should validate `V45_outcome_label_dictionary_template.tsv`-compatible files without reading expression. |
+| 91 | Validation readiness | Add an author-run returned-output completeness checker against the minimum output specification | done | Wrote `scripts/v45_author_run_output_check.py`, `docs/validation/AUTHOR_RUN_OUTPUT_COMPLETENESS_CHECK_V45.md`, and synthetic outputs under `analysis/v45_author_run_output_check/`; complete synthetic aggregate package passes with `0` hard failures, deliberate incomplete synthetic package fails with `3` hard failures. |
+| 92 | Validation readiness | Add an outcome-label dictionary validator for orientation/window/missingness completeness before scoring | in-progress | Selected next after item 91; should validate `V45_outcome_label_dictionary_template.tsv`-compatible files without reading expression. |
 | 93 | Validation reporting | Add a metadata-missingness rubric scoring helper that maps available metadata fields to green/yellow/orange/red status | todo | Generated after item 90; should operationalize the item-87 rubric without changing thresholds. |
 | 94 | Operations | Add a request-sent log updater that proposes changes to the outbound request tracker after human send action | todo | Generated after item 90; should use `V45_request_sent_log_template.tsv` and not infer sends automatically. |
 | 95 | Validation readiness | Add a collaborator-return redaction precheck for aggregate author-run packages | todo | Generated after item 90; should scan returned aggregate filenames/columns for forbidden raw/private markers before handoff. |
@@ -703,3 +703,9 @@ todo items.
   return redaction precheck, collaborator path resolver, and next full
   precommit wrapper tasks.
 - Next selected task: author-run returned-output completeness checker.
+- Author-run returned-output completeness checker completed. The checker verifies
+  returned aggregate files against `V45_author_run_minimum_output_spec.tsv`
+  without raw data or private labels. A complete synthetic aggregate package
+  passes with `9` required files present and `0` hard failures; a deliberate
+  incomplete synthetic package fails with `3` hard missing required outputs.
+- Next selected task: outcome-label dictionary validator.

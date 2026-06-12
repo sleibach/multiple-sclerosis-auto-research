@@ -11,6 +11,10 @@ Machine-readable specification:
 
 `docs/validation/input_schemas/V45_author_run_minimum_output_spec.tsv`
 
+Executable completeness checker:
+
+`docs/validation/AUTHOR_RUN_OUTPUT_COMPLETENESS_CHECK_V45.md`
+
 ## Minimum Required Files
 
 Returned outputs must be sufficient to:
