@@ -1,0 +1,14 @@
+gate	required_for_primary	required_for_pharmacodynamic	required_for_postpartum_tb	status	evidence_path	decision_effect	notes
+data_use_terms	yes	yes	yes	TODO	<path>	fail_blocks_harness	
+checksum_manifest	yes	yes	yes	TODO	<path>	fail_blocks_harness	
+outcome_dictionary	yes	no	mode_specific_if_outcome_scored	TODO	<path>	fail_blocks_response_validation	
+intake_preflight	yes	yes	yes	TODO	<path>	fail_blocks_harness	
+module_coverage_precheck	yes	yes_if_expression_matrix	no	TODO	<path>	fail_blocks_expression_harness	
+subject_map_sanity	yes	yes_if_paired_delta	no	TODO	<path>	fail_blocks_paired_delta_harness	
+response_column_audit	no	yes	no	TODO	<path>	fail_blocks_context_only_run	
+preregistration_or_addendum	yes	yes	yes	TODO	<path>	fail_blocks_harness	
+locked_artifact_hash_audit	yes	yes	yes	TODO	<path>	fail_blocks_harness	
+regression_aggregator	yes	yes	yes	TODO	<path>	fail_blocks_harness	
+no_raw_git_scanner	yes_before_commit	yes_before_commit	yes_before_commit	TODO	<path>	fail_blocks_commit_or_handoff	
+redaction_check	yes_before_handoff	yes_before_handoff	yes_before_handoff	TODO	<path>	fail_blocks_handoff	
+final_decision	yes	yes	yes	TODO	analysis/validation_runs/<cohort>/READY_TO_RUN_DECISION.md	harness_ready_yes_only_if_all_required_pass	
