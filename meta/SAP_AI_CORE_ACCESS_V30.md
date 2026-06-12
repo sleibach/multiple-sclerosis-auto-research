@@ -259,6 +259,38 @@ Smoke tests from the committed client:
 - `mistralai--mistral-medium-instruct` remained non-blocking: corrected
   `/chat/completions` request timed out again.
 
+## V44 RPT And Tooling Status
+
+V44 confirmed the true current status of the Python client.
+
+Working lineages/tools:
+
+| Tool/model | Deployment ID | V44 status |
+|---|---|---|
+| `anthropic--claude-4.7-opus` via Orchestration | model `def854013c7ac379`; orchestration `d65236404bbfb6b2` | smoke-passed |
+| `gemini-2.5-pro` | `d6dc532885507ac7` | smoke-passed with `--max-output-tokens 256` |
+| `sap-rpt-1-large` | `d61aae51af327bbc` | `rpt-smoke` passed |
+
+RPT is implemented in `scripts/sap_ai_core_client.py` through:
+
+```bash
+.venv/bin/python scripts/sap_ai_core_client.py rpt-smoke --timeout 120
+.venv/bin/python scripts/sap_ai_core_client.py rpt-predict --payload-file PAYLOAD.json --output OUT.json
+```
+
+Observed V44 RPT smoke behavior:
+
+- endpoint: `$DEPLOYMENT_URL/predict`;
+- toy prediction returned status code `0`, message `ok`;
+- one query row predicted `high` with confidence `0.96`.
+
+Operational caveat:
+
+- Gemini can intentionally fail with `MAX_TOKENS` if a tiny output cap is used.
+  This is correct client behavior after V34: truncated responses are rejected
+  rather than silently accepted.
+
+
 V31 access verdict:
 
 - two non-OpenAI lineages are now working: Claude via Orchestration and Gemini

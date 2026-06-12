@@ -18,8 +18,8 @@ Target UTC (+360 min): 2026-06-12T21:20:06Z
 | 3 | WS3 prereg other leads | Pre-register postpartum APC-arm and T/B compartment monitoring leads | done | Wrote frozen V44 preregistrations and seeded synthetic null/planted mechanics checks. Both synthetic nulls failed and planted signals passed. |
 | 4 | WS4 self-audit weak leg | Resolve why V41 joint z is borderline while recurrence is strong | done | Wrote `docs/history/SELF_AUDIT_WEAK_LEG_V44.md`. Joint gate is borderline because the family-wise max-z null is high (`z/null p95=0.988`, FWER `0.0684`); recurrence is more defensible (`78` positive source units vs null p95 `12`, FWER `0.0001`). |
 | 5 | WS5 internal validation | Deepen synthetic-null/convergence evidence for APC/HLA-II monitoring lead | done | Wrote `docs/validation/APC_HLA_INTERNAL_CONVERGENCE_V44.md`; ran 20,000-replicate global, modality-aware, and source-local recurrence nulls. APC/HLA/IFN recurrence `78` remains above strictest null p99 `41`; no single modality/source file removal eliminates it. |
-| 6 | WS6 infrastructure | Confirm/document SAP RPT true status and consolidate reusable machinery | in-progress | Document true SAP RPT client status and consolidate validation/simulation utilities where feasible. |
-| 7 | WS7 external writeup | Draft skeptical external account of positive/negative results | todo | Publication-grade argument and limitations. |
+| 6 | WS6 infrastructure | Confirm/document SAP RPT true status and consolidate reusable machinery | done | Wrote `meta/INFRASTRUCTURE_STATUS_V44.md` and updated `meta/SAP_AI_CORE_ACCESS_V30.md`. Claude, Gemini, and SAP RPT smoke-pass; Gemini requires non-tiny output-token caps; RPT is genuinely implemented via `/predict`. |
+| 7 | WS7 external writeup | Draft skeptical external account of positive/negative results | in-progress | Draft publication-grade skeptical account and limitations. |
 
 ## Constraints
 
@@ -65,3 +65,9 @@ Target UTC (+360 min): 2026-06-12T21:20:06Z
   leaves recurrence `55`, so the convergence is not a single-modality or
   single-report artifact.
 - Next started item: Workstream 6 infrastructure/RPT status.
+- Workstream 6 completed at 2026-06-12T15:48:44Z. Confirmed SAP AI Core client
+  health: Claude 4.7 Opus via Orchestration smoke-passed, Gemini 2.5 Pro
+  smoke-passed with `--max-output-tokens 256`, and SAP RPT `sap-rpt-1-large`
+  `rpt-smoke` passed through the Python client. Documented reusable validation
+  and simulation components.
+- Next started item: Workstream 7 skeptical external account.
