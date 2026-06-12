@@ -35,11 +35,11 @@ markers. Current V43-V45 analysis output footprint is approximately `154 MiB`.
 | `operations` | `4` | `5` | Acquisition operations only |
 | `public_metadata_scout` | `3` | `20` | Cohort availability evidence only |
 | `artifact_governance` | `4` | `10` | Index/storage/refresh accounting only |
-| `integrity_governance` | `3` | `13` | Repository/locked-artifact/pre-commit integrity only |
+| `integrity_governance` | `4` | `15` | Repository/locked-artifact/pre-commit/command-plan integrity only |
 | `power_design_planning` | `2` | `6` | Study-design planning only |
 | `public_metadata_preparation` | `1` | `5` | Acquisition readiness only |
 | `proposal_lens_grounding` | `1` | `6` | Proposal prioritization only |
-| `validation_infrastructure` | `2` | `10` | Command/toolchain readiness only |
+| `validation_infrastructure` | `3` | `14` | Command/handoff/toolchain readiness only |
 
 ## Interpretation Rules
 

@@ -6,35 +6,35 @@
   "purpose": "V45 pre-commit readiness guard; no biological claim",
   "steps": [
     {
-      "elapsed_seconds": 0.433,
+      "elapsed_seconds": 0.503,
       "returncode": 0,
       "status": "PASS",
       "step": "no_raw_git_scanner"
     },
     {
-      "elapsed_seconds": 0.046,
+      "elapsed_seconds": 0.068,
       "returncode": 0,
       "status": "PASS",
       "step": "locked_artifact_hash_audit"
     },
     {
-      "elapsed_seconds": 70.314,
+      "elapsed_seconds": 68.63,
       "returncode": 0,
       "status": "PASS",
       "step": "regression_aggregator"
     },
     {
-      "elapsed_seconds": 0.347,
+      "elapsed_seconds": 0.305,
       "returncode": 0,
       "status": "PASS",
       "step": "command_plan_consistency"
     },
     {
-      "elapsed_seconds": 15.435,
+      "elapsed_seconds": 15.114,
       "returncode": 0,
       "status": "PASS",
       "step": "governance_refresh"
     }
   ],
-  "total_elapsed_seconds": 86.575
+  "total_elapsed_seconds": 84.62
 }

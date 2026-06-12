@@ -35,7 +35,7 @@ Outputs:
 
 ## Current Summary
 
-The current run indexes `638` paths across `8` fronts and `9` evidence classes.
+The current run indexes `646` paths across `8` fronts and `9` evidence classes.
 This refresh supersedes the earlier item-38 snapshot, which covered roughly
 `338-339` paths before the later V45 regression, readiness, acquisition, and
 module-coverage artifacts were added.
@@ -44,8 +44,8 @@ Front counts:
 
 | Front | Paths |
 |---|---:|
-| robustness | 193 |
-| infrastructure | 239 |
+| robustness | 195 |
+| infrastructure | 245 |
 | power/design | 113 |
 | cohort dependence | 51 |
 | data-free validation | 31 |
@@ -58,8 +58,8 @@ Evidence-class counts:
 | Evidence class | Paths | Allowed interpretation |
 |---|---:|---|
 | synthetic method behavior | 349 | method behavior/planning only; never biological evidence |
-| documentation/governance | 95 | governance/readiness documentation |
-| validation infrastructure | 68 | mechanical guardrail/readiness; no biological claim |
+| documentation/governance | 98 | governance/readiness documentation |
+| validation infrastructure | 73 | mechanical guardrail/readiness; no biological claim |
 | public/external acquisition operations | 48 | cohort availability/request readiness; no validation claim |
 | software | 41 | executable infrastructure; no biological claim by itself |
 | internal convergence null | 27 | data-free internal support; not clinical validation |
@@ -69,7 +69,7 @@ Evidence-class counts:
 
 ## Drift Since Earlier Snapshot
 
-The path count increased by about `299-300` paths because V45 continued after
+The path count increased by about `307-308` paths because V45 continued after
 the original index was committed. The dominant additions were:
 
 - synthetic and regression outputs from primary, secondary, preflight,

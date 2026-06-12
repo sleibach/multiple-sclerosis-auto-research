@@ -14,7 +14,7 @@ The refreshed artifact index covers:
 - `32` directories with synthetic path/content markers;
 - approximately `154 MiB` total across `analysis/v43_*`, `analysis/v44_*`, and
   `analysis/v45_*` directories;
-- no `unclassified_v43_v45` directories after the item-58 refresh.
+- no `unclassified_v43_v45` directories after the latest item-83 refresh.
 
 Machine-readable source:
 

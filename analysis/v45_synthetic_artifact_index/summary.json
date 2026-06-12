@@ -19,6 +19,12 @@
       "n_files": 6
     },
     {
+      "allowed_interpretation": "command-plan integrity only",
+      "class": "integrity_governance",
+      "n_dirs": 1,
+      "n_files": 2
+    },
+    {
       "allowed_interpretation": "locked-artifact integrity only",
       "class": "integrity_governance",
       "n_dirs": 1,
@@ -97,16 +103,16 @@
       "n_files": 120
     },
     {
-      "allowed_interpretation": "review before use",
-      "class": "unclassified_v43_v45",
-      "n_dirs": 2,
-      "n_files": 6
-    },
-    {
       "allowed_interpretation": "command handoff only",
       "class": "validation_infrastructure",
       "n_dirs": 1,
       "n_files": 6
+    },
+    {
+      "allowed_interpretation": "handoff manifest only",
+      "class": "validation_infrastructure",
+      "n_dirs": 1,
+      "n_files": 4
     },
     {
       "allowed_interpretation": "toolchain readiness only",

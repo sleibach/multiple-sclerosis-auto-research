@@ -25,12 +25,12 @@ Current wrapper status: `PASS`.
 
 | Step | Status | Elapsed seconds |
 |---|---|---:|
-| no raw git scanner | `PASS` | `0.433` |
-| locked artifact hash audit | `PASS` | `0.046` |
-| regression aggregator | `PASS` | `70.314` |
-| command-plan consistency | `PASS` | `0.347` |
-| governance refresh | `PASS` | `15.435` |
-| total | `PASS` | `86.575` |
+| no raw git scanner | `PASS` | `0.503` |
+| locked artifact hash audit | `PASS` | `0.068` |
+| regression aggregator | `PASS` | `68.630` |
+| command-plan consistency | `PASS` | `0.305` |
+| governance refresh | `PASS` | `15.114` |
+| total | `PASS` | `84.620` |
 
 Machine-readable outputs:
 
