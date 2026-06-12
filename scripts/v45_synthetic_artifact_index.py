@@ -64,6 +64,8 @@ MANUAL_CLASS = {
     "analysis/v45_external_blocker_escalation_matrix": ("operations", "external blocker escalation status only"),
     "analysis/v45_route_arrival_packets": ("operations", "route-specific arrival commands only"),
     "analysis/v45_route_packet_integrity_manifest": ("integrity_governance", "route packet checksum/freshness only"),
+    "analysis/v45_cross_route_readiness_linter": ("integrity_governance", "cross-route readiness consistency only"),
+    "analysis/v45_outbound_request_packet_integrity": ("integrity_governance", "outbound request packet integrity only"),
     "analysis/v45_current_action_card": ("operations", "current action navigation only"),
     "analysis/v45_send_log_intake_template": ("operations", "request-sent intake template only"),
     "analysis/v45_rpt_readiness": ("proposal_lens_grounding", "proposal prioritization only"),
@@ -80,6 +82,7 @@ MANUAL_CLASS = {
     "analysis/v45_locked_artifact_hash_audit": ("integrity_governance", "locked-artifact integrity only"),
     "analysis/v45_command_plan_consistency": ("integrity_governance", "command-plan integrity only"),
     "analysis/v45_state_machine_validator": ("integrity_governance", "state-machine transition consistency only"),
+    "analysis/v45_received_package_decision_tree": ("integrity_governance", "received-package decision routing only"),
     "analysis/v45_array_processing_readiness": ("validation_infrastructure", "toolchain readiness only"),
     "analysis/v45_validation_command_runner": ("validation_infrastructure", "command handoff only"),
     "analysis/v45_gate_output_bundle_manifest": ("validation_infrastructure", "handoff manifest only"),
@@ -127,7 +130,7 @@ def summarize_dir(path: Path) -> dict[str, object]:
         "has_synthetic_path_marker": synthetic_by_path,
         "has_synthetic_content_marker": synthetic_by_content,
         "contains_synthetic": synthetic_by_path or synthetic_by_content or cls.startswith("synthetic"),
-        "summary_files": ";".join(json_summaries[:12]),
+        "summary_files": ";".join(json_summaries[:12]) if json_summaries else "none",
     }
 
 

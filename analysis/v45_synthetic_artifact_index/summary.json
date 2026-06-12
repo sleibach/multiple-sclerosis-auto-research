@@ -43,7 +43,19 @@
       "n_files": 2
     },
     {
+      "allowed_interpretation": "cross-route readiness consistency only",
+      "class": "integrity_governance",
+      "n_dirs": 1,
+      "n_files": 6
+    },
+    {
       "allowed_interpretation": "generated-checker registry only",
+      "class": "integrity_governance",
+      "n_dirs": 1,
+      "n_files": 2
+    },
+    {
+      "allowed_interpretation": "generated-document freshness check only",
       "class": "integrity_governance",
       "n_dirs": 1,
       "n_files": 2
@@ -53,6 +65,12 @@
       "class": "integrity_governance",
       "n_dirs": 1,
       "n_files": 9
+    },
+    {
+      "allowed_interpretation": "outbound request packet integrity only",
+      "class": "integrity_governance",
+      "n_dirs": 1,
+      "n_files": 6
     },
     {
       "allowed_interpretation": "pre-commit readiness only",
@@ -71,6 +89,12 @@
       "class": "integrity_governance",
       "n_dirs": 1,
       "n_files": 2
+    },
+    {
+      "allowed_interpretation": "received-package decision routing only",
+      "class": "integrity_governance",
+      "n_dirs": 1,
+      "n_files": 6
     },
     {
       "allowed_interpretation": "repository hygiene only",
@@ -165,8 +189,8 @@
     {
       "allowed_interpretation": "study design planning only",
       "class": "power_design_planning",
-      "n_dirs": 2,
-      "n_files": 6
+      "n_dirs": 3,
+      "n_files": 24
     },
     {
       "allowed_interpretation": "proposal prioritization only",
@@ -201,8 +225,8 @@
     {
       "allowed_interpretation": "method behavior only",
       "class": "synthetic_intake_verification",
-      "n_dirs": 11,
-      "n_files": 163
+      "n_dirs": 12,
+      "n_files": 177
     },
     {
       "allowed_interpretation": "method behavior only",
@@ -220,7 +244,7 @@
       "allowed_interpretation": "command handoff only",
       "class": "validation_infrastructure",
       "n_dirs": 1,
-      "n_files": 6
+      "n_files": 9
     },
     {
       "allowed_interpretation": "expected missing-output guard only",
@@ -247,8 +271,8 @@
       "n_files": 4
     }
   ],
-  "n_dirs_containing_synthetic": 47,
-  "n_dirs_indexed": 77,
+  "n_dirs_containing_synthetic": 54,
+  "n_dirs_indexed": 83,
   "purpose": "artifact governance index; no biological claim",
   "synthetic": false
 }

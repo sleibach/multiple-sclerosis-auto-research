@@ -151,7 +151,14 @@ generate more internally executable tasks before continuing.
 | 124 | Power/design | Add a route-specific analyzable-pair calculator for partial Karolinska/GSE228330/Gafson returns | done | Wrote `scripts/v45_route_analyzable_pair_calculator.py`, `docs/validation/ROUTE_ANALYZABLE_PAIR_CALCULATOR_V45.md`, and outputs under `analysis/v45_route_analyzable_pair_calculator/`; synthetic route cases show Gafson-small complete as effect-size/CI likely inconclusive, Gafson partial and Karolinska small below planning floor, and GSE228330 no-label context as context-only/labels-needed. Linked from dropout, cohort-spec, and first-24h docs. |
 | 125 | Infrastructure | Add a generated-doc freshness linter that compares linked machine-readable outputs to human-facing governance counts | done | Wrote `scripts/v45_generated_doc_freshness_linter.py`, `docs/validation/GENERATED_DOC_FRESHNESS_LINTER_V45.md`, and outputs under `analysis/v45_generated_doc_freshness_linter/`; linter passes `34` doc-to-summary/config checks with `0` failures, and stale detector now tracks `18` generated artifacts including this linter. |
 | 126 | External account | Add a skeptical-review appendix explaining why synthetic/readiness outputs do not constitute biological validation | done | Wrote `docs/reports/SYNTHETIC_READINESS_BOUNDARY_APPENDIX_V45.md` and linked it from `docs/reports/EXTERNAL_ACCOUNT_DRAFT_V44.md` and `docs/reports/EXTERNAL_REBUTTAL_CHECKLIST_V45.md`; external-report path resolver passes with `74` concrete references, `4` placeholders ignored, and `0` missing. |
-| 127 | Integrity | Run the next full precommit/governance wrapper after items 120-126 | todo | Recurring integrity control after the next self-generated batch. |
+| 127 | Integrity | Run the next full precommit/governance wrapper after items 120-126 | done | Full wrapper passes `5/5` in `101.339` seconds; classified the newest guard directories, eliminated `0` unclassified V43-V45 rows, refreshed governance docs to `947` V45 paths, `83` V43-V45 directories, and `77` V45 analysis dirs / `732` files / `85.303 MiB`; generated-doc linter passes `34/34`, stale detector passes `18` artifacts with `0` stale/missing. |
+| 128 | Integrity | Add a no-score-before-gates linter across validation docs and route packets | todo | Self-generated after item 127 to machine-check that operational docs do not authorize scoring before intake/preflight/harness-ready gates. |
+| 129 | Validation readiness | Add a cold-start operator command sequence generator from the current action card and route state | todo | Self-generated after item 127 to make receipt-to-preflight commands mechanically reproducible from current machine-readable state. |
+| 130 | Cohort dependence | Add a follow-up escalation packet generator keyed to due-board age and external-blocker state | todo | Self-generated after item 127 to keep Karolinska/Gafson/GSE228330 external routes moving without waiting for manual queue interpretation. |
+| 131 | Infrastructure | Add an evidence-class manifest for external reports mapping each cited V45 artifact to allowed interpretation | todo | Self-generated after item 127 to prevent external-account citations from crossing synthetic/readiness/biological boundaries. |
+| 132 | Robustness | Add an end-to-end synthetic received-package state-machine dry run from arrival packet through blocked/non-scoring decision | todo | Self-generated after item 127 to test the operator route without reading real quarantined data. |
+| 133 | Validation readiness | Add an author-run aggregate report schema validator for returned collaborator-run outputs | todo | Self-generated after item 127 to validate aggregate-only return packages before any interpretation. |
+| 134 | Infrastructure | Add an OpenGWAS token-expiry sentinel for readiness docs and queue state | todo | Self-generated after item 127 because the JWT expiry is near and auth failure must not masquerade as a null. |
 
 ## Generated Follow-Ups
 
@@ -992,3 +999,14 @@ todo items.
   report path resolution passes with `74` concrete references, `4` placeholders
   ignored, and `0` missing; locked-artifact audit and no-raw scanner both pass.
 - Next selected task: full precommit/governance wrapper after items 120-126.
+- Full precommit/governance wrapper completed. The wrapper passes `5/5` in
+  `101.339` seconds. The newest guard output directories were classified in
+  `scripts/v45_synthetic_artifact_index.py`, leaving `0` unclassified V43-V45
+  rows. Governance docs were refreshed to `947` V45 paths, `83` V43-V45
+  analysis directories, and V45 storage of `77` dirs / `732` files /
+  `85.303 MiB`. Generated-doc freshness passes `34/34`; stale-output detector
+  passes `18` artifacts with `0` stale/missing; locked-artifact audit,
+  no-raw scanner, and `git diff --check` pass.
+- Backlog refilled above threshold with items 128-134.
+- Next selected task: no-score-before-gates linter across validation docs and
+  route packets.

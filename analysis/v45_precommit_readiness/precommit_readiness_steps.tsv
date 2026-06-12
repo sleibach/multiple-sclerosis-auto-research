@@ -1,5 +1,5 @@
 step	command	returncode	elapsed_seconds	status	stdout_tail	stderr_tail
-no_raw_git_scanner	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_no_raw_git_scanner.py	0	1.094	PASS	"{
+no_raw_git_scanner	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_no_raw_git_scanner.py	0	0.571	PASS	"{
   ""hard_forbidden_prefixes"": [
     ""data/quarantine/"",
     ""data/raw_v3/gafson_dmf_2018/"",
@@ -13,7 +13,7 @@ no_raw_git_scanner	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/pyt
   ""status"": ""scanner_only""
 }
 "	
-locked_artifact_hash_audit	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_locked_artifact_hash_audit.py audit --baseline docs/validation/LOCKED_ARTIFACT_HASH_BASELINE_V45.tsv --outdir analysis/v45_locked_artifact_hash_audit --fail-on-drift	0	0.051	PASS	"{
+locked_artifact_hash_audit	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_locked_artifact_hash_audit.py audit --baseline docs/validation/LOCKED_ARTIFACT_HASH_BASELINE_V45.tsv --outdir analysis/v45_locked_artifact_hash_audit --fail-on-drift	0	0.055	PASS	"{
   ""baseline"": ""/Users/soeren.leibach/Projects/ms-auto-research/docs/validation/LOCKED_ARTIFACT_HASH_BASELINE_V45.tsv"",
   ""n_artifacts"": 9,
   ""overall_status"": ""PASS"",
@@ -24,54 +24,54 @@ locked_artifact_hash_audit	/Users/soeren.leibach/Projects/ms-auto-research/.venv
   }
 }
 "	
-regression_aggregator	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_regression_aggregator.py	0	84.678	PASS	"{
+regression_aggregator	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_regression_aggregator.py	0	73.565	PASS	"{
   ""n_fail"": 0,
   ""n_pass"": 6,
   ""n_steps"": 6,
   ""overall_status"": ""PASS"",
   ""steps"": [
     {
-      ""elapsed_seconds"": 77.289,
+      ""elapsed_seconds"": 69.343,
       ""returncode"": 0,
       ""status"": ""PASS"",
       ""step"": ""primary_harness_regression""
     },
     {
-      ""elapsed_seconds"": 3.645,
+      ""elapsed_seconds"": 2.166,
       ""returncode"": 0,
       ""status"": ""PASS"",
       ""step"": ""secondary_and_context_harness_regression""
     },
     {
-      ""elapsed_seconds"": 0.81,
+      ""elapsed_seconds"": 0.476,
       ""returncode"": 0,
       ""status"": ""PASS"",
       ""step"": ""intake_preflight_regression""
     },
     {
-      ""elapsed_seconds"": 0.873,
+      ""elapsed_seconds"": 0.363,
       ""returncode"": 0,
       ""status"": ""PASS"",
       ""step"": ""checksum_manifest_synthetic""
     },
     {
-      ""elapsed_seconds"": 0.781,
+      ""elapsed_seconds"": 0.462,
       ""returncode"": 0,
       ""status"": ""PASS"",
       ""step"": ""response_column_synthetic""
     },
     {
-      ""elapsed_seconds"": 0.89,
+      ""elapsed_seconds"": 0.409,
       ""returncode"": 0,
       ""status"": ""PASS"",
       ""step"": ""subject_map_synthetic""
     }
   ],
   ""synthetic_or_software_regression_only"": true,
-  ""total_elapsed_seconds"": 84.288
+  ""total_elapsed_seconds"": 73.219
 }
 "	
-command_plan_consistency	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_command_plan_consistency_check.py --outdir analysis/v45_command_plan_consistency	0	1.027	PASS	"{
+command_plan_consistency	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_command_plan_consistency_check.py --outdir analysis/v45_command_plan_consistency	0	0.35	PASS	"{
   ""n_fail"": 0,
   ""n_modes"": 4,
   ""n_pass"": 4,
@@ -79,7 +79,7 @@ command_plan_consistency	/Users/soeren.leibach/Projects/ms-auto-research/.venv/b
   ""purpose"": ""command-plan consistency check; no biological claim""
 }
 "	
-governance_refresh	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_refresh_governance_summaries.py	0	30.318	PASS	"t_dir\"": \""analysis/v45_multiconfounder_batch_guard\"",\n      \""class\"": \""synthetic_or_method_behavior\"",\n      \""n_files\"": 5,\n      \""total_mib\"": 21.311\n    },\n    {\n      \""artifact_dir\"": \""analysis/v45_postpartum_pathology\"",\n      \""class\"": \""synthetic_or_method_behavior\"",\n      \""n_files\"": 4,\n      \""total_mib\"": 20.358\n    },\n    {\n      \""artifact_dir\"": \""analysis/v45_seed_variation_stability\"",\n      \""class\"": \""synthetic_or_method_behavior\"",\n      \""n_files\"": 5,\n      \""total_mib\"": 8.763\n    },\n    {\n      \""artifact_dir\"": \""analysis/v45_secondary_batch_calibration\"",\n      \""class\"": \""synthetic_or_method_behavior\"",\n      \""n_files\"": 3,\n      \""total_mib\"": 4.098\n    },\n    {\n      \""artifact_dir\"": \""analysis/v45_batch_guard_calibration_full\"",\n      \""class\"": \""synthetic_or_method_behavior\"",\n      \""n_files\"": 4,\n      \""total_mib\"": 3.302\n    },\n    {\n      \""artifact_dir\"": \""analysis/v45_batch_guard_calibration\"",\n      \""class\"": \""synthetic_or_method_behavior\"",\n      \""n_files\"": 4,\n      \""total_mib\"": 1.061\n    },\n    {\n      \""artifact_dir\"": \""analysis/v45_primary_harness_regression_tests\"",\n      \""class\"": \""synthetic_or_method_behavior\"",\n      \""n_files\"": 23,\n      \""total_mib\"": 0.727\n    },\n    {\n      \""artifact_dir\"": \""analysis/v45_secondary_missing_timepoint_stress\"",\n      \""class\"": \""synthetic_or_method_behavior\"",\n      \""n_files\"": 130,\n      \""total_mib\"": 0.319\n    },\n    {\n      \""artifact_dir\"": \""analysis/v45_artifact_index\"",\n      \""class\"": \""internal_or_governance\"",\n      \""n_files\"": 3,\n      \""total_mib\"": 0.176\n    }\n  ],\n  \""n_files\"": 677,\n  \""n_v45_analysis_dirs\"": 71,\n  \""purpose\"": \""storage/compute transparency; no biological claim\"",\n  \""synthetic_or_method_behavior_mib\"": 84.34,\n  \""total_mib\"": 85.237\n}\n""
+governance_refresh	/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_refresh_governance_summaries.py	0	26.798	PASS	"_dir\"": \""analysis/v45_multiconfounder_batch_guard\"",\n      \""class\"": \""synthetic_or_method_behavior\"",\n      \""n_files\"": 5,\n      \""total_mib\"": 21.311\n    },\n    {\n      \""artifact_dir\"": \""analysis/v45_postpartum_pathology\"",\n      \""class\"": \""synthetic_or_method_behavior\"",\n      \""n_files\"": 4,\n      \""total_mib\"": 20.358\n    },\n    {\n      \""artifact_dir\"": \""analysis/v45_seed_variation_stability\"",\n      \""class\"": \""synthetic_or_method_behavior\"",\n      \""n_files\"": 5,\n      \""total_mib\"": 8.763\n    },\n    {\n      \""artifact_dir\"": \""analysis/v45_secondary_batch_calibration\"",\n      \""class\"": \""synthetic_or_method_behavior\"",\n      \""n_files\"": 3,\n      \""total_mib\"": 4.098\n    },\n    {\n      \""artifact_dir\"": \""analysis/v45_batch_guard_calibration_full\"",\n      \""class\"": \""synthetic_or_method_behavior\"",\n      \""n_files\"": 4,\n      \""total_mib\"": 3.302\n    },\n    {\n      \""artifact_dir\"": \""analysis/v45_batch_guard_calibration\"",\n      \""class\"": \""synthetic_or_method_behavior\"",\n      \""n_files\"": 4,\n      \""total_mib\"": 1.061\n    },\n    {\n      \""artifact_dir\"": \""analysis/v45_primary_harness_regression_tests\"",\n      \""class\"": \""synthetic_or_method_behavior\"",\n      \""n_files\"": 23,\n      \""total_mib\"": 0.727\n    },\n    {\n      \""artifact_dir\"": \""analysis/v45_secondary_missing_timepoint_stress\"",\n      \""class\"": \""synthetic_or_method_behavior\"",\n      \""n_files\"": 130,\n      \""total_mib\"": 0.319\n    },\n    {\n      \""artifact_dir\"": \""analysis/v45_artifact_index\"",\n      \""class\"": \""internal_or_governance\"",\n      \""n_files\"": 3,\n      \""total_mib\"": 0.189\n    }\n  ],\n  \""n_files\"": 732,\n  \""n_v45_analysis_dirs\"": 77,\n  \""purpose\"": \""storage/compute transparency; no biological claim\"",\n  \""synthetic_or_method_behavior_mib\"": 84.341,\n  \""total_mib\"": 85.301\n}\n""
     }
   ],
   ""n_commands"": 3,

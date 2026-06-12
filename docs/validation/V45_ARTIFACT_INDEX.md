@@ -35,7 +35,7 @@ Outputs:
 
 ## Current Summary
 
-The current run indexes `879` paths across `8` fronts and `9` evidence classes.
+The current run indexes `947` paths across `8` fronts and `9` evidence classes.
 This refresh supersedes the earlier item-38 snapshot, which covered roughly
 `338-339` paths before the later V45 regression, readiness, acquisition, and
 module-coverage artifacts were added.
@@ -44,10 +44,10 @@ Front counts:
 
 | Front | Paths |
 |---|---:|
-| infrastructure | 459 |
-| robustness | 199 |
+| infrastructure | 505 |
+| robustness | 202 |
 | power/design | 113 |
-| cohort dependence | 58 |
+| cohort dependence | 77 |
 | data-free validation | 31 |
 | external account | 10 |
 | infrastructure/RPT | 8 |
@@ -57,11 +57,11 @@ Evidence-class counts:
 
 | Evidence class | Paths | Allowed interpretation |
 |---|---:|---|
-| synthetic method behavior | 426 | method behavior/planning only; never biological evidence |
-| documentation/governance | 194 | governance/readiness documentation |
+| synthetic method behavior | 447 | method behavior/planning only; never biological evidence |
+| documentation/governance | 222 | governance/readiness documentation |
 | validation infrastructure | 90 | mechanical guardrail/readiness; no biological claim |
-| software | 64 | executable infrastructure; no biological claim by itself |
-| public/external acquisition operations | 62 | cohort availability/request readiness; no validation claim |
+| software | 70 | executable infrastructure; no biological claim by itself |
+| public/external acquisition operations | 75 | cohort availability/request readiness; no validation claim |
 | internal convergence null | 27 | data-free internal support; not clinical validation |
 | synthesis documentation | 8 | external framing/checklist; no new analysis |
 | proposal-lens grounding | 7 | proposal prioritization only; no model output as evidence |
@@ -69,7 +69,7 @@ Evidence-class counts:
 
 ## Drift Since Earlier Snapshot
 
-The path count increased by about `540-541` paths because V45 continued after
+The path count increased by about `608-609` paths because V45 continued after
 the original index was committed. The dominant additions were:
 
 - synthetic and regression outputs from primary, secondary, preflight,

@@ -21,7 +21,7 @@ Generator:
 
 ## Index Summary
 
-The refreshed index covers `77` V43-V45 analysis directories, with `47`
+The refreshed index covers `83` V43-V45 analysis directories, with `54`
 directories containing synthetic inputs, synthetic outputs, or synthetic content
 markers. Current V43-V45 analysis output footprint is approximately `150 MiB`.
 
@@ -34,11 +34,15 @@ markers. Current V43-V45 analysis output footprint is approximately `150 MiB`.
 | `integrity_governance` | `1` | `6` | Author-run packet dry-run integrity only |
 | `integrity_governance` | `1` | `6` | Collaborator package path integrity only |
 | `integrity_governance` | `1` | `2` | Command-plan integrity only |
+| `integrity_governance` | `1` | `6` | Cross-route readiness consistency only |
 | `integrity_governance` | `1` | `2` | Generated-checker registry only |
+| `integrity_governance` | `1` | `2` | Generated-document freshness check only |
 | `integrity_governance` | `1` | `9` | Locked-artifact integrity only |
+| `integrity_governance` | `1` | `6` | Outbound request packet integrity only |
 | `integrity_governance` | `1` | `2` | Pre-commit readiness only |
 | `integrity_governance` | `1` | `3` | Readiness dashboard only |
 | `integrity_governance` | `1` | `2` | Readiness freshness check only |
+| `integrity_governance` | `1` | `6` | Received-package decision routing only |
 | `integrity_governance` | `1` | `2` | Repository hygiene only |
 | `integrity_governance` | `1` | `8` | Route packet checksum/freshness only |
 | `integrity_governance` | `1` | `6` | State-machine transition consistency only |
@@ -54,16 +58,16 @@ markers. Current V43-V45 analysis output footprint is approximately `150 MiB`.
 | `operations` | `1` | `6` | Route-specific arrival commands only |
 | `operations` | `1` | `12` | Unsent acquisition message drafts only |
 | `operations` | `4` | `5` | Acquisition operations only |
-| `power_design_planning` | `2` | `6` | Study-design planning only |
+| `power_design_planning` | `3` | `24` | Study-design planning only |
 | `proposal_lens_grounding` | `1` | `6` | Proposal prioritization only |
 | `public_metadata_preparation` | `1` | `5` | Acquisition readiness only |
 | `public_metadata_scout` | `3` | `20` | Cohort availability evidence only |
 | `synthetic_harness_verification` | `3` | `42` | Method behavior only |
 | `synthetic_intake_verification` | `1` | `2` | Expected missing-output guard only |
-| `synthetic_intake_verification` | `11` | `163` | Method behavior only |
+| `synthetic_intake_verification` | `12` | `177` | Method behavior only |
 | `synthetic_method_characterization` | `10` | `195` | Method behavior only |
 | `synthetic_regression` | `4` | `120` | Software regression only |
-| `validation_infrastructure` | `1` | `6` | Command handoff only |
+| `validation_infrastructure` | `1` | `9` | Command handoff only |
 | `validation_infrastructure` | `1` | `3` | Expected missing-output guard only |
 | `validation_infrastructure` | `1` | `3` | Handoff completeness only |
 | `validation_infrastructure` | `1` | `4` | Handoff manifest only |

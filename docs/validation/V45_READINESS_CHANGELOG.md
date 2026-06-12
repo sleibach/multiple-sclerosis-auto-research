@@ -14,10 +14,10 @@ threshold.
 
 Latest committed governance refresh:
 
-- artifact index: `879` V45 paths across `8` fronts and `9` evidence classes;
-- synthetic/method retention index: `77` V43-V45 analysis directories;
-- V45 analysis storage: `71` directories, `677` files, `85.237 MiB`;
-- precommit readiness: `5/5` pass in `117.168` seconds.
+- artifact index: `947` V45 paths across `8` fronts and `9` evidence classes;
+- synthetic/method retention index: `83` V43-V45 analysis directories;
+- V45 analysis storage: `77` directories, `732` files, `85.303 MiB`;
+- precommit readiness: `5/5` pass in `101.339` seconds.
 
 ## What V45 Added
 
