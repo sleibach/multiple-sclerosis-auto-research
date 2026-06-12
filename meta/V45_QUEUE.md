@@ -125,8 +125,8 @@ generate more internally executable tasks before continuing.
 | 98 | Validation readiness | Add a one-command author-run return gate runner chaining redaction precheck then output completeness | done | Wrote `scripts/v45_author_run_return_gate_runner.py`, `docs/validation/AUTHOR_RUN_RETURN_GATE_RUNNER_V45.md`, and synthetic outputs under `analysis/v45_author_run_return_gate_runner/`; `3/3` synthetic cases match expected pass/fail behavior and redaction-fail skips completeness. |
 | 99 | Operations | Add a follow-up due-board generator from request-sent logs and outbound tracker states | done | Wrote `scripts/v45_followup_due_board.py`, `docs/validation/FOLLOWUP_DUE_BOARD_V45.md`, and outputs under `analysis/v45_followup_due_board/`; live draft template yields `4` `not_sent_ready` rows, synthetic sent log yields `1` overdue follow-up and `3` ready-unsent rows. |
 | 100 | Infrastructure | Add a validation-readiness status dashboard that summarizes tracker, triage, precommit, path resolver, and handoff checks | done | Wrote `scripts/v45_readiness_status_dashboard.py`, `docs/validation/READINESS_STATUS_DASHBOARD_V45.md`, and outputs under `analysis/v45_readiness_status_dashboard/`; current headline is `READY_AWAITING_EXTERNAL_DATA` with precommit/path/handoff guards passing and `0/3` cohorts harness-ready. |
-| 101 | Validation readiness | Add a checksum manifest builder for the author-run packet bundle index | in-progress | Selected next after item 100; should hash included non-sensitive packet files so collaborator bundles can be checked after transfer. |
-| 102 | Operations | Add an external-blocker board that merges live cohort acquisition index, outbound tracker, and received triage state | todo | Generated after item 97; should make all remaining external blockers explicit and separate them from internal executable work. |
+| 101 | Validation readiness | Add a checksum manifest builder for the author-run packet bundle index | done | Wrote `scripts/v45_author_run_packet_checksum_manifest.py`, `docs/validation/AUTHOR_RUN_PACKET_CHECKSUMS_V45.md`, and outputs under `analysis/v45_author_run_packet_checksums/`; hashes `28` included packet files, verifies `28/28`, and synthetic corrupted manifest fails with `1` mismatch. |
+| 102 | Operations | Add an external-blocker board that merges live cohort acquisition index, outbound tracker, and received triage state | in-progress | Selected next after item 101; should make all remaining external blockers explicit and separate them from internal executable work. |
 | 103 | Infrastructure | Add a generated-checker registry mapping V45 scripts to docs, outputs, and synthetic regression status | todo | Generated after item 97; should improve reviewer navigation and catch undocumented scripts. |
 | 104 | Validation readiness | Add an author-run aggregate result redaction/completeness/reporting gate checklist for human operators | todo | Generated after item 97; should be a compact operator sequence wrapping redaction, completeness, report fill, and outcome-grid interpretation. |
 
@@ -776,3 +776,10 @@ todo items.
   cohorts are harness-ready. Path resolver was refreshed to `157` concrete
   references with `0` missing.
 - Next selected task: author-run packet bundle checksum manifest builder.
+- Author-run packet checksum manifest builder completed. It hashes the `28`
+  committed non-sensitive files included in the author-run packet bundle,
+  verifies `28/28`, and a deliberately corrupted synthetic manifest fails with
+  `1` mismatch. Path resolver was refreshed after linking the checksum docs and
+  now passes with `160` concrete references and `0` missing.
+- Next selected task: external-blocker board merging acquisition, outbound, and
+  triage state.

@@ -44,6 +44,7 @@ V42 preregistration, secondary preregistrations, or any threshold.
 | Sensitive-data redaction checklist | `docs/validation/SENSITIVE_DATA_REDACTION_CHECKLIST_V45.md` |
 | Author-run frozen harness packet | `docs/validation/AUTHOR_RUN_FROZEN_HARNESS_PACKET_V45.md` |
 | Author-run packet bundle index | `docs/validation/AUTHOR_RUN_PACKET_BUNDLE_INDEX_V45.md` |
+| Author-run packet checksums | `docs/validation/AUTHOR_RUN_PACKET_CHECKSUMS_V45.md` |
 | Author-run output completeness check | `docs/validation/AUTHOR_RUN_OUTPUT_COMPLETENESS_CHECK_V45.md` |
 | Author-run return gate runner | `docs/validation/AUTHOR_RUN_RETURN_GATE_RUNNER_V45.md` |
 | Collaborator package path resolver | `docs/validation/COLLABORATOR_PACKAGE_PATH_RESOLVER_V45.md` |

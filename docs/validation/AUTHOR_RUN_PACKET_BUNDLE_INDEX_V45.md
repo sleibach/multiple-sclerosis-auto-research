@@ -15,6 +15,10 @@ Path-resolution checker:
 
 `docs/validation/COLLABORATOR_PACKAGE_PATH_RESOLVER_V45.md`
 
+Packet checksum manifest:
+
+`docs/validation/AUTHOR_RUN_PACKET_CHECKSUMS_V45.md`
+
 ## When To Use This Packet
 
 Use this path when an author or data controller says individual-level data
@@ -64,6 +68,7 @@ At minimum, include:
 - `scripts/v45_module_coverage_precheck.py`
 - `scripts/v45_locked_artifact_hash_audit.py`
 - `docs/validation/LOCKED_ARTIFACT_HASH_BASELINE_V45.tsv`
+- `analysis/v45_author_run_packet_checksums/write/author_run_packet_sha256_manifest.tsv`
 
 ## Collaborator Command Sequence
 
