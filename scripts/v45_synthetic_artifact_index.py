@@ -59,6 +59,7 @@ MANUAL_CLASS = {
     "analysis/v45_request_sent_updater": ("operations", "request-sent status update only"),
     "analysis/v45_followup_due_board": ("operations", "acquisition follow-up status only"),
     "analysis/v45_external_blocker_board": ("operations", "external blocker status only"),
+    "analysis/v45_route_arrival_packets": ("operations", "route-specific arrival commands only"),
     "analysis/v45_rpt_readiness": ("proposal_lens_grounding", "proposal prioritization only"),
     "analysis/v45_synthetic_artifact_index": ("artifact_governance", "index only"),
     "analysis/v45_artifact_index": ("artifact_governance", "index only"),

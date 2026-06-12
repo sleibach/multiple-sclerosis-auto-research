@@ -130,8 +130,8 @@ generate more internally executable tasks before continuing.
 | 103 | Infrastructure | Add a generated-checker registry mapping V45 scripts to docs, outputs, and synthetic regression status | done | Wrote `scripts/v45_generated_checker_registry.py`, `docs/validation/GENERATED_CHECKER_REGISTRY_V45.md`, and outputs under `analysis/v45_generated_checker_registry/`; registry indexes `54` V45 scripts with `0` undocumented and `0` without detected output dirs. |
 | 104 | Validation readiness | Add an author-run aggregate result redaction/completeness/reporting gate checklist for human operators | done | Wrote `docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md` and `docs/validation/input_schemas/V45_author_run_return_operator_checklist.tsv`; path resolver now passes with `163` concrete references and `0` missing. |
 | 105 | Validation readiness | Add a validation state-machine table spanning request, receipt, preflight, author-run return, report, and interpretation states | done | Wrote `docs/validation/VALIDATION_STATE_MACHINE_V45.md` and `docs/validation/input_schemas/V45_validation_state_machine.tsv`; current state remains `READY_AWAITING_EXTERNAL_DATA`, and path resolver passes with `164` concrete references and `0` missing. |
-| 106 | Operations | Add route-specific arrival command packets generated from the live acquisition index for Gafson, Karolinska, GSE228330, and author-run fallback | in-progress | Selected next after item 105; should convert current runbooks into concrete first commands for each route and keep no-score-before-gates wording. |
-| 107 | Infrastructure | Add a stale-output detector for readiness dashboards that compares summary source mtimes to generated dashboards | todo | Generated after item 104; should flag when path resolver/dashboard/blocker outputs need refresh after docs or tracker changes. |
+| 106 | Operations | Add route-specific arrival command packets generated from the live acquisition index for Gafson, Karolinska, GSE228330, and author-run fallback | done | Wrote `scripts/v45_route_arrival_packet_generator.py`, `docs/validation/ROUTE_ARRIVAL_COMMAND_PACKETS_V45.md`, and four generated route packets under `analysis/v45_route_arrival_packets/`; each packet preserves no-score-before-gates wording. |
+| 107 | Infrastructure | Add a stale-output detector for readiness dashboards that compares summary source mtimes to generated dashboards | in-progress | Selected next after item 106; should flag when path resolver/dashboard/blocker outputs need refresh after docs or tracker changes. |
 | 108 | Operations | Add follow-up message templates derived from the due-board status classes | todo | Generated after item 104; should prepare unsent follow-up drafts for overdue/due-soon/sent-due-unknown states without marking any request sent. |
 | 109 | Validation readiness | Add cohort-route no-degrees-of-freedom checklist for Karolinska and GSE228330 addendum paths | todo | Generated after item 104; should precommit what must be frozen before any secondary/context route scoring. |
 | 110 | Infrastructure | Add a compact V45 handoff index that lists only the current top-level operational artifacts in execution order | todo | Generated after item 104; should help medical-team operators avoid navigating the full artifact corpus. |
@@ -818,3 +818,9 @@ todo items.
   result-report, and interpreted-result states, including forbidden transitions.
   Path resolver now passes with `164` concrete references and `0` missing.
 - Next selected task: route-specific arrival command packets.
+- Route-specific arrival command packets completed. Generator produced Gafson,
+  Karolinska, GSE228330, and author-run fallback arrival packets under
+  `analysis/v45_route_arrival_packets/`; each is route-specific and repeats the
+  no-scoring-before-gates hard stop. Path resolver now passes with `165`
+  concrete references and `0` missing.
+- Next selected task: stale-output detector for readiness dashboards.

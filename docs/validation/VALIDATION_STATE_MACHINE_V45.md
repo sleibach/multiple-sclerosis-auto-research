@@ -42,6 +42,7 @@ the V22/V42 locked analysis.
 - `docs/validation/FOLLOWUP_DUE_BOARD_V45.md`
 - `docs/validation/EXTERNAL_BLOCKER_BOARD_V45.md`
 - `docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md`
+- `docs/validation/ROUTE_ARRIVAL_COMMAND_PACKETS_V45.md`
 - `docs/validation/VALIDATION_INTAKE_PREFLIGHT_V45.md`
 - `docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md`
 - `docs/validation/AUTHOR_RUN_RETURN_GATE_RUNNER_V45.md`
