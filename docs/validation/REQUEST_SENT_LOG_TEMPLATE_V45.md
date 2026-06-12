@@ -14,6 +14,10 @@ Dry-run/proposed-update helper:
 
 `docs/validation/REQUEST_SENT_UPDATER_V45.md`
 
+Follow-up due board:
+
+`docs/validation/FOLLOWUP_DUE_BOARD_V45.md`
+
 ## Required Fields
 
 Every sent request should record:

@@ -123,8 +123,8 @@ generate more internally executable tasks before continuing.
 | 96 | Infrastructure | Add a collaborator package path resolver that checks all README-linked artifacts resolve after every readiness update | done | Wrote `scripts/v45_collaborator_package_path_resolver.py`, `docs/validation/COLLABORATOR_PACKAGE_PATH_RESOLVER_V45.md`, and outputs under `analysis/v45_collaborator_path_resolver/`; live package sources pass with `154` concrete references resolved and `0` missing, while a synthetic broken source fails with `1` missing reference. |
 | 97 | Infrastructure | Run the next full precommit readiness wrapper after generated checker tasks are committed | done | Full wrapper passes `5/5` in `96.541` seconds; refreshed artifact index now covers `746` V45 paths, synthetic/governance index covers `62` V43-V45 dirs, and V45 analysis storage covers `56` dirs / `582` files / `85.053 MiB`. |
 | 98 | Validation readiness | Add a one-command author-run return gate runner chaining redaction precheck then output completeness | done | Wrote `scripts/v45_author_run_return_gate_runner.py`, `docs/validation/AUTHOR_RUN_RETURN_GATE_RUNNER_V45.md`, and synthetic outputs under `analysis/v45_author_run_return_gate_runner/`; `3/3` synthetic cases match expected pass/fail behavior and redaction-fail skips completeness. |
-| 99 | Operations | Add a follow-up due-board generator from request-sent logs and outbound tracker states | in-progress | Selected next after item 98; should surface overdue/pending acquisition follow-ups without implying data receipt. |
-| 100 | Infrastructure | Add a validation-readiness status dashboard that summarizes tracker, triage, precommit, path resolver, and handoff checks | todo | Generated after item 97; should be read-only governance/status aggregation with no biology. |
+| 99 | Operations | Add a follow-up due-board generator from request-sent logs and outbound tracker states | done | Wrote `scripts/v45_followup_due_board.py`, `docs/validation/FOLLOWUP_DUE_BOARD_V45.md`, and outputs under `analysis/v45_followup_due_board/`; live draft template yields `4` `not_sent_ready` rows, synthetic sent log yields `1` overdue follow-up and `3` ready-unsent rows. |
+| 100 | Infrastructure | Add a validation-readiness status dashboard that summarizes tracker, triage, precommit, path resolver, and handoff checks | in-progress | Selected next after item 99; should be read-only governance/status aggregation with no biology. |
 | 101 | Validation readiness | Add a checksum manifest builder for the author-run packet bundle index | todo | Generated after item 97; should hash included non-sensitive packet files so collaborator bundles can be checked after transfer. |
 | 102 | Operations | Add an external-blocker board that merges live cohort acquisition index, outbound tracker, and received triage state | todo | Generated after item 97; should make all remaining external blockers explicit and separate them from internal executable work. |
 | 103 | Infrastructure | Add a generated-checker registry mapping V45 scripts to docs, outputs, and synthetic regression status | todo | Generated after item 97; should improve reviewer navigation and catch undocumented scripts. |
@@ -762,3 +762,10 @@ todo items.
   references and `0` missing.
 - Next selected task: follow-up due-board generator from request-sent logs and
   outbound tracker states.
+- Follow-up due-board generator completed. It merges outbound tracker rows with
+  explicitly sent request-log rows and makes send/follow-up actions visible
+  without changing data receipt or harness readiness. Live draft log yields `4`
+  `not_sent_ready` rows; synthetic sent log yields `1` overdue and `3`
+  ready-unsent rows. Path resolver now passes with `156` concrete references and
+  `0` missing.
+- Next selected task: validation-readiness status dashboard.

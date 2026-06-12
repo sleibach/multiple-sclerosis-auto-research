@@ -14,6 +14,10 @@ Machine-readable tracker:
 
 - `analysis/v45_outbound_data_requests/request_tracker.tsv`
 
+Follow-up due board:
+
+- `docs/validation/FOLLOWUP_DUE_BOARD_V45.md`
+
 ## Current Requests
 
 | Priority | Cohort | Role | Current status | External blocker | Prepared request |
