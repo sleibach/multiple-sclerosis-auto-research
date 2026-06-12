@@ -1,0 +1,30 @@
+{
+  "full_expression_pass": true,
+  "full_summary": {
+    "expression": "analysis/v45_module_coverage_precheck/synthetic/full_module_expression.tsv",
+    "n_all_modules": 14,
+    "n_all_modules_scoreable_ge_0p50": 14,
+    "n_primary_modules": 3,
+    "n_unique_gene_ids": 121,
+    "outcomes_read": false,
+    "overall_status": "PASS",
+    "primary_modules_scoreable": true,
+    "scores_computed": false
+  },
+  "missing_hlaii_fails": true,
+  "missing_summary": {
+    "expression": "analysis/v45_module_coverage_precheck/synthetic/missing_hlaii_expression.tsv",
+    "n_all_modules": 14,
+    "n_all_modules_scoreable_ge_0p50": 13,
+    "n_primary_modules": 3,
+    "n_unique_gene_ids": 115,
+    "outcomes_read": false,
+    "overall_status": "FAIL_PRIMARY_MODULE_COVERAGE",
+    "primary_modules_scoreable": false,
+    "scores_computed": false
+  },
+  "outcomes_read": false,
+  "overall_status": "PASS",
+  "scores_computed": false,
+  "synthetic": true
+}
