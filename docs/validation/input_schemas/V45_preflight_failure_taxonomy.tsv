@@ -1,0 +1,20 @@
+failure_code	trigger	allowed_repair	disallowed_repair	blocker_type
+TERMS_NOT_APPROVED	data-use capture is missing or not approved for preflight	request clarification or approval; keep files quarantined	running preflight or scoring before approval	terms
+CHECKSUM_MANIFEST_MISSING	no manifest for received package	generate manifest from unchanged received files and log source	silently modifying files before manifesting	checksum
+CHECKSUM_DRIFT	observed file hash differs from manifest	re-download/request replacement; document new manifest	accepting drift without source explanation	checksum
+RAW_DATA_GIT_HARD_FAIL	no-raw scanner finds restricted/private data staged for git	unstage/remove from git; keep in quarantine	committing raw/private data	repository_integrity
+OUTCOME_DICTIONARY_MISSING	outcome labels exist but no frozen mapping/orientation	ask provider; freeze dictionary before scoring	infer orientation from score performance	outcome
+OUTCOME_DICTIONARY_AMBIGUOUS	label values or assessment window unclear	request clarification; mark validation blocked	reconstruct endpoint post hoc	outcome
+METADATA_REQUIRED_COLUMN_MISSING	intake preflight schema lacks required fields	repair from source metadata or request corrected table	drop affected subjects based on outcome/score	metadata
+EXPRESSION_SAMPLE_MISMATCH	expression columns and metadata sample IDs disagree	repair sample IDs from source documentation	reorder or infer IDs from outcome patterns	expression_metadata
+PRIMARY_MODULE_COVERAGE_FAIL	V22 primary modules fail coverage precheck	repair gene mapping under V42 rules or request processed matrix	change module genes or lower coverage threshold	module_coverage
+CONFOUNDER_PANEL_UNSCOREABLE	one or more confounder panels lack coverage	report unavailable panel; continue only if primary modules scoreable	substitute new post-hoc confounder panel	module_coverage
+SUBJECT_MAP_NO_BASELINE	paired map lacks baseline for a subject	request/repair subject map	infer baseline from sample order	subject_map
+SUBJECT_MAP_NO_EARLY_FOLLOWUP	paired map lacks eligible early treatment timepoint	request/repair timepoint metadata	widen the V42 early window post hoc	subject_map
+SUBJECT_MAP_DUPLICATE_OR_TIE	duplicate samples/tied timepoint ambiguity	apply preregistered lexicographic tie rule or request clarification	choose sample based on score/outcome	subject_map
+PHARMACODYNAMIC_RESPONSE_COLUMN_PRESENT	context-only package contains response-like columns	stop; require response-validation preregistration/addendum before labels are used	run context analysis while later interpreting response	response_guard
+LOCKED_HASH_DRIFT	locked-artifact hash audit detects drift	identify intentional edit; revert or explicitly re-baseline before data scoring if allowed	refresh baseline to hide accidental drift	integrity
+REGRESSION_AGGREGATOR_FAIL	synthetic/software regression check fails	fix software and rerun synthetic regression	run real validation anyway	software_regression
+ARRAY_TOOLCHAIN_MISSING	required local array/Bioconductor packages absent	use author processed matrix or install documented packages before processing	ad hoc probe summarization	toolchain
+BATCH_DIAGNOSTIC_WARNING	response-correlated batch/QC metadata detected	report through V42/V44 interpretation grid	batch-correct primary locked score post hoc	batch
+UNDERPOWERED_GROUP_SIZE	labeled group sizes below V42 clean-pass threshold	report inconclusive/effect estimate per grid	claim pass/kill from favorable point estimate	power
