@@ -1,0 +1,110 @@
+#!/usr/bin/env python3
+"""Index V43-V45 synthetic/method-characterization artifacts.
+
+The goal is governance: make clear which artifacts are synthetic method checks,
+which are public-metadata preparation, and which are internal convergence
+analyses. The index is not a biological analysis.
+"""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+import pandas as pd
+
+
+ROOT = Path(__file__).resolve().parents[1]
+OUT = ROOT / "analysis/v45_synthetic_artifact_index"
+
+
+MANUAL_CLASS = {
+    "analysis/v43_method_validation": ("synthetic_method_characterization", "method behavior only"),
+    "analysis/v44_batch_guard": ("synthetic_method_characterization", "method behavior only"),
+    "analysis/v44_secondary_lead_harnesses": ("synthetic_harness_verification", "method behavior only"),
+    "analysis/v45_multiconfounder_batch_guard": ("synthetic_method_characterization", "method behavior only"),
+    "analysis/v45_postpartum_pathology": ("synthetic_method_characterization", "method behavior only"),
+    "analysis/v45_tb_compartment_pathology": ("synthetic_method_characterization", "method behavior only"),
+    "analysis/v45_batch_guard_calibration": ("synthetic_method_characterization", "method behavior only"),
+    "analysis/v45_batch_guard_calibration_full": ("synthetic_method_characterization", "method behavior only"),
+    "analysis/v45_secondary_batch_calibration": ("synthetic_method_characterization", "method behavior only"),
+    "analysis/v45_seed_variation_stability": ("synthetic_method_characterization", "method behavior only"),
+    "analysis/v45_secondary_real_ingest": ("synthetic_harness_verification", "method behavior only"),
+    "analysis/v45_pharmacodynamic_only_harness": ("synthetic_harness_verification", "method behavior only"),
+    "analysis/v45_validation_intake_preflight": ("synthetic_intake_verification", "method behavior only"),
+    "analysis/v45_harness_regression_tests": ("synthetic_regression", "software regression only"),
+    "analysis/v45_preflight_regression_tests": ("synthetic_regression", "software regression only"),
+    "analysis/v44_internal_validation": ("internal_convergence_null", "data-free internal support, not clinical validation"),
+    "analysis/v44_self_audit_weak_leg": ("internal_convergence_null", "data-free internal support, not clinical validation"),
+    "analysis/v45_convergence_sensitivity": ("internal_convergence_null", "data-free internal support, not clinical validation"),
+    "analysis/v45_convergence_family_jackknife": ("internal_convergence_null", "data-free internal support, not clinical validation"),
+    "analysis/v45_convergence_no_reports": ("internal_convergence_null", "data-free internal support, not clinical validation"),
+    "analysis/v45_convergence_no_readiness": ("internal_convergence_null", "data-free internal support, not clinical validation"),
+    "analysis/v44_alt_cohort_scout": ("public_metadata_scout", "cohort availability evidence only"),
+    "analysis/v45_gse228330_outcome_scout": ("public_metadata_scout", "cohort availability evidence only"),
+    "analysis/v45_gse228330_pharmacodynamic_runbook": ("public_metadata_preparation", "acquisition readiness only"),
+    "analysis/v45_karolinska_access": ("public_metadata_scout", "cohort availability evidence only"),
+    "analysis/v45_outbound_data_requests": ("operations", "acquisition operations only"),
+    "analysis/v45_rpt_readiness": ("proposal_lens_grounding", "proposal prioritization only"),
+    "analysis/v45_synthetic_artifact_index": ("artifact_governance", "index only"),
+}
+
+
+def text_sample_has_synthetic(path: Path) -> bool:
+    try:
+        if path.stat().st_size > 2_000_000:
+            return False
+        text = path.read_text(errors="ignore").lower()
+    except OSError:
+        return False
+    return '"synthetic": true' in text or "\tsynthetic\t" in text or "synthetic_" in text
+
+
+def summarize_dir(path: Path) -> dict[str, object]:
+    files = [p for p in path.rglob("*") if p.is_file()]
+    rel = str(path.relative_to(ROOT))
+    cls, allowed = MANUAL_CLASS.get(rel, ("unclassified_v43_v45", "review before use"))
+    synthetic_by_path = any("synthetic" in str(p.relative_to(path)).lower() for p in files)
+    synthetic_by_content = any(text_sample_has_synthetic(p) for p in files[:200])
+    json_summaries = [str(p.relative_to(ROOT)) for p in files if p.name in {"summary.json", "regression_summary.json", "synthetic_check_summary.json"}]
+    return {
+        "artifact_dir": rel,
+        "class": cls,
+        "allowed_interpretation": allowed,
+        "n_files": len(files),
+        "has_synthetic_path_marker": synthetic_by_path,
+        "has_synthetic_content_marker": synthetic_by_content,
+        "contains_synthetic": synthetic_by_path or synthetic_by_content or cls.startswith("synthetic"),
+        "summary_files": ";".join(json_summaries[:12]),
+    }
+
+
+def main() -> int:
+    OUT.mkdir(parents=True, exist_ok=True)
+    dirs = sorted(
+        p for p in (ROOT / "analysis").iterdir()
+        if p.is_dir() and (p.name.startswith("v43") or p.name.startswith("v44") or p.name.startswith("v45"))
+    )
+    rows = [summarize_dir(path) for path in dirs]
+    table = pd.DataFrame(rows)
+    table.to_csv(OUT / "v43_v45_artifact_index.tsv", sep="\t", index=False)
+    class_summary = (
+        table.groupby(["class", "allowed_interpretation"], as_index=False)
+        .agg(n_dirs=("artifact_dir", "nunique"), n_files=("n_files", "sum"))
+        .sort_values(["class", "n_dirs"])
+    )
+    class_summary.to_csv(OUT / "class_summary.tsv", sep="\t", index=False)
+    summary = {
+        "synthetic": False,
+        "purpose": "artifact governance index; no biological claim",
+        "n_dirs_indexed": int(len(table)),
+        "n_dirs_containing_synthetic": int(table["contains_synthetic"].sum()),
+        "classes": class_summary.to_dict(orient="records"),
+    }
+    (OUT / "summary.json").write_text(json.dumps(summary, indent=2, sort_keys=True) + "\n")
+    print(json.dumps(summary, indent=2, sort_keys=True))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
