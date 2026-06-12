@@ -114,7 +114,14 @@ generate more internally executable tasks before continuing.
 | 87 | Validation reporting | Add a batch/QC/steroid missingness severity rubric for interpreting incomplete metadata in the future validation report | done | Wrote `docs/validation/BATCH_QC_STEROID_MISSINGNESS_RUBRIC_V45.md` and `docs/validation/input_schemas/V45_metadata_missingness_severity_rubric.tsv`; TSV has `22` data rows across `7` rubric areas and only constrains future reporting wording/readiness, not locked thresholds. |
 | 88 | Cohort dependence | Add an author-run fallback request text template for cohorts that cannot transfer individual-level data | done | Wrote `docs/validation/outbound_requests/author_run_fallback_ready_to_send_V45.md`, linked it from author-run bundle/escalation/collaborator docs, and added it as row 4 in `analysis/v45_outbound_data_requests/request_tracker.tsv`; tracker has `4` data rows and all prepared-request paths resolve. |
 | 89 | External account | Add a V45 validation-readiness changelog/release note for reviewer navigation | done | Wrote `docs/validation/V45_READINESS_CHANGELOG.md`; it groups V45 readiness outputs by cohort dependence, intake/gates, regression, robustness, power, convergence, handoff, and governance, while explicitly stating no validation or locked-rule change occurred. |
-| 90 | Infrastructure | Re-run governance refresh after the next template/checker checkpoint | in-progress | Selected next after item 89; should refresh indexes/storage after items 85-89 and update count docs. |
+| 90 | Infrastructure | Re-run governance refresh after the next template/checker checkpoint | done | Refreshed artifact, synthetic-retention, and storage summaries after items 85-89. Current artifact index covers `665` V45 paths; synthetic retention covers `55` V43-V45 dirs with no unclassified dirs; V45 analysis storage is `49` dirs, `513` files, `84.963 MiB`. |
+| 91 | Validation readiness | Add an author-run returned-output completeness checker against the minimum output specification | in-progress | Generated after item 90; should verify aggregate returned files without requiring raw data or private labels. |
+| 92 | Validation readiness | Add an outcome-label dictionary validator for orientation/window/missingness completeness before scoring | todo | Generated after item 90; should validate `V45_outcome_label_dictionary_template.tsv`-compatible files without reading expression. |
+| 93 | Validation reporting | Add a metadata-missingness rubric scoring helper that maps available metadata fields to green/yellow/orange/red status | todo | Generated after item 90; should operationalize the item-87 rubric without changing thresholds. |
+| 94 | Operations | Add a request-sent log updater that proposes changes to the outbound request tracker after human send action | todo | Generated after item 90; should use `V45_request_sent_log_template.tsv` and not infer sends automatically. |
+| 95 | Validation readiness | Add a collaborator-return redaction precheck for aggregate author-run packages | todo | Generated after item 90; should scan returned aggregate filenames/columns for forbidden raw/private markers before handoff. |
+| 96 | Infrastructure | Add a collaborator package path resolver that checks all README-linked artifacts resolve after every readiness update | todo | Generated after item 90; should prevent broken handoff links. |
+| 97 | Infrastructure | Run the next full precommit readiness wrapper after generated checker tasks are committed | todo | Generated after item 90 as recurring integrity control. |
 
 ## Generated Follow-Ups
 
@@ -687,3 +694,12 @@ todo items.
   artifacts. It states explicitly that V45 added no biological validation and no
   locked-rule change.
 - Next selected task: governance refresh after items 85-89.
+- Governance refresh after items 85-89 completed. The refresh passes and now
+  indexes `665` V45 paths, `55` V43-V45 synthetic/method/governance directories
+  with no unclassified entries, and `49` V45 analysis directories totaling
+  `84.963 MiB`.
+- Backlog refilled above threshold with author-run output completeness,
+  outcome-label validator, metadata-missingness scorer, request-sent updater,
+  return redaction precheck, collaborator path resolver, and next full
+  precommit wrapper tasks.
+- Next selected task: author-run returned-output completeness checker.

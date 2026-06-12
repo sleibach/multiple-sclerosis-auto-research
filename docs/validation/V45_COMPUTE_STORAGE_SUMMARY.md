@@ -22,19 +22,19 @@ Outputs:
 
 | Metric | Value |
 |---|---:|
-| V45 analysis directories | 47 |
-| files | 509 |
-| total size | 84.949 MiB |
-| synthetic/method-behavior size | 84.333 MiB |
+| V45 analysis directories | 49 |
+| files | 513 |
+| total size | 84.963 MiB |
+| synthetic/method-behavior size | 84.334 MiB |
 
 By class:
 
 | Class | Directories | Files | Size MiB |
 |---|---:|---:|---:|
-| synthetic / method behavior | 15 | 288 | 84.333 |
-| public metadata / operations | 6 | 25 | 0.230 |
-| infrastructure / documentation | 17 | 156 | 0.216 |
-| internal / governance | 9 | 40 | 0.170 |
+| synthetic / method behavior | 15 | 288 | 84.334 |
+| public metadata / operations | 7 | 28 | 0.234 |
+| infrastructure / documentation | 18 | 157 | 0.224 |
+| internal / governance | 9 | 40 | 0.171 |
 
 Largest directories:
 

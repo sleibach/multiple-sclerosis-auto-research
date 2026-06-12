@@ -49,6 +49,18 @@
       "n_files": 32
     },
     {
+      "allowed_interpretation": "author-run packet bundle only",
+      "class": "operations",
+      "n_dirs": 1,
+      "n_files": 1
+    },
+    {
+      "allowed_interpretation": "received-package status update only",
+      "class": "operations",
+      "n_dirs": 1,
+      "n_files": 3
+    },
+    {
       "allowed_interpretation": "acquisition operations only",
       "class": "operations",
       "n_dirs": 4,
@@ -134,7 +146,7 @@
     }
   ],
   "n_dirs_containing_synthetic": 32,
-  "n_dirs_indexed": 53,
+  "n_dirs_indexed": 55,
   "purpose": "artifact governance index; no biological claim",
   "synthetic": false
 }
