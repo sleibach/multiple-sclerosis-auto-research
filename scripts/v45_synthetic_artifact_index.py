@@ -67,6 +67,7 @@ MANUAL_CLASS = {
     "analysis/v45_cross_route_readiness_linter": ("integrity_governance", "cross-route readiness consistency only"),
     "analysis/v45_outbound_request_packet_integrity": ("integrity_governance", "outbound request packet integrity only"),
     "analysis/v45_current_action_card": ("operations", "current action navigation only"),
+    "analysis/v45_cold_start_operator_sequence": ("operations", "cold-start operator sequence only"),
     "analysis/v45_send_log_intake_template": ("operations", "request-sent intake template only"),
     "analysis/v45_rpt_readiness": ("proposal_lens_grounding", "proposal prioritization only"),
     "analysis/v45_synthetic_artifact_index": ("artifact_governance", "index only"),

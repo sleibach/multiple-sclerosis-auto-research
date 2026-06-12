@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `19`
+- artifacts checked: `20`
 - stale or missing: `0`
 - overall status: `PASS`
 
@@ -38,6 +38,7 @@ Checked generated artifacts:
 - state-machine transition validator;
 - received-package decision tree;
 - current-action card;
+- cold-start operator sequence;
 - author-run bundle dry-run manifest;
 - generated-checker registry;
 - operational handoff index;

@@ -153,7 +153,7 @@ generate more internally executable tasks before continuing.
 | 126 | External account | Add a skeptical-review appendix explaining why synthetic/readiness outputs do not constitute biological validation | done | Wrote `docs/reports/SYNTHETIC_READINESS_BOUNDARY_APPENDIX_V45.md` and linked it from `docs/reports/EXTERNAL_ACCOUNT_DRAFT_V44.md` and `docs/reports/EXTERNAL_REBUTTAL_CHECKLIST_V45.md`; external-report path resolver passes with `74` concrete references, `4` placeholders ignored, and `0` missing. |
 | 127 | Integrity | Run the next full precommit/governance wrapper after items 120-126 | done | Full wrapper passes `5/5` in `101.339` seconds; classified the newest guard directories, eliminated `0` unclassified V43-V45 rows, refreshed governance docs to `947` V45 paths, `83` V43-V45 directories, and `77` V45 analysis dirs / `732` files / `85.303 MiB`; generated-doc linter passes `34/34`, stale detector passes `18` artifacts with `0` stale/missing. |
 | 128 | Integrity | Add a no-score-before-gates linter across validation docs and route packets | done | Wrote `scripts/v45_no_score_before_gates_linter.py`, `docs/validation/NO_SCORE_BEFORE_GATES_LINTER_V45.md`, and outputs under `analysis/v45_no_score_before_gates_linter/`; live operator docs/route packets pass `63/63` checks across `9` targets, synthetic bad fixture fails as expected with `6` failures, and stale detector now tracks `19` artifacts with `0` stale/missing. |
-| 129 | Validation readiness | Add a cold-start operator command sequence generator from the current action card and route state | todo | Self-generated after item 127 to make receipt-to-preflight commands mechanically reproducible from current machine-readable state. |
+| 129 | Validation readiness | Add a cold-start operator command sequence generator from the current action card and route state | done | Wrote `scripts/v45_cold_start_operator_sequence.py`, `docs/validation/COLD_START_OPERATOR_SEQUENCE_V45.md`, and outputs under `analysis/v45_cold_start_operator_sequence/`; generated `4` route sequences with `0` `may_score_now=yes`, linked it near the top of the operational handoff, and stale detector now tracks `20` artifacts with `0` stale/missing. |
 | 130 | Cohort dependence | Add a follow-up escalation packet generator keyed to due-board age and external-blocker state | todo | Self-generated after item 127 to keep Karolinska/Gafson/GSE228330 external routes moving without waiting for manual queue interpretation. |
 | 131 | Infrastructure | Add an evidence-class manifest for external reports mapping each cited V45 artifact to allowed interpretation | todo | Self-generated after item 127 to prevent external-account citations from crossing synthetic/readiness/biological boundaries. |
 | 132 | Robustness | Add an end-to-end synthetic received-package state-machine dry run from arrival packet through blocked/non-scoring decision | todo | Self-generated after item 127 to test the operator route without reading real quarantined data. |
@@ -1020,3 +1020,12 @@ todo items.
   from the operational handoff index and tracked by the stale-output detector,
   which now covers `19` artifacts with `0` stale/missing.
 - Next selected task: cold-start operator command sequence generator.
+- Cold-start operator command sequence generator completed. It joins the current
+  action card, route-arrival packet index, received-package decision tree, and
+  command-plan/author-return gate paths into one route-level operator sequence.
+  Current generated state covers `4` routes, all with `may_score_now=no`; the
+  sequence is linked as step 2 in the operational handoff. Stale-output detector
+  now tracks `20` artifacts with `0` stale/missing; handoff path resolution
+  passes with `76` concrete references and `0` missing.
+- Next selected task: follow-up escalation packet generator keyed to due-board
+  age and external-blocker state.

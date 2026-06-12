@@ -1,25 +1,26 @@
 order	phase	artifact	operator_action
 1	current_action	docs/validation/CURRENT_ACTION_CARD_V45.md	read the single current action list before any action
-2	current_status	docs/validation/READINESS_STATUS_DASHBOARD_V45.md	read headline state before any action
-3	current_blockers	docs/validation/EXTERNAL_BLOCKER_BOARD_V45.md	identify external versus internal blockers
-4	blocker_escalation	docs/validation/EXTERNAL_BLOCKER_ESCALATION_MATRIX_V45.md	confirm exact external unblocking event per route
-5	outbound_packet_integrity	docs/validation/OUTBOUND_REQUEST_PACKET_INTEGRITY_V45.md	verify outbound request packet completeness and checksums before sending
-6	request_followup	docs/validation/FOLLOWUP_DUE_BOARD_V45.md	decide send/follow-up timing
-7	request_followup_drafts	docs/validation/FOLLOWUP_MESSAGE_TEMPLATES_V45.md	prepare unsent drafts; do not mark sent
-8	author_run_bundle_dryrun	docs/validation/AUTHOR_RUN_BUNDLE_DRYRUN_MANIFEST_V45.md	verify author-run packet files and checksums before sending fallback route
-9	send_log_intake	docs/validation/SEND_LOG_INTAKE_TEMPLATE_V45.md	record exact sent-copy metadata after a request is actually sent
-10	route_arrival	docs/validation/ROUTE_ARRIVAL_COMMAND_PACKETS_V45.md	use route-specific first commands after arrival
-11	route_packet_integrity	docs/validation/ROUTE_PACKET_INTEGRITY_MANIFEST_V45.md	verify route packet checksums and freshness
-12	cross_route_readiness	docs/validation/CROSS_ROUTE_READINESS_LINTER_V45.md	verify every route has request, blocker, arrival packet, command/gate plan, and no-score linkage
-13	no_score_gate_linter	docs/validation/NO_SCORE_BEFORE_GATES_LINTER_V45.md	verify operator docs and route packets keep no-scoring-before-gates wording
-14	state_machine	docs/validation/VALIDATION_STATE_MACHINE_V45.md	check allowed transitions and forbidden jumps
-15	transition_consistency	docs/validation/STATE_MACHINE_TRANSITION_VALIDATOR_V45.md	validate live boards have no impossible route transitions
-16	received_package_decision_tree	docs/validation/RECEIVED_PACKAGE_DECISION_TREE_V45.md	confirm route-specific first-24h action and may-score-now status
-17	received_package_gates	docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md	process received files without scoring
-18	harness_ready	docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md	decide whether frozen harness may run
-19	author_run_fallback	docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md	process aggregate author-run returns
-20	secondary_route_freeze	docs/validation/SECONDARY_ROUTE_NO_DOF_CHECKLIST_V45.md	freeze secondary/context addendum degrees of freedom
-21	result_reporting	docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md	report only returned/frozen outputs
-22	interpretation	docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md	classify under precommitted meanings
-23	integrity_refresh	docs/validation/PRECOMMIT_READINESS_CHECKLIST_V45.md	run repository/readiness guards
-24	freshness_check	docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md	check generated dashboards are fresh
+2	cold_start_sequence	docs/validation/COLD_START_OPERATOR_SEQUENCE_V45.md	read generated route-level command sequence and confirm no route may score now
+3	current_status	docs/validation/READINESS_STATUS_DASHBOARD_V45.md	read headline state before any action
+4	current_blockers	docs/validation/EXTERNAL_BLOCKER_BOARD_V45.md	identify external versus internal blockers
+5	blocker_escalation	docs/validation/EXTERNAL_BLOCKER_ESCALATION_MATRIX_V45.md	confirm exact external unblocking event per route
+6	outbound_packet_integrity	docs/validation/OUTBOUND_REQUEST_PACKET_INTEGRITY_V45.md	verify outbound request packet completeness and checksums before sending
+7	request_followup	docs/validation/FOLLOWUP_DUE_BOARD_V45.md	decide send/follow-up timing
+8	request_followup_drafts	docs/validation/FOLLOWUP_MESSAGE_TEMPLATES_V45.md	prepare unsent drafts; do not mark sent
+9	author_run_bundle_dryrun	docs/validation/AUTHOR_RUN_BUNDLE_DRYRUN_MANIFEST_V45.md	verify author-run packet files and checksums before sending fallback route
+10	send_log_intake	docs/validation/SEND_LOG_INTAKE_TEMPLATE_V45.md	record exact sent-copy metadata after a request is actually sent
+11	route_arrival	docs/validation/ROUTE_ARRIVAL_COMMAND_PACKETS_V45.md	use route-specific first commands after arrival
+12	route_packet_integrity	docs/validation/ROUTE_PACKET_INTEGRITY_MANIFEST_V45.md	verify route packet checksums and freshness
+13	cross_route_readiness	docs/validation/CROSS_ROUTE_READINESS_LINTER_V45.md	verify every route has request, blocker, arrival packet, command/gate plan, and no-score linkage
+14	no_score_gate_linter	docs/validation/NO_SCORE_BEFORE_GATES_LINTER_V45.md	verify operator docs and route packets keep no-scoring-before-gates wording
+15	state_machine	docs/validation/VALIDATION_STATE_MACHINE_V45.md	check allowed transitions and forbidden jumps
+16	transition_consistency	docs/validation/STATE_MACHINE_TRANSITION_VALIDATOR_V45.md	validate live boards have no impossible route transitions
+17	received_package_decision_tree	docs/validation/RECEIVED_PACKAGE_DECISION_TREE_V45.md	confirm route-specific first-24h action and may-score-now status
+18	received_package_gates	docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md	process received files without scoring
+19	harness_ready	docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md	decide whether frozen harness may run
+20	author_run_fallback	docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md	process aggregate author-run returns
+21	secondary_route_freeze	docs/validation/SECONDARY_ROUTE_NO_DOF_CHECKLIST_V45.md	freeze secondary/context addendum degrees of freedom
+22	result_reporting	docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md	report only returned/frozen outputs
+23	interpretation	docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md	classify under precommitted meanings
+24	integrity_refresh	docs/validation/PRECOMMIT_READINESS_CHECKLIST_V45.md	run repository/readiness guards
+25	freshness_check	docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md	check generated dashboards are fresh

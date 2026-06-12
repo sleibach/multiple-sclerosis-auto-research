@@ -209,6 +209,24 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v45_current_action_card.py --outdir analysis/v45_current_action_card",
     },
     {
+        "artifact": "cold_start_operator_sequence",
+        "sources": [
+            "analysis/v45_current_action_card/current_action_card.tsv",
+            "analysis/v45_received_package_decision_tree/live/received_package_decision_tree.tsv",
+            "analysis/v45_route_arrival_packets/route_arrival_packet_index.tsv",
+            "analysis/v45_validation_command_runner/gafson_primary_plan/command_plan.md",
+            "analysis/v45_validation_command_runner/karolinska_primary_plan/command_plan.md",
+            "analysis/v45_validation_command_runner/gse228330_pharmacodynamic_plan/command_plan.md",
+            "scripts/v45_cold_start_operator_sequence.py",
+        ],
+        "outputs": [
+            "analysis/v45_cold_start_operator_sequence/cold_start_operator_sequence_summary.json",
+            "analysis/v45_cold_start_operator_sequence/cold_start_operator_sequence.tsv",
+            "analysis/v45_cold_start_operator_sequence/COLD_START_OPERATOR_SEQUENCE.md",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v45_cold_start_operator_sequence.py --outdir analysis/v45_cold_start_operator_sequence",
+    },
+    {
         "artifact": "author_run_bundle_dryrun_manifest",
         "sources": [
             "analysis/v45_author_run_packet_bundle/author_run_packet_bundle_index.tsv",
