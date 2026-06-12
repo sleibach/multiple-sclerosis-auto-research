@@ -22,6 +22,7 @@ DEFAULTS = {
     "precommit": ROOT / "analysis/v45_precommit_readiness/precommit_readiness_summary.json",
     "path_resolver": ROOT / "analysis/v45_collaborator_path_resolver/live_sources/collaborator_package_path_resolution_summary.json",
     "followup": ROOT / "analysis/v45_followup_due_board/live_template/followup_due_board_summary.json",
+    "external_blocker": ROOT / "analysis/v45_external_blocker_board/external_blocker_board_summary.json",
     "handoff_not_received": ROOT / "analysis/v45_handoff_completeness/handoff_completeness_summary.json",
     "handoff_scored_missing": ROOT / "analysis/v45_handoff_completeness_scored_missing/handoff_completeness_summary.json",
 }
@@ -67,6 +68,7 @@ def dashboard_rows() -> tuple[list[dict[str, str]], dict[str, object]]:
     precommit = read_json(DEFAULTS["precommit"])
     path_resolver = read_json(DEFAULTS["path_resolver"])
     followup = read_json(DEFAULTS["followup"])
+    external_blocker = read_json(DEFAULTS["external_blocker"])
     handoff_not_received = read_json(DEFAULTS["handoff_not_received"])
     handoff_scored_missing = read_json(DEFAULTS["handoff_scored_missing"])
 
@@ -112,6 +114,13 @@ def dashboard_rows() -> tuple[list[dict[str, str]], dict[str, object]]:
             "interpretation": "acquisition action status only",
         },
         {
+            "area": "external_blocker_board",
+            "status": "ACTION_NEEDED" if external_blocker.get("n_harness_ready", 0) == 0 else "REVIEW",
+            "metric": json.dumps(external_blocker.get("blocker_type_counts", {}), sort_keys=True),
+            "source": rel(DEFAULTS["external_blocker"]),
+            "interpretation": "external blockers remain separate from internal readiness work",
+        },
+        {
             "area": "handoff_not_received_lifecycle",
             "status": str(handoff_not_received.get("overall_status", "MISSING")),
             "metric": f"{handoff_not_received.get('n_present', 0)}/{handoff_not_received.get('n_required_now', 0)} required-now artifacts present",
@@ -149,6 +158,7 @@ def dashboard_rows() -> tuple[list[dict[str, str]], dict[str, object]]:
         "n_harness_ready": triage_harness_ready,
         "precommit_status": precommit.get("overall_status", "MISSING"),
         "path_resolver_status": path_resolver.get("overall_status", "MISSING"),
+        "external_blocker_counts": external_blocker.get("blocker_type_counts", {}),
         "handoff_not_received_status": handoff_not_received.get("overall_status", "MISSING"),
         "handoff_scored_negative_control_status": rows[-1]["status"],
     }

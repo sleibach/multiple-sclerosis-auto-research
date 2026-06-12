@@ -24,6 +24,7 @@ V42 preregistration, secondary preregistrations, or any threshold.
 | Live cohort acquisition index | `docs/validation/LIVE_COHORT_ACQUISITION_PACKET_INDEX_V45.md` |
 | Outbound data request tracker | `docs/validation/OUTBOUND_DATA_REQUEST_TRACKER_V45.md` |
 | Follow-up due board | `docs/validation/FOLLOWUP_DUE_BOARD_V45.md` |
+| External blocker board | `docs/validation/EXTERNAL_BLOCKER_BOARD_V45.md` |
 | Intake preflight instructions | `docs/validation/VALIDATION_INTAKE_PREFLIGHT_V45.md` |
 | Validation harness command README | `docs/validation/VALIDATION_HARNESS_README_V45.md` |
 | Subject-map sanity checker | `docs/validation/SUBJECT_MAP_SANITY_CHECKER_V45.md` |

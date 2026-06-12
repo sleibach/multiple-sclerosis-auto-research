@@ -1,0 +1,16 @@
+{
+  "blocker_type_counts": {
+    "external_send_or_author_approval": 4
+  },
+  "board": "analysis/v45_external_blocker_board/external_blocker_board.tsv",
+  "n_harness_ready": 0,
+  "n_rows": 4,
+  "purpose": "external blocker board; no biological claim",
+  "sources": {
+    "acquisition_index": "analysis/v45_live_cohort_acquisition_index/live_cohort_acquisition_index.tsv",
+    "followup_board": "analysis/v45_followup_due_board/live_template/followup_due_board.tsv",
+    "tracker": "analysis/v45_outbound_data_requests/request_tracker.tsv",
+    "triage": "analysis/v45_received_data_triage/received_data_triage_status.tsv"
+  },
+  "synthetic": false
+}

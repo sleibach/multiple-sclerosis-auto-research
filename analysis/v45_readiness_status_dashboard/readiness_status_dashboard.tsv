@@ -4,5 +4,6 @@ received_data_triage	AWAITING_EXTERNAL_DATA	0/3 cohorts harness-ready; 0 request
 precommit_readiness	PASS	5/5 checks pass; 96.541 seconds	analysis/v45_precommit_readiness/precommit_readiness_summary.json	repository/readiness guard status only
 collaborator_path_resolution	PASS	160 resolved; 0 missing	analysis/v45_collaborator_path_resolver/live_sources/collaborator_package_path_resolution_summary.json	handoff links resolve; no validation claim
 followup_due_board	ACTION_NEEDED	"{""not_sent_ready"": 4}"	analysis/v45_followup_due_board/live_template/followup_due_board_summary.json	acquisition action status only
+external_blocker_board	ACTION_NEEDED	"{""external_send_or_author_approval"": 4}"	analysis/v45_external_blocker_board/external_blocker_board_summary.json	external blockers remain separate from internal readiness work
 handoff_not_received_lifecycle	PASS	2/2 required-now artifacts present	analysis/v45_handoff_completeness/handoff_completeness_summary.json	pre-receipt handoff state should pass with only currently required artifacts
 handoff_scored_lifecycle_negative_control	EXPECTED_FAIL	9 hard missing scored-state outputs	analysis/v45_handoff_completeness_scored_missing/handoff_completeness_summary.json	scored-state failure is expected before data/harness outputs exist

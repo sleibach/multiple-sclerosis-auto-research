@@ -126,8 +126,8 @@ generate more internally executable tasks before continuing.
 | 99 | Operations | Add a follow-up due-board generator from request-sent logs and outbound tracker states | done | Wrote `scripts/v45_followup_due_board.py`, `docs/validation/FOLLOWUP_DUE_BOARD_V45.md`, and outputs under `analysis/v45_followup_due_board/`; live draft template yields `4` `not_sent_ready` rows, synthetic sent log yields `1` overdue follow-up and `3` ready-unsent rows. |
 | 100 | Infrastructure | Add a validation-readiness status dashboard that summarizes tracker, triage, precommit, path resolver, and handoff checks | done | Wrote `scripts/v45_readiness_status_dashboard.py`, `docs/validation/READINESS_STATUS_DASHBOARD_V45.md`, and outputs under `analysis/v45_readiness_status_dashboard/`; current headline is `READY_AWAITING_EXTERNAL_DATA` with precommit/path/handoff guards passing and `0/3` cohorts harness-ready. |
 | 101 | Validation readiness | Add a checksum manifest builder for the author-run packet bundle index | done | Wrote `scripts/v45_author_run_packet_checksum_manifest.py`, `docs/validation/AUTHOR_RUN_PACKET_CHECKSUMS_V45.md`, and outputs under `analysis/v45_author_run_packet_checksums/`; hashes `28` included packet files, verifies `28/28`, and synthetic corrupted manifest fails with `1` mismatch. |
-| 102 | Operations | Add an external-blocker board that merges live cohort acquisition index, outbound tracker, and received triage state | in-progress | Selected next after item 101; should make all remaining external blockers explicit and separate them from internal executable work. |
-| 103 | Infrastructure | Add a generated-checker registry mapping V45 scripts to docs, outputs, and synthetic regression status | todo | Generated after item 97; should improve reviewer navigation and catch undocumented scripts. |
+| 102 | Operations | Add an external-blocker board that merges live cohort acquisition index, outbound tracker, and received triage state | done | Wrote `scripts/v45_external_blocker_board.py`, `docs/validation/EXTERNAL_BLOCKER_BOARD_V45.md`, and outputs under `analysis/v45_external_blocker_board/`; current board has `4` routes, all `external_send_or_author_approval`, and `0` harness-ready cohorts. |
+| 103 | Infrastructure | Add a generated-checker registry mapping V45 scripts to docs, outputs, and synthetic regression status | in-progress | Selected next after item 102; should improve reviewer navigation and catch undocumented scripts. |
 | 104 | Validation readiness | Add an author-run aggregate result redaction/completeness/reporting gate checklist for human operators | todo | Generated after item 97; should be a compact operator sequence wrapping redaction, completeness, report fill, and outcome-grid interpretation. |
 
 ## Generated Follow-Ups
@@ -783,3 +783,10 @@ todo items.
   now passes with `160` concrete references and `0` missing.
 - Next selected task: external-blocker board merging acquisition, outbound, and
   triage state.
+- External-blocker board completed. It merges live cohort acquisition, outbound
+  tracker, follow-up board, and received triage state. Current status is four
+  routes all blocked at `external_send_or_author_approval`, with `0`
+  harness-ready cohorts. Readiness dashboard now includes these blocker counts;
+  path resolver passes with `161` concrete references and `0` missing.
+- Next selected task: generated-checker registry mapping V45 scripts to docs,
+  outputs, and regression status.
