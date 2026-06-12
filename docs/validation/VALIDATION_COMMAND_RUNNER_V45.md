@@ -42,6 +42,16 @@ Pharmacodynamic:
   --outdir analysis/v45_validation_command_runner/gse228330_pharmacodynamic_plan
 ```
 
+Karolinska secondary DMF label path:
+
+```bash
+.venv/bin/python scripts/v45_validation_command_runner.py \
+  --cohort-id karolinska_dmf_ros_2019 \
+  --mode primary \
+  --root data/quarantine/karolinska_dmf_ros_2019 \
+  --outdir analysis/v45_validation_command_runner/karolinska_primary_plan
+```
+
 Outputs per plan:
 
 - `command_plan.tsv`
@@ -53,6 +63,7 @@ Outputs per plan:
 | Example | Steps | Required gates |
 |---|---:|---|
 | Gafson primary plan | 7 | data-use terms, checksum manifest, intake preflight, module-coverage precheck, subject-map sanity, preregistration/addendum |
+| Karolinska primary-plan skeleton | 7 | data-use terms, checksum manifest, intake preflight, module-coverage precheck, subject-map sanity, preregistration/addendum |
 | GSE228330 pharmacodynamic plan | 8 | data-use terms, checksum manifest, response-column audit, intake preflight, module-coverage precheck, subject-map sanity, preregistration/addendum |
 
 ## Gate Order

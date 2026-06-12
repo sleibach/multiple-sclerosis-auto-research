@@ -126,6 +126,24 @@ CHECKS = [
         "refresh_command": ".venv/bin/python scripts/v45_route_packet_integrity_manifest.py --outdir analysis/v45_route_packet_integrity_manifest/live --expect-status PASS",
     },
     {
+        "artifact": "cross_route_readiness_linter",
+        "sources": [
+            "analysis/v45_external_blocker_board/external_blocker_board.tsv",
+            "analysis/v45_route_arrival_packets/route_arrival_packet_index.tsv",
+            "analysis/v45_validation_command_runner/gafson_primary_plan/command_plan_summary.json",
+            "analysis/v45_validation_command_runner/karolinska_primary_plan/command_plan_summary.json",
+            "analysis/v45_validation_command_runner/gse228330_pharmacodynamic_plan/command_plan_summary.json",
+            "analysis/v45_author_run_return_gate_runner/synthetic_check_summary.json",
+            "scripts/v45_cross_route_readiness_linter.py",
+        ],
+        "outputs": [
+            "analysis/v45_cross_route_readiness_linter/live/cross_route_readiness_lint_summary.json",
+            "analysis/v45_cross_route_readiness_linter/live/cross_route_readiness_lint.tsv",
+            "analysis/v45_cross_route_readiness_linter/live/cross_route_readiness_issues.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v45_cross_route_readiness_linter.py --outdir analysis/v45_cross_route_readiness_linter/live --expect-status PASS",
+    },
+    {
         "artifact": "state_machine_transition_validator",
         "sources": [
             "analysis/v45_received_data_triage/received_data_triage_status.tsv",

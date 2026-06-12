@@ -1,0 +1,19 @@
+{
+  "expectation_met": true,
+  "expected_status": "FAIL",
+  "issues": "analysis/v45_cross_route_readiness_linter/synthetic_missing_request/cross_route_readiness_issues.tsv",
+  "n_hard_issues": 1,
+  "n_routes": 4,
+  "n_soft_issues": 0,
+  "observed_status": "FAIL",
+  "purpose": "V45 cross-route readiness linter; no biological claim",
+  "routes": "analysis/v45_cross_route_readiness_linter/synthetic_missing_request/cross_route_readiness_lint.tsv",
+  "sources": {
+    "arrival_index": "analysis/v45_route_arrival_packets/route_arrival_packet_index.tsv",
+    "author_run_gate_summary": "analysis/v45_author_run_return_gate_runner/synthetic_check_summary.json",
+    "command_runner_root": "analysis/v45_validation_command_runner",
+    "external": "analysis/v45_external_blocker_board/external_blocker_board.tsv"
+  },
+  "synthetic": true,
+  "synthetic_case": "missing_request"
+}

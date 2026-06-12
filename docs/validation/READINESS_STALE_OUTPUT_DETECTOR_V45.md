@@ -19,7 +19,7 @@ outputs.
 
 ## Current Result
 
-- artifacts checked: `14`
+- artifacts checked: `15`
 - stale or missing: `0`
 - overall status: `PASS`
 
@@ -33,6 +33,7 @@ Checked generated artifacts:
 - external blocker escalation matrix;
 - route arrival packets;
 - route packet integrity manifest;
+- cross-route readiness linter;
 - state-machine transition validator;
 - current-action card;
 - author-run bundle dry-run manifest;

@@ -24,16 +24,17 @@ full artifact corpus.
 | 8 | send-log intake | `docs/validation/SEND_LOG_INTAKE_TEMPLATE_V45.md` |
 | 9 | route arrival | `docs/validation/ROUTE_ARRIVAL_COMMAND_PACKETS_V45.md` |
 | 10 | route packet integrity | `docs/validation/ROUTE_PACKET_INTEGRITY_MANIFEST_V45.md` |
-| 11 | state machine | `docs/validation/VALIDATION_STATE_MACHINE_V45.md` |
-| 12 | transition consistency | `docs/validation/STATE_MACHINE_TRANSITION_VALIDATOR_V45.md` |
-| 13 | received package gates | `docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md` |
-| 14 | frozen-harness readiness | `docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md` |
-| 15 | author-run fallback | `docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md` |
-| 16 | secondary route freeze | `docs/validation/SECONDARY_ROUTE_NO_DOF_CHECKLIST_V45.md` |
-| 17 | result reporting | `docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md` |
-| 18 | interpretation | `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md` |
-| 19 | integrity refresh | `docs/validation/PRECOMMIT_READINESS_CHECKLIST_V45.md` |
-| 20 | freshness check | `docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md` |
+| 11 | cross-route readiness | `docs/validation/CROSS_ROUTE_READINESS_LINTER_V45.md` |
+| 12 | state machine | `docs/validation/VALIDATION_STATE_MACHINE_V45.md` |
+| 13 | transition consistency | `docs/validation/STATE_MACHINE_TRANSITION_VALIDATOR_V45.md` |
+| 14 | received package gates | `docs/validation/FIRST_24H_RECEIVED_DATA_OPERATOR_CHECKLIST_V45.md` |
+| 15 | frozen-harness readiness | `docs/validation/HARNESS_READY_DECISION_TEMPLATE_V45.md` |
+| 16 | author-run fallback | `docs/validation/AUTHOR_RUN_RETURN_OPERATOR_CHECKLIST_V45.md` |
+| 17 | secondary route freeze | `docs/validation/SECONDARY_ROUTE_NO_DOF_CHECKLIST_V45.md` |
+| 18 | result reporting | `docs/validation/VALIDATION_RESULT_REPORT_TEMPLATE_V45.md` |
+| 19 | interpretation | `docs/validation/OUTCOME_INTERPRETATION_GRID_V42.md` |
+| 20 | integrity refresh | `docs/validation/PRECOMMIT_READINESS_CHECKLIST_V45.md` |
+| 21 | freshness check | `docs/validation/READINESS_STALE_OUTPUT_DETECTOR_V45.md` |
 
 ## Current Headline
 

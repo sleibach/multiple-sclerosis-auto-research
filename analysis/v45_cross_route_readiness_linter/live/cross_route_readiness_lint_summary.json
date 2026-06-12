@@ -1,0 +1,19 @@
+{
+  "expectation_met": true,
+  "expected_status": "PASS",
+  "issues": "analysis/v45_cross_route_readiness_linter/live/cross_route_readiness_issues.tsv",
+  "n_hard_issues": 0,
+  "n_routes": 4,
+  "n_soft_issues": 0,
+  "observed_status": "PASS",
+  "purpose": "V45 cross-route readiness linter; no biological claim",
+  "routes": "analysis/v45_cross_route_readiness_linter/live/cross_route_readiness_lint.tsv",
+  "sources": {
+    "arrival_index": "analysis/v45_route_arrival_packets/route_arrival_packet_index.tsv",
+    "author_run_gate_summary": "analysis/v45_author_run_return_gate_runner/synthetic_check_summary.json",
+    "command_runner_root": "analysis/v45_validation_command_runner",
+    "external": "analysis/v45_external_blocker_board/external_blocker_board.tsv"
+  },
+  "synthetic": false,
+  "synthetic_case": "none"
+}
