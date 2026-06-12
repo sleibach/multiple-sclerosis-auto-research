@@ -144,6 +144,9 @@ Use the existing request package, but set expectations correctly:
 - likely small, so it may be inconclusive;
 - must include processed expression, raw counts if possible, sample-subject
   mapping, NEDA-4 labels, and complete technical covariates.
+- on receipt, run `scripts/v45_route_analyzable_pair_calculator.py` before
+  scoring to classify whether the returned package is decision-grade,
+  effect-size/CI only, or below the V45 planning floor.
 
 ### Tier 2: Karolinska DMF ROS Cohort
 
@@ -239,4 +242,3 @@ The next best data acquisition is not merely "get Gafson." It is:
 3. if a prospective or collaborator cohort can be shaped, target at least
    `60+60`, preferably `80+80`, with exact early timepoints, clean NEDA-style
    labels, and response-balanced technical processing.
-

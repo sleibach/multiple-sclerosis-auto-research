@@ -88,6 +88,7 @@ MANUAL_CLASS = {
     "analysis/v45_author_run_output_check_incomplete": ("synthetic_intake_verification", "expected missing-output guard only"),
     "analysis/v45_power_decision_table": ("power_design_planning", "study design planning only"),
     "analysis/v45_dropout_sensitivity_table": ("power_design_planning", "study design planning only"),
+    "analysis/v45_route_analyzable_pair_calculator": ("power_design_planning", "study design planning only"),
     "analysis/v45_checksum_manifest_validator": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v45_intake_template_dryrun": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v45_module_coverage_precheck": ("synthetic_intake_verification", "method behavior only"),

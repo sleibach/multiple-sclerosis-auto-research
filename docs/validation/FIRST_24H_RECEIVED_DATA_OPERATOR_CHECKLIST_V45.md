@@ -49,6 +49,7 @@ Generated route-specific decision tree:
 | 9 | Run module-coverage precheck for expression-matrix packages | `scripts/v45_module_coverage_precheck.py` |
 | 10 | Run subject-map sanity for paired-delta packages | `scripts/v45_subject_map_sanity_check.py` |
 | 11 | Run metadata-contradiction audit before harness readiness | `scripts/v45_metadata_contradiction_stress.py audit` |
+| 12 | Count analyzable paired subjects and response groups before interpretation | `scripts/v45_route_analyzable_pair_calculator.py calculate` |
 
 ## Same Day, Only If All Gates Pass
 
@@ -82,6 +83,8 @@ Stop before scoring if any of these occur:
 - outcome orientation is ambiguous;
 - preflight fails;
 - metadata contradiction audit fails;
+- analyzable paired response groups fall below the pre-specified interpretation
+  band needed for a clean claim;
 - primary module coverage fails;
 - subject-map sanity fails;
 - batch/metadata fields required by the preregistration are absent and the

@@ -27,6 +27,11 @@ Machine-readable outputs:
 - `analysis/v45_dropout_sensitivity_table/nominal_attrition_power_impact.tsv`
 - `analysis/v45_dropout_sensitivity_table/summary.json`
 
+Route-specific analyzable-pair calculator:
+
+- `docs/validation/ROUTE_ANALYZABLE_PAIR_CALCULATOR_V45.md`
+- `analysis/v45_route_analyzable_pair_calculator/route_analyzable_pair_synthetic_cases.tsv`
+
 ## Headline
 
 Dropout and missing early timepoints materially weaken the already conservative
@@ -111,6 +116,10 @@ should always report:
 - number excluded for missing early on-treatment;
 - number excluded for missing or unmappable outcome labels;
 - number downgraded by batch/confounder or module-coverage guards.
+
+Use `scripts/v45_route_analyzable_pair_calculator.py` to produce the route-
+specific paired-subject and response-group counts from a received metadata table
+before interpreting any validation output.
 
 This is an additive planning artifact. It does not change `LOCKED_RULE_V22.md`,
 `PREREGISTRATION_V42.md`, or the frozen success/failure thresholds.
