@@ -1,0 +1,51 @@
+{
+  "bad_pharmacodynamic_summary": {
+    "expression": "",
+    "fail_count": 1,
+    "files_audited": 4,
+    "metadata": "/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_preflight_regression_tests/synthetic_check/synthetic_quarantine/metadata/pharmacodynamic_with_response_metadata.tsv",
+    "missing_checksum_count": 0,
+    "mode": "pharmacodynamic",
+    "note": "Preflight only; no module score or validation metric computed.",
+    "overall_status": "FAIL",
+    "root": "/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_preflight_regression_tests/synthetic_check/synthetic_quarantine",
+    "warn_count": 0
+  },
+  "checks": {
+    "assertions_match": true,
+    "bad_pharmacodynamic_has_fail_count": true,
+    "no_module_scores_computed": true,
+    "pharmacodynamic_missing_checksum_count_zero": true,
+    "pharmacodynamic_preflight_pass": true,
+    "pharmacodynamic_response_label_guard_fails": true,
+    "primary_missing_checksum_count_zero": true,
+    "primary_preflight_pass": true
+  },
+  "overall_status": "PASS",
+  "pharmacodynamic_summary": {
+    "expression": "",
+    "fail_count": 0,
+    "files_audited": 4,
+    "metadata": "/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_preflight_regression_tests/synthetic_check/synthetic_quarantine/metadata/pharmacodynamic_metadata.tsv",
+    "missing_checksum_count": 0,
+    "mode": "pharmacodynamic",
+    "note": "Preflight only; no module score or validation metric computed.",
+    "overall_status": "PASS",
+    "root": "/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_preflight_regression_tests/synthetic_check/synthetic_quarantine",
+    "warn_count": 0
+  },
+  "preflight_synthetic_outdir": "analysis/v45_preflight_regression_tests/synthetic_check",
+  "primary_summary": {
+    "expression": "/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_preflight_regression_tests/synthetic_check/synthetic_quarantine/processed/expression.tsv",
+    "fail_count": 0,
+    "files_audited": 4,
+    "metadata": "/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_preflight_regression_tests/synthetic_check/synthetic_quarantine/metadata/primary_metadata.tsv",
+    "missing_checksum_count": 0,
+    "mode": "primary",
+    "note": "Preflight only; no module score or validation metric computed.",
+    "overall_status": "PASS",
+    "root": "/Users/soeren.leibach/Projects/ms-auto-research/analysis/v45_preflight_regression_tests/synthetic_check/synthetic_quarantine",
+    "warn_count": 5
+  },
+  "synthetic": true
+}

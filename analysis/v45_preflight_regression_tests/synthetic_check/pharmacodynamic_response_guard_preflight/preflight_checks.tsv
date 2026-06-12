@@ -1,0 +1,24 @@
+relative_path	in_checksum_file	expected_sha256	observed_sha256	status	table	field	required_level	present	complete	missing_count	check	note	n_metadata_samples	n_expression_samples	missing_metadata_samples_in_expression
+metadata/pharmacodynamic_metadata.tsv	True	d490f19864d742cd973399b5be55057fa04db7fac45a565722d9c2d22df51de9	d490f19864d742cd973399b5be55057fa04db7fac45a565722d9c2d22df51de9	PASS	checksum_audit										
+metadata/pharmacodynamic_with_response_metadata.tsv	True	780440f5f3e248d65440915c59273e757767c87c71f75c62599c6e5d396c198e	780440f5f3e248d65440915c59273e757767c87c71f75c62599c6e5d396c198e	PASS	checksum_audit										
+metadata/primary_metadata.tsv	True	7ed371fe23b60c6a8e4b6c04a9fdcd35c753ec7b0d79866339b9ac35c11006e3	7ed371fe23b60c6a8e4b6c04a9fdcd35c753ec7b0d79866339b9ac35c11006e3	PASS	checksum_audit										
+processed/expression.tsv	True	ec6d67ebc9bac9f4e28097b7256061859dae3d41b08a708bf1480fedb7b974a7	ec6d67ebc9bac9f4e28097b7256061859dae3d41b08a708bf1480fedb7b974a7	PASS	checksum_audit										
+				PASS	schema_check	sample_id	yes	True	True	0.0					
+				PASS	schema_check	subject	yes	True	True	0.0					
+				PASS	schema_check	timepoint	yes	True	True	0.0					
+				PASS	schema_check	days_since_treatment	strongly_required	True	True	0.0					
+				PASS	schema_check	therapy	yes	True	True	0.0					
+				PASS	schema_check	therapy_class	yes	True	True	0.0					
+				PASS	schema_check	expression_platform	yes	True	True	0.0					
+				PASS	schema_check	disease	yes	True	True	0.0					
+				OPTIONAL_ABSENT	schema_check	disease_subtype	optional	False	False	4.0					
+				OPTIONAL_ABSENT	schema_check	clinical_status	optional	False	False	4.0					
+				PASS	schema_check	batch	strongly_required	True	True	0.0					
+				PASS	schema_check	processing_batch	strongly_required	True	True	0.0					
+				PASS	schema_check	collection_date	strongly_required	True	True	0.0					
+				PASS	schema_check	steroid_exposure	strongly_required	True	True	0.0					
+				OPTIONAL_ABSENT	schema_check	prior_dmt	optional	False	False	4.0					
+				OPTIONAL_ABSENT	schema_check	cell_count_metadata	optional	False	False	4.0					
+				OPTIONAL_ABSENT	schema_check	qc_pass	optional	False	False	4.0					
+				FAIL_RESPONSE_LIKE_COLUMN_PRESENT	response_guard	response					pharmacodynamic_no_response_labels	Response-like columns must not be used by pharmacodynamic-only harness.			
+				SKIPPED_NO_EXPRESSION	expression_header_check						expression_header_sample_match		4.0	0.0	
