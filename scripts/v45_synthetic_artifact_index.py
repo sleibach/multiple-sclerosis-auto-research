@@ -106,6 +106,7 @@ MANUAL_CLASS = {
     "analysis/v45_response_column_audit": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v45_subject_map_sanity_check": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v45_secondary_missing_timepoint_stress": ("synthetic_method_characterization", "method behavior only"),
+    "analysis/v45_synthetic_received_package_dryrun": ("synthetic_intake_verification", "method behavior only"),
 }
 
 

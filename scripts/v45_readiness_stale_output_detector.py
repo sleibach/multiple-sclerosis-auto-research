@@ -344,6 +344,23 @@ CHECKS = [
         ],
         "refresh_command": ".venv/bin/python scripts/v45_no_score_before_gates_linter.py --outdir analysis/v45_no_score_before_gates_linter/live --expect-status PASS && .venv/bin/python scripts/v45_no_score_before_gates_linter.py --outdir analysis/v45_no_score_before_gates_linter/synthetic_bad --synthetic-case bad --expect-status FAIL",
     },
+    {
+        "artifact": "synthetic_received_package_dryrun",
+        "sources": [
+            "docs/validation/input_schemas/V45_first_24h_operator_status_template.tsv",
+            "scripts/v45_synthetic_received_package_dryrun.py",
+            "scripts/v45_received_status_updater.py",
+            "scripts/v45_state_machine_validator.py",
+            "scripts/v45_received_package_decision_tree.py",
+        ],
+        "outputs": [
+            "analysis/v45_synthetic_received_package_dryrun/synthetic_received_package_dryrun_summary.json",
+            "analysis/v45_synthetic_received_package_dryrun/received_status_updater/received_data_triage_status.proposed.tsv",
+            "analysis/v45_synthetic_received_package_dryrun/state_machine_validator/route_state_validation.tsv",
+            "analysis/v45_synthetic_received_package_dryrun/received_package_decision_tree/received_package_decision_tree.tsv",
+        ],
+        "refresh_command": ".venv/bin/python scripts/v45_synthetic_received_package_dryrun.py --outdir analysis/v45_synthetic_received_package_dryrun",
+    },
 ]
 
 MTIME_EPSILON_SECONDS = 1.0

@@ -21,7 +21,7 @@ Generator:
 
 ## Index Summary
 
-The refreshed index covers `83` V43-V45 analysis directories, with `54`
+The refreshed index covers `88` V43-V45 analysis directories, with `57`
 directories containing synthetic inputs, synthetic outputs, or synthetic content
 markers. Current V43-V45 analysis output footprint is approximately `150 MiB`.
 
@@ -38,6 +38,7 @@ markers. Current V43-V45 analysis output footprint is approximately `150 MiB`.
 | `integrity_governance` | `1` | `2` | Generated-checker registry only |
 | `integrity_governance` | `1` | `2` | Generated-document freshness check only |
 | `integrity_governance` | `1` | `9` | Locked-artifact integrity only |
+| `integrity_governance` | `1` | `5` | No-score-before-gates documentation check only |
 | `integrity_governance` | `1` | `6` | Outbound request packet integrity only |
 | `integrity_governance` | `1` | `2` | Pre-commit readiness only |
 | `integrity_governance` | `1` | `3` | Readiness dashboard only |
@@ -49,9 +50,11 @@ markers. Current V43-V45 analysis output footprint is approximately `150 MiB`.
 | `internal_convergence_null` | `6` | `32` | Data-free internal support, not clinical validation |
 | `operations` | `1` | `4` | Acquisition follow-up status only |
 | `operations` | `1` | `1` | Author-run packet bundle only |
+| `operations` | `1` | `3` | Cold-start operator sequence only |
 | `operations` | `1` | `4` | Current action navigation only |
 | `operations` | `1` | `2` | External blocker escalation status only |
 | `operations` | `1` | `2` | External blocker status only |
+| `operations` | `1` | `6` | Follow-up escalation drafts only |
 | `operations` | `1` | `3` | Received-package status update only |
 | `operations` | `1` | `6` | Request-sent intake template only |
 | `operations` | `1` | `10` | Request-sent status update only |
@@ -64,7 +67,7 @@ markers. Current V43-V45 analysis output footprint is approximately `150 MiB`.
 | `public_metadata_scout` | `3` | `20` | Cohort availability evidence only |
 | `synthetic_harness_verification` | `3` | `42` | Method behavior only |
 | `synthetic_intake_verification` | `1` | `2` | Expected missing-output guard only |
-| `synthetic_intake_verification` | `12` | `177` | Method behavior only |
+| `synthetic_intake_verification` | `13` | `188` | Method behavior only |
 | `synthetic_method_characterization` | `10` | `195` | Method behavior only |
 | `synthetic_regression` | `4` | `120` | Software regression only |
 | `validation_infrastructure` | `1` | `9` | Command handoff only |

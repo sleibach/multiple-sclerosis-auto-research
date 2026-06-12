@@ -1,0 +1,19 @@
+{
+  "expectation_met": true,
+  "expected_status": "PASS",
+  "n_hard_violations": 0,
+  "n_routes": 3,
+  "n_violations": 0,
+  "observed_status": "PASS",
+  "purpose": "V45 state-machine transition consistency guard; no biological claim",
+  "route_states": "analysis/v45_synthetic_received_package_dryrun/state_machine_validator/route_state_validation.tsv",
+  "sources": {
+    "dashboard": "analysis/v45_readiness_status_dashboard/readiness_status_dashboard_summary.json",
+    "external": "analysis/v45_external_blocker_board/external_blocker_board.tsv",
+    "followup": "analysis/v45_followup_due_board/live_template/followup_due_board.tsv",
+    "triage": "analysis/v45_synthetic_received_package_dryrun/received_status_updater/received_data_triage_status.proposed.tsv"
+  },
+  "synthetic": false,
+  "synthetic_case": "none",
+  "violations": "analysis/v45_synthetic_received_package_dryrun/state_machine_validator/state_machine_violations.tsv"
+}

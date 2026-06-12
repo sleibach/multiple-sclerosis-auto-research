@@ -35,6 +35,13 @@ Synthetic premature-harness-ready regression:
   --outdir analysis/v45_received_package_decision_tree/synthetic_premature_harness_ready
 ```
 
+End-to-end synthetic blocked-package dry run:
+
+```bash
+.venv/bin/python scripts/v45_synthetic_received_package_dryrun.py \
+  --outdir analysis/v45_synthetic_received_package_dryrun
+```
+
 ## Current Result
 
 Live status: `PASS`.
@@ -44,6 +51,9 @@ Live status: `PASS`.
 - hard issues: `0`.
 
 Synthetic premature-harness-ready regression: expected `FAIL`.
+
+Synthetic blocked-package dry run: `PASS`; blocked data-use terms keep
+`harness_ready=no` and `may_score_now=0`.
 
 ## Machine-Readable Outputs
 
@@ -58,6 +68,12 @@ Synthetic regression:
 - `analysis/v45_received_package_decision_tree/synthetic_premature_harness_ready/received_package_decision_tree.tsv`
 - `analysis/v45_received_package_decision_tree/synthetic_premature_harness_ready/received_package_decision_tree_issues.tsv`
 - `analysis/v45_received_package_decision_tree/synthetic_premature_harness_ready/received_package_decision_tree_summary.json`
+
+Blocked-package dry run:
+
+- `analysis/v45_synthetic_received_package_dryrun/synthetic_received_package_dryrun_summary.json`
+- `analysis/v45_synthetic_received_package_dryrun/received_package_decision_tree/received_package_decision_tree.tsv`
+- `analysis/v45_synthetic_received_package_dryrun/received_package_decision_tree/received_package_decision_tree_summary.json`
 
 ## Interpretation Boundary
 

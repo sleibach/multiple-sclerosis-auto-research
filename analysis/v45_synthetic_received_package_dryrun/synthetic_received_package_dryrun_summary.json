@@ -1,0 +1,38 @@
+{
+  "blocked_gate": "data_use_terms",
+  "cohort_id": "gafson_dmf_2018",
+  "decision_n_may_score_now": 0,
+  "expected_non_scoring": true,
+  "observed_non_scoring": true,
+  "operator_status": "analysis/v45_synthetic_received_package_dryrun/synthetic_gafson_first_24h_operator_status.tsv",
+  "overall_status": "PASS",
+  "proposed_board": "analysis/v45_synthetic_received_package_dryrun/received_status_updater/received_data_triage_status.proposed.tsv",
+  "purpose": "V45 synthetic received-package blocked-path dry run; no biological claim",
+  "state_observed_status": "PASS",
+  "steps": [
+    {
+      "command": "/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_received_status_updater.py --cohort-id gafson_dmf_2018 --role primary_V22_V42_validation --operator-status analysis/v45_synthetic_received_package_dryrun/synthetic_gafson_first_24h_operator_status.tsv --outdir analysis/v45_synthetic_received_package_dryrun/received_status_updater",
+      "returncode": 0,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "{\n  \"board\": \"analysis/v45_received_data_triage/received_data_triage_status.tsv\",\n  \"cohort_id\": \"gafson_dmf_2018\",\n  \"current_blocker\": \"terms not approved for preflight\",\n  \"harness_ready\": \"no\",\n  \"n_gates\": 14,\n  \"next_action\": \"complete_or_repair_data_use_terms\",\n  \"operator_status\": \"analysis/v45_synthetic_received_package_dryrun/synthetic_gafson_first_24h_operator_status.tsv\",\n  \"proposed_board\": \"analysis/v45_synthetic_received_package_dryrun/received_status_updater/received_data_triage_status.proposed.tsv\",\n  \"purpose\": \"received-data triage status updater; no biological claim\",\n  \"synthetic\": false,\n  \"write_board\": false\n}\n"
+    },
+    {
+      "command": "/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_state_machine_validator.py --triage analysis/v45_synthetic_received_package_dryrun/received_status_updater/received_data_triage_status.proposed.tsv --outdir analysis/v45_synthetic_received_package_dryrun/state_machine_validator --expect-status PASS",
+      "returncode": 0,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "{\n  \"expectation_met\": true,\n  \"expected_status\": \"PASS\",\n  \"n_hard_violations\": 0,\n  \"n_routes\": 3,\n  \"n_violations\": 0,\n  \"observed_status\": \"PASS\",\n  \"purpose\": \"V45 state-machine transition consistency guard; no biological claim\",\n  \"route_states\": \"analysis/v45_synthetic_received_package_dryrun/state_machine_validator/route_state_validation.tsv\",\n  \"sources\": {\n    \"dashboard\": \"analysis/v45_readiness_status_dashboard/readiness_status_dashboard_summary.json\",\n    \"external\": \"analysis/v45_external_blocker_board/external_blocker_board.tsv\",\n    \"followup\": \"analysis/v45_followup_due_board/live_template/followup_due_board.tsv\",\n    \"triage\": \"analysis/v45_synthetic_received_package_dryrun/received_status_updater/received_data_triage_status.proposed.tsv\"\n  },\n  \"synthetic\": false,\n  \"synthetic_case\": \"none\",\n  \"violations\": \"analysis/v45_synthetic_received_package_dryrun/state_machine_validator/state_machine_violations.tsv\"\n}\n"
+    },
+    {
+      "command": "/Users/soeren.leibach/Projects/ms-auto-research/.venv/bin/python scripts/v45_received_package_decision_tree.py --state-rows analysis/v45_synthetic_received_package_dryrun/state_machine_validator/route_state_validation.tsv --state-summary analysis/v45_synthetic_received_package_dryrun/state_machine_validator/state_machine_validator_summary.json --outdir analysis/v45_synthetic_received_package_dryrun/received_package_decision_tree --expect-status PASS",
+      "returncode": 0,
+      "status": "PASS",
+      "stderr_tail": "",
+      "stdout_tail": "{\n  \"expectation_met\": true,\n  \"expected_status\": \"PASS\",\n  \"issues\": \"analysis/v45_synthetic_received_package_dryrun/received_package_decision_tree/received_package_decision_tree_issues.tsv\",\n  \"n_hard_issues\": 0,\n  \"n_may_score_now\": 0,\n  \"n_routes\": 4,\n  \"observed_status\": \"PASS\",\n  \"purpose\": \"V45 first-24h received-package decision tree; no biological claim\",\n  \"sources\": {\n    \"actions\": \"analysis/v45_current_action_card/current_action_card.tsv\",\n    \"state_rows\": \"analysis/v45_synthetic_received_package_dryrun/state_machine_validator/route_state_validation.tsv\",\n    \"state_summary\": \"analysis/v45_synthetic_received_package_dryrun/state_machine_validator/state_machine_validator_summary.json\"\n  },\n  \"synthetic\": false,\n  \"synthetic_case\": \"none\",\n  \"tree\": \"analysis/v45_synthetic_received_package_dryrun/received_package_decision_tree/received_package_decision_tree.tsv\"\n}\n"
+    }
+  ],
+  "synthetic": true,
+  "updater_current_blocker": "terms not approved for preflight",
+  "updater_harness_ready": "no"
+}

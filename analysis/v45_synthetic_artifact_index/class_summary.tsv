@@ -1,4 +1,5 @@
 class	allowed_interpretation	n_dirs	n_files
+artifact_governance	external-report citation boundary only	1	2
 artifact_governance	refresh log only	1	1
 artifact_governance	storage/accounting only	1	3
 artifact_governance	index only	2	6
@@ -10,6 +11,7 @@ integrity_governance	cross-route readiness consistency only	1	6
 integrity_governance	generated-checker registry only	1	2
 integrity_governance	generated-document freshness check only	1	2
 integrity_governance	locked-artifact integrity only	1	9
+integrity_governance	no-score-before-gates documentation check only	1	5
 integrity_governance	outbound request packet integrity only	1	6
 integrity_governance	pre-commit readiness only	1	2
 integrity_governance	readiness dashboard only	1	3
@@ -21,9 +23,11 @@ integrity_governance	state-machine transition consistency only	1	6
 internal_convergence_null	data-free internal support, not clinical validation	6	32
 operations	acquisition follow-up status only	1	4
 operations	author-run packet bundle only	1	1
+operations	cold-start operator sequence only	1	3
 operations	current action navigation only	1	4
 operations	external blocker escalation status only	1	2
 operations	external blocker status only	1	2
+operations	follow-up escalation drafts only	1	6
 operations	received-package status update only	1	3
 operations	request-sent intake template only	1	6
 operations	request-sent status update only	1	10
@@ -36,7 +40,7 @@ public_metadata_preparation	acquisition readiness only	1	5
 public_metadata_scout	cohort availability evidence only	3	20
 synthetic_harness_verification	method behavior only	3	42
 synthetic_intake_verification	expected missing-output guard only	1	2
-synthetic_intake_verification	method behavior only	12	177
+synthetic_intake_verification	method behavior only	13	188
 synthetic_method_characterization	method behavior only	10	195
 synthetic_regression	software regression only	4	120
 validation_infrastructure	command handoff only	1	9

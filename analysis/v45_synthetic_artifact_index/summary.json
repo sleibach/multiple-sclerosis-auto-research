@@ -1,6 +1,12 @@
 {
   "classes": [
     {
+      "allowed_interpretation": "external-report citation boundary only",
+      "class": "artifact_governance",
+      "n_dirs": 1,
+      "n_files": 2
+    },
+    {
       "allowed_interpretation": "refresh log only",
       "class": "artifact_governance",
       "n_dirs": 1,
@@ -65,6 +71,12 @@
       "class": "integrity_governance",
       "n_dirs": 1,
       "n_files": 9
+    },
+    {
+      "allowed_interpretation": "no-score-before-gates documentation check only",
+      "class": "integrity_governance",
+      "n_dirs": 1,
+      "n_files": 5
     },
     {
       "allowed_interpretation": "outbound request packet integrity only",
@@ -133,6 +145,12 @@
       "n_files": 1
     },
     {
+      "allowed_interpretation": "cold-start operator sequence only",
+      "class": "operations",
+      "n_dirs": 1,
+      "n_files": 3
+    },
+    {
       "allowed_interpretation": "current action navigation only",
       "class": "operations",
       "n_dirs": 1,
@@ -149,6 +167,12 @@
       "class": "operations",
       "n_dirs": 1,
       "n_files": 2
+    },
+    {
+      "allowed_interpretation": "follow-up escalation drafts only",
+      "class": "operations",
+      "n_dirs": 1,
+      "n_files": 6
     },
     {
       "allowed_interpretation": "received-package status update only",
@@ -225,8 +249,8 @@
     {
       "allowed_interpretation": "method behavior only",
       "class": "synthetic_intake_verification",
-      "n_dirs": 12,
-      "n_files": 177
+      "n_dirs": 13,
+      "n_files": 188
     },
     {
       "allowed_interpretation": "method behavior only",
@@ -271,8 +295,8 @@
       "n_files": 4
     }
   ],
-  "n_dirs_containing_synthetic": 54,
-  "n_dirs_indexed": 83,
+  "n_dirs_containing_synthetic": 57,
+  "n_dirs_indexed": 88,
   "purpose": "artifact governance index; no biological claim",
   "synthetic": false
 }

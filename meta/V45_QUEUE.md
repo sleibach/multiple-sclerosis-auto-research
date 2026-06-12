@@ -156,9 +156,14 @@ generate more internally executable tasks before continuing.
 | 129 | Validation readiness | Add a cold-start operator command sequence generator from the current action card and route state | done | Wrote `scripts/v45_cold_start_operator_sequence.py`, `docs/validation/COLD_START_OPERATOR_SEQUENCE_V45.md`, and outputs under `analysis/v45_cold_start_operator_sequence/`; generated `4` route sequences with `0` `may_score_now=yes`, linked it near the top of the operational handoff, and stale detector now tracks `20` artifacts with `0` stale/missing. |
 | 130 | Cohort dependence | Add a follow-up escalation packet generator keyed to due-board age and external-blocker state | done | Wrote `scripts/v45_followup_escalation_packet_generator.py`, `docs/validation/FOLLOWUP_ESCALATION_PACKETS_V45.md`, and live packets under `analysis/v45_followup_escalation_packets/live/`; generated `4` route packets, all `not_sent_ready`, `0` overdue/due-now, and stale detector now tracks `21` artifacts with `0` stale/missing. |
 | 131 | Infrastructure | Add an evidence-class manifest for external reports mapping each cited V45 artifact to allowed interpretation | done | Wrote `scripts/v45_external_report_evidence_manifest.py`, `docs/reports/EXTERNAL_REPORT_EVIDENCE_MANIFEST_V45.md`, and outputs under `analysis/v45_external_report_evidence_manifest/`; scanned `3` external-facing reports with `80` references, `57` V45-indexed, `23` existing non-V45/historical, and `0` missing. |
-| 132 | Robustness | Add an end-to-end synthetic received-package state-machine dry run from arrival packet through blocked/non-scoring decision | todo | Self-generated after item 127 to test the operator route without reading real quarantined data. |
+| 132 | Robustness | Add an end-to-end synthetic received-package state-machine dry run from arrival packet through blocked/non-scoring decision | done | Wrote `scripts/v45_synthetic_received_package_dryrun.py`, `docs/validation/SYNTHETIC_RECEIVED_PACKAGE_DRYRUN_V45.md`, and outputs under `analysis/v45_synthetic_received_package_dryrun/`; synthetic Gafson fixture with receipt/quarantine passed but `data_use_terms=blocked` stays `harness_ready=no`, state-machine validator `PASS`, decision tree `may_score_now=0`, and stale detector now tracks `22` artifacts with `0` stale/missing. |
 | 133 | Validation readiness | Add an author-run aggregate report schema validator for returned collaborator-run outputs | todo | Self-generated after item 127 to validate aggregate-only return packages before any interpretation. |
 | 134 | Infrastructure | Add an OpenGWAS token-expiry sentinel for readiness docs and queue state | todo | Self-generated after item 127 because the JWT expiry is near and auth failure must not masquerade as a null. |
+| 135 | Integrity | Add a received-package dry-run freshness check into the generated checker registry | todo | Self-generated after item 132 so the new synthetic blocked-package path is discoverable from the generated checker registry. |
+| 136 | Validation readiness | Add a returned-package minimum-safe-interpretation classifier that maps analyzable pairs and gates to pass/fail/inconclusive wording before any score is read | todo | Self-generated after item 132 to prevent over-interpretation of small or partial returns. |
+| 137 | Infrastructure | Add a compact V45 operator smoke-test command bundle that runs the essential readiness checks in the right order | todo | Self-generated after item 132 to make cold-start handoff executable without reading scattered docs. |
+| 138 | Cohort dependence | Add a route-specific external-blocker aging audit that flags stale acquisition routes and recommends the next non-data follow-up step | todo | Self-generated after item 132 to keep cohort acquisition moving while Gafson is delayed. |
+| 139 | Robustness | Add a synthetic terms-governance edge-case matrix for allowed local preflight vs author-run-only vs no-processing terms | todo | Self-generated after item 132 to stress the terms gate beyond the single blocked fixture. |
 
 ## Generated Follow-Ups
 
@@ -1046,3 +1051,15 @@ todo items.
   with `80` concrete references, `4` placeholders ignored, and `0` missing.
 - Next selected task: end-to-end synthetic received-package state-machine dry
   run.
+- Synthetic received-package state-machine dry run completed. The synthetic
+  Gafson first-24h operator status marks receipt and quarantine as passed but
+  blocks `data_use_terms`; the received-status updater keeps
+  `harness_ready=no` with blocker `terms not approved for preflight`, the
+  state-machine validator passes, and the decision tree keeps
+  `may_score_now=0`. The dry run is documented, classified as synthetic intake
+  verification, tracked by the stale-output detector (`22` artifacts checked,
+  `0` stale/missing), and all safety checks passed: locked-artifact hash audit,
+  no-raw scanner, generated-doc freshness, stale detector, and `git diff
+  --check`.
+- Backlog refilled above threshold with items 135-139.
+- Next selected task: author-run aggregate report schema validator.
