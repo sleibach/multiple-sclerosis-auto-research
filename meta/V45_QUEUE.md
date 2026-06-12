@@ -18,8 +18,8 @@ generate more internally executable tasks before continuing.
 
 | Iteration | Start UTC | End UTC | Status | Notes |
 |---|---:|---:|---|---|
-| 1 | 2026-06-12T16:06:13Z |  | in-progress | Initialized V45. OpenGWAS POST check passed; JWT expires 2026-06-19 12:28 UTC. SAP AI Core Claude/Gemini/RPT smoke-passed. |
-| 1r | 2026-06-12T16:14:02Z |  | in-progress | Resumed V45. OpenGWAS POST check passed; Claude/Gemini/RPT smoke-passed with corrected Gemini exact model name. |
+| 1 | 2026-06-12T16:06:13Z | 2026-06-12T22:06:26Z | done | Initialized V45. OpenGWAS POST check passed; JWT expires 2026-06-19 12:28 UTC. SAP AI Core Claude/Gemini/RPT smoke-passed. Block target reached at a clean committed point after 360 minutes 13 seconds measured wall-clock runtime. |
+| 1r | 2026-06-12T16:14:02Z | 2026-06-12T22:06:26Z | done | Resumed V45. OpenGWAS POST check passed after fixing `.env` override behavior; Claude/Gemini/RPT smoke-passed with corrected Gemini exact model name. |
 
 ## Live Backlog
 
@@ -1094,3 +1094,7 @@ todo items.
   for shortened generator names and fixed empty `observed_statuses` TSV fields
   to avoid trailing whitespace. Stale detector passes `23` artifacts with `0`
   stale/missing.
+- V45 block stop condition reached at `2026-06-12T22:06:26Z`, exceeding the
+  6-hour target from `2026-06-12T16:06:13Z` by `13` seconds. Stop reason:
+  target runtime reached at a clean committed point, with backlog preserved for
+  future work.
