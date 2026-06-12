@@ -66,8 +66,10 @@ manual review.
 
 For author-run aggregate returns:
 
-1. Run this redaction precheck.
-2. Only if it passes, run `scripts/v45_author_run_output_check.py`.
+1. Run the combined return gate runner
+   `scripts/v45_author_run_return_gate_runner.py`, or run this redaction
+   precheck directly.
+2. Only if redaction passes, run `scripts/v45_author_run_output_check.py`.
 3. Only if completeness passes, fill the V45 result report template.
 4. Interpret under the pre-registered outcome grid.
 

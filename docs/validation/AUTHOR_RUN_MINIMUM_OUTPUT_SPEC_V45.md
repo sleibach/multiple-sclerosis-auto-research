@@ -19,6 +19,10 @@ Redaction precheck to run before completeness:
 
 `docs/validation/AUTHOR_RUN_REDACTION_PRECHECK_V45.md`
 
+Combined return-gate runner:
+
+`docs/validation/AUTHOR_RUN_RETURN_GATE_RUNNER_V45.md`
+
 ## Minimum Required Files
 
 Returned outputs must be sufficient to:

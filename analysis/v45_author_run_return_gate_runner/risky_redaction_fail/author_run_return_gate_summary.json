@@ -1,0 +1,21 @@
+{
+  "completeness_status": "SKIPPED",
+  "completeness_summary": {},
+  "overall_status": "FAIL",
+  "package_state": "scored",
+  "purpose": "author-run aggregate return gate runner; no biological claim",
+  "redaction_status": "FAIL",
+  "redaction_summary": {
+    "audit": "analysis/v45_author_run_return_gate_runner/risky_redaction_fail/redaction_precheck/author_run_redaction_precheck.tsv",
+    "n_block": 3,
+    "n_files_scanned": 12,
+    "n_warn": 0,
+    "overall_status": "FAIL",
+    "purpose": "author-run aggregate package redaction precheck; no biological claim",
+    "root": "analysis/v45_author_run_redaction_precheck/synthetic_risky_aggregate_package",
+    "synthetic": true
+  },
+  "root": "analysis/v45_author_run_redaction_precheck/synthetic_risky_aggregate_package",
+  "steps": "analysis/v45_author_run_return_gate_runner/risky_redaction_fail/author_run_return_gate_steps.tsv",
+  "synthetic": true
+}

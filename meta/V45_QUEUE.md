@@ -122,8 +122,8 @@ generate more internally executable tasks before continuing.
 | 95 | Validation readiness | Add a collaborator-return redaction precheck for aggregate author-run packages | done | Wrote `scripts/v45_author_run_redaction_precheck.py`, `docs/validation/AUTHOR_RUN_REDACTION_PRECHECK_V45.md`, and synthetic outputs under `analysis/v45_author_run_redaction_precheck/`; complete aggregate fixture passes with `0` blocks, risky synthetic package fails with `3` blocks. |
 | 96 | Infrastructure | Add a collaborator package path resolver that checks all README-linked artifacts resolve after every readiness update | done | Wrote `scripts/v45_collaborator_package_path_resolver.py`, `docs/validation/COLLABORATOR_PACKAGE_PATH_RESOLVER_V45.md`, and outputs under `analysis/v45_collaborator_path_resolver/`; live package sources pass with `154` concrete references resolved and `0` missing, while a synthetic broken source fails with `1` missing reference. |
 | 97 | Infrastructure | Run the next full precommit readiness wrapper after generated checker tasks are committed | done | Full wrapper passes `5/5` in `96.541` seconds; refreshed artifact index now covers `746` V45 paths, synthetic/governance index covers `62` V43-V45 dirs, and V45 analysis storage covers `56` dirs / `582` files / `85.053 MiB`. |
-| 98 | Validation readiness | Add a one-command author-run return gate runner chaining redaction precheck then output completeness | in-progress | Generated after item 97; should run on aggregate returns only, fail before completeness if redaction blocks, and include synthetic pass/fail fixtures. |
-| 99 | Operations | Add a follow-up due-board generator from request-sent logs and outbound tracker states | todo | Generated after item 97; should surface overdue/pending acquisition follow-ups without implying data receipt. |
+| 98 | Validation readiness | Add a one-command author-run return gate runner chaining redaction precheck then output completeness | done | Wrote `scripts/v45_author_run_return_gate_runner.py`, `docs/validation/AUTHOR_RUN_RETURN_GATE_RUNNER_V45.md`, and synthetic outputs under `analysis/v45_author_run_return_gate_runner/`; `3/3` synthetic cases match expected pass/fail behavior and redaction-fail skips completeness. |
+| 99 | Operations | Add a follow-up due-board generator from request-sent logs and outbound tracker states | in-progress | Selected next after item 98; should surface overdue/pending acquisition follow-ups without implying data receipt. |
 | 100 | Infrastructure | Add a validation-readiness status dashboard that summarizes tracker, triage, precommit, path resolver, and handoff checks | todo | Generated after item 97; should be read-only governance/status aggregation with no biology. |
 | 101 | Validation readiness | Add a checksum manifest builder for the author-run packet bundle index | todo | Generated after item 97; should hash included non-sensitive packet files so collaborator bundles can be checked after transfer. |
 | 102 | Operations | Add an external-blocker board that merges live cohort acquisition index, outbound tracker, and received triage state | todo | Generated after item 97; should make all remaining external blockers explicit and separate them from internal executable work. |
@@ -754,3 +754,11 @@ todo items.
   checksum builder, external-blocker board, generated-checker registry, and
   human operator checklist tasks.
 - Next selected task: one-command author-run return gate runner.
+- Author-run return gate runner completed. It chains redaction precheck before
+  completeness and skips completeness if redaction fails. Synthetic branch
+  regression covers complete-pass, clean-incomplete completeness fail, and risky
+  redaction fail, with `3/3` expected outcomes. The collaborator path resolver
+  was rerun after linking the runner and still passes with `155` concrete
+  references and `0` missing.
+- Next selected task: follow-up due-board generator from request-sent logs and
+  outbound tracker states.

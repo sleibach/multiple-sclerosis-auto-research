@@ -1,0 +1,34 @@
+{
+  "completeness_status": "PASS",
+  "completeness_summary": {
+    "n_hard_fail": 0,
+    "n_required_now": 9,
+    "n_rows": 10,
+    "overall_status": "PASS",
+    "package_state": "scored",
+    "purpose": "author-run returned-output completeness check; no biological claim",
+    "root": "analysis/v45_author_run_output_check/synthetic_complete_author_run_package",
+    "status_counts": {
+      "MISSING": 1,
+      "PRESENT": 9
+    },
+    "synthetic": true
+  },
+  "overall_status": "PASS",
+  "package_state": "scored",
+  "purpose": "author-run aggregate return gate runner; no biological claim",
+  "redaction_status": "PASS",
+  "redaction_summary": {
+    "audit": "analysis/v45_author_run_return_gate_runner/complete_pass/redaction_precheck/author_run_redaction_precheck.tsv",
+    "n_block": 0,
+    "n_files_scanned": 9,
+    "n_warn": 0,
+    "overall_status": "PASS",
+    "purpose": "author-run aggregate package redaction precheck; no biological claim",
+    "root": "analysis/v45_author_run_output_check/synthetic_complete_author_run_package",
+    "synthetic": true
+  },
+  "root": "analysis/v45_author_run_output_check/synthetic_complete_author_run_package",
+  "steps": "analysis/v45_author_run_return_gate_runner/complete_pass/author_run_return_gate_steps.tsv",
+  "synthetic": true
+}

@@ -1,0 +1,4 @@
+case	root	expected	observed	redaction_status	completeness_status	returncode_without_fail_on_error
+complete_pass	analysis/v45_author_run_output_check/synthetic_complete_author_run_package	PASS	PASS	PASS	PASS	0
+incomplete_completeness_fail	analysis/v45_author_run_return_gate_runner/synthetic_clean_incomplete_package	FAIL	FAIL	PASS	FAIL	0
+risky_redaction_fail	analysis/v45_author_run_redaction_precheck/synthetic_risky_aggregate_package	FAIL	FAIL	FAIL	SKIPPED	0

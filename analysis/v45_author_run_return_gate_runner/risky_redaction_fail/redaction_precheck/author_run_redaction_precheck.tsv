@@ -1,0 +1,13 @@
+package_file	allowed_minimum_output_name	severity	reasons
+RUN_METADATA.txt	True	PASS	
+batch_diagnostic_metrics.tsv	True	PASS	
+clinical_response_labels.tsv	False	BLOCK	clinical_label_column;clinical_label_filename;sample_or_subject_identifier_column;sample_or_subject_level_column
+confounder_adjustment_metrics.tsv	True	PASS	
+gene_mapping_coverage.tsv	True	PASS	
+joint_confounder_metrics.tsv	True	PASS	
+locked_rule_metrics.tsv	True	PASS	
+private_email_reply.txt	False	BLOCK	email_address_text;private_agreement_or_correspondence_text;private_correspondence_or_agreement_filename
+raw_expression_matrix.tsv	False	BLOCK	raw_expression_or_matrix_filename;sample_or_subject_identifier_column;sample_or_subject_level_column
+sample_attrition.tsv	True	PASS	
+validation_result_report.md	True	PASS	
+validation_summary.json	True	PASS	

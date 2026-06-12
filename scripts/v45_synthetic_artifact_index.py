@@ -52,6 +52,7 @@ MANUAL_CLASS = {
     "analysis/v45_collaborator_path_resolver": ("integrity_governance", "collaborator package path integrity only"),
     "analysis/v45_author_run_packet_bundle": ("operations", "author-run packet bundle only"),
     "analysis/v45_author_run_redaction_precheck": ("synthetic_intake_verification", "method behavior only"),
+    "analysis/v45_author_run_return_gate_runner": ("synthetic_intake_verification", "method behavior only"),
     "analysis/v45_received_data_triage": ("operations", "acquisition operations only"),
     "analysis/v45_received_status_updater": ("operations", "received-package status update only"),
     "analysis/v45_request_sent_updater": ("operations", "request-sent status update only"),
