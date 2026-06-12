@@ -19,7 +19,7 @@ Target UTC (+360 min): 2026-06-12T21:20:06Z
 | 4 | WS4 self-audit weak leg | Resolve why V41 joint z is borderline while recurrence is strong | done | Wrote `docs/history/SELF_AUDIT_WEAK_LEG_V44.md`. Joint gate is borderline because the family-wise max-z null is high (`z/null p95=0.988`, FWER `0.0684`); recurrence is more defensible (`78` positive source units vs null p95 `12`, FWER `0.0001`). |
 | 5 | WS5 internal validation | Deepen synthetic-null/convergence evidence for APC/HLA-II monitoring lead | done | Wrote `docs/validation/APC_HLA_INTERNAL_CONVERGENCE_V44.md`; ran 20,000-replicate global, modality-aware, and source-local recurrence nulls. APC/HLA/IFN recurrence `78` remains above strictest null p99 `41`; no single modality/source file removal eliminates it. |
 | 6 | WS6 infrastructure | Confirm/document SAP RPT true status and consolidate reusable machinery | done | Wrote `meta/INFRASTRUCTURE_STATUS_V44.md` and updated `meta/SAP_AI_CORE_ACCESS_V30.md`. Claude, Gemini, and SAP RPT smoke-pass; Gemini requires non-tiny output-token caps; RPT is genuinely implemented via `/predict`. |
-| 7 | WS7 external writeup | Draft skeptical external account of positive/negative results | in-progress | Draft publication-grade skeptical account and limitations. |
+| 7 | WS7 external writeup | Draft skeptical external account of positive/negative results | done | Wrote `docs/reports/EXTERNAL_ACCOUNT_DRAFT_V44.md`, foregrounding no intervention-grade target, provisional monitoring status, confounder/batch bounds, and the Gafson dependence problem. |
 
 ## Constraints
 
@@ -71,3 +71,10 @@ Target UTC (+360 min): 2026-06-12T21:20:06Z
   `rpt-smoke` passed through the Python client. Documented reusable validation
   and simulation components.
 - Next started item: Workstream 7 skeptical external account.
+- Workstream 7 completed at 2026-06-12T15:49:54Z. Drafted a skeptical external
+  account in `docs/reports/EXTERNAL_ACCOUNT_DRAFT_V44.md`. The draft states
+  the negative target result, the provisional and confounder/batch-bounded
+  monitoring status, and why Gafson is necessary but may not be sufficient.
+- Seeded V44 backlog complete. Remaining maintenance before final stop:
+  update current status / next actions / session log and rebuild the index if
+  the repository provides an index command.
