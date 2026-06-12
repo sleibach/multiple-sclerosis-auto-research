@@ -1,0 +1,8 @@
+cohort	trigger	escalation_level	ask	if_blocked	allowed_return
+gafson_dmf_neda	no_reply_day_7	reminder	paired expression; sample metadata; NEDA-4 dictionary; batch/QC/steroid metadata	keep primary path delayed; continue parallel readiness	files or author-run frozen harness outputs
+gafson_dmf_neda	no_reply_day_14	alternate_contact	same files or author-run frozen harness	record delayed; do not demote lead	aggregate frozen harness outputs
+gafson_dmf_neda	data_cannot_leave_institution	author_run_offer	frozen V42 harness run and non-sensitive outputs	require enough output fields to fill V45 report	validation_summary; metrics; attrition; confounder summaries
+karolinska_dmf_ros	labels_not_shareable	minimal_derived_ask	beneficial-response label; subject/timepoint map; terms	keep as secondary path; no outcome scoring	de-identified derived label/map table
+karolinska_dmf_ros	gsm_mapping_unavailable	map_only_ask	baseline/6-month pair table	no validation; public expression insufficient	subject-map table or local subject-map sanity output
+gse228330_ocrelizumab	response_labels_unavailable	context_only_ask	verified subject map; processed expression/probe mapping	context only if gates pass	context-only pharmacodynamic outputs
+gse228330_ocrelizumab	labels_available_limited	label_dictionary_ask	label values; orientation; assessment window	write blind addendum before scoring	de-identified label dictionary and map
