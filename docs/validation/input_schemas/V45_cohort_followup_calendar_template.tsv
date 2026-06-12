@@ -1,0 +1,12 @@
+cohort	relative_due	action	required_fields_or_files	if_no_response	status_field_to_update
+gafson_dmf_neda	day_0	send primary data request packet	paired PBMC expression; sample metadata; NEDA-4 labels; batch/QC/steroid metadata	keep V42/Gafson harness ready; continue parallel cohort paths	request_sent
+gafson_dmf_neda	day_3_business	polite receipt confirmation	confirmation request was received	no analysis change	request_status
+gafson_dmf_neda	day_7_calendar	first follow-up with exact required files	paired baseline/early matrix; NEDA-4 dictionary; subject map; manifest	continue Karolinska/GSE228330 paths	request_status
+gafson_dmf_neda	day_14_calendar	escalate to alternative contact/coauthor if available	same as primary request	treat Gafson as delayed, not failed	request_status
+gafson_dmf_neda	day_28_calendar	no-data checkpoint	status only	update board; do not reinterpret lead	data_received
+karolinska_dmf_ros	day_0	send beneficial-response label and GSM mapping request	beneficial response labels; GSM-to-patient/timepoint map; terms	keep addendum template unfinalized	request_sent
+karolinska_dmf_ros	day_7_calendar	follow up on labels and patient/timepoint map	labels and subject map	do not score public expression without labels/map	request_status
+karolinska_dmf_ros	day_21_calendar	request de-identified derived labels if raw data cannot be shared	derived label table; map; terms	keep as secondary parallel path	request_status
+gse228330_ocrelizumab	day_0	send optional outcome-label and subject-map request	outcome labels if available; processed expression; subject map	context-only path remains separate	request_sent
+gse228330_ocrelizumab	day_7_calendar	request processed expression or probe mapping plus verified subject map	processed expression; probe annotation; subject map	do not infer pairing from public order	request_status
+gse228330_ocrelizumab	day_21_calendar	request pharmacodynamic metadata clarification if labels unavailable	timepoint map; batch/QC; treatment metadata	keep no-response-claim guard	request_status
