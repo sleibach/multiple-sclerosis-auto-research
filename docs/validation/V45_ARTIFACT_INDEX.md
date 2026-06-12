@@ -35,17 +35,20 @@ Outputs:
 
 ## Current Summary
 
-The current run indexes `338` paths across `8` fronts and `9` evidence classes.
+The current run indexes `584` paths across `8` fronts and `9` evidence classes.
+This refresh supersedes the earlier item-38 snapshot, which covered roughly
+`338-339` paths before the later V45 regression, readiness, acquisition, and
+module-coverage artifacts were added.
 
 Front counts:
 
 | Front | Paths |
 |---|---:|
-| robustness | 138 |
-| infrastructure | 108 |
-| cohort dependence | 37 |
+| robustness | 193 |
+| infrastructure | 187 |
+| power/design | 113 |
+| cohort dependence | 49 |
 | data-free validation | 31 |
-| power/design | 13 |
 | infrastructure/RPT | 8 |
 | external account | 2 |
 | resume backbone | 1 |
@@ -54,15 +57,31 @@ Evidence-class counts:
 
 | Evidence class | Paths | Allowed interpretation |
 |---|---:|---|
-| synthetic method behavior | 161 | method behavior/planning only; never biological evidence |
-| validation infrastructure | 49 | mechanical guardrail/readiness; no biological claim |
-| public/external acquisition operations | 34 | cohort availability/request readiness; no validation claim |
-| documentation/governance | 31 | governance/readiness documentation |
+| synthetic method behavior | 341 | method behavior/planning only; never biological evidence |
+| documentation/governance | 70 | governance/readiness documentation |
+| validation infrastructure | 57 | mechanical guardrail/readiness; no biological claim |
+| public/external acquisition operations | 44 | cohort availability/request readiness; no validation claim |
+| software | 35 | executable infrastructure; no biological claim by itself |
 | internal convergence null | 27 | data-free internal support; not clinical validation |
-| software | 26 | executable infrastructure; no biological claim by itself |
 | proposal-lens grounding | 7 | proposal prioritization only; no model output as evidence |
 | synthesis documentation | 2 | external framing/checklist; no new analysis |
 | resume state | 1 | resume state and running backlog |
+
+## Drift Since Earlier Snapshot
+
+The path count increased by about `245-246` paths because V45 continued after
+the original index was committed. The dominant additions were:
+
+- synthetic and regression outputs from primary, secondary, preflight,
+  subject-map, response-column, checksum, and module-coverage checks;
+- cohort-dependence and acquisition-operation records for Gafson, Karolinska,
+  and GSE228330;
+- validation-readiness guardrails such as the outcome-label dictionary, received
+  data board, command-runner plan, and module-coverage precheck;
+- infrastructure scripts and docs that make the validation handoff executable.
+
+The refresh does not change interpretation. The index remains an artifact
+governance ledger, not a result ledger.
 
 Rows with `latest_commit=pending_this_checkpoint` are files created by the same
 checkpoint that generated this index; the commit hash becomes available after
