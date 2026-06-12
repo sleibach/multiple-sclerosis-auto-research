@@ -1,0 +1,66 @@
+{
+  "checks": {
+    "postpartum_null_expected_fail": true,
+    "postpartum_planted_expected_pass": true,
+    "tb_null_expected_fail": true,
+    "tb_planted_expected_pass": true
+  },
+  "results": {
+    "postpartum_null": {
+      "auc_ci_high": 0.7094867537585754,
+      "auc_ci_low": 0.39998055712669683,
+      "mode": "null",
+      "n": 60,
+      "n_relapse": 30,
+      "pass": false,
+      "primary_auc": 0.5511111111111111,
+      "primary_hedges_g": 0.15691396153080545,
+      "residual_auc_steroid_dmt": 0.54,
+      "synthetic": true
+    },
+    "postpartum_planted": {
+      "auc_ci_high": 0.991092261904762,
+      "auc_ci_low": 0.8529066113624937,
+      "mode": "planted",
+      "n": 60,
+      "n_relapse": 30,
+      "pass": true,
+      "primary_auc": 0.9333333333333333,
+      "primary_hedges_g": 2.3046936367406556,
+      "residual_auc_steroid_dmt": 0.9355555555555556,
+      "synthetic": true
+    },
+    "tb_null": {
+      "b_plasma_auc": 0.44222222222222224,
+      "b_plasma_auc_ci_high": 0.5944398738516384,
+      "b_plasma_auc_ci_low": 0.2997959760827408,
+      "b_plasma_hedges_g": -0.23489911535560198,
+      "b_plasma_residual_auc": 0.55,
+      "mode": "null",
+      "n": 60,
+      "n_responders": 30,
+      "pass": false,
+      "synthetic": true,
+      "t_cell_auc": 0.3322222222222222,
+      "t_cell_hedges_g": -0.5482611158550804,
+      "t_cell_residual_auc": 0.6688888888888889
+    },
+    "tb_planted": {
+      "b_plasma_auc": 0.8533333333333334,
+      "b_plasma_auc_ci_high": 0.9409133184523809,
+      "b_plasma_auc_ci_low": 0.7618073092031425,
+      "b_plasma_hedges_g": 1.495486163084176,
+      "b_plasma_residual_auc": 0.8611111111111112,
+      "mode": "planted",
+      "n": 60,
+      "n_responders": 30,
+      "pass": true,
+      "synthetic": true,
+      "t_cell_auc": 0.6144444444444445,
+      "t_cell_hedges_g": 0.39679381874848463,
+      "t_cell_residual_auc": 0.6255555555555555
+    }
+  },
+  "seed": 44044,
+  "synthetic": true
+}

@@ -284,3 +284,31 @@ Synthetic validation:
   null failed (`FAIL_ADEQUATE_POWER`, AUC `0.520`) and planted signal passed
   (`PASS_CLEAN`, AUC `1.000`) in
   `analysis/v44_batch_guard/harness_synthetic_check/`.
+
+## V44 Secondary Lead Readiness Addendum
+
+V44 also pre-registered the two other live, data-gated leads so incoming
+non-Gafson datasets can be used mechanically rather than opportunistically.
+
+New frozen preparation artifacts:
+
+- `docs/validation/POSTPARTUM_APC_ARM_PREREGISTRATION_V44.md`: fixed test of
+  postpartum HLA-II/CD64 APC-arm rebound failure against relapse-window status.
+- `docs/validation/TB_COMPARTMENT_PREREGISTRATION_V44.md`: fixed test of
+  B/plasma-like and T-like readability of the early IFN/APC/STAT1 monitoring
+  state.
+- `scripts/v44_secondary_lead_harnesses.py`: seeded synthetic null/planted
+  mechanics checks for both plans.
+- `analysis/v44_secondary_lead_harnesses/`: synthetic outputs and metrics.
+
+Synthetic verification:
+
+- Postpartum APC-arm null failed: AUC `0.551`, Hedges g `0.157`.
+- Postpartum APC-arm planted signal passed: AUC `0.933`, Hedges g `2.305`.
+- T/B compartment null failed: B/plasma AUC `0.442`.
+- T/B compartment planted signal passed: B/plasma AUC `0.853`, residual AUC
+  `0.861`, T-like AUC `0.614`.
+
+These plans do not supersede the V22/V42 Gafson validation. They only broaden
+readiness if a postpartum MS relapse-window cohort or compartment-resolved
+treatment-response cohort becomes available first.
