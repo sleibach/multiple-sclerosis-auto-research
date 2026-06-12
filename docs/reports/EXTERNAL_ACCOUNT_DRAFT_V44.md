@@ -50,6 +50,45 @@ Correct external framing:
 > V45 improves validation readiness and auditability. It does not add clinical
 > validation and does not make synthetic data biological evidence.
 
+## V45 Readiness Appendix For Reviewers
+
+V45 now has a reviewer-oriented handoff layer. These artifacts are operational
+and methodological; none is a biological validation result.
+
+| Reviewer question | Artifact |
+|---|---|
+| What did V45 produce, and how should each output be interpreted? | `docs/validation/V45_ARTIFACT_INDEX.md`; `analysis/v45_artifact_index/v45_artifact_index.tsv` |
+| What should a collaborator send? | `docs/validation/COLLABORATOR_VALIDATION_PACKAGE_README_V45.md`; `docs/validation/CLINICAL_DATA_DICTIONARY_CRF_V45.md` |
+| Which cohorts are live, and what blocks each? | `docs/validation/LIVE_COHORT_ACQUISITION_PACKET_INDEX_V45.md`; `docs/validation/OUTBOUND_DATA_REQUEST_TRACKER_V45.md` |
+| What exact request packets are ready? | `docs/validation/outbound_requests/` |
+| How are data-use terms captured before analysis? | `docs/validation/DATA_USE_TERMS_CAPTURE_V45.md`; `docs/validation/input_schemas/V45_data_use_terms_capture_template.tsv` |
+| How are received outcome labels defined before scoring? | `docs/validation/OUTCOME_LABEL_DICTIONARY_TEMPLATE_V45.md`; `docs/validation/input_schemas/V45_outcome_label_dictionary_template.tsv` |
+| What command sequence runs before a harness? | `docs/validation/VALIDATION_COMMAND_RUNNER_V45.md`; `analysis/v45_validation_command_runner/` |
+| How is invalid sample pairing blocked? | `docs/validation/SUBJECT_MAP_SANITY_CHECKER_V45.md` |
+| How is pharmacodynamic-only response leakage blocked? | `docs/validation/RESPONSE_COLUMN_AUDIT_V45.md` |
+| How are small handoff packages checksummed? | `docs/validation/CHECKSUM_MANIFEST_VALIDATOR_V45.md` |
+| Are array/CEL cohorts locally processable now? | `docs/validation/ARRAY_PROCESSING_READINESS_V45.md` |
+| How does dropout/missingness affect planning? | `docs/validation/DROPOUT_MISSING_TIMEPOINT_SENSITIVITY_V45.md`; `docs/validation/SECONDARY_MISSING_TIMEPOINT_STRESS_V45.md` |
+| Is the primary harness regression-tested? | `docs/validation/PRIMARY_HARNESS_REGRESSION_TESTS_V45.md` |
+
+Reviewer path:
+
+1. Start with the artifact index to separate synthetic method behavior,
+   public-metadata scouting, software, internal convergence nulls, and
+   operational documents.
+2. Read the collaborator package README to see the full intake order.
+3. Verify that the command-runner plans require terms, checksums, preflight,
+   subject-map sanity, and preregistration confirmation before harness handoff.
+4. Check that the subject-map and response-column guards fail the expected
+   negative fixtures.
+5. Confirm that no V45 artifact changes the V22 locked rule or V42 thresholds.
+
+Short form:
+
+> V45 converts delayed-data waiting time into an auditable validation operations
+> layer. It makes future external validation harder to fool, but it does not
+> itself validate the monitoring signal.
+
 ## Main Claims
 
 ### Claim 1: No Intervention-Grade Genetics Target Was Produced

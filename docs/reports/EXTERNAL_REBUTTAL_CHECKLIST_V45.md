@@ -41,6 +41,7 @@ where the answer is still incomplete, and what evidence must not be overstated.
 | Secondary real-ingest harnesses | `docs/validation/SECONDARY_REAL_INGEST_HARNESS_V45.md`; `scripts/v45_secondary_real_cohort_harness.py` | complete | Synthetic null/planted mechanics only; no real matching cohort opened. |
 | Secondary pathology stress tests | V45 postpartum and T/B pathology docs | complete | Synthetic only; defines data-quality envelope. |
 | Pharmacodynamic-only context path | `docs/validation/PHARMACODYNAMIC_ONLY_HARNESS_V45.md`; `docs/validation/GSE228330_PHARMACODYNAMIC_RUNBOOK_V45.md` | complete as infrastructure | GSE228330 needs expression reprocessing and confirmed subject map before context harness use. |
+| V45 readiness handoff/index | `docs/validation/V45_ARTIFACT_INDEX.md`; `docs/validation/COLLABORATOR_VALIDATION_PACKAGE_README_V45.md`; `docs/validation/VALIDATION_COMMAND_RUNNER_V45.md` | complete as operational appendix | Does not create validation evidence; it makes future intake auditable. |
 
 ## Skeptical Rebuttal Table
 
